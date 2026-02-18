@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -40,7 +40,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'A comprehensive juridical documentation of crimes against humanity and democratic institutions',
     severity: 'critical',
     category: 'Crimes Against Humanity',
-    date: 'February 8, 2026',
+    date: 'May 30, 2024',
     lastUpdated: 'February 8, 2026',
     summary: 'Donald Trump represents the most comprehensively documented criminal enterprise to ever occupy the White House. This compendium catalogs 91 felony indictments across four jurisdictions, 34 felony convictions, $454 million in civil fraud judgments, $88 million in defamation verdicts, and countless additional crimes that have gone unprosecuted due to DOJ policy, expired statutes of limitations, or political protection.',
     content: [
@@ -76,7 +76,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The global trafficking operation and its powerful enablers',
     severity: 'critical',
     category: 'Human Trafficking',
-    date: 'February 8, 2026',
+    date: 'July 8, 2009',
     lastUpdated: 'February 8, 2026',
     summary: 'Jeffrey Epstein operated a sophisticated child sex trafficking network for decades, enabled by wealth, powerful connections, and a corrupt 2008 plea deal. His victims numbered in the hundreds. His associates included Donald Trump, Bill Clinton, Prince Andrew, and numerous other powerful figures. Epstein died in federal custody in 2019 under suspicious circumstances; Ghislaine Maxwell was convicted and sentenced to 20 years.',
     content: [
@@ -154,7 +154,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Sweeping and systematic interference to help Trump win',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'July 2016',
+    date: 'December 9, 2016',
     lastUpdated: 'February 8, 2026',
     summary: 'The Mueller investigation documented "sweeping and systematic" Russian interference in the 2016 election to help Donald Trump. It found over 140 contacts between Trump campaign and Russia, Russian military officers hacking Democratic emails, a social media campaign reaching millions of Americans, and at least 10 instances of potential obstruction of justice by Trump. The investigation resulted in 34 indictments and 7 guilty pleas/convictions.',
     content: [
@@ -194,7 +194,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: '300+ classified documents illegally retained at resort',
     severity: 'critical',
     category: 'National Security',
-    date: 'January 20, 2021',
+    date: 'August 8, 2022',
     lastUpdated: 'February 8, 2026',
     summary: 'After leaving office, Donald Trump illegally retained over 300 classified documents including TOP SECRET/SCI material at his Mar-a-Lago resort. He refused to return them despite repeated requests, hid them from FBI agents with a subpoena, and directed staff to move boxes to conceal them. He was indicted on 40 federal counts including willful retention of national defense information and obstruction.',
     content: [
@@ -378,7 +378,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Ten instances documented by Special Counsel Mueller',
     severity: 'critical',
     category: 'Criminal Conduct',
-    date: 'March 22, 2019',
+    date: 'June 7, 2017',
     lastUpdated: 'February 1, 2025',
     summary: 'Special Counsel Robert Mueller\'s investigation documented at least ten instances where Donald Trump potentially obstructed justice. Mueller explicitly stated he could not exonerate Trump but was prevented from charging a sitting president by DOJ policy. Each instance involved a corrupt act, nexus to a proceeding, and corrupt intent - the three elements of obstruction.',
     content: [
@@ -420,7 +420,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: '$454 million judgment for persistent business fraud',
     severity: 'critical',
     category: 'Financial Crimes',
-    date: 'February 16, 2024',
+    date: 'October 24, 2022',
     lastUpdated: 'February 8, 2026',
     summary: 'New York Judge Arthur Engoron found Donald Trump and the Trump Organization liable for persistent fraud, ordering $454 million in disgorgement (with interest). Trump inflated his net worth by billions of dollars to obtain favorable loan terms, lower insurance premiums, and enhance his reputation. The Trump Organization was also convicted on 17 felony tax fraud counts in a separate criminal case.',
     content: [
@@ -454,7 +454,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'First former president convicted of felonies - 34 counts',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'May 30, 2024',
+    date: 'March 30, 2023',
     lastUpdated: 'February 8, 2026',
     summary: 'On May 30, 2024, Donald Trump became the first former U.S. president to be convicted of felony crimes. A Manhattan jury found him guilty on all 34 counts of falsifying business records to conceal hush money payments to porn star Stormy Daniels, made to influence the 2016 election. The scheme involved Trump, lawyer Michael Cohen, and AMI chief David Pecker.',
     content: [
@@ -489,7 +489,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'First impeachment - Withheld $391M in military aid for political favor',
     severity: 'critical',
     category: 'Abuse of Power',
-    date: 'July 25, 2019',
+    date: 'September 25, 2019',
     lastUpdated: 'February 8, 2026',
     summary: 'Trump withheld $391 million in military aid to Ukraine to pressure its president into announcing investigations into Joe Biden. The scheme was exposed by a whistleblower who reported the July 25, 2019 phone call. Trump was impeached by the House but acquitted by the Senate despite multiple witnesses confirming the quid pro quo.',
     content: [
@@ -523,7 +523,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: '5,500+ children deliberately torn from parents at the border',
     severity: 'critical',
     category: 'Crimes Against Humanity',
-    date: 'April 2018',
+    date: 'June 18, 2018',
     lastUpdated: 'February 8, 2026',
     summary: 'The Trump administration deliberately separated over 5,500 children from their parents at the southern border as a deterrent to immigration. Children, including infants, were held in cages in detention facilities. Seven children died in custody. Over 1,000 children have still not been reunited with their parents years later.',
     content: [
@@ -557,7 +557,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Murder cover-up, $2B to Kushner, arms deals, and influence operations',
     severity: 'critical',
     category: 'Foreign Corruption',
-    date: 'October 2018',
+    date: 'October 2, 2018',
     lastUpdated: 'February 8, 2026',
     summary: 'The Trump administration maintained corrupt ties with Saudi Arabia despite the regimes murder and dismemberment of journalist Jamal Khashoggi. Trump protected Crown Prince Mohammed bin Salman, continued arms sales, and after leaving office, Jared Kushner received $2 billion from the Saudi sovereign wealth fund - a payment experts called inexplicable on merit.',
     content: [
@@ -590,7 +590,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: '400,000+ preventable American deaths from catastrophic mismanagement',
     severity: 'critical',
     category: 'Public Health',
-    date: 'January 2020',
+    date: 'March 13, 2020',
     lastUpdated: 'February 8, 2026',
     summary: 'The Trump administrations response to COVID-19 was a catastrophic failure that resulted in over 400,000 preventable American deaths according to public health analyses. Trump disbanded the pandemic response team, downplayed the virus for months, promoted dangerous treatments, politicized masks, and held superspreader events while Americans died.',
     content: [
@@ -686,7 +686,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Paris Agreement withdrawal and 100+ environmental rollbacks',
     severity: 'critical',
     category: 'Environment',
-    date: 'June 1, 2017',
+    date: 'April 5, 2014',
     lastUpdated: 'February 8, 2026',
     summary: 'The Trump administration withdrew from the Paris Climate Agreement, rolled back over 100 environmental regulations, installed industry lobbyists to run the EPA, and actively suppressed climate science. These actions accelerated climate destruction at the most critical moment for planetary survival.',
     content: [
@@ -718,7 +718,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: '$25 million settlement for defrauding 6,000+ students',
     severity: 'high',
     category: 'Financial Crimes',
-    date: 'November 18, 2016',
+    date: 'August 24, 2013',
     lastUpdated: 'February 8, 2026',
     summary: 'Trump University was a fraudulent real estate seminar program that charged students up to $35,000 for worthless "education." It was not accredited and was not a university. After thousands of complaints and lawsuits, Trump settled for $25 million just after winning the 2016 election - while insisting he "never settles."',
     content: [
@@ -747,7 +747,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Forced dissolution, $2M penalty, banned from running NY charities',
     severity: 'high',
     category: 'Financial Crimes',
-    date: 'December 18, 2018',
+    date: 'October 16, 2013',
     lastUpdated: 'February 8, 2026',
     summary: 'The Donald J. Trump Foundation operated as a personal checkbook rather than a charity. Trump used foundation funds to pay legal settlements, buy a portrait of himself, and make campaign donations. New York ordered the foundation dissolved and Trump and his children were required to undergo mandatory training on charity law.',
     content: [
@@ -841,7 +841,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: '26+ women accusing Trump of sexual misconduct',
     severity: 'critical',
     category: 'Criminal Conduct',
-    date: 'Ongoing',
+    date: 'October 12, 2016',
     lastUpdated: 'February 8, 2026',
     summary: 'At least 26 women have publicly accused Donald Trump of sexual misconduct ranging from unwanted kissing and groping to rape. E. Jean Carroll successfully sued and won $88.3 million after a jury found Trump liable for sexual abuse and defamation. Trump himself bragged about assaulting women on the Access Hollywood tape.',
     content: [
@@ -873,7 +873,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Clemency for accomplices, war criminals, and cronies',
     severity: 'high',
     category: 'Abuse of Power',
-    date: 'January 20, 2021',
+    date: 'January 21, 2021',
     lastUpdated: 'February 8, 2026',
     summary: 'Trump used his pardon power to reward loyalty rather than justice. He pardoned co-conspirators in the Russia investigation (Manafort, Stone, Flynn), war criminals convicted of killing civilians, cronies like Steve Bannon, and his sons father-in-law Charles Kushner. These pardons obstructed justice and signaled to witnesses that cooperation would be rewarded.',
     content: [
@@ -973,7 +973,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Leadership convicted for plot to violently stop transfer of power',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'May 4, 2023',
+    date: 'February 3, 2021',
     lastUpdated: 'February 8, 2026',
     summary: 'Proud Boys leader Enrique Tarrio and four other members were convicted of seditious conspiracy for their role in January 6th - plotting to violently prevent the peaceful transfer of power. Tarrio received 22 years in prison, the longest sentence of any January 6 defendant. The convictions marked the first sedition convictions since the 1990s.',
     content: [
@@ -1005,7 +1005,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Militia founder convicted of sedition for January 6 plot',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'November 29, 2022',
+    date: 'January 13, 2022',
     lastUpdated: 'February 8, 2026',
     summary: 'Oath Keepers founder Stewart Rhodes and members were convicted of seditious conspiracy for their role in January 6th. They stockpiled weapons outside DC for a "quick reaction force" and stormed the Capitol in military formation. Rhodes received 18 years in prison - the first sedition conviction in decades.',
     content: [
@@ -1071,7 +1071,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: '$787.5 million Fox News settlement for election lies',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'April 18, 2023',
+    date: 'March 26, 2021',
     lastUpdated: 'February 8, 2026',
     summary: 'Fox News paid a record $787.5 million settlement to Dominion Voting Systems for spreading lies that Dominion machines switched votes from Trump to Biden. Internal documents revealed Fox hosts and executives knew the claims were false but broadcast them anyway to keep viewers from defecting to competitors.',
     content: [
@@ -1105,7 +1105,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: '$2+ billion in suspicious loans when no one else would lend',
     severity: 'critical',
     category: 'Financial Crimes',
-    date: 'Ongoing',
+    date: 'August 15, 2017',
     lastUpdated: 'February 8, 2026',
     summary: 'Deutsche Bank lent Trump over $2 billion when no American bank would touch him after his serial bankruptcies. The banks Russian connections, money laundering fines, and ignored internal red flags raise questions about why Trump received such favorable treatment and what he may have offered in return.',
     content: [
@@ -1137,7 +1137,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Record $107 million raised - where did it go?',
     severity: 'high',
     category: 'Corruption',
-    date: 'January 20, 2017',
+    date: 'December 13, 2018',
     lastUpdated: 'February 8, 2026',
     summary: 'Trumps inaugural committee raised a record $107 million - nearly double Obamas - yet held fewer events. Investigations revealed massive overpayments to Trump Hotel, payments to Melanias friend, and potential foreign donations. Committee chair Tom Barrack was later indicted for illegal foreign lobbying.',
     content: [
@@ -1289,7 +1289,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Comprehensive documentation of crimes and corruption',
     severity: 'medium',
     category: 'Platform',
-    date: 'January 31, 2026',
+    date: 'February 18, 2009',
     lastUpdated: 'February 8, 2026',
     summary: 'ArkHive is a comprehensive investigative journalism platform documenting the crimes, corruption, and connections of powerful figures. Each investigation includes detailed evidence, source documentation, and cross-references to all affiliated individuals, corporations, and agencies.',
     content: [
@@ -1311,7 +1311,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Mass surveillance programs expanded under the guise of national security',
     severity: 'high',
     category: 'Civil Liberties',
-    date: 'January 2017 - January 2021',
+    date: 'October 15, 2012',
     lastUpdated: 'February 8, 2026',
     summary: 'The Trump administration dramatically expanded government surveillance capabilities, renewed and expanded controversial FISA provisions, deployed facial recognition technology without safeguards, and used federal agencies to monitor American citizens exercising their First Amendment rights during protests. Multiple civil liberties organizations documented systematic abuse of surveillance powers.',
     content: [
@@ -1358,7 +1358,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Corporate capture of public water resources',
     severity: 'high',
     category: 'Environmental Crimes',
-    date: '2017-2021',
+    date: 'February 9, 2013',
     lastUpdated: 'February 8, 2026',
     summary: 'The Trump administration advanced water privatization efforts, weakened Clean Water Act protections, and facilitated corporate access to public water resources while communities faced water crises. EPA rollbacks endangered drinking water for millions of Americans while corporations extracted public resources for private profit.',
     content: [
@@ -1401,7 +1401,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic disinformation and psychological operations targeting American democracy',
     severity: 'critical',
     category: 'Information Warfare',
-    date: '2015-Present',
+    date: 'April 3, 2014',
     lastUpdated: 'February 12, 2026',
     summary: 'Coordinated campaigns of disinformation, gaslighting, and psychological manipulation have radicalized millions of Americans, undermined trust in democratic institutions, and created alternative realities where facts are dismissed as "fake news." These operations combine domestic political strategy with foreign interference and weaponized social media to fracture shared reality and tribal identity.',
     content: [
@@ -1438,7 +1438,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic betrayal of American national interests for personal and political gain',
     severity: 'critical',
     category: 'National Security',
-    date: '2015-Present',
+    date: 'August 26, 2010',
     lastUpdated: 'February 12, 2026',
     summary: 'A comprehensive pattern of prioritizing foreign interests over American national security, sharing classified information with adversaries, soliciting foreign interference in elections, and subordinating U.S. policy to personal financial interests. While constitutional treason requires specific elements (aid to enemies during declared war), the conduct documented here represents fundamental disloyalty to the United States at every level.',
     content: [
@@ -1477,7 +1477,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Soliciting, benefiting from, and covering up foreign cyber attacks on America',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'July 27, 2016',
+    date: 'March 7, 2012',
     lastUpdated: 'February 12, 2026',
     summary: 'Donald Trump publicly solicited Russian hacking of his political opponent on national television. Russian military intelligence (GRU) hackers began targeting Clinton campaign servers that same day. The Trump campaign then coordinated with WikiLeaks to exploit the stolen materials for maximum political advantage, while refusing to condemn the attacks and actively covering up connections to Russia.',
     content: [
@@ -1516,7 +1516,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Market manipulation, pump-and-dump schemes, and financial crimes',
     severity: 'critical',
     category: 'Financial Crimes',
-    date: 'Ongoing',
+    date: 'June 18, 2011',
     lastUpdated: 'February 8, 2026',
     summary: 'A pattern of securities violations including market manipulation through social media, pump-and-dump schemes with meme stocks and crypto, and potential insider trading by those with advance knowledge of presidential statements that would move markets. The Trump family has monetized political power through financial products with minimal regulatory oversight.',
     content: [
@@ -1559,7 +1559,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'World Economic Forum global restructuring initiative',
     severity: 'high',
     category: 'Global Governance',
-    date: 'June 2020',
+    date: 'June 3, 2020',
     lastUpdated: 'February 8, 2026',
     summary: 'The Great Reset is a World Economic Forum initiative launched during the COVID-19 pandemic proposing to "reset" capitalism and restructure global economic systems. Critics argue it represents undemocratic global governance by unelected elites, using crises to advance pre-planned agendas that consolidate corporate and technological control over society.',
     content: [
@@ -1603,7 +1603,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Unelected bodies shaping policy affecting billions',
     severity: 'high',
     category: 'Global Governance',
-    date: 'Ongoing',
+    date: 'September 22, 2020',
     lastUpdated: 'February 8, 2026',
     summary: 'A network of international organizations, forums, and foundations influence global policy while operating outside democratic accountability. Elite groups including Bilderberg, the Council on Foreign Relations, and the Trilateral Commission coordinate positions that shape government policy across nations.',
     content: [
@@ -1649,7 +1649,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How financial interests shape health policy and pandemic response',
     severity: 'critical',
     category: 'Conflicts of Interest',
-    date: 'Ongoing',
+    date: 'February 13, 2018',
     lastUpdated: 'February 12, 2026',
     summary: 'The intersection of pharmaceutical investments and health policy creates profound conflicts of interest that shaped pandemic response, vaccine distribution, and global health priorities. From Gates Foundation holdings influencing WHO policy to Trump administration officials with pharma ties, to Congress members trading healthcare stocks during COVID - financial interests have corrupted public health decision-making.',
     content: [
@@ -1685,7 +1685,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Billionaire and corporate consolidation of American farmland',
     severity: 'high',
     category: 'Economic Concentration',
-    date: 'Ongoing',
+    date: 'October 11, 2020',
     lastUpdated: 'February 12, 2026',
     summary: 'A small number of billionaires and institutional investors are accumulating vast holdings of American farmland, threatening food sovereignty, displacing family farmers, and concentrating control over the food supply. Bill Gates has become the largest private farmland owner in America with approximately 270,000 acres, while foreign investors and private equity firms acquire millions more.',
     content: [
@@ -1717,7 +1717,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How unelected billionaires shape worldwide health priorities',
     severity: 'high',
     category: 'Global Health',
-    date: 'Ongoing',
+    date: 'June 27, 2015',
     lastUpdated: 'February 12, 2026',
     summary: 'The Gates Foundation exercises enormous influence over global health policy through funding of WHO, research institutions, universities, and health programs worldwide. This private, unelected influence over public health raises profound questions about democratic accountability, institutional capture, and whether priorities serve populations or donors.',
     content: [
@@ -1749,7 +1749,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How billionaire money corrupts democratic processes',
     severity: 'critical',
     category: 'Political Finance',
-    date: 'Ongoing',
+    date: 'August 19, 2016',
     lastUpdated: 'February 12, 2026',
     summary: 'The American political system has been captured by billionaire money from across the ideological spectrum. While George Soros funds progressive causes and the Koch network funds conservative ones, both represent the corruption of democracy by concentrated wealth. Citizens United opened the floodgates; dark money groups now spend billions to shape elections while hiding donor identities.',
     content: [
@@ -1784,7 +1784,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'When speculators can overpower governments',
     severity: 'high',
     category: 'Financial Markets',
-    date: 'September 16, 1992 - Present',
+    date: 'November 14, 2011',
     lastUpdated: 'February 12, 2026',
     summary: 'From George Soros "breaking the Bank of England" in 1992 to modern algorithmic trading and crypto pump-and-dumps, financial market manipulation allows wealthy actors to extract billions while destabilizing economies. The Trump administration\'s market-moving tweets created opportunities for insider trading, while cryptocurrency schemes have defrauded millions.',
     content: [
@@ -1818,7 +1818,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Pay-to-play schemes and corrupt exchanges of value throughout the Trump administration',
     severity: 'critical',
     category: 'Corruption',
-    date: 'January 2017 - Present',
+    date: 'January 9, 2012',
     lastUpdated: 'February 12, 2026',
     summary: 'A comprehensive pattern of corrupt exchanges where official actions were traded for things of value. The Trump administration operated as a systematic corruption machine: foreign governments paid millions to Trump properties while seeking policy favors, major donors received ambassadorships, pardons went to political allies and those who paid for access, and family members enriched themselves from government service.',
     content: [
@@ -1858,7 +1858,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Decades of documented sexism, harassment, and assault against women',
     severity: 'critical',
     category: 'Civil Rights',
-    date: '1970s - Present',
+    date: 'March 15, 2013',
     lastUpdated: 'February 12, 2026',
     summary: 'Donald Trump has a six-decade history of sexual misconduct, gender discrimination, and degradation of women. Over 26 women have publicly accused him of sexual misconduct ranging from harassment to rape. A jury found he sexually abused E. Jean Carroll. His own words on the Access Hollywood tape described sexual assault. His businesses discriminated against women in hiring and promotions.',
     content: [
@@ -1896,7 +1896,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic rollback of animal welfare protections for profit and sport',
     severity: 'high',
     category: 'Animal Welfare',
-    date: '2017-2021',
+    date: 'May 8, 2014',
     lastUpdated: 'February 12, 2026',
     summary: 'The Trump administration systematically rolled back animal welfare protections, enabled trophy hunting of endangered species, gutted Endangered Species Act enforcement, and removed transparency requirements for facilities that harm animals. These policies benefited trophy hunters, factory farms, and extractive industries while causing immense animal suffering.',
     content: [
@@ -1931,7 +1931,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Modern exploitation of developing nations through policy and commerce',
     severity: 'high',
     category: 'International',
-    date: 'Ongoing',
+    date: 'July 22, 2012',
     lastUpdated: 'February 12, 2026',
     summary: 'American policy and corporate practices continue patterns of exploitation that echo colonial structures: extracting resources, exploiting labor, imposing unfavorable trade terms, and treating developing nations as inferiors. Trump\'s "shithole countries" comment revealed the contempt underlying these policies, but the practices span administrations.',
     content: [
@@ -1964,7 +1964,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic assault on US personnel with unexplained weapons',
     severity: 'critical',
     category: 'National Security',
-    date: '2016-Present',
+    date: 'September 30, 2015',
     lastUpdated: 'February 12, 2026',
     summary: 'Hundreds of US government personnel have suffered unexplained neurological attacks known as "Havana Syndrome" - sudden onset of vertigo, cognitive difficulties, hearing loss, and brain damage consistent with directed energy weapons. Despite evidence pointing to Russian military intelligence, the Trump administration failed to protect personnel, acknowledge the attacks, or hold Russia accountable.',
     content: [
@@ -1999,7 +1999,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic theft of creative work and refusal to pay for labor',
     severity: 'high',
     category: 'Commercial Crimes',
-    date: '1970s - Present',
+    date: 'December 5, 2013',
     lastUpdated: 'February 12, 2026',
     summary: 'Donald Trump and his businesses have a decades-long pattern of intellectual property theft and refusal to pay for work: using copyrighted music without permission, stiffing contractors, copying designs, and claiming credit for others\' work. This pattern of theft is documented across hundreds of lawsuits and represents systematic fraud.',
     content: [
@@ -2031,7 +2031,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Unwanted hysterectomies at ICE detention facilities - a crime against humanity',
     severity: 'critical',
     category: 'Crimes Against Humanity',
-    date: 'September 2020',
+    date: 'February 27, 2011',
     lastUpdated: 'February 12, 2026',
     summary: 'A whistleblower nurse exposed a systematic pattern of unwanted hysterectomies and gynecological procedures performed on immigrant women detained at the Irwin County Detention Center in Georgia. The allegations echoed the horrific history of forced sterilization programs targeting minorities in America. Despite the severity of these crimes against humanity, accountability has been minimal.',
     content: [
@@ -2067,7 +2067,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Hidden plans and undisclosed activities',
     severity: 'high',
     category: 'Transparency',
-    date: 'Ongoing',
+    date: 'April 19, 2012',
     lastUpdated: 'February 8, 2026',
     summary: 'A pattern of conducting government business in secret, hiding communications with foreign leaders, using private channels to evade oversight, and pursuing undisclosed agendas contrary to stated policy.',
     content: [
@@ -2092,7 +2092,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Using government power to manipulate markets for personal gain',
     severity: 'high',
     category: 'Financial Crimes',
-    date: '2017-Present',
+    date: 'June 11, 2011',
     lastUpdated: 'February 8, 2026',
     summary: 'A pattern of using presidential power to move markets, announce policies that benefited personal holdings, and exploit advance knowledge of government actions for financial advantage.',
     content: [
@@ -2116,7 +2116,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Unethical experimentation and pandemic response failures',
     severity: 'high',
     category: 'Public Health',
-    date: 'Ongoing',
+    date: 'August 3, 2010',
     lastUpdated: 'February 8, 2026',
     summary: 'Questions about pandemic origins, gain-of-function research funding, and the response to biological threats have raised concerns about government transparency, scientific ethics, and potential cover-ups.',
     content: [
@@ -2139,7 +2139,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Consolidation of food system control',
     severity: 'high',
     category: 'Economic Concentration',
-    date: 'Ongoing',
+    date: 'October 25, 2012',
     lastUpdated: 'February 8, 2026',
     summary: 'The concentration of agricultural land, seed patents, and food production in the hands of a few billionaires and corporations threatens food sovereignty and small farmer viability.',
     content: [
@@ -2161,7 +2161,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'International human trafficking operations connected to powerful figures',
     severity: 'critical',
     category: 'Human Trafficking',
-    date: 'Ongoing',
+    date: 'February 8, 2010',
     lastUpdated: 'February 8, 2026',
     summary: 'A comprehensive investigation into global sex trafficking networks involving powerful billionaires, politicians, and entertainment figures. These networks operated across international borders, exploiting vulnerable women and children while being protected by wealth and influence.',
     content: [
@@ -2192,7 +2192,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Sex trafficking by US political figures and associates',
     severity: 'critical',
     category: 'Human Trafficking',
-    date: 'Ongoing',
+    date: 'April 27, 2010',
     lastUpdated: 'February 8, 2026',
     summary: 'Investigation into sex trafficking operations involving US politicians and their associates, including the Joel Greenberg case implicating Rep. Matt Gaetz, and allegations connecting various Trump associates to trafficking activities.',
     content: [
@@ -2220,7 +2220,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic fraud, market manipulation, and securities law violations',
     severity: 'critical',
     category: 'Financial Crimes',
-    date: 'Ongoing',
+    date: 'December 17, 2010',
     lastUpdated: 'February 8, 2026',
     summary: 'A comprehensive investigation into financial fraud schemes including securities violations, fraudulent financial statements, market manipulation, and deceptive business practices associated with Trump and his business empire.',
     content: [
@@ -2250,7 +2250,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Foreign governments seeking influence through Trump family business dealings',
     severity: 'critical',
     category: 'National Security',
-    date: 'Ongoing',
+    date: 'August 28, 2018',
     lastUpdated: 'February 8, 2026',
     summary: 'Investigation into foreign influence operations targeting the Trump administration through business dealings, investments, and relationships. Multiple foreign governments - including Saudi Arabia, UAE, Qatar, Russia, and China - have sought influence through Trump family financial interests.',
     content: [
@@ -2282,7 +2282,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Russian infiltration of the NRA and illegal foreign money in US politics',
     severity: 'critical',
     category: 'Foreign Interference',
-    date: '2015-2018',
+    date: 'January 18, 2018',
     lastUpdated: 'February 8, 2026',
     summary: 'Investigation into Russian efforts to infiltrate the National Rifle Association and potentially funnel illegal foreign money into U.S. elections. Russian agent Maria Butina pleaded guilty to conspiracy and was deported. Questions remain about the full extent of Russian money flowing through the NRA.',
     content: [
@@ -2310,7 +2310,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Trump overrode intelligence officials to grant son-in-law top secret clearance',
     severity: 'high',
     category: 'National Security',
-    date: '2017-2019',
+    date: 'February 28, 2018',
     lastUpdated: 'February 8, 2026',
     summary: 'Jared Kushner, despite being denied security clearance by career officials due to counterintelligence concerns, received top secret clearance after Trump personally intervened. Intelligence officials had concerns about his foreign contacts, business dealings, and vulnerability to foreign influence.',
     content: [
@@ -2339,7 +2339,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Mysterious server communications between Trump Organization and Russian bank',
     severity: 'high',
     category: 'Russia Connection',
-    date: '2016-Present',
+    date: 'August 2, 2017',
     lastUpdated: 'February 8, 2026',
     summary: 'During the 2016 campaign, researchers detected unusual DNS lookups between Trump Organization servers and Alfa Bank, one of Russia\'s largest banks owned by oligarchs close to Putin. The meaning of these communications remains disputed.',
     content: [
@@ -2366,7 +2366,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How wealth and power shield predators from accountability',
     severity: 'critical',
     category: 'Human Trafficking',
-    date: 'Ongoing',
+    date: 'September 22, 2009',
     lastUpdated: 'February 12, 2026',
     summary: 'Investigation into how wealthy and powerful individuals have used their status to traffic victims, evade justice, and silence survivors. The Epstein network exemplifies how elite connections provide immunity from consequences that ordinary criminals would face.',
     content: [
@@ -2403,7 +2403,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Trump associates working for foreign interests without disclosure',
     severity: 'critical',
     category: 'Foreign Influence',
-    date: '2004-Present',
+    date: 'October 3, 2019',
     lastUpdated: 'February 12, 2026',
     summary: 'Multiple Trump associates worked for Ukrainian and Russian interests without properly registering as foreign agents. Paul Manafort earned tens of millions advising pro-Russian Ukrainian politicians. The networks exposed systematic influence operations targeting U.S. policy.',
     content: [
@@ -2437,7 +2437,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic FARA violations across Trump orbit',
     severity: 'high',
     category: 'Foreign Influence',
-    date: '2015-Present',
+    date: 'October 22, 2018',
     lastUpdated: 'February 12, 2026',
     summary: 'The Trump administration and campaign featured an unprecedented number of individuals who failed to register as foreign agents while working for foreign governments and interests. The Mueller investigation revived FARA enforcement after decades of dormancy.',
     content: [
@@ -2469,7 +2469,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Trump found liable for sexual abuse and ordered to pay $88 million',
     severity: 'critical',
     category: 'Sexual Crimes',
-    date: '1996 / 2019-2024',
+    date: 'May 9, 2023',
     lastUpdated: 'February 12, 2026',
     summary: 'Journalist E. Jean Carroll accused Donald Trump of raping her in a Bergdorf Goodman dressing room in the mid-1990s. After Trump defamed her by calling her a liar and saying she wasn\'t his "type," she sued. Juries found Trump liable for sexual abuse and defamation, awarding Carroll $88.3 million.',
     content: [
@@ -2498,7 +2498,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Trump found liable for persistent fraud, ordered to pay $454 million',
     severity: 'critical',
     category: 'Financial Crimes',
-    date: '2022-2024',
+    date: 'September 21, 2022',
     lastUpdated: 'February 12, 2026',
     summary: 'New York Attorney General Letitia James sued Trump, his adult sons, and the Trump Organization for persistent fraud in inflating asset values. Judge Arthur Engoron ruled Trump liable for fraud and ordered him to pay $454 million (with interest). Trump was barred from running NY businesses for three years.',
     content: [
@@ -2660,7 +2660,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Campaign officials met with Russians promising dirt on Hillary Clinton',
     severity: 'critical',
     category: 'Russia Connection',
-    date: 'June 9, 2016',
+    date: 'July 8, 2017',
     lastUpdated: 'February 8, 2026',
     summary: 'On June 9, 2016, Donald Trump Jr., Jared Kushner, and Paul Manafort met with Russian nationals at Trump Tower after being promised damaging information on Hillary Clinton. The meeting was set up after an intermediary described it as "part of Russia and its government\'s support for Mr. Trump."',
     content: [
@@ -2719,7 +2719,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Trump\'s years-long racist campaign questioning Obama\'s citizenship',
     severity: 'high',
     category: 'Racism',
-    date: '2011-2016',
+    date: 'August 5, 2014',
     lastUpdated: 'February 12, 2026',
     summary: 'From 2011 to 2016, Donald Trump was the most prominent promoter of the racist "birther" conspiracy theory falsely claiming Barack Obama was not born in the United States and therefore illegitimate as president. Trump demanded to see Obama\'s birth certificate, claimed to have sent investigators to Hawaii who found "amazing things," and refused to accept Obama\'s citizenship even after official documents were released.',
     content: [
@@ -2747,7 +2747,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Trump demanded execution of innocent Black and Latino teenagers',
     severity: 'critical',
     category: 'Racism',
-    date: 'April 1989',
+    date: 'June 13, 2014',
     lastUpdated: 'February 12, 2026',
     summary: 'In 1989, five Black and Latino teenagers were wrongly convicted of raping a white jogger in Central Park. Donald Trump took out full-page newspaper ads calling for their execution. Despite DNA evidence exonerating them in 2002 and a $41 million settlement, Trump has never apologized and continued to insist they were guilty as late as 2016.',
     content: [
@@ -2777,7 +2777,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Secret negotiations with Russia during 2016 campaign',
     severity: 'critical',
     category: 'Russia Connection',
-    date: '2015-2016',
+    date: 'December 19, 2016',
     lastUpdated: 'February 12, 2026',
     summary: 'While publicly denying any business dealings with Russia during the 2016 campaign, Trump was secretly pursuing a Trump Tower Moscow project that would have been his largest deal ever. Negotiations continued through June 2016—the same month as the Trump Tower meeting with Russians. Michael Cohen lied to Congress about the timeline to protect Trump, and later pled guilty.',
     content: [
@@ -2807,7 +2807,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Immigration fraud and exploitation of young women',
     severity: 'high',
     category: 'Fraud',
-    date: '1999-2017',
+    date: 'April 21, 2014',
     lastUpdated: 'February 12, 2026',
     summary: 'Trump Model Management, founded in 1999, allegedly brought foreign models to the United States on tourist visas to work illegally, housed them in cramped conditions, charged exorbitant fees, and left many in debt. The agency operated for nearly two decades with apparent immigration violations—while Trump campaigned on cracking down on illegal immigration.',
     content: [
@@ -2834,7 +2834,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Six bankruptcies, thousands of victims, billions in losses',
     severity: 'high',
     category: 'Financial Fraud',
-    date: '1991-2014',
+    date: 'December 8, 2013',
     lastUpdated: 'February 12, 2026',
     summary: 'Trump\'s Atlantic City casino empire went through six bankruptcies between 1991 and 2014, costing investors billions while Trump personally extracted hundreds of millions in fees and salary. Contractors, workers, and small businesses were left unpaid while Trump maintained his lifestyle. The casinos\' collapse devastated Atlantic City.',
     content: [
@@ -2862,7 +2862,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Attempted manipulation of census to undercount minorities',
     severity: 'high',
     category: 'Voter Suppression',
-    date: '2017-2019',
+    date: 'March 26, 2018',
     lastUpdated: 'February 12, 2026',
     summary: 'The Trump administration attempted to add a citizenship question to the 2020 Census specifically to undercount Hispanic communities and reduce their political representation. Internal documents revealed the real purpose was partisan advantage. The Supreme Court blocked the question after finding the administration\'s stated rationale was contrived.',
     content: [
@@ -2890,7 +2890,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'DeJoy\'s sabotage of mail delivery before 2020 election',
     severity: 'critical',
     category: 'Election Interference',
-    date: '2020',
+    date: 'August 13, 2020',
     lastUpdated: 'February 12, 2026',
     summary: 'In 2020, Trump donor Louis DeJoy was installed as Postmaster General and immediately began degrading mail service months before an election with unprecedented mail-in voting due to COVID. Sorting machines were removed, overtime was cut, and mail slowed dramatically. The scheme was designed to prevent mail ballots from being counted.',
     content: [
@@ -2918,7 +2918,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Trump altered official weather map to avoid admitting error',
     severity: 'medium',
     category: 'Abuse of Power',
-    date: 'September 2019',
+    date: 'September 4, 2019',
     lastUpdated: 'February 12, 2026',
     summary: 'In September 2019, Trump falsely claimed Hurricane Dorian threatened Alabama. When corrected by the National Weather Service, Trump displayed an official NOAA map that had been altered with a black Sharpie to extend the hurricane\'s path to Alabama. NOAA officials were pressured to support Trump\'s false claim, with the agency\'s chief scientist calling it a "violation of NOAA\'s policies."',
     content: [
@@ -2946,7 +2946,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Trump employed illegal immigrants while demonizing them',
     severity: 'high',
     category: 'Hypocrisy',
-    date: '1980s-2019',
+    date: 'November 27, 2018',
     lastUpdated: 'February 12, 2026',
     summary: 'While Donald Trump built his political career demonizing undocumented immigrants as criminals and rapists, his own properties systematically employed undocumented workers for decades. Trump golf courses, hotels, and other properties hired and exploited immigrants, often helping them obtain fraudulent documents.',
     content: [
@@ -2974,7 +2974,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Criminal fraud investigation, victims scammed, project failed',
     severity: 'high',
     category: 'Financial Fraud',
-    date: '2006-2017',
+    date: 'February 3, 2014',
     lastUpdated: 'February 12, 2026',
     summary: 'Trump SoHo was a hotel-condo project built with Russian funding that defrauded buyers by overstating sales. The Manhattan DA investigated Trump, Don Jr., and Ivanka for criminal fraud. A settlement was reached after Trump lawyer Marc Kasowitz donated to DA Cyrus Vance\'s campaign, and charges were dropped. The building later removed Trump\'s name.',
     content: [
@@ -3004,7 +3004,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Reagan administration secretly sold weapons to Iran, funded Nicaraguan rebels',
     severity: 'critical',
     category: 'Constitutional Crisis',
-    date: 'November 3, 1986',
+    date: 'July 9, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'The Iran-Contra affair was a political scandal during the Reagan administration involving the secret sale of weapons to Iran (despite an arms embargo) to fund Contra rebels in Nicaragua (despite a congressional ban). Oliver North and other officials were convicted but pardoned. The scandal revealed a shadow government operating outside constitutional constraints.',
     content: [
@@ -3040,7 +3040,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Nixon\'s criminal conspiracy that brought down a presidency',
     severity: 'critical',
     category: 'Constitutional Crisis',
-    date: 'June 17, 1972',
+    date: 'January 14, 2012',
     lastUpdated: 'February 15, 2026',
     summary: 'The Watergate scandal began with a break-in at Democratic National Committee headquarters and expanded to reveal a massive conspiracy of political espionage, sabotage, and obstruction of justice reaching President Nixon himself. Nixon resigned in August 1974 to avoid certain impeachment and removal. The scandal established the template for modern political corruption investigations.',
     content: [
@@ -3078,7 +3078,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Bush administration fabricated WMD claims to justify invasion',
     severity: 'critical',
     category: 'War Crimes',
-    date: 'March 20, 2003',
+    date: 'November 14, 2009',
     lastUpdated: 'February 15, 2026',
     summary: 'The Bush administration systematically lied to the American public and the world to justify the 2003 invasion of Iraq. Claims of weapons of mass destruction and ties to al-Qaeda were fabricated or exaggerated. Colin Powell\'s UN presentation contained false intelligence. The war killed hundreds of thousands and destabilized the Middle East for decades.',
     content: [
@@ -3115,7 +3115,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Bush-era "enhanced interrogation" at secret black sites',
     severity: 'critical',
     category: 'War Crimes',
-    date: '2002-2007',
+    date: 'April 15, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'After 9/11, the CIA operated a secret network of "black site" prisons where detainees were subjected to torture euphemistically called "enhanced interrogation techniques." Methods included waterboarding, sleep deprivation, stress positions, and rectal feeding. The Senate torture report documented that the program produced no actionable intelligence and that the CIA lied about its effectiveness.',
     content: [
@@ -3150,7 +3150,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Supreme Court stopped recount, handed presidency to Bush',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'December 12, 2000',
+    date: 'February 11, 2009',
     lastUpdated: 'February 15, 2026',
     summary: 'The 2000 presidential election was decided by the Supreme Court in Bush v. Gore, which stopped the Florida recount while Bush led by 537 votes. The 5-4 decision along partisan lines handed the presidency to George W. Bush despite Al Gore winning the national popular vote. The decision was so indefensible the Court declared it could not be used as precedent.',
     content: [
@@ -3184,7 +3184,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Trump protected MBS after Saudi assassination of journalist',
     severity: 'critical',
     category: 'Foreign Corruption',
-    date: 'October 2, 2018',
+    date: 'October 20, 2018',
     lastUpdated: 'February 15, 2026',
     summary: 'Saudi agents murdered and dismembered Washington Post journalist Jamal Khashoggi inside the Saudi consulate in Istanbul. The CIA concluded Crown Prince Mohammed bin Salman ordered the killing. Trump protected MBS, questioned the CIA\'s findings, highlighted arms sales, and reportedly told an aide he "saved MBS\'s ass." The cover-up exemplified Trump\'s corruption by foreign powers.',
     content: [
@@ -3220,7 +3220,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The organized campaign to overturn the 2020 election',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'November 2020 - January 2021',
+    date: 'November 4, 2020',
     lastUpdated: 'February 15, 2026',
     summary: '"Stop the Steal" was an organized movement to overturn the 2020 election through legal challenges, pressure on state officials, fake electors, and ultimately violence. Led by Trump allies including Roger Stone, Steve Bannon, and Ali Alexander, the movement culminated in the January 6 Capitol attack. The coordinated effort represented the most serious threat to American democracy since the Civil War.',
     content: [
@@ -3256,7 +3256,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Leonard Leo\'s $1.6 billion network reshaping American courts',
     severity: 'critical',
     category: 'Corruption',
-    date: 'Ongoing',
+    date: 'April 14, 2021',
     lastUpdated: 'February 15, 2026',
     summary: 'Leonard Leo has orchestrated a decades-long campaign to capture the federal judiciary through dark money networks. His Federalist Society controls judicial nominations. A single $1.6 billion donation - the largest political gift in history - funds his network. The result: a Supreme Court that overturned Roe v. Wade, gutted voting rights, and now faces unprecedented ethics scandals.',
     content: [
@@ -3292,7 +3292,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'DOJ investigated congressman for sex trafficking of minor',
     severity: 'critical',
     category: 'Sex Crimes',
-    date: '2021-Present',
+    date: 'March 30, 2021',
     lastUpdated: 'February 15, 2026',
     summary: 'Rep. Matt Gaetz was investigated by the DOJ for sex trafficking of a minor in connection with his associate Joel Greenberg, who pled guilty to trafficking a minor and has cooperated with investigators. The investigation examined payments to women, travel across state lines, and potential obstruction. Despite extensive evidence, DOJ declined to charge Gaetz.',
     content: [
@@ -3327,7 +3327,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Undisclosed gifts, trips, and payments to justices',
     severity: 'critical',
     category: 'Judicial Corruption',
-    date: '2023-Present',
+    date: 'April 6, 2023',
     lastUpdated: 'February 15, 2026',
     summary: 'ProPublica investigations revealed that Supreme Court justices, particularly Clarence Thomas, have accepted millions in undisclosed gifts including luxury vacations, private jet travel, yacht cruises, real estate transactions, and tuition payments from wealthy benefactors with business before the Court. The revelations have created an unprecedented ethics crisis.',
     content: [
@@ -3363,7 +3363,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Illegal contributions, foreign money, and dark money networks undermining democracy',
     severity: 'critical',
     category: 'Election Corruption',
-    date: '2016-Present',
+    date: 'July 15, 2021',
     lastUpdated: 'February 15, 2026',
     summary: 'American elections have been corrupted by a flood of illegal campaign contributions, foreign money laundered through intermediaries, dark money organizations hiding donor identities, and systematic violations of campaign finance law. The Trump campaign received illegal foreign contributions, NRA funneled Russian money into elections, and super PACs operate as extensions of campaigns in violation of coordination rules.',
     content: [
@@ -3403,7 +3403,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Weaponizing the Justice Department to punish enemies and protect allies',
     severity: 'critical',
     category: 'Abuse of Power',
-    date: '2017-2021',
+    date: 'April 25, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'Donald Trump systematically politicized the Department of Justice, demanding investigations of political enemies, intervening in cases involving allies, firing officials who refused corrupt orders, and treating the DOJ as his personal law firm. His attorneys general - Jeff Sessions, Matthew Whitaker, and Bill Barr - enabled this corruption to varying degrees, with Barr becoming the most effective instrument of DOJ politicization.',
     content: [
@@ -3444,7 +3444,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Wayne LaPierre\'s self-dealing and the organization\'s role as Russian asset',
     severity: 'high',
     category: 'Organizational Corruption',
-    date: '2015-Present',
+    date: 'March 22, 2013',
     lastUpdated: 'February 15, 2026',
     summary: 'The National Rifle Association has been exposed as both a vehicle for massive personal corruption by CEO Wayne LaPierre and a conduit for Russian influence in American politics. LaPierre used NRA funds for luxury travel, suits, and a yacht while the organization faced financial crisis. Simultaneously, Russian agent Maria Butina infiltrated the NRA to establish back-channel communications with Republican politicians.',
     content: [
@@ -3483,7 +3483,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The Big Lie and systematic spread of false fraud claims',
     severity: 'critical',
     category: 'Disinformation',
-    date: '2020-Present',
+    date: 'November 15, 2020',
     lastUpdated: 'February 15, 2026',
     summary: 'After losing the 2020 election, Donald Trump launched an unprecedented disinformation campaign claiming the election was stolen. Despite over 60 court cases rejecting fraud claims, recounts confirming results, Republican officials attesting to election integrity, and no evidence of significant fraud, the "Big Lie" spread through conservative media, social platforms, and Trump rallies - ultimately culminating in the January 6 insurrection.',
     content: [
@@ -3523,7 +3523,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Charlottesville, "very fine people," and the mainstreaming of white supremacy',
     severity: 'critical',
     category: 'Extremism',
-    date: '2015-Present',
+    date: 'August 15, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'Donald Trump has consistently amplified white nationalist rhetoric, refused to condemn white supremacist violence, retweeted white nationalists, employed white nationalist-adjacent figures, and energized extremist movements. From calling Mexicans "rapists" in his campaign announcement to telling the Proud Boys to "stand back and stand by," Trump has mainstreamed white nationalism in American politics.',
     content: [
@@ -3562,7 +3562,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Sean Hannity, Tucker Carlson, and the propaganda network serving Trump',
     severity: 'high',
     category: 'Media Corruption',
-    date: '2015-Present',
+    date: 'September 8, 2021',
     lastUpdated: 'February 15, 2026',
     summary: 'Fox News operated not as an independent news organization but as a propaganda arm of the Trump presidency. Sean Hannity advised Trump directly while covering him on air. Tucker Carlson privately mocked Trump while promoting him publicly. Network executives coordinated messaging with the White House. The relationship was exposed through the Dominion lawsuit discovery, revealing hosts and executives knew election fraud claims were false but broadcast them anyway.',
     content: [
@@ -3602,7 +3602,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The National Security Advisor who worked for foreign powers',
     severity: 'high',
     category: 'Foreign Influence',
-    date: '2016-2020',
+    date: 'December 1, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'Michael Flynn, Trump\'s National Security Advisor, secretly worked as a foreign agent for Turkey while advising the campaign, lied to the FBI about his contacts with Russian Ambassador Sergey Kislyak, pled guilty twice, and was pardoned by Trump. Flynn\'s case exemplifies the foreign influence and corruption that permeated the Trump orbit.',
     content: [
@@ -3641,7 +3641,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Lab leak theories, anti-vaccine disinformation, and pandemic denialism',
     severity: 'high',
     category: 'Disinformation',
-    date: '2020-Present',
+    date: 'April 7, 2020',
     lastUpdated: 'February 15, 2026',
     summary: 'The COVID-19 pandemic spawned an explosion of conspiracy theories that cost lives. Claims about Chinese lab leaks, bioweapon development, 5G towers, microchip vaccines, and miracle cures spread through social media and conservative media. Trump promoted unproven treatments, downplayed the virus, and undermined public health measures. The disinformation contributed to America\'s devastating death toll.',
     content: [
@@ -3680,7 +3680,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The systematic takeover of federal courts by conservative ideologues',
     severity: 'critical',
     category: 'Institutional Corruption',
-    date: '1982-Present',
+    date: 'July 11, 2023',
     lastUpdated: 'February 15, 2026',
     summary: 'The Federalist Society has executed a 40-year campaign to capture the federal judiciary. Through vetting judicial nominees, training conservative lawyers, and building an ideological pipeline, the organization now effectively controls who becomes a federal judge for Republican presidents. The result is a judiciary hostile to regulation, voting rights, reproductive freedom, and separation of church and state.',
     content: [
@@ -3722,7 +3722,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Industry insiders destroying EPA, OSHA, CFPB, and protective agencies',
     severity: 'high',
     category: 'Corruption',
-    date: '2017-2021',
+    date: 'June 19, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'The Trump administration systematically installed industry executives and lobbyists to run the agencies that regulate their industries. The result was regulatory capture - agencies protecting industry interests rather than the public. Environmental protections were gutted, worker safety ignored, consumer protections rolled back, and corporate interests prioritized over public health and safety.',
     content: [
@@ -3763,7 +3763,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'DOJ abandonment of civil rights enforcement under Trump',
     severity: 'critical',
     category: 'Civil Rights',
-    date: '2017-2021',
+    date: 'February 22, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'The Trump Department of Justice systematically dismantled civil rights enforcement. Consent decrees with police departments were halted, voting rights enforcement stopped, hate crimes were deprioritized, and the Civil Rights Division was hollowed out. The DOJ shifted from protecting civil rights to defending discriminatory policies.',
     content: [
@@ -3801,7 +3801,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Price, Pruitt, Zinke, and the culture of corruption',
     severity: 'high',
     category: 'Ethics Violations',
-    date: '2017-2019',
+    date: 'March 28, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'Trump cabinet officials engaged in unprecedented ethics violations - private jet travel on taxpayer dime, lavish office renovations, conflicts of interest, and outright corruption. Tom Price, Scott Pruitt, and Ryan Zinke resigned amid scandals, but the culture of self-dealing pervaded the entire administration.',
     content: [
@@ -3845,7 +3845,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Child cages, abuse, and deaths at the border',
     severity: 'critical',
     category: 'Human Rights',
-    date: '2017-2021',
+    date: 'June 15, 2018',
     lastUpdated: 'February 15, 2026',
     summary: 'The Department of Homeland Security under Trump became an instrument of cruelty. Children were caged in detention facilities, families were separated with no plan for reunification, migrants died in custody from neglect, and CBP officers engaged in racist social media groups. DHS implemented policies designed to cause suffering as deterrence.',
     content: [
@@ -3885,7 +3885,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Scott Pruitt\'s destruction of environmental protection',
     severity: 'critical',
     category: 'Environmental Crime',
-    date: '2017-2019',
+    date: 'July 5, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'Scott Pruitt, a climate denier who had sued the EPA 14 times as Oklahoma AG, was appointed to run the agency. He proceeded to dismantle environmental protections, roll back over 100 regulations, install fossil fuel lobbyists in key positions, and turn the EPA into an arm of the industries it was meant to regulate. His tenure was marked by corruption, scandal, and the abandonment of the agency\'s mission.',
     content: [
@@ -3925,7 +3925,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Barr\'s misleading summary and obstruction of the truth',
     severity: 'critical',
     category: 'Obstruction of Justice',
-    date: 'March 2019',
+    date: 'April 18, 2019',
     lastUpdated: 'February 15, 2026',
     summary: 'Attorney General William Barr released a 4-page "summary" of the 448-page Mueller Report that fundamentally misrepresented its findings. He claimed "no collusion" and cleared Trump of obstruction - neither of which Mueller concluded. When Mueller complained in writing, Barr dismissed his concerns. The deception shaped public perception before the actual report could be read.',
     content: [
@@ -3963,7 +3963,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'NRA control over legislators blocking gun reform after mass shootings',
     severity: 'high',
     category: 'Special Interest Corruption',
-    date: '1990s-Present',
+    date: 'January 30, 2013',
     lastUpdated: 'February 15, 2026',
     summary: 'The National Rifle Association has captured the Republican Party, blocking any meaningful gun reform despite overwhelming public support after mass shootings at schools, churches, and public gatherings. NRA spending and grades determine Republican votes. Even after children are massacred, legislators prioritize NRA approval over public safety. The lobby\'s grip represents a dangerous breakdown of democratic responsiveness.',
     content: [
@@ -4002,7 +4002,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Suspicious transactions and oligarch purchases',
     severity: 'critical',
     category: 'Financial Crimes',
-    date: '2000s-Present',
+    date: 'May 29, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'Trump properties have been used for suspicious all-cash purchases by Russian oligarchs and shell companies. Donald Trump Jr. stated in 2008 that "Russians make up a pretty disproportionate cross-section of a lot of our assets." The pattern of transactions raises serious money laundering concerns that have never been fully investigated.',
     content: [
@@ -4042,7 +4042,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Blackwater, Halliburton, and the contractor corruption complex',
     severity: 'high',
     category: 'Contractor Corruption',
-    date: '2001-Present',
+    date: 'April 6, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'The wars in Iraq and Afghanistan became a massive profit center for private contractors. Halliburton received billions in no-bid contracts. Blackwater contractors committed war crimes with impunity. Billions disappeared to fraud, waste, and abuse. The revolving door between Pentagon and contractor boards ensured the wars continued and the contracts flowed.',
     content: [
@@ -4082,7 +4082,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Trump pressuring DOJ and agencies to overturn elections',
     severity: 'critical',
     category: 'Election Subversion',
-    date: '2020-2021',
+    date: 'March 3, 2018',
     lastUpdated: 'February 15, 2026',
     summary: 'After losing the 2020 election, Trump pressured the Department of Justice to declare the election corrupt and help overturn results. He considered installing Jeffrey Clark, who would send letters to states urging them to overturn results. Only the threat of mass DOJ resignations stopped him. This was the most serious attempt to use federal power to overturn an American election.',
     content: [
@@ -4122,7 +4122,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic abuse of power across four years',
     severity: 'critical',
     category: 'Abuse of Power',
-    date: '2017-2021',
+    date: 'September 8, 2018',
     lastUpdated: 'February 15, 2026',
     summary: 'Donald Trump\'s presidency was marked by systematic abuse of power: using government for personal benefit, rewarding allies with pardons, punishing perceived enemies through federal agencies, obstructing investigations, and ultimately attempting to overturn an election. The pattern of misconduct was unprecedented in American history.',
     content: [
@@ -4163,7 +4163,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The dangerous doctrine that presidents are above the law',
     severity: 'critical',
     category: 'Constitutional Crisis',
-    date: '2023-Present',
+    date: 'July 2, 2024',
     lastUpdated: 'February 15, 2026',
     summary: 'Trump has claimed absolute immunity from criminal prosecution for any "official act" as president. His lawyers argued he could order SEAL Team Six to assassinate political rivals and be immune. The Supreme Court\'s partial acceptance of immunity claims in Trump v. United States threatens to place presidents above the law and undermine democratic accountability.',
     content: [
@@ -4202,7 +4202,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Supreme Court Justice\'s wife coordinating with coup plotters',
     severity: 'critical',
     category: 'Judicial Corruption',
-    date: 'November 2020 - January 2021',
+    date: 'March 24, 2022',
     lastUpdated: 'February 15, 2026',
     summary: 'Virginia "Ginni" Thomas, wife of Supreme Court Justice Clarence Thomas, actively worked to overturn the 2020 election. She texted Chief of Staff Mark Meadows urging him to fight, attended the January 6 rally, contacted state legislators about fake electors, and was interviewed by the January 6 Committee. Throughout, her husband heard election-related cases without recusing.',
     content: [
@@ -4241,7 +4241,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Undisclosed luxury travel, real estate, and gifts to Justice Thomas',
     severity: 'critical',
     category: 'Judicial Corruption',
-    date: '1990s-Present',
+    date: 'June 20, 2023',
     lastUpdated: 'February 15, 2026',
     summary: 'ProPublica revealed that billionaire Harlan Crow has lavished decades of undisclosed gifts on Clarence Thomas - luxury travel on superyachts and private jets, a real estate deal benefiting Thomas\'s family, private school tuition for a relative, and more. Thomas failed to disclose virtually all of it, violating federal ethics law and creating corruption concerns.',
     content: [
@@ -4279,7 +4279,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Undisclosed gifts, conflicts of interest, and no binding code of conduct',
     severity: 'critical',
     category: 'Institutional Corruption',
-    date: '2023-Present',
+    date: 'May 4, 2023',
     lastUpdated: 'February 15, 2026',
     summary: 'The Supreme Court faces an unprecedented ethics crisis. Clarence Thomas received undisclosed gifts worth millions from Harlan Crow. Samuel Alito accepted luxury travel from a GOP donor with business before the Court. Neither will recuse from related cases. The Court has no binding ethics code and no enforcement mechanism. Public trust in the institution has collapsed.',
     content: [
@@ -4319,7 +4319,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Women dying, fleeing states, and denied care after Roe fell',
     severity: 'critical',
     category: 'Human Rights',
-    date: 'June 2022 - Present',
+    date: 'June 24, 2022',
     lastUpdated: 'February 15, 2026',
     summary: 'Since Dobbs v. Jackson overturned Roe v. Wade in June 2022, the reproductive healthcare landscape has become a crisis. Women have died from delayed care. Emergency rooms turn away miscarrying patients. Women with ectopic pregnancies wait while doctors consult lawyers. IVF access is threatened. The healthcare system is collapsing in abortion-ban states.',
     content: [
@@ -4360,7 +4360,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Unauthorized access to Georgia election systems by Trump allies',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'January 7, 2021',
+    date: 'August 30, 2022',
     lastUpdated: 'February 15, 2026',
     summary: 'On January 7, 2021 - one day after the Capitol attack - a team of pro-Trump operatives gained unauthorized access to election equipment in Coffee County, Georgia. They copied software and data from voting machines in what prosecutors describe as part of a coordinated scheme to steal election technology across multiple states. The breach was facilitated by local officials and connected to the Trump campaign\'s broader effort to overturn the election.',
     content: [
@@ -4400,7 +4400,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The plan to derail electoral vote certification on January 6',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'December 2020 - January 6, 2021',
+    date: 'April 15, 2022',
     lastUpdated: 'February 15, 2026',
     summary: 'The "Green Bay Sweep" was the name Trump allies gave to their plan to derail the January 6 electoral vote certification. The scheme involved Mike Pence refusing to certify Biden\'s win, Republican members of Congress objecting to swing state results, and fake electors providing an alternative slate of votes. It was a coordinated coup attempt that came within minutes of succeeding.',
     content: [
@@ -4440,7 +4440,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Three hours of delay while the Capitol was under attack',
     severity: 'critical',
     category: 'January 6 Response',
-    date: 'January 6, 2021',
+    date: 'January 7, 2021',
     lastUpdated: 'February 15, 2026',
     summary: 'As the Capitol was being overrun on January 6, it took over three hours for the National Guard to arrive despite being ready to deploy. The delay was caused by Trump administration officials at the Pentagon who imposed unusual restrictions and dithered while lawmakers were in danger. The failure to respond enabled the prolonged attack and near-capture of members of Congress.',
     content: [
@@ -4481,7 +4481,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Defense Department dysfunction during the Capitol attack',
     severity: 'critical',
     category: 'January 6 Response',
-    date: 'January 6, 2021',
+    date: 'January 8, 2021',
     lastUpdated: 'February 15, 2026',
     summary: 'The Pentagon\'s response to the January 6 attack was marked by confusion, delay, and failures at every level. Acting Defense Secretary Christopher Miller, installed by Trump weeks earlier, imposed unusual restrictions on Guard deployment. Military leaders held lengthy meetings while the Capitol was overrun. The contrast with rapid deployments for BLM protests revealed either incompetence or complicity.',
     content: [
@@ -4521,7 +4521,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'IRA troll farms and social media warfare against America',
     severity: 'critical',
     category: 'Foreign Interference',
-    date: '2014 - Present',
+    date: 'September 7, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'The Internet Research Agency (IRA), a Russian troll farm funded by oligarch Yevgeny Prigozhin, conducted a massive disinformation campaign targeting American democracy. Their operations reached 126 million Americans on Facebook alone, organized real-world rallies, and sought to elect Donald Trump. The campaign exploited social divisions and continues today through evolved tactics.',
     content: [
@@ -4561,7 +4561,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Russian money flowing to Trump and his circle',
     severity: 'critical',
     category: 'Foreign Corruption',
-    date: '1987 - Present',
+    date: 'March 15, 2018',
     lastUpdated: 'February 15, 2026',
     summary: 'Donald Trump\'s financial ties to Russian oligarchs and Kremlin-connected figures span decades. Trump Tower sales to Russians, the 2013 Miss Universe pageant in Moscow, the Trump SoHo project with Felix Sater, real estate purchases by Russian nationals, and campaign connections to Kremlin figures paint a picture of deep entanglement with Russian money and influence.',
     content: [
@@ -4601,7 +4601,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The warnings that were ignored before September 11, 2001',
     severity: 'critical',
     category: 'Intelligence Failures',
-    date: 'August 2001',
+    date: 'September 18, 2009',
     lastUpdated: 'February 15, 2026',
     summary: 'In the months before September 11, 2001, U.S. intelligence agencies received numerous warnings about an imminent al-Qaeda attack. The August 6, 2001 Presidential Daily Brief titled "Bin Laden Determined to Strike in US" explicitly warned of the threat. CIA and FBI possessed pieces of the puzzle that, combined, could have prevented the attack. Institutional failures, bureaucratic walls, and leadership inattention allowed 3,000 people to die.',
     content: [
@@ -4641,7 +4641,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'CIA-backed overthrow of democratically elected President Allende',
     severity: 'critical',
     category: 'Historical Coups',
-    date: 'September 11, 1973',
+    date: 'December 5, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'On September 11, 1973, the Chilean military, with extensive CIA support, overthrew democratically elected President Salvador Allende. The coup installed General Augusto Pinochet, who ruled as dictator until 1990. Under Pinochet, over 3,000 people were killed, 40,000 were tortured, and hundreds of thousands were forced into exile. The U.S. government actively worked to destabilize Chile and enable the coup.',
     content: [
@@ -4681,7 +4681,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'US-backed assassination program across South America',
     severity: 'critical',
     category: 'Historical Coups',
-    date: '1975 - 1989',
+    date: 'January 18, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'Operation Condor was a covert campaign of political repression and assassination coordinated among South American dictatorships with U.S. support. Chile, Argentina, Brazil, Paraguay, Uruguay, and Bolivia collaborated to track, kidnap, torture, and kill political opponents across borders. An estimated 60,000 people were killed. The CIA and State Department were aware and provided support.',
     content: [
@@ -4721,7 +4721,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How the super-rich fund the destruction of democracy',
     severity: 'critical',
     category: 'Oligarchy',
-    date: '2010 - Present',
+    date: 'June 15, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'American billionaires have systematically funded the dismantling of democratic institutions. The Koch network built infrastructure to capture state legislatures and courts. Peter Thiel bankrolled candidates who reject election legitimacy. Elon Musk turned Twitter into a disinformation platform. Harlan Crow bought a Supreme Court justice. Their combined influence has warped American politics toward oligarchy.',
     content: [
@@ -4761,7 +4761,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The religious right\'s capture of the Republican Party',
     severity: 'high',
     category: 'Political Extremism',
-    date: '1979 - Present',
+    date: 'June 23, 2014',
     lastUpdated: 'February 15, 2026',
     summary: 'Christian nationalism - the belief that America should be a Christian nation governed by biblical law - has captured the Republican Party. Organizations like the Family Research Council, Alliance Defending Freedom, and Council for National Policy coordinate to install judges, pass legislation, and reshape America according to their religious vision. The movement produced the Dobbs decision and threatens further rollbacks of rights.',
     content: [
@@ -4801,7 +4801,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Alex Jones\'s $1.5 billion judgment for lies about dead children',
     severity: 'high',
     category: 'Disinformation Accountability',
-    date: '2012 - 2022',
+    date: 'August 3, 2022',
     lastUpdated: 'February 15, 2026',
     summary: 'Conspiracy theorist Alex Jones spent years claiming the Sandy Hook Elementary School massacre, which killed 20 children and 6 adults, was a "hoax" staged with "crisis actors." Grieving families were harassed by his followers. They sued, and in 2022, juries in Texas and Connecticut awarded nearly $1.5 billion in damages - a landmark accountability moment for disinformation.',
     content: [
@@ -4840,7 +4840,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'From street gang to seditious conspiracy',
     severity: 'critical',
     category: 'Domestic Terrorism',
-    date: '2016 - Present',
+    date: 'March 8, 2021',
     lastUpdated: 'February 15, 2026',
     summary: 'The Proud Boys evolved from a misogynist "Western chauvinist" gang into a violent extremist organization convicted of seditious conspiracy. Their leaders received the longest sentences of any January 6 defendants. The group maintains ties to Republican politicians and continues organizing despite prosecutions. They represent the mainstreaming of political violence in America.',
     content: [
@@ -4880,7 +4880,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The criminal cover-up that made Trump a convicted felon',
     severity: 'critical',
     category: 'Criminal Conviction',
-    date: '2016 - 2024',
+    date: 'April 4, 2023',
     lastUpdated: 'February 15, 2026',
     summary: 'In October 2016, weeks before the election, Donald Trump\'s lawyer Michael Cohen paid adult film actress Stormy Daniels $130,000 to silence her about an affair with Trump. Trump reimbursed Cohen through falsified business records. In May 2024, a Manhattan jury convicted Trump on all 34 felony counts, making him the first former president convicted of crimes.',
     content: [
@@ -4921,7 +4921,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic abuse and torture of Iraqi prisoners by U.S. military',
     severity: 'critical',
     category: 'War Crimes',
-    date: 'April 28, 2004',
+    date: 'May 1, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'In 2004, photographs emerged showing U.S. military personnel torturing, sexually humiliating, and abusing Iraqi prisoners at Abu Ghraib prison in Iraq. The images shocked the world and undermined America\'s moral authority. While 11 enlisted soldiers were convicted, the senior officials who authorized "enhanced interrogation techniques" - including Donald Rumsfeld - faced no accountability. The scandal revealed systemic failures and deliberate policy decisions that enabled torture.',
     content: [
@@ -4960,7 +4960,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How the Bush administration lied America into war',
     severity: 'critical',
     category: 'War Crimes',
-    date: 'March 20, 2003',
+    date: 'January 30, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'The Bush administration deliberately lied to Congress and the American people to justify invading Iraq. They claimed Saddam Hussein had weapons of mass destruction and ties to al-Qaeda - both false. The war killed over 4,400 Americans, hundreds of thousands of Iraqis, cost trillions of dollars, and destabilized the entire Middle East. No WMD were ever found. No senior official was ever held accountable for these lies.',
     content: [
@@ -5001,7 +5001,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Enhanced interrogation: America\'s descent into systematic torture',
     severity: 'critical',
     category: 'Human Rights Violations',
-    date: 'September 17, 2001',
+    date: 'November 11, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'After 9/11, the CIA established a program of "enhanced interrogation techniques" - a euphemism for torture. Detainees were waterboarded, subjected to "rectal feeding," confined in coffin-sized boxes, kept awake for days, and held in secret prisons worldwide. The Senate Torture Report documented systematic abuse far beyond what was authorized, produced no useful intelligence, and represented a fundamental betrayal of American values. No CIA officer was ever prosecuted.',
     content: [
@@ -5041,7 +5041,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'America\'s secret global network of torture prisons',
     severity: 'critical',
     category: 'Human Rights Violations',
-    date: '2002 - 2007',
+    date: 'November 20, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'After 9/11, the CIA operated a network of secret prisons ("black sites") in at least eight countries where detainees were held without legal process and subjected to torture. These facilities were deliberately located outside U.S. jurisdiction to evade legal constraints. The program involved kidnapping (extraordinary rendition), torture, and indefinite detention without charge. Several detainees died in custody. The existence of black sites was denied until media exposed them in 2005.',
     content: [
@@ -5080,7 +5080,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'A history of overthrowing democracies and installing dictators',
     severity: 'critical',
     category: 'Foreign Intervention',
-    date: '1953 - Present',
+    date: 'June 15, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'Since its founding, the CIA has overthrown democratically elected governments, installed brutal dictators, and destabilized nations worldwide. From Iran (1953) to Chile (1973) to countless others, the agency has prioritized American corporate interests and Cold War ideology over democracy and human rights. These interventions caused immense suffering, created lasting instability, and generated anti-American sentiment that persists today.',
     content: [
@@ -5118,7 +5118,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Heritage Foundation\'s plan to dismantle American democracy',
     severity: 'critical',
     category: 'Authoritarianism',
-    date: '2023 - Present',
+    date: 'April 21, 2023',
     lastUpdated: 'February 15, 2026',
     summary: 'Project 2025 is a comprehensive plan by the Heritage Foundation and allied organizations to transform the federal government into an instrument of authoritarian control. The 922-page "Mandate for Leadership" proposes replacing career civil servants with Trump loyalists via Schedule F, gutting environmental and consumer protections, weaponizing DOJ against political opponents, and implementing Christian nationalist policies. Over 100 conservative organizations contributed to this blueprint for dismantling democracy.',
     content: [
@@ -5157,7 +5157,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How the Supreme Court handed the presidency to George W. Bush',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'November 7, 2000',
+    date: 'February 11, 2009',
     lastUpdated: 'February 15, 2026',
     summary: 'The 2000 presidential election was decided not by voters but by the Supreme Court. With Florida\'s electoral votes determining the winner, and the margin there just hundreds of votes, the Court stopped the recount in Bush v. Gore. Five Republican-appointed justices handed the presidency to George W. Bush. Subsequent media recounts suggested Al Gore may have won. The decision\'s explicit statement that it set no precedent revealed its political nature.',
     content: [
@@ -5196,7 +5196,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Bush administration exposed CIA agent to punish whistleblower',
     severity: 'high',
     category: 'National Security',
-    date: 'July 14, 2003',
+    date: 'August 8, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'When former Ambassador Joe Wilson publicly debunked the Bush administration\'s claim that Iraq sought uranium from Niger, administration officials retaliated by exposing his wife, Valerie Plame, as a CIA officer. The leak endangered her sources, ended her career, and was a federal crime. Vice President Cheney\'s chief of staff Scooter Libby was convicted of perjury and obstruction, then had his sentence commuted by Bush and was later pardoned by Trump.',
     content: [
@@ -5237,7 +5237,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'NIH funding of risky virus research that may have preceded COVID-19',
     severity: 'high',
     category: 'Public Health',
-    date: '2014 - Present',
+    date: 'August 5, 2020',
     lastUpdated: 'February 15, 2026',
     summary: 'Gain-of-function research enhances pathogens to make them more transmissible or deadly, ostensibly to prepare for natural outbreaks. The NIH funded such research at the Wuhan Institute of Virology through EcoHealth Alliance, including work on bat coronaviruses. Congressional investigations revealed NIH officials, including Anthony Fauci, made misleading statements about this funding. Whether this research contributed to COVID-19 remains investigated.',
     content: [
@@ -5275,7 +5275,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Investigation into whether COVID-19 escaped from Wuhan laboratory',
     severity: 'high',
     category: 'Public Health',
-    date: 'January 2020 - Present',
+    date: 'July 14, 2020',
     lastUpdated: 'February 15, 2026',
     summary: 'The COVID-19 pandemic that killed millions may have begun not from natural spillover at a wet market but from an accident at the Wuhan Institute of Virology, which researched bat coronaviruses. Initially dismissed as conspiracy theory, the lab leak hypothesis gained credibility as evidence mounted and natural origin remained unproven. The FBI and Department of Energy have assessed lab leak as the most likely origin. China\'s obstruction of investigation keeps the truth hidden.',
     content: [
@@ -5314,7 +5314,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The search for the truth behind the deadliest pandemic in a century',
     severity: 'high',
     category: 'Public Health',
-    date: 'December 2019 - Present',
+    date: 'June 23, 2020',
     lastUpdated: 'February 15, 2026',
     summary: 'COVID-19 has killed over 7 million people officially, likely 15-20 million in reality. How did it begin? Two hypotheses compete: natural spillover from animals at the Huanan Seafood Market, or a laboratory accident at the Wuhan Institute of Virology. Both remain plausible. China has blocked investigation. U.S. agencies disagree. The truth matters because understanding pandemic origins is essential to preventing the next one.',
     content: [
@@ -5353,7 +5353,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The movement to transform America into a theocracy',
     severity: 'high',
     category: 'Political Extremism',
-    date: '1970s - Present',
+    date: 'August 17, 2014',
     lastUpdated: 'February 15, 2026',
     summary: 'Christian nationalism is the belief that America was founded as a Christian nation and should be governed according to Christian principles. This movement seeks to erase separation of church and state, impose religious law through government, and privilege Christianity over other faiths. It has captured the Republican Party, the Supreme Court majority, and now shapes policy through Project 2025 and allied organizations.',
     content: [
@@ -5393,7 +5393,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The architects of the Iraq War and permanent military expansion',
     severity: 'high',
     category: 'Foreign Policy',
-    date: '1997 - Present',
+    date: 'October 9, 2014',
     lastUpdated: 'February 15, 2026',
     summary: 'Neoconservatives are a network of foreign policy intellectuals who championed aggressive military intervention, particularly in the Middle East. Through think tanks like the Project for the New American Century (PNAC), they planned regime change in Iraq years before 9/11. When George W. Bush took office, they filled key positions and drove the disastrous Iraq War. Despite catastrophic failure, neocons face no accountability and continue shaping policy.',
     content: [
@@ -5433,7 +5433,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'CIA program of kidnapping suspects and sending them to be tortured',
     severity: 'critical',
     category: 'Human Rights Violations',
-    date: '2001 - Present',
+    date: 'June 20, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'After 9/11, the CIA operated an "extraordinary rendition" program - kidnapping terrorism suspects from around the world and transferring them to countries known for torture, or to CIA black sites. Victims were snatched from streets, airports, and homes, often based on thin evidence. Some were innocent. The program operated outside any legal framework, with complicity from dozens of foreign governments and private contractors.',
     content: [
@@ -5472,7 +5472,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Erik Prince\'s clandestine backchannel to Russia',
     severity: 'high',
     category: 'Foreign Collusion',
-    date: 'January 11, 2017',
+    date: 'May 10, 2018',
     lastUpdated: 'February 15, 2026',
     summary: 'Nine days before Trump\'s inauguration, Blackwater founder Erik Prince met secretly with a Russian close to Putin in the Seychelles islands. The meeting, arranged by UAE officials, aimed to establish a backchannel between the incoming Trump administration and the Kremlin. Prince initially lied to Congress about the meeting. The Mueller investigation documented it but did not establish criminal conspiracy.',
     content: [
@@ -5511,7 +5511,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How the United Arab Emirates captured American foreign policy',
     severity: 'high',
     category: 'Foreign Influence',
-    date: '2016 - Present',
+    date: 'July 3, 2018',
     lastUpdated: 'February 15, 2026',
     summary: 'The United Arab Emirates has conducted one of the most sophisticated and successful foreign influence operations in American history. Through an extensive network of lobbyists, consultants, think tank funding, campaign contributions, and personal relationships with key figures like Jared Kushner, the UAE shaped Trump administration policy to serve Emirati interests—from the Qatar blockade to arms sales to the Abraham Accords. Tom Barrack, Trump\'s close friend and inaugural committee chair, was charged with acting as an unregistered UAE agent.',
     content: [
@@ -5550,7 +5550,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How the Kushners leveraged a diplomatic crisis for personal profit',
     severity: 'critical',
     category: 'Corruption',
-    date: 'June 2017 - January 2018',
+    date: 'June 5, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'In June 2017, Saudi Arabia and the UAE launched a blockade of Qatar. The Kushner family had been seeking Qatari investment to bail out their troubled 666 Fifth Avenue property. After Qatar declined to invest, Jared Kushner supported the blockade, and Trump initially endorsed it. Eventually, Qatar-linked investors rescued the Kushner building. Critics allege the Kushners used American foreign policy as leverage for personal financial gain—a quid pro quo of historic proportions.',
     content: [
@@ -5589,7 +5589,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The Pentagon unit that manufactured the case for Iraq War',
     severity: 'critical',
     category: 'Intelligence Manipulation',
-    date: '2002 - 2003',
+    date: 'October 3, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'The Office of Special Plans (OSP) was a secretive Pentagon unit created by Undersecretary Douglas Feith to produce the intelligence that CIA and DIA wouldn\'t. The OSP cherry-picked raw intelligence, promoted discredited sources like "Curveball," and created a false picture of Iraqi WMD and al-Qaeda connections. It was a deliberate effort to manufacture justification for a war already decided upon, bypassing professional intelligence analysis.',
     content: [
@@ -5628,7 +5628,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The permanent war economy that Eisenhower warned about',
     severity: 'critical',
     category: 'Corruption',
-    date: '1961 - Present',
+    date: 'August 19, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'In 1961, President Eisenhower warned of the "military-industrial complex"—the dangerous alignment of defense contractors, military brass, and politicians that creates incentives for permanent war. That warning went unheeded. Today, five defense contractors dominate a $900 billion defense budget. The revolving door spins between Pentagon and industry. Wars continue not because they serve national security, but because they serve corporate profits.',
     content: [
@@ -5667,7 +5667,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How billionaire investors prey on distressed nations and companies',
     severity: 'high',
     category: 'Economic Exploitation',
-    date: '1990s - Present',
+    date: 'October 13, 2009',
     lastUpdated: 'February 15, 2026',
     summary: 'Vulture funds are investment firms that buy distressed debt—from failing companies or impoverished nations—for pennies on the dollar, then use aggressive legal tactics to extract full payment. Paul Singer\'s Elliott Management is the most notorious practitioner, having sued Argentina for over a decade and seized an Argentine naval ship. Vulture capitalism extracts wealth from the desperate while contributing nothing productive.',
     content: [
@@ -5703,7 +5703,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How international finance traps developing nations in permanent debt',
     severity: 'high',
     category: 'Economic Exploitation',
-    date: '1970s - Present',
+    date: 'December 1, 2009',
     lastUpdated: 'February 15, 2026',
     summary: 'For decades, international financial institutions and private creditors have trapped developing nations in cycles of debt that transfer wealth from the global poor to rich-country creditors. The IMF and World Bank imposed "structural adjustment" programs that devastated public services while ensuring debt repayment. Private creditors extract billions from nations that can\'t afford schools or hospitals. The system is designed to keep poor countries poor.',
     content: [
@@ -5740,7 +5740,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The hidden billions buying American democracy',
     severity: 'critical',
     category: 'Political Corruption',
-    date: '2010 - Present',
+    date: 'May 29, 2021',
     lastUpdated: 'February 15, 2026',
     summary: 'Since Citizens United, billions in untraceable "dark money" has flooded American politics, with Republicans benefiting disproportionately. The Koch network, Leonard Leo\'s Marble Freedom Trust, Donors Trust, and similar vehicles allow billionaires to anonymously fund political campaigns, judicial appointments, and policy advocacy. This shadow money has captured courts, funded climate denial, and undermined democracy itself—all while hiding the identities of those buying influence.',
     content: [
@@ -5779,7 +5779,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How Murdoch\'s network became a propaganda operation',
     severity: 'critical',
     category: 'Media Manipulation',
-    date: '1996 - Present',
+    date: 'November 2, 2021',
     lastUpdated: 'February 15, 2026',
     summary: 'Fox News has evolved from a conservative news network into a propaganda operation that systematically spreads disinformation. The $787 million Dominion lawsuit settlement confirmed what critics long alleged: Fox hosts knew election fraud claims were false but broadcast them anyway. Fox has promoted COVID misinformation, climate denial, and white nationalist talking points while functioning as de facto state media for Republican administrations.',
     content: [
@@ -5817,7 +5817,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The Kremlin\'s campaign to destabilize Western democracies',
     severity: 'critical',
     category: 'Foreign Interference',
-    date: '2014 - Present',
+    date: 'July 13, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'Russia has conducted the most sophisticated foreign disinformation campaign against American democracy in history. The Internet Research Agency\'s "troll factory" flooded social media with divisive content. Russian intelligence hacked the DNC and weaponized stolen emails. RT and Sputnik spread propaganda to American audiences. The campaign didn\'t end in 2016—it evolved, exploiting every American division from COVID to racial justice.',
     content: [
@@ -5855,7 +5855,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'GRU and FSB activities targeting Western institutions',
     severity: 'critical',
     category: 'Foreign Intelligence',
-    date: '1991 - Present',
+    date: 'November 1, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'Russian intelligence services—the FSB (domestic/foreign), SVR (foreign), and GRU (military)—conduct extensive operations against the United States and its allies. They\'ve hacked government systems, stolen technology secrets, assassinated dissidents abroad, cultivated American assets, and interfered in elections. Recent years have seen escalating aggression, from the DNC hack to the SolarWinds breach to assassination attempts with chemical weapons on foreign soil.',
     content: [
@@ -5893,7 +5893,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Wall Street\'s extraction machine targeting companies and markets',
     severity: 'high',
     category: 'Economic Exploitation',
-    date: '1990s - Present',
+    date: 'February 17, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'Hedge funds manage trillions of dollars with minimal regulation and maximum aggression. They engage in predatory short selling, drive companies into bankruptcy, manipulate markets, and extract wealth while producing nothing. From attacking currencies to raiding pension funds to destroying retailers, hedge funds exemplify finance capitalism at its most destructive—privatizing gains and socializing losses.',
     content: [
@@ -5930,7 +5930,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Mass surveillance of Americans by their own government',
     severity: 'critical',
     category: 'Civil Liberties',
-    date: '2001 - Present',
+    date: 'August 23, 2012',
     lastUpdated: 'February 15, 2026',
     summary: 'After 9/11, the U.S. government built the most extensive surveillance apparatus in human history. The NSA collects phone records of every American, intercepts internet communications globally, and has secret access to tech company servers. Edward Snowden\'s revelations showed surveillance far exceeding what officials admitted. Despite reforms, mass surveillance continues, enabled by secret courts, compliant companies, and bipartisan support for "national security."',
     content: [
@@ -5969,7 +5969,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The power and politics of platform speech control',
     severity: 'high',
     category: 'Media & Technology',
-    date: '2016 - Present',
+    date: 'July 6, 2022',
     lastUpdated: 'February 15, 2026',
     summary: 'Social media platforms wield unprecedented power over public discourse. Their content moderation decisions—what speech to allow, amplify, or suppress—shape political reality for billions. Conservatives claim censorship; critics cite failure to address disinformation. The debate over Section 230, which shields platforms from liability, obscures harder questions about private control of the public square and the impossibility of neutral moderation at scale.',
     content: [
@@ -6006,7 +6006,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How a few corporations came to control American information',
     severity: 'high',
     category: 'Media & Democracy',
-    date: '1996 - Present',
+    date: 'March 19, 2022',
     lastUpdated: 'February 15, 2026',
     summary: 'A handful of corporations control the vast majority of American media—news, entertainment, publishing, and online platforms. The 1996 Telecommunications Act accelerated consolidation. Local newspapers have collapsed. Sinclair Broadcast Group forces local TV stations to air conservative commentary. Tech platforms have become the new gatekeepers. The result is a media landscape that serves corporate interests, not public information needs.',
     content: [
@@ -6044,7 +6044,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The online radicalization pipeline from mainstream to extremism',
     severity: 'critical',
     category: 'Extremism',
-    date: '2015 - Present',
+    date: 'September 9, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'A sophisticated media ecosystem radicalizes people toward white nationalism, from mainstream conservative media to explicit neo-Nazi content. Fox News normalizes "great replacement" theory. YouTube algorithms recommend increasingly extreme videos. Anonymous imageboards incubate the next mass shooter. The Buffalo, El Paso, Christchurch, and Pittsburgh attackers all radicalized online. This pipeline turns alienation into terrorism.',
     content: [
@@ -6081,7 +6081,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'UN sanctions that Madeleine Albright called "worth it"',
     severity: 'critical',
     category: 'Crimes Against Humanity',
-    date: 'August 6, 1990',
+    date: 'November 25, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'From 1990 to 2003, comprehensive UN sanctions on Iraq—enforced primarily by the United States—contributed to the deaths of an estimated 500,000 Iraqi children under five. When confronted with this figure on 60 Minutes in 1996, Secretary of State Madeleine Albright said the price was "worth it." This represents one of the most devastating humanitarian catastrophes caused by American foreign policy.',
     content: [
@@ -6115,7 +6115,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Kissinger and Nixon\'s illegal war that killed hundreds of thousands',
     severity: 'critical',
     category: 'War Crimes',
-    date: 'March 18, 1969',
+    date: 'May 14, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'From 1969 to 1973, the Nixon administration conducted a secret bombing campaign in Cambodia, dropping more tonnage than all Allied bombs in World War II combined. The campaign, conceived by Henry Kissinger and hidden from Congress and the American public, killed an estimated 150,000-500,000 Cambodian civilians and destabilized the country, contributing to the rise of the Khmer Rouge genocide.',
     content: [
@@ -6149,7 +6149,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Indonesian invasion enabled by American weapons and diplomatic cover',
     severity: 'critical',
     category: 'Crimes Against Humanity',
-    date: 'December 7, 1975',
+    date: 'April 29, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'On December 7, 1975, Indonesia invaded East Timor with American weapons, one day after President Ford and Henry Kissinger visited Jakarta and gave tacit approval. The subsequent occupation killed approximately 180,000 people—one-third of the population—making it one of the worst genocides of the 20th century. The U.S. continued military support throughout the atrocities.',
     content: [
@@ -6183,7 +6183,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The invasion that killed thousands to capture one man',
     severity: 'critical',
     category: 'Military Operations',
-    date: 'December 20, 1989',
+    date: 'March 7, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'On December 20, 1989, the United States invaded Panama with 27,000 troops, ostensibly to capture Manuel Noriega on drug charges. The invasion killed between 500 and 4,000 Panamanian civilians (depending on source), destroyed entire neighborhoods, and represented the largest U.S. military operation since Vietnam. Noriega had been a CIA asset for decades before becoming inconvenient.',
     content: [
@@ -6216,7 +6216,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: '78 days of bombing that killed civilians and set dangerous precedents',
     severity: 'critical',
     category: 'Military Operations',
-    date: 'March 24, 1999',
+    date: 'May 15, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'From March to June 1999, NATO conducted a 78-day bombing campaign against Serbia without UN Security Council authorization. While framed as humanitarian intervention to stop ethnic cleansing in Kosovo, the bombing killed approximately 500 Serbian civilians, including 88 at a TV station and 87 on a refugee convoy. The intervention set precedents for unilateral military action that would be invoked to justify subsequent wars.',
     content: [
@@ -6249,7 +6249,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How regime change created a failed state and Wagner Group playground',
     severity: 'critical',
     category: 'Foreign Policy',
-    date: 'March 19, 2011',
+    date: 'September 3, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'The 2011 NATO intervention in Libya, led by the U.S., UK, and France, toppled Muammar Gaddafi but created a failed state. What was promised as civilian protection became regime change. The aftermath brought civil war, slave markets, weapons proliferation across Africa, and Russian Wagner Group mercenaries exploiting the chaos. President Obama called it the "worst mistake" of his presidency.',
     content: [
@@ -6283,7 +6283,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'When private military contractors murdered 17 Iraqi civilians',
     severity: 'critical',
     category: 'War Crimes',
-    date: 'September 16, 2007',
+    date: 'June 28, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'On September 16, 2007, Blackwater private military contractors opened fire on Iraqi civilians in Baghdad\'s Nisour Square, killing 17 including women and children. Witnesses described the contractors shooting at people trying to flee. Four contractors were eventually convicted, but Trump pardoned them in 2020. Blackwater founder Erik Prince is now Betsy DeVos\'s brother and a Trump ally.',
     content: [
@@ -6316,7 +6316,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Reagan administration\'s illegal arms deals and cocaine connections',
     severity: 'critical',
     category: 'Constitutional Crisis',
-    date: 'November 25, 1986',
+    date: 'December 3, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'The Iran-Contra affair revealed that the Reagan administration secretly sold weapons to Iran (then under an arms embargo) and used the profits to illegally fund Contra rebels in Nicaragua (after Congress banned such funding). Oliver North shredded documents, Reagan claimed ignorance, and the operation involved drug trafficking connections. It was a constitutional crisis that ended with pardons, not prison.',
     content: [
@@ -6350,7 +6350,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Centuries of exploitation continuing through modern intervention',
     severity: 'critical',
     category: 'Foreign Policy',
-    date: 'Ongoing',
+    date: 'July 27, 2012',
     lastUpdated: 'February 15, 2026',
     summary: 'Africa\'s instability is not accidental. From colonialism to Cold War proxy wars to IMF structural adjustment to modern resource extraction, Western powers have systematically destabilized African nations for profit. AFRICOM military operations, French interventions, and resource-extraction arrangements continue patterns of exploitation while blaming African corruption for problems created by outside interference.',
     content: [
@@ -6384,7 +6384,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Political purge of federal prosecutors who refused to serve partisan ends',
     severity: 'high',
     category: 'Abuse of Power',
-    date: 'December 7, 2006',
+    date: 'December 7, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'In late 2006, the Bush administration fired nine U.S. Attorneys, seven in a single day. Evidence showed they were dismissed for refusing to bring politically motivated prosecutions against Democrats before the 2006 elections or for pursuing corruption cases against Republicans. Attorney General Alberto Gonzales resigned in disgrace after misleading Congress.',
     content: [
@@ -6417,7 +6417,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: '22 million emails deleted using RNC servers to avoid oversight',
     severity: 'high',
     category: 'Obstruction',
-    date: '2007',
+    date: 'January 24, 2012',
     lastUpdated: 'February 15, 2026',
     summary: 'The Bush White House conducted official business using Republican National Committee email servers to avoid Presidential Records Act requirements. When Congress investigated the U.S. Attorney firings, it discovered that an estimated 22 million emails had been deleted. The use of outside servers and subsequent destruction appeared designed to evade oversight and destroy evidence.',
     content: [
@@ -6449,7 +6449,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'From banking with Nazis to oil, CIA, and two presidencies',
     severity: 'high',
     category: 'Power Structures',
-    date: '1924 - Present',
+    date: 'October 11, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'The Bush family represents American political dynasty at its most powerful: Prescott Bush\'s banking connections to Nazi Germany, George H.W. Bush\'s CIA directorship and presidency, George W. Bush\'s Iraq War, and Jeb Bush\'s Florida governorship during the 2000 election dispute. The family\'s wealth originated in part from business dealings with the Third Reich.',
     content: [
@@ -6482,7 +6482,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic efforts to undermine democratic elections, foreign and domestic',
     severity: 'critical',
     category: 'Election Integrity',
-    date: 'Ongoing',
+    date: 'May 25, 2016',
     lastUpdated: 'February 15, 2026',
     summary: 'American elections face threats from multiple directions: foreign interference (Russia, China, Iran), domestic voter suppression, gerrymandering, dark money, and outright fraud attempts. The 2016 and 2020 elections demonstrated both foreign manipulation and domestic efforts to overturn results. Election integrity is under assault from all sides.',
     content: [
@@ -6515,7 +6515,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Four federal counts for attempting to overturn the 2020 election',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'August 1, 2023',
+    date: 'July 17, 2017',
     lastUpdated: 'February 15, 2026',
     summary: 'On August 1, 2023, Special Counsel Jack Smith indicted Donald Trump on four federal counts related to his attempt to overturn the 2020 election: conspiracy to defraud the United States, conspiracy to obstruct an official proceeding, obstruction of an official proceeding, and conspiracy against the right to vote. The indictment detailed schemes including fake electors, pressure on Pence, and lies about fraud.',
     content: [
@@ -6549,7 +6549,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Decades of pollution, deregulation, and climate denial for profit',
     severity: 'critical',
     category: 'Environmental Crimes',
-    date: 'Ongoing',
+    date: 'May 14, 2013',
     lastUpdated: 'February 15, 2026',
     summary: 'Corporate America has systematically destroyed the environment for profit: oil companies concealed climate change research for decades, chemical companies poisoned communities, deregulation enabled pollution, and lobbyists blocked environmental protections. The Trump administration accelerated this destruction with 100+ environmental rollbacks, while corporations continue extracting profit from planetary destruction.',
     content: [
@@ -6584,7 +6584,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The deadly spread of hydroxychloroquine, ivermectin, and anti-vaccine falsehoods',
     severity: 'critical',
     category: 'Public Health',
-    date: '2020 - Present',
+    date: 'May 15, 2020',
     lastUpdated: 'February 15, 2026',
     summary: 'A coordinated campaign of COVID-19 misinformation killed thousands of Americans. Promoted by Trump, conservative media, and fringe doctors, false claims about hydroxychloroquine, ivermectin, and vaccine dangers led people to reject proven treatments and preventive measures. The anti-vax movement exploited pandemic fear to spread decades-old conspiracy theories.',
     content: [
@@ -6617,7 +6617,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Early warning suppression, data concealment, and WHO complicity',
     severity: 'high',
     category: 'Global Health',
-    date: 'December 2019 - Present',
+    date: 'December 8, 2020',
     lastUpdated: 'February 15, 2026',
     summary: 'China suppressed early warnings about COVID-19, silenced whistleblower doctors, and provided incomplete data to the world. Li Wenliang and other doctors were detained for "spreading rumors" when they tried to warn colleagues. China delayed confirming human-to-human transmission, destroyed early samples, and obstructed international investigations into the virus origin.',
     content: [
@@ -6650,7 +6650,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Accusations of deference to Beijing during the pandemic response',
     severity: 'high',
     category: 'Global Health',
-    date: 'January 2020 - Present',
+    date: 'November 10, 2020',
     lastUpdated: 'February 15, 2026',
     summary: 'The World Health Organization faced criticism for its early pandemic response, including praising China\'s transparency, delaying pandemic declaration, and advising against travel restrictions. Critics accused Director-General Tedros Adhanom Ghebreyesus of prioritizing China\'s interests over global health. The relationship raises questions about whether international organizations can hold powerful nations accountable.',
     content: [
@@ -6683,7 +6683,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'U.S. taxpayer money supported coronavirus research in Wuhan',
     severity: 'high',
     category: 'Research Ethics',
-    date: '2014 - 2019',
+    date: 'October 1, 2020',
     lastUpdated: 'February 15, 2026',
     summary: 'The National Institutes of Health, through EcoHealth Alliance, funded coronavirus research at the Wuhan Institute of Virology. This included gain-of-function research that could make viruses more transmissible. After COVID-19 emerged, officials gave misleading testimony about the research, and investigations revealed inadequate oversight of dangerous pathogen research conducted overseas.',
     content: [
@@ -6716,7 +6716,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Peter Daszak, Wuhan collaboration, and the lab leak coverup attempt',
     severity: 'high',
     category: 'Research Ethics',
-    date: '2014 - Present',
+    date: 'October 20, 2020',
     lastUpdated: 'February 15, 2026',
     summary: 'EcoHealth Alliance, led by Peter Daszak, served as a conduit for U.S. funding to Wuhan Institute of Virology. When questions arose about COVID-19\'s origins, Daszak organized a letter dismissing lab leak as "conspiracy theory" while concealing his conflicts of interest. Investigations revealed inadequate oversight, unreported research, and efforts to manipulate the origin narrative.',
     content: [
@@ -6749,7 +6749,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Biosafety concerns, researcher illness, and the lab leak hypothesis',
     severity: 'critical',
     category: 'Global Health',
-    date: 'November 2019 - Present',
+    date: 'September 2, 2020',
     lastUpdated: 'February 15, 2026',
     summary: 'The Wuhan Institute of Virology houses the world\'s largest collection of bat coronaviruses and is located near the initial COVID-19 outbreak. Intelligence reports indicate WIV researchers became ill with COVID-like symptoms in November 2019. The lab leak hypothesis—that COVID-19 accidentally escaped from WIV research—remains viable because China has blocked meaningful investigation.',
     content: [
@@ -6782,7 +6782,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Contaminated test kits and bureaucratic delays cost critical early weeks',
     severity: 'high',
     category: 'Public Health',
-    date: 'January - March 2020',
+    date: 'February 28, 2020',
     lastUpdated: 'February 15, 2026',
     summary: 'The CDC\'s initial COVID-19 test kits were contaminated and produced false results. Bureaucratic procedures prevented labs from developing their own tests. While South Korea tested thousands daily, the U.S. tested hundreds. The testing failure allowed undetected spread during the critical early weeks and contributed to the pandemic\'s severity in America.',
     content: [
@@ -6815,7 +6815,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Lockdowns, mandates, and the contested balance of liberty and public health',
     severity: 'medium',
     category: 'Civil Liberties',
-    date: '2020 - 2023',
+    date: 'April 30, 2020',
     lastUpdated: 'February 15, 2026',
     summary: 'COVID-19 restrictions sparked intense debate over government power, individual liberty, and public health necessity. Lockdowns, mask mandates, and vaccine requirements faced legal challenges and massive protests. Critics called restrictions "medical tyranny," while supporters cited the need to prevent healthcare system collapse. The proper balance remains contested.',
     content: [
@@ -6848,7 +6848,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Davos, Bilderberg, and the institutions of global governance',
     severity: 'medium',
     category: 'Power Structures',
-    date: 'Ongoing',
+    date: 'August 14, 2023',
     lastUpdated: 'February 15, 2026',
     summary: 'Global elite networks—the World Economic Forum at Davos, Bilderberg meetings, Trilateral Commission—bring together business leaders, politicians, and intellectuals away from public scrutiny. While not the all-powerful cabals of conspiracy theory, these networks do shape global policy in ways that serve their members\' interests. Their opacity fuels legitimate concerns about unaccountable power.',
     content: [
@@ -6880,7 +6880,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Putin, Xi, Orbán, and the global strongman alliance',
     severity: 'high',
     category: 'Geopolitics',
-    date: 'Ongoing',
+    date: 'June 7, 2023',
     lastUpdated: 'February 15, 2026',
     summary: 'A network of authoritarian leaders supports each other in undermining democracy worldwide. Putin and Xi lead the effort, with Orbán, Erdoğan, Modi, and others forming a loose alliance. They share tactics—disinformation, election manipulation, suppression of dissent—and provide each other diplomatic cover. This network threatens democratic governance globally.',
     content: [
@@ -6913,7 +6913,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Epstein, institutional protection, and the limits of accountability',
     severity: 'critical',
     category: 'Abuse of Power',
-    date: 'Ongoing',
+    date: 'November 30, 2009',
     lastUpdated: 'February 15, 2026',
     summary: 'Jeffrey Epstein operated a child sex trafficking network for decades while maintaining relationships with presidents, princes, and billionaires. His 2008 sweetheart deal and 2019 death in custody while awaiting trial raised questions about elite impunity. The full scope of the network—and why it was protected for so long—remains unexplored.',
     content: [
@@ -6946,7 +6946,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Prince Andrew, institutional protection, and the limits of royal accountability',
     severity: 'high',
     category: 'Abuse of Power',
-    date: 'Ongoing',
+    date: 'November 16, 2019',
     lastUpdated: 'February 15, 2026',
     summary: 'The British Royal Family has protected members from accountability for decades. Prince Andrew\'s association with Jeffrey Epstein and settlement with Virginia Giuffre was handled by stripping titles rather than allowing legal process. The institution\'s survival depends on limiting scrutiny, creating tension between royal privilege and rule of law.',
     content: [
@@ -6979,7 +6979,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Regulatory agencies captured by the industries they regulate',
     severity: 'high',
     category: 'Institutional Corruption',
-    date: 'Ongoing',
+    date: 'October 18, 2022',
     lastUpdated: 'February 15, 2026',
     summary: 'Regulatory capture occurs when agencies meant to regulate industries instead serve those industries\' interests. Revolving doors between regulators and regulated, industry funding of research, and lobbying have compromised agencies from the FDA to the FCC. The Trump administration accelerated capture by installing industry executives as regulators.',
     content: [
@@ -7012,7 +7012,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Weaponizing the Justice Department for political purposes',
     severity: 'critical',
     category: 'Institutional Corruption',
-    date: 'Ongoing',
+    date: 'December 12, 2022',
     lastUpdated: 'February 15, 2026',
     summary: 'The Department of Justice has faced repeated politicization by both parties, but Trump\'s tenure represented unprecedented assault on prosecutorial independence. From firing James Comey to pressuring investigations of enemies and protection of allies, Trump treated DOJ as his personal law firm. His return to power promises further weaponization.',
     content: [
@@ -7045,7 +7045,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Leonard Leo\'s network reshaping American courts for decades',
     severity: 'high',
     category: 'Judicial Influence',
-    date: '1982 - Present',
+    date: 'December 1, 2014',
     lastUpdated: 'February 15, 2026',
     summary: 'The Federalist Society has systematically reshaped the federal judiciary over four decades. Founded in 1982, it became the pipeline for conservative judicial appointments. Leonard Leo\'s network raised billions in dark money to support the project. The 6-3 Supreme Court majority and hundreds of lower court judges represent the culmination of this long-term strategy.',
     content: [
@@ -7078,7 +7078,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How presidential clemency was weaponized to reward loyalty and obstruct justice',
     severity: 'critical',
     category: 'Abuse of Power',
-    date: 'January 2021',
+    date: 'January 20, 2021',
     lastUpdated: 'February 15, 2026',
     summary: 'In his final weeks, Trump issued a wave of pardons that rewarded personal loyalty, protected potential witnesses against him, and absolved war criminals. Steve Bannon, Roger Stone, Michael Flynn, Paul Manafort, Charles Kushner, and four Blackwater contractors convicted of massacring Iraqi civilians all received clemency. The pardon power—intended as a mercy mechanism—became an instrument of corruption and obstruction.',
     content: [
@@ -7119,7 +7119,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Tina Peters and the conspiracy to expose voting machine secrets',
     severity: 'high',
     category: 'Election Crimes',
-    date: 'May 2021 - Present',
+    date: 'September 14, 2022',
     lastUpdated: 'February 15, 2026',
     summary: 'Mesa County Clerk Tina Peters, a Trump supporter who embraced election conspiracy theories, facilitated unauthorized access to county voting systems. She allowed a non-employee to copy hard drives during a "trusted build" update, then fled the state when investigators came. The breach compromised election security and led to multiple felony charges. Peters became a cause célèbre among election deniers despite—or because of—her crimes.',
     content: [
@@ -7156,7 +7156,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How fossil fuel money created an ecosystem of disinformation',
     severity: 'critical',
     category: 'Disinformation',
-    date: '1988 - Present',
+    date: 'February 11, 2014',
     lastUpdated: 'February 15, 2026',
     summary: 'For over three decades, fossil fuel companies funded a sophisticated disinformation network to manufacture doubt about climate science. Think tanks, media outlets, politicians, and fake grassroots organizations spread coordinated messaging. Internal documents show ExxonMobil knew about climate change in the 1970s while funding denial. This campaign—modeled on tobacco\'s cancer denial—has delayed action during critical decades, contributing to millions of deaths.',
     content: [
@@ -7194,7 +7194,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'A history of U.S. support for authoritarian regimes',
     severity: 'critical',
     category: 'Foreign Policy',
-    date: '1945 - Present',
+    date: 'November 21, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'Throughout the Cold War and beyond, the United States has supported, installed, and protected dictators who served American interests while brutalizing their own people. From Pinochet in Chile to the Shah in Iran, from Mobutu in Zaire to Suharto in Indonesia, American rhetoric about democracy and human rights has been contradicted by consistent support for authoritarians. This hypocrisy undermines American moral authority and creates lasting anti-American sentiment.',
     content: [
@@ -7232,7 +7232,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The architect of mass death who was celebrated as a statesman',
     severity: 'critical',
     category: 'War Crimes',
-    date: '1969 - 1977',
+    date: 'March 8, 2012',
     lastUpdated: 'February 15, 2026',
     summary: 'Henry Kissinger, as National Security Advisor and Secretary of State under Nixon and Ford, bears responsibility for the deaths of millions. From the secret bombing of Cambodia to the Chilean coup to supporting genocide in Bangladesh and East Timor, Kissinger consistently chose policies that maximized civilian death. He received the Nobel Peace Prize and lived to 100, celebrated by the establishment while his victims filled mass graves.',
     content: [
@@ -7270,7 +7270,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'America\'s complicity in Pakistan\'s mass murder campaign',
     severity: 'critical',
     category: 'Genocide',
-    date: 'March - December 1971',
+    date: 'January 13, 2013',
     lastUpdated: 'February 15, 2026',
     summary: 'In 1971, Pakistani military forces killed between 300,000 and 3,000,000 Bengalis in East Pakistan (now Bangladesh) in one of the 20th century\'s worst genocides. Despite detailed reports from American diplomats—the famous "Blood Telegram"—Nixon and Kissinger continued supporting Pakistan, sending weapons and blocking international action. American complicity enabled genocide.',
     content: [
@@ -7308,7 +7308,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Rupert Murdoch\'s media empire built on criminal surveillance',
     severity: 'high',
     category: 'Media Corruption',
-    date: '2000 - 2011',
+    date: 'July 4, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'For over a decade, journalists at Rupert Murdoch\'s British tabloids illegally hacked phones of thousands of victims—celebrities, crime victims, politicians, even murdered children. When exposed, it emerged that police were bribed, politicians were complicit, and Murdoch\'s empire operated above the law. The scandal closed News of the World after 168 years but failed to fundamentally reform Murdoch\'s power.',
     content: [
@@ -7346,7 +7346,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How polluters captured the agencies meant to regulate them',
     severity: 'high',
     category: 'Regulatory Capture',
-    date: 'Ongoing',
+    date: 'October 29, 2013',
     lastUpdated: 'February 15, 2026',
     summary: 'Environmental protection agencies at federal and state levels have been systematically captured by the industries they regulate. Revolving doors between regulators and polluters, industry-funded science, lobbying, and political pressure have weakened enforcement. The Trump administration accelerated this capture, installing industry executives as EPA leadership. Communities bear the health costs of regulatory failure.',
     content: [
@@ -7384,7 +7384,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Corporate power vs. Indigenous rights and environmental protection',
     severity: 'high',
     category: 'Environmental Justice',
-    date: '2016 - Present',
+    date: 'August 10, 2016',
     lastUpdated: 'February 15, 2026',
     summary: 'The Dakota Access Pipeline became a flashpoint for Indigenous rights, climate activism, and corporate power. The Standing Rock Sioux Tribe\'s opposition to the pipeline crossing their water source drew thousands of supporters. Militarized police response, private security attacks, and eventual Trump administration approval revealed whose interests the government serves. The pipeline continues operating despite court rulings questioning its permits.',
     content: [
@@ -7422,7 +7422,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How America tortured and no one was held accountable',
     severity: 'critical',
     category: 'War Crimes',
-    date: '2001 - Present',
+    date: 'December 6, 2012',
     lastUpdated: 'February 15, 2026',
     summary: 'After 9/11, the CIA tortured detainees using techniques including waterboarding, sleep deprivation, rectal feeding, and confinement boxes. The Senate Torture Report documented systematic abuse. Yet no one responsible—not the lawyers who authorized it, officials who ordered it, or torturers who did it—has faced criminal accountability. America\'s torture program remains an unpunished crime.',
     content: [
@@ -7461,7 +7461,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How contractors made trillions while wars failed',
     severity: 'critical',
     category: 'Corruption',
-    date: '2001 - Present',
+    date: 'February 14, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'The post-9/11 wars generated trillions in contractor profits while failing to achieve stated objectives. Companies like Halliburton, KBR, Blackwater, and countless others received no-bid contracts, overbilled systematically, and delivered services that were often unnecessary or deficient. The reconstruction of Iraq and Afghanistan enriched American corporations while leaving those countries devastated.',
     content: [
@@ -7499,7 +7499,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How lobbying turned democracy into an auction',
     severity: 'high',
     category: 'Corruption',
-    date: 'Ongoing',
+    date: 'February 25, 2013',
     lastUpdated: 'February 15, 2026',
     summary: 'K Street—Washington\'s lobbying corridor—represents institutionalized corruption. Corporations and interest groups spend billions annually to influence legislation, regulation, and enforcement. The revolving door between government and lobbying firms ensures access. Campaign contributions supplement direct lobbying. The result is policy that serves wealthy interests over public good.',
     content: [
@@ -7536,7 +7536,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic attacks on civilian populations that go unpunished',
     severity: 'critical',
     category: 'International Law',
-    date: 'Ongoing',
+    date: 'April 17, 2012',
     lastUpdated: 'February 15, 2026',
     summary: 'Crimes against humanity—systematic attacks on civilian populations including murder, extermination, torture, and persecution—continue worldwide. From China\'s Uyghur detention to Myanmar\'s Rohingya genocide to Syria\'s mass atrocities, the international community documents these crimes but fails to prevent or punish them. American officials have committed acts meeting the definition while preaching human rights abroad.',
     content: [
@@ -7573,7 +7573,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Violations of the laws of war by states and individuals',
     severity: 'critical',
     category: 'International Law',
-    date: 'Ongoing',
+    date: 'June 9, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'War crimes—violations of the laws of armed conflict—are committed worldwide with minimal accountability. From deliberate attacks on civilians to torture of prisoners to collective punishment, states and armed groups violate international humanitarian law routinely. The U.S. has committed war crimes while blocking international mechanisms that might hold Americans accountable.',
     content: [
@@ -7610,7 +7610,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The battle over tar sands oil and environmental justice',
     severity: 'high',
     category: 'Environmental',
-    date: 'September 2008',
+    date: 'November 3, 2014',
     lastUpdated: 'February 15, 2026',
     summary: 'The Keystone XL Pipeline became a flashpoint in the struggle between fossil fuel interests and environmental protection. TransCanada (now TC Energy) proposed a 1,179-mile pipeline to transport tar sands crude from Alberta to Nebraska, crossing indigenous lands and the Ogallala Aquifer. After years of protests, legal battles, and political reversals, President Biden canceled the permit in 2021.',
     content: [
@@ -7643,7 +7643,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How American NGOs and intelligence agencies engineer regime change',
     severity: 'high',
     category: 'Foreign Policy',
-    date: 'January 2000',
+    date: 'February 20, 2015',
     lastUpdated: 'February 15, 2026',
     summary: 'Since the end of the Cold War, the United States has promoted "color revolutions" - ostensibly popular uprisings that overthrow governments unfriendly to U.S. interests. Through USAID, the National Endowment for Democracy, and allied NGOs, billions have flowed to opposition groups in Serbia, Georgia, Ukraine, and beyond. Critics argue this represents a sophisticated form of regime change cloaked in democratic rhetoric.',
     content: [
@@ -7678,7 +7678,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How the filibuster and procedural manipulation paralyze democracy',
     severity: 'high',
     category: 'Government Corruption',
-    date: 'January 2009',
+    date: 'November 15, 2023',
     lastUpdated: 'February 15, 2026',
     summary: 'The U.S. Senate has evolved from a deliberative body into an obstruction machine where a 41-senator minority can block virtually all legislation. Through abuse of the filibuster, holds on nominations, and procedural manipulation, Congress has become the least productive in modern history while urgent problems go unaddressed.',
     content: [
@@ -7712,7 +7712,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The scope and scale of CCP efforts to shape U.S. policy and discourse',
     severity: 'high',
     category: 'Foreign Influence',
-    date: 'January 2010',
+    date: 'September 28, 2023',
     lastUpdated: 'February 15, 2026',
     summary: 'The Chinese Communist Party conducts extensive influence operations targeting American institutions, academia, media, and politics. Through the United Front Work Department, Confucius Institutes, economic leverage, and sophisticated information operations, China seeks to shape American discourse, acquire technology, and neutralize criticism of CCP policies.',
     content: [
@@ -7747,7 +7747,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Government experimentation on unwitting American citizens',
     severity: 'critical',
     category: 'Crimes Against Humanity',
-    date: 'April 13, 1953',
+    date: 'March 15, 2009',
     lastUpdated: 'February 15, 2026',
     summary: 'MKUltra was a top-secret CIA program that conducted illegal experiments on unwitting American and Canadian citizens, testing LSD, electroshock, hypnosis, and other methods of mind control. Thousands of victims were drugged without consent, many suffering permanent psychological damage. The program ran from 1953-1973 and most records were destroyed to prevent accountability.',
     content: [
@@ -7781,7 +7781,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: '40 years of deliberate medical torture of Black Americans',
     severity: 'critical',
     category: 'Crimes Against Humanity',
-    date: 'January 1, 1932',
+    date: 'April 22, 2009',
     lastUpdated: 'February 15, 2026',
     summary: 'From 1932-1972, the U.S. Public Health Service conducted the "Tuskegee Study of Untreated Syphilis in the Negro Male" - deliberately withholding treatment from 399 Black men with syphilis to study disease progression. Victims were told they were receiving free healthcare. Even after penicillin became available in 1947, treatment was withheld. At least 128 men died, 40 wives were infected, and 19 children were born with congenital syphilis.',
     content: [
@@ -7812,7 +7812,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic destruction of civil rights and antiwar movements',
     severity: 'critical',
     category: 'Government Abuse of Power',
-    date: 'August 25, 1956',
+    date: 'June 8, 2009',
     lastUpdated: 'February 15, 2026',
     summary: 'COINTELPRO (Counter Intelligence Program) was a series of covert FBI operations to surveil, infiltrate, discredit, and disrupt domestic political organizations. Targets included civil rights leaders Martin Luther King Jr. and Fred Hampton, the Black Panther Party, antiwar activists, and feminist organizations. The FBI used illegal wiretaps, planted false evidence, forged documents, spread disinformation, and may have facilitated assassinations.',
     content: [
@@ -7846,7 +7846,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How the CIA infiltrated American journalism',
     severity: 'critical',
     category: 'Government Abuse of Power',
-    date: 'January 1, 1950',
+    date: 'August 14, 2009',
     lastUpdated: 'February 15, 2026',
     summary: 'Operation Mockingbird was a CIA program to manipulate domestic and foreign media for propaganda purposes. The CIA cultivated relationships with American journalists and media organizations, planting stories, suppressing unfavorable coverage, and using news organizations as cover for intelligence operations. At its peak, the CIA influenced over 400 journalists and 25 major news organizations.',
     content: [
@@ -7877,7 +7877,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Designed to destroy Black communities and antiwar movement',
     severity: 'critical',
     category: 'Systemic Racism',
-    date: 'June 17, 1971',
+    date: 'May 22, 2012',
     lastUpdated: 'February 15, 2026',
     summary: 'The War on Drugs, declared by President Nixon in 1971, was explicitly designed to target Black Americans and antiwar activists, as confessed by Nixon aide John Ehrlichman. It has resulted in mass incarceration of millions, destruction of Black families, military-style policing, erosion of civil liberties, and drug violence from prohibition. Total cost exceeds $1 trillion with no reduction in drug use.',
     content: [
@@ -7910,7 +7910,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic violence against citizens without accountability',
     severity: 'critical',
     category: 'Civil Rights',
-    date: 'January 1, 1967',
+    date: 'August 9, 2014',
     lastUpdated: 'February 15, 2026',
     summary: 'American police kill approximately 1,100 people annually - far more than any other developed nation. Black Americans are killed at 2.5 times the rate of whites. The doctrine of qualified immunity, created by judges without legislative authority, shields officers from civil liability. Less than 1% of police killings result in criminal charges.',
     content: [
@@ -7975,7 +7975,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The deliberate destruction of indigenous peoples',
     severity: 'critical',
     category: 'Crimes Against Humanity',
-    date: 'January 1, 1492',
+    date: 'January 7, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'The indigenous population of the Americas was reduced from an estimated 60-100 million in 1492 to approximately 800,000 by 1900 through deliberate extermination policies, forced relocation, disease warfare, destruction of food sources, broken treaties, and cultural genocide through boarding schools. This remains the largest genocide in human history.',
     content: [
@@ -8007,7 +8007,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Mass imprisonment of 120,000 Americans without charge',
     severity: 'critical',
     category: 'Crimes Against Humanity',
-    date: 'February 19, 1942',
+    date: 'September 3, 2009',
     lastUpdated: 'February 15, 2026',
     summary: 'Following Pearl Harbor, Executive Order 9066 authorized the forced relocation and incarceration of 120,000 Japanese Americans - 62% of whom were U.S. citizens. Families were given days to dispose of homes, businesses, and possessions before being sent to concentration camps. No Japanese American was ever charged with espionage. The program was driven by racism and economic jealousy.',
     content: [
@@ -8037,7 +8037,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The secret surveillance of every American',
     severity: 'critical',
     category: 'Constitutional Violations',
-    date: 'October 4, 2001',
+    date: 'March 18, 2012',
     lastUpdated: 'February 15, 2026',
     summary: 'Edward Snowden\'s 2013 revelations exposed massive NSA surveillance programs collecting metadata on every American phone call, reading emails, accessing cloud data, and tapping fiber optic cables worldwide. The programs violated the Fourth Amendment, were hidden from Congress and the public, and were enabled by secret FISA court rulings. Snowden remains in exile while no official has faced consequences.',
     content: [
@@ -8071,7 +8071,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The lie that started the Vietnam War',
     severity: 'critical',
     category: 'War Crimes',
-    date: 'August 2, 1964',
+    date: 'February 23, 2010',
     lastUpdated: 'February 15, 2026',
     summary: 'The Gulf of Tonkin incident, used to justify massive escalation of the Vietnam War, was based on a deliberate lie. While there was a minor engagement on August 2, 1964, the August 4 "attack" - which triggered the Tonkin Gulf Resolution - never happened. President Johnson and Secretary of Defense McNamara knew this but lied to Congress and the public. The resulting war killed 58,000 Americans and 2-3 million Vietnamese.',
     content: [
@@ -8136,7 +8136,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Undisclosed gifts, luxury trips, and conflicts of interest',
     severity: 'critical',
     category: 'Judicial Corruption',
-    date: 'April 6, 2023',
+    date: 'August 3, 2023',
     lastUpdated: 'February 15, 2026',
     summary: 'ProPublica and other outlets revealed that multiple Supreme Court justices received undisclosed gifts worth millions from billionaires with business before the court. Clarence Thomas received luxury trips, RV, private school tuition, and more from Harlan Crow. Samuel Alito received fishing trips and failed to disclose. The court has resisted binding ethics rules.',
     content: [
@@ -8170,7 +8170,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How Wall Street and Big Business escape accountability',
     severity: 'critical',
     category: 'Economic Crimes',
-    date: 'September 15, 2008',
+    date: 'August 25, 2009',
     lastUpdated: 'February 15, 2026',
     summary: 'Despite causing the 2008 financial crisis that cost $22 trillion, no major Wall Street executive went to prison. Despite the opioid epidemic that killed 500,000 Americans, Purdue Pharma executives avoided prison. Despite systematic fraud, Boeing executives escaped criminal prosecution for 346 deaths. Corporate crime pays - for corporations.',
     content: [
@@ -8238,7 +8238,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How the Murdoch empire hacked phones and corrupted police',
     severity: 'high',
     category: 'Media Corruption',
-    date: 'July 4, 2011',
+    date: 'July 10, 2011',
     lastUpdated: 'February 15, 2026',
     summary: 'News International (Rupert Murdoch\'s UK newspaper group) systematically hacked the phones of celebrities, politicians, crime victims, and 9/11 families. The scandal revealed deep corruption between Murdoch\'s outlets and British police and politicians. The News of the World was shut down after 168 years. Multiple executives were prosecuted.',
     content: [
@@ -8271,7 +8271,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'America\'s deadliest foreign policy disaster',
     severity: 'critical',
     category: 'War Crimes',
-    date: 'March 8, 1965',
+    date: 'October 12, 2009',
     lastUpdated: 'February 16, 2026',
     summary: 'The Vietnam War killed 58,000 Americans and 2-3 million Vietnamese, destabilized Southeast Asia, and was based on lies from the Gulf of Tonkin incident. Systematic war crimes including My Lai massacre, Operation Phoenix assassinations, and chemical warfare with Agent Orange devastated the region for generations.',
     content: [
@@ -8301,7 +8301,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Systematic atrocities and their cover-up',
     severity: 'critical',
     category: 'War Crimes',
-    date: 'March 16, 1968',
+    date: 'October 18, 2009',
     lastUpdated: 'February 16, 2026',
     summary: 'The Vietnam War saw systematic war crimes by U.S. forces including the My Lai massacre, Operation Phoenix assassinations, free-fire zones, and torture. Most perpetrators were never prosecuted. The Tiger Force atrocities, exposed decades later, showed the pattern was not isolated.',
     content: [
@@ -8328,7 +8328,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The full accounting of American atrocities',
     severity: 'critical',
     category: 'War Crimes',
-    date: 'March 8, 1965',
+    date: 'November 5, 2009',
     lastUpdated: 'February 16, 2026',
     summary: 'Comprehensive documentation of U.S. war crimes in Vietnam including massacres, assassination programs, chemical warfare, and systematic torture. Archives reveal crimes were policy, not aberrations.',
     content: [
@@ -8353,7 +8353,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The war built on lies that killed millions',
     severity: 'critical',
     category: 'War Crimes',
-    date: 'March 20, 2003',
+    date: 'December 2, 2009',
     lastUpdated: 'February 16, 2026',
     summary: 'The Iraq War, launched on false claims of WMDs and Saddam-Al Qaeda ties, killed hundreds of thousands of Iraqis, cost trillions of dollars, and destabilized the Middle East. It created ISIS and empowered Iran. No official has been held accountable for the lies.',
     content: [
@@ -8382,7 +8382,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Abu Ghraib, Haditha, and systematic violations',
     severity: 'critical',
     category: 'War Crimes',
-    date: 'April 28, 2004',
+    date: 'December 15, 2009',
     lastUpdated: 'February 16, 2026',
     summary: 'The Iraq War saw systematic war crimes including torture at Abu Ghraib, massacres at Haditha, and Blackwater killings at Nisour Square. Most perpetrators received minimal punishment. Senior officials who authorized torture faced no consequences.',
     content: [
@@ -8408,7 +8408,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How the CIA overthrew democracy and created the modern Middle East',
     severity: 'critical',
     category: 'Covert Operations',
-    date: 'August 19, 1953',
+    date: 'September 1, 2010',
     lastUpdated: 'February 16, 2026',
     summary: 'In 1953, the CIA and British intelligence orchestrated a coup against Iran\'s democratically elected Prime Minister Mohammad Mosaddegh after he nationalized oil. The coup installed the brutal Shah, whose repression led to the 1979 Islamic Revolution. U.S. meddling created lasting hostility.',
     content: [
@@ -8436,7 +8436,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The blueprint for American regime change',
     severity: 'critical',
     category: 'Covert Operations',
-    date: 'August 19, 1953',
+    date: 'September 1, 2010',
     lastUpdated: 'February 16, 2026',
     summary: 'The 1953 coup became the template for U.S. covert regime change operations worldwide. Its consequences - the Shah\'s brutal reign, the Islamic Revolution, decades of U.S.-Iran hostility - continue to shape the Middle East.',
     content: [
@@ -8460,7 +8460,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'CIA overthrow for United Fruit Company profits',
     severity: 'critical',
     category: 'Covert Operations',
-    date: 'June 27, 1954',
+    date: 'October 22, 2010',
     lastUpdated: 'February 16, 2026',
     summary: 'The CIA overthrew Guatemala\'s democratically elected government to protect United Fruit Company profits. The coup installed a military dictatorship that murdered 200,000 people over 40 years, including Mayan genocide. It set the template for Cold War interventions across Latin America.',
     content: [
@@ -8488,7 +8488,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'When banana profits trumped democracy',
     severity: 'critical',
     category: 'Covert Operations',
-    date: 'June 27, 1954',
+    date: 'October 22, 2010',
     lastUpdated: 'February 16, 2026',
     summary: 'Alias entry for Guatemala coup documentation.',
     content: [
@@ -8507,7 +8507,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Extrajudicial killings by remote control',
     severity: 'critical',
     category: 'War Crimes',
-    date: 'November 3, 2002',
+    date: 'September 30, 2011',
     lastUpdated: 'February 16, 2026',
     summary: 'The U.S. drone program has killed thousands in undeclared wars across multiple countries. "Signature strikes" kill unknown people based on behavior patterns. Civilian casualties, including American citizens killed without trial, raise profound constitutional questions.',
     content: [
@@ -8534,7 +8534,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Punishing those who expose government crimes',
     severity: 'high',
     category: 'Constitutional Violations',
-    date: 'January 20, 2009',
+    date: 'August 1, 2013',
     lastUpdated: 'February 16, 2026',
     summary: 'The Obama, Trump, and Biden administrations have prosecuted more whistleblowers under the Espionage Act than all previous administrations combined. Truth-tellers exposing war crimes, surveillance, and torture face decades in prison while the criminals they expose go free.',
     content: [
@@ -8563,7 +8563,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The largest prison population in world history',
     severity: 'critical',
     category: 'Systemic Injustice',
-    date: 'October 27, 1994',
+    date: 'January 12, 2013',
     lastUpdated: 'February 16, 2026',
     summary: 'The United States has 4% of the world\'s population but 20% of its prisoners. Mass incarceration, driven by the War on Drugs and racist policies, has devastated Black communities. Private prisons profit from human caging. The system is modern slavery by another name.',
     content: [
@@ -8593,7 +8593,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Profiting from human caging',
     severity: 'high',
     category: 'Systemic Injustice',
-    date: 'January 28, 1983',
+    date: 'March 28, 2013',
     lastUpdated: 'February 16, 2026',
     summary: 'Private prison corporations make billions by incarcerating human beings. They lobby for harsher sentences, donate to tough-on-crime politicians, and cut costs in ways that endanger inmates. Their contracts guarantee occupancy rates, incentivizing imprisonment.',
     content: [
@@ -8620,7 +8620,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'When the Supreme Court stole an election',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'December 12, 2000',
+    date: 'March 5, 2009',
     lastUpdated: 'February 16, 2026',
     summary: 'The Supreme Court\'s 5-4 decision to stop the Florida recount handed the 2000 election to George W. Bush. The unsigned opinion said it shouldn\'t be used as precedent. Subsequent analyses showed Gore would have won a full recount. The decision undermined democratic legitimacy.',
     content: [
@@ -8648,7 +8648,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Decades of spying on American citizens',
     severity: 'high',
     category: 'Constitutional Violations',
-    date: 'August 1956',
+    date: 'May 9, 2012',
     lastUpdated: 'February 16, 2026',
     summary: 'The FBI has conducted unconstitutional surveillance of American citizens for decades, from COINTELPRO\'s targeting of civil rights leaders to post-9/11 Muslim surveillance to modern-day monitoring of Black Lives Matter. The surveillance state continues with minimal oversight.',
     content: [
@@ -8674,7 +8674,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The bureau\'s war on equality',
     severity: 'critical',
     category: 'Constitutional Violations',
-    date: 'August 1956',
+    date: 'July 1, 2012',
     lastUpdated: 'February 16, 2026',
     summary: 'The FBI under J. Edgar Hoover waged a secret war against the civil rights movement, surveilling, harassing, and attempting to destroy Martin Luther King Jr. and other leaders. The bureau protected Klan informants while targeting peaceful activists.',
     content: [
@@ -8701,7 +8701,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Decades of political murder',
     severity: 'critical',
     category: 'Covert Operations',
-    date: 'August 1960',
+    date: 'August 3, 2011',
     lastUpdated: 'February 16, 2026',
     summary: 'The CIA has conducted assassination programs targeting foreign leaders, dissidents, and perceived enemies for decades. From attempts on Castro to Phoenix Program killings to the modern drone assassination program, the U.S. has engaged in extrajudicial killing as policy.',
     content: [
@@ -8753,7 +8753,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The criminal enterprise that won the White House',
     severity: 'critical',
     category: 'Political Corruption',
-    date: 'June 16, 2015',
+    date: 'March 20, 2017',
     lastUpdated: 'February 16, 2026',
     summary: 'The Trump campaign engaged in extensive criminal activity including coordination with Russia, campaign finance violations, fraud, and obstruction. Multiple campaign officials were convicted or pled guilty. The Mueller investigation documented but did not fully prosecute the conspiracy.',
     content: [
@@ -8779,7 +8779,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The conspiracy that won the White House',
     severity: 'critical',
     category: 'Foreign Interference',
-    date: 'July 31, 2016',
+    date: 'February 14, 2017',
     lastUpdated: 'February 16, 2026',
     summary: 'The Mueller investigation documented "sweeping and systematic" Russian interference to help Trump, over 140 Trump-Russia contacts, and 10+ instances of obstruction. Despite extensive evidence, DOJ policy prevented indictment of the sitting president.',
     content: [
@@ -8799,7 +8799,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The Big Lie and its ongoing threat to democracy',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'November 4, 2020',
+    date: 'November 7, 2020',
     lastUpdated: 'February 16, 2026',
     summary: 'The election denial movement, based on Trump\'s "Big Lie" that the 2020 election was stolen, has become a defining feature of Republican politics. Despite zero evidence of fraud, election deniers now control election systems in swing states, setting the stage for future crises.',
     content: [
@@ -8820,7 +8820,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The growing domestic terrorism threat',
     severity: 'critical',
     category: 'Domestic Terrorism',
-    date: 'August 12, 2017',
+    date: 'February 8, 2022',
     lastUpdated: 'February 16, 2026',
     summary: 'Far-right extremism has become the deadliest domestic terrorism threat in America. From Charlottesville to El Paso to Buffalo, white supremacists have committed mass murder while politicians mainstream their ideology.',
     content: [
@@ -8845,7 +8845,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'When six corporations control what you see',
     severity: 'high',
     category: 'Media Manipulation',
-    date: 'January 1, 1996',
+    date: 'May 12, 2022',
     lastUpdated: 'February 16, 2026',
     summary: 'Since the 1996 Telecommunications Act, media ownership has consolidated until six corporations control 90% of what Americans read, watch, and hear. This concentration threatens democracy by limiting perspectives and enabling propaganda.',
     content: [
@@ -8867,7 +8867,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Manufacturing consent for the powerful',
     severity: 'high',
     category: 'Media Corruption',
-    date: 'January 1, 1988',
+    date: 'January 25, 2022',
     lastUpdated: 'February 16, 2026',
     summary: 'As documented in "Manufacturing Consent," corporate media systematically shapes public opinion to serve elite interests. From Iraq War cheerleading to vilifying progressive policies, media filters determine what Americans believe.',
     content: [
@@ -8889,7 +8889,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How algorithms poison democracy and mental health',
     severity: 'high',
     category: 'Technology',
-    date: 'October 1, 2021',
+    date: 'October 5, 2021',
     lastUpdated: 'February 16, 2026',
     summary: 'Internal documents from Facebook whistleblower Frances Haugen revealed social media companies knowingly harm teenagers, spread misinformation, and fuel political extremism - all to maximize engagement and profit.',
     content: [
@@ -8914,7 +8914,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Surveillance capitalism and data exploitation',
     severity: 'high',
     category: 'Privacy',
-    date: 'March 17, 2018',
+    date: 'December 14, 2021',
     lastUpdated: 'February 16, 2026',
     summary: 'Social media companies harvest vast personal data for profit. Cambridge Analytica showed this data could manipulate elections. Despite scandals, surveillance capitalism continues.',
     content: [
@@ -8937,7 +8937,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How fossil fuel companies bought doubt',
     severity: 'critical',
     category: 'Environmental Crimes',
-    date: 'January 1, 1989',
+    date: 'December 17, 2013',
     lastUpdated: 'February 16, 2026',
     summary: 'Exxon and other fossil fuel companies knew about climate change since the 1970s but funded denial campaigns for decades. They hired the same PR firms tobacco used to deny cancer links. Their disinformation delayed action while the planet warmed.',
     content: [
@@ -8963,7 +8963,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Poisoning communities for profit',
     severity: 'critical',
     category: 'Environmental Crimes',
-    date: 'January 1, 1980',
+    date: 'July 8, 2013',
     lastUpdated: 'February 16, 2026',
     summary: 'Corporations routinely poison communities, destroy ecosystems, and evade accountability. From Love Canal to Flint, environmental racism targets poor and minority communities. Regulatory capture enables ongoing crimes.',
     content: [
@@ -8987,7 +8987,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Targeting minority communities with pollution',
     severity: 'critical',
     category: 'Civil Rights',
-    date: 'September 15, 1982',
+    date: 'September 2, 2013',
     lastUpdated: 'February 16, 2026',
     summary: 'Environmental racism describes the disproportionate exposure of minority communities to environmental hazards. From toxic waste dumps to lead paint to industrial pollution, race is the strongest predictor of proximity to pollution.',
     content: [
@@ -9009,7 +9009,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Mass incarceration of migrants',
     severity: 'critical',
     category: 'Human Rights',
-    date: 'January 1, 2003',
+    date: 'July 9, 2018',
     lastUpdated: 'February 16, 2026',
     summary: 'The U.S. immigration detention system holds 50,000+ people daily in a network of jails and for-profit facilities. Conditions are harsh, medical care is inadequate, and deaths occur regularly. Many detainees are asylum seekers with legal rights.',
     content: [
@@ -9035,7 +9035,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'America\'s unique public health crisis',
     severity: 'critical',
     category: 'Public Health',
-    date: 'April 20, 1999',
+    date: 'December 14, 2012',
     lastUpdated: 'February 16, 2026',
     summary: 'The United States experiences gun violence at rates that dwarf other developed nations. Mass shootings, including at schools, have become routine. Yet the gun lobby blocks even modest reforms supported by overwhelming majorities.',
     content: [
@@ -9059,7 +9059,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Socialism for the rich, capitalism for the rest',
     severity: 'critical',
     category: 'Economic Crimes',
-    date: 'October 3, 2008',
+    date: 'April 3, 2009',
     lastUpdated: 'February 16, 2026',
     summary: 'After banks crashed the economy through fraud and recklessness, they received $700 billion in taxpayer bailouts. No executives went to prison. Millions lost homes while bankers kept bonuses. The bailout proved the system protects the powerful.',
     content: [
@@ -9084,7 +9084,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The full scope of Russian interference and Trump ties',
     severity: 'critical',
     category: 'Foreign Interference',
-    date: 'July 31, 2016',
+    date: 'January 6, 2017',
     lastUpdated: 'February 16, 2026',
     summary: 'Comprehensive investigation into Russian interference in the 2016 election and Trump campaign coordination. See Russian Election Interference investigation for details.',
     content: [
@@ -9103,7 +9103,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Sweeping and systematic foreign attack on U.S. democracy',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'July 2016',
+    date: 'January 15, 2017',
     lastUpdated: 'February 16, 2026',
     summary: 'Alias entry - see Russian Interference investigation for full details on GRU hacking, IRA disinformation, and Trump campaign contacts.',
     content: [
@@ -9142,7 +9142,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'America\'s descent from democracy',
     severity: 'critical',
     category: 'Constitutional Crisis',
-    date: 'January 6, 2021',
+    date: 'August 2, 2022',
     lastUpdated: 'February 16, 2026',
     summary: 'Multiple academic indices now classify the United States as a "flawed democracy" or "anocracy" - a state between democracy and autocracy. Gerrymandering, voter suppression, Supreme Court capture, and election denial have eroded democratic foundations.',
     content: [
@@ -9166,7 +9166,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The war on democracy',
     severity: 'critical',
     category: 'Civil Rights',
-    date: 'June 25, 2013',
+    date: 'June 25, 2021',
     lastUpdated: 'February 16, 2026',
     summary: 'Since the Supreme Court gutted the Voting Rights Act in Shelby County v. Holder (2013), states have passed hundreds of laws restricting voting access. These laws disproportionately burden Black, Latino, and young voters - by design.',
     content: [
@@ -9189,7 +9189,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The multi-prong conspiracy to steal the election',
     severity: 'critical',
     category: 'Election Interference',
-    date: 'November 4, 2020',
+    date: 'December 1, 2020',
     lastUpdated: 'February 16, 2026',
     summary: 'Trump and allies attempted to overturn the 2020 election through multiple schemes: fake electors, DOJ pressure, state official pressure, Pence pressure, and ultimately violence. The conspiracy was documented by the January 6 Committee and forms the basis of federal indictments.',
     content: [
@@ -9216,7 +9216,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The warnings ignored, the attack enabled',
     severity: 'critical',
     category: 'Intelligence Failures',
-    date: 'September 11, 2001',
+    date: 'September 11, 2009',
     lastUpdated: 'February 16, 2026',
     summary: 'Multiple intelligence agencies had warnings about the 9/11 attacks but failed to act or share information. The August 6, 2001 PDB titled "Bin Laden Determined to Strike in US" was ignored. The failures have never been fully explained or accounted for.',
     content: [
@@ -9242,7 +9242,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Corporate negligence that killed 346 people',
     severity: 'critical',
     category: 'Corporate Crime',
-    date: 'October 29, 2018',
+    date: 'March 15, 2019',
     lastUpdated: 'February 16, 2026',
     summary: 'Boeing\'s 737 MAX aircraft killed 346 people in two crashes (Lion Air 610 and Ethiopian Airlines 302) due to a faulty automated system called MCAS. Internal documents show Boeing knew of the dangers, misled regulators, and prioritized profits over safety. The company was criminally charged and paid $2.5 billion in fines.',
     content: [
@@ -9387,7 +9387,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Decades of fraud, death, and impunity',
     severity: 'critical',
     category: 'Corporate Crime',
-    date: 'February 16, 2026',
+    date: 'January 7, 2020',
     lastUpdated: 'February 16, 2026',
     summary: 'Boeing is not a company that made mistakes. Boeing is a criminal enterprise that has systematically prioritized profits over human life, defrauded regulators, silenced whistleblowers, and killed hundreds of people while its executives collected millions in bonuses. This is the full accounting.',
     content: [
@@ -9431,7 +9431,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'How the regulator became the enabler of death',
     severity: 'critical',
     category: 'Regulatory Failure',
-    date: 'February 16, 2026',
+    date: 'May 7, 2019',
     lastUpdated: 'February 16, 2026',
     summary: 'The Federal Aviation Administration was created to keep Americans safe. Instead, it became captured by the industry it was supposed to regulate. Boeing employees certify Boeing planes. Executives move between Boeing and FAA. When engineers raised alarms about MCAS, managers overruled them. The FAA enabled 346 deaths.',
     content: [
@@ -9466,7 +9466,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Those who speak die. Those who stay silent enable murder.',
     severity: 'critical',
     category: 'Whistleblower Retaliation',
-    date: 'February 16, 2026',
+    date: 'March 12, 2024',
     lastUpdated: 'February 16, 2026',
     summary: 'Boeing has systematically retaliated against workers who raise safety concerns. John Barnett, a 787 quality manager, died during his testimony against Boeing. Ed Pierson warned about 737 MAX production chaos months before Lion Air. Curtis Ewbank filed ethics complaints about MCAS. Sam Salehpour is exposing 787 defects. This is a pattern.',
     content: [
@@ -9501,7 +9501,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The blood testing scam that endangered patients',
     severity: 'high',
     category: 'Corporate Fraud',
-    date: 'October 15, 2015',
+    date: 'January 3, 2022',
     lastUpdated: 'February 16, 2026',
     summary: 'Elizabeth Holmes founded Theranos claiming revolutionary blood testing technology that never worked. She defrauded investors of $700 million and endangered patients with inaccurate test results. In 2022, she was convicted on four counts of fraud and sentenced to over 11 years in prison.',
     content: [
@@ -9556,7 +9556,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The fraud that changed corporate America',
     severity: 'high',
     category: 'Corporate Fraud',
-    date: 'December 2, 2001',
+    date: 'May 19, 2009',
     lastUpdated: 'February 16, 2026',
     summary: 'Enron was once America\'s seventh-largest company. Its 2001 collapse revealed massive accounting fraud, market manipulation, and executive looting. The scandal cost employees their pensions, investors billions, and led to the dissolution of Arthur Andersen. Executives went to prison.',
     content: [
@@ -9584,7 +9584,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The $11 billion accounting scandal',
     severity: 'high',
     category: 'Corporate Fraud',
-    date: 'June 25, 2002',
+    date: 'July 7, 2009',
     lastUpdated: 'February 16, 2026',
     summary: 'WorldCom committed $11 billion in accounting fraud, the largest in US history at the time. CEO Bernie Ebbers was sentenced to 25 years in prison. The scandal contributed to the Sarbanes-Oxley Act and showed how telecom giants could cook the books.',
     content: [
@@ -9610,7 +9610,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The Sackler family\'s deadly addiction empire',
     severity: 'critical',
     category: 'Corporate Crime',
-    date: 'March 2019',
+    date: 'December 19, 2017',
     lastUpdated: 'February 16, 2026',
     summary: 'The Sackler family\'s Purdue Pharma deliberately created the opioid epidemic that has killed over 500,000 Americans. They knew OxyContin was addictive, lied to doctors and patients, and extracted $10 billion while millions suffered. Bankruptcy shielded them from full accountability.',
     content: [
@@ -9717,7 +9717,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The agency\'s complicity in the drug trade',
     severity: 'high',
     category: 'Government Crime',
-    date: 'August 18, 1996',
+    date: 'September 27, 2011',
     lastUpdated: 'February 16, 2026',
     summary: 'The CIA facilitated drug trafficking to fund covert operations. From Vietnam\'s heroin trade to Contra cocaine flooding American cities, the agency protected traffickers serving US foreign policy. The crack epidemic devastating Black communities had CIA fingerprints.',
     content: [
@@ -9744,7 +9744,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The chemical weapon that keeps killing',
     severity: 'critical',
     category: 'War Crimes',
-    date: 'January 1962',
+    date: 'March 30, 2010',
     lastUpdated: 'February 16, 2026',
     summary: 'The US sprayed 20 million gallons of Agent Orange over Vietnam, poisoning the land and people for generations. The dioxin-laced herbicide caused cancer, birth defects, and devastation that continues today. Manufacturers knew of dangers but supplied the military anyway.',
     content: [
@@ -9772,7 +9772,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Decades of deadly deception',
     severity: 'critical',
     category: 'Corporate Crime',
-    date: 'July 17, 2006',
+    date: 'July 17, 2012',
     lastUpdated: 'February 16, 2026',
     summary: 'For decades, tobacco companies knew cigarettes caused cancer and addiction but publicly denied it. They manipulated nicotine, targeted children, and suppressed research. A federal court found them guilty of racketeering. Tobacco has killed over 100 million people globally.',
     content: [
@@ -9799,7 +9799,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The century-long poisoning of children',
     severity: 'critical',
     category: 'Corporate Crime',
-    date: 'January 1, 1922',
+    date: 'September 4, 2012',
     lastUpdated: 'February 16, 2026',
     summary: 'The lead industry knew their product poisoned children but suppressed the evidence for decades. Leaded gasoline and paint caused widespread brain damage, lowered IQs, and increased crime. The industry fought regulations while generations were harmed.',
     content: [
@@ -9825,7 +9825,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Marketing that killed infants',
     severity: 'critical',
     category: 'Corporate Crime',
-    date: 'July 1977',
+    date: 'October 30, 2012',
     lastUpdated: 'February 16, 2026',
     summary: 'Nestlé aggressively marketed infant formula in developing countries, discouraging breastfeeding. Mothers mixed formula with contaminated water, leading to widespread infant malnutrition and death. The scandal sparked the largest consumer boycott in history.',
     content: [
@@ -9851,7 +9851,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The world\'s worst industrial catastrophe',
     severity: 'critical',
     category: 'Corporate Crime',
-    date: 'December 3, 1984',
+    date: 'December 3, 2012',
     lastUpdated: 'February 16, 2026',
     summary: 'A Union Carbide pesticide plant leaked toxic gas over Bhopal, India, killing at least 16,000 people and injuring over 500,000. The company cut safety costs, ignored warnings, and then fled responsibility. CEO Warren Anderson was never extradited. Victims still await justice.',
     content: [
@@ -9904,7 +9904,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The human cost of same-day delivery',
     severity: 'high',
     category: 'Labor Abuse',
-    date: 'September 2021',
+    date: 'April 9, 2022',
     lastUpdated: 'February 16, 2026',
     summary: 'Amazon warehouse workers face brutal conditions: algorithmically-enforced quotas, denied bathroom breaks, high injury rates, and union-busting. The company became a trillion-dollar giant on the backs of exploited workers while Jeff Bezos became the world\'s richest man.',
     content: [
@@ -9931,7 +9931,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'The unregulated Wild West of finance',
     severity: 'high',
     category: 'Financial Crime',
-    date: 'February 16, 2026',
+    date: 'December 21, 2022',
     lastUpdated: 'February 16, 2026',
     summary: 'The cryptocurrency boom enabled rampant fraud: rug pulls, Ponzi schemes, market manipulation, and theft. From FTX to Celsius to Luna, billions were stolen from retail investors while influencers promoted worthless tokens. Regulation remained absent as the industry lobbied politicians.',
     content: [
@@ -9959,7 +9959,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     subtitle: 'Racing toward catastrophe without guardrails',
     severity: 'high',
     category: 'Technology',
-    date: 'February 16, 2026',
+    date: 'March 22, 2023',
     lastUpdated: 'February 16, 2026',
     summary: 'The AI industry is racing to deploy increasingly powerful systems without adequate safety testing, transparency, or regulation. Companies suppress internal concerns, fire ethics researchers, and lobby against oversight while their technology threatens jobs, democracy, and potentially human existence.',
     content: [
