@@ -13,6 +13,12 @@ import {
   EvidenceCategory
 } from '@/types/workspace';
 
+// Import extended workspace data
+import { extendedWorkspaces } from './workspaceData';
+import { extendedWorkspaces2 } from './workspaceData2';
+import { extendedWorkspaces3 } from './workspaceData3';
+import { extendedWorkspaces4 } from './workspaceData4';
+
 // Mock data for demonstration
 const mockMembers: WorkspaceMember[] = [
   {
@@ -476,7 +482,7 @@ interface WorkspaceStore {
 }
 
 export const useWorkspaceStore = create<WorkspaceStore>((set, get) => ({
-  workspaces: mockWorkspaces,
+  workspaces: [...mockWorkspaces, ...extendedWorkspaces, ...extendedWorkspaces2, ...extendedWorkspaces3, ...extendedWorkspaces4],
   currentWorkspace: null,
   isLoading: false,
 
