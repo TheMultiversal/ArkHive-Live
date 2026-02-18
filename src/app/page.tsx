@@ -254,48 +254,52 @@ export default function Home() {
                   </h2>
                   <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-blood-700 to-transparent mx-auto mb-4" />
                   <p className="text-base sm:text-lg text-zinc-300 leading-relaxed max-w-2xl mx-auto">
-                    The uncensored archive. The evidence they delete. The truth they bury.
+                    <span className="text-blood-600 font-bold">Whistleblower sanctuary.</span> Resistance archive. Accountability engine.
                     <br />
-                    And the crimes they commit in your name with your money while you sleep.
+                    The evidence they delete. The truth they bury. The crimes they commit in your name.
                   </p>
                 </div>
 
-                {/* What We Document */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-                  {[
-                    { title: "Political Corruption", desc: "Abuse of power, election interference, fraud" },
-                    { title: "Corporate Malfeasance", desc: "Financial crimes, cover-ups, and regulatory capture" },
-                    { title: "Human Rights Abuses", desc: "Trafficking networks, civil rights violations" },
-                    { title: "Financial Crimes", desc: "Money laundering, tax evasion, RICO violations" },
-                  ].map((item, i) => (
-                    <div key={i} className="text-center p-3 border border-blood-900/40 bg-blood-950/30">
-                      <span className="block w-2 h-2 bg-blood-700 mx-auto mb-2" />
-                      <h3 className="text-xs sm:text-sm font-bold text-blood-600 uppercase tracking-wider mb-1">{item.title}</h3>
-                      <p className="text-[10px] sm:text-xs text-zinc-500 leading-tight">{item.desc}</p>
-                    </div>
-                  ))}
+                {/* Three Pillars */}
+                <div className="grid md:grid-cols-3 gap-4 mb-6">
+                  <div className="text-center p-4 border border-blood-900/40 bg-blood-950/30">
+                    <span className="text-3xl font-black text-blood-600">SANCTUARY</span>
+                    <p className="text-xs text-zinc-400 mt-2">Safe harbor for those who risk everything to expose the truth. Your identity protected. Your evidence preserved.</p>
+                  </div>
+                  <div className="text-center p-4 border border-blood-900/40 bg-blood-950/30">
+                    <span className="text-3xl font-black text-white">ARCHIVE</span>
+                    <p className="text-xs text-zinc-400 mt-2">Permanent record. Immutable documentation. What they delete, we preserve. What they hide, we expose.</p>
+                  </div>
+                  <div className="text-center p-4 border border-blood-900/40 bg-blood-950/30">
+                    <span className="text-3xl font-black text-blood-600">ENGINE</span>
+                    <p className="text-xs text-zinc-400 mt-2">Cross-reference. Connect. Expose. Every entity tracked. Every connection mapped. No one escapes accountability.</p>
+                  </div>
                 </div>
 
-                {/* Mission Statement */}
-                <div className="border-t border-blood-900/40 pt-5">
-                  <div className="grid md:grid-cols-3 gap-4 text-center">
-                    <div>
-                      <span className="text-2xl font-black text-blood-600">EXPOSE</span>
-                      <p className="text-xs text-zinc-500 mt-1">Classified operations, black sites, and secret programs</p>
-                    </div>
-                    <div>
-                      <span className="text-2xl font-black text-white">DOCUMENT</span>
-                      <p className="text-xs text-zinc-500 mt-1">Primary sources, leaked files, and witness testimony</p>
-                    </div>
-                    <div>
-                      <span className="text-2xl font-black text-blood-600">PRESERVE</span>
-                      <p className="text-xs text-zinc-500 mt-1">Before they scrub it from existence forever</p>
-                    </div>
+                {/* What We Document - Expanded */}
+                <div className="border-t border-blood-900/40 pt-5 mb-5">
+                  <p className="text-xs text-zinc-500 uppercase tracking-wider text-center mb-4">What We Document</p>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                    {[
+                      { title: "Political Crimes", desc: "Election fraud, abuse of power, sedition" },
+                      { title: "Financial Crimes", desc: "Money laundering, tax evasion, RICO" },
+                      { title: "Human Trafficking", desc: "Networks, enablers, cover-ups" },
+                      { title: "Corporate Corruption", desc: "Regulatory capture, fraud, collusion" },
+                      { title: "Civil Rights Abuses", desc: "Police brutality, discrimination, suppression" },
+                      { title: "Intelligence Abuses", desc: "Surveillance, black sites, illegal programs" },
+                      { title: "Medical Crimes", desc: "Experimentation, fraud, cover-ups" },
+                      { title: "Environmental Crimes", desc: "Poisoning, contamination, negligence" },
+                    ].map((item, i) => (
+                      <div key={i} className="text-center p-2 border border-blood-900/30 bg-black/40">
+                        <h3 className="text-[10px] sm:text-xs font-bold text-blood-600 uppercase tracking-wider mb-1">{item.title}</h3>
+                        <p className="text-[9px] sm:text-[10px] text-zinc-500 leading-tight">{item.desc}</p>
+                      </div>
+                    ))}
                   </div>
                 </div>
 
                 {/* Warning */}
-                <div className="mt-6 p-3 border border-zinc-800 bg-zinc-900/50 text-center">
+                <div className="p-3 border border-zinc-800 bg-zinc-900/50 text-center">
                   <p className="text-xs text-zinc-500 uppercase tracking-widest">
                     ⚠ This archive contains disturbing truths. Proceed with open eyes. ⚠
                   </p>
@@ -303,24 +307,83 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Investigation Categories */}
-            <div className="max-w-3xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: "350ms" }}>
-              <p className="text-sm text-dark-500 mb-3 uppercase tracking-wider">Active Investigation Categories:</p>
-              <div className="flex flex-wrap justify-center gap-2 text-xs">
-                {[
-                  "Election Interference", "Financial Fraud", "Human Trafficking", "RICO Violations",
-                  "Seditious Conspiracy", "Obstruction of Justice", "Tax Evasion", "Wire Fraud",
-                  "Campaign Finance Crimes", "Bribery & Corruption", "Civil Rights Violations", "Insurance Fraud",
-                  "Bank Fraud", "Securities Fraud", "Money Laundering", "Witness Tampering",
-                  "Perjury", "Defamation", "Sexual Assault", "Racketeering"
-                ].map((crime, i) => (
-                  <span 
-                    key={i} 
-                    className="px-2 py-1 bg-blood-950/50 border border-blood-900/50 text-blood-600 hover:bg-blood-900/30 hover:text-blood-500 transition-colors cursor-default"
-                  >
-                    {crime}
-                  </span>
-                ))}
+            {/* Tiered Investigation Categories */}
+            <div className="max-w-4xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: "350ms" }}>
+              {/* Tier 1: Documented - Court Records */}
+              <div className="mb-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="w-3 h-3 bg-blood-600" />
+                  <p className="text-sm text-blood-600 font-bold uppercase tracking-wider">Documented — Court Records & Indictments</p>
+                </div>
+                <div className="flex flex-wrap gap-2 text-xs">
+                  {[
+                    "Election Interference", "Financial Fraud", "Human Trafficking", "RICO Violations",
+                    "Seditious Conspiracy", "Obstruction of Justice", "Tax Evasion", "Wire Fraud",
+                    "Campaign Finance Crimes", "Bribery", "Bank Fraud", "Securities Fraud",
+                    "Money Laundering", "Perjury", "Sexual Assault", "Racketeering"
+                  ].map((crime, i) => (
+                    <span key={i} className="px-2 py-1 bg-blood-950/50 border border-blood-700/50 text-blood-500 hover:bg-blood-900/30 transition-colors cursor-default">
+                      {crime}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Tier 2: Declassified - Government Programs */}
+              <div className="mb-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="w-3 h-3 bg-zinc-500" />
+                  <p className="text-sm text-zinc-400 font-bold uppercase tracking-wider">Declassified — Proven Government Programs</p>
+                </div>
+                <div className="flex flex-wrap gap-2 text-xs">
+                  {[
+                    "MKUltra", "COINTELPRO", "Operation Mockingbird", "Tuskegee Experiments",
+                    "Operation Northwoods", "Gulf of Tonkin", "Iran-Contra", "CIA Torture Program",
+                    "NSA Mass Surveillance", "Operation Paperclip", "Phoenix Program"
+                  ].map((program, i) => (
+                    <span key={i} className="px-2 py-1 bg-zinc-900/50 border border-zinc-700/50 text-zinc-400 hover:bg-zinc-800/50 transition-colors cursor-default">
+                      {program}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Tier 3: Under Investigation - Patterns */}
+              <div className="mb-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="w-3 h-3 bg-amber-600/70" />
+                  <p className="text-sm text-amber-600/90 font-bold uppercase tracking-wider">Under Investigation — Documented Patterns</p>
+                </div>
+                <div className="flex flex-wrap gap-2 text-xs">
+                  {[
+                    "Pharmaceutical Influence", "Regulatory Capture", "Media Manipulation",
+                    "Water Contamination", "Food Industry Fraud", "Prison Industrial Complex",
+                    "Medical Experimentation", "Fluoride Research Suppression", "Vaccine Injury Concealment",
+                    "Weather Modification Programs", "5G Health Research", "Chemtrail Aerosol Programs"
+                  ].map((pattern, i) => (
+                    <span key={i} className="px-2 py-1 bg-amber-950/30 border border-amber-800/40 text-amber-600/80 hover:bg-amber-900/30 transition-colors cursor-default">
+                      {pattern}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Tier 4: Suppressed - Requires Further Investigation */}
+              <div>
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="w-3 h-3 bg-purple-600/50" />
+                  <p className="text-sm text-purple-500/80 font-bold uppercase tracking-wider">Suppressed Research — Requires Investigation</p>
+                </div>
+                <div className="flex flex-wrap gap-2 text-xs">
+                  {[
+                    "Depopulation Agendas", "Mind Control Programs", "Mass Surveillance Networks",
+                    "Economic Enslavement Systems", "Controlled Opposition", "Predictive Programming"
+                  ].map((topic, i) => (
+                    <span key={i} className="px-2 py-1 bg-purple-950/20 border border-purple-800/30 text-purple-500/70 hover:bg-purple-900/20 transition-colors cursor-default">
+                      {topic}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
 
