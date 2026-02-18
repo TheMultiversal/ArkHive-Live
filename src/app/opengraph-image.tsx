@@ -8,7 +8,7 @@ import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
 
-export const alt = 'ArkHive - Investigative Platform';
+export const alt = 'ArkHive - Investigative Documentation Platform';
 export const size = {
   width: 1200,
   height: 630,
@@ -204,7 +204,7 @@ export default async function Image() {
               textTransform: 'uppercase',
             }}
           >
-            Your Government Is Killing You
+            Investigative Documentation Platform
           </div>
 
           {/* Description */}
@@ -218,8 +218,8 @@ export default async function Image() {
               lineHeight: 1.5,
             }}
           >
-            An investigative platform exposing the truth about government,
-            corporate, and institutional actions.
+            Court records. Primary sources. Verified evidence.
+            Documenting political corruption and institutional accountability.
           </div>
         </div>
 

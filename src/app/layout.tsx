@@ -17,11 +17,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Your Government Is Killing You | ArkHive",
+    default: "ArkHive | Investigative Documentation Platform",
     template: "%s | ArkHive",
   },
-  description: "An investigative platform exposing the truth about government, corporate, and institutional actions affecting public health and safety.",
-  keywords: ["investigation", "government", "transparency", "public health", "corporate accountability"],
+  description: "An investigative archive documenting political corruption, financial crimes, and institutional accountability through court records, primary sources, and verified evidence.",
+  keywords: ["investigation", "corruption", "court records", "political crimes", "financial fraud", "accountability", "documentation"],
   authors: [{ name: "ArkHive Team" }],
   creator: "ArkHive",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
@@ -29,13 +29,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "ArkHive",
-    title: "Your Government Is Killing You | ArkHive",
-    description: "An investigative platform exposing the truth about government, corporate, and institutional actions affecting public health and safety.",
+    title: "ArkHive | Investigative Documentation Platform",
+    description: "An investigative archive documenting political corruption, financial crimes, and institutional accountability through court records and verified evidence.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Your Government Is Killing You | ArkHive",
-    description: "An investigative platform exposing the truth.",
+    title: "ArkHive | Investigative Documentation Platform",
+    description: "Documenting political corruption and institutional accountability.",
   },
   robots: {
     index: true,

@@ -163,17 +163,17 @@ export default function Home() {
               <div className="space-y-1">
                 {/* Line 1 */}
                 <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-zinc-500 uppercase tracking-[0.2em]">
-                  Your Government Is
+                  The Crimes They Think
                 </p>
-                {/* Line 2 - KILLING - emphasized */}
+                {/* Line 2 - HIDDEN - emphasized */}
                 <p className="text-5xl sm:text-6xl lg:text-8xl font-black uppercase tracking-tight">
                   <span className="text-blood-600" style={{ filter: 'drop-shadow(0 0 30px rgba(153,27,27,0.7)) drop-shadow(0 0 60px rgba(127,29,29,0.4))' }}>
-                    KILLING
+                    YOU&apos;LL NEVER
                   </span>
                 </p>
                 {/* Line 3 */}
                 <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-zinc-500 uppercase tracking-[0.2em]">
-                  You And Your Children
+                  Find Out About
                 </p>
               </div>
               
@@ -181,7 +181,7 @@ export default function Home() {
               <div className="mt-4 flex items-center justify-center gap-4">
                 <span className="h-[1px] w-12 bg-gradient-to-r from-transparent to-blood-700" />
                 <span className="text-xs sm:text-sm text-zinc-600 uppercase tracking-[0.3em]">
-                  Slowly • Systematically • Silently
+                  Exposed • Documented • Preserved
                 </span>
                 <span className="h-[1px] w-12 bg-gradient-to-l from-transparent to-blood-700" />
               </div>
@@ -193,30 +193,30 @@ export default function Home() {
                 {/* Top line */}
                 <div className="flex items-center justify-center gap-3 mb-2">
                   <span className="h-[1px] w-8 bg-blood-700" />
-                  <span className="text-xs text-zinc-500 uppercase tracking-[0.3em]">The Question</span>
+                  <span className="text-xs text-zinc-500 uppercase tracking-[0.3em]">Our Mission</span>
                   <span className="h-[1px] w-8 bg-blood-700" />
                 </div>
                 
                 {/* Main question - stacked dramatic */}
                 <div className="relative">
                   <p className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">
-                    WHAT WILL <span className="text-blood-600">YOU</span> DO
+                    FOLLOW THE <span className="text-blood-600">EVIDENCE</span>
                   </p>
                   <p className="text-xl sm:text-2xl lg:text-3xl font-bold text-zinc-400 mt-1">
-                    when you discover the truth?
+                    Connect the dots they don&apos;t want connected.
                   </p>
                 </div>
 
-                {/* Three options */}
+                {/* Three pillars */}
                 <div className="flex flex-wrap justify-center gap-2 mt-4">
-                  <span className="px-4 py-2 border border-zinc-700 text-zinc-600 text-xs uppercase tracking-wider line-through decoration-blood-700">
-                    Look Away
-                  </span>
-                  <span className="px-4 py-2 border border-zinc-700 text-zinc-600 text-xs uppercase tracking-wider line-through decoration-blood-700">
-                    Stay Silent
+                  <span className="px-4 py-2 border-2 border-blood-700 text-blood-600 text-xs uppercase tracking-wider font-bold">
+                    Primary Sources
                   </span>
                   <span className="px-4 py-2 border-2 border-blood-700 text-blood-600 text-xs uppercase tracking-wider font-bold">
-                    Take Action
+                    Court Documents
+                  </span>
+                  <span className="px-4 py-2 border-2 border-blood-700 text-blood-600 text-xs uppercase tracking-wider font-bold">
+                    Verified Evidence
                   </span>
                 </div>
               </div>
@@ -225,21 +225,21 @@ export default function Home() {
             {/* Opening Declaration - Crystal Clear */}
             <div className="max-w-3xl mx-auto mb-8 bg-black/60 p-6">
               <p className="text-lg sm:text-xl text-zinc-300 leading-relaxed">
-                <span className="text-blood-600 font-black uppercase">Wake up!</span>
+                <span className="text-blood-600 font-black uppercase">91 criminal charges.</span>
                 <br />
-                Your autopsy has already been written.
+                4 indictments. $454 million in fraud judgments.
                 <br />
-                <span className="text-white font-bold">Signed, Sealed, and Scheduled.</span>
+                <span className="text-white font-bold">And that&apos;s just one person.</span>
               </p>
               <p className="text-base sm:text-lg text-zinc-400 mt-4 leading-relaxed">
-                Every government on Earth operates an{" "}
-                <span className="text-blood-600 font-bold">open-air slaughterhouse</span>{" "}
-                the size of a planet. And you are the livestock{" "}
-                <span className="text-white font-bold italic">still applauding the butcher.</span>
+                Every day, institutions designed to protect you{" "}
+                <span className="text-blood-600 font-bold">betray that trust</span>{" "}
+                while burying the evidence. We dig it up.{" "}
+                <span className="text-white font-bold italic">We document everything.</span>
               </p>
               <div className="mt-4 pt-4 border-t border-zinc-800">
                 <p className="text-sm text-zinc-500 uppercase tracking-widest">
-                  This is not conspiracy. <span className="text-blood-600 font-bold">This is documentation.</span>
+                  No conspiracy theories. <span className="text-blood-600 font-bold">Just court records and primary sources.</span>
                 </p>
               </div>
             </div>
@@ -263,10 +263,10 @@ export default function Home() {
                 {/* What We Document */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
                   {[
-                    { title: "Government Crimes", desc: "State-sponsored atrocities hidden from public view" },
-                    { title: "Corporate Malfeasance", desc: "Profit over people, cover-ups and collusion" },
-                    { title: "Medical Tyranny", desc: "Forced treatments, experimental injections, pharma fraud" },
-                    { title: "Civil Liberty Violations", desc: "Constitutional erosion, surveillance, censorship" },
+                    { title: "Political Corruption", desc: "Abuse of power, election interference, fraud" },
+                    { title: "Corporate Malfeasance", desc: "Financial crimes, cover-ups, and regulatory capture" },
+                    { title: "Human Rights Abuses", desc: "Trafficking networks, civil rights violations" },
+                    { title: "Financial Crimes", desc: "Money laundering, tax evasion, RICO violations" },
                   ].map((item, i) => (
                     <div key={i} className="text-center p-3 border border-blood-900/40 bg-blood-950/30">
                       <span className="block w-2 h-2 bg-blood-700 mx-auto mb-2" />
@@ -303,16 +303,16 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Crimes Against Humanity List */}
+            {/* Investigation Categories */}
             <div className="max-w-3xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: "350ms" }}>
-              <p className="text-sm text-dark-500 mb-3 uppercase tracking-wider">Documented Crimes Against Humanity:</p>
+              <p className="text-sm text-dark-500 mb-3 uppercase tracking-wider">Active Investigation Categories:</p>
               <div className="flex flex-wrap justify-center gap-2 text-xs">
                 {[
-                  "Mass Poisoning", "Forced Medication", "Water Contamination", "Food Adulteration",
-                  "Medical Experimentation", "Vaccine Mandates", "Surveillance State", "Censorship",
-                  "Economic Enslavement", "Depopulation Agendas", "Child Trafficking", "Organ Harvesting",
-                  "Mind Control Programs", "Weather Manipulation", "5G Radiation", "Chemtrails",
-                  "Fluoride Poisoning", "GMO Contamination", "Pharmaceutical Murder", "False Flag Operations"
+                  "Election Interference", "Financial Fraud", "Human Trafficking", "RICO Violations",
+                  "Seditious Conspiracy", "Obstruction of Justice", "Tax Evasion", "Wire Fraud",
+                  "Campaign Finance Crimes", "Bribery & Corruption", "Civil Rights Violations", "Insurance Fraud",
+                  "Bank Fraud", "Securities Fraud", "Money Laundering", "Witness Tampering",
+                  "Perjury", "Defamation", "Sexual Assault", "Racketeering"
                 ].map((crime, i) => (
                   <span 
                     key={i} 
