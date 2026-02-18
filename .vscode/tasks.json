@@ -1,0 +1,37 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build and Start",
+			"type": "shell",
+			"command": "npm run build && npm run start",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Build and Start Server",
+			"type": "shell",
+			"command": "npm run build && npm run start",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Dev Server",
+			"type": "shell",
+			"command": "npm run dev",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "none"
+		},
+		{
+			"label": "ArkHive Dev",
+			"type": "shell",
+			"command": "npm run dev",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "none"
+		}
+	]
+}

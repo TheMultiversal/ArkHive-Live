@@ -1,0 +1,429 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;
+  --foreground: #f8fafc;
+  --accent: #ef4444;
+  --accent-dark: #b91c1c;
+  --blood-dark: #7f1d1d;
+  --blood-darker: #450a0a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Blood Red Cursor */
+.cursor-blood-red,
+.cursor-blood-red * {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='%23dc2626' d='M4 0 L4 18 L8 14 L11 22 L14 21 L11 13 L17 13 Z'/%3E%3Cpath fill='%237f1d1d' d='M5 1 L5 16 L8.5 12.5 L11.5 20 L12.5 19.5 L9.5 12 L15 12 Z'/%3E%3C/svg%3E") 4 0, auto;
+}
+
+.cursor-blood-red a,
+.cursor-blood-red button,
+.cursor-blood-red [role="button"],
+.cursor-blood-red input[type="submit"],
+.cursor-blood-red input[type="button"] {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='%23ef4444' d='M8 3 L8 13 L4 13 L12 21 L20 13 L16 13 L16 3 Z'/%3E%3Cpath fill='%23dc2626' stroke='%237f1d1d' stroke-width='1' d='M9 4 L9 12 L6 12 L12 19 L18 12 L15 12 L15 4 Z'/%3E%3C/svg%3E") 12 12, pointer;
+}
+
+/* Blood dripping from top of page */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: 
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 150'%3E%3Cdefs%3E%3ClinearGradient id='blood' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23dc2626'/%3E%3Cstop offset='100%25' stop-color='%237f1d1d' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M5 0 Q5 40 5 60 Q3 70 5 75 Q7 70 5 60' fill='url(%23blood)'/%3E%3Cpath d='M25 0 Q25 80 25 100 Q22 115 25 120 Q28 115 25 100' fill='url(%23blood)'/%3E%3Cpath d='M45 0 Q45 50 45 70 Q43 80 45 85 Q47 80 45 70' fill='url(%23blood)'/%3E%3Cpath d='M65 0 Q65 90 65 110 Q62 125 65 130 Q68 125 65 110' fill='url(%23blood)'/%3E%3Cpath d='M85 0 Q85 30 85 45 Q83 55 85 60 Q87 55 85 45' fill='url(%23blood)'/%3E%3C/svg%3E") repeat-x;
+  background-size: 100px 150px;
+  pointer-events: none;
+  z-index: 100;
+  opacity: 0.6;
+  animation: bloodDrip 8s ease-in-out infinite;
+}
+
+/* Blood pooling at bottom */
+body::after {
+  content: '';
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to top, 
+    rgba(127, 29, 29, 0.4) 0%,
+    rgba(127, 29, 29, 0.2) 30%,
+    rgba(127, 29, 29, 0.05) 60%,
+    transparent 100%
+  );
+  pointer-events: none;
+  z-index: 100;
+}
+
+@keyframes bloodDrip {
+  0%, 100% { 
+    transform: translateY(0); 
+    opacity: 0.6;
+  }
+  50% { 
+    transform: translateY(5px); 
+    opacity: 0.8;
+  }
+}
+
+/* ============================================================
+   ACCESSIBILITY - Focus Visible Styles
+   ============================================================ */
+
+/* Global focus-visible styles for all interactive elements */
+*:focus-visible {
+  outline: 2px solid #dc2626;
+  outline-offset: 2px;
+}
+
+/* Remove default focus for mouse users */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Specific focus styles for buttons */
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid #dc2626;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(220, 38, 38, 0.2);
+}
+
+/* Input focus styles */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #dc2626;
+  outline-offset: 0;
+  border-color: #dc2626;
+}
+
+/* Link focus styles */
+a:focus-visible {
+  outline: 2px solid #dc2626;
+  outline-offset: 2px;
+  text-decoration: underline;
+}
+
+/* Skip link for keyboard navigation */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #dc2626;
+  color: white;
+  padding: 8px 16px;
+  z-index: 10000;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Simple Blood Red Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+  border-left: 1px solid #1a0505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #b91c1c 0%, #7f1d1d 100%);
+  border: 1px solid #450a0a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #dc2626 0%, #991b1b 100%);
+}
+
+/* CRYSTAL CLEAR styles - NO BLUR, NO ROUNDED CORNERS */
+@layer components {
+  .glass {
+    background: rgba(0, 0, 0, 0.98);
+    border: 1px solid rgba(127, 29, 29, 0.6);
+  }
+
+  .glass-card {
+    background: linear-gradient(135deg, rgba(5, 5, 5, 1), rgba(0, 0, 0, 1));
+    border: 1px solid rgba(127, 29, 29, 0.5);
+    border-radius: 0;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .glass-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 2px;
+    height: 0;
+    background: linear-gradient(180deg, #dc2626, transparent);
+    transition: height 0.5s ease;
+  }
+
+  .glass-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 20%;
+    width: 1px;
+    height: 0;
+    background: linear-gradient(180deg, #b91c1c, transparent);
+    transition: height 0.5s ease;
+    transition-delay: 0.1s;
+  }
+
+  .glass-card:hover {
+    border-color: rgba(220, 38, 38, 0.7);
+    box-shadow: 0 0 1px rgba(220, 38, 38, 0.8), 0 4px 20px rgba(0, 0, 0, 0.8);
+    transform: translateY(-2px);
+  }
+
+  .glass-card:hover::before {
+    height: 40px;
+  }
+
+  .glass-card:hover::after {
+    height: 25px;
+  }
+
+  .glow-text {
+    text-shadow: 0 0 20px rgba(239, 68, 68, 0.8), 0 0 40px rgba(239, 68, 68, 0.4);
+  }
+
+  .glow-border {
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.4), 0 0 30px rgba(220, 38, 38, 0.2);
+  }
+
+  .accent-line {
+    position: relative;
+  }
+
+  .accent-line::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent), var(--blood-dark), transparent);
+  }
+
+  .danger-badge {
+    background: linear-gradient(135deg, rgba(220, 38, 38, 0.3), rgba(127, 29, 29, 0.3));
+    border: 1px solid rgba(220, 38, 38, 0.6);
+    color: #fca5a5;
+    padding: 4px 12px;
+    border-radius: 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .entity-tag {
+    background: rgba(5, 5, 5, 1);
+    border: 1px solid rgba(127, 29, 29, 0.5);
+    padding: 6px 14px;
+    border-radius: 0;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+  }
+
+  .entity-tag:hover {
+    border-color: rgba(220, 38, 38, 0.8);
+    background: rgba(220, 38, 38, 0.15);
+  }
+
+  .blood-splatter {
+    position: relative;
+  }
+
+  .blood-splatter::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(circle at 30% 30%, #dc2626 0%, transparent 70%);
+    opacity: 0.4;
+    border-radius: 50%;
+    transform: scale(0.8);
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 5px rgba(239, 68, 68, 0.5); }
+  50% { box-shadow: 0 0 25px rgba(239, 68, 68, 0.9); }
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes bloodPulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+.animate-shimmer {
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+.animate-blood-pulse {
+  animation: bloodPulse 2s ease-in-out infinite;
+}
+
+/* Selection - blood red */
+::selection {
+  background: rgba(220, 38, 38, 0.5);
+  color: #fff;
+}
+
+/* Blood veins background pattern */
+.blood-veins {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cpath d='M10 100 Q50 80 100 100 T190 100' stroke='%237f1d1d' stroke-width='1' fill='none' opacity='0.2'/%3E%3Cpath d='M10 50 Q80 70 100 50 T190 50' stroke='%23991b1b' stroke-width='0.5' fill='none' opacity='0.15'/%3E%3Cpath d='M10 150 Q60 130 100 150 T190 150' stroke='%237f1d1d' stroke-width='0.5' fill='none' opacity='0.15'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+
+/* Focus visible styles for keyboard navigation */
+:focus-visible {
+  outline: 2px solid #dc2626;
+  outline-offset: 2px;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #dc2626;
+  outline-offset: 2px;
+}
+
+/* Screen reader only utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only:focus-within:not(:focus) {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .animate-pulse,
+  .animate-shimmer,
+  .animate-blood-pulse,
+  .animate-spin,
+  .animate-spin-slow {
+    animation: none !important;
+  }
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  
+  .glass-card,
+  .glass {
+    background: white !important;
+    border: 1px solid #ccc !important;
+  }
+  
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+}
+

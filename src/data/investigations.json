@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1",
+    "slug": "sample-investigation",
+    "title": "Welcome to ArkHive | Your Investigation Hub",
+    "subtitle": "Getting Started with the Platform",
+    "summary": "This platform is ready to document and expose institutional actions that threaten public health, safety, and civil liberties. Submit your first piece of information to begin building the archive.",
+    "content": [
+      "ArkHive is designed to be a comprehensive documentation platform for investigative journalism. Each investigation you add will include detailed evidence, source documentation, and connections to the entities involved.",
+      "The platform maps relationships between government agencies, corporations, and individuals across multiple investigations, revealing patterns of institutional behavior that might otherwise remain hidden.",
+      "To add your first investigation, use the Submit form to provide information. Our team will research, verify, and document all connected entities before publishing."
+    ],
+    "category": "Platform",
+    "severity": "critical",
+    "date": "2026-01-15",
+    "lastUpdated": "2026-01-31",
+    "entityCount": 0,
+    "tags": ["Getting Started", "Platform", "Documentation"],
+    "sources": [
+      {
+        "id": "s1",
+        "title": "ArkHive Documentation",
+        "url": "/about",
+        "type": "document",
+        "description": "Platform documentation and guidelines"
+      }
+    ],
+    "affiliations": []
+  },
+  {
+    "id": "2",
+    "slug": "water-contamination-case-study",
+    "title": "Municipal Water Supply Contamination: A Case Study Template",
+    "subtitle": "Template for Environmental Investigations",
+    "summary": "This template demonstrates how environmental contamination investigations are documented, including affected populations, responsible agencies, and corporate involvement.",
+    "content": [
+      "Environmental contamination investigations typically involve multiple layers of accountability. This template shows the structure for documenting such cases.",
+      "Key elements include: timeline of events, affected population statistics, regulatory failures, corporate responsibility, and long-term health impacts.",
+      "Each entity involved—from the water utility to regulatory agencies to any corporate polluters—would be linked and cross-referenced across this and related investigations."
+    ],
+    "category": "Environmental",
+    "severity": "high",
+    "date": "2026-01-20",
+    "lastUpdated": "2026-01-25",
+    "entityCount": 3,
+    "tags": ["Water", "Environmental", "Public Health", "Template"],
+    "sources": [],
+    "affiliations": [
+      {
+        "id": "a1",
+        "name": "Environmental Protection Agency",
+        "type": "agency",
+        "relationship": "Regulatory oversight failure",
+        "href": "/entities/agencies/epa",
+        "strength": "regulatory"
+      }
+    ]
+  }
+]

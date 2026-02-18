@@ -1,0 +1,26 @@
+[
+  {
+    "id": "t1",
+    "date": "2026-01-15",
+    "title": "ArkHive Platform Launch",
+    "description": "The investigative documentation platform goes live, ready to receive and document information about institutional crimes against public health and safety.",
+    "type": "event",
+    "investigationId": "1"
+  },
+  {
+    "id": "t2",
+    "date": "2026-01-20",
+    "title": "Investigation Template System Created",
+    "description": "Documentation templates established for various investigation types including environmental, public health, and civil liberties cases.",
+    "type": "document",
+    "investigationId": "1"
+  },
+  {
+    "id": "t3",
+    "date": "2026-01-25",
+    "title": "Entity Tracking System Activated",
+    "description": "Cross-referencing system for tracking agencies, corporations, and individuals across multiple investigations goes online.",
+    "type": "action",
+    "investigationId": "1"
+  }
+]

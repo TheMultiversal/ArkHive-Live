@@ -1,0 +1,46 @@
+{
+  "name": "your-government-is-killing-you-arkhive",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest",
+    "test:watch": "vitest watch",
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^0.468.0",
+    "next": "15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-dropzone": "^14.4.0",
+    "tailwind-merge": "^2.6.0",
+    "uuid": "^13.0.0",
+    "zod": "^4.3.6",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "@types/uuid": "^10.0.0",
+    "@vitejs/plugin-react": "^5.1.3",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "15.1.0",
+    "jsdom": "^28.0.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
+    "vitest": "^4.0.18"
+  }
+}

@@ -1,0 +1,4077 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import { motion } from 'framer-motion';
+import {
+  Building,
+  ArrowLeft,
+  ExternalLink,
+  AlertTriangle,
+  Calendar,
+  Users,
+  DollarSign,
+  Globe,
+  TrendingUp,
+  Briefcase,
+} from 'lucide-react';
+import GlitchText from '@/components/effects/GlitchText';
+
+// Mock corporation data
+const corporationData: Record<string, {
+  name: string;
+  ticker?: string;
+  industry: string;
+  riskLevel: 'critical' | 'high' | 'medium' | 'low';
+  description: string;
+  founded: string;
+  headquarters: string;
+  employees: string;
+  revenue: string;
+  marketCap?: string;
+  ceo: string;
+  website?: string;
+  controversies: string[];
+  subsidiaries: string[];
+  relatedInvestigations: { title: string; slug: string; severity: string }[];
+  lobbyingSpend?: string;
+  governmentContracts?: string;
+  keyFigures?: { name: string; role: string; href?: string }[];
+  legalHistory?: string[];
+  financialNotes?: string;
+  politicalConnections?: string;
+}> = {
+  'trump-organization': {
+    name: 'The Trump Organization',
+    industry: 'Real Estate / Holdings',
+    riskLevel: 'critical',
+    description: 'The Trump Organization is the collective name for a group of about 500 business entities of which Donald Trump is the sole or principal owner. The company has been convicted of 17 felonies, found liable for massive fraud ($454M judgment), and implicated in money laundering, tax evasion, and election interference through hush money payments.',
+    founded: '1927 (as Elizabeth Trump & Son)',
+    headquarters: 'Trump Tower, New York City, NY',
+    employees: '22,450+',
+    revenue: '$600+ million (estimated)',
+    ceo: 'Eric Trump / Donald Trump Jr. (day-to-day)',
+    website: 'https://www.trump.com',
+    controversies: [
+      'CONVICTED: 17 felony counts of tax fraud (2022)',
+      'JUDGMENT: $454 million civil fraud judgment (2024)',
+      'CFO Allen Weisselberg sentenced to 5 months for perjury',
+      'Hush money payments funneled through organization',
+      'Systematic overvaluation of assets to banks by billions',
+      'Undervaluation of assets to tax authorities',
+      'Money laundering through all-cash real estate purchases',
+      'Deutsche Bank received $2B+ in loans despite red flags',
+      'Trump Foundation (charity arm) dissolved for self-dealing',
+      'Trump University $25M fraud settlement',
+    ],
+    subsidiaries: [
+      'Trump Hotels', 'Trump Golf', 'Trump Tower NYC', 'Mar-a-Lago Club',
+      'Trump International Hotel DC (sold)', 'Trump Winery', 'Trump Productions',
+      '40 Wall Street LLC', 'Trump Park Avenue', 'Trump Parc', 'Seven Springs',
+    ],
+    relatedInvestigations: [
+      { title: 'Trump Organization Fraud', slug: 'trump-org-fraud', severity: 'critical' },
+      { title: 'Hush Money Election Fraud', slug: 'hush-money', severity: 'critical' },
+      { title: 'Tax Evasion & Fraud', slug: 'tax-evasion', severity: 'critical' },
+      { title: 'Money Laundering Operations', slug: 'money-laundering', severity: 'critical' },
+      { title: 'Deutsche Bank Investigation', slug: 'deutsche-bank', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Donald Trump', role: 'Owner, sole beneficiary', href: '/entities/individuals/donald-trump' },
+      { name: 'Eric Trump', role: 'EVP, day-to-day operations', href: '/entities/individuals/eric-trump' },
+      { name: 'Donald Trump Jr.', role: 'EVP, day-to-day operations', href: '/entities/individuals/donald-trump-jr' },
+      { name: 'Allen Weisselberg', role: 'Former CFO, convicted felon', href: '/entities/individuals/allen-weisselberg' },
+      { name: 'Ivanka Trump', role: 'Former EVP', href: '/entities/individuals/ivanka-trump' },
+    ],
+    legalHistory: [
+      '2022: Trump Org convicted of 17 felonies, fined $1.6 million',
+      '2024: Trump ordered to pay $454 million for fraud',
+      '2018: Trump Foundation dissolved, $2M penalty',
+      '2016: Trump University $25M settlement',
+      '2024: Trump found liable for sexual abuse, defamation ($88.3M)',
+    ],
+  },
+  'fox-news': {
+    name: 'Fox News Media',
+    ticker: 'FOX',
+    industry: 'Media / Broadcasting',
+    riskLevel: 'critical',
+    description: 'Fox News is a conservative cable news network owned by Fox Corporation. The network paid a record $787.5 million settlement in the Dominion defamation case after internal documents revealed hosts knew election fraud claims were false but aired them anyway.',
+    founded: '1996',
+    headquarters: 'New York City, NY',
+    employees: '3,000+',
+    revenue: '$3+ billion annually',
+    marketCap: '$21 billion (Fox Corp)',
+    ceo: 'Suzanne Scott (CEO of Fox News)',
+    website: 'https://www.foxnews.com',
+    controversies: [
+      'SETTLEMENT: $787.5 million to Dominion Voting Systems (2023)',
+      'Internal texts showed hosts knew election lies were false',
+      'Rupert Murdoch admitted hosts "endorsed" false claims',
+      'Tucker Carlson fired after Dominion revelations',
+      'Bill O\'Reilly fired amid $45M+ in sexual harassment settlements',
+      'Roger Ailes resigned over sexual harassment (died 2017)',
+      'Continued promotion of January 6 conspiracy theories',
+      'Newsmax lawsuit pending for similar election lies',
+    ],
+    subsidiaries: [
+      'Fox Business Network', 'Fox News Digital', 'Fox Nation', 'Fox News Radio',
+    ],
+    relatedInvestigations: [
+      { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+      { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Rupert Murdoch', role: 'Chairman Emeritus, Fox Corp', href: '/entities/individuals/rupert-murdoch' },
+      { name: 'Lachlan Murdoch', role: 'CEO, Fox Corporation', href: '/entities/individuals/lachlan-murdoch' },
+      { name: 'Tucker Carlson', role: 'Former host, fired 2023', href: '/entities/individuals/tucker-carlson' },
+      { name: 'Sean Hannity', role: 'Host, Trump confidant', href: '/entities/individuals/sean-hannity' },
+      { name: 'Maria Bartiromo', role: 'Host, first to air Powell lies', href: '/entities/individuals/maria-bartiromo' },
+      { name: 'Lou Dobbs', role: 'Former host, show cancelled', href: '/entities/individuals/lou-dobbs' },
+    ],
+  },
+  'cambridge-analytica': {
+    name: 'Cambridge Analytica',
+    industry: 'Data Analytics / Political Consulting',
+    riskLevel: 'critical',
+    description: 'Cambridge Analytica was a British political consulting firm that harvested data from 87 million Facebook users without consent to target voters. Funded by the Mercer family and led by Steve Bannon, the firm worked for the Trump 2016 campaign. It dissolved in 2018 amid scandal.',
+    founded: '2013',
+    headquarters: 'London, UK (dissolved 2018)',
+    employees: '0 (dissolved)',
+    revenue: 'N/A (dissolved)',
+    ceo: 'Alexander Nix (fired 2018)',
+    controversies: [
+      'Harvested 87 million Facebook users\' data without consent',
+      'Used psychographic profiling to manipulate voters',
+      'Worked for Trump 2016 campaign',
+      'Steve Bannon served as VP and board member',
+      'Robert Mercer invested $15+ million',
+      'Facebook fined $5 billion by FTC over data breach',
+      'Company dissolved amid scandals (May 2018)',
+      'Whistleblower Christopher Wylie exposed operations',
+      'Parent company SCL Group also dissolved',
+    ],
+    subsidiaries: [
+      'SCL Group (parent, dissolved)', 'SCL Elections', 'CA Political',
+    ],
+    relatedInvestigations: [
+      { title: 'Cambridge Analytica', slug: 'cambridge-analytica', severity: 'critical' },
+      { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Steve Bannon', role: 'VP, Board member', href: '/entities/individuals/steve-bannon' },
+      { name: 'Robert Mercer', role: 'Funder, $15M+ invested', href: '/entities/individuals/robert-mercer' },
+      { name: 'Rebekah Mercer', role: 'Board member', href: '/entities/individuals/rebekah-mercer' },
+      { name: 'Alexander Nix', role: 'CEO, fired', href: '/entities/individuals/alexander-nix' },
+      { name: 'Christopher Wylie', role: 'Whistleblower', href: '/entities/individuals/christopher-wylie' },
+    ],
+  },
+  'deutsche-bank': {
+    name: 'Deutsche Bank AG',
+    ticker: 'DB',
+    industry: 'Banking / Financial Services',
+    riskLevel: 'critical',
+    description: 'Deutsche Bank is Germany\'s largest bank and one of the largest in the world. It provided over $2 billion in loans to Donald Trump when no other major bank would lend to him due to his history of defaults. The bank has paid billions in fines for money laundering, including $630 million for Russian mirror trades.',
+    founded: '1870',
+    headquarters: 'Frankfurt, Germany',
+    employees: '87,000+',
+    revenue: '€28.9 billion (2023)',
+    marketCap: '€25+ billion',
+    ceo: 'Christian Sewing',
+    website: 'https://www.db.com',
+    controversies: [
+      'Loaned Trump $2+ billion when no other bank would',
+      'FINE: $630 million for Russian mirror trades money laundering (2017)',
+      'FINE: $150 million for Epstein relationship failures (2020)',
+      'Internal compliance raised red flags on Trump loans - ignored',
+      'Trump sued the bank for $3 billion, yet they kept lending',
+      'Rosemary Vrablic (Trump banker) resigned amid scrutiny',
+      'Subpoenaed by multiple Congressional committees',
+      'Whistleblower Val Broeksmit found dead (2022)',
+    ],
+    subsidiaries: [
+      'DWS Group', 'Deutsche Bank Securities', 'DB USA Corporation',
+    ],
+    relatedInvestigations: [
+      { title: 'Deutsche Bank Investigation', slug: 'deutsche-bank', severity: 'critical' },
+      { title: 'Money Laundering Operations', slug: 'money-laundering', severity: 'critical' },
+      { title: 'Trump Organization Fraud', slug: 'trump-org-fraud', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Donald Trump', role: 'Borrower, $2B+ in loans', href: '/entities/individuals/donald-trump' },
+      { name: 'Rosemary Vrablic', role: 'Private banker for Trump, resigned', href: '/entities/individuals/rosemary-vrablic' },
+      { name: 'Val Broeksmit', role: 'Whistleblower, deceased 2022' },
+    ],
+    lobbyingSpend: '$2.3 million (US, 2023)',
+  },
+  'american-media-inc': {
+    name: 'American Media Inc. (AMI)',
+    industry: 'Publishing / Media',
+    riskLevel: 'high',
+    description: 'American Media Inc. (now A360 Media) owned the National Enquirer and ran "catch-and-kill" operations to suppress negative stories about Donald Trump. CEO David Pecker admitted to paying $150,000 to Karen McDougal and coordinating with Trump campaign to influence the 2016 election.',
+    founded: '1936',
+    headquarters: 'New York City, NY',
+    employees: '1,500+',
+    revenue: '$300+ million',
+    ceo: 'David Pecker (former CEO, testified 2024)',
+    controversies: [
+      'Catch-and-kill operation to protect Trump',
+      'Paid Karen McDougal $150,000 for story rights (never published)',
+      'Coordinated with Michael Cohen on Stormy Daniels payment',
+      'Non-prosecution agreement with SDNY for cooperation',
+      'David Pecker first witness in Trump criminal trial',
+      'Safe containing Trump stories (never published)',
+      'Threatened to release Jeff Bezos intimate photos',
+    ],
+    subsidiaries: [
+      'National Enquirer', 'Us Weekly (sold)', 'Star Magazine', 'In Touch Weekly',
+    ],
+    relatedInvestigations: [
+      { title: 'Hush Money Election Fraud', slug: 'hush-money', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'David Pecker', role: 'Former CEO, cooperating witness', href: '/entities/individuals/david-pecker' },
+      { name: 'Dylan Howard', role: 'Former Chief Content Officer', href: '/entities/individuals/dylan-howard' },
+      { name: 'Donald Trump', role: 'Beneficiary of catch-and-kill', href: '/entities/individuals/donald-trump' },
+      { name: 'Michael Cohen', role: 'Coordinated payments', href: '/entities/individuals/michael-cohen' },
+      { name: 'Karen McDougal', role: 'Paid $150K for silence', href: '/entities/individuals/karen-mcdougal' },
+    ],
+  },
+  'blackrock': {
+    name: 'BlackRock, Inc.',
+    ticker: 'BLK',
+    industry: 'Asset Management',
+    riskLevel: 'high',
+    description: 'BlackRock is the world\'s largest asset manager with over $10 trillion in assets under management. The company wields unprecedented influence over global financial markets and corporate governance.',
+    founded: '1988',
+    headquarters: 'New York City, NY',
+    employees: '19,800+',
+    revenue: '$17.9 billion (2023)',
+    marketCap: '$115+ billion',
+    ceo: 'Larry Fink',
+    website: 'https://www.blackrock.com',
+    controversies: [
+      'Outsized influence on corporate ESG policies',
+      'Aladdin system controlling $21.6 trillion in assets',
+      'Potential conflicts of interest with government advisory roles',
+      'Housing market investments and rent increases',
+      'Climate pledges vs. fossil fuel investments',
+    ],
+    subsidiaries: ['iShares', 'Aladdin', 'FutureAdvisor', 'Aperio'],
+    relatedInvestigations: [],
+    lobbyingSpend: '$4.2 million (2023)',
+    governmentContracts: 'Multiple Federal Reserve advisory contracts',
+  },
+  'trump-media': {
+    name: 'Trump Media & Technology Group Corp.',
+    ticker: 'DJT',
+    industry: 'Social Media / Technology',
+    riskLevel: 'high',
+    description: 'Trump Media & Technology Group (TMTG) operates Truth Social, a social media platform launched after Trump was banned from major platforms following January 6th. The company went public via SPAC merger in March 2024 with an initial valuation of $8 billion despite minimal revenue and massive losses. Donald Trump holds approximately 60% of shares.',
+    founded: '2021',
+    headquarters: 'Sarasota, FL',
+    employees: '36',
+    revenue: '$4.1 million (2023)',
+    marketCap: '$5+ billion (highly volatile)',
+    ceo: 'Devin Nunes',
+    website: 'https://www.tmtgcorp.com',
+    controversies: [
+      'Former CEO John Coates terminated amid SEC inquiries',
+      'SEC investigation into SPAC merger disclosures',
+      'Stock highly volatile - dropped 70%+ from peak',
+      'Company lost $58 million in 2023 on $4M revenue',
+      'Trump share lockup expired September 2024 - liquidation concerns',
+      'Mastodon licensing violation controversy',
+      'Minimal user base compared to major platforms',
+      'DWAC SPAC merger delayed by SEC concerns',
+      'Co-founders Will Wilkerson and Andy Litinsky sued Trump',
+      'Patrick Orlando (DWAC CEO) connected to Chinese investors',
+    ],
+    subsidiaries: ['Truth Social', 'TMTG+'],
+    relatedInvestigations: [
+      { title: 'Trump Organization Fraud', slug: 'trump-org-fraud', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Donald Trump', role: 'Chairman, ~60% shareholder', href: '/entities/individuals/donald-trump' },
+      { name: 'Devin Nunes', role: 'CEO (Former Congressman)', href: '/entities/individuals/devin-nunes' },
+      { name: 'Patrick Orlando', role: 'DWAC CEO, facilitated merger' },
+      { name: 'Will Wilkerson', role: 'Co-founder, whistleblower' },
+      { name: 'Andy Litinsky', role: 'Co-founder, sued Trump' },
+    ],
+    legalHistory: [
+      'SEC investigation into SPAC merger (2022-2024)',
+      'Lawsuit by co-founders seeking 8.6% stake (2024)',
+      'FINRA investigation into pre-IPO trading',
+    ],
+    financialNotes: 'Despite $58M loss on $4M revenue, market cap exceeded $8 billion at peak - driven entirely by meme stock dynamics and Trump brand loyalty. Lockup expiration allows Trump to sell shares.',
+  },
+  'kushner-companies': {
+    name: 'Kushner Companies',
+    industry: 'Real Estate Development',
+    riskLevel: 'high',
+    description: 'Kushner Companies is a real estate development firm founded by Charles Kushner (pardoned by Trump in 2020 for witness tampering and tax evasion). The company gained scrutiny for the 666 Fifth Avenue bailout by Qatar-linked investors during Jared Kushner\'s time as senior White House advisor.',
+    founded: '1985',
+    headquarters: 'New York City, NY',
+    employees: '500+',
+    revenue: 'Private - estimated $500+ million annually',
+    ceo: 'Laurent Morali (President)',
+    website: 'https://www.kushnercompanies.com',
+    controversies: [
+      '666 Fifth Avenue - $1.8B purchase became financial disaster',
+      'Brookfield (Qatar sovereign fund ties) 99-year lease bailout',
+      'Jared Kushner served in White House while family sought financing',
+      'Charles Kushner\'s 2005 conviction for tax evasion, witness tampering',
+      'Charles hired prostitute to entrap brother-in-law, sent tape to sister',
+      'Trump pardoned Charles Kushner in December 2020',
+      'Aggressive tenant practices and rent inflation',
+      'Baltimore housing code violations and poor conditions',
+      'New Jersey Attorney General campaign contribution investigation',
+      'Chinese financing discussions during transition (Anbang Insurance)',
+    ],
+    subsidiaries: ['Westminster Management', 'Kushner Real Estate Group'],
+    relatedInvestigations: [
+      { title: 'Foreign Influence Operations', slug: 'foreign-influence', severity: 'critical' },
+      { title: 'Money Laundering Networks', slug: 'money-laundering', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Jared Kushner', role: 'Former CEO, Senior Trump advisor', href: '/entities/individuals/jared-kushner' },
+      { name: 'Charles Kushner', role: 'Founder, pardoned felon', href: '/entities/individuals/charles-kushner' },
+      { name: 'Joshua Kushner', role: 'Brother, Thrive Capital founder' },
+      { name: 'Nicole Kushner Meyer', role: 'Sister, Principal' },
+      { name: 'Laurent Morali', role: 'President' },
+    ],
+    legalHistory: [
+      'Charles Kushner: 2 years federal prison for tax evasion, illegal campaign contributions, witness tampering (2005)',
+      'Trump pardon of Charles Kushner (December 2020)',
+      'New Jersey housing discrimination settlement',
+      'Baltimore tenant lawsuits for uninhabitable conditions',
+    ],
+    politicalConnections: 'Jared Kushner served as Senior Advisor to President Trump (2017-2021) while family business sought foreign financing. After leaving White House, Kushner\'s Affinity Partners received $2 billion from Saudi sovereign wealth fund.',
+  },
+  'affinity-partners': {
+    name: 'Affinity Partners',
+    industry: 'Private Equity',
+    riskLevel: 'critical',
+    description: 'Affinity Partners is Jared Kushner\'s private equity firm that received $2 billion from Saudi Arabia\'s Public Investment Fund (PIF) in 2022, shortly after Kushner left his White House role. The investment came despite PIF advisors recommending against it, citing due diligence concerns.',
+    founded: '2021',
+    headquarters: 'Miami, FL',
+    employees: '25+',
+    revenue: 'Private - estimated $25M+ in management fees',
+    ceo: 'Jared Kushner',
+    subsidiaries: [],
+    controversies: [
+      'Saudi PIF invested $2 billion despite advisors recommending against',
+      'Kushner had no prior private equity experience',
+      'Investment came months after Kushner left White House',
+      'PIF screening panel cited due diligence concerns',
+      'Qatar Investment Authority also invested',
+      'UAE invested $200 million',
+      'Congressional investigation into Saudi investment',
+      'Potential quid pro quo for MBS support during Trump admin',
+      'Kushner defended MBS after Khashoggi murder',
+      'Abraham Accords may have facilitated Gulf investments',
+    ],
+    relatedInvestigations: [
+      { title: 'Foreign Influence Operations', slug: 'foreign-influence', severity: 'critical' },
+      { title: 'Saudi Arms Deal Investigation', slug: 'saudi-arms-deal', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Jared Kushner', role: 'Founder & Managing Partner', href: '/entities/individuals/jared-kushner' },
+      { name: 'Mohammed bin Salman', role: 'PIF Chairman, funded $2B', href: '/entities/individuals/mohammed-bin-salman' },
+      { name: 'Steve Mnuchin', role: 'Also received Saudi investment', href: '/entities/individuals/steven-mnuchin' },
+    ],
+    financialNotes: 'The $2 billion Saudi investment generates approximately $25 million in annual management fees for Kushner, regardless of fund performance. Critics call this payment for services rendered during Trump administration.',
+  },
+  'fraud-guarantee': {
+    name: 'Fraud Guarantee LLC',
+    industry: 'Consulting / Insurance',
+    riskLevel: 'critical',
+    description: 'Fraud Guarantee was a company co-founded by Lev Parnas that funneled $1 million to Rudy Giuliani to fund his Ukraine investigations seeking dirt on Joe Biden. The company\'s name proved prophetic as its principals were convicted of fraud and campaign finance violations.',
+    founded: '2013',
+    headquarters: 'Boca Raton, FL (registered)',
+    employees: 'Minimal',
+    revenue: 'Minimal legitimate revenue',
+    ceo: 'Lev Parnas (Co-founder)',
+    subsidiaries: [],
+    controversies: [
+      'Paid Rudy Giuliani $500,000 in 2018 for "consulting"',
+      'Additional payments to Giuliani totaling $1 million',
+      'Funding source: Ukrainian oligarch Dmytro Firtash',
+      'Parnas and Fruman arrested at airport with one-way tickets',
+      'Foreign money funneled to Republican campaigns',
+      'Charles Gucciardo invested $500K - went to Giuliani',
+      'Company had no real product or customers',
+      'Name "Fraud Guarantee" chosen ironically',
+    ],
+    relatedInvestigations: [
+      { title: 'Ukraine Extortion Scandal', slug: 'ukraine-extortion', severity: 'critical' },
+      { title: 'Money Laundering Networks', slug: 'money-laundering', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Lev Parnas', role: 'Co-founder, convicted felon', href: '/entities/individuals/lev-parnas' },
+      { name: 'Igor Fruman', role: 'Co-founder, convicted felon', href: '/entities/individuals/igor-fruman' },
+      { name: 'Rudy Giuliani', role: 'Recipient of $1M', href: '/entities/individuals/rudy-giuliani' },
+      { name: 'Dmytro Firtash', role: 'Ukrainian oligarch, funding source' },
+    ],
+    legalHistory: [
+      'Lev Parnas: Convicted of campaign finance fraud (2021), sentenced to 20 months',
+      'Igor Fruman: Pleaded guilty to soliciting foreign donations (2021)',
+      'SDNY investigation into foreign campaign contributions',
+    ],
+  },
+  'global-energy-producers': {
+    name: 'Global Energy Producers LLC',
+    industry: 'Energy Consulting',
+    riskLevel: 'critical',
+    description: 'Global Energy Producers was used by Lev Parnas and Igor Fruman to funnel $325,000 in foreign money to the pro-Trump America First Action PAC. The company had no actual energy business and existed solely to obscure the source of illegal campaign contributions.',
+    founded: '2018',
+    headquarters: 'Delaware (shell company)',
+    employees: 'None',
+    revenue: '$0',
+    ceo: 'Shell company - no officers',
+    subsidiaries: [],
+    controversies: [
+      '$325,000 donation to America First Action PAC',
+      'Donation made same day company was formed',
+      'Foreign money from Ukrainian/Russian sources',
+      'Straw donor scheme to hide true source',
+      'Company had no employees or operations',
+      'Part of broader scheme to buy political access',
+    ],
+    relatedInvestigations: [
+      { title: 'Ukraine Extortion Scandal', slug: 'ukraine-extortion', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Lev Parnas', role: 'Operator', href: '/entities/individuals/lev-parnas' },
+      { name: 'Igor Fruman', role: 'Operator', href: '/entities/individuals/igor-fruman' },
+    ],
+  },
+  'the-lincoln-project': {
+    name: 'The Lincoln Project',
+    industry: 'Political Action Committee',
+    riskLevel: 'medium',
+    description: 'The Lincoln Project is a political action committee formed by former Republicans opposed to Trump. While successful in anti-Trump advertising, it faced scandal when co-founder John Weaver was revealed to have sent inappropriate messages to young men.',
+    founded: '2019',
+    headquarters: 'Washington, D.C.',
+    employees: '50+',
+    revenue: '$90+ million raised',
+    ceo: 'Reed Galen (Co-founder)',
+    subsidiaries: [],
+    controversies: [
+      'John Weaver sexual harassment scandal - messaging young men',
+      'Accused of prioritizing vendor payments to founders',
+      'Raised $90M+ but spending transparency questioned',
+      'Internal knowledge of Weaver allegations before public',
+      'George Conway resigned over handling of scandal',
+    ],
+    keyFigures: [
+      { name: 'George Conway', role: 'Co-founder (resigned)', href: '/entities/individuals/george-conway' },
+      { name: 'Steve Schmidt', role: 'Co-founder' },
+      { name: 'Rick Wilson', role: 'Co-founder' },
+      { name: 'John Weaver', role: 'Co-founder (disgraced)' },
+    ],
+    relatedInvestigations: [],
+  },
+  'lockheed-martin': {
+    name: 'Lockheed Martin Corporation',
+    ticker: 'LMT',
+    industry: 'Defense / Aerospace',
+    riskLevel: 'high',
+    description: 'Lockheed Martin is the worlds largest defense contractor, receiving tens of billions annually in U.S. government contracts. Its weapons, including bombs and missiles, have been documented in attacks on civilians in Yemen, including the school bus bombing that killed 40 children in 2018.',
+    founded: '1995 (merger)',
+    headquarters: 'Bethesda, Maryland',
+    employees: '116,000+',
+    revenue: '$65.4 billion (2023)',
+    marketCap: '$110+ billion',
+    ceo: 'James Taiclet',
+    website: 'https://www.lockheedmartin.com',
+    governmentContracts: '$40+ billion annually',
+    lobbyingSpend: '$12+ million annually',
+    controversies: [
+      'Yemen school bus bombing (2018) - Lockheed bomb killed 40 children',
+      'F-35 program massive cost overruns - $1.7 trillion lifetime cost',
+      'Revolving door with Pentagon - numerous executives from/to DOD',
+      'Campaign contributions to both parties, especially Armed Services members',
+      'Saudi arms sales despite war crimes documentation',
+      'Accused of inflating costs on government contracts',
+      'Environmental violations at manufacturing facilities',
+      'Settlements for false claims and bid rigging',
+    ],
+    subsidiaries: [
+      'Lockheed Martin Aeronautics',
+      'Lockheed Martin Missiles and Fire Control',
+      'Lockheed Martin Rotary and Mission Systems',
+      'Lockheed Martin Space',
+      'Sikorsky Aircraft',
+      'Skunk Works',
+    ],
+    keyFigures: [
+      { name: 'James Taiclet', role: 'Chairman, President & CEO' },
+      { name: 'Mohammed bin Salman', role: 'Major customer (Saudi Arabia)', href: '/entities/individuals/mohammed-bin-salman' },
+    ],
+    relatedInvestigations: [
+      { title: 'Saudi Arms Deal & Yemen Genocide', slug: 'saudi-arms-deal', severity: 'critical' },
+    ],
+    legalHistory: [
+      '2008: $10.5M settlement for improper gifts to government officials',
+      '2011: $2M settlement for export control violations',
+      '2019: $4.4M settlement for false claims in Army contract',
+      'Ongoing: Multiple FCPA investigations',
+    ],
+    financialNotes: 'Lockheed Martin stock rose significantly during the Trump administration as defense spending increased and arms sales to Saudi Arabia accelerated.',
+    politicalConnections: 'Defense contractors are among the largest donors to congressional campaigns. Lockheed employees and PAC have given millions to both parties, with focus on Armed Services Committee members.',
+  },
+  'renaissance-technologies': {
+    name: 'Renaissance Technologies',
+    industry: 'Hedge Fund / Finance',
+    riskLevel: 'critical',
+    description: 'Renaissance Technologies is one of the most successful hedge funds in history, founded by mathematician Jim Simons. Robert Mercer, co-CEO until 2017, used his wealth to fund right-wing media including Breitbart News and Cambridge Analytica, playing a pivotal role in Trump\'s 2016 victory.',
+    founded: '1982',
+    headquarters: 'East Setauket, New York',
+    employees: '290+',
+    revenue: '$7+ billion (estimated annual profits)',
+    ceo: 'Peter Brown',
+    controversies: [
+      'Robert Mercer funded Cambridge Analytica',
+      'Major funder of Breitbart News',
+      'Donated $25M+ to Trump/Republican causes',
+      'IRS investigation into tax avoidance schemes',
+      '$7 billion back taxes settlement with IRS',
+      'Mercer stepped down after public pressure',
+      'Funded anti-Clinton research operations',
+    ],
+    subsidiaries: [
+      'Medallion Fund',
+      'Renaissance Institutional Equities Fund',
+      'Renaissance Institutional Diversified Alpha',
+    ],
+    relatedInvestigations: [
+      { title: 'Cambridge Analytica', slug: 'cambridge-analytica', severity: 'critical' },
+      { title: 'Psychological Manipulation', slug: 'psychological-manipulation', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Robert Mercer', role: 'Former Co-CEO, major Trump donor', href: '/entities/individuals/robert-mercer' },
+      { name: 'Rebekah Mercer', role: 'Robert\'s daughter, political operative', href: '/entities/individuals/rebekah-mercer' },
+    ],
+    legalHistory: [
+      '2021: $7 billion back taxes and penalties paid to IRS',
+      'Senate investigation into tax avoidance schemes',
+    ],
+  },
+  'breitbart-news': {
+    name: 'Breitbart News Network',
+    industry: 'Media / News',
+    riskLevel: 'critical',
+    description: 'Breitbart News is a far-right news and opinion website founded by Andrew Breitbart and later chaired by Steve Bannon. Funded by the Mercer family, it became the platform for the alt-right movement and served as a propaganda arm of the Trump campaign.',
+    founded: '2007',
+    headquarters: 'Los Angeles, California',
+    employees: '100+',
+    revenue: 'Private (estimated $30-50M)',
+    ceo: 'Larry Solov',
+    website: 'https://www.breitbart.com',
+    controversies: [
+      'Platform for alt-right and white nationalism',
+      'Bannon called it "platform for the alt-right"',
+      'Funded by Mercer family',
+      'Promoted conspiracy theories',
+      'Deceptive editing of ACORN videos',
+      'Published inflammatory anti-immigrant content',
+      'Promoted election fraud claims',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Psychological Manipulation', slug: 'psychological-manipulation', severity: 'high' },
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Steve Bannon', role: 'Former Executive Chairman', href: '/entities/individuals/steve-bannon' },
+      { name: 'Robert Mercer', role: 'Investor/Funder', href: '/entities/individuals/robert-mercer' },
+      { name: 'Rebekah Mercer', role: 'Board member', href: '/entities/individuals/rebekah-mercer' },
+    ],
+  },
+  'news-corp': {
+    name: 'News Corporation',
+    ticker: 'NWS',
+    industry: 'Media Conglomerate',
+    riskLevel: 'critical',
+    description: 'News Corp is a global media conglomerate controlled by the Murdoch family. Its holdings include Fox News, The Wall Street Journal, and various newspapers worldwide. The company has been implicated in phone hacking scandals, election misinformation, and the Dominion defamation case.',
+    founded: '2013 (current form)',
+    headquarters: 'New York City, NY',
+    employees: '24,000+',
+    revenue: '$10+ billion',
+    marketCap: '$14+ billion',
+    ceo: 'Robert Thomson',
+    website: 'https://newscorp.com',
+    controversies: [
+      'UK phone hacking scandal - News of the World closed',
+      'Fox News $787.5M Dominion settlement',
+      'Climate change denial coverage',
+      'Brexit promotion in UK',
+      'Influence on Australian politics',
+      'Close coordination with Trump White House',
+    ],
+    subsidiaries: [
+      'Fox Corporation (spun off)',
+      'The Wall Street Journal',
+      'New York Post',
+      'The Times (UK)',
+      'The Sun',
+      'HarperCollins',
+      'REA Group',
+      'Move Inc.',
+    ],
+    relatedInvestigations: [
+      { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
+      { title: 'Psychological Manipulation', slug: 'psychological-manipulation', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Rupert Murdoch', role: 'Chairman Emeritus', href: '/entities/individuals/rupert-murdoch' },
+      { name: 'Lachlan Murdoch', role: 'Executive Chairman', href: '/entities/individuals/lachlan-murdoch' },
+    ],
+    legalHistory: [
+      '2011: News of the World closed amid phone hacking scandal',
+      '2023: Fox News $787.5M Dominion settlement',
+      'Multiple UK settlements for phone hacking victims',
+    ],
+  },
+  'l-brands': {
+    name: 'L Brands (Bath & Body Works)',
+    ticker: 'BBWI',
+    industry: 'Retail',
+    riskLevel: 'high',
+    description: 'L Brands, now Bath & Body Works, was the parent company of Victoria\'s Secret, founded by Les Wexner. Wexner had an unprecedented financial relationship with Jeffrey Epstein, who managed his money and received a Manhattan mansion from Wexner. The exact nature of their relationship remains unclear.',
+    founded: '1963',
+    headquarters: 'Columbus, Ohio',
+    employees: '37,000+',
+    revenue: '$7+ billion',
+    ceo: 'Gina Boswell',
+    controversies: [
+      'Les Wexner\'s relationship with Jeffrey Epstein',
+      'Epstein managed Wexner\'s finances for decades',
+      'Wexner gave Epstein NYC mansion worth $77 million',
+      'Victoria\'s Secret used as recruiting ground per victims',
+      'Power of attorney given to Epstein',
+      'Wexner claimed Epstein "misappropriated" funds',
+    ],
+    subsidiaries: [
+      'Bath & Body Works',
+      'Victoria\'s Secret (spun off 2021)',
+    ],
+    relatedInvestigations: [
+      { title: 'Epstein Network Investigation', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Les Wexner', role: 'Founder (retired)', href: '/entities/individuals/les-wexner' },
+      { name: 'Jeffrey Epstein', role: 'Former financial manager', href: '/entities/individuals/jeffrey-epstein' },
+    ],
+  },
+  'scl-group': {
+    name: 'SCL Group',
+    industry: 'Data Analytics / Defense',
+    riskLevel: 'critical',
+    description: 'SCL Group was the parent company of Cambridge Analytica, a British firm that harvested Facebook data from millions without consent for political targeting. SCL had contracts with military and intelligence agencies for psychological operations. Both companies dissolved amid scandal.',
+    founded: '1990',
+    headquarters: 'London, UK',
+    employees: 'Dissolved (formerly 100+)',
+    revenue: 'Dissolved',
+    ceo: 'Nigel Oakes (founder)',
+    controversies: [
+      'Parent company of Cambridge Analytica',
+      'Facebook data harvesting scandal',
+      'Psychological warfare operations for militaries',
+      'Brexit campaign involvement',
+      'Trump 2016 campaign data operations',
+      'Deceptive research practices',
+      'Company dissolved after scandal',
+    ],
+    subsidiaries: [
+      'Cambridge Analytica (dissolved)',
+      'SCL Elections',
+      'SCL Social',
+    ],
+    relatedInvestigations: [
+      { title: 'Cambridge Analytica', slug: 'cambridge-analytica', severity: 'critical' },
+      { title: 'Psychological Manipulation', slug: 'psychological-manipulation', severity: 'high' },
+      { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Alexander Nix', role: 'CEO Cambridge Analytica', href: '/entities/individuals/alexander-nix' },
+      { name: 'Christopher Wylie', role: 'Whistleblower', href: '/entities/individuals/christopher-wylie' },
+      { name: 'Robert Mercer', role: 'Investor', href: '/entities/individuals/robert-mercer' },
+      { name: 'Steve Bannon', role: 'Board member Cambridge Analytica', href: '/entities/individuals/steve-bannon' },
+    ],
+    legalHistory: [
+      '2018: Cambridge Analytica files for bankruptcy',
+      '2018: SCL Group dissolves',
+      '2019: Facebook $5 billion FTC settlement related to data practices',
+      'UK ICO investigation and fines',
+    ],
+  },
+  'colony-capital': {
+    name: 'Colony Capital (DigitalBridge)',
+    industry: 'Private Equity / Real Estate',
+    riskLevel: 'high',
+    description: 'Colony Capital, now rebranded as DigitalBridge, was founded by Tom Barrack, who chaired Trump\'s inaugural committee. Barrack was charged with acting as an unregistered foreign agent for the UAE but was acquitted. The inaugural committee raised a record $107 million with much going to Trump properties.',
+    founded: '1991',
+    headquarters: 'Boca Raton, Florida',
+    employees: '500+',
+    revenue: '$500+ million',
+    ceo: 'Marc Ganzi',
+    controversies: [
+      'Tom Barrack charged as foreign agent (acquitted)',
+      'Inaugural committee financial irregularities',
+      'Funneled inaugural funds to Trump properties',
+      'UAE lobbying allegations',
+      'Barrack close personal friend of Trump',
+    ],
+    subsidiaries: [
+      'DigitalBridge',
+      'DataBank',
+      'Vantage Data Centers',
+    ],
+    relatedInvestigations: [
+      { title: 'Inaugural Committee Investigation', slug: 'inaugural-committee', severity: 'high' },
+      { title: 'Bribery & Corruption', slug: 'bribery-corruption', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Tom Barrack', role: 'Founder', href: '/entities/individuals/tom-barrack' },
+    ],
+    legalHistory: [
+      '2021: Tom Barrack charged as foreign agent',
+      '2022: Barrack acquitted',
+      'DC AG lawsuit over inaugural committee nonprofit abuse',
+    ],
+  },
+  'mc2-model-management': {
+    name: 'MC2 Model Management',
+    industry: 'Modeling Agency',
+    riskLevel: 'critical',
+    description: 'MC2 Model Management was a modeling agency co-founded by Jean-Luc Brunel with financial backing from Jeffrey Epstein. According to victims and investigators, the agency served as a pipeline for recruiting young women and girls for Epstein\'s sex trafficking operation.',
+    founded: '1999',
+    headquarters: 'New York City / Miami',
+    employees: 'Unknown (defunct)',
+    revenue: 'Unknown',
+    ceo: 'Jean-Luc Brunel (deceased)',
+    controversies: [
+      'Funded by Jeffrey Epstein',
+      'Alleged recruitment for sex trafficking',
+      'Brought young models to Epstein\'s properties',
+      'Brunel accused of rape by multiple models',
+      'Scouts allegedly sent girls to Epstein',
+      'Operations in multiple countries',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Investigation', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Jean-Luc Brunel', role: 'Founder (deceased)', href: '/entities/individuals/jean-luc-brunel' },
+      { name: 'Jeffrey Epstein', role: 'Financial backer', href: '/entities/individuals/jeffrey-epstein' },
+    ],
+  },
+  'infowars': {
+    name: 'InfoWars / Free Speech Systems',
+    industry: 'Media / Conspiracy',
+    riskLevel: 'critical',
+    description: 'InfoWars is a far-right conspiracy theory website and media platform founded by Alex Jones. The company was bankrupted by nearly $1.5 billion in defamation judgments for falsely claiming the Sandy Hook shooting was staged.',
+    founded: '1999',
+    headquarters: 'Austin, Texas',
+    employees: '50+ (reduced)',
+    revenue: 'Estimated $50M+ at peak (from supplements)',
+    ceo: 'Alex Jones',
+    website: 'https://www.infowars.com',
+    controversies: [
+      '$1.5 billion Sandy Hook defamation judgments',
+      'Promoted conspiracy that Sandy Hook was staged',
+      'Spread numerous harmful conspiracy theories',
+      'Deplatformed from major social media',
+      'Bankruptcy filing',
+      'Alex Jones accused of hiding assets',
+      'Sold dubious health supplements',
+    ],
+    subsidiaries: [
+      'Free Speech Systems LLC',
+      'Prison Planet',
+    ],
+    relatedInvestigations: [
+      { title: 'Psychological Manipulation', slug: 'psychological-manipulation', severity: 'high' },
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Alex Jones', role: 'Founder & Host', href: '/entities/individuals/alex-jones' },
+      { name: 'Roger Stone', role: 'Contributor', href: '/entities/individuals/roger-stone' },
+    ],
+    legalHistory: [
+      '2022: Found liable for Sandy Hook defamation',
+      '2022: $965 million verdict (Connecticut)',
+      '2022: $45.2 million verdict (Texas)',
+      '2022: Free Speech Systems files bankruptcy',
+    ],
+  },
+  'exxonmobil': {
+    name: 'ExxonMobil',
+    ticker: 'XOM',
+    industry: 'Oil & Gas',
+    riskLevel: 'critical',
+    description: 'ExxonMobil is the largest publicly traded oil and gas company in the world. The company has been central to climate change denial efforts, with internal documents revealing Exxon scientists predicted global warming accurately in the 1970s-80s while the company publicly cast doubt on climate science. Former CEO Rex Tillerson served as Trump\'s Secretary of State.',
+    founded: '1999 (merger of Exxon and Mobil)',
+    headquarters: 'Irving, Texas',
+    employees: '62,000+',
+    revenue: '$400+ billion',
+    marketCap: '$450+ billion',
+    ceo: 'Darren Woods',
+    website: 'https://corporate.exxonmobil.com',
+    controversies: [
+      'Internal documents show early knowledge of climate change',
+      'Funded climate denial think tanks and campaigns',
+      'Exxon scientists predicted warming accurately in 1970s-80s',
+      'Public statements contradicted internal science',
+      'Valdez oil spill environmental disaster (1989)',
+      'Rex Tillerson received Russian Order of Friendship',
+      'Lobbied against Paris Climate Agreement',
+      'Sanctioned Russia projects blocked Tillerson deals',
+    ],
+    subsidiaries: [
+      'ExxonMobil Chemical',
+      'ExxonMobil Production',
+      'ExxonMobil Refining',
+      'XTO Energy',
+    ],
+    relatedInvestigations: [
+      { title: 'Climate Sabotage', slug: 'climate-sabotage', severity: 'critical' },
+      { title: 'Russia Investigation', slug: 'russia-investigation', severity: 'critical' },
+      { title: 'Environmental Corruption', slug: 'environmental-corruption', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Rex Tillerson', role: 'Former CEO, Secretary of State', href: '/entities/individuals/rex-tillerson' },
+      { name: 'Darren Woods', role: 'Current CEO' },
+    ],
+    legalHistory: [
+      '2019: New York AG lawsuit over climate deception (Exxon prevailed)',
+      '2021: California cities sue over climate fraud (ongoing)',
+      '2023: Multiple state AGs investigating climate deception',
+      '1994: Valdez spill $5 billion punitive damages (reduced to $507M)',
+    ],
+    financialNotes: 'Massive lobbying expenditures focused on weakening climate regulations and maintaining fossil fuel subsidies.',
+    politicalConnections: 'Rex Tillerson served as Secretary of State 2017-2018. Company has extensive lobbying operation and has supported candidates opposing climate action.',
+  },
+  'proud-boys': {
+    name: 'Proud Boys',
+    industry: 'Extremist Organization',
+    riskLevel: 'critical',
+    description: 'The Proud Boys is a far-right, neo-fascist militant organization founded in 2016. The group played a central role in the January 6, 2021 attack on the Capitol. Leader Enrique Tarrio and other leaders were convicted of seditious conspiracy. Trump told them to "stand back and stand by" during the 2020 debate.',
+    founded: '2016',
+    headquarters: 'Decentralized (various chapters)',
+    employees: 'Unknown (membership-based)',
+    revenue: 'Unknown',
+    ceo: 'Enrique Tarrio (imprisoned)',
+    controversies: [
+      'Central role in January 6 Capitol attack',
+      'Trump: "Stand back and stand by" (Sept 2020)',
+      'Leader Tarrio convicted of seditious conspiracy',
+      'Multiple leaders convicted of sedition',
+      'Designated terrorist organization by Canada, NZ',
+      'History of political violence',
+      'Connections to white supremacist movements',
+    ],
+    subsidiaries: [
+      'Various local chapters',
+    ],
+    relatedInvestigations: [
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+      { title: 'Proud Boys Sedition', slug: 'proud-boys-sedition', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Enrique Tarrio', role: 'Former Chairman (convicted)', href: '/entities/individuals/enrique-tarrio' },
+      { name: 'Joseph Biggs', role: 'Organizer (convicted)' },
+      { name: 'Ethan Nordean', role: 'Leader (convicted)' },
+      { name: 'Gavin McInnes', role: 'Founder' },
+    ],
+    legalHistory: [
+      '2023: Tarrio sentenced to 22 years for seditious conspiracy',
+      '2023: Multiple leaders convicted of sedition',
+      '2022: Designated terrorist organization (Canada)',
+      '2021: Multiple members charged for January 6',
+    ],
+  },
+  'oath-keepers': {
+    name: 'Oath Keepers',
+    industry: 'Extremist Organization / Militia',
+    riskLevel: 'critical',
+    description: 'The Oath Keepers is an American far-right anti-government militia founded in 2009. The organization was central to the January 6 attack, with members forming a military-style "stack" that breached the Capitol. Founder Stewart Rhodes was convicted of seditious conspiracy.',
+    founded: '2009',
+    headquarters: 'Decentralized',
+    employees: 'Unknown (claimed 30,000+ members)',
+    revenue: 'Unknown',
+    ceo: 'Stewart Rhodes (imprisoned)',
+    controversies: [
+      'Central role in January 6 attack',
+      'Founder Rhodes convicted of seditious conspiracy',
+      'Stockpiled weapons for January 6',
+      'Quick Reaction Force staged outside DC',
+      'Military-style breach of Capitol',
+      'Recruited military and law enforcement',
+    ],
+    subsidiaries: [
+      'State chapters',
+    ],
+    relatedInvestigations: [
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+      { title: 'Oath Keepers Sedition', slug: 'oath-keepers-sedition', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Stewart Rhodes', role: 'Founder (convicted)', href: '/entities/individuals/stewart-rhodes' },
+      { name: 'Kelly Meggs', role: 'Florida leader (convicted)' },
+      { name: 'Kenneth Harrelson', role: 'Member (convicted)' },
+    ],
+    legalHistory: [
+      '2023: Rhodes sentenced to 18 years for seditious conspiracy',
+      '2022: Multiple members convicted',
+      '2021: Rhodes arrested',
+    ],
+  },
+  'stop-the-steal': {
+    name: 'Stop the Steal',
+    industry: 'Political Organization / Movement',
+    riskLevel: 'critical',
+    description: 'Stop the Steal was a campaign and movement promoting false claims that the 2020 presidential election was stolen. Founded by Ali Alexander and Roger Stone, the movement organized rallies leading up to and on January 6, 2021, directly contributing to the Capitol attack.',
+    founded: '2020',
+    headquarters: 'None (movement)',
+    employees: 'N/A',
+    revenue: 'Unknown',
+    ceo: 'Ali Alexander (founder)',
+    controversies: [
+      'Promoted false election fraud claims',
+      'Organized January 6 rally',
+      'Ali Alexander: "1776 will commence again"',
+      'Coordinated with members of Congress',
+      'Direct pipeline to Capitol attack',
+      'Raised money off false claims',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+      { title: 'Fake Electors Scheme', slug: 'fake-electors', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Ali Alexander', role: 'Founder', href: '/entities/individuals/ali-alexander' },
+      { name: 'Roger Stone', role: 'Organizer', href: '/entities/individuals/roger-stone' },
+      { name: 'Alex Jones', role: 'Promoter', href: '/entities/individuals/alex-jones' },
+    ],
+    legalHistory: [
+      '2022: January 6 Committee subpoenas Alexander',
+      'Alexander cooperated with committee',
+    ],
+  },
+  'nra': {
+    name: 'National Rifle Association',
+    industry: 'Lobbying / Advocacy',
+    riskLevel: 'critical',
+    description: 'The NRA is America\'s most powerful gun rights lobbying organization. The organization was infiltrated by Russian agent Maria Butina and received suspected illegal Russian donations funneled through US persons. NRA leadership has faced massive corruption scandals.',
+    founded: '1871',
+    headquarters: 'Fairfax, Virginia',
+    employees: '800+',
+    revenue: '$300+ million (declining)',
+    ceo: 'Wayne LaPierre (resigned 2024)',
+    website: 'https://www.nra.org',
+    controversies: [
+      'Infiltrated by Russian agent Maria Butina',
+      'Suspected Russian donations via US persons',
+      'Wayne LaPierre found liable for financial misconduct',
+      'Lavish spending on executives while cutting programs',
+      'Filed bankruptcy (dismissed as bad faith)',
+      'NY AG lawsuit over financial abuse',
+      'Torshin connection to Russian government',
+    ],
+    subsidiaries: [
+      'NRA-ILA (lobbying arm)',
+      'NRA Foundation',
+      'NRA Civil Rights Defense Fund',
+    ],
+    relatedInvestigations: [
+      { title: 'NRA Russia Investigation', slug: 'nra-russia', severity: 'critical' },
+      { title: 'Russia Investigation', slug: 'russia-investigation', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Wayne LaPierre', role: 'Former CEO', href: '/entities/individuals/wayne-lapierre' },
+      { name: 'Maria Butina', role: 'Russian infiltrator', href: '/entities/individuals/maria-butina' },
+      { name: 'Alexander Torshin', role: 'Russian official connection', href: '/entities/individuals/alexander-torshin' },
+    ],
+    legalHistory: [
+      '2024: LaPierre found liable, ordered to repay $4.4M',
+      '2024: LaPierre resigns',
+      '2021: Bankruptcy filing dismissed',
+      '2020: NY AG sues to dissolve NRA',
+      '2018: Butina pleads guilty to infiltrating NRA',
+    ],
+  },
+  'alfa-bank': {
+    name: 'Alfa Bank',
+    industry: 'Banking / Finance',
+    riskLevel: 'high',
+    description: 'Alfa Bank is one of Russia\'s largest private banks. During the 2016 campaign, researchers detected suspicious DNS lookups between Trump Organization servers and Alfa Bank servers. The meaning of these connections remains disputed and under investigation.',
+    founded: '1990',
+    headquarters: 'Moscow, Russia',
+    employees: '20,000+',
+    revenue: '$2+ billion',
+    ceo: 'Vladimir Verbitsky',
+    controversies: [
+      'Suspicious server connections to Trump Organization',
+      'DNS lookups during 2016 campaign',
+      'Connections ceased after media inquiries',
+      'Owned by oligarchs with Putin connections',
+      'Subject of Durham investigation (no charges)',
+      'Researchers debated meaning of traffic',
+    ],
+    subsidiaries: [
+      'Alfa Capital',
+      'AlfaStrakhovanie',
+    ],
+    relatedInvestigations: [
+      { title: 'Alfa Bank Server Investigation', slug: 'alfa-bank', severity: 'high' },
+      { title: 'Russia Investigation', slug: 'russia-investigation', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Mikhail Fridman', role: 'Co-founder' },
+      { name: 'Petr Aven', role: 'Former Chairman' },
+    ],
+    legalHistory: [
+      'FBI investigated server connections',
+      'Durham investigation examined (no charges)',
+      '2022: Founders sanctioned over Ukraine invasion',
+    ],
+  },
+  'dominion-voting-systems': {
+    name: 'Dominion Voting Systems',
+    industry: 'Election Technology',
+    riskLevel: 'low',
+    description: 'Canadian-American election technology company that became the target of massive defamation by Trump allies who falsely claimed their voting machines were rigged. Won $787 million settlement from Fox News and continues litigation against other defendants. The conspiracy theories about Dominion were completely debunked.',
+    founded: '2002',
+    headquarters: 'Denver, Colorado',
+    employees: '300+',
+    revenue: '$100+ million',
+    ceo: 'John Poulos',
+    website: 'https://www.dominionvoting.com',
+    controversies: [
+      'Target of false election fraud claims',
+      'Machines falsely accused of switching votes',
+      'Won $787 million settlement from Fox News',
+      'Suing Rudy Giuliani ($1.3B)',
+      'Suing Mike Lindell ($1.3B)',
+      'Suing Sidney Powell ($1.3B)',
+      'Suing Newsmax, OAN, and others',
+      'All conspiracy claims debunked by audits',
+    ],
+    subsidiaries: [
+      'Dominion ImageCast',
+    ],
+    relatedInvestigations: [
+      { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'John Poulos', role: 'CEO' },
+      { name: 'Eric Coomer', role: 'Former Director (forced into hiding)' },
+    ],
+    legalHistory: [
+      '2023: $787 million Fox News settlement',
+      '2023: Giuliani found liable, owes $148 million',
+      'Ongoing: Litigation against Lindell, Powell, OAN, Newsmax',
+    ],
+  },
+  'smartmatic': {
+    name: 'Smartmatic',
+    industry: 'Election Technology',
+    riskLevel: 'low',
+    description: 'International election technology company that was falsely accused alongside Dominion of rigging the 2020 election. Filed $2.7 billion defamation suit against Fox News, which is ongoing. Smartmatic only provided technology to Los Angeles County in 2020.',
+    founded: '2000',
+    headquarters: 'London, UK / Boca Raton, Florida',
+    employees: '500+',
+    revenue: '$100+ million',
+    ceo: 'Antonio Mugica',
+    controversies: [
+      'Falsely accused of election fraud',
+      'Only provided tech to LA County in 2020',
+      'Target of Lou Dobbs, Maria Bartiromo claims',
+      '$2.7 billion lawsuit against Fox News',
+      'All claims completely debunked',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Antonio Mugica', role: 'CEO' },
+    ],
+    legalHistory: [
+      '2021: Files $2.7 billion suit against Fox News',
+      'Ongoing litigation against Fox, OAN, Newsmax',
+    ],
+  },
+  'mypillow': {
+    name: 'MyPillow Inc.',
+    industry: 'Consumer Products / Political Activism',
+    riskLevel: 'high',
+    description: 'Pillow and bedding company whose CEO Mike Lindell became one of the most prominent promoters of false 2020 election fraud claims. Lindell spent tens of millions promoting conspiracy theories. Company filed for bankruptcy amid Dominion lawsuit and retailer boycotts.',
+    founded: '2004',
+    headquarters: 'Chaska, Minnesota',
+    employees: '1,500+ (at peak)',
+    revenue: '$300+ million (at peak)',
+    ceo: 'Mike Lindell',
+    website: 'https://www.mypillow.com',
+    controversies: [
+      'CEO spent $50+ million on election conspiracies',
+      'Sued by Dominion for $1.3 billion',
+      'Dropped by major retailers',
+      'Filed for bankruptcy',
+      'CEO\'s phone seized by FBI',
+      'Promoted at Trump rallies',
+      'CEO ordered to pay $5 million to challenge winner',
+    ],
+    subsidiaries: [
+      'MyStore',
+    ],
+    relatedInvestigations: [
+      { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Mike Lindell', role: 'CEO & Founder', href: '/entities/individuals/mike-lindell' },
+    ],
+    legalHistory: [
+      '2021: Sued by Dominion for $1.3 billion',
+      '2024: Lindell ordered to pay $5 million challenge winner',
+      '2024: MyPillow files bankruptcy',
+    ],
+  },
+  'one-america-news': {
+    name: 'One America News Network (OAN)',
+    industry: 'Media / Broadcasting',
+    riskLevel: 'critical',
+    description: 'Far-right cable news network that promoted Trump\'s false election fraud claims more aggressively than Fox News. Provided platform for conspiracy theories including Dominion claims. Sued by Dominion, Smartmatic, and election workers. Dropped by major carriers.',
+    founded: '2013',
+    headquarters: 'San Diego, California',
+    employees: '150+',
+    revenue: '$36+ million',
+    ceo: 'Robert Herring Sr. (founder)',
+    controversies: [
+      'Promoted false election fraud claims',
+      'Platform for Giuliani, Powell conspiracies',
+      'Sued by Dominion and Smartmatic',
+      'Sued by Ruby Freeman and Shaye Moss',
+      'Dropped by DirecTV, Verizon',
+      'Russian propaganda allegations',
+      'Reporter Kristian Rouz worked for Kremlin outlet',
+    ],
+    subsidiaries: [
+      'AWE (A Wealth of Entertainment)',
+    ],
+    relatedInvestigations: [
+      { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Robert Herring Sr.', role: 'Owner & CEO' },
+      { name: 'Charles Herring', role: 'President' },
+    ],
+    legalHistory: [
+      '2021: Sued by Dominion',
+      '2022: Dropped by DirecTV',
+      '2023: Settled with Ruby Freeman/Shaye Moss',
+      'Ongoing Dominion, Smartmatic litigation',
+    ],
+  },
+  'truth-social': {
+    name: 'Trump Media & Technology Group (Truth Social)',
+    industry: 'Social Media / Technology',
+    riskLevel: 'high',
+    description: 'Social media company founded by Donald Trump after his bans from Twitter and Facebook. Parent company TMTG merged with Digital World Acquisition Corp via SPAC. Stock highly volatile. Platform for Trump\'s posts and election denial content. Under SEC investigation.',
+    founded: '2021',
+    headquarters: 'Sarasota, Florida',
+    employees: '50+',
+    revenue: '$4 million (2023)',
+    marketCap: 'Highly volatile ($5-10 billion)',
+    ceo: 'Devin Nunes',
+    website: 'https://truthsocial.com',
+    controversies: [
+      'Platform for election denial',
+      'Highly volatile stock',
+      'SEC investigation of SPAC merger',
+      'Minimal revenue vs market cap',
+      'Devin Nunes CEO appointment',
+      'Trump owns majority stake worth billions',
+      'Lock-up period controversies',
+    ],
+    subsidiaries: [
+      'Truth Social (app)',
+      'TMTG+',
+    ],
+    relatedInvestigations: [
+      { title: 'Securities Fraud', slug: 'securities-fraud', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Donald Trump', role: 'Chairman & Majority Owner', href: '/entities/individuals/donald-trump' },
+      { name: 'Devin Nunes', role: 'CEO', href: '/entities/individuals/devin-nunes' },
+    ],
+    legalHistory: [
+      '2022: SEC investigation of SPAC',
+      '2024: Merger completed',
+      '2024: Stock volatility concerns',
+    ],
+  },
+  'parler': {
+    name: 'Parler',
+    industry: 'Social Media',
+    riskLevel: 'high',
+    description: 'Social media platform popular with conservatives that was used to coordinate January 6 activities. Taken offline by Amazon, Google, and Apple after the Capitol attack. Later relaunched under different ownership. The platform hosted threats and planning for the insurrection.',
+    founded: '2018',
+    headquarters: 'Nashville, Tennessee',
+    employees: '30+',
+    revenue: 'Unknown',
+    ceo: 'Various (changed multiple times)',
+    controversies: [
+      'Used to coordinate January 6 attack',
+      'Hosted threats and insurrection planning',
+      'Removed by Amazon, Google, Apple',
+      'Data scraped revealing user locations',
+      'Briefly owned by Kanye West',
+      'Shut down permanently in 2023',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'John Matze', role: 'Former CEO' },
+      { name: 'Rebekah Mercer', role: 'Former Funder' },
+    ],
+    legalHistory: [
+      'January 2021: Removed from major platforms',
+      '2021: Relaunched',
+      '2023: Shut down permanently',
+    ],
+  },
+  'sinclair-broadcast-group': {
+    name: 'Sinclair Broadcast Group',
+    industry: 'Media / Broadcasting',
+    riskLevel: 'medium',
+    description: 'Largest owner of local TV stations in America, known for forcing local anchors to read conservative scripts and must-run segments favorable to Trump. The "extremely dangerous to our democracy" viral video showed anchors across the country reading identical scripts.',
+    founded: '1971',
+    headquarters: 'Hunt Valley, Maryland',
+    employees: '9,000+',
+    revenue: '$3+ billion',
+    ceo: 'Christopher Ripley',
+    website: 'https://sbgi.net',
+    controversies: [
+      'Must-run conservative segments',
+      '"Extremely dangerous to democracy" viral video',
+      'Forced scripts for local anchors',
+      'Boris Epshteyn as chief political analyst',
+      'Pro-Trump coverage requirements',
+      'Failed Tribune Media merger',
+    ],
+    subsidiaries: [
+      '193+ TV stations',
+      'Tennis Channel',
+    ],
+    relatedInvestigations: [],
+    keyFigures: [
+      { name: 'David Smith', role: 'Executive Chairman' },
+      { name: 'Boris Epshteyn', role: 'Former Chief Political Analyst', href: '/entities/individuals/boris-epshteyn' },
+    ],
+    legalHistory: [
+      '2018: Tribune merger blocked',
+      'Various FCC complaints',
+    ],
+  },
+  'crocus-group': {
+    name: 'Crocus Group',
+    industry: 'Real Estate & Development',
+    headquarters: 'Moscow, Russia',
+    founded: '1989',
+    riskLevel: 'high' as const,
+    description: 'Russian real estate and entertainment conglomerate owned by Azerbaijan-born oligarch Aras Agalarov and his pop star son Emin. The company hosted the 2013 Miss Universe pageant on behalf of Donald Trump in Moscow. At the center of allegations that Trump was offered compromising material by Russian interests.',
+    employees: 'Unknown',
+    revenue: 'Unknown',
+    ceo: 'Aras Agalarov',
+    controversies: [
+      'Hosted 2013 Miss Universe in Moscow',
+      'Emin Agalarov arranged Trump Tower Meeting',
+      'Rob Goldstone represented family to Trump',
+      'Russian government connections alleged',
+    ],
+    subsidiaries: [
+      'Crocus City Mall',
+      'Crocus Expo',
+      'Agalarov Estate',
+      'Vegas shopping centers',
+    ],
+    relatedInvestigations: [
+      { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
+      { title: 'Trump Tower Meeting', slug: 'trump-tower-meeting', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Aras Agalarov', role: 'Owner', href: '/entities/individuals/aras-agalarov' },
+      { name: 'Emin Agalarov', role: 'Executive VP, Pop Star', href: '/entities/individuals/emin-agalarov' },
+      { name: 'Ike Kaveladze', role: 'Vice President', href: '/entities/individuals/ike-kaveladze' },
+    ],
+    legalHistory: [
+      '2017: Congressional investigation',
+      'Mueller Investigation scrutiny',
+    ],
+  },
+  'liberty-strategic-capital': {
+    name: 'Liberty Strategic Capital',
+    industry: 'Private Equity',
+    headquarters: 'Washington, D.C.',
+    founded: '2021',
+    riskLevel: 'high' as const,
+    description: 'Private equity firm founded by former Treasury Secretary Steven Mnuchin after leaving the Trump administration. Has raised billions from Saudi Arabian and other Gulf sovereign wealth funds, raising questions about potential conflicts of interest and influence-peddling.',
+    employees: 'Unknown',
+    revenue: 'Unknown',
+    ceo: 'Steven Mnuchin',
+    controversies: [
+      'Founded by Trump Treasury Secretary',
+      '$2.5 billion from Saudi sovereign wealth fund',
+      'UAE investment fund investment',
+      'Kuwait Investment Authority participation',
+      'Potential conflicts of interest',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Saudi Connections', slug: 'saudi-connections', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Steven Mnuchin', role: 'Founder & CEO', href: '/entities/individuals/steven-mnuchin' },
+    ],
+    legalHistory: [
+      'Ethics concerns raised about Gulf investments',
+    ],
+  },
+  'las-vegas-sands': {
+    name: 'Las Vegas Sands Corp.',
+    ticker: 'LVS',
+    industry: 'Casino & Hospitality',
+    headquarters: 'Las Vegas, Nevada',
+    founded: '1988',
+    riskLevel: 'high' as const,
+    description: 'Casino empire founded by Sheldon Adelson, who was the largest Republican donor in American history. Adelson and his wife Miriam donated over $200 million to GOP causes including Trump campaigns. The company has faced allegations of bribery in Macau and China.',
+    employees: '50,000+',
+    revenue: '$4 billion (pre-Vegas sale)',
+    ceo: 'Robert Goldstein',
+    controversies: [
+      'Sheldon Adelson was largest GOP donor ever',
+      '$200+ million to Republican causes',
+      'Major operations in Macau, Singapore',
+      'Investigated for China bribery',
+    ],
+    subsidiaries: [
+      'The Venetian Las Vegas (sold)',
+      'Sands Macau',
+      'Marina Bay Sands (Singapore)',
+    ],
+    relatedInvestigations: [
+      { title: 'Foreign Influence', slug: 'foreign-influence', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Sheldon Adelson', role: 'Founder (deceased 2021)', href: '/entities/individuals/sheldon-adelson' },
+      { name: 'Miriam Adelson', role: 'Major Shareholder', href: '/entities/individuals/miriam-adelson' },
+    ],
+    legalHistory: [
+      '2016: $9 million SEC settlement for China bribery',
+      'DOJ investigation into FCPA violations',
+    ],
+  },
+  'founders-fund': {
+    name: 'Founders Fund',
+    industry: 'Venture Capital',
+    headquarters: 'San Francisco, California',
+    founded: '2005',
+    riskLevel: 'medium' as const,
+    description: 'Venture capital firm co-founded by Peter Thiel, PayPal founder and early Facebook investor. Thiel was a major Trump donor and advisor, speaking at the 2016 RNC. The firm invests in controversial tech companies including Palantir, which has major government surveillance contracts.',
+    employees: '50+',
+    revenue: '$11 billion AUM',
+    ceo: 'Peter Thiel (Co-Founder)',
+    controversies: [
+      'Co-founded by Peter Thiel',
+      'Early investor in Palantir, SpaceX',
+      'Thiel spoke at 2016 RNC for Trump',
+      'Major GOP/Trump donor',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Cambridge Analytica', slug: 'cambridge-analytica', severity: 'high' },
+      { title: 'Surveillance Expansion', slug: 'surveillance-expansion', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Peter Thiel', role: 'Co-Founder, Partner', href: '/entities/individuals/peter-thiel' },
+    ],
+    legalHistory: [
+      'Various Palantir privacy concerns',
+    ],
+  },
+  'bayrock-group': {
+    name: 'Bayrock Group',
+    industry: 'Real Estate Development',
+    headquarters: 'New York, New York',
+    founded: '2001',
+    riskLevel: 'critical' as const,
+    description: 'Real estate development company that partnered with Trump on multiple projects including Trump SoHo. Founded by Tevfik Arif, a former Soviet official, with Felix Sater as a managing director. Sater had ties to Russian organized crime and was a convicted felon. The company has been at the center of money laundering allegations.',
+    employees: 'Unknown',
+    revenue: 'Unknown',
+    ceo: 'Tevfik Arif',
+    controversies: [
+      'Partnered with Trump on Trump SoHo',
+      'Felix Sater had Russian mob ties',
+      'Tevfik Arif was Soviet-era official',
+      'Offices in Trump Tower',
+      'Money laundering allegations',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Money Laundering', slug: 'money-laundering', severity: 'critical' },
+      { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
+      { title: 'Trump Organization Fraud', slug: 'trump-org-fraud', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Felix Sater', role: 'Managing Director', href: '/entities/individuals/felix-sater' },
+      { name: 'Donald Trump', role: 'Business Partner', href: '/entities/individuals/donald-trump' },
+    ],
+    legalHistory: [
+      '2010: Trump SoHo fraud allegations settled',
+      'Multiple money laundering investigations',
+      'Felix Sater cooperation with FBI',
+    ],
+  },
+  'gettr': {
+    name: 'Gettr',
+    industry: 'Social Media',
+    headquarters: 'New York, New York',
+    founded: '2021',
+    riskLevel: 'medium' as const,
+    description: 'Right-wing social media platform launched by former Trump spokesman Jason Miller in 2021. Marketed as a free speech alternative to Twitter, the platform has become a haven for extremist content, misinformation, and banned users from mainstream platforms.',
+    employees: 'Unknown',
+    revenue: 'Unknown',
+    ceo: 'Jason Miller',
+    controversies: [
+      'Founded by Trump spokesman Jason Miller',
+      'Haven for banned extremists',
+      'Failed to gain mainstream traction',
+      'Platform for election misinformation',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Jason Miller', role: 'CEO & Founder', href: '/entities/individuals/jason-miller' },
+    ],
+    legalHistory: [
+      'Various content moderation concerns',
+    ],
+  },
+  'the-bulwark': {
+    name: 'The Bulwark',
+    industry: 'Media',
+    headquarters: 'Washington, D.C.',
+    founded: '2018',
+    riskLevel: 'low' as const,
+    description: 'Anti-Trump conservative media outlet founded by Bill Kristol and Charlie Sykes. Emerged from the ashes of The Weekly Standard to provide conservative criticism of Trump and the Republican Party. Features former Republican strategists and never-Trumpers.',
+    employees: '25+',
+    revenue: 'Unknown',
+    ceo: 'Sarah Longwell (Publisher)',
+    controversies: [
+      'Founded by Bill Kristol',
+      'Anti-Trump conservative outlet',
+      'Former Weekly Standard staff',
+    ],
+    subsidiaries: [
+      'Bulwark+ (subscription)',
+      'The Next Level podcast',
+    ],
+    relatedInvestigations: [],
+    keyFigures: [
+      { name: 'Bill Kristol', role: 'Editor-at-Large', href: '/entities/individuals/bill-kristol' },
+    ],
+    legalHistory: [],
+  },
+  'allied-security-operations-group': {
+    name: 'Allied Security Operations Group',
+    industry: 'Cybersecurity Consulting',
+    headquarters: 'Texas',
+    founded: '2020',
+    riskLevel: 'critical' as const,
+    description: 'Controversial cybersecurity firm that produced the debunked Antrim County, Michigan election report used to spread election fraud conspiracy theories. Led by Russell Ramsland and Phil Waldron, the firm\'s flawed analysis was cited by Trump allies in lawsuits attempting to overturn the 2020 election.',
+    employees: 'Unknown',
+    revenue: 'Unknown',
+    ceo: 'Russell Ramsland',
+    controversies: [
+      'Produced debunked Antrim County report',
+      'False claims about Dominion voting machines',
+      'Cited in election fraud lawsuits',
+      'No actual election security expertise',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Fake Electors', slug: 'fake-electors', severity: 'critical' },
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Phil Waldron', role: 'Principal', href: '/entities/individuals/phil-waldron' },
+    ],
+    legalHistory: [
+      'Report debunked by Michigan officials',
+      'Analysis rejected by courts',
+    ],
+  },
+  'lindell-management': {
+    name: 'Lindell Management LLC',
+    industry: 'Holding Company',
+    headquarters: 'Chaska, Minnesota',
+    founded: '2004',
+    riskLevel: 'high' as const,
+    description: 'Holding company for Mike Lindell\'s business interests including MyPillow. Has funded election denial efforts including Lindell\'s "Cyber Symposium" and legal challenges. Lindell has spent millions of his personal fortune promoting debunked election fraud claims.',
+    employees: 'Unknown',
+    revenue: 'Unknown',
+    ceo: 'Mike Lindell',
+    controversies: [
+      'Mike Lindell\'s holding company',
+      'Funds election denial efforts',
+      'Cyber Symposium sponsor',
+      'Millions spent on fraud claims',
+    ],
+    subsidiaries: [
+      'MyPillow',
+    ],
+    relatedInvestigations: [
+      { title: 'Fake Electors', slug: 'fake-electors', severity: 'critical' },
+      { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Mike Lindell', role: 'Owner & CEO', href: '/entities/individuals/mike-lindell' },
+    ],
+    legalHistory: [
+      '$5 million challenge never paid',
+      'Dominion lawsuit for $1.3 billion',
+      'FBI phone seizure 2022',
+    ],
+  },
+  'citizens-united': {
+    name: 'Citizens United',
+    industry: 'Political Advocacy',
+    headquarters: 'Washington, D.C.',
+    founded: '1988',
+    riskLevel: 'high' as const,
+    description: 'Conservative nonprofit organization that was the plaintiff in the landmark Citizens United v. FEC Supreme Court case that removed limits on corporate and union spending in elections. Led by David Bossie, who became Trump\'s deputy campaign manager. Produces anti-Democratic documentaries and content.',
+    employees: 'Unknown',
+    revenue: 'Unknown (nonprofit)',
+    ceo: 'David Bossie (President)',
+    controversies: [
+      'Citizens United v. FEC case (2010)',
+      'Enabled unlimited dark money in politics',
+      'David Bossie is president',
+      'Produces political documentaries',
+    ],
+    subsidiaries: [
+      'Citizens United Productions',
+      'Citizens United Foundation',
+    ],
+    relatedInvestigations: [
+      { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'David Bossie', role: 'President', href: '/entities/individuals/david-bossie' },
+    ],
+    legalHistory: [
+      '2010: Citizens United v. FEC (won, 5-4)',
+      'FEC complaints',
+    ],
+  },
+  'great-america-pac': {
+    name: 'Great America PAC',
+    industry: 'Political Action Committee',
+    headquarters: 'Washington, D.C.',
+    founded: '2016',
+    riskLevel: 'high' as const,
+    description: 'Pro-Trump Super PAC that raised tens of millions during the 2016 and 2020 elections. Led by Eric Beach with involvement from Corey Lewandowski. Has faced FEC complaints over coordination with Trump campaign and questionable spending.',
+    employees: 'Unknown',
+    revenue: '$30+ million raised',
+    ceo: 'Eric Beach (Chairman)',
+    controversies: [
+      'Major pro-Trump Super PAC',
+      'Raised $30+ million',
+      'Corey Lewandowski involvement',
+      'FEC coordination complaints',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Corey Lewandowski', role: 'Advisor', href: '/entities/individuals/corey-lewandowski' },
+      { name: 'David Bossie', role: 'Associate', href: '/entities/individuals/david-bossie' },
+    ],
+    legalHistory: [
+      'FEC coordination complaints',
+      'Spending transparency issues',
+    ],
+  },
+  'freedom-caucus': {
+    name: 'House Freedom Caucus',
+    industry: 'Congressional Caucus',
+    headquarters: 'Washington, D.C.',
+    founded: '2015',
+    riskLevel: 'high' as const,
+    description: 'Far-right Republican congressional caucus known for obstructionism and extremist positions. Members were deeply involved in efforts to overturn the 2020 election, with multiple members communicating with the White House about strategies to block certification.',
+    employees: 'N/A (Congressional)',
+    revenue: 'N/A',
+    ceo: 'Various Chairs',
+    controversies: [
+      'Far-right House caucus',
+      'Multiple members involved in January 6',
+      'White House coordination on election',
+      'Known for government shutdown threats',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+      { title: 'Fake Electors', slug: 'fake-electors', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Jim Jordan', role: 'Founding Member', href: '/entities/individuals/jim-jordan' },
+      { name: 'Scott Perry', role: 'Former Chair', href: '/entities/individuals/scott-perry' },
+      { name: 'Andy Biggs', role: 'Former Chair', href: '/entities/individuals/andy-biggs' },
+      { name: 'Marjorie Taylor Greene', role: 'Member', href: '/entities/individuals/marjorie-taylor-greene' },
+      { name: 'Lauren Boebert', role: 'Member', href: '/entities/individuals/lauren-boebert' },
+      { name: 'Paul Gosar', role: 'Member', href: '/entities/individuals/paul-gosar' },
+      { name: 'Mo Brooks', role: 'Member', href: '/entities/individuals/mo-brooks' },
+    ],
+    legalHistory: [
+      'Multiple members subpoenaed by Jan 6 Committee',
+      'Scott Perry phone seized by FBI',
+    ],
+  },
+  'conservative-partnership-institute': {
+    name: 'Conservative Partnership Institute',
+    industry: 'Political Nonprofit',
+    headquarters: 'Washington, D.C.',
+    founded: '2017',
+    riskLevel: 'high' as const,
+    description: 'Conservative nonprofit founded by Jim DeMint that became a landing spot for former Trump officials including Mark Meadows and Cleta Mitchell. The organization has been at the center of election denial efforts and hosted strategy sessions on overturning the 2020 election.',
+    employees: 'Unknown',
+    revenue: 'Unknown (nonprofit)',
+    ceo: 'Jim DeMint (Founder)',
+    controversies: [
+      'Founded by Jim DeMint',
+      'Mark Meadows joined as senior partner',
+      'Cleta Mitchell directs election integrity',
+      'Center for election denial efforts',
+    ],
+    subsidiaries: [
+      'Election Integrity Network',
+    ],
+    relatedInvestigations: [
+      { title: 'Georgia RICO', slug: 'georgia-rico', severity: 'critical' },
+      { title: 'Fake Electors', slug: 'fake-electors', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Mark Meadows', role: 'Senior Partner', href: '/entities/individuals/mark-meadows' },
+      { name: 'Cleta Mitchell', role: 'Senior Legal Fellow', href: '/entities/individuals/cleta-mitchell' },
+    ],
+    legalHistory: [
+      'Georgia investigation involvement',
+      'Election subversion scrutiny',
+    ],
+  },
+  'americas-project': {
+    name: "The America Project",
+    industry: 'Political Nonprofit',
+    headquarters: 'Sarasota, Florida',
+    founded: '2021',
+    riskLevel: 'high' as const,
+    description: 'Election denial organization founded by Patrick Byrne (former Overstock CEO) and Michael Flynn. Has funded sham election audits in Arizona and elsewhere, spreading conspiracy theories about voting machines and election fraud.',
+    employees: 'Unknown',
+    revenue: 'Unknown',
+    ceo: 'Patrick Byrne',
+    controversies: [
+      'Founded by Patrick Byrne and Michael Flynn',
+      'Funded Arizona sham audit',
+      'Spreads election conspiracy theories',
+      'Byrne funded with personal fortune',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Fake Electors', slug: 'fake-electors', severity: 'critical' },
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Patrick Byrne', role: 'Co-Founder, Funder', href: '/entities/individuals/patrick-byrne' },
+      { name: 'Michael Flynn', role: 'Co-Founder', href: '/entities/individuals/michael-flynn' },
+    ],
+    legalHistory: [
+      'Arizona audit criticism',
+      'Election interference concerns',
+    ],
+  },
+  'clearview-ai': {
+    name: 'Clearview AI',
+    industry: 'Facial Recognition Technology',
+    headquarters: 'New York City, NY',
+    founded: '2017',
+    riskLevel: 'critical' as const,
+    description: 'Clearview AI is a controversial facial recognition company that scraped billions of photos from social media to build a surveillance database. The company has been used by law enforcement agencies, ICE, and authoritarian governments, raising massive privacy and civil liberties concerns.',
+    employees: '100+',
+    revenue: '$40+ million (estimated)',
+    ceo: 'Hoan Ton-That',
+    controversies: [
+      'Scraped billions of photos without consent',
+      'Used by ICE and law enforcement',
+      'Banned in multiple countries',
+      'Privacy violations in EU, Canada, Australia',
+      'Fined billions in EU for GDPR violations',
+      'Database includes minors and vulnerable persons',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Surveillance State', slug: 'surveillance-state', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Hoan Ton-That', role: 'CEO, Co-Founder' },
+    ],
+    legalHistory: [
+      'Multiple countries banned the technology',
+      'Massive GDPR fines in EU',
+      'Class action lawsuits in US',
+    ],
+  },
+  'facebook': {
+    name: 'Facebook (now Meta Platforms)',
+    ticker: 'META',
+    industry: 'Social Media / Technology',
+    headquarters: 'Menlo Park, California',
+    founded: '2004',
+    riskLevel: 'critical' as const,
+    description: 'Facebook is the social media platform at the center of the Cambridge Analytica scandal, which harvested data from 87 million users to target voters in 2016. The platform has been repeatedly criticized for spreading election misinformation, enabling foreign interference, and causing societal harm.',
+    employees: '67,000+',
+    revenue: '$117 billion (2023)',
+    marketCap: '$1.2 trillion (2024)',
+    ceo: 'Mark Zuckerberg',
+    website: 'https://www.meta.com',
+    controversies: [
+      'Cambridge Analytica harvested 87 million users\' data',
+      'Russian interference enabled through platform',
+      'FTC $5 billion fine for privacy violations',
+      'Whistleblower exposed harm to teens',
+      'Election misinformation spread globally',
+      'Myanmar genocide enabled through platform',
+      'Antitrust investigations worldwide',
+    ],
+    subsidiaries: ['Instagram', 'WhatsApp', 'Oculus VR', 'Threads'],
+    relatedInvestigations: [
+      { title: 'Cambridge Analytica', slug: 'cambridge-analytica', severity: 'critical' },
+      { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Mark Zuckerberg', role: 'CEO, Chairman, Founder', href: '/entities/individuals/mark-zuckerberg' },
+    ],
+    legalHistory: [
+      '2019: FTC $5 billion settlement',
+      '2018: Cambridge Analytica scandal',
+      'Multiple antitrust lawsuits',
+    ],
+  },
+  'meta': {
+    name: 'Meta Platforms, Inc.',
+    ticker: 'META',
+    industry: 'Technology / Social Media',
+    headquarters: 'Menlo Park, California',
+    founded: '2021 (rebranded from Facebook)',
+    riskLevel: 'critical' as const,
+    description: 'Meta Platforms is the parent company of Facebook, Instagram, and WhatsApp. Rebranded in 2021 amid scandals, the company continues to face scrutiny over privacy violations, election misinformation, and harm to users.',
+    employees: '67,000+',
+    revenue: '$134 billion (2023)',
+    marketCap: '$1.2 trillion (2024)',
+    ceo: 'Mark Zuckerberg',
+    website: 'https://www.meta.com',
+    controversies: [
+      'Rebrand amid mounting scandals',
+      'Continued election misinformation issues',
+      'Instagram harm to teen mental health',
+      'Metaverse massive financial losses',
+      'Layoffs of 20,000+ employees',
+      'Antitrust cases ongoing',
+    ],
+    subsidiaries: ['Facebook', 'Instagram', 'WhatsApp', 'Threads', 'Reality Labs'],
+    relatedInvestigations: [
+      { title: 'Cambridge Analytica', slug: 'cambridge-analytica', severity: 'critical' },
+      { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Mark Zuckerberg', role: 'CEO, Chairman', href: '/entities/individuals/mark-zuckerberg' },
+    ],
+    legalHistory: [
+      'Multiple FTC investigations',
+      'State AG lawsuits',
+      'EU regulatory actions',
+    ],
+  },
+  'dwac': {
+    name: 'Digital World Acquisition Corp / Trump Media',
+    ticker: 'DJT',
+    industry: 'Social Media / SPAC',
+    headquarters: 'Sarasota, Florida',
+    founded: '2021',
+    riskLevel: 'high' as const,
+    description: 'DWAC is the SPAC that merged with Trump Media & Technology Group (Truth Social). The merger was delayed by SEC investigations into securities violations. Trump\'s stake is worth billions on paper but subject to lockup periods.',
+    employees: '50+ (estimated)',
+    revenue: '$4 million (2023)',
+    marketCap: '$8 billion+ (volatile)',
+    ceo: 'Devin Nunes',
+    website: 'https://www.tmtgcorp.com',
+    controversies: [
+      'SEC investigation into merger disclosures',
+      'Trump\'s stake worth billions despite company losses',
+      'Questions about early merger discussions',
+      'Stock volatility tied to Trump legal issues',
+      'Minimal revenue, massive valuation',
+      'Devin Nunes as CEO despite no tech experience',
+    ],
+    subsidiaries: ['Truth Social'],
+    relatedInvestigations: [],
+    keyFigures: [
+      { name: 'Donald Trump', role: 'Majority Shareholder', href: '/entities/individuals/donald-trump' },
+      { name: 'Devin Nunes', role: 'CEO', href: '/entities/individuals/devin-nunes' },
+    ],
+    legalHistory: [
+      'SEC investigation (ongoing)',
+      'FINRA inquiry',
+      'Short seller scrutiny',
+    ],
+  },
+  'microsoft': {
+    name: 'Microsoft Corporation',
+    ticker: 'MSFT',
+    industry: 'Technology',
+    headquarters: 'Redmond, Washington',
+    founded: '1975',
+    riskLevel: 'medium' as const,
+    description: 'Microsoft is one of the world\'s largest technology companies. The company has significant government contracts and has faced antitrust actions. Bill Gates, co-founder, had documented meetings with Jeffrey Epstein that raised questions.',
+    employees: '221,000+',
+    revenue: '$211 billion (2023)',
+    marketCap: '$3 trillion+ (2024)',
+    ceo: 'Satya Nadella',
+    website: 'https://www.microsoft.com',
+    controversies: [
+      'Bill Gates-Jeffrey Epstein meetings',
+      'Antitrust history (1990s-2000s)',
+      'Government contract conflicts',
+      'AI ethics concerns',
+      'Gaming industry consolidation',
+    ],
+    subsidiaries: ['LinkedIn', 'GitHub', 'Activision Blizzard', 'OpenAI (partnership)'],
+    relatedInvestigations: [],
+    keyFigures: [
+      { name: 'Bill Gates', role: 'Co-Founder (stepped down)', href: '/entities/individuals/bill-gates' },
+    ],
+    legalHistory: [
+      'Antitrust settlement (2001)',
+      'EU antitrust fines',
+      'Activision acquisition scrutiny',
+    ],
+    lobbyingSpend: '$10+ million annually',
+    governmentContracts: 'Major DoD, Azure cloud contracts',
+  },
+  'goldman-sachs': {
+    name: 'Goldman Sachs Group, Inc.',
+    ticker: 'GS',
+    industry: 'Investment Banking',
+    headquarters: 'New York City, NY',
+    founded: '1869',
+    riskLevel: 'high' as const,
+    description: 'Goldman Sachs is one of the world\'s largest investment banks. The firm has extensive ties to political power, with alumni including Trump Treasury Secretary Steven Mnuchin, Gary Cohn (NEC Director), and numerous government officials.',
+    employees: '45,000+',
+    revenue: '$46 billion (2023)',
+    marketCap: '$150 billion+ (2024)',
+    ceo: 'David Solomon',
+    website: 'https://www.goldmansachs.com',
+    controversies: [
+      '2008 financial crisis role',
+      '1MDB Malaysia scandal ($3B settlement)',
+      'Revolving door with government',
+      'Trump administration alumni: Mnuchin, Cohn',
+      'Market manipulation allegations',
+    ],
+    subsidiaries: ['Marcus', 'Goldman Sachs Asset Management'],
+    relatedInvestigations: [
+      { title: 'Financial Corruption', slug: 'money-laundering', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Steven Mnuchin', role: 'Former Partner, Trump Treasury Secretary', href: '/entities/individuals/steven-mnuchin' },
+    ],
+    legalHistory: [
+      '$5 billion 2008 crisis settlement',
+      '$3 billion 1MDB settlement',
+      'Multiple SEC settlements',
+    ],
+    lobbyingSpend: '$3+ million annually',
+  },
+  'jpmorgan-chase': {
+    name: 'JPMorgan Chase & Co.',
+    ticker: 'JPM',
+    industry: 'Banking / Financial Services',
+    headquarters: 'New York City, NY',
+    founded: '2000 (merger)',
+    riskLevel: 'high' as const,
+    description: 'JPMorgan Chase is the largest bank in the United States. The bank has faced massive fines for various violations and was implicated in the Jeffrey Epstein scandal, settling with victims for $290 million while being accused of enabling his crimes.',
+    employees: '300,000+',
+    revenue: '$158 billion (2023)',
+    marketCap: '$500 billion+ (2024)',
+    ceo: 'Jamie Dimon',
+    website: 'https://www.jpmorganchase.com',
+    controversies: [
+      '$290 million Epstein victim settlement',
+      'Accused of enabling Epstein for 15 years',
+      '2008 financial crisis involvement',
+      'London Whale trading scandal ($6B loss)',
+      'Bernie Madoff banking relationship',
+      'Foreign exchange manipulation',
+    ],
+    subsidiaries: ['Chase Bank', 'J.P. Morgan Securities'],
+    relatedInvestigations: [
+      { title: 'Epstein Network', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Jamie Dimon', role: 'CEO, Chairman' },
+    ],
+    legalHistory: [
+      '$290 million Epstein settlement',
+      '$13 billion 2008 crisis settlement',
+      '$920 million London Whale settlement',
+    ],
+    lobbyingSpend: '$8+ million annually',
+  },
+  'pfizer': {
+    name: 'Pfizer Inc.',
+    ticker: 'PFE',
+    industry: 'Pharmaceuticals',
+    headquarters: 'New York City, NY',
+    founded: '1849',
+    riskLevel: 'medium' as const,
+    description: 'Pfizer is one of the world\'s largest pharmaceutical companies, known for developing the first widely authorized COVID-19 vaccine with BioNTech. The company has faced criticism over pricing practices and became a target of COVID conspiracy theories.',
+    employees: '83,000+',
+    revenue: '$58 billion (2023)',
+    marketCap: '$160 billion (2024)',
+    ceo: 'Albert Bourla',
+    website: 'https://www.pfizer.com',
+    controversies: [
+      'COVID vaccine pricing criticism',
+      'Drug pricing lobbying',
+      'Opioid litigation involvement',
+      'Off-label marketing settlements',
+      'Target of COVID conspiracy theories',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'COVID Response', slug: 'covid-response', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Albert Bourla', role: 'CEO, Chairman' },
+    ],
+    legalHistory: [
+      '$2.3 billion Bextra settlement (2009)',
+      'Multiple marketing violation settlements',
+    ],
+    lobbyingSpend: '$10+ million annually',
+  },
+  'nestle': {
+    name: 'Nestlé S.A.',
+    industry: 'Food & Beverage',
+    headquarters: 'Vevey, Switzerland',
+    founded: '1866',
+    riskLevel: 'high' as const,
+    description: 'Nestlé is the world\'s largest food company. The corporation has been involved in numerous controversies including water privatization, child labor in cocoa supply chains, and aggressive marketing of infant formula in developing countries.',
+    employees: '270,000+',
+    revenue: '$100 billion (2023)',
+    marketCap: '$270 billion (2024)',
+    ceo: 'Mark Schneider',
+    website: 'https://www.nestle.com',
+    controversies: [
+      'Water privatization and extraction',
+      'Baby formula marketing in developing world',
+      'Child labor in cocoa supply chains',
+      'Plastic pollution',
+      'California water extraction during drought',
+    ],
+    subsidiaries: ['Purina', 'Gerber', 'DiGiorno', 'Poland Spring', 'San Pellegrino'],
+    relatedInvestigations: [],
+    keyFigures: [],
+    legalHistory: [
+      'Multiple class action lawsuits',
+      'Labor violations',
+    ],
+  },
+  'coca-cola': {
+    name: 'The Coca-Cola Company',
+    ticker: 'KO',
+    industry: 'Beverages',
+    headquarters: 'Atlanta, Georgia',
+    founded: '1886',
+    riskLevel: 'medium' as const,
+    description: 'Coca-Cola is the world\'s largest beverage company. The company has faced criticism for water usage in developing countries, plastic pollution, and funding misleading health research about sugar.',
+    employees: '79,000+',
+    revenue: '$46 billion (2023)',
+    marketCap: '$260 billion (2024)',
+    ceo: 'James Quincey',
+    website: 'https://www.coca-colacompany.com',
+    controversies: [
+      'Water extraction in water-scarce regions',
+      'Plastic pollution - largest plastic polluter',
+      'Funding misleading sugar research',
+      'Labor rights violations',
+      'Environmental damage in developing countries',
+    ],
+    subsidiaries: ['Sprite', 'Fanta', 'Dasani', 'Minute Maid', 'Powerade'],
+    relatedInvestigations: [],
+    keyFigures: [],
+    legalHistory: [
+      'Antitrust settlements',
+      'Labor lawsuits',
+    ],
+    lobbyingSpend: '$5+ million annually',
+  },
+  'trump-university': {
+    name: 'Trump University (defunct)',
+    industry: 'Education / Fraud',
+    headquarters: 'New York City, NY',
+    founded: '2005',
+    riskLevel: 'critical' as const,
+    description: 'Trump University was a fraudulent real estate training program that promised to teach Trump\'s real estate secrets. It was not accredited as a university, instructors were not handpicked by Trump as advertised, and it was shut down amid multiple fraud lawsuits, resulting in a $25 million settlement.',
+    employees: '0 (defunct)',
+    revenue: '$40 million (lifetime)',
+    ceo: 'Michael Sexton (President)',
+    controversies: [
+      'Not an accredited university',
+      'Instructors not handpicked by Trump (despite ads)',
+      'High-pressure sales tactics on vulnerable people',
+      'Charged up to $35,000 for worthless courses',
+      'Targeted elderly and financially desperate',
+      '$25 million fraud settlement',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Trump University Fraud', slug: 'trump-university', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Donald Trump', role: 'Founder', href: '/entities/individuals/donald-trump' },
+      { name: 'Michael Sexton', role: 'President', href: '/entities/individuals/michael-sexton' },
+    ],
+    legalHistory: [
+      '2016: $25 million settlement in fraud lawsuits',
+      'Class action lawsuits in California, New York',
+      'NY AG lawsuit',
+    ],
+  },
+  'internet-research-agency': {
+    name: 'Internet Research Agency (IRA)',
+    industry: 'Information Warfare / Disinformation',
+    headquarters: 'St. Petersburg, Russia',
+    founded: '2013',
+    riskLevel: 'critical' as const,
+    description: 'The Internet Research Agency is a Russian company known for operating social media troll farms and conducting disinformation campaigns. It was at the center of Russia\'s interference in the 2016 U.S. presidential election, creating fake American personas to spread divisive content and support Donald Trump\'s candidacy.',
+    employees: '1,000+ (peak 2016)',
+    revenue: 'State-funded (millions)',
+    ceo: 'Yevgeny Prigozhin (financier, deceased)',
+    controversies: [
+      'Massive 2016 election interference campaign',
+      'Created thousands of fake American social media accounts',
+      'Organized real-world rallies for Trump',
+      'Spread divisive content on race, immigration, gun rights',
+      'Targeted swing states with disinformation',
+      'Posed as Black Lives Matter activists to sow division',
+      'Reached 126+ million Americans on Facebook alone',
+      'Continued operations through 2020 election',
+      'Indicted by Mueller Special Counsel',
+    ],
+    subsidiaries: ['Concord Management and Consulting', 'Concord Catering'],
+    relatedInvestigations: [
+      { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
+      { title: 'Cambridge Analytica', slug: 'cambridge-analytica', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Yevgeny Prigozhin', role: 'Financier ("Putin\'s Chef")', href: '/entities/individuals/yevgeny-prigozhin' },
+      { name: 'Mikhail Bystrov', role: 'General Director' },
+      { name: 'Mikhail Burchik', role: 'Executive Director' },
+    ],
+    legalHistory: [
+      '2018: Indicted by Mueller Special Counsel (13 individuals, 3 entities)',
+      'U.S. sanctions on Prigozhin and IRA',
+      'Charges eventually dropped after Concord refused to appear',
+    ],
+    politicalConnections: 'Directly funded by oligarch Yevgeny Prigozhin, close Putin ally. Operations coordinated with GRU military intelligence.',
+  },
+  'federalist-society': {
+    name: 'The Federalist Society',
+    industry: 'Legal / Political Organization',
+    headquarters: 'Washington, D.C.',
+    founded: '1982',
+    riskLevel: 'critical' as const,
+    description: 'The Federalist Society is a conservative legal organization that has effectively captured the federal judiciary. It provided Trump with his list of Supreme Court and federal judge nominees, resulting in the appointment of 234 federal judges including 3 Supreme Court justices who overturned Roe v. Wade.',
+    employees: '100+ (staff)',
+    revenue: '$25+ million annually',
+    ceo: 'Eugene Meyer (President)',
+    website: 'https://fedsoc.org',
+    controversies: [
+      'Provided Trump\'s Supreme Court shortlist',
+      'All 6 conservative SCOTUS justices are members',
+      'Orchestrated overturning of Roe v. Wade',
+      '234 Trump federal judge appointees were members',
+      'Leonard Leo raised $1.6 billion dark money',
+      'Captured federal judiciary for a generation',
+      'Members signed onto fake elector schemes',
+      'Eastman memo authored by Fed Soc member',
+      'Dark money network funds judicial campaigns',
+    ],
+    subsidiaries: ['Federalist Society Student Chapters (200+)', 'Lawyers Chapters (90+)'],
+    relatedInvestigations: [
+      { title: 'January 6th Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+      { title: 'Fake Electors Conspiracy', slug: 'fake-electors', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Leonard Leo', role: 'Co-Chairman, Architect', href: '/entities/individuals/leonard-leo' },
+      { name: 'Eugene Meyer', role: 'President' },
+      { name: 'John Eastman', role: 'Member, Coup Memo Author', href: '/entities/individuals/john-eastman' },
+      { name: 'Clarence Thomas', role: 'Member, Supreme Court', href: '/entities/individuals/clarence-thomas' },
+      { name: 'Samuel Alito', role: 'Member, Supreme Court', href: '/entities/individuals/samuel-alito' },
+    ],
+    legalHistory: [
+      'No direct legal liability (operates through dark money)',
+      'Members involved in multiple criminal conspiracies',
+      'John Eastman disbarred for coup memo',
+    ],
+    lobbyingSpend: '$0 (officially) / $1.6 billion dark money network',
+    politicalConnections: 'Direct pipeline to Republican judicial nominations. Trump outsourced entire judicial selection process to Leonard Leo.',
+  },
+  'heritage-foundation': {
+    name: 'The Heritage Foundation',
+    industry: 'Policy / Think Tank',
+    headquarters: 'Washington, D.C.',
+    founded: '1973',
+    riskLevel: 'critical' as const,
+    description: 'The Heritage Foundation is a conservative think tank that authored Project 2025, a 920-page blueprint for dismantling the federal government. Heritage provided 66% of Trump\'s first-term policy recommendations and is planning radical restructuring of executive power for a second term.',
+    employees: '500+',
+    revenue: '$100+ million annually',
+    ceo: 'Kevin Roberts (President)',
+    website: 'https://heritage.org',
+    controversies: [
+      'Authored Project 2025 authoritarian blueprint',
+      'Plans to fire 50,000 federal workers (Schedule F)',
+      'Provided 66% of Trump policy recommendations',
+      'Climate change denial promotion',
+      'Anti-LGBTQ policy advocacy',
+      'Voter suppression support',
+      'Book banning campaigns',
+      'Dismantling DOJ independence plans',
+      'Presidential immunity expansion',
+    ],
+    subsidiaries: ['Heritage Action for America (lobbying arm)', 'Project 2025'],
+    relatedInvestigations: [
+      { title: 'January 6th Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+      { title: 'Voter Suppression', slug: 'voter-suppression', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Kevin Roberts', role: 'President' },
+      { name: 'Paul Dans', role: 'Project 2025 Director' },
+      { name: 'Spencer Chretien', role: 'Project 2025 Associate Director' },
+      { name: 'Russell Vought', role: 'Chapter Author, OMB Director', href: '/entities/individuals/russell-vought' },
+    ],
+    legalHistory: [
+      'Tax-exempt 501(c)(3) status despite political activity',
+      'Heritage Action fined for campaign finance violations',
+    ],
+    lobbyingSpend: '$2+ million annually (Heritage Action)',
+    politicalConnections: 'Trump transition team staffed by Heritage. Project 2025 written by 100+ former Trump officials.',
+  },
+  'washington-free-beacon': {
+    name: 'The Washington Free Beacon',
+    industry: 'Media / Conservative News',
+    headquarters: 'Washington, D.C.',
+    founded: '2012',
+    riskLevel: 'high' as const,
+    description: 'The Washington Free Beacon is a conservative news website funded by hedge fund billionaire Paul Singer. It gained notoriety for originally commissioning the opposition research that led to the Steele Dossier - hiring Fusion GPS in 2015 to investigate Trump before Democrats took over the project. The site serves as a platform for neoconservative foreign policy views and Republican opposition research.',
+    employees: '50+',
+    revenue: 'Nonprofit (funded by donors)',
+    ceo: 'Michael Goldfarb (Chairman)',
+    website: 'https://freebeacon.com',
+    controversies: [
+      'Originally commissioned Fusion GPS Trump research (2015)',
+      'Funded by Paul Singer vulture fund fortune',
+      'Opposition research became Steele Dossier foundation',
+      'Conservative dark money media operation',
+      'Neoconservative editorial slant',
+      'Initially anti-Trump, shifted after nomination',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
+      { title: 'Campaign Finance', slug: 'campaign-finance', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Michael Goldfarb', role: 'Chairman, Co-Founder' },
+      { name: 'Matthew Continetti', role: 'Editor-in-Chief (founding)' },
+      { name: 'Paul Singer', role: 'Primary Funder', href: '/entities/individuals/paul-singer' },
+    ],
+    legalHistory: [
+      'No major legal actions',
+      'Congressional testimony about Fusion GPS funding',
+    ],
+    lobbyingSpend: 'N/A (media organization)',
+    politicalConnections: 'Paul Singer major Republican donor. Staff includes former GOP operatives.',
+  },
+  'washington-post': {
+    name: 'The Washington Post',
+    industry: 'Media / News',
+    headquarters: 'Washington, D.C.',
+    founded: '1877',
+    riskLevel: 'medium' as const,
+    description: 'The Washington Post is one of America\'s most influential newspapers. During the Cold War, it was infiltrated by the CIA\'s Operation Mockingbird program, with publisher Philip Graham working closely with Frank Wisner to shape coverage. Today owned by Amazon founder Jeff Bezos, the paper has faced criticism for conflicts of interest regarding Amazon government contracts.',
+    employees: '2,500+',
+    revenue: '$500+ million',
+    ceo: 'Will Lewis (CEO)',
+    website: 'https://washingtonpost.com',
+    controversies: [
+      'Operation Mockingbird - CIA infiltration during Cold War',
+      'Publisher Philip Graham coordinated with CIA',
+      'Conflict of interest with Bezos Amazon contracts',
+      'Labor disputes and layoffs',
+      'Coverage influenced by ownership interests',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Operation Mockingbird', slug: 'operation-mockingbird', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Jeff Bezos', role: 'Owner', href: '/entities/individuals/jeff-bezos' },
+      { name: 'Philip Graham', role: 'Publisher (1946-1963), CIA collaborator', href: '/entities/individuals/philip-graham' },
+    ],
+    legalHistory: [],
+    politicalConnections: 'Bezos owns Amazon with $10B+ federal contracts creating potential conflicts.',
+  },
+  'corecivic': {
+    name: 'CoreCivic',
+    ticker: 'CXW',
+    industry: 'Private Prisons',
+    headquarters: 'Nashville, Tennessee',
+    founded: '1983 (as Corrections Corporation of America)',
+    riskLevel: 'critical' as const,
+    description: 'CoreCivic (formerly CCA) is the largest private prison company in America. It profits from mass incarceration, lobbies for harsher sentences, and has been implicated in human rights abuses, deaths in custody, and inadequate medical care. The company profits directly from the War on Drugs and immigration detention.',
+    employees: '12,000+',
+    revenue: '$1.9 billion (2023)',
+    marketCap: '$1.5 billion',
+    ceo: 'Damon Hininger',
+    website: 'https://corecivic.com',
+    controversies: [
+      'Profits from mass incarceration',
+      'Lobbies for mandatory minimum sentences',
+      'Deaths in custody from inadequate care',
+      'Human rights abuses documented',
+      'Runs ICE immigration detention centers',
+      'Stock incentives tied to incarceration rates',
+      'Lawsuits over sexual assault, medical neglect',
+      'Biden attempted ban on federal contracts',
+    ],
+    subsidiaries: ['TransCor America', 'CoreCivic Properties'],
+    relatedInvestigations: [
+      { title: 'War on Drugs', slug: 'war-on-drugs', severity: 'critical' },
+      { title: 'Prison Industrial Complex', slug: 'prison-industrial-complex', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Damon Hininger', role: 'CEO', href: '/entities/individuals/damon-hininger' },
+    ],
+    legalHistory: [
+      'Multiple wrongful death lawsuits',
+      'Civil rights violations',
+      'SEC investigations into lobbying disclosures',
+    ],
+    lobbyingSpend: '$2+ million annually',
+    politicalConnections: 'Major donor to tough-on-crime politicians. Benefits from policies pushed by ALEC.',
+  },
+  'google': {
+    name: 'Google LLC',
+    ticker: 'GOOGL',
+    industry: 'Technology / Advertising',
+    headquarters: 'Mountain View, California',
+    founded: '1998',
+    riskLevel: 'critical' as const,
+    description: 'Google is the world\'s dominant search engine and advertising company, collecting unprecedented amounts of user data. It collaborated with NSA surveillance programs exposed by Edward Snowden, maintains massive influence over information access, faces antitrust actions, and has been criticized for censorship and political bias.',
+    employees: '182,000+',
+    revenue: '$307 billion (2023)',
+    marketCap: '$2 trillion',
+    ceo: 'Sundar Pichai',
+    website: 'https://google.com',
+    controversies: [
+      'NSA PRISM program collaboration',
+      'Mass surveillance of users',
+      'Antitrust monopoly violations',
+      'Search manipulation allegations',
+      'Project Dragonfly censored search for China',
+      'Location tracking without consent',
+      'AI ethics concerns and firings',
+      'Tax avoidance through shell companies',
+    ],
+    subsidiaries: ['YouTube', 'Waymo', 'DeepMind', 'Fitbit', 'Nest'],
+    relatedInvestigations: [
+      { title: 'NSA Mass Surveillance', slug: 'nsa-mass-surveillance', severity: 'critical' },
+      { title: 'Big Tech Monopoly', slug: 'big-tech-monopoly', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Sundar Pichai', role: 'CEO', href: '/entities/individuals/sundar-pichai' },
+      { name: 'Larry Page', role: 'Co-Founder', href: '/entities/individuals/larry-page' },
+      { name: 'Sergey Brin', role: 'Co-Founder', href: '/entities/individuals/sergey-brin' },
+    ],
+    legalHistory: [
+      '2024: DOJ wins antitrust case - Google is illegal monopoly',
+      'EU fines totaling $10 billion+',
+      'GDPR violations',
+    ],
+    lobbyingSpend: '$15+ million annually',
+    politicalConnections: 'Revolving door with government officials. Major political donor.',
+  },
+  'att': {
+    name: 'AT&T Inc.',
+    ticker: 'T',
+    industry: 'Telecommunications',
+    headquarters: 'Dallas, Texas',
+    founded: '1983 (current form)',
+    riskLevel: 'critical' as const,
+    description: 'AT&T is America\'s largest telecommunications company by revenue. It has been a key partner in NSA warrantless surveillance programs since at least 2001, providing access to vast amounts of phone and internet communications without warrants. Snowden documents revealed the extent of this collaboration.',
+    employees: '160,000+',
+    revenue: '$122 billion (2023)',
+    marketCap: '$130 billion',
+    ceo: 'John Stankey',
+    website: 'https://att.com',
+    controversies: [
+      'NSA Room 641A - warrantless surveillance facility',
+      'Provided phone records to NSA without warrants',
+      'Internet backbone surveillance cooperation',
+      'FISA court compliance with mass surveillance',
+      'Customer privacy violations',
+      'Overcharging government contracts',
+      'Union busting',
+    ],
+    subsidiaries: ['WarnerMedia (divested)', 'DirecTV', 'Cricket Wireless'],
+    relatedInvestigations: [
+      { title: 'NSA Mass Surveillance', slug: 'nsa-mass-surveillance', severity: 'critical' },
+      { title: 'Telecommunications Privacy', slug: 'telecom-privacy', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'John Stankey', role: 'CEO', href: '/entities/individuals/john-stankey' },
+    ],
+    legalHistory: [
+      'Granted retroactive immunity for warrantless wiretapping (2008)',
+      'EFF lawsuit dismissed due to immunity',
+      'Multiple FCC fines',
+    ],
+    lobbyingSpend: '$15+ million annually',
+    politicalConnections: 'Major donor to both parties. Employs former government officials.',
+  },
+  'tiktok': {
+    name: 'TikTok (ByteDance)',
+    industry: 'Social Media',
+    headquarters: 'Culver City, CA (US) / Beijing, China',
+    founded: '2016',
+    riskLevel: 'critical' as const,
+    description: 'TikTok is a short-form video social media platform owned by Chinese company ByteDance. It has faced national security concerns over potential Chinese government access to user data, algorithmic manipulation, and censorship of content critical of China. Multiple attempts have been made to ban or force its sale.',
+    employees: '10,000+ (US)',
+    revenue: '$80+ billion (ByteDance total)',
+    ceo: 'Shou Zi Chew',
+    website: 'https://tiktok.com',
+    controversies: [
+      'Chinese government data access concerns',
+      'User data stored in China (historical)',
+      'Algorithmic manipulation of content',
+      'Censorship of Tiananmen, Tibet, Uyghur content',
+      'Addictive design targeting children',
+      'Privacy violations with minors',
+      'Project Texas data concerns',
+      'Potential ban or forced sale in US',
+    ],
+    subsidiaries: ['ByteDance (parent)', 'Musical.ly (acquired)'],
+    relatedInvestigations: [
+      { title: 'China Influence Operations', slug: 'china-influence', severity: 'critical' },
+      { title: 'Social Media Privacy', slug: 'social-media-privacy', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Shou Zi Chew', role: 'CEO', href: '/entities/individuals/shou-zi-chew' },
+      { name: 'Zhang Yiming', role: 'ByteDance Founder', href: '/entities/individuals/zhang-yiming' },
+    ],
+    legalHistory: [
+      'Multiple state bans on government devices',
+      'CFIUS investigation',
+      'FTC $5.7 million fine for COPPA violations',
+    ],
+    lobbyingSpend: '$10+ million annually (US)',
+    politicalConnections: 'Lobbying campaign against ban. Hired former US officials.',
+  },
+  'geo-group': {
+    name: 'The GEO Group, Inc.',
+    ticker: 'GEO',
+    industry: 'Private Prisons / Immigration Detention',
+    headquarters: 'Boca Raton, Florida',
+    founded: '1984',
+    riskLevel: 'critical' as const,
+    description: 'GEO Group is the second-largest private prison company in the United States, operating prisons, immigration detention facilities, and electronic monitoring. The company profits from mass incarceration, operating facilities with documented abuse, medical neglect, and deaths. GEO donated $500,000 to Trump\'s inauguration and benefited from expanded immigration enforcement.',
+    employees: '22,000+',
+    revenue: '$2.4 billion (2023)',
+    marketCap: '$2.5 billion',
+    ceo: 'George Zoley',
+    website: 'https://www.geogroup.com',
+    controversies: [
+      'Deaths in custody due to medical neglect',
+      'Sexual abuse in facilities',
+      'Forced labor - inmates paid pennies per hour',
+      'COVID-19 outbreaks with inadequate response',
+      'ICE detention facility abuses',
+      'Inadequate mental health care',
+      '$500,000 donation to Trump inauguration',
+      'Lobbying for longer sentences and more enforcement',
+      'Universities and banks divesting due to ethics concerns',
+    ],
+    subsidiaries: ['BI Incorporated (electronic monitoring)'],
+    relatedInvestigations: [
+      { title: 'Private Prison Industry', slug: 'private-prisons', severity: 'critical' },
+      { title: 'Immigration Detention', slug: 'immigration-detention', severity: 'critical' },
+      { title: 'Mass Incarceration', slug: 'mass-incarceration', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'George Zoley', role: 'Founder, Executive Chairman' },
+    ],
+    legalHistory: [
+      'Multiple wrongful death lawsuits',
+      'DOJ investigations into facility conditions',
+      'Class action lawsuits for forced labor',
+    ],
+    lobbyingSpend: '$3+ million annually',
+    politicalConnections: 'Major Republican donor. Benefits from tough-on-crime policies.',
+  },
+  'koch-industries': {
+    name: 'Koch Industries, Inc.',
+    industry: 'Conglomerate (Oil, Chemicals, Paper, Finance)',
+    headquarters: 'Wichita, Kansas',
+    founded: '1940',
+    riskLevel: 'critical' as const,
+    description: 'Koch Industries is America\'s second-largest private company ($125B revenue), owned by the Koch family. Charles and the late David Koch have spent over $1 billion funding climate change denial, fighting environmental regulations, and reshaping American politics through dark money networks. Koch Industries is one of America\'s top polluters and has paid $600 million+ in environmental fines.',
+    employees: '120,000+',
+    revenue: '$125 billion (2023)',
+    ceo: 'Charles Koch',
+    website: 'https://www.kochind.com',
+    controversies: [
+      'Climate change denial funding - hundreds of millions spent',
+      '$600 million+ in environmental fines and settlements',
+      'Funding Tea Party movement and far-right causes',
+      'Americans for Prosperity - Koch political network',
+      'Dark money flowing through foundations to influence politics',
+      'Father Fred Koch built refineries for Nazi Germany and Stalin',
+      'Fighting environmental regulations and worker safety rules',
+      'Benzene releases causing cancer clusters',
+      'Oil pipeline spills and explosions',
+      'Anti-union activities',
+    ],
+    subsidiaries: ['Georgia-Pacific', 'Molex', 'Guardian Industries', 'Flint Hills Resources', 'INVISTA'],
+    relatedInvestigations: [
+      { title: 'Climate Change Denial', slug: 'climate-denial', severity: 'critical' },
+      { title: 'Dark Money in Politics', slug: 'dark-money', severity: 'critical' },
+      { title: 'Environmental Crimes', slug: 'environmental-crimes', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Charles Koch', role: 'CEO, Chairman', href: '/entities/individuals/charles-koch' },
+    ],
+    legalHistory: [
+      '$30 million fine for 300+ oil spills (2000)',
+      '$20 million for benzene releases (2001)',
+      '$10 million EPA fine (1995)',
+      'Multiple OSHA violations for worker deaths',
+    ],
+    lobbyingSpend: '$20+ million annually (direct)',
+    politicalConnections: 'Koch network spends $400M+ per election cycle. Founded ALEC, Cato Institute, Americans for Prosperity.',
+  },
+  'palantir': {
+    name: 'Palantir Technologies Inc.',
+    ticker: 'PLTR',
+    industry: 'Data Analytics / Surveillance',
+    headquarters: 'Denver, Colorado',
+    founded: '2003',
+    riskLevel: 'critical' as const,
+    description: 'Palantir provides data analytics software to intelligence agencies, the military, and law enforcement. Co-founded by Peter Thiel with CIA funding, Palantir\'s software enables mass surveillance, predictive policing, and immigration enforcement. The company has contracts with ICE, CBP, the NSA, and militaries worldwide. Critics call it "the surveillance company."',
+    employees: '3,700+',
+    revenue: '$2.2 billion (2023)',
+    marketCap: '$45+ billion',
+    ceo: 'Alex Karp',
+    website: 'https://www.palantir.com',
+    controversies: [
+      'ICE contract enabling immigration enforcement and deportations',
+      'Predictive policing software criticized as discriminatory',
+      'CIA seed funding through In-Q-Tel',
+      'NSA and military surveillance contracts',
+      'Cambridge Analytica data connections',
+      'Workplace complaints about culture',
+      'Enabling battlefield targeting systems',
+      'Peter Thiel\'s political activities',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Surveillance State', slug: 'surveillance-state', severity: 'critical' },
+      { title: 'Immigration Enforcement Tech', slug: 'immigration-tech', severity: 'critical' },
+      { title: 'Military Industrial Complex', slug: 'military-industrial-complex', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Peter Thiel', role: 'Co-Founder, Chairman', href: '/entities/individuals/peter-thiel' },
+      { name: 'Alex Karp', role: 'CEO' },
+    ],
+    legalHistory: [
+      'DOJ discrimination investigation (2016)',
+      'Multiple protests and employee walkouts',
+    ],
+    lobbyingSpend: '$3+ million annually',
+    politicalConnections: 'Peter Thiel is major Republican donor. Contracts across administrations.',
+  },
+  'alden-global-capital': {
+    name: 'Alden Global Capital',
+    industry: 'Hedge Fund / Private Equity',
+    headquarters: 'New York City, NY',
+    founded: '2007',
+    riskLevel: 'critical' as const,
+    description: 'Alden Global Capital is a hedge fund notorious for acquiring and gutting local newspapers. Called "the destroyer of newspapers," Alden has bought over 100 newspapers including Tribune Publishing, stripped staff, sold assets, and destroyed local journalism across America.',
+    employees: 'Minimal (uses contractors)',
+    revenue: '$1+ billion (estimated)',
+    ceo: 'Heath Freeman (until 2023 death)',
+    controversies: [
+      'Systematically destroying local journalism',
+      'Cutting newsroom staff 75%+ after acquisitions',
+      'Tribune Publishing hostile takeover despite opposition',
+      'Selling newspaper real estate and keeping proceeds',
+      'Baltimore Sun, Chicago Tribune, Hartford Courant gutted',
+      'Secret ownership through offshore shell companies',
+      'Hedge fund making money destroying democracy infrastructure',
+    ],
+    subsidiaries: ['MediaNews Group', 'Tribune Publishing', 'Digital First Media'],
+    relatedInvestigations: [
+      { title: 'Media Consolidation', slug: 'media-consolidation', severity: 'critical' },
+    ],
+    keyFigures: [],
+  },
+  'american-water': {
+    name: 'American Water Works Company',
+    ticker: 'AWK',
+    industry: 'Water Utilities',
+    headquarters: 'Camden, New Jersey',
+    founded: '1886',
+    riskLevel: 'high' as const,
+    description: 'American Water is the largest publicly traded U.S. water and wastewater utility company. The company has faced criticism for rate hikes, service issues, and being part of the broader privatization of water infrastructure.',
+    employees: '6,400+',
+    revenue: '$4.3 billion (2023)',
+    marketCap: '$26 billion',
+    ceo: 'M. Susan Hardwick',
+    website: 'https://www.amwater.com',
+    controversies: [
+      'Aggressive rate increases in acquired systems',
+      'Service quality complaints',
+      'Water privatization concerns',
+      'Lead pipe replacement delays',
+      'Flint water crisis connections through state oversight',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Flint Water Crisis', slug: 'flint-water', severity: 'critical' },
+    ],
+    keyFigures: [],
+  },
+  'blackwater': {
+    name: 'Blackwater Worldwide (now Academi)',
+    industry: 'Private Military / Security',
+    headquarters: 'McLean, Virginia',
+    founded: '1997',
+    riskLevel: 'critical' as const,
+    description: 'Blackwater was a private military company founded by Erik Prince that became infamous for the 2007 Nisour Square massacre in Baghdad where contractors killed 17 Iraqi civilians. Contractors were pardoned by Trump. The company has been renamed multiple times to escape its reputation.',
+    employees: 'Varied (contractors)',
+    revenue: '$1 billion+ (at peak)',
+    ceo: 'Erik Prince (founder, left)',
+    controversies: [
+      'Nisour Square massacre - 17 civilians killed (2007)',
+      'Trump pardoned convicted Blackwater contractors',
+      'War crimes and excessive force allegations',
+      'Lack of accountability for contractor actions',
+      'Erik Prince ties to Trump, secret meetings',
+      'Proposed private army for Afghanistan',
+      'Multiple name changes to escape brand damage',
+    ],
+    subsidiaries: ['Academi', 'Constellis'],
+    relatedInvestigations: [
+      { title: 'Iraq War Crimes', slug: 'iraq-war-crimes', severity: 'critical' },
+      { title: 'Trump Pardons', slug: 'trump-pardons', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Erik Prince', role: 'Founder', href: '/entities/individuals/erik-prince' },
+    ],
+  },
+  'boeing': {
+    name: 'The Boeing Company',
+    ticker: 'BA',
+    industry: 'Aerospace / Defense',
+    headquarters: 'Arlington, Virginia',
+    founded: '1916',
+    riskLevel: 'critical' as const,
+    description: 'Boeing is a criminal enterprise masquerading as an aerospace company. The company killed 346 people in the 737 MAX crashes through knowing concealment of deadly defects. Internal documents show executives prioritized profits over safety, deceived regulators, and silenced whistleblowers. Despite criminal charges, deferred prosecution agreements, and $2.5 billion in fines, no executive has been imprisoned. Boeing continues to produce aircraft with quality defects, and whistleblowers continue to die under suspicious circumstances.',
+    employees: '170,000+',
+    revenue: '$77.8 billion (2023)',
+    marketCap: '$115 billion',
+    ceo: 'Kelly Ortberg',
+    website: 'https://www.boeing.com',
+    controversies: [
+      'LION AIR 610: 189 people killed by MCAS defect (October 29, 2018)',
+      'ETHIOPIAN 302: 157 people killed - Boeing knew and did nothing (March 10, 2019)',
+      'MCAS CONCEALMENT: Hid flight control system from pilots and regulators',
+      'DEFERRED PROSECUTION: Admitted to conspiracy to defraud the US (2021)',
+      'DPA BREACH: DOJ found Boeing violated deferred prosecution agreement (2024)',
+      'ALASKA 1282: Door plug blew off MAX 9 due to missing bolts (January 5, 2024)',
+      'WHISTLEBLOWER DEATH: John Barnett died during testimony against Boeing',
+      'REGULATORY CAPTURE: Boeing employees certified Boeing planes through FAA delegation',
+      'STOCK BUYBACKS: $43 billion in buybacks while safety suffered',
+      'CRIMINAL CHARGES: Company charged with fraud conspiracy',
+      '787 DREAMLINER DEFECTS: Ongoing quality issues reported by whistleblowers',
+      '777X DELAYS: Certification delayed by safety issues',
+      'STARLINER FAILURES: Spacecraft stranded astronauts in space',
+      'MCCONNELL DOUGLAS MERGER: Cost-cutting culture destroyed engineering heritage',
+      'QUALITY CRISIS: Spirit AeroSystems defects, factory chaos documented',
+    ],
+    subsidiaries: ['Boeing Commercial Airplanes', 'Boeing Defense, Space & Security', 'Boeing Global Services', 'Jeppesen', 'Aurora Flight Sciences', 'Insitu', 'Aviall'],
+    relatedInvestigations: [
+      { title: 'Boeing Criminal Enterprise', slug: 'boeing-criminal-enterprise', severity: 'critical' },
+      { title: 'Lion Air Flight 610', slug: 'lion-air-610', severity: 'critical' },
+      { title: 'Ethiopian Airlines 302', slug: 'ethiopian-airlines-302', severity: 'critical' },
+      { title: 'Alaska Airlines 1282', slug: 'alaska-airlines-1282', severity: 'critical' },
+      { title: 'FAA Regulatory Capture', slug: 'faa-regulatory-capture', severity: 'critical' },
+      { title: 'Whistleblower Retaliation', slug: 'boeing-whistleblower-retaliation', severity: 'critical' },
+      { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Dennis Muilenburg', role: 'Former CEO - oversaw 346 deaths', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Dave Calhoun', role: 'Former CEO - continued failures', href: '/entities/individuals/dave-calhoun' },
+      { name: 'Kelly Ortberg', role: 'Current CEO', href: '/entities/individuals/kelly-ortberg' },
+      { name: 'Jim McNerney', role: 'Former CEO - built cost-cutting culture', href: '/entities/individuals/jim-mcnerney' },
+      { name: 'Harry Stonecipher', role: 'Former CEO - McDonnell Douglas exec', href: '/entities/individuals/harry-stonecipher' },
+      { name: 'Phil Condit', role: 'Former CEO - merger architect', href: '/entities/individuals/phil-condit' },
+      { name: 'Mark Forkner', role: 'Pilot who concealed MCAS', href: '/entities/individuals/mark-forkner' },
+      { name: 'John Barnett', role: 'Whistleblower - died during testimony', href: '/entities/individuals/john-barnett' },
+      { name: 'Ed Pierson', role: 'Whistleblower - warned before Lion Air', href: '/entities/individuals/ed-pierson' },
+      { name: 'Sam Salehpour', role: 'Current whistleblower - 787 defects', href: '/entities/individuals/sam-salehpour' },
+      { name: 'Curtis Ewbank', role: 'Whistleblower - MCAS ethics complaint', href: '/entities/individuals/curtis-ewbank' },
+    ],
+    legalHistory: [
+      '2021: Criminal charge - Conspiracy to defraud the United States',
+      '2021: $2.5 billion settlement (including $500M to victims)',
+      '2024: DOJ finds Boeing breached Deferred Prosecution Agreement',
+      '2024: New criminal investigation into Alaska Airlines incident',
+      '2024: Senate hearings on safety culture',
+      '2019: Indonesian authorities blamed Boeing for Lion Air crash',
+      '2020: Ethiopian authorities blamed Boeing for ET302 crash',
+    ],
+    lobbyingSpend: '$10.8 million (2023)',
+    governmentContracts: '$25+ billion in active defense contracts',
+    financialNotes: 'Despite killing 346 people and ongoing quality crises, Boeing paid $43 billion in stock buybacks over the past decade. Executive compensation remained high through crashes.',
+    politicalConnections: 'Boeing has employed former government officials including FAA administrators. Company donates to both parties and maintains powerful lobbying presence.',
+  },
+  'spirit-aerosystems': {
+    name: 'Spirit AeroSystems Holdings',
+    ticker: 'SPR',
+    industry: 'Aerospace Manufacturing',
+    headquarters: 'Wichita, Kansas',
+    founded: '2005 (spun off from Boeing)',
+    riskLevel: 'critical' as const,
+    description: 'Spirit AeroSystems manufactures fuselages for Boeing 737 MAX, 787 Dreamliner, and other aircraft. The company was at the center of the Alaska Airlines 1282 door plug blowout - factory workers removed the plug and reinstalled it without bolts. Spirit has faced years of quality issues, and Boeing is reacquiring the company it spun off, acknowledging the failure of outsourced manufacturing.',
+    employees: '18,000+',
+    revenue: '$6.0 billion (2023)',
+    marketCap: '$3 billion',
+    ceo: 'Pat Shanahan (Interim)',
+    website: 'https://www.spiritaero.com',
+    controversies: [
+      'DOOR PLUG INCIDENT: Alaska 1282 plug installed without bolts',
+      'QUALITY FAILURES: Systemic manufacturing defects documented',
+      'BOEING RELATIONSHIP: Spun off then reacquired due to problems',
+      '737 FUSELAGE DEFECTS: Improperly drilled holes, defective parts',
+      '787 DEFECTS: Quality issues on Dreamliner components',
+      'WORKER PRESSURE: Production pressure over quality concerns',
+      'DOCUMENTATION FAILURES: Missing paperwork for critical repairs',
+      'FINANCIAL TROUBLES: Stock crashed after quality revelations',
+    ],
+    subsidiaries: ['Spirit AeroSystems Belfast', 'Spirit AeroSystems Malaysia'],
+    relatedInvestigations: [
+      { title: 'Alaska Airlines 1282', slug: 'alaska-airlines-1282', severity: 'critical' },
+      { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Tom Gentile', role: 'Former CEO', href: '/entities/individuals/tom-gentile' },
+      { name: 'Pat Shanahan', role: 'Interim CEO - former Boeing exec', href: '/entities/individuals/patrick-shanahan' },
+    ],
+    legalHistory: [
+      '2024: NTSB investigation into door plug incident',
+      '2024: FAA quality audits ordered',
+      '2024: Boeing announces reacquisition',
+      '2024: DOJ criminal investigation includes Spirit role',
+    ],
+    financialNotes: 'Stock lost 50%+ value after Alaska Airlines incident. Boeing reacquisition valued company at fraction of prior value. Quality crisis destroyed shareholder value.',
+  },
+  'cascade-investment': {
+    name: 'Cascade Investment LLC',
+    industry: 'Private Investment',
+    headquarters: 'Kirkland, Washington',
+    founded: '1995',
+    riskLevel: 'medium' as const,
+    description: 'Cascade Investment is Bill Gates\' private investment vehicle managing his $100+ billion fortune. It holds major stakes in real estate (largest private farmland owner in US), hospitality, energy, and other sectors.',
+    employees: '100+ (estimated)',
+    revenue: 'Not disclosed',
+    ceo: 'Michael Larson',
+    controversies: [
+      'Largest private farmland owner in America',
+      'Land consolidation concerns',
+      'Opaque investment activities',
+      'Jeffrey Epstein connections to Gates',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Jeffrey Epstein Network', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Bill Gates', role: 'Owner', href: '/entities/individuals/bill-gates' },
+    ],
+  },
+  'citadel': {
+    name: 'Citadel LLC',
+    industry: 'Hedge Fund / Market Making',
+    headquarters: 'Miami, Florida',
+    founded: '1990',
+    riskLevel: 'high' as const,
+    description: 'Citadel is a multinational hedge fund and market maker founded by Ken Griffin. The company faced scrutiny during the GameStop trading halt controversy and has been criticized for market manipulation through payment for order flow and high-frequency trading.',
+    employees: '2,600+',
+    revenue: '$8+ billion (estimated)',
+    ceo: 'Ken Griffin',
+    controversies: [
+      'GameStop/meme stock trading halt controversy',
+      'Payment for order flow concerns',
+      'High-frequency trading advantages',
+      'Market maker conflicts of interest',
+      'Ken Griffin massive political donations',
+      'Robinhood halt coordination allegations',
+    ],
+    subsidiaries: ['Citadel Securities'],
+    relatedInvestigations: [
+      { title: 'GameStop Trading Halt', slug: 'gamestop-halt', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Ken Griffin', role: 'Founder, CEO', href: '/entities/individuals/ken-griffin' },
+    ],
+    lobbyingSpend: '$5+ million annually',
+    politicalConnections: 'Ken Griffin is top Republican donor, gave $100M+ to candidates.',
+  },
+  'dominion': {
+    name: 'Dominion Energy Inc.',
+    ticker: 'D',
+    industry: 'Energy / Utilities',
+    headquarters: 'Richmond, Virginia',
+    founded: '1983',
+    riskLevel: 'high' as const,
+    description: 'Dominion Energy is a major utility company serving Virginia and the Carolinas. Note: This is distinct from Dominion Voting Systems. Dominion Energy has faced environmental and rate controversies.',
+    employees: '17,000+',
+    revenue: '$14.4 billion (2023)',
+    marketCap: '$45 billion',
+    ceo: 'Robert Blue',
+    website: 'https://www.dominionenergy.com',
+    controversies: [
+      'Coal ash pollution cleanup costs passed to ratepayers',
+      'Atlantic Coast Pipeline cancellation after controversy',
+      'Rate increase requests',
+      'Nuclear plant cost overruns',
+      'Political influence in Virginia',
+    ],
+    subsidiaries: ['Virginia Power'],
+    relatedInvestigations: [
+      { title: 'Environmental Crimes', slug: 'environmental-crimes', severity: 'high' },
+    ],
+    keyFigures: [],
+    lobbyingSpend: '$3+ million annually',
+  },
+  'dow-chemical': {
+    name: 'Dow Inc.',
+    ticker: 'DOW',
+    industry: 'Chemicals / Materials',
+    headquarters: 'Midland, Michigan',
+    founded: '1897',
+    riskLevel: 'critical' as const,
+    description: 'Dow is a major chemical company with a history of environmental disasters including Agent Orange production, Bhopal disaster (through Union Carbide acquisition), and widespread toxic contamination. The company has paid billions in settlements while continuing operations.',
+    employees: '35,900+',
+    revenue: '$44.6 billion (2023)',
+    marketCap: '$35 billion',
+    ceo: 'Jim Fitterling',
+    website: 'https://www.dow.com',
+    controversies: [
+      'Agent Orange production for Vietnam War',
+      'Bhopal disaster liability through Union Carbide',
+      'Dioxin contamination in Midland, Michigan',
+      'Silicone breast implant lawsuits',
+      'PFAS forever chemical pollution',
+      'Superfund site contamination',
+      'Lobbying against environmental regulations',
+    ],
+    subsidiaries: ['Union Carbide (acquired)', 'Dow AgroSciences'],
+    relatedInvestigations: [
+      { title: 'Vietnam War Crimes', slug: 'vietnam-crimes', severity: 'critical' },
+      { title: 'Environmental Crimes', slug: 'environmental-crimes', severity: 'critical' },
+    ],
+    keyFigures: [],
+    lobbyingSpend: '$8+ million annually',
+  },
+  'duke-energy': {
+    name: 'Duke Energy Corporation',
+    ticker: 'DUK',
+    industry: 'Energy / Utilities',
+    headquarters: 'Charlotte, North Carolina',
+    founded: '1904',
+    riskLevel: 'high' as const,
+    description: 'Duke Energy is one of America\'s largest electric utilities. The company caused massive coal ash spills including the 2014 Dan River spill and has faced criminal charges for environmental violations.',
+    employees: '27,600+',
+    revenue: '$29.1 billion (2023)',
+    marketCap: '$75 billion',
+    ceo: 'Lynn Good',
+    website: 'https://www.duke-energy.com',
+    controversies: [
+      'Dan River coal ash spill (2014) - criminal conviction',
+      'Coal ash lagoon contamination across Carolinas',
+      '$102 million criminal fine',
+      'Passing cleanup costs to ratepayers',
+      'Climate change denial funding',
+      'Rate increases for fossil fuel investments',
+    ],
+    subsidiaries: ['Duke Energy Progress', 'Duke Energy Carolinas'],
+    relatedInvestigations: [
+      { title: 'Environmental Crimes', slug: 'environmental-crimes', severity: 'critical' },
+    ],
+    keyFigures: [],
+    lobbyingSpend: '$5+ million annually',
+  },
+  'elliott-management': {
+    name: 'Elliott Management Corporation',
+    industry: 'Hedge Fund / Activist Investor',
+    headquarters: 'West Palm Beach, Florida',
+    founded: '1977',
+    riskLevel: 'high' as const,
+    description: 'Elliott Management is one of the largest activist hedge funds, known for aggressive tactics including suing sovereign nations, forcing corporate restructurings, and extracting value. Founded by Paul Singer, a major Republican donor.',
+    employees: '500+',
+    revenue: '$60+ billion AUM',
+    ceo: 'Paul Singer',
+    controversies: [
+      'Sued Argentina over defaulted debt, seized naval vessel',
+      'Vulture fund tactics on developing nations',
+      'Aggressive activist campaigns destroying companies',
+      'Paul Singer major Republican donor',
+      'Labor union opposition',
+      'Housing crisis profiteering',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Vulture Capitalism', slug: 'vulture-capitalism', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Paul Singer', role: 'Founder', href: '/entities/individuals/paul-singer' },
+    ],
+    politicalConnections: 'Paul Singer is top Republican donor, funded opposition research on Trump before becoming supporter.',
+  },
+  'energy-transfer': {
+    name: 'Energy Transfer LP',
+    ticker: 'ET',
+    industry: 'Oil & Gas Pipelines',
+    headquarters: 'Dallas, Texas',
+    founded: '1996',
+    riskLevel: 'critical' as const,
+    description: 'Energy Transfer operates the Dakota Access Pipeline that sparked Standing Rock protests. The company has a history of pipeline spills, environmental violations, and aggressive tactics against protestors.',
+    employees: '12,500+',
+    revenue: '$89.9 billion (2023)',
+    marketCap: '$55 billion',
+    ceo: 'Tom Long',
+    website: 'https://www.energytransfer.com',
+    controversies: [
+      'Dakota Access Pipeline through indigenous land',
+      'Standing Rock water protector arrests and violence',
+      'Multiple pipeline spills and leaks',
+      'Environmental violations',
+      'TigerSwan security firm deployment against protestors',
+      'Kelcy Warren major Trump donor',
+    ],
+    subsidiaries: ['Sunoco', 'Dakota Access LLC'],
+    relatedInvestigations: [
+      { title: 'Environmental Crimes', slug: 'environmental-crimes', severity: 'critical' },
+      { title: 'Standing Rock', slug: 'standing-rock', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Kelcy Warren', role: 'Executive Chairman', href: '/entities/individuals/kelcy-warren' },
+    ],
+  },
+  'fox-corporation': {
+    name: 'Fox Corporation',
+    ticker: 'FOXA',
+    industry: 'Media / Entertainment',
+    headquarters: 'New York City, NY',
+    founded: '2019',
+    riskLevel: 'critical' as const,
+    description: 'Fox Corporation is the parent company of Fox News, Fox Sports, and Fox Television Stations. Spun off from 21st Century Fox after Disney acquisition. The company paid $787.5 million to Dominion over election lies.',
+    employees: '9,000+',
+    revenue: '$14.9 billion (2023)',
+    marketCap: '$21 billion',
+    ceo: 'Lachlan Murdoch',
+    website: 'https://www.foxcorporation.com',
+    controversies: [
+      '$787.5 million Dominion settlement',
+      'Election lies broadcast knowingly',
+      'Sexual harassment culture under Roger Ailes',
+      'Ongoing Smartmatic lawsuit',
+      'January 6 conspiracy promotion',
+      'Murdoch family control',
+    ],
+    subsidiaries: ['Fox News', 'Fox Business', 'Fox Sports', 'Tubi'],
+    relatedInvestigations: [
+      { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Rupert Murdoch', role: 'Chairman Emeritus', href: '/entities/individuals/rupert-murdoch' },
+      { name: 'Lachlan Murdoch', role: 'CEO', href: '/entities/individuals/lachlan-murdoch' },
+    ],
+  },
+  'free-speech-systems': {
+    name: 'Free Speech Systems LLC',
+    industry: 'Media / Conspiracy',
+    headquarters: 'Austin, Texas',
+    founded: '2007',
+    riskLevel: 'critical' as const,
+    description: 'Free Speech Systems is Alex Jones\' company that operates Infowars. The company was found liable for nearly $1.5 billion in damages to Sandy Hook families for spreading lies that the massacre was a hoax.',
+    employees: '50+ (estimated)',
+    revenue: '$50-80 million annually (at peak)',
+    ceo: 'Alex Jones',
+    controversies: [
+      '$1.5 billion judgment to Sandy Hook families',
+      'Sandy Hook massacre denial and harassment',
+      'Conspiracy theories causing real-world harm',
+      'Bankruptcy filing to avoid judgments',
+      'Selling supplements with false health claims',
+      'Deplatformed from major social media',
+    ],
+    subsidiaries: ['Infowars'],
+    relatedInvestigations: [
+      { title: 'Media Manipulation', slug: 'media-manipulation', severity: 'critical' },
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Alex Jones', role: 'Owner', href: '/entities/individuals/alex-jones' },
+    ],
+  },
+  'halliburton': {
+    name: 'Halliburton Company',
+    ticker: 'HAL',
+    industry: 'Oil Field Services / Defense',
+    headquarters: 'Houston, Texas',
+    founded: '1919',
+    riskLevel: 'critical' as const,
+    description: 'Halliburton is an oil field services and defense contractor that profited massively from Iraq War contracts awarded without competitive bidding while Dick Cheney was Vice President and former CEO. The company also contributed to the BP Deepwater Horizon disaster.',
+    employees: '45,000+',
+    revenue: '$23.0 billion (2023)',
+    marketCap: '$30 billion',
+    ceo: 'Jeff Miller',
+    website: 'https://www.halliburton.com',
+    controversies: [
+      'No-bid Iraq War contracts worth billions',
+      'Dick Cheney conflict of interest as VP',
+      'KBR subsidiary overcharging government',
+      'Deepwater Horizon cement failure',
+      'Bribery scandals in Nigeria and elsewhere',
+      'Destroying evidence in Deepwater Horizon case',
+      'Iran sanctions violations',
+    ],
+    subsidiaries: ['KBR (formerly)'],
+    relatedInvestigations: [
+      { title: 'Iraq War', slug: 'iraq-war', severity: 'critical' },
+      { title: 'Iraq War Crimes', slug: 'iraq-war-crimes', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Dick Cheney', role: 'Former CEO (1995-2000)', href: '/entities/individuals/dick-cheney' },
+    ],
+    governmentContracts: '$40+ billion in Iraq War contracts',
+  },
+  'jeppesen-dataplan': {
+    name: 'Jeppesen Dataplan (Boeing subsidiary)',
+    industry: 'Aviation Services',
+    headquarters: 'Englewood, Colorado',
+    founded: '1934',
+    riskLevel: 'high' as const,
+    description: 'Jeppesen, a Boeing subsidiary, provided flight planning services for CIA extraordinary rendition flights that transported detainees to black sites for torture. The ACLU sued Jeppesen for complicity in torture.',
+    employees: '4,500+',
+    revenue: 'Part of Boeing',
+    ceo: 'Part of Boeing Digital Solutions',
+    website: 'https://www.jeppesen.com',
+    controversies: [
+      'Provided flight planning for CIA torture flights',
+      'ACLU lawsuit for rendition complicity',
+      'Case dismissed on state secrets grounds',
+      'Enabled transport to black sites',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
+      { title: 'CIA Assassinations', slug: 'cia-assassinations', severity: 'critical' },
+    ],
+    keyFigures: [],
+  },
+  'murray-energy': {
+    name: 'Murray Energy Corporation',
+    industry: 'Coal Mining',
+    headquarters: 'St. Clairsville, Ohio',
+    founded: '1988',
+    riskLevel: 'critical' as const,
+    description: 'Murray Energy was America\'s largest private coal company before bankruptcy. CEO Robert Murray was a major Trump donor who received favorable regulatory treatment. The company had numerous safety violations and the Crandall Canyon mine disaster killed 6 miners.',
+    employees: '0 (bankrupt)',
+    revenue: '$0 (bankrupt 2019)',
+    ceo: 'Robert Murray (deceased 2020)',
+    controversies: [
+      'Crandall Canyon mine disaster - 6 miners killed',
+      'Massive safety violations',
+      'Robert Murray Trump donor, got EPA rollbacks',
+      'Bankruptcy leaving worker pensions unfunded',
+      'Black lung disease among miners',
+      'Environmental destruction',
+      'Climate denial lobbying',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Climate Denial', slug: 'climate-denial', severity: 'critical' },
+      { title: 'Environmental Crimes', slug: 'environmental-crimes', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Robert Murray', role: 'Former CEO (deceased)' },
+    ],
+  },
+  'newsmax': {
+    name: 'Newsmax Media, Inc.',
+    industry: 'Media / News',
+    headquarters: 'Boca Raton, Florida',
+    founded: '1998',
+    riskLevel: 'critical' as const,
+    description: 'Newsmax is a far-right news network that spread election fraud lies even more aggressively than Fox News. The company faces a $1.6 billion defamation lawsuit from Smartmatic over 2020 election coverage.',
+    employees: '300+',
+    revenue: '$200+ million (estimated)',
+    ceo: 'Christopher Ruddy',
+    website: 'https://www.newsmax.com',
+    controversies: [
+      'Smartmatic $1.6 billion defamation lawsuit',
+      'Spreading election fraud conspiracy theories',
+      'Even more extreme than Fox News on lies',
+      'Promoting Trump election denialism',
+      'COVID misinformation',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Election Denial', slug: 'election-denial', severity: 'critical' },
+      { title: 'Media Manipulation', slug: 'media-manipulation', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Chris Ruddy', role: 'CEO', href: '/entities/individuals/chris-ruddy' },
+    ],
+  },
+  'nexus-holdings': {
+    name: 'Nexus Holdings (Various)',
+    industry: 'Investment / Holdings',
+    headquarters: 'Various',
+    founded: 'Various',
+    riskLevel: 'medium' as const,
+    description: 'Nexus Holdings refers to various holding companies used in complex ownership structures. These entities often obscure beneficial ownership and facilitate tax avoidance or money laundering.',
+    employees: 'Minimal',
+    revenue: 'Not disclosed',
+    ceo: 'Various',
+    controversies: [
+      'Shell company structures for opacity',
+      'Tax avoidance schemes',
+      'Obscuring beneficial ownership',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Money Laundering', slug: 'money-laundering', severity: 'critical' },
+    ],
+    keyFigures: [],
+  },
+  'northrop-grumman': {
+    name: 'Northrop Grumman Corporation',
+    ticker: 'NOC',
+    industry: 'Defense / Aerospace',
+    headquarters: 'Falls Church, Virginia',
+    founded: '1994 (merger)',
+    riskLevel: 'high' as const,
+    description: 'Northrop Grumman is a major defense contractor building bombers, drones, and surveillance systems. The company is part of the military-industrial complex profiting from endless war.',
+    employees: '100,000+',
+    revenue: '$39.3 billion (2023)',
+    marketCap: '$70 billion',
+    ceo: 'Kathy Warden',
+    website: 'https://www.northropgrumman.com',
+    controversies: [
+      'B-21 bomber cost overruns',
+      'Drone warfare systems',
+      'Surveillance technology',
+      'Revolving door with Pentagon',
+      'Lobbying for military spending',
+      'Global Hawk drone issues',
+    ],
+    subsidiaries: ['Orbital ATK'],
+    relatedInvestigations: [
+      { title: 'Drone Assassinations', slug: 'drone-assassinations', severity: 'critical' },
+      { title: 'Military Industrial Complex', slug: 'military-industrial-complex', severity: 'high' },
+    ],
+    keyFigures: [],
+    lobbyingSpend: '$13+ million annually',
+    governmentContracts: '$12+ billion annually',
+  },
+  'pepsico': {
+    name: 'PepsiCo, Inc.',
+    ticker: 'PEP',
+    industry: 'Food & Beverage',
+    headquarters: 'Purchase, New York',
+    founded: '1965',
+    riskLevel: 'medium' as const,
+    description: 'PepsiCo is a global food and beverage company. While less controversial than some corporations, it has faced criticism for health impacts of sugary products, plastic pollution, and water usage.',
+    employees: '315,000+',
+    revenue: '$91.5 billion (2023)',
+    marketCap: '$230 billion',
+    ceo: 'Ramon Laguarta',
+    website: 'https://www.pepsico.com',
+    controversies: [
+      'Sugary drink health impacts',
+      'Plastic pollution',
+      'Water usage in drought areas',
+      'Marketing to children',
+      'Palm oil sourcing concerns',
+    ],
+    subsidiaries: ['Frito-Lay', 'Quaker', 'Gatorade', 'Tropicana'],
+    relatedInvestigations: [
+      { title: 'Social Media Harms', slug: 'social-media-harms', severity: 'high' },
+    ],
+    keyFigures: [],
+    lobbyingSpend: '$4+ million annually',
+  },
+  'purdue-pharma': {
+    name: 'Purdue Pharma L.P.',
+    industry: 'Pharmaceuticals',
+    headquarters: 'Stamford, Connecticut',
+    founded: '1892',
+    riskLevel: 'critical' as const,
+    description: 'Purdue Pharma, owned by the Sackler family, manufactured OxyContin and aggressively marketed it while knowing its addiction risks. The company fueled the opioid epidemic that has killed 500,000+ Americans. Purdue filed bankruptcy and the Sacklers paid $6 billion while admitting no wrongdoing.',
+    employees: '0 (dissolved)',
+    revenue: '$0 (dissolved)',
+    ceo: 'N/A (dissolved)',
+    controversies: [
+      'Fueling opioid epidemic - 500,000+ deaths',
+      'Knowing addiction risks, marketing aggressively anyway',
+      'Bribing doctors to prescribe',
+      '"Astroturfing" pain patient groups',
+      'Sackler family extracted billions before bankruptcy',
+      'Pleaded guilty to federal crimes twice',
+      'Bankruptcy to shield Sacklers from suits',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Opioid Epidemic', slug: 'opioid-epidemic', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Richard Sackler', role: 'Former President', href: '/entities/individuals/richard-sackler' },
+      { name: 'Sackler Family', role: 'Owners', href: '/entities/individuals/sackler-family' },
+    ],
+    legalHistory: [
+      '2020: Pleaded guilty to federal charges, $8.3B settlement',
+      '2007: Pleaded guilty to misbranding OxyContin',
+      '2022: Sacklers agreed to $6B settlement',
+    ],
+  },
+  'rtx': {
+    name: 'RTX Corporation',
+    ticker: 'RTX',
+    industry: 'Defense / Aerospace',
+    headquarters: 'Arlington, Virginia',
+    founded: '2020 (merger)',
+    riskLevel: 'high' as const,
+    description: 'RTX Corporation (formerly Raytheon Technologies) is one of the world\'s largest defense contractors, making missiles, aircraft engines, and surveillance systems. Formed from Raytheon and United Technologies merger.',
+    employees: '185,000+',
+    revenue: '$68.9 billion (2023)',
+    marketCap: '$145 billion',
+    ceo: 'Chris Calio',
+    website: 'https://www.rtx.com',
+    controversies: [
+      'Weapons used in Yemen humanitarian crisis',
+      'Saudi Arabia arms sales controversy',
+      'Revolving door with Pentagon',
+      'Pratt & Whitney engine problems',
+      'Lobbying for military spending',
+      'War profiteering allegations',
+    ],
+    subsidiaries: ['Raytheon', 'Collins Aerospace', 'Pratt & Whitney'],
+    relatedInvestigations: [
+      { title: 'Military Industrial Complex', slug: 'military-industrial-complex', severity: 'high' },
+      { title: 'Saudi Arms Sales', slug: 'saudi-arms-sales', severity: 'critical' },
+    ],
+    keyFigures: [],
+    lobbyingSpend: '$11+ million annually',
+    governmentContracts: '$20+ billion annually',
+  },
+  'sinclair': {
+    name: 'Sinclair Broadcast Group',
+    ticker: 'SBGI',
+    industry: 'Broadcasting',
+    headquarters: 'Hunt Valley, Maryland',
+    founded: '1971',
+    riskLevel: 'high' as const,
+    description: 'Sinclair is America\'s largest owner of local TV stations, controlling nearly 200 stations. The company forces local anchors to read conservative "must-run" segments, undermining local journalism with corporate propaganda.',
+    employees: '8,000+',
+    revenue: '$3.0 billion (2023)',
+    marketCap: '$1.3 billion',
+    ceo: 'Chris Ripley',
+    website: 'https://www.sbgi.net',
+    controversies: [
+      'Forcing local anchors to read scripted propaganda',
+      'Viral video showed identical "must-run" segments',
+      'Pro-Trump bias in coverage',
+      'Failed Tribune merger due to deception',
+      'Boris Epshteyn as chief political analyst',
+      'Undermining local journalism independence',
+    ],
+    subsidiaries: ['Tennis Channel', 'STIRR streaming'],
+    relatedInvestigations: [
+      { title: 'Media Consolidation', slug: 'media-consolidation', severity: 'critical' },
+      { title: 'Media Manipulation', slug: 'media-manipulation', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'David Smith', role: 'Executive Chairman' },
+    ],
+  },
+  'sullivan-strickler': {
+    name: 'Sullivan & Strickler LLC',
+    industry: 'Data / Forensics',
+    headquarters: 'Atlanta, Georgia',
+    founded: '2017',
+    riskLevel: 'high' as const,
+    description: 'Sullivan & Strickler is a forensic data company hired by Sidney Powell and others seeking to prove election fraud. The company copied election data from Coffee County, Georgia in a breach being investigated criminally.',
+    employees: 'Small',
+    revenue: 'Not disclosed',
+    ceo: 'Not disclosed',
+    controversies: [
+      'Copied Coffee County election data without authorization',
+      'Part of coordinated effort to access voting systems',
+      'Criminal investigation in Georgia',
+      'Worked with Sidney Powell\'s team',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Georgia Election Case', slug: 'georgia-rico', severity: 'critical' },
+      { title: 'Election Denial', slug: 'election-denial', severity: 'critical' },
+    ],
+    keyFigures: [],
+  },
+  'tc-energy': {
+    name: 'TC Energy Corporation',
+    ticker: 'TRP',
+    industry: 'Energy Infrastructure',
+    headquarters: 'Calgary, Alberta, Canada',
+    founded: '1951',
+    riskLevel: 'high' as const,
+    description: 'TC Energy (formerly TransCanada) is the company behind the Keystone XL pipeline that faced massive environmental opposition. The pipeline was cancelled after years of protests and the Biden administration revoking permits.',
+    employees: '7,500+',
+    revenue: '$14.6 billion CAD (2023)',
+    marketCap: '$50+ billion CAD',
+    ceo: 'François Poirier',
+    website: 'https://www.tcenergy.com',
+    controversies: [
+      'Keystone XL pipeline environmental destruction',
+      'Indigenous rights violations',
+      'Climate change acceleration',
+      'Eminent domain abuse',
+      'Spill risks over Ogallala Aquifer',
+      'Multiple pipeline spills',
+    ],
+    subsidiaries: ['Keystone Pipeline (operating portions)'],
+    relatedInvestigations: [
+      { title: 'Environmental Crimes', slug: 'environmental-crimes', severity: 'critical' },
+      { title: 'Climate Denial', slug: 'climate-denial', severity: 'high' },
+    ],
+    keyFigures: [],
+  },
+  'tigerswan': {
+    name: 'TigerSwan LLC',
+    industry: 'Private Security / Intelligence',
+    headquarters: 'Apex, North Carolina',
+    founded: '2008',
+    riskLevel: 'critical' as const,
+    description: 'TigerSwan is a private military/intelligence contractor hired by Energy Transfer to conduct surveillance and counter-operations against Standing Rock water protectors. Internal documents showed treating protestors as "jihadists" and coordinating with law enforcement.',
+    employees: '1,000+',
+    revenue: 'Not disclosed',
+    ceo: 'James Reese',
+    controversies: [
+      'Military-style tactics against peaceful protestors',
+      'Compared water protectors to jihadist insurgents',
+      'Coordinated with law enforcement against protestors',
+      'Operating without North Dakota security license',
+      'Infiltration and surveillance of activists',
+      'Iraq/Afghanistan veteran staff treating Americans as enemy',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Standing Rock', slug: 'standing-rock', severity: 'critical' },
+      { title: 'Environmental Crimes', slug: 'environmental-crimes', severity: 'high' },
+    ],
+    keyFigures: [],
+  },
+  'twitter': {
+    name: 'X Corp (formerly Twitter)',
+    industry: 'Social Media / Technology',
+    headquarters: 'San Francisco, California',
+    founded: '2006',
+    riskLevel: 'critical' as const,
+    description: 'X (formerly Twitter) was acquired by Elon Musk in 2022 for $44 billion. Since acquisition, the platform has reinstated banned accounts including Trump, reduced content moderation, spread misinformation, and lost significant advertiser revenue.',
+    employees: '1,500+ (down from 7,500)',
+    revenue: '$2.5 billion (estimated, declining)',
+    ceo: 'Linda Yaccarino (CEO), Elon Musk (Owner)',
+    website: 'https://www.x.com',
+    controversies: [
+      'Reinstating banned accounts including Trump',
+      'Amplifying misinformation and hate speech',
+      'Mass layoffs gutting content moderation',
+      'Advertiser exodus over brand safety',
+      'Musk personal tweets spreading conspiracies',
+      'Election misinformation ahead of 2024',
+      'Blue check verification chaos',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Social Media Harms', slug: 'social-media-harms', severity: 'critical' },
+      { title: 'Election Denial', slug: 'election-denial', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Elon Musk', role: 'Owner', href: '/entities/individuals/elon-musk' },
+    ],
+  },
+  'united-fruit-company': {
+    name: 'United Fruit Company (now Chiquita)',
+    industry: 'Agriculture / Bananas',
+    headquarters: 'Fort Lauderdale, Florida (Chiquita)',
+    founded: '1899',
+    riskLevel: 'critical' as const,
+    description: 'United Fruit Company was an American corporation that dominated Central American countries as "banana republics." The company orchestrated the 1954 CIA coup in Guatemala, exploited workers, and supported dictatorships. Now operates as Chiquita.',
+    employees: '20,000+ (Chiquita)',
+    revenue: '$3+ billion (Chiquita)',
+    ceo: 'Various (now Chiquita)',
+    website: 'https://www.chiquita.com',
+    controversies: [
+      '1954 Guatemala coup orchestrated with CIA',
+      '"Banana republic" exploitation of Central America',
+      'Worker exploitation and union suppression',
+      'Supporting dictatorships',
+      'Chiquita: Funding Colombian paramilitaries (convicted)',
+      'Environmental destruction',
+      'Pesticide exposure of workers',
+    ],
+    subsidiaries: ['Chiquita Brands International'],
+    relatedInvestigations: [
+      { title: 'Guatemala Coup', slug: 'guatemala-coup', severity: 'critical' },
+      { title: 'CIA Coups', slug: 'cia-coups', severity: 'critical' },
+    ],
+    keyFigures: [],
+    legalHistory: [
+      '2007: Chiquita pleaded guilty to paying Colombian terrorists, $25M fine',
+    ],
+  },
+  'wagner-group': {
+    name: 'Wagner Group',
+    industry: 'Private Military Company',
+    headquarters: 'St. Petersburg, Russia',
+    founded: '2014',
+    riskLevel: 'critical' as const,
+    description: 'Wagner Group is a Russian private military company linked to Putin and oligarch Yevgeny Prigozhin. The group has committed war crimes in Ukraine, Syria, Africa, and elsewhere. Prigozhin died in suspicious plane crash after brief mutiny.',
+    employees: '50,000+ (estimated)',
+    revenue: 'State-funded (billions)',
+    ceo: 'Yevgeny Prigozhin (deceased 2023)',
+    controversies: [
+      'War crimes in Ukraine including torture and executions',
+      'Syria atrocities including chemical weapons areas',
+      'African coups and resource extraction',
+      'Human rights abuses in Central African Republic, Mali, Libya',
+      'Prigozhin mutiny and mysterious death',
+      'Recruitment of prisoners for "meat waves"',
+      'Sledgehammer execution videos',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
+      { title: 'Ukraine War', slug: 'ukraine-war', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Yevgeny Prigozhin', role: 'Founder (deceased)', href: '/entities/individuals/yevgeny-prigozhin' },
+    ],
+  },
+
+  'theranos': {
+    name: 'Theranos Inc.',
+    industry: 'Healthcare Technology',
+    headquarters: 'Palo Alto, California',
+    founded: '2003',
+    riskLevel: 'critical' as const,
+    description: 'Theranos was a fraudulent blood testing company founded by Elizabeth Holmes. She claimed the technology could run hundreds of tests from a single drop of blood - it couldn\'t. The company defrauded investors of $700 million and endangered patients with inaccurate results. Holmes was convicted and sentenced to over 11 years in prison.',
+    employees: '800 (at peak, now defunct)',
+    revenue: 'N/A (fraudulent claims)',
+    ceo: 'Elizabeth Holmes (convicted)',
+    controversies: [
+      'Technology never worked as claimed',
+      'Defrauded investors of $700 million',
+      'Endangered patients with false test results',
+      'Intimidated employees and whistleblowers',
+      'CEO convicted on 4 counts of fraud',
+      'Board filled with political figures, no medical experts',
+      'Partnership with Walgreens endangered public',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Theranos Fraud', slug: 'theranos-fraud', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Elizabeth Holmes', role: 'Founder, CEO (convicted)', href: '/entities/individuals/elizabeth-holmes' },
+      { name: 'Ramesh Balwani', role: 'COO (convicted)', href: '/entities/individuals/ramesh-balwani' },
+    ],
+    legalHistory: [
+      '2018: SEC charged Holmes with fraud',
+      '2022: Holmes convicted on 4 counts of investor fraud',
+      '2023: Holmes sentenced to 11 years, 3 months in prison',
+    ],
+  },
+  'ftx': {
+    name: 'FTX Trading Ltd.',
+    industry: 'Cryptocurrency Exchange',
+    headquarters: 'Nassau, Bahamas',
+    founded: '2019',
+    riskLevel: 'critical' as const,
+    description: 'FTX was a cryptocurrency exchange that collapsed in November 2022 revealing massive fraud. Founder Sam Bankman-Fried secretly transferred billions in customer funds to his hedge fund Alameda Research. He was convicted of fraud and sentenced to 25 years in prison.',
+    employees: '300+ (at collapse, now defunct)',
+    revenue: '$1+ billion (2021, fraudulent)',
+    marketCap: '$32 billion (peak valuation)',
+    ceo: 'Sam Bankman-Fried (convicted)',
+    controversies: [
+      'Stole billions in customer deposits',
+      'Secret transfers to Alameda Research',
+      '$40+ million in political donations from fraud proceeds',
+      'Founder convicted of fraud, sentenced to 25 years',
+      'Collapsed in days from $32B to bankruptcy',
+      'Celebrity endorsers including Tom Brady, Larry David',
+    ],
+    subsidiaries: ['Alameda Research', 'FTX US'],
+    relatedInvestigations: [
+      { title: 'FTX Collapse', slug: 'ftx-collapse', severity: 'high' },
+      { title: 'Cryptocurrency Fraud', slug: 'crypto-scams', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Sam Bankman-Fried', role: 'Founder (25-year sentence)', href: '/entities/individuals/sam-bankman-fried' },
+    ],
+    legalHistory: [
+      '2022: Bankruptcy filing, $8 billion missing',
+      '2023: SBF convicted on all 7 counts',
+      '2024: SBF sentenced to 25 years in federal prison',
+    ],
+  },
+  'enron': {
+    name: 'Enron Corporation',
+    industry: 'Energy / Trading',
+    headquarters: 'Houston, Texas (defunct)',
+    founded: '1985',
+    riskLevel: 'critical' as const,
+    description: 'Enron was America\'s seventh-largest company before its 2001 collapse revealed massive accounting fraud. Executives used mark-to-market accounting and special purpose entities to hide billions in debt. The scandal destroyed Arthur Andersen and led to Sarbanes-Oxley reforms.',
+    employees: '21,000 (at collapse, defunct)',
+    revenue: '$101 billion (2000, fraudulent)',
+    marketCap: '$70 billion (peak, fraudulent)',
+    ceo: 'Kenneth Lay, Jeffrey Skilling (both convicted)',
+    controversies: [
+      'Hid billions in debt through accounting fraud',
+      'California energy crisis manipulation',
+      'Executives sold stock while lying to employees',
+      'Employees lost retirement savings',
+      'Arthur Andersen destroyed for obstruction',
+      'CEO Skilling sentenced to 24 years (reduced to 14)',
+      'CEO Lay died before sentencing',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
+      { title: 'Corporate Crime', slug: 'corporate-crime', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Kenneth Lay', role: 'CEO (convicted, deceased)', href: '/entities/individuals/kenneth-lay' },
+      { name: 'Jeffrey Skilling', role: 'CEO (14 years prison)', href: '/entities/individuals/jeffrey-skilling' },
+    ],
+    legalHistory: [
+      '2001: Bankruptcy - largest in US history at time',
+      '2002: Arthur Andersen convicted, dissolved',
+      '2006: Lay and Skilling convicted',
+    ],
+  },
+  'worldcom': {
+    name: 'WorldCom Inc.',
+    industry: 'Telecommunications',
+    headquarters: 'Clinton, Mississippi (defunct)',
+    founded: '1983',
+    riskLevel: 'critical' as const,
+    description: 'WorldCom committed $11 billion in accounting fraud - the largest in US history at the time. CEO Bernie Ebbers was sentenced to 25 years in prison. Internal auditor Cynthia Cooper became a whistleblower hero for uncovering the fraud.',
+    employees: '60,000 (at collapse, defunct)',
+    revenue: '$39 billion (2001, fraudulent)',
+    marketCap: '$175 billion (peak, fraudulent)',
+    ceo: 'Bernard Ebbers (25-year sentence)',
+    controversies: [
+      '$11 billion accounting fraud',
+      'CEO received $400M in personal loans from company',
+      'Capitalized operating expenses to inflate profits',
+      'Largest bankruptcy in US history ($107B assets)',
+      'Executives convicted, Ebbers got 25 years',
+      'Reorganized as MCI, later acquired by Verizon',
+    ],
+    subsidiaries: ['MCI (post-bankruptcy)'],
+    relatedInvestigations: [
+      { title: 'WorldCom Fraud', slug: 'worldcom-fraud', severity: 'high' },
+      { title: 'Corporate Crime', slug: 'corporate-crime', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Bernard Ebbers', role: 'CEO (25-year sentence, deceased)', href: '/entities/individuals/bernard-ebbers' },
+    ],
+    legalHistory: [
+      '2002: Bankruptcy filing, fraud discovered',
+      '2005: Ebbers sentenced to 25 years',
+      '2020: Ebbers died shortly after compassionate release',
+    ],
+  },
+  'wells-fargo': {
+    name: 'Wells Fargo & Company',
+    ticker: 'WFC',
+    industry: 'Banking / Financial Services',
+    headquarters: 'San Francisco, California',
+    founded: '1852',
+    riskLevel: 'critical' as const,
+    description: 'Wells Fargo created over 3.5 million fake accounts without customer consent, driven by impossible sales quotas. The bank has paid billions in fines. The scandal exemplified how corporate pressure creates systemic fraud.',
+    employees: '234,000+',
+    revenue: '$78 billion (2023)',
+    marketCap: '$170+ billion',
+    ceo: 'Charles Scharf',
+    website: 'https://www.wellsfargo.com',
+    controversies: [
+      '3.5 million fake accounts created',
+      'Employees fired for missing impossible quotas',
+      'CEO John Stumpf resigned in disgrace',
+      '$3+ billion in fines and settlements',
+      'Fed imposed unprecedented growth cap',
+      'Auto insurance scam charged customers for unwanted coverage',
+      'Mortgage abuses including wrongful foreclosures',
+    ],
+    subsidiaries: ['Wachovia (acquired)', 'Wells Fargo Advisors'],
+    relatedInvestigations: [
+      { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
+      { title: 'Corporate Crime', slug: 'corporate-crime', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'John Stumpf', role: 'Former CEO (resigned)', href: '/entities/individuals/john-stumpf' },
+    ],
+    legalHistory: [
+      '2016: $185 million fine, 5,300 employees fired',
+      '2018: $1 billion fine from OCC and CFPB',
+      '2020: $3 billion DOJ/SEC settlement',
+    ],
+    lobbyingSpend: '$8+ million annually',
+  },
+  'volkswagen': {
+    name: 'Volkswagen AG',
+    ticker: 'VOW3',
+    industry: 'Automotive',
+    headquarters: 'Wolfsburg, Germany',
+    founded: '1937',
+    riskLevel: 'critical' as const,
+    description: 'Volkswagen installed defeat devices in 11 million diesel vehicles to cheat emissions tests. Cars emitted up to 40 times legal limits of pollutants. VW has paid over $30 billion in fines and settlements. The fraud caused thousands of premature deaths.',
+    employees: '680,000+',
+    revenue: '€322 billion (2023)',
+    marketCap: '€60+ billion',
+    ceo: 'Oliver Blume',
+    website: 'https://www.volkswagen.com',
+    controversies: [
+      'Defeat devices in 11 million vehicles',
+      'Emissions 40x legal limits in normal driving',
+      '$30+ billion in fines and settlements',
+      'Caused thousands of premature deaths',
+      'CEO Winterkorn charged (avoided US extradition)',
+      'Engineers sentenced to prison',
+      '"Clean diesel" marketing was complete fraud',
+    ],
+    subsidiaries: ['Audi', 'Porsche', 'Bentley', 'Lamborghini', 'SEAT', 'Škoda'],
+    relatedInvestigations: [
+      { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
+      { title: 'Environmental Crimes', slug: 'environmental-crimes', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Martin Winterkorn', role: 'Former CEO (charged)', href: '/entities/individuals/martin-winterkorn' },
+    ],
+    legalHistory: [
+      '2015: EPA discovered defeat devices',
+      '2017: VW pleaded guilty, $4.3 billion criminal penalty',
+      '2017: Engineer sentenced to 40 months, manager 7 years',
+    ],
+  },
+  'philip-morris': {
+    name: 'Philip Morris International',
+    ticker: 'PM',
+    industry: 'Tobacco',
+    headquarters: 'Stamford, Connecticut',
+    founded: '1847',
+    riskLevel: 'critical' as const,
+    description: 'Philip Morris is the world\'s largest tobacco company outside the US. For decades, the company knew cigarettes caused cancer but publicly denied it, manipulated nicotine, and targeted children. Tobacco kills 8 million people annually.',
+    employees: '71,000+',
+    revenue: '$35+ billion (2023)',
+    marketCap: '$150+ billion',
+    ceo: 'Jacek Olczak',
+    website: 'https://www.pmi.com',
+    controversies: [
+      'Decades of lying about cancer link',
+      'Nicotine manipulation to increase addiction',
+      'Marketing to children (Joe Camel, Marlboro Man)',
+      'RICO racketeering conviction (with others)',
+      'Continues targeting developing nations',
+      'Products kill 8 million people annually',
+    ],
+    subsidiaries: ['Marlboro (international)', 'IQOS'],
+    relatedInvestigations: [
+      { title: 'Big Tobacco Lies', slug: 'big-tobacco-lies', severity: 'critical' },
+    ],
+    keyFigures: [],
+    legalHistory: [
+      '1998: Master Settlement Agreement ($206 billion)',
+      '2006: RICO racketeering verdict against industry',
+    ],
+    lobbyingSpend: '$10+ million annually',
+  },
+  'rj-reynolds': {
+    name: 'R.J. Reynolds Tobacco Company',
+    industry: 'Tobacco',
+    headquarters: 'Winston-Salem, North Carolina',
+    founded: '1875',
+    riskLevel: 'critical' as const,
+    description: 'R.J. Reynolds is one of the largest tobacco companies, now owned by British American Tobacco. The company was part of the decades-long conspiracy to hide the dangers of smoking and market to children. Subject to RICO racketeering verdict.',
+    employees: '4,000+',
+    revenue: 'Part of BAT ($35B)',
+    ceo: 'Part of British American Tobacco',
+    controversies: [
+      'Joe Camel cartoon marketed to children',
+      'Lied about addiction for decades',
+      'Part of RICO racketeering conspiracy',
+      'Internal documents showed knowledge of harm',
+      'Continues selling deadly products globally',
+    ],
+    subsidiaries: ['Camel', 'Newport', 'Pall Mall'],
+    relatedInvestigations: [
+      { title: 'Big Tobacco Lies', slug: 'big-tobacco-lies', severity: 'critical' },
+    ],
+    keyFigures: [],
+    legalHistory: [
+      '1998: Master Settlement Agreement participant',
+      '2006: RICO racketeering verdict',
+    ],
+  },
+  'openai': {
+    name: 'OpenAI',
+    industry: 'Artificial Intelligence',
+    headquarters: 'San Francisco, California',
+    founded: '2015',
+    riskLevel: 'high' as const,
+    description: 'OpenAI is a leading AI company that developed ChatGPT and GPT models. Originally a nonprofit focused on AI safety, it transitioned to a for-profit model. The company has faced criticism for firing safety researchers, racing to deploy powerful AI without adequate testing, and concentrating dangerous technology in few hands.',
+    employees: '1,500+',
+    revenue: '$2+ billion (estimated 2024)',
+    marketCap: '$80+ billion (private valuation)',
+    ceo: 'Sam Altman',
+    website: 'https://www.openai.com',
+    controversies: [
+      'Transition from nonprofit to for-profit',
+      'Sam Altman briefly fired then reinstated',
+      'Safety researchers departing or silenced',
+      'Racing to deploy without adequate testing',
+      'Copyright lawsuits from content creators',
+      'Concentration of AI power in few companies',
+      'Partnership with Microsoft raises antitrust concerns',
+    ],
+    subsidiaries: [],
+    relatedInvestigations: [
+      { title: 'AI Safety Crisis', slug: 'ai-safety-concerns', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Sam Altman', role: 'CEO', href: '/entities/individuals/sam-altman' },
+    ],
+    lobbyingSpend: 'Significant (undisclosed)',
+  },
+  'amazon': {
+    name: 'Amazon.com, Inc.',
+    ticker: 'AMZN',
+    industry: 'E-Commerce / Cloud Computing / Retail',
+    headquarters: 'Seattle, Washington',
+    founded: '1994',
+    riskLevel: 'high' as const,
+    description: 'Amazon is the world\'s largest e-commerce company and a major cloud computing provider. The company faces criticism for brutal warehouse conditions, union busting, algorithmic worker surveillance, and monopolistic practices that have destroyed competitors and communities.',
+    employees: '1,500,000+',
+    revenue: '$575 billion (2023)',
+    marketCap: '$1.8+ trillion',
+    ceo: 'Andy Jassy',
+    website: 'https://www.amazon.com',
+    controversies: [
+      'Warehouse injury rates double industry average',
+      'Workers urinating in bottles due to time pressure',
+      'Aggressive union busting campaigns',
+      'Algorithmic surveillance of workers',
+      '150% annual turnover rate by design',
+      'Monopolistic destruction of competitors',
+      'Tax avoidance through corporate structures',
+      'Bezos wealth extraction while workers struggle',
+    ],
+    subsidiaries: ['AWS', 'Whole Foods', 'MGM', 'Ring', 'Twitch', 'IMDb'],
+    relatedInvestigations: [
+      { title: 'Amazon Worker Abuse', slug: 'amazon-worker-abuse', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Jeff Bezos', role: 'Founder, Executive Chairman', href: '/entities/individuals/jeff-bezos' },
+    ],
+    lobbyingSpend: '$20+ million annually',
+  },
+  'dupont': {
+    name: 'DuPont de Nemours, Inc.',
+    ticker: 'DD',
+    industry: 'Chemicals / Materials Science',
+    headquarters: 'Wilmington, Delaware',
+    founded: '1802',
+    riskLevel: 'critical' as const,
+    description: 'DuPont is a chemical conglomerate with a long history of environmental crimes. The company produced Agent Orange, leaded gasoline, and PFAS "forever chemicals" while hiding their dangers. DuPont has poisoned communities and workers for over a century.',
+    employees: '24,000+',
+    revenue: '$12 billion (2023)',
+    marketCap: '$30+ billion',
+    ceo: 'Ed Breen',
+    website: 'https://www.dupont.com',
+    controversies: [
+      'Agent Orange production for Vietnam War',
+      'Tetraethyl lead (leaded gasoline) production',
+      'PFAS "forever chemicals" contamination',
+      'Teflon cancer cover-up (C8)',
+      'Worker exposure and deaths',
+      'Community poisoning in multiple states',
+      'Decades of hiding health dangers',
+    ],
+    subsidiaries: ['Chemours (spin-off)'],
+    relatedInvestigations: [
+      { title: 'Agent Orange', slug: 'agent-orange', severity: 'critical' },
+      { title: 'Lead Poisoning Cover-Up', slug: 'lead-poisoning-coverup', severity: 'critical' },
+      { title: 'Environmental Crimes', slug: 'environmental-crimes', severity: 'critical' },
+    ],
+    keyFigures: [],
+    legalHistory: [
+      'Multiple PFAS contamination settlements',
+      '2017: $671 million C8/Teflon settlement',
+    ],
+  },
+  'monsanto': {
+    name: 'Monsanto Company (now Bayer)',
+    industry: 'Agricultural Biotechnology / Chemicals',
+    headquarters: 'St. Louis, Missouri (acquired by Bayer 2018)',
+    founded: '1901',
+    riskLevel: 'critical' as const,
+    description: 'Monsanto was an agrochemical giant that produced Agent Orange, PCBs, and the herbicide Roundup. The company was acquired by Bayer in 2018, which has faced billions in lawsuits over Roundup\'s cancer-causing glyphosate. Monsanto\'s history includes environmental devastation and farmer exploitation.',
+    employees: 'Merged into Bayer',
+    revenue: 'Part of Bayer ($50B+)',
+    ceo: 'Merged into Bayer',
+    controversies: [
+      'Agent Orange production - millions poisoned',
+      'Roundup/glyphosate cancer link cover-up',
+      'PCB contamination worldwide',
+      'GMO seed patents exploiting farmers',
+      'Suing farmers for seed patent violations',
+      'Suppressing scientific research',
+      'Ghostwriting academic papers',
+    ],
+    subsidiaries: ['Now part of Bayer Crop Science'],
+    relatedInvestigations: [
+      { title: 'Agent Orange', slug: 'agent-orange', severity: 'critical' },
+      { title: 'Environmental Crimes', slug: 'environmental-crimes', severity: 'critical' },
+      { title: 'Agricultural Monopoly', slug: 'agricultural-monopoly', severity: 'high' },
+    ],
+    keyFigures: [],
+    legalHistory: [
+      '2018: Acquired by Bayer for $63 billion',
+      '2020: Bayer settles Roundup lawsuits for $10+ billion',
+    ],
+  },
+};
+
+const riskColors = {
+  critical: 'text-red-500 bg-red-500/10 border-red-500/30',
+  high: 'text-orange-500 bg-orange-500/10 border-orange-500/30',
+  medium: 'text-yellow-500 bg-yellow-500/10 border-yellow-500/30',
+  low: 'text-green-500 bg-green-500/10 border-green-500/30',
+};
+
+const severityColors = {
+  critical: 'bg-red-500/20 text-red-400',
+  high: 'bg-orange-500/20 text-orange-400',
+  medium: 'bg-yellow-500/20 text-yellow-400',
+  low: 'bg-green-500/20 text-green-400',
+};
+
+interface PageProps {
+  params: Promise<{ slug: string }>;
+}
+
+export default function CorporationDetailPage({ params }: PageProps) {
+  const [slug, setSlug] = useState<string | null>(null);
+  
+  useEffect(() => {
+    params.then((p) => setSlug(p.slug));
+  }, [params]);
+
+  if (!slug) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-pulse text-blood-500">Loading...</div>
+      </div>
+    );
+  }
+
+  const corporation = corporationData[slug];
+
+  if (!corporation) {
+    notFound();
+  }
+
+  return (
+    <div className="min-h-screen bg-black text-white">
+      {/* Header */}
+      <div className="border-b border-zinc-800">
+        <div className="max-w-6xl mx-auto px-6 py-8">
+          <Link 
+            href="/entities/corporations"
+            className="inline-flex items-center gap-2 text-zinc-400 hover:text-blood-500 transition-colors mb-6"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Corporations
+          </Link>
+
+          <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
+            <div>
+              <div className="flex items-center gap-4 mb-2">
+                <Building className="w-8 h-8 text-blood-500" />
+                <span className={`px-3 py-1 text-xs font-bold uppercase border ${riskColors[corporation.riskLevel]}`}>
+                  {corporation.riskLevel} risk
+                </span>
+                {corporation.ticker && (
+                  <span className="px-3 py-1 text-xs font-mono bg-zinc-800 text-zinc-300">
+                    {corporation.ticker}
+                  </span>
+                )}
+              </div>
+              <h1 className="text-4xl font-bold mb-2">
+                <GlitchText>{corporation.name}</GlitchText>
+              </h1>
+              <p className="text-xl text-zinc-400">{corporation.industry}</p>
+            </div>
+
+            {corporation.website && (
+              <a
+                href={corporation.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-zinc-800 hover:bg-zinc-700 transition-colors text-sm"
+              >
+                <Globe className="w-4 h-4" />
+                Official Website
+                <ExternalLink className="w-3 h-3" />
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-6xl mx-auto px-6 py-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Main Content */}
+          <div className="lg:col-span-2 space-y-8">
+            {/* Description */}
+            <motion.section
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="glass-card p-6"
+            >
+              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                <Briefcase className="w-5 h-5 text-blood-500" />
+                Overview
+              </h2>
+              <p className="text-zinc-300 leading-relaxed">{corporation.description}</p>
+            </motion.section>
+
+            {/* Controversies */}
+            <motion.section
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 }}
+              className="glass-card p-6"
+            >
+              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                <AlertTriangle className="w-5 h-5 text-blood-500" />
+                Known Controversies
+              </h2>
+              <ul className="space-y-3">
+                {corporation.controversies.map((controversy, index) => (
+                  <li key={index} className="flex items-start gap-3">
+                    <span className="w-1.5 h-1.5 rounded-full bg-blood-500 mt-2 flex-shrink-0" />
+                    <span className="text-zinc-300">{controversy}</span>
+                  </li>
+                ))}
+              </ul>
+            </motion.section>
+
+            {/* Subsidiaries */}
+            <motion.section
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.15 }}
+              className="glass-card p-6"
+            >
+              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                <Building className="w-5 h-5 text-blood-500" />
+                Key Subsidiaries
+              </h2>
+              <div className="flex flex-wrap gap-2">
+                {corporation.subsidiaries.map((sub, index) => (
+                  <span key={index} className="px-3 py-1 bg-zinc-800 border border-zinc-700 text-sm">
+                    {sub}
+                  </span>
+                ))}
+              </div>
+            </motion.section>
+
+            {/* Related Investigations */}
+            <motion.section
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+              className="glass-card p-6"
+            >
+              <h2 className="text-xl font-bold mb-4">Related Investigations</h2>
+              <div className="space-y-3">
+                {corporation.relatedInvestigations.map((investigation) => (
+                  <Link
+                    key={investigation.slug}
+                    href={`/investigations/${investigation.slug}`}
+                    className="flex items-center justify-between p-4 bg-zinc-900/50 hover:bg-zinc-800/50 border border-zinc-800 hover:border-blood-500/30 transition-all"
+                  >
+                    <span className="font-medium">{investigation.title}</span>
+                    <span className={`px-2 py-1 text-xs font-bold uppercase ${severityColors[investigation.severity as keyof typeof severityColors]}`}>
+                      {investigation.severity}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </motion.section>
+          </div>
+
+          {/* Sidebar */}
+          <div className="space-y-6">
+            {/* Financial Info */}
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              className="glass-card p-6"
+            >
+              <h3 className="text-lg font-bold mb-4">Financial Overview</h3>
+              <dl className="space-y-4">
+                <div>
+                  <dt className="text-xs text-zinc-500 uppercase tracking-wider">Revenue</dt>
+                  <dd className="text-zinc-300 flex items-center gap-2">
+                    <DollarSign className="w-4 h-4 text-green-500" />
+                    {corporation.revenue}
+                  </dd>
+                </div>
+                {corporation.marketCap && (
+                  <div>
+                    <dt className="text-xs text-zinc-500 uppercase tracking-wider">Market Cap</dt>
+                    <dd className="text-zinc-300 flex items-center gap-2">
+                      <TrendingUp className="w-4 h-4 text-blue-500" />
+                      {corporation.marketCap}
+                    </dd>
+                  </div>
+                )}
+                <div>
+                  <dt className="text-xs text-zinc-500 uppercase tracking-wider">Employees</dt>
+                  <dd className="text-zinc-300 flex items-center gap-2">
+                    <Users className="w-4 h-4" />
+                    {corporation.employees}
+                  </dd>
+                </div>
+              </dl>
+            </motion.div>
+
+            {/* Company Info */}
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.1 }}
+              className="glass-card p-6"
+            >
+              <h3 className="text-lg font-bold mb-4">Company Info</h3>
+              <dl className="space-y-4">
+                <div>
+                  <dt className="text-xs text-zinc-500 uppercase tracking-wider">Founded</dt>
+                  <dd className="text-zinc-300 flex items-center gap-2">
+                    <Calendar className="w-4 h-4" />
+                    {corporation.founded}
+                  </dd>
+                </div>
+                <div>
+                  <dt className="text-xs text-zinc-500 uppercase tracking-wider">Headquarters</dt>
+                  <dd className="text-zinc-300">{corporation.headquarters}</dd>
+                </div>
+                <div>
+                  <dt className="text-xs text-zinc-500 uppercase tracking-wider">CEO</dt>
+                  <dd className="text-zinc-300">{corporation.ceo}</dd>
+                </div>
+              </dl>
+            </motion.div>
+
+            {/* Influence */}
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.2 }}
+              className="glass-card p-6"
+            >
+              <h3 className="text-lg font-bold mb-4 text-blood-500">Political Influence</h3>
+              <dl className="space-y-4">
+                {corporation.lobbyingSpend && (
+                  <div>
+                    <dt className="text-xs text-zinc-500 uppercase tracking-wider">Lobbying Spend</dt>
+                    <dd className="text-blood-400 font-semibold">{corporation.lobbyingSpend}</dd>
+                  </div>
+                )}
+                {corporation.governmentContracts && (
+                  <div>
+                    <dt className="text-xs text-zinc-500 uppercase tracking-wider">Gov&apos;t Contracts</dt>
+                    <dd className="text-zinc-300 text-sm">{corporation.governmentContracts}</dd>
+                  </div>
+                )}
+              </dl>
+            </motion.div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
