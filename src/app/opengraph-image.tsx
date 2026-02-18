@@ -69,29 +69,115 @@ export default async function Image() {
             padding: '40px',
           }}
         >
-          {/* Logo/Icon placeholder */}
-          <div
-            style={{
-              width: '80px',
-              height: '80px',
-              borderRadius: '0',
-              backgroundColor: 'transparent',
-              border: '3px solid #d64545',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
+          {/* Bleeding Eye Logo */}
+          <svg
+            width="120"
+            height="120"
+            viewBox="0 0 100 100"
+            style={{ 
               marginBottom: '30px',
+              filter: 'drop-shadow(0 0 20px rgba(214, 69, 69, 0.6))',
             }}
           >
-            <div
-              style={{
-                width: '40px',
-                height: '40px',
-                borderRadius: '50%',
-                backgroundColor: '#d64545',
-              }}
+            {/* Eye white (sclera) */}
+            <ellipse
+              cx="50"
+              cy="45"
+              rx="38"
+              ry="28"
+              fill="#e8e8e8"
             />
-          </div>
+            
+            {/* Blood veins in sclera */}
+            <path
+              d="M15 45 Q25 42, 32 45"
+              stroke="#dc2626"
+              strokeWidth="0.8"
+              fill="none"
+              opacity="0.6"
+            />
+            <path
+              d="M68 45 Q75 42, 85 45"
+              stroke="#dc2626"
+              strokeWidth="0.8"
+              fill="none"
+              opacity="0.6"
+            />
+            <path
+              d="M20 40 Q28 38, 35 42"
+              stroke="#b91c1c"
+              strokeWidth="0.5"
+              fill="none"
+              opacity="0.5"
+            />
+            <path
+              d="M65 42 Q72 38, 80 40"
+              stroke="#b91c1c"
+              strokeWidth="0.5"
+              fill="none"
+              opacity="0.5"
+            />
+            
+            {/* Iris - blood red */}
+            <circle
+              cx="50"
+              cy="45"
+              r="18"
+              fill="#dc2626"
+            />
+            <circle
+              cx="50"
+              cy="45"
+              r="15"
+              fill="#b91c1c"
+            />
+            
+            {/* Pupil */}
+            <circle
+              cx="50"
+              cy="45"
+              r="8"
+              fill="#000000"
+            />
+            
+            {/* Eye highlight */}
+            <ellipse
+              cx="44"
+              cy="40"
+              rx="4"
+              ry="3"
+              fill="#ffffff"
+              opacity="0.8"
+            />
+            
+            {/* Blood drip 1 - main center */}
+            <path
+              d="M50 73 Q50 82, 48 92 Q47 97, 50 100 Q53 97, 52 92 Q50 82, 50 73"
+              fill="#dc2626"
+            />
+            
+            {/* Blood drip 2 - left */}
+            <path
+              d="M35 68 Q34 76, 32 85 Q31 90, 33 93 Q35 90, 34 85 Q34 76, 35 68"
+              fill="#b91c1c"
+            />
+            
+            {/* Blood drip 3 - right */}
+            <path
+              d="M65 68 Q66 75, 67 83 Q68 88, 66 91 Q64 88, 65 83 Q65 75, 65 68"
+              fill="#b91c1c"
+            />
+            
+            {/* Blood pooling at bottom of eye */}
+            <ellipse
+              cx="50"
+              cy="71"
+              rx="36"
+              ry="5"
+              fill="#991b1b"
+              opacity="0.7"
+            />
+          </svg>
 
           {/* Title */}
           <div
