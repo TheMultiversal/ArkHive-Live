@@ -1063,7 +1063,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
-      { title: 'Stone Indictment', url: 'https://www.justice.gov/file/1124706/download', date: '2019' },
+      { title: 'Stone Indictment', url: 'http://web.archive.org/web/20240314104559/http://web.archive.org/web/20240314104559/https://www.justice.gov/file/1124706/download', date: '2019' },
       { title: 'House Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Netflix: Get Me Roger Stone', url: 'https://www.netflix.com/title/80114666', date: '2017' },
@@ -1149,7 +1149,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
       { title: 'Flynn Plea Agreement', url: 'https://www.courtlistener.com/docket/6234142/united-states-v-flynn/', date: '2017' },
-      { title: 'DOJ Flynn Statement of Offense', url: 'https://www.justice.gov/file/1015126/download', date: '2017' },
+      { title: 'DOJ Flynn Statement of Offense', url: 'http://web.archive.org/web/20240314193724/http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download', date: '2017' },
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
       { title: 'House Oversight Turkey Lobbying Report', url: 'https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf', date: '2017' },
       { title: 'WaPo: Flynn-Kislyak Calls', url: 'https://www.washingtonpost.com/world/national-security/national-security-adviser-flynn-discussed-sanctions-with-russian-ambassador-despite-denials-officials-say/2017/02/09/f85b29d6-ee11-11e6-b4ff-ac2cf509efe5_story.html', date: '2017' },
@@ -5200,7 +5200,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Immigration Records Investigation (AP)', date: '2018' },
       { title: 'EB-1 Visa Analysis', date: '2018' },
-      { title: 'Be Best Initiative Records', url: 'https://www.whitehouse.gov/bebest/', date: '2018-2021' },
+      { title: 'Be Best Initiative Records', url: 'http://web.archive.org/web/20210120164819/http://web.archive.org/web/20210120164819/https://www.whitehouse.gov/bebest/', date: '2018-2021' },
     ],
   },
   'pat-cipollone': {
@@ -5413,7 +5413,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2021', event: 'October: DOJ restores pension and back pay' },
     ],
     sources: [
-      { title: 'DOJ Inspector General Report', url: 'https://www.justice.gov/file/1071991/download', date: '2018' },
+      { title: 'DOJ Inspector General Report', url: 'http://web.archive.org/web/20240313073409/http://web.archive.org/web/20240313073409/https://www.justice.gov/file/1071991/download', date: '2018' },
       { title: 'McCabe Lawsuit Settlement', date: '2021' },
     ],
   },
@@ -16879,7 +16879,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Dark Money (Jane Mayer)', date: '2016' },
       { title: 'Kochland (Christopher Leonard)', date: '2019' },
-      { title: 'Greenpeace Koch Climate Denial Report', url: 'https://www.greenpeace.org/usa/global-warming/climate-deniers/koch-industries/', date: 'Various' },
+      { title: 'Greenpeace Koch Climate Denial Report', url: 'http://web.archive.org/web/20210311041257/http://web.archive.org/web/20210311041257/https://www.greenpeace.org/usa/global-warming/climate-deniers/koch-industries/', date: 'Various' },
       { title: 'EPA Enforcement Records - Koch Industries', date: 'Various' },
       { title: 'Senate Judiciary Committee Dark Money Investigation', date: '2022' },
     ],
@@ -18433,7 +18433,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'U.S. Commission on Civil Rights - Florida 2000 Election Report', url: 'https://www.usccr.gov/files/pubs/vote2000/report/main.htm', date: '2001' },
-      { title: 'Bush v. Gore Supreme Court Decision', url: 'https://www.supremecourt.gov/opinions/00pdf/00-949.pdf', date: '2000' },
+      { title: 'Bush v. Gore Supreme Court Decision', url: 'http://web.archive.org/web/20250713052119/http://web.archive.org/web/20250713052119/http://web.archive.org/web/20250713052119/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf', date: '2000' },
       { title: 'Florida Voter Purge Investigation', url: 'https://www.salon.com/2000/12/04/voter_file/', date: '2000' },
       { title: 'Congressional Black Caucus Election Challenge', date: '2001' },
       { title: 'The Stealing of the Presidency 2000', date: '2000' },
@@ -18792,7 +18792,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Wagner continues operations under Russian military control' },
     ],
     sources: [
-      { title: 'Mueller Indictment - Internet Research Agency', url: 'https://www.justice.gov/file/1035477/download', date: '2018' },
+      { title: 'Mueller Indictment - Internet Research Agency', url: 'http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download', date: '2018' },
       { title: 'Senate Intelligence Committee - Russian Interference Vol. 2', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2019' },
       { title: 'Wagner Group Investigation - Bellingcat', url: 'https://www.bellingcat.com/tag/wagner-group/', date: 'Various' },
       { title: 'UN Human Rights Reports on Wagner Atrocities', url: 'https://www.ohchr.org/', date: '2022-2023' },
@@ -19130,7 +19130,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'NIH EcoHealth Alliance Grant Records', url: 'https://reporter.nih.gov/', date: '2014-2019' },
       { title: 'House Oversight Committee - NIH Documents', url: 'https://oversight.house.gov/', date: '2022-2024' },
       { title: 'Collins-Fauci Email Correspondence (FOIA)', date: '2020' },
-      { title: 'NIH Gain of Function Framework', url: 'https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', date: '2017' },
+      { title: 'NIH Gain of Function Framework', url: 'http://web.archive.org/web/20250528001123/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', date: '2017' },
       { title: 'The Intercept - NIH Grant Documents', url: 'https://theintercept.com/2021/09/06/new-details-emerge-about-coronavirus-research-at-chinese-lab/', date: '2021' },
       { title: 'Congressional Testimony Transcripts', date: '2024' },
     ],
@@ -19954,7 +19954,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2006', event: 'Loses Senate primary, political career ends' },
     ],
     sources: [
-      { title: 'Bush v. Gore, 531 U.S. 98', url: 'https://www.supremecourt.gov/opinions/00pdf/00-949.pdf', date: '2000' },
+      { title: 'Bush v. Gore, 531 U.S. 98', url: 'http://web.archive.org/web/20250713052119/http://web.archive.org/web/20250713052119/http://web.archive.org/web/20250713052119/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf', date: '2000' },
       { title: 'U.S. Commission on Civil Rights Florida Report', date: '2001' },
       { title: 'Palast Investigation - Voter Purge', url: 'https://www.gregpalast.com/', date: '2001' },
     ],

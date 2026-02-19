@@ -888,7 +888,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Pardons', 'Manafort', 'Stone', 'Flynn', 'Bannon', 'War Crimes', 'Obstruction'],
     sources: [
-      { title: 'Trump Pardon List', url: 'https://www.justice.gov/pardon/pardons-granted-president-donald-trump', type: 'Government Document' },
+      { title: 'Trump Pardon List', url: 'http://web.archive.org/web/20210424061514/http://web.archive.org/web/20210424061514/https://www.justice.gov/pardon/pardons-granted-president-donald-trump', type: 'Government Document' },
       { title: 'Blackwater Pardons Condemned - UN', url: 'https://news.un.org/en/story/2020/12/1081152', type: 'UN Statement' },
       { title: 'Pardon Bribery Investigation', url: 'https://www.nytimes.com/2020/12/01/us/politics/pardon-bribery-investigation.html', type: 'News Report' },
       { title: 'Military Opposition to War Criminal Pardons', url: 'https://www.militarytimes.com/news/pentagon-congress/2019/11/21/trump-grants-clemency-to-army-officer-who-killed-iraqi-prisoner/', type: 'News Report' },
@@ -1496,8 +1496,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Trump Russia Hacking Request - Full Video', url: 'https://www.youtube.com/watch?v=3kxG8uJUsWU', type: 'Video Evidence' },
       { title: 'Mueller Report on Russian Hacking', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
-      { title: 'GRU Officer Indictments', url: 'https://www.justice.gov/file/1080281/download', type: 'Court Filing' },
-      { title: 'Roger Stone Indictment', url: 'https://www.justice.gov/file/1124706/download', type: 'Court Filing' },
+      { title: 'GRU Officer Indictments', url: 'http://web.archive.org/web/20240314115300/http://web.archive.org/web/20240314115300/https://www.justice.gov/file/1080281/download', type: 'Court Filing' },
+      { title: 'Roger Stone Indictment', url: 'http://web.archive.org/web/20240314104559/http://web.archive.org/web/20240314104559/https://www.justice.gov/file/1124706/download', type: 'Court Filing' },
       { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', type: 'Government Report' },
     ],
     affiliations: [
@@ -2127,7 +2127,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Pandemic', 'Gain of Function', 'COVID-19', 'Wuhan', 'Public Health'],
     sources: [
-      { title: 'NIH Gain of Function Research', url: 'https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', type: 'Government Document' },
+      { title: 'NIH Gain of Function Research', url: 'http://web.archive.org/web/20250528001123/http://web.archive.org/web/20250528001123/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', type: 'Government Document' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Pandemic response', href: '/entities/individuals/donald-trump' },
@@ -3620,7 +3620,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Michael Flynn', 'Russia', 'Turkey', 'Foreign Agent', 'Pardon', 'Mueller', 'Kislyak'],
     sources: [
-      { title: 'Flynn Statement of Offense', url: 'https://www.justice.gov/file/1015126/download', type: 'Court Filing' },
+      { title: 'Flynn Statement of Offense', url: 'http://web.archive.org/web/20240314193724/http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download', type: 'Court Filing' },
       { title: 'Mueller Report Flynn Sections', url: 'https://www.justice.gov/storage/report.pdf', type: 'Government Report' },
       { title: 'House Oversight Flynn Investigation', url: 'https://oversight.house.gov/legislation/hearings/michael-flynn-s-foreign-agent-registration', type: 'Congressional Record' },
       { title: 'DOJ Motion to Dismiss Flynn', url: 'https://www.justice.gov/sites/default/files/briefs/flynn-motion.pdf', type: 'Court Filing' },
@@ -4540,7 +4540,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Russia', 'IRA', 'Disinformation', 'Troll Farm', 'Prigozhin', 'Social Media', 'Election Interference'],
     sources: [
-      { title: 'Mueller Indictment - IRA', url: 'https://www.justice.gov/file/1035477/download', type: 'Court Filing' },
+      { title: 'Mueller Indictment - IRA', url: 'http://web.archive.org/web/20240315011338/http://web.archive.org/web/20240315011338/http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download', type: 'Court Filing' },
       { title: 'Senate Intelligence Committee Report Vol. 2', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/Report_Volume2.pdf', type: 'Government Report' },
       { title: 'Facebook IRA Disclosure', url: 'https://about.fb.com/news/2017/10/hard-questions-russian-ads/', type: 'Company Statement' },
       { title: 'Oxford Internet Institute Analysis', url: 'https://comprop.oii.ox.ac.uk/research/ira-political-polarization/', type: 'Academic Research' },
@@ -5256,7 +5256,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Gain-of-Function', 'NIH', 'Wuhan', 'EcoHealth Alliance', 'Fauci', 'COVID-19', 'Lab Research'],
     sources: [
-      { title: 'NIH Acknowledges Gain-of-Function Research', url: 'https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', type: 'Government Statement' },
+      { title: 'NIH Acknowledges Gain-of-Function Research', url: 'http://web.archive.org/web/20250528001123/http://web.archive.org/web/20250528001123/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', type: 'Government Statement' },
       { title: 'EcoHealth Alliance NIH Grant', url: 'https://reporter.nih.gov/search/xQW6UJmWfUuOV01ntGvLwQ/project-details/9819304', type: 'Grant Record' },
       { title: 'House Oversight Committee COVID-19 Investigation', url: 'https://oversight.house.gov/landing/covid-19-origins/', type: 'Congressional Investigation' },
       { title: 'The Intercept - NIH Documents', url: 'https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/', type: 'Investigation' },
@@ -5838,8 +5838,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Congressional Report' },
       { title: 'Mueller Report - Russian Interference', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
-      { title: 'DOJ IRA Indictment', url: 'https://www.justice.gov/file/1035477/download', type: 'Court Filing' },
-      { title: 'DOJ GRU Indictment', url: 'https://www.justice.gov/file/1080281/download', type: 'Court Filing' },
+      { title: 'DOJ IRA Indictment', url: 'http://web.archive.org/web/20240315011338/http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download', type: 'Court Filing' },
+      { title: 'DOJ GRU Indictment', url: 'http://web.archive.org/web/20240314115300/http://web.archive.org/web/20240314115300/https://www.justice.gov/file/1080281/download', type: 'Court Filing' },
       { title: 'Oxford Internet Institute - Russian Disinformation', url: 'https://demtech.oii.ox.ac.uk/research/posts/computational-propaganda-in-russia-the-origins-of-digital-disinformation/', type: 'Research' },
     ],
     affiliations: [
@@ -7097,7 +7097,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Pardons', 'Trump', 'Bannon', 'Stone', 'Flynn', 'Manafort', 'Blackwater', 'Obstruction of Justice', 'Corruption'],
     sources: [
-      { title: 'DOJ Pardon Records', url: 'https://www.justice.gov/pardon/pardons-granted-president-donald-trump', type: 'Government Records' },
+      { title: 'DOJ Pardon Records', url: 'http://web.archive.org/web/20210424061514/http://web.archive.org/web/20210424061514/https://www.justice.gov/pardon/pardons-granted-president-donald-trump', type: 'Government Records' },
       { title: 'NYT - Trump Pardon Spree', url: 'https://www.nytimes.com/2021/01/20/us/politics/trump-pardons.html', type: 'News Report' },
       { title: 'Blackwater Massacre Pardons', url: 'https://www.nytimes.com/2020/12/22/us/politics/blackwater-pardons.html', type: 'News Report' },
       { title: 'Christie on Kushner Pardon', url: 'https://www.theguardian.com/us-news/2020/dec/24/chris-christie-charles-kushner-pardon-loathsome', type: 'News Report' },
@@ -8633,7 +8633,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Bush v. Gore', '2000 Election', 'Supreme Court', 'Florida Recount', 'Election Theft'],
     sources: [
-      { title: 'Bush v. Gore Decision', url: 'https://www.supremecourt.gov/opinions/00pdf/00-949.pdf', type: 'Court Decision' },
+      { title: 'Bush v. Gore Decision', url: 'http://web.archive.org/web/20250713052119/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf', type: 'Court Decision' },
       { title: 'Media Recount Analysis', url: 'https://www.nytimes.com/2001/11/12/us/examining-vote-overview-study-disputed-florida-ballots-finds-justices-did-not.html', type: 'News Analysis' },
     ],
     affiliations: [

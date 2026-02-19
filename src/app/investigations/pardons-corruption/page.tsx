@@ -173,7 +173,7 @@ const investigationData = {
   },
 
   sources: [
-    { title: 'DOJ Pardon Database', url: 'https://www.justice.gov/pardon/pardons-granted-president-donald-trump', type: 'Government Database' },
+    { title: 'DOJ Pardon Database', url: 'http://web.archive.org/web/20210424061514/https://www.justice.gov/pardon/pardons-granted-president-donald-trump', type: 'Government Database' },
     { title: 'Analysis: Trump\'s Final Pardons', url: 'https://www.nytimes.com/2021/01/20/us/politics/trump-pardons.html', type: 'News Analysis' },
     { title: 'Obstruction via Pardon Power', url: 'https://www.lawfareblog.com/can-president-obstruct-justice-through-pardon-power', type: 'Legal Analysis' },
     { title: 'Manafort Pardon Details', url: 'https://www.washingtonpost.com/national-security/trump-pardon-manafort-stone-kushner/', type: 'News Report' },
