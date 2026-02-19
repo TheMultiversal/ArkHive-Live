@@ -25,7 +25,7 @@ const investigationData = {
   severity: 'high' as const,
   status: 'Convictions + Presidential Pardon',
   lastUpdated: 'February 2026',
-  summary: `"We Build the Wall" was a crowdfunding campaign that raised over $25 million from Trump supporters who believed their donations would go toward building a border wall. Instead, Steve Bannon, Brian Kolfage, and co-conspirators allegedly diverted millions for personal use—including Bannon's $1 million+ for personal expenses. Federal prosecutors charged them with wire fraud and money laundering conspiracy. Trump pardoned Bannon hours before leaving office, preventing his federal trial, though Bannon later faced state charges in New York.`,
+  summary: `"We Build the Wall" was a crowdfunding campaign that raised over $25 million from Trump supporters who believed their donations would go toward building a border wall. Instead, Steve Bannon, Brian Kolfage, and co-conspirators allegedly diverted millions for personal use|including Bannon's $1 million+ for personal expenses. Federal prosecutors charged them with wire fraud and money laundering conspiracy. Trump pardoned Bannon hours before leaving office, preventing his federal trial, though Bannon later faced state charges in New York.`,
   
   financials: {
     totalRaised: '$25+ million',

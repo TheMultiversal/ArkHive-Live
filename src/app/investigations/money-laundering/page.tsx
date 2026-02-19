@@ -283,7 +283,7 @@ export default function MoneyLaunderingPage() {
               <blockquote key={index} className="border-l-2 border-zinc-700 pl-4">
                 <p className="text-zinc-300 italic">&quot;{quote.quote}&quot;</p>
                 <footer className="text-sm text-zinc-500 mt-2">
-                  — {quote.person}, {quote.year} ({quote.source})
+                  | {quote.person}, {quote.year} ({quote.source})
                 </footer>
               </blockquote>
             ))}

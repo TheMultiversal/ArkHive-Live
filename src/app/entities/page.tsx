@@ -61,7 +61,7 @@ export default function EntitiesPage() {
             </div>
 
             <p className="text-zinc-400 text-center max-w-2xl mx-auto leading-relaxed">
-              Browse all documented entities—the agencies that issue the orders, the corporations that profit, 
+              Browse all documented entities|the agencies that issue the orders, the corporations that profit, 
               and the individuals who sign off on your destruction.
             </p>
           </div>

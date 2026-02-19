@@ -15224,7 +15224,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Conservative Activist, January 6 Participant',
     role: 'Wife of Justice Clarence Thomas, Election Denier',
     riskLevel: 'critical' as const,
-    description: 'Ginni Thomas is a conservative activist and wife of Supreme Court Justice Clarence Thomas who actively participated in efforts to overturn the 2020 election. She sent dozens of text messages to White House Chief of Staff Mark Meadows urging him to keep fighting, attended the January 6 rally, and worked with state legislators to overturn results—all while her husband refused to recuse from related cases.',
+    description: 'Ginni Thomas is a conservative activist and wife of Supreme Court Justice Clarence Thomas who actively participated in efforts to overturn the 2020 election. She sent dozens of text messages to White House Chief of Staff Mark Meadows urging him to keep fighting, attended the January 6 rally, and worked with state legislators to overturn results|all while her husband refused to recuse from related cases.',
     birthDate: 'February 23, 1957',
     birthPlace: 'Omaha, Nebraska, USA',
     education: [
@@ -15254,7 +15254,7 @@ const individualData: Record<string, IndividualProfile> = {
       'STATE LEGISLATOR PRESSURE: Emailed Arizona legislators urging them to appoint alternate (fake) electors to overturn Biden win',
       'EASTMAN MEETINGS: Attended meetings with John Eastman and others strategizing to overturn results',
       'CONFLICT OF INTEREST: Husband Clarence Thomas refused to recuse from January 6 cases despite Ginni\'s direct involvement',
-      'THOMAS DISSENT: Clarence Thomas was the ONLY justice to vote against releasing Trump White House records to J6 Committee—records that would reveal his wife\'s texts',
+      'THOMAS DISSENT: Clarence Thomas was the ONLY justice to vote against releasing Trump White House records to J6 Committee|records that would reveal his wife\'s texts',
       'GROUNDSWELL COALITION: Co-founded influential conservative strategy group coordinating right-wing messaging',
       'CONSULTING INCOME: Undisclosed consulting income from conservative groups while husband rules on related issues',
       'CULT INVOLVEMENT: Former member of Lifespring large group awareness training, which has been described as cult-like',

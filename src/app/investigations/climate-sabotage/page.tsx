@@ -24,7 +24,7 @@ const investigationData = {
   severity: 'critical' as const,
   status: 'Documented - Ongoing Damage',
   lastUpdated: 'February 2026',
-  summary: `The Trump administration engaged in the most comprehensive assault on environmental protections in modern history. By withdrawing from the Paris Climate Agreement, rolling back 100+ environmental regulations, installing fossil fuel lobbyists in the EPA, and suppressing climate science, the administration prioritized corporate profits over the health of the planet and its inhabitants. The damage—including accelerated warming, increased pollution, and lost international leadership—will take decades to reverse.`,
+  summary: `The Trump administration engaged in the most comprehensive assault on environmental protections in modern history. By withdrawing from the Paris Climate Agreement, rolling back 100+ environmental regulations, installing fossil fuel lobbyists in the EPA, and suppressing climate science, the administration prioritized corporate profits over the health of the planet and its inhabitants. The damage|including accelerated warming, increased pollution, and lost international leadership|will take decades to reverse.`,
   
   environmentalStats: {
     regulationsRolledBack: '100+',

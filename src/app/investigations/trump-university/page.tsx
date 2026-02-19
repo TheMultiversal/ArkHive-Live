@@ -23,7 +23,7 @@ const investigationData = {
   severity: 'high' as const,
   status: 'Settled - $25M Payment',
   lastUpdated: 'February 2026',
-  summary: `Trump University was a fraudulent real estate training program that operated from 2005 to 2010, promising students they would learn Donald Trump's secrets to success. In reality, it was not an accredited university and employed high-pressure sales tactics to extract up to $35,000 from students for courses that provided little value. Multiple lawsuits alleged fraud, with Trump ultimately settling for $25 million in November 2016—just days after winning the presidential election.`,
+  summary: `Trump University was a fraudulent real estate training program that operated from 2005 to 2010, promising students they would learn Donald Trump's secrets to success. In reality, it was not an accredited university and employed high-pressure sales tactics to extract up to $35,000 from students for courses that provided little value. Multiple lawsuits alleged fraud, with Trump ultimately settling for $25 million in November 2016|just days after winning the presidential election.`,
   
   fraudStats: {
     settlementAmount: '$25 million',
@@ -409,7 +409,7 @@ export default function TrumpUniversityPage() {
             {investigationData.victimTestimonies.map((testimony, index) => (
               <blockquote key={index} className="border-l-2 border-blood-600 pl-4">
                 <p className="text-zinc-300 italic">&quot;{testimony.statement}&quot;</p>
-                <footer className="text-sm text-zinc-500 mt-2">— {testimony.victim}</footer>
+                <footer className="text-sm text-zinc-500 mt-2">| {testimony.victim}</footer>
               </blockquote>
             ))}
           </div>

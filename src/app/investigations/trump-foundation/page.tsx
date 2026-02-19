@@ -130,7 +130,7 @@ const investigationData = {
   quotesFromRuling: [
     '"Mr. Trump\'s fiduciary duty breaches included allowing his campaign to orchestrate the Foundation\'s fundraiser and distribution of funds."',
     '"The Trump Foundation functioning as little more than a checkbook to serve Mr. Trump\'s business and political interests."',
-    '"A shocking pattern of illegality involving the Trump Foundation—including unlawful coordination with the Trump presidential campaign."',
+    '"A shocking pattern of illegality involving the Trump Foundation|including unlawful coordination with the Trump presidential campaign."',
   ],
 
   assetsDistributed: [

@@ -36,7 +36,7 @@
     "content": [
       "Environmental contamination investigations typically involve multiple layers of accountability. This template shows the structure for documenting such cases.",
       "Key elements include: timeline of events, affected population statistics, regulatory failures, corporate responsibility, and long-term health impacts.",
-      "Each entity involved—from the water utility to regulatory agencies to any corporate polluters—would be linked and cross-referenced across this and related investigations."
+      "Each entity involved|from the water utility to regulatory agencies to any corporate polluters|would be linked and cross-referenced across this and related investigations."
     ],
     "category": "Environmental",
     "severity": "high",

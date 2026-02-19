@@ -20,7 +20,7 @@ const investigation = {
   subtitle: 'The $107 Million Party with Missing Receipts',
   severity: 'high',
   status: 'Investigation Ongoing',
-  summary: 'Donald Trump\'s 2017 inaugural committee raised a record-shattering $107 million—nearly double what Obama\'s 2009 inaugural raised—yet delivered far fewer events. Federal prosecutors, the DC Attorney General, and House investigators have probed where the money actually went, uncovering inflated payments to Trump-owned properties, foreign donors, and possible tax fraud.',
+  summary: 'Donald Trump\'s 2017 inaugural committee raised a record-shattering $107 million|nearly double what Obama\'s 2009 inaugural raised|yet delivered far fewer events. Federal prosecutors, the DC Attorney General, and House investigators have probed where the money actually went, uncovering inflated payments to Trump-owned properties, foreign donors, and possible tax fraud.',
   amountRaised: '$107,000,000',
   keyFindings: [
     'Record-breaking fundraising: $107M (Obama 2009: $53M)',
@@ -59,7 +59,7 @@ const investigation = {
   trumpHotelIssue: {
     problem: 'Trump Hotel DC charged $175,000/day when market rate was ~$5,000/day',
     evidence: 'Internal emails showed concern: "Please take out any reference to the \u0027break-even\u0027 number"',
-    outcome: 'DC AG sued and settled—committee paid $750,000 to DC charities',
+    outcome: 'DC AG sued and settled|committee paid $750,000 to DC charities',
     emoluments: 'May have violated prohibition on profiting from presidency',
   },
   timeline: [

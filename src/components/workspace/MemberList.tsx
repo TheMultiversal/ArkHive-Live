@@ -88,7 +88,7 @@ export default function MemberList({ members, currentUserId = '1' }: MemberListP
         {onlineMembers.length > 0 && (
           <div className="p-3">
             <h4 className="text-[10px] font-medium text-white/25 uppercase tracking-widest mb-2 px-1">
-              Online — {onlineMembers.length}
+              Online | {onlineMembers.length}
             </h4>
             <div className="space-y-0.5">
               {onlineMembers.sort(sortMembers).map((member, index) => (
@@ -108,7 +108,7 @@ export default function MemberList({ members, currentUserId = '1' }: MemberListP
         {showOffline && offlineMembers.length > 0 && (
           <div className="p-3 border-t border-white/[0.03]">
             <h4 className="text-[10px] font-medium text-white/20 uppercase tracking-widest mb-2 px-1">
-              Offline — {offlineMembers.length}
+              Offline | {offlineMembers.length}
             </h4>
             <div className="space-y-0.5">
               {offlineMembers.sort(sortMembers).map((member, index) => (

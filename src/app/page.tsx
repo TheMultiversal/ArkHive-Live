@@ -254,52 +254,48 @@ export default function Home() {
                   </h2>
                   <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-blood-700 to-transparent mx-auto mb-4" />
                   <p className="text-base sm:text-lg text-zinc-300 leading-relaxed max-w-2xl mx-auto">
-                    <span className="text-blood-600 font-bold">Whistleblower sanctuary.</span> Resistance archive. Accountability engine.
+                    The uncensored archive. The evidence they delete. The truth they bury.
                     <br />
-                    The evidence they delete. The truth they bury. The crimes they commit in your name.
+                    And the crimes they commit in your name with your money while you sleep.
                   </p>
                 </div>
 
-                {/* Three Pillars */}
-                <div className="grid md:grid-cols-3 gap-4 mb-6">
-                  <div className="text-center p-4 border border-blood-900/40 bg-blood-950/30">
-                    <span className="text-3xl font-black text-blood-600">SANCTUARY</span>
-                    <p className="text-xs text-zinc-400 mt-2">Safe harbor for those who risk everything to expose the truth. Your identity protected. Your evidence preserved.</p>
-                  </div>
-                  <div className="text-center p-4 border border-blood-900/40 bg-blood-950/30">
-                    <span className="text-3xl font-black text-white">ARCHIVE</span>
-                    <p className="text-xs text-zinc-400 mt-2">Permanent record. Immutable documentation. What they delete, we preserve. What they hide, we expose.</p>
-                  </div>
-                  <div className="text-center p-4 border border-blood-900/40 bg-blood-950/30">
-                    <span className="text-3xl font-black text-blood-600">ENGINE</span>
-                    <p className="text-xs text-zinc-400 mt-2">Cross-reference. Connect. Expose. Every entity tracked. Every connection mapped. No one escapes accountability.</p>
-                  </div>
+                {/* What We Document */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                  {[
+                    { title: "Government Crimes", desc: "State-sponsored atrocities hidden from public view" },
+                    { title: "Corporate Malfeasance", desc: "Profit over people, cover-ups and collusion" },
+                    { title: "Medical Tyranny", desc: "Forced treatments, experimental injections, pharma fraud" },
+                    { title: "Civil Liberty Violations", desc: "Constitutional erosion, surveillance, censorship" },
+                  ].map((item, i) => (
+                    <div key={i} className="text-center p-3 border border-blood-900/40 bg-blood-950/30">
+                      <span className="block w-2 h-2 bg-blood-700 mx-auto mb-2" />
+                      <h3 className="text-xs sm:text-sm font-bold text-blood-600 uppercase tracking-wider mb-1">{item.title}</h3>
+                      <p className="text-[10px] sm:text-xs text-zinc-500 leading-tight">{item.desc}</p>
+                    </div>
+                  ))}
                 </div>
 
-                {/* What We Document - Expanded */}
-                <div className="border-t border-blood-900/40 pt-5 mb-5">
-                  <p className="text-xs text-zinc-500 uppercase tracking-wider text-center mb-4">What We Document</p>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                    {[
-                      { title: "Political Crimes", desc: "Election fraud, abuse of power, sedition" },
-                      { title: "Financial Crimes", desc: "Money laundering, tax evasion, RICO" },
-                      { title: "Human Trafficking", desc: "Networks, enablers, cover-ups" },
-                      { title: "Corporate Corruption", desc: "Regulatory capture, fraud, collusion" },
-                      { title: "Civil Rights Abuses", desc: "Police brutality, discrimination, suppression" },
-                      { title: "Intelligence Abuses", desc: "Surveillance, black sites, illegal programs" },
-                      { title: "Medical Crimes", desc: "Experimentation, fraud, cover-ups" },
-                      { title: "Environmental Crimes", desc: "Poisoning, contamination, negligence" },
-                    ].map((item, i) => (
-                      <div key={i} className="text-center p-2 border border-blood-900/30 bg-black/40">
-                        <h3 className="text-[10px] sm:text-xs font-bold text-blood-600 uppercase tracking-wider mb-1">{item.title}</h3>
-                        <p className="text-[9px] sm:text-[10px] text-zinc-500 leading-tight">{item.desc}</p>
-                      </div>
-                    ))}
+                {/* Mission Statement */}
+                <div className="border-t border-blood-900/40 pt-5">
+                  <div className="grid md:grid-cols-3 gap-4 text-center">
+                    <div>
+                      <span className="text-2xl font-black text-blood-600">EXPOSE</span>
+                      <p className="text-xs text-zinc-500 mt-1">Classified operations, black sites, and secret programs</p>
+                    </div>
+                    <div>
+                      <span className="text-2xl font-black text-white">DOCUMENT</span>
+                      <p className="text-xs text-zinc-500 mt-1">Primary sources, leaked files, and witness testimony</p>
+                    </div>
+                    <div>
+                      <span className="text-2xl font-black text-blood-600">PRESERVE</span>
+                      <p className="text-xs text-zinc-500 mt-1">Before they scrub it from existence forever</p>
+                    </div>
                   </div>
                 </div>
 
                 {/* Warning */}
-                <div className="p-3 border border-zinc-800 bg-zinc-900/50 text-center">
+                <div className="mt-6 p-3 border border-zinc-800 bg-zinc-900/50 text-center">
                   <p className="text-xs text-zinc-500 uppercase tracking-widest">
                     ⚠ This archive contains disturbing truths. Proceed with open eyes. ⚠
                   </p>
@@ -313,7 +309,7 @@ export default function Home() {
               <div className="mb-4">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="w-3 h-3 bg-blood-600" />
-                  <p className="text-sm text-blood-600 font-bold uppercase tracking-wider">Documented — Court Records & Indictments</p>
+                  <p className="text-sm text-blood-600 font-bold uppercase tracking-wider">Documented | Court Records & Indictments</p>
                 </div>
                 <div className="flex flex-wrap gap-2 text-xs">
                   {[
@@ -333,7 +329,7 @@ export default function Home() {
               <div className="mb-4">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="w-3 h-3 bg-zinc-500" />
-                  <p className="text-sm text-zinc-400 font-bold uppercase tracking-wider">Declassified — Proven Government Programs</p>
+                  <p className="text-sm text-zinc-400 font-bold uppercase tracking-wider">Declassified | Proven Government Programs</p>
                 </div>
                 <div className="flex flex-wrap gap-2 text-xs">
                   {[
@@ -352,7 +348,7 @@ export default function Home() {
               <div className="mb-4">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="w-3 h-3 bg-amber-600/70" />
-                  <p className="text-sm text-amber-600/90 font-bold uppercase tracking-wider">Under Investigation — Documented Patterns</p>
+                  <p className="text-sm text-amber-600/90 font-bold uppercase tracking-wider">Under Investigation | Documented Patterns</p>
                 </div>
                 <div className="flex flex-wrap gap-2 text-xs">
                   {[
@@ -372,7 +368,7 @@ export default function Home() {
               <div>
                 <div className="flex items-center gap-2 mb-2">
                   <span className="w-3 h-3 bg-purple-600/50" />
-                  <p className="text-sm text-purple-500/80 font-bold uppercase tracking-wider">Suppressed Research — Requires Investigation</p>
+                  <p className="text-sm text-purple-500/80 font-bold uppercase tracking-wider">Suppressed Research | Requires Investigation</p>
                 </div>
                 <div className="flex flex-wrap gap-2 text-xs">
                   {[

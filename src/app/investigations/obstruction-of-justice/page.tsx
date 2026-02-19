@@ -309,7 +309,7 @@ export default function ObstructionPage() {
               </blockquote>
             ))}
           </div>
-          <p className="text-sm text-zinc-500 mt-4">— Mueller Report, Volume II</p>
+          <p className="text-sm text-zinc-500 mt-4">| Mueller Report, Volume II</p>
         </motion.section>
 
         {/* 10 Obstruction Instances */}

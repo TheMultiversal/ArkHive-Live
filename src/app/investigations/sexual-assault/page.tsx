@@ -23,7 +23,7 @@ const investigationData = {
   severity: 'critical' as const,
   status: 'Documented - Civil Liability Established',
   lastUpdated: 'February 2026',
-  summary: `At least 26 women have publicly accused Donald Trump of sexual misconduct ranging from harassment to rape. In 2023, a federal jury found Trump liable for sexual abuse and defamation of E. Jean Carroll, awarding her $5 million. A second jury in 2024 awarded Carroll an additional $83.3 million for defamation. Trump's own words on the Access Hollywood tape—"I just start kissing them... grab them by the pussy"—confirm his predatory behavior pattern.`,
+  summary: `At least 26 women have publicly accused Donald Trump of sexual misconduct ranging from harassment to rape. In 2023, a federal jury found Trump liable for sexual abuse and defamation of E. Jean Carroll, awarding her $5 million. A second jury in 2024 awarded Carroll an additional $83.3 million for defamation. Trump's own words on the Access Hollywood tape|"I just start kissing them... grab them by the pussy"|confirm his predatory behavior pattern.`,
   
   accuserStats: {
     totalAccusers: '26+',
@@ -349,7 +349,7 @@ export default function SexualAssaultPage() {
 
           <blockquote className="text-zinc-400 italic border-l-2 border-zinc-700 pl-4 text-sm">
             {investigationData.pageantMisconduct.howardSternQuote}
-            <footer className="text-zinc-500 mt-2">— Donald Trump, Howard Stern Show</footer>
+            <footer className="text-zinc-500 mt-2">| Donald Trump, Howard Stern Show</footer>
           </blockquote>
         </motion.section>
 
