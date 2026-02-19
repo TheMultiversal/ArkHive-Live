@@ -19,7 +19,7 @@ const investigation = {
   subtitle: 'Zero Tolerance: Caged Children & Lost Families',
   severity: 'critical',
   status: 'Ongoing Humanitarian Crisis',
-  summary: 'The Trump administration\'s "zero tolerance" policy deliberately separated thousands of children from their parents at the U.S.-Mexico border, placing children|including infants|in cages in detention facilities. Internal documents reveal the policy was designed as a deterrent through cruelty. Years later, hundreds of children remain separated from their families, some may never be reunited.',
+  summary: 'The Trump administration\'s "zero tolerance" policy deliberately separated thousands of children from their parents at the U.S.-Mexico border, placing children, including infants, in cages in detention facilities. Internal documents reveal the policy was designed as a deterrent through cruelty. Years later, hundreds of children remain separated from their families, some may never be reunited.',
   statistics: {
     childrenSeparated: '5,500+ children separated',
     stillSeparated: '1,000+ children still not reunited with families',

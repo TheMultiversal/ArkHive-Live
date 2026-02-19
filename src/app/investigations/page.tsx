@@ -363,7 +363,7 @@ const allInvestigations: Investigation[] = [
     id: "inaugural-1",
     slug: "inaugural-committee",
     title: "Inaugural Committee Investigation",
-    summary: "Record $107 million raised for Trump's 2017 inauguration|double Obama's total|yet delivered fewer events. Trump Hotel overcharged, $26M to Melania's friend, foreign donors investigated.",
+    summary: "Record $107 million raised for Trump's 2017 inauguration, double Obama's total, yet delivered fewer events. Trump Hotel overcharged, $26M to Melania's friend, foreign donors investigated.",
     category: "Corruption",
     severity: "high",
     date: "February 8, 2026",

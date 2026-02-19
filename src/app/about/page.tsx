@@ -38,7 +38,7 @@ export default function AboutPage() {
             <h2 className="text-xl font-black text-white uppercase tracking-wider">Our Mission</h2>
           </div>
           <p className="text-zinc-400 leading-relaxed mb-4">
-            <span className="text-white font-bold">Your Government Is Killing You | ArkHive®</span> exists to create a permanent, 
+            <span className="text-white font-bold">ArkHive®</span> exists to create a permanent, 
             accessible record of institutional crimes that harm the public. Every poisoned water supply. 
             Every covered-up experiment. Every policy designed to shorten your life.
           </p>

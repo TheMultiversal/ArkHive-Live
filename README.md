@@ -1,4 +1,4 @@
-# Your Government Is Killing You | ArkHive
+# ArkHive
 
 A professional investigative journalism platform built with Next.js 15, designed to document and expose institutional actions that impact public health, safety, and civil liberties.
 

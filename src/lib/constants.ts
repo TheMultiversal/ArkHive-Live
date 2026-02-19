@@ -157,7 +157,7 @@ export const NAV_LINKS = [
  * Site metadata
  */
 export const SITE_CONFIG = {
-  name: 'Your Government Is Killing You | ArkHive',
+  name: 'ArkHive',
   shortName: 'ArkHive',
   description: 'An investigative platform exposing the truth about government, corporate, and institutional actions affecting public health and safety.',
   url: 'https://arkhive.org',

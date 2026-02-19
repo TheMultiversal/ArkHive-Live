@@ -162,7 +162,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="py-6 border-t border-dark-800/50 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-dark-500">
-            © {currentYear} Your Government Is Killing You | ArkHive. All information is provided for educational purposes.
+            © {currentYear} ArkHive. All information is provided for educational purposes.
           </p>
           <div className="flex items-center gap-4">
             <span className="text-xs text-dark-500 flex items-center gap-2">

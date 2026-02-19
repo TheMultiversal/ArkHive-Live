@@ -19,7 +19,7 @@ const investigation = {
   subtitle: 'Profiting from the Presidency',
   severity: 'high',
   status: 'Cases Dismissed as Moot After Term',
-  summary: 'Throughout his presidency, Donald Trump refused to divest from his businesses and accepted payments from foreign governments through his hotels and properties|a direct violation of the Constitution\'s Emoluments Clauses. Foreign governments, state governments, and political groups spent millions at Trump properties, effectively paying the President for access and influence.',
+  summary: 'Throughout his presidency, Donald Trump refused to divest from his businesses and accepted payments from foreign governments through his hotels and properties, a direct violation of the Constitution\'s Emoluments Clauses. Foreign governments, state governments, and political groups spent millions at Trump properties, effectively paying the President for access and influence.',
   constitutionalProvisions: [
     { clause: 'Foreign Emoluments Clause (Art. I, Sec. 9)', text: 'No Person holding any Office of Profit or Trust under them, shall, without the Consent of the Congress, accept of any present, Emolument, Office, or Title, of any kind whatever, from any King, Prince, or foreign State.' },
     { clause: 'Domestic Emoluments Clause (Art. II, Sec. 1)', text: 'The President shall not receive...any other Emolument from the United States, or any of them.' },

@@ -20,7 +20,7 @@ const investigation = {
   subtitle: '"Very Fine People on Both Sides"',
   severity: 'critical',
   status: 'Historical Record',
-  summary: 'On August 11-12, 2017, white supremacists, neo-Nazis, and Klansmen gathered in Charlottesville, Virginia for the "Unite the Right" rally, chanting "Jews will not replace us." Counter-protester Heather Heyer was murdered when a neo-Nazi drove his car into a crowd. President Trump\'s response|equating white supremacists with those protesting them|defined his presidency and emboldened the far right.',
+  summary: 'On August 11-12, 2017, white supremacists, neo-Nazis, and Klansmen gathered in Charlottesville, Virginia for the "Unite the Right" rally, chanting "Jews will not replace us." Counter-protester Heather Heyer was murdered when a neo-Nazi drove his car into a crowd. President Trump\'s response, equating white supremacists with those protesting them, defined his presidency and emboldened the far right.',
   casualties: {
     dead: 1,
     injured: 35,

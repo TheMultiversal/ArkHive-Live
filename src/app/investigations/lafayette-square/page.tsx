@@ -69,7 +69,7 @@ const investigation = {
   religiousCondemnation: [
     { name: 'Bishop Mariann Budde', faith: 'Episcopal', quote: '"The president just used a Bible...and one of the churches of my diocese, without permission, as a backdrop for a message antithetical to the teachings of Jesus."' },
     { name: 'Archbishop Wilton Gregory', faith: 'Catholic', quote: '"I find it baffling and reprehensible that any Catholic facility would allow itself to be so egregiously misused."' },
-    { name: 'Rev. Gini Gerbasi', faith: 'Episcopal', quote: '"They turned on us|people in my exact location|and started firing off flash-bangs and tear gas."' },
+    { name: 'Rev. Gini Gerbasi', faith: 'Episcopal', quote: '"They turned on us, people in my exact location, and started firing off flash-bangs and tear gas."' },
   ],
   forcesUsed: [
     { agency: 'US Park Police', role: 'Primary force for clearing', weapons: 'Batons, pepper balls, shields' },

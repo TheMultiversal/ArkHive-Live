@@ -2113,7 +2113,7 @@ const organizationData: Record<string, OrganizationProfile> = {
     name: 'International Monetary Fund',
     type: 'International Financial Institution',
     riskLevel: 'medium',
-    description: 'The International Monetary Fund is an international organization that provides loans to countries experiencing financial difficulties. Critics argue IMF conditions|austerity measures|have devastated developing countries while protecting Western creditors.',
+    description: 'The International Monetary Fund is an international organization that provides loans to countries experiencing financial difficulties. Critics argue IMF conditions, austerity measures, have devastated developing countries while protecting Western creditors.',
     founded: '1944',
     headquarters: 'Washington, D.C.',
     members: '190 member countries',
