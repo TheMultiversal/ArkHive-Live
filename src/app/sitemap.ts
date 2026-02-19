@@ -6,9 +6,9 @@ const getInvestigations = () => [
 ];
 
 const getEntities = () => [
-  { slug: 'example-agency', type: 'agencies', lastUpdated: '2026-01-15' },
-  { slug: 'example-corporation', type: 'corporations', lastUpdated: '2026-01-20' },
-  { slug: 'example-individual', type: 'individuals', lastUpdated: '2026-01-25' },
+  { slug: 'nsa', type: 'agencies', lastUpdated: '2026-01-15' },
+  { slug: 'nexus-holdings', type: 'corporations', lastUpdated: '2026-01-20' },
+  { slug: 'donald-trump', type: 'individuals', lastUpdated: '2026-01-25' },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

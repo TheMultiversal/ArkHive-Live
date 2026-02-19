@@ -185,7 +185,7 @@ const timelineEvents: TimelineEvent[] = [
     description: "Rushed through Congress after 9/11. Enabled mass surveillance, indefinite detention. Most legislators didn't read it.",
     category: "Constitutional Violations",
     severity: "critical",
-    slug: "patriot-act",
+    slug: "surveillance-state",
     tags: ["PATRIOT Act", "Surveillance"],
   },
   {
@@ -195,7 +195,7 @@ const timelineEvents: TimelineEvent[] = [
     description: "Indefinite detention without trial begins. Torture including waterboarding, force-feeding. 780 detained, most never charged.",
     category: "War Crimes",
     severity: "critical",
-    slug: "guantanamo-bay",
+    slug: "torture-program",
     tags: ["Guantánamo", "Torture"],
   },
   {
@@ -225,7 +225,7 @@ const timelineEvents: TimelineEvent[] = [
     description: "Wall Street fraud crashed global economy. 8 million jobs lost. Taxpayers bailed out banks. No executives jailed.",
     category: "Financial Crimes",
     severity: "critical",
-    slug: "2008-financial-crisis",
+    slug: "financial-fraud",
     tags: ["Financial Crisis", "Wall Street"],
   },
   {
@@ -235,7 +235,7 @@ const timelineEvents: TimelineEvent[] = [
     description: "Supreme Court declared corporations are people with speech rights. Unleashed unlimited dark money in politics.",
     category: "Corruption",
     severity: "critical",
-    slug: "dark-money-politics",
+    slug: "dark-money",
     tags: ["Citizens United", "Dark Money"],
   },
   {
@@ -435,7 +435,7 @@ const timelineEvents: TimelineEvent[] = [
     description: "Supreme Court grants broad immunity for 'official acts.' Shields presidents from prosecution. 6-3 decision.",
     category: "Corruption",
     severity: "critical",
-    slug: "supreme-court-ethics",
+    slug: "scotus-ethics",
     tags: ["Immunity", "SCOTUS"],
   },
 ];
