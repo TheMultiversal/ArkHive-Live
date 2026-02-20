@@ -399,11 +399,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ghislaine Maxwell Trial Documents', url: 'https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison', date: '2021' },
       { title: 'Unsealed Giuffre v. Maxwell Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
       { title: 'Epstein Flight Logs', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2019-2025' },
-      { title: 'Palm Beach Police Reports', url: 'https://palmbeachpost.com/story/news/crime/2019/07/09/palm-beach-police-documents-epstein-case/4537389007/', date: '2005' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Palm Beach Police Reports', url: 'https://palmbeachpost.com/story/news/crime/2019/07/09/palm-beach-police-documents-epstein-case/4537389007/', date: '2005' },
       { title: 'New York Magazine: The Fantasist', url: 'https://nymag.com/news/features/41826/', date: '2007' },
       { title: 'Vanity Fair: The Talented Mr. Epstein', url: 'https://www.vanityfair.com/news/2003/03/jeffrey-epstein-200303', date: '2003' };
       { title: 'NPA Agreement Ruling', url: 'https://www.courtlistener.com/opinion/4590283/jane-doe-1-v-united-states/', date: '2019' },
-      { title: 'Medical Examiner Autopsy Report', url: 'https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Medical Examiner Autopsy Report', url: 'https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report', date: '2019' },
       { title: 'DOJ IG Report on MCC Manhattan', url: 'https://oig.justice.gov/reports', date: '2020' },
     ],
   },
@@ -1152,7 +1152,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Flynn Plea Agreement', url: 'https://www.courtlistener.com/docket/6234142/united-states-v-flynn/', date: '2017' },
       { title: 'DOJ Flynn Statement of Offense', url: 'http://web.archive.org/web/20240314193724/http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download', date: '2017' },
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
-      { title: 'House Oversight Turkey Lobbying Report', url: 'https://web.archive.org/web/*/https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf', date: '2017' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'House Oversight Turkey Lobbying Report', url: 'https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf', date: '2017' },
       { title: 'WaPo: Flynn-Kislyak Calls', url: 'https://www.washingtonpost.com/world/national-security/national-security-adviser-flynn-discussed-sanctions-with-russian-ambassador-despite-denials-officials-say/2017/02/09/f85b29d6-ee11-11e6-b4ff-ac2cf509efe5_story.html', date: '2017' },
     ],
   },
@@ -1584,8 +1584,8 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Manhattan DA Tax Fraud Indictment', url: 'https://www.manhattanda.org/', date: '2021' },
-      { title: 'Tax Fraud Guilty Plea', url: 'https://www.manhattanda.org/d-a-bragg-long-time-trump-organization-cfo-allen-weisselberg-sentenced/', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
-      { title: 'Perjury Guilty Plea', url: 'https://www.manhattanda.org/d-a-bragg-allen-weisselberg-pleads-guilty-to-perjury/', date: '2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Tax Fraud Guilty Plea', url: 'https://www.manhattanda.org/d-a-bragg-long-time-trump-organization-cfo-allen-weisselberg-sentenced/', date: '2023' },
+      { title: 'Perjury Guilty Plea', url: 'https://www.manhattanda.org/d-a-bragg-allen-weisselberg-pleads-guilty-to-perjury/', date: '2024' },
       { title: 'NY AG Civil Fraud Trial Evidence', date: '2023' },
     ],
   },
@@ -2541,7 +2541,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-and-igor-fruman-charged-campaign-finance-offenses', date: '2019' },
-      { title: 'House Intelligence Committee Evidence', url: 'https://intelligence.house.gov/news/documentsingle.aspx?DocumentID=821', date: '2020' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'House Intelligence Committee Evidence', url: 'https://intelligence.house.gov/reports-letters/', date: '2020' },
     ],
   },
   'igor-fruman': {
