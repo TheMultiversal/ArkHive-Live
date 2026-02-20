@@ -56,7 +56,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Criminal Indictment', 'RICO', 'Felony Conviction', 'Civil Fraud', 'Tax Evasion', 'Obstruction', 'Hush Money'],
     sources: [
       { title: 'Federal Classified Documents Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', type: 'Court Filing' },
-      { title: 'Federal January 6th Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+      { title: 'Federal January 6th Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
       { title: 'Georgia RICO Indictment', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
       { title: 'Manhattan DA Criminal Case', url: 'https://www.manhattanda.org/district-attorney-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/', type: 'Press Release' },
       { title: 'NY AG Civil Fraud Judgment', url: 'https://ag.ny.gov/press-release/2024/attorney-general-james-statement-court-ruling-donald-trump-fraud-case', type: 'Press Release' },
@@ -94,7 +94,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Miami Herald Perversion of Justice Investigation', url: 'https://www.miamiherald.com/news/local/article220097825.html', type: 'Investigation' },
       { title: 'Trump 2002 Quote About Epstein', url: 'http://nymag.com/nymetro/news/people/n_7912/', type: 'News Article' },
-      { title: 'DOJ Report on Acosta Plea Deal', url: 'https://www.justice.gov/opr/page/file/1232356/download', type: 'Government Report' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'DOJ Report on Acosta Plea Deal', url: 'https://web.archive.org/web/*/https://www.justice.gov/opr/page/file/1232356/download', type: 'Government Report' },
       { title: 'Maxwell Conviction - DOJ Press Release', url: 'https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison-sex-trafficking-minor', type: 'Press Release' },
       { title: 'Virginia Giuffre Prince Andrew Settlement', url: 'https://www.nytimes.com/2022/02/15/nyregion/prince-andrew-virginia-giuffre-settlement.html', type: 'News Report' },
     ],
@@ -130,7 +130,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['January 6', 'Insurrection', 'Capitol Attack', 'Proud Boys', 'Oath Keepers', 'Sedition', 'Trump'],
     sources: [
       { title: 'January 6th Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
-      { title: 'Trump January 6 Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Trump January 6 Federal Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
       { title: 'DOJ January 6 Prosecution Statistics', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', type: 'Government Website' },
       { title: 'Cassidy Hutchinson Testimony', url: 'https://www.youtube.com/watch?v=_c_5N2Z6cNM', type: 'Video Testimony' },
       { title: 'Proud Boys Seditious Conspiracy Conviction', url: 'https://www.justice.gov/usao-dc/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', type: 'Press Release' },
@@ -959,7 +959,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Federal Indictment - Bannon, Kolfage', url: 'https://www.justice.gov/usao-sdny/press-release/file/1306611/download', type: 'Court Filing' },
       { title: 'Kolfage Sentencing', url: 'https://www.justice.gov/usao-sdny/pr/brian-kolfage-sentenced-prison-we-build-wall-fraud-scheme', type: 'Press Release' },
-      { title: 'NY State Bannon Indictment', url: 'https://www.ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment', type: 'Press Release' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'NY State Bannon Indictment', url: 'https://www.ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment', type: 'Press Release' },
       { title: 'Trump Pardon Announcement', url: 'https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-012021/', type: 'Government Document' },
     ],
     affiliations: [
