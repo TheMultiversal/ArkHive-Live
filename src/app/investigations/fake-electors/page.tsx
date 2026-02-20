@@ -84,7 +84,7 @@ const investigation = {
   ],
   sources: [
     { title: 'DOJ Jack Smith January 6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: '2023' },
-      { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
     { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
     { title: 'Michigan AG Fake Electors Charges', url: 'https://www.michigan.gov/ag/news/press-releases/2023/07/18/ag-nessel-charges-16-individuals-as-false-electors', date: '2023' },
     { title: 'Arizona AG Fake Electors Indictment', url: 'https://www.azag.gov/', date: '2024' },

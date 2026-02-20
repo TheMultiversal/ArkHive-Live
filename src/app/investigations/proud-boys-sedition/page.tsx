@@ -84,7 +84,7 @@ const investigation = {
   ],
   sources: [
     { title: 'DOJ Proud Boys Seditious Conspiracy Indictment', url: 'https://www.justice.gov/opa/pr/leader-proud-boys-and-four-other-members-indicted-federal-court-seditious-conspiracy-and', date: '2022' },
-    { title: 'DOJ Conviction Announcement', url: 'https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+    { title: 'DOJ Conviction Announcement', url: 'https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', date: '2023' },
     { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
     { title: 'Tarrio Sentencing Memorandum', url: 'https://www.justice.gov/usao-dc/pr/proud-boys-leader-sentenced-22-years-prison-seditious-conspiracy', date: '2023' },
   ],

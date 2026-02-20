@@ -56,7 +56,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Criminal Indictment', 'RICO', 'Felony Conviction', 'Civil Fraud', 'Tax Evasion', 'Obstruction', 'Hush Money'],
     sources: [
       { title: 'Federal Classified Documents Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', type: 'Court Filing' },
-      { title: 'Federal January 6th Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Federal January 6th Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
       { title: 'Georgia RICO Indictment', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
       { title: 'Manhattan DA Criminal Case', url: 'https://www.manhattanda.org/district-attorney-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/', type: 'Press Release' },
       { title: 'NY AG Civil Fraud Judgment', url: 'https://ag.ny.gov/press-release/2024/attorney-general-james-statement-court-ruling-donald-trump-fraud-case', type: 'Press Release' },
@@ -3344,8 +3344,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Supreme Court', 'Clarence Thomas', 'Ethics', 'Harlan Crow', 'Samuel Alito', 'Corruption'],
     sources: [
-      { title: 'ProPublica Thomas Investigation', url: 'https://propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-crow', type: 'Investigation' },
-      { title: 'ProPublica Alito Investigation', url: 'https://propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'ProPublica Thomas Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-crow', type: 'Investigation' },
+      { title: 'ProPublica Alito Investigation', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' },
       { title: 'Leo-Ginni Thomas Payments', url: 'https://www.washingtonpost.com/investigations/2023/09/22/leonard-leo-paid-ginni-thomas/', type: 'Investigation' },
       { title: 'Senate Judiciary Ethics Hearings', url: 'https://www.judiciary.senate.gov/committee-activity/hearings/supreme-court-ethics-what-our-highest-court-should-learn-from-other-courts-and-other-branches', type: 'Government Record' },
     ],
@@ -4299,7 +4299,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Supreme Court', 'Ethics', 'Clarence Thomas', 'Samuel Alito', 'Recusal', 'Disclosure', 'Judicial Reform'],
     sources: [
       { title: 'ProPublica Supreme Court Investigation', url: 'https://www.propublica.org/series/supreme-court-ethics', type: 'Investigation' },
-      { title: 'Alito Alaska Trip', url: 'https://propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Alito Alaska Trip', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' },
       { title: 'SCOTUS Adopted Ethics Code', url: 'https://www.supremecourt.gov/about/Code-of-Conduct-for-Justices_Adopted.pdf', type: 'Court Document' },
       { title: 'Gallup Supreme Court Confidence Poll', url: 'https://news.gallup.com/poll/394103/confidence-supreme-court-sinks-historic-low.aspx', type: 'Polling' },
       { title: 'Senate Judiciary Ethics Hearing', url: 'https://www.judiciary.senate.gov/committee-activity/hearings/supreme-court-ethics', type: 'Congressional Record' },
