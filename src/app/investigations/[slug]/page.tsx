@@ -2489,7 +2489,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Original New York Magazine Article', url: 'https://web.archive.org/web/*/https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', type: 'Primary Source' },
     ],
     affiliations: [
-      { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant, found liable', href: '/entities/individuals/donald-trump' };
+      { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant, found liable', href: '/entities/individuals/donald-trump' },
       { id: '2', name: 'E. Jean Carroll', type: 'individual', relationship: 'Plaintiff, $88M verdict', href: '/entities/individuals/e-jean-carroll' },
     ],
   },
@@ -4106,6 +4106,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Clark Indictment - Georgia', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
       { title: 'Trump-Rosen Call Notes', url: 'https://www.nytimes.com/2021/07/30/us/politics/trump-doj-rosen-election.html', type: 'News Report' },
       { title: 'Federal J6 Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+    ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Pressured DOJ to overturn election', href: '/entities/individuals/donald-trump' },
       { id: '2', name: 'Jeffrey Clark', type: 'individual', relationship: 'DOJ official, co-conspirator, indicted', href: '/entities/individuals/jeffrey-clark' },
@@ -4302,7 +4303,6 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'SCOTUS Adopted Ethics Code', url: 'https://www.supremecourt.gov/about/Code-of-Conduct-for-Justices_Adopted.pdf', type: 'Court Document' },
       { title: 'Gallup Supreme Court Confidence Poll', url: 'https://news.gallup.com/poll/394103/confidence-supreme-court-sinks-historic-low.aspx', type: 'Polling' },
       { title: 'Senate Judiciary Ethics Hearing', url: 'https://www.judiciary.senate.gov/committee-activity/hearings/supreme-court-ethics', type: 'Congressional Record' },
-    ],
     ],
     affiliations: [
       { id: '1', name: 'Clarence Thomas', type: 'individual', relationship: 'Undisclosed gifts, recusal refusals', href: '/entities/individuals/clarence-thomas' },

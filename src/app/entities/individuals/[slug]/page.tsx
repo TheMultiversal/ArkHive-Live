@@ -9,8 +9,7 @@ interface IndividualProfile {
   riskLevel: 'critical' | 'high' | 'medium' | 'low';
   description: string;
   birthDate?: string;
-  birthPlace?: string;vn0b?
-  0
+  birthPlace?: string;
   deathDate?: string;
   education: string[];
   netWorth?: string;
@@ -273,7 +272,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'IRS Audit Documents via Congressional Reports', url: 'https://waysandmeans.house.gov/trump-tax-returns/', date: '2023-2025' },
       { title: 'DHS/ICE Detention Reports', url: 'https://web.archive.org/web/*/https://www.oig.dhs.gov/reports', date: '2020-2025' },
       { title: 'EPA Environmental Rollback Documentation', url: 'https://www.epa.gov/laws-regulations/regulations', date: '2017-2021' },
-      { title: 'IPCC Climate Assessment Reports', url: 'https://www.ipcc.ch/reports/', date: '2025' };
+      { title: 'IPCC Climate Assessment Reports', url: 'https://www.ipcc.ch/reports/', date: '2025' },
       { title: 'WHO Health Impact Studies', url: 'https://www.who.int/publications', date: '2024' },
       { title: 'Congressional Oversight Hearings', url: 'https://www.congress.gov/committees', date: '2024-2025' },
       { title: 'UN Human Rights Reports', url: 'https://www.ohchr.org/en/countries/united-states-america', date: '2020-2025' },
@@ -289,7 +288,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Yemen War Casualty Reports (UN)', url: 'https://www.ohchr.org/en/hr-bodies/hrc/yemen/index', date: '2017-2025' },
       { title: 'Cambridge Analytica Scandal Documents', url: 'https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
     ],
-  };
+  },
   'jeffrey-epstein': {
     name: 'Jeffrey Edward Epstein',
     title: 'Convicted Sex Offender & Trafficker',
@@ -401,7 +400,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Epstein Flight Logs', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2019-2025' },
       { title: 'Palm Beach Police Reports', url: 'https://palmbeachpost.com/story/news/crime/2019/07/09/palm-beach-police-documents-epstein-case/4537389007/', date: '2005' },
       { title: 'New York Magazine: The Fantasist', url: 'https://nymag.com/news/features/41826/', date: '2007' },
-      { title: 'Vanity Fair: The Talented Mr. Epstein', url: 'https://www.vanityfair.com/news/2003/03/jeffrey-epstein-200303', date: '2003' };
+      { title: 'Vanity Fair: The Talented Mr. Epstein', url: 'https://www.vanityfair.com/news/2003/03/jeffrey-epstein-200303', date: '2003' },
       { title: 'NPA Agreement Ruling', url: 'https://www.courtlistener.com/opinion/4590283/jane-doe-1-v-united-states/', date: '2019' },
       { title: 'Medical Examiner Autopsy Report', url: 'https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report', date: '2019' },
       { title: 'DOJ IG Report on MCC Manhattan', url: 'https://oig.justice.gov/reports', date: '2020' },
@@ -981,7 +980,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Cyprus Shell Companies Analysis', url: 'https://www.icij.org/investigations/pandora-papers/', date: '2021' },
       { title: 'Deripaska Relationship Documents', url: 'https://web.archive.org/web/*/https://atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/', date: '2018' },
     ],
-  };
+  },
   'roger-stone': {
     name: 'Roger Jason Stone Jr.',
     title: 'Convicted Felon (Pardoned), Professional Dirty Trickster',
@@ -3537,7 +3536,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'DHS IG Reports on Family Separation', url: 'https://web.archive.org/web/*/https://oig.dhs.gov/reports', date: '2019-2020' },
       { title: 'House Oversight Committee Investigation', url: 'https://oversight.house.gov/', date: '2019' },
-      { title: 'ACLU Family Separation Documentation', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/family-separation', date: '2018-2024' };
+      { title: 'ACLU Family Separation Documentation', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/family-separation', date: '2018-2024' },
       { title: 'UN Human Rights Council Report', date: '2019' },
       { title: 'GAO Reports on Child Deaths', date: '2019-2020' },
     ],
@@ -3858,7 +3857,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'New York Magazine Article', url: 'https://web.archive.org/web/*/https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' },
       { title: '"What Do We Need Men For?" Book', url: 'https://amazon.com/What-Do-Need-Men-Hideous/dp/1250215420', date: '2019' },
     ],
-  };
+  },
   'stormy-daniels': {
     name: 'Stephanie Gregory Clifford',
     title: 'Adult Film Actress, Director',
@@ -3913,7 +3912,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: '60 Minutes Interview', url: 'https://www.cbsnews.com/news/stormy-daniels-describes-her-alleged-affair-with-donald-trump-60-minutes-interview/', date: '2018' },
       { title: '"Full Disclosure" Book', url: 'https://web.archive.org/web/*/https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611', date: '2018' },
     ],
-  };
+  },
   'ruby-freeman': {
     name: 'Ruby Freeman',
     title: 'Former Georgia Election Worker',
@@ -5084,7 +5083,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Cambridge Analytica Investigation (UK ICO)', url: 'https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
       { title: 'FEC Donation Records', url: 'https://www.fec.gov/', date: '2016' },
-      { title: 'New Yorker Profile', url: 'https://www.newyorker.com/magazine/2017/03/27/the-reclusive-hedge-fund-tycoon-behind-the-trump-presidency', date: '2017' };
+      { title: 'New Yorker Profile', url: 'https://www.newyorker.com/magazine/2017/03/27/the-reclusive-hedge-fund-tycoon-behind-the-trump-presidency', date: '2017' },
     ],
   },
   'rebekah-mercer': {
@@ -15454,7 +15453,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Fed BlackRock Contracts', url: 'https://www.newyorkfed.org/markets/secondary-market-corporate-credit-facility', date: '2020' },
       { title: 'Fink Annual Letters', url: 'https://web.archive.org/web/*/https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter', date: '2024' },
     ],
-  };
+  },
   'clarence-thomas': {
     name: 'Clarence Thomas',
     title: 'Associate Justice, U.S. Supreme Court',
@@ -15541,8 +15540,8 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'ProPublica Thomas-Crow Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' },
       { title: 'ProPublica RV Investigation', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-bought-him-an-rv-worth-more-than-double-his-annual-salary', date: '2023' },
-      { title: 'ProPublica Real Estate Investigation', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus', date: '2023' };
-      { title: 'January 6 Committee - Ginni Thomas Texts', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' };
+      { title: 'ProPublica Real Estate Investigation', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus', date: '2023' },
+      { title: 'January 6 Committee - Ginni Thomas Texts', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
     ],
   },
   'samuel-alito': {
@@ -16500,7 +16499,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'ProPublica - Clarence Thomas Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' },
       { title: 'ProPublica - Thomas Mother\'s Home', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus', date: '2023' },
-      { title: 'Senate Judiciary Committee Investigation', date: '2023-2024' };
+      { title: 'Senate Judiciary Committee Investigation', date: '2023-2024' },
       { title: 'ProPublica - School Tuition Payments', date: '2023' },
     ],
   },
@@ -17458,7 +17457,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'NLRB Tesla Ruling', url: 'https://www.nlrb.gov/case/32-CA-197020', date: '2021' },
       { title: 'ADL Antisemitism Report', url: 'https://web.archive.org/web/*/https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet', date: '2023' },
     ],
-  };
+  },
   'kelly-loeffler': {
     name: 'Kelly Lynn Loeffler',
     title: 'Former U.S. Senator from Georgia',
@@ -17753,7 +17752,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'UN Security Council Presentation Transcript', url: 'https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm', date: '2003' },
       { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' },
       { title: 'My Lai Investigation Documents - National Archives', url: 'https://www.archives.gov/research/military/vietnam-war/war-crimes', date: '1968' },
-      { title: 'Curveball: Spies, Lies, and the Con Man Who Caused a War', date: '2007' };
+      { title: 'Curveball: Spies, Lies, and the Con Man Who Caused a War', date: '2007' },
       { title: 'Iran-Contra Tower Commission Report', url: 'https://web.archive.org/web/*/https://www.archive.org/details/towercommissionr00unit', date: '1987' },
       { title: 'The Iraq Study Group Report', url: 'https://www.usip.org/publications/2006/12/iraq-study-group-report', date: '2006' },
     ],
@@ -17840,7 +17839,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
       { title: 'Senate Torture Report (SSCI)', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
       { title: 'August 6, 2001 PDB (Declassified)', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB116/', date: '2001' },
-      { title: 'CNN Mushroom Cloud Interview Transcript', date: 'September 8, 2002' };
+      { title: 'CNN Mushroom Cloud Interview Transcript', date: 'September 8, 2002' },
       { title: 'No Higher Honor: A Memoir of My Years in Washington', date: '2011' },
     ],
   },
@@ -17930,7 +17929,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Rumsfeld Torture Memo (Declassified)', url: 'https://nsarchive2.gwu.edu/torturingdemocracy/documents/20021127.pdf', date: '2002' },
       { title: 'Abu Ghraib Investigations', url: 'https://web.archive.org/web/*/https://aclu.org/sites/default/files/FilesPDFs/fay.pdf', date: '2004' },
       { title: 'PNAC Iraq Letter', url: 'https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },
-      { title: 'Taguba Report on Abu Ghraib', url: 'https://aclu.org/sites/default/files/torturefoia/released/030904.pdf', date: '2004' };
+      { title: 'Taguba Report on Abu Ghraib', url: 'https://aclu.org/sites/default/files/torturefoia/released/030904.pdf', date: '2004' },
       { title: 'Known and Unknown: A Memoir', date: '2011' },
     ],
   },
@@ -18017,10 +18016,10 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Senate Intelligence Committee Torture Report', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
       { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },
-      { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' };
+      { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
       { title: 'CIA OIG Special Review - Detention and Interrogation', url: 'https://web.archive.org/web/*/https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf', date: '2004' },
       { title: 'At the Center of the Storm: My Years at the CIA', date: '2007' },
-      { title: 'Curveball Investigation Reports', date: '2004' };
+      { title: 'Curveball Investigation Reports', date: '2004' },
     ],
   },
   'paul-wolfowitz': {
@@ -18359,7 +18358,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Tower Commission Report', url: 'https://web.archive.org/web/*/https://www.archive.org/details/towercommissionr00unit', date: '1987' },
       { title: 'Iran-Contra Independent Counsel Final Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
-      { title: 'Congressional Iran-Contra Report', url: 'https://archive.org/details/reportofcongress01unit', date: '1987' };
+      { title: 'Congressional Iran-Contra Report', url: 'https://archive.org/details/reportofcongress01unit', date: '1987' },
       { title: 'North Congressional Testimony Transcripts', date: '1987' },
       { title: 'United States v. North - Appeals Court Decision', date: '1990' },
       { title: 'Under Fire: An American Story (North autobiography)', date: '1991' },
@@ -19545,7 +19544,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Tower Commission Report', url: 'https://web.archive.org/web/*/https://archives.gov/research/foreign-policy/reagan', date: '1987' },
       { title: 'Iran-Contra Congressional Report', url: 'https://www.congress.gov/', date: '1987' },
-      { title: 'Nicaragua v. United States (ICJ Ruling)', url: 'https://www.icj-cij.org/case/70', date: '1986' };
+      { title: 'Nicaragua v. United States (ICJ Ruling)', url: 'https://www.icj-cij.org/case/70', date: '1986' },
       { title: 'And the Band Played On - Randy Shilts', date: '1987' },
       { title: 'Reagan Presidential Library Archives', url: 'https://www.reaganlibrary.gov/', date: 'Various' },
     ],
