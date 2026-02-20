@@ -701,7 +701,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Climate Change', 'Paris Agreement', 'EPA', 'Environment', 'Scott Pruitt', 'Rollbacks'],
     sources: [
-      { title: 'Paris Agreement Withdrawal Announcement', url: 'https://www.whitehouse.gov/briefings-statements/statement-president-trump-paris-climate-accord/', type: 'Government Document' },
+      { title: 'Paris Agreement Withdrawal Announcement', url: 'http://web.archive.org/web/20210120113541/https://www.whitehouse.gov/briefings-statements/statement-president-trump-paris-climate-accord/', type: 'Government Document' },
       { title: 'Brookings Environmental Rollback Tracker', url: 'https://www.brookings.edu/interactives/tracking-deregulation-in-the-trump-era/', type: 'Research' },
       { title: 'NY Times Rollback Tracker', url: 'https://www.nytimes.com/interactive/2020/climate/trump-environment-rollbacks-list.html', type: 'News Report' },
       { title: 'Scott Pruitt Ethics Scandals', url: 'https://www.nytimes.com/2018/07/05/climate/scott-pruitt-epa-resignation.html', type: 'News Report' },
@@ -3423,7 +3423,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['DOJ', 'Bill Barr', 'Jeff Sessions', 'Mueller', 'Obstruction', 'Abuse of Power', 'Trump'],
     sources: [
       { title: 'Mueller Report - Obstruction Volume', url: 'https://www.justice.gov/storage/report_volume2.pdf', type: 'Government Report' },
-      { title: 'House Judiciary Barr Investigation', url: 'https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=3097', type: 'Congressional Report' },
+      { title: 'House Judiciary Barr Investigation', url: 'http://web.archive.org/web/20220826062911/https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=3097', type: 'Congressional Report' },
       { title: 'DOJ IG Reports', url: 'https://oig.justice.gov/reports', type: 'Government Reports' },
       { title: 'Berman Testimony and Book', url: 'https://www.penguinrandomhouse.com/books/703281/holding-the-line-by-geoffrey-berman/', type: 'Primary Source' },
       { title: 'January 6 Committee DOJ Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Congressional Report' },
@@ -6799,7 +6799,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['CDC', 'Testing', 'COVID-19', 'Public Health Failure', 'FDA', 'Pandemic Response'],
     sources: [
-      { title: 'CDC Test Kit Contamination Report', url: 'https://www.cdc.gov/coronavirus/2019-ncov/lab/testing.html', type: 'Government' },
+      { title: 'CDC Test Kit Contamination Report', url: 'http://web.archive.org/web/20230708201505/https://www.cdc.gov/coronavirus/2019-ncov/lab/testing.html', type: 'Government' },
       { title: 'Washington Post Investigation', url: 'https://www.washingtonpost.com/investigations/2020/04/18/coronavirus-cdc-test-kits-contaminated/', type: 'Investigation' },
       { title: 'NYT: Lost Month in Testing', url: 'https://www.nytimes.com/2020/03/28/us/testing-coronavirus-pandemic.html', type: 'News Report' },
     ],
@@ -8521,7 +8521,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Drones', 'Assassination', 'War Crimes', 'CIA', 'Obama', 'Trump', 'Biden'],
     sources: [
       { title: 'Bureau of Investigative Journalism Drone Database', url: 'https://www.thebureauinvestigates.com/projects/drone-war', type: 'Database' },
-      { title: 'Stanford/NYU Living Under Drones Report', url: 'https://chrgj.org/wp-content/uploads/2016/09/Living-Under-Drones.pdf', type: 'Research Report' },
+      { title: 'Stanford/NYU Living Under Drones Report', url: 'http://web.archive.org/web/20240229202152/https://chrgj.org/wp-content/uploads/2016/09/Living-Under-Drones.pdf', type: 'Research Report' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operates drone program', href: '/entities/agencies/cia' },

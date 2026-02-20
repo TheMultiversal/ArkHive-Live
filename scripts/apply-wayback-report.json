@@ -1,176 +1,24 @@
 {
-  "generatedAt": "2026-02-20T05:02:45.617Z",
+  "generatedAt": "2026-02-20T06:29:27.853Z",
   "summary": [
     {
-      "file": "src/app/investigations/obstruction-of-justice/page.tsx",
-      "oldUrl": "https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=4887",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/ukraine-extortion/page.tsx",
-      "oldUrl": "https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf",
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "oldUrl": "https://www.whitehouse.gov/briefings-statements/statement-president-trump-paris-climate-accord/",
       "changed": true
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf",
+      "oldUrl": "https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=3097",
       "changed": true
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/ukraine-extortion/page.tsx",
-      "oldUrl": "https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf",
+      "oldUrl": "https://www.cdc.gov/coronavirus/2019-ncov/lab/testing.html",
       "changed": true
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://oversight.house.gov/sites/democrats.oversight.house.gov/files/Trump%20Saudi%20Nuclear%20Report%20-%202-19-2019.pdf",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-012021/",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.cdc.gov/drugoverdose/deaths/index.html",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.justice.gov/file/1115596/download",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.whitehouse.gov/briefings-statements/statement-president-trump/",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.epa.gov/office-inspector-general/reports",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.epa.gov/office-inspector-general/reports",
-      "changed": false,
-      "reason": "oldUrl not found"
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.epa.gov/office-inspector-general/reports",
-      "changed": false,
-      "reason": "oldUrl not found"
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://financialservices.house.gov/events/eventsingle.aspx?EventID=407107",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://oig.justice.gov/special/9712/",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://oig.justice.gov/special/s0809a/final.pdf",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://earthjustice.org/case/dakota-access-pipeline",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/20/executive-order-protecting-public-health-and-environment-and-restoring-science-to-tackle-climate-crisis/",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.cdc.gov/tuskegee/timeline.htm",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "http://www.carlbernstein.com/magazine_cia_and_media.php",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.supremecourt.gov/opinions/09pdf/08-205.pdf",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.epa.gov/environmentaljustice",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.cdc.gov/violenceprevention/firearms/fastfact.html",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://transportation.house.gov/committee-activity/boeing-737-max-investigation",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://transportation.house.gov/committee-activity/boeing-737-max-investigation",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://transportation.house.gov/committee-activity/boeing-737-max-investigation",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf",
-      "changed": true
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "oldUrl": "https://www.who.int/nutrition/netcode/resolutions/en/",
+      "oldUrl": "https://chrgj.org/wp-content/uploads/2016/09/Living-Under-Drones.pdf",
       "changed": true
     }
   ]

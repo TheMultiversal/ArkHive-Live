@@ -26,7 +26,9 @@ export function middleware(req: NextRequest) {
   const sitePassword = process.env.SITE_PASSWORD || 'Knowledge';
 
   // simple check: cookie must equal the configured password
-  if (cookie && cookie === sitePassword) return NextResponse.next();
+  if (cookie && cookie === sitePassword) {
+    return NextResponse.next();
+  }
 
   const url = req.nextUrl.clone();
   url.pathname = '/enter';
@@ -34,6 +36,5 @@ export function middleware(req: NextRequest) {
 }
 
 export const config = {
-  // run middleware for all routes except static/api/_next (logic above also guards)
-  matcher: ['/:path*'],
+  matcher: ['/((?!_next/static|_next/image|favicon.ico).*)'],
 };

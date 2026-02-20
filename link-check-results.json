@@ -1,8 +1,8 @@
 {
   "summary": {
-    "total": 1435,
-    "broken": 714,
-    "timestamp": "2026-02-20T05:04:56.450Z"
+    "total": 1433,
+    "broken": 711,
+    "timestamp": "2026-02-20T06:04:12.032Z"
   },
   "results": [
     {
@@ -743,8 +743,8 @@
     },
     {
       "url": "https://www.sis.gov.uk",
-      "status": 403,
-      "ok": false,
+      "status": 200,
+      "ok": true,
       "finalUrl": "https://www.sis.gov.uk",
       "occurrences": [
         {
@@ -2754,7 +2754,9 @@
     },
     {
       "url": "https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report",
-      "error": "Error: timeout",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report/",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -3068,15 +3070,15 @@
       ]
     },
     {
-      "url": "https://atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/",
+      "url": "https://web.archive.org/web/*/https://atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/",
       "status": 200,
       "ok": true,
-      "finalUrl": "https://www.atlanticcouncil.org/",
+      "finalUrl": "https://web.archive.org/web/*/https://atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 982,
-          "preview": "{ title: 'Deripaska Relationship Documents', url: 'https://atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Deripaska Relationship Documents', url: 'https://web.archive.org/web/*/https://atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/', date: '2018' },"
         }
       ]
     },
@@ -3499,7 +3501,7 @@
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 1668,
-          "preview": "{ title: 'Congressional Testimony Transcript', url: 'https://web.archive.org/web/*/https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Congressional Testimony Transcript', url: 'https://web.archive.org/web/*/https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' },"
         }
       ]
     },
@@ -3843,15 +3845,15 @@
       ]
     },
     {
-      "url": "https://oig.dhs.gov/reports",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.oig.dhs.gov/reports",
+      "url": "https://web.archive.org/web/*/https://oig.dhs.gov/reports",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/*/https://oig.dhs.gov/reports",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 3538,
-          "preview": "{ title: 'DHS IG Reports on Family Separation', url: 'https://oig.dhs.gov/reports', date: '2019-2020' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'DHS IG Reports on Family Separation', url: 'https://web.archive.org/web/*/https://oig.dhs.gov/reports', date: '2019-2020' },"
         }
       ]
     },
@@ -3931,20 +3933,20 @@
       ]
     },
     {
-      "url": "https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html",
+      "url": "https://web.archive.org/web/*/https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/*/https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 3858,
-          "preview": "{ title: 'New York Magazine Article', url: 'https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'New York Magazine Article', url: 'https://web.archive.org/web/*/https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' },"
         },
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
           "line": 2489,
-          "preview": "{ title: 'Original New York Magazine Article', url: 'https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', type: 'Primary Source' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Original New York Magazine Article', url: 'https://web.archive.org/web/*/https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', type: 'Primary Source' },"
         }
       ]
     },
@@ -3993,15 +3995,15 @@
       ]
     },
     {
-      "url": "https://amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611",
+      "url": "https://web.archive.org/web/*/https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611",
       "status": 200,
       "ok": true,
-      "finalUrl": "https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611",
+      "finalUrl": "https://web.archive.org/web/*/https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 3914,
-          "preview": "{ title: '\"Full Disclosure\" Book', url: 'https://amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: '\"Full Disclosure\" Book', url: 'https://web.archive.org/web/*/https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611', date: '2018' },"
         }
       ]
     },
@@ -4275,7 +4277,9 @@
     },
     {
       "url": "https://www.documentcloud.org/documents/20793561-leopold-nih-foia-anthony-fauci-emails",
-      "error": "Error: timeout",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.documentcloud.org/documents/20793561-leopold-nih-foia-anthony-fauci-emails/",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -4360,15 +4364,15 @@
       ]
     },
     {
-      "url": "https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service",
+      "url": "https://web.archive.org/web/*/https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/*/https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 4781,
-          "preview": "{ title: 'Congressional Testimony', url: 'https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service', date: '2020' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Congressional Testimony', url: 'https://web.archive.org/web/*/https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service', date: '2020' },"
         }
       ]
     },
@@ -4422,15 +4426,15 @@
       ]
     },
     {
-      "url": "https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html",
+      "url": "https://web.archive.org/web/*/https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/*/https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 4973,
-          "preview": "{ title: 'CNN Interview', url: 'https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'CNN Interview', url: 'https://web.archive.org/web/*/https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html', date: '2018' },"
         }
       ]
     },
@@ -4902,15 +4906,15 @@
       ]
     },
     {
-      "url": "https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.blackrock.com/corporate/investor-relations/larry-fink-annual-letter",
+      "url": "https://web.archive.org/web/*/https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/*/https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 15455,
-          "preview": "{ title: 'Fink Annual Letters', url: 'https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter', date: '2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Fink Annual Letters', url: 'https://web.archive.org/web/*/https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter', date: '2024' },"
         }
       ]
     },
@@ -5031,15 +5035,15 @@
       ]
     },
     {
-      "url": "https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger",
+      "url": "https://web.archive.org/web/*/https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/*/https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 16785,
-          "preview": "{ title: 'The Trial of Henry Kissinger (Christopher Hitchens)', url: 'https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger', date: '2001' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'The Trial of Henry Kissinger (Christopher Hitchens)', url: 'https://web.archive.org/web/*/https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger', date: '2001' },"
         }
       ]
     },
@@ -5095,15 +5099,15 @@
       ]
     },
     {
-      "url": "https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project",
+      "url": "https://web.archive.org/web/*/https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/*/https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 16789,
-          "preview": "{ title: 'East Timor Documents Collection', url: 'https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project', date: 'Various' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'East Timor Documents Collection', url: 'https://web.archive.org/web/*/https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project', date: 'Various' },"
         }
       ]
     },
@@ -5234,15 +5238,15 @@
       ]
     },
     {
-      "url": "https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet",
+      "url": "https://web.archive.org/web/*/https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/*/https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 17459,
-          "preview": "{ title: 'ADL Antisemitism Report', url: 'https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'ADL Antisemitism Report', url: 'https://web.archive.org/web/*/https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet', date: '2023' },"
         }
       ]
     },
@@ -5287,6 +5291,11 @@
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 17754,
           "preview": "{ title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' },"
+        },
+        {
+          "file": "src\\app\\investigations\\[slug]\\page.tsx",
+          "line": 5614,
+          "preview": "{ title: 'Senate Intelligence Committee Iraq Report', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', type: 'Congressional Report' },"
         }
       ]
     },
@@ -5304,20 +5313,18 @@
       ]
     },
     {
-      "url": "https://www.archive.org/details/towercommissionr00unit",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://archive.org/details/towercommissionr00unit",
+      "url": "https://web.archive.org/web/*/https://www.archive.org/details/towercommissionr00unit",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 17757,
-          "preview": "{ title: 'Iran-Contra Tower Commission Report', url: 'https://www.archive.org/details/towercommissionr00unit', date: '1987' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Iran-Contra Tower Commission Report', url: 'https://web.archive.org/web/*/https://www.archive.org/details/towercommissionr00unit', date: '1987' },"
         },
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 18360,
-          "preview": "{ title: 'Tower Commission Report', url: 'https://www.archive.org/details/towercommissionr00unit', date: '1987' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Tower Commission Report', url: 'https://web.archive.org/web/*/https://www.archive.org/details/towercommissionr00unit', date: '1987' },"
         }
       ]
     },
@@ -5358,15 +5365,20 @@
       ]
     },
     {
-      "url": "https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
+      "url": "https://web.archive.org/web/*/https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/*/https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 17841,
-          "preview": "{ title: 'Senate Torture Report (SSCI)', url: 'https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Senate Torture Report (SSCI)', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },"
+        },
+        {
+          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
+          "line": 18018,
+          "preview": "{ title: 'Senate Intelligence Committee Torture Report', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },"
         }
       ]
     },
@@ -5416,9 +5428,7 @@
     },
     {
       "url": "https://web.archive.org/web/*/https://aclu.org/sites/default/files/FilesPDFs/fay.pdf",
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://web.archive.org/web/*/https://aclu.org/sites/default/files/FilesPDFs/fay.pdf",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -5429,9 +5439,7 @@
     },
     {
       "url": "https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm",
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://web.archive.org/web/20131021171040/http://www.newamericancentury.org/iraqclintonletter.htm",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -5459,23 +5467,8 @@
       ]
     },
     {
-      "url": "https://web.archive.org/web/*/https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://web.archive.org/web/*/https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
-      "occurrences": [
-        {
-          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
-          "line": 18018,
-          "preview": "{ title: 'Senate Intelligence Committee Torture Report', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },"
-        }
-      ]
-    },
-    {
       "url": "https://web.archive.org/web/*/https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf",
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://web.archive.org/web/*/https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -5574,9 +5567,7 @@
     },
     {
       "url": "https://web.archive.org/web/*/https://whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/",
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://web.archive.org/web/*/https://whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -5703,9 +5694,7 @@
     },
     {
       "url": "https://web.archive.org/web/*/https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary",
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://web.archive.org/web/*/https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -5728,15 +5717,13 @@
       ]
     },
     {
-      "url": "https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank",
+      "url": "https://web.archive.org/web/*/https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 18537,
-          "preview": "{ title: 'Pinochet Riggs Bank Investigation', url: 'https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank', date: '2004' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Pinochet Riggs Bank Investigation', url: 'https://web.archive.org/web/*/https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank', date: '2004' },"
         }
       ]
     },
@@ -5765,15 +5752,13 @@
       ]
     },
     {
-      "url": "https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html",
+      "url": "https://web.archive.org/web/*/https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 18618,
-          "preview": "{ title: 'Redfield CNN Lab Leak Interview', url: 'https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Redfield CNN Lab Leak Interview', url: 'https://web.archive.org/web/*/https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' },"
         }
       ]
     },
@@ -5861,15 +5846,13 @@
       ]
     },
     {
-      "url": "https://bellingcat.com/tag/wagner-group/",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.bellingcat.com/tag/wagner-group/",
+      "url": "https://web.archive.org/web/*/https://bellingcat.com/tag/wagner-group/",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 18798,
-          "preview": "{ title: 'Wagner Group Investigation - Bellingcat', url: 'https://bellingcat.com/tag/wagner-group/', date: 'Various' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Wagner Group Investigation - Bellingcat', url: 'https://web.archive.org/web/*/https://bellingcat.com/tag/wagner-group/', date: 'Various' },"
         }
       ]
     },
@@ -6023,9 +6006,7 @@
     },
     {
       "url": "https://web.archive.org/web/*/https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf",
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://web.archive.org/web/*/https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -6228,7 +6209,7 @@
       "url": "https://www.nature.com/articles/nm.3985",
       "status": 200,
       "ok": true,
-      "finalUrl": "https://www.nature.com/articles/nm.3985?error=cookies_not_supported&code=d706df43-d3f9-4cfc-81b9-0d87edac8ae9",
+      "finalUrl": "https://www.nature.com/articles/nm.3985?error=cookies_not_supported&code=9e3a9df4-39ec-495d-9674-8f0c54341b58",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -6259,7 +6240,7 @@
       "url": "https://www.nature.com/articles/s41586-020-2012-7",
       "status": 200,
       "ok": true,
-      "finalUrl": "https://www.nature.com/articles/s41586-020-2012-7?error=cookies_not_supported&code=f310c971-8840-478d-a32b-888495052b63",
+      "finalUrl": "https://www.nature.com/articles/s41586-020-2012-7?error=cookies_not_supported&code=4fc0c195-c3af-4d2b-96b1-0c45659dba9f",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -6352,15 +6333,13 @@
       ]
     },
     {
-      "url": "https://archives.gov/research/foreign-policy/reagan",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.archives.gov/research/foreign-policy/reagan",
+      "url": "https://web.archive.org/web/*/https://archives.gov/research/foreign-policy/reagan",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 19546,
-          "preview": "{ title: 'Tower Commission Report', url: 'https://archives.gov/research/foreign-policy/reagan', date: '1987' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Tower Commission Report', url: 'https://web.archive.org/web/*/https://archives.gov/research/foreign-policy/reagan', date: '1987' },"
         }
       ]
     },
@@ -6405,9 +6384,7 @@
     },
     {
       "url": "https://web.archive.org/web/20130501000000*/newamericancentury.org",
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://web.archive.org/web/20130501000000*/newamericancentury.org",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -6533,15 +6510,15 @@
       ]
     },
     {
-      "url": "https://opcw.org/fact-finding-mission-reports",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.opcw.org/fact-finding-mission-reports",
+      "url": "https://web.archive.org/web/*/https://opcw.org/fact-finding-mission-reports",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/*/https://opcw.org/fact-finding-mission-reports",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 23797,
-          "preview": "{ title: 'OPCW Fact-Finding Mission Reports', url: 'https://opcw.org/fact-finding-mission-reports', date: '2014-2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'OPCW Fact-Finding Mission Reports', url: 'https://web.archive.org/web/*/https://opcw.org/fact-finding-mission-reports', date: '2014-2024' },"
         }
       ]
     },
@@ -6559,15 +6536,13 @@
       ]
     },
     {
-      "url": "https://hrw.org/middle-east/north-africa/syria",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.hrw.org/middle-east/north-africa/syria",
+      "url": "https://web.archive.org/web/*/https://hrw.org/middle-east/north-africa/syria",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 23799,
-          "preview": "{ title: 'Human Rights Watch Syria Reports', url: 'https://hrw.org/middle-east/north-africa/syria', date: '2011-2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Human Rights Watch Syria Reports', url: 'https://web.archive.org/web/*/https://hrw.org/middle-east/north-africa/syria', date: '2011-2024' },"
         }
       ]
     },
@@ -6601,9 +6576,7 @@
     },
     {
       "url": "https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm",
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -6619,9 +6592,7 @@
     },
     {
       "url": "https://web.archive.org/web/20050212041719/http://www.newamericancentury.org/iraqclintonletter.htm",
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://web.archive.org/web/20050210071939/http://www.newamericancentury.org/iraqclintonletter.htm",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -7719,7 +7690,9 @@
     },
     {
       "url": "https://www.michigan.gov/ag/news/press-releases/2023/07/18/ag-nessel-charges-16-individuals-as-false-electors",
-      "error": "Error: timeout",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.michigan.gov/ag/404",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\fake-electors\\page.tsx",
@@ -9155,7 +9128,9 @@
     },
     {
       "url": "https://www.documentcloud.org/documents/24437380-decision-after-trial-people-v-trump",
-      "error": "Error: timeout",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.documentcloud.org/documents/24437380-decision-after-trial-people-v-trump/",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\trump-org-fraud\\page.tsx",
@@ -9494,7 +9469,9 @@
     },
     {
       "url": "https://web.archive.org/web/*/https://www.justice.gov/opr/page/file/1232356/download",
-      "error": "Error: read ECONNRESET",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/*/https://www.justice.gov/opr/page/file/1232356/download",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -10732,15 +10709,15 @@
       ]
     },
     {
-      "url": "https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united",
+      "url": "https://web.archive.org/web/*/https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/*/https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
           "line": 1157,
-          "preview": "{ title: 'Barrack Indictment', url: 'https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Barrack Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united', type: 'Court Filing' },"
         }
       ]
     },
@@ -10771,15 +10748,13 @@
       ]
     },
     {
-      "url": "https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville",
+      "url": "https://web.archive.org/web/*/https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
           "line": 1189,
-          "preview": "{ title: 'Fields Conviction', url: 'https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville', type: 'Press Release' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Fields Conviction', url: 'https://web.archive.org/web/*/https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville', type: 'Press Release' },"
         }
       ]
     },
@@ -12385,9 +12360,7 @@
     },
     {
       "url": "https://www.cnn.com/2016/09/09/politics/donald-trump-birther/index.html",
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://www.cnn.com/2016/09/09/politics/donald-trump-birther/index.html",
+      "error": "Error: timeout",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -13233,9 +13206,7 @@
     },
     {
       "url": "https://www.documentcloud.org/documents/23700065-dominion-vs-fox-news-summary-judgment-ruling",
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://www.documentcloud.org/documents/23700065-aphis-inspection-ins-0000840158/",
+      "error": "Error: timeout",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -15731,9 +15702,7 @@
     },
     {
       "url": "https://efile.fara.gov/ords/fara/f?p=1235:10:0::NO:RP,10:P10_COUNTRY:UNITED%20ARAB%20EMIRATES",
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://efile.fara.gov/ords/fara/f?p=1235:10:0::NO:RP,10:P10_COUNTRY:UNITED%20ARAB%20EMIRATES",
+      "error": "Error: timeout",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -15841,19 +15810,6 @@
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
           "line": 5613,
           "preview": "{ title: 'New Yorker - Selective Intelligence', url: 'https://www.newyorker.com/magazine/2003/05/12/selective-intelligence', type: 'Investigation' },"
-        }
-      ]
-    },
-    {
-      "url": "https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and",
-      "occurrences": [
-        {
-          "file": "src\\app\\investigations\\[slug]\\page.tsx",
-          "line": 5614,
-          "preview": "{ title: 'Senate Intelligence Committee Iraq Report', url: 'https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', type: 'Congressional Report' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
         }
       ]
     },
@@ -17475,9 +17431,7 @@
     },
     {
       "url": "https://www.opensecrets.org/revolving/",
-      "status": 502,
-      "ok": false,
-      "finalUrl": "https://www.opensecrets.org/revolving/",
+      "error": "Error: timeout",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -17673,7 +17627,7 @@
     },
     {
       "url": "https://drilledpodcast.com/",
-      "error": "Error: timeout",
+      "error": "Error: getaddrinfo EAI_AGAIN drilledpodcast.com",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -18275,7 +18229,9 @@
     },
     {
       "url": "https://www.epa.gov/sites/production/files/2014-02/documents/keystone-xl-project.pdf",
-      "error": "Error: timeout",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.epa.gov/sites/default/files/2014-02/documents/keystone-xl-project.pdf",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -18425,7 +18381,9 @@
     },
     {
       "url": "https://www.aspi.org.au/report/ccp-inc",
-      "error": "Error: timeout",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.aspi.org.au/report/ccp-inc",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -18541,7 +18499,9 @@
     },
     {
       "url": "https://www.nytimes.com/2014/11/16/magazine/what-an-uncensored-letter-to-mlk-reveals.html",
-      "error": "Error: timeout",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.nytimes.com/2014/11/16/magazine/what-an-uncensored-letter-to-mlk-reveals.html",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -18552,7 +18512,7 @@
     },
     {
       "url": "http://web.archive.org/web/20211220102917/http://www.carlbernstein.com/magazine_cia_and_media.php",
-      "error": "Error: timeout",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -20171,7 +20131,7 @@
     },
     {
       "url": "https://arkhive.org",
-      "error": "Error: write EPROTO 70650000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\\ssl\\record\\rec_layer_s3.c:916:SSL alert number 80\n",
+      "error": "Error: write EPROTO C45E0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\\ssl\\record\\rec_layer_s3.c:916:SSL alert number 80\n",
       "occurrences": [
         {
           "file": "src\\app\\sitemap.ts",
@@ -20892,19 +20852,6 @@
       ]
     },
     {
-      "url": "https://www.sis.gov.uk",
-      "status": 403,
-      "ok": false,
-      "finalUrl": "https://www.sis.gov.uk",
-      "occurrences": [
-        {
-          "file": "src\\app\\entities\\agencies\\[slug]\\page.tsx",
-          "line": 2346,
-          "preview": "website: 'https://www.sis.gov.uk',"
-        }
-      ]
-    },
-    {
       "url": "https://knkt.dephub.go.id",
       "error": "Error: read ECONNRESET",
       "occurrences": [
@@ -21283,7 +21230,9 @@
     },
     {
       "url": "https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report",
-      "error": "Error: timeout",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report/",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
@@ -21774,19 +21723,6 @@
       ]
     },
     {
-      "url": "https://oig.dhs.gov/reports",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.oig.dhs.gov/reports",
-      "occurrences": [
-        {
-          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
-          "line": 3538,
-          "preview": "{ title: 'DHS IG Reports on Family Separation', url: 'https://oig.dhs.gov/reports', date: '2019-2020' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
-        }
-      ]
-    },
-    {
       "url": "https://www.courtlistener.com/docket/6182316/united-states-v-papadopoulos/",
       "status": 403,
       "ok": false,
@@ -21827,24 +21763,6 @@
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 3857,
           "preview": "{ title: 'Carroll v. Trump - $83.3M Defamation Verdict', url: 'https://www.courtlistener.com/docket/17595029/carroll-v-trump/', date: '2024' },"
-        }
-      ]
-    },
-    {
-      "url": "https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html",
-      "occurrences": [
-        {
-          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
-          "line": 3858,
-          "preview": "{ title: 'New York Magazine Article', url: 'https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
-        },
-        {
-          "file": "src\\app\\investigations\\[slug]\\page.tsx",
-          "line": 2489,
-          "preview": "{ title: 'Original New York Magazine Article', url: 'https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', type: 'Primary Source' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
         }
       ]
     },
@@ -21985,17 +21903,6 @@
       ]
     },
     {
-      "url": "https://www.documentcloud.org/documents/20793561-leopold-nih-foia-anthony-fauci-emails",
-      "error": "Error: timeout",
-      "occurrences": [
-        {
-          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
-          "line": 4709,
-          "preview": "{ title: '2021 FOIA Email Releases', url: 'https://www.documentcloud.org/documents/20793561-leopold-nih-foia-anthony-fauci-emails', date: '2021' },"
-        }
-      ]
-    },
-    {
       "url": "https://www.nejm.org/doi/full/10.1056/NEJM199711133372006",
       "status": 403,
       "ok": false,
@@ -22009,19 +21916,6 @@
       ]
     },
     {
-      "url": "https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service",
-      "occurrences": [
-        {
-          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
-          "line": 4781,
-          "preview": "{ title: 'Congressional Testimony', url: 'https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service', date: '2020' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
-        }
-      ]
-    },
-    {
       "url": "https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress",
       "status": 404,
       "ok": false,
@@ -22031,19 +21925,6 @@
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 4867,
           "preview": "{ title: 'DOJ Contempt Conviction', url: 'https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress', date: '2023' },"
-        }
-      ]
-    },
-    {
-      "url": "https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html",
-      "occurrences": [
-        {
-          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
-          "line": 4973,
-          "preview": "{ title: 'CNN Interview', url: 'https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
         }
       ]
     },
@@ -22262,19 +22143,6 @@
       ]
     },
     {
-      "url": "https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.blackrock.com/corporate/investor-relations/larry-fink-annual-letter",
-      "occurrences": [
-        {
-          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
-          "line": 15455,
-          "preview": "{ title: 'Fink Annual Letters', url: 'https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter', date: '2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
-        }
-      ]
-    },
-    {
       "url": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow",
       "status": 404,
       "ok": false,
@@ -22355,32 +22223,6 @@
       ]
     },
     {
-      "url": "https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger",
-      "occurrences": [
-        {
-          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
-          "line": 16785,
-          "preview": "{ title: 'The Trial of Henry Kissinger (Christopher Hitchens)', url: 'https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger', date: '2001' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
-        }
-      ]
-    },
-    {
-      "url": "https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project",
-      "occurrences": [
-        {
-          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
-          "line": 16789,
-          "preview": "{ title: 'East Timor Documents Collection', url: 'https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project', date: 'Various' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
-        }
-      ]
-    },
-    {
       "url": "http://web.archive.org/web/20210311041257/http://web.archive.org/web/20210311041257/https://www.greenpeace.org/usa/global-warming/climate-deniers/koch-industries/",
       "status": 404,
       "ok": false,
@@ -22448,19 +22290,6 @@
       ]
     },
     {
-      "url": "https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet",
-      "occurrences": [
-        {
-          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
-          "line": 17459,
-          "preview": "{ title: 'ADL Antisemitism Report', url: 'https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
-        }
-      ]
-    },
-    {
       "url": "https://www.archives.gov/research/military/vietnam-war/war-crimes",
       "status": 404,
       "ok": false,
@@ -22474,20 +22303,18 @@
       ]
     },
     {
-      "url": "https://www.archive.org/details/towercommissionr00unit",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://archive.org/details/towercommissionr00unit",
+      "url": "https://web.archive.org/web/*/https://www.archive.org/details/towercommissionr00unit",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 17757,
-          "preview": "{ title: 'Iran-Contra Tower Commission Report', url: 'https://www.archive.org/details/towercommissionr00unit', date: '1987' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Iran-Contra Tower Commission Report', url: 'https://web.archive.org/web/*/https://www.archive.org/details/towercommissionr00unit', date: '1987' },"
         },
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 18360,
-          "preview": "{ title: 'Tower Commission Report', url: 'https://www.archive.org/details/towercommissionr00unit', date: '1987' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Tower Commission Report', url: 'https://web.archive.org/web/*/https://www.archive.org/details/towercommissionr00unit', date: '1987' },"
         }
       ]
     },
@@ -22505,15 +22332,29 @@
       ]
     },
     {
-      "url": "https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
+      "url": "https://web.archive.org/web/*/https://aclu.org/sites/default/files/FilesPDFs/fay.pdf",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
-          "line": 17841,
-          "preview": "{ title: 'Senate Torture Report (SSCI)', url: 'https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "line": 17931,
+          "preview": "{ title: 'Abu Ghraib Investigations', url: 'https://web.archive.org/web/*/https://aclu.org/sites/default/files/FilesPDFs/fay.pdf', date: '2004' },"
+        }
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm",
+      "error": "Error: read ECONNRESET",
+      "occurrences": [
+        {
+          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
+          "line": 17932,
+          "preview": "{ title: 'PNAC Iraq Letter', url: 'https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },"
+        },
+        {
+          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
+          "line": 18108,
+          "preview": "{ title: 'PNAC Iraq Letter', url: 'https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },"
         }
       ]
     },
@@ -22527,6 +22368,17 @@
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 17933,
           "preview": "{ title: 'Taguba Report on Abu Ghraib', url: 'https://aclu.org/sites/default/files/torturefoia/released/030904.pdf', date: '2004' };"
+        }
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/*/https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf",
+      "error": "Error: read ECONNRESET",
+      "occurrences": [
+        {
+          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
+          "line": 18021,
+          "preview": "{ title: 'CIA OIG Special Review - Detention and Interrogation', url: 'https://web.archive.org/web/*/https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf', date: '2004' },"
         }
       ]
     },
@@ -22545,6 +22397,17 @@
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 18277,
           "preview": "{ title: 'United States v. Libby - Verdict', url: 'https://www.justice.gov/archive/osc/', date: '2007' },"
+        }
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/*/https://whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/",
+      "error": "Error: read ECONNRESET",
+      "occurrences": [
+        {
+          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
+          "line": 18280,
+          "preview": "{ title: 'Trump Pardon Statement', url: 'https://web.archive.org/web/*/https://whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/', date: '2018' },"
         }
       ]
     },
@@ -22580,6 +22443,17 @@
       ]
     },
     {
+      "url": "https://web.archive.org/web/*/https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary",
+      "error": "Error: read ECONNRESET",
+      "occurrences": [
+        {
+          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
+          "line": 18535,
+          "preview": "{ title: 'Letelier Assassination Documents', url: 'https://web.archive.org/web/*/https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary', date: '1976-2016' },"
+        }
+      ]
+    },
+    {
       "url": "https://publications.parliament.uk/pa/ld199899/ldjudgmt/jd990324/pino1.htm",
       "status": 403,
       "ok": false,
@@ -22593,15 +22467,13 @@
       ]
     },
     {
-      "url": "https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank",
+      "url": "https://web.archive.org/web/*/https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 18537,
-          "preview": "{ title: 'Pinochet Riggs Bank Investigation', url: 'https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank', date: '2004' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Pinochet Riggs Bank Investigation', url: 'https://web.archive.org/web/*/https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank', date: '2004' },"
         }
       ]
     },
@@ -22617,15 +22489,13 @@
       ]
     },
     {
-      "url": "https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html",
+      "url": "https://web.archive.org/web/*/https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 18618,
-          "preview": "{ title: 'Redfield CNN Lab Leak Interview', url: 'https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Redfield CNN Lab Leak Interview', url: 'https://web.archive.org/web/*/https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' },"
         }
       ]
     },
@@ -22656,15 +22526,13 @@
       ]
     },
     {
-      "url": "https://bellingcat.com/tag/wagner-group/",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.bellingcat.com/tag/wagner-group/",
+      "url": "https://web.archive.org/web/*/https://bellingcat.com/tag/wagner-group/",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 18798,
-          "preview": "{ title: 'Wagner Group Investigation - Bellingcat', url: 'https://bellingcat.com/tag/wagner-group/', date: 'Various' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Wagner Group Investigation - Bellingcat', url: 'https://web.archive.org/web/*/https://bellingcat.com/tag/wagner-group/', date: 'Various' },"
         }
       ]
     },
@@ -22730,6 +22598,17 @@
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 18968,
           "preview": "{ title: 'RDIF Official Records', url: 'https://rdif.ru/Eng/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/*/https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf",
+      "error": "Error: read ECONNRESET",
+      "occurrences": [
+        {
+          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
+          "line": 19044,
+          "preview": "{ title: 'UN General Assembly Resolution on Sovereign Debt', url: 'https://web.archive.org/web/*/https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf', date: '2014' },"
         }
       ]
     },
@@ -22806,15 +22685,24 @@
       ]
     },
     {
-      "url": "https://archives.gov/research/foreign-policy/reagan",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.archives.gov/research/foreign-policy/reagan",
+      "url": "https://web.archive.org/web/*/https://archives.gov/research/foreign-policy/reagan",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 19546,
-          "preview": "{ title: 'Tower Commission Report', url: 'https://archives.gov/research/foreign-policy/reagan', date: '1987' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Tower Commission Report', url: 'https://web.archive.org/web/*/https://archives.gov/research/foreign-policy/reagan', date: '1987' },"
+        }
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/20130501000000*/newamericancentury.org",
+      "error": "Error: read ECONNRESET",
+      "occurrences": [
+        {
+          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
+          "line": 19899,
+          "preview": "{ title: 'PNAC Documents', url: 'https://web.archive.org/web/20130501000000*/newamericancentury.org', date: '1997-2009' },"
         }
       ]
     },
@@ -22832,19 +22720,6 @@
       ]
     },
     {
-      "url": "https://opcw.org/fact-finding-mission-reports",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.opcw.org/fact-finding-mission-reports",
-      "occurrences": [
-        {
-          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
-          "line": 23797,
-          "preview": "{ title: 'OPCW Fact-Finding Mission Reports', url: 'https://opcw.org/fact-finding-mission-reports', date: '2014-2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
-        }
-      ]
-    },
-    {
       "url": "https://syriaaccountability.org/library/caesar-photos/",
       "status": 404,
       "ok": false,
@@ -22858,15 +22733,40 @@
       ]
     },
     {
-      "url": "https://hrw.org/middle-east/north-africa/syria",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.hrw.org/middle-east/north-africa/syria",
+      "url": "https://web.archive.org/web/*/https://hrw.org/middle-east/north-africa/syria",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
           "line": 23799,
-          "preview": "{ title: 'Human Rights Watch Syria Reports', url: 'https://hrw.org/middle-east/north-africa/syria', date: '2011-2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Human Rights Watch Syria Reports', url: 'https://web.archive.org/web/*/https://hrw.org/middle-east/north-africa/syria', date: '2011-2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm",
+      "error": "Error: read ECONNRESET",
+      "occurrences": [
+        {
+          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
+          "line": 24012,
+          "preview": "{ title: 'PNAC Statement of Principles', url: 'https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm', date: '1997' },"
+        },
+        {
+          "file": "src\\app\\investigations\\[slug]\\page.tsx",
+          "line": 5415,
+          "preview": "{ title: 'PNAC Statement of Principles', url: 'https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm', type: 'Primary Document' },"
+        }
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/20050212041719/http://www.newamericancentury.org/iraqclintonletter.htm",
+      "error": "Error: read ECONNRESET",
+      "occurrences": [
+        {
+          "file": "src\\app\\entities\\individuals\\[slug]\\page.tsx",
+          "line": 24013,
+          "preview": "{ title: 'PNAC Letter to Clinton', url: 'https://web.archive.org/web/20050212041719/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },"
         }
       ]
     },
@@ -23272,7 +23172,9 @@
     },
     {
       "url": "https://www.michigan.gov/ag/news/press-releases/2023/07/18/ag-nessel-charges-16-individuals-as-false-electors",
-      "error": "Error: timeout",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.michigan.gov/ag/404",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\fake-electors\\page.tsx",
@@ -24041,7 +23943,9 @@
     },
     {
       "url": "https://www.documentcloud.org/documents/24437380-decision-after-trial-people-v-trump",
-      "error": "Error: timeout",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.documentcloud.org/documents/24437380-decision-after-trial-people-v-trump/",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\trump-org-fraud\\page.tsx",
@@ -24284,17 +24188,6 @@
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
           "line": 2387,
           "preview": "{ title: 'Julie K. Brown Perversion of Justice', url: 'https://www.miamiherald.com/news/local/article220097825.html', type: 'Investigation' },"
-        }
-      ]
-    },
-    {
-      "url": "https://web.archive.org/web/*/https://www.justice.gov/opr/page/file/1232356/download",
-      "error": "Error: read ECONNRESET",
-      "occurrences": [
-        {
-          "file": "src\\app\\investigations\\[slug]\\page.tsx",
-          "line": 97,
-          "preview": "{ title: 'DOJ Report on Acosta Plea Deal', url: 'https://web.archive.org/web/*/https://www.justice.gov/opr/page/file/1232356/download', type: 'Government Report' },"
         }
       ]
     },
@@ -25097,19 +24990,6 @@
       ]
     },
     {
-      "url": "https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united",
-      "occurrences": [
-        {
-          "file": "src\\app\\investigations\\[slug]\\page.tsx",
-          "line": 1157,
-          "preview": "{ title: 'Barrack Indictment', url: 'https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
-        }
-      ]
-    },
-    {
       "url": "https://www.nytimes.com/2020/08/26/us/politics/melania-trump-secret-recording.html",
       "status": 403,
       "ok": false,
@@ -25136,15 +25016,13 @@
       ]
     },
     {
-      "url": "https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville",
+      "url": "https://web.archive.org/web/*/https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
           "line": 1189,
-          "preview": "{ title: 'Fields Conviction', url: 'https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville', type: 'Press Release' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
+          "preview": "{ title: 'Fields Conviction', url: 'https://web.archive.org/web/*/https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville', type: 'Press Release' },"
         }
       ]
     },
@@ -26086,6 +25964,17 @@
       ]
     },
     {
+      "url": "https://www.cnn.com/2016/09/09/politics/donald-trump-birther/index.html",
+      "error": "Error: timeout",
+      "occurrences": [
+        {
+          "file": "src\\app\\investigations\\[slug]\\page.tsx",
+          "line": 2737,
+          "preview": "{ title: 'Trump 2011 Birther Interviews', url: 'https://www.cnn.com/2016/09/09/politics/donald-trump-birther/index.html', type: 'News Archive' },"
+        }
+      ]
+    },
+    {
       "url": "https://www.nytimes.com/2019/06/18/nyregion/central-park-five-trump.html",
       "status": 403,
       "ok": false,
@@ -26549,6 +26438,17 @@
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
           "line": 3549,
           "preview": "{ title: 'ADL Trump and Extremism Report', url: 'https://www.adl.org/resources/report/white-supremacist-propaganda-soars-new-aog-high-2022', type: 'Research Report' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.documentcloud.org/documents/23700065-dominion-vs-fox-news-summary-judgment-ruling",
+      "error": "Error: timeout",
+      "occurrences": [
+        {
+          "file": "src\\app\\investigations\\[slug]\\page.tsx",
+          "line": 3584,
+          "preview": "{ title: 'Dominion v. Fox Discovery Documents', url: 'https://www.documentcloud.org/documents/23700065-dominion-vs-fox-news-summary-judgment-ruling', type: 'Court Filing' },"
         }
       ]
     },
@@ -28091,6 +27991,17 @@
       ]
     },
     {
+      "url": "https://efile.fara.gov/ords/fara/f?p=1235:10:0::NO:RP,10:P10_COUNTRY:UNITED%20ARAB%20EMIRATES",
+      "error": "Error: timeout",
+      "occurrences": [
+        {
+          "file": "src\\app\\investigations\\[slug]\\page.tsx",
+          "line": 5537,
+          "preview": "{ title: 'FARA Filings - UAE Lobbying', url: 'https://efile.fara.gov/ords/fara/f?p=1235:10:0::NO:RP,10:P10_COUNTRY:UNITED%20ARAB%20EMIRATES', type: 'Government Records' },"
+        }
+      ]
+    },
+    {
       "url": "https://theintercept.com/2018/03/02/jared-kushner-qatar-blockade/",
       "status": 404,
       "ok": false,
@@ -28163,19 +28074,6 @@
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
           "line": 5611,
           "preview": "{ title: 'Pentagon IG Report on Feith\\'s Office', url: 'https://www.dodig.mil/reports.html/Article/1119855/review-of-the-pre-iraq-war-activities-of-the-office-of-the-under-secretary-of-d/', type: 'Government Report' },"
-        }
-      ]
-    },
-    {
-      "url": "https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and",
-      "status": 404,
-      "ok": false,
-      "finalUrl": "https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and",
-      "occurrences": [
-        {
-          "file": "src\\app\\investigations\\[slug]\\page.tsx",
-          "line": 5614,
-          "preview": "{ title: 'Senate Intelligence Committee Iraq Report', url: 'https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', type: 'Congressional Report' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)"
         }
       ]
     },
@@ -29088,9 +28986,7 @@
     },
     {
       "url": "https://www.opensecrets.org/revolving/",
-      "status": 502,
-      "ok": false,
-      "finalUrl": "https://www.opensecrets.org/revolving/",
+      "error": "Error: timeout",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -29229,7 +29125,7 @@
     },
     {
       "url": "https://drilledpodcast.com/",
-      "error": "Error: timeout",
+      "error": "Error: getaddrinfo EAI_AGAIN drilledpodcast.com",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -29444,7 +29340,9 @@
     },
     {
       "url": "https://www.epa.gov/sites/production/files/2014-02/documents/keystone-xl-project.pdf",
-      "error": "Error: timeout",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.epa.gov/sites/default/files/2014-02/documents/keystone-xl-project.pdf",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -29503,7 +29401,9 @@
     },
     {
       "url": "https://www.aspi.org.au/report/ccp-inc",
-      "error": "Error: timeout",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.aspi.org.au/report/ccp-inc",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -29536,7 +29436,9 @@
     },
     {
       "url": "https://www.nytimes.com/2014/11/16/magazine/what-an-uncensored-letter-to-mlk-reveals.html",
-      "error": "Error: timeout",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.nytimes.com/2014/11/16/magazine/what-an-uncensored-letter-to-mlk-reveals.html",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -29547,7 +29449,7 @@
     },
     {
       "url": "http://web.archive.org/web/20211220102917/http://www.carlbernstein.com/magazine_cia_and_media.php",
-      "error": "Error: timeout",
+      "error": "Error: read ECONNRESET",
       "occurrences": [
         {
           "file": "src\\app\\investigations\\[slug]\\page.tsx",
@@ -30257,7 +30159,7 @@
     },
     {
       "url": "https://arkhive.org",
-      "error": "Error: write EPROTO 70650000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\\ssl\\record\\rec_layer_s3.c:916:SSL alert number 80\n",
+      "error": "Error: write EPROTO C45E0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\\ssl\\record\\rec_layer_s3.c:916:SSL alert number 80\n",
       "occurrences": [
         {
           "file": "src\\app\\sitemap.ts",

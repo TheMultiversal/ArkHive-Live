@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { cookies } from 'next/headers';
 
 export async function POST() {
-  cookies().set({ name: 'site_auth', value: '', path: '/', maxAge: 0 });
-  return NextResponse.json({ ok: true });
+  const res = NextResponse.json({ ok: true });
+  res.cookies.set({ name: 'site_auth', value: '', path: '/', maxAge: 0 });
+  return res;
 }
