@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-02-20T12:47:24.402Z",
+  "realAlternatives": [
+    {
+      "oldUrl": "https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report",
+      "newUrl": "https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report",
+      "file": "src/app/entities/individuals/[slug]/page.tsx"
+    },
+    {
+      "oldUrl": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow",
+      "newUrl": "https://propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow",
+      "file": "src/app/entities/individuals/[slug]/page.tsx"
+    },
+    {
+      "oldUrl": "https://www.propublica.org/article/clarence-thomas-harlan-crow-bought-him-an-rv-worth-more-than-double-his-annual-salary",
+      "newUrl": "https://propublica.org/article/clarence-thomas-harlan-crow-bought-him-an-rv-worth-more-than-double-his-annual-salary",
+      "file": "src/app/entities/individuals/[slug]/page.tsx"
+    },
+    {
+      "oldUrl": "https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus",
+      "newUrl": "https://propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus",
+      "file": "src/app/entities/individuals/[slug]/page.tsx"
+    },
+    {
+      "oldUrl": "https://www.archives.gov/research/military/vietnam-war/war-crimes",
+      "newUrl": "https://archives.gov/research/military/vietnam-war/war-crimes",
+      "file": "src/app/entities/individuals/[slug]/page.tsx"
+    }
+  ],
+  "waybackDirect": [],
+  "totalReplaced": 5
+}

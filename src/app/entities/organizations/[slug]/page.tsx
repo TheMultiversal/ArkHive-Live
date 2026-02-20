@@ -2325,7 +2325,7 @@ const organizationData: Record<string, OrganizationProfile> = {
     founded: '1971',
     headquarters: 'New York City',
     funding: 'Federal grants, private funding',
-    website: 'https://www.ecohealthalliance.org',
+    website: 'https://web.archive.org/web/2024/https://www.ecohealthalliance.org',
     mission: 'To protect wildlife and public health from emerging diseases',
     controversies: [
       'WIV FUNDING: Subgranted NIH funds to Wuhan Institute',

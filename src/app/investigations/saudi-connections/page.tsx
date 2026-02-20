@@ -75,7 +75,7 @@ const investigation = {
   ],
   sources: [
     { title: 'CIA Assessment on Khashoggi Murder', url: 'https://www.dni.gov/files/ODNI/documents/assessments/Assessment-Saudi-Gov-Role-in-JK-Death-20210226v2.pdf', date: '2021' },
-    { title: 'Senate Foreign Relations Report', url: 'https://www.foreign.senate.gov/imo/media/doc/Saudi%20Report%20-%20As%20Submitted%20to%20GPO.pdf', date: '2020' },
+    { title: 'Senate Foreign Relations Report', url: 'https://web.archive.org/web/2024/https://www.foreign.senate.gov/imo/media/doc/Saudi%20Report%20-%20As%20Submitted%20to%20GPO.pdf', date: '2020' },
     { title: 'Kushner $2B Saudi Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', date: '2022' },
     { title: 'Yemen War Casualties (UN)', url: 'https://www.undp.org/yemen/publications/assessing-impact-war-yemen-pathways-recovery', date: '2021' },
     { title: 'Trump Emergency Arms Sale', url: 'https://www.congress.gov/bill/116th-congress/senate-joint-resolution/36', date: '2019' },

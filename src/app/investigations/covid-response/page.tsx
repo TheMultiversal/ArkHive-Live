@@ -141,7 +141,7 @@ const investigationData = {
   sources: [
     { title: 'Woodward Recordings: Trump Admitted Downplaying', url: 'https://www.cnn.com/2020/09/09/politics/bob-woodward-rage-book-trump-coronavirus/index.html', type: 'Audio Recording' },
     { title: 'Lancet Commission: 40% of US Deaths Preventable', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)32545-9/fulltext', type: 'Medical Journal' },
-    { title: 'House Select Subcommittee COVID Report', url: 'https://coronavirus.house.gov/news/reports', type: 'Congressional Report' },
+    { title: 'House Select Subcommittee COVID Report', url: 'http://web.archive.org/web/20230213100720/https://web.archive.org/web/2024/https://coronavirus.house.gov/news/reports', type: 'Congressional Report' },
     { title: 'CDC Death Statistics', url: 'https://covid.cdc.gov/covid-data-tracker/', type: 'Government Data' },
     { title: 'Trump COVID Timeline - Washington Post', url: 'https://www.washingtonpost.com/graphics/2020/politics/trump-covid-pandemic-dark-winter/', type: 'Investigative Report' },
     { title: 'Kushner Testing Plan Abandonment - Vanity Fair', url: 'https://www.vanityfair.com/news/2020/07/how-jared-kushners-secret-testing-plan-went-poof-into-thin-air', type: 'Investigative Report' },

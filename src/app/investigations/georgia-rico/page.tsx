@@ -90,7 +90,7 @@ const investigation = {
   sources: [
     { title: 'Georgia RICO Indictment (98 pages)', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', date: 'Aug 2023' },
     { title: 'Trump-Raffensperger Call (full audio)', url: 'https://www.washingtonpost.com/video/politics/audio-trumps-full-jan-2-call-with-ga-secretary-of-state/2021/01/03/3f9426f4-7937-4718-8a66-9f574028e68f_video.html', date: 'Jan 2021' },
-    { title: 'Ruby Freeman Congressional Testimony', url: 'https://www.congress.gov/117/meeting/house/114874/witnesses/HHRG-117-IG00-Wstate-MossW-20220621.pdf', date: 'Jun 2022' },
+    { title: 'Ruby Freeman Congressional Testimony', url: 'https://web.archive.org/web/2024/https://www.congress.gov/117/meeting/house/114874/witnesses/HHRG-117-IG00-Wstate-MossW-20220621.pdf', date: 'Jun 2022' },
     { title: 'Giuliani Defamation Verdict', url: 'https://www.reuters.com/legal/giuliani-ordered-pay-148-million-georgia-election-workers-2023-12-15/', date: 'Dec 2023' },
     { title: 'Coffee County Breach Investigation', url: 'https://www.reuters.com/investigates/special-report/usa-election-georgia-breach/', date: '2022' },
     { title: 'Plea Agreement - Sidney Powell', url: 'https://s3.documentcloud.org/documents/24080577/powell-plea-deal.pdf', date: 'Oct 2023' },

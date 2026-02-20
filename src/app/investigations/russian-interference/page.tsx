@@ -102,8 +102,8 @@ const investigation = {
     { title: 'Mueller Report (Volume II - Obstruction)', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
     { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
     { title: 'ICA: Russian Activities and Intentions', url: 'https://www.dni.gov/files/documents/ICA_2017_01.pdf', date: '2017' },
-    { title: 'Mueller Indictment - Internet Research Agency', url: 'https://www.justice.gov/file/1035477/dl', date: '2018' },
-    { title: 'Mueller Indictment - GRU Officers', url: 'https://www.justice.gov/file/1080281/dl', date: '2018' },
+    { title: 'Mueller Indictment - Internet Research Agency', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1035477/dl', date: '2018' },
+    { title: 'Mueller Indictment - GRU Officers', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1080281/dl', date: '2018' },
     { title: 'Trump-Russia Contacts (documented)', url: 'https://www.themoscowproject.org/collusion-timeline/', date: '2019' },
   ],
 };

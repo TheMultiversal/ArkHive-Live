@@ -149,7 +149,7 @@ const investigationData = {
     { title: 'SDNY Indictment Document', url: 'https://www.justice.gov/usao-sdny/press-release/file/1305571/download', type: 'Court Document' },
     { title: 'Kolfage Sentencing', url: 'https://www.justice.gov/usao-sdny/pr/brian-kolfage-sentenced-more-four-years-prison-connection-we-build-wall-fraud-scheme', type: 'DOJ Press Release' },
     { title: 'NY State Indictment', url: 'https://www.manhattanda.org/d-a-bragg-announces-indictment-of-steve-bannon/', type: 'DA Announcement' },
-    { title: 'Trump Pardon List', url: 'https://www.whitehouse.gov/briefing-room/statements-releases/2021/01/20/statement-from-the-press-secretary-regarding-executive-grants-of-clemency/', type: 'White House Archive' },
+    { title: 'Trump Pardon List', url: 'https://web.archive.org/web/2024/https://www.whitehouse.gov/briefing-room/statements-releases/2021/01/20/statement-from-the-press-secretary-regarding-executive-grants-of-clemency/', type: 'White House Archive' },
     { title: 'Washington Post: Build the Wall Collapse', url: 'https://www.washingtonpost.com/politics/2020/08/20/steve-bannon-arrest-we-build-wall/', type: 'News Investigation' },
   ],
 };

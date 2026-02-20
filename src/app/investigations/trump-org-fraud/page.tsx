@@ -95,7 +95,7 @@ const investigation = {
   ],
   sources: [
     { title: 'Judge Engoron Civil Fraud Decision', url: 'https://www.documentcloud.org/documents/24437380-decision-after-trial-people-v-trump', date: 'Feb 2024' },
-    { title: 'NY AG Civil Fraud Complaint', url: 'https://ag.ny.gov/sites/default/files/trump-complaint.pdf', date: 'Sep 2022' },
+    { title: 'NY AG Civil Fraud Complaint', url: 'https://web.archive.org/web/2024/https://ag.ny.gov/sites/default/files/trump-complaint.pdf', date: 'Sep 2022' },
     { title: 'Trump Organization Criminal Conviction', url: 'https://www.manhattanda.org/d-a-bragg-trump-corporation-and-trump-payroll-corporation-convicted-of-17-felonies-including-scheme-to-defraud/', date: 'Dec 2022' },
     { title: 'Weisselberg Perjury Guilty Plea', url: 'https://www.manhattanda.org/d-a-bragg-allen-weisselberg-pleads-guilty-to-perjury/', date: 'Mar 2024' },
     { title: 'Statement of Financial Condition 2014', url: 'https://www.documentcloud.org/documents/24011997-donald-trump-2014-statement-of-financial-condition', date: '2014' },

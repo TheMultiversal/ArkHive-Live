@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-20T09:58:27.492Z",
+  "generatedAt": "2026-02-20T10:12:47.054Z",
   "replacements": [
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
@@ -61,6 +61,13 @@
       "file": "src/app/entities/individuals/[slug]/page.tsx",
       "line": 602,
       "oldUrl": "https://www.justice.gov/atr/case/us-v-microsoft-corporation",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/entities/individuals/[slug]/page.tsx",
+      "line": 705,
+      "oldUrl": "https://www.lelpd.org/",
       "newUrl": null,
       "note": "no-archive-found"
     },
@@ -276,6 +283,13 @@
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
+      "line": 18616,
+      "oldUrl": "https://coronavirus.house.gov/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/entities/individuals/[slug]/page.tsx",
       "line": 18967,
       "oldUrl": "https://rdif.ru/Eng/",
       "newUrl": null,
@@ -285,6 +299,13 @@
       "file": "src/app/entities/individuals/[slug]/page.tsx",
       "line": 23797,
       "oldUrl": "https://syriaaccountability.org/library/caesar-photos/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/entities/organizations/[slug]/page.tsx",
+      "line": 2328,
+      "oldUrl": "https://www.ecohealthalliance.org",
       "newUrl": null,
       "note": "no-archive-found"
     },
@@ -308,6 +329,13 @@
       "oldUrl": "https://www.doi.gov/pressreleases/secretary-zinke-announces-monument-review",
       "newUrl": null,
       "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/covid-response/page.tsx",
+      "line": 144,
+      "oldUrl": "https://coronavirus.house.gov/news/reports",
+      "newUrl": "http://web.archive.org/web/20230213100720/https://coronavirus.house.gov/news/reports",
+      "note": "replaced-with-wayback"
     },
     {
       "file": "src/app/investigations/deutsche-bank/page.tsx",
@@ -983,6 +1011,13 @@
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2550,
+      "oldUrl": "https://www.mccain.senate.gov/public/index.cfm/press-releases?ID=7A30E2C9-E12E-4B11-AB5A-29BBB7B1DA9C",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
       "line": 2766,
       "oldUrl": "https://www.innocenceproject.org/cases/central-park-five/",
       "newUrl": null,
@@ -1116,6 +1151,13 @@
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3663,
+      "oldUrl": "https://coronavirus.house.gov/report",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
       "line": 3702,
       "oldUrl": "https://www.americanprogress.org/article/the-federalist-society/",
       "newUrl": null,
@@ -1193,6 +1235,20 @@
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4064,
+      "oldUrl": "https://www.sigir.mil/files/quarterlyreports/index.html",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4065,
+      "oldUrl": "https://www.sigar.mil/quarterlyreports/",
+      "newUrl": "http://web.archive.org/web/20241214005218/https://www.sigar.mil/quarterlyreports/",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
       "line": 4066,
       "oldUrl": "https://www.hrw.org/report/2007/10/02/targeting-civilians-and-investigators/after-nisour-square-massacre",
       "newUrl": null,
@@ -1265,6 +1321,13 @@
       "file": "src/app/investigations/[slug]/page.tsx",
       "line": 4265,
       "oldUrl": "https://www.propublica.org/article/clarence-thomas-tuition-harlan-crow",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4266,
+      "oldUrl": "https://www.finance.senate.gov/chairmans-news/wyden-launches-investigation-into-crow-familys-relationship-with-justice-thomas",
       "newUrl": null,
       "note": "no-archive-found"
     },
@@ -1599,6 +1662,13 @@
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5729,
+      "oldUrl": "https://thenewpress.com/books/shock-doctrine",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
       "line": 5764,
       "oldUrl": "https://www.propublica.org/article/the-koch-party",
       "newUrl": null,
@@ -1889,7 +1959,7 @@
       "line": 7296,
       "oldUrl": "https://www.hrw.org/news/2016/03/25/bangladesh-investigate-1971-massacres",
       "newUrl": null,
-      "note": "error:Error: write ECONNRESET"
+      "note": "no-archive-found"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
@@ -1911,6 +1981,13 @@
       "oldUrl": "https://www.hsgac.senate.gov/imo/media/doc/PSI%20Report%20China\\",
       "newUrl": null,
       "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8057,
+      "oldUrl": "https://snowdenarchive.cjfe.org/",
+      "newUrl": "http://web.archive.org/web/20240624154227/http://snowdenarchive.cjfe.org/",
+      "note": "replaced-with-wayback"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
@@ -1998,6 +2075,13 @@
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9331,
+      "oldUrl": "https://www.aib.gov.et/wp-content/uploads/2022/10/ET-302-Final-Report.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
       "line": 9334,
       "oldUrl": "https://www.justice.gov/opa/pr/justice-department-determines-boeing-breached-obligations-under-2021-resolution",
       "newUrl": null,
@@ -2047,6 +2131,13 @@
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9655,
+      "oldUrl": "https://www.banking.senate.gov/hearings/an-examination-of-wells-fargo-unauthorized-accounts",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
       "line": 9735,
       "oldUrl": "https://www.cia.gov/library/reports/general-reports-1/cocaine/index.html",
       "newUrl": null,
@@ -2084,6 +2175,13 @@
       "file": "src/app/investigations/[slug]/page.tsx",
       "line": 9922,
       "oldUrl": "https://thesoc.org/amazon-injury-report/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/lib/validators.ts",
+      "line": 111,
+      "oldUrl": "https://${value",
       "newUrl": null,
       "note": "no-archive-found"
     }

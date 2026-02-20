@@ -126,7 +126,7 @@ const investigationData = {
     { title: 'Trump v. Hawaii Supreme Court Decision', url: 'https://www.supremecourt.gov/opinions/17pdf/17-965_h315.pdf', type: 'Court Document' },
     { title: 'DHS Intelligence Assessment (leaked)', url: 'https://www.documentcloud.org/documents/3474730-DHS-intelligence-document-on-President-Donald.html', type: 'Government Report' },
     { title: 'Stephen Miller White Nationalist Emails', url: 'https://www.splcenter.org/stephen-miller-breitbart-emails', type: 'Investigation' },
-    { title: 'ACLU Travel Ban Analysis', url: 'https://www.aclu.org/issues/immigrants-rights/muslim-ban', type: 'Legal Analysis' },
+    { title: 'ACLU Travel Ban Analysis', url: 'https://web.archive.org/web/2024/https://www.aclu.org/issues/immigrants-rights/muslim-ban', type: 'Legal Analysis' },
     { title: 'Cato Institute: No Increased Risk from Banned Countries', url: 'https://www.cato.org/blog/little-national-security-benefit-trumps-executive-order-immigration', type: 'Policy Analysis' },
   ],
 };

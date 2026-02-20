@@ -87,8 +87,8 @@ const investigation = {
   },
   sources: [
     { title: 'ProPublica Inaugural Investigation', url: 'https://www.propublica.org/article/trump-inc-podcast-trumps-inauguration-paid-trumps-company-with-ivanka-in-the-middle', date: '2018-2019' },
-    { title: 'DC AG Inaugural Lawsuit', url: 'https://oag.dc.gov/release/ag-racine-announces-lawsuit-against-trump-inaugural', date: '2020' },
-    { title: 'DC Settlement Announcement', url: 'https://oag.dc.gov/release/ag-racine-secures-750000-settlement-lawsuit-against', date: '2022' },
+    { title: 'DC AG Inaugural Lawsuit', url: 'https://web.archive.org/web/2024/https://oag.dc.gov/release/ag-racine-announces-lawsuit-against-trump-inaugural', date: '2020' },
+    { title: 'DC Settlement Announcement', url: 'https://web.archive.org/web/2024/https://oag.dc.gov/release/ag-racine-secures-750000-settlement-lawsuit-against', date: '2022' },
     { title: 'SDNY Subpoenas', url: 'https://www.nytimes.com/2019/02/04/us/politics/trump-inaugural-committee-subpoena.html', date: '2019' },
     { title: 'Stephanie Wolkoff Tell-All', url: 'https://www.simonandschuster.com/books/Melania-and-Me/Stephanie-Winston-Wolkoff/9781982151263', date: '2020' },
   ],

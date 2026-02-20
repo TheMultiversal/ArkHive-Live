@@ -269,7 +269,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Epstein Flight Logs (Lolita Express)', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2025' },
       { title: 'Unsealed Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
       { title: 'Panama Papers Database', url: 'https://offshoreleaks.icij.org/', date: '2025' },
-      { title: 'IRS Audit Documents via Congressional Reports', url: 'https://waysandmeans.house.gov/trump-tax-returns/', date: '2023-2025' },
+      { title: 'IRS Audit Documents via Congressional Reports', url: 'https://web.archive.org/web/2024/https://waysandmeans.house.gov/trump-tax-returns/', date: '2023-2025' },
       { title: 'DHS/ICE Detention Reports', url: 'https://web.archive.org/web/*/https://www.oig.dhs.gov/reports', date: '2020-2025' },
       { title: 'EPA Environmental Rollback Documentation', url: 'https://www.epa.gov/laws-regulations/regulations', date: '2017-2021' },
       { title: 'IPCC Climate Assessment Reports', url: 'https://www.ipcc.ch/reports/', date: '2025' },
@@ -599,7 +599,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Event 201 Pandemic Exercise Documentation', url: 'https://centerforhealthsecurity.org/our-work/exercises/event201', date: '2019' },
-      { title: 'DOJ Microsoft Antitrust Case', url: 'https://www.justice.gov/atr/case/us-v-microsoft-corporation', date: '1998-2001' },
+      { title: 'DOJ Microsoft Antitrust Case', url: 'https://web.archive.org/web/2024/https://www.justice.gov/atr/case/us-v-microsoft-corporation', date: '1998-2001' },
       { title: 'New York Times - Gates Epstein Meetings', url: 'https://www.nytimes.com/2019/10/12/business/jeffrey-epstein-bill-gates.html', date: '2019' },
       { title: 'India Parliamentary Committee Report - HPV Vaccine Trials', date: '2013' },
       { title: 'WHO Oral Polio Vaccine Assessment', date: '2020' },
@@ -702,7 +702,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Black Wednesday Records - Bank of England', date: '1992' },
       { title: 'Open Society Foundations IRS 990 Filings', date: 'Annual' },
       { title: 'DC Leaks - OSF Documents', date: '2016' },
-      { title: 'Law Enforcement Legal Defense Fund - Soros DA Tracker', url: 'https://www.lelpd.org/', date: 'Various' },
+      { title: 'Law Enforcement Legal Defense Fund - Soros DA Tracker', url: 'https://web.archive.org/web/2024/https://www.lelpd.org/', date: 'Various' },
       { title: 'Hungarian Government "Stop Soros" Documentation', date: '2018' },
     ],
   },
@@ -1151,7 +1151,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Flynn Plea Agreement', url: 'https://www.courtlistener.com/docket/6234142/united-states-v-flynn/', date: '2017' },
       { title: 'DOJ Flynn Statement of Offense', url: 'http://web.archive.org/web/20240314193724/http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download', date: '2017' },
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
-      { title: 'House Oversight Turkey Lobbying Report', url: 'https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf', date: '2017' },
+      { title: 'House Oversight Turkey Lobbying Report', url: 'https://web.archive.org/web/2024/https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf', date: '2017' },
       { title: 'WaPo: Flynn-Kislyak Calls', url: 'https://www.washingtonpost.com/world/national-security/national-security-adviser-flynn-discussed-sanctions-with-russian-ambassador-despite-denials-officials-say/2017/02/09/f85b29d6-ee11-11e6-b4ff-ac2cf509efe5_story.html', date: '2017' },
     ],
   },
@@ -4478,7 +4478,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'DOJ Seditious Conspiracy Indictment', url: 'https://www.justice.gov/opa/pr/leader-proud-boys-and-four-other-members-indicted-federal-court-seditious-conspiracy-and', date: '2022' },
-      { title: 'Trial Verdict', url: 'https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', date: '2023' },
+      { title: 'Trial Verdict', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', date: '2023' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Reuters FBI Informant Investigation', date: '2021' },
     ],
@@ -4566,7 +4566,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'May 25, 2023', event: 'Sentenced to 18 YEARS in federal prison' },
     ],
     sources: [
-      { title: 'DOJ Seditious Conspiracy Conviction', url: 'https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy', date: '2023' },
+      { title: 'DOJ Seditious Conspiracy Conviction', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy', date: '2023' },
       { title: 'Trial Evidence and Testimony', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', date: '2022' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Yale Law School Records', date: '2004' },
@@ -4863,7 +4863,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'July 17, 2024', event: 'Speaks at Republican National Convention SAME DAY' },
     ],
     sources: [
-      { title: 'DOJ Contempt Conviction', url: 'https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress', date: '2023' },
+      { title: 'DOJ Contempt Conviction', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress', date: '2023' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Federal Prison Records', date: '2024' },
       { title: 'RNC Speaking Records', date: '2024' },
@@ -15538,8 +15538,8 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'July 2024', event: 'Concurs in Trump immunity decision' },
     ],
     sources: [
-      { title: 'ProPublica Thomas-Crow Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' },
-      { title: 'ProPublica RV Investigation', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-bought-him-an-rv-worth-more-than-double-his-annual-salary', date: '2023' },
+      { title: 'ProPublica Thomas-Crow Investigation', url: 'https://propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' },
+      { title: 'ProPublica RV Investigation', url: 'https://propublica.org/article/clarence-thomas-harlan-crow-bought-him-an-rv-worth-more-than-double-his-annual-salary', date: '2023' },
       { title: 'ProPublica Real Estate Investigation', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus', date: '2023' },
       { title: 'January 6 Committee - Ginni Thomas Texts', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
     ],
@@ -15630,7 +15630,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'NYT Upside-Down Flag Investigation', url: 'https://www.nytimes.com/2024/05/16/us/justice-alito-flag-jan-6.html', date: '2024' },
       { title: 'NYT Appeal to Heaven Flag', url: 'https://www.nytimes.com/2024/05/22/us/alito-appeal-to-heaven-flag.html', date: '2024' },
-      { title: 'ProPublica Singer Trip Investigation', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', date: '2023' },
+      { title: 'ProPublica Singer Trip Investigation', url: 'https://propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', date: '2023' },
       { title: 'Dobbs v. Jackson Women\'s Health Organization', url: 'https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf', date: '2022' },
     ],
   },
@@ -16497,7 +16497,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Investigation continues, no enforcement mechanism' },
     ],
     sources: [
-      { title: 'ProPublica - Clarence Thomas Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' },
+      { title: 'ProPublica - Clarence Thomas Investigation', url: 'https://propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' },
       { title: 'ProPublica - Thomas Mother\'s Home', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus', date: '2023' },
       { title: 'Senate Judiciary Committee Investigation', date: '2023-2024' },
       { title: 'ProPublica - School Tuition Payments', date: '2023' },
@@ -17751,7 +17751,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'UN Security Council Presentation Transcript', url: 'https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm', date: '2003' },
       { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' },
-      { title: 'My Lai Investigation Documents - National Archives', url: 'https://www.archives.gov/research/military/vietnam-war/war-crimes', date: '1968' },
+      { title: 'My Lai Investigation Documents - National Archives', url: 'https://archives.gov/research/military/vietnam-war/war-crimes', date: '1968' },
       { title: 'Curveball: Spies, Lies, and the Con Man Who Caused a War', date: '2007' },
       { title: 'Iran-Contra Tower Commission Report', url: 'https://web.archive.org/web/*/https://www.archive.org/details/towercommissionr00unit', date: '1987' },
       { title: 'The Iraq Study Group Report', url: 'https://www.usip.org/publications/2006/12/iraq-study-group-report', date: '2006' },
@@ -18613,7 +18613,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'CDC COVID-19 Response Timeline', url: 'https://www.cdc.gov/museum/timeline/covid19.html', date: '2020-2021' },
-      { title: 'House Select Subcommittee on Coronavirus Crisis Reports', url: 'https://coronavirus.house.gov/', date: '2020-2022' },
+      { title: 'House Select Subcommittee on Coronavirus Crisis Reports', url: 'https://web.archive.org/web/2024/https://coronavirus.house.gov/', date: '2020-2022' },
       { title: 'Redfield CNN Lab Leak Interview', url: 'https://web.archive.org/web/*/https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' },
       { title: 'Science Magazine - CDC Testing Failures Analysis', date: '2020' },
       { title: 'GAO COVID-19 Response Reports', url: 'https://www.gao.gov/coronavirus', date: '2020-2022' },
@@ -23794,7 +23794,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'UN Commission of Inquiry on Syria', url: 'https://www.ohchr.org/en/hr-bodies/hrc/co-i-syria/co-i-syria-home', date: '2011-2024' },
       { title: 'OPCW Fact-Finding Mission Reports', url: 'https://web.archive.org/web/*/https://opcw.org/fact-finding-mission-reports', date: '2014-2024' },
-      { title: 'Caesar Photos Documentation', url: 'https://syriaaccountability.org/library/caesar-photos/', date: '2014' },
+      { title: 'Caesar Photos Documentation', url: 'https://web.archive.org/web/2024/https://syriaaccountability.org/library/caesar-photos/', date: '2014' },
       { title: 'Human Rights Watch Syria Reports', url: 'https://web.archive.org/web/*/https://hrw.org/middle-east/north-africa/syria', date: '2011-2024' },
     ],
   },
