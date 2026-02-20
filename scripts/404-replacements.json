@@ -1,79 +1,9 @@
 {
-  "generatedAt": "2026-02-19T21:56:00.018Z",
+  "generatedAt": "2026-02-20T05:02:43.744Z",
   "replacements": [
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 266,
-      "oldUrl": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 885,
-      "oldUrl": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 1884,
-      "oldUrl": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 1983,
-      "oldUrl": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 2072,
-      "oldUrl": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 2214,
-      "oldUrl": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 4174,
-      "oldUrl": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/investigations/fake-electors/page.tsx",
-      "line": 87,
-      "oldUrl": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 267,
-      "oldUrl": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 3855,
-      "oldUrl": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 272,
+      "line": 273,
       "oldUrl": "https://waysandmeans.house.gov/trump-tax-returns/",
       "newUrl": null,
       "note": "no-archive-found"
@@ -87,203 +17,147 @@
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 273,
-      "oldUrl": "https://www.oig.dhs.gov/reports",
+      "line": 290,
+      "oldUrl": "https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 3537,
-      "oldUrl": "https://www.oig.dhs.gov/reports",
+      "line": 1249,
+      "oldUrl": "https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 289,
-      "oldUrl": "https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/",
+      "line": 5085,
+      "oldUrl": "https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 1248,
-      "oldUrl": "https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/",
+      "line": 6143,
+      "oldUrl": "https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 5084,
-      "oldUrl": "https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/",
+      "line": 402,
+      "oldUrl": "https://palmbeachpost.com/story/news/crime/2019/07/09/palm-beach-police-documents-epstein-case/4537389007/",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 6142,
-      "oldUrl": "https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 401,
-      "oldUrl": "https://www.palmbeachpost.com/story/news/crime/2019/07/09/palm-beach-police-documents-epstein-case/4537389007/",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 405,
+      "line": 406,
       "oldUrl": "https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 602,
+      "line": 603,
       "oldUrl": "https://www.justice.gov/atr/case/us-v-microsoft-corporation",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 888,
-      "oldUrl": "https://www.azag.gov/press-release/indictment-unsealed-state-v-meadows-et-al",
+      "line": 1067,
+      "oldUrl": "http://web.archive.org/web/20240314104559/http://web.archive.org/web/20240314104559/https://www.justice.gov/file/1124706/download",
       "newUrl": null,
       "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 981,
-      "oldUrl": "https://www.atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 1066,
-      "oldUrl": "https://www.justice.gov/file/1124706/download",
-      "newUrl": "http://web.archive.org/web/20240314104559/https://www.justice.gov/file/1124706/download",
-      "note": "replaced-with-wayback"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
       "line": 1500,
-      "oldUrl": "https://www.justice.gov/file/1124706/download",
-      "newUrl": "http://web.archive.org/web/20240314104559/https://www.justice.gov/file/1124706/download",
-      "note": "replaced-with-wayback"
+      "oldUrl": "http://web.archive.org/web/20240314104559/http://web.archive.org/web/20240314104559/https://www.justice.gov/file/1124706/download",
+      "newUrl": null,
+      "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 1152,
-      "oldUrl": "https://www.justice.gov/file/1015126/download",
-      "newUrl": "http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download",
-      "note": "replaced-with-wayback"
+      "line": 1153,
+      "oldUrl": "http://web.archive.org/web/20240314193724/http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download",
+      "newUrl": null,
+      "note": "no-archive-found"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
       "line": 3623,
-      "oldUrl": "https://www.justice.gov/file/1015126/download",
-      "newUrl": "http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download",
-      "note": "replaced-with-wayback"
+      "oldUrl": "http://web.archive.org/web/20240314193724/http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download",
+      "newUrl": null,
+      "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 1154,
+      "line": 1155,
       "oldUrl": "https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 1247,
-      "oldUrl": "https://ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment",
+      "line": 1248,
+      "oldUrl": "https://www.ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
       "line": 962,
-      "oldUrl": "https://ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 1586,
-      "oldUrl": "https://manhattanda.org/d-a-bragg-long-time-trump-organization-cfo-allen-weisselberg-sentenced/",
+      "oldUrl": "https://www.ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
       "line": 1587,
-      "oldUrl": "https://manhattanda.org/d-a-bragg-allen-weisselberg-pleads-guilty-to-perjury/",
+      "oldUrl": "https://www.manhattanda.org/d-a-bragg-long-time-trump-organization-cfo-allen-weisselberg-sentenced/",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 1667,
-      "oldUrl": "https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/",
+      "line": 1588,
+      "oldUrl": "https://www.manhattanda.org/d-a-bragg-allen-weisselberg-pleads-guilty-to-perjury/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/trump-org-fraud/page.tsx",
+      "line": 100,
+      "oldUrl": "https://www.manhattanda.org/d-a-bragg-allen-weisselberg-pleads-guilty-to-perjury/",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 2543,
-      "oldUrl": "https://intelligence.house.gov/news/documentsingle.aspx?DocumentID=821",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 3006,
-      "oldUrl": "https://www.justice.gov/opa/pr/wikileaks-founder-charged-computer-intrusion-conspiracy",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 3315,
-      "oldUrl": "https://www.congress.gov/116/chrg/CHRG-116hhrg42560/CHRG-116hhrg42560.pdf",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 3857,
-      "oldUrl": "https://www.thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 2489,
-      "oldUrl": "https://www.thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html",
+      "line": 3538,
+      "oldUrl": "https://oig.dhs.gov/reports",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
       "line": 3858,
-      "oldUrl": "https://www.amazon.com/What-Do-Need-Men-Hideous/dp/1250215420",
+      "oldUrl": "https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2489,
+      "oldUrl": "https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 3913,
-      "oldUrl": "https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 4481,
+      "line": 4482,
       "oldUrl": "https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach",
       "newUrl": null,
       "note": "no-archive-found"
@@ -304,7 +178,7 @@
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 4569,
+      "line": 4570,
       "oldUrl": "https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy",
       "newUrl": null,
       "note": "no-archive-found"
@@ -318,70 +192,70 @@
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 4780,
+      "line": 4781,
       "oldUrl": "https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 4866,
+      "line": 4867,
       "oldUrl": "https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 4972,
+      "line": 4973,
       "oldUrl": "https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 5203,
-      "oldUrl": "https://www.whitehouse.gov/bebest/",
-      "newUrl": "http://web.archive.org/web/20210120164819/https://www.whitehouse.gov/bebest/",
-      "note": "replaced-with-wayback"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 5416,
-      "oldUrl": "https://www.justice.gov/file/1071991/download",
-      "newUrl": "http://web.archive.org/web/20240313073409/https://www.justice.gov/file/1071991/download",
-      "note": "replaced-with-wayback"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 15454,
-      "oldUrl": "https://www.blackrock.com/corporate/investor-relations/larry-fink-annual-letter",
+      "line": 5204,
+      "oldUrl": "http://web.archive.org/web/20210120164819/http://web.archive.org/web/20210120164819/https://www.whitehouse.gov/bebest/",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 15541,
-      "oldUrl": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow",
+      "line": 5417,
+      "oldUrl": "http://web.archive.org/web/20240313073409/http://web.archive.org/web/20240313073409/https://www.justice.gov/file/1071991/download",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 16500,
-      "oldUrl": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow",
+      "line": 15455,
+      "oldUrl": "https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
       "line": 15542,
+      "oldUrl": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/entities/individuals/[slug]/page.tsx",
+      "line": 16501,
+      "oldUrl": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/entities/individuals/[slug]/page.tsx",
+      "line": 15543,
       "oldUrl": "https://www.propublica.org/article/clarence-thomas-harlan-crow-bought-him-an-rv-worth-more-than-double-his-annual-salary",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 15633,
+      "line": 15634,
       "oldUrl": "https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus",
       "newUrl": null,
       "note": "no-archive-found"
@@ -395,255 +269,262 @@
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 4302,
+      "line": 4301,
       "oldUrl": "https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 16784,
+      "line": 16785,
       "oldUrl": "https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 16788,
+      "line": 16789,
       "oldUrl": "https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 16882,
-      "oldUrl": "https://www.greenpeace.org/usa/global-warming/climate-deniers/koch-industries/",
-      "newUrl": "http://web.archive.org/web/20210311041257/https://www.greenpeace.org/usa/global-warming/climate-deniers/koch-industries/",
-      "note": "replaced-with-wayback"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 17458,
-      "oldUrl": "https://www.adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet",
+      "line": 16883,
+      "oldUrl": "http://web.archive.org/web/20210311041257/http://web.archive.org/web/20210311041257/https://www.greenpeace.org/usa/global-warming/climate-deniers/koch-industries/",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 17753,
-      "oldUrl": "https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 5614,
-      "oldUrl": "https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and",
+      "line": 17459,
+      "oldUrl": "https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 17754,
+      "line": 17755,
       "oldUrl": "https://www.archives.gov/research/military/vietnam-war/war-crimes",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 17756,
-      "oldUrl": "https://archive.org/details/towercommissionr00unit",
+      "line": 17757,
+      "oldUrl": "https://www.archive.org/details/towercommissionr00unit",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 18359,
-      "oldUrl": "https://archive.org/details/towercommissionr00unit",
+      "line": 18360,
+      "oldUrl": "https://www.archive.org/details/towercommissionr00unit",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 17840,
-      "oldUrl": "https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
+      "line": 17841,
+      "oldUrl": "https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 18017,
-      "oldUrl": "https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
+      "line": 17933,
+      "oldUrl": "https://aclu.org/sites/default/files/torturefoia/released/030904.pdf",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 17930,
-      "oldUrl": "https://www.aclu.org/sites/default/files/FilesPDFs/fay.pdf",
+      "line": 18437,
+      "oldUrl": "http://web.archive.org/web/20250713052119/http://web.archive.org/web/20250713052119/http://web.archive.org/web/20250713052119/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 17932,
-      "oldUrl": "https://www.aclu.org/sites/default/files/torturefoia/released/030904.pdf",
+      "line": 19958,
+      "oldUrl": "http://web.archive.org/web/20250713052119/http://web.archive.org/web/20250713052119/http://web.archive.org/web/20250713052119/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 18020,
-      "oldUrl": "https://www.aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf",
+      "line": 18537,
+      "oldUrl": "https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 18279,
-      "oldUrl": "https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/",
+      "line": 18618,
+      "oldUrl": "https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 18436,
-      "oldUrl": "https://www.supremecourt.gov/opinions/00pdf/00-949.pdf",
-      "newUrl": "http://web.archive.org/web/20250713052119/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf",
-      "note": "replaced-with-wayback"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 19957,
-      "oldUrl": "https://www.supremecourt.gov/opinions/00pdf/00-949.pdf",
-      "newUrl": "http://web.archive.org/web/20250713052119/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf",
-      "note": "replaced-with-wayback"
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 8636,
-      "oldUrl": "https://www.supremecourt.gov/opinions/00pdf/00-949.pdf",
-      "newUrl": "http://web.archive.org/web/20250713052119/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf",
-      "note": "replaced-with-wayback"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 18534,
-      "oldUrl": "https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary",
+      "line": 18798,
+      "oldUrl": "https://bellingcat.com/tag/wagner-group/",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 18536,
-      "oldUrl": "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank",
+      "line": 18968,
+      "oldUrl": "https://rdif.ru/Eng/",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 18617,
-      "oldUrl": "https://www.cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html",
+      "line": 19546,
+      "oldUrl": "https://archives.gov/research/foreign-policy/reagan",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 18795,
-      "oldUrl": "https://www.justice.gov/file/1035477/download",
-      "newUrl": "http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download",
-      "note": "replaced-with-wayback"
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 4543,
-      "oldUrl": "https://www.justice.gov/file/1035477/download",
-      "newUrl": "http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download",
-      "note": "replaced-with-wayback"
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 5841,
-      "oldUrl": "https://www.justice.gov/file/1035477/download",
-      "newUrl": "http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download",
-      "note": "replaced-with-wayback"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 18797,
-      "oldUrl": "https://www.bellingcat.com/tag/wagner-group/",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 19043,
-      "oldUrl": "https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 19045,
-      "oldUrl": "https://www.supremecourt.gov/opinions/13pdf/12-842_5h26.pdf",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 19133,
-      "oldUrl": "https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research",
-      "newUrl": "http://web.archive.org/web/20250528001123/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research",
-      "note": "replaced-with-wayback"
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 2130,
-      "oldUrl": "https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research",
-      "newUrl": "http://web.archive.org/web/20250528001123/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research",
-      "note": "replaced-with-wayback"
-    },
-    {
-      "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 5259,
-      "oldUrl": "https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research",
-      "newUrl": "http://web.archive.org/web/20250528001123/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research",
-      "note": "replaced-with-wayback"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 19545,
-      "oldUrl": "https://www.archives.gov/research/foreign-policy/reagan",
-      "newUrl": null,
-      "note": "no-archive-found"
-    },
-    {
-      "file": "src/app/entities/individuals/[slug]/page.tsx",
-      "line": 23796,
-      "oldUrl": "https://www.opcw.org/fact-finding-mission-reports",
+      "line": 23797,
+      "oldUrl": "https://opcw.org/fact-finding-mission-reports",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/entities/individuals/[slug]/page.tsx",
       "line": 23798,
-      "oldUrl": "https://www.hrw.org/middle-east/north-africa/syria",
+      "oldUrl": "https://syriaaccountability.org/library/caesar-photos/",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
-      "file": "src/app/investigations/charlottesville/page.tsx",
-      "line": 101,
-      "oldUrl": "https://www.justice.gov/opa/pr/ohio-man-sentenced-life-plus-419-years-federal-hate-crimes",
+      "file": "src/app/entities/individuals/[slug]/page.tsx",
+      "line": 23799,
+      "oldUrl": "https://hrw.org/middle-east/north-africa/syria",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/build-the-wall-fraud/page.tsx",
+      "line": 151,
+      "oldUrl": "https://www.manhattanda.org/d-a-bragg-announces-indictment-of-steve-bannon/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/build-the-wall-fraud/page.tsx",
+      "line": 152,
+      "oldUrl": "https://www.whitehouse.gov/briefing-room/statements-releases/2021/01/20/statement-from-the-press-secretary-regarding-executive-grants-of-clemency/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/climate-sabotage/page.tsx",
+      "line": 157,
+      "oldUrl": "https://www.doi.gov/pressreleases/secretary-zinke-announces-monument-review",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/investigations/deutsche-bank/page.tsx",
-      "line": 102,
-      "oldUrl": "https://www.justice.gov/opa/pr/deutsche-bank-agrees-pay-over-41-million-resolve-foreign-corrupt-practices-act",
+      "line": 103,
+      "oldUrl": "https://ag.ny.gov/press-release/2022/attorney-general-james-files-lawsuit-against-donald-trump",
       "newUrl": null,
-      "note": "error:Error: read ECONNRESET"
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/emoluments/page.tsx",
+      "line": 79,
+      "oldUrl": "https://oversight.house.gov/wp-content/uploads/2022/01/Trump-Hotel-Report-January-2022.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/emoluments/page.tsx",
+      "line": 80,
+      "oldUrl": "https://www.citizensforethics.org/reports-investigations/crew-reports/president-trump-accepted-663-payments-foreign-governments/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/emoluments/page.tsx",
+      "line": 81,
+      "oldUrl": "https://www.gsa.gov/real-estate/gsa-properties/gsa-properties-faq/old-post-office-building-washington-dc",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/emoluments/page.tsx",
+      "line": 82,
+      "oldUrl": "https://oag.dc.gov/blog/district-columbia-and-maryland-file-lawsuit-against-president-trump",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/fake-electors/page.tsx",
+      "line": 89,
+      "oldUrl": "https://www.michigan.gov/ag/news/press-releases/2023/07/18/ag-nessel-charges-16-individuals-as-false-electors",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/family-separation/page.tsx",
+      "line": 94,
+      "oldUrl": "https://www.aclu.org/report/family-separation-by-the-numbers",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/family-separation/page.tsx",
+      "line": 98,
+      "oldUrl": "https://www.aclu.org/legal-document/flores-v-reno-settlement-agreement",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/georgia-rico/page.tsx",
+      "line": 93,
+      "oldUrl": "https://www.congress.gov/117/meeting/house/114874/witnesses/HHRG-117-IG00-Wstate-MossW-20220621.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/hush-money/page.tsx",
+      "line": 86,
+      "oldUrl": "https://www.manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Statement-of-Facts.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4903,
+      "oldUrl": "https://www.manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Statement-of-Facts.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/inaugural-committee/page.tsx",
+      "line": 90,
+      "oldUrl": "https://oag.dc.gov/release/ag-racine-announces-lawsuit-against-trump-inaugural",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/inaugural-committee/page.tsx",
+      "line": 91,
+      "oldUrl": "https://oag.dc.gov/release/ag-racine-secures-750000-settlement-lawsuit-against",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/january-6-insurrection/page.tsx",
+      "line": 98,
+      "oldUrl": "https://www.congress.gov/117/meeting/house/113883/witnesses/HHRG-117-IG00-Wstate-FanoneM-20210727.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
     },
     {
       "file": "src/app/investigations/january-6-insurrection/page.tsx",
@@ -661,8 +542,50 @@
     },
     {
       "file": "src/app/investigations/mar-a-lago-documents/page.tsx",
+      "line": 87,
+      "oldUrl": "https://www.justice.gov/d9/press-releases/attachments/2022/08/26/2022.08.30_government_motion_for_court_to_order_that_the_filter_review_team_may_continue_its_review.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/mar-a-lago-documents/page.tsx",
+      "line": 88,
+      "oldUrl": "https://www.archives.gov/files/foia/2022-0311-f-letter-from-nara-to-trump-representatives.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/mar-a-lago-documents/page.tsx",
+      "line": 89,
+      "oldUrl": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.618763/gov.uscourts.flsd.618763.730.0.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/mar-a-lago-documents/page.tsx",
       "line": 90,
       "oldUrl": "https://www.justice.gov/storage/US-v-Trump-Nauta-De-Oliveira-23-80101-Appeal.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/muslim-ban/page.tsx",
+      "line": 129,
+      "oldUrl": "https://www.aclu.org/issues/immigrants-rights/muslim-ban",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/obstruction-of-justice/page.tsx",
+      "line": 166,
+      "oldUrl": "https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=4887",
+      "newUrl": "http://web.archive.org/web/20220919234432/https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=4887",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/obstruction-of-justice/page.tsx",
+      "line": 168,
+      "oldUrl": "https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=4878",
       "newUrl": null,
       "note": "no-archive-found"
     },
@@ -681,72 +604,387 @@
       "note": "no-archive-found"
     },
     {
-      "file": "src/app/investigations/pardons-corruption/page.tsx",
-      "line": 176,
-      "oldUrl": "https://www.justice.gov/pardon/pardons-granted-president-donald-trump",
-      "newUrl": "http://web.archive.org/web/20210424061514/https://www.justice.gov/pardon/pardons-granted-president-donald-trump",
+      "file": "src/app/investigations/russian-interference/page.tsx",
+      "line": 105,
+      "oldUrl": "https://www.justice.gov/file/1035477/dl",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/russian-interference/page.tsx",
+      "line": 106,
+      "oldUrl": "https://www.justice.gov/file/1080281/dl",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/saudi-connections/page.tsx",
+      "line": 78,
+      "oldUrl": "https://www.foreign.senate.gov/imo/media/doc/Saudi%20Report%20-%20As%20Submitted%20to%20GPO.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/tax-evasion/page.tsx",
+      "line": 150,
+      "oldUrl": "https://ag.ny.gov/press-release/2022/attorney-general-james-files-lawsuit-against-donald-trump-alleging-years",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/trump-foundation/page.tsx",
+      "line": 148,
+      "oldUrl": "https://ag.ny.gov/press-release/2018/ag-underwood-files-lawsuit-against-donald-j-trump-foundation-and-its-board",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/trump-foundation/page.tsx",
+      "line": 151,
+      "oldUrl": "https://ag.ny.gov/press-release/2019/donald-j-trump-pays-court-ordered-2-million-damages-misusing-trump-foundation",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/trump-org-fraud/page.tsx",
+      "line": 98,
+      "oldUrl": "https://ag.ny.gov/sites/default/files/trump-complaint.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/trump-org-fraud/page.tsx",
+      "line": 99,
+      "oldUrl": "https://www.manhattanda.org/d-a-bragg-trump-corporation-and-trump-payroll-corporation-convicted-of-17-felonies-including-scheme-to-defraud/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/trump-org-fraud/page.tsx",
+      "line": 101,
+      "oldUrl": "https://www.documentcloud.org/documents/24011997-donald-trump-2014-statement-of-financial-condition",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/trump-university/page.tsx",
+      "line": 155,
+      "oldUrl": "https://ag.ny.gov/press-release/2013/ag-schneiderman-files-suit-against-trump-and-trump-university",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/trump-university/page.tsx",
+      "line": 159,
+      "oldUrl": "https://www.cnn.com/2016/06/03/politics/donald-trump-judge-curiel/index.html",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/ukraine-extortion/page.tsx",
+      "line": 88,
+      "oldUrl": "https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf",
+      "newUrl": "http://web.archive.org/web/20210113040119/https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf",
       "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 507,
+      "oldUrl": "https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf",
+      "newUrl": "http://web.archive.org/web/20210113040119/https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2612,
+      "oldUrl": "https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf",
+      "newUrl": "http://web.archive.org/web/20210113040119/https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/ukraine-extortion/page.tsx",
+      "line": 89,
+      "oldUrl": "https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf",
+      "newUrl": "http://web.archive.org/web/20230101115346/https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 508,
+      "oldUrl": "https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf",
+      "newUrl": "http://web.archive.org/web/20230101115346/https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2613,
+      "oldUrl": "https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf",
+      "newUrl": "http://web.archive.org/web/20230101115346/https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/voter-suppression/page.tsx",
+      "line": 150,
+      "oldUrl": "https://www.brennancenter.org/our-work/research-reports/voter-purge-rates-remain-high",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/voter-suppression/page.tsx",
+      "line": 151,
+      "oldUrl": "https://www.fultonclerk.org/DocumentCenter/View/2037/Trump-Indictment",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/voter-suppression/page.tsx",
+      "line": 152,
+      "oldUrl": "https://www.citizensforethics.org/reports-investigations/crew-investigations/louis-dejoy-usps-conflicts-of-interest/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 61,
+      "oldUrl": "https://www.manhattanda.org/district-attorney-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3388,
+      "oldUrl": "https://www.manhattanda.org/district-attorney-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4902,
+      "oldUrl": "https://www.manhattanda.org/district-attorney-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 62,
+      "oldUrl": "https://ag.ny.gov/press-release/2024/attorney-general-james-statement-court-ruling-donald-trump-fraud-case",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 214,
+      "oldUrl": "https://www.justice.gov/storage/US_v_Trump-Nauta-DeOliveira_23-80101.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 215,
+      "oldUrl": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.617854/gov.uscourts.flsd.617854.102.0_4.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 252,
+      "oldUrl": "https://apnews.com/article/chesebro-plea-deal-georgia-trump-d7bf0c2f5a1c5f35d7a8c9e8b3e7a4f1",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 289,
+      "oldUrl": "https://apnews.com/article/giuliani-defamation-verdict-georgia-election-workers-e42ec6a5b4ee7a52c4c9d13b9b5f0a0d",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1092,
+      "oldUrl": "https://apnews.com/article/giuliani-defamation-verdict-georgia-election-workers-e42ec6a5b4ee7a52c4c9d13b9b5f0a0d",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 290,
+      "oldUrl": "https://www.npr.org/2023/04/18/1170339134/fox-news-dominion-settlement",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 325,
+      "oldUrl": "https://acleddata.com/2021/11/17/a-great-and-sudden-change-the-global-political-violence-landscape-before-and-after-the-covid-19-pandemic/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 326,
+      "oldUrl": "https://www.cnn.com/2018/08/17/middleeast/us-bomb-yemen-school-bus-intl/index.html",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 403,
+      "oldUrl": "https://www.cnn.com/2018/04/19/politics/comey-memos-read/index.html",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 438,
+      "oldUrl": "https://ag.ny.gov/sites/default/files/2022-09-21-complaint.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 440,
+      "oldUrl": "https://www.manhattanda.org/d-a-bragg-trump-organization-found-guilty-on-all-counts/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 441,
+      "oldUrl": "https://apnews.com/article/trump-organization-weisselberg-perjury-guilty-plea-f3e6c0a1c0a0b1a1a1b1c1d1e1f1a1b1",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 475,
+      "oldUrl": "https://www.manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Stmt-of-Facts.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 577,
+      "oldUrl": "https://oversight.house.gov/sites/democrats.oversight.house.gov/files/Trump%20Saudi%20Nuclear%20Report%20-%202-19-2019.pdf",
+      "newUrl": "http://web.archive.org/web/20221228160415/https://oversight.house.gov/sites/democrats.oversight.house.gov/files/Trump%20Saudi%20Nuclear%20Report%20-%202-19-2019.pdf",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 704,
+      "oldUrl": "https://www.whitehouse.gov/briefings-statements/statement-president-trump-paris-climate-accord/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 736,
+      "oldUrl": "https://ag.ny.gov/press-release/2013/ag-schneiderman-sues-donald-trump-trump-university-and-seeks-40-million",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 765,
+      "oldUrl": "https://ag.ny.gov/press-release/2018/attorney-general-underwood-announces-stipulation-dissolving-trump-foundation",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 796,
+      "oldUrl": "https://oversight.house.gov/sites/democrats.oversight.house.gov/files/documents/USPS%20Briefing%20Paper.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 828,
+      "oldUrl": "https://www.buzzfeednews.com/article/anthonycormier/trump-deutsche-bank-money-laundering",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 861,
+      "oldUrl": "https://www.businessinsider.com/women-accusing-trump-sexual-misconduct-2017-12",
+      "newUrl": null,
+      "note": "no-archive-found"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
       "line": 891,
-      "oldUrl": "https://www.justice.gov/pardon/pardons-granted-president-donald-trump",
-      "newUrl": "http://web.archive.org/web/20210424061514/https://www.justice.gov/pardon/pardons-granted-president-donald-trump",
-      "note": "replaced-with-wayback"
+      "oldUrl": "http://web.archive.org/web/20210424061514/http://web.archive.org/web/20210424061514/https://www.justice.gov/pardon/pardons-granted-president-donald-trump",
+      "newUrl": null,
+      "note": "no-archive-found"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
       "line": 7100,
-      "oldUrl": "https://www.justice.gov/pardon/pardons-granted-president-donald-trump",
-      "newUrl": "http://web.archive.org/web/20210424061514/https://www.justice.gov/pardon/pardons-granted-president-donald-trump",
+      "oldUrl": "http://web.archive.org/web/20210424061514/http://web.archive.org/web/20210424061514/https://www.justice.gov/pardon/pardons-granted-president-donald-trump",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 894,
+      "oldUrl": "https://www.militarytimes.com/news/pentagon-congress/2019/11/21/trump-grants-clemency-to-army-officer-who-killed-iraqi-prisoner/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 963,
+      "oldUrl": "https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-012021/",
+      "newUrl": "http://web.archive.org/web/20210120165945/https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-012021/",
       "note": "replaced-with-wayback"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 59,
-      "oldUrl": "https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf",
+      "line": 1023,
+      "oldUrl": "https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-and-florida-chapter-leader-convicted-seditious-conspiracy",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 133,
-      "oldUrl": "https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf",
+      "line": 1056,
+      "oldUrl": "https://www.cnn.com/2022/01/12/politics/trump-fake-electoral-certificates/index.html",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 4108,
-      "oldUrl": "https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf",
+      "line": 1057,
+      "oldUrl": "https://www.cnn.com/2021/09/21/politics/read-eastman-memo-trump-pence/index.html",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 4426,
-      "oldUrl": "https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf",
+      "line": 1058,
+      "oldUrl": "https://www.ajc.com/politics/georgia-fake-electors-charged-in-2020-scheme/",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 6535,
-      "oldUrl": "https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf",
+      "line": 1059,
+      "oldUrl": "https://apnews.com/article/arizona-fake-electors-indicted-trump-giuliani-meadows-a1b2c3d4e5f6",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 9205,
-      "oldUrl": "https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf",
+      "line": 1155,
+      "oldUrl": "https://www.propublica.org/article/trump-inc-podcast-trumps-inaugural-committee-paid-trumps-company-with-ivanka-trump-in-the-middle",
       "newUrl": null,
       "note": "no-archive-found"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 97,
-      "oldUrl": "https://www.justice.gov/opr/page/file/1232356/download",
+      "line": 1156,
+      "oldUrl": "https://oag.dc.gov/release/ag-racine-announces-settlement-inaugural-committee",
       "newUrl": null,
       "note": "no-archive-found"
     },
@@ -766,17 +1004,1515 @@
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 1499,
-      "oldUrl": "https://www.justice.gov/file/1080281/download",
-      "newUrl": "http://web.archive.org/web/20240314115300/https://www.justice.gov/file/1080281/download",
+      "line": 1279,
+      "oldUrl": "https://www.cdc.gov/drugoverdose/deaths/index.html",
+      "newUrl": "http://web.archive.org/web/20240515184205/https://www.cdc.gov/drugoverdose/deaths/index.html",
       "note": "replaced-with-wayback"
     },
     {
       "file": "src/app/investigations/[slug]/page.tsx",
-      "line": 5842,
-      "oldUrl": "https://www.justice.gov/file/1080281/download",
-      "newUrl": "http://web.archive.org/web/20240314115300/https://www.justice.gov/file/1080281/download",
+      "line": 1280,
+      "oldUrl": "https://www.justice.gov/opa/pr/purdue-pharma-lp-pleads-guilty-federal-charges",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1335,
+      "oldUrl": "https://www.aclu.org/cases/index-newspapers-llc-v-city-portland",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1340,
+      "oldUrl": "https://www.eff.org/deeplinks/2020/09/victory-appeals-court-rules-nsa-mass-surveillance-illegal",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1378,
+      "oldUrl": "https://www.epa.gov/newsreleases/epa-army-finalize-rule-increase-clean-water-act-clarity",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1381,
+      "oldUrl": "https://www.theguardian.com/us-news/2017/sep/29/nestle-pays-water-public-water-bottling-michigan-drought",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1385,
+      "oldUrl": "https://www.epa.gov/coalash/coal-combustion-residuals-ccr-disposal",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1541,
+      "oldUrl": "https://www.brookings.edu/articles/how-trumps-tweets-affect-the-stock-market/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1772,
+      "oldUrl": "https://www.propublica.org/article/leonard-leo-used-robe-to-hide-dark-money-donations",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1804,
+      "oldUrl": "https://www.bbc.com/news/business-19415640",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1838,
+      "oldUrl": "https://www.citizensforethics.org/legal-action/lawsuits/trump-foreign-emoluments/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1839,
+      "oldUrl": "https://oag.dc.gov/release/ag-racine-statement-resolution-lawsuit-against",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1916,
+      "oldUrl": "https://www.nationalgeographic.com/animals/article/trump-ivory-ban-reversed-elephants",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1917,
+      "oldUrl": "https://www.biologicaldiversity.org/campaigns/esa_rollbacks/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 1984,
+      "oldUrl": "https://www.cbsnews.com/news/havana-syndrome-microwave-weapons-60-minutes-2022-10-14/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2019,
+      "oldUrl": "https://www.rollingstone.com/music/music-news/neil-young-trump-rockin-free-world-lawsuit-1056358/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2052,
+      "oldUrl": "https://oversight.house.gov/sites/democrats.oversight.house.gov/files/2020-09-16.CBM%20JR%20SFL%20to%20Wolf-DHS%20Cuccinelli-DHS%20re%20ICDC.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2053,
+      "oldUrl": "https://apnews.com/article/ga-state-wire-us-news-georgia-immigration-archive-c96c770de6a4e1f5f29b2a1a0f34e9e0",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2054,
+      "oldUrl": "https://www.ajc.com/news/georgia-news/ice-detention-doctor-keeps-license-following-forced-sterilization-allegations/XCZLRURHMJHQ3CYUTBACMAMN6I/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2237,
+      "oldUrl": "https://ag.ny.gov/press-release/2022/attorney-general-james-sues-donald-trump-defrauding-new-yorkers",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2516,
+      "oldUrl": "https://ag.ny.gov/press-release/2022/attorney-general-james-sues-donald-trump-defrauding-new-yorkers",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2268,
+      "oldUrl": "https://www.buzzfeednews.com/article/anthonycormier/trump-moscow-tower-cohen-2016-election",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2298,
+      "oldUrl": "https://www.justice.gov/opa/pr/russian-national-pleads-guilty-conspiracy-act-agent-russian-federation",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2388,
+      "oldUrl": "https://oig.justice.gov/reports/review-and-investigation-allegations-prosecutorial-misconduct-jeffrey-epstein-case",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2456,
+      "oldUrl": "https://efile.fara.gov/docs/6069-Registration-Statement-20170308-1.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2518,
+      "oldUrl": "https://manhattanda.org/d-a-bragg-announces-sentencing-in-trump-organization-tax-fraud-case/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2766,
+      "oldUrl": "https://www.innocenceproject.org/cases/central-park-five/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2795,
+      "oldUrl": "https://www.justice.gov/file/1115596/download",
+      "newUrl": "http://web.archive.org/web/20240114000029/https://www.justice.gov/file/1115596/download",
       "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2880,
+      "oldUrl": "https://www.supremecourt.gov/opinions/18pdf/18-966_bofm.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 2936,
+      "oldUrl": "https://www.oig.doc.gov/OIGPublications/OIG-20-032-A.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3024,
+      "oldUrl": "https://archive.org/details/TowerCommissionReport",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3026,
+      "oldUrl": "https://nsarchive.gwu.edu/project/iran-contra-affair",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3027,
+      "oldUrl": "https://www.congress.gov/100/crpt/hrpt433/CRPT-100hrpt433.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3061,
+      "oldUrl": "https://www.congress.gov/93/crpt/hrpt1305/CRPT-93hrpt1305.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3098,
+      "oldUrl": "https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-prewar-intelligence-assessments-about-postwar",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3100,
+      "oldUrl": "https://nsarchive.gwu.edu/document/19809-national-security-archive-downing-street-memo",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3138,
+      "oldUrl": "https://www.aclu.org/torture-memos",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5027,
+      "oldUrl": "https://www.aclu.org/torture-memos",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3171,
+      "oldUrl": "https://www.norc.org/research/projects/the-florida-ballots-project.html",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3315,
+      "oldUrl": "https://www.cnn.com/2023/02/15/politics/matt-gaetz-justice-department-investigation/index.html",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3426,
+      "oldUrl": "https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=3097",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3467,
+      "oldUrl": "https://ag.ny.gov/press-release/2024/jury-finds-nra-ceo-wayne-lapierre-liable-corruption",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3470,
+      "oldUrl": "https://www.newyorker.com/magazine/2019/04/15/inside-the-nra",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3509,
+      "oldUrl": "https://apnews.com/article/fact-check-trump-claims-election-fraud-2020-6b80e4f1a3d6b4cbeaf9784c9a8ed9d2",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3545,
+      "oldUrl": "https://www.whitehouse.gov/briefings-statements/statement-president-trump/",
+      "newUrl": "http://web.archive.org/web/20210120075212/https://www.whitehouse.gov/briefings-statements/statement-president-trump/",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3549,
+      "oldUrl": "https://www.adl.org/resources/report/white-supremacist-propaganda-soars-new-aog-high-2022",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3625,
+      "oldUrl": "https://oversight.house.gov/legislation/hearings/michael-flynn-s-foreign-agent-registration",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3626,
+      "oldUrl": "https://www.justice.gov/sites/default/files/briefs/flynn-motion.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3702,
+      "oldUrl": "https://www.americanprogress.org/article/the-federalist-society/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3745,
+      "oldUrl": "https://www.epa.gov/office-inspector-general/reports",
+      "newUrl": "http://web.archive.org/web/20151015054144/https://www2.epa.gov/office-inspector-general/reports",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3825,
+      "oldUrl": "https://www.epa.gov/office-inspector-general/reports",
+      "newUrl": "http://web.archive.org/web/20151015054144/https://www2.epa.gov/office-inspector-general/reports",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3908,
+      "oldUrl": "https://www.epa.gov/office-inspector-general/reports",
+      "newUrl": "http://web.archive.org/web/20151015054144/https://www2.epa.gov/office-inspector-general/reports",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3746,
+      "oldUrl": "https://www.propublica.org/series/the-workers-left-behind",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3747,
+      "oldUrl": "https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=405909",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3786,
+      "oldUrl": "https://www.propublica.org/series/the-trump-administration-civil-rights",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3826,
+      "oldUrl": "https://www.doioig.gov/reports/investigation/final-report-investigation-us-department-interior-secretary-ryan-zinkes",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3827,
+      "oldUrl": "https://www.citizensforethics.org/reports-investigations/crew-investigations/trump-cabinet-ethics-violations/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3867,
+      "oldUrl": "https://www.oig.dhs.gov/reports/2019/dhs-needs-address-dangerous-overcrowding-among-single-adults-rio-grande-valley",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3909,
+      "oldUrl": "https://www.ucsusa.org/resources/attacks-on-science/trump-administration",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 3910,
+      "oldUrl": "https://www.propublica.org/article/epa-chief-scott-pruitts-calendar-showed-400-meetings-then-items-started-disappearing",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4024,
+      "oldUrl": "https://www.eturbonews.com/9788/executive-talk-donald-trump-jr-bullish-russia-and-potential-f/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4027,
+      "oldUrl": "https://www.buzzfeednews.com/article/jasonleopold/fincen-files-trump-suspicious-reports",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4066,
+      "oldUrl": "https://www.hrw.org/report/2007/10/02/targeting-civilians-and-investigators/after-nisour-square-massacre",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4104,
+      "oldUrl": "https://www.judiciary.senate.gov/download/trump-doj-pressure",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4185,
+      "oldUrl": "https://www.cadc.uscourts.gov/internet/opinions.nsf/opinions",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4187,
+      "oldUrl": "https://www.supremecourt.gov/oral_arguments/argument_transcripts/2023/23-939_b97c.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4188,
+      "oldUrl": "https://www.lawfaremedia.org/article/the-supreme-court-s-trump-immunity-decision",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4227,
+      "oldUrl": "https://www.brennancenter.org/our-work/research-reports/clarence-thomas-recusal-problem",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4262,
+      "oldUrl": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-harlan-crow",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4747,
+      "oldUrl": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-harlan-crow",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4263,
+      "oldUrl": "https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-deal",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8157,
+      "oldUrl": "https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-deal",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4264,
+      "oldUrl": "https://www.propublica.org/article/clarence-thomas-tuition-harlan-crow",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4266,
+      "oldUrl": "https://fixthecourt.com/2023/04/crow-thomas/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4300,
+      "oldUrl": "https://www.propublica.org/series/supreme-court-ethics",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4302,
+      "oldUrl": "https://www.supremecourt.gov/about/Code-of-Conduct-for-Justices_Adopted.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4304,
+      "oldUrl": "https://www.judiciary.senate.gov/committee-activity/hearings/supreme-court-ethics",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4384,
+      "oldUrl": "https://www.cnn.com/2023/01/06/politics/coffee-county-georgia-video-trump-investigation/index.html",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4386,
+      "oldUrl": "https://www.cisa.gov/news-events/news/joint-statement-cisa-and-eac-election-infrastructure-security",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4425,
+      "oldUrl": "https://www.nytimes.com/interactive/2021/01/06/us/politics/mike-pence-letter.html",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4466,
+      "oldUrl": "https://apnews.com/article/capitol-siege-timeline-national-guard-delay-f7c88de00b8c49fd8f83a1a0b67bcd5c",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4467,
+      "oldUrl": "https://www.rules.senate.gov/imo/media/doc/Jan%206%20FINAL.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4506,
+      "oldUrl": "https://apnews.com/article/army-confirms-lt-gen-charles-flynn-call-52aea6c32e1b885efe6c4f66fc6f53b9",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4507,
+      "oldUrl": "https://oversight.house.gov/investigation/january-6th-investigation/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4543,
+      "oldUrl": "http://web.archive.org/web/20240315011338/http://web.archive.org/web/20240315011338/http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4587,
+      "oldUrl": "https://www.fincen.gov/news/news-releases/fincen-fines-deutsche-bank-ag-425-million",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4625,
+      "oldUrl": "https://www.intelligence.senate.gov/sites/default/files/documents/CRPT-107srpt351.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4664,
+      "oldUrl": "https://www.intelligence.senate.gov/sites/default/files/94755_VII.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4703,
+      "oldUrl": "https://nsarchive.gwu.edu/project/operation-condor",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4823,
+      "oldUrl": "https://www.npr.org/2022/08/05/1115992594/alex-jones-sandy-hook-verdict",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4825,
+      "oldUrl": "https://lawandcrime.com/high-profile/watch-alex-jones-sandy-hook-depositions/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4863,
+      "oldUrl": "https://www.npr.org/2023/09/05/1197599773/proud-boys-tarrio-sentencing-jan-6",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4943,
+      "oldUrl": "https://www.thetorturedatabase.org/document/article-15-6-investigation-800th-military-police-brigade-taguba-report",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4944,
+      "oldUrl": "https://www.salon.com/2006/03/14/abu_ghraib_10/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4945,
+      "oldUrl": "https://www.aclu.org/sites/default/files/pdfs/safefree/december_2_2002_memorandum.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4946,
+      "oldUrl": "https://www.justice.gov/sites/default/files/olc/legacy/2010/08/05/memo-combatantsoutsideunitedstates.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4982,
+      "oldUrl": "https://www.intelligence.senate.gov/sites/default/files/publications/109301.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 4984,
+      "oldUrl": "https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/",
+      "newUrl": "http://web.archive.org/web/20201206173010/https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8369,
+      "oldUrl": "https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/",
+      "newUrl": "http://web.archive.org/web/20201206173010/https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5026,
+      "oldUrl": "https://www.nybooks.com/articles/2009/04/09/the-icrc-report-on-the-treatment-of-fourteen-high/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5064,
+      "oldUrl": "https://www.justiceinitiative.org/uploads/45bdb823-4b14-4854-8a4a-3be6fba91c45/globalizing-torture-20120205.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5455,
+      "oldUrl": "https://www.justiceinitiative.org/uploads/45bdb823-4b14-4854-8a4a-3be6fba91c45/globalizing-torture-20120205.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5143,
+      "oldUrl": "https://www.brookings.edu/articles/what-is-schedule-f-and-why-does-it-matter/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5181,
+      "oldUrl": "https://www.salon.com/2000/11/28/miami_7/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5221,
+      "oldUrl": "https://www.justice.gov/archive/osc/press-conferences.html",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5261,
+      "oldUrl": "https://oversight.house.gov/landing/covid-19-origins/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5301,
+      "oldUrl": "https://oversight.house.gov/landing/covid-19-origins/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5297,
+      "oldUrl": "https://www.fbi.gov/news/testimony/worldwide-threats-to-the-homeland-2023",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5340,
+      "oldUrl": "https://www.propublica.org/article/covid-origin-nih-emails-fauci-wuhan",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5378,
+      "oldUrl": "https://www.au.org/resources/publications/project-2025-threatens-religious-freedom/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5418,
+      "oldUrl": "https://www.newyorker.com/magazine/2003/04/07/the-iraq-war-club",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5419,
+      "oldUrl": "https://www.pbs.org/wgbh/americanexperience/films/iraq/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5497,
+      "oldUrl": "https://theintercept.com/2019/04/18/mueller-report-erik-prince-seychelles/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5533,
+      "oldUrl": "https://www.justice.gov/opa/pr/chairman-and-ceo-private-equity-firm-charged-acting-agent-united-arab-emirates",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5536,
+      "oldUrl": "https://www.buzzfeednews.com/article/aramroston/mercenaries-assassination-us-yemen-uae-spear-operations",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5572,
+      "oldUrl": "https://theintercept.com/2018/03/02/jared-kushner-qatar-blockade/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5574,
+      "oldUrl": "https://www.theguardian.com/us-news/2019/mar/17/kushner-qatar-blockade-666-fifth-avenue",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5614,
+      "oldUrl": "https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5615,
+      "oldUrl": "https://www.theguardian.com/world/2011/feb/15/curveball-iraqi-defector-admits-lying",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5692,
+      "oldUrl": "https://www.bbc.com/news/world-latin-america-20340690",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5693,
+      "oldUrl": "https://www.propublica.org/article/vulture-funds-puerto-rico-debt",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5727,
+      "oldUrl": "https://www.oxfam.org/en/research/squeezed-austerity-impact-imf-conditions",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5728,
+      "oldUrl": "https://unctad.org/topic/debt-and-finance/sovereign-debt-workouts",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5764,
+      "oldUrl": "https://www.propublica.org/article/the-koch-party",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5801,
+      "oldUrl": "https://www.documentcloud.org/documents/23726819-dominion-v-fox-news-ruling",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5802,
+      "oldUrl": "https://www.npr.org/2023/02/16/1157524639/fox-news-dominion-lawsuit-reveals-executives-hosts-doubted-fraud-claims",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5843,
+      "oldUrl": "https://demtech.oii.ox.ac.uk/research/posts/computational-propaganda-in-russia-the-origins-of-digital-disinformation/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5879,
+      "oldUrl": "https://www.justice.gov/opa/pr/six-russian-gru-officers-charged-connection-worldwide-deployment-destructive-malware",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5880,
+      "oldUrl": "https://www.bellingcat.com/category/news/russia/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5916,
+      "oldUrl": "https://financialservices.house.gov/events/eventsingle.aspx?EventID=407107",
+      "newUrl": "http://web.archive.org/web/20221209105844/https://financialservices.house.gov/events/eventsingle.aspx?EventID=407107",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5918,
+      "oldUrl": "https://www.institutionalinvestor.com/article/b1g5zjdcnv7lqd/Exposed-Exposed-by-Stock-Gains-Hedge-Funds-Trail-the-Market",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 5991,
+      "oldUrl": "https://knightcolumbia.org/research/platforms",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6032,
+      "oldUrl": "https://www.penguinrandomhouse.com/books/15teledu/manufacturing-consent/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6068,
+      "oldUrl": "https://www.bellingcat.com/news/2022/05/14/buffalo-shooter-manifesto/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6103,
+      "oldUrl": "https://www.theguardian.com/theguardian/2000/nov/29/guardianweekly.guardianweekly1",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6136,
+      "oldUrl": "https://www.versobooks.com/books/1065-the-trial-of-henry-kissinger",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6138,
+      "oldUrl": "https://walrusmagazine.com/article/2006.10-history-bombs-over-cambodia/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6172,
+      "oldUrl": "https://nsarchive.gwu.edu/document/21045-document-4",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6205,
+      "oldUrl": "https://nsarchive.gwu.edu/briefing-book/foia/2017-10-12/cia-panamanian-dictator-manuel-noriega-cold-war-memories",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6238,
+      "oldUrl": "https://www.icty.org/x/file/Press/nato061300.htm",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6303,
+      "oldUrl": "https://www.justice.gov/opa/pr/federal-jury-convicts-four-former-blackwater-employees-charges-stemming-2007-nisur-square",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6337,
+      "oldUrl": "https://archive.org/details/towercommissionr00pres",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6338,
+      "oldUrl": "https://nsarchive.gwu.edu/project/iran-contra-affair-20-years-later",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6339,
+      "oldUrl": "https://oig.justice.gov/special/9712/",
+      "newUrl": "http://web.archive.org/web/20191119054008/https://oig.justice.gov/special/9712/",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6373,
+      "oldUrl": "https://www.oxfam.org/en/research/africa-rising-who-benefits-unfinished-transformation",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6404,
+      "oldUrl": "https://oig.justice.gov/special/s0809a/final.pdf",
+      "newUrl": "http://web.archive.org/web/20200302142947/https://oig.justice.gov/special/s0809a/final.pdf",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6405,
+      "oldUrl": "https://judiciary.house.gov/issues/u-s-attorneys",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6437,
+      "oldUrl": "https://oversight.house.gov/sites/democrats.oversight.house.gov/files/documents/20080918%20Report%20on%20White%20House%20Email.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6438,
+      "oldUrl": "https://www.citizensforethics.org/reports-investigations/crew-investigations/white-house-email/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6439,
+      "oldUrl": "https://www.newsweek.com/white-houses-lost-e-mails-86653",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6537,
+      "oldUrl": "https://www.justice.gov/sco-trump",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6569,
+      "oldUrl": "https://insideclimatenews.org/topic/exxon-knew/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6604,
+      "oldUrl": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-revokes-emergency-use-authorization-chloroquine-and-hydroxychloroquine",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6703,
+      "oldUrl": "https://republicans-oversight.house.gov/wp-content/uploads/2021/10/NIH-Document.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6802,
+      "oldUrl": "https://www.cdc.gov/coronavirus/2019-ncov/lab/testing.html",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6835,
+      "oldUrl": "https://www.aclu.org/issues/human-rights/civil-liberties-and-covid-19",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6967,
+      "oldUrl": "https://www.bbc.com/news/uk-60367654",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 6968,
+      "oldUrl": "https://www.theguardian.com/uk-news/2022/jan/13/prince-andrew-and-jeffrey-epstein-timeline-of-their-relationship",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7065,
+      "oldUrl": "https://www.propublica.org/series/the-secret-donors-behind-the-supreme-court",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7066,
+      "oldUrl": "https://www.theatlantic.com/politics/archive/2019/01/federalist-society-leonard-leo/579918/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7103,
+      "oldUrl": "https://www.theguardian.com/us-news/2020/dec/24/chris-christie-charles-kushner-pardon-loathsome",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7141,
+      "oldUrl": "https://www.sos.state.co.us/pubs/elections/mesa-county.html",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7144,
+      "oldUrl": "https://apnews.com/article/tina-peters-colorado-election-sentence",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7181,
+      "oldUrl": "https://www.whitehouse.senate.gov/news/speeches/the-web-of-denial",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7254,
+      "oldUrl": "https://www.versobooks.com/books/2369-the-trial-of-henry-kissinger",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7256,
+      "oldUrl": "https://nsarchive.gwu.edu/briefing-book/chile/2023-09-10/chile-50-years-after-coup-u.s.-documents-show",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7258,
+      "oldUrl": "https://www.rollingstone.com/politics/political-commentary/henry-kissinger-obituary-war-criminal-1234924tried/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7293,
+      "oldUrl": "https://nsarchive.gwu.edu/briefing-book/south-asia/2020-08-14/blood-telegram",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7294,
+      "oldUrl": "https://www.genocidewatch.com/single-post/genocide-in-bangladesh-1971",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7296,
+      "oldUrl": "https://www.hrw.org/news/2016/03/25/bangladesh-investigate-1971-massacres",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7332,
+      "oldUrl": "https://www.bbc.com/news/uk-14045457",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7369,
+      "oldUrl": "https://www.propublica.org/people/scott-pruitt",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7409,
+      "oldUrl": "https://earthjustice.org/case/dakota-access-pipeline",
+      "newUrl": "http://web.archive.org/web/20230108055647/https://earthjustice.org/case/dakota-access-pipeline",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7598,
+      "oldUrl": "https://www.hrw.org/topic/international-justice/laws-war",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7631,
+      "oldUrl": "https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/20/executive-order-protecting-public-health-and-environment-and-restoring-science-to-tackle-climate-crisis/",
+      "newUrl": "http://web.archive.org/web/20250120105837/https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/20/executive-order-protecting-public-health-and-environment-and-restoring-science-to-tackle-climate-crisis/",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7662,
+      "oldUrl": "https://www.ned.org/wp-content/themes/flavor/flavor-flavor/flavor-flavor/grants/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7732,
+      "oldUrl": "https://www.hsgac.senate.gov/imo/media/doc/PSI%20Report%20China\\",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7800,
+      "oldUrl": "https://www.cdc.gov/tuskegee/timeline.htm",
+      "newUrl": "http://web.archive.org/web/20240917010820/https://www.cdc.gov/tuskegee/timeline.htm",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 7865,
+      "oldUrl": "http://www.carlbernstein.com/magazine_cia_and_media.php",
+      "newUrl": "http://web.archive.org/web/20211220102917/http://www.carlbernstein.com/magazine_cia_and_media.php",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8122,
+      "oldUrl": "https://www.supremecourt.gov/opinions/09pdf/08-205.pdf",
+      "newUrl": "http://web.archive.org/web/20250915101323/https://www.supremecourt.gov/opinions/09pdf/08-205.pdf",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8158,
+      "oldUrl": "https://www.propublica.org/article/samuel-alito-fishing-trip-paul-singer-scotus",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8344,
+      "oldUrl": "https://www.archives.gov/research/vietnam-war/war-crimes",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8370,
+      "oldUrl": "https://www.intelligence.senate.gov/publications/report-prewar-intelligence-assessments-about-postwar-iraq",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8451,
+      "oldUrl": "https://nsarchive.gwu.edu/project/iran-project",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8477,
+      "oldUrl": "https://hrdag.org/guatemala-memory-of-silence-the-commission-for-historical-clarification-conclusions-and-recommendations/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8524,
+      "oldUrl": "https://chrgj.org/wp-content/uploads/2016/09/Living-Under-Drones.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8690,
+      "oldUrl": "https://vault.fbi.gov/Martin%20Luther%20King%2C%20Jr",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8717,
+      "oldUrl": "https://www.intelligence.senate.gov/sites/default/files/94-465.pdf",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8743,
+      "oldUrl": "https://www.mncourts.gov/State-v-Chauvin",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8744,
+      "oldUrl": "https://www.justice.gov/crt/case-document/file/1489751/download",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8835,
+      "oldUrl": "https://www.adl.org/resources/reports",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8905,
+      "oldUrl": "https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9895,
+      "oldUrl": "https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 8978,
+      "oldUrl": "https://www.epa.gov/environmentaljustice",
+      "newUrl": "http://web.archive.org/web/20250214130639/https://www.epa.gov/environmentaljustice",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9001,
+      "oldUrl": "https://www.epa.gov/environmentaljustice/environmental-justice-timeline",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9050,
+      "oldUrl": "https://www.cdc.gov/violenceprevention/firearms/fastfact.html",
+      "newUrl": "http://web.archive.org/web/20240515125052/https://www.cdc.gov/violenceprevention/firearms/fastfact.html",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9260,
+      "oldUrl": "https://transportation.house.gov/committee-activity/boeing-737-max-investigation",
+      "newUrl": "http://web.archive.org/web/20221209082934/https://transportation.house.gov/committee-activity/boeing-737-max-investigation",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9293,
+      "oldUrl": "https://transportation.house.gov/committee-activity/boeing-737-max-investigation",
+      "newUrl": "http://web.archive.org/web/20221209082934/https://transportation.house.gov/committee-activity/boeing-737-max-investigation",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9413,
+      "oldUrl": "https://transportation.house.gov/committee-activity/boeing-737-max-investigation",
+      "newUrl": "http://web.archive.org/web/20221209082934/https://transportation.house.gov/committee-activity/boeing-737-max-investigation",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9332,
+      "oldUrl": "https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf",
+      "newUrl": "http://web.archive.org/web/20221207103614/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9410,
+      "oldUrl": "https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf",
+      "newUrl": "http://web.archive.org/web/20221207103614/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9451,
+      "oldUrl": "https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf",
+      "newUrl": "http://web.archive.org/web/20221207103614/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9334,
+      "oldUrl": "https://www.justice.gov/opa/pr/justice-department-determines-boeing-breached-obligations-under-2021-resolution",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9372,
+      "oldUrl": "https://www.justice.gov/opa/pr/justice-department-determines-boeing-breached-obligations-under-2021-resolution",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9412,
+      "oldUrl": "https://www.justice.gov/opa/pr/justice-department-determines-boeing-breached-obligations-under-2021-resolution",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9371,
+      "oldUrl": "https://www.faa.gov/newsroom/faa-statement-boeing-oversight",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9453,
+      "oldUrl": "https://www.oig.dot.gov/library-item/37857",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9488,
+      "oldUrl": "https://transportation.house.gov/committee-activity/hearings/hearing-on-the-boeing-787-dreamliner",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9654,
+      "oldUrl": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-fines-wells-fargo-100-million-widespread-illegal-practice-secretly-opening-unauthorized-accounts/",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9735,
+      "oldUrl": "https://www.cia.gov/library/reports/general-reports-1/cocaine/index.html",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9762,
+      "oldUrl": "https://www.usaid.gov/vietnam/agent-orange",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9789,
+      "oldUrl": "https://www.justice.gov/civil/case/tobacco",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9842,
+      "oldUrl": "https://www.who.int/nutrition/netcode/resolutions/en/",
+      "newUrl": "http://web.archive.org/web/20210703052254/https://www.who.int/nutrition/netcode/resolutions/en/",
+      "note": "replaced-with-wayback"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9843,
+      "oldUrl": "https://archive.org/details/babykiller",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9921,
+      "oldUrl": "https://www.osha.gov/news/newsreleases/national/12202022",
+      "newUrl": null,
+      "note": "no-archive-found"
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "line": 9922,
+      "oldUrl": "https://thesoc.org/amazon-injury-report/",
+      "newUrl": null,
+      "note": "no-archive-found"
     }
   ]
 }

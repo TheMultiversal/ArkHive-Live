@@ -163,7 +163,7 @@ const investigationData = {
   sources: [
     { title: 'Mueller Report Volume II (Obstruction)', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Official Report' },
     { title: 'Comey Senate Testimony', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/os-jcomey-060817.pdf', type: 'Congressional Testimony' },
-    { title: 'McGahn Testimony Notes', url: 'https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=4887', type: 'Congressional Document' },
+    { title: 'McGahn Testimony Notes', url: 'http://web.archive.org/web/20220919234432/https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=4887', type: 'Congressional Document' },
     { title: 'Lester Holt Interview', url: 'https://www.nbcnews.com/news/us-news/trump-reveals-he-asked-comey-whether-he-was-under-investigation-n757821', type: 'Interview Transcript' },
     { title: 'House Judiciary Obstruction Report', url: 'https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=4878', type: 'Congressional Report' },
     { title: 'Pardon Power Analysis', url: 'https://www.lawfareblog.com/trump-pardon-roundup', type: 'Legal Analysis' },

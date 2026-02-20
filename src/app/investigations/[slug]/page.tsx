@@ -504,8 +504,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Ukraine', 'Impeachment', 'Quid Pro Quo', 'Zelensky', 'Military Aid', 'Giuliani'],
     sources: [
-      { title: 'Trump-Zelensky Call Transcript', url: 'https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf', type: 'Document' },
-      { title: 'Whistleblower Complaint', url: 'https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf', type: 'Government Document' },
+      { title: 'Trump-Zelensky Call Transcript', url: 'http://web.archive.org/web/20210113040119/http://web.archive.org/web/20210113040119/https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf', type: 'Document' },
+      { title: 'Whistleblower Complaint', url: 'http://web.archive.org/web/20230101115346/http://web.archive.org/web/20230101115346/https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf', type: 'Government Document' },
       { title: 'House Impeachment Report', url: 'https://intelligence.house.gov/report/', type: 'Government Report' },
       { title: 'Sondland Testimony', url: 'https://www.youtube.com/watch?v=lO3W0YjKKwU', type: 'Video Testimony' },
     ],
@@ -574,7 +574,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'CIA Assessment on Khashoggi Murder', url: 'https://www.washingtonpost.com/world/national-security/cia-concludes-saudi-crown-prince-ordered-jamal-khashoggis-assassination/2018/11/16/98c89fe6-e9b2-11e8-a939-9469f1166f9d_story.html', type: 'Intelligence Report' },
       { title: 'Kushner $2B Saudi Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', type: 'News Report' },
-      { title: 'House Report on Saudi Nuclear Transfer', url: 'https://oversight.house.gov/sites/democrats.oversight.house.gov/files/Trump%20Saudi%20Nuclear%20Report%20-%202-19-2019.pdf', type: 'Government Report' },
+      { title: 'House Report on Saudi Nuclear Transfer', url: 'http://web.archive.org/web/20221228160415/https://oversight.house.gov/sites/democrats.oversight.house.gov/files/Trump%20Saudi%20Nuclear%20Report%20-%202-19-2019.pdf', type: 'Government Report' },
       { title: 'Trump Arms Sale Emergency Declaration', url: 'https://www.congress.gov/116/bills/sjres36/BILLS-116sjres36es.pdf', type: 'Congressional Record' },
     ],
     affiliations: [
@@ -960,7 +960,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Federal Indictment - Bannon, Kolfage', url: 'https://www.justice.gov/usao-sdny/press-release/file/1306611/download', type: 'Court Filing' },
       { title: 'Kolfage Sentencing', url: 'https://www.justice.gov/usao-sdny/pr/brian-kolfage-sentenced-prison-we-build-wall-fraud-scheme', type: 'Press Release' },
       { title: 'NY State Bannon Indictment', url: 'https://www.ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment', type: 'Press Release' },
-      { title: 'Trump Pardon Announcement', url: 'https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-012021/', type: 'Government Document' },
+      { title: 'Trump Pardon Announcement', url: 'http://web.archive.org/web/20210120165945/https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-012021/', type: 'Government Document' },
     ],
     affiliations: [
       { id: '1', name: 'Steve Bannon', type: 'individual', relationship: 'Received $1M+, pardoned, state charges', href: '/entities/individuals/steve-bannon' },
@@ -1276,7 +1276,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Washington Post DEA Investigation', url: 'https://www.washingtonpost.com/graphics/2017/investigations/dea-drug-industry-congress/', type: 'Investigation' },
       { title: 'Marino Withdrawal', url: 'https://www.nytimes.com/2017/10/17/us/politics/tom-marino-drug-czar-nominee.html', type: 'News Report' },
-      { title: 'CDC Overdose Data', url: 'https://www.cdc.gov/drugoverdose/deaths/index.html', type: 'Government Data' },
+      { title: 'CDC Overdose Data', url: 'http://web.archive.org/web/20240515184205/https://www.cdc.gov/drugoverdose/deaths/index.html', type: 'Government Data' },
       { title: 'Purdue Pharma Settlement', url: 'https://www.justice.gov/opa/pr/purdue-pharma-lp-pleads-guilty-federal-charges', type: 'Press Release' },
     ],
     affiliations: [
@@ -2609,8 +2609,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Impeachment', 'Ukraine', 'Zelensky', 'Abuse of Power', 'Obstruction of Congress'],
     sources: [
-      { title: 'July 25 Call Memo', url: 'https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf', type: 'Primary Document' },
-      { title: 'Whistleblower Complaint', url: 'https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf', type: 'Primary Document' },
+      { title: 'July 25 Call Memo', url: 'http://web.archive.org/web/20210113040119/http://web.archive.org/web/20210113040119/https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf', type: 'Primary Document' },
+      { title: 'Whistleblower Complaint', url: 'http://web.archive.org/web/20230101115346/http://web.archive.org/web/20230101115346/https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf', type: 'Primary Document' },
       { title: 'House Impeachment Resolution', url: 'https://www.congress.gov/bill/116th-congress/house-resolution/755', type: 'Congressional Record' },
       { title: 'Senate Trial Record', url: 'https://www.congress.gov/congressional-record/senate-trial-record', type: 'Congressional Record' },
     ],
@@ -2792,7 +2792,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Trump Tower Moscow', 'Russia', 'Michael Cohen', 'Putin', 'Felix Sater', 'Campaign Finance'],
     sources: [
-      { title: 'Cohen Plea Agreement', url: 'https://www.justice.gov/file/1115596/download', type: 'Legal Document' },
+      { title: 'Cohen Plea Agreement', url: 'http://web.archive.org/web/20240114000029/https://www.justice.gov/file/1115596/download', type: 'Legal Document' },
       { title: 'Mueller Report', url: '#', type: 'Legal Document' },
       { title: 'Cohen Congressional Testimony', url: '#', type: 'Congressional Record' },
     ],
@@ -3542,7 +3542,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['White Nationalism', 'Charlottesville', 'Proud Boys', 'Stephen Miller', 'Racism', 'Extremism', 'Trump'],
     sources: [
-      { title: 'Trump Charlottesville Remarks', url: 'https://www.whitehouse.gov/briefings-statements/statement-president-trump/', type: 'Official Record' },
+      { title: 'Trump Charlottesville Remarks', url: 'http://web.archive.org/web/20210120075212/https://www.whitehouse.gov/briefings-statements/statement-president-trump/', type: 'Official Record' },
       { title: 'SPLC Hate Crime Report', url: 'https://www.splcenter.org/hatewatch', type: 'Research' },
       { title: 'Stephen Miller Email Leaks', url: 'https://www.splcenter.org/hatewatch/2019/11/12/stephen-millers-affinity-white-nationalism-revealed-leaked-emails', type: 'Investigation' },
       { title: 'El Paso Shooter Manifesto Analysis', url: 'https://www.nytimes.com/2019/08/04/us/politics/trump-mass-shootings.html', type: 'News Analysis' },
@@ -3742,7 +3742,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Regulatory Capture', 'EPA', 'OSHA', 'CFPB', 'Scott Pruitt', 'Deregulation', 'Corporate Corruption'],
     sources: [
       { title: 'NYT Trump Environmental Rollbacks Tracker', url: 'https://www.nytimes.com/interactive/2020/climate/trump-environment-rollbacks-list.html', type: 'Database' },
-      { title: 'EPA Pruitt Ethics Investigations', url: 'https://www.epa.gov/office-inspector-general/reports', type: 'Government Reports' },
+      { title: 'EPA Pruitt Ethics Investigations', url: 'http://web.archive.org/web/20151015054144/https://www2.epa.gov/office-inspector-general/reports', type: 'Government Reports' },
       { title: 'ProPublica OSHA COVID Failures', url: 'https://www.propublica.org/series/the-workers-left-behind', type: 'Investigation' },
       { title: 'House CFPB Investigation', url: 'https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=405909', type: 'Congressional Record' },
       { title: 'GAO Regulatory Reports', url: 'https://www.gao.gov/topics/regulatory-policy', type: 'Government Reports' },
@@ -3822,7 +3822,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Ethics', 'Tom Price', 'Scott Pruitt', 'Ryan Zinke', 'Cabinet', 'Corruption', 'Travel Scandal'],
     sources: [
       { title: 'Tom Price Private Jet Investigation', url: 'https://www.politico.com/story/2017/09/28/tom-price-private-jets-resignation-243248', type: 'News Report' },
-      { title: 'EPA OIG Pruitt Investigations', url: 'https://www.epa.gov/office-inspector-general/reports', type: 'Government Reports' },
+      { title: 'EPA OIG Pruitt Investigations', url: 'http://web.archive.org/web/20151015054144/https://www2.epa.gov/office-inspector-general/reports', type: 'Government Reports' },
       { title: 'Zinke Interior IG Report', url: 'https://www.doioig.gov/reports/investigation/final-report-investigation-us-department-interior-secretary-ryan-zinkes', type: 'Government Report' },
       { title: 'CREW Trump Cabinet Ethics Tracker', url: 'https://www.citizensforethics.org/reports-investigations/crew-investigations/trump-cabinet-ethics-violations/', type: 'Investigation' },
       { title: 'NYT Pruitt Scandals Timeline', url: 'https://www.nytimes.com/2018/07/05/climate/scott-pruitt-epa-resignation.html', type: 'News Report' },
@@ -3905,7 +3905,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['EPA', 'Scott Pruitt', 'Climate Denial', 'Regulatory Capture', 'Environmental Rollbacks', 'Clean Air', 'Clean Water'],
     sources: [
       { title: 'NYT Environmental Rollbacks Tracker', url: 'https://www.nytimes.com/interactive/2020/climate/trump-environment-rollbacks-list.html', type: 'Database' },
-      { title: 'EPA Inspector General Reports', url: 'https://www.epa.gov/office-inspector-general/reports', type: 'Government Reports' },
+      { title: 'EPA Inspector General Reports', url: 'http://web.archive.org/web/20151015054144/https://www2.epa.gov/office-inspector-general/reports', type: 'Government Reports' },
       { title: 'Union of Concerned Scientists EPA Analysis', url: 'https://www.ucsusa.org/resources/attacks-on-science/trump-administration', type: 'Research' },
       { title: 'ProPublica Pruitt Calendar Investigation', url: 'https://www.propublica.org/article/epa-chief-scott-pruitts-calendar-showed-400-meetings-then-items-started-disappearing', type: 'Investigation' },
       { title: 'Clean Power Plan Repeal Analysis', url: 'https://www.epa.gov/stationary-sources-air-pollution/affordable-clean-energy-rule', type: 'Government Document' },
@@ -4981,7 +4981,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/109301.pdf', type: 'Government Report' },
       { title: 'Downing Street Memo', url: 'https://www.nytimes.com/2005/05/01/international/europe/secret-uk-memo.html', type: 'Leaked Document' },
-      { title: 'Duelfer Report (Iraq Survey Group)', url: 'https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/', type: 'Government Report' },
+      { title: 'Duelfer Report (Iraq Survey Group)', url: 'http://web.archive.org/web/20201206173010/http://web.archive.org/web/20201206173010/https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/', type: 'Government Report' },
       { title: 'Powell UN Speech Transcript', url: 'https://www.un.org/press/en/2003/sc7658.doc.htm', type: 'Official Transcript' },
       { title: 'Bush State of the Union 2003 (16 Words)', url: 'https://georgewbush-whitehouse.archives.gov/news/releases/2003/01/20030128-19.html', type: 'Official Transcript' },
     ],
@@ -5913,7 +5913,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Hedge Funds', 'Short Selling', 'Wall Street', 'GameStop', 'Financial Predation', 'Market Manipulation', 'Carried Interest'],
     sources: [
       { title: 'SEC - Hedge Fund Oversight', url: 'https://www.sec.gov/spotlight/hedgefunds.htm', type: 'Government Resource' },
-      { title: 'GameStop Congressional Hearing', url: 'https://financialservices.house.gov/events/eventsingle.aspx?EventID=407107', type: 'Congressional' },
+      { title: 'GameStop Congressional Hearing', url: 'http://web.archive.org/web/20221209105844/https://financialservices.house.gov/events/eventsingle.aspx?EventID=407107', type: 'Congressional' },
       { title: 'NYT - How Private Equity Killed Toys R Us', url: 'https://www.nytimes.com/2018/03/15/business/toys-r-us-bankruptcy.html', type: 'Investigation' },
       { title: 'Hedge Fund Underperformance Research', url: 'https://www.institutionalinvestor.com/article/b1g5zjdcnv7lqd/Exposed-Exposed-by-Stock-Gains-Hedge-Funds-Trail-the-Market', type: 'Research' },
       { title: 'Flash Boys by Michael Lewis', url: 'https://wwnorton.com/books/9780393351590', type: 'Book' },
@@ -6336,7 +6336,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Congressional Iran-Contra Report', url: 'https://archive.org/details/reportofcongress87unit', type: 'Government Report' },
       { title: 'Tower Commission Report', url: 'https://archive.org/details/towercommissionr00pres', type: 'Government Report' },
       { title: 'National Security Archive - Iran-Contra Documents', url: 'https://nsarchive.gwu.edu/project/iran-contra-affair-20-years-later', type: 'Declassified Documents' },
-      { title: 'CIA-Contra-Crack Report', url: 'https://oig.justice.gov/special/9712/', type: 'IG Report' },
+      { title: 'CIA-Contra-Crack Report', url: 'http://web.archive.org/web/20191119054008/https://oig.justice.gov/special/9712/', type: 'IG Report' },
     ],
     affiliations: [
       { id: '1', name: 'Ronald Reagan', type: 'individual', relationship: '"Ultimate responsibility" per Tower Commission', href: '/entities/individuals/ronald-reagan' },
@@ -6401,7 +6401,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['US Attorneys', 'Alberto Gonzales', 'Bush Administration', 'DOJ', 'Political Prosecution', 'Karl Rove'],
     sources: [
-      { title: 'DOJ Inspector General Report', url: 'https://oig.justice.gov/special/s0809a/final.pdf', type: 'Government Report' },
+      { title: 'DOJ Inspector General Report', url: 'http://web.archive.org/web/20200302142947/https://oig.justice.gov/special/s0809a/final.pdf', type: 'Government Report' },
       { title: 'Congressional Investigation Documents', url: 'https://judiciary.house.gov/issues/u-s-attorneys', type: 'Congressional' },
       { title: 'Firing of U.S. Attorneys Controversy - Wikipedia', url: 'https://en.wikipedia.org/wiki/Dismissal_of_U.S._attorneys_controversy', type: 'Reference' },
     ],
@@ -7406,7 +7406,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Standing Rock Sioux Tribe Official', url: 'https://www.standingrock.org/', type: 'Primary Source' },
       { title: 'The Intercept - TigerSwan Documents', url: 'https://theintercept.com/series/oil-and-water/', type: 'Investigation' },
       { title: 'Army Corps Environmental Review', url: 'https://www.usace.army.mil/', type: 'Government Documents' },
-      { title: 'Court Rulings on DAPL', url: 'https://earthjustice.org/case/dakota-access-pipeline', type: 'Legal Documents' },
+      { title: 'Court Rulings on DAPL', url: 'http://web.archive.org/web/20230108055647/https://earthjustice.org/case/dakota-access-pipeline', type: 'Legal Documents' },
       { title: 'UN Human Rights on Standing Rock', url: 'https://www.ohchr.org/en/press-releases/2016/11/standing-rock-sioux-protests-un-expert-calls-necessary-measures-prevent', type: 'International' },
     ],
     affiliations: [
@@ -7628,7 +7628,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'State Department Final Environmental Impact Statement', url: 'https://www.state.gov/keystone-xl-pipeline/', type: 'Government Report' },
       { title: 'EPA Analysis of Climate Impact', url: 'https://www.epa.gov/sites/production/files/2014-02/documents/keystone-xl-project.pdf', type: 'Government Report' },
-      { title: 'Biden Executive Order Revoking Permit', url: 'https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/20/executive-order-protecting-public-health-and-environment-and-restoring-science-to-tackle-climate-crisis/', type: 'Executive Order' },
+      { title: 'Biden Executive Order Revoking Permit', url: 'http://web.archive.org/web/20250120105837/https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/20/executive-order-protecting-public-health-and-environment-and-restoring-science-to-tackle-climate-crisis/', type: 'Executive Order' },
     ],
     affiliations: [
       { id: '1', name: 'TC Energy', type: 'corporation', relationship: 'Pipeline developer, formerly TransCanada', href: '/entities/corporations/tc-energy' },
@@ -7797,7 +7797,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Tuskegee', 'Medical Experimentation', 'Racism', 'Public Health Service', 'Syphilis', 'Human Rights'],
     sources: [
-      { title: 'CDC Tuskegee Study Timeline', url: 'https://www.cdc.gov/tuskegee/timeline.htm', type: 'Government Website' },
+      { title: 'CDC Tuskegee Study Timeline', url: 'http://web.archive.org/web/20240917010820/https://www.cdc.gov/tuskegee/timeline.htm', type: 'Government Website' },
       { title: 'Original AP Story by Jean Heller (1972)', url: 'https://www.washingtonpost.com/archive/politics/1997/05/17/tuskegee-experiment-recalled-as-blacks-mark-health-awareness-day/', type: 'News Article' },
       { title: 'Presidential Apology - President Clinton (1997)', url: 'https://clintonwhitehouse4.archives.gov/textonly/New/Remarks/Fri/19970516-898.html', type: 'Government Statement' },
     ],
@@ -7862,7 +7862,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['CIA', 'Mockingbird', 'Propaganda', 'Media Manipulation', 'Allen Dulles', 'Cold War'],
     sources: [
       { title: 'Church Committee Report on CIA Media Operations', url: 'https://www.intelligence.senate.gov/sites/default/files/94755_I.pdf', type: 'Government Report' },
-      { title: 'Carl Bernstein: The CIA and the Media', url: 'http://www.carlbernstein.com/magazine_cia_and_media.php', type: 'Investigation' },
+      { title: 'Carl Bernstein: The CIA and the Media', url: 'http://web.archive.org/web/20211220102917/http://www.carlbernstein.com/magazine_cia_and_media.php', type: 'Investigation' },
       { title: 'CIA Family Jewels (FOIA)', url: 'https://www.cia.gov/library/readingroom/collection/family-jewels', type: 'Government Document' },
     ],
     affiliations: [
@@ -8119,7 +8119,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Citizens United', 'Dark Money', 'Koch Brothers', 'Super PACs', 'Campaign Finance', 'Federalist Society'],
     sources: [
-      { title: 'Citizens United v. FEC Decision', url: 'https://www.supremecourt.gov/opinions/09pdf/08-205.pdf', type: 'Court Decision' },
+      { title: 'Citizens United v. FEC Decision', url: 'http://web.archive.org/web/20250915101323/https://www.supremecourt.gov/opinions/09pdf/08-205.pdf', type: 'Court Decision' },
       { title: 'OpenSecrets Dark Money Database', url: 'https://www.opensecrets.org/dark-money', type: 'Database' },
       { title: 'Brennan Center: Dark Money Reports', url: 'https://www.brennancenter.org/issues/money-politics', type: 'Research' },
     ],
@@ -8366,7 +8366,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Iraq War', 'WMD Lies', 'Bush', 'Cheney', 'Torture', 'ISIS'],
     sources: [
-      { title: 'Iraq Survey Group Final Report', url: 'https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/', type: 'Government Report' },
+      { title: 'Iraq Survey Group Final Report', url: 'http://web.archive.org/web/20201206173010/http://web.archive.org/web/20201206173010/https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/', type: 'Government Report' },
       { title: 'Senate Intelligence Committee WMD Report', url: 'https://www.intelligence.senate.gov/publications/report-prewar-intelligence-assessments-about-postwar-iraq', type: 'Government Report' },
     ],
     affiliations: [
@@ -8975,7 +8975,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Environment', 'Pollution', 'Environmental Racism', 'PFAS', 'Flint'],
     sources: [
-      { title: 'EPA Environmental Justice', url: 'https://www.epa.gov/environmentaljustice', type: 'Government' },
+      { title: 'EPA Environmental Justice', url: 'http://web.archive.org/web/20250214130639/https://www.epa.gov/environmentaljustice', type: 'Government' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Captured regulator', href: '/entities/agencies/epa' },
@@ -8998,7 +8998,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Environmental Racism', 'Civil Rights', 'Cancer Alley', 'Lead', 'Pollution'],
     sources: [
-      { title: 'Environmental Justice Timeline', url: 'https://www.epa.gov/environmentaljustice/environmental-justice-timeline', type: 'Government' },
+      { title: 'Environmental Justice Timeline', url: 'http://web.archive.org/web/20250214130639/https://www.epa.gov/environmentaljustice/environmental-justice-timeline', type: 'Government' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Inadequate enforcement', href: '/entities/agencies/epa' },
@@ -9047,7 +9047,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Gun Violence', 'NRA', 'Mass Shootings', 'Public Health', 'Sandy Hook', 'Uvalde'],
     sources: [
-      { title: 'CDC Gun Violence Data', url: 'https://www.cdc.gov/violenceprevention/firearms/fastfact.html', type: 'Government' },
+      { title: 'CDC Gun Violence Data', url: 'http://web.archive.org/web/20240515125052/https://www.cdc.gov/violenceprevention/firearms/fastfact.html', type: 'Government' },
       { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Database' },
     ],
     affiliations: [
@@ -9257,7 +9257,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Boeing', '737 MAX', 'Corporate Crime', 'FAA', 'Aviation Safety', 'Regulatory Capture'],
     sources: [
       { title: 'DOJ Boeing Deferred Prosecution Agreement', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Press Release' },
-      { title: 'House Committee Boeing Investigation', url: 'https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Report' },
+      { title: 'House Committee Boeing Investigation', url: 'http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Report' },
       { title: 'Internal Boeing Documents', url: 'https://www.nytimes.com/2020/01/09/business/boeing-737-messages.html', type: 'News Investigation' },
     ],
     affiliations: [
@@ -9290,7 +9290,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Lion Air', 'Boeing 737 MAX', 'MCAS', 'Indonesia', 'Corporate Murder', 'FAA', 'Regulatory Capture', 'ICC Crimes'],
     sources: [
       { title: 'KNKT Final Report - Lion Air 610', url: 'http://knkt.dephub.go.id/knkt/ntsc_aviation/baru/2018%20-%20035%20-%20PK-LQP%20Final%20Report.pdf', type: 'Government Report' },
-      { title: 'Boeing Internal Documents - House Committee', url: 'https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Report' },
+      { title: 'Boeing Internal Documents - House Committee', url: 'http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Report' },
       { title: 'Seattle Times MCAS Investigation', url: 'https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/', type: 'Investigation' },
       { title: 'DOJ Boeing Prosecution', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Press Release' },
     ],
@@ -9329,7 +9329,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Ethiopian Airlines', 'Boeing 737 MAX', 'MCAS', 'Ethiopia', 'Corporate Murder', 'Crimes Against Humanity', 'ICC', 'Samya Stumo'],
     sources: [
       { title: 'Ethiopian AIB Final Report', url: 'https://www.aib.gov.et/wp-content/uploads/2022/10/ET-302-Final-Report.pdf', type: 'Government Report' },
-      { title: 'House Transportation Committee Report', url: 'https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
+      { title: 'House Transportation Committee Report', url: 'http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
       { title: 'Samya Stumo Family Testimony', url: 'https://www.c-span.org/video/?465887-1/boeing-737-max', type: 'Congressional Testimony' },
       { title: 'DOJ DPA Breach Finding', url: 'https://www.justice.gov/opa/pr/justice-department-determines-boeing-breached-obligations-under-2021-resolution', type: 'Press Release' },
     ],
@@ -9407,10 +9407,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Boeing', 'Corporate Crime', 'Mass Murder', 'Regulatory Capture', 'FAA', 'ICC', 'Crimes Against Humanity', 'Deferred Prosecution'],
     sources: [
-      { title: 'House Committee Boeing Investigation Final Report', url: 'https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
+      { title: 'House Committee Boeing Investigation Final Report', url: 'http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
       { title: 'DOJ Boeing Deferred Prosecution Agreement', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Court Filing' },
       { title: 'DOJ Boeing DPA Breach Determination', url: 'https://www.justice.gov/opa/pr/justice-department-determines-boeing-breached-obligations-under-2021-resolution', type: 'Press Release' },
-      { title: 'Boeing Internal Communications - Congressional Record', url: 'https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Documents' },
+      { title: 'Boeing Internal Communications - Congressional Record', url: 'http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Documents' },
       { title: 'NTSB Alaska Airlines 1282 Investigation', url: 'https://www.ntsb.gov/investigations/Pages/DCA24MA063.aspx', type: 'Government Report' },
     ],
     affiliations: [
@@ -9448,7 +9448,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['FAA', 'Regulatory Capture', 'Boeing', 'ODA', 'Revolving Door', 'Aviation Safety'],
     sources: [
-      { title: 'House Committee Report on FAA Oversight', url: 'https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
+      { title: 'House Committee Report on FAA Oversight', url: 'http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
       { title: 'GAO FAA Oversight Report', url: 'https://www.gao.gov/products/gao-20-626', type: 'Government Report' },
       { title: 'DOT Inspector General Boeing Review', url: 'https://www.oig.dot.gov/library-item/37857', type: 'Government Report' },
     ],
@@ -9839,7 +9839,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Nestlé', 'Baby Formula', 'Infant Mortality', 'Corporate Crime', 'WHO Code', 'Boycott'],
     sources: [
-      { title: 'WHO Breast-milk Substitute Code', url: 'https://www.who.int/nutrition/netcode/resolutions/en/', type: 'International Code' },
+      { title: 'WHO Breast-milk Substitute Code', url: 'http://web.archive.org/web/20210703052254/https://www.who.int/nutrition/netcode/resolutions/en/', type: 'International Code' },
       { title: 'The Baby Killer Report', url: 'https://archive.org/details/babykiller', type: 'Report' },
     ],
     affiliations: [

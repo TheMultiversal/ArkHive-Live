@@ -85,8 +85,8 @@ const investigation = {
     { date: 'Feb 2020', event: 'Trump fires Vindman (and his twin brother) in retaliation' },
   ],
   sources: [
-    { title: 'Trump-Zelensky Call Summary', url: 'https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf', date: 'Sep 2019' },
-    { title: 'Whistleblower Complaint', url: 'https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf', date: 'Aug 2019' },
+    { title: 'Trump-Zelensky Call Summary', url: 'http://web.archive.org/web/20210113040119/https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf', date: 'Sep 2019' },
+    { title: 'Whistleblower Complaint', url: 'http://web.archive.org/web/20230101115346/https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf', date: 'Aug 2019' },
     { title: 'House Intelligence Committee Report', url: 'https://intelligence.house.gov/report/', date: 'Dec 2019' },
     { title: 'Articles of Impeachment (H.Res. 755)', url: 'https://www.congress.gov/bill/116th-congress/house-resolution/755/text', date: 'Dec 2019' },
     { title: 'Sondland Opening Statement', url: 'https://docs.house.gov/meetings/IG/IG00/20191120/110234/HHRG-116-IG00-Wstate-SondlandG-20191120.pdf', date: 'Nov 2019' },
