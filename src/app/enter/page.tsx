@@ -39,7 +39,7 @@ export default function EnterPage() {
 
       <form onSubmit={onSubmit} className="w-full max-w-sm p-8 bg-zinc-900/85 border border-zinc-800 backdrop-blur-sm z-10">
         <h1 className="text-2xl font-bold mb-4">Enter site password</h1>
-        <p className="text-sm text-zinc-400 mb-4">This site is password protected — enter the password to continue.</p>
+        <p className="text-sm text-zinc-400 mb-4">This site is password protected - enter the password to continue.</p>
         <input
           type="password"
           value={password}
