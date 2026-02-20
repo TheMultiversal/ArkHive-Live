@@ -4423,7 +4423,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Eastman Memos', url: 'https://www.cnn.com/2021/09/21/politics/read-eastman-memo/index.html', type: 'Document' },
       { title: 'January 6 Committee Report - Green Bay Sweep', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
       { title: 'Pence Letter January 6', url: 'https://www.nytimes.com/interactive/2021/01/06/us/politics/mike-pence-letter.html', type: 'Document' },
-      { title: 'Federal Trump Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Federal Trump Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
     ],
     affiliations: [
       { id: '1', name: 'Peter Navarro', type: 'individual', relationship: 'Named and promoted the scheme', href: '/entities/individuals/peter-navarro' },
@@ -6532,7 +6532,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Trump Indictment', 'Election Conspiracy', 'Jack Smith', 'January 6', 'Fake Electors', 'Federal Charges'],
     sources: [
-      { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
       { title: 'Supreme Court Immunity Ruling', url: 'https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf', type: 'Court Decision' },
       { title: 'Jack Smith Statement', url: 'https://www.justice.gov/sco-trump', type: 'Official Statement' },
     ],
@@ -8189,7 +8189,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Government Report' },
       { title: 'DOJ Boeing Settlement', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Press Release' },
-      { title: 'Purdue Pharma Settlement', url: 'https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-criminal-charges', type: 'Press Release' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Purdue Pharma Settlement', url: 'https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-criminal-charges', type: 'Press Release' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Failed to prosecute executives', href: '/entities/agencies/doj' },
@@ -9202,7 +9202,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['2020 Election', 'Fake Electors', 'January 6', 'Trump', 'Election Interference'],
     sources: [
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
-      { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Led the conspiracy', href: '/entities/individuals/donald-trump' },

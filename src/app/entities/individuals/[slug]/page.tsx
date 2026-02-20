@@ -4479,7 +4479,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'DOJ Seditious Conspiracy Indictment', url: 'https://www.justice.gov/opa/pr/leader-proud-boys-and-four-other-members-indicted-federal-court-seditious-conspiracy-and', date: '2022' },
-      { title: 'Trial Verdict', url: 'https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Trial Verdict', url: 'https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', date: '2023' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Reuters FBI Informant Investigation', date: '2021' },
     ],
@@ -4567,7 +4567,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'May 25, 2023', event: 'Sentenced to 18 YEARS in federal prison' },
     ],
     sources: [
-      { title: 'DOJ Seditious Conspiracy Conviction', url: 'https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'DOJ Seditious Conspiracy Conviction', url: 'https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy', date: '2023' },
       { title: 'Trial Evidence and Testimony', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', date: '2022' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Yale Law School Records', date: '2004' },
@@ -4864,7 +4864,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'July 17, 2024', event: 'Speaks at Republican National Convention SAME DAY' },
     ],
     sources: [
-      { title: 'DOJ Contempt Conviction', url: 'https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'DOJ Contempt Conviction', url: 'https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress', date: '2023' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Federal Prison Records', date: '2024' },
       { title: 'RNC Speaking Records', date: '2024' },
