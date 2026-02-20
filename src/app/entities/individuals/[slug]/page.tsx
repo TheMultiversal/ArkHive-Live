@@ -271,7 +271,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Unsealed Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
       { title: 'Panama Papers Database', url: 'https://offshoreleaks.icij.org/', date: '2025' },
       { title: 'IRS Audit Documents via Congressional Reports', url: 'https://waysandmeans.house.gov/trump-tax-returns/', date: '2023-2025' },
-      { title: 'DHS/ICE Detention Reports', url: 'https://www.oig.dhs.gov/reports', date: '2020-2025' },
+      { title: 'DHS/ICE Detention Reports', url: 'https://web.archive.org/web/*/https://www.oig.dhs.gov/reports', date: '2020-2025' },
       { title: 'EPA Environmental Rollback Documentation', url: 'https://www.epa.gov/laws-regulations/regulations', date: '2017-2021' },
       { title: 'IPCC Climate Assessment Reports', url: 'https://www.ipcc.ch/reports/', date: '2025' };
       { title: 'WHO Health Impact Studies', url: 'https://www.who.int/publications', date: '2024' },
@@ -3004,7 +3004,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
-      { title: 'DOJ Indictment', url: 'https://www.justice.gov/opa/pr/wikileaks-founder-charged-computer-intrusion-conspiracy', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'DOJ Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/opa/pr/wikileaks-founder-charged-computer-intrusion-conspiracy', date: '2019' },
     ],
   },
   'jerome-corsi': {
@@ -3313,7 +3313,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2020', event: 'Fired by Trump (February 7)' },
     ],
     sources: [
-      { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/116/chrg/CHRG-116hhrg42560/CHRG-116hhrg42560.pdf', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'House Impeachment Testimony', url: 'https://web.archive.org/web/*/https://www.congress.gov/116/chrg/CHRG-116hhrg42560/CHRG-116hhrg42560.pdf', date: '2019' },
     ],
   },
   'kurt-volker': {
@@ -17751,8 +17751,8 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'UN Security Council Presentation Transcript', url: 'https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm', date: '2003' },
-      { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
-      { title: 'My Lai Investigation Documents - National Archives', url: 'https://archives.gov/research/military/vietnam-war/war-crimes', date: '1968' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' },
+      { title: 'My Lai Investigation Documents - National Archives', url: 'https://www.archives.gov/research/military/vietnam-war/war-crimes', date: '1968' },
       { title: 'Curveball: Spies, Lies, and the Con Man Who Caused a War', date: '2007' };
       { title: 'Iran-Contra Tower Commission Report', url: 'https://www.archive.org/details/towercommissionr00unit', date: '1987' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'The Iraq Study Group Report', url: 'https://www.usip.org/publications/2006/12/iraq-study-group-report', date: '2006' },
@@ -17928,7 +17928,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Senate Armed Services Committee Torture Report', url: 'https://www.armed-services.senate.gov/imo/media/doc/Detainee-Report-Final_April-22-2009.pdf', date: '2008' },
       { title: 'Rumsfeld Torture Memo (Declassified)', url: 'https://nsarchive2.gwu.edu/torturingdemocracy/documents/20021127.pdf', date: '2002' },
-      { title: 'Abu Ghraib Investigations', url: 'https://aclu.org/sites/default/files/FilesPDFs/fay.pdf', date: '2004' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Abu Ghraib Investigations', url: 'https://web.archive.org/web/*/https://aclu.org/sites/default/files/FilesPDFs/fay.pdf', date: '2004' },
       { title: 'PNAC Iraq Letter', url: 'https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },
       { title: 'Taguba Report on Abu Ghraib', url: 'https://aclu.org/sites/default/files/torturefoia/released/030904.pdf', date: '2004' };
       { title: 'Known and Unknown: A Memoir', date: '2011' },
@@ -18015,10 +18015,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2014', event: 'Senate Torture Report documents CIA abuses under his tenure' },
     ],
     sources: [
-      { title: 'Senate Intelligence Committee Torture Report', url: 'https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Senate Intelligence Committee Torture Report', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
       { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },
       { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' };
-      { title: 'CIA OIG Special Review - Detention and Interrogation', url: 'https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf', date: '2004' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'CIA OIG Special Review - Detention and Interrogation', url: 'https://web.archive.org/web/*/https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf', date: '2004' },
       { title: 'At the Center of the Storm: My Years at the CIA', date: '2007' },
       { title: 'Curveball Investigation Reports', date: '2004' };
     ],
@@ -18277,7 +18277,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'United States v. Libby - Verdict', url: 'https://www.justice.gov/archive/osc/', date: '2007' },
       { title: 'Special Counsel Fitzgerald Closing Argument', date: '2007' },
       { title: 'Bush Commutation Statement', url: 'https://georgewbush-whitehouse.archives.gov/news/releases/2007/07/20070702-3.html', date: '2007' },
-      { title: 'Trump Pardon Statement', url: 'https://whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Trump Pardon Statement', url: 'https://web.archive.org/web/*/https://whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/', date: '2018' },
       { title: 'The Trial of Scooter Libby - Court Records', date: '2007' },
     ],
   },
@@ -18532,7 +18532,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Valech Commission Report on Torture', date: '2004' },
       { title: 'CIA Chile Declassified Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', date: 'Various' },
       { title: 'Operation Condor Declassified Records', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB416/', date: 'Various' },
-      { title: 'Letelier Assassination Documents', url: 'https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary', date: '1976-2016' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Letelier Assassination Documents', url: 'https://web.archive.org/web/*/https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary', date: '1976-2016' },
       { title: 'UK House of Lords Pinochet Judgment', url: 'https://publications.parliament.uk/pa/ld199899/ldjudgmt/jd990324/pino1.htm', date: '1999' },
       { title: 'Pinochet Riggs Bank Investigation', url: 'https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank', date: '2004' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
@@ -19041,9 +19041,9 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Continues as major Republican donor' },
     ],
     sources: [
-      { title: 'UN General Assembly Resolution on Sovereign Debt', url: 'https://un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf', date: '2014' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'UN General Assembly Resolution on Sovereign Debt', url: 'https://web.archive.org/web/*/https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf', date: '2014' },
       { title: 'IMF Sovereign Debt Reports', url: 'https://www.imf.org/en/Topics/Sovereign-Debt', date: 'Various' },
-      { title: 'Argentina v. NML Capital Supreme Court', url: 'https://supremecourt.gov/opinions/13pdf/12-842_5h26.pdf', date: '2014' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Argentina v. NML Capital Supreme Court', url: 'https://web.archive.org/web/*/https://supremecourt.gov/opinions/13pdf/12-842_5h26.pdf', date: '2014' },
       { title: 'Jubilee Debt Campaign - Vulture Funds', url: 'https://jubileedebt.org.uk/', date: 'Various' },
       { title: 'New York Times - Elliott Management Profile', date: '2016' },
       { title: 'SEC Elliott Management Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=elliott+management', date: 'Various' },

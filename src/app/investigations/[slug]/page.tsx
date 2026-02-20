@@ -4105,7 +4105,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'January 6 Committee DOJ Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
       { title: 'Clark Indictment - Georgia', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
       { title: 'Trump-Rosen Call Notes', url: 'https://www.nytimes.com/2021/07/30/us/politics/trump-doj-rosen-election.html', type: 'News Report' },
-      { title: 'Federal J6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+      { title: 'Federal J6 Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Pressured DOJ to overturn election', href: '/entities/individuals/donald-trump' },
       { id: '2', name: 'Jeffrey Clark', type: 'individual', relationship: 'DOJ official, co-conspirator, indicted', href: '/entities/individuals/jeffrey-clark' },
@@ -4423,7 +4423,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Eastman Memos', url: 'https://www.cnn.com/2021/09/21/politics/read-eastman-memo/index.html', type: 'Document' },
       { title: 'January 6 Committee Report - Green Bay Sweep', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
       { title: 'Pence Letter January 6', url: 'https://www.nytimes.com/interactive/2021/01/06/us/politics/mike-pence-letter.html', type: 'Document' },
-      { title: 'Federal Trump Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+      { title: 'Federal Trump Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
     ],
     affiliations: [
       { id: '1', name: 'Peter Navarro', type: 'individual', relationship: 'Named and promoted the scheme', href: '/entities/individuals/peter-navarro' },
@@ -6532,7 +6532,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Trump Indictment', 'Election Conspiracy', 'Jack Smith', 'January 6', 'Fake Electors', 'Federal Charges'],
     sources: [
-      { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+      { title: 'Trump Federal Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
       { title: 'Supreme Court Immunity Ruling', url: 'https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf', type: 'Court Decision' },
       { title: 'Jack Smith Statement', url: 'https://www.justice.gov/sco-trump', type: 'Official Statement' },
     ],
@@ -9202,7 +9202,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['2020 Election', 'Fake Electors', 'January 6', 'Trump', 'Election Interference'],
     sources: [
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
-      { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+      { title: 'Trump Federal Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Led the conspiracy', href: '/entities/individuals/donald-trump' },

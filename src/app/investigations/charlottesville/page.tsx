@@ -98,7 +98,7 @@ const investigation = {
   sources: [
     { title: 'Trump\'s Charlottesville Press Conference Transcript', url: 'https://www.politifact.com/article/2019/apr/26/context-trumps-very-fine-people-both-sides-remarks/', date: '2017' },
     { title: 'Sines v. Kessler Verdict', url: 'https://www.nytimes.com/2021/11/23/us/charlottesville-rally-verdict.html', date: '2021' },
-    { title: 'James Fields Sentencing', url: 'https://www.justice.gov/opa/pr/ohio-man-sentenced-life-plus-419-years-federal-hate-crimes', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+    { title: 'James Fields Sentencing', url: 'https://web.archive.org/web/*/https://www.justice.gov/opa/pr/ohio-man-sentenced-life-plus-419-years-federal-hate-crimes', date: '2019' },
     { title: 'Heather Heyer Memorial', url: 'https://www.heatherheyerfoundation.com/', date: 'Ongoing' },
     { title: 'Unite the Right Documentary Coverage', url: 'https://www.vice.com/en/article/qvzn8p/vice-news-tonight-full-episode-charlottesville-race-and-terror', date: '2017' },
   ],
