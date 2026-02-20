@@ -264,8 +264,8 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Manhattan DA Indictment (34 Counts)', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
       { title: 'DOJ Jack Smith Classified Documents Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: '2023' },
       { title: 'DOJ Jack Smith January 6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: '2023' },
-      { title: 'Fulton County Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
-      { title: 'E. Jean Carroll v. Trump Defamation Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Fulton County Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'E. Jean Carroll v. Trump Defamation Verdict', url: 'https://web.archive.org/web/*/https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'New York v. Trump Civil Fraud Judgment', url: 'https://www.documentcloud.org/documents/24425172-trump-fraud-ruling', date: '2024' },
       { title: 'Epstein Flight Logs (Lolita Express)', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2025' },
       { title: 'Unsealed Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
@@ -883,7 +883,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'Sep 2024', event: 'Disbarred in Washington D.C.' },
     ],
     sources: [
-      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Freeman v. Giuliani Defamation Judgment', url: 'https://www.courtlistener.com/docket/63178855/freeman-v-giuliani/', date: '2023' },
       { title: 'NY Bar Suspension Order', url: 'https://www.nycourts.gov/courts/ad1/calendar/List_Word/2021/06_Jun/24/PDF/Matter%20of%20Giuliani%20(2021-00506).pdf', date: '2021' },
       { title: 'Arizona Indictment', url: 'https://www.azag.gov/press-release/indictment-unsealed-state-v-meadows-et-al', date: '2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
@@ -1882,7 +1882,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Charged with voter fraud in North Carolina' },
     ],
     sources: [
-      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: 'December 2022' },
       { title: 'Federal Indictment - Trump', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: 'August 2023' },
       { title: 'Meadows Text Messages', date: '2022' },
@@ -1981,7 +1981,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Eastman Memos (Exhibits)', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2020-2021' },
-      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: 'December 2022' },
       { title: 'California State Bar Disbarment Decision', date: 'March 2024' },
       { title: 'Federal Indictment - Trump', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: 'August 2023' },
@@ -2070,7 +2070,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Georgia Guilty Plea Agreement', url: 'https://www.fultonclerk.org/', date: 'October 2023' },
-      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Dominion v. Powell Complaint', url: 'https://www.courtlistener.com/', date: '2021' },
       { title: 'Fox News Dominion Settlement', date: 'April 2023' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
@@ -2212,7 +2212,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: 'December 2022' },
-      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Federal Indictment - Trump', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: 'August 2023' },
       { title: 'Clark Draft Letter (Exhibit)', date: 'December 2020' },
       { title: 'DOJ Leadership Testimony', date: '2022' },
@@ -3853,7 +3853,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2025', event: 'Appeals pending while Trump serves as President' },
     ],
     sources: [
-      { title: 'Carroll v. Trump - Sexual Abuse Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Carroll v. Trump - Sexual Abuse Verdict', url: 'https://web.archive.org/web/*/https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Carroll v. Trump - $83.3M Defamation Verdict', url: 'https://www.courtlistener.com/docket/17595029/carroll-v-trump/', date: '2024' },
       { title: 'New York Magazine Article', url: 'https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: '"What Do We Need Men For?" Book', url: 'https://amazon.com/What-Do-Need-Men-Hideous/dp/1250215420', date: '2019' },
@@ -4172,7 +4172,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Case delayed by appeals and immunity claims' },
     ],
     sources: [
-      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Fulton County DA Office', url: 'https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/district-attorney', date: '2024' },
     ],
   },
