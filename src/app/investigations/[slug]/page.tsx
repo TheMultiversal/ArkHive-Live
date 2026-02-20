@@ -959,7 +959,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Federal Indictment - Bannon, Kolfage', url: 'https://www.justice.gov/usao-sdny/press-release/file/1306611/download', type: 'Court Filing' },
       { title: 'Kolfage Sentencing', url: 'https://www.justice.gov/usao-sdny/pr/brian-kolfage-sentenced-prison-we-build-wall-fraud-scheme', type: 'Press Release' },
-      { title: 'NY State Bannon Indictment', url: 'https://ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment', type: 'Press Release' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'NY State Bannon Indictment', url: 'https://www.ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment', type: 'Press Release' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Trump Pardon Announcement', url: 'https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-012021/', type: 'Government Document' },
     ],
     affiliations: [
@@ -2486,10 +2486,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Carroll v. Trump - First Trial Verdict', url: 'https://www.courtlistener.com/docket/16871571/carroll-v-trump/', type: 'Court Records' },
       { title: 'Carroll v. Trump - Second Trial Verdict', url: 'https://www.courtlistener.com/docket/67371534/carroll-v-trump/', type: 'Court Records' },
-      { title: 'Original New York Magazine Article', url: 'https://www.thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', type: 'Primary Source' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Original New York Magazine Article', url: 'https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', type: 'Primary Source' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
     affiliations: [
-      { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant, found liable', href: '/entities/individuals/donald-trump' },
+      { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant, found liable', href: '/entities/individuals/donald-trump' };
       { id: '2', name: 'E. Jean Carroll', type: 'individual', relationship: 'Plaintiff, $88M verdict', href: '/entities/individuals/e-jean-carroll' },
     ],
   },
@@ -3345,7 +3345,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Supreme Court', 'Clarence Thomas', 'Ethics', 'Harlan Crow', 'Samuel Alito', 'Corruption'],
     sources: [
       { title: 'ProPublica Thomas Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-crow', type: 'Investigation' },
-      { title: 'ProPublica Alito Investigation', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'ProPublica Alito Investigation', url: 'https://propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Leo-Ginni Thomas Payments', url: 'https://www.washingtonpost.com/investigations/2023/09/22/leonard-leo-paid-ginni-thomas/', type: 'Investigation' },
       { title: 'Senate Judiciary Ethics Hearings', url: 'https://www.judiciary.senate.gov/committee-activity/hearings/supreme-court-ethics-what-our-highest-court-should-learn-from-other-courts-and-other-branches', type: 'Government Record' },
     ],
@@ -4299,10 +4299,11 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Supreme Court', 'Ethics', 'Clarence Thomas', 'Samuel Alito', 'Recusal', 'Disclosure', 'Judicial Reform'],
     sources: [
       { title: 'ProPublica Supreme Court Investigation', url: 'https://www.propublica.org/series/supreme-court-ethics', type: 'Investigation' },
-      { title: 'Alito Alaska Trip', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Alito Alaska Trip', url: 'https://propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'SCOTUS Adopted Ethics Code', url: 'https://www.supremecourt.gov/about/Code-of-Conduct-for-Justices_Adopted.pdf', type: 'Court Document' },
       { title: 'Gallup Supreme Court Confidence Poll', url: 'https://news.gallup.com/poll/394103/confidence-supreme-court-sinks-historic-low.aspx', type: 'Polling' },
       { title: 'Senate Judiciary Ethics Hearing', url: 'https://www.judiciary.senate.gov/committee-activity/hearings/supreme-court-ethics', type: 'Congressional Record' },
+    ],
     ],
     affiliations: [
       { id: '1', name: 'Clarence Thomas', type: 'individual', relationship: 'Undisclosed gifts, recusal refusals', href: '/entities/individuals/clarence-thomas' },
@@ -5611,10 +5612,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Pentagon IG Report on Feith\'s Office', url: 'https://www.dodig.mil/reports.html/Article/1119855/review-of-the-pre-iraq-war-activities-of-the-office-of-the-under-secretary-of-d/', type: 'Government Report' },
       { title: 'Mother Jones - The Lie Factory', url: 'https://www.motherjones.com/politics/2004/01/lie-factory/', type: 'Investigation' },
       { title: 'New Yorker - Selective Intelligence', url: 'https://www.newyorker.com/magazine/2003/05/12/selective-intelligence', type: 'Investigation' },
-      { title: 'Senate Intelligence Committee Iraq Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', type: 'Congressional Report' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Senate Intelligence Committee Iraq Report', url: 'https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', type: 'Congressional Report' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Curveball Fabrication Admission', url: 'https://www.theguardian.com/world/2011/feb/15/curveball-iraqi-defector-admits-lying', type: 'News Report' },
     ],
-    affiliations: [
+    affiliations: [ 
       { id: '1', name: 'Douglas Feith', type: 'individual', relationship: 'Created and directed OSP', href: '/entities/individuals/douglas-feith' },
       { id: '2', name: 'Donald Rumsfeld', type: 'individual', relationship: 'Authorized OSP creation', href: '/entities/individuals/donald-rumsfeld' },
       { id: '3', name: 'Dick Cheney', type: 'individual', relationship: 'Used OSP intelligence', href: '/entities/individuals/dick-cheney' },

@@ -1,0 +1,3869 @@
+{
+  "file": "src/app/entities/individuals/[slug]/page.tsx",
+  "total": 275,
+  "broken": 129,
+  "results": [
+    {
+      "url": "https://www.justice.gov/archives/sco/file/1373816/download",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/archives/sco/file/1373816/dl?inline=",
+      "occurrences": [
+        {
+          "line": 261,
+          "preview": "{ title: 'Mueller Report: Russian Interference Investigation', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 976,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 1065,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 1150,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 1349,
+          "preview": "{ title: 'Mueller Report - Kislyak Back-Channel', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 1455,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 1670,
+          "preview": "{ title: 'Mueller Report (Trump Tower Moscow)', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 1733,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 2318,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 2639,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 3005,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 3046,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 3092,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 3177,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 3267,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 3634,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 3694,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 3749,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 4341,
+          "preview": "{ title: 'Mueller Report - Obstruction Section', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 4397,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 5362,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 6430,
+          "preview": "{ title: 'Mueller Report Volume II', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 7724,
+          "preview": "{ title: 'Mueller Report - Seychelles Meeting', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 18882,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 18962,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 20254,
+          "preview": "{ title: 'Mueller Report - UAE Contacts', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        },
+        {
+          "line": 20300,
+          "preview": "{ title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf",
+      "occurrences": [
+        {
+          "line": 262,
+          "preview": "{ title: 'January 6th Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 1068,
+          "preview": "{ title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 1249,
+          "preview": "{ title: 'House January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 1404,
+          "preview": "{ title: 'January 6 Committee Testimony', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 1885,
+          "preview": "{ title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: 'December 2022' },"
+        },
+        {
+          "line": 1982,
+          "preview": "{ title: 'Eastman Memos (Exhibits)', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2020-2021' },"
+        },
+        {
+          "line": 1984,
+          "preview": "{ title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: 'December 2022' },"
+        },
+        {
+          "line": 2075,
+          "preview": "{ title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 2213,
+          "preview": "{ title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: 'December 2022' },"
+        },
+        {
+          "line": 2321,
+          "preview": "{ title: 'January 6 Committee Testimony', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 3444,
+          "preview": "{ title: 'January 6 Committee Records', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 3801,
+          "preview": "{ title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 3964,
+          "preview": "{ title: 'January 6 Committee Testimony', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 4066,
+          "preview": "{ title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 4232,
+          "preview": "{ title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 4285,
+          "preview": "{ title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 4482,
+          "preview": "{ title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 4571,
+          "preview": "{ title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 4867,
+          "preview": "{ title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 5255,
+          "preview": "{ title: 'January 6 Committee Testimony', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 5928,
+          "preview": "{ title: 'January 6 Committee Hannity Texts', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 6084,
+          "preview": "{ title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 7629,
+          "preview": "{ title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 15544,
+          "preview": "{ title: 'January 6 Committee - Ginni Thomas Texts', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        },
+        {
+          "line": 23955,
+          "preview": "{ title: 'January 6th Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf",
+      "occurrences": [
+        {
+          "line": 263,
+          "preview": "{ title: 'Manhattan DA Indictment (34 Counts)', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },"
+        },
+        {
+          "line": 1668,
+          "preview": "{ title: 'Manhattan DA People v. Trump Indictment', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },"
+        },
+        {
+          "line": 3910,
+          "preview": "{ title: 'Manhattan DA Indictment', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf",
+      "occurrences": [
+        {
+          "line": 264,
+          "preview": "{ title: 'DOJ Jack Smith Classified Documents Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: '2023' },"
+        },
+        {
+          "line": 4121,
+          "preview": "{ title: 'Classified Documents Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: '2023' },"
+        },
+        {
+          "line": 5533,
+          "preview": "{ title: 'DOJ Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf",
+      "occurrences": [
+        {
+          "line": 265,
+          "preview": "{ title: 'DOJ Jack Smith January 6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: '2023' },"
+        },
+        {
+          "line": 1886,
+          "preview": "{ title: 'Federal Indictment - Trump', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: 'August 2023' },"
+        },
+        {
+          "line": 1986,
+          "preview": "{ title: 'Federal Indictment - Trump', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: 'August 2023' },"
+        },
+        {
+          "line": 2215,
+          "preview": "{ title: 'Federal Indictment - Trump', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: 'August 2023' },"
+        },
+        {
+          "line": 4122,
+          "preview": "{ title: 'January 6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
+      "occurrences": [
+        {
+          "line": 266,
+          "preview": "{ title: 'Fulton County Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },"
+        },
+        {
+          "line": 885,
+          "preview": "{ title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },"
+        },
+        {
+          "line": 1884,
+          "preview": "{ title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },"
+        },
+        {
+          "line": 1983,
+          "preview": "{ title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },"
+        },
+        {
+          "line": 2072,
+          "preview": "{ title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },"
+        },
+        {
+          "line": 2214,
+          "preview": "{ title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },"
+        },
+        {
+          "line": 4174,
+          "preview": "{ title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf",
+      "occurrences": [
+        {
+          "line": 267,
+          "preview": "{ title: 'E. Jean Carroll v. Trump Defamation Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2024' },"
+        },
+        {
+          "line": 3855,
+          "preview": "{ title: 'Carroll v. Trump - Sexual Abuse Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.documentcloud.org/documents/24425172-trump-fraud-ruling",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.documentcloud.org/documents/24425172-1/",
+      "occurrences": [
+        {
+          "line": 268,
+          "preview": "{ title: 'New York v. Trump Civil Fraud Judgment', url: 'https://www.documentcloud.org/documents/24425172-trump-fraud-ruling', date: '2024' },"
+        },
+        {
+          "line": 1502,
+          "preview": "{ title: 'New York Fraud Trial Documents', url: 'https://www.documentcloud.org/documents/24425172-trump-fraud-ruling', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.documentcloud.org/documents/21165424-epstein-flight-logs",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.documentcloud.org/documents/21165424-epstein-flight-logs-released-in-usa-vs-maxwell/",
+      "occurrences": [
+        {
+          "line": 269,
+          "preview": "{ title: 'Epstein Flight Logs (Lolita Express)', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2025' },"
+        },
+        {
+          "line": 400,
+          "preview": "{ title: 'Epstein Flight Logs', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2019-2025' },"
+        },
+        {
+          "line": 2904,
+          "preview": "{ title: 'Epstein Flight Logs', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/",
+      "occurrences": [
+        {
+          "line": 270,
+          "preview": "{ title: 'Unsealed Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },"
+        },
+        {
+          "line": 283,
+          "preview": "{ title: 'Virginia Giuffre Lawsuit Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2015-2025' },"
+        },
+        {
+          "line": 399,
+          "preview": "{ title: 'Unsealed Giuffre v. Maxwell Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },"
+        },
+        {
+          "line": 790,
+          "preview": "{ title: 'Giuffre v. Maxwell Lawsuit Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2015-2025' },"
+        },
+        {
+          "line": 2721,
+          "preview": "{ title: 'Unsealed Giuffre v. Maxwell Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },"
+        },
+        {
+          "line": 2807,
+          "preview": "{ title: 'Unsealed Epstein Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },"
+        },
+        {
+          "line": 2905,
+          "preview": "{ title: 'Unsealed Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },"
+        },
+        {
+          "line": 5021,
+          "preview": "{ title: 'Giuffre v. Maxwell Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2015-2025' },"
+        }
+      ]
+    },
+    {
+      "url": "https://offshoreleaks.icij.org/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://offshoreleaks.icij.org/",
+      "occurrences": [
+        {
+          "line": 271,
+          "preview": "{ title: 'Panama Papers Database', url: 'https://offshoreleaks.icij.org/', date: '2025' },"
+        }
+      ]
+    },
+    {
+      "url": "https://waysandmeans.house.gov/trump-tax-returns/",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://waysandmeans.house.gov/trump-tax-returns/",
+      "occurrences": [
+        {
+          "line": 272,
+          "preview": "{ title: 'IRS Audit Documents via Congressional Reports', url: 'https://waysandmeans.house.gov/trump-tax-returns/', date: '2023-2025' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.oig.dhs.gov/reports",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.oig.dhs.gov/reports",
+      "occurrences": [
+        {
+          "line": 273,
+          "preview": "{ title: 'DHS/ICE Detention Reports', url: 'https://www.oig.dhs.gov/reports', date: '2020-2025' },"
+        },
+        {
+          "line": 3537,
+          "preview": "{ title: 'DHS IG Reports on Family Separation', url: 'https://www.oig.dhs.gov/reports', date: '2019-2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.epa.gov/laws-regulations/regulations",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.epa.gov/laws-regulations/regulations",
+      "occurrences": [
+        {
+          "line": 274,
+          "preview": "{ title: 'EPA Environmental Rollback Documentation', url: 'https://www.epa.gov/laws-regulations/regulations', date: '2017-2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ipcc.ch/reports/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.ipcc.ch/reports/",
+      "occurrences": [
+        {
+          "line": 275,
+          "preview": "{ title: 'IPCC Climate Assessment Reports', url: 'https://www.ipcc.ch/reports/', date: '2025' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.who.int/publications",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.who.int/publications",
+      "occurrences": [
+        {
+          "line": 276,
+          "preview": "{ title: 'WHO Health Impact Studies', url: 'https://www.who.int/publications', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.congress.gov/committees",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.congress.gov/committees",
+      "occurrences": [
+        {
+          "line": 277,
+          "preview": "{ title: 'Congressional Oversight Hearings', url: 'https://www.congress.gov/committees', date: '2024-2025' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ohchr.org/en/countries/united-states-america",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.ohchr.org/en/countries/united-states-america",
+      "occurrences": [
+        {
+          "line": 278,
+          "preview": "{ title: 'UN Human Rights Reports', url: 'https://www.ohchr.org/en/countries/united-states-america', date: '2020-2025' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/enforce/sec-enforcement-actions",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.sec.gov/enforce/sec-enforcement-actions",
+      "occurrences": [
+        {
+          "line": 279,
+          "preview": "{ title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/enforce/sec-enforcement-actions', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fincen.gov/news-room",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.fincen.gov/news",
+      "occurrences": [
+        {
+          "line": 280,
+          "preview": "{ title: 'FinCEN Money Laundering Reports', url: 'https://www.fincen.gov/news-room', date: '2025' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.miamiherald.com/topics/jeffrey-epstein",
+      "error": "Error: timeout",
+      "occurrences": [
+        {
+          "line": 281,
+          "preview": "{ title: 'Miami Herald: Perversion of Justice (Epstein)', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '2018-2025' },"
+        },
+        {
+          "line": 397,
+          "preview": "{ title: 'Miami Herald: Perversion of Justice', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/",
+      "occurrences": [
+        {
+          "line": 282,
+          "preview": "{ title: 'Ghislaine Maxwell Trial Transcripts', url: 'https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/', date: '2021' },"
+        },
+        {
+          "line": 788,
+          "preview": "{ title: 'United States v. Maxwell Federal Indictment', url: 'https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/', date: '2020' },"
+        },
+        {
+          "line": 789,
+          "preview": "{ title: 'Maxwell Trial Transcripts', url: 'https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/', date: '2021' },"
+        },
+        {
+          "line": 792,
+          "preview": "{ title: 'Victim Impact Statements', url: 'https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/', date: '2022' },"
+        },
+        {
+          "line": 5023,
+          "preview": "{ title: 'Maxwell Trial Testimony', url: 'https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/4154484/katie-johnson-v-donald-j-trump/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/4154484/katie-johnson-v-donald-j-trump/",
+      "occurrences": [
+        {
+          "line": 284,
+          "preview": "{ title: 'Katie Johnson Lawsuit (Epstein Party Rape Allegation)', url: 'https://www.courtlistener.com/docket/4154484/katie-johnson-v-donald-j-trump/', date: '2016' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/trump-recorded-having-extremely-lewd-conversation-about-women-in-2005/2016/10/07/3b9ce776-8cb4-11e6-bf8a-3d26847eeed4_story.html",
+      "error": "Error: timeout",
+      "occurrences": [
+        {
+          "line": 285,
+          "preview": "{ title: 'Access Hollywood Tape Transcript', url: 'https://www.washingtonpost.com/politics/trump-recorded-having-extremely-lewd-conversation-about-women-in-2005/2016/10/07/3b9ce776-8cb4-11e6-bf8a-3d26847eeed4_story.html', date: '2005/2016' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/archives/sco",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/archives/sco",
+      "occurrences": [
+        {
+          "line": 286,
+          "preview": "{ title: 'Trump-Russia Mueller Investigation Evidence', url: 'https://www.justice.gov/archives/sco', date: '2017-2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.state.gov/arms-sales/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.state.gov/arms-sales/",
+      "occurrences": [
+        {
+          "line": 287,
+          "preview": "{ title: 'Saudi Arms Deal Documentation', url: 'https://www.state.gov/arms-sales/', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ohchr.org/en/hr-bodies/hrc/yemen/index",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.ohchr.org/en/hr-bodies/hrc/yemen/index",
+      "occurrences": [
+        {
+          "line": 288,
+          "preview": "{ title: 'Yemen War Casualty Reports (UN)', url: 'https://www.ohchr.org/en/hr-bodies/hrc/yemen/index', date: '2017-2025' },"
+        },
+        {
+          "line": 1790,
+          "preview": "{ title: 'UN Yemen Report', url: 'https://www.ohchr.org/en/hr-bodies/hrc/yemen/index', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/",
+      "occurrences": [
+        {
+          "line": 289,
+          "preview": "{ title: 'Cambridge Analytica Scandal Documents', url: 'https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },"
+        },
+        {
+          "line": 1248,
+          "preview": "{ title: 'Cambridge Analytica Investigation (ICO UK)', url: 'https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },"
+        },
+        {
+          "line": 5084,
+          "preview": "{ title: 'Cambridge Analytica Investigation (UK ICO)', url: 'https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },"
+        },
+        {
+          "line": 6142,
+          "preview": "{ title: 'UK ICO Investigation', url: 'https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-sex-trafficking-minors",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-sex-trafficking-minors",
+      "occurrences": [
+        {
+          "line": 396,
+          "preview": "{ title: 'SDNY Federal Indictment', url: 'https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-sex-trafficking-minors', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison",
+      "occurrences": [
+        {
+          "line": 398,
+          "preview": "{ title: 'Ghislaine Maxwell Trial Documents', url: 'https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.palmbeachpost.com/story/news/crime/2019/07/09/palm-beach-police-documents-epstein-case/4537389007/",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.palmbeachpost.com/story/news/crime/2019/07/09/palm-beach-police-documents-epstein-case/4537389007/",
+      "occurrences": [
+        {
+          "line": 401,
+          "preview": "{ title: 'Palm Beach Police Reports', url: 'https://www.palmbeachpost.com/story/news/crime/2019/07/09/palm-beach-police-documents-epstein-case/4537389007/', date: '2005' },"
+        }
+      ]
+    },
+    {
+      "url": "https://nymag.com/news/features/41826/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://nymag.com/news/features/41826/",
+      "occurrences": [
+        {
+          "line": 402,
+          "preview": "{ title: 'New York Magazine: The Fantasist', url: 'https://nymag.com/news/features/41826/', date: '2007' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.vanityfair.com/news/2003/03/jeffrey-epstein-200303",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.vanityfair.com/news/2003/03/jeffrey-epstein-200303",
+      "occurrences": [
+        {
+          "line": 403,
+          "preview": "{ title: 'Vanity Fair: The Talented Mr. Epstein', url: 'https://www.vanityfair.com/news/2003/03/jeffrey-epstein-200303', date: '2003' },"
+        },
+        {
+          "line": 2720,
+          "preview": "{ title: 'Vanity Fair: The Talented Mr. Epstein', url: 'https://www.vanityfair.com/news/2003/03/jeffrey-epstein-200303', date: '2003' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/4590283/jane-doe-1-v-united-states/",
+      "status": 202,
+      "ok": true,
+      "finalUrl": "https://www.courtlistener.com/opinion/4590283/jane-doe-1-v-united-states/",
+      "occurrences": [
+        {
+          "line": 404,
+          "preview": "{ title: 'NPA Agreement Ruling', url: 'https://www.courtlistener.com/opinion/4590283/jane-doe-1-v-united-states/', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report/",
+      "occurrences": [
+        {
+          "line": 405,
+          "preview": "{ title: 'Medical Examiner Autopsy Report', url: 'https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://oig.justice.gov/reports",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://oig.justice.gov/reports",
+      "occurrences": [
+        {
+          "line": 406,
+          "preview": "{ title: 'DOJ IG Report on MCC Manhattan', url: 'https://oig.justice.gov/reports', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://centerforhealthsecurity.org/our-work/exercises/event201",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://centerforhealthsecurity.org/our-work/exercises/event201",
+      "occurrences": [
+        {
+          "line": 497,
+          "preview": "{ title: 'Event 201 Pandemic Exercise', url: 'https://centerforhealthsecurity.org/our-work/exercises/event201', date: '2019' },"
+        },
+        {
+          "line": 601,
+          "preview": "{ title: 'Event 201 Pandemic Exercise Documentation', url: 'https://centerforhealthsecurity.org/our-work/exercises/event201', date: '2019' },"
+        },
+        {
+          "line": 4718,
+          "preview": "{ title: 'Event 201 Pandemic Exercise Documentation', url: 'https://centerforhealthsecurity.org/our-work/exercises/event201', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.younggloballeaders.org/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.younggloballeaders.org/",
+      "occurrences": [
+        {
+          "line": 500,
+          "preview": "{ title: 'WEF Young Global Leaders Database', url: 'https://www.younggloballeaders.org/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/atr/case/us-v-microsoft-corporation",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.justice.gov/atr/case/us-v-microsoft-corporation",
+      "occurrences": [
+        {
+          "line": 602,
+          "preview": "{ title: 'DOJ Microsoft Antitrust Case', url: 'https://www.justice.gov/atr/case/us-v-microsoft-corporation', date: '1998-2001' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/10/12/business/jeffrey-epstein-bill-gates.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.nytimes.com/2019/10/12/business/jeffrey-epstein-bill-gates.html",
+      "occurrences": [
+        {
+          "line": 603,
+          "preview": "{ title: 'New York Times - Gates Epstein Meetings', url: 'https://www.nytimes.com/2019/10/12/business/jeffrey-epstein-bill-gates.html', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lelpd.org/",
+      "error": "Error: getaddrinfo ENOTFOUND www.lelpd.org",
+      "occurrences": [
+        {
+          "line": 705,
+          "preview": "{ title: 'Law Enforcement Legal Defense Fund - Soros DA Tracker', url: 'https://www.lelpd.org/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/usao-sdny/press-release/file/1515231/download",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/usao-sdny/press-release/file/1515231/download",
+      "occurrences": [
+        {
+          "line": 791,
+          "preview": "{ title: 'SDNY Sentencing Memorandum', url: 'https://www.justice.gov/usao-sdny/press-release/file/1515231/download', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/usao-sdny/press-release/file/1291481/download",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/usao-sdny/press-release/file/1291481/download",
+      "occurrences": [
+        {
+          "line": 793,
+          "preview": "{ title: 'FBI Arrest Affidavit', url: 'https://www.justice.gov/usao-sdny/press-release/file/1291481/download', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/63178855/freeman-v-giuliani/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/63178855/freeman-v-giuliani/",
+      "occurrences": [
+        {
+          "line": 886,
+          "preview": "{ title: 'Freeman v. Giuliani Defamation Judgment', url: 'https://www.courtlistener.com/docket/63178855/freeman-v-giuliani/', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nycourts.gov/courts/ad1/calendar/List_Word/2021/06_Jun/24/PDF/Matter%20of%20Giuliani%20(2021-00506",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.nycourts.gov/courts/ad1/calendar/List_Word/2021/06_Jun/24/PDF/Matter%20of%20Giuliani%20(2021-00506",
+      "occurrences": [
+        {
+          "line": 887,
+          "preview": "{ title: 'NY Bar Suspension Order', url: 'https://www.nycourts.gov/courts/ad1/calendar/List_Word/2021/06_Jun/24/PDF/Matter%20of%20Giuliani%20(2021-00506).pdf', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.azag.gov/press-release/indictment-unsealed-state-v-meadows-et-al",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.azag.gov/press-release/indictment-unsealed-state-v-meadows-et-al",
+      "occurrences": [
+        {
+          "line": 888,
+          "preview": "{ title: 'Arizona Indictment', url: 'https://www.azag.gov/press-release/indictment-unsealed-state-v-meadows-et-al', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://intelligence.house.gov/report/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://intelligence.house.gov/reports-letters/",
+      "occurrences": [
+        {
+          "line": 889,
+          "preview": "{ title: 'House Impeachment Report', url: 'https://intelligence.house.gov/report/', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/usao-sdny/pr/lev-parnas-found-guilty-campaign-finance-charges",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/usao-sdny/pr/lev-parnas-found-guilty-campaign-finance-charges",
+      "occurrences": [
+        {
+          "line": 890,
+          "preview": "{ title: 'Parnas SDNY Conviction', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-found-guilty-campaign-finance-charges', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/6183591/united-states-v-manafort/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/6183591/united-states-v-manafort/",
+      "occurrences": [
+        {
+          "line": 977,
+          "preview": "{ title: 'EDVA Conviction Documents', url: 'https://www.courtlistener.com/docket/6183591/united-states-v-manafort/', date: '2018' },"
+        },
+        {
+          "line": 3180,
+          "preview": "{ title: 'Manafort Indictments and Plea', url: 'https://www.courtlistener.com/docket/6183591/united-states-v-manafort/', date: '2018' },"
+        },
+        {
+          "line": 3750,
+          "preview": "{ title: 'Gates Plea Agreement', url: 'https://www.courtlistener.com/docket/6183591/united-states-v-manafort/', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.intelligence.senate.gov/2020/08/18/publications-report-select-committee-intelligence-united-states-senate-russian-active-measures/",
+      "occurrences": [
+        {
+          "line": 978,
+          "preview": "{ title: 'Senate Intelligence Committee Vol. 5', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },"
+        },
+        {
+          "line": 18796,
+          "preview": "{ title: 'Senate Intelligence Committee - Russian Interference Vol. 2', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2019' },"
+        },
+        {
+          "line": 18963,
+          "preview": "{ title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://home.treasury.gov/news/press-releases/jy0126",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://home.treasury.gov/news/press-releases/jy0126",
+      "occurrences": [
+        {
+          "line": 979,
+          "preview": "{ title: 'Treasury Kilimnik Sanctions', url: 'https://home.treasury.gov/news/press-releases/jy0126', date: '2021' },"
+        },
+        {
+          "line": 2640,
+          "preview": "{ title: 'Treasury OFAC Designation', url: 'https://home.treasury.gov/news/press-releases/jy0126', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.icij.org/investigations/pandora-papers/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.icij.org/investigations/pandora-papers/",
+      "occurrences": [
+        {
+          "line": 980,
+          "preview": "{ title: 'Cyprus Shell Companies Analysis', url: 'https://www.icij.org/investigations/pandora-papers/', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/",
+      "occurrences": [
+        {
+          "line": 981,
+          "preview": "{ title: 'Deripaska Relationship Documents', url: 'https://www.atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/file/1124706/download",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.justice.gov/file/1124706/download",
+      "occurrences": [
+        {
+          "line": 1066,
+          "preview": "{ title: 'Stone Indictment', url: 'https://www.justice.gov/file/1124706/download', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-documents-report-volume5.pdf",
+      "occurrences": [
+        {
+          "line": 1067,
+          "preview": "{ title: 'House Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },"
+        },
+        {
+          "line": 1153,
+          "preview": "{ title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },"
+        },
+        {
+          "line": 1350,
+          "preview": "{ title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },"
+        },
+        {
+          "line": 1734,
+          "preview": "{ title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },"
+        },
+        {
+          "line": 2638,
+          "preview": "{ title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },"
+        },
+        {
+          "line": 3093,
+          "preview": "{ title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },"
+        },
+        {
+          "line": 3179,
+          "preview": "{ title: 'Senate Intelligence Committee Report Volume 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },"
+        },
+        {
+          "line": 3269,
+          "preview": "{ title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },"
+        },
+        {
+          "line": 7728,
+          "preview": "{ title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.netflix.com/title/80114666",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.netflix.com/title/80114666",
+      "occurrences": [
+        {
+          "line": 1069,
+          "preview": "{ title: 'Netflix: Get Me Roger Stone', url: 'https://www.netflix.com/title/80114666', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/7658913/united-states-v-stone/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/7658913/united-states-v-stone/",
+      "occurrences": [
+        {
+          "line": 1070,
+          "preview": "{ title: 'Stone-Credico Text Messages (Court Exhibit)', url: 'https://www.courtlistener.com/docket/7658913/united-states-v-stone/', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/6234142/united-states-v-flynn/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/6234142/united-states-v-flynn/",
+      "occurrences": [
+        {
+          "line": 1151,
+          "preview": "{ title: 'Flynn Plea Agreement', url: 'https://www.courtlistener.com/docket/6234142/united-states-v-flynn/', date: '2017' },"
+        },
+        {
+          "line": 3268,
+          "preview": "{ title: 'Flynn Plea Documents', url: 'https://www.courtlistener.com/docket/6234142/united-states-v-flynn/', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/file/1015126/download",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.justice.gov/file/1015126/download",
+      "occurrences": [
+        {
+          "line": 1152,
+          "preview": "{ title: 'DOJ Flynn Statement of Offense', url: 'https://www.justice.gov/file/1015126/download', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf",
+      "occurrences": [
+        {
+          "line": 1154,
+          "preview": "{ title: 'House Oversight Turkey Lobbying Report', url: 'https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.washingtonpost.com/world/national-security/national-security-adviser-flynn-discussed-sanctions-with-russian-ambassador-despite-denials-officials-say/2017/02/09/f85b29d6-ee11-11e6-b4ff-ac2cf509efe5_story.html",
+      "error": "Error: timeout",
+      "occurrences": [
+        {
+          "line": 1155,
+          "preview": "{ title: 'WaPo: Flynn-Kislyak Calls', url: 'https://www.washingtonpost.com/world/national-security/national-security-adviser-flynn-discussed-sanctions-with-russian-ambassador-despite-denials-officials-say/2017/02/09/f85b29d6-ee11-11e6-b4ff-ac2cf509efe5_story.html', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands",
+      "occurrences": [
+        {
+          "line": 1245,
+          "preview": "{ title: 'We Build the Wall Indictment', url: 'https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands', date: '2020' },"
+        },
+        {
+          "line": 2956,
+          "preview": "{ title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.congress.gov/117/crpt/hrpt152/CRPT-117hrpt152.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.congress.gov/117/crpt/hrpt152/CRPT-117hrpt152.pdf",
+      "occurrences": [
+        {
+          "line": 1246,
+          "preview": "{ title: 'January 6 Committee Contempt Referral', url: 'https://www.congress.gov/117/crpt/hrpt152/CRPT-117hrpt152.pdf', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment",
+      "occurrences": [
+        {
+          "line": 1247,
+          "preview": "{ title: 'NY State Indictment', url: 'https://ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/usao-dc/pr/stephen-k-bannon-found-guilty-contempt-congress",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/usao-dc/pr/stephen-k-bannon-found-guilty-contempt-congress",
+      "occurrences": [
+        {
+          "line": 1250,
+          "preview": "{ title: 'DOJ Contempt Conviction Press Release', url: 'https://www.justice.gov/usao-dc/pr/stephen-k-bannon-found-guilty-contempt-congress', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://oversight.house.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://oversight.house.gov/",
+      "occurrences": [
+        {
+          "line": 1347,
+          "preview": "{ title: 'House Oversight Committee Investigation', url: 'https://oversight.house.gov/', date: '2022' },"
+        },
+        {
+          "line": 3538,
+          "preview": "{ title: 'House Oversight Committee Investigation', url: 'https://oversight.house.gov/', date: '2019' },"
+        },
+        {
+          "line": 5309,
+          "preview": "{ title: 'Congressional Testimony', url: 'https://oversight.house.gov/', date: '2022' },"
+        },
+        {
+          "line": 19131,
+          "preview": "{ title: 'House Oversight Committee - NIH Documents', url: 'https://oversight.house.gov/', date: '2022-2024' },"
+        },
+        {
+          "line": 19294,
+          "preview": "{ title: 'House Select Subcommittee Testimony', url: 'https://oversight.house.gov/', date: '2023' },"
+        },
+        {
+          "line": 19376,
+          "preview": "{ title: 'House Select Subcommittee Investigation', url: 'https://oversight.house.gov/', date: '2023-2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html",
+      "occurrences": [
+        {
+          "line": 1348,
+          "preview": "{ title: 'NYT Saudi Investment Investigation', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/interactive/2017/07/11/us/politics/donald-trump-jr-email-text.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.nytimes.com/interactive/2017/07/11/us/politics/donald-trump-jr-email-text.html",
+      "occurrences": [
+        {
+          "line": 1456,
+          "preview": "{ title: 'Trump Tower Meeting Emails', url: 'https://www.nytimes.com/interactive/2017/07/11/us/politics/donald-trump-jr-email-text.html', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://manhattanda.org/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://manhattanda.org/",
+      "occurrences": [
+        {
+          "line": 1585,
+          "preview": "{ title: 'Manhattan DA Tax Fraud Indictment', url: 'https://manhattanda.org/', date: '2021' },"
+        },
+        {
+          "line": 3800,
+          "preview": "{ title: 'Manhattan DA Trial Testimony', url: 'https://manhattanda.org/', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://manhattanda.org/d-a-bragg-long-time-trump-organization-cfo-allen-weisselberg-sentenced/",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://manhattanda.org/d-a-bragg-long-time-trump-organization-cfo-allen-weisselberg-sentenced/",
+      "occurrences": [
+        {
+          "line": 1586,
+          "preview": "{ title: 'Tax Fraud Guilty Plea', url: 'https://manhattanda.org/d-a-bragg-long-time-trump-organization-cfo-allen-weisselberg-sentenced/', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://manhattanda.org/d-a-bragg-allen-weisselberg-pleads-guilty-to-perjury/",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://manhattanda.org/d-a-bragg-allen-weisselberg-pleads-guilty-to-perjury/",
+      "occurrences": [
+        {
+          "line": 1587,
+          "preview": "{ title: 'Perjury Guilty Plea', url: 'https://manhattanda.org/d-a-bragg-allen-weisselberg-pleads-guilty-to-perjury/', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/usao-sdny/pr/michael-cohen-pleads-guilty-manhattan-federal-court-eight-counts-including-campaign",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/usao-sdny/pr/michael-cohen-pleads-guilty-manhattan-federal-court-eight-counts-including-campaign",
+      "occurrences": [
+        {
+          "line": 1666,
+          "preview": "{ title: 'SDNY Plea Agreement', url: 'https://www.justice.gov/usao-sdny/pr/michael-cohen-pleads-guilty-manhattan-federal-court-eight-counts-including-campaign', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/",
+      "occurrences": [
+        {
+          "line": 1667,
+          "preview": "{ title: 'Congressional Testimony Transcript', url: 'https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/7593912/united-states-v-cohen/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/7593912/united-states-v-cohen/",
+      "occurrences": [
+        {
+          "line": 1669,
+          "preview": "{ title: 'Cohen Sentencing Memo', url: 'https://www.courtlistener.com/docket/7593912/united-states-v-cohen/', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Disloyal-A-Memoir/Michael-Cohen/9781510764699",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.simonandschuster.com/books/Disloyal-A-Memoir/Michael-Cohen/9781510764699",
+      "occurrences": [
+        {
+          "line": 1671,
+          "preview": "{ title: 'Cohen Book: Disloyal - A Memoir', url: 'https://www.simonandschuster.com/books/Disloyal-A-Memoir/Michael-Cohen/9781510764699', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.dni.gov/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.dni.gov/",
+      "occurrences": [
+        {
+          "line": 1789,
+          "preview": "{ title: 'CIA Assessment on Khashoggi', url: 'https://www.dni.gov/', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fultonclerk.org/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.fultonclerk.org/",
+      "occurrences": [
+        {
+          "line": 2071,
+          "preview": "{ title: 'Georgia Guilty Plea Agreement', url: 'https://www.fultonclerk.org/', date: 'October 2023' },"
+        },
+        {
+          "line": 2122,
+          "preview": "{ title: 'Georgia Guilty Plea', url: 'https://www.fultonclerk.org/', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/",
+      "occurrences": [
+        {
+          "line": 2073,
+          "preview": "{ title: 'Dominion v. Powell Complaint', url: 'https://www.courtlistener.com/', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.epa.gov/office-inspector-general",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.epa.gov/office-inspector-general",
+      "occurrences": [
+        {
+          "line": 2414,
+          "preview": "{ title: 'EPA Inspector General Reports', url: 'https://www.epa.gov/office-inspector-general', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2018/07/05/climate/scott-pruitt-epa-resignation.html",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.nytimes.com/2018/07/05/climate/scott-pruitt-epa-resignation.html",
+      "occurrences": [
+        {
+          "line": 2417,
+          "preview": "{ title: 'NY Times Pruitt Ethics Investigation', url: 'https://www.nytimes.com/2018/07/05/climate/scott-pruitt-epa-resignation.html', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://oig.hhs.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://oig.hhs.gov/",
+      "occurrences": [
+        {
+          "line": 2455,
+          "preview": "{ title: 'HHS IG Report', url: 'https://oig.hhs.gov/', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.congress.gov/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.congress.gov/",
+      "occurrences": [
+        {
+          "line": 2493,
+          "preview": "{ title: 'House Impeachment Inquiry', url: 'https://www.congress.gov/', date: '2019' },"
+        },
+        {
+          "line": 3357,
+          "preview": "{ title: 'House Impeachment Testimony', url: 'https://www.congress.gov/', date: '2019' },"
+        },
+        {
+          "line": 19546,
+          "preview": "{ title: 'Iran-Contra Congressional Report', url: 'https://www.congress.gov/', date: '1987' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/usao-sdny/pr/lev-parnas-and-igor-fruman-charged-campaign-finance-offenses",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/usao-sdny/pr/lev-parnas-and-igor-fruman-charged-campaign-finance-offenses",
+      "occurrences": [
+        {
+          "line": 2542,
+          "preview": "{ title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-and-igor-fruman-charged-campaign-finance-offenses', date: '2019' },"
+        },
+        {
+          "line": 2587,
+          "preview": "{ title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-and-igor-fruman-charged-campaign-finance-offenses', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://intelligence.house.gov/news/documentsingle.aspx?DocumentID=821",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://intelligence.house.gov/news/documentsingle.aspx?DocumentID=821",
+      "occurrences": [
+        {
+          "line": 2543,
+          "preview": "{ title: 'House Intelligence Committee Evidence', url: 'https://intelligence.house.gov/news/documentsingle.aspx?DocumentID=821', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fbi.gov/wanted/counterintelligence/konstantin-viktorovich-kilimnik",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.fbi.gov/wanted/counterintelligence/konstantin-viktorovich-kilimnik",
+      "occurrences": [
+        {
+          "line": 2641,
+          "preview": "{ title: 'FBI Most Wanted', url: 'https://www.fbi.gov/wanted/counterintelligence/konstantin-viktorovich-kilimnik', date: '2025' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2019/07/25/business/jeffrey-epstein-wexner-victorias-secret.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.nytimes.com/2019/07/25/business/jeffrey-epstein-wexner-victorias-secret.html",
+      "occurrences": [
+        {
+          "line": 2719,
+          "preview": "{ title: 'New York Times Investigation', url: 'https://www.nytimes.com/2019/07/25/business/jeffrey-epstein-wexner-victorias-secret.html', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/60776287/giuffre-v-prince-andrew/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/60776287/giuffre-v-prince-andrew/",
+      "occurrences": [
+        {
+          "line": 2805,
+          "preview": "{ title: 'Giuffre v. Prince Andrew Settlement', url: 'https://www.courtlistener.com/docket/60776287/giuffre-v-prince-andrew/', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.bbc.com/news/uk-50449339",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.bbc.com/news/uk-50449339",
+      "occurrences": [
+        {
+          "line": 2806,
+          "preview": "{ title: 'BBC Newsnight Interview Transcript', url: 'https://www.bbc.com/news/uk-50449339', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.congress.gov/bill/105th-congress/house-resolution/611",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.congress.gov/bill/105th-congress/house-resolution/611",
+      "occurrences": [
+        {
+          "line": 2906,
+          "preview": "{ title: 'House Articles of Impeachment', url: 'https://www.congress.gov/bill/105th-congress/house-resolution/611', date: '1998' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/wikileaks-founder-charged-computer-intrusion-conspiracy",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.justice.gov/opa/pr/wikileaks-founder-charged-computer-intrusion-conspiracy",
+      "occurrences": [
+        {
+          "line": 3006,
+          "preview": "{ title: 'DOJ Indictment', url: 'https://www.justice.gov/opa/pr/wikileaks-founder-charged-computer-intrusion-conspiracy', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://home.treasury.gov/news/press-releases/sm0338",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://home.treasury.gov/news/press-releases/sm0338",
+      "occurrences": [
+        {
+          "line": 3178,
+          "preview": "{ title: 'Treasury OFAC Sanctions', url: 'https://home.treasury.gov/news/press-releases/sm0338', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.washingtonpost.com/",
+      "error": "Error: timeout",
+      "occurrences": [
+        {
+          "line": 3270,
+          "preview": "{ title: 'Washington Post - Sessions Meetings Revealed', url: 'https://www.washingtonpost.com/', date: 'March 2017' },"
+        },
+        {
+          "line": 3637,
+          "preview": "{ title: 'Washington Post Kislyak Meetings Report', url: 'https://www.washingtonpost.com/', date: 'March 2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.congress.gov/116/chrg/CHRG-116hhrg42560/CHRG-116hhrg42560.pdf",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.congress.gov/116/chrg/CHRG-116hhrg42560/CHRG-116hhrg42560.pdf",
+      "occurrences": [
+        {
+          "line": 3315,
+          "preview": "{ title: 'House Impeachment Testimony', url: 'https://www.congress.gov/116/chrg/CHRG-116hhrg42560/CHRG-116hhrg42560.pdf', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.splcenter.org/stephen-miller-breitbart-emails",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.splcenter.org/stephen-miller-breitbart-emails",
+      "occurrences": [
+        {
+          "line": 3443,
+          "preview": "{ title: 'SPLC Stephen Miller Email Investigation', url: 'https://www.splcenter.org/stephen-miller-breitbart-emails', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.oig.dhs.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.oig.dhs.gov/",
+      "occurrences": [
+        {
+          "line": 3445,
+          "preview": "{ title: 'DHS IG Family Separation Reports', url: 'https://www.oig.dhs.gov/', date: '2019-2020' },"
+        },
+        {
+          "line": 3638,
+          "preview": "{ title: 'DHS IG Family Separation Reports', url: 'https://www.oig.dhs.gov/', date: '2019-2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/family-separation",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.aclu.org/news/immigrants-rights/family-separation-by-the-numbers",
+      "occurrences": [
+        {
+          "line": 3539,
+          "preview": "{ title: 'ACLU Family Separation Documentation', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/family-separation', date: '2018-2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/attorney-general-announces-zero-tolerance-policy-criminal-illegal-entry",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/archives/opa/pr/attorney-general-announces-zero-tolerance-policy-criminal-illegal-entry",
+      "occurrences": [
+        {
+          "line": 3635,
+          "preview": "{ title: 'DOJ Zero Tolerance Memo', url: 'https://www.justice.gov/opa/pr/attorney-general-announces-zero-tolerance-policy-criminal-illegal-entry', date: 'April 2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/6182316/united-states-v-papadopoulos/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/6182316/united-states-v-papadopoulos/",
+      "occurrences": [
+        {
+          "line": 3695,
+          "preview": "{ title: 'Papadopoulos Plea Agreement', url: 'https://www.courtlistener.com/docket/6182316/united-states-v-papadopoulos/', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/17595029/carroll-v-trump/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/17595029/carroll-v-trump/",
+      "occurrences": [
+        {
+          "line": 3856,
+          "preview": "{ title: 'Carroll v. Trump - $83.3M Defamation Verdict', url: 'https://www.courtlistener.com/docket/17595029/carroll-v-trump/', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html",
+      "occurrences": [
+        {
+          "line": 3857,
+          "preview": "{ title: 'New York Magazine Article', url: 'https://www.thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/What-Do-Need-Men-Hideous/dp/1250215420",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.amazon.com/What-Do-Need-Men-Hideous/dp/1250215420",
+      "occurrences": [
+        {
+          "line": 3858,
+          "preview": "{ title: '\"What Do We Need Men For?\" Book', url: 'https://www.amazon.com/What-Do-Need-Men-Hideous/dp/1250215420', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/67656604/people-v-trump/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/67656604/people-v-trump/",
+      "occurrences": [
+        {
+          "line": 3911,
+          "preview": "{ title: 'Trial Testimony Transcripts', url: 'https://www.courtlistener.com/docket/67656604/people-v-trump/', date: '2024' },"
+        },
+        {
+          "line": 4923,
+          "preview": "{ title: 'Manhattan Trial Testimony', url: 'https://www.courtlistener.com/docket/67656604/people-v-trump/', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cbsnews.com/news/stormy-daniels-describes-her-alleged-affair-with-donald-trump-60-minutes-interview/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.cbsnews.com/news/stormy-daniels-describes-her-alleged-affair-with-donald-trump-60-minutes-interview/",
+      "occurrences": [
+        {
+          "line": 3912,
+          "preview": "{ title: '60 Minutes Interview', url: 'https://www.cbsnews.com/news/stormy-daniels-describes-her-alleged-affair-with-donald-trump-60-minutes-interview/', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611",
+      "occurrences": [
+        {
+          "line": 3913,
+          "preview": "{ title: '\"Full Disclosure\" Book', url: 'https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/63495928/freeman-v-giuliani/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/63495928/freeman-v-giuliani/",
+      "occurrences": [
+        {
+          "line": 3963,
+          "preview": "{ title: 'Freeman v. Giuliani - $148M Verdict', url: 'https://www.courtlistener.com/docket/63495928/freeman-v-giuliani/', date: '2023' },"
+        },
+        {
+          "line": 4012,
+          "preview": "{ title: 'Freeman v. Giuliani - $148M Verdict', url: 'https://www.courtlistener.com/docket/63495928/freeman-v-giuliani/', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cnn.com/2021/01/03/politics/trump-brad-raffensperger-phone-call-transcript/index.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.cnn.com/2021/01/03/politics/trump-brad-raffensperger-phone-call-transcript/index.html",
+      "occurrences": [
+        {
+          "line": 3965,
+          "preview": "{ title: 'Georgia Phone Call Transcript', url: 'https://www.cnn.com/2021/01/03/politics/trump-brad-raffensperger-phone-call-transcript/index.html', date: '2021' },"
+        },
+        {
+          "line": 4283,
+          "preview": "{ title: 'Trump-Raffensperger Call Transcript', url: 'https://www.cnn.com/2021/01/03/politics/trump-brad-raffensperger-phone-call-transcript/index.html', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.c-span.org/video/?521234-1/election-worker-shaye-moss-describes-impact-harassment",
+      "status": 202,
+      "ok": true,
+      "finalUrl": "https://www.c-span.org/program/podcast/the-weekly-podcast-a-true-crime-thriller-who-was-deep-throat/613942",
+      "occurrences": [
+        {
+          "line": 4013,
+          "preview": "{ title: 'January 6 Committee Testimony', url: 'https://www.c-span.org/video/?521234-1/election-worker-shaye-moss-describes-impact-harassment', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.c-span.org/video/?521387-1/cassidy-hutchinson-testifies-public-jan-6-committee-hearing",
+      "status": 202,
+      "ok": true,
+      "finalUrl": "https://www.c-span.org/program/house-committee/sixth-hearing-on-investigation-of-january-6-attack-on-the-us-capitol/614223",
+      "occurrences": [
+        {
+          "line": 4065,
+          "preview": "{ title: 'January 6 Committee Testimony', url: 'https://www.c-span.org/video/?521387-1/cassidy-hutchinson-testifies-public-jan-6-committee-hearing', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Enough/Cassidy-Hutchinson/9781668023006",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.simonandschuster.com/books/Enough/Cassidy-Hutchinson/9781668023006",
+      "occurrences": [
+        {
+          "line": 4067,
+          "preview": "{ title: '\"Enough\" Memoir', url: 'https://www.simonandschuster.com/books/Enough/Cassidy-Hutchinson/9781668023006', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/appointment-special-counsel",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/archives/opa/pr/appointment-special-counsel",
+      "occurrences": [
+        {
+          "line": 4123,
+          "preview": "{ title: 'Special Counsel Appointment Order', url: 'https://www.justice.gov/opa/pr/appointment-special-counsel', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/district-attorney",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/district-attorney",
+      "occurrences": [
+        {
+          "line": 4175,
+          "preview": "{ title: 'Fulton County DA Office', url: 'https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/district-attorney', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/So-Help-Me-God/Mike-Pence/9781982190330",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.simonandschuster.com/books/So-Help-Me-God/Mike-Pence/9781982190330",
+      "occurrences": [
+        {
+          "line": 4233,
+          "preview": "{ title: '\"So Help Me God\" Memoir', url: 'https://www.simonandschuster.com/books/So-Help-Me-God/Mike-Pence/9781982190330', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/Integrity-Counts-Brad-Raffensperger/dp/1982183403",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.amazon.com/Integrity-Counts-Brad-Raffensperger/dp/1982183403",
+      "occurrences": [
+        {
+          "line": 4284,
+          "preview": "{ title: '\"Integrity Counts\" Book', url: 'https://www.amazon.com/Integrity-Counts-Brad-Raffensperger/dp/1982183403', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/sites/default/files/documents/os-jcomey-060817.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-documents-os-jcomey-060817.pdf",
+      "occurrences": [
+        {
+          "line": 4340,
+          "preview": "{ title: 'Comey Senate Testimony', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/os-jcomey-060817.pdf', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/Higher-Loyalty-Truth-Lies-Leadership/dp/1250192455",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.amazon.com/Higher-Loyalty-Truth-Lies-Leadership/dp/1250192455",
+      "occurrences": [
+        {
+          "line": 4342,
+          "preview": "{ title: '\"A Higher Loyalty\" Memoir', url: 'https://www.amazon.com/Higher-Loyalty-Truth-Lies-Leadership/dp/1250192455', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.c-span.org/video/?462628-1/robert-mueller-testifies-house-judiciary-committee",
+      "status": 202,
+      "ok": true,
+      "finalUrl": "https://www.c-span.org/program/house-committee/robert-mueller-testifies-before-house-judiciary-committee/529819",
+      "occurrences": [
+        {
+          "line": 4398,
+          "preview": "{ title: 'Congressional Testimony', url: 'https://www.c-span.org/video/?462628-1/robert-mueller-testifies-house-judiciary-committee', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/leader-proud-boys-and-four-other-members-indicted-federal-court-seditious-conspiracy-and",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/archives/opa/pr/leader-proud-boys-and-four-other-members-indicted-federal-court-seditious-conspiracy-and",
+      "occurrences": [
+        {
+          "line": 4480,
+          "preview": "{ title: 'DOJ Seditious Conspiracy Indictment', url: 'https://www.justice.gov/opa/pr/leader-proud-boys-and-four-other-members-indicted-federal-court-seditious-conspiracy-and', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach",
+      "occurrences": [
+        {
+          "line": 4481,
+          "preview": "{ title: 'Trial Verdict', url: 'https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy",
+      "occurrences": [
+        {
+          "line": 4569,
+          "preview": "{ title: 'DOJ Seditious Conspiracy Conviction', url: 'https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/usao-dc/capitol-breach-cases",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.justice.gov/usao-dc/capitol-breach-cases",
+      "occurrences": [
+        {
+          "line": 4570,
+          "preview": "{ title: 'Trial Evidence and Testimony', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.documentcloud.org/documents/20793561-leopold-nih-foia-anthony-fauci-emails",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.documentcloud.org/documents/20793561-leopold-nih-foia-anthony-fauci-emails/",
+      "occurrences": [
+        {
+          "line": 4708,
+          "preview": "{ title: '2021 FOIA Email Releases', url: 'https://www.documentcloud.org/documents/20793561-leopold-nih-foia-anthony-fauci-emails', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.help.senate.gov/ranking/newsroom/press/senator-marshall-releases-interim-covid-origins-report",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.senate.gov/pagelayout/general/one_item_and_teasers/waf.htm",
+      "occurrences": [
+        {
+          "line": 4709,
+          "preview": "{ title: 'U.S. Senate Interim Report on COVID-19 Origins', url: 'https://www.help.senate.gov/ranking/newsroom/press/senator-marshall-releases-interim-covid-origins-report', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://vaers.hhs.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://vaers.hhs.gov/",
+      "occurrences": [
+        {
+          "line": 4713,
+          "preview": "{ title: 'VAERS Database - Vaccine Adverse Event Reports', url: 'https://vaers.hhs.gov/', date: '2021-2025' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm",
+      "occurrences": [
+        {
+          "line": 4714,
+          "preview": "{ title: 'CDC Excess Death Data', url: 'https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJM199711133372006",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.nejm.org/doi/full/10.1056/NEJM199711133372006",
+      "occurrences": [
+        {
+          "line": 4719,
+          "preview": "{ title: 'Nuremberg Code 1947', url: 'https://www.nejm.org/doi/full/10.1056/NEJM199711133372006', date: '1947' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.icc-cpi.int/resource-library/documents/rs-eng.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.icc-cpi.int/sites/default/files/2024-05/Rome-Statute-eng.pdf",
+      "occurrences": [
+        {
+          "line": 4720,
+          "preview": "{ title: 'Rome Statute of the International Criminal Court', url: 'https://www.icc-cpi.int/resource-library/documents/rs-eng.pdf', date: '1998' },"
+        }
+      ]
+    },
+    {
+      "url": "https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service",
+      "occurrences": [
+        {
+          "line": 4780,
+          "preview": "{ title: 'Congressional Testimony', url: 'https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.uspsoig.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.uspsoig.gov/",
+      "occurrences": [
+        {
+          "line": 4781,
+          "preview": "{ title: 'USPS Inspector General Reports', url: 'https://www.uspsoig.gov/', date: '2020-2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress",
+      "occurrences": [
+        {
+          "line": 4866,
+          "preview": "{ title: 'DOJ Contempt Conviction', url: 'https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/",
+      "occurrences": [
+        {
+          "line": 4924,
+          "preview": "{ title: 'AMI Non-Prosecution Agreement', url: 'https://www.justice.gov/', date: '2018' },"
+        },
+        {
+          "line": 5584,
+          "preview": "{ title: 'DOJ Superseding Indictment', url: 'https://www.justice.gov/', date: '2023' },"
+        },
+        {
+          "line": 5639,
+          "preview": "{ title: 'DOJ Foreign Agent Indictment', url: 'https://www.justice.gov/', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html",
+      "occurrences": [
+        {
+          "line": 4972,
+          "preview": "{ title: 'CNN Interview', url: 'https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.bbc.com/news/uk-60393843",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.bbc.com/news/uk-60393843",
+      "occurrences": [
+        {
+          "line": 5022,
+          "preview": "{ title: 'Prince Andrew Settlement', url: 'https://www.bbc.com/news/uk-60393843', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fec.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.fec.gov/",
+      "occurrences": [
+        {
+          "line": 5085,
+          "preview": "{ title: 'FEC Donation Records', url: 'https://www.fec.gov/', date: '2016' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.newyorker.com/magazine/2017/03/27/the-reclusive-hedge-fund-tycoon-behind-the-trump-presidency",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.newyorker.com/magazine/2017/03/27/the-reclusive-hedge-fund-tycoon-behind-the-trump-presidency",
+      "occurrences": [
+        {
+          "line": 5086,
+          "preview": "{ title: 'New Yorker Profile', url: 'https://www.newyorker.com/magazine/2017/03/27/the-reclusive-hedge-fund-tycoon-behind-the-trump-presidency', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://ico.org.uk/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://ico.org.uk/",
+      "occurrences": [
+        {
+          "line": 5143,
+          "preview": "{ title: 'Cambridge Analytica Investigation', url: 'https://ico.org.uk/', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.whitehouse.gov/bebest/",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.whitehouse.gov/bebest/",
+      "occurrences": [
+        {
+          "line": 5203,
+          "preview": "{ title: 'Be Best Initiative Records', url: 'https://www.whitehouse.gov/bebest/', date: '2018-2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/storage/120919-examination.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/storage/120919-examination.pdf",
+      "occurrences": [
+        {
+          "line": 5363,
+          "preview": "{ title: 'DOJ Inspector General Report', url: 'https://www.justice.gov/storage/120919-examination.pdf', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/file/1071991/download",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://oig.justice.gov/media/956296/dl?inline=",
+      "occurrences": [
+        {
+          "line": 5416,
+          "preview": "{ title: 'DOJ Inspector General Report', url: 'https://www.justice.gov/file/1071991/download', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.whitehouse.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.whitehouse.gov/",
+      "occurrences": [
+        {
+          "line": 5475,
+          "preview": "{ title: 'Trump Pardon Announcement', url: 'https://www.whitehouse.gov/', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/59501283/us-dominion-inc-v-fox-news-network-llc/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/59501283/us-dominion-inc-v-fox-news-network-llc/",
+      "occurrences": [
+        {
+          "line": 5723,
+          "preview": "{ title: 'Dominion v. Fox News Settlement', url: 'https://www.courtlistener.com/docket/59501283/us-dominion-inc-v-fox-news-network-llc/', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.washingtonpost.com/media/2023/02/27/rupert-murdoch-deposition-fox-dominion/",
+      "error": "Error: timeout",
+      "occurrences": [
+        {
+          "line": 5724,
+          "preview": "{ title: 'Murdoch Deposition Transcript', url: 'https://www.washingtonpost.com/media/2023/02/27/rupert-murdoch-deposition-fox-dominion/', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2023/03/07/business/media/fox-dominion-lawsuit-tucker-carlson.html",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.nytimes.com/2023/03/07/business/media/fox-dominion-lawsuit-tucker-carlson.html",
+      "occurrences": [
+        {
+          "line": 5855,
+          "preview": "{ title: 'Dominion v. Fox - Carlson Texts', url: 'https://www.nytimes.com/2023/03/07/business/media/fox-dominion-lawsuit-tucker-carlson.html', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.nytimes.com/",
+      "occurrences": [
+        {
+          "line": 6235,
+          "preview": "{ title: 'NY Times Deutsche Bank Investigation', url: 'https://www.nytimes.com/', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://ag.ny.gov/press-release/2020/attorney-general-james-files-lawsuit-dissolve-nra",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://ag.ny.gov/press-release/2020/attorney-general-james-files-lawsuit-dissolve-nra",
+      "occurrences": [
+        {
+          "line": 8342,
+          "preview": "{ title: 'NY Attorney General NRA Lawsuit', url: 'https://ag.ny.gov/press-release/2020/attorney-general-james-files-lawsuit-dissolve-nra', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/59447587/us-dominion-inc-v-mypillow-inc/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/59447587/us-dominion-inc-v-mypillow-inc/",
+      "occurrences": [
+        {
+          "line": 10951,
+          "preview": "{ title: 'Dominion Voting Systems v. Lindell Complaint', url: 'https://www.courtlistener.com/docket/59447587/us-dominion-inc-v-mypillow-inc/', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-filesations-crpt-113srpt288.pdf",
+      "occurrences": [
+        {
+          "line": 12318,
+          "preview": "{ title: 'Senate Select Committee on Intelligence - Torture Report', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', date: '2014' },"
+        },
+        {
+          "line": 13366,
+          "preview": "{ title: 'Senate Select Committee on Intelligence - Torture Report', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', date: '2014' },"
+        }
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/20130501102955/http://www.newamericancentury.org/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/20130504173655/http://www.newamericancentury.org/",
+      "occurrences": [
+        {
+          "line": 12320,
+          "preview": "{ title: 'Project for the New American Century Documents', url: 'https://web.archive.org/web/20130501102955/http://www.newamericancentury.org/', date: '1997-2009' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gao.gov/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.gao.gov/",
+      "occurrences": [
+        {
+          "line": 12321,
+          "preview": "{ title: 'Halliburton Iraq Contract Records', url: 'https://www.gao.gov/', date: '2003-2009' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.9-11commission.gov/report/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.9-11commission.gov/report/",
+      "occurrences": [
+        {
+          "line": 13368,
+          "preview": "{ title: 'The 9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },"
+        },
+        {
+          "line": 17838,
+          "preview": "{ title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },"
+        },
+        {
+          "line": 18018,
+          "preview": "{ title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },"
+        }
+      ]
+    },
+    {
+      "url": "https://supreme.justia.com/cases/federal/us/531/98/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://supreme.justia.com/cases/federal/us/531/98/",
+      "occurrences": [
+        {
+          "line": 13369,
+          "preview": "{ title: 'Bush v. Gore Supreme Court Decision', url: 'https://supreme.justia.com/cases/federal/us/531/98/', date: '2000' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2022/03/24/virginia-thomas-mark-meadows-texts/",
+      "error": "Error: timeout",
+      "occurrences": [
+        {
+          "line": 15302,
+          "preview": "{ title: 'Ginni Thomas-Mark Meadows Text Messages', url: 'https://www.washingtonpost.com/politics/2022/03/24/virginia-thomas-mark-meadows-texts/', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.washingtonpost.com/politics/2022/05/20/ginni-thomas-arizona-legislators-election/",
+      "error": "Error: timeout",
+      "occurrences": [
+        {
+          "line": 15303,
+          "preview": "{ title: 'Arizona Legislator Emails', url: 'https://www.washingtonpost.com/politics/2022/05/20/ginni-thomas-arizona-legislators-election/', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2022/09/29/us/politics/ginni-thomas-jan-6-testimony.html",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.nytimes.com/2022/09/29/us/politics/ginni-thomas-jan-6-testimony.html",
+      "occurrences": [
+        {
+          "line": 15304,
+          "preview": "{ title: 'January 6 Committee Testimony', url: 'https://www.nytimes.com/2022/09/29/us/politics/ginni-thomas-jan-6-testimony.html', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.propublica.org/series/supreme-court-scotus",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.propublica.org/series/supreme-court-scotus",
+      "occurrences": [
+        {
+          "line": 15305,
+          "preview": "{ title: 'ProPublica Thomas Investigation', url: 'https://www.propublica.org/series/supreme-court-scotus', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.motherjones.com/politics/2013/07/groundswell-rightwing-group-ginni-thomas/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.motherjones.com/politics/2013/07/groundswell-rightwing-group-ginni-thomas/",
+      "occurrences": [
+        {
+          "line": 15306,
+          "preview": "{ title: 'Groundswell Coalition Reporting', url: 'https://www.motherjones.com/politics/2013/07/groundswell-rightwing-group-ginni-thomas/', date: '2013' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2018-03-08/carl-icahn-s-bet-against-steel-gets-huge-boost-from-trump-tariff",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.bloomberg.com/news/articles/2018-03-08/carl-icahn-s-bet-against-steel-gets-huge-boost-from-trump-tariff",
+      "occurrences": [
+        {
+          "line": 15375,
+          "preview": "{ title: 'Icahn Steel Trade Before Tariffs', url: 'https://www.bloomberg.com/news/articles/2018-03-08/carl-icahn-s-bet-against-steel-gets-huge-boost-from-trump-tariff', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2017/01/21/business/trump-carl-icahn-adviser.html",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.nytimes.com/2017/01/21/business/trump-carl-icahn-adviser.html",
+      "occurrences": [
+        {
+          "line": 15376,
+          "preview": "{ title: 'Icahn Regulatory Advisor Conflicts', url: 'https://www.nytimes.com/2017/01/21/business/trump-carl-icahn-adviser.html', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://hindenburgresearch.com/icahn/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://hindenburgresearch.com/icahn/",
+      "occurrences": [
+        {
+          "line": 15377,
+          "preview": "{ title: 'Hindenburg Research Report', url: 'https://hindenburgresearch.com/icahn/', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.reuters.com/article/us-usa-biofuels-icahn/trump-adviser-icahn-lobbied-epa-for-biofuel-changes-documents-idUSKBN1560JI",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.reuters.com/article/us-usa-biofuels-icahn/trump-adviser-icahn-lobbied-epa-for-biofuel-changes-documents-idUSKBN1560JI/",
+      "occurrences": [
+        {
+          "line": 15378,
+          "preview": "{ title: 'RIN Policy Push', url: 'https://www.reuters.com/article/us-usa-biofuels-icahn/trump-adviser-icahn-lobbied-epa-for-biofuel-changes-documents-idUSKBN1560JI', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364742",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364742",
+      "occurrences": [
+        {
+          "line": 15451,
+          "preview": "{ title: 'BlackRock SEC Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364742', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.weforum.org/about/leadership-and-governance/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.weforum.org/about/leadership-and-governance/",
+      "occurrences": [
+        {
+          "line": 15452,
+          "preview": "{ title: 'WEF Board of Trustees', url: 'https://www.weforum.org/about/leadership-and-governance/', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.newyorkfed.org/markets/secondary-market-corporate-credit-facility",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.newyorkfed.org/markets/secondary-market-corporate-credit-facility",
+      "occurrences": [
+        {
+          "line": 15453,
+          "preview": "{ title: 'Fed BlackRock Contracts', url: 'https://www.newyorkfed.org/markets/secondary-market-corporate-credit-facility', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.blackrock.com/corporate/investor-relations/larry-fink-annual-letter",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.blackrock.com/corporate/investor-relations/larry-fink-annual-letter",
+      "occurrences": [
+        {
+          "line": 15454,
+          "preview": "{ title: 'Fink Annual Letters', url: 'https://www.blackrock.com/corporate/investor-relations/larry-fink-annual-letter', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow",
+      "occurrences": [
+        {
+          "line": 15541,
+          "preview": "{ title: 'ProPublica Thomas-Crow Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' },"
+        },
+        {
+          "line": 16500,
+          "preview": "{ title: 'ProPublica - Clarence Thomas Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.propublica.org/article/clarence-thomas-harlan-crow-bought-him-an-rv-worth-more-than-double-his-annual-salary",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.propublica.org/article/clarence-thomas-harlan-crow-bought-him-an-rv-worth-more-than-double-his-annual-salary",
+      "occurrences": [
+        {
+          "line": 15542,
+          "preview": "{ title: 'ProPublica RV Investigation', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-bought-him-an-rv-worth-more-than-double-his-annual-salary', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus",
+      "occurrences": [
+        {
+          "line": 15543,
+          "preview": "{ title: 'ProPublica Real Estate Investigation', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus', date: '2023' },"
+        },
+        {
+          "line": 16501,
+          "preview": "{ title: 'ProPublica - Thomas Mother\\'s Home', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2024/05/16/us/justice-alito-flag-jan-6.html",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.nytimes.com/2024/05/16/us/justice-alito-flag-jan-6.html",
+      "occurrences": [
+        {
+          "line": 15631,
+          "preview": "{ title: 'NYT Upside-Down Flag Investigation', url: 'https://www.nytimes.com/2024/05/16/us/justice-alito-flag-jan-6.html', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2024/05/22/us/alito-appeal-to-heaven-flag.html",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.nytimes.com/2024/05/22/us/alito-appeal-to-heaven-flag.html",
+      "occurrences": [
+        {
+          "line": 15632,
+          "preview": "{ title: 'NYT Appeal to Heaven Flag', url: 'https://www.nytimes.com/2024/05/22/us/alito-appeal-to-heaven-flag.html', date: '2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus",
+      "occurrences": [
+        {
+          "line": 15633,
+          "preview": "{ title: 'ProPublica Singer Trip Investigation', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf",
+      "occurrences": [
+        {
+          "line": 15634,
+          "preview": "{ title: 'Dobbs v. Jackson Women\\'s Health Organization', url: 'https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger",
+      "occurrences": [
+        {
+          "line": 16784,
+          "preview": "{ title: 'The Trial of Henry Kissinger (Christopher Hitchens)', url: 'https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger', date: '2001' },"
+        }
+      ]
+    },
+    {
+      "url": "https://nsarchive.gwu.edu/project/chile-documentation-project",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://nsarchive.gwu.edu/project/chile-documentation-project",
+      "occurrences": [
+        {
+          "line": 16785,
+          "preview": "{ title: 'Declassified State Department Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', date: 'Various' },"
+        },
+        {
+          "line": 18532,
+          "preview": "{ title: 'CIA Chile Declassified Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://nsarchive.gwu.edu/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://nsarchive.gwu.edu/",
+      "occurrences": [
+        {
+          "line": 16786,
+          "preview": "{ title: 'National Security Archive - Chile', url: 'https://nsarchive.gwu.edu/', date: 'Various' },"
+        },
+        {
+          "line": 20132,
+          "preview": "{ title: 'U.S. Declassified Documents on Letelier', url: 'https://nsarchive.gwu.edu/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project",
+      "occurrences": [
+        {
+          "line": 16788,
+          "preview": "{ title: 'East Timor Documents Collection', url: 'https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.greenpeace.org/usa/global-warming/climate-deniers/koch-industries/",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.greenpeace.org/usa/global-warming/climate-deniers/koch-industries/",
+      "occurrences": [
+        {
+          "line": 16882,
+          "preview": "{ title: 'Greenpeace Koch Climate Denial Report', url: 'https://www.greenpeace.org/usa/global-warming/climate-deniers/koch-industries/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook",
+      "occurrences": [
+        {
+          "line": 17375,
+          "preview": "{ title: 'FTC $5 Billion Facebook Settlement', url: 'https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook', date: '2019' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index",
+      "occurrences": [
+        {
+          "line": 17376,
+          "preview": "{ title: 'UN Myanmar Report on Facebook', url: 'https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.theguardian.com/news/series/cambridge-analytica-files",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.theguardian.com/news/series/cambridge-analytica-files",
+      "occurrences": [
+        {
+          "line": 17377,
+          "preview": "{ title: 'Cambridge Analytica Investigation', url: 'https://www.theguardian.com/news/series/cambridge-analytica-files', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.wsj.com/articles/the-facebook-files-11631713039",
+      "status": 401,
+      "ok": false,
+      "finalUrl": "https://www.wsj.com/articles/the-facebook-files-11631713039",
+      "occurrences": [
+        {
+          "line": 17378,
+          "preview": "{ title: 'Facebook Files (WSJ)', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/news/press-release/2018-226",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.sec.gov/news/press-release/2018-226",
+      "occurrences": [
+        {
+          "line": 17456,
+          "preview": "{ title: 'SEC Tesla Settlement', url: 'https://www.sec.gov/news/press-release/2018-226', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nlrb.gov/case/32-CA-197020",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.nlrb.gov/case/32-CA-197020",
+      "occurrences": [
+        {
+          "line": 17457,
+          "preview": "{ title: 'NLRB Tesla Ruling', url: 'https://www.nlrb.gov/case/32-CA-197020', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet",
+      "occurrences": [
+        {
+          "line": 17458,
+          "preview": "{ title: 'ADL Antisemitism Report', url: 'https://www.adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.supremecourt.gov/orders/courtorders/121120zr_p860.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.supremecourt.gov/orders/courtorders/121120zr_p860.pdf",
+      "occurrences": [
+        {
+          "line": 17674,
+          "preview": "{ title: 'Texas v. Pennsylvania', url: 'https://www.supremecourt.gov/orders/courtorders/121120zr_p860.pdf', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm",
+      "occurrences": [
+        {
+          "line": 17752,
+          "preview": "{ title: 'UN Security Council Presentation Transcript', url: 'https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm', date: '2003' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and",
+      "occurrences": [
+        {
+          "line": 17753,
+          "preview": "{ title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.archives.gov/research/military/vietnam-war/war-crimes",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.archives.gov/research/military/vietnam-war/war-crimes",
+      "occurrences": [
+        {
+          "line": 17754,
+          "preview": "{ title: 'My Lai Investigation Documents - National Archives', url: 'https://www.archives.gov/research/military/vietnam-war/war-crimes', date: '1968' },"
+        }
+      ]
+    },
+    {
+      "url": "https://archive.org/details/towercommissionr00unit",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://archive.org/details/towercommissionr00unit",
+      "occurrences": [
+        {
+          "line": 17756,
+          "preview": "{ title: 'Iran-Contra Tower Commission Report', url: 'https://archive.org/details/towercommissionr00unit', date: '1987' },"
+        },
+        {
+          "line": 18359,
+          "preview": "{ title: 'Tower Commission Report', url: 'https://archive.org/details/towercommissionr00unit', date: '1987' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.usip.org/publications/2006/12/iraq-study-group-report",
+      "status": 503,
+      "ok": false,
+      "finalUrl": "https://www.usip.org/publications/2006/12/iraq-study-group-report",
+      "occurrences": [
+        {
+          "line": 17757,
+          "preview": "{ title: 'The Iraq Study Group Report', url: 'https://www.usip.org/publications/2006/12/iraq-study-group-report', date: '2006' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/publications",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.intelligence.senate.gov/reports-publications/publications/",
+      "occurrences": [
+        {
+          "line": 17839,
+          "preview": "{ title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },"
+        },
+        {
+          "line": 18019,
+          "preview": "{ title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },"
+        },
+        {
+          "line": 18110,
+          "preview": "{ title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
+      "occurrences": [
+        {
+          "line": 17840,
+          "preview": "{ title: 'Senate Torture Report (SSCI)', url: 'https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },"
+        },
+        {
+          "line": 18017,
+          "preview": "{ title: 'Senate Intelligence Committee Torture Report', url: 'https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },"
+        }
+      ]
+    },
+    {
+      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB116/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB116/",
+      "occurrences": [
+        {
+          "line": 17841,
+          "preview": "{ title: 'August 6, 2001 PDB (Declassified)', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB116/', date: '2001' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.armed-services.senate.gov/imo/media/doc/Detainee-Report-Final_April-22-2009.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.armed-services.senate.gov/imo/media/doc/Detainee-Report-Final_April-22-2009.pdf",
+      "occurrences": [
+        {
+          "line": 17928,
+          "preview": "{ title: 'Senate Armed Services Committee Torture Report', url: 'https://www.armed-services.senate.gov/imo/media/doc/Detainee-Report-Final_April-22-2009.pdf', date: '2008' },"
+        }
+      ]
+    },
+    {
+      "url": "https://nsarchive2.gwu.edu/torturingdemocracy/documents/20021127.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://nsarchive.gwu.edu/",
+      "occurrences": [
+        {
+          "line": 17929,
+          "preview": "{ title: 'Rumsfeld Torture Memo (Declassified)', url: 'https://nsarchive2.gwu.edu/torturingdemocracy/documents/20021127.pdf', date: '2002' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.aclu.org/sites/default/files/FilesPDFs/fay.pdf",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.aclu.org/sites/default/files/FilesPDFs/fay.pdf",
+      "occurrences": [
+        {
+          "line": 17930,
+          "preview": "{ title: 'Abu Ghraib Investigations', url: 'https://www.aclu.org/sites/default/files/FilesPDFs/fay.pdf', date: '2004' },"
+        }
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/20131021171040/http://www.newamericancentury.org/iraqclintonletter.htm",
+      "occurrences": [
+        {
+          "line": 17931,
+          "preview": "{ title: 'PNAC Iraq Letter', url: 'https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },"
+        },
+        {
+          "line": 18107,
+          "preview": "{ title: 'PNAC Iraq Letter', url: 'https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.aclu.org/sites/default/files/torturefoia/released/030904.pdf",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.aclu.org/sites/default/files/torturefoia/released/030904.pdf",
+      "occurrences": [
+        {
+          "line": 17932,
+          "preview": "{ title: 'Taguba Report on Abu Ghraib', url: 'https://www.aclu.org/sites/default/files/torturefoia/released/030904.pdf', date: '2004' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf",
+      "occurrences": [
+        {
+          "line": 18020,
+          "preview": "{ title: 'CIA OIG Special Review - Detention and Interrogation', url: 'https://www.aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf', date: '2004' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.c-span.org/video/?175384-1/us-policy-iraq",
+      "status": 202,
+      "ok": true,
+      "finalUrl": "https://www.c-span.org/program/news-conference/house-minority-leader-news-conference/115882",
+      "occurrences": [
+        {
+          "line": 18108,
+          "preview": "{ title: 'Congressional Testimony on Iraq War', url: 'https://www.c-span.org/video/?175384-1/us-policy-iraq', date: '2003' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.worldbank.org/en/about/leadership/members",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.worldbank.org/en/about/leadership/members",
+      "occurrences": [
+        {
+          "line": 18109,
+          "preview": "{ title: 'World Bank Ethics Committee Report', url: 'https://www.worldbank.org/en/about/leadership/members', date: '2007' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/archive/osc/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.justice.gov/archive/osc/",
+      "occurrences": [
+        {
+          "line": 18194,
+          "preview": "{ title: 'Plame Leak Investigation - Special Counsel Fitzgerald', url: 'https://www.justice.gov/archive/osc/', date: '2003-2006' },"
+        },
+        {
+          "line": 18276,
+          "preview": "{ title: 'United States v. Libby - Verdict', url: 'https://www.justice.gov/archive/osc/', date: '2007' },"
+        }
+      ]
+    },
+    {
+      "url": "https://judiciary.house.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://judiciary.house.gov/",
+      "occurrences": [
+        {
+          "line": 18195,
+          "preview": "{ title: 'House Judiciary Committee - US Attorney Firings', url: 'https://judiciary.house.gov/', date: '2007' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/archive/osc/documents/libby_indictment_28102005.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/archive/osc/documents/libby_indictment_28102005.pdf",
+      "occurrences": [
+        {
+          "line": 18275,
+          "preview": "{ title: 'United States v. Libby - Indictment', url: 'https://www.justice.gov/archive/osc/documents/libby_indictment_28102005.pdf', date: '2005' },"
+        }
+      ]
+    },
+    {
+      "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2007/07/20070702-3.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://georgewbush-whitehouse.archives.gov/news/releases/2007/07/20070702-3.html",
+      "occurrences": [
+        {
+          "line": 18278,
+          "preview": "{ title: 'Bush Commutation Statement', url: 'https://georgewbush-whitehouse.archives.gov/news/releases/2007/07/20070702-3.html', date: '2007' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/",
+      "occurrences": [
+        {
+          "line": 18279,
+          "preview": "{ title: 'Trump Pardon Statement', url: 'https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://irp.fas.org/offdocs/walsh/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://irp.fas.org/offdocs/walsh/",
+      "occurrences": [
+        {
+          "line": 18360,
+          "preview": "{ title: 'Iran-Contra Independent Counsel Final Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },"
+        },
+        {
+          "line": 19669,
+          "preview": "{ title: 'Iran-Contra Independent Counsel Final Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },"
+        },
+        {
+          "line": 19728,
+          "preview": "{ title: 'Iran-Contra Independent Counsel Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },"
+        },
+        {
+          "line": 19778,
+          "preview": "{ title: 'Iran-Contra Independent Counsel Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },"
+        }
+      ]
+    },
+    {
+      "url": "https://archive.org/details/reportofcongress01unit",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://archive.org/details/reportofcongress01unit",
+      "occurrences": [
+        {
+          "line": 18361,
+          "preview": "{ title: 'Congressional Iran-Contra Report', url: 'https://archive.org/details/reportofcongress01unit', date: '1987' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.usccr.gov/files/pubs/vote2000/report/main.htm",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.usccr.gov/files/pubs/vote2000/report/main.htm",
+      "occurrences": [
+        {
+          "line": 18435,
+          "preview": "{ title: 'U.S. Commission on Civil Rights - Florida 2000 Election Report', url: 'https://www.usccr.gov/files/pubs/vote2000/report/main.htm', date: '2001' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.supremecourt.gov/opinions/00pdf/00-949.pdf",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.supremecourt.gov/opinions/00pdf/00-949.pdf",
+      "occurrences": [
+        {
+          "line": 18436,
+          "preview": "{ title: 'Bush v. Gore Supreme Court Decision', url: 'https://www.supremecourt.gov/opinions/00pdf/00-949.pdf', date: '2000' },"
+        },
+        {
+          "line": 19957,
+          "preview": "{ title: 'Bush v. Gore, 531 U.S. 98', url: 'https://www.supremecourt.gov/opinions/00pdf/00-949.pdf', date: '2000' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salon.com/2000/12/04/voter_file/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.salon.com/2000/12/04/voter_file/",
+      "occurrences": [
+        {
+          "line": 18437,
+          "preview": "{ title: 'Florida Voter Purge Investigation', url: 'https://www.salon.com/2000/12/04/voter_file/', date: '2000' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.usip.org/publications/1991/02/truth-commission-chile-90",
+      "status": 503,
+      "ok": false,
+      "finalUrl": "https://www.usip.org/publications/1991/02/truth-commission-chile-90",
+      "occurrences": [
+        {
+          "line": 18530,
+          "preview": "{ title: 'Chilean Truth and Reconciliation Commission (Rettig Report)', url: 'https://www.usip.org/publications/1991/02/truth-commission-chile-90', date: '1991' },"
+        }
+      ]
+    },
+    {
+      "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB416/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB416/",
+      "occurrences": [
+        {
+          "line": 18533,
+          "preview": "{ title: 'Operation Condor Declassified Records', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB416/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary",
+      "occurrences": [
+        {
+          "line": 18534,
+          "preview": "{ title: 'Letelier Assassination Documents', url: 'https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary', date: '1976-2016' },"
+        }
+      ]
+    },
+    {
+      "url": "https://publications.parliament.uk/pa/ld199899/ldjudgmt/jd990324/pino1.htm",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://publications.parliament.uk/pa/ld199899/ldjudgmt/jd990324/pino1.htm",
+      "occurrences": [
+        {
+          "line": 18535,
+          "preview": "{ title: 'UK House of Lords Pinochet Judgment', url: 'https://publications.parliament.uk/pa/ld199899/ldjudgmt/jd990324/pino1.htm', date: '1999' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank",
+      "occurrences": [
+        {
+          "line": 18536,
+          "preview": "{ title: 'Pinochet Riggs Bank Investigation', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank', date: '2004' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/museum/timeline/covid19.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.cdc.gov/museum/timeline/covid19.html",
+      "occurrences": [
+        {
+          "line": 18615,
+          "preview": "{ title: 'CDC COVID-19 Response Timeline', url: 'https://www.cdc.gov/museum/timeline/covid19.html', date: '2020-2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://coronavirus.house.gov/",
+      "error": "Error: getaddrinfo ENOTFOUND coronavirus.house.gov",
+      "occurrences": [
+        {
+          "line": 18616,
+          "preview": "{ title: 'House Select Subcommittee on Coronavirus Crisis Reports', url: 'https://coronavirus.house.gov/', date: '2020-2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html",
+      "occurrences": [
+        {
+          "line": 18617,
+          "preview": "{ title: 'Redfield CNN Lab Leak Interview', url: 'https://www.cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gao.gov/coronavirus",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.gao.gov/coronavirus",
+      "occurrences": [
+        {
+          "line": 18619,
+          "preview": "{ title: 'GAO COVID-19 Response Reports', url: 'https://www.gao.gov/coronavirus', date: '2020-2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.project2025.org/playbook/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.mandateforleadership.org/",
+      "occurrences": [
+        {
+          "line": 18701,
+          "preview": "{ title: 'Project 2025 Mandate for Leadership', url: 'https://www.project2025.org/playbook/', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://americarenewing.com/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://americarenewing.com/",
+      "occurrences": [
+        {
+          "line": 18702,
+          "preview": "{ title: 'Center for Renewing America Website', url: 'https://americarenewing.com/', date: 'Current' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.federalregister.gov/documents/2020/10/26/2020-23780/creating-schedule-f-in-the-excepted-service",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://unblock.federalregister.gov/",
+      "occurrences": [
+        {
+          "line": 18703,
+          "preview": "{ title: 'Schedule F Executive Order 13957', url: 'https://www.federalregister.gov/documents/2020/10/26/2020-23780/creating-schedule-f-in-the-excepted-service', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gao.gov/assets/gao-20-341.pdf",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.gao.gov/assets/gao-20-341.pdf",
+      "occurrences": [
+        {
+          "line": 18704,
+          "preview": "{ title: 'OMB Ukraine Aid Withholding Documents', url: 'https://www.gao.gov/assets/gao-20-341.pdf', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/file/1035477/download",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.justice.gov/file/1035477/download",
+      "occurrences": [
+        {
+          "line": 18795,
+          "preview": "{ title: 'Mueller Indictment - Internet Research Agency', url: 'https://www.justice.gov/file/1035477/download', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.bellingcat.com/tag/wagner-group/",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.bellingcat.com/tag/wagner-group/",
+      "occurrences": [
+        {
+          "line": 18797,
+          "preview": "{ title: 'Wagner Group Investigation - Bellingcat', url: 'https://www.bellingcat.com/tag/wagner-group/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ohchr.org/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.ohchr.org/",
+      "occurrences": [
+        {
+          "line": 18798,
+          "preview": "{ title: 'UN Human Rights Reports on Wagner Atrocities', url: 'https://www.ohchr.org/', date: '2022-2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://sanctionslist.ofac.treas.gov/Home/SdnList",
+      "occurrences": [
+        {
+          "line": 18799,
+          "preview": "{ title: 'Treasury OFAC Sanctions', url: 'https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://about.fb.com/news/2017/10/hard-questions-russian-ads/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://about.fb.com/news/2017/10/hard-questions-russian-ads-delivered-to-congress/",
+      "occurrences": [
+        {
+          "line": 18801,
+          "preview": "{ title: 'Facebook IRA Disclosure', url: 'https://about.fb.com/news/2017/10/hard-questions-russian-ads/', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/usao-edva/pr/businessman-sentenced-ten-years-child-sex-trafficking-and-transporting-child-pornography",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/usao-edva/pr/businessman-sentenced-ten-years-child-sex-trafficking-and-transporting-child-pornography",
+      "occurrences": [
+        {
+          "line": 18883,
+          "preview": "{ title: 'DOJ Press Release - Nader Sentencing', url: 'https://www.justice.gov/usao-edva/pr/businessman-sentenced-ten-years-child-sex-trafficking-and-transporting-child-pornography', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/15455937/united-states-v-nader/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.courtlistener.com/docket/15455937/united-states-v-nader/",
+      "occurrences": [
+        {
+          "line": 18884,
+          "preview": "{ title: 'EDVA Criminal Case Documents', url: 'https://www.courtlistener.com/docket/15455937/united-states-v-nader/', date: '2019-2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.intelligence.senate.gov/",
+      "occurrences": [
+        {
+          "line": 18885,
+          "preview": "{ title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2018/03/03/us/politics/george-nader-mueller-investigation-united-arab-emirates.html",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.nytimes.com/2018/03/03/us/politics/george-nader-mueller-investigation-united-arab-emirates.html",
+      "occurrences": [
+        {
+          "line": 18886,
+          "preview": "{ title: 'New York Times - Nader UAE Role', url: 'https://www.nytimes.com/2018/03/03/us/politics/george-nader-mueller-investigation-united-arab-emirates.html', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://home.treasury.gov/news/press-releases/jy0628",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://home.treasury.gov/news/press-releases/jy0628",
+      "occurrences": [
+        {
+          "line": 18964,
+          "preview": "{ title: 'Treasury OFAC Sanctions', url: 'https://home.treasury.gov/news/press-releases/jy0628', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sanctionsmap.eu/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.sanctionsmap.eu/",
+      "occurrences": [
+        {
+          "line": 18965,
+          "preview": "{ title: 'EU Sanctions List', url: 'https://www.sanctionsmap.eu/', date: '2022' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/2018/03/07/us/politics/erik-prince-seychelles-meeting-russian.html",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.nytimes.com/2018/03/07/us/politics/erik-prince-seychelles-meeting-russian.html",
+      "occurrences": [
+        {
+          "line": 18966,
+          "preview": "{ title: 'New York Times - Seychelles Meeting', url: 'https://www.nytimes.com/2018/03/07/us/politics/erik-prince-seychelles-meeting-russian.html', date: '2018' },"
+        }
+      ]
+    },
+    {
+      "url": "https://rdif.ru/Eng/",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.rdif.ru/Eng/",
+      "occurrences": [
+        {
+          "line": 18967,
+          "preview": "{ title: 'RDIF Official Records', url: 'https://rdif.ru/Eng/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf",
+      "occurrences": [
+        {
+          "line": 19043,
+          "preview": "{ title: 'UN General Assembly Resolution on Sovereign Debt', url: 'https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf', date: '2014' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.imf.org/en/Topics/Sovereign-Debt",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.imf.org/en/Topics/Sovereign-Debt",
+      "occurrences": [
+        {
+          "line": 19044,
+          "preview": "{ title: 'IMF Sovereign Debt Reports', url: 'https://www.imf.org/en/Topics/Sovereign-Debt', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.supremecourt.gov/opinions/13pdf/12-842_5h26.pdf",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.supremecourt.gov/opinions/13pdf/12-842_5h26.pdf",
+      "occurrences": [
+        {
+          "line": 19045,
+          "preview": "{ title: 'Argentina v. NML Capital Supreme Court', url: 'https://www.supremecourt.gov/opinions/13pdf/12-842_5h26.pdf', date: '2014' },"
+        }
+      ]
+    },
+    {
+      "url": "https://jubileedebt.org.uk/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://debtjustice.org.uk/",
+      "occurrences": [
+        {
+          "line": 19046,
+          "preview": "{ title: 'Jubilee Debt Campaign - Vulture Funds', url: 'https://jubileedebt.org.uk/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=elliott+management",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=elliott+management",
+      "occurrences": [
+        {
+          "line": 19048,
+          "preview": "{ title: 'SEC Elliott Management Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=elliott+management', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://reporter.nih.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://reporter.nih.gov/",
+      "occurrences": [
+        {
+          "line": 19130,
+          "preview": "{ title: 'NIH EcoHealth Alliance Grant Records', url: 'https://reporter.nih.gov/', date: '2014-2019' },"
+        },
+        {
+          "line": 19217,
+          "preview": "{ title: 'NIH EcoHealth Alliance Grant Records', url: 'https://reporter.nih.gov/', date: '2014-2024' },"
+        },
+        {
+          "line": 19293,
+          "preview": "{ title: 'NIH Grant Records', url: 'https://reporter.nih.gov/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research",
+      "occurrences": [
+        {
+          "line": 19133,
+          "preview": "{ title: 'NIH Gain of Function Framework', url: 'https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', date: '2017' },"
+        }
+      ]
+    },
+    {
+      "url": "https://theintercept.com/2021/09/06/new-details-emerge-about-coronavirus-research-at-chinese-lab/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://theintercept.com/2021/09/06/new-details-emerge-about-coronavirus-research-at-chinese-lab/",
+      "occurrences": [
+        {
+          "line": 19134,
+          "preview": "{ title: 'The Intercept - NIH Grant Documents', url: 'https://theintercept.com/2021/09/06/new-details-emerge-about-coronavirus-research-at-chinese-lab/', date: '2021' },"
+        },
+        {
+          "line": 19219,
+          "preview": "{ title: 'The Intercept - NIH Documents', url: 'https://theintercept.com/2021/09/06/new-details-emerge-about-coronavirus-research-at-chinese-lab/', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://oversight.house.gov/subcommittee/select-subcommittee-on-the-coronavirus-pandemic/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://oversight.house.gov/subcommittee/select-subcommittee-on-the-coronavirus-pandemic/",
+      "occurrences": [
+        {
+          "line": 19216,
+          "preview": "{ title: 'House Select Subcommittee on Coronavirus Pandemic', url: 'https://oversight.house.gov/subcommittee/select-subcommittee-on-the-coronavirus-pandemic/', date: '2023-2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20",
+      "occurrences": [
+        {
+          "line": 19218,
+          "preview": "{ title: 'The Lancet Statement (Daszak organized)', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30418-9/fulltext', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part",
+      "occurrences": [
+        {
+          "line": 19221,
+          "preview": "{ title: 'WHO COVID-19 Origins Report', url: 'https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part', date: '2021' },"
+        },
+        {
+          "line": 19374,
+          "preview": "{ title: 'WHO COVID-19 Origins Report', url: 'https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part', date: '2021' },"
+        },
+        {
+          "line": 19457,
+          "preview": "{ title: 'WHO Origins Investigation Report', url: 'https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/nm.3985",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.nature.com/articles/nm.3985?error=cookies_not_supported&code=cede9080-7a5d-4411-932c-b577549c5375",
+      "occurrences": [
+        {
+          "line": 19292,
+          "preview": "{ title: '2015 Nature Medicine Paper', url: 'https://www.nature.com/articles/nm.3985', date: '2015' },"
+        },
+        {
+          "line": 19372,
+          "preview": "{ title: '2015 Nature Medicine Paper (with Baric)', url: 'https://www.nature.com/articles/nm.3985', date: '2015' },"
+        }
+      ]
+    },
+    {
+      "url": "https://sph.unc.edu/adv_profile/ralph-s-baric-phd/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://sph.unc.edu/adv_profile/ralph-s-baric-phd/",
+      "occurrences": [
+        {
+          "line": 19296,
+          "preview": "{ title: 'UNC Research Publications', url: 'https://sph.unc.edu/adv_profile/ralph-s-baric-phd/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-020-2012-7",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.nature.com/articles/s41586-020-2012-7?error=cookies_not_supported&code=1a1cb916-8189-4155-b2bb-d2543e9f5c45",
+      "occurrences": [
+        {
+          "line": 19373,
+          "preview": "{ title: '2020 Nature Paper - SARS-CoV-2 Genome', url: 'https://www.nature.com/articles/s41586-020-2012-7', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.science.org/content/article/wuhan-scientists-scientific-american-article-bat-woman",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.science.org/content/article/wuhan-scientists-scientific-american-article-bat-woman",
+      "occurrences": [
+        {
+          "line": 19375,
+          "preview": "{ title: 'Science Interview with Shi Zhengli', url: 'https://www.science.org/content/article/wuhan-scientists-scientific-american-article-bat-woman', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.vanityfair.com/news/2021/06/the-lab-leak-theory-inside-the-fight-to-uncover-covid-19s-origins",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.vanityfair.com/news/2021/06/the-lab-leak-theory-inside-the-fight-to-uncover-covid-19s-origins",
+      "occurrences": [
+        {
+          "line": 19377,
+          "preview": "{ title: 'Vanity Fair Investigation', url: 'https://www.vanityfair.com/news/2021/06/the-lab-leak-theory-inside-the-fight-to-uncover-covid-19s-origins', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.who.int/news/item/27-04-2020-who-timeline---covid-19",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.who.int/news/item/27-04-2020-who-timeline---covid-19",
+      "occurrences": [
+        {
+          "line": 19456,
+          "preview": "{ title: 'WHO COVID-19 Timeline', url: 'https://www.who.int/news/item/27-04-2020-who-timeline---covid-19', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://apnews.com/article/united-nations-health-ap-top-news-virus-outbreak-public-health-3c061794970661042b18d5aeaaed9fae",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://apnews.com/article/united-nations-health-ap-top-news-virus-outbreak-public-health-3c061794970661042b18d5aeaaed9fae",
+      "occurrences": [
+        {
+          "line": 19458,
+          "preview": "{ title: 'AP Investigation - WHO China Response', url: 'https://apnews.com/article/united-nations-health-ap-top-news-virus-outbreak-public-health-3c061794970661042b18d5aeaaed9fae', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://theindependentpanel.org/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://theindependentpanel.org/",
+      "occurrences": [
+        {
+          "line": 19460,
+          "preview": "{ title: 'Independent Panel for Pandemic Preparedness', url: 'https://theindependentpanel.org/', date: '2021' },"
+        }
+      ]
+    },
+    {
+      "url": "https://foreignaffairs.house.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://foreignaffairs.house.gov/",
+      "occurrences": [
+        {
+          "line": 19461,
+          "preview": "{ title: 'House Foreign Affairs Committee Report', url: 'https://foreignaffairs.house.gov/', date: '2020' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.archives.gov/research/foreign-policy/reagan",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.archives.gov/research/foreign-policy/reagan",
+      "occurrences": [
+        {
+          "line": 19545,
+          "preview": "{ title: 'Tower Commission Report', url: 'https://www.archives.gov/research/foreign-policy/reagan', date: '1987' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.icj-cij.org/case/70",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.icj-cij.org/case/70",
+      "occurrences": [
+        {
+          "line": 19547,
+          "preview": "{ title: 'Nicaragua v. United States (ICJ Ruling)', url: 'https://www.icj-cij.org/case/70', date: '1986' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.reaganlibrary.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.reaganlibrary.gov/",
+      "occurrences": [
+        {
+          "line": 19549,
+          "preview": "{ title: 'Reagan Presidential Library Archives', url: 'https://www.reaganlibrary.gov/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.nationalarchives.gov.uk/",
+      "occurrences": [
+        {
+          "line": 19611,
+          "preview": "{ title: 'UK National Archives - Thatcher Papers', url: 'https://www.nationalarchives.gov.uk/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/20130501000000*/newamericancentury.org",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/20130501000000*/newamericancentury.org",
+      "occurrences": [
+        {
+          "line": 19898,
+          "preview": "{ title: 'PNAC Documents', url: 'https://web.archive.org/web/20130501000000*/newamericancentury.org', date: '1997-2009' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gregpalast.com/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.gregpalast.com/",
+      "occurrences": [
+        {
+          "line": 19959,
+          "preview": "{ title: 'Palast Investigation - Voter Purge', url: 'https://www.gregpalast.com/', date: '2001' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.senate.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.senate.gov/",
+      "occurrences": [
+        {
+          "line": 20010,
+          "preview": "{ title: 'Senate Records', url: 'https://www.senate.gov/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.state.gov/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.state.gov/",
+      "occurrences": [
+        {
+          "line": 20011,
+          "preview": "{ title: 'State Department', url: 'https://www.state.gov/', date: '2025' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.project2025.org/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.mandateforleadership.org/",
+      "occurrences": [
+        {
+          "line": 20067,
+          "preview": "{ title: 'Project 2025 Mandate for Leadership', url: 'https://www.project2025.org/', date: '2023' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.heritage.org/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.heritage.org/",
+      "occurrences": [
+        {
+          "line": 20068,
+          "preview": "{ title: 'Heritage Foundation', url: 'https://www.heritage.org/', date: 'Various' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.icc-cpi.int/",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.icc-cpi.int/",
+      "occurrences": [
+        {
+          "line": 20419,
+          "preview": "{ title: 'ICC Ukraine Investigation', url: 'https://www.icc-cpi.int/', date: '2022-2024' },"
+        },
+        {
+          "line": 20477,
+          "preview": "{ title: 'ICC Ukraine Investigation', url: 'https://www.icc-cpi.int/', date: '2022-2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-i-syria/co-i-syria-home",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://www.ohchr.org/en/hr-bodies/hrc/co-i-syria/co-i-syria-home",
+      "occurrences": [
+        {
+          "line": 23795,
+          "preview": "{ title: 'UN Commission of Inquiry on Syria', url: 'https://www.ohchr.org/en/hr-bodies/hrc/co-i-syria/co-i-syria-home', date: '2011-2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.opcw.org/fact-finding-mission-reports",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.opcw.org/fact-finding-mission-reports",
+      "occurrences": [
+        {
+          "line": 23796,
+          "preview": "{ title: 'OPCW Fact-Finding Mission Reports', url: 'https://www.opcw.org/fact-finding-mission-reports', date: '2014-2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://syriaaccountability.org/library/caesar-photos/",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://syriaaccountability.org/library/caesar-photos/",
+      "occurrences": [
+        {
+          "line": 23797,
+          "preview": "{ title: 'Caesar Photos Documentation', url: 'https://syriaaccountability.org/library/caesar-photos/', date: '2014' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.hrw.org/middle-east/north-africa/syria",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://www.hrw.org/middle-east/north-africa/syria",
+      "occurrences": [
+        {
+          "line": 23798,
+          "preview": "{ title: 'Human Rights Watch Syria Reports', url: 'https://www.hrw.org/middle-east/north-africa/syria', date: '2011-2024' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/leveson-inquiry-report-into-the-culture-practices-and-ethics-of-the-press",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.gov.uk/government/publications/leveson-inquiry-report-into-the-culture-practices-and-ethics-of-the-press",
+      "occurrences": [
+        {
+          "line": 23851,
+          "preview": "{ title: 'UK Leveson Inquiry Report', url: 'https://www.gov.uk/government/publications/leveson-inquiry-report-into-the-culture-practices-and-ethics-of-the-press', date: '2012' },"
+        },
+        {
+          "line": 23910,
+          "preview": "{ title: 'Leveson Inquiry Testimony', url: 'https://www.gov.uk/government/publications/leveson-inquiry-report-into-the-culture-practices-and-ethics-of-the-press', date: '2012' },"
+        }
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm",
+      "occurrences": [
+        {
+          "line": 24011,
+          "preview": "{ title: 'PNAC Statement of Principles', url: 'https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm', date: '1997' },"
+        }
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/20050212041719/http://www.newamericancentury.org/iraqclintonletter.htm",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://web.archive.org/web/20050210071939/http://www.newamericancentury.org/iraqclintonletter.htm",
+      "occurrences": [
+        {
+          "line": 24012,
+          "preview": "{ title: 'PNAC Letter to Clinton', url: 'https://web.archive.org/web/20050212041719/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/usao-ndca/pr/elizabeth-holmes-found-guilty-investor-fraud",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/usao-ndca/pr/elizabeth-holmes-found-guilty-investor-fraud",
+      "occurrences": [
+        {
+          "line": 24656,
+          "preview": "{ title: 'DOJ Conviction', url: 'https://www.justice.gov/usao-ndca/pr/elizabeth-holmes-found-guilty-investor-fraud' },"
+        }
+      ]
+    },
+    {
+      "url": "https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years",
+      "occurrences": [
+        {
+          "line": 24701,
+          "preview": "{ title: 'DOJ Sentencing', url: 'https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years' },"
+        }
+      ]
+    }
+  ]
+}
