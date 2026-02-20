@@ -67,22 +67,28 @@ export default function RootLayout({
           Skip to main content
         </a>
 
-        {/* Global Effects - Optimized for performance */}
-        <StaticGridBackground />
-        <RandomWordPopups frequency={12000} />
-        <SurveillanceWarning />
-        <DataCorruption />
-        <TimestampOverlay />
-        
-        <AuthGate>
-          <Header />
+        {/* AuthGate: on /enter shows only the page, otherwise full site */}
+        <AuthGate
+          header={
+            <>
+              <StaticGridBackground />
+              <RandomWordPopups frequency={12000} />
+              <SurveillanceWarning />
+              <DataCorruption />
+              <TimestampOverlay />
+              <Header />
+            </>
+          }
+          footer={
+            <>
+              <Footer />
+              <BackToTop />
+            </>
+          }
+        >
           <main id="main-content" className="flex-1 relative z-10">
             <Providers>{children}</Providers>
           </main>
-          <Footer />
-        
-          {/* Back to top button */}
-          <BackToTop />
         </AuthGate>
       </body>
     </html>
