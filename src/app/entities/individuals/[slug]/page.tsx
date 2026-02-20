@@ -270,7 +270,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Epstein Flight Logs (Lolita Express)', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2025' },
       { title: 'Unsealed Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
       { title: 'Panama Papers Database', url: 'https://offshoreleaks.icij.org/', date: '2025' },
-      { title: 'IRS Audit Documents via Congressional Reports', url: 'https://waysandmeans.house.gov/trump-tax-returns/', date: '2023-2025' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'IRS Audit Documents via Congressional Reports', url: 'https://web.archive.org/web/*/https://waysandmeans.house.gov/trump-tax-returns/', date: '2023-2025' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'DHS/ICE Detention Reports', url: 'https://oig.dhs.gov/reports', date: '2020-2025' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'EPA Environmental Rollback Documentation', url: 'https://www.epa.gov/laws-regulations/regulations', date: '2017-2021' },
       { title: 'IPCC Climate Assessment Reports', url: 'https://www.ipcc.ch/reports/', date: '2025' };
@@ -1152,7 +1152,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Flynn Plea Agreement', url: 'https://www.courtlistener.com/docket/6234142/united-states-v-flynn/', date: '2017' },
       { title: 'DOJ Flynn Statement of Offense', url: 'http://web.archive.org/web/20240314193724/http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download', date: '2017' },
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
-      { title: 'House Oversight Turkey Lobbying Report', url: 'https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf', date: '2017' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'House Oversight Turkey Lobbying Report', url: 'https://web.archive.org/web/*/https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf', date: '2017' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'WaPo: Flynn-Kislyak Calls', url: 'https://www.washingtonpost.com/world/national-security/national-security-adviser-flynn-discussed-sanctions-with-russian-ambassador-despite-denials-officials-say/2017/02/09/f85b29d6-ee11-11e6-b4ff-ac2cf509efe5_story.html', date: '2017' },
     ],
   },
@@ -1583,7 +1583,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Returns to Rikers Island - SECOND time' },
     ],
     sources: [
-      { title: 'Manhattan DA Tax Fraud Indictment', url: 'https://manhattanda.org/', date: '2021' },
+      { title: 'Manhattan DA Tax Fraud Indictment', url: 'https://www.manhattanda.org/', date: '2021' },
       { title: 'Tax Fraud Guilty Plea', url: 'https://www.manhattanda.org/d-a-bragg-long-time-trump-organization-cfo-allen-weisselberg-sentenced/', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Perjury Guilty Plea', url: 'https://www.manhattanda.org/d-a-bragg-allen-weisselberg-pleads-guilty-to-perjury/', date: '2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'NY AG Civil Fraud Trial Evidence', date: '2023' },
@@ -1665,7 +1665,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'SDNY Plea Agreement', url: 'https://www.justice.gov/usao-sdny/pr/michael-cohen-pleads-guilty-manhattan-federal-court-eight-counts-including-campaign', date: '2018' },
-      { title: 'Congressional Testimony Transcript', url: 'https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Congressional Testimony Transcript', url: 'https://web.archive.org/web/*/https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Manhattan DA People v. Trump Indictment', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
       { title: 'Cohen Sentencing Memo', url: 'https://www.courtlistener.com/docket/7593912/united-states-v-cohen/', date: '2018' },
       { title: 'Mueller Report (Trump Tower Moscow)', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },

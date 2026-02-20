@@ -3344,7 +3344,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Supreme Court', 'Clarence Thomas', 'Ethics', 'Harlan Crow', 'Samuel Alito', 'Corruption'],
     sources: [
-      { title: 'ProPublica Thomas Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-crow', type: 'Investigation' },
+      { title: 'ProPublica Thomas Investigation', url: 'https://propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-crow', type: 'Investigation' },
       { title: 'ProPublica Alito Investigation', url: 'https://propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Leo-Ginni Thomas Payments', url: 'https://www.washingtonpost.com/investigations/2023/09/22/leonard-leo-paid-ginni-thomas/', type: 'Investigation' },
       { title: 'Senate Judiciary Ethics Hearings', url: 'https://www.judiciary.senate.gov/committee-activity/hearings/supreme-court-ethics-what-our-highest-court-should-learn-from-other-courts-and-other-branches', type: 'Government Record' },
