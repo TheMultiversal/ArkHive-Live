@@ -979,7 +979,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Senate Intelligence Committee Vol. 5', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },
       { title: 'Treasury Kilimnik Sanctions', url: 'https://home.treasury.gov/news/press-releases/jy0126', date: '2021' },
       { title: 'Cyprus Shell Companies Analysis', url: 'https://www.icij.org/investigations/pandora-papers/', date: '2021' },
-      { title: 'Deripaska Relationship Documents', url: 'https://atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Deripaska Relationship Documents', url: 'https://web.archive.org/web/*/https://atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/', date: '2018' },
     ],
   };
   'roger-stone': {
@@ -1665,7 +1665,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'SDNY Plea Agreement', url: 'https://www.justice.gov/usao-sdny/pr/michael-cohen-pleads-guilty-manhattan-federal-court-eight-counts-including-campaign', date: '2018' },
-      { title: 'Congressional Testimony Transcript', url: 'https://web.archive.org/web/*/https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Congressional Testimony Transcript', url: 'https://web.archive.org/web/*/https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' },
       { title: 'Manhattan DA People v. Trump Indictment', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
       { title: 'Cohen Sentencing Memo', url: 'https://www.courtlistener.com/docket/7593912/united-states-v-cohen/', date: '2018' },
       { title: 'Mueller Report (Trump Tower Moscow)', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
@@ -3535,7 +3535,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Hundreds of children still not reunited' },
     ],
     sources: [
-      { title: 'DHS IG Reports on Family Separation', url: 'https://oig.dhs.gov/reports', date: '2019-2020' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'DHS IG Reports on Family Separation', url: 'https://web.archive.org/web/*/https://oig.dhs.gov/reports', date: '2019-2020' },
       { title: 'House Oversight Committee Investigation', url: 'https://oversight.house.gov/', date: '2019' },
       { title: 'ACLU Family Separation Documentation', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/family-separation', date: '2018-2024' };
       { title: 'UN Human Rights Council Report', date: '2019' },
@@ -3855,7 +3855,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Carroll v. Trump - Sexual Abuse Verdict', url: 'https://web.archive.org/web/*/https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2023' },
       { title: 'Carroll v. Trump - $83.3M Defamation Verdict', url: 'https://www.courtlistener.com/docket/17595029/carroll-v-trump/', date: '2024' },
-      { title: 'New York Magazine Article', url: 'https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'New York Magazine Article', url: 'https://web.archive.org/web/*/https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' },
       { title: '"What Do We Need Men For?" Book', url: 'https://amazon.com/What-Do-Need-Men-Hideous/dp/1250215420', date: '2019' },
     ],
   };
@@ -3911,7 +3911,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Manhattan DA Indictment', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
       { title: 'Trial Testimony Transcripts', url: 'https://www.courtlistener.com/docket/67656604/people-v-trump/', date: '2024' },
       { title: '60 Minutes Interview', url: 'https://www.cbsnews.com/news/stormy-daniels-describes-her-alleged-affair-with-donald-trump-60-minutes-interview/', date: '2018' },
-      { title: '"Full Disclosure" Book', url: 'https://amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: '"Full Disclosure" Book', url: 'https://web.archive.org/web/*/https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611', date: '2018' },
     ],
   };
   'ruby-freeman': {
@@ -4778,7 +4778,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Remains Postmaster General despite criticism' },
     ],
     sources: [
-      { title: 'Congressional Testimony', url: 'https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service', date: '2020' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Congressional Testimony', url: 'https://web.archive.org/web/*/https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service', date: '2020' },
       { title: 'USPS Inspector General Reports', url: 'https://www.uspsoig.gov/', date: '2020-2021' },
       { title: 'State Lawsuits Against USPS', date: '2020' },
     ],
@@ -4970,7 +4970,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2018', event: 'April: Settles with AMI, can speak freely' },
     ],
     sources: [
-      { title: 'CNN Interview', url: 'https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'CNN Interview', url: 'https://web.archive.org/web/*/https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html', date: '2018' },
       { title: 'AMI Settlement', date: '2018' },
       { title: 'Manhattan DA Investigation Records', date: '2023' },
     ],
@@ -15452,7 +15452,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'BlackRock SEC Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364742', date: '2024' },
       { title: 'WEF Board of Trustees', url: 'https://www.weforum.org/about/leadership-and-governance/', date: '2024' },
       { title: 'Fed BlackRock Contracts', url: 'https://www.newyorkfed.org/markets/secondary-market-corporate-credit-facility', date: '2020' },
-      { title: 'Fink Annual Letters', url: 'https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter', date: '2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Fink Annual Letters', url: 'https://web.archive.org/web/*/https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter', date: '2024' },
     ],
   };
   'clarence-thomas': {
@@ -16782,11 +16782,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'November 29, 2023', event: 'Dies at age 100 at home in Connecticut - never faced justice' },
     ],
     sources: [
-      { title: 'The Trial of Henry Kissinger (Christopher Hitchens)', url: 'https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger', date: '2001' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'The Trial of Henry Kissinger (Christopher Hitchens)', url: 'https://web.archive.org/web/*/https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger', date: '2001' },
       { title: 'Declassified State Department Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', date: 'Various' },
       { title: 'National Security Archive - Chile', url: 'https://nsarchive.gwu.edu/', date: 'Various' },
       { title: 'Blood Telegram Cables', date: '1971' },
-      { title: 'East Timor Documents Collection', url: 'https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project', date: 'Various' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'East Timor Documents Collection', url: 'https://web.archive.org/web/*/https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project', date: 'Various' },
       { title: 'Cambodia Bombing Records', date: '1969-1973' },
     ],
   },
@@ -17456,7 +17456,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'SEC Tesla Settlement', url: 'https://www.sec.gov/news/press-release/2018-226', date: '2018' },
       { title: 'NLRB Tesla Ruling', url: 'https://www.nlrb.gov/case/32-CA-197020', date: '2021' },
-      { title: 'ADL Antisemitism Report', url: 'https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'ADL Antisemitism Report', url: 'https://web.archive.org/web/*/https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet', date: '2023' },
     ],
   };
   'kelly-loeffler': {
@@ -17754,7 +17754,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' },
       { title: 'My Lai Investigation Documents - National Archives', url: 'https://www.archives.gov/research/military/vietnam-war/war-crimes', date: '1968' },
       { title: 'Curveball: Spies, Lies, and the Con Man Who Caused a War', date: '2007' };
-      { title: 'Iran-Contra Tower Commission Report', url: 'https://www.archive.org/details/towercommissionr00unit', date: '1987' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Iran-Contra Tower Commission Report', url: 'https://web.archive.org/web/*/https://www.archive.org/details/towercommissionr00unit', date: '1987' },
       { title: 'The Iraq Study Group Report', url: 'https://www.usip.org/publications/2006/12/iraq-study-group-report', date: '2006' },
     ],
   },
@@ -17838,7 +17838,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },
       { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
-      { title: 'Senate Torture Report (SSCI)', url: 'https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Senate Torture Report (SSCI)', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
       { title: 'August 6, 2001 PDB (Declassified)', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB116/', date: '2001' },
       { title: 'CNN Mushroom Cloud Interview Transcript', date: 'September 8, 2002' };
       { title: 'No Higher Honor: A Memoir of My Years in Washington', date: '2011' },
@@ -18357,7 +18357,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'Present', event: 'Continues media career, never held accountable' },
     ],
     sources: [
-      { title: 'Tower Commission Report', url: 'https://www.archive.org/details/towercommissionr00unit', date: '1987' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Tower Commission Report', url: 'https://web.archive.org/web/*/https://www.archive.org/details/towercommissionr00unit', date: '1987' },
       { title: 'Iran-Contra Independent Counsel Final Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
       { title: 'Congressional Iran-Contra Report', url: 'https://archive.org/details/reportofcongress01unit', date: '1987' };
       { title: 'North Congressional Testimony Transcripts', date: '1987' },
@@ -18534,7 +18534,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Condor Declassified Records', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB416/', date: 'Various' },
       { title: 'Letelier Assassination Documents', url: 'https://web.archive.org/web/*/https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary', date: '1976-2016' },
       { title: 'UK House of Lords Pinochet Judgment', url: 'https://publications.parliament.uk/pa/ld199899/ldjudgmt/jd990324/pino1.htm', date: '1999' },
-      { title: 'Pinochet Riggs Bank Investigation', url: 'https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank', date: '2004' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Pinochet Riggs Bank Investigation', url: 'https://web.archive.org/web/*/https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank', date: '2004' },
     ],
   },
   'robert-redfield': {
@@ -18615,7 +18615,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'CDC COVID-19 Response Timeline', url: 'https://www.cdc.gov/museum/timeline/covid19.html', date: '2020-2021' },
       { title: 'House Select Subcommittee on Coronavirus Crisis Reports', url: 'https://coronavirus.house.gov/', date: '2020-2022' },
-      { title: 'Redfield CNN Lab Leak Interview', url: 'https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Redfield CNN Lab Leak Interview', url: 'https://web.archive.org/web/*/https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' },
       { title: 'Science Magazine - CDC Testing Failures Analysis', date: '2020' },
       { title: 'GAO COVID-19 Response Reports', url: 'https://www.gao.gov/coronavirus', date: '2020-2022' },
       { title: 'Washington Post - CDC Political Interference Investigation', date: '2020' },
@@ -18795,7 +18795,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Indictment - Internet Research Agency', url: 'http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download', date: '2018' },
       { title: 'Senate Intelligence Committee - Russian Interference Vol. 2', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2019' },
-      { title: 'Wagner Group Investigation - Bellingcat', url: 'https://bellingcat.com/tag/wagner-group/', date: 'Various' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Wagner Group Investigation - Bellingcat', url: 'https://web.archive.org/web/*/https://bellingcat.com/tag/wagner-group/', date: 'Various' },
       { title: 'UN Human Rights Reports on Wagner Atrocities', url: 'https://www.ohchr.org/', date: '2022-2023' },
       { title: 'Treasury OFAC Sanctions', url: 'https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists', date: 'Various' },
       { title: 'Plane Crash Investigation Reports', date: '2023' },
@@ -19543,7 +19543,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'June 5, 2004', event: 'Dies in Los Angeles, age 93' },
     ],
     sources: [
-      { title: 'Tower Commission Report', url: 'https://archives.gov/research/foreign-policy/reagan', date: '1987' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Tower Commission Report', url: 'https://web.archive.org/web/*/https://archives.gov/research/foreign-policy/reagan', date: '1987' },
       { title: 'Iran-Contra Congressional Report', url: 'https://www.congress.gov/', date: '1987' },
       { title: 'Nicaragua v. United States (ICJ Ruling)', url: 'https://www.icj-cij.org/case/70', date: '1986' };
       { title: 'And the Band Played On - Randy Shilts', date: '1987' },
@@ -23794,9 +23794,9 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'UN Commission of Inquiry on Syria', url: 'https://www.ohchr.org/en/hr-bodies/hrc/co-i-syria/co-i-syria-home', date: '2011-2024' },
-      { title: 'OPCW Fact-Finding Mission Reports', url: 'https://opcw.org/fact-finding-mission-reports', date: '2014-2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'OPCW Fact-Finding Mission Reports', url: 'https://web.archive.org/web/*/https://opcw.org/fact-finding-mission-reports', date: '2014-2024' },
       { title: 'Caesar Photos Documentation', url: 'https://syriaaccountability.org/library/caesar-photos/', date: '2014' },
-      { title: 'Human Rights Watch Syria Reports', url: 'https://hrw.org/middle-east/north-africa/syria', date: '2011-2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Human Rights Watch Syria Reports', url: 'https://web.archive.org/web/*/https://hrw.org/middle-east/north-africa/syria', date: '2011-2024' },
     ],
   },
   'james-murdoch': {

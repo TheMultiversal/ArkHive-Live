@@ -1154,7 +1154,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'ProPublica Inaugural Investigation', url: 'https://www.propublica.org/article/trump-inc-podcast-trumps-inaugural-committee-paid-trumps-company-with-ivanka-trump-in-the-middle', type: 'Investigation' },
       { title: 'DC AG Settlement', url: 'https://oag.dc.gov/release/ag-racine-announces-settlement-inaugural-committee', type: 'Press Release' },
-      { title: 'Barrack Indictment', url: 'https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Barrack Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united', type: 'Court Filing' },
       { title: 'Wolkoff Whistleblower Account', url: 'https://www.nytimes.com/2020/08/26/us/politics/melania-trump-secret-recording.html', type: 'News Report' },
     ],
     affiliations: [
@@ -1186,7 +1186,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Trump Remarks Transcript', url: 'https://www.politifact.com/article/2019/apr/26/context-trumps-very-fine-people-both-sides-remarks/', type: 'Transcript' },
       { title: 'Heather Heyer Death', url: 'https://www.nytimes.com/2017/08/13/us/heather-heyer-charlottesville-victim.html', type: 'News Report' },
-      { title: 'Fields Conviction', url: 'https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville', type: 'Press Release' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Fields Conviction', url: 'https://web.archive.org/web/*/https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville', type: 'Press Release' },
       { title: 'Joint Chiefs Statement', url: 'https://www.military.com/daily-news/2017/08/16/joint-chiefs-denounce-racism-charlottesville-rally.html', type: 'News Report' },
     ],
     affiliations: [
@@ -2486,7 +2486,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Carroll v. Trump - First Trial Verdict', url: 'https://www.courtlistener.com/docket/16871571/carroll-v-trump/', type: 'Court Records' },
       { title: 'Carroll v. Trump - Second Trial Verdict', url: 'https://www.courtlistener.com/docket/67371534/carroll-v-trump/', type: 'Court Records' },
-      { title: 'Original New York Magazine Article', url: 'https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', type: 'Primary Source' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Original New York Magazine Article', url: 'https://web.archive.org/web/*/https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', type: 'Primary Source' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant, found liable', href: '/entities/individuals/donald-trump' };
@@ -5611,7 +5611,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Pentagon IG Report on Feith\'s Office', url: 'https://www.dodig.mil/reports.html/Article/1119855/review-of-the-pre-iraq-war-activities-of-the-office-of-the-under-secretary-of-d/', type: 'Government Report' },
       { title: 'Mother Jones - The Lie Factory', url: 'https://www.motherjones.com/politics/2004/01/lie-factory/', type: 'Investigation' },
       { title: 'New Yorker - Selective Intelligence', url: 'https://www.newyorker.com/magazine/2003/05/12/selective-intelligence', type: 'Investigation' },
-      { title: 'Senate Intelligence Committee Iraq Report', url: 'https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', type: 'Congressional Report' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Senate Intelligence Committee Iraq Report', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', type: 'Congressional Report' },
       { title: 'Curveball Fabrication Admission', url: 'https://www.theguardian.com/world/2011/feb/15/curveball-iraqi-defector-admits-lying', type: 'News Report' },
     ],
     affiliations: [ 
