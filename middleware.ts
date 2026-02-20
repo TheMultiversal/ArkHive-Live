@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
 // Simple password gate middleware.
-// - Set SITE_PASSWORD in your environment to change the password (defaults to "letmein").
+// - Set SITE_PASSWORD in your environment to change the password (defaults to "Knowledge").
 // - The auth cookie name is `site_auth` and is HttpOnly.
 // - Excludes _next, api, static files, and the /enter route itself.
 
@@ -23,7 +23,7 @@ export function middleware(req: NextRequest) {
   }
 
   const cookie = req.cookies.get('site_auth')?.value;
-  const sitePassword = process.env.SITE_PASSWORD || 'letmein';
+  const sitePassword = process.env.SITE_PASSWORD || 'Knowledge';
 
   // simple check: cookie must equal the configured password
   if (cookie && cookie === sitePassword) return NextResponse.next();

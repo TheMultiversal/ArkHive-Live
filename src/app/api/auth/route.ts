@@ -5,7 +5,7 @@ export async function POST(req: Request) {
   try {
     const body = await req.json();
     const password = String(body?.password || '');
-    const SITE_PASSWORD = process.env.SITE_PASSWORD || 'letmein';
+    const SITE_PASSWORD = process.env.SITE_PASSWORD || 'Knowledge';
 
     if (password === SITE_PASSWORD) {
       // set an HttpOnly cookie for the site session (simple implementation)

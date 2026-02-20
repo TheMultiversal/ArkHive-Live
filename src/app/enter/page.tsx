@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import BloodSumerianRain from '@/components/effects/BloodSumerianRain';
 
 export default function EnterPage() {
   const [password, setPassword] = useState('');
@@ -33,8 +34,10 @@ export default function EnterPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black text-zinc-200">
-      <form onSubmit={onSubmit} className="w-full max-w-sm p-8 bg-zinc-900 border border-zinc-800">
+    <div className="min-h-screen flex items-center justify-center bg-black text-zinc-200 relative overflow-hidden">
+      <BloodSumerianRain />
+
+      <form onSubmit={onSubmit} className="w-full max-w-sm p-8 bg-zinc-900/85 border border-zinc-800 backdrop-blur-sm z-10">
         <h1 className="text-2xl font-bold mb-4">Enter site password</h1>
         <p className="text-sm text-zinc-400 mb-4">This site is password protected — enter the password to continue.</p>
         <input
