@@ -65,7 +65,6 @@ export default function EnterPage() {
           </button>
         </div>
         {error && <p className="mt-3 text-red-400">{error}</p>}
-        <p className="mt-4 text-xs text-zinc-500">Tip: set SITE_PASSWORD in your environment to change the password.</p>
       </form>
     </div>
   );
