@@ -84,10 +84,10 @@ const investigation = {
   sources: [
     { title: 'Jack Smith Indictment (37 counts)', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: 'Jun 2023' },
     { title: 'Superseding Indictment (40 counts)', url: 'https://www.justice.gov/storage/US-v-Trump-Nauta-De-Oliveira-23-80101.pdf', date: 'Jul 2023' },
-    { title: 'FBI Search Warrant Affidavit', url: 'https://web.archive.org/web/2024/https://www.justice.gov/d9/press-releases/attachments/2022/08/26/2022.08.30_government_motion_for_court_to_order_that_the_filter_review_team_may_continue_its_review.pdf', date: 'Aug 2022' },
-    { title: 'National Archives Letter to Trump', url: 'https://web.archive.org/web/2024/https://www.archives.gov/files/foia/2022-0311-f-letter-from-nara-to-trump-representatives.pdf', date: '2022' },
-    { title: 'Judge Cannon Dismissal Order', url: 'https://web.archive.org/web/2024/https://storage.courtlistener.com/recap/gov.uscourts.flsd.618763/gov.uscourts.flsd.618763.730.0.pdf', date: 'Jul 2024' },
-    { title: 'DOJ Appeal to 11th Circuit', url: 'https://web.archive.org/web/2024/https://www.justice.gov/storage/US-v-Trump-Nauta-De-Oliveira-23-80101-Appeal.pdf', date: 'Aug 2024' }
+    { title: 'FBI Search Warrant Affidavit', url: 'https://www.justice.gov/d9/press-releases/attachments/2022/08/26/2022.08.30_government_motion_for_court_to_order_that_the_filter_review_team_may_continue_its_review.pdf', date: 'Aug 2022' },
+    { title: 'National Archives Letter to Trump', url: 'https://www.archives.gov/files/foia/2022-0311-f-letter-from-nara-to-trump-representatives.pdf', date: '2022' },
+    { title: 'Judge Cannon Dismissal Order', url: 'https://storage.courtlistener.com/recap/gov.uscourts.flsd.618763/gov.uscourts.flsd.618763.730.0.pdf', date: 'Jul 2024' },
+    { title: 'DOJ Appeal to 11th Circuit', url: 'https://www.justice.gov/storage/US-v-Trump-Nauta-De-Oliveira-23-80101-Appeal.pdf', date: 'Aug 2024' }
   ],
 };
 

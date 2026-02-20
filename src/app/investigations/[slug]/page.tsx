@@ -59,7 +59,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Federal January 6th Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
       { title: 'Georgia RICO Indictment', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
       { title: 'Manhattan DA Criminal Case', url: 'https://www.manhattanda.org/district-attorney-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/', type: 'Press Release' },
-      { title: 'NY AG Civil Fraud Judgment', url: 'https://web.archive.org/web/2024/https://ag.ny.gov/press-release/2024/attorney-general-james-statement-court-ruling-donald-trump-fraud-case', type: 'Press Release' },
+      { title: 'NY AG Civil Fraud Judgment', url: 'https://ag.ny.gov/press-release/2024/attorney-general-james-statement-court-ruling-donald-trump-fraud-case', type: 'Press Release' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: '91 felony indictments, 34 convictions', href: '/entities/individuals/donald-trump' },
@@ -211,8 +211,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Classified Documents', 'Espionage Act', 'Obstruction', 'Mar-a-Lago', 'National Security', 'FBI'],
     sources: [
       { title: 'Federal Indictment - US v. Trump', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', type: 'Court Filing' },
-      { title: 'Superseding Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/storage/US_v_Trump-Nauta-DeOliveira_23-80101.pdf', type: 'Court Filing' },
-      { title: 'Affidavit in Support of Search Warrant', url: 'https://web.archive.org/web/2024/https://storage.courtlistener.com/recap/gov.uscourts.flsd.617854/gov.uscourts.flsd.617854.102.0_4.pdf', type: 'Court Filing' },
+      { title: 'Superseding Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta-DeOliveira_23-80101.pdf', type: 'Court Filing' },
+      { title: 'Affidavit in Support of Search Warrant', url: 'https://storage.courtlistener.com/recap/gov.uscourts.flsd.617854/gov.uscourts.flsd.617854.102.0_4.pdf', type: 'Court Filing' },
       { title: 'Trump Showed Classified War Plans - CNN', url: 'https://www.cnn.com/2023/06/26/politics/trump-classified-documents-audio/index.html', type: 'Audio Evidence' },
     ],
     affiliations: [
@@ -249,7 +249,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Georgia RICO Indictment', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
       { title: 'Trump-Raffensperger Call Audio', url: 'https://www.washingtonpost.com/video/politics/audio-trumps-full-jan-2-call-with-ga-secretary-of-state/2021/01/03/3f9426f4-7937-4718-8a66-9f574028ed02_video.html', type: 'Audio Evidence' },
       { title: 'Sidney Powell Plea Agreement', url: 'https://www.nytimes.com/2023/10/19/us/sidney-powell-guilty-plea-georgia.html', type: 'News Report' },
-      { title: 'Kenneth Chesebro Plea Deal', url: 'https://web.archive.org/web/2024/https://apnews.com/article/chesebro-plea-deal-georgia-trump-d7bf0c2f5a1c5f35d7a8c9e8b3e7a4f1', type: 'News Report' },
+      { title: 'Kenneth Chesebro Plea Deal', url: 'https://apnews.com/article/chesebro-plea-deal-georgia-trump-d7bf0c2f5a1c5f35d7a8c9e8b3e7a4f1', type: 'News Report' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Lead defendant, 13 counts', href: '/entities/individuals/donald-trump' },
@@ -286,8 +286,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'E. Jean Carroll v. Donald J. Trump - SDNY Case 1:22-cv-10016', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.591548/gov.uscourts.nysd.591548.1.0.pdf', type: 'Court Filing' },
       { title: 'Carroll Verdict - $83.3 Million Award (Jan 2024)', url: 'https://www.nytimes.com/2024/01/26/nyregion/trump-carroll-verdict-defamation.html', type: 'News Report' },
       { title: 'Ruby Freeman Testimony to January 6th Committee', url: 'https://www.youtube.com/watch?v=xenYK2Lv5Qg', type: 'Video Testimony' },
-      { title: 'Giuliani Defamation Verdict - $148 Million', url: 'https://web.archive.org/web/2024/https://apnews.com/article/giuliani-defamation-verdict-georgia-election-workers-e42ec6a5b4ee7a52c4c9d13b9b5f0a0d', type: 'News Report' },
-      { title: 'Fox News Dominion Settlement - $787.5 Million', url: 'https://web.archive.org/web/2024/https://www.npr.org/2023/04/18/1170339134/fox-news-dominion-settlement', type: 'News Report' },
+      { title: 'Giuliani Defamation Verdict - $148 Million', url: 'https://apnews.com/article/giuliani-defamation-verdict-georgia-election-workers-e42ec6a5b4ee7a52c4c9d13b9b5f0a0d', type: 'News Report' },
+      { title: 'Fox News Dominion Settlement - $787.5 Million', url: 'https://www.npr.org/2023/04/18/1170339134/fox-news-dominion-settlement', type: 'News Report' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant - $88.3M in judgments', href: '/entities/individuals/donald-trump' },
@@ -322,8 +322,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Saudi Arabia', 'Yemen', 'Arms Sales', 'War Crimes', 'Khashoggi', 'Jared Kushner', 'MBS'],
     sources: [
       { title: 'Trump Saudi Arms Deal Announcement', url: 'https://www.reuters.com/article/us-usa-trump-saudi-arms-idUSKCN18G03A', type: 'News Report' },
-      { title: 'Yemen Death Toll Analysis - ACLED', url: 'https://web.archive.org/web/2024/https://acleddata.com/2021/11/17/a-great-and-sudden-change-the-global-political-violence-landscape-before-and-after-the-covid-19-pandemic/', type: 'Research' },
-      { title: 'School Bus Bombing - CNN Investigation', url: 'https://web.archive.org/web/2024/https://www.cnn.com/2018/08/17/middleeast/us-bomb-yemen-school-bus-intl/index.html', type: 'Investigation' },
+      { title: 'Yemen Death Toll Analysis - ACLED', url: 'https://acleddata.com/2021/11/17/a-great-and-sudden-change-the-global-political-violence-landscape-before-and-after-the-covid-19-pandemic/', type: 'Research' },
+      { title: 'School Bus Bombing - CNN Investigation', url: 'https://www.cnn.com/2018/08/17/middleeast/us-bomb-yemen-school-bus-intl/index.html', type: 'Investigation' },
       { title: 'CIA Assessment: MBS Ordered Khashoggi Murder', url: 'https://www.washingtonpost.com/world/national-security/cia-concludes-saudi-crown-prince-ordered-jamal-khashoggis-assassination/2018/11/16/98c89fe6-e9b2-11e8-a939-9469f1166f9d_story.html', type: 'Intelligence Report' },
       { title: 'Trump Veto of Yemen War Powers Resolution', url: 'https://www.congress.gov/bill/116th-congress/senate-joint-resolution/7', type: 'Congressional Record' },
       { title: 'Kushner $2B Saudi Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', type: 'News Report' },
@@ -400,7 +400,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Mueller Report - Volume II (Obstruction)', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Official Report' },
       { title: 'Trump Lester Holt Interview', url: 'https://www.nbcnews.com/nightly-news/video/i-was-going-to-fire-comey-anyway-trump-tells-lester-holt-in-interview-941538371971', type: 'Video' },
       { title: 'McGahn Testimony - House Judiciary', url: 'https://judiciary.house.gov/sites/democrats.judiciary.house.gov/files/documents/McGahn%20Testimony.pdf', type: 'Congressional Testimony' },
-      { title: 'Comey Memos', url: 'https://web.archive.org/web/2024/https://www.cnn.com/2018/04/19/politics/comey-memos-read/index.html', type: 'Document' },
+      { title: 'Comey Memos', url: 'https://www.cnn.com/2018/04/19/politics/comey-memos-read/index.html', type: 'Document' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Subject of ten obstruction findings', href: '/entities/individuals/donald-trump' },
@@ -435,10 +435,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Fraud', 'Trump Organization', 'Letitia James', 'Tax Fraud', 'Weisselberg', 'Civil Judgment'],
     sources: [
-      { title: 'NY AG Fraud Complaint', url: 'https://web.archive.org/web/2024/https://ag.ny.gov/sites/default/files/2022-09-21-complaint.pdf', type: 'Court Filing' },
+      { title: 'NY AG Fraud Complaint', url: 'https://ag.ny.gov/sites/default/files/2022-09-21-complaint.pdf', type: 'Court Filing' },
       { title: 'Judge Engoron Decision', url: 'https://www.nycourts.gov/reporter/3dseries/2024/2024_00836.htm', type: 'Court Decision' },
       { title: 'Trump Org Criminal Conviction', url: 'https://www.manhattanda.org/d-a-bragg-trump-organization-found-guilty-on-all-counts/', type: 'Press Release' },
-      { title: 'Weisselberg Perjury Plea', url: 'https://web.archive.org/web/2024/https://apnews.com/article/trump-organization-weisselberg-perjury-guilty-plea-f3e6c0a1c0a0b1a1a1b1c1d1e1f1a1b1', type: 'News Report' },
+      { title: 'Weisselberg Perjury Plea', url: 'https://apnews.com/article/trump-organization-weisselberg-perjury-guilty-plea-f3e6c0a1c0a0b1a1a1b1c1d1e1f1a1b1', type: 'News Report' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Found liable, $454M judgment', href: '/entities/individuals/donald-trump' },
@@ -733,7 +733,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Trump University', 'Fraud', 'Settlement', 'Scam', 'Education Fraud'],
     sources: [
-      { title: 'NY AG Trump University Lawsuit', url: 'https://web.archive.org/web/2024/https://ag.ny.gov/press-release/2013/ag-schneiderman-sues-donald-trump-trump-university-and-seeks-40-million', type: 'Press Release' },
+      { title: 'NY AG Trump University Lawsuit', url: 'https://ag.ny.gov/press-release/2013/ag-schneiderman-sues-donald-trump-trump-university-and-seeks-40-million', type: 'Press Release' },
       { title: 'Trump University Settlement', url: 'https://www.nytimes.com/2016/11/18/us/politics/donald-trump-university-fraud-settlement.html', type: 'News Report' },
       { title: 'Trump University Playbooks', url: 'https://www.politico.com/f/?id=00000154-e07a-d20f-a9d6-e7fe84e80000', type: 'Court Documents' },
     ],
@@ -762,7 +762,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Trump Foundation', 'Charity Fraud', 'Self-Dealing', 'Dissolution', 'NY AG'],
     sources: [
-      { title: 'NY AG Foundation Lawsuit', url: 'https://web.archive.org/web/2024/https://ag.ny.gov/press-release/2018/attorney-general-underwood-announces-stipulation-dissolving-trump-foundation', type: 'Press Release' },
+      { title: 'NY AG Foundation Lawsuit', url: 'https://ag.ny.gov/press-release/2018/attorney-general-underwood-announces-stipulation-dissolving-trump-foundation', type: 'Press Release' },
       { title: 'Foundation Settlement', url: 'https://ag.ny.gov/press-release/2019/donald-j-trump-pays-court-ordered-2-million-illegally-using-trump-foundation', type: 'Press Release' },
       { title: 'Washington Post Veterans Fundraiser Investigation', url: 'https://www.washingtonpost.com/politics/trump-boasts-of-his-philanthropy-but-his-giving-falls-short-of-his-words/2016/10/29/b3c03106-9ac7-11e6-a0ed-ab0774c1eaa5_story.html', type: 'Investigation' },
     ],
@@ -793,7 +793,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['USPS', 'DeJoy', 'Voter Suppression', 'Mail-in Voting', 'Election Interference'],
     sources: [
-      { title: 'House Oversight Report on DeJoy', url: 'https://web.archive.org/web/2024/https://oversight.house.gov/sites/democrats.oversight.house.gov/files/documents/USPS%20Briefing%20Paper.pdf', type: 'Government Report' },
+      { title: 'House Oversight Report on DeJoy', url: 'https://oversight.house.gov/sites/democrats.oversight.house.gov/files/documents/USPS%20Briefing%20Paper.pdf', type: 'Government Report' },
       { title: 'Trump Admits USPS Motive', url: 'https://www.washingtonpost.com/politics/trump-mail-voting-usps/2020/08/13/3d0dce32-dd70-11ea-8051-d5f887d73381_story.html', type: 'News Report' },
       { title: 'Sorting Machine Removal Investigation', url: 'https://www.washingtonpost.com/business/2020/08/20/postal-service-mail-sorters-removals/', type: 'Investigation' },
       { title: 'Federal Court Order on USPS', url: 'https://www.washingtonpost.com/national-security/federal-judge-blocks-postal-service-changes/2020/09/17/ed7e5000-f919-11ea-a275-1a2c2d36e1f1_story.html', type: 'Court Order' },
@@ -825,7 +825,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Money Laundering', 'Russia', 'Deutsche Bank', 'Shell Companies', 'Real Estate'],
     sources: [
       { title: 'Reuters Investigation: Russian Elite Invested Heavily in Trump Properties', url: 'https://www.reuters.com/investigates/special-report/usa-trump-property/', type: 'Investigation' },
-      { title: 'BuzzFeed/FinCEN Files: Trump Transactions', url: 'https://web.archive.org/web/2024/https://www.buzzfeednews.com/article/anthonycormier/trump-deutsche-bank-money-laundering', type: 'Investigation' },
+      { title: 'BuzzFeed/FinCEN Files: Trump Transactions', url: 'https://www.buzzfeednews.com/article/anthonycormier/trump-deutsche-bank-money-laundering', type: 'Investigation' },
       { title: 'Global Witness Panama Report', url: 'https://www.globalwitness.org/en/campaigns/corruption-and-money-laundering/narco-a-lago-panama/', type: 'Research Report' },
       { title: 'NY Times Deutsche Bank Investigation', url: 'https://www.nytimes.com/2020/02/04/magazine/deutsche-bank-trump.html', type: 'Investigation' },
     ],
@@ -858,7 +858,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'E. Jean Carroll Verdict - $88.3M', url: 'https://www.nytimes.com/2024/01/26/nyregion/trump-carroll-defamation-trial.html', type: 'News Report' },
       { title: 'Access Hollywood Tape', url: 'https://www.washingtonpost.com/politics/trump-recorded-having-extremely-lewd-conversation-about-women-in-2005/2016/10/07/3b9ce776-8cb4-11e6-bf8a-3d26847eeed4_story.html', type: 'Audio/Video' },
-      { title: 'Complete List of Trump Accusers - Business Insider', url: 'https://web.archive.org/web/2024/https://www.businessinsider.com/women-accusing-trump-sexual-misconduct-2017-12', type: 'News Compilation' },
+      { title: 'Complete List of Trump Accusers - Business Insider', url: 'https://www.businessinsider.com/women-accusing-trump-sexual-misconduct-2017-12', type: 'News Compilation' },
       { title: 'Miss Teen USA Dressing Room Report', url: 'https://www.buzzfeednews.com/article/kendalltaggart/teen-beauty-queens-say-trump-walked-in-on-them-changing', type: 'Investigation' },
     ],
     affiliations: [
@@ -891,7 +891,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Trump Pardon List', url: 'http://web.archive.org/web/20210424061514/http://web.archive.org/web/20210424061514/https://www.justice.gov/pardon/pardons-granted-president-donald-trump', type: 'Government Document' },
       { title: 'Blackwater Pardons Condemned - UN', url: 'https://news.un.org/en/story/2020/12/1081152', type: 'UN Statement' },
       { title: 'Pardon Bribery Investigation', url: 'https://www.nytimes.com/2020/12/01/us/politics/pardon-bribery-investigation.html', type: 'News Report' },
-      { title: 'Military Opposition to War Criminal Pardons', url: 'https://web.archive.org/web/2024/https://www.militarytimes.com/news/pentagon-congress/2019/11/21/trump-grants-clemency-to-army-officer-who-killed-iraqi-prisoner/', type: 'News Report' },
+      { title: 'Military Opposition to War Criminal Pardons', url: 'https://www.militarytimes.com/news/pentagon-congress/2019/11/21/trump-grants-clemency-to-army-officer-who-killed-iraqi-prisoner/', type: 'News Report' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Issued corrupt pardons', href: '/entities/individuals/donald-trump' },
@@ -1020,7 +1020,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Oath Keepers', 'Stewart Rhodes', 'Seditious Conspiracy', 'January 6', 'Militia'],
     sources: [
-      { title: 'Rhodes Sedition Conviction - DOJ', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-and-florida-chapter-leader-convicted-seditious-conspiracy', type: 'Press Release' },
+      { title: 'Rhodes Sedition Conviction - DOJ', url: 'https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-and-florida-chapter-leader-convicted-seditious-conspiracy', type: 'Press Release' },
       { title: 'Rhodes 18-Year Sentence', url: 'https://www.justice.gov/usao-dc/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-seditious-conspiracy', type: 'Press Release' },
       { title: 'QRF Weapons Cache Evidence', url: 'https://www.washingtonpost.com/dc-md-va/2022/10/06/oath-keepers-trial-quick-reaction-force/', type: 'News Report' },
       { title: 'Rhodes Civil War Communications', url: 'https://www.nytimes.com/2021/02/14/us/stewart-rhodes-oath-keepers.html', type: 'Investigation' },
@@ -1053,10 +1053,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Fake Electors', 'Election Fraud', 'Eastman', 'Chesebro', 'January 6'],
     sources: [
-      { title: 'Fake Elector Certificates - CNN Analysis', url: 'https://web.archive.org/web/2024/https://www.cnn.com/2022/01/12/politics/trump-fake-electoral-certificates/index.html', type: 'Investigation' },
-      { title: 'Eastman Memos', url: 'https://web.archive.org/web/2024/https://www.cnn.com/2021/09/21/politics/read-eastman-memo-trump-pence/index.html', type: 'Document' },
-      { title: 'Georgia Fake Elector Indictments', url: 'https://web.archive.org/web/2024/https://www.ajc.com/politics/georgia-fake-electors-charged-in-2020-scheme/', type: 'News Report' },
-      { title: 'Arizona Indictments', url: 'https://web.archive.org/web/2024/https://apnews.com/article/arizona-fake-electors-indicted-trump-giuliani-meadows-a1b2c3d4e5f6', type: 'News Report' },
+      { title: 'Fake Elector Certificates - CNN Analysis', url: 'https://www.cnn.com/2022/01/12/politics/trump-fake-electoral-certificates/index.html', type: 'Investigation' },
+      { title: 'Eastman Memos', url: 'https://www.cnn.com/2021/09/21/politics/read-eastman-memo-trump-pence/index.html', type: 'Document' },
+      { title: 'Georgia Fake Elector Indictments', url: 'https://www.ajc.com/politics/georgia-fake-electors-charged-in-2020-scheme/', type: 'News Report' },
+      { title: 'Arizona Indictments', url: 'https://apnews.com/article/arizona-fake-electors-indicted-trump-giuliani-meadows-a1b2c3d4e5f6', type: 'News Report' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Directed the scheme per indictment', href: '/entities/individuals/donald-trump' },
@@ -1089,7 +1089,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Fox-Dominion Settlement', url: 'https://www.nytimes.com/2023/04/18/business/media/fox-news-dominion-settlement.html', type: 'News Report' },
       { title: 'Tucker Carlson Texts Revealed', url: 'https://www.nytimes.com/2023/03/07/business/media/fox-dominion-lawsuit-tucker-carlson.html', type: 'Court Documents' },
       { title: 'Murdoch Deposition Excerpts', url: 'https://www.washingtonpost.com/media/2023/02/27/rupert-murdoch-deposition-fox-dominion/', type: 'Court Documents' },
-      { title: 'Giuliani $148M Verdict', url: 'https://web.archive.org/web/2024/https://apnews.com/article/giuliani-defamation-verdict-georgia-election-workers-e42ec6a5b4ee7a52c4c9d13b9b5f0a0d', type: 'News Report' },
+      { title: 'Giuliani $148M Verdict', url: 'https://apnews.com/article/giuliani-defamation-verdict-georgia-election-workers-e42ec6a5b4ee7a52c4c9d13b9b5f0a0d', type: 'News Report' },
     ],
     affiliations: [
       { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Paid $787.5M settlement', href: '/entities/corporations/fox-news' },
@@ -1152,8 +1152,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Inaugural Committee', 'Tom Barrack', 'Trump Hotel', 'Foreign Donations', 'Nonprofit Fraud'],
     sources: [
-      { title: 'ProPublica Inaugural Investigation', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/trump-inc-podcast-trumps-inaugural-committee-paid-trumps-company-with-ivanka-trump-in-the-middle', type: 'Investigation' },
-      { title: 'DC AG Settlement', url: 'https://web.archive.org/web/2024/https://oag.dc.gov/release/ag-racine-announces-settlement-inaugural-committee', type: 'Press Release' },
+      { title: 'ProPublica Inaugural Investigation', url: 'https://www.propublica.org/article/trump-inc-podcast-trumps-inaugural-committee-paid-trumps-company-with-ivanka-trump-in-the-middle', type: 'Investigation' },
+      { title: 'DC AG Settlement', url: 'https://oag.dc.gov/release/ag-racine-announces-settlement-inaugural-committee', type: 'Press Release' },
       { title: 'Barrack Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united', type: 'Court Filing' },
       { title: 'Wolkoff Whistleblower Account', url: 'https://www.nytimes.com/2020/08/26/us/politics/melania-trump-secret-recording.html', type: 'News Report' },
     ],
@@ -1277,7 +1277,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Washington Post DEA Investigation', url: 'https://www.washingtonpost.com/graphics/2017/investigations/dea-drug-industry-congress/', type: 'Investigation' },
       { title: 'Marino Withdrawal', url: 'https://www.nytimes.com/2017/10/17/us/politics/tom-marino-drug-czar-nominee.html', type: 'News Report' },
       { title: 'CDC Overdose Data', url: 'http://web.archive.org/web/20240515184205/https://www.cdc.gov/drugoverdose/deaths/index.html', type: 'Government Data' },
-      { title: 'Purdue Pharma Settlement', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/purdue-pharma-lp-pleads-guilty-federal-charges', type: 'Press Release' },
+      { title: 'Purdue Pharma Settlement', url: 'https://www.justice.gov/opa/pr/purdue-pharma-lp-pleads-guilty-federal-charges', type: 'Press Release' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Declared emergency, appointed industry', href: '/entities/individuals/donald-trump' },
@@ -1332,12 +1332,12 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'DHS Drone Surveillance of Protests', url: 'https://www.nytimes.com/2020/06/19/us/politics/george-floyd-protests-surveillance.html', type: 'News Report' },
       { title: 'EFF Surveillance Self-Defense', url: 'https://ssd.eff.org/', type: 'Civil Liberties Organization' },
       { title: 'FISA Court Opinions on Section 702', url: 'https://www.fisc.uscourts.gov/public-filings', type: 'Court Document' },
-      { title: 'ACLU Portland Lawsuit', url: 'https://web.archive.org/web/2024/https://www.aclu.org/cases/index-newspapers-llc-v-city-portland', type: 'Legal Document' },
+      { title: 'ACLU Portland Lawsuit', url: 'https://www.aclu.org/cases/index-newspapers-llc-v-city-portland', type: 'Legal Document' },
       { title: 'GAO Report on Facial Recognition', url: 'https://www.gao.gov/products/gao-21-526', type: 'Government Report' },
       { title: 'DHS I&A Intelligence Dossiers on Journalists', url: 'https://www.washingtonpost.com/national-security/dhs-compiled-intelligence-reports-on-journalists-covering-portland-protests/2020/07/31/5be975ec-d34e-11ea-9038-af089b63ac21_story.html', type: 'News Investigation' },
       { title: 'DOJ Seizure of Reporter Records', url: 'https://www.nytimes.com/2021/06/02/us/politics/trump-administration-reporters-records.html', type: 'News Report' },
       { title: 'Clearview AI Federal Contracts', url: 'https://www.buzzfeednews.com/article/ryanmac/clearview-ai-fbi-ice-global-law-enforcement', type: 'Investigation' },
-      { title: 'NSA Call Records Program Illegality', url: 'https://web.archive.org/web/2024/https://www.eff.org/deeplinks/2020/09/victory-appeals-court-rules-nsa-mass-surveillance-illegal', type: 'Court Ruling' },
+      { title: 'NSA Call Records Program Illegality', url: 'https://www.eff.org/deeplinks/2020/09/victory-appeals-court-rules-nsa-mass-surveillance-illegal', type: 'Court Ruling' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Authorized expansion of surveillance powers', href: '/entities/individuals/donald-trump' },
@@ -1375,14 +1375,14 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Water', 'Privatization', 'EPA', 'Clean Water Act', 'Environmental Justice', 'Flint', 'Nestlé', 'PFAS', 'Infrastructure'],
     sources: [
-      { title: 'Trump EPA Water Rule Rollbacks', url: 'https://web.archive.org/web/2024/https://www.epa.gov/newsreleases/epa-army-finalize-rule-increase-clean-water-act-clarity', type: 'Government Document' },
+      { title: 'Trump EPA Water Rule Rollbacks', url: 'https://www.epa.gov/newsreleases/epa-army-finalize-rule-increase-clean-water-act-clarity', type: 'Government Document' },
       { title: 'NRDC Clean Water Act Analysis', url: 'https://www.nrdc.org/stories/clean-water-act', type: 'Environmental Organization' },
       { title: 'Flint Water Crisis Timeline', url: 'https://www.nrdc.org/stories/flint-water-crisis-everything-you-need-know', type: 'Investigation' },
-      { title: 'Nestlé Michigan Water Extraction', url: 'https://web.archive.org/web/2024/https://www.theguardian.com/us-news/2017/sep/29/nestle-pays-water-public-water-bottling-michigan-drought', type: 'News Report' },
+      { title: 'Nestlé Michigan Water Extraction', url: 'https://www.theguardian.com/us-news/2017/sep/29/nestle-pays-water-public-water-bottling-michigan-drought', type: 'News Report' },
       { title: 'EPA PFAS Study Suppression', url: 'https://www.politico.com/story/2018/05/14/emails-white-house-epa-threat-pfas-585690', type: 'News Investigation' },
       { title: 'American Society of Civil Engineers Report Card', url: 'https://infrastructurereportcard.org/cat-item/drinking-water/', type: 'Technical Report' },
       { title: 'Lead Pipe Estimates - EPA', url: 'https://www.epa.gov/ground-water-and-drinking-water/basic-information-about-lead-drinking-water', type: 'Government Data' },
-      { title: 'Coal Ash Rule Rollback', url: 'https://web.archive.org/web/2024/https://www.epa.gov/coalash/coal-combustion-residuals-ccr-disposal', type: 'Government Document' },
+      { title: 'Coal Ash Rule Rollback', url: 'https://www.epa.gov/coalash/coal-combustion-residuals-ccr-disposal', type: 'Government Document' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Policy direction, Infrastructure Week failures', href: '/entities/individuals/donald-trump' },
@@ -1538,7 +1538,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'SEC DWAC Settlement', url: 'https://www.sec.gov/news/press-release/2023-129', type: 'Government Document' },
       { title: 'Trump Crypto Analysis - NY Times', url: 'https://www.nytimes.com/2025/01/18/business/trump-meme-coin.html', type: 'News Report' },
       { title: 'World Liberty Financial Investigation', url: 'https://www.reuters.com/technology/trumps-world-liberty-financial-raises-over-300-million-crypto-tokens-2025-01-20/', type: 'Financial News' },
-      { title: 'Trump Tweet Market Impact Study', url: 'https://web.archive.org/web/2024/https://www.brookings.edu/articles/how-trumps-tweets-affect-the-stock-market/', type: 'Academic Research' },
+      { title: 'Trump Tweet Market Impact Study', url: 'https://www.brookings.edu/articles/how-trumps-tweets-affect-the-stock-market/', type: 'Academic Research' },
       { title: 'Carl Icahn Steel Trading', url: 'https://www.bloomberg.com/news/articles/2018-03-08/carl-icahn-s-bet-against-steel-gets-huge-boost-from-trump-tariff', type: 'Financial News' },
       { title: 'Trump NFT Sales', url: 'https://opensea.io/collection/trump-digital-trading-cards', type: 'Market Data' },
       { title: 'Truth Social User Estimates', url: 'https://www.similarweb.com/website/truthsocial.com/', type: 'Analytics Data' },
@@ -1769,7 +1769,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Open Society Foundations', url: 'https://www.opensocietyfoundations.org/', type: 'Official Source' },
       { title: 'OpenSecrets Dark Money Tracking', url: 'https://www.opensecrets.org/dark-money', type: 'Database' },
       { title: 'Koch Network Investigation', url: 'https://www.newyorker.com/magazine/2010/08/30/covert-operations', type: 'Investigation' },
-      { title: 'Leonard Leo Network ProPublica', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/leonard-leo-used-robe-to-hide-dark-money-donations', type: 'Investigation' },
+      { title: 'Leonard Leo Network ProPublica', url: 'https://www.propublica.org/article/leonard-leo-used-robe-to-hide-dark-money-donations', type: 'Investigation' },
     ],
     affiliations: [
       { id: '1', name: 'George Soros', type: 'individual', relationship: 'Major progressive donor', href: '/entities/individuals/george-soros' },
@@ -1801,7 +1801,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Currency Speculation', 'Market Manipulation', 'Black Wednesday', 'George Soros', 'Financial Markets', 'LIBOR', 'Cryptocurrency', 'Insider Trading'],
     sources: [
-      { title: 'Black Wednesday History', url: 'https://web.archive.org/web/2024/https://www.bbc.com/news/business-19415640', type: 'News Archive' },
+      { title: 'Black Wednesday History', url: 'https://www.bbc.com/news/business-19415640', type: 'News Archive' },
       { title: 'LIBOR Scandal Overview', url: 'https://www.reuters.com/article/us-libor-scandal/timeline-the-libor-scandal-idUSBRE8610M420120702', type: 'Investigation' },
       { title: 'JPMorgan Spoofing Settlement', url: 'https://www.justice.gov/opa/pr/jpmorgan-chase-co-agrees-pay-920-million-connection-schemes-defraud-precious-metals-and-us', type: 'Legal Document' },
     ],
@@ -1835,8 +1835,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Bribery', 'Corruption', 'Emoluments', 'Pardons', 'Pay-to-Play', 'Inaugural Committee', 'Kushner', 'Saudi Arabia'],
     sources: [
-      { title: 'CREW Emoluments Lawsuit Documentation', url: 'https://web.archive.org/web/2024/https://www.citizensforethics.org/legal-action/lawsuits/trump-foreign-emoluments/', type: 'Legal Documentation' },
-      { title: 'DC AG Inaugural Committee Lawsuit', url: 'https://web.archive.org/web/2024/https://oag.dc.gov/release/ag-racine-statement-resolution-lawsuit-against', type: 'Court Filing' },
+      { title: 'CREW Emoluments Lawsuit Documentation', url: 'https://www.citizensforethics.org/legal-action/lawsuits/trump-foreign-emoluments/', type: 'Legal Documentation' },
+      { title: 'DC AG Inaugural Committee Lawsuit', url: 'https://oag.dc.gov/release/ag-racine-statement-resolution-lawsuit-against', type: 'Court Filing' },
       { title: 'NY Times: Kushner $2B Saudi Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', type: 'Investigation' },
       { title: 'Trump Pardon Analysis', url: 'https://www.nytimes.com/2021/01/20/us/politics/trump-pardons.html', type: 'Analysis' },
       { title: 'T-Mobile Trump Hotel Spending', url: 'https://www.washingtonpost.com/politics/t-mobile-spent-195000-at-trumps-hotel-while-lobbying-to-win-government-approval-of-merger-with-sprint/2019/03/05/a4a9c63c-3f5d-11e9-a0d3-1210e58a94cf_story.html', type: 'Investigation' },
@@ -1913,8 +1913,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Animal Welfare', 'Trophy Hunting', 'Endangered Species', 'Wildlife', 'USDA', 'Trump Jr.', 'ESA', 'National Monuments'],
     sources: [
-      { title: 'Trump Trophy Hunting Policy', url: 'https://web.archive.org/web/2024/https://www.nationalgeographic.com/animals/article/trump-ivory-ban-reversed-elephants', type: 'News Report' },
-      { title: 'ESA Rule Changes Analysis', url: 'https://web.archive.org/web/2024/https://www.biologicaldiversity.org/campaigns/esa_rollbacks/', type: 'Analysis' },
+      { title: 'Trump Trophy Hunting Policy', url: 'https://www.nationalgeographic.com/animals/article/trump-ivory-ban-reversed-elephants', type: 'News Report' },
+      { title: 'ESA Rule Changes Analysis', url: 'https://www.biologicaldiversity.org/campaigns/esa_rollbacks/', type: 'Analysis' },
       { title: 'USDA Database Removal', url: 'https://www.washingtonpost.com/news/animalia/wp/2017/02/03/the-usda-abruptly-removes-animal-welfare-information-from-its-website/', type: 'News Report' },
     ],
     affiliations: [
@@ -1981,7 +1981,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Havana Syndrome', 'Directed Energy', 'EMF', 'Russia', 'National Security', 'GRU', 'CIA', 'Diplomats', 'Brain Injury'],
     sources: [
-      { title: '60 Minutes Havana Syndrome Investigation', url: 'https://web.archive.org/web/2024/https://www.cbsnews.com/news/havana-syndrome-microwave-weapons-60-minutes-2022-10-14/', type: 'Investigation' },
+      { title: '60 Minutes Havana Syndrome Investigation', url: 'https://www.cbsnews.com/news/havana-syndrome-microwave-weapons-60-minutes-2022-10-14/', type: 'Investigation' },
       { title: 'National Academy of Sciences Report', url: 'https://www.nationalacademies.org/news/2020/12/new-report-assesses-illnesses-among-us-government-personnel-and-their-families-at-overseas-embassies', type: 'Scientific Report' },
       { title: 'GRU Unit 29155 Analysis', url: 'https://www.nytimes.com/2019/10/08/world/europe/unit-29155-russia-gru.html', type: 'Investigation' },
     ],
@@ -2016,7 +2016,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Intellectual Property', 'Copyright', 'Non-payment', 'Music Rights', 'Contractor Fraud', 'Theft', 'Trump Organization'],
     sources: [
-      { title: 'Artists Demanding Trump Stop Using Music', url: 'https://web.archive.org/web/2024/https://www.rollingstone.com/music/music-news/neil-young-trump-rockin-free-world-lawsuit-1056358/', type: 'News Report' },
+      { title: 'Artists Demanding Trump Stop Using Music', url: 'https://www.rollingstone.com/music/music-news/neil-young-trump-rockin-free-world-lawsuit-1056358/', type: 'News Report' },
       { title: 'USA Today 3,500 Lawsuits Investigation', url: 'https://www.usatoday.com/story/news/politics/elections/2016/06/09/donald-trump-unpaid-bills-exposed/85297274/', type: 'Investigation' },
       { title: 'Tony Schwartz on Writing Art of the Deal', url: 'https://www.newyorker.com/magazine/2016/07/25/donald-trumps-ghostwriter-tells-all', type: 'Interview' },
     ],
@@ -2049,9 +2049,9 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Forced Sterilization', 'ICE', 'Immigration', 'Medical Abuse', 'Crimes Against Humanity', 'Human Rights', 'Eugenics', 'Detention'],
     sources: [
       { title: 'Original Whistleblower Complaint', url: 'https://projectsouth.org/wp-content/uploads/2020/09/OIG-ICDC-Complaint-1.pdf', type: 'Legal Document' },
-      { title: 'Congressional Investigation', url: 'https://web.archive.org/web/2024/https://oversight.house.gov/sites/democrats.oversight.house.gov/files/2020-09-16.CBM%20JR%20SFL%20to%20Wolf-DHS%20Cuccinelli-DHS%20re%20ICDC.pdf', type: 'Congressional Letter' },
-      { title: 'AP Investigation: More Women Allege Unwanted Procedures', url: 'https://web.archive.org/web/2024/https://apnews.com/article/ga-state-wire-us-news-georgia-immigration-archive-c96c770de6a4e1f5f29b2a1a0f34e9e0', type: 'Investigation' },
-      { title: 'Medical Board Investigation of Dr. Amin', url: 'https://web.archive.org/web/2024/https://www.ajc.com/news/georgia-news/ice-detention-doctor-keeps-license-following-forced-sterilization-allegations/XCZLRURHMJHQ3CYUTBACMAMN6I/', type: 'News Report' },
+      { title: 'Congressional Investigation', url: 'https://oversight.house.gov/sites/democrats.oversight.house.gov/files/2020-09-16.CBM%20JR%20SFL%20to%20Wolf-DHS%20Cuccinelli-DHS%20re%20ICDC.pdf', type: 'Congressional Letter' },
+      { title: 'AP Investigation: More Women Allege Unwanted Procedures', url: 'https://apnews.com/article/ga-state-wire-us-news-georgia-immigration-archive-c96c770de6a4e1f5f29b2a1a0f34e9e0', type: 'Investigation' },
+      { title: 'Medical Board Investigation of Dr. Amin', url: 'https://www.ajc.com/news/georgia-news/ice-detention-doctor-keeps-license-following-forced-sterilization-allegations/XCZLRURHMJHQ3CYUTBACMAMN6I/', type: 'News Report' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Administration responsibility', href: '/entities/individuals/donald-trump' },
@@ -2234,7 +2234,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Financial Fraud', 'Securities', 'DJT Stock', 'Trump Organization', 'Tax Fraud'],
     sources: [
-      { title: 'NY AG Fraud Lawsuit', url: 'https://web.archive.org/web/2024/https://ag.ny.gov/press-release/2022/attorney-general-james-sues-donald-trump-defrauding-new-yorkers', type: 'Legal Document' },
+      { title: 'NY AG Fraud Lawsuit', url: 'https://ag.ny.gov/press-release/2022/attorney-general-james-sues-donald-trump-defrauding-new-yorkers', type: 'Legal Document' },
       { title: 'Trump University Settlement', url: 'https://www.nytimes.com/2016/11/19/us/politics/trump-university.html', type: 'Court Records' },
     ],
     affiliations: [
@@ -2265,7 +2265,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Foreign Influence', 'Saudi Arabia', 'Russia', 'China', 'UAE', 'Kushner', 'Emoluments'],
     sources: [
       { title: 'Kushner $2B Saudi Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-arabia-investment-fund.html', type: 'Investigation' },
-      { title: 'Trump Tower Moscow Reports', url: 'https://web.archive.org/web/2024/https://www.buzzfeednews.com/article/anthonycormier/trump-moscow-tower-cohen-2016-election', type: 'Investigation' },
+      { title: 'Trump Tower Moscow Reports', url: 'https://www.buzzfeednews.com/article/anthonycormier/trump-moscow-tower-cohen-2016-election', type: 'Investigation' },
     ],
     affiliations: [
       { id: '1', name: 'Jared Kushner', type: 'individual', relationship: '$2B Saudi investment', href: '/entities/individuals/jared-kushner' },
@@ -2295,7 +2295,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Russia', 'NRA', 'Maria Butina', 'Foreign Interference', 'Campaign Finance'],
     sources: [
-      { title: 'Butina Plea Agreement', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/russian-national-pleads-guilty-conspiracy-act-agent-russian-federation', type: 'Legal Document' },
+      { title: 'Butina Plea Agreement', url: 'https://www.justice.gov/opa/pr/russian-national-pleads-guilty-conspiracy-act-agent-russian-federation', type: 'Legal Document' },
       { title: 'Senate Finance Committee Investigation', url: '#', type: 'Investigation' },
     ],
     affiliations: [
@@ -2385,7 +2385,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Epstein Flight Logs', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', type: 'Primary Documents' },
       { title: 'Miami Herald Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', type: 'Investigation' },
       { title: 'Julie K. Brown Perversion of Justice', url: 'https://www.miamiherald.com/news/local/article220097825.html', type: 'Investigation' },
-      { title: 'DOJ OIG Report on Plea Deal', url: 'https://web.archive.org/web/2024/https://oig.justice.gov/reports/review-and-investigation-allegations-prosecutorial-misconduct-jeffrey-epstein-case', type: 'Government Report' },
+      { title: 'DOJ OIG Report on Plea Deal', url: 'https://oig.justice.gov/reports/review-and-investigation-allegations-prosecutorial-misconduct-jeffrey-epstein-case', type: 'Government Report' },
     ],
     affiliations: [
       { id: '1', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Network architect', href: '/entities/individuals/jeffrey-epstein' },
@@ -2453,7 +2453,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['FARA', 'Foreign Agents', 'Flynn', 'Manafort', 'Lobbying', 'Foreign Influence'],
     sources: [
       { title: 'DOJ FARA Website', url: 'https://www.justice.gov/nsd-fara', type: 'Government Resource' },
-      { title: 'Flynn FARA Registration', url: 'https://web.archive.org/web/2024/https://efile.fara.gov/docs/6069-Registration-Statement-20170308-1.pdf', type: 'Government Document' },
+      { title: 'Flynn FARA Registration', url: 'https://efile.fara.gov/docs/6069-Registration-Statement-20170308-1.pdf', type: 'Government Document' },
       { title: 'Barrack Indictment', url: 'https://www.justice.gov/usao-edny/press-release/file/1413966/download', type: 'Court Document' },
     ],
     affiliations: [
@@ -2513,9 +2513,9 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Fraud', 'Letitia James', 'Trump Organization', 'Asset Inflation', 'Civil Penalty'],
     sources: [
-      { title: 'NY AG Original Complaint', url: 'https://web.archive.org/web/2024/https://ag.ny.gov/press-release/2022/attorney-general-james-sues-donald-trump-defrauding-new-yorkers', type: 'Legal Document' },
+      { title: 'NY AG Original Complaint', url: 'https://ag.ny.gov/press-release/2022/attorney-general-james-sues-donald-trump-defrauding-new-yorkers', type: 'Legal Document' },
       { title: 'Judge Engoron Decision', url: 'https://www.nycourts.gov/reporter/3dseries/2024/2024_00872.htm', type: 'Court Decision' },
-      { title: 'Trump Organization Criminal Verdict', url: 'https://web.archive.org/web/2024/https://manhattanda.org/d-a-bragg-announces-sentencing-in-trump-organization-tax-fraud-case/', type: 'Press Release' },
+      { title: 'Trump Organization Criminal Verdict', url: 'https://manhattanda.org/d-a-bragg-announces-sentencing-in-trump-organization-tax-fraud-case/', type: 'Press Release' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant, $454M judgment', href: '/entities/individuals/donald-trump' },
@@ -2547,7 +2547,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Russia', 'Putin', 'Helsinki', 'Intelligence', 'National Security', 'Treason'],
     sources: [
       { title: 'Full Press Conference Video', url: 'https://www.c-span.org/video/?448333-1/president-trump-russian-president-putin-hold-joint-news-conference', type: 'Primary Source' },
-      { title: 'McCain Statement', url: 'https://web.archive.org/web/2024/https://www.mccain.senate.gov/public/index.cfm/press-releases?ID=7A30E2C9-E12E-4B11-AB5A-29BBB7B1DA9C', type: 'Official Statement' },
+      { title: 'McCain Statement', url: 'https://www.mccain.senate.gov/public/index.cfm/press-releases?ID=7A30E2C9-E12E-4B11-AB5A-29BBB7B1DA9C', type: 'Official Statement' },
       { title: 'ODNI Assessment', url: 'https://www.dni.gov/files/documents/ICA_2017_01.pdf', type: 'Government Report' },
       { title: 'Interpreter Notes Reporting', url: 'https://www.washingtonpost.com/world/national-security/trump-has-concealed-details-of-his-face-to-face-encounters-with-putin-from-senior-officials-in-administration/2019/01/12/65f6686c-1434-11e9-b6ad-9cfd62dbb0a8_story.html', type: 'Investigation' },
     ],
@@ -2877,7 +2877,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Census', 'Citizenship', 'Voter Suppression', 'Wilbur Ross', 'Thomas Hofeller', 'Supreme Court'],
     sources: [
-      { title: 'Supreme Court Ruling', url: 'https://web.archive.org/web/2024/https://www.supremecourt.gov/opinions/18pdf/18-966_bofm.pdf', type: 'Legal Document' },
+      { title: 'Supreme Court Ruling', url: 'https://www.supremecourt.gov/opinions/18pdf/18-966_bofm.pdf', type: 'Legal Document' },
       { title: 'Hofeller Files', url: 'https://www.nytimes.com/2019/05/30/us/census-citizenship-question-hofeller.html', type: 'Investigation' },
     ],
     affiliations: [
@@ -2933,7 +2933,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Sharpiegate', 'Hurricane Dorian', 'NOAA', 'Weather Service', 'Alabama', 'Abuse of Power'],
     sources: [
-      { title: 'IG Report on NOAA', url: 'https://web.archive.org/web/2024/https://www.oig.doc.gov/OIGPublications/OIG-20-032-A.pdf', type: 'Government Report' },
+      { title: 'IG Report on NOAA', url: 'https://www.oig.doc.gov/OIGPublications/OIG-20-032-A.pdf', type: 'Government Report' },
       { title: 'Timeline of Events', url: 'https://www.washingtonpost.com/weather/2019/09/06/president-trump-showed-an-altered-hurricane-dorian-map-heres-full-story/', type: 'News' },
     ],
     affiliations: [
@@ -3023,8 +3023,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Tower Commission Report', url: 'https://archive.org/details/TowerCommissionReport', type: 'Government Report' },
       { title: 'Iran-Contra Final Report', url: 'https://irp.fas.org/offdocs/walsh/', type: 'Government Report' },
-      { title: 'National Security Archive Documents', url: 'https://web.archive.org/web/2024/https://nsarchive.gwu.edu/project/iran-contra-affair', type: 'Primary Documents' },
-      { title: 'Congressional Report', url: 'https://web.archive.org/web/2024/https://www.congress.gov/100/crpt/hrpt433/CRPT-100hrpt433.pdf', type: 'Government Report' },
+      { title: 'National Security Archive Documents', url: 'https://nsarchive.gwu.edu/project/iran-contra-affair', type: 'Primary Documents' },
+      { title: 'Congressional Report', url: 'https://www.congress.gov/100/crpt/hrpt433/CRPT-100hrpt433.pdf', type: 'Government Report' },
     ],
     affiliations: [
       { id: '1', name: 'Ronald Reagan', type: 'individual', relationship: 'President during scandal', href: '/entities/individuals/ronald-reagan' },
@@ -3058,7 +3058,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Watergate', 'Nixon', 'Impeachment', 'Cover-up', 'Saturday Night Massacre', 'Resignation'],
     sources: [
-      { title: 'House Judiciary Committee Impeachment Report', url: 'https://web.archive.org/web/2024/https://www.congress.gov/93/crpt/hrpt1305/CRPT-93hrpt1305.pdf', type: 'Government Report' },
+      { title: 'House Judiciary Committee Impeachment Report', url: 'https://www.congress.gov/93/crpt/hrpt1305/CRPT-93hrpt1305.pdf', type: 'Government Report' },
       { title: 'Nixon White House Tapes', url: 'https://www.nixonlibrary.gov/white-house-tapes', type: 'Primary Documents' },
       { title: 'Washington Post Watergate Coverage', url: 'https://www.washingtonpost.com/wp-srv/national/longterm/watergate/front.htm', type: 'News Archive' },
       { title: 'Senate Watergate Committee Report', url: 'https://www.senate.gov/about/powers-procedures/investigations/watergate.htm', type: 'Government Report' },
@@ -3095,9 +3095,9 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Iraq War', 'WMD', 'Colin Powell', 'Bush', 'War Crimes', 'Intelligence Manipulation'],
     sources: [
-      { title: 'Senate Intelligence Committee Report on Pre-War Intelligence', url: 'https://web.archive.org/web/2024/https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-prewar-intelligence-assessments-about-postwar', type: 'Government Report' },
+      { title: 'Senate Intelligence Committee Report on Pre-War Intelligence', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-prewar-intelligence-assessments-about-postwar', type: 'Government Report' },
       { title: 'Powell UN Presentation Transcript', url: 'https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm', type: 'Primary Document' },
-      { title: 'Downing Street Memo', url: 'https://web.archive.org/web/2024/https://nsarchive.gwu.edu/document/19809-national-security-archive-downing-street-memo', type: 'Primary Document' },
+      { title: 'Downing Street Memo', url: 'https://nsarchive.gwu.edu/document/19809-national-security-archive-downing-street-memo', type: 'Primary Document' },
       { title: 'WMD Commission Report', url: 'https://irp.fas.org/offdocs/wmd_report.pdf', type: 'Government Report' },
     ],
     affiliations: [
@@ -3135,7 +3135,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Senate Torture Report Executive Summary', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', type: 'Government Report' },
       { title: 'ACLU Torture Documents', url: 'https://www.aclu.org/issues/national-security/torture', type: 'Legal Documents' },
       { title: 'CIA Inspector General Report', url: 'https://www.cia.gov/readingroom/document/0006541685', type: 'Government Report' },
-      { title: 'DOJ Torture Memos', url: 'https://web.archive.org/web/2024/https://www.aclu.org/torture-memos', type: 'Legal Documents' },
+      { title: 'DOJ Torture Memos', url: 'https://www.aclu.org/torture-memos', type: 'Legal Documents' },
     ],
     affiliations: [
       { id: '1', name: 'George W. Bush', type: 'individual', relationship: 'President who authorized program', href: '/entities/individuals/george-w-bush' },
@@ -3168,7 +3168,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Election 2000', 'Bush v Gore', 'Florida Recount', 'Supreme Court', 'Katherine Harris', 'Butterfly Ballot'],
     sources: [
       { title: 'Bush v. Gore Decision', url: 'https://supreme.justia.com/cases/federal/us/531/98/', type: 'Court Decision' },
-      { title: 'Florida Recount Study', url: 'https://web.archive.org/web/2024/https://www.norc.org/research/projects/the-florida-ballots-project.html', type: 'Research' },
+      { title: 'Florida Recount Study', url: 'https://www.norc.org/research/projects/the-florida-ballots-project.html', type: 'Research' },
       { title: 'Brooks Brothers Riot Documentation', url: 'https://en.wikipedia.org/wiki/Brooks_Brothers_riot', type: 'Historical Record' },
     ],
     affiliations: [
@@ -3312,7 +3312,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'NY Times Original Investigation', url: 'https://www.nytimes.com/2021/03/30/us/politics/matt-gaetz-sex-trafficking-investigation.html', type: 'News Report' },
       { title: 'Greenberg Plea Agreement', url: 'https://www.justice.gov/usao-mdfl/pr/former-seminole-county-tax-collector-pleads-guilty-sex-trafficking-minor-and-other', type: 'Court Document' },
       { title: 'House Ethics Committee Report', url: 'https://ethics.house.gov/', type: 'Government Report' },
-      { title: 'DOJ Decision Coverage', url: 'https://web.archive.org/web/2024/https://www.cnn.com/2023/02/15/politics/matt-gaetz-justice-department-investigation/index.html', type: 'News Report' },
+      { title: 'DOJ Decision Coverage', url: 'https://www.cnn.com/2023/02/15/politics/matt-gaetz-justice-department-investigation/index.html', type: 'News Report' },
     ],
     affiliations: [
       { id: '1', name: 'Matt Gaetz', type: 'individual', relationship: 'Subject of investigation', href: '/entities/individuals/matt-gaetz' },
@@ -3464,10 +3464,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['NRA', 'Wayne LaPierre', 'Maria Butina', 'Russia', 'Corruption', 'Dark Money', 'Gun Lobby'],
     sources: [
       { title: 'NY AG NRA Lawsuit', url: 'https://ag.ny.gov/press-release/2020/attorney-general-james-files-lawsuit-dissolve-nra', type: 'Court Filing' },
-      { title: 'LaPierre Civil Verdict', url: 'https://web.archive.org/web/2024/https://ag.ny.gov/press-release/2024/jury-finds-nra-ceo-wayne-lapierre-liable-corruption', type: 'Court Verdict' },
+      { title: 'LaPierre Civil Verdict', url: 'https://ag.ny.gov/press-release/2024/jury-finds-nra-ceo-wayne-lapierre-liable-corruption', type: 'Court Verdict' },
       { title: 'Senate NRA-Russia Report', url: 'https://www.finance.senate.gov/imo/media/doc/The%20NRA%20&%20Russia%20-%20How%20a%20Tax-Exempt%20Organization%20Became%20a%20Foreign%20Asset.pdf', type: 'Congressional Report' },
       { title: 'Butina Plea Agreement', url: 'https://www.justice.gov/opa/pr/russian-national-charged-conspiracy-act-agent-russian-federation-within-united-states', type: 'Court Document' },
-      { title: 'New Yorker NRA Investigation', url: 'https://web.archive.org/web/2024/https://www.newyorker.com/magazine/2019/04/15/inside-the-nra', type: 'Investigation' },
+      { title: 'New Yorker NRA Investigation', url: 'https://www.newyorker.com/magazine/2019/04/15/inside-the-nra', type: 'Investigation' },
     ],
     affiliations: [
       { id: '1', name: 'Wayne LaPierre', type: 'individual', relationship: 'CEO, found liable for corruption', href: '/entities/individuals/wayne-lapierre' },
@@ -3506,7 +3506,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Dominion v. Fox Settlement', url: 'https://www.nytimes.com/2023/04/18/business/fox-news-dominion-lawsuit-settlement.html', type: 'News Report' },
       { title: 'Trump Georgia Indictment', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
       { title: 'CISA Election Security Statement', url: 'https://www.cisa.gov/news/2020/11/12/joint-statement-elections-infrastructure-government-coordinating-council-election', type: 'Government Statement' },
-      { title: 'AP Fact Check of Fraud Claims', url: 'https://web.archive.org/web/2024/https://apnews.com/article/fact-check-trump-claims-election-fraud-2020-6b80e4f1a3d6b4cbeaf9784c9a8ed9d2', type: 'Fact Check' },
+      { title: 'AP Fact Check of Fraud Claims', url: 'https://apnews.com/article/fact-check-trump-claims-election-fraud-2020-6b80e4f1a3d6b4cbeaf9784c9a8ed9d2', type: 'Fact Check' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Originated and spread the Big Lie', href: '/entities/individuals/donald-trump' },
@@ -3546,7 +3546,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'SPLC Hate Crime Report', url: 'https://www.splcenter.org/hatewatch', type: 'Research' },
       { title: 'Stephen Miller Email Leaks', url: 'https://www.splcenter.org/hatewatch/2019/11/12/stephen-millers-affinity-white-nationalism-revealed-leaked-emails', type: 'Investigation' },
       { title: 'El Paso Shooter Manifesto Analysis', url: 'https://www.nytimes.com/2019/08/04/us/politics/trump-mass-shootings.html', type: 'News Analysis' },
-      { title: 'ADL Trump and Extremism Report', url: 'https://web.archive.org/web/2024/https://www.adl.org/resources/report/white-supremacist-propaganda-soars-new-aog-high-2022', type: 'Research Report' },
+      { title: 'ADL Trump and Extremism Report', url: 'https://www.adl.org/resources/report/white-supremacist-propaganda-soars-new-aog-high-2022', type: 'Research Report' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Amplified white nationalist rhetoric', href: '/entities/individuals/donald-trump' },
@@ -3622,8 +3622,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Flynn Statement of Offense', url: 'http://web.archive.org/web/20240314193724/http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download', type: 'Court Filing' },
       { title: 'Mueller Report Flynn Sections', url: 'https://www.justice.gov/storage/report.pdf', type: 'Government Report' },
-      { title: 'House Oversight Flynn Investigation', url: 'https://web.archive.org/web/2024/https://oversight.house.gov/legislation/hearings/michael-flynn-s-foreign-agent-registration', type: 'Congressional Record' },
-      { title: 'DOJ Motion to Dismiss Flynn', url: 'https://web.archive.org/web/2024/https://www.justice.gov/sites/default/files/briefs/flynn-motion.pdf', type: 'Court Filing' },
+      { title: 'House Oversight Flynn Investigation', url: 'https://oversight.house.gov/legislation/hearings/michael-flynn-s-foreign-agent-registration', type: 'Congressional Record' },
+      { title: 'DOJ Motion to Dismiss Flynn', url: 'https://www.justice.gov/sites/default/files/briefs/flynn-motion.pdf', type: 'Court Filing' },
       { title: 'Flynn Turkey Payment Investigation', url: 'https://www.nytimes.com/2017/03/10/us/politics/michael-flynn-turkey.html', type: 'News Report' },
     ],
     affiliations: [
@@ -3660,7 +3660,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['COVID-19', 'Lab Leak', 'Anti-Vaccine', 'Disinformation', 'Fauci', 'Hydroxychloroquine', 'Pandemic'],
     sources: [
-      { title: 'House COVID Investigation', url: 'https://web.archive.org/web/2024/https://coronavirus.house.gov/report', type: 'Congressional Report' },
+      { title: 'House COVID Investigation', url: 'https://coronavirus.house.gov/report', type: 'Congressional Report' },
       { title: 'Intelligence Community Origins Assessment', url: 'https://www.dni.gov/files/ODNI/documents/assessments/Declassified-Assessment-on-COVID-19-Origins.pdf', type: 'Government Report' },
       { title: 'FDA Hydroxychloroquine Warning', url: 'https://www.fda.gov/drugs/drug-safety-and-availability/fda-cautions-against-use-hydroxychloroquine-or-chloroquine-covid-19-outside-hospital-setting-or', type: 'Government Warning' },
       { title: 'CDC Excess Deaths Data', url: 'https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm', type: 'Government Data' },
@@ -3699,7 +3699,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Federalist Society', 'Supreme Court', 'Leonard Leo', 'Judicial Appointments', 'Trump Judges', 'Conservative Courts'],
     sources: [
-      { title: 'Federalist Society Influence Study', url: 'https://web.archive.org/web/2024/https://www.americanprogress.org/article/the-federalist-society/', type: 'Research' },
+      { title: 'Federalist Society Influence Study', url: 'https://www.americanprogress.org/article/the-federalist-society/', type: 'Research' },
       { title: 'Trump Judicial Appointments Analysis', url: 'https://www.pewresearch.org/short-reads/2021/01/13/how-trump-compares-with-other-recent-presidents-in-appointing-federal-judges/', type: 'Research' },
       { title: 'Dobbs v. Jackson Decision', url: 'https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf', type: 'Court Opinion' },
       { title: 'Dark Money by Jane Mayer', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', type: 'Book' },
@@ -3743,8 +3743,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'NYT Trump Environmental Rollbacks Tracker', url: 'https://www.nytimes.com/interactive/2020/climate/trump-environment-rollbacks-list.html', type: 'Database' },
       { title: 'EPA Pruitt Ethics Investigations', url: 'http://web.archive.org/web/20151015054144/https://www2.epa.gov/office-inspector-general/reports', type: 'Government Reports' },
-      { title: 'ProPublica OSHA COVID Failures', url: 'https://web.archive.org/web/2024/https://www.propublica.org/series/the-workers-left-behind', type: 'Investigation' },
-      { title: 'House CFPB Investigation', url: 'https://web.archive.org/web/2024/https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=405909', type: 'Congressional Record' },
+      { title: 'ProPublica OSHA COVID Failures', url: 'https://www.propublica.org/series/the-workers-left-behind', type: 'Investigation' },
+      { title: 'House CFPB Investigation', url: 'https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=405909', type: 'Congressional Record' },
       { title: 'GAO Regulatory Reports', url: 'https://www.gao.gov/topics/regulatory-policy', type: 'Government Reports' },
     ],
     affiliations: [
@@ -3783,7 +3783,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Civil Rights', 'DOJ', 'Jeff Sessions', 'Police Reform', 'Voting Rights', 'Discrimination'],
     sources: [
       { title: 'Sessions Consent Decree Memo', url: 'https://www.justice.gov/opa/press-release/file/954916/download', type: 'Government Document' },
-      { title: 'ProPublica Civil Rights Division Investigation', url: 'https://web.archive.org/web/2024/https://www.propublica.org/series/the-trump-administration-civil-rights', type: 'Investigation' },
+      { title: 'ProPublica Civil Rights Division Investigation', url: 'https://www.propublica.org/series/the-trump-administration-civil-rights', type: 'Investigation' },
       { title: 'Census Citizenship Question Ruling', url: 'https://www.supremecourt.gov/opinions/18pdf/18-966_bq7c.pdf', type: 'Court Opinion' },
       { title: 'Leadership Conference on Civil Rights Report', url: 'https://civilrights.org/trump-rollbacks/', type: 'Research' },
       { title: 'NYT Civil Rights Division Exodus', url: 'https://www.nytimes.com/2018/11/23/us/politics/civil-rights-division-justice-department.html', type: 'News Report' },
@@ -3823,8 +3823,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Tom Price Private Jet Investigation', url: 'https://www.politico.com/story/2017/09/28/tom-price-private-jets-resignation-243248', type: 'News Report' },
       { title: 'EPA OIG Pruitt Investigations', url: 'http://web.archive.org/web/20151015054144/https://www2.epa.gov/office-inspector-general/reports', type: 'Government Reports' },
-      { title: 'Zinke Interior IG Report', url: 'https://web.archive.org/web/2024/https://www.doioig.gov/reports/investigation/final-report-investigation-us-department-interior-secretary-ryan-zinkes', type: 'Government Report' },
-      { title: 'CREW Trump Cabinet Ethics Tracker', url: 'https://web.archive.org/web/2024/https://www.citizensforethics.org/reports-investigations/crew-investigations/trump-cabinet-ethics-violations/', type: 'Investigation' },
+      { title: 'Zinke Interior IG Report', url: 'https://www.doioig.gov/reports/investigation/final-report-investigation-us-department-interior-secretary-ryan-zinkes', type: 'Government Report' },
+      { title: 'CREW Trump Cabinet Ethics Tracker', url: 'https://www.citizensforethics.org/reports-investigations/crew-investigations/trump-cabinet-ethics-violations/', type: 'Investigation' },
       { title: 'NYT Pruitt Scandals Timeline', url: 'https://www.nytimes.com/2018/07/05/climate/scott-pruitt-epa-resignation.html', type: 'News Report' },
     ],
     affiliations: [
@@ -3864,7 +3864,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['DHS', 'Immigration', 'Family Separation', 'ICE', 'CBP', 'Child Detention', 'Human Rights'],
     sources: [
-      { title: 'DHS OIG Reports on Child Detention', url: 'https://web.archive.org/web/2024/https://www.oig.dhs.gov/reports/2019/dhs-needs-address-dangerous-overcrowding-among-single-adults-rio-grande-valley', type: 'Government Report' },
+      { title: 'DHS OIG Reports on Child Detention', url: 'https://www.oig.dhs.gov/reports/2019/dhs-needs-address-dangerous-overcrowding-among-single-adults-rio-grande-valley', type: 'Government Report' },
       { title: 'ProPublica CBP Facebook Groups', url: 'https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes', type: 'Investigation' },
       { title: 'ICE Detention Death Data', url: 'https://www.ice.gov/detain/detention-management', type: 'Government Data' },
       { title: 'Physician for Human Rights Family Separation', url: 'https://phr.org/our-work/resources/there-is-no-one-here-to-protect-you/', type: 'Research' },
@@ -3907,7 +3907,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'NYT Environmental Rollbacks Tracker', url: 'https://www.nytimes.com/interactive/2020/climate/trump-environment-rollbacks-list.html', type: 'Database' },
       { title: 'EPA Inspector General Reports', url: 'http://web.archive.org/web/20151015054144/https://www2.epa.gov/office-inspector-general/reports', type: 'Government Reports' },
       { title: 'Union of Concerned Scientists EPA Analysis', url: 'https://www.ucsusa.org/resources/attacks-on-science/trump-administration', type: 'Research' },
-      { title: 'ProPublica Pruitt Calendar Investigation', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/epa-chief-scott-pruitts-calendar-showed-400-meetings-then-items-started-disappearing', type: 'Investigation' },
+      { title: 'ProPublica Pruitt Calendar Investigation', url: 'https://www.propublica.org/article/epa-chief-scott-pruitts-calendar-showed-400-meetings-then-items-started-disappearing', type: 'Investigation' },
       { title: 'Clean Power Plan Repeal Analysis', url: 'https://www.epa.gov/stationary-sources-air-pollution/affordable-clean-energy-rule', type: 'Government Document' },
     ],
     affiliations: [
@@ -4061,9 +4061,9 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['War Profiteering', 'Blackwater', 'Halliburton', 'Iraq War', 'Afghanistan', 'Contractors', 'Erik Prince'],
     sources: [
-      { title: 'SIGIR Iraq Reports', url: 'https://web.archive.org/web/2024/https://www.sigir.mil/files/quarterlyreports/index.html', type: 'Government Reports' },
+      { title: 'SIGIR Iraq Reports', url: 'https://www.sigir.mil/files/quarterlyreports/index.html', type: 'Government Reports' },
       { title: 'SIGAR Afghanistan Reports', url: 'http://web.archive.org/web/20241214005218/https://web.archive.org/web/2024/https://www.sigar.mil/quarterlyreports/', type: 'Government Reports' },
-      { title: 'Nisour Square Massacre Investigation', url: 'https://web.archive.org/web/2024/https://www.hrw.org/report/2007/10/02/targeting-civilians-and-investigators/after-nisour-square-massacre', type: 'Investigation' },
+      { title: 'Nisour Square Massacre Investigation', url: 'https://www.hrw.org/report/2007/10/02/targeting-civilians-and-investigators/after-nisour-square-massacre', type: 'Investigation' },
       { title: 'Trump Blackwater Pardons', url: 'https://www.nytimes.com/2020/12/22/us/politics/trump-pardons-blackwater-contractors-iraq.html', type: 'News Report' },
       { title: 'Halliburton Contracts Analysis', url: 'https://www.pogo.org/analysis/2008/02/halliburton-kbr-and-iraq-war-contracting-0/', type: 'Analysis' },
     ],
@@ -4183,10 +4183,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Immunity', 'Supreme Court', 'Constitutional Law', 'Prosecution', 'Rule of Law', 'SCOTUS'],
     sources: [
       { title: 'Trump v. United States Ruling', url: 'https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf', type: 'Court Opinion' },
-      { title: 'D.C. Circuit Immunity Ruling', url: 'https://web.archive.org/web/2024/https://www.cadc.uscourts.gov/internet/opinions.nsf/opinions', type: 'Court Opinion' },
+      { title: 'D.C. Circuit Immunity Ruling', url: 'https://www.cadc.uscourts.gov/internet/opinions.nsf/opinions', type: 'Court Opinion' },
       { title: 'Sotomayor Dissent', url: 'https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf', type: 'Court Opinion' },
-      { title: 'Oral Argument Transcript', url: 'https://web.archive.org/web/2024/https://www.supremecourt.gov/oral_arguments/argument_transcripts/2023/23-939_b97c.pdf', type: 'Court Record' },
-      { title: 'Analysis of Immunity Ruling', url: 'https://web.archive.org/web/2024/https://www.lawfaremedia.org/article/the-supreme-court-s-trump-immunity-decision', type: 'Legal Analysis' },
+      { title: 'Oral Argument Transcript', url: 'https://www.supremecourt.gov/oral_arguments/argument_transcripts/2023/23-939_b97c.pdf', type: 'Court Record' },
+      { title: 'Analysis of Immunity Ruling', url: 'https://www.lawfaremedia.org/article/the-supreme-court-s-trump-immunity-decision', type: 'Legal Analysis' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Claimed absolute immunity', href: '/entities/individuals/donald-trump' },
@@ -4225,7 +4225,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'January 6 Committee Interview', url: 'https://www.nytimes.com/2022/09/29/us/politics/ginni-thomas-jan-6-committee.html', type: 'News Report' },
       { title: 'Thomas Arizona Emails', url: 'https://www.washingtonpost.com/politics/2022/05/20/ginni-thomas-arizona/', type: 'News Report' },
       { title: 'Trump v. Thompson Dissent', url: 'https://www.supremecourt.gov/opinions/21pdf/21a272_9p6b.pdf', type: 'Court Opinion' },
-      { title: 'Analysis: Thomas Recusal Questions', url: 'https://web.archive.org/web/2024/https://www.brennancenter.org/our-work/research-reports/clarence-thomas-recusal-problem', type: 'Legal Analysis' },
+      { title: 'Analysis: Thomas Recusal Questions', url: 'https://www.brennancenter.org/our-work/research-reports/clarence-thomas-recusal-problem', type: 'Legal Analysis' },
     ],
     affiliations: [
       { id: '1', name: 'Ginni Thomas', type: 'individual', relationship: 'Coordinated with coup plotters', href: '/entities/individuals/ginni-thomas' },
@@ -4260,11 +4260,11 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Harlan Crow', 'Clarence Thomas', 'Ethics', 'Gifts', 'Supreme Court', 'Corruption', 'Disclosure'],
     sources: [
-      { title: 'ProPublica Thomas-Crow Investigation', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-harlan-crow', type: 'Investigation' },
-      { title: 'Thomas Real Estate Deal', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-deal', type: 'Investigation' },
-      { title: 'School Tuition Revelation', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/clarence-thomas-tuition-harlan-crow', type: 'Investigation' },
-      { title: 'Senate Finance Committee Letter', url: 'https://web.archive.org/web/2024/https://www.finance.senate.gov/chairmans-news/wyden-launches-investigation-into-crow-familys-relationship-with-justice-thomas', type: 'Congressional Record' },
-      { title: 'Fix the Court Ethics Analysis', url: 'https://web.archive.org/web/2024/https://fixthecourt.com/2023/04/crow-thomas/', type: 'Analysis' },
+      { title: 'ProPublica Thomas-Crow Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-harlan-crow', type: 'Investigation' },
+      { title: 'Thomas Real Estate Deal', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-deal', type: 'Investigation' },
+      { title: 'School Tuition Revelation', url: 'https://www.propublica.org/article/clarence-thomas-tuition-harlan-crow', type: 'Investigation' },
+      { title: 'Senate Finance Committee Letter', url: 'https://www.finance.senate.gov/chairmans-news/wyden-launches-investigation-into-crow-familys-relationship-with-justice-thomas', type: 'Congressional Record' },
+      { title: 'Fix the Court Ethics Analysis', url: 'https://fixthecourt.com/2023/04/crow-thomas/', type: 'Analysis' },
     ],
     affiliations: [
       { id: '1', name: 'Harlan Crow', type: 'individual', relationship: 'Billionaire benefactor of Thomas', href: '/entities/individuals/harlan-crow' },
@@ -4300,7 +4300,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'ProPublica Supreme Court Investigation', url: 'https://web.archive.org/web/2024/https://www.propublica.org/series/supreme-court-ethics', type: 'Investigation' },
       { title: 'Alito Alaska Trip', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' },
-      { title: 'SCOTUS Adopted Ethics Code', url: 'https://web.archive.org/web/2024/https://www.supremecourt.gov/about/Code-of-Conduct-for-Justices_Adopted.pdf', type: 'Court Document' },
+      { title: 'SCOTUS Adopted Ethics Code', url: 'https://www.supremecourt.gov/about/Code-of-Conduct-for-Justices_Adopted.pdf', type: 'Court Document' },
       { title: 'Gallup Supreme Court Confidence Poll', url: 'https://news.gallup.com/poll/394103/confidence-supreme-court-sinks-historic-low.aspx', type: 'Polling' },
       { title: 'Senate Judiciary Ethics Hearing', url: 'https://www.judiciary.senate.gov/committee-activity/hearings/supreme-court-ethics', type: 'Congressional Record' },
     ],
@@ -4381,9 +4381,9 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Georgia RICO Indictment', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
       { title: 'Coffee County Breach Details - Washington Post', url: 'https://www.washingtonpost.com/investigations/2022/10/19/coffee-county-georgia-voting-trump/', type: 'Investigation' },
-      { title: 'Surveillance Video Evidence', url: 'https://web.archive.org/web/2024/https://www.cnn.com/2023/01/06/politics/coffee-county-georgia-video-trump-investigation/index.html', type: 'News Report' },
+      { title: 'Surveillance Video Evidence', url: 'https://www.cnn.com/2023/01/06/politics/coffee-county-georgia-video-trump-investigation/index.html', type: 'News Report' },
       { title: 'Dominion Civil Lawsuit Evidence', url: 'https://www.nytimes.com/2023/02/16/business/dominion-fox-news-lawsuit.html', type: 'Court Filing' },
-      { title: 'CISA Election Security Assessment', url: 'https://web.archive.org/web/2024/https://www.cisa.gov/news-events/news/joint-statement-cisa-and-eac-election-infrastructure-security', type: 'Government Report' },
+      { title: 'CISA Election Security Assessment', url: 'https://www.cisa.gov/news-events/news/joint-statement-cisa-and-eac-election-infrastructure-security', type: 'Government Report' },
     ],
     affiliations: [
       { id: '1', name: 'Cathy Latham', type: 'individual', relationship: 'Election chair who facilitated breach, fake elector', href: '/entities/individuals/cathy-latham' },
@@ -4419,10 +4419,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Green Bay Sweep', 'January 6', 'Fake Electors', 'Mike Pence', 'John Eastman', 'Coup', 'Electoral College'],
     sources: [
-      { title: 'Peter Navarro "In Trump Time" Memoir', url: 'https://web.archive.org/web/2024/https://www.amazon.com/Trump-Time-Journal-Americas-Plague/dp/1737478579', type: 'Book' },
+      { title: 'Peter Navarro "In Trump Time" Memoir', url: 'https://www.amazon.com/Trump-Time-Journal-Americas-Plague/dp/1737478579', type: 'Book' },
       { title: 'Eastman Memos', url: 'https://www.cnn.com/2021/09/21/politics/read-eastman-memo/index.html', type: 'Document' },
       { title: 'January 6 Committee Report - Green Bay Sweep', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
-      { title: 'Pence Letter January 6', url: 'https://web.archive.org/web/2024/https://www.nytimes.com/interactive/2021/01/06/us/politics/mike-pence-letter.html', type: 'Document' },
+      { title: 'Pence Letter January 6', url: 'https://www.nytimes.com/interactive/2021/01/06/us/politics/mike-pence-letter.html', type: 'Document' },
       { title: 'Federal Trump Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
     ],
     affiliations: [
@@ -4463,8 +4463,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'January 6 Committee Guard Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
       { title: 'DOD Inspector General Report', url: 'https://media.defense.gov/2021/Apr/13/2002621546/-1/-1/0/DODIG-2021-082.PDF', type: 'Government Report' },
       { title: 'Governor Hogan Account', url: 'https://www.washingtonpost.com/local/md-politics/hogan-national-guard-dc-capitol/2021/01/07/e31b38f6-5134-11eb-b2e8-3339e73d9da2_story.html', type: 'News Report' },
-      { title: 'Timeline Analysis - AP', url: 'https://web.archive.org/web/2024/https://apnews.com/article/capitol-siege-timeline-national-guard-delay-f7c88de00b8c49fd8f83a1a0b67bcd5c', type: 'News Analysis' },
-      { title: 'Senate Investigation', url: 'https://web.archive.org/web/2024/https://www.rules.senate.gov/imo/media/doc/Jan%206%20FINAL.pdf', type: 'Government Report' },
+      { title: 'Timeline Analysis - AP', url: 'https://apnews.com/article/capitol-siege-timeline-national-guard-delay-f7c88de00b8c49fd8f83a1a0b67bcd5c', type: 'News Analysis' },
+      { title: 'Senate Investigation', url: 'https://www.rules.senate.gov/imo/media/doc/Jan%206%20FINAL.pdf', type: 'Government Report' },
     ],
     affiliations: [
       { id: '1', name: 'Christopher Miller', type: 'individual', relationship: 'Acting SecDef, imposed restrictions', href: '/entities/individuals/christopher-miller' },
@@ -4503,8 +4503,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'DOD Inspector General Report', url: 'https://media.defense.gov/2021/Apr/13/2002621546/-1/-1/0/DODIG-2021-082.PDF', type: 'Government Report' },
       { title: 'January 6 Committee Pentagon Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
       { title: 'Miller Memo on Guard Restrictions', url: 'https://www.washingtonpost.com/national-security/dc-national-guard-deployment-orders/2021/01/11/c3f6f64a-5467-11eb-a931-5b162d0d033d_story.html', type: 'Document' },
-      { title: 'Charles Flynn Admission', url: 'https://web.archive.org/web/2024/https://apnews.com/article/army-confirms-lt-gen-charles-flynn-call-52aea6c32e1b885efe6c4f66fc6f53b9', type: 'News Report' },
-      { title: 'House Oversight Investigation', url: 'https://web.archive.org/web/2024/https://oversight.house.gov/investigation/january-6th-investigation/', type: 'Congressional Record' },
+      { title: 'Charles Flynn Admission', url: 'https://apnews.com/article/army-confirms-lt-gen-charles-flynn-call-52aea6c32e1b885efe6c4f66fc6f53b9', type: 'News Report' },
+      { title: 'House Oversight Investigation', url: 'https://oversight.house.gov/investigation/january-6th-investigation/', type: 'Congressional Record' },
     ],
     affiliations: [
       { id: '1', name: 'Christopher Miller', type: 'individual', relationship: 'Acting SecDef, restricted Guard', href: '/entities/individuals/christopher-miller' },
@@ -4584,7 +4584,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Trump Jr. 2008 Russia Quote', url: 'https://www.washingtonpost.com/politics/heres-what-we-know-about-donald-trump-and-his-ties-to-russia/2016/07/29/1268b5ec-54e7-11e6-bbf5-957ad17b4385_story.html', type: 'News Report' },
       { title: 'BuzzFeed Felix Sater Investigation', url: 'https://www.buzzfeednews.com/article/anthonycormier/trump-moscow-micheal-cohen-felix-sater-campaign', type: 'Investigation' },
       { title: 'Mueller Report - Russian Contacts', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
-      { title: 'FinCEN Deutsche Bank Report', url: 'https://web.archive.org/web/2024/https://www.fincen.gov/news/news-releases/fincen-fines-deutsche-bank-ag-425-million', type: 'Government Report' },
+      { title: 'FinCEN Deutsche Bank Report', url: 'https://www.fincen.gov/news/news-releases/fincen-fines-deutsche-bank-ag-425-million', type: 'Government Report' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Decades of Russian business ties', href: '/entities/individuals/donald-trump' },
@@ -4622,7 +4622,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'August 6 2001 PDB - Declassified', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB116/pdb8-6-2001.pdf', type: 'Government Document' },
       { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/911Report.pdf', type: 'Government Report' },
-      { title: 'Senate Intelligence Committee 9/11 Report', url: 'https://web.archive.org/web/2024/https://www.intelligence.senate.gov/sites/default/files/documents/CRPT-107srpt351.pdf', type: 'Government Report' },
+      { title: 'Senate Intelligence Committee 9/11 Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/CRPT-107srpt351.pdf', type: 'Government Report' },
       { title: 'Phoenix Memo', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB318/doc01.pdf', type: 'Government Document' },
       { title: 'Clarke Memo to Rice', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB147/index.htm', type: 'Government Document' },
     ],
@@ -4661,7 +4661,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Chile', 'Pinochet', 'Allende', 'CIA', 'Coup', 'Nixon', 'Kissinger', 'Operation Condor'],
     sources: [
       { title: 'CIA Chile Declassified Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', type: 'Government Documents' },
-      { title: 'Church Committee Chile Report', url: 'https://web.archive.org/web/2024/https://www.intelligence.senate.gov/sites/default/files/94755_VII.pdf', type: 'Government Report' },
+      { title: 'Church Committee Chile Report', url: 'https://www.intelligence.senate.gov/sites/default/files/94755_VII.pdf', type: 'Government Report' },
       { title: 'Nixon-Helms Meeting Notes', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB8/nsaebb8.htm', type: 'Government Document' },
       { title: 'Rettig Commission Report (Chile)', url: 'https://www.usip.org/sites/default/files/resources/collections/truth_commissions/Chile90-Report/Chile90-Report.pdf', type: 'Government Report' },
       { title: 'Valech Commission on Torture', url: 'https://bibliotecadigital.indh.cl/handle/123456789/455', type: 'Government Report' },
@@ -4700,7 +4700,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Operation Condor', 'CIA', 'Chile', 'Argentina', 'Assassination', 'Kissinger', 'Death Squads'],
     sources: [
-      { title: 'National Security Archive Condor Documents', url: 'https://web.archive.org/web/2024/https://nsarchive.gwu.edu/project/operation-condor', type: 'Government Documents' },
+      { title: 'National Security Archive Condor Documents', url: 'https://nsarchive.gwu.edu/project/operation-condor', type: 'Government Documents' },
       { title: 'Paraguay Condor Archives', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB239/index.htm', type: 'Government Documents' },
       { title: 'Letelier Assassination Investigation', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB532-Orlando-Letelier-40-years-after-assassination/', type: 'Investigation' },
       { title: 'Church Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/94755_I.pdf', type: 'Government Report' },
@@ -4744,7 +4744,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'ProPublica Secret IRS Files', url: 'https://www.propublica.org/article/the-secret-irs-files-trove-of-never-before-seen-records-reveal-how-the-wealthiest-avoid-income-tax', type: 'Investigation' },
       { title: 'OpenSecrets Dark Money Tracking', url: 'https://www.opensecrets.org/dark-money', type: 'Research' },
       { title: 'Koch Network Analysis - New Yorker', url: 'https://www.newyorker.com/magazine/2010/08/30/covert-operations', type: 'Investigation' },
-      { title: 'ProPublica Thomas-Crow Investigation', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-harlan-crow', type: 'Investigation' },
+      { title: 'ProPublica Thomas-Crow Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-harlan-crow', type: 'Investigation' },
     ],
     affiliations: [
       { id: '1', name: 'Charles Koch', type: 'individual', relationship: 'Founded political network', href: '/entities/individuals/charles-koch' },
@@ -4820,9 +4820,9 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Alex Jones', 'Sandy Hook', 'Defamation', 'InfoWars', 'Conspiracy Theories', 'Disinformation', 'Accountability'],
     sources: [
-      { title: 'Texas Verdict - NPR', url: 'https://web.archive.org/web/2024/https://www.npr.org/2022/08/05/1115992594/alex-jones-sandy-hook-verdict', type: 'News Report' },
+      { title: 'Texas Verdict - NPR', url: 'https://www.npr.org/2022/08/05/1115992594/alex-jones-sandy-hook-verdict', type: 'News Report' },
       { title: 'Connecticut Verdict - NYT', url: 'https://www.nytimes.com/2022/10/12/business/media/alex-jones-sandy-hook-damages.html', type: 'News Report' },
-      { title: 'Jones Depositions - Law & Crime', url: 'https://web.archive.org/web/2024/https://lawandcrime.com/high-profile/watch-alex-jones-sandy-hook-depositions/', type: 'Video' },
+      { title: 'Jones Depositions - Law & Crime', url: 'https://lawandcrime.com/high-profile/watch-alex-jones-sandy-hook-depositions/', type: 'Video' },
       { title: 'InfoWars Financials Analysis', url: 'https://www.nytimes.com/2022/08/04/us/politics/alex-jones-infowars-finances.html', type: 'Investigation' },
       { title: 'Bankruptcy Proceedings', url: 'https://www.reuters.com/legal/alex-jones-infowars-bankruptcy-judge-weighs-request-allow-sandy-hook-families-2023-06-09/', type: 'Court Filing' },
     ],
@@ -4860,7 +4860,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Proud Boys', 'January 6', 'Seditious Conspiracy', 'Enrique Tarrio', 'Domestic Terrorism', 'Political Violence'],
     sources: [
       { title: 'DOJ Proud Boys Seditious Conspiracy Verdict', url: 'https://www.justice.gov/usao-dc/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', type: 'Press Release' },
-      { title: 'Tarrio Sentencing - NPR', url: 'https://web.archive.org/web/2024/https://www.npr.org/2023/09/05/1197599773/proud-boys-tarrio-sentencing-jan-6', type: 'News Report' },
+      { title: 'Tarrio Sentencing - NPR', url: 'https://www.npr.org/2023/09/05/1197599773/proud-boys-tarrio-sentencing-jan-6', type: 'News Report' },
       { title: 'Proud Boys Profile - SPLC', url: 'https://www.splcenter.org/fighting-hate/extremist-files/group/proud-boys', type: 'Organization Profile' },
       { title: 'January 6 Committee Proud Boys Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
       { title: 'Trial Evidence - Court Documents', url: 'https://www.courtlistener.com/docket/60038297/united-states-v-nordean/', type: 'Court Filing' },
@@ -4940,10 +4940,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Abu Ghraib', 'Torture', 'Iraq War', 'War Crimes', 'Rumsfeld', 'Geneva Conventions', 'Bush Administration'],
     sources: [
-      { title: 'Taguba Report', url: 'https://web.archive.org/web/2024/https://www.thetorturedatabase.org/document/article-15-6-investigation-800th-military-police-brigade-taguba-report', type: 'Government Report' },
-      { title: 'Abu Ghraib Photos - Salon Archive', url: 'https://web.archive.org/web/2024/https://www.salon.com/2006/03/14/abu_ghraib_10/', type: 'Photo Documentation' },
-      { title: 'Rumsfeld Torture Memo', url: 'https://web.archive.org/web/2024/https://www.aclu.org/sites/default/files/pdfs/safefree/december_2_2002_memorandum.pdf', type: 'Government Document' },
-      { title: 'Torture Memos (Yoo/Bybee)', url: 'https://web.archive.org/web/2024/https://www.justice.gov/sites/default/files/olc/legacy/2010/08/05/memo-combatantsoutsideunitedstates.pdf', type: 'Legal Memo' },
+      { title: 'Taguba Report', url: 'https://www.thetorturedatabase.org/document/article-15-6-investigation-800th-military-police-brigade-taguba-report', type: 'Government Report' },
+      { title: 'Abu Ghraib Photos - Salon Archive', url: 'https://www.salon.com/2006/03/14/abu_ghraib_10/', type: 'Photo Documentation' },
+      { title: 'Rumsfeld Torture Memo', url: 'https://www.aclu.org/sites/default/files/pdfs/safefree/december_2_2002_memorandum.pdf', type: 'Government Document' },
+      { title: 'Torture Memos (Yoo/Bybee)', url: 'https://www.justice.gov/sites/default/files/olc/legacy/2010/08/05/memo-combatantsoutsideunitedstates.pdf', type: 'Legal Memo' },
       { title: 'Schlesinger Report', url: 'https://www.defense.gov/News/Releases/Release/Article/638259/', type: 'Government Report' },
     ],
     affiliations: [
@@ -4979,7 +4979,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Iraq War', 'WMD', 'Bush Administration', 'Cheney', 'Colin Powell', 'War Crimes', 'Yellowcake', 'Aluminum Tubes'],
     sources: [
-      { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://web.archive.org/web/2024/https://www.intelligence.senate.gov/sites/default/files/publications/109301.pdf', type: 'Government Report' },
+      { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/109301.pdf', type: 'Government Report' },
       { title: 'Downing Street Memo', url: 'https://www.nytimes.com/2005/05/01/international/europe/secret-uk-memo.html', type: 'Leaked Document' },
       { title: 'Duelfer Report (Iraq Survey Group)', url: 'http://web.archive.org/web/20201206173010/http://web.archive.org/web/20201206173010/https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/', type: 'Government Report' },
       { title: 'Powell UN Speech Transcript', url: 'https://www.un.org/press/en/2003/sc7658.doc.htm', type: 'Official Transcript' },
@@ -5023,8 +5023,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Senate Intelligence Committee Study of CIA Detention and Interrogation Program', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', type: 'Government Report' },
       { title: 'ACLU Torture Database', url: 'https://www.thetorturedatabase.org/', type: 'Archive' },
       { title: 'CIA Inspector General Report', url: 'https://www.cia.gov/readingroom/document/0005856513', type: 'Government Report' },
-      { title: 'ICRC Report on Treatment of Detainees', url: 'https://web.archive.org/web/2024/https://www.nybooks.com/articles/2009/04/09/the-icrc-report-on-the-treatment-of-fourteen-high/', type: 'ICRC Document' },
-      { title: 'Torture Memos', url: 'https://web.archive.org/web/2024/https://www.aclu.org/torture-memos', type: 'Legal Documents' },
+      { title: 'ICRC Report on Treatment of Detainees', url: 'https://www.nybooks.com/articles/2009/04/09/the-icrc-report-on-the-treatment-of-fourteen-high/', type: 'ICRC Document' },
+      { title: 'Torture Memos', url: 'https://www.aclu.org/torture-memos', type: 'Legal Documents' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated torture program', href: '/entities/agencies/cia' },
@@ -5061,7 +5061,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['CIA', 'Black Sites', 'Torture', 'Rendition', 'Poland', 'Romania', 'Thailand', 'Afghanistan'],
     sources: [
       { title: 'Senate Torture Report - Black Sites', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', type: 'Government Report' },
-      { title: 'Open Society Justice Initiative - Globalizing Torture', url: 'https://web.archive.org/web/2024/https://www.justiceinitiative.org/uploads/45bdb823-4b14-4854-8a4a-3be6fba91c45/globalizing-torture-20120205.pdf', type: 'Investigation' },
+      { title: 'Open Society Justice Initiative - Globalizing Torture', url: 'https://www.justiceinitiative.org/uploads/45bdb823-4b14-4854-8a4a-3be6fba91c45/globalizing-torture-20120205.pdf', type: 'Investigation' },
       { title: 'Washington Post - CIA Holds Terror Suspects in Secret Prisons', url: 'https://www.washingtonpost.com/wp-dyn/content/article/2005/11/01/AR2005110101644.html', type: 'News Report' },
       { title: 'European Court - El-Masri v. Macedonia', url: 'https://hudoc.echr.coe.int/eng?i=001-115621', type: 'Court Decision' },
       { title: 'European Court - Husayn (Abu Zubaydah) v. Poland', url: 'https://hudoc.echr.coe.int/eng?i=001-146047', type: 'Court Decision' },
@@ -5140,7 +5140,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Project 2025 Official Website', url: 'https://www.project2025.org/', type: 'Primary Source' },
       { title: 'Mandate for Leadership (Full Document)', url: 'https://www.project2025.org/playbook/', type: 'Policy Document' },
       { title: 'Project 2025 Authors and Trump Connections', url: 'https://www.mediamatters.org/heritage-foundation/guide-project-2025-extreme-right-wing-agenda-next-republican-administration', type: 'Investigation' },
-      { title: 'Schedule F Executive Order Analysis', url: 'https://web.archive.org/web/2024/https://www.brookings.edu/articles/what-is-schedule-f-and-why-does-it-matter/', type: 'Analysis' },
+      { title: 'Schedule F Executive Order Analysis', url: 'https://www.brookings.edu/articles/what-is-schedule-f-and-why-does-it-matter/', type: 'Analysis' },
       { title: 'ACLU Analysis of Project 2025', url: 'https://www.aclu.org/project-2025', type: 'Analysis' },
     ],
     affiliations: [
@@ -5178,7 +5178,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Bush v. Gore Decision', url: 'https://supreme.justia.com/cases/federal/us/531/98/', type: 'Court Decision' },
       { title: 'Florida Recount Study - NORC', url: 'https://www.norc.org/Research/Projects/Pages/florida-ballot-project.aspx', type: 'Academic Research' },
-      { title: 'Brooks Brothers Riot - Salon', url: 'https://web.archive.org/web/2024/https://www.salon.com/2000/11/28/miami_7/', type: 'News Report' },
+      { title: 'Brooks Brothers Riot - Salon', url: 'https://www.salon.com/2000/11/28/miami_7/', type: 'News Report' },
       { title: 'Too Close to Call - Jeffrey Toobin', url: 'https://www.penguinrandomhouse.com/books/117954/too-close-to-call-by-jeffrey-toobin/', type: 'Book' },
       { title: 'Felon Voter Purge Analysis', url: 'https://www.usccr.gov/pubs/vote2000/report/ch5.htm', type: 'Government Report' },
     ],
@@ -5218,7 +5218,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Wilson NYT Op-Ed - What I Didn\'t Find in Africa', url: 'https://www.nytimes.com/2003/07/06/opinion/what-i-didn-t-find-in-africa.html', type: 'Op-Ed' },
       { title: 'Novak Column Exposing Plame', url: 'https://www.washingtonpost.com/wp-dyn/content/article/2005/07/14/AR2005071402269.html', type: 'News Column' },
       { title: 'Libby Indictment', url: 'https://www.justice.gov/archive/osc/documents/libby_indictment_28102005.pdf', type: 'Court Filing' },
-      { title: 'Fitzgerald Press Conference on Libby Verdict', url: 'https://web.archive.org/web/2024/https://www.justice.gov/archive/osc/press-conferences.html', type: 'Press Conference' },
+      { title: 'Fitzgerald Press Conference on Libby Verdict', url: 'https://www.justice.gov/archive/osc/press-conferences.html', type: 'Press Conference' },
       { title: 'Fair Game - Valerie Plame Memoir', url: 'https://www.simonandschuster.com/books/Fair-Game/Valerie-Plame-Wilson/9781416537625', type: 'Book' },
     ],
     affiliations: [
@@ -5258,7 +5258,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'NIH Acknowledges Gain-of-Function Research', url: 'http://web.archive.org/web/20250528001123/http://web.archive.org/web/20250528001123/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', type: 'Government Statement' },
       { title: 'EcoHealth Alliance NIH Grant', url: 'https://reporter.nih.gov/search/xQW6UJmWfUuOV01ntGvLwQ/project-details/9819304', type: 'Grant Record' },
-      { title: 'House Oversight Committee COVID-19 Investigation', url: 'https://web.archive.org/web/2024/https://oversight.house.gov/landing/covid-19-origins/', type: 'Congressional Investigation' },
+      { title: 'House Oversight Committee COVID-19 Investigation', url: 'https://oversight.house.gov/landing/covid-19-origins/', type: 'Congressional Investigation' },
       { title: 'The Intercept - NIH Documents', url: 'https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/', type: 'Investigation' },
       { title: 'Science Debate on Gain-of-Function', url: 'https://www.science.org/doi/10.1126/science.abn4737', type: 'Scientific Article' },
     ],
@@ -5294,11 +5294,11 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Lab Leak', 'COVID-19', 'Wuhan', 'WIV', 'Pandemic Origins', 'China', 'FBI', 'DOE'],
     sources: [
-      { title: 'FBI Director Testimony on Lab Leak Assessment', url: 'https://web.archive.org/web/2024/https://www.fbi.gov/news/testimony/worldwide-threats-to-the-homeland-2023', type: 'Congressional Testimony' },
+      { title: 'FBI Director Testimony on Lab Leak Assessment', url: 'https://www.fbi.gov/news/testimony/worldwide-threats-to-the-homeland-2023', type: 'Congressional Testimony' },
       { title: 'DOE Lab Leak Assessment - WSJ', url: 'https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a', type: 'News Report' },
       { title: 'State Department Fact Sheet on WIV', url: 'https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/', type: 'Government Document' },
       { title: 'The Lancet COVID-19 Commission Task Force', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01585-9/fulltext', type: 'Scientific Report' },
-      { title: 'House COVID Origins Investigation', url: 'https://web.archive.org/web/2024/https://oversight.house.gov/landing/covid-19-origins/', type: 'Congressional Investigation' },
+      { title: 'House COVID Origins Investigation', url: 'https://oversight.house.gov/landing/covid-19-origins/', type: 'Congressional Investigation' },
     ],
     affiliations: [
       { id: '1', name: 'Wuhan Institute of Virology', type: 'organization', relationship: 'Site of potential leak', href: '/entities/organizations/wuhan-institute-virology' },
@@ -5337,7 +5337,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Huanan Market Study - Science', url: 'https://www.science.org/doi/10.1126/science.abp8715', type: 'Scientific Study' },
       { title: 'House Select Subcommittee on Pandemic', url: 'https://oversight.house.gov/subcommittee/select-subcommittee-on-the-coronavirus-pandemic/', type: 'Congressional' },
       { title: 'WHO Origin-Tracing Study', url: 'https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part', type: 'WHO Report' },
-      { title: 'ProPublica COVID Origins Investigation', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/covid-origin-nih-emails-fauci-wuhan', type: 'Investigation' },
+      { title: 'ProPublica COVID Origins Investigation', url: 'https://www.propublica.org/article/covid-origin-nih-emails-fauci-wuhan', type: 'Investigation' },
     ],
     affiliations: [
       { id: '1', name: 'Wuhan Institute of Virology', type: 'organization', relationship: 'Researched bat coronaviruses', href: '/entities/organizations/wuhan-institute-virology' },
@@ -5375,7 +5375,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'The Power Worshippers by Katherine Stewart', url: 'https://www.bloomsbury.com/us/power-worshippers-9781635573435/', type: 'Book' },
       { title: 'PRRI Survey on Christian Nationalism', url: 'https://www.prri.org/research/a-christian-nation-understanding-the-threat-of-christian-nationalism-to-american-democracy-and-culture/', type: 'Research' },
       { title: 'BJC Report on Christian Nationalism', url: 'https://bjconline.org/what-is-christian-nationalism/', type: 'Analysis' },
-      { title: 'Project 2025 and Religious Policy', url: 'https://web.archive.org/web/2024/https://www.au.org/resources/publications/project-2025-threatens-religious-freedom/', type: 'Analysis' },
+      { title: 'Project 2025 and Religious Policy', url: 'https://www.au.org/resources/publications/project-2025-threatens-religious-freedom/', type: 'Analysis' },
       { title: 'White Christian Nationalism Documentary', url: 'https://www.pbs.org/wgbh/frontline/documentary/michael-flynns-holy-war/', type: 'Documentary' },
     ],
     affiliations: [
@@ -5415,8 +5415,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'PNAC Statement of Principles', url: 'https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm', type: 'Primary Document' },
       { title: 'PNAC Letter to Clinton on Iraq (1998)', url: 'https://web.archive.org/web/20050205045044/http://www.newamericancentury.org/iraqclintonletter.htm', type: 'Primary Document' },
       { title: 'Rise of the Vulcans by James Mann', url: 'https://www.penguinrandomhouse.com/books/118270/rise-of-the-vulcans-by-james-mann/', type: 'Book' },
-      { title: 'The Iraq War and Neocon Influence', url: 'https://web.archive.org/web/2024/https://www.newyorker.com/magazine/2003/04/07/the-iraq-war-club', type: 'Investigation' },
-      { title: 'They Knew They Were Right (Documentary)', url: 'https://web.archive.org/web/2024/https://www.pbs.org/wgbh/americanexperience/films/iraq/', type: 'Documentary' },
+      { title: 'The Iraq War and Neocon Influence', url: 'https://www.newyorker.com/magazine/2003/04/07/the-iraq-war-club', type: 'Investigation' },
+      { title: 'They Knew They Were Right (Documentary)', url: 'https://www.pbs.org/wgbh/americanexperience/films/iraq/', type: 'Documentary' },
     ],
     affiliations: [
       { id: '1', name: 'Dick Cheney', type: 'individual', relationship: 'PNAC signatory, VP', href: '/entities/individuals/dick-cheney' },
@@ -5452,7 +5452,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Rendition', 'CIA', 'Torture', 'Kidnapping', 'Black Sites', 'Human Rights', 'Bush Administration'],
     sources: [
-      { title: 'Open Society - Globalizing Torture', url: 'https://web.archive.org/web/2024/https://www.justiceinitiative.org/uploads/45bdb823-4b14-4854-8a4a-3be6fba91c45/globalizing-torture-20120205.pdf', type: 'Report' },
+      { title: 'Open Society - Globalizing Torture', url: 'https://www.justiceinitiative.org/uploads/45bdb823-4b14-4854-8a4a-3be6fba91c45/globalizing-torture-20120205.pdf', type: 'Report' },
       { title: 'European Parliament Rendition Investigation', url: 'https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//TEXT+TA+P6-TA-2007-0032+0+DOC+XML+V0//EN', type: 'Government Report' },
       { title: 'ACLU Rendition Documentation', url: 'https://www.aclu.org/issues/national-security/torture/extraordinary-rendition', type: 'Legal Analysis' },
       { title: 'El-Masri v. Macedonia (European Court)', url: 'https://hudoc.echr.coe.int/eng?i=001-115621', type: 'Court Decision' },
@@ -5494,7 +5494,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Mueller Report - Seychelles Meeting', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
       { title: 'Washington Post - Prince/Dmitriev Meeting', url: 'https://www.washingtonpost.com/world/national-security/blackwater-founder-held-secret-seychelles-meeting-to-establish-trump-putin-back-channel/2017/04/03/95908a08-1648-11e7-ada0-1489b735b3a3_story.html', type: 'News Report' },
       { title: 'House Intelligence Committee Prince Testimony', url: 'https://docs.house.gov/meetings/IG/IG00/20171130/106661/HHRG-115-IG00-Transcript-20171130.pdf', type: 'Congressional Testimony' },
-      { title: 'The Intercept - Prince Investigation', url: 'https://web.archive.org/web/2024/https://theintercept.com/2019/04/18/mueller-report-erik-prince-seychelles/', type: 'Investigation' },
+      { title: 'The Intercept - Prince Investigation', url: 'https://theintercept.com/2019/04/18/mueller-report-erik-prince-seychelles/', type: 'Investigation' },
       { title: 'Prince Congressional Interview Contradictions', url: 'https://www.nytimes.com/2018/03/07/us/politics/erik-prince-seychelles-meeting.html', type: 'News Analysis' },
     ],
     affiliations: [
@@ -5530,10 +5530,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['UAE', 'Mohammed bin Zayed', 'Tom Barrack', 'Foreign Lobbying', 'Jared Kushner', 'Qatar Blockade', 'Abraham Accords'],
     sources: [
-      { title: 'DOJ Indictment of Tom Barrack', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/chairman-and-ceo-private-equity-firm-charged-acting-agent-united-arab-emirates', type: 'Court Filing' },
+      { title: 'DOJ Indictment of Tom Barrack', url: 'https://www.justice.gov/opa/pr/chairman-and-ceo-private-equity-firm-charged-acting-agent-united-arab-emirates', type: 'Court Filing' },
       { title: 'NYT - UAE Influence Operation', url: 'https://www.nytimes.com/2018/03/21/us/politics/george-nader-elliott-broidy-uae-saudi-arabia.html', type: 'Investigation' },
       { title: 'Washington Post - Kushner-MBZ Relationship', url: 'https://www.washingtonpost.com/world/national-security/kushner-and-the-saudis/2018/03/27/', type: 'Investigation' },
-      { title: 'BuzzFeed - UAE Assassinations in Yemen', url: 'https://web.archive.org/web/2024/https://www.buzzfeednews.com/article/aramroston/mercenaries-assassination-us-yemen-uae-spear-operations', type: 'Investigation' },
+      { title: 'BuzzFeed - UAE Assassinations in Yemen', url: 'https://www.buzzfeednews.com/article/aramroston/mercenaries-assassination-us-yemen-uae-spear-operations', type: 'Investigation' },
       { title: 'FARA Filings - UAE Lobbying', url: 'https://efile.fara.gov/ords/fara/f?p=1235:10:0::NO:RP,10:P10_COUNTRY:UNITED%20ARAB%20EMIRATES', type: 'Government Records' },
     ],
     affiliations: [
@@ -5569,9 +5569,9 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Jared Kushner', 'Qatar', '666 Fifth Avenue', 'Conflict of Interest', 'Saudi Arabia', 'UAE', 'Corruption'],
     sources: [
-      { title: 'The Intercept - Kushner Qatar Investment Rejection', url: 'https://web.archive.org/web/2024/https://theintercept.com/2018/03/02/jared-kushner-qatar-blockade/', type: 'Investigation' },
+      { title: 'The Intercept - Kushner Qatar Investment Rejection', url: 'https://theintercept.com/2018/03/02/jared-kushner-qatar-blockade/', type: 'Investigation' },
       { title: 'NYT - 666 Fifth Avenue Bailout', url: 'https://www.nytimes.com/2018/08/03/nyregion/kushners-building-fifth-avenue-brookfield-lease.html', type: 'News Report' },
-      { title: 'Guardian - Qatar Blockade and Kushner Business', url: 'https://web.archive.org/web/2024/https://www.theguardian.com/us-news/2019/mar/17/kushner-qatar-blockade-666-fifth-avenue', type: 'Investigation' },
+      { title: 'Guardian - Qatar Blockade and Kushner Business', url: 'https://www.theguardian.com/us-news/2019/mar/17/kushner-qatar-blockade-666-fifth-avenue', type: 'Investigation' },
       { title: 'Brookfield Qatar Investment Connection', url: 'https://www.bloomberg.com/news/articles/2018-08-03/kushner-cos-deal-for-666-fifth-ave-is-said-to-be-near-close', type: 'News Report' },
       { title: 'Kushner Security Clearance Issues', url: 'https://www.washingtonpost.com/politics/2019/01/24/jared-kushners-security-clearance-was-initially-denied-due-concerns-about-foreign-influence/', type: 'Investigation' },
     ],
@@ -5612,7 +5612,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Mother Jones - The Lie Factory', url: 'https://www.motherjones.com/politics/2004/01/lie-factory/', type: 'Investigation' },
       { title: 'New Yorker - Selective Intelligence', url: 'https://www.newyorker.com/magazine/2003/05/12/selective-intelligence', type: 'Investigation' },
       { title: 'Senate Intelligence Committee Iraq Report', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', type: 'Congressional Report' },
-      { title: 'Curveball Fabrication Admission', url: 'https://web.archive.org/web/2024/https://www.theguardian.com/world/2011/feb/15/curveball-iraqi-defector-admits-lying', type: 'News Report' },
+      { title: 'Curveball Fabrication Admission', url: 'https://www.theguardian.com/world/2011/feb/15/curveball-iraqi-defector-admits-lying', type: 'News Report' },
     ],
     affiliations: [ 
       { id: '1', name: 'Douglas Feith', type: 'individual', relationship: 'Created and directed OSP', href: '/entities/individuals/douglas-feith' },
@@ -5689,8 +5689,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'IMF on Holdout Creditors', url: 'https://www.imf.org/external/pubs/ft/sdn/2014/sdn1416.pdf', type: 'Research Paper' },
       { title: 'Jubilee USA - Vulture Funds', url: 'https://www.jubileeusa.org/vulture_funds', type: 'Advocacy Report' },
       { title: 'NYT - Elliott Management Profile', url: 'https://www.nytimes.com/2018/07/21/business/paul-singer-elliott-management.html', type: 'Profile' },
-      { title: 'Argentina Ship Seizure', url: 'https://web.archive.org/web/2024/https://www.bbc.com/news/world-latin-america-20340690', type: 'News Report' },
-      { title: 'ProPublica - Puerto Rico Vulture Funds', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/vulture-funds-puerto-rico-debt', type: 'Investigation' },
+      { title: 'Argentina Ship Seizure', url: 'https://www.bbc.com/news/world-latin-america-20340690', type: 'News Report' },
+      { title: 'ProPublica - Puerto Rico Vulture Funds', url: 'https://www.propublica.org/article/vulture-funds-puerto-rico-debt', type: 'Investigation' },
     ],
     affiliations: [
       { id: '1', name: 'Paul Singer', type: 'individual', relationship: 'Elliott Management founder, leading vulture', href: '/entities/individuals/paul-singer' },
@@ -5724,8 +5724,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Jubilee Debt Campaign - Debt Data', url: 'https://jubileedebt.org.uk/countries-in-crisis', type: 'Research' },
       { title: 'IMF Structural Adjustment Critique', url: 'https://www.imf.org/external/np/exr/ib/2000/062300.htm', type: 'Official Document' },
-      { title: 'Oxfam - Debt and Austerity', url: 'https://web.archive.org/web/2024/https://www.oxfam.org/en/research/squeezed-austerity-impact-imf-conditions', type: 'Research Report' },
-      { title: 'UNCTAD - Sovereign Debt Workouts', url: 'https://web.archive.org/web/2024/https://unctad.org/topic/debt-and-finance/sovereign-debt-workouts', type: 'UN Report' },
+      { title: 'Oxfam - Debt and Austerity', url: 'https://www.oxfam.org/en/research/squeezed-austerity-impact-imf-conditions', type: 'Research Report' },
+      { title: 'UNCTAD - Sovereign Debt Workouts', url: 'https://unctad.org/topic/debt-and-finance/sovereign-debt-workouts', type: 'UN Report' },
       { title: 'The Shock Doctrine by Naomi Klein', url: 'https://thenewpress.com/books/shock-doctrine', type: 'Book' },
     ],
     affiliations: [
@@ -5761,7 +5761,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'OpenSecrets - Dark Money Database', url: 'https://www.opensecrets.org/dark-money', type: 'Database' },
       { title: 'NYT - $1.6 Billion Leo Donation', url: 'https://www.nytimes.com/2022/08/22/us/politics/republican-dark-money.html', type: 'Investigation' },
-      { title: 'ProPublica - Koch Network', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/the-koch-party', type: 'Investigation' },
+      { title: 'ProPublica - Koch Network', url: 'https://www.propublica.org/article/the-koch-party', type: 'Investigation' },
       { title: 'Donors Trust Tax Filings', url: 'https://www.donorstrust.org/', type: 'Tax Records' },
       { title: 'Dark Money by Jane Mayer', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', type: 'Book' },
     ],
@@ -5799,7 +5799,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Fox News', 'Rupert Murdoch', 'Disinformation', 'Dominion', 'Election Lies', 'Tucker Carlson', 'Media Manipulation'],
     sources: [
       { title: 'Dominion v. Fox News - Court Filings', url: 'https://www.documentcloud.org/documents/23726819-dominion-v-fox-news-ruling', type: 'Court Filing' },
-      { title: 'Fox Internal Messages - NPR Analysis', url: 'https://web.archive.org/web/2024/https://www.npr.org/2023/02/16/1157524639/fox-news-dominion-lawsuit-reveals-executives-hosts-doubted-fraud-claims', type: 'News Analysis' },
+      { title: 'Fox Internal Messages - NPR Analysis', url: 'https://www.npr.org/2023/02/16/1157524639/fox-news-dominion-lawsuit-reveals-executives-hosts-doubted-fraud-claims', type: 'News Analysis' },
       { title: 'NYT - Tucker Carlson and White Nationalism', url: 'https://www.nytimes.com/2022/04/30/us/tucker-carlson-gop-eli-lake.html', type: 'Investigation' },
       { title: 'Hoax by Brian Stelter', url: 'https://www.simonandschuster.com/books/Hoax/Brian-Stelter/9781982142452', type: 'Book' },
       { title: 'Media Matters - Fox News Research', url: 'https://www.mediamatters.org/fox-news', type: 'Research Archive' },
@@ -5840,7 +5840,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Mueller Report - Russian Interference', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
       { title: 'DOJ IRA Indictment', url: 'http://web.archive.org/web/20240315011338/http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download', type: 'Court Filing' },
       { title: 'DOJ GRU Indictment', url: 'http://web.archive.org/web/20240314115300/http://web.archive.org/web/20240314115300/https://www.justice.gov/file/1080281/download', type: 'Court Filing' },
-      { title: 'Oxford Internet Institute - Russian Disinformation', url: 'https://web.archive.org/web/2024/https://demtech.oii.ox.ac.uk/research/posts/computational-propaganda-in-russia-the-origins-of-digital-disinformation/', type: 'Research' },
+      { title: 'Oxford Internet Institute - Russian Disinformation', url: 'https://demtech.oii.ox.ac.uk/research/posts/computational-propaganda-in-russia-the-origins-of-digital-disinformation/', type: 'Research' },
     ],
     affiliations: [
       { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Ordered interference campaign', href: '/entities/individuals/vladimir-putin' },
@@ -5877,7 +5877,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'CISA - Russian State-Sponsored Cyber Threats', url: 'https://www.cisa.gov/russia', type: 'Government Advisory' },
       { title: 'NSA/FBI/CISA Joint Advisory on GRU', url: 'https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/2708348/', type: 'Government Advisory' },
       { title: 'DOJ GRU Indictments', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/six-russian-gru-officers-charged-connection-worldwide-deployment-destructive-malware', type: 'Court Filing' },
-      { title: 'Bellingcat - GRU Investigations', url: 'https://web.archive.org/web/2024/https://www.bellingcat.com/category/news/russia/', type: 'Investigation' },
+      { title: 'Bellingcat - GRU Investigations', url: 'https://www.bellingcat.com/category/news/russia/', type: 'Investigation' },
       { title: 'SolarWinds Hack Analysis', url: 'https://www.mandiant.com/resources/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor', type: 'Technical Analysis' },
     ],
     affiliations: [
@@ -5915,7 +5915,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'SEC - Hedge Fund Oversight', url: 'https://www.sec.gov/spotlight/hedgefunds.htm', type: 'Government Resource' },
       { title: 'GameStop Congressional Hearing', url: 'http://web.archive.org/web/20221209105844/https://financialservices.house.gov/events/eventsingle.aspx?EventID=407107', type: 'Congressional' },
       { title: 'NYT - How Private Equity Killed Toys R Us', url: 'https://www.nytimes.com/2018/03/15/business/toys-r-us-bankruptcy.html', type: 'Investigation' },
-      { title: 'Hedge Fund Underperformance Research', url: 'https://web.archive.org/web/2024/https://www.institutionalinvestor.com/article/b1g5zjdcnv7lqd/Exposed-Exposed-by-Stock-Gains-Hedge-Funds-Trail-the-Market', type: 'Research' },
+      { title: 'Hedge Fund Underperformance Research', url: 'https://www.institutionalinvestor.com/article/b1g5zjdcnv7lqd/Exposed-Exposed-by-Stock-Gains-Hedge-Funds-Trail-the-Market', type: 'Research' },
       { title: 'Flash Boys by Michael Lewis', url: 'https://wwnorton.com/books/9780393351590', type: 'Book' },
     ],
     affiliations: [
@@ -5988,7 +5988,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Big Tech', 'Content Moderation', 'Section 230', 'Free Speech', 'Censorship', 'Social Media', 'Platform Power'],
     sources: [
-      { title: 'Knight First Amendment Institute - Platform Speech', url: 'https://web.archive.org/web/2024/https://knightcolumbia.org/research/platforms', type: 'Research' },
+      { title: 'Knight First Amendment Institute - Platform Speech', url: 'https://knightcolumbia.org/research/platforms', type: 'Research' },
       { title: 'Stanford Internet Observatory - Platform Research', url: 'https://cyber.fsi.stanford.edu/io', type: 'Research' },
       { title: 'Meta Oversight Board Decisions', url: 'https://oversightboard.com/decision/', type: 'Primary Source' },
       { title: 'NYT - The Twitter Files Analysis', url: 'https://www.nytimes.com/2022/12/24/technology/twitter-files-elon-musk.html', type: 'Analysis' },
@@ -6029,7 +6029,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Northwestern Local News Initiative', url: 'https://localnewsinitiative.northwestern.edu/', type: 'Research' },
       { title: 'Columbia Journalism Review - Media Consolidation', url: 'https://www.cjr.org/the_media_today/', type: 'Journalism Analysis' },
       { title: 'Sinclair Script Video', url: 'https://www.youtube.com/watch?v=ZggCipbiHwE', type: 'Primary Evidence' },
-      { title: 'Manufacturing Consent by Chomsky/Herman', url: 'https://web.archive.org/web/2024/https://www.penguinrandomhouse.com/books/15teledu/manufacturing-consent/', type: 'Book' },
+      { title: 'Manufacturing Consent by Chomsky/Herman', url: 'https://www.penguinrandomhouse.com/books/15teledu/manufacturing-consent/', type: 'Book' },
     ],
     affiliations: [
       { id: '1', name: 'Sinclair Broadcast Group', type: 'corporation', relationship: 'Conservative media consolidation', href: '/entities/corporations/sinclair' },
@@ -6065,7 +6065,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'ADL - Great Replacement Conspiracy', url: 'https://www.adl.org/resources/backgrounder/great-replacement-explainer', type: 'Research' },
       { title: 'NYT - YouTube Radicalization Study', url: 'https://www.nytimes.com/interactive/2019/06/08/technology/youtube-radical.html', type: 'Investigation' },
-      { title: 'Bellingcat - Buffalo Shooter Analysis', url: 'https://web.archive.org/web/2024/https://www.bellingcat.com/news/2022/05/14/buffalo-shooter-manifesto/', type: 'Investigation' },
+      { title: 'Bellingcat - Buffalo Shooter Analysis', url: 'https://www.bellingcat.com/news/2022/05/14/buffalo-shooter-manifesto/', type: 'Investigation' },
       { title: 'SPLC - White Nationalist Movement', url: 'https://www.splcenter.org/fighting-hate/extremist-files/ideology/white-nationalist', type: 'Research' },
       { title: 'Data & Society - Alternative Influence', url: 'https://datasociety.net/library/alternative-influence/', type: 'Research Report' },
     ],
@@ -6133,9 +6133,9 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Cambodia', 'Nixon', 'Kissinger', 'War Crimes', 'Bombing', 'Vietnam War', 'Khmer Rouge'],
     sources: [
       { title: 'Yale Cambodian Genocide Project', url: 'https://gsp.yale.edu/case-studies/cambodian-genocide-program', type: 'Academic' },
-      { title: 'The Trial of Henry Kissinger by Christopher Hitchens', url: 'https://web.archive.org/web/2024/https://www.versobooks.com/books/1065-the-trial-of-henry-kissinger', type: 'Book' },
+      { title: 'The Trial of Henry Kissinger by Christopher Hitchens', url: 'https://www.versobooks.com/books/1065-the-trial-of-henry-kissinger', type: 'Book' },
       { title: 'Pentagon Papers on Cambodia', url: 'https://www.archives.gov/research/pentagon-papers', type: 'Government Document' },
-      { title: 'Owen & Kiernan: Bombs Over Cambodia', url: 'https://web.archive.org/web/2024/https://walrusmagazine.com/article/2006.10-history-bombs-over-cambodia/', type: 'Research' },
+      { title: 'Owen & Kiernan: Bombs Over Cambodia', url: 'https://walrusmagazine.com/article/2006.10-history-bombs-over-cambodia/', type: 'Research' },
     ],
     affiliations: [
       { id: '1', name: 'Henry Kissinger', type: 'individual', relationship: 'Architect of bombing campaign', href: '/entities/individuals/henry-kissinger' },
@@ -6169,7 +6169,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'National Security Archive - East Timor Documents', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB174/', type: 'Declassified Documents' },
       { title: 'UN Commission on East Timor (CAVR Report)', url: 'https://www.etan.org/news/2006/cavr.htm', type: 'UN Report' },
       { title: 'Chomsky - The East Timor Genocide', url: '#', type: 'Analysis' },
-      { title: 'Ford-Kissinger Jakarta Meeting Documents', url: 'https://web.archive.org/web/2024/https://nsarchive.gwu.edu/document/21045-document-4', type: 'Declassified' },
+      { title: 'Ford-Kissinger Jakarta Meeting Documents', url: 'https://nsarchive.gwu.edu/document/21045-document-4', type: 'Declassified' },
     ],
     affiliations: [
       { id: '1', name: 'Henry Kissinger', type: 'individual', relationship: 'Gave tacit approval, covered up', href: '/entities/individuals/henry-kissinger' },
@@ -6202,7 +6202,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Independent Commission of Inquiry Report', url: '#', type: 'Investigation' },
       { title: 'Human Rights Watch - Panama Report', url: 'https://www.hrw.org/reports/1991/panama/', type: 'Human Rights Report' },
-      { title: 'National Security Archive - Panama Documents', url: 'https://web.archive.org/web/2024/https://nsarchive.gwu.edu/briefing-book/foia/2017-10-12/cia-panamanian-dictator-manuel-noriega-cold-war-memories', type: 'Declassified Documents' },
+      { title: 'National Security Archive - Panama Documents', url: 'https://nsarchive.gwu.edu/briefing-book/foia/2017-10-12/cia-panamanian-dictator-manuel-noriega-cold-war-memories', type: 'Declassified Documents' },
     ],
     affiliations: [
       { id: '1', name: 'George H.W. Bush', type: 'individual', relationship: 'Ordered invasion', href: '/entities/individuals/george-hw-bush' },
@@ -6235,7 +6235,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Human Rights Watch - Civilian Deaths in NATO Campaign', url: 'https://www.hrw.org/reports/2000/nato/', type: 'Human Rights Report' },
       { title: 'Amnesty International - NATO Violations', url: 'https://www.amnesty.org/en/documents/eur70/018/2000/en/', type: 'Human Rights Report' },
-      { title: 'ICTY Final Report on NATO Bombing', url: 'https://web.archive.org/web/2024/https://www.icty.org/x/file/Press/nato061300.htm', type: 'Legal Document' },
+      { title: 'ICTY Final Report on NATO Bombing', url: 'https://www.icty.org/x/file/Press/nato061300.htm', type: 'Legal Document' },
     ],
     affiliations: [
       { id: '1', name: 'Bill Clinton', type: 'individual', relationship: 'Ordered U.S. participation in bombing', href: '/entities/individuals/bill-clinton' },
@@ -6300,7 +6300,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Blackwater', 'Iraq', 'War Crimes', 'Erik Prince', 'Trump Pardon', 'Private Military', 'Nisour Square'],
     sources: [
-      { title: 'DOJ Conviction Announcement', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/federal-jury-convicts-four-former-blackwater-employees-charges-stemming-2007-nisur-square', type: 'Press Release' },
+      { title: 'DOJ Conviction Announcement', url: 'https://www.justice.gov/opa/pr/federal-jury-convicts-four-former-blackwater-employees-charges-stemming-2007-nisur-square', type: 'Press Release' },
       { title: 'UN Condemnation of Pardons', url: 'https://www.ohchr.org/en/press-releases/2020/12/un-experts-deeply-concerned-pardon-blackwater-guards-convicted-2007', type: 'UN Statement' },
       { title: 'NY Times Investigation', url: 'https://www.nytimes.com/2007/10/02/world/middleeast/02blackwater.html', type: 'Investigation' },
     ],
@@ -6335,7 +6335,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Congressional Iran-Contra Report', url: 'https://archive.org/details/reportofcongress87unit', type: 'Government Report' },
       { title: 'Tower Commission Report', url: 'https://archive.org/details/towercommissionr00pres', type: 'Government Report' },
-      { title: 'National Security Archive - Iran-Contra Documents', url: 'https://web.archive.org/web/2024/https://nsarchive.gwu.edu/project/iran-contra-affair-20-years-later', type: 'Declassified Documents' },
+      { title: 'National Security Archive - Iran-Contra Documents', url: 'https://nsarchive.gwu.edu/project/iran-contra-affair-20-years-later', type: 'Declassified Documents' },
       { title: 'CIA-Contra-Crack Report', url: 'http://web.archive.org/web/20191119054008/https://oig.justice.gov/special/9712/', type: 'IG Report' },
     ],
     affiliations: [
@@ -6370,7 +6370,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'The Divide by Jason Hickel', url: 'https://www.jasonhickel.org/the-divide', type: 'Book' },
       { title: 'Confessions of an Economic Hit Man', url: '#', type: 'Book' },
       { title: 'AFRICOM Congressional Testimony', url: 'https://www.africom.mil/pressroom/testimony', type: 'Government Source' },
-      { title: 'Oxfam - Tax Avoidance in Africa', url: 'https://web.archive.org/web/2024/https://www.oxfam.org/en/research/africa-rising-who-benefits-unfinished-transformation', type: 'Report' },
+      { title: 'Oxfam - Tax Avoidance in Africa', url: 'https://www.oxfam.org/en/research/africa-rising-who-benefits-unfinished-transformation', type: 'Report' },
     ],
     affiliations: [
       { id: '1', name: 'AFRICOM', type: 'agency', relationship: 'U.S. military presence in Africa', href: '/entities/agencies/africom' },
@@ -6402,7 +6402,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['US Attorneys', 'Alberto Gonzales', 'Bush Administration', 'DOJ', 'Political Prosecution', 'Karl Rove'],
     sources: [
       { title: 'DOJ Inspector General Report', url: 'http://web.archive.org/web/20200302142947/https://oig.justice.gov/special/s0809a/final.pdf', type: 'Government Report' },
-      { title: 'Congressional Investigation Documents', url: 'https://web.archive.org/web/2024/https://judiciary.house.gov/issues/u-s-attorneys', type: 'Congressional' },
+      { title: 'Congressional Investigation Documents', url: 'https://judiciary.house.gov/issues/u-s-attorneys', type: 'Congressional' },
       { title: 'Firing of U.S. Attorneys Controversy - Wikipedia', url: 'https://en.wikipedia.org/wiki/Dismissal_of_U.S._attorneys_controversy', type: 'Reference' },
     ],
     affiliations: [
@@ -6434,9 +6434,9 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Email Deletion', 'Bush White House', 'Karl Rove', 'RNC', 'Presidential Records Act', 'Obstruction'],
     sources: [
-      { title: 'House Oversight Committee Investigation', url: 'https://web.archive.org/web/2024/https://oversight.house.gov/sites/democrats.oversight.house.gov/files/documents/20080918%20Report%20on%20White%20House%20Email.pdf', type: 'Congressional Report' },
-      { title: 'Citizens for Responsibility and Ethics Report', url: 'https://web.archive.org/web/2024/https://www.citizensforethics.org/reports-investigations/crew-investigations/white-house-email/', type: 'Investigation' },
-      { title: 'Newsweek - Lost White House Emails', url: 'https://web.archive.org/web/2024/https://www.newsweek.com/white-houses-lost-e-mails-86653', type: 'News Report' },
+      { title: 'House Oversight Committee Investigation', url: 'https://oversight.house.gov/sites/democrats.oversight.house.gov/files/documents/20080918%20Report%20on%20White%20House%20Email.pdf', type: 'Congressional Report' },
+      { title: 'Citizens for Responsibility and Ethics Report', url: 'https://www.citizensforethics.org/reports-investigations/crew-investigations/white-house-email/', type: 'Investigation' },
+      { title: 'Newsweek - Lost White House Emails', url: 'https://www.newsweek.com/white-houses-lost-e-mails-86653', type: 'News Report' },
     ],
     affiliations: [
       { id: '1', name: 'George W. Bush', type: 'individual', relationship: 'President during scandal', href: '/entities/individuals/george-w-bush' },
@@ -6534,7 +6534,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Trump Federal Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
       { title: 'Supreme Court Immunity Ruling', url: 'https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf', type: 'Court Decision' },
-      { title: 'Jack Smith Statement', url: 'https://web.archive.org/web/2024/https://www.justice.gov/sco-trump', type: 'Official Statement' },
+      { title: 'Jack Smith Statement', url: 'https://www.justice.gov/sco-trump', type: 'Official Statement' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant, four counts', href: '/entities/individuals/donald-trump' },
@@ -6566,7 +6566,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Environmental Destruction', 'Climate Denial', 'Exxon', 'EPA', 'Pollution', 'Deregulation', 'Corporate Crime'],
     sources: [
-      { title: 'Inside Climate News - Exxon Knew', url: 'https://web.archive.org/web/2024/https://insideclimatenews.org/topic/exxon-knew/', type: 'Investigation' },
+      { title: 'Inside Climate News - Exxon Knew', url: 'https://insideclimatenews.org/topic/exxon-knew/', type: 'Investigation' },
       { title: 'NY Times Trump Rollback Tracker', url: 'https://www.nytimes.com/interactive/2020/climate/trump-environment-rollbacks-list.html', type: 'Tracking' },
       { title: 'EPA PFAS Information', url: 'https://www.epa.gov/pfas', type: 'Government Resource' },
       { title: 'Union of Concerned Scientists - Climate Disinformation', url: 'https://www.ucsusa.org/resources/climate-deception-dossiers', type: 'Research' },
@@ -6601,7 +6601,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['COVID-19', 'Misinformation', 'Hydroxychloroquine', 'Ivermectin', 'Anti-Vaccine', 'Public Health', 'Trump'],
     sources: [
-      { title: 'FDA Revokes Hydroxychloroquine EUA', url: 'https://web.archive.org/web/2024/https://www.fda.gov/drugs/drug-safety-and-availability/fda-revokes-emergency-use-authorization-chloroquine-and-hydroxychloroquine', type: 'Government' },
+      { title: 'FDA Revokes Hydroxychloroquine EUA', url: 'https://www.fda.gov/drugs/drug-safety-and-availability/fda-revokes-emergency-use-authorization-chloroquine-and-hydroxychloroquine', type: 'Government' },
       { title: 'COVID Misinformation Death Toll Study', url: 'https://www.nber.org/papers/w30512', type: 'Research' },
       { title: 'Disinformation Dozen Report', url: 'https://www.counterhate.com/disinformationdozen', type: 'Investigation' },
     ],
@@ -6832,7 +6832,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Lockdowns', 'Mandates', 'Civil Liberties', 'COVID-19', 'Public Health', 'Freedom'],
     sources: [
-      { title: 'ACLU on COVID Civil Liberties', url: 'https://web.archive.org/web/2024/https://www.aclu.org/issues/human-rights/civil-liberties-and-covid-19', type: 'Civil Liberties' },
+      { title: 'ACLU on COVID Civil Liberties', url: 'https://www.aclu.org/issues/human-rights/civil-liberties-and-covid-19', type: 'Civil Liberties' },
       { title: 'Great Barrington Declaration', url: 'https://gbdeclaration.org/', type: 'Policy Proposal' },
       { title: 'John Snow Memorandum', url: 'https://www.johnsnowmemo.com/', type: 'Scientific Response' },
     ],
@@ -6964,8 +6964,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Royal Family', 'Prince Andrew', 'Epstein', 'Coverup', 'British Monarchy', 'Institutional Protection'],
     sources: [
       { title: 'BBC Newsnight Andrew Interview', url: 'https://www.bbc.com/news/uk-50449339', type: 'Interview' },
-      { title: 'Giuffre v. Andrew Settlement', url: 'https://web.archive.org/web/2024/https://www.bbc.com/news/uk-60367654', type: 'News Report' },
-      { title: 'Royal Family Epstein Timeline', url: 'https://web.archive.org/web/2024/https://www.theguardian.com/uk-news/2022/jan/13/prince-andrew-and-jeffrey-epstein-timeline-of-their-relationship', type: 'Investigation' },
+      { title: 'Giuffre v. Andrew Settlement', url: 'https://www.bbc.com/news/uk-60367654', type: 'News Report' },
+      { title: 'Royal Family Epstein Timeline', url: 'https://www.theguardian.com/uk-news/2022/jan/13/prince-andrew-and-jeffrey-epstein-timeline-of-their-relationship', type: 'Investigation' },
     ],
     affiliations: [
       { id: '1', name: 'Prince Andrew', type: 'individual', relationship: 'Accused, settled lawsuit', href: '/entities/individuals/prince-andrew' },
@@ -7062,8 +7062,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Federalist Society', 'Leonard Leo', 'Supreme Court', 'Judicial Appointments', 'Dark Money', 'Conservative Movement'],
     sources: [
-      { title: 'ProPublica Leo Investigation', url: 'https://web.archive.org/web/2024/https://www.propublica.org/series/the-secret-donors-behind-the-supreme-court', type: 'Investigation' },
-      { title: 'The Atlantic - Leonard Leo', url: 'https://web.archive.org/web/2024/https://www.theatlantic.com/politics/archive/2019/01/federalist-society-leonard-leo/579918/', type: 'Profile' },
+      { title: 'ProPublica Leo Investigation', url: 'https://www.propublica.org/series/the-secret-donors-behind-the-supreme-court', type: 'Investigation' },
+      { title: 'The Atlantic - Leonard Leo', url: 'https://www.theatlantic.com/politics/archive/2019/01/federalist-society-leonard-leo/579918/', type: 'Profile' },
       { title: 'Federalist Society Official Site', url: 'https://fedsoc.org/', type: 'Official Site' },
     ],
     affiliations: [
@@ -7100,7 +7100,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'DOJ Pardon Records', url: 'http://web.archive.org/web/20210424061514/http://web.archive.org/web/20210424061514/https://www.justice.gov/pardon/pardons-granted-president-donald-trump', type: 'Government Records' },
       { title: 'NYT - Trump Pardon Spree', url: 'https://www.nytimes.com/2021/01/20/us/politics/trump-pardons.html', type: 'News Report' },
       { title: 'Blackwater Massacre Pardons', url: 'https://www.nytimes.com/2020/12/22/us/politics/blackwater-pardons.html', type: 'News Report' },
-      { title: 'Christie on Kushner Pardon', url: 'https://web.archive.org/web/2024/https://www.theguardian.com/us-news/2020/dec/24/chris-christie-charles-kushner-pardon-loathsome', type: 'News Report' },
+      { title: 'Christie on Kushner Pardon', url: 'https://www.theguardian.com/us-news/2020/dec/24/chris-christie-charles-kushner-pardon-loathsome', type: 'News Report' },
       { title: 'Mueller Report on Stone/Manafort', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
     ],
     affiliations: [
@@ -7138,10 +7138,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Tina Peters', 'Mesa County', 'Election Breach', 'Dominion', 'Mike Lindell', 'Election Security', 'Insider Threat'],
     sources: [
-      { title: 'Colorado Secretary of State Investigation', url: 'https://web.archive.org/web/2024/https://www.sos.state.co.us/pubs/elections/mesa-county.html', type: 'Government Investigation' },
+      { title: 'Colorado Secretary of State Investigation', url: 'https://www.sos.state.co.us/pubs/elections/mesa-county.html', type: 'Government Investigation' },
       { title: 'Peters Indictment', url: 'https://www.courts.state.co.us/', type: 'Court Filing' },
       { title: 'NYT - Tina Peters Conviction', url: 'https://www.nytimes.com/2024/08/12/us/politics/tina-peters-colorado-election-guilty.html', type: 'News Report' },
-      { title: 'AP - Peters Sentencing', url: 'https://web.archive.org/web/2024/https://apnews.com/article/tina-peters-colorado-election-sentence', type: 'News Report' },
+      { title: 'AP - Peters Sentencing', url: 'https://apnews.com/article/tina-peters-colorado-election-sentence', type: 'News Report' },
       { title: 'Washington Post - Election Insider Threats', url: 'https://www.washingtonpost.com/politics/2022/08/19/election-officials-threats/', type: 'Investigation' },
     ],
     affiliations: [
@@ -7178,7 +7178,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Inside Climate News - Exxon Knew', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigation' },
       { title: 'Union of Concerned Scientists - Climate Deception Dossiers', url: 'https://www.ucsusa.org/resources/climate-deception-dossiers', type: 'Research' },
       { title: 'Merchants of Doubt (Documentary)', url: 'https://www.merchantsofdoubt.org/', type: 'Documentary' },
-      { title: 'Senate Whitehouse Investigation', url: 'https://web.archive.org/web/2024/https://www.whitehouse.senate.gov/news/speeches/the-web-of-denial', type: 'Congressional' },
+      { title: 'Senate Whitehouse Investigation', url: 'https://www.whitehouse.senate.gov/news/speeches/the-web-of-denial', type: 'Congressional' },
       { title: 'Drilled Podcast', url: 'https://drilledpodcast.com/', type: 'Investigation' },
     ],
     affiliations: [
@@ -7251,9 +7251,9 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Henry Kissinger', 'War Crimes', 'Cambodia', 'Chile', 'Bangladesh', 'East Timor', 'Nixon', 'Vietnam'],
     sources: [
-      { title: 'The Trial of Henry Kissinger - Christopher Hitchens', url: 'https://web.archive.org/web/2024/https://www.versobooks.com/books/2369-the-trial-of-henry-kissinger', type: 'Book' },
+      { title: 'The Trial of Henry Kissinger - Christopher Hitchens', url: 'https://www.versobooks.com/books/2369-the-trial-of-henry-kissinger', type: 'Book' },
       { title: 'Blood Telegram - Gary Bass', url: 'https://www.penguinrandomhouse.com/books/214038/the-blood-telegram-by-gary-j-bass/', type: 'Book' },
-      { title: 'National Security Archive Kissinger Docs', url: 'https://web.archive.org/web/2024/https://nsarchive.gwu.edu/briefing-book/chile/2023-09-10/chile-50-years-after-coup-u.s.-documents-show', type: 'Primary Documents' },
+      { title: 'National Security Archive Kissinger Docs', url: 'https://nsarchive.gwu.edu/briefing-book/chile/2023-09-10/chile-50-years-after-coup-u.s.-documents-show', type: 'Primary Documents' },
       { title: 'Cambodia Bombing Documentation', url: 'https://www.historyplace.com/worldhistory/genocide/pol-pot.htm', type: 'Historical Record' },
       { title: 'Rolling Stone - Kissinger Obituary', url: 'https://www.rollingstone.com/politics/political-commentary/henry-kissinger-obituary-war-criminal-1234924tried/', type: 'Analysis' },
     ],
@@ -7290,10 +7290,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Bangladesh', 'Genocide', '1971', 'Pakistan', 'Nixon', 'Kissinger', 'Blood Telegram', 'War Crimes'],
     sources: [
       { title: 'The Blood Telegram - Gary Bass', url: 'https://www.penguinrandomhouse.com/books/214038/the-blood-telegram-by-gary-j-bass/', type: 'Book' },
-      { title: 'Original Blood Telegram', url: 'https://web.archive.org/web/2024/https://nsarchive.gwu.edu/briefing-book/south-asia/2020-08-14/blood-telegram', type: 'Primary Document' },
-      { title: 'Genocide Studies Bangladesh', url: 'https://web.archive.org/web/2024/https://www.genocidewatch.com/single-post/genocide-in-bangladesh-1971', type: 'Research' },
+      { title: 'Original Blood Telegram', url: 'https://nsarchive.gwu.edu/briefing-book/south-asia/2020-08-14/blood-telegram', type: 'Primary Document' },
+      { title: 'Genocide Studies Bangladesh', url: 'https://www.genocidewatch.com/single-post/genocide-in-bangladesh-1971', type: 'Research' },
       { title: 'Nixon-Kissinger Tapes on Bangladesh', url: 'https://nsarchive.gwu.edu/', type: 'Primary Document' },
-      { title: 'Human Rights Watch - Legacy of 1971', url: 'https://web.archive.org/web/2024/https://www.hrw.org/news/2016/03/25/bangladesh-investigate-1971-massacres', type: 'Report' },
+      { title: 'Human Rights Watch - Legacy of 1971', url: 'https://www.hrw.org/news/2016/03/25/bangladesh-investigate-1971-massacres', type: 'Report' },
     ],
     affiliations: [
       { id: '1', name: 'Richard Nixon', type: 'individual', relationship: 'Supported Pakistan during genocide', href: '/entities/individuals/richard-nixon' },
@@ -7329,7 +7329,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Leveson Inquiry Report', url: 'https://www.gov.uk/government/publications/leveson-inquiry-report-into-the-culture-practices-and-ethics-of-the-press', type: 'Government Report' },
       { title: 'Guardian Phone Hacking Coverage', url: 'https://www.theguardian.com/media/phone-hacking', type: 'Investigation' },
-      { title: 'BBC Panorama Investigations', url: 'https://web.archive.org/web/2024/https://www.bbc.com/news/uk-14045457', type: 'Documentary' },
+      { title: 'BBC Panorama Investigations', url: 'https://www.bbc.com/news/uk-14045457', type: 'Documentary' },
       { title: 'Hack Attack - Nick Davies', url: 'https://www.penguin.co.uk/books/251/251478/hack-attack/9780099572541.html', type: 'Book' },
       { title: 'NYT - Phone Hacking Timeline', url: 'https://www.nytimes.com/2011/07/11/world/europe/11hacking-timeline.html', type: 'Timeline' },
     ],
@@ -7595,7 +7595,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Geneva Conventions', url: 'https://www.icrc.org/en/war-and-law/treaties-customary-law/geneva-conventions', type: 'Legal Document' },
       { title: 'International Criminal Court', url: 'https://www.icc-cpi.int/', type: 'International Body' },
       { title: 'ICRC IHL Database', url: 'https://ihl-databases.icrc.org/en/ihl-treaties', type: 'Legal Database' },
-      { title: 'Human Rights Watch Armed Conflict Coverage', url: 'https://web.archive.org/web/2024/https://www.hrw.org/topic/international-justice/laws-war', type: 'Research' },
+      { title: 'Human Rights Watch Armed Conflict Coverage', url: 'https://www.hrw.org/topic/international-justice/laws-war', type: 'Research' },
       { title: 'Amnesty International Armed Conflict', url: 'https://www.amnesty.org/en/what-we-do/armed-conflict/', type: 'Research' },
     ],
     affiliations: [
@@ -8154,8 +8154,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Supreme Court', 'Clarence Thomas', 'Samuel Alito', 'Ethics', 'Harlan Crow', 'Corruption'],
     sources: [
       { title: 'ProPublica: Clarence Thomas Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-crow', type: 'Investigation' },
-      { title: 'ProPublica: Thomas Secret Real Estate Deal', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-deal', type: 'Investigation' },
-      { title: 'ProPublica: Alito Fishing Trip', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/samuel-alito-fishing-trip-paul-singer-scotus', type: 'Investigation' },
+      { title: 'ProPublica: Thomas Secret Real Estate Deal', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-deal', type: 'Investigation' },
+      { title: 'ProPublica: Alito Fishing Trip', url: 'https://www.propublica.org/article/samuel-alito-fishing-trip-paul-singer-scotus', type: 'Investigation' },
     ],
     affiliations: [
       { id: '1', name: 'Clarence Thomas', type: 'individual', relationship: 'Received millions in undisclosed gifts', href: '/entities/individuals/clarence-thomas' },
@@ -8341,7 +8341,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Vietnam', 'War Crimes', 'Winter Soldier', 'Documentation', 'Atrocities'],
     sources: [
       { title: 'Winter Soldier Investigation', url: 'https://www.wintersoldier.com/', type: 'Historical Archive' },
-      { title: 'Vietnam War Crimes Working Group Files', url: 'https://web.archive.org/web/2024/https://www.archives.gov/research/vietnam-war/war-crimes', type: 'Government Documents' },
+      { title: 'Vietnam War Crimes Working Group Files', url: 'https://www.archives.gov/research/vietnam-war/war-crimes', type: 'Government Documents' },
     ],
     affiliations: [
       { id: '1', name: 'U.S. Army', type: 'agency', relationship: 'Primary force committing crimes', href: '/entities/agencies/us-army' },
@@ -8367,7 +8367,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Iraq War', 'WMD Lies', 'Bush', 'Cheney', 'Torture', 'ISIS'],
     sources: [
       { title: 'Iraq Survey Group Final Report', url: 'http://web.archive.org/web/20201206173010/http://web.archive.org/web/20201206173010/https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/', type: 'Government Report' },
-      { title: 'Senate Intelligence Committee WMD Report', url: 'https://web.archive.org/web/2024/https://www.intelligence.senate.gov/publications/report-prewar-intelligence-assessments-about-postwar-iraq', type: 'Government Report' },
+      { title: 'Senate Intelligence Committee WMD Report', url: 'https://www.intelligence.senate.gov/publications/report-prewar-intelligence-assessments-about-postwar-iraq', type: 'Government Report' },
     ],
     affiliations: [
       { id: '1', name: 'George W. Bush', type: 'individual', relationship: 'Ordered invasion based on lies', href: '/entities/individuals/george-w-bush' },
@@ -8448,7 +8448,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Iran', 'CIA', 'MI6', 'Coup', 'Mosaddegh', 'Operation Ajax'],
     sources: [
-      { title: 'National Security Archive Iran Documents', url: 'https://web.archive.org/web/2024/https://nsarchive.gwu.edu/project/iran-project', type: 'Government Documents' },
+      { title: 'National Security Archive Iran Documents', url: 'https://nsarchive.gwu.edu/project/iran-project', type: 'Government Documents' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Primary U.S. agency', href: '/entities/agencies/cia' },
@@ -8474,7 +8474,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Guatemala', 'CIA', 'Coup', 'United Fruit', 'Genocide', 'Cold War'],
     sources: [
       { title: 'CIA Guatemala Documents', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB4/', type: 'Government Documents' },
-      { title: 'CEH Truth Commission Report', url: 'https://web.archive.org/web/2024/https://hrdag.org/guatemala-memory-of-silence-the-commission-for-historical-clarification-conclusions-and-recommendations/', type: 'International Report' },
+      { title: 'CEH Truth Commission Report', url: 'https://hrdag.org/guatemala-memory-of-silence-the-commission-for-historical-clarification-conclusions-and-recommendations/', type: 'International Report' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Orchestrated the coup', href: '/entities/agencies/cia' },
@@ -8714,7 +8714,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['CIA', 'Assassinations', 'Castro', 'Phoenix Program', 'Covert Operations'],
     sources: [
-      { title: 'Church Committee Assassination Report', url: 'https://web.archive.org/web/2024/https://www.intelligence.senate.gov/sites/default/files/94-465.pdf', type: 'Government Report' },
+      { title: 'Church Committee Assassination Report', url: 'https://www.intelligence.senate.gov/sites/default/files/94-465.pdf', type: 'Government Report' },
       { title: 'Family Jewels Documents', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB222/', type: 'Government Documents' },
     ],
     affiliations: [
@@ -8741,7 +8741,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['George Floyd', 'Police Violence', 'Black Lives Matter', 'Derek Chauvin', 'Minneapolis'],
     sources: [
       { title: 'Chauvin Trial Documents', url: 'https://www.mncourts.gov/State-v-Chauvin', type: 'Court Documents' },
-      { title: 'DOJ Minneapolis Pattern Investigation', url: 'https://web.archive.org/web/2024/https://www.justice.gov/crt/case-document/file/1489751/download', type: 'Government Report' },
+      { title: 'DOJ Minneapolis Pattern Investigation', url: 'https://www.justice.gov/crt/case-document/file/1489751/download', type: 'Government Report' },
     ],
     affiliations: [
       { id: '1', name: 'Derek Chauvin', type: 'individual', relationship: 'Convicted murderer', href: '/entities/individuals/derek-chauvin' },
@@ -8902,7 +8902,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Social Media', 'Facebook', 'Instagram', 'Mental Health', 'Misinformation', 'Algorithms'],
     sources: [
       { title: 'Facebook Papers', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
-      { title: 'Frances Haugen Testimony', url: 'https://web.archive.org/web/2024/https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower', type: 'Congressional Testimony' },
+      { title: 'Frances Haugen Testimony', url: 'https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower', type: 'Congressional Testimony' },
     ],
     affiliations: [
       { id: '1', name: 'Meta', type: 'corporation', relationship: 'Owner of Facebook and Instagram', href: '/entities/corporations/meta' },
@@ -9328,10 +9328,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Ethiopian Airlines', 'Boeing 737 MAX', 'MCAS', 'Ethiopia', 'Corporate Murder', 'Crimes Against Humanity', 'ICC', 'Samya Stumo'],
     sources: [
-      { title: 'Ethiopian AIB Final Report', url: 'https://web.archive.org/web/2024/https://www.aib.gov.et/wp-content/uploads/2022/10/ET-302-Final-Report.pdf', type: 'Government Report' },
+      { title: 'Ethiopian AIB Final Report', url: 'https://www.aib.gov.et/wp-content/uploads/2022/10/ET-302-Final-Report.pdf', type: 'Government Report' },
       { title: 'House Transportation Committee Report', url: 'http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
       { title: 'Samya Stumo Family Testimony', url: 'https://www.c-span.org/video/?465887-1/boeing-737-max', type: 'Congressional Testimony' },
-      { title: 'DOJ DPA Breach Finding', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/justice-department-determines-boeing-breached-obligations-under-2021-resolution', type: 'Press Release' },
+      { title: 'DOJ DPA Breach Finding', url: 'https://www.justice.gov/opa/pr/justice-department-determines-boeing-breached-obligations-under-2021-resolution', type: 'Press Release' },
     ],
     affiliations: [
       { id: '1', name: 'Boeing', type: 'corporation', relationship: 'Killer - knew and did nothing', href: '/entities/corporations/boeing' },
@@ -9368,8 +9368,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Alaska Airlines', 'Boeing 737 MAX 9', 'Door Plug', 'Quality Control', 'Spirit AeroSystems', 'NTSB', 'Criminal Investigation'],
     sources: [
       { title: 'NTSB Preliminary Report', url: 'https://www.ntsb.gov/investigations/Pages/DCA24MA063.aspx', type: 'Government Report' },
-      { title: 'FAA Boeing Investigation', url: 'https://web.archive.org/web/2024/https://www.faa.gov/newsroom/faa-statement-boeing-oversight', type: 'Government Statement' },
-      { title: 'DOJ Criminal Investigation', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/justice-department-determines-boeing-breached-obligations-under-2021-resolution', type: 'Press Release' },
+      { title: 'FAA Boeing Investigation', url: 'https://www.faa.gov/newsroom/faa-statement-boeing-oversight', type: 'Government Statement' },
+      { title: 'DOJ Criminal Investigation', url: 'https://www.justice.gov/opa/pr/justice-department-determines-boeing-breached-obligations-under-2021-resolution', type: 'Press Release' },
     ],
     affiliations: [
       { id: '1', name: 'Boeing', type: 'corporation', relationship: 'Manufacturer with systemic quality failures', href: '/entities/corporations/boeing' },
@@ -9409,7 +9409,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'House Committee Boeing Investigation Final Report', url: 'http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
       { title: 'DOJ Boeing Deferred Prosecution Agreement', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Court Filing' },
-      { title: 'DOJ Boeing DPA Breach Determination', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/justice-department-determines-boeing-breached-obligations-under-2021-resolution', type: 'Press Release' },
+      { title: 'DOJ Boeing DPA Breach Determination', url: 'https://www.justice.gov/opa/pr/justice-department-determines-boeing-breached-obligations-under-2021-resolution', type: 'Press Release' },
       { title: 'Boeing Internal Communications - Congressional Record', url: 'http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Documents' },
       { title: 'NTSB Alaska Airlines 1282 Investigation', url: 'https://www.ntsb.gov/investigations/Pages/DCA24MA063.aspx', type: 'Government Report' },
     ],
@@ -9450,7 +9450,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'House Committee Report on FAA Oversight', url: 'http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
       { title: 'GAO FAA Oversight Report', url: 'https://www.gao.gov/products/gao-20-626', type: 'Government Report' },
-      { title: 'DOT Inspector General Boeing Review', url: 'https://web.archive.org/web/2024/https://www.oig.dot.gov/library-item/37857', type: 'Government Report' },
+      { title: 'DOT Inspector General Boeing Review', url: 'https://www.oig.dot.gov/library-item/37857', type: 'Government Report' },
     ],
     affiliations: [
       { id: '1', name: 'FAA', type: 'agency', relationship: 'The captured regulator', href: '/entities/agencies/faa' },
@@ -9651,8 +9651,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Wells Fargo', 'Banking Fraud', 'Fake Accounts', 'John Stumpf', 'Consumer Protection'],
     sources: [
-      { title: 'CFPB Wells Fargo Order', url: 'https://web.archive.org/web/2024/https://www.consumerfinance.gov/about-us/newsroom/cfpb-fines-wells-fargo-100-million-widespread-illegal-practice-secretly-opening-unauthorized-accounts/', type: 'Government Report' },
-      { title: 'Senate Banking Committee Hearing', url: 'https://web.archive.org/web/2024/https://www.banking.senate.gov/hearings/an-examination-of-wells-fargo-unauthorized-accounts', type: 'Government Hearing' },
+      { title: 'CFPB Wells Fargo Order', url: 'https://www.consumerfinance.gov/about-us/newsroom/cfpb-fines-wells-fargo-100-million-widespread-illegal-practice-secretly-opening-unauthorized-accounts/', type: 'Government Report' },
+      { title: 'Senate Banking Committee Hearing', url: 'https://www.banking.senate.gov/hearings/an-examination-of-wells-fargo-unauthorized-accounts', type: 'Government Hearing' },
     ],
     affiliations: [
       { id: '1', name: 'Wells Fargo', type: 'corporation', relationship: 'Fraudulent bank', href: '/entities/corporations/wells-fargo' },
@@ -9759,7 +9759,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Agent Orange', 'Vietnam War', 'Chemical Weapons', 'Dioxin', 'Dow Chemical', 'Monsanto'],
     sources: [
       { title: 'VA Agent Orange Information', url: 'https://www.va.gov/disability/eligibility/hazardous-materials-exposure/agent-orange/', type: 'Government Report' },
-      { title: 'USAID Vietnam Cleanup', url: 'https://web.archive.org/web/2024/https://www.usaid.gov/vietnam/agent-orange', type: 'Government Report' },
+      { title: 'USAID Vietnam Cleanup', url: 'https://www.usaid.gov/vietnam/agent-orange', type: 'Government Report' },
     ],
     affiliations: [
       { id: '1', name: 'Dow Chemical', type: 'corporation', relationship: 'Major manufacturer', href: '/entities/corporations/dow-chemical' },
@@ -9786,7 +9786,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Big Tobacco', 'Cancer', 'Nicotine Addiction', 'RICO', 'Corporate Fraud', 'Public Health'],
     sources: [
-      { title: 'DOJ RICO Verdict', url: 'https://web.archive.org/web/2024/https://www.justice.gov/civil/case/tobacco', type: 'Court Filing' },
+      { title: 'DOJ RICO Verdict', url: 'https://www.justice.gov/civil/case/tobacco', type: 'Court Filing' },
       { title: 'Truth Tobacco Industry Documents', url: 'https://www.industrydocuments.ucsf.edu/tobacco/', type: 'Archive' },
     ],
     affiliations: [
@@ -9892,7 +9892,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Facebook', 'Instagram', 'Mental Health', 'Teenagers', 'Algorithm', 'Frances Haugen'],
     sources: [
       { title: 'Wall Street Journal Facebook Files', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
-      { title: 'Haugen Congressional Testimony', url: 'https://web.archive.org/web/2024/https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower', type: 'Government Hearing' },
+      { title: 'Haugen Congressional Testimony', url: 'https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower', type: 'Government Hearing' },
     ],
     affiliations: [
       { id: '1', name: 'Meta', type: 'corporation', relationship: 'Facebook parent company', href: '/entities/corporations/meta' },
@@ -9918,8 +9918,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Amazon', 'Labor Rights', 'Jeff Bezos', 'Warehouse Workers', 'Union Busting', 'Worker Safety'],
     sources: [
-      { title: 'OSHA Amazon Injury Data', url: 'https://web.archive.org/web/2024/https://www.osha.gov/news/newsreleases/national/12202022', type: 'Government Report' },
-      { title: 'Strategic Organizing Center Report', url: 'https://web.archive.org/web/2024/https://thesoc.org/amazon-injury-report/', type: 'NGO Report' },
+      { title: 'OSHA Amazon Injury Data', url: 'https://www.osha.gov/news/newsreleases/national/12202022', type: 'Government Report' },
+      { title: 'Strategic Organizing Center Report', url: 'https://thesoc.org/amazon-injury-report/', type: 'NGO Report' },
     ],
     affiliations: [
       { id: '1', name: 'Amazon', type: 'corporation', relationship: 'Exploitative employer', href: '/entities/corporations/amazon' },

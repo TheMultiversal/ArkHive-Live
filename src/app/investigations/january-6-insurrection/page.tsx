@@ -95,8 +95,8 @@ const investigation = {
     { title: 'January 6th Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
     { title: 'DOJ Jack Smith January 6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: '2023' },
     { title: 'House Impeachment Resolution (H.Res. 24)', url: 'https://www.congress.gov/bill/117th-congress/house-resolution/24', date: '2021' },
-    { title: 'Capitol Police Officer Testimony', url: 'https://web.archive.org/web/2024/https://www.congress.gov/117/meeting/house/113883/witnesses/HHRG-117-IG00-Wstate-FanoneM-20210727.pdf', date: '2021' },
-    { title: 'Stewart Rhodes Seditious Conspiracy Conviction', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/oath-keepers-leader-and-florida-oath-keeper-found-guilty-seditious-conspiracy', date: '2022' },
+    { title: 'Capitol Police Officer Testimony', url: 'https://www.congress.gov/117/meeting/house/113883/witnesses/HHRG-117-IG00-Wstate-FanoneM-20210727.pdf', date: '2021' },
+    { title: 'Stewart Rhodes Seditious Conspiracy Conviction', url: 'https://www.justice.gov/opa/pr/oath-keepers-leader-and-florida-oath-keeper-found-guilty-seditious-conspiracy', date: '2022' },
     { title: 'Proud Boys Seditious Conspiracy Convictions', url: 'https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', date: '2023' }
   ],
 };

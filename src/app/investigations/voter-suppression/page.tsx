@@ -147,9 +147,9 @@ const investigationData = {
   sources: [
     { title: 'Georgia Call Audio and Transcript', url: 'https://www.washingtonpost.com/politics/trump-raffensperger-call-transcript-georgia-vote/', type: 'Audio/Transcript' },
     { title: 'USPS Inspector General Report', url: 'https://www.uspsoig.gov/reports/audit-reports/operational-changes-mail-delivery', type: 'Government Report' },
-    { title: 'Brennan Center: Voter Purge Analysis', url: 'https://web.archive.org/web/2024/https://www.brennancenter.org/our-work/research-reports/voter-purge-rates-remain-high', type: 'Research' },
-    { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/2024/https://www.fultonclerk.org/DocumentCenter/View/2037/Trump-Indictment', type: 'Court Document' },
-    { title: 'DeJoy Conflict of Interest Analysis', url: 'https://web.archive.org/web/2024/https://www.citizensforethics.org/reports-investigations/crew-investigations/louis-dejoy-usps-conflicts-of-interest/', type: 'Investigation' },
+    { title: 'Brennan Center: Voter Purge Analysis', url: 'https://www.brennancenter.org/our-work/research-reports/voter-purge-rates-remain-high', type: 'Research' },
+    { title: 'Georgia RICO Indictment', url: 'https://www.fultonclerk.org/DocumentCenter/View/2037/Trump-Indictment', type: 'Court Document' },
+    { title: 'DeJoy Conflict of Interest Analysis', url: 'https://www.citizensforethics.org/reports-investigations/crew-investigations/louis-dejoy-usps-conflicts-of-interest/', type: 'Investigation' },
     { title: 'Election Lawsuit Tracker', url: 'https://www.democracydocket.com/', type: 'Legal Tracker' },
   ],
 };

@@ -100,7 +100,7 @@ const investigation = {
     { title: 'Deutsche Bank and Trump: A Timeline', url: 'https://www.nytimes.com/2020/02/04/magazine/deutsche-bank-trump.html', date: '2020' },
     { title: 'House Subpoenas for Deutsche Bank Records', url: 'https://www.congress.gov/bill/116th-congress/house-resolution/507', date: '2019' },
     { title: 'Deutsche Bank $670M Russia Fine', url: 'https://web.archive.org/web/*/https://www.justice.gov/opa/pr/deutsche-bank-agrees-pay-over-41-million-resolve-foreign-corrupt-practices-act', date: '2017' },
-    { title: 'NY AG Fraud Case Documents', url: 'https://web.archive.org/web/2024/https://ag.ny.gov/press-release/2022/attorney-general-james-files-lawsuit-against-donald-trump', date: '2022-2024' },
+    { title: 'NY AG Fraud Case Documents', url: 'https://ag.ny.gov/press-release/2022/attorney-general-james-files-lawsuit-against-donald-trump', date: '2022-2024' },
     { title: 'Dark Towers: Deutsche Bank Book', url: 'https://www.harpercollins.com/products/dark-towers-david-enrich', date: '2020' },
   ],
 };

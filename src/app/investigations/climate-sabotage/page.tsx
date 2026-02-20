@@ -154,7 +154,7 @@ const investigationData = {
     { title: 'Pruitt Resignation & Scandals', url: 'https://www.nytimes.com/2018/07/05/climate/scott-pruitt-epa-resigns.html', type: 'News Report' },
     { title: 'Climate Science Suppression Report', url: 'https://www.ucsusa.org/resources/attacks-on-science', type: 'Research' },
     { title: 'Harvard Air Pollution Deaths Study', url: 'https://www.hsph.harvard.edu/c-change/news/fossil-fuel-air-pollution-responsible-for-1-in-5-deaths-worldwide/', type: 'Academic Study' },
-    { title: 'National Monument Reductions', url: 'https://web.archive.org/web/2024/https://www.doi.gov/pressreleases/secretary-zinke-announces-monument-review', type: 'Government Document' },
+    { title: 'National Monument Reductions', url: 'https://www.doi.gov/pressreleases/secretary-zinke-announces-monument-review', type: 'Government Document' },
   ],
 };
 
