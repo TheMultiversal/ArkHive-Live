@@ -83,8 +83,8 @@ const investigation = {
     caldwell: '14 months',
   },
   sources: [
-    { title: 'DOJ Oath Keepers Seditious Conspiracy Conviction', url: 'https://www.justice.gov/opa/pr/oath-keepers-leader-and-florida-oath-keeper-found-guilty-seditious-conspiracy', date: '2022' },
-    { title: 'Stewart Rhodes Sentencing', url: 'https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy', date: '2023' },
+    { title: 'DOJ Oath Keepers Seditious Conspiracy Conviction', url: 'https://www.justice.gov/opa/pr/oath-keepers-leader-and-florida-oath-keeper-found-guilty-seditious-conspiracy', date: '2022' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+    { title: 'Stewart Rhodes Sentencing', url: 'https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
     { title: 'Trial Evidence - QRF Documentation', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', date: '2022' },
   ],

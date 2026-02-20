@@ -13,7 +13,7 @@
     "test:ui": "vitest --ui",
     "check-links": "node scripts/check-external-links-fast.js 8000 50 && node scripts/assert-link-check.js",
     "fix-links": "node scripts/prepare-404-replacements.js && node scripts/generate-replace-ops.js && node scripts/apply-wayback-literals.js && node scripts/check-external-links-fast.js 8000 50"
-  }
+  },
   "dependencies": {
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",

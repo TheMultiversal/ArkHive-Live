@@ -263,14 +263,14 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Manhattan DA Indictment (34 Counts)', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
       { title: 'DOJ Jack Smith Classified Documents Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: '2023' },
       { title: 'DOJ Jack Smith January 6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: '2023' },
-      { title: 'Fulton County Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
-      { title: 'E. Jean Carroll v. Trump Defamation Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2024' },
+      { title: 'Fulton County Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'E. Jean Carroll v. Trump Defamation Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'New York v. Trump Civil Fraud Judgment', url: 'https://www.documentcloud.org/documents/24425172-trump-fraud-ruling', date: '2024' },
       { title: 'Epstein Flight Logs (Lolita Express)', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2025' },
       { title: 'Unsealed Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
       { title: 'Panama Papers Database', url: 'https://offshoreleaks.icij.org/', date: '2025' },
-      { title: 'IRS Audit Documents via Congressional Reports', url: 'https://waysandmeans.house.gov/trump-tax-returns/', date: '2023-2025' },
-      { title: 'DHS/ICE Detention Reports', url: 'https://www.oig.dhs.gov/reports', date: '2020-2025' },
+      { title: 'IRS Audit Documents via Congressional Reports', url: 'https://waysandmeans.house.gov/trump-tax-returns/', date: '2023-2025' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'DHS/ICE Detention Reports', url: 'https://www.oig.dhs.gov/reports', date: '2020-2025' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'EPA Environmental Rollback Documentation', url: 'https://www.epa.gov/laws-regulations/regulations', date: '2017-2021' },
       { title: 'IPCC Climate Assessment Reports', url: 'https://www.ipcc.ch/reports/', date: '2025' },
       { title: 'WHO Health Impact Studies', url: 'https://www.who.int/publications', date: '2024' },
@@ -286,7 +286,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Trump-Russia Mueller Investigation Evidence', url: 'https://www.justice.gov/archives/sco', date: '2017-2019' },
       { title: 'Saudi Arms Deal Documentation', url: 'https://www.state.gov/arms-sales/', date: '2017' },
       { title: 'Yemen War Casualty Reports (UN)', url: 'https://www.ohchr.org/en/hr-bodies/hrc/yemen/index', date: '2017-2025' },
-      { title: 'Cambridge Analytica Scandal Documents', url: 'https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
+      { title: 'Cambridge Analytica Scandal Documents', url: 'https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
   },
   'jeffrey-epstein': {
@@ -398,11 +398,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ghislaine Maxwell Trial Documents', url: 'https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison', date: '2021' },
       { title: 'Unsealed Giuffre v. Maxwell Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
       { title: 'Epstein Flight Logs', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2019-2025' },
-      { title: 'Palm Beach Police Reports', url: 'https://www.palmbeachpost.com/story/news/crime/2019/07/09/palm-beach-police-documents-epstein-case/4537389007/', date: '2005' },
+      { title: 'Palm Beach Police Reports', url: 'https://www.palmbeachpost.com/story/news/crime/2019/07/09/palm-beach-police-documents-epstein-case/4537389007/', date: '2005' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'New York Magazine: The Fantasist', url: 'https://nymag.com/news/features/41826/', date: '2007' },
       { title: 'Vanity Fair: The Talented Mr. Epstein', url: 'https://www.vanityfair.com/news/2003/03/jeffrey-epstein-200303', date: '2003' },
       { title: 'NPA Agreement Ruling', url: 'https://www.courtlistener.com/opinion/4590283/jane-doe-1-v-united-states/', date: '2019' },
-      { title: 'Medical Examiner Autopsy Report', url: 'https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report', date: '2019' },
+      { title: 'Medical Examiner Autopsy Report', url: 'https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'DOJ IG Report on MCC Manhattan', url: 'https://oig.justice.gov/reports', date: '2020' },
     ],
   },
@@ -599,7 +599,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Event 201 Pandemic Exercise Documentation', url: 'https://centerforhealthsecurity.org/our-work/exercises/event201', date: '2019' },
-      { title: 'DOJ Microsoft Antitrust Case', url: 'https://www.justice.gov/atr/case/us-v-microsoft-corporation', date: '1998-2001' },
+      { title: 'DOJ Microsoft Antitrust Case', url: 'https://www.justice.gov/atr/case/us-v-microsoft-corporation', date: '1998-2001' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'New York Times - Gates Epstein Meetings', url: 'https://www.nytimes.com/2019/10/12/business/jeffrey-epstein-bill-gates.html', date: '2019' },
       { title: 'India Parliamentary Committee Report - HPV Vaccine Trials', date: '2013' },
       { title: 'WHO Oral Polio Vaccine Assessment', date: '2020' },
@@ -882,10 +882,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'Sep 2024', event: 'Disbarred in Washington D.C.' },
     ],
     sources: [
-      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
+      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Freeman v. Giuliani Defamation Judgment', url: 'https://www.courtlistener.com/docket/63178855/freeman-v-giuliani/', date: '2023' },
       { title: 'NY Bar Suspension Order', url: 'https://www.nycourts.gov/courts/ad1/calendar/List_Word/2021/06_Jun/24/PDF/Matter%20of%20Giuliani%20(2021-00506).pdf', date: '2021' },
-      { title: 'Arizona Indictment', url: 'https://www.azag.gov/press-release/indictment-unsealed-state-v-meadows-et-al', date: '2024' },
+      { title: 'Arizona Indictment', url: 'https://www.azag.gov/press-release/indictment-unsealed-state-v-meadows-et-al', date: '2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'House Impeachment Report', url: 'https://intelligence.house.gov/report/', date: '2019' },
       { title: 'Parnas SDNY Conviction', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-found-guilty-campaign-finance-charges', date: '2021' },
     ],
@@ -978,7 +978,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Senate Intelligence Committee Vol. 5', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },
       { title: 'Treasury Kilimnik Sanctions', url: 'https://home.treasury.gov/news/press-releases/jy0126', date: '2021' },
       { title: 'Cyprus Shell Companies Analysis', url: 'https://www.icij.org/investigations/pandora-papers/', date: '2021' },
-      { title: 'Deripaska Relationship Documents', url: 'https://www.atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/', date: '2018' },
+      { title: 'Deripaska Relationship Documents', url: 'https://www.atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
   },
   'roger-stone': {
@@ -1151,7 +1151,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Flynn Plea Agreement', url: 'https://www.courtlistener.com/docket/6234142/united-states-v-flynn/', date: '2017' },
       { title: 'DOJ Flynn Statement of Offense', url: 'http://web.archive.org/web/20240314193724/http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download', date: '2017' },
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
-      { title: 'House Oversight Turkey Lobbying Report', url: 'https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf', date: '2017' },
+      { title: 'House Oversight Turkey Lobbying Report', url: 'https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf', date: '2017' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'WaPo: Flynn-Kislyak Calls', url: 'https://www.washingtonpost.com/world/national-security/national-security-adviser-flynn-discussed-sanctions-with-russian-ambassador-despite-denials-officials-say/2017/02/09/f85b29d6-ee11-11e6-b4ff-ac2cf509efe5_story.html', date: '2017' },
     ],
   },
@@ -1244,8 +1244,8 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'We Build the Wall Indictment', url: 'https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands', date: '2020' },
       { title: 'January 6 Committee Contempt Referral', url: 'https://www.congress.gov/117/crpt/hrpt152/CRPT-117hrpt152.pdf', date: '2021' },
-      { title: 'NY State Indictment', url: 'https://ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment', date: '2022' },
-      { title: 'Cambridge Analytica Investigation (ICO UK)', url: 'https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
+      { title: 'NY State Indictment', url: 'https://ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment', date: '2022' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Cambridge Analytica Investigation (ICO UK)', url: 'https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'House January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'DOJ Contempt Conviction Press Release', url: 'https://www.justice.gov/usao-dc/pr/stephen-k-bannon-found-guilty-contempt-congress', date: '2022' },
     ],
@@ -1583,8 +1583,8 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Manhattan DA Tax Fraud Indictment', url: 'https://manhattanda.org/', date: '2021' },
-      { title: 'Tax Fraud Guilty Plea', url: 'https://manhattanda.org/d-a-bragg-long-time-trump-organization-cfo-allen-weisselberg-sentenced/', date: '2023' },
-      { title: 'Perjury Guilty Plea', url: 'https://manhattanda.org/d-a-bragg-allen-weisselberg-pleads-guilty-to-perjury/', date: '2024' },
+      { title: 'Tax Fraud Guilty Plea', url: 'https://manhattanda.org/d-a-bragg-long-time-trump-organization-cfo-allen-weisselberg-sentenced/', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'Perjury Guilty Plea', url: 'https://manhattanda.org/d-a-bragg-allen-weisselberg-pleads-guilty-to-perjury/', date: '2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'NY AG Civil Fraud Trial Evidence', date: '2023' },
     ],
   },
@@ -1664,7 +1664,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'SDNY Plea Agreement', url: 'https://www.justice.gov/usao-sdny/pr/michael-cohen-pleads-guilty-manhattan-federal-court-eight-counts-including-campaign', date: '2018' },
-      { title: 'Congressional Testimony Transcript', url: 'https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' },
+      { title: 'Congressional Testimony Transcript', url: 'https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Manhattan DA People v. Trump Indictment', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
       { title: 'Cohen Sentencing Memo', url: 'https://www.courtlistener.com/docket/7593912/united-states-v-cohen/', date: '2018' },
       { title: 'Mueller Report (Trump Tower Moscow)', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
@@ -1881,7 +1881,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Charged with voter fraud in North Carolina' },
     ],
     sources: [
-      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },
+      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: 'December 2022' },
       { title: 'Federal Indictment - Trump', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: 'August 2023' },
       { title: 'Meadows Text Messages', date: '2022' },
@@ -1980,7 +1980,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Eastman Memos (Exhibits)', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2020-2021' },
-      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },
+      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: 'December 2022' },
       { title: 'California State Bar Disbarment Decision', date: 'March 2024' },
       { title: 'Federal Indictment - Trump', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: 'August 2023' },
@@ -2069,7 +2069,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Georgia Guilty Plea Agreement', url: 'https://www.fultonclerk.org/', date: 'October 2023' },
-      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },
+      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Dominion v. Powell Complaint', url: 'https://www.courtlistener.com/', date: '2021' },
       { title: 'Fox News Dominion Settlement', date: 'April 2023' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
@@ -2211,7 +2211,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: 'December 2022' },
-      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },
+      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Federal Indictment - Trump', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', date: 'August 2023' },
       { title: 'Clark Draft Letter (Exhibit)', date: 'December 2020' },
       { title: 'DOJ Leadership Testimony', date: '2022' },
@@ -2540,7 +2540,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-and-igor-fruman-charged-campaign-finance-offenses', date: '2019' },
-      { title: 'House Intelligence Committee Evidence', url: 'https://intelligence.house.gov/news/documentsingle.aspx?DocumentID=821', date: '2020' },
+      { title: 'House Intelligence Committee Evidence', url: 'https://intelligence.house.gov/news/documentsingle.aspx?DocumentID=821', date: '2020' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
   },
   'igor-fruman': {
@@ -3003,7 +3003,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
-      { title: 'DOJ Indictment', url: 'https://www.justice.gov/opa/pr/wikileaks-founder-charged-computer-intrusion-conspiracy', date: '2019' },
+      { title: 'DOJ Indictment', url: 'https://www.justice.gov/opa/pr/wikileaks-founder-charged-computer-intrusion-conspiracy', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
   },
   'jerome-corsi': {
@@ -3312,7 +3312,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2020', event: 'Fired by Trump (February 7)' },
     ],
     sources: [
-      { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/116/chrg/CHRG-116hhrg42560/CHRG-116hhrg42560.pdf', date: '2019' },
+      { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/116/chrg/CHRG-116hhrg42560/CHRG-116hhrg42560.pdf', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
   },
   'kurt-volker': {
@@ -3534,7 +3534,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Hundreds of children still not reunited' },
     ],
     sources: [
-      { title: 'DHS IG Reports on Family Separation', url: 'https://www.oig.dhs.gov/reports', date: '2019-2020' },
+      { title: 'DHS IG Reports on Family Separation', url: 'https://www.oig.dhs.gov/reports', date: '2019-2020' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'House Oversight Committee Investigation', url: 'https://oversight.house.gov/', date: '2019' },
       { title: 'ACLU Family Separation Documentation', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/family-separation', date: '2018-2024' },
       { title: 'UN Human Rights Council Report', date: '2019' },
@@ -3852,10 +3852,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2025', event: 'Appeals pending while Trump serves as President' },
     ],
     sources: [
-      { title: 'Carroll v. Trump - Sexual Abuse Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2023' },
+      { title: 'Carroll v. Trump - Sexual Abuse Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Carroll v. Trump - $83.3M Defamation Verdict', url: 'https://www.courtlistener.com/docket/17595029/carroll-v-trump/', date: '2024' },
-      { title: 'New York Magazine Article', url: 'https://www.thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' },
-      { title: '"What Do We Need Men For?" Book', url: 'https://www.amazon.com/What-Do-Need-Men-Hideous/dp/1250215420', date: '2019' },
+      { title: 'New York Magazine Article', url: 'https://www.thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: '"What Do We Need Men For?" Book', url: 'https://www.amazon.com/What-Do-Need-Men-Hideous/dp/1250215420', date: '2019' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
   },
   'stormy-daniels': {
@@ -3910,7 +3910,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Manhattan DA Indictment', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
       { title: 'Trial Testimony Transcripts', url: 'https://www.courtlistener.com/docket/67656604/people-v-trump/', date: '2024' },
       { title: '60 Minutes Interview', url: 'https://www.cbsnews.com/news/stormy-daniels-describes-her-alleged-affair-with-donald-trump-60-minutes-interview/', date: '2018' },
-      { title: '"Full Disclosure" Book', url: 'https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611', date: '2018' },
+      { title: '"Full Disclosure" Book', url: 'https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
   },
   'ruby-freeman': {
@@ -4171,7 +4171,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Case delayed by appeals and immunity claims' },
     ],
     sources: [
-      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
+      { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Fulton County DA Office', url: 'https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/district-attorney', date: '2024' },
     ],
   },
@@ -4478,7 +4478,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'DOJ Seditious Conspiracy Indictment', url: 'https://www.justice.gov/opa/pr/leader-proud-boys-and-four-other-members-indicted-federal-court-seditious-conspiracy-and', date: '2022' },
-      { title: 'Trial Verdict', url: 'https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', date: '2023' },
+      { title: 'Trial Verdict', url: 'https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Reuters FBI Informant Investigation', date: '2021' },
     ],
@@ -4566,7 +4566,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'May 25, 2023', event: 'Sentenced to 18 YEARS in federal prison' },
     ],
     sources: [
-      { title: 'DOJ Seditious Conspiracy Conviction', url: 'https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy', date: '2023' },
+      { title: 'DOJ Seditious Conspiracy Conviction', url: 'https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Trial Evidence and Testimony', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', date: '2022' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Yale Law School Records', date: '2004' },
@@ -4777,7 +4777,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Remains Postmaster General despite criticism' },
     ],
     sources: [
-      { title: 'Congressional Testimony', url: 'https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service', date: '2020' },
+      { title: 'Congressional Testimony', url: 'https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service', date: '2020' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'USPS Inspector General Reports', url: 'https://www.uspsoig.gov/', date: '2020-2021' },
       { title: 'State Lawsuits Against USPS', date: '2020' },
     ],
@@ -4863,7 +4863,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'July 17, 2024', event: 'Speaks at Republican National Convention SAME DAY' },
     ],
     sources: [
-      { title: 'DOJ Contempt Conviction', url: 'https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress', date: '2023' },
+      { title: 'DOJ Contempt Conviction', url: 'https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Federal Prison Records', date: '2024' },
       { title: 'RNC Speaking Records', date: '2024' },
@@ -4969,7 +4969,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2018', event: 'April: Settles with AMI, can speak freely' },
     ],
     sources: [
-      { title: 'CNN Interview', url: 'https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html', date: '2018' },
+      { title: 'CNN Interview', url: 'https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'AMI Settlement', date: '2018' },
       { title: 'Manhattan DA Investigation Records', date: '2023' },
     ],
@@ -5081,7 +5081,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2018', event: 'Cambridge Analytica scandal exposed' },
     ],
     sources: [
-      { title: 'Cambridge Analytica Investigation (UK ICO)', url: 'https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
+      { title: 'Cambridge Analytica Investigation (UK ICO)', url: 'https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'FEC Donation Records', url: 'https://www.fec.gov/', date: '2016' },
       { title: 'New Yorker Profile', url: 'https://www.newyorker.com/magazine/2017/03/27/the-reclusive-hedge-fund-tycoon-behind-the-trump-presidency', date: '2017' },
     ],
@@ -6139,7 +6139,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2020', event: 'Banned as company director for 7 years' },
     ],
     sources: [
-      { title: 'UK ICO Investigation', url: 'https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
+      { title: 'UK ICO Investigation', url: 'https://ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Channel 4 Undercover Investigation', date: '2018' },
     ],
   },
@@ -15451,7 +15451,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'BlackRock SEC Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364742', date: '2024' },
       { title: 'WEF Board of Trustees', url: 'https://www.weforum.org/about/leadership-and-governance/', date: '2024' },
       { title: 'Fed BlackRock Contracts', url: 'https://www.newyorkfed.org/markets/secondary-market-corporate-credit-facility', date: '2020' },
-      { title: 'Fink Annual Letters', url: 'https://www.blackrock.com/corporate/investor-relations/larry-fink-annual-letter', date: '2024' },
+      { title: 'Fink Annual Letters', url: 'https://www.blackrock.com/corporate/investor-relations/larry-fink-annual-letter', date: '2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
   },
   'clarence-thomas': {
@@ -15538,8 +15538,8 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'July 2024', event: 'Concurs in Trump immunity decision' },
     ],
     sources: [
-      { title: 'ProPublica Thomas-Crow Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' },
-      { title: 'ProPublica RV Investigation', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-bought-him-an-rv-worth-more-than-double-his-annual-salary', date: '2023' },
+      { title: 'ProPublica Thomas-Crow Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'ProPublica RV Investigation', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-bought-him-an-rv-worth-more-than-double-his-annual-salary', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'ProPublica Real Estate Investigation', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus', date: '2023' },
       { title: 'January 6 Committee - Ginni Thomas Texts', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
     ],
@@ -15630,7 +15630,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'NYT Upside-Down Flag Investigation', url: 'https://www.nytimes.com/2024/05/16/us/justice-alito-flag-jan-6.html', date: '2024' },
       { title: 'NYT Appeal to Heaven Flag', url: 'https://www.nytimes.com/2024/05/22/us/alito-appeal-to-heaven-flag.html', date: '2024' },
-      { title: 'ProPublica Singer Trip Investigation', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', date: '2023' },
+      { title: 'ProPublica Singer Trip Investigation', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Dobbs v. Jackson Women\'s Health Organization', url: 'https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf', date: '2022' },
     ],
   },
@@ -16497,7 +16497,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Investigation continues, no enforcement mechanism' },
     ],
     sources: [
-      { title: 'ProPublica - Clarence Thomas Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' },
+      { title: 'ProPublica - Clarence Thomas Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'ProPublica - Thomas Mother\'s Home', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus', date: '2023' },
       { title: 'Senate Judiciary Committee Investigation', date: '2023-2024' },
       { title: 'ProPublica - School Tuition Payments', date: '2023' },
@@ -16781,11 +16781,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'November 29, 2023', event: 'Dies at age 100 at home in Connecticut - never faced justice' },
     ],
     sources: [
-      { title: 'The Trial of Henry Kissinger (Christopher Hitchens)', url: 'https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger', date: '2001' },
+      { title: 'The Trial of Henry Kissinger (Christopher Hitchens)', url: 'https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger', date: '2001' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Declassified State Department Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', date: 'Various' },
       { title: 'National Security Archive - Chile', url: 'https://nsarchive.gwu.edu/', date: 'Various' },
       { title: 'Blood Telegram Cables', date: '1971' },
-      { title: 'East Timor Documents Collection', url: 'https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project', date: 'Various' },
+      { title: 'East Timor Documents Collection', url: 'https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project', date: 'Various' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Cambodia Bombing Records', date: '1969-1973' },
     ],
   },
@@ -17455,7 +17455,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'SEC Tesla Settlement', url: 'https://www.sec.gov/news/press-release/2018-226', date: '2018' },
       { title: 'NLRB Tesla Ruling', url: 'https://www.nlrb.gov/case/32-CA-197020', date: '2021' },
-      { title: 'ADL Antisemitism Report', url: 'https://www.adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet', date: '2023' },
+      { title: 'ADL Antisemitism Report', url: 'https://www.adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet', date: '2023' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
   },
   'kelly-loeffler': {
@@ -17750,10 +17750,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'UN Security Council Presentation Transcript', url: 'https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm', date: '2003' },
-      { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' },
-      { title: 'My Lai Investigation Documents - National Archives', url: 'https://www.archives.gov/research/military/vietnam-war/war-crimes', date: '1968' },
+      { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
+      { title: 'My Lai Investigation Documents - National Archives', url: 'https://www.archives.gov/research/military/vietnam-war/war-crimes', date: '1968' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Curveball: Spies, Lies, and the Con Man Who Caused a War', date: '2007' },
-      { title: 'Iran-Contra Tower Commission Report', url: 'https://archive.org/details/towercommissionr00unit', date: '1987' },
+      { title: 'Iran-Contra Tower Commission Report', url: 'https://archive.org/details/towercommissionr00unit', date: '1987' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'The Iraq Study Group Report', url: 'https://www.usip.org/publications/2006/12/iraq-study-group-report', date: '2006' },
     ],
   },
@@ -17837,7 +17837,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },
       { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
-      { title: 'Senate Torture Report (SSCI)', url: 'https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
+      { title: 'Senate Torture Report (SSCI)', url: 'https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'August 6, 2001 PDB (Declassified)', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB116/', date: '2001' },
       { title: 'CNN Mushroom Cloud Interview Transcript', date: 'September 8, 2002' },
       { title: 'No Higher Honor: A Memoir of My Years in Washington', date: '2011' },
@@ -17927,9 +17927,9 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Senate Armed Services Committee Torture Report', url: 'https://www.armed-services.senate.gov/imo/media/doc/Detainee-Report-Final_April-22-2009.pdf', date: '2008' },
       { title: 'Rumsfeld Torture Memo (Declassified)', url: 'https://nsarchive2.gwu.edu/torturingdemocracy/documents/20021127.pdf', date: '2002' },
-      { title: 'Abu Ghraib Investigations', url: 'https://www.aclu.org/sites/default/files/FilesPDFs/fay.pdf', date: '2004' },
+      { title: 'Abu Ghraib Investigations', url: 'https://www.aclu.org/sites/default/files/FilesPDFs/fay.pdf', date: '2004' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'PNAC Iraq Letter', url: 'https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },
-      { title: 'Taguba Report on Abu Ghraib', url: 'https://www.aclu.org/sites/default/files/torturefoia/released/030904.pdf', date: '2004' },
+      { title: 'Taguba Report on Abu Ghraib', url: 'https://www.aclu.org/sites/default/files/torturefoia/released/030904.pdf', date: '2004' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Known and Unknown: A Memoir', date: '2011' },
     ],
   },
@@ -18014,10 +18014,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2014', event: 'Senate Torture Report documents CIA abuses under his tenure' },
     ],
     sources: [
-      { title: 'Senate Intelligence Committee Torture Report', url: 'https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
+      { title: 'Senate Intelligence Committee Torture Report', url: 'https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },
       { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
-      { title: 'CIA OIG Special Review - Detention and Interrogation', url: 'https://www.aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf', date: '2004' },
+      { title: 'CIA OIG Special Review - Detention and Interrogation', url: 'https://www.aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf', date: '2004' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'At the Center of the Storm: My Years at the CIA', date: '2007' },
       { title: 'Curveball Investigation Reports', date: '2004' },
     ],
@@ -18276,7 +18276,7 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'United States v. Libby - Verdict', url: 'https://www.justice.gov/archive/osc/', date: '2007' },
       { title: 'Special Counsel Fitzgerald Closing Argument', date: '2007' },
       { title: 'Bush Commutation Statement', url: 'https://georgewbush-whitehouse.archives.gov/news/releases/2007/07/20070702-3.html', date: '2007' },
-      { title: 'Trump Pardon Statement', url: 'https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/', date: '2018' },
+      { title: 'Trump Pardon Statement', url: 'https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/', date: '2018' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'The Trial of Scooter Libby - Court Records', date: '2007' },
     ],
   },
@@ -18356,7 +18356,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'Present', event: 'Continues media career, never held accountable' },
     ],
     sources: [
-      { title: 'Tower Commission Report', url: 'https://archive.org/details/towercommissionr00unit', date: '1987' },
+      { title: 'Tower Commission Report', url: 'https://archive.org/details/towercommissionr00unit', date: '1987' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Iran-Contra Independent Counsel Final Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
       { title: 'Congressional Iran-Contra Report', url: 'https://archive.org/details/reportofcongress01unit', date: '1987' },
       { title: 'North Congressional Testimony Transcripts', date: '1987' },
@@ -18531,9 +18531,9 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Valech Commission Report on Torture', date: '2004' },
       { title: 'CIA Chile Declassified Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', date: 'Various' },
       { title: 'Operation Condor Declassified Records', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB416/', date: 'Various' },
-      { title: 'Letelier Assassination Documents', url: 'https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary', date: '1976-2016' },
+      { title: 'Letelier Assassination Documents', url: 'https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary', date: '1976-2016' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'UK House of Lords Pinochet Judgment', url: 'https://publications.parliament.uk/pa/ld199899/ldjudgmt/jd990324/pino1.htm', date: '1999' },
-      { title: 'Pinochet Riggs Bank Investigation', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank', date: '2004' },
+      { title: 'Pinochet Riggs Bank Investigation', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank', date: '2004' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
   },
   'robert-redfield': {
@@ -18614,7 +18614,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'CDC COVID-19 Response Timeline', url: 'https://www.cdc.gov/museum/timeline/covid19.html', date: '2020-2021' },
       { title: 'House Select Subcommittee on Coronavirus Crisis Reports', url: 'https://coronavirus.house.gov/', date: '2020-2022' },
-      { title: 'Redfield CNN Lab Leak Interview', url: 'https://www.cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' },
+      { title: 'Redfield CNN Lab Leak Interview', url: 'https://www.cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Science Magazine - CDC Testing Failures Analysis', date: '2020' },
       { title: 'GAO COVID-19 Response Reports', url: 'https://www.gao.gov/coronavirus', date: '2020-2022' },
       { title: 'Washington Post - CDC Political Interference Investigation', date: '2020' },
@@ -18794,7 +18794,7 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Indictment - Internet Research Agency', url: 'http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download', date: '2018' },
       { title: 'Senate Intelligence Committee - Russian Interference Vol. 2', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2019' },
-      { title: 'Wagner Group Investigation - Bellingcat', url: 'https://www.bellingcat.com/tag/wagner-group/', date: 'Various' },
+      { title: 'Wagner Group Investigation - Bellingcat', url: 'https://www.bellingcat.com/tag/wagner-group/', date: 'Various' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'UN Human Rights Reports on Wagner Atrocities', url: 'https://www.ohchr.org/', date: '2022-2023' },
       { title: 'Treasury OFAC Sanctions', url: 'https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists', date: 'Various' },
       { title: 'Plane Crash Investigation Reports', date: '2023' },
@@ -19040,9 +19040,9 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Continues as major Republican donor' },
     ],
     sources: [
-      { title: 'UN General Assembly Resolution on Sovereign Debt', url: 'https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf', date: '2014' },
+      { title: 'UN General Assembly Resolution on Sovereign Debt', url: 'https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf', date: '2014' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'IMF Sovereign Debt Reports', url: 'https://www.imf.org/en/Topics/Sovereign-Debt', date: 'Various' },
-      { title: 'Argentina v. NML Capital Supreme Court', url: 'https://www.supremecourt.gov/opinions/13pdf/12-842_5h26.pdf', date: '2014' },
+      { title: 'Argentina v. NML Capital Supreme Court', url: 'https://www.supremecourt.gov/opinions/13pdf/12-842_5h26.pdf', date: '2014' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Jubilee Debt Campaign - Vulture Funds', url: 'https://jubileedebt.org.uk/', date: 'Various' },
       { title: 'New York Times - Elliott Management Profile', date: '2016' },
       { title: 'SEC Elliott Management Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=elliott+management', date: 'Various' },
@@ -19542,7 +19542,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'June 5, 2004', event: 'Dies in Los Angeles, age 93' },
     ],
     sources: [
-      { title: 'Tower Commission Report', url: 'https://www.archives.gov/research/foreign-policy/reagan', date: '1987' },
+      { title: 'Tower Commission Report', url: 'https://www.archives.gov/research/foreign-policy/reagan', date: '1987' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Iran-Contra Congressional Report', url: 'https://www.congress.gov/', date: '1987' },
       { title: 'Nicaragua v. United States (ICJ Ruling)', url: 'https://www.icj-cij.org/case/70', date: '1986' },
       { title: 'And the Band Played On - Randy Shilts', date: '1987' },
@@ -23793,9 +23793,9 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'UN Commission of Inquiry on Syria', url: 'https://www.ohchr.org/en/hr-bodies/hrc/co-i-syria/co-i-syria-home', date: '2011-2024' },
-      { title: 'OPCW Fact-Finding Mission Reports', url: 'https://www.opcw.org/fact-finding-mission-reports', date: '2014-2024' },
+      { title: 'OPCW Fact-Finding Mission Reports', url: 'https://www.opcw.org/fact-finding-mission-reports', date: '2014-2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Caesar Photos Documentation', url: 'https://syriaaccountability.org/library/caesar-photos/', date: '2014' },
-      { title: 'Human Rights Watch Syria Reports', url: 'https://www.hrw.org/middle-east/north-africa/syria', date: '2011-2024' },
+      { title: 'Human Rights Watch Syria Reports', url: 'https://www.hrw.org/middle-east/north-africa/syria', date: '2011-2024' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
   },
   'james-murdoch': {

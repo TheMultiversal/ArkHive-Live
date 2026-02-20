@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-02-20T00:09:36.279Z",
+  "summary": [
+    {
+      "file": "src/app/entities/individuals/[slug]/page.tsx",
+      "updatedLines": 64
+    },
+    {
+      "file": "src/app/investigations/fake-electors/page.tsx",
+      "updatedLines": 1
+    },
+    {
+      "file": "src/app/investigations/tax-evasion/page.tsx",
+      "updatedLines": 1
+    },
+    {
+      "file": "src/app/investigations/[slug]/page.tsx",
+      "updatedLines": 15
+    },
+    {
+      "file": "src/app/investigations/january-6-insurrection/page.tsx",
+      "updatedLines": 2
+    },
+    {
+      "file": "src/app/investigations/proud-boys-sedition/page.tsx",
+      "updatedLines": 1
+    },
+    {
+      "file": "src/app/investigations/oath-keepers-sedition/page.tsx",
+      "updatedLines": 2
+    },
+    {
+      "file": "src/app/investigations/charlottesville/page.tsx",
+      "updatedLines": 1
+    },
+    {
+      "file": "src/app/investigations/deutsche-bank/page.tsx",
+      "updatedLines": 1
+    },
+    {
+      "file": "src/app/investigations/mar-a-lago-documents/page.tsx",
+      "updatedLines": 1
+    },
+    {
+      "file": "src/app/investigations/opioid-crisis/page.tsx",
+      "updatedLines": 1
+    }
+  ]
+}

@@ -139,7 +139,7 @@ const investigationData = {
     { title: 'Washington Post: Drug Industry Triumph', url: 'https://www.washingtonpost.com/graphics/2017/investigations/dea-drug-industry-congress/', type: 'Investigation' },
     { title: '60 Minutes: The Whistleblower', url: 'https://www.cbsnews.com/news/ex-dea-agent-opioid-crisis-fueled-by-drug-industry-and-congress/', type: 'Investigation' },
     { title: 'CDC Overdose Death Data', url: 'https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm', type: 'Government Data' },
-    { title: 'Purdue Pharma Settlement', url: 'https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-criminal-charges', type: 'DOJ Press Release' },
+    { title: 'Purdue Pharma Settlement', url: 'https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-criminal-charges', type: 'DOJ Press Release' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     { title: 'HHS Opioid Epidemic History', url: 'https://www.hhs.gov/opioids/about-the-epidemic/index.html', type: 'Government Report' },
     { title: 'OpenSecrets: Pharma Lobbying', url: 'https://www.opensecrets.org/industries/lobbying.php?ind=H04', type: 'Research' },
   ],

@@ -56,7 +56,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Criminal Indictment', 'RICO', 'Felony Conviction', 'Civil Fraud', 'Tax Evasion', 'Obstruction', 'Hush Money'],
     sources: [
       { title: 'Federal Classified Documents Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', type: 'Court Filing' },
-      { title: 'Federal January 6th Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+      { title: 'Federal January 6th Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Georgia RICO Indictment', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
       { title: 'Manhattan DA Criminal Case', url: 'https://www.manhattanda.org/district-attorney-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/', type: 'Press Release' },
       { title: 'NY AG Civil Fraud Judgment', url: 'https://ag.ny.gov/press-release/2024/attorney-general-james-statement-court-ruling-donald-trump-fraud-case', type: 'Press Release' },
@@ -94,7 +94,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Miami Herald Perversion of Justice Investigation', url: 'https://www.miamiherald.com/news/local/article220097825.html', type: 'Investigation' },
       { title: 'Trump 2002 Quote About Epstein', url: 'http://nymag.com/nymetro/news/people/n_7912/', type: 'News Article' },
-      { title: 'DOJ Report on Acosta Plea Deal', url: 'https://www.justice.gov/opr/page/file/1232356/download', type: 'Government Report' },
+      { title: 'DOJ Report on Acosta Plea Deal', url: 'https://www.justice.gov/opr/page/file/1232356/download', type: 'Government Report' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Maxwell Conviction - DOJ Press Release', url: 'https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison-sex-trafficking-minor', type: 'Press Release' },
       { title: 'Virginia Giuffre Prince Andrew Settlement', url: 'https://www.nytimes.com/2022/02/15/nyregion/prince-andrew-virginia-giuffre-settlement.html', type: 'News Report' },
     ],
@@ -130,7 +130,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['January 6', 'Insurrection', 'Capitol Attack', 'Proud Boys', 'Oath Keepers', 'Sedition', 'Trump'],
     sources: [
       { title: 'January 6th Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
-      { title: 'Trump January 6 Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+      { title: 'Trump January 6 Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'DOJ January 6 Prosecution Statistics', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', type: 'Government Website' },
       { title: 'Cassidy Hutchinson Testimony', url: 'https://www.youtube.com/watch?v=_c_5N2Z6cNM', type: 'Video Testimony' },
       { title: 'Proud Boys Seditious Conspiracy Conviction', url: 'https://www.justice.gov/usao-dc/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', type: 'Press Release' },
@@ -959,7 +959,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Federal Indictment - Bannon, Kolfage', url: 'https://www.justice.gov/usao-sdny/press-release/file/1306611/download', type: 'Court Filing' },
       { title: 'Kolfage Sentencing', url: 'https://www.justice.gov/usao-sdny/pr/brian-kolfage-sentenced-prison-we-build-wall-fraud-scheme', type: 'Press Release' },
-      { title: 'NY State Bannon Indictment', url: 'https://ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment', type: 'Press Release' },
+      { title: 'NY State Bannon Indictment', url: 'https://ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment', type: 'Press Release' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Trump Pardon Announcement', url: 'https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-012021/', type: 'Government Document' },
     ],
     affiliations: [
@@ -1154,7 +1154,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'ProPublica Inaugural Investigation', url: 'https://www.propublica.org/article/trump-inc-podcast-trumps-inaugural-committee-paid-trumps-company-with-ivanka-trump-in-the-middle', type: 'Investigation' },
       { title: 'DC AG Settlement', url: 'https://oag.dc.gov/release/ag-racine-announces-settlement-inaugural-committee', type: 'Press Release' },
-      { title: 'Barrack Indictment', url: 'https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united', type: 'Court Filing' },
+      { title: 'Barrack Indictment', url: 'https://www.justice.gov/opa/pr/political-advisor-and-venture-capitalist-thomas-j-barrack-jr-charged-acting-agent-united', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Wolkoff Whistleblower Account', url: 'https://www.nytimes.com/2020/08/26/us/politics/melania-trump-secret-recording.html', type: 'News Report' },
     ],
     affiliations: [
@@ -1186,7 +1186,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Trump Remarks Transcript', url: 'https://www.politifact.com/article/2019/apr/26/context-trumps-very-fine-people-both-sides-remarks/', type: 'Transcript' },
       { title: 'Heather Heyer Death', url: 'https://www.nytimes.com/2017/08/13/us/heather-heyer-charlottesville-victim.html', type: 'News Report' },
-      { title: 'Fields Conviction', url: 'https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville', type: 'Press Release' },
+      { title: 'Fields Conviction', url: 'https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-charges-car-attack-charlottesville', type: 'Press Release' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Joint Chiefs Statement', url: 'https://www.military.com/daily-news/2017/08/16/joint-chiefs-denounce-racism-charlottesville-rally.html', type: 'News Report' },
     ],
     affiliations: [
@@ -2486,7 +2486,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Carroll v. Trump - First Trial Verdict', url: 'https://www.courtlistener.com/docket/16871571/carroll-v-trump/', type: 'Court Records' },
       { title: 'Carroll v. Trump - Second Trial Verdict', url: 'https://www.courtlistener.com/docket/67371534/carroll-v-trump/', type: 'Court Records' },
-      { title: 'Original New York Magazine Article', url: 'https://www.thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', type: 'Primary Source' },
+      { title: 'Original New York Magazine Article', url: 'https://www.thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', type: 'Primary Source' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant, found liable', href: '/entities/individuals/donald-trump' },
@@ -3345,7 +3345,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Supreme Court', 'Clarence Thomas', 'Ethics', 'Harlan Crow', 'Samuel Alito', 'Corruption'],
     sources: [
       { title: 'ProPublica Thomas Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-crow', type: 'Investigation' },
-      { title: 'ProPublica Alito Investigation', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' },
+      { title: 'ProPublica Alito Investigation', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Leo-Ginni Thomas Payments', url: 'https://www.washingtonpost.com/investigations/2023/09/22/leonard-leo-paid-ginni-thomas/', type: 'Investigation' },
       { title: 'Senate Judiciary Ethics Hearings', url: 'https://www.judiciary.senate.gov/committee-activity/hearings/supreme-court-ethics-what-our-highest-court-should-learn-from-other-courts-and-other-branches', type: 'Government Record' },
     ],
@@ -4105,7 +4105,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'January 6 Committee DOJ Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
       { title: 'Clark Indictment - Georgia', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
       { title: 'Trump-Rosen Call Notes', url: 'https://www.nytimes.com/2021/07/30/us/politics/trump-doj-rosen-election.html', type: 'News Report' },
-      { title: 'Federal J6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+      { title: 'Federal J6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Pressured DOJ to overturn election', href: '/entities/individuals/donald-trump' },
@@ -4299,7 +4299,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Supreme Court', 'Ethics', 'Clarence Thomas', 'Samuel Alito', 'Recusal', 'Disclosure', 'Judicial Reform'],
     sources: [
       { title: 'ProPublica Supreme Court Investigation', url: 'https://www.propublica.org/series/supreme-court-ethics', type: 'Investigation' },
-      { title: 'Alito Alaska Trip', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' },
+      { title: 'Alito Alaska Trip', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'SCOTUS Adopted Ethics Code', url: 'https://www.supremecourt.gov/about/Code-of-Conduct-for-Justices_Adopted.pdf', type: 'Court Document' },
       { title: 'Gallup Supreme Court Confidence Poll', url: 'https://news.gallup.com/poll/394103/confidence-supreme-court-sinks-historic-low.aspx', type: 'Polling' },
       { title: 'Senate Judiciary Ethics Hearing', url: 'https://www.judiciary.senate.gov/committee-activity/hearings/supreme-court-ethics', type: 'Congressional Record' },
@@ -4423,7 +4423,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Eastman Memos', url: 'https://www.cnn.com/2021/09/21/politics/read-eastman-memo/index.html', type: 'Document' },
       { title: 'January 6 Committee Report - Green Bay Sweep', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
       { title: 'Pence Letter January 6', url: 'https://www.nytimes.com/interactive/2021/01/06/us/politics/mike-pence-letter.html', type: 'Document' },
-      { title: 'Federal Trump Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+      { title: 'Federal Trump Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
     affiliations: [
       { id: '1', name: 'Peter Navarro', type: 'individual', relationship: 'Named and promoted the scheme', href: '/entities/individuals/peter-navarro' },
@@ -5611,7 +5611,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Pentagon IG Report on Feith\'s Office', url: 'https://www.dodig.mil/reports.html/Article/1119855/review-of-the-pre-iraq-war-activities-of-the-office-of-the-under-secretary-of-d/', type: 'Government Report' },
       { title: 'Mother Jones - The Lie Factory', url: 'https://www.motherjones.com/politics/2004/01/lie-factory/', type: 'Investigation' },
       { title: 'New Yorker - Selective Intelligence', url: 'https://www.newyorker.com/magazine/2003/05/12/selective-intelligence', type: 'Investigation' },
-      { title: 'Senate Intelligence Committee Iraq Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', type: 'Congressional Report' },
+      { title: 'Senate Intelligence Committee Iraq Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', type: 'Congressional Report' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Curveball Fabrication Admission', url: 'https://www.theguardian.com/world/2011/feb/15/curveball-iraqi-defector-admits-lying', type: 'News Report' },
     ],
     affiliations: [
@@ -6532,7 +6532,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Trump Indictment', 'Election Conspiracy', 'Jack Smith', 'January 6', 'Fake Electors', 'Federal Charges'],
     sources: [
-      { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+      { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
       { title: 'Supreme Court Immunity Ruling', url: 'https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf', type: 'Court Decision' },
       { title: 'Jack Smith Statement', url: 'https://www.justice.gov/sco-trump', type: 'Official Statement' },
     ],
@@ -8189,7 +8189,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Government Report' },
       { title: 'DOJ Boeing Settlement', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Press Release' },
-      { title: 'Purdue Pharma Settlement', url: 'https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-criminal-charges', type: 'Press Release' },
+      { title: 'Purdue Pharma Settlement', url: 'https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-criminal-charges', type: 'Press Release' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Failed to prosecute executives', href: '/entities/agencies/doj' },
@@ -9202,7 +9202,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['2020 Election', 'Fake Electors', 'January 6', 'Trump', 'Election Interference'],
     sources: [
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
-      { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+      { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' }, // TODO: dead link — no archive found (check scripts/404-replacements.json)
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Led the conspiracy', href: '/entities/individuals/donald-trump' },
