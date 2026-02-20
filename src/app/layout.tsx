@@ -8,6 +8,7 @@ import RandomWordPopups from "@/components/effects/RandomWordPopups";
 import { SurveillanceWarning, DataCorruption, TimestampOverlay } from "@/components/effects/ParanoiaEffects";
 import BackToTop from "@/components/ui/BackToTop";
 import Providers from "./providers";
+import AuthGate from "@/components/AuthGate";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -73,14 +74,16 @@ export default function RootLayout({
         <DataCorruption />
         <TimestampOverlay />
         
-        <Header />
-        <main id="main-content" className="flex-1 relative z-10">
-          <Providers>{children}</Providers>
-        </main>
-        <Footer />
+        <AuthGate>
+          <Header />
+          <main id="main-content" className="flex-1 relative z-10">
+            <Providers>{children}</Providers>
+          </main>
+          <Footer />
         
-        {/* Back to top button */}
-        <BackToTop />
+          {/* Back to top button */}
+          <BackToTop />
+        </AuthGate>
       </body>
     </html>
   );
