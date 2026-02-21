@@ -35,7 +35,7 @@ const featuredInvestigations: Investigation[] = [
     summary: "Comprehensive investigation into Jeffrey Epstein's global trafficking operation, his connections to Trump, and the network of powerful individuals who enabled decades of abuse.",
     category: "Human Trafficking",
     severity: "critical",
-    date: "June 2008",
+    date: "March 2016",
     entityCount: 15,
     tags: ["Epstein", "Maxwell", "Trump", "Trafficking", "Sexual Abuse"],
   },
