@@ -1,0 +1,2539 @@
+{
+  "summary": {
+    "total": 1421,
+    "external": 1319,
+    "working": 711,
+    "broken": 516,
+    "unreachable": 92
+  },
+  "client_errors": [
+    {
+      "status": 403,
+      "url": "https://www.fbi.gov"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nsa.gov"
+    },
+    {
+      "status": 403,
+      "url": "https://www.defense.gov"
+    },
+    {
+      "status": 403,
+      "url": "https://www.hhs.gov"
+    },
+    {
+      "status": 403,
+      "url": "https://www.sec.gov"
+    },
+    {
+      "status": 403,
+      "url": "https://www.commerce.gov"
+    },
+    {
+      "status": 403,
+      "url": "https://www.dea.gov"
+    },
+    {
+      "status": 403,
+      "url": "https://www.atf.gov"
+    },
+    {
+      "status": 403,
+      "url": "https://www.usace.army.mil"
+    },
+    {
+      "status": 403,
+      "url": "https://www.congress.gov"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nationalguard.mil"
+    },
+    {
+      "status": 403,
+      "url": "https://www.sis.gov.uk"
+    },
+    {
+      "status": 403,
+      "url": "https://www.trump.com"
+    },
+    {
+      "status": 403,
+      "url": "https://www.mypillow.com"
+    },
+    {
+      "status": 403,
+      "url": "https://truthsocial.com"
+    },
+    {
+      "status": 400,
+      "url": "https://www.meta.com"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nestle.com"
+    },
+    {
+      "status": 403,
+      "url": "https://www.dow.com"
+    },
+    {
+      "status": 404,
+      "url": "https://waysandmeans.house.gov/trump-tax-returns/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.congress.gov/committees"
+    },
+    {
+      "status": 403,
+      "url": "https://www.ohchr.org/en/countries/united-states-america"
+    },
+    {
+      "status": 403,
+      "url": "https://www.sec.gov/enforce/sec-enforcement-actions"
+    },
+    {
+      "status": 404,
+      "url": "https://www.state.gov/arms-sales/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.ohchr.org/en/hr-bodies/hrc/yemen/index"
+    },
+    {
+      "status": 403,
+      "url": "https://centerforhealthsecurity.org/our-work/exercises/event201"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/atr/case/us-v-microsoft-corporation"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2019/10/12/business/jeffrey-epstein-bill-gates.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nycourts.gov/courts/ad1/calendar/List_Word/2021/06_Jun/24/PDF/Matter%20of%20Giuliani%20(2021-00506"
+    },
+    {
+      "status": 404,
+      "url": "https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.simonandschuster.com/books/Disloyal-A-Memoir/Michael-Cohen/9781510764699"
+    },
+    {
+      "status": 403,
+      "url": "https://www.dni.gov/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2018/07/05/climate/scott-pruitt-epa-resignation.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.congress.gov/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.fbi.gov/wanted/counterintelligence/konstantin-viktorovich-kilimnik"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2019/07/25/business/jeffrey-epstein-wexner-victorias-secret.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.congress.gov/bill/105th-congress/house-resolution/611"
+    },
+    {
+      "status": 403,
+      "url": "https://www.cnn.com/2021/01/03/politics/trump-brad-raffensperger-phone-call-transcript/index.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.simonandschuster.com/books/Enough/Cassidy-Hutchinson/9781668023006"
+    },
+    {
+      "status": 403,
+      "url": "https://www.simonandschuster.com/books/So-Help-Me-God/Mike-Pence/9781982190330"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy"
+    },
+    {
+      "status": 403,
+      "url": "https://www.justice.gov/usao-dc/capitol-breach-cases"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJM199711133372006"
+    },
+    {
+      "status": 403,
+      "url": "https://www.icc-cpi.int/resource-library/documents/rs-eng.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2023/03/07/business/media/fox-dominion-lawsuit-tucker-carlson.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.gao.gov/"
+    },
+    {
+      "status": 403,
+      "url": "https://supreme.justia.com/cases/federal/us/531/98/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2022/09/29/us/politics/ginni-thomas-jan-6-testimony.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.bloomberg.com/news/articles/2018-03-08/carl-icahn-s-bet-against-steel-gets-huge-boost-from-trump-tariff"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2017/01/21/business/trump-carl-icahn-adviser.html"
+    },
+    {
+      "status": 401,
+      "url": "https://www.reuters.com/article/us-usa-biofuels-icahn/trump-adviser-icahn-lobbied-epa-for-biofuel-changes-documents-idUSKBN1560JI"
+    },
+    {
+      "status": 403,
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364742"
+    },
+    {
+      "status": 403,
+      "url": "https://www.weforum.org/about/leadership-and-governance/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2024/05/16/us/justice-alito-flag-jan-6.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2024/05/22/us/alito-appeal-to-heaven-flag.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index"
+    },
+    {
+      "status": 401,
+      "url": "https://www.wsj.com/articles/the-facebook-files-11631713039"
+    },
+    {
+      "status": 403,
+      "url": "https://www.sec.gov/news/press-release/2018-226"
+    },
+    {
+      "status": 403,
+      "url": "https://www.justice.gov/archive/osc/"
+    },
+    {
+      "status": 403,
+      "url": "https://publications.parliament.uk/pa/ld199899/ldjudgmt/jd990324/pino1.htm"
+    },
+    {
+      "status": 403,
+      "url": "https://www.gao.gov/coronavirus"
+    },
+    {
+      "status": 403,
+      "url": "https://www.gao.gov/assets/gao-20-341.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.ohchr.org/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2018/03/03/us/politics/george-nader-mueller-investigation-united-arab-emirates.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2018/03/07/us/politics/erik-prince-seychelles-meeting-russian.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.imf.org/en/Topics/Sovereign-Debt"
+    },
+    {
+      "status": 403,
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=elliott+management"
+    },
+    {
+      "status": 403,
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20"
+    },
+    {
+      "status": 403,
+      "url": "https://www.science.org/content/article/wuhan-scientists-scientific-american-article-bat-woman"
+    },
+    {
+      "status": 403,
+      "url": "https://www.gregpalast.com/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-i-syria/co-i-syria-home"
+    },
+    {
+      "status": 404,
+      "url": "https://syriaaccountability.org/library/caesar-photos/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.weforum.org"
+    },
+    {
+      "status": 403,
+      "url": "https://www.imf.org"
+    },
+    {
+      "status": 403,
+      "url": "https://www.jhu.edu"
+    },
+    {
+      "status": 403,
+      "url": "https://www.standingrock.org"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html"
+    },
+    {
+      "status": 403,
+      "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/1791/1791.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2021/11/23/us/charlottesville-rally-verdict.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2018/07/05/climate/scott-pruitt-epa-resigns.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.doi.gov/pressreleases/secretary-zinke-announces-monument-review"
+    },
+    {
+      "status": 403,
+      "url": "https://www.cnn.com/2020/09/09/politics/bob-woodward-rage-book-trump-coronavirus/index.html"
+    },
+    {
+      "status": 403,
+      "url": "https://publications.aap.org/pediatrics/article/148/6/e2021053760/183446/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/02/04/magazine/deutsche-bank-trump.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/507"
+    },
+    {
+      "status": 404,
+      "url": "https://ag.ny.gov/press-release/2022/attorney-general-james-files-lawsuit-against-donald-trump"
+    },
+    {
+      "status": 403,
+      "url": "https://www.harpercollins.com/products/dark-towers-david-enrich"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2023/04/18/business/media/fox-news-dominion-settlement.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2023/02/27/business/media/fox-news-dominion-rupert-murdoch.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2023/02/16/business/media/fox-dominion-lawsuit-tucker-carlson.html"
+    },
+    {
+      "status": 404,
+      "url": "https://oversight.house.gov/wp-content/uploads/2022/01/Trump-Hotel-Report-January-2022.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.citizensforethics.org/reports-investigations/crew-reports/president-trump-accepted-663-payments-foreign-governments/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.gsa.gov/real-estate/gsa-properties/gsa-properties-faq/old-post-office-building-washington-dc"
+    },
+    {
+      "status": 404,
+      "url": "https://oag.dc.gov/blog/district-columbia-and-maryland-file-lawsuit-against-president-trump"
+    },
+    {
+      "status": 403,
+      "url": "https://crsreports.congress.gov/product/pdf/R/R45992"
+    },
+    {
+      "status": 404,
+      "url": "https://www.splcenter.org/stephen-miller-emails-hatewatch"
+    },
+    {
+      "status": 404,
+      "url": "https://www.aclu.org/legal-document/flores-v-reno-settlement-agreement"
+    },
+    {
+      "status": 404,
+      "url": "https://www.congress.gov/117/meeting/house/114874/witnesses/HHRG-117-IG00-Wstate-MossW-20220621.pdf"
+    },
+    {
+      "status": 401,
+      "url": "https://www.reuters.com/legal/giuliani-ordered-pay-148-million-georgia-election-workers-2023-12-15/"
+    },
+    {
+      "status": 401,
+      "url": "https://www.reuters.com/investigates/special-report/usa-election-georgia-breach/"
+    },
+    {
+      "status": 403,
+      "url": "https://s3.documentcloud.org/documents/24080577/powell-plea-deal.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nycourts.gov/courts/1jd/supctmanh/"
+    },
+    {
+      "status": 404,
+      "url": "https://oag.dc.gov/release/ag-racine-announces-lawsuit-against-trump-inaugural"
+    },
+    {
+      "status": 404,
+      "url": "https://oag.dc.gov/release/ag-racine-secures-750000-settlement-lawsuit-against"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2019/02/04/us/politics/trump-inaugural-committee-subpoena.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.simonandschuster.com/books/Melania-and-Me/Stephanie-Winston-Wolkoff/9781982151263"
+    },
+    {
+      "status": 403,
+      "url": "https://www.congress.gov/bill/117th-congress/house-resolution/24"
+    },
+    {
+      "status": 404,
+      "url": "https://www.congress.gov/117/meeting/house/113883/witnesses/HHRG-117-IG00-Wstate-FanoneM-20210727.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/opa/pr/oath-keepers-leader-and-florida-oath-keeper-found-guilty-seditious-conspiracy"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/06/11/us/politics/trump-milley-military-protests-lafayette-square.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/06/02/us/politics/trump-walk-lafayette-square.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/d9/press-releases/attachments/2022/08/26/2022.08.30_government_motion_for_court_to_order_that_the_filter_review_team_may_continue_its_review.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.archives.gov/files/foia/2022-0311-f-letter-from-nara-to-trump-representatives.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.618763/gov.uscourts.flsd.618763.730.0.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/storage/US-v-Trump-Nauta-De-Oliveira-23-80101-Appeal.pdf"
+    },
+    {
+      "status": 401,
+      "url": "https://www.reuters.com/investigates/special-report/usa-trump-property/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.penguinrandomhouse.com/books/575450/house-of-trump-house-of-putin-by-craig-unger/"
+    },
+    {
+      "status": 404,
+      "url": "https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=4878"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-criminal-charges"
+    },
+    {
+      "status": 403,
+      "url": "https://www.hhs.gov/opioids/about-the-epidemic/index.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.opensecrets.org/industries/lobbying.php?ind=H04"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2021/01/20/us/politics/trump-pardons.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2021/01/20/us/politics/trump-bannon-pardon.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2019/11/15/us/trump-pardons.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMsa1803972"
+    },
+    {
+      "status": 403,
+      "url": "https://www.gao.gov/products/gao-18-472"
+    },
+    {
+      "status": 403,
+      "url": "https://www.dni.gov/files/documents/ICA_2017_01.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/file/1035477/dl"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/file/1080281/dl"
+    },
+    {
+      "status": 403,
+      "url": "https://www.themoscowproject.org/collusion-timeline/"
+    },
+    {
+      "status": 403,
+      "url": "https://crsreports.congress.gov/product/pdf/RL/RL33533"
+    },
+    {
+      "status": 403,
+      "url": "https://www.stateoig.gov/reports"
+    },
+    {
+      "status": 403,
+      "url": "https://www.undp.org/yemen/publications/assessing-impact-war-yemen-pathways-recovery"
+    },
+    {
+      "status": 403,
+      "url": "https://www.dni.gov/files/ODNI/documents/assessments/Assessment-Saudi-Gov-Role-in-JK-Death-20210226v2.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.foreign.senate.gov/imo/media/doc/Saudi%20Report%20-%20As%20Submitted%20to%20GPO.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.congress.gov/bill/116th-congress/senate-joint-resolution/36"
+    },
+    {
+      "status": 403,
+      "url": "https://www.ohchr.org/en/press-releases/2019/06/khashoggi-killing-was-premeditated-execution-un-expert"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2024/01/26/nyregion/trump-defamation-trial-e-jean-carroll.html"
+    },
+    {
+      "status": 404,
+      "url": "https://ag.ny.gov/press-release/2022/attorney-general-james-files-lawsuit-against-donald-trump-alleging-years"
+    },
+    {
+      "status": 404,
+      "url": "https://ag.ny.gov/press-release/2018/ag-underwood-files-lawsuit-against-donald-j-trump-foundation-and-its-board"
+    },
+    {
+      "status": 404,
+      "url": "https://ag.ny.gov/press-release/2019/donald-j-trump-pays-court-ordered-2-million-damages-misusing-trump-foundation"
+    },
+    {
+      "status": 404,
+      "url": "https://ag.ny.gov/sites/default/files/trump-complaint.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://ag.ny.gov/press-release/2013/ag-schneiderman-files-suit-against-trump-and-trump-university"
+    },
+    {
+      "status": 403,
+      "url": "https://www.politico.com/story/2016/05/trump-university-playbooks-223631"
+    },
+    {
+      "status": 403,
+      "url": "https://www.politico.com/f/?id=00000154-eafe-d152-afde-eefecd360001"
+    },
+    {
+      "status": 404,
+      "url": "https://www.cnn.com/2016/06/03/politics/donald-trump-judge-curiel/index.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/755/text"
+    },
+    {
+      "status": 403,
+      "url": "https://www.gao.gov/products/b-331564"
+    },
+    {
+      "status": 404,
+      "url": "https://www.brennancenter.org/our-work/research-reports/voter-purge-rates-remain-high"
+    },
+    {
+      "status": 404,
+      "url": "https://www.fultonclerk.org/DocumentCenter/View/2037/Trump-Indictment"
+    },
+    {
+      "status": 404,
+      "url": "https://www.citizensforethics.org/reports-investigations/crew-investigations/louis-dejoy-usps-conflicts-of-interest/"
+    },
+    {
+      "status": 404,
+      "url": "https://ag.ny.gov/press-release/2024/attorney-general-james-statement-court-ruling-donald-trump-fraud-case"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2022/02/15/nyregion/prince-andrew-virginia-giuffre-settlement.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/storage/US_v_Trump-Nauta-DeOliveira_23-80101.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.617854/gov.uscourts.flsd.617854.102.0_4.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2023/10/19/us/sidney-powell-guilty-plea-georgia.html"
+    },
+    {
+      "status": 404,
+      "url": "https://apnews.com/article/chesebro-plea-deal-georgia-trump-d7bf0c2f5a1c5f35d7a8c9e8b3e7a4f1"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2024/01/26/nyregion/trump-carroll-verdict-defamation.html"
+    },
+    {
+      "status": 404,
+      "url": "https://apnews.com/article/giuliani-defamation-verdict-georgia-election-workers-e42ec6a5b4ee7a52c4c9d13b9b5f0a0d"
+    },
+    {
+      "status": 404,
+      "url": "https://www.npr.org/2023/04/18/1170339134/fox-news-dominion-settlement"
+    },
+    {
+      "status": 401,
+      "url": "https://www.reuters.com/article/us-usa-trump-saudi-arms-idUSKCN18G03A"
+    },
+    {
+      "status": 404,
+      "url": "https://acleddata.com/2021/11/17/a-great-and-sudden-change-the-global-political-violence-landscape-before-and-after-the-covid-19-pandemic/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.cnn.com/2018/08/17/middleeast/us-bomb-yemen-school-bus-intl/index.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.congress.gov/bill/116th-congress/senate-joint-resolution/7"
+    },
+    {
+      "status": 403,
+      "url": "https://constitution.congress.gov/browse/essay/artI-S9-C8-1/ALDE_00001087/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.politico.com/story/2019/09/06/air-force-trump-scottish-resort-overnight-stays-1483084"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2021/01/25/us/politics/emoluments-trump-supreme-court.html"
+    },
+    {
+      "status": 403,
+      "url": "https://judiciary.house.gov/sites/democrats.judiciary.house.gov/files/documents/McGahn%20Testimony.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.cnn.com/2018/04/19/politics/comey-memos-read/index.html"
+    },
+    {
+      "status": 404,
+      "url": "https://ag.ny.gov/sites/default/files/2022-09-21-complaint.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nycourts.gov/reporter/3dseries/2024/2024_00836.htm"
+    },
+    {
+      "status": 404,
+      "url": "https://apnews.com/article/trump-organization-weisselberg-perjury-guilty-plea-f3e6c0a1c0a0b1a1a1b1c1d1e1f1a1b1"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/live/2024/05/30/nyregion/trump-trial-verdict"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/09/27/us/trump-taxes-takeaways.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/11/19/us/politics/ivanka-trump-taxes.html"
+    },
+    {
+      "status": 404,
+      "url": "https://ag.ny.gov/press-release/2013/ag-schneiderman-sues-donald-trump-trump-university-and-seeks-40-million"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2016/11/18/us/politics/donald-trump-university-fraud-settlement.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.politico.com/f/?id=00000154-e07a-d20f-a9d6-e7fe84e80000"
+    },
+    {
+      "status": 404,
+      "url": "https://ag.ny.gov/press-release/2018/attorney-general-underwood-announces-stipulation-dissolving-trump-foundation"
+    },
+    {
+      "status": 404,
+      "url": "https://oversight.house.gov/sites/democrats.oversight.house.gov/files/documents/USPS%20Briefing%20Paper.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.buzzfeednews.com/article/anthonycormier/trump-deutsche-bank-money-laundering"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2024/01/26/nyregion/trump-carroll-defamation-trial.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.businessinsider.com/women-accusing-trump-sexual-misconduct-2017-12"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/12/01/us/politics/pardon-bribery-investigation.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.militarytimes.com/news/pentagon-congress/2019/11/21/trump-grants-clemency-to-army-officer-who-killed-iraqi-prisoner/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.parliament.uk/globalassets/documents/commons-committees/culture-media-and-sport/Oral-evidence-Christopher-Wylie-27-March-2018.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-and-florida-chapter-leader-convicted-seditious-conspiracy"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2021/02/14/us/stewart-rhodes-oath-keepers.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.cnn.com/2022/01/12/politics/trump-fake-electoral-certificates/index.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.cnn.com/2021/09/21/politics/read-eastman-memo-trump-pence/index.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.ajc.com/politics/georgia-fake-electors-charged-in-2020-scheme/"
+    },
+    {
+      "status": 404,
+      "url": "https://apnews.com/article/arizona-fake-electors-indicted-trump-giuliani-meadows-a1b2c3d4e5f6"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2021/01/12/business/rosemary-vrablic-deutsche-bank.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/article/trump-inc-podcast-trumps-inaugural-committee-paid-trumps-company-with-ivanka-trump-in-the-middle"
+    },
+    {
+      "status": 404,
+      "url": "https://oag.dc.gov/release/ag-racine-announces-settlement-inaugural-committee"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/08/26/us/politics/melania-trump-secret-recording.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2017/08/13/us/heather-heyer-charlottesville-victim.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2017/10/17/us/politics/tom-marino-drug-czar-nominee.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/opa/pr/purdue-pharma-lp-pleads-guilty-federal-charges"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/06/19/us/politics/george-floyd-protests-surveillance.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.aclu.org/cases/index-newspapers-llc-v-city-portland"
+    },
+    {
+      "status": 403,
+      "url": "https://www.gao.gov/products/gao-21-526"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2021/06/02/us/politics/trump-administration-reporters-records.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.eff.org/deeplinks/2020/09/victory-appeals-court-rules-nsa-mass-surveillance-illegal"
+    },
+    {
+      "status": 404,
+      "url": "https://www.epa.gov/newsreleases/epa-army-finalize-rule-increase-clean-water-act-clarity"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nrdc.org/stories/clean-water-act"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nrdc.org/stories/flint-water-crisis-everything-you-need-know"
+    },
+    {
+      "status": 404,
+      "url": "https://www.theguardian.com/us-news/2017/sep/29/nestle-pays-water-public-water-bottling-michigan-drought"
+    },
+    {
+      "status": 403,
+      "url": "https://www.politico.com/story/2018/05/14/emails-white-house-epa-threat-pfas-585690"
+    },
+    {
+      "status": 404,
+      "url": "https://www.epa.gov/coalash/coal-combustion-residuals-ccr-disposal"
+    },
+    {
+      "status": 403,
+      "url": "https://science.sciencemag.org/content/359/6380/1146"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2018/07/16/world/europe/trump-putin-election-intelligence.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.sec.gov/news/press/2002-102.txt"
+    },
+    {
+      "status": 401,
+      "url": "https://www.reuters.com/markets/us/trump-media-shares-sink-further-volatile-trading-2024-04-16/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.sec.gov/news/press-release/2023-129"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2025/01/18/business/trump-meme-coin.html"
+    },
+    {
+      "status": 401,
+      "url": "https://www.reuters.com/technology/trumps-world-liberty-financial-raises-over-300-million-crypto-tokens-2025-01-20/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.brookings.edu/articles/how-trumps-tweets-affect-the-stock-market/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.similarweb.com/website/truthsocial.com/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.weforum.org/great-reset/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.weforum.org/agenda/2020/06/now-is-the-time-for-a-great-reset/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.weforum.org/agenda/2016/11/8-predictions-for-the-world-in-2030/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.weforum.org/partners/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.weforum.org/focus/fourth-industrial-revolution"
+    },
+    {
+      "status": 403,
+      "url": "https://bilderbergmeetings.org/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/03/19/us/politics/richard-burr-stocks-sold-coronavirus.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(09"
+    },
+    {
+      "status": 403,
+      "url": "https://www.opensecrets.org/dark-money"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/article/leonard-leo-used-robe-to-hide-dark-money-donations"
+    },
+    {
+      "status": 404,
+      "url": "https://www.bbc.com/news/business-19415640"
+    },
+    {
+      "status": 401,
+      "url": "https://www.reuters.com/article/us-libor-scandal/timeline-the-libor-scandal-idUSBRE8610M420120702"
+    },
+    {
+      "status": 404,
+      "url": "https://www.citizensforethics.org/legal-action/lawsuits/trump-foreign-emoluments/"
+    },
+    {
+      "status": 404,
+      "url": "https://oag.dc.gov/release/ag-racine-statement-resolution-lawsuit-against"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2023/05/09/nyregion/trump-liable-sexual-abuse-e-jean-carroll.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/live/2024/01/26/nyregion/trump-e-jean-carroll-trial"
+    },
+    {
+      "status": 404,
+      "url": "https://www.nationalgeographic.com/animals/article/trump-ivory-ban-reversed-elephants"
+    },
+    {
+      "status": 404,
+      "url": "https://www.biologicaldiversity.org/campaigns/esa_rollbacks/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.imf.org/external/np/exr/facts/prsp.htm"
+    },
+    {
+      "status": 404,
+      "url": "https://www.cbsnews.com/news/havana-syndrome-microwave-weapons-60-minutes-2022-10-14/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2019/10/08/world/europe/unit-29155-russia-gru.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.rollingstone.com/music/music-news/neil-young-trump-rockin-free-world-lawsuit-1056358/"
+    },
+    {
+      "status": 404,
+      "url": "https://oversight.house.gov/sites/democrats.oversight.house.gov/files/2020-09-16.CBM%20JR%20SFL%20to%20Wolf-DHS%20Cuccinelli-DHS%20re%20ICDC.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://apnews.com/article/ga-state-wire-us-news-georgia-immigration-archive-c96c770de6a4e1f5f29b2a1a0f34e9e0"
+    },
+    {
+      "status": 404,
+      "url": "https://www.ajc.com/news/georgia-news/ice-detention-doctor-keeps-license-following-forced-sterilization-allegations/XCZLRURHMJHQ3CYUTBACMAMN6I/"
+    },
+    {
+      "status": 401,
+      "url": "https://www.reuters.com/article/us-usa-markets-trump-tweets-analysis-idUSKCN1VX1VT"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2021/04/01/us/politics/matt-gaetz-justice-department-sex-trafficking.html"
+    },
+    {
+      "status": 404,
+      "url": "https://ag.ny.gov/press-release/2022/attorney-general-james-sues-donald-trump-defrauding-new-yorkers"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2016/11/19/us/politics/trump-university.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-arabia-investment-fund.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.buzzfeednews.com/article/anthonycormier/trump-moscow-tower-cohen-2016-election"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/opa/pr/russian-national-pleads-guilty-conspiracy-act-agent-russian-federation"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2019/02/28/us/politics/jared-kushner-security-clearance.html"
+    },
+    {
+      "status": 404,
+      "url": "https://oig.justice.gov/reports/review-and-investigation-allegations-prosecutorial-misconduct-jeffrey-epstein-case"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nycourts.gov/reporter/3dseries/2024/2024_00872.htm"
+    },
+    {
+      "status": 404,
+      "url": "https://manhattanda.org/d-a-bragg-announces-sentencing-in-trump-organization-tax-fraud-case/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.congress.gov/bill/116th-congress/house-resolution/755"
+    },
+    {
+      "status": 403,
+      "url": "https://www.congress.gov/congressional-record/senate-trial-record"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2021/02/13/us/politics/mcconnell-trump-acquittal-speech.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2016/10/08/us/donald-trump-tape-transcript.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.cnn.com/2016/09/09/politics/donald-trump-birther/index.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2019/06/18/nyregion/central-park-five-trump.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.supremecourt.gov/opinions/18pdf/18-966_bofm.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2019/05/30/us/census-citizenship-question-hofeller.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.forbes.com/sites/alisondurkee/2020/08/13/trump-admits-hes-blocking-usps-funding-to-stop-mail-in-voting/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.oig.doc.gov/OIGPublications/OIG-20-032-A.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2018/12/06/us/trump-bedminster-golf-undocumented-workers.html"
+    },
+    {
+      "status": 404,
+      "url": "https://archive.org/details/TowerCommissionReport"
+    },
+    {
+      "status": 404,
+      "url": "https://nsarchive.gwu.edu/project/iran-contra-affair"
+    },
+    {
+      "status": 404,
+      "url": "https://www.congress.gov/100/crpt/hrpt433/CRPT-100hrpt433.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.congress.gov/93/crpt/hrpt1305/CRPT-93hrpt1305.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-prewar-intelligence-assessments-about-postwar"
+    },
+    {
+      "status": 404,
+      "url": "https://nsarchive.gwu.edu/document/19809-national-security-archive-downing-street-memo"
+    },
+    {
+      "status": 404,
+      "url": "https://www.aclu.org/torture-memos"
+    },
+    {
+      "status": 404,
+      "url": "https://www.norc.org/research/projects/the-florida-ballots-project.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.ohchr.org/en/hr-bodies/hrc/sp/investigatingkhashoggi"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2022/07/26/us/politics/trump-fake-electors-plan.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2022/08/22/us/politics/republican-dark-money.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.opensecrets.org/news/2023/04/leonard-leos-dark-money-network/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2021/03/30/us/politics/matt-gaetz-sex-trafficking-investigation.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.cnn.com/2023/02/15/politics/matt-gaetz-justice-department-investigation/index.html"
+    },
+    {
+      "status": 404,
+      "url": "https://ag.ny.gov/press-release/2024/jury-finds-nra-ceo-wayne-lapierre-liable-corruption"
+    },
+    {
+      "status": 404,
+      "url": "https://www.newyorker.com/magazine/2019/04/15/inside-the-nra"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2023/04/18/business/fox-news-dominion-lawsuit-settlement.html"
+    },
+    {
+      "status": 404,
+      "url": "https://apnews.com/article/fact-check-trump-claims-election-fraud-2020-6b80e4f1a3d6b4cbeaf9784c9a8ed9d2"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2019/08/04/us/politics/trump-mass-shootings.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.adl.org/resources/report/white-supremacist-propaganda-soars-new-aog-high-2022"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2023/03/13/business/media/fox-trump-dominion-lawsuit.html"
+    },
+    {
+      "status": 404,
+      "url": "https://oversight.house.gov/legislation/hearings/michael-flynn-s-foreign-agent-registration"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/sites/default/files/briefs/flynn-motion.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2017/03/10/us/politics/michael-flynn-turkey.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.dni.gov/files/ODNI/documents/assessments/Declassified-Assessment-on-COVID-19-Origins.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.americanprogress.org/article/the-federalist-society/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.americanbar.org/groups/committees/federal_judiciary/ratings/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/series/the-workers-left-behind"
+    },
+    {
+      "status": 404,
+      "url": "https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=405909"
+    },
+    {
+      "status": 403,
+      "url": "https://www.gao.gov/topics/regulatory-policy"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/series/the-trump-administration-civil-rights"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2018/11/23/us/politics/civil-rights-division-justice-department.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.politico.com/story/2017/09/28/tom-price-private-jets-resignation-243248"
+    },
+    {
+      "status": 404,
+      "url": "https://www.doioig.gov/reports/investigation/final-report-investigation-us-department-interior-secretary-ryan-zinkes"
+    },
+    {
+      "status": 404,
+      "url": "https://www.citizensforethics.org/reports-investigations/crew-investigations/trump-cabinet-ethics-violations/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.oig.dhs.gov/reports/2019/dhs-needs-address-dangerous-overcrowding-among-single-adults-rio-grande-valley"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/article/epa-chief-scott-pruitts-calendar-showed-400-meetings-then-items-started-disappearing"
+    },
+    {
+      "status": 403,
+      "url": "https://www.opensecrets.org/orgs/national-rifle-assn/summary?id=d000000082"
+    },
+    {
+      "status": 401,
+      "url": "https://www.reuters.com/investigates/special-report/usa-trump-russia-sater/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2017/01/30/business/deutsche-bank-fined-for-helping-russians-launder-10-billion.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.hrw.org/report/2007/10/02/targeting-civilians-and-investigators/after-nisour-square-massacre"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/12/22/us/politics/trump-pardons-blackwater-contractors-iraq.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.pogo.org/analysis/2008/02/halliburton-kbr-and-iraq-war-contracting-0/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2021/07/30/us/politics/trump-doj-rosen-election.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.pogo.org/analysis/2021/01/a-pardon-for-corruption/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.cadc.uscourts.gov/internet/opinions.nsf/opinions"
+    },
+    {
+      "status": 404,
+      "url": "https://www.supremecourt.gov/oral_arguments/argument_transcripts/2023/23-939_b97c.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.lawfaremedia.org/article/the-supreme-court-s-trump-immunity-decision"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2022/09/29/us/politics/ginni-thomas-jan-6-committee.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.brennancenter.org/our-work/research-reports/clarence-thomas-recusal-problem"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-harlan-crow"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-deal"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/article/clarence-thomas-tuition-harlan-crow"
+    },
+    {
+      "status": 410,
+      "url": "https://www.finance.senate.gov/chairmans-news/wyden-launches-investigation-into-crow-familys-relationship-with-justice-thomas"
+    },
+    {
+      "status": 404,
+      "url": "https://fixthecourt.com/2023/04/crow-thomas/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.supremecourt.gov/about/Code-of-Conduct-for-Justices_Adopted.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2023/12/11/us/kate-cox-abortion-texas.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2024/02/16/us/alabama-ruling-embryo-ivf.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.cnn.com/2023/01/06/politics/coffee-county-georgia-video-trump-investigation/index.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2023/02/16/business/dominion-fox-news-lawsuit.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.cisa.gov/news-events/news/joint-statement-cisa-and-eac-election-infrastructure-security"
+    },
+    {
+      "status": 404,
+      "url": "https://www.amazon.com/Trump-Time-Journal-Americas-Plague/dp/1737478579"
+    },
+    {
+      "status": 404,
+      "url": "https://www.nytimes.com/interactive/2021/01/06/us/politics/mike-pence-letter.html"
+    },
+    {
+      "status": 403,
+      "url": "https://media.defense.gov/2021/Apr/13/2002621546/-1/-1/0/DODIG-2021-082.PDF"
+    },
+    {
+      "status": 404,
+      "url": "https://apnews.com/article/capitol-siege-timeline-national-guard-delay-f7c88de00b8c49fd8f83a1a0b67bcd5c"
+    },
+    {
+      "status": 404,
+      "url": "https://www.rules.senate.gov/imo/media/doc/Jan%206%20FINAL.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://apnews.com/article/army-confirms-lt-gen-charles-flynn-call-52aea6c32e1b885efe6c4f66fc6f53b9"
+    },
+    {
+      "status": 404,
+      "url": "https://oversight.house.gov/investigation/january-6th-investigation/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.fincen.gov/news/news-releases/fincen-fines-deutsche-bank-ag-425-million"
+    },
+    {
+      "status": 404,
+      "url": "https://www.intelligence.senate.gov/sites/default/files/documents/CRPT-107srpt351.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.intelligence.senate.gov/sites/default/files/94755_VII.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://nsarchive.gwu.edu/project/operation-condor"
+    },
+    {
+      "status": 403,
+      "url": "https://www.bloomsbury.com/us/power-worshippers-9781635573435/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.npr.org/2022/08/05/1115992594/alex-jones-sandy-hook-verdict"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2022/10/12/business/media/alex-jones-sandy-hook-damages.html"
+    },
+    {
+      "status": 404,
+      "url": "https://lawandcrime.com/high-profile/watch-alex-jones-sandy-hook-depositions/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2022/08/04/us/politics/alex-jones-infowars-finances.html"
+    },
+    {
+      "status": 401,
+      "url": "https://www.reuters.com/legal/alex-jones-infowars-bankruptcy-judge-weighs-request-allow-sandy-hook-families-2023-06-09/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.npr.org/2023/09/05/1197599773/proud-boys-tarrio-sentencing-jan-6"
+    },
+    {
+      "status": 404,
+      "url": "https://www.thetorturedatabase.org/document/article-15-6-investigation-800th-military-police-brigade-taguba-report"
+    },
+    {
+      "status": 404,
+      "url": "https://www.salon.com/2006/03/14/abu_ghraib_10/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.aclu.org/sites/default/files/pdfs/safefree/december_2_2002_memorandum.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/sites/default/files/olc/legacy/2010/08/05/memo-combatantsoutsideunitedstates.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.defense.gov/News/Releases/Release/Article/638259/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.intelligence.senate.gov/sites/default/files/publications/109301.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2005/05/01/international/europe/secret-uk-memo.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.nybooks.com/articles/2009/04/09/the-icrc-report-on-the-treatment-of-fourteen-high/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justiceinitiative.org/uploads/45bdb823-4b14-4854-8a4a-3be6fba91c45/globalizing-torture-20120205.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.penguinrandomhouse.com/books/98376/legacy-of-ashes-by-tim-weiner/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.brookings.edu/articles/what-is-schedule-f-and-why-does-it-matter/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.salon.com/2000/11/28/miami_7/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.penguinrandomhouse.com/books/117954/too-close-to-call-by-jeffrey-toobin/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2003/07/06/opinion/what-i-didn-t-find-in-africa.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/archive/osc/press-conferences.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.simonandschuster.com/books/Fair-Game/Valerie-Plame-Wilson/9781416537625"
+    },
+    {
+      "status": 404,
+      "url": "https://oversight.house.gov/landing/covid-19-origins/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.science.org/doi/10.1126/science.abn4737"
+    },
+    {
+      "status": 403,
+      "url": "https://www.fbi.gov/news/testimony/worldwide-threats-to-the-homeland-2023"
+    },
+    {
+      "status": 401,
+      "url": "https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a"
+    },
+    {
+      "status": 403,
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22"
+    },
+    {
+      "status": 403,
+      "url": "https://www.dni.gov/index.php/newsroom/reports-publications/reports-publications-2023/item/2377-unclassified-summary-of-assessment-on-covid-19-origins"
+    },
+    {
+      "status": 403,
+      "url": "https://www.science.org/doi/10.1126/science.abp8715"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/article/covid-origin-nih-emails-fauci-wuhan"
+    },
+    {
+      "status": 403,
+      "url": "https://www.au.org/resources/publications/project-2025-threatens-religious-freedom/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.penguinrandomhouse.com/books/118270/rise-of-the-vulcans-by-james-mann/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.newyorker.com/magazine/2003/04/07/the-iraq-war-club"
+    },
+    {
+      "status": 404,
+      "url": "https://www.pbs.org/wgbh/americanexperience/films/iraq/"
+    },
+    {
+      "status": 404,
+      "url": "https://theintercept.com/2019/04/18/mueller-report-erik-prince-seychelles/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2018/03/07/us/politics/erik-prince-seychelles-meeting.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/opa/pr/chairman-and-ceo-private-equity-firm-charged-acting-agent-united-arab-emirates"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2018/03/21/us/politics/george-nader-elliott-broidy-uae-saudi-arabia.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.buzzfeednews.com/article/aramroston/mercenaries-assassination-us-yemen-uae-spear-operations"
+    },
+    {
+      "status": 404,
+      "url": "https://theintercept.com/2018/03/02/jared-kushner-qatar-blockade/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2018/08/03/nyregion/kushners-building-fifth-avenue-brookfield-lease.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.theguardian.com/us-news/2019/mar/17/kushner-qatar-blockade-666-fifth-avenue"
+    },
+    {
+      "status": 403,
+      "url": "https://www.bloomberg.com/news/articles/2018-08-03/kushner-cos-deal-for-666-fifth-ave-is-said-to-be-near-close"
+    },
+    {
+      "status": 403,
+      "url": "https://www.dodig.mil/reports.html/Article/1119855/review-of-the-pre-iraq-war-activities-of-the-office-of-the-under-secretary-of-d/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.theguardian.com/world/2011/feb/15/curveball-iraqi-defector-admits-lying"
+    },
+    {
+      "status": 403,
+      "url": "https://www.gao.gov/products/gao-22-105062"
+    },
+    {
+      "status": 403,
+      "url": "https://www.pogo.org/database/federal-contractor-misconduct-database"
+    },
+    {
+      "status": 403,
+      "url": "https://www.opensecrets.org/industries/indus.php?ind=D"
+    },
+    {
+      "status": 403,
+      "url": "https://www.imf.org/external/pubs/ft/sdn/2014/sdn1416.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2018/07/21/business/paul-singer-elliott-management.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.bbc.com/news/world-latin-america-20340690"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/article/vulture-funds-puerto-rico-debt"
+    },
+    {
+      "status": 403,
+      "url": "https://www.imf.org/external/np/exr/ib/2000/062300.htm"
+    },
+    {
+      "status": 404,
+      "url": "https://www.oxfam.org/en/research/squeezed-austerity-impact-imf-conditions"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/article/the-koch-party"
+    },
+    {
+      "status": 404,
+      "url": "https://www.npr.org/2023/02/16/1157524639/fox-news-dominion-lawsuit-reveals-executives-hosts-doubted-fraud-claims"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2022/04/30/us/tucker-carlson-gop-eli-lake.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.simonandschuster.com/books/Hoax/Brian-Stelter/9781982142452"
+    },
+    {
+      "status": 404,
+      "url": "https://demtech.oii.ox.ac.uk/research/posts/computational-propaganda-in-russia-the-origins-of-digital-disinformation/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/2708348/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.bellingcat.com/category/news/russia/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.sec.gov/spotlight/hedgefunds.htm"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2018/03/15/business/toys-r-us-bankruptcy.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.institutionalinvestor.com/article/b1g5zjdcnv7lqd/Exposed-Exposed-by-Stock-Gains-Hedge-Funds-Trail-the-Market"
+    },
+    {
+      "status": 403,
+      "url": "https://us.macmillan.com/books/9781250237231/permanentrecord"
+    },
+    {
+      "status": 404,
+      "url": "https://knightcolumbia.org/research/platforms"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2022/12/24/technology/twitter-files-elon-musk.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.penguinrandomhouse.com/books/15teledu/manufacturing-consent/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.bellingcat.com/news/2022/05/14/buffalo-shooter-manifesto/"
+    },
+    {
+      "status": 403,
+      "url": "https://datasociety.net/library/alternative-influence/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(95"
+    },
+    {
+      "status": 403,
+      "url": "https://www.unicef.org/newsline/99pr29.htm"
+    },
+    {
+      "status": 404,
+      "url": "https://www.versobooks.com/books/1065-the-trial-of-henry-kissinger"
+    },
+    {
+      "status": 404,
+      "url": "https://walrusmagazine.com/article/2006.10-history-bombs-over-cambodia/"
+    },
+    {
+      "status": 404,
+      "url": "https://nsarchive.gwu.edu/document/21045-document-4"
+    },
+    {
+      "status": 404,
+      "url": "https://nsarchive.gwu.edu/briefing-book/foia/2017-10-12/cia-panamanian-dictator-manuel-noriega-cold-war-memories"
+    },
+    {
+      "status": 404,
+      "url": "https://www.icty.org/x/file/Press/nato061300.htm"
+    },
+    {
+      "status": 403,
+      "url": "https://www.cnn.com/2017/11/14/africa/libya-migrant-auctions/index.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/opa/pr/federal-jury-convicts-four-former-blackwater-employees-charges-stemming-2007-nisur-square"
+    },
+    {
+      "status": 403,
+      "url": "https://www.ohchr.org/en/press-releases/2020/12/un-experts-deeply-concerned-pardon-blackwater-guards-convicted-2007"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2007/10/02/world/middleeast/02blackwater.html"
+    },
+    {
+      "status": 404,
+      "url": "https://archive.org/details/towercommissionr00pres"
+    },
+    {
+      "status": 404,
+      "url": "https://nsarchive.gwu.edu/project/iran-contra-affair-20-years-later"
+    },
+    {
+      "status": 404,
+      "url": "https://www.oxfam.org/en/research/africa-rising-who-benefits-unfinished-transformation"
+    },
+    {
+      "status": 404,
+      "url": "https://judiciary.house.gov/issues/u-s-attorneys"
+    },
+    {
+      "status": 404,
+      "url": "https://oversight.house.gov/sites/democrats.oversight.house.gov/files/documents/20080918%20Report%20on%20White%20House%20Email.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.citizensforethics.org/reports-investigations/crew-investigations/white-house-email/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.newsweek.com/white-houses-lost-e-mails-86653"
+    },
+    {
+      "status": 403,
+      "url": "https://www.dni.gov/index.php/newsroom/reports-publications/item/2139-assessment-of-foreign-threats-to-the-2020-u-s-federal-elections"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/sco-trump"
+    },
+    {
+      "status": 404,
+      "url": "https://insideclimatenews.org/topic/exxon-knew/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-revokes-emergency-use-authorization-chloroquine-and-hydroxychloroquine"
+    },
+    {
+      "status": 403,
+      "url": "https://www.hhs.gov/about/news/2024/05/15/hhs-agency-debars-ecohealth-alliance-suspends-peter-daszak.html"
+    },
+    {
+      "status": 401,
+      "url": "https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228"
+    },
+    {
+      "status": 403,
+      "url": "https://www.dni.gov/files/ODNI/documents/assessments/Report-on-Potential-Links-Between-the-Wuhan-Institute-of-Virology-and-the-Origins-of-COVID-19-20230623.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/03/28/us/testing-coronavirus-pandemic.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.aclu.org/issues/human-rights/civil-liberties-and-covid-19"
+    },
+    {
+      "status": 403,
+      "url": "https://www.johnsnowmemo.com/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.weforum.org/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.bbc.com/news/uk-60367654"
+    },
+    {
+      "status": 404,
+      "url": "https://www.theguardian.com/uk-news/2022/jan/13/prince-andrew-and-jeffrey-epstein-timeline-of-their-relationship"
+    },
+    {
+      "status": 403,
+      "url": "https://www.pogo.org/analysis/revolving-door"
+    },
+    {
+      "status": 403,
+      "url": "https://www.opensecrets.org/revolving/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/02/11/us/politics/roger-stone-sentencing.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/series/the-secret-donors-behind-the-supreme-court"
+    },
+    {
+      "status": 404,
+      "url": "https://www.theatlantic.com/politics/archive/2019/01/federalist-society-leonard-leo/579918/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/12/22/us/politics/blackwater-pardons.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.theguardian.com/us-news/2020/dec/24/chris-christie-charles-kushner-pardon-loathsome"
+    },
+    {
+      "status": 404,
+      "url": "https://www.sos.state.co.us/pubs/elections/mesa-county.html"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2024/08/12/us/politics/tina-peters-colorado-election-guilty.html"
+    },
+    {
+      "status": 404,
+      "url": "https://apnews.com/article/tina-peters-colorado-election-sentence"
+    },
+    {
+      "status": 404,
+      "url": "https://www.whitehouse.senate.gov/news/speeches/the-web-of-denial"
+    },
+    {
+      "status": 404,
+      "url": "https://www.versobooks.com/books/2369-the-trial-of-henry-kissinger"
+    },
+    {
+      "status": 404,
+      "url": "https://nsarchive.gwu.edu/briefing-book/chile/2023-09-10/chile-50-years-after-coup-u.s.-documents-show"
+    },
+    {
+      "status": 404,
+      "url": "https://www.rollingstone.com/politics/political-commentary/henry-kissinger-obituary-war-criminal-1234924tried/"
+    },
+    {
+      "status": 404,
+      "url": "https://nsarchive.gwu.edu/briefing-book/south-asia/2020-08-14/blood-telegram"
+    },
+    {
+      "status": 404,
+      "url": "https://www.genocidewatch.com/single-post/genocide-in-bangladesh-1971"
+    },
+    {
+      "status": 404,
+      "url": "https://www.hrw.org/news/2016/03/25/bangladesh-investigate-1971-massacres"
+    },
+    {
+      "status": 404,
+      "url": "https://www.bbc.com/news/uk-14045457"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2011/07/11/world/europe/11hacking-timeline.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/people/scott-pruitt"
+    },
+    {
+      "status": 403,
+      "url": "https://www.standingrock.org/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.usace.army.mil/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.ohchr.org/en/press-releases/2016/11/standing-rock-sioux-protests-un-expert-calls-necessary-measures-prevent"
+    },
+    {
+      "status": 403,
+      "url": "https://www.opensecrets.org/federal-lobbying"
+    },
+    {
+      "status": 403,
+      "url": "https://www.pogo.org/database/revolving-door"
+    },
+    {
+      "status": 403,
+      "url": "https://www.ohchr.org/en/hrbodies/hrc/home"
+    },
+    {
+      "status": 404,
+      "url": "https://www.hrw.org/topic/international-justice/laws-war"
+    },
+    {
+      "status": 404,
+      "url": "https://www.state.gov/keystone-xl-pipeline/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.ned.org/wp-content/themes/flavor/flavor-flavor/flavor-flavor/grants/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.fbi.gov/news/speeches/the-threat-posed-by-the-chinese-government-and-the-chinese-communist-party-to-the-economic-and-national-security-of-the-united-states"
+    },
+    {
+      "status": 403,
+      "url": "https://www.aspi.org.au/report/ccp-inc"
+    },
+    {
+      "status": 403,
+      "url": "https://vault.fbi.gov/cointel-pro"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2014/11/16/magazine/what-an-uncensored-letter-to-mlk-reveals.html"
+    },
+    {
+      "status": 403,
+      "url": "https://mappingpoliceviolence.org/"
+    },
+    {
+      "status": 401,
+      "url": "https://www.reuters.com/investigates/special-report/usa-police-immunity-introduction/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.smithsonianmag.com/history/native-american-population-decline-180975806/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nsa.gov/news-features/declassified-documents/gulf-of-tonkin/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.propublica.org/article/samuel-alito-fishing-trip-paul-singer-scotus"
+    },
+    {
+      "status": 403,
+      "url": "https://euromedmonitor.org/"
+    },
+    {
+      "status": 403,
+      "url": "https://publications.parliament.uk/pa/cm201012/cmselect/cmcumeds/903/903.pdf"
+    },
+    {
+      "status": 403,
+      "url": "https://www.pulitzer.org/winners/michael-d-sallah-and-mitch-weiss"
+    },
+    {
+      "status": 404,
+      "url": "https://www.archives.gov/research/vietnam-war/war-crimes"
+    },
+    {
+      "status": 404,
+      "url": "https://www.intelligence.senate.gov/publications/report-prewar-intelligence-assessments-about-postwar-iraq"
+    },
+    {
+      "status": 404,
+      "url": "https://nsarchive.gwu.edu/project/iran-project"
+    },
+    {
+      "status": 404,
+      "url": "https://hrdag.org/guatemala-memory-of-silence-the-commission-for-historical-clarification-conclusions-and-recommendations/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2001/11/12/us/examining-vote-overview-study-disputed-florida-ballots-finds-justices-did-not.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.intelligence.senate.gov/sites/default/files/94-465.pdf"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/crt/case-document/file/1489751/download"
+    },
+    {
+      "status": 403,
+      "url": "https://www.fbi.gov/investigate/terrorism"
+    },
+    {
+      "status": 404,
+      "url": "https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower"
+    },
+    {
+      "status": 403,
+      "url": "https://www.nytimes.com/2020/01/09/business/boeing-737-messages.html"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/opa/pr/justice-department-determines-boeing-breached-obligations-under-2021-resolution"
+    },
+    {
+      "status": 404,
+      "url": "https://www.faa.gov/newsroom/faa-statement-boeing-oversight"
+    },
+    {
+      "status": 403,
+      "url": "https://www.gao.gov/products/gao-20-626"
+    },
+    {
+      "status": 404,
+      "url": "https://www.oig.dot.gov/library-item/37857"
+    },
+    {
+      "status": 401,
+      "url": "https://www.wsj.com/articles/theranos-has-struggled-with-blood-tests-1444881901"
+    },
+    {
+      "status": 403,
+      "url": "https://www.sec.gov/spotlight/enron.htm"
+    },
+    {
+      "status": 403,
+      "url": "https://www.sec.gov/news/press/2002-94.htm"
+    },
+    {
+      "status": 404,
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-fines-wells-fargo-100-million-widespread-illegal-practice-secretly-opening-unauthorized-accounts/"
+    },
+    {
+      "status": 410,
+      "url": "https://www.banking.senate.gov/hearings/an-examination-of-wells-fargo-unauthorized-accounts"
+    },
+    {
+      "status": 404,
+      "url": "https://www.usaid.gov/vietnam/agent-orange"
+    },
+    {
+      "status": 404,
+      "url": "https://www.justice.gov/civil/case/tobacco"
+    },
+    {
+      "status": 404,
+      "url": "https://archive.org/details/babykiller"
+    },
+    {
+      "status": 403,
+      "url": "https://www.bhopal.net/"
+    },
+    {
+      "status": 404,
+      "url": "https://www.osha.gov/news/newsreleases/national/12202022"
+    },
+    {
+      "status": 404,
+      "url": "https://thesoc.org/amazon-injury-report/"
+    },
+    {
+      "status": 403,
+      "url": "https://www.sec.gov/spotlight/cybersecurity-enforcement-actions"
+    },
+    {
+      "status": 403,
+      "url": "https://www.sec.gov/edgar"
+    },
+    {
+      "status": 403,
+      "url": "https://www.opensecrets.org"
+    }
+  ],
+  "server_errors": [
+    {
+      "status": 503,
+      "url": "https://www.usip.org/publications/2006/12/iraq-study-group-report"
+    },
+    {
+      "status": 503,
+      "url": "https://www.usip.org/publications/1991/02/truth-commission-chile-90"
+    },
+    {
+      "status": 526,
+      "url": "https://ktdi.org/"
+    },
+    {
+      "status": 500,
+      "url": "https://www.wintersoldier.com/"
+    },
+    {
+      "status": 999,
+      "url": "https://linkedin.com/company/arkhive"
+    }
+  ],
+  "network_errors": [
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.usda.gov"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.fcc.gov"
+    },
+    {
+      "status": 0,
+      "error": "ECONNRESET",
+      "url": "https://knkt.dephub.go.id"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.newsmax.com"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.miamiherald.com/topics/jeffrey-epstein"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/trump-recorded-having-extremely-lewd-conversation-about-women-in-2005/2016/10/07/3b9ce776-8cb4-11e6-bf8a-3d26847eeed4_story.html"
+    },
+    {
+      "status": 0,
+      "error": "ENOTFOUND",
+      "url": "https://www.lelpd.org/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/world/national-security/national-security-adviser-flynn-discussed-sanctions-with-russian-ambassador-despite-denials-officials-say/2017/02/09/f85b29d6-ee11-11e6-b4ff-ac2cf509efe5_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/media/2023/02/27/rupert-murdoch-deposition-fox-dominion/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/2022/03/24/virginia-thomas-mark-meadows-texts/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/2022/05/20/ginni-thomas-arizona-legislators-election/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/2020/08/20/steve-bannon-arrest-we-build-wall/"
+    },
+    {
+      "status": 0,
+      "error": "ENOTFOUND",
+      "url": "https://coronavirus.house.gov/news/reports"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/graphics/2020/politics/trump-covid-pandemic-dark-winter/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/video/politics/audio-trumps-full-jan-2-call-with-ga-secretary-of-state/2021/01/03/3f9426f4-7937-4718-8a66-9f574028e68f_video.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/graphics/2017/investigations/dea-drug-industry-congress/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/national-security/trump-pardon-manafort-stone-kushner/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.fema.gov/sites/default/files/2020-08/fema_2017-hurricane-season-after-action-report.pdf"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/trump-denies-puerto-rico-death-toll-calls-it-democratic-plot/2018/09/13/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/trump-recorded-having-extremely-lewd-conversation-about-women-in-2005/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/trump-foundation-to-dissolve-amid-allegations-of-misuse/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/trump-raffensperger-call-transcript-georgia-vote/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.miamiherald.com/news/local/article220097825.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/context/special-counsel-mueller-s-letter-to-ag-barr/e32695eb-c379-4696-845a-1b45ad32fff1/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/video/politics/audio-trumps-full-jan-2-call-with-ga-secretary-of-state/2021/01/03/3f9426f4-7937-4718-8a66-9f574028ed02_video.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/world/national-security/cia-concludes-saudi-crown-prince-ordered-jamal-khashoggis-assassination/2018/11/16/98c89fe6-e9b2-11e8-a939-9469f1166f9d_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/saudi-funded-lobbyist-paid-for-500-rooms-at-trumps-hotel-after-2016-election/2018/12/05/29603a64-f417-11e8-bc79-68604ed88993_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/secret-service-has-paid-rates-as-high-as-650-a-night-for-rooms-at-trumps-properties/2020/02/06/7f27a4c6-3ec5-11ea-8872-5df698785a4e_story.html"
+    },
+    {
+      "status": 0,
+      "error": "ECONNRESET",
+      "url": "https://www.oig.justice.gov/reports/review-department-justices-planning-and-implementation-its-zero-tolerance-policy-and"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/2015/12/07/e56266f6-9d2b-11e5-8728-1af6af208198_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/news/the-fix/wp/2017/01/29/trump-asked-for-a-muslim-ban-giuliani-says-and-ordered-a-commission-to-do-it-legally/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/trump-boasts-of-his-philanthropy-but-his-giving-falls-short-of-his-words/2016/10/29/b3c03106-9ac7-11e6-a0ed-ab0774c1eaa5_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/trump-mail-voting-usps/2020/08/13/3d0dce32-dd70-11ea-8051-d5f887d73381_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/business/2020/08/20/postal-service-mail-sorters-removals/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/national-security/federal-judge-blocks-postal-service-changes/2020/09/17/ed7e5000-f919-11ea-a275-1a2c2d36e1f1_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/dc-md-va/2023/05/04/proud-boys-verdict-jan-6/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/dc-md-va/2022/10/06/oath-keepers-trial-quick-reaction-force/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/religion/bishop-budde-trump-church/2020/06/01/20ca70f8-a466-11ea-bb20-ebf0921f3bbd_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/trump-on-puerto-rico-death-toll-3000-people-did-not-die/2018/09/13/ec43e95a-b761-11e8-a7b5-adaaa5b2a57f_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/national-security/dhs-compiled-intelligence-reports-on-journalists-covering-portland-protests/2020/07/31/5be975ec-d34e-11ea-9038-af089b63ac21_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/world/national-security/trump-revealed-highly-classified-information-to-russian-foreign-minister-and-ambassador/2017/05/15/530c172a-3960-11e7-9e48-c4f199710b69_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/t-mobile-spent-195000-at-trumps-hotel-while-lobbying-to-win-government-approval-of-merger-with-sprint/2019/03/05/a4a9c63c-3f5d-11e9-a0d3-1210e58a94cf_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/news/animalia/wp/2017/02/03/the-usda-abruptly-removes-animal-welfare-information-from-its-website/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/trump-attacks-protections-for-immigrants-from-shithole-countries-in-oval-office-meeting/2018/01/11/bfc0725c-f711-11e7-91af-31ac729add94_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/world/national-security/trump-has-concealed-details-of-his-face-to-face-encounters-with-putin-from-senior-officials-in-administration/2019/01/12/65f6686c-1434-11e9-b6ad-9cfd62dbb0a8_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.usda.gov/topics/farming/agricultural-economics"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://efile.fara.gov/docs/6069-Registration-Statement-20170308-1.pdf"
+    },
+    {
+      "status": 0,
+      "error": "ENOTFOUND",
+      "url": "https://www.mccain.senate.gov/public/index.cfm/press-releases?ID=7A30E2C9-E12E-4B11-AB5A-29BBB7B1DA9C"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/business/2016/07/30/trumps-atlantic-city-casinos-gambles-that-failed/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/business/2020/08/20/postal-service-mail-sorting-machines/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/weather/2019/09/06/president-trump-showed-an-altered-hurricane-dorian-map-heres-full-story/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/more-undocumented-workers-say-they-worked-at-trump-golf-course/2019/01/26/a9491c4c-2073-11e9-8e21-59a09ff1e2a1_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/wp-srv/national/longterm/watergate/front.htm"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/investigations/2023/09/22/leonard-leo-paid-ginni-thomas/"
+    },
+    {
+      "status": 0,
+      "error": "ENOTFOUND",
+      "url": "https://coronavirus.house.gov/report"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.mcclatchydc.com/news/nation-world/national/article135243694.html"
+    },
+    {
+      "status": 0,
+      "error": "ENOTFOUND",
+      "url": "https://www.sigir.mil/files/quarterlyreports/index.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/graphics/politics/trump-claims-database/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/2022/03/24/virginia-thomas-texts-mark-meadows/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/2022/05/20/ginni-thomas-arizona/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/investigations/2022/10/19/coffee-county-georgia-voting-trump/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/local/md-politics/hogan-national-guard-dc-capitol/2021/01/07/e31b38f6-5134-11eb-b2e8-3339e73d9da2_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/national-security/dc-national-guard-deployment-orders/2021/01/11/c3f6f64a-5467-11eb-a931-5b162d0d033d_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/heres-what-we-know-about-donald-trump-and-his-ties-to-russia/2016/07/29/1268b5ec-54e7-11e6-bbf5-957ad17b4385_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/wp-dyn/content/article/2005/11/01/AR2005110101644.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/wp-dyn/content/article/2005/07/14/AR2005071402269.html"
+    },
+    {
+      "status": 0,
+      "error": "ECONNRESET",
+      "url": "https://www.stmartins.com/books/9780312360238/ghost-plane"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/world/national-security/blackwater-founder-held-secret-seychelles-meeting-to-establish-trump-putin-back-channel/2017/04/03/95908a08-1648-11e7-ada0-1489b735b3a3_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/world/national-security/kushner-and-the-saudis/2018/03/27/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://efile.fara.gov/ords/fara/f?p=1235:10:0::NO:RP"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/2019/01/24/jared-kushners-security-clearance-was-initially-denied-due-concerns-about-foreign-influence/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://unctad.org/topic/debt-and-finance/sovereign-debt-workouts"
+    },
+    {
+      "status": 0,
+      "error": "ERR_TLS_CERT_ALTNAME_INVALID",
+      "url": "https://thenewpress.com/books/shock-doctrine"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/investigations/us-intelligence-mining-data-from-nine-us-internet-companies-in-broad-secret-program/2013/06/06/3a0c0da8-cebf-11e2-8845-d970ccb04497_story.html"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.fcc.gov/consumers/guides/review-broadcast-ownership-rules"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/investigations/2020/04/18/coronavirus-cdc-test-kits-contaminated/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/politics/2022/08/19/election-officials-threats/"
+    },
+    {
+      "status": 0,
+      "error": "EAI_AGAIN",
+      "url": "https://drilledpodcast.com/"
+    },
+    {
+      "status": 0,
+      "error": "ENOTFOUND",
+      "url": "https://www.sigar.mil/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/archive/politics/2000/12/11/us-advice-guided-milosevic-opposition/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/archive/politics/1997/05/17/tuskegee-experiment-recalled-as-blacks-mark-health-awareness-day/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/graphics/investigations/police-shootings-database/"
+    },
+    {
+      "status": 0,
+      "error": "ECONNRESET",
+      "url": "https://densho.org/"
+    },
+    {
+      "status": 0,
+      "error": "TIMEOUT",
+      "url": "https://www.washingtonpost.com/wp-srv/special/politics/prism-collection-documents/"
+    },
+    {
+      "status": 0,
+      "error": "ECONNRESET",
+      "url": "https://www.law.umkc.edu/faculty/projects/ftrials/mylai/mylai.htm"
+    },
+    {
+      "status": 0,
+      "error": "ECONNRESET",
+      "url": "http://knkt.dephub.go.id/knkt/ntsc_aviation/baru/2018%20-%20035%20-%20PK-LQP%20Final%20Report.pdf"
+    },
+    {
+      "status": 0,
+      "error": "ENOTFOUND",
+      "url": "https://www.aib.gov.et/wp-content/uploads/2022/10/ET-302-Final-Report.pdf"
+    },
+    {
+      "status": 0,
+      "error": "EPROTO",
+      "url": "https://arkhive.org"
+    },
+    {
+      "status": 0,
+      "error": "INVALID_URL",
+      "url": "https://"
+    },
+    {
+      "status": 0,
+      "error": "ECONNRESET",
+      "url": "https://arkhive.io"
+    },
+    {
+      "status": 0,
+      "error": "ECONNRESET",
+      "url": "https://scihub.copernicus.eu"
+    }
+  ]
+}

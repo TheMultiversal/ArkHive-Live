@@ -145,9 +145,7 @@ const investigationData = {
   sources: [
     { title: 'NY Times: Trump Tax Investigation', url: 'https://www.nytimes.com/interactive/2018/10/02/us/politics/donald-trump-tax-schemes-fred-trump.html', type: 'Investigation' },
     { title: 'NY Times: 18 Years of Tax Returns', url: 'https://www.nytimes.com/interactive/2020/09/27/us/donald-trump-taxes.html', type: 'Tax Records' },
-    { title: 'Congressional Committee Tax Release', url: 'https://waysandmeans.house.gov/trump-tax-returns/', type: 'Government Document' },
     { title: 'NY Civil Fraud Judgment', url: 'https://www.documentcloud.org/documents/24425172-trump-fraud-ruling', type: 'Court Document' },
-    { title: 'NY AG Fraud Lawsuit', url: 'https://ag.ny.gov/press-release/2022/attorney-general-james-files-lawsuit-against-donald-trump-alleging-years', type: 'Legal Filing' },
     { title: 'Panama Papers Database', url: 'https://offshoreleaks.icij.org/', type: 'Leaked Documents' },
     { title: 'Trump Organization Criminal Conviction', url: 'https://manhattanda.org/', type: 'Criminal Case' },
   ],

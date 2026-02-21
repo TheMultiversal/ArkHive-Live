@@ -145,10 +145,8 @@ const investigationData = {
   ],
 
   sources: [
-    { title: 'NY AG Lawsuit Filing', url: 'https://ag.ny.gov/press-release/2018/ag-underwood-files-lawsuit-against-donald-j-trump-foundation-and-its-board', type: 'Court Filing' },
     { title: 'Court Ruling on Dissolution', url: 'https://www.documentcloud.org/documents/6556975-Trump-Foundation-Decision.html', type: 'Court Decision' },
     { title: 'Washington Post Foundation Investigation', url: 'https://www.washingtonpost.com/politics/trump-foundation-to-dissolve-amid-allegations-of-misuse/', type: 'Investigation' },
-    { title: 'NY AG Penalty Announcement', url: 'https://ag.ny.gov/press-release/2019/donald-j-trump-pays-court-ordered-2-million-damages-misusing-trump-foundation', type: 'Press Release' },
     { title: 'IRS Form 990 Filings', url: 'https://projects.propublica.org/nonprofits/organizations/133404773', type: 'Tax Filings' },
   ],
 };

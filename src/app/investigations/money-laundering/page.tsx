@@ -170,7 +170,6 @@ const investigationData = {
     { title: 'BuzzFeed: Trump Moscow Project', url: 'https://www.buzzfeednews.com/article/anthonycormier/trump-moscow-micheal-cohen-felix-sater-campaign', type: 'Investigation' },
     { title: 'House Financial Services Subpoena', url: 'https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=401455', type: 'Congressional Document' },
     { title: 'Palm Beach Mansion Sale Analysis', url: 'https://www.seattletimes.com/nation-world/why-did-a-russian-pay-95m-to-buy-trumps-palm-beach-mansion/', type: 'Investigation' },
-    { title: 'Craig Unger: House of Trump, House of Putin', url: 'https://www.penguinrandomhouse.com/books/575450/house-of-trump-house-of-putin-by-craig-unger/', type: 'Book' },
   ],
 };
 

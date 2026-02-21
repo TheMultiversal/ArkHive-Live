@@ -269,7 +269,6 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Epstein Flight Logs (Lolita Express)', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2025' },
       { title: 'Unsealed Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
       { title: 'Panama Papers Database', url: 'https://offshoreleaks.icij.org/', date: '2025' },
-      { title: 'IRS Audit Documents via Congressional Reports', url: 'https://waysandmeans.house.gov/trump-tax-returns/', date: '2023-2025' },
       { title: 'DHS/ICE Detention Reports', url: 'https://web.archive.org/web/*/https://www.oig.dhs.gov/reports', date: '2020-2025' },
       { title: 'EPA Environmental Rollback Documentation', url: 'https://www.epa.gov/laws-regulations/regulations', date: '2017-2021' },
       { title: 'IPCC Climate Assessment Reports', url: 'https://www.ipcc.ch/reports/', date: '2025' },
@@ -284,7 +283,6 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Katie Johnson Lawsuit (Epstein Party Rape Allegation)', url: 'https://www.courtlistener.com/docket/4154484/katie-johnson-v-donald-j-trump/', date: '2016' },
       { title: 'Access Hollywood Tape Transcript', url: 'https://www.washingtonpost.com/politics/trump-recorded-having-extremely-lewd-conversation-about-women-in-2005/2016/10/07/3b9ce776-8cb4-11e6-bf8a-3d26847eeed4_story.html', date: '2005/2016' },
       { title: 'Trump-Russia Mueller Investigation Evidence', url: 'https://www.justice.gov/archives/sco', date: '2017-2019' },
-      { title: 'Saudi Arms Deal Documentation', url: 'https://www.state.gov/arms-sales/', date: '2017' },
       { title: 'Yemen War Casualty Reports (UN)', url: 'https://www.ohchr.org/en/hr-bodies/hrc/yemen/index', date: '2017-2025' },
       { title: 'Cambridge Analytica Scandal Documents', url: 'https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
     ],
@@ -599,7 +597,6 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Event 201 Pandemic Exercise Documentation', url: 'https://centerforhealthsecurity.org/our-work/exercises/event201', date: '2019' },
-      { title: 'DOJ Microsoft Antitrust Case', url: 'https://www.justice.gov/atr/case/us-v-microsoft-corporation', date: '1998-2001' },
       { title: 'New York Times - Gates Epstein Meetings', url: 'https://www.nytimes.com/2019/10/12/business/jeffrey-epstein-bill-gates.html', date: '2019' },
       { title: 'India Parliamentary Committee Report - HPV Vaccine Trials', date: '2013' },
       { title: 'WHO Oral Polio Vaccine Assessment', date: '2020' },
@@ -702,7 +699,6 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Black Wednesday Records - Bank of England', date: '1992' },
       { title: 'Open Society Foundations IRS 990 Filings', date: 'Annual' },
       { title: 'DC Leaks - OSF Documents', date: '2016' },
-      { title: 'Law Enforcement Legal Defense Fund - Soros DA Tracker', url: 'https://www.lelpd.org/', date: 'Various' },
       { title: 'Hungarian Government "Stop Soros" Documentation', date: '2018' },
     ],
   },
@@ -1151,7 +1147,6 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Flynn Plea Agreement', url: 'https://www.courtlistener.com/docket/6234142/united-states-v-flynn/', date: '2017' },
       { title: 'DOJ Flynn Statement of Offense', url: 'http://web.archive.org/web/20240314193724/http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download', date: '2017' },
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
-      { title: 'House Oversight Turkey Lobbying Report', url: 'https://oversight.house.gov/wp-content/uploads/2017/11/20171117-Flynn-Testimony-Letters.pdf', date: '2017' },
       { title: 'WaPo: Flynn-Kislyak Calls', url: 'https://www.washingtonpost.com/world/national-security/national-security-adviser-flynn-discussed-sanctions-with-russian-ambassador-despite-denials-officials-say/2017/02/09/f85b29d6-ee11-11e6-b4ff-ac2cf509efe5_story.html', date: '2017' },
     ],
   },
@@ -4478,7 +4473,6 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'DOJ Seditious Conspiracy Indictment', url: 'https://www.justice.gov/opa/pr/leader-proud-boys-and-four-other-members-indicted-federal-court-seditious-conspiracy-and', date: '2022' },
-      { title: 'Trial Verdict', url: 'https://www.justice.gov/opa/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', date: '2023' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Reuters FBI Informant Investigation', date: '2021' },
     ],
@@ -4566,7 +4560,6 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'May 25, 2023', event: 'Sentenced to 18 YEARS in federal prison' },
     ],
     sources: [
-      { title: 'DOJ Seditious Conspiracy Conviction', url: 'https://www.justice.gov/opa/pr/oath-keepers-founder-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy', date: '2023' },
       { title: 'Trial Evidence and Testimony', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', date: '2022' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Yale Law School Records', date: '2004' },
@@ -4863,7 +4856,6 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'July 17, 2024', event: 'Speaks at Republican National Convention SAME DAY' },
     ],
     sources: [
-      { title: 'DOJ Contempt Conviction', url: 'https://www.justice.gov/opa/pr/peter-navarro-found-guilty-contempt-congress', date: '2023' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Federal Prison Records', date: '2024' },
       { title: 'RNC Speaking Records', date: '2024' },
@@ -23794,7 +23786,6 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'UN Commission of Inquiry on Syria', url: 'https://www.ohchr.org/en/hr-bodies/hrc/co-i-syria/co-i-syria-home', date: '2011-2024' },
       { title: 'OPCW Fact-Finding Mission Reports', url: 'https://web.archive.org/web/*/https://opcw.org/fact-finding-mission-reports', date: '2014-2024' },
-      { title: 'Caesar Photos Documentation', url: 'https://syriaaccountability.org/library/caesar-photos/', date: '2014' },
       { title: 'Human Rights Watch Syria Reports', url: 'https://web.archive.org/web/*/https://hrw.org/middle-east/north-africa/syria', date: '2011-2024' },
     ],
   },

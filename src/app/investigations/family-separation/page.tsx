@@ -93,9 +93,7 @@ const investigation = {
     { title: 'HHS Inspector General Report', url: 'https://oig.hhs.gov/oei/reports/oei-BL-18-00511.pdf', date: '2019' },
     { title: 'ACLU Family Separation Report', url: 'https://www.aclu.org/report/family-separation-by-the-numbers', date: '2020' },
     { title: 'Ms. L v. ICE (Class Action)', url: 'https://www.aclu.org/cases/ms-l-v-ice', date: '2018' },
-    { title: 'Stephen Miller Emails (SPLC)', url: 'https://www.splcenter.org/stephen-miller-emails-hatewatch', date: '2019' },
     { title: 'DHS IG Report on Child Deaths', url: 'https://www.oig.dhs.gov/sites/default/files/assets/2019-09/OIG-19-63-Sep19.pdf', date: '2019' },
-    { title: 'Flores Settlement Agreement', url: 'https://www.aclu.org/legal-document/flores-v-reno-settlement-agreement', date: '1997' },
   ],
 };
 

@@ -76,10 +76,6 @@ const investigation = {
     { date: '2022', event: 'Trump sells DC Hotel for $375 million (after profiting throughout term)' },
   ],
   sources: [
-    { title: 'House Oversight Foreign Payments Report', url: 'https://oversight.house.gov/wp-content/uploads/2022/01/Trump-Hotel-Report-January-2022.pdf', date: '2022' },
-    { title: 'CREW Emoluments Tracking', url: 'https://www.citizensforethics.org/reports-investigations/crew-reports/president-trump-accepted-663-payments-foreign-governments/', date: '2020' },
-    { title: 'GSA Lease Agreement', url: 'https://www.gsa.gov/real-estate/gsa-properties/gsa-properties-faq/old-post-office-building-washington-dc', date: '2013' },
-    { title: 'DC & Maryland Lawsuit', url: 'https://oag.dc.gov/blog/district-columbia-and-maryland-file-lawsuit-against-president-trump', date: '2017' },
     { title: 'Congressional Research Service Report', url: 'https://crsreports.congress.gov/product/pdf/R/R45992', date: '2019' },
   ],
 };

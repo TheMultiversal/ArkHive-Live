@@ -152,11 +152,9 @@ const investigationData = {
 
   sources: [
     { title: 'Settlement Agreement', url: 'https://www.documentcloud.org/documents/3251949-Trump-University-Settlement.html', type: 'Legal Document' },
-    { title: 'NY AG Lawsuit Filing', url: 'https://ag.ny.gov/press-release/2013/ag-schneiderman-files-suit-against-trump-and-trump-university', type: 'Court Filing' },
     { title: 'Sales Playbook Documents', url: 'https://www.politico.com/story/2016/05/trump-university-playbooks-223631', type: 'Internal Documents' },
     { title: 'Trump Deposition Transcript', url: 'https://www.politico.com/f/?id=00000154-eafe-d152-afde-eefecd360001', type: 'Deposition' },
     { title: 'Class Action Complaint', url: 'https://www.courtlistener.com/docket/4180380/low-v-trump-university-llc/', type: 'Court Filing' },
-    { title: 'Judge Curiel Attack Coverage', url: 'https://www.cnn.com/2016/06/03/politics/donald-trump-judge-curiel/index.html', type: 'News Report' },
   ],
 };
 
