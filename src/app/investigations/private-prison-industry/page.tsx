@@ -23,7 +23,7 @@ const investigation = {
     { name: 'Thomas Beasley', role: 'CCA Co-founder \u2014 Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983', href: '/entities/individuals/thomas-beasley', status: 'Retired' },
     { name: 'Robert Crants', role: 'CCA Co-founder \u2014 West Point graduate who co-founded Corrections Corporation of America with $50,000 investment', href: '/entities/individuals/robert-crants', status: 'Retired' },
     { name: 'Terrell Don Hutto', role: 'CCA Co-founder \u2014 Former Arkansas corrections commissioner; namesake of infamous T. Don Hutto immigrant detention center', href: '/entities/individuals/terrell-don-hutto', status: 'Retired' },
-    { name: 'Michael MPowell', role: 'ALEC National Chairman \u2014 Oversaw development of model legislation increasing incarceration rates', href: '/entities/individuals/michael-mPowell', status: 'Active' },
+    { name: 'Michael D. Powell', role: 'ALEC National Chairman \u2014 Oversaw development of model legislation increasing incarceration rates', href: '/entities/individuals/michael-powell', status: 'Active' },
     { name: 'Ronald Reagan', role: 'President \u2014 War on Drugs policies and mandatory minimums created the mass incarceration boom private prisons exploited', href: '/entities/individuals/ronald-reagan', status: 'Deceased' },
     { name: 'Richard Nixon', role: 'President \u2014 Launched War on Drugs in 1971; adviser John Ehrlichman later admitted it targeted Black communities', href: '/entities/individuals/richard-nixon', status: 'Deceased' },
   ],

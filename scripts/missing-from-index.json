@@ -1,0 +1,4892 @@
+[
+  {
+    "slug": "jean-luc-brunel",
+    "name": "Jean-Luc Brunel",
+    "riskLevel": "critical",
+    "role": "MC2 Model Management Founder, Convicted Sex Trafficker Associate"
+  },
+  {
+    "slug": "joel-greenberg",
+    "name": "Joel Greenberg",
+    "riskLevel": "critical",
+    "role": "Convicted Sex Trafficker, Matt Gaetz Associate"
+  },
+  {
+    "slug": "viktor-knavs",
+    "name": "Viktor Knavs",
+    "riskLevel": "low",
+    "role": "Slovenian Businessman, US Citizen via Chain Migration"
+  },
+  {
+    "slug": "amalija-knavs",
+    "name": "Amalija Knavs",
+    "riskLevel": "low",
+    "role": "Slovenian Textile Worker, US Citizen via Chain Migration"
+  },
+  {
+    "slug": "alex-acosta",
+    "name": "R. Alexander Acosta",
+    "riskLevel": "high",
+    "role": "Labor Secretary 2017-2019, Former U.S. Attorney who gave Epstein sweetheart deal"
+  },
+  {
+    "slug": "rex-tillerson",
+    "name": "Rex Wayne Tillerson",
+    "riskLevel": "high",
+    "role": "Secretary of State 2017-2018, Former ExxonMobil CEO"
+  },
+  {
+    "slug": "mike-pompeo",
+    "name": "Michael Richard Pompeo",
+    "riskLevel": "high",
+    "role": "Secretary of State 2018-2021, CIA Director 2017-2018"
+  },
+  {
+    "slug": "betsy-devos",
+    "name": "Elisabeth Dee DeVos",
+    "riskLevel": "high",
+    "role": "Education Secretary 2017-2021, Billionaire Republican Donor"
+  },
+  {
+    "slug": "wilbur-ross",
+    "name": "Wilbur Louis Ross Jr.",
+    "riskLevel": "high",
+    "role": "Commerce Secretary 2017-2021, Billionaire "
+  },
+  {
+    "slug": "ryan-zinke",
+    "name": "Ryan Keith Zinke",
+    "riskLevel": "high",
+    "role": "Interior Secretary 2017-2019, Montana Congressman"
+  },
+  {
+    "slug": "alex-azar",
+    "name": "Alex Michael Azar II",
+    "riskLevel": "high",
+    "role": "HHS Secretary 2018-2021, Former Eli Lilly Executive"
+  },
+  {
+    "slug": "elaine-chao",
+    "name": "Elaine Lan Chao",
+    "riskLevel": "high",
+    "role": "Transportation Secretary 2017-2021, Wife of Mitch McConnell"
+  },
+  {
+    "slug": "chad-wolf",
+    "name": "Chad Frederick Wolf",
+    "riskLevel": "high",
+    "role": "Acting DHS Secretary 2019-2021 (illegally appointed)"
+  },
+  {
+    "slug": "ben-carson",
+    "name": "Benjamin Solomon Carson Sr.",
+    "riskLevel": "medium",
+    "role": "HUD Secretary 2017-2021, Retired Neurosurgeon"
+  },
+  {
+    "slug": "alan-dershowitz",
+    "name": "Alan Morton Dershowitz",
+    "riskLevel": "critical",
+    "role": "Criminal Defense Attorney, Jeffrey Epstein Lawyer, Trump Impeachment Defender"
+  },
+  {
+    "slug": "ali-alexander",
+    "name": "Ali Akbar Alexander",
+    "riskLevel": "critical",
+    "role": "Stop the Steal Organizer, January 6 Rally Planner"
+  },
+  {
+    "slug": "alex-jones",
+    "name": "Alexander Emerick Jones",
+    "riskLevel": "critical",
+    "role": "Sandy Hook Torturer, January 6 Inciter, Professional Liar"
+  },
+  {
+    "slug": "erik-prince",
+    "name": "Erik Dean Prince",
+    "riskLevel": "critical",
+    "role": "Mercenary King, Mass Murderer\\"
+  },
+  {
+    "slug": "barron-trump",
+    "name": "Barron William Trump",
+    "riskLevel": "low",
+    "role": "Student, Trump Family Member"
+  },
+  {
+    "slug": "marie-yovanovitch",
+    "name": "Marie Louise Yovanovitch",
+    "riskLevel": "low",
+    "role": "Career Diplomat, Key Impeachment Witness"
+  },
+  {
+    "slug": "fiona-hill",
+    "name": "Fiona Hill",
+    "riskLevel": "low",
+    "role": "Russia Expert, Key Impeachment Witness"
+  },
+  {
+    "slug": "alexander-vindman",
+    "name": "Alexander Semyon Vindman",
+    "riskLevel": "low",
+    "role": "Former NSC Director, Key Impeachment Witness"
+  },
+  {
+    "slug": "bill-taylor",
+    "name": "William Brockenbrough Taylor Jr.",
+    "riskLevel": "low",
+    "role": "Career Diplomat, Key Impeachment Witness"
+  },
+  {
+    "slug": "george-kent",
+    "name": "George Philip Kent",
+    "riskLevel": "low",
+    "role": "Career Diplomat, Impeachment Witness"
+  },
+  {
+    "slug": "joseph-mifsud",
+    "name": "Joseph Mifsud",
+    "riskLevel": "high",
+    "role": "Key Figure Who Triggered Russia Investigation"
+  },
+  {
+    "slug": "maria-butina",
+    "name": "Maria Valeryevna Butina",
+    "riskLevel": "critical",
+    "role": "Russian Spy Who Infiltrated NRA and GOP"
+  },
+  {
+    "slug": "lisa-monaco",
+    "name": "Lisa Oudens Monaco",
+    "riskLevel": "low",
+    "role": "DOJ Leadership During Trump Investigations"
+  },
+  {
+    "slug": "john-bolton",
+    "name": "John Bolton",
+    "riskLevel": "high",
+    "role": "Trump Administration Official"
+  },
+  {
+    "slug": "john-kelly",
+    "name": "John Kelly",
+    "riskLevel": "medium",
+    "role": "Trump Administration Official"
+  },
+  {
+    "slug": "merrick-garland",
+    "name": "Merrick Garland",
+    "riskLevel": "low",
+    "role": "DOJ Leadership"
+  },
+  {
+    "slug": "wayne-lapierre",
+    "name": "Wayne Robert LaPierre Jr.",
+    "riskLevel": "critical",
+    "role": "Gun Lobby Leader, Corruption Defendant, Russian Asset Cultivator"
+  },
+  {
+    "slug": "alexander-torshin",
+    "name": "Alexander Torshin",
+    "riskLevel": "critical",
+    "role": "Russian Intelligence Operative"
+  },
+  {
+    "slug": "paul-erickson",
+    "name": "Paul Erickson",
+    "riskLevel": "high",
+    "role": "Maria Butina Associate"
+  },
+  {
+    "slug": "greg-jacob",
+    "name": "Greg Jacob",
+    "riskLevel": "low",
+    "role": "January 6 Witness"
+  },
+  {
+    "slug": "michael-avenatti",
+    "name": "Michael Avenatti",
+    "riskLevel": "high",
+    "role": "Stormy Daniels Attorney"
+  },
+  {
+    "slug": "keith-davidson",
+    "name": "Keith Davidson",
+    "riskLevel": "medium",
+    "role": "NDA Negotiator"
+  },
+  {
+    "slug": "lindsey-graham",
+    "name": "Lindsey Graham",
+    "riskLevel": "medium",
+    "role": "Trump Ally in Congress"
+  },
+  {
+    "slug": "mitch-mcconnell",
+    "name": "Mitch McConnell",
+    "riskLevel": "medium",
+    "role": "Senate Republican Leader"
+  },
+  {
+    "slug": "kevin-mccarthy",
+    "name": "Kevin McCarthy",
+    "riskLevel": "medium",
+    "role": "House Republican Leader"
+  },
+  {
+    "slug": "jim-jordan",
+    "name": "Jim Jordan",
+    "riskLevel": "medium",
+    "role": "House Judiciary Chair"
+  },
+  {
+    "slug": "tiffany-trump",
+    "name": "Tiffany Ariana Trump",
+    "riskLevel": "low",
+    "role": "Daughter of Donald Trump"
+  },
+  {
+    "slug": "yevgeny-vindman",
+    "name": "Yevgeny Vindman",
+    "riskLevel": "low",
+    "role": "Ukraine Impeachment Witness Support"
+  },
+  {
+    "slug": "ivan-timofeev",
+    "name": "Ivan Timofeev",
+    "riskLevel": "high",
+    "role": "Russian Intelligence Contact"
+  },
+  {
+    "slug": "reince-priebus",
+    "name": "Reince Richard Priebus",
+    "riskLevel": "medium",
+    "role": "Trump Administration Official"
+  },
+  {
+    "slug": "sean-spicer",
+    "name": "Sean Michael Spicer",
+    "riskLevel": "medium",
+    "role": "Trump Administration Official"
+  },
+  {
+    "slug": "sarah-huckabee-sanders",
+    "name": "Sarah Elizabeth Huckabee Sanders",
+    "riskLevel": "medium",
+    "role": "Former White House Press Secretary"
+  },
+  {
+    "slug": "anthony-scaramucci",
+    "name": "Anthony Scaramucci",
+    "riskLevel": "low",
+    "role": "Trump Administration Official"
+  },
+  {
+    "slug": "dan-scavino",
+    "name": "Daniel Scavino Jr.",
+    "riskLevel": "high",
+    "role": "Trump Social Media Director"
+  },
+  {
+    "slug": "brad-parscale",
+    "name": "Bradley James Parscale",
+    "riskLevel": "medium",
+    "role": "Digital Media Strategist"
+  },
+  {
+    "slug": "alvin-bragg",
+    "name": "Alvin Leonard Bragg Jr.",
+    "riskLevel": "low",
+    "role": "Prosecutor"
+  },
+  {
+    "slug": "letitia-james",
+    "name": "Letitia Ann James",
+    "riskLevel": "low",
+    "role": "Prosecutor"
+  },
+  {
+    "slug": "juan-merchan",
+    "name": "Juan Manuel Merchan",
+    "riskLevel": "low",
+    "role": "Judge"
+  },
+  {
+    "slug": "aileen-cannon",
+    "name": "Aileen Mercedes Cannon",
+    "riskLevel": "high",
+    "role": "Federal Judge"
+  },
+  {
+    "slug": "tanya-chutkan",
+    "name": "Tanya Sue Chutkan",
+    "riskLevel": "low",
+    "role": "Federal Judge"
+  },
+  {
+    "slug": "scott-mcafee",
+    "name": "Scott McAfee",
+    "riskLevel": "low",
+    "role": "Georgia State Judge"
+  },
+  {
+    "slug": "jacob-chansley",
+    "name": "Jacob Anthony Chansley",
+    "riskLevel": "high",
+    "role": "QAnon Shaman"
+  },
+  {
+    "slug": "jenna-ellis",
+    "name": "Jenna Ellis",
+    "riskLevel": "high",
+    "role": "Election Conspiracy Lawyer"
+  },
+  {
+    "slug": "christina-bobb",
+    "name": "Christina Bobb",
+    "riskLevel": "high",
+    "role": "Campaign Lawyer & Former OAN Host"
+  },
+  {
+    "slug": "boris-epshteyn",
+    "name": "Boris Epshteyn",
+    "riskLevel": "high",
+    "role": "Campaign Advisor & Fake Electors Co-Conspirator"
+  },
+  {
+    "slug": "evan-corcoran",
+    "name": "Evan Corcoran",
+    "riskLevel": "medium",
+    "role": "Attorney in Mar-a-Lago Documents Case"
+  },
+  {
+    "slug": "lin-wood",
+    "name": "Lucian Lincoln Wood Jr.",
+    "riskLevel": "high",
+    "role": "Election Conspiracy Lawyer"
+  },
+  {
+    "slug": "todd-blanche",
+    "name": "Todd Blanche",
+    "riskLevel": "low",
+    "role": "Lead Criminal Defense Lawyer"
+  },
+  {
+    "slug": "alina-habba",
+    "name": "Alina Habba",
+    "riskLevel": "low",
+    "role": "Civil Defense Lawyer"
+  },
+  {
+    "slug": "kayleigh-mcenany",
+    "name": "Kayleigh McEnany",
+    "riskLevel": "medium",
+    "role": "Trump Administration Official & Fox News Host"
+  },
+  {
+    "slug": "mick-mulvaney",
+    "name": "John Michael Mulvaney",
+    "riskLevel": "medium",
+    "role": "Trump Administration Official"
+  },
+  {
+    "slug": "omarosa-manigault-newman",
+    "name": "Omarosa Onée Manigault Newman",
+    "riskLevel": "low",
+    "role": "Former Trump Ally Turned Critic"
+  },
+  {
+    "slug": "hr-mcmaster",
+    "name": "Herbert Raymond McMaster",
+    "riskLevel": "low",
+    "role": "Retired Lieutenant General"
+  },
+  {
+    "slug": "sebastian-gorka",
+    "name": "Sebastian Lukács Gorka",
+    "riskLevel": "medium",
+    "role": "Right-Wing Media Personality"
+  },
+  {
+    "slug": "jerry-falwell-jr",
+    "name": "Jerry Lamon Falwell Jr.",
+    "riskLevel": "high",
+    "role": "Evangelical Leader & Trump Supporter"
+  },
+  {
+    "slug": "paula-white",
+    "name": "Paula Michelle White-Cain",
+    "riskLevel": "medium",
+    "role": "Trump Spiritual Advisor"
+  },
+  {
+    "slug": "kim-jong-un",
+    "name": "Kim Jong Un",
+    "riskLevel": "critical",
+    "role": "International Figure"
+  },
+  {
+    "slug": "viktor-orban",
+    "name": "Viktor Mihály Orbán",
+    "riskLevel": "high",
+    "role": "International Trump Ally"
+  },
+  {
+    "slug": "benjamin-netanyahu",
+    "name": "Benjamin Netanyahu",
+    "riskLevel": "medium",
+    "role": "International Trump Ally"
+  },
+  {
+    "slug": "xi-jinping",
+    "name": "Xi Jinping",
+    "riskLevel": "high",
+    "role": "International Figure"
+  },
+  {
+    "slug": "volodymyr-zelensky",
+    "name": "Volodymyr Oleksandrovych Zelensky",
+    "riskLevel": "low",
+    "role": "First Impeachment Central Figure"
+  },
+  {
+    "slug": "jair-bolsonaro",
+    "name": "Jair Messias Bolsonaro",
+    "riskLevel": "high",
+    "role": "International Trump Ally"
+  },
+  {
+    "slug": "mary-trump",
+    "name": "Mary Lea Trump",
+    "riskLevel": "low",
+    "role": "Trump Family Critic"
+  },
+  {
+    "slug": "maryanne-trump-barry",
+    "name": "Maryanne Trump Barry",
+    "riskLevel": "medium",
+    "role": "Trump Sister"
+  },
+  {
+    "slug": "franklin-graham",
+    "name": "William Franklin Graham III",
+    "riskLevel": "medium",
+    "role": "Evangelical Trump Supporter"
+  },
+  {
+    "slug": "robert-jeffress",
+    "name": "Robert James Jeffress Jr.",
+    "riskLevel": "medium",
+    "role": "Evangelical Trump Advisor"
+  },
+  {
+    "slug": "arthur-engoron",
+    "name": "Arthur F. Engoron",
+    "riskLevel": "low",
+    "role": "Judge in Trump Civil Fraud Case"
+  },
+  {
+    "slug": "natalia-veselnitskaya",
+    "name": "Natalia Vladimirovna Veselnitskaya",
+    "riskLevel": "high",
+    "role": "Trump Tower Meeting Attendee"
+  },
+  {
+    "slug": "rinat-akhmetshin",
+    "name": "Rinat Akhmetshin",
+    "riskLevel": "high",
+    "role": "Trump Tower Meeting Attendee"
+  },
+  {
+    "slug": "rob-goldstone",
+    "name": "Robert Goldstone",
+    "riskLevel": "medium",
+    "role": "Trump Tower Meeting Arranger"
+  },
+  {
+    "slug": "aras-agalarov",
+    "name": "Aras Iskenderovich Agalarov",
+    "riskLevel": "high",
+    "role": "Trump Business Associate"
+  },
+  {
+    "slug": "emin-agalarov",
+    "name": "Emin Araz oglu Agalarov",
+    "riskLevel": "medium",
+    "role": "Trump Associate & Meeting Facilitator"
+  },
+  {
+    "slug": "stephanie-grisham",
+    "name": "Stephanie Grisham",
+    "riskLevel": "low",
+    "role": "Trump Administration Whistleblower"
+  },
+  {
+    "slug": "johnny-mcentee",
+    "name": "John Douglas McEntee II",
+    "riskLevel": "medium",
+    "role": "Trump Loyalty Enforcer"
+  },
+  {
+    "slug": "mike-lindell",
+    "name": "Michael James Lindell",
+    "riskLevel": "critical",
+    "role": "Election Conspiracy Promoter, Defamation Defendant, Deplatformed Disinformation Spreader"
+  },
+  {
+    "slug": "corey-lewandowski",
+    "name": "Corey R. Lewandowski",
+    "riskLevel": "high",
+    "role": "Trump Political Operative"
+  },
+  {
+    "slug": "steven-mnuchin",
+    "name": "Steven Terner Mnuchin",
+    "riskLevel": "medium",
+    "role": "Trump Cabinet Official"
+  },
+  {
+    "slug": "patrick-byrne",
+    "name": "Patrick Michael Byrne",
+    "riskLevel": "high",
+    "role": "Election Conspiracy Promoter"
+  },
+  {
+    "slug": "matthew-calamari",
+    "name": "Matthew Calamari",
+    "riskLevel": "medium",
+    "role": "Trump Org Executive"
+  },
+  {
+    "slug": "phil-waldron",
+    "name": "Philip G. Waldron",
+    "riskLevel": "high",
+    "role": "Coup PowerPoint Author"
+  },
+  {
+    "slug": "marla-maples",
+    "name": "Marla Ann Maples",
+    "riskLevel": "low",
+    "role": "Trump Second Wife"
+  },
+  {
+    "slug": "cleta-mitchell",
+    "name": "Cleta Mitchell",
+    "riskLevel": "high",
+    "role": "Trump Georgia Call Lawyer"
+  },
+  {
+    "slug": "ike-kaveladze",
+    "name": "Irakly ",
+    "riskLevel": "high",
+    "role": "Trump Tower Meeting Attendee"
+  },
+  {
+    "slug": "anatoli-samochornov",
+    "name": "Anatoli Samochornov",
+    "riskLevel": "low",
+    "role": "Trump Tower Meeting Translator"
+  },
+  {
+    "slug": "jeff-mcconney",
+    "name": "Jeffrey S. McConney",
+    "riskLevel": "medium",
+    "role": "Key Fraud Trial Witness"
+  },
+  {
+    "slug": "joe-tacopina",
+    "name": "Joseph Tacopina",
+    "riskLevel": "low",
+    "role": "Former Trump Attorney"
+  },
+  {
+    "slug": "liz-cheney",
+    "name": "Elizabeth Lynne Cheney",
+    "riskLevel": "low",
+    "role": "January 6 Committee Vice Chair"
+  },
+  {
+    "slug": "adam-kinzinger",
+    "name": "Adam Daniel Kinzinger",
+    "riskLevel": "low",
+    "role": "January 6 Committee Member"
+  },
+  {
+    "slug": "bennie-thompson",
+    "name": "Bennie Gordon Thompson",
+    "riskLevel": "low",
+    "role": "January 6 Committee Chair"
+  },
+  {
+    "slug": "mo-brooks",
+    "name": "Morris Jackson ",
+    "riskLevel": "high",
+    "role": "January 6 Rally Speaker"
+  },
+  {
+    "slug": "andy-biggs",
+    "name": "Andrew Steven Biggs",
+    "riskLevel": "high",
+    "role": "January 6 Connected Congressman"
+  },
+  {
+    "slug": "paul-gosar",
+    "name": "Paul Anthony Gosar",
+    "riskLevel": "high",
+    "role": "January 6 Connected Congressman"
+  },
+  {
+    "slug": "scott-perry",
+    "name": "Scott Gordon Perry",
+    "riskLevel": "high",
+    "role": "Jeffrey Clark Advocate"
+  },
+  {
+    "slug": "marjorie-taylor-greene",
+    "name": "Marjorie Taylor Greene",
+    "riskLevel": "high",
+    "role": "Election Denial Congresswoman"
+  },
+  {
+    "slug": "lauren-boebert",
+    "name": "Lauren Opal Boebert",
+    "riskLevel": "high",
+    "role": "Election Denial Congresswoman"
+  },
+  {
+    "slug": "richard-donoghue",
+    "name": "Richard Peter Donoghue",
+    "riskLevel": "low",
+    "role": "DOJ Official Who Resisted Trump"
+  },
+  {
+    "slug": "steven-engel",
+    "name": "Steven Andrew Engel",
+    "riskLevel": "low",
+    "role": "DOJ Official Who Resisted Trump"
+  },
+  {
+    "slug": "jeffrey-rosen",
+    "name": "Jeffrey A. Rosen",
+    "riskLevel": "low",
+    "role": "DOJ Official Who Resisted Trump"
+  },
+  {
+    "slug": "amy-berman-jackson",
+    "name": "Amy Berman Jackson",
+    "riskLevel": "low",
+    "role": "Judge in Stone/Manafort Cases"
+  },
+  {
+    "slug": "lewis-kaplan",
+    "name": "Lewis A. Kaplan",
+    "riskLevel": "low",
+    "role": "Judge in E. Jean Carroll Cases"
+  },
+  {
+    "slug": "beryl-howell",
+    "name": "Beryl Alaine Howell",
+    "riskLevel": "low",
+    "role": "Chief Judge Over Trump Grand Juries"
+  },
+  {
+    "slug": "cy-vance",
+    "name": "Cyrus Roberts Vance Jr.",
+    "riskLevel": "low",
+    "role": "Initiated Trump Investigation"
+  },
+  {
+    "slug": "keith-schiller",
+    "name": "Keith Schiller",
+    "riskLevel": "medium",
+    "role": "Trump Personal Security Director"
+  },
+  {
+    "slug": "rhona-graff",
+    "name": "Rhona Graff",
+    "riskLevel": "medium",
+    "role": "Trump Gatekeeper"
+  },
+  {
+    "slug": "dick-cheney",
+    "name": "Richard Bruce Cheney",
+    "riskLevel": "critical",
+    "role": "Iraq War Architect, Torture Program Director, War Profiteer"
+  },
+  {
+    "slug": "summer-zervos",
+    "name": "Summer Zervos",
+    "riskLevel": "low",
+    "role": "Trump Sexual Assault Accuser"
+  },
+  {
+    "slug": "jessica-leeds",
+    "name": "Jessica Leeds",
+    "riskLevel": "low",
+    "role": "Trump Sexual Assault Accuser"
+  },
+  {
+    "slug": "jill-harth",
+    "name": "Jill Harth",
+    "riskLevel": "low",
+    "role": "Trump Sexual Assault Accuser"
+  },
+  {
+    "slug": "ivana-trump",
+    "name": "Ivana Marie Trump",
+    "riskLevel": "low",
+    "role": "Trump First Wife (Deceased)"
+  },
+  {
+    "slug": "peter-strzok",
+    "name": "Peter Paul Strzok II",
+    "riskLevel": "medium",
+    "role": "FBI Russia Investigation Official"
+  },
+  {
+    "slug": "lisa-page",
+    "name": "Lisa Page",
+    "riskLevel": "low",
+    "role": "FBI Russia Investigation Official"
+  },
+  {
+    "slug": "laura-ingraham",
+    "name": "Laura Anne Ingraham",
+    "riskLevel": "medium",
+    "role": "Pro-Trump Media Personality"
+  },
+  {
+    "slug": "jeanine-pirro",
+    "name": "Jeanine Ferris Pirro",
+    "riskLevel": "medium",
+    "role": "Pro-Trump Media Personality"
+  },
+  {
+    "slug": "jesse-watters",
+    "name": "Jesse Bailey Watters",
+    "riskLevel": "low",
+    "role": "Pro-Trump Media Personality"
+  },
+  {
+    "slug": "bill-kristol",
+    "name": "William Kristol",
+    "riskLevel": "low",
+    "role": "Anti-Trump Republican"
+  },
+  {
+    "slug": "steve-schmidt",
+    "name": "Steve Schmidt",
+    "riskLevel": "medium",
+    "role": "Anti-Trump Republican / Lincoln Project"
+  },
+  {
+    "slug": "elliott-broidy",
+    "name": "Elliott Broidy",
+    "riskLevel": "high",
+    "role": "RNC Finance Vice Chair (Pardoned)"
+  },
+  {
+    "slug": "steve-wynn",
+    "name": "Stephen Alan Wynn",
+    "riskLevel": "high",
+    "role": "RNC Finance Chair / Trump Donor"
+  },
+  {
+    "slug": "sheldon-adelson",
+    "name": "Sheldon Gary Adelson",
+    "riskLevel": "medium",
+    "role": "GOP Mega-Donor"
+  },
+  {
+    "slug": "miriam-adelson",
+    "name": "Miriam Adelson",
+    "riskLevel": "low",
+    "role": "Trump Major Donor"
+  },
+  {
+    "slug": "peter-thiel",
+    "name": "Peter Andreas Thiel",
+    "riskLevel": "medium",
+    "role": "Trump Donor & Advisor"
+  },
+  {
+    "slug": "felix-sater",
+    "name": "Felix Henry Sater",
+    "riskLevel": "high",
+    "role": "Trump Tower Moscow Fixer"
+  },
+  {
+    "slug": "michael-caputo",
+    "name": "Michael Roman Caputo",
+    "riskLevel": "medium",
+    "role": "Trump Campaign Aide / HHS Spokesman"
+  },
+  {
+    "slug": "sam-nunberg",
+    "name": "Samuel Nunberg",
+    "riskLevel": "low",
+    "role": "Former Trump Campaign Aide"
+  },
+  {
+    "slug": "jason-miller",
+    "name": "Jason Michael Miller",
+    "riskLevel": "medium",
+    "role": "Trump Campaign Spokesman"
+  },
+  {
+    "slug": "katrina-pierson",
+    "name": "Katrina Pierson",
+    "riskLevel": "low",
+    "role": "Trump Campaign Spokeswoman"
+  },
+  {
+    "slug": "david-bossie",
+    "name": "David Bossie",
+    "riskLevel": "high",
+    "role": "Deputy Campaign Manager 2016"
+  },
+  {
+    "slug": "george-w-bush",
+    "name": "George Walker Bush",
+    "riskLevel": "critical",
+    "role": "War Criminal, Torture Authorizer, Surveillance State Architect"
+  },
+  {
+    "slug": "gloria-allred",
+    "name": "Gloria Rachel Allred",
+    "riskLevel": "low",
+    "role": "Women\\"
+  },
+  {
+    "slug": "aj-delgado",
+    "name": "A.J. Delgado",
+    "riskLevel": "low",
+    "role": "Trump Campaign Senior Advisor"
+  },
+  {
+    "slug": "nick-fuentes",
+    "name": "Nicholas Joseph Fuentes",
+    "riskLevel": "critical",
+    "role": "America First Political Movement Leader"
+  },
+  {
+    "slug": "andrew-wheeler",
+    "name": "Andrew Wheeler",
+    "riskLevel": "high",
+    "role": "Coal Industry Lobbyist turned EPA Chief"
+  },
+  {
+    "slug": "michael-sexton",
+    "name": "Michael Sexton",
+    "riskLevel": "high",
+    "role": "Trump University Executive"
+  },
+  {
+    "slug": "tom-marino",
+    "name": "Thomas Anthony Marino",
+    "riskLevel": "high",
+    "role": "Failed Drug Czar Nominee"
+  },
+  {
+    "slug": "andrew-badolato",
+    "name": "Andrew Badolato",
+    "riskLevel": "critical",
+    "role": "We Build The Wall Co-Defendant"
+  },
+  {
+    "slug": "timothy-shea",
+    "name": "Timothy Shea",
+    "riskLevel": "critical",
+    "role": "We Build The Wall Co-Defendant"
+  },
+  {
+    "slug": "hillary-clinton",
+    "name": "Hillary Diane Rodham Clinton",
+    "riskLevel": "low",
+    "role": "2016 Democratic Presidential Nominee"
+  },
+  {
+    "slug": "barack-obama",
+    "name": "Barack Hussein Obama II",
+    "riskLevel": "low",
+    "role": "Former President (2009-2017)"
+  },
+  {
+    "slug": "joe-biden",
+    "name": "Joseph Robinette Biden Jr.",
+    "riskLevel": "low",
+    "role": "Current President (2021-present)"
+  },
+  {
+    "slug": "nancy-pelosi",
+    "name": "Nancy Patricia Pelosi",
+    "riskLevel": "low",
+    "role": "House Speaker during both Trump Impeachments"
+  },
+  {
+    "slug": "mitt-romney",
+    "name": "Willard Mitt Romney",
+    "riskLevel": "low",
+    "role": "Only Republican to Vote to Convict Trump"
+  },
+  {
+    "slug": "kanye-west",
+    "name": "Kanye Omari West (Ye)",
+    "riskLevel": "high",
+    "role": "Trump Ally, White Supremacist Dinner Guest"
+  },
+  {
+    "slug": "chris-christie",
+    "name": "Christopher James Christie",
+    "riskLevel": "medium",
+    "role": "Trump Ally Turned Critic"
+  },
+  {
+    "slug": "john-mccain",
+    "name": "John Sidney McCain III",
+    "riskLevel": "low",
+    "role": "Trump Antagonist, War Hero"
+  },
+  {
+    "slug": "fred-trump",
+    "name": "Frederick Christ Trump",
+    "riskLevel": "high",
+    "role": "Donald Trump\\"
+  },
+  {
+    "slug": "jamal-khashoggi",
+    "name": "Jamal Ahmad Khashoggi",
+    "riskLevel": "low",
+    "role": "Washington Post Columnist Killed by Saudi Arabia"
+  },
+  {
+    "slug": "vivek-ramaswamy",
+    "name": "Vivek Ganapathy Ramaswamy",
+    "riskLevel": "medium",
+    "role": "MAGA Supporter, Trump Ally"
+  },
+  {
+    "slug": "nikki-haley",
+    "name": "Nimarata Nikki Haley",
+    "riskLevel": "low",
+    "role": "Trump Critic Turned Ally Turned Critic"
+  },
+  {
+    "slug": "ron-desantis",
+    "name": "Ronald Dion DeSantis",
+    "riskLevel": "medium",
+    "role": "Trump Rival, MAGA Governor"
+  },
+  {
+    "slug": "ethan-nordean",
+    "name": "Ethan Nordean",
+    "riskLevel": "critical",
+    "role": "Seditious Conspiracy Convict"
+  },
+  {
+    "slug": "joseph-biggs",
+    "name": "Joseph Randall Biggs",
+    "riskLevel": "critical",
+    "role": "Seditious Conspiracy Convict"
+  },
+  {
+    "slug": "zachary-rehl",
+    "name": "Zachary Rehl",
+    "riskLevel": "critical",
+    "role": "Seditious Conspiracy Convict"
+  },
+  {
+    "slug": "james-fields-jr",
+    "name": "James Alex Fields Jr.",
+    "riskLevel": "critical",
+    "role": "Domestic Terrorist"
+  },
+  {
+    "slug": "dominic-pezzola",
+    "name": "Dominic Pezzola",
+    "riskLevel": "critical",
+    "role": "Seditious Conspiracy Convict"
+  },
+  {
+    "slug": "kelly-meggs",
+    "name": "Kelly Meggs",
+    "riskLevel": "critical",
+    "role": "Seditious Conspiracy Convict"
+  },
+  {
+    "slug": "kenneth-harrelson",
+    "name": "Kenneth Harrelson",
+    "riskLevel": "high",
+    "role": "Conspiracy Convict"
+  },
+  {
+    "slug": "jessica-watkins",
+    "name": "Jessica Watkins",
+    "riskLevel": "high",
+    "role": "Conspiracy Convict"
+  },
+  {
+    "slug": "christopher-wray",
+    "name": "Christopher Asher Wray",
+    "riskLevel": "medium",
+    "role": "Current FBI Director (2017-present)"
+  },
+  {
+    "slug": "mark-milley",
+    "name": "Mark Alexander Milley",
+    "riskLevel": "low",
+    "role": "Former Top Military Officer (2019-2023)"
+  },
+  {
+    "slug": "mark-esper",
+    "name": "Mark Thomas Esper",
+    "riskLevel": "medium",
+    "role": "Former Secretary of Defense (2019-2020)"
+  },
+  {
+    "slug": "james-mattis",
+    "name": "James Norman Mattis",
+    "riskLevel": "low",
+    "role": "Former Secretary of Defense (2017-2019)"
+  },
+  {
+    "slug": "matthew-whitaker",
+    "name": "Matthew George Whitaker",
+    "riskLevel": "high",
+    "role": "Acting Attorney General (2018-2019)"
+  },
+  {
+    "slug": "ken-cuccinelli",
+    "name": "Kenneth Thomas Cuccinelli II",
+    "riskLevel": "high",
+    "role": "Acting DHS Deputy Secretary (2019-2021)"
+  },
+  {
+    "slug": "richard-spencer",
+    "name": "Richard Bertrand Spencer",
+    "riskLevel": "high",
+    "role": "Alt-Right Figure, Charlottesville Organizer"
+  },
+  {
+    "slug": "jason-kessler",
+    "name": "Jason Eric Kessler",
+    "riskLevel": "high",
+    "role": "White Nationalist Organizer"
+  },
+  {
+    "slug": "david-duke",
+    "name": "David Ernest Duke",
+    "riskLevel": "high",
+    "role": "White Supremacist Leader"
+  },
+  {
+    "slug": "stephanie-winston-wolkoff",
+    "name": "Stephanie Winston Wolkoff",
+    "riskLevel": "medium",
+    "role": "Melania Trump Confidante Turned Whistleblower"
+  },
+  {
+    "slug": "viktor-vekselberg",
+    "name": "Viktor Felixovich Vekselberg",
+    "riskLevel": "high",
+    "role": "Sanctioned Billionaire"
+  },
+  {
+    "slug": "neil-gorsuch",
+    "name": "Neil McGill Gorsuch",
+    "riskLevel": "high",
+    "role": "Trump Appointee, Conservative Majority"
+  },
+  {
+    "slug": "amy-coney-barrett",
+    "name": "Amy Coney Barrett",
+    "riskLevel": "high",
+    "role": "Trump Appointee, Conservative Majority"
+  },
+  {
+    "slug": "ginni-thomas",
+    "name": "Virginia ",
+    "riskLevel": "critical",
+    "role": "Wife of Justice Clarence Thomas, Election Denier"
+  },
+  {
+    "slug": "carl-icahn",
+    "name": "Carl Celian Icahn",
+    "riskLevel": "high",
+    "role": "Trump Advisor, Alleged Insider Trading"
+  },
+  {
+    "slug": "larry-fink",
+    "name": "Laurence Douglas Fink",
+    "riskLevel": "high",
+    "role": "Head of World\\"
+  },
+  {
+    "slug": "clarence-thomas",
+    "name": "Clarence Thomas",
+    "riskLevel": "critical",
+    "role": "Most Ethically Compromised Justice in Modern History, Coup Enabler"
+  },
+  {
+    "slug": "samuel-alito",
+    "name": "Samuel Anthony Alito Jr.",
+    "riskLevel": "critical",
+    "role": "Christian Nationalist Justice, Roe Destroyer, January 6 Sympathizer"
+  },
+  {
+    "slug": "john-roberts",
+    "name": "John Glover Roberts Jr.",
+    "riskLevel": "medium",
+    "role": "Chief Justice, Conservative Court Leader"
+  },
+  {
+    "slug": "brett-kavanaugh",
+    "name": "Brett Michael Kavanaugh",
+    "riskLevel": "high",
+    "role": "Trump Appointee, Conservative Majority"
+  },
+  {
+    "slug": "ted-cruz",
+    "name": "Rafael Edward ",
+    "riskLevel": "high",
+    "role": "Election Objector, Constitutional Challenge Leader"
+  },
+  {
+    "slug": "josh-hawley",
+    "name": "Joshua David Hawley",
+    "riskLevel": "high",
+    "role": "First Senator to Object, Raised Fist to Mob"
+  },
+  {
+    "slug": "rand-paul",
+    "name": "Randal Howard Paul",
+    "riskLevel": "medium",
+    "role": "COVID Misinformation Spreader, Fauci Antagonist"
+  },
+  {
+    "slug": "kari-lake",
+    "name": "Kari Lake",
+    "riskLevel": "high",
+    "role": "Election Denier, Trump Ally"
+  },
+  {
+    "slug": "scott-atlas",
+    "name": "Scott William Atlas",
+    "riskLevel": "high",
+    "role": "Herd Immunity Advocate, Pandemic Misinformation"
+  },
+  {
+    "slug": "james-alex-fields",
+    "name": "James Alex Fields Jr.",
+    "riskLevel": "critical",
+    "role": "Charlottesville Car Attack Murderer"
+  },
+  {
+    "slug": "heather-heyer",
+    "name": "Heather Danielle Heyer",
+    "riskLevel": "low",
+    "role": "Paralegal, Civil Rights Activist"
+  },
+  {
+    "slug": "dmitry-firtash",
+    "name": "Dmytro Firtash",
+    "riskLevel": "high",
+    "role": "Manafort/Giuliani Associate"
+  },
+  {
+    "slug": "janet-yellen",
+    "name": "Janet Louise Yellen",
+    "riskLevel": "low",
+    "role": "Economic Policy Leader"
+  },
+  {
+    "slug": "lanny-davis",
+    "name": "Lanny J. Davis",
+    "riskLevel": "low",
+    "role": "Michael Cohen\\"
+  },
+  {
+    "slug": "nadia-marcinkova",
+    "name": "Nadia Marcinkova",
+    "riskLevel": "medium",
+    "role": "Later Became Helicopter Pilot"
+  },
+  {
+    "slug": "randy-credico",
+    "name": "Randy Credico",
+    "riskLevel": "medium",
+    "role": "Roger Stone WikiLeaks Intermediary"
+  },
+  {
+    "slug": "robert-maxwell",
+    "name": "Robert Maxwell",
+    "riskLevel": "high",
+    "role": "Father of Ghislaine Maxwell"
+  },
+  {
+    "slug": "sarah-kellen",
+    "name": "Sarah Kellen",
+    "riskLevel": "high",
+    "role": "Named in Court Documents"
+  },
+  {
+    "slug": "semion-mogilevich",
+    "name": "Semion Yudkovich Mogilevich",
+    "riskLevel": "critical",
+    "role": "Shadow controller (via Firtash)"
+  },
+  {
+    "slug": "harlan-crow",
+    "name": "Harlan Crow",
+    "riskLevel": "critical",
+    "role": "Supreme Court Justice Briber, Nazi Memorabilia Collector"
+  },
+  {
+    "slug": "leonard-leo",
+    "name": "Leonard Anthony Leo",
+    "riskLevel": "critical",
+    "role": "Architect of Conservative Judicial Takeover, Dark Money Kingpin"
+  },
+  {
+    "slug": "david-rockefeller",
+    "name": "David Rockefeller Sr.",
+    "riskLevel": "critical",
+    "role": "Global Elite Patriarch (Deceased)"
+  },
+  {
+    "slug": "henry-kissinger",
+    "name": "Henry Alfred Kissinger",
+    "riskLevel": "critical",
+    "role": "War Criminal, Genocide Enabler, Mass Murder Architect (Deceased)"
+  },
+  {
+    "slug": "charles-koch",
+    "name": "Charles de Ganahl Koch",
+    "riskLevel": "critical",
+    "role": "Dark Money Kingpin, Climate Denial Funder, Regulatory Capture Architect"
+  },
+  {
+    "slug": "dan-coats",
+    "name": "Daniel Ray Coats",
+    "riskLevel": "low",
+    "role": "Trump DNI Who Contradicted Him"
+  },
+  {
+    "slug": "billy-bush",
+    "name": "William Hall Bush",
+    "riskLevel": "low",
+    "role": "Access Hollywood Tape Participant"
+  },
+  {
+    "slug": "korey-wise",
+    "name": "Korey Wise",
+    "riskLevel": "low",
+    "role": "Central Park Five Victim"
+  },
+  {
+    "slug": "yusef-salaam",
+    "name": "Yusef Salaam",
+    "riskLevel": "low",
+    "role": "Central Park Five Victim, Elected Official"
+  },
+  {
+    "slug": "christopher-miller",
+    "name": "Christopher Charles Miller",
+    "riskLevel": "high",
+    "role": "Trump Pentagon Pick, January 6 Figure"
+  },
+  {
+    "slug": "richard-nixon",
+    "name": "Richard Milhous Nixon",
+    "riskLevel": "critical",
+    "role": "War Criminal, Traitor, Obstructor of Justice (Deceased)"
+  },
+  {
+    "slug": "george-hw-bush",
+    "name": "George Herbert Walker Bush",
+    "riskLevel": "critical",
+    "role": "CIA Director, War Criminal, Iran-Contra Conspirator (Deceased)"
+  },
+  {
+    "slug": "mark-zuckerberg",
+    "name": "Mark Elliot Zuckerberg",
+    "riskLevel": "critical",
+    "role": "Tech CEO, Social Media Mogul, Surveillance Capitalism Pioneer"
+  },
+  {
+    "slug": "elon-musk",
+    "name": "Elon Reeve Musk",
+    "riskLevel": "critical",
+    "role": "Tech Billionaire, Trump Ally, DOGE Head, Disinformation Amplifier"
+  },
+  {
+    "slug": "kelly-loeffler",
+    "name": "Kelly Lynn Loeffler",
+    "riskLevel": "high",
+    "role": "Insider Trader, Election Objector"
+  },
+  {
+    "slug": "richard-burr",
+    "name": "Richard Mauze Burr",
+    "riskLevel": "high",
+    "role": "COVID Insider Trader, Intelligence Committee Chair"
+  },
+  {
+    "slug": "linda-mcmahon",
+    "name": "Linda Marie McMahon",
+    "riskLevel": "medium",
+    "role": "Trump Cabinet Member, Education Secretary Nominee"
+  },
+  {
+    "slug": "john-ratcliffe",
+    "name": "John Lee Ratcliffe",
+    "riskLevel": "high",
+    "role": "Trump Intelligence Chief, Declassifier"
+  },
+  {
+    "slug": "ken-paxton",
+    "name": "Warren Kenneth Paxton Jr.",
+    "riskLevel": "high",
+    "role": "Election Lawsuit Filer, Impeached AG"
+  },
+  {
+    "slug": "colin-powell",
+    "name": "Colin Luther Powell",
+    "riskLevel": "critical",
+    "role": "Military Commander, Diplomat, Iraq War Enabler"
+  },
+  {
+    "slug": "condoleezza-rice",
+    "name": "Condoleezza Rice",
+    "riskLevel": "critical",
+    "role": "Foreign Policy Architect, Iraq War Planner, Intelligence Failure Overseer"
+  },
+  {
+    "slug": "donald-rumsfeld",
+    "name": "Donald Henry Rumsfeld",
+    "riskLevel": "critical",
+    "role": "Iraq War Architect, Torture Program Overseer, Military-Industrial Complex Operator"
+  },
+  {
+    "slug": "george-tenet",
+    "name": "George John Tenet",
+    "riskLevel": "critical",
+    "role": "Intelligence Chief, WMD Fabrication Enabler, Torture Architect"
+  },
+  {
+    "slug": "paul-wolfowitz",
+    "name": "Paul Dundes Wolfowitz",
+    "riskLevel": "critical",
+    "role": "Iraq War Architect, Neoconservative Ideologue, World Bank Scandal"
+  },
+  {
+    "slug": "karl-rove",
+    "name": "Karl Christian Rove",
+    "riskLevel": "high",
+    "role": "Political Operative, Dirty Trickster, Valerie Plame Leaker"
+  },
+  {
+    "slug": "scooter-libby",
+    "name": "Irving Lewis ",
+    "riskLevel": "high",
+    "role": "Cheney\\"
+  },
+  {
+    "slug": "oliver-north",
+    "name": "Oliver Laurence North",
+    "riskLevel": "high",
+    "role": "Iran-Contra Operator, Arms Dealer, Pardoned Felon"
+  },
+  {
+    "slug": "jeb-bush",
+    "name": "John Ellis ",
+    "riskLevel": "medium",
+    "role": "Bush Dynasty Member, 2000 Election Manipulator"
+  },
+  {
+    "slug": "augusto-pinochet",
+    "name": "Augusto José Ramón Pinochet Ugarte",
+    "riskLevel": "critical",
+    "role": "US-Backed Dictator, Mass Murderer, Torturer"
+  },
+  {
+    "slug": "robert-redfield",
+    "name": "Robert Ray Redfield Jr.",
+    "riskLevel": "high",
+    "role": "Public Health Official, COVID Response Failure, Lab Leak Advocate"
+  },
+  {
+    "slug": "russell-vought",
+    "name": "Russell Thurlow Vought",
+    "riskLevel": "critical",
+    "role": "Conservative Policy Architect, Administrative State Dismantler"
+  },
+  {
+    "slug": "yevgeny-prigozhin",
+    "name": "Yevgeny Viktorovich Prigozhin",
+    "riskLevel": "critical",
+    "role": "Russian Oligarch, Mercenary Army Chief, Troll Farm Operator"
+  },
+  {
+    "slug": "george-nader",
+    "name": "George Aref Nader",
+    "riskLevel": "critical",
+    "role": "UAE Lobbyist, Foreign Influence Operative, Child Sex Offender"
+  },
+  {
+    "slug": "kirill-dmitriev",
+    "name": "Kirill Aleksandrovich Dmitriev",
+    "riskLevel": "critical",
+    "role": "Putin Ally, Seychelles Meeting Participant, Kremlin Operative"
+  },
+  {
+    "slug": "paul-singer",
+    "name": "Paul Elliott Singer",
+    "riskLevel": "high",
+    "role": "Vulture Capitalist, Republican Mega-Donor, Sovereign Debt Speculator"
+  },
+  {
+    "slug": "francis-collins",
+    "name": "Francis Sellers Collins",
+    "riskLevel": "high",
+    "role": "Government Scientist, Gain of Function Oversight, COVID Response"
+  },
+  {
+    "slug": "peter-daszak",
+    "name": "Peter Daszak",
+    "riskLevel": "critical",
+    "role": "Virus Hunter, Wuhan Lab Connection, NIH Grant Recipient"
+  },
+  {
+    "slug": "ralph-baric",
+    "name": "Ralph Steven Baric",
+    "riskLevel": "high",
+    "role": "Gain of Function Pioneer, UNC Virologist, COVID Origins Figure"
+  },
+  {
+    "slug": "shi-zhengli",
+    "name": "Shi Zhengli",
+    "riskLevel": "critical",
+    "role": "Director, Center for Emerging Infectious Diseases"
+  },
+  {
+    "slug": "tedros-adhanom",
+    "name": "Tedros Adhanom Ghebreyesus",
+    "riskLevel": "high",
+    "role": "Global Health Chief, COVID Response Leader, China Relations Controversy"
+  },
+  {
+    "slug": "ronald-reagan",
+    "name": "Ronald Wilson Reagan",
+    "riskLevel": "critical",
+    "role": "Iran-Contra Mastermind, Trickle-Down Architect, AIDS Crisis Ignorer"
+  },
+  {
+    "slug": "margaret-thatcher",
+    "name": "Margaret Hilda Thatcher",
+    "riskLevel": "high",
+    "role": "Pinochet Defender, Neoliberalism Pioneer, Falklands War Leader"
+  },
+  {
+    "slug": "caspar-weinberger",
+    "name": "Caspar Willard Weinberger",
+    "riskLevel": "high",
+    "role": "Reagan Defense Secretary, Iran-Contra Participant, Pardoned Felon"
+  },
+  {
+    "slug": "john-poindexter",
+    "name": "John Marlan Poindexter",
+    "riskLevel": "high",
+    "role": "Reagan NSA, Iran-Contra Convict, Conviction Reversed"
+  },
+  {
+    "slug": "fawn-hall",
+    "name": "Fawn Hall",
+    "riskLevel": "medium",
+    "role": "Oliver North Secretary, Document Shredder"
+  },
+  {
+    "slug": "douglas-feith",
+    "name": "Douglas Jay Feith",
+    "riskLevel": "critical",
+    "role": "Office of Special Plans Director, Iraq War Lies Architect"
+  },
+  {
+    "slug": "richard-perle",
+    "name": "Richard Norman Perle",
+    "riskLevel": "critical",
+    "role": "Chairman (2001-2003)"
+  },
+  {
+    "slug": "katherine-harris",
+    "name": "Kathleen Ann Harris",
+    "riskLevel": "high",
+    "role": "2000 Election Certifier, Bush v. Gore Figure"
+  },
+  {
+    "slug": "marco-rubio",
+    "name": "Marco Antonio Rubio",
+    "riskLevel": "high",
+    "role": "Trump Ally, Former Senator, Current Secretary of State"
+  },
+  {
+    "slug": "kevin-roberts",
+    "name": "Kevin D. Roberts",
+    "riskLevel": "critical",
+    "role": "Project 2025 Architect, Conservative Policy Leader"
+  },
+  {
+    "slug": "manuel-contreras",
+    "name": "Manuel Contreras Sepúlveda",
+    "riskLevel": "critical",
+    "role": "Pinochet\\"
+  },
+  {
+    "slug": "milton-friedman",
+    "name": "Milton Friedman",
+    "riskLevel": "high",
+    "role": "Chicago School Founder, Pinochet Advisor, Neoliberalism Architect"
+  },
+  {
+    "slug": "mohammed-bin-zayed",
+    "name": "Mohammed bin Zayed Al Nahyan",
+    "riskLevel": "critical",
+    "role": "MBZ, UAE Ruler, Regional Power Broker"
+  },
+  {
+    "slug": "rick-gerson",
+    "name": "Rick Gerson",
+    "riskLevel": "high",
+    "role": "Kushner Friend, UAE Backchannel"
+  },
+  {
+    "slug": "dmitry-utkin",
+    "name": "Dmitry Valeryevich Utkin",
+    "riskLevel": "critical",
+    "role": "PMC Commander, War Criminal, Nazi Sympathizer"
+  },
+  {
+    "slug": "sergei-shoigu",
+    "name": "Sergei Kuzhugetovich Shoigu",
+    "riskLevel": "critical",
+    "role": "Ukraine War Leader, Putin Loyalist"
+  },
+  {
+    "slug": "valery-gerasimov",
+    "name": "Valery Vasilyevich Gerasimov",
+    "riskLevel": "critical",
+    "role": "Chief (2012-present)"
+  },
+  {
+    "slug": "robert-novak",
+    "name": "Robert David Sanders Novak",
+    "riskLevel": "high",
+    "role": "Columnist Who Outed Valerie Plame"
+  },
+  {
+    "slug": "richard-armitage",
+    "name": "Richard Armitage",
+    "riskLevel": "high",
+    "role": "Deputy Secretary of State who leaked classified CIA identity"
+  },
+  {
+    "slug": "william-casey",
+    "name": "William Casey",
+    "riskLevel": "critical",
+    "role": "CIA Director who orchestrated Iran-Contra and Central American death squads"
+  },
+  {
+    "slug": "allen-dulles",
+    "name": "Allen Dulles",
+    "riskLevel": "critical",
+    "role": "Longest-serving CIA Director who authorized MKUltra, orchestrated coups, and later served on Warren Commission"
+  },
+  {
+    "slug": "sidney-gottlieb",
+    "name": "Sidney Gottlieb",
+    "riskLevel": "critical",
+    "role": "CIA chemist who directed MKUltra mind control program for 20 years"
+  },
+  {
+    "slug": "frank-olson",
+    "name": "Frank Olson",
+    "riskLevel": "low",
+    "role": "Army biological weapons researcher secretly dosed with LSD, died under suspicious circumstances"
+  },
+  {
+    "slug": "j-edgar-hoover",
+    "name": "J. Edgar Hoover",
+    "riskLevel": "critical",
+    "role": "FBI Director who created COINTELPRO and orchestrated persecution of civil rights leaders"
+  },
+  {
+    "slug": "fred-hampton",
+    "name": "Fred Hampton",
+    "riskLevel": "low",
+    "role": "Revolutionary leader assassinated by FBI-orchestrated police raid at age 21"
+  },
+  {
+    "slug": "martin-luther-king-jr",
+    "name": "Martin Luther King Jr.",
+    "riskLevel": "low",
+    "role": "Preeminent civil rights leader, Nobel Peace Prize winner, target of FBI harassment"
+  },
+  {
+    "slug": "john-ehrlichman",
+    "name": "John Ehrlichman",
+    "riskLevel": "critical",
+    "role": "Nixon advisor who confessed the War on Drugs was designed to target Black Americans"
+  },
+  {
+    "slug": "derek-chauvin",
+    "name": "Derek Chauvin",
+    "riskLevel": "critical",
+    "role": "Former police officer convicted of murdering George Floyd"
+  },
+  {
+    "slug": "george-floyd",
+    "name": "George Floyd",
+    "riskLevel": "low",
+    "role": "Victim of police murder whose death sparked worldwide protests for racial justice"
+  },
+  {
+    "slug": "rick-snyder",
+    "name": "Rick Snyder",
+    "riskLevel": "critical",
+    "role": "Governor whose administration poisoned Flint residents with lead-contaminated water"
+  },
+  {
+    "slug": "frank-wisner",
+    "name": "Frank Wisner",
+    "riskLevel": "critical",
+    "role": "CIA official who ran Operation Mockingbird and directed coups in Iran and Guatemala"
+  },
+  {
+    "slug": "richard-helms",
+    "name": "Richard Helms",
+    "riskLevel": "critical",
+    "role": "CIA Director who ordered destruction of MKUltra records and lied to Congress about Chile"
+  },
+  {
+    "slug": "james-clapper",
+    "name": "James Clapper",
+    "riskLevel": "critical",
+    "role": "DNI who lied to Congress about NSA mass surveillance of Americans"
+  },
+  {
+    "slug": "edward-snowden",
+    "name": "Edward Snowden",
+    "riskLevel": "low",
+    "role": "Whistleblower who revealed extent of NSA mass surveillance programs"
+  },
+  {
+    "slug": "lyndon-b-johnson",
+    "name": "Lyndon B. Johnson",
+    "riskLevel": "critical",
+    "role": "President who escalated Vietnam War based on fabricated Gulf of Tonkin incident"
+  },
+  {
+    "slug": "robert-mcnamara",
+    "name": "Robert McNamara",
+    "riskLevel": "critical",
+    "role": "Defense Secretary who lied about Gulf of Tonkin and presided over Vietnam escalation"
+  },
+  {
+    "slug": "franklin-d-roosevelt",
+    "name": "Franklin D. Roosevelt",
+    "riskLevel": "critical",
+    "role": "President who signed Executive Order 9066 authorizing Japanese American internment"
+  },
+  {
+    "slug": "fred-korematsu",
+    "name": "Fred Korematsu",
+    "riskLevel": "low",
+    "role": "Civil rights hero who refused internment and later received Presidential Medal of Freedom"
+  },
+  {
+    "slug": "gerald-ford",
+    "name": "Gerald Ford",
+    "riskLevel": "high",
+    "role": "President who pardoned Nixon, preventing accountability for Watergate crimes"
+  },
+  {
+    "slug": "salvador-allende",
+    "name": "Salvador Allende",
+    "riskLevel": "low",
+    "role": "Democratically elected socialist president overthrown by CIA-backed coup"
+  },
+  {
+    "slug": "antonin-scalia",
+    "name": "Antonin Scalia",
+    "riskLevel": "high",
+    "role": "Conservative justice who cast deciding vote in Bush v. Gore, stopping Florida recount"
+  },
+  {
+    "slug": "dillon-myer",
+    "name": "Dillon S. Myer",
+    "riskLevel": "critical",
+    "role": "Administered Japanese American concentration camps during WWII"
+  },
+  {
+    "slug": "john-yoo",
+    "name": "John Yoo",
+    "riskLevel": "critical",
+    "role": "Authored legal memos authorizing CIA torture program"
+  },
+  {
+    "slug": "alberto-gonzales",
+    "name": "Alberto Gonzales",
+    "riskLevel": "critical",
+    "role": "White House Counsel who approved torture, later AG who politicized DOJ"
+  },
+  {
+    "slug": "gina-haspel",
+    "name": "Gina Haspel",
+    "riskLevel": "critical",
+    "role": "Ran CIA black site in Thailand where prisoners were tortured; later became CIA Director"
+  },
+  {
+    "slug": "valerie-plame",
+    "name": "Valerie Plame",
+    "riskLevel": "low",
+    "role": "CIA officer whose identity was illegally exposed in retaliation for her husband\\"
+  },
+  {
+    "slug": "joe-wilson",
+    "name": "Joseph Wilson",
+    "riskLevel": "low",
+    "role": "Ambassador who exposed Bush administration lies about Iraq and uranium"
+  },
+  {
+    "slug": "maher-arar",
+    "name": "Maher Arar",
+    "riskLevel": "low",
+    "role": "Canadian citizen kidnapped by U.S. and rendered to Syria for torture"
+  },
+  {
+    "slug": "khaled-el-masri",
+    "name": "Khaled El-Masri",
+    "riskLevel": "low",
+    "role": "German citizen kidnapped and tortured by CIA due to mistaken identity"
+  },
+  {
+    "slug": "jeff-bezos",
+    "name": "Jeff Bezos",
+    "riskLevel": "high",
+    "role": "Richest man who owns influential newspaper while Amazon has massive government contracts"
+  },
+  {
+    "slug": "sundar-pichai",
+    "name": "Sundar Pichai",
+    "riskLevel": "high",
+    "role": "CEO of company found to be illegal monopoly, collaborated with NSA surveillance"
+  },
+  {
+    "slug": "lloyd-austin",
+    "name": "Lloyd Austin",
+    "riskLevel": "medium",
+    "role": "Current Defense Secretary, former Raytheon board member"
+  },
+  {
+    "slug": "chuck-schumer",
+    "name": "Chuck Schumer",
+    "riskLevel": "medium",
+    "role": "Top Senate Democrat, Wall Street\\"
+  },
+  {
+    "slug": "larry-page",
+    "name": "Larry Page",
+    "riskLevel": "high",
+    "role": "Co-founded Google, built surveillance advertising empire"
+  },
+  {
+    "slug": "sergey-brin",
+    "name": "Sergey Brin",
+    "riskLevel": "high",
+    "role": "Co-founded Google, built surveillance advertising empire"
+  },
+  {
+    "slug": "shou-zi-chew",
+    "name": "Shou Zi Chew",
+    "riskLevel": "medium",
+    "role": "CEO of TikTok, faces congressional scrutiny over Chinese government ties"
+  },
+  {
+    "slug": "shah-pahlavi",
+    "name": "Mohammad Reza Shah Pahlavi",
+    "riskLevel": "critical",
+    "role": "CIA-installed dictator who ruled Iran with brutal secret police"
+  },
+  {
+    "slug": "jorge-videla",
+    "name": "Jorge Rafael Videla",
+    "riskLevel": "critical",
+    "role": "Dictator who led "
+  },
+  {
+    "slug": "madeleine-albright",
+    "name": "Madeleine Albright",
+    "riskLevel": "critical",
+    "role": "Said Iraq sanctions killing 500,000 children was "
+  },
+  {
+    "slug": "jay-bybee",
+    "name": "Jay Bybee",
+    "riskLevel": "critical",
+    "role": "Signed torture memos, rewarded with lifetime federal judgeship"
+  },
+  {
+    "slug": "mohammad-mosaddegh",
+    "name": "Mohammad Mosaddegh",
+    "riskLevel": "low",
+    "role": "Democratically elected leader overthrown by CIA/MI6 coup"
+  },
+  {
+    "slug": "patrice-lumumba",
+    "name": "Patrice Lumumba",
+    "riskLevel": "low",
+    "role": "Democratically elected leader assassinated with CIA involvement"
+  },
+  {
+    "slug": "daniel-hale",
+    "name": "Daniel Hale",
+    "riskLevel": "low",
+    "role": "Exposed civilian casualties from U.S. drone program, imprisoned for leaking"
+  },
+  {
+    "slug": "reality-winner",
+    "name": "Reality Winner",
+    "riskLevel": "low",
+    "role": "Leaked evidence of Russian election interference, imprisoned"
+  },
+  {
+    "slug": "al-gore",
+    "name": "Al Gore",
+    "riskLevel": "low",
+    "role": "Won popular vote in 2000 but lost to Supreme Court decision stopping Florida recount"
+  },
+  {
+    "slug": "john-dean",
+    "name": "John Dean",
+    "riskLevel": "medium",
+    "role": "Watergate conspirator who became key witness against Nixon"
+  },
+  {
+    "slug": "john-mitchell",
+    "name": "John Mitchell",
+    "riskLevel": "critical",
+    "role": "Nixon AG who approved Watergate break-in, first AG imprisoned"
+  },
+  {
+    "slug": "h-r-haldeman",
+    "name": "H. R. Haldeman",
+    "riskLevel": "critical",
+    "role": "Nixon\\"
+  },
+  {
+    "slug": "john-foster-dulles",
+    "name": "John Foster Dulles",
+    "riskLevel": "critical",
+    "role": "Cold War hardliner who orchestrated coups and brinkmanship"
+  },
+  {
+    "slug": "robert-f-kennedy",
+    "name": "Robert F. Kennedy",
+    "riskLevel": "low",
+    "role": "Civil rights champion assassinated during 1968 presidential campaign"
+  },
+  {
+    "slug": "manuel-noriega",
+    "name": "Manuel Noriega",
+    "riskLevel": "critical",
+    "role": "CIA asset and drug trafficker invaded by U.S. forces"
+  },
+  {
+    "slug": "deb-haaland",
+    "name": "Deb Haaland",
+    "riskLevel": "low",
+    "role": "First Native American cabinet secretary, investigating boarding schools"
+  },
+  {
+    "slug": "vivek-murthy",
+    "name": "Vivek Murthy",
+    "riskLevel": "low",
+    "role": "Surgeon General who declared social media harms a public health emergency"
+  },
+  {
+    "slug": "mike-johnson",
+    "name": "Mike Johnson",
+    "riskLevel": "high",
+    "role": "House Speaker who helped coordinate efforts to overturn 2020 election"
+  },
+  {
+    "slug": "william-oneal",
+    "name": "William O\\",
+    "riskLevel": "critical",
+    "role": "FBI informant who helped plan assassination of Fred Hampton"
+  },
+  {
+    "slug": "steven-sund",
+    "name": "Steven Sund",
+    "riskLevel": "medium",
+    "role": "Capitol Police Chief during January 6 who requested National Guard deployment"
+  },
+  {
+    "slug": "charles-flynn",
+    "name": "Charles Flynn",
+    "riskLevel": "medium",
+    "role": "Michael Flynn\\"
+  },
+  {
+    "slug": "gavin-mcinnes",
+    "name": "Gavin McInnes",
+    "riskLevel": "critical",
+    "role": "Founded far-right extremist group involved in January 6 attack"
+  },
+  {
+    "slug": "glenn-greenwald",
+    "name": "Glenn Greenwald",
+    "riskLevel": "low",
+    "role": "Journalist who published Snowden revelations on NSA surveillance"
+  },
+  {
+    "slug": "ahmed-chalabi",
+    "name": "Ahmed Chalabi",
+    "riskLevel": "critical",
+    "role": "Iraqi exile who fed false intelligence to justify Iraq War invasion"
+  },
+  {
+    "slug": "victoria-nuland",
+    "name": "Victoria Nuland",
+    "riskLevel": "medium",
+    "role": "Key figure in U.S. Ukraine policy, "
+  },
+  {
+    "slug": "tou-thao",
+    "name": "Tou Thao",
+    "riskLevel": "critical",
+    "role": "Officer who blocked bystanders during George Floyd murder"
+  },
+  {
+    "slug": "tina-peters",
+    "name": "Tina Peters",
+    "riskLevel": "high",
+    "role": "Election official who illegally copied voting machine data"
+  },
+  {
+    "slug": "cathy-latham",
+    "name": "Cathy Latham",
+    "riskLevel": "high",
+    "role": "Georgia GOP chair who participated in fake elector scheme"
+  },
+  {
+    "slug": "dmitry-rybolovlev",
+    "name": "Dmitry Rybolovlev",
+    "riskLevel": "high",
+    "role": "Russian billionaire who bought Trump property for double its value"
+  },
+  {
+    "slug": "john-stankey",
+    "name": "John Stankey",
+    "riskLevel": "medium",
+    "role": "CEO of telecom giant that participated in NSA surveillance"
+  },
+  {
+    "slug": "zhang-yiming",
+    "name": "Zhang Yiming",
+    "riskLevel": "medium",
+    "role": "Founded TikTok parent company facing national security concerns"
+  },
+  {
+    "slug": "sonia-sotomayor",
+    "name": "Sonia Sotomayor",
+    "riskLevel": "low",
+    "role": "First Hispanic Supreme Court Justice, liberal voice on court"
+  },
+  {
+    "slug": "colette-peters",
+    "name": "Colette Peters",
+    "riskLevel": "medium",
+    "role": "Director of scandal-plagued federal prison system"
+  },
+  {
+    "slug": "kristen-clarke",
+    "name": "Kristen Clarke",
+    "riskLevel": "low",
+    "role": "Assistant AG leading federal civil rights enforcement"
+  },
+  {
+    "slug": "anne-milgram",
+    "name": "Anne Milgram",
+    "riskLevel": "low",
+    "role": "DEA head during fentanyl crisis"
+  },
+  {
+    "slug": "bryan-newland",
+    "name": "Bryan Newland",
+    "riskLevel": "low",
+    "role": "Leading federal investigation into Indian boarding school atrocities"
+  },
+  {
+    "slug": "neil-heslin",
+    "name": "Neil Heslin",
+    "riskLevel": "low",
+    "role": "Father of Sandy Hook victim, won defamation suit against Alex Jones"
+  },
+  {
+    "slug": "robbie-parker",
+    "name": "Robbie Parker",
+    "riskLevel": "low",
+    "role": "Father of Sandy Hook victim targeted by conspiracy theorists"
+  },
+  {
+    "slug": "philip-graham",
+    "name": "Philip Graham",
+    "riskLevel": "high",
+    "role": "Publisher who allegedly cooperated with CIA Operation Mockingbird"
+  },
+  {
+    "slug": "richard-clarke",
+    "name": "Richard Clarke",
+    "riskLevel": "low",
+    "role": "Official who warned about Al-Qaeda before 9/11, testified about failures"
+  },
+  {
+    "slug": "archer-blood",
+    "name": "Archer Blood",
+    "riskLevel": "low",
+    "role": "Diplomat who warned of genocide in Bangladesh, ignored by Nixon/Kissinger"
+  },
+  {
+    "slug": "yahya-khan",
+    "name": "Yahya Khan",
+    "riskLevel": "critical",
+    "role": "Pakistani dictator who ordered Bangladesh genocide with U.S. support"
+  },
+  {
+    "slug": "milton-eisenhower",
+    "name": "Milton Eisenhower",
+    "riskLevel": "high",
+    "role": "Helped design Japanese American internment program"
+  },
+  {
+    "slug": "bashar-al-assad",
+    "name": "Bashar Hafez al-Assad",
+    "riskLevel": "critical",
+    "role": "Dictator, War Criminal, Chemical Weapons User"
+  },
+  {
+    "slug": "james-murdoch",
+    "name": "James Rupert Murdoch",
+    "riskLevel": "medium",
+    "role": "Media Executive, Murdoch Family Heir"
+  },
+  {
+    "slug": "rebekah-brooks",
+    "name": "Rebekah Mary Brooks",
+    "riskLevel": "high",
+    "role": "Media Executive, Phone Hacking Central Figure"
+  },
+  {
+    "slug": "ryan-mccarthy",
+    "name": "Ryan McCarthy",
+    "riskLevel": "high",
+    "role": "Army Leadership During January 6"
+  },
+  {
+    "slug": "william-kristol",
+    "name": "William Kristol",
+    "riskLevel": "medium",
+    "role": "Political Commentator, Iraq War Advocate"
+  },
+  {
+    "slug": "john-f-kennedy",
+    "name": "John Fitzgerald Kennedy",
+    "riskLevel": "high",
+    "role": "President (1961-1963)"
+  },
+  {
+    "slug": "dwight-eisenhower",
+    "name": "Dwight David Eisenhower",
+    "riskLevel": "high",
+    "role": "President (1953-1961), General of the Army"
+  },
+  {
+    "slug": "irving-kristol",
+    "name": "Irving Kristol",
+    "riskLevel": "medium",
+    "role": "Political Theorist, Publisher"
+  },
+  {
+    "slug": "robert-kagan",
+    "name": "Robert Kagan",
+    "riskLevel": "medium",
+    "role": "Senior Fellow at Brookings Institution"
+  },
+  {
+    "slug": "charlie-kirk",
+    "name": "Charlie Kirk",
+    "riskLevel": "high",
+    "role": "Founder of Turning Point USA"
+  },
+  {
+    "slug": "john-mcentee",
+    "name": "John McEntee",
+    "riskLevel": "medium",
+    "role": "Political Operative"
+  },
+  {
+    "slug": "keith-alexander",
+    "name": "Keith B. Alexander",
+    "riskLevel": "high",
+    "role": "Intelligence Official, Cybersecurity Executive"
+  },
+  {
+    "slug": "qasem-soleimani",
+    "name": "Qasem Soleimani",
+    "riskLevel": "critical",
+    "role": "Commander of Quds Force"
+  },
+  {
+    "slug": "fred-koch",
+    "name": "Fred C. Koch",
+    "riskLevel": "high",
+    "role": "Industrialist"
+  },
+  {
+    "slug": "ali-khamenei",
+    "name": "Ali Khamenei",
+    "riskLevel": "critical",
+    "role": "Supreme Leader (1989-Present)"
+  },
+  {
+    "slug": "david-cameron",
+    "name": "David Cameron",
+    "riskLevel": "medium",
+    "role": "Prime Minister of UK (2010-2016)"
+  },
+  {
+    "slug": "andy-coulson",
+    "name": "Andy Coulson",
+    "riskLevel": "medium",
+    "role": "Journalist, Political Advisor"
+  },
+  {
+    "slug": "chris-ruddy",
+    "name": "Christopher Ruddy",
+    "riskLevel": "medium",
+    "role": "Media Executive"
+  },
+  {
+    "slug": "dan-wyant",
+    "name": "Dan Wyant",
+    "riskLevel": "high",
+    "role": "Environmental Official"
+  },
+  {
+    "slug": "brian-ohara",
+    "name": "Brian OHara",
+    "riskLevel": "medium",
+    "role": "Law Enforcement Official"
+  },
+  {
+    "slug": "hafez-al-assad",
+    "name": "Hafez al-Assad",
+    "riskLevel": "critical",
+    "role": "Syrian Dictator (1971-2000)"
+  },
+  {
+    "slug": "james-morrison",
+    "name": "James Morrison",
+    "riskLevel": "medium",
+    "role": "Corporate Leader"
+  },
+  {
+    "slug": "elizabeth-holmes",
+    "name": "Elizabeth Holmes",
+    "riskLevel": "critical",
+    "role": "Former CEO of Theranos"
+  },
+  {
+    "slug": "sam-bankman-fried",
+    "name": "Sam Bankman-Fried",
+    "riskLevel": "critical",
+    "role": "Former CEO of FTX"
+  },
+  {
+    "slug": "kenneth-lay",
+    "name": "Kenneth Lay",
+    "riskLevel": "critical",
+    "role": "Former CEO of Enron"
+  },
+  {
+    "slug": "jeffrey-skilling",
+    "name": "Jeffrey Skilling",
+    "riskLevel": "critical",
+    "role": "Former CEO of Enron"
+  },
+  {
+    "slug": "bernard-ebbers",
+    "name": "Bernard Ebbers",
+    "riskLevel": "critical",
+    "role": "Former CEO of WorldCom"
+  },
+  {
+    "slug": "dennis-muilenburg",
+    "name": "Dennis Muilenburg",
+    "riskLevel": "critical",
+    "role": "Former CEO of Boeing - Oversaw Mass Murder for Profit"
+  },
+  {
+    "slug": "richard-sackler",
+    "name": "Richard Sackler",
+    "riskLevel": "critical",
+    "role": "Former President of Purdue Pharma"
+  },
+  {
+    "slug": "john-stumpf",
+    "name": "John Stumpf",
+    "riskLevel": "high",
+    "role": "Former CEO of Wells Fargo"
+  },
+  {
+    "slug": "martin-winterkorn",
+    "name": "Martin Winterkorn",
+    "riskLevel": "critical",
+    "role": "Former CEO of Volkswagen"
+  },
+  {
+    "slug": "sam-altman",
+    "name": "Sam Altman",
+    "riskLevel": "medium",
+    "role": "CEO of OpenAI"
+  },
+  {
+    "slug": "chelsea-manning",
+    "name": "Chelsea Manning",
+    "riskLevel": "low",
+    "role": "Former US Army Intelligence Analyst"
+  },
+  {
+    "slug": "kermit-roosevelt",
+    "name": "Kermit Roosevelt Jr.",
+    "riskLevel": "critical",
+    "role": "Architect of 1953 Iran Coup"
+  },
+  {
+    "slug": "william-calley",
+    "name": "William Calley",
+    "riskLevel": "critical",
+    "role": "US Army Lieutenant"
+  },
+  {
+    "slug": "steve-dickson",
+    "name": "Steve Dickson",
+    "riskLevel": "high",
+    "role": "Former FAA Administrator (2019-2022)"
+  },
+  {
+    "slug": "ali-bahrami",
+    "name": "Ali Bahrami",
+    "riskLevel": "critical",
+    "role": "Former FAA Associate Administrator for Aviation Safety"
+  },
+  {
+    "slug": "daniel-elwell",
+    "name": "Daniel Elwell",
+    "riskLevel": "high",
+    "role": "Former FAA Deputy Administrator"
+  },
+  {
+    "slug": "michael-huerta",
+    "name": "Michael Huerta",
+    "riskLevel": "medium",
+    "role": "Former FAA Administrator (2013-2018)"
+  },
+  {
+    "slug": "randy-babbitt",
+    "name": "Randy Babbitt",
+    "riskLevel": "medium",
+    "role": "Former FAA Administrator (2009-2011)"
+  },
+  {
+    "slug": "mike-whitaker",
+    "name": "Mike Whitaker",
+    "riskLevel": "medium",
+    "role": "FAA Administrator (2023-present)"
+  },
+  {
+    "slug": "marion-blakey",
+    "name": "Marion Blakey",
+    "riskLevel": "high",
+    "role": "Former FAA Administrator (2002-2007)"
+  },
+  {
+    "slug": "jane-garvey",
+    "name": "Jane Garvey",
+    "riskLevel": "medium",
+    "role": "Former FAA Administrator (1997-2002)"
+  },
+  {
+    "slug": "david-hinson",
+    "name": "David Hinson",
+    "riskLevel": "high",
+    "role": "Former FAA Administrator (1993-1996)"
+  },
+  {
+    "slug": "joe-jacobsen",
+    "name": "Joe Jacobsen",
+    "riskLevel": "high",
+    "role": "FAA Engineer who certified 737 MAX MCAS"
+  },
+  {
+    "slug": "curtis-ewbank",
+    "name": "Curtis Ewbank",
+    "riskLevel": "low",
+    "role": "Former FAA Safety Engineer"
+  },
+  {
+    "slug": "ed-pierson",
+    "name": "Ed Pierson",
+    "riskLevel": "low",
+    "role": "Former Boeing Senior Manager"
+  },
+  {
+    "slug": "john-barnett",
+    "name": "John Barnett",
+    "riskLevel": "low",
+    "role": "Former Boeing Quality Manager"
+  },
+  {
+    "slug": "david-calhoun",
+    "name": "David Calhoun",
+    "riskLevel": "high",
+    "role": "Former Boeing CEO (2020-2024)"
+  },
+  {
+    "slug": "kelly-ortberg",
+    "name": "Kelly Ortberg",
+    "riskLevel": "medium",
+    "role": "Boeing CEO (2024-present)"
+  },
+  {
+    "slug": "jim-mcnerney",
+    "name": "Jim McNerney",
+    "riskLevel": "high",
+    "role": "Former Boeing CEO (2005-2015)"
+  },
+  {
+    "slug": "ray-lahood",
+    "name": "Ray LaHood",
+    "riskLevel": "medium",
+    "role": "Former US Secretary of Transportation (2009-2013)"
+  },
+  {
+    "slug": "pete-buttigieg",
+    "name": "Pete Buttigieg",
+    "riskLevel": "medium",
+    "role": "US Secretary of Transportation (2021-present)"
+  },
+  {
+    "slug": "michael-stumo",
+    "name": "Michael Stumo",
+    "riskLevel": "low",
+    "role": "Father of Boeing Crash Victim"
+  },
+  {
+    "slug": "nadia-milleron",
+    "name": "Nadia Milleron",
+    "riskLevel": "low",
+    "role": "Mother of Boeing Crash Victim"
+  },
+  {
+    "slug": "paul-njoroge",
+    "name": "Paul Njoroge",
+    "riskLevel": "low",
+    "role": "Father Who Lost Family in Boeing Crash"
+  },
+  {
+    "slug": "peggy-gilligan",
+    "name": "Peggy Gilligan",
+    "riskLevel": "high",
+    "role": "Former FAA Associate Administrator for Aviation Safety"
+  },
+  {
+    "slug": "earl-lawrence",
+    "name": "Earl Lawrence",
+    "riskLevel": "high",
+    "role": "Former FAA Executive Director of Aircraft Certification"
+  },
+  {
+    "slug": "john-hickey",
+    "name": "John Hickey",
+    "riskLevel": "high",
+    "role": "Former FAA Deputy Director of Aircraft Certification"
+  },
+  {
+    "slug": "sam-mohawk",
+    "name": "Sam Mohawk",
+    "riskLevel": "low",
+    "role": "Former Boeing Quality Inspector"
+  },
+  {
+    "slug": "harry-stonecipher",
+    "name": "Harry Stonecipher",
+    "riskLevel": "high",
+    "role": "Former Boeing CEO (2003-2005)"
+  },
+  {
+    "slug": "phil-condit",
+    "name": "Phil Condit",
+    "riskLevel": "high",
+    "role": "Former Boeing CEO (1996-2003)"
+  },
+  {
+    "slug": "stan-deal",
+    "name": "Stan Deal",
+    "riskLevel": "high",
+    "role": "Former Boeing Commercial Airplanes CEO"
+  },
+  {
+    "slug": "mike-sinnett",
+    "name": "Mike Sinnett",
+    "riskLevel": "high",
+    "role": "Former Boeing VP of Product Strategy"
+  },
+  {
+    "slug": "mark-forkner",
+    "name": "Mark Forkner",
+    "riskLevel": "high",
+    "role": "Former Boeing Chief Technical Pilot for 737 MAX"
+  },
+  {
+    "slug": "patrick-shanahan",
+    "name": "Patrick Shanahan",
+    "riskLevel": "high",
+    "role": "Former Deputy Secretary of Defense / Former Boeing SVP"
+  },
+  {
+    "slug": "nicholas-calio",
+    "name": "Nicholas Calio",
+    "riskLevel": "high",
+    "role": "Airlines for America CEO"
+  },
+  {
+    "slug": "maria-cantwell",
+    "name": "Maria Cantwell",
+    "riskLevel": "medium",
+    "role": "US Senator from Washington"
+  },
+  {
+    "slug": "peter-defazio",
+    "name": "Peter DeFazio",
+    "riskLevel": "low",
+    "role": "Former US Representative from Oregon"
+  },
+  {
+    "slug": "sam-graves",
+    "name": "Sam Graves",
+    "riskLevel": "medium",
+    "role": "US Representative from Missouri"
+  },
+  {
+    "slug": "robert-sumwalt",
+    "name": "Robert Sumwalt",
+    "riskLevel": "medium",
+    "role": "Former NTSB Chairman"
+  },
+  {
+    "slug": "jennifer-homendy",
+    "name": "Jennifer Homendy",
+    "riskLevel": "medium",
+    "role": "NTSB Chair (2021-present)"
+  },
+  {
+    "slug": "yared-getachew",
+    "name": "Yared Getachew",
+    "riskLevel": "low",
+    "role": "Captain of Ethiopian Airlines Flight 302"
+  },
+  {
+    "slug": "bhavye-suneja",
+    "name": "Bhavye Suneja",
+    "riskLevel": "low",
+    "role": "Captain of Lion Air Flight 610"
+  },
+  {
+    "slug": "zipporah-kuria",
+    "name": "Zipporah Kuria",
+    "riskLevel": "low",
+    "role": "Daughter of Ethiopian Crash Victim"
+  },
+  {
+    "slug": "ike-riffel",
+    "name": "Ike Riffel",
+    "riskLevel": "low",
+    "role": "Father of Ethiopian Crash Victim"
+  },
+  {
+    "slug": "naoise-ryan",
+    "name": "Naoise Ryan",
+    "riskLevel": "low",
+    "role": "Wife of Ethiopian Crash Victim"
+  },
+  {
+    "slug": "mark-lindquist",
+    "name": "Mark Lindquist",
+    "riskLevel": "low",
+    "role": "Aviation Disaster Attorney"
+  },
+  {
+    "slug": "robert-clifford",
+    "name": "Robert Clifford",
+    "riskLevel": "low",
+    "role": "Lead Counsel for Boeing MAX Families"
+  },
+  {
+    "slug": "sanjiv-singh",
+    "name": "Sanjiv Singh",
+    "riskLevel": "medium",
+    "role": "Former Lion Air CEO"
+  },
+  {
+    "slug": "tewolde-gebremariam",
+    "name": "Tewolde GebreMariam",
+    "riskLevel": "low",
+    "role": "Former Ethiopian Airlines CEO"
+  },
+  {
+    "slug": "larry-kellner",
+    "name": "Larry Kellner",
+    "riskLevel": "high",
+    "role": "Boeing Board Chairman (2019-2024)"
+  },
+  {
+    "slug": "caroline-kennedy",
+    "name": "Caroline Kennedy",
+    "riskLevel": "medium",
+    "role": "Boeing Board Member"
+  },
+  {
+    "slug": "edmund-giambastiani",
+    "name": "Edmund Giambastiani",
+    "riskLevel": "high",
+    "role": "Boeing Board Member"
+  },
+  {
+    "slug": "ronald-williams",
+    "name": "Ronald Williams",
+    "riskLevel": "high",
+    "role": "Boeing Lead Independent Director"
+  },
+  {
+    "slug": "david-gitlin",
+    "name": "David Gitlin",
+    "riskLevel": "medium",
+    "role": "Boeing Board Member / Collins Aerospace CEO"
+  },
+  {
+    "slug": "erin-keating",
+    "name": "Erin Keating",
+    "riskLevel": "high",
+    "role": "DOJ Attorney - Boeing Case"
+  },
+  {
+    "slug": "chad-readler",
+    "name": "Chad Readler",
+    "riskLevel": "high",
+    "role": "Former Acting Assistant Attorney General"
+  },
+  {
+    "slug": "tom-kennedy-spirit",
+    "name": "Tom Gentile",
+    "riskLevel": "high",
+    "role": "Former Spirit AeroSystems CEO"
+  },
+  {
+    "slug": "john-plueger",
+    "name": "John Plueger",
+    "riskLevel": "medium",
+    "role": "Air Lease Corporation CEO"
+  },
+  {
+    "slug": "tim-clark",
+    "name": "Tim Clark",
+    "riskLevel": "low",
+    "role": "Emirates President"
+  },
+  {
+    "slug": "michael-oleary",
+    "name": "Michael O\\",
+    "riskLevel": "medium",
+    "role": "Ryanair CEO"
+  },
+  {
+    "slug": "gary-kelly",
+    "name": "Gary Kelly",
+    "riskLevel": "medium",
+    "role": "Former Southwest Airlines CEO"
+  },
+  {
+    "slug": "bob-jordan",
+    "name": "Bob Jordan",
+    "riskLevel": "medium",
+    "role": "Southwest Airlines CEO"
+  },
+  {
+    "slug": "ed-bastian",
+    "name": "Ed Bastian",
+    "riskLevel": "low",
+    "role": "Delta Air Lines CEO"
+  },
+  {
+    "slug": "scott-kirby",
+    "name": "Scott Kirby",
+    "riskLevel": "medium",
+    "role": "United Airlines CEO"
+  },
+  {
+    "slug": "robert-isom",
+    "name": "Robert Isom",
+    "riskLevel": "medium",
+    "role": "American Airlines CEO"
+  },
+  {
+    "slug": "doug-parker",
+    "name": "Doug Parker",
+    "riskLevel": "medium",
+    "role": "Former American Airlines CEO"
+  },
+  {
+    "slug": "tim-keating",
+    "name": "Tim Keating",
+    "riskLevel": "high",
+    "role": "Boeing SVP Government Operations"
+  },
+  {
+    "slug": "ziad-ojakli",
+    "name": "Ziad Ojakli",
+    "riskLevel": "high",
+    "role": "Former Boeing EVP Government Operations"
+  },
+  {
+    "slug": "ray-conner",
+    "name": "Ray Conner",
+    "riskLevel": "high",
+    "role": "Former Boeing Commercial Airplanes CEO"
+  },
+  {
+    "slug": "kevin-mcallister",
+    "name": "Kevin McAllister",
+    "riskLevel": "high",
+    "role": "Former Boeing Commercial Airplanes CEO"
+  },
+  {
+    "slug": "john-hamilton",
+    "name": "John Hamilton",
+    "riskLevel": "high",
+    "role": "Boeing VP & Chief Engineer"
+  },
+  {
+    "slug": "keith-leverkuhn",
+    "name": "Keith Leverkuhn",
+    "riskLevel": "high",
+    "role": "Boeing 737 MAX Program Manager"
+  },
+  {
+    "slug": "michael-teal",
+    "name": "Michael Teal",
+    "riskLevel": "high",
+    "role": "Boeing 737 Chief Engineer"
+  },
+  {
+    "slug": "richard-wyckoff",
+    "name": "Richard Wyckoff",
+    "riskLevel": "high",
+    "role": "Boeing General Counsel"
+  },
+  {
+    "slug": "diana-sands",
+    "name": "Diana Sands",
+    "riskLevel": "high",
+    "role": "Boeing VP Internal Governance"
+  },
+  {
+    "slug": "greg-smith-boeing",
+    "name": "Greg Smith",
+    "riskLevel": "high",
+    "role": "Boeing CFO"
+  },
+  {
+    "slug": "bill-mcsherry",
+    "name": "Bill McSherry",
+    "riskLevel": "high",
+    "role": "FAA Seattle Aircraft Certification Office"
+  },
+  {
+    "slug": "dorenda-baker",
+    "name": "Dorenda Baker",
+    "riskLevel": "high",
+    "role": "FAA Certification Manager"
+  },
+  {
+    "slug": "christopher-hart",
+    "name": "Christopher Hart",
+    "riskLevel": "low",
+    "role": "Former NTSB Chairman"
+  },
+  {
+    "slug": "scott-hamilton",
+    "name": "Scott Hamilton",
+    "riskLevel": "low",
+    "role": "Leeham News Founder"
+  },
+  {
+    "slug": "jon-ostrower",
+    "name": "Jon Ostrower",
+    "riskLevel": "low",
+    "role": "The Air Current Editor-in-Chief"
+  },
+  {
+    "slug": "dominic-gates",
+    "name": "Dominic Gates",
+    "riskLevel": "low",
+    "role": "Seattle Times Aerospace Reporter"
+  },
+  {
+    "slug": "brian-west",
+    "name": "Brian West",
+    "riskLevel": "high",
+    "role": "Boeing CFO (2021-present)"
+  },
+  {
+    "slug": "ted-colbert",
+    "name": "Ted Colbert",
+    "riskLevel": "medium",
+    "role": "Boeing Defense, Space & Security CEO"
+  },
+  {
+    "slug": "leanne-caret",
+    "name": "Leanne Caret",
+    "riskLevel": "medium",
+    "role": "Former Boeing Defense, Space & Security CEO"
+  },
+  {
+    "slug": "j-michael-luttig",
+    "name": "J. Michael Luttig",
+    "riskLevel": "medium",
+    "role": "Boeing Special Counselor"
+  },
+  {
+    "slug": "stephanie-pope",
+    "name": "Stephanie Pope",
+    "riskLevel": "high",
+    "role": "Boeing Commercial Airplanes CEO (2024-present)"
+  },
+  {
+    "slug": "elizabeth-lund",
+    "name": "Elizabeth Lund",
+    "riskLevel": "high",
+    "role": "Boeing SVP Quality"
+  },
+  {
+    "slug": "howard-mckenzie",
+    "name": "Howard McKenzie",
+    "riskLevel": "high",
+    "role": "Boeing Chief Engineer"
+  },
+  {
+    "slug": "lynn-good",
+    "name": "Lynn Good",
+    "riskLevel": "medium",
+    "role": "Boeing Board Member / Duke Energy CEO"
+  },
+  {
+    "slug": "akhil-johri",
+    "name": "Akhil Johri",
+    "riskLevel": "medium",
+    "role": "Boeing Board Member"
+  },
+  {
+    "slug": "steven-mollenkopf",
+    "name": "Steven Mollenkopf",
+    "riskLevel": "medium",
+    "role": "Boeing Board Member / Former Qualcomm CEO"
+  },
+  {
+    "slug": "robert-bradway",
+    "name": "Robert Bradway",
+    "riskLevel": "medium",
+    "role": "Boeing Board Member / Amgen CEO"
+  },
+  {
+    "slug": "billy-nolen",
+    "name": "Billy Nolen",
+    "riskLevel": "medium",
+    "role": "FAA Acting Administrator (2022)"
+  },
+  {
+    "slug": "david-boulter",
+    "name": "David Boulter",
+    "riskLevel": "high",
+    "role": "FAA Deputy Associate Administrator"
+  },
+  {
+    "slug": "lirio-liu",
+    "name": "Lirio Liu",
+    "riskLevel": "medium",
+    "role": "FAA Deputy Administrator"
+  },
+  {
+    "slug": "chris-rocheleau",
+    "name": "Chris Rocheleau",
+    "riskLevel": "medium",
+    "role": "FAA Acting Deputy Administrator"
+  },
+  {
+    "slug": "basil-barimo",
+    "name": "Basil Barimo",
+    "riskLevel": "high",
+    "role": "Former FAA Director / Airlines for America VP"
+  },
+  {
+    "slug": "margaret-gilligan",
+    "name": "Margaret Gilligan",
+    "riskLevel": "high",
+    "role": "Former FAA Associate Administrator"
+  },
+  {
+    "slug": "tony-ferrante",
+    "name": "Tony Ferrante",
+    "riskLevel": "medium",
+    "role": "FAA Flight Standards Director"
+  },
+  {
+    "slug": "roger-wicker",
+    "name": "Roger Wicker",
+    "riskLevel": "medium",
+    "role": "Ranking Member, Commerce Committee"
+  },
+  {
+    "slug": "rick-larsen",
+    "name": "Rick Larsen",
+    "riskLevel": "medium",
+    "role": "Boeing District Congressman"
+  },
+  {
+    "slug": "norm-dicks",
+    "name": "Norm Dicks",
+    "riskLevel": "medium",
+    "role": "Boeing Advocate in Congress"
+  },
+  {
+    "slug": "jay-inslee",
+    "name": "Jay Inslee",
+    "riskLevel": "low",
+    "role": "Washington State Governor"
+  },
+  {
+    "slug": "patty-murray",
+    "name": "Patty Murray",
+    "riskLevel": "low",
+    "role": "Senate President Pro Tempore"
+  },
+  {
+    "slug": "adam-smith",
+    "name": "Adam Smith",
+    "riskLevel": "medium",
+    "role": "House Armed Services Committee"
+  },
+  {
+    "slug": "denny-heck",
+    "name": "Denny Heck",
+    "riskLevel": "low",
+    "role": "Washington Lt. Governor / Former Congressman"
+  },
+  {
+    "slug": "polly-trottenberg",
+    "name": "Polly Trottenberg",
+    "riskLevel": "medium",
+    "role": "DOT Deputy Secretary"
+  },
+  {
+    "slug": "sean-duffy",
+    "name": "Sean Duffy",
+    "riskLevel": "high",
+    "role": "DOT Secretary (2025-present)"
+  },
+  {
+    "slug": "santiago-paredes",
+    "name": "Santiago Paredes",
+    "riskLevel": "low",
+    "role": "Quality Inspector"
+  },
+  {
+    "slug": "dean-bortniker",
+    "name": "Dean Bortniker",
+    "riskLevel": "low",
+    "role": "Former Quality Inspector"
+  },
+  {
+    "slug": "cynthia-cole",
+    "name": "Cynthia Cole",
+    "riskLevel": "low",
+    "role": "SPEEA President"
+  },
+  {
+    "slug": "jon-holden",
+    "name": "Jon Holden",
+    "riskLevel": "low",
+    "role": "IAM District 751 President"
+  },
+  {
+    "slug": "oscar-munoz",
+    "name": "Oscar Munoz",
+    "riskLevel": "medium",
+    "role": "Former United Airlines CEO"
+  },
+  {
+    "slug": "richard-anderson",
+    "name": "Richard Anderson",
+    "riskLevel": "low",
+    "role": "Former Delta Airlines CEO"
+  },
+  {
+    "slug": "willie-walsh",
+    "name": "Willie Walsh",
+    "riskLevel": "medium",
+    "role": "IATA Director General"
+  },
+  {
+    "slug": "carsten-spohr",
+    "name": "Carsten Spohr",
+    "riskLevel": "medium",
+    "role": "Lufthansa CEO"
+  },
+  {
+    "slug": "alan-joyce",
+    "name": "Alan Joyce",
+    "riskLevel": "low",
+    "role": "Former Qantas CEO"
+  },
+  {
+    "slug": "akbar-al-baker",
+    "name": "Akbar Al Baker",
+    "riskLevel": "low",
+    "role": "Former Qatar Airways CEO"
+  },
+  {
+    "slug": "patrick-ky",
+    "name": "Patrick Ky",
+    "riskLevel": "low",
+    "role": "EASA Executive Director"
+  },
+  {
+    "slug": "nurcahyo-utomo",
+    "name": "Nurcahyo Utomo",
+    "riskLevel": "low",
+    "role": "Indonesian KNKT Lead Investigator"
+  },
+  {
+    "slug": "amdye-ayalew",
+    "name": "Amdye Ayalew",
+    "riskLevel": "low",
+    "role": "Ethiopian AIB Lead Investigator"
+  },
+  {
+    "slug": "aaron-mccarter",
+    "name": "Aaron McCarter",
+    "riskLevel": "low",
+    "role": "Transport Canada Official"
+  },
+  {
+    "slug": "patrick-shanahan-jr",
+    "name": "Patrick Shanahan Jr.",
+    "riskLevel": "high",
+    "role": "Spirit AeroSystems CEO (2024-present)"
+  },
+  {
+    "slug": "tom-gentile",
+    "name": "Tom Gentile",
+    "riskLevel": "high",
+    "role": "Former Spirit AeroSystems CEO"
+  },
+  {
+    "slug": "larry-lawson",
+    "name": "Larry Lawson",
+    "riskLevel": "medium",
+    "role": "Former Spirit AeroSystems CEO"
+  },
+  {
+    "slug": "chris-chadwick",
+    "name": "Chris Chadwick",
+    "riskLevel": "medium",
+    "role": "Collins Aerospace President"
+  },
+  {
+    "slug": "gregory-hayes",
+    "name": "Gregory Hayes",
+    "riskLevel": "medium",
+    "role": "RTX CEO"
+  },
+  {
+    "slug": "james-gorman",
+    "name": "James Gorman",
+    "riskLevel": "medium",
+    "role": "Morgan Stanley Chairman"
+  },
+  {
+    "slug": "jamie-dimon",
+    "name": "Jamie Dimon",
+    "riskLevel": "medium",
+    "role": "JPMorgan Chase CEO"
+  },
+  {
+    "slug": "brian-whelan",
+    "name": "Brian Whelan",
+    "riskLevel": "medium",
+    "role": "Boeing Insurance Legal"
+  },
+  {
+    "slug": "david-reyes",
+    "name": "David Reyes",
+    "riskLevel": "medium",
+    "role": "Boeing Aviation Insurance Director"
+  },
+  {
+    "slug": "chris-moore",
+    "name": "Chris Moore",
+    "riskLevel": "low",
+    "role": "Lost Children in Ethiopian 302"
+  },
+  {
+    "slug": "clariss-moore",
+    "name": "Clariss Moore",
+    "riskLevel": "low",
+    "role": "Lost Children in Ethiopian 302"
+  },
+  {
+    "slug": "adnaan-stumo",
+    "name": "Adnaan Stumo",
+    "riskLevel": "low",
+    "role": "Lost Sister in Ethiopian 302"
+  },
+  {
+    "slug": "tor-stumo",
+    "name": "Tor Stumo",
+    "riskLevel": "low",
+    "role": "Lost Sister in Ethiopian 302"
+  },
+  {
+    "slug": "catherine-berthet",
+    "name": "Catherine Berthet",
+    "riskLevel": "low",
+    "role": "Lost Daughter in Ethiopian 302"
+  },
+  {
+    "slug": "javier-de-luis",
+    "name": "Javier de Luis",
+    "riskLevel": "low",
+    "role": "Lost Wife in Ethiopian 302"
+  },
+  {
+    "slug": "peter-robison",
+    "name": "Peter Robison",
+    "riskLevel": "low",
+    "role": "Bloomberg Reporter / "
+  },
+  {
+    "slug": "natalie-kitroeff",
+    "name": "Natalie Kitroeff",
+    "riskLevel": "low",
+    "role": "New York Times Reporter"
+  },
+  {
+    "slug": "david-gelles",
+    "name": "David Gelles",
+    "riskLevel": "low",
+    "role": "New York Times Reporter"
+  },
+  {
+    "slug": "gregory-travis",
+    "name": "Gregory Travis",
+    "riskLevel": "low",
+    "role": "Technical Analyst"
+  },
+  {
+    "slug": "bjorn-fehrm",
+    "name": "Björn Fehrm",
+    "riskLevel": "low",
+    "role": "Leeham News Senior Analyst"
+  },
+  {
+    "slug": "kenneth-polite",
+    "name": "Kenneth Polite",
+    "riskLevel": "high",
+    "role": "Assistant AG for Criminal Division"
+  },
+  {
+    "slug": "valujet-592-victims",
+    "name": "ValuJet 592 Victims",
+    "riskLevel": "critical",
+    "role": "110 Killed - May 11, 1996"
+  },
+  {
+    "slug": "alaska-261-victims",
+    "name": "Alaska Airlines 261 Victims",
+    "riskLevel": "critical",
+    "role": "88 Killed - January 31, 2000"
+  },
+  {
+    "slug": "colgan-3407-families",
+    "name": "Colgan Air 3407 Families",
+    "riskLevel": "low",
+    "role": "50 Killed - February 12, 2009"
+  },
+  {
+    "slug": "william-mcgee",
+    "name": "William McGee",
+    "riskLevel": "low",
+    "role": "Consumer Advocate"
+  },
+  {
+    "slug": "mary-schiavo",
+    "name": "Mary Schiavo",
+    "riskLevel": "low",
+    "role": "Former DOT Inspector General"
+  },
+  {
+    "slug": "john-cox",
+    "name": "John Cox",
+    "riskLevel": "low",
+    "role": "Former Airline Captain / Safety Consultant"
+  },
+  {
+    "slug": "todd-curtis",
+    "name": "Todd Curtis",
+    "riskLevel": "low",
+    "role": "AirSafe.com Founder"
+  },
+  {
+    "slug": "christine-negroni",
+    "name": "Christine Negroni",
+    "riskLevel": "low",
+    "role": "Author and Crash Investigator"
+  },
+  {
+    "slug": "lion-air-610-victims",
+    "name": "Lion Air Flight 610 Victims",
+    "riskLevel": "critical",
+    "role": "189 People Killed - October 29, 2018"
+  },
+  {
+    "slug": "ethiopian-302-victims",
+    "name": "Ethiopian Airlines Flight 302 Victims",
+    "riskLevel": "critical",
+    "role": "157 People Killed from 35 Countries - March 10, 2019"
+  },
+  {
+    "slug": "samya-stumo",
+    "name": "Samya Rose Stumo",
+    "riskLevel": "critical",
+    "role": "Killed on Ethiopian Airlines 302 - Age 24"
+  },
+  {
+    "slug": "ahmed-nur-mohammod",
+    "name": "First Officer Ahmed Nur Mohammod",
+    "riskLevel": "critical",
+    "role": "First Officer of Ethiopian Airlines 302 - Killed"
+  },
+  {
+    "slug": "dave-calhoun",
+    "name": "Dave Calhoun",
+    "riskLevel": "critical",
+    "role": "Boeing CEO 2020-2024 - Continued Cover-Up"
+  },
+  {
+    "slug": "do-kwon",
+    "name": "Do Kwon",
+    "riskLevel": "critical",
+    "role": "Terra/Luna Founder - $40 Billion Crypto Collapse"
+  },
+  {
+    "slug": "alex-mashinsky",
+    "name": "Alex Mashinsky",
+    "riskLevel": "critical",
+    "role": "Celsius Network Founder - $4.7 Billion Fraud"
+  },
+  {
+    "slug": "bill-hwang",
+    "name": "Sung Kook ",
+    "riskLevel": "critical",
+    "role": "Archegos Founder - $36 Billion Collapse"
+  },
+  {
+    "slug": "su-zhu",
+    "name": "Su Zhu",
+    "riskLevel": "critical",
+    "role": "3AC Co-founder - $3 Billion Crypto Hedge Fund Collapse"
+  },
+  {
+    "slug": "kyle-davies",
+    "name": "Kyle Davies",
+    "riskLevel": "high",
+    "role": "3AC Co-founder - Fled After Collapse"
+  },
+  {
+    "slug": "raj-rajaratnam",
+    "name": "Raj Rajaratnam",
+    "riskLevel": "critical",
+    "role": "Galleon Group - Largest Hedge Fund Insider Trading Case"
+  },
+  {
+    "slug": "rajat-gupta",
+    "name": "Rajat Gupta",
+    "riskLevel": "high",
+    "role": "Goldman Sachs Board Member - Insider Trading"
+  },
+  {
+    "slug": "bernie-ebbers",
+    "name": "Bernard Ebbers",
+    "riskLevel": "critical",
+    "role": "WorldCom CEO - $11 Billion Accounting Fraud"
+  },
+  {
+    "slug": "dennis-kozlowski",
+    "name": "L. Dennis Kozlowski",
+    "riskLevel": "critical",
+    "role": "Tyco CEO - $600 Million Corporate Looting"
+  },
+  {
+    "slug": "john-rigas",
+    "name": "John Rigas",
+    "riskLevel": "critical",
+    "role": "Adelphia Founder - Family Fraud Empire"
+  },
+  {
+    "slug": "cardinal-bernard-law",
+    "name": "Bernard Francis Law",
+    "riskLevel": "critical",
+    "role": "Boston Archdiocese - Systematic Abuse Cover-Up"
+  },
+  {
+    "slug": "cardinal-theodore-mccarrick",
+    "name": "Theodore Edgar McCarrick",
+    "riskLevel": "critical",
+    "role": "Former Cardinal - Serial Abuser and Cover-Up Artist"
+  },
+  {
+    "slug": "tony-hayward",
+    "name": "Tony Hayward",
+    "riskLevel": "critical",
+    "role": "BP CEO - Deepwater Horizon Disaster"
+  },
+  {
+    "slug": "joseph-hazelwood",
+    "name": "Joseph Hazelwood",
+    "riskLevel": "high",
+    "role": "Captain of Exxon Valdez - 11 Million Gallon Oil Spill"
+  },
+  {
+    "slug": "jonathan-mattingly",
+    "name": "Jonathan Mattingly",
+    "riskLevel": "high",
+    "role": "Breonna Taylor Raid - Shot Taylor Multiple Times"
+  },
+  {
+    "slug": "brett-hankison",
+    "name": "Brett Hankison",
+    "riskLevel": "high",
+    "role": "Breonna Taylor Raid - Fired Blindly Into Apartment"
+  },
+  {
+    "slug": "jeronimo-yanez",
+    "name": "Jeronimo Yanez",
+    "riskLevel": "critical",
+    "role": "Killed Philando Castile During Traffic Stop"
+  },
+  {
+    "slug": "demetrius-haley",
+    "name": "Demetrius Haley",
+    "riskLevel": "critical",
+    "role": "Tyre Nichols Beating - Charged with Murder"
+  },
+  {
+    "slug": "eric-munchel",
+    "name": "Eric Munchel",
+    "riskLevel": "high",
+    "role": "January 6th Insurrectionist - Carried Flex Cuffs"
+  },
+  {
+    "slug": "james-johnston",
+    "name": "James W. Johnston",
+    "riskLevel": "critical",
+    "role": "Big Tobacco CEO - Perjured Before Congress"
+  },
+  {
+    "slug": "william-campbell",
+    "name": "William Campbell",
+    "riskLevel": "critical",
+    "role": "Big Tobacco CEO - Perjured Before Congress"
+  },
+  {
+    "slug": "thomas-sandefur",
+    "name": "Thomas E. Sandefur Jr.",
+    "riskLevel": "critical",
+    "role": "Big Tobacco CEO - "
+  },
+  {
+    "slug": "raymond-sackler",
+    "name": "Raymond Sackler",
+    "riskLevel": "critical",
+    "role": "Sackler Family - OxyContin Fortune Built on Addiction"
+  },
+  {
+    "slug": "mortimer-sackler",
+    "name": "Mortimer Sackler",
+    "riskLevel": "critical",
+    "role": "Sackler Family - OxyContin Empire"
+  },
+  {
+    "slug": "kathe-sackler",
+    "name": "Kathe Sackler",
+    "riskLevel": "high",
+    "role": "Sackler Family - Second Generation"
+  },
+  {
+    "slug": "david-sackler",
+    "name": "David Sackler",
+    "riskLevel": "high",
+    "role": "Sackler Family - Third Generation"
+  },
+  {
+    "slug": "allen-stanford",
+    "name": "Robert Allen Stanford",
+    "riskLevel": "critical",
+    "role": "Stanford Financial Group - $7 Billion Fraud"
+  },
+  {
+    "slug": "tom-petters",
+    "name": "Tom Petters",
+    "riskLevel": "critical",
+    "role": "Petters Group - $3.65 Billion Fraud"
+  },
+  {
+    "slug": "scott-rothstein",
+    "name": "Scott Rothstein",
+    "riskLevel": "high",
+    "role": "Rothstein Rosenfeldt Adler - $1.2 Billion Fraud"
+  },
+  {
+    "slug": "tim-cook",
+    "name": "Tim Cook",
+    "riskLevel": "high",
+    "role": "Apple CEO - Labor Exploitation, Privacy Theater"
+  },
+  {
+    "slug": "satya-nadella",
+    "name": "Satya Nadella",
+    "riskLevel": "high",
+    "role": "Microsoft CEO - Monopoly Power, Military Contracts"
+  },
+  {
+    "slug": "larry-ellison",
+    "name": "Larry Ellison",
+    "riskLevel": "high",
+    "role": "Oracle Founder - Surveillance Tech, Political Influence"
+  },
+  {
+    "slug": "michael-bloomberg",
+    "name": "Michael Bloomberg",
+    "riskLevel": "high",
+    "role": "Bloomberg LP - Media Power, Stop-and-Frisk Architect"
+  },
+  {
+    "slug": "lloyd-blankfein",
+    "name": "Lloyd Blankfein",
+    "riskLevel": "critical",
+    "role": "Goldman Sachs CEO During 2008 Crisis"
+  },
+  {
+    "slug": "david-solomon",
+    "name": "David Solomon",
+    "riskLevel": "high",
+    "role": "Goldman Sachs Current CEO"
+  },
+  {
+    "slug": "brian-moynihan",
+    "name": "Brian Moynihan",
+    "riskLevel": "high",
+    "role": "Bank of America CEO - Foreclosure Fraud"
+  },
+  {
+    "slug": "ken-griffin",
+    "name": "Kenneth Griffin",
+    "riskLevel": "high",
+    "role": "Citadel Hedge Fund - Market Manipulation, Political Donor"
+  },
+  {
+    "slug": "steve-schwarzman",
+    "name": "Stephen Schwarzman",
+    "riskLevel": "high",
+    "role": "Blackstone CEO - Private Equity Housing Crisis"
+  },
+  {
+    "slug": "michael-milken",
+    "name": "Michael Milken",
+    "riskLevel": "high",
+    "role": "Former Head of Bond Trading"
+  },
+  {
+    "slug": "ivan-boesky",
+    "name": "Ivan Boesky",
+    "riskLevel": "high",
+    "role": "Wall Street Arbitrageur - Insider Trading Conspiracy"
+  },
+  {
+    "slug": "jordan-belfort",
+    "name": "Jordan Belfort",
+    "riskLevel": "high",
+    "role": "Founder"
+  },
+  {
+    "slug": "john-kapoor",
+    "name": "John Kapoor",
+    "riskLevel": "critical",
+    "role": "Insys Founder - Opioid Kickback Scheme Conviction"
+  },
+  {
+    "slug": "john-hammergren",
+    "name": "John Hammergren",
+    "riskLevel": "critical",
+    "role": "McKesson CEO - Opioid Distribution Giant"
+  },
+  {
+    "slug": "steven-collis",
+    "name": "Steven Collis",
+    "riskLevel": "high",
+    "role": "AmerisourceBergen CEO - Opioid Distributor"
+  },
+  {
+    "slug": "john-brennan",
+    "name": "John Brennan",
+    "riskLevel": "critical",
+    "role": "CIA Director - Torture Program, Drone Strikes"
+  },
+  {
+    "slug": "michael-hayden",
+    "name": "Michael Hayden",
+    "riskLevel": "critical",
+    "role": "CIA/NSA Director - Mass Surveillance Architect"
+  },
+  {
+    "slug": "john-ashcroft",
+    "name": "John Ashcroft",
+    "riskLevel": "high",
+    "role": "AG - Patriot Act Architect, Torture Enabler"
+  },
+  {
+    "slug": "damon-hininger",
+    "name": "Damon Hininger",
+    "riskLevel": "high",
+    "role": "CoreCivic CEO - Private Prison Profiteering"
+  },
+  {
+    "slug": "george-zoley",
+    "name": "George Zoley",
+    "riskLevel": "high",
+    "role": "GEO Group Founder - Private Prison Empire"
+  },
+  {
+    "slug": "james-taiclet",
+    "name": "James Taiclet",
+    "riskLevel": "high",
+    "role": "Lockheed Martin CEO - Weapons Manufacturer"
+  },
+  {
+    "slug": "greg-hayes",
+    "name": "Gregory Hayes",
+    "riskLevel": "high",
+    "role": "Raytheon CEO - Weapons Manufacturer"
+  },
+  {
+    "slug": "warren-buffett",
+    "name": "Warren Buffett",
+    "riskLevel": "medium",
+    "role": "Billionaire Investor - Tax Avoidance, Predatory Investments"
+  },
+  {
+    "slug": "ray-dalio",
+    "name": "Ray Dalio",
+    "riskLevel": "medium",
+    "role": "Hedge Fund Billionaire - China Defender"
+  },
+  {
+    "slug": "kamala-harris",
+    "name": "Kamala Harris",
+    "riskLevel": "medium",
+    "role": "VP / Former CA AG - "
+  },
+  {
+    "slug": "david-koch",
+    "name": "David Koch",
+    "riskLevel": "critical",
+    "role": "Koch Brothers - Climate Denial, Dark Money"
+  },
+  {
+    "slug": "john-paulson",
+    "name": "John Paulson",
+    "riskLevel": "high",
+    "role": "Hedge Fund - Made $4B Betting Against Homeowners"
+  },
+  {
+    "slug": "trevor-milton",
+    "name": "Trevor Milton",
+    "riskLevel": "high",
+    "role": "Nikola Motors Founder - EV Fraud Conviction"
+  },
+  {
+    "slug": "charlie-javice",
+    "name": "Charlie Javice",
+    "riskLevel": "high",
+    "role": "Frank Founder - $175 Million Fraud"
+  },
+  {
+    "slug": "carlos-watson",
+    "name": "Carlos Watson",
+    "riskLevel": "high",
+    "role": "Ozy Media Founder - Investor Fraud"
+  },
+  {
+    "slug": "doug-mcmillon",
+    "name": "Doug McMillon",
+    "riskLevel": "high",
+    "role": "Walmart CEO - Wage Theft, Union Busting"
+  },
+  {
+    "slug": "andy-jassy",
+    "name": "Andy Jassy",
+    "riskLevel": "high",
+    "role": "Amazon CEO - Union Busting, Worker Exploitation"
+  },
+  {
+    "slug": "howard-schultz",
+    "name": "Howard Schultz",
+    "riskLevel": "high",
+    "role": "Starbucks CEO - Union Busting Campaign"
+  },
+  {
+    "slug": "dara-khosrowshahi",
+    "name": "Dara Khosrowshahi",
+    "riskLevel": "high",
+    "role": "Uber CEO - Gig Worker Exploitation"
+  },
+  {
+    "slug": "brian-chesky",
+    "name": "Brian Chesky",
+    "riskLevel": "medium",
+    "role": "Airbnb CEO - Housing Crisis, Discrimination"
+  },
+  {
+    "slug": "darren-woods",
+    "name": "Darren Woods",
+    "riskLevel": "critical",
+    "role": "ExxonMobil CEO - Climate Denial Legacy"
+  },
+  {
+    "slug": "mike-wirth",
+    "name": "Mike Wirth",
+    "riskLevel": "critical",
+    "role": "Chevron CEO - Ecuador Pollution, Climate Denial"
+  },
+  {
+    "slug": "werner-baumann",
+    "name": "Werner Baumann",
+    "riskLevel": "critical",
+    "role": "Bayer CEO - Monsanto/Roundup Cancer"
+  },
+  {
+    "slug": "edward-breen",
+    "name": "Edward Breen",
+    "riskLevel": "critical",
+    "role": "DuPont - PFAS "
+  },
+  {
+    "slug": "kevin-burns",
+    "name": "Kevin Burns",
+    "riskLevel": "critical",
+    "role": "JUUL CEO - Teen Vaping Epidemic"
+  },
+  {
+    "slug": "james-monsees",
+    "name": "James Monsees",
+    "riskLevel": "high",
+    "role": "JUUL Co-founder - Created Teen Vaping Epidemic"
+  },
+  {
+    "slug": "adam-bowen",
+    "name": "Adam Bowen",
+    "riskLevel": "high",
+    "role": "JUUL Co-founder - Teen Vaping Epidemic"
+  },
+  {
+    "slug": "alex-gorsky",
+    "name": "Alex Gorsky",
+    "riskLevel": "critical",
+    "role": "J&J CEO - Baby Powder Cancer, Opioids"
+  },
+  {
+    "slug": "albert-bourla",
+    "name": "Albert Bourla",
+    "riskLevel": "medium",
+    "role": "Pfizer CEO - Drug Pricing, Settlements"
+  },
+  {
+    "slug": "stephane-bancel",
+    "name": "St�phane Bancel",
+    "riskLevel": "medium",
+    "role": "Moderna CEO - Patent Disputes, Pricing"
+  },
+  {
+    "slug": "andrew-witty",
+    "name": "Andrew Witty",
+    "riskLevel": "critical",
+    "role": "UnitedHealth CEO - Coverage Denials, Profiteering"
+  },
+  {
+    "slug": "david-cordani",
+    "name": "David Cordani",
+    "riskLevel": "high",
+    "role": "Cigna CEO - Coverage Denials"
+  },
+  {
+    "slug": "mark-schneider",
+    "name": "Mark Schneider",
+    "riskLevel": "critical",
+    "role": "Nestl� CEO - Water Privatization, Child Labor"
+  },
+  {
+    "slug": "james-quincey",
+    "name": "James Quincey",
+    "riskLevel": "high",
+    "role": "Coca-Cola CEO - Plastic Pollution, Health Crisis"
+  },
+  {
+    "slug": "chris-kempczinski",
+    "name": "Chris Kempczinski",
+    "riskLevel": "high",
+    "role": "McDonald\\"
+  },
+  {
+    "slug": "ramon-laguarta",
+    "name": "Ramon Laguarta",
+    "riskLevel": "high",
+    "role": "PepsiCo CEO - Health Crisis, Plastic Pollution"
+  },
+  {
+    "slug": "travis-kalanick",
+    "name": "Travis Kalanick",
+    "riskLevel": "high",
+    "role": "Uber Founder - Toxic Culture, Worker Exploitation"
+  },
+  {
+    "slug": "bobby-kotick",
+    "name": "Bobby Kotick",
+    "riskLevel": "high",
+    "role": "Activision CEO - Sexual Harassment Culture"
+  },
+  {
+    "slug": "heather-bresch",
+    "name": "Heather Bresch",
+    "riskLevel": "critical",
+    "role": "Mylan CEO - EpiPen Price Gouging"
+  },
+  {
+    "slug": "martin-shkreli",
+    "name": "Martin Shkreli",
+    "riskLevel": "critical",
+    "role": "Former CEO"
+  },
+  {
+    "slug": "les-moonves",
+    "name": "Les Moonves",
+    "riskLevel": "critical",
+    "role": "CBS CEO - Sexual Assault, Obstruction"
+  },
+  {
+    "slug": "roger-ailes",
+    "name": "Roger Ailes",
+    "riskLevel": "critical",
+    "role": "Fox News Founder - Sexual Harassment"
+  },
+  {
+    "slug": "geoffrey-bible",
+    "name": "Geoffrey Bible",
+    "riskLevel": "critical",
+    "role": "Philip Morris CEO - Tobacco Industry Lies"
+  },
+  {
+    "slug": "mary-barra",
+    "name": "Mary Barra",
+    "riskLevel": "high",
+    "role": "GM CEO - Ignition Switch Deaths"
+  },
+  {
+    "slug": "carlos-ghosn",
+    "name": "Carlos Ghosn",
+    "riskLevel": "critical",
+    "role": "Auto Executive - Financial Crimes, Fugitive"
+  },
+  {
+    "slug": "rick-scott",
+    "name": "Rick Scott",
+    "riskLevel": "critical",
+    "role": "Senator - Medicare Fraud Executive"
+  },
+  {
+    "slug": "bob-menendez",
+    "name": "Bob Menendez",
+    "riskLevel": "critical",
+    "role": "Senator - Bribery Conviction"
+  },
+  {
+    "slug": "george-santos",
+    "name": "George Santos",
+    "riskLevel": "critical",
+    "role": "Congressman - Serial Fraud and Lies"
+  },
+  {
+    "slug": "recep-tayyip-erdogan",
+    "name": "Recep Tayyip Erdogan",
+    "riskLevel": "critical",
+    "role": "Turkish President - Authoritarian Rule, Press Suppression"
+  },
+  {
+    "slug": "rodrigo-duterte",
+    "name": "Rodrigo Duterte",
+    "riskLevel": "critical",
+    "role": "Philippine President - Extrajudicial Killings"
+  },
+  {
+    "slug": "narendra-modi",
+    "name": "Narendra Modi",
+    "riskLevel": "critical",
+    "role": "Indian PM - Gujarat Riots, Hindu Nationalism"
+  },
+  {
+    "slug": "nicolas-maduro",
+    "name": "Nicol�s Maduro",
+    "riskLevel": "critical",
+    "role": "Venezuelan President - Human Rights Abuses"
+  },
+  {
+    "slug": "alexander-lukashenko",
+    "name": "Alexander Lukashenko",
+    "riskLevel": "critical",
+    "role": "Belarusian Dictator - Election Fraud, Repression"
+  },
+  {
+    "slug": "darren-wilson",
+    "name": "Darren Wilson",
+    "riskLevel": "critical",
+    "role": "Shot Michael Brown - Ferguson Uprising"
+  },
+  {
+    "slug": "timothy-loehmann",
+    "name": "Timothy Loehmann",
+    "riskLevel": "critical",
+    "role": "Shot Tamir Rice - 12 Year Old Child"
+  },
+  {
+    "slug": "daniel-pantaleo",
+    "name": "Daniel Pantaleo",
+    "riskLevel": "critical",
+    "role": "Choked Eric Garner to Death"
+  },
+  {
+    "slug": "jason-van-dyke",
+    "name": "Jason Van Dyke",
+    "riskLevel": "critical",
+    "role": "Shot Laquan McDonald 16 Times - CONVICTED"
+  },
+  {
+    "slug": "amber-guyger",
+    "name": "Amber Guyger",
+    "riskLevel": "critical",
+    "role": "Shot Botham Jean in His Own Home - CONVICTED"
+  },
+  {
+    "slug": "kim-potter",
+    "name": "Kim Potter",
+    "riskLevel": "critical",
+    "role": "Shot Daunte Wright - CONVICTED"
+  },
+  {
+    "slug": "philip-brailsford",
+    "name": "Philip Brailsford",
+    "riskLevel": "critical",
+    "role": "Shot Daniel Shaver - Acquitted, Now Receives Pension"
+  },
+  {
+    "slug": "michael-slager",
+    "name": "Michael Slager",
+    "riskLevel": "critical",
+    "role": "Shot Walter Scott in Back - CONVICTED"
+  },
+  {
+    "slug": "joe-arpaio",
+    "name": "Joe Arpaio",
+    "riskLevel": "critical",
+    "role": "Sheriff - Racial Profiling, Contempt CONVICTED, Pardoned"
+  },
+  {
+    "slug": "greg-abbott",
+    "name": "Greg Abbott",
+    "riskLevel": "critical",
+    "role": "Texas Governor - Border Cruelty, Grid Failures"
+  },
+  {
+    "slug": "brian-kemp",
+    "name": "Brian Kemp",
+    "riskLevel": "high",
+    "role": "Georgia Governor - Voter Suppression"
+  },
+  {
+    "slug": "tommy-tuberville",
+    "name": "Tommy Tuberville",
+    "riskLevel": "high",
+    "role": "Senator - Military Promotion Blockade"
+  },
+  {
+    "slug": "tony-blair",
+    "name": "Tony Blair",
+    "riskLevel": "critical",
+    "role": "UK PM - Iraq War Based on Lies"
+  },
+  {
+    "slug": "jose-rodriguez",
+    "name": "Jose Rodriguez",
+    "riskLevel": "critical",
+    "role": "CIA - Destroyed Torture Tapes"
+  },
+  {
+    "slug": "thomas-homan",
+    "name": "Thomas Homan",
+    "riskLevel": "critical",
+    "role": "ICE - Family Separations, Detention Deaths"
+  },
+  {
+    "slug": "r-kelly",
+    "name": "R. Kelly",
+    "riskLevel": "critical",
+    "role": "Singer - Child Sex Trafficking CONVICTED"
+  },
+  {
+    "slug": "larry-nassar",
+    "name": "Larry Nassar",
+    "riskLevel": "critical",
+    "role": "USA Gymnastics Doctor - Mass Child Sexual Abuse"
+  },
+  {
+    "slug": "bill-cosby",
+    "name": "Bill Cosby",
+    "riskLevel": "critical",
+    "role": "Entertainer - Serial Sexual Assault"
+  },
+  {
+    "slug": "harvey-weinstein",
+    "name": "Harvey Weinstein",
+    "riskLevel": "critical",
+    "role": "Film Producer - Serial Rape, Sex Trafficking CONVICTED"
+  },
+  {
+    "slug": "kevin-spacey",
+    "name": "Kevin Spacey",
+    "riskLevel": "critical",
+    "role": "Actor - Multiple Sexual Assault Allegations"
+  },
+  {
+    "slug": "matt-lauer",
+    "name": "Matt Lauer",
+    "riskLevel": "critical",
+    "role": "NBC Anchor - Sexual Misconduct, Rape Allegation"
+  },
+  {
+    "slug": "charlie-rose",
+    "name": "Charlie Rose",
+    "riskLevel": "high",
+    "role": "TV Host - Serial Sexual Harassment"
+  },
+  {
+    "slug": "brett-ratner",
+    "name": "Brett Ratner",
+    "riskLevel": "high",
+    "role": "Film Director - Multiple Sexual Misconduct Allegations"
+  },
+  {
+    "slug": "candace-owens",
+    "name": "Candace Owens",
+    "riskLevel": "high",
+    "role": "Political Commentator - Disinformation, Antisemitism"
+  },
+  {
+    "slug": "ben-shapiro",
+    "name": "Ben Shapiro",
+    "riskLevel": "high",
+    "role": "Daily Wire Founder - Transphobia, Islamophobia"
+  },
+  {
+    "slug": "matt-walsh",
+    "name": "Matt Walsh",
+    "riskLevel": "high",
+    "role": "Daily Wire Host - Anti-LGBTQ Extremism"
+  },
+  {
+    "slug": "steven-crowder",
+    "name": "Steven Crowder",
+    "riskLevel": "high",
+    "role": "Host - Racism, Harassment, Alleged Domestic Abuse"
+  },
+  {
+    "slug": "dan-bongino",
+    "name": "Dan Bongino",
+    "riskLevel": "high",
+    "role": "Radio Host - Conspiracy Theories, COVID Disinformation"
+  },
+  {
+    "slug": "dennis-prager",
+    "name": "Dennis Prager",
+    "riskLevel": "high",
+    "role": "PragerU Founder - Disinformation, Historical Revisionism"
+  },
+  {
+    "slug": "omar-al-bashir",
+    "name": "Omar al-Bashir",
+    "riskLevel": "critical",
+    "role": "Former Sudan President - Darfur Genocide ICC INDICTED"
+  },
+  {
+    "slug": "rod-blagojevich",
+    "name": "Rod Blagojevich",
+    "riskLevel": "critical",
+    "role": "Illinois Governor - Tried to Sell Obama\\"
+  },
+  {
+    "slug": "marc-andreessen",
+    "name": "Marc Andreessen",
+    "riskLevel": "high",
+    "role": "a16z Founder - Tech Oligarch, AI Accelerationist"
+  },
+  {
+    "slug": "palmer-luckey",
+    "name": "Palmer Luckey",
+    "riskLevel": "high",
+    "role": "Anduril Founder - Military AI, Meme Warfare"
+  },
+  {
+    "slug": "ben-horowitz",
+    "name": "Ben Horowitz",
+    "riskLevel": "high",
+    "role": "a16z Co-Founder - Tech Oligarch, Trump Donor"
+  },
+  {
+    "slug": "david-sacks",
+    "name": "David Sacks",
+    "riskLevel": "high",
+    "role": "Craft Ventures - PayPal Mafia, Trump Ally"
+  },
+  {
+    "slug": "chamath-palihapitiya",
+    "name": "Chamath Palihapitiya",
+    "riskLevel": "high",
+    "role": "Social Capital - SPAC King, Uyghur Comments"
+  },
+  {
+    "slug": "reid-hoffman",
+    "name": "Reid Hoffman",
+    "riskLevel": "high",
+    "role": "LinkedIn Founder - Epstein Connections, Political Donor"
+  },
+  {
+    "slug": "thomas-caldwell",
+    "name": "Thomas Caldwell",
+    "riskLevel": "critical",
+    "role": "Oath Keepers Leader - January 6 CONVICTED"
+  },
+  {
+    "slug": "guy-reffitt",
+    "name": "Guy Reffitt",
+    "riskLevel": "critical",
+    "role": "Texas Three Percenter - First J6 Trial CONVICTED"
+  },
+  {
+    "slug": "bernie-madoff",
+    "name": "Bernie Madoff",
+    "riskLevel": "critical",
+    "role": "Largest Ponzi Scheme in History - $65 BILLION CONVICTED"
+  },
+  {
+    "slug": "steve-cohen",
+    "name": "Steve Cohen",
+    "riskLevel": "high",
+    "role": "Point72/SAC Capital - Insider Trading Settlement"
+  },
+  {
+    "slug": "abdel-fattah-el-sisi",
+    "name": "Abdel Fattah el-Sisi",
+    "riskLevel": "critical",
+    "role": "Military Dictator - Mass Killings, Political Repression"
+  },
+  {
+    "slug": "craig-landau",
+    "name": "Craig Landau",
+    "riskLevel": "critical",
+    "role": "Purdue Pharma CEO During Crisis"
+  },
+  {
+    "slug": "michael-babich",
+    "name": "Michael Babich",
+    "riskLevel": "critical",
+    "role": "Insys CEO - Opioid Bribery Scheme CONVICTED"
+  },
+  {
+    "slug": "jes-staley",
+    "name": "Jes Staley",
+    "riskLevel": "high",
+    "role": "Former Barclays CEO - Epstein Ties, Forced Out"
+  },
+  {
+    "slug": "leon-black",
+    "name": "Leon Black",
+    "riskLevel": "critical",
+    "role": "Apollo Global Founder - Epstein Ties, $158 Million Paid"
+  },
+  {
+    "slug": "glenn-dubin",
+    "name": "Glenn Dubin",
+    "riskLevel": "high",
+    "role": "Highbridge Capital - Epstein Inner Circle"
+  },
+  {
+    "slug": "mort-zuckerman",
+    "name": "Mort Zuckerman",
+    "riskLevel": "medium",
+    "role": "US News Owner - Epstein Associate"
+  },
+  {
+    "slug": "mark-ciavarella",
+    "name": "Mark Ciavarella",
+    "riskLevel": "critical",
+    "role": "Kids for Cash Scandal - Jailed Children for Profit CONVICTED"
+  },
+  {
+    "slug": "michael-conahan",
+    "name": "Michael Conahan",
+    "riskLevel": "critical",
+    "role": "Kids for Cash Scandal - Mastermind CONVICTED"
+  },
+  {
+    "slug": "james-mitchell",
+    "name": "James Mitchell",
+    "riskLevel": "critical",
+    "role": "Architect of Enhanced Interrogation - Waterboarding Designer"
+  },
+  {
+    "slug": "bruce-jessen",
+    "name": "Bruce Jessen",
+    "riskLevel": "critical",
+    "role": "Co-Architect of Enhanced Interrogation Program"
+  },
+  {
+    "slug": "jon-burge",
+    "name": "Jon Burge",
+    "riskLevel": "critical",
+    "role": "Chicago Police - Tortured Over 200 Black Men CONVICTED"
+  },
+  {
+    "slug": "mohamed-noor",
+    "name": "Mohamed Noor",
+    "riskLevel": "high",
+    "role": "Minneapolis Police - Killed Justine Damond CONVICTED"
+  },
+  {
+    "slug": "myles-cosgrove",
+    "name": "Myles Cosgrove",
+    "riskLevel": "high",
+    "role": "LMPD Detective - Breonna Taylor Raid"
+  },
+  {
+    "slug": "travis-mcmichael",
+    "name": "Travis McMichael",
+    "riskLevel": "critical",
+    "role": "Ahmaud Arbery Killer - Modern Lynching CONVICTED"
+  },
+  {
+    "slug": "gregory-mcmichael",
+    "name": "Gregory McMichael",
+    "riskLevel": "critical",
+    "role": "Ex-Cop Who Hunted Ahmaud Arbery CONVICTED"
+  },
+  {
+    "slug": "william-bryan",
+    "name": "William ",
+    "riskLevel": "critical",
+    "role": "Filmed Ahmaud Arbery Murder CONVICTED"
+  },
+  {
+    "slug": "george-zimmerman",
+    "name": "George Zimmerman",
+    "riskLevel": "high",
+    "role": "Killed Trayvon Martin - Stand Your Ground"
+  },
+  {
+    "slug": "kyle-rittenhouse",
+    "name": "Kyle Rittenhouse",
+    "riskLevel": "high",
+    "role": "Kenosha Shootings - Killed Two Protesters"
+  },
+  {
+    "slug": "dylann-roof",
+    "name": "Dylann Roof",
+    "riskLevel": "critical",
+    "role": "Charleston Church Massacre - Killed 9 CONVICTED/DEATH ROW"
+  },
+  {
+    "slug": "robert-bowers",
+    "name": "Robert Bowers",
+    "riskLevel": "critical",
+    "role": "Tree of Life Synagogue Massacre - Killed 11 CONVICTED/DEATH ROW"
+  },
+  {
+    "slug": "patrick-crusius",
+    "name": "Patrick Crusius",
+    "riskLevel": "critical",
+    "role": "El Paso Walmart Massacre - Killed 23 CONVICTED"
+  },
+  {
+    "slug": "payton-gendron",
+    "name": "Payton Gendron",
+    "riskLevel": "critical",
+    "role": "Buffalo Supermarket Massacre - Killed 10 CONVICTED/LIFE"
+  },
+  {
+    "slug": "joe-biggs",
+    "name": "Joe Biggs",
+    "riskLevel": "critical",
+    "role": "Proud Boys Organizer - January 6 CONVICTED"
+  },
+  {
+    "slug": "roberto-minuta",
+    "name": "Roberto Minuta",
+    "riskLevel": "critical",
+    "role": "Oath Keepers - January 6 CONVICTED"
+  },
+  {
+    "slug": "larry-brock",
+    "name": "Larry Brock",
+    "riskLevel": "high",
+    "role": "Retired Air Force Officer - Senate Floor Intruder CONVICTED"
+  },
+  {
+    "slug": "riley-june-williams",
+    "name": "Riley June Williams",
+    "riskLevel": "high",
+    "role": "Stole Pelosi Laptop - Planned to Sell to Russia CONVICTED"
+  },
+  {
+    "slug": "lonnie-coffman",
+    "name": "Lonnie Coffman",
+    "riskLevel": "critical",
+    "role": "Brought Molotov Cocktails and Guns to Capitol CONVICTED"
+  },
+  {
+    "slug": "julian-khater",
+    "name": "Julian Khater",
+    "riskLevel": "critical",
+    "role": "Assaulted Officer Sicknick with Bear Spray CONVICTED"
+  },
+  {
+    "slug": "george-tanios",
+    "name": "George Tanios",
+    "riskLevel": "high",
+    "role": "Provided Bear Spray Used on Officer Sicknick CONVICTED"
+  },
+  {
+    "slug": "thomas-webster",
+    "name": "Thomas Webster",
+    "riskLevel": "critical",
+    "role": "Former NYPD Officer - Attacked Capitol Police CONVICTED"
+  },
+  {
+    "slug": "jerry-sandusky",
+    "name": "Jerry Sandusky",
+    "riskLevel": "critical",
+    "role": "Penn State Coach - Serial Child Molester CONVICTED"
+  },
+  {
+    "slug": "sean-combs",
+    "name": "Sean ",
+    "riskLevel": "critical",
+    "role": "Hip-Hop Executive - Sex Trafficking INDICTED"
+  },
+  {
+    "slug": "david-miscavige",
+    "name": "David Miscavige",
+    "riskLevel": "critical",
+    "role": "Chairman of the Board - Abuse Allegations, Missing Wife"
+  },
+  {
+    "slug": "adam-neumann",
+    "name": "Adam Neumann",
+    "riskLevel": "high",
+    "role": "WeWork Founder - $47 Billion to Bankruptcy"
+  },
+  {
+    "slug": "billy-mcfarland",
+    "name": "Billy McFarland",
+    "riskLevel": "high",
+    "role": "Fyre Festival Mastermind CONVICTED"
+  },
+  {
+    "slug": "anna-sorokin",
+    "name": "Anna Sorokin",
+    "riskLevel": "medium",
+    "role": "Fake German Heiress - Bank Fraud CONVICTED"
+  },
+  {
+    "slug": "nikolas-cruz",
+    "name": "Nikolas Cruz",
+    "riskLevel": "critical",
+    "role": "Parkland School Shooter - Killed 17 CONVICTED/LIFE"
+  },
+  {
+    "slug": "salvador-ramos",
+    "name": "Salvador Ramos",
+    "riskLevel": "critical",
+    "role": "Uvalde School Shooter - Killed 21"
+  },
+  {
+    "slug": "james-holmes",
+    "name": "James Holmes",
+    "riskLevel": "critical",
+    "role": "Aurora Theater Shooter - Killed 12 CONVICTED/LIFE"
+  },
+  {
+    "slug": "stephen-paddock",
+    "name": "Stephen Paddock",
+    "riskLevel": "critical",
+    "role": "Las Vegas Shooter - Killed 60, DEADLIEST US MASS SHOOTING"
+  },
+  {
+    "slug": "omar-mateen",
+    "name": "Omar Mateen",
+    "riskLevel": "critical",
+    "role": "Pulse Nightclub Shooter - Killed 49"
+  },
+  {
+    "slug": "devin-kelley",
+    "name": "Devin Kelley",
+    "riskLevel": "critical",
+    "role": "Sutherland Springs Church Shooter - Killed 26"
+  },
+  {
+    "slug": "ethan-crumbley",
+    "name": "Ethan Crumbley",
+    "riskLevel": "critical",
+    "role": "Oxford High School Shooter - Killed 4 CONVICTED/LIFE"
+  },
+  {
+    "slug": "james-crumbley",
+    "name": "James Crumbley",
+    "riskLevel": "high",
+    "role": "Oxford Shooter\\"
+  },
+  {
+    "slug": "jennifer-crumbley",
+    "name": "Jennifer Crumbley",
+    "riskLevel": "high",
+    "role": "Oxford Shooter\\"
+  },
+  {
+    "slug": "keith-raniere",
+    "name": "Keith Raniere",
+    "riskLevel": "critical",
+    "role": "NXIVM Founder - Sex Trafficking CONVICTED/120 YEARS"
+  },
+  {
+    "slug": "josh-duggar",
+    "name": "Josh Duggar",
+    "riskLevel": "critical",
+    "role": "Reality TV Star - Child Pornography CONVICTED"
+  },
+  {
+    "slug": "steve-mnuchin",
+    "name": "Steven Mnuchin",
+    "riskLevel": "high",
+    "role": "Trump Treasury Secretary - Foreclosure King"
+  },
+  {
+    "slug": "tom-homan",
+    "name": "Tom Homan",
+    "riskLevel": "high",
+    "role": "Immigration Hardliner - Family Separation Architect"
+  },
+  {
+    "slug": "sonny-perdue",
+    "name": "Sonny Perdue",
+    "riskLevel": "medium",
+    "role": "Trump Agriculture Secretary - Agribusiness Favoritism"
+  },
+  {
+    "slug": "larry-kudlow",
+    "name": "Larry Kudlow",
+    "riskLevel": "medium",
+    "role": "Trump Economic Advisor - Pandemic Minimizer"
+  },
+  {
+    "slug": "richard-strauss",
+    "name": "Richard Strauss",
+    "riskLevel": "critical",
+    "role": "Ohio State Team Doctor - Abused 177+ Athletes"
+  },
+  {
+    "slug": "recep-erdogan",
+    "name": "Recep Tayyip Erdogan",
+    "riskLevel": "critical",
+    "role": "Turkish President - Authoritarian Crackdown"
+  },
+  {
+    "slug": "elliott-abrams",
+    "name": "Elliott Abrams",
+    "riskLevel": "high",
+    "role": "Convicted in Iran-Contra - War Crimes Enabler"
+  },
+  {
+    "slug": "peter-liang",
+    "name": "Peter Liang",
+    "riskLevel": "high",
+    "role": "Killed Akai Gurley - CONVICTED (Reduced)"
+  },
+  {
+    "slug": "jack-dorsey",
+    "name": "Jack Dorsey",
+    "riskLevel": "medium",
+    "role": "Twitter/Square Founder - Misinformation Platform"
+  },
+  {
+    "slug": "andrew-tate",
+    "name": "Andrew Tate",
+    "riskLevel": "critical",
+    "role": "Self-Help Guru - Human Trafficking INDICTED"
+  },
+  {
+    "slug": "tristan-tate",
+    "name": "Tristan Tate",
+    "riskLevel": "critical",
+    "role": "Andrew Tate\\"
+  },
+  {
+    "slug": "bill-oreilly",
+    "name": "Bill O\\",
+    "riskLevel": "high",
+    "role": "Former Fox News Host - Sexual Harassment Settlements"
+  },
+  {
+    "slug": "rush-limbaugh",
+    "name": "Rush Limbaugh",
+    "riskLevel": "high",
+    "role": "Conservative Radio Pioneer - Racism and Misogyny"
+  },
+  {
+    "slug": "ken-lay",
+    "name": "Ken Lay",
+    "riskLevel": "critical",
+    "role": "Enron Founder/Chairman - Massive Corporate Fraud"
+  },
+  {
+    "slug": "doug-mastriano",
+    "name": "Doug Mastriano",
+    "riskLevel": "high",
+    "role": "Election Denier - Present at January 6"
+  },
+  {
+    "slug": "mark-finchem",
+    "name": "Mark Finchem",
+    "riskLevel": "high",
+    "role": "Election Denier - Oath Keepers Member"
+  },
+  {
+    "slug": "kristi-noem",
+    "name": "Kristi Noem",
+    "riskLevel": "high",
+    "role": "South Dakota Governor - COVID Denier"
+  },
+  {
+    "slug": "louie-gohmert",
+    "name": "Louie Gohmert",
+    "riskLevel": "medium",
+    "role": "Texas Rep - Election Conspiracy Promoter"
+  },
+  {
+    "slug": "madison-cawthorn",
+    "name": "Madison Cawthorn",
+    "riskLevel": "medium",
+    "role": "NC Rep - January 6 Rally Speaker"
+  },
+  {
+    "slug": "ron-johnson",
+    "name": "Ron Johnson",
+    "riskLevel": "high",
+    "role": "Wisconsin Senator - Fake Elector Scheme"
+  },
+  {
+    "slug": "elise-stefanik",
+    "name": "Elise Stefanik",
+    "riskLevel": "high",
+    "role": "NY Rep - Election Denier, Trump Loyalist"
+  },
+  {
+    "slug": "james-comer",
+    "name": "James Comer",
+    "riskLevel": "medium",
+    "role": "Kentucky Rep - Biden Investigation Leader"
+  },
+  {
+    "slug": "barry-loudermilk",
+    "name": "Barry Loudermilk",
+    "riskLevel": "high",
+    "role": "Georgia Rep - January 5 Capitol Tour"
+  },
+  {
+    "slug": "newt-gingrich",
+    "name": "Newt Gingrich",
+    "riskLevel": "high",
+    "role": "Architect of Political Polarization"
+  },
+  {
+    "slug": "sarah-palin",
+    "name": "Sarah Palin",
+    "riskLevel": "medium",
+    "role": "Tea Party Pioneer - Crosshairs Map"
+  },
+  {
+    "slug": "tulsi-gabbard",
+    "name": "Tulsi Gabbard",
+    "riskLevel": "high",
+    "role": "Putin Apologist - Assad Defender"
+  },
+  {
+    "slug": "robert-f-kennedy-jr",
+    "name": "Robert F. Kennedy Jr.",
+    "riskLevel": "critical",
+    "role": "Anti-Vaccine Architect - Health Misinformation"
+  },
+  {
+    "slug": "pam-bondi",
+    "name": "Pam Bondi",
+    "riskLevel": "high",
+    "role": "Trump University Settlement - Pay-to-Play"
+  },
+  {
+    "slug": "lee-zeldin",
+    "name": "Lee Zeldin",
+    "riskLevel": "high",
+    "role": "Election Denier - Environmental Deregulation"
+  },
+  {
+    "slug": "bob-good",
+    "name": "Bob Good",
+    "riskLevel": "medium",
+    "role": "Freedom Caucus Chair - Government Shutdown"
+  },
+  {
+    "slug": "chip-roy",
+    "name": "Chip Roy",
+    "riskLevel": "medium",
+    "role": "Freedom Caucus - Government Obstruction"
+  },
+  {
+    "slug": "dan-crenshaw",
+    "name": "Dan Crenshaw",
+    "riskLevel": "medium",
+    "role": "Navy SEAL Veteran - Conspiracy Promoter"
+  },
+  {
+    "slug": "nancy-mace",
+    "name": "Nancy Mace",
+    "riskLevel": "low",
+    "role": "First Female Citadel Graduate - Flip-Flopper"
+  },
+  {
+    "slug": "byron-donalds",
+    "name": "Byron Donalds",
+    "riskLevel": "medium",
+    "role": "Black Conservative - Jim Crow Apologist"
+  },
+  {
+    "slug": "clay-higgins",
+    "name": "Clay Higgins",
+    "riskLevel": "high",
+    "role": "Cajun John Wayne - Violent Rhetoric"
+  },
+  {
+    "slug": "ralph-norman",
+    "name": "Ralph Norman",
+    "riskLevel": "high",
+    "role": "Martial Law Text - Gun Display"
+  },
+  {
+    "slug": "anna-paulina-luna",
+    "name": "Anna Paulina Luna",
+    "riskLevel": "medium",
+    "role": "Identity Fabricator - Trump Loyalist"
+  },
+  {
+    "slug": "michele-bachmann",
+    "name": "Michele Bachmann",
+    "riskLevel": "medium",
+    "role": "Tea Party Leader - Conspiracy Queen"
+  },
+  {
+    "slug": "rick-santorum",
+    "name": "Rick Santorum",
+    "riskLevel": "medium",
+    "role": "Culture Warrior - Homophobic Remarks"
+  },
+  {
+    "slug": "herman-cain",
+    "name": "Herman Cain",
+    "riskLevel": "medium",
+    "role": "Token Diversity - COVID Denial Death"
+  },
+  {
+    "slug": "andy-ngo",
+    "name": "Andy Ngo",
+    "riskLevel": "high",
+    "role": "Antifa Tracker - Far-Right Enabler"
+  },
+  {
+    "slug": "tim-pool",
+    "name": "Tim Pool",
+    "riskLevel": "high",
+    "role": "Russian Asset - Civil War Promoter"
+  },
+  {
+    "slug": "dave-rubin",
+    "name": "Dave Rubin",
+    "riskLevel": "medium",
+    "role": "IDW Member - Koch Funded"
+  },
+  {
+    "slug": "dinesh-dsouza",
+    "name": "Dinesh D\\",
+    "riskLevel": "medium",
+    "role": "Convicted Felon - Conspiracy Documentarian"
+  },
+  {
+    "slug": "james-okeefe",
+    "name": "James O\\",
+    "riskLevel": "high",
+    "role": "Project Veritas Founder - Deceptive Editing"
+  },
+  {
+    "slug": "jacob-wohl",
+    "name": "Jacob Wohl",
+    "riskLevel": "high",
+    "role": "Serial Hoaxer - Robocall Felon"
+  },
+  {
+    "slug": "milo-yiannopoulos",
+    "name": "Milo Yiannopoulos",
+    "riskLevel": "high",
+    "role": "Alt-Right Troll - Pedophilia Defender"
+  },
+  {
+    "slug": "greg-gutfeld",
+    "name": "Greg Gutfeld",
+    "riskLevel": "medium",
+    "role": "Late Night Propaganda"
+  },
+  {
+    "slug": "gary-cohn",
+    "name": "Gary Cohn",
+    "riskLevel": "medium",
+    "role": "Goldman Sachs - Tax Cut Architect"
+  },
+  {
+    "slug": "dennis-hastert",
+    "name": "Dennis Hastert",
+    "riskLevel": "critical",
+    "role": "Serial Child Molester - Longest Serving GOP Speaker"
+  },
+  {
+    "slug": "anthony-weiner",
+    "name": "Anthony Weiner",
+    "riskLevel": "high",
+    "role": "Disgraced Sexting Politician"
+  },
+  {
+    "slug": "eliot-spitzer",
+    "name": "Eliot Spitzer",
+    "riskLevel": "medium",
+    "role": "Client 9 - Prostitution Scandal"
+  },
+  {
+    "slug": "ed-buck",
+    "name": "Ed Buck",
+    "riskLevel": "critical",
+    "role": "Serial Killer - Injected Victims with Meth"
+  },
+  {
+    "slug": "duke-cunningham",
+    "name": "Randy ",
+    "riskLevel": "high",
+    "role": "Most Corrupt Congressman - Bribery King"
+  },
+  {
+    "slug": "william-jefferson",
+    "name": "William Jefferson",
+    "riskLevel": "high",
+    "role": "Cold Cash - $90,000 in Freezer"
+  },
+  {
+    "slug": "henry-cuellar",
+    "name": "Henry Cuellar",
+    "riskLevel": "high",
+    "role": "Azerbaijan Bribery - FBI Raided"
+  },
+  {
+    "slug": "steve-scalise",
+    "name": "Steve Scalise",
+    "riskLevel": "medium",
+    "role": "David Duke Speech - Cancer Survivor"
+  },
+  {
+    "slug": "virginia-foxx",
+    "name": "Virginia Foxx",
+    "riskLevel": "medium",
+    "role": "Education Chair - Anti-Student Agenda"
+  },
+  {
+    "slug": "joe-manchin",
+    "name": "Joe Manchin",
+    "riskLevel": "high",
+    "role": "Coal Baron - BBB Killer"
+  },
+  {
+    "slug": "kyrsten-sinema",
+    "name": "Kyrsten Sinema",
+    "riskLevel": "high",
+    "role": "Corporate Democrat - Filibuster Defender"
+  },
+  {
+    "slug": "strom-thurmond",
+    "name": "Strom Thurmond",
+    "riskLevel": "critical",
+    "role": "Segregationist - 24-Hour Filibuster"
+  },
+  {
+    "slug": "jesse-helms",
+    "name": "Jesse Helms",
+    "riskLevel": "critical",
+    "role": "Senator No - AIDS Blocker"
+  },
+  {
+    "slug": "trent-lott",
+    "name": "Trent Lott",
+    "riskLevel": "high",
+    "role": "Thurmond Praise - Segregation Nostalgia"
+  },
+  {
+    "slug": "joe-lieberman",
+    "name": "Joe Lieberman",
+    "riskLevel": "high",
+    "role": "Public Option Killer - Unity Traitor"
+  },
+  {
+    "slug": "dianne-feinstein",
+    "name": "Dianne Feinstein",
+    "riskLevel": "medium",
+    "role": "Cognitive Decline - Refusing to Resign"
+  },
+  {
+    "slug": "timothy-mcveigh",
+    "name": "Timothy McVeigh",
+    "riskLevel": "critical",
+    "role": "Domestic Terrorist - 168 Dead"
+  },
+  {
+    "slug": "ted-kaczynski",
+    "name": "Ted Kaczynski",
+    "riskLevel": "critical",
+    "role": "Anti-Technology Terrorist - 17-Year Campaign"
+  },
+  {
+    "slug": "eric-rudolph",
+    "name": "Eric Rudolph",
+    "riskLevel": "critical",
+    "role": "Anti-Abortion Terrorist - Multiple Bombings"
+  },
+  {
+    "slug": "osama-bin-laden",
+    "name": "Osama bin Laden",
+    "riskLevel": "critical",
+    "role": "September 11 Mastermind - 2,977 Dead"
+  },
+  {
+    "slug": "khalid-sheikh-mohammed",
+    "name": "Khalid Sheikh Mohammed",
+    "riskLevel": "critical",
+    "role": "9/11 Principal Architect - Enhanced Interrogation"
+  },
+  {
+    "slug": "anwar-al-awlaki",
+    "name": "Anwar al-Awlaki",
+    "riskLevel": "critical",
+    "role": "American Terrorist - Drone Strike Target"
+  },
+  {
+    "slug": "glenn-youngkin",
+    "name": "Glenn Youngkin",
+    "riskLevel": "medium",
+    "role": "Private Equity - Culture War Governor"
+  },
+  {
+    "slug": "kim-reynolds",
+    "name": "Kim Reynolds",
+    "riskLevel": "medium",
+    "role": "COVID Denier - School Voucher Privatizer"
+  },
+  {
+    "slug": "tate-reeves",
+    "name": "Tate Reeves",
+    "riskLevel": "high",
+    "role": "Welfare Scandal - Brett Favre Connection"
+  },
+  {
+    "slug": "bill-lee",
+    "name": "Bill Lee",
+    "riskLevel": "medium",
+    "role": "Anti-Trans Leader - Book Bans"
+  },
+  {
+    "slug": "mike-parson",
+    "name": "Mike Parson",
+    "riskLevel": "medium",
+    "role": "Reporter Prosecution - COVID Negligence"
+  },
+  {
+    "slug": "dr-oz",
+    "name": "Mehmet Oz",
+    "riskLevel": "medium",
+    "role": "Snake Oil Salesman - Carpetbagger"
+  },
+  {
+    "slug": "herschel-walker",
+    "name": "Herschel Walker",
+    "riskLevel": "medium",
+    "role": "Serial Liar - Abortion Hypocrite"
+  },
+  {
+    "slug": "blake-masters",
+    "name": "Blake Masters",
+    "riskLevel": "high",
+    "role": "Tech Bro - Great Replacement Promoter"
+  },
+  {
+    "slug": "jd-vance",
+    "name": "JD Vance",
+    "riskLevel": "high",
+    "role": "Hillbilly Elegy - Trump Convert"
+  },
+  {
+    "slug": "joe-kent",
+    "name": "Joe Kent",
+    "riskLevel": "high",
+    "role": "Green Beret - J6 Sympathizer"
+  },
+  {
+    "slug": "tudor-dixon",
+    "name": "Tudor Dixon",
+    "riskLevel": "medium",
+    "role": "DeVos-Backed - Election Denier"
+  },
+  {
+    "slug": "terry-nichols",
+    "name": "Terry Nichols",
+    "riskLevel": "critical",
+    "role": "McVeigh Accomplice - 168 Dead"
+  },
+  {
+    "slug": "sam-salehpour",
+    "name": "Sam Salehpour",
+    "riskLevel": "medium",
+    "role": "Boeing Whistleblower"
+  },
+  {
+    "slug": "desmond-mills",
+    "name": "Desmond Mills Jr.",
+    "riskLevel": "medium",
+    "role": "Former Memphis Police Officer"
+  },
+  {
+    "slug": "emmitt-martin",
+    "name": "Emmitt Martin III",
+    "riskLevel": "medium",
+    "role": "Former Memphis Police Officer"
+  },
+  {
+    "slug": "tadarrius-bean",
+    "name": "Tadarrius Bean",
+    "riskLevel": "medium",
+    "role": "Former Memphis Police Officer"
+  },
+  {
+    "slug": "justin-smith",
+    "name": "Justin Smith",
+    "riskLevel": "medium",
+    "role": "Former Memphis Police Officer"
+  },
+  {
+    "slug": "hank-paulson",
+    "name": "Henry ",
+    "riskLevel": "medium",
+    "role": "Former U.S. Treasury Secretary"
+  },
+  {
+    "slug": "jeffrey-wigand",
+    "name": "Jeffrey Wigand",
+    "riskLevel": "medium",
+    "role": "Tobacco Industry Whistleblower"
+  },
+  {
+    "slug": "julian-robertson",
+    "name": "Julian Robertson",
+    "riskLevel": "medium",
+    "role": "Hedge Fund Pioneer / Tiger Management"
+  },
+  {
+    "slug": "lisa-eisenhart",
+    "name": "Lisa Eisenhart",
+    "riskLevel": "medium",
+    "role": "January 6 Insurrectionist"
+  },
+  {
+    "slug": "mark-swartz",
+    "name": "Mark Swartz",
+    "riskLevel": "medium",
+    "role": "Former Tyco CFO"
+  },
+  {
+    "slug": "ramesh-balwani",
+    "name": "Ramesh ",
+    "riskLevel": "medium",
+    "role": "Former Theranos President/COO"
+  },
+  {
+    "slug": "timothy-rigas",
+    "name": "Timothy Rigas",
+    "riskLevel": "medium",
+    "role": "Former Adelphia CFO"
+  }
+]
