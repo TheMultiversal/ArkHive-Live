@@ -14,8 +14,7 @@ import {
   Clock,
   Thermometer,
   Factory,
-  Leaf,
-} from 'lucide-react';
+  Leaf, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigationData = {
@@ -145,6 +144,36 @@ const investigationData = {
     { impact: 'Water contamination', detail: 'Increased industrial pollution in waterways' },
     { impact: 'Cancer risk', detail: 'Increased exposure to carcinogens from rollbacks' },
     { impact: 'Environmental justice', detail: 'Low-income and minority communities disproportionately affected' },
+  ],
+
+  legalOutcomes: [
+    { defendant: 'Scott Pruitt', charge: 'Ethics violations - misuse of public office', outcome: 'Resigned July 2018; referred to DOJ but no charges filed' },
+    { defendant: 'EPA (under Trump)', charge: 'Violation of Clean Air Act - unlawful repeal of Clean Power Plan', outcome: 'Multiple court orders blocking rollbacks; Biden EPA reversed' },
+    { defendant: 'EPA (under Trump)', charge: 'Unlawful rollback of WOTUS rule', outcome: 'Federal court vacated Trump-era rule (2021)' },
+    { defendant: 'Ryan Zinke', charge: 'Interior IG investigations into travel, land deals, and ethics violations', outcome: 'Resigned December 2018; DOJ referred but declined prosecution' },
+    { defendant: 'U.S. Government', charge: 'Violation of National Environmental Policy Act (NEPA) in Arctic drilling approvals', outcome: 'Federal court invalidated Arctic Refuge drilling leases (2021)' },
+    { defendant: 'EPA (under Trump)', charge: 'Unlawful weakening of fuel efficiency standards', outcome: 'Biden administration restored Obama-era standards (2022)' },
+  ],
+
+  charges: [
+    { statute: '42 U.S.C. § 7401 et seq.', description: 'Clean Air Act violations - unlawful repeal of emission standards and Clean Power Plan without adequate scientific justification', count: 'Multiple regulatory actions' },
+    { statute: '42 U.S.C. § 4321 et seq.', description: 'National Environmental Policy Act (NEPA) violations - failure to conduct required environmental impact assessments', count: 'Multiple actions' },
+    { statute: '33 U.S.C. § 1251 et seq.', description: 'Clean Water Act violations - unlawful rollback of water protection rules', count: 'Multiple regulatory actions' },
+    { statute: '5 U.S.C. § 706', description: 'Administrative Procedure Act violations - arbitrary and capricious rulemaking in environmental rollbacks', count: 'Multiple actions challenged in court' },
+    { statute: '18 U.S.C. § 208', description: 'Acts affecting personal financial interest - Pruitt\'s financial conflicts with regulated industries', count: 'Multiple incidents' },
+    { statute: '54 U.S.C. § 320301', description: 'Antiquities Act violations - unlawful reduction of Bears Ears and Grand Staircase-Escalante monuments', count: '2 presidential proclamations' },
+    { statute: '5 U.S.C. § 3110', description: 'Anti-nepotism statute concerns - appointing industry lobbyists to regulate their former employers', count: 'Multiple appointments' },
+  ],
+
+  coverup: [
+    'The EPA removed climate change information from its official website and replaced it with fossil fuel industry talking points, attempting to erase decades of scientific consensus',
+    'Political appointees at EPA edited scientific reports to downplay climate risks, including altering the language of the National Climate Assessment before publication',
+    'The administration disbanded the EPA\'s Office of Science Advisory Board and replaced independent scientists with industry representatives',
+    'Scott Pruitt maintained secret calendars and used private email to hide meetings with fossil fuel executives and lobbyists from public records requests',
+    'The White House suppressed a USDA study showing climate change would devastate agriculture, and prohibited scientists from discussing findings publicly',
+    'Interior Department officials reassigned or demoted career scientists who published research on climate change impacts on wildlife and public lands',
+    'The administration attempted to classify carbon dioxide as non-pollutant despite the Supreme Court\'s ruling in Massachusetts v. EPA (2007) that it is a regulated pollutant',
+    'EPA officials used encrypted messaging apps to communicate with industry lobbyists to avoid Freedom of Information Act requests',
   ],
 
   sources: [
@@ -289,6 +318,11 @@ export default function ClimateSabotagePage() {
           className="glass-card p-6 mb-8 border-l-4 border-blood-600"
         >
           <h2 className="text-xl font-bold mb-4">Paris Climate Agreement Withdrawal</h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div>
               <p className="text-xs text-zinc-500 uppercase">Announced</p>
@@ -415,6 +449,16 @@ export default function ClimateSabotagePage() {
           </div>
         </motion.section>
 
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.section>
         {/* Sources */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

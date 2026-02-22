@@ -12,8 +12,7 @@ import {
   Scale,
   Droplets,
   Zap,
-  Heart,
-} from 'lucide-react';
+  Heart, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -104,6 +103,33 @@ const investigation = {
     excuse: 'Claimed concerns about "corruption" in Puerto Rico',
     reality: 'No similar restrictions placed on mainland disaster aid',
   },
+  legalOutcomes: [
+    { defendant: 'FEMA Administrator Brock Long', charge: 'Misuse of government vehicles for personal travel during hurricane response', outcome: 'DHS Inspector General investigation; Long repaid $151,000; resigned Feb 2019' },
+    { defendant: 'Cobra Acquisitions LLC', charge: 'Fraudulent $300 million no-bid contract to restore Puerto Rico\'s power grid', outcome: 'Contract cancelled after public outcry; federal investigation launched' },
+    { defendant: 'Whitefish Energy', charge: '$300 million no-bid contract for tiny Montana firm with 2 employees to rebuild power grid', outcome: 'Contract cancelled Oct 2017 after investigation revealed ties to Interior Secretary Ryan Zinke' },
+    { defendant: 'Former FEMA officials', charge: 'Fraud, bribery, and conspiracy related to $1.8 billion in disaster relief contracts', outcome: 'Two former FEMA officials and COBRA CEO indicted Sep 2019; Ahsha Tribble convicted 2022' },
+    { defendant: 'Trump administration (HUD)', charge: 'Illegally withholding $20 billion in congressionally appropriated disaster aid', outcome: 'GAO ruled funds were illegally withheld; aid partially released after Biden took office' },
+    { defendant: 'Puerto Rico Governor Wanda Vázquez', charge: 'Corruption related to misuse of FEMA funds', outcome: 'Arrested Aug 2022 on federal corruption charges' },
+  ],
+  charges: [
+    { statute: '31 U.S.C. § 1341 (Antideficiency Act)', description: 'Illegal impoundment and withholding of congressionally appropriated disaster relief funds for Puerto Rico', count: 'Systematic withholding of $20+ billion over 3 years' },
+    { statute: '18 U.S.C. § 1001', description: 'False statements — administration officials misrepresented the death toll and adequacy of federal response', count: 'Multiple instances including Trump\'s denial of 3,000 deaths' },
+    { statute: '42 U.S.C. § 5170 (Stafford Act)', description: 'Failure to provide adequate and equitable disaster response compared to mainland disasters', count: 'Systematic pattern throughout 2017-2020' },
+    { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States through fraudulent disaster relief contracts', count: 'Multiple no-bid contracts totaling $600+ million' },
+    { statute: '18 U.S.C. § 201', description: 'Bribery and kickbacks in FEMA disaster relief contracting', count: 'Multiple instances involving FEMA officials and contractors' },
+    { statute: '18 U.S.C. § 1341', description: 'Mail fraud in connection with fraudulent disaster relief contracts and billing', count: 'Scheme spanning 2017-2019' },
+    { statute: '14th Amendment Equal Protection', description: 'Discriminatory treatment of U.S. citizens in Puerto Rico compared to mainland disaster victims', count: 'Systematic disparity documented by GAO' },
+  ],
+  coverup: [
+    'The Trump administration initially reported only 64 deaths from Hurricane Maria, a number that stood for nearly a year before independent studies revealed the true toll of approximately 2,975 deaths.',
+    'When George Washington University\'s study confirmed nearly 3,000 deaths, Trump falsely claimed Democrats fabricated the number "to make me look as bad as possible" — a claim with zero evidence.',
+    'FEMA\'s own after-action report acknowledged the agency was unprepared and understaffed but the administration suppressed the report\'s most critical findings.',
+    'A warehouse full of unused FEMA supplies — water, baby food, cots — was discovered in Ponce, Puerto Rico in Jan 2020, more than two years after the hurricane, revealing the scale of supply chain failures.',
+    'The administration imposed unprecedented bureaucratic restrictions on Puerto Rico\'s access to disaster funds that were never applied to Texas or Florida after their 2017 hurricanes.',
+    'HUD officials were ordered to delay and slow-walk $20 billion in disaster relief funds, with career staff reporting political pressure to withhold aid from Puerto Rico specifically.',
+    'Trump privately told aides he did not want to send more aid to Puerto Rico and explored the possibility of selling the island or swapping it for Greenland, according to multiple reports.',
+    'The no-bid contract to Whitefish Energy — a two-person company from Interior Secretary Zinke\'s hometown — was awarded without competitive bidding and at rates far above market, suggesting corruption.',
+  ],
   sources: [
     { title: 'GWU Mortality Study', url: 'https://publichealth.gwu.edu/sites/default/files/downloads/projects/PRstudy/Acertainment%20of%20the%20Estimated%20Excess%20Mortality%20from%20Hurricane%20Maria%20in%20Puerto%20Rico.pdf', date: '2018' },
     { title: 'Harvard Mortality Study', url: 'https://www.nejm.org/doi/full/10.1056/NEJMsa1803972', date: '2018' },
@@ -200,6 +226,11 @@ export default function PuertoRicoPage() {
             ))}
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}
@@ -255,6 +286,10 @@ export default function PuertoRicoPage() {
                   </div>
                 ))}
               </div>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }} className="glass-card p-6">
+              <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+              <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
             </motion.div>
 
             {/* Infrastructure Collapse */}
@@ -408,6 +443,11 @@ export default function PuertoRicoPage() {
             </motion.div>
 
             {/* Sources */}
+
+            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
+              <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h3>
+              <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+            </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}

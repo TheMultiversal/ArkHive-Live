@@ -13,8 +13,7 @@ import {
   Scale,
   Clock,
   DollarSign,
-  Heart,
-} from 'lucide-react';
+  Heart, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigationData = {
@@ -142,6 +141,33 @@ const investigationData = {
     { charity: 'Lutheran Social Services', amount: '$200,000' },
     { charity: 'NYC Police Foundation', amount: '$200,000' },
     { charity: 'United Negro College Fund', amount: '$200,000' },
+  ],
+
+  legalOutcomes: [
+    { defendant: 'Donald J. Trump Foundation', charge: 'Pattern of persistent illegal conduct including self-dealing and campaign finance violations', outcome: 'Dissolved under judicial supervision Nov 2019; remaining $1.78 million distributed to court-approved charities' },
+    { defendant: 'Donald Trump (personally)', charge: 'Breach of fiduciary duty and self-dealing as foundation president', outcome: 'Ordered to pay $2 million in damages to legitimate charities (Nov 2019)' },
+    { defendant: 'Trump Foundation (portrait purchase)', charge: 'Using $10,000 in charitable funds to purchase a 6-foot portrait of Trump at auction', outcome: 'Documented by Washington Post; included in AG\'s pattern of self-dealing evidence' },
+    { defendant: 'Trump Foundation (legal settlements)', charge: 'Using $258,000 in foundation funds to settle Trump\'s personal business lawsuits', outcome: 'AG documented payments to settle Mar-a-Lago flagpole dispute and Trump golf course claims' },
+    { defendant: 'Trump Foundation (veterans fundraiser)', charge: 'Coordinating $2.8 million veterans fundraiser with 2016 campaign in violation of tax-exempt rules', outcome: 'Court found illegal coordination; Trump admitted foundation was used as campaign instrument' },
+    { defendant: 'Trump Organization (Tim Tebow helmet)', charge: 'Using $12,000 in foundation funds to purchase Tim Tebow signed helmet at charity auction', outcome: 'AG documented as self-dealing; item displayed at Trump golf resort' },
+  ],
+  charges: [
+    { statute: 'N.Y. Not-for-Profit Corp. Law \u00a7 112', description: 'Operating a charitable foundation in persistent violation of state nonprofit laws through self-dealing transactions', count: 'Pattern spanning the foundation\'s entire operating history' },
+    { statute: '26 U.S.C. \u00a7 4941', description: 'Self-dealing by a disqualified person \u2014 using foundation funds for personal benefit including portraits, legal fees, and business expenses', count: 'At least 5 documented self-dealing transactions' },
+    { statute: '52 U.S.C. \u00a7 30101 (FECA)', description: 'Illegal coordination between a tax-exempt foundation and a political campaign during the 2016 veterans fundraiser', count: '1 documented scheme involving $2.8 million' },
+    { statute: '26 U.S.C. \u00a7 501(c)(3)', description: 'Operating a purported charity as a personal checkbook and campaign instrument rather than for charitable purposes', count: 'Systematic abuse throughout foundation\'s existence' },
+    { statute: 'N.Y. Exec. Law \u00a7 172', description: 'Failure of foundation officers to exercise proper oversight and fiduciary duty', count: 'Board never met independently; Trump made all decisions unilaterally' },
+    { statute: '26 U.S.C. \u00a7 4945', description: 'Making taxable expenditures \u2014 foundation funds used for non-charitable purposes including business settlements and personal purchases', count: 'Multiple instances totaling $258,000+ in settlements alone' },
+    { statute: '18 U.S.C. \u00a7 1001', description: 'False statements on IRS Form 990 filings inaccurately reporting the foundation\'s activities and self-dealing transactions', count: 'Multiple annual filings containing material misstatements' },
+  ],
+  coverup: [
+    'The Trump Foundation\'s board \u2014 consisting of Trump, his children, and a treasurer \u2014 never held a single independent board meeting, allowing Trump to use the foundation as a personal slush fund without any oversight.',
+    'Trump personally signed the foundation\'s IRS filings that falsely stated the organization had not engaged in self-dealing, despite using foundation funds to pay his business debts and buy personal items.',
+    'The foundation concealed its 2016 veterans fundraiser coordination with the Trump campaign, which violated the foundation\'s tax-exempt status by serving as an instrument of Trump\'s presidential campaign.',
+    'After the Washington Post reported Trump used $258,000 in foundation money to settle personal business lawsuits, Trump claimed without evidence that Forbes had pressured him to inflate his charitable giving.',
+    'Trump had not personally donated to his own foundation since 2008, yet continued to claim credit for its charitable activities \u2014 the foundation was funded entirely by other donors\' money after that year.',
+    'When NY AG Barbara Underwood filed suit in 2018, the foundation initially attempted to dissolve itself to avoid oversight, but the court blocked the move and required supervised dissolution to ensure proper distribution.',
+    'The foundation\'s purchase of a $10,000 painting of Trump at a charity auction, later hung at one of his golf resorts, exemplified how Trump treated charitable funds as personal spending money.',
   ],
 
   sources: [
@@ -417,6 +443,21 @@ export default function TrumpFoundationPage() {
           </div>
         </motion.section>
 
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.section>
         {/* Sources */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

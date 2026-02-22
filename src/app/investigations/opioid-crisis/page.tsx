@@ -15,8 +15,7 @@ import {
   Skull,
   DollarSign,
   Building2,
-  HeartPulse,
-} from 'lucide-react';
+  HeartPulse, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigationData = {
@@ -133,6 +132,36 @@ const investigationData = {
     { promise: 'Increase treatment access', reality: 'Limited expansion of medication-assisted treatment' },
     { promise: 'Stop illegal drugs', reality: 'Focused on border wall, not fentanyl precursors' },
     { promise: 'Appoint tough drug czar', reality: 'First nominee championed weakening enforcement' },
+  ],
+
+  legalOutcomes: [
+    { defendant: 'Purdue Pharma', charge: 'Conspiracy to defraud the United States and violate anti-kickback laws', outcome: 'Pleaded guilty to federal charges; $8.3 billion settlement (2020); dissolved in bankruptcy' },
+    { defendant: 'Sackler Family', charge: 'Personal liability for fueling opioid crisis through deceptive marketing', outcome: 'Initially shielded in Purdue bankruptcy; Supreme Court rejected $6B settlement (2024); new settlement pending' },
+    { defendant: 'McKesson Corporation', charge: 'Failure to report suspicious opioid orders as required by law', outcome: '$150 million DOJ settlement (2017); part of $26 billion distributor settlement (2022)' },
+    { defendant: 'Cardinal Health', charge: 'Failure to maintain effective controls against diversion of controlled substances', outcome: 'Part of $26 billion distributor settlement with states (2022)' },
+    { defendant: 'AmerisourceBergen', charge: 'Failure to report suspicious orders of controlled substances', outcome: 'Part of $26 billion distributor settlement with states (2022)' },
+    { defendant: 'Tom Marino', charge: 'Championing legislation weakening DEA enforcement while receiving pharma donations', outcome: 'Withdrew as drug czar nominee October 2017; resigned from Congress January 2019' },
+    { defendant: 'Johnson & Johnson', charge: 'Deceptive marketing of opioid raw materials and finished products', outcome: '$5 billion settlement with states (2022)' },
+  ],
+
+  charges: [
+    { statute: '21 U.S.C. § 843(a)(7)', description: 'Controlled Substances Act - failure to report suspicious orders of opioids by pharmaceutical distributors', count: 'Millions of pills unaccounted for' },
+    { statute: '18 U.S.C. § 1341', description: 'Mail fraud - fraudulent marketing of opioids as non-addictive through mail and marketing materials', count: 'Multiple defendants' },
+    { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States - coordinated scheme to mislead regulators about addiction risks', count: 'Multiple conspiracies' },
+    { statute: '42 U.S.C. § 1320a-7b', description: 'Anti-Kickback Statute violations - pharmaceutical companies paying doctors to prescribe opioids', count: 'Widespread practice' },
+    { statute: '21 U.S.C. § 824', description: 'DEA registration suspension authority - weakened by Ensuring Patient Access Act championed by Marino', count: 'Statutory weakening' },
+    { statute: '18 U.S.C. § 1957', description: 'Monetary transactions in property derived from specified unlawful activity - Sackler family transfers of Purdue profits', count: 'Billions transferred offshore' },
+  ],
+
+  coverup: [
+    'The Ensuring Patient Access and Effective Drug Enforcement Act of 2016, championed by Trump\'s drug czar nominee Tom Marino, was quietly passed with bipartisan support after heavy pharmaceutical lobbying, neutering the DEA\'s ability to freeze suspicious opioid shipments',
+    'The Trump administration appointed Alex Azar as HHS Secretary despite his role as president of Eli Lilly\'s U.S. operations, where he oversaw the tripling of insulin prices, creating a direct conflict of interest in drug pricing policy',
+    'Trump declared a "public health emergency" rather than a "national emergency" for the opioid crisis, which unlocked significantly less funding and fewer resources for treatment and prevention',
+    'The DOJ under Trump settled with Purdue Pharma for $8.3 billion but structured the deal so the Sackler family kept billions in personal wealth while the bankrupt company could never pay the full amount',
+    'Kellyanne Conway was named opioid response coordinator despite having no public health experience, turning the response into a communications exercise rather than a public health intervention',
+    'The administration resisted efforts to increase access to medication-assisted treatment (MAT) like methadone and buprenorphine, which are the evidence-based gold standard for opioid addiction treatment',
+    'DEA enforcement actions against pharmaceutical distributors dropped significantly during the Trump administration, even as overdose deaths reached record highs',
+    'The administration focused messaging on border enforcement and illegal fentanyl while largely ignoring the role of legally prescribed opioids and pharmaceutical industry malfeasance in creating the epidemic',
   ],
 
   sources: [
@@ -317,6 +346,11 @@ export default function OpioidCrisisPage() {
           className="glass-card p-6 mb-8"
         >
           <h2 className="text-xl font-bold mb-4">The Marino Bill Scandal</h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div>
               <p className="text-xs text-zinc-500 uppercase">Bill Title</p>
@@ -480,6 +514,16 @@ export default function OpioidCrisisPage() {
           </div>
         </motion.section>
 
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.section>
         {/* Sources */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

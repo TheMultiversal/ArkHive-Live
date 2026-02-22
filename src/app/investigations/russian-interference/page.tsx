@@ -11,8 +11,7 @@ import {
   ExternalLink,
   Scale,
   Globe,
-  Shield,
-} from 'lucide-react';
+  Shield, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -68,6 +67,16 @@ const investigation = {
     { act: 'Concealing evidence', detail: 'Directed false statements about Trump Tower meeting', evidence: 'Strong' },
     { act: 'Pressuring DOJ officials', detail: 'Demanded "loyalty" from Comey', evidence: 'Strong' },
   ],
+  legalOutcomes: [
+    { defendant: 'Paul Manafort', charge: 'Tax Fraud, Bank Fraud, Conspiracy', outcome: '7.5 years federal prison - Pardoned by Trump (December 2020)' },
+    { defendant: 'Michael Flynn', charge: 'Lying to FBI about Russian contacts', outcome: 'Pleaded guilty, case dropped by DOJ - Pardoned by Trump (November 2020)' },
+    { defendant: 'Roger Stone', charge: 'Witness Tampering, Lying to Congress, Obstruction', outcome: '40 months federal prison - Commuted then Pardoned by Trump' },
+    { defendant: 'Michael Cohen', charge: 'Lying to Congress about Trump Tower Moscow', outcome: '3 years federal prison (December 2018)' },
+    { defendant: 'George Papadopoulos', charge: 'Lying to FBI about Russian contacts', outcome: '14 days federal prison - Pardoned by Trump (December 2020)' },
+    { defendant: 'Rick Gates', charge: 'Conspiracy, Lying to FBI', outcome: '45 days jail + 3 years probation, cooperated extensively' },
+    { defendant: '13 Russian Nationals + 3 Russian Entities', charge: 'Conspiracy to Defraud the United States', outcome: 'Indicted by Mueller (February 2018) - defendants at large in Russia' },
+    { defendant: '12 Russian GRU Officers', charge: 'Computer Hacking Conspiracy (DNC/DCCC)', outcome: 'Indicted by Mueller (July 2018) - defendants at large in Russia' },
+  ],
   convictions: [
     { name: 'Paul Manafort', charges: 'Tax fraud, bank fraud, conspiracy', sentence: '7.5 years', pardoned: true },
     { name: 'Michael Flynn', charges: 'Lying to FBI about Russian contacts', sentence: 'Pending', pardoned: true },
@@ -96,6 +105,16 @@ const investigation = {
     { date: 'Apr 2019', event: 'Mueller Report released (redacted)' },
     { date: 'Jul 2019', event: 'Mueller testifies: "not an exoneration" of Trump' },
     { date: 'Aug 2020', event: 'Senate Intelligence Committee confirms Russia helped Trump' },
+  ],
+  coverup: [
+    'Trump fired FBI Director James Comey and admitted on national television it was because of "this Russia thing with Trump and Russia"',
+    'Trump ordered White House Counsel Don McGahn to fire Special Counsel Mueller; McGahn refused and threatened to resign rather than carry out the order',
+    'Trump dangled pardons to Paul Manafort while Manafort was considering whether to cooperate with prosecutors, which Mueller documented as potential witness tampering',
+    'Trump directed false public statements about the June 2016 Trump Tower meeting with Russians, personally dictating a misleading statement claiming it was about "adoptions"',
+    'The Mueller Report documented 10 specific instances of potential obstruction of justice but DOJ policy against indicting a sitting president prevented charges',
+    'Trump pardoned Manafort, Flynn, Stone, and Papadopoulos - four key witnesses who could have provided testimony against him - after leaving office',
+    'The Senate Intelligence Committee\'s bipartisan report confirmed that Manafort shared internal campaign polling data with Konstantin Kilimnik, a Russian intelligence officer',
+    'Attorney General William Barr publicly mischaracterized the Mueller Report\'s findings in his initial summary, prompting a formal written complaint from Mueller himself',
   ],
   sources: [
     { title: 'Mueller Report (Volume I - Russian Interference)', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
@@ -171,6 +190,11 @@ export default function RussianInterferencePage() {
             <Users className="w-5 h-5 text-blood-500" />
             Key American Figures
           </h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {investigation.keyFigures.map((figure, idx) => (
               <Link
@@ -318,6 +342,11 @@ export default function RussianInterferencePage() {
           </div>
         </motion.div>
 
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.div>
         {/* Sources */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

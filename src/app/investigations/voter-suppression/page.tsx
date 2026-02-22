@@ -14,8 +14,7 @@ import {
   Clock,
   Vote,
   Mail,
-  UserX,
-} from 'lucide-react';
+  UserX, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigationData = {
@@ -142,6 +141,35 @@ const investigationData = {
     { count: '61', description: 'Cases lost, dismissed, or withdrawn' },
     { count: '1', description: 'Minor procedural win (not related to fraud)' },
     { count: '0', description: 'Evidence of widespread fraud found' },
+  ],
+
+  legalOutcomes: [
+    { defendant: 'Donald Trump (Georgia)', charge: 'RICO conspiracy, solicitation of violation of oath by public officer, and 11 other charges', outcome: 'Indicted Aug 2023 by Fulton County DA Fani Willis with 18 co-defendants; case ongoing' },
+    { defendant: 'Donald Trump (federal)', charge: 'Conspiracy to defraud the United States, obstruction, conspiracy against rights (Jack Smith indictment)', outcome: 'Indicted Aug 2023; case dismissed after Trump won 2024 election per DOJ policy' },
+    { defendant: 'Rudy Giuliani', charge: 'RICO conspiracy, solicitation of violation of oath, false statements to Georgia legislature', outcome: 'Indicted in Georgia Aug 2023; disbarred in NY and DC; filed for bankruptcy' },
+    { defendant: 'Louis DeJoy (Postmaster General)', charge: 'Deliberately dismantling mail sorting machines and removing mailboxes before 2020 election', outcome: 'Federal court ordered USPS to reverse changes; IG investigation found DeJoy misled Congress' },
+    { defendant: 'Mark Meadows', charge: 'RICO conspiracy, solicitation of violation of oath, participated in Raffensperger call', outcome: 'Indicted in Georgia Aug 2023; attempted removal to federal court denied' },
+    { defendant: 'Jeffrey Clark', charge: 'RICO conspiracy, attempted use of DOJ to pressure Georgia to overturn election results', outcome: 'Indicted in Georgia Aug 2023; nearly fired by acting AG Rosen who threatened mass resignation' },
+    { defendant: 'Sidney Powell', charge: 'RICO conspiracy, computer trespass related to Coffee County voting machine breach', outcome: 'Pleaded guilty Oct 2023 to 6 misdemeanors; agreed to cooperate and testify' },
+  ],
+  charges: [
+    { statute: 'O.C.G.A. \u00a7 16-14-4 (Georgia RICO)', description: 'Engaging in a criminal enterprise to overturn the 2020 Georgia presidential election results', count: '1 count covering the entire conspiracy with 18 co-defendants' },
+    { statute: '18 U.S.C. \u00a7 371', description: 'Conspiracy to defraud the United States by obstructing the lawful federal function of collecting and counting votes', count: '1 count (federal Jack Smith indictment)' },
+    { statute: '52 U.S.C. \u00a7 20511', description: 'Solicitation of election fraud \u2014 Trump asking Raffensperger to "find 11,780 votes"', count: '1 count based on the recorded January 2, 2021 phone call' },
+    { statute: '18 U.S.C. \u00a7 241', description: 'Conspiracy against the right of citizens to vote and have their votes counted', count: '1 count (federal indictment) covering multiple state pressure campaigns' },
+    { statute: '18 U.S.C. \u00a7 1512(c)(2)', description: 'Obstruction of an official proceeding \u2014 conspiring to obstruct the January 6 Congressional certification', count: '1 count in federal indictment' },
+    { statute: '39 U.S.C. \u00a7 101 (Postal Reorganization Act)', description: 'Deliberate degradation of postal service to suppress mail-in voting during a pandemic election', count: 'Systematic removal of 671+ sorting machines and tens of thousands of mailboxes' },
+    { statute: '5 U.S.C. \u00a7 7323 (Hatch Act)', description: 'Using government resources and official proceedings to promote false election fraud claims', count: 'Multiple violations by administration officials' },
+  ],
+  coverup: [
+    'Trump\'s Presidential Advisory Commission on Election Integrity, led by Kris Kobach, was created in 2017 to validate claims of widespread voter fraud but was dissolved in 2018 after finding no evidence of significant fraud \u2014 its findings were never publicly released.',
+    'Louis DeJoy, a major Trump donor with no postal experience, was installed as Postmaster General in June 2020 and immediately began removing mail sorting machines and collection boxes in Democratic-leaning areas ahead of the election.',
+    'When DeJoy testified before Congress about postal changes, a federal judge found his testimony "not credible" and the USPS Inspector General found he had misled Congress about the scope and purpose of operational changes.',
+    'The January 2, 2021 call in which Trump pressured Georgia Secretary of State Raffensperger to "find 11,780 votes" was recorded without Trump\'s knowledge \u2014 Raffensperger released the tape after Trump mischaracterized the call.',
+    'Trump allies breached voting machines in Coffee County, Georgia in January 2021 to search for evidence of fraud; surveillance footage later revealed the breach was coordinated with Trump\'s legal team.',
+    'Jeffrey Clark, a mid-level DOJ official, drafted a letter at Trump\'s direction falsely claiming DOJ had found election irregularities in Georgia \u2014 the scheme was only stopped when acting AG Rosen and other senior officials threatened to resign en masse.',
+    'Despite losing 61 out of 62 post-election lawsuits \u2014 with judges appointed by both parties finding zero evidence of widespread fraud \u2014 Trump continued to claim the election was "stolen" to justify ongoing voter suppression efforts.',
+    'The Big Lie narrative was deliberately constructed to lay groundwork for restrictive voting laws: 19 states passed 34 laws restricting voting access in 2021 alone, disproportionately affecting minority voters.',
   ],
 
   sources: [
@@ -410,6 +438,21 @@ export default function VoterSuppressionPage() {
           </div>
         </motion.section>
 
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.section>
         {/* Sources */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

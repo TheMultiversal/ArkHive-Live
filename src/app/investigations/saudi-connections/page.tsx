@@ -10,8 +10,7 @@ import {
   FileText,
   ExternalLink,
   DollarSign,
-  Skull,
-} from 'lucide-react';
+  Skull, ShieldAlert, Scale} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -72,6 +71,32 @@ const investigation = {
     { date: 'Jun 2019', event: 'Trump says he "saved" MBS from Congress after Khashoggi murder' },
     { date: 'Jan 2021', event: 'Biden releases intelligence report on Khashoggi murder' },
     { date: 'Jul 2021', event: 'Kushner receives $2B from Saudi sovereign wealth fund' },
+  ],
+  legalOutcomes: [
+    { defendant: 'Jared Kushner', charge: 'Undisclosed contacts with Saudi officials; security clearance irregularities', outcome: 'Trump overrode intelligence community objections to grant Kushner top-secret clearance; no charges filed' },
+    { defendant: 'Trump administration', charge: 'Obstruction of Congress by refusing to release CIA Khashoggi assessment', outcome: 'Biden administration released declassified report in Feb 2021 confirming MBS ordered the killing' },
+    { defendant: 'Saudi Crown Prince MBS', charge: 'Ordering the murder of journalist Jamal Khashoggi', outcome: 'CIA concluded MBS ordered killing; Trump refused to impose consequences; Biden released report but did not sanction MBS directly' },
+    { defendant: 'Kushner (Affinity Partners)', charge: 'Potential conflict of interest — receiving $2 billion Saudi investment after leaving government', outcome: 'Congressional investigation launched; ethics officials noted the investment overrode objections from PIF\'s own advisory panel' },
+    { defendant: 'Steven Mnuchin', charge: 'Potential conflict of interest — receiving $1 billion Saudi investment shortly after leaving Treasury', outcome: 'No charges; ethics questions raised about timing of Saudi sovereign wealth fund investment' },
+    { defendant: 'Trump (Emoluments)', charge: 'Saudi government spending at Trump properties while seeking favorable U.S. policy', outcome: 'Documented Saudi spending at Trump International Hotel Washington D.C.; emoluments lawsuits dismissed on standing' },
+  ],
+  charges: [
+    { statute: '18 U.S.C. § 1519', description: 'Obstruction — suppressing and withholding CIA intelligence assessment on Khashoggi murder from Congress', count: 'Ongoing obstruction from Oct 2018 through Jan 2021' },
+    { statute: '18 U.S.C. § 208', description: 'Conflicts of interest — Kushner conducting Saudi policy while maintaining undisclosed business relationships', count: 'Pattern spanning 2017-2021' },
+    { statute: 'Foreign Emoluments Clause (Art. I, § 9)', description: 'Accepting benefits from Saudi government through hotel stays and business deals without Congressional consent', count: 'Multiple documented instances 2017-2021' },
+    { statute: '50 U.S.C. § 3024 (Intelligence Authorization)', description: 'Withholding mandatory intelligence briefing to Congress regarding foreign leader\'s role in murder of U.S. resident', count: '1 count covering Khashoggi assessment suppression' },
+    { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States by providing cover for a foreign government\'s extrajudicial killing of a journalist', count: '1 count' },
+    { statute: '18 U.S.C. § 1346', description: 'Honest services fraud — Kushner using government position to cultivate business relationships with Saudi officials', count: 'Pattern culminating in $2B post-government investment' },
+    { statute: 'Global Magnitsky Act (22 U.S.C. § 2656)', description: 'Failure to impose mandatory sanctions on MBS despite credible evidence of ordering extrajudicial killing', count: 'Ongoing failure from 2018' },
+  ],
+  coverup: [
+    'Trump personally defended MBS after the CIA concluded with high confidence that the crown prince ordered Khashoggi\'s murder, issuing a statement saying "Maybe he did, maybe he didn\'t" and refusing to listen to the audio recording.',
+    'The Trump administration refused to comply with a bipartisan Congressional demand under the Global Magnitsky Act to determine whether MBS was responsible for Khashoggi\'s killing — a legally required determination.',
+    'Saudi Arabia initially claimed Khashoggi left the consulate alive, then blamed "rogue killers," then claimed it was a "fistfight gone wrong" — narratives that Trump echoed and amplified rather than challenging.',
+    'Jared Kushner maintained a private WhatsApp channel with MBS that was not monitored or preserved as required by federal records laws, according to Congressional testimony.',
+    'Trump overrode career intelligence officials to grant Kushner top-secret security clearance after his application was rejected due to concerns about foreign influence, including Saudi ties.',
+    'The $2 billion Saudi investment in Kushner\'s Affinity Partners fund came despite the PIF\'s own screening panel flagging the deal as unsatisfactory on multiple criteria including due diligence and risk management.',
+    'The administration blocked a Senate resolution holding MBS accountable and Trump bragged to journalist Bob Woodward that he "saved" MBS from Congressional consequences after the murder.',
   ],
   sources: [
     { title: 'CIA Assessment on Khashoggi Murder', url: 'https://www.dni.gov/files/ODNI/documents/assessments/Assessment-Saudi-Gov-Role-in-JK-Death-20210226v2.pdf', date: '2021' },
@@ -239,6 +264,11 @@ export default function SaudiConnectionsPage() {
             <Users className="w-5 h-5 text-blood-500" />
             Key Figures
           </h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {investigation.keyFigures.map((figure, idx) => (
               <Link
@@ -279,6 +309,16 @@ export default function SaudiConnectionsPage() {
           </div>
         </motion.div>
 
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.div>
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.div>
         {/* Sources */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

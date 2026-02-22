@@ -13,8 +13,7 @@ import {
   Scale,
   Clock,
   Shield,
-  XCircle,
-} from 'lucide-react';
+  XCircle, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigationData = {
@@ -158,6 +157,37 @@ const investigationData = {
     '"Based on the facts and the applicable legal standards, we are unable to reach that judgment."',
     '"The evidence we obtained about the President\'s actions and intent presents difficult issues that would need to be resolved if we were making a traditional prosecutorial judgment."',
     '"The conclusion that Congress may apply the obstruction laws to the President\'s corrupt exercise of the powers of office accords with our constitutional system of checks and balances."',
+  ],
+
+  legalOutcomes: [
+    { defendant: 'Roger Stone', charge: 'Obstruction of proceedings, witness tampering, making false statements to Congress', outcome: 'Convicted on 7 felony counts (November 2019); sentenced to 40 months; commuted then pardoned by Trump' },
+    { defendant: 'Paul Manafort', charge: 'Witness tampering, conspiracy, financial crimes', outcome: 'Convicted on 8 counts (August 2018); sentenced to 7.5 years; pardoned by Trump December 2020' },
+    { defendant: 'Michael Flynn', charge: 'Making false statements to FBI about contacts with Russian ambassador', outcome: 'Pleaded guilty (December 2017); pardoned by Trump November 2020 before sentencing' },
+    { defendant: 'George Papadopoulos', charge: 'Making false statements to FBI about Russia contacts', outcome: 'Pleaded guilty, served 12 days in prison; pardoned by Trump December 2020' },
+    { defendant: 'Michael Cohen', charge: 'Making false statements to Congress about Trump Tower Moscow', outcome: 'Pleaded guilty, sentenced to 3 years (December 2018)' },
+    { defendant: 'Steve Bannon', charge: 'Contempt of Congress for defying January 6 Committee subpoena', outcome: 'Convicted July 2022; sentenced to 4 months in prison' },
+    { defendant: 'Donald Trump', charge: 'Federal obstruction and classified documents charges (Special Counsel Jack Smith)', outcome: 'Indicted on 40 federal counts (2023); case dismissed after election (2025)' },
+  ],
+
+  charges: [
+    { statute: '18 U.S.C. § 1512(b)', description: 'Witness tampering - corruptly persuading witnesses to withhold testimony, alter documents, or evade legal process', count: 'Multiple instances documented in Mueller Report' },
+    { statute: '18 U.S.C. § 1512(c)', description: 'Obstruction of official proceeding - obstructing, influencing, or impeding congressional and FBI investigations', count: '10+ instances identified by Mueller' },
+    { statute: '18 U.S.C. § 1505', description: 'Obstruction of proceedings before departments, agencies, and committees - interfering with FBI and congressional investigations', count: 'Multiple instances' },
+    { statute: '18 U.S.C. § 1001', description: 'False statements - making materially false statements to federal investigators and Congress', count: 'Multiple defendants convicted' },
+    { statute: '18 U.S.C. § 1503', description: 'Obstruction of justice - corruptly endeavoring to influence, obstruct, or impede the due administration of justice', count: 'Multiple instances' },
+    { statute: '18 U.S.C. § 3', description: 'Accessory after the fact - pardoning co-conspirators who refused to cooperate with investigations', count: '6 pardons for investigation-related crimes' },
+    { statute: '2 U.S.C. § 192', description: 'Contempt of Congress - directing subordinates to defy congressional subpoenas', count: 'Multiple instances' },
+  ],
+
+  coverup: [
+    'Attorney General William Barr released a misleading 4-page summary of the Mueller Report that falsely framed it as an exoneration, before the full report revealed 10 instances of potential obstruction',
+    'Trump publicly dangled pardons for witnesses who refused to cooperate with Mueller, praising Manafort for being "brave" while attacking Cohen as a "rat" for cooperating',
+    'Trump ordered White House Counsel Don McGahn to fire Mueller and then ordered him to create a false record denying the order was ever given',
+    'The DOJ invoked a longstanding Office of Legal Counsel opinion that a sitting president cannot be indicted, preventing Mueller from making a charging decision despite substantial evidence',
+    'Trump provided incomplete and potentially false written answers to Mueller\'s questions, while refusing to submit to an in-person interview despite repeated requests',
+    'After the investigation, Trump pardoned virtually every associate convicted of crimes related to obstructing the investigation, effectively rewarding their silence',
+    'Barr held a press conference 90 minutes before releasing the redacted Mueller Report to frame the narrative, using the phrase "no collusion" four times despite it not being a legal term Mueller investigated',
+    'The White House asserted blanket immunity for former officials like Don McGahn to prevent them from testifying before Congress about the obstruction documented in the Mueller Report',
   ],
 
   sources: [
@@ -414,6 +444,21 @@ export default function ObstructionPage() {
           </div>
         </motion.section>
 
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.section>
         {/* Sources */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

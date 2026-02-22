@@ -10,8 +10,7 @@ import {
   FileText,
   ExternalLink,
   Scale,
-  MapPin,
-} from 'lucide-react';
+  MapPin, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -56,12 +55,29 @@ const investigation = {
     { date: 'Oct 2023', event: 'Chesebro pleads guilty in Georgia' },
     { date: '2024', event: 'Arizona, Michigan, Nevada file charges against fake electors' },
   ],
+  legalOutcomes: [
+    { defendant: 'Kenneth Chesebro', charge: 'Georgia RICO - Conspiracy to Commit Filing False Documents', outcome: 'Pleaded guilty - 5 years probation (October 2023)' },
+    { defendant: 'Sidney Powell', charge: 'Georgia RICO - Conspiracy to Commit Election Fraud', outcome: 'Pleaded guilty - 6 years probation, $6,000 restitution (October 2023)' },
+    { defendant: 'Jenna Ellis', charge: 'Georgia RICO - Aiding and Abetting False Statements', outcome: 'Pleaded guilty - 5 years probation, $5,000 restitution (October 2023)' },
+    { defendant: 'Scott Hall', charge: 'Georgia RICO - Conspiracy to Commit Election Fraud', outcome: 'Pleaded guilty - 5 years probation, 200 hours community service (September 2023)' },
+    { defendant: 'Michigan Fake Electors (16)', charge: 'Election Law Forgery - Filing False Documents', outcome: '16 individuals charged by Michigan AG (July 2023)' },
+    { defendant: 'Arizona Fake Electors', charge: 'Conspiracy, Fraud, Forgery', outcome: 'Multiple indictments by Arizona AG (2024)' },
+  ],
   charges: [
     { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States', jurisdiction: 'Federal' },
     { statute: 'O.C.G.A. § 16-14-4', description: 'Georgia RICO - Pattern of racketeering activity', jurisdiction: 'Georgia' },
     { statute: '18 U.S.C. § 1512', description: 'Obstruction of official proceeding', jurisdiction: 'Federal' },
     { statute: 'Forgery statutes', description: 'Creating fraudulent electoral certificates', jurisdiction: 'Multiple States' },
     { statute: 'Election fraud statutes', description: 'Submitting false election documents', jurisdiction: 'Multiple States' },
+  ],
+  coverup: [
+    'Fake electors met in secret in state capitols on December 14, 2020, mimicking the real Electoral College proceedings to create an appearance of legitimacy',
+    'Fraudulent electoral certificates were submitted to the National Archives and Congress to create a false paper trail that could be invoked on January 6',
+    'The Chesebro memos laid out a deliberate legal strategy to manufacture confusion and give Vice President Pence a pretext to reject legitimate electors',
+    'Trump campaign officials coordinated the scheme simultaneously across seven states, demonstrating a centralized conspiracy rather than independent state actions',
+    'Some fake electors later claimed they were told the certificates were merely "contingency" documents, contradicting internal communications showing intent to deceive',
+    'RNC officials were involved in organizing fake elector meetings in several states, but the full extent of national party involvement remains under investigation',
+    'After exposure, several co-conspirators negotiated plea deals and agreed to testify against remaining defendants, revealing the coordinated nature of the scheme',
   ],
   evidence: [
     'Chesebro memos outlining entire scheme',
@@ -155,6 +171,11 @@ export default function FakeElectorsPage() {
             </div>
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}
@@ -294,6 +315,11 @@ export default function FakeElectorsPage() {
             </motion.div>
 
             {/* Sources */}
+
+            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
+              <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h3>
+              <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+            </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}

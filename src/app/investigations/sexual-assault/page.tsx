@@ -13,8 +13,7 @@ import {
   Scale,
   Clock,
   Heart,
-  Shield,
-} from 'lucide-react';
+  Shield, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigationData = {
@@ -34,8 +33,16 @@ const investigationData = {
   },
 
   keyFigures: [
-    { name: 'Donald Trump', role: 'Defendant - Found liable for sexual abuse', href: '/entities/individuals/donald-trump' },
-    { name: 'E. Jean Carroll', role: 'Accuser - Won $88.3 million in verdicts', href: '/entities/individuals/e-jean-carroll' },
+    { name: 'Donald Trump', role: 'Defendant - Found liable for sexual abuse', href: '/entities/individuals/donald-trump', status: 'Liable — $88.3M verdict' },
+    { name: 'E. Jean Carroll', role: 'Accuser - Won $88.3 million in verdicts', href: '/entities/individuals/e-jean-carroll', status: 'Prevailed at trial' },
+    { name: 'Jill Harth', role: 'Accused Trump of groping and attempted rape in 1993; filed federal lawsuit in 1997', href: '/entities/individuals/jill-harth', status: 'Lawsuit settled' },
+    { name: 'Summer Zervos', role: 'Former Apprentice contestant who accused Trump of sexual assault in 2007; filed defamation suit', href: '/entities/individuals/summer-zervos', status: 'Case dismissed (SOL)' },
+    { name: 'Jessica Leeds', role: 'Accused Trump of groping her on an airplane in the 1970s', href: '/entities/individuals/jessica-leeds', status: 'Public accuser' },
+    { name: 'Stormy Daniels', role: 'Adult film actress paid $130,000 in hush money before 2016 election', href: '/entities/individuals/stormy-daniels', status: 'Key witness — hush money trial' },
+    { name: 'Karen McDougal', role: 'Former Playboy model silenced via $150,000 AMI catch-and-kill payment', href: '/entities/individuals/karen-mcdougal', status: 'Catch-and-kill victim' },
+    { name: 'Michael Cohen', role: 'Trump\'s attorney who arranged Stormy Daniels hush money payment', href: '/entities/individuals/michael-cohen', status: 'Convicted — cooperating witness' },
+    { name: 'Lewis Kaplan', role: 'Federal judge who presided over both E. Jean Carroll trials', href: '/entities/individuals/lewis-kaplan', status: 'Presiding judge' },
+    { name: 'Roberta Kaplan', role: 'E. Jean Carroll\'s lead attorney in both civil trials', href: '/entities/individuals/roberta-kaplan', status: 'Plaintiff\'s counsel' },
   ],
 
   carrollCase: {
@@ -129,6 +136,32 @@ const investigationData = {
     { case: 'Summer Zervos', status: 'Dismissed (after delays)', outcome: 'Statute of limitations' },
     { case: 'Jill Harth', status: 'Settled', outcome: 'Terms undisclosed' },
     { case: 'Criminal', status: 'None filed', outcome: 'Statute of limitations' },
+  ],
+
+  legalOutcomes: [
+    { defendant: 'Donald Trump (Carroll v. Trump I)', charge: 'Sexual abuse and defamation', outcome: 'Federal jury found Trump liable for sexual abuse of E. Jean Carroll in 1996; awarded $5 million in damages (May 2023)' },
+    { defendant: 'Donald Trump (Carroll v. Trump II)', charge: 'Defamation for repeated denials and attacks on Carroll\'s credibility', outcome: 'Jury awarded E. Jean Carroll $83.3 million in compensatory and punitive damages (Jan 2024)' },
+    { defendant: 'Donald Trump (Summer Zervos)', charge: 'Defamation for calling sexual assault allegations lies', outcome: 'Case delayed throughout presidency; dismissed Nov 2021 after statute of limitations expired' },
+    { defendant: 'Donald Trump (Jill Harth)', charge: 'Sexual harassment and assault', outcome: 'Civil suit filed 1997; settled out of court with terms undisclosed' },
+    { defendant: 'Trump campaign (NDA enforcement)', charge: 'Using NDAs and legal threats to silence accusers', outcome: 'Multiple women reported legal intimidation; no charges for pattern of suppression' },
+    { defendant: 'Donald Trump (Access Hollywood)', charge: 'Admission of sexual assault on tape: "grab them by the pussy"', outcome: 'Carroll jury cited tape as corroborating evidence; no criminal charges filed' },
+  ],
+  charges: [
+    { statute: 'N.Y. Penal Law § 130.55', description: 'Sexual abuse in the third degree — subjecting another person to sexual contact without consent', count: 'Jury found liable in Carroll case (civil standard); at least 26 public accusations' },
+    { statute: '18 U.S.C. § 1512(b)', description: 'Witness tampering through threats and intimidation against accusers who came forward publicly', count: 'Pattern across multiple accusers since 2016' },
+    { statute: 'N.Y. Civil Rights Law § 70-a', description: 'Adult Survivors Act enabling civil claims for sexual assault outside normal statute of limitations', count: 'Carroll case filed under this 2022 lookback window' },
+    { statute: '18 U.S.C. § 1341', description: 'Mail fraud — using NDAs and hush money payments to conceal sexual misconduct from voters', count: 'Multiple instances connected to 2016 campaign' },
+    { statute: '52 U.S.C. § 30101 (FECA)', description: 'Campaign finance violations — hush money payments to suppress sexual misconduct allegations before 2016 election', count: 'Stormy Daniels ($130,000) and Karen McDougal ($150,000) payments' },
+    { statute: 'N.Y. Penal Law § 130.35', description: 'Rape in the first degree — forcible sexual intercourse without consent', count: 'Carroll alleged rape; jury found sexual abuse but not rape under narrow legal definition' },
+  ],
+  coverup: [
+    'Michael Cohen arranged a $130,000 hush money payment to Stormy Daniels just 11 days before the 2016 election, funneled through a shell company to conceal its purpose — Trump was later convicted of 34 felony counts for falsifying business records to hide this payment.',
+    'The National Enquirer\'s parent company AMI paid Karen McDougal $150,000 in a "catch and kill" scheme to buy and bury her story about an affair with Trump before the election.',
+    'Trump used non-disclosure agreements systematically to silence women, with former employees and contestants on The Apprentice reporting they were bound by NDAs preventing them from speaking about his behavior.',
+    'After the Access Hollywood tape leaked in October 2016, Trump dismissed his recorded admission of grabbing women as "locker room talk" and orchestrated a press conference with Bill Clinton\'s accusers to deflect attention.',
+    'Trump publicly attacked and defamed nearly every woman who accused him, calling them liars, saying they were "not his type," and suggesting they were politically motivated — a jury later determined these attacks constituted defamation.',
+    'Multiple former Miss USA and Miss Teen USA contestants reported that Trump walked into dressing rooms while contestants were undressed, corroborating his own 2005 boast on Howard Stern that he would "walk right in" to inspect contestants.',
+    'The Trump campaign and allies threatened legal action against accusers who came forward in 2016, creating a chilling effect that discouraged additional women from speaking publicly.',
   ],
 
   sources: [
@@ -255,6 +288,11 @@ export default function SexualAssaultPage() {
           className="glass-card p-6 mb-8 border-l-4 border-blood-600"
         >
           <h2 className="text-xl font-bold mb-4">E. Jean Carroll: Verdict Established Liability</h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
             <div className="p-4 bg-zinc-900/50 border border-zinc-800">
@@ -418,6 +456,16 @@ export default function SexualAssaultPage() {
           </div>
         </motion.section>
 
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.section>
         {/* Sources */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

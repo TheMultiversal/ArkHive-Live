@@ -12,8 +12,7 @@ import {
   Scale,
   Shield,
   Mic,
-  Lock,
-} from 'lucide-react';
+  Lock, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -130,6 +129,16 @@ const investigation = {
     { statute: '18 U.S.C. § 1951 — Extortion (Hobbs Act)', description: 'Using federal agencies to intimidate political opponents', count: 'Part of abuse of power charges' },
     { statute: '26 U.S.C. § 7212 — Corrupt Interference with IRS', description: 'Using IRS to target political enemies', count: 'Article II of impeachment' },
   ],
+  coverup: [
+    'Nixon ordered the CIA to obstruct the FBI\'s Watergate investigation by falsely claiming it would expose national security operations — the "smoking gun" tape recording of June 23, 1972',
+    'White House counsel John Dean coordinated the payment of over $500,000 in hush money to the Watergate burglars to buy their silence and prevent them from implicating senior administration officials',
+    'Nixon\'s personal secretary Rose Mary Woods claimed to have "accidentally" erased 18½ minutes of a crucial Oval Office recording — forensic analysis later determined the gap resulted from at least five separate manual erasures',
+    'Acting FBI Director L. Patrick Gray destroyed documents from Howard Hunt\'s White House safe on direct instructions from John Dean and John Ehrlichman, then lied about it to congressional investigators',
+    'Nixon fired Special Prosecutor Archibald Cox in the "Saturday Night Massacre" on October 20, 1973, triggering the resignations of Attorney General Elliot Richardson and Deputy AG William Ruckelshaus in a failed attempt to shut down the investigation',
+    'The White House released heavily edited transcripts of presidential tape recordings, systematically omitting incriminating passages while claiming "executive privilege" to withhold the actual recordings from prosecutors',
+    'Attorney General John Mitchell, while simultaneously serving as chairman of Nixon\'s reelection committee, personally approved the Watergate break-in plan and subsequently committed perjury before a grand jury to conceal his involvement',
+    'Nixon maintained publicly for over a year that he had no knowledge of the cover-up while privately directing obstruction of justice from the Oval Office, as documented extensively on the White House taping system',
+  ],
   sources: [
     { title: 'United States v. Nixon, 418 U.S. 683 (1974) — Supreme Court Opinion', url: 'https://supreme.justia.com/cases/federal/us/418/683/', date: '1974' },
     { title: 'Articles of Impeachment Against Richard M. Nixon', url: 'https://watergate.info/impeachment/articles-of-impeachment', date: '1974' },
@@ -222,6 +231,11 @@ export default function WatergatePage() {
             ))}
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-8">

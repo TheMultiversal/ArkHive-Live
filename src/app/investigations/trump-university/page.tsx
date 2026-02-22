@@ -13,8 +13,7 @@ import {
   Scale,
   Clock,
   DollarSign,
-  GraduationCap,
-} from 'lucide-react';
+  GraduationCap, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigationData = {
@@ -34,8 +33,15 @@ const investigationData = {
   },
 
   keyFigures: [
-    { name: 'Donald Trump', role: 'Owner - Personally marketed and profited from scheme', href: '/entities/individuals/donald-trump' },
-    { name: 'Michael Sexton', role: 'President - Managed day-to-day operations', href: '/entities/individuals/michael-sexton' },
+    { name: 'Donald Trump', role: 'Owner - Personally marketed and profited from scheme', href: '/entities/individuals/donald-trump', status: 'Settled for $25M' },
+    { name: 'Michael Sexton', role: 'President - Managed day-to-day operations', href: '/entities/individuals/michael-sexton', status: 'Testified against Trump' },
+    { name: 'Gonzalo Curiel', role: 'Federal judge who presided over class action lawsuits; attacked by Trump over Mexican heritage', href: '/entities/individuals/gonzalo-curiel', status: 'Presiding judge' },
+    { name: 'Eric Schneiderman', role: 'New York Attorney General who filed $40M fraud lawsuit against Trump University', href: '/entities/individuals/eric-schneiderman', status: 'Filed state AG suit' },
+    { name: 'Pam Bondi', role: 'Florida AG who dropped Trump University investigation after receiving $25,000 Trump donation', href: '/entities/individuals/pam-bondi', status: 'Declined to investigate' },
+    { name: 'Art Cohen', role: 'Lead plaintiff in Cohen v. Trump class action lawsuit in San Diego', href: '/entities/individuals/art-cohen', status: 'Lead plaintiff' },
+    { name: 'Tarla Makaeff', role: 'Original lead plaintiff; testified about high-pressure upselling tactics', href: '/entities/individuals/tarla-makaeff', status: 'Original lead plaintiff' },
+    { name: 'Allen Weisselberg', role: 'Trump Organization CFO who oversaw financial aspects of Trump University', href: '/entities/individuals/allen-weisselberg', status: 'Convicted (tax fraud)' },
+    { name: 'Jason Forge', role: 'Lead attorney for plaintiffs; obtained internal playbook documents through discovery', href: '/entities/individuals/jason-forge', status: 'Plaintiff\'s counsel' },
   ],
 
   fraudTactics: [
@@ -148,6 +154,33 @@ const investigationData = {
     { victim: 'Art Cohen (lead plaintiff)', statement: 'We were sold a bill of goods. They promised us the Trump secrets.' },
     { victim: 'Tarla Makaeff', statement: 'It was just a constant upsell... They took advantage of my hopes and dreams.' },
     { victim: 'Sherri Simpson', statement: 'The mentors were just salespeople trying to get us to buy more.' },
+  ],
+
+  legalOutcomes: [
+    { defendant: 'Trump University / Trump Entrepreneur Initiative', charge: 'Fraud, deceptive business practices, false advertising (Low v. Trump University)', outcome: 'Class action settled for $25 million Nov 2016; students received approximately 80 cents on the dollar' },
+    { defendant: 'Donald Trump (NY AG Schneiderman suit)', charge: 'Operating an unlicensed educational institution and running a fraudulent scheme', outcome: 'Consolidated with class actions; included in $25 million settlement' },
+    { defendant: 'Trump University (Cohen v. Trump)', charge: 'RICO violations, fraud, and false advertising in class action filed in San Diego', outcome: 'Settled as part of the $25 million global settlement in Nov 2016' },
+    { defendant: 'Trump University (Makaeff v. Trump University)', charge: 'Elder fraud, unfair business practices, and false advertising targeting vulnerable adults', outcome: 'Merged into Low v. Trump University class action; settled for $25 million' },
+    { defendant: 'Donald Trump (personal liability)', charge: 'Personal involvement in fraudulent marketing including direct endorsements he later disavowed', outcome: 'Deposition revealed Trump could not name a single instructor; settled to avoid trial during transition' },
+    { defendant: 'Trump University (NY state inquiry)', charge: 'Operating without a charter or license from the New York State Education Department', outcome: 'NYSED ordered name change to "Trump Entrepreneur Initiative" in 2010; ceased operations 2010' },
+  ],
+  charges: [
+    { statute: '18 U.S.C. \u00a7 1962 (RICO)', description: 'Conducting an enterprise through a pattern of racketeering activity including mail and wire fraud to defraud students', count: 'Systematic fraud affecting 6,000+ students from 2005-2010' },
+    { statute: '18 U.S.C. \u00a7 1341', description: 'Mail fraud \u2014 using the mail to send deceptive marketing materials promising Trump\'s personal involvement and "handpicked" instructors', count: 'Thousands of mailings to prospective students nationwide' },
+    { statute: '18 U.S.C. \u00a7 1343', description: 'Wire fraud \u2014 using electronic communications to perpetuate deceptive advertising about the program\'s value and Trump\'s involvement', count: 'Continuous wire fraud from 2005-2010' },
+    { statute: 'N.Y. Educ. Law \u00a7 5001', description: 'Operating an unlicensed educational institution using the word "University" without state authorization', count: '1 count \u2014 operated without charter from 2005-2010' },
+    { statute: 'Cal. Bus. & Prof. Code \u00a7 17200', description: 'Unfair and deceptive business practices under California\'s consumer protection statute', count: 'Class-wide claims covering all California students' },
+    { statute: '15 U.S.C. \u00a7 45 (FTC Act)', description: 'Unfair or deceptive acts in commerce through false advertising of educational credentials and outcomes', count: 'Pattern of deception spanning 5 years of operations' },
+    { statute: 'N.Y. Gen. Bus. Law \u00a7 349', description: 'Deceptive consumer practices \u2014 misleading students about instructor qualifications, Trump\'s involvement, and expected outcomes', count: 'Systematic deception documented in internal "playbooks"' },
+  ],
+  coverup: [
+    'Internal "playbooks" revealed Trump University instructors were trained in high-pressure sales tactics designed to extract maximum payment from students, including identifying their liquid assets and credit limits during initial sessions.',
+    'Trump personally appeared in marketing materials and videos claiming he had "handpicked" the instructors, but admitted in his deposition that he could not name a single instructor and had no role in selecting them.',
+    'The operation was renamed from "Trump University" to "Trump Entrepreneur Initiative" in 2010 after the New York State Education Department warned it was operating illegally without a charter \u2014 but the deceptive practices continued under the new name.',
+    'Students were pressured in live events to max out credit cards for packages costing up to $35,000, with internal documents instructing staff to "collect all the credit cards" and overcome objections about affordability.',
+    'Trump settled all three lawsuits for $25 million just days after winning the 2016 presidential election, despite repeatedly vowing he would never settle and would win at trial \u2014 the timing suggests he wanted to avoid discovery during his presidency.',
+    'Former employees described a systematic bait-and-switch: free seminars promised secrets that would only be revealed at $1,495 seminars, which in turn pushed $35,000 "mentorship" packages with little additional value.',
+    'Trump attempted to discredit the federal judge overseeing the case, Gonzalo Curiel, by claiming Curiel\'s Mexican heritage created a conflict of interest \u2014 remarks condemned as racist by members of both parties.',
   ],
 
   sources: [
@@ -435,6 +468,21 @@ export default function TrumpUniversityPage() {
           </div>
         </motion.section>
 
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.section>
         {/* Sources */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

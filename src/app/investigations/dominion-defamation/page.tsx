@@ -11,8 +11,7 @@ import {
   ExternalLink,
   Scale,
   DollarSign,
-  Tv,
-} from 'lucide-react';
+  Tv, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -75,11 +74,28 @@ const investigation = {
     { date: 'Dec 2023', event: 'Jury awards $148 million against Giuliani' },
     { date: 'Dec 2023', event: 'Giuliani files for bankruptcy' },
   ],
+  legalOutcomes: [
+    { defendant: 'Fox News', charge: 'Defamation (Dominion Voting Systems)', outcome: '$787.5 million settlement - largest defamation settlement in U.S. history (April 2023)' },
+    { defendant: 'Rudy Giuliani', charge: 'Defamation (Ruby Freeman & Shaye Moss)', outcome: '$148 million jury judgment (December 2023)' },
+    { defendant: 'Rudy Giuliani', charge: 'Bankruptcy proceedings', outcome: 'Filed Chapter 11 bankruptcy after $148M judgment (December 2023)' },
+    { defendant: 'Sidney Powell', charge: 'Georgia RICO charges related to election lies', outcome: 'Pleaded guilty - 6 years probation (October 2023)' },
+    { defendant: 'Newsmax', charge: 'Defamation (Smartmatic lawsuit)', outcome: '$40 million settlement (March 2025)' },
+    { defendant: 'OAN', charge: 'Defamation (Smartmatic lawsuit)', outcome: 'Litigation ongoing' },
+  ],
   charges: [
     { statute: 'Defamation per se', description: 'False statements damaging reputation', jurisdiction: 'Civil' },
     { statute: 'Business disparagement', description: 'False statements harming business', jurisdiction: 'Civil' },
     { statute: 'Conspiracy', description: 'Coordinated effort to spread false claims', jurisdiction: 'Civil' },
     { statute: 'Intentional infliction of emotional distress', description: 'Against Ruby Freeman, Shaye Moss', jurisdiction: 'Civil' },
+  ],
+  coverup: [
+    'Fox News hosts privately admitted the election fraud claims were false while publicly promoting them on air to retain viewers',
+    'Tucker Carlson texted that "Sidney Powell is lying" while his network continued broadcasting her claims without correction',
+    'Rupert Murdoch acknowledged in his deposition that Fox hosts had "endorsed" false claims about Dominion but took no action to stop them',
+    'Fox News chose to continue airing false claims to prevent viewer migration to Newsmax and OAN after those networks embraced pro-Trump election narratives',
+    'Internal Fox communications revealed that editorial decisions were driven by ratings concerns rather than factual accuracy',
+    'Giuliani continued spreading lies about election workers Ruby Freeman and Shaye Moss even after the claims were thoroughly debunked by multiple investigations',
+    'Fox settled for $787.5 million but refused to issue an on-air apology or correction, denying viewers the truth about the false claims aired on the network',
   ],
   damage: {
     dominion: 'Lost contracts, reputation damage, employee threats',
@@ -158,6 +174,11 @@ export default function DominionDefamationPage() {
             </p>
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}
@@ -317,6 +338,11 @@ export default function DominionDefamationPage() {
             </motion.div>
 
             {/* Sources */}
+
+            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
+              <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h3>
+              <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+            </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}

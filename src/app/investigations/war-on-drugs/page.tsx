@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowLeft, Users, Calendar, ExternalLink, Scale, DollarSign, Lock, BarChart3, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, Users, Calendar, ExternalLink, Scale, DollarSign, Lock, BarChart3, AlertTriangle , ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -43,7 +43,11 @@ const investigation = {
   ciaDrugConnection: {
     title: 'CIA Drug Trafficking',
     description: 'While the government waged war on drug users, the CIA was actively facilitating drug trafficking. During the 1980s, the CIA\'s Contra allies in Nicaragua trafficked cocaine into American cities to fund their operations. Journalist Gary Webb documented in his "Dark Alliance" series how Contra-connected dealers played a significant role in the crack epidemic devastating Black communities. The CIA Inspector General later confirmed that the agency had maintained relationships with known drug traffickers and had not reported their activities to law enforcement. The same government imprisoning millions for drug possession was simultaneously importing drugs into those very communities.',
-    sources: ['Gary Webb: Dark Alliance — CIA, the Contras, and the Crack Cocaine Explosion', 'CIA Inspector General Report: Allegations of Connections Between CIA and Contras in Cocaine Trafficking (1998)', 'Kerry Committee Report: Drugs, Law Enforcement and Foreign Policy (1989)'],
+    sources: [
+      { title: 'Gary Webb: Dark Alliance — CIA, the Contras, and the Crack Cocaine Explosion', url: 'https://archive.org/details/darkalliance00webb', date: '1998' },
+      { title: 'CIA Inspector General Report: Allegations of Connections Between CIA and Contras in Cocaine Trafficking', url: 'https://oig.justice.gov/sites/default/files/archive/special/9712/ch01p1.htm', date: '1998' },
+      { title: 'Kerry Committee Report: Drugs, Law Enforcement and Foreign Policy', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB113/', date: '1989' },
+    ],
   },
   mandatoryMinimums: [
     { law: 'Boggs Act (1952)', description: 'First mandatory minimums for drug offenses: 2-5 years for first marijuana offense' },
@@ -81,6 +85,16 @@ const investigation = {
     { defendant: 'CIA', charge: 'Facilitating Contra cocaine trafficking', outcome: 'CIA IG confirmed but no prosecutions. Gary Webb discredited and died.' },
     { defendant: 'Crack/Powder Disparity', charge: 'Racially discriminatory sentencing', outcome: 'Reduced from 100:1 to 18:1 in 2010 — still not equal' },
     { defendant: '45+ million Americans', charge: 'Drug offenses', outcome: 'Arrested and processed. Millions imprisoned. Families destroyed. Communities devastated.' },
+  ],
+  coverup: [
+    'Nixon domestic policy advisor John Ehrlichman admitted in 1994 that the drug war was designed to target Black people and the antiwar left: "We could arrest their leaders, raid their homes, break up their meetings, and vilify them night after night on the evening news"',
+    'Ehrlichman\'s confession was not published until 2016 — journalist Dan Baum sat on the quote for over two decades before publishing it in Harper\'s Magazine',
+    'CIA Inspector General Frederick Hitz confirmed in 1998 that the CIA had knowledge of drug trafficking by Contra-linked networks throughout the 1980s but failed to report it to the Department of Justice as legally required',
+    'Gary Webb\'s "Dark Alliance" series exposing CIA-Contra-cocaine connections was systematically discredited by the Los Angeles Times, Washington Post, and New York Times — all three papers later acknowledged his core findings were substantially accurate',
+    'DEA agents who attempted to investigate CIA-linked drug trafficking operations in Central America were reassigned, threatened with termination, or forced into early retirement',
+    'The 100:1 crack-to-powder cocaine sentencing disparity was maintained for 24 years despite overwhelming evidence of racial discrimination in its application, finally reduced to 18:1 in 2010 but never equalized',
+    'Civil asset forfeiture laws allowed police to seize cash, vehicles, and property without criminal conviction, creating direct financial incentives for drug enforcement that systematically corrupted policing priorities',
+    'Federal agencies suppressed and downplayed data showing that drug use rates are nearly identical across racial groups while arrest and incarceration rates for Black Americans are 3-4 times higher',
   ],
   sources: [
     { title: 'John Ehrlichman Confession — Harper\'s Magazine', url: 'https://harpers.org/archive/2016/04/legalize-it-all/', date: '2016' },
@@ -138,10 +152,15 @@ export default function WarOnDrugsPage() {
           <p className="text-sm text-zinc-300 mb-3">{investigation.ciaDrugConnection.description}</p>
           <div className="space-y-1">
             {investigation.ciaDrugConnection.sources.map((s, idx) => (
-              <p key={idx} className="text-xs text-zinc-500 pl-4 border-l border-zinc-700">{s}</p>
+              <a key={idx} href={s.url} target="_blank" rel="noopener noreferrer" className="block text-xs text-zinc-500 pl-4 border-l border-zinc-700 hover:text-blood-400 transition-colors">{s.title} ({s.date})</a>
             ))}
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-8">

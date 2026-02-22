@@ -11,8 +11,7 @@ import {
   ExternalLink,
   Scale,
   Building,
-  DollarSign,
-} from 'lucide-react';
+  DollarSign, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -54,6 +53,14 @@ const investigation = {
     { name: 'Allen Weisselberg', role: 'CFO - Orchestrated fraud schemes', href: '/entities/individuals/allen-weisselberg', status: 'Convicted, Perjury guilty plea' },
     { name: 'Michael Cohen', role: 'Former fixer - Key witness against Trump', href: '/entities/individuals/michael-cohen', status: 'Cooperating witness' },
   ],
+  legalOutcomes: [
+    { defendant: 'Trump Organization (2 entities)', charge: '17 Felony Counts - Tax Fraud, Falsifying Records, Scheme to Defraud', outcome: 'Convicted on all counts - $1.61 million fine (December 2022)' },
+    { defendant: 'Donald Trump', charge: 'Civil Fraud - Inflating Asset Values on Financial Statements', outcome: '$354 million judgment + pre-judgment interest totaling $454 million (February 2024)' },
+    { defendant: 'Allen Weisselberg', charge: 'Tax Fraud (first plea)', outcome: '5 months at Rikers Island (2022)' },
+    { defendant: 'Allen Weisselberg', charge: 'Perjury - Lying during civil fraud trial', outcome: '5 months at Rikers Island (March 2024 guilty plea)' },
+    { defendant: 'Donald Trump Jr.', charge: 'Civil Fraud - Signed false financial statements as Trustee', outcome: '$4 million judgment' },
+    { defendant: 'Eric Trump', charge: 'Civil Fraud - Signed false financial statements as Trustee', outcome: '$4 million judgment' },
+  ],
   criminalCase: {
     defendant: 'Trump Organization (two corporate entities)',
     verdict: 'GUILTY on all 17 counts',
@@ -92,6 +99,15 @@ const investigation = {
     { bank: 'Deutsche Bank', loan: '$170M for Doral', fraud: 'Inflated net worth to qualify' },
     { bank: 'Deutsche Bank', loan: '$125M for Trump International Hotel DC', fraud: 'False statements' },
     { bank: 'Ladder Capital', loan: '$100M for 40 Wall Street', fraud: 'Overstated property value' },
+  ],
+  coverup: [
+    'Trump personally certified annual Statements of Financial Condition that inflated the value of his properties by hundreds of millions of dollars over more than a decade',
+    'Trump claimed his Mar-a-Lago estate was worth $739 million when Palm Beach County assessed it at $18-27.6 million, a discrepancy of over 2,000 percent',
+    'Allen Weisselberg committed perjury during the civil fraud trial by lying about who determined property valuations and the actual size of the Trump Tower penthouse',
+    'The Trump Organization maintained dual tracks of financial information - inflated values presented to banks for favorable loan terms and deflated values submitted to tax authorities',
+    'Trump\'s penthouse apartment was listed at 30,000 square feet on financial statements when it was actually 10,996 square feet, tripling its stated value',
+    'Despite being convicted of 17 felonies, the Trump Organization corporate entities faced only a $1.61 million fine with no structural remedies or monitor imposed',
+    'Jeff McConney, the Trump Organization controller, testified that inflated property valuations were prepared at the direction of senior leadership including Weisselberg and Trump himself',
   ],
   sources: [
     { title: 'Judge Engoron Civil Fraud Decision', url: 'https://www.documentcloud.org/documents/24437380-decision-after-trial-people-v-trump', date: 'Feb 2024' },
@@ -223,6 +239,11 @@ export default function TrumpOrgFraudPage() {
             <Users className="w-5 h-5 text-blood-500" />
             Key Figures
           </h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {investigation.keyFigures.map((figure, idx) => (
               <Link
@@ -338,6 +359,11 @@ export default function TrumpOrgFraudPage() {
           </div>
         </motion.div>
 
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.div>
         {/* Sources */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -11,8 +11,7 @@ import {
   ExternalLink,
   MapPin,
   Plane,
-  Scale,
-} from 'lucide-react';
+  Scale, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -75,11 +74,30 @@ const investigation = {
     { date: '2024', event: 'Major document unsealing reveals new names and details' },
     { date: '2025', event: 'Additional flight logs and documents continue to be released' },
   ],
+  legalOutcomes: [
+    { defendant: 'Jeffrey Epstein', charge: 'Florida State Solicitation of Prostitution (2008)', outcome: '13 months county jail with work release 6 days per week - sweetheart plea deal' },
+    { defendant: 'Ghislaine Maxwell', charge: 'Sex Trafficking of Minors (5 federal counts)', outcome: 'Convicted - sentenced to 20 years federal prison (June 2022)' },
+    { defendant: 'Jean-Luc Brunel', charge: 'Rape of Minors and Sex Trafficking (French charges)', outcome: 'Found dead in French prison cell before trial (February 2022)' },
+    { defendant: 'Prince Andrew', charge: 'Civil Sexual Abuse lawsuit (Virginia Giuffre)', outcome: 'Settled for reported $12 million - no admission of liability (February 2022)' },
+    { defendant: 'Alexander Acosta', charge: 'Criticism for sweetheart plea deal as U.S. Attorney', outcome: 'Resigned as Secretary of Labor amid backlash (July 2019)' },
+    { defendant: 'Sarah Kellen', charge: 'Sex Trafficking Conspiracy', outcome: 'Granted immunity under 2008 Non-Prosecution Agreement' },
+    { defendant: 'Nadia Marcinkova', charge: 'Sex Trafficking Conspiracy', outcome: 'Granted immunity under 2008 Non-Prosecution Agreement' },
+  ],
   charges: [
     { statute: '18 U.S.C. § 1591', description: 'Sex Trafficking of Minors', count: 'Multiple counts' },
     { statute: '18 U.S.C. § 2423', description: 'Transportation of Minors for Illegal Sexual Activity', count: 'Multiple counts' },
     { statute: '18 U.S.C. § 371', description: 'Conspiracy', count: 'Multiple counts' },
     { statute: 'TVPA', description: 'Trafficking Victims Protection Act Violations', count: 'Multiple counts' },
+  ],
+  coverup: [
+    'Alexander Acosta, as U.S. Attorney, negotiated a secret Non-Prosecution Agreement in 2008 that shielded unnamed co-conspirators from federal charges',
+    'The 2008 plea deal violated the Crime Victims\' Rights Act by failing to notify over 30 identified victims, as ruled by a federal judge in 2019',
+    'Both security cameras outside Epstein\'s cell at MCC New York malfunctioned on the night of his death, and both guards assigned to check on him fell asleep',
+    'Epstein was removed from suicide watch only 12 days before his death despite a prior attempt, in violation of Bureau of Prisons protocols',
+    'Flight logs and visitor records were kept sealed for years; court-ordered unsealing continues to reveal new high-profile names associated with the network',
+    'The FBI had documented evidence of extensive abuse involving dozens of minors as early as 2006, but a prepared 53-page federal indictment was never filed',
+    'Multiple key witnesses and associates died under suspicious circumstances, including Jean-Luc Brunel who was found hanged in his French prison cell',
+    'Mar-a-Lago served as a documented recruiting ground for trafficking victims according to court filings, yet faced no institutional consequences',
   ],
   trumpConnections: [
     'Documented friendship spanning 1992-2019 (publicly fell out in 2004 over property dispute, but contact continued)',
@@ -162,6 +180,11 @@ export default function EpsteinNetworkPage() {
             <Users className="w-5 h-5 text-blood-500" />
             Key Figures & Associates
           </h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {investigation.keyFigures.map((figure, idx) => (
               <Link
@@ -295,6 +318,11 @@ export default function EpsteinNetworkPage() {
           </div>
         </motion.div>
 
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.div>
         {/* Sources */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

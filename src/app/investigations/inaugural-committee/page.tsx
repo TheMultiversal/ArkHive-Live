@@ -11,8 +11,7 @@ import {
   ExternalLink,
   Scale,
   DollarSign,
-  PartyPopper,
-} from 'lucide-react';
+  PartyPopper, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -74,11 +73,27 @@ const investigation = {
     { date: 'May 2022', event: 'DC AG settlement: $750,000 to charities' },
     { date: '2023', event: 'Congressional investigation continues into foreign donations' },
   ],
+  legalOutcomes: [
+    { defendant: 'Inaugural Committee', charge: 'DC Nonprofit Abuse - Using charity funds for private benefit', outcome: '$750,000 settlement paid to DC charities (May 2022)' },
+    { defendant: 'Rick Gates', charge: 'Conspiracy and False Statements (related investigations)', outcome: '45 days incarceration + 3 years probation, cooperated with prosecutors' },
+    { defendant: 'Sam Patten', charge: 'FARA Violation - Funneling foreign money to inaugural', outcome: 'Probation, cooperated with Special Counsel investigation' },
+    { defendant: 'Imaad Zuberi', charge: 'FARA Violations, Campaign Finance Fraud, Tax Evasion', outcome: '12 years federal prison (2021)' },
+    { defendant: 'Trump International Hotel DC', charge: 'Excessive inaugural event charges', outcome: 'DC AG investigation revealed inflated pricing at Trump-owned property' },
+  ],
   charges: [
     { statute: 'Conspiracy to defraud (52 U.S.C. § 30121)', description: 'Accepting foreign donations to inaugural', jurisdiction: 'Federal' },
     { statute: 'Wire fraud (18 U.S.C. § 1343)', description: 'Fraudulent use of nonprofit funds', jurisdiction: 'Federal' },
     { statute: 'Tax fraud', description: '501(c)(4) violations', jurisdiction: 'Federal/DC' },
     { statute: 'DC Nonprofit Abuse', description: 'Using charity funds for private benefit', jurisdiction: 'DC' },
+  ],
+  coverup: [
+    'The $107 million inaugural fund was the largest in American history yet produced a relatively modest event, with tens of millions in spending unaccounted for',
+    'The Trump International Hotel in Washington DC was paid nearly $1 million for inaugural events at rates far above market value, directly enriching the Trump family',
+    'Stephanie Winston Wolkoff, the inaugural planner, received $26 million through her firm and later cooperated with investigators, revealing extensive waste and self-dealing',
+    'Foreign donors allegedly funneled money through straw donors and intermediaries to gain access and influence with the incoming administration',
+    'The inaugural committee initially refused to disclose how its nonprofit funds were spent, despite legal obligations of transparency',
+    'Ivanka Trump was informed of concerns about inflated pricing at the Trump Hotel but the arrangements proceeded, as revealed in internal emails',
+    'Despite the DC AG settlement, a full public accounting of how $107 million in donor funds was spent has never been provided',
   ],
   dcSettlement: {
     amount: '$750,000',
@@ -174,6 +189,11 @@ export default function InauguralCommitteePage() {
             ))}
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}
@@ -354,6 +374,11 @@ export default function InauguralCommitteePage() {
             </motion.div>
 
             {/* Sources */}
+
+            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
+              <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h3>
+              <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+            </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}

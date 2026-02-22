@@ -13,8 +13,7 @@ import {
   Scale,
   Clock,
   Globe,
-  Ban,
-} from 'lucide-react';
+  Ban, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigationData = {
@@ -119,6 +118,35 @@ const investigationData = {
     { court: 'District Court - Maryland', ruling: 'Blocked revised ban', date: 'March 16, 2017' },
     { court: 'Supreme Court', ruling: 'Allowed partial implementation', date: 'June 26, 2017' },
     { court: 'Supreme Court - Trump v. Hawaii', ruling: 'Upheld third ban 5-4', date: 'June 26, 2018' },
+  ],
+
+  legalOutcomes: [
+    { defendant: 'Trump Administration', charge: 'Violation of Immigration and Nationality Act', outcome: 'Multiple federal courts blocked EO 13769; 9th Circuit upheld block (February 2017)' },
+    { defendant: 'Trump Administration', charge: 'Violation of Establishment Clause - religious discrimination', outcome: 'District courts found discriminatory intent; Supreme Court overruled 5-4 in Trump v. Hawaii' },
+    { defendant: 'Trump Administration', charge: 'Violation of due process - stranding legal residents and visa holders', outcome: 'Emergency TROs issued nationwide; green card holders exempted after court orders' },
+    { defendant: 'Sally Yates (Acting AG)', charge: 'Refused to defend ban as unconstitutional', outcome: 'Fired by Trump January 30, 2017; later vindicated by courts blocking the ban' },
+    { defendant: 'CBP Officers', charge: 'Detaining and coercing legal permanent residents at airports', outcome: 'ACLU emergency lawsuits; courts ordered release of detained travelers' },
+    { defendant: 'Trump Administration', charge: 'Travel Ban 3.0 (Proclamation 9645)', outcome: 'Upheld by Supreme Court 5-4; rescinded by Biden on Day 1 (January 20, 2021)' },
+  ],
+
+  charges: [
+    { statute: '8 U.S.C. § 1152(a)(1)(A)', description: 'Immigration and Nationality Act - discrimination in issuance of visas based on nationality, violating the prohibition on national origin discrimination', count: 'Affected 7 countries' },
+    { statute: 'U.S. Const. Amend. I (Establishment Clause)', description: 'Establishing religious discrimination through ban targeting predominantly Muslim countries, as evidenced by Trump\'s own statements', count: 'Constitutional violation' },
+    { statute: 'U.S. Const. Amend. V (Due Process)', description: 'Depriving legal permanent residents and valid visa holders of liberty and property interests without due process', count: '90,000+ travelers affected' },
+    { statute: '5 U.S.C. § 706', description: 'Administrative Procedure Act - executive orders issued without required notice, comment period, or adequate factual basis', count: '3 executive orders' },
+    { statute: '8 U.S.C. § 1101(a)(42)', description: 'Refugee Act violations - suspension of refugee admissions program without adequate justification', count: '45,000+ refugees blocked' },
+    { statute: '42 U.S.C. § 2000d', description: 'Title VI of Civil Rights Act - discrimination based on national origin in federally conducted programs', count: 'Systemic violation' },
+  ],
+
+  coverup: [
+    'The administration rebranded the "Muslim ban" as a "travel ban" based on national security, despite Trump\'s own campaign promise of a "total and complete shutdown of Muslims entering the United States"',
+    'Rudy Giuliani admitted on Fox News that Trump asked him to find a way to do the Muslim ban "legally," revealing the discriminatory intent behind the facially neutral order',
+    'A leaked DHS intelligence assessment found that citizens of the banned countries posed no increased terrorism threat, contradicting the administration\'s stated rationale',
+    'Stephen Miller, the ban\'s primary architect, was later revealed through leaked emails to have promoted white nationalist literature and anti-immigration extremist content',
+    'The ban was drafted in secret without consulting the agencies responsible for implementing it, including DHS, State Department, and DOJ\'s Office of Legal Counsel',
+    'The administration repeatedly changed the list of affected countries to create the appearance of a security-based rather than religion-based policy, adding non-Muslim countries like North Korea and Venezuela',
+    'CBP officers at airports were instructed to detain and question legal permanent residents despite court orders, with reports of coercing travelers into signing away their rights',
+    'The Supreme Court\'s 5-4 decision in Trump v. Hawaii was criticized by Justice Sotomayor\'s dissent as repeating the same mistakes as Korematsu v. United States (Japanese internment)',
   ],
 
   sources: [
@@ -324,6 +352,11 @@ export default function MuslimBanPage() {
           className="glass-card p-6 mb-8"
         >
           <h2 className="text-xl font-bold mb-4">Human Impact</h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {investigationData.humanImpact.map((impact, index) => (
               <div key={index} className="p-3 bg-zinc-900/50 border border-zinc-800">
@@ -380,6 +413,16 @@ export default function MuslimBanPage() {
           </div>
         </motion.section>
 
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.section>
         {/* Sources */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

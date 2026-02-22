@@ -13,8 +13,7 @@ import {
   Scale,
   Clock,
   Skull,
-  Activity,
-} from 'lucide-react';
+  Activity, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigationData = {
@@ -136,6 +135,35 @@ const investigationData = {
     { country: 'South Korea', deathsPer100k: 67, context: 'Aggressive testing and tracing' },
     { country: 'Australia', deathsPer100k: 81, context: 'Border controls and lockdowns' },
     { country: 'New Zealand', deathsPer100k: 54, context: 'Early decisive action' },
+  ],
+
+  legalOutcomes: [
+    { defendant: 'Trump Administration', charge: 'Congressional investigation into pandemic response failures', outcome: 'House Select Subcommittee documented systematic failures; final report December 2022' },
+    { defendant: 'HHS/CDC', charge: 'Politicization of public health guidance', outcome: 'Inspector General reports confirmed political interference in CDC guidance' },
+    { defendant: 'Jared Kushner\'s Task Force', charge: 'Abandonment of national testing plan for political reasons', outcome: 'Documented by Vanity Fair investigation; no criminal charges' },
+    { defendant: 'Alex Azar (HHS)', charge: 'Failure to timely declare public health emergency', outcome: 'Resigned January 2021; no charges filed' },
+    { defendant: 'Trump Administration', charge: 'Defense Production Act failures - delayed invocation for PPE', outcome: 'GAO reports documented critical supply chain failures' },
+    { defendant: 'Peter Navarro', charge: 'Contempt of Congress for refusing pandemic subpoena', outcome: 'Convicted of contempt of Congress (2023), sentenced to 4 months' },
+  ],
+
+  charges: [
+    { statute: '42 U.S.C. § 247d', description: 'Public Health Service Act - failure to timely declare and respond to public health emergency', count: 'Systemic failure' },
+    { statute: '50 U.S.C. § 4501 et seq.', description: 'Defense Production Act - delayed and inadequate invocation for medical supplies and PPE production', count: 'Multiple failures' },
+    { statute: '18 U.S.C. § 1001', description: 'False statements - administration officials made materially false claims about testing availability and virus severity', count: 'Multiple instances' },
+    { statute: '2 U.S.C. § 192', description: 'Contempt of Congress - refusal to comply with congressional subpoenas regarding pandemic response', count: 'Multiple individuals' },
+    { statute: '18 U.S.C. § 1035', description: 'False statements relating to healthcare matters - misrepresentation of PPE stockpile status and testing capacity', count: 'Multiple instances' },
+    { statute: '31 U.S.C. § 1301', description: 'Misappropriation of funds - diversion of pandemic relief funds for political purposes', count: 'Multiple instances' },
+  ],
+
+  coverup: [
+    'Trump privately told Bob Woodward on February 7, 2020 that COVID was "deadly stuff" and airborne, while publicly comparing it to the flu for weeks afterward',
+    'The White House pressured the CDC to change its testing guidelines in August 2020 to recommend against testing asymptomatic people, reducing case counts before the election',
+    'Kushner\'s task force abandoned a national testing plan reportedly because the virus was hitting Democratic-led states hardest, making it politically advantageous to do nothing',
+    'The administration took over COVID-19 hospital data reporting from the CDC in July 2020, routing it through HHS to control public information',
+    'Political appointees at HHS edited CDC Morbidity and Mortality Weekly Reports to align with Trump\'s messaging and downplay the pandemic\'s severity',
+    'Trump ordered officials to "slow the testing down" and later claimed it was a joke, though aides confirmed he was serious about reducing testing to lower case numbers',
+    'The administration blocked Dr. Anthony Fauci and other health officials from appearing on major media outlets when their messaging contradicted Trump\'s',
+    'White House officials pressured the FDA to grant emergency use authorization to hydroxychloroquine despite lack of evidence, later revoked by FDA',
   ],
 
   sources: [
@@ -378,6 +406,21 @@ export default function CovidResponsePage() {
           </div>
         </motion.section>
 
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.section>
         {/* Sources */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

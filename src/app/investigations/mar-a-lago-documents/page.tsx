@@ -11,8 +11,7 @@ import {
   ExternalLink,
   Scale,
   FolderOpen,
-  Shield,
-} from 'lucide-react';
+  Shield, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -42,6 +41,12 @@ const investigation = {
     { act: 'Attempting to delete footage', detail: 'Asked IT staffer to delete security camera footage', evidence: 'Witness testimony' },
     { act: 'Refusing subpoena', detail: 'Failed to comply with grand jury subpoena for documents', evidence: 'Timeline, subsequent search' },
   ],
+  legalOutcomes: [
+    { defendant: 'Donald Trump', charge: '40 Counts - Espionage Act + Obstruction of Justice', outcome: 'Indicted June 2023, case dismissed by Judge Cannon (July 2024), DOJ appealing' },
+    { defendant: 'Waltine Nauta', charge: 'Obstruction of Justice + False Statements', outcome: 'Indicted as co-defendant, case dismissed with Trump (July 2024)' },
+    { defendant: 'Carlos De Oliveira', charge: 'Obstruction - Attempted deletion of security footage', outcome: 'Added in superseding indictment (July 2023), case dismissed (July 2024)' },
+    { defendant: 'Evan Corcoran (Trump attorney)', charge: 'Crime-Fraud Exception - Attorney-Client Privilege Pierced', outcome: 'Compelled to testify before grand jury after judge found crime-fraud exception applied' },
+  ],
   charges: [
     { count: '1-31', statute: '18 U.S.C. § 793(e)', description: 'Willful retention of national defense information', max: '10 years each' },
     { count: '32', statute: '18 U.S.C. § 1512(k)', description: 'Conspiracy to obstruct justice', max: '20 years' },
@@ -51,6 +56,15 @@ const investigation = {
     { count: '36', statute: '18 U.S.C. § 1001(a)(1)', description: 'Scheme to conceal', max: '5 years' },
     { count: '37', statute: '18 U.S.C. § 1001(a)(2)', description: 'False statements and representations', max: '5 years' },
     { count: '38-40', statute: '18 U.S.C. § 793(e)', description: 'Additional willful retention counts (superseding)', max: '10 years each' },
+  ],
+  coverup: [
+    'Trump directed aide Walt Nauta to move 64 boxes of classified documents out of a storage room hours before his own lawyer was scheduled to search it for responsive materials',
+    'Trump\'s attorney was caused to sign a false certification to the FBI stating that all classified documents had been returned, when over 100 remained hidden at Mar-a-Lago',
+    'Trump showed classified war plans regarding Iran to visitors at his Bedminster golf club and was caught on audio recording acknowledging the documents were still classified',
+    'A Mar-a-Lago aide asked an IT staffer to delete security camera footage after the government served a subpoena specifically requesting those recordings',
+    'Over 300 classified documents were found at Mar-a-Lago including materials about nuclear weapons programs, defense capabilities, and human intelligence sources',
+    'Judge Aileen Cannon, a Trump appointee, dismissed the case by ruling the Special Counsel was "unlawfully appointed" - a decision widely criticized by legal scholars and contradicted by decades of precedent',
+    'FBI photographs showed classified documents scattered on the floor, stored in a bathroom, and kept on a ballroom stage alongside personal items and memorabilia',
   ],
   timeline: [
     { date: 'Jan 20, 2021', event: 'Trump leaves office, takes 15 boxes of records to Mar-a-Lago' },
@@ -84,6 +98,11 @@ const investigation = {
   sources: [
     { title: 'Jack Smith Indictment (37 counts)', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: 'Jun 2023' },
     { title: 'Superseding Indictment (40 counts)', url: 'https://www.justice.gov/storage/US-v-Trump-Nauta-De-Oliveira-23-80101.pdf', date: 'Jul 2023' },
+    { title: 'FBI Mar-a-Lago Search Warrant and Inventory', url: 'https://www.npr.org/2022/08/12/1117200680/trump-mar-a-lago-search-warrant-released', date: 'Aug 2022' },
+    { title: 'Crime-Fraud Exception Ruling: Attorney-Client Privilege Pierced', url: 'https://www.washingtonpost.com/national-security/2023/03/25/trump-classified-documents-attorney-client-privilege/', date: 'Mar 2023' },
+    { title: 'Judge Cannon Dismissal Ruling', url: 'https://storage.courtlistener.com/recap/gov.uscourts.flsd.648652/gov.uscourts.flsd.648652.510.0_1.pdf', date: 'Jul 2024' },
+    { title: '11th Circuit: Special Master Overruled', url: 'https://media.ca11.uscourts.gov/opinions/pub/files/202213005.pdf', date: 'Sep 2022' },
+    { title: 'National Archives Referral to DOJ', url: 'https://www.archives.gov/press/press-releases/2022/nr22-001', date: 'Feb 2022' },
   ],
 };
 
@@ -131,6 +150,11 @@ export default function MarALagoDocumentsPage() {
             <FolderOpen className="w-5 h-5 text-red-500" />
             Classified Documents Breakdown
           </h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="border border-red-800/50 bg-black/50 p-4">
               <p className="text-3xl font-bold text-blood-500">{investigation.documentBreakdown.total}</p>
@@ -284,6 +308,11 @@ export default function MarALagoDocumentsPage() {
           </div>
         </motion.div>
 
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.div>
         {/* Sources */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

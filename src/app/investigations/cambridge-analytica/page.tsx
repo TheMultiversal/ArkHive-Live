@@ -15,6 +15,7 @@ import {
   Database,
   Globe,
   Target,
+  ShieldAlert,
 } from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
@@ -157,6 +158,35 @@ const investigationData = {
     { country: 'Nigeria', campaign: 'Multiple campaigns' },
     { country: 'Trinidad & Tobago', campaign: 'UNC party' },
     { country: 'India', campaign: 'BJP-related work alleged' },
+  ],
+
+  legalOutcomes: [
+    { defendant: 'Facebook/Meta', charge: 'Privacy violations - deceptive practices', outcome: '$5 billion FTC settlement (2019), $100 million SEC fine' },
+    { defendant: 'Cambridge Analytica', charge: 'Unauthorized data harvesting and misuse', outcome: 'Company dissolved, filed for bankruptcy May 2018' },
+    { defendant: 'Alexander Nix', charge: 'Misleading UK Parliament, data misuse', outcome: 'Banned from serving as company director for 7 years (2022)' },
+    { defendant: 'Aleksandr Kogan', charge: 'Violating Facebook platform policies, unauthorized data sharing', outcome: 'Banned from Facebook, academic investigation' },
+    { defendant: 'SCL Elections Ltd', charge: 'Failure to comply with data subject access request', outcome: '£15,000 fine by UK ICO (2019)' },
+    { defendant: 'Facebook (UK)', charge: 'Failure to protect user data under Data Protection Act', outcome: '£500,000 fine by UK Information Commissioner (2018)' },
+  ],
+
+  charges: [
+    { statute: '15 U.S.C. § 45', description: 'Unfair or deceptive acts or practices (FTC Act) - Facebook\'s deceptive privacy practices', count: 'Multiple counts' },
+    { statute: '18 U.S.C. § 1030', description: 'Computer Fraud and Abuse Act - Unauthorized access to computer systems and data', count: 'Multiple counts' },
+    { statute: '18 U.S.C. § 1343', description: 'Wire fraud - Using electronic communications to execute scheme to defraud users of data', count: 'Multiple counts' },
+    { statute: '18 U.S.C. § 371', description: 'Conspiracy to commit offense against the United States - Coordinated data harvesting scheme', count: '1 count' },
+    { statute: '52 U.S.C. § 30121', description: 'Foreign contributions and donations - Foreign nationals providing services to influence elections', count: 'Multiple counts' },
+    { statute: 'UK Data Protection Act 1998', description: 'Processing personal data without consent, failure to protect data subjects', count: 'Multiple violations' },
+  ],
+
+  coverup: [
+    'Facebook learned of the data harvesting in 2015 but failed to notify affected users for over two years, only disclosing after media exposure in March 2018',
+    'Cambridge Analytica claimed to have deleted all improperly obtained data in 2015, but whistleblower Christopher Wylie revealed the data was still being used',
+    'Alexander Nix was caught on hidden camera by Channel 4 News boasting about using bribes, entrapment, and fake news to influence elections worldwide',
+    'Facebook CEO Mark Zuckerberg initially refused to testify before Congress and sent subordinates instead, only appearing after sustained public pressure',
+    'Cambridge Analytica rebranded its operations as Emerdata Limited before dissolving, with many of the same personnel continuing similar work',
+    'The Trump campaign denied extensive use of Cambridge Analytica\'s services despite FEC filings showing $5.9 million in payments',
+    'Facebook lobbied aggressively against privacy legislation after the scandal, spending over $12 million on lobbying in 2018 alone',
+    'Internal Facebook emails showed executives were aware of widespread data abuse by app developers but chose not to act to avoid hampering platform growth',
   ],
 
   sources: [
@@ -495,6 +525,22 @@ export default function CambridgeAnalyticaPage() {
               </div>
             ))}
           </div>
+        </motion.section>
+
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.section>
+
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
         </motion.section>
 
         {/* Sources */}

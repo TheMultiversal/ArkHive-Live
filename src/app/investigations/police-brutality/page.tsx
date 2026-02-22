@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowLeft, Users, Calendar, ExternalLink, Scale, Shield, Skull, BarChart3, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, Users, Calendar, ExternalLink, Scale, Shield, Skull, BarChart3, AlertTriangle , ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -82,6 +82,16 @@ const investigation = {
     { defendant: 'Systematic Police Violence', charge: 'Pattern-and-practice investigations', outcome: 'DOJ consent decrees in some cities— but compliance is voluntary and enforcement weak' },
     { defendant: 'Police Departments', charge: 'Civil rights settlements', outcome: 'Cities pay $300M+/year in settlements — taxpayers pay, officers face no consequences' },
   ],
+  coverup: [
+    'Police departments routinely withhold body camera footage, incident reports, and disciplinary records for months or years, citing "ongoing investigations" to delay public accountability',
+    'Qualified immunity doctrine, created by the Supreme Court in 1967 and dramatically expanded in 1982, effectively prevents victims of police violence from holding individual officers accountable in civil court',
+    'Police union contracts in many cities mandate the destruction of disciplinary records after set periods, systematically erasing documented patterns of officer misconduct from the record',
+    'The "blue wall of silence" ensures that officers who report misconduct by colleagues face retaliation, involuntary transfers, or termination — effectively suppressing internal accountability mechanisms',
+    'Grand juries almost never indict police officers; prosecutors who depend on daily cooperation with police frequently present one-sided cases that favor non-indictment',
+    'Internal affairs investigations are conducted by fellow officers within the same department, with substantiation rates for civilian complaints averaging below 10% nationwide',
+    'Departments routinely classify police killings as "justified" before any independent investigation is complete, prejudicing all subsequent reviews and public perception',
+    'The FBI\'s national use-of-force database remains voluntary — most police departments refuse to report their data, making comprehensive national accountability impossible',
+  ],
   sources: [
     { title: 'Washington Post Police Shootings Database', url: 'https://www.washingtonpost.com/graphics/investigations/police-shootings-database/', date: '2015-present' },
     { title: 'Mapping Police Violence', url: 'https://mappingpoliceviolence.us/', date: 'Ongoing' },
@@ -160,6 +170,11 @@ export default function PoliceBrutalityPage() {
             ))}
           </ul>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-8">

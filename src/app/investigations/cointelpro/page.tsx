@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowLeft, Users, Calendar, ExternalLink, Scale, Shield, Eye, Target, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, Users, Calendar, ExternalLink, Scale, Shield, Eye, Target, AlertTriangle , ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -78,6 +78,25 @@ const investigation = {
     { defendant: 'Mark Felt & Edward Miller', charge: 'Authorizing illegal break-ins', outcome: 'Convicted 1980 — Pardoned by Reagan 1981' },
     { defendant: 'No individual FBI agent', charge: 'Any criminal charge for COINTELPRO', outcome: 'NO FBI agent was EVER criminally prosecuted for COINTELPRO operations' },
   ],
+  charges: [
+    { statute: '18 U.S.C. § 241 — Conspiracy Against Rights', description: 'Coordinated FBI campaign to suppress constitutional rights of civil rights leaders, antiwar activists, and political organizations', count: 'Thousands of operations across multiple target groups from 1956-1971' },
+    { statute: '18 U.S.C. § 242 — Deprivation of Rights Under Color of Law', description: 'FBI agents using government authority to violate First and Fourth Amendment rights of American citizens', count: 'Systematic across all COINTELPRO programs' },
+    { statute: '18 U.S.C. § 1001 — False Statements', description: 'FBI officials lying to Congress and oversight bodies about the scope and nature of domestic surveillance operations', count: 'Sustained pattern of deception documented by Church Committee' },
+    { statute: '18 U.S.C. § 1503 — Obstruction of Justice', description: 'Destroying evidence, manipulating legal proceedings, and planting false evidence against targets', count: 'Documented in operations against Black Panther Party and other organizations' },
+    { statute: '18 U.S.C. § 2511 — Illegal Wiretapping', description: 'Unauthorized electronic surveillance including wiretaps and mail interception without judicial authorization', count: 'Thousands of warrantless wiretaps on American citizens documented by Church Committee' },
+    { statute: '42 U.S.C. § 1983 — Deprivation of Civil Rights', description: 'Government agents systematically depriving citizens of constitutional rights including free speech, assembly, and due process', count: 'Applied in civil suits — Hampton family received $1.85 million settlement' },
+    { statute: 'Fourth Amendment — Unreasonable Search and Seizure', description: 'Warrantless break-ins ("black bag jobs"), mail interception, and physical surveillance without probable cause', count: 'Over 200 documented "black bag jobs" against domestic targets' },
+  ],
+  coverup: [
+    'FBI Director J. Edgar Hoover classified all COINTELPRO documents and restricted access to senior officials only, preventing any congressional oversight for the program\'s entire 15-year existence',
+    'FBI systematically destroyed records of its most extreme operations, including evidence related to the assassination of Fred Hampton and infiltration of civil rights organizations',
+    'The program remained entirely secret until the 1971 Citizens\' Commission burglary of the FBI field office in Media, Pennsylvania exposed internal COINTELPRO documents to the press',
+    'After exposure, FBI Director L. Patrick Gray ordered the destruction of files from Hoover\'s personal office, while Associate Director Mark Felt leaked information selectively to protect the Bureau\'s institutional reputation',
+    'FBI maintained that COINTELPRO had been officially "terminated" in 1971 while continuing functionally identical operations under different program names and administrative designations',
+    'The Church Committee found that FBI officials repeatedly lied to attorneys general about the scope and nature of domestic surveillance programs targeting American citizens',
+    'FBI agents involved in the December 1969 pre-dawn raid that killed Fred Hampton and Mark Clark were never criminally prosecuted; the Bureau falsely claimed the raid was initiated solely by local Chicago police',
+    'Internal FBI memos revealed explicit plans to "neutralize" Martin Luther King Jr. through blackmail — including an anonymous letter urging him to commit suicide — yet the Bureau denied conducting any harassment campaigns for decades',
+  ],
   sources: [
     { title: 'Church Committee: Intelligence Activities and the Rights of Americans — Book II', url: 'https://www.intelligence.senate.gov/sites/default/files/94755_II.pdf', date: '1976' },
     { title: 'Church Committee: Supplementary Detailed Staff Reports — Book III (COINTELPRO)', url: 'https://www.intelligence.senate.gov/sites/default/files/94755_III.pdf', date: '1976' },
@@ -148,6 +167,11 @@ export default function COINTELPROPage() {
             ))}
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-8">
@@ -192,6 +216,10 @@ export default function COINTELPROPage() {
                   </div>
                 ))}
               </div>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }} className="glass-card p-6">
+              <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+              <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
             </motion.div>
           </div>
 

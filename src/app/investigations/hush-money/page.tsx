@@ -10,8 +10,7 @@ import {
   FileText,
   ExternalLink,
   Scale,
-  DollarSign,
-} from 'lucide-react';
+  DollarSign, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -44,10 +43,26 @@ const investigation = {
     cohenReimbursement: '$420,000 (grossed up for taxes + bonus)',
     falsification: '34 checks, invoices, and ledger entries falsely labeled "legal expenses"',
   },
+  legalOutcomes: [
+    { defendant: 'Donald Trump', charge: '34 Counts Falsifying Business Records (1st Degree)', outcome: 'Guilty on all 34 counts (May 30, 2024) - first former president convicted of felonies' },
+    { defendant: 'Michael Cohen', charge: 'Campaign Finance Violations, Tax Fraud, Lying to Congress', outcome: '3 years federal prison (December 2018)' },
+    { defendant: 'Allen Weisselberg', charge: 'Tax Fraud (related Trump Org scheme)', outcome: 'Pleaded guilty - 5 months at Rikers Island' },
+    { defendant: 'AMI / David Pecker', charge: 'Campaign Finance Violations - Catch and Kill scheme', outcome: 'Non-prosecution agreement in exchange for cooperation (2018)' },
+    { defendant: 'Trump Organization (2 entities)', charge: '17 Felony Counts including Tax Fraud and Falsifying Records', outcome: 'Convicted on all counts - $1.61 million fine (December 2022)' },
+  ],
   charges: [
     { count: '1-11', description: 'Falsifying invoices from Michael Cohen', evidence: 'Monthly invoices marked "legal expenses"' },
     { count: '12-22', description: 'Falsifying checks to Michael Cohen', evidence: 'Checks signed by Trump, marked "retainer"' },
     { count: '23-34', description: 'Falsifying ledger entries', evidence: 'Trump Org records categorizing as legal fees' },
+  ],
+  coverup: [
+    'The "catch and kill" scheme used American Media Inc. (National Enquirer) as a covert campaign tool to suppress damaging stories before the 2016 election',
+    'Michael Cohen created the shell company Essential Consultants LLC specifically to funnel the $130,000 payment to Stormy Daniels without leaving a traceable paper trail',
+    'Thirty-four business records were deliberately falsified to disguise hush money reimbursements as routine legal expenses over the course of 2017',
+    'Trump personally signed reimbursement checks to Cohen from the Oval Office while serving as president, demonstrating ongoing involvement in the coverup',
+    'The payment to Karen McDougal was structured through AMI to avoid campaign finance disclosure requirements, with the story permanently killed',
+    'Despite public denials of any knowledge, Hope Hicks testified that Trump was aware of and deeply concerned about the stories\' impact on his campaign',
+    'Cohen\'s reimbursement was grossed up to $420,000 to cover taxes and include a bonus, all disguised in Trump Organization records as a legal retainer',
   ],
   catchAndKill: [
     { story: 'Karen McDougal affair', payment: '$150,000', outlet: 'National Enquirer/AMI', status: 'Story killed' },
@@ -210,6 +225,11 @@ export default function HushMoneyPage() {
             <Users className="w-5 h-5 text-blood-500" />
             Key Figures
           </h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {investigation.keyFigures.map((figure, idx) => (
               <Link
@@ -320,6 +340,11 @@ export default function HushMoneyPage() {
           </div>
         </motion.div>
 
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.div>
         {/* Sources */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

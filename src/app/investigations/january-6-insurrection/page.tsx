@@ -10,8 +10,7 @@ import {
   FileText,
   ExternalLink,
   Scale,
-  Skull,
-} from 'lucide-react';
+  Skull, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -82,12 +81,31 @@ const investigation = {
     { date: 'Jun 2022', event: 'January 6 Committee public hearings begin' },
     { date: 'Aug 2023', event: 'Trump indicted on 4 federal counts related to January 6' },
   ],
+  legalOutcomes: [
+    { defendant: 'Stewart Rhodes (Oath Keepers)', charge: 'Seditious Conspiracy', outcome: '18 years federal prison (May 2023)' },
+    { defendant: 'Enrique Tarrio (Proud Boys)', charge: 'Seditious Conspiracy', outcome: '22 years federal prison - longest January 6 sentence (September 2023)' },
+    { defendant: 'Peter Navarro', charge: 'Contempt of Congress', outcome: '4 months federal prison (2024)' },
+    { defendant: 'Steve Bannon', charge: 'Contempt of Congress', outcome: '4 months federal prison (2024)' },
+    { defendant: 'Jacob Chansley (QAnon Shaman)', charge: 'Obstruction of Official Proceeding', outcome: '41 months federal prison (November 2021)' },
+    { defendant: 'Donald Trump', charge: '4 Federal Counts (Conspiracy, Obstruction)', outcome: 'Indicted by Jack Smith (August 2023), case dismissed after 2024 election' },
+    { defendant: '1,400+ Capitol Rioters', charge: 'Various federal charges', outcome: 'Over 1,000 convictions including 600+ sentenced to incarceration as of 2025' },
+  ],
   charges: [
     { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States', defendant: 'Trump' },
     { statute: '18 U.S.C. § 1512(c)', description: 'Obstruction of an official proceeding', defendant: 'Trump' },
     { statute: '18 U.S.C. § 1512(k)', description: 'Conspiracy to obstruct an official proceeding', defendant: 'Trump' },
     { statute: '18 U.S.C. § 241', description: 'Conspiracy against rights', defendant: 'Trump' },
     { statute: '18 U.S.C. § 2384', description: 'Seditious Conspiracy', defendant: 'Oath Keepers/Proud Boys' },
+  ],
+  coverup: [
+    'Trump delayed deploying the National Guard for over three hours while the Capitol was under siege, despite urgent pleas from staff, family, and Congressional leaders',
+    'The Secret Service deleted text messages from January 5 and 6 despite a preservation order from the Department of Homeland Security Inspector General',
+    'White House call logs showed a gap of over 7 hours on January 6, leaving no official record of Trump\'s communications during the peak of the attack',
+    'Trump praised the rioters as "very special" people in his video message and later called January 6 defendants "patriots" and "hostages"',
+    'Multiple Republican members of Congress sought presidential pardons for their roles in events surrounding January 6, according to witness testimony',
+    'Mark Meadows reportedly burned documents in his White House fireplace in the weeks following the election and during the transition period',
+    'Trump attempted to pressure the Department of Justice to declare the election "corrupt" and told acting AG Jeffrey Rosen to "just say the election was corrupt and leave the rest to me"',
+    'The House January 6 Committee concluded that Trump engaged in a "multi-part conspiracy" to overturn the 2020 election and referred him for criminal prosecution',
   ],
   damage: '$2.73 billion in damages to Capitol and surrounding area',
   arrests: '1,400+ individuals charged as of 2025',
@@ -176,6 +194,11 @@ export default function January6Page() {
             <Users className="w-5 h-5 text-blood-500" />
             Key Figures & Organizers
           </h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {investigation.keyFigures.map((figure, idx) => (
               <Link
@@ -282,6 +305,11 @@ export default function January6Page() {
           </div>
         </motion.div>
 
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.div>
         {/* Sources */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

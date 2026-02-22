@@ -13,8 +13,7 @@ import {
   Scale,
   Clock,
   Shield,
-  Key,
-} from 'lucide-react';
+  Key, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigationData = {
@@ -171,6 +170,33 @@ const investigationData = {
       'Rewards criminal loyalty over truth-telling',
     ],
   },
+
+  legalOutcomes: [
+    { defendant: 'Paul Manafort', charge: 'Tax fraud, bank fraud, conspiracy against the United States (pardoned Dec 2020)', outcome: 'Convicted on 8 counts in 2018; sentenced to 7.5 years; pardoned by Trump before completing sentence' },
+    { defendant: 'Roger Stone', charge: 'Obstruction, witness tampering, making false statements to Congress', outcome: 'Convicted on 7 counts in Nov 2019; sentenced to 40 months; commuted by Trump Jul 2020, pardoned Dec 2020' },
+    { defendant: 'Michael Flynn', charge: 'Making false statements to the FBI (18 U.S.C. § 1001)', outcome: 'Pleaded guilty twice; pardoned by Trump Nov 2020 before sentencing' },
+    { defendant: 'Steve Bannon', charge: 'Wire fraud and money laundering conspiracy (We Build the Wall scheme)', outcome: 'Indicted Aug 2020; pardoned by Trump Jan 20, 2021, hours before leaving office' },
+    { defendant: 'Charles Kushner', charge: 'Tax evasion, witness tampering, illegal campaign contributions', outcome: 'Convicted 2005; served 14 months; pardoned by Trump Dec 2020' },
+    { defendant: 'George Papadopoulos', charge: 'Making false statements to federal investigators', outcome: 'Convicted 2018; served 12 days; pardoned by Trump Dec 2020' },
+  ],
+  charges: [
+    { statute: '18 U.S.C. § 1512(b)', description: 'Obstruction of justice through dangling pardons to discourage cooperation with Mueller investigation', count: 'Multiple instances (Manafort, Stone, Flynn)' },
+    { statute: '18 U.S.C. § 201', description: 'Bribery — implicit exchange of pardons for silence and loyalty to the president', count: 'Pattern across multiple pardon recipients' },
+    { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States by using pardon power to undermine federal investigations', count: '1 count covering the overall pattern' },
+    { statute: 'Article II, Section 4 (Impeachment Clause)', description: 'Abuse of presidential pardon power constituting a high crime or misdemeanor', count: 'Systemic pattern throughout presidency' },
+    { statute: '18 U.S.C. § 1503', description: 'Obstruction of justice — corrupt interference with due administration of justice through pardon grants', count: 'Multiple instances tied to Russia investigation witnesses' },
+    { statute: '18 U.S.C. § 4', description: 'Misprision of felony — pardoning individuals known to have committed crimes to prevent further investigation', count: 'Multiple instances' },
+  ],
+  coverup: [
+    'Trump dangled pardons to Manafort and Stone during the Mueller investigation, which both prosecutors and Manafort\'s own lawyer acknowledged influenced their refusal to cooperate with investigators.',
+    'Roger Stone was convicted of lying to Congress specifically to protect Trump; Trump commuted his sentence days before Stone was to report to prison, then granted a full pardon months later.',
+    'Michael Flynn\'s pardon came after he twice pleaded guilty and was cooperating with prosecutors — the pardon effectively ended his cooperation and any further information he might have provided.',
+    'Steve Bannon was pardoned on Trump\'s last day in office for a fraud scheme that stole money from Trump\'s own supporters who donated to build a border wall — the pardon prevented a federal trial.',
+    'Charles Kushner\'s pardon was a direct family favor — he had been convicted of hiring a prostitute to entrap and blackmail his own brother-in-law to prevent cooperation with federal investigators.',
+    'Trump broke with the established Office of the Pardon Attorney process for most of his controversial pardons, bypassing normal vetting and merit-based review.',
+    'The pardon of Blackwater contractors convicted of massacring 14 Iraqi civilians in Nisour Square was condemned by the UN and human rights organizations as undermining accountability for war crimes.',
+    'Many pardon recipients were represented by lawyers with direct ties to Trump or had advocates who appeared on Fox News to publicly lobby for pardons.',
+  ],
 
   sources: [
     { title: 'DOJ Pardon Database', url: 'http://web.archive.org/web/20210424061514/https://www.justice.gov/pardon/pardons-granted-president-donald-trump', type: 'Government Database' },
@@ -407,6 +433,11 @@ export default function PardonsPage() {
             <Scale className="w-5 h-5 text-blood-500" />
             Legal Analysis
           </h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <p className="text-xs text-zinc-500 uppercase mb-2">Pardon Power Limits</p>
@@ -455,6 +486,16 @@ export default function PardonsPage() {
           </div>
         </motion.section>
 
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.section>
         {/* Sources */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

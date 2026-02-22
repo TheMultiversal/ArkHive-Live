@@ -10,8 +10,7 @@ import {
   FileText,
   ExternalLink,
   Scale,
-  Shield,
-} from 'lucide-react';
+  Shield, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -50,12 +49,28 @@ const investigation = {
     { date: 'May 2023', event: 'All five convicted of seditious conspiracy' },
     { date: 'Aug-Sept 2023', event: 'Sentences ranging from 10-22 years handed down' },
   ],
+  legalOutcomes: [
+    { defendant: 'Enrique Tarrio', charge: 'Seditious Conspiracy + Obstruction', outcome: '22 years federal prison (September 2023) - longest January 6 sentence' },
+    { defendant: 'Ethan Nordean', charge: 'Seditious Conspiracy + Obstruction', outcome: '18 years federal prison' },
+    { defendant: 'Joseph Biggs', charge: 'Seditious Conspiracy + Obstruction', outcome: '17 years federal prison' },
+    { defendant: 'Zachary Rehl', charge: 'Seditious Conspiracy + Obstruction', outcome: '15 years federal prison' },
+    { defendant: 'Dominic Pezzola', charge: 'Seditious Conspiracy + Obstruction', outcome: '10 years federal prison' },
+  ],
   charges: [
     { statute: '18 U.S.C. § 2384', description: 'Seditious conspiracy', defendants: 'Tarrio, Biggs, Nordean, Rehl, Pezzola' },
     { statute: '18 U.S.C. § 1512(k)', description: 'Conspiracy to obstruct an official proceeding', defendants: 'All five' },
     { statute: '18 U.S.C. § 1512(c)(2)', description: 'Obstruction of an official proceeding', defendants: 'All five' },
     { statute: '18 U.S.C. § 371', description: 'Conspiracy to prevent officer from discharging duties', defendants: 'All five' },
     { statute: '18 U.S.C. § 231(a)(3)', description: 'Civil disorder', defendants: 'All five' },
+  ],
+  coverup: [
+    'The Proud Boys created a "1776 Returns" operational planning document detailing their strategy to occupy government buildings on January 6',
+    'Enrique Tarrio was deliberately arrested on January 4 for burning a BLM banner, allowing him to direct operations remotely and avoid being identified at the Capitol',
+    'Encrypted Telegram and Signal channels revealed extensive pre-planning under the "Ministry of Self Defense" leadership structure within the organization',
+    'The group marched to the Capitol ahead of the rally crowd, arriving before Trump\'s speech ended, demonstrating that the breach was premeditated rather than spontaneous',
+    'Dominic Pezzola used a stolen police riot shield to smash the first window breached at the Capitol, enabling the initial wave of rioters to enter the building',
+    'Roger Stone\'s coordination with the Proud Boys remains under investigation, with evidence of communications in the days before January 6',
+    'After Trump\'s "stand back and stand by" comment at the September 2020 debate, the Proud Boys adopted the phrase as a recruitment slogan and saw massive membership increases',
   ],
   evidence: [
     'Encrypted Signal and Telegram messages planning attack',
@@ -161,6 +176,11 @@ export default function ProudBoysSeditionPage() {
             </div>
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}
@@ -291,6 +311,11 @@ export default function ProudBoysSeditionPage() {
             </motion.div>
 
             {/* Sources */}
+
+            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
+              <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h3>
+              <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+            </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}

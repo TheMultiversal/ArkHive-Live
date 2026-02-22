@@ -11,8 +11,7 @@ import {
   ExternalLink,
   Scale,
   Flame,
-  Car,
-} from 'lucide-react';
+  Car, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -94,6 +93,23 @@ const investigation = {
     { defendant: 'Richard Spencer', charge: 'Civil conspiracy', outcome: 'Liable for damages' },
     { defendant: 'Jason Kessler', charge: 'Civil conspiracy', outcome: 'Liable for damages' },
     { defendant: 'Christopher Cantwell', charge: 'Assault, perjury', outcome: 'Convicted, prison' },
+  ],
+  charges: [
+    { statute: '18 U.S.C. § 249 — Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act', description: 'Willful causing of bodily injury through use of a dangerous weapon because of race, color, religion, or national origin', count: '29 federal hate crime charges filed against James Alex Fields Jr.' },
+    { statute: '18 U.S.C. § 245 — Federally Protected Activities', description: 'Interference with federally protected activities by force or threat of force on the basis of race', count: 'Applied in federal prosecution of Fields' },
+    { statute: '42 U.S.C. § 1985(3) — Conspiracy to Interfere with Civil Rights (Ku Klux Klan Act)', description: 'Civil conspiracy to deprive persons of equal protection of the laws through coordinated intimidation', count: 'Central charge in Sines v. Kessler civil trial — organizers found liable for $26 million' },
+    { statute: '18 U.S.C. § 241 — Conspiracy Against Rights', description: 'Conspiracy to injure, oppress, threaten, or intimidate persons in free exercise of constitutional rights', count: 'Applied to rally organizers\' coordinated intimidation campaign' },
+    { statute: 'Va. Code § 18.2-32 — First-Degree Murder', description: 'Premeditated killing of Heather Heyer by deliberately driving vehicle into crowd of counter-protesters', count: '1 count — Fields convicted, sentenced to life plus 419 years' },
+    { statute: '18 U.S.C. § 2101 — Federal Anti-Riot Act', description: 'Traveling in interstate commerce with intent to incite, organize, or participate in a riot', count: 'Applicable to out-of-state rally organizers and armed participants' },
+  ],
+  coverup: [
+    'Charlottesville Police and Virginia State Police failed to separate armed white nationalist groups from counter-protesters despite weeks of advance intelligence about planned violence',
+    'Internal police communications revealed officers were instructed to avoid direct engagement with armed white nationalist militia members who openly carried firearms',
+    'Multiple law enforcement agencies had advance intelligence about armed militia groups traveling to Charlottesville but took no preventive action to restrict weapons at the rally',
+    'Trump\'s "very fine people on both sides" remarks deflected accountability from white nationalist organizers and normalized political violence at the highest level of government',
+    'Rally organizers coordinated with armed militia groups through Discord while publicly framing the event as a peaceful "free speech" demonstration about Confederate monuments',
+    'Discord chat logs revealed months of pre-planning for violence among rally participants, but the platform initially resisted sharing evidence with law enforcement investigators',
+    'Virginia\'s independent after-action review found systemic failures in police planning and response, but no officers were disciplined for the operational failures that enabled the car attack',
   ],
   sources: [
     { title: 'Trump\'s Charlottesville Press Conference Transcript', url: 'https://www.politifact.com/article/2019/apr/26/context-trumps-very-fine-people-both-sides-remarks/', date: '2017' },
@@ -183,6 +199,11 @@ export default function CharlottesvillePage() {
             ))}
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}
@@ -239,6 +260,10 @@ export default function CharlottesvillePage() {
                   </div>
                 ))}
               </div>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }} className="glass-card p-6">
+              <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+              <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
             </motion.div>
 
             {/* Who Attended */}

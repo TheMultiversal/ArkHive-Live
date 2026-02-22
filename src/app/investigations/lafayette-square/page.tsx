@@ -12,8 +12,7 @@ import {
   Scale,
   Church,
   Camera,
-  Shield,
-} from 'lucide-react';
+  Shield, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -39,16 +38,16 @@ const investigation = {
     { context: 'Rose Garden speech', quote: '"I am dispatching thousands and thousands of heavily armed soldiers"' },
   ],
   timeline: [
-    { time: '6:30 PM', event: 'Trump announces he will address nation from Rose Garden' },
-    { time: '6:35 PM', event: 'Officers begin positioning around Lafayette Square' },
-    { time: '6:43 PM', event: 'First dispersal orders given (disputed if audible)' },
-    { time: '6:50 PM', event: 'Officers charge peaceful protesters without warning' },
-    { time: '6:50 PM', event: 'Tear gas, pepper balls, and batons deployed against crowd' },
-    { time: '6:50 PM', event: 'Media and clergy also attacked by officers' },
-    { time: '7:00 PM', event: 'Trump delivers Rose Garden speech' },
-    { time: '7:01 PM', event: 'Trump walks through cleared park toward church' },
-    { time: '7:06 PM', event: 'Trump poses with Bible in front of St. John\'s Church' },
-    { time: '7:11 PM', event: 'Trump returns to White House' },
+    { date: '6:30 PM', event: 'Trump announces he will address nation from Rose Garden' },
+    { date: '6:35 PM', event: 'Officers begin positioning around Lafayette Square' },
+    { date: '6:43 PM', event: 'First dispersal orders given (disputed if audible)' },
+    { date: '6:50 PM', event: 'Officers charge peaceful protesters without warning' },
+    { date: '6:50 PM', event: 'Tear gas, pepper balls, and batons deployed against crowd' },
+    { date: '6:50 PM', event: 'Media and clergy also attacked by officers' },
+    { date: '7:00 PM', event: 'Trump delivers Rose Garden speech' },
+    { date: '7:01 PM', event: 'Trump walks through cleared park toward church' },
+    { date: '7:06 PM', event: 'Trump poses with Bible in front of St. John\'s Church' },
+    { date: '7:11 PM', event: 'Trump returns to White House' },
   ],
   keyFigures: [
     { name: 'Donald Trump', role: 'Ordered area cleared for photo op', href: '/entities/individuals/donald-trump', status: 'Subject' },
@@ -88,6 +87,31 @@ const investigation = {
     { case: 'Black Lives Matter DC v. Trump', status: 'Lawsuit against Trump and officials', outcome: 'Ongoing' },
     { case: 'ACLU v. Barr', status: 'Challenged excessive force', outcome: 'Ongoing' },
     { case: 'Congressional Investigations', status: 'Multiple hearings held', outcome: 'Documented abuses' },
+  ],
+  legalOutcomes: [
+    { defendant: 'U.S. Park Police', charge: 'Use of excessive force against peaceful protesters', outcome: 'Interior IG report found clearance pre-planned but did not assess force proportionality' },
+    { defendant: 'William Barr', charge: 'Personally directing violent clearing of peaceful protesters', outcome: 'Named in Black Lives Matter DC v. Trump lawsuit; DOJ represented him' },
+    { defendant: 'Donald Trump', charge: 'Ordering military force against peaceful American protesters', outcome: 'Named in BLM DC lawsuit; claimed presidential immunity' },
+    { defendant: 'Bureau of Prisons Officers', charge: 'Deployment of unidentified federal officers using force against protesters', outcome: 'Officers deployed without identification badges; no individual accountability' },
+    { defendant: 'DC National Guard', charge: 'Use of military helicopter to intimidate protesters at low altitude', outcome: 'Army investigation found helicopter use violated regulations; pilot disciplined' },
+    { defendant: 'Federal Officers (multiple agencies)', charge: 'Assault on clergy and media at St. John\'s Church', outcome: 'No officers disciplined despite documented attacks on press and religious figures' },
+  ],
+  charges: [
+    { statute: 'U.S. Const. Amend. I', description: 'First Amendment violations - suppression of peaceful assembly and free speech rights through use of force', count: 'Hundreds of protesters affected' },
+    { statute: '42 U.S.C. § 1983', description: 'Deprivation of civil rights under color of law - federal officers using excessive force against peaceful protesters', count: 'Class action' },
+    { statute: '18 U.S.C. § 242', description: 'Deprivation of rights under color of law - willful use of tear gas, pepper balls, and batons on constitutionally protected activity', count: 'Multiple officers involved' },
+    { statute: '18 U.S.C. § 245', description: 'Federally protected activities - interference with right to peaceful protest on public land', count: 'Multiple incidents' },
+    { statute: '10 U.S.C. § 275', description: 'Posse Comitatus Act concerns - use of military forces for civilian law enforcement purposes', count: '1 incident' },
+    { statute: '42 U.S.C. § 2000aa', description: 'Privacy Protection Act - targeting journalists with force, destroying media equipment', count: 'Multiple media personnel attacked' },
+  ],
+  coverup: [
+    'The Interior Department Inspector General\'s report was narrowly scoped to only determine if the clearing was pre-planned, avoiding the central question of whether force was proportional or justified',
+    'Attorney General Barr denied that tear gas was used, claiming officers used "pepper balls" - a distinction without meaningful difference as both are chemical irritants',
+    'The administration claimed the clearing was necessary to install anti-scale fencing, not for the photo op, despite the events occurring in sequence within minutes',
+    'Park Police initially claimed officers were attacked with projectiles, but video evidence showed protesters were peaceful at the time of the assault',
+    'Bureau of Prisons officers were deployed without identification badges or agency markings, making it impossible for victims to identify their attackers for accountability',
+    'The IG report did not interview President Trump or assess his role in ordering the clearing, leaving the command chain deliberately unexamined',
+    'The administration attacked the credibility of military leaders who condemned the action, including Gen. Mattis and Gen. Milley, to discredit their criticism',
   ],
   sources: [
     { title: 'Interior IG Report', url: 'https://www.doioig.gov/reports/review/review-us-park-police-actions-lafayette-park', date: '2021' },
@@ -146,12 +170,17 @@ export default function LafayetteSquarePage() {
             {investigation.timeline.map((item, idx) => (
               <div key={idx} className="relative pl-4 border-l-2 border-zinc-800">
                 <div className="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-blood-500" />
-                <p className="text-xs text-blood-500 font-mono">{item.time}</p>
+                <p className="text-xs text-blood-500 font-mono">{item.date}</p>
                 <p className="text-sm text-zinc-300">{item.event}</p>
               </div>
             ))}
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}
@@ -207,6 +236,10 @@ export default function LafayetteSquarePage() {
                   </div>
                 ))}
               </div>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }} className="glass-card p-6">
+              <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+              <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
             </motion.div>
 
             {/* Military Condemnation */}
@@ -353,6 +386,11 @@ export default function LafayetteSquarePage() {
             </motion.div>
 
             {/* Sources */}
+
+            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
+              <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h3>
+              <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+            </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}

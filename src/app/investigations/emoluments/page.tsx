@@ -11,6 +11,8 @@ import {
   ExternalLink,
   Building,
   DollarSign,
+  ShieldAlert,
+  Scale,
 } from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
@@ -75,8 +77,38 @@ const investigation = {
     { date: 'Feb 2021', event: 'House Oversight reveals $3.7M from foreign governments' },
     { date: '2022', event: 'Trump sells DC Hotel for $375 million (after profiting throughout term)' },
   ],
+  legalOutcomes: [
+    { defendant: 'Donald Trump', charge: 'Foreign Emoluments Clause violation (Art. I, Sec. 9)', outcome: 'CREW v. Trump dismissed as moot after term ended (2021)' },
+    { defendant: 'Donald Trump', charge: 'Domestic Emoluments Clause violation (Art. II, Sec. 1)', outcome: 'DC & Maryland v. Trump dismissed as moot by Supreme Court (2021)' },
+    { defendant: 'Donald Trump', charge: 'Accepting foreign emoluments without congressional consent', outcome: 'Blumenthal v. Trump (200+ members of Congress) dismissed as moot' },
+    { defendant: 'Trump Organization', charge: 'GSA lease violation - elected official benefiting from federal lease', outcome: 'GSA found no violation despite clear conflict; hotel sold for $375M in 2022' },
+    { defendant: 'Trump Organization', charge: 'Tax fraud and financial misrepresentation', outcome: 'NY AG civil fraud case resulted in $454 million judgment (2024)' },
+  ],
+  charges: [
+    { statute: 'U.S. Const. Art. I, § 9, Cl. 8', description: 'Foreign Emoluments Clause - accepting payments from foreign governments through hotels and properties without congressional consent', count: 'Continuous violation throughout term' },
+    { statute: 'U.S. Const. Art. II, § 1, Cl. 7', description: 'Domestic Emoluments Clause - receiving payments from federal and state governments through Trump properties', count: 'Continuous violation throughout term' },
+    { statute: '18 U.S.C. § 208', description: 'Acts affecting personal financial interest - participating in government decisions affecting his own business interests', count: 'Multiple instances' },
+    { statute: '5 U.S.C. § 7353', description: 'Gifts to federal employees - accepting gifts and payments from those seeking official action', count: 'Multiple instances' },
+    { statute: '40 U.S.C. § 581(h)', description: 'GSA lease terms violation - Old Post Office lease prohibited elected officials from being party to the lease', count: '1 continuous violation' },
+    { statute: '18 U.S.C. § 1346', description: 'Honest services fraud - depriving the public of the right to honest services through self-dealing', count: 'Multiple instances' },
+  ],
+  coverup: [
+    'Trump claimed to place his businesses in a "blind trust" run by his sons, but retained full ownership and could withdraw profits at any time, making the trust meaningless',
+    'The General Services Administration under Trump appointees found "no violation" of the Old Post Office lease despite its explicit prohibition on elected officials benefiting',
+    'The Trump Organization refused to disclose detailed financial records showing foreign government payments, requiring years of litigation to obtain',
+    'White House officials directed Secret Service and government staff to stay at Trump properties, creating taxpayer-funded revenue streams back to the president',
+    'The administration blocked congressional subpoenas for Trump Organization financial records, delaying oversight until cases became moot after his term ended',
+    'Trump proposed hosting the 2020 G7 summit at his own Doral golf resort, only backing down after bipartisan outrage exposed the blatant self-dealing',
+    'The DOJ under Barr argued in court that no one had standing to sue over emoluments violations, effectively making the constitutional provision unenforceable',
+  ],
   sources: [
     { title: 'Congressional Research Service Report', url: 'https://crsreports.congress.gov/product/pdf/R/R45992', date: '2019' },
+    { title: 'CREW: Trump\'s 3,400 Conflicts of Interest', url: 'https://www.citizensforethics.org/reports-investigations/crew-reports/president-trumps-3400-conflicts-of-interest/', date: '2021' },
+    { title: 'House Oversight: $7.8 Million from Foreign Governments', url: 'https://democrats-oversight.house.gov/news/press-releases/new-documents-reveal-trump-received-at-least-37-million-from-foreign-governments', date: '2022' },
+    { title: 'DC & Maryland v. Trump - Emoluments Lawsuit', url: 'https://www.washingtonpost.com/politics/dc-and-maryland-may-proceed-with-emoluments-case-against-trump-federal-judge-rules/2018/07/25/7c869dfa-8f87-11e8-bcd5-9d911c784c38_story.html', date: '2018' },
+    { title: 'Blumenthal v. Trump - Congressional Emoluments Challenge', url: 'https://www.politico.com/story/2019/09/04/democrats-emoluments-case-trump-1481327', date: '2019' },
+    { title: 'GSA Inspector General Report on Old Post Office Lease', url: 'https://www.gsaig.gov/content/gsa%E2%80%99s-management-old-post-office-building-lease', date: '2019' },
+    { title: 'NY AG Civil Fraud Judgment Against Trump Organization', url: 'https://ag.ny.gov/press-release/2024/attorney-general-james-wins-landmark-victory-fraud-case-against-donald-trump', date: '2024' },
   ],
 };
 
@@ -290,6 +322,22 @@ export default function EmolumentsPage() {
               </div>
             ))}
           </div>
+        </motion.div>
+
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.div>
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.div>
+
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
         </motion.div>
 
         {/* Sources */}

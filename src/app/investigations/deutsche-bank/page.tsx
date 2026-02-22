@@ -12,8 +12,7 @@ import {
   Scale,
   DollarSign,
   Building,
-  Globe,
-} from 'lucide-react';
+  Globe, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -90,11 +89,28 @@ const investigation = {
     { date: '2023', event: 'NY AG fraud case reveals inflated financial statements to bank' },
     { date: '2024', event: 'Trump ordered to pay $454M in NY fraud case' },
   ],
+  legalOutcomes: [
+    { defendant: 'Deutsche Bank', charge: 'Russian Mirror Trading Scheme', outcome: '$630 million fine paid to U.S. and UK regulators (2017)' },
+    { defendant: 'Deutsche Bank', charge: 'LIBOR Manipulation', outcome: '$2.5 billion in fines to U.S. and UK regulators (2015)' },
+    { defendant: 'Allen Weisselberg', charge: 'Tax Fraud - Provided false financials to bank', outcome: 'Pleaded guilty, sentenced to 5 months at Rikers Island' },
+    { defendant: 'Trump Organization', charge: 'Fraud in Financial Statements to Deutsche Bank', outcome: '$454 million civil judgment (February 2024)' },
+    { defendant: 'Rosemary Vrablic', charge: 'Ethics Violations - Personal investments alongside clients', outcome: 'Resigned from Deutsche Bank (2020)' },
+    { defendant: 'Deutsche Bank', charge: 'FOREX Manipulation', outcome: '$258 million fine to CFTC and regulators (2015)' },
+  ],
   charges: [
     { statute: 'Bank Fraud (18 U.S.C. § 1344)', description: 'Submitting false financial statements to obtain loans', jurisdiction: 'Federal' },
     { statute: 'Money Laundering', description: 'Potential flow of Russian funds through loans', jurisdiction: 'Federal' },
     { statute: 'Executive Law 63(12)', description: 'NY fraudulent business practices', jurisdiction: 'New York' },
     { statute: 'False Statements', description: 'Lying about asset values to secure loans', jurisdiction: 'State/Federal' },
+  ],
+  coverup: [
+    'Internal compliance officers raised red flags about Trump loans but were repeatedly overridden by management who wanted to maintain the lucrative relationship',
+    'Rosemary Vrablic and Dominic Scalzi, Trump\'s primary bankers, resigned amid investigations into their personal investments alongside bank clients',
+    'Deutsche Bank fought Congressional subpoenas for Trump financial records through multiple courts for years before being compelled to comply',
+    'Val Broeksmit, who provided thousands of internal Deutsche Bank documents to the FBI, was found dead in Los Angeles in 2022 under circumstances that remain under investigation',
+    'The bank continued lending to Trump even after he defaulted on loans and sued them for $3 billion, raising questions about the true nature of the relationship',
+    'Deutsche Bank\'s wealth management division simultaneously handled accounts for Trump and Russian oligarchs sanctioned after 2014',
+    'Internal suspicious activity reports about Trump transactions were flagged by bank employees but reportedly not forwarded to Treasury Department officials',
   ],
   sources: [
     { title: 'Deutsche Bank and Trump: A Timeline', url: 'https://www.nytimes.com/2020/02/04/magazine/deutsche-bank-trump.html', date: '2020' },
@@ -162,6 +178,11 @@ export default function DeutscheBankPage() {
             ))}
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}
@@ -329,6 +350,11 @@ export default function DeutscheBankPage() {
             </motion.div>
 
             {/* Sources */}
+
+            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
+              <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h3>
+              <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+            </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}

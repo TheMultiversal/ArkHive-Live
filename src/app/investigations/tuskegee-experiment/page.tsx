@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowLeft, Users, Calendar, ExternalLink, Scale, Heart, Syringe, FileText, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, Users, Calendar, ExternalLink, Scale, Heart, Syringe, FileText, AlertTriangle , ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -74,6 +74,16 @@ const investigation = {
     { defendant: 'CDC officials who voted to continue', charge: 'Complicity in medical abuse', outcome: 'No consequences — careers continued' },
     { defendant: 'US Government', charge: 'Formal acknowledgment of wrongdoing', outcome: 'Presidential apology (1997) — 25 years after exposure' },
   ],
+  coverup: [
+    'USPHS researchers deliberately misled 399 Black men by calling the study "treatment for bad blood" while providing no actual treatment for syphilis throughout the 40-year experiment',
+    'When penicillin became the standard cure for syphilis in the 1940s, researchers actively prevented participants from receiving treatment — including intercepting military draft notices to block treatment at induction centers',
+    'In 1969, a CDC advisory committee reviewed the study\'s ethics and voted unanimously to continue it, prioritizing data collection over the lives and health of the Black men enrolled',
+    'USPHS published over a dozen papers in medical journals openly describing the non-treatment experiment; no medical professional, journal editor, or ethics reviewer raised objections for 40 years',
+    'PHS officials defended the study internally by claiming the men would not have sought treatment anyway, using racist assumptions to justify continued experimentation on human subjects',
+    'The study was only exposed because PHS researcher Peter Buxtun leaked information to the Associated Press in 1972 after his internal complaints were ignored by superiors for six years',
+    'After exposure, the federal government settled the class-action lawsuit quickly and quietly for $10 million, with no formal admission of wrongdoing and no criminal prosecution of any researcher or administrator involved',
+    'Nurse Eunice Rivers, who recruited participants and maintained their trust for decades, was praised by the PHS with an official commendation — her central role in facilitating the deception was never acknowledged as wrongdoing',
+  ],
   sources: [
     { title: 'James H. Jones: Bad Blood: The Tuskegee Syphilis Experiment', url: 'https://archive.org/details/badbloodtuskegee00jone', date: '1981/1993' },
     { title: 'CDC: The Tuskegee Timeline', url: 'https://www.cdc.gov/tuskegee/timeline.htm', date: 'Official record' },
@@ -143,6 +153,11 @@ export default function TuskegeeExperimentPage() {
             ))}
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-8">

@@ -11,8 +11,7 @@ import {
   ExternalLink,
   Scale,
   Building,
-  DollarSign,
-} from 'lucide-react';
+  DollarSign, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -44,6 +43,14 @@ const investigation = {
     { act: 'Pressure on State Officials', detail: 'Calls to Gov. Kemp, AG Carr demanding they help overturn results', evidence: 'Call records, testimony' },
     { act: 'False Fraud Claims', detail: 'Knowingly false claims about State Farm Arena "suitcases"', evidence: 'Debunked repeatedly, video' },
   ],
+  legalOutcomes: [
+    { defendant: 'Sidney Powell', charge: 'Georgia RICO - Conspiracy to Commit Election Fraud', outcome: 'Pleaded guilty - 6 years probation, $6,000 restitution, must testify (October 2023)' },
+    { defendant: 'Kenneth Chesebro', charge: 'Georgia RICO - Conspiracy to Commit Filing False Documents', outcome: 'Pleaded guilty - 5 years probation (October 2023)' },
+    { defendant: 'Jenna Ellis', charge: 'Georgia RICO - Aiding and Abetting False Statements', outcome: 'Pleaded guilty - 5 years probation, $5,000 restitution (October 2023)' },
+    { defendant: 'Scott Hall', charge: 'Georgia RICO - Conspiracy to Commit Election Fraud', outcome: 'Pleaded guilty - 5 years probation, 200 hours community service (September 2023)' },
+    { defendant: 'Rudy Giuliani', charge: 'Defamation of Ruby Freeman and Shaye Moss', outcome: '$148 million jury judgment (December 2023), filed for bankruptcy' },
+    { defendant: 'Donald Trump', charge: 'Georgia RICO - 13 counts including racketeering', outcome: 'Indicted August 2023, surrendered at Fulton County Jail, trial pending' },
+  ],
   charges: [
     { statute: 'O.C.G.A. § 16-14-4(c)', description: 'RICO Violation - Criminal Enterprise', counts: 'Trump + 18 others' },
     { statute: 'O.C.G.A. § 16-14-4(a)', description: 'Solicitation of RICO Violation', counts: 'Multiple defendants' },
@@ -52,6 +59,15 @@ const investigation = {
     { statute: 'O.C.G.A. § 16-10-23', description: 'Filing False Documents', counts: 'Multiple defendants' },
     { statute: 'O.C.G.A. § 16-10-20.1', description: 'Impersonating a Public Officer', counts: 'Fake electors' },
     { statute: 'O.C.G.A. § 16-9-1', description: 'Forgery', counts: 'Multiple defendants' },
+  ],
+  coverup: [
+    'Trump pressured Georgia Secretary of State Raffensperger in a recorded 67-minute phone call to "find 11,780 votes" - exactly one more than needed to overturn the state result',
+    'Giuliani presented manipulated surveillance video from State Farm Arena as evidence of ballot fraud, which was immediately and thoroughly debunked by state officials',
+    'Sidney Powell coordinated an unauthorized breach of voting equipment in Coffee County, Georgia, to search for nonexistent evidence of fraud',
+    'Despite four recounts and multiple audits confirming Biden\'s victory in Georgia, Trump and allies continued to publicly spread false claims of massive fraud',
+    'Election workers Ruby Freeman and Shaye Moss received death threats and were forced to go into hiding after being falsely accused of counting ballots multiple times',
+    'Trump sent a personal envoy to pressure Ruby Freeman to confess to election fraud she did not commit, telling her it would be better to cooperate',
+    'Four defendants flipped and agreed to cooperate with prosecutors within weeks of indictment, revealing the coordinated nature of the criminal enterprise',
   ],
   trumpRaffenspergerCall: {
     date: 'January 2, 2021',
@@ -162,6 +178,11 @@ export default function GeorgiaRICOPage() {
             <Users className="w-5 h-5 text-blood-500" />
             Key Defendants
           </h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {investigation.keyFigures.map((figure, idx) => (
               <Link
@@ -305,6 +326,11 @@ export default function GeorgiaRICOPage() {
           </div>
         </motion.div>
 
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.div>
         {/* Sources */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

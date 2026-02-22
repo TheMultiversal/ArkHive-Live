@@ -11,8 +11,7 @@ import {
   ExternalLink,
   Scale,
   Shield,
-  Target,
-} from 'lucide-react';
+  Target, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -57,12 +56,31 @@ const investigation = {
     { date: 'Nov 2022', event: 'Rhodes convicted of seditious conspiracy' },
     { date: 'May 2023', event: 'Rhodes sentenced to 18 years in prison' },
   ],
+  legalOutcomes: [
+    { defendant: 'Stewart Rhodes', charge: 'Seditious Conspiracy + Obstruction', outcome: '18 years federal prison (May 2023) - longest sentence for Oath Keeper leader' },
+    { defendant: 'Kelly Meggs', charge: 'Seditious Conspiracy + Obstruction', outcome: '12 years federal prison' },
+    { defendant: 'Jessica Watkins', charge: 'Conspiracy to Obstruct + Civil Disorder', outcome: '8.5 years federal prison' },
+    { defendant: 'Kenneth Harrelson', charge: 'Conspiracy to Obstruct + Civil Disorder', outcome: '4 years federal prison' },
+    { defendant: 'Thomas Caldwell', charge: 'Conspiracy to Obstruct Official Proceeding', outcome: '14 months federal prison' },
+    { defendant: 'Roberto Minuta', charge: 'Seditious Conspiracy', outcome: '4.5 years federal prison' },
+    { defendant: 'Edward Vallejo', charge: 'Seditious Conspiracy - QRF coordinator', outcome: '3 years federal prison' },
+  ],
   charges: [
     { statute: '18 U.S.C. § 2384', description: 'Seditious conspiracy', defendants: 'Rhodes, Meggs' },
     { statute: '18 U.S.C. § 1512(k)', description: 'Conspiracy to obstruct an official proceeding', defendants: 'All defendants' },
     { statute: '18 U.S.C. § 1512(c)(2)', description: 'Obstruction of an official proceeding', defendants: 'All defendants' },
     { statute: '18 U.S.C. § 372', description: 'Conspiracy to prevent officer from discharging duties', defendants: 'Multiple' },
     { statute: '18 U.S.C. § 1512(c)(1)', description: 'Tampering with documents', defendants: 'Rhodes' },
+  ],
+  coverup: [
+    'Oath Keepers established Quick Reaction Force (QRF) teams with weapons caches staged at a Comfort Inn in Arlington, Virginia, ready to ferry arms across the Potomac River',
+    'Stewart Rhodes spent over $20,000 on weapons, tactical equipment, and firearms training in the weeks leading up to January 6',
+    'Encrypted Signal and Zello communications revealed pre-planned coordination to storm the Capitol, contradicting claims of spontaneous protest',
+    'The group used military-style "stack" formations when breaching the Capitol building, demonstrating advance tactical planning and rehearsal',
+    'After January 6, Rhodes texted that members should have "brought rifles" and discussed further plans for armed resistance against the government',
+    'Rhodes met with Proud Boys leadership on January 5 at an underground parking garage, coordinating what prosecutors described as a joint plan to use force',
+    'Multiple Oath Keepers members attempted to destroy evidence by deleting encrypted communications and Signal messages after the attack',
+    'Despite seditious conspiracy convictions carrying combined sentences exceeding 53 years, some far-right media figures continued to downplay the attack as legitimate protest',
   ],
   evidence: [
     'Signal and Zello communications planning attack',
@@ -85,6 +103,11 @@ const investigation = {
   sources: [
     { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
     { title: 'Trial Evidence - QRF Documentation', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', date: '2022' },
+    { title: 'DOJ: Stewart Rhodes Sentenced to 18 Years', url: 'https://www.justice.gov/opa/pr/oath-keepers-leader-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy', date: 'May 2023' },
+    { title: 'Seditious Conspiracy Verdict Coverage', url: 'https://www.nytimes.com/2022/11/29/us/politics/oath-keepers-stewart-rhodes-seditious-conspiracy.html', date: 'Nov 2022' },
+    { title: 'Signal Communications and Trial Evidence', url: 'https://www.npr.org/2022/10/03/1126550834/oath-keepers-trial-jan-6-seditious-conspiracy', date: 'Oct 2022' },
+    { title: 'Proud Boys & Oath Keepers Coordination on Jan. 5', url: 'https://www.nytimes.com/2023/01/04/us/politics/proud-boys-oath-keepers-jan-6.html', date: 'Jan 2023' },
+    { title: 'Stewart Rhodes Sentencing Hearing', url: 'https://www.washingtonpost.com/dc-md-va/2023/05/25/stewart-rhodes-oath-keepers-sentencing/', date: 'May 2023' },
   ],
 };
 
@@ -132,6 +155,11 @@ export default function OathKeepersSeditionPage() {
             <Target className="w-5 h-5 text-red-500" />
             Quick Reaction Force (QRF) - Armed Teams
           </h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-black/50 p-4 border border-red-500/30">
               <p className="text-red-400 font-bold mb-2">Purpose</p>
@@ -293,6 +321,11 @@ export default function OathKeepersSeditionPage() {
             </motion.div>
 
             {/* Sources */}
+
+            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
+              <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h3>
+              <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+            </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}

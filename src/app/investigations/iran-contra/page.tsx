@@ -111,6 +111,16 @@ const investigation = {
     { statute: 'ICJ Ruling — Violation of International Law', description: 'Mining harbors, supporting paramilitary operations against sovereign nation', count: 'US found guilty — refused to comply' },
     { statute: '21 U.S.C. § 841 — Drug Trafficking (Contra networks)', description: 'CIA-connected networks imported cocaine into US', count: 'Documented but never prosecuted at policy level' },
   ],
+  coverup: [
+    'Oliver North and his secretary Fawn Hall shredded thousands of NSC documents between November 21-25, 1986, just as the scandal became public knowledge',
+    'Attorney General Edwin Meese conducted a deliberately narrow "fact-finding" investigation over a single weekend, providing the White House critical time to destroy additional evidence before a formal inquiry began',
+    'President Reagan claimed he "could not recall" key details over 80 times during his deposition to the Tower Commission, despite documentary evidence of his direct involvement in arms sales decisions',
+    'CIA Director William Casey suffered a seizure and died in May 1987 before he could testify before Congress, taking knowledge of the full scope of covert operations to the grave',
+    'President George H.W. Bush pardoned six Iran-Contra figures on Christmas Eve 1992, including Defense Secretary Caspar Weinberger, whose upcoming trial would have revealed Bush\'s own incriminating diary entries',
+    'The Tower Commission report deliberately framed Reagan as a disengaged manager rather than an active participant, despite evidence in NSC meeting minutes of his direct authorization of arms shipments',
+    'Independent Counsel Lawrence Walsh concluded that "high-ranking Administration officials" engaged in a systematic "pattern of deception" to obstruct both congressional and criminal investigations',
+    'The CIA Inspector General\'s classified report on Contra drug trafficking connections was withheld from Congress for years; when finally released in 1998, it confirmed CIA awareness of drug trafficking by Contra-linked networks',
+  ],
   sources: [
     { title: 'Report of the Congressional Committees Investigating the Iran-Contra Affair', url: 'https://archive.org/details/reportofcongress87unit', date: '1987' },
     { title: 'Lawrence Walsh Final Report — Independent Counsel for Iran/Contra Matters', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
@@ -200,6 +210,11 @@ export default function IranContraPage() {
             <p className="text-sm text-zinc-500 italic">{investigation.icjRuling.usResponse}</p>
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-8">

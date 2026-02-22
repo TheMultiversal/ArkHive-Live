@@ -11,8 +11,7 @@ import {
   ExternalLink,
   Scale,
   Globe,
-  Phone,
-} from 'lucide-react';
+  Phone, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -83,6 +82,33 @@ const investigation = {
     { date: 'Dec 18, 2019', event: 'House impeaches Trump on two articles' },
     { date: 'Jan-Feb 2020', event: 'Senate trial; no witnesses called; Trump acquitted' },
     { date: 'Feb 2020', event: 'Trump fires Vindman (and his twin brother) in retaliation' },
+  ],
+  legalOutcomes: [
+    { defendant: 'Donald Trump (first impeachment)', charge: 'Article I: Abuse of Power; Article II: Obstruction of Congress', outcome: 'Impeached by House Dec 18, 2019; acquitted by Senate Feb 5, 2020 (52-48 and 53-47); Sen. Romney voted to convict on Article I' },
+    { defendant: 'Lev Parnas', charge: 'Campaign finance violations, conspiracy, and making false statements to Congress', outcome: 'Convicted on all counts Oct 2021; sentenced to 20 months in federal prison' },
+    { defendant: 'Igor Fruman', charge: 'Solicitation of foreign campaign contributions and related conspiracy', outcome: 'Pleaded guilty Sep 2021 to one count of solicitation; sentenced to 1 year and 1 day' },
+    { defendant: 'Rudy Giuliani', charge: 'Conducting shadow diplomacy to pressure Ukraine; later disbarred and indicted in Georgia RICO case', outcome: 'NY law license suspended 2021; disbarred Jul 2024; indicted in Georgia election interference case' },
+    { defendant: 'Gordon Sondland', charge: 'Testified under oath there was a quid pro quo directing Ukraine policy', outcome: 'Fired from EU Ambassador post Feb 2020 in retaliation for testimony; no charges filed against him' },
+    { defendant: 'Lt. Col. Alexander Vindman', charge: 'Listened to Trump-Zelensky call and reported concerns through proper channels', outcome: 'Fired from NSC and escorted from White House Feb 2020 in retaliation; his twin brother also fired' },
+  ],
+  charges: [
+    { statute: 'Article II, Section 4 (Impeachment)', description: 'Abuse of power \u2014 leveraging $391 million in military aid and a White House meeting to coerce Ukraine into investigating a political rival', count: '1 article of impeachment (passed House 230-197)' },
+    { statute: 'Article II, Section 4 (Impeachment)', description: 'Obstruction of Congress \u2014 directing wholesale defiance of House impeachment inquiry subpoenas', count: '1 article of impeachment (passed House 229-198)' },
+    { statute: '18 U.S.C. \u00a7 201(b)', description: 'Bribery \u2014 conditioning official acts (military aid, White House meeting) on personal political favors', count: '1 count covering the July 25, 2019 call and surrounding scheme' },
+    { statute: '52 U.S.C. \u00a7 30121', description: 'Solicitation of foreign election interference \u2014 asking Ukraine to investigate Biden for campaign advantage', count: '1 count based on the call transcript and corroborating testimony' },
+    { statute: '18 U.S.C. \u00a7 1505', description: 'Obstruction of congressional proceedings \u2014 blocking witnesses and withholding documents from impeachment inquiry', count: 'Blanket obstruction across all subpoenas' },
+    { statute: '31 U.S.C. \u00a7 1341 (Impoundment Control Act)', description: 'Illegal withholding of congressionally appropriated military assistance to Ukraine', count: 'GAO ruled the hold illegal in Jan 2020' },
+    { statute: '18 U.S.C. \u00a7 1513', description: 'Retaliation against witnesses \u2014 firing Vindman, Sondland, and others who testified truthfully', count: 'Multiple retaliatory actions Feb 2020' },
+  ],
+  coverup: [
+    'The Trump White House moved the call summary to a highly classified codeword-level server (NICE) normally reserved for covert operations, in an effort to restrict access after officials recognized the call\'s legal implications.',
+    'The released "transcript" was actually a memo reconstructed from notes, not a verbatim recording \u2014 the White House mischaracterized it as a complete transcript while omitting portions of the conversation.',
+    'Trump directed all executive branch officials to defy House impeachment inquiry subpoenas, making it the most comprehensive obstruction of a Congressional investigation in American history.',
+    'Mick Mulvaney admitted at a press conference that military aid was conditioned on Ukraine investigating Democrats ("Get over it"), then attempted to retract the statement within hours.',
+    'The administration initially denied any quid pro quo, but Ambassador Sondland testified under oath that "everyone was in the loop" and that there was indeed a clear quid pro quo directed by Trump through Giuliani.',
+    'Lev Parnas and Igor Fruman, Giuliani\'s associates in the Ukraine pressure scheme, were arrested at Dulles Airport with one-way tickets attempting to flee the country as the scandal broke.',
+    'During the Senate trial, Republicans voted 51-49 against calling witnesses, preventing testimony from John Bolton, who reportedly told aides the Ukraine scheme was a "drug deal" and wrote about it in his book.',
+    'Trump fired Lt. Col. Vindman \u2014 a Purple Heart recipient who reported concerns about the call through proper channels \u2014 and also fired Vindman\'s twin brother, who had no involvement, in an act of collective punishment.',
   ],
   sources: [
     { title: 'Trump-Zelensky Call Summary', url: 'http://web.archive.org/web/20210113040119/https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf', date: 'Sep 2019' },
@@ -185,6 +211,11 @@ export default function UkraineExtortionPage() {
             <Users className="w-5 h-5 text-blood-500" />
             Key Figures
           </h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {investigation.keyFigures.map((figure, idx) => (
               <Link
@@ -297,6 +328,16 @@ export default function UkraineExtortionPage() {
           </div>
         </motion.div>
 
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.div>
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.div>
         {/* Sources */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

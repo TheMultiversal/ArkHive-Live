@@ -14,8 +14,7 @@ import {
   Clock,
   DollarSign,
   Building,
-  Banknote,
-} from 'lucide-react';
+  Banknote, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigationData = {
@@ -161,6 +160,36 @@ const investigationData = {
     { pattern: 'Flipped quickly', description: 'Properties often resold quickly at profit' },
     { pattern: 'Price anomalies', description: 'Prices often above market value' },
     { pattern: 'No apparent use', description: 'Many properties never occupied' },
+  ],
+
+  legalOutcomes: [
+    { defendant: 'Paul Manafort', charge: 'Money laundering, bank fraud, tax fraud, conspiracy', outcome: 'Convicted on 8 counts (2018); sentenced to 7.5 years; pardoned by Trump December 2020' },
+    { defendant: 'Deutsche Bank', charge: 'Russian mirror trading money laundering scheme', outcome: '$10 billion+ in fines globally; $630M fine by UK/US regulators (2017)' },
+    { defendant: 'Trump Organization', charge: 'Tax fraud and falsifying business records', outcome: 'Found guilty on 17 felony counts (December 2022); fined $1.6 million' },
+    { defendant: 'Allen Weisselberg', charge: 'Tax fraud, grand larceny, falsifying business records', outcome: 'Pleaded guilty, sentenced to 5 months (2022); second guilty plea for perjury (2024)' },
+    { defendant: 'Michael Cohen', charge: 'Tax evasion, bank fraud, campaign finance violations', outcome: 'Pleaded guilty, sentenced to 3 years (2018)' },
+    { defendant: 'Donald Trump', charge: 'Falsifying business records related to hush money payments', outcome: 'Convicted on 34 felony counts (May 2024)' },
+  ],
+
+  charges: [
+    { statute: '18 U.S.C. § 1956', description: 'Money laundering - conducting financial transactions with proceeds of specified unlawful activity through shell companies and real estate', count: 'Multiple transactions' },
+    { statute: '18 U.S.C. § 1957', description: 'Engaging in monetary transactions in property derived from specified unlawful activity - all-cash real estate purchases above $10,000', count: 'Multiple transactions' },
+    { statute: '31 U.S.C. § 5318(g)', description: 'Bank Secrecy Act - failure to file Suspicious Activity Reports on transactions showing money laundering red flags', count: '100+ SARs filed by banks' },
+    { statute: '18 U.S.C. § 1341', description: 'Mail fraud - using the U.S. mail system in furtherance of fraudulent real estate schemes', count: 'Multiple counts' },
+    { statute: '26 U.S.C. § 7201', description: 'Tax evasion - failure to report income from suspicious transactions and inflating/deflating property values', count: 'Multiple years' },
+    { statute: '18 U.S.C. § 1014', description: 'False statements to financial institutions - misrepresenting financial condition to obtain Deutsche Bank loans', count: 'Multiple loan applications' },
+    { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States - coordinated use of shell companies to obscure beneficial ownership', count: 'Ongoing conspiracy' },
+  ],
+
+  coverup: [
+    'Trump refused to release his tax returns, breaking a 40-year presidential tradition, and fought in court for years to prevent Congress and prosecutors from obtaining them',
+    'The Trump Organization used a web of over 500 shell companies and LLCs, many in secrecy-friendly jurisdictions like Delaware and Nevada, to obscure the true nature of transactions',
+    'Deutsche Bank overrode its own compliance department\'s recommendations against lending to Trump, with senior executives intervening to approve loans that raised red flags',
+    'When the $95 million Palm Beach mansion sale to Russian oligarch Rybolovlev raised questions, Trump dismissed it as a normal transaction despite occurring during a real estate crash at more than double his purchase price',
+    'Eric Trump\'s 2014 admission that "we have all the funding we need out of Russia" was later denied by the family, though multiple journalists confirmed the Golf writer\'s account',
+    'The Trump Organization resisted Congressional subpoenas for financial records and fought Deutsche Bank\'s compliance with investigative requests all the way to the Supreme Court',
+    'FinCEN suspicious activity reports on Trump-related transactions were kept confidential until the FinCEN Files leak in 2020 exposed the extent of flagged transactions',
+    'After leaving office, Trump sold the DC hotel lease for $375 million, effectively monetizing the property he used as a conduit for foreign government payments during his presidency',
   ],
 
   sources: [
@@ -450,6 +479,21 @@ export default function MoneyLaunderingPage() {
           </div>
         </motion.section>
 
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.section>
         {/* Sources */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

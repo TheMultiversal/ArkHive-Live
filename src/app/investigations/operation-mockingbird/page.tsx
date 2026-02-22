@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowLeft, Users, Calendar, ExternalLink, Scale, Radio, Eye, Newspaper, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, Users, Calendar, ExternalLink, Scale, Radio, Eye, Newspaper, AlertTriangle , ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -70,6 +70,24 @@ const investigation = {
     { defendant: 'CIA', charge: 'Executive Order restrictions on media relationships', outcome: 'EO 12333 (1981) nominally restricts CIA media use — enforcement is self-policed by CIA itself' },
     { defendant: 'No individual', charge: 'First Amendment violations', outcome: 'NO person was EVER criminally prosecuted for Operation Mockingbird' },
   ],
+  charges: [
+    { statute: '18 U.S.C. § 1001 — False Statements', description: 'CIA officials lying to Congress about the scope and nature of journalist recruitment and propaganda operations', count: 'Sustained pattern of deception across multiple congressional hearings' },
+    { statute: '18 U.S.C. § 371 — Conspiracy to Defraud the United States', description: 'Systematic conspiracy to subvert the free press through covert recruitment of journalists and media executives', count: 'Over 400 journalist assets identified by Carl Bernstein\'s 1977 investigation' },
+    { statute: '50 U.S.C. § 3024 — Intelligence Community Oversight Violations', description: 'Failure to disclose covert domestic media manipulation programs to congressional oversight committees as legally required', count: 'Program concealed from Congress for over two decades' },
+    { statute: '22 U.S.C. § 1461 — Smith-Mundt Act (Domestic Propaganda Prohibition)', description: 'CIA directing propaganda produced for foreign audiences at domestic American audiences through US media outlets', count: 'Systematic violation through planted stories in American newspapers and broadcasts' },
+    { statute: '18 U.S.C. § 1505 — Obstruction of Congressional Investigations', description: 'CIA stonewalling Church Committee inquiries by withholding documents and misrepresenting the scope of media operations', count: 'Documented in Church Committee findings on intelligence community obstruction' },
+    { statute: 'First Amendment — Freedom of the Press', description: 'Government co-option of the free press undermines the constitutional guarantee of an independent press serving as check on government power', count: 'Systemic violation spanning decades of covert media manipulation' },
+  ],
+  coverup: [
+    'CIA Director Allen Dulles personally managed journalist relationships and ensured no written records were kept of recruitment conversations with media executives and publishers',
+    'CIA used "witting" and "unwitting" asset categories to maintain plausible deniability — many journalists never knew they were being fed CIA-crafted narratives for publication',
+    'When Ramparts magazine exposed CIA funding of the National Student Association in 1967, the CIA launched an internal campaign to discredit the publication and limit further exposure of media operations',
+    'CIA Director William Colby claimed to have ended all media relationships in 1973, but the Church Committee found dozens of journalist assets still active on CIA payroll years later',
+    'CIA Director George H.W. Bush issued a 1976 policy "prohibiting" paid journalist relationships but included a loophole allowing the CIA Director to personally approve exceptions at his sole discretion',
+    'The full scope of Operation Mockingbird was never officially disclosed; the Church Committee estimated over 50 US journalists were direct CIA assets, while Carl Bernstein\'s independent investigation identified more than 400',
+    'CIA officials systematically misled Congress about the extent of media infiltration during multiple oversight hearings throughout the 1970s and beyond',
+    'CIA destroyed or reclassified key documents related to media operations before the Church Committee could review them, making full historical accountability impossible',
+  ],
   applicableCharges: [
     '18 USC §1001 — False Statements (CIA officials lying to Congress about media operations)',
     '18 USC §371 — Conspiracy to Defraud the United States (systematic subversion of free press)',
@@ -133,6 +151,11 @@ export default function OperationMockingbirdPage() {
             ))}
           </div>
         </motion.div>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-8">
@@ -186,6 +209,20 @@ export default function OperationMockingbirdPage() {
                   <li key={idx} className="text-sm text-zinc-300 pl-4 border-l-2 border-red-500/50 py-1">{charge}</li>
                 ))}
               </ul>
+            </motion.div>
+
+            {/* Detailed Charges */}
+            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="glass-card p-6 border-l-4 border-blood-600">
+              <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Charges &amp; Statutes</h2>
+              <div className="space-y-3">
+                {investigation.charges.map((charge, idx) => (
+                  <div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800">
+                    <p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p>
+                    <p className="text-sm text-zinc-300 mt-1">{charge.description}</p>
+                    <p className="text-xs text-red-400 mt-1">{charge.count}</p>
+                  </div>
+                ))}
+              </div>
             </motion.div>
           </div>
 

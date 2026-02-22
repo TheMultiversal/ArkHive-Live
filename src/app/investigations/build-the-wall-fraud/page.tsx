@@ -15,8 +15,7 @@ import {
   DollarSign,
   Building2,
   Gavel,
-  Coins,
-} from 'lucide-react';
+  Coins, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigationData = {
@@ -136,6 +135,14 @@ const investigationData = {
     { date: '2024', event: 'Manhattan DA appeals dismissal' },
   ],
 
+  legalOutcomes: [
+    { defendant: 'Brian Kolfage', charge: 'Wire Fraud Conspiracy', outcome: 'Pleaded guilty - sentenced to 51 months federal prison (April 2023)' },
+    { defendant: 'Andrew Badolato', charge: 'Wire Fraud Conspiracy', outcome: 'Pleaded guilty - sentenced to 36 months federal prison' },
+    { defendant: 'Timothy Shea', charge: 'Wire Fraud and Money Laundering Conspiracy', outcome: 'Convicted at trial - sentenced to 63 months federal prison (May 2023)' },
+    { defendant: 'Steve Bannon', charge: 'Wire Fraud and Money Laundering Conspiracy (Federal)', outcome: 'Pardoned by President Trump on January 20, 2021' },
+    { defendant: 'Steve Bannon', charge: 'Money Laundering, Conspiracy (New York State)', outcome: 'Indicted September 2022, case dismissed on procedural grounds, DA appealing' },
+  ],
+
   trumpDistancing: {
     beforeArrest: 'Trump praised wall-building efforts publicly',
     afterArrest: 'Trump claimed he "didn\'t know" about the project',
@@ -143,6 +150,16 @@ const investigationData = {
     reality: 'Trump had previously promoted We Build the Wall on Twitter',
     pardon: 'Despite distancing, Trump pardoned Bannon anyway',
   },
+
+  coverup: [
+    'Bannon funneled over $1 million in donor funds through a nonprofit organization he controlled to obscure the personal benefit he received from the scheme',
+    'Shell company "Non-Profit Strategies" was created specifically to launder donor contributions and make fraudulent payments appear as legitimate contractor expenses',
+    'Fabricated invoices and vendor agreements were used to disguise hundreds of thousands of dollars in personal payments to organizers',
+    'Trump pardoned Bannon on his last day in office, preventing a federal trial that would have exposed the full scope of the fraud to a jury',
+    'Despite publicly claiming he "didn\'t know" about the project, Trump had previously promoted We Build the Wall on social media and praised their efforts',
+    'GoFundMe flagged and froze the original campaign over concerns about misuse of funds, but organizers circumvented oversight by restructuring as a 501(c)(4) nonprofit',
+    'Kolfage publicly promised donors that "100% of funds" would go to wall construction while secretly diverting hundreds of thousands to boats, luxury vehicles, cosmetic surgery, and jewelry',
+  ],
 
   sources: [
     { title: 'DOJ Press Release: Bannon Indictment', url: 'https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands', type: 'DOJ Announcement' },
@@ -286,6 +303,11 @@ export default function BuildTheWallFraudPage() {
           className="glass-card p-6 mb-8 border-l-4 border-blood-600"
         >
           <h2 className="text-xl font-bold mb-4">The Fraud Scheme</h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div className="p-4 bg-zinc-900/50 border border-zinc-800">
               <p className="text-xs text-zinc-500 uppercase">Public Promise</p>
@@ -539,6 +561,11 @@ export default function BuildTheWallFraudPage() {
           </div>
         </motion.section>
 
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
         {/* Sources */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

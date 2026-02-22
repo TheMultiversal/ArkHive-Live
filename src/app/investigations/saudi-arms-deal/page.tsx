@@ -10,8 +10,7 @@ import {
   FileText,
   ExternalLink,
   DollarSign,
-  Target,
-} from 'lucide-react';
+  Target, ShieldAlert, Scale} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -78,6 +77,33 @@ const investigation = {
     { date: 'November 2019', event: 'IG report finds Pompeo\'s emergency declaration legally dubious' },
     { date: '2021', event: 'Biden pauses some arms sales pending review' },
     { date: '2022', event: 'Kushner and Mnuchin receive massive Saudi investments' },
+  ],
+  legalOutcomes: [
+    { defendant: 'Trump administration (State Dept)', charge: 'Illegal use of emergency authority to bypass Congress on $8.1 billion arms sale', outcome: 'State Department IG investigation found emergency declaration legally questionable; IG Steve Linick fired before completing probe' },
+    { defendant: 'Secretary Pompeo', charge: 'Abuse of emergency authority under Arms Export Control Act', outcome: 'IG report found no valid emergency justification; Congress condemned action but could not override veto' },
+    { defendant: 'Jared Kushner', charge: 'Undisclosed conflicts of interest in negotiating Saudi arms deal', outcome: 'No charges filed; Senate Intelligence Committee investigated but took no action' },
+    { defendant: 'Saudi Arabia (MBS)', charge: 'Use of U.S.-supplied weapons in Yemen war crimes', outcome: 'UN documented war crimes using U.S. weapons; no accountability imposed by Trump administration' },
+    { defendant: 'Raytheon, Lockheed Martin, Boeing', charge: 'Selling weapons used in strikes on civilians, hospitals, and school buses in Yemen', outcome: 'No legal action; companies continued receiving contracts despite documented civilian casualties' },
+    { defendant: 'Trump (presidential veto)', charge: 'Vetoing bipartisan Congressional resolution to end U.S. support for Yemen war', outcome: 'Veto sustained Apr 2019; Congress unable to override; war continued' },
+  ],
+  charges: [
+    { statute: '22 U.S.C. § 2753 (Arms Export Control Act)', description: 'Circumventing Congressional notification requirements by fabricating an emergency to approve arms sales', count: '22 separate arms sales totaling $8.1 billion' },
+    { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud Congress by falsely declaring an emergency to bypass mandatory review period', count: '1 count covering the emergency declaration scheme' },
+    { statute: '18 U.S.C. § 1505', description: 'Obstruction of congressional proceedings — firing IG Steve Linick while investigating the arms sale bypass', count: '1 count' },
+    { statute: 'War Crimes Act (18 U.S.C. § 2441)', description: 'Aiding and abetting war crimes by providing weapons used to deliberately target civilian infrastructure in Yemen', count: 'Ongoing complicity documented by UN Panel of Experts' },
+    { statute: '22 U.S.C. § 2304 (Leahy Law)', description: 'Providing military assistance to Saudi units credibly accused of gross human rights violations', count: 'Multiple violations documented by State Department\'s own reports' },
+    { statute: '18 U.S.C. § 208', description: 'Conflicts of interest — Kushner\'s personal financial relationships with Saudi principals while negotiating deals', count: 'Pattern spanning 2017-2021' },
+    { statute: '50 U.S.C. § 1701 (IEEPA)', description: 'Potential violations related to nuclear technology transfer discussions with Saudi Arabia without safeguards', count: 'Multiple instances per House Oversight Committee report' },
+  ],
+  coverup: [
+    'Secretary Pompeo declared a fabricated "emergency" in May 2019 to bypass the mandatory 30-day Congressional review of arms sales, citing an Iranian threat that intelligence agencies said did not justify the declaration.',
+    'When State Department Inspector General Steve Linick opened an investigation into the emergency arms sale bypass, Trump fired him in May 2020 at Pompeo\'s recommendation — a clear act of retaliation.',
+    'The $110 billion deal figure was deliberately inflated by the administration — many contracts were pre-existing Obama-era deals, letters of intent rather than firm orders, or deals that never materialized.',
+    'After Jamal Khashoggi\'s murder, Trump explicitly cited the arms deal as the reason to maintain relations with Saudi Arabia, stating "$450 billion" in deals (a grossly inflated figure) were at stake.',
+    'The administration blocked the release of a CIA assessment concluding MBS ordered Khashoggi\'s murder, preventing Congress from using the finding to block arms sales.',
+    'Trump vetoed 22 separate Congressional resolutions attempting to block specific arms sales — an unprecedented use of veto power to override bipartisan opposition to weapons transfers.',
+    'The House Oversight Committee found that Trump administration officials pursued nuclear technology transfers to Saudi Arabia over objections from career national security officials and without the legally required "123 Agreement."',
+    'Internal State Department emails revealed career officials objected to the emergency declaration but were overruled by political appointees acting on White House orders.',
   ],
   sources: [
     { title: 'Congressional Research Service - Saudi Arms Sales', url: 'https://crsreports.congress.gov/product/pdf/RL/RL33533', date: '2021' },
@@ -149,6 +175,11 @@ export default function SaudiArmsDealPage() {
             Deal Overview
           </h2>
           <div className="glass-card p-6">
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-zinc-900/50 p-4 border border-zinc-800">
                 <p className="text-xs text-zinc-500 uppercase mb-1">Announced Value</p>
@@ -308,6 +339,16 @@ export default function SaudiArmsDealPage() {
           </div>
         </motion.section>
 
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.section>
+        
+        <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.section>
         {/* Sources */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

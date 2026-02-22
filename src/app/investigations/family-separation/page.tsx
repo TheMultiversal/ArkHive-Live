@@ -10,8 +10,7 @@ import {
   FileText,
   ExternalLink,
   Baby,
-  Heart,
-} from 'lucide-react';
+  Heart, ShieldAlert, Scale} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -88,6 +87,33 @@ const investigation = {
     { finding: 'Government failed to track separated families', source: 'HHS Inspector General' },
     { finding: 'Conditions violated Flores Settlement', source: 'Federal court' },
     { finding: 'Deliberate cruelty as deterrent', source: 'Internal documents' },
+  ],
+  legalOutcomes: [
+    { defendant: 'U.S. Government (DHS/HHS)', charge: 'Violation of due process rights of separated families', outcome: 'Ms. L v. ICE - Court ordered reunification within 30 days (June 2018)' },
+    { defendant: 'U.S. Government', charge: 'Violation of Flores Settlement Agreement', outcome: 'Federal court found prolonged detention of children violated settlement terms' },
+    { defendant: 'CBP Officers', charge: 'Negligent death of children in custody', outcome: '7 children died in CBP custody 2018-2019; internal investigations but no criminal charges' },
+    { defendant: 'Jeff Sessions/DOJ', charge: 'Implementing zero tolerance policy without family tracking system', outcome: 'HHS IG found thousands more children separated than disclosed; Sessions resigned November 2018' },
+    { defendant: 'Scott Lloyd (ORR Director)', charge: 'Blocking reproductive healthcare for detained minors', outcome: 'Federal court held actions unconstitutional; Lloyd reassigned' },
+    { defendant: 'Trump Administration', charge: 'Failure to reunify separated families', outcome: 'Biden Task Force created January 2021; hundreds still unreunited as of 2023' },
+  ],
+  charges: [
+    { statute: 'U.S. Const. Amend. V', description: 'Due Process Clause violations - separating children from parents without adequate process or tracking systems', count: '5,500+ children affected' },
+    { statute: '18 U.S.C. § 242', description: 'Deprivation of rights under color of law - deliberate infliction of suffering on detained families', count: 'Systemic violation' },
+    { statute: '42 U.S.C. § 1983', description: 'Civil rights violations - unconstitutional conditions of confinement for detained children', count: 'Multiple class actions' },
+    { statute: '8 U.S.C. § 1232', description: 'Trafficking Victims Protection Reauthorization Act violations - failure to properly process and protect unaccompanied minors', count: 'Thousands of cases' },
+    { statute: '18 U.S.C. § 1589', description: 'Forced labor - reports of detained children performing labor in facilities', count: 'Multiple reported incidents' },
+    { statute: 'Flores Settlement Agreement (1997)', description: 'Violation of court-ordered standards for detention of immigrant children', count: 'Continuous systematic violation' },
+    { statute: '18 U.S.C. § 1591', description: 'Sex trafficking concerns - children placed with sponsors without adequate background checks', count: 'HHS lost track of 1,488 children (2018)' },
+  ],
+  coverup: [
+    'DHS Secretary Kirstjen Nielsen publicly denied the existence of a family separation policy even as it was being implemented, stating "we do not have a policy of separating families at the border"',
+    'The administration had no system to track which children belonged to which parents, making reunification deliberately difficult or impossible for many families',
+    'Internal documents revealed the policy was explicitly designed as a deterrent through cruelty, contradicting public claims it was about law enforcement',
+    'HHS Inspector General discovered thousands more children were separated than the government had disclosed, revealing the true scope was far larger than admitted',
+    'Stephen Miller pushed for even more aggressive separation policies in internal emails while publicly denying he was the architect of the policy',
+    'The administration fought court orders to reunify families, repeatedly missing deadlines and claiming it was logistically impossible to find parents it had deported',
+    'Officials destroyed or failed to maintain records linking parents to children, making some reunifications permanently impossible',
+    'Jeff Sessions quoted Romans 13 from the Bible to justify family separation, the same passage historically used to defend slavery, while framing the policy as ordinary law enforcement',
   ],
   sources: [
     { title: 'HHS Inspector General Report', url: 'https://oig.hhs.gov/oei/reports/oei-BL-18-00511.pdf', date: '2019' },
@@ -218,6 +244,11 @@ export default function FamilySeparationPage() {
             <Users className="w-5 h-5 text-blood-500" />
             Key Figures
           </h2>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {investigation.keyFigures.map((figure, idx) => (
               <Link
@@ -299,6 +330,16 @@ export default function FamilySeparationPage() {
           </div>
         </motion.div>
 
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h2>
+          <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+        </motion.div>
+        
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
+          <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-red-400 mt-1">{charge.count}</p></div>))}</div>
+        </motion.div>
         {/* Sources */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
