@@ -38,12 +38,20 @@ const riskLabels = {
   low: "ARCHIVED",
 };
 
+const typePluralPaths: Record<string, string> = {
+  agency: "agencies",
+  corporation: "corporations",
+  individual: "individuals",
+  organization: "organizations",
+};
+
 export default function EntityCard({ entity }: EntityCardProps) {
   const Icon = typeIcons[entity.type];
+  const typePath = typePluralPaths[entity.type] || `${entity.type}s`;
 
   return (
     <Link
-      href={`/entities/${entity.type}s/${entity.slug}`}
+      href={`/entities/${typePath}/${entity.slug}`}
       className="group block border border-zinc-800 bg-black/60 overflow-hidden hover:border-blood-700/50 transition-all duration-300"
     >
       <div className="p-5">
