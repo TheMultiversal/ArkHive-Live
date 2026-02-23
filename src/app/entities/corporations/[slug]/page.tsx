@@ -4493,6 +4493,50 @@ const corporationData: Record<string, {
     governmentContracts: '$20+ billion annually',
     politicalConnections: 'Deep ties to Pentagon through revolving door — former Raytheon lobbyist Mark Esper served as Trump\'s Secretary of Defense. The company spent millions lobbying Congress to approve Saudi arms sales even as evidence of civilian casualties mounted.',
   },
+  'chevron': {
+    name: 'Chevron Corporation',
+    ticker: 'CVX',
+    industry: 'Oil & Gas',
+    riskLevel: 'high',
+    description: 'Chevron Corporation is one of the world\'s largest oil and gas companies, with a long history of environmental contamination, climate disinformation, and aggressive lobbying against climate action. The company is implicated in the Ecuador Lago Agrio oil pit disaster, was a leading member of the American Petroleum Institute\'s climate denial campaigns, and pursued a controversial RICO case against environmental attorney Steven Donziger who won a $9.5 billion judgment against the company on behalf of Ecuadorian communities.',
+    founded: '1879 (as Pacific Coast Oil Co., became Standard Oil of California, then Chevron)',
+    headquarters: 'San Ramon, California',
+    employees: '~43,000',
+    revenue: '~$200 billion',
+    ceo: 'Mike Wirth',
+    website: 'https://www.chevron.com',
+    controversies: [
+      'Ecuador Lago Agrio contamination: decades of oil waste dumping in the Amazon rainforest affecting indigenous communities',
+      'Lost $9.5 billion Ecuador environmental judgment, then pursued RICO case against plaintiff\'s attorney Steven Donziger',
+      'Steven Donziger was disbarred and imprisoned in an unprecedented private prosecution funded by Chevron',
+      'Founding member of American Petroleum Institute (API), a leading climate denial lobbying group',
+      'Internal documents show Chevron knew about climate change risks decades before public acknowledgment',
+      'Spent millions lobbying against climate legislation and clean energy regulations',
+      'Richmond, California refinery fire (2012) sent 15,000 residents to hospitals',
+      'Responsible for significant portion of global industrial greenhouse gas emissions',
+    ],
+    subsidiaries: [
+      'Chevron U.S.A.', 'Texaco (acquired 2001)', 'Caltex', 'Chevron Phillips Chemical',
+      'Chevron Shipping', 'Tengizchevroil',
+    ],
+    relatedInvestigations: [
+      { title: 'Climate Denial & Disinformation', slug: 'climate-denial', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Mike Wirth', role: 'Chairman & CEO' },
+      { name: 'Steven Donziger', role: 'Environmental attorney who won Ecuador judgment against Chevron', href: '/entities/individuals/steven-donziger' },
+    ],
+    legalHistory: [
+      '2011: Ecuadorian court issued $9.5 billion judgment for Amazon contamination',
+      '2014: US court ruled Ecuador judgment was obtained through fraud (RICO case)',
+      '2020: Steven Donziger disbarred and placed under house arrest in Chevron-funded private prosecution',
+      '2012: Richmond, CA refinery fire — $2 million fine, community health impacts',
+      'Ongoing: Multiple climate change lawsuits filed by cities and states',
+    ],
+    lobbyingSpend: '$13+ million annually',
+    governmentContracts: 'Major supplier to US military and strategic petroleum reserve',
+    politicalConnections: 'One of the largest corporate political donors in the energy sector. Longstanding member of the American Petroleum Institute. Chevron\'s lobbying has been instrumental in blocking climate legislation and maintaining fossil fuel subsidies worth billions annually.',
+  },
 };
 
 const riskColors = {

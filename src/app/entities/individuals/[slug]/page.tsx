@@ -40518,7 +40518,7 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Alan Greenspan', relationship: 'Predecessor as Fed Chair whose policies set stage for crisis', href: '/entities/individuals/alan-greenspan' },
       { name: 'Henry Paulson', relationship: 'Treasury Secretary who co-managed crisis response', href: '/entities/individuals/henry-paulson' },
-      { name: 'Timothy Geithner', relationship: 'NY Fed President who helped orchestrate bailouts', href: '/entities/individuals/timothy-geithner' },
+      { name: 'Timothy Geithner', relationship: 'NY Fed President who helped orchestrate bailouts', href: '/entities/individuals/tim-geithner' },
     ],
     controversies: [
       'SUBPRIME DENIAL: Stated in March 2007 that subprime problems were "likely to be contained" as crisis was building',
@@ -40771,7 +40771,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Franklin D. Roosevelt', relationship: 'President who signed Executive Order 9066 authorizing internment', href: '/entities/individuals/franklin-d-roosevelt' },
-      { name: 'John DeWitt', relationship: 'Western Defense Commander whose false claims Fahy presented to the Court', href: '/entities/individuals/john-dewitt' },
+      { name: 'John DeWitt', relationship: 'Western Defense Commander whose false claims Fahy presented to the Court', href: '/entities/individuals/john-l-dewitt' },
       { name: 'Earl Warren', relationship: 'California Attorney General who supported internment (later recanted as Chief Justice)', href: '/entities/individuals/earl-warren' },
     ],
     controversies: [
@@ -54003,6 +54003,408 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Cambodia Bombing: Operation Menu', url: '/investigations/cambodia-bombing' },
+    ],
+  },
+  'nasser-al-awlaki': {
+    name: 'Nasser al-Awlaki',
+    title: 'Yemeni Scholar and Former Government Minister',
+    role: 'Civil Rights Plaintiff',
+    riskLevel: 'low',
+    description: 'Nasser al-Awlaki is a Yemeni scholar and former government minister who filed a lawsuit against the US government over the drone killing of his grandson, Abdulrahman al-Awlaki, a 16-year-old US citizen killed in a 2011 drone strike in Yemen. He became a prominent voice challenging the legality and morality of the US drone assassination program and extrajudicial killings of American citizens abroad.',
+    education: [],
+    affiliations: [
+      { name: 'Yemeni Government', role: 'Former Minister', type: 'agency' },
+    ],
+    controversies: [
+      'Filed landmark lawsuit against US government challenging the legality of drone killings of US citizens without due process',
+    ],
+    relatedInvestigations: [
+      { title: 'Drone Assassination Program', slug: 'drone-assassination-program', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2011', event: 'Grandson Abdulrahman al-Awlaki, a 16-year-old US citizen, killed by US drone strike in Yemen' },
+      { date: '2012', event: 'Filed lawsuit against US government officials over the drone killing' },
+    ],
+    sources: [
+      { title: 'Drone Assassination Program', url: '/investigations/drone-assassination-program' },
+    ],
+  },
+  'robert-rubin': {
+    name: 'Robert Rubin',
+    title: '70th United States Secretary of the Treasury',
+    role: 'Government Official',
+    riskLevel: 'high',
+    description: 'Robert Rubin served as Treasury Secretary under President Clinton from 1995 to 1999, during which he co-led the financial deregulation movement including the repeal of the Glass-Steagall Act. After leaving government, he joined the board of Citigroup, which was subsequently bailed out during the 2008 financial crisis. Critics argue his deregulatory policies directly contributed to the conditions that caused the financial meltdown.',
+    education: [],
+    affiliations: [
+      { name: 'US Department of the Treasury', role: 'Secretary (1995-1999)', type: 'agency' },
+      { name: 'Citigroup', role: 'Board Member & Senior Counselor', type: 'corporation' },
+      { name: 'Goldman Sachs', role: 'Former Co-Chairman', type: 'corporation' },
+    ],
+    controversies: [
+      'Co-led repeal of Glass-Steagall Act, removing Depression-era banking safeguards',
+      'Joined Citigroup board after leaving Treasury; Citigroup received $45 billion in TARP bailout funds',
+      'Earned over $126 million from Citigroup while the bank took on catastrophic risk',
+      'Advocated against regulation of derivatives markets that later amplified the 2008 crisis',
+    ],
+    relatedInvestigations: [
+      { title: '2008 Financial Crisis', slug: '2008-financial-crisis', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1995', event: 'Appointed Treasury Secretary under President Clinton' },
+      { date: '1999', event: 'Glass-Steagall Act repealed with Gramm-Leach-Bliley Act' },
+      { date: '1999', event: 'Left Treasury, joined Citigroup board' },
+      { date: '2008', event: 'Citigroup received $45 billion in TARP bailout funds' },
+    ],
+    sources: [
+      { title: '2008 Financial Crisis', url: '/investigations/2008-financial-crisis' },
+    ],
+  },
+  'josef-mengele': {
+    name: 'Josef Mengele',
+    title: 'Nazi SS Physician — "Angel of Death"',
+    role: 'War Criminal',
+    riskLevel: 'critical',
+    description: 'Josef Mengele was a Nazi SS physician and war criminal known as the "Angel of Death" who performed horrific pseudo-scientific experiments on prisoners at the Auschwitz concentration camp, including experiments on twins, forced hypothermia, and other tortures. After the war, he fled to South America where he was given sanctuary in Paraguay and later lived in Brazil. Despite international manhunts, he was never brought to justice and died in 1979.',
+    birthDate: 'March 16, 1911',
+    birthPlace: 'Günzburg, Bavaria, Germany',
+    deathDate: 'February 7, 1979',
+    education: [
+      'PhD in Anthropology — University of Munich',
+      'Medical Degree — University of Frankfurt',
+    ],
+    aliases: ['Angel of Death', 'Todesengel', 'Dr. Death'],
+    affiliations: [
+      { name: 'Nazi SS', role: 'SS-Hauptsturmführer (Captain)', type: 'organization' },
+      { name: 'Auschwitz Concentration Camp', role: 'Chief Medical Officer, selections and experiments', type: 'agency' },
+    ],
+    controversies: [
+      'Performed deadly pseudo-scientific experiments on prisoners at Auschwitz, including children and twins',
+      'Conducted selection of arriving prisoners, sending hundreds of thousands to gas chambers',
+      'Fled to South America after the war, evading justice for decades',
+      'Given sanctuary by the Stroessner regime in Paraguay',
+      'Never captured or brought to trial despite international manhunts',
+    ],
+    relatedInvestigations: [
+      { title: 'Operation Paperclip', slug: 'operation-paperclip', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1943', event: 'Assigned to Auschwitz concentration camp as SS physician' },
+      { date: '1943-1945', event: 'Conducted horrific medical experiments on prisoners, especially twins' },
+      { date: '1945', event: 'Fled westward to avoid Soviet capture at war\'s end' },
+      { date: '1949', event: 'Escaped to Argentina using a false identity' },
+      { date: '1959', event: 'Fled to Paraguay after West Germany issued arrest warrant' },
+      { date: '1979', event: 'Died by drowning in Brazil, never brought to justice' },
+    ],
+    sources: [
+      { title: 'Operation Paperclip', url: '/investigations/operation-paperclip' },
+    ],
+  },
+  'martin-van-buren': {
+    name: 'Martin Van Buren',
+    title: '8th President of the United States',
+    role: 'Political Figure',
+    riskLevel: 'high',
+    description: 'Martin Van Buren served as the 8th President of the United States from 1837 to 1841. He enforced the Indian Removal Act signed by his predecessor Andrew Jackson, overseeing the forced removal of the Cherokee and other Native American tribes from their ancestral lands in what became known as the Trail of Tears, resulting in the deaths of thousands.',
+    birthDate: 'December 5, 1782',
+    birthPlace: 'Kinderhook, New York',
+    deathDate: 'July 24, 1862',
+    education: [],
+    affiliations: [
+      { name: 'United States Government', role: '8th President (1837-1841)', type: 'agency' },
+    ],
+    controversies: [
+      'Enforced the Indian Removal Act, directly overseeing the Trail of Tears',
+      'Refused to halt the forced removal of Cherokee despite Supreme Court rulings',
+      'Thousands of Native Americans died during forced marches under his administration',
+    ],
+    relatedInvestigations: [
+      { title: 'Trail of Tears', slug: 'trail-of-tears', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1837', event: 'Inaugurated as 8th President, inherited Indian Removal Act enforcement' },
+      { date: '1838', event: 'Ordered military enforcement of Cherokee removal — the Trail of Tears' },
+      { date: '1838-1839', event: 'Approximately 4,000 Cherokee died during the forced march westward' },
+    ],
+    sources: [
+      { title: 'Trail of Tears', url: '/investigations/trail-of-tears' },
+    ],
+  },
+  'winfield-scott': {
+    name: 'Winfield Scott',
+    title: 'US Army General — Commanded Trail of Tears Removal',
+    role: 'Military Officer',
+    riskLevel: 'high',
+    description: 'Winfield Scott was a United States Army general who commanded the military forces that carried out the forced removal of the Cherokee Nation from their ancestral lands in 1838, an event known as the Trail of Tears. Under his command, approximately 16,000 Cherokee were rounded up at bayonet point, held in stockades, and forcibly marched westward, resulting in the deaths of approximately 4,000 people.',
+    birthDate: 'June 13, 1786',
+    birthPlace: 'Dinwiddie County, Virginia',
+    deathDate: 'May 29, 1866',
+    education: [],
+    affiliations: [
+      { name: 'United States Army', role: 'Commanding General', type: 'agency' },
+    ],
+    controversies: [
+      'Commanded the military forces that forcibly removed 16,000 Cherokee from their homeland',
+      'Ordered soldiers to round up Cherokee families at bayonet point and hold them in stockades',
+      'Approximately 4,000 Cherokee died during the forced march under his command',
+    ],
+    relatedInvestigations: [
+      { title: 'Trail of Tears', slug: 'trail-of-tears', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1838', event: 'Assigned command of 7,000 troops to enforce Cherokee removal' },
+      { date: '1838', event: 'Ordered roundup of Cherokee families into internment camps' },
+      { date: '1838-1839', event: 'Oversaw forced march of 16,000 Cherokee westward — approximately 4,000 died' },
+    ],
+    sources: [
+      { title: 'Trail of Tears', url: '/investigations/trail-of-tears' },
+    ],
+  },
+  'christopher-dodd': {
+    name: 'Christopher Dodd',
+    title: 'US Senator from Connecticut (1981-2011)',
+    role: 'Political Figure',
+    riskLevel: 'high',
+    description: 'Christopher Dodd served as a US Senator from Connecticut from 1981 to 2011. He was revealed to have received favorable "Friends of Angelo" mortgage loans from Countrywide Financial CEO Angelo Mozilo, raising serious conflict-of-interest concerns given his role as chairman of the Senate Banking Committee during the lead-up to the 2008 financial crisis.',
+    education: [],
+    affiliations: [
+      { name: 'United States Senate', role: 'Senator from Connecticut (1981-2011)', type: 'agency' },
+      { name: 'Senate Banking Committee', role: 'Chairman', type: 'agency' },
+    ],
+    controversies: [
+      'Received favorable "Friends of Angelo" VIP mortgage loans from Countrywide Financial CEO Angelo Mozilo',
+      'Served as chairman of the Senate Banking Committee while receiving preferential treatment from financial industry',
+      'Failed to adequately regulate the financial sector despite holding key oversight position',
+    ],
+    relatedInvestigations: [
+      { title: '2008 Financial Crisis', slug: '2008-financial-crisis', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1981', event: 'Elected to US Senate from Connecticut' },
+      { date: '2003', event: 'Received favorable Countrywide Financial mortgage as "Friend of Angelo"' },
+      { date: '2008', event: 'Financial crisis exposed regulatory failures under his Banking Committee chairmanship' },
+      { date: '2011', event: 'Retired from the Senate' },
+    ],
+    sources: [
+      { title: '2008 Financial Crisis', url: '/investigations/2008-financial-crisis' },
+    ],
+  },
+  'henry-paulson': {
+    name: 'Henry Paulson',
+    title: '74th United States Secretary of the Treasury',
+    role: 'Government Official',
+    riskLevel: 'high',
+    description: 'Henry Paulson served as Treasury Secretary from 2006 to 2009, managing the US government\'s response to the 2008 financial crisis. He orchestrated the Troubled Asset Relief Program (TARP), a $700 billion bank bailout. Prior to his government role, he served as CEO of Goldman Sachs, raising questions about conflicts of interest in his crisis management decisions, particularly the bailout of AIG which paid Goldman Sachs $12.9 billion.',
+    education: [],
+    affiliations: [
+      { name: 'US Department of the Treasury', role: 'Secretary (2006-2009)', type: 'agency' },
+      { name: 'Goldman Sachs', role: 'CEO (1999-2006)', type: 'corporation' },
+    ],
+    controversies: [
+      'Orchestrated $700 billion TARP bailout that primarily benefited large financial institutions',
+      'Former Goldman Sachs CEO — Goldman received $12.9 billion through AIG bailout',
+      'Allowed Lehman Brothers to fail while saving other institutions',
+      'Critics argue bailout socialized losses while privatizing gains',
+    ],
+    relatedInvestigations: [
+      { title: '2008 Financial Crisis', slug: '2008-financial-crisis', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1999', event: 'Became CEO of Goldman Sachs' },
+      { date: '2006', event: 'Appointed Treasury Secretary under President George W. Bush' },
+      { date: '2008', event: 'Managed government response to financial crisis, orchestrated TARP bailout' },
+      { date: '2008', event: 'Allowed Lehman Brothers to collapse, triggering global panic' },
+      { date: '2009', event: 'Left Treasury after Obama inauguration' },
+    ],
+    sources: [
+      { title: '2008 Financial Crisis', url: '/investigations/2008-financial-crisis' },
+    ],
+  },
+  'rutherford-b-hayes': {
+    name: 'Rutherford B. Hayes',
+    title: '19th President of the United States',
+    role: 'Political Figure',
+    riskLevel: 'medium',
+    description: 'Rutherford B. Hayes served as the 19th President of the United States from 1877 to 1881. He appointed Carl Schurz as Secretary of the Interior, who expanded the Indian boarding school system designed to forcibly assimilate Native American children by separating them from their families, cultures, and languages — a policy later recognized as cultural genocide.',
+    birthDate: 'October 4, 1822',
+    birthPlace: 'Delaware, Ohio',
+    deathDate: 'January 17, 1893',
+    education: [],
+    affiliations: [
+      { name: 'United States Government', role: '19th President (1877-1881)', type: 'agency' },
+    ],
+    controversies: [
+      'Appointed Carl Schurz as Interior Secretary, who expanded the Indian boarding school system',
+      'Supported policies of forced assimilation of Native American children',
+      'Administration oversaw expansion of institutions that separated children from families and cultures',
+    ],
+    relatedInvestigations: [
+      { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1877', event: 'Inaugurated as 19th President, appointed Carl Schurz as Secretary of the Interior' },
+      { date: '1879', event: 'Carlisle Indian Industrial School founded under his administration' },
+      { date: '1877-1881', event: 'Indian boarding school system expanded under his presidency' },
+    ],
+    sources: [
+      { title: 'Indian Boarding Schools', url: '/investigations/indian-boarding-schools' },
+    ],
+  },
+  'queen-isabella': {
+    name: 'Queen Isabella I of Castile',
+    title: 'Queen of Castile and León',
+    role: 'Head of State',
+    riskLevel: 'critical',
+    description: 'Queen Isabella I of Castile was a Spanish monarch who, together with King Ferdinand II of Aragon, sponsored Christopher Columbus\'s voyages to the Americas beginning in 1492. These voyages initiated the European colonization of the Americas, leading to the genocide, enslavement, and displacement of millions of indigenous peoples. She also established the Spanish Inquisition and ordered the expulsion of Jews and Muslims from Spain.',
+    birthDate: 'April 22, 1451',
+    birthPlace: 'Madrigal de las Altas Torres, Castile',
+    deathDate: 'November 26, 1504',
+    education: [],
+    aliases: ['Isabella the Catholic', 'Isabel la Católica'],
+    affiliations: [
+      { name: 'Kingdom of Castile', role: 'Queen (1474-1504)', type: 'agency' },
+    ],
+    controversies: [
+      'Sponsored Columbus\'s voyages that led to colonization and genocide of indigenous peoples',
+      'Established the Spanish Inquisition (1478) targeting religious minorities',
+      'Ordered expulsion of Jews from Spain (Alhambra Decree, 1492)',
+      'Authorized enslavement and exploitation of indigenous populations in the Americas',
+    ],
+    relatedInvestigations: [
+      { title: 'Columbus Legacy', slug: 'columbus-legacy', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1474', event: 'Became Queen of Castile' },
+      { date: '1478', event: 'Established the Spanish Inquisition' },
+      { date: '1492', event: 'Sponsored Columbus\'s first voyage to the Americas' },
+      { date: '1492', event: 'Issued Alhambra Decree expelling Jews from Spain' },
+      { date: '1493-1504', event: 'Sponsored subsequent Columbus voyages, beginning colonization of the Americas' },
+    ],
+    sources: [
+      { title: 'Columbus Legacy', url: '/investigations/columbus-legacy' },
+    ],
+  },
+  'bartolome-de-las-casas': {
+    name: 'Bartolomé de las Casas',
+    title: 'Spanish Dominican Friar and Advocate for Indigenous Rights',
+    role: 'Activist',
+    riskLevel: 'low',
+    description: 'Bartolomé de las Casas was a Spanish Dominican friar, priest, and writer who became the first resident Bishop of Chiapas. He documented Christopher Columbus\'s and subsequent colonizers\' atrocities against indigenous peoples in his seminal work "A Short Account of the Destruction of the Indies" (1552). He became one of the earliest advocates for the rights of indigenous peoples and is often considered a pioneer of human rights.',
+    birthDate: 'November 11, 1484',
+    birthPlace: 'Seville, Crown of Castile',
+    deathDate: 'July 18, 1566',
+    education: [],
+    affiliations: [
+      { name: 'Dominican Order', role: 'Friar and Priest', type: 'organization' },
+    ],
+    controversies: [
+      'Documented Columbus\'s atrocities against indigenous peoples in "A Short Account of the Destruction of the Indies"',
+      'Initially participated in the colonization system before becoming its fiercest critic',
+      'Early advocacy briefly included support for African slavery as alternative (later recanted)',
+    ],
+    relatedInvestigations: [
+      { title: 'Columbus Legacy', slug: 'columbus-legacy', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1502', event: 'Arrived in Hispaniola, witnessed Spanish atrocities against indigenous peoples' },
+      { date: '1514', event: 'Underwent moral conversion, began advocating for indigenous rights' },
+      { date: '1552', event: 'Published "A Short Account of the Destruction of the Indies" documenting colonial atrocities' },
+    ],
+    sources: [
+      { title: 'Columbus Legacy', url: '/investigations/columbus-legacy' },
+    ],
+  },
+  'chris-krebs': {
+    name: 'Chris Krebs',
+    title: 'Former Director of CISA',
+    role: 'Government Official',
+    riskLevel: 'low',
+    description: 'Christopher Krebs served as the first Director of the Cybersecurity and Infrastructure Security Agency (CISA) from 2018 to 2020. He was fired by President Trump in November 2020 after CISA declared the 2020 presidential election "the most secure in American history," directly contradicting Trump\'s false claims of widespread voter fraud. Krebs became a prominent defender of election integrity.',
+    education: [],
+    affiliations: [
+      { name: 'Cybersecurity and Infrastructure Security Agency (CISA)', role: 'Director (2018-2020)', type: 'agency' },
+      { name: 'Department of Homeland Security', role: 'Senior Official', type: 'agency' },
+    ],
+    controversies: [
+      'Fired by President Trump for declaring the 2020 election "the most secure in American history"',
+      'Faced threats and intimidation for defending election integrity',
+    ],
+    relatedInvestigations: [
+      { title: 'Election Interference', slug: 'election-interference', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2018', event: 'Appointed first Director of CISA' },
+      { date: '2020', event: 'CISA issued statement calling 2020 election "the most secure in American history"' },
+      { date: 'November 2020', event: 'Fired by President Trump via Twitter for contradicting election fraud claims' },
+    ],
+    sources: [
+      { title: 'Election Interference', url: '/investigations/election-interference' },
+    ],
+  },
+  'michael-fanone': {
+    name: 'Michael Fanone',
+    title: 'DC Metropolitan Police Officer',
+    role: 'Law Enforcement Officer',
+    riskLevel: 'low',
+    description: 'Michael Fanone was a DC Metropolitan Police Officer who responded to the January 6, 2021 Capitol attack. He was dragged into the mob, beaten, tased, and suffered a heart attack and traumatic brain injury during the insurrection. He became an outspoken critic of efforts to downplay the severity of the attack and testified before Congress about his experience.',
+    education: [],
+    affiliations: [
+      { name: 'DC Metropolitan Police Department', role: 'Police Officer', type: 'agency' },
+    ],
+    controversies: [
+      'Dragged into mob and severely beaten during January 6 Capitol attack, suffered heart attack and traumatic brain injury',
+      'Became outspoken critic of Republican efforts to minimize the insurrection',
+      'Testified before Congress about the violence he experienced on January 6',
+    ],
+    relatedInvestigations: [
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'January 6, 2021', event: 'Responded to Capitol attack, was dragged into mob, beaten, tased, suffered heart attack and TBI' },
+      { date: '2021', event: 'Testified before House Select Committee on January 6 attack' },
+      { date: '2022', event: 'Left the police force, continued advocacy for accountability' },
+    ],
+    sources: [
+      { title: 'January 6 Insurrection', url: '/investigations/january-6-insurrection' },
+    ],
+  },
+  'sackler-family': {
+    name: 'The Sackler Family',
+    title: 'Owners of Purdue Pharma',
+    role: 'Corporate Executive',
+    riskLevel: 'critical',
+    description: 'The Sackler family owned Purdue Pharma, the manufacturer of OxyContin, and profited billions of dollars from the opioid crisis while suppressing evidence of the drug\'s addictiveness. Multiple family members — including Richard Sackler, Mortimer Sackler, and Kathe Sackler — directed aggressive marketing strategies that fueled an epidemic killing hundreds of thousands of Americans. Despite their role in one of the deadliest drug crises in history, family members used bankruptcy proceedings to shield billions in personal wealth from lawsuits.',
+    education: [],
+    aliases: ['Sacklers'],
+    affiliations: [
+      { name: 'Purdue Pharma', role: 'Owners and Board Members', type: 'corporation' },
+    ],
+    knownAssociates: [
+      { name: 'Richard Sackler', relationship: 'Former President of Purdue Pharma, directed aggressive OxyContin marketing' },
+      { name: 'Mortimer D.A. Sackler', relationship: 'Former Board Member of Purdue Pharma' },
+      { name: 'Kathe Sackler', relationship: 'Former Board Member of Purdue Pharma' },
+    ],
+    controversies: [
+      'Profited over $10 billion from OxyContin sales while suppressing evidence of its addictiveness',
+      'Directed Purdue Pharma to aggressively market OxyContin to doctors, fueling the opioid epidemic',
+      'Purdue Pharma pleaded guilty to federal criminal charges related to opioid marketing (2007 and 2020)',
+      'Used bankruptcy proceedings to shield billions in personal wealth from opioid lawsuits',
+      'Withdrew billions from Purdue Pharma in anticipation of legal liability',
+      'OxyContin contributed to an epidemic that has killed over 500,000 Americans',
+    ],
+    relatedInvestigations: [
+      { title: 'Opioid Crisis', slug: 'opioid-crisis', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1996', event: 'Purdue Pharma launched OxyContin with aggressive marketing campaign' },
+      { date: '2007', event: 'Purdue Pharma pleaded guilty to federal charges of misbranding OxyContin' },
+      { date: '2010s', event: 'Sackler family withdrew billions from Purdue Pharma as lawsuits mounted' },
+      { date: '2019', event: 'Purdue Pharma filed for bankruptcy amid thousands of lawsuits' },
+      { date: '2020', event: 'Purdue Pharma pleaded guilty to federal criminal charges a second time' },
+      { date: '2022', event: 'Sackler family agreed to pay up to $6 billion in exchange for legal immunity' },
+    ],
+    sources: [
+      { title: 'Opioid Crisis', url: '/investigations/opioid-crisis' },
     ],
   },
 };

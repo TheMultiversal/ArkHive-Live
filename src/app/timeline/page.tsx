@@ -185,7 +185,7 @@ const timelineEvents: TimelineEvent[] = [
     description: "Rushed through Congress after 9/11. Enabled mass surveillance, indefinite detention. Most legislators didn't read it.",
     category: "Constitutional Violations",
     severity: "critical",
-    slug: "stingray-surveillance",
+    slug: "nsa-mass-surveillance",
     tags: ["PATRIOT Act", "Surveillance"],
   },
   {
@@ -1549,16 +1549,6 @@ const timelineEvents: TimelineEvent[] = [
     tags: ["Tax Evasion", "Offshore", "Corruption"],
   },
   {
-    date: "2008",
-    sortDate: "2008-09-15",
-    title: "2008 Financial Crisis",
-    description: "Wall Street's reckless gambling crashed the global economy. 8.7 million jobs lost, millions foreclosed. Banks bailed out, no executives jailed.",
-    category: "Financial Crimes",
-    severity: "critical",
-    slug: "2008-financial-crisis",
-    tags: ["Financial Crisis", "Banks", "Bailout"],
-  },
-  {
     date: "2021-2022",
     sortDate: "2021-11-01",
     title: "FTX Crypto Fraud",
@@ -1657,16 +1647,6 @@ const timelineEvents: TimelineEvent[] = [
     severity: "critical",
     slug: "bernie-madoff-ponzi",
     tags: ["Ponzi", "Madoff", "SEC"],
-  },
-  {
-    date: "1999-present",
-    sortDate: "1999-01-01",
-    title: "Dark Money in Politics",
-    description: "Billions in untraceable political spending. Citizens United unleashed corporate money. Super PACs, 501(c)(4)s, anonymous donors shape elections.",
-    category: "Corruption",
-    severity: "critical",
-    slug: "dark-money-politics",
-    tags: ["Dark Money", "Elections", "Citizens United"],
   },
   {
     date: "2020-present",

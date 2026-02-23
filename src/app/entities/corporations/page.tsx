@@ -1307,6 +1307,16 @@ const corporations: Entity[] = [
     investigationCount: 3,
     riskLevel: "extreme",
   },
+  {
+    id: "chevron-1",
+    slug: "chevron",
+    name: "Chevron Corporation",
+    type: "corporation",
+    description: "One of the world's largest oil and gas companies, implicated in the Ecuador Lago Agrio contamination, climate disinformation, and aggressive lobbying against climate action. Pursued RICO case against environmental attorney Steven Donziger.",
+    role: "Oil & Gas",
+    investigationCount: 1,
+    riskLevel: "high",
+  },
 ];
 
 export default function CorporationsPage() {
