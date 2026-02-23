@@ -1,90 +1,114 @@
+// Script to extract all missing individual data from investigation pages
+// and generate profile entries for the individuals detail page
+
 const fs = require('fs');
+const path = require('path');
 
-// Read the detail page to get all profile data
-const det = fs.readFileSync('src/app/entities/individuals/[slug]/page.tsx', 'utf8');
+const investigationsDir = path.join(__dirname, '..', 'src', 'app', 'investigations');
+const individualsDetailPath = path.join(__dirname, '..', 'src', 'app', 'entities', 'individuals', '[slug]', 'page.tsx');
 
-// Read the current index to get existing slugs
-const idx = fs.readFileSync('src/app/entities/individuals/page.tsx', 'utf8');
+// Step 1: Get all existing individual slugs
+console.log('Reading existing individual profiles...');
+const detailContent = fs.readFileSync(individualsDetailPath, 'utf8');
+const existingSlugs = new Set();
+const slugKeyRegex = /^\s*'([a-z0-9-]+)':\s*\{/gm;
+let match;
+while ((match = slugKeyRegex.exec(detailContent)) !== null) {
+  existingSlugs.add(match[1]);
+}
+console.log(`Found ${existingSlugs.size} existing profiles`);
 
-// Extract existing index slugs
-const existingSlugs = new Set([...idx.matchAll(/slug: "([^"]+)"/g)].map(m => m[1]));
-console.log('Existing index entries:', existingSlugs.size);
+// Step 2: Scan all investigation pages for keyFigures with hrefs to /entities/individuals/
+const missingPersons = new Map(); // slug -> {name, role, investigations}
 
-// Extract all detail slugs with their data
-const detailBlocks = [...det.matchAll(/^\s+'([a-z][a-z0-9-]+)':\s*\{([^}]*(?:\{[^}]*\}[^}]*)*)\}/gm)];
-console.log('Total detail profiles:', detailBlocks.length);
+const dirs = fs.readdirSync(investigationsDir).filter(d => {
+  const fullPath = path.join(investigationsDir, d);
+  return fs.statSync(fullPath).isDirectory() && d !== '[slug]';
+});
 
-// Find missing entries
-const missing = [];
-for (const block of detailBlocks) {
-  const slug = block[1];
-  if (existingSlugs.has(slug)) continue;
+console.log(`Scanning ${dirs.length} investigation pages...`);
+
+for (const dir of dirs) {
+  const pagePath = path.join(investigationsDir, dir, 'page.tsx');
+  if (!fs.existsSync(pagePath)) continue;
   
-  const blockText = block[2];
+  const content = fs.readFileSync(pagePath, 'utf8');
   
-  // Extract name
-  const nameMatch = blockText.match(/name:\s*'([^']*(?:\\'[^']*)*)'/);
-  if (!nameMatch) continue;
-  const name = nameMatch[1].replace(/\\'/g, "'");
+  // Extract keyFigures entries with href to /entities/individuals/
+  // Match name, role, href pattern with flexible whitespace and quote types
+  const figureRegex = /name:\s*['"]([^'"]*(?:\\.[^'"]*)*)['"]\s*,\s*role:\s*['"]([^'"]*(?:\\.[^'"]*)*)['"]\s*,\s*href:\s*['"]\/entities\/individuals\/([a-z0-9-]+)['"]/g;
   
-  // Extract role
-  const roleMatch = blockText.match(/role:\s*'([^']*(?:\\'[^']*)*)'/);
-  const role = roleMatch ? roleMatch[1].replace(/\\'/g, "'") : 'Subject of Investigation';
-  
-  // Extract riskLevel
-  const riskMatch = blockText.match(/riskLevel:\s*'([^']+)'/);
-  const riskLevel = riskMatch ? riskMatch[1] : 'high';
-  
-  // Extract description (first 200 chars)
-  const descMatch = blockText.match(/description:\s*'([^']*(?:\\'[^']*)*)'/);
-  let description = descMatch ? descMatch[1].replace(/\\'/g, "'") : `Subject of multiple ArkHive investigations.`;
-  if (description.length > 200) description = description.substring(0, 197) + '...';
-  
-  missing.push({ slug, name, role, description, riskLevel });
+  let figMatch;
+  while ((figMatch = figureRegex.exec(content)) !== null) {
+    const [, rawName, rawRole, slug] = figMatch;
+    const name = rawName.replace(/\\'/g, "'").replace(/\\"/g, '"');
+    const role = rawRole.replace(/\\'/g, "'").replace(/\\"/g, '"');
+    
+    if (!existingSlugs.has(slug)) {
+      if (!missingPersons.has(slug)) {
+        missingPersons.set(slug, { name, role, investigations: new Set() });
+      }
+      missingPersons.get(slug).investigations.add(dir);
+    }
+  }
 }
 
-console.log('Missing from index:', missing.length);
+console.log(`Found ${missingPersons.size} missing individuals`);
 
-// Generate the entries
-const entries = missing.map((m, i) => {
-  // Escape double quotes in strings for the index file (which uses double quotes)
-  const name = m.name.replace(/"/g, '\\"');
-  const role = m.role.replace(/"/g, '\\"');
-  const desc = m.description.replace(/"/g, '\\"');
-  const risk = m.riskLevel === 'critical' ? 'extreme' : m.riskLevel;
+// Step 3: Generate profile entries
+const sorted = [...missingPersons.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+
+let output = '';
+for (const [slug, data] of sorted) {
+  const escapeName = data.name.replace(/'/g, "\\'");
+  const escapeRole = data.role.replace(/'/g, "\\'");
+  const invSlugs = [...data.investigations];
+  const invLinks = invSlugs.map(s => {
+    const title = s.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    return `      { title: '${title.replace(/'/g, "\\'")}', slug: '${s}', severity: 'high' }`;
+  });
   
-  return `  {
-    id: "${900 + i}",
-    slug: "${m.slug}",
-    name: "${name}",
-    type: "individual",
-    description: "${desc}",
-    role: "${role}",
-    investigationCount: 1,
-    riskLevel: "${risk}",
-  },`;
-}).join('\n');
+  const escDesc = `${data.name} is documented in ArkHive investigations for their role as ${data.role}.`.replace(/'/g, "\\'");
+  
+  output += `  '${slug}': {\n`;
+  output += `    name: '${escapeName}',\n`;
+  output += `    title: '${escapeRole}',\n`;
+  output += `    role: '${escapeRole}',\n`;
+  output += `    riskLevel: 'high',\n`;
+  output += `    description: '${escDesc}',\n`;
+  output += `    education: [],\n`;
+  output += `    affiliations: [],\n`;
+  output += `    controversies: [\n`;
+  output += `      'Connected to ${invSlugs.length} documented investigation${invSlugs.length > 1 ? 's' : ''}',\n`;
+  output += `    ],\n`;
+  output += `    relatedInvestigations: [\n`;
+  output += `${invLinks.join(',\n')},\n`;
+  output += `    ],\n`;
+  output += `    timeline: [],\n`;
+  output += `  },\n`;
+}
 
-// Find insertion point - before the closing ];
-const insertionMarker = '];\n\n';
-const markerIdx = idx.indexOf(insertionMarker, idx.indexOf('const individuals'));
-if (markerIdx === -1) {
-  // Try alternate pattern
-  const altMarker = '];\n\nconst ';
-  const altIdx = idx.indexOf(altMarker, idx.indexOf('const individuals'));
-  if (altIdx === -1) {
-    console.log('ERROR: Could not find insertion point');
-    // Let us find what comes after the array
-    const arrayEnd = idx.lastIndexOf('];');
-    console.log('Last ]; at position:', arrayEnd);
-    console.log('Context:', idx.substring(Math.max(0, arrayEnd - 50), arrayEnd + 50));
+// Step 4: Insert into the detail page before the closing '};'
+const closingPattern = /\n\};\s*$/;
+const closeMatch = detailContent.match(closingPattern);
+
+if (!closeMatch) {
+  // Try finding the last }; 
+  const lastClose = detailContent.lastIndexOf('};');
+  if (lastClose === -1) {
+    console.error('ERROR: Could not find closing }; in detail page');
     process.exit(1);
   }
-  const newIdx = idx.substring(0, altIdx) + '\n' + entries + '\n' + idx.substring(altIdx);
-  fs.writeFileSync('src/app/entities/individuals/page.tsx', newIdx);
-  console.log('Inserted', missing.length, 'entries (alt marker)');
+  const newContent = detailContent.slice(0, lastClose) + output + detailContent.slice(lastClose);
+  fs.writeFileSync(individualsDetailPath, newContent, 'utf8');
 } else {
-  const newIdx = idx.substring(0, markerIdx) + '\n' + entries + '\n' + idx.substring(markerIdx);
-  fs.writeFileSync('src/app/entities/individuals/page.tsx', newIdx);
-  console.log('Inserted', missing.length, 'entries');
+  const insertPos = detailContent.lastIndexOf('};');
+  const newContent = detailContent.slice(0, insertPos) + output + detailContent.slice(insertPos);
+  fs.writeFileSync(individualsDetailPath, newContent, 'utf8');
 }
+
+// Count total profiles now
+const newContent = fs.readFileSync(individualsDetailPath, 'utf8');
+const totalProfiles = (newContent.match(/^\s*'[a-z0-9-]+':\s*\{/gm) || []).length;
+console.log(`\nTotal profiles now: ${totalProfiles}`);
+console.log('Done!');

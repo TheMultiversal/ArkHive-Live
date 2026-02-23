@@ -2483,6 +2483,81 @@ const agencyData: Record<string, {
       { name: 'Jennifer Homendy', position: 'Chair', href: '/entities/individuals/jennifer-homendy' },
     ],
   },
+  'baltimore-pd': {
+    name: 'Baltimore Police Department',
+    acronym: 'BPD',
+    type: 'Municipal Law Enforcement',
+    riskLevel: 'high',
+    description: 'The Baltimore Police Department has been documented deploying Stingray surveillance devices to track cell phones without warrants, and was subject to a DOJ consent decree after systemic civil rights violations.',
+    founded: '1784',
+    headquarters: 'Baltimore, Maryland',
+    employees: '3,100+',
+    budget: '$555 million',
+    jurisdiction: 'Baltimore, Maryland',
+    website: 'https://www.baltimorepolice.org',
+    controversies: [
+      'Warrantless Stingray cell phone surveillance targeting residents',
+      'DOJ consent decree for systemic civil rights violations',
+      'Freddie Gray in-custody death sparking citywide protests',
+      'Gun Trace Task Force corruption and racketeering scandal',
+      'Pattern of excessive force and unconstitutional stops',
+    ],
+    relatedInvestigations: [
+      { title: 'Stingray Surveillance', slug: 'stingray-surveillance', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Michael Harrison', position: 'Commissioner' },
+    ],
+  },
+  'lapd-ig': {
+    name: 'LAPD Inspector General',
+    acronym: 'OIG',
+    type: 'Civilian Oversight',
+    riskLevel: 'high',
+    description: 'The LAPD Office of Inspector General provides civilian oversight of the Los Angeles Police Department, including audits of programs like PredPol predictive policing that revealed racial bias in deployment.',
+    founded: '1996',
+    headquarters: 'Los Angeles, California',
+    employees: '50+',
+    budget: '$4.5 million',
+    jurisdiction: 'Los Angeles, California',
+    controversies: [
+      'Audit findings on racial bias in predictive policing deployment',
+      'PredPol program oversight revealing disproportionate targeting of minority communities',
+      'Challenges in enforcing recommendations against LAPD leadership',
+    ],
+    relatedInvestigations: [
+      { title: 'Predictive Policing', slug: 'predictive-policing', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Mark Smith', position: 'Inspector General' },
+    ],
+  },
+  'us-marshals': {
+    name: 'United States Marshals Service',
+    acronym: 'USMS',
+    type: 'Federal Law Enforcement',
+    riskLevel: 'high',
+    description: 'The United States Marshals Service is the oldest federal law enforcement agency, involved in fugitive operations, witness protection, and asset forfeiture. Has been documented using Stingray/cell-site simulator technology for surveillance.',
+    founded: '1789',
+    headquarters: 'Arlington, Virginia',
+    employees: '5,600+',
+    budget: '$3.9 billion',
+    jurisdiction: 'United States',
+    parentAgency: 'Department of Justice',
+    website: 'https://www.usmarshals.gov',
+    controversies: [
+      'Use of Stingray cell-site simulators for warrantless surveillance',
+      'Controversial fugitive operations with excessive force allegations',
+      'Civil asset forfeiture programs seizing property without conviction',
+      'Operation of secret domestic surveillance aircraft',
+    ],
+    relatedInvestigations: [
+      { title: 'Stingray Surveillance', slug: 'stingray-surveillance', severity: 'high' },
+    ],
+    keyFigures: [
+      { name: 'Ronald Davis', position: 'Director' },
+    ],
+  },
 };
 
 const riskColors = {
