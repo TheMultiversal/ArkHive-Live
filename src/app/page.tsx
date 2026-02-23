@@ -88,7 +88,7 @@ const featuredEntities: Entity[] = [
 
 // Real statistics from the archive
 const stats = {
-  totalInvestigations: 165,
+  totalInvestigations: 164,
   entitiesTracked: 1993,  // 81 agencies + 130 corporations + 75 organizations + 1707 individuals
   documentsArchived: 4219,
   activeAlerts: 42,

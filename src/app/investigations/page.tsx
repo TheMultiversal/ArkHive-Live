@@ -293,17 +293,7 @@ const allInvestigations: Investigation[] = [
     entityCount: 5,
     tags: ["Bannon", "Fraud", "Wall", "Pardon", "Crowdfunding"],
   },
-  {
-    id: "platform-1",
-    slug: "welcome-to-arkhive",
-    title: "Welcome to the ArkHive Platform",
-    summary: "This investigative platform is now live and ready to receive information. Each piece of data you provide will be researched, expanded, and documented with all related entities, connections, and affiliations.",
-    category: "Platform",
-    severity: "medium",
-    date: "January 31, 2026",
-    entityCount: 0,
-    tags: ["Getting Started", "Platform Information", "How It Works"],
-  },
+
   {
     id: "proud-boys-1",
     slug: "proud-boys-sedition",

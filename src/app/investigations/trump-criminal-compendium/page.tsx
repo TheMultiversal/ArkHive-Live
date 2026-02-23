@@ -40,6 +40,7 @@ const investigationData = {
   title: 'The Trump Criminal Compendium',
   subtitle: 'A Comprehensive Juridical Documentation of Crimes Against Humanity, Universal Law, and Democratic Institutions',
   severity: 'critical' as const,
+  status: 'ONGOING — Multiple Active Cases',
   category: 'Crimes Against Humanity',
   date: 'February 8, 2026',
   lastUpdated: 'February 8, 2026',

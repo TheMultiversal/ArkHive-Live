@@ -819,6 +819,16 @@ const timelineEvents: TimelineEvent[] = [
     tags: ["Banking", "Fraud", "Deregulation"],
   },
   {
+    date: "December 20, 1989",
+    sortDate: "1989-12-20",
+    title: "Panama Invasion: Operation Just Cause",
+    description: "U.S. invaded Panama with 27,684 troops to arrest former CIA asset Manuel Noriega. El Chorillo neighborhood destroyed. Estimated 500-4,000 civilians killed. UN condemned invasion.",
+    category: "War Crimes",
+    severity: "high",
+    slug: "panama-invasion",
+    tags: ["Military", "CIA", "Panama", "Noriega"],
+  },
+  {
     date: "August 21, 1992",
     sortDate: "1992-08-21",
     title: "Ruby Ridge Standoff",
@@ -985,7 +995,7 @@ const timelineEvents: TimelineEvent[] = [
     description: "WorldCom's $11 billion accounting fraud — largest in history at the time. CEO Bernie Ebbers sentenced to 25 years. 30,000 lost jobs.",
     category: "Financial Crimes",
     severity: "high",
-    slug: "worldcom",
+    slug: "worldcom-fraud",
     tags: ["Fraud", "Telecom", "Accounting"],
   },
   {
