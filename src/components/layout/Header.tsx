@@ -16,6 +16,7 @@ export default function Header() {
     { href: "/entities/agencies", label: "Agencies" },
     { href: "/entities/corporations", label: "Corporations" },
     { href: "/entities/individuals", label: "Individuals" },
+    { href: "/entities/organizations", label: "Organizations" },
     { href: "/timeline", label: "Timeline" },
     { href: "/about", label: "About" },
   ];

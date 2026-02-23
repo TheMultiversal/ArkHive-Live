@@ -88,10 +88,10 @@ const featuredEntities: Entity[] = [
 
 // Real statistics from the archive
 const stats = {
-  totalInvestigations: 74,
-  entitiesTracked: 579,  // 50 agencies + 49 corporations + 37 organizations + 443 individuals
-  documentsArchived: 2847,
-  activeAlerts: 23,
+  totalInvestigations: 165,
+  entitiesTracked: 1169,  // 75 agencies + 125 corporations + 37 organizations + 932 individuals
+  documentsArchived: 4219,
+  activeAlerts: 42,
 };
 
 export default function Home() {
