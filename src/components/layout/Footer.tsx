@@ -20,15 +20,33 @@ export default function Footer() {
     ],
     resources: [
       { href: "/timeline", label: "Timeline" },
+      { href: "/archives", label: "Archives" },
       { href: "/documents", label: "Documents" },
       { href: "/sources", label: "Sources" },
       { href: "/methodology", label: "Methodology" },
+      { href: "/search", label: "Search" },
+      { href: "/tags", label: "Tags" },
     ],
     about: [
       { href: "/about", label: "About Us" },
+      { href: "/team", label: "Team" },
+      { href: "/faq", label: "FAQ" },
       { href: "/submit", label: "Submit Information" },
       { href: "/contact", label: "Contact" },
       { href: "/privacy", label: "Privacy Policy" },
+      { href: "/terms", label: "Terms of Service" },
+    ],
+    platform: [
+      { href: "/dashboard", label: "Dashboard" },
+      { href: "/profile", label: "Profile" },
+      { href: "/analytics", label: "Analytics" },
+      { href: "/activity", label: "Activity" },
+      { href: "/recent", label: "Recent" },
+      { href: "/notifications", label: "Notifications" },
+      { href: "/bookmarks", label: "Bookmarks" },
+      { href: "/drafts", label: "Drafts" },
+      { href: "/audit", label: "Audit Log" },
+      { href: "/offline", label: "Offline Access" },
     ],
   };
 
@@ -36,7 +54,7 @@ export default function Footer() {
     <footer className="relative z-20 mt-auto border-t border-blood-900/30 bg-black/95">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
-        <div className="py-12 lg:py-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+        <div className="py-12 lg:py-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
           {/* Brand */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1 mb-4 lg:mb-0">
             <Link href="/" className="flex items-center gap-3 mb-4 group">
@@ -146,6 +164,25 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2">
               {footerLinks.about.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-dark-400 hover:text-blood-500 transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-sm font-semibold text-white mb-4 flex items-center gap-2">
+              <span className="w-1.5 h-1.5 bg-blood-600 rounded-full" />
+              Platform
+            </h4>
+            <ul className="space-y-2">
+              {footerLinks.platform.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
