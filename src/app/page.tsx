@@ -88,10 +88,10 @@ const featuredEntities: Entity[] = [
 
 // Real statistics from the archive
 const stats = {
-  totalInvestigations: 164,
+  totalInvestigations: 385,  // 164 dedicated pages + 221 catch-all entries
   entitiesTracked: 2007,  // 81 agencies + 131 corporations + 75 organizations + 1720 individuals
-  documentsArchived: 4219,
-  activeAlerts: 42,
+  documentsArchived: 8,  // actual document entries on /documents page
+  activeAlerts: 8,  // actual notification entries on /notifications page
 };
 
 export default function Home() {
@@ -485,7 +485,7 @@ export default function Home() {
           </div>
 
           {/* Category Cards with Biohazard Icons */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             <Link href="/entities/agencies" className="glass-card p-8 text-center group">
               <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-blood-700 to-blood-800 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
                 <BiohazardIcon variant="nuclear" size={32} className="text-white" />
@@ -525,6 +525,21 @@ export default function Home() {
               </h3>
               <p className="text-dark-400 text-sm mb-4">
                 Decision-makers and key figures across investigations
+              </p>
+              <span className="text-blood-700 text-sm font-medium flex items-center justify-center gap-1">
+                Explore <ChevronRight className="w-4 h-4" />
+              </span>
+            </Link>
+
+            <Link href="/entities/organizations" className="glass-card p-8 text-center group">
+              <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-blood-800 to-blood-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
+                <BiohazardIcon variant="standard" size={32} className="text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blood-700 transition-colors">
+                Organizations
+              </h3>
+              <p className="text-dark-400 text-sm mb-4">
+                Groups, networks, and organizations connected to investigations
               </p>
               <span className="text-blood-700 text-sm font-medium flex items-center justify-center gap-1">
                 Explore <ChevronRight className="w-4 h-4" />
