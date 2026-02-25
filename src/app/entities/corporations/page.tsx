@@ -1272,7 +1272,7 @@ const corporations: Entity[] = [
     slug: "arthur-andersen",
     name: "Arthur Andersen LLP",
     type: "corporation",
-    description: "One of the Big Five accounting firms that served as Enron's auditor. Convicted of obstruction of justice for shredding Enron documents. Firm collapsed — 85,000 employees lost jobs. Led to Sarbanes-Oxley Act.",
+    description: "One of the Big Five accounting firms that served as Enron's auditor. Convicted of obstruction of justice for shredding Enron documents. Firm collapsed  -  85,000 employees lost jobs. Led to Sarbanes-Oxley Act.",
     role: "Accounting / Professional Services (Dissolved)",
     investigationCount: 2,
     riskLevel: "extreme",

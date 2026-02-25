@@ -11,7 +11,7 @@ import {
   ExternalLink,
   MapPin,
   Plane,
-  Scale, ShieldAlert} from 'lucide-react';
+  Scale, ShieldAlert, DollarSign} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -22,12 +22,24 @@ const investigation = {
   summary: 'Jeffrey Epstein operated a sophisticated sex trafficking network targeting minors for decades, enabled by powerful associates including politicians, businessmen, and royalty. Despite his 2008 conviction, a sweetheart plea deal protected co-conspirators. Epstein\'s 2019 death in custody while awaiting trial left many questions unanswered. The network\'s full scope continues to be revealed through unsealed court documents.',
   keyFigures: [
     { name: 'Jeffrey Epstein', role: 'Network Operator, Convicted Sex Offender', href: '/entities/individuals/jeffrey-epstein', status: 'Deceased (2019)' },
-    { name: 'Ghislaine Maxwell', role: 'Co-Conspirator, Recruiter, Convicted', href: '/entities/individuals/ghislaine-maxwell', status: 'Serving 20 Years' },
-    { name: 'Donald Trump', role: 'Social Associate, Mar-a-Lago Host', href: '/entities/individuals/donald-trump', status: 'Subject of Investigation' },
-    { name: 'Bill Clinton', role: 'Flight Logs: 26+ Flights', href: '#', status: 'Named in Documents' },
-    { name: 'Prince Andrew', role: 'Photographed with Victim, Settled Lawsuit', href: '#', status: 'Civil Settlement' },
-    { name: 'Les Wexner', role: 'Primary Financial Backer', href: '#', status: 'Under Investigation' },
-    { name: 'Jean-Luc Brunel', role: 'Model Scout, Procurer', href: '#', status: 'Deceased (2022)' },
+    { name: 'Ghislaine Maxwell', role: 'Co-Conspirator, Recruiter, Convicted Sex Trafficker', href: '/entities/individuals/ghislaine-maxwell', status: 'Serving 20 Years' },
+    { name: 'Donald Trump', role: 'Social Associate, Mar-a-Lago Host, Flight Logs', href: '/entities/individuals/donald-trump', status: 'Subject of Investigation' },
+    { name: 'Bill Clinton', role: 'Flight Logs: 26+ Flights on Lolita Express', href: '/entities/individuals/bill-clinton', status: 'Named in Documents' },
+    { name: 'Prince Andrew', role: 'Photographed with Victim, Settled Lawsuit for $12M', href: '/entities/individuals/prince-andrew', status: 'Civil Settlement' },
+    { name: 'Les Wexner', role: 'Primary Financial Backer, Gifted $77M Mansion', href: '/entities/individuals/les-wexner', status: 'Under Investigation' },
+    { name: 'Jean-Luc Brunel', role: 'Model Scout, Procurer for Epstein Network', href: '/entities/individuals/jean-luc-brunel', status: 'Deceased (2022)' },
+    { name: 'Alan Dershowitz', role: 'Defense Attorney, Accused by Victims', href: '/entities/individuals/alan-dershowitz', status: 'Named in Documents' },
+    { name: 'Alexander Acosta', role: 'US Attorney Who Gave Sweetheart Plea Deal', href: '/entities/individuals/alex-acosta', status: 'Resigned as Labor Sec.' },
+    { name: 'Virginia Giuffre', role: 'Primary Victim and Accuser, Filed Landmark Lawsuits', href: '/entities/individuals/virginia-giuffre', status: 'Key Witness' },
+    { name: 'Bill Gates', role: 'Multiple Documented Meetings After 2008 Conviction', href: '/entities/individuals/bill-gates', status: 'Named in Documents' },
+    { name: 'Leon Black', role: 'Paid Epstein $158M After Conviction', href: '/entities/individuals/leon-black', status: 'Under Investigation' },
+    { name: 'Sarah Kellen', role: 'Personal Assistant, Scheduled Victims', href: '/entities/individuals/sarah-kellen', status: 'Granted Immunity' },
+    { name: 'Nadia Marcinkova', role: 'Victim-Turned-Participant, Epstein Inner Circle', href: '/entities/individuals/nadia-marcinkova', status: 'Granted Immunity' },
+    { name: 'Glenn Dubin', role: 'Billionaire, Inner Circle, Wife Named as Facilitator', href: '/entities/individuals/glenn-dubin', status: 'Named in Documents' },
+    { name: 'Jes Staley', role: 'Barclays CEO, Forced Out Over Epstein Ties', href: '/entities/individuals/jes-staley', status: 'Fired from Barclays' },
+    { name: 'Reid Hoffman', role: 'LinkedIn Founder, Admitted Post-Conviction Meetings', href: '/entities/individuals/reid-hoffman', status: 'Named in Documents' },
+    { name: 'Mort Zuckerman', role: 'US News Owner, Epstein Financial Associate', href: '/entities/individuals/mort-zuckerman', status: 'Named in Documents' },
+    { name: 'Robert Maxwell', role: 'Ghislaine\'s Father, Suspected Intelligence Ties', href: '/entities/individuals/robert-maxwell', status: 'Deceased (1991)' },
   ],
   properties: [
     { name: 'Little St. James Island', location: 'U.S. Virgin Islands', details: '"Pedophile Island" - Primary abuse location, mysterious temple structure' },
@@ -113,6 +125,16 @@ const investigation = {
     'Trump wished Ghislaine Maxwell "well" after her arrest',
   ],
   victims: 'Hundreds of documented victims, some as young as 11 years old. Recruitment through modeling agencies, massage promises, and financial manipulation.',
+  financialConnections: [
+    { entity: 'JPMorgan Chase', role: 'Primary Banking Partner', details: 'Maintained Epstein accounts for 15+ years after conviction. Paid $290M settlement to victims in 2023. Internal emails show executives knew of trafficking allegations.', href: '/entities/corporations/jpmorgan-chase' },
+    { entity: 'Deutsche Bank', role: 'Banking Partner Post-2013', details: 'Took over Epstein accounts after JPMorgan dropped him. Paid $150M fine to NY regulators. Processed suspicious transactions including payments to Russian models.', href: '/entities/corporations/deutsche-bank' },
+    { entity: 'Les Wexner / L Brands', role: 'Primary Financial Backer', details: 'Granted Epstein power of attorney over his finances. Gifted $77M Manhattan mansion. Epstein managed Wexner\'s $1B+ fortune. Victoria\'s Secret used as recruiting pipeline.', href: '/entities/individuals/les-wexner' },
+    { entity: 'Leon Black / Apollo Global', role: 'Post-Conviction Payments', details: 'Paid Epstein $158M in "advisory fees" between 2012-2017, years after sex offender conviction. Stepped down as Apollo CEO. Claims payments were for tax advice.', href: '/entities/individuals/leon-black' },
+    { entity: 'Bill Gates / Gates Foundation', role: 'Post-Conviction Meetings', details: 'Multiple documented meetings with Epstein from 2011-2014, after conviction. Gates flew on Epstein\'s jet. Melinda Gates cited Epstein relationship as factor in divorce.', href: '/entities/individuals/bill-gates' },
+    { entity: 'Jes Staley / Barclays', role: 'Personal Relationship', details: 'Maintained close personal relationship with Epstein for years. Exchanged 1,200+ emails. Visited Epstein in jail. Fired as Barclays CEO over the relationship.', href: '/entities/individuals/jes-staley' },
+    { entity: 'Victoria\'s Secret / L Brands', role: 'Recruiting Pipeline', details: 'Epstein posed as Victoria\'s Secret talent scout to lure victims. Used Wexner\'s fashion empire as cover for approaching young women. Multiple victims recruited this way.', href: '#' },
+    { entity: 'Bear Stearns', role: 'Original Employer', details: 'Epstein worked as options trader 1976-1981. Hired despite lacking college degree. Made connections that launched his financial career and access to wealthy clients.', href: '#' },
+  ],
   sources: [
     { title: 'Miami Herald: Perversion of Justice Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '2018' },
     { title: 'SDNY Federal Indictment', url: 'https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-sex-trafficking-minors', date: '2019' },
@@ -124,6 +146,12 @@ const investigation = {
     { title: 'Non-Prosecution Agreement Documents', url: '#', date: '2008' },
     { title: '2024 Unsealed Court Documents', url: '#', date: '2024' },
     { title: 'Trump 2002 New York Magazine Quote', url: 'https://nymag.com/nymetro/news/people/n_7912/', date: '2002' },
+    { title: 'Vanity Fair: The Talented Mr. Epstein', url: 'https://www.vanityfair.com/news/2003/03/jeffrey-epstein-200303', date: '2003' },
+    { title: 'JPMorgan $290M Victim Settlement', url: 'https://www.reuters.com/legal/jpmorgan-settlement-with-epstein-victims-gets-final-approval-2023-11-28/', date: '2023' },
+    { title: 'Deutsche Bank $150M Fine (NY DFS)', url: 'https://www.dfs.ny.gov/reports_and_publications/press_releases/pr202007071', date: '2020' },
+    { title: 'DOJ Inspector General Report on Epstein Death', url: 'https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-monitoring-jeffrey-epstein-following-his', date: '2023' },
+    { title: 'Leon Black-Epstein $158M Payments (NYT)', url: 'https://www.nytimes.com/2021/01/25/business/leon-black-jeffrey-epstein.html', date: '2021' },
+    { title: 'Bill Gates-Epstein Meetings (NYT)', url: 'https://www.nytimes.com/2019/10/12/business/jeffrey-epstein-bill-gates.html', date: '2019' },
   ],
 };
 
@@ -180,10 +208,6 @@ export default function EpsteinNetworkPage() {
             <Users className="w-5 h-5 text-blood-500" />
             Key Figures & Associates
           </h2>
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
-          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
-          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
-        </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {investigation.keyFigures.map((figure, idx) => (
@@ -201,6 +225,38 @@ export default function EpsteinNetworkPage() {
                   </div>
                   <span className="text-xs text-zinc-500">{figure.status}</span>
                 </div>
+              </Link>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Cover-Up */}
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.12 }} className="border-2 border-red-800/60 bg-red-950/10 p-6 mb-8 border-l-4 border-l-blood-600">
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500" />The Cover-Up</h2>
+          <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-red-950/20 border border-red-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+        </motion.div>
+
+        {/* Financial Connections */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.13 }}
+          className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
+        >
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+            <DollarSign className="w-5 h-5 text-blood-500" />
+            Financial Connections & Enablers
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {investigation.financialConnections.map((conn, idx) => (
+              <Link
+                key={idx}
+                href={conn.href}
+                className="border border-zinc-700 bg-zinc-900/50 p-4 hover:border-blood-600 transition-colors group"
+              >
+                <h3 className="font-bold text-white group-hover:text-blood-500 transition-colors">{conn.entity}</h3>
+                <p className="text-sm text-blood-400 mt-1">{conn.role}</p>
+                <p className="text-xs text-zinc-400 mt-2">{conn.details}</p>
               </Link>
             ))}
           </div>

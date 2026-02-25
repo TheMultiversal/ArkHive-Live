@@ -7,10 +7,10 @@ import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
   title: 'War on Drugs: 50 Years of Systemic Racial Targeting',
-  subtitle: 'Nixon\'s Advisor Admitted It Was Never About Drugs — It Was About Criminalizing Black People and the Antiwar Left',
+  subtitle: 'Nixon\'s Advisor Admitted It Was Never About Drugs  -  It Was About Criminalizing Black People and the Antiwar Left',
   severity: 'critical',
-  status: 'Ongoing — Exposed by Ehrlichman Confession',
-  summary: 'The War on Drugs, declared by President Richard Nixon in 1971 and dramatically escalated by Ronald Reagan in the 1980s, was never about public health. In 1994, Nixon\'s domestic policy chief John Ehrlichman confessed: "The Nixon campaign in 1968, and the Nixon White House after that, had two enemies: the antiwar left and Black people. We knew we couldn\'t make it illegal to be either against the war or Black, but by getting the public to associate the hippies with marijuana and Blacks with heroin, and then criminalizing both heavily, we could disrupt those communities. We could arrest their leaders, raid their homes, break up their meetings, and vilify them night after night on the evening news. Did we know we were lying about the drugs? Of course we did." The result: over 45 million arrests, a 500% increase in incarceration, racial disparities that see Black Americans imprisoned for drug offenses at nearly 6 times the rate of whites despite similar usage rates, and the destruction of millions of families and communities — all by design.',
+  status: 'Ongoing  -  Exposed by Ehrlichman Confession',
+  summary: 'The War on Drugs, declared by President Richard Nixon in 1971 and dramatically escalated by Ronald Reagan in the 1980s, was never about public health. In 1994, Nixon\'s domestic policy chief John Ehrlichman confessed: "The Nixon campaign in 1968, and the Nixon White House after that, had two enemies: the antiwar left and Black people. We knew we couldn\'t make it illegal to be either against the war or Black, but by getting the public to associate the hippies with marijuana and Blacks with heroin, and then criminalizing both heavily, we could disrupt those communities. We could arrest their leaders, raid their homes, break up their meetings, and vilify them night after night on the evening news. Did we know we were lying about the drugs? Of course we did." The result: over 45 million arrests, a 500% increase in incarceration, racial disparities that see Black Americans imprisoned for drug offenses at nearly 6 times the rate of whites despite similar usage rates, and the destruction of millions of families and communities  -  all by design.',
   scale: {
     totalArrests: '45+ million drug arrests',
     currentPrisoners: '400,000+ currently imprisoned',
@@ -25,33 +25,33 @@ const investigation = {
     quote: '"The Nixon campaign in 1968, and the Nixon White House after that, had two enemies: the antiwar left and Black people. You understand what I\'m saying? We knew we couldn\'t make it illegal to be either against the war or Black, but by getting the public to associate the hippies with marijuana and Blacks with heroin, and then criminalizing both heavily, we could disrupt those communities. We could arrest their leaders, raid their homes, break up their meetings, and vilify them night after night on the evening news. Did we know we were lying about the drugs? Of course we did."',
   },
   racialDisparities: [
-    { stat: 'Drug use rates are roughly equal across races', detail: 'According to the Substance Abuse and Mental Health Services Administration, roughly 12% of both white and Black Americans use illegal drugs — yet Black Americans are 3.73x more likely to be arrested for marijuana possession.' },
+    { stat: 'Drug use rates are roughly equal across races', detail: 'According to the Substance Abuse and Mental Health Services Administration, roughly 12% of both white and Black Americans use illegal drugs  -  yet Black Americans are 3.73x more likely to be arrested for marijuana possession.' },
     { stat: '100-to-1 Crack/Powder Cocaine Disparity', detail: 'The 1986 Anti-Drug Abuse Act set mandatory minimums: 5 grams of crack (used more in Black communities) = 5 years. 500 grams of powder cocaine (used more in white communities) = 5 years. This 100:1 ratio was explicitly racially targeted.' },
     { stat: 'Black Americans are 12.4% of drug users but 32% of drug arrests and 40% of drug prisoners', detail: 'Policing priorities, stop-and-frisk, and prosecutorial discretion create a system where identical behavior leads to radically different outcomes based on race.' },
     { stat: 'Collateral Consequences', detail: 'A drug felony conviction triggers loss of voting rights, public housing eligibility, student loan access, food stamps, professional licenses, and employment. These "invisible punishments" perpetuate poverty and exclusion across generations.' },
   ],
   keyFigures: [
-    { name: 'Richard Nixon', role: 'Declared the War on Drugs in 1971. His advisor later admitted it was a racist political strategy.', href: '/entities/individuals/richard-nixon', status: 'Resigned 1974 — Pardoned' },
-    { name: 'John Ehrlichman', role: 'Nixon domestic policy advisor who confessed the War on Drugs was designed to target Black people', status: 'Served 18 months for Watergate — confession published posthumously' },
+    { name: 'Richard Nixon', role: 'Declared the War on Drugs in 1971. His advisor later admitted it was a racist political strategy.', href: '/entities/individuals/richard-nixon', status: 'Resigned 1974  -  Pardoned' },
+    { name: 'John Ehrlichman', role: 'Nixon domestic policy advisor who confessed the War on Drugs was designed to target Black people', status: 'Served 18 months for Watergate  -  confession published posthumously' },
     { name: 'Ronald Reagan', role: 'Massively expanded the War on Drugs. Signed Anti-Drug Abuse Act of 1986 with racist crack/powder disparity.', href: '/entities/individuals/ronald-reagan', status: 'Deceased 2004' },
     { name: 'Nancy Reagan', role: '"Just Say No" campaign architect. Diverted attention from systemic racism to individual "moral failure."', status: 'Deceased 2016' },
-    { name: 'Joe Biden', role: 'As Senator, authored the 1994 Crime Bill expanding mandatory minimums and creating "three strikes"', href: '/entities/individuals/joe-biden', status: 'President — later expressed partial regret' },
+    { name: 'Joe Biden', role: 'As Senator, authored the 1994 Crime Bill expanding mandatory minimums and creating "three strikes"', href: '/entities/individuals/joe-biden', status: 'President  -  later expressed partial regret' },
     { name: 'Bill Clinton', role: 'Signed 1994 Crime Bill. Massively expanded federal mandatory minimums and "three strikes" provisions.', href: '/entities/individuals/bill-clinton', status: 'Later called it a mistake' },
-    { name: 'Harry Anslinger', role: 'First head of Federal Bureau of Narcotics. Used explicitly racist propaganda to criminalize marijuana in the 1930s.', status: 'Deceased 1975 — Never held accountable' },
-    { name: 'Gary Webb', role: 'San Jose Mercury News journalist who exposed CIA-Contra cocaine trafficking. Career destroyed. Found dead with two gunshots to the head — ruled "suicide."', status: 'Died 2004 — ruled suicide' },
+    { name: 'Harry Anslinger', role: 'First head of Federal Bureau of Narcotics. Used explicitly racist propaganda to criminalize marijuana in the 1930s.', status: 'Deceased 1975  -  Never held accountable' },
+    { name: 'Gary Webb', role: 'San Jose Mercury News journalist who exposed CIA-Contra cocaine trafficking. Career destroyed. Found dead with two gunshots to the head  -  ruled "suicide."', status: 'Died 2004  -  ruled suicide' },
   ],
   ciaDrugConnection: {
     title: 'CIA Drug Trafficking',
     description: 'While the government waged war on drug users, the CIA was actively facilitating drug trafficking. During the 1980s, the CIA\'s Contra allies in Nicaragua trafficked cocaine into American cities to fund their operations. Journalist Gary Webb documented in his "Dark Alliance" series how Contra-connected dealers played a significant role in the crack epidemic devastating Black communities. The CIA Inspector General later confirmed that the agency had maintained relationships with known drug traffickers and had not reported their activities to law enforcement. The same government imprisoning millions for drug possession was simultaneously importing drugs into those very communities.',
     sources: [
-      { title: 'Gary Webb: Dark Alliance — CIA, the Contras, and the Crack Cocaine Explosion', url: 'https://archive.org/details/darkalliance00webb', date: '1998' },
+      { title: 'Gary Webb: Dark Alliance  -  CIA, the Contras, and the Crack Cocaine Explosion', url: 'https://archive.org/details/darkalliance00webb', date: '1998' },
       { title: 'CIA Inspector General Report: Allegations of Connections Between CIA and Contras in Cocaine Trafficking', url: 'https://oig.justice.gov/sites/default/files/archive/special/9712/ch01p1.htm', date: '1998' },
       { title: 'Kerry Committee Report: Drugs, Law Enforcement and Foreign Policy', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB113/', date: '1989' },
     ],
   },
   mandatoryMinimums: [
     { law: 'Boggs Act (1952)', description: 'First mandatory minimums for drug offenses: 2-5 years for first marijuana offense' },
-    { law: 'Comprehensive Drug Abuse Prevention and Control Act (1970)', description: 'Created drug scheduling system still used today. Cannabis classified as Schedule I (no medical use) alongside heroin — above cocaine and methamphetamine.' },
+    { law: 'Comprehensive Drug Abuse Prevention and Control Act (1970)', description: 'Created drug scheduling system still used today. Cannabis classified as Schedule I (no medical use) alongside heroin  -  above cocaine and methamphetamine.' },
     { law: 'Anti-Drug Abuse Act (1986)', description: '100:1 crack/powder disparity. 5 grams crack = 5 years mandatory minimum. Created career for mass incarceration.' },
     { law: 'Anti-Drug Abuse Act (1988)', description: 'Created the "drug czar" position and federal penalties for simple possession. Established drug-free school zones (which overwhelmingly targeted urban/Black neighborhoods).' },
     { law: 'Violent Crime Control Act (1994)', description: '"Three strikes" provision. $9.7 billion for new prisons. Eliminated Pell Grants for prisoners. Federal mandatory minimums.' },
@@ -59,47 +59,47 @@ const investigation = {
   ],
   timeline: [
     { date: '1937', event: 'Marijuana Tax Act criminalizes cannabis using racist propaganda targeting Mexican Americans and Black jazz musicians' },
-    { date: 'Jun 17, 1971', event: 'Nixon declares drugs "public enemy number one" — officially launches War on Drugs' },
+    { date: 'Jun 17, 1971', event: 'Nixon declares drugs "public enemy number one"  -  officially launches War on Drugs' },
     { date: '1973', event: 'Nixon creates Drug Enforcement Administration (DEA)' },
     { date: '1980s', event: 'CIA-backed Contras flood US cities with crack cocaine while Reagan escalates War on Drugs' },
-    { date: '1986', event: 'Reagan signs Anti-Drug Abuse Act — 100:1 crack/powder disparity. Mass incarceration begins.' },
+    { date: '1986', event: 'Reagan signs Anti-Drug Abuse Act  -  100:1 crack/powder disparity. Mass incarceration begins.' },
     { date: '1994', event: 'Clinton signs Crime Bill with "three strikes," $9.7B for prisons, eliminates prisoner education' },
     { date: '1994', event: 'Ehrlichman confesses War on Drugs was designed to target Black people (published 2016)' },
     { date: '1996', event: 'Gary Webb publishes "Dark Alliance" exposing CIA-Contra cocaine connection. Career destroyed.' },
-    { date: '2004', event: 'Gary Webb found dead — two gunshots to head, ruled suicide' },
+    { date: '2004', event: 'Gary Webb found dead  -  two gunshots to head, ruled suicide' },
     { date: '2010', event: 'Fair Sentencing Act reduces crack/powder disparity to 18:1 (still not equal)' },
     { date: '2016', event: 'Harper\'s Magazine publishes Ehrlichman\'s 1994 confession. Confirmation it was racial targeting.' },
     { date: '2020', event: 'Oregon decriminalizes all drug possession. Movement toward treating addiction as health issue.' },
     { date: 'Present', event: '400,000+ Americans remain imprisoned for drug offenses. Racial disparities persist.' },
   ],
   charges: [
-    '18 USC §242 — Deprivation of Rights Under Color of Law (systematic racial targeting through drug enforcement)',
-    '18 USC §241 — Conspiracy Against Rights (coordinated effort to disrupt communities through selective enforcement)',
-    'Fourth Amendment Violations — Stop-and-frisk, no-knock raids, civil asset forfeiture without conviction',
-    'Eighth Amendment — Cruel and Unusual Punishment (mandatory minimums disproportionate to offense)',
-    'Fourteenth Amendment — Equal Protection (enforced with knowing racial disparity)',
-    'Civil Rights Act Violations — Facially neutral laws designed and enforced to target racial minorities',
+    '18 USC §242  -  Deprivation of Rights Under Color of Law (systematic racial targeting through drug enforcement)',
+    '18 USC §241  -  Conspiracy Against Rights (coordinated effort to disrupt communities through selective enforcement)',
+    'Fourth Amendment Violations  -  Stop-and-frisk, no-knock raids, civil asset forfeiture without conviction',
+    'Eighth Amendment  -  Cruel and Unusual Punishment (mandatory minimums disproportionate to offense)',
+    'Fourteenth Amendment  -  Equal Protection (enforced with knowing racial disparity)',
+    'Civil Rights Act Violations  -  Facially neutral laws designed and enforced to target racial minorities',
   ],
   legalOutcomes: [
-    { defendant: 'US Government', charge: 'Racially motivated drug policy', outcome: 'Ehrlichman confession (1994/2016) — No legal consequences' },
+    { defendant: 'US Government', charge: 'Racially motivated drug policy', outcome: 'Ehrlichman confession (1994/2016)  -  No legal consequences' },
     { defendant: 'CIA', charge: 'Facilitating Contra cocaine trafficking', outcome: 'CIA IG confirmed but no prosecutions. Gary Webb discredited and died.' },
-    { defendant: 'Crack/Powder Disparity', charge: 'Racially discriminatory sentencing', outcome: 'Reduced from 100:1 to 18:1 in 2010 — still not equal' },
+    { defendant: 'Crack/Powder Disparity', charge: 'Racially discriminatory sentencing', outcome: 'Reduced from 100:1 to 18:1 in 2010  -  still not equal' },
     { defendant: '45+ million Americans', charge: 'Drug offenses', outcome: 'Arrested and processed. Millions imprisoned. Families destroyed. Communities devastated.' },
   ],
   coverup: [
     'Nixon domestic policy advisor John Ehrlichman admitted in 1994 that the drug war was designed to target Black people and the antiwar left: "We could arrest their leaders, raid their homes, break up their meetings, and vilify them night after night on the evening news"',
-    'Ehrlichman\'s confession was not published until 2016 — journalist Dan Baum sat on the quote for over two decades before publishing it in Harper\'s Magazine',
+    'Ehrlichman\'s confession was not published until 2016  -  journalist Dan Baum sat on the quote for over two decades before publishing it in Harper\'s Magazine',
     'CIA Inspector General Frederick Hitz confirmed in 1998 that the CIA had knowledge of drug trafficking by Contra-linked networks throughout the 1980s but failed to report it to the Department of Justice as legally required',
-    'Gary Webb\'s "Dark Alliance" series exposing CIA-Contra-cocaine connections was systematically discredited by the Los Angeles Times, Washington Post, and New York Times — all three papers later acknowledged his core findings were substantially accurate',
+    'Gary Webb\'s "Dark Alliance" series exposing CIA-Contra-cocaine connections was systematically discredited by the Los Angeles Times, Washington Post, and New York Times  -  all three papers later acknowledged his core findings were substantially accurate',
     'DEA agents who attempted to investigate CIA-linked drug trafficking operations in Central America were reassigned, threatened with termination, or forced into early retirement',
     'The 100:1 crack-to-powder cocaine sentencing disparity was maintained for 24 years despite overwhelming evidence of racial discrimination in its application, finally reduced to 18:1 in 2010 but never equalized',
     'Civil asset forfeiture laws allowed police to seize cash, vehicles, and property without criminal conviction, creating direct financial incentives for drug enforcement that systematically corrupted policing priorities',
     'Federal agencies suppressed and downplayed data showing that drug use rates are nearly identical across racial groups while arrest and incarceration rates for Black Americans are 3-4 times higher',
   ],
   sources: [
-    { title: 'John Ehrlichman Confession — Harper\'s Magazine', url: 'https://harpers.org/archive/2016/04/legalize-it-all/', date: '2016' },
-    { title: 'Michelle Alexander: The New Jim Crow — Mass Incarceration in the Age of Colorblindness', url: 'https://newjimcrow.com/', date: '2010' },
-    { title: 'Gary Webb: Dark Alliance — CIA, Contras, and Crack Cocaine', url: 'https://archive.org/details/darkalliance00webb', date: '1998' },
+    { title: 'John Ehrlichman Confession  -  Harper\'s Magazine', url: 'https://harpers.org/archive/2016/04/legalize-it-all/', date: '2016' },
+    { title: 'Michelle Alexander: The New Jim Crow  -  Mass Incarceration in the Age of Colorblindness', url: 'https://newjimcrow.com/', date: '2010' },
+    { title: 'Gary Webb: Dark Alliance  -  CIA, Contras, and Crack Cocaine', url: 'https://archive.org/details/darkalliance00webb', date: '1998' },
     { title: 'ACLU: The War on Marijuana in Black and White', url: 'https://www.aclu.org/report/report-war-marijuana-black-and-white', date: '2013' },
     { title: 'The Sentencing Project: Racial Disparities in Drug Arrests', url: 'https://www.sentencingproject.org/reports/the-color-of-justice-racial-and-ethnic-disparity-in-state-prisons-the-sentencing-project/', date: '2021' },
     { title: 'Drug Policy Alliance: A History of the Drug War', url: 'https://drugpolicy.org/issues/brief-history-drug-war', date: 'Ongoing' },
@@ -130,7 +130,7 @@ export default function WarOnDrugsPage() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.08 }} className="border-2 border-red-800/60 bg-red-950/20 p-6 mb-8">
           <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4">The Confession</h2>
           <blockquote className="text-zinc-300 italic border-l-4 border-red-500 pl-4 text-sm leading-relaxed">{investigation.ehrlichmanQuote.quote}</blockquote>
-          <p className="text-xs text-zinc-500 mt-3">— {investigation.ehrlichmanQuote.speaker}, {investigation.ehrlichmanQuote.year}</p>
+          <p className="text-xs text-zinc-500 mt-3"> -  {investigation.ehrlichmanQuote.speaker}, {investigation.ehrlichmanQuote.year}</p>
         </motion.div>
 
         {/* Scale */}

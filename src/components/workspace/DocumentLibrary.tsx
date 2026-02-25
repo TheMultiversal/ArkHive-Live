@@ -226,6 +226,31 @@ function DocumentItem({ document, index, getFileIcon, formatFileSize }: Document
         <button 
           className="p-1.5 rounded hover:bg-white/[0.04] text-white/25 hover:text-white/40 transition-colors"
           aria-label={`Download ${document.name}`}
+          onClick={(e) => {
+            e.stopPropagation();
+            // Generate a downloadable file with document metadata
+            const content = [
+              `Document: ${document.name}`,
+              `Type: ${document.type}`,
+              `Size: ${formatFileSize(document.size)}`,
+              `Uploaded by: ${document.uploadedByName || 'Unknown'}`,
+              `Date: ${new Date(document.uploadedAt).toLocaleDateString()}`,
+              `Category: ${document.category || 'General'}`,
+              document.description ? `Description: ${document.description}` : '',
+              '',
+              'This is a placeholder document from the ArkHive workspace.',
+              'In a production environment, this would contain the actual file contents.',
+            ].filter(Boolean).join('\n');
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = window.document.createElement('a');
+            a.href = url;
+            a.download = document.name.replace(/\.[^.]+$/, '') + '.txt';
+            window.document.body.appendChild(a);
+            a.click();
+            window.document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+          }}
         >
           <Download className="w-3 h-3" aria-hidden="true" />
         </button>
@@ -251,6 +276,14 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
   const [folder, setFolder] = useState('');
   const [newFolder, setNewFolder] = useState('');
   const [isDragging, setIsDragging] = useState(false);
+  const [selectedFile, setSelectedFile] = useState<File | null>(null);
+
+  const handleFileSelect = (file: File) => {
+    setSelectedFile(file);
+    if (!name.trim()) {
+      setName(file.name);
+    }
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -258,9 +291,9 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
 
     onUpload({
       name: name.trim(),
-      type: 'application/pdf',
-      size: Math.floor(Math.random() * 5000000) + 100000,
-      url: '#',
+      type: selectedFile?.type || 'application/pdf',
+      size: selectedFile?.size || Math.floor(Math.random() * 5000000) + 100000,
+      url: selectedFile ? URL.createObjectURL(selectedFile) : '#',
       uploadedBy: '1',
       uploadedByName: 'You',
       folder: newFolder.trim() || folder || undefined,
@@ -294,16 +327,40 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
 
         {/* Drop Zone */}
         <div
-          className={`border-2 border-dashed rounded-lg p-6 text-center mb-4 transition-colors ${
+          className={`border-2 border-dashed rounded-lg p-6 text-center mb-4 transition-colors cursor-pointer ${
             isDragging ? 'border-blood-500/50 bg-blood-500/5' : 'border-white/[0.08] hover:border-white/[0.12]'
           }`}
           onDragOver={(e) => { e.preventDefault(); setIsDragging(true); }}
           onDragLeave={() => setIsDragging(false)}
-          onDrop={(e) => { e.preventDefault(); setIsDragging(false); }}
+          onDrop={(e) => {
+            e.preventDefault();
+            setIsDragging(false);
+            const file = e.dataTransfer.files[0];
+            if (file) handleFileSelect(file);
+          }}
+          onClick={() => {
+            const input = window.document.createElement('input');
+            input.type = 'file';
+            input.accept = '.pdf,.doc,.docx,.xls,.xlsx,.csv,.txt,.png,.jpg,.jpeg,.gif,.zip';
+            input.onchange = (ev) => {
+              const file = (ev.target as HTMLInputElement).files?.[0];
+              if (file) handleFileSelect(file);
+            };
+            input.click();
+          }}
         >
           <Upload className="w-6 h-6 mx-auto mb-2 text-white/20" />
-          <p className="text-[11px] text-white/40 mb-1">Drop files here or click to browse</p>
-          <p className="text-[9px] text-white/20">PDF, DOC, XLS, Images up to 50MB</p>
+          {selectedFile ? (
+            <>
+              <p className="text-[11px] text-blood-400/80 mb-1">{selectedFile.name}</p>
+              <p className="text-[9px] text-white/30">{(selectedFile.size / 1024).toFixed(1)} KB - Click to change</p>
+            </>
+          ) : (
+            <>
+              <p className="text-[11px] text-white/40 mb-1">Drop files here or click to browse</p>
+              <p className="text-[9px] text-white/20">PDF, DOC, XLS, Images up to 50MB</p>
+            </>
+          )}
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-3">

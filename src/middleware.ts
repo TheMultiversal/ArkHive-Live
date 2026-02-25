@@ -26,7 +26,7 @@ export function middleware(req: NextRequest) {
   const sitePassword = process.env.SITE_PASSWORD || 'Knowledge';
 
   // simple check: cookie must equal the configured password
-  if (cookie && cookie === sitePassword) {
+  if (cookie && cookie.toLowerCase() === sitePassword.toLowerCase()) {
     return NextResponse.next();
   }
 

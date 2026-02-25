@@ -1,1304 +1,232 @@
 const fs = require('fs');
-const path = require('path');
 
-const filePath = path.join(__dirname, '..', 'src', 'app', 'timeline', 'page.tsx');
-let content = fs.readFileSync(filePath, 'utf8');
+// Read the catch-all investigation file to extract data
+const catchallContent = fs.readFileSync('src/app/investigations/[slug]/page.tsx', 'utf8');
 
-// Fix slug mismatches in existing entries
-content = content.replace(/"dark-money"/g, (m) => {
-  // Only replace the slug field, not tags
-  return m;
+// Extract catch-all investigation data
+const catchallRe = /'([\w-]+)':\s*\{\s*\n\s*title:\s*'([^']+)',\s*\n\s*subtitle:\s*'([^']*)',\s*\n\s*severity:\s*'([^']+)',\s*\n\s*category:\s*'([^']+)',\s*\n\s*date:\s*'([^']+)'/g;
+let m;
+const investigations = {};
+while ((m = catchallRe.exec(catchallContent)) !== null) {
+  if (m[1] === 'welcome-to-arkhive') continue;
+  investigations[m[1]] = {
+    slug: m[1],
+    title: m[2],
+    subtitle: m[3],
+    severity: m[4],
+    category: m[5],
+    date: m[6],
+  };
+}
+console.log(`Extracted ${Object.keys(investigations).length} catch-all investigations`);
+
+// Also add dedicated investigation pages
+const dedicatedDirs = fs.readdirSync('src/app/investigations').filter(d => 
+  d !== '[slug]' && d !== 'page.tsx' && fs.statSync(`src/app/investigations/${d}`).isDirectory()
+);
+
+console.log(`Found ${dedicatedDirs.length} dedicated investigation dirs`);
+
+for (const slug of dedicatedDirs) {
+  if (investigations[slug]) continue;
+  try {
+    const pageContent = fs.readFileSync(`src/app/investigations/${slug}/page.tsx`, 'utf8');
+    const titleMatch = pageContent.match(/title:\s*['"]([^'"]+)['"]/);
+    const severityMatch = pageContent.match(/severity:\s*['"]([^'"]+)['"]/);
+    const categoryMatch = pageContent.match(/category:\s*['"]([^'"]+)['"]/);
+    const dateMatch = pageContent.match(/date:\s*['"]([^'"]+)['"]/);
+    
+    if (titleMatch) {
+      investigations[slug] = {
+        slug: slug,
+        title: titleMatch[1],
+        subtitle: '',
+        severity: severityMatch ? severityMatch[1] : 'medium',
+        category: categoryMatch ? categoryMatch[1] : 'Government Abuse',
+        date: dateMatch ? dateMatch[1] : 'January 1, 2020',
+      };
+    }
+  } catch (e) {}
+}
+
+console.log(`Total investigations: ${Object.keys(investigations).length}`);
+
+// Read timeline page and extract existing slugs
+const timelineContent = fs.readFileSync('src/app/timeline/page.tsx', 'utf8');
+const timelineSlugs = new Set();
+const slugRe = /slug:\s*["']([^"']+)["']/g;
+while ((m = slugRe.exec(timelineContent)) !== null) {
+  timelineSlugs.add(m[1]);
+}
+console.log(`Existing timeline slugs: ${timelineSlugs.size}`);
+
+// Find missing investigations
+const missing = Object.values(investigations).filter(inv => !timelineSlugs.has(inv.slug));
+console.log(`Missing from timeline: ${missing.length}`);
+
+function parseSortDate(dateStr) {
+  const monthMap = {
+    'January': '01', 'February': '02', 'March': '03', 'April': '04',
+    'May': '05', 'June': '06', 'July': '07', 'August': '08',
+    'September': '09', 'October': '10', 'November': '11', 'December': '12'
+  };
+  const fullMatch = dateStr.match(/(\w+)\s+(\d+),?\s+(\d{4})/);
+  if (fullMatch) {
+    const month = monthMap[fullMatch[1]] || '01';
+    const day = fullMatch[2].padStart(2, '0');
+    return `${fullMatch[3]}-${month}-${day}`;
+  }
+  const monthYear = dateStr.match(/(\w+)\s+(\d{4})/);
+  if (monthYear) {
+    const month = monthMap[monthYear[1]] || '01';
+    return `${monthYear[2]}-${month}-01`;
+  }
+  const yearOnly = dateStr.match(/(\d{4})/);
+  if (yearOnly) return `${yearOnly[1]}-01-01`;
+  return '2020-01-01';
+}
+
+function mapCategory(cat) {
+  const map = {
+    'Political Corruption': 'Government Abuse',
+    'Government Corruption': 'Government Abuse',
+    'Government Abuse': 'Government Abuse',
+    'Criminal Justice': 'Criminal Justice',
+    'Civil Rights': 'Civil Liberties',
+    'Civil Liberties': 'Civil Liberties',
+    'Corporate Crime': 'Corporate Malfeasance',
+    'Corporate Fraud': 'Corporate Malfeasance',
+    'Corporate Malfeasance': 'Corporate Malfeasance',
+    'Financial Crime': 'Corporate Malfeasance',
+    'Foreign Policy': 'War Crimes',
+    'War Crimes': 'War Crimes',
+    'Crimes Against Humanity': 'Crimes Against Humanity',
+    'Intelligence': 'Government Abuse',
+    'Intelligence Abuse': 'Government Abuse',
+    'Election Integrity': 'Government Abuse',
+    'Healthcare': 'Public Health',
+    'Public Health': 'Public Health',
+    'Environmental': 'Environmental',
+    'Environmental Crime': 'Environmental',
+    'Technology': 'Technology & Privacy',
+    'Surveillance': 'Technology & Privacy',
+    'Technology & Privacy': 'Technology & Privacy',
+    'Media': 'Media & Propaganda',
+    'Media & Propaganda': 'Media & Propaganda',
+    'National Security': 'Government Abuse',
+    'Judicial': 'Criminal Justice',
+    'Social Justice': 'Civil Liberties',
+    'Economic': 'Corporate Malfeasance',
+  };
+  return map[cat] || cat;
+}
+
+function generateTags(inv) {
+  const tags = [];
+  const title = inv.title.toLowerCase();
+  if (title.includes('trump') || title.includes('maga')) tags.push('Trump');
+  if (title.includes('cia') || title.includes('intelligence')) tags.push('CIA');
+  if (title.includes('fbi')) tags.push('FBI');
+  if (title.includes('russia') || title.includes('russian')) tags.push('Russia');
+  if (title.includes('election')) tags.push('Elections');
+  if (title.includes('war') || title.includes('military')) tags.push('Military');
+  if (title.includes('surveillance') || title.includes('privacy')) tags.push('Surveillance');
+  if (title.includes('fraud') || title.includes('corruption')) tags.push('Corruption');
+  if (title.includes('climate') || title.includes('environment')) tags.push('Environment');
+  if (title.includes('police') || title.includes('law enforcement')) tags.push('Law Enforcement');
+  if (title.includes('corporate') || title.includes('company')) tags.push('Corporate');
+  if (title.includes('health') || title.includes('pharma') || title.includes('medical')) tags.push('Healthcare');
+  if (title.includes('drone') || title.includes('assassination')) tags.push('Extrajudicial');
+  if (title.includes('media') || title.includes('propaganda')) tags.push('Media');
+  if (title.includes('trafficking') || title.includes('pedophile')) tags.push('Human Trafficking');
+  if (title.includes('court') || title.includes('judicial') || title.includes('scotus')) tags.push('Judiciary');
+  if (title.includes('cover') || title.includes('suppression')) tags.push('Cover-Up');
+  if (tags.length === 0) {
+    const cat = inv.category.toLowerCase();
+    if (cat.includes('government')) tags.push('Government');
+    if (cat.includes('corporate')) tags.push('Corporate');
+    if (cat.includes('civil')) tags.push('Civil Rights');
+    if (cat.includes('war')) tags.push('Conflict');
+    if (cat.includes('crime')) tags.push('Crime');
+  }
+  if (tags.length === 0) tags.push('Investigation');
+  return tags;
+}
+
+// Build new timeline entries
+const newEntries = missing.map(inv => {
+  const sortDate = parseSortDate(inv.date);
+  const category = mapCategory(inv.category);
+  const tags = generateTags(inv);
+  const title = inv.title.replace(/'/g, "\\'");
+  const description = (inv.subtitle || inv.title).replace(/'/g, "\\'");
+  
+  return `  {
+    date: '${inv.date.replace(/'/g, "\\'")}',
+    sortDate: '${sortDate}',
+    title: '${title}',
+    description: '${description}',
+    category: '${category}',
+    severity: '${inv.severity}',
+    slug: '${inv.slug}',
+    tags: [${tags.map(t => `'${t}'`).join(', ')}],
+  }`;
 });
-content = content.replace(/slug: "dark-money",/g, 'slug: "dark-money-politics",');
-content = content.replace(/slug: "scotus-ethics",/g, 'slug: "supreme-court-ethics",');
-content = content.replace(/slug: "torture-program",/g, 'slug: "cia-torture-program",');
-content = content.replace(/slug: "financial-fraud",/g, 'slug: "2008-financial-crisis",');
-content = content.replace(/slug: "surveillance-state",/g, 'slug: "stingray-surveillance",');
 
-// New entries to add
-const newEntries = [
-  {
-    date: "1865-1941",
-    sortDate: "1865-01-01",
-    title: "Convict Leasing System",
-    description: "Post-Civil War system re-enslaved Black Americans through forced labor. Prisoners leased to corporations, thousands died in mines and plantations.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "convict-leasing",
-    tags: ["Slavery", "Racism", "Forced Labor"],
-  },
-  {
-    date: "1877-1950s",
-    sortDate: "1877-01-01",
-    title: "Lynching in America",
-    description: "Over 6,500 documented racial terror lynchings across America. Used to terrorize Black communities and enforce white supremacy.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "lynching-in-america",
-    tags: ["Racism", "Terror", "Violence"],
-  },
-  {
-    date: "1890-1968",
-    sortDate: "1890-01-01",
-    title: "Sundown Towns",
-    description: "Thousands of all-white communities across America used violence, threats, and laws to exclude Black Americans. Many persist unofficially today.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "sundown-towns",
-    tags: ["Racism", "Segregation"],
-  },
-  {
-    date: "1921",
-    sortDate: "1921-05-31",
-    title: "Tulsa Race Massacre",
-    description: "White mob destroyed 'Black Wall Street,' killing 300+ and displacing 10,000. National Guard assisted attackers. Covered up for decades.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "tulsa-race-massacre",
-    tags: ["Racism", "Massacre", "Oklahoma"],
-  },
-  {
-    date: "1930s-1970s",
-    sortDate: "1930-01-01",
-    title: "Redlining & Housing Discrimination",
-    description: "Federal government systematically denied mortgages and services to Black neighborhoods. Created racial wealth gap that persists today.",
-    category: "Government Abuse",
-    severity: "critical",
-    slug: "redlining-housing-discrimination",
-    tags: ["Racism", "Housing", "Economic"],
-  },
-  {
-    date: "1945-1959",
-    sortDate: "1945-01-01",
-    title: "Operation Paperclip",
-    description: "U.S. secretly recruited 1,600+ Nazi scientists, engineers and technicians. War criminals given new identities and government positions.",
-    category: "Government Abuse",
-    severity: "critical",
-    slug: "operation-paperclip",
-    tags: ["Nazis", "Cold War", "Cover-up"],
-  },
-  {
-    date: "1946-present",
-    sortDate: "1946-01-01",
-    title: "Nuclear Testing Victims",
-    description: "Over 900 nuclear tests exposed millions to radiation. Downwinders, Marshall Islanders, and soldiers used as human guinea pigs.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "nuclear-testing-victims",
-    tags: ["Nuclear", "Radiation", "Military"],
-  },
-  {
-    date: "1946-present",
-    sortDate: "1946-06-01",
-    title: "School of the Americas",
-    description: "U.S. military school trained Latin American death squad leaders, dictators, and torturers. Graduates linked to massacres across the hemisphere.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "school-of-the-americas",
-    tags: ["Military", "Latin America", "Torture"],
-  },
-  {
-    date: "1947-present",
-    sortDate: "1947-01-01",
-    title: "CIA Coups & Foreign Interventions",
-    description: "CIA toppled democratically elected governments worldwide — Iran, Guatemala, Chile, Congo, and dozens more. Installed brutal dictatorships.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "cia-coups",
-    tags: ["CIA", "Regime Change", "Imperialism"],
-  },
-  {
-    date: "1950-1954",
-    sortDate: "1950-02-09",
-    title: "McCarthyism & Red Scare",
-    description: "Senator McCarthy's anti-communist witch hunts destroyed careers and lives. Blacklists, loyalty oaths, and congressional inquisitions.",
-    category: "Government Abuse",
-    severity: "high",
-    slug: "mccarthyism-red-scare",
-    tags: ["McCarthyism", "Civil Liberties"],
-  },
-  {
-    date: "1954",
-    sortDate: "1954-06-18",
-    title: "CIA Guatemala Coup",
-    description: "CIA overthrew democratically elected Arbenz to protect United Fruit Company profits. Led to 36-year civil war and 200,000 deaths.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "guatemala-coup-1954",
-    tags: ["CIA", "Coup", "Guatemala"],
-  },
-  {
-    date: "1955",
-    sortDate: "1955-08-28",
-    title: "Murder of Emmett Till",
-    description: "14-year-old Emmett Till brutally murdered in Mississippi. Killers acquitted by all-white jury, later confessed. Catalyst for civil rights movement.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "emmett-till",
-    tags: ["Racism", "Murder", "Civil Rights"],
-  },
-  {
-    date: "1961",
-    sortDate: "1961-03-13",
-    title: "Operation Northwoods Proposed",
-    description: "Joint Chiefs proposed false flag attacks on Americans to justify invading Cuba. JFK rejected the plan. Declassified in 1997.",
-    category: "Government Abuse",
-    severity: "high",
-    slug: "operation-northwoods",
-    tags: ["False Flag", "Military", "Cuba"],
-  },
-  {
-    date: "1961-present",
-    sortDate: "1961-01-01",
-    title: "War on Black America",
-    description: "From COINTELPRO to mass incarceration to police brutality — systematic government war against Black communities spanning decades.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "war-on-black-america",
-    tags: ["Racism", "Systemic", "Government Abuse"],
-  },
-  {
-    date: "1962-1975",
-    sortDate: "1962-01-01",
-    title: "Agent Orange in Vietnam",
-    description: "U.S. sprayed 20 million gallons of toxic herbicide. 4.8 million Vietnamese exposed, 400,000 killed. Birth defects continue today.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "agent-orange",
-    tags: ["Vietnam", "Chemical Weapons", "War Crimes"],
-  },
-  {
-    date: "1963",
-    sortDate: "1963-11-22",
-    title: "JFK Assassination",
-    description: "President Kennedy assassinated in Dallas. Warren Commission conclusion of lone gunman contradicted by evidence. Files still partially classified.",
-    category: "Criminal Conduct",
-    severity: "critical",
-    slug: "jfk-assassination",
-    tags: ["Assassination", "Cover-up", "CIA"],
-  },
-  {
-    date: "1965",
-    sortDate: "1965-02-21",
-    title: "Malcolm X Assassination",
-    description: "Malcolm X assassinated at Audubon Ballroom. Two of three convicted were exonerated in 2021. FBI and NYPD surveillance contributed to his death.",
-    category: "Criminal Conduct",
-    severity: "critical",
-    slug: "malcolm-x-assassination",
-    tags: ["Assassination", "FBI", "Civil Rights"],
-  },
-  {
-    date: "1964-1973",
-    sortDate: "1964-12-01",
-    title: "Secret Bombing of Laos",
-    description: "U.S. dropped 2 million tons of bombs on Laos — more than all of WWII combined. 80 million unexploded bombs still kill people today.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "laos-secret-bombing",
-    tags: ["Bombing", "Laos", "Secret War"],
-  },
-  {
-    date: "1965-1966",
-    sortDate: "1965-10-01",
-    title: "Indonesia Mass Killings",
-    description: "CIA-backed purge killed 500,000-1,000,000 suspected communists. U.S. provided kill lists. One of the 20th century's worst massacres.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "indonesia-mass-killings",
-    tags: ["CIA", "Genocide", "Indonesia"],
-  },
-  {
-    date: "1965-1975",
-    sortDate: "1965-03-08",
-    title: "Cambodia Secret Bombing",
-    description: "U.S. secretly bombed Cambodia for years, killing up to 150,000 civilians. Destabilized the country, helping Khmer Rouge rise to power.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "cambodia-bombing",
-    tags: ["Bombing", "Cambodia", "Nixon"],
-  },
-  {
-    date: "1968",
-    sortDate: "1968-04-04",
-    title: "MLK Assassination",
-    description: "Dr. Martin Luther King Jr. assassinated in Memphis. FBI had targeted him for years. Civil jury later found government liable for conspiracy.",
-    category: "Criminal Conduct",
-    severity: "critical",
-    slug: "mlk-assassination",
-    tags: ["Assassination", "FBI", "Civil Rights"],
-  },
-  {
-    date: "1968",
-    sortDate: "1968-06-05",
-    title: "RFK Assassination",
-    description: "Robert F. Kennedy assassinated while running for president. Questions remain about second gunman. Key evidence destroyed or suppressed.",
-    category: "Criminal Conduct",
-    severity: "critical",
-    slug: "rfk-assassination",
-    tags: ["Assassination", "Cover-up"],
-  },
-  {
-    date: "December 4, 1969",
-    sortDate: "1969-12-04",
-    title: "Fred Hampton Assassination",
-    description: "FBI and Chicago police assassinated 21-year-old Black Panther leader Fred Hampton in his bed. COINTELPRO operation silenced a rising voice.",
-    category: "Criminal Conduct",
-    severity: "critical",
-    slug: "fred-hampton-assassination",
-    tags: ["FBI", "COINTELPRO", "Assassination"],
-  },
-  {
-    date: "1965-1972",
-    sortDate: "1965-07-01",
-    title: "Phoenix Program",
-    description: "CIA assassination/torture program in Vietnam. Targeted suspected Viet Cong — killed 20,000-40,000 people, many civilians.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "phoenix-program",
-    tags: ["CIA", "Vietnam", "Assassination"],
-  },
-  {
-    date: "1971",
-    sortDate: "1971-06-13",
-    title: "Pentagon Papers Leaked",
-    description: "Daniel Ellsberg leaked classified study proving government systematically lied about Vietnam War. Nixon tried to silence him illegally.",
-    category: "Government Abuse",
-    severity: "critical",
-    slug: "pentagon-papers",
-    tags: ["Whistleblower", "Vietnam", "Cover-up"],
-  },
-  {
-    date: "1975-1999",
-    sortDate: "1975-12-07",
-    title: "East Timor Genocide",
-    description: "Indonesia invaded East Timor with U.S. weapons and approval. 100,000-180,000 killed — up to a third of the population. Kissinger gave green light.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "east-timor-genocide",
-    tags: ["Genocide", "Indonesia", "Kissinger"],
-  },
-  {
-    date: "1969-present",
-    sortDate: "1969-06-01",
-    title: "Kissinger's Crimes",
-    description: "Henry Kissinger orchestrated bombing campaigns, coups, and genocides across continents. Responsible for millions of deaths. Died at 100, never prosecuted.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "kissinger-crimes",
-    tags: ["Kissinger", "War Crimes", "Imperialism"],
-  },
-  {
-    date: "1975-1990",
-    sortDate: "1975-01-01",
-    title: "Missing & Murdered Indigenous Women",
-    description: "Epidemic of violence against Indigenous women. Thousands murdered or disappeared. Law enforcement systematically fails to investigate.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "missing-murdered-indigenous-women",
-    tags: ["Indigenous", "Violence", "MMIW"],
-  },
-  {
-    date: "May 13, 1985",
-    sortDate: "1985-05-13",
-    title: "MOVE Bombing",
-    description: "Philadelphia police bombed MOVE compound, killing 11 including 5 children. 65 homes destroyed. No officers charged.",
-    category: "Criminal Conduct",
-    severity: "critical",
-    slug: "move-bombing",
-    tags: ["Police", "Bombing", "Philadelphia"],
-  },
-  {
-    date: "1979-1992",
-    sortDate: "1979-01-01",
-    title: "El Salvador Death Squads",
-    description: "U.S. funded and trained Salvadoran military death squads. 75,000+ killed during civil war. Archbishop Romero assassinated. El Mozote massacre.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "el-salvador-death-squads",
-    tags: ["Death Squads", "El Salvador", "CIA"],
-  },
-  {
-    date: "1957-1994",
-    sortDate: "1957-01-01",
-    title: "U.S. Support for South African Apartheid",
-    description: "U.S. supported apartheid regime for decades. CIA helped capture Mandela. Reagan vetoed sanctions. Corporations profited from racial oppression.",
-    category: "Government Abuse",
-    severity: "critical",
-    slug: "us-support-for-apartheid",
-    tags: ["Apartheid", "South Africa", "CIA"],
-  },
-  {
-    date: "1980",
-    sortDate: "1980-10-19",
-    title: "October Surprise 1980",
-    description: "Reagan campaign allegedly negotiated with Iran to delay hostage release until after election. Evidence of secret deals to undermine Carter.",
-    category: "Corruption",
-    severity: "high",
-    slug: "october-surprise-1980",
-    tags: ["Reagan", "Iran", "Election"],
-  },
-  {
-    date: "1982-1983",
-    sortDate: "1982-01-01",
-    title: "Guatemala Genocide (Ríos Montt)",
-    description: "U.S.-backed dictator Ríos Montt oversaw genocide of Mayan people. 200,000 killed during 36-year civil war. Reagan praised him.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "guatemala-genocide",
-    tags: ["Genocide", "Guatemala", "CIA"],
-  },
-  {
-    date: "1946-1948",
-    sortDate: "1946-10-01",
-    title: "Guatemala Syphilis Experiments",
-    description: "U.S. government deliberately infected Guatemalans with STDs without consent. 1,300+ people exposed including prisoners and mental patients.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "guatemala-syphilis-experiments",
-    tags: ["Medical Experimentation", "Guatemala"],
-  },
-  {
-    date: "October 25, 1983",
-    sortDate: "1983-10-25",
-    title: "Grenada Invasion",
-    description: "U.S. invaded Grenada with 7,600 troops. Justified by dubious threat to medical students. Violated international law. Cold War power projection.",
-    category: "War Crimes",
-    severity: "high",
-    slug: "grenada-invasion",
-    tags: ["Invasion", "Grenada", "Reagan"],
-  },
-  {
-    date: "1980-1990",
-    sortDate: "1980-06-01",
-    title: "CIA Drug Trafficking",
-    description: "CIA facilitated cocaine trafficking to fund Contras. Crack epidemic devastated Black communities while agency looked the other way.",
-    category: "Criminal Conduct",
-    severity: "critical",
-    slug: "cia-drug-trafficking",
-    tags: ["CIA", "Drugs", "Contras"],
-  },
-  {
-    date: "1956-1990",
-    sortDate: "1956-01-01",
-    title: "Operation Gladio",
-    description: "NATO secret 'stay-behind' armies across Europe. Linked to terrorist attacks, assassinations, and political manipulation during Cold War.",
-    category: "Government Abuse",
-    severity: "critical",
-    slug: "operation-gladio",
-    tags: ["NATO", "CIA", "Terror"],
-  },
-  {
-    date: "1986-1995",
-    sortDate: "1986-01-01",
-    title: "Savings & Loan Crisis",
-    description: "Deregulation enabled massive fraud. 1,043 institutions failed. Cost taxpayers $132 billion. Keating Five scandal implicated senators.",
-    category: "Financial Crimes",
-    severity: "high",
-    slug: "savings-and-loan-crisis",
-    tags: ["Banking", "Fraud", "Deregulation"],
-  },
-  {
-    date: "August 21, 1992",
-    sortDate: "1992-08-21",
-    title: "Ruby Ridge Standoff",
-    description: "FBI siege killed Randy Weaver's wife and 14-year-old son. Sniper rules of engagement authorized lethal force. Government paid $3.1M settlement.",
-    category: "Government Abuse",
-    severity: "high",
-    slug: "ruby-ridge",
-    tags: ["FBI", "Standoff", "Idaho"],
-  },
-  {
-    date: "1993",
-    sortDate: "1993-02-28",
-    title: "Waco Siege",
-    description: "ATF/FBI siege of Branch Davidian compound killed 76 people including 25 children. Tear gas and tank assault led to inferno.",
-    category: "Government Abuse",
-    severity: "critical",
-    slug: "waco-siege",
-    tags: ["ATF", "FBI", "Siege"],
-  },
-  {
-    date: "1993",
-    sortDate: "1993-10-03",
-    title: "Somalia Intervention (Black Hawk Down)",
-    description: "Battle of Mogadishu killed 18 U.S. soldiers and hundreds of Somali civilians. Humanitarian mission became military debacle.",
-    category: "War Crimes",
-    severity: "high",
-    slug: "somalia-intervention",
-    tags: ["Military", "Somalia", "Clinton"],
-  },
-  {
-    date: "April 1994",
-    sortDate: "1994-04-07",
-    title: "Rwanda Genocide — U.S. Inaction",
-    description: "800,000 Rwandans killed in 100 days while U.S. blocked UN intervention. Clinton administration refused to call it genocide.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "rwanda-genocide-inaction",
-    tags: ["Genocide", "Rwanda", "Inaction"],
-  },
-  {
-    date: "1971-present",
-    sortDate: "1971-06-17",
-    title: "Mass Incarceration",
-    description: "U.S. has 5% of world population but 25% of prisoners. 2.3 million incarcerated. System disproportionately targets Black and brown communities.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "mass-incarceration",
-    tags: ["Prison", "Racism", "Systemic"],
-  },
-  {
-    date: "1983-present",
-    sortDate: "1983-01-01",
-    title: "Private Prison Industry",
-    description: "For-profit prisons incentivize mass incarceration. CoreCivic and GEO Group lobby for harsher sentencing. Investors profit from human caging.",
-    category: "Corruption",
-    severity: "high",
-    slug: "private-prison-industry",
-    tags: ["Prisons", "Profit", "Lobbying"],
-  },
-  {
-    date: "1972-present",
-    sortDate: "1972-01-01",
-    title: "Solitary Confinement",
-    description: "80,000+ Americans held in solitary confinement. UN considers it torture after 15 days. Some inmates confined for decades.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "solitary-confinement",
-    tags: ["Prison", "Torture", "Human Rights"],
-  },
-  {
-    date: "1950s-present",
-    sortDate: "1950-06-01",
-    title: "Big Tobacco Cover-up",
-    description: "Tobacco industry hid cancer evidence for decades. Internal documents proved they knew. $246 billion Master Settlement. 480,000 Americans die annually.",
-    category: "Corporate Crimes",
-    severity: "critical",
-    slug: "big-tobacco-coverup",
-    tags: ["Tobacco", "Cancer", "Cover-up"],
-  },
-  {
-    date: "1996-present",
-    sortDate: "1996-01-01",
-    title: "Purdue Pharma & OxyContin Crisis",
-    description: "Sackler family's Purdue Pharma aggressively marketed OxyContin as non-addictive. Triggered opioid epidemic killing 500,000+ Americans.",
-    category: "Corporate Crimes",
-    severity: "critical",
-    slug: "purdue-pharma-oxycontin",
-    tags: ["Opioids", "Sackler", "Pharma"],
-  },
-  {
-    date: "1996-present",
-    sortDate: "1996-06-01",
-    title: "Opioid Crisis",
-    description: "Pharmaceutical companies flooded communities with billions of pills. 500,000+ Americans dead. Distributors ignored suspicious orders for profit.",
-    category: "Corporate Crimes",
-    severity: "critical",
-    slug: "opioid-crisis",
-    tags: ["Opioids", "Pharma", "Public Health"],
-  },
-  {
-    date: "October 2001",
-    sortDate: "2001-10-26",
-    title: "USA PATRIOT Act Passed",
-    description: "Rushed through Congress after 9/11. Enabled mass surveillance, warrantless searches, and indefinite detention. Gutted civil liberties.",
-    category: "Government Abuse",
-    severity: "critical",
-    slug: "patriot-act",
-    tags: ["Surveillance", "9/11", "Civil Liberties"],
-  },
-  {
-    date: "January 11, 2002",
-    sortDate: "2002-01-11",
-    title: "Guantanamo Bay Opens",
-    description: "Extralegal detention facility held prisoners without charge for decades. Torture including waterboarding. 780 detained, most never charged.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "guantanamo-bay",
-    tags: ["Torture", "Detention", "9/11"],
-  },
-  {
-    date: "2001-present",
-    sortDate: "2001-11-01",
-    title: "Extraordinary Rendition Program",
-    description: "CIA kidnapped suspects globally, flew them to black sites for torture. Jeppesen (Boeing subsidiary) provided logistical support.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "extraordinary-rendition",
-    tags: ["CIA", "Torture", "Rendition"],
-  },
-  {
-    date: "2001-present",
-    sortDate: "2001-10-07",
-    title: "Drone Assassination Program",
-    description: "U.S. drone strikes have killed thousands including hundreds of civilians. 'Double tap' strikes target first responders. Presidential kill lists.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "drone-assassination-program",
-    tags: ["Drones", "Assassinations", "Civilians"],
-  },
-  {
-    date: "December 2001",
-    sortDate: "2001-12-02",
-    title: "Enron Scandal Collapses",
-    description: "Enron's massive accounting fraud destroyed $74 billion in value. Executives criminally charged. Arthur Andersen dissolved. 20,000 jobs lost.",
-    category: "Financial Crimes",
-    severity: "critical",
-    slug: "enron-scandal",
-    tags: ["Fraud", "Enron", "Accounting"],
-  },
-  {
-    date: "2002",
-    sortDate: "2002-01-01",
-    title: "Operation Fast and Furious",
-    description: "ATF allowed 2,000+ firearms to 'walk' to Mexican cartels. Weapons linked to Border Patrol Agent Brian Terry's murder and hundreds of Mexican deaths.",
-    category: "Government Abuse",
-    severity: "high",
-    slug: "operation-fast-and-furious",
-    tags: ["ATF", "Guns", "Mexico"],
-  },
-  {
-    date: "2002",
-    sortDate: "2002-06-25",
-    title: "WorldCom Fraud Exposed",
-    description: "WorldCom's $11 billion accounting fraud — largest in history at the time. CEO Bernie Ebbers sentenced to 25 years. 30,000 lost jobs.",
-    category: "Financial Crimes",
-    severity: "high",
-    slug: "worldcom",
-    tags: ["Fraud", "Telecom", "Accounting"],
-  },
-  {
-    date: "2010",
-    sortDate: "2010-01-21",
-    title: "Citizens United Decision",
-    description: "Supreme Court ruled corporations have free speech rights. Unleashed unlimited dark money in elections. Democracy for sale.",
-    category: "Corruption",
-    severity: "critical",
-    slug: "citizens-united",
-    tags: ["SCOTUS", "Dark Money", "Elections"],
-  },
-  {
-    date: "April 20, 2010",
-    sortDate: "2010-04-20",
-    title: "Deepwater Horizon Disaster",
-    description: "BP oil rig explosion killed 11 workers. 210 million gallons of oil spilled into Gulf. Largest environmental disaster in U.S. history.",
-    category: "Corporate Crimes",
-    severity: "critical",
-    slug: "deepwater-horizon",
-    tags: ["BP", "Oil Spill", "Environment"],
-  },
-  {
-    date: "2011",
-    sortDate: "2011-03-19",
-    title: "Libya Intervention",
-    description: "NATO bombing campaign toppled Gaddafi. Transformed Africa's most prosperous nation into failed state with open slave markets.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "libya-intervention",
-    tags: ["NATO", "Libya", "Regime Change"],
-  },
-  {
-    date: "2010-present",
-    sortDate: "2010-06-01",
-    title: "Haiti Exploitation",
-    description: "After 2010 earthquake, billions in aid disappeared. Clinton Foundation implicated. Cholera introduced by UN peacekeepers killed 10,000+.",
-    category: "Corruption",
-    severity: "high",
-    slug: "haiti-exploitation",
-    tags: ["Haiti", "Aid Fraud", "Exploitation"],
-  },
-  {
-    date: "2012",
-    sortDate: "2012-07-01",
-    title: "LIBOR Scandal",
-    description: "Major banks manipulated global interest rates affecting $350 trillion in contracts. Billions in fines, few executives jailed.",
-    category: "Financial Crimes",
-    severity: "high",
-    slug: "libor-scandal",
-    tags: ["Banking", "Fraud", "LIBOR"],
-  },
-  {
-    date: "2015-present",
-    sortDate: "2015-03-25",
-    title: "Yemen War — U.S.-Backed Saudi Campaign",
-    description: "U.S. weapons and intelligence support Saudi bombing campaign. 377,000+ dead, world's worst humanitarian crisis. Famine as weapon of war.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "yemen-war",
-    tags: ["Yemen", "Saudi Arabia", "Arms Sales"],
-  },
-  {
-    date: "2015",
-    sortDate: "2015-09-18",
-    title: "Volkswagen Emissions Scandal",
-    description: "VW installed defeat devices in 11 million vehicles to cheat emissions tests. $34.69 billion in fines. Executives criminally charged.",
-    category: "Corporate Crimes",
-    severity: "high",
-    slug: "volkswagen-emissions",
-    tags: ["VW", "Fraud", "Environment"],
-  },
-  {
-    date: "2016-2021",
-    sortDate: "2016-04-01",
-    title: "Standing Rock Pipeline Protests",
-    description: "Indigenous-led resistance to Dakota Access Pipeline met with militarized police, water cannons in freezing temps, and attack dogs.",
-    category: "Government Abuse",
-    severity: "high",
-    slug: "standing-rock",
-    tags: ["Pipeline", "Indigenous", "Protest"],
-  },
-  {
-    date: "2016",
-    sortDate: "2016-03-01",
-    title: "Cambridge Analytica Data Harvesting",
-    description: "Harvested 87 million Facebook profiles without consent. Used psychographic data to manipulate elections. Funded by Mercer family, led by Bannon.",
-    category: "Corporate Crimes",
-    severity: "critical",
-    slug: "cambridge-analytica",
-    tags: ["Data", "Elections", "Facebook"],
-  },
-  {
-    date: "2016-present",
-    sortDate: "2016-01-01",
-    title: "Facial Recognition Surveillance",
-    description: "Government agencies using facial recognition with massive error rates. Disproportionately misidentifies Black faces. No federal regulation.",
-    category: "Government Abuse",
-    severity: "high",
-    slug: "facial-recognition-surveillance",
-    tags: ["Surveillance", "AI", "Privacy"],
-  },
-  {
-    date: "2015-2019",
-    sortDate: "2015-01-01",
-    title: "Theranos Fraud",
-    description: "Elizabeth Holmes defrauded investors of $700M+ with fake blood-testing technology. Endangered patients with inaccurate results. Convicted 2022.",
-    category: "Corporate Crimes",
-    severity: "high",
-    slug: "theranos-fraud",
-    tags: ["Fraud", "Healthcare", "Silicon Valley"],
-  },
-  {
-    date: "2016-present",
-    sortDate: "2016-06-01",
-    title: "Stingray Surveillance",
-    description: "Police using cell-site simulators to track phones without warrants. IMSI catchers intercept calls and data of thousands of bystanders.",
-    category: "Government Abuse",
-    severity: "high",
-    slug: "stingray-surveillance",
-    tags: ["Surveillance", "Police", "Privacy"],
-  },
-  {
-    date: "2016-present",
-    sortDate: "2016-11-01",
-    title: "Predictive Policing",
-    description: "Algorithmic policing systems target minority communities. Feedback loops amplify racial bias. Pre-crime surveillance of entire neighborhoods.",
-    category: "Government Abuse",
-    severity: "high",
-    slug: "predictive-policing",
-    tags: ["AI", "Police", "Racism"],
-  },
-  {
-    date: "2017-2021",
-    sortDate: "2017-01-20",
-    title: "Emoluments Violations",
-    description: "Trump profited from presidency through hotels, properties, and foreign payments. Foreign governments booked Trump properties to curry favor.",
-    category: "Corruption",
-    severity: "high",
-    slug: "emoluments",
-    tags: ["Trump", "Corruption", "Constitution"],
-  },
-  {
-    date: "2017",
-    sortDate: "2017-05-17",
-    title: "Obstruction of Justice",
-    description: "Mueller documented at least 10 instances of Trump obstructing the Russia investigation. Fired Comey, dangled pardons, intimidated witnesses.",
-    category: "Criminal Conduct",
-    severity: "critical",
-    slug: "obstruction-of-justice",
-    tags: ["Trump", "Mueller", "Obstruction"],
-  },
-  {
-    date: "2017-2021",
-    sortDate: "2017-01-21",
-    title: "Trump Tax Evasion",
-    description: "NYT investigation revealed Trump paid $750 in federal income tax. Decades of questionable deductions, dubious losses, and inherited wealth concealment.",
-    category: "Financial Crimes",
-    severity: "high",
-    slug: "tax-evasion",
-    tags: ["Trump", "Tax", "Fraud"],
-  },
-  {
-    date: "2017",
-    sortDate: "2017-01-20",
-    title: "Inaugural Committee Fraud",
-    description: "Trump inaugural raised record $107M. Much unaccounted for. Overcharged by Trump Hotel. Tom Barrack charged with acting as foreign agent.",
-    category: "Corruption",
-    severity: "high",
-    slug: "inaugural-committee",
-    tags: ["Trump", "Fraud", "Inauguration"],
-  },
-  {
-    date: "2017-2021",
-    sortDate: "2017-02-01",
-    title: "ICE Detention Abuses",
-    description: "Immigrants detained in inhumane conditions. Deaths in custody, forced hysterectomies, children in cages. Private prison profiteering.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "ice-detention-abuses",
-    tags: ["ICE", "Immigration", "Detention"],
-  },
-  {
-    date: "2017-present",
-    sortDate: "2017-05-01",
-    title: "Saudi Connections",
-    description: "Kushner's relationship with MBS, $110B arms deal, cover-up of Khashoggi murder. Saudi sovereign fund later invested $2B in Kushner's firm.",
-    category: "Corruption",
-    severity: "critical",
-    slug: "saudi-connections",
-    tags: ["Saudi Arabia", "Kushner", "MBS"],
-  },
-  {
-    date: "2017",
-    sortDate: "2017-05-20",
-    title: "Saudi Arms Deal",
-    description: "$110 billion arms deal with Saudi Arabia despite Yemen atrocities. Bypassed congressional review. Weapons used against civilians.",
-    category: "War Crimes",
-    severity: "critical",
-    slug: "saudi-arms-deal",
-    tags: ["Saudi Arabia", "Arms", "Yemen"],
-  },
-  {
-    date: "2017-present",
-    sortDate: "2017-06-01",
-    title: "Fox News Propaganda Machine",
-    description: "Systematic disinformation operation. Internal documents proved hosts knew election claims were false. $787.5M Dominion settlement.",
-    category: "Corruption",
-    severity: "high",
-    slug: "fox-news-propaganda",
-    tags: ["Fox News", "Disinformation", "Media"],
-  },
-  {
-    date: "2017-present",
-    sortDate: "2017-04-01",
-    title: "Sinclair Broadcasting",
-    description: "Largest local TV owner forces stations to air conservative 'must-run' segments. Viral video showed anchors reading identical scripts.",
-    category: "Corruption",
-    severity: "medium",
-    slug: "sinclair-broadcasting",
-    tags: ["Media", "Propaganda", "TV"],
-  },
-  {
-    date: "2017-2021",
-    sortDate: "2017-06-15",
-    title: "Deutsche Bank Investigation",
-    description: "Deutsche Bank loaned Trump $2B+ when no other bank would. $630M fine for Russian money laundering. Whistleblower concerns ignored.",
-    category: "Financial Crimes",
-    severity: "critical",
-    slug: "deutsche-bank",
-    tags: ["Banking", "Money Laundering", "Trump"],
-  },
-  {
-    date: "2017-present",
-    sortDate: "2017-03-01",
-    title: "Trump Org Fraud",
-    description: "Systematic overvaluation of assets to banks, undervaluation to tax authorities. $454M civil fraud judgment. CFO convicted.",
-    category: "Financial Crimes",
-    severity: "critical",
-    slug: "trump-org-fraud",
-    tags: ["Trump", "Fraud", "Real Estate"],
-  },
-  {
-    date: "2018",
-    sortDate: "2018-04-01",
-    title: "Trump Foundation Dissolved",
-    description: "Trump Foundation dissolved for persistent self-dealing. Used charity funds for portrait of himself, legal settlements, and campaign expenses.",
-    category: "Corruption",
-    severity: "high",
-    slug: "trump-foundation",
-    tags: ["Trump", "Charity Fraud", "Self-Dealing"],
-  },
-  {
-    date: "2017-present",
-    sortDate: "2017-07-01",
-    title: "Money Laundering Networks",
-    description: "Interconnected web of shell companies, real estate purchases, and bank fraud. Deutsche Bank, Bayrock Group, and Russian oligarch connections.",
-    category: "Financial Crimes",
-    severity: "critical",
-    slug: "money-laundering",
-    tags: ["Money Laundering", "Russia", "Banking"],
-  },
-  {
-    date: "2017-2021",
-    sortDate: "2017-08-01",
-    title: "Climate Sabotage",
-    description: "Trump withdrew from Paris Agreement. EPA rolled back 100+ environmental regulations. Suppressed climate science while advancing fossil fuel interests.",
-    category: "Corporate Crimes",
-    severity: "critical",
-    slug: "climate-sabotage",
-    tags: ["Climate", "EPA", "Environment"],
-  },
-  {
-    date: "1977-present",
-    sortDate: "1977-01-01",
-    title: "ExxonMobil Climate Cover-up",
-    description: "Exxon knew about climate change since 1977. Funded denial campaigns for decades. Internal models accurately predicted warming they publicly denied.",
-    category: "Corporate Crimes",
-    severity: "critical",
-    slug: "exxon-climate-coverup",
-    tags: ["Exxon", "Climate", "Cover-up"],
-  },
-  {
-    date: "2018",
-    sortDate: "2018-10-02",
-    title: "Defamation Lawsuits & Threats",
-    description: "Trump's pattern of using defamation threats to silence critics. Found liable for defaming E. Jean Carroll — $88.3M judgment.",
-    category: "Criminal Conduct",
-    severity: "high",
-    slug: "defamation",
-    tags: ["Trump", "Defamation", "Carroll"],
-  },
-  {
-    date: "2018-present",
-    sortDate: "2018-01-01",
-    title: "Sexual Assault Allegations",
-    description: "26+ women accused Trump of sexual misconduct. Found liable for sexual abuse of E. Jean Carroll. Access Hollywood tape confirmed behavior.",
-    category: "Criminal Conduct",
-    severity: "critical",
-    slug: "sexual-assault",
-    tags: ["Trump", "Sexual Assault", "Carroll"],
-  },
-  {
-    date: "2018",
-    sortDate: "2018-06-01",
-    title: "Dominion Voting Defamation",
-    description: "Fox News, Giuliani, and Powell spread lies about Dominion Voting Systems. Fox settled for $787.5M. Giuliani found liable for $148M.",
-    category: "Corruption",
-    severity: "high",
-    slug: "dominion-defamation",
-    tags: ["Dominion", "Fox News", "Election Lies"],
-  },
-  {
-    date: "2018-2019",
-    sortDate: "2018-10-29",
-    title: "Boeing 737 MAX Crashes",
-    description: "Two crashes killed 346 people due to known MCAS software flaw. Boeing hid risks from pilots and FAA. $2.5B settlement, CEO fired.",
-    category: "Corporate Crimes",
-    severity: "critical",
-    slug: "boeing-737-max",
-    tags: ["Boeing", "Aviation", "Safety"],
-  },
-  {
-    date: "2016-present",
-    sortDate: "2016-01-15",
-    title: "Lead Poisoning Cover-up",
-    description: "Beyond Flint — lead contamination in water, paint, and soil affects millions of American children. Government agencies knew and failed to act.",
-    category: "Government Abuse",
-    severity: "critical",
-    slug: "lead-poisoning-coverup",
-    tags: ["Lead", "Water", "Public Health"],
-  },
-  {
-    date: "2019-present",
-    sortDate: "2019-01-01",
-    title: "Jackson Water Crisis",
-    description: "Jackson, Mississippi's water system collapsed. Majority-Black city left without safe drinking water. State disinvested for decades.",
-    category: "Government Abuse",
-    severity: "critical",
-    slug: "jackson-water-crisis",
-    tags: ["Water", "Racism", "Infrastructure"],
-  },
-  {
-    date: "2010-present",
-    sortDate: "2010-01-01",
-    title: "Water Contamination Nationwide",
-    description: "PFAS 'forever chemicals' contaminate water for 200+ million Americans. Camp Lejeune, military bases, and industrial sites poisoned communities.",
-    category: "Corporate Crimes",
-    severity: "critical",
-    slug: "water-contamination-nationwide",
-    tags: ["PFAS", "Water", "Chemical"],
-  },
-  {
-    date: "1998-present",
-    sortDate: "1998-01-01",
-    title: "DuPont PFAS Poisoning",
-    description: "DuPont knowingly poisoned communities with C8/PFAS chemicals for decades. Internal documents proved they knew. $670M class-action settlement.",
-    category: "Corporate Crimes",
-    severity: "critical",
-    slug: "dupont-pfas-poisoning",
-    tags: ["DuPont", "PFAS", "Chemical"],
-  },
-  {
-    date: "2019-present",
-    sortDate: "2019-07-01",
-    title: "Afghanistan Papers",
-    description: "Washington Post revealed military leaders lied about war progress for 20 years. $2.3 trillion spent, 2,400+ Americans killed in unwinnable war.",
-    category: "Government Abuse",
-    severity: "critical",
-    slug: "afghanistan-papers",
-    tags: ["Afghanistan", "Pentagon", "Cover-up"],
-  },
-  {
-    date: "2019-2021",
-    sortDate: "2019-11-01",
-    title: "Build the Wall Fraud",
-    description: "Steve Bannon's We Build the Wall scam defrauded donors. Bannon charged, pardoned by Trump. Co-conspirators convicted.",
-    category: "Criminal Conduct",
-    severity: "high",
-    slug: "build-the-wall-fraud",
-    tags: ["Fraud", "Bannon", "Border Wall"],
-  },
-  {
-    date: "2020-present",
-    sortDate: "2020-11-01",
-    title: "Fake Electors Scheme",
-    description: "Coordinated effort to submit fake Electoral College certificates in 7 states. Part of broader plot to overturn 2020 election. Multiple indictments.",
-    category: "Criminal Conduct",
-    severity: "critical",
-    slug: "fake-electors",
-    tags: ["Election", "Fraud", "2020"],
-  },
-  {
-    date: "2020-present",
-    sortDate: "2020-12-01",
-    title: "Oath Keepers Seditious Conspiracy",
-    description: "Oath Keepers militia planned armed assault on Capitol. Leader Stewart Rhodes convicted of seditious conspiracy. Weapons staged across Potomac.",
-    category: "Criminal Conduct",
-    severity: "critical",
-    slug: "oath-keepers-sedition",
-    tags: ["Jan 6", "Militia", "Sedition"],
-  },
-  {
-    date: "2020-present",
-    sortDate: "2020-12-15",
-    title: "Proud Boys Seditious Conspiracy",
-    description: "Proud Boys leadership convicted of seditious conspiracy. Planned and led assault on Capitol. Coordinated with other extremist groups.",
-    category: "Criminal Conduct",
-    severity: "critical",
-    slug: "proud-boys-sedition",
-    tags: ["Jan 6", "Extremism", "Sedition"],
-  },
-  {
-    date: "2020-present",
-    sortDate: "2020-08-01",
-    title: "QAnon Radicalization",
-    description: "Internet conspiracy movement radicalized millions. Believers stormed Capitol, attempted kidnappings. Q followers elected to Congress.",
-    category: "Criminal Conduct",
-    severity: "high",
-    slug: "qanon-radicalization",
-    tags: ["QAnon", "Radicalization", "Conspiracy"],
-  },
-  {
-    date: "2020-2024",
-    sortDate: "2020-12-20",
-    title: "Pardons & Corruption",
-    description: "Trump pardoned political allies, war criminals, and corrupt officials. Steve Bannon, Roger Stone, Michael Flynn, Blackwater contractors.",
-    category: "Corruption",
-    severity: "critical",
-    slug: "pardons-corruption",
-    tags: ["Pardons", "Trump", "Corruption"],
-  },
-  {
-    date: "2020",
-    sortDate: "2020-09-01",
-    title: "Wells Fargo Fraud",
-    description: "Wells Fargo created 3.5 million fake accounts. Employees fired, executives fined. $3 billion settlement. Pattern of consumer abuse continues.",
-    category: "Financial Crimes",
-    severity: "high",
-    slug: "wells-fargo-fraud",
-    tags: ["Banking", "Fraud", "Fake Accounts"],
-  },
-  {
-    date: "2016-2024",
-    sortDate: "2016-09-01",
-    title: "Trump University Fraud",
-    description: "Fraudulent university scammed students out of up to $35,000 each. No accreditation, no real classes. $25 million settlement.",
-    category: "Criminal Conduct",
-    severity: "high",
-    slug: "trump-university",
-    tags: ["Trump", "Fraud", "Education"],
-  },
-  {
-    date: "2021-present",
-    sortDate: "2021-01-01",
-    title: "Leonard Leo Dark Money Network",
-    description: "Federalist Society co-chair controls $1.6 billion dark money network. Shaped Supreme Court, funded conservative legal infrastructure.",
-    category: "Corruption",
-    severity: "critical",
-    slug: "leonard-leo-network",
-    tags: ["Dark Money", "SCOTUS", "Federalist Society"],
-  },
-  {
-    date: "1980s-present",
-    sortDate: "1980-01-01",
-    title: "Koch Network",
-    description: "Koch brothers built vast political network spending billions to reshape American politics. Climate denial, deregulation, union busting.",
-    category: "Corruption",
-    severity: "critical",
-    slug: "koch-network",
-    tags: ["Koch", "Dark Money", "Climate Denial"],
-  },
-  {
-    date: "1990s-present",
-    sortDate: "1990-01-01",
-    title: "ALEC Model Legislation",
-    description: "Corporate-funded ALEC writes model legislation adopted by state legislatures. Stand Your Ground, voter ID, prison privatization bills.",
-    category: "Corruption",
-    severity: "high",
-    slug: "alec-model-legislation",
-    tags: ["ALEC", "Lobbying", "Corporate"],
-  },
-  {
-    date: "2000-present",
-    sortDate: "2000-01-01",
-    title: "Gerrymandering",
-    description: "Both parties redraw districts to guarantee outcomes. Voter choice eliminated in most House races. SCOTUS refused to intervene.",
-    category: "Corruption",
-    severity: "high",
-    slug: "gerrymandering",
-    tags: ["Elections", "Districts", "Democracy"],
-  },
-  {
-    date: "1970-present",
-    sortDate: "1970-01-01",
-    title: "No-Knock Raids",
-    description: "Police conducting violent raids on wrong homes. Breonna Taylor killed in her apartment. Thousands of warrants issued with minimal oversight.",
-    category: "Government Abuse",
-    severity: "high",
-    slug: "no-knock-raids",
-    tags: ["Police", "Raids", "Breonna Taylor"],
-  },
-  {
-    date: "1990s-present",
-    sortDate: "1990-06-01",
-    title: "Police Militarization",
-    description: "1033 Program transfers military equipment to local police. Armored vehicles, grenade launchers, bayonets deployed against communities.",
-    category: "Government Abuse",
-    severity: "high",
-    slug: "police-militarization",
-    tags: ["Police", "Military", "1033 Program"],
-  },
-  {
-    date: "1976-present",
-    sortDate: "1976-01-21",
-    title: "Death Penalty Injustice",
-    description: "200+ death row exonerations. Racial bias proven in sentencing. Botched executions. Innocent people executed. U.S. alone among Western nations.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "death-penalty-injustice",
-    tags: ["Death Penalty", "Injustice", "Racism"],
-  },
-  {
-    date: "1985-present",
-    sortDate: "1985-01-01",
-    title: "Civil Asset Forfeiture",
-    description: "Police seize property without charges or conviction. $68.8 billion seized 2000-2019. Perverse incentives — departments keep what they take.",
-    category: "Government Abuse",
-    severity: "high",
-    slug: "civil-asset-forfeiture",
-    tags: ["Police", "Seizure", "Property Rights"],
-  },
-  {
-    date: "2000-present",
-    sortDate: "2000-01-01",
-    title: "Whistleblower Persecution",
-    description: "Government systematically punishes truth-tellers. Snowden exiled, Manning imprisoned, Reality Winner jailed, Daniel Hale prosecuted.",
-    category: "Government Abuse",
-    severity: "critical",
-    slug: "whistleblower-persecution",
-    tags: ["Whistleblowers", "Snowden", "Retaliation"],
-  },
-  {
-    date: "2016-present",
-    sortDate: "2016-04-01",
-    title: "Panama Papers",
-    description: "11.5 million leaked documents revealed how world leaders, celebrities, and corporations hide wealth offshore. Reporter Daphne Caruana Galizia murdered.",
-    category: "Financial Crimes",
-    severity: "critical",
-    slug: "panama-papers",
-    tags: ["Tax Evasion", "Offshore", "Corruption"],
-  },
-  {
-    date: "2008",
-    sortDate: "2008-09-15",
-    title: "2008 Financial Crisis",
-    description: "Wall Street's reckless gambling crashed the global economy. 8.7 million jobs lost, millions foreclosed. Banks bailed out, no executives jailed.",
-    category: "Financial Crimes",
-    severity: "critical",
-    slug: "2008-financial-crisis",
-    tags: ["Financial Crisis", "Banks", "Bailout"],
-  },
-  {
-    date: "2021-2022",
-    sortDate: "2021-11-01",
-    title: "FTX Crypto Fraud",
-    description: "Sam Bankman-Fried stole $8 billion in customer funds. Political donations to buy influence. Convicted on all 7 counts, 25-year sentence.",
-    category: "Financial Crimes",
-    severity: "critical",
-    slug: "ftx-crypto-fraud",
-    tags: ["Crypto", "FTX", "Fraud"],
-  },
-  {
-    date: "2000-present",
-    sortDate: "2000-06-01",
-    title: "Pharmaceutical Price Gouging",
-    description: "U.S. pays highest drug prices in the world. Insulin costs 10x other countries. Companies spend more on lobbying than R&D. People die rationing medication.",
-    category: "Corporate Crimes",
-    severity: "critical",
-    slug: "pharmaceutical-price-gouging",
-    tags: ["Pharma", "Drug Prices", "Healthcare"],
-  },
-  {
-    date: "2000-present",
-    sortDate: "2000-05-01",
-    title: "Health Insurance Deaths",
-    description: "68,000+ Americans die annually from lack of insurance. Insurance companies deny claims algorithmically. Profits over patients.",
-    category: "Corporate Crimes",
-    severity: "critical",
-    slug: "health-insurance-deaths",
-    tags: ["Healthcare", "Insurance", "Deaths"],
-  },
-  {
-    date: "1980-present",
-    sortDate: "1980-05-01",
-    title: "Medical Bankruptcy Crisis",
-    description: "Two-thirds of bankruptcies linked to medical costs. Even insured Americans face catastrophic bills. 100 million carry medical debt.",
-    category: "Corporate Crimes",
-    severity: "high",
-    slug: "medical-bankruptcy",
-    tags: ["Healthcare", "Bankruptcy", "Debt"],
-  },
-  {
-    date: "1965-present",
-    sortDate: "1965-01-01",
-    title: "Forced Sterilization Programs",
-    description: "Government forcibly sterilized 70,000+ Americans — Native Americans, Black women, disabled people, immigrants. ICE accusations as recent as 2020.",
-    category: "Crimes Against Humanity",
-    severity: "critical",
-    slug: "forced-sterilization",
-    tags: ["Eugenics", "Sterilization", "Racism"],
-  },
-  {
-    date: "2020-present",
-    sortDate: "2020-01-01",
-    title: "Corporate Homicide",
-    description: "Corporations cause 340,000+ workplace and consumer deaths annually through negligence, safety violations, and profit-driven cost-cutting.",
-    category: "Corporate Crimes",
-    severity: "critical",
-    slug: "corporate-homicide",
-    tags: ["Corporate", "Deaths", "Safety"],
-  },
-  {
-    date: "2000-present",
-    sortDate: "2000-03-01",
-    title: "Amazon Labor Abuses",
-    description: "Warehouse workers in inhumane conditions. Injury rates 2x industry average. Anti-union surveillance. Delivery drivers denied bathroom breaks.",
-    category: "Corporate Crimes",
-    severity: "high",
-    slug: "amazon-labor-abuses",
-    tags: ["Amazon", "Labor", "Union Busting"],
-  },
-  {
-    date: "1880-present",
-    sortDate: "1880-01-01",
-    title: "Union Busting in America",
-    description: "Over a century of corporate and government attacks on organized labor. From the Pinkertons to Starbucks. Workers killed for organizing.",
-    category: "Corporate Crimes",
-    severity: "high",
-    slug: "union-busting",
-    tags: ["Labor", "Unions", "Corporate"],
-  },
-  {
-    date: "1990-present",
-    sortDate: "1990-01-01",
-    title: "Student Debt Crisis",
-    description: "$1.77 trillion in student debt. For-profit colleges defrauded millions. Debt not dischargeable in bankruptcy by design.",
-    category: "Corruption",
-    severity: "high",
-    slug: "student-debt-crisis",
-    tags: ["Education", "Debt", "Predatory"],
-  },
-  {
-    date: "2008-present",
-    sortDate: "2008-12-11",
-    title: "Bernie Madoff Ponzi Scheme",
-    description: "Largest Ponzi scheme in history — $64.8 billion in losses. SEC ignored warnings for years. Victims included charities and retirees.",
-    category: "Financial Crimes",
-    severity: "critical",
-    slug: "bernie-madoff-ponzi",
-    tags: ["Ponzi", "Madoff", "SEC"],
-  },
-  {
-    date: "1999-present",
-    sortDate: "1999-01-01",
-    title: "Dark Money in Politics",
-    description: "Billions in untraceable political spending. Citizens United unleashed corporate money. Super PACs, 501(c)(4)s, anonymous donors shape elections.",
-    category: "Corruption",
-    severity: "critical",
-    slug: "dark-money-politics",
-    tags: ["Dark Money", "Elections", "Citizens United"],
-  },
-  {
-    date: "2020-present",
-    sortDate: "2020-06-01",
-    title: "Gun Violence Inaction",
-    description: "45,000+ Americans killed by guns annually. Uvalde, Sandy Hook, Parkland — Congress paralyzed by NRA lobbying. Children die, nothing changes.",
-    category: "Government Abuse",
-    severity: "critical",
-    slug: "gun-violence-inaction",
-    tags: ["Guns", "NRA", "Mass Shootings"],
-  },
-  {
-    date: "June 22, 2022",
-    sortDate: "2022-06-24",
-    title: "Roe v. Wade Overturned",
-    description: "SCOTUS overturned 50 years of reproductive rights in Dobbs decision. Federalist Society justices delivered decades-long conservative goal.",
-    category: "Government Abuse",
-    severity: "critical",
-    slug: "roe-v-wade-overturn",
-    tags: ["SCOTUS", "Abortion", "Rights"],
-  },
-  {
-    date: "2023-present",
-    sortDate: "2023-01-01",
-    title: "Project 2025",
-    description: "Heritage Foundation's 920-page blueprint to dismantle federal government. Schedule F to replace civil servants with loyalists. Authoritarian roadmap.",
-    category: "Corruption",
-    severity: "critical",
-    slug: "project-2025",
-    tags: ["Heritage", "Authoritarian", "Government"],
-  },
-];
+console.log(`Generated ${newEntries.length} new timeline entries`);
 
-// Find insertion point - just before the closing ];
-const insertBefore = '\n];';
-const insertIndex = content.lastIndexOf(insertBefore);
-
-if (insertIndex === -1) {
-  console.error('Could not find insertion point');
+// Find the closing bracket of the timelineEvents array
+const arrayEndIdx = timelineContent.indexOf('\n];');
+if (arrayEndIdx === -1) {
+  console.error('Could not find end of timelineEvents array');
   process.exit(1);
 }
 
-// Generate entries as string
-let entriesStr = '';
-for (const entry of newEntries) {
-  entriesStr += `  {\n`;
-  entriesStr += `    date: "${entry.date}",\n`;
-  entriesStr += `    sortDate: "${entry.sortDate}",\n`;
-  entriesStr += `    title: "${entry.title}",\n`;
-  entriesStr += `    description: "${entry.description.replace(/"/g, '\\"')}",\n`;
-  entriesStr += `    category: "${entry.category}",\n`;
-  entriesStr += `    severity: "${entry.severity}",\n`;
-  entriesStr += `    slug: "${entry.slug}",\n`;
-  entriesStr += `    tags: [${entry.tags.map(t => `"${t}"`).join(', ')}],\n`;
-  entriesStr += `  },\n`;
+let newContent = timelineContent.slice(0, arrayEndIdx);
+
+// Remove duplicate nsa-mass-surveillance
+const firstNsa = newContent.indexOf("slug: 'nsa-mass-surveillance'") !== -1 
+  ? newContent.indexOf("slug: 'nsa-mass-surveillance'")
+  : newContent.indexOf('slug: "nsa-mass-surveillance"');
+
+if (firstNsa !== -1) {
+  const secondNsa = newContent.indexOf("slug: 'nsa-mass-surveillance'", firstNsa + 1) !== -1
+    ? newContent.indexOf("slug: 'nsa-mass-surveillance'", firstNsa + 1)
+    : newContent.indexOf('slug: "nsa-mass-surveillance"', firstNsa + 1);
+    
+  if (secondNsa !== -1) {
+    let braceStart = newContent.lastIndexOf('{', secondNsa);
+    let searchBack = braceStart - 1;
+    while (searchBack >= 0 && (newContent[searchBack] === ' ' || newContent[searchBack] === '\n' || newContent[searchBack] === ',')) {
+      searchBack--;
+    }
+    let braceEnd = newContent.indexOf('},', secondNsa);
+    if (braceEnd !== -1) {
+      braceEnd += 2;
+      newContent = newContent.slice(0, searchBack + 1) + newContent.slice(braceEnd);
+      console.log('Removed duplicate nsa-mass-surveillance entry');
+    }
+  }
 }
 
-content = content.slice(0, insertIndex) + '\n' + entriesStr + content.slice(insertIndex);
+// Append new entries
+const insertBlock = ',\n\n  // === Additional Investigation Timeline Events ===\n' + newEntries.join(',\n');
+newContent = newContent + insertBlock + '\n];' + timelineContent.slice(arrayEndIdx + 3);
 
-fs.writeFileSync(filePath, content, 'utf8');
+fs.writeFileSync('src/app/timeline/page.tsx', newContent);
 
-// Count slugs in the result
-const slugCount = (content.match(/slug:/g) || []).length;
-console.log(`Added ${newEntries.length} new timeline entries`);
-console.log(`Total timeline entries: ${slugCount}`);
-console.log('Fixed 3 slug mismatches (dark-money→dark-money-politics, scotus-ethics→supreme-court-ethics, torture-program→cia-torture-program)');
+// Verify
+const verifyContent = fs.readFileSync('src/app/timeline/page.tsx', 'utf8');
+const allSlugs = [];
+const dupRe = /slug:\s*["']([^"']+)["']/g;
+while ((m = dupRe.exec(verifyContent)) !== null) {
+  allSlugs.push(m[1]);
+}
+const uniqueSlugs = new Set(allSlugs);
+console.log(`Final timeline entries: ${allSlugs.length}, unique slugs: ${uniqueSlugs.size}`);
+const dupes = allSlugs.filter((s, i) => allSlugs.indexOf(s) !== i);
+if (dupes.length > 0) {
+  console.log('Duplicates:', [...new Set(dupes)]);
+} else {
+  console.log('No duplicates');
+}

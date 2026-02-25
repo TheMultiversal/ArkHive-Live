@@ -6,7 +6,7 @@ export async function POST(req: Request) {
     const password = String(body?.password || '');
     const SITE_PASSWORD = process.env.SITE_PASSWORD || 'Knowledge';
 
-    if (password === SITE_PASSWORD) {
+    if (password.toLowerCase() === SITE_PASSWORD.toLowerCase()) {
       // set cookie via NextResponse (works consistently in route handlers)
       const res = NextResponse.json({ ok: true });
       res.cookies.set({

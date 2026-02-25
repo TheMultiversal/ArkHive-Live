@@ -8,7 +8,7 @@ Next steps (recommended)
 1. Manual verification: open each `oldUrl` in a browser to confirm whether the resource truly disappeared or is blocking automated requests.
 2. Replace with an alternative authoritative source when available (official mirror, gov PDF, or credible news report).
 3. If no alternative exists, either:
-   - Replace the link with an explanatory note (e.g. `"source unavailable — archived copy not found"`), or
+   - Replace the link with an explanatory note (e.g. `"source unavailable  -  archived copy not found"`), or
    - Remove the link and keep the citation text.
 4. After manual edits, run `npm run check-links` to validate.
 

@@ -71,7 +71,7 @@ async function main() {
   const broken = results.filter(r => r.error || (r.status && r.status >= 400));
   const outPath = path.join(process.cwd(), `link-check-results-${path.basename(fileArg).replace(/[^a-z0-9]/gi,'_')}.json`);
   await fs.writeFile(outPath, JSON.stringify({ file: fileArg, total: results.length, broken: broken.length, results }, null, 2));
-  console.log(`Checked ${results.length} URLs — ${broken.length} broken. Results written to ${outPath}`);
+  console.log(`Checked ${results.length} URLs  -  ${broken.length} broken. Results written to ${outPath}`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });

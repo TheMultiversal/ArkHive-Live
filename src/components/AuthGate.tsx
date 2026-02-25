@@ -11,9 +11,9 @@ import { useRouter, usePathname } from 'next/navigation';
  *   full site shell.
  *
  * Props:
- *   `header`   – everything above <main> (effects, Header, etc.)
- *   `footer`   – everything below <main> (Footer, BackToTop, etc.)
- *   `children` – the <main> page content
+ *   `header`   - everything above <main> (effects, Header, etc.)
+ *   `footer`   - everything below <main> (Footer, BackToTop, etc.)
+ *   `children` - the <main> page content
  */
 export default function AuthGate({
   children,
@@ -53,7 +53,7 @@ export default function AuthGate({
       });
   }, [pathname, router, isEnterPage]);
 
-  // On the /enter page: render ONLY the page content — no site chrome
+  // On the /enter page: render ONLY the page content  -  no site chrome
   if (isEnterPage) {
     return <>{children}</>;
   }

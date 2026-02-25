@@ -9,8 +9,8 @@ const investigation = {
   title: 'Police Brutality & Qualified Immunity',
   subtitle: 'How American Law Enforcement Kills 1,000+ People Per Year, Disproportionately Black, While Legal Doctrine Makes Accountability Nearly Impossible',
   severity: 'critical',
-  status: 'Ongoing — Systemic Crisis',
-  summary: 'American police kill approximately 1,100 people per year — more than any other developed nation. Black Americans are killed by police at 2.9 times the rate of white Americans. Despite this, officers are almost never held criminally accountable due to qualified immunity, police union protections, and a legal system designed to shield law enforcement from consequences. The doctrine of qualified immunity, created by the Supreme Court in 1967 and expanded dramatically since, requires that victims prove an officer violated a "clearly established" right — meaning unless a previous case with nearly identical facts exists, officers are immune from civil liability regardless of how egregious their conduct. This creates a system where police can kill with impunity, and the families of victims have virtually no legal recourse.',
+  status: 'Ongoing  -  Systemic Crisis',
+  summary: 'American police kill approximately 1,100 people per year  -  more than any other developed nation. Black Americans are killed by police at 2.9 times the rate of white Americans. Despite this, officers are almost never held criminally accountable due to qualified immunity, police union protections, and a legal system designed to shield law enforcement from consequences. The doctrine of qualified immunity, created by the Supreme Court in 1967 and expanded dramatically since, requires that victims prove an officer violated a "clearly established" right  -  meaning unless a previous case with nearly identical facts exists, officers are immune from civil liability regardless of how egregious their conduct. This creates a system where police can kill with impunity, and the families of victims have virtually no legal recourse.',
   scale: {
     killedPerYear: '~1,100 killed annually',
     since2000: '25,000+ killed since 2000',
@@ -20,9 +20,9 @@ const investigation = {
     noKnockRaids: '20,000+ no-knock raids/year',
   },
   notableKillings: [
-    { name: 'George Floyd', date: 'May 25, 2020', location: 'Minneapolis, MN', description: 'Officer Derek Chauvin knelt on Floyd\'s neck for 9 minutes and 29 seconds while Floyd repeatedly said "I can\'t breathe." Three other officers assisted or watched. Floyd\'s murder sparked the largest protests in US history.', outcome: 'Chauvin convicted of murder — 22.5 years. Other officers convicted of federal civil rights violations.' },
-    { name: 'Breonna Taylor', date: 'Mar 13, 2020', location: 'Louisville, KY', description: 'Police executed a no-knock warrant at Taylor\'s apartment after midnight. Officers fired 32 rounds into the apartment. Taylor was shot 6 times in her bed. The suspect police were looking for was already in custody.', outcome: 'One officer charged — acquitted. Settlement: $12 million. No murder charges.' },
-    { name: 'Tamir Rice', date: 'Nov 22, 2014', location: 'Cleveland, OH', description: '12-year-old Tamir Rice was playing with a toy gun in a park. Officer Timothy Loehmann shot him within 2 seconds of arriving — before the patrol car had even stopped. Neither officer rendered first aid.', outcome: 'Grand jury declined to indict. No criminal charges. $6 million settlement.' },
+    { name: 'George Floyd', date: 'May 25, 2020', location: 'Minneapolis, MN', description: 'Officer Derek Chauvin knelt on Floyd\'s neck for 9 minutes and 29 seconds while Floyd repeatedly said "I can\'t breathe." Three other officers assisted or watched. Floyd\'s murder sparked the largest protests in US history.', outcome: 'Chauvin convicted of murder  -  22.5 years. Other officers convicted of federal civil rights violations.' },
+    { name: 'Breonna Taylor', date: 'Mar 13, 2020', location: 'Louisville, KY', description: 'Police executed a no-knock warrant at Taylor\'s apartment after midnight. Officers fired 32 rounds into the apartment. Taylor was shot 6 times in her bed. The suspect police were looking for was already in custody.', outcome: 'One officer charged  -  acquitted. Settlement: $12 million. No murder charges.' },
+    { name: 'Tamir Rice', date: 'Nov 22, 2014', location: 'Cleveland, OH', description: '12-year-old Tamir Rice was playing with a toy gun in a park. Officer Timothy Loehmann shot him within 2 seconds of arriving  -  before the patrol car had even stopped. Neither officer rendered first aid.', outcome: 'Grand jury declined to indict. No criminal charges. $6 million settlement.' },
     { name: 'Eric Garner', date: 'Jul 17, 2014', location: 'Staten Island, NY', description: 'Officer Daniel Pantaleo put Garner in a banned chokehold while arresting him for selling loose cigarettes. Garner said "I can\'t breathe" 11 times before losing consciousness. The medical examiner ruled it a homicide.', outcome: 'Grand jury declined to indict. DOJ declined federal charges. Pantaleo fired 5 years later.' },
     { name: 'Philando Castile', date: 'Jul 6, 2016', location: 'Falcon Heights, MN', description: 'During a traffic stop, Castile informed Officer Jeronimo Yanez he had a licensed firearm. As Castile reached for his ID (as instructed), Yanez fired 7 shots, killing Castile in front of his girlfriend and her 4-year-old daughter.', outcome: 'Yanez acquitted of all charges. $3 million settlement.' },
     { name: 'Elijah McClain', date: 'Aug 24, 2019', location: 'Aurora, CO', description: 'McClain was walking home wearing a ski mask (he had anemia and got cold easily). Officers put him in a carotid hold and paramedics injected him with ketamine. He went into cardiac arrest and died days later.', outcome: 'Two officers and one paramedic convicted of criminally negligent homicide (2023).' },
@@ -30,14 +30,14 @@ const investigation = {
     { name: 'Daniel Shaver', date: 'Jan 18, 2016', location: 'Mesa, AZ', description: 'Shaver was unarmed, sobbing, and crawling on the floor following contradictory police commands. Officer Philip Brailsford shot him with an AR-15 engraved with "YOU\'RE FUCKED." Brailsford was acquitted and later rehired to receive a $2,500/month pension.', outcome: 'Acquitted. Rehired for 42 days to qualify for $31,000/year pension for PTSD.' },
   ],
   qualifiedImmunity: {
-    origin: 'Pierson v. Ray (1967) — Supreme Court created qualified immunity from whole cloth. No statutory basis.',
-    expansion: 'Harlow v. Fitzgerald (1982) — Supreme Court dramatically expanded doctrine. Officers immune unless they violate "clearly established" law.',
+    origin: 'Pierson v. Ray (1967)  -  Supreme Court created qualified immunity from whole cloth. No statutory basis.',
+    expansion: 'Harlow v. Fitzgerald (1982)  -  Supreme Court dramatically expanded doctrine. Officers immune unless they violate "clearly established" law.',
     problem: 'Courts have interpreted "clearly established" so narrowly that unless a previous case involves nearly identical facts, officers are immune. Courts have ruled that: an officer who stole $225,000 had qualified immunity because no prior case involved theft of that exact amount; officers who sicced a dog on a surrendering suspect had immunity because the suspect was sitting, not lying down like in a prior case.',
     absurdExamples: [
-      'Officer who shot a 10-year-old while aiming at nonthreatening family dog — QUALIFIED IMMUNITY GRANTED',
-      'Officers who stole $225,000 in cash and rare coins during a search warrant — QUALIFIED IMMUNITY GRANTED',
-      'Officer who body-slammed a woman for slowly walking away — QUALIFIED IMMUNITY GRANTED',
-      'Officer who shot a man in his own yard while responding to wrong address — QUALIFIED IMMUNITY GRANTED',
+      'Officer who shot a 10-year-old while aiming at nonthreatening family dog  -  QUALIFIED IMMUNITY GRANTED',
+      'Officers who stole $225,000 in cash and rare coins during a search warrant  -  QUALIFIED IMMUNITY GRANTED',
+      'Officer who body-slammed a woman for slowly walking away  -  QUALIFIED IMMUNITY GRANTED',
+      'Officer who shot a man in his own yard while responding to wrong address  -  QUALIFIED IMMUNITY GRANTED',
     ],
   },
   systemicIssues: [
@@ -49,57 +49,57 @@ const investigation = {
     { issue: 'Militarization', description: 'The 1033 program transfers military equipment to local police. Departments have tanks, grenade launchers, and military-grade weapons. This equipment is disproportionately deployed in communities of color.' },
   ],
   keyFigures: [
-    { name: 'Derek Chauvin', role: 'Convicted murderer of George Floyd. Knelt on Floyd\'s neck for 9:29.', href: '/entities/individuals/derek-chauvin', status: 'Convicted — 22.5 years federal + 21 years state' },
-    { name: 'Darren Wilson', role: 'Officer who killed Michael Brown in Ferguson, MO. Never charged.', status: 'No charges — resigned from police' },
-    { name: 'Timothy Loehmann', role: 'Officer who killed 12-year-old Tamir Rice within 2 seconds of arriving', status: 'Not charged — fired, later hired by another department' },
-    { name: 'Daniel Pantaleo', role: 'Officer who killed Eric Garner with banned chokehold over loose cigarettes', status: 'Not indicted — fired 5 years later' },
-    { name: 'Dave Grossman', role: '"Killology" trainer who teaches police to kill without hesitation. Calls killing "the universal human phobia" that officers must overcome.', status: 'Active — trains thousands of officers annually' },
+    { name: 'Derek Chauvin', role: 'Convicted murderer of George Floyd. Knelt on Floyd\'s neck for 9:29.', href: '/entities/individuals/derek-chauvin', status: 'Convicted  -  22.5 years federal + 21 years state' },
+    { name: 'Darren Wilson', role: 'Officer who killed Michael Brown in Ferguson, MO. Never charged.', status: 'No charges  -  resigned from police' },
+    { name: 'Timothy Loehmann', role: 'Officer who killed 12-year-old Tamir Rice within 2 seconds of arriving', status: 'Not charged  -  fired, later hired by another department' },
+    { name: 'Daniel Pantaleo', role: 'Officer who killed Eric Garner with banned chokehold over loose cigarettes', status: 'Not indicted  -  fired 5 years later' },
+    { name: 'Dave Grossman', role: '"Killology" trainer who teaches police to kill without hesitation. Calls killing "the universal human phobia" that officers must overcome.', status: 'Active  -  trains thousands of officers annually' },
     { name: 'Bob Kroll', role: 'Minneapolis police union president who called George Floyd a "violent criminal" and praised officers', status: 'Retired with full pension' },
   ],
   charges: [
-    '18 USC §242 — Deprivation of Rights Under Color of Law (used in some federal civil rights cases)',
-    '18 USC §241 — Conspiracy Against Rights',
-    '42 USC §1983 — Civil Rights Lawsuit (blocked by qualified immunity in most cases)',
-    'State Murder/Manslaughter Charges — Rarely filed; when filed, juries frequently acquit',
-    'Fourth Amendment — Unreasonable Search and Seizure (excessive force = constitutional violation)',
-    'Fourteenth Amendment — Equal Protection (racially disparate policing)',
+    '18 USC §242  -  Deprivation of Rights Under Color of Law (used in some federal civil rights cases)',
+    '18 USC §241  -  Conspiracy Against Rights',
+    '42 USC §1983  -  Civil Rights Lawsuit (blocked by qualified immunity in most cases)',
+    'State Murder/Manslaughter Charges  -  Rarely filed; when filed, juries frequently acquit',
+    'Fourth Amendment  -  Unreasonable Search and Seizure (excessive force = constitutional violation)',
+    'Fourteenth Amendment  -  Equal Protection (racially disparate policing)',
   ],
   timeline: [
     { date: '1967', event: 'Supreme Court creates qualified immunity doctrine in Pierson v. Ray' },
     { date: '1982', event: 'Harlow v. Fitzgerald dramatically expands qualified immunity protections' },
     { date: '1991', event: 'Rodney King beating filmed by bystander. Officers acquitted, sparking LA riots.' },
     { date: '2014', event: 'Eric Garner killed. Michael Brown killed. Tamir Rice killed. Black Lives Matter movement grows.' },
-    { date: '2015', event: 'Washington Post begins Tracking Police Shootings database — first comprehensive national count' },
+    { date: '2015', event: 'Washington Post begins Tracking Police Shootings database  -  first comprehensive national count' },
     { date: '2020', event: 'George Floyd murdered. Largest protests in US history. Global reckoning on police violence.' },
     { date: '2020', event: 'Breonna Taylor killed in no-knock raid. National outrage over lack of charges.' },
-    { date: '2021', event: 'Chauvin convicted — rare accountability. Most killings still result in no charges.' },
+    { date: '2021', event: 'Chauvin convicted  -  rare accountability. Most killings still result in no charges.' },
     { date: '2023', event: 'Tyre Nichols beaten to death by 5 Memphis officers. All charged with murder.' },
     { date: 'Present', event: 'Police continue killing ~1,100 people/year. Qualified immunity remains. Systemic reform stalled.' },
   ],
   legalOutcomes: [
-    { defendant: 'Derek Chauvin', charge: 'Murder of George Floyd', outcome: 'Convicted — 22.5 years (rare accountability)' },
+    { defendant: 'Derek Chauvin', charge: 'Murder of George Floyd', outcome: 'Convicted  -  22.5 years (rare accountability)' },
     { defendant: 'Qualified Immunity Doctrine', charge: 'Blocking civil rights lawsuits', outcome: 'Still in effect. Supreme Court refuses to revisit despite growing criticism.' },
-    { defendant: 'Systematic Police Violence', charge: 'Pattern-and-practice investigations', outcome: 'DOJ consent decrees in some cities— but compliance is voluntary and enforcement weak' },
-    { defendant: 'Police Departments', charge: 'Civil rights settlements', outcome: 'Cities pay $300M+/year in settlements — taxpayers pay, officers face no consequences' },
+    { defendant: 'Systematic Police Violence', charge: 'Pattern-and-practice investigations', outcome: 'DOJ consent decrees in some cities -  but compliance is voluntary and enforcement weak' },
+    { defendant: 'Police Departments', charge: 'Civil rights settlements', outcome: 'Cities pay $300M+/year in settlements  -  taxpayers pay, officers face no consequences' },
   ],
   coverup: [
     'Police departments routinely withhold body camera footage, incident reports, and disciplinary records for months or years, citing "ongoing investigations" to delay public accountability',
     'Qualified immunity doctrine, created by the Supreme Court in 1967 and dramatically expanded in 1982, effectively prevents victims of police violence from holding individual officers accountable in civil court',
     'Police union contracts in many cities mandate the destruction of disciplinary records after set periods, systematically erasing documented patterns of officer misconduct from the record',
-    'The "blue wall of silence" ensures that officers who report misconduct by colleagues face retaliation, involuntary transfers, or termination — effectively suppressing internal accountability mechanisms',
+    'The "blue wall of silence" ensures that officers who report misconduct by colleagues face retaliation, involuntary transfers, or termination  -  effectively suppressing internal accountability mechanisms',
     'Grand juries almost never indict police officers; prosecutors who depend on daily cooperation with police frequently present one-sided cases that favor non-indictment',
     'Internal affairs investigations are conducted by fellow officers within the same department, with substantiation rates for civilian complaints averaging below 10% nationwide',
     'Departments routinely classify police killings as "justified" before any independent investigation is complete, prejudicing all subsequent reviews and public perception',
-    'The FBI\'s national use-of-force database remains voluntary — most police departments refuse to report their data, making comprehensive national accountability impossible',
+    'The FBI\'s national use-of-force database remains voluntary  -  most police departments refuse to report their data, making comprehensive national accountability impossible',
   ],
   sources: [
     { title: 'Washington Post Police Shootings Database', url: 'https://www.washingtonpost.com/graphics/investigations/police-shootings-database/', date: '2015-present' },
     { title: 'Mapping Police Violence', url: 'https://mappingpoliceviolence.us/', date: 'Ongoing' },
     { title: 'Reuters: Qualified Immunity Investigation', url: 'https://www.reuters.com/investigates/special-report/usa-police-immunity-scotus/', date: '2020' },
-    { title: 'ACLU: Qualified Immunity — A Legal, Practical, and Moral Failure', url: 'https://www.aclu.org/news/criminal-law-reform/the-supreme-court-has-a-chance-to-end-qualified-immunity', date: '2020' },
+    { title: 'ACLU: Qualified Immunity  -  A Legal, Practical, and Moral Failure', url: 'https://www.aclu.org/news/criminal-law-reform/the-supreme-court-has-a-chance-to-end-qualified-immunity', date: '2020' },
     { title: 'DOJ: Investigation of the Minneapolis Police Department', url: 'https://www.justice.gov/crt/case/investigation-city-minneapolis-and-minneapolis-police-department', date: '2023' },
-    { title: 'Radley Balko: Rise of the Warrior Cop — The Militarization of America\'s Police Forces', url: 'https://www.publicaffairsbooks.com/titles/radley-balko/rise-of-the-warrior-cop/9781610394574/', date: '2013' },
-    { title: 'The Counted — Guardian US Database of Police Killings', url: 'https://www.theguardian.com/us-news/series/counted-us-police-killings', date: '2015-2016' },
+    { title: 'Radley Balko: Rise of the Warrior Cop  -  The Militarization of America\'s Police Forces', url: 'https://www.publicaffairsbooks.com/titles/radley-balko/rise-of-the-warrior-cop/9781610394574/', date: '2013' },
+    { title: 'The Counted  -  Guardian US Database of Police Killings', url: 'https://www.theguardian.com/us-news/series/counted-us-police-killings', date: '2015-2016' },
   ],
 };
 
@@ -146,7 +146,7 @@ export default function PoliceBrutalityPage() {
               <div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800">
                 <div className="flex flex-wrap items-center gap-2 mb-2">
                   <p className="font-bold text-blood-400 text-sm">{k.name}</p>
-                  <span className="text-xs text-zinc-500">{k.date} — {k.location}</span>
+                  <span className="text-xs text-zinc-500">{k.date}  -  {k.location}</span>
                 </div>
                 <p className="text-sm text-zinc-300 mb-2">{k.description}</p>
                 <p className="text-xs text-red-400 font-bold">{k.outcome}</p>

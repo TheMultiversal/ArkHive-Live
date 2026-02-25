@@ -54,7 +54,7 @@ async function checkUrl(url) {
     // try HEAD first
     let res = await fetch(url, { method: 'HEAD', redirect: 'follow', signal: controller.signal });
     if (res.status === 405 || res.status === 501 || res.status === 0 || res.status >= 400) {
-      // some servers disallow HEAD — fallback to GET
+      // some servers disallow HEAD  -  fallback to GET
       const controller2 = timeoutFetch(10000);
       res = await fetch(url, { method: 'GET', redirect: 'follow', signal: controller2.signal });
     }
@@ -85,7 +85,7 @@ async function main() {
   const summary = { total: results.length, broken: broken.length, timestamp: new Date().toISOString() };
   const out = { summary, results, broken };
   writeFileSync(OUT_FILE, JSON.stringify(out, null, 2));
-  console.log(`Checked ${results.length} URLs — ${broken.length} broken (written to ${OUT_FILE}).`);
+  console.log(`Checked ${results.length} URLs  -  ${broken.length} broken (written to ${OUT_FILE}).`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });

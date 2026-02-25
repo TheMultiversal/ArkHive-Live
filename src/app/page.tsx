@@ -263,16 +263,16 @@ export default function Home() {
                 {/* What We Document */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
                   {[
-                    { title: "Government Crimes", desc: "State-sponsored atrocities hidden from public view" },
-                    { title: "Corporate Malfeasance", desc: "Profit over people, cover-ups and collusion" },
-                    { title: "Medical Tyranny", desc: "Forced treatments, experimental injections, pharma fraud" },
-                    { title: "Civil Liberty Violations", desc: "Constitutional erosion, surveillance, censorship" },
+                    { title: "Government Crimes", desc: "State-sponsored atrocities hidden from public view", href: "/entities/agencies" },
+                    { title: "Corporate Malfeasance", desc: "Profit over people, cover-ups and collusion", href: "/entities/corporations" },
+                    { title: "Medical Tyranny", desc: "Forced treatments, experimental injections, pharma fraud", href: "/investigations/pharmaceutical-price-gouging" },
+                    { title: "Civil Liberty Violations", desc: "Constitutional erosion, surveillance, censorship", href: "/investigations/nsa-mass-surveillance" },
                   ].map((item, i) => (
-                    <div key={i} className="text-center p-3 border border-blood-900/40 bg-blood-950/30">
-                      <span className="block w-2 h-2 bg-blood-700 mx-auto mb-2" />
-                      <h3 className="text-xs sm:text-sm font-bold text-blood-600 uppercase tracking-wider mb-1">{item.title}</h3>
+                    <Link key={i} href={item.href} className="text-center p-3 border border-blood-900/40 bg-blood-950/30 hover:border-blood-600 hover:bg-blood-950/50 transition-colors group">
+                      <span className="block w-2 h-2 bg-blood-700 mx-auto mb-2 group-hover:bg-blood-500 transition-colors" />
+                      <h3 className="text-xs sm:text-sm font-bold text-blood-600 uppercase tracking-wider mb-1 group-hover:text-blood-500 transition-colors">{item.title}</h3>
                       <p className="text-[10px] sm:text-xs text-zinc-500 leading-tight">{item.desc}</p>
-                    </div>
+                    </Link>
                   ))}
                 </div>
 
@@ -313,14 +313,26 @@ export default function Home() {
                 </div>
                 <div className="flex flex-wrap gap-2 text-xs">
                   {[
-                    "Election Interference", "Financial Fraud", "Human Trafficking", "RICO Violations",
-                    "Seditious Conspiracy", "Obstruction of Justice", "Tax Evasion", "Wire Fraud",
-                    "Campaign Finance Crimes", "Bribery", "Bank Fraud", "Securities Fraud",
-                    "Money Laundering", "Perjury", "Sexual Assault", "Racketeering"
+                    { name: "Election Interference", href: "/investigations/election-interference" },
+                    { name: "Financial Fraud", href: "/investigations/financial-fraud" },
+                    { name: "Human Trafficking", href: "/investigations/global-trafficking" },
+                    { name: "RICO Violations", href: "/investigations/georgia-rico" },
+                    { name: "Seditious Conspiracy", href: "/investigations/oath-keepers-sedition" },
+                    { name: "Obstruction of Justice", href: "/investigations/obstruction-of-justice" },
+                    { name: "Tax Evasion", href: "/investigations/tax-evasion" },
+                    { name: "Wire Fraud", href: "/investigations" },
+                    { name: "Campaign Finance Crimes", href: "/investigations/campaign-finance" },
+                    { name: "Bribery", href: "/investigations/bribery-corruption" },
+                    { name: "Bank Fraud", href: "/investigations/2008-financial-crisis" },
+                    { name: "Securities Fraud", href: "/investigations/securities-fraud" },
+                    { name: "Money Laundering", href: "/investigations/money-laundering" },
+                    { name: "Perjury", href: "/investigations" },
+                    { name: "Sexual Assault", href: "/investigations/sexual-assault" },
+                    { name: "Racketeering", href: "/investigations/georgia-rico" },
                   ].map((crime, i) => (
-                    <span key={i} className="px-2 py-1 bg-blood-950/50 border border-blood-700/50 text-blood-500 hover:bg-blood-900/30 transition-colors cursor-default">
-                      {crime}
-                    </span>
+                    <Link key={i} href={crime.href} className="px-2 py-1 bg-blood-950/50 border border-blood-700/50 text-blood-500 hover:bg-blood-900/30 hover:border-blood-500 transition-colors">
+                      {crime.name}
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -333,13 +345,21 @@ export default function Home() {
                 </div>
                 <div className="flex flex-wrap gap-2 text-xs">
                   {[
-                    "MKUltra", "COINTELPRO", "Operation Mockingbird", "Tuskegee Experiments",
-                    "Operation Northwoods", "Gulf of Tonkin", "Iran-Contra", "CIA Torture Program",
-                    "NSA Mass Surveillance", "Operation Paperclip", "Phoenix Program"
+                    { name: "MKUltra", href: "/investigations/mkultra" },
+                    { name: "COINTELPRO", href: "/investigations/cointelpro" },
+                    { name: "Operation Mockingbird", href: "/investigations/operation-mockingbird" },
+                    { name: "Tuskegee Experiments", href: "/investigations/tuskegee-experiment" },
+                    { name: "Operation Northwoods", href: "/investigations/operation-northwoods" },
+                    { name: "Gulf of Tonkin", href: "/investigations/gulf-of-tonkin" },
+                    { name: "Iran-Contra", href: "/investigations/iran-contra" },
+                    { name: "CIA Torture Program", href: "/investigations/cia-torture-program" },
+                    { name: "NSA Mass Surveillance", href: "/investigations/nsa-mass-surveillance" },
+                    { name: "Operation Paperclip", href: "/investigations/operation-paperclip" },
+                    { name: "Phoenix Program", href: "/investigations/phoenix-program" },
                   ].map((program, i) => (
-                    <span key={i} className="px-2 py-1 bg-zinc-900/50 border border-zinc-700/50 text-zinc-400 hover:bg-zinc-800/50 transition-colors cursor-default">
-                      {program}
-                    </span>
+                    <Link key={i} href={program.href} className="px-2 py-1 bg-zinc-900/50 border border-zinc-700/50 text-zinc-400 hover:bg-zinc-800/50 hover:border-zinc-500 transition-colors">
+                      {program.name}
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -352,14 +372,22 @@ export default function Home() {
                 </div>
                 <div className="flex flex-wrap gap-2 text-xs">
                   {[
-                    "Pharmaceutical Influence", "Regulatory Capture", "Media Manipulation",
-                    "Water Contamination", "Food Industry Fraud", "Prison Industrial Complex",
-                    "Medical Experimentation", "Fluoride Research Suppression", "Vaccine Injury Concealment",
-                    "Weather Modification Programs", "5G Health Research", "Chemtrail Aerosol Programs"
+                    { name: "Pharmaceutical Influence", href: "/investigations/pharmaceutical-price-gouging" },
+                    { name: "Regulatory Capture", href: "/investigations/regulatory-capture" },
+                    { name: "Media Manipulation", href: "/investigations/media-manipulation" },
+                    { name: "Water Contamination", href: "/investigations/water-contamination-nationwide" },
+                    { name: "Food Industry Fraud", href: "/investigations" },
+                    { name: "Prison Industrial Complex", href: "/investigations/private-prison-industry" },
+                    { name: "Medical Experimentation", href: "/investigations/tuskegee-experiment" },
+                    { name: "Fluoride Research Suppression", href: "/investigations" },
+                    { name: "Vaccine Injury Concealment", href: "/investigations" },
+                    { name: "Weather Modification Programs", href: "/investigations" },
+                    { name: "5G Health Research", href: "/investigations" },
+                    { name: "Chemtrail Aerosol Programs", href: "/investigations" },
                   ].map((pattern, i) => (
-                    <span key={i} className="px-2 py-1 bg-amber-950/30 border border-amber-800/40 text-amber-600/80 hover:bg-amber-900/30 transition-colors cursor-default">
-                      {pattern}
-                    </span>
+                    <Link key={i} href={pattern.href} className="px-2 py-1 bg-amber-950/30 border border-amber-800/40 text-amber-600/80 hover:bg-amber-900/30 hover:border-amber-600 transition-colors">
+                      {pattern.name}
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -372,12 +400,16 @@ export default function Home() {
                 </div>
                 <div className="flex flex-wrap gap-2 text-xs">
                   {[
-                    "Depopulation Agendas", "Mind Control Programs", "Mass Surveillance Networks",
-                    "Economic Enslavement Systems", "Controlled Opposition", "Predictive Programming"
+                    { name: "Depopulation Agendas", href: "/investigations" },
+                    { name: "Mind Control Programs", href: "/investigations/mkultra" },
+                    { name: "Mass Surveillance Networks", href: "/investigations/nsa-mass-surveillance" },
+                    { name: "Economic Enslavement Systems", href: "/investigations" },
+                    { name: "Controlled Opposition", href: "/investigations" },
+                    { name: "Predictive Programming", href: "/investigations" },
                   ].map((topic, i) => (
-                    <span key={i} className="px-2 py-1 bg-purple-950/20 border border-purple-800/30 text-purple-500/70 hover:bg-purple-900/20 transition-colors cursor-default">
-                      {topic}
-                    </span>
+                    <Link key={i} href={topic.href} className="px-2 py-1 bg-purple-950/20 border border-purple-800/30 text-purple-500/70 hover:bg-purple-900/20 hover:border-purple-600 transition-colors">
+                      {topic.name}
+                    </Link>
                   ))}
                 </div>
               </div>

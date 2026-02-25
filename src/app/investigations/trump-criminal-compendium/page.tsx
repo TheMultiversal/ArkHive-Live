@@ -40,7 +40,7 @@ const investigationData = {
   title: 'The Trump Criminal Compendium',
   subtitle: 'A Comprehensive Juridical Documentation of Crimes Against Humanity, Universal Law, and Democratic Institutions',
   severity: 'critical' as const,
-  status: 'ONGOING — Multiple Active Cases',
+  status: 'ONGOING  -  Multiple Active Cases',
   category: 'Crimes Against Humanity',
   date: 'February 8, 2026',
   lastUpdated: 'February 8, 2026',
@@ -75,7 +75,7 @@ const investigationData = {
     {
       category: 'Crimes Against Humanity',
       title: 'Murder and Extermination',
-      statutes: ['Rome Statute Article 7(1)(a)–(b)', 'Nuremberg Charter Article 6(c)', 'ILC Principle II', '18 U.S.C. § 1091'],
+      statutes: ['Rome Statute Article 7(1)(a)-(b)', 'Nuremberg Charter Article 6(c)', 'ILC Principle II', '18 U.S.C. § 1091'],
       content: [
         `Trump directed policies that intentionally caused deaths among civilian populations:`,
         `• Border wall policies leading to over 1,000 migrant fatalities from dehydration, exposure, and border patrol encounters (2017-2025).`,

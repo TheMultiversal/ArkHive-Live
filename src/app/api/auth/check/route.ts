@@ -7,6 +7,6 @@ export async function GET() {
   const sitePassword = process.env.SITE_PASSWORD || 'Knowledge';
 
   return NextResponse.json({
-    authenticated: token === sitePassword,
+    authenticated: token?.toLowerCase() === sitePassword.toLowerCase(),
   });
 }

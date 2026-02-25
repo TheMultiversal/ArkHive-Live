@@ -114,7 +114,7 @@ async function main() {
   const broken = results.filter(r => r && (r.error || (r.status && r.status >= 400)));
   const out = { summary: { total: results.length, broken: broken.length, timestamp: new Date().toISOString() }, results, broken };
   await fs.writeFile(OUT_FILE, JSON.stringify(out, null, 2));
-  console.log(`Done — checked ${results.length} URLs, ${broken.length} broken. Results saved to ${OUT_FILE}`);
+  console.log(`Done  -  checked ${results.length} URLs, ${broken.length} broken. Results saved to ${OUT_FILE}`);
 }
 
 main().catch(err => { console.error('Fatal error', err); process.exit(1); });

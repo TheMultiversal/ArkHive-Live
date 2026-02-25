@@ -752,7 +752,7 @@ const agencies: Entity[] = [
     slug: "ntsb",
     name: "National Transportation Safety Board (NTSB)",
     type: "agency",
-    description: "Independent federal agency investigating transportation disasters. Despite producing damning findings on Boeing and the FAA, the NTSB lacks enforcement power — its safety recommendations are routinely ignored.",
+    description: "Independent federal agency investigating transportation disasters. Despite producing damning findings on Boeing and the FAA, the NTSB lacks enforcement power  -  its safety recommendations are routinely ignored.",
     role: "Independent Federal Agency",
     investigationCount: 2,
     riskLevel: "high",

@@ -24,7 +24,7 @@ const path = require('path');
         if (idx < 0 || idx >= lines.length) continue;
         const line = lines[idx];
         if (line.includes('TODO: dead link')) continue;
-        lines[idx] = `${line} // TODO: dead link — no archive found (check scripts/404-replacements.json)`;
+        lines[idx] = `${line} // TODO: dead link  -  no archive found (check scripts/404-replacements.json)`;
       }
       const newTxt = lines.join('\n');
       await fs.writeFile(filePath, newTxt, 'utf8');

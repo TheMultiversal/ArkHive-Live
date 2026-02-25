@@ -163,7 +163,7 @@ function syncCorporations() {
     slug: "arthur-andersen",
     name: "Arthur Andersen LLP",
     type: "corporation",
-    description: "One of the Big Five accounting firms that served as Enron's auditor. Convicted of obstruction of justice for shredding Enron documents. Firm collapsed — 85,000 employees lost jobs. Led to Sarbanes-Oxley Act.",
+    description: "One of the Big Five accounting firms that served as Enron's auditor. Convicted of obstruction of justice for shredding Enron documents. Firm collapsed  -  85,000 employees lost jobs. Led to Sarbanes-Oxley Act.",
     role: "Accounting / Professional Services (Dissolved)",
     investigationCount: 1,
     riskLevel: "extreme",
@@ -274,7 +274,7 @@ function syncOrganizations() {
     name: 'Federal Bureau of Investigation',
     slug: 'fbi-org',
     type: 'Law Enforcement Agency',
-    description: 'Domestic intelligence and security service that conducted COINTELPRO — systematic campaign to surveil, infiltrate, and destroy civil rights and anti-war movements',
+    description: 'Domestic intelligence and security service that conducted COINTELPRO  -  systematic campaign to surveil, infiltrate, and destroy civil rights and anti-war movements',
     riskLevel: 'critical' as const,
     members: '35,000+ employees',
   }`);
@@ -285,7 +285,7 @@ function syncOrganizations() {
     name: 'National Security Agency',
     slug: 'nsa-org',
     type: 'Intelligence Agency',
-    description: 'Signals intelligence agency whose mass surveillance programs were exposed by Edward Snowden — collecting data on every American phone call, email, and internet activity',
+    description: 'Signals intelligence agency whose mass surveillance programs were exposed by Edward Snowden  -  collecting data on every American phone call, email, and internet activity',
     riskLevel: 'critical' as const,
     members: '30,000-40,000 employees',
   }`);
@@ -379,7 +379,7 @@ function syncOrganizations() {
   }`);
   }
 
-  // The organizations array ends with ]; — find it
+  // The organizations array ends with ];  -  find it
   const insertionPoint = '];\n\nconst riskColors';
   const idx = src.indexOf(insertionPoint);
   if (idx === -1) {

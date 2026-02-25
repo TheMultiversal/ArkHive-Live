@@ -7341,7 +7341,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
   },
 };
 
-// Placeholder data - will be replaced with dynamic content
+  // Placeholder data - will be replaced with dynamic content
 const defaultInvestigationData: InvestigationData = {
   title: "Investigation Template",
   subtitle: "This page will display detailed investigation content",

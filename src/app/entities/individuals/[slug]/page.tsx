@@ -15864,7 +15864,7 @@ const individualData: Record<string, IndividualProfile> = {
     charges: [
       { statute: '15 U.S.C. § 78j (Securities Fraud)', description: 'Potential Insider Trading - Wife purchased Gilead stock before pandemic; stock rose after Gilead\'s remdesivir treatment', category: 'Potential Securities' },
       { statute: '5 U.S.C. app. §§ 101-111 (Ethics in Government Act)', description: 'Disclosure Concerns - Delayed disclosure of wife\'s Gilead stock purchase during pandemic response', category: 'Ethics' },
-      { statute: 'STOCK Act (Pub.L. 112–105)', description: 'Potential Violation - Stock trades based on non-public information about pandemic response', category: 'Potential Congressional Ethics' },
+      { statute: 'STOCK Act (Pub.L. 112-105)', description: 'Potential Violation - Stock trades based on non-public information about pandemic response', category: 'Potential Congressional Ethics' },
       { statute: 'Senate Ethics Rules', description: 'Multiple Violations - Spread COVID misinformation that endangered public health, conflicts of interest', category: 'Ethics' },
       { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Potential False Statements - Repeatedly made false claims about COVID-19, treatments, and Dr. Fauci that contradicted medical evidence', category: 'Potential Federal' },
       { statute: 'YouTube Community Guidelines', description: 'Terms of Service Violation - Banned from YouTube for spreading COVID-19 misinformation', category: 'Platform Sanctions' },
@@ -40092,7 +40092,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Iraqi Exile Who Fabricated WMD Intelligence',
     role: 'Leader of the Iraqi National Congress who provided fabricated intelligence used to justify the 2003 Iraq invasion',
     riskLevel: 'high',
-    description: 'Ahmad Chalabi was an Iraqi politician and leader of the Iraqi National Congress (INC) who played a central role in promoting false intelligence about Iraqi weapons of mass destruction that was used to justify the 2003 U.S. invasion of Iraq. Chalabi and the INC provided defectors and sources—most notably "Curveball"—who fabricated stories about mobile biological weapons labs, uranium procurement, and active WMD programs. Despite being a convicted bank fraudster in Jordan (sentenced in absentia to 22 years for embezzlement), Chalabi was embraced by neoconservatives in the Pentagon and received millions in U.S. government funding. After the invasion, no WMDs were found, and many of the INC\'s sources were discredited. Chalabi briefly served in the Iraqi government but was later accused of passing U.S. intelligence to Iran.',
+    description: 'Ahmad Chalabi was an Iraqi politician and leader of the Iraqi National Congress (INC) who played a central role in promoting false intelligence about Iraqi weapons of mass destruction that was used to justify the 2003 U.S. invasion of Iraq. Chalabi and the INC provided defectors and sources - most notably "Curveball" - who fabricated stories about mobile biological weapons labs, uranium procurement, and active WMD programs. Despite being a convicted bank fraudster in Jordan (sentenced in absentia to 22 years for embezzlement), Chalabi was embraced by neoconservatives in the Pentagon and received millions in U.S. government funding. After the invasion, no WMDs were found, and many of the INC\'s sources were discredited. Chalabi briefly served in the Iraqi government but was later accused of passing U.S. intelligence to Iran.',
     birthDate: 'October 30, 1944',
     birthPlace: 'Baghdad, Iraq',
     deathDate: 'November 3, 2015',
@@ -40147,7 +40147,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Federal Reserve Chairman Whose Deregulation Enabled the 2008 Financial Crisis',
     role: 'Chairman of the Federal Reserve (1987-2006) whose policies of financial deregulation and low interest rates fueled the housing bubble',
     riskLevel: 'high',
-    description: 'Alan Greenspan served as Chairman of the Federal Reserve for nearly two decades, during which he championed radical financial deregulation, blocked regulation of derivatives, kept interest rates artificially low, and dismissed warnings about the housing bubble. A devoted follower of Ayn Rand\'s objectivism, Greenspan believed markets were self-correcting and that regulation was unnecessary. He supported the repeal of Glass-Steagall, opposed regulation of credit default swaps, and ignored predatory lending practices. His policies directly enabled the conditions that led to the 2008 financial crisis—the worst economic catastrophe since the Great Depression—which cost millions of Americans their homes, jobs, and savings. In 2008 testimony before Congress, he admitted finding a "flaw" in his free-market ideology.',
+    description: 'Alan Greenspan served as Chairman of the Federal Reserve for nearly two decades, during which he championed radical financial deregulation, blocked regulation of derivatives, kept interest rates artificially low, and dismissed warnings about the housing bubble. A devoted follower of Ayn Rand\'s objectivism, Greenspan believed markets were self-correcting and that regulation was unnecessary. He supported the repeal of Glass-Steagall, opposed regulation of credit default swaps, and ignored predatory lending practices. His policies directly enabled the conditions that led to the 2008 financial crisis - the worst economic catastrophe since the Great Depression - which cost millions of Americans their homes, jobs, and savings. In 2008 testimony before Congress, he admitted finding a "flaw" in his free-market ideology.',
     birthDate: 'March 6, 1926',
     birthPlace: 'New York City, New York, USA',
     education: ['New York University (B.S. Economics, 1948; M.A. Economics, 1950; Ph.D. Economics, 1977)'],
@@ -40292,7 +40292,7 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '1818', event: 'Invaded Spanish Florida during First Seminole War' },
       { date: 'March 4, 1829', event: 'Inaugurated as 7th President of the United States' },
       { date: 'May 28, 1830', event: 'Signed the Indian Removal Act into law' },
-      { date: '1831', event: 'Choctaw removal begins—first of the forced marches westward' },
+      { date: '1831', event: 'Choctaw removal begins - first of the forced marches westward' },
       { date: '1832', event: 'Supreme Court rules in Worcester v. Georgia; Jackson refuses to enforce' },
       { date: '1836-1839', event: 'Cherokee Trail of Tears: ~4,000 Cherokee die during forced march to Oklahoma' },
       { date: 'June 8, 1845', event: 'Died at The Hermitage plantation in Nashville, Tennessee' },
@@ -40361,7 +40361,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Supreme Court Justice, Author of Citizens United Decision',
     role: 'Associate Justice of the Supreme Court (1988-2018) who authored Citizens United v. FEC, unleashing unlimited corporate spending in elections',
     riskLevel: 'medium',
-    description: 'Anthony Kennedy served as an Associate Justice of the U.S. Supreme Court for 30 years. While often considered a "swing vote," his most consequential and controversial decision was authoring the majority opinion in Citizens United v. Federal Election Commission (2010), which struck down restrictions on independent corporate political expenditures. The 5-4 ruling held that corporations have First Amendment free speech rights to spend unlimited amounts on political advertising, fundamentally transforming American campaign finance. Kennedy wrote that "independent expenditures, including those made by corporations, do not give rise to corruption or the appearance of corruption"—a claim widely disputed by legal scholars and reformers. The decision opened the floodgates for dark money in politics, enabling billionaires and corporations to spend unlimited sums to influence elections through Super PACs and dark money organizations.',
+    description: 'Anthony Kennedy served as an Associate Justice of the U.S. Supreme Court for 30 years. While often considered a "swing vote," his most consequential and controversial decision was authoring the majority opinion in Citizens United v. Federal Election Commission (2010), which struck down restrictions on independent corporate political expenditures. The 5-4 ruling held that corporations have First Amendment free speech rights to spend unlimited amounts on political advertising, fundamentally transforming American campaign finance. Kennedy wrote that "independent expenditures, including those made by corporations, do not give rise to corruption or the appearance of corruption" - a claim widely disputed by legal scholars and reformers. The decision opened the floodgates for dark money in politics, enabling billionaires and corporations to spend unlimited sums to influence elections through Super PACs and dark money organizations.',
     birthDate: 'July 23, 1936',
     birthPlace: 'Sacramento, California, USA',
     education: ['Stanford University (B.A., 1958)', 'London School of Economics (1957-1958)', 'Harvard Law School (LL.B., 1961)'],
@@ -40411,7 +40411,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'U.S. Army General Who Investigated Abu Ghraib Abuses',
     role: 'Major General who authored the Taguba Report documenting systemic abuse at Abu Ghraib prison',
     riskLevel: 'low',
-    description: 'Antonio Taguba is a retired U.S. Army Major General who conducted the official military investigation into detainee abuse at Abu Ghraib prison in Iraq. His 2004 report—known as the Taguba Report—documented "systematic and illegal abuse of detainees" including physical and sexual abuse, torture, and humiliation by American military personnel. The report found "sadistic, blatant, and wanton criminal abuses" and recommended disciplinary action against senior officers. Rather than being lauded for his integrity, Taguba was effectively punished for his findings. Senior Pentagon officials pressured him, and Defense Secretary Donald Rumsfeld denied prior knowledge despite evidence to the contrary. Taguba was forced into early retirement in 2007, a year before he was eligible for a third star. He later said, "I was not going to lie about what I found."',
+    description: 'Antonio Taguba is a retired U.S. Army Major General who conducted the official military investigation into detainee abuse at Abu Ghraib prison in Iraq. His 2004 report - known as the Taguba Report - documented "systematic and illegal abuse of detainees" including physical and sexual abuse, torture, and humiliation by American military personnel. The report found "sadistic, blatant, and wanton criminal abuses" and recommended disciplinary action against senior officers. Rather than being lauded for his integrity, Taguba was effectively punished for his findings. Senior Pentagon officials pressured him, and Defense Secretary Donald Rumsfeld denied prior knowledge despite evidence to the contrary. Taguba was forced into early retirement in 2007, a year before he was eligible for a third star. He later said, "I was not going to lie about what I found."',
     birthDate: 'October 31, 1950',
     birthPlace: 'Manila, Philippines (raised in Hawaii)',
     education: ['Idaho State University (B.A.)', 'Webster University (M.A.)', 'U.S. Army War College'],
@@ -40460,7 +40460,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Dark Money Billionaire Behind $1.6 Billion Political Donation',
     role: 'Electronics manufacturer who made the largest known dark money donation in U.S. history to Leonard Leo\'s network',
     riskLevel: 'high',
-    description: 'Barre Seid is a reclusive Chicago electronics manufacturer who made the single largest known dark money donation in American political history—approximately $1.6 billion—to the Marble Freedom Trust, a nonprofit run by Federalist Society co-chairman Leonard Leo. The donation was structured as a transfer of 100% of the shares of Tripp Lite (Seid\'s electronics company) to the nonprofit before the company was sold to an Irish conglomerate, allowing Seid to avoid roughly $400 million in capital gains taxes. The Marble Freedom Trust then became the primary vehicle for Leo\'s operation to reshape the American judiciary, fund conservative causes, and oppose environmental regulation. Before this donation was exposed by The New York Times and ProPublica in 2022, Seid had operated almost entirely in secret despite decades of political giving to climate change denial, anti-regulation causes, and conservative legal organizations.',
+    description: 'Barre Seid is a reclusive Chicago electronics manufacturer who made the single largest known dark money donation in American political history - approximately $1.6 billion - to the Marble Freedom Trust, a nonprofit run by Federalist Society co-chairman Leonard Leo. The donation was structured as a transfer of 100% of the shares of Tripp Lite (Seid\'s electronics company) to the nonprofit before the company was sold to an Irish conglomerate, allowing Seid to avoid roughly $400 million in capital gains taxes. The Marble Freedom Trust then became the primary vehicle for Leo\'s operation to reshape the American judiciary, fund conservative causes, and oppose environmental regulation. Before this donation was exposed by The New York Times and ProPublica in 2022, Seid had operated almost entirely in secret despite decades of political giving to climate change denial, anti-regulation causes, and conservative legal organizations.',
     birthDate: '1932',
     birthPlace: 'Chicago, Illinois, USA',
     education: ['Unknown - kept private'],
@@ -40473,7 +40473,7 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Clarence Thomas', relationship: 'Supreme Court Justice benefiting from Leo\'s network funded by Seid', href: '/entities/individuals/clarence-thomas' },
     ],
     controversies: [
-      'LARGEST DARK MONEY DONATION: Made $1.6 billion donation to Leonard Leo\'s Marble Freedom Trust—largest known dark money gift in U.S. history',
+      'LARGEST DARK MONEY DONATION: Made $1.6 billion donation to Leonard Leo\'s Marble Freedom Trust - largest known dark money gift in U.S. history',
       'TAX AVOIDANCE: Structured donation to avoid ~$400 million in capital gains taxes by donating Tripp Lite shares before sale',
       'CLIMATE DENIAL FUNDING: Funded organizations promoting climate change denial and opposing environmental regulations',
       'JUDICIAL CAPTURE: Money used to fund network that reshaped federal judiciary with conservative judges',
@@ -40560,7 +40560,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Chilean Politician Targeted by DINA Assassination Attempt',
     role: 'Former Chilean Vice President and Christian Democratic leader who survived a DINA assassination attempt in Rome',
     riskLevel: 'low',
-    description: 'Bernardo Leighton was a prominent Chilean Christian Democratic politician who served as Minister of the Interior and Vice President. After the 1973 coup that brought Augusto Pinochet to power, Leighton went into exile in Rome where he became an outspoken critic of the military dictatorship. On October 6, 1975, Leighton and his wife Ana Fresno were shot in an assassination attempt organized by DINA (the Chilean secret police) as part of Operation Condor. Both survived but suffered severe injuries—Leighton was shot in the head and his wife was partially paralyzed. The attack was carried out by Italian neofascist Michael Townley working with the Italian far-right group Avanguardia Nazionale. The assassination attempt demonstrated the global reach of Operation Condor and its willingness to target political dissidents even in European capitals.',
+    description: 'Bernardo Leighton was a prominent Chilean Christian Democratic politician who served as Minister of the Interior and Vice President. After the 1973 coup that brought Augusto Pinochet to power, Leighton went into exile in Rome where he became an outspoken critic of the military dictatorship. On October 6, 1975, Leighton and his wife Ana Fresno were shot in an assassination attempt organized by DINA (the Chilean secret police) as part of Operation Condor. Both survived but suffered severe injuries - Leighton was shot in the head and his wife was partially paralyzed. The attack was carried out by Italian neofascist Michael Townley working with the Italian far-right group Avanguardia Nazionale. The assassination attempt demonstrated the global reach of Operation Condor and its willingness to target political dissidents even in European capitals.',
     birthDate: 'August 16, 1909',
     birthPlace: 'Nacimiento, Chile',
     deathDate: 'January 23, 1995',
@@ -40658,7 +40658,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Secretary of the Interior, Indian Policy Reformer',
     role: 'Secretary of the Interior (1877-1881) who oversaw federal Indian policy during a critical period',
     riskLevel: 'medium',
-    description: 'Carl Schurz was a German-born American politician, Union Army general, and Secretary of the Interior under President Rutherford B. Hayes from 1877 to 1881. As Interior Secretary, he oversaw the Bureau of Indian Affairs during the critical period of forced assimilation and reservation confinement of Native Americans. While Schurz is sometimes credited as a "reformer" compared to his predecessors, his policies still advanced the destruction of Native American cultures and sovereignty. He advocated for the "civilization" of Native Americans through assimilation—replacing indigenous languages, customs, and governance with Euro-American practices. He supported the allotment system that would later become the Dawes Act, which broke up communal tribal lands and resulted in the loss of approximately 90 million acres of Native land. His approach, while less overtly genocidal than outright removal, was still a form of cultural genocide designed to eliminate Native American identity.',
+    description: 'Carl Schurz was a German-born American politician, Union Army general, and Secretary of the Interior under President Rutherford B. Hayes from 1877 to 1881. As Interior Secretary, he oversaw the Bureau of Indian Affairs during the critical period of forced assimilation and reservation confinement of Native Americans. While Schurz is sometimes credited as a "reformer" compared to his predecessors, his policies still advanced the destruction of Native American cultures and sovereignty. He advocated for the "civilization" of Native Americans through assimilation - replacing indigenous languages, customs, and governance with Euro-American practices. He supported the allotment system that would later become the Dawes Act, which broke up communal tribal lands and resulted in the loss of approximately 90 million acres of Native land. His approach, while less overtly genocidal than outright removal, was still a form of cultural genocide designed to eliminate Native American identity.',
     birthDate: 'March 2, 1829',
     birthPlace: 'Liblar, near Cologne, Prussia (now Germany)',
     deathDate: 'May 14, 1906',
@@ -40760,7 +40760,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Solicitor General Who Suppressed Evidence in Japanese Internment Cases',
     role: 'U.S. Solicitor General who withheld and falsified evidence before the Supreme Court to uphold Japanese American internment',
     riskLevel: 'high',
-    description: 'Charles Fahy served as Solicitor General of the United States from 1941 to 1945, during which he argued before the Supreme Court in defense of the Japanese American internment. In the landmark cases Hirabayashi v. United States (1943) and Korematsu v. United States (1944), Fahy suppressed and falsified critical evidence from military and intelligence agencies—including reports from the FBI, FCC, and Office of Naval Intelligence—that found Japanese Americans posed no security threat. The suppressed evidence included the Ringle Report, which concluded that the vast majority of Japanese Americans were loyal to the United States. Fahy presented the government\'s case as one of military necessity while knowingly concealing evidence that contradicted that claim. His misconduct was not fully revealed until the 1980s when Peter Irons discovered the suppressed documents, leading to the vacating of Fred Korematsu\'s conviction through coram nobis proceedings in 1983.',
+    description: 'Charles Fahy served as Solicitor General of the United States from 1941 to 1945, during which he argued before the Supreme Court in defense of the Japanese American internment. In the landmark cases Hirabayashi v. United States (1943) and Korematsu v. United States (1944), Fahy suppressed and falsified critical evidence from military and intelligence agencies - including reports from the FBI, FCC, and Office of Naval Intelligence - that found Japanese Americans posed no security threat. The suppressed evidence included the Ringle Report, which concluded that the vast majority of Japanese Americans were loyal to the United States. Fahy presented the government\'s case as one of military necessity while knowingly concealing evidence that contradicted that claim. His misconduct was not fully revealed until the 1980s when Peter Irons discovered the suppressed documents, leading to the vacating of Fred Korematsu\'s conviction through coram nobis proceedings in 1983.',
     birthDate: 'August 13, 1892',
     birthPlace: 'Rome, Georgia, USA',
     deathDate: 'September 17, 1979',
@@ -40933,7 +40933,7 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'William Westmoreland', relationship: 'Predecessor as MACV commander in Vietnam', href: '/entities/individuals/william-westmoreland' },
     ],
     controversies: [
-      'CAMBODIA BOMBING: Oversaw Operation Menu—secret bombing of Cambodia that killed tens of thousands of civilians',
+      'CAMBODIA BOMBING: Oversaw Operation Menu - secret bombing of Cambodia that killed tens of thousands of civilians',
       'CAMBODIA INVASION: Commanded U.S. forces during 1970 incursion into Cambodia, expanding the war',
       'PHOENIX PROGRAM: Continued CIA-military assassination program that killed thousands of suspected Viet Cong',
       'CIVILIAN CASUALTIES: Military operations under his command continued to cause significant Vietnamese civilian deaths',
@@ -40971,7 +40971,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Air Force General, Architect of Strategic Firebombing Campaigns',
     role: 'U.S. Air Force general who ordered the firebombing of Japanese cities killing hundreds of thousands of civilians',
     riskLevel: 'critical',
-    description: 'Curtis LeMay was a U.S. Air Force general who planned and executed the most destructive aerial bombing campaigns in history. As commander of the XXI Bomber Command in the Pacific during World War II, LeMay ordered the switch from high-altitude precision bombing to low-altitude incendiary (firebombing) attacks on Japanese cities. The firebombing of Tokyo on March 9-10, 1945 (Operation Meetinghouse) killed an estimated 100,000 civilians in a single night—more than either atomic bombing—and destroyed 16 square miles of the city. LeMay\'s campaign ultimately firebombed 67 Japanese cities, killing an estimated 330,000-900,000 Japanese civilians and leaving millions homeless. LeMay himself acknowledged that had the U.S. lost the war, he would have been tried as a war criminal. He later headed Strategic Air Command during the Cold War, advocated for nuclear first strikes against the Soviet Union and China, and ran as George Wallace\'s vice presidential candidate on a segregationist ticket in 1968.',
+    description: 'Curtis LeMay was a U.S. Air Force general who planned and executed the most destructive aerial bombing campaigns in history. As commander of the XXI Bomber Command in the Pacific during World War II, LeMay ordered the switch from high-altitude precision bombing to low-altitude incendiary (firebombing) attacks on Japanese cities. The firebombing of Tokyo on March 9-10, 1945 (Operation Meetinghouse) killed an estimated 100,000 civilians in a single night - more than either atomic bombing - and destroyed 16 square miles of the city. LeMay\'s campaign ultimately firebombed 67 Japanese cities, killing an estimated 330,000-900,000 Japanese civilians and leaving millions homeless. LeMay himself acknowledged that had the U.S. lost the war, he would have been tried as a war criminal. He later headed Strategic Air Command during the Cold War, advocated for nuclear first strikes against the Soviet Union and China, and ran as George Wallace\'s vice presidential candidate on a segregationist ticket in 1968.',
     birthDate: 'November 15, 1906',
     birthPlace: 'Columbus, Ohio, USA',
     deathDate: 'October 1, 1990',
@@ -41280,10 +41280,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'albert-woodfox': {
     name: 'Albert Woodfox',
-    title: 'Angola 3 member who spent 43 years in solitary confinement at Louisiana State Penitentiary — longest in U.S. history',
-    role: 'Angola 3 member who spent 43 years in solitary confinement at Louisiana State Penitentiary — longest in U.S. history',
+    title: 'Angola 3 member who spent 43 years in solitary confinement at Louisiana State Penitentiary  -  longest in U.S. history',
+    role: 'Angola 3 member who spent 43 years in solitary confinement at Louisiana State Penitentiary  -  longest in U.S. history',
     riskLevel: 'high',
-    description: 'Albert Woodfox is documented in ArkHive investigations for their role as Angola 3 member who spent 43 years in solitary confinement at Louisiana State Penitentiary — longest in U.S. history.',
+    description: 'Albert Woodfox is documented in ArkHive investigations for their role as Angola 3 member who spent 43 years in solitary confinement at Louisiana State Penitentiary  -  longest in U.S. history.',
     education: [],
     affiliations: [],
     controversies: [
@@ -41296,10 +41296,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'aldo-moro': {
     name: 'Aldo Moro',
-    title: 'Italian PM kidnapped and murdered — Gladio linked to failed rescue',
-    role: 'Italian PM kidnapped and murdered — Gladio linked to failed rescue',
+    title: 'Italian PM kidnapped and murdered  -  Gladio linked to failed rescue',
+    role: 'Italian PM kidnapped and murdered  -  Gladio linked to failed rescue',
     riskLevel: 'high',
-    description: 'Aldo Moro is documented in ArkHive investigations for their role as Italian PM kidnapped and murdered — Gladio linked to failed rescue.',
+    description: 'Aldo Moro is documented in ArkHive investigations for their role as Italian PM kidnapped and murdered  -  Gladio linked to failed rescue.',
     education: [],
     affiliations: [],
     controversies: [
@@ -41425,10 +41425,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'alvin-young': {
     name: 'Alvin Young',
-    title: 'Air Force scientist and Agent Orange consultant — accused of minimizing health risks',
-    role: 'Air Force scientist and Agent Orange consultant — accused of minimizing health risks',
+    title: 'Air Force scientist and Agent Orange consultant  -  accused of minimizing health risks',
+    role: 'Air Force scientist and Agent Orange consultant  -  accused of minimizing health risks',
     riskLevel: 'high',
-    description: 'Alvin Young is documented in ArkHive investigations for their role as Air Force scientist and Agent Orange consultant — accused of minimizing health risks.',
+    description: 'Alvin Young is documented in ArkHive investigations for their role as Air Force scientist and Agent Orange consultant  -  accused of minimizing health risks.',
     education: [],
     affiliations: [],
     controversies: [
@@ -41843,10 +41843,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'becky-barr': {
     name: 'Becky Barr',
-    title: 'Emergency room patient charged $18,000 for a broken arm — became symbol of surprise billing crisis',
-    role: 'Emergency room patient charged $18,000 for a broken arm — became symbol of surprise billing crisis',
+    title: 'Emergency room patient charged $18,000 for a broken arm  -  became symbol of surprise billing crisis',
+    role: 'Emergency room patient charged $18,000 for a broken arm  -  became symbol of surprise billing crisis',
     riskLevel: 'high',
-    description: 'Becky Barr is documented in ArkHive investigations for their role as Emergency room patient charged $18,000 for a broken arm — became symbol of surprise billing crisis.',
+    description: 'Becky Barr is documented in ArkHive investigations for their role as Emergency room patient charged $18,000 for a broken arm  -  became symbol of surprise billing crisis.',
     education: [],
     affiliations: [],
     controversies: [
@@ -42326,10 +42326,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'c-sidney-carlton': {
     name: 'C. Sidney Carlton',
-    title: 'Defense attorney for Bryant and Milam — appealed to racial prejudice',
-    role: 'Defense attorney for Bryant and Milam — appealed to racial prejudice',
+    title: 'Defense attorney for Bryant and Milam  -  appealed to racial prejudice',
+    role: 'Defense attorney for Bryant and Milam  -  appealed to racial prejudice',
     riskLevel: 'high',
-    description: 'C. Sidney Carlton is documented in ArkHive investigations for their role as Defense attorney for Bryant and Milam — appealed to racial prejudice.',
+    description: 'C. Sidney Carlton is documented in ArkHive investigations for their role as Defense attorney for Bryant and Milam  -  appealed to racial prejudice.',
     education: [],
     affiliations: [],
     controversies: [
@@ -42423,10 +42423,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'carolyn-bryant': {
     name: 'Carolyn Bryant Donham',
-    title: 'White woman who falsely accused Till — admitted lying in 2017',
-    role: 'White woman who falsely accused Till — admitted lying in 2017',
+    title: 'White woman who falsely accused Till  -  admitted lying in 2017',
+    role: 'White woman who falsely accused Till  -  admitted lying in 2017',
     riskLevel: 'high',
-    description: 'Carolyn Bryant Donham is documented in ArkHive investigations for their role as White woman who falsely accused Till — admitted lying in 2017.',
+    description: 'Carolyn Bryant Donham is documented in ArkHive investigations for their role as White woman who falsely accused Till  -  admitted lying in 2017.',
     education: [],
     affiliations: [],
     controversies: [
@@ -42439,10 +42439,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'carrie-buck': {
     name: 'Carrie Buck',
-    title: 'Woman forcibly sterilized in Virginia — subject of Buck v. Bell Supreme Court case',
-    role: 'Woman forcibly sterilized in Virginia — subject of Buck v. Bell Supreme Court case',
+    title: 'Woman forcibly sterilized in Virginia  -  subject of Buck v. Bell Supreme Court case',
+    role: 'Woman forcibly sterilized in Virginia  -  subject of Buck v. Bell Supreme Court case',
     riskLevel: 'high',
-    description: 'Carrie Buck is documented in ArkHive investigations for their role as Woman forcibly sterilized in Virginia — subject of Buck v. Bell Supreme Court case.',
+    description: 'Carrie Buck is documented in ArkHive investigations for their role as Woman forcibly sterilized in Virginia  -  subject of Buck v. Bell Supreme Court case.',
     education: [],
     affiliations: [],
     controversies: [
@@ -42487,10 +42487,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'charles-davenport': {
     name: 'Charles Davenport',
-    title: 'Founded Eugenics Record Office at Cold Spring Harbor — architect of American eugenics',
-    role: 'Founded Eugenics Record Office at Cold Spring Harbor — architect of American eugenics',
+    title: 'Founded Eugenics Record Office at Cold Spring Harbor  -  architect of American eugenics',
+    role: 'Founded Eugenics Record Office at Cold Spring Harbor  -  architect of American eugenics',
     riskLevel: 'high',
-    description: 'Charles Davenport is documented in ArkHive investigations for their role as Founded Eugenics Record Office at Cold Spring Harbor — architect of American eugenics.',
+    description: 'Charles Davenport is documented in ArkHive investigations for their role as Founded Eugenics Record Office at Cold Spring Harbor  -  architect of American eugenics.',
     education: [],
     affiliations: [],
     controversies: [
@@ -42986,10 +42986,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'curveball': {
     name: 'Rafid Ahmed Alwan al-Janabi (Curveball)',
-    title: 'Iraqi defector whose fabricated claims about mobile biological weapons labs became the centerpiece of the WMD case — German intelligence warned he was unreliable',
-    role: 'Iraqi defector whose fabricated claims about mobile biological weapons labs became the centerpiece of the WMD case — German intelligence warned he was unreliable',
+    title: 'Iraqi defector whose fabricated claims about mobile biological weapons labs became the centerpiece of the WMD case  -  German intelligence warned he was unreliable',
+    role: 'Iraqi defector whose fabricated claims about mobile biological weapons labs became the centerpiece of the WMD case  -  German intelligence warned he was unreliable',
     riskLevel: 'high',
-    description: 'Rafid Ahmed Alwan al-Janabi (Curveball) is documented in ArkHive investigations for their role as Iraqi defector whose fabricated claims about mobile biological weapons labs became the centerpiece of the WMD case — German intelligence warned he was unreliable.',
+    description: 'Rafid Ahmed Alwan al-Janabi (Curveball) is documented in ArkHive investigations for their role as Iraqi defector whose fabricated claims about mobile biological weapons labs became the centerpiece of the WMD case  -  German intelligence warned he was unreliable.',
     education: [],
     affiliations: [],
     controversies: [
@@ -43774,10 +43774,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'don-blankenship': {
     name: 'Don Blankenship',
-    title: 'Massey Energy CEO — Ignored safety warnings before Upper Big Branch mine explosion killed 29',
-    role: 'Massey Energy CEO — Ignored safety warnings before Upper Big Branch mine explosion killed 29',
+    title: 'Massey Energy CEO  -  Ignored safety warnings before Upper Big Branch mine explosion killed 29',
+    role: 'Massey Energy CEO  -  Ignored safety warnings before Upper Big Branch mine explosion killed 29',
     riskLevel: 'high',
-    description: 'Don Blankenship is documented in ArkHive investigations for their role as Massey Energy CEO — Ignored safety warnings before Upper Big Branch mine explosion killed 29.',
+    description: 'Don Blankenship is documented in ArkHive investigations for their role as Massey Energy CEO  -  Ignored safety warnings before Upper Big Branch mine explosion killed 29.',
     education: [],
     affiliations: [],
     controversies: [
@@ -43886,10 +43886,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'dw-griffith': {
     name: 'D.W. Griffith',
-    title: 'Director of Birth of a Nation — film inspired racial violence and sundown town creation across America',
-    role: 'Director of Birth of a Nation — film inspired racial violence and sundown town creation across America',
+    title: 'Director of Birth of a Nation  -  film inspired racial violence and sundown town creation across America',
+    role: 'Director of Birth of a Nation  -  film inspired racial violence and sundown town creation across America',
     riskLevel: 'high',
-    description: 'D.W. Griffith is documented in ArkHive investigations for their role as Director of Birth of a Nation — film inspired racial violence and sundown town creation across America.',
+    description: 'D.W. Griffith is documented in ArkHive investigations for their role as Director of Birth of a Nation  -  film inspired racial violence and sundown town creation across America.',
     education: [],
     affiliations: [],
     controversies: [
@@ -44110,10 +44110,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'efrain-rios-montt': {
     name: 'Efra\u00EDn R\u00EDos Montt',
-    title: 'Guatemalan dictator (1982-83) who carried out genocide against Maya people — a direct consequence of the 1954 coup',
-    role: 'Guatemalan dictator (1982-83) who carried out genocide against Maya people — a direct consequence of the 1954 coup',
+    title: 'Guatemalan dictator (1982-83) who carried out genocide against Maya people  -  a direct consequence of the 1954 coup',
+    role: 'Guatemalan dictator (1982-83) who carried out genocide against Maya people  -  a direct consequence of the 1954 coup',
     riskLevel: 'high',
-    description: 'Efra\u00EDn R\u00EDos Montt is documented in ArkHive investigations for their role as Guatemalan dictator (1982-83) who carried out genocide against Maya people — a direct consequence of the 1954 coup.',
+    description: 'Efra\u00EDn R\u00EDos Montt is documented in ArkHive investigations for their role as Guatemalan dictator (1982-83) who carried out genocide against Maya people  -  a direct consequence of the 1954 coup.',
     education: [],
     affiliations: [],
     controversies: [
@@ -44144,10 +44144,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'elaine-riddick': {
     name: 'Elaine Riddick',
-    title: 'Sterilized at age 14 in North Carolina — became prominent activist for survivors',
-    role: 'Sterilized at age 14 in North Carolina — became prominent activist for survivors',
+    title: 'Sterilized at age 14 in North Carolina  -  became prominent activist for survivors',
+    role: 'Sterilized at age 14 in North Carolina  -  became prominent activist for survivors',
     riskLevel: 'high',
-    description: 'Elaine Riddick is documented in ArkHive investigations for their role as Sterilized at age 14 in North Carolina — became prominent activist for survivors.',
+    description: 'Elaine Riddick is documented in ArkHive investigations for their role as Sterilized at age 14 in North Carolina  -  became prominent activist for survivors.',
     education: [],
     affiliations: [],
     controversies: [
@@ -44241,10 +44241,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'elmo-zumwalt': {
     name: 'Admiral Elmo Zumwalt Jr.',
-    title: 'Navy commander who ordered Agent Orange spraying — his own son died from exposure',
-    role: 'Navy commander who ordered Agent Orange spraying — his own son died from exposure',
+    title: 'Navy commander who ordered Agent Orange spraying  -  his own son died from exposure',
+    role: 'Navy commander who ordered Agent Orange spraying  -  his own son died from exposure',
     riskLevel: 'high',
-    description: 'Admiral Elmo Zumwalt Jr. is documented in ArkHive investigations for their role as Navy commander who ordered Agent Orange spraying — his own son died from exposure.',
+    description: 'Admiral Elmo Zumwalt Jr. is documented in ArkHive investigations for their role as Navy commander who ordered Agent Orange spraying  -  his own son died from exposure.',
     education: [],
     affiliations: [],
     controversies: [
@@ -44257,10 +44257,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'elmo-zumwalt-iii': {
     name: 'Elmo Zumwalt III',
-    title: 'Navy lieutenant exposed to Agent Orange ordered by his father — died of cancer',
-    role: 'Navy lieutenant exposed to Agent Orange ordered by his father — died of cancer',
+    title: 'Navy lieutenant exposed to Agent Orange ordered by his father  -  died of cancer',
+    role: 'Navy lieutenant exposed to Agent Orange ordered by his father  -  died of cancer',
     riskLevel: 'high',
-    description: 'Elmo Zumwalt III is documented in ArkHive investigations for their role as Navy lieutenant exposed to Agent Orange ordered by his father — died of cancer.',
+    description: 'Elmo Zumwalt III is documented in ArkHive investigations for their role as Navy lieutenant exposed to Agent Orange ordered by his father  -  died of cancer.',
     education: [],
     affiliations: [],
     controversies: [
@@ -44273,10 +44273,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'emilio-massera': {
     name: 'Emilio Eduardo Massera',
-    title: 'Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School) — the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen',
-    role: 'Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School) — the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen',
+    title: 'Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School)  -  the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen',
+    role: 'Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School)  -  the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen',
     riskLevel: 'high',
-    description: 'Emilio Eduardo Massera is documented in ArkHive investigations for their role as Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School) — the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen.',
+    description: 'Emilio Eduardo Massera is documented in ArkHive investigations for their role as Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School)  -  the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen.',
     education: [],
     affiliations: [],
     controversies: [
@@ -44807,10 +44807,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'george-romney': {
     name: 'George Romney',
-    title: 'HUD Secretary who tried to enforce fair housing — overruled by Nixon',
-    role: 'HUD Secretary who tried to enforce fair housing — overruled by Nixon',
+    title: 'HUD Secretary who tried to enforce fair housing  -  overruled by Nixon',
+    role: 'HUD Secretary who tried to enforce fair housing  -  overruled by Nixon',
     riskLevel: 'high',
-    description: 'George Romney is documented in ArkHive investigations for their role as HUD Secretary who tried to enforce fair housing — overruled by Nixon.',
+    description: 'George Romney is documented in ArkHive investigations for their role as HUD Secretary who tried to enforce fair housing  -  overruled by Nixon.',
     education: [],
     affiliations: [],
     controversies: [
@@ -44840,10 +44840,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'george-stinney-jr': {
     name: 'George Stinney Jr.',
-    title: 'Youngest person executed in the U.S. in the 20th century — 14-year-old Black boy executed in South Carolina in 1944',
-    role: 'Youngest person executed in the U.S. in the 20th century — 14-year-old Black boy executed in South Carolina in 1944',
+    title: 'Youngest person executed in the U.S. in the 20th century  -  14-year-old Black boy executed in South Carolina in 1944',
+    role: 'Youngest person executed in the U.S. in the 20th century  -  14-year-old Black boy executed in South Carolina in 1944',
     riskLevel: 'high',
-    description: 'George Stinney Jr. is documented in ArkHive investigations for their role as Youngest person executed in the U.S. in the 20th century — 14-year-old Black boy executed in South Carolina in 1944.',
+    description: 'George Stinney Jr. is documented in ArkHive investigations for their role as Youngest person executed in the U.S. in the 20th century  -  14-year-old Black boy executed in South Carolina in 1944.',
     education: [],
     affiliations: [],
     controversies: [
@@ -45208,10 +45208,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'henry-dawes': {
     name: 'Henry Dawes',
-    title: 'U.S. Senator and author of the Dawes Act (1887), which dissolved communal tribal landholdings and redistributed them as individual allotments. The Act resulted in the loss of approximately 90 million acres — two-thirds of all remaining tribal land — to white settlers and speculators.',
-    role: 'U.S. Senator and author of the Dawes Act (1887), which dissolved communal tribal landholdings and redistributed them as individual allotments. The Act resulted in the loss of approximately 90 million acres — two-thirds of all remaining tribal land — to white settlers and speculators.',
+    title: 'U.S. Senator and author of the Dawes Act (1887), which dissolved communal tribal landholdings and redistributed them as individual allotments. The Act resulted in the loss of approximately 90 million acres  -  two-thirds of all remaining tribal land  -  to white settlers and speculators.',
+    role: 'U.S. Senator and author of the Dawes Act (1887), which dissolved communal tribal landholdings and redistributed them as individual allotments. The Act resulted in the loss of approximately 90 million acres  -  two-thirds of all remaining tribal land  -  to white settlers and speculators.',
     riskLevel: 'high',
-    description: 'Henry Dawes is documented in ArkHive investigations for their role as U.S. Senator and author of the Dawes Act (1887), which dissolved communal tribal landholdings and redistributed them as individual allotments. The Act resulted in the loss of approximately 90 million acres — two-thirds of all remaining tribal land — to white settlers and speculators..',
+    description: 'Henry Dawes is documented in ArkHive investigations for their role as U.S. Senator and author of the Dawes Act (1887), which dissolved communal tribal landholdings and redistributed them as individual allotments. The Act resulted in the loss of approximately 90 million acres  -  two-thirds of all remaining tribal land  -  to white settlers and speculators..',
     education: [],
     affiliations: [],
     controversies: [
@@ -45288,10 +45288,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'herbert-needleman': {
     name: 'Herbert Needleman',
-    title: 'Researcher who proved low-level lead exposure harmed children\'s IQ — industry tried to destroy his career',
-    role: 'Researcher who proved low-level lead exposure harmed children\'s IQ — industry tried to destroy his career',
+    title: 'Researcher who proved low-level lead exposure harmed children\'s IQ  -  industry tried to destroy his career',
+    role: 'Researcher who proved low-level lead exposure harmed children\'s IQ  -  industry tried to destroy his career',
     riskLevel: 'high',
-    description: 'Herbert Needleman is documented in ArkHive investigations for their role as Researcher who proved low-level lead exposure harmed children\'s IQ — industry tried to destroy his career.',
+    description: 'Herbert Needleman is documented in ArkHive investigations for their role as Researcher who proved low-level lead exposure harmed children\'s IQ  -  industry tried to destroy his career.',
     education: [],
     affiliations: [],
     controversies: [
@@ -45432,10 +45432,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'hugh-thompson-jr': {
     name: 'Hugh Thompson Jr.',
-    title: 'Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and fleeing civilians, ordering his crew to fire on U.S. troops if they continued killing. He was initially vilified and received death threats — not recognized as a hero until 30 years later.',
-    role: 'Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and fleeing civilians, ordering his crew to fire on U.S. troops if they continued killing. He was initially vilified and received death threats — not recognized as a hero until 30 years later.',
+    title: 'Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and fleeing civilians, ordering his crew to fire on U.S. troops if they continued killing. He was initially vilified and received death threats  -  not recognized as a hero until 30 years later.',
+    role: 'Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and fleeing civilians, ordering his crew to fire on U.S. troops if they continued killing. He was initially vilified and received death threats  -  not recognized as a hero until 30 years later.',
     riskLevel: 'high',
-    description: 'Hugh Thompson Jr. is documented in ArkHive investigations for their role as Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and fleeing civilians, ordering his crew to fire on U.S. troops if they continued killing. He was initially vilified and received death threats — not recognized as a hero until 30 years later..',
+    description: 'Hugh Thompson Jr. is documented in ArkHive investigations for their role as Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and fleeing civilians, ordering his crew to fire on U.S. troops if they continued killing. He was initially vilified and received death threats  -  not recognized as a hero until 30 years later..',
     education: [],
     affiliations: [],
     controversies: [
@@ -45628,10 +45628,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'jaime-zapata': {
     name: 'Jaime Zapata',
-    title: 'ICE Agent murdered in Mexico — weapons linked to similar operations',
-    role: 'ICE Agent murdered in Mexico — weapons linked to similar operations',
+    title: 'ICE Agent murdered in Mexico  -  weapons linked to similar operations',
+    role: 'ICE Agent murdered in Mexico  -  weapons linked to similar operations',
     riskLevel: 'high',
-    description: 'Jaime Zapata is documented in ArkHive investigations for their role as ICE Agent murdered in Mexico — weapons linked to similar operations.',
+    description: 'Jaime Zapata is documented in ArkHive investigations for their role as ICE Agent murdered in Mexico  -  weapons linked to similar operations.',
     education: [],
     affiliations: [],
     controversies: [
@@ -45757,10 +45757,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'james-forsyth': {
     name: 'James Forsyth',
-    title: 'U.S. Army Colonel. Commanded the 7th Cavalry at the Wounded Knee Massacre on December 29, 1890, where between 250 and 300 Lakota Sioux — mostly unarmed women, children, and elderly — were killed. Twenty soldiers received the Medal of Honor for their actions.',
-    role: 'U.S. Army Colonel. Commanded the 7th Cavalry at the Wounded Knee Massacre on December 29, 1890, where between 250 and 300 Lakota Sioux — mostly unarmed women, children, and elderly — were killed. Twenty soldiers received the Medal of Honor for their actions.',
+    title: 'U.S. Army Colonel. Commanded the 7th Cavalry at the Wounded Knee Massacre on December 29, 1890, where between 250 and 300 Lakota Sioux  -  mostly unarmed women, children, and elderly  -  were killed. Twenty soldiers received the Medal of Honor for their actions.',
+    role: 'U.S. Army Colonel. Commanded the 7th Cavalry at the Wounded Knee Massacre on December 29, 1890, where between 250 and 300 Lakota Sioux  -  mostly unarmed women, children, and elderly  -  were killed. Twenty soldiers received the Medal of Honor for their actions.',
     riskLevel: 'high',
-    description: 'James Forsyth is documented in ArkHive investigations for their role as U.S. Army Colonel. Commanded the 7th Cavalry at the Wounded Knee Massacre on December 29, 1890, where between 250 and 300 Lakota Sioux — mostly unarmed women, children, and elderly — were killed. Twenty soldiers received the Medal of Honor for their actions..',
+    description: 'James Forsyth is documented in ArkHive investigations for their role as U.S. Army Colonel. Commanded the 7th Cavalry at the Wounded Knee Massacre on December 29, 1890, where between 250 and 300 Lakota Sioux  -  mostly unarmed women, children, and elderly  -  were killed. Twenty soldiers received the Medal of Honor for their actions..',
     education: [],
     affiliations: [],
     controversies: [
@@ -45805,10 +45805,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'james-loewen': {
     name: 'James Loewen',
-    title: 'Sociologist who documented 10,000+ sundown towns in America — author of Sundown Towns',
-    role: 'Sociologist who documented 10,000+ sundown towns in America — author of Sundown Towns',
+    title: 'Sociologist who documented 10,000+ sundown towns in America  -  author of Sundown Towns',
+    role: 'Sociologist who documented 10,000+ sundown towns in America  -  author of Sundown Towns',
     riskLevel: 'high',
-    description: 'James Loewen is documented in ArkHive investigations for their role as Sociologist who documented 10,000+ sundown towns in America — author of Sundown Towns.',
+    description: 'James Loewen is documented in ArkHive investigations for their role as Sociologist who documented 10,000+ sundown towns in America  -  author of Sundown Towns.',
     education: [],
     affiliations: [],
     controversies: [
@@ -45901,10 +45901,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'janis-karpinski': {
     name: 'Brig. Gen. Janis Karpinski',
-    title: 'Commander of the 800th Military Police Brigade responsible for Abu Ghraib. Demoted from Brigadier General to Colonel — the only officer to face any consequence. She maintained that military intelligence and CIA officers directed the abuse, and that she was scapegoated to protect superiors.',
-    role: 'Commander of the 800th Military Police Brigade responsible for Abu Ghraib. Demoted from Brigadier General to Colonel — the only officer to face any consequence. She maintained that military intelligence and CIA officers directed the abuse, and that she was scapegoated to protect superiors.',
+    title: 'Commander of the 800th Military Police Brigade responsible for Abu Ghraib. Demoted from Brigadier General to Colonel  -  the only officer to face any consequence. She maintained that military intelligence and CIA officers directed the abuse, and that she was scapegoated to protect superiors.',
+    role: 'Commander of the 800th Military Police Brigade responsible for Abu Ghraib. Demoted from Brigadier General to Colonel  -  the only officer to face any consequence. She maintained that military intelligence and CIA officers directed the abuse, and that she was scapegoated to protect superiors.',
     riskLevel: 'high',
-    description: 'Brig. Gen. Janis Karpinski is documented in ArkHive investigations for their role as Commander of the 800th Military Police Brigade responsible for Abu Ghraib. Demoted from Brigadier General to Colonel — the only officer to face any consequence. She maintained that military intelligence and CIA officers directed the abuse, and that she was scapegoated to protect superiors..',
+    description: 'Brig. Gen. Janis Karpinski is documented in ArkHive investigations for their role as Commander of the 800th Military Police Brigade responsible for Abu Ghraib. Demoted from Brigadier General to Colonel  -  the only officer to face any consequence. She maintained that military intelligence and CIA officers directed the abuse, and that she was scapegoated to protect superiors..',
     education: [],
     affiliations: [],
     controversies: [
@@ -46255,10 +46255,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'jesse-washington': {
     name: 'Jesse Washington',
-    title: '17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000 — known as Waco Horror',
-    role: '17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000 — known as Waco Horror',
+    title: '17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000  -  known as Waco Horror',
+    role: '17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000  -  known as Waco Horror',
     riskLevel: 'high',
-    description: 'Jesse Washington is documented in ArkHive investigations for their role as 17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000 — known as Waco Horror.',
+    description: 'Jesse Washington is documented in ArkHive investigations for their role as 17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000  -  known as Waco Horror.',
     education: [],
     affiliations: [],
     controversies: [
@@ -46415,10 +46415,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'john-chivington': {
     name: 'John Chivington',
-    title: 'U.S. Army Colonel and Methodist minister. Commanded the Sand Creek Massacre on November 29, 1864, ordering troops to attack a peaceful Cheyenne and Arapaho camp, killing approximately 230 people — mostly women, children, and elderly. Troops mutilated victims\' bodies as trophies.',
-    role: 'U.S. Army Colonel and Methodist minister. Commanded the Sand Creek Massacre on November 29, 1864, ordering troops to attack a peaceful Cheyenne and Arapaho camp, killing approximately 230 people — mostly women, children, and elderly. Troops mutilated victims\' bodies as trophies.',
+    title: 'U.S. Army Colonel and Methodist minister. Commanded the Sand Creek Massacre on November 29, 1864, ordering troops to attack a peaceful Cheyenne and Arapaho camp, killing approximately 230 people  -  mostly women, children, and elderly. Troops mutilated victims\' bodies as trophies.',
+    role: 'U.S. Army Colonel and Methodist minister. Commanded the Sand Creek Massacre on November 29, 1864, ordering troops to attack a peaceful Cheyenne and Arapaho camp, killing approximately 230 people  -  mostly women, children, and elderly. Troops mutilated victims\' bodies as trophies.',
     riskLevel: 'high',
-    description: 'John Chivington is documented in ArkHive investigations for their role as U.S. Army Colonel and Methodist minister. Commanded the Sand Creek Massacre on November 29, 1864, ordering troops to attack a peaceful Cheyenne and Arapaho camp, killing approximately 230 people — mostly women, children, and elderly. Troops mutilated victims\' bodies as trophies..',
+    description: 'John Chivington is documented in ArkHive investigations for their role as U.S. Army Colonel and Methodist minister. Commanded the Sand Creek Massacre on November 29, 1864, ordering troops to attack a peaceful Cheyenne and Arapaho camp, killing approximately 230 people  -  mostly women, children, and elderly. Troops mutilated victims\' bodies as trophies..',
     education: [],
     affiliations: [],
     controversies: [
@@ -46591,10 +46591,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'john-kiriakou': {
     name: 'John Kiriakou',
-    title: 'CIA officer who became the first to publicly confirm waterboarding; prosecuted and imprisoned for 30 months — the only person jailed in connection with the torture program, for revealing it',
-    role: 'CIA officer who became the first to publicly confirm waterboarding; prosecuted and imprisoned for 30 months — the only person jailed in connection with the torture program, for revealing it',
+    title: 'CIA officer who became the first to publicly confirm waterboarding; prosecuted and imprisoned for 30 months  -  the only person jailed in connection with the torture program, for revealing it',
+    role: 'CIA officer who became the first to publicly confirm waterboarding; prosecuted and imprisoned for 30 months  -  the only person jailed in connection with the torture program, for revealing it',
     riskLevel: 'high',
-    description: 'John Kiriakou is documented in ArkHive investigations for their role as CIA officer who became the first to publicly confirm waterboarding; prosecuted and imprisoned for 30 months — the only person jailed in connection with the torture program, for revealing it.',
+    description: 'John Kiriakou is documented in ArkHive investigations for their role as CIA officer who became the first to publicly confirm waterboarding; prosecuted and imprisoned for 30 months  -  the only person jailed in connection with the torture program, for revealing it.',
     education: [],
     affiliations: [],
     controversies: [
@@ -46688,10 +46688,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'john-sperling': {
     name: 'John Sperling',
-    title: 'Founder of University of Phoenix — largest for-profit college in US; pioneered predatory enrollment practices',
-    role: 'Founder of University of Phoenix — largest for-profit college in US; pioneered predatory enrollment practices',
+    title: 'Founder of University of Phoenix  -  largest for-profit college in US; pioneered predatory enrollment practices',
+    role: 'Founder of University of Phoenix  -  largest for-profit college in US; pioneered predatory enrollment practices',
     riskLevel: 'high',
-    description: 'John Sperling is documented in ArkHive investigations for their role as Founder of University of Phoenix — largest for-profit college in US; pioneered predatory enrollment practices.',
+    description: 'John Sperling is documented in ArkHive investigations for their role as Founder of University of Phoenix  -  largest for-profit college in US; pioneered predatory enrollment practices.',
     education: [],
     affiliations: [],
     controversies: [
@@ -47024,10 +47024,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'jw-milam': {
     name: 'J.W. Milam',
-    title: 'Roy Bryant\'s half-brother who participated in kidnapping and murder — acquitted',
-    role: 'Roy Bryant\'s half-brother who participated in kidnapping and murder — acquitted',
+    title: 'Roy Bryant\'s half-brother who participated in kidnapping and murder  -  acquitted',
+    role: 'Roy Bryant\'s half-brother who participated in kidnapping and murder  -  acquitted',
     riskLevel: 'high',
-    description: 'J.W. Milam is documented in ArkHive investigations for their role as Roy Bryant\'s half-brother who participated in kidnapping and murder — acquitted.',
+    description: 'J.W. Milam is documented in ArkHive investigations for their role as Roy Bryant\'s half-brother who participated in kidnapping and murder  -  acquitted.',
     education: [],
     affiliations: [],
     controversies: [
@@ -47089,10 +47089,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'karen-lynch': {
     name: 'Karen Lynch',
-    title: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy — a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
-    role: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy — a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
+    title: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy  -  a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
+    role: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy  -  a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
     riskLevel: 'high',
-    description: 'Karen Lynch is documented in ArkHive investigations for their role as CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy — a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs..',
+    description: 'Karen Lynch is documented in ArkHive investigations for their role as CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy  -  a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs..',
     education: [],
     affiliations: [],
     controversies: [
@@ -47153,10 +47153,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'katricia-africa': {
     name: 'Katricia Dotson Africa',
-    title: 'MOVE member killed in the bombing — one of 6 adults killed',
-    role: 'MOVE member killed in the bombing — one of 6 adults killed',
+    title: 'MOVE member killed in the bombing  -  one of 6 adults killed',
+    role: 'MOVE member killed in the bombing  -  one of 6 adults killed',
     riskLevel: 'high',
-    description: 'Katricia Dotson Africa is documented in ArkHive investigations for their role as MOVE member killed in the bombing — one of 6 adults killed.',
+    description: 'Katricia Dotson Africa is documented in ArkHive investigations for their role as MOVE member killed in the bombing  -  one of 6 adults killed.',
     education: [],
     affiliations: [],
     controversies: [
@@ -47361,10 +47361,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'kit-carson': {
     name: 'Kit Carson',
-    title: 'U.S. Army Colonel. Led the forced removal of the Navajo people during the "Long Walk" of 1864, destroying their homes, livestock, and orchards. Approximately 8,000–9,000 Navajo were force-marched 300 miles to the Bosque Redondo internment camp, where thousands died of disease and starvation.',
-    role: 'U.S. Army Colonel. Led the forced removal of the Navajo people during the "Long Walk" of 1864, destroying their homes, livestock, and orchards. Approximately 8,000–9,000 Navajo were force-marched 300 miles to the Bosque Redondo internment camp, where thousands died of disease and starvation.',
+    title: 'U.S. Army Colonel. Led the forced removal of the Navajo people during the "Long Walk" of 1864, destroying their homes, livestock, and orchards. Approximately 8,000-9,000 Navajo were force-marched 300 miles to the Bosque Redondo internment camp, where thousands died of disease and starvation.',
+    role: 'U.S. Army Colonel. Led the forced removal of the Navajo people during the "Long Walk" of 1864, destroying their homes, livestock, and orchards. Approximately 8,000-9,000 Navajo were force-marched 300 miles to the Bosque Redondo internment camp, where thousands died of disease and starvation.',
     riskLevel: 'high',
-    description: 'Kit Carson is documented in ArkHive investigations for their role as U.S. Army Colonel. Led the forced removal of the Navajo people during the "Long Walk" of 1864, destroying their homes, livestock, and orchards. Approximately 8,000–9,000 Navajo were force-marched 300 miles to the Bosque Redondo internment camp, where thousands died of disease and starvation..',
+    description: 'Kit Carson is documented in ArkHive investigations for their role as U.S. Army Colonel. Led the forced removal of the Navajo people during the "Long Walk" of 1864, destroying their homes, livestock, and orchards. Approximately 8,000-9,000 Navajo were force-marched 300 miles to the Bosque Redondo internment camp, where thousands died of disease and starvation..',
     education: [],
     affiliations: [],
     controversies: [
@@ -47473,10 +47473,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'l-paul-bremer': {
     name: 'L. Paul Bremer',
-    title: 'Head of Coalition Provisional Authority who disbanded the Iraqi army and enacted de-Baathification — decisions widely blamed for fueling the insurgency and rise of ISIS',
-    role: 'Head of Coalition Provisional Authority who disbanded the Iraqi army and enacted de-Baathification — decisions widely blamed for fueling the insurgency and rise of ISIS',
+    title: 'Head of Coalition Provisional Authority who disbanded the Iraqi army and enacted de-Baathification  -  decisions widely blamed for fueling the insurgency and rise of ISIS',
+    role: 'Head of Coalition Provisional Authority who disbanded the Iraqi army and enacted de-Baathification  -  decisions widely blamed for fueling the insurgency and rise of ISIS',
     riskLevel: 'high',
-    description: 'L. Paul Bremer is documented in ArkHive investigations for their role as Head of Coalition Provisional Authority who disbanded the Iraqi army and enacted de-Baathification — decisions widely blamed for fueling the insurgency and rise of ISIS.',
+    description: 'L. Paul Bremer is documented in ArkHive investigations for their role as Head of Coalition Provisional Authority who disbanded the Iraqi army and enacted de-Baathification  -  decisions widely blamed for fueling the insurgency and rise of ISIS.',
     education: [],
     affiliations: [],
     controversies: [
@@ -47505,10 +47505,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'lanny-breuer': {
     name: 'Lanny Breuer',
-    title: 'Assistant AG, Criminal Division — knew about gunwalking, failed to act',
-    role: 'Assistant AG, Criminal Division — knew about gunwalking, failed to act',
+    title: 'Assistant AG, Criminal Division  -  knew about gunwalking, failed to act',
+    role: 'Assistant AG, Criminal Division  -  knew about gunwalking, failed to act',
     riskLevel: 'high',
-    description: 'Lanny Breuer is documented in ArkHive investigations for their role as Assistant AG, Criminal Division — knew about gunwalking, failed to act.',
+    description: 'Lanny Breuer is documented in ArkHive investigations for their role as Assistant AG, Criminal Division  -  knew about gunwalking, failed to act.',
     education: [],
     affiliations: [],
     controversies: [
@@ -47601,10 +47601,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'lee-iacocca': {
     name: 'Lee Iacocca',
-    title: 'Ford President — Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix',
-    role: 'Ford President — Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix',
+    title: 'Ford President  -  Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix',
+    role: 'Ford President  -  Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix',
     riskLevel: 'high',
-    description: 'Lee Iacocca is documented in ArkHive investigations for their role as Ford President — Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix.',
+    description: 'Lee Iacocca is documented in ArkHive investigations for their role as Ford President  -  Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix.',
     education: [],
     affiliations: [],
     controversies: [
@@ -47617,10 +47617,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'lee-raymond': {
     name: 'Lee Raymond',
-    title: 'Exxon CEO (1993–2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it',
-    role: 'Exxon CEO (1993–2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it',
+    title: 'Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it',
+    role: 'Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it',
     riskLevel: 'high',
-    description: 'Lee Raymond is documented in ArkHive investigations for their role as Exxon CEO (1993–2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it.',
+    description: 'Lee Raymond is documented in ArkHive investigations for their role as Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it.',
     education: [],
     affiliations: [],
     controversies: [
@@ -47924,10 +47924,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'lynndie-england': {
     name: 'Lynndie England',
-    title: 'Army Private First Class who appeared in the most iconic Abu Ghraib photographs — pointing at a naked detainee\'s genitals, holding a leash attached to a naked detainee, and posing with the human pyramid. She became the public face of the scandal while those who created the conditions for abuse escaped prosecution.',
-    role: 'Army Private First Class who appeared in the most iconic Abu Ghraib photographs — pointing at a naked detainee\'s genitals, holding a leash attached to a naked detainee, and posing with the human pyramid. She became the public face of the scandal while those who created the conditions for abuse escaped prosecution.',
+    title: 'Army Private First Class who appeared in the most iconic Abu Ghraib photographs  -  pointing at a naked detainee\'s genitals, holding a leash attached to a naked detainee, and posing with the human pyramid. She became the public face of the scandal while those who created the conditions for abuse escaped prosecution.',
+    role: 'Army Private First Class who appeared in the most iconic Abu Ghraib photographs  -  pointing at a naked detainee\'s genitals, holding a leash attached to a naked detainee, and posing with the human pyramid. She became the public face of the scandal while those who created the conditions for abuse escaped prosecution.',
     riskLevel: 'high',
-    description: 'Lynndie England is documented in ArkHive investigations for their role as Army Private First Class who appeared in the most iconic Abu Ghraib photographs — pointing at a naked detainee\'s genitals, holding a leash attached to a naked detainee, and posing with the human pyramid. She became the public face of the scandal while those who created the conditions for abuse escaped prosecution..',
+    description: 'Lynndie England is documented in ArkHive investigations for their role as Army Private First Class who appeared in the most iconic Abu Ghraib photographs  -  pointing at a naked detainee\'s genitals, holding a leash attached to a naked detainee, and posing with the human pyramid. She became the public face of the scandal while those who created the conditions for abuse escaped prosecution..',
     education: [],
     affiliations: [],
     controversies: [
@@ -48261,10 +48261,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'mary-turner': {
     name: 'Mary Turner',
-    title: 'Eight months pregnant when lynched in 1918 Georgia — her unborn child was cut from her body',
-    role: 'Eight months pregnant when lynched in 1918 Georgia — her unborn child was cut from her body',
+    title: 'Eight months pregnant when lynched in 1918 Georgia  -  her unborn child was cut from her body',
+    role: 'Eight months pregnant when lynched in 1918 Georgia  -  her unborn child was cut from her body',
     riskLevel: 'high',
-    description: 'Mary Turner is documented in ArkHive investigations for their role as Eight months pregnant when lynched in 1918 Georgia — her unborn child was cut from her body.',
+    description: 'Mary Turner is documented in ArkHive investigations for their role as Eight months pregnant when lynched in 1918 Georgia  -  her unborn child was cut from her body.',
     education: [],
     affiliations: [],
     controversies: [
@@ -48841,10 +48841,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'nematollah-nassiri': {
     name: 'Nematollah Nassiri',
-    title: 'Iranian colonel who delivered the Shah\'s firman (royal decree) dismissing Mosaddegh on August 15, 1953 — arrested by Mosaddegh\'s guards, triggering the initial failed coup. Later became head of SAVAK (1965-1978), overseeing systematic torture. Executed after the 1979 Revolution',
-    role: 'Iranian colonel who delivered the Shah\'s firman (royal decree) dismissing Mosaddegh on August 15, 1953 — arrested by Mosaddegh\'s guards, triggering the initial failed coup. Later became head of SAVAK (1965-1978), overseeing systematic torture. Executed after the 1979 Revolution',
+    title: 'Iranian colonel who delivered the Shah\'s firman (royal decree) dismissing Mosaddegh on August 15, 1953  -  arrested by Mosaddegh\'s guards, triggering the initial failed coup. Later became head of SAVAK (1965-1978), overseeing systematic torture. Executed after the 1979 Revolution',
+    role: 'Iranian colonel who delivered the Shah\'s firman (royal decree) dismissing Mosaddegh on August 15, 1953  -  arrested by Mosaddegh\'s guards, triggering the initial failed coup. Later became head of SAVAK (1965-1978), overseeing systematic torture. Executed after the 1979 Revolution',
     riskLevel: 'high',
-    description: 'Nematollah Nassiri is documented in ArkHive investigations for their role as Iranian colonel who delivered the Shah\'s firman (royal decree) dismissing Mosaddegh on August 15, 1953 — arrested by Mosaddegh\'s guards, triggering the initial failed coup. Later became head of SAVAK (1965-1978), overseeing systematic torture. Executed after the 1979 Revolution.',
+    description: 'Nematollah Nassiri is documented in ArkHive investigations for their role as Iranian colonel who delivered the Shah\'s firman (royal decree) dismissing Mosaddegh on August 15, 1953  -  arrested by Mosaddegh\'s guards, triggering the initial failed coup. Later became head of SAVAK (1965-1978), overseeing systematic torture. Executed after the 1979 Revolution.',
     education: [],
     affiliations: [],
     controversies: [
@@ -49018,10 +49018,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'orval-faubus': {
     name: 'Orval Faubus',
-    title: 'Arkansas Governor who supported segregation — his hometown Harrison was a sundown town',
-    role: 'Arkansas Governor who supported segregation — his hometown Harrison was a sundown town',
+    title: 'Arkansas Governor who supported segregation  -  his hometown Harrison was a sundown town',
+    role: 'Arkansas Governor who supported segregation  -  his hometown Harrison was a sundown town',
     riskLevel: 'high',
-    description: 'Orval Faubus is documented in ArkHive investigations for their role as Arkansas Governor who supported segregation — his hometown Harrison was a sundown town.',
+    description: 'Orval Faubus is documented in ArkHive investigations for their role as Arkansas Governor who supported segregation  -  his hometown Harrison was a sundown town.',
     education: [],
     affiliations: [],
     controversies: [
@@ -49627,10 +49627,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'rene-schneider': {
     name: 'René Schneider',
-    title: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970 — the Agency provided weapons and $50,000 to the plotters',
-    role: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970 — the Agency provided weapons and $50,000 to the plotters',
+    title: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970  -  the Agency provided weapons and $50,000 to the plotters',
+    role: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970  -  the Agency provided weapons and $50,000 to the plotters',
     riskLevel: 'high',
-    description: 'René Schneider is documented in ArkHive investigations for their role as Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970 — the Agency provided weapons and $50,000 to the plotters.',
+    description: 'René Schneider is documented in ArkHive investigations for their role as Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970  -  the Agency provided weapons and $50,000 to the plotters.',
     education: [],
     affiliations: [],
     controversies: [
@@ -49643,10 +49643,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'ricardo-sanchez': {
     name: 'Lt. Gen. Ricardo Sanchez',
-    title: 'Commander of coalition forces in Iraq who authorized interrogation techniques at Abu Ghraib beyond those approved by the Army Field Manual — including the use of dogs, stress positions, and sleep deprivation. He was never charged.',
-    role: 'Commander of coalition forces in Iraq who authorized interrogation techniques at Abu Ghraib beyond those approved by the Army Field Manual — including the use of dogs, stress positions, and sleep deprivation. He was never charged.',
+    title: 'Commander of coalition forces in Iraq who authorized interrogation techniques at Abu Ghraib beyond those approved by the Army Field Manual  -  including the use of dogs, stress positions, and sleep deprivation. He was never charged.',
+    role: 'Commander of coalition forces in Iraq who authorized interrogation techniques at Abu Ghraib beyond those approved by the Army Field Manual  -  including the use of dogs, stress positions, and sleep deprivation. He was never charged.',
     riskLevel: 'high',
-    description: 'Lt. Gen. Ricardo Sanchez is documented in ArkHive investigations for their role as Commander of coalition forces in Iraq who authorized interrogation techniques at Abu Ghraib beyond those approved by the Army Field Manual — including the use of dogs, stress positions, and sleep deprivation. He was never charged..',
+    description: 'Lt. Gen. Ricardo Sanchez is documented in ArkHive investigations for their role as Commander of coalition forces in Iraq who authorized interrogation techniques at Abu Ghraib beyond those approved by the Army Field Manual  -  including the use of dogs, stress positions, and sleep deprivation. He was never charged..',
     education: [],
     affiliations: [],
     controversies: [
@@ -49691,10 +49691,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'richard-henry-pratt': {
     name: 'Richard Henry Pratt',
-    title: 'U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school system. Coined the phrase "Kill the Indian, save the man" — the guiding philosophy behind forcibly removing over 100,000 Native children from their families to erase their cultures.',
-    role: 'U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school system. Coined the phrase "Kill the Indian, save the man" — the guiding philosophy behind forcibly removing over 100,000 Native children from their families to erase their cultures.',
+    title: 'U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school system. Coined the phrase "Kill the Indian, save the man"  -  the guiding philosophy behind forcibly removing over 100,000 Native children from their families to erase their cultures.',
+    role: 'U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school system. Coined the phrase "Kill the Indian, save the man"  -  the guiding philosophy behind forcibly removing over 100,000 Native children from their families to erase their cultures.',
     riskLevel: 'high',
-    description: 'Richard Henry Pratt is documented in ArkHive investigations for their role as U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school system. Coined the phrase "Kill the Indian, save the man" — the guiding philosophy behind forcibly removing over 100,000 Native children from their families to erase their cultures..',
+    description: 'Richard Henry Pratt is documented in ArkHive investigations for their role as U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school system. Coined the phrase "Kill the Indian, save the man"  -  the guiding philosophy behind forcibly removing over 100,000 Native children from their families to erase their cultures..',
     education: [],
     affiliations: [],
     controversies: [
@@ -49804,10 +49804,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'rj-lehmann': {
     name: 'R.J. Lehmann',
-    title: 'Patient advocates who documented hospital chargemaster pricing — $25 aspirin, $700 saline bags',
-    role: 'Patient advocates who documented hospital chargemaster pricing — $25 aspirin, $700 saline bags',
+    title: 'Patient advocates who documented hospital chargemaster pricing  -  $25 aspirin, $700 saline bags',
+    role: 'Patient advocates who documented hospital chargemaster pricing  -  $25 aspirin, $700 saline bags',
     riskLevel: 'high',
-    description: 'R.J. Lehmann is documented in ArkHive investigations for their role as Patient advocates who documented hospital chargemaster pricing — $25 aspirin, $700 saline bags.',
+    description: 'R.J. Lehmann is documented in ArkHive investigations for their role as Patient advocates who documented hospital chargemaster pricing  -  $25 aspirin, $700 saline bags.',
     education: [],
     affiliations: [],
     controversies: [
@@ -49820,10 +49820,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'rob-bilott': {
     name: 'Rob Bilott',
-    title: 'Attorney — Exposed DuPont\'s PFAS contamination of drinking water in Parkersburg, WV',
-    role: 'Attorney — Exposed DuPont\'s PFAS contamination of drinking water in Parkersburg, WV',
+    title: 'Attorney  -  Exposed DuPont\'s PFAS contamination of drinking water in Parkersburg, WV',
+    role: 'Attorney  -  Exposed DuPont\'s PFAS contamination of drinking water in Parkersburg, WV',
     riskLevel: 'high',
-    description: 'Rob Bilott is documented in ArkHive investigations for their role as Attorney — Exposed DuPont\'s PFAS contamination of drinking water in Parkersburg, WV.',
+    description: 'Rob Bilott is documented in ArkHive investigations for their role as Attorney  -  Exposed DuPont\'s PFAS contamination of drinking water in Parkersburg, WV.',
     education: [],
     affiliations: [],
     controversies: [
@@ -50046,10 +50046,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'robert-scherrer': {
     name: 'Robert Scherrer',
-    title: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network — his reports were largely ignored',
-    role: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network — his reports were largely ignored',
+    title: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network  -  his reports were largely ignored',
+    role: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network  -  his reports were largely ignored',
     riskLevel: 'high',
-    description: 'Robert Scherrer is documented in ArkHive investigations for their role as FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network — his reports were largely ignored.',
+    description: 'Robert Scherrer is documented in ArkHive investigations for their role as FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network  -  his reports were largely ignored.',
     education: [],
     affiliations: [],
     controversies: [
@@ -50110,10 +50110,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'robert-williams': {
     name: 'Robert Williams',
-    title: 'First documented wrongful arrest due to facial recognition — a Black man falsely identified by Detroit PD',
-    role: 'First documented wrongful arrest due to facial recognition — a Black man falsely identified by Detroit PD',
+    title: 'First documented wrongful arrest due to facial recognition  -  a Black man falsely identified by Detroit PD',
+    role: 'First documented wrongful arrest due to facial recognition  -  a Black man falsely identified by Detroit PD',
     riskLevel: 'high',
-    description: 'Robert Williams is documented in ArkHive investigations for their role as First documented wrongful arrest due to facial recognition — a Black man falsely identified by Detroit PD.',
+    description: 'Robert Williams is documented in ArkHive investigations for their role as First documented wrongful arrest due to facial recognition  -  a Black man falsely identified by Detroit PD.',
     education: [],
     affiliations: [],
     controversies: [
@@ -50271,10 +50271,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'roy-bryant': {
     name: 'Roy Bryant',
-    title: 'Store owner who kidnapped and murdered Emmett Till — acquitted by all-white jury',
-    role: 'Store owner who kidnapped and murdered Emmett Till — acquitted by all-white jury',
+    title: 'Store owner who kidnapped and murdered Emmett Till  -  acquitted by all-white jury',
+    role: 'Store owner who kidnapped and murdered Emmett Till  -  acquitted by all-white jury',
     riskLevel: 'high',
-    description: 'Roy Bryant is documented in ArkHive investigations for their role as Store owner who kidnapped and murdered Emmett Till — acquitted by all-white jury.',
+    description: 'Roy Bryant is documented in ArkHive investigations for their role as Store owner who kidnapped and murdered Emmett Till  -  acquitted by all-white jury.',
     education: [],
     affiliations: [],
     controversies: [
@@ -50527,10 +50527,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'sarah-page': {
     name: 'Sarah Page',
-    title: 'White elevator operator — charges against Rowland were dropped, likely a trip/stumble',
-    role: 'White elevator operator — charges against Rowland were dropped, likely a trip/stumble',
+    title: 'White elevator operator  -  charges against Rowland were dropped, likely a trip/stumble',
+    role: 'White elevator operator  -  charges against Rowland were dropped, likely a trip/stumble',
     riskLevel: 'high',
-    description: 'Sarah Page is documented in ArkHive investigations for their role as White elevator operator — charges against Rowland were dropped, likely a trip/stumble.',
+    description: 'Sarah Page is documented in ArkHive investigations for their role as White elevator operator  -  charges against Rowland were dropped, likely a trip/stumble.',
     education: [],
     affiliations: [],
     controversies: [
@@ -50625,10 +50625,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'seymour-hersh': {
     name: 'Seymour Hersh',
-    title: 'Investigative journalist who broke the My Lai massacre story in November 1969, over a year after it occurred. His reporting — based on interviews with participants — forced the Army to acknowledge the atrocity and won the Pulitzer Prize.',
-    role: 'Investigative journalist who broke the My Lai massacre story in November 1969, over a year after it occurred. His reporting — based on interviews with participants — forced the Army to acknowledge the atrocity and won the Pulitzer Prize.',
+    title: 'Investigative journalist who broke the My Lai massacre story in November 1969, over a year after it occurred. His reporting  -  based on interviews with participants  -  forced the Army to acknowledge the atrocity and won the Pulitzer Prize.',
+    role: 'Investigative journalist who broke the My Lai massacre story in November 1969, over a year after it occurred. His reporting  -  based on interviews with participants  -  forced the Army to acknowledge the atrocity and won the Pulitzer Prize.',
     riskLevel: 'high',
-    description: 'Seymour Hersh is documented in ArkHive investigations for their role as Investigative journalist who broke the My Lai massacre story in November 1969, over a year after it occurred. His reporting — based on interviews with participants — forced the Army to acknowledge the atrocity and won the Pulitzer Prize..',
+    description: 'Seymour Hersh is documented in ArkHive investigations for their role as Investigative journalist who broke the My Lai massacre story in November 1969, over a year after it occurred. His reporting  -  based on interviews with participants  -  forced the Army to acknowledge the atrocity and won the Pulitzer Prize..',
     education: [],
     affiliations: [],
     controversies: [
@@ -50689,10 +50689,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'sherron-watkins': {
     name: 'Sherron Watkins',
-    title: 'Enron VP who warned Kenneth Lay about accounting fraud in August 2001 — whistleblower',
-    role: 'Enron VP who warned Kenneth Lay about accounting fraud in August 2001 — whistleblower',
+    title: 'Enron VP who warned Kenneth Lay about accounting fraud in August 2001  -  whistleblower',
+    role: 'Enron VP who warned Kenneth Lay about accounting fraud in August 2001  -  whistleblower',
     riskLevel: 'high',
-    description: 'Sherron Watkins is documented in ArkHive investigations for their role as Enron VP who warned Kenneth Lay about accounting fraud in August 2001 — whistleblower.',
+    description: 'Sherron Watkins is documented in ArkHive investigations for their role as Enron VP who warned Kenneth Lay about accounting fraud in August 2001  -  whistleblower.',
     education: [],
     affiliations: [],
     controversies: [
@@ -51317,10 +51317,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'thomas-midgley': {
     name: 'Thomas Midgley Jr.',
-    title: 'Inventor of tetraethyl lead gasoline additive — knew of its toxicity',
-    role: 'Inventor of tetraethyl lead gasoline additive — knew of its toxicity',
+    title: 'Inventor of tetraethyl lead gasoline additive  -  knew of its toxicity',
+    role: 'Inventor of tetraethyl lead gasoline additive  -  knew of its toxicity',
     riskLevel: 'high',
-    description: 'Thomas Midgley Jr. is documented in ArkHive investigations for their role as Inventor of tetraethyl lead gasoline additive — knew of its toxicity.',
+    description: 'Thomas Midgley Jr. is documented in ArkHive investigations for their role as Inventor of tetraethyl lead gasoline additive  -  knew of its toxicity.',
     education: [],
     affiliations: [],
     controversies: [
@@ -51381,10 +51381,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'thomas-pappas': {
     name: 'Col. Thomas Pappas',
-    title: 'Commander of the 205th Military Intelligence Brigade at Abu Ghraib who approved the use of dogs during interrogation — a technique that directly led to the photographed abuses. Received a fine and letter of reprimand. No criminal charges.',
-    role: 'Commander of the 205th Military Intelligence Brigade at Abu Ghraib who approved the use of dogs during interrogation — a technique that directly led to the photographed abuses. Received a fine and letter of reprimand. No criminal charges.',
+    title: 'Commander of the 205th Military Intelligence Brigade at Abu Ghraib who approved the use of dogs during interrogation  -  a technique that directly led to the photographed abuses. Received a fine and letter of reprimand. No criminal charges.',
+    role: 'Commander of the 205th Military Intelligence Brigade at Abu Ghraib who approved the use of dogs during interrogation  -  a technique that directly led to the photographed abuses. Received a fine and letter of reprimand. No criminal charges.',
     riskLevel: 'high',
-    description: 'Col. Thomas Pappas is documented in ArkHive investigations for their role as Commander of the 205th Military Intelligence Brigade at Abu Ghraib who approved the use of dogs during interrogation — a technique that directly led to the photographed abuses. Received a fine and letter of reprimand. No criminal charges..',
+    description: 'Col. Thomas Pappas is documented in ArkHive investigations for their role as Commander of the 205th Military Intelligence Brigade at Abu Ghraib who approved the use of dogs during interrogation  -  a technique that directly led to the photographed abuses. Received a fine and letter of reprimand. No criminal charges..',
     education: [],
     affiliations: [],
     controversies: [
@@ -51413,10 +51413,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'thomas-silverstein': {
     name: 'Thomas Silverstein',
-    title: 'Federal prisoner held in solitary at ADX Florence for 36 years until his death — longest in federal custody',
-    role: 'Federal prisoner held in solitary at ADX Florence for 36 years until his death — longest in federal custody',
+    title: 'Federal prisoner held in solitary at ADX Florence for 36 years until his death  -  longest in federal custody',
+    role: 'Federal prisoner held in solitary at ADX Florence for 36 years until his death  -  longest in federal custody',
     riskLevel: 'high',
-    description: 'Thomas Silverstein is documented in ArkHive investigations for their role as Federal prisoner held in solitary at ADX Florence for 36 years until his death — longest in federal custody.',
+    description: 'Thomas Silverstein is documented in ArkHive investigations for their role as Federal prisoner held in solitary at ADX Florence for 36 years until his death  -  longest in federal custody.',
     education: [],
     affiliations: [],
     controversies: [
@@ -51429,10 +51429,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'thomas-stephens': {
     name: 'Thomas Stephens',
-    title: 'Johns-Manville CEO — Oversaw decades of asbestos cover-up and worker exposure',
-    role: 'Johns-Manville CEO — Oversaw decades of asbestos cover-up and worker exposure',
+    title: 'Johns-Manville CEO  -  Oversaw decades of asbestos cover-up and worker exposure',
+    role: 'Johns-Manville CEO  -  Oversaw decades of asbestos cover-up and worker exposure',
     riskLevel: 'high',
-    description: 'Thomas Stephens is documented in ArkHive investigations for their role as Johns-Manville CEO — Oversaw decades of asbestos cover-up and worker exposure.',
+    description: 'Thomas Stephens is documented in ArkHive investigations for their role as Johns-Manville CEO  -  Oversaw decades of asbestos cover-up and worker exposure.',
     education: [],
     affiliations: [],
     controversies: [
@@ -51541,10 +51541,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'timothy-mellon': {
     name: 'Timothy Mellon',
-    title: 'Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024 — largest single donation in U.S. history',
-    role: 'Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024 — largest single donation in U.S. history',
+    title: 'Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024  -  largest single donation in U.S. history',
+    role: 'Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024  -  largest single donation in U.S. history',
     riskLevel: 'high',
-    description: 'Timothy Mellon is documented in ArkHive investigations for their role as Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024 — largest single donation in U.S. history.',
+    description: 'Timothy Mellon is documented in ArkHive investigations for their role as Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024  -  largest single donation in U.S. history.',
     education: [],
     affiliations: [],
     controversies: [
@@ -51895,10 +51895,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'warren-anderson': {
     name: 'Warren Anderson',
-    title: 'Union Carbide CEO — Fled India after Bhopal disaster, never extradited',
-    role: 'Union Carbide CEO — Fled India after Bhopal disaster, never extradited',
+    title: 'Union Carbide CEO  -  Fled India after Bhopal disaster, never extradited',
+    role: 'Union Carbide CEO  -  Fled India after Bhopal disaster, never extradited',
     riskLevel: 'high',
-    description: 'Warren Anderson is documented in ArkHive investigations for their role as Union Carbide CEO — Fled India after Bhopal disaster, never extradited.',
+    description: 'Warren Anderson is documented in ArkHive investigations for their role as Union Carbide CEO  -  Fled India after Bhopal disaster, never extradited.',
     education: [],
     affiliations: [],
     controversies: [
@@ -52139,10 +52139,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'william-tecumseh-sherman': {
     name: 'William Tecumseh Sherman',
-    title: 'Commanding General of the U.S. Army (1869–1883). Orchestrated military campaigns to subjugate Plains Indians and explicitly promoted the extermination of buffalo herds to starve Native peoples into submission. Stated the goal was to "act with vindictive earnestness against the Sioux, even to their extermination, men, women, and children."',
-    role: 'Commanding General of the U.S. Army (1869–1883). Orchestrated military campaigns to subjugate Plains Indians and explicitly promoted the extermination of buffalo herds to starve Native peoples into submission. Stated the goal was to "act with vindictive earnestness against the Sioux, even to their extermination, men, women, and children."',
+    title: 'Commanding General of the U.S. Army (1869-1883). Orchestrated military campaigns to subjugate Plains Indians and explicitly promoted the extermination of buffalo herds to starve Native peoples into submission. Stated the goal was to "act with vindictive earnestness against the Sioux, even to their extermination, men, women, and children."',
+    role: 'Commanding General of the U.S. Army (1869-1883). Orchestrated military campaigns to subjugate Plains Indians and explicitly promoted the extermination of buffalo herds to starve Native peoples into submission. Stated the goal was to "act with vindictive earnestness against the Sioux, even to their extermination, men, women, and children."',
     riskLevel: 'high',
-    description: 'William Tecumseh Sherman is documented in ArkHive investigations for their role as Commanding General of the U.S. Army (1869–1883). Orchestrated military campaigns to subjugate Plains Indians and explicitly promoted the extermination of buffalo herds to starve Native peoples into submission. Stated the goal was to "act with vindictive earnestness against the Sioux, even to their extermination, men, women, and children.".',
+    description: 'William Tecumseh Sherman is documented in ArkHive investigations for their role as Commanding General of the U.S. Army (1869-1883). Orchestrated military campaigns to subjugate Plains Indians and explicitly promoted the extermination of buffalo herds to starve Native peoples into submission. Stated the goal was to "act with vindictive earnestness against the Sioux, even to their extermination, men, women, and children.".',
     education: [],
     affiliations: [],
     controversies: [
@@ -52171,10 +52171,10 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'willie-reed': {
     name: 'Willie Reed',
-    title: 'Eyewitness who heard beating and saw Till being loaded into truck — testified at trial',
-    role: 'Eyewitness who heard beating and saw Till being loaded into truck — testified at trial',
+    title: 'Eyewitness who heard beating and saw Till being loaded into truck  -  testified at trial',
+    role: 'Eyewitness who heard beating and saw Till being loaded into truck  -  testified at trial',
     riskLevel: 'high',
-    description: 'Willie Reed is documented in ArkHive investigations for their role as Eyewitness who heard beating and saw Till being loaded into truck — testified at trial.',
+    description: 'Willie Reed is documented in ArkHive investigations for their role as Eyewitness who heard beating and saw Till being loaded into truck  -  testified at trial.',
     education: [],
     affiliations: [],
     controversies: [
@@ -52301,7 +52301,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Fortune magazine journalist who first publicly questioned Enron\'s business model and financial practices',
     role: 'Journalist',
     riskLevel: 'low',
-    description: 'Bethany McLean was the Fortune magazine journalist who wrote the seminal March 2001 article "Is Enron Overpriced?" — the first major media piece to question Enron\'s opaque finances, helping trigger the investigation that exposed the massive fraud.',
+    description: 'Bethany McLean was the Fortune magazine journalist who wrote the seminal March 2001 article "Is Enron Overpriced?"  -  the first major media piece to question Enron\'s opaque finances, helping trigger the investigation that exposed the massive fraud.',
     education: [],
     affiliations: [
       { name: 'Fortune Magazine', role: 'Reporter', type: 'corporation' },
@@ -52414,7 +52414,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Reagan\'s Assistant Secretary of State for African Affairs who implemented \'constructive engagement\' policy with apartheid South Africa',
     role: 'Government Official',
     riskLevel: 'high',
-    description: 'Chester Crocker served as Assistant Secretary of State for African Affairs under Reagan and was the architect of \'constructive engagement\' — the policy of maintaining friendly relations with apartheid South Africa rather than imposing sanctions, effectively providing diplomatic cover for the regime.',
+    description: 'Chester Crocker served as Assistant Secretary of State for African Affairs under Reagan and was the architect of \'constructive engagement\'  -  the policy of maintaining friendly relations with apartheid South Africa rather than imposing sanctions, effectively providing diplomatic cover for the regime.',
     education: [],
     affiliations: [
       { name: 'US Department of State', role: 'Assistant Secretary for African Affairs', type: 'agency' },
@@ -52483,7 +52483,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Former Army Ranger and police trainer who coined "Killology" and promoted warrior mindset in law enforcement',
     role: 'Military Officer',
     riskLevel: 'high',
-    description: 'Dave Grossman is a former Army Ranger and West Point psychology professor who founded "Killology" — a controversial training philosophy that teaches police officers to embrace a warrior mentality. His seminars have been linked to increased police aggression and use of force.',
+    description: 'Dave Grossman is a former Army Ranger and West Point psychology professor who founded "Killology"  -  a controversial training philosophy that teaches police officers to embrace a warrior mentality. His seminars have been linked to increased police aggression and use of force.',
     education: [],
     affiliations: [
       { name: 'Killology Research Group', role: 'Founder and Director', type: 'organization' },
@@ -52805,7 +52805,7 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'francois-duvalier': {
     name: 'François Duvalier',
-    title: '"Papa Doc" — Haitian dictator who ruled through terror, the Tonton Macoutes secret police, and US-backed authoritarianism',
+    title: '"Papa Doc"  -  Haitian dictator who ruled through terror, the Tonton Macoutes secret police, and US-backed authoritarianism',
     role: 'Political Figure',
     riskLevel: 'critical',
     description: 'François "Papa Doc" Duvalier was the dictator of Haiti from 1957 to 1971. He ruled through a brutal secret police force (the Tonton Macoutes), political murders, and a personality cult, while receiving US support as a Cold War anticommunist ally despite widespread human rights abuses.',
@@ -53033,7 +53033,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Investigative journalist who uncovered and published details of Operation Northwoods, the military\'s plan for false-flag attacks',
     role: 'Journalist',
     riskLevel: 'low',
-    description: 'James Bamford is an investigative journalist and author who uncovered and published details of Operation Northwoods — a 1962 proposal by the Joint Chiefs of Staff for false-flag terrorist attacks against US citizens to justify military intervention in Cuba.',
+    description: 'James Bamford is an investigative journalist and author who uncovered and published details of Operation Northwoods  -  a 1962 proposal by the Joint Chiefs of Staff for false-flag terrorist attacks against US citizens to justify military intervention in Cuba.',
     education: [],
     affiliations: [],
     controversies: [
@@ -53058,7 +53058,7 @@ const individualData: Record<string, IndividualProfile> = {
     education: [],
     affiliations: [],
     controversies: [
-      'Convicted assassin of Martin Luther King Jr. — case raised lingering questions about FBI involvement and broader conspiracy',
+      'Convicted assassin of Martin Luther King Jr.  -  case raised lingering questions about FBI involvement and broader conspiracy',
     ],
     relatedInvestigations: [
       { title: 'MLK Assassination & FBI COINTELPRO', slug: 'mlk-assassination', severity: 'critical' },
@@ -53072,7 +53072,7 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'jean-claude-duvalier': {
     name: 'Jean-Claude Duvalier',
-    title: '"Baby Doc" — Haitian dictator who succeeded his father Papa Doc and continued brutal US-backed authoritarian rule',
+    title: '"Baby Doc"  -  Haitian dictator who succeeded his father Papa Doc and continued brutal US-backed authoritarian rule',
     role: 'Political Figure',
     riskLevel: 'critical',
     description: 'Jean-Claude "Baby Doc" Duvalier succeeded his father as dictator of Haiti at age 19, continuing the regime of terror, corruption, and US-backed authoritarian rule from 1971 to 1986. He plundered the Haitian treasury and maintained the Tonton Macoutes secret police.',
@@ -53665,7 +53665,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Chilean Army general who led the "Caravan of Death" executing political prisoners after the 1973 coup',
     role: 'Military Officer',
     riskLevel: 'critical',
-    description: 'Sergio Arellano Stark was a Chilean Army general who led the "Caravan of Death" — a military death squad that traveled through Chile executing political prisoners in the weeks following the September 1973 coup against Salvador Allende.',
+    description: 'Sergio Arellano Stark was a Chilean Army general who led the "Caravan of Death"  -  a military death squad that traveled through Chile executing political prisoners in the weeks following the September 1973 coup against Salvador Allende.',
     education: [],
     affiliations: [
       { name: 'Chilean Army', role: 'Brigadier General', type: 'agency' },
@@ -53975,13 +53975,13 @@ const individualData: Record<string, IndividualProfile> = {
       'Involved in decision-making that led to MOVE bombing destroying 61 homes and killing 11 people',
     ],
     relatedInvestigations: [
-      { title: 'MOVE Bombing — Philadelphia 1985', slug: 'move-bombing', severity: 'critical' },
+      { title: 'MOVE Bombing  -  Philadelphia 1985', slug: 'move-bombing', severity: 'critical' },
     ],
     timeline: [
       { date: '1985', event: 'Oversaw fire response during MOVE bombing that destroyed an entire neighborhood in Philadelphia' },
     ],
     sources: [
-      { title: 'MOVE Bombing — Philadelphia 1985', url: '/investigations/move-bombing' },
+      { title: 'MOVE Bombing  -  Philadelphia 1985', url: '/investigations/move-bombing' },
     ],
   },
   'william-shawcross': {
@@ -54062,7 +54062,7 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'josef-mengele': {
     name: 'Josef Mengele',
-    title: 'Nazi SS Physician — "Angel of Death"',
+    title: 'Nazi SS Physician  -  "Angel of Death"',
     role: 'War Criminal',
     riskLevel: 'critical',
     description: 'Josef Mengele was a Nazi SS physician and war criminal known as the "Angel of Death" who performed horrific pseudo-scientific experiments on prisoners at the Auschwitz concentration camp, including experiments on twins, forced hypothermia, and other tortures. After the war, he fled to South America where he was given sanctuary in Paraguay and later lived in Brazil. Despite international manhunts, he was never brought to justice and died in 1979.',
@@ -54070,8 +54070,8 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'Günzburg, Bavaria, Germany',
     deathDate: 'February 7, 1979',
     education: [
-      'PhD in Anthropology — University of Munich',
-      'Medical Degree — University of Frankfurt',
+      'PhD in Anthropology  -  University of Munich',
+      'Medical Degree  -  University of Frankfurt',
     ],
     aliases: ['Angel of Death', 'Todesengel', 'Dr. Death'],
     affiliations: [
@@ -54123,7 +54123,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '1837', event: 'Inaugurated as 8th President, inherited Indian Removal Act enforcement' },
-      { date: '1838', event: 'Ordered military enforcement of Cherokee removal — the Trail of Tears' },
+      { date: '1838', event: 'Ordered military enforcement of Cherokee removal  -  the Trail of Tears' },
       { date: '1838-1839', event: 'Approximately 4,000 Cherokee died during the forced march westward' },
     ],
     sources: [
@@ -54132,7 +54132,7 @@ const individualData: Record<string, IndividualProfile> = {
   },
   'winfield-scott': {
     name: 'Winfield Scott',
-    title: 'US Army General — Commanded Trail of Tears Removal',
+    title: 'US Army General  -  Commanded Trail of Tears Removal',
     role: 'Military Officer',
     riskLevel: 'high',
     description: 'Winfield Scott was a United States Army general who commanded the military forces that carried out the forced removal of the Cherokee Nation from their ancestral lands in 1838, an event known as the Trail of Tears. Under his command, approximately 16,000 Cherokee were rounded up at bayonet point, held in stockades, and forcibly marched westward, resulting in the deaths of approximately 4,000 people.',
@@ -54154,7 +54154,7 @@ const individualData: Record<string, IndividualProfile> = {
     timeline: [
       { date: '1838', event: 'Assigned command of 7,000 troops to enforce Cherokee removal' },
       { date: '1838', event: 'Ordered roundup of Cherokee families into internment camps' },
-      { date: '1838-1839', event: 'Oversaw forced march of 16,000 Cherokee westward — approximately 4,000 died' },
+      { date: '1838-1839', event: 'Oversaw forced march of 16,000 Cherokee westward  -  approximately 4,000 died' },
     ],
     sources: [
       { title: 'Trail of Tears', url: '/investigations/trail-of-tears' },
@@ -54202,7 +54202,7 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Orchestrated $700 billion TARP bailout that primarily benefited large financial institutions',
-      'Former Goldman Sachs CEO — Goldman received $12.9 billion through AIG bailout',
+      'Former Goldman Sachs CEO  -  Goldman received $12.9 billion through AIG bailout',
       'Allowed Lehman Brothers to fail while saving other institutions',
       'Critics argue bailout socialized losses while privatizing gains',
     ],
@@ -54225,7 +54225,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: '19th President of the United States',
     role: 'Political Figure',
     riskLevel: 'medium',
-    description: 'Rutherford B. Hayes served as the 19th President of the United States from 1877 to 1881. He appointed Carl Schurz as Secretary of the Interior, who expanded the Indian boarding school system designed to forcibly assimilate Native American children by separating them from their families, cultures, and languages — a policy later recognized as cultural genocide.',
+    description: 'Rutherford B. Hayes served as the 19th President of the United States from 1877 to 1881. He appointed Carl Schurz as Secretary of the Interior, who expanded the Indian boarding school system designed to forcibly assimilate Native American children by separating them from their families, cultures, and languages  -  a policy later recognized as cultural genocide.',
     birthDate: 'October 4, 1822',
     birthPlace: 'Delaware, Ohio',
     deathDate: 'January 17, 1893',
@@ -54373,7 +54373,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Owners of Purdue Pharma',
     role: 'Corporate Executive',
     riskLevel: 'critical',
-    description: 'The Sackler family owned Purdue Pharma, the manufacturer of OxyContin, and profited billions of dollars from the opioid crisis while suppressing evidence of the drug\'s addictiveness. Multiple family members — including Richard Sackler, Mortimer Sackler, and Kathe Sackler — directed aggressive marketing strategies that fueled an epidemic killing hundreds of thousands of Americans. Despite their role in one of the deadliest drug crises in history, family members used bankruptcy proceedings to shield billions in personal wealth from lawsuits.',
+    description: 'The Sackler family owned Purdue Pharma, the manufacturer of OxyContin, and profited billions of dollars from the opioid crisis while suppressing evidence of the drug\'s addictiveness. Multiple family members  -  including Richard Sackler, Mortimer Sackler, and Kathe Sackler  -  directed aggressive marketing strategies that fueled an epidemic killing hundreds of thousands of Americans. Despite their role in one of the deadliest drug crises in history, family members used bankruptcy proceedings to shield billions in personal wealth from lawsuits.',
     education: [],
     aliases: ['Sacklers'],
     affiliations: [

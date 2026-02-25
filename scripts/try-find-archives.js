@@ -49,5 +49,5 @@ function fetchJson(url, timeout = 10000) {
 
   const outPath = path.join(process.cwd(), 'scripts', 'manual-archive-suggestions.json');
   await fs.writeFile(outPath, JSON.stringify({ generatedAt: new Date().toISOString(), found }, null, 2));
-  console.log(`Found ${found.length} new Wayback suggestions — report: ${outPath}`);
+  console.log(`Found ${found.length} new Wayback suggestions  -  report: ${outPath}`);
 })();

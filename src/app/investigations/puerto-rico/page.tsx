@@ -113,7 +113,7 @@ const investigation = {
   ],
   charges: [
     { statute: '31 U.S.C. § 1341 (Antideficiency Act)', description: 'Illegal impoundment and withholding of congressionally appropriated disaster relief funds for Puerto Rico', count: 'Systematic withholding of $20+ billion over 3 years' },
-    { statute: '18 U.S.C. § 1001', description: 'False statements — administration officials misrepresented the death toll and adequacy of federal response', count: 'Multiple instances including Trump\'s denial of 3,000 deaths' },
+    { statute: '18 U.S.C. § 1001', description: 'False statements  -  administration officials misrepresented the death toll and adequacy of federal response', count: 'Multiple instances including Trump\'s denial of 3,000 deaths' },
     { statute: '42 U.S.C. § 5170 (Stafford Act)', description: 'Failure to provide adequate and equitable disaster response compared to mainland disasters', count: 'Systematic pattern throughout 2017-2020' },
     { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States through fraudulent disaster relief contracts', count: 'Multiple no-bid contracts totaling $600+ million' },
     { statute: '18 U.S.C. § 201', description: 'Bribery and kickbacks in FEMA disaster relief contracting', count: 'Multiple instances involving FEMA officials and contractors' },
@@ -122,13 +122,13 @@ const investigation = {
   ],
   coverup: [
     'The Trump administration initially reported only 64 deaths from Hurricane Maria, a number that stood for nearly a year before independent studies revealed the true toll of approximately 2,975 deaths.',
-    'When George Washington University\'s study confirmed nearly 3,000 deaths, Trump falsely claimed Democrats fabricated the number "to make me look as bad as possible" — a claim with zero evidence.',
+    'When George Washington University\'s study confirmed nearly 3,000 deaths, Trump falsely claimed Democrats fabricated the number "to make me look as bad as possible"  -  a claim with zero evidence.',
     'FEMA\'s own after-action report acknowledged the agency was unprepared and understaffed but the administration suppressed the report\'s most critical findings.',
-    'A warehouse full of unused FEMA supplies — water, baby food, cots — was discovered in Ponce, Puerto Rico in Jan 2020, more than two years after the hurricane, revealing the scale of supply chain failures.',
+    'A warehouse full of unused FEMA supplies  -  water, baby food, cots  -  was discovered in Ponce, Puerto Rico in Jan 2020, more than two years after the hurricane, revealing the scale of supply chain failures.',
     'The administration imposed unprecedented bureaucratic restrictions on Puerto Rico\'s access to disaster funds that were never applied to Texas or Florida after their 2017 hurricanes.',
     'HUD officials were ordered to delay and slow-walk $20 billion in disaster relief funds, with career staff reporting political pressure to withhold aid from Puerto Rico specifically.',
     'Trump privately told aides he did not want to send more aid to Puerto Rico and explored the possibility of selling the island or swapping it for Greenland, according to multiple reports.',
-    'The no-bid contract to Whitefish Energy — a two-person company from Interior Secretary Zinke\'s hometown — was awarded without competitive bidding and at rates far above market, suggesting corruption.',
+    'The no-bid contract to Whitefish Energy  -  a two-person company from Interior Secretary Zinke\'s hometown  -  was awarded without competitive bidding and at rates far above market, suggesting corruption.',
   ],
   sources: [
     { title: 'GWU Mortality Study', url: 'https://publichealth.gwu.edu/sites/default/files/downloads/projects/PRstudy/Acertainment%20of%20the%20Estimated%20Excess%20Mortality%20from%20Hurricane%20Maria%20in%20Puerto%20Rico.pdf', date: '2018' },

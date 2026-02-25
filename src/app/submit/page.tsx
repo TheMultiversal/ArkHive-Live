@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { Send, AlertTriangle, FileText, Lock, CheckCircle } from "lucide-react";
+import { useState, useRef } from "react";
+import { Send, AlertTriangle, FileText, Lock, CheckCircle, Upload, X, Paperclip } from "lucide-react";
 
 export default function SubmitPage() {
   const [formData, setFormData] = useState({
@@ -12,7 +12,9 @@ export default function SubmitPage() {
     sources: "",
     contact: "",
   });
+  const [files, setFiles] = useState<File[]>([]);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -194,6 +196,63 @@ export default function SubmitPage() {
                 className="w-full px-4 py-3 bg-black border-2 border-zinc-800 text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors"
               />
               <p className="text-xs text-zinc-600 mt-2">Only used for clarifying questions about your submission</p>
+            </div>
+
+            {/* File Upload */}
+            <div>
+              <label className="block text-sm font-bold text-white mb-2 uppercase tracking-wider">
+                Upload Documents / Evidence
+              </label>
+              <div
+                className="border-2 border-dashed border-zinc-800 bg-black/60 p-8 text-center cursor-pointer hover:border-blood-700 transition-colors"
+                onClick={() => fileInputRef.current?.click()}
+                onDragOver={(e) => { e.preventDefault(); e.currentTarget.classList.add('border-blood-700'); }}
+                onDragLeave={(e) => { e.currentTarget.classList.remove('border-blood-700'); }}
+                onDrop={(e) => {
+                  e.preventDefault();
+                  e.currentTarget.classList.remove('border-blood-700');
+                  const droppedFiles = Array.from(e.dataTransfer.files);
+                  setFiles(prev => [...prev, ...droppedFiles]);
+                }}
+              >
+                <Upload className="w-8 h-8 text-zinc-600 mx-auto mb-3" />
+                <p className="text-zinc-400 text-sm mb-1">Drop files here or click to browse</p>
+                <p className="text-zinc-600 text-xs">PDF, DOC, DOCX, XLS, XLSX, TXT, JPG, PNG, ZIP - up to 50MB each</p>
+              </div>
+              <input
+                ref={fileInputRef}
+                type="file"
+                multiple
+                accept=".pdf,.doc,.docx,.xls,.xlsx,.csv,.txt,.png,.jpg,.jpeg,.gif,.zip,.mp3,.mp4,.wav"
+                className="hidden"
+                onChange={(e) => {
+                  const selected = Array.from(e.target.files || []);
+                  setFiles(prev => [...prev, ...selected]);
+                  e.target.value = '';
+                }}
+              />
+              {files.length > 0 && (
+                <div className="mt-3 space-y-2">
+                  {files.map((file, i) => (
+                    <div key={i} className="flex items-center justify-between p-3 border border-zinc-800 bg-black/40">
+                      <div className="flex items-center gap-3 min-w-0">
+                        <Paperclip className="w-4 h-4 text-zinc-500 flex-shrink-0" />
+                        <div className="min-w-0">
+                          <p className="text-zinc-300 text-sm truncate">{file.name}</p>
+                          <p className="text-zinc-600 text-xs">{(file.size / 1024).toFixed(1)} KB</p>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => setFiles(files.filter((_, idx) => idx !== i))}
+                        className="p-1 text-zinc-600 hover:text-blood-600 transition-colors flex-shrink-0"
+                      >
+                        <X className="w-4 h-4" />
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
 
             {/* Submit Button */}
