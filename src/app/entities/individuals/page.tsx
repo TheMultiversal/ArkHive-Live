@@ -13,7 +13,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "45th & 47th President of the United States. Currently serving as 47th President (2025-Present). Convicted felon (34 counts). Subject of criminal indictments, civil judgments, and investigations spanning election interference, financial crimes, human trafficking complicity, classified document mishandling, and incitement of insurrection.",
     role: "47th President, Convicted Felon",
-    investigationCount: 39,
+    investigationCount: 4,
     riskLevel: "extreme",
   },
   {
@@ -23,7 +23,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Convicted sex offender and financier who operated a sex trafficking network targeting minors. Connected to numerous powerful individuals including Trump, Clinton, Prince Andrew. Died in custody August 2019 under disputed circumstances.",
     role: "Convicted Sex Trafficker",
-    investigationCount: 2,
+    investigationCount: 5,
     riskLevel: "extreme",
   },
   {
@@ -43,7 +43,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Disbarred attorney, former NYC Mayor, Trump personal lawyer. Georgia RICO defendant. $148 million defamation judgment. Filed bankruptcy. Key figure in Ukraine pressure campaign and election overturn efforts.",
     role: "Disbarred Attorney, RICO Defendant",
-    investigationCount: 3,
+    investigationCount: 5,
     riskLevel: "extreme",
   },
   {
@@ -53,7 +53,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Convicted felon, Trump 2016 campaign chairman. Shared polling data with Russian intelligence asset. Convicted of tax fraud, bank fraud, FBAR violations. Pardoned by Trump.",
     role: "Convicted Felon, Pardoned",
-    investigationCount: 2,
+    investigationCount: 4,
     riskLevel: "extreme",
   },
   {
@@ -63,7 +63,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Convicted felon, political consultant, Trump advisor. Coordinated with WikiLeaks during 2016 campaign. Convicted of lying, obstruction, witness tampering. Pardoned by Trump.",
     role: "Convicted Felon, Pardoned",
-    investigationCount: 2,
+    investigationCount: 5,
     riskLevel: "extreme",
   },
   {
@@ -73,7 +73,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Convicted felon, former National Security Advisor (24 days). Lied to FBI about Russian contacts. Pleaded guilty. Pardoned by Trump. Called for martial law to overturn 2020 election.",
     role: "Convicted Felon, Pardoned",
-    investigationCount: 2,
+    investigationCount: 5,
     riskLevel: "extreme",
   },
   {
@@ -83,7 +83,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Convicted felon. We Build the Wall fraud (pardoned). Contempt of Congress (served prison). Former White House Chief Strategist. Breitbart executive. Cambridge Analytica vice president.",
     role: "Convicted Felon, Served Prison",
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -113,7 +113,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Trump eldest son, Trump Organization executive. Arranged June 2016 Trump Tower meeting with Russians offering Clinton dirt. 'I love it' email.",
     role: "Trump Organization Executive",
-    investigationCount: 2,
+    investigationCount: 4,
     riskLevel: "high",
   },
   {
@@ -123,7 +123,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Trump son, Trump Organization executive. Testified in NY civil fraud trial. Liable in $454 million fraud judgment.",
     role: "Trump Organization Executive",
-    investigationCount: 1,
+    investigationCount: 4,
     riskLevel: "high",
   },
   {
@@ -153,7 +153,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "President of Russia. Ordered 2016 election interference operation per Mueller Report. Internet Research Agency, GRU hacking. Trump defended over US intelligence at Helsinki.",
     role: "Russian President",
-    investigationCount: 2,
+    investigationCount: 5,
     riskLevel: "extreme",
   },
   {
@@ -163,7 +163,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Saudi Crown Prince. Ordered Khashoggi murder per CIA. $110B Trump arms deal enabling Yemen genocide (400,000+ deaths). $2B investment in Kushner fund.",
     role: "Saudi Crown Prince",
-    investigationCount: 2,
+    investigationCount: 5,
     riskLevel: "extreme",
   },
   {
@@ -173,7 +173,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former White House Chief of Staff. Georgia RICO defendant. Present on 'find 11,780 votes' call. Refused January 6 Committee testimony.",
     role: "RICO Defendant",
-    investigationCount: 3,
+    investigationCount: 4,
     riskLevel: "extreme",
   },
   {
@@ -193,7 +193,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Attorney who spread false election fraud claims. 'Release the Kraken' conspiracy theories. Pleaded guilty in Georgia RICO case (6 misdemeanors).",
     role: "Pled Guilty",
-    investigationCount: 1,
+    investigationCount: 5,
     riskLevel: "high",
   },
   {
@@ -203,7 +203,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Attorney who devised fake electors scheme. Wrote memos outlining strategy to submit false electors. Pleaded guilty in Georgia RICO case.",
     role: "Pled Guilty",
-    investigationCount: 1,
+    investigationCount: 5,
     riskLevel: "high",
   },
   {
@@ -213,7 +213,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former DOJ official. Trump attempted to install as Acting AG to overturn election. Drafted false election fraud letter. Georgia RICO defendant.",
     role: "RICO Defendant",
-    investigationCount: 2,
+    investigationCount: 4,
     riskLevel: "extreme",
   },
   {
@@ -233,7 +233,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former EPA Administrator. Rolled back 100+ environmental regulations. Multiple ethics scandals. $43,000 soundproof booth. Resigned amid corruption.",
     role: "Resigned, Ethics Violations",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -243,7 +243,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former HHS Secretary. Resigned after $400,000+ private jet travel scandal. Stock trading in healthcare companies while legislating.",
     role: "Resigned, Ethics Violations",
-    investigationCount: 1,
+    investigationCount: 5,
     riskLevel: "moderate",
   },
   {
@@ -253,7 +253,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former Energy Secretary. Implicated in Ukraine 'Three Amigos' scheme. Climate change skepticism. Previously wanted to eliminate department he led.",
     role: "Former Energy Secretary",
-    investigationCount: 2,
+    investigationCount: 7,
     riskLevel: "moderate",
   },
   {
@@ -263,7 +263,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Founder and Executive Chairman of the World Economic Forum. Architect of 'The Great Reset' initiative and Young Global Leaders program influencing world governments.",
     role: "WEF Founder & Chairman",
-    investigationCount: 2,
+    investigationCount: 5,
     riskLevel: "high",
   },
   {
@@ -273,7 +273,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Co-founder of Microsoft and co-chair of the Bill & Melinda Gates Foundation. Influential figure in global health policy, vaccine development, and agricultural investment.",
     role: "Foundation Co-Chair",
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -303,7 +303,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Convicted felon, Giuliani associate. Partnered with Parnas in Ukraine scheme. Convicted of soliciting foreign campaign contributions.",
     role: "Convicted Felon",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -313,7 +313,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Russian intelligence asset identified by Senate Intelligence Committee. Received polling data from Manafort. Sanctioned by US Treasury.",
     role: "Russian Intelligence Asset",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "extreme",
   },
   {
@@ -323,7 +323,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Billionaire, L Brands founder. Gave Epstein power of attorney, transferred $77M mansion. Claimed Epstein 'misappropriated' funds.",
     role: "Epstein Financial Connection",
-    investigationCount: 1,
+    investigationCount: 4,
     riskLevel: "high",
   },
   {
@@ -333,7 +333,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Duke of York. Settled Virginia Giuffre lawsuit. Photographed with Epstein victims. BBC interview disaster. Stripped of royal duties.",
     role: "British Royal, Epstein Associate",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -343,7 +343,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "42nd US President. Multiple Epstein flights documented. Visited Epstein island (per victim testimony). Denied knowing of Epstein crimes.",
     role: "Former President, Epstein Associate",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -363,7 +363,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "WikiLeaks founder. Released DNC emails in coordination with Russian intelligence. Roger Stone intermediary to Trump campaign. Now free after plea deal.",
     role: "WikiLeaks Founder",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "high",
   },
   {
@@ -373,7 +373,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Right-wing author and conspiracy theorist. Claimed advance knowledge of WikiLeaks releases. Suspected intermediary between Stone and WikiLeaks.",
     role: "Stone Associate",
-    investigationCount: 1,
+    investigationCount: 4,
     riskLevel: "moderate",
   },
   {
@@ -383,7 +383,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former Ukraine President. Putin ally ousted in 2014 revolution. Paid Manafort $12.7 million via secret ledger. Living in exile in Russia.",
     role: "Former Ukraine President",
-    investigationCount: 1,
+    investigationCount: 4,
     riskLevel: "high",
   },
   {
@@ -403,7 +403,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former Russian Ambassador to US. Met with Flynn, Sessions, Kushner. Flynn lied to FBI about their conversations. Key figure in sanctions discussions.",
     role: "Former Russian Ambassador",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "high",
   },
   {
@@ -413,7 +413,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "EU Ambassador. $1 million inaugural donation. Key impeachment witness. 'Everyone was in the loop.' Confirmed quid pro quo with Ukraine.",
     role: "Former Ambassador, Key Witness",
-    investigationCount: 2,
+    investigationCount: 4,
     riskLevel: "high",
   },
   {
@@ -423,7 +423,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former Ukraine Special Envoy. Part of 'Three Amigos' with Sondland and Perry. Resigned during impeachment. Testified about shadow diplomacy.",
     role: "Former Ukraine Envoy",
-    investigationCount: 1,
+    investigationCount: 4,
     riskLevel: "moderate",
   },
   {
@@ -433,7 +433,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "White House Senior Advisor. Architect of family separation policy. Zero tolerance designer. Leaked emails showed white nationalist ties.",
     role: "Senior Advisor, Policy Architect",
-    investigationCount: 2,
+    investigationCount: 4,
     riskLevel: "extreme",
   },
   {
@@ -443,7 +443,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former DHS Secretary. Implemented family separation. Denied knowledge of policy. 'We do not have a policy of separating families' - proven lie.",
     role: "Former DHS Secretary",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -493,7 +493,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Journalist and author who won $83.3 million defamation judgment against Trump after he denied raping her. Jury found Trump liable for sexual abuse in 2023.",
     role: "Sexual Assault Survivor, $88M Judgment",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "low",
   },
   {
@@ -503,7 +503,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Adult film actress paid $130,000 in hush money before 2016 election. Key witness in Trump criminal trial that resulted in 34 felony convictions.",
     role: "Key Witness, Hush Money Recipient",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "moderate",
   },
   {
@@ -513,7 +513,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Georgia election worker defamed by Trump and Giuliani. $148 million defamation judgment against Giuliani. Trump mentioned her 18 times in Georgia call.",
     role: "Defamation Victim, $148M Judgment",
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: "low",
   },
   {
@@ -553,7 +553,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Fulton County DA prosecuting Trump and 18 co-defendants under Georgia RICO statute. Case complicated by relationship with special prosecutor.",
     role: "Georgia RICO Prosecutor",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "low",
   },
   {
@@ -563,7 +563,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former Vice President who refused Trump's pressure to reject electoral votes on January 6. Evacuated as mob chanted 'Hang Mike Pence.'",
     role: "Former Vice President, January 6 Target",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "moderate",
   },
   {
@@ -573,7 +573,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Georgia Secretary of State who refused Trump's demand to 'find 11,780 votes.' Recorded the call. Key witness in Georgia RICO case.",
     role: "Georgia SOS, Key Witness",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "low",
   },
   {
@@ -583,7 +583,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "FBI Director fired by Trump over 'this Russia thing.' His firing led to Mueller appointment. Documented Trump obstruction in memos.",
     role: "Fired FBI Director",
-    investigationCount: 3,
+    investigationCount: 4,
     riskLevel: "moderate",
   },
   {
@@ -593,7 +593,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Special Counsel who documented Russian interference and 10 instances of Trump obstruction. Report could not exonerate Trump but declined to charge.",
     role: "Former Special Counsel",
-    investigationCount: 2,
+    investigationCount: 4,
     riskLevel: "low",
   },
   {
@@ -603,7 +603,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former Proud Boys chairman convicted of seditious conspiracy for January 6. Sentenced to 22 years - longest January 6 sentence.",
     role: "Convicted Seditious Conspirator, 22 Years",
-    investigationCount: 2,
+    investigationCount: 6,
     riskLevel: "extreme",
   },
   {
@@ -623,7 +623,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former NIAID Director who contradicted Trump's COVID misinformation. Received death threats. Required security detail. Retired after 54 years.",
     role: "Former Chief Medical Advisor",
-    investigationCount: 2,
+    investigationCount: 4,
     riskLevel: "low",
   },
   {
@@ -653,7 +653,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former AMI/National Enquirer CEO. Ran catch-and-kill operation for Trump. First witness in criminal trial. Paid $150K to Karen McDougal.",
     role: "Catch-and-Kill Operator",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -663,7 +663,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former Playboy model who had affair with Trump. Paid $150,000 by AMI to keep quiet before 2016 election. Catch-and-kill victim.",
     role: "Hush Money Recipient",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "moderate",
   },
   {
@@ -673,7 +673,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Epstein trafficking survivor. Recruited at Mar-a-Lago at 16. Sued and forced Prince Andrew settlement ($12M+). Led document unsealing efforts.",
     role: "Epstein Survivor, Key Accuser",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "low",
   },
   {
@@ -683,7 +683,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Billionaire who funded Cambridge Analytica ($15M+) and Breitbart. Data harvesting operation affected 87 million Facebook users.",
     role: "Cambridge Analytica Funder",
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -773,7 +773,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Mar-a-Lago property manager indicted for trying to delete security footage and lying to FBI. Asked employee to erase evidence. Case dismissed.",
     role: "Documents Co-Defendant",
-    investigationCount: 2,
+    investigationCount: 4,
     riskLevel: "high",
   },
   {
@@ -793,7 +793,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Media mogul who built Fox News. Dominion lawsuit revealed he knew election lies were false but allowed them. $787.5M settlement. Texted 'I hate him passionately' about Trump.",
     role: "Fox Chairman Emeritus, Disinformation Enabler",
-    investigationCount: 2,
+    investigationCount: 4,
     riskLevel: "extreme",
   },
   {
@@ -803,7 +803,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Fox Corporation CEO who oversaw network during 2020 election disinformation. Deposed in Dominion lawsuit. Approved Tucker Carlson firing after settlement.",
     role: "Fox CEO, Disinformation Enabler",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -813,7 +813,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former Fox host who privately texted election claims were 'absurd' and he 'passionately hated' Trump while promoting lies on air. Fired after Dominion settlement. Interviewed Putin.",
     role: "Fired Fox Host, Putin Interviewer",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "high",
   },
   {
@@ -823,7 +823,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Fox News host who functioned as Trump's informal advisor with regular phone calls. Texted Mark Meadows during January 6. Privately doubted election claims while promoting them.",
     role: "Fox Host, Trump Informal Advisor",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "high",
   },
   {
@@ -843,7 +843,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Fox Business host whose show was cancelled after Smartmatic lawsuit. Repeatedly promoted false election claims. Called 'true believer' in Trump conspiracies. Died 2024.",
     role: "Cancelled Fox Host (Deceased)",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -883,7 +883,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Trump's personal banker at Deutsche Bank who approved $300M+ in loans when no other bank would. Resigned amid investigation into personal investments in Kushner-connected company.",
     role: "Trump's Personal Banker",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "high",
   },
   {
@@ -913,7 +913,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Conservative attorney and Trump critic. Lincoln Project co-founder. Ex-husband of Kellyanne Conway. Publicly diagnosed Trump with narcissistic personality disorder.",
     role: "Trump Critic, Attorney",
-    investigationCount: 0,
+    investigationCount: 1,
     riskLevel: "low",
   },
   {
@@ -963,7 +963,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Former AG nominee, ex-Congressman. Withdrew amid sex trafficking investigation. DOJ declined prosecution but House Ethics probe continued. Close associate Joel Greenberg convicted.",
     role: "Former AG Nominee, Ex-Congressman",
-    investigationCount: 0,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -983,7 +983,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Jean-Luc Brunel was a French modeling agent and close associate of Jeffrey Epstein who was accused of supplying underage girls to Epstein and raping models himself. He founded MC2 Model Management with Epstein's financial backing. Brunel was found...",
     role: 'MC2 Model Management Founder, Convicted Sex Trafficker Associate',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -1013,7 +1013,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Amalija Knavs was the mother of former and current First Lady Melania Trump. She and her husband Viktor emigrated to the United States and became citizens in 2018 through family sponsorship by their daughter - the same 'chain migration' process th...",
     role: 'Slovenian Textile Worker, US Citizen via Chain Migration',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1023,7 +1023,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Alexander Acosta served as U.S. Secretary of Labor under Trump from 2017-2019. He resigned in disgrace after renewed scrutiny of his role as U.S. Attorney in Florida in 2008, when he negotiated the infamous non-prosecution agreement with Jeffrey E...",
     role: 'Labor Secretary 2017-2019, Former U.S. Attorney who gave Epstein sweetheart deal',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -1033,7 +1033,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Rex Tillerson served as Secretary of State under Trump for just over a year before being fired via Twitter. As ExxonMobil CEO, he had close ties to Russia and was awarded the Order of Friendship by Vladimir Putin. He reportedly called Trump a 'fuc...",
     role: 'Secretary of State 2017-2018, Former ExxonMobil CEO',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -1063,7 +1063,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Wilbur Ross served as Commerce Secretary under Trump. Known as the 'King of Bankruptcy' for profiting from distressed assets, Ross had extensive business ties to Russian oligarchs through the Bank of Cyprus and Navigator Holdings. He pushed the fa...",
     role: 'Commerce Secretary 2017-2021, Billionaire "King of Bankruptcy"',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -1093,7 +1093,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Elaine Chao served as Transportation Secretary under Trump and is married to Senate Republican Leader Mitch McConnell. She faced multiple ethics investigations for potential conflicts of interest involving her family's Chinese shipping business an...",
     role: 'Transportation Secretary 2017-2021, Wife of Mitch McConnell',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -1123,7 +1123,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Alan Dershowitz is a prominent attorney who represented Jeffrey Epstein in his 2008 plea deal and was accused by Virginia Giuffre of sexual abuse as part of the Epstein trafficking operation. He later represented Trump during his first impeachment...",
     role: 'Criminal Defense Attorney, Jeffrey Epstein Lawyer, Trump Impeachment Defender',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -1133,7 +1133,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ali Alexander is a right-wing political activist who founded the 'Stop the Steal' movement and was a key organizer of the January 6, 2021 rally that preceded the Capitol attack. He claimed to have coordinated with Republican members of Congress in...",
     role: 'Stop the Steal Organizer, January 6 Rally Planner',
-    investigationCount: 2,
+    investigationCount: 5,
     riskLevel: 'extreme' as const,
   },
   {
@@ -1143,7 +1143,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Alex Jones is a far-right conspiracy theorist who founded InfoWars and has caused immeasurable harm through decades of lies. He tortured the families of murdered children at Sandy Hook Elementary School by falsely claiming the 2012 massacre was 's...",
     role: 'Sandy Hook Torturer, January 6 Inciter, Professional Liar',
-    investigationCount: 2,
+    investigationCount: 5,
     riskLevel: 'extreme' as const,
   },
   {
@@ -1173,7 +1173,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Marie Yovanovitch is a former U.S. diplomat who served as Ambassador to Ukraine from 2016 until her abrupt removal in 2019. She was targeted by Rudy Giuliani and his associates in a smear campaign, then recalled by Trump. Her congressional testimo...",
     role: 'Career Diplomat, Key Impeachment Witness',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -1183,7 +1183,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Fiona Hill is a British-American foreign affairs specialist who served as Deputy Assistant to the President and Senior Director for European and Russian Affairs on the National Security Council. Her impeachment testimony was considered among the m...",
     role: 'Russia Expert, Key Impeachment Witness',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1193,7 +1193,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Alexander Vindman is a retired U.S. Army officer who served as Director for European Affairs on the National Security Council. He reported concerns about the Trump-Zelensky call through proper channels, triggering the whistleblower complaint. A Pu...",
     role: 'Former NSC Director, Key Impeachment Witness',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1203,7 +1203,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Bill Taylor is a retired U.S. diplomat and Vietnam War veteran who served as Acting U.S. Ambassador to Ukraine in 2019. His text messages and testimony revealed the quid pro quo linking military aid to investigations. He documented the 'irregular ...",
     role: 'Career Diplomat, Key Impeachment Witness',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1213,7 +1213,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "George Kent is a career diplomat who served as Deputy Assistant Secretary of State for European and Eurasian Affairs. He testified about the smear campaign against Yovanovitch and raised concerns about Giuliani's influence on Ukraine policy. He do...",
     role: 'Career Diplomat, Impeachment Witness',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1233,7 +1233,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Maria Butina is a Russian national who pleaded guilty to conspiracy to act as an unregistered foreign agent. She infiltrated the NRA and Republican political circles to advance Russian interests. She worked with Russian official Alexander Torshin ...",
     role: 'Russian Spy Who Infiltrated NRA and GOP',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -1243,7 +1243,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Lisa Monaco has served as Deputy Attorney General under Merrick Garland since 2021. She has overseen DOJ's handling of the January 6 prosecutions, Mar-a-Lago documents case, and other Trump-related investigations. Previously served as Homeland Sec...",
     role: 'DOJ Leadership During Trump Investigations',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -1253,7 +1253,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former National Security Advisor who served briefly in the Trump administration before resigning over disagreements on foreign policy. Bolton famously described the Ukraine scheme as a 'drug deal' and refused to participate. His book 'The Room Whe...",
     role: 'Trump Administration Official',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -1263,7 +1263,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Retired four-star Marine general who served as Secretary of Homeland Security and White House Chief of Staff under Trump. Kelly implemented the controversial family separation policy at the border. After leaving the administration, he became incre...",
     role: 'Trump Administration Official',
-    investigationCount: 4,
+    investigationCount: 3,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1273,7 +1273,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Current Attorney General overseeing the Justice Department's investigations into Donald Trump. Garland appointed Special Counsel Jack Smith to handle the January 6 and classified documents cases. Previously denied Supreme Court seat when Mitch McC...",
     role: 'DOJ Leadership',
-    investigationCount: 5,
+    investigationCount: 4,
     riskLevel: 'low' as const,
   },
   {
@@ -1283,7 +1283,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Wayne LaPierre was the longtime CEO of the National Rifle Association for over 30 years until his disgraceful resignation in January 2024, just DAYS before his corruption trial began. He was found LIABLE for $5.4 MILLION in improper spending - usi...",
     role: 'Gun Lobby Leader, Corruption Defendant, Russian Asset Cultivator',
-    investigationCount: 4,
+    investigationCount: 3,
     riskLevel: 'extreme' as const,
   },
   {
@@ -1293,7 +1293,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former Russian senator and deputy governor of Russia's Central Bank who served as Maria Butina's handler in her operation to infiltrate American conservative organizations. Torshin cultivated relationships with NRA leadership and Republican politi...",
     role: 'Russian Intelligence Operative',
-    investigationCount: 7,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -1303,7 +1303,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Republican political operative who served as Maria Butina's romantic partner and facilitator in the United States. Erickson helped Butina make connections in conservative political circles and at the NRA. He was convicted of wire fraud and money l...",
     role: 'Maria Butina Associate',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -1313,7 +1313,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Counsel to Vice President Mike Pence who advised against the plan to overturn the 2020 election. Jacob was present in key meetings where John Eastman pressured Pence to reject electoral votes. He testified before the January 6 Committee, providing...",
     role: 'January 6 Witness',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1323,7 +1323,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Celebrity attorney who represented Stormy Daniels in her case against Donald Trump and Michael Cohen. Avenatti became a prominent Trump critic and media figure before his own legal troubles emerged. He was convicted of extorting Nike, defrauding c...",
     role: 'Stormy Daniels Attorney',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -1333,7 +1333,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Attorney who negotiated the hush money agreements for both Stormy Daniels and Karen McDougal with Michael Cohen. Davidson facilitated the payments that became central to Trump's criminal conviction. He testified at Trump's New York criminal trial,...",
     role: 'NDA Negotiator',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1343,7 +1343,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Senior Republican Senator who transformed from harsh Trump critic during 2016 primaries to staunch Trump defender. Graham made calls to Georgia officials after the 2020 election that are under investigation. He served as Senate Judiciary Chair and...",
     role: 'Trump Ally in Congress',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1353,7 +1353,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Long-serving Senate Republican leader who blocked Merrick Garland's Supreme Court nomination and enabled confirmation of three Trump justices. After January 6, McConnell stated Trump was 'practically and morally responsible' for the attack but vot...",
     role: 'Senate Republican Leader',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1363,7 +1363,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former House Speaker whose recorded statements after January 6 revealed he blamed Trump for the attack before reversing course. McCarthy initially said Trump 'bears responsibility' and considered asking him to resign, but later traveled to Mar-a-L...",
     role: 'House Republican Leader',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1383,7 +1383,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Youngest daughter of Donald Trump from his marriage to Marla Maples. A Georgetown Law graduate, Tiffany has maintained a lower public profile than her half-siblings but appeared at campaign events and the 2020 Republican National Convention. She m...",
     role: 'Daughter of Donald Trump',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1403,7 +1403,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Director of Programs at the Russian International Affairs Council (RIAC), a Kremlin-linked think tank. Timofeev served as the intermediary who connected George Papadopoulos to Joseph Mifsud and facilitated communications about potential Trump-Russ...",
     role: 'Russian Intelligence Contact',
-    investigationCount: 6,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -1413,7 +1413,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "First White House Chief of Staff under Donald Trump, serving the shortest tenure in modern history (189 days) before being fired via tweet while sitting on Air Force One. Previously served as RNC Chairman during the 2016 election when Russian inte...",
     role: 'Trump Administration Official',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1423,7 +1423,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "First White House Press Secretary under Trump, infamous for lying about inauguration crowd sizes on his first day. His tenure marked the beginning of the 'alternative facts' era. Resigned in July 2017 after objecting to the hiring of Anthony Scara...",
     role: 'Trump Administration Official',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1463,7 +1463,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Digital media consultant who ran Trump's 2020 campaign before being demoted amid falling poll numbers. Previously managed Trump's successful 2016 digital campaign. In September 2020, was involuntarily committed after his wife called police about s...",
     role: 'Digital Media Strategist',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1473,7 +1473,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Manhattan District Attorney who made history by bringing the first criminal indictment against a former U.S. president. Led the prosecution that resulted in Trump's conviction on 34 felony counts of falsifying business records related to hush mone...",
     role: 'Prosecutor',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -1483,7 +1483,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "New York Attorney General who won a landmark $454 million civil fraud judgment against Donald Trump and the Trump Organization. Her investigation found Trump inflated his net worth by billions to secure favorable loans. Also oversaw dissolution of...",
     role: 'Prosecutor',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1503,7 +1503,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Trump-appointed federal judge who dismissed the classified documents case against Trump, ruling that Special Counsel Jack Smith was unconstitutionally appointed. Her earlier rulings in the case were overturned by the 11th Circuit. Critics accused ...",
     role: 'Federal Judge',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -1513,7 +1513,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Federal judge presiding over Donald Trump's January 6 criminal case in Washington D.C. Known for handing down tough sentences to January 6 defendants, often exceeding prosecutors' recommendations. Born in Jamaica, became a U.S. citizen, and worked...",
     role: 'Federal Judge',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1523,7 +1523,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Georgia state judge presiding over the Fulton County RICO case against Donald Trump and co-defendants. Faced difficult decisions including whether to disqualify District Attorney Fani Willis over her relationship with special prosecutor Nathan Wad...",
     role: 'Georgia State Judge',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1533,7 +1533,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Iconic January 6 figure who became the face of the Capitol insurrection, photographed shirtless wearing face paint, a horned fur headdress, and carrying a spear with American flag. Self-proclaimed QAnon follower who breached the Senate chamber and...",
     role: 'QAnon Shaman',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -1543,7 +1543,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former Trump campaign attorney who was part of the 'Elite Strike Force' legal team pushing false election fraud claims. Pled guilty in Georgia RICO case to aiding and abetting false statements. Tearfully admitted in court that she failed her ethic...",
     role: 'Election Conspiracy Lawyer',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -1553,7 +1553,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Trump campaign attorney, former OAN anchor, and former DHS official who was involved in the Mar-a-Lago documents case and fake electors scheme. She signed a certification to DOJ that all classified documents had been returned, which was false. Ind...",
     role: 'Campaign Lawyer & Former OAN Host',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -1563,7 +1563,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Russian-born American political strategist who serves as a close advisor to Donald Trump. Indicted in Arizona in April 2024 for his role in the fake electors scheme. Described as gatekeeper to Trump and key architect of post-election strategy. Pre...",
     role: 'Campaign Advisor & Fake Electors Co-Conspirator',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -1573,7 +1573,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former Trump attorney whose notes and testimony were compelled by court order in the Mar-a-Lago documents case after judge found crime-fraud exception applied. His detailed contemporaneous notes documented Trump's instructions regarding classified...",
     role: 'Attorney in Mar-a-Lago Documents Case',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1583,7 +1583,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "High-profile attorney who became notorious for spreading election conspiracy theories and filing frivolous lawsuits challenging the 2020 election. Made outlandish claims including that Chief Justice John Roberts was involved in Epstein conspiracy ...",
     role: 'Election Conspiracy Lawyer',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -1593,7 +1593,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Criminal defense attorney who serves as lead counsel for Donald Trump in his federal and state criminal cases. Former federal prosecutor who previously worked at Cadwalader law firm. Known for aggressive cross-examination style. Defended Trump in ...",
     role: 'Lead Criminal Defense Lawyer',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -1603,7 +1603,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Trump personal attorney who has represented him in civil matters including the E. Jean Carroll defamation cases and New York fraud trial. Known for combative media appearances and courtroom demeanor. Sanctioned by courts for frivolous filings. Par...",
     role: 'Civil Defense Lawyer',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -1613,7 +1613,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "White House Press Secretary from April 2020 to January 2021, replacing Stephanie Grisham. Known for combative press briefings and defending Trump's false election claims. Spread COVID misinformation and election conspiracy theories from the White ...",
     role: 'Trump Administration Official & Fox News Host',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1623,7 +1623,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Served as Acting White House Chief of Staff from January 2019 to March 2020, also serving as OMB Director. Famously admitted quid pro quo in Ukraine scandal at press briefing telling reporters to 'get over it.' Resigned as Special Envoy to Norther...",
     role: 'Trump Administration Official',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1633,7 +1633,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Rose to fame on The Apprentice and joined the Trump White House as Director of Communications for the Office of Public Liaison. Fired by John Kelly in December 2017 and became Trump critic. Released secret recordings from inside the White House an...",
     role: 'Former Trump Ally Turned Critic',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1663,7 +1663,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former president of Liberty University and early Trump endorser whose support helped legitimize Trump with evangelical voters. Resigned in disgrace in 2020 amid scandals including wife's affair with pool attendant and photos in compromising positi...",
     role: 'Evangelical Leader & Trump Supporter',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -1673,7 +1673,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Prosperity gospel televangelist who served as chair of Trump's evangelical advisory board and gave invocation at his 2017 inauguration. Led prayers at White House and delivered bizarre spiritual warfare prayer during 2020 election calling for 'ang...",
     role: 'Trump Spiritual Advisor',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1683,7 +1683,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Dictator of North Korea since 2011. Engaged in unprecedented summit diplomacy with Trump including Singapore (2018) and Hanoi (2019) summits. Trump claimed they 'fell in love' through letters. No denuclearization achieved despite photo-op summits....",
     role: 'International Figure',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -1693,7 +1693,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Hungarian Prime Minister and leader of Fidesz party who has transformed Hungary into an 'illiberal democracy.' Close Trump ally who Trump hosted at White House and Mar-a-Lago. Praised by Trump as strong leader. Model for American right-wing on res...",
     role: 'International Trump Ally',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -1703,7 +1703,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Long-serving Israeli Prime Minister and close Trump ally. Benefited from Trump's Jerusalem embassy move, Golan Heights recognition, and Abraham Accords. Trump named settlements after him. Currently facing corruption charges in Israel and ICC arres...",
     role: 'International Trump Ally',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1713,7 +1713,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "President of China and General Secretary of the Chinese Communist Party. Central figure in Trump's trade war. Trump praised Xi as 'brilliant' and a 'friend' while also blaming China for COVID-19. Ivanka Trump received Chinese trademarks while Trum...",
     role: 'International Figure',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -1723,7 +1723,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ukrainian President who was pressured by Trump in the 'perfect phone call' that led to Trump's first impeachment. Trump withheld military aid while demanding Zelensky announce Biden investigations. Former comedian and actor who became wartime lead...",
     role: 'First Impeachment Central Figure',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1733,7 +1733,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former Brazilian President known as 'Trump of the Tropics.' Close Trump ally who mirrored his authoritarian rhetoric, COVID denial, and election fraud claims. Lost 2022 election and supporters stormed Brazilian government buildings on January 8, 2...",
     role: 'International Trump Ally',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -1743,7 +1743,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Donald Trump's niece and author of bestselling exposé 'Too Much and Never Enough: How My Family Created the World's Most Dangerous Man.' Clinical psychologist who provided Trump family tax documents to New York Times, revealing tax fraud. Currentl...",
     role: 'Trump Family Critic',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1773,7 +1773,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Senior pastor of First Baptist Church in Dallas and one of Trump's closest evangelical advisors. Member of Trump's evangelical advisory board who defended Trump through every scandal. Known for controversial statements about other religions, LGBTQ...",
     role: 'Evangelical Trump Advisor',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1783,7 +1783,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "New York Supreme Court Justice who presided over the New York civil fraud case against Donald Trump, the Trump Organization, and his adult children. In February 2024, issued a landmark $454 million judgment against Trump for years of financial fra...",
     role: 'Judge in Trump Civil Fraud Case',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -1793,7 +1793,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Russian lawyer with ties to the Kremlin who attended the infamous June 9, 2016 Trump Tower meeting with Donald Trump Jr., Jared Kushner, and Paul Manafort. The meeting was arranged on the promise of 'dirt' on Hillary Clinton as 'part of Russia and...",
     role: 'Trump Tower Meeting Attendee',
-    investigationCount: 5,
+    investigationCount: 3,
     riskLevel: 'high' as const,
   },
   {
@@ -1803,7 +1803,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Russian-American lobbyist and former Soviet military intelligence officer who attended the June 9, 2016 Trump Tower meeting. Naturalized U.S. citizen with background in Soviet counterintelligence. Worked on anti-Magnitsky Act lobbying efforts. His...",
     role: 'Trump Tower Meeting Attendee',
-    investigationCount: 6,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -1813,7 +1813,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "British-born music publicist who arranged the infamous June 9, 2016 Trump Tower meeting. Sent the email to Donald Trump Jr. promising damaging information about Hillary Clinton as 'part of Russia and its government's support for Mr. Trump.' Repres...",
     role: 'Trump Tower Meeting Arranger',
-    investigationCount: 4,
+    investigationCount: 3,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1823,7 +1823,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Russian billionaire real estate developer known as the 'Trump of Russia.' Business partner with Donald Trump on the 2013 Miss Universe pageant in Moscow. His son Emin's publicist Rob Goldstone arranged the June 2016 Trump Tower meeting. The Agalar...",
     role: 'Trump Business Associate',
-    investigationCount: 6,
+    investigationCount: 3,
     riskLevel: 'high' as const,
   },
   {
@@ -1833,7 +1833,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Russian pop singer and businessman, son of oligarch Aras Agalarov. Appeared in music video with Donald Trump during Miss Universe 2013 in Moscow. Through his publicist Rob Goldstone, he facilitated the June 2016 Trump Tower meeting by claiming to ...",
     role: 'Trump Associate & Meeting Facilitator',
-    investigationCount: 5,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1843,7 +1843,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "White House Press Secretary who famously never held a single press briefing during her tenure (July 2019 - April 2020). Also served as Melania Trump's chief of staff. Became one of the most prominent Trump administration whistleblowers, publishing...",
     role: 'Trump Administration Whistleblower',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1853,7 +1853,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Trump's body man who was fired in 2018 over background check issues related to gambling, then rehired as Director of Presidential Personnel. Became Trump's chief loyalty enforcer, purging officials deemed insufficiently loyal. Pressured DOJ to sup...",
     role: 'Trump Loyalty Enforcer',
-    investigationCount: 3,
+    investigationCount: 5,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1863,7 +1863,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Michael Lindell, CEO of MyPillow, transformed from pillow salesman to one of the most dangerous election conspiracy promoters in American history. He spent over $50 MILLION of his own money spreading demonstrably false claims about the 2020 electi...",
     role: 'Election Conspiracy Promoter, Defamation Defendant, Deplatformed Disinformation Spreader',
-    investigationCount: 0,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -1873,7 +1873,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Original Trump 2016 campaign manager who was fired in June 2016 but remained close to Trump. Known for aggressive 'Let Trump be Trump' approach. Charged with battery against reporter Michelle Fields (charges dropped). Accused of sexual harassment ...",
     role: 'Trump Political Operative',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -1883,7 +1883,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Treasury Secretary from 2017-2021, former Goldman Sachs banker and Hollywood producer. Oversaw tax cuts that primarily benefited wealthy. Post-administration, received $1 billion investment from Saudi and UAE sovereign wealth funds for his new pri...",
     role: 'Trump Cabinet Official',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1893,7 +1893,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former CEO of Overstock.com who became a major funder and promoter of election conspiracy theories. Attended a chaotic December 2020 White House meeting where participants discussed seizing voting machines and appointing Sidney Powell as special c...",
     role: 'Election Conspiracy Promoter',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -1903,7 +1903,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Chief Operating Officer of the Trump Organization who rose from security guard to top executive. Former bodyguard who Trump personally elevated. Implicated in tax fraud investigation alongside Allen Weisselberg for receiving off-the-books compensa...",
     role: 'Trump Org Executive',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1933,7 +1933,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Conservative attorney who was on Trump's infamous January 2, 2021 phone call to Georgia Secretary of State Brad Raffensperger demanding to 'find 11,780 votes.' Mitchell has been a prominent promoter of election fraud claims and has worked to restr...",
     role: 'Trump Georgia Call Lawyer',
-    investigationCount: 4,
+    investigationCount: 3,
     riskLevel: 'high' as const,
   },
   {
@@ -1943,7 +1943,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Russian-American businessman who attended the June 9, 2016 Trump Tower meeting as representative of the Agalarov family. Previously investigated by GAO in 2000 for setting up over 2,000 Delaware shell companies that moved $1.4 billion from Russia....",
     role: 'Trump Tower Meeting Attendee',
-    investigationCount: 5,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -1953,7 +1953,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Professional Russian-English translator who worked for the State Department and attended the June 9, 2016 Trump Tower meeting to translate for Natalia Veselnitskaya. Cooperated with investigators and provided testimony about what occurred in the m...",
     role: 'Trump Tower Meeting Translator',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -1963,7 +1963,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Long-time Trump Organization controller who testified extensively in the NY civil fraud trial. Described as the 'number cruncher' who actually prepared the fraudulent financial statements. Granted immunity to testify and detailed how Trump directe...",
     role: 'Key Fraud Trial Witness',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -1973,7 +1973,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "High-profile criminal defense attorney who represented Trump in the E. Jean Carroll defamation case. Known for aggressive courtroom style. Left Trump's legal team before the second Carroll trial. Has represented numerous celebrity clients.",
     role: 'Former Trump Attorney',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1983,7 +1983,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Republican former Congresswoman who served as Vice Chair of the January 6 Select Committee. Daughter of Vice President Dick Cheney. One of only 10 House Republicans to vote for Trump's second impeachment. Lost her seat after being censured by Wyom...",
     role: 'January 6 Committee Vice Chair',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -1993,7 +1993,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Republican former Congressman and Air Force veteran who served on the January 6 Select Committee. One of only 10 House Republicans to vote for Trump's second impeachment. Did not seek re-election after redistricting. Now a CNN contributor.",
     role: 'January 6 Committee Member',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2003,7 +2003,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Democratic Congressman who served as Chairman of the January 6 Select Committee. Also Chairman of the House Homeland Security Committee. Led the investigation into the Capitol attack and Trump's role in inciting it.",
     role: 'January 6 Committee Chair',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2013,7 +2013,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former Republican Congressman who spoke at the January 6 rally wearing body armor, telling the crowd to 'start taking down names and kicking ass.' Initially one of Trump's staunchest allies until Trump rescinded his endorsement. Claims Trump asked...",
     role: 'January 6 Rally Speaker',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2023,7 +2023,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Republican Congressman and Freedom Caucus member who reportedly participated in planning meetings for January 6 protest activities. Ali Alexander named him as one of three congressmen who helped plan the rally. Sought a presidential pardon for Jan...",
     role: 'January 6 Connected Congressman',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2033,7 +2033,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Republican Congressman who Ali Alexander named as one of three congressmen who helped plan the January 6 rally. Has ties to white nationalist groups. Censured by the House for posting anime video depicting violence against AOC. Six of his siblings...",
     role: 'January 6 Connected Congressman',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -2043,7 +2043,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Republican Congressman who introduced Jeffrey Clark to Donald Trump and advocated for making Clark Acting Attorney General to overturn the 2020 election. His phone was seized by FBI in August 2022. Key figure in the DOJ pressure campaign.",
     role: 'Jeffrey Clark Advocate',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2053,7 +2053,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Republican Congresswoman known for promoting QAnon conspiracy theories, election denial, and extremist rhetoric. Stripped of committee assignments. Key Trump ally who has called for 'national divorce' and promoted violence against Democrats. Inves...",
     role: 'Election Denial Congresswoman',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2063,7 +2063,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Republican Congresswoman known for gun rights advocacy, election denial, and inflammatory rhetoric. Tweeted 'Today is 1776' on January 6. Investigated for potentially providing reconnaissance tours before the Capitol attack. Husband exposed himsel...",
     role: 'Election Denial Congresswoman',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2073,7 +2073,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former Acting Deputy Attorney General who resisted Trump's pressure to use DOJ to overturn the 2020 election. Testified extensively to the January 6 Committee about Trump's attempts to install Jeffrey Clark and his demands that DOJ 'just say the e...",
     role: 'DOJ Official Who Resisted Trump',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2083,7 +2083,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former Assistant Attorney General for the Office of Legal Counsel who threatened to resign if Trump replaced Acting AG Jeffrey Rosen with Jeffrey Clark. Part of the group of DOJ officials who prevented Trump from using the department to overturn t...",
     role: 'DOJ Official Who Resisted Trump',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2103,7 +2103,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "U.S. District Judge who presided over cases against Roger Stone and Paul Manafort. Known for issuing gag orders and revoking Manafort's bail after he attempted witness tampering. Criticized Barr's handling of Mueller report from the bench.",
     role: 'Judge in Stone/Manafort Cases',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2123,7 +2123,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former Chief Judge of the U.S. District Court for D.C. who oversaw grand jury matters in the January 6 and Mar-a-Lago investigations. Made critical rulings compelling testimony from Trump lawyers and aides, including piercing attorney-client privi...",
     role: 'Chief Judge Over Trump Grand Juries',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -2133,7 +2133,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former Manhattan DA who initiated the criminal investigation that ultimately led to Trump's 34 felony convictions. Fought to the Supreme Court for Trump's tax returns. Investigation continued under his successor Alvin Bragg.",
     role: 'Initiated Trump Investigation',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2143,7 +2143,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Long-time Trump bodyguard who served as Director of Oval Office Operations in the White House. Present during many key moments including the Miss Universe Moscow trip. Left White House in 2017 amid controversy. Interviewed by Mueller team and Hous...",
     role: 'Trump Personal Security Director',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -2153,7 +2153,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Long-time Trump Organization senior vice president and Trump's personal gatekeeper for decades. Testified in NY fraud trial. Had Jeffrey Epstein's multiple phone numbers in her contacts. Key witness to Trump Organization operations.",
     role: 'Trump Gatekeeper',
-    investigationCount: 3,
+    investigationCount: 4,
     riskLevel: 'moderate' as const,
   },
   {
@@ -2163,7 +2163,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Dick Cheney served as Vice President under George W. Bush (2001-2009), wielding unprecedented power as the architect of the Iraq War, warrantless surveillance programs, and CIA torture ('enhanced interrogation'). As former Halliburton CEO (1995-20...",
     role: 'Iraq War Architect, Torture Program Director, War Profiteer',
-    investigationCount: 0,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -2173,7 +2173,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former contestant on The Apprentice who accused Donald Trump of sexual assault. Filed a defamation lawsuit after Trump called her a liar. Case was delayed due to Trump's presidency but eventually settled in 2021. Alleged Trump kissed her against h...",
     role: 'Trump Sexual Assault Accuser',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2183,7 +2183,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "One of the first women to publicly accuse Donald Trump of sexual assault. Alleged that Trump groped her on an airplane in the late 1970s, lifting the armrest between them and grabbing her breasts. Came forward after Trump denied ever sexually assa...",
     role: 'Trump Sexual Assault Accuser',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2193,7 +2193,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Makeup artist who filed a 1997 lawsuit against Donald Trump alleging 'attempted rape.' Claimed Trump groped her and pushed her against a wall at Mar-a-Lago while her then-boyfriend was nearby. Case was dropped after settlement in a separate busine...",
     role: 'Trump Sexual Assault Accuser',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2203,7 +2203,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Donald Trump's first wife (1977-1991) and mother of Donald Jr., Ivanka, and Eric. Czech-American businesswoman and socialite. In 1989 divorce deposition, alleged Trump raped her but later recanted, saying she felt 'violated' but not in 'criminal s...",
     role: 'Trump First Wife (Deceased)',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2213,7 +2213,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former FBI Deputy Assistant Director of Counterintelligence who helped lead the Russia investigation. Became target of Trump attacks after anti-Trump text messages with Lisa Page were discovered. Fired in 2018. Text messages used by Trump to claim...",
     role: 'FBI Russia Investigation Official',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -2233,7 +2233,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Fox News host and conservative commentator who has been one of Trump's most loyal media defenders. Hosts 'The Ingraham Angle.' Text messages revealed she knew Trump lost 2020 election but continued promoting election fraud claims on air. Dominion ...",
     role: 'Pro-Trump Media Personality',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -2273,7 +2273,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former Republican strategist who ran John McCain's 2008 campaign and co-founded The Lincoln Project to defeat Trump. Left Republican Party. Resigned from Lincoln Project after scandal involving co-founder John Weaver.",
     role: 'Anti-Trump Republican / Lincoln Project',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -2283,7 +2283,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Republican fundraiser who served as RNC Finance Vice Chair before resigning over scandal. Pled guilty to acting as unregistered foreign agent for UAE and China. Received Trump pardon in 2021. Also paid $1.6 million to Playboy model for abortion th...",
     role: 'RNC Finance Vice Chair (Pardoned)',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2293,7 +2293,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Casino mogul who served as RNC Finance Chair until resigning amid sexual misconduct allegations. Major Trump donor and longtime friend. Investigated as unregistered Chinese foreign agent. Declined to register under FARA.",
     role: 'RNC Finance Chair / Trump Donor',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -2323,7 +2323,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "PayPal co-founder, Palantir co-founder, and early Facebook investor. Was sole major tech donor to support Trump in 2016. Funded primary campaigns of JD Vance and Blake Masters. Libertarian who has called democracy incompatible with freedom.",
     role: 'Trump Donor & Advisor',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -2333,7 +2333,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Soviet-born businessman with organized crime ties who worked on Trump Tower Moscow project. Former FBI informant. Emailed Michael Cohen: 'I will get Putin on this program and we will get Donald elected.' Has Trump Org business card despite crimina...",
     role: 'Trump Tower Moscow Fixer',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -2343,7 +2343,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Republican operative who worked in Russia in the 1990s and advised Trump's 2016 campaign. Later served as HHS spokesman during COVID where he accused CDC scientists of 'sedition.' Had contact with Russian national offering dirt on Clinton.",
     role: 'Trump Campaign Aide / HHS Spokesman',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -2353,7 +2353,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Early Trump campaign aide who was fired in 2015 for racist social media posts. Had dramatic public meltdown on cable news in 2018 when subpoenaed by Mueller, initially refusing to comply before ultimately testifying to grand jury.",
     role: 'Former Trump Campaign Aide',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2393,7 +2393,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "George W. Bush served as the 43rd President (2001-2009), launching illegal wars in Iraq and Afghanistan that killed over 1 million people combined. He authorized the CIA torture program ('enhanced interrogation'), established Guantanamo Bay indefi...",
     role: 'War Criminal, Torture Authorizer, Surveillance State Architect',
-    investigationCount: 0,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -2413,7 +2413,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former Trump campaign senior advisor who had an affair with campaign spokesman Jason Miller during the 2016 transition, resulting in a child. Left politics after the affair became public. Has since become critical of Trump and his inner circle.",
     role: 'Trump Campaign Senior Advisor',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -2423,7 +2423,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "White supremacist, Holocaust denier, and antisemitic internet personality who dined with Donald Trump at Mar-a-Lago in November 2022 alongside Kanye West. Leader of the 'groyper' movement and America First organization. Has praised Hitler and deni...",
     role: 'America First Political Movement Leader',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -2433,7 +2433,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former coal industry lobbyist who served as EPA Administrator under Trump from 2019-2021. Continued Scott Pruitt's legacy of rolling back environmental protections. Previously lobbied for Murray Energy, one of the largest coal companies. Systemati...",
     role: 'Coal Industry Lobbyist turned EPA Chief',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2443,7 +2443,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "President of Trump University from 2005-2010. Managed day-to-day operations of the fraudulent real estate seminar program. Despite having no real estate experience, he led the organization that falsely promised to share Trump's real estate secrets...",
     role: 'Trump University Executive',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2453,7 +2453,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Pennsylvania congressman who sponsored legislation that hobbled DEA enforcement against opioid distributors flooding communities with pills. Trump nominated him as Drug Czar in 2017, but he withdrew after a joint investigation by Washington Post a...",
     role: 'Failed Drug Czar Nominee',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2463,7 +2463,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Business associate of Steve Bannon who pleaded guilty in the We Build The Wall fraud scheme. Helped orchestrate the theft of hundreds of thousands of dollars from donors who believed they were funding private border wall construction. Received a r...",
     role: 'We Build The Wall Co-Defendant',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -2473,7 +2473,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Co-defendant in the We Build The Wall fraud case who was convicted at trial. Unlike Bannon (pardoned) and Badolato (pleaded guilty), Shea went to trial and was found guilty. Helped steal money from donors who thought they were funding private bord...",
     role: 'We Build The Wall Co-Defendant',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -2483,7 +2483,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former First Lady, U.S. Senator from New York, and Secretary of State who lost the 2016 presidential election to Donald Trump. Target of numerous Trump attacks including 'Lock Her Up' chants. Subject of multiple investigations including emails and...",
     role: '2016 Democratic Presidential Nominee',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2503,7 +2503,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Current president who defeated Trump in 2020. Subject of Trump's Ukraine extortion scheme (first impeachment) where Trump pressured Ukraine to announce investigation into Biden. Target of January 6 insurrection attempt to overturn his election vic...",
     role: 'Current President (2021-present)',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2513,7 +2513,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "First female Speaker of the House who led both impeachments of Donald Trump. Target of January 6 insurrectionists who chanted 'Where's Nancy?' while searching the Capitol. Her office was ransacked and her staff hid under a table.",
     role: 'House Speaker during both Trump Impeachments',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2523,7 +2523,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Republican senator and 2012 presidential nominee who was the only Republican to vote to convict Trump in the first impeachment trial. Has been a consistent Trump critic and target of MAGA attacks. Did not seek re-election in 2024.",
     role: 'Only Republican to Vote to Convict Trump',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2533,7 +2533,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Billionaire rapper who visited Trump in the Oval Office and later brought white supremacist Nick Fuentes to dinner with Trump at Mar-a-Lago in November 2022. Has made numerous antisemitic statements and praised Hitler, leading to loss of major bus...",
     role: 'Trump Ally, White Supremacist Dinner Guest',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2543,7 +2543,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former New Jersey Governor who led Trump's 2016 transition team before being fired. Was one of first major Republicans to endorse Trump in 2016. Later became a Trump critic and 2024 presidential candidate. Helped Trump prepare for debates but was ...",
     role: 'Trump Ally Turned Critic',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -2553,7 +2553,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Deceased Republican senator and 2008 presidential nominee who was a vocal Trump critic. Trump infamously said McCain was 'not a war hero' because he was captured as a POW. McCain gave the Steele dossier to the FBI and cast the deciding vote agains...",
     role: 'Trump Antagonist, War Hero',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2563,7 +2563,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Donald Trump's father, a New York real estate developer who built the family fortune. NY Times investigation revealed massive tax fraud schemes including fake corporations and undervalued gifts. Transferred over $400 million to his children throug...",
     role: 'Donald Trump\'s Father, Tax Fraud',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2573,7 +2573,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Saudi journalist and Washington Post columnist who was murdered and dismembered inside the Saudi consulate in Istanbul on October 2, 2018. CIA concluded Crown Prince Mohammed bin Salman ordered the killing. Trump dismissed the finding and continue...",
     role: 'Washington Post Columnist Killed by Saudi Arabia',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2613,7 +2613,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Proud Boys leader from Washington state convicted of seditious conspiracy for his role in the January 6 Capitol attack. Led group during the breach. Sentenced to 18 years in prison.",
     role: 'Seditious Conspiracy Convict',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -2623,7 +2623,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Proud Boys organizer and former InfoWars employee convicted of seditious conspiracy for his role in the January 6 Capitol attack. Coordinated with other Proud Boys leaders. Sentenced to 17 years in prison.",
     role: 'Seditious Conspiracy Convict',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -2633,7 +2633,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "President of the Philadelphia chapter of the Proud Boys convicted of seditious conspiracy for his role in the January 6 Capitol attack. Coordinated with national leadership to plan attack.",
     role: 'Seditious Conspiracy Convict',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -2653,7 +2653,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Proud Boys member who used a stolen police riot shield to break a window at the U.S. Capitol on January 6, 2021, allowing rioters to first enter the building. Known as 'Spaz,' he was convicted of seditious conspiracy and sentenced to 10 years in p...",
     role: 'Seditious Conspiracy Convict',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -2663,7 +2663,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Leader of the Florida chapter of the Oath Keepers who led the paramilitary 'stack' formation breach of the U.S. Capitol on January 6, 2021. Coordinated with Proud Boys and helped plan the attack. Sentenced to 12 years in prison.",
     role: 'Seditious Conspiracy Convict',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -2673,7 +2673,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Member of the Oath Keepers Florida chapter who participated in the January 6 Capitol attack as part of the military-style stack formation. Army veteran. Convicted of conspiracy charges but acquitted of seditious conspiracy. Sentenced to 4 years.",
     role: 'Conspiracy Convict',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -2683,7 +2683,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Leader of the Ohio Oath Keepers who recruited and trained members, led a tactical team during the January 6 Capitol attack. Army veteran and transgender woman. Convicted of conspiracy charges but acquitted of seditious conspiracy. Sentenced to 8.5...",
     role: 'Conspiracy Convict',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2703,7 +2703,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Four-star Army general who served as Chairman of the Joint Chiefs under Trump and Biden. Became concerned about Trump's mental state after the 2020 election, took steps to prevent potential unlawful military orders, and apologized for participatin...",
     role: 'Former Top Military Officer (2019-2023)',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -2723,7 +2723,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Retired Marine Corps General known as 'Mad Dog' who served as Trump's first Secretary of Defense. Resigned in protest over Trump's Syria withdrawal. Later issued extraordinary public rebuke of Trump after Lafayette Square, accusing him of trying t...",
     role: 'Former Secretary of Defense (2017-2019)',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -2733,7 +2733,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Trump loyalist installed as Acting Attorney General after Jeff Sessions was fired. Criticized the Mueller investigation before his appointment and refused to recuse himself despite ethics recommendations. Previously promoted a patent firm that was...",
     role: 'Acting Attorney General (2018-2019)',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -2743,7 +2743,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Trump loyalist who served in various DHS roles despite courts ruling his appointment violated federal law. Implemented hardline immigration policies and deployed federal agents to Portland. Previously sued to overturn Obamacare as Virginia AG.",
     role: 'Acting DHS Deputy Secretary (2019-2021)',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2753,7 +2753,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "White nationalist and self-described 'alt-right' leader who helped organize the 2017 Unite the Right rally in Charlottesville. Famous for leading 'Heil Trump' salutes after 2016 election. Banned from most social media platforms.",
     role: 'Alt-Right Figure, Charlottesville Organizer',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2763,7 +2763,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Primary organizer of the 2017 Unite the Right rally in Charlottesville that resulted in the murder of Heather Heyer. Former Obama supporter who became radicalized. Found liable in civil lawsuit for conspiracy to commit violence.",
     role: 'White Nationalist Organizer',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2773,7 +2773,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former Grand Wizard of the Ku Klux Klan, former Louisiana state representative, and convicted felon. Endorsed Donald Trump in 2016. Trump was slow to disavow his endorsement, claiming he didn't know who Duke was despite having mentioned him previo...",
     role: 'White Supremacist Leader',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2783,7 +2783,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Former senior advisor to Melania Trump and inaugural committee official whose firm received $26 million for event planning. Later became estranged from Melania and wrote tell-all book, releasing secret recordings showing Melania dismissing critici...",
     role: 'Melania Trump Confidante Turned Whistleblower',
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: 'moderate' as const,
   },
   {
@@ -2813,7 +2813,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Amy Coney Barrett was rushed onto the Supreme Court by Trump and McConnell just 8 days before the 2020 election, despite McConnell's previous claim that justices shouldn't be confirmed in an election year. Her appointment cemented the 6-3 conserva...",
     role: 'Trump Appointee, Conservative Majority',
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: 'high' as const,
   },
   {
@@ -2823,7 +2823,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ginni Thomas is a conservative activist and wife of Supreme Court Justice Clarence Thomas who actively participated in efforts to overturn the 2020 election. She sent dozens of text messages to White House Chief of Staff Mark Meadows urging him to...",
     role: 'Wife of Justice Clarence Thomas, Election Denier',
-    investigationCount: 0,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -2833,7 +2833,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Carl Icahn is a billionaire investor who served as an informal advisor to President Trump while maintaining massive financial positions that could benefit from policy decisions. He allegedly made over $30 million by shorting steel stocks before Tr...",
     role: 'Trump Advisor, Alleged Insider Trading',
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: 'high' as const,
   },
   {
@@ -2843,7 +2843,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Larry Fink is the CEO of BlackRock, the world's largest asset manager with over $10 trillion in assets under management. A central figure at the World Economic Forum in Davos, he has promoted ESG investing and stakeholder capitalism while BlackRoc...",
     role: 'Head of World\'s Largest Asset Manager, Davos Leader',
-    investigationCount: 3,
+    investigationCount: 4,
     riskLevel: 'high' as const,
   },
   {
@@ -2853,7 +2853,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Clarence Thomas is the most ethically compromised Supreme Court Justice in modern American history. For OVER 20 YEARS, he failed to disclose luxury trips, gifts, and real estate transactions from Republican megadonor Harlan Crow worth MILLIONS of ...",
     role: 'Most Ethically Compromised Justice in Modern History, Coup Enabler',
-    investigationCount: 0,
+    investigationCount: 4,
     riskLevel: 'extreme' as const,
   },
   {
@@ -2863,7 +2863,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Samuel Alito is a Supreme Court Justice who authored the Dobbs decision overturning Roe v. Wade, ending 50 years of constitutional abortion rights. He flew an UPSIDE-DOWN AMERICAN FLAG - a symbol adopted by January 6 insurrectionists - outside his...",
     role: 'Christian Nationalist Justice, Roe Destroyer, January 6 Sympathizer',
-    investigationCount: 4,
+    investigationCount: 3,
     riskLevel: 'extreme' as const,
   },
   {
@@ -2873,7 +2873,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "John Roberts is the Chief Justice of the Supreme Court who has presided over its transformation into a conservative supermajority. He authored the Trump v. United States decision granting presidents broad immunity from prosecution for official act...",
     role: 'Chief Justice, Conservative Court Leader',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -2883,7 +2883,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Brett Kavanaugh was confirmed to the Supreme Court in 2018 amid credible sexual assault allegations from Dr. Christine Blasey Ford and others. His confirmation hearing became a national spectacle with Kavanaugh displaying a combative, partisan tem...",
     role: 'Trump Appointee, Conservative Majority',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -2893,7 +2893,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ted Cruz was a leader of the effort to overturn the 2020 election results. He led the objection to Arizona's electoral votes on January 6, 2021, continuing even after the Capitol was attacked. He proposed an 'electoral commission' to delay certifi...",
     role: 'Election Objector, Constitutional Challenge Leader',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2903,7 +2903,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Josh Hawley was the first senator to announce he would object to the 2020 electoral college certification. He was photographed raising his fist in solidarity with the January 6 mob. He continued his objection after the Capitol was attacked and eva...",
     role: 'First Senator to Object, Raised Fist to Mob',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2913,7 +2913,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Rand Paul consistently spread COVID-19 misinformation and led attacks on Dr. Anthony Fauci during the pandemic. He was banned from YouTube for COVID misinformation. He voted to acquit Trump in both impeachment trials and blocked quick passage of a...",
     role: 'COVID Misinformation Spreader, Fauci Antagonist',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -2923,7 +2923,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Kari Lake is a leading election denier who lost the 2022 Arizona gubernatorial race but refused to concede. She has filed numerous failed lawsuits challenging the results and continues to spread false claims about election fraud. She is a close Tr...",
     role: 'Election Denier, Trump Ally',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2933,7 +2933,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Scott Atlas was a neuroradiologist with no epidemiology background who became a White House COVID advisor in 2020. He advocated for herd immunity through infection, contradicted public health experts, and was banned from Twitter for COVID misinfor...",
     role: 'Herd Immunity Advocate, Pandemic Misinformation',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -2943,7 +2943,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "James Alex Fields Jr. drove his car into a crowd of counter-protesters at the Unite the Right rally in Charlottesville on August 12, 2017, killing Heather Heyer and injuring 35 others. He was convicted of first-degree murder and federal hate crime...",
     role: 'Charlottesville Car Attack Murderer',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3003,7 +3003,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Randy Credico is a comedian and political activist who served as Roger Stone's back channel to WikiLeaks' Julian Assange. Stone threatened Credico and his therapy dog to prevent testimony, leading to Stone's conviction for witness tampering. Credi...",
     role: 'Roger Stone WikiLeaks Intermediary',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -3013,7 +3013,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Robert Maxwell was a British media mogul, Member of Parliament, and alleged spy who died mysteriously in 1991 after falling from his yacht. He was the father of Ghislaine Maxwell. After his death, it was revealed he had stolen hundreds of millions...",
     role: 'Father of Ghislaine Maxwell',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -3023,7 +3023,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Sarah Kellen was Jeffrey Epstein's personal assistant who victims alleged helped recruit and schedule underage girls for abuse. She was named as a potential co-conspirator in the 2008 case but received immunity. She later married NASCAR driver Bri...",
     role: 'Named in Court Documents',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -3033,7 +3033,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Semion Mogilevich is considered the 'boss of bosses' of Russian organized crime and has been on the FBI's Ten Most Wanted list. He has extensive ties to Russian oligarchs and intelligence services. Multiple investigations have connected his crimin...",
     role: '"Boss of Bosses" of Russian Mafia',
-    investigationCount: 5,
+    investigationCount: 3,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3043,7 +3043,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Harlan Crow is a Dallas real estate billionaire who has systematically corrupted Supreme Court Justice Clarence Thomas through decades of undisclosed luxury gifts worth millions of dollars. ProPublica investigations revealed Crow paid for private ...",
     role: 'Supreme Court Justice Briber, Nazi Memorabilia Collector',
-    investigationCount: 3,
+    investigationCount: 4,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3053,7 +3053,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Leonard Leo is the most influential unelected figure in American history, having engineered the conservative takeover of the federal judiciary through a $1.6 billion dark money network. As co-chairman of the Federalist Society, he personally selec...",
     role: 'Architect of Conservative Judicial Takeover, Dark Money Kingpin',
-    investigationCount: 0,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3063,7 +3063,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "David Rockefeller was the patriarch of the Rockefeller family and chairman of Chase Manhattan Bank. He was a founding member of the Trilateral Commission and longtime member of the Council on Foreign Relations. Often cited in discussions of global...",
     role: 'Global Elite Patriarch (Deceased)',
-    investigationCount: 4,
+    investigationCount: 6,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3073,7 +3073,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Henry Kissinger served as Secretary of State (1973-1977) and National Security Advisor (1969-1975) under Nixon and Ford, becoming the architect of some of the worst atrocities of the 20th century. He orchestrated the secret bombing of Cambodia (19...",
     role: 'War Criminal, Genocide Enabler, Mass Murder Architect (Deceased)',
-    investigationCount: 0,
+    investigationCount: 4,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3083,7 +3083,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Charles Koch is the CEO of Koch Industries (America's 2nd largest private company, $125B revenue) and architect of the most extensive dark money network in American political history. Along with his late brother David, the Koch network has spent $...",
     role: 'Dark Money Kingpin, Climate Denial Funder, Regulatory Capture Architect',
-    investigationCount: 0,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3093,7 +3093,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Dan Coats served as Director of National Intelligence under Trump from 2017-2019. He repeatedly contradicted Trump publicly on Russia, North Korea, and other intelligence matters. He famously reacted with disbelief on live TV when told Trump had i...",
     role: 'Trump DNI Who Contradicted Him',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -3103,7 +3103,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Billy Bush was the TV host on the Access Hollywood bus in 2005 when Donald Trump made his infamous 'grab them by the pussy' comments. The tape leaked in October 2016 and caused a major scandal. Bush was fired from NBC while Trump went on to win th...",
     role: 'Access Hollywood Tape Participant',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -3113,7 +3113,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Korey Wise was 16 years old when he was wrongfully convicted in the 1989 Central Park jogger case. Unlike the other four defendants who were juveniles, Wise was tried as an adult and served 11+ years in adult prison. He was exonerated in 2002 when...",
     role: 'Central Park Five Victim',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -3133,7 +3133,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Christopher Miller served as Acting Secretary of Defense from November 2020 to January 2021, installed by Trump after firing Mark Esper. He was in charge of the Pentagon during the January 6 Capitol attack and his delayed response to National Guar...",
     role: 'Trump Pentagon Pick, January 6 Figure',
-    investigationCount: 8,
+    investigationCount: 4,
     riskLevel: 'high' as const,
   },
   {
@@ -3143,7 +3143,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Richard Nixon served as the 37th President until his resignation in 1974 amid the Watergate scandal - the only president to resign from office. Before becoming president, Nixon committed arguably the most consequential act of treason in American h...",
     role: 'War Criminal, Traitor, Obstructor of Justice (Deceased)',
-    investigationCount: 0,
+    investigationCount: 5,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3153,7 +3153,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "George H.W. Bush served as the 41st President (1989-1993), Vice President under Reagan, CIA Director, and UN Ambassador. His career spans decades of documented crimes: As CIA Director (1976-77), he oversaw Operation Condor supporting South America...",
     role: 'CIA Director, War Criminal, Iran-Contra Conspirator (Deceased)',
-    investigationCount: 0,
+    investigationCount: 4,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3163,7 +3163,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Mark Zuckerberg is the founder and CEO of Meta Platforms (formerly Facebook), the company responsible for the largest privacy breach in history through Cambridge Analytica (87 million users), systematic amplification of disinformation that undermi...",
     role: 'Tech CEO, Social Media Mogul, Surveillance Capitalism Pioneer',
-    investigationCount: 4,
+    investigationCount: 3,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3173,7 +3173,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Elon Musk is the world's wealthiest person who purchased Twitter in 2022 and transformed it into a platform that amplifies far-right disinformation, conspiracy theories, and extremist content. He gutted content moderation, reinstated banned accoun...",
     role: 'Tech Billionaire, Trump Ally, DOGE Head, Disinformation Amplifier',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3183,7 +3183,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Kelly Loeffler was a Senator who sold millions in stock after receiving classified COVID-19 briefings in January 2020, before the market crash. She later objected to certifying the 2020 election even after the January 6 attack. She is married to J...",
     role: 'Insider Trader, Election Objector',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -3193,7 +3193,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Richard Burr was Chair of the Senate Intelligence Committee when he sold $1.7 million in stock after receiving classified COVID briefings while publicly downplaying the pandemic. The FBI investigated and served a warrant on his phone. The DOJ decl...",
     role: 'COVID Insider Trader, Intelligence Committee Chair',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -3203,7 +3203,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Linda McMahon co-founded WWE with her husband Vince McMahon and served as Trump's Small Business Administration head. She and her husband donated $5 million to the Trump Foundation, which was later ordered dissolved for illegal self-dealing. She h...",
     role: 'Trump Cabinet Member, Education Secretary Nominee',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -3223,7 +3223,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ken Paxton is the Texas Attorney General who filed a lawsuit attempting to overturn the 2020 election by throwing out votes in four states. The Supreme Court rejected the case. Paxton has been under federal securities fraud indictment since 2015 a...",
     role: 'Election Lawsuit Filer, Impeached AG',
-    investigationCount: 3,
+    investigationCount: 4,
     riskLevel: 'high' as const,
   },
   {
@@ -3233,7 +3233,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Colin Powell was a four-star general and the first African American Secretary of State. His February 2003 UN speech claiming Iraq possessed weapons of mass destruction, which he later admitted was based on false intelligence, provided crucial legi...",
     role: 'Military Commander, Diplomat, Iraq War Enabler',
-    investigationCount: 4,
+    investigationCount: 5,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3253,7 +3253,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Donald Rumsfeld served twice as Secretary of Defense and was a principal architect of the Iraq War. He oversaw the Abu Ghraib torture scandal, authorized 'enhanced interrogation techniques,' dismissed concerns about troop levels and post-war plann...",
     role: 'Iraq War Architect, Torture Program Overseer, Military-Industrial Complex Operator',
-    investigationCount: 0,
+    investigationCount: 5,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3273,7 +3273,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Paul Wolfowitz was the leading intellectual architect of the Iraq War as Deputy Secretary of Defense. A founding neoconservative who advocated for regime change in Iraq since the 1990s, he claimed the war would pay for itself through oil revenues ...",
     role: 'Iraq War Architect, Neoconservative Ideologue, World Bank Scandal',
-    investigationCount: 3,
+    investigationCount: 5,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3283,7 +3283,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Karl Rove was George W. Bush's chief political strategist known as 'Bush's Brain' and 'The Architect.' He pioneered ruthless political tactics including the Valerie Plame leak that exposed a CIA officer in retaliation for her husband criticizing I...",
     role: 'Political Operative, Dirty Trickster, Valerie Plame Leaker',
-    investigationCount: 5,
+    investigationCount: 4,
     riskLevel: 'high' as const,
   },
   {
@@ -3303,7 +3303,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Oliver North is a former Marine Lieutenant Colonel who became the central figure in the Iran-Contra scandal. He orchestrated the illegal sale of arms to Iran and diversion of proceeds to Nicaraguan Contra rebels in violation of congressional bans....",
     role: 'Iran-Contra Operator, Arms Dealer, Pardoned Felon',
-    investigationCount: 4,
+    investigationCount: 3,
     riskLevel: 'high' as const,
   },
   {
@@ -3313,7 +3313,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Jeb Bush served as Governor of Florida (1999-2007) and is the son and brother of US presidents. His administration oversaw the controversial 2000 election that determined his brother George W. Bush's presidency, including the purge of voter rolls ...",
     role: 'Bush Dynasty Member, 2000 Election Manipulator',
-    investigationCount: 3,
+    investigationCount: 5,
     riskLevel: 'moderate' as const,
   },
   {
@@ -3323,7 +3323,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Augusto Pinochet was a Chilean general who seized power in a US-backed coup on September 11, 1973, overthrowing democratically elected socialist president Salvador Allende. His 17-year military dictatorship murdered over 3,200 people, tortured 40,...",
     role: 'US-Backed Dictator, Mass Murderer, Torturer',
-    investigationCount: 0,
+    investigationCount: 4,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3343,7 +3343,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Russell Vought served as Director of the Office of Management and Budget (2020-2021) under Trump and is a primary architect of Project 2025, the Heritage Foundation blueprint for radically restructuring the federal government. He founded the Cente...",
     role: 'Conservative Policy Architect, Administrative State Dismantler',
-    investigationCount: 4,
+    investigationCount: 5,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3353,7 +3353,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Yevgeny Prigozhin was a Russian oligarch known as 'Putin's Chef' who founded the Wagner Group private military company and the Internet Research Agency (IRA) troll farm that interfered in the 2016 US election. Wagner mercenaries committed war crim...",
     role: 'Russian Oligarch, Mercenary Army Chief, Troll Farm Operator',
-    investigationCount: 0,
+    investigationCount: 5,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3363,7 +3363,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "George Nader is a Lebanese-American businessman and convicted pedophile who served as an informal Trump administration advisor and key UAE influence operative. He facilitated secret meetings between Trump associates and foreign powers including th...",
     role: 'UAE Lobbyist, Foreign Influence Operative, Child Sex Offender',
-    investigationCount: 3,
+    investigationCount: 4,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3383,7 +3383,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Paul Singer is a billionaire hedge fund manager and founder of Elliott Management, known as the pioneer of 'vulture capitalism' - buying distressed sovereign debt at pennies on the dollar and suing poor nations for full repayment. His aggressive t...",
     role: 'Vulture Capitalist, Republican Mega-Donor, Sovereign Debt Speculator',
-    investigationCount: 4,
+    investigationCount: 5,
     riskLevel: 'high' as const,
   },
   {
@@ -3393,7 +3393,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Francis Collins served as NIH Director from 2009-2021, the longest-serving director in history. He oversaw NIH during critical decisions regarding gain of function research funding, including grants to EcoHealth Alliance that supported work at the...",
     role: 'Government Scientist, Gain of Function Oversight, COVID Response',
-    investigationCount: 4,
+    investigationCount: 5,
     riskLevel: 'high' as const,
   },
   {
@@ -3403,7 +3403,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Peter Daszak is a British zoologist and president of EcoHealth Alliance, a nonprofit that received NIH funding for coronavirus research at the Wuhan Institute of Virology. He has been central to COVID origins controversy due to his organization's ...",
     role: 'Virus Hunter, Wuhan Lab Connection, NIH Grant Recipient',
-    investigationCount: 5,
+    investigationCount: 4,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3433,7 +3433,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Tedros Adhanom Ghebreyesus is an Ethiopian politician and public health researcher serving as Director-General of the World Health Organization since 2017. His tenure has been marked by controversy over WHO's COVID-19 response, including initial p...",
     role: 'Global Health Chief, COVID Response Leader, China Relations Controversy',
-    investigationCount: 4,
+    investigationCount: 3,
     riskLevel: 'high' as const,
   },
   {
@@ -3443,7 +3443,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ronald Reagan served as the 40th President of the United States (1981-1989) and remains one of the most consequential and destructive presidents in American history. His administration illegally sold weapons to Iran and used the proceeds to fund C...",
     role: 'Iran-Contra Mastermind, Trickle-Down Architect, AIDS Crisis Ignorer',
-    investigationCount: 0,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3453,7 +3453,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Margaret Thatcher served as Prime Minister of the United Kingdom from 1979 to 1990, becoming the longest-serving British PM of the 20th century. Known as the 'Iron Lady,' she implemented radical neoliberal economic policies that devastated British...",
     role: 'Pinochet Defender, Neoliberalism Pioneer, Falklands War Leader',
-    investigationCount: 5,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -3463,7 +3463,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Caspar Weinberger served as Secretary of Defense under President Reagan from 1981 to 1987. He was indicted on five felony counts related to the Iran-Contra affair, including perjury and obstruction of justice for lying to Congress about his knowle...",
     role: 'Reagan Defense Secretary, Iran-Contra Participant, Pardoned Felon',
-    investigationCount: 5,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -3473,7 +3473,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "John Poindexter served as National Security Advisor under President Reagan from 1985 to 1986. He was a central figure in the Iran-Contra affair, convicted on five felony counts including conspiracy, obstruction of justice, and making false stateme...",
     role: 'Reagan NSA, Iran-Contra Convict, Conviction Reversed',
-    investigationCount: 5,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -3483,7 +3483,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Fawn Hall served as personal secretary to Oliver North at the National Security Council during the Iran-Contra affair. She testified before Congress that she helped North shred and smuggle classified documents related to the illegal arms sales and...",
     role: 'Oliver North Secretary, Document Shredder',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -3493,7 +3493,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Douglas Feith served as Under Secretary of Defense for Policy under Donald Rumsfeld from 2001 to 2005. He created and oversaw the Office of Special Plans, a secretive intelligence unit that cherry-picked and manipulated intelligence to build the c...",
     role: 'Office of Special Plans Director, Iraq War Lies Architect',
-    investigationCount: 5,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3503,7 +3503,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Richard Perle is a neoconservative political advisor known as the 'Prince of Darkness' who played a central role in advocating for the Iraq War. He served as Chairman of the Defense Policy Board Advisory Committee from 2001 to 2003 and was a key f...",
     role: '"Prince of Darkness," Neocon Leader, Iraq War Architect',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3513,7 +3513,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Katherine Harris served as Florida Secretary of State during the disputed 2000 presidential election. As the state's chief election official and co-chair of the Bush campaign in Florida - an obvious conflict of interest - she certified George W. B...",
     role: '2000 Election Certifier, Bush v. Gore Figure',
-    investigationCount: 5,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -3523,7 +3523,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Marco Rubio currently serves as U.S. Secretary of State in the Trump administration (2025-present), after serving as U.S. Senator from Florida from 2011 to 2025. Once a Trump critic who called him a 'con artist' during the 2016 primaries, Rubio be...",
     role: 'Trump Ally, Former Senator, Current Secretary of State',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -3533,7 +3533,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Kevin Roberts serves as President of the Heritage Foundation and is the primary architect of Project 2025, a comprehensive plan to reshape the federal government under a Republican president. Project 2025 proposes eliminating agencies, installing ...",
     role: 'Project 2025 Architect, Conservative Policy Leader',
-    investigationCount: 5,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3543,7 +3543,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Manuel Contreras was the founder and director of DINA (Dirección de Inteligencia Nacional), the Chilean secret police under dictator Augusto Pinochet from 1973 to 1977. DINA was responsible for the torture, disappearance, and murder of thousands o...",
     role: 'Pinochet\'s Enforcer, Letelier Assassination Mastermind',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3553,7 +3553,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Milton Friedman was an American economist and Nobel laureate who founded the Chicago School of economics and developed monetarism. His free-market ideology provided the intellectual foundation for neoliberalism implemented by Reagan, Thatcher, and...",
     role: 'Chicago School Founder, Pinochet Advisor, Neoliberalism Architect',
-    investigationCount: 5,
+    investigationCount: 3,
     riskLevel: 'high' as const,
   },
   {
@@ -3563,7 +3563,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Mohammed bin Zayed Al Nahyan (MBZ) is the President of the United Arab Emirates and ruler of Abu Dhabi since 2022, having previously served as Crown Prince and de facto ruler since 2014. He has cultivated extensive ties with U.S. political figures...",
     role: 'MBZ, UAE Ruler, Regional Power Broker',
-    investigationCount: 6,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3573,7 +3573,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Rick Gerson is a hedge fund manager and close friend of Jared Kushner who served as an unofficial backchannel between the Trump transition team and the United Arab Emirates. He facilitated communications between Kushner and Mohammed bin Zayed (MBZ...",
     role: 'Kushner Friend, UAE Backchannel',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -3583,7 +3583,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Dmitry Utkin was a former Russian military intelligence (GRU) officer who co-founded and commanded the Wagner Group private military company alongside Yevgeny Prigozhin. Known by the call sign 'Wagner' (after Richard Wagner, Hitler's favorite comp...",
     role: 'PMC Commander, War Criminal, Nazi Sympathizer',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3593,7 +3593,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Sergei Shoigu served as Russia's Defense Minister from 2012 to 2024, overseeing the military during the 2022 full-scale invasion of Ukraine. He is responsible for Russian military operations that have killed tens of thousands, destroyed Ukrainian ...",
     role: 'Ukraine War Leader, Putin Loyalist',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3603,7 +3603,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Valery Gerasimov has served as Chief of the General Staff of the Russian Armed Forces since 2012 and is credited with developing the 'Gerasimov Doctrine' - a theory of hybrid warfare combining military, political, economic, and information operati...",
     role: '"Gerasimov Doctrine" Author, Ukraine War Commander',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3613,7 +3613,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Robert Novak was a conservative political commentator and syndicated columnist who, on July 14, 2003, publicly exposed Valerie Plame as a CIA operative. This exposure, based on leaks from Bush administration officials, effectively ended Plame's co...",
     role: 'Columnist Who Outed Valerie Plame',
-    investigationCount: 4,
+    investigationCount: 3,
     riskLevel: 'high' as const,
   },
   {
@@ -3623,7 +3623,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Deputy Secretary of State under Colin Powell who was the primary source for Robert Novak's column that outed CIA operative Valerie Plame. Despite being the original leaker, Armitage was never prosecuted while Scooter Libby was convicted. Armitage ...",
     role: 'Deputy Secretary of State who leaked classified CIA identity',
-    investigationCount: 7,
+    investigationCount: 4,
     riskLevel: 'high' as const,
   },
   {
@@ -3633,7 +3633,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "CIA Director under Reagan (1981-1987) who was the chief architect of the Iran-Contra affair, authorizing secret arms sales to Iran and illegal funding of Nicaraguan Contras. Casey operated a 'shadow CIA' that circumvented Congressional oversight, ...",
     role: 'CIA Director who orchestrated Iran-Contra and Central American death squads',
-    investigationCount: 5,
+    investigationCount: 3,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3643,7 +3643,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Allen Welsh Dulles served as CIA Director from 1953-1961, the longest-serving director in agency history. He authorized MKUltra mind control experiments, orchestrated coups in Iran (1953) and Guatemala (1954), launched the Bay of Pigs invasion, in...",
     role: 'Longest-serving CIA Director who authorized MKUltra, orchestrated coups, and later served on Warren Commission',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3653,7 +3653,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Sidney Gottlieb was a CIA chemist who directed the MKUltra mind control program from 1953-1973. Known as the 'Black Sorcerer' and 'Dirty Trickster,' he personally administered LSD to unwitting subjects, developed assassination tools including pois...",
     role: 'CIA chemist who directed MKUltra mind control program for 20 years',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3663,7 +3663,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Frank Olson was an Army scientist and CIA biological weapons researcher who died under suspicious circumstances on November 28, 1953, after being secretly dosed with LSD by Sidney Gottlieb. The CIA claimed suicide, but forensic evidence suggests h...",
     role: 'Army biological weapons researcher secretly dosed with LSD, died under suspicious circumstances',
-    investigationCount: 5,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -3683,7 +3683,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Fred Hampton was the chairman of the Illinois chapter of the Black Panther Party, assassinated by Chicago Police in an FBI-orchestrated raid on December 4, 1969. He was 21 years old. The FBI designated him a 'key militant leader' and targeted him ...",
     role: 'Revolutionary leader assassinated by FBI-orchestrated police raid at age 21',
-    investigationCount: 6,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -3693,7 +3693,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Dr. Martin Luther King Jr. was the preeminent leader of the American civil rights movement, winner of the Nobel Peace Prize, and target of an extensive FBI harassment campaign. J. Edgar Hoover called him 'the most dangerous Negro in America.' The ...",
     role: 'Preeminent civil rights leader, Nobel Peace Prize winner, target of FBI harassment',
-    investigationCount: 6,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -3703,7 +3703,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "John Ehrlichman was Nixon's chief domestic policy advisor who confessed that the War on Drugs was designed to target Black Americans and antiwar activists. His 1994 confession exposed the racist foundations of drug policy that has incarcerated mil...",
     role: 'Nixon advisor who confessed the War on Drugs was designed to target Black Americans',
-    investigationCount: 5,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3713,7 +3713,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Derek Chauvin is a former Minneapolis police officer convicted of murdering George Floyd on May 25, 2020. He knelt on Floyd's neck for 9 minutes and 29 seconds while Floyd pleaded that he couldn't breathe. The murder, captured on video by bystande...",
     role: 'Former police officer convicted of murdering George Floyd',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3723,7 +3723,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "George Perry Floyd was a 46-year-old Black man murdered by Minneapolis police officer Derek Chauvin on May 25, 2020. Chauvin knelt on Floyd's neck for over 9 minutes while Floyd pleaded 'I can't breathe' and called for his mother. His death, recor...",
     role: 'Victim of police murder whose death sparked worldwide protests for racial justice',
-    investigationCount: 5,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -3733,7 +3733,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Rick Snyder served as Governor of Michigan from 2011-2019 and was criminally charged for his role in the Flint water crisis. His administration's cost-cutting decisions and subsequent cover-up poisoned 100,000 residents with lead-contaminated wate...",
     role: 'Governor whose administration poisoned Flint residents with lead-contaminated water',
-    investigationCount: 6,
+    investigationCount: 3,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3743,7 +3743,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Frank Wisner was a senior CIA official who directed covert operations and ran Operation Mockingbird, the CIA's program to infiltrate and control American media. He oversaw coups in Iran and Guatemala, established the CIA's covert action capabiliti...",
     role: 'CIA official who ran Operation Mockingbird and directed coups in Iran and Guatemala',
-    investigationCount: 6,
+    investigationCount: 3,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3753,7 +3753,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Richard Helms served as CIA Director from 1966-1973 and ordered the destruction of MKUltra records to prevent accountability for human experimentation crimes. He lied to Congress about CIA involvement in the Chilean coup and was convicted of perju...",
     role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress about Chile',
-    investigationCount: 6,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3763,7 +3763,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "James Clapper served as Director of National Intelligence from 2010-2017 and lied to Congress about NSA mass surveillance of Americans. When asked directly if the NSA collects data on millions of Americans, Clapper responded 'No, sir' and 'Not wit...",
     role: 'DNI who lied to Congress about NSA mass surveillance of Americans',
-    investigationCount: 5,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3773,7 +3773,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Edward Snowden is a former NSA contractor who in 2013 revealed the extent of NSA mass surveillance programs, including the collection of data on virtually all American phone calls and internet activity. His disclosures exposed unconstitutional sur...",
     role: 'Whistleblower who revealed extent of NSA mass surveillance programs',
-    investigationCount: 6,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -3783,7 +3783,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Lyndon B. Johnson served as President from 1963-1969, escalating the Vietnam War based on the fabricated Gulf of Tonkin incident. He knew the August 4, 1964 'attack' that justified the Tonkin Gulf Resolution never occurred but used it to expand th...",
     role: 'President who escalated Vietnam War based on fabricated Gulf of Tonkin incident',
-    investigationCount: 5,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3793,7 +3793,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Robert McNamara served as Secretary of Defense under Kennedy and Johnson, presiding over the massive escalation of the Vietnam War. He lied to Congress and the public about the Gulf of Tonkin incident and the war's progress while privately doubtin...",
     role: 'Defense Secretary who lied about Gulf of Tonkin and presided over Vietnam escalation',
-    investigationCount: 6,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3803,7 +3803,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Franklin D. Roosevelt served as President from 1933-1945, leading the nation through the Depression and World War II. However, he also signed Executive Order 9066, which authorized the forced internment of 120,000 Japanese Americans - 62% of whom ...",
     role: 'President who signed Executive Order 9066 authorizing Japanese American internment',
-    investigationCount: 5,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3813,7 +3813,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Fred Korematsu was a Japanese American who refused to report for internment in 1942 and was arrested for defying Executive Order 9066. His case reached the Supreme Court, which ruled against him in one of its most reviled decisions. Decades later,...",
     role: 'Civil rights hero who refused internment and later received Presidential Medal of Freedom',
-    investigationCount: 5,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -3833,7 +3833,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Salvador Allende was the first Marxist to be elected president of a Latin American country in a free election. He was overthrown on September 11, 1973 in a CIA-backed military coup led by Augusto Pinochet. Allende died during the coup, either by s...",
     role: 'Democratically elected socialist president overthrown by CIA-backed coup',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -3843,7 +3843,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Antonin Scalia was an influential conservative Supreme Court Justice appointed by Reagan. His most consequential decision was joining the 5-4 majority in Bush v. Gore (2000), which stopped the Florida recount and effectively decided the presidenti...",
     role: 'Conservative justice who cast deciding vote in Bush v. Gore, stopping Florida recount',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -3863,7 +3863,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "John Yoo was a Deputy Assistant Attorney General who authored the infamous 'Torture Memos' that provided legal cover for the CIA's 'enhanced interrogation' torture program. His memos redefined torture so narrowly that waterboarding, stress positio...",
     role: 'Authored legal memos authorizing CIA torture program',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3873,7 +3873,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Alberto Gonzales served as White House Counsel (2001-2005) and Attorney General (2005-2007). As Counsel, he approved torture memos and called the Geneva Conventions 'quaint.' As AG, he oversaw the politically motivated firing of U.S. Attorneys, te...",
     role: 'White House Counsel who approved torture, later AG who politicized DOJ',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3883,7 +3883,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Gina Haspel ran the CIA's 'Cat's Eye' black site in Thailand in 2002 where detainees were waterboarded and tortured. She later drafted the order to destroy 92 interrogation videotapes to conceal evidence of torture. Despite this history, she was c...",
     role: 'Ran CIA black site in Thailand where prisoners were tortured; later became CIA Director',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -3893,7 +3893,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Valerie Plame was a covert CIA officer whose identity was exposed by the Bush administration in 2003 as retaliation against her husband, Joe Wilson, who publicly disputed Bush's claim that Iraq sought uranium from Niger. The exposure ended her car...",
     role: 'CIA officer whose identity was illegally exposed in retaliation for her husband\'s Iraq War criticism',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -3903,7 +3903,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Joseph Wilson was a career diplomat who investigated claims that Iraq sought uranium from Niger. He found no evidence and was alarmed when Bush cited the claim anyway in his 2003 State of the Union. Wilson's op-ed exposing the lie led to retaliati...",
     role: 'Ambassador who exposed Bush administration lies about Iraq and uranium',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -3913,7 +3913,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Maher Arar is a Canadian citizen who was seized by U.S. authorities at JFK Airport in 2002 and 'rendered' to Syria, where he was imprisoned and tortured for a year based on false intelligence. He was completely innocent. Canada apologized and paid...",
     role: 'Canadian citizen kidnapped by U.S. and rendered to Syria for torture',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -3923,7 +3923,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Khaled El-Masri is a German citizen who was kidnapped by the CIA in Macedonia in 2003, rendered to Afghanistan, and tortured for five months before the CIA realized they had the wrong man. He was dumped on a road in Albania. The U.S. has never ack...",
     role: 'German citizen kidnapped and tortured by CIA due to mistaken identity',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -3933,7 +3933,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Jeff Bezos is the founder of Amazon and owner of The Washington Post since 2013. His dual role creates conflicts of interest: Amazon has over $10 billion in federal contracts including CIA cloud computing, while the Post covers the government. Cri...",
     role: 'Richest man who owns influential newspaper while Amazon has massive government contracts',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -3943,7 +3943,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Sundar Pichai is CEO of Alphabet (Google's parent company) since 2019. Under his leadership, Google has been found to be an illegal monopoly by federal courts, faced billions in EU fines, and continued practices of mass data collection. Google col...",
     role: 'CEO of company found to be illegal monopoly, collaborated with NSA surveillance',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -3953,7 +3953,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Lloyd Austin is the current Secretary of Defense and the first African American to hold the position. Prior to his appointment, he served on the board of Raytheon (now RTX), one of the largest defense contractors, representing the revolving door b...",
     role: 'Current Defense Secretary, former Raytheon board member',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -3973,7 +3973,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Larry Page co-founded Google in 1998 and served as CEO twice. He helped build the world's largest advertising company based on mass data collection and surveillance. Google participated in NSA PRISM program and has faced antitrust rulings finding ...",
     role: 'Co-founded Google, built surveillance advertising empire',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -3983,7 +3983,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Sergey Brin co-founded Google in 1998. He helped build the world's largest advertising company based on mass data collection. Google participated in NSA PRISM program. He currently leads Google's AI efforts including Gemini.",
     role: 'Co-founded Google, built surveillance advertising empire',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -4003,7 +4003,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Mohammad Reza Shah Pahlavi was installed by a CIA coup in 1953 after the democratically elected Mohammad Mosaddegh was overthrown. His brutal regime, enforced by the SAVAK secret police (trained by CIA), killed and tortured thousands. He was overt...",
     role: 'CIA-installed dictator who ruled Iran with brutal secret police',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4013,7 +4013,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Jorge Videla led the military junta that ruled Argentina from 1976-1981. His regime's 'Dirty War' killed an estimated 30,000 people, including many thrown from planes into the sea. The U.S. provided support through Operation Condor. He was later c...",
     role: 'Dictator who led "Dirty War" killing 30,000 people',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4023,7 +4023,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Madeleine Albright was the first female Secretary of State. She infamously said on 60 Minutes that the deaths of 500,000 Iraqi children from sanctions was 'worth it.' She advocated for the NATO bombing of Yugoslavia and defended U.S. interventioni...",
     role: 'Said Iraq sanctions killing 500,000 children was "worth it"',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4043,7 +4043,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Mohammad Mosaddegh was the democratically elected Prime Minister of Iran who nationalized the British-controlled oil industry. In 1953, the CIA and MI6 overthrew him in Operation Ajax, replacing him with the Shah's authoritarian rule. This coup sh...",
     role: 'Democratically elected leader overthrown by CIA/MI6 coup',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4053,7 +4053,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Patrice Lumumba was the first democratically elected Prime Minister of the Democratic Republic of the Congo. He was overthrown and assassinated in January 1961 with CIA involvement. Eisenhower ordered his assassination, viewing him as pro-Soviet d...",
     role: 'Democratically elected leader assassinated with CIA involvement',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4063,7 +4063,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Daniel Hale is a former Air Force intelligence analyst who leaked documents exposing that nearly 90% of drone strike victims were not intended targets. He was sentenced to 45 months in prison for revealing the truth about civilian casualties in th...",
     role: 'Exposed civilian casualties from U.S. drone program, imprisoned for leaking',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4073,7 +4073,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Reality Winner was an NSA contractor who leaked a classified report showing Russian interference in the 2016 election to The Intercept. She was sentenced to over 5 years in prison - the longest sentence ever for an unauthorized disclosure to the m...",
     role: 'Leaked evidence of Russian election interference, imprisoned',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4083,7 +4083,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Al Gore served as Vice President under Clinton and won the popular vote in the 2000 presidential election. He would have won the Electoral College if the Florida recount had continued, but the Supreme Court stopped it in Bush v. Gore. He later bec...",
     role: 'Won popular vote in 2000 but lost to Supreme Court decision stopping Florida recount',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4093,7 +4093,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "John Dean was White House Counsel under Nixon who participated in the Watergate cover-up but then became the key witness against Nixon, famously telling him 'there is a cancer on the presidency.' His testimony was crucial to exposing the scandal.",
     role: 'Watergate conspirator who became key witness against Nixon',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -4103,7 +4103,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "John Mitchell served as Nixon's Attorney General and campaign manager. He approved the Watergate break-in and led the cover-up. He became the first U.S. Attorney General to be convicted and imprisoned, serving 19 months for conspiracy, obstruction...",
     role: 'Nixon AG who approved Watergate break-in, first AG imprisoned',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4113,7 +4113,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "H. R. Haldeman was Nixon's powerful Chief of Staff, known as 'the Berlin Wall' for his control of access to the president. He was central to the Watergate cover-up and was convicted of conspiracy, obstruction, and perjury, serving 18 months in pri...",
     role: 'Nixon\'s "gatekeeper" who managed cover-up and was imprisoned',
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4123,7 +4123,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "John Foster Dulles was Secretary of State under Eisenhower and brother of CIA Director Allen Dulles. Together they orchestrated coups in Iran and Guatemala, pushed 'massive retaliation' nuclear doctrine, and escalated Cold War tensions. His corpor...",
     role: 'Cold War hardliner who orchestrated coups and brinkmanship',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4133,7 +4133,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Robert F. Kennedy served as Attorney General under his brother JFK, aggressively pursuing civil rights and organized crime. After JFK's assassination, he became a Senator and ran for president in 1968. He was assassinated on June 5, 1968, after wi...",
     role: 'Civil rights champion assassinated during 1968 presidential campaign',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4143,7 +4143,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Manuel Noriega was a Panamanian dictator who was on the CIA payroll for decades while simultaneously trafficking drugs. When he became politically inconvenient, the U.S. invaded Panama in 1989 ('Operation Just Cause'), killing hundreds of civilian...",
     role: 'CIA asset and drug trafficker invaded by U.S. forces',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4153,7 +4153,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Deb Haaland is the first Native American to serve as a cabinet secretary. As Interior Secretary, she has launched investigations into the federal Indian boarding school system that traumatized generations of Native children. She represents a histo...",
     role: 'First Native American cabinet secretary, investigating boarding schools',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4173,7 +4173,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Mike Johnson became House Speaker in October 2023. Before that, he was a key architect of efforts to overturn the 2020 election, helping coordinate the strategy to object to electoral votes and filing an amicus brief in Texas v. Pennsylvania. He r...",
     role: 'House Speaker who helped coordinate efforts to overturn 2020 election',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -4183,7 +4183,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "William O'Neal was an FBI informant who infiltrated the Black Panther Party and became Fred Hampton's bodyguard. He provided the floor plan of Hampton's apartment and drugged Hampton before the December 4, 1969 raid in which Hampton was assassinat...",
     role: 'FBI informant who helped plan assassination of Fred Hampton',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4193,7 +4193,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Steven Sund was Capitol Police Chief during the January 6, 2021 attack. He testified that he requested National Guard deployment before and during the attack but was repeatedly denied or delayed. He resigned following the attack, but his testimony...",
     role: 'Capitol Police Chief during January 6 who requested National Guard deployment',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -4213,7 +4213,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Gavin McInnes is a media personality who founded the Proud Boys in 2016. The group became known for political violence and played a central role in the January 6 attack on the Capitol. Multiple Proud Boys leaders have been convicted of seditious c...",
     role: 'Founded far-right extremist group involved in January 6 attack',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4223,7 +4223,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Glenn Greenwald is a journalist and attorney who published Edward Snowden's revelations about NSA mass surveillance in The Guardian in 2013. He co-founded The Intercept and won a Pulitzer Prize for the NSA reporting. His work exposed unconstitutio...",
     role: 'Journalist who published Snowden revelations on NSA surveillance',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4233,7 +4233,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ahmed Chalabi was an Iraqi exile and head of the Iraqi National Congress who provided much of the false intelligence used to justify the Iraq War, including fabricated claims about WMDs and ties to Al-Qaeda. He was a convicted embezzler in Jordan....",
     role: 'Iraqi exile who fed false intelligence to justify Iraq War invasion',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4253,7 +4253,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Tou Thao was a Minneapolis police officer who stood guard and blocked concerned bystanders while Derek Chauvin murdered George Floyd on May 25, 2020. He was convicted of aiding and abetting manslaughter and federal civil rights violations.",
     role: 'Officer who blocked bystanders during George Floyd murder',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4273,7 +4273,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Cathy Latham was chair of the Coffee County, Georgia Republican Party who signed documents falsely claiming to be a legitimate presidential elector. She also allegedly helped facilitate the breach of election equipment in Coffee County. She was in...",
     role: 'Georgia GOP chair who participated in fake elector scheme',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -4283,7 +4283,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Dmitry Rybolovlev is a Russian oligarch who in 2008 paid Donald Trump $95 million for a Palm Beach mansion Trump had purchased for $41 million - more than double the price during a real estate crash. The transaction raised money laundering suspici...",
     role: 'Russian billionaire who bought Trump property for double its value',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -4303,7 +4303,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Zhang Yiming founded ByteDance, the Chinese company that owns TikTok. The platform faces potential ban in the United States over concerns that user data could be accessed by the Chinese government. ByteDance has been subject to bipartisan scrutiny...",
     role: 'Founded TikTok parent company facing national security concerns',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -4313,7 +4313,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Sonia Sotomayor is an Associate Justice of the Supreme Court and the first Hispanic justice. She is known for powerful dissents defending civil rights, voting rights, and criminal justice reform. Her dissent in Trump v. United States warned about ...",
     role: 'First Hispanic Supreme Court Justice, liberal voice on court',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4333,7 +4333,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Kristen Clarke is the Assistant Attorney General for Civil Rights at the Department of Justice. She leads federal enforcement of civil rights laws, including pattern-or-practice investigations of police departments and voting rights cases.",
     role: 'Assistant AG leading federal civil rights enforcement',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -4343,7 +4343,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Anne Milgram is Administrator of the Drug Enforcement Administration. She leads the agency during the fentanyl crisis that has killed hundreds of thousands of Americans. The DEA faces scrutiny over its effectiveness and the failed war on drugs.",
     role: 'DEA head during fentanyl crisis',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4353,7 +4353,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Bryan Newland is Assistant Secretary for Indian Affairs at the Department of the Interior. A citizen of the Bay Mills Indian Community, he leads the Federal Indian Boarding School Initiative investigating the deaths and abuse of Native children at...",
     role: 'Leading federal investigation into Indian boarding school atrocities',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4363,7 +4363,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Neil Heslin is the father of Jesse Lewis, a 6-year-old killed in the Sandy Hook Elementary School shooting. He was tormented by Alex Jones followers who claimed the shooting was fake. He successfully sued Jones for defamation, winning hundreds of ...",
     role: 'Father of Sandy Hook victim, won defamation suit against Alex Jones',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4373,7 +4373,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Robbie Parker is the father of Emilie Parker, one of the 20 children killed in the Sandy Hook Elementary School shooting. His emotional press conference became a target of conspiracy theorists who claimed he was a 'crisis actor.' He has spoken out...",
     role: 'Father of Sandy Hook victim targeted by conspiracy theorists',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4383,7 +4383,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Philip Graham was publisher of The Washington Post from 1946 until his death in 1963. He allegedly cooperated with the CIA's Operation Mockingbird, which sought to influence media coverage. His relationship with CIA Director Allen Dulles reportedl...",
     role: 'Publisher who allegedly cooperated with CIA Operation Mockingbird',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -4393,7 +4393,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Richard Clarke was the National Coordinator for Security and Counter-terrorism who repeatedly warned the Bush administration about Al-Qaeda before 9/11. At the 9/11 Commission, he famously apologized to the families: 'Your government failed you......",
     role: 'Official who warned about Al-Qaeda before 9/11, testified about failures',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4403,7 +4403,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Archer Blood was the U.S. Consul General in Dhaka who sent the 'Blood Telegram' in April 1971, warning that Pakistan was committing genocide against Bengalis with U.S.-supplied weapons. Nixon and Kissinger ignored his warnings and punished him for...",
     role: 'Diplomat who warned of genocide in Bangladesh, ignored by Nixon/Kissinger',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4413,7 +4413,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "General Yahya Khan was the Pakistani military dictator who ordered the genocide in Bangladesh (then East Pakistan) in 1971. His forces killed an estimated 300,000 to 3 million people. Nixon and Kissinger continued supporting him despite knowledge ...",
     role: 'Pakistani dictator who ordered Bangladesh genocide with U.S. support',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4423,7 +4423,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Milton Eisenhower, brother of Dwight Eisenhower, served as the first director of the War Relocation Authority in 1942. He helped design the unconstitutional program that imprisoned 120,000 Japanese Americans. He later expressed regret but was inst...",
     role: 'Helped design Japanese American internment program',
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: 'high' as const,
   },
   {
@@ -4433,7 +4433,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Bashar al-Assad served as President of Syria from 2000 until his overthrow in December 2024. He inherited power from his father Hafez al-Assad and presided over the brutal suppression of the 2011 Arab Spring protests that evolved into the Syrian C...",
     role: 'Dictator, War Criminal, Chemical Weapons User',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4443,7 +4443,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "James Murdoch is the younger son of media mogul Rupert Murdoch. He served as CEO of British Sky Broadcasting and later as CEO of 21st Century Fox until the Disney acquisition in 2019. He was deeply implicated in the News of the World phone hacking...",
     role: 'Media Executive, Murdoch Family Heir',
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -4453,7 +4453,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Rebekah Brooks (née Wade) is CEO of News UK (formerly News International), the British newspaper arm of Rupert Murdoch's empire. She was editor of News of the World (2000-2003) and The Sun (2003-2009) when systematic phone hacking of celebrities, ...",
     role: 'Media Executive, Phone Hacking Central Figure',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -4463,7 +4463,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ryan McCarthy served as Secretary of the Army from September 2019 to January 2021. He is a key figure in the delayed National Guard response to the January 6 Capitol attack. The Guard took over 3 hours to deploy after initial requests, raising que...",
     role: 'Army Leadership During January 6',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -4473,7 +4473,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "William Kristol is a prominent neoconservative political commentator who was one of the most influential advocates for the Iraq War. He co-founded the Project for the New American Century (PNAC), which advocated for regime change in Iraq years bef...",
     role: 'Political Commentator, Iraq War Advocate',
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -4483,7 +4483,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "JFK served as President from 1961 until his assassination in 1963. His administration oversaw the Bay of Pigs invasion, Cuban Missile Crisis, and early Vietnam escalation.",
     role: 'President (1961-1963)',
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: 'high' as const,
   },
   {
@@ -4493,7 +4493,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Eisenhower served as President from 1953-1961 and authorized the CIA coups in Iran (1953) and Guatemala (1954) that destabilized regions for decades. He warned of the 'military-industrial complex' in his farewell address.",
     role: 'President (1953-1961), General of the Army',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -4503,7 +4503,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Often called the 'godfather of neoconservatism,' Irving Kristol founded the movement that would shape U.S. foreign policy. Father of Bill Kristol.",
     role: 'Political Theorist, Publisher',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -4513,7 +4513,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Co-founder of PNAC, husband of Victoria Nuland. Leading neoconservative advocate for interventionist U.S. foreign policy.",
     role: 'Senior Fellow at Brookings Institution',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -4563,7 +4563,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Founded Koch Industries and the fortune his sons would use to fund climate denial and right-wing politics. Helped build oil refineries for Stalin's Soviet Union and Nazi Germany.",
     role: 'Industrialist',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -4573,7 +4573,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Supreme Leader of Iran since 1989. Controls military, judiciary, and media. Human rights abuses, support for proxy forces.",
     role: 'Supreme Leader (1989-Present)',
-    investigationCount: 0,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4633,7 +4633,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ruled Syria for 30 years with an iron fist. Father of current dictator Bashar al-Assad. Hama massacre killed 10,000-40,000.",
     role: 'Syrian Dictator (1971-2000)',
-    investigationCount: 0,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4663,7 +4663,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Sam Bankman-Fried founded FTX cryptocurrency exchange, which collapsed in November 2022 revealing massive fraud. He secretly transferred billions in customer funds to his hedge fund Alameda Research. He was convicted on all fraud charges and sente...",
     role: 'Former CEO of FTX',
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4693,7 +4693,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Bernie Ebbers was CEO of WorldCom, which committed $11 billion in accounting fraud - the largest in US history at the time. He was sentenced to 25 years in prison and died shortly after compassionate release in 2020.",
     role: 'Former CEO of WorldCom',
-    investigationCount: 1,
+    investigationCount: 5,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4703,7 +4703,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Dennis Muilenburg was CEO of Boeing during the 737 MAX crisis that killed 346 people in two crashes. Under his leadership, Boeing concealed the deadly MCAS defect from pilots and regulators, prioritized profits over safety, and continued flying th...",
     role: 'Former CEO of Boeing - Oversaw Mass Murder for Profit',
-    investigationCount: 5,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4713,7 +4713,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Richard Sackler led Purdue Pharma as it marketed OxyContin knowing it was addictive. Internal documents show he pushed aggressive sales while the opioid crisis killed hundreds of thousands. The Sackler family extracted billions before bankruptcy.",
     role: 'Former President of Purdue Pharma',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -4743,7 +4743,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Sam Altman is CEO of OpenAI, the company behind ChatGPT. He has faced criticism for the company's transition from nonprofit to for-profit, the departure of safety researchers, and racing to deploy AI without adequate testing.",
     role: 'CEO of OpenAI',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -4813,7 +4813,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Michael Huerta served as FAA Administrator from 2013 to 2018. Under his leadership, the FAA expanded the Organization Designation Authorization (ODA) program that allowed Boeing to self-certify aircraft. He was Administrator when the flawed 737 MA...",
     role: 'Former FAA Administrator (2013-2018)',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -4823,7 +4823,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Randy Babbitt served as FAA Administrator from 2009 to 2011. He was a former airline pilot and head of the Air Line Pilots Association (ALPA) union. He resigned after being arrested for DUI in Virginia, though the charges were later dropped. His t...",
     role: 'Former FAA Administrator (2009-2011)',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -4843,7 +4843,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Marion Blakey served as FAA Administrator from 2002 to 2007. Her tenure saw the expansion of the ODA program that would later allow Boeing to self-certify the 737 MAX. After leaving the FAA, she became President and CEO of the Aerospace Industries...",
     role: 'Former FAA Administrator (2002-2007)',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -4863,7 +4863,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "David Hinson served as FAA Administrator from 1993 to 1996. He came directly from McDonnell Douglas where he was President, raising immediate conflict of interest concerns. His tenure saw the ValuJet crash that killed 110 people - investigations r...",
     role: 'Former FAA Administrator (1993-1996)',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -4903,7 +4903,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "John 'Mitch' Barnett was a Boeing quality manager for 32 years who became a whistleblower exposing safety defects in the 787 Dreamliner and other aircraft. He reported that Boeing used defective parts, took shortcuts, and retaliated against employ...",
     role: 'Former Boeing Quality Manager',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -4923,7 +4923,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Kelly Ortberg became Boeing CEO in August 2024, brought in as an outsider to reform the company after years of safety scandals. He previously led Collins Aerospace and Rockwell Collins. He inherited a company facing criminal investigations, a stri...",
     role: 'Boeing CEO (2024-present)',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -4933,7 +4933,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "James McNerney served as Boeing CEO from 2005 to 2015, establishing the cost-cutting, stock-buyback-focused culture that critics say led to the 737 MAX disasters. McNerney, a former GE executive, prioritized financial engineering over aircraft eng...",
     role: 'Former Boeing CEO (2005-2015)',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -4943,7 +4943,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ray LaHood served as US Secretary of Transportation from 2009 to 2013 under President Obama, overseeing the FAA during the early expansion of the ODA self-certification program. A former Republican congressman, he was appointed in a show of bipart...",
     role: 'Former US Secretary of Transportation (2009-2013)',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -4953,7 +4953,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Pete Buttigieg has served as US Secretary of Transportation since 2021, overseeing the FAA during ongoing Boeing safety issues including the Alaska Airlines door plug blowout. A former mayor of South Bend, Indiana and 2020 presidential candidate, ...",
     role: 'US Secretary of Transportation (2021-present)',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -4983,7 +4983,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Paul Njoroge is a Canadian accountant who lost his wife Carolyne, three children Ryan (7), Kelly (4), and Rubi (9 months), and mother-in-law in the Ethiopian Airlines Flight 302 crash on March 10, 2019. His entire immediate family was killed when ...",
     role: 'Father Who Lost Family in Boeing Crash',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -5043,7 +5043,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Phil Condit served as Boeing CEO from 1996 to 2003, presiding over the transformative (and controversial) merger with McDonnell Douglas in 1997. While nominally a Boeing acquisition, McDonnell Douglas executives took key positions and brought thei...",
     role: 'Former Boeing CEO (1996-2003)',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -5063,7 +5063,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Mike Sinnett was Boeing's Vice President of Product Strategy and one of the executives who defended MCAS to the media and regulators after the Lion Air crash. He minimized the system's risks and assured the public the 737 MAX was safe - just month...",
     role: 'Former Boeing VP of Product Strategy',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -5113,7 +5113,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Peter DeFazio served as US Representative from Oregon from 1987 to 2023, including as Chair of the House Transportation and Infrastructure Committee. He led the most aggressive congressional investigation of the Boeing 737 MAX crashes and FAA fail...",
     role: 'Former US Representative from Oregon',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -5253,7 +5253,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Caroline Kennedy, daughter of President John F. Kennedy, served on Boeing's Board of Directors while also serving as U.S. Ambassador to Australia (2022-present) and previously Ambassador to Japan (2013-2017). Her presence on the board raised quest...",
     role: 'Boeing Board Member',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -5263,7 +5263,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Admiral Edmund Giambastiani (Ret.) is a Boeing Board Member who previously served as Vice Chairman of the Joint Chiefs of Staff, the second-highest military position in the U.S. He epitomizes the military-industrial revolving door, moving from ove...",
     role: 'Boeing Board Member',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -5283,7 +5283,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "David Gitlin is CEO of Collins Aerospace (RTX Corporation) and a Boeing Board Member. Collins Aerospace is a major aerospace supplier. His dual role as supplier CEO and Boeing board member raises conflict of interest questions about supply chain o...",
     role: 'Boeing Board Member / Collins Aerospace CEO',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -5293,7 +5293,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Erin Keating was one of the DOJ prosecutors who negotiated the controversial 2021 deferred prosecution agreement with Boeing over the 737 MAX crashes. The deal allowed Boeing to avoid criminal trial by paying $2.5 billion and accepting responsibil...",
     role: 'DOJ Attorney - Boeing Case',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -5403,7 +5403,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Doug Parker served as CEO of American Airlines from 2013 to 2022, presiding over large orders of Boeing 737 MAX jets. He led American through the MAX grounding crisis. Under his leadership, American continued its Boeing relationship despite the cr...",
     role: 'Former American Airlines CEO',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -5423,7 +5423,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ziad Ojakli served as Boeing's Executive Vice President for Government Operations before 2019, leading lobbying efforts. He previously worked for Ford and in the George W. Bush White House. He represents the revolving door between government and c...",
     role: 'Former Boeing EVP Government Operations',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -5483,7 +5483,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Richard Wyckoff served as Boeing's General Counsel, leading the company's legal department during the MAX crisis. He oversaw Boeing's legal strategy, including negotiations with the DOJ that resulted in the controversial deferred prosecution agree...",
     role: 'Boeing General Counsel',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -5493,7 +5493,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Diana Sands served as Boeing's Vice President of Internal Governance, Ethics and Compliance, responsible for the company's ethics program and handling of whistleblower complaints. Her office was criticized for how Boeing treated internal critics w...",
     role: 'Boeing VP Internal Governance',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -5503,7 +5503,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Greg Smith served as Boeing's Chief Financial Officer and Executive Vice President, overseeing the company's financial operations during the MAX crisis. The financial pressure to minimize costs and maximize stock price is cited as a root cause of ...",
     role: 'Boeing CFO',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -5523,7 +5523,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Dorenda Baker served in an FAA certification management role with direct responsibility for Boeing oversight. FAA certification managers were criticized for being too close to Boeing and failing to catch the MCAS flaws that led to the crashes.",
     role: 'FAA Certification Manager',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -5673,7 +5673,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Robert Bradway serves on Boeing's Board of Directors while also serving as CEO of Amgen. As a board member, he has governance oversight during Boeing's ongoing safety crisis and approved key decisions affecting safety culture.",
     role: 'Boeing Board Member / Amgen CEO',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -5683,7 +5683,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Billy Nolen served as FAA Acting Administrator in 2022 between Steve Dickson's departure and Mike Whitaker's confirmation. He previously worked for Airlines for America, the airline industry lobby group, representing another revolving door appoint...",
     role: 'FAA Acting Administrator (2022)',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -5713,7 +5713,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Chris Rocheleau served as FAA Acting Deputy Administrator during leadership transitions, providing continuity during the MAX crisis period. Senior FAA leadership has faced criticism for inadequate Boeing oversight.",
     role: 'FAA Acting Deputy Administrator',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -5723,7 +5723,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Basil Barimo exemplifies the FAA-industry revolving door. He served in FAA leadership positions before moving to Airlines for America (A4A), the airline industry's chief lobbying organization. This career path illustrates how the agency and indust...",
     role: 'Former FAA Director / Airlines for America VP',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -5833,7 +5833,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Sean Duffy became Transportation Secretary in 2025 under the Trump administration. He now oversees DOT and FAA during ongoing Boeing safety issues. He is former Wisconsin congressman known for reality TV appearances and conservative politics. His ...",
     role: 'DOT Secretary (2025-present)',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -5843,7 +5843,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Santiago Paredes is a Boeing whistleblower who reported quality issues at Boeing facilities. Whistleblowers like Paredes have faced retaliation for raising safety concerns. Their testimony has been crucial in exposing Boeing's quality control fail...",
     role: 'Quality Inspector',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -6183,7 +6183,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Kenneth Polite served as Assistant Attorney General for the Criminal Division, directly overseeing criminal prosecutions including the Boeing case. His division was responsible for the deferred prosecution agreement and the decision on how to hand...",
     role: 'Assistant AG for Criminal Division',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -6193,7 +6193,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "ValuJet Flight 592 crashed in the Florida Everglades on May 11, 1996, killing all 110 people aboard. The FAA had been warned about maintenance issues at SabreTech, the maintenance contractor. This disaster showed FAA's failure to act on warnings -...",
     role: '110 Killed - May 11, 1996',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -6223,7 +6223,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "William McGee is an aviation consultant and consumer advocate who has testified before Congress on airline safety and passenger rights. He wrote 'Attention All Passengers' about airline industry problems and has been a voice for aviation safety.",
     role: 'Consumer Advocate',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'low' as const,
   },
   {
@@ -6233,7 +6233,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Mary Schiavo served as DOT Inspector General from 1990 to 1996, where she exposed FAA failures. She resigned citing FAA's inability to improve. After leaving government, she became an aviation safety attorney and commentator, frequently criticizin...",
     role: 'Former DOT Inspector General',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -6263,7 +6263,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Christine Negroni is an aviation journalist and author who has covered crashes and safety issues. She wrote 'The Crash Detectives' about aviation accidents. Her work has helped public understanding of aviation safety.",
     role: 'Author and Crash Investigator',
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: 'low' as const,
   },
   {
@@ -6283,7 +6283,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "157 people from 35 countries were killed when Ethiopian Airlines Flight 302 crashed 6 minutes after takeoff from Addis Ababa. Boeing KNEW about the MCAS defect from Lion Air 610. They did NOTHING. They let people board a plane they knew was danger...",
     role: '157 People Killed from 35 Countries - March 10, 2019',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -6293,7 +6293,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Samya Rose Stumo was a 24-year-old American global health worker killed on Ethiopian Airlines Flight 302 on March 10, 2019. She worked for ThinkWell Global Health and was traveling to Nairobi for work when Boeing's defective MCAS system killed her...",
     role: 'Killed on Ethiopian Airlines 302 - Age 24',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -6303,7 +6303,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "First Officer Ahmed Nur Mohammod was the co-pilot of Ethiopian Airlines Flight 302, killed at age 25. He and Captain Yared Getachew worked together to fight the MCAS system, following all Boeing procedures. The investigation found the crew did eve...",
     role: 'First Officer of Ethiopian Airlines 302 - Killed',
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: 'extreme' as const,
   },
   {
@@ -6313,7 +6313,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Dave Calhoun became Boeing CEO in January 2020 after Dennis Muilenburg was fired over the 737 MAX crisis. Despite being brought in to fix the company, Calhoun continued the same cost-cutting, safety-ignoring culture. Under his leadership, the Alas...",
     role: 'Boeing CEO 2020-2024 - Continued Cover-Up',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -6353,7 +6353,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Su Zhu co-founded Three Arrows Capital (3AC), a crypto hedge fund that collapsed in June 2022 with over $3 billion in debts. The fund took massive leveraged positions in crypto, including a huge bet on Terra/Luna that failed catastrophically. Su Z...",
     role: '3AC Co-founder - $3 Billion Crypto Hedge Fund Collapse',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -6363,7 +6363,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Kyle Davies co-founded Three Arrows Capital with Su Zhu. After the fund collapsed with $3 billion in debts in June 2022, Davies fled to Bali and has remained a fugitive, defying court orders to cooperate with liquidators. He has given interviews f...",
     role: '3AC Co-founder - Fled After Collapse',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -6373,7 +6373,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Raj Rajaratnam founded the Galleon Group hedge fund and orchestrated the largest insider trading scheme in hedge fund history. He cultivated a network of corporate insiders who fed him confidential information about companies including Goldman Sac...",
     role: 'Galleon Group - Largest Hedge Fund Insider Trading Case',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -6383,7 +6383,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Rajat Gupta was a former McKinsey managing director and Goldman Sachs board member who fed inside information to Raj Rajaratnam. He leaked confidential information about Warren Buffett's $5 billion investment in Goldman during the 2008 financial c...",
     role: 'Goldman Sachs Board Member - Insider Trading',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -6493,7 +6493,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Demetrius Haley was one of five Memphis police officers who brutally beat Tyre Nichols on January 7, 2023, leading to his death three days later. Body camera footage showed the officers punching, kicking, and pepper-spraying Nichols while he cried...",
     role: 'Tyre Nichols Beating - Charged with Murder',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -6503,7 +6503,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Eric Munchel became known as the 'zip-tie guy' after being photographed inside the Capitol carrying flex-cuffs (plastic handcuffs) during the January 6th insurrection. The image raised questions about whether insurrectionists planned to take hosta...",
     role: 'January 6th Insurrectionist - Carried Flex Cuffs',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -6513,7 +6513,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "James Johnston was CEO of RJ Reynolds and one of the seven tobacco executives who stood before Congress on April 14, 1994, raised their right hands, and swore under oath that nicotine was not addictive. This was a coordinated lie - internal docume...",
     role: 'Big Tobacco CEO - Perjured Before Congress',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -6533,7 +6533,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Thomas Sandefur was CEO of Brown & Williamson and one of the seven tobacco executives who lied to Congress in 1994. His company was later exposed by whistleblower Jeffrey Wigand, whose story became the film 'The Insider.' Sandefur died in 1996, av...",
     role: 'Big Tobacco CEO - "The Insider" Whistleblower Case',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -6583,7 +6583,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Allen Stanford ran a $7 billion Ponzi scheme through Stanford Financial Group, defrauding investors by selling fraudulent certificates of deposit from his Antigua-based Stanford International Bank. He used the proceeds to fund an extravagant lifes...",
     role: 'Stanford Financial Group - $7 Billion Fraud',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -6603,7 +6603,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Scott Rothstein was a Florida attorney who ran a $1.2 billion Ponzi scheme through his law firm, selling investors interests in fabricated legal settlements. He created fake clients, fake lawsuits, and fake settlement documents. He lived an over-t...",
     role: 'Rothstein Rosenfeldt Adler - $1.2 Billion Fraud',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -6703,7 +6703,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Michael Milken pioneered the junk bond market in the 1980s at Drexel Burnham Lambert, enabling hostile takeovers and corporate raiders. He was convicted of securities fraud in 1990 and served 22 months in prison. Despite his conviction, he was par...",
     role: '"Junk Bond King" - Securities Fraud Conviction',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -6713,7 +6713,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ivan Boesky was a stock trader who became the face of 1980s Wall Street greed. He made millions through insider trading, famously declaring 'Greed is good' (later used in the film Wall Street). He cooperated with prosecutors, wearing a wire to rec...",
     role: 'Wall Street Arbitrageur - Insider Trading Conspiracy',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -6743,7 +6743,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "John Hammergren was CEO of McKesson, the largest pharmaceutical distributor in America, from 2001-2019. Under his leadership, McKesson distributed billions of opioid pills while ignoring suspicious orders, fueling the addiction crisis. McKesson pa...",
     role: 'McKesson CEO - Opioid Distribution Giant',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -6753,7 +6753,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Steven Collis is CEO of AmerisourceBergen (now Cencora), one of the 'Big Three' drug distributors that shipped billions of opioid pills while failing to report suspicious orders. The company was part of the $21 billion distributor settlement in 20...",
     role: 'AmerisourceBergen CEO - Opioid Distributor',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -6833,7 +6833,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Warren Buffett is portrayed as the 'good' billionaire but has profited from predatory businesses. Berkshire owns Clayton Homes, which has been accused of predatory lending targeting mobile home buyers. He famously pays a lower tax rate than his se...",
     role: 'Billionaire Investor - Tax Avoidance, Predatory Investments',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -6843,7 +6843,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ray Dalio founded Bridgewater Associates, the world's largest hedge fund. He has been criticized for defending China while it commits genocide against Uyghurs, comparing its government to 'strict parents.' He has profited massively while dismissin...",
     role: 'Hedge Fund Billionaire - China Defender',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -6883,7 +6883,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Trevor Milton founded Nikola Motors, an electric/hydrogen truck company, and defrauded investors with lies about the company's technology. He claimed Nikola had a working semi truck when it was actually just rolled downhill for promotional video. ...",
     role: 'Nikola Motors Founder - EV Fraud Conviction',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -6893,7 +6893,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Charlie Javice founded Frank, a college financial aid startup, and allegedly inflated customer numbers from 300,000 to 4.25 million to deceive JPMorgan into paying $175 million for the company. She was charged with fraud in 2023 after JPMorgan dis...",
     role: 'Frank Founder - $175 Million Fraud',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -7003,7 +7003,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Kevin Burns was CEO of JUUL during its explosive growth that created a teen vaping epidemic. JUUL marketed addictive nicotine products to teenagers through social media, causing a new generation to become addicted. The company faced thousands of l...",
     role: 'JUUL CEO - Teen Vaping Epidemic',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7023,7 +7023,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Adam Bowen co-founded JUUL with James Monsees, creating the device that sparked the teen vaping epidemic. The sleek design and fruity flavors attracted teenagers, while high nicotine content ensured addiction. Bowen became a billionaire while mill...",
     role: 'JUUL Co-founder - Teen Vaping Epidemic',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -7063,7 +7063,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Andrew Witty leads UnitedHealth Group, the largest health insurer in America, which has been accused of systematically denying coverage to boost profits. The company uses algorithms to deny claims and has faced lawsuits for wrongful coverage denia...",
     role: 'UnitedHealth CEO - Coverage Denials, Profiteering',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7073,7 +7073,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "David Cordani leads Cigna, which has been accused of using automated systems to deny coverage without proper review. A 2023 investigation revealed that Cigna doctors denied claims in bulk without examining patient files, rejecting hundreds of thou...",
     role: 'Cigna CEO - Coverage Denials',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -7143,7 +7143,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Heather Bresch, daughter of Senator Joe Manchin, led Mylan during the EpiPen price gouging scandal. She raised EpiPen prices from $100 to over $600 while giving herself a 600% raise. Millions of families with children with severe allergies were fo...",
     role: 'Mylan CEO - EpiPen Price Gouging',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7153,7 +7153,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Martin Shkreli became the face of pharmaceutical greed when he raised the price of Daraprim, a life-saving AIDS medication, from $13.50 to $750 per pill - a 5,000% increase. He was convicted of securities fraud unrelated to drug pricing and served...",
     role: '"Pharma Bro" - Price Gouging, Securities Fraud',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7163,7 +7163,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Les Moonves was one of the most powerful executives in television until he was forced out over sexual misconduct allegations. Multiple women accused him of sexual harassment, assault, and using his power to destroy the careers of women who rejecte...",
     role: 'CBS CEO - Sexual Assault, Obstruction',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7233,7 +7233,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "George Santos was elected to Congress based on a fabricated biography - he lied about his education, work history, religion, and family. He was indicted on 23 federal charges including fraud, money laundering, and theft. He was expelled from Congr...",
     role: 'Congressman - Serial Fraud and Lies',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7323,7 +7323,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Jason Van Dyke shot 17-year-old Laquan McDonald 16 times in Chicago on October 20, 2014. Video showed McDonald walking away when shot. The city covered up the video for over a year. Van Dyke was convicted of second-degree murder but served only 3 ...",
     role: 'Shot Laquan McDonald 16 Times - CONVICTED',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7343,7 +7343,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Kim Potter, a 26-year veteran, shot and killed 20-year-old Daunte Wright during a traffic stop on April 11, 2021, claiming she meant to use her taser. The shooting occurred during the Derek Chauvin trial just miles away. She was convicted of mansl...",
     role: 'Shot Daunte Wright - CONVICTED',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7353,7 +7353,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Philip Brailsford shot and killed Daniel Shaver in a Mesa hotel hallway on January 18, 2016, while Shaver crawled on the floor crying and begging for his life. Brailsford's rifle was engraved 'You're Fucked.' He was acquitted and now receives a $2...",
     role: 'Shot Daniel Shaver - Acquitted, Now Receives Pension',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7363,7 +7363,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Michael Slager shot Walter Scott in the back 5 times as Scott ran away after a traffic stop on April 4, 2015. Video showed Slager planting his taser near Scott's body. He was convicted of civil rights violations and sentenced to 20 years.",
     role: 'Shot Walter Scott in Back - CONVICTED',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7383,7 +7383,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Greg Abbott has been Texas Governor since 2015, overseeing deadly power grid failures that killed hundreds, implementing cruel border policies including floating barriers that drowned migrants, busing migrants to Democratic cities, and signing ext...",
     role: 'Texas Governor - Border Cruelty, Grid Failures',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7403,7 +7403,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Tommy Tuberville is a former football coach elected to the Senate in 2020. He single-handedly blocked over 400 military promotions for 10 months to protest abortion policy, weakening military readiness. He has made numerous false statements and sh...",
     role: 'Senator - Military Promotion Blockade',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -7433,7 +7433,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Thomas Homan served as Acting ICE Director under Trump and was a key architect of the family separation policy. Under his leadership, children were torn from parents, detained in cages, and several died in custody. He openly bragged about deportin...",
     role: 'ICE - Family Separations, Detention Deaths',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7443,7 +7443,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "R. Kelly (Robert Kelly) was convicted of racketeering and sex trafficking in 2021 and child pornography in 2022. He used his fame to recruit underage girls and women for decades, subjecting them to sexual abuse while the music industry protected h...",
     role: 'Singer - Child Sex Trafficking CONVICTED',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7453,7 +7453,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Larry Nassar was USA Gymnastics and Michigan State team doctor who sexually abused over 500 girls and women over decades, including Olympic gymnasts. He was sentenced to effectively life in prison. MSU and USA Gymnastics covered up complaints for ...",
     role: 'USA Gymnastics Doctor - Mass Child Sexual Abuse',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7463,7 +7463,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Bill Cosby drugged and sexually assaulted over 60 women over five decades. He was convicted in 2018 but released in 2021 when the Pennsylvania Supreme Court overturned his conviction on a technicality. He has never been acquitted and civil cases c...",
     role: 'Entertainer - Serial Sexual Assault',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7473,7 +7473,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Harvey Weinstein was one of Hollywood's most powerful producers who used his position to rape and sexually assault over 80 women over three decades. The 2017 exposure of his crimes launched the #MeToo movement. He was convicted of rape and sexual ...",
     role: 'Film Producer - Serial Rape, Sex Trafficking CONVICTED',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7573,7 +7573,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Dennis Prager founded PragerU, a right-wing media outlet that creates propaganda videos often shown in schools. PragerU spreads climate denial, historical revisionism including downplaying slavery, and right-wing talking points disguised as educat...",
     role: 'PragerU Founder - Disinformation, Historical Revisionism',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -7743,7 +7743,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Leon Black is a billionaire private equity founder who paid Jeffrey Epstein $158 million for financial advice and other services after Epstein's 2008 conviction. He stepped down from Apollo amid scrutiny of the relationship and has faced multiple ...",
     role: 'Apollo Global Founder - Epstein Ties, $158 Million Paid',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7763,7 +7763,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Mort Zuckerman is a billionaire media and real estate magnate who owned US News & World Report and the New York Daily News. He was part of Jeffrey Epstein's social circle and Epstein managed some of his finances before his 2008 conviction.",
     role: 'US News Owner - Epstein Associate',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -7793,7 +7793,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "James Mitchell is the psychologist who designed the CIA's 'enhanced interrogation techniques' including waterboarding, sleep deprivation, and stress positions. He personally waterboarded detainees and made over $81 million from torture. His method...",
     role: 'Architect of Enhanced Interrogation - Waterboarding Designer',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7803,7 +7803,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Bruce Jessen co-designed the CIA's torture program with James Mitchell. Together they made over $81 million from developing and implementing waterboarding and other torture techniques. He helped reverse military resistance training into methods of...",
     role: 'Co-Architect of Enhanced Interrogation Program',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7813,7 +7813,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Jon Burge was a Chicago police commander who, from 1972 to 1991, systematically tortured over 200 Black men to extract confessions. His methods included electric shocks, suffocation, and beatings. At least 20 of his victims were wrongfully convict...",
     role: 'Chicago Police - Tortured Over 200 Black Men CONVICTED',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7823,7 +7823,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Mohamed Noor was a Minneapolis police officer who shot and killed Justine Damond in 2017. Damond, an Australian woman, had called 911 to report a possible assault and approached the police car when Noor shot her through the car door. He was convic...",
     role: 'Minneapolis Police - Killed Justine Damond CONVICTED',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -7843,7 +7843,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Travis McMichael is the man who shot and killed Ahmaud Arbery, a 25-year-old Black man who was jogging in Brunswick, Georgia. McMichael, his father, and neighbor pursued Arbery in trucks and shot him in what prosecutors called a modern-day lynchin...",
     role: 'Ahmaud Arbery Killer - Modern Lynching CONVICTED',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7863,7 +7863,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "William Bryan joined the pursuit of Ahmaud Arbery and used his truck to help trap the victim. He recorded the murder on video - footage that initially he hoped would exonerate the killers but instead proved their guilt. Convicted of felony murder.",
     role: 'Filmed Ahmaud Arbery Murder CONVICTED',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7943,7 +7943,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Roberto Minuta is an Oath Keepers member convicted of seditious conspiracy for the January 6 attack. He was part of the 'quick reaction force' staged outside DC with weapons and helped breach the Capitol in tactical gear while guarding Roger Stone.",
     role: 'Oath Keepers - January 6 CONVICTED',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7953,7 +7953,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Larry Brock is a retired Air Force lieutenant colonel who entered the Capitol on January 6 wearing tactical gear and carrying flex-cuffs. He was photographed on the Senate floor and later admitted he intended to use the cuffs on legislators.",
     role: 'Retired Air Force Officer - Senate Floor Intruder CONVICTED',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -7963,7 +7963,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Riley June Williams is the woman who stole a laptop from Nancy Pelosi's office during the January 6 attack. According to an ex-boyfriend, she planned to sell it to Russian intelligence through a contact. The laptop has never been recovered.",
     role: 'Stole Pelosi Laptop - Planned to Sell to Russia CONVICTED',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -7973,7 +7973,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Lonnie Coffman drove from Alabama to DC with an arsenal in his truck including 11 Molotov cocktails, multiple firearms, a crossbow, and hundreds of rounds of ammunition. His truck was parked near the Capitol and RNC/DNC headquarters where pipe bom...",
     role: 'Brought Molotov Cocktails and Guns to Capitol CONVICTED',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -7983,7 +7983,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Julian Khater was convicted of assaulting police officers during January 6, including spraying Capitol Police Officer Brian Sicknick with bear spray. Sicknick collapsed and died the next day. Khater was captured on video deploying chemical spray a...",
     role: 'Assaulted Officer Sicknick with Bear Spray CONVICTED',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8003,7 +8003,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Thomas Webster is a former NYPD officer who attacked Capitol Police Officer Noah Rathbun with a metal flagpole on January 6. Despite claiming self-defense, video showed him as the aggressor. He received one of the longest sentences for assaulting ...",
     role: 'Former NYPD Officer - Attacked Capitol Police CONVICTED',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8053,7 +8053,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Billy McFarland is the con artist behind the disastrous Fyre Festival, which defrauded investors and ticket buyers of millions. Attendees arrived to find disaster relief tents and cheese sandwiches instead of the luxury experience promised. He com...",
     role: 'Fyre Festival Mastermind CONVICTED',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -8063,7 +8063,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Anna Sorokin, aka Anna Delvey, posed as a wealthy German heiress to defraud banks, hotels, and acquaintances out of hundreds of thousands of dollars in New York. Her story became a Netflix series. She was convicted of theft of services and grand l...",
     role: 'Fake German Heiress - Bank Fraud CONVICTED',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -8073,7 +8073,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Nikolas Cruz murdered 17 people and wounded 17 others at Marjory Stoneman Douglas High School in Parkland, Florida in 2018. He was a former student who used an AR-15. Survivors launched the March for Our Lives movement. He was sentenced to life wi...",
     role: 'Parkland School Shooter - Killed 17 CONVICTED/LIFE',
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8083,7 +8083,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Salvador Ramos murdered 19 children and 2 teachers at Robb Elementary School in Uvalde, Texas in 2022. He was 18 and had legally purchased AR-15 style rifles days earlier. Police waited over an hour before confronting him while children called 911...",
     role: 'Uvalde School Shooter - Killed 21',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8103,7 +8103,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Stephen Paddock murdered 60 people and wounded over 400 others by firing from his hotel room into a country music festival on the Las Vegas Strip in 2017. It remains the deadliest mass shooting in modern U.S. history. He killed himself before poli...",
     role: 'Las Vegas Shooter - Killed 60, DEADLIEST US MASS SHOOTING',
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8113,7 +8113,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Omar Mateen murdered 49 people and wounded 53 others at Pulse, a gay nightclub in Orlando, Florida in 2016. He pledged allegiance to ISIS during the attack. It was the deadliest attack on LGBTQ+ people in U.S. history. He was killed by police afte...",
     role: 'Pulse Nightclub Shooter - Killed 49',
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8163,7 +8163,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Keith Raniere founded NXIVM, presented as a self-help organization but operating as a sex cult. He led a secret society called DOS where women were branded with his initials, forced into sexual servitude, and blackmailed. Convicted of sex traffick...",
     role: 'NXIVM Founder - Sex Trafficking CONVICTED/120 YEARS',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8173,7 +8173,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Josh Duggar was the eldest child of the '19 Kids and Counting' reality TV family. He was convicted of receiving and possessing child sexual abuse material, some involving children as young as 18 months. Earlier accusations of molesting his sisters...",
     role: 'Reality TV Star - Child Pornography CONVICTED',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8273,7 +8273,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Andrew Tate is a social media influencer and former kickboxer indicted in Romania on charges of human trafficking, rape, and forming an organized crime group to sexually exploit women. He promotes extreme misogyny to millions of young men through ...",
     role: 'Self-Help Guru - Human Trafficking INDICTED',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8283,7 +8283,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Tristan Tate is Andrew Tate's brother, also indicted in Romania for human trafficking and rape alongside his sibling. They allegedly operated a scheme luring women with promises of romantic relationships then forcing them into webcam and exploitat...",
     role: 'Andrew Tate\'s Brother - Human Trafficking INDICTED',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8303,7 +8303,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Rush Limbaugh was the most influential conservative radio host, spreading racist, misogynist, and conspiratorial content to millions for three decades. He called Sandra Fluke a 'slut,' mocked Michael J. Fox's Parkinson's, and pushed conspiracy the...",
     role: 'Conservative Radio Pioneer - Racism and Misogyny',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -8313,7 +8313,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Kenneth Lay founded Enron and served as chairman during its fraudulent growth and spectacular collapse. He was convicted on multiple counts of fraud but died before sentencing, resulting in his conviction being vacated. He was close friends with t...",
     role: 'Enron Founder/Chairman - Massive Corporate Fraud',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8353,7 +8353,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Louie Gohmert was a Texas congressman known for pushing wild conspiracy theories including about election fraud. He supported overturning the 2020 election and was present on January 6. He sued Mike Pence to try to force him to reject electoral vo...",
     role: 'Texas Rep - Election Conspiracy Promoter',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -8363,7 +8363,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Madison Cawthorn was the youngest member of Congress when elected at 25. He spoke at the January 6 rally and called the insurrectionists 'political prisoners.' He was caught with a gun at the airport twice, faced ethics complaints, and lost his pr...",
     role: 'NC Rep - January 6 Rally Speaker',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -8383,7 +8383,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Elise Stefanik went from moderate Republican to election denier and Trump loyalist. She voted to overturn the 2020 election, replaced Liz Cheney in House leadership, and pushed 'Great Replacement' conspiracy theory. Trump nominated her as UN Ambas...",
     role: 'NY Rep - Election Denier, Trump Loyalist',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -8403,7 +8403,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Barry Loudermilk led a tour of the Capitol complex on January 5, 2021, the day before the insurrection. Some participants photographed areas including security checkpoints and later participated in January 6. He initially denied giving any tours.",
     role: 'Georgia Rep - January 5 Capitol Tour',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -8463,7 +8463,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Lee Zeldin served as New York Congressman and is Trump's EPA Administrator nominee. He voted to overturn the 2020 election, has no environmental background, and is expected to gut environmental protections. He has zero votes supporting environment...",
     role: 'Election Denier - Environmental Deregulation',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -8503,7 +8503,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Nancy Mace represents South Carolina in Congress as the first woman to graduate from The Citadel. She blamed Trump for January 6th then completely reversed, seeking his endorsement. Her position changes epitomize political opportunism over principle.",
     role: 'First Female Citadel Graduate - Flip-Flopper',
-    investigationCount: 0,
+    investigationCount: 1,
     riskLevel: 'low' as const,
   },
   {
@@ -8523,7 +8523,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Clay Higgins represents Louisiana in Congress, known for violent rhetoric and viral 'Crime Stoppers' videos. He posted racist content about Haitians, called for violence against FBI, and has history of excessive force complaints. Called himself 'C...",
     role: 'Cajun John Wayne - Violent Rhetoric',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -8533,7 +8533,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ralph Norman represents South Carolina in Congress. He texted Mark Meadows urging Trump to declare martial law before January 6th. He also pulled out a loaded gun during a constituent meeting. He voted to overturn the 2020 election.",
     role: 'Martial Law Text - Gun Display',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -8563,7 +8563,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Rick Santorum served as Pennsylvania Senator and ran for President twice. Known for extreme anti-LGBTQ positions, comparing homosexuality to bestiality. His 'man on dog' comments and opposition to contraception made him a culture war icon. Later f...",
     role: 'Culture Warrior - Homophobic Remarks',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -8593,7 +8593,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Tim Pool is a right-wing podcaster exposed by DOJ as unwitting Russian asset receiving $100K per video through Tenet Media. He predicted Trump would win 49 states, promoted civil war rhetoric, and pushed election fraud conspiracies. His beanie-wea...",
     role: 'Russian Asset - Civil War Promoter',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -8623,7 +8623,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "James O'Keefe founded Project Veritas, known for deceptively edited 'sting' videos. He was convicted for entering federal property under false pretenses. His videos have been repeatedly debunked but influence conservative media. He was ousted from...",
     role: 'Project Veritas Founder - Deceptive Editing',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -8643,7 +8643,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Milo Yiannopoulos was a Breitbart editor and alt-right provocateur banned from most platforms. His career ended after audio surfaced defending pedophilia. He later claimed to be 'ex-gay' and worked briefly for MTG. His rise and fall epitomizes the...",
     role: 'Alt-Right Troll - Pedophilia Defender',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -8663,7 +8663,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Gary Cohn served as Trump's National Economic Council Director after being Goldman Sachs President. He architected the 2017 tax cuts that benefited corporations and wealthy individuals while adding trillions to the deficit. He removed documents fr...",
     role: 'Goldman Sachs - Tax Cut Architect',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -8683,7 +8683,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Anthony Weiner was a rising Democratic star who resigned after sexting scandals. He later served prison time for sexting a 15-year-old. His laptop emails led to Comey reopening Clinton investigation days before 2016 election, potentially changing ...",
     role: 'Disgraced Sexting Politician',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -8693,7 +8693,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Eliot Spitzer was New York's 'Sheriff of Wall Street' as AG who prosecuted corporate crime. As Governor, he was caught using high-end prostitution services (Client 9) while having prosecuted prostitution rings. He resigned in disgrace - the ultima...",
     role: 'Client 9 - Prostitution Scandal',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -8703,7 +8703,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ed Buck was a wealthy Democratic donor convicted of killing two Black men by injecting them with methamphetamine at his West Hollywood apartment. He preyed on homeless and vulnerable Black men in a pattern of racialized predation. Sentenced to 30 ...",
     role: 'Serial Killer - Injected Victims with Meth',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8733,7 +8733,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Henry Cuellar is a conservative Democratic Congressman indicted in 2024 for allegedly taking bribes from Azerbaijan and a Mexican bank. FBI raided his home in 2022. He is one of the most conservative Democrats and voted against abortion rights.",
     role: 'Azerbaijan Bribery - FBI Raided',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'high' as const,
   },
   {
@@ -8743,7 +8743,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Steve Scalise is House Majority Leader who survived a 2017 mass shooting. He admitted speaking at a 2002 white supremacist conference organized by David Duke, calling himself 'David Duke without the baggage.' He voted to overturn the 2020 election...",
     role: 'David Duke Speech - Cancer Survivor',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -8753,7 +8753,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Virginia Foxx chairs the House Education Committee while opposing student debt relief. She called Matthew Shepard's murder a 'hoax' and voted against hate crimes legislation. She earned $110K+ from for-profit college industry she regulates.",
     role: 'Education Chair - Anti-Student Agenda',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -8763,7 +8763,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Joe Manchin is a conservative Democratic Senator who single-handedly killed Build Back Better, voting rights, and climate legislation. His family coal company Enersystems provides him $500K+ annually while he chairs Energy Committee. He represents...",
     role: 'Coal Baron - BBB Killer',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'high' as const,
   },
   {
@@ -8783,7 +8783,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Strom Thurmond was the longest-serving Senator in U.S. history, a vicious segregationist who conducted a 24-hour filibuster against Civil Rights Act. He fathered a secret Black daughter while promoting white supremacy. He switched from Democrat to...",
     role: 'Segregationist - 24-Hour Filibuster',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8793,7 +8793,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Jesse Helms was known as 'Senator No' for opposing civil rights, AIDS funding, LGBT rights, and art. He blocked AIDS research during epidemic, saying victims 'brought it on themselves.' He used racist 'hands' ad against Black opponent and opposed ...",
     role: 'Senator No - AIDS Blocker',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8843,7 +8843,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ted Kaczynski was the Unabomber who conducted a 17-year mail bombing campaign (1978-1995), killing 3 and injuring 23. A Harvard-educated math prodigy, he targeted universities and airlines with increasingly sophisticated bombs. His manifesto was p...",
     role: 'Anti-Technology Terrorist - 17-Year Campaign',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8883,7 +8883,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Anwar al-Awlaki was an American-Yemeni cleric who became al-Qaeda's most effective English-language recruiter. He inspired the Fort Hood shooter, underwear bomber, and countless other attacks. He was the first American citizen deliberately killed ...",
     role: 'American Terrorist - Drone Strike Target',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'extreme' as const,
   },
   {
@@ -8993,7 +8993,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Tudor Dixon was the Trump-endorsed Michigan gubernatorial candidate backed by the DeVos family. She promoted election denial, said 14-year-old rape victims should be forced to give birth, and lost by 10 points to Gretchen Whitmer in 2022.",
     role: 'DeVos-Backed - Election Denier',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -9033,7 +9033,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Emmitt Martin III was one of five Memphis police officers who beat Tyre Nichols to death. Video showed him repeatedly punching Nichols in the face while other officers held him. He was convicted of federal civil rights violations in a trial that r...",
     role: 'Former Memphis Police Officer',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -9053,7 +9053,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Justin Smith was one of five Memphis police officers convicted in the fatal beating of Tyre Nichols during a January 2023 traffic stop. He was part of the SCORPION unit that was disbanded after the killing came to light.",
     role: 'Former Memphis Police Officer',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -9063,7 +9063,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Henry 'Hank' Paulson served as Treasury Secretary under George W. Bush from 2006-2009 and was CEO of Goldman Sachs from 1999-2006. He architected the $700 billion TARP bailout during the 2008 financial crisis, rescuing the banks that caused the cr...",
     role: 'Former U.S. Treasury Secretary',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -9093,7 +9093,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Lisa Eisenhart participated in the January 6, 2021 Capitol attack alongside her son Eric Munchel, who was photographed carrying zip-tie handcuffs. She entered the Capitol wearing tactical gear and stated they were prepared for 'combat' and 'took o...",
     role: 'January 6 Insurrectionist',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -9103,7 +9103,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Mark Swartz was the CFO of Tyco International who, along with CEO Dennis Kozlowski, looted the company of over $400 million through unauthorized bonuses, loan forgiveness, and fraudulent stock sales. He was convicted of grand larceny, securities f...",
     role: 'Former Tyco CFO',
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: 'moderate' as const,
   },
   {
@@ -9113,7 +9113,7 @@ const individuals: Entity[] = [
     type: 'individual' as const,
     description: "Ramesh 'Sunny' Balwani was the President and COO of Theranos, the blood-testing startup that defrauded investors of hundreds of millions. He was Elizabeth Holmes' secret boyfriend while running the company. Balwani oversaw the lab operations that ...",
     role: 'Former Theranos President/COO',
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: 'moderate' as const,
   },
   {
@@ -9133,7 +9133,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Abdulrahman Anwar al-Awlaki was a 16-year-old American citizen born in Denver, Colorado, who was killed by a CIA-operated drone strike in Yemen on October 14, 2011, two weeks after his father Anwar...",
     role: "Civilian victim of extrajudicial killing by the United States government",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "low",
   },
   {
@@ -9143,7 +9143,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Abu Zubaydah is a Palestinian man who has been held by the United States without charge since his capture in Pakistan in March 2002. He was the first detainee subjected to the CIA",
     role: "Indefinitely detained prisoner subjected to CIA enhanced interrogation techniques",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "low",
   },
   {
@@ -9153,7 +9153,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Ahmad Chalabi was an Iraqi politician and leader of the Iraqi National Congress (INC) who played a central role in promoting false intelligence about Iraqi weapons of mass destruction that was used...",
     role: "Leader of the Iraqi National Congress who provided fabricated intelligence used to justify the 2003 Iraq invasion",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -9163,7 +9163,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Alan Greenspan served as Chairman of the Federal Reserve for nearly two decades, during which he championed radical financial deregulation, blocked regulation of derivatives, kept interest rates ar...",
     role: "Chairman of the Federal Reserve (1987-2006) whose policies of financial deregulation and low interest rates fueled the housing bubble",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -9173,7 +9173,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Alfredo Stroessner was the military dictator of Paraguay for 35 years, making his regime one of the longest military dictatorships in South American history. Under his rule, Paraguay became a key p...",
     role: "Military dictator of Paraguay (1954-1989) who participated in Operation Condor cross-border repression",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -9183,7 +9183,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Andrew Jackson was the 7th President of the United States (1829-1837) whose presidency is most prominently defined by the Indian Removal Act of 1830 and the resulting forced displacement of approxi...",
     role: "President who signed the Indian Removal Act and forced the Trail of Tears, resulting in the deaths of thousands of Native Americans",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -9193,7 +9193,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Angelo Mozilo co-founded Countrywide Financial in 1969 and built it into the largest mortgage lender in the United States by aggressively pushing subprime and adjustable-rate mortgages to borrowers...",
     role: "Co-founder and CEO of Countrywide Financial who drove predatory subprime lending that fueled the 2008 financial crisis",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -9203,7 +9203,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Anthony Kennedy served as an Associate Justice of the U.S. Supreme Court for 30 years. While often considered a 'swing vote,' his most consequential and controversial decision was authoring the maj...",
     role: "Associate Justice of the Supreme Court (1988-2018) who authored Citizens United v. FEC, unleashing unlimited corporate spending in elections",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "moderate",
   },
   {
@@ -9213,7 +9213,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Antonio Taguba is a retired U.S. Army Major General who conducted the official military investigation into detainee abuse at Abu Ghraib prison in Iraq. His 2004 report—known as the Taguba Report—do...",
     role: "Major General who authored the Taguba Report documenting systemic abuse at Abu Ghraib prison",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "low",
   },
   {
@@ -9233,7 +9233,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Ben Bernanke served as Chairman of the Federal Reserve during the worst financial crisis since the Great Depression. An academic expert on the 1930s Depression, Bernanke took over from Alan Greensp...",
     role: "Chairman of the Federal Reserve (2006-2014) who oversaw the crisis response but failed to prevent the collapse",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "moderate",
   },
   {
@@ -9243,7 +9243,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Bernardo Leighton was a prominent Chilean Christian Democratic politician who served as Minister of the Interior and Vice President. After the 1973 coup that brought Augusto Pinochet to power, Leig...",
     role: "Former Chilean Vice President and Christian Democratic leader who survived a DINA assassination attempt in Rome",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "low",
   },
   {
@@ -9253,7 +9253,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Bradley A. Smith is a law professor and former Chairman of the Federal Election Commission (2000-2005) who has been one of the most influential advocates for dismantling campaign finance regulation...",
     role: "Federal Election Commission Chairman who advocated for deregulating political spending",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "moderate",
   },
   {
@@ -9263,7 +9263,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Carl Schurz was a German-born American politician, Union Army general, and Secretary of the Interior under President Rutherford B. Hayes from 1877 to 1881. As Interior Secretary, he oversaw the Bur...",
     role: "Secretary of the Interior (1877-1881) who oversaw federal Indian policy during a critical period",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "moderate",
   },
   {
@@ -9283,7 +9283,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Charles Fahy served as Solicitor General of the United States from 1941 to 1945, during which he argued before the Supreme Court in defense of the Japanese American internment. In the landmark case...",
     role: "U.S. Solicitor General who withheld and falsified evidence before the Supreme Court to uphold Japanese American internment",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -9293,7 +9293,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Charles Graner was a U.S. Army Specialist and former civilian prison guard who became the most prominent convicted abuser in the Abu Ghraib torture scandal. Identified as the ringleader of the abus...",
     role: "U.S. Army Specialist convicted as ringleader of detainee abuse at Abu Ghraib prison",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -9513,7 +9513,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Alec Smith is documented in ArkHive investigations for their role as 26-year-old diabetic who died rationing insulin he couldn\'t afford after aging off parents\' insurance.",
     role: "26-year-old diabetic who died rationing insulin he couldn\'t afford after aging off parents\' insurance",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -9723,7 +9723,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Arne Duncan is documented in ArkHive investigations for their role as Obama Education Secretary who implemented gainful employment rule to hold for-profit colleges accountable.",
     role: "Obama Education Secretary who implemented gainful employment rule to hold for-profit colleges accountable",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -9913,7 +9913,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Bernard Reilly is documented in ArkHive investigations for their role as DuPont attorney who managed the company\'s PFAS defense and internal risk communications.",
     role: "DuPont attorney who managed the company\'s PFAS defense and internal risk communications",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -9953,7 +9953,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Bill Buford is documented in ArkHive investigations for their role as ATF Special Agent in Charge of the initial raid; wounded in the February 28 gun battle.",
     role: "ATF Special Agent in Charge of the initial raid; wounded in the February 28 gun battle",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -10153,7 +10153,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Cameron Todd Willingham is documented in ArkHive investigations for their role as Executed in Texas in 2004 for arson murder despite strong evidence of innocence; fire science debunked prosecution ...",
     role: "Executed in Texas in 2004 for arson murder despite strong evidence of innocence; fire science debunked prosecution case",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -10343,7 +10343,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Chokwe Antar Lumumba is documented in ArkHive investigations for their role as Jackson Mayor who declared water emergency, sought federal intervention.",
     role: "Jackson Mayor who declared water emergency, sought federal intervention",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -10363,7 +10363,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Chris Murphy is documented in ArkHive investigations for their role as Connecticut Senator who led 15-hour filibuster for gun reform after Pulse nightclub shooting.",
     role: "Connecticut Senator who led 15-hour filibuster for gun reform after Pulse nightclub shooting",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -10403,7 +10403,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Christopher Cox is documented in ArkHive investigations for their role as SEC Chairman during the final years of the fraud; resigned amid criticism of agency failures.",
     role: "SEC Chairman during the final years of the fraud; resigned amid criticism of agency failures",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -10633,7 +10633,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Daniel Carder is documented in ArkHive investigations for their role as West Virginia University researcher whose emissions testing first uncovered the discrepancy.",
     role: "West Virginia University researcher whose emissions testing first uncovered the discrepancy",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -11013,7 +11013,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Dick Fuld is documented in ArkHive investigations for their role as Lehman Brothers CEO. Oversaw Lehman\'s massive leveraging into subprime mortgages and use of Repo 105 accounting tricks to hide $...",
     role: "Lehman Brothers CEO. Oversaw Lehman\'s massive leveraging into subprime mortgages and use of Repo 105 accounting tricks to hide $50B in debt from investors. When Lehman collapsed on September 15, 2008, it triggered global panic.",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -11243,7 +11243,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Edwin Gray is documented in ArkHive investigations for their role as Federal Home Loan Bank Board Chairman who tried to re-regulate thrifts and was politically undermined.",
     role: "Federal Home Loan Bank Board Chairman who tried to re-regulate thrifts and was politically undermined",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -11293,7 +11293,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Elijah Muhammad is documented in ArkHive investigations for their role as Nation of Islam leader whose dispute with Malcolm X provided motive for assassination.",
     role: "Nation of Islam leader whose dispute with Malcolm X provided motive for assassination",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -11353,7 +11353,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Emilio Eduardo Massera is documented in ArkHive investigations for their role as Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School) — the most notorious torture and extermination cente...",
     role: "Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School) — the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen",
-    investigationCount: 1,
+    investigationCount: 4,
     riskLevel: "high",
   },
   {
@@ -11363,7 +11363,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Emmett Till is documented in ArkHive investigations for their role as 14-year-old from Chicago visiting family in Mississippi, kidnapped and murdered.",
     role: "14-year-old from Chicago visiting family in Mississippi, kidnapped and murdered",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -11673,7 +11673,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "George de Mohrenschildt is documented in ArkHive investigations for their role as Oswald\'s handler in Dallas; CIA asset who died of gunshot before HSCA testimony.",
     role: "Oswald\'s handler in Dallas; CIA asset who died of gunshot before HSCA testimony",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -12073,7 +12073,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Hugh Thompson Jr. is documented in ArkHive investigations for their role as Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and ...",
     role: "Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and fleeing civilians, ordering his crew to fire on U.S. troops if they continued killing. He was initially vilified and received death threats — not recognized as a hero until 30 years later.",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -12163,7 +12163,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Jack Ruby is documented in ArkHive investigations for their role as Dallas nightclub owner who murdered Oswald on live television; ties to organized crime.",
     role: "Dallas nightclub owner who murdered Oswald on live television; ties to organized crime",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -12183,7 +12183,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Jacobo \u00C1rbenz is documented in ArkHive investigations for their role as Democratically elected President of Guatemala (1951-1954) overthrown by CIA for land reform program.",
     role: "Democratically elected President of Guatemala (1951-1954) overthrown by CIA for land reform program",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -12423,7 +12423,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Jean-Bertrand Aristide is documented in ArkHive investigations for their role as First democratically elected president; overthrown twice with US involvement (1991, 2004).",
     role: "First democratically elected president; overthrown twice with US involvement (1991, 2004)",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -12483,7 +12483,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Jeffry Picower is documented in ArkHive investigations for their role as Madoff\'s largest individual beneficiary who withdrew $7.2B; estate settled for $7.2B after his death.",
     role: "Madoff\'s largest individual beneficiary who withdrew $7.2B; estate settled for $7.2B after his death",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -12773,7 +12773,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "John Hull is documented in ArkHive investigations for their role as CIA-connected rancher in Costa Rica whose property served as Contra supply base and drug transshipment point.",
     role: "CIA-connected rancher in Costa Rica whose property served as Contra supply base and drug transshipment point",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -13063,7 +13063,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "J.W. Milam is documented in ArkHive investigations for their role as Roy Bryant\'s half-brother who participated in kidnapping and murder — acquitted.",
     role: "Roy Bryant\'s half-brother who participated in kidnapping and murder — acquitted",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -13443,7 +13443,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "LeeAnne Walters is documented in ArkHive investigations for their role as Flint mother whose children suffered lead poisoning; her activism helped expose the crisis.",
     role: "Flint mother whose children suffered lead poisoning; her activism helped expose the crisis",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -13663,7 +13663,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Mandrel Stuart is documented in ArkHive investigations for their role as Virginia restaurant owner who had $17,550 seized during traffic stop; never charged.",
     role: "Virginia restaurant owner who had $17,550 seized during traffic stop; never charged",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -13853,7 +13853,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Maude DeVictor is documented in ArkHive investigations for their role as VA benefits counselor who first connected veteran illness to Agent Orange exposure.",
     role: "VA benefits counselor who first connected veteran illness to Agent Orange exposure",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -13963,7 +13963,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Michael D. Powell is documented in ArkHive investigations for their role as ALEC National Chairman \u2014 Oversaw development of model legislation increasing incarceration rates.",
     role: "ALEC National Chairman \u2014 Oversaw development of model legislation increasing incarceration rates",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -14283,7 +14283,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Oliver Wendell Holmes Jr. is documented in ArkHive investigations for their role as Supreme Court Justice who wrote Buck v. Bell opinion upholding forced sterilization.",
     role: "Supreme Court Justice who wrote Buck v. Bell opinion upholding forced sterilization",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -14323,7 +14323,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Oscar Danilo Bland\u00F3n is documented in ArkHive investigations for their role as Nicaraguan drug trafficker who sold tons of cocaine in LA to fund the Contras; became DEA informant.",
     role: "Nicaraguan drug trafficker who sold tons of cocaine in LA to fund the Contras; became DEA informant",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -14723,7 +14723,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Richard Henry Pratt is documented in ArkHive investigations for their role as U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school...",
     role: "U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school system. Coined the phrase \"Kill the Indian, save the man\" — the guiding philosophy behind forcibly removing over 100,000 Native children from their families to erase their cultures.",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -14793,7 +14793,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "R.J. Lehmann is documented in ArkHive investigations for their role as Patient advocates who documented hospital chargemaster pricing — $25 aspirin, $700 saline bags.",
     role: "Patient advocates who documented hospital chargemaster pricing — $25 aspirin, $700 saline bags",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -14983,7 +14983,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Robert Williams is documented in ArkHive investigations for their role as First documented wrongful arrest due to facial recognition — a Black man falsely identified by Detroit PD.",
     role: "First documented wrongful arrest due to facial recognition — a Black man falsely identified by Detroit PD",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -15373,7 +15373,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Smedley Butler is documented in ArkHive investigations for their role as US Marine Major General who led 1915 invasion; later denounced US military interventions as rackets.",
     role: "US Marine Major General who led 1915 invasion; later denounced US military interventions as rackets",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -15393,7 +15393,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Stanley McChrystal is documented in ArkHive investigations for their role as Commander of forces in Afghanistan; fired for critical comments but documents show his private assessments were even ble...",
     role: "Commander of forces in Afghanistan; fired for critical comments but documents show his private assessments were even bleaker",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -15463,7 +15463,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Stuart Johnson is documented in ArkHive investigations for their role as VW engineer charged with destruction of evidence and conspiracy to defraud regulators.",
     role: "VW engineer charged with destruction of evidence and conspiracy to defraud regulators",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -15553,7 +15553,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Tarla Makaeff is documented in ArkHive investigations for their role as Original lead plaintiff; testified about high-pressure upselling tactics.",
     role: "Original lead plaintiff; testified about high-pressure upselling tactics",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -15973,7 +15973,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Tyler Shultz is documented in ArkHive investigations for their role as Theranos lab employee and grandson of board member George Shultz; became a key whistleblower despite family pressure.",
     role: "Theranos lab employee and grandson of board member George Shultz; became a key whistleblower despite family pressure",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -16213,7 +16213,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "William Pepper is documented in ArkHive investigations for their role as Attorney for the King family who represented them in the 1999 civil trial and Ray\'s appeals.",
     role: "Attorney for the King family who represented them in the 1999 civil trial and Ray\'s appeals",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -16823,7 +16823,7 @@ const individuals: Entity[] = [
     type: "individual",
     description: "Norwin Meneses was a major Nicaraguan drug trafficker with documented connections to the CIA-backed Contra rebels. He supplied cocaine to dealers in the United States while allegedly enjoying prote...",
     role: "Nicaraguan drug trafficker linked to CIA-backed Contra operations who supplied cocaine to US dealers",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {

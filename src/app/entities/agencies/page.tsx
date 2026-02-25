@@ -14,7 +14,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Under Trump, the DOJ became a weapon of political persecution. AG William Barr misrepresented the Mueller Report, intervened in Roger Stone's sentencing, and dropped charges against Michael Flynn.",
     role: "Federal Executive Department",
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -44,7 +44,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Domestic intelligence and law enforcement agency with long history of controversial surveillance programs. Trump repeatedly attacked the FBI while director Comey investigated Russia ties.",
     role: "Intelligence & Law Enforcement",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "high",
   },
   {
@@ -54,7 +54,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Foreign intelligence service with documented history of torture, black sites, and foreign government coups. MKUltra mind control experiments only scratched the surface.",
     role: "Foreign Intelligence",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -114,7 +114,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Allowed Trump to profit from DC hotel lease. Emily Murphy delayed Biden transition ascertainment for weeks. Failed to enforce conflict of interest provisions.",
     role: "Independent Federal Agency",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "moderate",
   },
   {
@@ -124,7 +124,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Mnuchin blocked Trump tax returns, granted sanctions relief to Russian oligarchs, and delivered COVID relief favoring corporations. FinCEN leaks exposed suspicious Trump transactions.",
     role: "Federal Executive Department",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -134,7 +134,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "National Guard deployment delayed on January 6th. Esper fired for opposing Insurrection Act. Trump installed loyalists in final weeks. Kash Patel made Chief of Staff to Acting SecDef.",
     role: "Federal Executive Department",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "extreme",
   },
   {
@@ -154,7 +154,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Pinochet's secret police responsible for systematic torture, assassination, and forced disappearance. Coordinated with Operation Condor. Assassinated Orlando Letelier in Washington D.C.",
     role: "Secret Police (Dissolved)",
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -164,7 +164,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Shah's CIA/Mossad-trained secret police estimated to have killed 100,000+ Iranians. Notorious for torture including electric shock, burning, and nail extraction. Fueled 1979 revolution.",
     role: "Secret Police (Dissolved)",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "extreme",
   },
   {
@@ -174,7 +174,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "WWII intelligence agency and CIA predecessor. Recruited Nazi war criminals through Operation Paperclip. Established stay-behind networks that became far-right terror groups.",
     role: "Intelligence (Dissolved)",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "high",
   },
   {
@@ -184,7 +184,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "DOJ office that authored torture memos authorizing waterboarding and 'enhanced interrogation.' Created legal cover for warrantless surveillance and presidential immunity from prosecution.",
     role: "DOJ Legal Advisory",
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -194,7 +194,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Overwhelmed on January 6, 2021 despite advance intelligence warnings. Subsequent investigations revealed delayed National Guard deployment and questions about leadership decisions.",
     role: "Federal Law Enforcement",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -204,7 +204,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Systematically weakened by NRA-backed legislation. Cannot maintain electronic gun sales database, inspect dealers adequately, or have permanent director due to gun lobby obstruction.",
     role: "Law Enforcement",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -214,7 +214,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Largest federal law enforcement agency. Children died in custody, secret Facebook groups with racist content. Involved in family separation at border.",
     role: "Border Security",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -234,7 +234,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Administered Japanese American internment camps during WWII. Imprisoned 120,000 people without charge based solely on race. A shameful chapter in American history.",
     role: "Historical (Dissolved)",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -254,7 +254,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Enforces federal drug laws that have disproportionately targeted minorities. The War on Drugs has imprisoned millions while failing to reduce drug use or trafficking.",
     role: "Law Enforcement",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -274,7 +274,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Oversees public health and social services. Under Trump, failed COVID response killed hundreds of thousands. Family separation policy traumatized children.",
     role: "Federal Executive Department",
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -304,7 +304,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Deliberately left without quorum by Trump to prevent campaign finance enforcement. Dark money proliferated while violations went uninvestigated.",
     role: "Independent Regulatory Agency",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -344,7 +344,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Conducted Tuskegee syphilis experiment (1932-1972), deliberately withholding treatment from Black men for 40 years. Guatemala STD experiments on prisoners.",
     role: "Public Health",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -354,7 +354,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Officers murdered George Floyd in 2020, sparking largest protests in U.S. history. DOJ found pattern of unconstitutional excessive force and discrimination.",
     role: "Municipal Law Enforcement",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "extreme",
   },
   {
@@ -364,7 +364,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Responsible for Flint water crisis catastrophe. Manipulated testing, covered up lead contamination, allowed 100,000 people to be poisoned for 18 months.",
     role: "State Environmental Agency",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "extreme",
   },
   {
@@ -374,7 +374,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Land warfare branch with history of atrocities: Native American genocide, My Lai massacre, Abu Ghraib torture, civilian casualties across wars.",
     role: "Military Branch",
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -384,7 +384,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Coordinates all military branches. Gulf of Tonkin lies led to Vietnam. Iraq WMD lies killed hundreds of thousands. Never passed a full audit despite trillions spent.",
     role: "Cabinet Department",
-    investigationCount: 4,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -404,7 +404,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Secured first criminal conviction of a former president. Trump found guilty on 34 felony counts of falsifying business records in hush money case.",
     role: "Local Prosecutorial Office",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "high",
   },
   {
@@ -454,7 +454,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Manages federal lands, Native American affairs. Dark history of genocide, boarding schools, treaty violations. BIA described as most corrupt federal agency.",
     role: "Cabinet Department",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "high",
   },
   {
@@ -474,7 +474,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Violently cleared peaceful Lafayette Square protesters with chemical agents to enable Trump's St. John's Church photo op in June 2020.",
     role: "Federal Law Enforcement",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -484,7 +484,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Faced unprecedented political pressure during COVID. Trump pushed hydroxychloroquine authorization, pressured vaccine approval timing for political benefit.",
     role: "Federal Regulatory Agency",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -544,7 +544,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Created after the 2008 financial crisis to police predatory lending. Repeatedly targeted for dismantling by industry-aligned officials who gutted enforcement actions and froze rulemaking from within.",
     role: "Independent Federal Agency",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -554,7 +554,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Charged with defending U.S. critical infrastructure from cyber threats. Its election security work became politically contentious, leading to the firing of its director for contradicting claims of widespread voter fraud.",
     role: "Intelligence & Law Enforcement",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -574,7 +574,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Regulates telecommunications and broadcasting. Oversaw the controversial repeal of net neutrality rules under industry-friendly leadership, while millions of public comments were found to be fabricated.",
     role: "Independent Federal Agency",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -584,7 +584,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Secret court approving domestic surveillance warrants with virtually no public accountability. Exposed by the Snowden revelations for rubber-stamping mass surveillance programs targeting U.S. citizens.",
     role: "Intelligence & Law Enforcement",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -594,7 +594,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Investigates war crimes and crimes against humanity worldwide. Faced sanctions and threats from the United States after opening probes into American military conduct in Afghanistan and allied nations' operations.",
     role: "International Organization",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -614,7 +614,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "China's principal intelligence and secret police apparatus. Implicated in global cyber-espionage campaigns, transnational repression of dissidents, and infiltration of Western technology and government institutions.",
     role: "Foreign Intelligence",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -644,7 +644,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Responsible for workplace safety enforcement across the country. Chronically underfunded and understaffed, with inspection rates at historic lows while preventable worker deaths continue to climb.",
     role: "Federal Regulatory Agency",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -664,7 +664,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Global intergovernmental organization criticized for Security Council paralysis, peacekeeping abuse scandals, and inability to enforce resolutions against powerful member states committing documented atrocities.",
     role: "International Organization",
-    investigationCount: 1,
+    investigationCount: 5,
     riskLevel: "high",
   },
   {
@@ -674,7 +674,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Delegated critical safety certification to Boeing itself before two 737 MAX crashes killed 346 people. A captured regulator whose systemic failures in oversight enabled preventable aviation disasters.",
     role: "Federal Regulatory Agency",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -684,7 +684,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Central banking system wielding enormous economic power with limited transparency. Officials caught trading securities during monetary policy deliberations, raising serious conflict-of-interest concerns.",
     role: "Independent Federal Agency",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -694,7 +694,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Elite military command conducting classified kill-or-capture operations worldwide. Operates with minimal congressional oversight and has been linked to extrajudicial killings and unacknowledged combat deployments.",
     role: "Military Command",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -744,7 +744,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Canada's aviation regulator that independently validated 737 MAX recertification rather than deferring to the FAA. Their scrutiny highlighted the erosion of trust in American regulatory oversight.",
     role: "Foreign Government Agency",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "moderate",
   },
   {
@@ -754,7 +754,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Independent federal agency investigating transportation disasters. Despite producing damning findings on Boeing and the FAA, the NTSB lacks enforcement power — its safety recommendations are routinely ignored.",
     role: "Independent Federal Agency",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -764,7 +764,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Manages federal lands and natural resources. Under Trump, aggressively expanded fossil fuel extraction, rolled back environmental protections, and was at the center of the Lafayette Square clearing operation.",
     role: "Federal Executive Department",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -774,7 +774,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Responsible for coordinating all agencies and functions related to national security. Failed audits with trillions in unaccounted spending, Abu Ghraib scandal, civilian drone casualties, and January 6 inaction.",
     role: "Federal Executive Department",
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -784,7 +784,7 @@ const agencies: Entity[] = [
     type: "agency",
     description: "Conducts foreign policy and diplomacy. Under Trump, hollowed out, politicized, and used to pressure Ukraine leading to the first impeachment. Career diplomats purged.",
     role: "Federal Executive Department",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "high",
   },
   {

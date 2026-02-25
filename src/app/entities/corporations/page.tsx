@@ -14,7 +14,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Convicted of 17 felonies. $454M fraud judgment. CFO imprisoned. Money laundering, tax fraud, hush money payments. Deutsche Bank received $2B+ despite red flags.",
     role: "Criminal Enterprise",
-    investigationCount: 5,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -24,7 +24,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "DJT stock meme company operating Truth Social. Lost $58M on $4M revenue. SEC SPAC merger investigation. Trump owns 60% - valuation driven by cult following, not fundamentals.",
     role: "Social Media / SPAC Shell",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -44,7 +44,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Harvested 87 million Facebook users' data without consent. Funded by Mercer family, led by Steve Bannon. Dissolved 2018 amid scandal. Facebook fined $5 billion.",
     role: "Data Harvesting Operation (Dissolved)",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -64,7 +64,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "National Enquirer owner ran catch-and-kill operation for Trump. Paid Karen McDougal $150K. CEO David Pecker testified as first witness in criminal trial.",
     role: "Catch-and-Kill Operation",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -104,7 +104,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Lev Parnas shell company that paid Rudy Giuliani $1M for Ukraine dirt-digging. Funded by Ukrainian oligarch. Both founders convicted of campaign finance fraud.",
     role: "Shell Company / Foreign Money Conduit",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -134,7 +134,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "World's largest defense contractor. $40B+ in government contracts. Supplied precision-guided bombs used in Yemen school bus bombing killing 40 children. Major Saudi arms deal beneficiary.",
     role: "Defense Contractor",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -204,7 +204,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Cambridge Analytica scandal, Instagram teen mental health crisis, Myanmar genocide facilitation, election interference platform. $5B FTC fine was a slap on wrist.",
     role: "Social Media / Data Harvesting",
-    investigationCount: 4,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -214,7 +214,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "World's dominant search engine. NSA PRISM collaboration, antitrust monopoly violations, mass surveillance of users. Federal court ruled it an illegal monopoly in 2024.",
     role: "Technology / Advertising Monopoly",
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -234,7 +234,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Key NSA surveillance partner since 2001. Room 641A provided warrantless access to communications. Granted retroactive immunity for illegal wiretapping.",
     role: "Telecommunications / Surveillance",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -264,7 +264,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Knew about climate change since 1970s, funded denial campaigns for 40 years. Rex Tillerson became Secretary of State. Valdez spill devastated Alaska.",
     role: "Oil & Gas",
-    investigationCount: 2,
+    investigationCount: 7,
     riskLevel: "extreme",
   },
   {
@@ -274,7 +274,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Major defense contractor. Tomahawk missiles, Patriot systems, Javelin anti-tank weapons. Supplied bombs used in Yemen civilian massacres including school bus attack.",
     role: "Defense Contractor",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "high",
   },
   {
@@ -284,7 +284,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "737 MAX crashes killed 346 people. Covered up design flaws. Weaponry supplied for Yemen war. DOJ deferred prosecution deal. CEO departed with $62M.",
     role: "Aerospace / Defense",
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -344,7 +344,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Elon Musk destroyed content moderation, reinstated banned accounts including Trump. Platform for election disinformation. 80% staff cut.",
     role: "Social Media",
-    investigationCount: 2,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -374,7 +374,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Knew baby powder contained asbestos, sold it anyway. Opioid settlement. Talc bankruptcy scheme to avoid liability. 'Family company' poisoned families.",
     role: "Pharmaceutical / Consumer Products",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -394,7 +394,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "World's largest retailer. Opioid dispensing scandal. Union-busting. Poverty wages subsidized by taxpayers ($6B/year in public assistance for employees).",
     role: "Retail",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "high",
   },
   {
@@ -404,7 +404,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Drug distributor that shipped 14.1M opioid pills to single West Virginia town. $8B+ opioid settlement. DEA flagged suspicious orders ignored.",
     role: "Pharmaceutical Distribution",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -434,7 +434,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Largest health insurer. Navistar algorithm denied claims automatically. CEO Brian Thompson assassinated 2024. Record profits while denying coverage.",
     role: "Health Insurance",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -464,7 +464,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "World's most profitable company. State-owned oil giant. Climate change driver. Funds regime that murdered Khashoggi. $2T+ valuation.",
     role: "Oil & Gas (State-Owned)",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
@@ -474,7 +474,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Baby formula marketing killed millions in developing countries. Child labor in cocoa supply chain. Water privatization. 'Water is not a human right' - former CEO.",
     role: "Food & Beverage",
-    investigationCount: 3,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -504,7 +504,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Hedge fund notorious for acquiring and gutting local newspapers, slashing newsrooms to extract profits. Largest newspaper chain in America by number of publications.",
     role: "Hedge Fund / Media Vulture",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -534,7 +534,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Largest publicly traded U.S. water and wastewater utility. Scrutinized over infrastructure failures, rate hikes, and the commodification of essential water resources.",
     role: "Water Utility",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "moderate",
   },
   {
@@ -544,7 +544,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Conservative political organization involved in election-related advocacy and dark money networks supporting far-right candidates and policy initiatives.",
     role: "Political Organization",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -554,7 +554,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Trump Tower development partner led by Felix Sater, a convicted felon with ties to Russian organized crime. Funneled money from former Soviet states into Trump-branded projects.",
     role: "Real Estate Development",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -614,7 +614,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Beverage giant facing scrutiny over environmental pollution, water resource depletion in developing nations, and alleged complicity in human rights abuses in its supply chain.",
     role: "Beverage / Consumer Products",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "moderate",
   },
   {
@@ -624,7 +624,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Tom Barrack's investment firm. Barrack chaired Trump's inaugural committee and was indicted for acting as an unregistered foreign agent for the UAE.",
     role: "Private Equity / Foreign Influence",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -674,7 +674,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Chemical manufacturer responsible for the Bhopal disaster aftermath and widespread environmental contamination. History of producing Agent Orange and toxic pesticides.",
     role: "Chemical Manufacturing",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -714,7 +714,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Paul Singer's aggressive activist hedge fund known for suing sovereign nations to collect on distressed debt. Major Republican donor who initially funded Trump opposition research.",
     role: "Activist Hedge Fund",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -724,7 +724,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Operator of the Dakota Access Pipeline built through Standing Rock Sioux sacred land despite massive protests. CEO Kelcy Warren donated $10M to Trump's campaign.",
     role: "Oil & Gas Pipeline",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -744,7 +744,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Platform that enabled Cambridge Analytica's data harvesting, facilitated election interference, and amplified misinformation. Internal research showed Instagram harmed teen mental health.",
     role: "Social Media Platform",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -754,7 +754,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Conservative legal organization that has effectively captured the federal judiciary. Vetted all Trump Supreme Court nominees and shaped the overturning of Roe v. Wade.",
     role: "Legal Advocacy / Judicial Selection",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -764,7 +764,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Peter Thiel's venture capital firm investing in surveillance tech and defense startups. Thiel funded Hulk Hogan's lawsuit that destroyed Gawker Media.",
     role: "Venture Capital",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -784,7 +784,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Alex Jones' holding company for Infowars. Filed for bankruptcy after $1.5 billion Sandy Hook defamation judgments. Funneled conspiracy media profits to Jones personally.",
     role: "Media Holding Company",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -814,7 +814,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Social media platform launched by former Trump spokesman Jason Miller. Became a haven for extremist content and far-right figures banned from mainstream platforms.",
     role: "Social Media Platform",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -824,7 +824,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Pro-Trump Super PAC investigated for potential coordination with the campaign. Raised tens of millions while questions swirled about how funds were actually spent.",
     role: "Super PAC",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -834,7 +834,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Conservative think tank behind Project 2025, a detailed blueprint for authoritarian consolidation of executive power. Architect of the radical right's policy agenda.",
     role: "Think Tank / Policy",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -884,7 +884,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Steven Mnuchin's investment fund that received $1 billion from Saudi Arabia's sovereign wealth fund shortly after leaving his post as Trump's Treasury Secretary.",
     role: "Private Equity / Gulf Investment",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -904,7 +904,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Modeling agency run by Jean-Luc Brunel, a key associate of Jeffrey Epstein. Used as a pipeline for trafficking young women under the guise of modeling careers.",
     role: "Modeling Agency / Trafficking Front",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -914,7 +914,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Technology giant with antitrust history and massive government contracts. Major investor in OpenAI. Dominant position in enterprise software raises competition and surveillance concerns.",
     role: "Technology",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "moderate",
   },
   {
@@ -924,7 +924,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Bob Murray's coal company that lobbied Trump to gut environmental regulations. Crandall Canyon mine collapse killed six workers. Filed for bankruptcy amid coal decline.",
     role: "Coal Mining (Dissolved)",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -934,7 +934,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Mike Lindell's pillow company that became a vehicle for election denial funding. Lindell spent tens of millions promoting debunked conspiracy theories about voting machines.",
     role: "Consumer Products / Election Denial",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -954,7 +954,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Right-wing news network that amplified 2020 election fraud claims to poach Fox News viewers. Faces defamation lawsuits from Smartmatic over voting conspiracy coverage.",
     role: "Conservative Media",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -964,7 +964,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Opaque shell company appearing in multiple financial investigations. Linked to complex money flows and corporate structures designed to obscure beneficial ownership.",
     role: "Shell Company",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -1024,7 +1024,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Global beverage and snack conglomerate scrutinized for environmental impact, plastic pollution, and marketing unhealthy products in developing nations.",
     role: "Beverage / Consumer Products",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "moderate",
   },
   {
@@ -1034,7 +1034,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Tobacco giant that spent decades covering up the link between smoking and cancer. Internal documents revealed systematic deception of the public while millions died.",
     role: "Tobacco",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -1064,7 +1064,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Tobacco company that targeted youth with Joe Camel marketing while suppressing cancer research. Decades of litigation over deliberate public health deception.",
     role: "Tobacco",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -1094,7 +1094,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Largest local TV station owner in the U.S. Forced anchors to read identical pro-Trump scripts on air. Used local news trust to inject partisan messaging nationwide.",
     role: "Broadcasting / Conservative Media",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -1114,7 +1114,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Boeing 737 MAX fuselage supplier whose quality control failures led to a door plug blowing out mid-flight on Alaska Airlines. Whistleblowers reported systemic safety issues.",
     role: "Aerospace Manufacturing",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -1124,7 +1124,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Election denial movement that organized the rally preceding the January 6th Capitol assault. Network of dark money, extremist groups, and Trump allies coordinating the big lie.",
     role: "Political Movement / Election Denial",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -1154,7 +1154,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Anti-Trump conservative media outlet founded by former Weekly Standard writers. Provides center-right criticism of MAGA movement and Republican Party radicalization.",
     role: "Conservative Media",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "moderate",
   },
   {
@@ -1184,7 +1184,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Fraudulent for-profit education venture that scammed students with worthless courses. Not an accredited university. Trump paid $25 million to settle fraud lawsuits.",
     role: "Fraudulent Education (Dissolved)",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -1204,7 +1204,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Orchestrated CIA-backed coups in Guatemala and Honduras to protect banana profits. Coined the term 'banana republic.' Decades of exploitation across Latin America.",
     role: "Agriculture / Historical CIA Operations",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -1214,7 +1214,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Engineered sophisticated software to cheat emissions tests on 11 million diesel vehicles worldwide. Dieselgate scandal resulted in $30B+ in fines and settlements.",
     role: "Automotive",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -1234,7 +1234,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Conservative news outlet that initially funded Fusion GPS opposition research on Trump before the DNC continued it, eventually producing the Steele dossier.",
     role: "Conservative Media",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "high",
   },
   {
@@ -1274,7 +1274,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "One of the Big Five accounting firms that served as Enron's auditor. Convicted of obstruction of justice for shredding Enron documents. Firm collapsed — 85,000 employees lost jobs. Led to Sarbanes-Oxley Act.",
     role: "Accounting / Professional Services (Dissolved)",
-    investigationCount: 1,
+    investigationCount: 2,
     riskLevel: "extreme",
   },
   {
@@ -1284,7 +1284,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Voting technology company targeted by baseless conspiracy theories after the 2020 election. Won a record $787.5 million defamation settlement from Fox News. Dominion was the VICTIM of disinformation.",
     role: "Election Technology",
-    investigationCount: 2,
+    investigationCount: 1,
     riskLevel: "low",
   },
   {
@@ -1294,7 +1294,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Manufacturer of the StingRay cell-site simulator used by law enforcement for warrantless surveillance. Requires agencies to sign non-disclosure agreements hiding the technology from courts and the public.",
     role: "Defense / Surveillance Technology",
-    investigationCount: 1,
+    investigationCount: 3,
     riskLevel: "high",
   },
   {
@@ -1304,7 +1304,7 @@ const corporations: Entity[] = [
     type: "corporation",
     description: "Major defense contractor whose precision-guided munitions were used in Saudi coalition bombing of Yemen civilians including school bus attacks. Former lobbyist Mark Esper became Secretary of Defense.",
     role: "Defense / Aerospace",
-    investigationCount: 3,
+    investigationCount: 1,
     riskLevel: "extreme",
   },
   {
