@@ -90,8 +90,8 @@ const featuredEntities: Entity[] = [
 const stats = {
   totalInvestigations: 385,  // 164 dedicated pages + 221 catch-all entries
   entitiesTracked: 2007,  // 81 agencies + 131 corporations + 75 organizations + 1720 individuals
-  documentsArchived: 8,  // actual document entries on /documents page
-  activeAlerts: 8,  // actual notification entries on /notifications page
+  documentsArchived: 201,  // document entries on /documents page
+  activeAlerts: 60,  // notification entries on /notifications page
 };
 
 export default function Home() {
