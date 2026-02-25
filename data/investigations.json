@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "dummy-investigation",
+    "title": "Dummy Investigation",
+    "subtitle": "Test import",
+    "severity": "low",
+    "category": "Test",
+    "date": "January 1, 2025",
+    "summary": "This is a dummy investigation created by the importer.",
+    "content": [],
+    "affiliations": [],
+    "entities": [],
+    "keyFindings": [],
+    "coverup": [],
+    "legalOutcomes": [],
+    "charges": []
+  }
+]
