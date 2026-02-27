@@ -2557,7 +2557,122 @@ const agencyData: Record<string, {
     keyFigures: [
       { name: 'Ronald Davis', position: 'Director' },
     ],
+  },  'mossad': {
+    name: 'Mossad',
+    acronym: 'Mossad',
+    type: 'Foreign Intelligence',
+    riskLevel: 'critical',
+    description: 'Israeli national intelligence agency. Multiple intelligence sources and former officers have alleged that Jeffrey Epstein and Ghislaine Maxwell operated as Israeli intelligence assets running a sexual blackmail operation. Ghislaine\'s father Robert Maxwell was widely reported as a Mossad agent by Seymour Hersh and Gordon Thomas. Former Israeli intelligence officer Ari Ben-Menashe publicly claimed the Epstein operation was an Israeli intelligence project.',
+    founded: '1949',
+    headquarters: 'Tel Aviv, Israel',
+    employees: 'Classified (estimated 7,000+)',
+    budget: 'Classified (estimated $2.7B)',
+    jurisdiction: 'International',
+    controversies: [
+      'Alleged operation of Epstein-Maxwell sexual blackmail network',
+      'Robert Maxwell links to Mossad extensively documented',
+      'Ari Ben-Menashe claims about Epstein-Maxwell as assets',
+      'Refusal to confirm or deny involvement',
+    ],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Robert Maxwell', position: 'Alleged Agent (Deceased)', href: '/entities/individuals/robert-maxwell' },
+    ],
   },
+  'french-justice': {
+    name: 'French Judicial System',
+    acronym: 'PJ',
+    type: 'Judicial',
+    riskLevel: 'medium',
+    description: 'French judicial authorities who opened an investigation into Jeffrey Epstein\'s activities in France in 2019. Paris prosecutors investigated crimes at Epstein\'s Avenue Foch apartment. Jean-Luc Brunel was charged with rape of minors before dying in custody in 2022.',
+    founded: '1789',
+    headquarters: 'Paris, France',
+    employees: '85,000+',
+    budget: 'EUR 9.5B',
+    jurisdiction: 'France',
+    controversies: [
+      'Delayed investigation into Epstein French connections',
+      'Brunel died in French custody before trial',
+      'Questions about protection of modeling industry trafficking',
+    ],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+    ],
+  },
+  'usvi-ag': {
+    name: 'US Virgin Islands Attorney General',
+    acronym: 'USVI AG',
+    type: 'Territorial Law Enforcement',
+    riskLevel: 'medium',
+    description: 'The USVI AG office filed a landmark lawsuit against the Epstein estate in 2020. AG Denise George detailed decades of trafficking in the territory. George was fired by the USVI governor one day after suing JPMorgan over Epstein ties. Her successor continued both cases.',
+    founded: '1954',
+    headquarters: 'Charlotte Amalie, USVI',
+    employees: '50+',
+    budget: '$8M',
+    jurisdiction: 'US Virgin Islands',
+    controversies: [
+      'AG Denise George fired after suing JPMorgan',
+      'Epstein received secret tax benefits from USVI government',
+      'Local officials aware of activities for decades',
+    ],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Denise George', position: 'Former AG (Fired)' },
+    ],
+  },
+  'palm-beach-pd': {
+    name: 'Palm Beach Police Department',
+    acronym: 'PBPD',
+    type: 'Local Law Enforcement',
+    riskLevel: 'low',
+    description: 'Conducted the original investigation into Epstein starting in 2005 under Chief Michael Reiter and Detective Joe Recarey. Identified 40+ victims. Their work was undermined at the state and federal level but is considered the most thorough law enforcement effort against Epstein.',
+    founded: '1929',
+    headquarters: 'Palm Beach, Florida',
+    employees: '155+',
+    budget: '$38M',
+    jurisdiction: 'Palm Beach, Florida',
+    controversies: [
+      'Investigation undermined by state attorney Barry Krischer',
+      'Overwhelming evidence did not lead to serious prosecution',
+      'Chief Reiter took extraordinary step of referring to FBI',
+    ],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Michael Reiter', position: 'Chief (at time)', href: '/entities/individuals/michael-reiter' },
+      { name: 'Joe Recarey', position: 'Lead Detective (Deceased)', href: '/entities/individuals/joe-recarey' },
+    ],
+  },
+  'afp': {
+    name: 'Australian Federal Police',
+    acronym: 'AFP',
+    type: 'Federal Law Enforcement',
+    riskLevel: 'low',
+    description: 'Investigated Epstein connections following revelations that some victims were Australian nationals. Australian media reported connections between Epstein and Australian figures in his black book.',
+    founded: '1979',
+    headquarters: 'Canberra, Australia',
+    employees: '6,900+',
+    budget: 'AUD $1.7B',
+    jurisdiction: 'Australia',
+    controversies: [
+      'Details of Epstein-related investigation remain largely classified',
+    ],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+    ],
+  },
+
+
+
 };
 
 const riskColors = {

@@ -2636,7 +2636,252 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2018', event: 'Khashoggi murdered in Istanbul' },
     ],
     sources: [],
+  },  'terramar': {
+    name: 'TerraMar Project',
+    type: 'Non-Profit (Defunct)',
+    riskLevel: 'high',
+    description: 'Ghislaine Maxwell\'s ocean conservation charity that closed days after Epstein\'s 2019 arrest. Used to provide Maxwell nonprofit credibility, travel justification, and access to influential circles including the UN. Financial irregularities documented.',
+    founded: '2012',
+    headquarters: 'New York City',
+    funding: 'Unclear - financial irregularities',
+    website: 'Offline',
+    mission: 'Ocean conservation (alleged cover)',
+    controversies: [
+      'Closed immediately after Epstein arrest',
+      'Used for Maxwell credibility and UN access',
+      'Financial irregularities',
+      'Suspected front organization',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Ghislaine Maxwell', role: 'Founder', href: '/entities/individuals/ghislaine-maxwell' },
+    ],
+    affiliatedOrganizations: [
+      { name: 'United Nations', relationship: 'Maxwell spoke at UN events', href: '/entities/organizations/united-nations' },
+    ],
+    timeline: [
+      { date: '2012', event: 'Founded by Maxwell' },
+      { date: '2019 Jul', event: 'Closed days after Epstein arrest' },
+    ],
+    sources: [
+    ],
   },
+  'clinton-foundation': {
+    name: 'Clinton Foundation',
+    type: 'Non-Profit',
+    riskLevel: 'medium',
+    description: 'The Clinton Foundation\'s connection to Epstein extended through Bill Clinton\'s personal relationship. Clinton flew on the Lolita Express for African charity trips. Epstein visited the Clinton White House. Maxwell attended Chelsea Clinton\'s wedding.',
+    founded: '1997',
+    headquarters: 'New York City',
+    funding: '$2B+ lifetime donations',
+    website: 'https://www.clintonfoundation.org',
+    mission: 'Global health, economic development',
+    controversies: [
+      'Clinton-Epstein flight logs',
+      'Epstein White House visits',
+      'Maxwell at Chelsea\'s wedding',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Bill Clinton', role: 'Founder', href: '/entities/individuals/bill-clinton' },
+    ],
+    affiliatedOrganizations: [
+    ],
+    timeline: [
+      { date: '1997', event: 'Founded' },
+      { date: '2002', event: 'Clinton flights on Lolita Express to Africa' },
+    ],
+    sources: [
+    ],
+  },
+  'cfr': {
+    name: 'Council on Foreign Relations',
+    type: 'Think Tank',
+    riskLevel: 'low',
+    description: 'Elite foreign policy think tank. Epstein was a member and used it to network with powerful political and business figures, providing legitimacy and institutional cover.',
+    founded: '1921',
+    headquarters: 'New York City',
+    members: '5,000+',
+    website: 'https://www.cfr.org',
+    mission: 'Foreign policy analysis',
+    controversies: [
+      'Epstein used membership for legitimacy',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+    ],
+    affiliatedOrganizations: [
+    ],
+    timeline: [
+      { date: '1921', event: 'Founded' },
+    ],
+    sources: [
+    ],
+  },
+  'edge-foundation': {
+    name: 'Edge Foundation',
+    type: 'Intellectual Network',
+    riskLevel: 'high',
+    description: 'Founded by John Brockman, the Edge Foundation was the primary intellectual networking hub that connected Epstein to world-class scientists. Hosted annual dinners and conferences that Epstein funded. Brockman facilitated introductions between Epstein and Nobel laureates including Murray Gell-Mann, Frank Wilczek, and others. The Edge network was Epstein\'s key conduit to academic respectability.',
+    founded: '1996',
+    headquarters: 'New York City',
+    funding: 'Private donations including Epstein',
+    website: 'https://www.edge.org',
+    mission: 'Intellectual discourse',
+    controversies: [
+      'Primary conduit connecting Epstein to scientists',
+      'Epstein funded events and dinners',
+      'Brockman continued facilitation after conviction',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'John Brockman', role: 'Founder', href: '/entities/individuals/john-brockman' },
+      { name: 'Katinka Matson', role: 'Co-Founder', href: '/entities/individuals/katinka-matson' },
+    ],
+    affiliatedOrganizations: [
+      { name: 'Santa Fe Institute', relationship: 'Overlapping intellectual circles', href: '/entities/organizations/santa-fe-institute' },
+    ],
+    timeline: [
+      { date: '1996', event: 'Founded by Brockman' },
+      { date: '2000s', event: 'Epstein-funded events connected him to scientists' },
+      { date: '2019', event: 'Epstein connections exposed' },
+    ],
+    sources: [
+      { title: 'NYT: Edge Foundation-Epstein', url: 'https://www.nytimes.com/2019/09/01/business/dealbook/jeffrey-epstein-science.html', date: '2019' },
+    ],
+  },
+  'epstein-vcf': {
+    name: 'Epstein Victims\' Compensation Fund',
+    type: 'Victim Compensation',
+    riskLevel: 'low',
+    description: 'Established in 2020 to compensate Epstein\'s victims from his estate. Managed by Jordana Feldman. Distributed $125M+ to 150+ claimants. Estate valued at $634M at death.',
+    founded: '2020',
+    headquarters: 'New York City',
+    funding: '$634M estate',
+    website: 'https://www.epsteinclaims.com',
+    mission: 'Victim compensation',
+    controversies: [
+      'Some victims rejected as insufficient',
+      'Claimants waived right to sue estate',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Jordana Feldman', role: 'Administrator' },
+    ],
+    affiliatedOrganizations: [
+    ],
+    timeline: [
+      { date: '2020', event: 'Established' },
+      { date: '2021', event: 'Distributed $125M+ to 150+ claimants' },
+    ],
+    sources: [
+      { title: 'VCF Report', url: 'https://www.epsteinclaims.com/', date: '2021' },
+    ],
+  },
+  'santa-fe-institute': {
+    name: 'Santa Fe Institute',
+    type: 'Research Institute',
+    riskLevel: 'low',
+    description: 'Leading complexity science research center. Epstein was a donor with connections through Murray Gell-Mann and other scientists.',
+    founded: '1984',
+    headquarters: 'Santa Fe, NM',
+    members: '200+ researchers',
+    website: 'https://www.santafe.edu',
+    mission: 'Complexity science research',
+    controversies: [
+      'Accepted Epstein donations',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Murray Gell-Mann', role: 'Co-Founder (Deceased)', href: '/entities/individuals/murray-gell-mann' },
+    ],
+    affiliatedOrganizations: [
+      { name: 'Edge Foundation', relationship: 'Overlapping circles', href: '/entities/organizations/edge-foundation' },
+    ],
+    timeline: [
+      { date: '1984', event: 'Founded' },
+    ],
+    sources: [
+    ],
+  },
+  'nyas': {
+    name: 'New York Academy of Sciences',
+    type: 'Scientific Organization',
+    riskLevel: 'low',
+    description: 'Epstein used connections to scientific institutions including NYAS to build a philanthropist image concealing his activities.',
+    founded: '1817',
+    headquarters: 'New York City',
+    members: '20,000+',
+    website: 'https://www.nyas.org',
+    mission: 'Scientific advancement',
+    controversies: [
+      'Epstein used for credibility',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+    ],
+    affiliatedOrganizations: [
+    ],
+    timeline: [
+      { date: '1817', event: 'Founded' },
+    ],
+    sources: [
+    ],
+  },
+  'united-nations': {
+    name: 'United Nations',
+    type: 'International Organization',
+    riskLevel: 'low',
+    description: 'Ghislaine Maxwell used the TerraMar Project to gain access to the UN and international diplomatic circles. She spoke at UN events and cultivated relationships with diplomats.',
+    founded: '1945',
+    headquarters: 'New York City',
+    members: '193 member states',
+    website: 'https://www.un.org',
+    mission: 'International peace and cooperation',
+    controversies: [
+      'Maxwell used TerraMar for UN access',
+      'Terje Roed-Larsen received $130K from Epstein',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    keyFigures: [
+      { name: 'Terje Roed-Larsen', role: 'Former Special Envoy (Received Epstein Funds)', href: '/entities/individuals/terje-roed-larsen' },
+    ],
+    affiliatedOrganizations: [
+      { name: 'TerraMar Project', relationship: 'Maxwell\'s UN access vehicle', href: '/entities/organizations/terramar' },
+    ],
+    timeline: [
+      { date: '1945', event: 'Founded' },
+    ],
+    sources: [
+    ],
+  },
+
+
+
 };
 
 // Generate static params
