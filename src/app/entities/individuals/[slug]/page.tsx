@@ -35197,6 +35197,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Long-term associate', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Social relationship, visited Epstein island', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Virginia Giuffre', relationship: 'Named in connection with Epstein visits', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Leon Black', relationship: 'Both high-profile financiers linked to Epstein', href: '/entities/individuals/leon-black' },
     ],
     controversies: [
       'EPSTEIN RELATIONSHIP: Maintained ties despite allegations',
@@ -35275,6 +35279,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Inner circle', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Social connection, alleged victim sent to Dubin home', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Eva Dubin', relationship: 'Wife, former Miss Sweden, Epstein ex-girlfriend', href: '/entities/individuals/eva-dubin' },
+      { name: 'Virginia Giuffre', relationship: 'Alleged victim directed to Dubin residence', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Les Wexner', relationship: 'Fellow billionaire in Epstein financial circle', href: '/entities/individuals/les-wexner' },
+      { name: 'Leon Black', relationship: 'Fellow financial associate of Epstein', href: '/entities/individuals/leon-black' },
     ],
     controversies: [
       'EPSTEIN INNER CIRCLE: Close long-term associate',
@@ -35309,6 +35319,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Financial manager', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'NYC media/social circles', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Les Wexner', relationship: 'Both in Epstein billionaire network', href: '/entities/individuals/les-wexner' },
+      { name: 'Donald Trump', relationship: 'NYC real estate/media circles', href: '/entities/individuals/donald-trump' },
     ],
     controversies: [
       'EPSTEIN FINANCIAL TIES: Epstein managed money',
@@ -54496,7 +54510,8 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Opioid Crisis', url: '/investigations/opioid-crisis' },
     ],
-  },  'ehud-barak': {
+  },
+  'ehud-barak': {
     name: 'Ehud Barak',
     title: 'Former Prime Minister of Israel',
     role: 'Political Figure, Epstein Associate',
@@ -54583,6 +54598,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Named in victim testimony', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Named by Giuffre as present during abuse', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Virginia Giuffre', relationship: 'Accuser, named Richardson in deposition', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'George Mitchell', relationship: 'Fellow politician named by victims', href: '/entities/individuals/george-mitchell' },
+      { name: 'Bill Clinton', relationship: 'Political associate, both connected to Epstein', href: '/entities/individuals/bill-clinton' },
     ],
     controversies: [
       'Named by Virginia Giuffre in court filings',
@@ -54795,6 +54815,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Named in documents', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Social connection through Epstein events', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Glenn Dubin', relationship: 'Fellow billionaire in Epstein social circle', href: '/entities/individuals/glenn-dubin' },
+      { name: 'Les Wexner', relationship: 'Fellow billionaire connected to Epstein', href: '/entities/individuals/les-wexner' },
+      { name: 'Bill Gates', relationship: 'Both attended Epstein gatherings', href: '/entities/individuals/bill-gates' },
     ],
     controversies: [
       'Named in unsealed Giuffre v. Maxwell documents (2024)',
@@ -54824,6 +54849,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Named in documents', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Social connection', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Les Wexner', relationship: 'Both major financial supporters connected to Epstein', href: '/entities/individuals/les-wexner' },
+      { name: 'Glenn Dubin', relationship: 'Hedge fund peers in Epstein circle', href: '/entities/individuals/glenn-dubin' },
     ],
     controversies: [
       'Named in unsealed Epstein documents (2024)',
@@ -54905,6 +54934,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Victim then recruiter', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Directed recruiting operations', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Sarah Kellen', relationship: 'Fellow recruiter/scheduler', href: '/entities/individuals/sarah-kellen' },
+      { name: 'Adriana Ross', relationship: 'Fellow assistant with immunity', href: '/entities/individuals/adriana-ross' },
+      { name: 'Lesley Groff', relationship: 'Executive assistant, scheduling', href: '/entities/individuals/lesley-groff' },
     ],
     controversies: [
       'Recruited underage girls for Epstein for $200 per girl',
@@ -55136,6 +55170,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Defended publicly, received funding', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Social connection at Epstein events', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Joi Ito', relationship: 'Fellow academic who accepted Epstein support', href: '/entities/individuals/joi-ito' },
+      { name: 'John Brockman', relationship: 'Edge Foundation organizer, connected academics', href: '/entities/individuals/john-brockman' },
+      { name: 'Marvin Minsky', relationship: 'Fellow scientist in Epstein academic circle', href: '/entities/individuals/marvin-minsky' },
     ],
     controversies: [
       'Publicly defended Epstein after 2008 conviction',
@@ -55203,6 +55242,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Named in documents as island visitor', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Present at Epstein-hosted conference events', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Lawrence Krauss', relationship: 'Fellow physicist at Epstein events', href: '/entities/individuals/lawrence-krauss' },
+      { name: 'John Brockman', relationship: 'Edge Foundation connections', href: '/entities/individuals/john-brockman' },
     ],
     controversies: [
       'Named in unsealed court documents as visitor to Epstein\'s island',
@@ -55234,6 +55277,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Met multiple times, associated at Harvard', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Present at Epstein gatherings', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Bill Gates', relationship: 'Both met with Epstein, overlapping academic connections', href: '/entities/individuals/bill-gates' },
+      { name: 'Martin Nowak', relationship: 'Harvard colleague, both received Epstein funding', href: '/entities/individuals/martin-nowak' },
+      { name: 'Joi Ito', relationship: 'MIT connections, both accepted Epstein support', href: '/entities/individuals/joi-ito' },
     ],
     controversies: [
       'Met with Epstein multiple times during and after Harvard presidency',
@@ -55265,6 +55313,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Funding recipient, discussed eugenics', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Joi Ito', relationship: 'MIT Media Lab connections, both discussed Epstein funding', href: '/entities/individuals/joi-ito' },
+      { name: 'Bill Gates', relationship: 'Genomics research connections', href: '/entities/individuals/bill-gates' },
+      { name: 'John Brockman', relationship: 'Edge Foundation academic network', href: '/entities/individuals/john-brockman' },
+      { name: 'Nathan Wolfe', relationship: 'Fellow scientist in Epstein funding circle', href: '/entities/individuals/nathan-wolfe' },
     ],
     controversies: [
       'Received Epstein funding for genetics research',
@@ -55466,6 +55519,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Victim', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Bradley Edwards', relationship: 'Attorney who represented Wild', href: '/entities/individuals/bradley-edwards' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Named co-conspirator, involved in recruiting', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Alex Acosta', relationship: 'US Attorney whose NPA violated her rights', href: '/entities/individuals/alex-acosta' },
+      { name: 'Virginia Giuffre', relationship: 'Fellow victim and advocate', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Sarah Kellen', relationship: 'Epstein assistant, scheduled appointments', href: '/entities/individuals/sarah-kellen' },
     ],
     controversies: [
     ],
@@ -55553,6 +55611,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Received $130K from Epstein foundation', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Social connection through Epstein circle', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Ehud Barak', relationship: 'Israeli political connections, Oslo Accords negotiator', href: '/entities/individuals/ehud-barak' },
+      { name: 'Bill Clinton', relationship: 'Political connections through international diplomacy', href: '/entities/individuals/bill-clinton' },
     ],
     controversies: [
       'Received $130K from Epstein foundation post-conviction',
@@ -55582,6 +55644,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Named in contact records', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ehud Barak', relationship: 'Successive Israeli PMs, both connected to Epstein', href: '/entities/individuals/ehud-barak' },
+      { name: 'Ghislaine Maxwell', relationship: 'Connected through Maxwell family Israel ties', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Terje Roed-Larsen', relationship: 'Diplomatic connections', href: '/entities/individuals/terje-roed-larsen' },
     ],
     controversies: [
       'Named in Epstein contact records',
@@ -55669,6 +55735,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Named in Black Book', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Social circles intersected', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Les Wexner', relationship: 'Both in Epstein financial network', href: '/entities/individuals/les-wexner' },
+      { name: 'Lynn Forester de Rothschild', relationship: 'High society connection', href: '/entities/individuals/lynn-forester-de-rothschild' },
     ],
     controversies: [
       'Named in Epstein\'s Black Book',
@@ -55696,6 +55766,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Named in Black Book', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'NYC social circles', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Les Wexner', relationship: 'Fellow billionaire in Epstein network', href: '/entities/individuals/les-wexner' },
+      { name: 'Lynn Forester de Rothschild', relationship: 'NYC socialite circles', href: '/entities/individuals/lynn-forester-de-rothschild' },
     ],
     controversies: [
       'Named in Epstein\'s Black Book',
@@ -55720,6 +55794,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Business partner, claimed equal partner in fraud', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Connected through Epstein in early 1990s', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Les Wexner', relationship: 'Epstein used Wexner money during Towers Financial era', href: '/entities/individuals/les-wexner' },
+      { name: 'Donald Trump', relationship: 'NYC business circles in 1980s-90s', href: '/entities/individuals/donald-trump' },
     ],
     controversies: [
       'Ran $475M Ponzi scheme at Towers Financial',
@@ -55855,6 +55933,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Attended funded events', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'John Brockman', relationship: 'Edge Foundation, connected through intellectual circles', href: '/entities/individuals/john-brockman' },
+      { name: 'Steven Pinker', relationship: 'Fellow Edge Foundation intellectual', href: '/entities/individuals/steven-pinker' },
+      { name: 'Lawrence Krauss', relationship: 'Fellow physicist in Epstein orbit', href: '/entities/individuals/lawrence-krauss' },
     ],
     controversies: [
       'Attended Epstein-funded science events',
@@ -55880,6 +55962,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Edge Foundation connection', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'John Brockman', relationship: 'Edge Foundation intellectual circle', href: '/entities/individuals/john-brockman' },
+      { name: 'Lawrence Krauss', relationship: 'Fellow physicist who attended Epstein events', href: '/entities/individuals/lawrence-krauss' },
+      { name: 'Murray Gell-Mann', relationship: 'Fellow Nobel physicist in Edge/Epstein circles', href: '/entities/individuals/murray-gell-mann' },
     ],
     controversies: [
       'Named in Epstein documents',
@@ -55904,6 +55990,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Funding recipient, advisory board', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Bill Gates', relationship: 'Both funded epidemiological research, overlapping circles', href: '/entities/individuals/bill-gates' },
+      { name: 'George Church', relationship: 'Fellow scientist funded by Epstein', href: '/entities/individuals/george-church' },
+      { name: 'Joi Ito', relationship: 'MIT connections, Epstein funding circle', href: '/entities/individuals/joi-ito' },
     ],
     controversies: [
       'Sat on Epstein science advisory board',
@@ -55929,6 +56019,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Funding recipient', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'John Brockman', relationship: 'Edge Foundation intellectual network', href: '/entities/individuals/john-brockman' },
+      { name: 'Lawrence Krauss', relationship: 'Fellow physicist at Epstein events', href: '/entities/individuals/lawrence-krauss' },
+      { name: 'Steven Pinker', relationship: 'Harvard colleague in Edge Foundation', href: '/entities/individuals/steven-pinker' },
     ],
     controversies: [
       'Received Epstein funding',
@@ -55954,6 +56048,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Edge Foundation events', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'John Brockman', relationship: 'Edge Foundation literary client', href: '/entities/individuals/john-brockman' },
+      { name: 'Steven Pinker', relationship: 'Cognitive science colleague, Edge Foundation', href: '/entities/individuals/steven-pinker' },
+      { name: 'Marvin Minsky', relationship: 'MIT AI research connections', href: '/entities/individuals/marvin-minsky' },
     ],
     controversies: [
       'Attended Epstein-funded Edge events',
@@ -55980,6 +56078,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Named in Black Book', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'John Brockman', relationship: 'Edge Foundation intellectual network', href: '/entities/individuals/john-brockman' },
+      { name: 'Murray Gell-Mann', relationship: 'Santa Fe Institute colleagues', href: '/entities/individuals/murray-gell-mann' },
+      { name: 'Steven Pinker', relationship: 'Neuroscience/cognitive science community', href: '/entities/individuals/steven-pinker' },
     ],
     controversies: [
       'Named in Epstein Black Book',
@@ -56004,6 +56106,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Funding connection', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'John Brockman', relationship: 'Edge Foundation intellectual', href: '/entities/individuals/john-brockman' },
+      { name: 'Lawrence Krauss', relationship: 'Fellow theoretical physicist', href: '/entities/individuals/lawrence-krauss' },
+      { name: 'Murray Gell-Mann', relationship: 'Perimeter/Santa Fe Institute connections', href: '/entities/individuals/murray-gell-mann' },
     ],
     controversies: [
       'Connected to Epstein funding networks',
@@ -56051,6 +56157,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Attended dinner at mansion', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Both attended 2010 Epstein dinner party', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'George Stephanopoulos', relationship: 'Fellow journalist at same Epstein dinner', href: '/entities/individuals/george-stephanopoulos' },
+      { name: 'Woody Allen', relationship: 'Present at same Epstein social events', href: '/entities/individuals/woody-allen' },
+      { name: 'Chelsea Handler', relationship: 'Media figure in overlapping social circles', href: '/entities/individuals/chelsea-handler' },
     ],
     controversies: [
       'Attended Epstein dinner at NYC mansion post-conviction (2010)',
@@ -56076,6 +56187,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Attended dinner at mansion', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Attended 2010 Epstein dinner party', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Katie Couric', relationship: 'Both attended same Epstein dinner', href: '/entities/individuals/katie-couric' },
+      { name: 'Bill Clinton', relationship: 'Former Clinton aide, both connected to Epstein', href: '/entities/individuals/bill-clinton' },
+      { name: 'Woody Allen', relationship: 'Present at Epstein social events', href: '/entities/individuals/woody-allen' },
     ],
     controversies: [
       'Attended Epstein dinner post-conviction (2010)',
@@ -56099,6 +56215,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Attended dinner at mansion', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'NYC social/entertainment circles', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Naomi Campbell', relationship: 'Entertainment industry connections', href: '/entities/individuals/naomi-campbell' },
+      { name: 'Katie Couric', relationship: 'Media figures in overlapping social circles', href: '/entities/individuals/katie-couric' },
     ],
     controversies: [
       'Attended dinner at Epstein mansion',
@@ -56121,6 +56241,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Flight logs, social events', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Social connection through events', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Donald Trump', relationship: 'Both in NYC social/entertainment circles', href: '/entities/individuals/donald-trump' },
+      { name: 'Naomi Campbell', relationship: 'Celebrity circles overlapping with Epstein', href: '/entities/individuals/naomi-campbell' },
     ],
     controversies: [
       'Named in Epstein flight logs',
@@ -56144,6 +56268,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Named in Black Book', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'NYC/London social circles', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Naomi Campbell', relationship: 'Personal relationship, both in Epstein black book', href: '/entities/individuals/naomi-campbell' },
+      { name: 'Prince Andrew', relationship: 'British social circles, both in black book', href: '/entities/individuals/prince-andrew' },
     ],
     controversies: [
       'Named in Epstein Black Book',
@@ -56166,6 +56294,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Named in Black Book', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'NYC social/entertainment circles', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Woody Allen', relationship: 'Film industry connections, both in Epstein circles', href: '/entities/individuals/woody-allen' },
+      { name: 'Donald Trump', relationship: 'NYC celebrity circles', href: '/entities/individuals/donald-trump' },
     ],
     controversies: [
       'Named in Epstein Black Book',
@@ -56188,6 +56320,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Named in Black Book', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Present at Epstein social events', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Ehud Barak', relationship: 'Israeli connections through cultural/political circles', href: '/entities/individuals/ehud-barak' },
+      { name: 'Les Wexner', relationship: 'Philanthropic circles', href: '/entities/individuals/les-wexner' },
     ],
     controversies: [
       'Named in Epstein Black Book',
@@ -56212,6 +56348,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Michael Reiter', relationship: 'Police chief who supported investigation', href: '/entities/individuals/michael-reiter' },
+    
+      { name: 'Barry Krischer', relationship: 'State Attorney who undermined investigation', href: '/entities/individuals/barry-krischer' },
+      { name: 'Ghislaine Maxwell', relationship: 'Named in investigation as co-conspirator', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Virginia Giuffre', relationship: 'Victim whose testimony supported case', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Alex Acosta', relationship: 'US Attorney who overrode local prosecution', href: '/entities/individuals/alex-acosta' },
     ],
     controversies: [
     ],
@@ -56239,6 +56380,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Joe Recarey', relationship: 'Led investigation under his command', href: '/entities/individuals/joe-recarey' },
+    
+      { name: 'Barry Krischer', relationship: 'State Attorney who refused to prosecute fully', href: '/entities/individuals/barry-krischer' },
+      { name: 'Ghislaine Maxwell', relationship: 'Named in police investigation', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Alex Acosta', relationship: 'US Attorney contacted about federal prosecution', href: '/entities/individuals/alex-acosta' },
     ],
     controversies: [
     ],
@@ -56290,6 +56435,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Audrey Strauss', relationship: 'Deputy who succeeded him', href: '/entities/individuals/audrey-strauss' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Oversaw investigation leading to arrest', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'William Barr', relationship: 'AG who fired Berman during Maxwell investigation', href: '/entities/individuals/william-barr' },
+      { name: 'Alex Acosta', relationship: 'Whose 2008 deal Berman helped undo', href: '/entities/individuals/alex-acosta' },
     ],
     controversies: [
     ],
@@ -56314,6 +56463,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Geoffrey Berman', relationship: 'Predecessor', href: '/entities/individuals/geoffrey-berman' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Led prosecution resulting in conviction', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Maurene Comey', relationship: 'Prosecutor on Maxwell trial team', href: '/entities/individuals/maurene-comey' },
+      { name: 'Virginia Giuffre', relationship: 'Key victim whose testimony supported case', href: '/entities/individuals/virginia-giuffre' },
     ],
     controversies: [
     ],
@@ -56337,6 +56490,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'James Comey', relationship: 'Father, former FBI Director', href: '/entities/individuals/james-comey' },
+    
+      { name: 'Audrey Strauss', relationship: 'Acting US Attorney overseeing Maxwell case', href: '/entities/individuals/audrey-strauss' },
+      { name: 'Geoffrey Berman', relationship: 'Former SDNY chief who initiated investigation', href: '/entities/individuals/geoffrey-berman' },
+      { name: 'Ghislaine Maxwell', relationship: 'Prosecuted at trial, secured conviction', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Virginia Giuffre', relationship: 'Victim whose testimony was central to case', href: '/entities/individuals/virginia-giuffre' },
     ],
     controversies: [
       'Father was FBI Director during original Epstein investigation period',
@@ -56385,6 +56543,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Former employer', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Observed Maxwell involvement in household', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Juan Alessi', relationship: 'Fellow Palm Beach household staff', href: '/entities/individuals/juan-alessi' },
+      { name: 'Joe Recarey', relationship: 'Detective who received stolen black book', href: '/entities/individuals/joe-recarey' },
+      { name: 'Virginia Giuffre', relationship: 'Witnessed victim activity at residence', href: '/entities/individuals/virginia-giuffre' },
     ],
     controversies: [
       'Stole and attempted to sell Epstein\'s Black Book',
@@ -56410,6 +56573,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Employer', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Worked for Maxwell as bodyguard', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Sarah Kellen', relationship: 'Interacted through household staff role', href: '/entities/individuals/sarah-kellen' },
+      { name: 'Juan Alessi', relationship: 'Fellow household staff member', href: '/entities/individuals/juan-alessi' },
     ],
     controversies: [
       'Named in documents as potential witness',
@@ -56431,6 +56598,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Cellmate at MCC', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'William Barr', relationship: 'AG overseeing BOP during incident', href: '/entities/individuals/william-barr' },
+      { name: 'Michael Baden', relationship: 'Pathologist hired by family, questioned findings', href: '/entities/individuals/michael-baden' },
+      { name: 'Barbara Sampson', relationship: 'Chief Medical Examiner who ruled suicide', href: '/entities/individuals/barbara-sampson' },
     ],
     controversies: [
       'Was Epstein\'s cellmate during first injury incident',
@@ -56530,6 +56701,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Victim and employee', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Recruited as masseuse, facilitated abuse', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Bill Clinton', relationship: 'Flew with on Lolita Express', href: '/entities/individuals/bill-clinton' },
+      { name: 'Virginia Giuffre', relationship: 'Fellow victim', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Sarah Ransome', relationship: 'Fellow victim and survivor advocate', href: '/entities/individuals/sarah-ransome' },
     ],
     controversies: [
     ],
@@ -56552,6 +56728,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Victim', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Present during assault at NYC mansion', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Virginia Giuffre', relationship: 'Fellow victim', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Maria Farmer', relationship: 'Fellow victim and first accuser', href: '/entities/individuals/maria-farmer' },
     ],
     controversies: [
     ],
@@ -56574,6 +56754,9 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Jean-Luc Brunel', relationship: 'Allegedly protected his operations', href: '/entities/individuals/jean-luc-brunel' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'French citizen, investigated by French authorities', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Virginia Giuffre', relationship: 'Filed complaint with French prosecutors', href: '/entities/individuals/virginia-giuffre' },
     ],
     controversies: [
       'Alleged protection of Brunel trafficking operations',
@@ -56595,6 +56778,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [],
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Executive assistant', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Co-managed Epstein operations', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Sarah Kellen', relationship: 'Fellow assistant with immunity deal', href: '/entities/individuals/sarah-kellen' },
+      { name: 'Adriana Ross', relationship: 'Fellow assistant with immunity deal', href: '/entities/individuals/adriana-ross' },
+      { name: 'Juan Alessi', relationship: 'Estate manager, overlapping staff role', href: '/entities/individuals/juan-alessi' },
     ],
     controversies: [
       'Managed trafficking logistics',
@@ -56608,6 +56796,97 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [],
   },
 
+  'bradley-edwards': {
+    name: 'Bradley Edwards',
+    title: 'Victims Rights Attorney',
+    role: 'Lead Counsel for Epstein Victims',
+    riskLevel: 'low',
+    description: 'Florida attorney who represented over 50 victims of Jeffrey Epstein, including Courtney Wild and Virginia Giuffre. Edwards filed groundbreaking lawsuits challenging the 2008 Non-Prosecution Agreement, ultimately winning a ruling that prosecutors violated the Crime Victims Rights Act. Author of \'Relentless Pursuit: My Fight for the Victims of Jeffrey Epstein\' (2020). His decade-long legal battle was instrumental in keeping the Epstein case alive when law enforcement had abandoned it.',
+    birthDate: 'Unknown',
+    education: [
+      'Nova Southeastern University Shepard Broad College of Law - Juris Doctor',
+    ],
+    affiliations: [
+      { name: 'Edwards Henderson Law Firm', role: 'Managing Partner', type: 'corporation' },
+    ],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Primary legal adversary, sued on behalf of 50+ victims', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Courtney Wild', relationship: 'Client, led CVRA challenge against NPA', href: '/entities/individuals/courtney-wild' },
+      { name: 'Virginia Giuffre', relationship: 'Client, represented in civil claims', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Alex Acosta', relationship: 'CVRA lawsuit target, US Attorney who signed illegal NPA', href: '/entities/individuals/alex-acosta' },
+      { name: 'Alan Dershowitz', relationship: 'Legal adversary, Epstein defense attorney', href: '/entities/individuals/alan-dershowitz' },
+      { name: 'Joe Recarey', relationship: 'Palm Beach detective, provided evidence for civil cases', href: '/entities/individuals/joe-recarey' },
+      { name: 'Michael Reiter', relationship: 'Palm Beach Police Chief, collaborated with investigation', href: '/entities/individuals/michael-reiter' },
+      { name: 'Sarah Kellen', relationship: 'Named co-conspirator in lawsuits', href: '/entities/individuals/sarah-kellen' },
+      { name: 'Nadia Marcinkova', relationship: 'Named co-conspirator in lawsuits', href: '/entities/individuals/nadia-marcinkova' },
+      { name: 'Ghislaine Maxwell', relationship: 'Named in civil suits as co-conspirator', href: '/entities/individuals/ghislaine-maxwell' },
+    ],
+    controversies: [
+      'FOUGHT DOJ FOR A DECADE: Filed CVRA lawsuit in 2008 challenging secret Non-Prosecution Agreement, battled DOJ for 11 years until Judge Marra ruled the NPA was illegal',
+      'THREATENED BY EPSTEIN TEAM: Received threats and was surveilled by Epstein private investigators during litigation',
+      'REPRESENTED 50+ VICTIMS: Built the largest collection of victim testimony against Epstein, preserving evidence that later facilitated the 2019 federal case',
+      'CHALLENGED ACOSTA: His legal efforts directly led to scrutiny of Alex Acosta sweetheart plea deal, contributing to Acosta resignation as Labor Secretary',
+    ],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2008', event: 'Filed Crime Victims Rights Act lawsuit challenging Epstein NPA on behalf of victims' },
+      { date: '2009', event: 'Continued CVRA litigation despite government opposition' },
+      { date: '2014', event: 'Filed landmark civil suits naming Ghislaine Maxwell, Sarah Kellen, and other enablers' },
+      { date: '2015', event: 'Subjected to surveillance and intimidation by Epstein-linked private investigators' },
+      { date: '2019 February', event: 'Judge Kenneth Marra ruled NPA violated Crime Victims Rights Act - landmark victory' },
+      { date: '2019 July', event: 'Epstein arrested on federal charges, partially vindicating decade of legal work' },
+      { date: '2020', event: 'Published Relentless Pursuit: My Fight for the Victims of Jeffrey Epstein' },
+    ],
+    sources: [
+      { title: 'Relentless Pursuit Book (2020)', url: 'https://www.simonandschuster.com/books/Relentless-Pursuit/Bradley-J-Edwards/9781982148935' },
+      { title: 'Miami Herald: Perversion of Justice', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' },
+      { title: 'Wild v. United States - CVRA Ruling', date: '2019' },
+    ],
+  },
+  'steven-donziger': {
+    name: 'Steven Donziger',
+    title: 'Environmental Attorney',
+    role: 'Led Ecuador Pollution Case Against Chevron',
+    riskLevel: 'high',
+    description: 'American environmental attorney who spent decades fighting Chevron (formerly Texaco) over massive oil contamination in the Ecuadorian Amazon that affected 30,000+ indigenous people. Won a historic $9.5 billion judgment in 2011, then became the target of an unprecedented corporate retaliation campaign. Chevron used a RICO countersuit to invalidate the judgment, and Donziger was disbarred, placed under house arrest for 993 days, and sentenced to 6 months in prison for criminal contempt - prosecuted by a private attorney appointed after DOJ declined. His case is widely seen as the most extreme example of corporate capture of the legal system.',
+    birthDate: 'Unknown',
+    education: [
+      'Harvard Law School - Juris Doctor',
+    ],
+    affiliations: [
+      { name: 'Chevron', role: 'Legal adversary', type: 'corporation' },
+      { name: 'United Nations', role: 'Human Rights Council recognized his detention', type: 'organization' },
+    ],
+    knownAssociates: [
+      { name: 'Chevron Corporation', relationship: 'Target of $9.5B Ecuador pollution case, orchestrated retaliatory prosecution', href: '/entities/corporations/chevron' },
+    ],
+    controversies: [
+      'UNPRECEDENTED CORPORATE RETALIATION: After winning $9.5B judgment against Chevron, became target of massive legal counterattack funded by Chevron spending $2B+ on 2,000+ lawyers',
+      'DISBARRED AND IMPRISONED: Charged with criminal contempt by private law firm hired by Chevron-linked judge - DOJ had twice declined to bring charges',
+      'UN CALLED FOR RELEASE: UN Working Group on Arbitrary Detention found his detention arbitrary and called for his release and compensation',
+      'CHEVRON RICO CASE: Judge Kaplan (who had Chevron investments) ruled Ecuador judgment fraudulent based on recanted testimony',
+      '993 DAYS DETENTION: Longest contempt detention in US history for the charges while Chevron avoided paying for Amazon cleanup',
+    ],
+    relatedInvestigations: [
+      { title: 'Corporate Corruption', slug: 'corporate-corruption', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1993', event: 'Filed Lago Agrio lawsuit on behalf of 30,000+ Ecuadorian indigenous people against Texaco/Chevron' },
+      { date: '2011', event: 'Ecuadorian court issued $9.5 billion judgment against Chevron for Amazon contamination' },
+      { date: '2014', event: 'Judge Kaplan ruled Ecuador judgment obtained through fraud via RICO' },
+      { date: '2019', event: 'Charged with criminal contempt after refusing to turn over devices to Chevron' },
+      { date: '2020', event: 'Placed under house arrest - restrictions lasted 993 total days' },
+      { date: '2021', event: 'Disbarred and convicted of criminal contempt, sentenced to 6 months' },
+      { date: '2022', event: 'UN Working Group called for release; released from prison, continues advocacy' },
+    ],
+    sources: [
+      { title: 'The Guardian: Steven Donziger', url: 'https://www.theguardian.com/us-news/2022/apr/25/steven-donziger-chevron-ecuador-lawyer-released-prison' },
+      { title: 'UN Working Group on Arbitrary Detention', url: 'https://www.ohchr.org/en/documents/opinions/opinion-no-202022' },
+      { title: 'The Intercept: How Chevron Weaponized the Courts', url: 'https://theintercept.com/collections/the-billion-dollar-case/' },
+    ],
+  },
 };
 
 // Generate static params for all individuals at build time

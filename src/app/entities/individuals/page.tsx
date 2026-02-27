@@ -17966,6 +17966,26 @@ const individuals: Entity[] = [
     investigationCount: 1,
     riskLevel: "high",
   },
+  {
+    id: "bradley-edwards-ep",
+    slug: "bradley-edwards",
+    name: "Bradley Edwards",
+    type: "individual" as const,
+    description: "Florida attorney who represented 50+ Epstein victims, filed CVRA lawsuit challenging 2008 plea deal, authored Relentless Pursuit",
+    role: "Victims Rights Attorney",
+    investigationCount: 1,
+    riskLevel: "low" as const,
+  },
+  {
+    id: "steven-donziger-ep",
+    slug: "steven-donziger",
+    name: "Steven Donziger",
+    type: "individual" as const,
+    description: "Environmental attorney who won $9.5B judgment against Chevron, then imprisoned in unprecedented corporate retaliation campaign",
+    role: "Environmental Attorney vs Chevron",
+    investigationCount: 1,
+    riskLevel: "high" as const,
+  },
 ];
 
 export default function IndividualsPage() {
