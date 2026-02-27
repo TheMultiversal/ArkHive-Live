@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Menu, X, Search, AlertTriangle, Zap, LogIn } from "lucide-react";
+import { Menu, X, Search, AlertTriangle, Zap, LogIn, UserPlus } from "lucide-react";
 import BleedingPyramidLogo from "@/components/ui/BleedingPyramidLogo";
 
 export default function Header() {
@@ -87,11 +87,11 @@ export default function Header() {
 
             {/* Sign In */}
             <Link
-              href="/enter"
+              href="/contributor"
               className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-dark-300 hover:text-white hover:bg-blood-900/20 border border-transparent hover:border-blood-700/30 rounded-lg transition-all duration-200"
             >
-              <LogIn className="w-4 h-4" />
-              <span>Sign In</span>
+              <UserPlus className="w-4 h-4" />
+              <span>Contribute</span>
             </Link>
 
             {/* Mobile Menu Toggle */}
@@ -127,6 +127,14 @@ export default function Header() {
             >
               <Zap className="w-4 h-4" />
               <span>Submit Intel</span>
+            </Link>
+            <Link
+              href="/contributor"
+              onClick={() => setIsMenuOpen(false)}
+              className="flex items-center gap-2 px-4 py-3 mt-2 border border-zinc-800 text-zinc-300 hover:text-white rounded-lg transition-colors"
+            >
+              <UserPlus className="w-4 h-4" />
+              <span>Contribute</span>
             </Link>
           </nav>
         </div>

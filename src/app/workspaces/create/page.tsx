@@ -16,8 +16,9 @@ import {
 } from 'lucide-react';
 import { useWorkspaceStore } from '@/store/workspaceStore';
 import { WorkspacePriority, WorkspaceVisibility } from '@/types/workspace';
+import ContributorGate from '@/components/auth/ContributorGate';
 
-export default function CreateWorkspacePage() {
+function CreateWorkspaceContent() {
   const router = useRouter();
   const { createWorkspace } = useWorkspaceStore();
   
@@ -293,5 +294,13 @@ export default function CreateWorkspacePage() {
         </form>
       </div>
     </div>
+  );
+}
+
+export default function CreateWorkspacePage() {
+  return (
+    <ContributorGate action="create a workspace">
+      <CreateWorkspaceContent />
+    </ContributorGate>
   );
 }

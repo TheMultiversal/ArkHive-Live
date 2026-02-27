@@ -994,7 +994,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Russia', 'NRA', 'Maria Butina', 'Foreign Interference', 'Campaign Finance'],
     sources: [
-      { title: 'Senate Finance Committee Investigation', url: '#', type: 'Investigation' },
+      { title: 'Senate Finance Committee Investigation', url: 'https://www.finance.senate.gov/ranking-members-news/wyden-launches-investigation-of-nra-links-to-russia', type: 'Investigation' },
     ],
     affiliations: [
       { id: '1', name: 'Maria Butina', type: 'individual', relationship: 'Russian agent who infiltrated NRA', href: '/entities/individuals/maria-butina' },
@@ -1022,7 +1022,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Security Clearance', 'Kushner', 'National Security', 'Nepotism'],
     sources: [
-      { title: 'Tricia Newbold Testimony', url: '#', type: 'Congressional Testimony' },
+      { title: 'Tricia Newbold Testimony', url: 'https://oversight.house.gov/wp-content/uploads/2019/04/2019-04-01-Cummings-Memo-on-Security-Clearance.pdf', type: 'Congressional Testimony' },
       { title: 'NY Times Reporting on Trump Order', url: 'https://www.nytimes.com/2019/02/28/us/politics/jared-kushner-security-clearance.html', type: 'Investigation' },
     ],
     affiliations: [
@@ -1050,7 +1050,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Russia', 'Alfa Bank', 'Trump Organization', 'Cyber', 'DNS'],
     sources: [
-      { title: 'Original Researcher Analysis', url: '#', type: 'Technical Report' },
+      { title: 'Original Researcher Analysis', url: 'https://www.newyorker.com/magazine/2018/10/15/was-there-a-connection-between-a-russian-bank-and-the-trump-campaign', type: 'Technical Report' },
       { title: 'New Yorker Investigation', url: 'https://www.newyorker.com/magazine/2018/10/15/was-there-a-connection-between-a-russian-bank-and-the-trump-campaign', type: 'Investigation' },
     ],
     affiliations: [
@@ -1367,7 +1367,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     tags: ['Russia', 'Trump Tower', 'Don Jr', 'Manafort', 'Kushner', 'Campaign Finance'],
     sources: [
-      { title: 'Mueller Report', url: '#', type: 'Legal Document' },
+      { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', type: 'Legal Document' },
       { title: 'Don Jr. Emails Released', url: 'https://www.nytimes.com/interactive/2017/07/11/us/politics/donald-trump-jr-email-text.html', type: 'Primary Document' },
     ],
     affiliations: [
@@ -1399,7 +1399,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'Washington Post Original Story', url: 'https://www.washingtonpost.com/politics/trump-recorded-having-extremely-lewd-conversation-about-women-in-2005/2016/10/07/3b9ce776-8cb4-11e6-bf8a-3d26847eeed4_story.html', type: 'News Article' },
       { title: 'Full Video Transcript', url: 'https://www.nytimes.com/2016/10/08/us/donald-trump-tape-transcript.html', type: 'Primary Document' },
-      { title: 'Mueller Report on WikiLeaks Timing', url: '#', type: 'Legal Document' },
+      { title: 'Mueller Report on WikiLeaks Timing', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', type: 'Legal Document' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Made statements describing sexual assault', href: '/entities/individuals/donald-trump' },
@@ -1487,8 +1487,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Trump Tower Moscow', 'Russia', 'Michael Cohen', 'Putin', 'Felix Sater', 'Campaign Finance'],
     sources: [
       { title: 'Cohen Plea Agreement', url: 'http://web.archive.org/web/20240114000029/https://www.justice.gov/file/1115596/download', type: 'Legal Document' },
-      { title: 'Mueller Report', url: '#', type: 'Legal Document' },
-      { title: 'Cohen Congressional Testimony', url: '#', type: 'Congressional Record' },
+      { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', type: 'Legal Document' },
+      { title: 'Cohen Congressional Testimony', url: 'https://docs.house.gov/meetings/GO/GO00/20190227/108969/HHRG-116-GO00-Wstate-CohenM-20190227.pdf', type: 'Congressional Record' },
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Signed letter of intent, lied about deal', href: '/entities/individuals/donald-trump' },
@@ -4445,7 +4445,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     sources: [
       { title: 'National Security Archive - East Timor Documents', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB174/', type: 'Declassified Documents' },
       { title: 'UN Commission on East Timor (CAVR Report)', url: 'https://www.etan.org/news/2006/cavr.htm', type: 'UN Report' },
-      { title: 'Chomsky - The East Timor Genocide', url: '#', type: 'Analysis' },
+      { title: 'Chomsky - The East Timor Genocide', url: 'https://chomsky.info/199910__/', type: 'Analysis' },
     ],
     affiliations: [
       { id: '1', name: 'Henry Kissinger', type: 'individual', relationship: 'Gave tacit approval, covered up', href: '/entities/individuals/henry-kissinger' },
@@ -4607,7 +4607,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Africa', 'Colonialism', 'Resource Extraction', 'AFRICOM', 'IMF', 'Destabilization', 'Françafrique'],
     sources: [
       { title: 'The Divide by Jason Hickel', url: 'https://www.jasonhickel.org/the-divide', type: 'Book' },
-      { title: 'Confessions of an Economic Hit Man', url: '#', type: 'Book' },
+      { title: 'Confessions of an Economic Hit Man', url: 'https://www.goodreads.com/book/show/2159.Confessions_of_an_Economic_Hit_Man', type: 'Book' },
       { title: 'AFRICOM Congressional Testimony', url: 'https://www.africom.mil/pressroom/testimony', type: 'Government Source' },
     ],
     affiliations: [
@@ -4701,7 +4701,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     tags: ['Bush Family', 'Political Dynasty', 'Nazi Banking', 'Iraq War', 'Saudi Arabia', 'CIA', '2000 Election'],
     sources: [
       { title: 'How Bush\'s Grandfather Helped Hitler\'s Rise - Guardian', url: 'https://www.theguardian.com/world/2004/sep/25/usa.secondworldwar', type: 'Investigation' },
-      { title: 'Family of Secrets by Russ Baker', url: '#', type: 'Book' },
+      { title: 'Family of Secrets by Russ Baker', url: 'https://www.goodreads.com/book/show/3007463-family-of-secrets', type: 'Book' },
       { title: 'National Archives - UBC Seizure', url: 'https://www.archives.gov/research/guide-fed-records/groups/131.html', type: 'Government Records' },
     ],
     affiliations: [

@@ -2,8 +2,9 @@
 
 import { useState, useRef } from "react";
 import { Send, AlertTriangle, FileText, Lock, CheckCircle, Upload, X, Paperclip } from "lucide-react";
+import ContributorGate from '@/components/auth/ContributorGate';
 
-export default function SubmitPage() {
+function SubmitPageContent() {
   const [formData, setFormData] = useState({
     subject: "",
     category: "",
@@ -275,5 +276,13 @@ export default function SubmitPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function SubmitPage() {
+  return (
+    <ContributorGate action="submit intelligence">
+      <SubmitPageContent />
+    </ContributorGate>
   );
 }
