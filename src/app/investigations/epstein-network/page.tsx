@@ -11,7 +11,7 @@ import {
   ExternalLink,
   MapPin,
   Plane,
-  Scale, ShieldAlert, DollarSign, Eye, Building, Globe, BookOpen} from 'lucide-react';
+  Scale, ShieldAlert, DollarSign, Eye, Building, Globe, BookOpen, Map, Book, Network, Fingerprint} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
@@ -84,23 +84,85 @@ const investigation = {
     { name: 'Chris Tucker', role: 'Actor, Flight Logs Show Trip to Africa with Clinton on Lolita Express', href: '/entities/individuals/chris-tucker', status: 'Named in Flight Logs' },
     { name: 'Naomi Campbell', role: 'Supermodel, Flight Logs, Close Friend of Maxwell', href: '/entities/individuals/naomi-campbell', status: 'Named in Flight Logs' },
     { name: 'Woody Allen', role: 'Director, Social Relationship, Dined with Epstein Post-Conviction', href: '/entities/individuals/woody-allen', status: 'Named in Documents' },
+    // Additional Political / Government
+    { name: 'Tony Blair', role: 'Former UK Prime Minister, Named in Epstein Black Book, Social Contact', href: '/entities/individuals/tony-blair', status: 'Named in Black Book' },
+    { name: 'Peter Mandelson', role: 'UK Labour Politician, Photographed With Epstein, Named in Documents', href: '/entities/individuals/peter-mandelson', status: 'Named in Documents' },
+    { name: 'Henry Kissinger', role: 'Former Secretary of State, Dined Regularly With Epstein, Black Book', href: '/entities/individuals/henry-kissinger', status: 'Deceased (2023)' },
+    { name: 'Terje Roed-Larsen', role: 'UN Diplomat, Received $130K From Epstein Foundation Post-Conviction', href: '/entities/individuals/terje-roed-larsen', status: 'Resigned from IIPI' },
+    { name: 'Ehud Olmert', role: 'Former Israeli PM, Named in Epstein Contact Records', href: '/entities/individuals/ehud-olmert', status: 'Named in Documents' },
+    { name: 'Mark Middleton', role: 'Clinton WH Aide Who Arranged Epstein Visits, Found Dead 2022 (Ruled Suicide)', href: '/entities/individuals/mark-middleton', status: 'Deceased (2022)' },
+    { name: 'Jean-Luc Brunel Associates in France', role: 'French Government Officials Protected Brunel', href: '/entities/individuals/french-officials', status: 'Under Investigation' },
+    // Additional Finance / Business
+    { name: 'Lynn Forester de Rothschild', role: 'Introduced Clinton to Epstein, Black Book, Extensive Social Contact', href: '/entities/individuals/lynn-forester-de-rothschild', status: 'Named in Black Book' },
+    { name: 'Edgar Bronfman Sr.', role: 'Seagram\'s Fortune, Named in Epstein Black Book With Multiple Numbers', href: '/entities/individuals/edgar-bronfman', status: 'Deceased (2013)' },
+    { name: 'Ronald Perelman', role: 'Revlon Billionaire, Named in Epstein Black Book', href: '/entities/individuals/ronald-perelman', status: 'Named in Black Book' },
+    { name: 'Steven Hoffenberg', role: 'Towers Financial Ponzi Architect, Epstein\'s Early Mentor and Business Partner', href: '/entities/individuals/steven-hoffenberg', status: 'Deceased (2022)' },
+    { name: 'Michael Bloomberg', role: 'NYC Mayor/Media Owner, Named in Epstein Black Book', href: '/entities/individuals/michael-bloomberg', status: 'Named in Black Book' },
+    { name: 'Rupert Murdoch', role: 'Media Mogul, Named in Epstein Black Book, Social Connections', href: '/entities/individuals/rupert-murdoch', status: 'Named in Black Book' },
+    { name: 'David Koch', role: 'Koch Industries Billionaire, Named in Epstein Black Book', href: '/entities/individuals/david-koch', status: 'Deceased (2019)' },
+    { name: 'Sergey Brin', role: 'Google Co-Founder, Attended Epstein Dinner After 2008 Conviction', href: '/entities/individuals/sergey-brin', status: 'Named in Reports' },
+    { name: 'Peter Thiel', role: 'PayPal/Palantir Founder, Named in Epstein Social Circle Reports', href: '/entities/individuals/peter-thiel', status: 'Named in Reports' },
+    { name: 'Leslie Groff', role: 'Executive Assistant, Logistics Manager for Trafficking Network', href: '/entities/individuals/leslie-groff', status: 'Granted Immunity' },
+    // Additional Science / Academic (Edge Foundation Network)
+    { name: 'John Brockman', role: 'Edge Foundation Founder, Key Social Nexus Between Epstein and Scientists, Hosted Epstein-Funded Dinners', href: '/entities/individuals/john-brockman', status: 'Named in Documents' },
+    { name: 'Steven Pinker', role: 'Harvard Psychologist, Flew on Epstein\'s Jet, Attended Epstein Events via Edge Foundation', href: '/entities/individuals/steven-pinker', status: 'Named in Flight Logs' },
+    { name: 'Noam Chomsky', role: 'MIT Linguist, Met Epstein Multiple Times Post-Conviction, Defended Meetings', href: '/entities/individuals/noam-chomsky', status: 'Named in Documents' },
+    { name: 'Murray Gell-Mann', role: 'Nobel Physics Laureate, Attended Epstein-Funded Events', href: '/entities/individuals/murray-gell-mann', status: 'Deceased (2019)' },
+    { name: 'Frank Wilczek', role: 'Nobel Physics Laureate, Epstein Connection via Edge/Science Circles', href: '/entities/individuals/frank-wilczek', status: 'Named in Documents' },
+    { name: 'Nathan Wolfe', role: 'Virologist, Sat on Epstein\'s Science Advisory Board, Received Funding', href: '/entities/individuals/nathan-wolfe', status: 'Named in Documents' },
+    { name: 'Lisa Randall', role: 'Harvard Physicist, Received Epstein Funding, Attended Events', href: '/entities/individuals/lisa-randall', status: 'Named in Documents' },
+    { name: 'Daniel Dennett', role: 'Philosopher, Attended Edge Foundation Dinners Funded by Epstein', href: '/entities/individuals/daniel-dennett', status: 'Deceased (2024)' },
+    { name: 'Gerald Edelman', role: 'Nobel Medicine Laureate, Named in Epstein Black Book', href: '/entities/individuals/gerald-edelman', status: 'Deceased (2014)' },
+    { name: 'Lee Smolin', role: 'Theoretical Physicist, Perimeter Institute, Epstein Funding Connection', href: '/entities/individuals/lee-smolin', status: 'Named in Documents' },
+    { name: 'Katinka Matson', role: 'Edge Foundation Co-Founder, Organized Epstein-Scientist Events', href: '/entities/individuals/katinka-matson', status: 'Named in Documents' },
+    // Additional Entertainment / Media
+    { name: 'Katie Couric', role: 'News Anchor, Attended Epstein Dinner at NYC Mansion (2010)', href: '/entities/individuals/katie-couric', status: 'Named in Reports' },
+    { name: 'George Stephanopoulos', role: 'ABC News, Attended Epstein Dinner at NYC Mansion (2010)', href: '/entities/individuals/george-stephanopoulos', status: 'Named in Reports' },
+    { name: 'Chelsea Handler', role: 'Comedian, Attended Epstein Dinner at NYC Mansion', href: '/entities/individuals/chelsea-handler', status: 'Named in Reports' },
+    { name: 'David Blaine', role: 'Magician, Named in Flight Logs, Attended Epstein Events', href: '/entities/individuals/david-blaine', status: 'Named in Flight Logs' },
+    { name: 'Mick Jagger', role: 'Rolling Stones, Named in Epstein Black Book With Multiple Numbers', href: '/entities/individuals/mick-jagger', status: 'Named in Black Book' },
+    { name: 'Alec Baldwin', role: 'Actor, Named in Epstein Black Book', href: '/entities/individuals/alec-baldwin', status: 'Named in Black Book' },
+    { name: 'Charlie Rose', role: 'TV Journalist, Attended Epstein Events, Named in Documents', href: '/entities/individuals/charlie-rose', status: 'Named in Documents' },
+    { name: 'Itzhak Perlman', role: 'Violinist, Named in Epstein Black Book', href: '/entities/individuals/itzhak-perlman', status: 'Named in Black Book' },
+    // Law Enforcement / Key Investigators
+    { name: 'Joe Recarey', role: 'Palm Beach Police Detective Who Led Original Investigation, Died at 50', href: '/entities/individuals/joe-recarey', status: 'Deceased (2018)' },
+    { name: 'Michael Reiter', role: 'Palm Beach Police Chief Who Referred Case to FBI After State AG Resisted', href: '/entities/individuals/michael-reiter', status: 'Retired' },
+    { name: 'Barry Krischer', role: 'Palm Beach State Attorney Who Resisted Prosecution, Grand Jury Returned Single Charge', href: '/entities/individuals/barry-krischer', status: 'Investigated' },
+    { name: 'Geoffrey Berman', role: 'SDNY US Attorney Who Brought 2019 Charges, AG Barr Tried to Fire Him', href: '/entities/individuals/geoffrey-berman', status: 'Key Prosecutor' },
+    { name: 'Audrey Strauss', role: 'Acting US Attorney, Oversaw Maxwell Arrest and Prosecution', href: '/entities/individuals/audrey-strauss', status: 'Key Prosecutor' },
+    { name: 'Maurene Comey', role: 'SDNY Prosecutor on Maxwell Case, Daughter of Former FBI Director James Comey', href: '/entities/individuals/maurene-comey', status: 'Key Prosecutor' },
+    // Staff / Witnesses / Butler Testimony
+    { name: 'Juan Alessi', role: 'Palm Beach Butler (11 Years), Testified at Maxwell Trial About Abuse He Witnessed', href: '/entities/individuals/juan-alessi', status: 'Key Witness' },
+    { name: 'Alfredo Rodriguez', role: 'Butler Who Stole Black Book, Attempted to Sell It, Sentenced to 18 Months. Died 2015.', href: '/entities/individuals/alfredo-rodriguez', status: 'Deceased (2015)' },
+    { name: 'Igor Zinoviev', role: 'Epstein Bodyguard and MMA Fighter, Witnessed Activity at Properties', href: '/entities/individuals/igor-zinoviev', status: 'Named in Documents' },
+    { name: 'Nicholas Tartaglione', role: 'Ex-Cop Charged With Quadruple Homicide, Epstein\'s Cellmate Before Death', href: '/entities/individuals/nicholas-tartaglione', status: 'Cellmate' },
+    // Medical / Death Investigation
+    { name: 'Dr. Michael Baden', role: 'Forensic Pathologist Hired by Epstein Family, Found Evidence of Homicidal Strangulation', href: '/entities/individuals/michael-baden', status: 'Expert Witness' },
+    { name: 'Dr. Barbara Sampson', role: 'NYC Chief Medical Examiner Who Ruled Death Suicide Despite Contradictory Evidence', href: '/entities/individuals/barbara-sampson', status: 'Official Ruling' },
     // Victims / Accusers
     { name: 'Virginia Giuffre', role: 'Primary Victim and Accuser, Filed Landmark Lawsuits, Recruited at Mar-a-Lago at Age 16', href: '/entities/individuals/virginia-giuffre', status: 'Key Witness' },
     { name: 'Maria Farmer', role: 'Early Victim/Whistleblower (1996), Reported to FBI - Ignored for Years', href: '/entities/individuals/maria-farmer', status: 'Key Witness' },
     { name: 'Annie Farmer', role: 'Maria\'s Sister, Abused as Minor, Testified at Maxwell Trial', href: '/entities/individuals/annie-farmer', status: 'Key Witness' },
     { name: 'Courtney Wild', role: 'Victim Advocate, Led Legal Challenge Against NPA', href: '/entities/individuals/courtney-wild', status: 'Key Witness' },
     { name: 'Carolyn Andriano', role: 'Testified at Maxwell Trial, Recruited at Age 14', href: '/entities/individuals/carolyn-andriano', status: 'Deceased (2021)' },
+    { name: 'Sarah Ransome', role: 'Victim Who Attempted to Escape Island by Swimming, Filed Federal Lawsuit', href: '/entities/individuals/sarah-ransome', status: 'Key Witness' },
+    { name: 'Chauntae Davies', role: 'Massage Therapist/Victim, Flight Attendant on Lolita Express, Witnessed Clinton Trips', href: '/entities/individuals/chauntae-davies', status: 'Key Witness' },
+    { name: 'Teresa Helm', role: 'Victim Who Testified to Grand Jury, Recruited Through Massage Work', href: '/entities/individuals/teresa-helm', status: 'Key Witness' },
   ],
 
   // ============================
   // INTELLIGENCE CONNECTIONS
   // ============================
   intelligenceConnections: [
-    { entity: 'Mossad (Israeli Intelligence)', role: 'Alleged Blackmail Operation', details: 'Robert Maxwell was widely reported as a Mossad agent by multiple intelligence sources. Former Israeli intelligence officer Ari Ben-Menashe claimed Epstein and Maxwell were both Israeli intelligence assets running a sexual blackmail operation against Western politicians and businessmen. Ehud Barak, former Israeli PM, had extensive documented contact with Epstein.', href: '/entities/agencies/mossad' },
-    { entity: 'CIA (Central Intelligence Agency)', role: 'Alleged Protection and Utilization', details: 'Alexander Acosta reportedly told Trump transition team the Epstein case was "above his pay grade" and that Epstein "belonged to intelligence." Former CIA officer John Kiriakou confirmed intelligence community awareness of Epstein\'s activities. The CIA has refused to release documents related to Epstein citing national security.', href: '/entities/agencies/cia' },
-    { entity: 'MI6 (British Intelligence)', role: 'Robert Maxwell Connection', details: 'Robert Maxwell was suspected of being an MI6 asset in addition to Mossad. His sudden death and the subsequent cover-up of his intelligence ties suggest deep connections. Ghislaine Maxwell\'s access to British establishment figures including Prince Andrew raises questions about continued MI6 involvement.', href: '/entities/agencies/mi6' },
-    { entity: 'FBI (Federal Bureau of Investigation)', role: 'Failed Investigation and Oversight', details: 'The FBI documented extensive abuse evidence by 2006 but a 53-page indictment was never filed. Maria Farmer reported abuse and Epstein/Maxwell to the FBI in 1996 but was ignored. Robert Mueller was FBI Director during the original investigation. James Comey\'s daughter later prosecuted Maxwell. Christine Maxwell co-founded Chiliad, which provided data analytics to the FBI.', href: '/entities/agencies/fbi' },
-    { entity: 'Southern District of New York', role: 'Eventual Prosecution', details: 'SDNY finally brought federal charges in 2019 under the leadership of then-US Attorney Geoffrey Berman. AG William Barr attempted to fire Berman and install a replacement. Epstein died in SDNY custody at MCC New York under AG Barr\'s Department of Justice.', href: '/entities/agencies/doj' },
+    { entity: 'Mossad (Israeli Intelligence)', role: 'Alleged Blackmail Operation', details: 'Robert Maxwell was widely reported as a Mossad agent by multiple intelligence sources including Seymour Hersh and Gordon Thomas. Former Israeli intelligence officer Ari Ben-Menashe claimed Epstein and Maxwell were both Israeli intelligence assets running a sexual blackmail operation against Western politicians and businessmen. Ehud Barak, former Israeli PM, had extensive documented contact with Epstein and was photographed entering Epstein\'s NYC residence. Barak invested in a company called Carbyne911 alongside Epstein. The alleged operation mirrors historical Mossad "honey trap" tactics.', href: '/entities/agencies/mossad' },
+    { entity: 'CIA (Central Intelligence Agency)', role: 'Alleged Protection and Utilization', details: 'Alexander Acosta reportedly told Trump transition team the Epstein case was "above his pay grade" and that Epstein "belonged to intelligence." Former CIA officer John Kiriakou confirmed intelligence community awareness of Epstein\'s activities. The CIA has refused to release documents related to Epstein citing national security. William Casey (former CIA Director) was a social contact of Robert Maxwell. The pattern of protection Epstein received from law enforcement is consistent with intelligence asset management.', href: '/entities/agencies/cia' },
+    { entity: 'MI6 (British Intelligence)', role: 'Robert Maxwell and UK Establishment Connection', details: 'Robert Maxwell was suspected of being an MI6 asset in addition to Mossad, per multiple biographies and intelligence sources. His sudden death off his yacht and the subsequent cover-up of his intelligence ties suggest deep connections. Ghislaine Maxwell\'s access to British establishment figures including Prince Andrew, Peter Mandelson, and Tony Blair raises questions about continued MI6 involvement. Prince Andrew\'s role as UK trade envoy provided diplomatic cover for foreign travel.', href: '/entities/agencies/mi6' },
+    { entity: 'FBI (Federal Bureau of Investigation)', role: 'Failed Investigation, Oversight, and Entanglement', details: 'The FBI documented extensive abuse evidence by 2006 but a 53-page indictment was never filed. Maria Farmer reported abuse and Epstein/Maxwell to the FBI in 1996 but was ignored for nearly a decade. Robert Mueller was FBI Director during the original investigation. James Comey\'s daughter Maurene later prosecuted Maxwell. Christine Maxwell co-founded Chiliad, which provided data analytics to the FBI and CIA. Detective Joe Recarey, who led the Palm Beach investigation, died at 50 in 2018 under unclear circumstances.', href: '/entities/agencies/fbi' },
+    { entity: 'Southern District of New York (SDNY)', role: 'Eventual Prosecution Under Duress', details: 'SDNY finally brought federal charges in 2019 under the leadership of then-US Attorney Geoffrey Berman. AG William Barr attempted to fire Berman and install a replacement - Berman refused to leave until his deputy was confirmed as successor. Epstein died in SDNY custody at MCC New York under AG Barr\'s Department of Justice. SDNY prosecutors coordinated Maxwell arrest in 2020.', href: '/entities/agencies/doj' },
+    { entity: 'French Judicial System', role: 'Parallel Investigation', details: 'French authorities opened an investigation into Epstein in 2019 after his arrest. Paris prosecutors investigated crimes at Epstein\'s Avenue Foch apartment. Jean-Luc Brunel was charged with rape of minors in France. Brunel died in his French prison cell before trial (February 2022). French modeling industry protections allowed Brunel to operate for decades. French victims were recruited through MC2 and Karin Models.', href: '/entities/agencies/french-justice' },
+    { entity: 'USVI Attorney General', role: 'Territorial Prosecution and Financial Investigation', details: 'AG Denise George filed a landmark lawsuit against the Epstein estate in January 2020, detailing decades of trafficking in the US Virgin Islands. The suit revealed Epstein had secret agreements with the territorial government for tax benefits. George was fired by the USVI governor one day after suing JPMorgan over Epstein ties. Her successor continued both cases.', href: '/entities/agencies/usvi-ag' },
+    { entity: 'Palm Beach Police Department', role: 'Initial Investigation Suppressed', details: 'Chief Michael Reiter and Detective Joe Recarey conducted the original investigation starting in 2005, identifying 40+ victims. Despite overwhelming evidence, their work was undermined at the state and federal level. Reiter took the extraordinary step of referring the case to the FBI after State Attorney Barry Krischer refused to pursue serious charges. The Palm Beach PD investigation is considered the most thorough law enforcement effort against Epstein.', href: '/entities/agencies/palm-beach-pd' },
+    { entity: 'Australian Federal Police', role: 'International Investigation', details: 'Australian authorities investigated Epstein connections following revelations that some victims were Australian nationals. Australian media reported on connections between Epstein and Australian figures in his black book. Investigation into potential trafficking through Australia remains classified.', href: '/entities/agencies/afp' },
   ],
 
   // ============================
@@ -119,6 +181,49 @@ const investigation = {
     { entity: 'Council on Foreign Relations', role: 'Elite Network Access', details: 'Epstein was a member of the Council on Foreign Relations and used it to network with powerful political and business figures. Provided him legitimacy and institutional cover for his activities.', href: '/entities/organizations/cfr' },
     { entity: 'Trilateral Commission', role: 'Elite Network Access', details: 'Epstein was connected to members of the Trilateral Commission through his financial and social networks, giving him access to global power brokers.', href: '/entities/organizations/trilateral-commission' },
     { entity: 'Metropolitan Correctional Center (MCC)', role: 'Site of Death Under Suspicious Circumstances', details: 'Federal detention facility in Manhattan where Epstein died on August 10, 2019. Both cameras malfunctioned, both guards asleep, removed from suicide watch after 12 days despite prior attempt. One of the most secure federal facilities in the country. The facility was subsequently closed in 2021.', href: '/entities/agencies/bop' },
+    { entity: 'Edge Foundation', role: 'Key Intellectual Networking Hub for Epstein', details: 'Founded by literary agent John Brockman, the Edge Foundation hosted annual dinners and conferences bringing together world-class scientists. Epstein funded Edge events and used them to cultivate relationships with Nobel laureates, Harvard professors, and leading researchers. Brockman facilitated introductions between Epstein and dozens of scientists including Steven Pinker, Daniel Dennett, Murray Gell-Mann, and others. The Edge network was Epstein\'s primary conduit to the academic world.', href: '/entities/organizations/edge-foundation' },
+    { entity: 'Towers Financial Corporation', role: 'Epstein\'s Early Criminal Enterprise', details: 'Steven Hoffenberg\'s Ponzi scheme ($475M fraud) where Epstein served as a consultant in the late 1980s and early 1990s. Hoffenberg claimed Epstein was an equal partner in the fraud but Epstein was never charged. Hoffenberg stated before his 2022 death that Epstein learned the art of financial manipulation at Towers. Critical origin story for Epstein\'s mysterious wealth.', href: '/entities/corporations/towers-financial' },
+    { entity: 'Bear Stearns', role: 'Entry to Wall Street (1976-1981)', details: 'Epstein was hired as an options trader at Bear Stearns despite lacking a college degree, reportedly through a Dalton School parent connection. He rose quickly to limited partner before leaving after an SEC investigation. Bear Stearns connections launched his independent financial career and gave him access to ultra-high-net-worth individuals.', href: '/entities/corporations/bear-stearns' },
+    { entity: 'Rockefeller University', role: 'Scientific Advisory Board', details: 'Epstein served on the Mind, Brain, and Behavior advisory committee. Used the position to gain scientific credibility and access to researchers. Made donations to the university.', href: '/entities/corporations/rockefeller-university' },
+    { entity: 'Santa Fe Institute', role: 'Scientific Networking', details: 'Epstein was a donor and associate of the Santa Fe Institute, a leading complexity science research center. Used his connection to network with physicists and mathematicians. Murray Gell-Mann, a Nobel laureate and SFI founder, was in Epstein\'s social circle.', href: '/entities/organizations/santa-fe-institute' },
+    { entity: 'New York Academy of Sciences', role: 'Scientific Credibility', details: 'Epstein used his connections to scientific institutions including NYAS to build an image as a science philanthropist and intellectual. This helped conceal his true activities behind a veneer of academic respectability.', href: '/entities/organizations/nyas' },
+    { entity: 'Karin Models (Paris)', role: 'European Recruiting Pipeline', details: 'French modeling agency connected to Jean-Luc Brunel\'s network. Supplied models for events and photoshoots that served as cover for recruiting. Part of the broader modeling industry pipeline used to traffic young women from Europe to the United States.', href: '/entities/corporations/karin-models' },
+    { entity: 'United Nations', role: 'Maxwell\'s TerraMar Access', details: 'Ghislaine Maxwell used the TerraMar Project to gain access to the United Nations and international diplomatic circles. She spoke at UN events and cultivated relationships with diplomats. The UN connection gave both Maxwell and Epstein international legitimacy and travel cover.', href: '/entities/organizations/united-nations' },
+    { entity: 'Columbus Nova / Viktor Vekselberg', role: 'Russian Oligarch Financial Link', details: 'Financial connections between Epstein\'s network and Russian oligarch Viktor Vekselberg through investment firm Columbus Nova. Andrew Intrater, Vekselberg\'s cousin, managed Columbus Nova. These connections raise questions about Russian intelligence interest in Epstein\'s blackmail network.', href: '/entities/corporations/columbus-nova' },
+  ],
+
+  // ============================
+  // THE BLACK BOOK
+  // ============================
+  blackBook: {
+    overview: 'Jeffrey Epstein\'s personal contact book ("Little Black Book"), 97 pages containing approximately 1,571 names with phone numbers, addresses, and email contacts. Stolen by butler Alfredo Rodriguez who attempted to sell it for $50,000. Rodriguez was instead sentenced to 18 months in prison and died in 2015. The book was later obtained by journalists and partially released. It represents the most comprehensive map of Epstein\'s social network.',
+    notableCategories: [
+      { category: 'US Politicians & Government', names: 'Donald Trump (14 contact numbers), Bill Clinton, Tony Blair, Ehud Barak, Henry Kissinger, David Koch, Michael Bloomberg, Arlen Specter, George Mitchell, Bill Richardson, Ted Kennedy' },
+      { category: 'British Royalty & Aristocracy', names: 'Prince Andrew (multiple residences), Sarah Ferguson, Princess Michael of Kent, Duke and Duchess of York, Viscount Linley, Earl Spencer' },
+      { category: 'Finance & Billionaires', names: 'Les Wexner, Leon Black, Mort Zuckerman, Ronald Perelman, Edgar Bronfman, Thomas Pritzker, David Rockefeller, Evelyn de Rothschild, Lynn Forester de Rothschild, Steve Forbes, Henry Kravis, Rupert Murdoch, Michael Bloomberg, Glenn Dubin' },
+      { category: 'Hollywood & Entertainment', names: 'Mick Jagger, Alec Baldwin, Ralph Fiennes, Dustin Hoffman, Michael Jackson, Courtney Love, Minnie Driver, Naomi Campbell, Chris Tucker, Kevin Spacey, Phil Collins, David Blaine, Itzhak Perlman, Joan Rivers, Mike Wallace' },
+      { category: 'Science & Academia', names: 'Stephen Hawking, Oliver Sacks, Gerald Edelman, Murray Gell-Mann, George Church, Martin Nowak, Steven Pinker, Lawrence Krauss, Frank Wilczek, Marvin Minsky, Lisa Randall' },
+      { category: 'Media & Journalism', names: 'Rupert Murdoch, Mort Zuckerman, Barbara Walters, Charlie Rose, Katie Couric, George Stephanopoulos, Matt Lauer, Tina Brown, Anna Wintour, Michael Wolff' },
+      { category: 'Legal', names: 'Alan Dershowitz, Kenneth Starr, Jay Lefkowitz, Gerald Lefcourt, Roy Black, Martin Weinberg' },
+      { category: 'International Figures', names: 'Saudi Crown Prince Mohammed bin Salman (listed as Prince Salman), Prince Turki bin Faisal, Flavio Briatore, Naomi Campbell, Peter Mandelson, Ghislaine Maxwell (multiple entries), Fergie (Sarah Ferguson)' },
+    ],
+    significance: 'The Black Book is considered one of the most important pieces of evidence in understanding the scope of Epstein\'s network. It demonstrates that his contacts spanned virtually every center of power in the Western world. Being listed in the book does not imply criminal activity, but it maps the social infrastructure that enabled and protected Epstein\'s operation for decades. Many names in the book have circled pages, believed to indicate those who provided girls or other services to Epstein.',
+  },
+
+  // ============================
+  // INTERNATIONAL TRAFFICKING ROUTES
+  // ============================
+  internationalConnections: [
+    { region: 'France', details: 'Jean-Luc Brunel operated MC2 and Karin Models in Paris. Epstein owned an apartment on Avenue Foch. Young models were recruited from France for "modeling opportunities" and trafficked to Epstein properties. Brunel was charged with rape of minors by French prosecutors before dying in custody. French investigation remains open.', status: 'Active Investigation' },
+    { region: 'United Kingdom', details: 'Prince Andrew is the most prominent UK connection. Maxwell operated from London. Virginia Giuffre was trafficked in London. Epstein had access to British establishment through Maxwell family connections. UK police declined to investigate for years despite Giuffre\'s claims. Met Police eventually dropped investigation in 2022 citing insufficient evidence.', status: 'Investigation Closed' },
+    { region: 'US Virgin Islands', details: 'Little St. James and Great St. James islands were primary abuse locations. USVI government gave Epstein massive tax breaks through shell companies. AG Denise George sued Epstein estate; was fired the day after suing JPMorgan. Local officials were aware of Epstein\'s activities for decades.', status: 'Active Lawsuits' },
+    { region: 'Israel', details: 'Ehud Barak had extensive contact with Epstein. Maxwell family had deep Israeli intelligence ties through father Robert Maxwell. Christine Maxwell co-founded Chiliad (FBI/CIA data analytics). Isabel Maxwell had Israeli tech connections. Ari Ben-Menashe alleged Epstein-Maxwell were intelligence assets. Barak invested in Carbyne911 alongside Epstein.', status: 'Alleged Intelligence Operation' },
+    { region: 'Eastern Europe', details: 'MC2 Model Management recruited young models from Romania, Czech Republic, Slovakia, and other Eastern European nations. Victims were brought to the US on work visas. The economic vulnerability of young women in post-Soviet states made them targets for recruitment with promises of modeling careers.', status: 'Recruitment Pipeline' },
+    { region: 'South America', details: 'Models and young girls were recruited from Brazil, Colombia, and other South American countries through the modeling industry. MC2 and other agencies operated across Latin America. Work visa arrangements facilitated by Epstein\'s legal team.', status: 'Recruitment Pipeline' },
+    { region: 'Thailand', details: 'Epstein made documented trips to Thailand, a country with significant sex trafficking. Victims from Thailand were identified by investigators. The nature and extent of Thai operations remains under investigation.', status: 'Under Investigation' },
+    { region: 'Sweden', details: 'Multiple victims were Swedish nationals. Epstein had connections in Scandinavian countries. Swedish law enforcement cooperated with US investigators.', status: 'Cooperative Investigation' },
+    { region: 'Saudi Arabia / Middle East', details: 'Epstein\'s black book contained multiple Saudi royal family contacts. Prince Mohammed bin Salman (MBS) listed. Adnan Khashoggi connections through arms dealing circles. Financial flows between Middle Eastern contacts and Epstein entities. The region represents unexplored connections in Epstein\'s intelligence-linked network.', status: 'Unexplored' },
+    { region: 'Australia / New Zealand', details: 'Victims from Australia identified. Epstein contacts in Australian business community documented in black book. Australian Federal Police involvement in investigation. New Zealand connections through Maxwell\'s TerraMar project and Pacific operations.', status: 'Under Investigation' },
   ],
 
   // ============================
@@ -205,9 +310,13 @@ const investigation = {
     { date: '2022 Jun 28', event: 'Maxwell sentenced to 20 years in federal prison. Judge Alison Nathan calls her crimes "heinous and predatory."' },
     { date: '2023 Jun', event: 'JPMorgan Chase agrees to pay $290M to settle victim lawsuit alleging the bank knowingly facilitated Epstein\'s trafficking. Internal emails show executives were aware.' },
     { date: '2023 Nov', event: 'DOJ Inspector General releases report finding "serious failures" in BOP monitoring of Epstein, including systemic breakdown in supervision.' },
-    { date: '2024 Jan', event: 'Major court-ordered document unsealing from Giuffre v. Maxwell case reveals 170+ names previously redacted, including politicians, billionaires, and scientists.' },
-    { date: '2024', event: 'Additional documents, depositions, and flight logs continue to be released. Names include Ehud Barak, Tom Pritzker, Michael Steinhardt, Stephen Hawking, and many others.' },
-    { date: '2025', event: 'Ongoing investigations, lawsuits, and document releases continue to expose the full scope of the Epstein network. USVI case against estate continues. International investigations in France, UK, and Israel remain open.' },
+    { date: '2024 Jan', event: 'Major court-ordered document unsealing from Giuffre v. Maxwell case reveals 170+ names previously redacted, including politicians, billionaires, and scientists. Multiple rounds of releases throughout January.' },
+    { date: '2024 Feb', event: 'Additional unsealed documents reveal details about Epstein\'s relationship with Bill Clinton, including testimony about Clinton visiting Epstein\'s island. Clinton denies through spokesperson.' },
+    { date: '2024 Mar', event: 'Noam Chomsky faces public scrutiny after Wall Street Journal reveals multiple meetings with Epstein post-conviction, including Epstein arranging a dinner with Chomsky and Woody Allen.' },
+    { date: '2024 Jun', event: 'FBI documents related to Epstein obtained through FOIA reveal extent of early investigative knowledge. Additional flight log analyses show previously unreported passengers.' },
+    { date: '2024 Sep', event: 'USVI reaches settlement with JPMorgan for $75M over allegations the bank facilitated Epstein\'s trafficking for 15 years through its accounts.' },
+    { date: '2024', event: 'Multiple civil lawsuits by victims continue against estates, individuals, and institutions. New names continue to emerge from document releases. French investigation into Epstein network remains open.' },
+    { date: '2025', event: 'Ongoing investigations, lawsuits, and document releases continue to expose the full scope of the Epstein network. USVI case against estate continues. International investigations in France, UK, and Israel remain open. Ghislaine Maxwell continues to serve 20-year sentence. Public pressure mounts for full declassification of all Epstein-related documents.' },
   ],
 
   // ============================
@@ -291,7 +400,23 @@ const investigation = {
   // ============================
   // VICTIMS
   // ============================
-  victims: 'Hundreds of documented victims, some as young as 11 years old. The Epstein Victims\' Compensation Program received 225+ claims and distributed $125M+ to 150+ claimants. Recruitment methods included: modeling agency scouts (MC2, Victoria\'s Secret), massage promises targeting vulnerable teens, Mar-a-Lago staff recruitment, financial manipulation of impoverished young women, school and camp recruitment through institutional access, peer-to-peer recruitment with cash incentives ($200-$300 per girl referred). Victims spanned multiple countries including the US, UK, France, Sweden, Thailand, and numerous Eastern European and South American nations.',
+  victims: {
+    overview: 'Hundreds of documented victims, some as young as 11 years old. The Epstein Victims\' Compensation Program received 225+ claims and distributed $125M+ to 150+ claimants. The true number of victims is believed to be significantly higher, with many never coming forward due to fear, shame, or threats.',
+    recruitmentMethods: [
+      'Modeling agency scouts (MC2 Model Management, Victoria\'s Secret, Karin Models Paris)',
+      'Massage promises targeting vulnerable teens through word-of-mouth and classifieds',
+      'Mar-a-Lago staff recruitment - Virginia Giuffre recruited from the spa at age 16',
+      'Financial manipulation of impoverished young women with promises of education and career help',
+      'School and camp recruitment through institutional access (Interlochen, Dalton connections)',
+      'Peer-to-peer recruitment with cash incentives ($200-$300 per girl referred)',
+      'International modeling agency pipelines from Eastern Europe, South America, and France',
+      'Social media recruitment in later years targeting vulnerable teens',
+      'University and college campus recruitment through promises of mentorship and funding',
+    ],
+    geographicScope: 'Victims spanned multiple countries including the US (Florida, New York, New Mexico, US Virgin Islands), UK, France, Sweden, Thailand, Romania, Czech Republic, Slovakia, Brazil, Colombia, Australia, and numerous other Eastern European and South American nations.',
+    compensationFund: 'The Epstein Victims\' Compensation Fund, managed by Jordana Feldman, operated from June 2020 to August 2021. It received 225+ claims, approved 150+ for compensation, and distributed $125M+ from Epstein\'s estate (valued at $634M at death). Claimants who accepted compensation waived their right to sue the estate but retained the right to sue third parties (individuals, banks, institutions).',
+    ongoingImpact: 'Survivors have reported lifelong trauma including PTSD, depression, substance abuse, and difficulty trusting institutions. Many victims became advocates for sex trafficking legislation. Courtney Wild led a successful legal challenge establishing that the 2008 NPA violated victims\' rights. Virginia Giuffre\'s lawsuits opened the door to document unsealing. Multiple victims testified at the Maxwell trial, providing testimony that secured conviction.',
+  },
 
   // ============================
   // FINANCIAL CONNECTIONS
@@ -348,6 +473,25 @@ const investigation = {
     { title: 'Filthy Rich (Netflix Documentary)', url: 'https://www.netflix.com/title/80224905', date: '2020' },
     { title: 'Julie K. Brown: Perversion of Justice (Book)', url: 'https://www.harpercollins.com/products/perversion-of-justice-julie-k-brown', date: '2021' },
     { title: 'Bradley Edwards: Relentless Pursuit (Book)', url: 'https://www.simonandschuster.com/books/Relentless-Pursuit/Bradley-J-Edwards/9781982148454', date: '2020' },
+    { title: 'Gordon Thomas: Robert Maxwell, Israel\'s Superspy (Book)', url: 'https://www.goodreads.com/book/show/287936.Robert_Maxwell_Israel_s_Superspy', date: '2002' },
+    { title: 'Conchita Sarnoff: TrafficKing (Book)', url: 'https://www.goodreads.com/book/show/51171968-trafficking', date: '2020' },
+    { title: 'James Patterson: Filthy Rich (Book)', url: 'https://www.grandcentralpublishing.com/titles/james-patterson/filthy-rich/9781455542642/', date: '2016' },
+    { title: 'Wall Street Journal: Noam Chomsky-Epstein Meetings', url: 'https://www.wsj.com/us-news/law/noam-chomsky-jeffrey-epstein-meetings-992a93d0', date: '2024' },
+    { title: 'New York Times: Steven Pinker-Epstein Connections', url: 'https://www.nytimes.com/2019/07/12/business/jeffrey-epstein-scientist-edge.html', date: '2019' },
+    { title: 'Edge Foundation and Epstein\'s Science Network', url: 'https://www.nytimes.com/2019/09/01/business/dealbook/jeffrey-epstein-science.html', date: '2019' },
+    { title: 'Virgin Islands v. JPMorgan Chase (DOJ)', url: 'https://www.justice.gov/opa/pr/jpmorgan-chase-bank-na-agrees-pay-75-million-resolve-claims-related-sex-trafficking', date: '2023' },
+    { title: 'Ehud Barak-Epstein Connection (Daily Beast)', url: 'https://www.thedailybeast.com/israelis-demand-probe-into-former-pm-ehud-baraks-ties-to-jeffrey-epstein', date: '2019' },
+    { title: 'Sarah Ransome Lawsuit and Testimony', url: 'https://www.courtlistener.com/docket/6073866/ransome-v-epstein/', date: '2017' },
+    { title: 'Steven Hoffenberg-Epstein Towers Financial Connection', url: 'https://www.vanityfair.com/news/2019/07/jeffrey-epstein-financial-crimes', date: '2019' },
+    { title: 'Juan Alessi Butler Testimony at Maxwell Trial', url: 'https://www.bbc.com/news/world-us-canada-59553395', date: '2021' },
+    { title: 'Alfredo Rodriguez Black Book Theft Case', url: 'https://www.palmbeachpost.com/story/news/crime/2015/01/05/epstein-victim-attorney-butler-who/6807012007/', date: '2015' },
+    { title: 'Denise George Firing After JPMorgan Lawsuit (USVI)', url: 'https://www.reuters.com/legal/us-virgin-islands-attorney-general-who-sued-jpmorgan-over-epstein-was-fired-2023-01-03/', date: '2023' },
+    { title: 'Peter Mandelson-Epstein Photographs (Guardian)', url: 'https://www.theguardian.com/uk-news/2019/jul/30/peter-mandelson-jeffrey-epstein', date: '2019' },
+    { title: 'Carbyne911 - Barak/Epstein Tech Investment', url: 'https://www.mintpressnews.com/ehud-barak-jeffrey-epstein-carbyne911/261726/', date: '2019' },
+    { title: 'FBI FOIA Releases on Epstein Investigation', url: 'https://vault.fbi.gov/jeffrey-epstein', date: '2020-2025' },
+    { title: 'Surviving Jeffrey Epstein (Lifetime Documentary)', url: 'https://www.mylifetime.com/shows/surviving-jeffrey-epstein', date: '2020' },
+    { title: 'Jeffrey Epstein: Devil in the Darkness (Podcast)', url: 'https://podcasts.apple.com/us/podcast/jeffrey-epstein-devil-in-the-darkness/id1478027784', date: '2020' },
+    { title: 'Broken: Seeking Justice (Victim Documentary)', url: 'https://www.investigationdiscovery.com/crimefeed/crime/new-jeffrey-epstein-doc', date: '2020' },
   ],
 };
 
@@ -584,9 +728,85 @@ export default function EpsteinNetworkPage() {
         >
           <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
             <Globe className="w-5 h-5 text-blood-500" />
-            Victims
+            Victims & Recruitment
           </h2>
-          <p className="text-zinc-300 leading-relaxed">{investigation.victims}</p>
+          <p className="text-zinc-300 leading-relaxed mb-4">{investigation.victims.overview}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            <div className="border border-red-800/30 bg-red-950/10 p-4">
+              <h3 className="font-bold text-blood-400 text-sm uppercase mb-2">Recruitment Methods</h3>
+              <ul className="space-y-1">
+                {investigation.victims.recruitmentMethods.map((method, idx) => (
+                  <li key={idx} className="flex items-start gap-2 text-xs text-zinc-400">
+                    <span className="w-1.5 h-1.5 mt-1.5 bg-red-500 flex-shrink-0" />
+                    {method}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="space-y-4">
+              <div className="border border-red-800/30 bg-red-950/10 p-4">
+                <h3 className="font-bold text-blood-400 text-sm uppercase mb-2">Geographic Scope</h3>
+                <p className="text-xs text-zinc-400">{investigation.victims.geographicScope}</p>
+              </div>
+              <div className="border border-red-800/30 bg-red-950/10 p-4">
+                <h3 className="font-bold text-blood-400 text-sm uppercase mb-2">Compensation Fund</h3>
+                <p className="text-xs text-zinc-400">{investigation.victims.compensationFund}</p>
+              </div>
+            </div>
+          </div>
+          <div className="border border-red-800/30 bg-red-950/10 p-4">
+            <h3 className="font-bold text-blood-400 text-sm uppercase mb-2">Ongoing Impact</h3>
+            <p className="text-xs text-zinc-400">{investigation.victims.ongoingImpact}</p>
+          </div>
+        </motion.div>
+
+        {/* Black Book */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.285 }}
+          className="border-2 border-red-900/60 bg-red-950/5 p-6 mb-8"
+        >
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+            <Book className="w-5 h-5 text-blood-500" />
+            The Black Book (1,571 Names)
+          </h2>
+          <p className="text-zinc-400 text-sm leading-relaxed mb-4">{investigation.blackBook.overview}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            {investigation.blackBook.notableCategories.map((cat, idx) => (
+              <div key={idx} className="border border-red-800/30 bg-red-950/10 p-4">
+                <h3 className="font-bold text-blood-400 text-sm uppercase mb-2">{cat.category}</h3>
+                <p className="text-xs text-zinc-400">{cat.names}</p>
+              </div>
+            ))}
+          </div>
+          <div className="border border-red-800/40 bg-red-950/20 p-4">
+            <p className="text-xs text-zinc-300 italic">{investigation.blackBook.significance}</p>
+          </div>
+        </motion.div>
+
+        {/* International Trafficking Routes */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.29 }}
+          className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
+        >
+          <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+            <Map className="w-5 h-5 text-blood-500" />
+            International Connections & Trafficking Routes
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {investigation.internationalConnections.map((conn, idx) => (
+              <div key={idx} className="border border-zinc-700 bg-zinc-900/50 p-4">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="font-bold text-white">{conn.region}</h3>
+                  <span className={`text-xs px-2 py-0.5 border ${conn.status.includes('Active') ? 'border-red-500/30 text-red-400 bg-red-500/10' : conn.status.includes('Alleged') ? 'border-yellow-500/30 text-yellow-400 bg-yellow-500/10' : 'border-zinc-600 text-zinc-400 bg-zinc-800/50'}`}>{conn.status}</span>
+                </div>
+                <p className="text-xs text-zinc-400">{conn.details}</p>
+              </div>
+            ))}
+          </div>
         </motion.div>
 
         {/* Charges */}
