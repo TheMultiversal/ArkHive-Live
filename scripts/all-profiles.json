@@ -1,0 +1,7190 @@
+{
+  "donald-trump": {
+    "name": "Donald John Trump",
+    "hasKA": true
+  },
+  "jeffrey-epstein": {
+    "name": "Jeffrey Edward Epstein",
+    "hasKA": true
+  },
+  "klaus-schwab": {
+    "name": "Klaus Martin Schwab",
+    "hasKA": true
+  },
+  "bill-gates": {
+    "name": "William Henry Gates III",
+    "hasKA": true
+  },
+  "george-soros": {
+    "name": "George Soros",
+    "hasKA": true
+  },
+  "ghislaine-maxwell": {
+    "name": "Ghislaine Noelle Marion Maxwell",
+    "hasKA": true
+  },
+  "rudy-giuliani": {
+    "name": "Rudolph William Louis Giuliani",
+    "hasKA": true
+  },
+  "paul-manafort": {
+    "name": "Paul John Manafort Jr.",
+    "hasKA": true
+  },
+  "roger-stone": {
+    "name": "Roger Jason Stone Jr.",
+    "hasKA": true
+  },
+  "michael-flynn": {
+    "name": "Michael Thomas Flynn",
+    "hasKA": true
+  },
+  "steve-bannon": {
+    "name": "Stephen Kevin Bannon",
+    "hasKA": true
+  },
+  "jared-kushner": {
+    "name": "Jared Corey Kushner",
+    "hasKA": true
+  },
+  "ivanka-trump": {
+    "name": "Ivana Marie Trump",
+    "hasKA": true
+  },
+  "donald-trump-jr": {
+    "name": "Donald John Trump Jr.",
+    "hasKA": true
+  },
+  "eric-trump": {
+    "name": "Eric Frederick Trump",
+    "hasKA": true
+  },
+  "allen-weisselberg": {
+    "name": "Allen Howard Weisselberg",
+    "hasKA": true
+  },
+  "michael-cohen": {
+    "name": "Michael Dean Cohen",
+    "hasKA": true
+  },
+  "vladimir-putin": {
+    "name": "Vladimir Vladimirovich Putin",
+    "hasKA": true
+  },
+  "mohammed-bin-salman": {
+    "name": "Mohammed bin Salman bin Abdulaziz Al Saud",
+    "hasKA": true
+  },
+  "mark-meadows": {
+    "name": "Mark Randall Meadows",
+    "hasKA": true
+  },
+  "john-eastman": {
+    "name": "John Charles Eastman",
+    "hasKA": true
+  },
+  "sidney-powell": {
+    "name": "Sidney Katherine Powell",
+    "hasKA": true
+  },
+  "kenneth-chesebro": {
+    "name": "Kenneth John Chesebro",
+    "hasKA": true
+  },
+  "jeffrey-clark": {
+    "name": "Jeffrey Bossert Clark",
+    "hasKA": true
+  },
+  "scott-pruitt": {
+    "name": "Edward Scott Pruitt",
+    "hasKA": true
+  },
+  "tom-price": {
+    "name": "Thomas Edmunds Price",
+    "hasKA": true
+  },
+  "rick-perry": {
+    "name": "James Richard Perry",
+    "hasKA": true
+  },
+  "lev-parnas": {
+    "name": "Lev Parnas",
+    "hasKA": true
+  },
+  "igor-fruman": {
+    "name": "Igor Fruman",
+    "hasKA": true
+  },
+  "konstantin-kilimnik": {
+    "name": "Konstantin Viktorovych Kilimnik",
+    "hasKA": true
+  },
+  "les-wexner": {
+    "name": "Leslie Herbert Wexner",
+    "hasKA": true
+  },
+  "prince-andrew": {
+    "name": "Prince Andrew, Duke of York",
+    "hasKA": true
+  },
+  "bill-clinton": {
+    "name": "William Jefferson Clinton",
+    "hasKA": true
+  },
+  "brian-kolfage": {
+    "name": "Brian Kolfage",
+    "hasKA": true
+  },
+  "julian-assange": {
+    "name": "Julian Paul Assange",
+    "hasKA": true
+  },
+  "jerome-corsi": {
+    "name": "Jerome Robert Corsi",
+    "hasKA": true
+  },
+  "viktor-yanukovych": {
+    "name": "Viktor Fedorovych Yanukovych",
+    "hasKA": true
+  },
+  "oleg-deripaska": {
+    "name": "Oleg Vladimirovich Deripaska",
+    "hasKA": true
+  },
+  "sergey-kislyak": {
+    "name": "Sergey Ivanovich Kislyak",
+    "hasKA": true
+  },
+  "gordon-sondland": {
+    "name": "Gordon David Sondland",
+    "hasKA": true
+  },
+  "kurt-volker": {
+    "name": "Kurt Douglas Volker",
+    "hasKA": true
+  },
+  "stephen-miller": {
+    "name": "Stephen Miller",
+    "hasKA": true
+  },
+  "kirstjen-nielsen": {
+    "name": "Kirstjen Michele Nielsen",
+    "hasKA": true
+  },
+  "jeff-sessions": {
+    "name": "Jefferson Beauregard Sessions III",
+    "hasKA": true
+  },
+  "george-papadopoulos": {
+    "name": "George Demetrios Papadopoulos",
+    "hasKA": true
+  },
+  "rick-gates": {
+    "name": "Richard William Gates III",
+    "hasKA": true
+  },
+  "hope-hicks": {
+    "name": "Hope Charlotte Hicks",
+    "hasKA": true
+  },
+  "e-jean-carroll": {
+    "name": "E. Jean Carroll",
+    "hasKA": true
+  },
+  "stormy-daniels": {
+    "name": "Stephanie Gregory Clifford",
+    "hasKA": true
+  },
+  "ruby-freeman": {
+    "name": "Ruby Freeman",
+    "hasKA": true
+  },
+  "shaye-moss": {
+    "name": "Wandrea ArShaye ",
+    "hasKA": true
+  },
+  "cassidy-hutchinson": {
+    "name": "Cassidy Jacqueline Hutchinson",
+    "hasKA": true
+  },
+  "jack-smith": {
+    "name": "John Luman ",
+    "hasKA": true
+  },
+  "fani-willis": {
+    "name": "Fani Taifa Willis",
+    "hasKA": true
+  },
+  "mike-pence": {
+    "name": "Michael Richard Pence",
+    "hasKA": true
+  },
+  "brad-raffensperger": {
+    "name": "Brad Raffensperger",
+    "hasKA": true
+  },
+  "james-comey": {
+    "name": "James Brien Comey Jr.",
+    "hasKA": true
+  },
+  "robert-mueller": {
+    "name": "Robert Swan Mueller III",
+    "hasKA": true
+  },
+  "enrique-tarrio": {
+    "name": "Henry ",
+    "hasKA": true
+  },
+  "stewart-rhodes": {
+    "name": "Elmer Stewart Rhodes III",
+    "hasKA": true
+  },
+  "anthony-fauci": {
+    "name": "Anthony Stephen Fauci",
+    "hasKA": true
+  },
+  "louis-dejoy": {
+    "name": "Louis DeJoy",
+    "hasKA": true
+  },
+  "peter-navarro": {
+    "name": "Peter Kent Navarro",
+    "hasKA": true
+  },
+  "david-pecker": {
+    "name": "David J. Pecker",
+    "hasKA": true
+  },
+  "karen-mcdougal": {
+    "name": "Karen McDougal",
+    "hasKA": true
+  },
+  "virginia-giuffre": {
+    "name": "Virginia Louise Giuffre",
+    "hasKA": true
+  },
+  "robert-mercer": {
+    "name": "Robert Leroy Mercer",
+    "hasKA": true
+  },
+  "rebekah-mercer": {
+    "name": "Rebekah Mercer",
+    "hasKA": true
+  },
+  "melania-trump": {
+    "name": "Melania Trump",
+    "hasKA": true
+  },
+  "pat-cipollone": {
+    "name": "Pasquale Anthony Cipollone",
+    "hasKA": true
+  },
+  "deborah-birx": {
+    "name": "Deborah Leah Birx",
+    "hasKA": true
+  },
+  "rod-rosenstein": {
+    "name": "Rod Jay Rosenstein",
+    "hasKA": true
+  },
+  "andrew-mccabe": {
+    "name": "Andrew George McCabe",
+    "hasKA": true
+  },
+  "charles-kushner": {
+    "name": "Charles Kushner",
+    "hasKA": true
+  },
+  "walt-nauta": {
+    "name": "Waltine Nauta",
+    "hasKA": true
+  },
+  "carlos-de-oliveira": {
+    "name": "Carlos De Oliveira",
+    "hasKA": true
+  },
+  "tom-barrack": {
+    "name": "Thomas Joseph Barrack Jr.",
+    "hasKA": true
+  },
+  "rupert-murdoch": {
+    "name": "Keith Rupert Murdoch",
+    "hasKA": true
+  },
+  "lachlan-murdoch": {
+    "name": "Lachlan Keith Murdoch",
+    "hasKA": true
+  },
+  "tucker-carlson": {
+    "name": "Tucker Swanson McNear Carlson",
+    "hasKA": true
+  },
+  "sean-hannity": {
+    "name": "Sean Patrick Hannity",
+    "hasKA": true
+  },
+  "maria-bartiromo": {
+    "name": "Maria Sara Bartiromo",
+    "hasKA": true
+  },
+  "lou-dobbs": {
+    "name": "Louis Carl Dobbs",
+    "hasKA": true
+  },
+  "tony-ornato": {
+    "name": "Anthony Ornato",
+    "hasKA": true
+  },
+  "alexander-nix": {
+    "name": "Alexander James Ashburner Nix",
+    "hasKA": true
+  },
+  "christopher-wylie": {
+    "name": "Christopher Wylie",
+    "hasKA": true
+  },
+  "rosemary-vrablic": {
+    "name": "Rosemary Vrablic",
+    "hasKA": true
+  },
+  "nathan-wade": {
+    "name": "Nathan J. Wade",
+    "hasKA": true
+  },
+  "dylan-howard": {
+    "name": "Dylan Howard",
+    "hasKA": true
+  },
+  "george-conway": {
+    "name": "George T. Conway III",
+    "hasKA": true
+  },
+  "don-mcgahn": {
+    "name": "Donald F. McGahn II",
+    "hasKA": true
+  },
+  "devin-nunes": {
+    "name": "Devin Gerald Nunes",
+    "hasKA": true
+  },
+  "kash-patel": {
+    "name": "Kashyap Pramod Patel",
+    "hasKA": true
+  },
+  "kellyanne-conway": {
+    "name": "Kellyanne Elizabeth Conway",
+    "hasKA": true
+  },
+  "matt-gaetz": {
+    "name": "Matthew Louis Gaetz II",
+    "hasKA": true
+  },
+  "pete-hegseth": {
+    "name": "Peter Brian Hegseth",
+    "hasKA": true
+  },
+  "jean-luc-brunel": {
+    "name": "Jean-Luc Brunel",
+    "hasKA": true
+  },
+  "joel-greenberg": {
+    "name": "Joel Greenberg",
+    "hasKA": true
+  },
+  "viktor-knavs": {
+    "name": "Viktor Knavs",
+    "hasKA": true
+  },
+  "amalija-knavs": {
+    "name": "Amalija Knavs",
+    "hasKA": true
+  },
+  "alex-acosta": {
+    "name": "R. Alexander Acosta",
+    "hasKA": true
+  },
+  "rex-tillerson": {
+    "name": "Rex Wayne Tillerson",
+    "hasKA": true
+  },
+  "mike-pompeo": {
+    "name": "Michael Richard Pompeo",
+    "hasKA": true
+  },
+  "betsy-devos": {
+    "name": "Elisabeth Dee DeVos",
+    "hasKA": true
+  },
+  "wilbur-ross": {
+    "name": "Wilbur Louis Ross Jr.",
+    "hasKA": true
+  },
+  "ryan-zinke": {
+    "name": "Ryan Keith Zinke",
+    "hasKA": true
+  },
+  "alex-azar": {
+    "name": "Alex Michael Azar II",
+    "hasKA": true
+  },
+  "elaine-chao": {
+    "name": "Elaine Lan Chao",
+    "hasKA": true
+  },
+  "chad-wolf": {
+    "name": "Chad Frederick Wolf",
+    "hasKA": true
+  },
+  "ben-carson": {
+    "name": "Benjamin Solomon Carson Sr.",
+    "hasKA": true
+  },
+  "alan-dershowitz": {
+    "name": "Alan Morton Dershowitz",
+    "hasKA": true
+  },
+  "ali-alexander": {
+    "name": "Ali Akbar Alexander",
+    "hasKA": true
+  },
+  "alex-jones": {
+    "name": "Alexander Emerick Jones",
+    "hasKA": true
+  },
+  "erik-prince": {
+    "name": "Erik Dean Prince",
+    "hasKA": true
+  },
+  "barron-trump": {
+    "name": "Barron William Trump",
+    "hasKA": true
+  },
+  "marie-yovanovitch": {
+    "name": "Marie Louise Yovanovitch",
+    "hasKA": true
+  },
+  "fiona-hill": {
+    "name": "Fiona Hill",
+    "hasKA": true
+  },
+  "alexander-vindman": {
+    "name": "Alexander Semyon Vindman",
+    "hasKA": true
+  },
+  "bill-taylor": {
+    "name": "William Brockenbrough Taylor Jr.",
+    "hasKA": true
+  },
+  "george-kent": {
+    "name": "George Philip Kent",
+    "hasKA": true
+  },
+  "joseph-mifsud": {
+    "name": "Joseph Mifsud",
+    "hasKA": true
+  },
+  "maria-butina": {
+    "name": "Maria Valeryevna Butina",
+    "hasKA": true
+  },
+  "lisa-monaco": {
+    "name": "Lisa Oudens Monaco",
+    "hasKA": true
+  },
+  "john-bolton": {
+    "name": "John Bolton",
+    "hasKA": false
+  },
+  "john-kelly": {
+    "name": "John Kelly",
+    "hasKA": false
+  },
+  "merrick-garland": {
+    "name": "Merrick Garland",
+    "hasKA": false
+  },
+  "wayne-lapierre": {
+    "name": "Wayne Robert LaPierre Jr.",
+    "hasKA": true
+  },
+  "alexander-torshin": {
+    "name": "Alexander Torshin",
+    "hasKA": true
+  },
+  "paul-erickson": {
+    "name": "Paul Erickson",
+    "hasKA": true
+  },
+  "greg-jacob": {
+    "name": "Greg Jacob",
+    "hasKA": true
+  },
+  "michael-avenatti": {
+    "name": "Michael Avenatti",
+    "hasKA": true
+  },
+  "keith-davidson": {
+    "name": "Keith Davidson",
+    "hasKA": true
+  },
+  "lindsey-graham": {
+    "name": "Lindsey Graham",
+    "hasKA": true
+  },
+  "mitch-mcconnell": {
+    "name": "Mitch McConnell",
+    "hasKA": true
+  },
+  "kevin-mccarthy": {
+    "name": "Kevin McCarthy",
+    "hasKA": true
+  },
+  "jim-jordan": {
+    "name": "Jim Jordan",
+    "hasKA": true
+  },
+  "tiffany-trump": {
+    "name": "Tiffany Ariana Trump",
+    "hasKA": true
+  },
+  "yevgeny-vindman": {
+    "name": "Yevgeny Vindman",
+    "hasKA": false
+  },
+  "ivan-timofeev": {
+    "name": "Ivan Timofeev",
+    "hasKA": true
+  },
+  "reince-priebus": {
+    "name": "Reince Richard Priebus",
+    "hasKA": true
+  },
+  "sean-spicer": {
+    "name": "Sean Michael Spicer",
+    "hasKA": true
+  },
+  "sarah-huckabee-sanders": {
+    "name": "Sarah Elizabeth Huckabee Sanders",
+    "hasKA": true
+  },
+  "anthony-scaramucci": {
+    "name": "Anthony Scaramucci",
+    "hasKA": true
+  },
+  "dan-scavino": {
+    "name": "Daniel Scavino Jr.",
+    "hasKA": true
+  },
+  "brad-parscale": {
+    "name": "Bradley James Parscale",
+    "hasKA": true
+  },
+  "alvin-bragg": {
+    "name": "Alvin Leonard Bragg Jr.",
+    "hasKA": true
+  },
+  "letitia-james": {
+    "name": "Letitia Ann James",
+    "hasKA": true
+  },
+  "juan-merchan": {
+    "name": "Juan Manuel Merchan",
+    "hasKA": true
+  },
+  "aileen-cannon": {
+    "name": "Aileen Mercedes Cannon",
+    "hasKA": true
+  },
+  "tanya-chutkan": {
+    "name": "Tanya Sue Chutkan",
+    "hasKA": false
+  },
+  "scott-mcafee": {
+    "name": "Scott McAfee",
+    "hasKA": false
+  },
+  "jacob-chansley": {
+    "name": "Jacob Anthony Chansley",
+    "hasKA": false
+  },
+  "jenna-ellis": {
+    "name": "Jenna Ellis",
+    "hasKA": false
+  },
+  "christina-bobb": {
+    "name": "Christina Bobb",
+    "hasKA": false
+  },
+  "boris-epshteyn": {
+    "name": "Boris Epshteyn",
+    "hasKA": true
+  },
+  "evan-corcoran": {
+    "name": "Evan Corcoran",
+    "hasKA": true
+  },
+  "lin-wood": {
+    "name": "Lucian Lincoln Wood Jr.",
+    "hasKA": true
+  },
+  "todd-blanche": {
+    "name": "Todd Blanche",
+    "hasKA": true
+  },
+  "alina-habba": {
+    "name": "Alina Habba",
+    "hasKA": true
+  },
+  "kayleigh-mcenany": {
+    "name": "Kayleigh McEnany",
+    "hasKA": true
+  },
+  "mick-mulvaney": {
+    "name": "John Michael Mulvaney",
+    "hasKA": true
+  },
+  "omarosa-manigault-newman": {
+    "name": "Omarosa Onée Manigault Newman",
+    "hasKA": true
+  },
+  "hr-mcmaster": {
+    "name": "Herbert Raymond McMaster",
+    "hasKA": true
+  },
+  "sebastian-gorka": {
+    "name": "Sebastian Lukács Gorka",
+    "hasKA": true
+  },
+  "jerry-falwell-jr": {
+    "name": "Jerry Lamon Falwell Jr.",
+    "hasKA": true
+  },
+  "paula-white": {
+    "name": "Paula Michelle White-Cain",
+    "hasKA": true
+  },
+  "kim-jong-un": {
+    "name": "Kim Jong Un",
+    "hasKA": true
+  },
+  "viktor-orban": {
+    "name": "Viktor Mihály Orbán",
+    "hasKA": true
+  },
+  "benjamin-netanyahu": {
+    "name": "Benjamin Netanyahu",
+    "hasKA": true
+  },
+  "xi-jinping": {
+    "name": "Xi Jinping",
+    "hasKA": true
+  },
+  "volodymyr-zelensky": {
+    "name": "Volodymyr Oleksandrovych Zelensky",
+    "hasKA": true
+  },
+  "jair-bolsonaro": {
+    "name": "Jair Messias Bolsonaro",
+    "hasKA": true
+  },
+  "mary-trump": {
+    "name": "Mary Lea Trump",
+    "hasKA": false
+  },
+  "maryanne-trump-barry": {
+    "name": "Maryanne Trump Barry",
+    "hasKA": false
+  },
+  "franklin-graham": {
+    "name": "William Franklin Graham III",
+    "hasKA": false
+  },
+  "robert-jeffress": {
+    "name": "Robert James Jeffress Jr.",
+    "hasKA": false
+  },
+  "arthur-engoron": {
+    "name": "Arthur F. Engoron",
+    "hasKA": false
+  },
+  "natalia-veselnitskaya": {
+    "name": "Natalia Vladimirovna Veselnitskaya",
+    "hasKA": true
+  },
+  "rinat-akhmetshin": {
+    "name": "Rinat Akhmetshin",
+    "hasKA": true
+  },
+  "rob-goldstone": {
+    "name": "Robert Goldstone",
+    "hasKA": true
+  },
+  "aras-agalarov": {
+    "name": "Aras Iskenderovich Agalarov",
+    "hasKA": true
+  },
+  "emin-agalarov": {
+    "name": "Emin Araz oglu Agalarov",
+    "hasKA": true
+  },
+  "stephanie-grisham": {
+    "name": "Stephanie Grisham",
+    "hasKA": false
+  },
+  "johnny-mcentee": {
+    "name": "John Douglas McEntee II",
+    "hasKA": false
+  },
+  "mike-lindell": {
+    "name": "Michael James Lindell",
+    "hasKA": true
+  },
+  "corey-lewandowski": {
+    "name": "Corey R. Lewandowski",
+    "hasKA": true
+  },
+  "steven-mnuchin": {
+    "name": "Steven Terner Mnuchin",
+    "hasKA": false
+  },
+  "patrick-byrne": {
+    "name": "Patrick Michael Byrne",
+    "hasKA": true
+  },
+  "matthew-calamari": {
+    "name": "Matthew Calamari",
+    "hasKA": true
+  },
+  "phil-waldron": {
+    "name": "Philip G. Waldron",
+    "hasKA": false
+  },
+  "marla-maples": {
+    "name": "Marla Ann Maples",
+    "hasKA": true
+  },
+  "cleta-mitchell": {
+    "name": "Cleta Mitchell",
+    "hasKA": true
+  },
+  "ike-kaveladze": {
+    "name": "Irakly ",
+    "hasKA": true
+  },
+  "anatoli-samochornov": {
+    "name": "Anatoli Samochornov",
+    "hasKA": false
+  },
+  "jeff-mcconney": {
+    "name": "Jeffrey S. McConney",
+    "hasKA": true
+  },
+  "joe-tacopina": {
+    "name": "Joseph Tacopina",
+    "hasKA": false
+  },
+  "liz-cheney": {
+    "name": "Elizabeth Lynne Cheney",
+    "hasKA": true
+  },
+  "adam-kinzinger": {
+    "name": "Adam Daniel Kinzinger",
+    "hasKA": true
+  },
+  "bennie-thompson": {
+    "name": "Bennie Gordon Thompson",
+    "hasKA": true
+  },
+  "mo-brooks": {
+    "name": "Morris Jackson ",
+    "hasKA": true
+  },
+  "andy-biggs": {
+    "name": "Andrew Steven Biggs",
+    "hasKA": true
+  },
+  "paul-gosar": {
+    "name": "Paul Anthony Gosar",
+    "hasKA": true
+  },
+  "scott-perry": {
+    "name": "Scott Gordon Perry",
+    "hasKA": true
+  },
+  "marjorie-taylor-greene": {
+    "name": "Marjorie Taylor Greene",
+    "hasKA": true
+  },
+  "lauren-boebert": {
+    "name": "Lauren Opal Boebert",
+    "hasKA": true
+  },
+  "richard-donoghue": {
+    "name": "Richard Peter Donoghue",
+    "hasKA": true
+  },
+  "steven-engel": {
+    "name": "Steven Andrew Engel",
+    "hasKA": true
+  },
+  "jeffrey-rosen": {
+    "name": "Jeffrey A. Rosen",
+    "hasKA": true
+  },
+  "amy-berman-jackson": {
+    "name": "Amy Berman Jackson",
+    "hasKA": false
+  },
+  "lewis-kaplan": {
+    "name": "Lewis A. Kaplan",
+    "hasKA": false
+  },
+  "beryl-howell": {
+    "name": "Beryl Alaine Howell",
+    "hasKA": false
+  },
+  "cy-vance": {
+    "name": "Cyrus Roberts Vance Jr.",
+    "hasKA": true
+  },
+  "keith-schiller": {
+    "name": "Keith Schiller",
+    "hasKA": true
+  },
+  "rhona-graff": {
+    "name": "Rhona Graff",
+    "hasKA": true
+  },
+  "dick-cheney": {
+    "name": "Richard Bruce Cheney",
+    "hasKA": true
+  },
+  "summer-zervos": {
+    "name": "Summer Zervos",
+    "hasKA": true
+  },
+  "jessica-leeds": {
+    "name": "Jessica Leeds",
+    "hasKA": false
+  },
+  "jill-harth": {
+    "name": "Jill Harth",
+    "hasKA": false
+  },
+  "ivana-trump": {
+    "name": "Ivana Marie Trump",
+    "hasKA": true
+  },
+  "peter-strzok": {
+    "name": "Peter Paul Strzok II",
+    "hasKA": true
+  },
+  "lisa-page": {
+    "name": "Lisa Page",
+    "hasKA": true
+  },
+  "laura-ingraham": {
+    "name": "Laura Anne Ingraham",
+    "hasKA": true
+  },
+  "jeanine-pirro": {
+    "name": "Jeanine Ferris Pirro",
+    "hasKA": true
+  },
+  "jesse-watters": {
+    "name": "Jesse Bailey Watters",
+    "hasKA": true
+  },
+  "bill-kristol": {
+    "name": "William Kristol",
+    "hasKA": false
+  },
+  "steve-schmidt": {
+    "name": "Steve Schmidt",
+    "hasKA": false
+  },
+  "elliott-broidy": {
+    "name": "Elliott Broidy",
+    "hasKA": true
+  },
+  "steve-wynn": {
+    "name": "Stephen Alan Wynn",
+    "hasKA": true
+  },
+  "sheldon-adelson": {
+    "name": "Sheldon Gary Adelson",
+    "hasKA": true
+  },
+  "miriam-adelson": {
+    "name": "Miriam Adelson",
+    "hasKA": true
+  },
+  "peter-thiel": {
+    "name": "Peter Andreas Thiel",
+    "hasKA": true
+  },
+  "felix-sater": {
+    "name": "Felix Henry Sater",
+    "hasKA": true
+  },
+  "michael-caputo": {
+    "name": "Michael Roman Caputo",
+    "hasKA": true
+  },
+  "sam-nunberg": {
+    "name": "Samuel Nunberg",
+    "hasKA": true
+  },
+  "jason-miller": {
+    "name": "Jason Michael Miller",
+    "hasKA": true
+  },
+  "katrina-pierson": {
+    "name": "Katrina Pierson",
+    "hasKA": true
+  },
+  "david-bossie": {
+    "name": "David Bossie",
+    "hasKA": true
+  },
+  "george-w-bush": {
+    "name": "George Walker Bush",
+    "hasKA": true
+  },
+  "gloria-allred": {
+    "name": "Gloria Rachel Allred",
+    "hasKA": true
+  },
+  "aj-delgado": {
+    "name": "A.J. Delgado",
+    "hasKA": true
+  },
+  "nick-fuentes": {
+    "name": "Nicholas Joseph Fuentes",
+    "hasKA": true
+  },
+  "andrew-wheeler": {
+    "name": "Andrew Wheeler",
+    "hasKA": true
+  },
+  "michael-sexton": {
+    "name": "Michael Sexton",
+    "hasKA": true
+  },
+  "tom-marino": {
+    "name": "Thomas Anthony Marino",
+    "hasKA": true
+  },
+  "andrew-badolato": {
+    "name": "Andrew Badolato",
+    "hasKA": true
+  },
+  "timothy-shea": {
+    "name": "Timothy Shea",
+    "hasKA": true
+  },
+  "hillary-clinton": {
+    "name": "Hillary Diane Rodham Clinton",
+    "hasKA": true
+  },
+  "barack-obama": {
+    "name": "Barack Hussein Obama II",
+    "hasKA": true
+  },
+  "joe-biden": {
+    "name": "Joseph Robinette Biden Jr.",
+    "hasKA": true
+  },
+  "nancy-pelosi": {
+    "name": "Nancy Patricia Pelosi",
+    "hasKA": true
+  },
+  "mitt-romney": {
+    "name": "Willard Mitt Romney",
+    "hasKA": true
+  },
+  "kanye-west": {
+    "name": "Kanye Omari West (Ye)",
+    "hasKA": true
+  },
+  "chris-christie": {
+    "name": "Christopher James Christie",
+    "hasKA": true
+  },
+  "john-mccain": {
+    "name": "John Sidney McCain III",
+    "hasKA": true
+  },
+  "fred-trump": {
+    "name": "Frederick Christ Trump",
+    "hasKA": true
+  },
+  "jamal-khashoggi": {
+    "name": "Jamal Ahmad Khashoggi",
+    "hasKA": true
+  },
+  "vivek-ramaswamy": {
+    "name": "Vivek Ganapathy Ramaswamy",
+    "hasKA": true
+  },
+  "nikki-haley": {
+    "name": "Nimarata Nikki Haley",
+    "hasKA": true
+  },
+  "ron-desantis": {
+    "name": "Ronald Dion DeSantis",
+    "hasKA": true
+  },
+  "ethan-nordean": {
+    "name": "Ethan Nordean",
+    "hasKA": true
+  },
+  "joseph-biggs": {
+    "name": "Joseph Randall Biggs",
+    "hasKA": true
+  },
+  "zachary-rehl": {
+    "name": "Zachary Rehl",
+    "hasKA": true
+  },
+  "james-fields-jr": {
+    "name": "James Alex Fields Jr.",
+    "hasKA": true
+  },
+  "dominic-pezzola": {
+    "name": "Dominic Pezzola",
+    "hasKA": true
+  },
+  "kelly-meggs": {
+    "name": "Kelly Meggs",
+    "hasKA": true
+  },
+  "kenneth-harrelson": {
+    "name": "Kenneth Harrelson",
+    "hasKA": true
+  },
+  "jessica-watkins": {
+    "name": "Jessica Watkins",
+    "hasKA": true
+  },
+  "christopher-wray": {
+    "name": "Christopher Asher Wray",
+    "hasKA": true
+  },
+  "mark-milley": {
+    "name": "Mark Alexander Milley",
+    "hasKA": true
+  },
+  "mark-esper": {
+    "name": "Mark Thomas Esper",
+    "hasKA": true
+  },
+  "james-mattis": {
+    "name": "James Norman Mattis",
+    "hasKA": true
+  },
+  "matthew-whitaker": {
+    "name": "Matthew George Whitaker",
+    "hasKA": true
+  },
+  "ken-cuccinelli": {
+    "name": "Kenneth Thomas Cuccinelli II",
+    "hasKA": true
+  },
+  "richard-spencer": {
+    "name": "Richard Bertrand Spencer",
+    "hasKA": true
+  },
+  "jason-kessler": {
+    "name": "Jason Eric Kessler",
+    "hasKA": true
+  },
+  "david-duke": {
+    "name": "David Ernest Duke",
+    "hasKA": true
+  },
+  "stephanie-winston-wolkoff": {
+    "name": "Stephanie Winston Wolkoff",
+    "hasKA": true
+  },
+  "viktor-vekselberg": {
+    "name": "Viktor Felixovich Vekselberg",
+    "hasKA": true
+  },
+  "neil-gorsuch": {
+    "name": "Neil McGill Gorsuch",
+    "hasKA": true
+  },
+  "amy-coney-barrett": {
+    "name": "Amy Coney Barrett",
+    "hasKA": true
+  },
+  "ginni-thomas": {
+    "name": "Virginia ",
+    "hasKA": true
+  },
+  "carl-icahn": {
+    "name": "Carl Celian Icahn",
+    "hasKA": true
+  },
+  "larry-fink": {
+    "name": "Laurence Douglas Fink",
+    "hasKA": true
+  },
+  "clarence-thomas": {
+    "name": "Clarence Thomas",
+    "hasKA": true
+  },
+  "samuel-alito": {
+    "name": "Samuel Anthony Alito Jr.",
+    "hasKA": true
+  },
+  "john-roberts": {
+    "name": "John Glover Roberts Jr.",
+    "hasKA": true
+  },
+  "brett-kavanaugh": {
+    "name": "Brett Michael Kavanaugh",
+    "hasKA": true
+  },
+  "ted-cruz": {
+    "name": "Rafael Edward ",
+    "hasKA": true
+  },
+  "josh-hawley": {
+    "name": "Joshua David Hawley",
+    "hasKA": true
+  },
+  "rand-paul": {
+    "name": "Randal Howard Paul",
+    "hasKA": true
+  },
+  "kari-lake": {
+    "name": "Kari Lake",
+    "hasKA": true
+  },
+  "scott-atlas": {
+    "name": "Scott William Atlas",
+    "hasKA": true
+  },
+  "james-alex-fields": {
+    "name": "James Alex Fields Jr.",
+    "hasKA": true
+  },
+  "heather-heyer": {
+    "name": "Heather Danielle Heyer",
+    "hasKA": true
+  },
+  "dmitry-firtash": {
+    "name": "Dmytro Firtash",
+    "hasKA": true
+  },
+  "janet-yellen": {
+    "name": "Janet Louise Yellen",
+    "hasKA": true
+  },
+  "lanny-davis": {
+    "name": "Lanny J. Davis",
+    "hasKA": true
+  },
+  "nadia-marcinkova": {
+    "name": "Nadia Marcinkova",
+    "hasKA": true
+  },
+  "randy-credico": {
+    "name": "Randy Credico",
+    "hasKA": true
+  },
+  "robert-maxwell": {
+    "name": "Robert Maxwell",
+    "hasKA": true
+  },
+  "sarah-kellen": {
+    "name": "Sarah Kellen",
+    "hasKA": true
+  },
+  "semion-mogilevich": {
+    "name": "Semion Yudkovich Mogilevich",
+    "hasKA": true
+  },
+  "harlan-crow": {
+    "name": "Harlan Crow",
+    "hasKA": true
+  },
+  "leonard-leo": {
+    "name": "Leonard Anthony Leo",
+    "hasKA": true
+  },
+  "david-rockefeller": {
+    "name": "David Rockefeller Sr.",
+    "hasKA": true
+  },
+  "henry-kissinger": {
+    "name": "Henry Alfred Kissinger",
+    "hasKA": true
+  },
+  "charles-koch": {
+    "name": "Charles de Ganahl Koch",
+    "hasKA": true
+  },
+  "dan-coats": {
+    "name": "Daniel Ray Coats",
+    "hasKA": true
+  },
+  "billy-bush": {
+    "name": "William Hall Bush",
+    "hasKA": true
+  },
+  "korey-wise": {
+    "name": "Korey Wise",
+    "hasKA": true
+  },
+  "yusef-salaam": {
+    "name": "Yusef Salaam",
+    "hasKA": true
+  },
+  "christopher-miller": {
+    "name": "Christopher Charles Miller",
+    "hasKA": true
+  },
+  "richard-nixon": {
+    "name": "Richard Milhous Nixon",
+    "hasKA": true
+  },
+  "george-hw-bush": {
+    "name": "George Herbert Walker Bush",
+    "hasKA": true
+  },
+  "mark-zuckerberg": {
+    "name": "Mark Elliot Zuckerberg",
+    "hasKA": true
+  },
+  "elon-musk": {
+    "name": "Elon Reeve Musk",
+    "hasKA": true
+  },
+  "kelly-loeffler": {
+    "name": "Kelly Lynn Loeffler",
+    "hasKA": true
+  },
+  "richard-burr": {
+    "name": "Richard Mauze Burr",
+    "hasKA": true
+  },
+  "linda-mcmahon": {
+    "name": "Linda Marie McMahon",
+    "hasKA": true
+  },
+  "john-ratcliffe": {
+    "name": "John Lee Ratcliffe",
+    "hasKA": true
+  },
+  "ken-paxton": {
+    "name": "Warren Kenneth Paxton Jr.",
+    "hasKA": true
+  },
+  "colin-powell": {
+    "name": "Colin Luther Powell",
+    "hasKA": true
+  },
+  "condoleezza-rice": {
+    "name": "Condoleezza Rice",
+    "hasKA": true
+  },
+  "donald-rumsfeld": {
+    "name": "Donald Henry Rumsfeld",
+    "hasKA": true
+  },
+  "george-tenet": {
+    "name": "George John Tenet",
+    "hasKA": true
+  },
+  "paul-wolfowitz": {
+    "name": "Paul Dundes Wolfowitz",
+    "hasKA": true
+  },
+  "karl-rove": {
+    "name": "Karl Christian Rove",
+    "hasKA": true
+  },
+  "scooter-libby": {
+    "name": "Irving Lewis ",
+    "hasKA": true
+  },
+  "oliver-north": {
+    "name": "Oliver Laurence North",
+    "hasKA": true
+  },
+  "jeb-bush": {
+    "name": "John Ellis ",
+    "hasKA": true
+  },
+  "augusto-pinochet": {
+    "name": "Augusto José Ramón Pinochet Ugarte",
+    "hasKA": true
+  },
+  "robert-redfield": {
+    "name": "Robert Ray Redfield Jr.",
+    "hasKA": true
+  },
+  "russell-vought": {
+    "name": "Russell Thurlow Vought",
+    "hasKA": true
+  },
+  "yevgeny-prigozhin": {
+    "name": "Yevgeny Viktorovich Prigozhin",
+    "hasKA": true
+  },
+  "george-nader": {
+    "name": "George Aref Nader",
+    "hasKA": true
+  },
+  "kirill-dmitriev": {
+    "name": "Kirill Aleksandrovich Dmitriev",
+    "hasKA": true
+  },
+  "paul-singer": {
+    "name": "Paul Elliott Singer",
+    "hasKA": true
+  },
+  "francis-collins": {
+    "name": "Francis Sellers Collins",
+    "hasKA": true
+  },
+  "peter-daszak": {
+    "name": "Peter Daszak",
+    "hasKA": true
+  },
+  "ralph-baric": {
+    "name": "Ralph Steven Baric",
+    "hasKA": true
+  },
+  "shi-zhengli": {
+    "name": "Shi Zhengli",
+    "hasKA": true
+  },
+  "tedros-adhanom": {
+    "name": "Tedros Adhanom Ghebreyesus",
+    "hasKA": true
+  },
+  "ronald-reagan": {
+    "name": "Ronald Wilson Reagan",
+    "hasKA": true
+  },
+  "margaret-thatcher": {
+    "name": "Margaret Hilda Thatcher",
+    "hasKA": true
+  },
+  "caspar-weinberger": {
+    "name": "Caspar Willard Weinberger",
+    "hasKA": true
+  },
+  "john-poindexter": {
+    "name": "John Marlan Poindexter",
+    "hasKA": true
+  },
+  "fawn-hall": {
+    "name": "Fawn Hall",
+    "hasKA": true
+  },
+  "douglas-feith": {
+    "name": "Douglas Jay Feith",
+    "hasKA": true
+  },
+  "richard-perle": {
+    "name": "Richard Norman Perle",
+    "hasKA": true
+  },
+  "katherine-harris": {
+    "name": "Kathleen Ann Harris",
+    "hasKA": true
+  },
+  "marco-rubio": {
+    "name": "Marco Antonio Rubio",
+    "hasKA": true
+  },
+  "kevin-roberts": {
+    "name": "Kevin D. Roberts",
+    "hasKA": true
+  },
+  "manuel-contreras": {
+    "name": "Manuel Contreras Sepúlveda",
+    "hasKA": true
+  },
+  "milton-friedman": {
+    "name": "Milton Friedman",
+    "hasKA": true
+  },
+  "mohammed-bin-zayed": {
+    "name": "Mohammed bin Zayed Al Nahyan",
+    "hasKA": true
+  },
+  "rick-gerson": {
+    "name": "Rick Gerson",
+    "hasKA": true
+  },
+  "dmitry-utkin": {
+    "name": "Dmitry Valeryevich Utkin",
+    "hasKA": true
+  },
+  "sergei-shoigu": {
+    "name": "Sergei Kuzhugetovich Shoigu",
+    "hasKA": true
+  },
+  "valery-gerasimov": {
+    "name": "Valery Vasilyevich Gerasimov",
+    "hasKA": true
+  },
+  "robert-novak": {
+    "name": "Robert David Sanders Novak",
+    "hasKA": true
+  },
+  "richard-armitage": {
+    "name": "Richard Armitage",
+    "hasKA": true
+  },
+  "william-casey": {
+    "name": "William Casey",
+    "hasKA": true
+  },
+  "allen-dulles": {
+    "name": "Allen Dulles",
+    "hasKA": true
+  },
+  "sidney-gottlieb": {
+    "name": "Sidney Gottlieb",
+    "hasKA": true
+  },
+  "frank-olson": {
+    "name": "Frank Olson",
+    "hasKA": true
+  },
+  "j-edgar-hoover": {
+    "name": "J. Edgar Hoover",
+    "hasKA": true
+  },
+  "fred-hampton": {
+    "name": "Fred Hampton",
+    "hasKA": true
+  },
+  "martin-luther-king-jr": {
+    "name": "Martin Luther King Jr.",
+    "hasKA": true
+  },
+  "john-ehrlichman": {
+    "name": "John Ehrlichman",
+    "hasKA": true
+  },
+  "derek-chauvin": {
+    "name": "Derek Chauvin",
+    "hasKA": true
+  },
+  "george-floyd": {
+    "name": "George Floyd",
+    "hasKA": true
+  },
+  "rick-snyder": {
+    "name": "Rick Snyder",
+    "hasKA": true
+  },
+  "frank-wisner": {
+    "name": "Frank Wisner",
+    "hasKA": true
+  },
+  "richard-helms": {
+    "name": "Richard Helms",
+    "hasKA": true
+  },
+  "james-clapper": {
+    "name": "James Clapper",
+    "hasKA": true
+  },
+  "edward-snowden": {
+    "name": "Edward Snowden",
+    "hasKA": true
+  },
+  "lyndon-b-johnson": {
+    "name": "Lyndon B. Johnson",
+    "hasKA": true
+  },
+  "robert-mcnamara": {
+    "name": "Robert McNamara",
+    "hasKA": true
+  },
+  "franklin-d-roosevelt": {
+    "name": "Franklin D. Roosevelt",
+    "hasKA": true
+  },
+  "fred-korematsu": {
+    "name": "Fred Korematsu",
+    "hasKA": true
+  },
+  "gerald-ford": {
+    "name": "Gerald Ford",
+    "hasKA": true
+  },
+  "salvador-allende": {
+    "name": "Salvador Allende",
+    "hasKA": true
+  },
+  "antonin-scalia": {
+    "name": "Antonin Scalia",
+    "hasKA": true
+  },
+  "dillon-myer": {
+    "name": "Dillon S. Myer",
+    "hasKA": true
+  },
+  "john-yoo": {
+    "name": "John Yoo",
+    "hasKA": true
+  },
+  "alberto-gonzales": {
+    "name": "Alberto Gonzales",
+    "hasKA": true
+  },
+  "gina-haspel": {
+    "name": "Gina Haspel",
+    "hasKA": true
+  },
+  "valerie-plame": {
+    "name": "Valerie Plame",
+    "hasKA": true
+  },
+  "joe-wilson": {
+    "name": "Joseph Wilson",
+    "hasKA": true
+  },
+  "maher-arar": {
+    "name": "Maher Arar",
+    "hasKA": true
+  },
+  "khaled-el-masri": {
+    "name": "Khaled El-Masri",
+    "hasKA": true
+  },
+  "jeff-bezos": {
+    "name": "Jeff Bezos",
+    "hasKA": true
+  },
+  "sundar-pichai": {
+    "name": "Sundar Pichai",
+    "hasKA": true
+  },
+  "lloyd-austin": {
+    "name": "Lloyd Austin",
+    "hasKA": true
+  },
+  "chuck-schumer": {
+    "name": "Chuck Schumer",
+    "hasKA": true
+  },
+  "larry-page": {
+    "name": "Larry Page",
+    "hasKA": true
+  },
+  "sergey-brin": {
+    "name": "Sergey Brin",
+    "hasKA": true
+  },
+  "shou-zi-chew": {
+    "name": "Shou Zi Chew",
+    "hasKA": true
+  },
+  "shah-pahlavi": {
+    "name": "Mohammad Reza Shah Pahlavi",
+    "hasKA": true
+  },
+  "jorge-videla": {
+    "name": "Jorge Rafael Videla",
+    "hasKA": true
+  },
+  "madeleine-albright": {
+    "name": "Madeleine Albright",
+    "hasKA": true
+  },
+  "jay-bybee": {
+    "name": "Jay Bybee",
+    "hasKA": true
+  },
+  "mohammad-mosaddegh": {
+    "name": "Mohammad Mosaddegh",
+    "hasKA": true
+  },
+  "patrice-lumumba": {
+    "name": "Patrice Lumumba",
+    "hasKA": true
+  },
+  "daniel-hale": {
+    "name": "Daniel Hale",
+    "hasKA": true
+  },
+  "reality-winner": {
+    "name": "Reality Winner",
+    "hasKA": true
+  },
+  "al-gore": {
+    "name": "Al Gore",
+    "hasKA": true
+  },
+  "john-dean": {
+    "name": "John Dean",
+    "hasKA": true
+  },
+  "john-mitchell": {
+    "name": "John Mitchell",
+    "hasKA": true
+  },
+  "h-r-haldeman": {
+    "name": "H. R. Haldeman",
+    "hasKA": true
+  },
+  "john-foster-dulles": {
+    "name": "John Foster Dulles",
+    "hasKA": true
+  },
+  "robert-f-kennedy": {
+    "name": "Robert F. Kennedy",
+    "hasKA": true
+  },
+  "manuel-noriega": {
+    "name": "Manuel Noriega",
+    "hasKA": true
+  },
+  "deb-haaland": {
+    "name": "Deb Haaland",
+    "hasKA": true
+  },
+  "vivek-murthy": {
+    "name": "Vivek Murthy",
+    "hasKA": true
+  },
+  "mike-johnson": {
+    "name": "Mike Johnson",
+    "hasKA": true
+  },
+  "william-oneal": {
+    "name": "William O\\",
+    "hasKA": true
+  },
+  "steven-sund": {
+    "name": "Steven Sund",
+    "hasKA": true
+  },
+  "charles-flynn": {
+    "name": "Charles Flynn",
+    "hasKA": true
+  },
+  "gavin-mcinnes": {
+    "name": "Gavin McInnes",
+    "hasKA": true
+  },
+  "glenn-greenwald": {
+    "name": "Glenn Greenwald",
+    "hasKA": true
+  },
+  "ahmed-chalabi": {
+    "name": "Ahmed Chalabi",
+    "hasKA": true
+  },
+  "victoria-nuland": {
+    "name": "Victoria Nuland",
+    "hasKA": true
+  },
+  "tou-thao": {
+    "name": "Tou Thao",
+    "hasKA": true
+  },
+  "tina-peters": {
+    "name": "Tina Peters",
+    "hasKA": true
+  },
+  "cathy-latham": {
+    "name": "Cathy Latham",
+    "hasKA": true
+  },
+  "dmitry-rybolovlev": {
+    "name": "Dmitry Rybolovlev",
+    "hasKA": true
+  },
+  "john-stankey": {
+    "name": "John Stankey",
+    "hasKA": true
+  },
+  "zhang-yiming": {
+    "name": "Zhang Yiming",
+    "hasKA": true
+  },
+  "sonia-sotomayor": {
+    "name": "Sonia Sotomayor",
+    "hasKA": true
+  },
+  "colette-peters": {
+    "name": "Colette Peters",
+    "hasKA": true
+  },
+  "kristen-clarke": {
+    "name": "Kristen Clarke",
+    "hasKA": true
+  },
+  "anne-milgram": {
+    "name": "Anne Milgram",
+    "hasKA": true
+  },
+  "bryan-newland": {
+    "name": "Bryan Newland",
+    "hasKA": true
+  },
+  "neil-heslin": {
+    "name": "Neil Heslin",
+    "hasKA": true
+  },
+  "robbie-parker": {
+    "name": "Robbie Parker",
+    "hasKA": true
+  },
+  "philip-graham": {
+    "name": "Philip Graham",
+    "hasKA": true
+  },
+  "richard-clarke": {
+    "name": "Richard Clarke",
+    "hasKA": true
+  },
+  "archer-blood": {
+    "name": "Archer Blood",
+    "hasKA": true
+  },
+  "yahya-khan": {
+    "name": "Yahya Khan",
+    "hasKA": true
+  },
+  "milton-eisenhower": {
+    "name": "Milton Eisenhower",
+    "hasKA": true
+  },
+  "bashar-al-assad": {
+    "name": "Bashar Hafez al-Assad",
+    "hasKA": true
+  },
+  "james-murdoch": {
+    "name": "James Rupert Murdoch",
+    "hasKA": true
+  },
+  "rebekah-brooks": {
+    "name": "Rebekah Mary Brooks",
+    "hasKA": true
+  },
+  "ryan-mccarthy": {
+    "name": "Ryan McCarthy",
+    "hasKA": true
+  },
+  "william-kristol": {
+    "name": "William Kristol",
+    "hasKA": true
+  },
+  "john-f-kennedy": {
+    "name": "John Fitzgerald Kennedy",
+    "hasKA": true
+  },
+  "dwight-eisenhower": {
+    "name": "Dwight David Eisenhower",
+    "hasKA": true
+  },
+  "irving-kristol": {
+    "name": "Irving Kristol",
+    "hasKA": true
+  },
+  "robert-kagan": {
+    "name": "Robert Kagan",
+    "hasKA": true
+  },
+  "charlie-kirk": {
+    "name": "Charlie Kirk",
+    "hasKA": true
+  },
+  "john-mcentee": {
+    "name": "John McEntee",
+    "hasKA": true
+  },
+  "keith-alexander": {
+    "name": "Keith B. Alexander",
+    "hasKA": true
+  },
+  "qasem-soleimani": {
+    "name": "Qasem Soleimani",
+    "hasKA": true
+  },
+  "fred-koch": {
+    "name": "Fred C. Koch",
+    "hasKA": true
+  },
+  "ali-khamenei": {
+    "name": "Ali Khamenei",
+    "hasKA": true
+  },
+  "david-cameron": {
+    "name": "David Cameron",
+    "hasKA": true
+  },
+  "andy-coulson": {
+    "name": "Andy Coulson",
+    "hasKA": true
+  },
+  "chris-ruddy": {
+    "name": "Christopher Ruddy",
+    "hasKA": true
+  },
+  "dan-wyant": {
+    "name": "Dan Wyant",
+    "hasKA": true
+  },
+  "brian-ohara": {
+    "name": "Brian OHara",
+    "hasKA": true
+  },
+  "hafez-al-assad": {
+    "name": "Hafez al-Assad",
+    "hasKA": true
+  },
+  "james-morrison": {
+    "name": "James Morrison",
+    "hasKA": true
+  },
+  "elizabeth-holmes": {
+    "name": "Elizabeth Holmes",
+    "hasKA": true
+  },
+  "sam-bankman-fried": {
+    "name": "Sam Bankman-Fried",
+    "hasKA": true
+  },
+  "kenneth-lay": {
+    "name": "Kenneth Lay",
+    "hasKA": true
+  },
+  "jeffrey-skilling": {
+    "name": "Jeffrey Skilling",
+    "hasKA": true
+  },
+  "bernard-ebbers": {
+    "name": "Bernard Ebbers",
+    "hasKA": true
+  },
+  "dennis-muilenburg": {
+    "name": "Dennis Muilenburg",
+    "hasKA": true
+  },
+  "richard-sackler": {
+    "name": "Richard Sackler",
+    "hasKA": true
+  },
+  "john-stumpf": {
+    "name": "John Stumpf",
+    "hasKA": true
+  },
+  "martin-winterkorn": {
+    "name": "Martin Winterkorn",
+    "hasKA": true
+  },
+  "sam-altman": {
+    "name": "Sam Altman",
+    "hasKA": true
+  },
+  "chelsea-manning": {
+    "name": "Chelsea Manning",
+    "hasKA": true
+  },
+  "kermit-roosevelt": {
+    "name": "Kermit Roosevelt Jr.",
+    "hasKA": true
+  },
+  "william-calley": {
+    "name": "William Calley",
+    "hasKA": true
+  },
+  "steve-dickson": {
+    "name": "Steve Dickson",
+    "hasKA": true
+  },
+  "ali-bahrami": {
+    "name": "Ali Bahrami",
+    "hasKA": true
+  },
+  "daniel-elwell": {
+    "name": "Daniel Elwell",
+    "hasKA": true
+  },
+  "michael-huerta": {
+    "name": "Michael Huerta",
+    "hasKA": true
+  },
+  "randy-babbitt": {
+    "name": "Randy Babbitt",
+    "hasKA": true
+  },
+  "mike-whitaker": {
+    "name": "Mike Whitaker",
+    "hasKA": true
+  },
+  "marion-blakey": {
+    "name": "Marion Blakey",
+    "hasKA": true
+  },
+  "jane-garvey": {
+    "name": "Jane Garvey",
+    "hasKA": true
+  },
+  "david-hinson": {
+    "name": "David Hinson",
+    "hasKA": true
+  },
+  "joe-jacobsen": {
+    "name": "Joe Jacobsen",
+    "hasKA": true
+  },
+  "curtis-ewbank": {
+    "name": "Curtis Ewbank",
+    "hasKA": true
+  },
+  "ed-pierson": {
+    "name": "Ed Pierson",
+    "hasKA": true
+  },
+  "john-barnett": {
+    "name": "John Barnett",
+    "hasKA": true
+  },
+  "david-calhoun": {
+    "name": "David Calhoun",
+    "hasKA": true
+  },
+  "kelly-ortberg": {
+    "name": "Kelly Ortberg",
+    "hasKA": true
+  },
+  "jim-mcnerney": {
+    "name": "Jim McNerney",
+    "hasKA": true
+  },
+  "ray-lahood": {
+    "name": "Ray LaHood",
+    "hasKA": true
+  },
+  "pete-buttigieg": {
+    "name": "Pete Buttigieg",
+    "hasKA": true
+  },
+  "michael-stumo": {
+    "name": "Michael Stumo",
+    "hasKA": true
+  },
+  "nadia-milleron": {
+    "name": "Nadia Milleron",
+    "hasKA": true
+  },
+  "paul-njoroge": {
+    "name": "Paul Njoroge",
+    "hasKA": true
+  },
+  "peggy-gilligan": {
+    "name": "Peggy Gilligan",
+    "hasKA": true
+  },
+  "earl-lawrence": {
+    "name": "Earl Lawrence",
+    "hasKA": true
+  },
+  "john-hickey": {
+    "name": "John Hickey",
+    "hasKA": true
+  },
+  "sam-mohawk": {
+    "name": "Sam Mohawk",
+    "hasKA": true
+  },
+  "harry-stonecipher": {
+    "name": "Harry Stonecipher",
+    "hasKA": true
+  },
+  "phil-condit": {
+    "name": "Phil Condit",
+    "hasKA": true
+  },
+  "stan-deal": {
+    "name": "Stan Deal",
+    "hasKA": true
+  },
+  "mike-sinnett": {
+    "name": "Mike Sinnett",
+    "hasKA": true
+  },
+  "mark-forkner": {
+    "name": "Mark Forkner",
+    "hasKA": true
+  },
+  "patrick-shanahan": {
+    "name": "Patrick Shanahan",
+    "hasKA": true
+  },
+  "nicholas-calio": {
+    "name": "Nicholas Calio",
+    "hasKA": true
+  },
+  "maria-cantwell": {
+    "name": "Maria Cantwell",
+    "hasKA": true
+  },
+  "peter-defazio": {
+    "name": "Peter DeFazio",
+    "hasKA": true
+  },
+  "sam-graves": {
+    "name": "Sam Graves",
+    "hasKA": true
+  },
+  "robert-sumwalt": {
+    "name": "Robert Sumwalt",
+    "hasKA": true
+  },
+  "jennifer-homendy": {
+    "name": "Jennifer Homendy",
+    "hasKA": true
+  },
+  "yared-getachew": {
+    "name": "Yared Getachew",
+    "hasKA": true
+  },
+  "bhavye-suneja": {
+    "name": "Bhavye Suneja",
+    "hasKA": true
+  },
+  "zipporah-kuria": {
+    "name": "Zipporah Kuria",
+    "hasKA": true
+  },
+  "ike-riffel": {
+    "name": "Ike Riffel",
+    "hasKA": true
+  },
+  "naoise-ryan": {
+    "name": "Naoise Ryan",
+    "hasKA": true
+  },
+  "mark-lindquist": {
+    "name": "Mark Lindquist",
+    "hasKA": true
+  },
+  "robert-clifford": {
+    "name": "Robert Clifford",
+    "hasKA": true
+  },
+  "sanjiv-singh": {
+    "name": "Sanjiv Singh",
+    "hasKA": true
+  },
+  "tewolde-gebremariam": {
+    "name": "Tewolde GebreMariam",
+    "hasKA": true
+  },
+  "larry-kellner": {
+    "name": "Larry Kellner",
+    "hasKA": true
+  },
+  "caroline-kennedy": {
+    "name": "Caroline Kennedy",
+    "hasKA": true
+  },
+  "edmund-giambastiani": {
+    "name": "Edmund Giambastiani",
+    "hasKA": true
+  },
+  "ronald-williams": {
+    "name": "Ronald Williams",
+    "hasKA": true
+  },
+  "david-gitlin": {
+    "name": "David Gitlin",
+    "hasKA": true
+  },
+  "erin-keating": {
+    "name": "Erin Keating",
+    "hasKA": true
+  },
+  "chad-readler": {
+    "name": "Chad Readler",
+    "hasKA": true
+  },
+  "tom-kennedy-spirit": {
+    "name": "Tom Gentile",
+    "hasKA": true
+  },
+  "john-plueger": {
+    "name": "John Plueger",
+    "hasKA": true
+  },
+  "tim-clark": {
+    "name": "Tim Clark",
+    "hasKA": true
+  },
+  "michael-oleary": {
+    "name": "Michael O\\",
+    "hasKA": true
+  },
+  "gary-kelly": {
+    "name": "Gary Kelly",
+    "hasKA": true
+  },
+  "bob-jordan": {
+    "name": "Bob Jordan",
+    "hasKA": true
+  },
+  "ed-bastian": {
+    "name": "Ed Bastian",
+    "hasKA": true
+  },
+  "scott-kirby": {
+    "name": "Scott Kirby",
+    "hasKA": true
+  },
+  "robert-isom": {
+    "name": "Robert Isom",
+    "hasKA": true
+  },
+  "doug-parker": {
+    "name": "Doug Parker",
+    "hasKA": true
+  },
+  "tim-keating": {
+    "name": "Tim Keating",
+    "hasKA": true
+  },
+  "ziad-ojakli": {
+    "name": "Ziad Ojakli",
+    "hasKA": true
+  },
+  "ray-conner": {
+    "name": "Ray Conner",
+    "hasKA": true
+  },
+  "kevin-mcallister": {
+    "name": "Kevin McAllister",
+    "hasKA": true
+  },
+  "john-hamilton": {
+    "name": "John Hamilton",
+    "hasKA": true
+  },
+  "keith-leverkuhn": {
+    "name": "Keith Leverkuhn",
+    "hasKA": true
+  },
+  "michael-teal": {
+    "name": "Michael Teal",
+    "hasKA": true
+  },
+  "richard-wyckoff": {
+    "name": "Richard Wyckoff",
+    "hasKA": true
+  },
+  "diana-sands": {
+    "name": "Diana Sands",
+    "hasKA": true
+  },
+  "greg-smith-boeing": {
+    "name": "Greg Smith",
+    "hasKA": true
+  },
+  "bill-mcsherry": {
+    "name": "Bill McSherry",
+    "hasKA": true
+  },
+  "dorenda-baker": {
+    "name": "Dorenda Baker",
+    "hasKA": true
+  },
+  "christopher-hart": {
+    "name": "Christopher Hart",
+    "hasKA": true
+  },
+  "scott-hamilton": {
+    "name": "Scott Hamilton",
+    "hasKA": true
+  },
+  "jon-ostrower": {
+    "name": "Jon Ostrower",
+    "hasKA": true
+  },
+  "dominic-gates": {
+    "name": "Dominic Gates",
+    "hasKA": true
+  },
+  "brian-west": {
+    "name": "Brian West",
+    "hasKA": true
+  },
+  "ted-colbert": {
+    "name": "Ted Colbert",
+    "hasKA": true
+  },
+  "leanne-caret": {
+    "name": "Leanne Caret",
+    "hasKA": true
+  },
+  "j-michael-luttig": {
+    "name": "J. Michael Luttig",
+    "hasKA": true
+  },
+  "stephanie-pope": {
+    "name": "Stephanie Pope",
+    "hasKA": true
+  },
+  "elizabeth-lund": {
+    "name": "Elizabeth Lund",
+    "hasKA": true
+  },
+  "howard-mckenzie": {
+    "name": "Howard McKenzie",
+    "hasKA": true
+  },
+  "lynn-good": {
+    "name": "Lynn Good",
+    "hasKA": true
+  },
+  "akhil-johri": {
+    "name": "Akhil Johri",
+    "hasKA": true
+  },
+  "steven-mollenkopf": {
+    "name": "Steven Mollenkopf",
+    "hasKA": true
+  },
+  "robert-bradway": {
+    "name": "Robert Bradway",
+    "hasKA": true
+  },
+  "billy-nolen": {
+    "name": "Billy Nolen",
+    "hasKA": true
+  },
+  "david-boulter": {
+    "name": "David Boulter",
+    "hasKA": true
+  },
+  "lirio-liu": {
+    "name": "Lirio Liu",
+    "hasKA": true
+  },
+  "chris-rocheleau": {
+    "name": "Chris Rocheleau",
+    "hasKA": true
+  },
+  "basil-barimo": {
+    "name": "Basil Barimo",
+    "hasKA": true
+  },
+  "margaret-gilligan": {
+    "name": "Margaret Gilligan",
+    "hasKA": true
+  },
+  "tony-ferrante": {
+    "name": "Tony Ferrante",
+    "hasKA": true
+  },
+  "roger-wicker": {
+    "name": "Roger Wicker",
+    "hasKA": true
+  },
+  "rick-larsen": {
+    "name": "Rick Larsen",
+    "hasKA": true
+  },
+  "norm-dicks": {
+    "name": "Norm Dicks",
+    "hasKA": true
+  },
+  "jay-inslee": {
+    "name": "Jay Inslee",
+    "hasKA": true
+  },
+  "patty-murray": {
+    "name": "Patty Murray",
+    "hasKA": true
+  },
+  "adam-smith": {
+    "name": "Adam Smith",
+    "hasKA": true
+  },
+  "denny-heck": {
+    "name": "Denny Heck",
+    "hasKA": true
+  },
+  "polly-trottenberg": {
+    "name": "Polly Trottenberg",
+    "hasKA": true
+  },
+  "sean-duffy": {
+    "name": "Sean Duffy",
+    "hasKA": true
+  },
+  "santiago-paredes": {
+    "name": "Santiago Paredes",
+    "hasKA": true
+  },
+  "dean-bortniker": {
+    "name": "Dean Bortniker",
+    "hasKA": true
+  },
+  "cynthia-cole": {
+    "name": "Cynthia Cole",
+    "hasKA": true
+  },
+  "jon-holden": {
+    "name": "Jon Holden",
+    "hasKA": true
+  },
+  "oscar-munoz": {
+    "name": "Oscar Munoz",
+    "hasKA": true
+  },
+  "richard-anderson": {
+    "name": "Richard Anderson",
+    "hasKA": true
+  },
+  "willie-walsh": {
+    "name": "Willie Walsh",
+    "hasKA": true
+  },
+  "carsten-spohr": {
+    "name": "Carsten Spohr",
+    "hasKA": true
+  },
+  "alan-joyce": {
+    "name": "Alan Joyce",
+    "hasKA": true
+  },
+  "akbar-al-baker": {
+    "name": "Akbar Al Baker",
+    "hasKA": true
+  },
+  "patrick-ky": {
+    "name": "Patrick Ky",
+    "hasKA": true
+  },
+  "nurcahyo-utomo": {
+    "name": "Nurcahyo Utomo",
+    "hasKA": true
+  },
+  "amdye-ayalew": {
+    "name": "Amdye Ayalew",
+    "hasKA": true
+  },
+  "aaron-mccarter": {
+    "name": "Aaron McCarter",
+    "hasKA": true
+  },
+  "patrick-shanahan-jr": {
+    "name": "Patrick Shanahan Jr.",
+    "hasKA": true
+  },
+  "tom-gentile": {
+    "name": "Tom Gentile",
+    "hasKA": true
+  },
+  "larry-lawson": {
+    "name": "Larry Lawson",
+    "hasKA": true
+  },
+  "chris-chadwick": {
+    "name": "Chris Chadwick",
+    "hasKA": true
+  },
+  "gregory-hayes": {
+    "name": "Gregory Hayes",
+    "hasKA": true
+  },
+  "james-gorman": {
+    "name": "James Gorman",
+    "hasKA": true
+  },
+  "jamie-dimon": {
+    "name": "Jamie Dimon",
+    "hasKA": true
+  },
+  "brian-whelan": {
+    "name": "Brian Whelan",
+    "hasKA": true
+  },
+  "david-reyes": {
+    "name": "David Reyes",
+    "hasKA": true
+  },
+  "chris-moore": {
+    "name": "Chris Moore",
+    "hasKA": true
+  },
+  "clariss-moore": {
+    "name": "Clariss Moore",
+    "hasKA": true
+  },
+  "adnaan-stumo": {
+    "name": "Adnaan Stumo",
+    "hasKA": true
+  },
+  "tor-stumo": {
+    "name": "Tor Stumo",
+    "hasKA": true
+  },
+  "catherine-berthet": {
+    "name": "Catherine Berthet",
+    "hasKA": true
+  },
+  "javier-de-luis": {
+    "name": "Javier de Luis",
+    "hasKA": true
+  },
+  "peter-robison": {
+    "name": "Peter Robison",
+    "hasKA": true
+  },
+  "natalie-kitroeff": {
+    "name": "Natalie Kitroeff",
+    "hasKA": true
+  },
+  "david-gelles": {
+    "name": "David Gelles",
+    "hasKA": true
+  },
+  "gregory-travis": {
+    "name": "Gregory Travis",
+    "hasKA": true
+  },
+  "bjorn-fehrm": {
+    "name": "Björn Fehrm",
+    "hasKA": true
+  },
+  "kenneth-polite": {
+    "name": "Kenneth Polite",
+    "hasKA": true
+  },
+  "valujet-592-victims": {
+    "name": "ValuJet 592 Victims",
+    "hasKA": true
+  },
+  "alaska-261-victims": {
+    "name": "Alaska Airlines 261 Victims",
+    "hasKA": true
+  },
+  "colgan-3407-families": {
+    "name": "Colgan Air 3407 Families",
+    "hasKA": true
+  },
+  "william-mcgee": {
+    "name": "William McGee",
+    "hasKA": true
+  },
+  "mary-schiavo": {
+    "name": "Mary Schiavo",
+    "hasKA": true
+  },
+  "john-cox": {
+    "name": "John Cox",
+    "hasKA": true
+  },
+  "todd-curtis": {
+    "name": "Todd Curtis",
+    "hasKA": true
+  },
+  "christine-negroni": {
+    "name": "Christine Negroni",
+    "hasKA": true
+  },
+  "lion-air-610-victims": {
+    "name": "Lion Air Flight 610 Victims",
+    "hasKA": true
+  },
+  "ethiopian-302-victims": {
+    "name": "Ethiopian Airlines Flight 302 Victims",
+    "hasKA": true
+  },
+  "samya-stumo": {
+    "name": "Samya Rose Stumo",
+    "hasKA": true
+  },
+  "ahmed-nur-mohammod": {
+    "name": "First Officer Ahmed Nur Mohammod",
+    "hasKA": true
+  },
+  "dave-calhoun": {
+    "name": "Dave Calhoun",
+    "hasKA": true
+  },
+  "do-kwon": {
+    "name": "Do Kwon",
+    "hasKA": true
+  },
+  "alex-mashinsky": {
+    "name": "Alex Mashinsky",
+    "hasKA": true
+  },
+  "bill-hwang": {
+    "name": "Sung Kook ",
+    "hasKA": true
+  },
+  "su-zhu": {
+    "name": "Su Zhu",
+    "hasKA": true
+  },
+  "kyle-davies": {
+    "name": "Kyle Davies",
+    "hasKA": true
+  },
+  "raj-rajaratnam": {
+    "name": "Raj Rajaratnam",
+    "hasKA": true
+  },
+  "rajat-gupta": {
+    "name": "Rajat Gupta",
+    "hasKA": true
+  },
+  "bernie-ebbers": {
+    "name": "Bernard Ebbers",
+    "hasKA": false
+  },
+  "dennis-kozlowski": {
+    "name": "L. Dennis Kozlowski",
+    "hasKA": true
+  },
+  "john-rigas": {
+    "name": "John Rigas",
+    "hasKA": true
+  },
+  "cardinal-bernard-law": {
+    "name": "Bernard Francis Law",
+    "hasKA": false
+  },
+  "cardinal-theodore-mccarrick": {
+    "name": "Theodore Edgar McCarrick",
+    "hasKA": false
+  },
+  "tony-hayward": {
+    "name": "Tony Hayward",
+    "hasKA": false
+  },
+  "joseph-hazelwood": {
+    "name": "Joseph Hazelwood",
+    "hasKA": false
+  },
+  "jonathan-mattingly": {
+    "name": "Jonathan Mattingly",
+    "hasKA": true
+  },
+  "brett-hankison": {
+    "name": "Brett Hankison",
+    "hasKA": false
+  },
+  "jeronimo-yanez": {
+    "name": "Jeronimo Yanez",
+    "hasKA": false
+  },
+  "demetrius-haley": {
+    "name": "Demetrius Haley",
+    "hasKA": true
+  },
+  "eric-munchel": {
+    "name": "Eric Munchel",
+    "hasKA": true
+  },
+  "james-johnston": {
+    "name": "James W. Johnston",
+    "hasKA": true
+  },
+  "william-campbell": {
+    "name": "William Campbell",
+    "hasKA": false
+  },
+  "thomas-sandefur": {
+    "name": "Thomas E. Sandefur Jr.",
+    "hasKA": true
+  },
+  "raymond-sackler": {
+    "name": "Raymond Sackler",
+    "hasKA": true
+  },
+  "mortimer-sackler": {
+    "name": "Mortimer Sackler",
+    "hasKA": true
+  },
+  "kathe-sackler": {
+    "name": "Kathe Sackler",
+    "hasKA": false
+  },
+  "david-sackler": {
+    "name": "David Sackler",
+    "hasKA": false
+  },
+  "allen-stanford": {
+    "name": "Robert Allen Stanford",
+    "hasKA": false
+  },
+  "tom-petters": {
+    "name": "Tom Petters",
+    "hasKA": false
+  },
+  "scott-rothstein": {
+    "name": "Scott Rothstein",
+    "hasKA": false
+  },
+  "tim-cook": {
+    "name": "Tim Cook",
+    "hasKA": false
+  },
+  "satya-nadella": {
+    "name": "Satya Nadella",
+    "hasKA": false
+  },
+  "larry-ellison": {
+    "name": "Larry Ellison",
+    "hasKA": true
+  },
+  "michael-bloomberg": {
+    "name": "Michael Bloomberg",
+    "hasKA": false
+  },
+  "lloyd-blankfein": {
+    "name": "Lloyd Blankfein",
+    "hasKA": true
+  },
+  "david-solomon": {
+    "name": "David Solomon",
+    "hasKA": false
+  },
+  "brian-moynihan": {
+    "name": "Brian Moynihan",
+    "hasKA": false
+  },
+  "ken-griffin": {
+    "name": "Kenneth Griffin",
+    "hasKA": false
+  },
+  "steve-schwarzman": {
+    "name": "Stephen Schwarzman",
+    "hasKA": true
+  },
+  "michael-milken": {
+    "name": "Michael Milken",
+    "hasKA": true
+  },
+  "ivan-boesky": {
+    "name": "Ivan Boesky",
+    "hasKA": true
+  },
+  "jordan-belfort": {
+    "name": "Jordan Belfort",
+    "hasKA": false
+  },
+  "john-kapoor": {
+    "name": "John Kapoor",
+    "hasKA": false
+  },
+  "john-hammergren": {
+    "name": "John Hammergren",
+    "hasKA": false
+  },
+  "steven-collis": {
+    "name": "Steven Collis",
+    "hasKA": false
+  },
+  "john-brennan": {
+    "name": "John Brennan",
+    "hasKA": true
+  },
+  "michael-hayden": {
+    "name": "Michael Hayden",
+    "hasKA": true
+  },
+  "john-ashcroft": {
+    "name": "John Ashcroft",
+    "hasKA": true
+  },
+  "damon-hininger": {
+    "name": "Damon Hininger",
+    "hasKA": false
+  },
+  "george-zoley": {
+    "name": "George Zoley",
+    "hasKA": false
+  },
+  "james-taiclet": {
+    "name": "James Taiclet",
+    "hasKA": false
+  },
+  "greg-hayes": {
+    "name": "Gregory Hayes",
+    "hasKA": false
+  },
+  "warren-buffett": {
+    "name": "Warren Buffett",
+    "hasKA": false
+  },
+  "ray-dalio": {
+    "name": "Ray Dalio",
+    "hasKA": false
+  },
+  "kamala-harris": {
+    "name": "Kamala Harris",
+    "hasKA": false
+  },
+  "david-koch": {
+    "name": "David Koch",
+    "hasKA": true
+  },
+  "john-paulson": {
+    "name": "John Paulson",
+    "hasKA": true
+  },
+  "trevor-milton": {
+    "name": "Trevor Milton",
+    "hasKA": false
+  },
+  "charlie-javice": {
+    "name": "Charlie Javice",
+    "hasKA": false
+  },
+  "carlos-watson": {
+    "name": "Carlos Watson",
+    "hasKA": false
+  },
+  "doug-mcmillon": {
+    "name": "Doug McMillon",
+    "hasKA": false
+  },
+  "andy-jassy": {
+    "name": "Andy Jassy",
+    "hasKA": true
+  },
+  "howard-schultz": {
+    "name": "Howard Schultz",
+    "hasKA": false
+  },
+  "dara-khosrowshahi": {
+    "name": "Dara Khosrowshahi",
+    "hasKA": true
+  },
+  "brian-chesky": {
+    "name": "Brian Chesky",
+    "hasKA": false
+  },
+  "darren-woods": {
+    "name": "Darren Woods",
+    "hasKA": true
+  },
+  "mike-wirth": {
+    "name": "Mike Wirth",
+    "hasKA": false
+  },
+  "werner-baumann": {
+    "name": "Werner Baumann",
+    "hasKA": false
+  },
+  "edward-breen": {
+    "name": "Edward Breen",
+    "hasKA": false
+  },
+  "kevin-burns": {
+    "name": "Kevin Burns",
+    "hasKA": false
+  },
+  "james-monsees": {
+    "name": "James Monsees",
+    "hasKA": true
+  },
+  "adam-bowen": {
+    "name": "Adam Bowen",
+    "hasKA": true
+  },
+  "alex-gorsky": {
+    "name": "Alex Gorsky",
+    "hasKA": true
+  },
+  "albert-bourla": {
+    "name": "Albert Bourla",
+    "hasKA": false
+  },
+  "stephane-bancel": {
+    "name": "St�phane Bancel",
+    "hasKA": false
+  },
+  "andrew-witty": {
+    "name": "Andrew Witty",
+    "hasKA": false
+  },
+  "david-cordani": {
+    "name": "David Cordani",
+    "hasKA": false
+  },
+  "mark-schneider": {
+    "name": "Mark Schneider",
+    "hasKA": false
+  },
+  "james-quincey": {
+    "name": "James Quincey",
+    "hasKA": false
+  },
+  "chris-kempczinski": {
+    "name": "Chris Kempczinski",
+    "hasKA": false
+  },
+  "ramon-laguarta": {
+    "name": "Ramon Laguarta",
+    "hasKA": false
+  },
+  "travis-kalanick": {
+    "name": "Travis Kalanick",
+    "hasKA": true
+  },
+  "bobby-kotick": {
+    "name": "Bobby Kotick",
+    "hasKA": false
+  },
+  "heather-bresch": {
+    "name": "Heather Bresch",
+    "hasKA": true
+  },
+  "martin-shkreli": {
+    "name": "Martin Shkreli",
+    "hasKA": false
+  },
+  "les-moonves": {
+    "name": "Les Moonves",
+    "hasKA": false
+  },
+  "roger-ailes": {
+    "name": "Roger Ailes",
+    "hasKA": true
+  },
+  "geoffrey-bible": {
+    "name": "Geoffrey Bible",
+    "hasKA": false
+  },
+  "mary-barra": {
+    "name": "Mary Barra",
+    "hasKA": false
+  },
+  "carlos-ghosn": {
+    "name": "Carlos Ghosn",
+    "hasKA": true
+  },
+  "rick-scott": {
+    "name": "Rick Scott",
+    "hasKA": true
+  },
+  "bob-menendez": {
+    "name": "Bob Menendez",
+    "hasKA": false
+  },
+  "george-santos": {
+    "name": "George Santos",
+    "hasKA": false
+  },
+  "recep-tayyip-erdogan": {
+    "name": "Recep Tayyip Erdogan",
+    "hasKA": false
+  },
+  "rodrigo-duterte": {
+    "name": "Rodrigo Duterte",
+    "hasKA": false
+  },
+  "narendra-modi": {
+    "name": "Narendra Modi",
+    "hasKA": false
+  },
+  "nicolas-maduro": {
+    "name": "Nicol�s Maduro",
+    "hasKA": false
+  },
+  "alexander-lukashenko": {
+    "name": "Alexander Lukashenko",
+    "hasKA": true
+  },
+  "darren-wilson": {
+    "name": "Darren Wilson",
+    "hasKA": false
+  },
+  "timothy-loehmann": {
+    "name": "Timothy Loehmann",
+    "hasKA": false
+  },
+  "daniel-pantaleo": {
+    "name": "Daniel Pantaleo",
+    "hasKA": false
+  },
+  "jason-van-dyke": {
+    "name": "Jason Van Dyke",
+    "hasKA": false
+  },
+  "amber-guyger": {
+    "name": "Amber Guyger",
+    "hasKA": false
+  },
+  "kim-potter": {
+    "name": "Kim Potter",
+    "hasKA": false
+  },
+  "philip-brailsford": {
+    "name": "Philip Brailsford",
+    "hasKA": false
+  },
+  "michael-slager": {
+    "name": "Michael Slager",
+    "hasKA": false
+  },
+  "joe-arpaio": {
+    "name": "Joe Arpaio",
+    "hasKA": true
+  },
+  "greg-abbott": {
+    "name": "Greg Abbott",
+    "hasKA": false
+  },
+  "brian-kemp": {
+    "name": "Brian Kemp",
+    "hasKA": false
+  },
+  "tommy-tuberville": {
+    "name": "Tommy Tuberville",
+    "hasKA": false
+  },
+  "tony-blair": {
+    "name": "Tony Blair",
+    "hasKA": true
+  },
+  "jose-rodriguez": {
+    "name": "Jose Rodriguez",
+    "hasKA": true
+  },
+  "thomas-homan": {
+    "name": "Thomas Homan",
+    "hasKA": true
+  },
+  "r-kelly": {
+    "name": "R. Kelly",
+    "hasKA": false
+  },
+  "larry-nassar": {
+    "name": "Larry Nassar",
+    "hasKA": false
+  },
+  "bill-cosby": {
+    "name": "Bill Cosby",
+    "hasKA": false
+  },
+  "harvey-weinstein": {
+    "name": "Harvey Weinstein",
+    "hasKA": true
+  },
+  "kevin-spacey": {
+    "name": "Kevin Spacey",
+    "hasKA": false
+  },
+  "matt-lauer": {
+    "name": "Matt Lauer",
+    "hasKA": false
+  },
+  "charlie-rose": {
+    "name": "Charlie Rose",
+    "hasKA": false
+  },
+  "brett-ratner": {
+    "name": "Brett Ratner",
+    "hasKA": false
+  },
+  "candace-owens": {
+    "name": "Candace Owens",
+    "hasKA": true
+  },
+  "ben-shapiro": {
+    "name": "Ben Shapiro",
+    "hasKA": true
+  },
+  "matt-walsh": {
+    "name": "Matt Walsh",
+    "hasKA": false
+  },
+  "steven-crowder": {
+    "name": "Steven Crowder",
+    "hasKA": false
+  },
+  "dan-bongino": {
+    "name": "Dan Bongino",
+    "hasKA": false
+  },
+  "dennis-prager": {
+    "name": "Dennis Prager",
+    "hasKA": false
+  },
+  "omar-al-bashir": {
+    "name": "Omar al-Bashir",
+    "hasKA": false
+  },
+  "rod-blagojevich": {
+    "name": "Rod Blagojevich",
+    "hasKA": true
+  },
+  "marc-andreessen": {
+    "name": "Marc Andreessen",
+    "hasKA": true
+  },
+  "palmer-luckey": {
+    "name": "Palmer Luckey",
+    "hasKA": true
+  },
+  "ben-horowitz": {
+    "name": "Ben Horowitz",
+    "hasKA": true
+  },
+  "david-sacks": {
+    "name": "David Sacks",
+    "hasKA": true
+  },
+  "chamath-palihapitiya": {
+    "name": "Chamath Palihapitiya",
+    "hasKA": true
+  },
+  "reid-hoffman": {
+    "name": "Reid Hoffman",
+    "hasKA": false
+  },
+  "thomas-caldwell": {
+    "name": "Thomas Caldwell",
+    "hasKA": true
+  },
+  "guy-reffitt": {
+    "name": "Guy Reffitt",
+    "hasKA": false
+  },
+  "bernie-madoff": {
+    "name": "Bernie Madoff",
+    "hasKA": false
+  },
+  "steve-cohen": {
+    "name": "Steve Cohen",
+    "hasKA": false
+  },
+  "abdel-fattah-el-sisi": {
+    "name": "Abdel Fattah el-Sisi",
+    "hasKA": false
+  },
+  "craig-landau": {
+    "name": "Craig Landau",
+    "hasKA": false
+  },
+  "michael-babich": {
+    "name": "Michael Babich",
+    "hasKA": false
+  },
+  "jes-staley": {
+    "name": "Jes Staley",
+    "hasKA": true
+  },
+  "leon-black": {
+    "name": "Leon Black",
+    "hasKA": true
+  },
+  "glenn-dubin": {
+    "name": "Glenn Dubin",
+    "hasKA": true
+  },
+  "mort-zuckerman": {
+    "name": "Mort Zuckerman",
+    "hasKA": true
+  },
+  "mark-ciavarella": {
+    "name": "Mark Ciavarella",
+    "hasKA": true
+  },
+  "michael-conahan": {
+    "name": "Michael Conahan",
+    "hasKA": true
+  },
+  "james-mitchell": {
+    "name": "James Mitchell",
+    "hasKA": true
+  },
+  "bruce-jessen": {
+    "name": "Bruce Jessen",
+    "hasKA": true
+  },
+  "jon-burge": {
+    "name": "Jon Burge",
+    "hasKA": false
+  },
+  "mohamed-noor": {
+    "name": "Mohamed Noor",
+    "hasKA": false
+  },
+  "myles-cosgrove": {
+    "name": "Myles Cosgrove",
+    "hasKA": false
+  },
+  "travis-mcmichael": {
+    "name": "Travis McMichael",
+    "hasKA": true
+  },
+  "gregory-mcmichael": {
+    "name": "Gregory McMichael",
+    "hasKA": true
+  },
+  "william-bryan": {
+    "name": "William ",
+    "hasKA": true
+  },
+  "george-zimmerman": {
+    "name": "George Zimmerman",
+    "hasKA": false
+  },
+  "kyle-rittenhouse": {
+    "name": "Kyle Rittenhouse",
+    "hasKA": false
+  },
+  "dylann-roof": {
+    "name": "Dylann Roof",
+    "hasKA": false
+  },
+  "robert-bowers": {
+    "name": "Robert Bowers",
+    "hasKA": false
+  },
+  "patrick-crusius": {
+    "name": "Patrick Crusius",
+    "hasKA": false
+  },
+  "payton-gendron": {
+    "name": "Payton Gendron",
+    "hasKA": false
+  },
+  "joe-biggs": {
+    "name": "Joe Biggs",
+    "hasKA": true
+  },
+  "roberto-minuta": {
+    "name": "Roberto Minuta",
+    "hasKA": true
+  },
+  "larry-brock": {
+    "name": "Larry Brock",
+    "hasKA": false
+  },
+  "riley-june-williams": {
+    "name": "Riley June Williams",
+    "hasKA": false
+  },
+  "lonnie-coffman": {
+    "name": "Lonnie Coffman",
+    "hasKA": false
+  },
+  "julian-khater": {
+    "name": "Julian Khater",
+    "hasKA": true
+  },
+  "george-tanios": {
+    "name": "George Tanios",
+    "hasKA": true
+  },
+  "thomas-webster": {
+    "name": "Thomas Webster",
+    "hasKA": false
+  },
+  "jerry-sandusky": {
+    "name": "Jerry Sandusky",
+    "hasKA": true
+  },
+  "sean-combs": {
+    "name": "Sean ",
+    "hasKA": true
+  },
+  "david-miscavige": {
+    "name": "David Miscavige",
+    "hasKA": true
+  },
+  "adam-neumann": {
+    "name": "Adam Neumann",
+    "hasKA": false
+  },
+  "billy-mcfarland": {
+    "name": "Billy McFarland",
+    "hasKA": true
+  },
+  "anna-sorokin": {
+    "name": "Anna Sorokin",
+    "hasKA": true
+  },
+  "nikolas-cruz": {
+    "name": "Nikolas Cruz",
+    "hasKA": false
+  },
+  "salvador-ramos": {
+    "name": "Salvador Ramos",
+    "hasKA": false
+  },
+  "james-holmes": {
+    "name": "James Holmes",
+    "hasKA": false
+  },
+  "stephen-paddock": {
+    "name": "Stephen Paddock",
+    "hasKA": false
+  },
+  "omar-mateen": {
+    "name": "Omar Mateen",
+    "hasKA": false
+  },
+  "devin-kelley": {
+    "name": "Devin Kelley",
+    "hasKA": false
+  },
+  "ethan-crumbley": {
+    "name": "Ethan Crumbley",
+    "hasKA": false
+  },
+  "james-crumbley": {
+    "name": "James Crumbley",
+    "hasKA": false
+  },
+  "jennifer-crumbley": {
+    "name": "Jennifer Crumbley",
+    "hasKA": false
+  },
+  "keith-raniere": {
+    "name": "Keith Raniere",
+    "hasKA": true
+  },
+  "josh-duggar": {
+    "name": "Josh Duggar",
+    "hasKA": false
+  },
+  "steve-mnuchin": {
+    "name": "Steven Mnuchin",
+    "hasKA": true
+  },
+  "tom-homan": {
+    "name": "Tom Homan",
+    "hasKA": true
+  },
+  "sonny-perdue": {
+    "name": "Sonny Perdue",
+    "hasKA": false
+  },
+  "larry-kudlow": {
+    "name": "Larry Kudlow",
+    "hasKA": true
+  },
+  "richard-strauss": {
+    "name": "Richard Strauss",
+    "hasKA": false
+  },
+  "recep-erdogan": {
+    "name": "Recep Tayyip Erdogan",
+    "hasKA": true
+  },
+  "elliott-abrams": {
+    "name": "Elliott Abrams",
+    "hasKA": false
+  },
+  "peter-liang": {
+    "name": "Peter Liang",
+    "hasKA": false
+  },
+  "jack-dorsey": {
+    "name": "Jack Dorsey",
+    "hasKA": true
+  },
+  "andrew-tate": {
+    "name": "Andrew Tate",
+    "hasKA": true
+  },
+  "tristan-tate": {
+    "name": "Tristan Tate",
+    "hasKA": true
+  },
+  "bill-oreilly": {
+    "name": "Bill O\\",
+    "hasKA": true
+  },
+  "rush-limbaugh": {
+    "name": "Rush Limbaugh",
+    "hasKA": true
+  },
+  "ken-lay": {
+    "name": "Ken Lay",
+    "hasKA": true
+  },
+  "doug-mastriano": {
+    "name": "Doug Mastriano",
+    "hasKA": true
+  },
+  "mark-finchem": {
+    "name": "Mark Finchem",
+    "hasKA": false
+  },
+  "kristi-noem": {
+    "name": "Kristi Noem",
+    "hasKA": false
+  },
+  "louie-gohmert": {
+    "name": "Louie Gohmert",
+    "hasKA": false
+  },
+  "madison-cawthorn": {
+    "name": "Madison Cawthorn",
+    "hasKA": false
+  },
+  "ron-johnson": {
+    "name": "Ron Johnson",
+    "hasKA": true
+  },
+  "elise-stefanik": {
+    "name": "Elise Stefanik",
+    "hasKA": false
+  },
+  "james-comer": {
+    "name": "James Comer",
+    "hasKA": false
+  },
+  "barry-loudermilk": {
+    "name": "Barry Loudermilk",
+    "hasKA": false
+  },
+  "newt-gingrich": {
+    "name": "Newt Gingrich",
+    "hasKA": true
+  },
+  "sarah-palin": {
+    "name": "Sarah Palin",
+    "hasKA": true
+  },
+  "tulsi-gabbard": {
+    "name": "Tulsi Gabbard",
+    "hasKA": true
+  },
+  "robert-f-kennedy-jr": {
+    "name": "Robert F. Kennedy Jr.",
+    "hasKA": true
+  },
+  "pam-bondi": {
+    "name": "Pam Bondi",
+    "hasKA": true
+  },
+  "lee-zeldin": {
+    "name": "Lee Zeldin",
+    "hasKA": true
+  },
+  "bob-good": {
+    "name": "Bob Good",
+    "hasKA": true
+  },
+  "chip-roy": {
+    "name": "Chip Roy",
+    "hasKA": true
+  },
+  "dan-crenshaw": {
+    "name": "Dan Crenshaw",
+    "hasKA": true
+  },
+  "nancy-mace": {
+    "name": "Nancy Mace",
+    "hasKA": true
+  },
+  "byron-donalds": {
+    "name": "Byron Donalds",
+    "hasKA": true
+  },
+  "clay-higgins": {
+    "name": "Clay Higgins",
+    "hasKA": true
+  },
+  "ralph-norman": {
+    "name": "Ralph Norman",
+    "hasKA": true
+  },
+  "anna-paulina-luna": {
+    "name": "Anna Paulina Luna",
+    "hasKA": true
+  },
+  "michele-bachmann": {
+    "name": "Michele Bachmann",
+    "hasKA": true
+  },
+  "rick-santorum": {
+    "name": "Rick Santorum",
+    "hasKA": true
+  },
+  "herman-cain": {
+    "name": "Herman Cain",
+    "hasKA": true
+  },
+  "andy-ngo": {
+    "name": "Andy Ngo",
+    "hasKA": true
+  },
+  "tim-pool": {
+    "name": "Tim Pool",
+    "hasKA": true
+  },
+  "dave-rubin": {
+    "name": "Dave Rubin",
+    "hasKA": false
+  },
+  "dinesh-dsouza": {
+    "name": "Dinesh D\\",
+    "hasKA": false
+  },
+  "james-okeefe": {
+    "name": "James O\\",
+    "hasKA": false
+  },
+  "jacob-wohl": {
+    "name": "Jacob Wohl",
+    "hasKA": false
+  },
+  "milo-yiannopoulos": {
+    "name": "Milo Yiannopoulos",
+    "hasKA": false
+  },
+  "greg-gutfeld": {
+    "name": "Greg Gutfeld",
+    "hasKA": false
+  },
+  "gary-cohn": {
+    "name": "Gary Cohn",
+    "hasKA": true
+  },
+  "dennis-hastert": {
+    "name": "Dennis Hastert",
+    "hasKA": true
+  },
+  "anthony-weiner": {
+    "name": "Anthony Weiner",
+    "hasKA": true
+  },
+  "eliot-spitzer": {
+    "name": "Eliot Spitzer",
+    "hasKA": true
+  },
+  "ed-buck": {
+    "name": "Ed Buck",
+    "hasKA": true
+  },
+  "duke-cunningham": {
+    "name": "Randy ",
+    "hasKA": false
+  },
+  "william-jefferson": {
+    "name": "William Jefferson",
+    "hasKA": false
+  },
+  "henry-cuellar": {
+    "name": "Henry Cuellar",
+    "hasKA": false
+  },
+  "steve-scalise": {
+    "name": "Steve Scalise",
+    "hasKA": true
+  },
+  "virginia-foxx": {
+    "name": "Virginia Foxx",
+    "hasKA": false
+  },
+  "joe-manchin": {
+    "name": "Joe Manchin",
+    "hasKA": false
+  },
+  "kyrsten-sinema": {
+    "name": "Kyrsten Sinema",
+    "hasKA": false
+  },
+  "strom-thurmond": {
+    "name": "Strom Thurmond",
+    "hasKA": false
+  },
+  "jesse-helms": {
+    "name": "Jesse Helms",
+    "hasKA": false
+  },
+  "trent-lott": {
+    "name": "Trent Lott",
+    "hasKA": false
+  },
+  "joe-lieberman": {
+    "name": "Joe Lieberman",
+    "hasKA": false
+  },
+  "dianne-feinstein": {
+    "name": "Dianne Feinstein",
+    "hasKA": false
+  },
+  "timothy-mcveigh": {
+    "name": "Timothy McVeigh",
+    "hasKA": false
+  },
+  "ted-kaczynski": {
+    "name": "Ted Kaczynski",
+    "hasKA": false
+  },
+  "eric-rudolph": {
+    "name": "Eric Rudolph",
+    "hasKA": false
+  },
+  "osama-bin-laden": {
+    "name": "Osama bin Laden",
+    "hasKA": false
+  },
+  "khalid-sheikh-mohammed": {
+    "name": "Khalid Sheikh Mohammed",
+    "hasKA": false
+  },
+  "anwar-al-awlaki": {
+    "name": "Anwar al-Awlaki",
+    "hasKA": false
+  },
+  "glenn-youngkin": {
+    "name": "Glenn Youngkin",
+    "hasKA": false
+  },
+  "kim-reynolds": {
+    "name": "Kim Reynolds",
+    "hasKA": false
+  },
+  "tate-reeves": {
+    "name": "Tate Reeves",
+    "hasKA": false
+  },
+  "bill-lee": {
+    "name": "Bill Lee",
+    "hasKA": false
+  },
+  "mike-parson": {
+    "name": "Mike Parson",
+    "hasKA": false
+  },
+  "dr-oz": {
+    "name": "Mehmet Oz",
+    "hasKA": false
+  },
+  "herschel-walker": {
+    "name": "Herschel Walker",
+    "hasKA": false
+  },
+  "blake-masters": {
+    "name": "Blake Masters",
+    "hasKA": false
+  },
+  "jd-vance": {
+    "name": "JD Vance",
+    "hasKA": true
+  },
+  "joe-kent": {
+    "name": "Joe Kent",
+    "hasKA": false
+  },
+  "tudor-dixon": {
+    "name": "Tudor Dixon",
+    "hasKA": false
+  },
+  "terry-nichols": {
+    "name": "Terry Nichols",
+    "hasKA": false
+  },
+  "sam-salehpour": {
+    "name": "Sam Salehpour",
+    "hasKA": false
+  },
+  "desmond-mills": {
+    "name": "Desmond Mills Jr.",
+    "hasKA": false
+  },
+  "emmitt-martin": {
+    "name": "Emmitt Martin III",
+    "hasKA": false
+  },
+  "tadarrius-bean": {
+    "name": "Tadarrius Bean",
+    "hasKA": false
+  },
+  "justin-smith": {
+    "name": "Justin Smith",
+    "hasKA": false
+  },
+  "hank-paulson": {
+    "name": "Henry ",
+    "hasKA": false
+  },
+  "jeffrey-wigand": {
+    "name": "Jeffrey Wigand",
+    "hasKA": false
+  },
+  "julian-robertson": {
+    "name": "Julian Robertson",
+    "hasKA": false
+  },
+  "lisa-eisenhart": {
+    "name": "Lisa Eisenhart",
+    "hasKA": false
+  },
+  "mark-swartz": {
+    "name": "Mark Swartz",
+    "hasKA": false
+  },
+  "ramesh-balwani": {
+    "name": "Ramesh ",
+    "hasKA": false
+  },
+  "timothy-rigas": {
+    "name": "Timothy Rigas",
+    "hasKA": false
+  },
+  "abdulrahman-al-awlaki": {
+    "name": "Abdulrahman Anwar al-Awlaki",
+    "hasKA": true
+  },
+  "abu-zubaydah": {
+    "name": "Zayn al-Abidin Muhammad Husayn (Abu Zubaydah)",
+    "hasKA": true
+  },
+  "ahmad-chalabi": {
+    "name": "Ahmad Abdel Hadi Chalabi",
+    "hasKA": true
+  },
+  "alan-greenspan": {
+    "name": "Alan Greenspan",
+    "hasKA": true
+  },
+  "alfredo-stroessner": {
+    "name": "Alfredo Stroessner Matiauda",
+    "hasKA": true
+  },
+  "andrew-jackson": {
+    "name": "Andrew Jackson",
+    "hasKA": true
+  },
+  "angelo-mozilo": {
+    "name": "Angelo R. Mozilo",
+    "hasKA": true
+  },
+  "anthony-kennedy": {
+    "name": "Anthony McLeod Kennedy",
+    "hasKA": true
+  },
+  "antonio-taguba": {
+    "name": "Antonio Mario Taguba",
+    "hasKA": true
+  },
+  "barre-seid": {
+    "name": "Barre Seid",
+    "hasKA": true
+  },
+  "ben-bernanke": {
+    "name": "Ben Shalom Bernanke",
+    "hasKA": true
+  },
+  "bernardo-leighton": {
+    "name": "Bernardo Leighton Guzmán",
+    "hasKA": true
+  },
+  "bradley-smith": {
+    "name": "Bradley A. Smith",
+    "hasKA": true
+  },
+  "carl-schurz": {
+    "name": "Carl Schurz",
+    "hasKA": true
+  },
+  "carlos-prats": {
+    "name": "Carlos Prats González",
+    "hasKA": true
+  },
+  "charles-fahy": {
+    "name": "Charles Fahy",
+    "hasKA": true
+  },
+  "charles-graner": {
+    "name": "Charles Albert Graner Jr.",
+    "hasKA": true
+  },
+  "christopher-columbus": {
+    "name": "Christopher Columbus (Cristoforo Colombo)",
+    "hasKA": true
+  },
+  "creighton-abrams": {
+    "name": "Creighton Williams Abrams Jr.",
+    "hasKA": true
+  },
+  "curtis-lemay": {
+    "name": "Curtis Emerson LeMay",
+    "hasKA": true
+  },
+  "abdel-hakim-belhaj": {
+    "name": "Abdel Hakim Belhaj",
+    "hasKA": false
+  },
+  "abdur-rahman-muhammad": {
+    "name": "Abdur-Rahman Muhammad",
+    "hasKA": false
+  },
+  "abigail-echo-hawk": {
+    "name": "Abigail Echo-Hawk",
+    "hasKA": false
+  },
+  "abolhassan-banisadr": {
+    "name": "Abolhassan Banisadr",
+    "hasKA": false
+  },
+  "abraham-zapruder": {
+    "name": "Abraham Zapruder",
+    "hasKA": false
+  },
+  "adam-lanza": {
+    "name": "Adam Lanza",
+    "hasKA": true
+  },
+  "adam-malik": {
+    "name": "Adam Malik",
+    "hasKA": false
+  },
+  "addison-yeaman": {
+    "name": "Addison Yeaman",
+    "hasKA": false
+  },
+  "aiyana-stanley-jones": {
+    "name": "Aiyana Stanley-Jones",
+    "hasKA": false
+  },
+  "aj-smitherman": {
+    "name": "A.J. Smitherman",
+    "hasKA": false
+  },
+  "ajit-pai": {
+    "name": "Ajit Pai",
+    "hasKA": true
+  },
+  "akua-njeri": {
+    "name": "Deborah Johnson (Akua Njeri)",
+    "hasKA": false
+  },
+  "alan-fiers": {
+    "name": "Alan Fiers",
+    "hasKA": false
+  },
+  "alan-mann": {
+    "name": "Alan Mann",
+    "hasKA": false
+  },
+  "alan-shaw": {
+    "name": "Norfolk Southern (CEO Alan Shaw)",
+    "hasKA": false
+  },
+  "albert-lord": {
+    "name": "Albert Lord",
+    "hasKA": false
+  },
+  "albert-woodfox": {
+    "name": "Albert Woodfox",
+    "hasKA": false
+  },
+  "aldo-moro": {
+    "name": "Aldo Moro",
+    "hasKA": false
+  },
+  "alec-smith": {
+    "name": "Alec Smith",
+    "hasKA": false
+  },
+  "alex-karp": {
+    "name": "Alex Karp",
+    "hasKA": false
+  },
+  "alexander-haig": {
+    "name": "Alexander Haig",
+    "hasKA": false
+  },
+  "alfredo-cristiani": {
+    "name": "Alfredo Cristiani",
+    "hasKA": false
+  },
+  "alice-hamilton": {
+    "name": "Alice Hamilton",
+    "hasKA": false
+  },
+  "allan-nairn": {
+    "name": "Allan Nairn",
+    "hasKA": false
+  },
+  "allan-pinkerton": {
+    "name": "Allan Pinkerton",
+    "hasKA": false
+  },
+  "alvin-young": {
+    "name": "Alvin Young",
+    "hasKA": false
+  },
+  "amir-locke": {
+    "name": "Amir Locke",
+    "hasKA": false
+  },
+  "amy-gutmann": {
+    "name": "Amy Gutmann",
+    "hasKA": false
+  },
+  "anders-fogh-rasmussen": {
+    "name": "Anders Fogh Rasmussen",
+    "hasKA": false
+  },
+  "andrew-carnegie": {
+    "name": "Andrew Carnegie",
+    "hasKA": false
+  },
+  "andrew-fastow": {
+    "name": "Andrew Fastow",
+    "hasKA": false
+  },
+  "andrew-madoff": {
+    "name": "Andrew Madoff",
+    "hasKA": false
+  },
+  "andrew-tisch": {
+    "name": "Andrew Tisch",
+    "hasKA": false
+  },
+  "anna-deavere-smith": {
+    "name": "Anna Deavere Smith",
+    "hasKA": false
+  },
+  "annita-lucchesi": {
+    "name": "Annita Lucchesi",
+    "hasKA": false
+  },
+  "anthony-lake": {
+    "name": "Anthony Lake",
+    "hasKA": false
+  },
+  "anthony-ray-hinton": {
+    "name": "Anthony Ray Hinton",
+    "hasKA": false
+  },
+  "anthony-russo": {
+    "name": "Anthony Russo",
+    "hasKA": false
+  },
+  "ari-ben-menashe": {
+    "name": "Ari Ben-Menashe",
+    "hasKA": false
+  },
+  "arne-duncan": {
+    "name": "Arne Duncan",
+    "hasKA": false
+  },
+  "art-cohen": {
+    "name": "Art Cohen",
+    "hasKA": false
+  },
+  "art-pope": {
+    "name": "Art Pope",
+    "hasKA": false
+  },
+  "arthur-rudolph": {
+    "name": "Arthur Rudolph",
+    "hasKA": false
+  },
+  "arthur-sackler": {
+    "name": "Arthur M. Sackler",
+    "hasKA": false
+  },
+  "arvind-thiruvengadam": {
+    "name": "Arvind Thiruvengadam",
+    "hasKA": false
+  },
+  "ashli-babbitt": {
+    "name": "Ashli Babbitt",
+    "hasKA": false
+  },
+  "ashraf-ghani": {
+    "name": "Ashraf Ghani",
+    "hasKA": false
+  },
+  "barbara-fried": {
+    "name": "Barbara Fried",
+    "hasKA": false
+  },
+  "barry-scheck": {
+    "name": "Barry Scheck",
+    "hasKA": false
+  },
+  "bastian-obermayer": {
+    "name": "Bastian Obermayer",
+    "hasKA": false
+  },
+  "bc-franklin": {
+    "name": "B.C. Franklin",
+    "hasKA": false
+  },
+  "becky-barr": {
+    "name": "Becky Barr",
+    "hasKA": false
+  },
+  "ben-barnes": {
+    "name": "Ben Barnes",
+    "hasKA": false
+  },
+  "ben-bradlee": {
+    "name": "Ben Bradlee",
+    "hasKA": false
+  },
+  "ben-glisan": {
+    "name": "Ben Glisan",
+    "hasKA": false
+  },
+  "ben-tillman": {
+    "name": "Ben Tillman",
+    "hasKA": false
+  },
+  "benny-murdani": {
+    "name": "Benny Murdani",
+    "hasKA": false
+  },
+  "bernard-coard": {
+    "name": "Bernard Coard",
+    "hasKA": false
+  },
+  "bernard-reilly": {
+    "name": "Bernard Reilly",
+    "hasKA": false
+  },
+  "bernd-gottweis": {
+    "name": "Bernd Gottweis",
+    "hasKA": false
+  },
+  "bernie-sanders": {
+    "name": "Bernie Sanders",
+    "hasKA": false
+  },
+  "betty-shabazz": {
+    "name": "Betty Shabazz",
+    "hasKA": false
+  },
+  "bill-buford": {
+    "name": "Bill Buford",
+    "hasKA": false
+  },
+  "bill-meierling": {
+    "name": "Bill Meierling",
+    "hasKA": false
+  },
+  "billy-tauzin": {
+    "name": "Billy Tauzin",
+    "hasKA": false
+  },
+  "birdie-africa": {
+    "name": "Birdie Africa (Michael Moses Ward)",
+    "hasKA": false
+  },
+  "bo-gritz": {
+    "name": "Bo Gritz",
+    "hasKA": false
+  },
+  "bob-diamond": {
+    "name": "Bob Diamond",
+    "hasKA": false
+  },
+  "bob-kroll": {
+    "name": "Bob Kroll",
+    "hasKA": true
+  },
+  "bobby-muller": {
+    "name": "Bobby Muller",
+    "hasKA": false
+  },
+  "bobby-rush": {
+    "name": "Bobby Rush",
+    "hasKA": false
+  },
+  "bosquet-wev": {
+    "name": "Bosquet Wev",
+    "hasKA": false
+  },
+  "boutros-boutros-ghali": {
+    "name": "Boutros Boutros-Ghali",
+    "hasKA": false
+  },
+  "breonna-taylor": {
+    "name": "Breonna Taylor",
+    "hasKA": false
+  },
+  "brian-terry": {
+    "name": "Brian Terry",
+    "hasKA": false
+  },
+  "bruce-karrh": {
+    "name": "Bruce Karrh",
+    "hasKA": false
+  },
+  "bryan-stevenson": {
+    "name": "Bryan Stevenson",
+    "hasKA": false
+  },
+  "bull-connor": {
+    "name": "Bull Connor",
+    "hasKA": false
+  },
+  "burl-cain": {
+    "name": "Burl Cain",
+    "hasKA": false
+  },
+  "byron-sage": {
+    "name": "Byron Sage",
+    "hasKA": false
+  },
+  "c-everett-koop": {
+    "name": "C. Everett Koop",
+    "hasKA": false
+  },
+  "c-sidney-carlton": {
+    "name": "C. Sidney Carlton",
+    "hasKA": false
+  },
+  "cameron-todd-willingham": {
+    "name": "Cameron Todd Willingham",
+    "hasKA": false
+  },
+  "carl-oechsner": {
+    "name": "Carl Oechsner",
+    "hasKA": false
+  },
+  "carlos-castillo-armas": {
+    "name": "Carlos Castillo Armas",
+    "hasKA": false
+  },
+  "carlos-ximenes-belo": {
+    "name": "Bishop Carlos Ximenes Belo",
+    "hasKA": false
+  },
+  "caroline-ellison": {
+    "name": "Caroline Ellison",
+    "hasKA": false
+  },
+  "carolyn-bryant": {
+    "name": "Carolyn Bryant Donham",
+    "hasKA": false
+  },
+  "carrie-buck": {
+    "name": "Carrie Buck",
+    "hasKA": false
+  },
+  "catherine-flowers": {
+    "name": "Catherine Flowers",
+    "hasKA": false
+  },
+  "changpeng-zhao": {
+    "name": "Changpeng Zhao",
+    "hasKA": false
+  },
+  "charles-davenport": {
+    "name": "Charles Davenport",
+    "hasKA": false
+  },
+  "charles-holliday": {
+    "name": "Charles Holliday",
+    "hasKA": false
+  },
+  "charles-keating": {
+    "name": "Charles Keating",
+    "hasKA": false
+  },
+  "charles-kettering": {
+    "name": "Charles Kettering",
+    "hasKA": false
+  },
+  "charles-scharf": {
+    "name": "Charles Scharf",
+    "hasKA": false
+  },
+  "charles-schumer": {
+    "name": "Charles Schumer",
+    "hasKA": false
+  },
+  "charlie-beck": {
+    "name": "Charlie Beck",
+    "hasKA": false
+  },
+  "chase-iron-eyes": {
+    "name": "Chase Iron Eyes",
+    "hasKA": false
+  },
+  "che-guevara": {
+    "name": "Che Guevara",
+    "hasKA": false
+  },
+  "cheryl-mills": {
+    "name": "Cheryl Mills",
+    "hasKA": false
+  },
+  "chokwe-lumumba": {
+    "name": "Chokwe Antar Lumumba",
+    "hasKA": false
+  },
+  "chris-jankowski": {
+    "name": "Chris Jankowski",
+    "hasKA": false
+  },
+  "chris-murphy": {
+    "name": "Chris Murphy",
+    "hasKA": false
+  },
+  "chris-ripley": {
+    "name": "Chris Ripley",
+    "hasKA": false
+  },
+  "chris-smalls": {
+    "name": "Chris Smalls",
+    "hasKA": false
+  },
+  "christian-bittar": {
+    "name": "Christian Bittar",
+    "hasKA": false
+  },
+  "christopher-cox": {
+    "name": "Christopher Cox",
+    "hasKA": false
+  },
+  "christopher-soghoian": {
+    "name": "Christopher Soghoian",
+    "hasKA": false
+  },
+  "chuck-grassley": {
+    "name": "Chuck Grassley",
+    "hasKA": false
+  },
+  "chuck-hoskin-jr": {
+    "name": "Chuck Hoskin Jr.",
+    "hasKA": false
+  },
+  "clair-patterson": {
+    "name": "Clair Patterson",
+    "hasKA": false
+  },
+  "clare-garvie": {
+    "name": "Clare Garvie",
+    "hasKA": false
+  },
+  "claudia-peterson": {
+    "name": "Claudia Peterson",
+    "hasKA": false
+  },
+  "claudia-russ-anderson": {
+    "name": "Claudia Russ Anderson",
+    "hasKA": false
+  },
+  "clay-shaw": {
+    "name": "Clay Shaw",
+    "hasKA": false
+  },
+  "cliff-baxter": {
+    "name": "Cliff Baxter",
+    "hasKA": false
+  },
+  "coretta-scott-king": {
+    "name": "Coretta Scott King",
+    "hasKA": false
+  },
+  "courtney-bowden": {
+    "name": "Courtney Bowden",
+    "hasKA": false
+  },
+  "craig-haney": {
+    "name": "Craig Haney",
+    "hasKA": false
+  },
+  "craig-whitlock": {
+    "name": "Craig Whitlock",
+    "hasKA": false
+  },
+  "curtis-wright": {
+    "name": "Curtis Wright",
+    "hasKA": false
+  },
+  "curveball": {
+    "name": "Rafid Ahmed Alwan al-Janabi (Curveball)",
+    "hasKA": false
+  },
+  "cyrus-hashemi": {
+    "name": "Cyrus Hashemi",
+    "hasKA": false
+  },
+  "cyrus-vance-jr": {
+    "name": "Cyrus Vance Jr.",
+    "hasKA": false
+  },
+  "dale-folwell": {
+    "name": "Dale Folwell",
+    "hasKA": false
+  },
+  "dallas-goldtooth": {
+    "name": "Dallas Goldtooth",
+    "hasKA": false
+  },
+  "dalton-trumbo": {
+    "name": "Dalton Trumbo",
+    "hasKA": false
+  },
+  "dan-moldea": {
+    "name": "Dan Moldea",
+    "hasKA": false
+  },
+  "daniel-cameron": {
+    "name": "Daniel Cameron",
+    "hasKA": false
+  },
+  "daniel-carder": {
+    "name": "Daniel Carder",
+    "hasKA": false
+  },
+  "daniel-ellsberg": {
+    "name": "Daniel Ellsberg",
+    "hasKA": false
+  },
+  "daniel-hamburger": {
+    "name": "Daniel Hamburger",
+    "hasKA": false
+  },
+  "daniel-patrick-moynihan": {
+    "name": "Daniel Patrick Moynihan",
+    "hasKA": false
+  },
+  "daniel-rigmaiden": {
+    "name": "Daniel Rigmaiden",
+    "hasKA": false
+  },
+  "daniele-ganser": {
+    "name": "Daniele Ganser",
+    "hasKA": false
+  },
+  "danny-wall": {
+    "name": "Danny Wall",
+    "hasKA": false
+  },
+  "daphne-caruana-galizia": {
+    "name": "Daphne Caruana Galizia",
+    "hasKA": false
+  },
+  "darlene-keju": {
+    "name": "Darlene Keju",
+    "hasKA": false
+  },
+  "darnell-earley": {
+    "name": "Darnell Earley",
+    "hasKA": false
+  },
+  "darrell-issa": {
+    "name": "Darrell Issa",
+    "hasKA": false
+  },
+  "daryl-gates": {
+    "name": "Daryl Gates",
+    "hasKA": false
+  },
+  "dave-archambault-ii": {
+    "name": "Dave Archambault II",
+    "hasKA": false
+  },
+  "david-atlee-phillips": {
+    "name": "David Atlee Phillips",
+    "hasKA": false
+  },
+  "david-boies": {
+    "name": "David Boies",
+    "hasKA": false
+  },
+  "david-duncan": {
+    "name": "David Duncan",
+    "hasKA": false
+  },
+  "david-greenglass": {
+    "name": "David Greenglass",
+    "hasKA": false
+  },
+  "david-hogg": {
+    "name": "David Hogg",
+    "hasKA": true
+  },
+  "david-keene": {
+    "name": "David Keene",
+    "hasKA": false
+  },
+  "david-kessler": {
+    "name": "David Kessler",
+    "hasKA": false
+  },
+  "david-koresh": {
+    "name": "David Koresh",
+    "hasKA": false
+  },
+  "david-kotz": {
+    "name": "David Kotz",
+    "hasKA": false
+  },
+  "david-petraeus": {
+    "name": "David Petraeus",
+    "hasKA": false
+  },
+  "david-rainey": {
+    "name": "David Rainey",
+    "hasKA": false
+  },
+  "david-smith": {
+    "name": "David Smith",
+    "hasKA": false
+  },
+  "david-thibodeau": {
+    "name": "David Thibodeau",
+    "hasKA": false
+  },
+  "david-voth": {
+    "name": "David Voth",
+    "hasKA": false
+  },
+  "dawn-wooten": {
+    "name": "Dawn Wooten",
+    "hasKA": false
+  },
+  "dean-rusk": {
+    "name": "Dean Rusk",
+    "hasKA": false
+  },
+  "deanne-criswell": {
+    "name": "Deanne Criswell",
+    "hasKA": false
+  },
+  "denis-mcdonough": {
+    "name": "Denis McDonough",
+    "hasKA": false
+  },
+  "dennis-deconcini": {
+    "name": "Dennis DeConcini",
+    "hasKA": false
+  },
+  "derrick-johnson": {
+    "name": "Derrick Johnson",
+    "hasKA": false
+  },
+  "derrick-palmer": {
+    "name": "Derrick Palmer",
+    "hasKA": false
+  },
+  "desmond-tutu": {
+    "name": "Desmond Tutu",
+    "hasKA": false
+  },
+  "dexter-king": {
+    "name": "Dexter King",
+    "hasKA": false
+  },
+  "dick-deguerin": {
+    "name": "Dick DeGuerin",
+    "hasKA": false
+  },
+  "dick-durbin": {
+    "name": "Dick Durbin",
+    "hasKA": false
+  },
+  "dick-fuld": {
+    "name": "Dick Fuld",
+    "hasKA": false
+  },
+  "dick-rowland": {
+    "name": "Dick Rowland",
+    "hasKA": false
+  },
+  "domingo-monterrosa": {
+    "name": "Domingo Monterrosa",
+    "hasKA": false
+  },
+  "don-blankenship": {
+    "name": "Don Blankenship",
+    "hasKA": false
+  },
+  "donald-rickard": {
+    "name": "Donald Rickard",
+    "hasKA": false
+  },
+  "donald-riegle": {
+    "name": "Donald Riegle",
+    "hasKA": false
+  },
+  "donald-vidrine": {
+    "name": "Donald Vidrine",
+    "hasKA": false
+  },
+  "dr-condie": {
+    "name": "Dr. Condie",
+    "hasKA": false
+  },
+  "duane-parde": {
+    "name": "Duane Parde",
+    "hasKA": false
+  },
+  "duke-tran": {
+    "name": "Duke Tran",
+    "hasKA": false
+  },
+  "dw-griffith": {
+    "name": "D.W. Griffith",
+    "hasKA": false
+  },
+  "dwight-d-eisenhower": {
+    "name": "Dwight D. Eisenhower",
+    "hasKA": false
+  },
+  "earl-stadtman": {
+    "name": "Earl Stadtman",
+    "hasKA": false
+  },
+  "earl-warren": {
+    "name": "Earl Warren",
+    "hasKA": false
+  },
+  "earle-wheeler": {
+    "name": "Earle Wheeler",
+    "hasKA": false
+  },
+  "ed-rendell": {
+    "name": "Ed Rendell",
+    "hasKA": false
+  },
+  "edward-bernays": {
+    "name": "Edward Bernays",
+    "hasKA": false
+  },
+  "edward-garvey": {
+    "name": "Edward Garvey",
+    "hasKA": false
+  },
+  "edward-hanrahan": {
+    "name": "Edward Hanrahan",
+    "hasKA": false
+  },
+  "edward-horrigan": {
+    "name": "Edward Horrigan",
+    "hasKA": false
+  },
+  "edward-lansdale": {
+    "name": "Edward Lansdale",
+    "hasKA": false
+  },
+  "edward-r-murrow": {
+    "name": "Edward R. Murrow",
+    "hasKA": false
+  },
+  "edward-teller": {
+    "name": "Edward Teller",
+    "hasKA": false
+  },
+  "edwin-gray": {
+    "name": "Edwin Gray",
+    "hasKA": false
+  },
+  "efrain-rios-montt": {
+    "name": "Efra\\u00EDn R\\u00EDos Montt",
+    "hasKA": false
+  },
+  "eh-wah": {
+    "name": "Eh Wah",
+    "hasKA": false
+  },
+  "elaine-riddick": {
+    "name": "Elaine Riddick",
+    "hasKA": false
+  },
+  "elia-kazan": {
+    "name": "Elia Kazan",
+    "hasKA": false
+  },
+  "elijah-muhammad": {
+    "name": "Elijah Muhammad",
+    "hasKA": false
+  },
+  "elizabeth-warren": {
+    "name": "Elizabeth Warren",
+    "hasKA": false
+  },
+  "ellen-kullman": {
+    "name": "Ellen Kullman",
+    "hasKA": false
+  },
+  "elliot-jaspin": {
+    "name": "Elliot Jaspin",
+    "hasKA": false
+  },
+  "elmo-zumwalt": {
+    "name": "Admiral Elmo Zumwalt Jr.",
+    "hasKA": false
+  },
+  "elmo-zumwalt-iii": {
+    "name": "Elmo Zumwalt III",
+    "hasKA": false
+  },
+  "emilio-massera": {
+    "name": "Emilio Eduardo Massera",
+    "hasKA": false
+  },
+  "emmett-till": {
+    "name": "Emmett Till",
+    "hasKA": false
+  },
+  "eric-holder": {
+    "name": "Eric Holder",
+    "hasKA": false
+  },
+  "eric-schneiderman": {
+    "name": "Eric Schneiderman",
+    "hasKA": false
+  },
+  "erika-cheung": {
+    "name": "Erika Cheung",
+    "hasKA": false
+  },
+  "erin-brockovich": {
+    "name": "Erin Brockovich",
+    "hasKA": false
+  },
+  "estelle-reel": {
+    "name": "Estelle Reel",
+    "hasKA": false
+  },
+  "ethel-rosenberg": {
+    "name": "Ethel Rosenberg",
+    "hasKA": false
+  },
+  "eunice-rivers": {
+    "name": "Dr. Eunice Rivers",
+    "hasKA": false
+  },
+  "eurico-guterres": {
+    "name": "Eurico Guterres",
+    "hasKA": false
+  },
+  "evan-parker": {
+    "name": "Evan Parker",
+    "hasKA": false
+  },
+  "felice-casson": {
+    "name": "Felice Casson",
+    "hasKA": false
+  },
+  "felix-wormser": {
+    "name": "Felix Wormser",
+    "hasKA": false
+  },
+  "fidel-castro": {
+    "name": "Fidel Castro",
+    "hasKA": false
+  },
+  "five-omar-mualimm-ak": {
+    "name": "Five Omar Mualimm-ak",
+    "hasKA": false
+  },
+  "flint-taylor": {
+    "name": "Flint Taylor",
+    "hasKA": false
+  },
+  "frank-dipascali": {
+    "name": "Frank DiPascali",
+    "hasKA": false
+  },
+  "frank-powell": {
+    "name": "Frank Powell",
+    "hasKA": false
+  },
+  "fred-branfman": {
+    "name": "Fred Branfman",
+    "hasKA": false
+  },
+  "fred-gray": {
+    "name": "Fred Gray",
+    "hasKA": false
+  },
+  "fred-guttenberg": {
+    "name": "Fred Guttenberg",
+    "hasKA": false
+  },
+  "fred-hampton-jr": {
+    "name": "Fred Hampton Jr.",
+    "hasKA": false
+  },
+  "frederick-babcock": {
+    "name": "Frederick Babcock",
+    "hasKA": false
+  },
+  "frederick-douglass": {
+    "name": "Frederick Douglass",
+    "hasKA": false
+  },
+  "frederick-hitz": {
+    "name": "Frederick Hitz",
+    "hasKA": false
+  },
+  "frederik-obermaier": {
+    "name": "Frederik Obermaier",
+    "hasKA": false
+  },
+  "gary-gensler": {
+    "name": "Gary Gensler",
+    "hasKA": false
+  },
+  "gary-wang": {
+    "name": "Gary Wang",
+    "hasKA": false
+  },
+  "gary-webb": {
+    "name": "Gary Webb",
+    "hasKA": true
+  },
+  "geoffrey-supran": {
+    "name": "Geoffrey Supran",
+    "hasKA": false
+  },
+  "georg-rickhey": {
+    "name": "Georg Rickhey",
+    "hasKA": false
+  },
+  "george-armstrong-custer": {
+    "name": "George Armstrong Custer",
+    "hasKA": false
+  },
+  "george-de-mohrenschildt": {
+    "name": "George de Mohrenschildt",
+    "hasKA": false
+  },
+  "george-romney": {
+    "name": "George Romney",
+    "hasKA": false
+  },
+  "george-shultz": {
+    "name": "George Shultz",
+    "hasKA": false
+  },
+  "george-stinney-jr": {
+    "name": "George Stinney Jr.",
+    "hasKA": false
+  },
+  "gerald-chatham": {
+    "name": "Gerald Chatham",
+    "hasKA": false
+  },
+  "gerald-kennedy": {
+    "name": "Gerald Kennedy",
+    "hasKA": false
+  },
+  "gerry-spence": {
+    "name": "Gerry Spence",
+    "hasKA": false
+  },
+  "gilbert-bigio": {
+    "name": "Gilbert Bigio",
+    "hasKA": false
+  },
+  "giulio-andreotti": {
+    "name": "Giulio Andreotti",
+    "hasKA": false
+  },
+  "giuseppe-santovito": {
+    "name": "Giuseppe Santovito",
+    "hasKA": false
+  },
+  "gonzalo-curiel": {
+    "name": "Gonzalo Curiel",
+    "hasKA": false
+  },
+  "gregore-sambor": {
+    "name": "Gregore Sambor",
+    "hasKA": false
+  },
+  "guillermo-endara": {
+    "name": "Guillermo Endara",
+    "hasKA": false
+  },
+  "guillermo-garcia-sal": {
+    "name": "Guillermo García",
+    "hasKA": false
+  },
+  "gul-rahman": {
+    "name": "Gul Rahman",
+    "hasKA": false
+  },
+  "hal-knight": {
+    "name": "Hal Knight",
+    "hasKA": false
+  },
+  "hamid-khan": {
+    "name": "Hamid Khan",
+    "hasKA": false
+  },
+  "harrison-trevathan": {
+    "name": "Harrison Trevathan",
+    "hasKA": false
+  },
+  "harry-laughlin": {
+    "name": "Harry Laughlin",
+    "hasKA": false
+  },
+  "harry-markopolos": {
+    "name": "Harry Markopolos",
+    "hasKA": false
+  },
+  "harry-truman": {
+    "name": "Harry Truman",
+    "hasKA": false
+  },
+  "hassan-sheikh-mohamud": {
+    "name": "Hassan Sheikh Mohamud",
+    "hasKA": false
+  },
+  "hector-gramajo": {
+    "name": "Hector Gramajo",
+    "hasKA": false
+  },
+  "heinz-jakob-neusser": {
+    "name": "Heinz-Jakob Neusser",
+    "hasKA": false
+  },
+  "henry-cabot-lodge-jr": {
+    "name": "Henry Cabot Lodge Jr.",
+    "hasKA": false
+  },
+  "henry-clay-frick": {
+    "name": "Henry Clay Frick",
+    "hasKA": false
+  },
+  "henry-dawes": {
+    "name": "Henry Dawes",
+    "hasKA": false
+  },
+  "henry-knox": {
+    "name": "Henry Knox",
+    "hasKA": false
+  },
+  "henry-shaw": {
+    "name": "Henry Shaw",
+    "hasKA": false
+  },
+  "henry-waxman": {
+    "name": "Henry Waxman",
+    "hasKA": false
+  },
+  "herbert-diess": {
+    "name": "Herbert Diess",
+    "hasKA": false
+  },
+  "herbert-needleman": {
+    "name": "Herbert Needleman",
+    "hasKA": false
+  },
+  "herman-wallace": {
+    "name": "Herman Wallace",
+    "hasKA": false
+  },
+  "hiram-price": {
+    "name": "Hiram Price",
+    "hasKA": false
+  },
+  "hoan-ton-that": {
+    "name": "Hoan Ton-That",
+    "hasKA": false
+  },
+  "homer-hoyt": {
+    "name": "Homer Hoyt",
+    "hasKA": false
+  },
+  "hope-macallister": {
+    "name": "Hope MacAllister",
+    "hasKA": false
+  },
+  "howard-jones": {
+    "name": "Howard Jones",
+    "hasKA": false
+  },
+  "howard-udell": {
+    "name": "Howard Udell",
+    "hasKA": false
+  },
+  "hudson-austin": {
+    "name": "Hudson Austin",
+    "hasKA": false
+  },
+  "hugh-thompson-jr": {
+    "name": "Hugh Thompson Jr.",
+    "hasKA": false
+  },
+  "hughes-van-ellis": {
+    "name": "Hughes Van Ellis",
+    "hasKA": false
+  },
+  "hugo-banzer": {
+    "name": "Hugo Banzer",
+    "hasKA": false
+  },
+  "ian-gibbons": {
+    "name": "Ian Gibbons",
+    "hasKA": false
+  },
+  "ida-b-wells": {
+    "name": "Ida B. Wells",
+    "hasKA": false
+  },
+  "irving-picard": {
+    "name": "Irving Picard",
+    "hasKA": false
+  },
+  "j-parnell-thomas": {
+    "name": "J. Parnell Thomas",
+    "hasKA": false
+  },
+  "j-robert-oppenheimer": {
+    "name": "J. Robert Oppenheimer",
+    "hasKA": false
+  },
+  "jack-remondi": {
+    "name": "Jack Remondi",
+    "hasKA": false
+  },
+  "jack-ruby": {
+    "name": "Jack Ruby",
+    "hasKA": true
+  },
+  "jack-weinstein": {
+    "name": "Jack Weinstein",
+    "hasKA": false
+  },
+  "jacobo-arbenz": {
+    "name": "Jacobo \\u00C1rbenz",
+    "hasKA": false
+  },
+  "jaime-zapata": {
+    "name": "Jaime Zapata",
+    "hasKA": false
+  },
+  "james-angleton": {
+    "name": "James Jesus Angleton",
+    "hasKA": false
+  },
+  "james-baker": {
+    "name": "James Baker III",
+    "hasKA": false
+  },
+  "james-black": {
+    "name": "James Black",
+    "hasKA": false
+  },
+  "james-bopp": {
+    "name": "James Bopp Jr.",
+    "hasKA": false
+  },
+  "james-bosbous": {
+    "name": "James Bosbous",
+    "hasKA": false
+  },
+  "james-craig": {
+    "name": "James Craig",
+    "hasKA": false
+  },
+  "james-davis-cpd": {
+    "name": "James Davis",
+    "hasKA": false
+  },
+  "james-forsyth": {
+    "name": "James Forsyth",
+    "hasKA": false
+  },
+  "james-knox-polk": {
+    "name": "James Knox Polk",
+    "hasKA": false
+  },
+  "james-liang": {
+    "name": "James Liang",
+    "hasKA": false
+  },
+  "james-loewen": {
+    "name": "James Loewen",
+    "hasKA": false
+  },
+  "james-risen": {
+    "name": "James Risen",
+    "hasKA": false
+  },
+  "james-w-english": {
+    "name": "James W. English",
+    "hasKA": false
+  },
+  "jan-brewer": {
+    "name": "Jan Brewer",
+    "hasKA": false
+  },
+  "jan-hasselman": {
+    "name": "Jan Hasselman",
+    "hasKA": false
+  },
+  "janet-reno": {
+    "name": "Janet Reno",
+    "hasKA": true
+  },
+  "janis-karpinski": {
+    "name": "Brig. Gen. Janis Karpinski",
+    "hasKA": false
+  },
+  "jason-forge": {
+    "name": "Jason Forge",
+    "hasKA": false
+  },
+  "jay-carney": {
+    "name": "Jay Carney",
+    "hasKA": false
+  },
+  "jay-dickey": {
+    "name": "Jay Dickey",
+    "hasKA": false
+  },
+  "jba-robertson": {
+    "name": "J.B.A. Robertson",
+    "hasKA": false
+  },
+  "jc-robert": {
+    "name": "J.C. Robert",
+    "hasKA": false
+  },
+  "jean-bertrand-aristide": {
+    "name": "Jean-Bertrand Aristide",
+    "hasKA": false
+  },
+  "jeane-kirkpatrick": {
+    "name": "Jeane Kirkpatrick",
+    "hasKA": false
+  },
+  "jeff-brantingham": {
+    "name": "Jeff Brantingham",
+    "hasKA": false
+  },
+  "jeff-jamar": {
+    "name": "Jeff Jamar",
+    "hasKA": false
+  },
+  "jeffrey-amherst": {
+    "name": "Lord Jeffrey Amherst",
+    "hasKA": false
+  },
+  "jeffrey-sterling": {
+    "name": "Jeffrey Sterling",
+    "hasKA": false
+  },
+  "jeffry-picower": {
+    "name": "Jeffry Picower",
+    "hasKA": false
+  },
+  "jennifer-abruzzo": {
+    "name": "Jennifer Abruzzo",
+    "hasKA": false
+  },
+  "jennifer-bates": {
+    "name": "Jennifer Bates",
+    "hasKA": false
+  },
+  "jerry-del-missier": {
+    "name": "Jerry del Missier",
+    "hasKA": false
+  },
+  "jerry-ensminger": {
+    "name": "Jerry Ensminger",
+    "hasKA": false
+  },
+  "jerry-falwell": {
+    "name": "Jerry Falwell",
+    "hasKA": false
+  },
+  "jesse-daniel-ames": {
+    "name": "Jesse Daniel Ames",
+    "hasKA": false
+  },
+  "jesse-gagliano": {
+    "name": "Jesse Gagliano",
+    "hasKA": false
+  },
+  "jesse-jackson": {
+    "name": "Jesse Jackson",
+    "hasKA": false
+  },
+  "jesse-jones": {
+    "name": "Jesse Jones",
+    "hasKA": false
+  },
+  "jesse-washington": {
+    "name": "Jesse Washington",
+    "hasKA": false
+  },
+  "jim-garrison": {
+    "name": "Jim Garrison",
+    "hasKA": false
+  },
+  "jim-watkins": {
+    "name": "Jim Watkins",
+    "hasKA": false
+  },
+  "jimmy-carter": {
+    "name": "Jimmy Carter",
+    "hasKA": false
+  },
+  "jimmy-harrell": {
+    "name": "Jimmy Harrell",
+    "hasKA": false
+  },
+  "joe-kelso": {
+    "name": "Joe Kelso",
+    "hasKA": false
+  },
+  "john-africa": {
+    "name": "John Africa (Vincent Leaphart)",
+    "hasKA": false
+  },
+  "john-anjain": {
+    "name": "John Anjain",
+    "hasKA": false
+  },
+  "john-carreyrou": {
+    "name": "John Carreyrou",
+    "hasKA": false
+  },
+  "john-charles-cutler": {
+    "name": "Dr. John Charles Cutler",
+    "hasKA": false
+  },
+  "john-chivington": {
+    "name": "John Chivington",
+    "hasKA": false
+  },
+  "john-collier": {
+    "name": "John Collier",
+    "hasKA": false
+  },
+  "john-connally": {
+    "name": "John Connally",
+    "hasKA": false
+  },
+  "john-danforth": {
+    "name": "John Danforth",
+    "hasKA": false
+  },
+  "john-dodson": {
+    "name": "John Dodson",
+    "hasKA": false
+  },
+  "john-glenn": {
+    "name": "John Glenn",
+    "hasKA": false
+  },
+  "john-gustafson": {
+    "name": "Chief John Gustafson",
+    "hasKA": false
+  },
+  "john-hannah": {
+    "name": "John Hannah",
+    "hasKA": false
+  },
+  "john-harvey-kellogg": {
+    "name": "John Harvey Kellogg",
+    "hasKA": false
+  },
+  "john-hull": {
+    "name": "John Hull",
+    "hasKA": false
+  },
+  "john-kerry": {
+    "name": "John Kerry",
+    "hasKA": true
+  },
+  "john-kiriakou": {
+    "name": "John Kiriakou",
+    "hasKA": false
+  },
+  "john-mahoney": {
+    "name": "Dr. John Mahoney",
+    "hasKA": false
+  },
+  "john-paul-stevens": {
+    "name": "John Paul Stevens",
+    "hasKA": false
+  },
+  "john-paul-vann": {
+    "name": "John Paul Vann",
+    "hasKA": false
+  },
+  "john-ray-iii": {
+    "name": "John Ray III",
+    "hasKA": false
+  },
+  "john-schoettler": {
+    "name": "John Schoettler",
+    "hasKA": false
+  },
+  "john-sperling": {
+    "name": "John Sperling",
+    "hasKA": false
+  },
+  "john-t-milner": {
+    "name": "John T. Milner",
+    "hasKA": false
+  },
+  "jose-napoleon-duarte": {
+    "name": "José Napoleón Duarte",
+    "hasKA": false
+  },
+  "jose-ramos-horta": {
+    "name": "José Ramos-Horta",
+    "hasKA": false
+  },
+  "joseph-bankman": {
+    "name": "Joseph Bankman",
+    "hasKA": false
+  },
+  "joseph-e-brown": {
+    "name": "Joseph E. Brown",
+    "hasKA": false
+  },
+  "joseph-kennedy-ii": {
+    "name": "Joseph Kennedy II",
+    "hasKA": false
+  },
+  "joseph-mccarthy": {
+    "name": "Joseph McCarthy",
+    "hasKA": false
+  },
+  "joseph-metcalf": {
+    "name": "Admiral Joseph Metcalf III",
+    "hasKA": false
+  },
+  "joseph-rivers": {
+    "name": "Joseph Rivers",
+    "hasKA": false
+  },
+  "joseph-weekley": {
+    "name": "Joseph Weekley",
+    "hasKA": false
+  },
+  "joseph-welch": {
+    "name": "Joseph Welch",
+    "hasKA": false
+  },
+  "joshua-jaynes": {
+    "name": "Joshua Jaynes",
+    "hasKA": false
+  },
+  "juan-funes": {
+    "name": "Dr. Juan Funes",
+    "hasKA": false
+  },
+  "juan-mendez": {
+    "name": "Juan M\\u00E9ndez",
+    "hasKA": false
+  },
+  "juana-majel-dixon": {
+    "name": "Juana Majel-Dixon",
+    "hasKA": false
+  },
+  "judith-miller": {
+    "name": "Judith Miller",
+    "hasKA": false
+  },
+  "julia-tutwiler": {
+    "name": "Julia Tutwiler",
+    "hasKA": false
+  },
+  "julius-rosenberg": {
+    "name": "Julius Rosenberg",
+    "hasKA": false
+  },
+  "jurgen-mossack": {
+    "name": "Jürgen Mossack",
+    "hasKA": false
+  },
+  "juvenal-habyarimana": {
+    "name": "Juvénal Habyarimana",
+    "hasKA": false
+  },
+  "jw-milam": {
+    "name": "J.W. Milam",
+    "hasKA": false
+  },
+  "k-barton-osborn": {
+    "name": "K. Barton Osborn",
+    "hasKA": false
+  },
+  "kalief-browder": {
+    "name": "Kalief Browder",
+    "hasKA": false
+  },
+  "karen-ignagni": {
+    "name": "Karen Ignagni",
+    "hasKA": false
+  },
+  "karen-lynch": {
+    "name": "Karen Lynch",
+    "hasKA": false
+  },
+  "karl-uecker": {
+    "name": "Karl Uecker",
+    "hasKA": false
+  },
+  "katharine-graham": {
+    "name": "Katharine Graham",
+    "hasKA": false
+  },
+  "kathryn-barger": {
+    "name": "Kathryn Barger",
+    "hasKA": false
+  },
+  "katricia-africa": {
+    "name": "Katricia Dotson Africa",
+    "hasKA": false
+  },
+  "keeanga-yamahtta-taylor": {
+    "name": "Keeanga-Yamahtta Taylor",
+    "hasKA": false
+  },
+  "kelcy-warren": {
+    "name": "Kelcy Warren",
+    "hasKA": false
+  },
+  "ken-salazar": {
+    "name": "Ken Salazar",
+    "hasKA": false
+  },
+  "kenneth-fadeley": {
+    "name": "Kenneth Fadeley",
+    "hasKA": false
+  },
+  "kenneth-melson": {
+    "name": "Kenneth Melson",
+    "hasKA": false
+  },
+  "kenneth-walker": {
+    "name": "Kenneth Walker",
+    "hasKA": false
+  },
+  "kevin-harris": {
+    "name": "Kevin Harris",
+    "hasKA": false
+  },
+  "kevin-mcaleenan": {
+    "name": "Kevin McAleenan",
+    "hasKA": false
+  },
+  "khalid-taha": {
+    "name": "Khalid Taha",
+    "hasKA": false
+  },
+  "khalifa-haftar": {
+    "name": "Khalifa Haftar",
+    "hasKA": false
+  },
+  "khalil-islam": {
+    "name": "Khalil Islam (Thomas 15X Johnson)",
+    "hasKA": false
+  },
+  "kirk-bloodsworth": {
+    "name": "Kirk Bloodsworth",
+    "hasKA": false
+  },
+  "kit-carson": {
+    "name": "Kit Carson",
+    "hasKA": false
+  },
+  "kofi-annan": {
+    "name": "Kofi Annan",
+    "hasKA": false
+  },
+  "kristian-lum": {
+    "name": "Kristian Lum",
+    "hasKA": false
+  },
+  "kurt-blome": {
+    "name": "Kurt Blome",
+    "hasKA": false
+  },
+  "kurt-mix": {
+    "name": "Kurt Mix",
+    "hasKA": false
+  },
+  "kyle-kirchmeier": {
+    "name": "Morton County Sheriff (Kyle Kirchmeier)",
+    "hasKA": false
+  },
+  "kyle-thompson": {
+    "name": "Kyle Thompson",
+    "hasKA": false
+  },
+  "l-paul-bremer": {
+    "name": "L. Paul Bremer",
+    "hasKA": false
+  },
+  "ladonna-brave-bull-allard": {
+    "name": "LaDonna Brave Bull Allard",
+    "hasKA": false
+  },
+  "lanny-breuer": {
+    "name": "Lanny Breuer",
+    "hasKA": false
+  },
+  "larry-potts": {
+    "name": "Larry Potts",
+    "hasKA": false
+  },
+  "laurence-teeter": {
+    "name": "Laurence Teeter",
+    "hasKA": false
+  },
+  "lee-atwater": {
+    "name": "Lee Atwater",
+    "hasKA": false
+  },
+  "lee-hamilton": {
+    "name": "Lee Hamilton",
+    "hasKA": false
+  },
+  "lee-harvey-oswald": {
+    "name": "Lee Harvey Oswald",
+    "hasKA": false
+  },
+  "lee-iacocca": {
+    "name": "Lee Iacocca",
+    "hasKA": false
+  },
+  "lee-raymond": {
+    "name": "Lee Raymond",
+    "hasKA": false
+  },
+  "leeanne-walters": {
+    "name": "LeeAnne Walters",
+    "hasKA": false
+  },
+  "leonidas-dyer": {
+    "name": "Leonidas Dyer",
+    "hasKA": false
+  },
+  "leopoldo-galtieri": {
+    "name": "Leopoldo Galtieri",
+    "hasKA": false
+  },
+  "les-aspin": {
+    "name": "Les Aspin",
+    "hasKA": false
+  },
+  "lessie-randle": {
+    "name": "Lessie Benningfield Randle",
+    "hasKA": false
+  },
+  "lewis-strauss": {
+    "name": "Lewis Strauss",
+    "hasKA": false
+  },
+  "licio-gelli": {
+    "name": "Licio Gelli",
+    "hasKA": false
+  },
+  "lisa-brunner": {
+    "name": "Lisa Brunner",
+    "hasKA": false
+  },
+  "lisa-nelson": {
+    "name": "Lisa Nelson",
+    "hasKA": false
+  },
+  "liz-fowler": {
+    "name": "Liz Fowler",
+    "hasKA": false
+  },
+  "lloyd-jowers": {
+    "name": "Lloyd Jowers",
+    "hasKA": false
+  },
+  "lon-horiuchi": {
+    "name": "Lon Horiuchi",
+    "hasKA": false
+  },
+  "lon-nol": {
+    "name": "Lon Nol",
+    "hasKA": false
+  },
+  "lou-pai": {
+    "name": "Lou Pai",
+    "hasKA": false
+  },
+  "louis-farrakhan": {
+    "name": "Louis Farrakhan",
+    "hasKA": false
+  },
+  "lyman-lemnitzer": {
+    "name": "Lyman Lemnitzer",
+    "hasKA": false
+  },
+  "lyndon-johnson": {
+    "name": "Lyndon B. Johnson",
+    "hasKA": false
+  },
+  "lynn-fitch": {
+    "name": "Lynn Fitch",
+    "hasKA": false
+  },
+  "lynndie-england": {
+    "name": "Lynndie England",
+    "hasKA": false
+  },
+  "mahendra-amin": {
+    "name": "Mahendra Amin",
+    "hasKA": false
+  },
+  "malcolm-x": {
+    "name": "Malcolm X (El-Hajj Malik El-Shabazz)",
+    "hasKA": true
+  },
+  "mamie-till-mobley": {
+    "name": "Mamie Till-Mobley",
+    "hasKA": false
+  },
+  "mandrel-stuart": {
+    "name": "Mandrel Stuart",
+    "hasKA": false
+  },
+  "marc-cisneros": {
+    "name": "General Marc Cisneros",
+    "hasKA": false
+  },
+  "marc-edwards": {
+    "name": "Marc Edwards",
+    "hasKA": false
+  },
+  "marc-short": {
+    "name": "Marc Short",
+    "hasKA": false
+  },
+  "marcus-agius": {
+    "name": "Marcus Agius",
+    "hasKA": false
+  },
+  "margaret-chase-smith": {
+    "name": "Margaret Chase Smith",
+    "hasKA": false
+  },
+  "margaret-sanger": {
+    "name": "Margaret Sanger",
+    "hasKA": false
+  },
+  "marjorie-dannenfelser": {
+    "name": "Marjorie Dannenfelser",
+    "hasKA": false
+  },
+  "mark-brnovich": {
+    "name": "Mark Brnovich",
+    "hasKA": false
+  },
+  "mark-clark": {
+    "name": "Mark Clark",
+    "hasKA": false
+  },
+  "mark-lane": {
+    "name": "Mark Lane",
+    "hasKA": false
+  },
+  "mark-madoff": {
+    "name": "Mark Madoff",
+    "hasKA": false
+  },
+  "marshall-green": {
+    "name": "Marshall Green",
+    "hasKA": false
+  },
+  "martin-tabert": {
+    "name": "Martin Tabert",
+    "hasKA": false
+  },
+  "martin-wheatley": {
+    "name": "Martin Wheatley",
+    "hasKA": false
+  },
+  "mary-alice-relf": {
+    "name": "Mary Alice Relf",
+    "hasKA": false
+  },
+  "mary-kathryn-nagle": {
+    "name": "Mary Kathryn Nagle",
+    "hasKA": false
+  },
+  "mary-turner": {
+    "name": "Mary Turner",
+    "hasKA": false
+  },
+  "matthias-mueller": {
+    "name": "Matthias Müller",
+    "hasKA": false
+  },
+  "maude-devictor": {
+    "name": "Maude DeVictor",
+    "hasKA": false
+  },
+  "maura-healey": {
+    "name": "Maura Healey",
+    "hasKA": false
+  },
+  "maurice-bishop": {
+    "name": "Maurice Bishop",
+    "hasKA": false
+  },
+  "mauricio-rodriguez-sanchez": {
+    "name": "Mauricio Rodríguez Sánchez",
+    "hasKA": false
+  },
+  "max-baucus": {
+    "name": "Max Baucus",
+    "hasKA": false
+  },
+  "maxwell-thurman": {
+    "name": "General Maxwell Thurman",
+    "hasKA": false
+  },
+  "mcgeorge-bundy": {
+    "name": "McGeorge Bundy",
+    "hasKA": false
+  },
+  "medgar-evers": {
+    "name": "Medgar Evers",
+    "hasKA": false
+  },
+  "mervyn-king": {
+    "name": "Mervyn King",
+    "hasKA": false
+  },
+  "michael-friedman": {
+    "name": "Michael Friedman",
+    "hasKA": false
+  },
+  "michael-oliver": {
+    "name": "Michael Oliver",
+    "hasKA": false
+  },
+  "michael-powell": {
+    "name": "Michael D. Powell",
+    "hasKA": false
+  },
+  "michael-regan": {
+    "name": "Michael Regan",
+    "hasKA": false
+  },
+  "michael-townley": {
+    "name": "Michael Townley",
+    "hasKA": false
+  },
+  "michel-martelly": {
+    "name": "Michel Martelly",
+    "hasKA": false
+  },
+  "miguel-cardona": {
+    "name": "Miguel Cardona",
+    "hasKA": false
+  },
+  "mike-moore": {
+    "name": "Mike Moore",
+    "hasKA": false
+  },
+  "mike-williams": {
+    "name": "Mike Williams",
+    "hasKA": false
+  },
+  "minnie-lee-relf": {
+    "name": "Minnie Lee Relf",
+    "hasKA": false
+  },
+  "mohamed-farrah-aidid": {
+    "name": "Mohamed Farrah Aidid",
+    "hasKA": false
+  },
+  "mona-hanna-attisha": {
+    "name": "Mona Hanna-Attisha",
+    "hasKA": false
+  },
+  "moses-wright": {
+    "name": "Moses Wright",
+    "hasKA": false
+  },
+  "muammar-gaddafi": {
+    "name": "Muammar Gaddafi",
+    "hasKA": false
+  },
+  "muhammad-abdul-aziz": {
+    "name": "Muhammad Abdul Aziz (Norman 3X Butler)",
+    "hasKA": false
+  },
+  "mujahid-abdul-halim": {
+    "name": "Mujahid Abdul Halim (Talmadge Hayer)",
+    "hasKA": false
+  },
+  "naomi-oreskes": {
+    "name": "Naomi Oreskes",
+    "hasKA": false
+  },
+  "nathan-bedford-forrest": {
+    "name": "Nathan Bedford Forrest",
+    "hasKA": false
+  },
+  "nathan-wessler": {
+    "name": "Nathan Wessler",
+    "hasKA": false
+  },
+  "nawar-al-awlaki": {
+    "name": "Nawar al-Awlaki",
+    "hasKA": false
+  },
+  "nawaz-sharif": {
+    "name": "Nawaz Sharif",
+    "hasKA": false
+  },
+  "neil-bush": {
+    "name": "Neil Bush",
+    "hasKA": false
+  },
+  "neil-sheehan": {
+    "name": "Neil Sheehan",
+    "hasKA": false
+  },
+  "nelson-brickham": {
+    "name": "Nelson Brickham",
+    "hasKA": false
+  },
+  "nelson-mandela": {
+    "name": "Nelson Mandela",
+    "hasKA": false
+  },
+  "nematollah-nassiri": {
+    "name": "Nematollah Nassiri",
+    "hasKA": false
+  },
+  "nguyen-viet-nhan": {
+    "name": "Nguyen Viet Nhan",
+    "hasKA": false
+  },
+  "nicolas-sarkozy": {
+    "name": "Nicolas Sarkozy",
+    "hasKA": false
+  },
+  "nicole-smith-holt": {
+    "name": "Nicole Smith-Holt",
+    "hasKA": false
+  },
+  "nijeer-parks": {
+    "name": "Nijeer Parks",
+    "hasKA": false
+  },
+  "nishad-singh": {
+    "name": "Nishad Singh",
+    "hasKA": false
+  },
+  "norman-schwarzkopf": {
+    "name": "General Norman Schwarzkopf",
+    "hasKA": false
+  },
+  "norodom-sihanouk": {
+    "name": "Prince Norodom Sihanouk",
+    "hasKA": false
+  },
+  "oliver-schmidt": {
+    "name": "Oliver Schmidt",
+    "hasKA": false
+  },
+  "oliver-wendell-holmes": {
+    "name": "Oliver Wendell Holmes Jr.",
+    "hasKA": false
+  },
+  "orlando-letelier": {
+    "name": "Orlando Letelier",
+    "hasKA": false
+  },
+  "orval-faubus": {
+    "name": "Orval Faubus",
+    "hasKA": false
+  },
+  "orville-kelly": {
+    "name": "Orville Kelly",
+    "hasKA": false
+  },
+  "oscar-danilo-blandon": {
+    "name": "Oscar Danilo Bland\\u00F3n",
+    "hasKA": false
+  },
+  "oscar-romero": {
+    "name": "Óscar Romero",
+    "hasKA": false
+  },
+  "otto-perez-molina": {
+    "name": "Otto Pérez Molina",
+    "hasKA": false
+  },
+  "pamela-foster": {
+    "name": "Pamela Foster",
+    "hasKA": false
+  },
+  "paul-goldenheim": {
+    "name": "Paul Goldenheim",
+    "hasKA": false
+  },
+  "paul-kagame": {
+    "name": "Paul Kagame",
+    "hasKA": false
+  },
+  "paul-popenoe": {
+    "name": "Paul Popenoe",
+    "hasKA": false
+  },
+  "paul-schrade": {
+    "name": "Paul Schrade",
+    "hasKA": false
+  },
+  "paul-tucker": {
+    "name": "Paul Tucker",
+    "hasKA": false
+  },
+  "paul-weyrich": {
+    "name": "Paul Weyrich",
+    "hasKA": false
+  },
+  "pelican-bay-prisoners": {
+    "name": "Pelican Bay Prisoners",
+    "hasKA": false
+  },
+  "pete-arredondo": {
+    "name": "Pete Arredondo",
+    "hasKA": false
+  },
+  "peter-madoff": {
+    "name": "Peter Madoff",
+    "hasKA": false
+  },
+  "peter-neufeld": {
+    "name": "Peter Neufeld",
+    "hasKA": false
+  },
+  "petro-poroshenko": {
+    "name": "Petro Poroshenko",
+    "hasKA": false
+  },
+  "phil-berger": {
+    "name": "Phil Berger",
+    "hasKA": false
+  },
+  "phil-bryant": {
+    "name": "Phil Bryant",
+    "hasKA": false
+  },
+  "philip-sheridan": {
+    "name": "Philip Sheridan",
+    "hasKA": false
+  },
+  "philippe-moryoussef": {
+    "name": "Philippe Moryoussef",
+    "hasKA": false
+  },
+  "pol-pot": {
+    "name": "Pol Pot",
+    "hasKA": false
+  },
+  "porcha-woodruff": {
+    "name": "Porcha Woodruff",
+    "hasKA": false
+  },
+  "prudence-bushnell": {
+    "name": "Prudence Bushnell",
+    "hasKA": false
+  },
+  "pw-botha": {
+    "name": "P.W. Botha",
+    "hasKA": false
+  },
+  "ralph-abernathy": {
+    "name": "Ralph Abernathy",
+    "hasKA": false
+  },
+  "ramon-fonseca": {
+    "name": "Ramón Fonseca",
+    "hasKA": false
+  },
+  "ramona-africa": {
+    "name": "Ramona Africa",
+    "hasKA": false
+  },
+  "randall-robinson": {
+    "name": "Randall Robinson",
+    "hasKA": false
+  },
+  "randy-weaver": {
+    "name": "Randy Weaver",
+    "hasKA": false
+  },
+  "rashida-richardson": {
+    "name": "Rashida Richardson",
+    "hasKA": false
+  },
+  "ray-sitton": {
+    "name": "Ray Sitton",
+    "hasKA": false
+  },
+  "ray-wood": {
+    "name": "Ray Wood",
+    "hasKA": false
+  },
+  "raymond-bonner": {
+    "name": "Raymond Bonner",
+    "hasKA": false
+  },
+  "rc-arnold": {
+    "name": "Dr. R.C. Arnold",
+    "hasKA": false
+  },
+  "rebecca-mark": {
+    "name": "Rebecca Mark",
+    "hasKA": false
+  },
+  "red-fawn-fallis": {
+    "name": "Red Fawn Fallis",
+    "hasKA": false
+  },
+  "reinhard-gehlen": {
+    "name": "Reinhard Gehlen",
+    "hasKA": false
+  },
+  "rene-schneider": {
+    "name": "René Schneider",
+    "hasKA": false
+  },
+  "ricardo-sanchez": {
+    "name": "Lt. Gen. Ricardo Sanchez",
+    "hasKA": false
+  },
+  "richard-cordray": {
+    "name": "Richard Cordray",
+    "hasKA": false
+  },
+  "richard-dorenkamp": {
+    "name": "Richard Dorenkamp",
+    "hasKA": false
+  },
+  "richard-henry-pratt": {
+    "name": "Richard Henry Pratt",
+    "hasKA": false
+  },
+  "richard-rogers": {
+    "name": "Richard Rogers",
+    "hasKA": false
+  },
+  "richard-rothstein": {
+    "name": "Richard Rothstein",
+    "hasKA": false
+  },
+  "richard-schwartz": {
+    "name": "Richard Schwartz",
+    "hasKA": false
+  },
+  "richard-secord": {
+    "name": "Richard Secord",
+    "hasKA": false
+  },
+  "rick-dearborn": {
+    "name": "Rick Dearborn",
+    "hasKA": false
+  },
+  "rigoberta-menchu": {
+    "name": "Rigoberta Menchú",
+    "hasKA": false
+  },
+  "rj-lehmann": {
+    "name": "R.J. Lehmann",
+    "hasKA": false
+  },
+  "rob-bilott": {
+    "name": "Rob Bilott",
+    "hasKA": false
+  },
+  "robert-bilott": {
+    "name": "Robert Bilott",
+    "hasKA": false
+  },
+  "robert-crants": {
+    "name": "Robert Crants",
+    "hasKA": false
+  },
+  "robert-dudley": {
+    "name": "Robert Dudley",
+    "hasKA": false
+  },
+  "robert-gates": {
+    "name": "Robert Gates",
+    "hasKA": false
+  },
+  "robert-houghton": {
+    "name": "Robert Houghton",
+    "hasKA": false
+  },
+  "robert-hugin": {
+    "name": "Robert Hugin",
+    "hasKA": false
+  },
+  "robert-kaluza": {
+    "name": "Robert Kaluza",
+    "hasKA": false
+  },
+  "robert-kehoe": {
+    "name": "Robert Kehoe",
+    "hasKA": false
+  },
+  "robert-king": {
+    "name": "Robert King",
+    "hasKA": false
+  },
+  "robert-komer": {
+    "name": "Robert Komer",
+    "hasKA": false
+  },
+  "robert-martens": {
+    "name": "Robert J. Martens",
+    "hasKA": false
+  },
+  "robert-mcfarlane": {
+    "name": "Robert McFarlane",
+    "hasKA": false
+  },
+  "robert-moses": {
+    "name": "Robert Moses",
+    "hasKA": false
+  },
+  "robert-scherrer": {
+    "name": "Robert Scherrer",
+    "hasKA": false
+  },
+  "robert-taft": {
+    "name": "Robert Taft",
+    "hasKA": false
+  },
+  "robert-taylor": {
+    "name": "Robert Taylor",
+    "hasKA": false
+  },
+  "robert-weaver": {
+    "name": "Robert Weaver",
+    "hasKA": false
+  },
+  "robert-williams": {
+    "name": "Robert Williams",
+    "hasKA": false
+  },
+  "roberta-kaplan": {
+    "name": "Roberta Kaplan",
+    "hasKA": false
+  },
+  "roberto-daubuisson": {
+    "name": "Roberto D\\",
+    "hasKA": false
+  },
+  "robin-arkley-ii": {
+    "name": "Robin Arkley II",
+    "hasKA": false
+  },
+  "robin-vos": {
+    "name": "Robin Vos",
+    "hasKA": false
+  },
+  "roger-noriega": {
+    "name": "Roger Noriega",
+    "hasKA": false
+  },
+  "roger-severino": {
+    "name": "Roger Severino",
+    "hasKA": false
+  },
+  "romeo-dallaire": {
+    "name": "Roméo Dallaire",
+    "hasKA": false
+  },
+  "ron-wyden": {
+    "name": "Senator Ron Wyden",
+    "hasKA": false
+  },
+  "roy-bourgeois": {
+    "name": "Roy Bourgeois",
+    "hasKA": false
+  },
+  "roy-bryant": {
+    "name": "Roy Bryant",
+    "hasKA": false
+  },
+  "roy-cohn": {
+    "name": "Roy Cohn",
+    "hasKA": true
+  },
+  "roy-mitchell": {
+    "name": "Roy Martin Mitchell",
+    "hasKA": false
+  },
+  "rufina-amaya": {
+    "name": "Rufina Amaya",
+    "hasKA": false
+  },
+  "russell-pearce": {
+    "name": "Russell Pearce",
+    "hasKA": false
+  },
+  "russell-portenoy": {
+    "name": "Russell Portenoy",
+    "hasKA": false
+  },
+  "ruth-bader-ginsburg": {
+    "name": "Ruth Bader Ginsburg",
+    "hasKA": false
+  },
+  "ruth-madoff": {
+    "name": "Ruth Madoff",
+    "hasKA": false
+  },
+  "ruth-riddle": {
+    "name": "Ruth Riddle",
+    "hasKA": false
+  },
+  "ryan-crocker": {
+    "name": "Ryan Crocker",
+    "hasKA": false
+  },
+  "ryan-salame": {
+    "name": "Ryan Salame",
+    "hasKA": false
+  },
+  "sam-walton": {
+    "name": "Sam Walton",
+    "hasKA": false
+  },
+  "sam-zemurray": {
+    "name": "Sam Zemurray",
+    "hasKA": false
+  },
+  "samuel-koster": {
+    "name": "Samuel Koster",
+    "hasKA": false
+  },
+  "samuel-weaver": {
+    "name": "Samuel Weaver",
+    "hasKA": false
+  },
+  "sandra-bland": {
+    "name": "Sandra Bland",
+    "hasKA": false
+  },
+  "sarah-page": {
+    "name": "Sarah Page",
+    "hasKA": false
+  },
+  "sarwo-edhie-wibowo": {
+    "name": "Sarwo Edhie Wibowo",
+    "hasKA": false
+  },
+  "savanna-lafontaine-greywind": {
+    "name": "Savanna LaFontaine-Greywind",
+    "hasKA": false
+  },
+  "scott-ellsworth": {
+    "name": "Scott Ellsworth",
+    "hasKA": false
+  },
+  "scott-lloyd": {
+    "name": "Scott Lloyd",
+    "hasKA": false
+  },
+  "scott-walker": {
+    "name": "Scott Walker",
+    "hasKA": false
+  },
+  "seymour-hersh": {
+    "name": "Seymour Hersh",
+    "hasKA": false
+  },
+  "sheldon-whitehouse": {
+    "name": "Sheldon Whitehouse",
+    "hasKA": false
+  },
+  "shelley-family": {
+    "name": "Shelley v. Kraemer Plaintiffs",
+    "hasKA": false
+  },
+  "sherrilyn-ifill": {
+    "name": "Sherrilyn Ifill",
+    "hasKA": false
+  },
+  "sherron-watkins": {
+    "name": "Sherron Watkins",
+    "hasKA": false
+  },
+  "sigmundur-gunnlaugsson": {
+    "name": "Sigmundur Davíð Gunnlaugsson",
+    "hasKA": false
+  },
+  "sirhan-sirhan": {
+    "name": "Sirhan Bishara Sirhan",
+    "hasKA": false
+  },
+  "smedley-butler": {
+    "name": "Smedley Butler",
+    "hasKA": false
+  },
+  "stafford-warren": {
+    "name": "Stafford Warren",
+    "hasKA": false
+  },
+  "stanley-mcchrystal": {
+    "name": "Stanley McChrystal",
+    "hasKA": false
+  },
+  "stefano-delle-chiaie": {
+    "name": "Stefano Delle Chiaie",
+    "hasKA": false
+  },
+  "stephen-hemsley": {
+    "name": "Stephen Hemsley",
+    "hasKA": false
+  },
+  "stephen-townsend": {
+    "name": "General Stephen Townsend",
+    "hasKA": false
+  },
+  "stephen-ubl": {
+    "name": "Stephen Ubl",
+    "hasKA": false
+  },
+  "stewart-udall": {
+    "name": "Stewart Udall",
+    "hasKA": false
+  },
+  "stuart-appelbaum": {
+    "name": "Stuart Appelbaum",
+    "hasKA": false
+  },
+  "stuart-johnson": {
+    "name": "Stuart Johnson",
+    "hasKA": false
+  },
+  "stuart-symington": {
+    "name": "Stuart Symington",
+    "hasKA": false
+  },
+  "suharto": {
+    "name": "Suharto",
+    "hasKA": false
+  },
+  "sukarno": {
+    "name": "Sukarno",
+    "hasKA": false
+  },
+  "susan-reverby": {
+    "name": "Susan Reverby",
+    "hasKA": false
+  },
+  "susan-rice": {
+    "name": "Susan Rice",
+    "hasKA": false
+  },
+  "suzanne-scott": {
+    "name": "Suzanne Scott",
+    "hasKA": false
+  },
+  "tamika-palmer": {
+    "name": "Tamika Palmer",
+    "hasKA": false
+  },
+  "tamir-rice": {
+    "name": "Tamir Rice",
+    "hasKA": false
+  },
+  "tarla-makaeff": {
+    "name": "Tarla Makaeff",
+    "hasKA": false
+  },
+  "ted-henifin": {
+    "name": "Ted Henifin",
+    "hasKA": false
+  },
+  "ted-shackley": {
+    "name": "Ted Shackley",
+    "hasKA": false
+  },
+  "terrell-don-hutto": {
+    "name": "Terrell Don Hutto",
+    "hasKA": false
+  },
+  "terry-dehko": {
+    "name": "Terry Dehko",
+    "hasKA": false
+  },
+  "terry-farr": {
+    "name": "Terry Farr",
+    "hasKA": false
+  },
+  "thad-allen": {
+    "name": "Thad Allen",
+    "hasKA": false
+  },
+  "thane-cesar": {
+    "name": "Thane Eugene Cesar",
+    "hasKA": false
+  },
+  "theodore-bilbo": {
+    "name": "Theodore Bilbo",
+    "hasKA": false
+  },
+  "theoneste-bagosora": {
+    "name": "Théoneste Bagosora",
+    "hasKA": false
+  },
+  "thomas-beasley": {
+    "name": "Thomas Beasley",
+    "hasKA": false
+  },
+  "thomas-curry": {
+    "name": "Thomas Curry",
+    "hasKA": false
+  },
+  "thomas-dobbs": {
+    "name": "Thomas Dobbs",
+    "hasKA": false
+  },
+  "thomas-drake": {
+    "name": "Thomas Drake",
+    "hasKA": false
+  },
+  "thomas-enders": {
+    "name": "Thomas Enders",
+    "hasKA": false
+  },
+  "thomas-hofeller": {
+    "name": "Thomas Hofeller",
+    "hasKA": false
+  },
+  "thomas-jackson": {
+    "name": "Thomas Jackson",
+    "hasKA": false
+  },
+  "thomas-jefferson": {
+    "name": "Thomas Jefferson",
+    "hasKA": false
+  },
+  "thomas-midgley": {
+    "name": "Thomas Midgley Jr.",
+    "hasKA": false
+  },
+  "thomas-morgan": {
+    "name": "Thomas Morgan",
+    "hasKA": false
+  },
+  "thomas-murray": {
+    "name": "Thomas Murray",
+    "hasKA": false
+  },
+  "thomas-noguchi": {
+    "name": "Thomas Noguchi",
+    "hasKA": false
+  },
+  "thomas-pappas": {
+    "name": "Col. Thomas Pappas",
+    "hasKA": false
+  },
+  "thomas-parran": {
+    "name": "Surgeon General Thomas Parran",
+    "hasKA": false
+  },
+  "thomas-silverstein": {
+    "name": "Thomas Silverstein",
+    "hasKA": false
+  },
+  "thomas-stephens": {
+    "name": "Thomas Stephens",
+    "hasKA": false
+  },
+  "thomas-stroock": {
+    "name": "Thomas Stroock",
+    "hasKA": false
+  },
+  "thomas-waldhauser": {
+    "name": "General Thomas Waldhauser",
+    "hasKA": false
+  },
+  "tim-moore": {
+    "name": "Tim Moore",
+    "hasKA": false
+  },
+  "tim-phillips": {
+    "name": "Tim Phillips",
+    "hasKA": false
+  },
+  "tim-russ": {
+    "name": "Tim Russ",
+    "hasKA": false
+  },
+  "tim-walberg": {
+    "name": "Tim Walberg",
+    "hasKA": false
+  },
+  "timothy-mellon": {
+    "name": "Timothy Mellon",
+    "hasKA": false
+  },
+  "timothy-olson": {
+    "name": "Timothy Olson",
+    "hasKA": false
+  },
+  "timothy-purdon": {
+    "name": "Timothy Purdon",
+    "hasKA": false
+  },
+  "timothy-sloan": {
+    "name": "Timothy Sloan",
+    "hasKA": false
+  },
+  "timothy-tyson": {
+    "name": "Timothy Tyson",
+    "hasKA": false
+  },
+  "tom-harkin": {
+    "name": "Tom Harkin",
+    "hasKA": false
+  },
+  "tom-hayes": {
+    "name": "Tom Hayes",
+    "hasKA": false
+  },
+  "tom-saffer": {
+    "name": "Tom Saffer",
+    "hasKA": false
+  },
+  "ton-that-tung": {
+    "name": "Ton That Tung",
+    "hasKA": false
+  },
+  "tree-africa": {
+    "name": "Tree Africa",
+    "hasKA": false
+  },
+  "tyler-shultz": {
+    "name": "Tyler Shultz",
+    "hasKA": false
+  },
+  "vang-pao": {
+    "name": "Vang Pao",
+    "hasKA": false
+  },
+  "vernon-walters": {
+    "name": "Vernon Walters",
+    "hasKA": false
+  },
+  "vicki-weaver": {
+    "name": "Vicki Weaver",
+    "hasKA": false
+  },
+  "victor-denoble": {
+    "name": "Victor DeNoble",
+    "hasKA": false
+  },
+  "victor-hugo-green": {
+    "name": "The Green Book Publishers",
+    "hasKA": false
+  },
+  "vincenzo-vinciguerra": {
+    "name": "Vincenzo Vinciguerra",
+    "hasKA": false
+  },
+  "viola-fletcher": {
+    "name": "Viola Fletcher",
+    "hasKA": false
+  },
+  "vladimiro-montesinos": {
+    "name": "Vladimiro Montesinos",
+    "hasKA": false
+  },
+  "walter-mcmillian": {
+    "name": "Walter McMillian",
+    "hasKA": false
+  },
+  "walter-schreiber": {
+    "name": "Walter Schreiber",
+    "hasKA": false
+  },
+  "walter-white-naacp": {
+    "name": "Walter White",
+    "hasKA": false
+  },
+  "warren-anderson": {
+    "name": "Warren Anderson",
+    "hasKA": false
+  },
+  "wendell-potter": {
+    "name": "Wendell Potter",
+    "hasKA": false
+  },
+  "wernher-von-braun": {
+    "name": "Wernher von Braun",
+    "hasKA": false
+  },
+  "wesley-lowery": {
+    "name": "Wesley Lowery",
+    "hasKA": false
+  },
+  "wilbur-tennant": {
+    "name": "Wilbur Tennant",
+    "hasKA": false
+  },
+  "william-colby": {
+    "name": "William Colby",
+    "hasKA": false
+  },
+  "william-craig": {
+    "name": "William H. Craig",
+    "hasKA": false
+  },
+  "william-degan": {
+    "name": "William Degan",
+    "hasKA": false
+  },
+  "william-harper": {
+    "name": "William Harper",
+    "hasKA": false
+  },
+  "william-levitt": {
+    "name": "William Levitt",
+    "hasKA": false
+  },
+  "william-lowe": {
+    "name": "William Lowe",
+    "hasKA": false
+  },
+  "william-newell": {
+    "name": "William Newell",
+    "hasKA": false
+  },
+  "william-pepper": {
+    "name": "William Pepper",
+    "hasKA": false
+  },
+  "william-rogers": {
+    "name": "William Rogers",
+    "hasKA": false
+  },
+  "william-sullivan": {
+    "name": "William Sullivan",
+    "hasKA": false
+  },
+  "william-tecumseh-sherman": {
+    "name": "William Tecumseh Sherman",
+    "hasKA": false
+  },
+  "william-westmoreland": {
+    "name": "William Westmoreland",
+    "hasKA": false
+  },
+  "willie-reed": {
+    "name": "Willie Reed",
+    "hasKA": false
+  },
+  "wilson-goode": {
+    "name": "Wilson Goode",
+    "hasKA": false
+  },
+  "winston-churchill": {
+    "name": "Winston Churchill",
+    "hasKA": false
+  },
+  "woodrow-wilson": {
+    "name": "Woodrow Wilson",
+    "hasKA": false
+  },
+  "xanana-gusmao": {
+    "name": "Xanana Gusmão",
+    "hasKA": false
+  },
+  "alan-cranston": {
+    "name": "Alan Cranston",
+    "hasKA": false
+  },
+  "alvaro-colom": {
+    "name": "Álvaro Colom",
+    "hasKA": false
+  },
+  "bethany-mclean": {
+    "name": "Bethany McLean",
+    "hasKA": false
+  },
+  "bob-crowley": {
+    "name": "Bob Crowley",
+    "hasKA": false
+  },
+  "bounkham-phonesavanh": {
+    "name": "Bounkham Phonesavanh",
+    "hasKA": false
+  },
+  "carrie-tolstedt": {
+    "name": "Carrie Tolstedt",
+    "hasKA": false
+  },
+  "cathy-oneil": {
+    "name": "Cathy O\\",
+    "hasKA": false
+  },
+  "chester-crocker": {
+    "name": "Chester Crocker",
+    "hasKA": false
+  },
+  "damian-williams": {
+    "name": "Damian Williams",
+    "hasKA": false
+  },
+  "dave-clark": {
+    "name": "Dave Clark",
+    "hasKA": false
+  },
+  "dave-grossman": {
+    "name": "Dave Grossman",
+    "hasKA": false
+  },
+  "david-niekerk": {
+    "name": "David Niekerk",
+    "hasKA": false
+  },
+  "dick-carpenter": {
+    "name": "Dick Carpenter",
+    "hasKA": false
+  },
+  "dillon-s-myer": {
+    "name": "Dillon S. Myer",
+    "hasKA": false
+  },
+  "donald-wilber": {
+    "name": "Donald Wilber",
+    "hasKA": false
+  },
+  "douglas-lute": {
+    "name": "Douglas Lute",
+    "hasKA": false
+  },
+  "e-howard-hunt": {
+    "name": "E. Howard Hunt",
+    "hasKA": false
+  },
+  "edmund-richardson": {
+    "name": "Edmund Richardson",
+    "hasKA": false
+  },
+  "edward-korry": {
+    "name": "Edward Korry",
+    "hasKA": false
+  },
+  "edwin-meese": {
+    "name": "Edwin Meese",
+    "hasKA": false
+  },
+  "ernest-medina": {
+    "name": "Ernest Medina",
+    "hasKA": false
+  },
+  "eugenia-charles": {
+    "name": "Eugenia Charles",
+    "hasKA": false
+  },
+  "fazlollah-zahedi": {
+    "name": "Fazlollah Zahedi",
+    "hasKA": false
+  },
+  "francis-biddle": {
+    "name": "Francis Biddle",
+    "hasKA": false
+  },
+  "francois-duvalier": {
+    "name": "François Duvalier",
+    "hasKA": false
+  },
+  "freeway-ricky-ross": {
+    "name": "Freeway Ricky Ross",
+    "hasKA": false
+  },
+  "g-gordon-liddy": {
+    "name": "G. Gordon Liddy",
+    "hasKA": false
+  },
+  "gary-sick": {
+    "name": "Gary Sick",
+    "hasKA": false
+  },
+  "geoffrey-miller": {
+    "name": "Geoffrey Miller",
+    "hasKA": false
+  },
+  "george-w-cable": {
+    "name": "George Washington Cable",
+    "hasKA": false
+  },
+  "george-wallace": {
+    "name": "George Wallace",
+    "hasKA": false
+  },
+  "gordon-hirabayashi": {
+    "name": "Gordon Hirabayashi",
+    "hasKA": false
+  },
+  "henry-stimson": {
+    "name": "Henry Stimson",
+    "hasKA": false
+  },
+  "hubertus-strughold": {
+    "name": "Hubertus Strughold",
+    "hasKA": false
+  },
+  "james-bamford": {
+    "name": "James Bamford",
+    "hasKA": false
+  },
+  "james-earl-ray": {
+    "name": "James Earl Ray",
+    "hasKA": false
+  },
+  "jean-claude-duvalier": {
+    "name": "Jean-Claude Duvalier",
+    "hasKA": false
+  },
+  "john-l-dewitt": {
+    "name": "John L. DeWitt",
+    "hasKA": false
+  },
+  "john-oliver": {
+    "name": "John Oliver",
+    "hasKA": false
+  },
+  "john-sopko": {
+    "name": "John Sopko",
+    "hasKA": false
+  },
+  "joy-buolamwini": {
+    "name": "Joy Buolamwini",
+    "hasKA": false
+  },
+  "karl-bendetsen": {
+    "name": "Karl Bendetsen",
+    "hasKA": false
+  },
+  "laura-poitras": {
+    "name": "Laura Poitras",
+    "hasKA": false
+  },
+  "leon-panetta": {
+    "name": "Leon Panetta",
+    "hasKA": false
+  },
+  "mark-hyman": {
+    "name": "Mark Hyman",
+    "hasKA": false
+  },
+  "mark-ruffalo": {
+    "name": "Mark Ruffalo",
+    "hasKA": false
+  },
+  "matthew-albence": {
+    "name": "Matthew Albence",
+    "hasKA": false
+  },
+  "michelle-alexander": {
+    "name": "Michelle Alexander",
+    "hasKA": false
+  },
+  "mike-masaoka": {
+    "name": "Mike Masaoka",
+    "hasKA": false
+  },
+  "minoru-yasui": {
+    "name": "Minoru Yasui",
+    "hasKA": false
+  },
+  "norman-mineta": {
+    "name": "Norman Mineta",
+    "hasKA": false
+  },
+  "norwin-meneses": {
+    "name": "Norwin Meneses",
+    "hasKA": false
+  },
+  "radley-balko": {
+    "name": "Radley Balko",
+    "hasKA": false
+  },
+  "richard-fink": {
+    "name": "Richard Fink",
+    "hasKA": false
+  },
+  "robert-mckee": {
+    "name": "Robert McKee",
+    "hasKA": false
+  },
+  "ron-watkins": {
+    "name": "Ron Watkins",
+    "hasKA": false
+  },
+  "ruha-benjamin": {
+    "name": "Ruha Benjamin",
+    "hasKA": false
+  },
+  "samantha-power": {
+    "name": "Samantha Power",
+    "hasKA": false
+  },
+  "sandra-day-oconnor": {
+    "name": "Sandra Day O\\",
+    "hasKA": false
+  },
+  "sandra-serrano": {
+    "name": "Sandra Serrano",
+    "hasKA": false
+  },
+  "scott-fitzgerald": {
+    "name": "Scott Fitzgerald",
+    "hasKA": false
+  },
+  "scott-livingston": {
+    "name": "Scott Livingston",
+    "hasKA": false
+  },
+  "sergio-arellano-stark": {
+    "name": "Sergio Arellano Stark",
+    "hasKA": false
+  },
+  "sister-helen-prejean": {
+    "name": "Sister Helen Prejean",
+    "hasKA": false
+  },
+  "stephen-cambone": {
+    "name": "Stephen Cambone",
+    "hasKA": false
+  },
+  "sunny-balwani": {
+    "name": "Sunny Balwani",
+    "hasKA": false
+  },
+  "susan-collins": {
+    "name": "Susan Collins",
+    "hasKA": false
+  },
+  "theodore-roosevelt": {
+    "name": "Theodore Roosevelt",
+    "hasKA": false
+  },
+  "thomas-corcoran": {
+    "name": "Thomas Corcoran",
+    "hasKA": false
+  },
+  "tim-geithner": {
+    "name": "Tim Geithner",
+    "hasKA": false
+  },
+  "ulysses-s-grant": {
+    "name": "Ulysses S. Grant",
+    "hasKA": false
+  },
+  "warren-christopher": {
+    "name": "Warren Christopher",
+    "hasKA": false
+  },
+  "william-binney": {
+    "name": "William Binney",
+    "hasKA": false
+  },
+  "william-black": {
+    "name": "William Black",
+    "hasKA": false
+  },
+  "william-bratton": {
+    "name": "William Bratton",
+    "hasKA": false
+  },
+  "william-richmond": {
+    "name": "William Richmond",
+    "hasKA": false
+  },
+  "william-shawcross": {
+    "name": "William Shawcross",
+    "hasKA": false
+  },
+  "nasser-al-awlaki": {
+    "name": "Nasser al-Awlaki",
+    "hasKA": false
+  },
+  "robert-rubin": {
+    "name": "Robert Rubin",
+    "hasKA": false
+  },
+  "josef-mengele": {
+    "name": "Josef Mengele",
+    "hasKA": false
+  },
+  "martin-van-buren": {
+    "name": "Martin Van Buren",
+    "hasKA": false
+  },
+  "winfield-scott": {
+    "name": "Winfield Scott",
+    "hasKA": false
+  },
+  "christopher-dodd": {
+    "name": "Christopher Dodd",
+    "hasKA": false
+  },
+  "henry-paulson": {
+    "name": "Henry Paulson",
+    "hasKA": false
+  },
+  "rutherford-b-hayes": {
+    "name": "Rutherford B. Hayes",
+    "hasKA": false
+  },
+  "queen-isabella": {
+    "name": "Queen Isabella I of Castile",
+    "hasKA": false
+  },
+  "bartolome-de-las-casas": {
+    "name": "Bartolomé de las Casas",
+    "hasKA": false
+  },
+  "chris-krebs": {
+    "name": "Chris Krebs",
+    "hasKA": false
+  },
+  "michael-fanone": {
+    "name": "Michael Fanone",
+    "hasKA": false
+  },
+  "sackler-family": {
+    "name": "The Sackler Family",
+    "hasKA": true
+  },
+  "ehud-barak": {
+    "name": "Ehud Barak",
+    "hasKA": true
+  },
+  "george-mitchell": {
+    "name": "George Mitchell",
+    "hasKA": true
+  },
+  "bill-richardson": {
+    "name": "Bill Richardson",
+    "hasKA": true
+  },
+  "william-barr": {
+    "name": "William Pelham Barr",
+    "hasKA": true
+  },
+  "donald-barr": {
+    "name": "Donald Barr",
+    "hasKA": true
+  },
+  "kenneth-starr": {
+    "name": "Kenneth Starr",
+    "hasKA": true
+  },
+  "jay-lefkowitz": {
+    "name": "Jay Lefkowitz",
+    "hasKA": true
+  },
+  "eva-dubin": {
+    "name": "Eva Andersson-Dubin",
+    "hasKA": true
+  },
+  "thomas-pritzker": {
+    "name": "Thomas Pritzker",
+    "hasKA": true
+  },
+  "michael-steinhardt": {
+    "name": "Michael Steinhardt",
+    "hasKA": true
+  },
+  "adriana-ross": {
+    "name": "Adriana Ross",
+    "hasKA": true
+  },
+  "lesley-groff": {
+    "name": "Lesley Groff",
+    "hasKA": true
+  },
+  "haley-robson": {
+    "name": "Haley Robson",
+    "hasKA": true
+  },
+  "emmy-tayler": {
+    "name": "Emmy Tayler",
+    "hasKA": true
+  },
+  "miles-alexander": {
+    "name": "Miles Alexander",
+    "hasKA": true
+  },
+  "cathy-alexander": {
+    "name": "Cathy Alexander",
+    "hasKA": true
+  },
+  "christine-maxwell": {
+    "name": "Christine Maxwell",
+    "hasKA": true
+  },
+  "isabel-maxwell": {
+    "name": "Isabel Maxwell",
+    "hasKA": true
+  },
+  "kevin-maxwell": {
+    "name": "Kevin Maxwell",
+    "hasKA": true
+  },
+  "marvin-minsky": {
+    "name": "Marvin Minsky",
+    "hasKA": true
+  },
+  "lawrence-krauss": {
+    "name": "Lawrence Krauss",
+    "hasKA": true
+  },
+  "joi-ito": {
+    "name": "Joichi Ito",
+    "hasKA": true
+  },
+  "stephen-hawking": {
+    "name": "Stephen Hawking",
+    "hasKA": true
+  },
+  "larry-summers": {
+    "name": "Larry Summers",
+    "hasKA": true
+  },
+  "george-church": {
+    "name": "George Church",
+    "hasKA": true
+  },
+  "martin-nowak": {
+    "name": "Martin Nowak",
+    "hasKA": true
+  },
+  "chris-tucker": {
+    "name": "Chris Tucker",
+    "hasKA": true
+  },
+  "naomi-campbell": {
+    "name": "Naomi Campbell",
+    "hasKA": true
+  },
+  "woody-allen": {
+    "name": "Woody Allen",
+    "hasKA": true
+  },
+  "maria-farmer": {
+    "name": "Maria Farmer",
+    "hasKA": true
+  },
+  "annie-farmer": {
+    "name": "Annie Farmer",
+    "hasKA": true
+  },
+  "courtney-wild": {
+    "name": "Courtney Wild",
+    "hasKA": true
+  },
+  "carolyn-andriano": {
+    "name": "Carolyn Andriano",
+    "hasKA": true
+  },
+  "peter-mandelson": {
+    "name": "Peter Mandelson",
+    "hasKA": true
+  },
+  "terje-roed-larsen": {
+    "name": "Terje Roed-Larsen",
+    "hasKA": true
+  },
+  "ehud-olmert": {
+    "name": "Ehud Olmert",
+    "hasKA": true
+  },
+  "mark-middleton": {
+    "name": "Mark Middleton",
+    "hasKA": true
+  },
+  "lynn-forester-de-rothschild": {
+    "name": "Lynn Forester de Rothschild",
+    "hasKA": true
+  },
+  "edgar-bronfman": {
+    "name": "Edgar Bronfman Sr.",
+    "hasKA": true
+  },
+  "ronald-perelman": {
+    "name": "Ronald Perelman",
+    "hasKA": true
+  },
+  "steven-hoffenberg": {
+    "name": "Steven Hoffenberg",
+    "hasKA": true
+  },
+  "john-brockman": {
+    "name": "John Brockman",
+    "hasKA": true
+  },
+  "steven-pinker": {
+    "name": "Steven Pinker",
+    "hasKA": true
+  },
+  "noam-chomsky": {
+    "name": "Noam Chomsky",
+    "hasKA": true
+  },
+  "murray-gell-mann": {
+    "name": "Murray Gell-Mann",
+    "hasKA": true
+  },
+  "frank-wilczek": {
+    "name": "Frank Wilczek",
+    "hasKA": true
+  },
+  "nathan-wolfe": {
+    "name": "Nathan Wolfe",
+    "hasKA": true
+  },
+  "lisa-randall": {
+    "name": "Lisa Randall",
+    "hasKA": true
+  },
+  "daniel-dennett": {
+    "name": "Daniel Dennett",
+    "hasKA": true
+  },
+  "gerald-edelman": {
+    "name": "Gerald Edelman",
+    "hasKA": true
+  },
+  "lee-smolin": {
+    "name": "Lee Smolin",
+    "hasKA": true
+  },
+  "katinka-matson": {
+    "name": "Katinka Matson",
+    "hasKA": true
+  },
+  "katie-couric": {
+    "name": "Katie Couric",
+    "hasKA": true
+  },
+  "george-stephanopoulos": {
+    "name": "George Stephanopoulos",
+    "hasKA": true
+  },
+  "chelsea-handler": {
+    "name": "Chelsea Handler",
+    "hasKA": true
+  },
+  "david-blaine": {
+    "name": "David Blaine",
+    "hasKA": true
+  },
+  "mick-jagger": {
+    "name": "Mick Jagger",
+    "hasKA": true
+  },
+  "alec-baldwin": {
+    "name": "Alec Baldwin",
+    "hasKA": true
+  },
+  "itzhak-perlman": {
+    "name": "Itzhak Perlman",
+    "hasKA": true
+  },
+  "joe-recarey": {
+    "name": "Joe Recarey",
+    "hasKA": true
+  },
+  "michael-reiter": {
+    "name": "Michael Reiter",
+    "hasKA": true
+  },
+  "barry-krischer": {
+    "name": "Barry Krischer",
+    "hasKA": true
+  },
+  "geoffrey-berman": {
+    "name": "Geoffrey Berman",
+    "hasKA": true
+  },
+  "audrey-strauss": {
+    "name": "Audrey Strauss",
+    "hasKA": true
+  },
+  "maurene-comey": {
+    "name": "Maurene Comey",
+    "hasKA": true
+  },
+  "juan-alessi": {
+    "name": "Juan Alessi",
+    "hasKA": true
+  },
+  "alfredo-rodriguez": {
+    "name": "Alfredo Rodriguez",
+    "hasKA": true
+  },
+  "igor-zinoviev": {
+    "name": "Igor Zinoviev",
+    "hasKA": true
+  },
+  "nicholas-tartaglione": {
+    "name": "Nicholas Tartaglione",
+    "hasKA": true
+  },
+  "michael-baden": {
+    "name": "Dr. Michael Baden",
+    "hasKA": true
+  },
+  "barbara-sampson": {
+    "name": "Dr. Barbara Sampson",
+    "hasKA": true
+  },
+  "sarah-ransome": {
+    "name": "Sarah Ransome",
+    "hasKA": true
+  },
+  "chauntae-davies": {
+    "name": "Chauntae Davies",
+    "hasKA": true
+  },
+  "teresa-helm": {
+    "name": "Teresa Helm",
+    "hasKA": true
+  },
+  "french-officials": {
+    "name": "French Officials",
+    "hasKA": true
+  },
+  "leslie-groff": {
+    "name": "Leslie Groff",
+    "hasKA": true
+  },
+  "bradley-edwards": {
+    "name": "Bradley Edwards",
+    "hasKA": true
+  },
+  "steven-donziger": {
+    "name": "Steven Donziger",
+    "hasKA": true
+  }
+}

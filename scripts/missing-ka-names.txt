@@ -1,0 +1,974 @@
+john-bolton: John Bolton
+john-kelly: John Kelly
+merrick-garland: Merrick Garland
+yevgeny-vindman: Yevgeny Vindman
+tanya-chutkan: Tanya Sue Chutkan
+scott-mcafee: Scott McAfee
+jacob-chansley: Jacob Anthony Chansley
+jenna-ellis: Jenna Ellis
+christina-bobb: Christina Bobb
+mary-trump: Mary Lea Trump
+maryanne-trump-barry: Maryanne Trump Barry
+franklin-graham: William Franklin Graham III
+robert-jeffress: Robert James Jeffress Jr.
+arthur-engoron: Arthur F. Engoron
+stephanie-grisham: Stephanie Grisham
+johnny-mcentee: John Douglas McEntee II
+steven-mnuchin: Steven Terner Mnuchin
+phil-waldron: Philip G. Waldron
+anatoli-samochornov: Anatoli Samochornov
+joe-tacopina: Joseph Tacopina
+amy-berman-jackson: Amy Berman Jackson
+lewis-kaplan: Lewis A. Kaplan
+beryl-howell: Beryl Alaine Howell
+jessica-leeds: Jessica Leeds
+jill-harth: Jill Harth
+bill-kristol: William Kristol
+steve-schmidt: Steve Schmidt
+bernie-ebbers: Bernard Ebbers
+cardinal-bernard-law: Bernard Francis Law
+cardinal-theodore-mccarrick: Theodore Edgar McCarrick
+tony-hayward: Tony Hayward
+joseph-hazelwood: Joseph Hazelwood
+brett-hankison: Brett Hankison
+jeronimo-yanez: Jeronimo Yanez
+william-campbell: William Campbell
+kathe-sackler: Kathe Sackler
+david-sackler: David Sackler
+allen-stanford: Robert Allen Stanford
+tom-petters: Tom Petters
+scott-rothstein: Scott Rothstein
+tim-cook: Tim Cook
+satya-nadella: Satya Nadella
+michael-bloomberg: Michael Bloomberg
+david-solomon: David Solomon
+brian-moynihan: Brian Moynihan
+ken-griffin: Kenneth Griffin
+jordan-belfort: Jordan Belfort
+john-kapoor: John Kapoor
+john-hammergren: John Hammergren
+steven-collis: Steven Collis
+damon-hininger: Damon Hininger
+george-zoley: George Zoley
+james-taiclet: James Taiclet
+greg-hayes: Gregory Hayes
+warren-buffett: Warren Buffett
+ray-dalio: Ray Dalio
+kamala-harris: Kamala Harris
+trevor-milton: Trevor Milton
+charlie-javice: Charlie Javice
+carlos-watson: Carlos Watson
+doug-mcmillon: Doug McMillon
+howard-schultz: Howard Schultz
+brian-chesky: Brian Chesky
+mike-wirth: Mike Wirth
+werner-baumann: Werner Baumann
+edward-breen: Edward Breen
+kevin-burns: Kevin Burns
+albert-bourla: Albert Bourla
+stephane-bancel: St�phane Bancel
+andrew-witty: Andrew Witty
+david-cordani: David Cordani
+mark-schneider: Mark Schneider
+james-quincey: James Quincey
+chris-kempczinski: Chris Kempczinski
+ramon-laguarta: Ramon Laguarta
+bobby-kotick: Bobby Kotick
+martin-shkreli: Martin Shkreli
+les-moonves: Les Moonves
+geoffrey-bible: Geoffrey Bible
+mary-barra: Mary Barra
+bob-menendez: Bob Menendez
+george-santos: George Santos
+recep-tayyip-erdogan: Recep Tayyip Erdogan
+rodrigo-duterte: Rodrigo Duterte
+narendra-modi: Narendra Modi
+nicolas-maduro: Nicol�s Maduro
+darren-wilson: Darren Wilson
+timothy-loehmann: Timothy Loehmann
+daniel-pantaleo: Daniel Pantaleo
+jason-van-dyke: Jason Van Dyke
+amber-guyger: Amber Guyger
+kim-potter: Kim Potter
+philip-brailsford: Philip Brailsford
+michael-slager: Michael Slager
+greg-abbott: Greg Abbott
+brian-kemp: Brian Kemp
+tommy-tuberville: Tommy Tuberville
+r-kelly: R. Kelly
+larry-nassar: Larry Nassar
+bill-cosby: Bill Cosby
+kevin-spacey: Kevin Spacey
+matt-lauer: Matt Lauer
+charlie-rose: Charlie Rose
+brett-ratner: Brett Ratner
+matt-walsh: Matt Walsh
+steven-crowder: Steven Crowder
+dan-bongino: Dan Bongino
+dennis-prager: Dennis Prager
+omar-al-bashir: Omar al-Bashir
+reid-hoffman: Reid Hoffman
+guy-reffitt: Guy Reffitt
+bernie-madoff: Bernie Madoff
+steve-cohen: Steve Cohen
+abdel-fattah-el-sisi: Abdel Fattah el-Sisi
+craig-landau: Craig Landau
+michael-babich: Michael Babich
+jon-burge: Jon Burge
+mohamed-noor: Mohamed Noor
+myles-cosgrove: Myles Cosgrove
+george-zimmerman: George Zimmerman
+kyle-rittenhouse: Kyle Rittenhouse
+dylann-roof: Dylann Roof
+robert-bowers: Robert Bowers
+patrick-crusius: Patrick Crusius
+payton-gendron: Payton Gendron
+larry-brock: Larry Brock
+riley-june-williams: Riley June Williams
+lonnie-coffman: Lonnie Coffman
+thomas-webster: Thomas Webster
+adam-neumann: Adam Neumann
+nikolas-cruz: Nikolas Cruz
+salvador-ramos: Salvador Ramos
+james-holmes: James Holmes
+stephen-paddock: Stephen Paddock
+omar-mateen: Omar Mateen
+devin-kelley: Devin Kelley
+ethan-crumbley: Ethan Crumbley
+james-crumbley: James Crumbley
+jennifer-crumbley: Jennifer Crumbley
+josh-duggar: Josh Duggar
+sonny-perdue: Sonny Perdue
+richard-strauss: Richard Strauss
+elliott-abrams: Elliott Abrams
+peter-liang: Peter Liang
+mark-finchem: Mark Finchem
+kristi-noem: Kristi Noem
+louie-gohmert: Louie Gohmert
+madison-cawthorn: Madison Cawthorn
+elise-stefanik: Elise Stefanik
+james-comer: James Comer
+barry-loudermilk: Barry Loudermilk
+dave-rubin: Dave Rubin
+dinesh-dsouza: Dinesh D\
+james-okeefe: James O\
+jacob-wohl: Jacob Wohl
+milo-yiannopoulos: Milo Yiannopoulos
+greg-gutfeld: Greg Gutfeld
+duke-cunningham: Randy 
+william-jefferson: William Jefferson
+henry-cuellar: Henry Cuellar
+virginia-foxx: Virginia Foxx
+joe-manchin: Joe Manchin
+kyrsten-sinema: Kyrsten Sinema
+strom-thurmond: Strom Thurmond
+jesse-helms: Jesse Helms
+trent-lott: Trent Lott
+joe-lieberman: Joe Lieberman
+dianne-feinstein: Dianne Feinstein
+timothy-mcveigh: Timothy McVeigh
+ted-kaczynski: Ted Kaczynski
+eric-rudolph: Eric Rudolph
+osama-bin-laden: Osama bin Laden
+khalid-sheikh-mohammed: Khalid Sheikh Mohammed
+anwar-al-awlaki: Anwar al-Awlaki
+glenn-youngkin: Glenn Youngkin
+kim-reynolds: Kim Reynolds
+tate-reeves: Tate Reeves
+bill-lee: Bill Lee
+mike-parson: Mike Parson
+dr-oz: Mehmet Oz
+herschel-walker: Herschel Walker
+blake-masters: Blake Masters
+joe-kent: Joe Kent
+tudor-dixon: Tudor Dixon
+terry-nichols: Terry Nichols
+sam-salehpour: Sam Salehpour
+desmond-mills: Desmond Mills Jr.
+emmitt-martin: Emmitt Martin III
+tadarrius-bean: Tadarrius Bean
+justin-smith: Justin Smith
+hank-paulson: Henry 
+jeffrey-wigand: Jeffrey Wigand
+julian-robertson: Julian Robertson
+lisa-eisenhart: Lisa Eisenhart
+mark-swartz: Mark Swartz
+ramesh-balwani: Ramesh 
+timothy-rigas: Timothy Rigas
+abdel-hakim-belhaj: Abdel Hakim Belhaj
+abdur-rahman-muhammad: Abdur-Rahman Muhammad
+abigail-echo-hawk: Abigail Echo-Hawk
+abolhassan-banisadr: Abolhassan Banisadr
+abraham-zapruder: Abraham Zapruder
+adam-malik: Adam Malik
+addison-yeaman: Addison Yeaman
+aiyana-stanley-jones: Aiyana Stanley-Jones
+aj-smitherman: A.J. Smitherman
+akua-njeri: Deborah Johnson (Akua Njeri)
+alan-fiers: Alan Fiers
+alan-mann: Alan Mann
+alan-shaw: Norfolk Southern (CEO Alan Shaw)
+albert-lord: Albert Lord
+albert-woodfox: Albert Woodfox
+aldo-moro: Aldo Moro
+alec-smith: Alec Smith
+alex-karp: Alex Karp
+alexander-haig: Alexander Haig
+alfredo-cristiani: Alfredo Cristiani
+alice-hamilton: Alice Hamilton
+allan-nairn: Allan Nairn
+allan-pinkerton: Allan Pinkerton
+alvin-young: Alvin Young
+amir-locke: Amir Locke
+amy-gutmann: Amy Gutmann
+anders-fogh-rasmussen: Anders Fogh Rasmussen
+andrew-carnegie: Andrew Carnegie
+andrew-fastow: Andrew Fastow
+andrew-madoff: Andrew Madoff
+andrew-tisch: Andrew Tisch
+anna-deavere-smith: Anna Deavere Smith
+annita-lucchesi: Annita Lucchesi
+anthony-lake: Anthony Lake
+anthony-ray-hinton: Anthony Ray Hinton
+anthony-russo: Anthony Russo
+ari-ben-menashe: Ari Ben-Menashe
+arne-duncan: Arne Duncan
+art-cohen: Art Cohen
+art-pope: Art Pope
+arthur-rudolph: Arthur Rudolph
+arthur-sackler: Arthur M. Sackler
+arvind-thiruvengadam: Arvind Thiruvengadam
+ashli-babbitt: Ashli Babbitt
+ashraf-ghani: Ashraf Ghani
+barbara-fried: Barbara Fried
+barry-scheck: Barry Scheck
+bastian-obermayer: Bastian Obermayer
+bc-franklin: B.C. Franklin
+becky-barr: Becky Barr
+ben-barnes: Ben Barnes
+ben-bradlee: Ben Bradlee
+ben-glisan: Ben Glisan
+ben-tillman: Ben Tillman
+benny-murdani: Benny Murdani
+bernard-coard: Bernard Coard
+bernard-reilly: Bernard Reilly
+bernd-gottweis: Bernd Gottweis
+bernie-sanders: Bernie Sanders
+betty-shabazz: Betty Shabazz
+bill-buford: Bill Buford
+bill-meierling: Bill Meierling
+billy-tauzin: Billy Tauzin
+birdie-africa: Birdie Africa (Michael Moses Ward)
+bo-gritz: Bo Gritz
+bob-diamond: Bob Diamond
+bobby-muller: Bobby Muller
+bobby-rush: Bobby Rush
+bosquet-wev: Bosquet Wev
+boutros-boutros-ghali: Boutros Boutros-Ghali
+breonna-taylor: Breonna Taylor
+brian-terry: Brian Terry
+bruce-karrh: Bruce Karrh
+bryan-stevenson: Bryan Stevenson
+bull-connor: Bull Connor
+burl-cain: Burl Cain
+byron-sage: Byron Sage
+c-everett-koop: C. Everett Koop
+c-sidney-carlton: C. Sidney Carlton
+cameron-todd-willingham: Cameron Todd Willingham
+carl-oechsner: Carl Oechsner
+carlos-castillo-armas: Carlos Castillo Armas
+carlos-ximenes-belo: Bishop Carlos Ximenes Belo
+caroline-ellison: Caroline Ellison
+carolyn-bryant: Carolyn Bryant Donham
+carrie-buck: Carrie Buck
+catherine-flowers: Catherine Flowers
+changpeng-zhao: Changpeng Zhao
+charles-davenport: Charles Davenport
+charles-holliday: Charles Holliday
+charles-keating: Charles Keating
+charles-kettering: Charles Kettering
+charles-scharf: Charles Scharf
+charles-schumer: Charles Schumer
+charlie-beck: Charlie Beck
+chase-iron-eyes: Chase Iron Eyes
+che-guevara: Che Guevara
+cheryl-mills: Cheryl Mills
+chokwe-lumumba: Chokwe Antar Lumumba
+chris-jankowski: Chris Jankowski
+chris-murphy: Chris Murphy
+chris-ripley: Chris Ripley
+chris-smalls: Chris Smalls
+christian-bittar: Christian Bittar
+christopher-cox: Christopher Cox
+christopher-soghoian: Christopher Soghoian
+chuck-grassley: Chuck Grassley
+chuck-hoskin-jr: Chuck Hoskin Jr.
+clair-patterson: Clair Patterson
+clare-garvie: Clare Garvie
+claudia-peterson: Claudia Peterson
+claudia-russ-anderson: Claudia Russ Anderson
+clay-shaw: Clay Shaw
+cliff-baxter: Cliff Baxter
+coretta-scott-king: Coretta Scott King
+courtney-bowden: Courtney Bowden
+craig-haney: Craig Haney
+craig-whitlock: Craig Whitlock
+curtis-wright: Curtis Wright
+curveball: Rafid Ahmed Alwan al-Janabi (Curveball)
+cyrus-hashemi: Cyrus Hashemi
+cyrus-vance-jr: Cyrus Vance Jr.
+dale-folwell: Dale Folwell
+dallas-goldtooth: Dallas Goldtooth
+dalton-trumbo: Dalton Trumbo
+dan-moldea: Dan Moldea
+daniel-cameron: Daniel Cameron
+daniel-carder: Daniel Carder
+daniel-ellsberg: Daniel Ellsberg
+daniel-hamburger: Daniel Hamburger
+daniel-patrick-moynihan: Daniel Patrick Moynihan
+daniel-rigmaiden: Daniel Rigmaiden
+daniele-ganser: Daniele Ganser
+danny-wall: Danny Wall
+daphne-caruana-galizia: Daphne Caruana Galizia
+darlene-keju: Darlene Keju
+darnell-earley: Darnell Earley
+darrell-issa: Darrell Issa
+daryl-gates: Daryl Gates
+dave-archambault-ii: Dave Archambault II
+david-atlee-phillips: David Atlee Phillips
+david-boies: David Boies
+david-duncan: David Duncan
+david-greenglass: David Greenglass
+david-keene: David Keene
+david-kessler: David Kessler
+david-koresh: David Koresh
+david-kotz: David Kotz
+david-petraeus: David Petraeus
+david-rainey: David Rainey
+david-smith: David Smith
+david-thibodeau: David Thibodeau
+david-voth: David Voth
+dawn-wooten: Dawn Wooten
+dean-rusk: Dean Rusk
+deanne-criswell: Deanne Criswell
+denis-mcdonough: Denis McDonough
+dennis-deconcini: Dennis DeConcini
+derrick-johnson: Derrick Johnson
+derrick-palmer: Derrick Palmer
+desmond-tutu: Desmond Tutu
+dexter-king: Dexter King
+dick-deguerin: Dick DeGuerin
+dick-durbin: Dick Durbin
+dick-fuld: Dick Fuld
+dick-rowland: Dick Rowland
+domingo-monterrosa: Domingo Monterrosa
+don-blankenship: Don Blankenship
+donald-rickard: Donald Rickard
+donald-riegle: Donald Riegle
+donald-vidrine: Donald Vidrine
+dr-condie: Dr. Condie
+duane-parde: Duane Parde
+duke-tran: Duke Tran
+dw-griffith: D.W. Griffith
+dwight-d-eisenhower: Dwight D. Eisenhower
+earl-stadtman: Earl Stadtman
+earl-warren: Earl Warren
+earle-wheeler: Earle Wheeler
+ed-rendell: Ed Rendell
+edward-bernays: Edward Bernays
+edward-garvey: Edward Garvey
+edward-hanrahan: Edward Hanrahan
+edward-horrigan: Edward Horrigan
+edward-lansdale: Edward Lansdale
+edward-r-murrow: Edward R. Murrow
+edward-teller: Edward Teller
+edwin-gray: Edwin Gray
+efrain-rios-montt: Efra\u00EDn R\u00EDos Montt
+eh-wah: Eh Wah
+elaine-riddick: Elaine Riddick
+elia-kazan: Elia Kazan
+elijah-muhammad: Elijah Muhammad
+elizabeth-warren: Elizabeth Warren
+ellen-kullman: Ellen Kullman
+elliot-jaspin: Elliot Jaspin
+elmo-zumwalt: Admiral Elmo Zumwalt Jr.
+elmo-zumwalt-iii: Elmo Zumwalt III
+emilio-massera: Emilio Eduardo Massera
+emmett-till: Emmett Till
+eric-holder: Eric Holder
+eric-schneiderman: Eric Schneiderman
+erika-cheung: Erika Cheung
+erin-brockovich: Erin Brockovich
+estelle-reel: Estelle Reel
+ethel-rosenberg: Ethel Rosenberg
+eunice-rivers: Dr. Eunice Rivers
+eurico-guterres: Eurico Guterres
+evan-parker: Evan Parker
+felice-casson: Felice Casson
+felix-wormser: Felix Wormser
+fidel-castro: Fidel Castro
+five-omar-mualimm-ak: Five Omar Mualimm-ak
+flint-taylor: Flint Taylor
+frank-dipascali: Frank DiPascali
+frank-powell: Frank Powell
+fred-branfman: Fred Branfman
+fred-gray: Fred Gray
+fred-guttenberg: Fred Guttenberg
+fred-hampton-jr: Fred Hampton Jr.
+frederick-babcock: Frederick Babcock
+frederick-douglass: Frederick Douglass
+frederick-hitz: Frederick Hitz
+frederik-obermaier: Frederik Obermaier
+gary-gensler: Gary Gensler
+gary-wang: Gary Wang
+geoffrey-supran: Geoffrey Supran
+georg-rickhey: Georg Rickhey
+george-armstrong-custer: George Armstrong Custer
+george-de-mohrenschildt: George de Mohrenschildt
+george-romney: George Romney
+george-shultz: George Shultz
+george-stinney-jr: George Stinney Jr.
+gerald-chatham: Gerald Chatham
+gerald-kennedy: Gerald Kennedy
+gerry-spence: Gerry Spence
+gilbert-bigio: Gilbert Bigio
+giulio-andreotti: Giulio Andreotti
+giuseppe-santovito: Giuseppe Santovito
+gonzalo-curiel: Gonzalo Curiel
+gregore-sambor: Gregore Sambor
+guillermo-endara: Guillermo Endara
+guillermo-garcia-sal: Guillermo García
+gul-rahman: Gul Rahman
+hal-knight: Hal Knight
+hamid-khan: Hamid Khan
+harrison-trevathan: Harrison Trevathan
+harry-laughlin: Harry Laughlin
+harry-markopolos: Harry Markopolos
+harry-truman: Harry Truman
+hassan-sheikh-mohamud: Hassan Sheikh Mohamud
+hector-gramajo: Hector Gramajo
+heinz-jakob-neusser: Heinz-Jakob Neusser
+henry-cabot-lodge-jr: Henry Cabot Lodge Jr.
+henry-clay-frick: Henry Clay Frick
+henry-dawes: Henry Dawes
+henry-knox: Henry Knox
+henry-shaw: Henry Shaw
+henry-waxman: Henry Waxman
+herbert-diess: Herbert Diess
+herbert-needleman: Herbert Needleman
+herman-wallace: Herman Wallace
+hiram-price: Hiram Price
+hoan-ton-that: Hoan Ton-That
+homer-hoyt: Homer Hoyt
+hope-macallister: Hope MacAllister
+howard-jones: Howard Jones
+howard-udell: Howard Udell
+hudson-austin: Hudson Austin
+hugh-thompson-jr: Hugh Thompson Jr.
+hughes-van-ellis: Hughes Van Ellis
+hugo-banzer: Hugo Banzer
+ian-gibbons: Ian Gibbons
+ida-b-wells: Ida B. Wells
+irving-picard: Irving Picard
+j-parnell-thomas: J. Parnell Thomas
+j-robert-oppenheimer: J. Robert Oppenheimer
+jack-remondi: Jack Remondi
+jack-weinstein: Jack Weinstein
+jacobo-arbenz: Jacobo \u00C1rbenz
+jaime-zapata: Jaime Zapata
+james-angleton: James Jesus Angleton
+james-baker: James Baker III
+james-black: James Black
+james-bopp: James Bopp Jr.
+james-bosbous: James Bosbous
+james-craig: James Craig
+james-davis-cpd: James Davis
+james-forsyth: James Forsyth
+james-knox-polk: James Knox Polk
+james-liang: James Liang
+james-loewen: James Loewen
+james-risen: James Risen
+james-w-english: James W. English
+jan-brewer: Jan Brewer
+jan-hasselman: Jan Hasselman
+janis-karpinski: Brig. Gen. Janis Karpinski
+jason-forge: Jason Forge
+jay-carney: Jay Carney
+jay-dickey: Jay Dickey
+jba-robertson: J.B.A. Robertson
+jc-robert: J.C. Robert
+jean-bertrand-aristide: Jean-Bertrand Aristide
+jeane-kirkpatrick: Jeane Kirkpatrick
+jeff-brantingham: Jeff Brantingham
+jeff-jamar: Jeff Jamar
+jeffrey-amherst: Lord Jeffrey Amherst
+jeffrey-sterling: Jeffrey Sterling
+jeffry-picower: Jeffry Picower
+jennifer-abruzzo: Jennifer Abruzzo
+jennifer-bates: Jennifer Bates
+jerry-del-missier: Jerry del Missier
+jerry-ensminger: Jerry Ensminger
+jerry-falwell: Jerry Falwell
+jesse-daniel-ames: Jesse Daniel Ames
+jesse-gagliano: Jesse Gagliano
+jesse-jackson: Jesse Jackson
+jesse-jones: Jesse Jones
+jesse-washington: Jesse Washington
+jim-garrison: Jim Garrison
+jim-watkins: Jim Watkins
+jimmy-carter: Jimmy Carter
+jimmy-harrell: Jimmy Harrell
+joe-kelso: Joe Kelso
+john-africa: John Africa (Vincent Leaphart)
+john-anjain: John Anjain
+john-carreyrou: John Carreyrou
+john-charles-cutler: Dr. John Charles Cutler
+john-chivington: John Chivington
+john-collier: John Collier
+john-connally: John Connally
+john-danforth: John Danforth
+john-dodson: John Dodson
+john-glenn: John Glenn
+john-gustafson: Chief John Gustafson
+john-hannah: John Hannah
+john-harvey-kellogg: John Harvey Kellogg
+john-hull: John Hull
+john-kiriakou: John Kiriakou
+john-mahoney: Dr. John Mahoney
+john-paul-stevens: John Paul Stevens
+john-paul-vann: John Paul Vann
+john-ray-iii: John Ray III
+john-schoettler: John Schoettler
+john-sperling: John Sperling
+john-t-milner: John T. Milner
+jose-napoleon-duarte: José Napoleón Duarte
+jose-ramos-horta: José Ramos-Horta
+joseph-bankman: Joseph Bankman
+joseph-e-brown: Joseph E. Brown
+joseph-kennedy-ii: Joseph Kennedy II
+joseph-mccarthy: Joseph McCarthy
+joseph-metcalf: Admiral Joseph Metcalf III
+joseph-rivers: Joseph Rivers
+joseph-weekley: Joseph Weekley
+joseph-welch: Joseph Welch
+joshua-jaynes: Joshua Jaynes
+juan-funes: Dr. Juan Funes
+juan-mendez: Juan M\u00E9ndez
+juana-majel-dixon: Juana Majel-Dixon
+judith-miller: Judith Miller
+julia-tutwiler: Julia Tutwiler
+julius-rosenberg: Julius Rosenberg
+jurgen-mossack: Jürgen Mossack
+juvenal-habyarimana: Juvénal Habyarimana
+jw-milam: J.W. Milam
+k-barton-osborn: K. Barton Osborn
+kalief-browder: Kalief Browder
+karen-ignagni: Karen Ignagni
+karen-lynch: Karen Lynch
+karl-uecker: Karl Uecker
+katharine-graham: Katharine Graham
+kathryn-barger: Kathryn Barger
+katricia-africa: Katricia Dotson Africa
+keeanga-yamahtta-taylor: Keeanga-Yamahtta Taylor
+kelcy-warren: Kelcy Warren
+ken-salazar: Ken Salazar
+kenneth-fadeley: Kenneth Fadeley
+kenneth-melson: Kenneth Melson
+kenneth-walker: Kenneth Walker
+kevin-harris: Kevin Harris
+kevin-mcaleenan: Kevin McAleenan
+khalid-taha: Khalid Taha
+khalifa-haftar: Khalifa Haftar
+khalil-islam: Khalil Islam (Thomas 15X Johnson)
+kirk-bloodsworth: Kirk Bloodsworth
+kit-carson: Kit Carson
+kofi-annan: Kofi Annan
+kristian-lum: Kristian Lum
+kurt-blome: Kurt Blome
+kurt-mix: Kurt Mix
+kyle-kirchmeier: Morton County Sheriff (Kyle Kirchmeier)
+kyle-thompson: Kyle Thompson
+l-paul-bremer: L. Paul Bremer
+ladonna-brave-bull-allard: LaDonna Brave Bull Allard
+lanny-breuer: Lanny Breuer
+larry-potts: Larry Potts
+laurence-teeter: Laurence Teeter
+lee-atwater: Lee Atwater
+lee-hamilton: Lee Hamilton
+lee-harvey-oswald: Lee Harvey Oswald
+lee-iacocca: Lee Iacocca
+lee-raymond: Lee Raymond
+leeanne-walters: LeeAnne Walters
+leonidas-dyer: Leonidas Dyer
+leopoldo-galtieri: Leopoldo Galtieri
+les-aspin: Les Aspin
+lessie-randle: Lessie Benningfield Randle
+lewis-strauss: Lewis Strauss
+licio-gelli: Licio Gelli
+lisa-brunner: Lisa Brunner
+lisa-nelson: Lisa Nelson
+liz-fowler: Liz Fowler
+lloyd-jowers: Lloyd Jowers
+lon-horiuchi: Lon Horiuchi
+lon-nol: Lon Nol
+lou-pai: Lou Pai
+louis-farrakhan: Louis Farrakhan
+lyman-lemnitzer: Lyman Lemnitzer
+lyndon-johnson: Lyndon B. Johnson
+lynn-fitch: Lynn Fitch
+lynndie-england: Lynndie England
+mahendra-amin: Mahendra Amin
+mamie-till-mobley: Mamie Till-Mobley
+mandrel-stuart: Mandrel Stuart
+marc-cisneros: General Marc Cisneros
+marc-edwards: Marc Edwards
+marc-short: Marc Short
+marcus-agius: Marcus Agius
+margaret-chase-smith: Margaret Chase Smith
+margaret-sanger: Margaret Sanger
+marjorie-dannenfelser: Marjorie Dannenfelser
+mark-brnovich: Mark Brnovich
+mark-clark: Mark Clark
+mark-lane: Mark Lane
+mark-madoff: Mark Madoff
+marshall-green: Marshall Green
+martin-tabert: Martin Tabert
+martin-wheatley: Martin Wheatley
+mary-alice-relf: Mary Alice Relf
+mary-kathryn-nagle: Mary Kathryn Nagle
+mary-turner: Mary Turner
+matthias-mueller: Matthias Müller
+maude-devictor: Maude DeVictor
+maura-healey: Maura Healey
+maurice-bishop: Maurice Bishop
+mauricio-rodriguez-sanchez: Mauricio Rodríguez Sánchez
+max-baucus: Max Baucus
+maxwell-thurman: General Maxwell Thurman
+mcgeorge-bundy: McGeorge Bundy
+medgar-evers: Medgar Evers
+mervyn-king: Mervyn King
+michael-friedman: Michael Friedman
+michael-oliver: Michael Oliver
+michael-powell: Michael D. Powell
+michael-regan: Michael Regan
+michael-townley: Michael Townley
+michel-martelly: Michel Martelly
+miguel-cardona: Miguel Cardona
+mike-moore: Mike Moore
+mike-williams: Mike Williams
+minnie-lee-relf: Minnie Lee Relf
+mohamed-farrah-aidid: Mohamed Farrah Aidid
+mona-hanna-attisha: Mona Hanna-Attisha
+moses-wright: Moses Wright
+muammar-gaddafi: Muammar Gaddafi
+muhammad-abdul-aziz: Muhammad Abdul Aziz (Norman 3X Butler)
+mujahid-abdul-halim: Mujahid Abdul Halim (Talmadge Hayer)
+naomi-oreskes: Naomi Oreskes
+nathan-bedford-forrest: Nathan Bedford Forrest
+nathan-wessler: Nathan Wessler
+nawar-al-awlaki: Nawar al-Awlaki
+nawaz-sharif: Nawaz Sharif
+neil-bush: Neil Bush
+neil-sheehan: Neil Sheehan
+nelson-brickham: Nelson Brickham
+nelson-mandela: Nelson Mandela
+nematollah-nassiri: Nematollah Nassiri
+nguyen-viet-nhan: Nguyen Viet Nhan
+nicolas-sarkozy: Nicolas Sarkozy
+nicole-smith-holt: Nicole Smith-Holt
+nijeer-parks: Nijeer Parks
+nishad-singh: Nishad Singh
+norman-schwarzkopf: General Norman Schwarzkopf
+norodom-sihanouk: Prince Norodom Sihanouk
+oliver-schmidt: Oliver Schmidt
+oliver-wendell-holmes: Oliver Wendell Holmes Jr.
+orlando-letelier: Orlando Letelier
+orval-faubus: Orval Faubus
+orville-kelly: Orville Kelly
+oscar-danilo-blandon: Oscar Danilo Bland\u00F3n
+oscar-romero: Óscar Romero
+otto-perez-molina: Otto Pérez Molina
+pamela-foster: Pamela Foster
+paul-goldenheim: Paul Goldenheim
+paul-kagame: Paul Kagame
+paul-popenoe: Paul Popenoe
+paul-schrade: Paul Schrade
+paul-tucker: Paul Tucker
+paul-weyrich: Paul Weyrich
+pelican-bay-prisoners: Pelican Bay Prisoners
+pete-arredondo: Pete Arredondo
+peter-madoff: Peter Madoff
+peter-neufeld: Peter Neufeld
+petro-poroshenko: Petro Poroshenko
+phil-berger: Phil Berger
+phil-bryant: Phil Bryant
+philip-sheridan: Philip Sheridan
+philippe-moryoussef: Philippe Moryoussef
+pol-pot: Pol Pot
+porcha-woodruff: Porcha Woodruff
+prudence-bushnell: Prudence Bushnell
+pw-botha: P.W. Botha
+ralph-abernathy: Ralph Abernathy
+ramon-fonseca: Ramón Fonseca
+ramona-africa: Ramona Africa
+randall-robinson: Randall Robinson
+randy-weaver: Randy Weaver
+rashida-richardson: Rashida Richardson
+ray-sitton: Ray Sitton
+ray-wood: Ray Wood
+raymond-bonner: Raymond Bonner
+rc-arnold: Dr. R.C. Arnold
+rebecca-mark: Rebecca Mark
+red-fawn-fallis: Red Fawn Fallis
+reinhard-gehlen: Reinhard Gehlen
+rene-schneider: René Schneider
+ricardo-sanchez: Lt. Gen. Ricardo Sanchez
+richard-cordray: Richard Cordray
+richard-dorenkamp: Richard Dorenkamp
+richard-henry-pratt: Richard Henry Pratt
+richard-rogers: Richard Rogers
+richard-rothstein: Richard Rothstein
+richard-schwartz: Richard Schwartz
+richard-secord: Richard Secord
+rick-dearborn: Rick Dearborn
+rigoberta-menchu: Rigoberta Menchú
+rj-lehmann: R.J. Lehmann
+rob-bilott: Rob Bilott
+robert-bilott: Robert Bilott
+robert-crants: Robert Crants
+robert-dudley: Robert Dudley
+robert-gates: Robert Gates
+robert-houghton: Robert Houghton
+robert-hugin: Robert Hugin
+robert-kaluza: Robert Kaluza
+robert-kehoe: Robert Kehoe
+robert-king: Robert King
+robert-komer: Robert Komer
+robert-martens: Robert J. Martens
+robert-mcfarlane: Robert McFarlane
+robert-moses: Robert Moses
+robert-scherrer: Robert Scherrer
+robert-taft: Robert Taft
+robert-taylor: Robert Taylor
+robert-weaver: Robert Weaver
+robert-williams: Robert Williams
+roberta-kaplan: Roberta Kaplan
+roberto-daubuisson: Roberto D\
+robin-arkley-ii: Robin Arkley II
+robin-vos: Robin Vos
+roger-noriega: Roger Noriega
+roger-severino: Roger Severino
+romeo-dallaire: Roméo Dallaire
+ron-wyden: Senator Ron Wyden
+roy-bourgeois: Roy Bourgeois
+roy-bryant: Roy Bryant
+roy-mitchell: Roy Martin Mitchell
+rufina-amaya: Rufina Amaya
+russell-pearce: Russell Pearce
+russell-portenoy: Russell Portenoy
+ruth-bader-ginsburg: Ruth Bader Ginsburg
+ruth-madoff: Ruth Madoff
+ruth-riddle: Ruth Riddle
+ryan-crocker: Ryan Crocker
+ryan-salame: Ryan Salame
+sam-walton: Sam Walton
+sam-zemurray: Sam Zemurray
+samuel-koster: Samuel Koster
+samuel-weaver: Samuel Weaver
+sandra-bland: Sandra Bland
+sarah-page: Sarah Page
+sarwo-edhie-wibowo: Sarwo Edhie Wibowo
+savanna-lafontaine-greywind: Savanna LaFontaine-Greywind
+scott-ellsworth: Scott Ellsworth
+scott-lloyd: Scott Lloyd
+scott-walker: Scott Walker
+seymour-hersh: Seymour Hersh
+sheldon-whitehouse: Sheldon Whitehouse
+shelley-family: Shelley v. Kraemer Plaintiffs
+sherrilyn-ifill: Sherrilyn Ifill
+sherron-watkins: Sherron Watkins
+sigmundur-gunnlaugsson: Sigmundur Davíð Gunnlaugsson
+sirhan-sirhan: Sirhan Bishara Sirhan
+smedley-butler: Smedley Butler
+stafford-warren: Stafford Warren
+stanley-mcchrystal: Stanley McChrystal
+stefano-delle-chiaie: Stefano Delle Chiaie
+stephen-hemsley: Stephen Hemsley
+stephen-townsend: General Stephen Townsend
+stephen-ubl: Stephen Ubl
+stewart-udall: Stewart Udall
+stuart-appelbaum: Stuart Appelbaum
+stuart-johnson: Stuart Johnson
+stuart-symington: Stuart Symington
+suharto: Suharto
+sukarno: Sukarno
+susan-reverby: Susan Reverby
+susan-rice: Susan Rice
+suzanne-scott: Suzanne Scott
+tamika-palmer: Tamika Palmer
+tamir-rice: Tamir Rice
+tarla-makaeff: Tarla Makaeff
+ted-henifin: Ted Henifin
+ted-shackley: Ted Shackley
+terrell-don-hutto: Terrell Don Hutto
+terry-dehko: Terry Dehko
+terry-farr: Terry Farr
+thad-allen: Thad Allen
+thane-cesar: Thane Eugene Cesar
+theodore-bilbo: Theodore Bilbo
+theoneste-bagosora: Théoneste Bagosora
+thomas-beasley: Thomas Beasley
+thomas-curry: Thomas Curry
+thomas-dobbs: Thomas Dobbs
+thomas-drake: Thomas Drake
+thomas-enders: Thomas Enders
+thomas-hofeller: Thomas Hofeller
+thomas-jackson: Thomas Jackson
+thomas-jefferson: Thomas Jefferson
+thomas-midgley: Thomas Midgley Jr.
+thomas-morgan: Thomas Morgan
+thomas-murray: Thomas Murray
+thomas-noguchi: Thomas Noguchi
+thomas-pappas: Col. Thomas Pappas
+thomas-parran: Surgeon General Thomas Parran
+thomas-silverstein: Thomas Silverstein
+thomas-stephens: Thomas Stephens
+thomas-stroock: Thomas Stroock
+thomas-waldhauser: General Thomas Waldhauser
+tim-moore: Tim Moore
+tim-phillips: Tim Phillips
+tim-russ: Tim Russ
+tim-walberg: Tim Walberg
+timothy-mellon: Timothy Mellon
+timothy-olson: Timothy Olson
+timothy-purdon: Timothy Purdon
+timothy-sloan: Timothy Sloan
+timothy-tyson: Timothy Tyson
+tom-harkin: Tom Harkin
+tom-hayes: Tom Hayes
+tom-saffer: Tom Saffer
+ton-that-tung: Ton That Tung
+tree-africa: Tree Africa
+tyler-shultz: Tyler Shultz
+vang-pao: Vang Pao
+vernon-walters: Vernon Walters
+vicki-weaver: Vicki Weaver
+victor-denoble: Victor DeNoble
+victor-hugo-green: The Green Book Publishers
+vincenzo-vinciguerra: Vincenzo Vinciguerra
+viola-fletcher: Viola Fletcher
+vladimiro-montesinos: Vladimiro Montesinos
+walter-mcmillian: Walter McMillian
+walter-schreiber: Walter Schreiber
+walter-white-naacp: Walter White
+warren-anderson: Warren Anderson
+wendell-potter: Wendell Potter
+wernher-von-braun: Wernher von Braun
+wesley-lowery: Wesley Lowery
+wilbur-tennant: Wilbur Tennant
+william-colby: William Colby
+william-craig: William H. Craig
+william-degan: William Degan
+william-harper: William Harper
+william-levitt: William Levitt
+william-lowe: William Lowe
+william-newell: William Newell
+william-pepper: William Pepper
+william-rogers: William Rogers
+william-sullivan: William Sullivan
+william-tecumseh-sherman: William Tecumseh Sherman
+william-westmoreland: William Westmoreland
+willie-reed: Willie Reed
+wilson-goode: Wilson Goode
+winston-churchill: Winston Churchill
+woodrow-wilson: Woodrow Wilson
+xanana-gusmao: Xanana Gusmão
+alan-cranston: Alan Cranston
+alvaro-colom: Álvaro Colom
+bethany-mclean: Bethany McLean
+bob-crowley: Bob Crowley
+bounkham-phonesavanh: Bounkham Phonesavanh
+carrie-tolstedt: Carrie Tolstedt
+cathy-oneil: Cathy O\
+chester-crocker: Chester Crocker
+damian-williams: Damian Williams
+dave-clark: Dave Clark
+dave-grossman: Dave Grossman
+david-niekerk: David Niekerk
+dick-carpenter: Dick Carpenter
+dillon-s-myer: Dillon S. Myer
+donald-wilber: Donald Wilber
+douglas-lute: Douglas Lute
+e-howard-hunt: E. Howard Hunt
+edmund-richardson: Edmund Richardson
+edward-korry: Edward Korry
+edwin-meese: Edwin Meese
+ernest-medina: Ernest Medina
+eugenia-charles: Eugenia Charles
+fazlollah-zahedi: Fazlollah Zahedi
+francis-biddle: Francis Biddle
+francois-duvalier: François Duvalier
+freeway-ricky-ross: Freeway Ricky Ross
+g-gordon-liddy: G. Gordon Liddy
+gary-sick: Gary Sick
+geoffrey-miller: Geoffrey Miller
+george-w-cable: George Washington Cable
+george-wallace: George Wallace
+gordon-hirabayashi: Gordon Hirabayashi
+henry-stimson: Henry Stimson
+hubertus-strughold: Hubertus Strughold
+james-bamford: James Bamford
+james-earl-ray: James Earl Ray
+jean-claude-duvalier: Jean-Claude Duvalier
+john-l-dewitt: John L. DeWitt
+john-oliver: John Oliver
+john-sopko: John Sopko
+joy-buolamwini: Joy Buolamwini
+karl-bendetsen: Karl Bendetsen
+laura-poitras: Laura Poitras
+leon-panetta: Leon Panetta
+mark-hyman: Mark Hyman
+mark-ruffalo: Mark Ruffalo
+matthew-albence: Matthew Albence
+michelle-alexander: Michelle Alexander
+mike-masaoka: Mike Masaoka
+minoru-yasui: Minoru Yasui
+norman-mineta: Norman Mineta
+norwin-meneses: Norwin Meneses
+radley-balko: Radley Balko
+richard-fink: Richard Fink
+robert-mckee: Robert McKee
+ron-watkins: Ron Watkins
+ruha-benjamin: Ruha Benjamin
+samantha-power: Samantha Power
+sandra-day-oconnor: Sandra Day O\
+sandra-serrano: Sandra Serrano
+scott-fitzgerald: Scott Fitzgerald
+scott-livingston: Scott Livingston
+sergio-arellano-stark: Sergio Arellano Stark
+sister-helen-prejean: Sister Helen Prejean
+stephen-cambone: Stephen Cambone
+sunny-balwani: Sunny Balwani
+susan-collins: Susan Collins
+theodore-roosevelt: Theodore Roosevelt
+thomas-corcoran: Thomas Corcoran
+tim-geithner: Tim Geithner
+ulysses-s-grant: Ulysses S. Grant
+warren-christopher: Warren Christopher
+william-binney: William Binney
+william-black: William Black
+william-bratton: William Bratton
+william-richmond: William Richmond
+william-shawcross: William Shawcross
+nasser-al-awlaki: Nasser al-Awlaki
+robert-rubin: Robert Rubin
+josef-mengele: Josef Mengele
+martin-van-buren: Martin Van Buren
+winfield-scott: Winfield Scott
+christopher-dodd: Christopher Dodd
+henry-paulson: Henry Paulson
+rutherford-b-hayes: Rutherford B. Hayes
+queen-isabella: Queen Isabella I of Castile
+bartolome-de-las-casas: Bartolomé de las Casas
+chris-krebs: Chris Krebs
+michael-fanone: Michael Fanone
