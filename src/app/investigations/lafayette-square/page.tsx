@@ -52,7 +52,7 @@ const investigation = {
   keyFigures: [
     { name: 'Donald Trump', role: 'Ordered area cleared for photo op', href: '/entities/individuals/donald-trump', status: 'Subject' },
     { name: 'Gen. Mark Milley', role: 'Chairman Joint Chiefs, walked with Trump, later apologized', href: '/entities/individuals/mark-milley', status: 'Apologized' },
-    { name: 'William Barr', role: 'Attorney General, personally directed clearing', href: '/entities/individuals/bill-barr', status: 'Directed clearance' },
+    { name: 'William Barr', role: 'Attorney General, personally directed clearing', href: '/entities/individuals/william-barr', status: 'Directed clearance' },
     { name: 'Kayleigh McEnany', role: 'Press Secretary, defended photo op', href: '/entities/individuals/kayleigh-mcenany', status: 'White House' },
     { name: 'Bishop Mariann Budde', role: 'Episcopal Bishop of Washington, condemned event', status: 'Condemned Trump' },
     { name: 'Rev. Gini Gerbasi', role: 'Clergy tear-gassed at church', status: 'Victim' },

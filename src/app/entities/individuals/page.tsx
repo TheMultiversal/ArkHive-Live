@@ -218,7 +218,7 @@ const individuals: Entity[] = [
   },
   {
     id: "barr-1",
-    slug: "bill-barr",
+    slug: "william-barr",
     name: "Bill Barr",
     type: "individual",
     description: "Former Attorney General. Misrepresented Mueller Report findings. Declared 'no collusion' before report released. Ordered Lafayette Square tear gas incident.",

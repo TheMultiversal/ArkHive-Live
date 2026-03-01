@@ -146,7 +146,7 @@ const agencyData: Record<string, {
       { title: 'Classified Documents Case', slug: 'mar-a-lago-documents', severity: 'critical' },
     ],
     keyFigures: [
-      { name: 'William Barr', position: 'Attorney General (2019-2020)', href: '/entities/individuals/bill-barr' },
+      { name: 'William Barr', position: 'Attorney General (2019-2020)', href: '/entities/individuals/william-barr' },
       { name: 'Jeff Sessions', position: 'Attorney General (2017-2018)', href: '/entities/individuals/jeff-sessions' },
       { name: 'Rod Rosenstein', position: 'Deputy AG (2017-2019)', href: '/entities/individuals/rod-rosenstein' },
       { name: 'Matthew Whitaker', position: 'Acting AG (2018-2019)', href: '/entities/individuals/matthew-whitaker' },

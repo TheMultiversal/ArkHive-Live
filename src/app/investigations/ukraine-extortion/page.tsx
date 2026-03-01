@@ -36,7 +36,7 @@ const investigation = {
     { name: 'Rudy Giuliani', role: 'Led shadow diplomacy, pressured Ukraine officials', href: '/entities/individuals/rudy-giuliani', status: 'Under investigation' },
     { name: 'Gordon Sondland', role: 'EU Ambassador, testified to quid pro quo', href: '/entities/individuals/gordon-sondland', status: 'Cooperating witness' },
     { name: 'Mick Mulvaney', role: 'Acting Chief of Staff, admitted quid pro quo', href: '/entities/individuals/mick-mulvaney', status: 'Admitted on TV' },
-    { name: 'William Barr', role: 'Attorney General, named by Trump on call', href: '/entities/individuals/bill-barr', status: 'Named in scheme' },
+    { name: 'William Barr', role: 'Attorney General, named by Trump on call', href: '/entities/individuals/william-barr', status: 'Named in scheme' },
     { name: 'Mike Pompeo', role: 'Secretary of State, on the call', href: '/entities/individuals/mike-pompeo', status: 'On call' },
   ],
   shadowDiplomats: [

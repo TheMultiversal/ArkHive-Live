@@ -96,7 +96,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { id: '5', name: 'ICE', type: 'agency', relationship: 'Facial recognition, social media monitoring', href: '/entities/agencies/ice' },
       { id: '6', name: 'CBP', type: 'agency', relationship: 'Drone surveillance, biometric collection', href: '/entities/agencies/cbp' },
       { id: '7', name: 'Jeff Sessions', type: 'individual', relationship: 'DOJ surveillance of journalists', href: '/entities/individuals/jeff-sessions' },
-      { id: '8', name: 'Bill Barr', type: 'individual', relationship: 'Continued journalist surveillance, Portland deployment', href: '/entities/individuals/bill-barr' },
+      { id: '8', name: 'Bill Barr', type: 'individual', relationship: 'Continued journalist surveillance, Portland deployment', href: '/entities/individuals/william-barr' },
       { id: '9', name: 'Chad Wolf', type: 'individual', relationship: 'Acting DHS Secretary, authorized Portland operations', href: '/entities/individuals/chad-wolf' },
       { id: '10', name: 'ACLU', type: 'organization', relationship: 'Documented abuses, filed lawsuits', href: '/entities/organizations/aclu' },
       { id: '11', name: 'Clearview AI', type: 'corporation', relationship: 'Provided facial recognition to federal agencies', href: '/entities/corporations/clearview-ai' },
@@ -2008,7 +2008,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Directed politicization, demanded prosecutions', href: '/entities/individuals/donald-trump' },
-      { id: '2', name: 'Bill Barr', type: 'individual', relationship: 'Enabled corruption, intervened in cases', href: '/entities/individuals/bill-barr' },
+      { id: '2', name: 'Bill Barr', type: 'individual', relationship: 'Enabled corruption, intervened in cases', href: '/entities/individuals/william-barr' },
       { id: '3', name: 'Jeff Sessions', type: 'individual', relationship: 'Recused, then pressured to un-recuse', href: '/entities/individuals/jeff-sessions' },
       { id: '4', name: 'Roger Stone', type: 'individual', relationship: 'Beneficiary of Barr intervention, Trump commutation', href: '/entities/individuals/roger-stone' },
       { id: '5', name: 'Michael Flynn', type: 'individual', relationship: 'Beneficiary of case dismissal effort, pardon', href: '/entities/individuals/michael-flynn' },
@@ -2202,7 +2202,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { id: '1', name: 'Michael Flynn', type: 'individual', relationship: 'Subject of investigation, twice guilty', href: '/entities/individuals/michael-flynn' },
       { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Pardoned Flynn', href: '/entities/individuals/donald-trump' },
       { id: '3', name: 'Sergey Kislyak', type: 'individual', relationship: 'Russian ambassador Flynn lied about', href: '/entities/individuals/sergey-kislyak' },
-      { id: '4', name: 'Bill Barr', type: 'individual', relationship: 'Moved to drop prosecution', href: '/entities/individuals/bill-barr' },
+      { id: '4', name: 'Bill Barr', type: 'individual', relationship: 'Moved to drop prosecution', href: '/entities/individuals/william-barr' },
       { id: '5', name: 'Robert Mueller', type: 'individual', relationship: 'Special counsel who prosecuted Flynn', href: '/entities/individuals/robert-mueller' },
       { id: '6', name: 'DOJ', type: 'agency', relationship: 'Prosecuted then sought dismissal', href: '/entities/agencies/doj' },
       { id: '7', name: 'FBI', type: 'agency', relationship: 'Interviewed Flynn, received lies', href: '/entities/agencies/fbi' },
@@ -2358,7 +2358,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'Jeff Sessions', type: 'individual', relationship: 'AG who reversed civil rights enforcement', href: '/entities/individuals/jeff-sessions' },
-      { id: '2', name: 'Bill Barr', type: 'individual', relationship: 'Continued rollbacks as AG', href: '/entities/individuals/bill-barr' },
+      { id: '2', name: 'Bill Barr', type: 'individual', relationship: 'Continued rollbacks as AG', href: '/entities/individuals/william-barr' },
       { id: '3', name: 'Donald Trump', type: 'individual', relationship: 'Appointed anti-civil rights leadership', href: '/entities/individuals/donald-trump' },
       { id: '4', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division hollowed out', href: '/entities/agencies/doj' },
       { id: '5', name: 'FBI', type: 'agency', relationship: 'Hate crime investigations deprioritized', href: '/entities/agencies/fbi' },
@@ -2515,7 +2515,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
       { title: 'Analysis of Barr Misrepresentations', url: 'https://www.lawfareblog.com/what-barrs-letter-said-and-didnt-say', type: 'Legal Analysis' },
     ],
     affiliations: [
-      { id: '1', name: 'Bill Barr', type: 'individual', relationship: 'AG who misrepresented Mueller findings', href: '/entities/individuals/bill-barr' },
+      { id: '1', name: 'Bill Barr', type: 'individual', relationship: 'AG who misrepresented Mueller findings', href: '/entities/individuals/william-barr' },
       { id: '2', name: 'Robert Mueller', type: 'individual', relationship: 'Special Counsel whose work was distorted', href: '/entities/individuals/robert-mueller' },
       { id: '3', name: 'Donald Trump', type: 'individual', relationship: 'Protected by Barr\'s deception', href: '/entities/individuals/donald-trump' },
       { id: '4', name: 'DOJ', type: 'agency', relationship: 'Used to protect Trump', href: '/entities/agencies/doj' },
@@ -5263,7 +5263,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Politicized DOJ, obstructed justice', href: '/entities/individuals/donald-trump' },
-      { id: '2', name: 'William Barr', type: 'individual', relationship: 'Enabled politicization as AG', href: '/entities/individuals/bill-barr' },
+      { id: '2', name: 'William Barr', type: 'individual', relationship: 'Enabled politicization as AG', href: '/entities/individuals/william-barr' },
       { id: '3', name: 'DOJ', type: 'agency', relationship: 'Subject of politicization', href: '/entities/agencies/doj' },
       { id: '4', name: 'James Comey', type: 'individual', relationship: 'Fired FBI Director', href: '/entities/individuals/james-comey' },
     ],

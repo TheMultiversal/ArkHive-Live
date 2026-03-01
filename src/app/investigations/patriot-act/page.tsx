@@ -25,7 +25,7 @@ const investigation = {
     { name: 'Jeff Sessions', role: 'Senator/AG  -  Championed PATRIOT Act reauthorization; expanded immigration enforcement surveillance', href: '/entities/individuals/jeff-sessions', status: 'Left Office' },
     { name: 'James Comey', role: 'FBI Director  -  Expanded use of National Security Letters; pushed for encryption backdoors', href: '/entities/individuals/james-comey', status: 'Fired 2017' },
     { name: 'John Brennan', role: 'CIA Director  -  Oversaw expanded surveillance and drone targeting programs under Obama', href: '/entities/individuals/john-brennan', status: 'Left Office' },
-    { name: 'Bill Barr', role: 'Attorney General  -  Pushed for reauthorization of FISA surveillance powers under Trump', href: '/entities/individuals/bill-barr', status: 'Left Office' },
+    { name: 'Bill Barr', role: 'Attorney General  -  Pushed for reauthorization of FISA surveillance powers under Trump', href: '/entities/individuals/william-barr', status: 'Left Office' },
   ],
   timeline: [
     { date: '2001-09-11', event: 'Al-Qaeda attacks kill 2,977 people; Bush administration begins drafting sweeping surveillance legislation within hours' },

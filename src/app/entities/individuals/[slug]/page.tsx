@@ -72,7 +72,7 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Scott Pruitt', relationship: 'EPA Administrator, environmental rollbacks', href: '/entities/individuals/scott-pruitt' },
       { name: 'Rick Perry', relationship: 'Energy Secretary, climate denial', href: '/entities/individuals/rick-perry' },
       { name: 'Tom Price', relationship: 'HHS Secretary, opioid-friendly policies', href: '/entities/individuals/tom-price' },
-      { name: 'Bill Barr', relationship: 'Attorney General, Mueller Report suppression', href: '/entities/individuals/bill-barr' },
+      { name: 'Bill Barr', relationship: 'Attorney General, Mueller Report suppression', href: '/entities/individuals/william-barr' },
       { name: 'Mark Meadows', relationship: 'Chief of Staff, January 6 co-conspirator, RICO co-defendant', href: '/entities/individuals/mark-meadows' },
       { name: 'John Eastman', relationship: 'Attorney, fake electors scheme architect, disbarred', href: '/entities/individuals/john-eastman' },
       { name: 'Sidney Powell', relationship: 'Attorney, election fraud claims, RICO co-defendant, pled guilty', href: '/entities/individuals/sidney-powell' },
@@ -80,6 +80,15 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Jeffrey Clark', relationship: 'DOJ Official, attempted coup, RICO co-defendant', href: '/entities/individuals/jeffrey-clark' },
       { name: 'William Barr', relationship: 'Attorney General, oversaw BOP during Epstein death in custody', href: '/entities/individuals/william-barr' },
       { name: 'Alex Acosta', relationship: 'Labor Secretary pick, gave Epstein 2008 sweetheart deal as US Attorney', href: '/entities/individuals/alex-acosta' },
+    
+      { name: 'Alan Dershowitz', relationship: 'Attorney who defended both Epstein and Trump', href: '/entities/individuals/alan-dershowitz' },
+      { name: 'Virginia Giuffre', relationship: 'Named Trump properties as locations in victim testimony', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Pete Hegseth', relationship: 'Cabinet appointee and political ally', href: '/entities/individuals/pete-hegseth' },
+      { name: 'Keith Schiller', relationship: 'Longtime bodyguard and Director of Oval Office Operations', href: '/entities/individuals/keith-schiller' },
+      { name: 'Rhona Graff', relationship: 'Executive assistant with Epstein contact information in files', href: '/entities/individuals/rhona-graff' },
+      { name: 'Boris Epshteyn', relationship: 'Political advisor and attorney', href: '/entities/individuals/boris-epshteyn' },
+      { name: 'Evan Corcoran', relationship: 'Defense attorney in classified documents case', href: '/entities/individuals/evan-corcoran' },
+      { name: 'Lin Wood', relationship: 'Attorney and political ally', href: '/entities/individuals/lin-wood' }
     ],
     controversies: [
       'EPSTEIN COMPLICITY: Documented visits to Epstein properties (Mar-a-Lago, NYC mansion), flight on "Lolita Express" (1993), public praise as "terrific guy" who "likes beautiful women... on the younger side" (2002), association spanning 15+ years, involvement with trafficking network targeting minors',
@@ -377,6 +386,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Geoffrey Berman', relationship: 'SDNY US Attorney, brought 2019 federal charges', href: '/entities/individuals/geoffrey-berman' },
       { name: 'Nicholas Tartaglione', relationship: 'Cellmate, former cop convicted of quadruple murder', href: '/entities/individuals/nicholas-tartaglione' },
       { name: 'Michael Baden', relationship: 'Pathologist hired by Epstein family, questioned suicide ruling', href: '/entities/individuals/michael-baden' },
+    
+      { name: 'Nadia Marcinkova', relationship: 'Alleged trafficking victim later turned co-conspirator', href: '/entities/individuals/nadia-marcinkova' },
+      { name: 'Sarah Kellen', relationship: 'Personal assistant and alleged co-conspirator', href: '/entities/individuals/sarah-kellen' },
+      { name: 'Leon Black', relationship: 'Apollo Global Management CEO who paid $158M in advisory fees', href: '/entities/individuals/leon-black' },
+      { name: 'Jes Staley', relationship: 'JPMorgan executive who maintained close banking relationship', href: '/entities/individuals/jes-staley' },
+      { name: 'Donald Barr', relationship: 'Dalton School headmaster who hired Epstein as teacher', href: '/entities/individuals/donald-barr' },
+      { name: 'Robert Maxwell', relationship: 'Father of Ghislaine Maxwell; alleged Mossad asset', href: '/entities/individuals/robert-maxwell' }
     ],
     charges: [
       { statute: '18 U.S.C. § 1591', description: 'Sex trafficking of minors - federal indictment SDNY 2019', category: 'Human Trafficking' },
@@ -803,6 +819,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Juan Alessi', relationship: 'Estate manager, key witness on Maxwell involvement', href: '/entities/individuals/juan-alessi' },
       { name: 'Haley Robson', relationship: 'Recruiter of minors, worked under Maxwell direction', href: '/entities/individuals/haley-robson' },
       { name: 'Lesley Groff', relationship: 'Co-assistant, scheduled victims', href: '/entities/individuals/lesley-groff' },
+    
+      { name: 'Alan Dershowitz', relationship: 'Attorney who represented Epstein and was accused by Giuffre', href: '/entities/individuals/alan-dershowitz' },
+      { name: 'Chauntae Davies', relationship: 'Victim and flight attendant on Lolita Express', href: '/entities/individuals/chauntae-davies' },
+      { name: 'Teresa Helm', relationship: 'Victim who reported abuse by Maxwell directly', href: '/entities/individuals/teresa-helm' }
     ],
     controversies: [
       'CHIEF RECRUITER: Recruited, groomed, and trafficked dozens of underage girls for Epstein from 1994-2004+',
@@ -2283,113 +2303,6 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Federal Indictment - Trump', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', date: 'August 2023' },
       { title: 'Clark Draft Letter (Exhibit)', date: 'December 2020' },
       { title: 'DOJ Leadership Testimony', date: '2022' },
-    ],
-  },
-  'bill-barr': {
-    name: 'William Pelham Barr',
-    title: 'Former Attorney General',
-    role: 'Trump\'s Personal Attorney General, Mueller Cover-Up Artist, DOJ Weaponizer',
-    riskLevel: 'critical' as const,
-    description: 'William Barr served as Trump\'s Attorney General and systematically corrupted the Department of Justice to serve Trump\'s personal interests. He issued a deliberately misleading four-page summary of the Mueller Report that misrepresented its findings, prompting a rebuke from Mueller himself. He intervened to reduce Roger Stone\'s sentencing recommendation, prompting mass resignations from career prosecutors. He dropped the prosecution of Michael Flynn despite his guilty pleas. He ordered the violent clearing of Lafayette Square protesters for a Trump photo-op. He deployed federal agents against protesters in Portland without local consent. He spread election disinformation himself before later refusing to support Trump\'s most extreme claims. His tenure represented the most egregious politicization of the DOJ in modern history.',
-    birthDate: 'May 23, 1950',
-    birthPlace: 'New York City, USA',
-    education: [
-      'J.D. - George Washington University Law School',
-      'M.A. - Columbia University (Chinese Studies)',
-      'B.A. - Columbia University',
-    ],
-    netWorth: '$40+ million',
-    aliases: ['Trump\'s Roy Cohn', 'The Cover-Up General'],
-    affiliations: [
-      { name: 'Department of Justice', role: 'Attorney General (1991-1993, 2019-2020)', type: 'agency' },
-      { name: 'Time Warner', role: 'General Counsel', type: 'corporation' },
-      { name: 'Kirkland & Ellis', role: 'Of Counsel', type: 'corporation' },
-      { name: 'CIA', role: 'Analyst (1973-1977)', type: 'agency' },
-    ],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Served as personal protector, covered up investigations', href: '/entities/individuals/donald-trump' },
-      { name: 'Roger Stone', relationship: 'Intervened to reduce sentence', href: '/entities/individuals/roger-stone' },
-      { name: 'Michael Flynn', relationship: 'Dropped prosecution', href: '/entities/individuals/michael-flynn' },
-      { name: 'Robert Mueller', relationship: 'Misrepresented his report findings', href: '/entities/individuals/robert-mueller' },
-      { name: 'Jeffrey Epstein', relationship: 'AG overseeing BOP during death in custody; father hired Epstein at Dalton', href: '/entities/individuals/jeffrey-epstein' },
-      { name: 'Donald Barr', relationship: 'Father, hired Epstein at Dalton School in 1974', href: '/entities/individuals/donald-barr' },
-    ],
-    controversies: [
-      'CRIME 1 - OBSTRUCTION OF JUSTICE: Mueller Report Cover-Up',
-      'Issued 4-page summary BEFORE anyone read report',
-      'Summary falsely claimed "no collusion, no obstruction"',
-      'Mueller wrote letter: Barr "did not fully capture" findings',
-      'Report actually documented 10+ instances of obstruction',
-      'Barr prejudged outcome via unsolicited 19-page memo BEFORE appointed',
-      'CRIME 2 - CORRUPT INTERFERENCE: Stone Sentencing',
-      'Overruled career prosecutors\' 7-9 year recommendation',
-      'ALL FOUR prosecutors resigned in protest',
-      'Barr recommended lighter sentence after Trump tweets',
-      'Unprecedented political interference in criminal case',
-      'CRIME 3 - CORRUPT INTERFERENCE: Flynn Prosecution',
-      'Ordered case dropped despite TWO guilty pleas',
-      'Flynn admitted lying to FBI',
-      'DOJ career staff opposed dismissal',
-      'Judge refused to dismiss, called it "gross abuse"',
-      'CRIME 4 - ASSAULT ON PROTESTERS: Lafayette Square',
-      'Ordered violent clearing of peaceful protesters',
-      'Tear gas, rubber bullets used on American citizens',
-      'For Trump photo-op with upside-down Bible',
-      'Park Police and National Guard used on civilians',
-      'CRIME 5 - ELECTION INTERFERENCE',
-      'Spread election fraud claims before 2020 election',
-      'Said mail-in voting was ripe for "fraud"',
-      'Later admitted NO evidence of widespread fraud',
-      'Finally resigned rather than support worst lies',
-      'IRAN-CONTRA COVER-UP (1991-1993)',
-      'First tenure: Recommended pardons for Iran-Contra criminals',
-      'Protected Reagan/Bush officials from prosecution',
-      'Pattern of using DOJ to protect Republican presidents',
-    ],
-    charges: [
-      { statute: '18 U.S.C. § 1503', description: 'Obstruction of Justice - Mueller report cover-up', category: 'Federal' },
-      { statute: '18 U.S.C. § 1505', description: 'Obstruction of Congressional Proceeding - Misleading Congress', category: 'Federal' },
-      { statute: '18 U.S.C. § 1512(c)', description: 'Obstruction of Official Proceeding - Stone/Flynn interference', category: 'Federal' },
-      { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law - Lafayette Square', category: 'Federal' },
-      { statute: '18 U.S.C. § 241', description: 'Conspiracy Against Rights - Voter suppression rhetoric', category: 'Federal' },
-      { statute: '18 U.S.C. § 595', description: 'Interference by Administrative Employee - Election statements', category: 'Federal' },
-      { statute: '18 U.S.C. § 1001', description: 'False Statements - Misleading Congress on Mueller findings', category: 'Federal' },
-      { statute: '28 U.S.C. § 528', description: 'DOJ Ethics Violations - Political interference', category: 'Federal' },
-      { statute: 'First Amendment', description: 'Constitutional violation - Lafayette Square assault', category: 'Constitutional' },
-      { statute: 'Fourth Amendment', description: 'Constitutional violation - Unreasonable seizure of protesters', category: 'Constitutional' },
-    ],
-    relatedInvestigations: [
-      { title: 'Obstruction of Justice', slug: 'obstruction-of-justice', severity: 'critical' },
-      { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
-      { title: 'DOJ Politicization', slug: 'doj-politicization', severity: 'critical' },
-      { title: 'Lafayette Square Assault', slug: 'lafayette-square', severity: 'high' },
-      { title: 'Mueller Report Suppression', slug: 'mueller-suppression', severity: 'critical' },
-    ],
-    timeline: [
-      { date: 'May 23, 1950', event: 'Born in New York City' },
-      { date: '1973-1977', event: 'Works as CIA analyst' },
-      { date: '1991-1993', event: 'First term as Attorney General under George H.W. Bush' },
-      { date: '1992', event: 'Recommends Iran-Contra pardons, protecting Reagan/Bush officials' },
-      { date: 'June 2018', event: 'Sends unsolicited 19-page memo attacking Mueller obstruction theory' },
-      { date: 'February 2019', event: 'Confirmed as Attorney General (second term)' },
-      { date: 'March 24, 2019', event: 'Issues misleading 4-page Mueller Report summary' },
-      { date: 'March 27, 2019', event: 'Mueller writes letter objecting to Barr\'s characterization' },
-      { date: 'April 18, 2019', event: 'Full Mueller Report released, contradicts Barr summary' },
-      { date: 'February 2020', event: 'Intervenes in Roger Stone sentencing, prosecutors resign' },
-      { date: 'May 2020', event: 'Moves to drop Flynn prosecution' },
-      { date: 'June 1, 2020', event: 'Orders Lafayette Square cleared for Trump photo-op' },
-      { date: 'Summer 2020', event: 'Deploys federal agents to Portland against local wishes' },
-      { date: 'September 2020', event: 'Spreads mail-in voting fraud claims' },
-      { date: 'December 1, 2020', event: 'Admits DOJ found no evidence of widespread fraud' },
-      { date: 'December 23, 2020', event: 'Resigns rather than support Trump\'s worst election lies' },
-      { date: '2022', event: 'Testifies to January 6 Committee, calls Trump claims "bullshit"' },
-    ],
-    sources: [
-      { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
-      { title: 'Mueller Letter to Barr', date: 'March 2019' },
-      { title: 'House Judiciary Contempt Proceedings', date: '2019' },
-      { title: 'January 6 Committee Testimony', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
-      { title: 'DOJ IG Lafayette Square Report', date: '2021' },
     ],
   },
   'scott-pruitt': {
@@ -6749,6 +6662,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Donald Trump', relationship: 'SecDef appointee', href: '/entities/individuals/donald-trump' },
+    
+      { name: 'Jeffrey Epstein', relationship: 'Referenced in connection with Trump administration Epstein file discussions', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Matt Gaetz', relationship: 'Congressional ally investigated for related conduct', href: '/entities/individuals/matt-gaetz' },
+      { name: 'Keith Schiller', relationship: 'Fellow Trump inner circle member', href: '/entities/individuals/keith-schiller' }
     ],
     controversies: [
       'Sexual assault allegation (2017, settled)',
@@ -6986,6 +6903,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Donald Trump', relationship: 'Appointed him Labor Secretary', href: '/entities/individuals/donald-trump' },
       { name: 'Jeffrey Epstein', relationship: 'Gave sweetheart plea deal as U.S. Attorney', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Alan Dershowitz', relationship: 'Co-defense attorney who negotiated the plea deal terms', href: '/entities/individuals/alan-dershowitz' },
+      { name: 'Courtney Wild', relationship: 'Victim who challenged the plea deal under CVRA', href: '/entities/individuals/courtney-wild' },
+      { name: 'Joe Recarey', relationship: 'Palm Beach detective who investigated Epstein case', href: '/entities/individuals/joe-recarey' },
+      { name: 'Michael Reiter', relationship: 'Palm Beach Police Chief who pushed for federal prosecution', href: '/entities/individuals/michael-reiter' }
     ],
     controversies: [
       '2008 Epstein non-prosecution agreement that violated victims\' rights',
@@ -7471,6 +7393,9 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Donald Trump', relationship: 'Cabinet member, 2016 rival turned supporter', href: '/entities/individuals/donald-trump' },
+    
+      { name: 'Jeffrey Epstein', relationship: 'Named in discussions of Trump cabinet connections to Epstein case', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Pete Hegseth', relationship: 'Fellow Trump cabinet member', href: '/entities/individuals/pete-hegseth' }
     ],
     controversies: [
       '$31,000 dining set purchased for office',
@@ -9573,6 +9498,12 @@ const individualData: Record<string, IndividualProfile> = {
       'Forced to resign from White House after 2 months',
       'Serves as Trump gatekeeper',
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Senior political advisor and campaign attorney', href: '/entities/individuals/donald-trump' },
+      { name: 'Evan Corcoran', relationship: 'Fellow Trump legal defense team member', href: '/entities/individuals/evan-corcoran' },
+      { name: 'Jeffrey Epstein', relationship: 'Referenced in Epstein file release political discussions', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Keith Schiller', relationship: 'Fellow Trump inner circle member', href: '/entities/individuals/keith-schiller' }
+    ],
     charges: [
       { statute: 'Arizona A.R.S. § 13-2310', description: 'Fraudulent Schemes and Artifices - Indicted April 2024 for role in fake electors scheme', category: 'Election Crimes' },
       { statute: 'Arizona A.R.S. § 13-1003', description: 'Conspiracy - Coordinated multi-state fake electors implementation', category: 'Conspiracy' },
@@ -9623,6 +9554,12 @@ const individualData: Record<string, IndividualProfile> = {
       'Notes showed Trump wanted to hide documents',
       'Withdrew from case after forced testimony',
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Defense attorney in classified documents case', href: '/entities/individuals/donald-trump' },
+      { name: 'Boris Epshteyn', relationship: 'Fellow member of Trump legal defense team', href: '/entities/individuals/boris-epshteyn' },
+      { name: 'Jeffrey Epstein', relationship: 'Connected via Trump administration discussions on Epstein files', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Ghislaine Maxwell', relationship: 'Maxwell case evidence referenced in political legal circles', href: '/entities/individuals/ghislaine-maxwell' }
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Mar-a-Lago Documents', slug: 'mar-a-lago-documents', severity: 'critical' },
@@ -9663,6 +9600,12 @@ const individualData: Record<string, IndividualProfile> = {
       'Georgia bar investigated for mental competency',
       'Multiple bar complaints filed',
       'Fell out with Sidney Powell and Kyle Rittenhouse',
+    ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Political ally and election fraud claims attorney', href: '/entities/individuals/donald-trump' },
+      { name: 'Jeffrey Epstein', relationship: 'Made public claims about Epstein network and Chief Justice Roberts', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Ghislaine Maxwell', relationship: 'Referenced Maxwell connections in conspiratorial claims', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Alan Dershowitz', relationship: 'Public disputes over Epstein-related allegations', href: '/entities/individuals/alan-dershowitz' }
     ],
     charges: [
       { statute: 'Georgia Bar Rules 3.1', description: 'Frivolous Lawsuits - Filed numerous meritless election lawsuits knowing claims were false', category: 'Bar Violations' },
@@ -12187,6 +12130,13 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Alvin Bragg', relationship: 'Successor as DA', href: '/entities/individuals/alvin-bragg' },
+    
+      { name: 'Jeffrey Epstein', relationship: 'As Chief Judge, oversaw Epstein-related grand jury proceedings', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Ghislaine Maxwell', relationship: 'Oversaw sealed court proceedings related to Maxwell case', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Virginia Giuffre', relationship: 'Managed unsealing of Giuffre v. Maxwell documents', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Geoffrey Berman', relationship: 'SDNY prosecutor who brought the 2019 federal case', href: '/entities/individuals/geoffrey-berman' }
+    ,
+      { name: 'Harvey Weinstein', relationship: 'Initially declined to prosecute despite evidence', href: '/entities/individuals/harvey-weinstein' }
     ],
     controversies: [
       'Initiated Trump criminal investigation',
@@ -12227,6 +12177,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Donald Trump', relationship: 'Employer for 20+ years', href: '/entities/individuals/donald-trump' },
+    
+      { name: 'Jeffrey Epstein', relationship: 'Present at events where Trump and Epstein socialized', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Boris Epshteyn', relationship: 'Fellow Trump inner circle member', href: '/entities/individuals/boris-epshteyn' },
+      { name: 'Pete Hegseth', relationship: 'Fellow Trump administration appointee', href: '/entities/individuals/pete-hegseth' }
     ],
     controversies: [
       'Present during Miss Universe Moscow trip',
@@ -12266,6 +12220,9 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Donald Trump', relationship: 'Executive assistant for 30+ years', href: '/entities/individuals/donald-trump' },
       { name: 'Jeffrey Epstein', relationship: 'Had his contact information', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Maintained Maxwell\'s contact information in Trump Org files', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Keith Schiller', relationship: 'Fellow long-term Trump Organization employee', href: '/entities/individuals/keith-schiller' }
     ],
     controversies: [
       'Had Epstein contact numbers',
@@ -16212,6 +16169,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Joe Biden', relationship: 'Appointed by', href: '/entities/individuals/joe-biden' },
+    
+      { name: 'Jeffrey Epstein', relationship: 'Treasury Department oversight of financial investigations into Epstein network', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Larry Summers', relationship: 'Harvard colleague; Summers accepted Epstein donations', href: '/entities/individuals/larry-summers' },
+      { name: 'Jes Staley', relationship: 'JPMorgan CEO investigated for Epstein banking relationship under Treasury oversight', href: '/entities/individuals/jes-staley' }
     ],
     controversies: [
       'Criticized for speaking fees from Wall Street firms before becoming Treasury Secretary',
@@ -16327,6 +16288,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Roger Stone', relationship: 'Used as WikiLeaks intermediary', href: '/entities/individuals/roger-stone' },
       { name: 'Julian Assange', relationship: 'Had interview access', href: '/entities/individuals/julian-assange' },
+    
+      { name: 'Jeffrey Epstein', relationship: 'Activist who pushed for investigation transparency', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Ghislaine Maxwell', relationship: 'Advocated for full prosecution and disclosure', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Virginia Giuffre', relationship: 'Supported victims\' advocacy efforts', href: '/entities/individuals/virginia-giuffre' }
     ],
     controversies: [
       'Roger Stone threatened him and his dog "Bianca"',
@@ -16370,6 +16335,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Ghislaine Maxwell', relationship: 'Daughter', href: '/entities/individuals/ghislaine-maxwell' },
       { name: 'Jeffrey Epstein', relationship: 'Associate (met through Ghislaine)', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Kevin Maxwell', relationship: 'Son involved in family business empire', href: '/entities/individuals/kevin-maxwell' },
+      { name: 'Ehud Barak', relationship: 'Israeli political figure connected through intelligence networks', href: '/entities/individuals/ehud-barak' },
+      { name: 'Prince Andrew', relationship: 'Connected to British establishment through media empire', href: '/entities/individuals/prince-andrew' }
     ],
     controversies: [
       'Stole £440 million from employee pension funds',
@@ -23391,7 +23360,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'AT&T', role: 'CEO', type: 'corporation' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'AT&T/WarnerMedia CEO during period of Epstein-related media coverage decisions', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Ghislaine Maxwell', relationship: 'Network media coverage decisions during Maxwell trial', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Donald Trump', relationship: 'AT&T/CNN relationship during Trump administration', href: '/entities/individuals/donald-trump' }
+    ],
     controversies: [
       'NSA PARTNERSHIP: AT&T\'s extensive cooperation with NSA surveillance',
       'ROOM 641A: AT&T facility used for NSA internet surveillance',
@@ -23424,6 +23397,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Shou Zi Chew', relationship: 'TikTok CEO', href: '/entities/individuals/shou-zi-chew' },
+    
+      { name: 'Jeffrey Epstein', relationship: 'TikTok/ByteDance content moderation decisions affecting Epstein coverage', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Donald Trump', relationship: 'TikTok ban negotiations with Trump administration', href: '/entities/individuals/donald-trump' },
+      { name: 'Reid Hoffman', relationship: 'Silicon Valley figure with overlapping tech industry connections', href: '/entities/individuals/reid-hoffman' }
     ],
     controversies: [
       'CHINA DATA CONCERNS: Platform accused of potential CCP data access',
@@ -23457,7 +23434,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Supreme Court of the United States', role: 'Associate Justice (2009-present)', type: 'agency' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Supreme Court justice during Epstein-related legal proceedings', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Beryl Howell', relationship: 'Fellow federal judge involved in Epstein case proceedings', href: '/entities/individuals/beryl-howell' },
+      { name: 'Ghislaine Maxwell', relationship: 'Court declined to hear Maxwell-related appeals', href: '/entities/individuals/ghislaine-maxwell' }
+    ],
     controversies: [],
     charges: [],
     relatedInvestigations: [
@@ -23484,7 +23465,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Federal Bureau of Prisons', role: 'Director (2022-present)', type: 'agency' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'BOP Director during investigations into Epstein\'s death in federal custody', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Nicholas Tartaglione', relationship: 'Epstein\'s cellmate; subject of investigation into custody failures', href: '/entities/individuals/nicholas-tartaglione' },
+      { name: 'William Barr', relationship: 'AG who ordered investigation into BOP failures around Epstein death', href: '/entities/individuals/william-barr' },
+      { name: 'Ghislaine Maxwell', relationship: 'BOP custody during Maxwell\'s trial and imprisonment at FCI Tallahassee', href: '/entities/individuals/ghislaine-maxwell' }
+    ],
     controversies: [
       'EPSTEIN DEATH: Took over after Epstein death scandal',
       'GUARD ABUSE: Widespread sexual abuse by BOP staff',
@@ -34209,6 +34195,14 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Donald Trump', relationship: 'Friend, donor before exposure', href: '/entities/individuals/donald-trump' },
       { name: 'Ghislaine Maxwell', relationship: 'Social circles overlapped in NYC/Hollywood', href: '/entities/individuals/ghislaine-maxwell' },
+    
+      { name: 'Jeffrey Epstein', relationship: 'Parallel case of institutional failure to stop serial sexual abuse', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Harvey Weinstein', relationship: 'Fellow high-profile sex abuse case driving #MeToo movement', href: '/entities/individuals/harvey-weinstein' },
+      { name: 'Bill Cosby', relationship: 'Parallel case of institutional protection of serial abusers', href: '/entities/individuals/bill-cosby' }
+    ,
+      { name: 'Cy Vance', relationship: 'Manhattan DA involved in both cases\' prosecution decisions', href: '/entities/individuals/cy-vance' }
+    ,
+      { name: 'Alan Dershowitz', relationship: 'Celebrity defense attorney connected to both cases', href: '/entities/individuals/alan-dershowitz' }
     ],
     controversies: [
       '80+ ACCUSERS: Decades of serial rape and assault',
@@ -34768,6 +34762,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Marc Andreessen', relationship: 'Business partner', href: '/entities/individuals/marc-andreessen' },
+    
+      { name: 'Jeffrey Epstein', relationship: 'Silicon Valley connections to Epstein\'s tech industry fundraising network', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Reid Hoffman', relationship: 'Fellow VC who admitted knowing and meeting with Epstein', href: '/entities/individuals/reid-hoffman' },
+      { name: 'Chamath Palihapitiya', relationship: 'Silicon Valley peer in tech venture capital ecosystem', href: '/entities/individuals/chamath-palihapitiya' },
+      { name: 'Joi Ito', relationship: 'MIT Media Lab director who solicited Epstein donations; VC connections', href: '/entities/individuals/joi-ito' }
     ],
     controversies: [
       'TRUMP DONOR: Major contributor to Trump 2024',
@@ -34846,6 +34845,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Mark Zuckerberg', relationship: 'Former employer', href: '/entities/individuals/mark-zuckerberg' },
+    
+      { name: 'Jeffrey Epstein', relationship: 'Discussed Epstein connections in Silicon Valley venture capital circles', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Reid Hoffman', relationship: 'Fellow tech investor who met with Epstein', href: '/entities/individuals/reid-hoffman' },
+      { name: 'Ben Horowitz', relationship: 'Fellow VC in tech industry with Epstein proximity', href: '/entities/individuals/ben-horowitz' },
+      { name: 'Joi Ito', relationship: 'MIT Media Lab director who accepted Epstein funding', href: '/entities/individuals/joi-ito' }
     ],
     controversies: [
       'UYGHUR COMMENTS: Said "nobody cares" about genocide',
@@ -34927,6 +34931,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     knownAssociates: [
       { name: 'Stewart Rhodes', relationship: 'Oath Keepers founder', href: '/entities/individuals/stewart-rhodes' },
+    
+      { name: 'Jeffrey Epstein', relationship: 'Admitted meeting Epstein multiple times; apologized publicly', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Joi Ito', relationship: 'Connected through MIT Media Lab and Epstein fundraising', href: '/entities/individuals/joi-ito' },
+      { name: 'Ben Horowitz', relationship: 'Fellow Silicon Valley investor in same social circles', href: '/entities/individuals/ben-horowitz' },
+      { name: 'Chamath Palihapitiya', relationship: 'Tech industry peer in venture capital ecosystem', href: '/entities/individuals/chamath-palihapitiya' },
+      { name: 'Bill Gates', relationship: 'Fellow tech billionaire who met with Epstein', href: '/entities/individuals/bill-gates' }
     ],
     controversies: [
       'JANUARY 6: Coordinated Oath Keepers attack',
@@ -35201,6 +35211,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Ghislaine Maxwell', relationship: 'Social relationship, visited Epstein island', href: '/entities/individuals/ghislaine-maxwell' },
       { name: 'Virginia Giuffre', relationship: 'Named in connection with Epstein visits', href: '/entities/individuals/virginia-giuffre' },
       { name: 'Leon Black', relationship: 'Both high-profile financiers linked to Epstein', href: '/entities/individuals/leon-black' },
+    
+      { name: 'Ehud Barak', relationship: 'Israel-Egypt diplomatic relationships and intelligence sharing', href: '/entities/individuals/ehud-barak' },
+      { name: 'Robert Maxwell', relationship: 'Father\'s Mossad connections extended throughout Middle East', href: '/entities/individuals/robert-maxwell' }
     ],
     controversies: [
       'EPSTEIN RELATIONSHIP: Maintained ties despite allegations',
@@ -54527,6 +54540,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Social and business associate', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Ghislaine Maxwell', relationship: 'Social connection through Epstein', href: '/entities/individuals/ghislaine-maxwell' },
+    
+      { name: 'Robert Maxwell', relationship: 'Connected through Israeli intelligence community', href: '/entities/individuals/robert-maxwell' },
+      { name: 'Ehud Olmert', relationship: 'Fellow Israeli PM with connections to same networks', href: '/entities/individuals/ehud-olmert' },
+      { name: 'Abdel Fattah el-Sisi', relationship: 'Middle Eastern diplomatic counterpart', href: '/entities/individuals/abdel-fattah-el-sisi' }
     ],
     controversies: [
       'Photographed entering Jeffrey Epstein\'s NYC residence multiple times',
@@ -54564,6 +54581,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Named in victim testimony', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Virginia Giuffre', relationship: 'Named by Giuffre in documents', href: '/entities/individuals/virginia-giuffre' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Attended social events organized by Maxwell', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Bill Clinton', relationship: 'Fellow Democratic leader and Epstein associate', href: '/entities/individuals/bill-clinton' },
+      { name: 'Alan Dershowitz', relationship: 'Fellow Epstein associate named in court documents', href: '/entities/individuals/alan-dershowitz' }
     ],
     controversies: [
       'Named by Virginia Giuffre in court filings as recipient of sexual services directed by Maxwell',
@@ -54622,22 +54643,39 @@ const individualData: Record<string, IndividualProfile> = {
     ],
   },
   'william-barr': {
-    name: 'William Barr',
-    title: 'Former US Attorney General',
-    role: 'AG During Epstein Death, Father Hired Epstein',
-    riskLevel: 'critical',
-    description: 'Served as US Attorney General during Jeffrey Epstein\'s death in federal custody at MCC New York on August 10, 2019. Barr oversaw the Bureau of Prisons at the time. His father, Donald Barr, hired the 20-year-old college dropout Epstein as a math teacher at the elite Dalton School in 1973. William Barr declared he was "satisfied" Epstein\'s death was a suicide despite two malfunctioning cameras, two sleeping guards, and removal from suicide watch.',
+    name: 'William Pelham Barr',
+    title: 'Former Attorney General',
+    role: 'Trump\'s Attorney General, AG During Epstein Death, Mueller Cover-Up Artist',
+    riskLevel: 'critical' as const,
+    aliases: ['Bill Barr', 'Trump\'s Roy Cohn', 'The Cover-Up General'],
+    description: 'William Barr served as Trump\'s Attorney General and systematically corrupted the Department of Justice to serve Trump\'s personal interests. He issued a deliberately misleading four-page summary of the Mueller Report, intervened in Roger Stone\'s sentencing, dropped the Michael Flynn prosecution, and ordered the violent clearing of Lafayette Square. Critically, Barr oversaw the Bureau of Prisons during Jeffrey Epstein\'s death in federal custody at MCC New York on August 10, 2019. His father, Donald Barr, hired the 20-year-old college dropout Epstein as a math teacher at the elite Dalton School in 1973. Barr declared he was "satisfied" Epstein\'s death was a suicide despite two malfunctioning cameras, two sleeping guards, and removal from suicide watch. He also attempted to fire SDNY US Attorney Geoffrey Berman who was investigating Epstein associates.',
     birthDate: 'May 23, 1950',
-    birthPlace: 'New York City, New York',
-    education: ['Columbia University', 'George Washington University Law School', 'Georgetown University - MA Chinese Studies'],
+    birthPlace: 'New York City, USA',
+    education: [
+      'J.D. - George Washington University Law School',
+      'M.A. - Columbia University (Chinese Studies)',
+      'B.A. - Columbia University',
+    ],
+    netWorth: '$40+ million',
     affiliations: [
-      { name: 'Department of Justice', role: 'Attorney General (2019-2020, 1991-1993)', type: 'agency' },
-      { name: 'Bureau of Prisons', role: 'Oversight as AG', type: 'agency' },
+      { name: 'Department of Justice', role: 'Attorney General (1991-1993, 2019-2020)', type: 'agency' },
+      { name: 'Bureau of Prisons', role: 'Oversight as AG during Epstein death', type: 'agency' },
+      { name: 'Time Warner', role: 'General Counsel', type: 'corporation' },
+      { name: 'Kirkland & Ellis', role: 'Of Counsel', type: 'corporation' },
+      { name: 'CIA', role: 'Analyst (1973-1977)', type: 'agency' },
     ],
     knownAssociates: [
-      { name: 'Donald Barr', relationship: 'Father, hired Epstein at Dalton School', href: '/entities/individuals/donald-barr' },
-      { name: 'Jeffrey Epstein', relationship: 'Oversaw prison where Epstein died', href: '/entities/individuals/jeffrey-epstein' },
-      { name: 'Donald Trump', relationship: 'Appointed by as Attorney General', href: '/entities/individuals/donald-trump' },
+      { name: 'Donald Trump', relationship: 'Served as personal protector, covered up investigations', href: '/entities/individuals/donald-trump' },
+      { name: 'Jeffrey Epstein', relationship: 'AG overseeing BOP during death in custody; father hired Epstein at Dalton', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Donald Barr', relationship: 'Father, hired Epstein at Dalton School in 1974', href: '/entities/individuals/donald-barr' },
+      { name: 'Ghislaine Maxwell', relationship: 'DOJ oversaw Maxwell prosecution; attempted to fire SDNY attorney', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Geoffrey Berman', relationship: 'Attempted to fire SDNY prosecutor investigating Epstein associates', href: '/entities/individuals/geoffrey-berman' },
+      { name: 'Colette Peters', relationship: 'BOP Director during investigations into Epstein custody failures', href: '/entities/individuals/colette-peters' },
+      { name: 'Nicholas Tartaglione', relationship: 'Epstein cellmate investigated in connection with death', href: '/entities/individuals/nicholas-tartaglione' },
+      { name: 'Barbara Sampson', relationship: 'NYC Medical Examiner who ruled Epstein death suicide', href: '/entities/individuals/barbara-sampson' },
+      { name: 'Roger Stone', relationship: 'Intervened to reduce sentence', href: '/entities/individuals/roger-stone' },
+      { name: 'Michael Flynn', relationship: 'Dropped prosecution', href: '/entities/individuals/michael-flynn' },
+      { name: 'Robert Mueller', relationship: 'Misrepresented his report findings', href: '/entities/individuals/robert-mueller' },
     ],
     controversies: [
       'Oversaw Bureau of Prisons when Epstein died under suspicious circumstances',
@@ -54645,19 +54683,57 @@ const individualData: Record<string, IndividualProfile> = {
       'Declared satisfaction with suicide ruling despite overwhelming circumstantial evidence',
       'Attempted to fire SDNY US Attorney Geoffrey Berman who was investigating Epstein associates',
       'Recused himself from Epstein case but maintained DOJ oversight',
+      'Mueller Report Cover-Up: Issued misleading 4-page summary before anyone read report',
+      'Mueller wrote letter: Barr "did not fully capture" findings',
+      'Report documented 10+ instances of obstruction',
+      'Overruled career prosecutors in Roger Stone sentencing — all four resigned in protest',
+      'Ordered Flynn case dropped despite two guilty pleas',
+      'Ordered violent clearing of Lafayette Square for Trump photo-op',
+      'Deployed federal agents against Portland protesters without local consent',
+      'Spread mail-in voting fraud claims before 2020 election',
+      'Iran-Contra Cover-Up: Recommended pardons for Iran-Contra criminals in first tenure',
+    ],
+    charges: [
+      { statute: '18 U.S.C. \u00a7 1503', description: 'Obstruction of Justice - Mueller report cover-up', category: 'Federal' },
+      { statute: '18 U.S.C. \u00a7 1505', description: 'Obstruction of Congressional Proceeding - Misleading Congress', category: 'Federal' },
+      { statute: '18 U.S.C. \u00a7 1512(c)', description: 'Obstruction of Official Proceeding - Stone/Flynn interference', category: 'Federal' },
+      { statute: '18 U.S.C. \u00a7 242', description: 'Deprivation of Rights Under Color of Law - Lafayette Square', category: 'Federal' },
+      { statute: '18 U.S.C. \u00a7 241', description: 'Conspiracy Against Rights - Voter suppression rhetoric', category: 'Federal' },
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+      { title: 'Obstruction of Justice', slug: 'obstruction-of-justice', severity: 'critical' },
+      { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+      { title: 'DOJ Politicization', slug: 'doj-politicization', severity: 'critical' },
+      { title: 'Mueller Report Suppression', slug: 'mueller-suppression', severity: 'critical' },
     ],
     timeline: [
+      { date: 'May 23, 1950', event: 'Born in New York City' },
+      { date: '1973-1977', event: 'Works as CIA analyst' },
       { date: '1991-1993', event: 'First term as Attorney General under George H.W. Bush' },
-      { date: '2019 Feb', event: 'Confirmed as Attorney General under Trump' },
-      { date: '2019 Aug 10', event: 'Jeffrey Epstein died in federal custody under Barr\'s DOJ' },
-      { date: '2019 Aug', event: 'Declared he was satisfied death was suicide' },
-      { date: '2020 Jun', event: 'Attempted to fire SDNY US Attorney Geoffrey Berman' },
+      { date: '1992', event: 'Recommends Iran-Contra pardons, protecting Reagan/Bush officials' },
+      { date: 'June 2018', event: 'Sends unsolicited 19-page memo attacking Mueller obstruction theory' },
+      { date: 'February 2019', event: 'Confirmed as Attorney General (second term)' },
+      { date: 'March 24, 2019', event: 'Issues misleading 4-page Mueller Report summary' },
+      { date: 'March 27, 2019', event: 'Mueller writes letter objecting to Barr\'s characterization' },
+      { date: 'April 18, 2019', event: 'Full Mueller Report released, contradicts Barr summary' },
+      { date: 'August 10, 2019', event: 'Jeffrey Epstein dies in federal custody under Barr\'s DOJ oversight' },
+      { date: 'August 2019', event: 'Declares satisfaction with suicide ruling despite suspicious circumstances' },
+      { date: 'February 2020', event: 'Intervenes in Roger Stone sentencing, prosecutors resign' },
+      { date: 'May 2020', event: 'Moves to drop Flynn prosecution' },
+      { date: 'June 1, 2020', event: 'Orders Lafayette Square cleared for Trump photo-op' },
+      { date: 'June 2020', event: 'Attempts to fire SDNY US Attorney Geoffrey Berman' },
+      { date: 'December 1, 2020', event: 'Admits DOJ found no evidence of widespread fraud' },
+      { date: 'December 23, 2020', event: 'Resigns rather than support Trump\'s worst election lies' },
+      { date: '2022', event: 'Testifies to January 6 Committee, calls Trump claims "bullshit"' },
     ],
     sources: [
-      { title: 'DOJ Inspector General Report on Epstein Death', url: 'https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-monitoring-jeffrey-epstein-following-his', date: '2023' },
+      { title: 'DOJ IG Report on Epstein Death', url: 'https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-monitoring-jeffrey-epstein-following-his', date: '2023' },
+      { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+      { title: 'Mueller Letter to Barr', date: 'March 2019' },
+      { title: 'House Judiciary Contempt Proceedings', date: '2019' },
+      { title: 'January 6 Committee Testimony', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
+      { title: 'DOJ IG Lafayette Square Report', date: '2021' },
     ],
   },
   'donald-barr': {
@@ -54677,6 +54753,9 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Hired him as teacher at Dalton School', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'William Barr', relationship: 'Son, later AG during Epstein death', href: '/entities/individuals/william-barr' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Dalton School connection to Manhattan elite circles', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Alan Dershowitz', relationship: 'Both connected to Epstein\'s early career advancement', href: '/entities/individuals/alan-dershowitz' }
     ],
     controversies: [
       'Hired unqualified 20-year-old Epstein at elite prep school',
@@ -54881,6 +54960,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Recruited by and associated with', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Ghislaine Maxwell', relationship: 'Recruited by Maxwell', href: '/entities/individuals/ghislaine-maxwell' },
+    
+      { name: 'Sarah Kellen', relationship: 'Fellow Epstein assistant and named co-conspirator', href: '/entities/individuals/sarah-kellen' },
+      { name: 'Nadia Marcinkova', relationship: 'Fellow member of Epstein\'s inner circle', href: '/entities/individuals/nadia-marcinkova' },
+      { name: 'Lesley Groff', relationship: 'Fellow Epstein staff member who coordinated operations', href: '/entities/individuals/lesley-groff' }
     ],
     controversies: [
       'Granted immunity under 2008 NPA despite being named as co-conspirator',
@@ -54907,6 +54990,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Executive assistant', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Sarah Kellen', relationship: 'Co-assistant', href: '/entities/individuals/sarah-kellen' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Worked alongside Maxwell in managing Epstein household', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Adriana Ross', relationship: 'Fellow Epstein staff member and named co-conspirator', href: '/entities/individuals/adriana-ross' },
+      { name: 'Virginia Giuffre', relationship: 'Named by Giuffre as facilitator of Epstein\'s abuse', href: '/entities/individuals/virginia-giuffre' }
     ],
     controversies: [
       'Managed logistics for Epstein trafficking operation',
@@ -54966,6 +55053,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Ghislaine Maxwell', relationship: 'Personal assistant', href: '/entities/individuals/ghislaine-maxwell' },
       { name: 'Jeffrey Epstein', relationship: 'Associated through Maxwell', href: '/entities/individuals/jeffrey-epstein' },
+    
+      { name: 'Prince Andrew', relationship: 'Connected through London-based Epstein operations', href: '/entities/individuals/prince-andrew' },
+      { name: 'Virginia Giuffre', relationship: 'Named in Giuffre\'s accounts of London abuse', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Sarah Kellen', relationship: 'Fellow Epstein assistant across multiple locations', href: '/entities/individuals/sarah-kellen' }
     ],
     controversies: [
       'Named in court documents as facilitator',
@@ -54992,6 +55083,9 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Employer', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Cathy Alexander', relationship: 'Spouse, also employed on island', href: '/entities/individuals/cathy-alexander' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Alleged to have facilitated recruitment', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Virginia Giuffre', relationship: 'Fellow survivor in Epstein network cases', href: '/entities/individuals/virginia-giuffre' }
     ],
     controversies: [
       'Named in documents as potential witness to island activities',
@@ -55017,6 +55111,9 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Employer', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Miles Alexander', relationship: 'Spouse, also employed on island', href: '/entities/individuals/miles-alexander' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Named as facilitator in victim accounts', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Virginia Giuffre', relationship: 'Fellow Epstein survivor', href: '/entities/individuals/virginia-giuffre' }
     ],
     controversies: [
       'Named in documents as potential witness to island activities',
@@ -55106,6 +55203,9 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Ghislaine Maxwell', relationship: 'Sister', href: '/entities/individuals/ghislaine-maxwell' },
       { name: 'Robert Maxwell', relationship: 'Father', href: '/entities/individuals/robert-maxwell' },
+    
+      { name: 'Jeffrey Epstein', relationship: 'Connected through family\'s relationship with Epstein', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Edgar Bronfman', relationship: 'Family business connection through father\'s empire', href: '/entities/individuals/edgar-bronfman' }
     ],
     controversies: [
       'Convicted of fraud in Maxwell pension scandal',
@@ -55138,6 +55238,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Visited Epstein\'s island', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Virginia Giuffre', relationship: 'Named by Giuffre in deposition', href: '/entities/individuals/virginia-giuffre' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Connected through Epstein\'s scientific social events', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Joi Ito', relationship: 'MIT colleague connected through Epstein funding network', href: '/entities/individuals/joi-ito' },
+      { name: 'Lawrence Krauss', relationship: 'Fellow scientist in Epstein\'s academic circle', href: '/entities/individuals/lawrence-krauss' }
     ],
     controversies: [
       'Accused by Virginia Giuffre of sexual contact on Epstein\'s island',
@@ -55208,6 +55312,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Funding source, concealed relationship', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Martin Nowak', relationship: 'Co-recipient of Epstein funding at Harvard', href: '/entities/individuals/martin-nowak' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Met through Epstein\'s social network', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Reid Hoffman', relationship: 'Venture capital associate who also met with Epstein', href: '/entities/individuals/reid-hoffman' },
+      { name: 'Marvin Minsky', relationship: 'MIT colleague connected to Epstein funding network', href: '/entities/individuals/marvin-minsky' },
+      { name: 'Larry Summers', relationship: 'Harvard-MIT academic connection through Epstein donors', href: '/entities/individuals/larry-summers' }
     ],
     controversies: [
       'Accepted hidden Epstein funding after conviction',
@@ -55350,6 +55459,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Primary funder of his program', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Joi Ito', relationship: 'Both received Epstein funding', href: '/entities/individuals/joi-ito' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Connected through Epstein\'s academic funding operations', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Larry Summers', relationship: 'Harvard colleague during period of Epstein donations', href: '/entities/individuals/larry-summers' },
+      { name: 'Lawrence Krauss', relationship: 'Fellow scientist who received Epstein funding', href: '/entities/individuals/lawrence-krauss' }
     ],
     controversies: [
       'Ran Epstein-funded program at Harvard',
@@ -55380,6 +55493,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Flight log passenger', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Bill Clinton', relationship: 'Co-passenger on Africa trip', href: '/entities/individuals/bill-clinton' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Present on Africa trip organized by Epstein/Maxwell', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Kevin Spacey', relationship: 'Fellow celebrity who traveled on Epstein\'s plane', href: '/entities/individuals/kevin-spacey' },
+      { name: 'Naomi Campbell', relationship: 'Fellow celebrity in Epstein\'s social circle', href: '/entities/individuals/naomi-campbell' }
     ],
     controversies: [
       'Named in Epstein flight logs on Africa trip with Clinton',
@@ -55407,6 +55524,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Flight log passenger', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Ghislaine Maxwell', relationship: 'Close friend', href: '/entities/individuals/ghislaine-maxwell' },
+    
+      { name: 'Prince Andrew', relationship: 'Connected through Maxwell\'s London social circle', href: '/entities/individuals/prince-andrew' },
+      { name: 'Donald Trump', relationship: 'Overlapping social circles in New York elite', href: '/entities/individuals/donald-trump' },
+      { name: 'Chris Tucker', relationship: 'Fellow celebrity in Epstein\'s entertainment circle', href: '/entities/individuals/chris-tucker' }
     ],
     controversies: [
       'Named in Epstein flight logs',
@@ -55435,6 +55556,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Social associate, dined post-conviction', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Noam Chomsky', relationship: 'Epstein arranged dinner between them', href: '/entities/individuals/noam-chomsky' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Connected through New York social circles', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Alan Dershowitz', relationship: 'Longtime friend; Dershowitz defended both Epstein and Allen', href: '/entities/individuals/alan-dershowitz' },
+      { name: 'Prince Andrew', relationship: 'Both part of Epstein\'s high-profile social network', href: '/entities/individuals/prince-andrew' }
     ],
     controversies: [
       'Dined with Epstein after 2008 conviction',
@@ -55550,6 +55675,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Victim - recruited at 14', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Ghislaine Maxwell', relationship: 'Victim', href: '/entities/individuals/ghislaine-maxwell' },
+    
+      { name: 'Virginia Giuffre', relationship: 'Fellow victim and survivor who spoke publicly', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Haley Robson', relationship: 'Recruited into Epstein network by Robson', href: '/entities/individuals/haley-robson' },
+      { name: 'Sarah Kellen', relationship: 'Epstein assistant who scheduled abuse sessions', href: '/entities/individuals/sarah-kellen' }
     ],
     controversies: [
     ],
@@ -55580,6 +55709,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Photographed with, social contact', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Tony Blair', relationship: 'Political ally', href: '/entities/individuals/tony-blair' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Connected through British political-social elite circles', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Prince Andrew', relationship: 'Fellow member of British establishment linked to Epstein', href: '/entities/individuals/prince-andrew' },
+      { name: 'Bill Clinton', relationship: 'Transatlantic political connection through Epstein social network', href: '/entities/individuals/bill-clinton' },
+      { name: 'Lynn Forester de Rothschild', relationship: 'Both introduced to Epstein through British elite social circles', href: '/entities/individuals/lynn-forester-de-rothschild' }
     ],
     controversies: [
       'Photographed with Epstein multiple times',
@@ -55675,6 +55809,9 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Arranged White House visits for', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Bill Clinton', relationship: 'Worked in Clinton White House', href: '/entities/individuals/bill-clinton' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Facilitated Maxwell\'s access to Clinton White House', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Virginia Giuffre', relationship: 'Referenced in connection with Clinton-Epstein White House visits', href: '/entities/individuals/virginia-giuffre' }
     ],
     controversies: [
       'Arranged Epstein\'s White House visits',
@@ -55704,6 +55841,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Named in Black Book, social contact', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Bill Clinton', relationship: 'Reportedly introduced to Epstein', href: '/entities/individuals/bill-clinton' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Connected through New York-London elite social circles', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Peter Mandelson', relationship: 'Fellow British elite connected to Epstein social network', href: '/entities/individuals/peter-mandelson' },
+      { name: 'Ehud Barak', relationship: 'Connected through Epstein\'s international political network', href: '/entities/individuals/ehud-barak' }
     ],
     controversies: [
       'Named in Epstein\'s Black Book',
@@ -55901,6 +56042,9 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Met multiple times post-conviction', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Woody Allen', relationship: 'Epstein arranged dinner with', href: '/entities/individuals/woody-allen' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Connected through Epstein social events', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Lawrence Krauss', relationship: 'Fellow academic in Epstein\'s intellectual circle', href: '/entities/individuals/lawrence-krauss' }
     ],
     controversies: [
       'Met Epstein multiple times after sex offender conviction',
@@ -56135,6 +56279,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Organized events he attended/funded', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'John Brockman', relationship: 'Co-founder of Edge', href: '/entities/individuals/john-brockman' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Connected through Edge Foundation intellectual circuits', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Lawrence Krauss', relationship: 'Edge Foundation scientist connected to Epstein', href: '/entities/individuals/lawrence-krauss' },
+      { name: 'Marvin Minsky', relationship: 'Edge Foundation associate who attended Epstein events', href: '/entities/individuals/marvin-minsky' },
+      { name: 'Daniel Dennett', relationship: 'Edge Foundation intellectual in Epstein-adjacent circles', href: '/entities/individuals/daniel-dennett' }
     ],
     controversies: [
       'Helped organize events connecting Epstein with scientists',
@@ -56518,6 +56667,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Employer for 11 years', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Ghislaine Maxwell', relationship: 'Witnessed her role', href: '/entities/individuals/ghislaine-maxwell' },
+    
+      { name: 'Virginia Giuffre', relationship: 'Witnessed Giuffre\'s presence at Epstein properties', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Alfredo Rodriguez', relationship: 'Fellow Epstein household employee who kept evidence documents', href: '/entities/individuals/alfredo-rodriguez' },
+      { name: 'Nadia Marcinkova', relationship: 'Witnessed her presence in Epstein household', href: '/entities/individuals/nadia-marcinkova' }
     ],
     controversies: [
     ],
@@ -56629,6 +56782,9 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Hired by Epstein family to observe autopsy', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Barbara Sampson', relationship: 'NYC Chief Medical Examiner who ruled suicide', href: '/entities/individuals/barbara-sampson' },
+    
+      { name: 'Ghislaine Maxwell', relationship: 'Forensic findings relevant to Maxwell defense arguments', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Nicholas Tartaglione', relationship: 'Epstein cellmate investigated in connection with death', href: '/entities/individuals/nicholas-tartaglione' }
     ],
     controversies: [
     ],
@@ -56655,6 +56811,9 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Ruled his death suicide by hanging', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Michael Baden', relationship: 'Pathologist who disputed the suicide ruling', href: '/entities/individuals/michael-baden' },
+    
+      { name: 'William Barr', relationship: 'AG who accepted suicide ruling amid widespread skepticism', href: '/entities/individuals/william-barr' },
+      { name: 'Ghislaine Maxwell', relationship: 'Autopsy ruling impacted Maxwell case proceedings', href: '/entities/individuals/ghislaine-maxwell' }
     ],
     controversies: [
       'Ruled Epstein death suicide despite contradictory expert findings',
@@ -56678,6 +56837,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Jeffrey Epstein', relationship: 'Victim', href: '/entities/individuals/jeffrey-epstein' },
       { name: 'Ghislaine Maxwell', relationship: 'Victim', href: '/entities/individuals/ghislaine-maxwell' },
+    
+      { name: 'Virginia Giuffre', relationship: 'Fellow survivor and advocate for Epstein victims', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Courtney Wild', relationship: 'Fellow victim who challenged the 2008 plea deal', href: '/entities/individuals/courtney-wild' },
+      { name: 'Chauntae Davies', relationship: 'Fellow survivor of Epstein trafficking network', href: '/entities/individuals/chauntae-davies' }
     ],
     controversies: [
     ],

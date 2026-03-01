@@ -39,7 +39,7 @@ const investigationData = {
     { name: 'Paul Manafort', role: 'Campaign Chair - Pardoned for witness tampering', href: '/entities/individuals/paul-manafort' },
     { name: 'Michael Cohen', role: 'Personal Attorney - Testified about obstruction efforts', href: '/entities/individuals/michael-cohen' },
     { name: 'Don McGahn', role: 'White House Counsel - Refused to fire Mueller', href: '/entities/individuals/don-mcgahn' },
-    { name: 'William Barr', role: 'AG - Misrepresented Mueller findings', href: '/entities/individuals/bill-barr' },
+    { name: 'William Barr', role: 'AG - Misrepresented Mueller findings', href: '/entities/individuals/william-barr' },
   ],
 
   muellerObstructionInstances: [
