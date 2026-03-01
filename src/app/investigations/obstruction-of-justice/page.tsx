@@ -210,7 +210,7 @@ export default function ObstructionPage() {
   const [expandedInstance, setExpandedInstance] = useState<number | null>(1);
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen text-white">
       {/* Header */}
       <div className="border-b border-zinc-800">
         <div className="max-w-6xl mx-auto px-6 py-8">

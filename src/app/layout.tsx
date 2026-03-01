@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import StaticGridBackground from "@/components/effects/StaticGridBackground";
+import SumerianMatrixRain from "@/components/effects/SumerianMatrixRain";
 import RandomWordPopups from "@/components/effects/RandomWordPopups";
 import { SurveillanceWarning, DataCorruption, TimestampOverlay } from "@/components/effects/ParanoiaEffects";
 import BackToTop from "@/components/ui/BackToTop";
@@ -71,7 +71,7 @@ export default function RootLayout({
         <AuthGate
           header={
             <>
-              <StaticGridBackground />
+              <SumerianMatrixRain />
               <RandomWordPopups frequency={12000} />
               <SurveillanceWarning />
               <DataCorruption />
@@ -87,7 +87,9 @@ export default function RootLayout({
           }
         >
           <main id="main-content" className="flex-1 relative z-10">
-            <Providers>{children}</Providers>
+            <div className="glass-panel mx-4 my-6 p-6 sm:mx-6 lg:mx-8">
+              <Providers>{children}</Providers>
+            </div>
           </main>
         </AuthGate>
       </body>

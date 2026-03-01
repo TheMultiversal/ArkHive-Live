@@ -4536,7 +4536,8 @@ const corporationData: Record<string, {
     lobbyingSpend: '$13+ million annually',
     governmentContracts: 'Major supplier to US military and strategic petroleum reserve',
     politicalConnections: 'One of the largest corporate political donors in the energy sector. Longstanding member of the American Petroleum Institute. Chevron\'s lobbying has been instrumental in blocking climate legislation and maintaining fossil fuel subsidies worth billions annually.',
-  },  'dalton-school': {
+  },
+  'dalton-school': {
     name: 'Dalton School',
     industry: 'Private Education',
     riskLevel: 'medium',
@@ -4907,7 +4908,7 @@ export default function CorporationDetailPage({ params }: PageProps) {
   }
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen text-white">
       {/* Header */}
       <div className="border-b border-zinc-800">
         <div className="max-w-6xl mx-auto px-6 py-8">

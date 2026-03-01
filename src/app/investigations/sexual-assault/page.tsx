@@ -185,7 +185,7 @@ export default function SexualAssaultPage() {
   const [showAllAccusers, setShowAllAccusers] = useState(false);
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen text-white">
       {/* Content Warning */}
       <div className="bg-blood-900/30 border-b border-blood-600">
         <div className="max-w-6xl mx-auto px-6 py-3">

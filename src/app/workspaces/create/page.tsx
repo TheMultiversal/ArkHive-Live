@@ -91,7 +91,7 @@ function CreateWorkspaceContent() {
   };
 
   return (
-    <div className="min-h-screen bg-[#030303] pt-16 lg:pt-20">
+    <div className="min-h-screen pt-16 lg:pt-20">
       {/* Page Header */}
       <div className="border-b border-white/[0.04]">
         <div className="max-w-2xl mx-auto px-6 py-6">

@@ -119,7 +119,7 @@ export function WorkspaceLoadingState() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="min-h-screen bg-[#030303] pt-16 lg:pt-20"
+      className="min-h-screen pt-16 lg:pt-20"
     >
       <div className="max-w-7xl mx-auto px-6 py-8">
         <div className="flex items-center justify-between mb-8">

@@ -37,7 +37,7 @@ export default function InvestigationCard({ investigation, featured = false }: I
   return (
     <Link
       href={`/investigations/${investigation.slug}`}
-      className={`group block border border-blood-900/50 bg-black/60 overflow-hidden hover:border-blood-700/60 transition-all duration-300 ${featured ? "lg:col-span-2 lg:row-span-2" : ""}`}
+      className={`group block border border-blood-900/40 bg-black/50 backdrop-blur-md overflow-hidden hover:border-blood-700/60 transition-all duration-300 ${featured ? "lg:col-span-2 lg:row-span-2" : ""}`}
     >
       {/* Image Placeholder / Header */}
       <div className={`relative ${featured ? "h-48 lg:h-64" : "h-32"} bg-gradient-to-br from-zinc-900 to-black overflow-hidden`}>

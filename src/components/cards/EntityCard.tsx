@@ -52,7 +52,7 @@ export default function EntityCard({ entity }: EntityCardProps) {
   return (
     <Link
       href={`/entities/${typePath}/${entity.slug}`}
-      className="group block border border-zinc-800 bg-black/60 overflow-hidden hover:border-blood-700/50 transition-all duration-300"
+      className="group block border border-zinc-800/60 bg-black/50 backdrop-blur-md overflow-hidden hover:border-blood-700/50 transition-all duration-300"
     >
       <div className="p-5">
         {/* Header */}

@@ -50,7 +50,7 @@ export default function WorkspaceDetailPage({ params }: { params: Promise<{ id: 
 
   if (!workspace) {
     return (
-      <div className="min-h-screen bg-[#030303] pt-16 lg:pt-20 flex items-center justify-center">
+      <div className="min-h-screen pt-16 lg:pt-20 flex items-center justify-center">
         <div className="text-center">
           <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-white/[0.02] flex items-center justify-center">
             <FileText className="w-5 h-5 text-white/15" />
@@ -92,7 +92,7 @@ export default function WorkspaceDetailPage({ params }: { params: Promise<{ id: 
   const onlineCount = workspace.members.filter(m => m.isOnline).length;
 
   return (
-    <div className="min-h-screen bg-[#030303] pt-16 lg:pt-20 flex flex-col">
+    <div className="min-h-screen pt-16 lg:pt-20 flex flex-col">
       {/* Workspace Header */}
       <div className="border-b border-white/[0.04]">
         <div className="px-4 py-3">

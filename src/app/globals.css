@@ -168,17 +168,21 @@ a:focus-visible {
 /* CRYSTAL CLEAR styles - NO BLUR, NO ROUNDED CORNERS */
 @layer components {
   .glass {
-    background: rgba(0, 0, 0, 0.98);
-    border: 1px solid rgba(127, 29, 29, 0.6);
+    background: rgba(5, 5, 5, 0.85);
+    border: 1px solid rgba(127, 29, 29, 0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
   }
 
   .glass-card {
-    background: linear-gradient(135deg, rgba(5, 5, 5, 1), rgba(0, 0, 0, 1));
-    border: 1px solid rgba(127, 29, 29, 0.5);
+    background: linear-gradient(135deg, rgba(10, 10, 10, 0.82), rgba(5, 5, 5, 0.78));
+    border: 1px solid rgba(127, 29, 29, 0.4);
     border-radius: 0;
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
   }
 
   .glass-card::before {
@@ -206,7 +210,7 @@ a:focus-visible {
 
   .glass-card:hover {
     border-color: rgba(220, 38, 38, 0.7);
-    box-shadow: 0 0 1px rgba(220, 38, 38, 0.8), 0 4px 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 1px rgba(220, 38, 38, 0.8), 0 4px 30px rgba(0, 0, 0, 0.6), inset 0 0 30px rgba(220, 38, 38, 0.03);
     transform: translateY(-2px);
   }
 
@@ -241,7 +245,7 @@ a:focus-visible {
   }
 
   .danger-badge {
-    background: linear-gradient(135deg, rgba(220, 38, 38, 0.3), rgba(127, 29, 29, 0.3));
+    background: linear-gradient(135deg, rgba(220, 38, 38, 0.25), rgba(127, 29, 29, 0.25));
     border: 1px solid rgba(220, 38, 38, 0.6);
     color: #fca5a5;
     padding: 4px 12px;
@@ -250,15 +254,28 @@ a:focus-visible {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  /* Glass panel - wraps all page content so text sits on translucent surface */
+  .glass-panel {
+    background: rgba(5, 5, 5, 0.82);
+    border: 1px solid rgba(127, 29, 29, 0.25);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
   }
 
   .entity-tag {
-    background: rgba(5, 5, 5, 1);
+    background: rgba(5, 5, 5, 0.8);
     border: 1px solid rgba(127, 29, 29, 0.5);
     padding: 6px 14px;
     border-radius: 0;
     font-size: 0.875rem;
     transition: all 0.2s ease;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
   }
 
   .entity-tag:hover {
