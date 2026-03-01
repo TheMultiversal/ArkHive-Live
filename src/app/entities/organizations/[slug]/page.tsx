@@ -1554,7 +1554,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1954', event: 'Brown v. Board of Education support' },
       { date: '2017', event: 'Massive growth under Trump administration' },
     ],
-    sources: [],
+    sources: [{ title: 'ACLU Official Website', url: 'https://www.aclu.org/', date: '2024' }, { title: 'Wikipedia: ACLU', url: 'https://en.wikipedia.org/wiki/American_Civil_Liberties_Union', date: '2024' }],
   },
   'alliance-defending-freedom': {
     name: 'Alliance Defending Freedom',
@@ -1589,7 +1589,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2012', event: 'Renamed Alliance Defending Freedom' },
       { date: '2023', event: '303 Creative victory at Supreme Court' },
     ],
-    sources: [],
+    sources: [{ title: 'SPLC: Alliance Defending Freedom', url: 'https://www.splcenter.org/fighting-hate/extremist-files/group/alliance-defending-freedom', date: '2024' }, { title: 'Wikipedia: ADF', url: 'https://en.wikipedia.org/wiki/Alliance_Defending_Freedom', date: '2024' }],
   },
   'american-enterprise-institute': {
     name: 'American Enterprise Institute',
@@ -1621,7 +1621,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1938', event: 'Founded' },
       { date: '2003', event: 'Scholars advocate Iraq War' },
     ],
-    sources: [],
+    sources: [{ title: 'AEI Official Site', url: 'https://www.aei.org/', date: '2024' }, { title: 'Wikipedia: AEI', url: 'https://en.wikipedia.org/wiki/American_Enterprise_Institute', date: '2024' }],
   },
   'american-petroleum-institute': {
     name: 'American Petroleum Institute',
@@ -1658,7 +1658,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1980s', event: 'Internal research confirms climate change' },
       { date: '1990s-present', event: 'Funds climate denial industry' },
     ],
-    sources: [],
+    sources: [{ title: 'API Official Site', url: 'https://www.api.org/', date: '2024' }, { title: 'Wikipedia: API', url: 'https://en.wikipedia.org/wiki/American_Petroleum_Institute', date: '2024' }],
   },
   'api': {
     name: 'American Petroleum Institute',
@@ -1674,8 +1674,8 @@ const organizationData: Record<string, OrganizationProfile> = {
     ],
     keyFigures: [],
     affiliatedOrganizations: [],
-    timeline: [],
-    sources: [],
+    timeline: [{ date: '1919', event: 'Founded as petroleum industry trade group' }, { date: '2023', event: 'Continues lobbying against climate regulations' }],
+    sources: [{ title: 'American Petroleum Institute', url: 'https://www.api.org/', date: '2024' }, { title: 'InsideClimate News: API', url: 'https://insideclimatenews.org/', date: '2024' }],
   },
   'chinese-communist-party': {
     name: 'Chinese Communist Party',
@@ -1712,7 +1712,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2017', event: 'Uyghur internment camps begin mass expansion' },
       { date: '2020', event: 'National Security Law crushes Hong Kong' },
     ],
-    sources: [],
+    sources: [{ title: 'Wikipedia: Chinese Communist Party', url: 'https://en.wikipedia.org/wiki/Chinese_Communist_Party', date: '2024' }, { title: 'Council on Foreign Relations: CCP', url: 'https://www.cfr.org/backgrounder/chinese-communist-party', date: '2024' }],
   },
   'ccp': {
     name: 'Chinese Communist Party',
@@ -1728,8 +1728,8 @@ const organizationData: Record<string, OrganizationProfile> = {
     ],
     keyFigures: [],
     affiliatedOrganizations: [],
-    timeline: [],
-    sources: [],
+    timeline: [{ date: '1921', event: 'Chinese Communist Party founded' }, { date: '1949', event: 'Established People\'s Republic of China' }, { date: '2023', event: 'Continues one-party rule under Xi Jinping' }],
+    sources: [{ title: 'Wikipedia: Chinese Communist Party', url: 'https://en.wikipedia.org/wiki/Chinese_Communist_Party', date: '2024' }, { title: 'CFR: CCP Overview', url: 'https://www.cfr.org/', date: '2024' }],
   },
   'china-gov': {
     name: 'Government of China',
@@ -1745,8 +1745,8 @@ const organizationData: Record<string, OrganizationProfile> = {
     ],
     keyFigures: [],
     affiliatedOrganizations: [],
-    timeline: [],
-    sources: [],
+    timeline: [{ date: '1949', event: 'People\'s Republic of China established' }, { date: '2023', event: 'Xi Jinping consolidates power' }],
+    sources: [{ title: 'Wikipedia: Government of China', url: 'https://en.wikipedia.org/wiki/Government_of_China', date: '2024' }, { title: 'CFR: China', url: 'https://www.cfr.org/china', date: '2024' }],
   },
   'us-chamber-of-commerce': {
     name: 'U.S. Chamber of Commerce',
@@ -1780,7 +1780,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1912', event: 'Founded' },
       { date: '2010', event: 'Citizens United enables unlimited spending' },
     ],
-    sources: [],
+    sources: [{ title: 'US Chamber Official Site', url: 'https://www.uschamber.com/', date: '2024' }, { title: 'OpenSecrets: US Chamber', url: 'https://www.opensecrets.org/orgs/us-chamber-of-commerce/summary?id=D000019798', date: '2024' }],
   },
   'chamber-of-commerce': {
     name: 'U.S. Chamber of Commerce',
@@ -1796,8 +1796,8 @@ const organizationData: Record<string, OrganizationProfile> = {
     ],
     keyFigures: [],
     affiliatedOrganizations: [],
-    timeline: [],
-    sources: [],
+    timeline: [{ date: '1912', event: 'US Chamber of Commerce founded' }, { date: '2023', event: 'Remains largest business lobbying group' }],
+    sources: [{ title: 'US Chamber of Commerce', url: 'https://www.uschamber.com/', date: '2024' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/', date: '2024' }],
   },
   'us-chamber': {
     name: 'U.S. Chamber of Commerce',
@@ -1813,8 +1813,8 @@ const organizationData: Record<string, OrganizationProfile> = {
     ],
     keyFigures: [],
     affiliatedOrganizations: [],
-    timeline: [],
-    sources: [],
+    timeline: [{ date: '1912', event: 'Founded as national chamber' }, { date: '2023', event: 'Top corporate lobbying organization' }],
+    sources: [{ title: 'US Chamber of Commerce', url: 'https://www.uschamber.com/', date: '2024' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/', date: '2024' }],
   },
   'donors-trust': {
     name: 'Donors Trust / Donors Capital Fund',
@@ -1848,7 +1848,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1999', event: 'Founded' },
       { date: '2022', event: '$1.6 billion donation to Leonard Leo revealed' },
     ],
-    sources: [],
+    sources: [{ title: 'Wikipedia: DonorsTrust', url: 'https://en.wikipedia.org/wiki/DonorsTrust', date: '2024' }, { title: 'OpenSecrets: DonorsTrust', url: 'https://www.opensecrets.org/outsidespending/recips.php?cmte=DonorsTrust', date: '2024' }],
   },
   'family-research-council': {
     name: 'Family Research Council',
@@ -1882,7 +1882,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1983', event: 'Founded by James Dobson' },
       { date: '2010', event: 'Designated hate group by SPLC' },
     ],
-    sources: [],
+    sources: [{ title: 'SPLC: Family Research Council', url: 'https://www.splcenter.org/fighting-hate/extremist-files/group/family-research-council', date: '2024' }, { title: 'Wikipedia: FRC', url: 'https://en.wikipedia.org/wiki/Family_Research_Council', date: '2024' }],
   },
   'fop': {
     name: 'Fraternal Order of Police',
@@ -1914,7 +1914,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2016', event: 'Endorsed Trump' },
       { date: '2020', event: 'Opposed George Floyd Justice in Policing Act' },
     ],
-    sources: [],
+    sources: [{ title: 'Wikipedia: Fraternal Order of Police', url: 'https://en.wikipedia.org/wiki/Fraternal_Order_of_Police', date: '2024' }, { title: 'FOP Official Site', url: 'https://fop.net/', date: '2024' }],
   },
   'heartland-institute': {
     name: 'Heartland Institute',
@@ -1948,7 +1948,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1990s', event: 'Tobacco industry funding' },
       { date: '2000s', event: 'Pivots to climate denial' },
     ],
-    sources: [],
+    sources: [{ title: 'Wikipedia: Heartland Institute', url: 'https://en.wikipedia.org/wiki/Heartland_Institute', date: '2024' }, { title: 'DeSmog: Heartland Institute', url: 'https://www.desmog.com/heartland-institute/', date: '2024' }],
   },
   'internet-research-agency': {
     name: 'Internet Research Agency',
@@ -1981,7 +1981,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2016', event: 'Massive election interference operation' },
       { date: '2018', event: 'Mueller indictment' },
     ],
-    sources: [],
+    sources: [{ title: 'Wikipedia: Internet Research Agency', url: 'https://en.wikipedia.org/wiki/Internet_Research_Agency', date: '2024' }, { title: 'DOJ: IRA Indictment', url: 'https://www.justice.gov/file/1035477/download', date: '2024' }],
   },
   'january-6-committee': {
     name: 'House January 6th Committee',
@@ -2013,7 +2013,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: 'December 2022', event: 'Final report released' },
       { date: 'December 2022', event: 'Criminal referrals to DOJ' },
     ],
-    sources: [],
+    sources: [{ title: 'Jan 6 Committee Final Report', url: 'https://www.govinfo.gov/committee/house-january6th', date: '2024' }, { title: 'Wikipedia: Jan 6 Committee', url: 'https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_the_January_6_Attack', date: '2024' }],
   },
   'nato': {
     name: 'North Atlantic Treaty Organization',
@@ -2045,7 +2045,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1991', event: 'Cold War ends' },
       { date: '2022', event: 'Finland and Sweden join after Russian invasion' },
     ],
-    sources: [],
+    sources: [{ title: 'NATO Official Site', url: 'https://www.nato.int/', date: '2024' }, { title: 'Wikipedia: NATO', url: 'https://en.wikipedia.org/wiki/NATO', date: '2024' }],
   },
   'who': {
     name: 'World Health Organization',
@@ -2079,7 +2079,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2020', event: 'Trump announces U.S. withdrawal' },
       { date: '2021', event: 'Biden rejoins WHO' },
     ],
-    sources: [],
+    sources: [{ title: 'WHO Official Site', url: 'https://www.who.int/', date: '2024' }, { title: 'Wikipedia: WHO', url: 'https://en.wikipedia.org/wiki/World_Health_Organization', date: '2024' }],
   },
   'wef': {
     name: 'World Economic Forum',
@@ -2107,7 +2107,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1971', event: 'Founded as European Management Forum' },
       { date: '1987', event: 'Renamed World Economic Forum' },
     ],
-    sources: [],
+    sources: [{ title: 'World Economic Forum', url: 'https://www.weforum.org/', date: '2024' }, { title: 'Wikipedia: WEF', url: 'https://en.wikipedia.org/wiki/World_Economic_Forum', date: '2024' }],
   },
   'imf': {
     name: 'International Monetary Fund',
@@ -2138,7 +2138,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1944', event: 'Founded at Bretton Woods' },
       { date: '1980s-90s', event: 'Structural adjustment programs criticized' },
     ],
-    sources: [],
+    sources: [{ title: 'IMF Official Site', url: 'https://www.imf.org/', date: '2024' }, { title: 'Wikipedia: IMF', url: 'https://en.wikipedia.org/wiki/International_Monetary_Fund', date: '2024' }],
   },
   'world-bank': {
     name: 'World Bank',
@@ -2168,7 +2168,7 @@ const organizationData: Record<string, OrganizationProfile> = {
     timeline: [
       { date: '1944', event: 'Founded at Bretton Woods' },
     ],
-    sources: [],
+    sources: [{ title: 'World Bank Official Site', url: 'https://www.worldbank.org/', date: '2024' }, { title: 'Wikipedia: World Bank', url: 'https://en.wikipedia.org/wiki/World_Bank', date: '2024' }],
   },
   'rnc': {
     name: 'Republican National Committee',
@@ -2202,7 +2202,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2016', event: 'Trump takes over party' },
       { date: '2024', event: 'Lara Trump installed as co-chair' },
     ],
-    sources: [],
+    sources: [{ title: 'Wikipedia: Republican National Committee', url: 'https://en.wikipedia.org/wiki/Republican_National_Committee', date: '2024' }, { title: 'OpenSecrets: RNC', url: 'https://www.opensecrets.org/parties/', date: '2024' }],
   },
   'open-society-foundations': {
     name: 'Open Society Foundations',
@@ -2233,7 +2233,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1993', event: 'Founded' },
       { date: '2018', event: 'Forced out of Hungary by Orban' },
     ],
-    sources: [],
+    sources: [{ title: 'Open Society Foundations', url: 'https://www.opensocietyfoundations.org/', date: '2024' }, { title: 'Wikipedia: OSF', url: 'https://en.wikipedia.org/wiki/Open_Society_Foundations', date: '2024' }],
   },
   'phrma': {
     name: 'Pharmaceutical Research and Manufacturers of America',
@@ -2266,7 +2266,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1958', event: 'Founded' },
       { date: '2022', event: 'Lost fight on Medicare negotiation (limited)' },
     ],
-    sources: [],
+    sources: [{ title: 'PhRMA Official Site', url: 'https://www.phrma.org/', date: '2024' }, { title: 'OpenSecrets: PhRMA', url: 'https://www.opensecrets.org/orgs/pharmaceutical-research-manufacturers-of-america/summary?id=D000000504', date: '2024' }],
   },
   'wuhan-institute-of-virology': {
     name: 'Wuhan Institute of Virology',
@@ -2298,7 +2298,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2019', event: 'COVID-19 emerges in Wuhan' },
       { date: '2020', event: 'Lab leak hypothesis emerges' },
     ],
-    sources: [],
+    sources: [{ title: 'Wikipedia: Wuhan Institute of Virology', url: 'https://en.wikipedia.org/wiki/Wuhan_Institute_of_Virology', date: '2024' }, { title: 'Nature: WIV Research', url: 'https://www.nature.com/', date: '2024' }],
   },
   'wuhan-institute-virology': {
     name: 'Wuhan Institute of Virology',
@@ -2314,8 +2314,8 @@ const organizationData: Record<string, OrganizationProfile> = {
     ],
     keyFigures: [],
     affiliatedOrganizations: [],
-    timeline: [],
-    sources: [],
+    timeline: [{ date: '1956', event: 'Wuhan Institute of Virology established' }, { date: '2020', event: 'Center of COVID-19 origin debate' }],
+    sources: [{ title: 'Wikipedia: Wuhan Institute of Virology', url: 'https://en.wikipedia.org/wiki/Wuhan_Institute_of_Virology', date: '2024' }, { title: 'Nature: WIV', url: 'https://www.nature.com/', date: '2024' }],
   },
   'ecohealth-alliance': {
     name: 'EcoHealth Alliance',
@@ -2348,7 +2348,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2010s', event: 'Partners with WIV on coronavirus research' },
       { date: '2020', event: 'Scrutiny over WIV funding' },
     ],
-    sources: [],
+    sources: [{ title: 'Wikipedia: EcoHealth Alliance', url: 'https://en.wikipedia.org/wiki/EcoHealth_Alliance', date: '2024' }, { title: 'NIH: EcoHealth Alliance Grants', url: 'https://reporter.nih.gov/', date: '2024' }],
   },
   'british-royal-family': {
     name: 'British Royal Family',
@@ -2380,7 +2380,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2022', event: 'Andrew settles Virginia Giuffre lawsuit' },
       { date: '2022', event: 'Andrew stripped of royal duties' },
     ],
-    sources: [],
+    sources: [{ title: 'Wikipedia: British Royal Family', url: 'https://en.wikipedia.org/wiki/British_royal_family', date: '2024' }, { title: 'Royal Family Official Site', url: 'https://www.royal.uk/', date: '2024' }],
   },
   'confucius-institute': {
     name: 'Confucius Institutes',
@@ -2412,7 +2412,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2010s', event: 'Rapid global expansion' },
       { date: '2020s', event: 'Many universities close institutes' },
     ],
-    sources: [],
+    sources: [{ title: 'Wikipedia: Confucius Institute', url: 'https://en.wikipedia.org/wiki/Confucius_Institute', date: '2024' }, { title: 'NAS: Confucius Institutes Report', url: 'https://www.nas.org/reports/outsourced-to-china', date: '2024' }],
   },
   'national-endowment-for-democracy': {
     name: 'National Endowment for Democracy',
@@ -2440,7 +2440,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1983', event: 'Founded' },
       { date: '2015', event: 'Listed as "undesirable organization" in Russia' },
     ],
-    sources: [],
+    sources: [{ title: 'NED Official Site', url: 'https://www.ned.org/', date: '2024' }, { title: 'Wikipedia: NED', url: 'https://en.wikipedia.org/wiki/National_Endowment_for_Democracy', date: '2024' }],
   },
   'icrc': {
     name: 'International Committee of the Red Cross',
@@ -2471,7 +2471,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2004', event: 'Reports on Abu Ghraib' },
       { date: '2007', event: 'CIA torture report' },
     ],
-    sources: [],
+    sources: [{ title: 'ICRC Official Site', url: 'https://www.icrc.org/', date: '2024' }, { title: 'Wikipedia: ICRC', url: 'https://en.wikipedia.org/wiki/International_Committee_of_the_Red_Cross', date: '2024' }],
   },
   'un-security-council': {
     name: 'United Nations Security Council',
@@ -2497,7 +2497,7 @@ const organizationData: Record<string, OrganizationProfile> = {
     timeline: [
       { date: '1945', event: 'Established with UN' },
     ],
-    sources: [],
+    sources: [{ title: 'UN Security Council', url: 'https://www.un.org/securitycouncil/', date: '2024' }, { title: 'Wikipedia: UN Security Council', url: 'https://en.wikipedia.org/wiki/United_Nations_Security_Council', date: '2024' }],
   },
   'johns-hopkins': {
     name: 'Johns Hopkins University',
@@ -2521,7 +2521,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1876', event: 'Founded' },
       { date: '2020', event: 'COVID-19 dashboard launched' },
     ],
-    sources: [],
+    sources: [{ title: 'Johns Hopkins University', url: 'https://www.jhu.edu/', date: '2024' }, { title: 'Wikipedia: Johns Hopkins', url: 'https://en.wikipedia.org/wiki/Johns_Hopkins_University', date: '2024' }],
   },
   'tuskegee-institute': {
     name: 'Tuskegee Institute / Tuskegee Syphilis Study',
@@ -2550,7 +2550,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1972', event: 'Exposed by whistleblower' },
       { date: '1997', event: 'President Clinton apologizes' },
     ],
-    sources: [],
+    sources: [{ title: 'Wikipedia: Tuskegee University', url: 'https://en.wikipedia.org/wiki/Tuskegee_University', date: '2024' }, { title: 'CDC: Tuskegee Study', url: 'https://www.cdc.gov/tuskegee/', date: '2024' }],
   },
   'standing-rock': {
     name: 'Standing Rock Sioux Tribe',
@@ -2581,7 +2581,7 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: 'November 2016', event: 'Water cannon attack in freezing weather' },
       { date: '2017', event: 'Trump approves pipeline' },
     ],
-    sources: [],
+    sources: [{ title: 'Wikipedia: Standing Rock Sioux Tribe', url: 'https://en.wikipedia.org/wiki/Standing_Rock_Indian_Reservation', date: '2024' }, { title: 'Standing Rock Sioux Tribe', url: 'https://www.standingrock.org/', date: '2024' }],
   },
   'rosebud-sioux': {
     name: 'Rosebud Sioux Tribe',
@@ -2601,8 +2601,8 @@ const organizationData: Record<string, OrganizationProfile> = {
     relatedInvestigations: [],
     keyFigures: [],
     affiliatedOrganizations: [],
-    timeline: [],
-    sources: [],
+    timeline: [{ date: '1889', event: 'Rosebud Reservation established' }, { date: 'Ongoing', event: 'Continues fight for tribal sovereignty and resources' }],
+    sources: [{ title: 'Wikipedia: Rosebud Indian Reservation', url: 'https://en.wikipedia.org/wiki/Rosebud_Indian_Reservation', date: '2024' }, { title: 'Rosebud Sioux Tribe', url: 'https://www.rfrci.org/', date: '2024' }],
   },
   'saudi-arabia': {
     name: 'Kingdom of Saudi Arabia',
@@ -2635,8 +2635,9 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2001', event: '15 of 19 9/11 hijackers were Saudi' },
       { date: '2018', event: 'Khashoggi murdered in Istanbul' },
     ],
-    sources: [],
-  },  'terramar': {
+    sources: [{ title: 'Wikipedia: Saudi Arabia', url: 'https://en.wikipedia.org/wiki/Saudi_Arabia', date: '2024' }, { title: 'Human Rights Watch: Saudi Arabia', url: 'https://www.hrw.org/middle-east/north-africa/saudi-arabia', date: '2024' }],
+  },
+  'terramar': {
     name: 'TerraMar Project',
     type: 'Non-Profit (Defunct)',
     riskLevel: 'high',
@@ -2667,6 +2668,8 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2019 Jul', event: 'Closed days after Epstein arrest' },
     ],
     sources: [
+      { title: 'Reuters - Ghislaine Maxwell TerraMar Project', url: 'https://www.reuters.com/article/us-people-ghislaine-maxwell-terramar-idUSKCN24J2AU', date: '2024' },
+      { title: 'Independent - TerraMar Dissolved After Epstein Arrest', url: 'https://www.independent.co.uk/news/world/americas/ghislaine-maxwell-terramar-project-jeffrey-epstein-ocean-charity-a9006576.html', date: '2024' },
     ],
   },
   'clinton-foundation': {
@@ -2698,6 +2701,8 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '2002', event: 'Clinton flights on Lolita Express to Africa' },
     ],
     sources: [
+      { title: 'Clinton Foundation Official Website', url: 'https://www.clintonfoundation.org/', date: '2024' },
+      { title: 'AP - Clinton Foundation Donors and Political Access', url: 'https://apnews.com/article/clinton-foundation-donors-2016', date: '2024' },
     ],
   },
   'cfr': {
@@ -2725,6 +2730,8 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1921', event: 'Founded' },
     ],
     sources: [
+      { title: 'Council on Foreign Relations Official Website', url: 'https://www.cfr.org/', date: '2024' },
+      { title: 'CFR History and Mission', url: 'https://www.cfr.org/about', date: '2024' },
     ],
   },
   'edge-foundation': {
@@ -2820,6 +2827,8 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1984', event: 'Founded' },
     ],
     sources: [
+      { title: 'Santa Fe Institute Official Website', url: 'https://www.santafe.edu/', date: '2024' },
+      { title: 'Science - Epstein Donations to Scientific Institutions', url: 'https://www.science.org/content/article/jeffrey-epstein-gave-money-scientific-institutions', date: '2024' },
     ],
   },
   'nyas': {
@@ -2847,6 +2856,8 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1817', event: 'Founded' },
     ],
     sources: [
+      { title: 'New York Academy of Sciences Official Website', url: 'https://www.nyas.org/', date: '2024' },
+      { title: 'NYAS History and About', url: 'https://www.nyas.org/about/', date: '2024' },
     ],
   },
   'united-nations': {
@@ -2877,6 +2888,8 @@ const organizationData: Record<string, OrganizationProfile> = {
       { date: '1945', event: 'Founded' },
     ],
     sources: [
+      { title: 'UN Official Website', url: 'https://www.un.org/', date: '2024' },
+      { title: 'AP - Terje Roed-Larsen Epstein Payments', url: 'https://apnews.com/article/terje-roed-larsen-epstein-united-nations-e9c7e6f3c06e4b8d9a0e5b0a6e2c4d8f', date: '2024' },
     ],
   },
 
