@@ -8182,6 +8182,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Bolton Book Excerpts', date: '2020' },
       { title: 'House Impeachment Report', date: '2019' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as National Security Advisor under Trump 2018-2019', href: '/entities/individuals/donald-trump' },
+      { name: 'Mike Pompeo', relationship: 'Fellow cabinet member and sometime rival in Trump administration', href: '/entities/individuals/mike-pompeo' },
+      { name: 'Fiona Hill', relationship: 'NSC colleague who testified at impeachment hearings', href: '/entities/individuals/fiona-hill' }
+    ],
+
   },
   'john-kelly': {
     name: 'John Kelly',
@@ -8229,6 +8235,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Atlantic Profile', date: '2023' },
       { title: 'New York Times Interview', date: '2023' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'White House Chief of Staff 2017-2019 who later criticized Trump', href: '/entities/individuals/donald-trump' },
+      { name: 'James Mattis', relationship: 'Fellow retired general in Trump cabinet', href: '/entities/individuals/james-mattis' },
+      { name: 'Kirstjen Nielsen', relationship: 'DHS Secretary who served under Kelly as Chief of Staff', href: '/entities/individuals/kirstjen-nielsen' }
+    ],
+
   },
   'merrick-garland': {
     name: 'Merrick Garland',
@@ -8265,6 +8277,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'DOJ Profile', date: '2021' },
       { title: 'Congressional Testimony', date: '2023' },
     ],
+    knownAssociates: [
+      { name: 'Jack Smith', relationship: 'Appointed Smith as Special Counsel for Trump investigations', href: '/entities/individuals/jack-smith' },
+      { name: 'Joe Biden', relationship: 'Nominated as Attorney General by Biden in 2021', href: '/entities/individuals/joe-biden' },
+      { name: 'Lisa Monaco', relationship: 'Deputy Attorney General under Garland', href: '/entities/individuals/lisa-monaco' }
+    ],
+
   },
   'wayne-lapierre': {
     name: 'Wayne Robert LaPierre Jr.',
@@ -8866,6 +8884,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Whistleblower Complaint', date: '2020' },
       { title: 'Army Retirement Records', date: '2021' },
     ],
+    knownAssociates: [
+      { name: 'Alexander Vindman', relationship: 'Twin brother and fellow NSC official who testified at Trump impeachment', href: '/entities/individuals/alexander-vindman' },
+      { name: 'Donald Trump', relationship: 'Reassigned from NSC after brother testified against Trump', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'ivan-timofeev': {
     name: 'Ivan Timofeev',
@@ -9443,6 +9466,11 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Court Records', date: '2023-2024' },
     ],
+    knownAssociates: [
+      { name: 'Jack Smith', relationship: 'Presided over Special Counsel Smith\'s Jan 6 case against Trump', href: '/entities/individuals/jack-smith' },
+      { name: 'Donald Trump', relationship: 'Judge assigned to Trump January 6 federal case', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'scott-mcafee': {
     name: 'Scott McAfee',
@@ -9478,6 +9506,11 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Fulton County Court Records', date: '2023-2024' },
     ],
+    knownAssociates: [
+      { name: 'Fani Willis', relationship: 'Ruled on Willis disqualification motion in Georgia RICO case', href: '/entities/individuals/fani-willis' },
+      { name: 'Donald Trump', relationship: 'Presided over Georgia election interference case against Trump', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'jacob-chansley': {
     name: 'Jacob Anthony Chansley',
@@ -9518,6 +9551,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'DOJ Case Records', date: '2021' },
       { title: 'Sentencing Documents', date: '2021' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Stormed Capitol on Jan 6 as self-proclaimed Trump supporter', href: '/entities/individuals/donald-trump' },
+      { name: 'Guy Reffitt', relationship: 'Fellow January 6 defendant', href: '/entities/individuals/guy-reffitt' },
+      { name: 'Ashli Babbitt', relationship: 'Fellow January 6 participant killed during Capitol breach', href: '/entities/individuals/ashli-babbitt' }
+    ],
+
   },
   'jenna-ellis': {
     name: 'Jenna Ellis',
@@ -9567,6 +9606,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Georgia v. Trump Indictment', date: '2023' },
       { title: 'Colorado Bar Disciplinary Records', date: '2024' },
     ],
+    knownAssociates: [
+      { name: 'Rudy Giuliani', relationship: 'Partner on Trump legal team challenging 2020 election', href: '/entities/individuals/rudy-giuliani' },
+      { name: 'Donald Trump', relationship: 'Served on Trump campaign legal team', href: '/entities/individuals/donald-trump' },
+      { name: 'Sidney Powell', relationship: 'Fellow Trump legal team member and Georgia co-defendant', href: '/entities/individuals/sidney-powell' }
+    ],
+
   },
   'christina-bobb': {
     name: 'Christina Bobb',
@@ -9612,6 +9657,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Arizona v. Fake Electors Indictment', date: '2024' },
       { title: 'DOJ Mar-a-Lago Investigation Records', date: '2022' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as Trump attorney during Mar-a-Lago documents case', href: '/entities/individuals/donald-trump' },
+      { name: 'Rudy Giuliani', relationship: 'Worked with Giuliani on post-election legal efforts', href: '/entities/individuals/rudy-giuliani' }
+    ],
+
   },
   'boris-epshteyn': {
     name: 'Boris Epshteyn',
@@ -10601,6 +10651,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Too Much and Never Enough - Book', date: '2020' },
       { title: 'New York Times Tax Investigation', date: '2018' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Niece who authored exposé "Too Much and Never Enough"', href: '/entities/individuals/donald-trump' },
+      { name: 'Maryanne Trump Barry', relationship: 'Aunt - retired federal judge', href: '/entities/individuals/maryanne-trump-barry' },
+      { name: 'Fred Trump', relationship: 'Father - nephew of Donald Trump\'s father', href: '/entities/individuals/fred-trump' }
+    ],
+
   },
   'maryanne-trump-barry': {
     name: 'Maryanne Trump Barry',
@@ -10650,6 +10706,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'New York Times Tax Investigation', date: '2018' },
       { title: 'Judicial Ethics Investigation Records', date: '2019' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Sister - retired federal judge who criticized Trump privately', href: '/entities/individuals/donald-trump' },
+      { name: 'Mary Trump', relationship: 'Niece who recorded Barry\'s criticism of Donald', href: '/entities/individuals/mary-trump' },
+      { name: 'Fred Trump', relationship: 'Father - patriarch of Trump family', href: '/entities/individuals/fred-trump' }
+    ],
+
   },
   'franklin-graham': {
     name: 'William Franklin Graham III',
@@ -10690,6 +10752,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Samaritan\'s Purse Financial Records', date: 'Various' },
       { title: 'Media Interviews and Statements', date: '2016-Present' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Prominent evangelical supporter and spiritual advisor to Trump', href: '/entities/individuals/donald-trump' },
+      { name: 'Robert Jeffress', relationship: 'Fellow evangelical leader and Trump supporter', href: '/entities/individuals/robert-jeffress' },
+      { name: 'Jerry Falwell', relationship: 'Fellow evangelical leader and political ally', href: '/entities/individuals/jerry-falwell' }
+    ],
+
   },
   'robert-jeffress': {
     name: 'Robert James Jeffress Jr.',
@@ -10730,6 +10798,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'First Baptist Dallas Records', date: 'Various' },
       { title: 'Media Statements', date: '2016-Present' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Pastor who served on Trump evangelical advisory board', href: '/entities/individuals/donald-trump' },
+      { name: 'Franklin Graham', relationship: 'Fellow evangelical leader and Trump supporter', href: '/entities/individuals/franklin-graham' }
+    ],
+
   },
   'arthur-engoron': {
     name: 'Arthur F. Engoron',
@@ -10768,6 +10841,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'People v. Trump Organization Court Ruling', date: '2024' },
       { title: 'NY AG Letitia James Press Releases', date: '2024' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Judge who found Trump liable for fraud totaling $454M', href: '/entities/individuals/donald-trump' },
+      { name: 'Letitia James', relationship: 'NY AG who brought civil fraud case before Engoron', href: '/entities/individuals/letitia-james' }
+    ],
+
   },
   'natalia-veselnitskaya': {
     name: 'Natalia Vladimirovna Veselnitskaya',
@@ -11066,6 +11144,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'I\'ll Take Your Questions Now - Book', date: '2021' },
       { title: 'January 6 Committee Testimony', date: '2022' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'White House Press Secretary who never held a briefing', href: '/entities/individuals/donald-trump' },
+      { name: 'Melania Trump', relationship: 'Chief of Staff to First Lady Melania Trump', href: '/entities/individuals/melania-trump' },
+      { name: 'Cassidy Hutchinson', relationship: 'Fellow Trump insider turned critic', href: '/entities/individuals/cassidy-hutchinson' }
+    ],
+
   },
   'johnny-mcentee': {
     name: 'John Douglas McEntee II',
@@ -11115,6 +11199,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'January 6 Committee Documents', date: '2022' },
       { title: 'Axios Reporting', date: '2020' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Director of Presidential Personnel and close Trump aide', href: '/entities/individuals/donald-trump' },
+      { name: 'Stephen Miller', relationship: 'Fellow Trump loyalist in White House', href: '/entities/individuals/stephen-miller' }
+    ],
+
   },
   'mike-lindell': {
     name: 'Michael James Lindell',
@@ -11317,6 +11406,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Treasury Department Records', date: '2017-2021' },
       { title: 'Liberty Strategic Capital SEC Filings', date: '2022' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Treasury Secretary under Trump 2017-2021', href: '/entities/individuals/donald-trump' },
+      { name: 'Jared Kushner', relationship: 'Worked closely with Kushner on economic policy in Trump admin', href: '/entities/individuals/jared-kushner' },
+      { name: 'Gary Cohn', relationship: 'Fellow Goldman Sachs veteran in Trump economic team', href: '/entities/individuals/gary-cohn' }
+    ],
+
   },
   'patrick-byrne': {
     name: 'Patrick Michael Byrne',
@@ -11461,6 +11556,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'January 6 Committee PowerPoint Exhibit', date: '2021' },
       { title: 'Committee Testimony', date: '2021' },
     ],
+    knownAssociates: [
+      { name: 'Rudy Giuliani', relationship: 'Presented election fraud PowerPoint to Trump team and Congress', href: '/entities/individuals/rudy-giuliani' },
+      { name: 'Donald Trump', relationship: 'Retired colonel who pushed election fraud theories to Trump circle', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'marla-maples': {
     name: 'Marla Ann Maples',
@@ -11631,6 +11731,11 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report Vol. I', date: '2019' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Russian translator at Trump Tower meeting in 2016', href: '/entities/individuals/donald-trump' },
+      { name: 'Natalia Veselnitskaya', relationship: 'Translated for Veselnitskaya at Trump Tower meeting', href: '/entities/individuals/natalia-veselnitskaya' }
+    ],
+
   },
   'jeff-mcconney': {
     name: 'Jeffrey S. McConney',
@@ -11704,6 +11809,11 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Carroll v. Trump Court Records', date: '2023' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Attorney who represented Trump in E. Jean Carroll defamation case', href: '/entities/individuals/donald-trump' },
+      { name: 'Alvin Bragg', relationship: 'Opposed Bragg\'s prosecution of Trump in hush money case', href: '/entities/individuals/alvin-bragg' }
+    ],
+
   },
   'liz-cheney': {
     name: 'Elizabeth Lynne Cheney',
@@ -12282,6 +12392,12 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Court Records', date: '2018-2020' },
     ],
+    knownAssociates: [
+      { name: 'Roger Stone', relationship: 'Presided over Stone criminal trial and sentencing', href: '/entities/individuals/roger-stone' },
+      { name: 'Paul Manafort', relationship: 'Presided over Manafort obstruction case', href: '/entities/individuals/paul-manafort' },
+      { name: 'Donald Trump', relationship: 'Judge in multiple cases connected to Trump associates', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'lewis-kaplan': {
     name: 'Lewis A. Kaplan',
@@ -12317,6 +12433,11 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Carroll v. Trump Court Records', date: '2023-2024' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Judge who presided over E. Jean Carroll defamation trials', href: '/entities/individuals/donald-trump' },
+      { name: 'Jessica Leeds', relationship: 'Accuser whose claims were part of Carroll trial context', href: '/entities/individuals/jessica-leeds' }
+    ],
+
   },
   'beryl-howell': {
     name: 'Beryl Alaine Howell',
@@ -12351,6 +12472,11 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Grand Jury Rulings', date: '2022-2023' },
     ],
+    knownAssociates: [
+      { name: 'Jack Smith', relationship: 'Chief Judge who authorized grand jury subpoenas for Trump probe', href: '/entities/individuals/jack-smith' },
+      { name: 'Donald Trump', relationship: 'Oversaw multiple grand jury proceedings related to Trump', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'cy-vance': {
     name: 'Cyrus Roberts Vance Jr.',
@@ -12660,6 +12786,11 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'New York Times Interview', date: '2016' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Accused Trump of groping her on airplane in late 1970s', href: '/entities/individuals/donald-trump' },
+      { name: 'Jill Harth', relationship: 'Fellow Trump accuser who came forward publicly', href: '/entities/individuals/jill-harth' }
+    ],
+
   },
   'jill-harth': {
     name: 'Jill Harth',
@@ -12690,6 +12821,11 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: '1997 Lawsuit Filing', date: '1997' },
     ],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Filed sexual harassment lawsuit against Trump in 1997', href: '/entities/individuals/donald-trump' },
+      { name: 'Jessica Leeds', relationship: 'Fellow Trump accuser', href: '/entities/individuals/jessica-leeds' }
+    ],
+
   },
   'ivana-trump': {
     name: 'Ivana Marie Trump',
@@ -12976,6 +13112,11 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'The Bulwark Publications', date: 'Various' },
     ],
+    knownAssociates: [
+      { name: 'Steve Schmidt', relationship: 'Fellow Never Trump conservative and Lincoln Project figure', href: '/entities/individuals/steve-schmidt' },
+      { name: 'Donald Trump', relationship: 'Prominent Never Trump Republican and conservative critic', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'steve-schmidt': {
     name: 'Steve Schmidt',
@@ -13007,6 +13148,12 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Lincoln Project Records', date: 'Various' },
     ],
+    knownAssociates: [
+      { name: 'Bill Kristol', relationship: 'Fellow Never Trump Republican commentator', href: '/entities/individuals/bill-kristol' },
+      { name: 'Donald Trump', relationship: 'Co-founded Lincoln Project opposing Trump re-election', href: '/entities/individuals/donald-trump' },
+      { name: 'John McCain', relationship: 'Former senior strategist for McCain 2008 presidential campaign', href: '/entities/individuals/john-mccain' }
+    ],
+
   },
   'elliott-broidy': {
     name: 'Elliott Broidy',
@@ -30823,6 +30970,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'February 2, 2020', event: 'Dies shortly after release' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Scott Sullivan', relationship: 'WorldCom CFO who cooperated in fraud case against Ebbers', href: '/entities/individuals/scott-sullivan' },
+      { name: 'Jack Grubman', relationship: 'Telecom analyst whose recommendations propped up WorldCom', href: '/entities/individuals/jack-grubman' }
+    ],
+
   },
   'dennis-kozlowski': {
     name: 'L. Dennis Kozlowski',
@@ -30957,6 +31109,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'December 20, 2017', event: 'Dies in Rome' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Cardinal Theodore McCarrick', relationship: 'Fellow cardinal accused of covering up sexual abuse', href: '/entities/individuals/cardinal-theodore-mccarrick' },
+      { name: 'John Geoghan', relationship: 'Priest whose abuse Law covered up for decades', href: '/entities/individuals/john-geoghan' }
+    ],
+
   },
   'cardinal-theodore-mccarrick': {
     name: 'Theodore Edgar McCarrick',
@@ -31000,6 +31157,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Charges dismissed (dementia)' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Cardinal Bernard Law', relationship: 'Fellow cardinal implicated in abuse cover-up scandal', href: '/entities/individuals/cardinal-bernard-law' },
+      { name: 'Pope Francis', relationship: 'Defrocked by Pope Francis in 2019 after abuse findings', href: '/entities/individuals/pope-francis' }
+    ],
+
   },
   // ============================================
   // ENVIRONMENTAL DISASTER EXECUTIVES
@@ -31043,6 +31205,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2012', event: 'BP pleads guilty, pays $4.5B criminal fine' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Bob Dudley', relationship: 'Successor as BP CEO after Deepwater Horizon disaster', href: '/entities/individuals/robert-dudley' },
+      { name: 'Donald Vidrine', relationship: 'BP well site leader during Deepwater Horizon explosion', href: '/entities/individuals/donald-vidrine' },
+      { name: 'Thad Allen', relationship: 'Coast Guard Admiral who led federal spill response', href: '/entities/individuals/thad-allen' }
+    ],
+
   },
   'joseph-hazelwood': {
     name: 'Joseph Hazelwood',
@@ -31081,6 +31249,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '1999', event: 'Completes 1,000 hours community service' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Lawrence Rawl', relationship: 'Exxon CEO at time of Valdez oil spill', href: '/entities/individuals/lawrence-rawl' }
+    ],
+
   },
   // ============================================
   // POLICE BRUTALITY - OFFICERS CHARGED
@@ -31158,6 +31330,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'Convicted of federal charges' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Breonna Taylor', relationship: 'One of officers involved in fatal raid on Taylor\'s apartment', href: '/entities/individuals/breonna-taylor' },
+      { name: 'Myles Cosgrove', relationship: 'Fellow officer who fired shots during Breonna Taylor raid', href: '/entities/individuals/myles-cosgrove' },
+      { name: 'Joshua Jaynes', relationship: 'Detective who obtained no-knock warrant for Taylor raid', href: '/entities/individuals/joshua-jaynes' }
+    ],
+
   },
   'jeronimo-yanez': {
     name: 'Jeronimo Yanez',
@@ -31196,6 +31374,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'June 2017', event: 'City settles for $3 million' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Philando Castile', relationship: 'Shot and killed Castile during traffic stop in 2016', href: '/entities/individuals/philando-castile' }
+    ],
+
   },
   'demetrius-haley': {
     name: 'Demetrius Haley',
@@ -31348,6 +31530,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'April 14, 1994', event: 'Testifies nicotine not addictive' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Bobby Kotick', relationship: 'Fellow corporate figure in pharmaceutical/corporate misconduct', href: '/entities/individuals/bobby-kotick' }
+    ],
+
   },
   'thomas-sandefur': {
     name: 'Thomas E. Sandefur Jr.',
@@ -31495,6 +31681,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2019', event: 'Purdue bankruptcy' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'David Sackler', relationship: 'Fellow Sackler family member and Purdue Pharma director', href: '/entities/individuals/david-sackler' },
+      { name: 'Richard Sackler', relationship: 'Relative and Purdue Pharma executive who pushed OxyContin', href: '/entities/individuals/richard-sackler' },
+      { name: 'Arthur Sackler', relationship: 'Uncle who founded Sackler pharmaceutical empire', href: '/entities/individuals/arthur-sackler' }
+    ],
+
   },
   'david-sackler': {
     name: 'David Sackler',
@@ -31526,6 +31718,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Settlement negotiations' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Kathe Sackler', relationship: 'Fellow Sackler family member and Purdue Pharma director', href: '/entities/individuals/kathe-sackler' },
+      { name: 'Richard Sackler', relationship: 'Father and Purdue Pharma chairman who drove OxyContin sales', href: '/entities/individuals/richard-sackler' },
+      { name: 'Arthur Sackler', relationship: 'Grandfather who built Sackler pharmaceutical dynasty', href: '/entities/individuals/arthur-sackler' }
+    ],
+
   },
   // ============================================
   // MORE FINANCIAL CRIMINALS
@@ -31569,6 +31767,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'June 2012', event: 'Sentenced to 110 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Bernie Madoff', relationship: 'Fellow Ponzi scheme operator during same financial era', href: '/entities/individuals/bernie-madoff' },
+      { name: 'Tom Petters', relationship: 'Contemporary fraudster convicted of similar investment schemes', href: '/entities/individuals/tom-petters' }
+    ],
+
   },
   'tom-petters': {
     name: 'Tom Petters',
@@ -31604,6 +31807,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'April 2010', event: 'Sentenced to 50 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Allen Stanford', relationship: 'Contemporary Ponzi scheme operator', href: '/entities/individuals/allen-stanford' },
+      { name: 'Bernie Madoff', relationship: 'Fellow fraudster in same era of large-scale Ponzi schemes', href: '/entities/individuals/bernie-madoff' }
+    ],
+
   },
   'scott-rothstein': {
     name: 'Scott Rothstein',
@@ -31640,6 +31848,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'June 2010', event: 'Sentenced to 50 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Bernie Madoff', relationship: 'Fellow Ponzi scheme operator convicted in similar timeframe', href: '/entities/individuals/bernie-madoff' },
+      { name: 'Allen Stanford', relationship: 'Contemporary fraudster running parallel Ponzi scheme', href: '/entities/individuals/allen-stanford' }
+    ],
+
   },
   // ============================================
   // MISSING TECH EXECUTIVES
@@ -31683,6 +31896,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2021', event: 'Congressional testimony on App Store' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Satya Nadella', relationship: 'Fellow Big Tech CEO and competitor', href: '/entities/individuals/satya-nadella' },
+      { name: 'Mark Zuckerberg', relationship: 'Publicly criticized Facebook privacy practices', href: '/entities/individuals/mark-zuckerberg' }
+    ],
+
   },
   'satya-nadella': {
     name: 'Satya Nadella',
@@ -31721,6 +31939,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'Activision acquisition closes' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Tim Cook', relationship: 'Fellow Big Tech CEO and competitor', href: '/entities/individuals/tim-cook' },
+      { name: 'Sam Altman', relationship: 'Key partner via Microsoft\'s massive investment in OpenAI', href: '/entities/individuals/sam-altman' }
+    ],
+
   },
   'larry-ellison': {
     name: 'Larry Ellison',
@@ -31802,6 +32025,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2020', event: 'Failed presidential campaign' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Ran against Trump-era politics in 2020 presidential bid', href: '/entities/individuals/donald-trump' },
+      { name: 'Ray Dalio', relationship: 'Fellow billionaire financier and philanthropist', href: '/entities/individuals/ray-dalio' }
+    ],
+
   },
   // ============================================
   // WALL STREET EXECUTIVES
@@ -31884,6 +32112,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2020', event: 'Oversees 1MDB settlement' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Lloyd Blankfein', relationship: 'Predecessor as Goldman Sachs CEO', href: '/entities/individuals/lloyd-blankfein' },
+      { name: 'Jamie Dimon', relationship: 'Fellow Wall Street bank CEO and frequent comparator', href: '/entities/individuals/jamie-dimon' }
+    ],
+
   },
   'brian-moynihan': {
     name: 'Brian Moynihan',
@@ -31919,6 +32152,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2014', event: '$16.65B mortgage settlement' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Jamie Dimon', relationship: 'Fellow major bank CEO', href: '/entities/individuals/jamie-dimon' },
+      { name: 'Warren Buffett', relationship: 'Berkshire Hathaway is major Bank of America shareholder', href: '/entities/individuals/warren-buffett' }
+    ],
+
   },
   'ken-griffin': {
     name: 'Kenneth Griffin',
@@ -31957,6 +32195,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Moves Citadel to Miami' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Jordan Belfort', relationship: 'Both associated with aggressive Wall Street trading practices', href: '/entities/individuals/jordan-belfort' },
+      { name: 'Steve Cohen', relationship: 'Fellow hedge fund billionaire', href: '/entities/individuals/steve-cohen' }
+    ],
+
   },
   'steve-schwarzman': {
     name: 'Stephen Schwarzman',
@@ -32118,6 +32361,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2013', event: '"Wolf of Wall Street" film released' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Ken Griffin', relationship: 'Fellow Wall Street figure scrutinized for trading practices', href: '/entities/individuals/ken-griffin' },
+      { name: 'Bernie Madoff', relationship: 'Fellow convicted Wall Street fraudster', href: '/entities/individuals/bernie-madoff' }
+    ],
+
   },
   // ============================================
   // OPIOID DISTRIBUTORS
@@ -32158,6 +32406,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'January 2020', event: 'Sentenced to 5.5 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'John Hammergren', relationship: 'Fellow pharmaceutical executive implicated in opioid crisis', href: '/entities/individuals/john-hammergren' },
+      { name: 'Richard Sackler', relationship: 'Parallel opioid crisis figure - Kapoor pushed fentanyl spray', href: '/entities/individuals/richard-sackler' }
+    ],
+
   },
   'john-hammergren': {
     name: 'John Hammergren',
@@ -32196,6 +32449,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: '$7.9B settlement (with Cardinal, Amerisource)' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Steven Collis', relationship: 'Fellow pharmaceutical distributor CEO under DEA scrutiny', href: '/entities/individuals/steven-collis' },
+      { name: 'John Kapoor', relationship: 'Fellow pharma executive convicted in opioid-related case', href: '/entities/individuals/john-kapoor' }
+    ],
+
   },
   'steven-collis': {
     name: 'Steven Collis',
@@ -32226,6 +32484,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: '$6.4B settlement' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'John Hammergren', relationship: 'Fellow pharmaceutical distributor CEO - McKesson', href: '/entities/individuals/john-hammergren' },
+      { name: 'Craig Landau', relationship: 'Endo Pharmaceuticals CEO in opioid distribution chain', href: '/entities/individuals/craig-landau' }
+    ],
+
   },
   // ============================================
   // INTELLIGENCE OFFICIALS
@@ -32388,6 +32651,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2021', event: 'Biden executive order on private prisons' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'George Zoley', relationship: 'Fellow private prison executive - GEO Group CEO', href: '/entities/individuals/george-zoley' },
+      { name: 'Robert Crants', relationship: 'Early CCA/CoreCivic executive who built private prison model', href: '/entities/individuals/robert-crants' }
+    ],
+
   },
   'george-zoley': {
     name: 'George Zoley',
@@ -32424,6 +32692,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2021', event: 'Steps down as CEO' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Damon Hininger', relationship: 'Fellow private prison executive - CoreCivic CEO', href: '/entities/individuals/damon-hininger' },
+      { name: 'Thomas Beasley', relationship: 'CCA co-founder who pioneered private prison industry', href: '/entities/individuals/thomas-beasley' }
+    ],
+
   },
   // ============================================
   // WEAPONS INDUSTRY
@@ -32461,6 +32734,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2020', event: 'Becomes Lockheed Martin CEO' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Greg Hayes', relationship: 'Fellow defense contractor CEO - Raytheon/RTX', href: '/entities/individuals/greg-hayes' },
+      { name: 'Lloyd Austin', relationship: 'Defense Secretary overseeing major Lockheed Martin contracts', href: '/entities/individuals/lloyd-austin' }
+    ],
+
   },
   'greg-hayes': {
     name: 'Gregory Hayes',
@@ -32495,6 +32773,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2020', event: 'Leads merged Raytheon Technologies (now RTX)' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'James Taiclet', relationship: 'Fellow defense contractor CEO - Lockheed Martin', href: '/entities/individuals/james-taiclet' },
+      { name: 'Lloyd Austin', relationship: 'Defense Secretary - major Raytheon customer', href: '/entities/individuals/lloyd-austin' }
+    ],
+
   },
   // ============================================
   // MORE MAJOR FIGURES
@@ -32534,6 +32817,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2011', event: '"Buffett Rule" tax debate' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Brian Moynihan', relationship: 'Berkshire Hathaway is major Bank of America shareholder', href: '/entities/individuals/brian-moynihan' },
+      { name: 'Charlie Munger', relationship: 'Decades-long business partner at Berkshire Hathaway', href: '/entities/individuals/charlie-munger' },
+      { name: 'Bill Gates', relationship: 'Close friend and fellow billionaire philanthropist', href: '/entities/individuals/bill-gates' }
+    ],
+
   },
   'ray-dalio': {
     name: 'Ray Dalio',
@@ -32564,6 +32853,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2021', event: 'Criticized for China comments' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Michael Bloomberg', relationship: 'Fellow billionaire financier and public policy figure', href: '/entities/individuals/michael-bloomberg' },
+      { name: 'Jamie Dimon', relationship: 'Wall Street peer and economic commentator', href: '/entities/individuals/jamie-dimon' }
+    ],
+
   },
   'kamala-harris': {
     name: 'Kamala Harris',
@@ -32601,6 +32895,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2021-present', event: 'Vice President' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'Vice President under Biden, chosen as running mate in 2020', href: '/entities/individuals/joe-biden' },
+      { name: 'Donald Trump', relationship: '2024 presidential election opponent', href: '/entities/individuals/donald-trump' },
+      { name: 'Merrick Garland', relationship: 'Attorney General in Biden-Harris administration', href: '/entities/individuals/merrick-garland' }
+    ],
+
   },
   'david-koch': {
     name: 'David Koch',
@@ -32720,6 +33020,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'Sentenced to 4 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Charlie Javice', relationship: 'Contemporary startup fraud case - similar deception tactics', href: '/entities/individuals/charlie-javice' },
+      { name: 'Adam Neumann', relationship: 'Fellow startup founder accused of misleading investors', href: '/entities/individuals/adam-neumann' }
+    ],
+
   },
   'charlie-javice': {
     name: 'Charlie Javice',
@@ -32754,6 +33059,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'April 2023', event: 'Charged with fraud' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Trevor Milton', relationship: 'Contemporary startup fraud case', href: '/entities/individuals/trevor-milton' },
+      { name: 'Jamie Dimon', relationship: 'JPMorgan Chase CEO whose bank acquired Frank for $175M', href: '/entities/individuals/jamie-dimon' }
+    ],
+
   },
   'carlos-watson': {
     name: 'Carlos Watson',
@@ -32789,6 +33099,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'February 2023', event: 'Charged with fraud' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Charlie Javice', relationship: 'Fellow startup founder charged with fraud in similar era', href: '/entities/individuals/charlie-javice' },
+      { name: 'Trevor Milton', relationship: 'Contemporary startup fraud defendant', href: '/entities/individuals/trevor-milton' }
+    ],
+
   },
   // ============================================
   // RETAIL & GIG ECONOMY EXECUTIVES
@@ -32829,6 +33144,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2014', event: 'Becomes Walmart CEO' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Sam Walton', relationship: 'Founded Walmart that McMillon now leads as CEO', href: '/entities/individuals/sam-walton' },
+      { name: 'Chris Smalls', relationship: 'Labor organizer challenging retail warehouse conditions', href: '/entities/individuals/chris-smalls' }
+    ],
+
   },
   'andy-jassy': {
     name: 'Andy Jassy',
@@ -32907,6 +33227,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'Steps down after union-busting campaign' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Chris Smalls', relationship: 'Starbucks faced union drives similar to worker activism', href: '/entities/individuals/chris-smalls' },
+      { name: 'Tim Cook', relationship: 'Fellow corporate leader facing labor scrutiny', href: '/entities/individuals/tim-cook' }
+    ],
+
   },
   'dara-khosrowshahi': {
     name: 'Dara Khosrowshahi',
@@ -32983,6 +33308,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2016', event: 'Discrimination lawsuit settlement' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Adam Neumann', relationship: 'Fellow tech disruptor founder in sharing/real estate economy', href: '/entities/individuals/adam-neumann' },
+      { name: 'Tim Cook', relationship: 'Fellow tech CEO navigating regulatory battles', href: '/entities/individuals/tim-cook' }
+    ],
+
   },
   // ============================================
   // FOSSIL FUEL EXECUTIVES
@@ -33059,6 +33389,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2018', event: 'Becomes Chevron CEO' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Lee Raymond', relationship: 'Former ExxonMobil CEO - fellow fossil fuel executive', href: '/entities/individuals/lee-raymond' },
+      { name: 'Rex Tillerson', relationship: 'Former Exxon CEO and fellow oil industry leader', href: '/entities/individuals/rex-tillerson' }
+    ],
+
   },
   // ============================================
   // CHEMICAL COMPANY EXECUTIVES
@@ -33099,6 +33434,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'Steps down as CEO' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Edward Breen', relationship: 'DuPont CEO dealing with similar chemical contamination legacy', href: '/entities/individuals/edward-breen' },
+      { name: 'Hugh Grant', relationship: 'Monsanto CEO whose merger with Bayer Baumann oversaw', href: '/entities/individuals/hugh-grant-monsanto' }
+    ],
+
   },
   'edward-breen': {
     name: 'Edward Breen',
@@ -33136,6 +33476,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2019', event: 'DuPont splits off' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Werner Baumann', relationship: 'Fellow chemical company CEO facing contamination lawsuits', href: '/entities/individuals/werner-baumann' },
+      { name: 'Rob Bilott', relationship: 'Attorney who exposed DuPont PFAS contamination', href: '/entities/individuals/rob-bilott' },
+      { name: 'Ellen Kullman', relationship: 'Predecessor as DuPont CEO', href: '/entities/individuals/ellen-kullman' }
+    ],
+
   },
   // ============================================
   // JUUL / VAPING EXECUTIVES
@@ -33175,6 +33521,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'FDA orders JUUL off market' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Albert Bourla', relationship: 'Fellow executive navigating health product controversy', href: '/entities/individuals/albert-bourla' }
+    ],
+
   },
   'james-monsees': {
     name: 'James Monsees',
@@ -33321,6 +33671,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2020', event: 'COVID vaccine development' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Stephane Bancel', relationship: 'Fellow COVID-19 vaccine maker CEO - Moderna', href: '/entities/individuals/stephane-bancel' },
+      { name: 'Andrew Witty', relationship: 'Fellow pharmaceutical CEO during COVID era', href: '/entities/individuals/andrew-witty' }
+    ],
+
   },
   'stephane-bancel': {
     name: 'St�phane Bancel',
@@ -33355,6 +33710,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2020', event: 'COVID vaccine success' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Albert Bourla', relationship: 'Fellow COVID-19 vaccine CEO - Pfizer', href: '/entities/individuals/albert-bourla' },
+      { name: 'Anthony Fauci', relationship: 'Worked with Fauci on mRNA vaccine development', href: '/entities/individuals/anthony-fauci' }
+    ],
+
   },
   // ============================================
   // INSURANCE INDUSTRY
@@ -33394,6 +33754,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2021', event: 'Becomes UnitedHealth CEO' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Albert Bourla', relationship: 'Fellow pharma CEO during pandemic era', href: '/entities/individuals/albert-bourla' },
+      { name: 'David Cordani', relationship: 'Fellow healthcare industry CEO', href: '/entities/individuals/david-cordani' }
+    ],
+
   },
   'david-cordani': {
     name: 'David Cordani',
@@ -33428,6 +33793,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'PXDX system exposed' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Andrew Witty', relationship: 'Fellow healthcare CEO - UnitedHealth Group', href: '/entities/individuals/andrew-witty' },
+      { name: 'Stephen Hemsley', relationship: 'Predecessor at UnitedHealth Group', href: '/entities/individuals/stephen-hemsley' },
+      { name: 'Karen Ignagni', relationship: 'Insurance industry lobbying leader', href: '/entities/individuals/karen-ignagni' }
+    ],
+
   },
   // ============================================
   // FOOD & BEVERAGE INDUSTRY
@@ -33465,6 +33836,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2017', event: 'Becomes Nestl� CEO' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'James Quincey', relationship: 'Fellow food/beverage CEO facing public health criticism', href: '/entities/individuals/james-quincey' },
+      { name: 'Ramon Laguarta', relationship: 'PepsiCo CEO - peer in food industry', href: '/entities/individuals/ramon-laguarta' }
+    ],
+
   },
   'james-quincey': {
     name: 'James Quincey',
@@ -33499,6 +33875,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2017', event: 'Becomes Coca-Cola CEO' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Ramon Laguarta', relationship: 'PepsiCo CEO - primary beverage competitor', href: '/entities/individuals/ramon-laguarta' },
+      { name: 'Mark Schneider', relationship: 'Nestle CEO - fellow food industry leader', href: '/entities/individuals/mark-schneider' }
+    ],
+
   },
   'chris-kempczinski': {
     name: 'Chris Kempczinski',
@@ -33534,6 +33915,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2019', event: 'Becomes McDonald\'s CEO' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Ramon Laguarta', relationship: 'Fellow food industry CEO', href: '/entities/individuals/ramon-laguarta' },
+      { name: 'Howard Schultz', relationship: 'Fellow quick-service/restaurant CEO', href: '/entities/individuals/howard-schultz' }
+    ],
+
   },
   'ramon-laguarta': {
     name: 'Ramon Laguarta',
@@ -33566,6 +33952,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2018', event: 'Becomes PepsiCo CEO' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'James Quincey', relationship: 'Coca-Cola CEO - primary beverage rival', href: '/entities/individuals/james-quincey' },
+      { name: 'Chris Kempczinski', relationship: 'McDonald\'s CEO - PepsiCo major restaurant supplier', href: '/entities/individuals/chris-kempczinski' }
+    ],
+
   },
   // ============================================
   // MORE TECH EXECUTIVES
@@ -33645,6 +34036,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'Leaves after Microsoft acquisition' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Satya Nadella', relationship: 'Microsoft acquired Activision Blizzard under Kotick', href: '/entities/individuals/satya-nadella' },
+      { name: 'Les Moonves', relationship: 'Fellow media executive ousted amid misconduct allegations', href: '/entities/individuals/les-moonves' }
+    ],
+
   },
   // ============================================
   // PHARMACEUTICAL - MORE
@@ -33728,6 +34124,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Released, banned from pharma' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Jordan Belfort', relationship: 'Fellow convicted Wall Street figure known for public notoriety', href: '/entities/individuals/jordan-belfort' },
+      { name: 'John Kapoor', relationship: 'Fellow pharmaceutical executive convicted of fraud', href: '/entities/individuals/john-kapoor' }
+    ],
+
   },
   // ============================================
   // MEDIA EXECUTIVES
@@ -33768,6 +34169,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'December 2018', event: '$120M severance denied' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Bobby Kotick', relationship: 'Fellow media executive facing workplace misconduct allegations', href: '/entities/individuals/bobby-kotick' },
+      { name: 'Matt Lauer', relationship: 'Fellow media executive ousted during #MeToo movement', href: '/entities/individuals/matt-lauer' }
+    ],
+
   },
   'roger-ailes': {
     name: 'Roger Ailes',
@@ -33846,6 +34252,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2002', event: 'Retires' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Edward Horrigan', relationship: 'Fellow tobacco executive who faced litigation', href: '/entities/individuals/edward-horrigan' },
+      { name: 'Jeffrey Wigand', relationship: 'Whistleblower who exposed tobacco industry practices', href: '/entities/individuals/jeffrey-wigand' }
+    ],
+
   },
   // ============================================
   // AUTOMOTIVE INDUSTRY
@@ -33885,6 +34296,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2015', event: '$900M deferred prosecution' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Tim Cook', relationship: 'Fellow CEO navigating EV and tech transformation', href: '/entities/individuals/tim-cook' },
+      { name: 'Doug McMillon', relationship: 'Fellow Fortune 500 CEO', href: '/entities/individuals/doug-mcmillon' }
+    ],
+
   },
   'carlos-ghosn': {
     name: 'Carlos Ghosn',
@@ -34010,6 +34426,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'August 2024', event: 'Resigns from Senate' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Henry Cuellar', relationship: 'Fellow Democratic congressman facing corruption charges', href: '/entities/individuals/henry-cuellar' },
+      { name: 'Abdel Fattah el-Sisi', relationship: 'Egyptian president - Menendez accused of acting as foreign agent for Egypt', href: '/entities/individuals/abdel-fattah-el-sisi' }
+    ],
+
   },
   'george-santos': {
     name: 'George Santos',
@@ -34049,6 +34470,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'August 2024', event: 'Pleads guilty' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Kevin McCarthy', relationship: 'House Speaker who initially protected Santos before expulsion', href: '/entities/individuals/kevin-mccarthy' },
+      { name: 'Nancy Mace', relationship: 'Republican colleague who pushed for Santos expulsion', href: '/entities/individuals/nancy-mace' }
+    ],
+
   },
   // ============================================
   // AUTHORITARIAN LEADERS
@@ -34091,6 +34517,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2017', event: 'Referendum grants sweeping powers' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Vladimir Putin', relationship: 'Strategic partner and rival managing Turkey-Russia relations', href: '/entities/individuals/vladimir-putin' },
+      { name: 'Donald Trump', relationship: 'Maintained close personal relationship with Trump', href: '/entities/individuals/donald-trump' },
+      { name: 'Abdel Fattah el-Sisi', relationship: 'Regional rival as authoritarian Middle Eastern leader', href: '/entities/individuals/abdel-fattah-el-sisi' }
+    ],
+
   },
   'rodrigo-duterte': {
     name: 'Rodrigo Duterte',
@@ -34128,6 +34560,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Leaves office' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Narendra Modi', relationship: 'Fellow strongman leader accused of human rights abuses', href: '/entities/individuals/narendra-modi' },
+      { name: 'Donald Trump', relationship: 'Praised by Trump and maintained friendly relationship', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'narendra-modi': {
     name: 'Narendra Modi',
@@ -34169,6 +34606,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2019', event: 'Revokes Kashmir autonomy' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Cultivated close relationship with Trump administration', href: '/entities/individuals/donald-trump' },
+      { name: 'Recep Tayyip Erdogan', relationship: 'Fellow leader of rising authoritarian power', href: '/entities/individuals/recep-tayyip-erdogan' },
+      { name: 'Vladimir Putin', relationship: 'Maintained strategic partnership with Russia', href: '/entities/individuals/vladimir-putin' }
+    ],
+
   },
   'nicolas-maduro': {
     name: 'Nicol�s Maduro',
@@ -34206,6 +34649,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Refuses to accept election loss' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Fidel Castro', relationship: 'Ideological predecessor and Venezuelan-Cuban alliance partner', href: '/entities/individuals/fidel-castro' },
+      { name: 'Vladimir Putin', relationship: 'Key ally providing military and economic support to Venezuela', href: '/entities/individuals/vladimir-putin' }
+    ],
+
   },
   'alexander-lukashenko': {
     name: 'Alexander Lukashenko',
@@ -34288,6 +34736,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'March 2015', event: 'DOJ finds no civil rights violation' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Michael Brown', relationship: 'Shot and killed Michael Brown in Ferguson, Missouri in 2014', href: '/entities/individuals/michael-brown' },
+      { name: 'Thomas Jackson', relationship: 'Ferguson police chief during Brown shooting aftermath', href: '/entities/individuals/thomas-jackson' }
+    ],
+
   },
   'timothy-loehmann': {
     name: 'Timothy Loehmann',
@@ -34323,6 +34776,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2017', event: 'Fired for lying on job application' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Tamir Rice', relationship: 'Officer who shot and killed 12-year-old Tamir Rice in 2014', href: '/entities/individuals/tamir-rice' }
+    ],
+
   },
   'daniel-pantaleo': {
     name: 'Daniel Pantaleo',
@@ -34359,6 +34816,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'August 2019', event: 'Finally fired from NYPD' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Eric Garner', relationship: 'Officer whose chokehold killed Eric Garner in 2014', href: '/entities/individuals/eric-garner' }
+    ],
+
   },
   'jason-van-dyke': {
     name: 'Jason Van Dyke',
@@ -34397,6 +34858,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'February 2022', event: 'Released from prison' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Laquan McDonald', relationship: 'Shot Laquan McDonald 16 times, convicted of murder', href: '/entities/individuals/laquan-mcdonald' }
+    ],
+
   },
   'amber-guyger': {
     name: 'Amber Guyger',
@@ -34431,6 +34896,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'October 2019', event: 'Sentenced to 10 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Botham Jean', relationship: 'Off-duty officer who shot and killed Jean in his own apartment', href: '/entities/individuals/botham-jean' }
+    ],
+
   },
   'kim-potter': {
     name: 'Kim Potter',
@@ -34466,6 +34935,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'April 2023', event: 'Released from prison' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Daunte Wright', relationship: 'Officer who fatally shot Wright claiming taser confusion', href: '/entities/individuals/daunte-wright' }
+    ],
+
   },
   'philip-brailsford': {
     name: 'Philip Brailsford',
@@ -34502,6 +34975,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2019', event: 'Receives PTSD pension for killing' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Daniel Shaver', relationship: 'Officer who shot and killed unarmed Daniel Shaver in hotel hallway', href: '/entities/individuals/daniel-shaver' }
+    ],
+
   },
   'michael-slager': {
     name: 'Michael Slager',
@@ -34538,6 +35015,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'December 2017', event: 'Sentenced to 20 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Walter Scott', relationship: 'Officer who shot Walter Scott in the back while fleeing', href: '/entities/individuals/walter-scott' }
+    ],
+
   },
   // ============================================
   // MISSING REPUBLICAN OFFICIALS
@@ -34617,6 +35098,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'Implements border buoy barriers' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Brian Kemp', relationship: 'Fellow Republican governor implementing restrictive policies', href: '/entities/individuals/brian-kemp' },
+      { name: 'Ron DeSantis', relationship: 'Fellow GOP governor competing on border enforcement', href: '/entities/individuals/ron-desantis' },
+      { name: 'Donald Trump', relationship: 'Key Trump ally on border and immigration enforcement', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'brian-kemp': {
     name: 'Brian Kemp',
@@ -34651,6 +35138,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2021', event: 'Signs SB 202 voting restrictions' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Greg Abbott', relationship: 'Fellow Republican governor', href: '/entities/individuals/greg-abbott' },
+      { name: 'Donald Trump', relationship: 'Refused Trump\'s pressure to overturn Georgia 2020 results', href: '/entities/individuals/donald-trump' },
+      { name: 'Fani Willis', relationship: 'Fulton County DA who investigated election interference in Kemp\'s state', href: '/entities/individuals/fani-willis' }
+    ],
+
   },
   'tommy-tuberville': {
     name: 'Tommy Tuberville',
@@ -34683,6 +35176,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'February-December 2023', event: 'Blocks military promotions' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Strong Trump supporter who blocked military promotions', href: '/entities/individuals/donald-trump' },
+      { name: 'Lloyd Austin', relationship: 'Blocked Austin\'s military nominations over abortion policy', href: '/entities/individuals/lloyd-austin' }
+    ],
+
   },
   // ============================================
   // WAR CRIMINALS
@@ -34851,6 +35349,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Convicted of child porn, sentenced to 30 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Bill Cosby', relationship: 'Fellow entertainment figure convicted of sexual abuse', href: '/entities/individuals/bill-cosby' },
+      { name: 'Harvey Weinstein', relationship: 'Fellow serial predator convicted during #MeToo era', href: '/entities/individuals/harvey-weinstein' }
+    ],
+
   },
   'larry-nassar': {
     name: 'Larry Nassar',
@@ -34889,6 +35392,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2018', event: 'MSU pays $500M settlement' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Lou Anna Simon', relationship: 'MSU President who resigned over handling of Nassar abuse', href: '/entities/individuals/lou-anna-simon' },
+      { name: 'Simone Biles', relationship: 'Prominent survivor who testified against Nassar', href: '/entities/individuals/simone-biles' }
+    ],
+
   },
   'bill-cosby': {
     name: 'Bill Cosby',
@@ -34927,6 +35435,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'June 2022', event: 'Found liable in civil case' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'R. Kelly', relationship: 'Fellow entertainment figure convicted of sexual assault', href: '/entities/individuals/r-kelly' },
+      { name: 'Harvey Weinstein', relationship: 'Fellow high-profile sexual predator case', href: '/entities/individuals/harvey-weinstein' }
+    ],
+
   },
   // ============================================
   // #METOO PERPETRATORS
@@ -35021,6 +35534,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'UK sexual assault charges' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Harvey Weinstein', relationship: 'Fellow entertainment figure accused during #MeToo movement', href: '/entities/individuals/harvey-weinstein' },
+      { name: 'Jeffrey Epstein', relationship: 'Flew on Epstein\'s private jet multiple times', href: '/entities/individuals/jeffrey-epstein' }
+    ],
+
   },
   'matt-lauer': {
     name: 'Matt Lauer',
@@ -35058,6 +35576,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2019', event: 'Ronan Farrow book details allegations' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Charlie Rose', relationship: 'Fellow TV anchor fired for sexual misconduct in same period', href: '/entities/individuals/charlie-rose' },
+      { name: 'Les Moonves', relationship: 'Fellow media figure ousted during #MeToo movement', href: '/entities/individuals/les-moonves' },
+      { name: 'Harvey Weinstein', relationship: 'His firing was triggered by #MeToo wave started by Weinstein case', href: '/entities/individuals/harvey-weinstein' }
+    ],
+
   },
   'charlie-rose': {
     name: 'Charlie Rose',
@@ -35094,6 +35618,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'November 2017', event: 'Fired from CBS, PBS, Bloomberg' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Matt Lauer', relationship: 'Fellow TV host fired for sexual misconduct', href: '/entities/individuals/matt-lauer' },
+      { name: 'Les Moonves', relationship: 'CBS colleague also terminated during #MeToo', href: '/entities/individuals/les-moonves' }
+    ],
+
   },
   'brett-ratner': {
     name: 'Brett Ratner',
@@ -35126,6 +35655,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'November 2017', event: 'Warner Bros. ends deal' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Harvey Weinstein', relationship: 'Fellow Hollywood figure accused of sexual misconduct', href: '/entities/individuals/harvey-weinstein' },
+      { name: 'Kevin Spacey', relationship: 'Fellow entertainment figure accused during #MeToo era', href: '/entities/individuals/kevin-spacey' }
+    ],
+
   },
   // ============================================
   // RIGHT-WING MEDIA FIGURES
@@ -35238,6 +35772,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Orchestrates Vanderbilt clinic harassment' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Steven Crowder', relationship: 'Fellow conservative media personality and Daily Wire colleague', href: '/entities/individuals/steven-crowder' },
+      { name: 'Ben Shapiro', relationship: 'Daily Wire co-host and conservative media ally', href: '/entities/individuals/ben-shapiro' }
+    ],
+
   },
   'steven-crowder': {
     name: 'Steven Crowder',
@@ -35270,6 +35809,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'Wife abuse video leaked' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Matt Walsh', relationship: 'Fellow conservative media personality', href: '/entities/individuals/matt-walsh' },
+      { name: 'Dan Bongino', relationship: 'Fellow right-wing media figure', href: '/entities/individuals/dan-bongino' }
+    ],
+
   },
   'dan-bongino': {
     name: 'Dan Bongino',
@@ -35302,6 +35846,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Permanently banned from YouTube' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Steven Crowder', relationship: 'Fellow conservative media personality', href: '/entities/individuals/steven-crowder' },
+      { name: 'Dennis Prager', relationship: 'Fellow right-wing media figure', href: '/entities/individuals/dennis-prager' },
+      { name: 'Donald Trump', relationship: 'Staunch Trump supporter and former Secret Service agent', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'dennis-prager': {
     name: 'Dennis Prager',
@@ -35334,6 +35884,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'Florida approves PragerU content for schools' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Dan Bongino', relationship: 'Fellow conservative media personality', href: '/entities/individuals/dan-bongino' },
+      { name: 'Dinesh D\'Souza', relationship: 'Fellow conservative commentator and filmmaker', href: '/entities/individuals/dinesh-dsouza' }
+    ],
+
   },
   // ============================================
   // INTERNATIONAL WAR CRIMINALS (NEW ENTRIES)
@@ -35376,6 +35931,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'April 2019', event: 'Overthrown in coup' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Paul Kagame', relationship: 'Rival African leader during Darfur crisis and regional instability', href: '/entities/individuals/paul-kagame' },
+      { name: 'Muammar Gaddafi', relationship: 'Fellow deposed authoritarian African leader', href: '/entities/individuals/muammar-gaddafi' }
+    ],
+
   },
   // ============================================
   // CORRUPT POLITICIANS (NEW)
@@ -35670,6 +36230,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2020', event: 'Alabama disinfo campaign exposed' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Peter Thiel', relationship: 'Fellow PayPal co-founder turned political rival', href: '/entities/individuals/peter-thiel' },
+      { name: 'Jeffrey Epstein', relationship: 'Met with Epstein, later expressed regret', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Sam Altman', relationship: 'Fellow tech investor and AI industry figure', href: '/entities/individuals/sam-altman' }
+    ],
+
   },
   // ============================================
   // MORE JANUARY 6 DEFENDANTS
@@ -35754,6 +36320,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'August 2022', event: 'Sentenced to 87 months' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Jacob Chansley', relationship: 'Fellow January 6 defendant', href: '/entities/individuals/jacob-chansley' },
+      { name: 'Donald Trump', relationship: 'Stormed Capitol in support of Trump on Jan 6', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   // ============================================
   // FINANCIAL CRIMINALS
@@ -35798,6 +36369,13 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'April 14, 2021', event: 'Dies in prison' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Harry Markopolos', relationship: 'Whistleblower who warned SEC about Madoff for years', href: '/entities/individuals/harry-markopolos' },
+      { name: 'Frank DiPascali', relationship: 'Madoff\'s right-hand man and key co-conspirator', href: '/entities/individuals/frank-dipascali' },
+      { name: 'Irving Picard', relationship: 'Trustee recovering Madoff victims\' funds', href: '/entities/individuals/irving-picard' },
+      { name: 'Peter Madoff', relationship: 'Brother and compliance officer in Madoff scheme', href: '/entities/individuals/peter-madoff' }
+    ],
+
   },
   'steve-cohen': {
     name: 'Steve Cohen',
@@ -35837,6 +36415,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2020', event: 'Buys New York Mets' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Ken Griffin', relationship: 'Fellow hedge fund billionaire scrutinized during GameStop saga', href: '/entities/individuals/ken-griffin' },
+      { name: 'Jordan Belfort', relationship: 'Fellow Wall Street figure connected to aggressive trading', href: '/entities/individuals/jordan-belfort' }
+    ],
+
   },
   // ============================================
   // MORE INTERNATIONAL FIGURES
@@ -35876,6 +36459,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2014', event: 'Becomes President' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Bob Menendez', relationship: 'Menendez allegedly acted as foreign agent for Egypt', href: '/entities/individuals/bob-menendez' },
+      { name: 'Recep Tayyip Erdogan', relationship: 'Regional rival and fellow authoritarian leader', href: '/entities/individuals/recep-tayyip-erdogan' },
+      { name: 'Donald Trump', relationship: 'Trump called Sisi "my favorite dictator"', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   // ============================================
   // PHARMA EXECUTIVES - OPIOID CRISIS
@@ -35912,6 +36501,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2021', event: 'Company dissolution agreed' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Richard Sackler', relationship: 'Fellow opioid crisis executive - Purdue Pharma', href: '/entities/individuals/richard-sackler' },
+      { name: 'Steven Collis', relationship: 'AmerisourceBergen CEO in opioid distribution chain', href: '/entities/individuals/steven-collis' }
+    ],
+
   },
   'michael-babich': {
     name: 'Michael Babich',
@@ -35946,6 +36540,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'January 2020', event: 'Sentenced to 30 months' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'John Kapoor', relationship: 'Boss at Insys Therapeutics - both convicted of opioid bribery', href: '/entities/individuals/john-kapoor' }
+    ],
+
   },
   // ============================================
   // MORE EPSTEIN ASSOCIATES
@@ -36313,6 +36911,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'September 19, 2018', event: 'Dies' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Flint Taylor', relationship: 'Attorney who fought for decades to expose Burge torture ring', href: '/entities/individuals/flint-taylor' },
+      { name: 'Daryl Gates', relationship: 'Fellow police commander associated with systemic abuse', href: '/entities/individuals/daryl-gates' }
+    ],
+
   },
   'mohamed-noor': {
     name: 'Mohamed Noor',
@@ -36346,6 +36949,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'June 2019', event: 'Sentenced' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Kim Potter', relationship: 'Fellow Minnesota officer convicted of fatal shooting', href: '/entities/individuals/kim-potter' }
+    ],
+
   },
   'myles-cosgrove': {
     name: 'Myles Cosgrove',
@@ -36379,6 +36986,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'August 2022', event: 'Federally indicted' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Brett Hankison', relationship: 'Fellow officer involved in Breonna Taylor shooting', href: '/entities/individuals/brett-hankison' },
+      { name: 'Breonna Taylor', relationship: 'Fired shots during fatal raid on Taylor\'s apartment', href: '/entities/individuals/breonna-taylor' },
+      { name: 'Joshua Jaynes', relationship: 'Detective who obtained the warrant for Taylor raid', href: '/entities/individuals/joshua-jaynes' }
+    ],
+
   },
   // ============================================
   // AHMAUD ARBERY MURDERERS
@@ -36530,6 +37143,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2013-present', event: 'Multiple subsequent legal issues' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Trayvon Martin', relationship: 'Shot and killed unarmed teenager Trayvon Martin in 2012', href: '/entities/individuals/trayvon-martin' },
+      { name: 'Darren Wilson', relationship: 'Fellow acquitted shooter in high-profile racial justice case', href: '/entities/individuals/darren-wilson' }
+    ],
+
   },
   'kyle-rittenhouse': {
     name: 'Kyle Rittenhouse',
@@ -36564,6 +37182,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'November 2021', event: 'Acquitted on all charges' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Visited Mar-a-Lago after acquittal, embraced by Trump', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'dylann-roof': {
     name: 'Dylann Roof',
@@ -36599,6 +37221,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'January 2017', event: 'Sentenced to death' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Robert Bowers', relationship: 'Fellow white supremacist mass shooter', href: '/entities/individuals/robert-bowers' },
+      { name: 'Patrick Crusius', relationship: 'Fellow racially motivated mass shooter', href: '/entities/individuals/patrick-crusius' }
+    ],
+
   },
   'robert-bowers': {
     name: 'Robert Bowers',
@@ -36633,6 +37260,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'August 2023', event: 'Sentenced to death' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Dylann Roof', relationship: 'Fellow white supremacist mass shooter', href: '/entities/individuals/dylann-roof' },
+      { name: 'Payton Gendron', relationship: 'Fellow racially motivated mass shooter inspired by similar ideology', href: '/entities/individuals/payton-gendron' }
+    ],
+
   },
   'patrick-crusius': {
     name: 'Patrick Crusius',
@@ -36666,6 +37298,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'July 2023', event: 'Sentenced to 90 life sentences' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Dylann Roof', relationship: 'Fellow racially motivated mass shooter', href: '/entities/individuals/dylann-roof' },
+      { name: 'Payton Gendron', relationship: 'Gendron cited Crusius manifesto as inspiration', href: '/entities/individuals/payton-gendron' }
+    ],
+
   },
   'payton-gendron': {
     name: 'Payton Gendron',
@@ -36699,6 +37336,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'February 2023', event: 'Sentenced to life without parole' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Patrick Crusius', relationship: 'Cited Crusius El Paso manifesto as inspiration', href: '/entities/individuals/patrick-crusius' },
+      { name: 'Dylann Roof', relationship: 'Followed pattern of racially motivated mass shooting', href: '/entities/individuals/dylann-roof' },
+      { name: 'Robert Bowers', relationship: 'Fellow white supremacist mass shooter', href: '/entities/individuals/robert-bowers' }
+    ],
+
   },
   // ============================================
   // MORE JANUARY 6 DEFENDANTS
@@ -36814,6 +37457,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Convicted' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Jacob Chansley', relationship: 'Fellow January 6 defendant who breached Capitol', href: '/entities/individuals/jacob-chansley' },
+      { name: 'Guy Reffitt', relationship: 'Fellow January 6 rioter convicted', href: '/entities/individuals/guy-reffitt' }
+    ],
+
   },
   'riley-june-williams': {
     name: 'Riley June Williams',
@@ -36847,6 +37495,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'November 2023', event: 'Convicted' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Jacob Chansley', relationship: 'Fellow January 6 defendant', href: '/entities/individuals/jacob-chansley' },
+      { name: 'Ashli Babbitt', relationship: 'Fellow January 6 participant', href: '/entities/individuals/ashli-babbitt' }
+    ],
+
   },
   'lonnie-coffman': {
     name: 'Lonnie Coffman',
@@ -36877,6 +37530,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'April 2022', event: 'Convicted' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Jacob Chansley', relationship: 'Fellow January 6 defendant - brought pipe bombs near Capitol', href: '/entities/individuals/jacob-chansley' },
+      { name: 'Guy Reffitt', relationship: 'Fellow armed January 6 participant', href: '/entities/individuals/guy-reffitt' }
+    ],
+
   },
   'julian-khater': {
     name: 'Julian Khater',
@@ -36978,6 +37636,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'September 2022', event: 'Sentenced to 10 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Jacob Chansley', relationship: 'Fellow January 6 defendant', href: '/entities/individuals/jacob-chansley' },
+      { name: 'Guy Reffitt', relationship: 'Fellow January 6 convicted rioter', href: '/entities/individuals/guy-reffitt' }
+    ],
+
   },
   // ============================================
   // ADDITIONAL SEX OFFENDERS AND PREDATORS
@@ -37151,6 +37814,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Gets new $350M funding for Flow' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Trevor Milton', relationship: 'Fellow startup founder accused of misleading investors', href: '/entities/individuals/trevor-milton' },
+      { name: 'Masayoshi Son', relationship: 'SoftBank CEO who massively invested in WeWork', href: '/entities/individuals/masayoshi-son' }
+    ],
+
   },
   // ============================================
   // ADDITIONAL FINANCIAL CRIMINALS
@@ -37270,6 +37938,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'November 2022', event: 'Sentenced to life without parole' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Fred Guttenberg', relationship: 'Father of victim Jaime Guttenberg who became gun control activist', href: '/entities/individuals/fred-guttenberg' },
+      { name: 'Pete Arredondo', relationship: 'Fellow mass shooting case where law enforcement response was questioned', href: '/entities/individuals/pete-arredondo' }
+    ],
+
   },
   'salvador-ramos': {
     name: 'Salvador Ramos',
@@ -37303,6 +37976,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'May 24, 2022', event: 'Killed by Border Patrol' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Pete Arredondo', relationship: 'Uvalde school police chief whose delayed response drew national outrage', href: '/entities/individuals/pete-arredondo' },
+      { name: 'Greg Abbott', relationship: 'Texas governor who faced criticism after Uvalde shooting', href: '/entities/individuals/greg-abbott' }
+    ],
+
   },
   // ============================================
   // ADDITIONAL MASS SHOOTERS
@@ -37338,6 +38016,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'August 2015', event: 'Sentenced to 12 life terms + 3,318 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Stephen Paddock', relationship: 'Fellow mass shooter who carried out large-scale gun attack', href: '/entities/individuals/stephen-paddock' }
+    ],
+
   },
   'stephen-paddock': {
     name: 'Stephen Paddock',
@@ -37368,6 +38050,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'October 1, 2017', event: 'Kills himself in hotel room' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'James Holmes', relationship: 'Fellow mass shooter in major gun violence incident', href: '/entities/individuals/james-holmes' },
+      { name: 'Omar Mateen', relationship: 'Perpetrator of Pulse nightclub shooting in similar era', href: '/entities/individuals/omar-mateen' }
+    ],
+
   },
   'omar-mateen': {
     name: 'Omar Mateen',
@@ -37399,6 +38086,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'June 12, 2016', event: 'Killed by police' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Stephen Paddock', relationship: 'Fellow mass shooter in large-scale gun attack', href: '/entities/individuals/stephen-paddock' },
+      { name: 'Anwar al-Awlaki', relationship: 'Mateen was influenced by al-Awlaki propaganda', href: '/entities/individuals/anwar-al-awlaki' }
+    ],
+
   },
   'devin-kelley': {
     name: 'Devin Kelley',
@@ -37430,6 +38122,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'November 5, 2017', event: 'Dies fleeing after being shot' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Stephen Paddock', relationship: 'Fellow mass shooter in same period', href: '/entities/individuals/stephen-paddock' }
+    ],
+
   },
   'ethan-crumbley': {
     name: 'Ethan Crumbley',
@@ -37463,6 +38159,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'December 2023', event: 'Sentenced to life without parole' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'James Crumbley', relationship: 'Father convicted for failing to prevent son\'s school shooting', href: '/entities/individuals/james-crumbley' },
+      { name: 'Jennifer Crumbley', relationship: 'Mother convicted for failing to prevent son\'s school shooting', href: '/entities/individuals/jennifer-crumbley' }
+    ],
+
   },
   'james-crumbley': {
     name: 'James Crumbley',
@@ -37493,6 +38194,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'April 2024', event: 'Sentenced to 10-15 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Ethan Crumbley', relationship: 'Son who committed Oxford High School shooting', href: '/entities/individuals/ethan-crumbley' },
+      { name: 'Jennifer Crumbley', relationship: 'Wife - both convicted of involuntary manslaughter', href: '/entities/individuals/jennifer-crumbley' }
+    ],
+
   },
   'jennifer-crumbley': {
     name: 'Jennifer Crumbley',
@@ -37522,6 +38228,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'April 2024', event: 'Sentenced to 10-15 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Ethan Crumbley', relationship: 'Son who committed Oxford High School shooting', href: '/entities/individuals/ethan-crumbley' },
+      { name: 'James Crumbley', relationship: 'Husband - both convicted of involuntary manslaughter', href: '/entities/individuals/james-crumbley' }
+    ],
+
   },
   // ============================================
   // SEX TRAFFICKING AND ABUSE
@@ -37603,6 +38314,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'May 2022', event: 'Sentenced to 12.5 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'R. Kelly', relationship: 'Fellow public figure convicted of sex crimes against minors', href: '/entities/individuals/r-kelly' }
+    ],
+
   },
   // ============================================
   // ADDITIONAL TRUMP ADMINISTRATION
@@ -37718,6 +38433,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2017-2021', event: 'Agriculture Secretary' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Agriculture Secretary under Trump 2017-2021', href: '/entities/individuals/donald-trump' },
+      { name: 'Brian Kemp', relationship: 'Fellow Georgia Republican and former governor', href: '/entities/individuals/brian-kemp' }
+    ],
+
   },
   'larry-kudlow': {
     name: 'Larry Kudlow',
@@ -37790,6 +38510,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2020', event: 'OSU settles for $60 million' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Larry Nassar', relationship: 'Fellow university-affiliated doctor convicted of serial sexual abuse', href: '/entities/individuals/larry-nassar' }
+    ],
+
   },
   // ============================================
   // ADDITIONAL INTERNATIONAL FIGURES
@@ -37868,6 +38592,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2019', event: 'Trump appoints Venezuela envoy' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Oliver North', relationship: 'Fellow Iran-Contra figure convicted and later pardoned', href: '/entities/individuals/oliver-north' },
+      { name: 'Robert McFarlane', relationship: 'National Security Advisor during Iran-Contra', href: '/entities/individuals/robert-mcfarlane' },
+      { name: 'Jeane Kirkpatrick', relationship: 'Fellow Reagan-era foreign policy hawk', href: '/entities/individuals/jeane-kirkpatrick' }
+    ],
+
   },
   'peter-liang': {
     name: 'Peter Liang',
@@ -37903,6 +38633,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'April 2016', event: 'Sentenced to community service' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Daniel Pantaleo', relationship: 'Fellow NYPD officer involved in controversial killing', href: '/entities/individuals/daniel-pantaleo' }
+    ],
+
   },
   // ============================================
   // ADDITIONAL TECH/CORPORATE FIGURES
@@ -38215,6 +38949,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'November 2022', event: 'Lost Secretary of State race' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Kari Lake', relationship: 'Fellow Arizona election denier', href: '/entities/individuals/kari-lake' },
+      { name: 'Donald Trump', relationship: 'Trump-endorsed candidate who denied 2020 election results', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'kristi-noem': {
     name: 'Kristi Noem',
@@ -38249,6 +38988,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Nominated for DHS Secretary' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Greg Abbott', relationship: 'Fellow GOP governor competing for national prominence', href: '/entities/individuals/greg-abbott' },
+      { name: 'Ron DeSantis', relationship: 'Fellow Republican governor and potential presidential rival', href: '/entities/individuals/ron-desantis' },
+      { name: 'Donald Trump', relationship: 'Named as DHS Secretary by Trump in 2024', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'louie-gohmert': {
     name: 'Louie Gohmert',
@@ -38281,6 +39026,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'January 6, 2021', event: 'Votes to overturn results' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Loyal Trump ally in Congress who challenged 2020 results', href: '/entities/individuals/donald-trump' },
+      { name: 'Jim Jordan', relationship: 'Fellow hardline Republican congressman', href: '/entities/individuals/jim-jordan' }
+    ],
+
   },
   'madison-cawthorn': {
     name: 'Madison Cawthorn',
@@ -38313,6 +39063,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'May 2022', event: 'Loses primary' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Youngest Trump-aligned congressman before scandal and defeat', href: '/entities/individuals/donald-trump' },
+      { name: 'George Santos', relationship: 'Fellow young Republican congressman expelled in scandal', href: '/entities/individuals/george-santos' }
+    ],
+
   },
   'ron-johnson': {
     name: 'Ron Johnson',
@@ -38384,6 +39139,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Nominated as UN Ambassador' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Rose to Republican leadership as Trump defender', href: '/entities/individuals/donald-trump' },
+      { name: 'Kevin McCarthy', relationship: 'Republican House leadership colleague', href: '/entities/individuals/kevin-mccarthy' }
+    ],
+
   },
   'james-comer': {
     name: 'James Comer',
@@ -38415,6 +39175,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Key witness Smirnov indicted' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Jim Jordan', relationship: 'Partner in House Republican investigations', href: '/entities/individuals/jim-jordan' },
+      { name: 'Donald Trump', relationship: 'Led House Oversight investigations to support Trump', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'barry-loudermilk': {
     name: 'Barry Loudermilk',
@@ -38445,6 +39210,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Tour revealed by J6 Committee' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Gave Capitol tour before Jan 6 that drew investigation', href: '/entities/individuals/donald-trump' },
+      { name: 'Bennie Thompson', relationship: 'Jan 6 committee chair who investigated Loudermilk tours', href: '/entities/individuals/bennie-thompson' }
+    ],
+
   },
   'newt-gingrich': {
     name: 'Newt Gingrich',
@@ -39227,6 +39997,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2017', event: 'Joined Blaze Media' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Dennis Prager', relationship: 'Created Rubin Report on PragerU platform', href: '/entities/individuals/dennis-prager' },
+      { name: 'Dan Bongino', relationship: 'Fellow conservative media personality', href: '/entities/individuals/dan-bongino' }
+    ],
+
   },
 
   'dinesh-dsouza': {
@@ -39261,6 +40036,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: '"2000 Mules" released and debunked' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Dennis Prager', relationship: 'Fellow conservative commentator and media figure', href: '/entities/individuals/dennis-prager' },
+      { name: 'Donald Trump', relationship: 'Pardoned by Trump in 2018 for campaign finance violation', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
 
   'james-okeefe': {
@@ -39298,6 +40078,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'Ousted from Project Veritas' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Jacob Wohl', relationship: 'Fellow right-wing provocateur and disinformation figure', href: '/entities/individuals/jacob-wohl' },
+      { name: 'Donald Trump', relationship: 'Trump supporter whose hidden camera operations targeted liberals', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
 
   'jacob-wohl': {
@@ -39336,6 +40121,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'Convicted in Michigan' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'James O\'Keefe', relationship: 'Fellow right-wing provocateur', href: '/entities/individuals/james-okeefe' },
+      { name: 'Jack Burkman', relationship: 'Co-conspirator in multiple political hoaxes', href: '/entities/individuals/jack-burkman' }
+    ],
+
   },
 
   'milo-yiannopoulos': {
@@ -39373,6 +40163,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'MTG intern' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Steve Bannon', relationship: 'Former Breitbart colleague under Bannon\'s leadership', href: '/entities/individuals/steve-bannon' },
+      { name: 'Roger Stone', relationship: 'Fellow provocateur in Trump political orbit', href: '/entities/individuals/roger-stone' }
+    ],
+
   },
 
   'greg-gutfeld': {
@@ -39404,6 +40199,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2021', event: 'Launched "Gutfeld!"' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Tucker Carlson', relationship: 'Former Fox News colleague', href: '/entities/individuals/tucker-carlson' },
+      { name: 'Suzanne Scott', relationship: 'Fox News CEO overseeing Gutfeld\'s programming', href: '/entities/individuals/suzanne-scott' }
+    ],
+
   },
 
   'gary-cohn': {
@@ -39649,6 +40449,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2006-2013', event: 'Federal prison' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'William Jefferson', relationship: 'Contemporary congressman convicted of corruption', href: '/entities/individuals/william-jefferson' }
+    ],
+
   },
 
   'william-jefferson': {
@@ -39685,6 +40489,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2009', event: 'Sentenced to 13 years' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Duke Cunningham', relationship: 'Fellow congressman convicted of corruption in same era', href: '/entities/individuals/duke-cunningham' }
+    ],
+
   },
 
   'henry-cuellar': {
@@ -39720,6 +40528,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'May 2024', event: 'Indicted on bribery charges' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Bob Menendez', relationship: 'Fellow Democratic congressman facing corruption charges', href: '/entities/individuals/bob-menendez' }
+    ],
+
   },
 
   // ==================== HOUSE GOP LEADERSHIP ====================
@@ -39794,6 +40606,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'January 6, 2021', event: 'Voted against certification' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Betsy DeVos', relationship: 'Worked with DeVos on rolling back student protections', href: '/entities/individuals/betsy-devos' }
+    ],
+
   },
 
   // ==================== OBSTRUCTIONIST SENATORS & HISTORICAL ====================
@@ -39832,6 +40648,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Killed voting rights bills' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Kyrsten Sinema', relationship: 'Fellow moderate Democratic senator who blocked party agenda', href: '/entities/individuals/kyrsten-sinema' },
+      { name: 'Joe Biden', relationship: 'Key swing vote for Biden legislative agenda', href: '/entities/individuals/joe-biden' },
+      { name: 'Don Blankenship', relationship: 'West Virginia coal baron connected to Manchin\'s energy politics', href: '/entities/individuals/don-blankenship' }
+    ],
+
   },
 
   'kyrsten-sinema': {
@@ -39866,6 +40688,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Left Democratic Party' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Joe Manchin', relationship: 'Fellow moderate Democratic senator who blocked filibuster reform', href: '/entities/individuals/joe-manchin' },
+      { name: 'Joe Biden', relationship: 'Repeatedly blocked Biden\'s Build Back Better agenda', href: '/entities/individuals/joe-biden' }
+    ],
+
   },
 
   'strom-thurmond': {
@@ -39902,6 +40729,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2003', event: 'Died at 100 - secret daughter revealed' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Jesse Helms', relationship: 'Fellow Southern segregationist senator', href: '/entities/individuals/jesse-helms' },
+      { name: 'Trent Lott', relationship: 'Lott praised Thurmond\'s segregationist campaign, causing scandal', href: '/entities/individuals/trent-lott' },
+      { name: 'George Wallace', relationship: 'Fellow segregationist political figure', href: '/entities/individuals/george-wallace' }
+    ],
+
   },
 
   'jesse-helms': {
@@ -39938,6 +40771,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2008', event: 'Died' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Strom Thurmond', relationship: 'Fellow segregationist senator and political ally', href: '/entities/individuals/strom-thurmond' },
+      { name: 'Trent Lott', relationship: 'Fellow Southern conservative senator', href: '/entities/individuals/trent-lott' }
+    ],
+
   },
 
   'trent-lott': {
@@ -39972,6 +40810,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2008', event: 'Became lobbyist' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Strom Thurmond', relationship: 'Praised Thurmond\'s segregationist campaign at 100th birthday', href: '/entities/individuals/strom-thurmond' },
+      { name: 'Jesse Helms', relationship: 'Fellow Southern conservative senator', href: '/entities/individuals/jesse-helms' }
+    ],
+
   },
 
   'joe-lieberman': {
@@ -40008,6 +40851,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'March 2024', event: 'Died' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'John McCain', relationship: 'Close bipartisan ally and nearly chosen as McCain VP', href: '/entities/individuals/john-mccain' },
+      { name: 'Joe Manchin', relationship: 'Both served as centrist Democrats blocking party agenda', href: '/entities/individuals/joe-manchin' }
+    ],
+
   },
 
   'dianne-feinstein': {
@@ -40042,6 +40890,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'September 2023', event: 'Died in office' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Kamala Harris', relationship: 'Fellow California senator who succeeded Feinstein\'s era', href: '/entities/individuals/kamala-harris' },
+      { name: 'Chuck Grassley', relationship: 'Senate Judiciary Committee counterpart for decades', href: '/entities/individuals/chuck-grassley' }
+    ],
+
   },
 
   // ==================== TERRORISTS & DOMESTIC EXTREMISTS ====================
@@ -40081,6 +40934,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'June 11, 2001', event: 'Executed by lethal injection' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Terry Nichols', relationship: 'Co-conspirator in Oklahoma City bombing', href: '/entities/individuals/terry-nichols' },
+      { name: 'Eric Rudolph', relationship: 'Contemporary domestic terrorist of 1990s', href: '/entities/individuals/eric-rudolph' }
+    ],
+
   },
 
   'ted-kaczynski': {
@@ -40117,6 +40975,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'June 10, 2023', event: 'Died in prison' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Timothy McVeigh', relationship: 'Fellow domestic terrorist of 1990s era', href: '/entities/individuals/timothy-mcveigh' }
+    ],
+
   },
 
   'eric-rudolph': {
@@ -40157,6 +41019,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2005', event: 'Pleaded guilty - life in prison' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Timothy McVeigh', relationship: 'Fellow domestic terrorist of 1990s', href: '/entities/individuals/timothy-mcveigh' }
+    ],
+
   },
 
   'osama-bin-laden': {
@@ -40197,6 +41063,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'May 2, 2011', event: 'Killed by SEAL Team Six in Pakistan' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Khalid Sheikh Mohammed', relationship: 'Principal architect of 9/11 attacks under bin Laden', href: '/entities/individuals/khalid-sheikh-mohammed' },
+      { name: 'Anwar al-Awlaki', relationship: 'Al-Qaeda propagandist who continued bin Laden\'s mission', href: '/entities/individuals/anwar-al-awlaki' },
+      { name: 'Ayman al-Zawahiri', relationship: 'Second-in-command who succeeded bin Laden as al-Qaeda leader', href: '/entities/individuals/ayman-al-zawahiri' }
+    ],
+
   },
 
   'khalid-sheikh-mohammed': {
@@ -40237,6 +41109,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2006-Present', event: 'Guantanamo Bay - awaiting trial' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Osama bin Laden', relationship: 'al-Qaeda leader who approved KSM\'s 9/11 plot', href: '/entities/individuals/osama-bin-laden' },
+      { name: 'James Mitchell', relationship: 'CIA psychologist who waterboarded KSM 183 times', href: '/entities/individuals/james-mitchell' }
+    ],
+
   },
 
   'anwar-al-awlaki': {
@@ -40275,6 +41152,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'September 30, 2011', event: 'Killed by U.S. drone strike in Yemen' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Osama bin Laden', relationship: 'al-Qaeda leader whose mission al-Awlaki propagated', href: '/entities/individuals/osama-bin-laden' },
+      { name: 'Nasser al-Awlaki', relationship: 'Father who sued US government over son\'s extrajudicial killing', href: '/entities/individuals/nasser-al-awlaki' },
+      { name: 'Nawar al-Awlaki', relationship: 'Daughter killed in 2017 Yemen raid years after father\'s death', href: '/entities/individuals/nawar-al-awlaki' }
+    ],
+
   },
 
   // ==================== REPUBLICAN GOVERNORS ====================
@@ -40310,6 +41193,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022-2023', event: 'Anti-trans, anti-abortion policies' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Greg Abbott', relationship: 'Fellow Republican governor elected on cultural issues platform', href: '/entities/individuals/greg-abbott' },
+      { name: 'Ron DeSantis', relationship: 'Fellow GOP governor seen as party future', href: '/entities/individuals/ron-desantis' }
+    ],
+
   },
 
   'kim-reynolds': {
@@ -40343,6 +41231,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'Signed 6-week abortion ban' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Greg Abbott', relationship: 'Fellow Republican governor implementing conservative policies', href: '/entities/individuals/greg-abbott' },
+      { name: 'Ron DeSantis', relationship: 'Fellow GOP governor', href: '/entities/individuals/ron-desantis' }
+    ],
+
   },
 
   'tate-reeves': {
@@ -40376,6 +41269,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2023', event: 'Favre text messages revealed' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Phil Bryant', relationship: 'Predecessor as Mississippi governor', href: '/entities/individuals/phil-bryant' },
+      { name: 'Greg Abbott', relationship: 'Fellow Republican governor', href: '/entities/individuals/greg-abbott' }
+    ],
+
   },
 
   'bill-lee': {
@@ -40409,6 +41307,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'March 2023', event: 'Nashville school shooting, rejected reform' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Greg Abbott', relationship: 'Fellow Republican governor in Deep South', href: '/entities/individuals/greg-abbott' },
+      { name: 'Brian Kemp', relationship: 'Fellow GOP governor', href: '/entities/individuals/brian-kemp' }
+    ],
+
   },
 
   'mike-parson': {
@@ -40441,6 +41344,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2021', event: 'Pardoned McCloskeys' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Greg Abbott', relationship: 'Fellow Republican governor', href: '/entities/individuals/greg-abbott' },
+      { name: 'Kim Reynolds', relationship: 'Fellow Midwestern GOP governor', href: '/entities/individuals/kim-reynolds' }
+    ],
+
   },
 
   // ==================== 2022/2024 FAILED TRUMP CANDIDATES ====================
@@ -40475,6 +41383,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Lost PA Senate race to Fetterman' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Trump-endorsed Senate candidate in Pennsylvania 2022', href: '/entities/individuals/donald-trump' },
+      { name: 'Herschel Walker', relationship: 'Fellow Trump-endorsed candidate in 2022 midterms', href: '/entities/individuals/herschel-walker' }
+    ],
+
   },
 
   'herschel-walker': {
@@ -40505,6 +41418,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'December 2022', event: 'Lost Georgia Senate runoff' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Trump-endorsed Georgia Senate candidate 2022', href: '/entities/individuals/donald-trump' },
+      { name: 'Dr. Oz', relationship: 'Fellow Trump-endorsed candidate who lost 2022 midterm', href: '/entities/individuals/dr-oz' }
+    ],
+
   },
 
   'blake-masters': {
@@ -40536,6 +41454,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Lost Arizona Senate race' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Peter Thiel', relationship: 'Protégé and co-author backed by Thiel in Senate race', href: '/entities/individuals/peter-thiel' },
+      { name: 'Donald Trump', relationship: 'Trump-endorsed Arizona Senate candidate 2022', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
 
   'jd-vance': {
@@ -40607,6 +41530,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Lost general election' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Trump-endorsed congressional candidate', href: '/entities/individuals/donald-trump' },
+      { name: 'Blake Masters', relationship: 'Fellow Trump-endorsed candidate in 2022 cycle', href: '/entities/individuals/blake-masters' }
+    ],
+
   },
 
   'tudor-dixon': {
@@ -40634,6 +41562,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Lost to Whitmer by 10 points' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Trump-endorsed Michigan governor candidate 2022', href: '/entities/individuals/donald-trump' },
+      { name: 'Betsy DeVos', relationship: 'Michigan Republican ally and DeVos family-backed candidate', href: '/entities/individuals/betsy-devos' }
+    ],
+
   },
 
   // ==================== 900th INDIVIDUAL - MILESTONE ====================
@@ -40674,6 +41607,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2004', event: 'Oklahoma conviction - 161 life sentences' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Timothy McVeigh', relationship: 'Co-conspirator who built the Oklahoma City bomb', href: '/entities/individuals/timothy-mcveigh' }
+    ],
+
   },
   'sam-salehpour': {
     name: 'Sam Salehpour',
@@ -40706,6 +41643,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'April 17, 2024', event: 'Testifies before Senate Commerce Committee' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Ed Pierson', relationship: 'Fellow Boeing whistleblower raising safety concerns', href: '/entities/individuals/ed-pierson' },
+      { name: 'Dave Calhoun', relationship: 'Boeing CEO during Salehpour\'s quality allegations', href: '/entities/individuals/dave-calhoun' }
+    ],
+
   },
   'desmond-mills': {
     name: 'Desmond Mills Jr.',
@@ -40742,6 +41684,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Pled guilty to federal charges' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Emmitt Martin', relationship: 'Fellow Memphis SCORPION unit officer charged in Tyre Nichols death', href: '/entities/individuals/emmitt-martin' },
+      { name: 'Tadarrius Bean', relationship: 'Fellow officer charged in Tyre Nichols beating', href: '/entities/individuals/tadarrius-bean' },
+      { name: 'Justin Smith', relationship: 'Fellow officer charged in Tyre Nichols death', href: '/entities/individuals/justin-smith' }
+    ],
+
   },
   'emmitt-martin': {
     name: 'Emmitt Martin III',
@@ -40776,6 +41724,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Convicted at federal trial' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Desmond Mills', relationship: 'Fellow SCORPION unit officer charged in Tyre Nichols death', href: '/entities/individuals/desmond-mills' },
+      { name: 'Tadarrius Bean', relationship: 'Fellow officer charged in Nichols beating', href: '/entities/individuals/tadarrius-bean' },
+      { name: 'Justin Smith', relationship: 'Fellow officer charged in Nichols death', href: '/entities/individuals/justin-smith' }
+    ],
+
   },
   'tadarrius-bean': {
     name: 'Tadarrius Bean',
@@ -40807,6 +41761,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Convicted federally' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Desmond Mills', relationship: 'Fellow SCORPION unit officer charged in Nichols case', href: '/entities/individuals/desmond-mills' },
+      { name: 'Emmitt Martin', relationship: 'Fellow officer charged in Tyre Nichols death', href: '/entities/individuals/emmitt-martin' }
+    ],
+
   },
   'justin-smith': {
     name: 'Justin Smith',
@@ -40838,6 +41797,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2024', event: 'Convicted federally' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Desmond Mills', relationship: 'Fellow SCORPION unit officer charged in Nichols death', href: '/entities/individuals/desmond-mills' },
+      { name: 'Emmitt Martin', relationship: 'Fellow officer charged in Tyre Nichols beating', href: '/entities/individuals/emmitt-martin' }
+    ],
+
   },
   'hank-paulson': {
     name: 'Henry "Hank" Paulson',
@@ -40872,6 +41836,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'January 2009', event: 'Left Treasury' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Henry Paulson', relationship: 'Same person - Treasury Secretary during 2008 financial crisis', href: '/entities/individuals/henry-paulson' },
+      { name: 'Tim Geithner', relationship: 'Successor as Treasury Secretary who continued bailout policy', href: '/entities/individuals/tim-geithner' }
+    ],
+
   },
   'jeffrey-wigand': {
     name: 'Jeffrey Wigand',
@@ -40906,6 +41875,12 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '1999', event: '"The Insider" film released' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Geoffrey Bible', relationship: 'Philip Morris CEO who Wigand\'s testimony undermined', href: '/entities/individuals/geoffrey-bible' },
+      { name: 'Edward Horrigan', relationship: 'Tobacco executive whose industry Wigand exposed', href: '/entities/individuals/edward-horrigan' },
+      { name: 'Victor DeNoble', relationship: 'Fellow tobacco industry whistleblower', href: '/entities/individuals/victor-denoble' }
+    ],
+
   },
   'julian-robertson': {
     name: 'Julian Robertson',
@@ -40937,6 +41912,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'August 23, 2022', event: 'Died at age 90' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Ray Dalio', relationship: 'Fellow hedge fund titan and Tiger Management founder', href: '/entities/individuals/ray-dalio' },
+      { name: 'Steve Cohen', relationship: 'Fellow hedge fund manager', href: '/entities/individuals/steve-cohen' }
+    ],
+
   },
   'lisa-eisenhart': {
     name: 'Lisa Eisenhart',
@@ -40969,6 +41949,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Convicted of federal charges' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Jacob Chansley', relationship: 'Fellow January 6 defendant', href: '/entities/individuals/jacob-chansley' },
+      { name: 'Guy Reffitt', relationship: 'Fellow January 6 participant', href: '/entities/individuals/guy-reffitt' }
+    ],
+
   },
   'mark-swartz': {
     name: 'Mark Swartz',
@@ -41005,6 +41990,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2012', event: 'Released from prison' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Dennis Kozlowski', relationship: 'Co-defendant and fellow Tyco executive convicted of fraud', href: '/entities/individuals/dennis-kozlowski' }
+    ],
+
   },
   'ramesh-balwani': {
     name: 'Ramesh "Sunny" Balwani',
@@ -41043,6 +42032,11 @@ const individualData: Record<string, IndividualProfile> = {
       { date: 'December 2022', event: 'Sentenced to 12 years 11 months' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'Elizabeth Holmes', relationship: 'Former partner and co-defendant in Theranos fraud', href: '/entities/individuals/elizabeth-holmes' },
+      { name: 'Sunny Balwani', relationship: 'Same person - Theranos COO convicted of fraud', href: '/entities/individuals/sunny-balwani' }
+    ],
+
   },
   'timothy-rigas': {
     name: 'Timothy Rigas',
@@ -41081,6 +42075,10 @@ const individualData: Record<string, IndividualProfile> = {
       { date: '2016', event: 'Released from prison' },
     ],
     sources: [],
+    knownAssociates: [
+      { name: 'John Rigas', relationship: 'Father and co-defendant in Adelphia Communications fraud', href: '/entities/individuals/john-rigas' }
+    ],
+
   },
   'abdulrahman-al-awlaki': {
     name: 'Abdulrahman Anwar al-Awlaki',
@@ -42137,6 +43135,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Libya Intervention', slug: 'libya-intervention', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Muammar Gaddafi', relationship: 'Libyan dissident tortured under Gaddafi regime with CIA/MI6 help', href: '/entities/individuals/muammar-gaddafi' },
+      { name: 'Tony Blair', relationship: 'UK PM whose government facilitated Belhaj rendition to Libya', href: '/entities/individuals/tony-blair' }
+    ],
+
   },
   'abdur-rahman-muhammad': {
     name: 'Abdur-Rahman Muhammad',
@@ -42153,6 +43156,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Khalil Islam', relationship: 'Fellow Malcolm X assassination suspect later exonerated', href: '/entities/individuals/khalil-islam' },
+      { name: 'Malcolm X', relationship: 'Researcher who investigated Malcolm X assassination', href: '/entities/individuals/malcolm-x' }
+    ],
+
   },
   'abigail-echo-hawk': {
     name: 'Abigail Echo-Hawk',
@@ -42169,6 +43177,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Missing Murdered Indigenous Women', slug: 'missing-murdered-indigenous-women', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Annita Lucchesi', relationship: 'Fellow MMIW researcher and Indigenous data activist', href: '/entities/individuals/annita-lucchesi' },
+      { name: 'Lisa Brunner', relationship: 'Fellow advocate for Missing and Murdered Indigenous Women', href: '/entities/individuals/lisa-brunner' }
+    ],
+
   },
   'abolhassan-banisadr': {
     name: 'Abolhassan Banisadr',
@@ -42185,6 +43198,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'October Surprise 1980', slug: 'october-surprise-1980', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ayatollah Khomeini', relationship: 'First president under Khomeini who was later ousted', href: '/entities/individuals/ayatollah-khomeini' },
+      { name: 'Nematollah Nassiri', relationship: 'SAVAK chief from shah era overthrown by Banisadr\'s revolution', href: '/entities/individuals/nematollah-nassiri' }
+    ],
+
   },
   'abraham-zapruder': {
     name: 'Abraham Zapruder',
@@ -42201,6 +43219,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Jfk Assassination', slug: 'jfk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Lee Harvey Oswald', relationship: 'Filmed the JFK assassination that Oswald was accused of', href: '/entities/individuals/lee-harvey-oswald' },
+      { name: 'John Connally', relationship: 'Texas governor wounded in same JFK motorcade Zapruder filmed', href: '/entities/individuals/john-connally' }
+    ],
+
   },
   'adam-lanza': {
     name: 'Adam Lanza',
@@ -42238,6 +43261,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Indonesia Mass Killings', slug: 'indonesia-mass-killings', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Suharto', relationship: 'Foreign minister under Suharto regime', href: '/entities/individuals/suharto' },
+      { name: 'Robert Martens', relationship: 'US embassy official who provided kill lists during Indonesian massacres', href: '/entities/individuals/robert-martens' }
+    ],
+
   },
   'addison-yeaman': {
     name: 'Addison Yeaman',
@@ -42254,6 +43282,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Edward Horrigan', relationship: 'Fellow tobacco industry insider', href: '/entities/individuals/edward-horrigan' },
+      { name: 'Jeffrey Wigand', relationship: 'Whistleblower who exposed industry Yeaman documented', href: '/entities/individuals/jeffrey-wigand' }
+    ],
+
   },
   'aiyana-stanley-jones': {
     name: 'Aiyana Stanley-Jones',
@@ -42270,6 +43303,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Joseph Weekley', relationship: 'Officer who fatally shot 7-year-old Aiyana during raid', href: '/entities/individuals/joseph-weekley' }
+    ],
+
   },
   'aj-smitherman': {
     name: 'A.J. Smitherman',
@@ -42286,6 +43323,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Tulsa Race Massacre', slug: 'tulsa-race-massacre', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Dick Rowland', relationship: 'Man whose arrest triggered Tulsa Race Massacre Smitherman covered', href: '/entities/individuals/dick-rowland' },
+      { name: 'BC Franklin', relationship: 'Fellow Tulsa lawyer who documented the massacre', href: '/entities/individuals/bc-franklin' }
+    ],
+
   },
   'ajit-pai': {
     name: 'Ajit Pai',
@@ -42324,6 +43366,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Fred Hampton Assassination', slug: 'fred-hampton-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Fred Hampton', relationship: 'Partner of Fred Hampton - was present during his assassination', href: '/entities/individuals/fred-hampton' },
+      { name: 'Fred Hampton Jr', relationship: 'Son who continued father\'s activism', href: '/entities/individuals/fred-hampton-jr' },
+      { name: 'Edward Hanrahan', relationship: 'Cook County State\'s Attorney who authorized Hampton raid', href: '/entities/individuals/edward-hanrahan' }
+    ],
+
   },
   'alan-fiers': {
     name: 'Alan Fiers',
@@ -42340,6 +43388,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Cia Drug Trafficking', slug: 'cia-drug-trafficking', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Oliver North', relationship: 'CIA officer who reported to North in Iran-Contra operations', href: '/entities/individuals/oliver-north' },
+      { name: 'Elliott Abrams', relationship: 'Fellow Iran-Contra figure in Reagan administration', href: '/entities/individuals/elliott-abrams' }
+    ],
+
   },
   'alan-mann': {
     name: 'Alan Mann',
@@ -42356,6 +43409,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Arthur Rudolph', relationship: 'Fellow Operation Paperclip researcher', href: '/entities/individuals/arthur-rudolph' },
+      { name: 'Wernher von Braun', relationship: 'Operation Paperclip colleague', href: '/entities/individuals/wernher-von-braun' }
+    ],
+
   },
   'alan-shaw': {
     name: 'Norfolk Southern (CEO Alan Shaw)',
@@ -42372,6 +43430,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Water Contamination Nationwide', slug: 'water-contamination-nationwide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Pete Buttigieg', relationship: 'Transportation Secretary who oversaw Norfolk Southern response after East Palestine', href: '/entities/individuals/pete-buttigieg' }
+    ],
+
   },
   'albert-lord': {
     name: 'Albert Lord',
@@ -42388,6 +43450,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jack Remondi', relationship: 'Successor as Navient/Sallie Mae CEO', href: '/entities/individuals/jack-remondi' },
+      { name: 'Betsy DeVos', relationship: 'Education Secretary who rolled back student loan protections', href: '/entities/individuals/betsy-devos' }
+    ],
+
   },
   'albert-woodfox': {
     name: 'Albert Woodfox',
@@ -42404,6 +43471,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Herman Wallace', relationship: 'Fellow Angola Three member held in solitary for 40+ years', href: '/entities/individuals/herman-wallace' },
+      { name: 'Robert King', relationship: 'Fellow Angola Three member and prison reform activist', href: '/entities/individuals/robert-king' }
+    ],
+
   },
   'aldo-moro': {
     name: 'Aldo Moro',
@@ -42420,6 +43492,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Giulio Andreotti', relationship: 'Italian PM connected to Gladio and Moro kidnapping conspiracy', href: '/entities/individuals/giulio-andreotti' },
+      { name: 'Licio Gelli', relationship: 'P2 Lodge master linked to Moro assassination conspiracy', href: '/entities/individuals/licio-gelli' }
+    ],
+
   },
   'alec-smith': {
     name: 'Alec Smith',
@@ -42436,6 +43513,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Nicole Smith-Holt', relationship: 'Mother who became insulin pricing activist after Alec\'s death', href: '/entities/individuals/nicole-smith-holt' }
+    ],
+
   },
   'alex-karp': {
     name: 'Alex Karp',
@@ -42452,6 +43533,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Predictive Policing', slug: 'predictive-policing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Peter Thiel', relationship: 'Palantir co-founder and primary investor', href: '/entities/individuals/peter-thiel' },
+      { name: 'Edward Snowden', relationship: 'Snowden revelations exposed surveillance programs Palantir enabled', href: '/entities/individuals/edward-snowden' }
+    ],
+
   },
   'alexander-haig': {
     name: 'Alexander Haig',
@@ -42469,6 +43555,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Henry Kissinger', relationship: 'Served as Kissinger\'s deputy and successor as Nixon Chief of Staff', href: '/entities/individuals/henry-kissinger' },
+      { name: 'Richard Nixon', relationship: 'White House Chief of Staff during Nixon\'s final days', href: '/entities/individuals/richard-nixon' },
+      { name: 'Ronald Reagan', relationship: 'Secretary of State under Reagan who claimed "I\'m in charge"', href: '/entities/individuals/ronald-reagan' }
+    ],
+
   },
   'alfredo-cristiani': {
     name: 'Alfredo Cristiani',
@@ -42485,6 +43577,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Elliott Abrams', relationship: 'US official who supported Cristiani\'s government during civil war', href: '/entities/individuals/elliott-abrams' },
+      { name: 'Oscar Romero', relationship: 'Archbishop murdered by forces aligned with Cristiani\'s ARENA party', href: '/entities/individuals/oscar-romero' }
+    ],
+
   },
   'alice-hamilton': {
     name: 'Alice Hamilton',
@@ -42501,6 +43598,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Herbert Needleman', relationship: 'Fellow industrial health researcher who fought lead poisoning', href: '/entities/individuals/herbert-needleman' },
+      { name: 'Clair Patterson', relationship: 'Scientist who fought lead industry - continued Hamilton\'s work', href: '/entities/individuals/clair-patterson' }
+    ],
+
   },
   'allan-nairn': {
     name: 'Allan Nairn',
@@ -42517,6 +43619,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'East Timor Genocide', slug: 'east-timor-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Noam Chomsky', relationship: 'Fellow critic of US foreign policy in Central America', href: '/entities/individuals/noam-chomsky' },
+      { name: 'Suharto', relationship: 'Nairn was beaten in Dili massacre under Suharto\'s occupation', href: '/entities/individuals/suharto' }
+    ],
+
   },
   'allan-pinkerton': {
     name: 'Allan Pinkerton',
@@ -42533,6 +43640,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Union Busting', slug: 'union-busting', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Henry Clay Frick', relationship: 'Pinkerton agents were hired by Frick during Homestead Strike', href: '/entities/individuals/henry-clay-frick' },
+      { name: 'Andrew Carnegie', relationship: 'Carnegie Steel hired Pinkertons to break unions', href: '/entities/individuals/andrew-carnegie' }
+    ],
+
   },
   'alvin-young': {
     name: 'Alvin Young',
@@ -42549,6 +43661,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Elmo Zumwalt', relationship: 'Admiral who ordered Agent Orange use that Young later studied', href: '/entities/individuals/elmo-zumwalt' }
+    ],
+
   },
   'amir-locke': {
     name: 'Amir Locke',
@@ -42565,6 +43681,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Breonna Taylor', relationship: 'Fellow victim killed during no-knock police raid', href: '/entities/individuals/breonna-taylor' }
+    ],
+
   },
   'amy-gutmann': {
     name: 'Amy Gutmann',
@@ -42581,6 +43701,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'Nominated as US Ambassador to Germany by Biden', href: '/entities/individuals/joe-biden' }
+    ],
+
   },
   'anders-fogh-rasmussen': {
     name: 'Anders Fogh Rasmussen',
@@ -42597,6 +43721,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Libya Intervention', slug: 'libya-intervention', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Tony Blair', relationship: 'Fellow NATO/coalition leader who supported Iraq War', href: '/entities/individuals/tony-blair' },
+      { name: 'George W. Bush', relationship: 'Backed Bush coalition in Iraq War as Danish PM', href: '/entities/individuals/george-w-bush' }
+    ],
+
   },
   'andrew-carnegie': {
     name: 'Andrew Carnegie',
@@ -42613,6 +43742,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Convict Leasing', slug: 'convict-leasing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Henry Clay Frick', relationship: 'Business partner who managed Carnegie Steel during Homestead Strike', href: '/entities/individuals/henry-clay-frick' },
+      { name: 'Allan Pinkerton', relationship: 'Hired Pinkerton agency to suppress worker strikes', href: '/entities/individuals/allan-pinkerton' }
+    ],
+
   },
   'andrew-fastow': {
     name: 'Andrew Fastow',
@@ -42629,6 +43763,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jeffrey Skilling', relationship: 'Enron CEO under whom Fastow created fraudulent entities', href: '/entities/individuals/jeffrey-skilling' },
+      { name: 'Kenneth Lay', relationship: 'Enron founder and chairman during Fastow\'s financial fraud', href: '/entities/individuals/kenneth-lay' },
+      { name: 'Sherron Watkins', relationship: 'Enron whistleblower who warned about Fastow\'s schemes', href: '/entities/individuals/sherron-watkins' }
+    ],
+
   },
   'andrew-madoff': {
     name: 'Andrew Madoff',
@@ -42645,6 +43785,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Bernie Madoff Ponzi', slug: 'bernie-madoff-ponzi', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bernie Madoff', relationship: 'Father who ran the largest Ponzi scheme in history', href: '/entities/individuals/bernie-madoff' },
+      { name: 'Mark Madoff', relationship: 'Brother who died by suicide after father\'s arrest', href: '/entities/individuals/mark-madoff' },
+      { name: 'Peter Madoff', relationship: 'Uncle and compliance officer in the Madoff scheme', href: '/entities/individuals/peter-madoff' }
+    ],
+
   },
   'andrew-tisch': {
     name: 'Andrew Tisch',
@@ -42661,6 +43807,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'James Taiclet', relationship: 'Fellow defense industry connected executive', href: '/entities/individuals/james-taiclet' }
+    ],
+
   },
   'anna-deavere-smith': {
     name: 'Anna Deavere Smith',
@@ -42677,6 +43827,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bryan Stevenson', relationship: 'Fellow racial justice figure whose work Smith dramatized', href: '/entities/individuals/bryan-stevenson' }
+    ],
+
   },
   'annita-lucchesi': {
     name: 'Annita Lucchesi',
@@ -42693,6 +43847,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Missing Murdered Indigenous Women', slug: 'missing-murdered-indigenous-women', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Abigail Echo-Hawk', relationship: 'Fellow MMIW researcher and data sovereignty advocate', href: '/entities/individuals/abigail-echo-hawk' },
+      { name: 'Lisa Brunner', relationship: 'Fellow Missing and Murdered Indigenous Women advocate', href: '/entities/individuals/lisa-brunner' }
+    ],
+
   },
   'anthony-lake': {
     name: 'Anthony Lake',
@@ -42709,6 +43868,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Warren Christopher', relationship: 'Fellow Clinton administration foreign policy official', href: '/entities/individuals/warren-christopher' },
+      { name: 'Sandy Berger', relationship: 'Successor as National Security Advisor under Clinton', href: '/entities/individuals/sandy-berger' }
+    ],
+
   },
   'anthony-ray-hinton': {
     name: 'Anthony Ray Hinton',
@@ -42725,6 +43889,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bryan Stevenson', relationship: 'Equal Justice Initiative lawyer who freed Hinton after 30 years on death row', href: '/entities/individuals/bryan-stevenson' },
+      { name: 'Walter McMillian', relationship: 'Fellow wrongfully convicted Alabama death row exoneree represented by Stevenson', href: '/entities/individuals/walter-mcmillian' }
+    ],
+
   },
   'anthony-russo': {
     name: 'Anthony Russo',
@@ -42741,6 +43910,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Pentagon Papers', slug: 'pentagon-papers', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Daniel Ellsberg', relationship: 'Co-leaked Pentagon Papers with Ellsberg', href: '/entities/individuals/daniel-ellsberg' },
+      { name: 'Neil Sheehan', relationship: 'NY Times journalist who published the leaked Pentagon Papers', href: '/entities/individuals/neil-sheehan' }
+    ],
+
   },
   'ari-ben-menashe': {
     name: 'Ari Ben-Menashe',
@@ -42757,6 +43931,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'October Surprise 1980', slug: 'october-surprise-1980', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Robert Maxwell', relationship: 'Claimed Maxwell was Israeli intelligence asset', href: '/entities/individuals/robert-maxwell' },
+      { name: 'Jeffrey Epstein', relationship: 'Alleged Epstein connected to Israeli intelligence networks', href: '/entities/individuals/jeffrey-epstein' }
+    ],
+
   },
   'arne-duncan': {
     name: 'Arne Duncan',
@@ -42773,6 +43952,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Miguel Cardona', relationship: 'Successor\'s predecessor as Education Secretary', href: '/entities/individuals/miguel-cardona' },
+      { name: 'Barack Obama', relationship: 'Education Secretary under Obama 2009-2015', href: '/entities/individuals/barack-obama' }
+    ],
+
   },
   'art-cohen': {
     name: 'Art Cohen',
@@ -42789,6 +43973,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Trump University', slug: 'trump-university', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jordan Belfort', relationship: 'Testified about Belfort\'s penny stock fraud', href: '/entities/individuals/jordan-belfort' }
+    ],
+
   },
   'art-pope': {
     name: 'Art Pope',
@@ -42807,6 +43995,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Koch Network', slug: 'koch-network', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Charles Koch', relationship: 'Fellow conservative megadonor and Koch network ally', href: '/entities/individuals/charles-koch' },
+      { name: 'Richard Fink', relationship: 'Koch operative who worked with Pope\'s network', href: '/entities/individuals/richard-fink' }
+    ],
+
   },
   'arthur-rudolph': {
     name: 'Arthur Rudolph',
@@ -42823,6 +44016,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Paperclip', slug: 'operation-paperclip', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Wernher von Braun', relationship: 'Fellow Operation Paperclip Nazi scientist recruited to NASA', href: '/entities/individuals/wernher-von-braun' },
+      { name: 'Kurt Blome', relationship: 'Fellow Operation Paperclip recruit', href: '/entities/individuals/kurt-blome' },
+      { name: 'Georg Rickhey', relationship: 'Fellow Paperclip scientist from V-2 rocket program', href: '/entities/individuals/georg-rickhey' }
+    ],
+
   },
   'arthur-sackler': {
     name: 'Arthur M. Sackler',
@@ -42839,6 +44038,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Purdue Pharma Oxycontin', slug: 'purdue-pharma-oxycontin', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Kathe Sackler', relationship: 'Niece who continued Sackler pharmaceutical dynasty', href: '/entities/individuals/kathe-sackler' },
+      { name: 'David Sackler', relationship: 'Grandson who directed Purdue Pharma', href: '/entities/individuals/david-sackler' },
+      { name: 'Richard Sackler', relationship: 'Nephew who drove aggressive OxyContin marketing', href: '/entities/individuals/richard-sackler' }
+    ],
+
   },
   'arvind-thiruvengadam': {
     name: 'Arvind Thiruvengadam',
@@ -42855,6 +44060,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Daniel Carder', relationship: 'WVU colleague who co-discovered VW emissions cheat', href: '/entities/individuals/daniel-carder' },
+      { name: 'Herbert Diess', relationship: 'VW CEO during aftermath of emissions scandal they uncovered', href: '/entities/individuals/herbert-diess' }
+    ],
+
   },
   'ashli-babbitt': {
     name: 'Ashli Babbitt',
@@ -42871,6 +44081,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Qanon Radicalization', slug: 'qanon-radicalization', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jacob Chansley', relationship: 'Fellow January 6 Capitol breacher', href: '/entities/individuals/jacob-chansley' },
+      { name: 'Donald Trump', relationship: 'Stormed Capitol in support of Trump, shot and killed by police', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'ashraf-ghani': {
     name: 'Ashraf Ghani',
@@ -42887,6 +44102,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Afghanistan Papers', slug: 'afghanistan-papers', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Hamid Karzai', relationship: 'Predecessor as Afghan president', href: '/entities/individuals/hamid-karzai' },
+      { name: 'Joe Biden', relationship: 'US withdrew from Afghanistan under Biden, Ghani fled', href: '/entities/individuals/joe-biden' }
+    ],
+
   },
   'barbara-fried': {
     name: 'Barbara Fried',
@@ -42903,6 +44123,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ftx Crypto Fraud', slug: 'ftx-crypto-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Sam Bankman-Fried', relationship: 'Mother of SBF - Stanford professor drawn into FTX scandal', href: '/entities/individuals/sam-bankman-fried' },
+      { name: 'Joseph Bankman', relationship: 'Husband and fellow Stanford professor connected to FTX', href: '/entities/individuals/joseph-bankman' }
+    ],
+
   },
   'barry-scheck': {
     name: 'Barry Scheck',
@@ -42919,6 +44144,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Peter Neufeld', relationship: 'Co-founded Innocence Project with Neufeld', href: '/entities/individuals/peter-neufeld' },
+      { name: 'Bryan Stevenson', relationship: 'Fellow leading wrongful conviction attorney', href: '/entities/individuals/bryan-stevenson' },
+      { name: 'Kirk Bloodsworth', relationship: 'First death row exoneree through DNA - Innocence Project case', href: '/entities/individuals/kirk-bloodsworth' }
+    ],
+
   },
   'bastian-obermayer': {
     name: 'Bastian Obermayer',
@@ -42935,6 +44166,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Panama Papers', slug: 'panama-papers', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Frederik Obermaier', relationship: 'Co-journalist who broke Panama Papers story', href: '/entities/individuals/frederik-obermaier' },
+      { name: 'Ramon Fonseca', relationship: 'Mossack Fonseca partner exposed by Panama Papers', href: '/entities/individuals/ramon-fonseca' },
+      { name: 'Jurgen Mossack', relationship: 'Mossack Fonseca co-founder exposed by the leak', href: '/entities/individuals/jurgen-mossack' }
+    ],
+
   },
   'bc-franklin': {
     name: 'B.C. Franklin',
@@ -42951,6 +44188,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Tulsa Race Massacre', slug: 'tulsa-race-massacre', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'AJ Smitherman', relationship: 'Fellow Black Tulsa leader during 1921 massacre', href: '/entities/individuals/aj-smitherman' },
+      { name: 'Dick Rowland', relationship: 'Man whose arrest sparked the Tulsa Race Massacre', href: '/entities/individuals/dick-rowland' }
+    ],
+
   },
   'becky-barr': {
     name: 'Becky Barr',
@@ -42967,6 +44209,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Medical Bankruptcy', slug: 'medical-bankruptcy', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'William Barr', relationship: 'Related to AG Barr - DOJ connection', href: '/entities/individuals/william-barr' }
+    ],
+
   },
   'ben-barnes': {
     name: 'Ben Barnes',
@@ -42983,6 +44229,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'October Surprise 1980', slug: 'october-surprise-1980', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'John Connally', relationship: 'Protégé of Connally who claimed October Surprise role', href: '/entities/individuals/john-connally' },
+      { name: 'Gary Sick', relationship: 'Academic who investigated October Surprise that Barnes corroborated', href: '/entities/individuals/gary-sick' }
+    ],
+
   },
   'ben-bradlee': {
     name: 'Ben Bradlee',
@@ -42999,6 +44250,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Pentagon Papers', slug: 'pentagon-papers', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Katharine Graham', relationship: 'Washington Post publisher who backed Bradlee on Pentagon Papers/Watergate', href: '/entities/individuals/katharine-graham' },
+      { name: 'Bob Woodward', relationship: 'Reporter Bradlee supported through Watergate investigation', href: '/entities/individuals/bob-woodward' }
+    ],
+
   },
   'ben-glisan': {
     name: 'Ben Glisan',
@@ -43015,6 +44271,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Andrew Fastow', relationship: 'Enron treasurer who worked under Fastow\'s financial schemes', href: '/entities/individuals/andrew-fastow' },
+      { name: 'Jeffrey Skilling', relationship: 'Enron CEO during Glisan\'s participation in fraud', href: '/entities/individuals/jeffrey-skilling' }
+    ],
+
   },
   'ben-tillman': {
     name: 'Ben Tillman',
@@ -43031,6 +44292,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Strom Thurmond', relationship: 'Fellow South Carolina white supremacist politician', href: '/entities/individuals/strom-thurmond' },
+      { name: 'Nathan Bedford Forrest', relationship: 'Fellow white supremacist political figure', href: '/entities/individuals/nathan-bedford-forrest' }
+    ],
+
   },
   'benny-murdani': {
     name: 'Benny Murdani',
@@ -43047,6 +44313,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'East Timor Genocide', slug: 'east-timor-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Suharto', relationship: 'Military intelligence chief under Suharto regime', href: '/entities/individuals/suharto' },
+      { name: 'Sarwo Edhie Wibowo', relationship: 'Fellow Indonesian military commander', href: '/entities/individuals/sarwo-edhie-wibowo' }
+    ],
+
   },
   'bernard-coard': {
     name: 'Bernard Coard',
@@ -43063,6 +44334,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Grenada Invasion', slug: 'grenada-invasion', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Maurice Bishop', relationship: 'Overthrew Bishop in Grenada coup leading to US invasion', href: '/entities/individuals/maurice-bishop' },
+      { name: 'Hudson Austin', relationship: 'Military leader who backed Coard\'s coup in Grenada', href: '/entities/individuals/hudson-austin' }
+    ],
+
   },
   'bernard-reilly': {
     name: 'Bernard Reilly',
@@ -43079,6 +44355,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Stephens', relationship: 'Fellow tobacco industry figure in document concealment', href: '/entities/individuals/thomas-stephens' },
+      { name: 'Edward Horrigan', relationship: 'Fellow tobacco executive', href: '/entities/individuals/edward-horrigan' }
+    ],
+
   },
   'bernd-gottweis': {
     name: 'Bernd Gottweis',
@@ -43095,6 +44376,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Paul Goldenheim', relationship: 'Fellow Purdue Pharma executive involved in OxyContin marketing', href: '/entities/individuals/paul-goldenheim' }
+    ],
+
   },
   'bernie-sanders': {
     name: 'Bernie Sanders',
@@ -43113,6 +44398,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Yemen War', slug: 'yemen-war', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Elizabeth Warren', relationship: 'Fellow progressive senator and 2020 presidential rival', href: '/entities/individuals/elizabeth-warren' },
+      { name: 'Joe Biden', relationship: '2020 Democratic primary opponent who later endorsed Biden', href: '/entities/individuals/joe-biden' },
+      { name: 'Hillary Clinton', relationship: '2016 Democratic primary opponent', href: '/entities/individuals/hillary-clinton' }
+    ],
+
   },
   'betty-shabazz': {
     name: 'Betty Shabazz',
@@ -43129,6 +44420,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Malcolm X', relationship: 'Wife of Malcolm X, present at his assassination', href: '/entities/individuals/malcolm-x' },
+      { name: 'Louis Farrakhan', relationship: 'Nation of Islam leader whose rhetoric preceded Malcolm X assassination', href: '/entities/individuals/louis-farrakhan' },
+      { name: 'Elijah Muhammad', relationship: 'Nation of Islam leader who expelled Malcolm X', href: '/entities/individuals/elijah-muhammad' }
+    ],
+
   },
   'bill-buford': {
     name: 'Bill Buford',
@@ -43145,6 +44442,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Waco Siege', slug: 'waco-siege', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jon Burge', relationship: 'FBI agent investigating police torture under Burge', href: '/entities/individuals/jon-burge' }
+    ],
+
   },
   'bill-meierling': {
     name: 'Bill Meierling',
@@ -43161,6 +44462,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Alec Model Legislation', slug: 'alec-model-legislation', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Lisa Nelson', relationship: 'ALEC colleague advancing corporate legislative agenda', href: '/entities/individuals/lisa-nelson' }
+    ],
+
   },
   'billy-tauzin': {
     name: 'Billy Tauzin',
@@ -43178,6 +44483,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Liz Fowler', relationship: 'Both shaped healthcare legislation to benefit pharma industry', href: '/entities/individuals/liz-fowler' },
+      { name: 'Max Baucus', relationship: 'Senate partner in pharma-friendly healthcare legislation', href: '/entities/individuals/max-baucus' }
+    ],
+
   },
   'birdie-africa': {
     name: 'Birdie Africa (Michael Moses Ward)',
@@ -43194,6 +44504,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ramona Africa', relationship: 'MOVE member who survived same 1985 Philadelphia bombing', href: '/entities/individuals/ramona-africa' },
+      { name: 'Wilson Goode', relationship: 'Philadelphia mayor who authorized 1985 MOVE bombing', href: '/entities/individuals/wilson-goode' },
+      { name: 'John Africa', relationship: 'MOVE founder killed in the 1985 bombing', href: '/entities/individuals/john-africa' }
+    ],
+
   },
   'bo-gritz': {
     name: 'Bo Gritz',
@@ -43210,6 +44526,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Randy Weaver', relationship: 'Negotiated Weaver\'s surrender at Ruby Ridge', href: '/entities/individuals/randy-weaver' },
+      { name: 'Richard Secord', relationship: 'Fellow figure in covert operations circles', href: '/entities/individuals/richard-secord' }
+    ],
+
   },
   'bob-diamond': {
     name: 'Bob Diamond',
@@ -43226,6 +44547,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Marcus Agius', relationship: 'Barclays chairman who resigned alongside Diamond in LIBOR scandal', href: '/entities/individuals/marcus-agius' },
+      { name: 'Tom Hayes', relationship: 'Trader convicted of LIBOR manipulation Diamond oversaw', href: '/entities/individuals/tom-hayes' }
+    ],
+
   },
   'bob-kroll': {
     name: 'Bob Kroll',
@@ -43263,6 +44589,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jerry Ensminger', relationship: 'Fellow veterans\' rights activist fighting toxic exposure', href: '/entities/individuals/jerry-ensminger' },
+      { name: 'Elmo Zumwalt', relationship: 'Admiral who supported Agent Orange veterans\' cause', href: '/entities/individuals/elmo-zumwalt' }
+    ],
+
   },
   'bobby-rush': {
     name: 'Bobby Rush',
@@ -43279,6 +44610,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Fred Hampton Assassination', slug: 'fred-hampton-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Fred Hampton', relationship: 'Illinois Black Panther leader - Rush co-founded chapter with Hampton', href: '/entities/individuals/fred-hampton' },
+      { name: 'Barack Obama', relationship: 'Defeated Obama in 2000 congressional primary', href: '/entities/individuals/barack-obama' }
+    ],
+
   },
   'bosquet-wev': {
     name: 'Bosquet Wev',
@@ -43295,6 +44631,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Paperclip', slug: 'operation-paperclip', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'Fellow Public Health Service official during Tuskegee era', href: '/entities/individuals/thomas-parran' }
+    ],
+
   },
   'boutros-boutros-ghali': {
     name: 'Boutros Boutros-Ghali',
@@ -43311,6 +44651,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Kofi Annan', relationship: 'Successor as UN Secretary-General', href: '/entities/individuals/kofi-annan' },
+      { name: 'Romeo Dallaire', relationship: 'UN commander who pleaded for help during Rwanda genocide Boutros-Ghali oversaw', href: '/entities/individuals/romeo-dallaire' }
+    ],
+
   },
   'breonna-taylor': {
     name: 'Breonna Taylor',
@@ -43327,6 +44672,13 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Brett Hankison', relationship: 'Officer who fired shots during fatal raid on her apartment', href: '/entities/individuals/brett-hankison' },
+      { name: 'Joshua Jaynes', relationship: 'Detective who obtained no-knock warrant', href: '/entities/individuals/joshua-jaynes' },
+      { name: 'Tamika Palmer', relationship: 'Mother who became civil rights activist after Breonna\'s death', href: '/entities/individuals/tamika-palmer' },
+      { name: 'Kenneth Walker', relationship: 'Boyfriend who fired shot believing intruders were breaking in', href: '/entities/individuals/kenneth-walker' }
+    ],
+
   },
   'brian-terry': {
     name: 'Brian Terry',
@@ -43343,6 +44695,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'John Dodson', relationship: 'ATF whistleblower who exposed Fast and Furious after Terry\'s death', href: '/entities/individuals/john-dodson' },
+      { name: 'Eric Holder', relationship: 'AG held in contempt over Fast and Furious gunrunning', href: '/entities/individuals/eric-holder' }
+    ],
+
   },
   'bruce-karrh': {
     name: 'Bruce Karrh',
@@ -43359,6 +44716,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Charles Holliday', relationship: 'Fellow DuPont executive', href: '/entities/individuals/charles-holliday' },
+      { name: 'Edward Breen', relationship: 'DuPont CEO who inherited PFAS contamination legacy', href: '/entities/individuals/edward-breen' }
+    ],
+
   },
   'bryan-stevenson': {
     name: 'Bryan Stevenson',
@@ -43375,6 +44737,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Anthony Ray Hinton', relationship: 'Won Hinton\'s freedom after 30 years on death row', href: '/entities/individuals/anthony-ray-hinton' },
+      { name: 'Walter McMillian', relationship: 'Represented McMillian in landmark wrongful conviction case', href: '/entities/individuals/walter-mcmillian' },
+      { name: 'Barry Scheck', relationship: 'Fellow wrongful conviction attorney and Innocence Project ally', href: '/entities/individuals/barry-scheck' }
+    ],
+
   },
   'bull-connor': {
     name: 'Bull Connor',
@@ -43391,6 +44759,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'War On Black America', slug: 'war-on-black-america', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Martin Luther King Jr', relationship: 'Deployed fire hoses and dogs against King\'s Birmingham marchers', href: '/entities/individuals/martin-luther-king-jr' },
+      { name: 'George Wallace', relationship: 'Fellow Alabama segregationist', href: '/entities/individuals/george-wallace' },
+      { name: 'Medgar Evers', relationship: 'Contemporary civil rights leader fighting same-era segregation', href: '/entities/individuals/medgar-evers' }
+    ],
+
   },
   'burl-cain': {
     name: 'Burl Cain',
@@ -43407,6 +44781,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Albert Woodfox', relationship: 'Angola Prison warden who kept Woodfox in solitary for decades', href: '/entities/individuals/albert-woodfox' },
+      { name: 'Herman Wallace', relationship: 'Angola Three member held in solitary under Cain', href: '/entities/individuals/herman-wallace' }
+    ],
+
   },
   'byron-sage': {
     name: 'Byron Sage',
@@ -43423,6 +44802,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Waco Siege', slug: 'waco-siege', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'David Koresh', relationship: 'FBI negotiator during Waco siege with Koresh', href: '/entities/individuals/david-koresh' },
+      { name: 'Jeff Jamar', relationship: 'FBI on-scene commander at Waco', href: '/entities/individuals/jeff-jamar' }
+    ],
+
   },
   'c-everett-koop': {
     name: 'C. Everett Koop',
@@ -43439,6 +44823,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ronald Reagan', relationship: 'Surgeon General under Reagan who broke with party on AIDS/tobacco', href: '/entities/individuals/ronald-reagan' },
+      { name: 'Anthony Fauci', relationship: 'Fellow public health official during AIDS crisis', href: '/entities/individuals/anthony-fauci' }
+    ],
+
   },
   'c-sidney-carlton': {
     name: 'C. Sidney Carlton',
@@ -43455,6 +44844,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Martin Tabert', relationship: 'Connected to convict leasing system', href: '/entities/individuals/martin-tabert' }
+    ],
+
   },
   'cameron-todd-willingham': {
     name: 'Cameron Todd Willingham',
@@ -43471,6 +44864,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Rick Perry', relationship: 'Governor who refused to halt execution despite arson evidence doubts', href: '/entities/individuals/rick-perry' },
+      { name: 'Bryan Stevenson', relationship: 'Innocence advocate whose work parallels Willingham\'s case', href: '/entities/individuals/bryan-stevenson' }
+    ],
+
   },
   'carl-oechsner': {
     name: 'Carl Oechsner',
@@ -43487,6 +44885,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'C. Everett Koop', relationship: 'Surgeon General era public health figure', href: '/entities/individuals/c-everett-koop' }
+    ],
+
   },
   'carlos-castillo-armas': {
     name: 'Carlos Castillo Armas',
@@ -43504,6 +44906,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Guatemala Genocide', slug: 'guatemala-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jacobo Arbenz', relationship: 'Overthrew democratically elected Arbenz in CIA-backed coup', href: '/entities/individuals/jacobo-arbenz' },
+      { name: 'David Atlee Phillips', relationship: 'CIA officer who helped orchestrate Guatemala coup', href: '/entities/individuals/david-atlee-phillips' },
+      { name: 'Allen Dulles', relationship: 'CIA Director who authorized Guatemala coup', href: '/entities/individuals/allen-dulles' }
+    ],
+
   },
   'carlos-ximenes-belo': {
     name: 'Bishop Carlos Ximenes Belo',
@@ -43520,6 +44928,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'East Timor Genocide', slug: 'east-timor-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jose Ramos-Horta', relationship: 'Co-Nobel laureate for East Timor independence', href: '/entities/individuals/jose-ramos-horta' },
+      { name: 'Xanana Gusmao', relationship: 'East Timorese independence leader', href: '/entities/individuals/xanana-gusmao' },
+      { name: 'Suharto', relationship: 'Indonesian dictator whose occupation Belo opposed', href: '/entities/individuals/suharto' }
+    ],
+
   },
   'caroline-ellison': {
     name: 'Caroline Ellison',
@@ -43536,6 +44950,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ftx Crypto Fraud', slug: 'ftx-crypto-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Sam Bankman-Fried', relationship: 'Former girlfriend and Alameda Research CEO who testified against SBF', href: '/entities/individuals/sam-bankman-fried' },
+      { name: 'Gary Wang', relationship: 'Fellow FTX co-founder who cooperated with prosecution', href: '/entities/individuals/gary-wang' },
+      { name: 'Nishad Singh', relationship: 'Fellow FTX executive who testified against SBF', href: '/entities/individuals/nishad-singh' }
+    ],
+
   },
   'carolyn-bryant': {
     name: 'Carolyn Bryant Donham',
@@ -43552,6 +44972,13 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Emmett Till', relationship: 'Falsely accused Till, leading to his lynching', href: '/entities/individuals/emmett-till' },
+      { name: 'Roy Bryant', relationship: 'Husband who murdered Emmett Till', href: '/entities/individuals/roy-bryant' },
+      { name: 'JW Milam', relationship: 'Brother-in-law who participated in Till\'s murder', href: '/entities/individuals/jw-milam' },
+      { name: 'Mamie Till-Mobley', relationship: 'Emmett\'s mother whose open-casket funeral sparked civil rights movement', href: '/entities/individuals/mamie-till-mobley' }
+    ],
+
   },
   'carrie-buck': {
     name: 'Carrie Buck',
@@ -43568,6 +44995,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Oliver Wendell Holmes', relationship: 'Supreme Court justice who ruled forced sterilization constitutional in Buck v. Bell', href: '/entities/individuals/oliver-wendell-holmes' },
+      { name: 'Harry Laughlin', relationship: 'Eugenics advocate whose model law was used against Buck', href: '/entities/individuals/harry-laughlin' }
+    ],
+
   },
   'catherine-flowers': {
     name: 'Catherine Flowers',
@@ -43584,6 +45016,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Jackson Water Crisis', slug: 'jackson-water-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bryan Stevenson', relationship: 'Fellow Alabama racial justice advocate', href: '/entities/individuals/bryan-stevenson' }
+    ],
+
   },
   'changpeng-zhao': {
     name: 'Changpeng Zhao',
@@ -43600,6 +45036,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ftx Crypto Fraud', slug: 'ftx-crypto-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Sam Bankman-Fried', relationship: 'Binance CEO whose withdrawal triggered FTX collapse', href: '/entities/individuals/sam-bankman-fried' },
+      { name: 'Gary Gensler', relationship: 'SEC chair who pursued crypto enforcement against CZ', href: '/entities/individuals/gary-gensler' }
+    ],
+
   },
   'charles-davenport': {
     name: 'Charles Davenport',
@@ -43616,6 +45057,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Harry Laughlin', relationship: 'Protégé and Cold Spring Harbor eugenics colleague', href: '/entities/individuals/harry-laughlin' },
+      { name: 'Paul Popenoe', relationship: 'Fellow eugenics movement leader', href: '/entities/individuals/paul-popenoe' },
+      { name: 'Margaret Sanger', relationship: 'Birth control pioneer with overlapping eugenics connections', href: '/entities/individuals/margaret-sanger' }
+    ],
+
   },
   'charles-holliday': {
     name: 'Charles Holliday',
@@ -43632,6 +45079,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Edward Breen', relationship: 'Successor as DuPont CEO', href: '/entities/individuals/edward-breen' },
+      { name: 'Rob Bilott', relationship: 'Attorney who sued DuPont over PFAS during Holliday\'s tenure', href: '/entities/individuals/rob-bilott' }
+    ],
+
   },
   'charles-keating': {
     name: 'Charles Keating',
@@ -43648,6 +45100,13 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Savings And Loan Crisis', slug: 'savings-and-loan-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Alan Cranston', relationship: 'One of Keating Five senators who intervened for Keating', href: '/entities/individuals/alan-cranston' },
+      { name: 'John McCain', relationship: 'One of Keating Five senators', href: '/entities/individuals/john-mccain' },
+      { name: 'Dennis DeConcini', relationship: 'Fellow Keating Five senator', href: '/entities/individuals/dennis-deconcini' },
+      { name: 'Donald Riegle', relationship: 'Fellow Keating Five senator', href: '/entities/individuals/donald-riegle' }
+    ],
+
   },
   'charles-kettering': {
     name: 'Charles Kettering',
@@ -43664,6 +45123,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Midgley', relationship: 'GM researcher whose leaded gasoline Kettering championed', href: '/entities/individuals/thomas-midgley' }
+    ],
+
   },
   'charles-scharf': {
     name: 'Charles Scharf',
@@ -43680,6 +45143,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Carrie Tolstedt', relationship: 'Wells Fargo exec who oversaw fake accounts scandal before Scharf', href: '/entities/individuals/carrie-tolstedt' },
+      { name: 'Tim Sloan', relationship: 'Predecessor as Wells Fargo CEO', href: '/entities/individuals/timothy-sloan' }
+    ],
+
   },
   'charles-schumer': {
     name: 'Charles Schumer',
@@ -43696,6 +45164,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Waco Siege', slug: 'waco-siege', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bernie Sanders', relationship: 'Senate Democratic partner and progressive ally', href: '/entities/individuals/bernie-sanders' },
+      { name: 'Joe Biden', relationship: 'Key Biden Senate legislative partner', href: '/entities/individuals/joe-biden' },
+      { name: 'Dianne Feinstein', relationship: 'Senior Senate Democratic colleague', href: '/entities/individuals/dianne-feinstein' }
+    ],
+
   },
   'charlie-beck': {
     name: 'Charlie Beck',
@@ -43712,6 +45186,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Predictive Policing', slug: 'predictive-policing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Daryl Gates', relationship: 'Predecessor LAPD chief known for militarized policing', href: '/entities/individuals/daryl-gates' },
+      { name: 'William Bratton', relationship: 'Predecessor as LAPD Chief', href: '/entities/individuals/william-bratton' }
+    ],
+
   },
   'chase-iron-eyes': {
     name: 'Chase Iron Eyes',
@@ -43728,6 +45207,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'LaDonna Brave Bull Allard', relationship: 'Fellow Standing Rock Sioux activist', href: '/entities/individuals/ladonna-brave-bull-allard' },
+      { name: 'Dave Archambault II', relationship: 'Standing Rock Sioux chairman during DAPL protest', href: '/entities/individuals/dave-archambault-ii' },
+      { name: 'Dallas Goldtooth', relationship: 'Fellow Indigenous environmental activist at Standing Rock', href: '/entities/individuals/dallas-goldtooth' }
+    ],
+
   },
   'che-guevara': {
     name: 'Che Guevara',
@@ -43744,6 +45229,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Guatemala Coup 1954', slug: 'guatemala-coup-1954', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Fidel Castro', relationship: 'Comrade in Cuban Revolution', href: '/entities/individuals/fidel-castro' },
+      { name: 'Felix Rodriguez', relationship: 'CIA operative who hunted and captured Guevara in Bolivia', href: '/entities/individuals/felix-rodriguez' }
+    ],
+
   },
   'cheryl-mills': {
     name: 'Cheryl Mills',
@@ -43760,6 +45250,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Haiti Exploitation', slug: 'haiti-exploitation', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Hillary Clinton', relationship: 'Chief of Staff and longtime Clinton advisor', href: '/entities/individuals/hillary-clinton' },
+      { name: 'Sidney Blumenthal', relationship: 'Fellow Clinton confidant', href: '/entities/individuals/sidney-blumenthal' }
+    ],
+
   },
   'chokwe-lumumba': {
     name: 'Chokwe Antar Lumumba',
@@ -43776,6 +45271,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Jackson Water Crisis', slug: 'jackson-water-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Derrick Johnson', relationship: 'NAACP president who supported Jackson MS water crisis response', href: '/entities/individuals/derrick-johnson' }
+    ],
+
   },
   'chris-jankowski': {
     name: 'Chris Jankowski',
@@ -43792,6 +45291,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Gerrymandering', slug: 'gerrymandering', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Hofeller', relationship: 'Republican gerrymandering strategist who worked with REDMAP', href: '/entities/individuals/thomas-hofeller' },
+      { name: 'Karl Rove', relationship: 'Republican strategist aligned with Jankowski\'s redistricting efforts', href: '/entities/individuals/karl-rove' }
+    ],
+
   },
   'chris-murphy': {
     name: 'Chris Murphy',
@@ -43809,6 +45313,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Yemen War', slug: 'yemen-war', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Fred Guttenberg', relationship: 'Gun control ally - Murphy championed reform after Parkland', href: '/entities/individuals/fred-guttenberg' },
+      { name: 'Bernie Sanders', relationship: 'Senate ally on progressive legislation', href: '/entities/individuals/bernie-sanders' }
+    ],
+
   },
   'chris-ripley': {
     name: 'Chris Ripley',
@@ -43825,6 +45334,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Sinclair Broadcasting', slug: 'sinclair-broadcasting', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Suzanne Scott', relationship: 'Fellow media executive - Fox News CEO', href: '/entities/individuals/suzanne-scott' }
+    ],
+
   },
   'chris-smalls': {
     name: 'Chris Smalls',
@@ -43842,6 +45355,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Union Busting', slug: 'union-busting', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jennifer Bates', relationship: 'Fellow Amazon warehouse worker and labor organizer', href: '/entities/individuals/jennifer-bates' },
+      { name: 'Derrick Palmer', relationship: 'Co-founded Amazon Labor Union with Smalls', href: '/entities/individuals/derrick-palmer' },
+      { name: 'Jeff Bezos', relationship: 'Amazon founder whose company Smalls organized against', href: '/entities/individuals/jeff-bezos' }
+    ],
+
   },
   'christian-bittar': {
     name: 'Christian Bittar',
@@ -43858,6 +45377,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Tom Hayes', relationship: 'Fellow LIBOR manipulation trader', href: '/entities/individuals/tom-hayes' },
+      { name: 'Bob Diamond', relationship: 'Barclays CEO during LIBOR scandal period', href: '/entities/individuals/bob-diamond' }
+    ],
+
   },
   'christopher-cox': {
     name: 'Christopher Cox',
@@ -43874,6 +45398,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Bernie Madoff Ponzi', slug: 'bernie-madoff-ponzi', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Henry Paulson', relationship: 'Treasury Secretary during financial crisis when Cox led SEC', href: '/entities/individuals/henry-paulson' },
+      { name: 'Bernie Madoff', relationship: 'SEC failed to catch Madoff under Cox\'s chairmanship', href: '/entities/individuals/bernie-madoff' }
+    ],
+
   },
   'christopher-soghoian': {
     name: 'Christopher Soghoian',
@@ -43890,6 +45419,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Stingray Surveillance', slug: 'stingray-surveillance', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Edward Snowden', relationship: 'Fellow surveillance critic whose work exposed similar programs', href: '/entities/individuals/edward-snowden' },
+      { name: 'Nathan Wessler', relationship: 'Fellow ACLU technology privacy advocate', href: '/entities/individuals/nathan-wessler' }
+    ],
+
   },
   'chuck-grassley': {
     name: 'Chuck Grassley',
@@ -43907,6 +45441,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Dianne Feinstein', relationship: 'Senate Judiciary Committee counterpart for decades', href: '/entities/individuals/dianne-feinstein' },
+      { name: 'James Comer', relationship: 'Republican investigative ally in Congress', href: '/entities/individuals/james-comer' }
+    ],
+
   },
   'chuck-hoskin-jr': {
     name: 'Chuck Hoskin Jr.',
@@ -43923,6 +45462,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Missing Murdered Indigenous Women', slug: 'missing-murdered-indigenous-women', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Juana Majel-Dixon', relationship: 'Fellow tribal leader advocating for Native rights', href: '/entities/individuals/juana-majel-dixon' }
+    ],
+
   },
   'clair-patterson': {
     name: 'Clair Patterson',
@@ -43939,6 +45482,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Robert Kehoe', relationship: 'Lead industry scientist who opposed Patterson\'s findings', href: '/entities/individuals/robert-kehoe' },
+      { name: 'Herbert Needleman', relationship: 'Fellow scientist who fought lead poisoning', href: '/entities/individuals/herbert-needleman' },
+      { name: 'Thomas Midgley', relationship: 'Inventor of leaded gasoline that Patterson proved toxic', href: '/entities/individuals/thomas-midgley' }
+    ],
+
   },
   'clare-garvie': {
     name: 'Clare Garvie',
@@ -43955,6 +45504,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Facial Recognition Surveillance', slug: 'facial-recognition-surveillance', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Joy Buolamwini', relationship: 'Fellow facial recognition technology critic and researcher', href: '/entities/individuals/joy-buolamwini' },
+      { name: 'Rashida Richardson', relationship: 'Fellow AI surveillance researcher and critic', href: '/entities/individuals/rashida-richardson' }
+    ],
+
   },
   'claudia-peterson': {
     name: 'Claudia Peterson',
@@ -43971,6 +45525,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jerry Ensminger', relationship: 'Fellow Camp Lejeune contamination advocate', href: '/entities/individuals/jerry-ensminger' }
+    ],
+
   },
   'claudia-russ-anderson': {
     name: 'Claudia Russ Anderson',
@@ -43987,6 +45545,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Maura Healey', relationship: 'Fellow state AG pursuing opioid litigation', href: '/entities/individuals/maura-healey' }
+    ],
+
   },
   'clay-shaw': {
     name: 'Clay Shaw',
@@ -44003,6 +45565,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Jfk Assassination', slug: 'jfk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jim Garrison', relationship: 'Prosecuted by Garrison for JFK assassination conspiracy', href: '/entities/individuals/jim-garrison' },
+      { name: 'Lee Harvey Oswald', relationship: 'Garrison alleged Shaw conspired with Oswald', href: '/entities/individuals/lee-harvey-oswald' },
+      { name: 'David Atlee Phillips', relationship: 'CIA officer connected to anti-Castro operations Shaw was linked to', href: '/entities/individuals/david-atlee-phillips' }
+    ],
+
   },
   'cliff-baxter': {
     name: 'Cliff Baxter',
@@ -44019,6 +45587,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jeffrey Skilling', relationship: 'Enron vice chairman under Skilling who planned to testify', href: '/entities/individuals/jeffrey-skilling' },
+      { name: 'Sherron Watkins', relationship: 'Fellow Enron insider who raised alarm about fraud', href: '/entities/individuals/sherron-watkins' }
+    ],
+
   },
   'coretta-scott-king': {
     name: 'Coretta Scott King',
@@ -44035,6 +45608,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mlk Assassination', slug: 'mlk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Martin Luther King Jr', relationship: 'Wife and partner in civil rights movement', href: '/entities/individuals/martin-luther-king-jr' },
+      { name: 'Ralph Abernathy', relationship: 'MLK\'s closest ally who supported Coretta after assassination', href: '/entities/individuals/ralph-abernathy' },
+      { name: 'Dexter King', relationship: 'Son who continued family\'s quest for assassination truth', href: '/entities/individuals/dexter-king' }
+    ],
+
   },
   'courtney-bowden': {
     name: 'Courtney Bowden',
@@ -44051,6 +45630,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Amazon Labor Abuses', slug: 'amazon-labor-abuses', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jennifer Bates', relationship: 'Fellow Amazon labor activist', href: '/entities/individuals/jennifer-bates' }
+    ],
+
   },
   'craig-haney': {
     name: 'Craig Haney',
@@ -44067,6 +45650,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Silverstein', relationship: 'Psychologist who studied effects of solitary exemplified by Silverstein', href: '/entities/individuals/thomas-silverstein' },
+      { name: 'Albert Woodfox', relationship: 'Studied psychological effects of prolonged solitary like Woodfox endured', href: '/entities/individuals/albert-woodfox' }
+    ],
+
   },
   'craig-whitlock': {
     name: 'Craig Whitlock',
@@ -44083,6 +45671,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Afghanistan Papers', slug: 'afghanistan-papers', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'John Sopko', relationship: 'SIGAR inspector whose Afghanistan reports aligned with Whitlock\'s exposé', href: '/entities/individuals/john-sopko' },
+      { name: 'Daniel Ellsberg', relationship: 'Pentagon Papers leaker - Whitlock exposed similar Afghanistan deception', href: '/entities/individuals/daniel-ellsberg' }
+    ],
+
   },
   'curtis-wright': {
     name: 'Curtis Wright',
@@ -44099,6 +45692,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Purdue Pharma Oxycontin', slug: 'purdue-pharma-oxycontin', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Richard Sackler', relationship: 'FDA official who approved OxyContin then joined Purdue consulting', href: '/entities/individuals/richard-sackler' }
+    ],
+
   },
   'curveball': {
     name: 'Rafid Ahmed Alwan al-Janabi (Curveball)',
@@ -44115,6 +45712,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Iraq War Lies', slug: 'iraq-war-lies', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Colin Powell', relationship: 'Powell used Curveball\'s fabricated intelligence in UN Iraq presentation', href: '/entities/individuals/colin-powell' },
+      { name: 'George Tenet', relationship: 'CIA director who vouched for Curveball\'s discredited WMD claims', href: '/entities/individuals/george-tenet' }
+    ],
+
   },
   'cyrus-hashemi': {
     name: 'Cyrus Hashemi',
@@ -44131,6 +45733,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'October Surprise 1980', slug: 'october-surprise-1980', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Gary Sick', relationship: 'Sick investigated October Surprise involving Hashemi', href: '/entities/individuals/gary-sick' },
+      { name: 'William Casey', relationship: 'CIA director allegedly involved in October Surprise with Hashemi', href: '/entities/individuals/william-casey' }
+    ],
+
   },
   'cyrus-vance-jr': {
     name: 'Cyrus Vance Jr.',
@@ -44147,6 +45754,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Alvin Bragg', relationship: 'Predecessor as Manhattan DA - began Trump investigation', href: '/entities/individuals/alvin-bragg' },
+      { name: 'Harvey Weinstein', relationship: 'Criticized for initially declining to prosecute Weinstein', href: '/entities/individuals/harvey-weinstein' }
+    ],
+
   },
   'dale-folwell': {
     name: 'Dale Folwell',
@@ -44163,6 +45775,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Gerrymandering', slug: 'gerrymandering', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Stephen Hemsley', relationship: 'UnitedHealth executive whose pricing Folwell challenged', href: '/entities/individuals/stephen-hemsley' }
+    ],
+
   },
   'dallas-goldtooth': {
     name: 'Dallas Goldtooth',
@@ -44179,6 +45795,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Chase Iron Eyes', relationship: 'Fellow Indigenous activist at Standing Rock', href: '/entities/individuals/chase-iron-eyes' },
+      { name: 'LaDonna Brave Bull Allard', relationship: 'Fellow Standing Rock protector', href: '/entities/individuals/ladonna-brave-bull-allard' },
+      { name: 'Kelcy Warren', relationship: 'Energy Transfer CEO whose Dakota Access Pipeline Goldtooth opposed', href: '/entities/individuals/kelcy-warren' }
+    ],
+
   },
   'dalton-trumbo': {
     name: 'Dalton Trumbo',
@@ -44195,6 +45817,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Joseph McCarthy', relationship: 'Era of McCarthyism that led to Trumbo\'s blacklisting', href: '/entities/individuals/joseph-mccarthy' },
+      { name: 'J. Parnell Thomas', relationship: 'HUAC chairman who cited Trumbo for contempt', href: '/entities/individuals/j-parnell-thomas' },
+      { name: 'Elia Kazan', relationship: 'Fellow Hollywood figure who cooperated with HUAC unlike Trumbo', href: '/entities/individuals/elia-kazan' }
+    ],
+
   },
   'dan-moldea': {
     name: 'Dan Moldea',
@@ -44211,6 +45839,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Rfk Assassination', slug: 'rfk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Sirhan Sirhan', relationship: 'Investigative journalist who wrote about RFK assassination and Sirhan', href: '/entities/individuals/sirhan-sirhan' },
+      { name: 'Robert Houghton', relationship: 'LAPD detective whose RFK investigation Moldea examined', href: '/entities/individuals/robert-houghton' }
+    ],
+
   },
   'daniel-cameron': {
     name: 'Daniel Cameron',
@@ -44227,6 +45860,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Breonna Taylor', relationship: 'Kentucky AG who presented Taylor shooting to grand jury', href: '/entities/individuals/breonna-taylor' },
+      { name: 'Brett Hankison', relationship: 'Only officer indicted under Cameron\'s Taylor grand jury', href: '/entities/individuals/brett-hankison' }
+    ],
+
   },
   'daniel-carder': {
     name: 'Daniel Carder',
@@ -44243,6 +45881,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Arvind Thiruvengadam', relationship: 'WVU colleague who co-discovered VW emissions cheat', href: '/entities/individuals/arvind-thiruvengadam' },
+      { name: 'Matthias Mueller', relationship: 'VW CEO who managed aftermath of scandal Carder uncovered', href: '/entities/individuals/matthias-mueller' }
+    ],
+
   },
   'daniel-ellsberg': {
     name: 'Daniel Ellsberg',
@@ -44261,6 +45904,13 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Whistleblower Persecution', slug: 'whistleblower-persecution', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Anthony Russo', relationship: 'Co-leaked Pentagon Papers', href: '/entities/individuals/anthony-russo' },
+      { name: 'Neil Sheehan', relationship: 'NY Times reporter who published Pentagon Papers', href: '/entities/individuals/neil-sheehan' },
+      { name: 'Richard Nixon', relationship: 'Nixon administration tried to discredit Ellsberg', href: '/entities/individuals/richard-nixon' },
+      { name: 'Edward Snowden', relationship: 'Fellow government whistleblower who leaked classified documents', href: '/entities/individuals/edward-snowden' }
+    ],
+
   },
   'daniel-hamburger': {
     name: 'Daniel Hamburger',
@@ -44277,6 +45927,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Betsy DeVos', relationship: 'For-profit education leader during DeVos\'s deregulation era', href: '/entities/individuals/betsy-devos' }
+    ],
+
   },
   'daniel-patrick-moynihan': {
     name: 'Daniel Patrick Moynihan',
@@ -44293,6 +45947,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'East Timor Genocide', slug: 'east-timor-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Richard Nixon', relationship: 'Served in Nixon White House and shaped welfare policy', href: '/entities/individuals/richard-nixon' },
+      { name: 'Robert Moses', relationship: 'Both shaped New York public policy for decades', href: '/entities/individuals/robert-moses' }
+    ],
+
   },
   'daniel-rigmaiden': {
     name: 'Daniel Rigmaiden',
@@ -44309,6 +45968,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Stingray Surveillance', slug: 'stingray-surveillance', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Christopher Soghoian', relationship: 'Both worked to expose Stingray surveillance technology', href: '/entities/individuals/christopher-soghoian' },
+      { name: 'Nathan Wessler', relationship: 'ACLU lawyer who fought surveillance Rigmaiden exposed', href: '/entities/individuals/nathan-wessler' }
+    ],
+
   },
   'daniele-ganser': {
     name: 'Daniele Ganser',
@@ -44325,6 +45989,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Vincenzo Vinciguerra', relationship: 'Gladio operative whose testimony informed Ganser\'s research', href: '/entities/individuals/vincenzo-vinciguerra' },
+      { name: 'Giulio Andreotti', relationship: 'Italian PM whose Gladio connections Ganser documented', href: '/entities/individuals/giulio-andreotti' }
+    ],
+
   },
   'danny-wall': {
     name: 'Danny Wall',
@@ -44341,6 +46010,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Savings And Loan Crisis', slug: 'savings-and-loan-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Charles Keating', relationship: 'S&L regulator who failed to act against Keating', href: '/entities/individuals/charles-keating' },
+      { name: 'Edwin Gray', relationship: 'Predecessor as S&L regulator who tried to stop Keating', href: '/entities/individuals/edwin-gray' }
+    ],
+
   },
   'daphne-caruana-galizia': {
     name: 'Daphne Caruana Galizia',
@@ -44357,6 +46031,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Panama Papers', slug: 'panama-papers', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bastian Obermayer', relationship: 'Fellow journalist who exposed offshore corruption via Panama Papers', href: '/entities/individuals/bastian-obermayer' },
+      { name: 'Jurgen Mossack', relationship: 'Mossack Fonseca co-founder whose clients Galizia investigated', href: '/entities/individuals/jurgen-mossack' }
+    ],
+
   },
   'darlene-keju': {
     name: 'Darlene Keju',
@@ -44373,6 +46052,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'John Anjain', relationship: 'Fellow Marshall Islands nuclear testing survivor and advocate', href: '/entities/individuals/john-anjain' },
+      { name: 'Lewis Strauss', relationship: 'AEC chairman who authorized Pacific nuclear tests', href: '/entities/individuals/lewis-strauss' }
+    ],
+
   },
   'darnell-earley': {
     name: 'Darnell Earley',
@@ -44389,6 +46073,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Water Contamination Nationwide', slug: 'water-contamination-nationwide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Rick Snyder', relationship: 'Michigan governor who appointed Earley as Flint emergency manager', href: '/entities/individuals/rick-snyder' },
+      { name: 'Marc Edwards', relationship: 'Engineer who exposed Flint water crisis under Earley\'s management', href: '/entities/individuals/marc-edwards' }
+    ],
+
   },
   'darrell-issa': {
     name: 'Darrell Issa',
@@ -44405,6 +46094,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Eric Holder', relationship: 'Led House investigation that held Holder in contempt over Fast and Furious', href: '/entities/individuals/eric-holder' },
+      { name: 'James Comer', relationship: 'Fellow Republican House investigator', href: '/entities/individuals/james-comer' }
+    ],
+
   },
   'daryl-gates': {
     name: 'Daryl Gates',
@@ -44421,6 +46115,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Police Militarization', slug: 'police-militarization', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Rodney King', relationship: 'LAPD chief during King beating and LA riots', href: '/entities/individuals/rodney-king' },
+      { name: 'Charlie Beck', relationship: 'Later LAPD chief who inherited Gates\'s legacy', href: '/entities/individuals/charlie-beck' },
+      { name: 'William Bratton', relationship: 'LAPD chief who reformed department after Gates era', href: '/entities/individuals/william-bratton' }
+    ],
+
   },
   'dave-archambault-ii': {
     name: 'Dave Archambault II',
@@ -44437,6 +46137,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Chase Iron Eyes', relationship: 'Fellow Standing Rock leader', href: '/entities/individuals/chase-iron-eyes' },
+      { name: 'LaDonna Brave Bull Allard', relationship: 'Standing Rock elder and DAPL resistance leader', href: '/entities/individuals/ladonna-brave-bull-allard' },
+      { name: 'Kelcy Warren', relationship: 'Energy Transfer Partners CEO behind Dakota Access Pipeline', href: '/entities/individuals/kelcy-warren' }
+    ],
+
   },
   'david-atlee-phillips': {
     name: 'David Atlee Phillips',
@@ -44453,6 +46159,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Jfk Assassination', slug: 'jfk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'James Angleton', relationship: 'CIA counterintelligence chief during Phillips operations', href: '/entities/individuals/james-angleton' },
+      { name: 'Carlos Castillo Armas', relationship: 'Led Guatemala coup Phillips helped orchestrate', href: '/entities/individuals/carlos-castillo-armas' },
+      { name: 'Lee Harvey Oswald', relationship: 'Phillips allegedly connected to Oswald in anti-Castro operations', href: '/entities/individuals/lee-harvey-oswald' }
+    ],
+
   },
   'david-boies': {
     name: 'David Boies',
@@ -44469,6 +46181,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Theranos Fraud', slug: 'theranos-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Harvey Weinstein', relationship: 'Attorney who hired investigators to suppress Weinstein accusers', href: '/entities/individuals/harvey-weinstein' },
+      { name: 'Elizabeth Holmes', relationship: 'Theranos board member and legal advisor', href: '/entities/individuals/elizabeth-holmes' },
+      { name: 'Roberta Kaplan', relationship: 'Fellow prominent trial attorney', href: '/entities/individuals/roberta-kaplan' }
+    ],
+
   },
   'david-duncan': {
     name: 'David Duncan',
@@ -44485,6 +46203,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jeffrey Skilling', relationship: 'Arthur Andersen auditor who shredded Enron documents', href: '/entities/individuals/jeffrey-skilling' },
+      { name: 'Andrew Fastow', relationship: 'Enron CFO whose fraudulent entities Duncan failed to flag', href: '/entities/individuals/andrew-fastow' }
+    ],
+
   },
   'david-greenglass': {
     name: 'David Greenglass',
@@ -44501,6 +46224,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Julius Rosenberg', relationship: 'Brother-in-law whose testimony led to Rosenberg execution', href: '/entities/individuals/julius-rosenberg' },
+      { name: 'Ethel Rosenberg', relationship: 'Sister whom Greenglass testified against', href: '/entities/individuals/ethel-rosenberg' }
+    ],
+
   },
   'david-hogg': {
     name: 'David Hogg',
@@ -44537,6 +46265,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Gun Violence Inaction', slug: 'gun-violence-inaction', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Wayne LaPierre', relationship: 'Predecessor as NRA president', href: '/entities/individuals/wayne-lapierre' }
+    ],
+
   },
   'david-kessler': {
     name: 'David Kessler',
@@ -44553,6 +46285,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Geoffrey Bible', relationship: 'Philip Morris CEO whom Kessler regulated as FDA commissioner', href: '/entities/individuals/geoffrey-bible' },
+      { name: 'Jeffrey Wigand', relationship: 'Tobacco whistleblower who aided Kessler\'s FDA investigation', href: '/entities/individuals/jeffrey-wigand' }
+    ],
+
   },
   'david-koresh': {
     name: 'David Koresh',
@@ -44569,6 +46306,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Waco Siege', slug: 'waco-siege', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Byron Sage', relationship: 'FBI negotiator during Waco siege', href: '/entities/individuals/byron-sage' },
+      { name: 'Jeff Jamar', relationship: 'FBI commander at Waco siege', href: '/entities/individuals/jeff-jamar' },
+      { name: 'Janet Reno', relationship: 'Attorney General who authorized final assault on Waco compound', href: '/entities/individuals/janet-reno' }
+    ],
+
   },
   'david-kotz': {
     name: 'David Kotz',
@@ -44585,6 +46328,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Bernie Madoff Ponzi', slug: 'bernie-madoff-ponzi', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Harry Markopolos', relationship: 'Whistleblower whose Madoff warnings Kotz investigated SEC for ignoring', href: '/entities/individuals/harry-markopolos' },
+      { name: 'Bernie Madoff', relationship: 'SEC Inspector General who investigated agency failure to catch Madoff', href: '/entities/individuals/bernie-madoff' }
+    ],
+
   },
   'david-petraeus': {
     name: 'David Petraeus',
@@ -44601,6 +46349,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Afghanistan Papers', slug: 'afghanistan-papers', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Stanley McChrystal', relationship: 'Predecessor commanding Afghanistan operations', href: '/entities/individuals/stanley-mcchrystal' },
+      { name: 'Barack Obama', relationship: 'CIA Director under Obama before resignation', href: '/entities/individuals/barack-obama' },
+      { name: 'L. Paul Bremer', relationship: 'Iraq administrator whose failures Petraeus tried to correct with surge', href: '/entities/individuals/l-paul-bremer' }
+    ],
+
   },
   'david-rainey': {
     name: 'David Rainey',
@@ -44617,6 +46371,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Tony Hayward', relationship: 'BP CEO during Deepwater Horizon when Rainey was VP', href: '/entities/individuals/tony-hayward' },
+      { name: 'Donald Vidrine', relationship: 'Fellow BP official during Deepwater Horizon disaster', href: '/entities/individuals/donald-vidrine' }
+    ],
+
   },
   'david-smith': {
     name: 'David Smith',
@@ -44633,6 +46392,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Sinclair Broadcasting', slug: 'sinclair-broadcasting', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Chris Ripley', relationship: 'Sinclair Broadcasting colleague', href: '/entities/individuals/chris-ripley' }
+    ],
+
   },
   'david-thibodeau': {
     name: 'David Thibodeau',
@@ -44649,6 +46412,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Waco Siege', slug: 'waco-siege', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'David Koresh', relationship: 'Branch Davidian survivor of Waco siege', href: '/entities/individuals/david-koresh' },
+      { name: 'Ruth Riddle', relationship: 'Fellow Waco survivor', href: '/entities/individuals/ruth-riddle' }
+    ],
+
   },
   'david-voth': {
     name: 'David Voth',
@@ -44665,6 +46433,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'John Dodson', relationship: 'ATF colleague who became Fast and Furious whistleblower', href: '/entities/individuals/john-dodson' },
+      { name: 'Kenneth Melson', relationship: 'ATF acting director during Fast and Furious', href: '/entities/individuals/kenneth-melson' }
+    ],
+
   },
   'dawn-wooten': {
     name: 'Dawn Wooten',
@@ -44681,6 +46454,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ice Detention Abuses', slug: 'ice-detention-abuses', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Mahendra Amin', relationship: 'Doctor at Irwin County whose procedures Wooten exposed', href: '/entities/individuals/mahendra-amin' },
+      { name: 'Matthew Albence', relationship: 'ICE director during detention facility abuses', href: '/entities/individuals/matthew-albence' }
+    ],
+
   },
   'dean-rusk': {
     name: 'Dean Rusk',
@@ -44698,6 +46476,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Lyndon Johnson', relationship: 'Secretary of State under LBJ during Vietnam escalation', href: '/entities/individuals/lyndon-johnson' },
+      { name: 'McGeorge Bundy', relationship: 'Fellow Vietnam War hawk in Kennedy-Johnson administration', href: '/entities/individuals/mcgeorge-bundy' },
+      { name: 'Robert McNamara', relationship: 'Defense Secretary colleague during Vietnam War', href: '/entities/individuals/robert-mcnamara' }
+    ],
+
   },
   'deanne-criswell': {
     name: 'Deanne Criswell',
@@ -44714,6 +46498,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Jackson Water Crisis', slug: 'jackson-water-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'FEMA Administrator under Biden', href: '/entities/individuals/joe-biden' }
+    ],
+
   },
   'denis-mcdonough': {
     name: 'Denis McDonough',
@@ -44730,6 +46518,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Haiti Exploitation', slug: 'haiti-exploitation', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Barack Obama', relationship: 'White House Chief of Staff under Obama', href: '/entities/individuals/barack-obama' },
+      { name: 'Joe Biden', relationship: 'VA Secretary under Biden', href: '/entities/individuals/joe-biden' }
+    ],
+
   },
   'dennis-deconcini': {
     name: 'Dennis DeConcini',
@@ -44746,6 +46539,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Savings And Loan Crisis', slug: 'savings-and-loan-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Charles Keating', relationship: 'One of Keating Five senators', href: '/entities/individuals/charles-keating' },
+      { name: 'John McCain', relationship: 'Fellow Keating Five senator', href: '/entities/individuals/john-mccain' },
+      { name: 'Alan Cranston', relationship: 'Fellow Keating Five senator', href: '/entities/individuals/alan-cranston' }
+    ],
+
   },
   'derrick-johnson': {
     name: 'Derrick Johnson',
@@ -44762,6 +46561,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Jackson Water Crisis', slug: 'jackson-water-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bryan Stevenson', relationship: 'Fellow racial justice leader', href: '/entities/individuals/bryan-stevenson' },
+      { name: 'Sherrilyn Ifill', relationship: 'NAACP Legal Defense Fund president and civil rights ally', href: '/entities/individuals/sherrilyn-ifill' }
+    ],
+
   },
   'derrick-palmer': {
     name: 'Derrick Palmer',
@@ -44778,6 +46582,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Amazon Labor Abuses', slug: 'amazon-labor-abuses', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Chris Smalls', relationship: 'Co-founded Amazon Labor Union together', href: '/entities/individuals/chris-smalls' },
+      { name: 'Jennifer Bates', relationship: 'Fellow Amazon worker organizing activist', href: '/entities/individuals/jennifer-bates' }
+    ],
+
   },
   'desmond-tutu': {
     name: 'Desmond Tutu',
@@ -44794,6 +46603,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Us Support For Apartheid', slug: 'us-support-for-apartheid', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Nelson Mandela', relationship: 'Fellow anti-apartheid leader and Nobel Peace laureate', href: '/entities/individuals/nelson-mandela' },
+      { name: 'PW Botha', relationship: 'Apartheid president whom Tutu opposed', href: '/entities/individuals/pw-botha' }
+    ],
+
   },
   'dexter-king': {
     name: 'Dexter King',
@@ -44810,6 +46624,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mlk Assassination', slug: 'mlk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Coretta Scott King', relationship: 'Mother and fellow keeper of MLK legacy', href: '/entities/individuals/coretta-scott-king' },
+      { name: 'Martin Luther King Jr', relationship: 'Father - Dexter pursued truth about assassination', href: '/entities/individuals/martin-luther-king-jr' },
+      { name: 'Lloyd Jowers', relationship: 'Man King family sued over MLK assassination conspiracy', href: '/entities/individuals/lloyd-jowers' }
+    ],
+
   },
   'dick-deguerin': {
     name: 'Dick DeGuerin',
@@ -44826,6 +46646,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Waco Siege', slug: 'waco-siege', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'David Koresh', relationship: 'Attorney who represented Koresh during Waco siege', href: '/entities/individuals/david-koresh' },
+      { name: 'Tom DeLay', relationship: 'Defended DeLay in money laundering case', href: '/entities/individuals/tom-delay' }
+    ],
+
   },
   'dick-durbin': {
     name: 'Dick Durbin',
@@ -44842,6 +46667,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Charles Schumer', relationship: 'Fellow senior Democratic senator', href: '/entities/individuals/charles-schumer' },
+      { name: 'Joe Biden', relationship: 'Key Biden Senate ally', href: '/entities/individuals/joe-biden' }
+    ],
+
   },
   'dick-fuld': {
     name: 'Dick Fuld',
@@ -44858,6 +46688,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: '2008 Financial Crisis', slug: '2008-financial-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Henry Paulson', relationship: 'Treasury Secretary who decided not to bail out Lehman Brothers', href: '/entities/individuals/henry-paulson' },
+      { name: 'Tim Geithner', relationship: 'NY Fed president during Lehman collapse', href: '/entities/individuals/tim-geithner' },
+      { name: 'Jamie Dimon', relationship: 'JPMorgan CEO who briefly considered acquiring Lehman', href: '/entities/individuals/jamie-dimon' }
+    ],
+
   },
   'dick-rowland': {
     name: 'Dick Rowland',
@@ -44874,6 +46710,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Tulsa Race Massacre', slug: 'tulsa-race-massacre', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'AJ Smitherman', relationship: 'Black newspaper editor during Tulsa Race Massacre triggered by Rowland\'s arrest', href: '/entities/individuals/aj-smitherman' },
+      { name: 'Sarah Page', relationship: 'Woman whose encounter with Rowland sparked Tulsa Race Massacre', href: '/entities/individuals/sarah-page' }
+    ],
+
   },
   'domingo-monterrosa': {
     name: 'Domingo Monterrosa',
@@ -44891,6 +46732,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Rufina Amaya', relationship: 'Sole adult survivor of El Mozote massacre Monterrosa directed', href: '/entities/individuals/rufina-amaya' },
+      { name: 'Elliott Abrams', relationship: 'US official who covered up El Mozote massacre', href: '/entities/individuals/elliott-abrams' }
+    ],
+
   },
   'don-blankenship': {
     name: 'Don Blankenship',
@@ -44907,6 +46753,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Corporate Homicide', slug: 'corporate-homicide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Joe Manchin', relationship: 'Political rival - Blankenship ran against establishment in WV', href: '/entities/individuals/joe-manchin' }
+    ],
+
   },
   'donald-rickard': {
     name: 'Donald Rickard',
@@ -44923,6 +46773,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Us Support For Apartheid', slug: 'us-support-for-apartheid', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Nelson Mandela', relationship: 'CIA agent who allegedly tipped off South African police to arrest Mandela', href: '/entities/individuals/nelson-mandela' }
+    ],
+
   },
   'donald-riegle': {
     name: 'Donald Riegle',
@@ -44939,6 +46793,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Savings And Loan Crisis', slug: 'savings-and-loan-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Charles Keating', relationship: 'One of Keating Five senators investigated for S&L intervention', href: '/entities/individuals/charles-keating' },
+      { name: 'Dennis DeConcini', relationship: 'Fellow Keating Five senator', href: '/entities/individuals/dennis-deconcini' }
+    ],
+
   },
   'donald-vidrine': {
     name: 'Donald Vidrine',
@@ -44955,6 +46814,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Tony Hayward', relationship: 'BP CEO during Deepwater Horizon disaster', href: '/entities/individuals/tony-hayward' },
+      { name: 'Jimmy Harrell', relationship: 'Transocean leader on rig during explosion', href: '/entities/individuals/jimmy-harrell' },
+      { name: 'Robert Kaluza', relationship: 'Fellow BP supervisor on Deepwater Horizon', href: '/entities/individuals/robert-kaluza' }
+    ],
+
   },
   'dr-condie': {
     name: 'Dr. Condie',
@@ -44971,6 +46836,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Stafford Warren', relationship: 'Manhattan Project doctor involved in similar radiation research', href: '/entities/individuals/stafford-warren' }
+    ],
+
   },
   'duane-parde': {
     name: 'Duane Parde',
@@ -44987,6 +46856,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Alec Model Legislation', slug: 'alec-model-legislation', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Art Pope', relationship: 'Fellow anti-tax/conservative policy advocate', href: '/entities/individuals/art-pope' }
+    ],
+
   },
   'duke-tran': {
     name: 'Duke Tran',
@@ -45003,6 +46876,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ton That Tung', relationship: 'Fellow Vietnamese scientist studying Agent Orange effects', href: '/entities/individuals/ton-that-tung' }
+    ],
+
   },
   'dw-griffith': {
     name: 'D.W. Griffith',
@@ -45019,6 +46896,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Nathan Bedford Forrest', relationship: 'Film glorified KKK founded by Forrest', href: '/entities/individuals/nathan-bedford-forrest' },
+      { name: 'Woodrow Wilson', relationship: 'Wilson screened Birth of a Nation at White House', href: '/entities/individuals/woodrow-wilson' }
+    ],
+
   },
   'dwight-d-eisenhower': {
     name: 'Dwight D. Eisenhower',
@@ -45035,6 +46917,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Guatemala Coup 1954', slug: 'guatemala-coup-1954', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Allen Dulles', relationship: 'CIA Director under Eisenhower who ran covert operations', href: '/entities/individuals/allen-dulles' },
+      { name: 'J. Robert Oppenheimer', relationship: 'Revoked Oppenheimer\'s security clearance', href: '/entities/individuals/j-robert-oppenheimer' },
+      { name: 'Henry Cabot Lodge Jr', relationship: 'Ambassador to Vietnam under Eisenhower', href: '/entities/individuals/henry-cabot-lodge-jr' }
+    ],
+
   },
   'earl-stadtman': {
     name: 'Earl Stadtman',
@@ -45051,6 +46939,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'Fellow federal health researcher', href: '/entities/individuals/thomas-parran' }
+    ],
+
   },
   'earl-warren': {
     name: 'Earl Warren',
@@ -45067,6 +46959,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Jfk Assassination', slug: 'jfk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Lee Harvey Oswald', relationship: 'Chief Justice who led Warren Commission on JFK assassination', href: '/entities/individuals/lee-harvey-oswald' },
+      { name: 'John L. DeWitt', relationship: 'As CA governor, Warren supported DeWitt\'s Japanese internment', href: '/entities/individuals/john-l-dewitt' },
+      { name: 'Ruth Bader Ginsburg', relationship: 'Fellow lasting Supreme Court legacy', href: '/entities/individuals/ruth-bader-ginsburg' }
+    ],
+
   },
   'earle-wheeler': {
     name: 'Earle Wheeler',
@@ -45083,6 +46981,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Northwoods', slug: 'operation-northwoods', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'William Westmoreland', relationship: 'Vietnam War general under Wheeler\'s Joint Chiefs chairmanship', href: '/entities/individuals/william-westmoreland' },
+      { name: 'Lyndon Johnson', relationship: 'Joint Chiefs Chairman who advised LBJ on Vietnam', href: '/entities/individuals/lyndon-johnson' }
+    ],
+
   },
   'ed-rendell': {
     name: 'Ed Rendell',
@@ -45099,6 +47002,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Wilson Goode', relationship: 'Successor as Philadelphia mayor after MOVE bombing', href: '/entities/individuals/wilson-goode' }
+    ],
+
   },
   'edward-bernays': {
     name: 'Edward Bernays',
@@ -45115,6 +47022,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Guatemala Coup 1954', slug: 'guatemala-coup-1954', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'United Fruit Company', relationship: 'Created propaganda for Guatemala coup', href: '/entities/individuals/sam-zemurray' },
+      { name: 'Edward Horrigan', relationship: 'Bernays\' PR methods used by tobacco industry Horrigan led', href: '/entities/individuals/edward-horrigan' }
+    ],
+
   },
   'edward-garvey': {
     name: 'Edward Garvey',
@@ -45131,6 +47043,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Stuart Appelbaum', relationship: 'Fellow labor organizer and union leader', href: '/entities/individuals/stuart-appelbaum' }
+    ],
+
   },
   'edward-hanrahan': {
     name: 'Edward Hanrahan',
@@ -45147,6 +47063,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Fred Hampton Assassination', slug: 'fred-hampton-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Fred Hampton', relationship: 'State\'s Attorney who authorized raid that killed Hampton', href: '/entities/individuals/fred-hampton' },
+      { name: 'Akua Njeri', relationship: 'Hampton\'s partner who was present during the raid', href: '/entities/individuals/akua-njeri' },
+      { name: 'Bobby Rush', relationship: 'Black Panther who co-founded Chicago chapter with Hampton', href: '/entities/individuals/bobby-rush' }
+    ],
+
   },
   'edward-horrigan': {
     name: 'Edward Horrigan',
@@ -45163,6 +47085,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Geoffrey Bible', relationship: 'Fellow tobacco industry executive', href: '/entities/individuals/geoffrey-bible' },
+      { name: 'Jeffrey Wigand', relationship: 'Whistleblower who exposed tobacco industry practices', href: '/entities/individuals/jeffrey-wigand' },
+      { name: 'Addison Yeaman', relationship: 'Tobacco industry insider who documented nicotine addiction knowledge', href: '/entities/individuals/addison-yeaman' }
+    ],
+
   },
   'edward-lansdale': {
     name: 'Edward Lansdale',
@@ -45179,6 +47107,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Northwoods', slug: 'operation-northwoods', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'James Angleton', relationship: 'CIA counterintelligence chief during Lansdale\'s operations', href: '/entities/individuals/james-angleton' },
+      { name: 'John Paul Vann', relationship: 'Fellow key figure in Vietnam counterinsurgency', href: '/entities/individuals/john-paul-vann' },
+      { name: 'Fidel Castro', relationship: 'Target of Lansdale\'s Operation Mongoose to overthrow Castro', href: '/entities/individuals/fidel-castro' }
+    ],
+
   },
   'edward-r-murrow': {
     name: 'Edward R. Murrow',
@@ -45195,6 +47129,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Joseph McCarthy', relationship: 'Confronted McCarthy on CBS, helping end Red Scare', href: '/entities/individuals/joseph-mccarthy' },
+      { name: 'Ben Bradlee', relationship: 'Fellow pioneering journalist of the era', href: '/entities/individuals/ben-bradlee' }
+    ],
+
   },
   'edward-teller': {
     name: 'Edward Teller',
@@ -45211,6 +47150,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'J. Robert Oppenheimer', relationship: 'Testified against Oppenheimer in security clearance hearing', href: '/entities/individuals/j-robert-oppenheimer' },
+      { name: 'Lewis Strauss', relationship: 'AEC chairman who sided with Teller against Oppenheimer', href: '/entities/individuals/lewis-strauss' },
+      { name: 'Wernher von Braun', relationship: 'Fellow Cold War weapons scientist', href: '/entities/individuals/wernher-von-braun' }
+    ],
+
   },
   'edwin-gray': {
     name: 'Edwin Gray',
@@ -45227,6 +47172,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Savings And Loan Crisis', slug: 'savings-and-loan-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Charles Keating', relationship: 'Federal regulator who tried to stop Keating\'s S&L abuses', href: '/entities/individuals/charles-keating' },
+      { name: 'Danny Wall', relationship: 'Successor who was more lenient toward Keating', href: '/entities/individuals/danny-wall' }
+    ],
+
   },
   'efrain-rios-montt': {
     name: 'Efra\u00EDn R\u00EDos Montt',
@@ -45245,6 +47195,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Rigoberta Menchu', relationship: 'Nobel laureate who fought for justice for Rios Montt genocide', href: '/entities/individuals/rigoberta-menchu' },
+      { name: 'Elliott Abrams', relationship: 'US official who supported Rios Montt\'s regime', href: '/entities/individuals/elliott-abrams' },
+      { name: 'Ronald Reagan', relationship: 'Reagan called Rios Montt "a man of great personal integrity"', href: '/entities/individuals/ronald-reagan' }
+    ],
+
   },
   'eh-wah': {
     name: 'Eh Wah',
@@ -45261,6 +47217,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Civil Asset Forfeiture', slug: 'civil-asset-forfeiture', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jeff Sessions', relationship: 'DOJ under Sessions pursued civil forfeiture case against Eh Wah', href: '/entities/individuals/jeff-sessions' }
+    ],
+
   },
   'elaine-riddick': {
     name: 'Elaine Riddick',
@@ -45277,6 +47237,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Carrie Buck', relationship: 'Fellow forced sterilization victim', href: '/entities/individuals/carrie-buck' },
+      { name: 'Paul Popenoe', relationship: 'Eugenicist whose ideology led to forced sterilizations like Riddick\'s', href: '/entities/individuals/paul-popenoe' }
+    ],
+
   },
   'elia-kazan': {
     name: 'Elia Kazan',
@@ -45293,6 +47258,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Dalton Trumbo', relationship: 'Kazan named names to HUAC, Trumbo was blacklisted for refusing', href: '/entities/individuals/dalton-trumbo' },
+      { name: 'Joseph McCarthy', relationship: 'McCarthy era drove Kazan to cooperate with HUAC', href: '/entities/individuals/joseph-mccarthy' }
+    ],
+
   },
   'elijah-muhammad': {
     name: 'Elijah Muhammad',
@@ -45309,6 +47279,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Malcolm X', relationship: 'NOI leader whose follower Malcolm X became before split', href: '/entities/individuals/malcolm-x' },
+      { name: 'Louis Farrakhan', relationship: 'NOI leader who succeeded Elijah Muhammad', href: '/entities/individuals/louis-farrakhan' },
+      { name: 'Muhammad Abdul Aziz', relationship: 'NOI member wrongfully convicted of Malcolm X assassination', href: '/entities/individuals/muhammad-abdul-aziz' }
+    ],
+
   },
   'elizabeth-warren': {
     name: 'Elizabeth Warren',
@@ -45326,6 +47302,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bernie Sanders', relationship: 'Fellow progressive senator and 2020 presidential rival', href: '/entities/individuals/bernie-sanders' },
+      { name: 'Richard Cordray', relationship: 'First CFPB director appointed after Warren\'s advocacy created the bureau', href: '/entities/individuals/richard-cordray' },
+      { name: 'Gary Gensler', relationship: 'SEC chair aligned with Warren\'s financial regulation agenda', href: '/entities/individuals/gary-gensler' }
+    ],
+
   },
   'ellen-kullman': {
     name: 'Ellen Kullman',
@@ -45342,6 +47324,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Edward Breen', relationship: 'Successor as DuPont CEO', href: '/entities/individuals/edward-breen' },
+      { name: 'Rob Bilott', relationship: 'Attorney who exposed DuPont PFAS contamination during Kullman era', href: '/entities/individuals/rob-bilott' }
+    ],
+
   },
   'elliot-jaspin': {
     name: 'Elliot Jaspin',
@@ -45358,6 +47345,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'James Loewen', relationship: 'Fellow researcher documenting sundown towns and racial expulsions', href: '/entities/individuals/james-loewen' }
+    ],
+
   },
   'elmo-zumwalt': {
     name: 'Admiral Elmo Zumwalt Jr.',
@@ -45374,6 +47365,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Elmo Zumwalt III', relationship: 'Son who developed cancer from Agent Orange father ordered used', href: '/entities/individuals/elmo-zumwalt-iii' },
+      { name: 'William Westmoreland', relationship: 'Fellow Vietnam War commander', href: '/entities/individuals/william-westmoreland' },
+      { name: 'Alvin Young', relationship: 'Scientist hired by military to study Agent Orange Zumwalt ordered', href: '/entities/individuals/alvin-young' }
+    ],
+
   },
   'elmo-zumwalt-iii': {
     name: 'Elmo Zumwalt III',
@@ -45390,6 +47387,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Elmo Zumwalt', relationship: 'Father who ordered Agent Orange use that caused son\'s cancer', href: '/entities/individuals/elmo-zumwalt' },
+      { name: 'Maude DeVictor', relationship: 'VA benefits worker who first documented Agent Orange health effects', href: '/entities/individuals/maude-devictor' }
+    ],
+
   },
   'emilio-massera': {
     name: 'Emilio Eduardo Massera',
@@ -45406,6 +47408,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Condor', slug: 'operation-condor', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Leopoldo Galtieri', relationship: 'Fellow Argentine junta leader', href: '/entities/individuals/leopoldo-galtieri' }
+    ],
+
   },
   'emmett-till': {
     name: 'Emmett Till',
@@ -45424,6 +47430,14 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'War On Black America', slug: 'war-on-black-america', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Carolyn Bryant', relationship: 'Woman whose false accusation led to Till\'s lynching', href: '/entities/individuals/carolyn-bryant' },
+      { name: 'Roy Bryant', relationship: 'One of Till\'s murderers acquitted by all-white jury', href: '/entities/individuals/roy-bryant' },
+      { name: 'JW Milam', relationship: 'Co-murderer who confessed after acquittal', href: '/entities/individuals/jw-milam' },
+      { name: 'Mamie Till-Mobley', relationship: 'Mother whose open-casket funeral sparked civil rights awakening', href: '/entities/individuals/mamie-till-mobley' },
+      { name: 'Moses Wright', relationship: 'Great-uncle who bravely testified against killers in court', href: '/entities/individuals/moses-wright' }
+    ],
+
   },
   'eric-holder': {
     name: 'Eric Holder',
@@ -45443,6 +47457,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Whistleblower Persecution', slug: 'whistleblower-persecution', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Barack Obama', relationship: 'Attorney General under Obama 2009-2015', href: '/entities/individuals/barack-obama' },
+      { name: 'Darrell Issa', relationship: 'House Republican who held Holder in contempt over Fast and Furious', href: '/entities/individuals/darrell-issa' },
+      { name: 'Brian Terry', relationship: 'Border agent killed with Fast and Furious gun during Holder\'s tenure', href: '/entities/individuals/brian-terry' }
+    ],
+
   },
   'eric-schneiderman': {
     name: 'Eric Schneiderman',
@@ -45460,6 +47480,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Trump University', slug: 'trump-university', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Investigated Trump University and Trump Foundation', href: '/entities/individuals/donald-trump' },
+      { name: 'Harvey Weinstein', relationship: 'Led investigation of Weinstein before own abuse scandal broke', href: '/entities/individuals/harvey-weinstein' }
+    ],
+
   },
   'erika-cheung': {
     name: 'Erika Cheung',
@@ -45476,6 +47501,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Theranos Fraud', slug: 'theranos-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Elizabeth Holmes', relationship: 'Theranos whistleblower who testified against Holmes', href: '/entities/individuals/elizabeth-holmes' },
+      { name: 'Tyler Shultz', relationship: 'Fellow Theranos whistleblower', href: '/entities/individuals/tyler-shultz' }
+    ],
+
   },
   'erin-brockovich': {
     name: 'Erin Brockovich',
@@ -45492,6 +47522,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Water Contamination Nationwide', slug: 'water-contamination-nationwide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Rob Bilott', relationship: 'Fellow environmental contamination attorney fighting chemical companies', href: '/entities/individuals/rob-bilott' },
+      { name: 'Marc Edwards', relationship: 'Fellow water contamination advocate (Flint water crisis)', href: '/entities/individuals/marc-edwards' }
+    ],
+
   },
   'estelle-reel': {
     name: 'Estelle Reel',
@@ -45508,6 +47543,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Richard Henry Pratt', relationship: 'Fellow architect of Native American boarding school system', href: '/entities/individuals/richard-henry-pratt' }
+    ],
+
   },
   'ethel-rosenberg': {
     name: 'Ethel Rosenberg',
@@ -45524,6 +47563,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Julius Rosenberg', relationship: 'Husband and co-defendant executed for espionage', href: '/entities/individuals/julius-rosenberg' },
+      { name: 'David Greenglass', relationship: 'Brother whose testimony led to conviction', href: '/entities/individuals/david-greenglass' }
+    ],
+
   },
   'eunice-rivers': {
     name: 'Dr. Eunice Rivers',
@@ -45540,6 +47584,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'Surgeon General who oversaw Public Health Service during Tuskegee experiment', href: '/entities/individuals/thomas-parran' },
+      { name: 'John Charles Cutler', relationship: 'PHS doctor who conducted parallel Guatemala experiments', href: '/entities/individuals/john-charles-cutler' }
+    ],
+
   },
   'eurico-guterres': {
     name: 'Eurico Guterres',
@@ -45556,6 +47605,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'East Timor Genocide', slug: 'east-timor-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Suharto', relationship: 'Indonesian-backed militia leader in East Timor', href: '/entities/individuals/suharto' },
+      { name: 'Xanana Gusmao', relationship: 'East Timorese leader whose people Guterres terrorized', href: '/entities/individuals/xanana-gusmao' }
+    ],
+
   },
   'evan-parker': {
     name: 'Evan Parker',
@@ -45572,6 +47626,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Phoenix Program', slug: 'phoenix-program', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'John Sopko', relationship: 'SIGAR inspector who monitored Afghanistan funds Parker oversaw', href: '/entities/individuals/john-sopko' }
+    ],
+
   },
   'felice-casson': {
     name: 'Felice Casson',
@@ -45588,6 +47646,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Vincenzo Vinciguerra', relationship: 'Gladio operative whose confession aided Casson\'s investigation', href: '/entities/individuals/vincenzo-vinciguerra' },
+      { name: 'Giulio Andreotti', relationship: 'Italian PM whose Gladio connections Casson exposed', href: '/entities/individuals/giulio-andreotti' }
+    ],
+
   },
   'felix-wormser': {
     name: 'Felix Wormser',
@@ -45604,6 +47667,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Clair Patterson', relationship: 'Scientists whose lead research Wormser\'s industry opposed', href: '/entities/individuals/clair-patterson' },
+      { name: 'Robert Kehoe', relationship: 'Lead industry scientist', href: '/entities/individuals/robert-kehoe' }
+    ],
+
   },
   'fidel-castro': {
     name: 'Fidel Castro',
@@ -45620,6 +47688,13 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Northwoods', slug: 'operation-northwoods', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Che Guevara', relationship: 'Revolutionary comrade who helped lead Cuban revolution', href: '/entities/individuals/che-guevara' },
+      { name: 'Nicolas Maduro', relationship: 'Venezuelan leader who continued Castro\'s socialist alliance', href: '/entities/individuals/nicolas-maduro' },
+      { name: 'Edward Lansdale', relationship: 'CIA officer who ran Operation Mongoose to overthrow Castro', href: '/entities/individuals/edward-lansdale' },
+      { name: 'Lee Harvey Oswald', relationship: 'Oswald\'s pro-Castro activities investigated after JFK assassination', href: '/entities/individuals/lee-harvey-oswald' }
+    ],
+
   },
   'five-omar-mualimm-ak': {
     name: 'Five Omar Mualimm-ak',
@@ -45636,6 +47711,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Albert Woodfox', relationship: 'Fellow solitary confinement survivor and prison reform advocate', href: '/entities/individuals/albert-woodfox' }
+    ],
+
   },
   'flint-taylor': {
     name: 'Flint Taylor',
@@ -45652,6 +47731,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Fred Hampton Assassination', slug: 'fred-hampton-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jon Burge', relationship: 'Attorney who spent decades exposing Burge torture ring', href: '/entities/individuals/jon-burge' },
+      { name: 'Fred Hampton', relationship: 'Fought for justice in Hampton murder through civil litigation', href: '/entities/individuals/fred-hampton' }
+    ],
+
   },
   'frank-dipascali': {
     name: 'Frank DiPascali',
@@ -45668,6 +47752,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Bernie Madoff Ponzi', slug: 'bernie-madoff-ponzi', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bernie Madoff', relationship: 'Madoff\'s chief financial officer and key co-conspirator', href: '/entities/individuals/bernie-madoff' },
+      { name: 'Peter Madoff', relationship: 'Fellow Madoff firm insider', href: '/entities/individuals/peter-madoff' }
+    ],
+
   },
   'frank-powell': {
     name: 'Frank Powell',
@@ -45684,6 +47773,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Wilson Goode', relationship: 'Officer who dropped bomb on MOVE house under Goode\'s order', href: '/entities/individuals/wilson-goode' },
+      { name: 'Ramona Africa', relationship: 'MOVE member who survived the bombing Powell carried out', href: '/entities/individuals/ramona-africa' }
+    ],
+
   },
   'fred-branfman': {
     name: 'Fred Branfman',
@@ -45700,6 +47794,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Laos Secret Bombing', slug: 'laos-secret-bombing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Daniel Ellsberg', relationship: 'Fellow war critic who exposed secret bombing campaigns', href: '/entities/individuals/daniel-ellsberg' },
+      { name: 'Noam Chomsky', relationship: 'Intellectual ally in opposing secret Laos bombing', href: '/entities/individuals/noam-chomsky' }
+    ],
+
   },
   'fred-gray': {
     name: 'Fred Gray',
@@ -45716,6 +47815,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Tuskegee Experiment', slug: 'tuskegee-experiment', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Rosa Parks', relationship: 'Attorney who represented Parks during Montgomery Bus Boycott', href: '/entities/individuals/rosa-parks' },
+      { name: 'Martin Luther King Jr', relationship: 'Legal advisor to MLK and civil rights movement', href: '/entities/individuals/martin-luther-king-jr' }
+    ],
+
   },
   'fred-guttenberg': {
     name: 'Fred Guttenberg',
@@ -45732,6 +47836,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Gun Violence Inaction', slug: 'gun-violence-inaction', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Chris Murphy', relationship: 'Senator who championed gun reform alongside Guttenberg', href: '/entities/individuals/chris-murphy' },
+      { name: 'Nikolas Cruz', relationship: 'Father of Parkland victim - Cruz murdered his daughter Jaime', href: '/entities/individuals/nikolas-cruz' }
+    ],
+
   },
   'fred-hampton-jr': {
     name: 'Fred Hampton Jr.',
@@ -45748,6 +47857,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Fred Hampton Assassination', slug: 'fred-hampton-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Fred Hampton', relationship: 'Father - Black Panther chairman assassinated by FBI/CPD', href: '/entities/individuals/fred-hampton' },
+      { name: 'Akua Njeri', relationship: 'Mother who was present during father\'s assassination', href: '/entities/individuals/akua-njeri' },
+      { name: 'Bobby Rush', relationship: 'Father\'s co-founder of Chicago Black Panther chapter', href: '/entities/individuals/bobby-rush' }
+    ],
+
   },
   'frederick-babcock': {
     name: 'Frederick Babcock',
@@ -45764,6 +47879,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Homer Hoyt', relationship: 'Fellow architect of racist real estate valuation and redlining', href: '/entities/individuals/homer-hoyt' },
+      { name: 'Robert Weaver', relationship: 'HUD Secretary who fought housing discrimination Babcock created', href: '/entities/individuals/robert-weaver' }
+    ],
+
   },
   'frederick-douglass': {
     name: 'Frederick Douglass',
@@ -45780,6 +47900,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Convict Leasing', slug: 'convict-leasing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Abraham Lincoln', relationship: 'Advised Lincoln on emancipation and Black troops', href: '/entities/individuals/abraham-lincoln' },
+      { name: 'Ida B. Wells', relationship: 'Fellow anti-lynching activist and civil rights pioneer', href: '/entities/individuals/ida-b-wells' },
+      { name: 'William Lloyd Garrison', relationship: 'Abolitionist publisher who helped launch Douglass\'s career', href: '/entities/individuals/william-lloyd-garrison' }
+    ],
+
   },
   'frederick-hitz': {
     name: 'Frederick Hitz',
@@ -45796,6 +47922,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Cia Drug Trafficking', slug: 'cia-drug-trafficking', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'William Casey', relationship: 'CIA director during Iran-Contra that Hitz later investigated as IG', href: '/entities/individuals/william-casey' },
+      { name: 'Oliver North', relationship: 'Iran-Contra figure whose operations Hitz investigated', href: '/entities/individuals/oliver-north' }
+    ],
+
   },
   'frederik-obermaier': {
     name: 'Frederik Obermaier',
@@ -45812,6 +47943,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Panama Papers', slug: 'panama-papers', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bastian Obermayer', relationship: 'Co-journalist who broke Panama Papers story', href: '/entities/individuals/bastian-obermayer' },
+      { name: 'Ramon Fonseca', relationship: 'Mossack Fonseca partner exposed by their reporting', href: '/entities/individuals/ramon-fonseca' }
+    ],
+
   },
   'gary-gensler': {
     name: 'Gary Gensler',
@@ -45828,6 +47964,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Elizabeth Warren', relationship: 'Senate ally pushing financial regulation agenda', href: '/entities/individuals/elizabeth-warren' },
+      { name: 'Sam Bankman-Fried', relationship: 'FTX CEO whose crypto fraud SEC under Gensler prosecuted', href: '/entities/individuals/sam-bankman-fried' },
+      { name: 'Changpeng Zhao', relationship: 'Binance CEO whom SEC charged under Gensler', href: '/entities/individuals/changpeng-zhao' }
+    ],
+
   },
   'gary-wang': {
     name: 'Gary Wang',
@@ -45844,6 +47986,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ftx Crypto Fraud', slug: 'ftx-crypto-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Sam Bankman-Fried', relationship: 'FTX co-founder who testified against SBF', href: '/entities/individuals/sam-bankman-fried' },
+      { name: 'Caroline Ellison', relationship: 'Fellow FTX insider who cooperated with prosecution', href: '/entities/individuals/caroline-ellison' },
+      { name: 'Nishad Singh', relationship: 'Fellow FTX executive who pleaded guilty', href: '/entities/individuals/nishad-singh' }
+    ],
+
   },
   'gary-webb': {
     name: 'Gary Webb',
@@ -45881,6 +48029,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Naomi Oreskes', relationship: 'Co-researcher documenting fossil fuel industry climate disinformation', href: '/entities/individuals/naomi-oreskes' },
+      { name: 'Lee Raymond', relationship: 'ExxonMobil CEO whose company Supran proved knew about climate change', href: '/entities/individuals/lee-raymond' }
+    ],
+
   },
   'georg-rickhey': {
     name: 'Georg Rickhey',
@@ -45897,6 +48050,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Paperclip', slug: 'operation-paperclip', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Arthur Rudolph', relationship: 'Fellow Operation Paperclip scientist', href: '/entities/individuals/arthur-rudolph' },
+      { name: 'Wernher von Braun', relationship: 'Senior Paperclip recruit from same V-2 program', href: '/entities/individuals/wernher-von-braun' }
+    ],
+
   },
   'george-armstrong-custer': {
     name: 'George Armstrong Custer',
@@ -45913,6 +48071,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Philip Sheridan', relationship: 'Commanding general who directed Custer\'s Indian War campaigns', href: '/entities/individuals/philip-sheridan' },
+      { name: 'William Tecumseh Sherman', relationship: 'Army commander overseeing Plains Indian campaigns', href: '/entities/individuals/william-tecumseh-sherman' }
+    ],
+
   },
   'george-de-mohrenschildt': {
     name: 'George de Mohrenschildt',
@@ -45929,6 +48092,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Jfk Assassination', slug: 'jfk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Lee Harvey Oswald', relationship: 'CIA-connected figure who befriended Oswald before JFK assassination', href: '/entities/individuals/lee-harvey-oswald' },
+      { name: 'James Angleton', relationship: 'CIA counterintelligence chief who may have directed de Mohrenschildt', href: '/entities/individuals/james-angleton' }
+    ],
+
   },
   'george-romney': {
     name: 'George Romney',
@@ -45945,6 +48113,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Robert Moses', relationship: 'Contemporary urban policy figure - Romney as HUD Secretary vs Moses\'s construction', href: '/entities/individuals/robert-moses' },
+      { name: 'Robert Weaver', relationship: 'Predecessor as HUD Secretary', href: '/entities/individuals/robert-weaver' }
+    ],
+
   },
   'george-shultz': {
     name: 'George Shultz',
@@ -45962,6 +48135,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Theranos Fraud', slug: 'theranos-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Elizabeth Holmes', relationship: 'Theranos board member who initially protected Holmes', href: '/entities/individuals/elizabeth-holmes' },
+      { name: 'Tyler Shultz', relationship: 'Grandson who became Theranos whistleblower against George\'s wishes', href: '/entities/individuals/tyler-shultz' },
+      { name: 'Ronald Reagan', relationship: 'Secretary of State under Reagan', href: '/entities/individuals/ronald-reagan' }
+    ],
+
   },
   'george-stinney-jr': {
     name: 'George Stinney Jr.',
@@ -45978,6 +48157,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'George Wallace', relationship: 'Youngest person executed in US - symbol of Jim Crow justice Wallace defended', href: '/entities/individuals/george-wallace' }
+    ],
+
   },
   'gerald-chatham': {
     name: 'Gerald Chatham',
@@ -45994,6 +48177,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Emmett Till', relationship: 'Prosecutor in Till murder case where killers were acquitted', href: '/entities/individuals/emmett-till' },
+      { name: 'Moses Wright', relationship: 'Till\'s uncle who testified in Chatham\'s prosecution', href: '/entities/individuals/moses-wright' }
+    ],
+
   },
   'gerald-kennedy': {
     name: 'Gerald Kennedy',
@@ -46010,6 +48198,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Robert Houghton', relationship: 'LAPD investigation connected to RFK assassination', href: '/entities/individuals/robert-houghton' }
+    ],
+
   },
   'gerry-spence': {
     name: 'Gerry Spence',
@@ -46026,6 +48218,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Randy Weaver', relationship: 'Defended Weaver in Ruby Ridge trial, winning acquittal', href: '/entities/individuals/randy-weaver' }
+    ],
+
   },
   'gilbert-bigio': {
     name: 'Gilbert Bigio',
@@ -46042,6 +48238,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Haiti Exploitation', slug: 'haiti-exploitation', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jean-Bertrand Aristide', relationship: 'Haitian oligarch who opposed Aristide\'s populist government', href: '/entities/individuals/jean-bertrand-aristide' }
+    ],
+
   },
   'giulio-andreotti': {
     name: 'Giulio Andreotti',
@@ -46058,6 +48258,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Aldo Moro', relationship: 'PM linked to conspiracy behind Moro\'s kidnapping and murder', href: '/entities/individuals/aldo-moro' },
+      { name: 'Licio Gelli', relationship: 'P2 Lodge master connected to Andreotti\'s political network', href: '/entities/individuals/licio-gelli' },
+      { name: 'Vincenzo Vinciguerra', relationship: 'Gladio operative whose testimony exposed Andreotti\'s connections', href: '/entities/individuals/vincenzo-vinciguerra' }
+    ],
+
   },
   'giuseppe-santovito': {
     name: 'Giuseppe Santovito',
@@ -46074,6 +48280,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Licio Gelli', relationship: 'P2 Lodge member and Italian intelligence chief', href: '/entities/individuals/licio-gelli' },
+      { name: 'Giulio Andreotti', relationship: 'Italian PM connected to Santovito\'s intelligence networks', href: '/entities/individuals/giulio-andreotti' }
+    ],
+
   },
   'gonzalo-curiel': {
     name: 'Gonzalo Curiel',
@@ -46090,6 +48301,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Trump University', slug: 'trump-university', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Judge in Trump University case whom Trump attacked as biased', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'gregore-sambor': {
     name: 'Gregore Sambor',
@@ -46106,6 +48321,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Wilson Goode', relationship: 'Philadelphia police commissioner under Goode during MOVE bombing', href: '/entities/individuals/wilson-goode' },
+      { name: 'Ramona Africa', relationship: 'MOVE member who survived the bombing Sambor oversaw', href: '/entities/individuals/ramona-africa' }
+    ],
+
   },
   'guillermo-endara': {
     name: 'Guillermo Endara',
@@ -46122,6 +48342,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Panama Invasion', slug: 'panama-invasion', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Manuel Noriega', relationship: 'Became president after US invasion deposed Noriega', href: '/entities/individuals/manuel-noriega' },
+      { name: 'George H.W. Bush', relationship: 'Installed as president by US invasion ordered by Bush', href: '/entities/individuals/george-hw-bush' }
+    ],
+
   },
   'guillermo-garcia-sal': {
     name: 'Guillermo García',
@@ -46138,6 +48363,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Oscar Romero', relationship: 'Salvadoran military linked to Romero assassination and civil war', href: '/entities/individuals/oscar-romero' },
+      { name: 'Elliott Abrams', relationship: 'US official who supported Salvadoran military', href: '/entities/individuals/elliott-abrams' }
+    ],
+
   },
   'gul-rahman': {
     name: 'Gul Rahman',
@@ -46154,6 +48384,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Cia Torture Program', slug: 'cia-torture-program', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Gina Haspel', relationship: 'CIA officer at black site where Rahman died from hypothermia', href: '/entities/individuals/gina-haspel' }
+    ],
+
   },
   'hal-knight': {
     name: 'Hal Knight',
@@ -46170,6 +48404,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Cambodia Bombing', slug: 'cambodia-bombing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Martin Tabert', relationship: 'Connected to convict leasing system Knight enforced', href: '/entities/individuals/martin-tabert' }
+    ],
+
   },
   'hamid-khan': {
     name: 'Hamid Khan',
@@ -46186,6 +48424,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Predictive Policing', slug: 'predictive-policing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Clare Garvie', relationship: 'Fellow surveillance technology critic', href: '/entities/individuals/clare-garvie' },
+      { name: 'Jeff Brantingham', relationship: 'PredPol founder whose predictive policing Khan opposed', href: '/entities/individuals/jeff-brantingham' }
+    ],
+
   },
   'harrison-trevathan': {
     name: 'Harrison Trevathan',
@@ -46202,6 +48445,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'Fellow Public Health Service official during Tuskegee era', href: '/entities/individuals/thomas-parran' }
+    ],
+
   },
   'harry-laughlin': {
     name: 'Harry Laughlin',
@@ -46218,6 +48465,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Charles Davenport', relationship: 'Mentor and Cold Spring Harbor eugenics colleague', href: '/entities/individuals/charles-davenport' },
+      { name: 'Carrie Buck', relationship: 'Model eugenics law used to sterilize Buck', href: '/entities/individuals/carrie-buck' },
+      { name: 'Oliver Wendell Holmes', relationship: 'Justice who upheld Laughlin\'s sterilization law in Buck v. Bell', href: '/entities/individuals/oliver-wendell-holmes' }
+    ],
+
   },
   'harry-markopolos': {
     name: 'Harry Markopolos',
@@ -46234,6 +48487,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Bernie Madoff Ponzi', slug: 'bernie-madoff-ponzi', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bernie Madoff', relationship: 'Whistleblower who warned SEC about Madoff scam for a decade', href: '/entities/individuals/bernie-madoff' },
+      { name: 'David Kotz', relationship: 'SEC IG who investigated why Markopolos\'s warnings were ignored', href: '/entities/individuals/david-kotz' },
+      { name: 'Christopher Cox', relationship: 'SEC chairman who failed to act on Markopolos\'s tips', href: '/entities/individuals/christopher-cox' }
+    ],
+
   },
   'harry-truman': {
     name: 'Harry Truman',
@@ -46250,6 +48509,13 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Dwight D. Eisenhower', relationship: 'Successor as president', href: '/entities/individuals/dwight-d-eisenhower' },
+      { name: 'J. Robert Oppenheimer', relationship: 'Truman ordered atomic bombs Oppenheimer built', href: '/entities/individuals/j-robert-oppenheimer' },
+      { name: 'Joseph McCarthy', relationship: 'McCarthy attacked Truman administration over communism', href: '/entities/individuals/joseph-mccarthy' },
+      { name: 'Douglas MacArthur', relationship: 'Fired MacArthur during Korean War', href: '/entities/individuals/douglas-macarthur' }
+    ],
+
   },
   'hassan-sheikh-mohamud': {
     name: 'Hassan Sheikh Mohamud',
@@ -46266,6 +48532,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Somalia Intervention', slug: 'somalia-intervention', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Mohamed Farrah Aidid', relationship: 'Predecessor era Somali warlord', href: '/entities/individuals/mohamed-farrah-aidid' }
+    ],
+
   },
   'hector-gramajo': {
     name: 'Hector Gramajo',
@@ -46282,6 +48552,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Efrain Rios Montt', relationship: 'Guatemalan military under Rios Montt during genocide', href: '/entities/individuals/efrain-rios-montt' },
+      { name: 'Rigoberta Menchu', relationship: 'Nobel laureate who fought for justice against Gramajo\'s atrocities', href: '/entities/individuals/rigoberta-menchu' }
+    ],
+
   },
   'heinz-jakob-neusser': {
     name: 'Heinz-Jakob Neusser',
@@ -46298,6 +48573,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Herbert Diess', relationship: 'VW executive during emissions scandal', href: '/entities/individuals/herbert-diess' },
+      { name: 'Matthias Mueller', relationship: 'VW CEO who managed emission scandal aftermath', href: '/entities/individuals/matthias-mueller' }
+    ],
+
   },
   'henry-cabot-lodge-jr': {
     name: 'Henry Cabot Lodge Jr.',
@@ -46314,6 +48594,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Guatemala Coup 1954', slug: 'guatemala-coup-1954', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Dwight D. Eisenhower', relationship: 'Served as UN Ambassador under Eisenhower', href: '/entities/individuals/dwight-d-eisenhower' },
+      { name: 'Dean Rusk', relationship: 'Fellow official overseeing Vietnam involvement', href: '/entities/individuals/dean-rusk' }
+    ],
+
   },
   'henry-clay-frick': {
     name: 'Henry Clay Frick',
@@ -46330,6 +48615,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Union Busting', slug: 'union-busting', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Andrew Carnegie', relationship: 'Business partner at Carnegie Steel', href: '/entities/individuals/andrew-carnegie' },
+      { name: 'Allan Pinkerton', relationship: 'Hired Pinkerton agents to break Homestead Strike', href: '/entities/individuals/allan-pinkerton' }
+    ],
+
   },
   'henry-dawes': {
     name: 'Henry Dawes',
@@ -46346,6 +48636,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Theodore Roosevelt', relationship: 'President during era of Dawes Act allotment implementation', href: '/entities/individuals/theodore-roosevelt' },
+      { name: 'Richard Henry Pratt', relationship: 'Fellow architect of assimilationist Native American policy', href: '/entities/individuals/richard-henry-pratt' }
+    ],
+
   },
   'henry-knox': {
     name: 'Henry Knox',
@@ -46362,6 +48657,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'George Armstrong Custer', relationship: 'Early war department figure whose policies shaped Indian Wars', href: '/entities/individuals/george-armstrong-custer' }
+    ],
+
   },
   'henry-shaw': {
     name: 'Henry Shaw',
@@ -46378,6 +48677,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Morgan', relationship: 'Fellow Bureau of Indian Affairs official', href: '/entities/individuals/thomas-morgan' }
+    ],
+
   },
   'henry-waxman': {
     name: 'Henry Waxman',
@@ -46394,6 +48697,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'C. Everett Koop', relationship: 'Worked with Koop on tobacco regulation', href: '/entities/individuals/c-everett-koop' },
+      { name: 'Geoffrey Bible', relationship: 'Philip Morris CEO whom Waxman grilled in Congress', href: '/entities/individuals/geoffrey-bible' }
+    ],
+
   },
   'herbert-diess': {
     name: 'Herbert Diess',
@@ -46410,6 +48718,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Matthias Mueller', relationship: 'Predecessor as VW CEO', href: '/entities/individuals/matthias-mueller' },
+      { name: 'Oliver Schmidt', relationship: 'VW executive imprisoned for emissions fraud during Diess era', href: '/entities/individuals/oliver-schmidt' },
+      { name: 'Daniel Carder', relationship: 'WVU researcher who discovered VW cheat device', href: '/entities/individuals/daniel-carder' }
+    ],
+
   },
   'herbert-needleman': {
     name: 'Herbert Needleman',
@@ -46426,6 +48740,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Clair Patterson', relationship: 'Fellow scientist who fought lead industry', href: '/entities/individuals/clair-patterson' },
+      { name: 'Robert Kehoe', relationship: 'Lead industry scientist who opposed Needleman\'s research', href: '/entities/individuals/robert-kehoe' },
+      { name: 'Alice Hamilton', relationship: 'Pioneer industrial toxicologist whose work Needleman continued', href: '/entities/individuals/alice-hamilton' }
+    ],
+
   },
   'herman-wallace': {
     name: 'Herman Wallace',
@@ -46442,6 +48762,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Albert Woodfox', relationship: 'Fellow Angola Three member held in solitary for decades', href: '/entities/individuals/albert-woodfox' },
+      { name: 'Robert King', relationship: 'Fellow Angola Three member', href: '/entities/individuals/robert-king' },
+      { name: 'Burl Cain', relationship: 'Angola Prison warden who kept Wallace in solitary', href: '/entities/individuals/burl-cain' }
+    ],
+
   },
   'hiram-price': {
     name: 'Hiram Price',
@@ -46458,6 +48784,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Henry Dawes', relationship: 'Fellow architect of Native American allotment policy', href: '/entities/individuals/henry-dawes' },
+      { name: 'Richard Henry Pratt', relationship: 'Boarding school creator during Price\'s BIA tenure', href: '/entities/individuals/richard-henry-pratt' }
+    ],
+
   },
   'hoan-ton-that': {
     name: 'Hoan Ton-That',
@@ -46474,6 +48805,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Facial Recognition Surveillance', slug: 'facial-recognition-surveillance', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Joy Buolamwini', relationship: 'AI researcher who criticizes facial recognition Clearview AI built', href: '/entities/individuals/joy-buolamwini' },
+      { name: 'Clare Garvie', relationship: 'Surveillance researcher who documented Clearview\'s reach', href: '/entities/individuals/clare-garvie' }
+    ],
+
   },
   'homer-hoyt': {
     name: 'Homer Hoyt',
@@ -46490,6 +48826,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Frederick Babcock', relationship: 'Fellow architect of racist real estate appraisal', href: '/entities/individuals/frederick-babcock' },
+      { name: 'Robert Moses', relationship: 'Contemporary urban planner who enforced housing segregation', href: '/entities/individuals/robert-moses' }
+    ],
+
   },
   'hope-macallister': {
     name: 'Hope MacAllister',
@@ -46506,6 +48847,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Dave Archambault II', relationship: 'Standing Rock leader during DAPL fight MacAllister supported', href: '/entities/individuals/dave-archambault-ii' }
+    ],
+
   },
   'howard-jones': {
     name: 'Howard Jones',
@@ -46522,6 +48867,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Indonesia Mass Killings', slug: 'indonesia-mass-killings', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Daniel Ellsberg', relationship: 'Fellow figure who documented government deception about warfare', href: '/entities/individuals/daniel-ellsberg' }
+    ],
+
   },
   'howard-udell': {
     name: 'Howard Udell',
@@ -46538,6 +48887,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Purdue Pharma Oxycontin', slug: 'purdue-pharma-oxycontin', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Michael Friedman', relationship: 'Fellow Purdue Pharma executive who pled guilty to misbranding OxyContin', href: '/entities/individuals/michael-friedman' },
+      { name: 'Paul Goldenheim', relationship: 'Fellow Purdue exec who pled guilty alongside Udell', href: '/entities/individuals/paul-goldenheim' },
+      { name: 'Richard Sackler', relationship: 'Sackler family head who directed OxyContin marketing Udell helped execute', href: '/entities/individuals/richard-sackler' }
+    ],
+
   },
   'hudson-austin': {
     name: 'Hudson Austin',
@@ -46554,6 +48909,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Grenada Invasion', slug: 'grenada-invasion', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bernard Coard', relationship: 'Coup partner in Grenada who overthrew Maurice Bishop', href: '/entities/individuals/bernard-coard' },
+      { name: 'Maurice Bishop', relationship: 'Grenadian leader overthrown and killed by Austin', href: '/entities/individuals/maurice-bishop' }
+    ],
+
   },
   'hugh-thompson-jr': {
     name: 'Hugh Thompson Jr.',
@@ -46570,6 +48930,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'William Calley', relationship: 'Officer whose My Lai massacre Thompson tried to stop', href: '/entities/individuals/william-calley' },
+      { name: 'Seymour Hersh', relationship: 'Journalist who exposed My Lai massacre Thompson witnessed', href: '/entities/individuals/seymour-hersh' }
+    ],
+
   },
   'hughes-van-ellis': {
     name: 'Hughes Van Ellis',
@@ -46586,6 +48951,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Tulsa Race Massacre', slug: 'tulsa-race-massacre', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Viola Fletcher', relationship: 'Fellow elderly Tulsa Race Massacre survivor seeking reparations', href: '/entities/individuals/viola-fletcher' },
+      { name: 'Lessie Randle', relationship: 'Fellow Tulsa Massacre survivor and descendant', href: '/entities/individuals/lessie-randle' }
+    ],
+
   },
   'hugo-banzer': {
     name: 'Hugo Banzer',
@@ -46603,6 +48973,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Henry Kissinger', relationship: 'Kissinger supported Banzer\'s coup as part of Operation Condor', href: '/entities/individuals/henry-kissinger' }
+    ],
+
   },
   'ian-gibbons': {
     name: 'Ian Gibbons',
@@ -46619,6 +48993,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Theranos Fraud', slug: 'theranos-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Elizabeth Holmes', relationship: 'Theranos scientist who died before testifying against Holmes', href: '/entities/individuals/elizabeth-holmes' },
+      { name: 'Tyler Shultz', relationship: 'Fellow Theranos whistleblower', href: '/entities/individuals/tyler-shultz' }
+    ],
+
   },
   'ida-b-wells': {
     name: 'Ida B. Wells',
@@ -46637,6 +49016,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Frederick Douglass', relationship: 'Fellow civil rights pioneer and anti-lynching ally', href: '/entities/individuals/frederick-douglass' },
+      { name: 'Mamie Till-Mobley', relationship: 'Wells\' anti-lynching crusade continued by Till case', href: '/entities/individuals/mamie-till-mobley' }
+    ],
+
   },
   'irving-picard': {
     name: 'Irving Picard',
@@ -46653,6 +49037,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Bernie Madoff Ponzi', slug: 'bernie-madoff-ponzi', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bernie Madoff', relationship: 'Court-appointed trustee recovering billions for Madoff victims', href: '/entities/individuals/bernie-madoff' },
+      { name: 'Jeffry Picower', relationship: 'Largest Madoff beneficiary from whom Picard recovered $7.2B', href: '/entities/individuals/jeffry-picower' },
+      { name: 'Frank DiPascali', relationship: 'Madoff co-conspirator whose cooperation aided recovery', href: '/entities/individuals/frank-dipascali' }
+    ],
+
   },
   'j-parnell-thomas': {
     name: 'J. Parnell Thomas',
@@ -46669,6 +49059,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Joseph McCarthy', relationship: 'Fellow Red Scare figure - HUAC chairman before McCarthy', href: '/entities/individuals/joseph-mccarthy' },
+      { name: 'Dalton Trumbo', relationship: 'Hollywood Ten writer Thomas cited for contempt', href: '/entities/individuals/dalton-trumbo' }
+    ],
+
   },
   'j-robert-oppenheimer': {
     name: 'J. Robert Oppenheimer',
@@ -46685,6 +49080,13 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Edward Teller', relationship: 'Colleague who testified against Oppenheimer at security hearing', href: '/entities/individuals/edward-teller' },
+      { name: 'Lewis Strauss', relationship: 'AEC chairman who orchestrated Oppenheimer\'s security clearance revocation', href: '/entities/individuals/lewis-strauss' },
+      { name: 'Harry Truman', relationship: 'President who ordered atomic bombs Oppenheimer built', href: '/entities/individuals/harry-truman' },
+      { name: 'Dwight D. Eisenhower', relationship: 'President who revoked Oppenheimer\'s clearance', href: '/entities/individuals/dwight-d-eisenhower' }
+    ],
+
   },
   'jack-remondi': {
     name: 'Jack Remondi',
@@ -46701,6 +49103,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Albert Lord', relationship: 'Predecessor as Sallie Mae/Navient leader', href: '/entities/individuals/albert-lord' },
+      { name: 'Betsy DeVos', relationship: 'Education Secretary who eased student loan regulations', href: '/entities/individuals/betsy-devos' }
+    ],
+
   },
   'jack-ruby': {
     name: 'Jack Ruby',
@@ -46738,6 +49145,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Elmo Zumwalt', relationship: 'Agent Orange case judge - Zumwalt ordered the defoliant', href: '/entities/individuals/elmo-zumwalt' }
+    ],
+
   },
   'jacobo-arbenz': {
     name: 'Jacobo \u00C1rbenz',
@@ -46755,6 +49166,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Guatemala Genocide', slug: 'guatemala-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Carlos Castillo Armas', relationship: 'Military officer who overthrew Arbenz in CIA coup', href: '/entities/individuals/carlos-castillo-armas' },
+      { name: 'Allen Dulles', relationship: 'CIA Director who orchestrated coup against Arbenz', href: '/entities/individuals/allen-dulles' },
+      { name: 'Sam Zemurray', relationship: 'United Fruit Company head who lobbied for Arbenz overthrow', href: '/entities/individuals/sam-zemurray' }
+    ],
+
   },
   'jaime-zapata': {
     name: 'Jaime Zapata',
@@ -46771,6 +49188,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Brian Terry', relationship: 'Fellow US federal agent killed in Mexico border violence', href: '/entities/individuals/brian-terry' },
+      { name: 'Eric Holder', relationship: 'AG during Fast and Furious operation linked to agents\' deaths', href: '/entities/individuals/eric-holder' }
+    ],
+
   },
   'james-angleton': {
     name: 'James Jesus Angleton',
@@ -46788,6 +49210,13 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Lee Harvey Oswald', relationship: 'CIA counterintelligence chief whose files on Oswald remain controversial', href: '/entities/individuals/lee-harvey-oswald' },
+      { name: 'Edward Lansdale', relationship: 'Fellow CIA officer in covert operations', href: '/entities/individuals/edward-lansdale' },
+      { name: 'David Atlee Phillips', relationship: 'CIA officer in Angleton\'s anti-Castro network', href: '/entities/individuals/david-atlee-phillips' },
+      { name: 'George de Mohrenschildt', relationship: 'CIA-connected figure who knew Oswald and reported to Angleton', href: '/entities/individuals/george-de-mohrenschildt' }
+    ],
+
   },
   'james-baker': {
     name: 'James Baker III',
@@ -46804,6 +49233,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Bush V Gore', slug: 'bush-v-gore', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'George H.W. Bush', relationship: 'Secretary of State and chief political strategist for Bush', href: '/entities/individuals/george-hw-bush' },
+      { name: 'Ronald Reagan', relationship: 'White House Chief of Staff under Reagan', href: '/entities/individuals/ronald-reagan' }
+    ],
+
   },
   'james-black': {
     name: 'James Black',
@@ -46820,6 +49254,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Lee Raymond', relationship: 'Exxon CEO during era Black\'s climate research was suppressed', href: '/entities/individuals/lee-raymond' },
+      { name: 'Naomi Oreskes', relationship: 'Historian who documented suppression of research Black conducted', href: '/entities/individuals/naomi-oreskes' }
+    ],
+
   },
   'james-bopp': {
     name: 'James Bopp Jr.',
@@ -46836,6 +49275,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Citizens United', slug: 'citizens-united', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'David Keene', relationship: 'Fellow conservative legal-political figure', href: '/entities/individuals/david-keene' },
+      { name: 'Chris Jankowski', relationship: 'Fellow Republican redistricting strategist', href: '/entities/individuals/chris-jankowski' }
+    ],
+
   },
   'james-bosbous': {
     name: 'James Bosbous',
@@ -46852,6 +49296,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Beasley', relationship: 'CCA private prison colleague', href: '/entities/individuals/thomas-beasley' }
+    ],
+
   },
   'james-craig': {
     name: 'James Craig',
@@ -46868,6 +49316,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Facial Recognition Surveillance', slug: 'facial-recognition-surveillance', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Phillip Brailsford', relationship: 'Fellow police figure in controversial policing', href: '/entities/individuals/philip-brailsford' }
+    ],
+
   },
   'james-davis-cpd': {
     name: 'James Davis',
@@ -46884,6 +49336,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Fred Hampton Assassination', slug: 'fred-hampton-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Edward Hanrahan', relationship: 'Fellow Chicago law enforcement figure', href: '/entities/individuals/edward-hanrahan' }
+    ],
+
   },
   'james-forsyth': {
     name: 'James Forsyth',
@@ -46900,6 +49356,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'George Armstrong Custer', relationship: 'Fellow 7th Cavalry commander at Wounded Knee massacre', href: '/entities/individuals/george-armstrong-custer' },
+      { name: 'Philip Sheridan', relationship: 'Commanding general during Indian Wars', href: '/entities/individuals/philip-sheridan' }
+    ],
+
   },
   'james-knox-polk': {
     name: 'James Knox Polk',
@@ -46916,6 +49377,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Winfield Scott', relationship: 'General who led Mexico invasion under Polk', href: '/entities/individuals/winfield-scott' },
+      { name: 'Martin Van Buren', relationship: 'Predecessor whose expansionist policies Polk continued', href: '/entities/individuals/martin-van-buren' }
+    ],
+
   },
   'james-liang': {
     name: 'James Liang',
@@ -46932,6 +49398,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Oliver Schmidt', relationship: 'Fellow VW engineer convicted in emissions fraud', href: '/entities/individuals/oliver-schmidt' },
+      { name: 'Matthias Mueller', relationship: 'VW CEO during scandal era', href: '/entities/individuals/matthias-mueller' }
+    ],
+
   },
   'james-loewen': {
     name: 'James Loewen',
@@ -46948,6 +49419,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Elliot Jaspin', relationship: 'Fellow researcher documenting racial expulsions', href: '/entities/individuals/elliot-jaspin' },
+      { name: 'Richard Rothstein', relationship: 'Fellow housing segregation historian', href: '/entities/individuals/richard-rothstein' }
+    ],
+
   },
   'james-risen': {
     name: 'James Risen',
@@ -46964,6 +49440,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Whistleblower Persecution', slug: 'whistleblower-persecution', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jeffrey Sterling', relationship: 'CIA officer Risen protected as source, Sterling was prosecuted', href: '/entities/individuals/jeffrey-sterling' },
+      { name: 'Edward Snowden', relationship: 'Fellow national security whistleblowing figure', href: '/entities/individuals/edward-snowden' },
+      { name: 'James Bamford', relationship: 'Fellow national security journalist', href: '/entities/individuals/james-bamford' }
+    ],
+
   },
   'james-w-english': {
     name: 'James W. English',
@@ -46980,6 +49462,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Convict Leasing', slug: 'convict-leasing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bull Connor', relationship: 'Fellow Birmingham era segregationist figure', href: '/entities/individuals/bull-connor' }
+    ],
+
   },
   'jan-brewer': {
     name: 'Jan Brewer',
@@ -46996,6 +49482,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Alec Model Legislation', slug: 'alec-model-legislation', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Russell Pearce', relationship: 'Arizona legislator behind SB1070 that Brewer signed', href: '/entities/individuals/russell-pearce' },
+      { name: 'Joe Arpaio', relationship: 'Maricopa County sheriff who enforced immigration under Brewer', href: '/entities/individuals/joe-arpaio' }
+    ],
+
   },
   'jan-hasselman': {
     name: 'Jan Hasselman',
@@ -47012,6 +49503,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Chase Iron Eyes', relationship: 'Standing Rock legal ally', href: '/entities/individuals/chase-iron-eyes' },
+      { name: 'Dave Archambault II', relationship: 'Standing Rock Sioux chairman Hasselman represented', href: '/entities/individuals/dave-archambault-ii' }
+    ],
+
   },
   'janet-reno': {
     name: 'Janet Reno',
@@ -47048,6 +49544,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Abu Ghraib', slug: 'abu-ghraib', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Geoffrey Miller', relationship: 'Gitmo commander who brought harsh techniques to Abu Ghraib under Karpinski', href: '/entities/individuals/geoffrey-miller' },
+      { name: 'Ricardo Sanchez', relationship: 'Commanding general whom Karpinski blamed for Abu Ghraib abuses', href: '/entities/individuals/ricardo-sanchez' },
+      { name: 'Lynndie England', relationship: 'Soldier under Karpinski\'s command convicted at Abu Ghraib', href: '/entities/individuals/lynndie-england' }
+    ],
+
   },
   'jason-forge': {
     name: 'Jason Forge',
@@ -47064,6 +49566,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Trump University', slug: 'trump-university', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Allen Stanford', relationship: 'Prosecutor who convicted Stanford of Ponzi scheme', href: '/entities/individuals/allen-stanford' }
+    ],
+
   },
   'jay-carney': {
     name: 'Jay Carney',
@@ -47080,6 +49586,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Amazon Labor Abuses', slug: 'amazon-labor-abuses', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Barack Obama', relationship: 'White House Press Secretary under Obama', href: '/entities/individuals/barack-obama' },
+      { name: 'Jeff Bezos', relationship: 'Became Amazon head of communications after White House', href: '/entities/individuals/jeff-bezos' }
+    ],
+
   },
   'jay-dickey': {
     name: 'Jay Dickey',
@@ -47096,6 +49607,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Gun Violence Inaction', slug: 'gun-violence-inaction', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Fred Guttenberg', relationship: 'Dickey Amendment blocked gun research that families like Guttenberg\'s later fought to reverse', href: '/entities/individuals/fred-guttenberg' }
+    ],
+
   },
   'jba-robertson': {
     name: 'J.B.A. Robertson',
@@ -47112,6 +49627,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Tulsa Race Massacre', slug: 'tulsa-race-massacre', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'AJ Smitherman', relationship: 'Governor during Tulsa Race Massacre', href: '/entities/individuals/aj-smitherman' },
+      { name: 'Dick Rowland', relationship: 'Failed to protect Rowland or Black Tulsa from massacre', href: '/entities/individuals/dick-rowland' }
+    ],
+
   },
   'jc-robert': {
     name: 'J.C. Robert',
@@ -47128,6 +49648,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'Fellow public health official during unethical research era', href: '/entities/individuals/thomas-parran' }
+    ],
+
   },
   'jean-bertrand-aristide': {
     name: 'Jean-Bertrand Aristide',
@@ -47144,6 +49668,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Haiti Exploitation', slug: 'haiti-exploitation', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Michel Martelly', relationship: 'Later Haitian president from opposing political faction', href: '/entities/individuals/michel-martelly' },
+      { name: 'Francois Duvalier', relationship: 'Aristide rose against Duvalier family dictatorship', href: '/entities/individuals/francois-duvalier' },
+      { name: 'Gilbert Bigio', relationship: 'Haitian oligarch who opposed Aristide\'s populism', href: '/entities/individuals/gilbert-bigio' }
+    ],
+
   },
   'jeane-kirkpatrick': {
     name: 'Jeane Kirkpatrick',
@@ -47161,6 +49691,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Us Support For Apartheid', slug: 'us-support-for-apartheid', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Elliott Abrams', relationship: 'Fellow Reagan-era Central America hawk', href: '/entities/individuals/elliott-abrams' },
+      { name: 'Ronald Reagan', relationship: 'UN Ambassador under Reagan', href: '/entities/individuals/ronald-reagan' }
+    ],
+
   },
   'jeff-brantingham': {
     name: 'Jeff Brantingham',
@@ -47177,6 +49712,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Predictive Policing', slug: 'predictive-policing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Hamid Khan', relationship: 'Activist who led campaigns against Brantingham\'s PredPol system', href: '/entities/individuals/hamid-khan' },
+      { name: 'Kristian Lum', relationship: 'Researcher who demonstrated Brantingham\'s algorithm perpetuated bias', href: '/entities/individuals/kristian-lum' }
+    ],
+
   },
   'jeff-jamar': {
     name: 'Jeff Jamar',
@@ -47193,6 +49733,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Waco Siege', slug: 'waco-siege', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'David Koresh', relationship: 'FBI on-scene commander during Waco siege', href: '/entities/individuals/david-koresh' },
+      { name: 'Byron Sage', relationship: 'FBI negotiator at Waco under Jamar\'s command', href: '/entities/individuals/byron-sage' },
+      { name: 'Larry Potts', relationship: 'FBI HQ supervisor during Waco', href: '/entities/individuals/larry-potts' }
+    ],
+
   },
   'jeffrey-amherst': {
     name: 'Lord Jeffrey Amherst',
@@ -47209,6 +49755,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Henry Knox', relationship: 'Secretary of War who continued policies toward Native Americans', href: '/entities/individuals/henry-knox' }
+    ],
+
   },
   'jeffrey-sterling': {
     name: 'Jeffrey Sterling',
@@ -47225,6 +49775,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Whistleblower Persecution', slug: 'whistleblower-persecution', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'James Risen', relationship: 'Journalist Sterling leaked to about CIA\'s Operation Merlin', href: '/entities/individuals/james-risen' },
+      { name: 'John Kiriakou', relationship: 'Fellow CIA whistleblower prosecuted for leaks', href: '/entities/individuals/john-kiriakou' }
+    ],
+
   },
   'jeffry-picower': {
     name: 'Jeffry Picower',
@@ -47241,6 +49796,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Bernie Madoff Ponzi', slug: 'bernie-madoff-ponzi', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bernie Madoff', relationship: 'Largest Madoff investment fund beneficiary - withdrew $7.2B', href: '/entities/individuals/bernie-madoff' },
+      { name: 'Irving Picard', relationship: 'Trustee who recovered $7.2B from Picower estate', href: '/entities/individuals/irving-picard' }
+    ],
+
   },
   'jennifer-abruzzo': {
     name: 'Jennifer Abruzzo',
@@ -47258,6 +49818,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Union Busting', slug: 'union-busting', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Chris Smalls', relationship: 'NLRB General Counsel during Amazon unionization drive', href: '/entities/individuals/chris-smalls' },
+      { name: 'Stuart Appelbaum', relationship: 'Union leader aligned with Abruzzo\'s pro-labor agenda', href: '/entities/individuals/stuart-appelbaum' }
+    ],
+
   },
   'jennifer-bates': {
     name: 'Jennifer Bates',
@@ -47274,6 +49839,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Amazon Labor Abuses', slug: 'amazon-labor-abuses', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Chris Smalls', relationship: 'Fellow Amazon worker labor organizer', href: '/entities/individuals/chris-smalls' },
+      { name: 'Derrick Palmer', relationship: 'Fellow Amazon Labor Union organizer', href: '/entities/individuals/derrick-palmer' },
+      { name: 'Jeff Bezos', relationship: 'Amazon founder whose warehouses Bates organized', href: '/entities/individuals/jeff-bezos' }
+    ],
+
   },
   'jerry-del-missier': {
     name: 'Jerry del Missier',
@@ -47290,6 +49861,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bob Diamond', relationship: 'Barclays colleague during LIBOR scandal', href: '/entities/individuals/bob-diamond' },
+      { name: 'Tom Hayes', relationship: 'Fellow LIBOR manipulation figure', href: '/entities/individuals/tom-hayes' }
+    ],
+
   },
   'jerry-ensminger': {
     name: 'Jerry Ensminger',
@@ -47306,6 +49882,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Water Contamination Nationwide', slug: 'water-contamination-nationwide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bobby Muller', relationship: 'Fellow veterans\' advocate fighting toxic exposure', href: '/entities/individuals/bobby-muller' },
+      { name: 'Claudia Peterson', relationship: 'Fellow Camp Lejeune contamination activist', href: '/entities/individuals/claudia-peterson' }
+    ],
+
   },
   'jerry-falwell': {
     name: 'Jerry Falwell',
@@ -47322,6 +49903,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Us Support For Apartheid', slug: 'us-support-for-apartheid', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Franklin Graham', relationship: 'Fellow evangelical leader and Republican ally', href: '/entities/individuals/franklin-graham' },
+      { name: 'Robert Jeffress', relationship: 'Fellow evangelical political figure', href: '/entities/individuals/robert-jeffress' },
+      { name: 'Donald Trump', relationship: 'Falwell\'s son endorsed Trump; senior Falwell built evangelical-GOP alliance', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'jesse-daniel-ames': {
     name: 'Jesse Daniel Ames',
@@ -47338,6 +49925,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ida B. Wells', relationship: 'Fellow anti-lynching crusader', href: '/entities/individuals/ida-b-wells' }
+    ],
+
   },
   'jesse-gagliano': {
     name: 'Jesse Gagliano',
@@ -47354,6 +49945,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Donald Vidrine', relationship: 'Fellow BP Deepwater Horizon figure who raised cement concerns', href: '/entities/individuals/donald-vidrine' },
+      { name: 'Tony Hayward', relationship: 'BP CEO during Deepwater Horizon disaster', href: '/entities/individuals/tony-hayward' }
+    ],
+
   },
   'jesse-jackson': {
     name: 'Jesse Jackson',
@@ -47370,6 +49966,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mlk Assassination', slug: 'mlk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Martin Luther King Jr', relationship: 'Was with MLK when assassinated; continued civil rights leadership', href: '/entities/individuals/martin-luther-king-jr' },
+      { name: 'Ralph Abernathy', relationship: 'Fellow SCLC leader and MLK associate', href: '/entities/individuals/ralph-abernathy' },
+      { name: 'Louis Farrakhan', relationship: 'Complicated relationship as parallel Black leaders', href: '/entities/individuals/louis-farrakhan' }
+    ],
+
   },
   'jesse-jones': {
     name: 'Jesse Jones',
@@ -47386,6 +49988,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Homer Hoyt', relationship: 'Fellow figure in New Deal era housing policy', href: '/entities/individuals/homer-hoyt' }
+    ],
+
   },
   'jesse-washington': {
     name: 'Jesse Washington',
@@ -47402,6 +50008,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ida B. Wells', relationship: 'Wells\' anti-lynching work documented cases like Washington\'s', href: '/entities/individuals/ida-b-wells' }
+    ],
+
   },
   'jim-garrison': {
     name: 'Jim Garrison',
@@ -47418,6 +50028,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Jfk Assassination', slug: 'jfk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Clay Shaw', relationship: 'Prosecuted Shaw for JFK assassination conspiracy', href: '/entities/individuals/clay-shaw' },
+      { name: 'Lee Harvey Oswald', relationship: 'Investigated Oswald\'s New Orleans connections', href: '/entities/individuals/lee-harvey-oswald' },
+      { name: 'Mark Lane', relationship: 'JFK conspiracy researcher who supported Garrison\'s theory', href: '/entities/individuals/mark-lane' }
+    ],
+
   },
   'jim-watkins': {
     name: 'Jim Watkins',
@@ -47434,6 +50050,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Qanon Radicalization', slug: 'qanon-radicalization', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ron Watkins', relationship: 'Son who ran 8chan/8kun, suspected of being Q', href: '/entities/individuals/ron-watkins' }
+    ],
+
   },
   'jimmy-carter': {
     name: 'Jimmy Carter',
@@ -47450,6 +50070,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'October Surprise 1980', slug: 'october-surprise-1980', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ronald Reagan', relationship: 'Lost presidency to Reagan amid Iran hostage crisis', href: '/entities/individuals/ronald-reagan' },
+      { name: 'Cyrus Hashemi', relationship: 'Iran crisis figure whose October Surprise dealings may have cost Carter election', href: '/entities/individuals/cyrus-hashemi' }
+    ],
+
   },
   'jimmy-harrell': {
     name: 'Jimmy Harrell',
@@ -47466,6 +50091,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Donald Vidrine', relationship: 'Fellow rig supervisor during Deepwater Horizon explosion', href: '/entities/individuals/donald-vidrine' },
+      { name: 'Mike Williams', relationship: 'Transocean electronics technician who was on rig during explosion', href: '/entities/individuals/mike-williams' }
+    ],
+
   },
   'joe-kelso': {
     name: 'Joe Kelso',
@@ -47482,6 +50112,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Cia Drug Trafficking', slug: 'cia-drug-trafficking', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Robert Houghton', relationship: 'LAPD detective in RFK assassination investigation', href: '/entities/individuals/robert-houghton' }
+    ],
+
   },
   'john-africa': {
     name: 'John Africa (Vincent Leaphart)',
@@ -47498,6 +50132,13 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ramona Africa', relationship: 'MOVE member who survived 1985 Philadelphia bombing', href: '/entities/individuals/ramona-africa' },
+      { name: 'Wilson Goode', relationship: 'Philadelphia mayor who ordered MOVE compound bombing', href: '/entities/individuals/wilson-goode' },
+      { name: 'Birdie Africa', relationship: 'Child survivor of MOVE bombing', href: '/entities/individuals/birdie-africa' },
+      { name: 'Frank Powell', relationship: 'Officer who dropped the bomb on MOVE', href: '/entities/individuals/frank-powell' }
+    ],
+
   },
   'john-anjain': {
     name: 'John Anjain',
@@ -47514,6 +50155,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Darlene Keju', relationship: 'Fellow Marshall Islands nuclear testing survivor', href: '/entities/individuals/darlene-keju' },
+      { name: 'Lewis Strauss', relationship: 'AEC chairman who authorized Pacific nuclear tests', href: '/entities/individuals/lewis-strauss' }
+    ],
+
   },
   'john-carreyrou': {
     name: 'John Carreyrou',
@@ -47530,6 +50176,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Theranos Fraud', slug: 'theranos-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Elizabeth Holmes', relationship: 'Wall Street Journal reporter who exposed Theranos fraud', href: '/entities/individuals/elizabeth-holmes' },
+      { name: 'Tyler Shultz', relationship: 'Key Theranos whistleblower source for Carreyrou', href: '/entities/individuals/tyler-shultz' },
+      { name: 'Erika Cheung', relationship: 'Theranos whistleblower who came to Carreyrou', href: '/entities/individuals/erika-cheung' }
+    ],
+
   },
   'john-charles-cutler': {
     name: 'Dr. John Charles Cutler',
@@ -47546,6 +50198,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'Surgeon General who oversaw PHS when Cutler ran Guatemala experiments', href: '/entities/individuals/thomas-parran' },
+      { name: 'Eunice Rivers', relationship: 'Fellow PHS figure connected to unethical medical research', href: '/entities/individuals/eunice-rivers' },
+      { name: 'Susan Reverby', relationship: 'Historian who discovered Cutler\'s Guatemala experiments', href: '/entities/individuals/susan-reverby' }
+    ],
+
   },
   'john-chivington': {
     name: 'John Chivington',
@@ -47562,6 +50220,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'George Armstrong Custer', relationship: 'Fellow US military officer who massacred Native Americans', href: '/entities/individuals/george-armstrong-custer' },
+      { name: 'Kit Carson', relationship: 'Fellow perpetrator of violence against Indigenous peoples', href: '/entities/individuals/kit-carson' }
+    ],
+
   },
   'john-collier': {
     name: 'John Collier',
@@ -47578,6 +50241,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Dillon S. Myer', relationship: 'Successor as BIA Commissioner', href: '/entities/individuals/dillon-s-myer' },
+      { name: 'Henry Dawes', relationship: 'Dawes Act allotment policy Collier tried to reform', href: '/entities/individuals/henry-dawes' }
+    ],
+
   },
   'john-connally': {
     name: 'John Connally',
@@ -47594,6 +50262,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'October Surprise 1980', slug: 'october-surprise-1980', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Lee Harvey Oswald', relationship: 'Wounded in JFK assassination Oswald allegedly committed', href: '/entities/individuals/lee-harvey-oswald' },
+      { name: 'Abraham Zapruder', relationship: 'Filmed assassination motorcade showing Connally being shot', href: '/entities/individuals/abraham-zapruder' },
+      { name: 'Ben Barnes', relationship: 'Political protégé who claimed October Surprise involvement', href: '/entities/individuals/ben-barnes' }
+    ],
+
   },
   'john-danforth': {
     name: 'John Danforth',
@@ -47610,6 +50284,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Waco Siege', slug: 'waco-siege', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jeff Jamar', relationship: 'Led investigation into Waco siege aftermath', href: '/entities/individuals/jeff-jamar' }
+    ],
+
   },
   'john-dodson': {
     name: 'John Dodson',
@@ -47626,6 +50304,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Eric Holder', relationship: 'ATF whistleblower who exposed Fast and Furious under Holder\'s DOJ', href: '/entities/individuals/eric-holder' },
+      { name: 'Brian Terry', relationship: 'Agent killed with gun from operation Dodson exposed', href: '/entities/individuals/brian-terry' }
+    ],
+
   },
   'john-glenn': {
     name: 'John Glenn',
@@ -47642,6 +50325,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Savings And Loan Crisis', slug: 'savings-and-loan-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Alan Cranston', relationship: 'Fellow Keating Five senator', href: '/entities/individuals/alan-cranston' },
+      { name: 'Charles Keating', relationship: 'Keating scandal figure who lobbied Glenn', href: '/entities/individuals/charles-keating' }
+    ],
+
   },
   'john-gustafson': {
     name: 'Chief John Gustafson',
@@ -47658,6 +50346,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Tulsa Race Massacre', slug: 'tulsa-race-massacre', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Richard Henry Pratt', relationship: 'Carlisle boarding school era figure', href: '/entities/individuals/richard-henry-pratt' }
+    ],
+
   },
   'john-hannah': {
     name: 'John Hannah',
@@ -47674,6 +50366,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Laos Secret Bombing', slug: 'laos-secret-bombing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Dick Cheney', relationship: 'Cheney aide involved in intelligence manipulation', href: '/entities/individuals/dick-cheney' },
+      { name: 'Scooter Libby', relationship: 'Fellow Cheney aide in Plame affair', href: '/entities/individuals/scooter-libby' }
+    ],
+
   },
   'john-harvey-kellogg': {
     name: 'John Harvey Kellogg',
@@ -47690,6 +50387,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Harry Laughlin', relationship: 'Fellow eugenics movement figure', href: '/entities/individuals/harry-laughlin' },
+      { name: 'Charles Davenport', relationship: 'Eugenics colleague at Race Betterment conferences', href: '/entities/individuals/charles-davenport' }
+    ],
+
   },
   'john-hull': {
     name: 'John Hull',
@@ -47706,6 +50408,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Cia Drug Trafficking', slug: 'cia-drug-trafficking', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Oliver North', relationship: 'Iran-Contra operative who used Hull\'s Costa Rica ranch for operations', href: '/entities/individuals/oliver-north' },
+      { name: 'Richard Secord', relationship: 'Fellow Iran-Contra figure involved in supply network', href: '/entities/individuals/richard-secord' }
+    ],
+
   },
   'john-kerry': {
     name: 'John Kerry',
@@ -47744,6 +50451,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Whistleblower Persecution', slug: 'whistleblower-persecution', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jeffrey Sterling', relationship: 'Fellow CIA whistleblower who was prosecuted', href: '/entities/individuals/jeffrey-sterling' },
+      { name: 'Edward Snowden', relationship: 'Fellow intelligence community whistleblower', href: '/entities/individuals/edward-snowden' },
+      { name: 'Gina Haspel', relationship: 'CIA official involved in torture Kiriakou exposed', href: '/entities/individuals/gina-haspel' }
+    ],
+
   },
   'john-mahoney': {
     name: 'Dr. John Mahoney',
@@ -47760,6 +50473,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'PHS colleague during Tuskegee/Guatemala experiments', href: '/entities/individuals/thomas-parran' }
+    ],
+
   },
   'john-paul-stevens': {
     name: 'John Paul Stevens',
@@ -47776,6 +50493,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Citizens United', slug: 'citizens-united', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ruth Bader Ginsburg', relationship: 'Fellow Supreme Court liberal justice', href: '/entities/individuals/ruth-bader-ginsburg' }
+    ],
+
   },
   'john-paul-vann': {
     name: 'John Paul Vann',
@@ -47792,6 +50513,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Phoenix Program', slug: 'phoenix-program', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'William Westmoreland', relationship: 'Military superior in Vietnam whose optimism Vann challenged', href: '/entities/individuals/william-westmoreland' },
+      { name: 'Neil Sheehan', relationship: 'Journalist who wrote about Vann\'s Vietnam story', href: '/entities/individuals/neil-sheehan' },
+      { name: 'Daniel Ellsberg', relationship: 'Fellow Pentagon insider who knew truth about Vietnam', href: '/entities/individuals/daniel-ellsberg' }
+    ],
+
   },
   'john-ray-iii': {
     name: 'John Ray III',
@@ -47808,6 +50535,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ftx Crypto Fraud', slug: 'ftx-crypto-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Sam Bankman-Fried', relationship: 'CEO who replaced SBF to oversee FTX bankruptcy', href: '/entities/individuals/sam-bankman-fried' },
+      { name: 'Caroline Ellison', relationship: 'Alameda CEO during FTX collapse', href: '/entities/individuals/caroline-ellison' }
+    ],
+
   },
   'john-schoettler': {
     name: 'John Schoettler',
@@ -47824,6 +50556,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Amazon Labor Abuses', slug: 'amazon-labor-abuses', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jeff Bezos', relationship: 'Amazon executive under Bezos', href: '/entities/individuals/jeff-bezos' }
+    ],
+
   },
   'john-sperling': {
     name: 'John Sperling',
@@ -47840,6 +50576,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Albert Lord', relationship: 'Fellow for-profit education industry figure', href: '/entities/individuals/albert-lord' }
+    ],
+
   },
   'john-t-milner': {
     name: 'John T. Milner',
@@ -47856,6 +50596,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Convict Leasing', slug: 'convict-leasing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Robert Moses', relationship: 'Fellow urban planner who used infrastructure to enforce segregation', href: '/entities/individuals/robert-moses' }
+    ],
+
   },
   'jose-napoleon-duarte': {
     name: 'José Napoleón Duarte',
@@ -47872,6 +50616,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Roberto DAubuisson', relationship: 'Political rival and death squad leader Duarte opposed', href: '/entities/individuals/roberto-daubuisson' },
+      { name: 'Elliott Abrams', relationship: 'Reagan official who managed US-El Salvador relationship', href: '/entities/individuals/elliott-abrams' }
+    ],
+
   },
   'jose-ramos-horta': {
     name: 'José Ramos-Horta',
@@ -47888,6 +50637,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'East Timor Genocide', slug: 'east-timor-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Xanana Gusmao', relationship: 'Fellow East Timorese independence leader', href: '/entities/individuals/xanana-gusmao' }
+    ],
+
   },
   'joseph-bankman': {
     name: 'Joseph Bankman',
@@ -47904,6 +50657,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ftx Crypto Fraud', slug: 'ftx-crypto-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Sam Bankman-Fried', relationship: 'Father of SBF who advised on FTX operations', href: '/entities/individuals/sam-bankman-fried' },
+      { name: 'Barbara Fried', relationship: 'Wife and co-parent who helped SBF politically', href: '/entities/individuals/barbara-fried' }
+    ],
+
   },
   'joseph-e-brown': {
     name: 'Joseph E. Brown',
@@ -47920,6 +50678,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Convict Leasing', slug: 'convict-leasing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Nathan Bedford Forrest', relationship: 'Civil War era Confederate connection', href: '/entities/individuals/nathan-bedford-forrest' }
+    ],
+
   },
   'joseph-kennedy-ii': {
     name: 'Joseph Kennedy II',
@@ -47936,6 +50698,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jimmy Carter', relationship: 'Fellow Democrat in Haiti/energy policy sphere', href: '/entities/individuals/jimmy-carter' }
+    ],
+
   },
   'joseph-mccarthy': {
     name: 'Joseph McCarthy',
@@ -47952,6 +50718,13 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Roy Cohn', relationship: 'Chief counsel to McCarthy\'s Senate investigations subcommittee', href: '/entities/individuals/roy-cohn' },
+      { name: 'Dalton Trumbo', relationship: 'Hollywood blacklist victim of McCarthyism', href: '/entities/individuals/dalton-trumbo' },
+      { name: 'Edward R. Murrow', relationship: 'CBS journalist who publicly challenged McCarthyism', href: '/entities/individuals/edward-r-murrow' },
+      { name: 'J. Parnell Thomas', relationship: 'HUAC predecessor to McCarthy\'s Red Scare crusade', href: '/entities/individuals/j-parnell-thomas' }
+    ],
+
   },
   'joseph-metcalf': {
     name: 'Admiral Joseph Metcalf III',
@@ -47968,6 +50741,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Grenada Invasion', slug: 'grenada-invasion', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Hudson Austin', relationship: 'Grenada coup leader whom Metcalf\'s invasion force fought', href: '/entities/individuals/hudson-austin' }
+    ],
+
   },
   'joseph-rivers': {
     name: 'Joseph Rivers',
@@ -47984,6 +50761,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Civil Asset Forfeiture', slug: 'civil-asset-forfeiture', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Mandrel Stuart', relationship: 'Fellow civil asset forfeiture victim', href: '/entities/individuals/mandrel-stuart' }
+    ],
+
   },
   'joseph-weekley': {
     name: 'Joseph Weekley',
@@ -48000,6 +50781,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Aiyana Stanley-Jones', relationship: 'Shot and killed 7-year-old Aiyana in botched raid', href: '/entities/individuals/aiyana-stanley-jones' }
+    ],
+
   },
   'joseph-welch': {
     name: 'Joseph Welch',
@@ -48016,6 +50801,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Joseph McCarthy', relationship: 'Army counsel who confronted McCarthy: "Have you no decency?"', href: '/entities/individuals/joseph-mccarthy' }
+    ],
+
   },
   'joshua-jaynes': {
     name: 'Joshua Jaynes',
@@ -48032,6 +50821,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Breonna Taylor', relationship: 'Detective who obtained false warrant leading to Taylor\'s death', href: '/entities/individuals/breonna-taylor' },
+      { name: 'Kenneth Walker', relationship: 'Taylor\'s boyfriend who fired back during botched raid', href: '/entities/individuals/kenneth-walker' }
+    ],
+
   },
   'juan-funes': {
     name: 'Dr. Juan Funes',
@@ -48048,6 +50842,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'John Charles Cutler', relationship: 'Worked with Cutler on Guatemala STD experiments', href: '/entities/individuals/john-charles-cutler' }
+    ],
+
   },
   'juan-mendez': {
     name: 'Juan M\u00E9ndez',
@@ -48064,6 +50862,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Romeo Dallaire', relationship: 'Fellow human rights and international justice figure', href: '/entities/individuals/romeo-dallaire' }
+    ],
+
   },
   'juana-majel-dixon': {
     name: 'Juana Majel-Dixon',
@@ -48080,6 +50882,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Missing Murdered Indigenous Women', slug: 'missing-murdered-indigenous-women', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Dave Archambault II', relationship: 'Fellow Native American rights leader', href: '/entities/individuals/dave-archambault-ii' }
+    ],
+
   },
   'judith-miller': {
     name: 'Judith Miller',
@@ -48096,6 +50902,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Iraq War Lies', slug: 'iraq-war-lies', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Scooter Libby', relationship: 'Miller went to jail protecting Libby as source in Plame affair', href: '/entities/individuals/scooter-libby' },
+      { name: 'Ahmad Chalabi', relationship: 'Iraqi exile source who fed Miller false WMD intelligence', href: '/entities/individuals/ahmad-chalabi' }
+    ],
+
   },
   'julia-tutwiler': {
     name: 'Julia Tutwiler',
@@ -48112,6 +50923,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Convict Leasing', slug: 'convict-leasing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Martin Tabert', relationship: 'Prison reformer connected to convict leasing abuses', href: '/entities/individuals/martin-tabert' }
+    ],
+
   },
   'julius-rosenberg': {
     name: 'Julius Rosenberg',
@@ -48128,6 +50943,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ethel Rosenberg', relationship: 'Wife and co-defendant executed for espionage', href: '/entities/individuals/ethel-rosenberg' },
+      { name: 'Joseph McCarthy', relationship: 'McCarthy era paranoia fueled the Rosenbergs\' prosecution', href: '/entities/individuals/joseph-mccarthy' }
+    ],
+
   },
   'jurgen-mossack': {
     name: 'Jürgen Mossack',
@@ -48144,6 +50964,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Panama Papers', slug: 'panama-papers', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ramon Fonseca', relationship: 'Co-founder of Mossack Fonseca law firm at center of Panama Papers', href: '/entities/individuals/ramon-fonseca' }
+    ],
+
   },
   'juvenal-habyarimana': {
     name: 'Juvénal Habyarimana',
@@ -48160,6 +50984,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Paul Kagame', relationship: 'RPF leader whose forces fought Habyarimana; assassination triggered genocide', href: '/entities/individuals/paul-kagame' },
+      { name: 'Theoneste Bagosora', relationship: 'Military leader who launched genocide after Habyarimana\'s death', href: '/entities/individuals/theoneste-bagosora' }
+    ],
+
   },
   'jw-milam': {
     name: 'J.W. Milam',
@@ -48176,6 +51005,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Roy Bryant', relationship: 'Half-brother and co-murderer of Emmett Till', href: '/entities/individuals/roy-bryant' },
+      { name: 'Mamie Till-Mobley', relationship: 'Emmett Till\'s mother who exposed Milam\'s crime to the world', href: '/entities/individuals/mamie-till-mobley' }
+    ],
+
   },
   'k-barton-osborn': {
     name: 'K. Barton Osborn',
@@ -48192,6 +51026,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Phoenix Program', slug: 'phoenix-program', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Nelson Brickham', relationship: 'Phoenix Program architect whose torture Osborn witnessed', href: '/entities/individuals/nelson-brickham' },
+      { name: 'William Colby', relationship: 'CIA director who oversaw Phoenix Program', href: '/entities/individuals/william-colby' }
+    ],
+
   },
   'kalief-browder': {
     name: 'Kalief Browder',
@@ -48209,6 +51048,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bryan Stevenson', relationship: 'Criminal justice reformer whose work highlighted cases like Browder\'s', href: '/entities/individuals/bryan-stevenson' }
+    ],
+
   },
   'karen-ignagni': {
     name: 'Karen Ignagni',
@@ -48225,6 +51068,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Medical Bankruptcy', slug: 'medical-bankruptcy', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Stephen Hemsley', relationship: 'Fellow health insurance industry leader', href: '/entities/individuals/stephen-hemsley' },
+      { name: 'Wendell Potter', relationship: 'Former insurance exec turned whistleblower against Ignagni\'s AHIP', href: '/entities/individuals/wendell-potter' }
+    ],
+
   },
   'karen-lynch': {
     name: 'Karen Lynch',
@@ -48241,6 +51089,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Health Insurance Deaths', slug: 'health-insurance-deaths', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Stephen Hemsley', relationship: 'Fellow healthcare industry leader at major insurer', href: '/entities/individuals/stephen-hemsley' }
+    ],
+
   },
   'karl-uecker': {
     name: 'Karl Uecker',
@@ -48257,6 +51109,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Rfk Assassination', slug: 'rfk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Sirhan Sirhan', relationship: 'Wrestled RFK\'s alleged shooter to the ground', href: '/entities/individuals/sirhan-sirhan' },
+      { name: 'Paul Schrade', relationship: 'Fellow RFK shooting witness and victim', href: '/entities/individuals/paul-schrade' }
+    ],
+
   },
   'katharine-graham': {
     name: 'Katharine Graham',
@@ -48273,6 +51130,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Pentagon Papers', slug: 'pentagon-papers', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bob Woodward', relationship: 'Washington Post publisher who backed Woodward on Watergate', href: '/entities/individuals/bob-woodward' },
+      { name: 'Daniel Ellsberg', relationship: 'Published Pentagon Papers Ellsberg leaked', href: '/entities/individuals/daniel-ellsberg' },
+      { name: 'Richard Nixon', relationship: 'Nixon tried to destroy Graham\'s Post over Watergate', href: '/entities/individuals/richard-nixon' }
+    ],
+
   },
   'kathryn-barger': {
     name: 'Kathryn Barger',
@@ -48289,6 +51152,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jeff Bezos', relationship: 'LA County supervisor overseeing Amazon labor issues', href: '/entities/individuals/jeff-bezos' }
+    ],
+
   },
   'katricia-africa': {
     name: 'Katricia Dotson Africa',
@@ -48305,6 +51172,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ramona Africa', relationship: 'Fellow MOVE member', href: '/entities/individuals/ramona-africa' },
+      { name: 'Wilson Goode', relationship: 'Philadelphia mayor who ordered bombing that killed MOVE members', href: '/entities/individuals/wilson-goode' }
+    ],
+
   },
   'keeanga-yamahtta-taylor': {
     name: 'Keeanga-Yamahtta Taylor',
@@ -48321,6 +51193,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Richard Rothstein', relationship: 'Fellow housing discrimination researcher', href: '/entities/individuals/richard-rothstein' }
+    ],
+
   },
   'kelcy-warren': {
     name: 'Kelcy Warren',
@@ -48337,6 +51213,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Dave Archambault II', relationship: 'Standing Rock Sioux chairman who fought Warren\'s DAPL', href: '/entities/individuals/dave-archambault-ii' },
+      { name: 'Chase Iron Eyes', relationship: 'Activist arrested protesting Warren\'s Dakota Access Pipeline', href: '/entities/individuals/chase-iron-eyes' }
+    ],
+
   },
   'ken-salazar': {
     name: 'Ken Salazar',
@@ -48353,6 +51234,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Tony Hayward', relationship: 'Interior Sec during Deepwater Horizon; oversaw BP response', href: '/entities/individuals/tony-hayward' },
+      { name: 'Thad Allen', relationship: 'National Incident Commander under Salazar during BP spill', href: '/entities/individuals/thad-allen' }
+    ],
+
   },
   'kenneth-fadeley': {
     name: 'Kenneth Fadeley',
@@ -48369,6 +51255,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Randy Weaver', relationship: 'ATF informant who bought illegal firearms from Weaver', href: '/entities/individuals/randy-weaver' }
+    ],
+
   },
   'kenneth-melson': {
     name: 'Kenneth Melson',
@@ -48385,6 +51275,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Eric Holder', relationship: 'ATF acting director under Holder during Fast and Furious', href: '/entities/individuals/eric-holder' },
+      { name: 'John Dodson', relationship: 'ATF agent who blew whistle on Melson\'s gun-walking operation', href: '/entities/individuals/john-dodson' }
+    ],
+
   },
   'kenneth-walker': {
     name: 'Kenneth Walker',
@@ -48401,6 +51296,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Breonna Taylor', relationship: 'Boyfriend who fired in self-defense during no-knock raid that killed Taylor', href: '/entities/individuals/breonna-taylor' },
+      { name: 'Joshua Jaynes', relationship: 'Detective who obtained warrant for raid on Walker and Taylor\'s apartment', href: '/entities/individuals/joshua-jaynes' }
+    ],
+
   },
   'kevin-harris': {
     name: 'Kevin Harris',
@@ -48417,6 +51317,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Randy Weaver', relationship: 'Friend at Ruby Ridge who was acquitted of charges', href: '/entities/individuals/randy-weaver' },
+      { name: 'William Degan', relationship: 'US Marshal killed in Ruby Ridge shootout', href: '/entities/individuals/william-degan' }
+    ],
+
   },
   'kevin-mcaleenan': {
     name: 'Kevin McAleenan',
@@ -48433,6 +51338,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ice Detention Abuses', slug: 'ice-detention-abuses', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Kirstjen Nielsen', relationship: 'Succeeded Nielsen as acting DHS Secretary', href: '/entities/individuals/kirstjen-nielsen' }
+    ],
+
   },
   'khalid-taha': {
     name: 'Khalid Taha',
@@ -48449,6 +51358,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jamal Khashoggi', relationship: 'Saudi journalist\'s case connected to broader Saudi repression', href: '/entities/individuals/jamal-khashoggi' }
+    ],
+
   },
   'khalifa-haftar': {
     name: 'Khalifa Haftar',
@@ -48465,6 +51378,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Libya Intervention', slug: 'libya-intervention', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Muammar Gaddafi', relationship: 'Former Gaddafi general who later fought for control of Libya', href: '/entities/individuals/muammar-gaddafi' }
+    ],
+
   },
   'khalil-islam': {
     name: 'Khalil Islam (Thomas 15X Johnson)',
@@ -48481,6 +51398,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Muhammad Abdul Aziz', relationship: 'Fellow wrongfully convicted man in Malcolm X assassination', href: '/entities/individuals/muhammad-abdul-aziz' },
+      { name: 'Malcolm X', relationship: 'Wrongfully convicted of Malcolm X\'s assassination for decades', href: '/entities/individuals/malcolm-x' }
+    ],
+
   },
   'kirk-bloodsworth': {
     name: 'Kirk Bloodsworth',
@@ -48497,6 +51419,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Peter Neufeld', relationship: 'Innocence Project co-founder who helped exonerate Bloodsworth', href: '/entities/individuals/peter-neufeld' },
+      { name: 'Bryan Stevenson', relationship: 'Fellow wrongful conviction/death penalty reform figure', href: '/entities/individuals/bryan-stevenson' }
+    ],
+
   },
   'kit-carson': {
     name: 'Kit Carson',
@@ -48513,6 +51440,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'John Chivington', relationship: 'Fellow perpetrator of violence against Native Americans', href: '/entities/individuals/john-chivington' },
+      { name: 'James Knox Polk', relationship: 'President during era of Carson\'s southwestern campaigns', href: '/entities/individuals/james-knox-polk' }
+    ],
+
   },
   'kofi-annan': {
     name: 'Kofi Annan',
@@ -48529,6 +51461,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Romeo Dallaire', relationship: 'UN commander in Rwanda who begged Annan for reinforcements', href: '/entities/individuals/romeo-dallaire' },
+      { name: 'Boutros Boutros-Ghali', relationship: 'Predecessor as UN Secretary-General', href: '/entities/individuals/boutros-boutros-ghali' }
+    ],
+
   },
   'kristian-lum': {
     name: 'Kristian Lum',
@@ -48545,6 +51482,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Predictive Policing', slug: 'predictive-policing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jeff Brantingham', relationship: 'PredPol creator whose algorithm Lum proved perpetuated bias', href: '/entities/individuals/jeff-brantingham' },
+      { name: 'Joy Buolamwini', relationship: 'Fellow algorithmic accountability researcher', href: '/entities/individuals/joy-buolamwini' }
+    ],
+
   },
   'kurt-blome': {
     name: 'Kurt Blome',
@@ -48561,6 +51503,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Paperclip', slug: 'operation-paperclip', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Wernher von Braun', relationship: 'Fellow Nazi scientist brought to US via Operation Paperclip', href: '/entities/individuals/wernher-von-braun' },
+      { name: 'Hubertus Strughold', relationship: 'Fellow Paperclip Nazi scientist', href: '/entities/individuals/hubertus-strughold' }
+    ],
+
   },
   'kurt-mix': {
     name: 'Kurt Mix',
@@ -48577,6 +51524,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Tony Hayward', relationship: 'BP engineer charged with destroying evidence during Deepwater Horizon', href: '/entities/individuals/tony-hayward' },
+      { name: 'Robert Kaluza', relationship: 'Fellow BP employee charged in Deepwater Horizon disaster', href: '/entities/individuals/robert-kaluza' }
+    ],
+
   },
   'kyle-kirchmeier': {
     name: 'Morton County Sheriff (Kyle Kirchmeier)',
@@ -48593,6 +51545,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Police Militarization', slug: 'police-militarization', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Dave Archambault II', relationship: 'Morton County sheriff who opposed Standing Rock protesters', href: '/entities/individuals/dave-archambault-ii' },
+      { name: 'Chase Iron Eyes', relationship: 'Activist arrested by Kirchmeier\'s deputies at Standing Rock', href: '/entities/individuals/chase-iron-eyes' }
+    ],
+
   },
   'kyle-thompson': {
     name: 'Kyle Thompson',
@@ -48609,6 +51566,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Kelcy Warren', relationship: 'Connected to DAPL security operations', href: '/entities/individuals/kelcy-warren' }
+    ],
+
   },
   'l-paul-bremer': {
     name: 'L. Paul Bremer',
@@ -48625,6 +51586,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Iraq War Lies', slug: 'iraq-war-lies', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Donald Rumsfeld', relationship: 'Defense Secretary who oversaw Bremer\'s Coalition Authority in Iraq', href: '/entities/individuals/donald-rumsfeld' },
+      { name: 'George W. Bush', relationship: 'President who appointed Bremer to lead Iraq reconstruction', href: '/entities/individuals/george-w-bush' }
+    ],
+
   },
   'ladonna-brave-bull-allard': {
     name: 'LaDonna Brave Bull Allard',
@@ -48641,6 +51607,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Dave Archambault II', relationship: 'Fellow Standing Rock leader', href: '/entities/individuals/dave-archambault-ii' },
+      { name: 'Chase Iron Eyes', relationship: 'Fellow DAPL resistance leader', href: '/entities/individuals/chase-iron-eyes' },
+      { name: 'Kelcy Warren', relationship: 'Energy Transfer CEO whose pipeline Allard protested', href: '/entities/individuals/kelcy-warren' }
+    ],
+
   },
   'lanny-breuer': {
     name: 'Lanny Breuer',
@@ -48657,6 +51629,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Eric Holder', relationship: 'DOJ Criminal Division chief under Holder who declined to prosecute banks', href: '/entities/individuals/eric-holder' }
+    ],
+
   },
   'larry-potts': {
     name: 'Larry Potts',
@@ -48673,6 +51649,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jeff Jamar', relationship: 'FBI supervisor over Jamar during Waco siege', href: '/entities/individuals/jeff-jamar' },
+      { name: 'Lon Horiuchi', relationship: 'FBI sniper at Ruby Ridge under Potts\'s rules of engagement', href: '/entities/individuals/lon-horiuchi' }
+    ],
+
   },
   'laurence-teeter': {
     name: 'Laurence Teeter',
@@ -48689,6 +51670,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Rfk Assassination', slug: 'rfk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Sirhan Sirhan', relationship: 'Defense attorney who represented Sirhan for decades', href: '/entities/individuals/sirhan-sirhan' }
+    ],
+
   },
   'lee-atwater': {
     name: 'Lee Atwater',
@@ -48705,6 +51690,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'War On Black America', slug: 'war-on-black-america', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'George H.W. Bush', relationship: 'Campaign manager who used racial dog whistles for Bush', href: '/entities/individuals/george-hw-bush' },
+      { name: 'Karl Rove', relationship: 'Political protégé who learned from Atwater\'s tactics', href: '/entities/individuals/karl-rove' },
+      { name: 'Roger Ailes', relationship: 'Fellow GOP media strategist', href: '/entities/individuals/roger-ailes' }
+    ],
+
   },
   'lee-hamilton': {
     name: 'Lee Hamilton',
@@ -48721,6 +51712,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'October Surprise 1980', slug: 'october-surprise-1980', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Kean', relationship: 'Co-chaired 9/11 Commission together', href: '/entities/individuals/thomas-kean' }
+    ],
+
   },
   'lee-harvey-oswald': {
     name: 'Lee Harvey Oswald',
@@ -48737,6 +51732,14 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Jfk Assassination', slug: 'jfk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Jack Ruby', relationship: 'Killed Oswald two days after JFK assassination', href: '/entities/individuals/jack-ruby' },
+      { name: 'John F. Kennedy', relationship: 'Accused assassin of President Kennedy', href: '/entities/individuals/john-f-kennedy' },
+      { name: 'Allen Dulles', relationship: 'Former CIA Director who served on Warren Commission investigating Oswald', href: '/entities/individuals/allen-dulles' },
+      { name: 'George de Mohrenschildt', relationship: 'CIA-connected acquaintance in Dallas', href: '/entities/individuals/george-de-mohrenschildt' },
+      { name: 'Jim Garrison', relationship: 'New Orleans DA who investigated Oswald\'s conspiracy connections', href: '/entities/individuals/jim-garrison' }
+    ],
+
   },
   'lee-iacocca': {
     name: 'Lee Iacocca',
@@ -48753,6 +51756,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Corporate Homicide', slug: 'corporate-homicide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ralph Nader', relationship: 'Iacocca at Ford during era Nader exposed auto safety failures', href: '/entities/individuals/ralph-nader' }
+    ],
+
   },
   'lee-raymond': {
     name: 'Lee Raymond',
@@ -48769,6 +51776,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'James Black', relationship: 'Exxon scientist whose climate findings Raymond suppressed', href: '/entities/individuals/james-black' },
+      { name: 'Rex Tillerson', relationship: 'Successor as Exxon CEO', href: '/entities/individuals/rex-tillerson' },
+      { name: 'Naomi Oreskes', relationship: 'Historian who documented Exxon\'s climate denial under Raymond', href: '/entities/individuals/naomi-oreskes' }
+    ],
+
   },
   'leeanne-walters': {
     name: 'LeeAnne Walters',
@@ -48785,6 +51798,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Water Contamination Nationwide', slug: 'water-contamination-nationwide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Marc Edwards', relationship: 'Virginia Tech scientist Walters contacted about Flint water', href: '/entities/individuals/marc-edwards' },
+      { name: 'Mona Hanna-Attisha', relationship: 'Pediatrician who confirmed lead in Flint children Walters helped expose', href: '/entities/individuals/mona-hanna-attisha' }
+    ],
+
   },
   'leonidas-dyer': {
     name: 'Leonidas Dyer',
@@ -48801,6 +51819,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Ida B. Wells', relationship: 'Wells campaigned for Dyer\'s anti-lynching bill', href: '/entities/individuals/ida-b-wells' }
+    ],
+
   },
   'leopoldo-galtieri': {
     name: 'Leopoldo Galtieri',
@@ -48818,6 +51840,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Henry Kissinger', relationship: 'Kissinger supported Argentine junta under Operation Condor', href: '/entities/individuals/henry-kissinger' }
+    ],
+
   },
   'les-aspin': {
     name: 'Les Aspin',
@@ -48834,6 +51860,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Somalia Intervention', slug: 'somalia-intervention', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Norman Schwarzkopf', relationship: 'House Armed Services during Gulf War Schwarzkopf led', href: '/entities/individuals/norman-schwarzkopf' }
+    ],
+
   },
   'lessie-randle': {
     name: 'Lessie Benningfield Randle',
@@ -48850,6 +51880,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Tulsa Race Massacre', slug: 'tulsa-race-massacre', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Viola Fletcher', relationship: 'Fellow Tulsa Race Massacre descendant seeking reparations', href: '/entities/individuals/viola-fletcher' },
+      { name: 'Hughes Van Ellis', relationship: 'Fellow elderly Tulsa Massacre descendant', href: '/entities/individuals/hughes-van-ellis' }
+    ],
+
   },
   'lewis-strauss': {
     name: 'Lewis Strauss',
@@ -48866,6 +51901,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'J. Robert Oppenheimer', relationship: 'Orchestrated Oppenheimer\'s security clearance revocation', href: '/entities/individuals/j-robert-oppenheimer' },
+      { name: 'Edward Teller', relationship: 'Ally who testified against Oppenheimer at Strauss\'s instigation', href: '/entities/individuals/edward-teller' },
+      { name: 'John Anjain', relationship: 'Marshall Islands victim of nuclear tests Strauss authorized', href: '/entities/individuals/john-anjain' }
+    ],
+
   },
   'licio-gelli': {
     name: 'Licio Gelli',
@@ -48882,6 +51923,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Roberto Calvi', relationship: 'Banker connected to Gelli\'s P2 Lodge found dead', href: '/entities/individuals/roberto-calvi' },
+      { name: 'Giulio Andreotti', relationship: 'Italian PM linked to Gelli\'s P2 masonic lodge', href: '/entities/individuals/giulio-andreotti' }
+    ],
+
   },
   'lisa-brunner': {
     name: 'Lisa Brunner',
@@ -48898,6 +51944,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Missing Murdered Indigenous Women', slug: 'missing-murdered-indigenous-women', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Mary Kathryn Nagle', relationship: 'Fellow advocate for Missing and Murdered Indigenous Women', href: '/entities/individuals/mary-kathryn-nagle' }
+    ],
+
   },
   'lisa-nelson': {
     name: 'Lisa Nelson',
@@ -48914,6 +51964,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Alec Model Legislation', slug: 'alec-model-legislation', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Paul Weyrich', relationship: 'ALEC connection - Weyrich co-founded organization Nelson leads', href: '/entities/individuals/paul-weyrich' }
+    ],
+
   },
   'liz-fowler': {
     name: 'Liz Fowler',
@@ -48930,6 +51984,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Medical Bankruptcy', slug: 'medical-bankruptcy', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Max Baucus', relationship: 'Baucus aide who wrote ACA provisions favorable to insurers', href: '/entities/individuals/max-baucus' },
+      { name: 'Karen Ignagni', relationship: 'Health insurance lobby head whose industry Fowler protected', href: '/entities/individuals/karen-ignagni' }
+    ],
+
   },
   'lloyd-jowers': {
     name: 'Lloyd Jowers',
@@ -48946,6 +52005,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Mlk Assassination', slug: 'mlk-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'James Earl Ray', relationship: 'Both implicated in MLK assassination conspiracy', href: '/entities/individuals/james-earl-ray' },
+      { name: 'William Pepper', relationship: 'Attorney who uncovered Jowers\' role in MLK conspiracy', href: '/entities/individuals/william-pepper' }
+    ],
+
   },
   'lon-horiuchi': {
     name: 'Lon Horiuchi',
@@ -48962,6 +52026,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Larry Potts', relationship: 'FBI supervisor who set rules of engagement at Ruby Ridge', href: '/entities/individuals/larry-potts' },
+      { name: 'Vicki Weaver', relationship: 'Horiuchi shot and killed Vicki Weaver at Ruby Ridge', href: '/entities/individuals/vicki-weaver' },
+      { name: 'Randy Weaver', relationship: 'Ruby Ridge standoff subject whose wife Horiuchi killed', href: '/entities/individuals/randy-weaver' }
+    ],
+
   },
   'lon-nol': {
     name: 'Lon Nol',
@@ -48978,6 +52048,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Cambodia Bombing', slug: 'cambodia-bombing', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Pol Pot', relationship: 'Lon Nol\'s regime was toppled by Pol Pot\'s Khmer Rouge', href: '/entities/individuals/pol-pot' },
+      { name: 'Norodom Sihanouk', relationship: 'Cambodian ruler Lon Nol overthrew in 1970 coup', href: '/entities/individuals/norodom-sihanouk' },
+      { name: 'Richard Nixon', relationship: 'US backed Lon Nol\'s coup under Nixon', href: '/entities/individuals/richard-nixon' }
+    ],
+
   },
   'lou-pai': {
     name: 'Lou Pai',
@@ -48994,6 +52070,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Kenneth Lay', relationship: 'Enron chairman under whom Pai profited', href: '/entities/individuals/kenneth-lay' },
+      { name: 'Jeffrey Skilling', relationship: 'Enron CEO during Pai\'s tenure', href: '/entities/individuals/jeffrey-skilling' }
+    ],
+
   },
   'louis-farrakhan': {
     name: 'Louis Farrakhan',
@@ -49010,6 +52091,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Malcolm X', relationship: 'Former Nation of Islam rival whose assassination implicates NOI figures', href: '/entities/individuals/malcolm-x' },
+      { name: 'Jesse Jackson', relationship: 'Complicated parallel Black leadership relationship', href: '/entities/individuals/jesse-jackson' }
+    ],
+
   },
   'lyman-lemnitzer': {
     name: 'Lyman Lemnitzer',
@@ -49026,6 +52112,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Northwoods', slug: 'operation-northwoods', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'John F. Kennedy', relationship: 'Proposed Operation Northwoods false flag that JFK rejected', href: '/entities/individuals/john-f-kennedy' },
+      { name: 'Curtis LeMay', relationship: 'Fellow Joint Chiefs hawk', href: '/entities/individuals/curtis-lemay' }
+    ],
+
   },
   'lyndon-johnson': {
     name: 'Lyndon B. Johnson',
@@ -49044,6 +52135,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Phoenix Program', slug: 'phoenix-program', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Robert McNamara', relationship: 'Defense Secretary who expanded Vietnam War under LBJ', href: '/entities/individuals/robert-mcnamara' },
+      { name: 'J. Edgar Hoover', relationship: 'FBI Director who ran COINTELPRO during Johnson presidency', href: '/entities/individuals/j-edgar-hoover' },
+      { name: 'Martin Luther King Jr', relationship: 'Signed Civil Rights Act but surveilled King', href: '/entities/individuals/martin-luther-king-jr' }
+    ],
+
   },
   'lynn-fitch': {
     name: 'Lynn Fitch',
@@ -49060,6 +52157,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Roe V Wade Overturn', slug: 'roe-v-wade-overturn', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Thomas Dobbs', relationship: 'Mississippi figures in Dobbs v. Jackson abortion case', href: '/entities/individuals/thomas-dobbs' }
+    ],
+
   },
   'lynndie-england': {
     name: 'Lynndie England',
@@ -49076,6 +52177,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Abu Ghraib', slug: 'abu-ghraib', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Charles Graner', relationship: 'Abu Ghraib superior and ringleader who instructed England', href: '/entities/individuals/charles-graner' },
+      { name: 'Janis Karpinski', relationship: 'Brigade commander at Abu Ghraib during abuses', href: '/entities/individuals/janis-karpinski' }
+    ],
+
   },
   'mahendra-amin': {
     name: 'Mahendra Amin',
@@ -49092,6 +52198,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Ice Detention Abuses', slug: 'ice-detention-abuses', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Dawn Wooten', relationship: 'ICE nurse who blew whistle on Amin\'s forced hysterectomies', href: '/entities/individuals/dawn-wooten' }
+    ],
+
   },
   'malcolm-x': {
     name: 'Malcolm X (El-Hajj Malik El-Shabazz)',
@@ -49129,6 +52239,13 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Emmett Till', relationship: 'Mother who demanded open casket to show what racists did to her son', href: '/entities/individuals/emmett-till' },
+      { name: 'Roy Bryant', relationship: 'One of Emmett\'s murderers acquitted by all-white jury', href: '/entities/individuals/roy-bryant' },
+      { name: 'J.W. Milam', relationship: 'Co-murderer of Emmett Till', href: '/entities/individuals/jw-milam' },
+      { name: 'Moses Wright', relationship: 'Emmett\'s great-uncle who bravely identified killers in court', href: '/entities/individuals/moses-wright' }
+    ],
+
   },
   'mandrel-stuart': {
     name: 'Mandrel Stuart',
@@ -49145,6 +52262,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Civil Asset Forfeiture', slug: 'civil-asset-forfeiture', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Joseph Rivers', relationship: 'Fellow civil asset forfeiture victim', href: '/entities/individuals/joseph-rivers' }
+    ],
+
   },
   'marc-cisneros': {
     name: 'General Marc Cisneros',
@@ -49161,6 +52282,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Panama Invasion', slug: 'panama-invasion', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Maxwell Thurman', relationship: 'Fellow commander during Panama invasion', href: '/entities/individuals/maxwell-thurman' }
+    ],
+
   },
   'marc-edwards': {
     name: 'Marc Edwards',
@@ -49178,6 +52303,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Water Contamination Nationwide', slug: 'water-contamination-nationwide', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'LeeAnne Walters', relationship: 'Flint resident who brought water samples to Edwards', href: '/entities/individuals/leeanne-walters' },
+      { name: 'Mona Hanna-Attisha', relationship: 'Pediatrician whose blood lead data confirmed Edwards\' findings', href: '/entities/individuals/mona-hanna-attisha' }
+    ],
+
   },
   'marc-short': {
     name: 'Marc Short',
@@ -49194,6 +52324,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Koch Network', slug: 'koch-network', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Mike Pence', relationship: 'Chief of Staff to Vice President Pence', href: '/entities/individuals/mike-pence' }
+    ],
+
   },
   'marcus-agius': {
     name: 'Marcus Agius',
@@ -49210,6 +52344,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
     ],
     timeline: [],
+    knownAssociates: [
+      { name: 'Bob Diamond', relationship: 'Barclays chairman who resigned alongside Diamond in LIBOR scandal', href: '/entities/individuals/bob-diamond' },
+      { name: 'Mervyn King', relationship: 'Bank of England governor during Barclays LIBOR manipulation', href: '/entities/individuals/mervyn-king' }
+    ],
+
   },
   'margaret-chase-smith': {
     name: 'Margaret Chase Smith',
@@ -49225,7 +52364,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Joseph McCarthy', relationship: 'Delivered "Declaration of Conscience" speech against McCarthyism', href: '/entities/individuals/joseph-mccarthy' }
+    ],
+
   },
   'margaret-sanger': {
     name: 'Margaret Sanger',
@@ -49241,7 +52383,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Harry Laughlin', relationship: 'Eugenics figure who intersected with Sanger\'s birth control movement', href: '/entities/individuals/harry-laughlin' },
+      { name: 'Paul Popenoe', relationship: 'Fellow eugenics-connected figure in reproductive policy', href: '/entities/individuals/paul-popenoe' }
+    ],
+
   },
   'marjorie-dannenfelser': {
     name: 'Marjorie Dannenfelser',
@@ -49257,7 +52403,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Roe V Wade Overturn', slug: 'roe-v-wade-overturn', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Lynn Fitch', relationship: 'Mississippi AG who brought Dobbs case Dannenfelser supported', href: '/entities/individuals/lynn-fitch' }
+    ],
+
   },
   'mark-brnovich': {
     name: 'Mark Brnovich',
@@ -49273,7 +52422,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Alec Model Legislation', slug: 'alec-model-legislation', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Arizona AG pressured by Trump to overturn 2020 election results', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'mark-clark': {
     name: 'Mark Clark',
@@ -49289,7 +52441,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Fred Hampton Assassination', slug: 'fred-hampton-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Fred Hampton', relationship: 'Killed alongside Hampton in Chicago police raid', href: '/entities/individuals/fred-hampton' },
+      { name: 'Edward Hanrahan', relationship: 'State\'s Attorney who authorized raid that killed Clark and Hampton', href: '/entities/individuals/edward-hanrahan' }
+    ],
+
   },
   'mark-lane': {
     name: 'Mark Lane',
@@ -49305,7 +52461,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Mlk Assassination', slug: 'mlk-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Lee Harvey Oswald', relationship: 'JFK assassination researcher who challenged Warren Commission findings on Oswald', href: '/entities/individuals/lee-harvey-oswald' },
+      { name: 'Jim Garrison', relationship: 'Supported Garrison\'s JFK conspiracy prosecution', href: '/entities/individuals/jim-garrison' }
+    ],
+
   },
   'mark-madoff': {
     name: 'Mark Madoff',
@@ -49321,7 +52481,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Bernie Madoff Ponzi', slug: 'bernie-madoff-ponzi', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Bernie Madoff', relationship: 'Son who reported father\'s Ponzi scheme; later died by suicide', href: '/entities/individuals/bernie-madoff' },
+      { name: 'Peter Madoff', relationship: 'Uncle who was also at Madoff firm', href: '/entities/individuals/peter-madoff' },
+      { name: 'Ruth Madoff', relationship: 'Mother who chose to stay with Bernie initially', href: '/entities/individuals/ruth-madoff' }
+    ],
+
   },
   'marshall-green': {
     name: 'Marshall Green',
@@ -49337,7 +52502,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Indonesia Mass Killings', slug: 'indonesia-mass-killings', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Suharto', relationship: 'US Ambassador who supported Suharto\'s rise to power', href: '/entities/individuals/suharto' },
+      { name: 'Robert Martens', relationship: 'Embassy staffer who provided kill lists under Green', href: '/entities/individuals/robert-martens' }
+    ],
+
   },
   'martin-tabert': {
     name: 'Martin Tabert',
@@ -49353,7 +52522,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Convict Leasing', slug: 'convict-leasing', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'C. Sidney Carlton', relationship: 'Convict leasing system figure connected to Tabert\'s death', href: '/entities/individuals/c-sidney-carlton' }
+    ],
+
   },
   'martin-wheatley': {
     name: 'Martin Wheatley',
@@ -49369,7 +52541,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Tom Hayes', relationship: 'LIBOR scandal figure; Wheatley led FCA investigation', href: '/entities/individuals/tom-hayes' },
+      { name: 'Mervyn King', relationship: 'Bank of England during LIBOR era', href: '/entities/individuals/mervyn-king' }
+    ],
+
   },
   'mary-alice-relf': {
     name: 'Mary Alice Relf',
@@ -49385,7 +52561,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Minnie Lee Relf', relationship: 'Sister who was also sterilized without consent', href: '/entities/individuals/minnie-lee-relf' }
+    ],
+
   },
   'mary-kathryn-nagle': {
     name: 'Mary Kathryn Nagle',
@@ -49401,7 +52580,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Missing Murdered Indigenous Women', slug: 'missing-murdered-indigenous-women', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Lisa Brunner', relationship: 'Fellow MMIW advocate', href: '/entities/individuals/lisa-brunner' },
+      { name: 'Savanna LaFontaine-Greywind', relationship: 'MMIW case Nagle documented', href: '/entities/individuals/savanna-lafontaine-greywind' }
+    ],
+
   },
   'mary-turner': {
     name: 'Mary Turner',
@@ -49417,7 +52600,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Ida B. Wells', relationship: 'Wells\' anti-lynching work documented mass violence like Turner\'s killing', href: '/entities/individuals/ida-b-wells' }
+    ],
+
   },
   'matthias-mueller': {
     name: 'Matthias Müller',
@@ -49433,7 +52619,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Herbert Diess', relationship: 'Successor as VW CEO', href: '/entities/individuals/herbert-diess' },
+      { name: 'Oliver Schmidt', relationship: 'VW executive imprisoned during Mueller\'s tenure', href: '/entities/individuals/oliver-schmidt' },
+      { name: 'Daniel Carder', relationship: 'WVU researcher who discovered VW emissions cheating', href: '/entities/individuals/daniel-carder' }
+    ],
+
   },
   'maude-devictor': {
     name: 'Maude DeVictor',
@@ -49449,7 +52640,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Bobby Muller', relationship: 'Fellow Agent Orange/veterans advocacy figure', href: '/entities/individuals/bobby-muller' }
+    ],
+
   },
   'maura-healey': {
     name: 'Maura Healey',
@@ -49466,7 +52660,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
       { title: 'Purdue Pharma Oxycontin', slug: 'purdue-pharma-oxycontin', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Richard Sackler', relationship: 'MA AG who sued Sackler family over opioid crisis', href: '/entities/individuals/richard-sackler' }
+    ],
+
   },
   'maurice-bishop': {
     name: 'Maurice Bishop',
@@ -49482,7 +52679,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Grenada Invasion', slug: 'grenada-invasion', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Hudson Austin', relationship: 'Military leader who overthrew and killed Bishop', href: '/entities/individuals/hudson-austin' },
+      { name: 'Bernard Coard', relationship: 'Deputy who turned against Bishop in coup', href: '/entities/individuals/bernard-coard' }
+    ],
+
   },
   'mauricio-rodriguez-sanchez': {
     name: 'Mauricio Rodríguez Sánchez',
@@ -49498,7 +52699,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Guatemala Genocide', slug: 'guatemala-genocide', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Efrain Rios Montt', relationship: 'Intelligence chief under Rios Montt during genocide', href: '/entities/individuals/efrain-rios-montt' }
+    ],
+
   },
   'max-baucus': {
     name: 'Max Baucus',
@@ -49514,7 +52718,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Medical Bankruptcy', slug: 'medical-bankruptcy', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Liz Fowler', relationship: 'Baucus staffer who wrote ACA provisions favorable to insurers', href: '/entities/individuals/liz-fowler' },
+      { name: 'Karen Ignagni', relationship: 'AHIP president who lobbied Baucus on health reform', href: '/entities/individuals/karen-ignagni' }
+    ],
+
   },
   'maxwell-thurman': {
     name: 'General Maxwell Thurman',
@@ -49530,7 +52738,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Panama Invasion', slug: 'panama-invasion', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Marc Cisneros', relationship: 'Fellow commander during US invasion of Panama', href: '/entities/individuals/marc-cisneros' }
+    ],
+
   },
   'mcgeorge-bundy': {
     name: 'McGeorge Bundy',
@@ -49546,7 +52757,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Robert McNamara', relationship: 'Fellow Vietnam War architect under JFK and LBJ', href: '/entities/individuals/robert-mcnamara' },
+      { name: 'Dean Rusk', relationship: 'Secretary of State alongside Bundy as NSA', href: '/entities/individuals/dean-rusk' },
+      { name: 'Lyndon Johnson', relationship: 'National Security Advisor under LBJ', href: '/entities/individuals/lyndon-johnson' }
+    ],
+
   },
   'medgar-evers': {
     name: 'Medgar Evers',
@@ -49563,7 +52779,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
       { title: 'War On Black America', slug: 'war-on-black-america', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Martin Luther King Jr', relationship: 'Fellow civil rights leader; assassination galvanized movement', href: '/entities/individuals/martin-luther-king-jr' },
+      { name: 'Byron De La Beckwith', relationship: 'White supremacist who assassinated Evers', href: '/entities/individuals/byron-de-la-beckwith' }
+    ],
+
   },
   'mervyn-king': {
     name: 'Mervyn King',
@@ -49579,7 +52799,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Bob Diamond', relationship: 'Barclays CEO during LIBOR scandal King investigated', href: '/entities/individuals/bob-diamond' },
+      { name: 'Paul Tucker', relationship: 'Bank of England deputy implicated in LIBOR communications', href: '/entities/individuals/paul-tucker' },
+      { name: 'Marcus Agius', relationship: 'Barclays chairman during LIBOR scandal', href: '/entities/individuals/marcus-agius' }
+    ],
+
   },
   'michael-friedman': {
     name: 'Michael Friedman',
@@ -49595,7 +52820,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Purdue Pharma Oxycontin', slug: 'purdue-pharma-oxycontin', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Howard Udell', relationship: 'Fellow Purdue Pharma exec who pled guilty to OxyContin fraud', href: '/entities/individuals/howard-udell' },
+      { name: 'Paul Goldenheim', relationship: 'Fellow Purdue exec convicted alongside Friedman', href: '/entities/individuals/paul-goldenheim' },
+      { name: 'Richard Sackler', relationship: 'Sackler family head who directed marketing Friedman executed', href: '/entities/individuals/richard-sackler' }
+    ],
+
   },
   'michael-oliver': {
     name: 'Michael Oliver',
@@ -49611,7 +52841,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Facial Recognition Surveillance', slug: 'facial-recognition-surveillance', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Thomas Jackson', relationship: 'Ferguson police figure', href: '/entities/individuals/thomas-jackson' }
+    ],
+
   },
   'michael-powell': {
     name: 'Michael D. Powell',
@@ -49627,7 +52860,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Private Prison Industry', slug: 'private-prison-industry', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Frank Powell', relationship: 'MOVE bombing figure (different Michael Powell connected to police)', href: '/entities/individuals/frank-powell' }
+    ],
+
   },
   'michael-regan': {
     name: 'Michael Regan',
@@ -49643,7 +52879,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Jackson Water Crisis', slug: 'jackson-water-crisis', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Marc Edwards', relationship: 'EPA administrator during ongoing environmental justice work', href: '/entities/individuals/marc-edwards' }
+    ],
+
   },
   'michael-townley': {
     name: 'Michael Townley',
@@ -49660,7 +52899,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Chile Coup', slug: 'chile-coup', severity: 'high' },
       { title: 'Operation Condor', slug: 'operation-condor', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Orlando Letelier', relationship: 'DINA agent who assassinated Letelier in Washington DC', href: '/entities/individuals/orlando-letelier' },
+      { name: 'Augusto Pinochet', relationship: 'Pinochet\'s secret police agent who carried out assassinations', href: '/entities/individuals/augusto-pinochet' },
+      { name: 'Stefano Delle Chiaie', relationship: 'Fellow Operation Condor operative', href: '/entities/individuals/stefano-delle-chiaie' }
+    ],
+
   },
   'michel-martelly': {
     name: 'Michel Martelly',
@@ -49676,7 +52920,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Haiti Exploitation', slug: 'haiti-exploitation', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Jean-Bertrand Aristide', relationship: 'Political rival and former Haitian president', href: '/entities/individuals/jean-bertrand-aristide' },
+      { name: 'Jean-Claude Duvalier', relationship: 'Martelly allegedly connected to Duvalier-era forces', href: '/entities/individuals/jean-claude-duvalier' }
+    ],
+
   },
   'miguel-cardona': {
     name: 'Miguel Cardona',
@@ -49692,7 +52940,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Betsy DeVos', relationship: 'Successor as Education Secretary who reversed DeVos policies', href: '/entities/individuals/betsy-devos' }
+    ],
+
   },
   'mike-moore': {
     name: 'Mike Moore',
@@ -49708,7 +52959,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Richard Scruggs', relationship: 'Attorney partner in Mississippi tobacco lawsuit', href: '/entities/individuals/richard-scruggs' }
+    ],
+
   },
   'mike-williams': {
     name: 'Mike Williams',
@@ -49724,7 +52978,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Jimmy Harrell', relationship: 'Transocean supervisor on Deepwater Horizon', href: '/entities/individuals/jimmy-harrell' },
+      { name: 'Donald Vidrine', relationship: 'BP supervisor on rig during blowout', href: '/entities/individuals/donald-vidrine' }
+    ],
+
   },
   'minnie-lee-relf': {
     name: 'Minnie Lee Relf',
@@ -49740,7 +52998,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Mary Alice Relf', relationship: 'Sister who was also involuntarily sterilized', href: '/entities/individuals/mary-alice-relf' }
+    ],
+
   },
   'mohamed-farrah-aidid': {
     name: 'Mohamed Farrah Aidid',
@@ -49756,7 +53017,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Somalia Intervention', slug: 'somalia-intervention', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Les Aspin', relationship: 'Defense Secretary during Battle of Mogadishu against Aidid', href: '/entities/individuals/les-aspin' }
+    ],
+
   },
   'mona-hanna-attisha': {
     name: 'Mona Hanna-Attisha',
@@ -49773,7 +53037,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
       { title: 'Water Contamination Nationwide', slug: 'water-contamination-nationwide', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Marc Edwards', relationship: 'Virginia Tech scientist who tested Flint water alongside Hanna-Attisha', href: '/entities/individuals/marc-edwards' },
+      { name: 'LeeAnne Walters', relationship: 'Flint resident whose water testing sparked investigation', href: '/entities/individuals/leeanne-walters' },
+      { name: 'Rick Snyder', relationship: 'Michigan governor whose administration caused Flint water crisis', href: '/entities/individuals/rick-snyder' }
+    ],
+
   },
   'moses-wright': {
     name: 'Moses Wright',
@@ -49789,7 +53058,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Mamie Till-Mobley', relationship: 'Emmett\'s mother; Wright testified identifying killers', href: '/entities/individuals/mamie-till-mobley' },
+      { name: 'Roy Bryant', relationship: 'Bravely pointed out Bryant as Emmett Till\'s kidnapper in court', href: '/entities/individuals/roy-bryant' }
+    ],
+
   },
   'muammar-gaddafi': {
     name: 'Muammar Gaddafi',
@@ -49805,7 +53078,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Libya Intervention', slug: 'libya-intervention', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Khalifa Haftar', relationship: 'Former general who later fought for control of post-Gaddafi Libya', href: '/entities/individuals/khalifa-haftar' },
+      { name: 'Nicolas Sarkozy', relationship: 'French president who led NATO intervention toppling Gaddafi', href: '/entities/individuals/nicolas-sarkozy' },
+      { name: 'Hillary Clinton', relationship: 'Secretary of State during Libya intervention', href: '/entities/individuals/hillary-clinton' }
+    ],
+
   },
   'muhammad-abdul-aziz': {
     name: 'Muhammad Abdul Aziz (Norman 3X Butler)',
@@ -49821,7 +53099,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Khalil Islam', relationship: 'Fellow wrongfully convicted man in Malcolm X assassination', href: '/entities/individuals/khalil-islam' },
+      { name: 'Malcolm X', relationship: 'Wrongfully convicted of assassinating Malcolm X; exonerated 2021', href: '/entities/individuals/malcolm-x' }
+    ],
+
   },
   'mujahid-abdul-halim': {
     name: 'Mujahid Abdul Halim (Talmadge Hayer)',
@@ -49837,7 +53119,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Malcolm X', relationship: 'Actual shooter who killed Malcolm X', href: '/entities/individuals/malcolm-x' },
+      { name: 'Muhammad Abdul Aziz', relationship: 'Wrongfully convicted alongside Halim for Malcolm X murder', href: '/entities/individuals/muhammad-abdul-aziz' }
+    ],
+
   },
   'naomi-oreskes': {
     name: 'Naomi Oreskes',
@@ -49853,7 +53139,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'James Black', relationship: 'Documented Exxon\'s suppression of Black\'s climate research', href: '/entities/individuals/james-black' },
+      { name: 'Lee Raymond', relationship: 'Exxon CEO whose climate denial Oreskes exposed', href: '/entities/individuals/lee-raymond' }
+    ],
+
   },
   'nathan-bedford-forrest': {
     name: 'Nathan Bedford Forrest',
@@ -49869,7 +53159,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Convict Leasing', slug: 'convict-leasing', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Ulysses S. Grant', relationship: 'Union general who fought Forrest; later sent troops against KKK', href: '/entities/individuals/ulysses-s-grant' }
+    ],
+
   },
   'nathan-wessler': {
     name: 'Nathan Wessler',
@@ -49885,7 +53178,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Stingray Surveillance', slug: 'stingray-surveillance', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Rashida Richardson', relationship: 'Fellow digital rights and surveillance accountability advocate', href: '/entities/individuals/rashida-richardson' }
+    ],
+
   },
   'nawar-al-awlaki': {
     name: 'Nawar al-Awlaki',
@@ -49901,7 +53197,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Drone Assassination Program', slug: 'drone-assassination-program', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Nasser al-Awlaki', relationship: 'Grandfather who fought for accountability after Nawar was killed', href: '/entities/individuals/nasser-al-awlaki' }
+    ],
+
   },
   'nawaz-sharif': {
     name: 'Nawaz Sharif',
@@ -49917,7 +53216,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Panama Papers', slug: 'panama-papers', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Sigmundur Gunnlaugsson', relationship: 'Fellow leader exposed by Panama Papers', href: '/entities/individuals/sigmundur-gunnlaugsson' }
+    ],
+
   },
   'neil-bush': {
     name: 'Neil Bush',
@@ -49933,7 +53235,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Savings And Loan Crisis', slug: 'savings-and-loan-crisis', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'George H.W. Bush', relationship: 'Son involved in Silverado Banking savings and loan scandal', href: '/entities/individuals/george-hw-bush' },
+      { name: 'Charles Keating', relationship: 'Fellow S&L scandal figure', href: '/entities/individuals/charles-keating' }
+    ],
+
   },
   'neil-sheehan': {
     name: 'Neil Sheehan',
@@ -49949,7 +53255,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Pentagon Papers', slug: 'pentagon-papers', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Daniel Ellsberg', relationship: 'Reporter who received Pentagon Papers from Ellsberg', href: '/entities/individuals/daniel-ellsberg' },
+      { name: 'John Paul Vann', relationship: 'Wrote definitive book about Vann\'s Vietnam story', href: '/entities/individuals/john-paul-vann' }
+    ],
+
   },
   'nelson-brickham': {
     name: 'Nelson Brickham',
@@ -49965,7 +53275,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Phoenix Program', slug: 'phoenix-program', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'William Colby', relationship: 'CIA Director who oversaw Phoenix Program Brickham designed', href: '/entities/individuals/william-colby' },
+      { name: 'K. Barton Osborn', relationship: 'Intelligence officer who witnessed Phoenix torture', href: '/entities/individuals/k-barton-osborn' }
+    ],
+
   },
   'nelson-mandela': {
     name: 'Nelson Mandela',
@@ -49981,7 +53295,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Us Support For Apartheid', slug: 'us-support-for-apartheid', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'P.W. Botha', relationship: 'Apartheid president who imprisoned Mandela', href: '/entities/individuals/pw-botha' },
+      { name: 'Randall Robinson', relationship: 'Anti-apartheid activist who fought for Mandela\'s release', href: '/entities/individuals/randall-robinson' },
+      { name: 'Desmond Tutu', relationship: 'Fellow anti-apartheid leader and Truth Commission chair', href: '/entities/individuals/desmond-tutu' }
+    ],
+
   },
   'nematollah-nassiri': {
     name: 'Nematollah Nassiri',
@@ -49997,7 +53316,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Iran Coup', slug: 'iran-coup', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Fazlollah Zahedi', relationship: 'General installed by 1953 coup Nassiri helped execute', href: '/entities/individuals/fazlollah-zahedi' }
+    ],
+
   },
   'nguyen-viet-nhan': {
     name: 'Nguyen Viet Nhan',
@@ -50013,7 +53335,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Ton That Tung', relationship: 'Fellow Vietnamese documenting Agent Orange effects', href: '/entities/individuals/ton-that-tung' }
+    ],
+
   },
   'nicolas-sarkozy': {
     name: 'Nicolas Sarkozy',
@@ -50029,7 +53354,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Libya Intervention', slug: 'libya-intervention', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Muammar Gaddafi', relationship: 'Led NATO intervention toppling Gaddafi', href: '/entities/individuals/muammar-gaddafi' }
+    ],
+
   },
   'nicole-smith-holt': {
     name: 'Nicole Smith-Holt',
@@ -50045,7 +53373,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Stephen Hemsley', relationship: 'UnitedHealth CEO whose company denied affordable insulin', href: '/entities/individuals/stephen-hemsley' }
+    ],
+
   },
   'nijeer-parks': {
     name: 'Nijeer Parks',
@@ -50061,7 +53392,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Facial Recognition Surveillance', slug: 'facial-recognition-surveillance', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Porcha Woodruff', relationship: 'Fellow victim of wrongful arrest by facial recognition', href: '/entities/individuals/porcha-woodruff' },
+      { name: 'Joy Buolamwini', relationship: 'AI researcher documenting facial recognition bias that harmed Parks', href: '/entities/individuals/joy-buolamwini' }
+    ],
+
   },
   'nishad-singh': {
     name: 'Nishad Singh',
@@ -50077,7 +53412,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Ftx Crypto Fraud', slug: 'ftx-crypto-fraud', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Sam Bankman-Fried', relationship: 'FTX engineering director who cooperated against SBF', href: '/entities/individuals/sam-bankman-fried' },
+      { name: 'Caroline Ellison', relationship: 'Fellow FTX/Alameda insider who cooperated with prosecutors', href: '/entities/individuals/caroline-ellison' },
+      { name: 'Gary Wang', relationship: 'Fellow FTX co-founder who cooperated', href: '/entities/individuals/gary-wang' }
+    ],
+
   },
   'norman-schwarzkopf': {
     name: 'General Norman Schwarzkopf',
@@ -50093,7 +53433,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Grenada Invasion', slug: 'grenada-invasion', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'George H.W. Bush', relationship: 'Commander of Desert Storm under Bush', href: '/entities/individuals/george-hw-bush' },
+      { name: 'Colin Powell', relationship: 'Joint Chiefs Chairman during Schwarzkopf\'s Gulf War command', href: '/entities/individuals/colin-powell' }
+    ],
+
   },
   'norodom-sihanouk': {
     name: 'Prince Norodom Sihanouk',
@@ -50109,7 +53453,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Cambodia Bombing', slug: 'cambodia-bombing', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Lon Nol', relationship: 'General who overthrew Sihanouk in US-backed coup', href: '/entities/individuals/lon-nol' },
+      { name: 'Pol Pot', relationship: 'Khmer Rouge leader who nominally allied with then betrayed Sihanouk', href: '/entities/individuals/pol-pot' }
+    ],
+
   },
   'oliver-schmidt': {
     name: 'Oliver Schmidt',
@@ -50125,7 +53473,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Herbert Diess', relationship: 'VW executive during Schmidt\'s emissions fraud', href: '/entities/individuals/herbert-diess' },
+      { name: 'Matthias Mueller', relationship: 'VW CEO during Schmidt\'s prosecution', href: '/entities/individuals/matthias-mueller' },
+      { name: 'James Liang', relationship: 'Fellow VW engineer convicted in dieselgate', href: '/entities/individuals/james-liang' }
+    ],
+
   },
   'oliver-wendell-holmes': {
     name: 'Oliver Wendell Holmes Jr.',
@@ -50141,7 +53494,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Carrie Buck', relationship: 'Wrote Buck v. Bell decision authorizing forced sterilization', href: '/entities/individuals/carrie-buck' },
+      { name: 'Harry Laughlin', relationship: 'Holmes upheld sterilization law based on Laughlin\'s model', href: '/entities/individuals/harry-laughlin' }
+    ],
+
   },
   'orlando-letelier': {
     name: 'Orlando Letelier',
@@ -50158,7 +53515,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Chile Coup', slug: 'chile-coup', severity: 'high' },
       { title: 'Operation Condor', slug: 'operation-condor', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Michael Townley', relationship: 'DINA agent who planted car bomb killing Letelier', href: '/entities/individuals/michael-townley' },
+      { name: 'Augusto Pinochet', relationship: 'Pinochet ordered Letelier\'s assassination in Washington DC', href: '/entities/individuals/augusto-pinochet' },
+      { name: 'Rene Schneider', relationship: 'Fellow Chilean victim of political assassination', href: '/entities/individuals/rene-schneider' }
+    ],
+
   },
   'orval-faubus': {
     name: 'Orval Faubus',
@@ -50174,7 +53536,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'George Wallace', relationship: 'Fellow segregationist governor who blocked school integration', href: '/entities/individuals/george-wallace' },
+      { name: 'Dwight D. Eisenhower', relationship: 'Eisenhower sent troops to override Faubus at Little Rock', href: '/entities/individuals/dwight-d-eisenhower' }
+    ],
+
   },
   'orville-kelly': {
     name: 'Orville Kelly',
@@ -50190,7 +53556,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Tom Saffer', relationship: 'Fellow atomic veteran who fought for recognition', href: '/entities/individuals/tom-saffer' },
+      { name: 'Stafford Warren', relationship: 'Manhattan Project radiologist connected to nuclear testing', href: '/entities/individuals/stafford-warren' }
+    ],
+
   },
   'oscar-danilo-blandon': {
     name: 'Oscar Danilo Bland\u00F3n',
@@ -50206,7 +53576,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Cia Drug Trafficking', slug: 'cia-drug-trafficking', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Freeway Ricky Ross', relationship: 'Main cocaine buyer in CIA-Contra drug pipeline', href: '/entities/individuals/freeway-ricky-ross' },
+      { name: 'Norwin Meneses', relationship: 'Nicaraguan drug lord who supplied Blandon', href: '/entities/individuals/norwin-meneses' },
+      { name: 'Oliver North', relationship: 'Iran-Contra figure connected to drug pipeline', href: '/entities/individuals/oliver-north' }
+    ],
+
   },
   'oscar-romero': {
     name: 'Óscar Romero',
@@ -50223,7 +53598,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
       { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Roberto DAubuisson', relationship: 'Death squad leader who ordered Romero\'s assassination', href: '/entities/individuals/roberto-daubuisson' },
+      { name: 'Elliott Abrams', relationship: 'Reagan official who downplayed Romero\'s assassination', href: '/entities/individuals/elliott-abrams' },
+      { name: 'Rufina Amaya', relationship: 'Fellow Salvadoran victim of military violence Romero denounced', href: '/entities/individuals/rufina-amaya' }
+    ],
+
   },
   'otto-perez-molina': {
     name: 'Otto Pérez Molina',
@@ -50239,7 +53619,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Guatemala Genocide', slug: 'guatemala-genocide', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Efrain Rios Montt', relationship: 'Rose through military during Rios Montt\'s genocide', href: '/entities/individuals/efrain-rios-montt' },
+      { name: 'Alvaro Colom', relationship: 'Predecessor as Guatemalan president', href: '/entities/individuals/alvaro-colom' }
+    ],
+
   },
   'pamela-foster': {
     name: 'Pamela Foster',
@@ -50255,7 +53639,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Missing Murdered Indigenous Women', slug: 'missing-murdered-indigenous-women', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Mandrel Stuart', relationship: 'Fellow civil asset forfeiture victim', href: '/entities/individuals/mandrel-stuart' }
+    ],
+
   },
   'paul-goldenheim': {
     name: 'Paul Goldenheim',
@@ -50271,7 +53658,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Purdue Pharma Oxycontin', slug: 'purdue-pharma-oxycontin', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Michael Friedman', relationship: 'Fellow Purdue Pharma exec convicted of OxyContin fraud', href: '/entities/individuals/michael-friedman' },
+      { name: 'Howard Udell', relationship: 'Fellow Purdue exec who pled guilty alongside Goldenheim', href: '/entities/individuals/howard-udell' },
+      { name: 'Richard Sackler', relationship: 'Sackler family head behind OxyContin marketing', href: '/entities/individuals/richard-sackler' }
+    ],
+
   },
   'paul-kagame': {
     name: 'Paul Kagame',
@@ -50287,7 +53679,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Juvenal Habyarimana', relationship: 'RPF leader whose war against Habyarimana preceded genocide', href: '/entities/individuals/juvenal-habyarimana' },
+      { name: 'Romeo Dallaire', relationship: 'UN peacekeeper during Rwanda genocide Kagame ended', href: '/entities/individuals/romeo-dallaire' },
+      { name: 'Theoneste Bagosora', relationship: 'Genocide architect whom Kagame\'s forces defeated', href: '/entities/individuals/theoneste-bagosora' }
+    ],
+
   },
   'paul-popenoe': {
     name: 'Paul Popenoe',
@@ -50303,7 +53700,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Harry Laughlin', relationship: 'Fellow eugenics advocate who promoted forced sterilization', href: '/entities/individuals/harry-laughlin' },
+      { name: 'Margaret Sanger', relationship: 'Eugenics intersection with Sanger\'s birth control movement', href: '/entities/individuals/margaret-sanger' }
+    ],
+
   },
   'paul-schrade': {
     name: 'Paul Schrade',
@@ -50319,7 +53720,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Rfk Assassination', slug: 'rfk-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Sirhan Sirhan', relationship: 'Shot by Sirhan during RFK assassination; later advocated for Sirhan\'s release', href: '/entities/individuals/sirhan-sirhan' },
+      { name: 'Karl Uecker', relationship: 'Fellow witness who wrestled gunman', href: '/entities/individuals/karl-uecker' }
+    ],
+
   },
   'paul-tucker': {
     name: 'Paul Tucker',
@@ -50335,7 +53740,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Bob Diamond', relationship: 'Barclays CEO whom Tucker allegedly encouraged to lower LIBOR', href: '/entities/individuals/bob-diamond' },
+      { name: 'Mervyn King', relationship: 'Bank of England governor during Tucker\'s LIBOR involvement', href: '/entities/individuals/mervyn-king' }
+    ],
+
   },
   'paul-weyrich': {
     name: 'Paul Weyrich',
@@ -50351,7 +53760,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Alec Model Legislation', slug: 'alec-model-legislation', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Jerry Falwell', relationship: 'Co-created Moral Majority with Falwell', href: '/entities/individuals/jerry-falwell' },
+      { name: 'Lisa Nelson', relationship: 'Weyrich co-founded ALEC that Nelson later led', href: '/entities/individuals/lisa-nelson' },
+      { name: 'Karl Rove', relationship: 'Fellow architect of conservative political infrastructure', href: '/entities/individuals/karl-rove' }
+    ],
+
   },
   'pelican-bay-prisoners': {
     name: 'Pelican Bay Prisoners',
@@ -50367,7 +53781,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Thomas Silverstein', relationship: 'Prisoner held in extreme solitary like Pelican Bay SHU inmates', href: '/entities/individuals/thomas-silverstein' }
+    ],
+
   },
   'pete-arredondo': {
     name: 'Pete Arredondo',
@@ -50383,7 +53800,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Gun Violence Inaction', slug: 'gun-violence-inaction', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Greg Abbott', relationship: 'Texas governor during Uvalde shooting Arredondo botched', href: '/entities/individuals/greg-abbott' }
+    ],
+
   },
   'peter-madoff': {
     name: 'Peter Madoff',
@@ -50399,7 +53819,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Bernie Madoff Ponzi', slug: 'bernie-madoff-ponzi', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Bernie Madoff', relationship: 'Brother and compliance officer at Madoff firm', href: '/entities/individuals/bernie-madoff' },
+      { name: 'Mark Madoff', relationship: 'Nephew who reported Bernie to authorities', href: '/entities/individuals/mark-madoff' },
+      { name: 'Ruth Madoff', relationship: 'Sister-in-law', href: '/entities/individuals/ruth-madoff' }
+    ],
+
   },
   'peter-neufeld': {
     name: 'Peter Neufeld',
@@ -50415,7 +53840,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Kirk Bloodsworth', relationship: 'Innocence Project co-founder helped exonerate Bloodsworth', href: '/entities/individuals/kirk-bloodsworth' },
+      { name: 'Bryan Stevenson', relationship: 'Fellow wrongful conviction reform advocate', href: '/entities/individuals/bryan-stevenson' }
+    ],
+
   },
   'petro-poroshenko': {
     name: 'Petro Poroshenko',
@@ -50431,7 +53860,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Panama Papers', slug: 'panama-papers', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Sigmundur Gunnlaugsson', relationship: 'Fellow leader exposed in Panama Papers', href: '/entities/individuals/sigmundur-gunnlaugsson' }
+    ],
+
   },
   'phil-berger': {
     name: 'Phil Berger',
@@ -50447,7 +53879,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Gerrymandering', slug: 'gerrymandering', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Tim Moore', relationship: 'Fellow North Carolina Republican gerrymandering figure', href: '/entities/individuals/tim-moore' },
+      { name: 'Thomas Hofeller', relationship: 'GOP mapmaker who drew NC gerrymanders Berger defended', href: '/entities/individuals/thomas-hofeller' }
+    ],
+
   },
   'phil-bryant': {
     name: 'Phil Bryant',
@@ -50463,7 +53899,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Jackson Water Crisis', slug: 'jackson-water-crisis', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Thomas Dobbs', relationship: 'Mississippi governor who signed abortion ban in Dobbs case', href: '/entities/individuals/thomas-dobbs' },
+      { name: 'Lynn Fitch', relationship: 'AG who argued Dobbs case Bryant\'s law created', href: '/entities/individuals/lynn-fitch' }
+    ],
+
   },
   'philip-sheridan': {
     name: 'Philip Sheridan',
@@ -50479,7 +53919,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'George Armstrong Custer', relationship: 'Custer served under Sheridan during Indian Wars', href: '/entities/individuals/george-armstrong-custer' },
+      { name: 'William Tecumseh Sherman', relationship: 'Fellow Union general who oversaw Native American campaigns', href: '/entities/individuals/william-tecumseh-sherman' },
+      { name: 'James Forsyth', relationship: 'Officer under Sheridan\'s command at Wounded Knee', href: '/entities/individuals/james-forsyth' }
+    ],
+
   },
   'philippe-moryoussef': {
     name: 'Philippe Moryoussef',
@@ -50495,7 +53940,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Tom Hayes', relationship: 'Fellow LIBOR manipulation figure', href: '/entities/individuals/tom-hayes' }
+    ],
+
   },
   'pol-pot': {
     name: 'Pol Pot',
@@ -50511,7 +53959,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Cambodia Bombing', slug: 'cambodia-bombing', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Norodom Sihanouk', relationship: 'Initially allied with then betrayed Sihanouk', href: '/entities/individuals/norodom-sihanouk' },
+      { name: 'Lon Nol', relationship: 'Khmer Rouge overthrew Lon Nol\'s US-backed regime', href: '/entities/individuals/lon-nol' },
+      { name: 'Henry Kissinger', relationship: 'Kissinger\'s Cambodia bombing helped radicalize population toward Pol Pot', href: '/entities/individuals/henry-kissinger' }
+    ],
+
   },
   'porcha-woodruff': {
     name: 'Porcha Woodruff',
@@ -50527,7 +53980,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Facial Recognition Surveillance', slug: 'facial-recognition-surveillance', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Nijeer Parks', relationship: 'Fellow victim of wrongful arrest via facial recognition', href: '/entities/individuals/nijeer-parks' },
+      { name: 'Joy Buolamwini', relationship: 'AI researcher who documented facial recognition bias', href: '/entities/individuals/joy-buolamwini' }
+    ],
+
   },
   'prudence-bushnell': {
     name: 'Prudence Bushnell',
@@ -50543,7 +54000,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Susan Rice', relationship: 'NSC official whom Bushnell warned about embassy security before bombing', href: '/entities/individuals/susan-rice' }
+    ],
+
   },
   'pw-botha': {
     name: 'P.W. Botha',
@@ -50559,7 +54019,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Us Support For Apartheid', slug: 'us-support-for-apartheid', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Nelson Mandela', relationship: 'Apartheid president who imprisoned Mandela', href: '/entities/individuals/nelson-mandela' },
+      { name: 'Desmond Tutu', relationship: 'Anti-apartheid leader who condemned Botha\'s regime', href: '/entities/individuals/desmond-tutu' }
+    ],
+
   },
   'ralph-abernathy': {
     name: 'Ralph Abernathy',
@@ -50575,7 +54039,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Mlk Assassination', slug: 'mlk-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Martin Luther King Jr', relationship: 'SCLC co-founder and MLK\'s closest movement partner', href: '/entities/individuals/martin-luther-king-jr' },
+      { name: 'Jesse Jackson', relationship: 'Fellow SCLC leader who continued civil rights work', href: '/entities/individuals/jesse-jackson' }
+    ],
+
   },
   'ramon-fonseca': {
     name: 'Ramón Fonseca',
@@ -50591,7 +54059,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Panama Papers', slug: 'panama-papers', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Jurgen Mossack', relationship: 'Co-founder of Mossack Fonseca law firm exposed in Panama Papers', href: '/entities/individuals/jurgen-mossack' }
+    ],
+
   },
   'ramona-africa': {
     name: 'Ramona Africa',
@@ -50607,7 +54078,13 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'John Africa', relationship: 'MOVE founder; Ramona survived the 1985 bombing', href: '/entities/individuals/john-africa' },
+      { name: 'Wilson Goode', relationship: 'Philadelphia mayor who ordered bombing that killed 11 MOVE members', href: '/entities/individuals/wilson-goode' },
+      { name: 'Frank Powell', relationship: 'Officer who dropped the bomb on MOVE compound', href: '/entities/individuals/frank-powell' },
+      { name: 'Katricia Africa', relationship: 'Fellow MOVE member', href: '/entities/individuals/katricia-africa' }
+    ],
+
   },
   'randall-robinson': {
     name: 'Randall Robinson',
@@ -50623,7 +54100,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Us Support For Apartheid', slug: 'us-support-for-apartheid', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Nelson Mandela', relationship: 'Led anti-apartheid movement in US to free Mandela', href: '/entities/individuals/nelson-mandela' },
+      { name: 'Jean-Bertrand Aristide', relationship: 'Advocated for Aristide\'s return to Haiti', href: '/entities/individuals/jean-bertrand-aristide' }
+    ],
+
   },
   'randy-weaver': {
     name: 'Randy Weaver',
@@ -50639,7 +54120,14 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Vicki Weaver', relationship: 'Wife killed by FBI sniper at Ruby Ridge', href: '/entities/individuals/vicki-weaver' },
+      { name: 'Samuel Weaver', relationship: 'Son killed during Ruby Ridge standoff', href: '/entities/individuals/samuel-weaver' },
+      { name: 'Kevin Harris', relationship: 'Friend at Ruby Ridge; both acquitted', href: '/entities/individuals/kevin-harris' },
+      { name: 'Lon Horiuchi', relationship: 'FBI sniper who killed Vicki Weaver', href: '/entities/individuals/lon-horiuchi' },
+      { name: 'Kenneth Fadeley', relationship: 'ATF informant who entrapped Weaver', href: '/entities/individuals/kenneth-fadeley' }
+    ],
+
   },
   'rashida-richardson': {
     name: 'Rashida Richardson',
@@ -50655,7 +54143,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Predictive Policing', slug: 'predictive-policing', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Joy Buolamwini', relationship: 'Fellow algorithmic accountability researcher', href: '/entities/individuals/joy-buolamwini' },
+      { name: 'Nathan Wessler', relationship: 'Fellow digital rights advocate', href: '/entities/individuals/nathan-wessler' }
+    ],
+
   },
   'ray-sitton': {
     name: 'Ray Sitton',
@@ -50671,7 +54163,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Cambodia Bombing', slug: 'cambodia-bombing', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Henry Kissinger', relationship: 'Executed secret Cambodia bombing orders from Kissinger', href: '/entities/individuals/henry-kissinger' }
+    ],
+
   },
   'ray-wood': {
     name: 'Ray Wood',
@@ -50687,7 +54182,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Malcolm X', relationship: 'Undercover officer who helped security at venue where Malcolm X was killed', href: '/entities/individuals/malcolm-x' }
+    ],
+
   },
   'raymond-bonner': {
     name: 'Raymond Bonner',
@@ -50703,7 +54201,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Rufina Amaya', relationship: 'Journalist who reported Amaya\'s eyewitness account of El Mozote massacre', href: '/entities/individuals/rufina-amaya' },
+      { name: 'Elliott Abrams', relationship: 'Reagan official who denied massacre Bonner reported', href: '/entities/individuals/elliott-abrams' }
+    ],
+
   },
   'rc-arnold': {
     name: 'Dr. R.C. Arnold',
@@ -50719,7 +54221,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'Fellow PHS figure connected to unethical experiments', href: '/entities/individuals/thomas-parran' }
+    ],
+
   },
   'rebecca-mark': {
     name: 'Rebecca Mark',
@@ -50735,7 +54240,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Kenneth Lay', relationship: 'Enron executive under Lay\'s leadership', href: '/entities/individuals/kenneth-lay' },
+      { name: 'Jeffrey Skilling', relationship: 'Rival Enron executive', href: '/entities/individuals/jeffrey-skilling' }
+    ],
+
   },
   'red-fawn-fallis': {
     name: 'Red Fawn Fallis',
@@ -50751,7 +54260,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Chase Iron Eyes', relationship: 'Fellow Standing Rock protester', href: '/entities/individuals/chase-iron-eyes' },
+      { name: 'Kyle Kirchmeier', relationship: 'Sheriff whose deputies arrested Fallis', href: '/entities/individuals/kyle-kirchmeier' }
+    ],
+
   },
   'reinhard-gehlen': {
     name: 'Reinhard Gehlen',
@@ -50767,7 +54280,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Operation Paperclip', slug: 'operation-paperclip', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Allen Dulles', relationship: 'CIA Director who recruited Nazi spymaster Gehlen', href: '/entities/individuals/allen-dulles' },
+      { name: 'Wernher von Braun', relationship: 'Fellow Nazi recruited by US intelligence', href: '/entities/individuals/wernher-von-braun' }
+    ],
+
   },
   'rene-schneider': {
     name: 'René Schneider',
@@ -50783,7 +54300,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Chile Coup', slug: 'chile-coup', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Augusto Pinochet', relationship: 'Pinochet rose to power after Schneider was assassinated', href: '/entities/individuals/augusto-pinochet' },
+      { name: 'Henry Kissinger', relationship: 'Kissinger authorized CIA operations leading to Schneider\'s murder', href: '/entities/individuals/henry-kissinger' },
+      { name: 'Orlando Letelier', relationship: 'Fellow Chilean victim of political violence', href: '/entities/individuals/orlando-letelier' }
+    ],
+
   },
   'ricardo-sanchez': {
     name: 'Lt. Gen. Ricardo Sanchez',
@@ -50799,7 +54321,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Abu Ghraib', slug: 'abu-ghraib', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Janis Karpinski', relationship: 'Abu Ghraib commander under Sanchez', href: '/entities/individuals/janis-karpinski' },
+      { name: 'Geoffrey Miller', relationship: 'Miller brought Gitmo techniques to Sanchez\'s Iraq command', href: '/entities/individuals/geoffrey-miller' }
+    ],
+
   },
   'richard-cordray': {
     name: 'Richard Cordray',
@@ -50815,7 +54341,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Elizabeth Warren', relationship: 'Warren created CFPB that Cordray went on to lead', href: '/entities/individuals/elizabeth-warren' }
+    ],
+
   },
   'richard-dorenkamp': {
     name: 'Richard Dorenkamp',
@@ -50831,7 +54360,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Thomas Stephens', relationship: 'Fellow tobacco industry figure', href: '/entities/individuals/thomas-stephens' }
+    ],
+
   },
   'richard-henry-pratt': {
     name: 'Richard Henry Pratt',
@@ -50847,7 +54379,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Henry Dawes', relationship: 'Fellow architect of Native American assimilation policy', href: '/entities/individuals/henry-dawes' },
+      { name: 'Dillon S. Myer', relationship: 'Later BIA Commissioner who continued boarding school legacy', href: '/entities/individuals/dillon-s-myer' }
+    ],
+
   },
   'richard-rogers': {
     name: 'Richard Rogers',
@@ -50863,7 +54399,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Waco Siege', slug: 'waco-siege', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Lon Horiuchi', relationship: 'FBI HRT commander who gave rules of engagement at Ruby Ridge', href: '/entities/individuals/lon-horiuchi' },
+      { name: 'Jeff Jamar', relationship: 'FBI on-scene commander at Waco; Rogers led tactical team', href: '/entities/individuals/jeff-jamar' }
+    ],
+
   },
   'richard-rothstein': {
     name: 'Richard Rothstein',
@@ -50880,7 +54420,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
       { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Robert Moses', relationship: 'Documented segregationist urban planning Moses exemplified', href: '/entities/individuals/robert-moses' },
+      { name: 'Keeanga-Yamahtta Taylor', relationship: 'Fellow housing discrimination scholar', href: '/entities/individuals/keeanga-yamahtta-taylor' }
+    ],
+
   },
   'richard-schwartz': {
     name: 'Richard Schwartz',
@@ -50896,7 +54440,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Facial Recognition Surveillance', slug: 'facial-recognition-surveillance', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Thomas Midgley Jr.', relationship: 'Connected to leaded gasoline industry', href: '/entities/individuals/thomas-midgley' }
+    ],
+
   },
   'richard-secord': {
     name: 'Richard Secord',
@@ -50912,7 +54459,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Laos Secret Bombing', slug: 'laos-secret-bombing', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Oliver North', relationship: 'Iran-Contra operative who managed arms deals with North', href: '/entities/individuals/oliver-north' },
+      { name: 'John Hull', relationship: 'Costa Rica ranch owner in Iran-Contra supply network', href: '/entities/individuals/john-hull' },
+      { name: 'Robert McFarlane', relationship: 'Fellow Iran-Contra figure', href: '/entities/individuals/robert-mcfarlane' }
+    ],
+
   },
   'rick-dearborn': {
     name: 'Rick Dearborn',
@@ -50928,7 +54480,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Project 2025', slug: 'project-2025', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Jeff Sessions', relationship: 'Sessions aide connected to Trump transition', href: '/entities/individuals/jeff-sessions' }
+    ],
+
   },
   'rigoberta-menchu': {
     name: 'Rigoberta Menchú',
@@ -50944,7 +54499,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Guatemala Genocide', slug: 'guatemala-genocide', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Efrain Rios Montt', relationship: 'Fought for justice against Rios Montt\'s Guatemalan genocide', href: '/entities/individuals/efrain-rios-montt' },
+      { name: 'Hector Gramajo', relationship: 'Guatemalan military figure whom Menchu\'s activism challenged', href: '/entities/individuals/hector-gramajo' }
+    ],
+
   },
   'rj-lehmann': {
     name: 'R.J. Lehmann',
@@ -50960,7 +54519,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Medical Bankruptcy', slug: 'medical-bankruptcy', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Robin Vos', relationship: 'Wisconsin political figure', href: '/entities/individuals/robin-vos' }
+    ],
+
   },
   'rob-bilott': {
     name: 'Rob Bilott',
@@ -50977,7 +54539,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Corporate Homicide', slug: 'corporate-homicide', severity: 'high' },
       { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Wilbur Tennant', relationship: 'Farmer whose poisoned cattle led Bilott to expose DuPont', href: '/entities/individuals/wilbur-tennant' }
+    ],
+
   },
   'robert-bilott': {
     name: 'Robert Bilott',
@@ -50994,7 +54559,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
       { title: 'Water Contamination Nationwide', slug: 'water-contamination-nationwide', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Wilbur Tennant', relationship: 'Farmer who first brought DuPont contamination to Bilott', href: '/entities/individuals/wilbur-tennant' },
+      { name: 'Mark Ruffalo', relationship: 'Portrayed Bilott in film Dark Waters', href: '/entities/individuals/mark-ruffalo' }
+    ],
+
   },
   'robert-crants': {
     name: 'Robert Crants',
@@ -51010,7 +54579,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Private Prison Industry', slug: 'private-prison-industry', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Thomas Beasley', relationship: 'Co-founded Corrections Corporation of America', href: '/entities/individuals/thomas-beasley' }
+    ],
+
   },
   'robert-dudley': {
     name: 'Robert Dudley',
@@ -51026,7 +54598,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Tony Hayward', relationship: 'Succeeded Hayward as BP CEO after Deepwater Horizon', href: '/entities/individuals/tony-hayward' }
+    ],
+
   },
   'robert-gates': {
     name: 'Robert Gates',
@@ -51042,7 +54617,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Libya Intervention', slug: 'libya-intervention', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Leon Panetta', relationship: 'Predecessor/successor at CIA and Defense Department', href: '/entities/individuals/leon-panetta' },
+      { name: 'George H.W. Bush', relationship: 'CIA Director under Bush era', href: '/entities/individuals/george-hw-bush' }
+    ],
+
   },
   'robert-houghton': {
     name: 'Robert Houghton',
@@ -51058,7 +54637,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Rfk Assassination', slug: 'rfk-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Sirhan Sirhan', relationship: 'LAPD detective who investigated RFK assassination', href: '/entities/individuals/sirhan-sirhan' },
+      { name: 'Thomas Noguchi', relationship: 'Coroner in RFK case Houghton investigated', href: '/entities/individuals/thomas-noguchi' }
+    ],
+
   },
   'robert-hugin': {
     name: 'Robert Hugin',
@@ -51074,7 +54657,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Richard Sackler', relationship: 'Fellow pharmaceutical industry exec facing opioid scrutiny', href: '/entities/individuals/richard-sackler' }
+    ],
+
   },
   'robert-kaluza': {
     name: 'Robert Kaluza',
@@ -51090,7 +54676,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Donald Vidrine', relationship: 'Fellow BP supervisor charged in Deepwater Horizon deaths', href: '/entities/individuals/donald-vidrine' },
+      { name: 'Kurt Mix', relationship: 'Fellow BP employee charged in spill cover-up', href: '/entities/individuals/kurt-mix' }
+    ],
+
   },
   'robert-kehoe': {
     name: 'Robert Kehoe',
@@ -51106,7 +54696,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Herbert Needleman', relationship: 'Scientist whose lead research Kehoe attacked', href: '/entities/individuals/herbert-needleman' },
+      { name: 'Clair Patterson', relationship: 'Scientist who fought lead industry Kehoe defended', href: '/entities/individuals/clair-patterson' },
+      { name: 'Thomas Midgley Jr.', relationship: 'Leaded gasoline inventor whose product Kehoe defended', href: '/entities/individuals/thomas-midgley' }
+    ],
+
   },
   'robert-king': {
     name: 'Robert King',
@@ -51122,7 +54717,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Albert Woodfox', relationship: 'Fellow Angola Three member held in decades of solitary', href: '/entities/individuals/albert-woodfox' },
+      { name: 'Herman Wallace', relationship: 'Fellow Angola Three member', href: '/entities/individuals/herman-wallace' }
+    ],
+
   },
   'robert-komer': {
     name: 'Robert Komer',
@@ -51138,7 +54737,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Phoenix Program', slug: 'phoenix-program', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'William Colby', relationship: 'CIA Director who oversaw Phoenix Program with Komer', href: '/entities/individuals/william-colby' },
+      { name: 'Nelson Brickham', relationship: 'CIA officer who designed Phoenix pacification Komer directed', href: '/entities/individuals/nelson-brickham' }
+    ],
+
   },
   'robert-martens': {
     name: 'Robert J. Martens',
@@ -51154,7 +54757,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Indonesia Mass Killings', slug: 'indonesia-mass-killings', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Suharto', relationship: 'Embassy staffer who provided communist kill lists to Suharto\'s military', href: '/entities/individuals/suharto' },
+      { name: 'Marshall Green', relationship: 'US Ambassador who directed Martens during Indonesian massacre', href: '/entities/individuals/marshall-green' }
+    ],
+
   },
   'robert-mcfarlane': {
     name: 'Robert McFarlane',
@@ -51170,7 +54777,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'October Surprise 1980', slug: 'october-surprise-1980', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Oliver North', relationship: 'NSA predecessor who initiated Iran-Contra arms deals', href: '/entities/individuals/oliver-north' },
+      { name: 'Richard Secord', relationship: 'Fellow Iran-Contra operative', href: '/entities/individuals/richard-secord' }
+    ],
+
   },
   'robert-moses': {
     name: 'Robert Moses',
@@ -51186,7 +54797,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Robert Weaver', relationship: 'HUD Secretary who tried to counter Moses\' segregation', href: '/entities/individuals/robert-weaver' },
+      { name: 'William Levitt', relationship: 'Fellow mid-century figure who enforced housing segregation', href: '/entities/individuals/william-levitt' },
+      { name: 'Richard Rothstein', relationship: 'Historian who documented Moses\' segregationist infrastructure', href: '/entities/individuals/richard-rothstein' }
+    ],
+
   },
   'robert-scherrer': {
     name: 'Robert Scherrer',
@@ -51202,7 +54818,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Operation Condor', slug: 'operation-condor', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Michael Townley', relationship: 'FBI agent in South America who tracked Operation Condor assassins', href: '/entities/individuals/michael-townley' }
+    ],
+
   },
   'robert-taft': {
     name: 'Robert Taft',
@@ -51218,7 +54837,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Union Busting', slug: 'union-busting', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Joseph McCarthy', relationship: 'Taft initially supported McCarthy\'s anti-communist crusade', href: '/entities/individuals/joseph-mccarthy' }
+    ],
+
   },
   'robert-taylor': {
     name: 'Robert Taylor',
@@ -51234,7 +54856,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Jackson Water Crisis', slug: 'jackson-water-crisis', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Robert Moses', relationship: 'Fellow mid-century housing segregation figure', href: '/entities/individuals/robert-moses' }
+    ],
+
   },
   'robert-weaver': {
     name: 'Robert Weaver',
@@ -51250,7 +54875,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Robert Moses', relationship: 'First Black HUD Secretary who opposed Moses\' segregation', href: '/entities/individuals/robert-moses' }
+    ],
+
   },
   'robert-williams': {
     name: 'Robert Williams',
@@ -51266,7 +54894,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Facial Recognition Surveillance', slug: 'facial-recognition-surveillance', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Martin Luther King Jr', relationship: 'Advocated armed self-defense vs King\'s nonviolence', href: '/entities/individuals/martin-luther-king-jr' }
+    ],
+
   },
   'roberta-kaplan': {
     name: 'Roberta Kaplan',
@@ -51282,7 +54913,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Sexual Assault', slug: 'sexual-assault', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'E. Jean Carroll', relationship: 'Attorney who won landmark sexual assault case against Trump for Carroll', href: '/entities/individuals/e-jean-carroll' }
+    ],
+
   },
   'roberto-daubuisson': {
     name: 'Roberto D\'Aubuisson',
@@ -51299,7 +54933,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
       { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Oscar Romero', relationship: 'Death squad leader who ordered Archbishop Romero\'s assassination', href: '/entities/individuals/oscar-romero' },
+      { name: 'Elliott Abrams', relationship: 'Reagan official who downplayed D\'Aubuisson\'s death squads', href: '/entities/individuals/elliott-abrams' }
+    ],
+
   },
   'robin-arkley-ii': {
     name: 'Robin Arkley II',
@@ -51315,7 +54953,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Supreme Court Ethics', slug: 'supreme-court-ethics', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Thomas Hofeller', relationship: 'Republican donor connected to conservative political strategy', href: '/entities/individuals/thomas-hofeller' }
+    ],
+
   },
   'robin-vos': {
     name: 'Robin Vos',
@@ -51331,7 +54972,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Gerrymandering', slug: 'gerrymandering', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Scott Walker', relationship: 'Wisconsin governor during Vos\'s gerrymandering era', href: '/entities/individuals/scott-walker' },
+      { name: 'Scott Fitzgerald', relationship: 'Fellow Wisconsin Republican leader', href: '/entities/individuals/scott-fitzgerald' }
+    ],
+
   },
   'roger-noriega': {
     name: 'Roger Noriega',
@@ -51347,7 +54992,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Haiti Exploitation', slug: 'haiti-exploitation', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Elliott Abrams', relationship: 'Fellow Bush-era Latin America hawk', href: '/entities/individuals/elliott-abrams' }
+    ],
+
   },
   'roger-severino': {
     name: 'Roger Severino',
@@ -51363,7 +55011,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Project 2025', slug: 'project-2025', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Scott Lloyd', relationship: 'Fellow Trump HHS official restricting reproductive rights', href: '/entities/individuals/scott-lloyd' }
+    ],
+
   },
   'romeo-dallaire': {
     name: 'Roméo Dallaire',
@@ -51379,7 +55030,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Kofi Annan', relationship: 'UN head who denied Dallaire\'s requests for reinforcements in Rwanda', href: '/entities/individuals/kofi-annan' },
+      { name: 'Paul Kagame', relationship: 'RPF leader whose intervention ended genocide Dallaire tried to prevent', href: '/entities/individuals/paul-kagame' },
+      { name: 'Theoneste Bagosora', relationship: 'Genocide architect Dallaire tried to stop', href: '/entities/individuals/theoneste-bagosora' }
+    ],
+
   },
   'ron-wyden': {
     name: 'Senator Ron Wyden',
@@ -51395,7 +55051,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Stingray Surveillance', slug: 'stingray-surveillance', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Edward Snowden', relationship: 'Senator who hinted at NSA surveillance before Snowden exposed it', href: '/entities/individuals/edward-snowden' },
+      { name: 'James Clapper', relationship: 'DNI who lied to Wyden about surveillance in Senate hearing', href: '/entities/individuals/james-clapper' }
+    ],
+
   },
   'roy-bourgeois': {
     name: 'Roy Bourgeois',
@@ -51411,7 +55071,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Oscar Romero', relationship: 'Founded SOA Watch after graduates killed Romero and others', href: '/entities/individuals/oscar-romero' }
+    ],
+
   },
   'roy-bryant': {
     name: 'Roy Bryant',
@@ -51427,7 +55090,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'J.W. Milam', relationship: 'Half-brother and co-murderer of Emmett Till', href: '/entities/individuals/jw-milam' },
+      { name: 'Mamie Till-Mobley', relationship: 'Mother of Emmett Till whom Bryant murdered', href: '/entities/individuals/mamie-till-mobley' },
+      { name: 'Moses Wright', relationship: 'Emmett\'s uncle who identified Bryant in court', href: '/entities/individuals/moses-wright' }
+    ],
+
   },
   'roy-cohn': {
     name: 'Roy Cohn',
@@ -51466,7 +55134,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Fred Hampton Assassination', slug: 'fred-hampton-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Fred Hampton', relationship: 'FBI handler of informant who helped assassinate Hampton', href: '/entities/individuals/fred-hampton' },
+      { name: 'William O\'Neal', relationship: 'FBI informant Mitchell handled to infiltrate Black Panthers', href: '/entities/individuals/william-oneal' }
+    ],
+
   },
   'rufina-amaya': {
     name: 'Rufina Amaya',
@@ -51482,7 +55154,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Oscar Romero', relationship: 'Archbishop whose murder preceded the El Mozote massacre Amaya survived', href: '/entities/individuals/oscar-romero' },
+      { name: 'Raymond Bonner', relationship: 'Journalist who published Amaya\'s account of El Mozote massacre', href: '/entities/individuals/raymond-bonner' },
+      { name: 'Elliott Abrams', relationship: 'Reagan official who denied the massacre Amaya witnessed', href: '/entities/individuals/elliott-abrams' }
+    ],
+
   },
   'russell-pearce': {
     name: 'Russell Pearce',
@@ -51498,7 +55175,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Alec Model Legislation', slug: 'alec-model-legislation', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Joe Arpaio', relationship: 'Key ally in Arizona anti-immigration policy', href: '/entities/individuals/joe-arpaio' },
+      { name: 'Jan Brewer', relationship: 'Arizona governor who signed Pearce\'s SB1070', href: '/entities/individuals/jan-brewer' }
+    ],
+
   },
   'russell-portenoy': {
     name: 'Russell Portenoy',
@@ -51514,7 +55195,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Purdue Pharma Oxycontin', slug: 'purdue-pharma-oxycontin', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Richard Sackler', relationship: 'Pain specialist whose research helped Sacklers market OxyContin', href: '/entities/individuals/richard-sackler' }
+    ],
+
   },
   'ruth-bader-ginsburg': {
     name: 'Ruth Bader Ginsburg',
@@ -51530,7 +55214,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Civil Asset Forfeiture', slug: 'civil-asset-forfeiture', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Sandra Day O\'Connor', relationship: 'Fellow female Supreme Court justice', href: '/entities/individuals/sandra-day-oconnor' }
+    ],
+
   },
   'ruth-madoff': {
     name: 'Ruth Madoff',
@@ -51546,7 +55233,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Bernie Madoff Ponzi', slug: 'bernie-madoff-ponzi', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Bernie Madoff', relationship: 'Wife of Ponzi scheme architect', href: '/entities/individuals/bernie-madoff' },
+      { name: 'Mark Madoff', relationship: 'Son who reported Bernie\'s fraud', href: '/entities/individuals/mark-madoff' },
+      { name: 'Peter Madoff', relationship: 'Brother-in-law at Madoff firm', href: '/entities/individuals/peter-madoff' }
+    ],
+
   },
   'ruth-riddle': {
     name: 'Ruth Riddle',
@@ -51562,7 +55254,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Waco Siege', slug: 'waco-siege', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'David Koresh', relationship: 'Branch Davidian survivor of Waco siege', href: '/entities/individuals/david-koresh' }
+    ],
+
   },
   'ryan-crocker': {
     name: 'Ryan Crocker',
@@ -51578,7 +55273,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Afghanistan Papers', slug: 'afghanistan-papers', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'L. Paul Bremer', relationship: 'Fellow US official in Iraq reconstruction', href: '/entities/individuals/l-paul-bremer' }
+    ],
+
   },
   'ryan-salame': {
     name: 'Ryan Salame',
@@ -51594,7 +55292,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Ftx Crypto Fraud', slug: 'ftx-crypto-fraud', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Sam Bankman-Fried', relationship: 'FTX co-CEO who pleaded guilty to campaign finance fraud', href: '/entities/individuals/sam-bankman-fried' },
+      { name: 'Nishad Singh', relationship: 'Fellow FTX executive who cooperated with prosecutors', href: '/entities/individuals/nishad-singh' }
+    ],
+
   },
   'sam-walton': {
     name: 'Sam Walton',
@@ -51610,7 +55312,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Union Busting', slug: 'union-busting', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Jeff Bezos', relationship: 'Walton\'s retail empire later challenged by Bezos\'s Amazon', href: '/entities/individuals/jeff-bezos' }
+    ],
+
   },
   'sam-zemurray': {
     name: 'Sam Zemurray',
@@ -51626,7 +55331,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Guatemala Coup 1954', slug: 'guatemala-coup-1954', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Jacobo Arbenz', relationship: 'United Fruit head who lobbied for CIA coup against Arbenz', href: '/entities/individuals/jacobo-arbenz' },
+      { name: 'Allen Dulles', relationship: 'CIA Director who executed coup Zemurray pushed for', href: '/entities/individuals/allen-dulles' }
+    ],
+
   },
   'samuel-koster': {
     name: 'Samuel Koster',
@@ -51642,7 +55351,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'William Calley', relationship: 'Division commander who covered up Calley\'s My Lai massacre', href: '/entities/individuals/william-calley' },
+      { name: 'Hugh Thompson Jr', relationship: 'Helicopter pilot who tried to stop massacre under Koster\'s command', href: '/entities/individuals/hugh-thompson-jr' }
+    ],
+
   },
   'samuel-weaver': {
     name: 'Samuel Weaver',
@@ -51658,7 +55371,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Randy Weaver', relationship: 'Father at Ruby Ridge standoff', href: '/entities/individuals/randy-weaver' },
+      { name: 'William Degan', relationship: 'US Marshal killed in same Ruby Ridge shootout that killed Samuel', href: '/entities/individuals/william-degan' }
+    ],
+
   },
   'sandra-bland': {
     name: 'Sandra Bland',
@@ -51674,7 +55391,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Bryan Stevenson', relationship: 'Criminal justice reform advocate who highlighted cases like Bland\'s', href: '/entities/individuals/bryan-stevenson' }
+    ],
+
   },
   'sarah-page': {
     name: 'Sarah Page',
@@ -51690,7 +55410,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Tulsa Race Massacre', slug: 'tulsa-race-massacre', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Dick Rowland', relationship: 'Rowland was falsely accused of assaulting Page, triggering Tulsa Massacre', href: '/entities/individuals/dick-rowland' },
+      { name: 'AJ Smitherman', relationship: 'Black publisher who covered story of Page and Rowland', href: '/entities/individuals/aj-smitherman' }
+    ],
+
   },
   'sarwo-edhie-wibowo': {
     name: 'Sarwo Edhie Wibowo',
@@ -51706,7 +55430,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Indonesia Mass Killings', slug: 'indonesia-mass-killings', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Suharto', relationship: 'Army commander who led mass killings for Suharto', href: '/entities/individuals/suharto' },
+      { name: 'Robert Martens', relationship: 'US embassy staffer who provided kill lists Wibowo\'s troops used', href: '/entities/individuals/robert-martens' }
+    ],
+
   },
   'savanna-lafontaine-greywind': {
     name: 'Savanna LaFontaine-Greywind',
@@ -51722,7 +55450,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Missing Murdered Indigenous Women', slug: 'missing-murdered-indigenous-women', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Lisa Brunner', relationship: 'MMIW advocate who cited LaFontaine-Greywind\'s case', href: '/entities/individuals/lisa-brunner' },
+      { name: 'Mary Kathryn Nagle', relationship: 'MMIW advocate who highlighted this case', href: '/entities/individuals/mary-kathryn-nagle' }
+    ],
+
   },
   'scott-ellsworth': {
     name: 'Scott Ellsworth',
@@ -51738,7 +55470,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Tulsa Race Massacre', slug: 'tulsa-race-massacre', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Viola Fletcher', relationship: 'Historian who documented Tulsa Race Massacre Fletcher survived', href: '/entities/individuals/viola-fletcher' }
+    ],
+
   },
   'scott-lloyd': {
     name: 'Scott Lloyd',
@@ -51754,7 +55489,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Ice Detention Abuses', slug: 'ice-detention-abuses', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Roger Severino', relationship: 'Fellow Trump HHS official restricting reproductive rights', href: '/entities/individuals/roger-severino' }
+    ],
+
   },
   'scott-walker': {
     name: 'Scott Walker',
@@ -51772,7 +55510,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Koch Network', slug: 'koch-network', severity: 'high' },
       { title: 'Union Busting', slug: 'union-busting', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Robin Vos', relationship: 'Wisconsin Assembly Speaker during Walker\'s governorship', href: '/entities/individuals/robin-vos' },
+      { name: 'Scott Fitzgerald', relationship: 'Wisconsin Senate leader during Walker\'s union-busting', href: '/entities/individuals/scott-fitzgerald' }
+    ],
+
   },
   'seymour-hersh': {
     name: 'Seymour Hersh',
@@ -51788,7 +55530,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'William Calley', relationship: 'Journalist who broke My Lai massacre story', href: '/entities/individuals/william-calley' },
+      { name: 'Hugh Thompson Jr', relationship: 'Helicopter pilot hero of Hersh\'s My Lai reporting', href: '/entities/individuals/hugh-thompson-jr' },
+      { name: 'Daniel Ellsberg', relationship: 'Fellow figure in exposing government deception', href: '/entities/individuals/daniel-ellsberg' }
+    ],
+
   },
   'sheldon-whitehouse': {
     name: 'Sheldon Whitehouse',
@@ -51804,7 +55551,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Ron Wyden', relationship: 'Fellow Democratic senator investigating dark money', href: '/entities/individuals/ron-wyden' }
+    ],
+
   },
   'shelley-family': {
     name: 'Shelley v. Kraemer Plaintiffs',
@@ -51820,7 +55570,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Richard Rothstein', relationship: 'Housing historian who documented impact of restrictive covenants like in Shelley case', href: '/entities/individuals/richard-rothstein' }
+    ],
+
   },
   'sherrilyn-ifill': {
     name: 'Sherrilyn Ifill',
@@ -51836,7 +55589,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Bryan Stevenson', relationship: 'Fellow civil rights legal leader', href: '/entities/individuals/bryan-stevenson' },
+      { name: 'Thurgood Marshall', relationship: 'Led NAACP Legal Defense Fund Marshall founded', href: '/entities/individuals/thurgood-marshall' }
+    ],
+
   },
   'sherron-watkins': {
     name: 'Sherron Watkins',
@@ -51852,7 +55609,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Kenneth Lay', relationship: 'Enron chairman Watkins warned about accounting fraud', href: '/entities/individuals/kenneth-lay' },
+      { name: 'Jeffrey Skilling', relationship: 'Enron CEO whose fraud Watkins exposed', href: '/entities/individuals/jeffrey-skilling' },
+      { name: 'Andrew Fastow', relationship: 'Enron CFO whose fraudulent entities Watkins reported', href: '/entities/individuals/andrew-fastow' }
+    ],
+
   },
   'sigmundur-gunnlaugsson': {
     name: 'Sigmundur Davíð Gunnlaugsson',
@@ -51868,7 +55630,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Panama Papers', slug: 'panama-papers', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Jurgen Mossack', relationship: 'Mossack Fonseca leak exposed Gunnlaugsson\'s offshore holdings', href: '/entities/individuals/jurgen-mossack' },
+      { name: 'Ramon Fonseca', relationship: 'Co-founder of firm whose Panama Papers exposed Gunnlaugsson', href: '/entities/individuals/ramon-fonseca' }
+    ],
+
   },
   'sirhan-sirhan': {
     name: 'Sirhan Bishara Sirhan',
@@ -51884,7 +55650,13 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Rfk Assassination', slug: 'rfk-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Robert F. Kennedy', relationship: 'Assassinated RFK during 1968 presidential campaign', href: '/entities/individuals/robert-f-kennedy' },
+      { name: 'Laurence Teeter', relationship: 'Defense attorney who represented Sirhan for decades', href: '/entities/individuals/laurence-teeter' },
+      { name: 'Paul Schrade', relationship: 'RFK aide wounded by Sirhan who later advocated his release', href: '/entities/individuals/paul-schrade' },
+      { name: 'Thane Cesar', relationship: 'Security guard suspected by some of firing second gun', href: '/entities/individuals/thane-cesar' }
+    ],
+
   },
   'smedley-butler': {
     name: 'Smedley Butler',
@@ -51900,7 +55672,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Haiti Exploitation', slug: 'haiti-exploitation', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Theodore Roosevelt', relationship: 'Marine general who served in wars Butler later denounced as corporate imperialism', href: '/entities/individuals/theodore-roosevelt' }
+    ],
+
   },
   'stafford-warren': {
     name: 'Stafford Warren',
@@ -51916,7 +55691,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'J. Robert Oppenheimer', relationship: 'Manhattan Project radiologist during Oppenheimer\'s weapon development', href: '/entities/individuals/j-robert-oppenheimer' },
+      { name: 'Thomas Murray', relationship: 'AEC commissioner connected to nuclear testing Warren studied', href: '/entities/individuals/thomas-murray' }
+    ],
+
   },
   'stanley-mcchrystal': {
     name: 'Stanley McChrystal',
@@ -51933,7 +55712,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Afghanistan Papers', slug: 'afghanistan-papers', severity: 'high' },
       { title: 'Drone Assassination Program', slug: 'drone-assassination-program', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Pat Tillman', relationship: 'Tillman died in friendly fire under McChrystal\'s command; cover-up followed', href: '/entities/individuals/pat-tillman' }
+    ],
+
   },
   'stefano-delle-chiaie': {
     name: 'Stefano Delle Chiaie',
@@ -51949,7 +55731,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Michael Townley', relationship: 'Fellow Operation Condor operative', href: '/entities/individuals/michael-townley' },
+      { name: 'Licio Gelli', relationship: 'P2 Lodge figure connected to Delle Chiaie\'s fascist network', href: '/entities/individuals/licio-gelli' },
+      { name: 'Vincenzo Vinciguerra', relationship: 'Fellow Italian far-right figure in Operation Gladio', href: '/entities/individuals/vincenzo-vinciguerra' }
+    ],
+
   },
   'stephen-hemsley': {
     name: 'Stephen Hemsley',
@@ -51966,7 +55753,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Health Insurance Deaths', slug: 'health-insurance-deaths', severity: 'high' },
       { title: 'Medical Bankruptcy', slug: 'medical-bankruptcy', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Karen Ignagni', relationship: 'Fellow health insurance industry leader', href: '/entities/individuals/karen-ignagni' },
+      { name: 'Wendell Potter', relationship: 'Insurance whistleblower who exposed industry practices Hemsley profited from', href: '/entities/individuals/wendell-potter' },
+      { name: 'Nicole Smith-Holt', relationship: 'Mother whose son died from rationing insulin Hemsley\'s company priced', href: '/entities/individuals/nicole-smith-holt' }
+    ],
+
   },
   'stephen-townsend': {
     name: 'General Stephen Townsend',
@@ -51982,7 +55774,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Somalia Intervention', slug: 'somalia-intervention', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Stanley McChrystal', relationship: 'Fellow military commander in Middle East/Africa operations', href: '/entities/individuals/stanley-mcchrystal' }
+    ],
+
   },
   'stephen-ubl': {
     name: 'Stephen Ubl',
@@ -51998,7 +55793,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Karen Ignagni', relationship: 'Fellow healthcare industry lobbying figure', href: '/entities/individuals/karen-ignagni' }
+    ],
+
   },
   'stewart-udall': {
     name: 'Stewart Udall',
@@ -52014,7 +55812,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Ken Salazar', relationship: 'Later Interior Secretary who continued Udall\'s environmental legacy', href: '/entities/individuals/ken-salazar' }
+    ],
+
   },
   'stuart-appelbaum': {
     name: 'Stuart Appelbaum',
@@ -52030,7 +55831,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Amazon Labor Abuses', slug: 'amazon-labor-abuses', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Chris Smalls', relationship: 'Union leader who supported Amazon organizing Smalls led', href: '/entities/individuals/chris-smalls' },
+      { name: 'Jennifer Bates', relationship: 'Amazon warehouse organizer Appelbaum supported', href: '/entities/individuals/jennifer-bates' }
+    ],
+
   },
   'stuart-johnson': {
     name: 'Stuart Johnson',
@@ -52046,7 +55851,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'Connected to Public Health Service during unethical research', href: '/entities/individuals/thomas-parran' }
+    ],
+
   },
   'stuart-symington': {
     name: 'Stuart Symington',
@@ -52062,7 +55870,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Laos Secret Bombing', slug: 'laos-secret-bombing', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Joseph McCarthy', relationship: 'Senator who confronted McCarthy during Army hearings', href: '/entities/individuals/joseph-mccarthy' }
+    ],
+
   },
   'suharto': {
     name: 'Suharto',
@@ -52079,7 +55890,13 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'East Timor Genocide', slug: 'east-timor-genocide', severity: 'high' },
       { title: 'Indonesia Mass Killings', slug: 'indonesia-mass-killings', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Sukarno', relationship: 'Overthrew Sukarno in military coup backed by US', href: '/entities/individuals/sukarno' },
+      { name: 'Robert Martens', relationship: 'US embassy staffer who gave communist kill lists to Suharto\'s army', href: '/entities/individuals/robert-martens' },
+      { name: 'Marshall Green', relationship: 'US Ambassador who supported Suharto\'s rise', href: '/entities/individuals/marshall-green' },
+      { name: 'Sarwo Edhie Wibowo', relationship: 'Army commander who led mass killings for Suharto', href: '/entities/individuals/sarwo-edhie-wibowo' }
+    ],
+
   },
   'sukarno': {
     name: 'Sukarno',
@@ -52095,7 +55912,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Indonesia Mass Killings', slug: 'indonesia-mass-killings', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Suharto', relationship: 'Military general who overthrew Sukarno', href: '/entities/individuals/suharto' },
+      { name: 'Allen Dulles', relationship: 'CIA Director whose agency worked to destabilize Sukarno', href: '/entities/individuals/allen-dulles' }
+    ],
+
   },
   'susan-reverby': {
     name: 'Susan Reverby',
@@ -52111,7 +55932,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'John Charles Cutler', relationship: 'Historian who discovered Cutler\'s Guatemala STD experiments', href: '/entities/individuals/john-charles-cutler' },
+      { name: 'Thomas Parran', relationship: 'Uncovered PHS\'s unethical experiment history under Parran', href: '/entities/individuals/thomas-parran' }
+    ],
+
   },
   'susan-rice': {
     name: 'Susan Rice',
@@ -52127,7 +55952,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Libya Intervention', slug: 'libya-intervention', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Samantha Power', relationship: 'Fellow Obama national security official', href: '/entities/individuals/samantha-power' },
+      { name: 'Prudence Bushnell', relationship: 'Ambassador who warned Rice about embassy security before Kenya bombing', href: '/entities/individuals/prudence-bushnell' }
+    ],
+
   },
   'suzanne-scott': {
     name: 'Suzanne Scott',
@@ -52143,7 +55972,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Fox News Propaganda', slug: 'fox-news-propaganda', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Roger Ailes', relationship: 'Succeeded Ailes era as Fox News CEO', href: '/entities/individuals/roger-ailes' }
+    ],
+
   },
   'tamika-palmer': {
     name: 'Tamika Palmer',
@@ -52159,7 +55991,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Breonna Taylor', relationship: 'Mother of Breonna Taylor killed in no-knock raid', href: '/entities/individuals/breonna-taylor' },
+      { name: 'Joshua Jaynes', relationship: 'Detective who obtained false warrant leading to Taylor\'s death', href: '/entities/individuals/joshua-jaynes' }
+    ],
+
   },
   'tamir-rice': {
     name: 'Tamir Rice',
@@ -52175,7 +56011,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Police Militarization', slug: 'police-militarization', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Timothy Loehmann', relationship: 'Officer who shot 12-year-old Tamir at Cleveland playground', href: '/entities/individuals/timothy-loehmann' }
+    ],
+
   },
   'tarla-makaeff': {
     name: 'Tarla Makaeff',
@@ -52191,7 +56030,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Trump University', slug: 'trump-university', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Lead plaintiff in Trump University fraud lawsuit', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'ted-henifin': {
     name: 'Ted Henifin',
@@ -52207,7 +56049,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Jackson Water Crisis', slug: 'jackson-water-crisis', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Marc Edwards', relationship: 'Worked with Edwards on Flint water crisis infrastructure', href: '/entities/individuals/marc-edwards' }
+    ],
+
   },
   'ted-shackley': {
     name: 'Ted Shackley',
@@ -52224,7 +56069,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Laos Secret Bombing', slug: 'laos-secret-bombing', severity: 'high' },
       { title: 'Phoenix Program', slug: 'phoenix-program', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Edwin Wilson', relationship: 'CIA rogue agent connected to Shackley\'s secret operations', href: '/entities/individuals/edwin-wilson' },
+      { name: 'Thomas Clines', relationship: 'Fellow CIA officer in Shackley\'s secret team', href: '/entities/individuals/thomas-corcoran' },
+      { name: 'Vang Pao', relationship: 'Hmong general Shackley ran Secret War with in Laos', href: '/entities/individuals/vang-pao' }
+    ],
+
   },
   'terrell-don-hutto': {
     name: 'Terrell Don Hutto',
@@ -52240,7 +56090,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Private Prison Industry', slug: 'private-prison-industry', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Thomas Beasley', relationship: 'CCA co-founder alongside Hutto', href: '/entities/individuals/thomas-beasley' },
+      { name: 'Robert Crants', relationship: 'Fellow CCA private prison founder', href: '/entities/individuals/robert-crants' }
+    ],
+
   },
   'terry-dehko': {
     name: 'Terry Dehko',
@@ -52256,7 +56110,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Civil Asset Forfeiture', slug: 'civil-asset-forfeiture', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Mandrel Stuart', relationship: 'Fellow civil asset forfeiture victim', href: '/entities/individuals/mandrel-stuart' }
+    ],
+
   },
   'terry-farr': {
     name: 'Terry Farr',
@@ -52272,7 +56129,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Tom Hayes', relationship: 'Fellow LIBOR scandal figure', href: '/entities/individuals/tom-hayes' },
+      { name: 'Philippe Moryoussef', relationship: 'Fellow LIBOR manipulation participant', href: '/entities/individuals/philippe-moryoussef' }
+    ],
+
   },
   'thad-allen': {
     name: 'Thad Allen',
@@ -52288,7 +56149,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Tony Hayward', relationship: 'National Incident Commander managing BP Deepwater Horizon response', href: '/entities/individuals/tony-hayward' },
+      { name: 'Ken Salazar', relationship: 'Interior Secretary during BP spill Allen managed', href: '/entities/individuals/ken-salazar' }
+    ],
+
   },
   'thane-cesar': {
     name: 'Thane Eugene Cesar',
@@ -52304,7 +56169,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Rfk Assassination', slug: 'rfk-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Sirhan Sirhan', relationship: 'Security guard present when Sirhan shot RFK; suspect in second gun theory', href: '/entities/individuals/sirhan-sirhan' },
+      { name: 'Robert F. Kennedy', relationship: 'Was guarding RFK when assassination occurred', href: '/entities/individuals/robert-f-kennedy' }
+    ],
+
   },
   'theodore-bilbo': {
     name: 'Theodore Bilbo',
@@ -52320,7 +56189,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Nathan Bedford Forrest', relationship: 'Fellow white supremacist political figure championing racial hierarchy', href: '/entities/individuals/nathan-bedford-forrest' }
+    ],
+
   },
   'theoneste-bagosora': {
     name: 'Théoneste Bagosora',
@@ -52336,7 +56208,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Juvenal Habyarimana', relationship: 'Launched genocide after Habyarimana\'s assassination', href: '/entities/individuals/juvenal-habyarimana' },
+      { name: 'Romeo Dallaire', relationship: 'UN commander who Bagosora warned "this will be an apocalypse"', href: '/entities/individuals/romeo-dallaire' },
+      { name: 'Paul Kagame', relationship: 'RPF leader whose forces ended genocide Bagosora directed', href: '/entities/individuals/paul-kagame' }
+    ],
+
   },
   'thomas-beasley': {
     name: 'Thomas Beasley',
@@ -52352,7 +56229,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Private Prison Industry', slug: 'private-prison-industry', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Robert Crants', relationship: 'Co-founded CCA private prison empire', href: '/entities/individuals/robert-crants' },
+      { name: 'Terrell Don Hutto', relationship: 'Fellow CCA co-founder', href: '/entities/individuals/terrell-don-hutto' }
+    ],
+
   },
   'thomas-curry': {
     name: 'Thomas Curry',
@@ -52368,7 +56249,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Martin Wheatley', relationship: 'Fellow financial regulator during LIBOR scandal era', href: '/entities/individuals/martin-wheatley' }
+    ],
+
   },
   'thomas-dobbs': {
     name: 'Thomas Dobbs',
@@ -52384,7 +56268,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Roe V Wade Overturn', slug: 'roe-v-wade-overturn', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Lynn Fitch', relationship: 'Mississippi AG who argued Dobbs v. Jackson case', href: '/entities/individuals/lynn-fitch' },
+      { name: 'Phil Bryant', relationship: 'Governor who signed 15-week abortion ban in Dobbs case', href: '/entities/individuals/phil-bryant' }
+    ],
+
   },
   'thomas-drake': {
     name: 'Thomas Drake',
@@ -52400,7 +56288,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Whistleblower Persecution', slug: 'whistleblower-persecution', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Edward Snowden', relationship: 'Fellow NSA whistleblower who preceded Snowden', href: '/entities/individuals/edward-snowden' },
+      { name: 'William Binney', relationship: 'Fellow NSA whistleblower who exposed ThinThread abuse', href: '/entities/individuals/william-binney' }
+    ],
+
   },
   'thomas-enders': {
     name: 'Thomas Enders',
@@ -52416,7 +56308,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Elliott Abrams', relationship: 'Fellow Reagan Central America policy figure', href: '/entities/individuals/elliott-abrams' }
+    ],
+
   },
   'thomas-hofeller': {
     name: 'Thomas Hofeller',
@@ -52432,7 +56327,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Gerrymandering', slug: 'gerrymandering', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Chris Jankowski', relationship: 'Fellow Republican gerrymandering strategist', href: '/entities/individuals/chris-jankowski' },
+      { name: 'Phil Berger', relationship: 'NC Republican who used Hofeller\'s maps', href: '/entities/individuals/phil-berger' }
+    ],
+
   },
   'thomas-jackson': {
     name: 'Thomas Jackson',
@@ -52448,7 +56347,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Police Militarization', slug: 'police-militarization', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Darren Wilson', relationship: 'Ferguson police chief during Michael Brown shooting by Wilson', href: '/entities/individuals/darren-wilson' },
+      { name: 'Michael Brown', relationship: 'Brown\'s death under Jackson\'s police leadership triggered Ferguson unrest', href: '/entities/individuals/michael-brown' }
+    ],
+
   },
   'thomas-jefferson': {
     name: 'Thomas Jefferson',
@@ -52464,7 +56367,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'James Knox Polk', relationship: 'Expansionist president who followed Jefferson\'s manifest destiny vision', href: '/entities/individuals/james-knox-polk' }
+    ],
+
   },
   'thomas-midgley': {
     name: 'Thomas Midgley Jr.',
@@ -52480,7 +56386,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Robert Kehoe', relationship: 'Scientist who defended Midgley\'s leaded gasoline', href: '/entities/individuals/robert-kehoe' },
+      { name: 'Clair Patterson', relationship: 'Scientist who proved Midgley\'s leaded gasoline poisoned the planet', href: '/entities/individuals/clair-patterson' },
+      { name: 'Herbert Needleman', relationship: 'Researcher who documented leaded gasoline brain damage Midgley caused', href: '/entities/individuals/herbert-needleman' }
+    ],
+
   },
   'thomas-morgan': {
     name: 'Thomas Morgan',
@@ -52496,7 +56407,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Richard Henry Pratt', relationship: 'BIA Commissioner during Pratt\'s boarding school era', href: '/entities/individuals/richard-henry-pratt' },
+      { name: 'Henry Dawes', relationship: 'Dawes Act enforced during Morgan\'s BIA tenure', href: '/entities/individuals/henry-dawes' }
+    ],
+
   },
   'thomas-murray': {
     name: 'Thomas Murray',
@@ -52512,7 +56427,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Lewis Strauss', relationship: 'Fellow AEC commissioner during nuclear testing', href: '/entities/individuals/lewis-strauss' },
+      { name: 'Stafford Warren', relationship: 'Manhattan Project radiologist connected to AEC nuclear history', href: '/entities/individuals/stafford-warren' }
+    ],
+
   },
   'thomas-noguchi': {
     name: 'Thomas Noguchi',
@@ -52528,7 +56447,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Rfk Assassination', slug: 'rfk-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Sirhan Sirhan', relationship: 'Coroner who autopsied RFK in case against Sirhan', href: '/entities/individuals/sirhan-sirhan' },
+      { name: 'Robert Houghton', relationship: 'LAPD detective in RFK case alongside Noguchi', href: '/entities/individuals/robert-houghton' }
+    ],
+
   },
   'thomas-pappas': {
     name: 'Col. Thomas Pappas',
@@ -52544,7 +56467,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Abu Ghraib', slug: 'abu-ghraib', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Ricardo Sanchez', relationship: 'Commander who authorized Pappas at Abu Ghraib', href: '/entities/individuals/ricardo-sanchez' },
+      { name: 'Geoffrey Miller', relationship: 'Miller ordered Pappas to "Gitmo-ize" Abu Ghraib', href: '/entities/individuals/geoffrey-miller' }
+    ],
+
   },
   'thomas-parran': {
     name: 'Surgeon General Thomas Parran',
@@ -52560,7 +56487,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'John Charles Cutler', relationship: 'PHS officer who ran Guatemala experiments under Parran', href: '/entities/individuals/john-charles-cutler' },
+      { name: 'Eunice Rivers', relationship: 'Nurse in Tuskegee study under Parran\'s PHS', href: '/entities/individuals/eunice-rivers' },
+      { name: 'Susan Reverby', relationship: 'Historian who uncovered Parran-era experiments', href: '/entities/individuals/susan-reverby' }
+    ],
+
   },
   'thomas-silverstein': {
     name: 'Thomas Silverstein',
@@ -52576,7 +56508,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Pelican Bay Prisoners', relationship: 'Fellow long-term solitary confinement figure', href: '/entities/individuals/pelican-bay-prisoners' }
+    ],
+
   },
   'thomas-stephens': {
     name: 'Thomas Stephens',
@@ -52592,7 +56527,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Corporate Homicide', slug: 'corporate-homicide', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'C. Everett Koop', relationship: 'Surgeon General who fought against tobacco Stephens promoted', href: '/entities/individuals/c-everett-koop' },
+      { name: 'Victor DeNoble', relationship: 'Tobacco researcher who blew whistle on nicotine manipulation', href: '/entities/individuals/victor-denoble' }
+    ],
+
   },
   'thomas-stroock': {
     name: 'Thomas Stroock',
@@ -52608,7 +56547,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Guatemala Genocide', slug: 'guatemala-genocide', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Efrain Rios Montt', relationship: 'US Ambassador during Guatemalan genocide aftermath', href: '/entities/individuals/efrain-rios-montt' }
+    ],
+
   },
   'thomas-waldhauser': {
     name: 'General Thomas Waldhauser',
@@ -52624,7 +56566,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Somalia Intervention', slug: 'somalia-intervention', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Stephen Townsend', relationship: 'Fellow AFRICOM commander', href: '/entities/individuals/stephen-townsend' }
+    ],
+
   },
   'tim-moore': {
     name: 'Tim Moore',
@@ -52640,7 +56585,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Gerrymandering', slug: 'gerrymandering', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Phil Berger', relationship: 'Fellow NC Republican gerrymandering figure', href: '/entities/individuals/phil-berger' },
+      { name: 'Thomas Hofeller', relationship: 'GOP mapmaker whose work Moore used', href: '/entities/individuals/thomas-hofeller' }
+    ],
+
   },
   'tim-phillips': {
     name: 'Tim Phillips',
@@ -52656,7 +56605,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Koch Network', slug: 'koch-network', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Richard Fink', relationship: 'Koch network strategist alongside Phillips', href: '/entities/individuals/richard-fink' },
+      { name: 'Charles Koch', relationship: 'Koch funded Americans for Prosperity that Phillips runs', href: '/entities/individuals/charles-koch' }
+    ],
+
   },
   'tim-russ': {
     name: 'Tim Russ',
@@ -52672,7 +56625,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Jeff Jamar', relationship: 'ATF negotiator during Waco siege', href: '/entities/individuals/jeff-jamar' }
+    ],
+
   },
   'tim-walberg': {
     name: 'Tim Walberg',
@@ -52688,7 +56644,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Civil Asset Forfeiture', slug: 'civil-asset-forfeiture', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Betsy DeVos', relationship: 'Michigan congressman aligned with DeVos education agenda', href: '/entities/individuals/betsy-devos' }
+    ],
+
   },
   'timothy-mellon': {
     name: 'Timothy Mellon',
@@ -52704,7 +56663,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Dark Money Politics', slug: 'dark-money-politics', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Largest individual donor to Trump Super PAC', href: '/entities/individuals/donald-trump' }
+    ],
+
   },
   'timothy-olson': {
     name: 'Timothy Olson',
@@ -52720,7 +56682,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Sinclair Broadcasting', slug: 'sinclair-broadcasting', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'David Koresh', relationship: 'ATF agent during Waco raid', href: '/entities/individuals/david-koresh' }
+    ],
+
   },
   'timothy-purdon': {
     name: 'Timothy Purdon',
@@ -52736,7 +56701,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Missing Murdered Indigenous Women', slug: 'missing-murdered-indigenous-women', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Timothy Purdon', relationship: 'US Attorney involved in DAPL legal proceedings', href: '/entities/individuals/timothy-purdon' }
+    ],
+
   },
   'timothy-sloan': {
     name: 'Timothy Sloan',
@@ -52752,7 +56720,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'John Stumpf', relationship: 'Succeeded Stumpf as Wells Fargo CEO during fake accounts scandal', href: '/entities/individuals/john-stumpf' },
+      { name: 'Carrie Tolstedt', relationship: 'Wells Fargo exec who ran division creating fake accounts under Sloan', href: '/entities/individuals/carrie-tolstedt' }
+    ],
+
   },
   'timothy-tyson': {
     name: 'Timothy Tyson',
@@ -52768,7 +56740,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Mamie Till-Mobley', relationship: 'Historian who documented new evidence about Till murder', href: '/entities/individuals/mamie-till-mobley' },
+      { name: 'Roy Bryant', relationship: 'Tyson revealed Bryant\'s wife recanted Till accusations', href: '/entities/individuals/roy-bryant' }
+    ],
+
   },
   'tom-harkin': {
     name: 'Tom Harkin',
@@ -52784,7 +56760,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Tom Saffer', relationship: 'Senator who championed atomic veterans Saffer represented', href: '/entities/individuals/tom-saffer' }
+    ],
+
   },
   'tom-hayes': {
     name: 'Tom Hayes',
@@ -52800,7 +56779,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Bob Diamond', relationship: 'Barclays CEO during LIBOR manipulation Hayes participated in', href: '/entities/individuals/bob-diamond' },
+      { name: 'Terry Farr', relationship: 'Fellow LIBOR manipulation figure', href: '/entities/individuals/terry-farr' },
+      { name: 'Philippe Moryoussef', relationship: 'Fellow LIBOR trader', href: '/entities/individuals/philippe-moryoussef' }
+    ],
+
   },
   'tom-saffer': {
     name: 'Tom Saffer',
@@ -52816,7 +56800,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Orville Kelly', relationship: 'Fellow atomic veteran fighting for recognition', href: '/entities/individuals/orville-kelly' },
+      { name: 'Tom Harkin', relationship: 'Senator who championed atomic veterans', href: '/entities/individuals/tom-harkin' }
+    ],
+
   },
   'ton-that-tung': {
     name: 'Ton That Tung',
@@ -52832,7 +56820,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Nguyen Viet Nhan', relationship: 'Fellow Vietnamese documenting Agent Orange health effects', href: '/entities/individuals/nguyen-viet-nhan' }
+    ],
+
   },
   'tree-africa': {
     name: 'Tree Africa',
@@ -52848,7 +56839,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Ramona Africa', relationship: 'Fellow MOVE member', href: '/entities/individuals/ramona-africa' },
+      { name: 'John Africa', relationship: 'MOVE founder', href: '/entities/individuals/john-africa' }
+    ],
+
   },
   'tyler-shultz': {
     name: 'Tyler Shultz',
@@ -52864,7 +56859,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Theranos Fraud', slug: 'theranos-fraud', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Elizabeth Holmes', relationship: 'Theranos whistleblower who reported fraud by Holmes', href: '/entities/individuals/elizabeth-holmes' },
+      { name: 'John Carreyrou', relationship: 'WSJ reporter Shultz went to with Theranos evidence', href: '/entities/individuals/john-carreyrou' },
+      { name: 'Erika Cheung', relationship: 'Fellow Theranos whistleblower', href: '/entities/individuals/erika-cheung' }
+    ],
+
   },
   'vang-pao': {
     name: 'Vang Pao',
@@ -52880,7 +56880,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Laos Secret Bombing', slug: 'laos-secret-bombing', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Ted Shackley', relationship: 'CIA officer who directed Vang Pao\'s Secret War in Laos', href: '/entities/individuals/ted-shackley' },
+      { name: 'William Colby', relationship: 'CIA official overseeing Southeast Asia operations with Pao', href: '/entities/individuals/william-colby' }
+    ],
+
   },
   'vernon-walters': {
     name: 'Vernon Walters',
@@ -52897,7 +56901,10 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Operation Condor', slug: 'operation-condor', severity: 'high' },
       { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Richard Nixon', relationship: 'Deputy CIA Director who assisted Watergate cover-up for Nixon', href: '/entities/individuals/richard-nixon' }
+    ],
+
   },
   'vicki-weaver': {
     name: 'Vicki Weaver',
@@ -52913,7 +56920,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Randy Weaver', relationship: 'Husband at Ruby Ridge; killed by FBI sniper', href: '/entities/individuals/randy-weaver' },
+      { name: 'Lon Horiuchi', relationship: 'FBI sniper who shot and killed Vicki', href: '/entities/individuals/lon-horiuchi' },
+      { name: 'Samuel Weaver', relationship: 'Son also killed during Ruby Ridge standoff', href: '/entities/individuals/samuel-weaver' }
+    ],
+
   },
   'victor-denoble': {
     name: 'Victor DeNoble',
@@ -52929,7 +56941,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Thomas Stephens', relationship: 'Tobacco executive whose company suppressed DeNoble\'s nicotine research', href: '/entities/individuals/thomas-stephens' },
+      { name: 'C. Everett Koop', relationship: 'Surgeon General whose anti-tobacco efforts DeNoble\'s research supported', href: '/entities/individuals/c-everett-koop' }
+    ],
+
   },
   'victor-hugo-green': {
     name: 'The Green Book Publishers',
@@ -52945,7 +56961,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Robert Moses', relationship: 'Published Green Book to help Black travelers navigate Moses\' segregated America', href: '/entities/individuals/robert-moses' }
+    ],
+
   },
   'vincenzo-vinciguerra': {
     name: 'Vincenzo Vinciguerra',
@@ -52961,7 +56980,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Stefano Delle Chiaie', relationship: 'Fellow Italian far-right operative in Gladio network', href: '/entities/individuals/stefano-delle-chiaie' },
+      { name: 'Licio Gelli', relationship: 'P2 Lodge figure in Gladio conspiracy', href: '/entities/individuals/licio-gelli' }
+    ],
+
   },
   'viola-fletcher': {
     name: 'Viola Fletcher',
@@ -52977,7 +57000,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Tulsa Race Massacre', slug: 'tulsa-race-massacre', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Hughes Van Ellis', relationship: 'Fellow elderly Tulsa Race Massacre survivor', href: '/entities/individuals/hughes-van-ellis' },
+      { name: 'Lessie Randle', relationship: 'Fellow Tulsa Massacre descendant seeking reparations', href: '/entities/individuals/lessie-randle' },
+      { name: 'Scott Ellsworth', relationship: 'Historian who documented the massacre Fletcher survived', href: '/entities/individuals/scott-ellsworth' }
+    ],
+
   },
   'vladimiro-montesinos': {
     name: 'Vladimiro Montesinos',
@@ -52993,7 +57021,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Alberto Fujimori', relationship: 'Spy chief for Fujimori\'s authoritarian regime', href: '/entities/individuals/alberto-fujimori' }
+    ],
+
   },
   'walter-mcmillian': {
     name: 'Walter McMillian',
@@ -53009,7 +57040,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Bryan Stevenson', relationship: 'EJI attorney who fought to exonerate McMillian from death row', href: '/entities/individuals/bryan-stevenson' }
+    ],
+
   },
   'walter-schreiber': {
     name: 'Walter Schreiber',
@@ -53025,7 +57059,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Operation Paperclip', slug: 'operation-paperclip', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Wernher von Braun', relationship: 'Fellow Nazi scientist brought to US via Operation Paperclip', href: '/entities/individuals/wernher-von-braun' },
+      { name: 'Hubertus Strughold', relationship: 'Fellow Paperclip scientist', href: '/entities/individuals/hubertus-strughold' },
+      { name: 'Kurt Blome', relationship: 'Fellow Nazi Paperclip scientist', href: '/entities/individuals/kurt-blome' }
+    ],
+
   },
   'walter-white-naacp': {
     name: 'Walter White',
@@ -53042,7 +57081,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
       { title: 'Tulsa Race Massacre', slug: 'tulsa-race-massacre', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Ida B. Wells', relationship: 'Fellow anti-lynching crusader', href: '/entities/individuals/ida-b-wells' },
+      { name: 'Thurgood Marshall', relationship: 'NAACP legal counsel during White\'s leadership', href: '/entities/individuals/thurgood-marshall' }
+    ],
+
   },
   'warren-anderson': {
     name: 'Warren Anderson',
@@ -53058,7 +57101,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Corporate Homicide', slug: 'corporate-homicide', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Arundhati Roy', relationship: 'Indian activist who demanded Anderson face justice for Bhopal disaster', href: '/entities/individuals/arundhati-roy' }
+    ],
+
   },
   'wendell-potter': {
     name: 'Wendell Potter',
@@ -53074,7 +57120,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Medical Bankruptcy', slug: 'medical-bankruptcy', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Karen Ignagni', relationship: 'AHIP president whose industry Potter exposed as whistleblower', href: '/entities/individuals/karen-ignagni' },
+      { name: 'Stephen Hemsley', relationship: 'Insurance CEO whose industry practices Potter revealed', href: '/entities/individuals/stephen-hemsley' }
+    ],
+
   },
   'wernher-von-braun': {
     name: 'Wernher von Braun',
@@ -53090,7 +57140,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Operation Paperclip', slug: 'operation-paperclip', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Walter Schreiber', relationship: 'Fellow Nazi scientist recruited via Operation Paperclip', href: '/entities/individuals/walter-schreiber' },
+      { name: 'Hubertus Strughold', relationship: 'Fellow Paperclip scientist', href: '/entities/individuals/hubertus-strughold' },
+      { name: 'Reinhard Gehlen', relationship: 'Fellow Nazi recruited by US intelligence', href: '/entities/individuals/reinhard-gehlen' }
+    ],
+
   },
   'wesley-lowery': {
     name: 'Wesley Lowery',
@@ -53106,7 +57161,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Police Militarization', slug: 'police-militarization', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Radley Balko', relationship: 'Fellow journalist covering police violence and accountability', href: '/entities/individuals/radley-balko' }
+    ],
+
   },
   'wilbur-tennant': {
     name: 'Wilbur Tennant',
@@ -53122,7 +57180,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Rob Bilott', relationship: 'Farmer who brought DuPont contamination to attorney Bilott', href: '/entities/individuals/rob-bilott' },
+      { name: 'Robert Bilott', relationship: 'Attorney Tennant contacted about poisoned cattle', href: '/entities/individuals/robert-bilott' }
+    ],
+
   },
   'william-colby': {
     name: 'William Colby',
@@ -53141,7 +57203,12 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Phoenix Program', slug: 'phoenix-program', severity: 'high' },
       { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Nelson Brickham', relationship: 'CIA officer who designed Phoenix Program under Colby', href: '/entities/individuals/nelson-brickham' },
+      { name: 'Robert Komer', relationship: 'CORDS director who worked with Colby on pacification', href: '/entities/individuals/robert-komer' },
+      { name: 'Vang Pao', relationship: 'Hmong general in CIA Secret War Colby oversaw', href: '/entities/individuals/vang-pao' }
+    ],
+
   },
   'william-craig': {
     name: 'William H. Craig',
@@ -53157,7 +57224,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Operation Northwoods', slug: 'operation-northwoods', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'PHS official during unethical medical experimentation era', href: '/entities/individuals/thomas-parran' }
+    ],
+
   },
   'william-degan': {
     name: 'William Degan',
@@ -53173,7 +57243,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Randy Weaver', relationship: 'US Marshal killed in Ruby Ridge shootout with Weaver\'s group', href: '/entities/individuals/randy-weaver' },
+      { name: 'Kevin Harris', relationship: 'Harris involved in shootout that killed Degan', href: '/entities/individuals/kevin-harris' },
+      { name: 'Samuel Weaver', relationship: 'Also killed in same Ruby Ridge shootout', href: '/entities/individuals/samuel-weaver' }
+    ],
+
   },
   'william-harper': {
     name: 'William Harper',
@@ -53189,7 +57264,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Rfk Assassination', slug: 'rfk-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Nathan Bedford Forrest', relationship: 'Fellow pro-slavery ideologue', href: '/entities/individuals/nathan-bedford-forrest' }
+    ],
+
   },
   'william-levitt': {
     name: 'William Levitt',
@@ -53205,7 +57283,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Robert Moses', relationship: 'Fellow mid-century figure enforcing housing segregation', href: '/entities/individuals/robert-moses' },
+      { name: 'Frederick Babcock', relationship: 'FHA appraiser whose racist guidelines Levitt exploited', href: '/entities/individuals/frederick-babcock' }
+    ],
+
   },
   'william-lowe': {
     name: 'William Lowe',
@@ -53221,7 +57303,10 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'Connected to PHS during Tuskegee era', href: '/entities/individuals/thomas-parran' }
+    ],
+
   },
   'william-newell': {
     name: 'William Newell',
@@ -53237,7 +57322,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'John Dodson', relationship: 'ATF supervisor in Fast and Furious that Dodson exposed', href: '/entities/individuals/john-dodson' },
+      { name: 'Kenneth Melson', relationship: 'ATF director during Newell\'s Fast and Furious operation', href: '/entities/individuals/kenneth-melson' }
+    ],
+
   },
   'william-pepper': {
     name: 'William Pepper',
@@ -53253,7 +57342,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Mlk Assassination', slug: 'mlk-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Lloyd Jowers', relationship: 'Uncovered Jowers\' role in MLK assassination conspiracy', href: '/entities/individuals/lloyd-jowers' },
+      { name: 'James Earl Ray', relationship: 'Represented Ray and argued he was not the lone assassin', href: '/entities/individuals/james-earl-ray' },
+      { name: 'Martin Luther King Jr', relationship: 'Spent decades investigating MLK\'s assassination', href: '/entities/individuals/martin-luther-king-jr' }
+    ],
+
   },
   'william-rogers': {
     name: 'William Rogers',
@@ -53269,7 +57363,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Cambodia Bombing', slug: 'cambodia-bombing', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Richard Nixon', relationship: 'Secretary of State sidelined by Nixon and Kissinger', href: '/entities/individuals/richard-nixon' },
+      { name: 'Henry Kissinger', relationship: 'Kissinger bypassed Rogers on key foreign policy decisions', href: '/entities/individuals/henry-kissinger' }
+    ],
+
   },
   'william-sullivan': {
     name: 'William Sullivan',
@@ -53286,7 +57384,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Laos Secret Bombing', slug: 'laos-secret-bombing', severity: 'high' },
       { title: 'Mlk Assassination', slug: 'mlk-assassination', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'J. Edgar Hoover', relationship: 'FBI No. 3 who ran COINTELPRO operations under Hoover', href: '/entities/individuals/j-edgar-hoover' },
+      { name: 'Martin Luther King Jr', relationship: 'Wrote letter urging King to commit suicide', href: '/entities/individuals/martin-luther-king-jr' }
+    ],
+
   },
   'william-tecumseh-sherman': {
     name: 'William Tecumseh Sherman',
@@ -53302,7 +57404,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Ulysses S. Grant', relationship: 'Fellow Union general; Sherman served under Grant', href: '/entities/individuals/ulysses-s-grant' },
+      { name: 'Philip Sheridan', relationship: 'Fellow Union general who pursued Indian Wars', href: '/entities/individuals/philip-sheridan' }
+    ],
+
   },
   'william-westmoreland': {
     name: 'William Westmoreland',
@@ -53318,7 +57424,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Phoenix Program', slug: 'phoenix-program', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Robert McNamara', relationship: 'Vietnam commander under McNamara\'s defense leadership', href: '/entities/individuals/robert-mcnamara' },
+      { name: 'John Paul Vann', relationship: 'Adviser who challenged Westmoreland\'s optimism', href: '/entities/individuals/john-paul-vann' },
+      { name: 'Lyndon Johnson', relationship: 'Commander in Chief during Westmoreland\'s Vietnam command', href: '/entities/individuals/lyndon-johnson' }
+    ],
+
   },
   'willie-reed': {
     name: 'Willie Reed',
@@ -53334,7 +57445,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Mamie Till-Mobley', relationship: 'Brave witness who testified about Emmett Till\'s murder', href: '/entities/individuals/mamie-till-mobley' },
+      { name: 'Moses Wright', relationship: 'Fellow courageous witness at Till murder trial', href: '/entities/individuals/moses-wright' }
+    ],
+
   },
   'wilson-goode': {
     name: 'Wilson Goode',
@@ -53350,7 +57465,12 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Ramona Africa', relationship: 'Mayor who ordered MOVE bombing that killed 11; Ramona survived', href: '/entities/individuals/ramona-africa' },
+      { name: 'John Africa', relationship: 'MOVE founder killed in bombing Goode ordered', href: '/entities/individuals/john-africa' },
+      { name: 'Frank Powell', relationship: 'Officer who dropped the bomb on Goode\'s orders', href: '/entities/individuals/frank-powell' }
+    ],
+
   },
   'winston-churchill': {
     name: 'Winston Churchill',
@@ -53366,7 +57486,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'Iran Coup', slug: 'iran-coup', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Harry Truman', relationship: 'Wartime ally and co-architect of post-WWII order', href: '/entities/individuals/harry-truman' },
+      { name: 'Dwight D. Eisenhower', relationship: 'Allied supreme commander whom Churchill worked with', href: '/entities/individuals/dwight-d-eisenhower' }
+    ],
+
   },
   'woodrow-wilson': {
     name: 'Woodrow Wilson',
@@ -53383,7 +57507,11 @@ const individualData: Record<string, IndividualProfile> = {
       { title: 'Haiti Exploitation', slug: 'haiti-exploitation', severity: 'high' },
       { title: 'War On Black America', slug: 'war-on-black-america', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Louis Brandeis', relationship: 'Wilson appointed Brandeis to Supreme Court', href: '/entities/individuals/louis-brandeis' },
+      { name: 'Nathan Bedford Forrest', relationship: 'Wilson screened KKK-glorifying Birth of a Nation in White House', href: '/entities/individuals/nathan-bedford-forrest' }
+    ],
+
   },
   'xanana-gusmao': {
     name: 'Xanana Gusmão',
@@ -53399,7 +57527,11 @@ const individualData: Record<string, IndividualProfile> = {
     relatedInvestigations: [
       { title: 'East Timor Genocide', slug: 'east-timor-genocide', severity: 'high' },
     ],
-    timeline: [],
+    timeline: [],    knownAssociates: [
+      { name: 'Jose Ramos-Horta', relationship: 'Fellow East Timorese independence leader', href: '/entities/individuals/jose-ramos-horta' },
+      { name: 'Suharto', relationship: 'Indonesian dictator who occupied Gusmao\'s East Timor', href: '/entities/individuals/suharto' }
+    ],
+
   },
   'alan-cranston': {
     name: 'Alan Cranston',
@@ -53422,7 +57554,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'The Savings & Loan Crisis', url: '/investigations/savings-and-loan-crisis' },
+    ],    knownAssociates: [
+      { name: 'Charles Keating', relationship: 'Keating Five senator who received major donations from Keating', href: '/entities/individuals/charles-keating' },
+      { name: 'John Glenn', relationship: 'Fellow Keating Five senator', href: '/entities/individuals/john-glenn' }
     ],
+
   },
   'alvaro-colom': {
     name: 'Álvaro Colom',
@@ -53445,7 +57581,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Guatemala Syphilis Experiments', url: '/investigations/guatemala-syphilis-experiments' },
+    ],    knownAssociates: [
+      { name: 'Otto Perez Molina', relationship: 'Successor as Guatemalan president', href: '/entities/individuals/otto-perez-molina' }
     ],
+
   },
   'bethany-mclean': {
     name: 'Bethany McLean',
@@ -53468,7 +57607,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Enron Scandal', url: '/investigations/enron-scandal' },
+    ],    knownAssociates: [
+      { name: 'Sherron Watkins', relationship: 'Watkins\' internal warnings corroborated McLean\'s Enron expose', href: '/entities/individuals/sherron-watkins' },
+      { name: 'Jeffrey Skilling', relationship: 'Enron CEO whose fraud McLean helped expose', href: '/entities/individuals/jeffrey-skilling' }
     ],
+
   },
   'bob-crowley': {
     name: 'Bob Crowley',
@@ -53491,7 +57634,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'The Afghanistan Papers', url: '/investigations/afghanistan-papers' },
+    ],    knownAssociates: [
+      { name: 'John Sopko', relationship: 'Afghanistan reconstruction oversight figure', href: '/entities/individuals/john-sopko' }
     ],
+
   },
   'bounkham-phonesavanh': {
     name: 'Bounkham Phonesavanh',
@@ -53512,7 +57658,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'No-Knock Raids', url: '/investigations/no-knock-raids' },
+    ],    knownAssociates: [
+      { name: 'Joseph Weekley', relationship: 'Fellow victim of botched SWAT raids; toddler injured by flashbang', href: '/entities/individuals/joseph-weekley' }
     ],
+
   },
   'carrie-tolstedt': {
     name: 'Carrie Tolstedt',
@@ -53535,7 +57684,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Wells Fargo Fake Accounts Scandal', url: '/investigations/wells-fargo-fraud' },
+    ],    knownAssociates: [
+      { name: 'John Stumpf', relationship: 'Wells Fargo CEO during Tolstedt\'s fake accounts scandal', href: '/entities/individuals/john-stumpf' },
+      { name: 'Timothy Sloan', relationship: 'Successor CEO who faced fallout from Tolstedt\'s division', href: '/entities/individuals/timothy-sloan' }
     ],
+
   },
   'cathy-oneil': {
     name: 'Cathy O\'Neil',
@@ -53558,7 +57711,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Predictive Policing: Algorithms of Oppression', url: '/investigations/predictive-policing' },
+    ],    knownAssociates: [
+      { name: 'Joy Buolamwini', relationship: 'Fellow algorithmic accountability researcher', href: '/entities/individuals/joy-buolamwini' },
+      { name: 'Ruha Benjamin', relationship: 'Fellow researcher on technology and racial justice', href: '/entities/individuals/ruha-benjamin' }
     ],
+
   },
   'chester-crocker': {
     name: 'Chester Crocker',
@@ -53581,7 +57738,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'US Support for Apartheid', url: '/investigations/us-support-for-apartheid' },
+    ],    knownAssociates: [
+      { name: 'P.W. Botha', relationship: 'Reagan\'s Africa policy point man during Botha\'s apartheid', href: '/entities/individuals/pw-botha' },
+      { name: 'Randall Robinson', relationship: 'Anti-apartheid activist who opposed Crocker\'s constructive engagement', href: '/entities/individuals/randall-robinson' }
     ],
+
   },
   'damian-williams': {
     name: 'Damian Williams',
@@ -53604,7 +57765,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'FTX Crypto Fraud', url: '/investigations/ftx-crypto-fraud' },
+    ],    knownAssociates: [
+      { name: 'Sam Bankman-Fried', relationship: 'US Attorney who prosecuted SBF for FTX fraud', href: '/entities/individuals/sam-bankman-fried' }
     ],
+
   },
   'dave-clark': {
     name: 'Dave Clark',
@@ -53627,7 +57791,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Amazon Labor Abuses', url: '/investigations/amazon-labor-abuses' },
+    ],    knownAssociates: [
+      { name: 'Jeff Bezos', relationship: 'Amazon logistics executive under Bezos', href: '/entities/individuals/jeff-bezos' },
+      { name: 'Chris Smalls', relationship: 'Amazon exec during warehouse labor disputes', href: '/entities/individuals/chris-smalls' }
     ],
+
   },
   'dave-grossman': {
     name: 'Dave Grossman',
@@ -53650,7 +57818,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Police Militarization', url: '/investigations/police-militarization' },
+    ],    knownAssociates: [
+      { name: 'William Bratton', relationship: 'Fellow figure in warrior-mentality police training', href: '/entities/individuals/william-bratton' }
     ],
+
   },
   'david-niekerk': {
     name: 'David Niekerk',
@@ -53673,7 +57844,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Amazon Labor Abuses', url: '/investigations/amazon-labor-abuses' },
+    ],    knownAssociates: [
+      { name: 'Dave Grossman', relationship: 'Connected through police training methodology', href: '/entities/individuals/dave-grossman' }
     ],
+
   },
   'dick-carpenter': {
     name: 'Dick Carpenter',
@@ -53696,7 +57870,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Civil Asset Forfeiture', url: '/investigations/civil-asset-forfeiture' },
+    ],    knownAssociates: [
+      { name: 'Mandrel Stuart', relationship: 'Researcher who documented civil forfeiture abuses like Stuart\'s case', href: '/entities/individuals/mandrel-stuart' }
     ],
+
   },
   'dillon-s-myer': {
     name: 'Dillon S. Myer',
@@ -53719,7 +57896,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Japanese American Internment', url: '/investigations/japanese-internment' },
+    ],    knownAssociates: [
+      { name: 'John L. DeWitt', relationship: 'Military commander who ordered internment Myer then administered', href: '/entities/individuals/john-l-dewitt' },
+      { name: 'Karl Bendetsen', relationship: 'Fellow Japanese internment architect', href: '/entities/individuals/karl-bendetsen' },
+      { name: 'Richard Henry Pratt', relationship: 'Myer later applied internment approach to BIA Native American policy', href: '/entities/individuals/richard-henry-pratt' }
     ],
+
   },
   'donald-wilber': {
     name: 'Donald Wilber',
@@ -53742,7 +57924,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: '1953 Iran Coup (Operation Ajax)', url: '/investigations/iran-coup' },
+    ],    knownAssociates: [
+      { name: 'Allen Dulles', relationship: 'CIA officer who wrote blueprint for 1953 Iran coup Dulles authorized', href: '/entities/individuals/allen-dulles' },
+      { name: 'Fazlollah Zahedi', relationship: 'General installed by coup Wilber planned', href: '/entities/individuals/fazlollah-zahedi' }
     ],
+
   },
   'douglas-lute': {
     name: 'Douglas Lute',
@@ -53766,7 +57952,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'The Afghanistan Papers', url: '/investigations/afghanistan-papers' },
+    ],    knownAssociates: [
+      { name: 'John Sopko', relationship: 'Fellow Afghanistan oversight figure whose papers revealed lies', href: '/entities/individuals/john-sopko' },
+      { name: 'Bob Crowley', relationship: 'Afghanistan Papers figure', href: '/entities/individuals/bob-crowley' }
     ],
+
   },
   'e-howard-hunt': {
     name: 'E. Howard Hunt',
@@ -53790,7 +57980,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'The Pentagon Papers', url: '/investigations/pentagon-papers' },
+    ],    knownAssociates: [
+      { name: 'G. Gordon Liddy', relationship: 'Watergate operative partner', href: '/entities/individuals/g-gordon-liddy' },
+      { name: 'Richard Nixon', relationship: 'White House Plumber who carried out Nixon\'s dirty tricks', href: '/entities/individuals/richard-nixon' },
+      { name: 'Allen Dulles', relationship: 'CIA officer under Dulles involved in Bay of Pigs', href: '/entities/individuals/allen-dulles' }
     ],
+
   },
   'edmund-richardson': {
     name: 'Edmund Richardson',
@@ -53813,7 +58008,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Convict Leasing: Slavery By Another Name', url: '/investigations/convict-leasing' },
+    ],    knownAssociates: [
+      { name: 'Joseph E. Brown', relationship: 'Fellow former Confederate connected to convict leasing', href: '/entities/individuals/joseph-e-brown' }
     ],
+
   },
   'edward-korry': {
     name: 'Edward Korry',
@@ -53836,7 +58034,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: '1973 Chile Coup', url: '/investigations/chile-coup' },
+    ],    knownAssociates: [
+      { name: 'Henry Kissinger', relationship: 'Ambassador to Chile during Kissinger\'s coup preparations', href: '/entities/individuals/henry-kissinger' },
+      { name: 'Salvador Allende', relationship: 'Korry warned against Allende\'s election then witnessed coup', href: '/entities/individuals/salvador-allende' }
     ],
+
   },
   'edwin-meese': {
     name: 'Edwin Meese',
@@ -53860,7 +58062,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'The Federalist Society', url: '/investigations/federalist-society' },
+    ],    knownAssociates: [
+      { name: 'Ronald Reagan', relationship: 'Attorney General under Reagan during Iran-Contra', href: '/entities/individuals/ronald-reagan' },
+      { name: 'Oliver North', relationship: 'Meese discovered North\'s diversion scheme in Iran-Contra', href: '/entities/individuals/oliver-north' }
     ],
+
   },
   'ernest-medina': {
     name: 'Ernest Medina',
@@ -53883,7 +58089,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Vietnam War Crimes', url: '/investigations/vietnam-war-crimes' },
+    ],    knownAssociates: [
+      { name: 'William Calley', relationship: 'Company commander whose orders Calley carried out at My Lai', href: '/entities/individuals/william-calley' },
+      { name: 'Hugh Thompson Jr', relationship: 'Helicopter pilot who tried to stop Medina\'s company at My Lai', href: '/entities/individuals/hugh-thompson-jr' },
+      { name: 'Seymour Hersh', relationship: 'Journalist who exposed My Lai massacre', href: '/entities/individuals/seymour-hersh' }
     ],
+
   },
   'eugenia-charles': {
     name: 'Eugenia Charles',
@@ -53906,7 +58117,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Grenada Invasion: Operation Urgent Fury', url: '/investigations/grenada-invasion' },
+    ],    knownAssociates: [
+      { name: 'Maurice Bishop', relationship: 'PM who requested US invasion after Bishop was overthrown in Grenada', href: '/entities/individuals/maurice-bishop' }
     ],
+
   },
   'fazlollah-zahedi': {
     name: 'Fazlollah Zahedi',
@@ -53929,7 +58143,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: '1953 Iran Coup (Operation Ajax)', url: '/investigations/iran-coup' },
+    ],    knownAssociates: [
+      { name: 'Donald Wilber', relationship: 'CIA officer who planned coup that installed Zahedi', href: '/entities/individuals/donald-wilber' },
+      { name: 'Allen Dulles', relationship: 'CIA Director who authorized 1953 Iran coup for Zahedi', href: '/entities/individuals/allen-dulles' },
+      { name: 'Nematollah Nassiri', relationship: 'Military officer who helped execute coup alongside Zahedi', href: '/entities/individuals/nematollah-nassiri' }
     ],
+
   },
   'francis-biddle': {
     name: 'Francis Biddle',
@@ -53952,7 +58171,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Japanese American Internment', url: '/investigations/japanese-internment' },
+    ],    knownAssociates: [
+      { name: 'John L. DeWitt', relationship: 'AG during Japanese internment DeWitt ordered', href: '/entities/individuals/john-l-dewitt' },
+      { name: 'Henry Stimson', relationship: 'War Secretary who pushed Biddle to accept internment', href: '/entities/individuals/henry-stimson' }
     ],
+
   },
   'francois-duvalier': {
     name: 'François Duvalier',
@@ -53975,7 +58198,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Haiti: Centuries of Exploitation', url: '/investigations/haiti-exploitation' },
+    ],    knownAssociates: [
+      { name: 'Jean-Claude Duvalier', relationship: 'Son "Baby Doc" who inherited dictatorship', href: '/entities/individuals/jean-claude-duvalier' },
+      { name: 'Jean-Bertrand Aristide', relationship: 'Aristide rose against Duvalier family legacy', href: '/entities/individuals/jean-bertrand-aristide' }
     ],
+
   },
   'freeway-ricky-ross': {
     name: 'Freeway Ricky Ross',
@@ -53996,7 +58223,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'CIA Drug Trafficking', url: '/investigations/cia-drug-trafficking' },
+    ],    knownAssociates: [
+      { name: 'Oscar Danilo Blandon', relationship: 'CIA-connected supplier who sold Ross cocaine', href: '/entities/individuals/oscar-danilo-blandon' },
+      { name: 'Norwin Meneses', relationship: 'Nicaraguan drug lord in CIA-Contra pipeline to Ross', href: '/entities/individuals/norwin-meneses' },
+      { name: 'Gary Webb', relationship: 'Journalist who exposed CIA-Contra-Ross drug connection', href: '/entities/individuals/gary-webb' }
     ],
+
   },
   'g-gordon-liddy': {
     name: 'G. Gordon Liddy',
@@ -54020,7 +58252,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'The Pentagon Papers', url: '/investigations/pentagon-papers' },
+    ],    knownAssociates: [
+      { name: 'E. Howard Hunt', relationship: 'Watergate burglary partner', href: '/entities/individuals/e-howard-hunt' },
+      { name: 'Richard Nixon', relationship: 'White House Plumber who organized Watergate break-in for Nixon', href: '/entities/individuals/richard-nixon' },
+      { name: 'John Ehrlichman', relationship: 'Nixon aide who directed Plumbers unit', href: '/entities/individuals/john-ehrlichman' }
     ],
+
   },
   'gary-sick': {
     name: 'Gary Sick',
@@ -54043,7 +58280,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'The October Surprise (1980)', url: '/investigations/october-surprise-1980' },
+    ],    knownAssociates: [
+      { name: 'Jimmy Carter', relationship: 'NSC staff who later alleged October Surprise torpedoed Carter\'s reelection', href: '/entities/individuals/jimmy-carter' },
+      { name: 'Cyrus Hashemi', relationship: 'Iranian intermediary in alleged October Surprise deal Sick documented', href: '/entities/individuals/cyrus-hashemi' }
     ],
+
   },
   'geoffrey-miller': {
     name: 'Geoffrey Miller',
@@ -54066,7 +58307,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Abu Ghraib Torture', url: '/investigations/abu-ghraib' },
+    ],    knownAssociates: [
+      { name: 'Janis Karpinski', relationship: 'Miller brought Gitmo techniques to Abu Ghraib under Karpinski', href: '/entities/individuals/janis-karpinski' },
+      { name: 'Ricardo Sanchez', relationship: 'Iraq commander during Miller\'s Abu Ghraib visit', href: '/entities/individuals/ricardo-sanchez' },
+      { name: 'Thomas Pappas', relationship: 'Miller ordered Pappas to "Gitmo-ize" Abu Ghraib', href: '/entities/individuals/thomas-pappas' }
     ],
+
   },
   'george-w-cable': {
     name: 'George Washington Cable',
@@ -54087,7 +58333,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Convict Leasing: Slavery By Another Name', url: '/investigations/convict-leasing' },
+    ],    knownAssociates: [
+      { name: 'Frederick Douglass', relationship: 'Fellow post-Civil War racial justice advocate', href: '/entities/individuals/frederick-douglass' }
     ],
+
   },
   'george-wallace': {
     name: 'George Wallace',
@@ -54110,7 +58359,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'War on Black America', url: '/investigations/war-on-black-america' },
+    ],    knownAssociates: [
+      { name: 'Bull Connor', relationship: 'Fellow Alabama segregationist', href: '/entities/individuals/bull-connor' },
+      { name: 'Martin Luther King Jr', relationship: 'King marched in Selma against Wallace\'s segregation', href: '/entities/individuals/martin-luther-king-jr' },
+      { name: 'Orval Faubus', relationship: 'Fellow segregationist governor who blocked school integration', href: '/entities/individuals/orval-faubus' }
     ],
+
   },
   'gordon-hirabayashi': {
     name: 'Gordon Hirabayashi',
@@ -54131,7 +58385,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Japanese American Internment', url: '/investigations/japanese-internment' },
+    ],    knownAssociates: [
+      { name: 'Minoru Yasui', relationship: 'Fellow Japanese American who challenged internment in court', href: '/entities/individuals/minoru-yasui' },
+      { name: 'John L. DeWitt', relationship: 'Challenged DeWitt\'s internment order', href: '/entities/individuals/john-l-dewitt' },
+      { name: 'Norman Mineta', relationship: 'Fellow Japanese American who fought for redress', href: '/entities/individuals/norman-mineta' }
     ],
+
   },
   'henry-stimson': {
     name: 'Henry Stimson',
@@ -54154,7 +58413,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Japanese American Internment', url: '/investigations/japanese-internment' },
+    ],    knownAssociates: [
+      { name: 'John L. DeWitt', relationship: 'War Secretary who supported DeWitt\'s Japanese internment', href: '/entities/individuals/john-l-dewitt' },
+      { name: 'Francis Biddle', relationship: 'AG whose objections Stimson overrode on internment', href: '/entities/individuals/francis-biddle' },
+      { name: 'Harry Truman', relationship: 'Advised Truman on atomic bomb decision', href: '/entities/individuals/harry-truman' }
     ],
+
   },
   'hubertus-strughold': {
     name: 'Hubertus Strughold',
@@ -54177,7 +58441,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Operation Paperclip', url: '/investigations/operation-paperclip' },
+    ],    knownAssociates: [
+      { name: 'Wernher von Braun', relationship: 'Fellow Nazi scientist brought to US via Operation Paperclip', href: '/entities/individuals/wernher-von-braun' },
+      { name: 'Walter Schreiber', relationship: 'Fellow Paperclip scientist', href: '/entities/individuals/walter-schreiber' },
+      { name: 'Kurt Blome', relationship: 'Fellow Nazi Paperclip scientist', href: '/entities/individuals/kurt-blome' }
     ],
+
   },
   'james-bamford': {
     name: 'James Bamford',
@@ -54198,7 +58467,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Operation Northwoods', url: '/investigations/operation-northwoods' },
+    ],    knownAssociates: [
+      { name: 'James Risen', relationship: 'Fellow national security journalist', href: '/entities/individuals/james-risen' },
+      { name: 'Edward Snowden', relationship: 'Snowden revelations confirmed NSA abuses Bamford had reported', href: '/entities/individuals/edward-snowden' }
     ],
+
   },
   'james-earl-ray': {
     name: 'James Earl Ray',
@@ -54219,7 +58492,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'MLK Assassination & FBI COINTELPRO', url: '/investigations/mlk-assassination' },
+    ],    knownAssociates: [
+      { name: 'Martin Luther King Jr', relationship: 'Convicted assassin of MLK', href: '/entities/individuals/martin-luther-king-jr' },
+      { name: 'Lloyd Jowers', relationship: 'Both implicated in conspiracy around MLK assassination', href: '/entities/individuals/lloyd-jowers' },
+      { name: 'William Pepper', relationship: 'Attorney who represented Ray and argued conspiracy', href: '/entities/individuals/william-pepper' }
     ],
+
   },
   'jean-claude-duvalier': {
     name: 'Jean-Claude Duvalier',
@@ -54242,7 +58520,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Haiti: Centuries of Exploitation', url: '/investigations/haiti-exploitation' },
+    ],    knownAssociates: [
+      { name: 'Francois Duvalier', relationship: 'Father "Papa Doc" from whom Baby Doc inherited dictatorship', href: '/entities/individuals/francois-duvalier' },
+      { name: 'Michel Martelly', relationship: 'Later Haitian leader connected to Duvalier-era forces', href: '/entities/individuals/michel-martelly' }
     ],
+
   },
   'john-l-dewitt': {
     name: 'John L. DeWitt',
@@ -54265,7 +58547,13 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Japanese American Internment', url: '/investigations/japanese-internment' },
+    ],    knownAssociates: [
+      { name: 'Karl Bendetsen', relationship: 'Aide who helped DeWitt design Japanese internment', href: '/entities/individuals/karl-bendetsen' },
+      { name: 'Dillon S. Myer', relationship: 'WRA director who administered camps DeWitt filled', href: '/entities/individuals/dillon-s-myer' },
+      { name: 'Gordon Hirabayashi', relationship: 'Japanese American who challenged DeWitt\'s orders in court', href: '/entities/individuals/gordon-hirabayashi' },
+      { name: 'Henry Stimson', relationship: 'War Secretary who endorsed DeWitt\'s internment plan', href: '/entities/individuals/henry-stimson' }
     ],
+
   },
   'john-oliver': {
     name: 'John Oliver',
@@ -54288,7 +58576,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Sinclair Broadcasting: Scripted Local News', url: '/investigations/sinclair-broadcasting' },
+    ],    knownAssociates: [
+      { name: 'Edward Snowden', relationship: 'Conducted major interview with Snowden on surveillance', href: '/entities/individuals/edward-snowden' }
     ],
+
   },
   'john-sopko': {
     name: 'John Sopko',
@@ -54311,7 +58602,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'The Afghanistan Papers', url: '/investigations/afghanistan-papers' },
+    ],    knownAssociates: [
+      { name: 'Douglas Lute', relationship: 'Fellow Afghanistan oversight figure', href: '/entities/individuals/douglas-lute' },
+      { name: 'Bob Crowley', relationship: 'Afghanistan Papers interviewees Sopko\'s SIGAR work paralleled', href: '/entities/individuals/bob-crowley' }
     ],
+
   },
   'joy-buolamwini': {
     name: 'Joy Buolamwini',
@@ -54336,6 +58631,12 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Facial Recognition: The End of Anonymity', url: '/investigations/facial-recognition-surveillance' },
     ],
+    knownAssociates: [
+      { name: 'Timnit Gebru', relationship: 'Fellow AI ethics researcher fighting algorithmic bias', href: '/entities/individuals/timnit-gebru' },
+      { name: 'Hoan Ton-That', relationship: 'Clearview AI founder whose technology Buolamwini criticized', href: '/entities/individuals/hoan-ton-that' },
+      { name: 'Clare Garvie', relationship: 'Fellow facial recognition accountability researcher', href: '/entities/individuals/clare-garvie' }
+    ],
+
   },
   'karl-bendetsen': {
     name: 'Karl Bendetsen',
@@ -54358,7 +58659,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Japanese American Internment', url: '/investigations/japanese-internment' },
+    ],    knownAssociates: [
+      { name: 'John L. DeWitt', relationship: 'Aide who helped architect Japanese internment', href: '/entities/individuals/john-l-dewitt' },
+      { name: 'Dillon S. Myer', relationship: 'Fellow Japanese internment figure', href: '/entities/individuals/dillon-s-myer' },
+      { name: 'Gordon Hirabayashi', relationship: 'Japanese American resistor who challenged Bendetsen\'s internment', href: '/entities/individuals/gordon-hirabayashi' }
     ],
+
   },
   'laura-poitras': {
     name: 'Laura Poitras',
@@ -54380,6 +58686,12 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'NSA Mass Surveillance', url: '/investigations/nsa-mass-surveillance' },
     ],
+    knownAssociates: [
+      { name: 'Edward Snowden', relationship: 'Filmmaker who received and published Snowden\'s NSA revelations', href: '/entities/individuals/edward-snowden' },
+      { name: 'Glenn Greenwald', relationship: 'Journalist partner who co-broke Snowden story', href: '/entities/individuals/glenn-greenwald' },
+      { name: 'Julian Assange', relationship: 'Fellow figure in WikiLeaks/surveillance journalism sphere', href: '/entities/individuals/julian-assange' }
+    ],
+
   },
   'leon-panetta': {
     name: 'Leon Panetta',
@@ -54403,7 +58715,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'U.S. Drone Assassination Program', url: '/investigations/drone-assassination-program' },
+    ],    knownAssociates: [
+      { name: 'Robert Gates', relationship: 'Succeeded Gates as Secretary of Defense', href: '/entities/individuals/robert-gates' },
+      { name: 'Barack Obama', relationship: 'CIA Director and Defense Secretary under Obama', href: '/entities/individuals/barack-obama' }
     ],
+
   },
   'mark-hyman': {
     name: 'Mark Hyman',
@@ -54426,7 +58742,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Sinclair Broadcasting: Scripted Local News', url: '/investigations/sinclair-broadcasting' },
+    ],    knownAssociates: [
+      { name: 'Suzanne Scott', relationship: 'Fellow conservative media figure', href: '/entities/individuals/suzanne-scott' }
     ],
+
   },
   'mark-ruffalo': {
     name: 'Mark Ruffalo',
@@ -54447,7 +58766,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'DuPont PFAS Poisoning', url: '/investigations/dupont-pfas-poisoning' },
+    ],    knownAssociates: [
+      { name: 'Robert Bilott', relationship: 'Portrayed attorney Bilott in Dark Waters film about DuPont', href: '/entities/individuals/robert-bilott' },
+      { name: 'Wilbur Tennant', relationship: 'Dark Waters featured Tennant\'s farmer story', href: '/entities/individuals/wilbur-tennant' }
     ],
+
   },
   'matthew-albence': {
     name: 'Matthew Albence',
@@ -54470,7 +58793,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'ICE Detention Abuses', url: '/investigations/ice-detention-abuses' },
+    ],    knownAssociates: [
+      { name: 'Kevin McAleenan', relationship: 'Fellow Trump immigration enforcement official', href: '/entities/individuals/kevin-mcaleenan' }
     ],
+
   },
   'michelle-alexander': {
     name: 'Michelle Alexander',
@@ -54493,7 +58819,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'War on Black America', url: '/investigations/war-on-black-america' },
+    ],    knownAssociates: [
+      { name: 'Bryan Stevenson', relationship: 'Fellow mass incarceration critic and criminal justice reformer', href: '/entities/individuals/bryan-stevenson' },
+      { name: 'Radley Balko', relationship: 'Fellow criminal justice reform writer', href: '/entities/individuals/radley-balko' }
     ],
+
   },
   'mike-masaoka': {
     name: 'Mike Masaoka',
@@ -54516,7 +58846,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Japanese American Internment', url: '/investigations/japanese-internment' },
+    ],    knownAssociates: [
+      { name: 'Norman Mineta', relationship: 'Fellow Japanese American leader during internment era', href: '/entities/individuals/norman-mineta' },
+      { name: 'Gordon Hirabayashi', relationship: 'Masaoka\'s JACL compliance strategy conflicted with resistors like Hirabayashi', href: '/entities/individuals/gordon-hirabayashi' }
     ],
+
   },
   'minoru-yasui': {
     name: 'Minoru Yasui',
@@ -54537,7 +58871,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Japanese American Internment', url: '/investigations/japanese-internment' },
+    ],    knownAssociates: [
+      { name: 'Gordon Hirabayashi', relationship: 'Fellow Japanese American internment resister', href: '/entities/individuals/gordon-hirabayashi' },
+      { name: 'John L. DeWitt', relationship: 'Challenged DeWitt\'s curfew order in court', href: '/entities/individuals/john-l-dewitt' }
     ],
+
   },
   'norman-mineta': {
     name: 'Norman Mineta',
@@ -54560,7 +58898,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Japanese American Internment', url: '/investigations/japanese-internment' },
+    ],    knownAssociates: [
+      { name: 'Gordon Hirabayashi', relationship: 'Fellow Japanese American who fought for internment redress', href: '/entities/individuals/gordon-hirabayashi' },
+      { name: 'Mike Masaoka', relationship: 'JACL figure during internment Mineta experienced as child', href: '/entities/individuals/mike-masaoka' }
     ],
+
   },
   'norwin-meneses': {
     name: 'Norwin Meneses',
@@ -54581,7 +58923,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'CIA Drug Trafficking', url: '/investigations/cia-drug-trafficking' },
+    ],    knownAssociates: [
+      { name: 'Oscar Danilo Blandon', relationship: 'Supplied cocaine to Blandon in CIA-Contra drug pipeline', href: '/entities/individuals/oscar-danilo-blandon' },
+      { name: 'Freeway Ricky Ross', relationship: 'End distributor of Meneses cocaine supply chain', href: '/entities/individuals/freeway-ricky-ross' },
+      { name: 'Gary Webb', relationship: 'Journalist who exposed Meneses\'s CIA-Contra connection', href: '/entities/individuals/gary-webb' }
     ],
+
   },
   'radley-balko': {
     name: 'Radley Balko',
@@ -54606,7 +58953,11 @@ const individualData: Record<string, IndividualProfile> = {
     sources: [
       { title: 'No-Knock Raids', url: '/investigations/no-knock-raids' },
       { title: 'Police Militarization', url: '/investigations/police-militarization' },
+    ],    knownAssociates: [
+      { name: 'Wesley Lowery', relationship: 'Fellow journalist covering police violence', href: '/entities/individuals/wesley-lowery' },
+      { name: 'Michelle Alexander', relationship: 'Fellow criminal justice reform writer', href: '/entities/individuals/michelle-alexander' }
     ],
+
   },
   'richard-fink': {
     name: 'Richard Fink',
@@ -54629,7 +58980,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'The Koch Network', url: '/investigations/koch-network' },
+    ],    knownAssociates: [
+      { name: 'Charles Koch', relationship: 'Koch Industries strategist who built Koch political network', href: '/entities/individuals/charles-koch' },
+      { name: 'Tim Phillips', relationship: 'Americans for Prosperity leader Fink helped install', href: '/entities/individuals/tim-phillips' }
     ],
+
   },
   'robert-mckee': {
     name: 'Robert McKee',
@@ -54650,7 +59005,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Convict Leasing: Slavery By Another Name', url: '/investigations/convict-leasing' },
+    ],    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'Connected to PHS during Tuskegee era', href: '/entities/individuals/thomas-parran' }
     ],
+
   },
   'ron-watkins': {
     name: 'Ron Watkins',
@@ -54673,7 +59031,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'QAnon: The Radicalization Pipeline', url: '/investigations/qanon-radicalization' },
+    ],    knownAssociates: [
+      { name: 'Jim Watkins', relationship: 'Father who owns 8chan/8kun; Ron suspected of being Q', href: '/entities/individuals/jim-watkins' }
     ],
+
   },
   'ruha-benjamin': {
     name: 'Ruha Benjamin',
@@ -54696,7 +59057,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Predictive Policing: Algorithms of Oppression', url: '/investigations/predictive-policing' },
+    ],    knownAssociates: [
+      { name: 'Joy Buolamwini', relationship: 'Fellow researcher on technology, race, and algorithmic bias', href: '/entities/individuals/joy-buolamwini' },
+      { name: 'Cathy O\'Neil', relationship: 'Fellow scholar on algorithmic justice', href: '/entities/individuals/cathy-oneil' }
     ],
+
   },
   'samantha-power': {
     name: 'Samantha Power',
@@ -54719,7 +59084,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Libya Intervention: From Regime Change to Failed State', url: '/investigations/libya-intervention' },
+    ],    knownAssociates: [
+      { name: 'Susan Rice', relationship: 'Fellow Obama national security official', href: '/entities/individuals/susan-rice' },
+      { name: 'Romeo Dallaire', relationship: 'Power wrote about failures like Rwanda that Dallaire witnessed', href: '/entities/individuals/romeo-dallaire' }
     ],
+
   },
   'sandra-day-oconnor': {
     name: 'Sandra Day O\'Connor',
@@ -54742,7 +59111,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Bush v. Gore: The Stolen 2000 Election', url: '/investigations/bush-v-gore' },
+    ],    knownAssociates: [
+      { name: 'Ruth Bader Ginsburg', relationship: 'Fellow female Supreme Court justice', href: '/entities/individuals/ruth-bader-ginsburg' }
     ],
+
   },
   'sandra-serrano': {
     name: 'Sandra Serrano',
@@ -54763,7 +59135,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'RFK Assassination & Evidence Destruction', url: '/investigations/rfk-assassination' },
+    ],    knownAssociates: [
+      { name: 'Sirhan Sirhan', relationship: 'Witness at RFK assassination who reported "polka dot dress girl"', href: '/entities/individuals/sirhan-sirhan' }
     ],
+
   },
   'scott-fitzgerald': {
     name: 'Scott Fitzgerald',
@@ -54786,7 +59161,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Gerrymandering: The Stolen Maps', url: '/investigations/gerrymandering' },
+    ],    knownAssociates: [
+      { name: 'Scott Walker', relationship: 'Wisconsin Senate leader during Walker\'s anti-union legislation', href: '/entities/individuals/scott-walker' },
+      { name: 'Robin Vos', relationship: 'Fellow Wisconsin Republican legislative leader', href: '/entities/individuals/robin-vos' }
     ],
+
   },
   'scott-livingston': {
     name: 'Scott Livingston',
@@ -54809,7 +59188,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Sinclair Broadcasting: Scripted Local News', url: '/investigations/sinclair-broadcasting' },
+    ],    knownAssociates: [
+      { name: 'Thomas Hofeller', relationship: 'Connected to redistricting strategy', href: '/entities/individuals/thomas-hofeller' }
     ],
+
   },
   'sergio-arellano-stark': {
     name: 'Sergio Arellano Stark',
@@ -54832,7 +59214,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: '1973 Chile Coup', url: '/investigations/chile-coup' },
+    ],    knownAssociates: [
+      { name: 'Augusto Pinochet', relationship: 'General who led "Caravan of Death" under Pinochet\'s orders', href: '/entities/individuals/augusto-pinochet' }
     ],
+
   },
   'sister-helen-prejean': {
     name: 'Sister Helen Prejean',
@@ -54855,7 +59240,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Death Penalty Injustice', url: '/investigations/death-penalty-injustice' },
+    ],    knownAssociates: [
+      { name: 'Bryan Stevenson', relationship: 'Fellow death penalty abolition advocate', href: '/entities/individuals/bryan-stevenson' }
     ],
+
   },
   'stephen-cambone': {
     name: 'Stephen Cambone',
@@ -54878,7 +59266,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Abu Ghraib Torture', url: '/investigations/abu-ghraib' },
+    ],    knownAssociates: [
+      { name: 'Donald Rumsfeld', relationship: 'Undersecretary who channeled Rumsfeld\'s intelligence reforms', href: '/entities/individuals/donald-rumsfeld' },
+      { name: 'Geoffrey Miller', relationship: 'Cambone directed intelligence gathering that led to Abu Ghraib abuses', href: '/entities/individuals/geoffrey-miller' }
     ],
+
   },
   'sunny-balwani': {
     name: 'Sunny Balwani',
@@ -54901,7 +59293,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Theranos Fraud', url: '/investigations/theranos-fraud' },
+    ],    knownAssociates: [
+      { name: 'Elizabeth Holmes', relationship: 'Theranos COO and Holmes\' partner convicted of fraud', href: '/entities/individuals/elizabeth-holmes' },
+      { name: 'Tyler Shultz', relationship: 'Theranos whistleblower who reported fraud by Balwani and Holmes', href: '/entities/individuals/tyler-shultz' }
     ],
+
   },
   'susan-collins': {
     name: 'Susan Collins',
@@ -54924,7 +59320,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'The Overturn of Roe v. Wade', url: '/investigations/roe-v-wade-overturn' },
+    ],    knownAssociates: [
+      { name: 'Brett Kavanaugh', relationship: 'Cast deciding vote to confirm Kavanaugh to Supreme Court', href: '/entities/individuals/brett-kavanaugh' }
     ],
+
   },
   'theodore-roosevelt': {
     name: 'Theodore Roosevelt',
@@ -54947,7 +59346,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'American Indian Boarding Schools', url: '/investigations/indian-boarding-schools' },
+    ],    knownAssociates: [
+      { name: 'Smedley Butler', relationship: 'Marine general who served in Roosevelt\'s imperial wars then denounced them', href: '/entities/individuals/smedley-butler' },
+      { name: 'Woodrow Wilson', relationship: 'Successor who continued American expansionism', href: '/entities/individuals/woodrow-wilson' }
     ],
+
   },
   'thomas-corcoran': {
     name: 'Thomas Corcoran',
@@ -54970,7 +59373,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: '1954 Guatemala Coup (Operation PBSUCCESS)', url: '/investigations/guatemala-coup-1954' },
+    ],    knownAssociates: [
+      { name: 'Allen Dulles', relationship: 'Washington fixer connected to CIA operations', href: '/entities/individuals/allen-dulles' }
     ],
+
   },
   'tim-geithner': {
     name: 'Tim Geithner',
@@ -54994,7 +59400,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: '2008 Financial Crisis', url: '/investigations/2008-financial-crisis' },
+    ],    knownAssociates: [
+      { name: 'Henry Paulson', relationship: 'Treasury predecessor during financial crisis', href: '/entities/individuals/henry-paulson' },
+      { name: 'Robert Rubin', relationship: 'Mentor and predecessor who shaped Wall Street-friendly policy', href: '/entities/individuals/robert-rubin' },
+      { name: 'Barack Obama', relationship: 'Treasury Secretary under Obama during bank bailouts', href: '/entities/individuals/barack-obama' }
     ],
+
   },
   'ulysses-s-grant': {
     name: 'Ulysses S. Grant',
@@ -55017,7 +59428,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'American Indian Boarding Schools', url: '/investigations/indian-boarding-schools' },
+    ],    knownAssociates: [
+      { name: 'William Tecumseh Sherman', relationship: 'Sherman served under Grant in Civil War', href: '/entities/individuals/william-tecumseh-sherman' },
+      { name: 'Nathan Bedford Forrest', relationship: 'Confederate general and KKK founder Grant later fought', href: '/entities/individuals/nathan-bedford-forrest' },
+      { name: 'Philip Sheridan', relationship: 'Fellow Union general who oversaw Indian Wars', href: '/entities/individuals/philip-sheridan' }
     ],
+
   },
   'warren-christopher': {
     name: 'Warren Christopher',
@@ -55040,7 +59456,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Rwanda Genocide: The World Looked Away', url: '/investigations/rwanda-genocide-inaction' },
+    ],    knownAssociates: [
+      { name: 'Samantha Power', relationship: 'Fellow State Dept official; Christopher as SecState during Rwanda', href: '/entities/individuals/samantha-power' }
     ],
+
   },
   'william-binney': {
     name: 'William Binney',
@@ -55063,7 +59482,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'NSA Mass Surveillance', url: '/investigations/nsa-mass-surveillance' },
+    ],    knownAssociates: [
+      { name: 'Thomas Drake', relationship: 'Fellow NSA whistleblower', href: '/entities/individuals/thomas-drake' },
+      { name: 'Edward Snowden', relationship: 'Binney\'s NSA warnings preceded and validated Snowden\'s leaks', href: '/entities/individuals/edward-snowden' }
     ],
+
   },
   'william-black': {
     name: 'William Black',
@@ -55086,7 +59509,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'The Savings & Loan Crisis', url: '/investigations/savings-and-loan-crisis' },
+    ],    knownAssociates: [
+      { name: 'Charles Keating', relationship: 'S&L regulator who pursued Keating\'s fraud', href: '/entities/individuals/charles-keating' },
+      { name: 'Neil Bush', relationship: 'Fellow S&L scandal figure Black\'s regulatory work exposed', href: '/entities/individuals/neil-bush' }
     ],
+
   },
   'william-bratton': {
     name: 'William Bratton',
@@ -55110,7 +59537,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Predictive Policing: Algorithms of Oppression', url: '/investigations/predictive-policing' },
+    ],    knownAssociates: [
+      { name: 'Rudy Giuliani', relationship: 'NYC Police Commissioner under Giuliani', href: '/entities/individuals/rudy-giuliani' }
     ],
+
   },
   'william-richmond': {
     name: 'William Richmond',
@@ -55133,7 +59563,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'MOVE Bombing  -  Philadelphia 1985', url: '/investigations/move-bombing' },
+    ],    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'Connected to PHS during unethical research era', href: '/entities/individuals/thomas-parran' }
     ],
+
   },
   'william-shawcross': {
     name: 'William Shawcross',
@@ -55154,7 +59587,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Cambodia Bombing: Operation Menu', url: '/investigations/cambodia-bombing' },
+    ],    knownAssociates: [
+      { name: 'Henry Kissinger', relationship: 'Documented Kissinger\'s Cambodia bombing campaign', href: '/entities/individuals/henry-kissinger' },
+      { name: 'Norodom Sihanouk', relationship: 'Wrote about Sihanouk and Cambodia destruction', href: '/entities/individuals/norodom-sihanouk' }
     ],
+
   },
   'nasser-al-awlaki': {
     name: 'Nasser al-Awlaki',
@@ -55178,7 +59615,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Drone Assassination Program', url: '/investigations/drone-assassination-program' },
+    ],    knownAssociates: [
+      { name: 'Nawar al-Awlaki', relationship: 'Grandfather fighting for accountability after 8-year-old Nawar was killed', href: '/entities/individuals/nawar-al-awlaki' }
     ],
+
   },
   'robert-rubin': {
     name: 'Robert Rubin',
@@ -55209,7 +59649,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: '2008 Financial Crisis', url: '/investigations/2008-financial-crisis' },
+    ],    knownAssociates: [
+      { name: 'Tim Geithner', relationship: 'Mentor to Geithner; Rubin\'s deregulation led to financial crisis', href: '/entities/individuals/tim-geithner' },
+      { name: 'Henry Paulson', relationship: 'Successor at Goldman and later Treasury', href: '/entities/individuals/henry-paulson' },
+      { name: 'Christopher Dodd', relationship: 'Dodd-Frank reform came after crisis Rubin\'s deregulation caused', href: '/entities/individuals/christopher-dodd' }
     ],
+
   },
   'josef-mengele': {
     name: 'Josef Mengele',
@@ -55249,7 +59694,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Operation Paperclip', url: '/investigations/operation-paperclip' },
+    ],    knownAssociates: [
+      { name: 'Wernher von Braun', relationship: 'Fellow Nazi; Mengele fled while Braun was recruited', href: '/entities/individuals/wernher-von-braun' },
+      { name: 'Efraim Zuroff', relationship: 'Nazi hunter who searched for Mengele in South America', href: '/entities/individuals/efraim-zuroff' }
     ],
+
   },
   'martin-van-buren': {
     name: 'Martin Van Buren',
@@ -55279,7 +59728,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Trail of Tears', url: '/investigations/trail-of-tears' },
+    ],    knownAssociates: [
+      { name: 'Andrew Jackson', relationship: 'VP under Jackson; continued Indian Removal as president', href: '/entities/individuals/andrew-jackson' },
+      { name: 'Winfield Scott', relationship: 'General who carried out Cherokee removal under Van Buren', href: '/entities/individuals/winfield-scott' }
     ],
+
   },
   'winfield-scott': {
     name: 'Winfield Scott',
@@ -55309,7 +59762,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Trail of Tears', url: '/investigations/trail-of-tears' },
+    ],    knownAssociates: [
+      { name: 'Martin Van Buren', relationship: 'Carried out Trail of Tears under Van Buren\'s orders', href: '/entities/individuals/martin-van-buren' },
+      { name: 'James Knox Polk', relationship: 'Led Mexico invasion under Polk', href: '/entities/individuals/james-knox-polk' }
     ],
+
   },
   'christopher-dodd': {
     name: 'Christopher Dodd',
@@ -55338,7 +59795,11 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: '2008 Financial Crisis', url: '/investigations/2008-financial-crisis' },
+    ],    knownAssociates: [
+      { name: 'Robert Rubin', relationship: 'Dodd-Frank reform addressed crisis Rubin\'s deregulation caused', href: '/entities/individuals/robert-rubin' },
+      { name: 'Tim Geithner', relationship: 'Treasury Sec during Dodd-Frank debate', href: '/entities/individuals/tim-geithner' }
     ],
+
   },
   'henry-paulson': {
     name: 'Henry Paulson',
@@ -55369,7 +59830,12 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: '2008 Financial Crisis', url: '/investigations/2008-financial-crisis' },
+    ],    knownAssociates: [
+      { name: 'Tim Geithner', relationship: 'Fed chair during Paulson\'s Treasury term; both managed 2008 crisis', href: '/entities/individuals/tim-geithner' },
+      { name: 'Robert Rubin', relationship: 'Fellow Goldman-to-Treasury Secretary', href: '/entities/individuals/robert-rubin' },
+      { name: 'Lloyd Blankfein', relationship: 'Goldman CEO during Paulson\'s bank bailout', href: '/entities/individuals/lloyd-blankfein' }
     ],
+
   },
   'rutherford-b-hayes': {
     name: 'Rutherford B. Hayes',
@@ -55399,7 +59865,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Indian Boarding Schools', url: '/investigations/indian-boarding-schools' },
+    ],    knownAssociates: [
+      { name: 'Nathan Bedford Forrest', relationship: 'Ended Reconstruction enabling Forrest\'s KKK-era suppression', href: '/entities/individuals/nathan-bedford-forrest' }
     ],
+
   },
   'queen-isabella': {
     name: 'Queen Isabella I of Castile',
@@ -55433,7 +59902,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Columbus Legacy', url: '/investigations/columbus-legacy' },
+    ],    knownAssociates: [
+      { name: 'Bartolome de las Casas', relationship: 'Spanish friar who documented abuses Isabella\'s colonization caused', href: '/entities/individuals/bartolome-de-las-casas' }
     ],
+
   },
   'bartolome-de-las-casas': {
     name: 'Bartolomé de las Casas',
@@ -55463,7 +59935,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Columbus Legacy', url: '/investigations/columbus-legacy' },
+    ],    knownAssociates: [
+      { name: 'Queen Isabella', relationship: 'Documented genocide caused by Isabella\'s colonial enterprise', href: '/entities/individuals/queen-isabella' }
     ],
+
   },
   'chris-krebs': {
     name: 'Chris Krebs',
@@ -55490,7 +59965,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'Election Interference', url: '/investigations/election-interference' },
+    ],    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'CISA Director fired by Trump for confirming 2020 election was secure', href: '/entities/individuals/donald-trump' }
     ],
+
   },
   'michael-fanone': {
     name: 'Michael Fanone',
@@ -55517,7 +59995,10 @@ const individualData: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'January 6 Insurrection', url: '/investigations/january-6-insurrection' },
+    ],    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Officer assaulted during Jan 6 Capitol attack Trump incited', href: '/entities/individuals/donald-trump' }
     ],
+
   },
   'sackler-family': {
     name: 'The Sackler Family',
