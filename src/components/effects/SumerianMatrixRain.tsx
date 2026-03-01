@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 
-// Sumerian cuneiform Unicode block (U+12000–U+1237F) + extras
+// Sumerian cuneiform Unicode block (U+12000-U+1237F) + extras
 const SUMERIAN_CHARS = [
   '𒀀','𒀁','𒀂','𒀃','𒀄','𒀅','𒀆','𒀇','𒀈','𒀉','𒀊','𒀋','𒀌','𒀍','𒀎','𒀏',
   '𒀐','𒀑','𒀒','𒀓','𒀔','𒀕','𒀖','𒀗','𒀘','𒀙','𒀚','𒀛','𒀜','𒀝','𒀞','𒀟',

@@ -576,7 +576,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Co-Chair, Bill & Melinda Gates Foundation',
     role: 'Global Health Architect, Vaccine Monopolist, Event 201 Organizer',
     riskLevel: 'critical' as const,
-    description: 'Bill Gates co-founded Microsoft and became the world\'s richest person through monopolistic practices that resulted in DOJ antitrust action. Since 2000, the Bill & Melinda Gates Foundation ($67B endowment) has become the dominant force in global health, effectively controlling WHO policy through being its largest private donor ($750M annually). Gates co-hosted Event 201 pandemic simulation (October 2019) with Johns Hopkins and WEF, which modeled mRNA vaccine deployment and social media censorship protocols 6 weeks before COVID emerged. Foundation investments in Pfizer, BioNTech, and Moderna ($55M pre-pandemic) yielded 10x returns. GAVI vaccine alliance (Gates founded) secured liability immunity for manufacturers globally. His 270,000 acres of US farmland acquisition coincides with synthetic food investments. Association with Jeffrey Epstein continued years after 2008 conviction.',
+    description: 'William Henry Gates III is the co-founder of Microsoft and one of the world\'s wealthiest individuals. He met with Jeffrey Epstein multiple times between 2011 and 2014, after Epstein\'s first conviction, including visits to Epstein\'s Manhattan townhouse. Gates acknowledged the meetings were a mistake. His divorce from Melinda Gates was partly attributed to his Epstein connections.',
     birthDate: 'October 28, 1955',
     birthPlace: 'Seattle, Washington',
     education: [
@@ -1075,7 +1075,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Convicted Felon (Pardoned), Professional Dirty Trickster',
     role: 'Political Consultant, Trump Advisor, Nixon Protégé',
     riskLevel: 'critical',
-    description: 'Roger Stone is a convicted felon, self-described "dirty trickster," and longtime political consultant who has proudly operated at the intersection of politics and crime for 50+ years. He was convicted of 7 felonies including lying to Congress, obstruction, and witness tampering related to his coordination with WikiLeaks during the 2016 campaign. Stone has openly celebrated his Nixonian dirty tricks legacy (he has a tattoo of Nixon on his back) and was pardoned by Trump to prevent his testimony. He was seen with Proud Boys leaders on January 5-6, 2021 and his security detail included Oath Keepers members who later stormed the Capitol.',
+    description: 'Roger Jason Stone Jr. is a longtime Republican political consultant, lobbyist, and self-described dirty trickster who served as a key ally to Donald Trump. He was convicted of seven felonies including witness tampering and lying to Congress about his WikiLeaks contacts during the 2016 campaign, then pardoned by Trump. He had documented contacts with the Proud Boys and Oath Keepers before January 6th.',
     birthDate: 'August 27, 1952',
     birthPlace: 'Norwalk, Connecticut, USA',
     education: ['George Washington University (did not graduate)', 'Nixon School of Politics (self-described)'],
@@ -1343,7 +1343,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Former Senior Advisor, Saudi Arabia Asset',
     role: 'Corruption Exemplar, MBS Enabler, Security Risk',
     riskLevel: 'critical' as const,
-    description: 'Jared Kushner is Donald Trump\'s son-in-law who parlayed his White House role into a $2 BILLION payment from Saudi Arabia\'s Mohammed bin Salman after leaving office - the most brazen corruption payoff in modern American history. His own investment advisors called it "inexplicably perplexing" given his zero investing experience. He was denied security clearance by career intelligence officials who flagged him as a potential foreign intelligence target, only to have Trump overrule them. He communicated with foreign leaders on WhatsApp in violation of records laws, met secretly with Russian Ambassador Kislyak about establishing a "back channel" using Russian diplomatic facilities to evade U.S. intelligence, and his family\'s $1.8 billion bailout of the disastrous 666 Fifth Avenue building came from Qatar during his Middle East policy involvement. He provided MBS political cover after the murder of journalist Jamal Khashoggi. The Saudi payment is widely viewed as payment for services rendered to the Saudi regime during his White House tenure.',
+    description: 'Jared Corey Kushner served as Senior Advisor to President Donald Trump from 2017 to 2021. The real estate heir married Ivanka Trump in 2009 and wielded enormous influence over Middle East policy, the COVID-19 response, and criminal justice reform. His family received a $2 billion investment from Saudi Arabia\'s Public Investment Fund shortly after leaving the White House. His father Charles Kushner was convicted of tax evasion, witness tampering, and illegal campaign contributions.',
     birthDate: 'January 10, 1981',
     birthPlace: 'Livingston, New Jersey, USA',
     education: [
@@ -1444,7 +1444,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Former Senior Advisor to the President',
     role: 'Trump Daughter, Businesswoman',
     riskLevel: 'high',
-    description: 'Ivanka Trump served as Senior Advisor in her father\'s administration. She received Chinese trademark approvals while serving in the White House, raising conflict of interest concerns. She was subpoenaed by the January 6 Committee.',
+    description: 'Ivanka Marie Trump served as Senior Advisor to President Donald Trump from 2017 to 2021. She leveraged her White House position to secure Chinese trademarks for her fashion brand and participated in high-level diplomatic meetings despite no government experience. She testified before the January 6th Committee and distanced herself from her father\'s election fraud claims.',
     birthDate: 'October 30, 1981',
     birthPlace: 'Manhattan, New York City, USA',
     education: [
@@ -1681,7 +1681,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Convicted Felon, Former Trump Fixer',
     role: 'Former Trump Personal Attorney, Key Prosecution Witness',
     riskLevel: 'high',
-    description: 'Michael Cohen served as Donald Trump\'s personal attorney and "fixer" for over a decade, handling Trump\'s dirtiest work including hush money payments to silence women, threatening journalists, and facilitating the Trump Tower Moscow project. He was convicted of campaign finance violations, tax evasion, and lying to Congress. After being abandoned by Trump, Cohen became a cooperating witness and his testimony was central to Trump\'s historic 34 felony convictions in the Manhattan hush money trial. Cohen served prison time and has become an outspoken Trump critic.',
+    description: 'Michael Dean Cohen served as Donald Trump\'s personal attorney and fixer from 2006 to 2018. He arranged hush money payments to Stormy Daniels and Karen McDougal, served as RNC Deputy Finance Chair, and was sentenced to three years in federal prison for campaign finance violations, tax evasion, and lying to Congress. He became the star witness in Trump\'s Manhattan criminal trial.',
     birthDate: 'August 25, 1966',
     birthPlace: 'Long Island, New York, USA',
     education: [
@@ -1883,7 +1883,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Georgia RICO Defendant, Cooperating Witness',
     role: 'Coup Coordinator, Election Fraud Conspirator',
     riskLevel: 'critical' as const,
-    description: 'Mark Meadows served as Trump\'s White House Chief of Staff during the January 6 insurrection and was the central coordinator of efforts to overturn the 2020 election. He participated in the infamous "find 11,780 votes" call to Georgia, pushed DOJ to "just say the election was corrupt," coordinated fake electors schemes across seven states, burned documents in his fireplace after January 6, and committed voter fraud himself by registering to vote at a mobile home he never lived in. He is a defendant in the Georgia RICO case and has reportedly become a cooperating witness in the federal case, providing testimony that helped lead to Trump\'s federal indictment. His text messages and testimony reveal he knew the election fraud claims were false but pushed them anyway.',
+    description: 'Mark Randall Meadows served as White House Chief of Staff from March 2020 to January 2021. He was centrally involved in efforts to overturn the 2020 election results, including pressuring state officials in Georgia and coordinating with Republican members of Congress on objecting to electoral votes. He was indicted in Georgia for his role in the RICO conspiracy.',
     birthDate: 'July 28, 1959',
     birthPlace: 'Verdun, France (military base)',
     education: ['B.A. - University of South Florida (Business Administration)'],
@@ -2310,7 +2310,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Disgraced Former EPA Administrator',
     role: 'Environmental Destroyer, Serial Ethics Violator, Climate Criminal',
     riskLevel: 'critical' as const,
-    description: 'Scott Pruitt served as Trump\'s first EPA Administrator, systematically dismantling environmental protections while simultaneously becoming one of the most corrupt cabinet officials in modern American history. He rolled back over 100 environmental regulations, gutted the agency\'s enforcement capabilities, and denied climate science - all while enriching himself through at least 14 FEDERAL ETHICS INVESTIGATIONS. His corruption was so brazen that even Republicans demanded his resignation. He installed a $43,000 soundproof phone booth, rented a $50/night condo from an energy lobbyist\'s wife, flew first class at taxpayer expense, used security details for personal errands, and directed staff to help his wife find employment. His environmental rollbacks will contribute to thousands of premature deaths from air and water pollution and accelerated climate change. He is a walking embodiment of regulatory capture - an energy industry puppet who used the EPA to enrich polluters at the expense of public health.',
+    description: 'Edward Scott Pruitt served as EPA Administrator from 2017 to 2018. He systematically dismantled environmental regulations, rolled back Obama-era climate policies, and was forced to resign amid at least 14 separate federal investigations into his spending, travel, and ethical violations including a $50-a-night condo deal from an energy lobbyist.',
     birthDate: 'May 9, 1968',
     birthPlace: 'Danville, Kentucky, USA',
     education: [
@@ -2406,7 +2406,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Former HHS Secretary',
     role: 'Healthcare, Private Jet Scandal',
     riskLevel: 'medium',
-    description: 'Tom Price served briefly as Trump\'s HHS Secretary before resigning over a private jet travel scandal costing taxpayers $400,000+. He also had stock trading conflicts.',
+    description: 'Thomas Edmunds Price served as Secretary of Health and Human Services from 2017 to September 2017. He was forced to resign after just seven months amid revelations that he spent over $1 million in taxpayer funds on private and military jet travel, violating government travel policies.',
     birthDate: 'October 8, 1954',
     birthPlace: 'Lansing, Michigan, USA',
     education: [
@@ -2443,7 +2443,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Former Energy Secretary',
     role: 'Climate Denial, Ukraine Call',
     riskLevel: 'medium',
-    description: 'Rick Perry served as Trump\'s Energy Secretary after famously forgetting it was the department he wanted to eliminate. He was implicated in the Ukraine pressure campaign.',
+    description: 'James Richard Perry served as Secretary of Energy from 2017 to 2019. He famously proposed eliminating the Department of Energy during his presidential campaign but could not remember its name during a debate. He was involved in the Ukraine pressure campaign that led to Trump\'s first impeachment.',
     birthDate: 'March 4, 1950',
     birthPlace: 'Paint Creek, Texas, USA',
     education: ['B.S. - Texas A&M University'],
@@ -2629,7 +2629,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Billionaire Retail Executive',
     role: 'Epstein Financial Architect, Child Trafficking Enabler',
     riskLevel: 'critical' as const,
-    description: 'Les Wexner is a billionaire businessman and founder of L Brands (Victoria\'s Secret, Bath & Body Works) who served as Jeffrey Epstein\'s primary financial patron for over 20 years. He granted Epstein unprecedented power of attorney over his entire $6 billion fortune, gifted him the $77 million Manhattan mansion (largest private residence in NYC) where many of Epstein\'s crimes occurred, and provided the resources that enabled Epstein\'s trafficking operation. Victoria\'s Secret\'s modeling pipeline was allegedly exploited by Epstein to recruit victims. Despite knowing of Epstein\'s predatory behavior as early as the 1990s, Wexner continued the relationship until 2007 and never reported him to authorities. The true nature of their 20-year relationship remains one of the greatest mysteries of the Epstein case.',
+    description: 'Leslie Herbert Wexner is the billionaire founder of L Brands (Victoria\'s Secret, Bath and Body Works) and Jeffrey Epstein\'s most significant financial patron. He granted Epstein sweeping power of attorney over his finances and gave him the Manhattan townhouse where much of the abuse occurred. He claimed Epstein misappropriated over $46 million from him.',
     birthDate: 'September 8, 1937',
     birthPlace: 'Dayton, Ohio, USA',
     education: ['B.S. Business Administration - Ohio State University'],
@@ -2904,7 +2904,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Convicted Felon',
     role: 'We Build the Wall Fraud Co-Conspirator',
     riskLevel: 'high',
-    description: 'Brian Kolfage is a triple amputee Air Force veteran who co-founded the "We Build the Wall" crowdfunding campaign with Steve Bannon. The campaign raised $25 million from donors but Kolfage and others skimmed hundreds of thousands for personal use. Unlike Bannon, he was not pardoned by Trump.',
+    description: 'Brian Kolfage is a decorated Air Force veteran and triple amputee who co-founded the We Build the Wall crowdfunding campaign with Steve Bannon. He was convicted of conspiracy to commit wire fraud and money laundering for diverting over $350,000 in donor funds for personal use including a boat, luxury SUV, and cosmetic surgery.',
     birthDate: 'December 20, 1982',
     birthPlace: 'Tucson, Arizona, USA',
     education: ['University of Arizona'],
@@ -3041,7 +3041,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Exiled Former President of Ukraine',
     role: 'Pro-Russian Ukrainian Leader, Manafort Client',
     riskLevel: 'high',
-    description: 'Viktor Yanukovych is the former President of Ukraine who was Paul Manafort\'s primary client. Manafort worked for years to support Yanukovych\'s pro-Russian Party of Regions. Yanukovych fled to Russia after the 2014 Euromaidan revolution and was convicted of treason in absentia.',
+    description: 'Viktor Fedorovych Yanukovych served as President of Ukraine from 2010 to 2014. He was the primary client of Paul Manafort\'s political consulting work in Ukraine, paying millions through offshore accounts. He fled to Russia during the 2014 Euromaidan revolution and was convicted of treason in absentia by Ukrainian courts.',
     birthDate: 'July 9, 1950',
     birthPlace: 'Yenakiieve, Ukrainian SSR, Soviet Union',
     education: ['Donetsk Polytechnic Institute'],
@@ -3088,7 +3088,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Russian Oligarch (Sanctioned)',
     role: 'Putin Conduit, Manafort Handler, Election Interference Financier',
     riskLevel: 'critical' as const,
-    description: 'Oleg Deripaska is a Russian aluminum oligarch and Vladimir Putin\'s key financial conduit to the West. He had extensive business dealings with Paul Manafort, who owed him $10+ million. Manafort offered Deripaska private briefings on the Trump campaign and shared internal polling data via Russian intelligence asset Konstantin Kilimnik - the most direct evidence of Trump campaign coordination with Russia. Deripaska received this sensitive American campaign intelligence and is sanctioned by the US Treasury for Russian interference. He represents the financial nexus between the Kremlin, organized crime, and American political corruption.',
+    description: 'Oleg Vladimirovich Deripaska is a Russian oligarch and aluminum magnate with close ties to Vladimir Putin. He employed Paul Manafort as a political consultant, paying him $10 million annually. He was sanctioned by the U.S. Treasury in 2018 and indicted for sanctions evasion in 2022.',
     birthDate: 'January 2, 1968',
     birthPlace: 'Dzerzhinsk, Russian SFSR, Soviet Union',
     education: ['Moscow State University (Physics)'],
@@ -3352,7 +3352,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Former Senior Policy Advisor',
     role: 'Muslim Ban Architect, Family Separation Designer, White Nationalist',
     riskLevel: 'critical' as const,
-    description: 'Stephen Miller was Trump\'s Senior Policy Advisor and the mastermind behind the administration\'s most brutal immigration policies. He designed the Muslim travel ban targeting seven Muslim-majority countries, architected the family separation policy that ripped over 5,500 children from their parents (many still not reunited), and pushed for policies explicitly designed to inflict maximum suffering as "deterrence." Leaked emails proved he regularly promoted white nationalist and neo-Nazi content to Breitbart. Under his policies, children died in custody, were held in cages, and suffered documented psychological torture. He continues his extremism through America First Legal, filing lawsuits to block immigration relief.',
+    description: 'Stephen Miller served as Senior Advisor for Policy in the Trump White House from 2017 to 2021. He was the architect of the Muslim travel ban, family separation policy, and restrictive immigration executive orders. Leaked emails revealed his promotion of white nationalist websites and literature to Breitbart News editors.',
     birthDate: 'August 23, 1985',
     birthPlace: 'Santa Monica, California, USA',
     education: ['B.A. - Duke University'],
@@ -3536,7 +3536,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Former Attorney General',
     role: 'Family Separation Architect, Perjurer, Civil Rights Violator',
     riskLevel: 'critical' as const,
-    description: 'Jeff Sessions served as Trump\'s first Attorney General and was the legal architect of the family separation policy that traumatized thousands of children. He ordered the "zero tolerance" prosecution policy knowing it would result in family separations. He committed perjury during his Senate confirmation by failing to disclose meetings with Russian Ambassador Sergey Kislyak, then recused himself from the Russia investigation. His racism was so well-documented that the Republican-controlled Senate denied him a federal judgeship in 1986 after testimony about racist comments. He rolled back Obama-era civil rights protections, targeted immigrants, rescinded marijuana guidance, and weaponized DOJ against vulnerable populations.',
+    description: 'Jefferson Beauregard Sessions III served as the 84th United States Attorney General from 2017 to 2018. He was forced to recuse himself from the Russia investigation, leading to the appointment of Special Counsel Robert Mueller, which enraged Trump. He implemented the zero tolerance family separation policy at the southern border.',
     birthDate: 'December 24, 1946',
     birthPlace: 'Selma, Alabama, USA',
     education: [
@@ -3690,7 +3690,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Convicted Felon',
     role: 'Manafort Deputy, Cooperating Witness',
     riskLevel: 'high',
-    description: 'Rick Gates was Paul Manafort\'s longtime deputy who worked on the Trump campaign and inaugural committee. He pleaded guilty to conspiracy and lying to investigators and became a key cooperating witness, providing testimony against Manafort and others.',
+    description: 'Richard William Gates III was a longtime business partner of Paul Manafort who served as deputy chairman of the Trump 2016 campaign. He pleaded guilty to conspiracy and lying to FBI investigators in the Mueller investigation and served as a key cooperating witness against Manafort.',
     birthDate: 'April 27, 1972',
     birthPlace: 'Fort Lee, Virginia, USA',
     education: [
@@ -4966,7 +4966,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Epstein Survivor, Key Accuser',
     role: 'Trafficking Victim, Forced Prince Andrew Settlement',
     riskLevel: 'low',
-    description: 'Virginia Giuffre is a survivor of Jeffrey Epstein\'s sex trafficking operation who became the most visible accuser, bringing lawsuits against Epstein, Ghislaine Maxwell, and Prince Andrew. Her courage in publicly telling her story helped expose the full scope of the Epstein network. She settled with Prince Andrew for an undisclosed sum (reportedly $12M+).',
+    description: 'Virginia Louise Giuffre is the primary accuser and survivor-advocate in the Jeffrey Epstein sex trafficking case. She alleged she was recruited by Ghislaine Maxwell at Mar-a-Lago at age 16 and trafficked to Epstein\'s properties and powerful associates including Prince Andrew, Alan Dershowitz, and others. Her civil lawsuit against Prince Andrew was settled for an estimated $12 million.',
     birthDate: 'August 9, 1983',
     birthPlace: 'Sacramento, California, USA',
     education: ['Unknown'],
@@ -5136,7 +5136,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Former First Lady of the United States',
     role: 'First Lady (2017-2021, 2025-Present)',
     riskLevel: 'medium',
-    description: 'Melania Trump served as First Lady during Trump\'s first term and returns in that role for his second term. Born Melanija Knavs in Slovenia, she became a US citizen through the "Einstein Visa" program (EB-1) despite lacking extraordinary ability qualifications. She remained largely silent during Trump\'s controversies, famously wearing a jacket reading "I Really Don\'t Care, Do U?" while visiting detained migrant children.',
+    description: 'Melania Trump served as First Lady of the United States from 2017 to 2021. Born Melanija Knavs in Slovenia, she married Donald Trump in 2005. She was notably absent during many of Trump\'s legal proceedings and rarely commented publicly on his controversies, scandals, or criminal indictments.',
     birthDate: 'April 26, 1970',
     birthPlace: 'Novo Mesto, Slovenia (then Yugoslavia)',
     education: [
@@ -5195,7 +5195,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Former White House Counsel',
     role: 'White House Counsel (2018-2021)',
     riskLevel: 'medium',
-    description: 'Pat Cipollone served as White House Counsel during Trump\'s impeachments and the January 6 events. He repeatedly warned against illegal schemes to overturn the election and testified to the January 6 Committee about his efforts to prevent unconstitutional actions. His testimony revealed he believed many proposed actions were illegal.',
+    description: 'Pasquale Anthony Cipollone served as White House Counsel from 2018 to 2021. He provided critical testimony to the January 6th Committee, confirming he opposed Trump\'s efforts to overturn the 2020 election and warned against the January 6th rally. He pushed back against Sidney Powell and others in a contentious December 2020 Oval Office meeting.',
     birthDate: 'September 1, 1965',
     birthPlace: 'Bronx, New York, USA',
     education: [
@@ -5409,7 +5409,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Real Estate Developer',
     role: 'Convicted Felon, Pardoned by Trump, Ambassador to France',
     riskLevel: 'high',
-    description: 'Charles Kushner is Jared Kushner\'s father who was convicted in 2005 of tax evasion, illegal campaign contributions, and witness tampering. He hired a prostitute to seduce his brother-in-law, then sent the recording to his sister to prevent testimony. Trump pardoned him in 2020, and Trump nominated him as Ambassador to France in 2024.',
+    description: 'Charles Kushner is a real estate developer and father of Jared Kushner. He was convicted in 2005 of tax evasion, witness tampering (hiring a prostitute to seduce his brother-in-law and recording it), and illegal campaign contributions. He was pardoned by Donald Trump in December 2020 and later appointed U.S. Ambassador to France.',
     birthDate: 'July 16, 1954',
     birthPlace: 'Elizabeth, New Jersey, USA',
     education: [
@@ -5718,7 +5718,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Fox Corporation CEO',
     role: 'Fox News Decision Maker, Election Disinformation Enabler',
     riskLevel: 'high',
-    description: 'Lachlan Murdoch is the CEO of Fox Corporation and heir to his father\'s media empire. He oversaw Fox News during the 2020 election disinformation campaign and was deposed in the Dominion lawsuit. Internal communications showed he was aware hosts were spreading false claims.',
+    description: 'Lachlan Keith Murdoch is the CEO of Fox Corporation and elder son of Rupert Murdoch. He took control of Fox News after the Dominion Voting Systems defamation settlement of $787.5 million and his father\'s retirement. Internal documents showed he was aware Fox hosts were promoting false election fraud claims.',
     birthDate: 'September 8, 1971',
     birthPlace: 'London, United Kingdom',
     education: [
@@ -5769,7 +5769,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Disgraced Former Fox News Host',
     role: 'Election Disinformation Spreader, White Nationalist Propagandist, Putin Apologist',
     riskLevel: 'critical' as const,
-    description: 'Tucker Carlson was Fox News\' most-watched prime time host until his abrupt firing in April 2023 following the $787.5 million Dominion settlement. Internal texts revealed during litigation showed he PRIVATELY called Trump\'s election fraud claims "absurd" and "total BS," said he "passionately hated" Trump, yet CONTINUED promoting the lies on air because it was good for ratings. His show systematically promoted white nationalist "Great Replacement" conspiracy theory, defended January 6 rioters as "political prisoners," and spread Russian propaganda about Ukraine. After Fox, he interviewed Vladimir Putin in a widely-criticized softball session that Russian state media celebrated as a propaganda coup. He is the heir to the Swanson frozen food fortune and represents the epitome of media malpractice - knowingly spreading lies that undermined American democracy while pretending to be a truth-teller.',
+    description: 'Tucker Swanson McNear Carlson is a conservative media personality who hosted the most-watched cable news show on Fox News until his firing in 2023. Private messages revealed he despised Trump while publicly supporting him. He conducted a friendly interview with Vladimir Putin in Moscow in 2024.',
     birthDate: 'May 16, 1969',
     birthPlace: 'San Francisco, California, USA',
     education: [
@@ -5850,7 +5850,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Fox News Host, Trump Shadow Advisor',
     role: 'Election Disinformation Spreader, Unofficial White House Advisor, Media Propagandist',
     riskLevel: 'critical' as const,
-    description: 'Sean Hannity is Fox News\' longest-tenured prime time host who has functioned as an UNOFFICIAL ADVISOR to Donald Trump, speaking with him regularly by phone - often late at night - and shaping White House messaging. Texts revealed during the Dominion lawsuit showed he PRIVATELY doubted election fraud claims, calling them "bs," while CONTINUING to promote them on air. His January 6 texts to Mark Meadows showed him warning "I\'m very worried about the next 48 hours" and asking "Can he make a statement?" - revealing he knew the danger while doing nothing publicly. He has been sued multiple times for defamation and his show has cost Fox News millions in settlements. His personal attorney was Michael Cohen - which he failed to disclose while covering Cohen on air.',
+    description: 'Sean Patrick Hannity is a Fox News host and one of Donald Trump\'s closest media allies and informal advisors. Text messages revealed he communicated regularly with Mark Meadows and Trump during the January 6th insurrection, urging them to stop the violence. He was revealed as a client of Michael Cohen.',
     birthDate: 'December 30, 1961',
     birthPlace: 'New York City, USA',
     education: [
@@ -6178,7 +6178,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Former Deutsche Bank Managing Director',
     role: 'Trump\'s Personal Banker',
     riskLevel: 'high',
-    description: 'Rosemary Vrablic was Trump\'s personal banker at Deutsche Bank who approved over $300 million in loans to Trump when other banks wouldn\'t lend to him. She resigned in 2020 amid an investigation into whether she and a colleague invested in a company tied to Kushner. She had personal financial ties to Trump entities.',
+    description: 'Rosemary T. Vrablic was a senior wealth management banker at Deutsche Bank who personally managed the Trump Organization\'s accounts. She approved hundreds of millions in loans to Trump when no other major bank would lend to him. She resigned from Deutsche Bank in 2021 amid scrutiny of the bank\'s Trump lending relationships.',
     birthDate: 'Unknown',
     birthPlace: 'USA',
     education: ['Unknown'],
@@ -6326,7 +6326,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Attorney, Conservative Trump Critic',
     role: 'Lincoln Project Co-Founder, Legal Analyst',
     riskLevel: 'low',
-    description: 'George Conway is a conservative attorney who became one of Trump\'s most prominent Republican critics despite being married to Trump advisor Kellyanne Conway. He co-founded The Lincoln Project and has provided extensive legal analysis of Trump\'s criminal exposure. He has publicly diagnosed Trump with narcissistic personality disorder.',
+    description: 'George Thomas Conway III is a conservative attorney and prominent critic of Donald Trump, despite being married to Trump advisor Kellyanne Conway. He co-founded the Lincoln Project, an anti-Trump Republican group. His public opposition to Trump while his wife served in the administration became one of Washington\'s most notable political dynamics.',
     birthDate: 'September 2, 1963',
     birthPlace: 'Boston, Massachusetts',
     education: [
@@ -6479,7 +6479,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'FBI Director Nominee',
     role: 'Trump Loyalist, Former NSC Official',
     riskLevel: 'critical',
-    description: 'Kash Patel is Trump\'s nominee for FBI Director and one of his most loyal acolytes. He previously worked for Devin Nunes on the discredited memo attacking the Russia investigation, served on the NSC, and was made Chief of Staff to the Acting Secretary of Defense in Trump\'s final days. He has vowed to dismantle the FBI and published an "enemies list" of perceived Trump opponents.',
+    description: 'Kashyap Pramod Patel is a former federal prosecutor and Trump loyalist who served in multiple national security roles. He was a key figure in Republican efforts to discredit the Russia investigation as a Devin Nunes aide. Trump appointed him FBI Director in 2025 despite having no FBI experience.',
     birthDate: '1980',
     birthPlace: 'Long Island, New York',
     education: [
@@ -6535,7 +6535,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Former Senior Counselor to the President',
     role: 'Trump Advisor, Pollster, Political Consultant',
     riskLevel: 'high',
-    description: 'Kellyanne Conway was Trump\'s 2016 campaign manager and later Senior Counselor, becoming famous for defending Trump\'s lies, coining "alternative facts," and repeatedly violating the Hatch Act. She stayed in Trump\'s inner circle while her husband George Conway became one of Trump\'s most vocal critics, creating surreal family dynamics.',
+    description: 'Kellyanne Elizabeth Conway served as Counselor to President Trump from 2017 to 2020. She managed Trump\'s successful 2016 campaign, becoming the first woman to run a winning presidential campaign. She coined the phrase "alternative facts" and repeatedly violated the Hatch Act.',
     birthDate: 'January 20, 1967',
     birthPlace: 'Camden, New Jersey',
     education: [
@@ -6586,7 +6586,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Former Attorney General Nominee',
     role: 'Former Congressman, Trump Ally',
     riskLevel: 'critical',
-    description: 'Matt Gaetz was Trump\'s Attorney General nominee until he withdrew amid revelations of the House Ethics investigation into sex trafficking and drug allegations. The DOJ investigated but declined to prosecute. He allegedly paid for sex with a 17-year-old and provided drugs to women. His close associate Joel Greenberg pleaded guilty to sex trafficking.',
+    description: 'Matthew Louis Gaetz II is a former Florida congressman investigated by the DOJ for alleged sex trafficking of a 17-year-old. His associate Joel Greenberg pleaded guilty to sex trafficking and cooperated with investigators. Trump nominated him for Attorney General in 2024 but he withdrew amid scandal. Venmo payments and witness testimony were central to the investigation.',
     birthDate: 'May 7, 1982',
     birthPlace: 'Hollywood, Florida',
     education: [
@@ -6646,7 +6646,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Secretary of Defense',
     role: 'Fox News Host, Military Veteran',
     riskLevel: 'high',
-    description: 'Pete Hegseth is Trump\'s Secretary of Defense, confirmed despite allegations of sexual assault, excessive drinking, financial mismanagement at veterans nonprofits, and lack of senior leadership experience. A former Fox News host and Army veteran, he advocated for pardoning war criminals and opposes women in combat roles.',
+    description: 'Peter Brian Hegseth is a Fox News host and Army National Guard veteran whom Trump nominated as Secretary of Defense. His confirmation was controversial due to allegations of sexual assault, excessive drinking, financial mismanagement of veterans organizations, and a settlement with a sexual assault accuser.',
     birthDate: 'June 6, 1980',
     birthPlace: 'Minneapolis, Minnesota',
     education: [
@@ -7113,7 +7113,7 @@ const individualData: Record<string, IndividualProfile> = {
     title: 'Former U.S. Secretary of Commerce',
     role: 'Commerce Secretary 2017-2021, Billionaire "King of Bankruptcy"',
     riskLevel: 'high',
-    description: 'Wilbur Ross served as Commerce Secretary under Trump. Known as the "King of Bankruptcy" for profiting from distressed assets, Ross had extensive business ties to Russian oligarchs through the Bank of Cyprus and Navigator Holdings. He pushed the failed citizenship question on the 2020 Census and was caught falling asleep in meetings.',
+    description: 'Wilbur Louis Ross Jr. served as Secretary of Commerce from 2017 to 2021. He maintained undisclosed business ties to Russian oligarchs and partners of Vladimir Putin through Navigator Holdings. Forbes accused him of lying about his net worth for years. The Paradise Papers revealed his connections to Putin\'s son-in-law through a shipping firm.',
     birthDate: 'November 28, 1937',
     birthPlace: 'Weehawken, New Jersey',
     education: [
@@ -8361,6 +8361,11 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Russian Federation Council', role: 'Senator (Former)', type: 'agency' },
       { name: 'National Rifle Association', role: 'Cultivated Asset', type: 'organization' },
     ],
+
+    knownAssociates: [
+      { name: 'Maria Butina', relationship: 'Handler and patron of Butina\'s operation to infiltrate the NRA and Republican political circles for Russian intelligence', href: '/entities/individuals/maria-butina' },
+      { name: 'Vladimir Putin', relationship: 'Former Russian Central Bank deputy governor and Putin-allied politician who directed Butina\'s U.S. influence operation', href: '/entities/individuals/vladimir-putin' },
+    ],
     controversies: [
       'Directed Maria Butina\'s infiltration operation',
       'Met with Donald Trump Jr. at NRA convention 2016',
@@ -8417,6 +8422,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Republican Party', role: 'Operative', type: 'organization' },
       { name: 'National Rifle Association', role: 'Member/Connector', type: 'organization' },
     ],
+
+    knownAssociates: [
+      { name: 'Maria Butina', relationship: 'Romantic partner who helped Butina infiltrate NRA and Republican networks; convicted of fraud related to schemes during their relationship', href: '/entities/individuals/maria-butina' },
+    ],
     controversies: [
       'Maria Butina\'s American boyfriend and facilitator',
       'Helped Butina infiltrate conservative organizations',
@@ -8457,6 +8466,11 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'White House', role: 'Counsel to Vice President', type: 'agency' },
       { name: 'Office of the Vice President', role: 'Legal Counsel', type: 'agency' },
     ],
+
+    knownAssociates: [
+      { name: 'Mike Pence', relationship: 'Served as Pence\'s counsel and advised him that he lacked authority to reject electoral votes on January 6', href: '/entities/individuals/mike-pence' },
+      { name: 'John Eastman', relationship: 'Directly confronted Eastman\'s legal theory that Pence could overturn election results; key January 6 Committee witness', href: '/entities/individuals/john-eastman' },
+    ],
     controversies: [
       'Advised Pence against rejecting electoral votes',
       'Present at January 4-5 Oval Office meetings with Eastman',
@@ -8491,6 +8505,12 @@ const individualData: Record<string, IndividualProfile> = {
     education: [],
     affiliations: [
       { name: 'Eagan Avenatti LLP', role: 'Partner (Former)', type: 'corporation' },
+    ],
+
+    knownAssociates: [
+      { name: 'Stormy Daniels', relationship: 'Attorney who represented Daniels in lawsuits against Trump over hush money agreement; later convicted of stealing from her', href: '/entities/individuals/stormy-daniels' },
+      { name: 'Michael Cohen', relationship: 'Adversary and counterpart in hush money saga; cross-examined Cohen\'s role in Stormy Daniels payment', href: '/entities/individuals/michael-cohen' },
+      { name: 'Donald Trump', relationship: 'Became prominent Trump antagonist through Stormy Daniels representation; briefly considered 2020 presidential run', href: '/entities/individuals/donald-trump' },
     ],
     controversies: [
       'Represented Stormy Daniels against Trump/Cohen',
@@ -8530,6 +8550,13 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Davidson & Associates', role: 'Attorney', type: 'corporation' },
     ],
+
+    knownAssociates: [
+      { name: 'Stormy Daniels', relationship: 'Attorney who negotiated the $130,000 hush money deal with Michael Cohen on behalf of Daniels before 2016 election', href: '/entities/individuals/stormy-daniels' },
+      { name: 'Karen McDougal', relationship: 'Attorney who negotiated $150,000 AMI catch-and-kill deal for McDougal\'s story about Trump affair', href: '/entities/individuals/karen-mcdougal' },
+      { name: 'Michael Cohen', relationship: 'Negotiated directly with Cohen on both the Daniels and McDougal hush money arrangements', href: '/entities/individuals/michael-cohen' },
+      { name: 'David Pecker', relationship: 'AMI/National Enquirer publisher who participated in catch-and-kill scheme Davidson negotiated', href: '/entities/individuals/david-pecker' },
+    ],
     controversies: [
       'Negotiated Stormy Daniels $130,000 hush payment',
       'Negotiated Karen McDougal AMI deal',
@@ -8564,6 +8591,14 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'U.S. Senate', role: 'Senator, South Carolina', type: 'agency' },
       { name: 'Senate Judiciary Committee', role: 'Former Chair', type: 'agency' },
       { name: 'Republican Party', role: 'Senior Member', type: 'organization' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Transformed from calling Trump a "race-baiting xenophobe" in 2015 to becoming one of his closest Senate allies and golf partner', href: '/entities/individuals/donald-trump' },
+      { name: 'John McCain', relationship: 'Close personal friend and Senate ally for decades; continued McCain\'s legacy on foreign policy hawkishness', href: '/entities/individuals/john-mccain' },
+      { name: 'Brett Kavanaugh', relationship: 'Led aggressive defense during contentious Supreme Court confirmation hearings as Senate Judiciary Chair', href: '/entities/individuals/brett-kavanaugh' },
+      { name: 'Ted Cruz', relationship: 'Fellow Republican senator; competed for influence in Trump-era GOP realignment', href: '/entities/individuals/ted-cruz' },
+      { name: 'Joe Biden', relationship: 'Cross-aisle relationship from shared Senate service; publicly called Biden "as good a man as God ever created" before becoming fierce critic', href: '/entities/individuals/joe-biden' },
     ],
     controversies: [
       'Called Georgia officials about ballot signatures in 2020',
@@ -8608,6 +8643,14 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'U.S. Senate', role: 'Minority Leader/Former Majority Leader', type: 'agency' },
       { name: 'Republican Party', role: 'Senior Leader', type: 'organization' },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Senate leader who enabled Trump agenda while privately condemning January 6; said Trump was "practically and morally responsible" then voted to acquit', href: '/entities/individuals/donald-trump' },
+      { name: 'Elaine Chao', relationship: 'Wife who served as Trump\'s Secretary of Transportation; resigned after January 6 Capitol attack', href: '/entities/individuals/elaine-chao' },
+      { name: 'Chuck Schumer', relationship: 'Senate counterpart and Democratic leader; decades-long institutional rivalry over Senate control', href: '/entities/individuals/chuck-schumer' },
+      { name: 'Kevin McCarthy', relationship: 'House Republican counterpart who coordinated GOP legislative strategy during Trump era', href: '/entities/individuals/kevin-mccarthy' },
+      { name: 'Merrick Garland', relationship: 'Blocked his Supreme Court nomination for 293 days in 2016, refusing to hold hearings', href: '/entities/individuals/merrick-garland' },
+    ],
     controversies: [
       'Blocked Garland Supreme Court nomination in 2016',
       'Enabled three Trump Supreme Court confirmations',
@@ -8648,6 +8691,14 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. House of Representatives', role: 'Former Speaker', type: 'agency' },
       { name: 'Republican Party', role: 'Former Leader', type: 'organization' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Initially blamed Trump for January 6 on recorded audio, then traveled to Mar-a-Lago to reconcile and rebuild alliance', href: '/entities/individuals/donald-trump' },
+      { name: 'Steve Scalise', relationship: 'House Republican colleague and leadership rival who succeeded him in influence after his removal as Speaker', href: '/entities/individuals/steve-scalise' },
+      { name: 'Jim Jordan', relationship: 'Key House ally and Freedom Caucus leader who was central to McCarthy\'s speakership negotiations', href: '/entities/individuals/jim-jordan' },
+      { name: 'Marjorie Taylor Greene', relationship: 'Controversial House Republican who became unlikely McCarthy ally during speakership battles', href: '/entities/individuals/marjorie-taylor-greene' },
+      { name: 'Liz Cheney', relationship: 'Former GOP Conference Chair whom McCarthy failed to protect from removal after her January 6 truth-telling', href: '/entities/individuals/liz-cheney' },
     ],
     controversies: [
       'Recorded saying Trump "bears responsibility" for Jan 6',
@@ -8691,6 +8742,14 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'U.S. House of Representatives', role: 'Judiciary Committee Chair', type: 'agency' },
       { name: 'House Freedom Caucus', role: 'Co-Founder', type: 'organization' },
       { name: 'Republican Party', role: 'Trump Ally', type: 'organization' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Fiercely loyal Trump defender in Congress; led efforts to discredit FBI investigations and January 6 Committee', href: '/entities/individuals/donald-trump' },
+      { name: 'Mark Meadows', relationship: 'Close ally and fellow Freedom Caucus founder; coordinated January 6 response strategies', href: '/entities/individuals/mark-meadows' },
+      { name: 'Kevin McCarthy', relationship: 'Ran for Speaker after McCarthy\'s removal; key House GOP leadership ally', href: '/entities/individuals/kevin-mccarthy' },
+      { name: 'James Comey', relationship: 'Aggressively questioned former FBI Director during congressional hearings about Russia investigation', href: '/entities/individuals/james-comey' },
+      { name: 'Matt Gaetz', relationship: 'Fellow Trump loyalist in Congress; allies on Judiciary Committee and in Freedom Caucus efforts', href: '/entities/individuals/matt-gaetz' },
     ],
     controversies: [
       'Spoke with Trump on January 6, 2021',
@@ -8739,6 +8798,14 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Trump Organization', role: 'Family Member', type: 'corporation' },
       { name: 'Republican Party', role: 'Surrogate', type: 'organization' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Daughter from second marriage to Marla Maples; graduated from Georgetown Law School', href: '/entities/individuals/donald-trump' },
+      { name: 'Ivanka Trump', relationship: 'Half-sister from Trump\'s first marriage; publicly close despite different upbringings', href: '/entities/individuals/ivanka-trump' },
+      { name: 'Melania Trump', relationship: 'Stepmother who joined Trump family during Tiffany\'s childhood', href: '/entities/individuals/melania-trump' },
+      { name: 'Eric Trump', relationship: 'Half-brother from Trump\'s first marriage to Ivana Trump', href: '/entities/individuals/eric-trump' },
+      { name: 'Donald Trump Jr.', relationship: 'Half-brother from Trump\'s first marriage; both part of extended Trump family political orbit', href: '/entities/individuals/donald-trump-jr' },
     ],
     controversies: [
       'Largely kept distance from Trump business operations',
@@ -8813,6 +8880,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Russian International Affairs Council', role: 'Director of Programs', type: 'organization' },
       { name: 'Russian Government', role: 'Connected Official', type: 'agency' },
     ],
+
+    knownAssociates: [
+      { name: 'George Papadopoulos', relationship: 'Russian think tank official connected to Papadopoulos; part of the network arranging "dirt" on Hillary Clinton through Russian contacts', href: '/entities/individuals/george-papadopoulos' },
+    ],
     controversies: [
       'Key intermediary in Papadopoulos-Russia communications',
       'Discussed obtaining Clinton "dirt" via email',
@@ -8864,6 +8935,14 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'White House', role: 'Chief of Staff (Former)', type: 'agency' },
       { name: 'Republican National Committee', role: 'Former Chairman', type: 'organization' },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as Trump\'s first White House Chief of Staff for 189 days before being fired via tweet while on Air Force One', href: '/entities/individuals/donald-trump' },
+      { name: 'Steve Bannon', relationship: 'Bitter West Wing rival as Chief Strategist; their power struggle defined early Trump White House chaos', href: '/entities/individuals/steve-bannon' },
+      { name: 'Sean Spicer', relationship: 'Close political ally who brought Spicer from RNC to serve as White House Press Secretary', href: '/entities/individuals/sean-spicer' },
+      { name: 'Paul Ryan', relationship: 'Fellow Wisconsin Republican and longtime political ally; coordinated GOP legislative agenda', href: '/entities/individuals/paul-ryan' },
+      { name: 'Mike Pence', relationship: 'Worked closely as RNC Chairman to integrate Pence as VP pick and manage 2016 campaign operations', href: '/entities/individuals/mike-pence' },
+    ],
     controversies: [
       'Shortest-serving Chief of Staff in modern history (189 days)',
       'Fired via tweet while on Air Force One',
@@ -8906,6 +8985,13 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'White House', role: 'Press Secretary (Former)', type: 'agency' },
       { name: 'Republican National Committee', role: 'Former Communications Director', type: 'organization' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as first White House Press Secretary; infamously defended false inauguration crowd size claims on day one', href: '/entities/individuals/donald-trump' },
+      { name: 'Reince Priebus', relationship: 'Longtime RNC colleague who brought him to White House as Press Secretary; both ousted in 2017', href: '/entities/individuals/reince-priebus' },
+      { name: 'Sarah Huckabee Sanders', relationship: 'Deputy who replaced him as Press Secretary after his resignation over Anthony Scaramucci appointment', href: '/entities/individuals/sarah-huckabee-sanders' },
+      { name: 'Kayleigh McEnany', relationship: 'Successor as Trump White House Press Secretary; part of the same communications lineage', href: '/entities/individuals/kayleigh-mcenany' },
     ],
     controversies: [
       'Inaugural crowd size lies - claimed "largest audience ever"',
@@ -8950,6 +9036,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'White House', role: 'Press Secretary (Former)', type: 'agency' },
       { name: 'State of Arkansas', role: 'Governor', type: 'agency' },
       { name: 'Republican Party', role: 'Party Leader', type: 'organization' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as White House Press Secretary (2017-2019); defended Trump through Mueller investigation and multiple crises', href: '/entities/individuals/donald-trump' },
+      { name: 'Sean Spicer', relationship: 'Predecessor as Press Secretary; took over after his departure and adopted more combative media approach', href: '/entities/individuals/sean-spicer' },
+      { name: 'Mike Huckabee', relationship: 'Father and former Arkansas Governor; followed him into Arkansas politics, winning governorship in 2022', href: '/entities/individuals/mike-huckabee' },
+      { name: 'Kayleigh McEnany', relationship: 'Successor as White House Press Secretary; continued aggressive media strategy she established', href: '/entities/individuals/kayleigh-mcenany' },
     ],
     controversies: [
       'Mueller Report found she made false statements to press',
@@ -8998,6 +9091,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'White House', role: 'Communications Director (Former)', type: 'agency' },
       { name: 'SkyBridge Capital', role: 'Founder', type: 'corporation' },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as White House Communications Director for only 10 days in July 2017 before being fired; later became vocal Trump critic', href: '/entities/individuals/donald-trump' },
+      { name: 'Reince Priebus', relationship: 'Publicly attacked Priebus to a reporter as a "paranoid schizophrenic," precipitating both their departures', href: '/entities/individuals/reince-priebus' },
+      { name: 'Steve Bannon', relationship: 'Made vulgar comments about Bannon to a New Yorker reporter that contributed to his own firing', href: '/entities/individuals/steve-bannon' },
+      { name: 'Sean Spicer', relationship: 'His appointment as Communications Director prompted Spicer\'s resignation in protest', href: '/entities/individuals/sean-spicer' },
+    ],
     controversies: [
       'Served only 11 days as Communications Director',
       'Profane New Yorker interview attacking colleagues',
@@ -9031,6 +9131,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'White House', role: 'Deputy Chief of Staff (Former)', type: 'agency' },
       { name: 'Trump Organization', role: 'Former Employee', type: 'corporation' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'One of Trump\'s longest-serving aides; former golf caddie who became White House Deputy Chief of Staff for Communications', href: '/entities/individuals/donald-trump' },
+      { name: 'Mark Meadows', relationship: 'Worked alongside as senior White House staff; both held in contempt by January 6 Committee for refusing to comply with subpoenas', href: '/entities/individuals/mark-meadows' },
+      { name: 'Steve Bannon', relationship: 'Fellow Trump inner circle member; both cited for contempt of Congress by January 6 Committee', href: '/entities/individuals/steve-bannon' },
     ],
     controversies: [
       'Subpoenaed by January 6 Committee',
@@ -9074,6 +9180,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Trump Campaign', role: 'Campaign Manager (Former)', type: 'organization' },
       { name: 'Republican Party', role: 'Digital Strategist', type: 'organization' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as 2020 campaign manager before demotion; built Trump\'s digital operation starting in 2016', href: '/entities/individuals/donald-trump' },
+      { name: 'Jared Kushner', relationship: 'Close working relationship as Kushner oversaw digital campaign strategy; Kushner was key to his hiring and firing', href: '/entities/individuals/jared-kushner' },
+      { name: 'Cambridge Analytica', relationship: 'Coordinated with the data firm on Trump 2016 campaign\'s micro-targeting voter strategy', href: '/entities/individuals/cambridge-analytica' },
     ],
     controversies: [
       'Demoted as campaign manager amid falling polls',
@@ -9124,6 +9236,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Manhattan District Attorney Office', role: 'District Attorney', type: 'agency' },
       { name: 'New York State', role: 'Elected Official', type: 'agency' },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Manhattan DA who secured historic 34-count felony conviction in hush money case - first criminal conviction of a U.S. president', href: '/entities/individuals/donald-trump' },
+      { name: 'Michael Cohen', relationship: 'Star prosecution witness in Trump hush money trial; Bragg built case around Cohen\'s testimony about payments', href: '/entities/individuals/michael-cohen' },
+      { name: 'Todd Blanche', relationship: 'Trump\'s defense attorney who opposed Bragg\'s prosecution team throughout the Manhattan trial', href: '/entities/individuals/todd-blanche' },
+      { name: 'Juan Merchan', relationship: 'Judge who presided over the Trump hush money trial Bragg prosecuted', href: '/entities/individuals/juan-merchan' },
+    ],
     controversies: [
       'First prosecutor to indict a former president',
       'Faced intense Republican criticism and threats',
@@ -9161,6 +9280,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'New York Attorney General Office', role: 'Attorney General', type: 'agency' },
       { name: 'Democratic Party', role: 'Elected Official', type: 'organization' },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'New York AG who won $454 million civil fraud judgment against Trump and the Trump Organization', href: '/entities/individuals/donald-trump' },
+      { name: 'Allen Weisselberg', relationship: 'Trump Organization CFO whose testimony and conviction were central to James\'s fraud case', href: '/entities/individuals/allen-weisselberg' },
+      { name: 'Eric Trump', relationship: 'Named defendant in civil fraud suit; found liable alongside his father for inflating assets', href: '/entities/individuals/eric-trump' },
+      { name: 'Michael Cohen', relationship: 'Former Trump lawyer whose congressional testimony provided roadmap for James\'s fraud investigation', href: '/entities/individuals/michael-cohen' },
+    ],
     controversies: [
       'Won $454 million fraud judgment against Trump',
       'Dissolved Trump Foundation for charity fraud',
@@ -9196,6 +9322,13 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'New York State Unified Court System', role: 'Justice', type: 'agency' },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Presiding judge in historic Manhattan criminal trial that resulted in 34 felony convictions; targeted by Trump\'s attacks on judiciary', href: '/entities/individuals/donald-trump' },
+      { name: 'Alvin Bragg', relationship: 'Manhattan DA whose office prosecuted the case Merchan oversaw through conviction', href: '/entities/individuals/alvin-bragg' },
+      { name: 'Todd Blanche', relationship: 'Trump\'s defense attorney who appeared before Merchan throughout the hush money trial', href: '/entities/individuals/todd-blanche' },
+      { name: 'Michael Cohen', relationship: 'Key prosecution witness who testified in Merchan\'s courtroom about hush money payments', href: '/entities/individuals/michael-cohen' },
+    ],
     controversies: [
       'Presided over first criminal trial of a former president',
       'Trump repeatedly attacked him and his family',
@@ -9230,6 +9363,13 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. District Court, Southern District of Florida', role: 'Judge', type: 'agency' },
       { name: 'Federalist Society', role: 'Member', type: 'organization' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Trump-appointed judge who dismissed classified documents case against him; criticized for favorable rulings toward Trump', href: '/entities/individuals/donald-trump' },
+      { name: 'Jack Smith', relationship: 'Special Counsel whose classified documents prosecution she dismissed by ruling the special counsel appointment unconstitutional', href: '/entities/individuals/jack-smith' },
+      { name: 'Clarence Thomas', relationship: 'Supreme Court Justice whose concurrence questioning special counsel legitimacy was cited in her dismissal ruling', href: '/entities/individuals/clarence-thomas' },
+      { name: 'Walt Nauta', relationship: 'Trump co-defendant in classified documents case she presided over; Trump\'s personal aide charged with obstruction', href: '/entities/individuals/walt-nauta' },
     ],
     controversies: [
       'Dismissed classified documents case against Trump',
@@ -9648,6 +9788,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Blanche Law', role: 'Founding Partner', type: 'corporation' },
       { name: 'DOJ', role: 'Former Assistant U.S. Attorney', type: 'agency' },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Lead defense attorney in Manhattan hush money trial and federal cases; later nominated as Deputy Attorney General', href: '/entities/individuals/donald-trump' },
+      { name: 'Alvin Bragg', relationship: 'Opposing counsel as Manhattan DA who prosecuted the case Blanche defended', href: '/entities/individuals/alvin-bragg' },
+      { name: 'Juan Merchan', relationship: 'Judge before whom Blanche argued Trump\'s defense in the hush money trial', href: '/entities/individuals/juan-merchan' },
+      { name: 'Jack Smith', relationship: 'Special Counsel whose federal prosecutions Blanche defended Trump against', href: '/entities/individuals/jack-smith' },
+    ],
     controversies: [
       'Lead counsel in Trump federal cases',
       'Defended Trump in 34-count conviction',
@@ -9685,6 +9832,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Habba Madaio & Associates', role: 'Managing Partner', type: 'corporation' },
       { name: 'Trump Organization', role: 'Personal Counsel', type: 'corporation' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Personal attorney who represented Trump in E. Jean Carroll defamation case and Letitia James civil fraud suit', href: '/entities/individuals/donald-trump' },
+      { name: 'Letitia James', relationship: 'Opposing counsel as NY AG; Habba defended Trump in James\'s $250 million civil fraud case', href: '/entities/individuals/letitia-james' },
+      { name: 'E. Jean Carroll', relationship: 'Plaintiff in defamation case where Habba represented Trump; jury awarded Carroll $83.3 million', href: '/entities/individuals/e-jean-carroll' },
     ],
     controversies: [
       'Sanctioned by court for frivolous lawsuit against Hillary Clinton',
@@ -9725,6 +9878,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Trump White House', role: 'Press Secretary (2020-2021)', type: 'agency' },
       { name: 'Fox News', role: 'Co-Host', type: 'corporation' },
       { name: 'Republican National Committee', role: 'Former Spokesperson', type: 'organization' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as White House Press Secretary (2020-2021); defended election fraud claims from the podium', href: '/entities/individuals/donald-trump' },
+      { name: 'Sean Spicer', relationship: 'First in the line of Trump Press Secretaries she succeeded', href: '/entities/individuals/sean-spicer' },
+      { name: 'Sarah Huckabee Sanders', relationship: 'Predecessor whose combative press briefing style she continued', href: '/entities/individuals/sarah-huckabee-sanders' },
+      { name: 'Mark Meadows', relationship: 'Worked closely with as Chief of Staff during 2020 election and post-election period', href: '/entities/individuals/mark-meadows' },
     ],
     controversies: [
       'Spread false election fraud claims from WH podium',
@@ -9777,6 +9937,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Office of Management and Budget', role: 'Director (2017-2020)', type: 'agency' },
       { name: 'U.S. House of Representatives', role: 'Congressman, SC (2011-2017)', type: 'agency' },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as Acting White House Chief of Staff (2019-2020); publicly admitted Ukraine quid pro quo then tried to walk it back', href: '/entities/individuals/donald-trump' },
+      { name: 'Mark Meadows', relationship: 'Replaced by Meadows as Chief of Staff; both were former Freedom Caucus members in Congress', href: '/entities/individuals/mark-meadows' },
+      { name: 'John Bolton', relationship: 'Overlapped as senior Trump officials; Bolton\'s book detailed conflicts with Mulvaney over Ukraine policy', href: '/entities/individuals/john-bolton' },
+      { name: 'Mike Pence', relationship: 'Coordinated with Vice President on legislative strategy during acting Chief of Staff tenure', href: '/entities/individuals/mike-pence' },
+    ],
     controversies: [
       '"Get over it" admission of Ukraine quid pro quo',
       'Withheld Ukraine military aid',
@@ -9825,6 +9992,13 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Trump White House', role: 'Director of Communications, OPL (2017)', type: 'agency' },
       { name: 'The Apprentice', role: 'Contestant/Personality', type: 'corporation' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Former Apprentice contestant turned White House aide; secretly recorded conversations and released them in tell-all book "Unhinged"', href: '/entities/individuals/donald-trump' },
+      { name: 'Mark Burnett', relationship: 'Producer of The Apprentice who facilitated her path from reality TV to political sphere', href: '/entities/individuals/mark-burnett' },
+      { name: 'Lara Trump', relationship: 'Recorded Lara offering her $15,000/month campaign job in exchange for silence after White House firing', href: '/entities/individuals/lara-trump' },
+      { name: 'John Kelly', relationship: 'White House Chief of Staff who fired her; she secretly recorded the Situation Room termination meeting', href: '/entities/individuals/john-kelly' },
     ],
     controversies: [
       'Secretly recorded conversations in White House',
@@ -9878,6 +10052,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'U.S. Army', role: 'Lieutenant General (Retired)', type: 'agency' },
       { name: 'Hoover Institution', role: 'Senior Fellow', type: 'organization' },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as National Security Advisor (2017-2018); clashed with Trump over Russia policy and was pushed out', href: '/entities/individuals/donald-trump' },
+      { name: 'John Bolton', relationship: 'Replaced by Bolton as National Security Advisor; represented competing foreign policy visions', href: '/entities/individuals/john-bolton' },
+      { name: 'Michael Flynn', relationship: 'Succeeded Flynn as National Security Advisor after Flynn\'s forced resignation over Russia contacts', href: '/entities/individuals/michael-flynn' },
+      { name: 'Rex Tillerson', relationship: 'Fellow Trump cabinet member who shared concerns about Trump\'s approach to national security', href: '/entities/individuals/rex-tillerson' },
+    ],
     controversies: [
       'Defended Trump\'s intelligence sharing with Russians',
       'Clashed with Trump over Russia policy',
@@ -9916,6 +10097,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Trump White House', role: 'Deputy Assistant (2017)', type: 'agency' },
       { name: 'Salem Radio Network', role: 'Host', type: 'corporation' },
       { name: 'Breitbart News', role: 'Former National Security Editor', type: 'corporation' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'White House advisor (2017) who championed Trump\'s "radical Islamic terrorism" rhetoric; removed after Charlottesville', href: '/entities/individuals/donald-trump' },
+      { name: 'Steve Bannon', relationship: 'Close ideological ally and fellow nationalist; followed Bannon from Breitbart to the White House', href: '/entities/individuals/steve-bannon' },
+      { name: 'Stephen Miller', relationship: 'Fellow hardline nationalist advisor in the White House who shared anti-immigration agenda', href: '/entities/individuals/stephen-miller' },
+      { name: 'Mike Pompeo', relationship: 'Aligned on hawkish foreign policy positions; both pushed aggressive counter-terrorism rhetoric', href: '/entities/individuals/mike-pompeo' },
     ],
     controversies: [
       'Ties to Hungarian far-right group Vitézi Rend',
@@ -9959,6 +10147,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Liberty University', role: 'President (2007-2020)', type: 'organization' },
       { name: 'Trump Campaign 2016', role: 'Prominent Endorser', type: 'organization' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Provided crucial early evangelical endorsement in 2016 primaries; Liberty University hosted Trump for key campaign speech', href: '/entities/individuals/donald-trump' },
+      { name: 'Michael Cohen', relationship: 'Trump fixer who helped suppress compromising photos of Falwell and his wife; Cohen described Falwell endorsement as transactional', href: '/entities/individuals/michael-cohen' },
     ],
     controversies: [
       'Early Trump endorser helped secure evangelical vote',
@@ -10007,6 +10200,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'City of Destiny Church', role: 'Senior Pastor', type: 'organization' },
       { name: 'Paula White Ministries', role: 'Founder', type: 'corporation' },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Personal spiritual advisor who led White House Faith and Opportunity Initiative; delivered prayers at Trump events and inauguration', href: '/entities/individuals/donald-trump' },
+    ],
     controversies: [
       'Prosperity gospel preacher criticized by mainstream Christians',
       'Senate investigation into finances (2007-2011)',
@@ -10053,6 +10250,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Workers\' Party of Korea', role: 'General Secretary', type: 'organization' },
       { name: 'North Korean Government', role: 'Supreme Leader', type: 'agency' },
       { name: 'Korean People\'s Army', role: 'Supreme Commander', type: 'agency' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Held three unprecedented summits with Trump (Singapore 2018, Hanoi 2019, DMZ 2019); exchanged "love letters" per Trump\'s description', href: '/entities/individuals/donald-trump' },
+      { name: 'Xi Jinping', relationship: 'China is North Korea\'s primary economic patron and diplomatic shield; complex patron-client relationship', href: '/entities/individuals/xi-jinping' },
+      { name: 'Moon Jae-in', relationship: 'South Korean President who brokered historic inter-Korean summits in 2018 as part of diplomatic thaw', href: '/entities/individuals/moon-jae-in' },
+      { name: 'Mike Pompeo', relationship: 'Secretary of State who conducted secret trip to Pyongyang in 2018 to arrange Trump-Kim summit', href: '/entities/individuals/mike-pompeo' },
     ],
     controversies: [
       'Operates concentration camps holding 100,000+ prisoners',
@@ -10105,6 +10309,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Hungarian Government', role: 'Prime Minister (2010-Present)', type: 'agency' },
       { name: 'Fidesz Party', role: 'Leader', type: 'organization' },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Invited to Mar-a-Lago and the White House; Trump praised Orban as "strong leader" and model for right-wing governance', href: '/entities/individuals/donald-trump' },
+      { name: 'Vladimir Putin', relationship: 'Closest EU leader to Putin; opposed sanctions and maintained energy ties despite Ukraine invasion', href: '/entities/individuals/vladimir-putin' },
+      { name: 'Xi Jinping', relationship: 'Deepened Hungary-China economic ties; hosted Xi for state visit and supported Belt and Road Initiative in EU', href: '/entities/individuals/xi-jinping' },
+      { name: 'Jair Bolsonaro', relationship: 'Fellow right-wing populist leader; aligned on nationalist, anti-immigration, and anti-EU governance model', href: '/entities/individuals/jair-bolsonaro' },
+    ],
     controversies: [
       'Dismantled democratic institutions in Hungary',
       'Restricted press freedom',
@@ -10152,6 +10363,13 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Israeli Government', role: 'Prime Minister', type: 'agency' },
       { name: 'Likud Party', role: 'Leader', type: 'organization' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Close alliance yielded Jerusalem embassy move, Golan Heights recognition, and Abraham Accords; named settlement "Trump Heights"', href: '/entities/individuals/donald-trump' },
+      { name: 'Jared Kushner', relationship: 'Longtime family friend who led Abraham Accords negotiations; Netanyahu attended Kushner family events for decades', href: '/entities/individuals/jared-kushner' },
+      { name: 'Vladimir Putin', relationship: 'Maintained working relationship on Syria de-confliction; visited Moscow frequently to coordinate military operations', href: '/entities/individuals/vladimir-putin' },
+      { name: 'Joe Biden', relationship: 'Decades-long relationship strained by Biden administration pressure over judicial overhaul and Gaza operations', href: '/entities/individuals/joe-biden' },
     ],
     controversies: [
       'Corruption charges in Israel (ongoing)',
@@ -10202,6 +10420,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Chinese Communist Party', role: 'General Secretary', type: 'organization' },
       { name: 'Central Military Commission', role: 'Chairman', type: 'agency' },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Traded between "trade war" escalation and personal flattery; hosted Trump at Forbidden City and engaged in tariff battles', href: '/entities/individuals/donald-trump' },
+      { name: 'Vladimir Putin', relationship: 'Declared "no limits" partnership in February 2022 weeks before Russia invaded Ukraine; deepened strategic alignment against Western order', href: '/entities/individuals/vladimir-putin' },
+      { name: 'Kim Jong Un', relationship: 'North Korea\'s primary patron; hosted Kim for multiple state visits as leverage in nuclear diplomacy', href: '/entities/individuals/kim-jong-un' },
+      { name: 'Joe Biden', relationship: 'Engaged in tense summits over Taiwan, trade, and technology competition; Biden called him a "dictator"', href: '/entities/individuals/joe-biden' },
+    ],
     controversies: [
       'Trade war with Trump administration',
       'Trump called "brilliant" and "friend"',
@@ -10250,6 +10475,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Ukrainian Government', role: 'President (2019-Present)', type: 'agency' },
       { name: 'Servant of the People', role: 'Party Founder', type: 'organization' },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Subject of Trump\'s 2019 "perfect phone call" demanding investigation of Biden that led to first impeachment; pressured in 2025 over peace deal', href: '/entities/individuals/donald-trump' },
+      { name: 'Joe Biden', relationship: 'Key wartime ally who secured billions in U.S. military and economic aid for Ukraine\'s defense against Russia', href: '/entities/individuals/joe-biden' },
+      { name: 'Vladimir Putin', relationship: 'Wartime adversary who launched full-scale invasion of Ukraine in February 2022; ongoing existential conflict', href: '/entities/individuals/vladimir-putin' },
+      { name: 'Alexander Vindman', relationship: 'NSC official who reported Trump-Zelensky call to authorities, triggering first Trump impeachment', href: '/entities/individuals/alexander-vindman' },
+    ],
     controversies: [
       'Trump pressured for Biden investigation',
       'Subject of Trump "perfect phone call"',
@@ -10287,6 +10519,13 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Brazilian Government', role: 'President (2019-2022)', type: 'agency' },
       { name: 'Liberal Party', role: 'Member', type: 'organization' },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Called "Trump of the Tropics"; modeled presidency after Trump, visited Mar-a-Lago, and supported Trump-style election denialism', href: '/entities/individuals/donald-trump' },
+      { name: 'Vladimir Putin', relationship: 'Maintained ties with Russia despite Western pressure; visited Moscow weeks before Ukraine invasion in 2022', href: '/entities/individuals/vladimir-putin' },
+      { name: 'Viktor Orban', relationship: 'Fellow right-wing populist leader; aligned on nationalist governance and opposition to liberal international order', href: '/entities/individuals/viktor-orban' },
+      { name: 'Elon Musk', relationship: 'Ally in battles over social media regulation; Musk supported Bolsonaro\'s resistance to Brazilian court-ordered X/Twitter restrictions', href: '/entities/individuals/elon-musk' },
     ],
     controversies: [
       'Called "Trump of the Tropics"',
@@ -14157,7 +14396,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Washington Post', role: 'Columnist', type: 'corporation' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+        { name: 'Mohammed bin Salman', relationship: 'Saudi Crown Prince who CIA concluded ordered his assassination', href: '/entities/individuals/mohammed-bin-salman' },
+        { name: 'Donald Trump', relationship: 'Trump defended MBS despite CIA findings and continued arms sales to Saudi Arabia', href: '/entities/individuals/donald-trump' },
+        { name: 'Jared Kushner', relationship: 'Maintained close relationship with MBS before and after the assassination', href: '/entities/individuals/jared-kushner' }
+      ],
     controversies: [
       'Murdered for criticizing Saudi government',
       'Body dismembered with bone saw',
@@ -15034,7 +15277,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Ku Klux Klan', role: 'Former Grand Wizard', type: 'organization' },
       { name: 'Republican Party', role: 'Former member', type: 'organization' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+        { name: 'Donald Trump', relationship: 'Endorsed Trump for president in 2016; Trump was slow to disavow', href: '/entities/individuals/donald-trump' }
+      ],
     controversies: [
       'Former KKK Grand Wizard',
       'Endorsed Trump in 2016',
@@ -16084,8 +16329,16 @@ const individualData: Record<string, IndividualProfile> = {
       'Paralegal training',
     ],
     affiliations: [],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'Susan Bro', relationship: 'Mother and activist who continued advocacy after Heather\'s murder at the Charlottesville Unite the Right rally', href: '/entities/individuals/susan-bro' },
+      { name: 'James Alex Fields Jr.', relationship: 'White supremacist who murdered Heyer by driving car into counter-protesters; convicted of first-degree murder', href: '/entities/individuals/james-alex-fields-jr' },
+      { name: 'Donald Trump', relationship: 'President who infamously said there were "very fine people on both sides" after the rally where Heyer was killed', href: '/entities/individuals/donald-trump' },
+    ],
+    controversies: [
+      'Murdered at age 32 by white supremacist at Charlottesville Unite the Right rally on August 12, 2017',
+      'Her death became a symbol of the dangers of rising far-right extremism in America',
+      'Trump\'s "very fine people on both sides" response to her murder drew widespread condemnation',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Charlottesville', slug: 'charlottesville', severity: 'critical' },
@@ -17024,7 +17277,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Yusef Salaam', relationship: 'Fellow exoneree, Central Park Five', href: '/entities/individuals/yusef-salaam' },
     ],
-    controversies: [],
+    controversies: [
+      'Wrongfully convicted at age 16 in the Central Park Five case; spent 12 years in prison',
+      'Donald Trump took out full-page ads calling for the death penalty for the Central Park Five before trial',
+      'Exonerated in 2002 after serial rapist Matias Reyes confessed; the five received $41 million settlement',
+    ],
     charges: [
       { statute: 'Assault, Robbery', description: 'Wrongfully convicted 1990, exonerated 2002', category: 'Exonerated' },
     ],
@@ -17059,7 +17316,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Korey Wise', relationship: 'Fellow exoneree, Central Park Five', href: '/entities/individuals/korey-wise' },
     ],
-    controversies: [],
+    controversies: [
+      'Wrongfully convicted at age 15 in the Central Park Five case; spent nearly 7 years in prison',
+      'Elected to New York City Council in 2023 representing Harlem district',
+      'Donald Trump still refused to apologize for his full-page death penalty ads targeting the Central Park Five',
+    ],
     charges: [
       { statute: 'Assault, Robbery', description: 'Wrongfully convicted 1990, exonerated 2002', category: 'Exonerated' },
     ],
@@ -21196,7 +21457,9 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'State of Michigan', role: 'Governor (2011-2019)', type: 'agency' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+        { name: 'Donald Trump', relationship: 'Republican governor during Trump era; Flint water crisis overlapped with 2016 campaign', href: '/entities/individuals/donald-trump' }
+      ],
     controversies: [
       'EMERGENCY MANAGEMENT: Snyder signed legislation expanding emergency manager powers over financially distressed cities. Emergency managers, appointed by Snyder, stripped elected officials of power in majority-Black cities including Flint and Detroit.',
       'COST-CUTTING DECISION: Under Snyder\'s appointed emergency manager, Flint switched water sources in April 2014 to save $5 million. No corrosion control was implemented despite known risks.',
@@ -21693,7 +21956,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Augusto Pinochet', relationship: 'General who overthrew him', href: '/entities/individuals/augusto-pinochet' },
     ],
-    controversies: [],
+    controversies: [
+      'Democratically elected socialist president overthrown in CIA-backed coup on September 11, 1973',
+      'Died during Pinochet\'s military coup at the presidential palace; ruled a suicide',
+      'His overthrow led to 17 years of Pinochet dictatorship responsible for thousands of murders and disappearances',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Chile Coup', slug: 'chile-coup', severity: 'critical' },
@@ -21938,7 +22205,11 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Joe Wilson', relationship: 'Husband', href: '/entities/individuals/joe-wilson' },
       { name: 'Richard Armitage', relationship: 'Original leaker', href: '/entities/individuals/richard-armitage' },
     ],
-    controversies: [],
+    controversies: [
+      'CIA covert officer whose identity was deliberately leaked by Bush administration officials in retaliation for her husband\'s Iraq War criticism',
+      'Scooter Libby convicted of obstruction related to the leak; later pardoned by Trump',
+      'The leak destroyed her intelligence network tracking WMD proliferation',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Plame Affair', slug: 'plame-leak', severity: 'high' },
@@ -21972,7 +22243,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Valerie Plame', relationship: 'Wife', href: '/entities/individuals/valerie-plame' },
     ],
-    controversies: [],
+    controversies: [
+      'Published NYT op-ed "What I Didn\'t Find in Africa" challenging Bush administration\'s Iraq WMD claims',
+      'His wife Valerie Plame\'s CIA cover was blown in apparent retaliation for his public criticism',
+      'Investigation into leak led to conviction of VP Cheney\'s chief of staff Scooter Libby',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
@@ -22000,8 +22275,16 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'Syria',
     education: ['McGill University - Engineering'],
     affiliations: [],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'George W. Bush', relationship: 'President during extraordinary rendition program that sent Arar to Syria for torture', href: '/entities/individuals/george-w-bush' },
+      { name: 'John Ashcroft', relationship: 'Attorney General who oversaw DOJ during Arar\'s rendition and deportation to Syria', href: '/entities/individuals/john-ashcroft' },
+      { name: 'Condoleezza Rice', relationship: 'National Security Advisor involved in post-9/11 rendition policies that led to Arar\'s torture', href: '/entities/individuals/condoleezza-rice' },
+    ],
+    controversies: [
+      'Canadian citizen seized by U.S. at JFK Airport and rendered to Syria where he was tortured for nearly a year',
+      'Canada awarded Arar $10.5 million settlement and formal apology; the U.S. has never apologized',
+      'His case became a landmark example of post-9/11 extraordinary rendition abuses',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'CIA Rendition Program', slug: 'rendition', severity: 'critical' },
@@ -22031,8 +22314,16 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'Kuwait',
     education: [],
     affiliations: [],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'George Tenet', relationship: 'CIA Director who oversaw extraordinary rendition program that kidnapped el-Masri and sent him to a black site', href: '/entities/individuals/george-tenet' },
+      { name: 'George W. Bush', relationship: 'President who authorized CIA enhanced interrogation and rendition programs', href: '/entities/individuals/george-w-bush' },
+      { name: 'Condoleezza Rice', relationship: 'National Security Advisor reportedly informed about el-Masri\'s mistaken rendition', href: '/entities/individuals/condoleezza-rice' },
+    ],
+    controversies: [
+      'German citizen kidnapped by CIA in a case of mistaken identity and rendered to Afghanistan black site',
+      'Held for months and subjected to enhanced interrogation before CIA realized they had the wrong man',
+      'European Court of Human Rights ruled Macedonia complicit in his treatment; U.S. never held accountable',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'CIA Rendition Program', slug: 'rendition', severity: 'critical' },
@@ -22067,7 +22358,11 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Washington Post', role: 'Owner', type: 'corporation' },
       { name: 'Blue Origin', role: 'Founder', type: 'corporation' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+        { name: 'Elon Musk', relationship: 'Tech billionaire rival and frequent public antagonist', href: '/entities/individuals/elon-musk' },
+        { name: 'Donald Trump', relationship: 'Targeted by Trump over Washington Post coverage; Amazon faced antitrust pressure', href: '/entities/individuals/donald-trump' },
+        { name: 'Mark Zuckerberg', relationship: 'Fellow tech CEO facing congressional scrutiny', href: '/entities/individuals/mark-zuckerberg' }
+      ],
     controversies: [
       'CONFLICT OF INTEREST: Owns newspaper while Amazon has billions in government contracts',
       'CIA CLOUD: Amazon Web Services runs CIA cloud computing infrastructure',
@@ -22144,7 +22439,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Department of Defense', role: 'Secretary', type: 'agency' },
       { name: 'RTX (Raytheon)', role: 'Former Board Member', type: 'corporation' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+        { name: 'Joe Biden', relationship: 'Biden appointee as Secretary of Defense', href: '/entities/individuals/joe-biden' },
+        { name: 'Donald Trump', relationship: 'Oversaw military transition from Trump administration', href: '/entities/individuals/donald-trump' }
+      ],
     controversies: [
       'REVOLVING DOOR: Moved from Raytheon board to running Pentagon that awards Raytheon contracts',
       'HOSPITALIZATION SECRECY: Failed to notify president or public of January 2024 hospitalization',
@@ -22177,7 +22475,12 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'United States Senate', role: 'Majority Leader', type: 'agency' },
       { name: 'Democratic Party', role: 'Senate Leader', type: 'organization' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+        { name: 'Nancy Pelosi', relationship: 'Democratic congressional counterpart and ally in legislative negotiations', href: '/entities/individuals/nancy-pelosi' },
+        { name: 'Mitch McConnell', relationship: 'Senate counterpart and primary legislative adversary', href: '/entities/individuals/mitch-mcconnell' },
+        { name: 'Joe Biden', relationship: 'Key Senate ally who helped pass Biden legislative agenda', href: '/entities/individuals/joe-biden' },
+        { name: 'Donald Trump', relationship: 'Led Senate opposition to Trump policies including impeachment trials', href: '/entities/individuals/donald-trump' }
+      ],
     controversies: [
       'WALL STREET TIES: Top recipient of Wall Street donations, opposed regulations',
       'AIPAC INFLUENCE: Strong Israel supporter, opposed conditioning military aid',
@@ -22285,7 +22588,11 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'TikTok', role: 'CEO', type: 'corporation' },
       { name: 'ByteDance', role: 'CFO', type: 'corporation' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Mark Zuckerberg', relationship: 'Fellow tech CEO facing similar congressional scrutiny over platform safety and data privacy', href: '/entities/individuals/mark-zuckerberg' },
+      { name: 'Donald Trump', relationship: 'President who twice attempted to ban TikTok through executive orders and signed the forced-sale legislation', href: '/entities/individuals/donald-trump' },
+      { name: 'Zhang Yiming', relationship: 'ByteDance founder and boss; Chew serves as CEO of TikTok under ByteDance\'s corporate structure', href: '/entities/individuals/zhang-yiming' },
+    ],
     controversies: [
       'CHINA DATA CONCERNS: Faces accusations TikTok shares user data with Chinese government',
       'CONGRESSIONAL TESTIMONY: Grilled by Congress in 2023 hearing',
@@ -22475,8 +22782,16 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Iranian Government', role: 'Prime Minister (1951-1953)', type: 'agency' },
     ],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'Dwight D. Eisenhower', relationship: 'U.S. President who authorized CIA coup (Operation Ajax) that overthrew Mosaddegh\'s democratically elected government in 1953', href: '/entities/individuals/dwight-d-eisenhower' },
+      { name: 'Allen Dulles', relationship: 'CIA Director who orchestrated the 1953 Iranian coup against Mosaddegh', href: '/entities/individuals/allen-dulles' },
+      { name: 'Winston Churchill', relationship: 'British PM who pushed for coup after Mosaddegh nationalized Anglo-Iranian Oil Company', href: '/entities/individuals/winston-churchill' },
+    ],
+    controversies: [
+      'Democratically elected Iranian PM overthrown in CIA/MI6-backed coup (Operation Ajax) in 1953',
+      'Nationalized Anglo-Iranian Oil Company which triggered Western-backed regime change',
+      'His overthrow installed the Shah whose authoritarian rule ultimately led to the 1979 Islamic Revolution',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Iran Coup 1953', slug: 'iran-coup', severity: 'critical' },
@@ -22512,7 +22827,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Allen Dulles', relationship: 'CIA Director who ordered assassination', href: '/entities/individuals/allen-dulles' },
     ],
-    controversies: [],
+    controversies: [
+      'First democratically elected PM of Congo assassinated in 1961 with CIA and Belgian involvement',
+      'His murder is considered one of the most significant political assassinations of the 20th century',
+      'CIA provided operational support for coup that toppled Lumumba, leading to decades of Mobutu dictatorship',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'CIA Assassinations', slug: 'cia-assassinations', severity: 'critical' },
@@ -22543,7 +22862,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Edward Snowden', relationship: 'Fellow whistleblower', href: '/entities/individuals/edward-snowden' },
     ],
-    controversies: [],
+    controversies: [
+      'Former intelligence analyst who leaked classified documents revealing 90% of U.S. drone strike victims were not intended targets',
+      'Sentenced to 45 months in federal prison under the Espionage Act in 2021',
+      'His leaks exposed the systematic civilian casualties of the U.S. drone warfare program',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Drone Assassination Program', slug: 'drone-assassinations', severity: 'critical' },
@@ -22573,8 +22896,17 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'National Security Agency', role: 'Contractor', type: 'agency' },
       { name: 'U.S. Air Force', role: 'Former Airman', type: 'agency' },
     ],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President whose administration aggressively prosecuted Winner for leaking evidence of Russian election interference', href: '/entities/individuals/donald-trump' },
+      { name: 'Jeff Sessions', relationship: 'Attorney General who personally announced Winner\'s prosecution and pledged crackdown on leakers', href: '/entities/individuals/jeff-sessions' },
+      { name: 'Edward Snowden', relationship: 'Fellow NSA whistleblower whose case set precedent for Espionage Act prosecutions of leakers', href: '/entities/individuals/edward-snowden' },
+      { name: 'Daniel Hale', relationship: 'Fellow intelligence community whistleblower prosecuted under Espionage Act for revealing drone program details', href: '/entities/individuals/daniel-hale' },
+    ],
+    controversies: [
+      'NSA contractor who leaked classified report proving Russian cyberattacks on U.S. election infrastructure',
+      'Sentenced to 5 years and 3 months - the longest sentence ever for an unauthorized disclosure to media',
+      'Her leak confirmed what intelligence agencies were warning about Russian interference in 2016 election',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Russian Election Interference', slug: 'russian-election-interference', severity: 'critical' },
@@ -22608,7 +22940,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Bill Clinton', relationship: 'President', href: '/entities/individuals/bill-clinton' },
     ],
-    controversies: [],
+    controversies: [
+      'Lost 2000 presidential election after controversial Supreme Court decision in Bush v. Gore halted Florida recount',
+      'Won Nobel Peace Prize for climate change advocacy through "An Inconvenient Truth"',
+      'Brooks Brothers riot disrupted Miami-Dade recount orchestrated by Republican operatives including Roger Stone',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Bush v. Gore', slug: 'bush-v-gore', severity: 'critical' },
@@ -22798,7 +23134,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'John F. Kennedy', relationship: 'Brother, President', href: '/entities/individuals/john-f-kennedy' },
     ],
-    controversies: [],
+    controversies: [
+      'U.S. Attorney General who aggressively pursued organized crime and civil rights enforcement',
+      'Assassinated during 1968 presidential campaign by Sirhan Sirhan',
+      'As AG, authorized FBI surveillance of Martin Luther King Jr. at J. Edgar Hoover\'s insistence',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'RFK Assassination', slug: 'rfk-assassination', severity: 'critical' },
@@ -22871,8 +23211,16 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Department of the Interior', role: 'Secretary (2021-present)', type: 'agency' },
       { name: 'Laguna Pueblo', role: 'Enrolled Member', type: 'organization' },
     ],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'President who appointed Haaland as first Native American Cabinet secretary (Interior)', href: '/entities/individuals/joe-biden' },
+      { name: 'Donald Trump', relationship: 'Predecessor whose policies Haaland reversed on public lands, fossil fuels, and tribal sovereignty', href: '/entities/individuals/donald-trump' },
+      { name: 'Bryan Newland', relationship: 'Assistant Secretary for Indian Affairs under Haaland; led Federal Indian Boarding School Initiative', href: '/entities/individuals/bryan-newland' },
+    ],
+    controversies: [
+      'First Native American Cabinet secretary faced fierce Republican opposition during confirmation',
+      'Launched Federal Indian Boarding School Initiative uncovering decades of abuse and deaths',
+      'Reversed Trump-era policies on fossil fuel leasing on public lands drawing industry backlash',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'critical' },
@@ -22899,8 +23247,16 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. Public Health Service', role: 'Surgeon General', type: 'agency' },
     ],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'President who appointed Murthy as Surgeon General; Murthy led COVID-19 public health messaging', href: '/entities/individuals/joe-biden' },
+      { name: 'Anthony Fauci', relationship: 'Fellow public health leader during COVID-19 pandemic; collaborated on vaccination campaigns', href: '/entities/individuals/anthony-fauci' },
+      { name: 'Donald Trump', relationship: 'President who fired Murthy as Surgeon General in 2017; Murthy was later reappointed by Biden', href: '/entities/individuals/donald-trump' },
+    ],
+    controversies: [
+      'Fired by Trump in 2017, then reappointed by Biden as Surgeon General',
+      'Declared gun violence a public health crisis, drawing conservative criticism',
+      'Issued advisory on social media\'s impact on youth mental health challenging tech companies',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Social Media Harms', slug: 'social-media-harms', severity: 'high' },
@@ -23006,7 +23362,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'United States Capitol Police', role: 'Chief (2019-2021)', type: 'agency' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+        { name: 'Donald Trump', relationship: 'Capitol Police Chief during January 6th insurrection; testified about failures', href: '/entities/individuals/donald-trump' },
+        { name: 'Nancy Pelosi', relationship: 'Reported to House leadership; resigned after January 6th', href: '/entities/individuals/nancy-pelosi' }
+      ],
     controversies: [
       'NATIONAL GUARD DELAYS: Claims requests for National Guard were denied/delayed',
       'SECURITY FAILURES: Capitol left vulnerable despite intelligence warnings',
@@ -23112,7 +23471,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Edward Snowden', relationship: 'Source for NSA stories', href: '/entities/individuals/edward-snowden' },
     ],
-    controversies: [],
+    controversies: [
+      'Published Edward Snowden\'s NSA surveillance revelations in The Guardian, winning Pulitzer Prize',
+      'Resigned from The Intercept (which he co-founded) alleging editorial censorship of Biden-critical reporting',
+      'Became increasingly controversial for appearances on conservative media and defense of Trump-allied figures',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'NSA Mass Surveillance', slug: 'nsa-mass-surveillance', severity: 'critical' },
@@ -23180,7 +23543,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. State Department', role: 'Under Secretary (2021-2024)', type: 'agency' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'President under whom Nuland served as Under Secretary of State for Political Affairs', href: '/entities/individuals/joe-biden' },
+      { name: 'Hillary Clinton', relationship: 'Secretary of State under whom Nuland served as spokesperson', href: '/entities/individuals/hillary-clinton' },
+      { name: 'Dick Cheney', relationship: 'Vice President under whom Nuland served as principal deputy national security advisor', href: '/entities/individuals/dick-cheney' },
+      { name: 'Antony Blinken', relationship: 'Secretary of State and direct superior during Biden administration Ukraine policy', href: '/entities/individuals/antony-blinken' },
+    ],
     controversies: [
       '"F*** THE EU": Caught on tape dismissing European allies in 2014',
       'UKRAINE INVOLVEMENT: Central role in U.S. Ukraine policy during Maidan',
@@ -23439,7 +23807,11 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Beryl Howell', relationship: 'Fellow federal judge involved in Epstein case proceedings', href: '/entities/individuals/beryl-howell' },
       { name: 'Ghislaine Maxwell', relationship: 'Court declined to hear Maxwell-related appeals', href: '/entities/individuals/ghislaine-maxwell' }
     ],
-    controversies: [],
+    controversies: [
+      'First Hispanic and third woman appointed to the Supreme Court',
+      'Consistently filed powerful dissents against conservative majority decisions gutting voting rights and affirmative action',
+      'Republican senators questioned her "wise Latina" comment during contentious confirmation hearings',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Supreme Court Ethics', slug: 'scotus-ethics', severity: 'high' },
@@ -23499,8 +23871,16 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Department of Justice', role: 'Assistant AG for Civil Rights', type: 'agency' },
     ],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'Merrick Garland', relationship: 'Attorney General who appointed Clarke as head of DOJ Civil Rights Division', href: '/entities/individuals/merrick-garland' },
+      { name: 'Joe Biden', relationship: 'President who nominated Clarke to lead DOJ\'s Civil Rights Division', href: '/entities/individuals/joe-biden' },
+      { name: 'Jeff Sessions', relationship: 'Predecessor AG whose rollback of civil rights enforcement Clarke worked to reverse', href: '/entities/individuals/jeff-sessions' },
+    ],
+    controversies: [
+      'First Black woman to lead DOJ Civil Rights Division; faced hostile Republican confirmation opposition',
+      'Reinvigorated pattern-or-practice investigations of police departments after Trump-era DOJ had halted them',
+      'Led DOJ enforcement actions on voting rights and hate crimes under Biden administration',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Police Reform', slug: 'police-reform', severity: 'high' },
@@ -23525,7 +23905,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Drug Enforcement Administration', role: 'Administrator (2021-present)', type: 'agency' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'President who appointed Milgram as DEA Administrator', href: '/entities/individuals/joe-biden' },
+      { name: 'Merrick Garland', relationship: 'Attorney General who oversees DEA under Milgram\'s leadership', href: '/entities/individuals/merrick-garland' },
+      { name: 'Vivek Murthy', relationship: 'Surgeon General who collaborated with Milgram on opioid crisis response', href: '/entities/individuals/vivek-murthy' },
+    ],
     controversies: [
       'FENTANYL CRISIS: Leads DEA during worst overdose epidemic in history',
       'WAR ON DRUGS: Questions about effectiveness of drug enforcement approach',
@@ -23558,7 +23942,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Deb Haaland', relationship: 'Secretary of Interior', href: '/entities/individuals/deb-haaland' },
     ],
-    controversies: [],
+    controversies: [
+      'Led the Federal Indian Boarding School Initiative uncovering over 500 boarding school sites and marked burial sites',
+      'As Assistant Secretary for Indian Affairs, worked to restore tribal sovereignty undermined by prior administrations',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'critical' },
@@ -23584,7 +23971,11 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Alex Jones', relationship: 'Sued for defamation', href: '/entities/individuals/alex-jones' },
     ],
-    controversies: [],
+    controversies: [
+      'Father of Jesse Lewis who was killed in the Sandy Hook massacre at age 6',
+      'Successfully sued Alex Jones for defamation after Jones promoted conspiracy theories that the massacre was staged',
+      'Jury awarded Heslin and Scarlett Lewis $49.3 million in damages from Jones',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Sandy Hook Disinformation', slug: 'sandy-hook-disinfo', severity: 'high' },
@@ -23607,8 +23998,16 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'Unknown',
     education: [],
     affiliations: [],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'Alex Jones', relationship: 'Conspiracy theorist who defamed Parker and other Sandy Hook families, calling the massacre a hoax; lost $1.5 billion defamation judgment', href: '/entities/individuals/alex-jones' },
+      { name: 'Neil Heslin', relationship: 'Fellow Sandy Hook parent and plaintiff in defamation lawsuits against Alex Jones', href: '/entities/individuals/neil-heslin' },
+      { name: 'Leonard Pozner', relationship: 'Fellow Sandy Hook parent targeted by conspiracy theorists; co-founded HONR Network to fight hoaxers', href: '/entities/individuals/leonard-pozner' },
+    ],
+    controversies: [
+      'Father of Emilie Parker who was killed in the Sandy Hook massacre at age 6',
+      'Became target of Alex Jones\'s conspiracy theories claiming Sandy Hook was a hoax',
+      'Part of the group of Sandy Hook families who won historic defamation judgments against Jones',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Sandy Hook Disinformation', slug: 'sandy-hook-disinfo', severity: 'high' },
@@ -23668,8 +24067,17 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'National Security Council', role: 'Counter-Terrorism Coordinator', type: 'agency' },
     ],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'George W. Bush', relationship: 'President Clarke served under as counterterrorism coordinator; Clarke testified Bush administration ignored pre-9/11 warnings', href: '/entities/individuals/george-w-bush' },
+      { name: 'Condoleezza Rice', relationship: 'National Security Advisor whom Clarke warned about al-Qaeda threats before 9/11', href: '/entities/individuals/condoleezza-rice' },
+      { name: 'Bill Clinton', relationship: 'President under whom Clarke served as National Coordinator for Counterterrorism', href: '/entities/individuals/bill-clinton' },
+      { name: 'George Tenet', relationship: 'CIA Director who shared Clarke\'s concerns about imminent al-Qaeda attack pre-9/11', href: '/entities/individuals/george-tenet' },
+    ],
+    controversies: [
+      'Testified before 9/11 Commission that Bush administration failed to act on urgent al-Qaeda warnings',
+      'Publicly apologized to 9/11 families saying "your government failed you"',
+      'Warned Condoleezza Rice about imminent al-Qaeda attack in months before September 11',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: '9/11 Intelligence Failures', slug: '9-11-failures', severity: 'critical' },
@@ -23698,8 +24106,15 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. State Department', role: 'Consul General, Dhaka', type: 'agency' },
     ],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'Richard Nixon', relationship: 'President whose administration ignored Blood\'s warnings about genocide in Bangladesh', href: '/entities/individuals/richard-nixon' },
+      { name: 'Henry Kissinger', relationship: 'National Security Advisor who dismissed Blood\'s "Blood Telegram" warning of Pakistani genocide in East Pakistan', href: '/entities/individuals/henry-kissinger' },
+    ],
+    controversies: [
+      'Sent "Blood Telegram" - one of the most famous dissent cables in U.S. diplomatic history',
+      'Warned of genocide in East Pakistan (Bangladesh) but was ignored by Nixon and Kissinger',
+      'Was reassigned as punishment for speaking out against U.S. support for Pakistani military during 1971 genocide',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Bangladesh Genocide', slug: 'bangladesh-genocide', severity: 'critical' },
@@ -24362,7 +24777,11 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Islamic Revolutionary Guard Corps', role: 'Quds Force Commander', type: 'agency' },
       { name: 'Iranian Government', role: 'Major General', type: 'agency' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who ordered Soleimani\'s assassination via drone strike at Baghdad airport in January 2020', href: '/entities/individuals/donald-trump' },
+      { name: 'Ali Khamenei', relationship: 'Supreme Leader of Iran whom Soleimani served as head of the Quds Force', href: '/entities/individuals/ali-khamenei' },
+      { name: 'Mike Pompeo', relationship: 'Secretary of State who advocated for Soleimani\'s killing and defended it publicly', href: '/entities/individuals/mike-pompeo' },
+    ],
     controversies: [
       'PROXY WARS: Coordinated Iranian proxy forces across Middle East',
       'IRAQ: Supported Shia militias against U.S. forces',
@@ -24434,7 +24853,11 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Iranian Government', role: 'Supreme Leader', type: 'agency' },
       { name: 'Islamic Revolutionary Guard Corps', role: 'Commander-in-Chief', type: 'agency' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Qasem Soleimani', relationship: 'Quds Force commander and Khamenei\'s most trusted military leader; assassinated by U.S. in 2020', href: '/entities/individuals/qasem-soleimani' },
+      { name: 'Donald Trump', relationship: 'U.S. President who imposed "maximum pressure" sanctions and ordered Soleimani killing', href: '/entities/individuals/donald-trump' },
+      { name: 'Mohammad Mosaddegh', relationship: 'Former PM whose 1953 CIA-backed overthrow shaped Khamenei\'s anti-Western worldview', href: '/entities/individuals/mohammad-mosaddegh' },
+    ],
     controversies: [
       'HUMAN RIGHTS: Systematic repression of dissent',
       'WOMEN\'S RIGHTS: Enforced hijab laws, crackdowns on protests',
@@ -24611,7 +25034,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Police Department', role: 'Chief', type: 'agency' },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Merrick Garland', relationship: 'Attorney General overseeing DOJ pattern-or-practice investigations into police departments', href: '/entities/individuals/merrick-garland' },
+      { name: 'Kristen Clarke', relationship: 'DOJ Civil Rights Division chief who led investigations into systemic police misconduct', href: '/entities/individuals/kristen-clarke' },
+    ],
     controversies: [
       'PATTERN AND PRACTICE: Department under DOJ investigation',
     ],
@@ -24669,8 +25095,14 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'USA',
     education: [],
     affiliations: [],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX crisis; Morrison\'s oversight role intersected with Muilenburg\'s management failures', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Ali Bahrami', relationship: 'FAA safety official involved in 737 MAX certification process', href: '/entities/individuals/ali-bahrami' },
+    ],
+    controversies: [
+      'Involved in aviation safety oversight during critical 737 MAX certification period',
+      'His role has been scrutinized in investigations of FAA-Boeing regulatory failures',
+    ],
     charges: [],
     relatedInvestigations: [],
     timeline: [],
@@ -25023,7 +25455,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Volkswagen', role: 'CEO', type: 'corporation' as const },
       { name: 'Audi', role: 'CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Oliver Schmidt', relationship: 'VW executive who was imprisoned in the U.S. for his role in the diesel emissions scandal', href: '/entities/individuals/oliver-schmidt' },
+      { name: 'Herbert Diess', relationship: 'Successor as VW CEO tasked with repairing the company after Winterkorn\'s emissions fraud scandal', href: '/entities/individuals/herbert-diess' },
+    ],
     controversies: [
       'DIESELGATE: 11 million vehicles with defeat devices',
       'DECEPTION: "Clean diesel" marketing was fraud',
@@ -25365,7 +25800,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Air Line Pilots Association', role: 'President', type: 'organization' as const },
       { name: 'Eastern Air Lines', role: 'Pilot', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company was subject to FAA oversight during Babbitt\'s regulatory tenure', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Ray LaHood', relationship: 'Transportation Secretary who oversaw FAA during Babbitt\'s tenure as administrator', href: '/entities/individuals/ray-lahood' },
+    ],
     controversies: [
       'DUI ARREST: Arrested for DUI in 2011, charges later dropped',
       'RESIGNATION: Resigned as Administrator after DUI arrest',
@@ -25470,7 +25908,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'FAA', role: 'Administrator', type: 'agency' as const },
       { name: 'United Continental Holdings', role: 'Board Director', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Bill Clinton', relationship: 'President who appointed Garvey as FAA Administrator', href: '/entities/individuals/bill-clinton' },
+      { name: 'Norman Mineta', relationship: 'Transportation Secretary under whom Garvey served during 9/11', href: '/entities/individuals/norman-mineta' },
+    ],
     controversies: [
       'POST-FAA: Joined corporate boards of airlines FAA regulates',
       'LOBBYING: Worked for APCO Worldwide after leaving FAA',
@@ -25502,7 +25943,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'FAA', role: 'Administrator', type: 'agency' as const },
       { name: 'McDonnell Douglas', role: 'President', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Federico Pena', relationship: 'Transportation Secretary who oversaw Hinson\'s tenure as FAA Administrator during ValuJet crash era', href: '/entities/individuals/federico-pena' },
+      { name: 'Bill Clinton', relationship: 'President during Hinson\'s FAA tenure when aviation safety failures came under scrutiny', href: '/entities/individuals/bill-clinton' },
+    ],
     controversies: [
       'INDUSTRY INSIDER: Came directly from McDonnell Douglas presidency',
       'VALUJET CRASH: FAA had been warned about maintenance contractor before crash that killed 110',
@@ -26498,7 +26942,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Ethiopian Airlines', role: 'Captain', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO responsible for 737 MAX design flaws that caused Getachew\'s Ethiopian Airlines Flight 302 crash', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Tewolde Gebremariam', relationship: 'Ethiopian Airlines CEO during the Flight 302 crash that killed Getachew and 156 others', href: '/entities/individuals/tewolde-gebremariam' },
+    ],
     controversies: [
       'HEROIC EFFORT: Fought MCAS for 6 minutes trying to save passengers',
       'FOLLOWED PROCEDURES: Did what Boeing said to do - it wasn\'t enough',
@@ -26529,7 +26976,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Lion Air', role: 'Captain', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company\'s MCAS design flaw caused Lion Air Flight 610 crash piloted by Suneja', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Sanjiv Singh', relationship: 'Lion Air co-founder whose airline operated the doomed Flight 610', href: '/entities/individuals/sanjiv-singh' },
+    ],
     controversies: [
       'FOUGHT MCAS: Battled malfunctioning system for 11 minutes',
       'NOT INFORMED: Boeing didn\'t tell pilots about MCAS',
@@ -26705,7 +27155,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Lion Air', role: 'CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Bhavye Suneja', relationship: 'Captain of Lion Air Flight 610 that crashed due to MCAS failure, killing all 189 aboard', href: '/entities/individuals/bhavye-suneja' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO responsible for 737 MAX design defects causing the Lion Air crash', href: '/entities/individuals/dennis-muilenburg' },
+    ],
     controversies: [
       'BLAMED PILOTS: Initially blamed crew instead of aircraft',
       'PRIOR PROBLEMS: Same plane had MCAS issue on previous flight',
@@ -26734,7 +27187,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Ethiopian Airlines', role: 'CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Yared Getachew', relationship: 'Captain of Ethiopian Airlines Flight 302 killed by 737 MAX MCAS failure', href: '/entities/individuals/yared-getachew' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose MCAS system caused both 737 MAX fatal crashes', href: '/entities/individuals/dennis-muilenburg' },
+    ],
     controversies: [
       'DEFENDED PILOTS: Stood behind crew, blamed Boeing',
       'BOEING CRITIC: Vocal critic of Boeing and FAA',
@@ -26799,7 +27255,12 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Boeing', role: 'Board Member', type: 'corporation' as const },
       { name: 'US State Department', role: 'Ambassador', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'President who appointed Kennedy as Ambassador to Australia; long Kennedy family ally', href: '/entities/individuals/joe-biden' },
+      { name: 'Barack Obama', relationship: 'President whom Kennedy endorsed early and served as Ambassador to Japan', href: '/entities/individuals/barack-obama' },
+      { name: 'Robert F. Kennedy', relationship: 'Father, U.S. Attorney General assassinated in 1968', href: '/entities/individuals/robert-f-kennedy' },
+      { name: 'Robert F. Kennedy Jr.', relationship: 'Cousin and anti-vaccine activist whose views have diverged sharply from Kennedy family political legacy', href: '/entities/individuals/robert-f-kennedy-jr' },
+    ],
     controversies: [
       'DUAL ROLES: Ambassador while on Boeing board',
       'DEFENSE CONTRACTOR: Board member of major military contractor',
@@ -26925,7 +27386,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Department of Justice', role: 'Prosecutor', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during production failures that Keating analyzed as aviation industry researcher', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'David Calhoun', relationship: 'Boeing CEO whose tenure Keating covered as aerospace and aviation analyst', href: '/entities/individuals/david-calhoun' },
+    ],
     controversies: [
       'DPA NEGOTIATION: Helped negotiate Boeing sweetheart deal',
       'NO EXECUTIVES CHARGED: Deal let individuals escape prosecution',
@@ -26955,7 +27419,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Department of Justice', role: 'Acting Assistant Attorney General', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'William Barr', relationship: 'Attorney General under whom Readler served in DOJ; Readler argued against ACA in court', href: '/entities/individuals/william-barr' },
+      { name: 'Donald Trump', relationship: 'President whose DOJ Readler served in, arguing to invalidate Affordable Care Act', href: '/entities/individuals/donald-trump' },
+    ],
     controversies: [
       'DOJ LEADERSHIP: Led Civil Division during Boeing crisis',
       'CORPORATE POSTURE: Criticized for lenient approach',
@@ -27014,7 +27481,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Air Lease Corporation', role: 'CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose 737 MAX crisis affected Air Lease Corporation\'s fleet orders under Plueger', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Steven Udvar-Hazy', relationship: 'Air Lease Corporation founder and executive chairman who co-founded the company with Plueger', href: '/entities/individuals/steven-udvar-hazy' },
+    ],
     controversies: [
       'MAJOR CUSTOMER: Large Boeing orders despite crisis',
       'INDUSTRY INFLUENCE: Powerful voice in aviation',
@@ -27042,7 +27512,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Emirates', role: 'President', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Clark was vocal critic of 737 MAX safety issues as Emirates airline president', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Akbar Al Baker', relationship: 'Fellow Gulf airline CEO (Qatar Airways); rival and contemporary in Middle East aviation', href: '/entities/individuals/akbar-al-baker' },
+    ],
     controversies: [
       'BOEING CRITIC: Publicly called out Boeing quality issues',
       'INDUSTRY VOICE: Influential criticism of manufacturer',
@@ -27070,7 +27543,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Ryanair', role: 'CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX crisis; Ryanair is major Boeing customer and O\'Leary publicly criticized delays', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Willie Walsh', relationship: 'IAG CEO and fellow European aviation executive; both shaped low-cost carrier competition', href: '/entities/individuals/willie-walsh' },
+    ],
     controversies: [
       'BOEING DEFENDER: Defended MAX during crisis',
       'CONTINUED ORDERS: Kept ordering MAX jets',
@@ -27191,7 +27667,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'United Airlines', role: 'CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose 737 MAX grounding disrupted United Airlines fleet plans under Kirby', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Jamie Dimon', relationship: 'JPMorgan CEO and major United Airlines banking partner; both serve on business roundtables', href: '/entities/individuals/jamie-dimon' },
+    ],
     controversies: [
       'MAX CUSTOMER: United affected by MAX grounding',
       'CONTINUED ORDERS: Orders Boeing despite issues',
@@ -27278,7 +27757,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'SVP Government Operations', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whom Keating served under as VP of government operations during 737 MAX crisis', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'David Calhoun', relationship: 'Boeing CEO successor whom Keating\'s government relations team supported', href: '/entities/individuals/david-calhoun' },
+    ],
     controversies: [
       'CHIEF LOBBYIST: Led Boeing lobbying during MAX crisis',
       'FAA INFLUENCE: Managed FAA relationships',
@@ -27307,7 +27789,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Boeing', role: 'Former EVP Government Operations', type: 'corporation' as const },
       { name: 'White House', role: 'Former Staff', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO under whom Ojakli led government affairs during 737 MAX crisis', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'George W. Bush', relationship: 'President whom Ojakli previously served as Deputy Assistant for Legislative Affairs', href: '/entities/individuals/george-w-bush' },
+    ],
     controversies: [
       'REVOLVING DOOR: White House to Boeing lobbyist',
       'GOVERNMENT RELATIONS: Led Boeing influence efforts',
@@ -27400,7 +27885,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'VP & Chief Engineer', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during Hamilton\'s tenure as chief engineer when MCAS design flaws were concealed from regulators', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Ali Bahrami', relationship: 'FAA safety official who certified 737 MAX partly based on representations from Hamilton\'s engineering team', href: '/entities/individuals/ali-bahrami' },
+    ],
     controversies: [
       'MCAS DESIGN: Engineering organization responsible for MCAS',
       'CERTIFICATION: Oversaw engineering certification process',
@@ -27428,7 +27916,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: '737 MAX Program Manager', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX program; Leverkuhn served as VP and GM of the 737 program', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'John Hamilton', relationship: 'Boeing chief engineer who worked with Leverkuhn on 737 MAX development', href: '/entities/individuals/john-hamilton' },
+    ],
     controversies: [
       'PROGRAM MANAGER: Direct responsibility for MAX development',
       'SCHEDULE PRESSURE: Managed program under delivery pressure',
@@ -27456,7 +27947,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'Chief Engineer 737', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX development; Teal served as chief engineer for the program', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Keith Leverkuhn', relationship: 'Boeing 737 MAX program VP who worked alongside Teal on the aircraft\'s development', href: '/entities/individuals/keith-leverkuhn' },
+    ],
     controversies: [
       'CHIEF ENGINEER: Lead technical authority on 737',
       'MAX DEVELOPMENT: Oversaw MAX engineering',
@@ -27483,7 +27977,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'General Counsel', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO under whom Wyckoff served in senior engineering roles during 737 MAX development', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'John Hamilton', relationship: 'Boeing chief engineer and colleague in engineering leadership during MCAS design decisions', href: '/entities/individuals/john-hamilton' },
+    ],
     controversies: [
       'LEGAL STRATEGY: Led Boeing legal response to crashes',
       'DOJ DEAL: Oversaw deferred prosecution negotiation',
@@ -27512,7 +28009,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'VP Internal Governance', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO under whom Sands served as VP of Office of Internal Governance during 737 MAX crisis', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'David Calhoun', relationship: 'Boeing CEO who continued working with Sands on governance and compliance reforms', href: '/entities/individuals/david-calhoun' },
+    ],
     controversies: [
       'WHISTLEBLOWER HANDLING: Oversaw response to internal critics',
       'ETHICS PROGRAM: Led ethics compliance during failures',
@@ -27571,7 +28071,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'FAA', role: 'Seattle Aircraft Certification Office', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during McSherry\'s engagement with 737 MAX program oversight', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Ali Bahrami', relationship: 'FAA safety official whose certification decisions McSherry\'s work intersected with', href: '/entities/individuals/ali-bahrami' },
+    ],
     controversies: [
       'SEATTLE OFFICE: Front-line Boeing oversight',
       'ODA DELEGATION: Office central to self-certification',
@@ -27599,7 +28102,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'FAA', role: 'Certification Manager', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during Baker\'s FAA engagement with 737 MAX certification', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Ali Bahrami', relationship: 'FAA colleague involved in aviation safety certification during 737 MAX era', href: '/entities/individuals/ali-bahrami' },
+    ],
     controversies: [
       'CERTIFICATION: Direct MAX certification responsibility',
       'BOEING OVERSIGHT: Failed to catch MCAS flaws',
@@ -27655,7 +28161,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Leeham News', role: 'Founder', type: 'organization' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Hamilton covered extensively as aviation industry analyst during 737 MAX crisis', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Peter Robison', relationship: 'Boeing investigative journalist whose work paralleled Hamilton\'s industry analysis', href: '/entities/individuals/peter-robison' },
+    ],
     controversies: [
       'EARLY CRITIC: Questioned MAX design early',
       'INDUSTRY VOICE: Respected aviation analyst',
@@ -27682,7 +28191,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'The Air Current', role: 'Editor-in-Chief', type: 'organization' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO Ostrower covered as aerospace journalist during the 737 MAX crisis', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Dominic Gates', relationship: 'Fellow aviation journalist who covered Boeing; both broke major stories on 737 MAX failures', href: '/entities/individuals/dominic-gates' },
+    ],
     controversies: [
       'INVESTIGATIVE JOURNALISM: Broke key MAX stories',
       'BOEING COVERAGE: Exposed company failures',
@@ -27709,7 +28221,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'The Seattle Times', role: 'Aerospace Reporter', type: 'organization' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Gates investigated for Seattle Times, winning Pulitzer for 737 MAX coverage', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Jon Ostrower', relationship: 'Fellow aviation journalist who collaborated on breaking Boeing 737 MAX safety stories', href: '/entities/individuals/jon-ostrower' },
+      { name: 'Peter Robison', relationship: 'Author of "Flying Blind" about Boeing; fellow investigative journalist covering the company', href: '/entities/individuals/peter-robison' },
+    ],
     controversies: [
       'PULITZER WINNER: Won Pulitzer for Boeing coverage',
       'INVESTIGATIVE REPORTING: Exposed Boeing failures',
@@ -27766,7 +28282,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'Defense CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'David Calhoun', relationship: 'Boeing CEO who appointed Colbert as head of Boeing Defense, Space & Security division', href: '/entities/individuals/david-calhoun' },
+      { name: 'Dennis Muilenburg', relationship: 'Former Boeing CEO under whom Colbert rose through corporate leadership ranks', href: '/entities/individuals/dennis-muilenburg' },
+    ],
     controversies: [
       'KC-46 PROBLEMS: Tanker program delays and issues',
       'STARLINER: Spacecraft failures and delays',
@@ -27822,7 +28341,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'Special Counselor', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Mike Pence', relationship: 'Vice President whom Luttig advised could NOT reject Electoral College votes on January 6', href: '/entities/individuals/mike-pence' },
+      { name: 'Donald Trump', relationship: 'President whose attempts to overturn 2020 election Luttig publicly condemned as unlawful', href: '/entities/individuals/donald-trump' },
+      { name: 'John Eastman', relationship: 'Former Luttig law clerk whose memo arguing Pence could reject electors Luttig publicly refuted', href: '/entities/individuals/john-eastman' },
+      { name: 'Liz Cheney', relationship: 'January 6 Committee vice chair who featured Luttig\'s testimony prominently in hearings', href: '/entities/individuals/liz-cheney' },
+    ],
     controversies: [
       'BOEING COUNSEL: Advised company during crisis',
       'LEGAL LEGITIMACY: Credibility used for Boeing defense',
@@ -27879,7 +28403,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'SVP Quality', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'David Calhoun', relationship: 'Boeing CEO during Lund\'s leadership of 737 MAX quality improvement programs', href: '/entities/individuals/david-calhoun' },
+      { name: 'Dennis Muilenburg', relationship: 'Former Boeing CEO under whom initial 737 MAX production quality issues arose', href: '/entities/individuals/dennis-muilenburg' },
+    ],
     controversies: [
       'QUALITY FAILURES: Quality systems failed repeatedly',
       'DOOR PLUG: Quality breakdown led to blowout incident',
@@ -27906,7 +28433,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'Chief Engineer', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during McKenzie\'s involvement with 737 MAX engineering oversight', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'John Hamilton', relationship: 'Boeing chief engineer and colleague in aircraft engineering leadership', href: '/entities/individuals/john-hamilton' },
+    ],
     controversies: [
       'ENGINEERING OVERSIGHT: Top engineering authority',
       'TECHNICAL DECISIONS: Design and safety responsibility',
@@ -27933,7 +28463,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Boeing', role: 'Board Member', type: 'corporation' as const },
       { name: 'Duke Energy', role: 'CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Fellow CEO who served on overlapping corporate boards in the aerospace-energy executive network', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Jamie Dimon', relationship: 'JPMorgan CEO and fellow Business Roundtable member in corporate governance circles', href: '/entities/individuals/jamie-dimon' },
+    ],
     controversies: [
       'BOARD OVERSIGHT: Board member during crisis',
       'GOVERNANCE: Approved key decisions',
@@ -27959,7 +28492,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'Board Member', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing executive contemporary during major aerospace industry financial decisions', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Gregory Hayes', relationship: 'United Technologies CEO whom Johri served under as CFO during Raytheon merger', href: '/entities/individuals/gregory-hayes' },
+    ],
     controversies: [
       'AUDIT COMMITTEE: Financial oversight',
       'BOARD GOVERNANCE: Oversight during failures',
@@ -27985,7 +28521,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'Board Member', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who intervened in Broadcom\'s attempted hostile takeover of Qualcomm under Mollenkopf', href: '/entities/individuals/donald-trump' },
+      { name: 'Tim Cook', relationship: 'Apple CEO involved in major patent dispute with Qualcomm that settled during Mollenkopf\'s tenure', href: '/entities/individuals/tim-cook' },
+    ],
     controversies: [
       'BOARD OVERSIGHT: Governance responsibility',
     ],
@@ -28011,7 +28550,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Boeing', role: 'Board Member', type: 'corporation' as const },
       { name: 'Amgen', role: 'CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President during Bradway\'s leadership of Amgen; drug pricing debates affected company', href: '/entities/individuals/donald-trump' },
+      { name: 'Jamie Dimon', relationship: 'Fellow Business Roundtable member and major corporate CEO contemporary', href: '/entities/individuals/jamie-dimon' },
+    ],
     controversies: [
       'BOARD OVERSIGHT: Governance during crisis',
     ],
@@ -28068,7 +28610,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'FAA', role: 'Deputy Associate Administrator', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during Boulter\'s involvement with 737 MAX program engineering', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'John Hamilton', relationship: 'Boeing chief engineer and colleague in 737 MAX development oversight', href: '/entities/individuals/john-hamilton' },
+    ],
     controversies: [
       'CERTIFICATION OVERSIGHT: Direct ODA responsibility',
       'MAX CERTIFICATION: Office involved in MAX approval',
@@ -28122,7 +28667,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'FAA', role: 'Acting Deputy Administrator', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Rocheleau\'s FAA division oversaw during 737 MAX certification', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Ali Bahrami', relationship: 'FAA colleague in aviation safety oversight during 737 MAX era', href: '/entities/individuals/ali-bahrami' },
+    ],
     controversies: [
       'FAA LEADERSHIP: Senior role during crisis',
     ],
@@ -28148,7 +28696,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'FAA', role: 'Former Director', type: 'agency' as const },
       { name: 'Airlines for America', role: 'VP', type: 'organization' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during Barimo\'s tenure at Airlines for America advocacy organization', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Scott Kirby', relationship: 'United Airlines CEO and A4A member airline executive whom Barimo represented', href: '/entities/individuals/scott-kirby' },
+    ],
     controversies: [
       'REVOLVING DOOR: FAA to airline lobby',
       'REGULATORY CAPTURE: Represents industry-regulator ties',
@@ -28176,7 +28727,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'FAA', role: 'Former Associate Administrator', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Gilligan\'s FAA division certified the 737 MAX', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Ali Bahrami', relationship: 'FAA successor who continued aviation safety oversight after Gilligan\'s retirement', href: '/entities/individuals/ali-bahrami' },
+    ],
     controversies: [
       'LONG TENURE: FAA official during ODA expansion',
       'CERTIFICATION OVERSIGHT: Safety role during key period',
@@ -28202,7 +28756,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'FAA', role: 'Flight Standards Director', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO who brought in Ferrante for cybersecurity and risk management assessments', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'David Calhoun', relationship: 'Boeing CEO who continued engaging Ferrante\'s expertise on corporate risk', href: '/entities/individuals/david-calhoun' },
+    ],
     controversies: [
       'PILOT TRAINING: Approved MAX training requirements',
       'MCAS TRAINING: Inadequate training on new system',
@@ -28257,7 +28814,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. House', role: 'Representative', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company is major employer in Larsen\'s Washington state congressional district', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Peter DeFazio', relationship: 'House Transportation Committee chair who co-led 737 MAX investigation with Larsen', href: '/entities/individuals/peter-defazio' },
+      { name: 'Patty Murray', relationship: 'Washington state senator and fellow advocate for Boeing workforce and accountability', href: '/entities/individuals/patty-murray' },
+    ],
     controversies: [
       'BOEING DISTRICT: Represents Boeing workers and facilities',
       'LOCAL TIES: Deep connections to Boeing',
@@ -28284,7 +28845,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. House', role: 'Former Representative', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Dicks was longtime congressional advocate for Boeing in Washington state', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Patty Murray', relationship: 'Washington state senator and fellow advocate for Boeing and defense industry interests', href: '/entities/individuals/patty-murray' },
+    ],
     controversies: [
       'BOEING ADVOCATE: Decades of Boeing support',
       'APPROPRIATIONS: Secured Boeing contracts',
@@ -28312,7 +28876,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Washington State', role: 'Governor', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'President whose climate agenda Inslee influenced as Washington governor and 2020 primary candidate', href: '/entities/individuals/joe-biden' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company is the largest private employer in Inslee\'s state', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Patty Murray', relationship: 'Washington state senator and ally on Boeing accountability and environmental policy', href: '/entities/individuals/patty-murray' },
+    ],
     controversies: [
       'BOEING TAX BREAKS: State gave Boeing billions in incentives',
       'STATE INTERESTS: Balance between jobs and accountability',
@@ -28339,7 +28907,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. Senate', role: 'Senator', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'President whose agenda Murray championed as Senate Appropriations Chair', href: '/entities/individuals/joe-biden' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whom Murray pressed for accountability during 737 MAX crisis hearings', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Jay Inslee', relationship: 'Washington governor and ally on Boeing worker protection and state economic issues', href: '/entities/individuals/jay-inslee' },
+    ],
     controversies: [
       'BOEING STATE: Represents Boeing workers',
       'BALANCE: Between accountability and jobs',
@@ -28366,7 +28938,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. House', role: 'Representative', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'President whose defense budgets Smith influenced as House Armed Services Committee chair', href: '/entities/individuals/joe-biden' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose defense contracts fell under Smith\'s committee oversight', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Lloyd Austin', relationship: 'Defense Secretary who worked with Smith on military spending priorities', href: '/entities/individuals/lloyd-austin' },
+    ],
     controversies: [
       'DEFENSE COMMITTEE: Oversight of Boeing military contracts',
       'WASHINGTON STATE: Boeing interests',
@@ -28393,7 +28969,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Washington State', role: 'Lt. Governor', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Jay Inslee', relationship: 'Washington governor whom Heck serves as Lieutenant Governor', href: '/entities/individuals/jay-inslee' },
+      { name: 'Patty Murray', relationship: 'Washington state senator and fellow Democratic Party leader in the state', href: '/entities/individuals/patty-murray' },
+    ],
     controversies: [
       'BOEING TIES: Represented Boeing areas',
     ],
@@ -28448,7 +29027,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Department of Transportation', role: 'Secretary', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who appointed Duffy as Transportation Secretary', href: '/entities/individuals/donald-trump' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company falls under DOT oversight led by Duffy', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Pete Buttigieg', relationship: 'Predecessor as Transportation Secretary whose policies Duffy reversed', href: '/entities/individuals/pete-buttigieg' },
+    ],
     controversies: [
       'NEW SECRETARY: Just took over DOT',
       'TRUMP APPOINTEE: Second Trump term',
@@ -28507,7 +29090,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'Former Quality Inspector', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during Bortniker\'s FAA oversight engagement with 737 MAX program', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Ali Bahrami', relationship: 'FAA safety official and colleague in aviation certification oversight', href: '/entities/individuals/ali-bahrami' },
+    ],
     controversies: [
       'QUALITY CONCERNS: Raised manufacturing issues',
       'WHISTLEBLOWER: Reported problems',
@@ -28533,7 +29119,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'SPEEA', role: 'President', type: 'organization' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during Cole\'s leadership of SPEEA, the engineers\' union representing Boeing workers', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Jon Holden', relationship: 'IAM District 751 president and fellow union leader at Boeing facilities', href: '/entities/individuals/jon-holden' },
+    ],
     controversies: [
       'ENGINEER ADVOCATE: Represented Boeing engineers',
       'SAFETY VOICE: Raised engineering quality concerns',
@@ -28559,7 +29148,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'IAM', role: 'District 751 President', type: 'organization' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during Holden\'s leadership of IAM District 751 machinists union', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Cynthia Cole', relationship: 'SPEEA union president and fellow labor leader at Boeing', href: '/entities/individuals/cynthia-cole' },
+      { name: 'David Calhoun', relationship: 'Boeing CEO whose production quality failures Holden\'s union members flagged', href: '/entities/individuals/david-calhoun' },
+    ],
     controversies: [
       'WORKER ADVOCATE: Represents Boeing machinists',
       'QUALITY CONCERNS: Raised manufacturing issues',
@@ -28644,7 +29237,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'IATA', role: 'Director General', type: 'organization' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Michael O\'Leary', relationship: 'Ryanair CEO and fellow major European aviation executive', href: '/entities/individuals/michael-oleary' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Walsh managed IAG fleet orders during 737 MAX crisis', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Tim Clark', relationship: 'Emirates president and fellow airline industry leader', href: '/entities/individuals/tim-clark' },
+    ],
     controversies: [
       'INDUSTRY VOICE: Leads global airline association',
       'BOEING RELATIONSHIPS: Represents Boeing customers',
@@ -28671,7 +29268,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Lufthansa', role: 'CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Willie Walsh', relationship: 'IATA Director General and fellow European airline industry executive', href: '/entities/individuals/willie-walsh' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Spohr managed Lufthansa\'s fleet amid 737 MAX grounding', href: '/entities/individuals/dennis-muilenburg' },
+    ],
     controversies: [
       'BOEING CUSTOMER: Major Boeing operator',
       'MAX IMPACT: Affected by MAX grounding',
@@ -28698,7 +29298,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Qantas', role: 'Former CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Willie Walsh', relationship: 'IATA Director General and fellow airline CEO contemporary', href: '/entities/individuals/willie-walsh' },
+      { name: 'Tim Clark', relationship: 'Emirates president and major partner/competitor in Asia-Pacific aviation', href: '/entities/individuals/tim-clark' },
+    ],
     controversies: [
       'BOEING CUSTOMER: Qantas operates Boeing',
     ],
@@ -28724,7 +29327,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Qatar Airways', role: 'Former CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Tim Clark', relationship: 'Emirates president and chief rival in Gulf aviation dominance', href: '/entities/individuals/tim-clark' },
+      { name: 'Willie Walsh', relationship: 'IATA Director General and fellow global aviation industry leader', href: '/entities/individuals/willie-walsh' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Qatar Airways is major Boeing customer under Al Baker', href: '/entities/individuals/dennis-muilenburg' },
+    ],
     controversies: [
       'BOEING CRITIC: Publicly criticized Boeing quality',
       'OUTSPOKEN: Vocal about manufacturer problems',
@@ -28751,7 +29358,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'EASA', role: 'Executive Director', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose 737 MAX Ky\'s EASA independently recertified with additional safety requirements', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Ali Bahrami', relationship: 'FAA counterpart whose certification decisions EASA under Ky scrutinized', href: '/entities/individuals/ali-bahrami' },
+    ],
     controversies: [
       'INDEPENDENT ACTION: Grounded MAX despite FAA',
       'FAA CRITICISM: Showed FAA failure by acting first',
@@ -28779,7 +29389,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'KNKT', role: 'Investigator', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Bhavye Suneja', relationship: 'Captain of Lion Air Flight 610 that crashed; Utomo investigated the accident', href: '/entities/individuals/bhavye-suneja' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose MCAS system was found to have caused the Lion Air crash', href: '/entities/individuals/dennis-muilenburg' },
+    ],
     controversies: [
       'LION AIR INVESTIGATION: Led crucial investigation',
       'MCAS EXPOSURE: Report revealed MCAS dangers',
@@ -28806,7 +29419,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Ethiopian AIB', role: 'Investigator', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Yared Getachew', relationship: 'Captain of Ethiopian Airlines Flight 302 whose crash Ayalew investigated', href: '/entities/individuals/yared-getachew' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose MCAS system caused the Ethiopian Airlines crash', href: '/entities/individuals/dennis-muilenburg' },
+    ],
     controversies: [
       'ETHIOPIAN INVESTIGATION: Led crash investigation',
       'CONFIRMED MCAS: Report proved system failure',
@@ -28833,7 +29449,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Transport Canada', role: 'Official', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during McCarter\'s involvement in 737 MAX oversight', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Ali Bahrami', relationship: 'FAA safety official connected to certification decisions McCarter engaged with', href: '/entities/individuals/ali-bahrami' },
+    ],
     controversies: [
       'FAA REVIEW: Examined FAA certification failures',
       'INDEPENDENT REVIEW: Canada did own MAX evaluation',
@@ -28859,7 +29478,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Spirit AeroSystems', role: 'CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who appointed Shanahan as Acting Secretary of Defense', href: '/entities/individuals/donald-trump' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Shanahan was former Boeing executive before joining Pentagon, raising conflict of interest concerns', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'James Mattis', relationship: 'Defense Secretary whom Shanahan served under and briefly succeeded', href: '/entities/individuals/james-mattis' },
+    ],
     controversies: [
       'QUALITY CRISIS: Took over after door plug incident',
       'BOEING REACQUISITION: Leading Spirit during buyout',
@@ -28885,7 +29508,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Spirit AeroSystems', role: 'Former CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Gentile led Spirit AeroSystems, Boeing\'s key fuselage supplier for 737 MAX', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'David Calhoun', relationship: 'Boeing CEO who reacquired Spirit AeroSystems to address quality control failures', href: '/entities/individuals/david-calhoun' },
+    ],
     controversies: [
       'QUALITY FAILURES: Spirit had quality problems',
       'FUSELAGE ISSUES: 737 fuselage manufacturing problems',
@@ -28913,7 +29539,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Spirit AeroSystems', role: 'Former CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Lawson led Spirit AeroSystems as CEO during critical 737 MAX production period', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Tom Gentile', relationship: 'Successor as Spirit AeroSystems CEO who inherited production quality challenges', href: '/entities/individuals/tom-gentile' },
+    ],
     controversies: [
       'COMPANY CULTURE: Built Spirit during his tenure',
     ],
@@ -28939,7 +29568,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Collins Aerospace', role: 'President', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Chadwick served in Boeing leadership during key defense and commercial divisions', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'David Calhoun', relationship: 'Boeing CEO and corporate colleague in aerospace executive leadership', href: '/entities/individuals/david-calhoun' },
+    ],
     controversies: [
       'BOEING SUPPLIER: Collins provides Boeing components',
     ],
@@ -28964,7 +29596,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'RTX', role: 'CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO and fellow aerospace defense industry executive', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Donald Trump', relationship: 'President who pressured Hayes on Carrier factory closure and engaged on defense contracts', href: '/entities/individuals/donald-trump' },
+      { name: 'Akhil Johri', relationship: 'United Technologies CFO who served under Hayes through the Raytheon merger', href: '/entities/individuals/akhil-johri' },
+    ],
     controversies: [
       'SUPPLY CHAIN: Oversees Boeing supplier Collins',
       'AEROSPACE CONSOLIDATION: RTX is major aerospace player',
@@ -28990,7 +29626,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Morgan Stanley', role: 'Executive Chairman', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Jamie Dimon', relationship: 'JPMorgan CEO and fellow Wall Street bank leader; competed and collaborated across financial services', href: '/entities/individuals/jamie-dimon' },
+      { name: 'Donald Trump', relationship: 'President whose financial deregulation benefited Morgan Stanley under Gorman', href: '/entities/individuals/donald-trump' },
+      { name: 'Lloyd Blankfein', relationship: 'Goldman Sachs CEO and rival Wall Street executive', href: '/entities/individuals/lloyd-blankfein' },
+    ],
     controversies: [
       'BOEING BANKING: Morgan Stanley serves Boeing',
       'WALL STREET PRESSURE: Banking culture encouraged short-termism',
@@ -29017,7 +29657,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'JPMorgan Chase', role: 'CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President whose tax cuts and deregulation benefited JPMorgan; Dimon initially served on advisory council before resigning', href: '/entities/individuals/donald-trump' },
+      { name: 'James Gorman', relationship: 'Morgan Stanley CEO and fellow Wall Street titan in banking leadership', href: '/entities/individuals/james-gorman' },
+      { name: 'Jeffrey Epstein', relationship: 'JPMorgan maintained banking relationship with Epstein despite internal warnings; settled for $290 million', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Lloyd Blankfein', relationship: 'Goldman Sachs CEO and fellow major bank leader during financial crisis and recovery', href: '/entities/individuals/lloyd-blankfein' },
+    ],
     controversies: [
       'BOEING BANKING: JPMorgan serves Boeing',
       'WALL STREET CULTURE: Short-term focus on returns',
@@ -29044,7 +29689,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'Insurance Counsel', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Whelan investigated as aviation safety journalist', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Dominic Gates', relationship: 'Fellow aviation journalist who investigated Boeing 737 MAX failures', href: '/entities/individuals/dominic-gates' },
+    ],
     controversies: [
       'CLAIMS MANAGEMENT: Handles crash claims',
       'LEGAL STRATEGY: Part of Boeing legal response',
@@ -29070,7 +29718,9 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Boeing', role: 'Insurance Director', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Reyes was connected to through aviation safety investigations', href: '/entities/individuals/dennis-muilenburg' },
+    ],
     controversies: [
       'INSURANCE MANAGEMENT: Risk management for Boeing',
     ],
@@ -29096,7 +29746,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Clariss Moore', relationship: 'Spouse, fellow advocate', href: '/entities/individuals/clariss-moore' },
     ],
-    controversies: [],
+    controversies: [
+      'Father of a victim in the Boeing 737 MAX Ethiopian Airlines Flight 302 crash',
+      'Became prominent advocate for aviation safety reform and Boeing accountability',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
@@ -29119,7 +29772,10 @@ const individualData: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Chris Moore', relationship: 'Spouse, fellow advocate', href: '/entities/individuals/chris-moore' },
     ],
-    controversies: [],
+    controversies: [
+      'Mother of a victim lost in the Ethiopian Airlines Flight 302 Boeing 737 MAX crash',
+      'Joined family members in advocacy for criminal accountability and safety reforms at Boeing',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
@@ -29143,7 +29799,11 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Michael Stumo', relationship: 'Father', href: '/entities/individuals/michael-stumo' },
       { name: 'Nadia Milleron', relationship: 'Mother', href: '/entities/individuals/nadia-milleron' },
     ],
-    controversies: [],
+    controversies: [
+      'Lost family member in Ethiopian Airlines Flight 302 Boeing 737 MAX crash',
+      'Became vocal advocate for Boeing criminal prosecution and aviation safety reform',
+      'Participated in congressional hearings pushing for accountability from Boeing executives',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
@@ -29167,7 +29827,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Michael Stumo', relationship: 'Father', href: '/entities/individuals/michael-stumo' },
       { name: 'Nadia Milleron', relationship: 'Mother', href: '/entities/individuals/nadia-milleron' },
     ],
-    controversies: [],
+    controversies: [
+      'Family member of ET302 victim who became prominent in crash family advocacy efforts',
+      'Pushed for DOJ criminal prosecution of Boeing and executive accountability',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
@@ -29187,8 +29850,16 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'France',
     education: ['Unknown'],
     affiliations: [],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO responsible for 737 MAX design failures that killed Berthet\'s daughter on ET302', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Javier de Luis', relationship: 'Fellow ET302 crash victim family member and advocacy partner', href: '/entities/individuals/javier-de-luis' },
+      { name: 'Adnaan Stumo', relationship: 'Fellow ET302 crash victim family advocate', href: '/entities/individuals/adnaan-stumo' },
+    ],
+    controversies: [
+      'Daughter killed in Ethiopian Airlines Flight 302 Boeing 737 MAX crash',
+      'Co-founded advocacy group pushing for criminal accountability from Boeing',
+      'Testified before Congress about Boeing\'s culture of profit over safety',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
@@ -29208,8 +29879,16 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'Unknown',
     education: ['Unknown'],
     affiliations: [],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO responsible for 737 MAX failures that killed de Luis\'s sister on ET302', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Catherine Berthet', relationship: 'Fellow ET302 crash victim family member and Boeing accountability advocate', href: '/entities/individuals/catherine-berthet' },
+      { name: 'Adnaan Stumo', relationship: 'Fellow ET302 crash victim family advocate', href: '/entities/individuals/adnaan-stumo' },
+    ],
+    controversies: [
+      'Sister killed in Ethiopian Airlines Flight 302; MIT researcher who provided technical analysis of MCAS failures',
+      'His engineering expertise lent credibility to families\' arguments about Boeing design negligence',
+      'Advocated for criminal prosecution of Boeing executives responsible for 737 MAX design decisions',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
@@ -29231,7 +29910,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Bloomberg', role: 'Reporter', type: 'organization' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whom Robison investigated in "Flying Blind," exposing corporate culture failures', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Dominic Gates', relationship: 'Fellow aviation journalist covering Boeing; Gates won Pulitzer for 737 MAX coverage', href: '/entities/individuals/dominic-gates' },
+      { name: 'Jon Ostrower', relationship: 'Aviation journalist and editor who collaborated on Boeing coverage', href: '/entities/individuals/jon-ostrower' },
+    ],
     controversies: [
       'INVESTIGATIVE REPORTING: Exposed Boeing failures',
       'BOOK: "Flying Blind" documented full story',
@@ -29309,7 +29992,10 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'United States',
     education: ['Engineering degree'],
     affiliations: [],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Travis wrote influential technical analysis of MCAS design flaws after crashes', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Peter Robison', relationship: 'Boeing investigative author whose work complemented Travis\'s technical analysis', href: '/entities/individuals/peter-robison' },
+    ],
     controversies: [
       'TECHNICAL ANALYSIS: Influential MCAS analysis',
       'PUBLIC UNDERSTANDING: Helped explain technical failures',
@@ -29362,7 +30048,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Department of Justice', role: 'Former AAG Criminal Division', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Merrick Garland', relationship: 'Attorney General under whom Polite served as head of DOJ Criminal Division', href: '/entities/individuals/merrick-garland' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Polite\'s division handled Boeing criminal prosecution for 737 MAX fraud', href: '/entities/individuals/dennis-muilenburg' },
+    ],
     controversies: [
       'CRIMINAL DIVISION: Led Boeing prosecution',
       'DPA HANDLING: Oversaw Boeing agreement and breach',
@@ -29386,8 +30075,15 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'Various',
     education: ['N/A'],
     affiliations: [],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'David Hinson', relationship: 'FAA Administrator during ValuJet crash who initially declared airline safe despite warning signs', href: '/entities/individuals/david-hinson' },
+      { name: 'Mary Schiavo', relationship: 'DOT Inspector General who exposed FAA failures in ValuJet oversight', href: '/entities/individuals/mary-schiavo' },
+    ],
+    controversies: [
+      'ValuJet Flight 592 crashed into Florida Everglades on May 11, 1996, killing all 110 aboard',
+      'Crash caused by improperly stored chemical oxygen generators in cargo hold',
+      'FAA had warned about ValuJet safety issues but Administrator Hinson publicly declared airline safe weeks before crash',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
@@ -29408,8 +30104,15 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'Various',
     education: ['N/A'],
     affiliations: [],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'Mary Schiavo', relationship: 'Aviation safety advocate who highlighted maintenance failures that caused Alaska Flight 261 crash', href: '/entities/individuals/mary-schiavo' },
+      { name: 'John Cox', relationship: 'Aviation safety consultant who analyzed Alaska 261 jackscrew failure', href: '/entities/individuals/john-cox' },
+    ],
+    controversies: [
+      'Alaska Airlines Flight 261 crashed into Pacific Ocean on January 31, 2000, killing all 88 aboard',
+      'Caused by inadequate maintenance of horizontal stabilizer jackscrew assembly',
+      'Investigation revealed systemic maintenance cost-cutting that contributed to mechanical failure',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
@@ -29429,8 +30132,15 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'Various',
     education: ['N/A'],
     affiliations: [],
-    knownAssociates: [],
-    controversies: [],
+    knownAssociates: [
+      { name: 'Mary Schiavo', relationship: 'Aviation safety advocate who supported families in pushing for stronger pilot training rules', href: '/entities/individuals/mary-schiavo' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; regional aviation safety reforms after Colgan crash influenced broader industry', href: '/entities/individuals/dennis-muilenburg' },
+    ],
+    controversies: [
+      'Colgan Air Flight 3407 crashed near Buffalo, NY on February 12, 2009, killing 50 people',
+      'Crash exposed regional airline pilot fatigue, low pay, and inadequate training',
+      'Families\' advocacy led to the Airline Safety and Federal Aviation Administration Extension Act of 2010',
+    ],
     charges: [],
     relatedInvestigations: [
       { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
@@ -29454,7 +30164,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Consumer Reports', role: 'Former Aviation Advisor', type: 'organization' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Mary Schiavo', relationship: 'Fellow aviation safety advocate and consumer protection champion', href: '/entities/individuals/mary-schiavo' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company McGee criticized as aviation consumer rights journalist', href: '/entities/individuals/dennis-muilenburg' },
+    ],
     controversies: [
       'SAFETY ADVOCATE: Congressional testimony on safety',
       'CONSUMER RIGHTS: Passenger advocacy',
@@ -29480,7 +30193,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Department of Transportation', role: 'Former Inspector General', type: 'agency' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'David Hinson', relationship: 'FAA Administrator whom Schiavo exposed for regulatory failures as DOT Inspector General', href: '/entities/individuals/david-hinson' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Schiavo has publicly criticized for putting profits over safety', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'William McGee', relationship: 'Fellow aviation safety advocate and consumer protection journalist', href: '/entities/individuals/william-mcgee' },
+    ],
     controversies: [
       'FAA CRITIC: Long-time critic of FAA capture',
       'INSPECTOR GENERAL: Exposed FAA failures',
@@ -29509,7 +30226,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Safety Operating Systems', role: 'CEO', type: 'corporation' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose 737 MAX MCAS Cox analyzed as aviation safety expert', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Mary Schiavo', relationship: 'Fellow aviation safety expert and transportation accountability advocate', href: '/entities/individuals/mary-schiavo' },
+    ],
     controversies: [
       'SAFETY EXPERT: Aviation safety commentary',
       'PILOT PERSPECTIVE: Represents pilot views',
@@ -29536,7 +30256,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'AirSafe.com', role: 'Founder', type: 'organization' as const },
     ],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Curtis founded AirSafe.com tracking airline safety data including 737 MAX crashes', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Mary Schiavo', relationship: 'Fellow aviation safety expert and public safety advocate', href: '/entities/individuals/mary-schiavo' },
+    ],
     controversies: [
       'SAFETY DATA: Provides aviation safety statistics',
     ],
@@ -29559,7 +30282,10 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'United States',
     education: ['Unknown'],
     affiliations: [],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Negroni investigated as aviation safety journalist and author', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Mary Schiavo', relationship: 'Aviation safety advocate frequently interviewed alongside Negroni on crash investigations', href: '/entities/individuals/mary-schiavo' },
+    ],
     controversies: [
       'AVIATION JOURNALISM: Crash and safety coverage',
       'AUTHOR: "The Crash Detectives"',
@@ -29583,7 +30309,11 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'Various - Primarily Indonesian',
     education: ['N/A'],
     affiliations: [],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Bhavye Suneja', relationship: 'Captain of Lion Air Flight 610 who was among the 189 victims', href: '/entities/individuals/bhavye-suneja' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose 737 MAX MCAS design flaw caused the crash', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Sanjiv Singh', relationship: 'Lion Air co-founder whose airline operated the doomed flight', href: '/entities/individuals/sanjiv-singh' },
+    ],
     controversies: [
       'MURDERED BY BOEING: 189 people killed by known defect',
       'CONCEALMENT: Boeing hid MCAS from pilots who could have saved them',
@@ -29616,7 +30346,11 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: '35 Different Countries',
     education: ['N/A'],
     affiliations: [],
-    knownAssociates: [],
+    knownAssociates: [
+      { name: 'Yared Getachew', relationship: 'Captain of Ethiopian Airlines Flight 302 who was among the 157 victims', href: '/entities/individuals/yared-getachew' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose 737 MAX MCAS caused the second fatal crash in 5 months', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Tewolde Gebremariam', relationship: 'Ethiopian Airlines CEO whose airline lost Flight 302', href: '/entities/individuals/tewolde-gebremariam' },
+    ],
     controversies: [
       'MURDER: Boeing knew MCAS was deadly after Lion Air - did nothing',
       'INTERNATIONAL VICTIMS: 35 nationalities - global crime',
@@ -30706,6 +31440,12 @@ const individualData: Record<string, IndividualProfile> = {
     education: ['NYU (Medicine)', 'University of Glasgow'],
     affiliations: [
       { name: 'Purdue Pharma', role: 'Co-owner', type: 'corporation' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Richard Sackler', relationship: 'Nephew and fellow Purdue Pharma board member who aggressively promoted OxyContin sales despite knowing addiction risks', href: '/entities/individuals/richard-sackler' },
+      { name: 'Raymond Sackler', relationship: 'Brother and co-owner of Purdue Pharma who shared responsibility for the company\'s role in the opioid epidemic', href: '/entities/individuals/raymond-sackler' },
+      { name: 'Arthur Sackler', relationship: 'Brother who built the original Sackler pharmaceutical fortune through aggressive marketing of Valium', href: '/entities/individuals/arthur-sackler' },
     ],
     controversies: [
       'OXYCONTIN FORTUNE: Built wealth on addiction',
@@ -32516,6 +33256,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Johnson & Johnson', role: 'Former CEO', type: 'corporation' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Richard Sackler', relationship: 'Fellow pharmaceutical executive during the opioid epidemic; J&J faced parallel lawsuits for its role in opioid crisis', href: '/entities/individuals/richard-sackler' },
+      { name: 'Donald Trump', relationship: 'Served on Trump\'s manufacturing advisory council before it was disbanded after Charlottesville', href: '/entities/individuals/donald-trump' },
+    ],
     controversies: [
       'BABY POWDER: Knew talc contained asbestos, hid for decades',
       'CANCER VICTIMS: Thousands of ovarian cancer cases',
@@ -33155,6 +33900,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Nissan', role: 'Former CEO', type: 'corporation' as const },
       { name: 'Renault', role: 'Former CEO', type: 'corporation' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Nissan', relationship: 'Former CEO who was arrested in Tokyo in 2018 for financial misconduct; dramatically escaped Japan hidden in an audio equipment box', href: '/entities/individuals/nissan' },
+    ],
     controversies: [
       'HIDDEN COMPENSATION: Concealed $80M+ in pay',
       'PERSONAL USE OF FUNDS: Used company money',
@@ -33194,6 +33943,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. Senate', role: 'Senator', type: 'agency' as const },
       { name: 'Columbia/HCA', role: 'Former CEO', type: 'corporation' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Close Trump ally in Senate; oversaw largest Medicare fraud in history ($1.7 billion at Columbia/HCA) before entering politics', href: '/entities/individuals/donald-trump' },
     ],
     controversies: [
       '$1.7 BILLION FRAUD: Largest Medicare fraud settlement',
@@ -34427,6 +35180,11 @@ const individualData: Record<string, IndividualProfile> = {
     education: ['UCLA', 'Harvard Law School'],
     affiliations: [
       { name: 'Daily Wire', role: 'Co-Founder/Editor Emeritus', type: 'corporation' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Initially a prominent Never Trump conservative who gradually shifted to supporting Trump\'s policies while maintaining occasional criticism', href: '/entities/individuals/donald-trump' },
+      { name: 'Steve Bannon', relationship: 'Former Breitbart colleague who Shapiro publicly broke with over Bannon\'s embrace of the alt-right movement', href: '/entities/individuals/steve-bannon' },
     ],
     controversies: [
       'TRANSPHOBIA: Misgenders trans people, promotes harassment',
@@ -36237,6 +36995,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Penn State University', role: 'Former Assistant Coach', type: 'organization' as const },
       { name: 'The Second Mile', role: 'Founder', type: 'organization' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Joe Paterno', relationship: 'Penn State head coach who was informed of Sandusky\'s abuse but failed to report to law enforcement; fired in 2011 scandal', href: '/entities/individuals/joe-paterno' },
+    ],
     controversies: [
       '45 COUNTS: Convicted of child sexual abuse',
       'USED CHARITY: Second Mile was hunting ground',
@@ -36279,6 +37041,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Sean John', role: 'Founder', type: 'corporation' as const },
       { name: 'Ciroc', role: 'Brand Ambassador', type: 'corporation' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Jay-Z', relationship: 'Fellow hip-hop mogul and longtime music industry associate; both dominated 1990s-2000s hip-hop business landscape', href: '/entities/individuals/jay-z' },
+    ],
     controversies: [
       'SEX TRAFFICKING: Federal indictment',
       'RACKETEERING: RICO charges',
@@ -36317,6 +37083,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Church of Scientology', role: 'Chairman of the Board', type: 'organization' as const },
       { name: 'Religious Technology Center', role: 'Chairman', type: 'organization' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Tom Cruise', relationship: 'Scientology\'s most famous member and close personal friend; Miscavige served as best man at Cruise\'s wedding to Katie Holmes', href: '/entities/individuals/tom-cruise' },
     ],
     controversies: [
       'HUMAN TRAFFICKING: Federal lawsuit allegations',
@@ -36397,6 +37167,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Fyre Media', role: 'Founder/CEO', type: 'corporation' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Pardoned by Trump in January 2025 before completing his supervised release from Fyre Festival fraud conviction', href: '/entities/individuals/donald-trump' },
+    ],
     controversies: [
       'FYRE FESTIVAL: Luxury fraud disaster',
       'CHEESE SANDWICHES: Iconic failure image',
@@ -36431,6 +37205,10 @@ const individualData: Record<string, IndividualProfile> = {
     birthPlace: 'Domodedovo, Russia',
     education: ['Central Saint Martins (briefly)'],
     affiliations: [],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Became a cultural figure during the Trump era; her fraud case spotlighted wealth-obsessed culture in New York\'s elite circles', href: '/entities/individuals/donald-trump' },
+    ],
     controversies: [
       'FAKE HEIRESS: Invented German aristocrat persona',
       'DEFRAUDED BANKS: Tried to get $22 million loan',
@@ -36760,6 +37538,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'NXIVM', role: 'Founder', type: 'organization' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Allison Mack', relationship: 'Smallville actress recruited as NXIVM leader who branded women and recruited sex slaves for Raniere; convicted of racketeering', href: '/entities/individuals/allison-mack' },
+    ],
     controversies: [
       'SEX CULT: NXIVM was cover for exploitation',
       'BRANDING: Women branded with his initials',
@@ -36840,6 +37622,14 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'OneWest Bank', role: 'Former CEO', type: 'corporation' as const },
       { name: 'Goldman Sachs', role: 'Former Partner', type: 'corporation' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as Treasury Secretary (2017-2021); oversaw Tax Cuts and Jobs Act and COVID stimulus', href: '/entities/individuals/donald-trump' },
+      { name: 'Gary Cohn', relationship: 'Fellow Goldman Sachs alum who served as top White House economic advisor; coordinated on tax reform', href: '/entities/individuals/gary-cohn' },
+      { name: 'Wilbur Ross', relationship: 'Fellow Trump cabinet member and Commerce Secretary; coordinated on trade and economic policy', href: '/entities/individuals/wilbur-ross' },
+      { name: 'Larry Kudlow', relationship: 'Economic policy ally who succeeded Gary Cohn as National Economic Council Director', href: '/entities/individuals/larry-kudlow' },
+      { name: 'Jared Kushner', relationship: 'White House relationship; coordinated on economic policy and Middle East initiatives', href: '/entities/individuals/jared-kushner' },
+    ],
     controversies: [
       'FORECLOSURE KING: 36,000 homes foreclosed',
       'ELDERLY VICTIMS: Foreclosed over 27 cents',
@@ -36870,6 +37660,13 @@ const individualData: Record<string, IndividualProfile> = {
     education: ['SUNY Potsdam'],
     affiliations: [
       { name: 'ICE', role: 'Former Acting Director', type: 'agency' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Acting ICE Director under Trump; appointed as "border czar" for Trump\'s second term with sweeping deportation mandate', href: '/entities/individuals/donald-trump' },
+      { name: 'Stephen Miller', relationship: 'Co-architect of Trump\'s hardline immigration policies including family separation zero-tolerance policy', href: '/entities/individuals/stephen-miller' },
+      { name: 'Kirstjen Nielsen', relationship: 'Worked under Nielsen at DHS to implement zero-tolerance border policy that separated thousands of families', href: '/entities/individuals/kirstjen-nielsen' },
+      { name: 'Jeff Sessions', relationship: 'Attorney General who announced the zero-tolerance policy Homan helped implement at the border', href: '/entities/individuals/jeff-sessions' },
     ],
     controversies: [
       'FAMILY SEPARATION: Architect of policy',
@@ -36934,6 +37731,13 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'National Economic Council', role: 'Former Director', type: 'agency' as const },
       { name: 'Fox Business', role: 'Host', type: 'corporation' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as National Economic Council Director (2018-2021); TV economist who became Trump\'s top economic advisor', href: '/entities/individuals/donald-trump' },
+      { name: 'Steve Mnuchin', relationship: 'Treasury Secretary counterpart; coordinated on tax reform, trade policy, and COVID economic response', href: '/entities/individuals/steve-mnuchin' },
+      { name: 'Gary Cohn', relationship: 'Replaced Cohn as NEC Director after Cohn resigned over tariff disagreements with Trump', href: '/entities/individuals/gary-cohn' },
+      { name: 'Peter Navarro', relationship: 'Fellow White House economic advisor; clashed over trade policy with Navarro pushing harder protectionism', href: '/entities/individuals/peter-navarro' },
     ],
     controversies: [
       'COVID MINIMIZATION: Called virus "contained"',
@@ -37002,6 +37806,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Republic of Turkey', role: 'President', type: 'agency' as const },
       { name: 'AKP', role: 'Founder/Leader', type: 'organization' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Complex relationship marked by Trump clearing way for Turkish Syria incursion in 2019 and sharing classified intel; Trump praised Erdogan as "friend"', href: '/entities/individuals/donald-trump' },
+      { name: 'Vladimir Putin', relationship: 'Purchased Russian S-400 missile system defying NATO; complex frenemy relationship balancing Russian and Western alliances', href: '/entities/individuals/vladimir-putin' },
+      { name: 'Michael Flynn', relationship: 'Flynn secretly lobbied for Turkish government during 2016 campaign; discussed extraditing Gulen cleric to Turkey', href: '/entities/individuals/michael-flynn' },
     ],
     controversies: [
       'JOURNALIST PRISON: Most jailed journalists globally',
@@ -37111,6 +37921,12 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Twitter', role: 'Co-founder/Former CEO', type: 'corporation' as const },
       { name: 'Block Inc (Square)', role: 'Co-founder/CEO', type: 'corporation' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'As Twitter CEO, held Oval Office meeting with Trump; company ultimately banned Trump after January 6 Capitol attack', href: '/entities/individuals/donald-trump' },
+      { name: 'Elon Musk', relationship: 'Musk acquired Twitter (now X) after Dorsey stepped down; Dorsey initially supported Musk\'s acquisition then criticized direction', href: '/entities/individuals/elon-musk' },
+      { name: 'Mark Zuckerberg', relationship: 'Fellow social media CEO facing parallel scrutiny over platform content moderation and political influence', href: '/entities/individuals/mark-zuckerberg' },
+    ],
     controversies: [
       'MISINFORMATION PLATFORM: Twitter spread conspiracy theories',
       'TRUMP ENABLEMENT: Years of policy violations allowed',
@@ -37143,6 +37959,10 @@ const individualData: Record<string, IndividualProfile> = {
     netWorth: '$380 million (claimed)',
     affiliations: [
       { name: 'Hustlers University', role: 'Founder', type: 'corporation' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Tristan Tate', relationship: 'Brother and business partner; co-defendant in Romanian human trafficking and organized crime prosecution', href: '/entities/individuals/tristan-tate' },
     ],
     controversies: [
       'HUMAN TRAFFICKING: Indicted in Romania',
@@ -37181,6 +38001,10 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Hustlers University', role: 'Partner', type: 'corporation' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Andrew Tate', relationship: 'Brother and business partner; co-defendant in Romanian human trafficking and organized crime prosecution', href: '/entities/individuals/andrew-tate' },
+    ],
     controversies: [
       'HUMAN TRAFFICKING: Indicted in Romania',
       'RAPE CHARGES: Multiple victims',
@@ -37216,6 +38040,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Fox News', role: 'Former Host', type: 'corporation' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Rupert Murdoch', relationship: 'Fox News owner who protected O\'Reilly through multiple harassment scandals before firing him in 2017 after advertiser exodus', href: '/entities/individuals/rupert-murdoch' },
+      { name: 'Donald Trump', relationship: 'Longtime associate who co-headlined speaking tours; Trump defended O\'Reilly after sexual harassment ouster from Fox', href: '/entities/individuals/donald-trump' },
+      { name: 'Roger Ailes', relationship: 'Fox News founder and CEO who shielded O\'Reilly from accountability; both ousted over sexual harassment', href: '/entities/individuals/roger-ailes' },
+    ],
     controversies: [
       '$45 MILLION SETTLEMENTS: Sexual harassment',
       'MULTIPLE ACCUSERS: Pattern of behavior',
@@ -37249,6 +38079,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'EIB Network', role: 'Host', type: 'corporation' as const },
       { name: 'Premiere Networks', role: 'Host', type: 'corporation' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Influential conservative radio host who championed Trump; received Presidential Medal of Freedom from Trump at 2020 State of the Union', href: '/entities/individuals/donald-trump' },
+      { name: 'Roger Ailes', relationship: 'Fellow architect of conservative media landscape; shared ideology and audience in building right-wing media infrastructure', href: '/entities/individuals/roger-ailes' },
+      { name: 'Sean Hannity', relationship: 'Protégé in conservative talk radio who continued Limbaugh\'s legacy of partisan commentary', href: '/entities/individuals/sean-hannity' },
     ],
     controversies: [
       'RACIST CONTENT: Decades of dog whistles and worse',
@@ -37284,6 +38120,10 @@ const individualData: Record<string, IndividualProfile> = {
     education: ['University of Missouri', 'University of Houston'],
     affiliations: [
       { name: 'Enron', role: 'Founder/Chairman', type: 'corporation' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Jeffrey Skilling', relationship: 'Enron CEO and co-conspirator in massive corporate fraud; both convicted in 2006 - Lay died before sentencing, Skilling served 12 years', href: '/entities/individuals/jeffrey-skilling' },
     ],
     controversies: [
       'ENRON COLLAPSE: Largest bankruptcy at time',
@@ -37321,6 +38161,10 @@ const individualData: Record<string, IndividualProfile> = {
     education: ['Eastern University', 'US Army War College'],
     affiliations: [
       { name: 'Pennsylvania State Senate', role: 'Senator', type: 'agency' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Trump-endorsed candidate for Pennsylvania governor; attended January 6 rally and organized buses to Washington D.C.', href: '/entities/individuals/donald-trump' },
     ],
     controversies: [
       'JANUARY 6: Organized buses, was present',
@@ -37482,6 +38326,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'US Senate', role: 'Senator', type: 'agency' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Loyal Senate ally who amplified election fraud claims; attempted to hand fake elector slates to VP Pence on January 6', href: '/entities/individuals/donald-trump' },
+      { name: 'Vladimir Putin', relationship: 'Led congressional delegation to Moscow on July 4, 2018; criticized for insufficient confrontation of Russian election interference', href: '/entities/individuals/vladimir-putin' },
+    ],
     controversies: [
       'FAKE ELECTORS: Office tried to deliver to Pence',
       'COVID MISINFO: Spread vaccine lies',
@@ -37609,6 +38458,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'US House of Representatives', role: 'Former Speaker', type: 'agency' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Early Trump ally and informal advisor; considered for VP in 2016; helped shape Trump\'s combative political style', href: '/entities/individuals/donald-trump' },
+      { name: 'Kevin McCarthy', relationship: 'Mentored McCarthy in Republican politics; both served as House GOP leaders who reshaped partisan warfare', href: '/entities/individuals/kevin-mccarthy' },
+      { name: 'Bill Clinton', relationship: 'As Speaker of the House, led Clinton impeachment in 1998 while simultaneously conducting his own extramarital affair', href: '/entities/individuals/bill-clinton' },
+    ],
     controversies: [
       'ETHICS VIOLATIONS: Censured, $300K fine',
       'POLARIZATION ARCHITECT: Taught demonization',
@@ -37641,6 +38496,11 @@ const individualData: Record<string, IndividualProfile> = {
     education: ['University of Idaho'],
     affiliations: [
       { name: 'State of Alaska', role: 'Former Governor', type: 'agency' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Early Trump endorser in 2016; her 2008 VP candidacy is widely seen as prototype for Trump-era populist politics', href: '/entities/individuals/donald-trump' },
+      { name: 'John McCain', relationship: '2008 Republican VP nominee selected by McCain; their ticket lost to Obama-Biden', href: '/entities/individuals/john-mccain' },
     ],
     controversies: [
       'CROSSHAIRS MAP: Targeted Giffords district',
@@ -37680,6 +38540,12 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'U.S. Army National Guard', role: 'Lieutenant Colonel', type: 'agency' as const },
       { name: 'Trump Administration 2.0', role: 'DNI Nominee', type: 'agency' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Former Democratic congresswoman who endorsed Trump in 2024 and was appointed Director of National Intelligence', href: '/entities/individuals/donald-trump' },
+      { name: 'Vladimir Putin', relationship: 'Criticized for echoing Russian talking points on Ukraine and Syria; met with Assad in 2017 without State Department approval', href: '/entities/individuals/vladimir-putin' },
+      { name: 'Bashar al-Assad', relationship: 'Controversially met with Syrian dictator Assad in 2017, questioning U.S. regime change policy and drawing bipartisan condemnation', href: '/entities/individuals/bashar-al-assad' },
+    ],
     controversies: [
       'ASSAD MEETING: Met with Syrian dictator in 2017',
       'RUSSIAN PROPAGANDA: Spread Ukraine biolab conspiracy',
@@ -37715,6 +38581,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Children\'s Health Defense', role: 'Founder/Chairman', type: 'organization' as const },
       { name: 'Trump Administration 2.0', role: 'HHS Secretary Nominee', type: 'agency' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Dropped independent presidential bid to endorse Trump in 2024; appointed Secretary of Health and Human Services', href: '/entities/individuals/donald-trump' },
+      { name: 'Anthony Fauci', relationship: 'Leading critic of Fauci\'s pandemic response; spread vaccine misinformation contradicting Fauci\'s public health guidance', href: '/entities/individuals/anthony-fauci' },
+      { name: 'Joe Biden', relationship: 'Challenged Biden for Democratic nomination in 2024 before switching to independent run and ultimately endorsing Trump', href: '/entities/individuals/joe-biden' },
     ],
     controversies: [
       'ANTI-VACCINE: Decades of debunked claims',
@@ -37755,6 +38627,11 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'State of Florida', role: 'Former Attorney General', type: 'agency' as const },
       { name: 'Trump Administration 2.0', role: 'AG Nominee', type: 'agency' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'As Florida AG, dropped Trump University fraud investigation after PAC received $25,000 Trump donation; later appointed Attorney General in 2025', href: '/entities/individuals/donald-trump' },
+      { name: 'Lev Parnas', relationship: 'Connected through Trump orbit; Parnas attended Bondi fundraisers during Ukraine pressure campaign period', href: '/entities/individuals/lev-parnas' },
+    ],
     controversies: [
       'TRUMP U BRIBE: Dropped investigation after $25K donation',
       'IRS VIOLATION: Trump Foundation donation was illegal',
@@ -37790,6 +38667,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. House of Representatives', role: 'Former Rep (R-NY)', type: 'agency' as const },
       { name: 'Trump Administration 2.0', role: 'EPA Administrator Nominee', type: 'agency' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Trump-appointed EPA Administrator and longtime loyal congressional ally who defended Trump during first impeachment', href: '/entities/individuals/donald-trump' },
+      { name: 'Scott Pruitt', relationship: 'Predecessor as EPA head known for aggressive regulatory rollbacks; Zeldin continued deregulatory approach', href: '/entities/individuals/scott-pruitt' },
+      { name: 'Kevin McCarthy', relationship: 'House Republican colleague who supported Zeldin\'s gubernatorial bid in New York', href: '/entities/individuals/kevin-mccarthy' },
     ],
     controversies: [
       'ELECTION DENIAL: Voted to overturn 2020 results',
@@ -37828,6 +38711,11 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'U.S. House of Representatives', role: 'Former Rep (R-VA)', type: 'agency' as const },
       { name: 'House Freedom Caucus', role: 'Former Chairman', type: 'organization' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Initially opposed Trump by endorsing DeSantis, then desperately sought Trump\'s endorsement when facing a primary challenge', href: '/entities/individuals/donald-trump' },
+      { name: 'Kevin McCarthy', relationship: 'Voted against McCarthy for Speaker of the House in January 2023 contested election', href: '/entities/individuals/kevin-mccarthy' },
+    ],
     controversies: [
       'ELECTION DENIAL: Voted against certification',
       'GOVERNMENT SHUTDOWNS: Pushed shutdown strategies',
@@ -37859,6 +38747,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. House of Representatives', role: 'Rep (R-TX)', type: 'agency' as const },
       { name: 'House Freedom Caucus', role: 'Policy Chair', type: 'organization' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Conservative Freedom Caucus member who sometimes broke with Trump on government spending and procedural issues', href: '/entities/individuals/donald-trump' },
+      { name: 'Kevin McCarthy', relationship: 'Opposed McCarthy\'s Speaker bid and demanded conservative policy concessions during 2023 Speaker vote', href: '/entities/individuals/kevin-mccarthy' },
     ],
     controversies: [
       '18 MONTHS OF CHAOS: Bragged about obstruction goal',
@@ -37892,6 +38785,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'U.S. House of Representatives', role: 'Rep (R-TX)', type: 'agency' as const },
       { name: 'U.S. Navy SEALs', role: 'Former Lieutenant Commander', type: 'agency' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Republican congressman who occasionally pushed back on Trump\'s election fraud claims while generally supporting his agenda', href: '/entities/individuals/donald-trump' },
+    ],
     controversies: [
       'ELECTION LIES: Spread fraud conspiracies',
       'INSIDER TRADING: Stock trades questioned',
@@ -37922,6 +38819,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. House of Representatives', role: 'Rep (R-SC)', type: 'agency' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Alternated between publicly criticizing Trump after January 6th and seeking his endorsement for reelection', href: '/entities/individuals/donald-trump' },
+      { name: 'Kevin McCarthy', relationship: 'House Republican colleague who navigated McCarthy\'s contentious speakership battles', href: '/entities/individuals/kevin-mccarthy' },
+    ],
     controversies: [
       'J6 FLIP: Blamed Trump then reversed',
       'POLITICAL OPPORTUNISM: Position changes for endorsements',
@@ -37951,6 +38853,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. House of Representatives', role: 'Rep (R-FL)', type: 'agency' as const },
       { name: 'House Freedom Caucus', role: 'Member', type: 'organization' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Trump ally and VP shortlist candidate who nominated Jim Jordan for Speaker during 2023 leadership crisis', href: '/entities/individuals/donald-trump' },
+      { name: 'Matt Gaetz', relationship: 'Florida Republican colleague and conservative ally in the House Freedom Caucus', href: '/entities/individuals/matt-gaetz' },
     ],
     controversies: [
       'JIM CROW COMMENTS: Said families "together" under segregation',
@@ -37986,6 +38893,11 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'U.S. House of Representatives', role: 'Rep (R-LA)', type: 'agency' as const },
       { name: 'St. Landry Parish Sheriff\'s Office', role: 'Former Reserve Deputy', type: 'agency' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Fiercely loyal Trump supporter who was present at the Capitol on January 6th and later faced ethics scrutiny', href: '/entities/individuals/donald-trump' },
+      { name: 'Steve Scalise', relationship: 'Fellow Louisiana Republican congressman and political ally in the House', href: '/entities/individuals/steve-scalise' },
+    ],
     controversies: [
       'RACIST POSTS: Dehumanizing Haitians comments',
       'FBI THREATS: Called for violence against agents',
@@ -38019,6 +38931,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. House of Representatives', role: 'Rep (R-SC)', type: 'agency' as const },
       { name: 'House Freedom Caucus', role: 'Member', type: 'organization' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Loyal Trump ally who texted Chief of Staff Mark Meadows urging him to invoke martial law to overturn the 2020 election', href: '/entities/individuals/donald-trump' },
+      { name: 'Mark Meadows', relationship: 'Communicated directly with Trump\'s Chief of Staff about overturning 2020 election results via text messages revealed by January 6th Committee', href: '/entities/individuals/mark-meadows' },
     ],
     controversies: [
       'MARTIAL LAW TEXT: Urged Meadows to invoke martial law',
@@ -38054,6 +38971,11 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'U.S. House of Representatives', role: 'Rep (R-FL)', type: 'agency' as const },
       { name: 'U.S. Air Force', role: 'Former Airman', type: 'agency' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Trump-endorsed congressional candidate who won Florida\'s 13th district in 2022 as a vocal MAGA supporter', href: '/entities/individuals/donald-trump' },
+      { name: 'Matt Gaetz', relationship: 'Florida Republican colleague and political ally who supported her congressional campaigns', href: '/entities/individuals/matt-gaetz' },
+    ],
     controversies: [
       'IDENTITY FABRICATION: Changed name, invented heritage',
       'FATHER LIES: Claimed he was incarcerated for crimes he wasn\'t',
@@ -38085,6 +39007,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. House of Representatives', role: 'Former Rep (R-MN)', type: 'agency' as const },
       { name: 'Tea Party Caucus', role: 'Founder', type: 'organization' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Early Trump supporter and fellow outsider politician who helped lay the groundwork for populist conservative movement', href: '/entities/individuals/donald-trump' },
+      { name: 'Sarah Palin', relationship: 'Fellow Tea Party leader and prominent female conservative voice who energized the Republican base', href: '/entities/individuals/sarah-palin' },
     ],
     controversies: [
       'ANTI-AMERICAN OBAMA: Called for investigation of "anti-American" views',
@@ -38119,6 +39046,12 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. Senate', role: 'Former Senator (R-PA)', type: 'agency' as const },
       { name: 'CNN', role: 'Former Commentator (Fired)', type: 'corporation' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Republican predecessor in presidential campaigns; ran for president in 2012 and 2016 before Trump reshaped the party', href: '/entities/individuals/donald-trump' },
+      { name: 'Newt Gingrich', relationship: 'Fellow 2012 Republican presidential primary candidate who split the conservative vote', href: '/entities/individuals/newt-gingrich' },
+      { name: 'Mitt Romney', relationship: 'Chief rival in the 2012 Republican presidential primary; Santorum won 11 states before conceding', href: '/entities/individuals/mitt-romney' },
     ],
     controversies: [
       'MAN ON DOG: Compared homosexuality to bestiality',
@@ -38155,6 +39088,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Godfather\'s Pizza', role: 'Former CEO', type: 'corporation' as const },
       { name: 'National Restaurant Association', role: 'Former President', type: 'organization' as const },
       { name: 'Federal Reserve Bank of Kansas City', role: 'Former Chairman', type: 'agency' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Loyal presidential supporter who attended Trump\'s Tulsa rally in June 2020 and died of COVID-19 weeks later', href: '/entities/individuals/donald-trump' },
     ],
     controversies: [
       'SEXUAL HARASSMENT: Multiple allegations derailed campaign',
@@ -38194,6 +39131,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Post Millennial', role: 'Editor-at-Large', type: 'organization' as const },
       { name: 'Patriot Prayer', role: 'Documented Associate', type: 'organization' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Right-wing journalist whose coverage of Antifa and Portland protests aligned with Trump\'s law-and-order messaging', href: '/entities/individuals/donald-trump' },
+    ],
     controversies: [
       'PATRIOT PRAYER: Filmed planning with far-right group',
       'DOXING: Published names leading to harassment',
@@ -38227,6 +39168,11 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'Tenet Media', role: 'Contributor (Russian-funded)', type: 'organization' as const },
       { name: 'Timcast', role: 'Host', type: 'organization' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Pro-Trump media personality who hosted content amplifying Trump\'s political messaging', href: '/entities/individuals/donald-trump' },
+      { name: 'Elon Musk', relationship: 'Hosted prominent Twitter/X Spaces events with Musk, helping promote the platform after Musk\'s acquisition', href: '/entities/individuals/elon-musk' },
     ],
     controversies: [
       'RUSSIAN MONEY: DOJ revealed $100K/video from Russia',
@@ -38474,6 +39420,13 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Goldman Sachs', role: 'Former President', type: 'corporation' as const },
       { name: 'IBM', role: 'Vice Chairman', type: 'corporation' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as National Economic Council Director (2017-2018); resigned over steel and aluminum tariffs disagreement', href: '/entities/individuals/donald-trump' },
+      { name: 'Steve Mnuchin', relationship: 'Fellow Goldman Sachs alum and Treasury Secretary; partnered on Tax Cuts and Jobs Act of 2017', href: '/entities/individuals/steve-mnuchin' },
+      { name: 'Larry Kudlow', relationship: 'Replaced by Kudlow as NEC Director; both represented Wall Street perspective in Trump White House', href: '/entities/individuals/larry-kudlow' },
+      { name: 'Jared Kushner', relationship: 'Close White House ally; Kushner recruited him to the administration from Goldman Sachs', href: '/entities/individuals/jared-kushner' },
+    ],
     controversies: [
       'TAX CUTS: Architect of Trump tax cuts for wealthy',
       'CHARLOTTESVILLE: Nearly resigned over Trump\'s response',
@@ -38508,6 +39461,10 @@ const individualData: Record<string, IndividualProfile> = {
     education: ['Wheaton College', 'Northern Illinois University'],
     affiliations: [
       { name: 'U.S. House of Representatives', role: 'Former Speaker (R-IL)', type: 'agency' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Tom DeLay', relationship: 'Fellow House Republican leader known as "The Hammer"; served as Majority Whip/Leader during Hastert\'s Speakership', href: '/entities/individuals/tom-delay' },
     ],
     controversies: [
       'CHILD MOLESTATION: Abused at least 4 male wrestlers',
@@ -38546,6 +39503,11 @@ const individualData: Record<string, IndividualProfile> = {
     education: ['SUNY Plattsburgh'],
     affiliations: [
       { name: 'U.S. House of Representatives', role: 'Former Rep (D-NY)', type: 'agency' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Hillary Clinton', relationship: 'Discovery of Clinton emails on Weiner\'s laptop triggered FBI investigation reopening 11 days before 2016 election', href: '/entities/individuals/hillary-clinton' },
+      { name: 'James Comey', relationship: 'FBI Director who reopened Clinton email investigation in October 2016 after agents found emails on Weiner\'s seized laptop', href: '/entities/individuals/james-comey' },
     ],
     controversies: [
       'SEXTING MINORS: Sent explicit messages to 15-year-old',
@@ -38586,6 +39548,10 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'State of New York', role: 'Former Governor', type: 'agency' as const },
       { name: 'State of New York', role: 'Former Attorney General', type: 'agency' as const },
     ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'New York political contemporary; both operated in Manhattan\'s intertwined worlds of politics, real estate, and media', href: '/entities/individuals/donald-trump' },
+    ],
     controversies: [
       'PROSTITUTION: Spent $80,000+ on escorts',
       'HYPOCRISY: Prosecuted prostitution as AG',
@@ -38618,6 +39584,10 @@ const individualData: Record<string, IndividualProfile> = {
     education: [],
     affiliations: [
       { name: 'Democratic Party', role: 'Major Donor', type: 'organization' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Adam Schiff', relationship: 'Received campaign donations from Buck before Buck\'s arrest; Schiff donated the contributions to charity after the charges', href: '/entities/individuals/adam-schiff' },
     ],
     controversies: [
       'MURDER: Two men died at his apartment',
@@ -38765,6 +39735,12 @@ const individualData: Record<string, IndividualProfile> = {
     education: ['Louisiana State University'],
     affiliations: [
       { name: 'U.S. House of Representatives', role: 'Majority Leader (R-LA)', type: 'agency' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Close Trump ally and House Republican leader; Trump visited Scalise in hospital after 2017 congressional baseball shooting', href: '/entities/individuals/donald-trump' },
+      { name: 'Kevin McCarthy', relationship: 'Served together in House Republican leadership for years; Scalise ran for Speaker after McCarthy\'s removal', href: '/entities/individuals/kevin-mccarthy' },
+      { name: 'Jim Jordan', relationship: 'Fellow House Republican leader who competed with Scalise for Speaker nomination after McCarthy\'s ouster', href: '/entities/individuals/jim-jordan' },
     ],
     controversies: [
       'DAVID DUKE: Spoke at white supremacist event',
@@ -39574,6 +40550,13 @@ const individualData: Record<string, IndividualProfile> = {
     affiliations: [
       { name: 'U.S. Senate', role: 'Senator (R-OH)', type: 'agency' as const },
       { name: 'Trump Administration 2.0', role: 'VP-Elect', type: 'agency' as const },
+    ],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Selected as Vice Presidential running mate for 2024 presidential campaign after initially being a vocal Trump critic', href: '/entities/individuals/donald-trump' },
+      { name: 'Peter Thiel', relationship: 'Billionaire venture capitalist mentor who invested in Vance\'s career and funded his 2022 Ohio Senate campaign with $15 million', href: '/entities/individuals/peter-thiel' },
+      { name: 'Mitch McConnell', relationship: 'Senate Republican leader and Kentucky colleague; McConnell initially opposed Vance\'s Senate candidacy', href: '/entities/individuals/mitch-mcconnell' },
+      { name: 'Ron DeSantis', relationship: 'Fellow Republican who competed for Trump\'s favor before Vance secured the VP nomination', href: '/entities/individuals/ron-desantis' },
     ],
     controversies: [
       'HITLER COMPARISON: Called Trump "America\'s Hitler"',
@@ -41227,6 +42210,11 @@ const individualData: Record<string, IndividualProfile> = {
     description: 'Adam Lanza is documented in ArkHive investigations for their role as Sandy Hook shooter who murdered 20 first-graders and 6 educators with legally purchased AR-15.',
     education: [],
     affiliations: [],
+
+    knownAssociates: [
+      { name: 'Neil Heslin', relationship: 'Father of six-year-old Jesse Lewis, one of 20 children killed by Lanza at Sandy Hook Elementary on December 14, 2012', href: '/entities/individuals/neil-heslin' },
+      { name: 'Robbie Parker', relationship: 'Father of six-year-old Emilie Parker, one of 20 children killed by Lanza at Sandy Hook Elementary', href: '/entities/individuals/robbie-parker' },
+    ],
     controversies: [
       'Connected to 1 documented investigation',
     ],
@@ -41307,6 +42295,12 @@ const individualData: Record<string, IndividualProfile> = {
     description: 'Ajit Pai is documented in ArkHive investigations for their role as FCC Chairman who relaxed ownership rules benefiting Sinclair\'s expansion plans.',
     education: [],
     affiliations: [],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Trump-appointed FCC Chairman from 2017-2021 who controversially repealed Obama-era net neutrality protections', href: '/entities/individuals/donald-trump' },
+      { name: 'Mitch McConnell', relationship: 'Senate Republican leader who championed Pai\'s FCC nomination and supported his deregulatory agenda', href: '/entities/individuals/mitch-mcconnell' },
+      { name: 'Mark Zuckerberg', relationship: 'Meta CEO whose platforms were directly affected by FCC regulatory decisions on internet governance', href: '/entities/individuals/mark-zuckerberg' },
+    ],
     controversies: [
       'Connected to 1 documented investigation',
     ],
@@ -42241,6 +43235,11 @@ const individualData: Record<string, IndividualProfile> = {
     description: 'Bob Kroll is documented in ArkHive investigations for their role as Minneapolis Police Federation president who championed warrior training and defended officers who killed George Floyd.',
     education: [],
     affiliations: [],
+
+    knownAssociates: [
+      { name: 'Derek Chauvin', relationship: 'Led the Minneapolis Police Federation union that defended officers including Chauvin after George Floyd\'s murder', href: '/entities/individuals/derek-chauvin' },
+      { name: 'Donald Trump', relationship: 'Appeared on stage wearing a "Cops for Trump" shirt at Trump\'s 2019 Minneapolis rally', href: '/entities/individuals/donald-trump' },
+    ],
     controversies: [
       'Connected to 1 documented investigation',
     ],
@@ -43511,6 +44510,10 @@ const individualData: Record<string, IndividualProfile> = {
     description: 'David Hogg is documented in ArkHive investigations for their role as Parkland survivor who co-founded March for Our Lives movement.',
     education: [],
     affiliations: [],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Became target of Trump allies and conspiracy theorists after surviving the 2018 Parkland shooting and advocating for gun control', href: '/entities/individuals/donald-trump' },
+    ],
     controversies: [
       'Connected to 1 documented investigation',
     ],
@@ -44850,6 +45853,11 @@ const individualData: Record<string, IndividualProfile> = {
     description: 'Gary Webb is documented in ArkHive investigations for their role as Investigative journalist who broke the Dark Alliance story; found dead with two gunshot wounds to the head in 2004.',
     education: [],
     affiliations: [],
+
+    knownAssociates: [
+      { name: 'Oliver North', relationship: 'Webb\'s "Dark Alliance" series exposed CIA-Contra cocaine trafficking networks that North helped coordinate', href: '/entities/individuals/oliver-north' },
+      { name: 'Ronald Reagan', relationship: 'CIA-backed Contra cocaine trafficking exposed by Webb occurred under the Reagan administration\'s covert foreign policy', href: '/entities/individuals/ronald-reagan' },
+    ],
     controversies: [
       'Connected to 1 documented investigation',
     ],
@@ -45702,6 +46710,11 @@ const individualData: Record<string, IndividualProfile> = {
     description: 'Jack Ruby is documented in ArkHive investigations for their role as Dallas nightclub owner who murdered Oswald on live television; ties to organized crime.',
     education: [],
     affiliations: [],
+
+    knownAssociates: [
+      { name: 'Lee Harvey Oswald', relationship: 'Shot and killed Oswald on live television on November 24, 1963, two days after JFK assassination', href: '/entities/individuals/lee-harvey-oswald' },
+      { name: 'John F. Kennedy', relationship: 'Connected to JFK assassination through killing of accused assassin Oswald, fueling decades of conspiracy theories', href: '/entities/individuals/john-f-kennedy' },
+    ],
     controversies: [
       'Connected to 1 documented investigation',
     ],
@@ -46008,6 +47021,10 @@ const individualData: Record<string, IndividualProfile> = {
     description: 'Janet Reno is documented in ArkHive investigations for their role as Attorney General who approved the CS gas assault; later said it was her biggest regret.',
     education: [],
     affiliations: [],
+
+    knownAssociates: [
+      { name: 'Bill Clinton', relationship: 'Served as Clinton\'s Attorney General for all eight years (1993-2001), the first woman to hold the position; oversaw Waco siege and Elian Gonzalez case', href: '/entities/individuals/bill-clinton' },
+    ],
     controversies: [
       'Connected to 1 documented investigation',
     ],
@@ -46698,6 +47715,11 @@ const individualData: Record<string, IndividualProfile> = {
     description: 'John Kerry is documented in ArkHive investigations for their role as Senator who chaired the 1989 Kerry Committee investigating Contra drug links.',
     education: [],
     affiliations: [],
+
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'Fellow longtime Democratic leader; both served in Obama administration and coordinated on climate and foreign policy', href: '/entities/individuals/joe-biden' },
+      { name: 'Barack Obama', relationship: 'Served as Obama\'s Secretary of State from 2013-2017, negotiating the Iran nuclear deal and Paris Climate Agreement', href: '/entities/individuals/barack-obama' },
+    ],
     controversies: [
       'Connected to 1 documented investigation',
     ],
@@ -48079,6 +49101,11 @@ const individualData: Record<string, IndividualProfile> = {
     description: 'Malcolm X (El-Hajj Malik El-Shabazz) is documented in ArkHive investigations for their role as Civil rights leader assassinated February 21, 1965 at Audubon Ballroom, Manhattan.',
     education: [],
     affiliations: [],
+
+    knownAssociates: [
+      { name: 'Martin Luther King Jr.', relationship: 'Fellow civil rights leader with contrasting philosophies - King advocated nonviolent integration while Malcolm X initially promoted Black separatism', href: '/entities/individuals/martin-luther-king-jr' },
+      { name: 'Elijah Muhammad', relationship: 'Nation of Islam leader and former mentor whom Malcolm X followed devotedly before breaking away in 1964 over personal and ideological disputes', href: '/entities/individuals/elijah-muhammad' },
+    ],
     controversies: [
       'Connected to 1 documented investigation',
     ],
@@ -50410,6 +51437,13 @@ const individualData: Record<string, IndividualProfile> = {
     description: 'Roy Cohn is documented in ArkHive investigations for their role as McCarthy\'s chief counsel, later mentor to Donald Trump, disbarred for unethical conduct.',
     education: [],
     affiliations: [],
+
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as Trump\'s personal attorney and ruthless mentor throughout the 1970s-80s, teaching him to never apologize and always attack', href: '/entities/individuals/donald-trump' },
+      { name: 'Joseph McCarthy', relationship: 'Served as chief counsel to Senator McCarthy during the Army-McCarthy hearings in 1954', href: '/entities/individuals/joseph-mccarthy' },
+      { name: 'Roger Stone', relationship: 'Fellow political operative in New York Republican circles; both shaped aggressive political tactics that defined modern GOP', href: '/entities/individuals/roger-stone' },
+      { name: 'Rupert Murdoch', relationship: 'Mutual associate in New York media and political power circles during the 1970s-80s', href: '/entities/individuals/rupert-murdoch' },
+    ],
     controversies: [
       'Connected to 1 documented investigation',
     ],
@@ -54686,7 +55720,7 @@ const individualData: Record<string, IndividualProfile> = {
       'Mueller Report Cover-Up: Issued misleading 4-page summary before anyone read report',
       'Mueller wrote letter: Barr "did not fully capture" findings',
       'Report documented 10+ instances of obstruction',
-      'Overruled career prosecutors in Roger Stone sentencing — all four resigned in protest',
+      'Overruled career prosecutors in Roger Stone sentencing - all four resigned in protest',
       'Ordered Flynn case dropped despite two guilty pleas',
       'Ordered violent clearing of Lafayette Square for Trump photo-op',
       'Deployed federal agents against Portland protesters without local consent',
@@ -55621,6 +56655,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Maria Farmer', relationship: 'Sister', href: '/entities/individuals/maria-farmer' },
     ],
     controversies: [
+      'Testified at Ghislaine Maxwell trial that she was groped by Maxwell and Epstein as a teenager at Epstein\'s New Mexico ranch',
+      'Filed civil lawsuit against Epstein\'s estate seeking accountability for childhood sexual abuse',
+      'Her sister Maria Farmer was the first person to report Epstein to the FBI in 1996 but was ignored',
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -55651,6 +56688,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Sarah Kellen', relationship: 'Epstein assistant, scheduled appointments', href: '/entities/individuals/sarah-kellen' },
     ],
     controversies: [
+      'Filed landmark Crime Victims\' Rights Act lawsuit challenging the secret 2008 Epstein plea deal',
+      'Was recruited at age 14 from a trailer park and sexually abused by Epstein at his Palm Beach mansion',
+      'Her case exposed how Alexander Acosta\'s sweetheart deal violated the rights of over 30 identified victims',
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -55681,6 +56721,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Sarah Kellen', relationship: 'Epstein assistant who scheduled abuse sessions', href: '/entities/individuals/sarah-kellen' }
     ],
     controversies: [
+      'Testified under pseudonym "Carolyn" at Ghislaine Maxwell\'s trial about being abused starting at age 14',
+      'Recruited by Virginia Giuffre to visit Epstein\'s Palm Beach home where she was sexually abused',
+      'Described being paid by Epstein for sexual acts and recruiting other underage girls',
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -56504,6 +57547,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Alex Acosta', relationship: 'US Attorney who overrode local prosecution', href: '/entities/individuals/alex-acosta' },
     ],
     controversies: [
+      'Lead Palm Beach detective who built the initial case against Epstein identifying over 40 underage victims',
+      'His investigation was undermined when federal prosecutors under Acosta secretly negotiated lenient plea deal',
+      'Died in 2018 just before the full scope of the Epstein case became public knowledge',
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -56535,6 +57581,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Alex Acosta', relationship: 'US Attorney contacted about federal prosecution', href: '/entities/individuals/alex-acosta' },
     ],
     controversies: [
+      'Palm Beach Police Chief who pushed for Epstein\'s prosecution despite pressure from high-powered defense attorneys',
+      'Referred the case to the FBI after Palm Beach State Attorney Barry Krischer appeared to protect Epstein',
+      'Publicly blamed Acosta\'s office for the sweetheart deal that let Epstein avoid serious prison time',
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -56590,6 +57639,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Alex Acosta', relationship: 'Whose 2008 deal Berman helped undo', href: '/entities/individuals/alex-acosta' },
     ],
     controversies: [
+      'As SDNY U.S. Attorney, authorized the arrest of Jeffrey Epstein on sex trafficking charges in July 2019',
+      'Fired by Attorney General William Barr in 2020 in circumstances Berman described as unprecedented obstruction',
+      'Wrote memoir "Holding the Line" describing political interference in SDNY investigations including Epstein case',
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -56618,6 +57670,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Virginia Giuffre', relationship: 'Key victim whose testimony supported case', href: '/entities/individuals/virginia-giuffre' },
     ],
     controversies: [
+      'Succeeded Geoffrey Berman as Acting SDNY U.S. Attorney; led the prosecution of Ghislaine Maxwell',
+      'Announced Maxwell\'s arrest on July 2, 2020, calling her a key enabler of Epstein\'s trafficking scheme',
+      'Oversaw the successful federal case resulting in Maxwell\'s conviction on 5 of 6 counts',
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -56673,6 +57728,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Nadia Marcinkova', relationship: 'Witnessed her presence in Epstein household', href: '/entities/individuals/nadia-marcinkova' }
     ],
     controversies: [
+      'Former Epstein household manager who testified about daily operations and the constant presence of young girls',
+      'Key witness at Maxwell trial describing how he was ordered to clean sex toys and maintain girls\' visits',
+      'Testified about a 58-page household manual dictating staff behavior to protect Epstein\'s secrets',
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -56787,6 +57845,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Nicholas Tartaglione', relationship: 'Epstein cellmate investigated in connection with death', href: '/entities/individuals/nicholas-tartaglione' }
     ],
     controversies: [
+      'High-profile forensic pathologist hired by Epstein\'s brother to observe autopsy after Epstein\'s jail death',
+      'Publicly stated evidence was more consistent with homicidal strangulation than suicide',
+      'His findings contradicted the official ruling by NYC medical examiner of suicide by hanging',
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -56843,6 +57904,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Chauntae Davies', relationship: 'Fellow survivor of Epstein trafficking network', href: '/entities/individuals/chauntae-davies' }
     ],
     controversies: [
+      'Epstein survivor who was trafficked to his private island at age 22 and attempted escape by swimming',
+      'Filed civil lawsuits against Epstein and Maxwell detailing sexual abuse on Little St. James island',
+      'Published memoir "Silenced No More" exposing the full extent of abuse on Epstein\'s island',
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -56871,6 +57935,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Sarah Ransome', relationship: 'Fellow victim and survivor advocate', href: '/entities/individuals/sarah-ransome' },
     ],
     controversies: [
+      'Former Epstein masseuse who was sexually assaulted after being recruited through legitimate-seeming job offer',
+      'Testified about being raped by Epstein and traveling on his private jet with Bill Clinton and others',
+      'Became vocal advocate for survivors and critic of powerful figures who associated with Epstein',
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -56897,6 +57964,9 @@ const individualData: Record<string, IndividualProfile> = {
       { name: 'Maria Farmer', relationship: 'Fellow victim and first accuser', href: '/entities/individuals/maria-farmer' },
     ],
     controversies: [
+      'Epstein survivor recruited as a masseuse who was sexually assaulted at multiple Epstein properties',
+      'Filed civil lawsuit describing systematic abuse and manipulation by Epstein and his associates',
+      'Advocated for accountability from institutions that enabled Epstein\'s access to victims',
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
