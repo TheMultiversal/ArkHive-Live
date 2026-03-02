@@ -3,8 +3,8 @@
 // ============================================================
 
 export {
-  KeyboardShortcutsProvider,
-  useKeyboardShortcuts,
-  useKeyboardShortcut,
-  useCommonShortcuts,
+ KeyboardShortcutsProvider,
+ useKeyboardShortcuts,
+ useKeyboardShortcut,
+ useCommonShortcuts,
 } from './KeyboardShortcutsProvider';

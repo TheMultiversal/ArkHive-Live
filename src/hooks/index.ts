@@ -8,12 +8,12 @@ export { useForm } from './useForm';
 export type { UseFormOptions, UseFormReturn } from './useForm';
 export { useIntersectionObserver } from './useIntersectionObserver';
 export { 
-  useMediaQuery, 
-  useIsMobile, 
-  useIsTablet, 
-  useIsDesktop,
-  usePrefersDarkMode,
-  usePrefersReducedMotion,
+ useMediaQuery, 
+ useIsMobile, 
+ useIsTablet, 
+ useIsDesktop,
+ usePrefersDarkMode,
+ usePrefersReducedMotion,
 } from './useMediaQuery';
 export { useClickOutside } from './useClickOutside';
 export { useCopyToClipboard } from './useCopyToClipboard';

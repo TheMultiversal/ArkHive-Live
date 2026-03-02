@@ -8,7 +8,7 @@ import { format, formatDistanceToNow, parseISO } from 'date-fns';
  * @returns Merged class string
  */
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs));
+ return twMerge(clsx(inputs));
 }
 
 /**
@@ -18,18 +18,18 @@ export function cn(...inputs: ClassValue[]) {
  * @returns Formatted date string
  */
 export function formatDate(date: string | Date, formatStr: string = 'MMMM d, yyyy'): string {
-  const d = typeof date === 'string' ? parseISO(date) : date;
-  return format(d, formatStr);
+ const d = typeof date === 'string' ? parseISO(date) : date;
+ return format(d, formatStr);
 }
 
 /**
- * Format a date as relative time (e.g., "2 hours ago")
+ * Format a date as relative time (e.g.,"2 hours ago")
  * @param date - Date string or Date object
  * @returns Relative time string
  */
 export function formatRelativeTime(date: string | Date): string {
-  const d = typeof date === 'string' ? parseISO(date) : date;
-  return formatDistanceToNow(d, { addSuffix: true });
+ const d = typeof date === 'string' ? parseISO(date) : date;
+ return formatDistanceToNow(d, { addSuffix: true });
 }
 
 /**
@@ -39,8 +39,8 @@ export function formatRelativeTime(date: string | Date): string {
  * @returns Reading time in minutes
  */
 export function calculateReadingTime(text: string, wordsPerMinute: number = 200): number {
-  const wordCount = text.trim().split(/\s+/).length;
-  return Math.ceil(wordCount / wordsPerMinute);
+ const wordCount = text.trim().split(/\s+/).length;
+ return Math.ceil(wordCount / wordsPerMinute);
 }
 
 /**
@@ -50,8 +50,8 @@ export function calculateReadingTime(text: string, wordsPerMinute: number = 200)
  * @returns Truncated text
  */
 export function truncateText(text: string, maxLength: number): string {
-  if (text.length <= maxLength) return text;
-  return text.slice(0, maxLength).trim() + '...';
+ if (text.length <= maxLength) return text;
+ return text.slice(0, maxLength).trim() + '...';
 }
 
 /**
@@ -60,12 +60,12 @@ export function truncateText(text: string, maxLength: number): string {
  * @returns URL slug
  */
 export function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .trim()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/[\s_-]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+ return text
+ .toLowerCase()
+ .trim()
+ .replace(/[^\w\s-]/g, '')
+ .replace(/[\s_-]+/g, '-')
+ .replace(/^-+|-+$/g, '');
 }
 
 /**
@@ -75,14 +75,14 @@ export function slugify(text: string): string {
  * @returns Debounced function
  */
 export function debounce<T extends (...args: unknown[]) => unknown>(
-  func: T,
-  wait: number
+ func: T,
+ wait: number
 ): (...args: Parameters<T>) => void {
-  let timeout: NodeJS.Timeout | null = null;
-  return (...args: Parameters<T>) => {
-    if (timeout) clearTimeout(timeout);
-    timeout = setTimeout(() => func(...args), wait);
-  };
+ let timeout: NodeJS.Timeout | null = null;
+ return (...args: Parameters<T>) => {
+ if (timeout) clearTimeout(timeout);
+ timeout = setTimeout(() => func(...args), wait);
+ };
 }
 
 /**
@@ -91,12 +91,12 @@ export function debounce<T extends (...args: unknown[]) => unknown>(
  * @returns Promise resolving to success boolean
  */
 export async function copyToClipboard(text: string): Promise<boolean> {
-  try {
-    await navigator.clipboard.writeText(text);
-    return true;
-  } catch {
-    return false;
-  }
+ try {
+ await navigator.clipboard.writeText(text);
+ return true;
+ } catch {
+ return false;
+ }
 }
 
 /**
@@ -105,5 +105,5 @@ export async function copyToClipboard(text: string): Promise<boolean> {
  * @returns Formatted number string
  */
 export function formatNumber(num: number): string {
-  return new Intl.NumberFormat().format(num);
+ return new Intl.NumberFormat().format(num);
 }

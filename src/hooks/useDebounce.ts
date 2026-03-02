@@ -14,25 +14,25 @@ import { useState, useEffect } from 'react';
  * const debouncedSearch = useDebounce(searchTerm, 500);
  * 
  * useEffect(() => {
- *   // This will only run 500ms after user stops typing
- *   fetchResults(debouncedSearch);
+ * // This will only run 500ms after user stops typing
+ * fetchResults(debouncedSearch);
  * }, [debouncedSearch]);
  * ```
  */
 export function useDebounce<T>(value: T, delay: number = 300): T {
-  const [debouncedValue, setDebouncedValue] = useState<T>(value);
+ const [debouncedValue, setDebouncedValue] = useState<T>(value);
 
-  useEffect(() => {
-    const handler = setTimeout(() => {
-      setDebouncedValue(value);
-    }, delay);
+ useEffect(() => {
+ const handler = setTimeout(() => {
+ setDebouncedValue(value);
+ }, delay);
 
-    return () => {
-      clearTimeout(handler);
-    };
-  }, [value, delay]);
+ return () => {
+ clearTimeout(handler);
+ };
+ }, [value, delay]);
 
-  return debouncedValue;
+ return debouncedValue;
 }
 
 export default useDebounce;

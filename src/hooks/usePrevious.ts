@@ -5,13 +5,13 @@ import { useRef, useEffect } from 'react';
  * Useful for comparing current vs previous values
  */
 export function usePrevious<T>(value: T): T | undefined {
-  const ref = useRef<T | undefined>(undefined);
+ const ref = useRef<T | undefined>(undefined);
 
-  useEffect(() => {
-    ref.current = value;
-  }, [value]);
+ useEffect(() => {
+ ref.current = value;
+ }, [value]);
 
-  return ref.current;
+ return ref.current;
 }
 
 export default usePrevious;
