@@ -37,24 +37,24 @@ interface ActiveInvestigation {
 const stats: StatData[] = [
   {
     label: 'Active Investigations',
-    value: 24,
-    change: 12,
+    value: 725,
+    change: 338,
     changeLabel: 'from last month',
     icon: Target,
     color: 'blood'
   },
   {
     label: 'Documents Analyzed',
-    value: 1847,
-    change: 23,
+    value: 4250,
+    change: 156,
     changeLabel: 'this week',
     icon: FileText,
     color: 'blue'
   },
   {
     label: 'Entities Tracked',
-    value: 342,
-    change: 8,
+    value: 2176,
+    change: 64,
     changeLabel: 'new this month',
     icon: Building2,
     color: 'purple'
