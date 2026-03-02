@@ -194,7 +194,7 @@ const investigationData = {
 
  sources: [
  { title: 'FinCEN Files Investigation', url: 'https://www.icij.org/investigations/fincen-files/', type: 'Leaked Documents' },
- { title: 'Reuters: Russian Elite Bought Trump Properties', url: 'https://www.reuters.com/investigates/special-report/usa-trump-property/', type: 'Investigation' },
+ { title: 'Reuters: Russian Elite Bought Trump Properties', url: 'https://web.archive.org/web/2024/https://www.reuters.com/investigates/special-report/usa-trump-property/', type: 'Investigation' },
  { title: 'Deutsche Bank Relationship Analysis', url: 'https://www.nytimes.com/2020/02/04/magazine/deutsche-bank-trump.html', type: 'Investigation' },
  { title: 'BuzzFeed: Trump Moscow Project', url: 'https://www.buzzfeednews.com/article/anthonycormier/trump-moscow-micheal-cohen-felix-sater-campaign', type: 'Investigation' },
  { title: 'House Financial Services Subpoena', url: 'https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=401455', type: 'Congressional Document' },

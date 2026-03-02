@@ -77,7 +77,7 @@ const investigation = {
  sources: [
  { title: 'ACLU - Stingray Tracking Devices', url: 'https://www.aclu.org/issues/privacy-technology/surveillance-technologies/stingray-tracking-devices', date: '2023' },
  { title: 'The Intercept - The Secret Surveillance Catalogue', url: 'https://theintercept.com/2015/12/17/a-secret-catalogue-of-government-gear-for-spying-on-your-cellphone/', date: '2015' },
- { title: 'Wall Street Journal - Americans\' Cellphones Targeted by Dirtboxes', url: 'https://www.wsj.com/articles/americans-cellphones-targeted-in-secret-u-s-spy-program-1415917533', date: '2014' },
+ { title: 'Wall Street Journal - Americans\' Cellphones Targeted by Dirtboxes', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/americans-cellphones-targeted-in-secret-u-s-spy-program-1415917533', date: '2014' },
  { title: 'USA Today - Baltimore Police Used Stingrays 4,300 Times', url: 'https://www.usatoday.com/story/news/2015/04/09/stingray-cellphone-surveillance-baltimore-police/25534231/', date: '2015' },
  { title: 'Carpenter v. United States - Supreme Court Opinion', url: 'https://www.supremecourt.gov/opinions/17pdf/16-402_h315.pdf', date: '2018' },
  { title: 'EFF - Cell-Site Simulators / IMSI Catchers', url: 'https://www.eff.org/pages/cell-site-simulatorsimsi-catchers', date: '2023' },

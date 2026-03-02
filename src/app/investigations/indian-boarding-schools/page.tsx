@@ -92,7 +92,7 @@ const investigation = {
  { title: 'New York Times: U.S. Report Identifies Burial Sites Linked to Indian Boarding Schools', url: 'https://www.nytimes.com/2022/05/11/us/politics/native-american-boarding-schools-report.html', date: 'May 11, 2022' },
  { title: 'Biden Apologizes for Federal Indian Boarding School Policy', url: 'https://www.whitehouse.gov/briefing-room/speeches-remarks/2024/10/25/', date: 'October 25, 2024' },
  { title: 'Indian Education: A National Tragedy - A National Challenge (Kennedy Report)', url: 'https://www.congress.gov/congressional-report/91st-congress/senate-report/501', date: '1969' },
- { title: 'PBS: Unspoken: America\'s Native American Boarding Schools', url: 'https://www.pbs.org/show/unspoken-americas-native-american-boarding-schools/', date: '2016' },
+ { title: 'PBS: Unspoken: America\'s Native American Boarding Schools', url: 'https://www.pbs.org/video/unspoken-americas-native-american-boarding-schools-preview-xtlsaj/', date: '2016' },
  ],
 };
 

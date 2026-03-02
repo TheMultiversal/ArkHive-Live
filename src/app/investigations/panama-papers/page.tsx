@@ -80,7 +80,7 @@ const investigation = {
  { title: 'Panama Papers Source Manifesto ("John Doe")', url: 'https://panamapapers.icij.org/20160506-john-doe-statement.html', date: '2016-05-06' },
  { title: 'Panama Papers: How the World\'s Rich and Powerful Hide Their Money - The Guardian', url: 'https://www.theguardian.com/news/2016/apr/03/what-you-need-to-know-about-the-panama-papers', date: '2016-04-03' },
  { title: 'Panama Papers Impact - ICIJ', url: 'https://www.icij.org/investigations/panama-papers/panama-papers-helps-recover-more-than-1-2-billion-around-the-world/', date: '2023' },
- { title: 'Daphne Caruana Galizia Murder - Reuters Investigation', url: 'https://www.reuters.com/investigates/special-report/malta-daphne/', date: '2018' },
+ { title: 'Daphne Caruana Galizia Murder - Reuters Investigation', url: 'https://web.archive.org/web/2024/https://www.reuters.com/investigates/special-report/malta-daphne/', date: '2018' },
  { title: 'Nawaz Sharif Panama Papers Disqualification - BBC', url: 'https://www.bbc.com/news/world-asia-40730038', date: '2017-07-28' },
  { title: 'Panama Papers: The Secrets of Dirty Money - Netflix Documentary', url: 'https://www.netflix.com/title/80206517', date: '2018' },
  ],

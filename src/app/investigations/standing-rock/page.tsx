@@ -83,7 +83,7 @@ const investigation = {
  { title: 'Standing Rock Investigation - Amnesty International', url: 'https://www.amnestyusa.org/reports/standing-rock-report/', date: '2017' },
  { title: 'Use of Force at Standing Rock - UN Special Rapporteur on Rights of Indigenous Peoples', url: 'https://www.ohchr.org/EN/NewsEvents/Pages/DisplayNews.aspx?NewsID=20868', date: 'November 2016' },
  { title: 'Federal Court Rules DAPL Violates NEPA - Earthjustice', url: 'https://earthjustice.org/cases/dakota-access-pipeline', date: '2020' },
- { title: 'Dakota Access Pipeline Spills 12,000 Gallons - Reuters', url: 'https://www.reuters.com/article/us-usa-pipeline-spill-idUSKBN22N2JK', date: 'May 2020' },
+ { title: 'Dakota Access Pipeline Spills 12,000 Gallons - Reuters', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/us-usa-pipeline-spill-idUSKBN22N2JK', date: 'May 2020' },
  { title: 'Trump\'s Financial Ties to Dakota Access - Washington Post', url: 'https://www.washingtonpost.com/news/government/wp/2016/12/02/trump-financial-connections-to-dakota-access-pipeline/', date: 'December 2016' },
  { title: 'The Standing Rock Syllabus - NYC Stands with Standing Rock', url: 'https://nycstandswithstandingrock.wordpress.com/standingrocksyllabus/', date: '2016' },
  { title: 'Water Protector Legal Collective - Case Outcomes', url: 'https://waterprotectorlegal.org/', date: 'Ongoing' },

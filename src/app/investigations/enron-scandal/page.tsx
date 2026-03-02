@@ -78,7 +78,7 @@ const investigation = {
  ],
  sources: [
  { title: 'SEC Enforcement Action Against Enron', url: 'https://www.sec.gov/spotlight/enron.htm', date: '2002-01-01' },
- { title: 'The Smartest Guys in the Room - Enron Documentary', url: 'https://www.pbs.org/independentlens/documentaries/enron-the-smartest-guys-in-the-room/', date: '2005-04-22' },
+ { title: 'The Smartest Guys in the Room - Enron Documentary', url: 'https://www.pbs.org/independentlens/films/enron-the-smartest-guys-in-the-room/', date: '2005-04-22' },
  { title: 'Senate Committee on Governmental Affairs - Enron Investigation', url: 'https://www.govinfo.gov/content/pkg/CPRT-107SPRT80393/html/CPRT-107SPRT80393.htm', date: '2002-12-01' },
  { title: 'Is Enron Overpriced? - Bethany McLean, Fortune', url: 'https://fortune.com/2001/03/05/is-enron-overpriced/', date: '2001-03-05' },
  { title: 'Arthur Andersen Conviction - Supreme Court Reversal', url: 'https://www.supremecourt.gov/opinions/04pdf/04-368.pdf', date: '2005-05-31' },

@@ -166,7 +166,7 @@ const investigationData = {
 
  sources: [
  { title: 'Carroll v. Trump Verdict (Trial 1)', url: 'https://www.courtlistener.com/docket/14540261/carroll-v-trump/', type: 'Court Document' },
- { title: 'Carroll v. Trump Verdict (Trial 2)', url: 'https://www.nytimes.com/2024/01/26/nyregion/trump-defamation-trial-e-jean-carroll.html', type: 'News Report' },
+ { title: 'Carroll v. Trump Verdict (Trial 2)', url: 'https://apnews.com/article/trump-carroll-defamation-damages-trial-83200c109982f58c9575b0743e7c3771', type: 'News Report' },
  { title: 'Access Hollywood Tape', url: 'https://www.washingtonpost.com/politics/trump-recorded-having-extremely-lewd-conversation-about-women-in-2005/', type: 'Video/Transcript' },
  { title: 'Complete List of Trump Accusers', url: 'https://www.businessinsider.com/women-accused-trump-sexual-misconduct-list-2017-12', type: 'Compilation' },
  { title: 'Pageant Dressing Room Reports', url: 'https://www.buzzfeednews.com/article/kendalltaggart/teen-beauty-queens-say-trump-walked-in-on-them-changing', type: 'Investigation' },

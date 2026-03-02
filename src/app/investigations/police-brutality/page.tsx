@@ -95,7 +95,7 @@ const investigation = {
  sources: [
  { title: 'Washington Post Police Shootings Database', url: 'https://www.washingtonpost.com/graphics/investigations/police-shootings-database/', date: '2015-present' },
  { title: 'Mapping Police Violence', url: 'https://mappingpoliceviolence.us/', date: 'Ongoing' },
- { title: 'Reuters: Qualified Immunity Investigation', url: 'https://www.reuters.com/investigates/special-report/usa-police-immunity-scotus/', date: '2020' },
+ { title: 'Reuters: Qualified Immunity Investigation', url: 'https://web.archive.org/web/2024/https://www.reuters.com/investigates/special-report/usa-police-immunity-scotus/', date: '2020' },
  { title: 'ACLU: Qualified Immunity - A Legal, Practical, and Moral Failure', url: 'https://www.aclu.org/news/criminal-law-reform/the-supreme-court-has-a-chance-to-end-qualified-immunity', date: '2020' },
  { title: 'DOJ: Investigation of the Minneapolis Police Department', url: 'https://www.justice.gov/crt/case/investigation-city-minneapolis-and-minneapolis-police-department', date: '2023' },
  { title: 'Radley Balko: Rise of the Warrior Cop - The Militarization of America\'s Police Forces', url: 'https://www.publicaffairsbooks.com/titles/radley-balko/rise-of-the-warrior-cop/9781610394574/', date: '2013' },

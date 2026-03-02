@@ -82,7 +82,7 @@ const investigation = {
  { title: 'Harry Markopolos Congressional Testimony', url: 'https://www.c-span.org/video/?283881-1/sec-regulation-oversight', date: '2009-02-04' },
  { title: 'Madoff Trustee Recovery Efforts - SIPC', url: 'https://www.madofftrustee.com/', date: '2024-01-01' },
  { title: 'No One Would Listen - Harry Markopolos', url: 'https://www.nytimes.com/2010/03/07/books/review/Kolbert-t.html', date: '2010-03-07' },
- { title: 'JPMorgan $2.6B Madoff Settlement', url: 'https://www.reuters.com/article/us-jpmorgan-madoff-settlement-idUSBREA060AZ20140107', date: '2014-01-07' },
+ { title: 'JPMorgan $2.6B Madoff Settlement', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/us-jpmorgan-madoff-settlement-idUSBREA060AZ20140107', date: '2014-01-07' },
  { title: 'The Madoff Affair - PBS Frontline Documentary', url: 'https://www.pbs.org/wgbh/frontline/documentary/madoff/', date: '2009-05-12' },
  { title: 'Picower Estate $7.2B Settlement', url: 'https://www.nytimes.com/2010/12/18/business/18madoff.html', date: '2010-12-17' },
  ],

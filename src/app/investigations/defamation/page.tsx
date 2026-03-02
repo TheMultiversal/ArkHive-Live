@@ -79,7 +79,7 @@ const investigation = {
  ],
  sources: [
  { title: 'Carroll v. Trump - Jury Verdict and Damages Award', url: 'https://www.nytimes.com/2024/01/26/nyregion/trump-carroll-defamation-trial.html', date: '2024-01-26' },
- { title: 'Dominion v. Fox News - $787.5M Settlement', url: 'https://www.reuters.com/legal/fox-news-settles-dominion-defamation-case-2023-04-18/', date: '2023-04-18' },
+ { title: 'Dominion v. Fox News - $787.5M Settlement', url: 'https://web.archive.org/web/2024/https://www.reuters.com/legal/fox-news-settles-dominion-defamation-case-2023-04-18/', date: '2023-04-18' },
  { title: 'Giuliani Ordered to Pay $148M to Georgia Election Workers', url: 'https://apnews.com/article/giuliani-defamation-damages-georgia-election-workers-bfb32ce3e7c34e72a1e6e2d6e3c0f135', date: '2023-12-15' },
  { title: 'Shaye Moss Testimony Before January 6th Committee', url: 'https://www.c-span.org/video/?521076-1/hearing-focuses-trump-pressure-state-officials', date: '2022-06-21' },
  { title: 'Alex Jones Sandy Hook Defamation Judgment', url: 'https://www.washingtonpost.com/media/2022/10/12/alex-jones-sandy-hook-damages/', date: '2022-10-12' },

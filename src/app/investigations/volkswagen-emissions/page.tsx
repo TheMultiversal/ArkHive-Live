@@ -83,7 +83,7 @@ const investigation = {
  { title: 'SEC Charges Volkswagen with $100M Bond Fraud', url: 'https://www.sec.gov/news/press-release/2019-34', date: '2019-03-14' },
  { title: 'ICCT - From Laboratory to Road: Real-World Emissions Testing', url: 'https://theicct.org/publications/laboratory-road-2014-update', date: '2014-10' },
  { title: 'Oliver Schmidt Sentencing - DOJ Press Release', url: 'https://www.justice.gov/opa/pr/volkswagen-executive-sentenced-seven-years-prison-conspiring-violate-clean-air-act', date: '2017-12-06' },
- { title: 'German Dieselgate Trial - Reuters Coverage', url: 'https://www.reuters.com/business/autos-transportation/former-vw-ceo-winterkorn-goes-trial-over-dieselgate-2021-09-16/', date: '2021-09-16' },
+ { title: 'German Dieselgate Trial - Reuters Coverage', url: 'https://web.archive.org/web/2024/https://www.reuters.com/business/autos-transportation/former-vw-ceo-winterkorn-goes-trial-over-dieselgate-2021-09-16/', date: '2021-09-16' },
  ],
 };
 

@@ -83,7 +83,7 @@ const investigation = {
  { title: 'Deutsche Bank $2.5B LIBOR Settlement - DOJ', url: 'https://www.justice.gov/opa/pr/db-group-services-uk-limited-admits-wire-fraud-connection-long-running-manipulation-libor', date: '2015-04-23' },
  { title: 'FCA - LIBOR Transition to Alternative Rates', url: 'https://www.fca.org.uk/markets/libor', date: '2021' },
  { title: 'Tom Hayes Conviction - SFO Press Release', url: 'https://www.sfo.gov.uk/cases/libor-tom-hayes/', date: '2015-08-03' },
- { title: 'WSJ - Study Casts Doubt on Key Rate', url: 'https://www.wsj.com/articles/SB120831164167818299', date: '2008-05-29' },
+ { title: 'WSJ - Study Casts Doubt on Key Rate', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/SB120831164167818299', date: '2008-05-29' },
  ],
 };
 

@@ -95,7 +95,7 @@ const investigation = {
  { title: 'House Committee on Transportation: Final Report on Boeing 737 MAX', url: 'https://transportation.house.gov/committee-activity/boeing-737-max-702702', date: 'Sep 2020' },
  { title: 'UCSF Truth Tobacco Industry Documents Archive', url: 'https://www.industrydocuments.ucsf.edu/tobacco/', date: 'Ongoing' },
  { title: 'The Guardian:"Bhopal Disaster - 40 Years On"', url: 'https://www.theguardian.com/environment/bhopal', date: 'Dec 2024' },
- { title: 'Reuters:"The Sackler Family\'s Plan to Keep Its Billions"', url: 'https://www.reuters.com/investigates/special-report/usa-opioids-sackler/', date: '2019' },
+ { title: 'Reuters:"The Sackler Family\'s Plan to Keep Its Billions"', url: 'https://web.archive.org/web/2024/https://www.reuters.com/investigates/special-report/usa-opioids-sackler/', date: '2019' },
  { title: 'The New York Times:"The Chemicals in Your Water - PFAS Investigation"', url: 'https://www.nytimes.com/2024/pfas-forever-chemicals', date: '2024' },
  { title: 'NPR:"Upper Big Branch Mine Disaster Investigation"', url: 'https://www.npr.org/series/upper-big-branch-mine-disaster', date: '2010-2015' },
  { title: 'Department of Justice: United States v. Purdue Pharma', url: 'https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-admits-guilt', date: 'Oct 2020' },

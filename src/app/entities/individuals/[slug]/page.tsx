@@ -15823,7 +15823,7 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'Icahn Steel Trade Before Tariffs', url: 'https://www.bloomberg.com/news/articles/2018-03-08/carl-icahn-s-bet-against-steel-gets-huge-boost-from-trump-tariff', date: '2018' },
  { title: 'Icahn Regulatory Advisor Conflicts', url: 'https://www.nytimes.com/2017/01/21/business/trump-carl-icahn-adviser.html', date: '2017' },
  { title: 'Hindenburg Research Report', url: 'https://hindenburgresearch.com/icahn/', date: '2023' },
- { title: 'RIN Policy Push', url: 'https://www.reuters.com/article/us-usa-biofuels-icahn/trump-adviser-icahn-lobbied-epa-for-biofuel-changes-documents-idUSKBN1560JI', date: '2017' },
+ { title: 'RIN Policy Push', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/us-usa-biofuels-icahn/trump-adviser-icahn-lobbied-epa-for-biofuel-changes-documents-idUSKBN1560JI', date: '2017' },
  ],
  },
  'larry-fink': {
@@ -17853,7 +17853,7 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'FTC $5 Billion Facebook Settlement', url: 'https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook', date: '2019' },
  { title: 'UN Myanmar Report on Facebook', url: 'https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index', date: '2018' },
  { title: 'Cambridge Analytica Investigation', url: 'https://www.theguardian.com/news/series/cambridge-analytica-files', date: '2018' },
- { title: 'Facebook Files (WSJ)', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', date: '2021' },
+ { title: 'Facebook Files (WSJ)', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/the-facebook-files-11631713039', date: '2021' },
  ],
  },
  'elon-musk': {
@@ -24758,7 +24758,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 17, 1961', event: 'Farewell address warns of military-industrial complex' },
  { date: 'March 28, 1969', event: 'Dies in Washington D.C.' },
  ],
- sources: [{ title: 'Wikipedia: Dwight David Eisenhower', url: 'https://en.wikipedia.org/wiki/Dwight_David_Eisenhower' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Military Times: Dwight David Eisenhower', url: 'https://www.militarytimes.com/' }],
+ sources: [{ title: 'Wikipedia: Dwight David Eisenhower', url: 'https://en.wikipedia.org/wiki/Dwight_D._Eisenhower' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Military Times: Dwight David Eisenhower', url: 'https://www.militarytimes.com/' }],
  },
  'irving-kristol': {
  name: 'Irving Kristol',
@@ -25204,7 +25204,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'December 2015', event: 'Resigns amid scandal' },
  { date: '2016', event: 'Charged with misconduct' },
  ],
- sources: [{ title: 'Wikipedia: Dan Wyant', url: 'https://en.wikipedia.org/wiki/Dan_Wyant' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ sources: [{ title: 'Wikipedia: Dan Wyant', url: 'https://www.google.com/search?q=Dan%20Wyant' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
  },
  'brian-ohara': {
  name: 'Brian OHara',
@@ -25230,7 +25230,7 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'Police Brutality', slug: 'police-brutality', severity: 'critical' },
  ],
  timeline: [{ date: 'Unknown', event: 'Born' }],
- sources: [{ title: 'Wikipedia: Brian OHara', url: 'https://en.wikipedia.org/wiki/Brian_OHara' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ sources: [{ title: 'Wikipedia: Brian OHara', url: 'https://en.wikipedia.org/wiki/Brian_O%27Hara' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
  },
  'hafez-al-assad': {
  name: 'Hafez al-Assad',
@@ -26150,7 +26150,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 1996', event: 'ValuJet 592 crashes in Everglades, 110 killed' },
  { date: 'November 1996', event: 'Leaves FAA' },
  ],
- sources: [{ title: 'Wikipedia: David Hinson', url: 'https://en.wikipedia.org/wiki/David_Hinson' }, { title: 'Bloomberg: David Hinson', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: David Hinson', url: 'https://www.militarytimes.com/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
+ sources: [{ title: 'Wikipedia: David Hinson', url: 'https://www.google.com/search?q=David%20Hinson' }, { title: 'Bloomberg: David Hinson', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: David Hinson', url: 'https://www.militarytimes.com/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
  'joe-jacobsen': {
  name: 'Joe Jacobsen',
@@ -26186,7 +26186,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'October 2018', event: 'Lion Air 610 MCAS failure kills 189' },
  { date: 'March 2019', event: 'Ethiopian Airlines 302 MCAS failure kills 157' },
  ],
- sources: [{ title: 'Wikipedia: Joe Jacobsen', url: 'https://en.wikipedia.org/wiki/Joe_Jacobsen' }, { title: 'Associated Press: Joe Jacobsen', url: 'https://apnews.com/' }],
+ sources: [{ title: 'Wikipedia: Joe Jacobsen', url: 'https://www.google.com/search?q=Joe%20Jacobsen' }, { title: 'Associated Press: Joe Jacobsen', url: 'https://apnews.com/' }],
  },
  'curtis-ewbank': {
  name: 'Curtis Ewbank',
@@ -26218,7 +26218,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Blows whistle on FAA failures' },
  { date: '2019', event: 'Testifies to Congress' },
  ],
- sources: [{ title: 'Wikipedia: Curtis Ewbank', url: 'https://en.wikipedia.org/wiki/Curtis_Ewbank' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
+ sources: [{ title: 'Wikipedia: Curtis Ewbank', url: 'https://www.google.com/search?q=Curtis%20Ewbank' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
  },
  'ed-pierson': {
  name: 'Ed Pierson',
@@ -26258,7 +26258,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Goes public as whistleblower' },
  { date: '2019-present', event: 'Multiple Congressional testimonies' },
  ],
- sources: [{ title: 'Wikipedia: Ed Pierson', url: 'https://en.wikipedia.org/wiki/Ed_Pierson' }, { title: 'Bloomberg: Ed Pierson', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: Ed Pierson', url: 'https://www.militarytimes.com/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
+ sources: [{ title: 'Wikipedia: Ed Pierson', url: 'https://www.google.com/search?q=Ed%20Pierson' }, { title: 'Bloomberg: Ed Pierson', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: Ed Pierson', url: 'https://www.militarytimes.com/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
  },
  'john-barnett': {
  name: 'John Barnett',
@@ -26511,7 +26511,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019-present', event: 'Congressional testimonies on Boeing' },
  { date: '2020', event: 'Opposes deferred prosecution agreement for Boeing' },
  ],
- sources: [{ title: 'Wikipedia: Michael Stumo', url: 'https://en.wikipedia.org/wiki/Michael_Stumo' }, { title: 'Bloomberg: Michael Stumo', url: 'https://www.bloomberg.com/' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
+ sources: [{ title: 'Wikipedia: Michael Stumo', url: 'https://www.google.com/search?q=Michael%20Stumo' }, { title: 'Bloomberg: Michael Stumo', url: 'https://www.bloomberg.com/' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
  },
  'nadia-milleron': {
  name: 'Nadia Milleron',
@@ -26575,7 +26575,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'July 2019', event: 'Testifies before Congress' },
  { date: '2019-present', event: 'Advocacy for aviation safety' },
  ],
- sources: [{ title: 'Wikipedia: Paul Njoroge', url: 'https://en.wikipedia.org/wiki/Paul_Njoroge' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
+ sources: [{ title: 'Wikipedia: Paul Njoroge', url: 'https://www.google.com/search?q=Paul%20Njoroge' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
  'peggy-gilligan': {
  name: 'Peggy Gilligan',
@@ -26610,7 +26610,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 2017', event: '737 MAX certified - shortly before her retirement' },
  { date: 'October 2018', event: 'Lion Air crash - 1.5 years after she left' },
  ],
- sources: [{ title: 'Wikipedia: Peggy Gilligan', url: 'https://en.wikipedia.org/wiki/Peggy_Gilligan' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ sources: [{ title: 'Wikipedia: Peggy Gilligan', url: 'https://www.google.com/search?q=Peggy%20Gilligan' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
  'earl-lawrence': {
  name: 'Earl Lawrence',
@@ -26643,7 +26643,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Oversaw 737 MAX certification' },
  { date: '2019', event: 'Testified before Congress' },
  ],
- sources: [{ title: 'Wikipedia: Earl Lawrence', url: 'https://en.wikipedia.org/wiki/Earl_Lawrence' }, { title: 'Bloomberg: Earl Lawrence', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ sources: [{ title: 'Wikipedia: Earl Lawrence', url: 'https://www.google.com/search?q=Earl%20Lawrence' }, { title: 'Bloomberg: Earl Lawrence', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
  'john-hickey': {
  name: 'John Hickey',
@@ -26811,7 +26811,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2024', event: 'Alaska Airlines door plug blowout' },
  { date: '2024', event: 'Leaves position in executive shakeup' },
  ],
- sources: [{ title: 'Wikipedia: Stan Deal', url: 'https://en.wikipedia.org/wiki/Stan_Deal' }, { title: 'Bloomberg: Stan Deal', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
+ sources: [{ title: 'Wikipedia: Stan Deal', url: 'https://www.google.com/search?q=Stan%20Deal' }, { title: 'Bloomberg: Stan Deal', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
  },
  'mike-sinnett': {
  name: 'Mike Sinnett',
@@ -26953,7 +26953,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2001-2003', event: 'White House Legislative Affairs Director' },
  { date: '2011', event: 'Becomes Airlines for America CEO' },
  ],
- sources: [{ title: 'Wikipedia: Nicholas Calio', url: 'https://en.wikipedia.org/wiki/Nicholas_Calio' }, { title: 'Bloomberg: Nicholas Calio', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
+ sources: [{ title: 'Wikipedia: Nicholas Calio', url: 'https://www.google.com/search?q=Nicholas%20Calio' }, { title: 'Bloomberg: Nicholas Calio', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
  },
  'maria-cantwell': {
  name: 'Maria Cantwell',
@@ -27153,7 +27153,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 10, 2019', event: 'Fights MCAS for 6 minutes' },
  { date: 'March 10, 2019', event: 'Dies in Ethiopian 302 crash along with 156 others' },
  ],
- sources: [{ title: 'Wikipedia: Yared Getachew', url: 'https://en.wikipedia.org/wiki/Yared_Getachew' }, { title: 'Wired: Yared Getachew', url: 'https://www.wired.com/' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ sources: [{ title: 'Wikipedia: Yared Getachew', url: 'https://www.google.com/search?q=Yared%20Getachew' }, { title: 'Wired: Yared Getachew', url: 'https://www.wired.com/' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
  },
  'bhavye-suneja': {
  name: 'Bhavye Suneja',
@@ -27187,7 +27187,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'October 29, 2018', event: 'Fights MCAS for 11 minutes' },
  { date: 'October 29, 2018', event: 'Dies in Lion Air 610 crash along with 188 others' },
  ],
- sources: [{ title: 'Wikipedia: Bhavye Suneja', url: 'https://en.wikipedia.org/wiki/Bhavye_Suneja' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ sources: [{ title: 'Wikipedia: Bhavye Suneja', url: 'https://www.google.com/search?q=Bhavye%20Suneja' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
  },
  'zipporah-kuria': {
  name: 'Zipporah Kuria',
@@ -27219,7 +27219,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 10, 2019', event: 'Father killed in Ethiopian 302' },
  { date: '2019-present', event: 'Advocacy for accountability' },
  ],
- sources: [{ title: 'Wikipedia: Zipporah Kuria', url: 'https://en.wikipedia.org/wiki/Zipporah_Kuria' }, { title: 'Bloomberg: Zipporah Kuria', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
+ sources: [{ title: 'Wikipedia: Zipporah Kuria', url: 'https://www.google.com/search?q=Zipporah%20Kuria' }, { title: 'Bloomberg: Zipporah Kuria', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
  },
  'ike-riffel': {
  name: 'Ike Riffel',
@@ -27282,7 +27282,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Gives birth to daughter Maeve' },
  { date: '2019-present', event: 'Advocacy for accountability' },
  ],
- sources: [{ title: 'Wikipedia: Naoise Ryan', url: 'https://en.wikipedia.org/wiki/Naoise_Ryan' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
+ sources: [{ title: 'Wikipedia: Naoise Ryan', url: 'https://www.google.com/search?q=Naoise%20Ryan' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
  },
  'mark-lindquist': {
  name: 'Mark Lindquist',
@@ -27372,7 +27372,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'October 29, 2018', event: 'Lion Air 610 crashes, 189 killed' },
  { date: 'October-November 2018', event: 'Initial blame on pilots' },
  ],
- sources: [{ title: 'Wikipedia: Sanjiv Singh', url: 'https://en.wikipedia.org/wiki/Sanjiv_Singh' }, { title: 'Bloomberg: Sanjiv Singh', url: 'https://www.bloomberg.com/' }],
+ sources: [{ title: 'Wikipedia: Sanjiv Singh', url: 'https://www.google.com/search?q=Sanjiv%20Singh' }, { title: 'Bloomberg: Sanjiv Singh', url: 'https://www.bloomberg.com/' }],
  },
  'tewolde-gebremariam': {
  name: 'Tewolde GebreMariam',
@@ -27509,7 +27509,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2009', event: 'Joins Boeing Board' },
  { date: '2018-2019', event: 'On board during MAX crashes' },
  ],
- sources: [{ title: 'Wikipedia: Edmund Giambastiani', url: 'https://en.wikipedia.org/wiki/Edmund_Giambastiani' }, { title: 'Bloomberg: Edmund Giambastiani', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: Edmund Giambastiani', url: 'https://www.militarytimes.com/' }],
+ sources: [{ title: 'Wikipedia: Edmund Giambastiani', url: 'https://www.google.com/search?q=Edmund%20Giambastiani' }, { title: 'Bloomberg: Edmund Giambastiani', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: Edmund Giambastiani', url: 'https://www.militarytimes.com/' }],
  },
  'ronald-williams': {
  name: 'Ronald Williams',
@@ -27571,7 +27571,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'Becomes Collins Aerospace CEO' },
  { date: 'Unknown', event: 'Joins Boeing Board' },
  ],
- sources: [{ title: 'Wikipedia: David Gitlin', url: 'https://en.wikipedia.org/wiki/David_Gitlin' }, { title: 'Bloomberg: David Gitlin', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
+ sources: [{ title: 'Wikipedia: David Gitlin', url: 'https://www.google.com/search?q=David%20Gitlin' }, { title: 'Bloomberg: David Gitlin', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
  },
  'erin-keating': {
  name: 'Erin Keating',
@@ -27604,7 +27604,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2021', event: 'Boeing deferred prosecution announced' },
  { date: '2024', event: 'DOJ finds Boeing breached agreement' },
  ],
- sources: [{ title: 'Wikipedia: Erin Keating', url: 'https://en.wikipedia.org/wiki/Erin_Keating' }, { title: 'Bloomberg: Erin Keating', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
+ sources: [{ title: 'Wikipedia: Erin Keating', url: 'https://www.google.com/search?q=Erin%20Keating' }, { title: 'Bloomberg: Erin Keating', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
  },
  'chad-readler': {
  name: 'Chad Readler',
@@ -27666,7 +27666,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Steps down as CEO' },
  { date: 'January 2024', event: 'Door plug blowout linked to Spirit production' },
  ],
- sources: [{ title: 'Wikipedia: Tom Gentile', url: 'https://en.wikipedia.org/wiki/Tom_Gentile' }, { title: 'Bloomberg: Tom Gentile', url: 'https://www.bloomberg.com/' }],
+ sources: [{ title: 'Wikipedia: Tom Gentile', url: 'https://www.google.com/search?q=Tom%20Gentile' }, { title: 'Bloomberg: Tom Gentile', url: 'https://www.bloomberg.com/' }],
  },
  'john-plueger': {
  name: 'John Plueger',
@@ -27760,7 +27760,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '1994', event: 'Becomes Ryanair CEO' },
  { date: '2019', event: 'Defends Boeing during MAX grounding' },
  ],
- sources: [{ title: 'Wikipedia: Michael O', url: 'https://en.wikipedia.org/wiki/Michael_O' }, { title: 'Bloomberg: Michael O', url: 'https://www.bloomberg.com/' }],
+ sources: [{ title: 'Wikipedia: Michael O', url: 'https://www.google.com/search?q=Michael%20O' }, { title: 'Bloomberg: Michael O', url: 'https://www.bloomberg.com/' }],
  },
  'gary-kelly': {
  name: 'Gary Kelly',
@@ -28005,7 +28005,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'Unknown', event: 'White House staff' },
  { date: 'Unknown', event: 'Boeing government relations' },
  ],
- sources: [{ title: 'Wikipedia: Ziad Ojakli', url: 'https://en.wikipedia.org/wiki/Ziad_Ojakli' }, { title: 'Bloomberg: Ziad Ojakli', url: 'https://www.bloomberg.com/' }],
+ sources: [{ title: 'Wikipedia: Ziad Ojakli', url: 'https://www.google.com/search?q=Ziad%20Ojakli' }, { title: 'Bloomberg: Ziad Ojakli', url: 'https://www.bloomberg.com/' }],
  },
  'ray-conner': {
  name: 'Ray Conner',
@@ -28038,7 +28038,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Retires' },
  { date: '2018', event: 'First MAX crash - after retirement' },
  ],
- sources: [{ title: 'Wikipedia: Ray Conner', url: 'https://en.wikipedia.org/wiki/Ray_Conner' }, { title: 'Bloomberg: Ray Conner', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ sources: [{ title: 'Wikipedia: Ray Conner', url: 'https://www.google.com/search?q=Ray%20Conner' }, { title: 'Bloomberg: Ray Conner', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
  'kevin-mcallister': {
  name: 'Kevin McAllister',
@@ -28132,7 +28132,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'Unknown', event: 'Boeing career' },
  { date: '2011-2017', event: 'MAX program development' },
  ],
- sources: [{ title: 'Wikipedia: Keith Leverkuhn', url: 'https://en.wikipedia.org/wiki/Keith_Leverkuhn' }, { title: 'Bloomberg: Keith Leverkuhn', url: 'https://www.bloomberg.com/' }],
+ sources: [{ title: 'Wikipedia: Keith Leverkuhn', url: 'https://www.google.com/search?q=Keith%20Leverkuhn' }, { title: 'Bloomberg: Keith Leverkuhn', url: 'https://www.bloomberg.com/' }],
  },
  'michael-teal': {
  name: 'Michael Teal',
@@ -28162,7 +28162,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'Boeing engineering career' },
  ],
- sources: [{ title: 'Wikipedia: Michael Teal', url: 'https://en.wikipedia.org/wiki/Michael_Teal' }, { title: 'Wired: Michael Teal', url: 'https://www.wired.com/' }],
+ sources: [{ title: 'Wikipedia: Michael Teal', url: 'https://www.google.com/search?q=Michael%20Teal' }, { title: 'Wired: Michael Teal', url: 'https://www.wired.com/' }],
  },
  'richard-wyckoff': {
  name: 'Richard Wyckoff',
@@ -28256,7 +28256,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2011', event: 'Becomes CFO' },
  { date: '2021', event: 'Retires' },
  ],
- sources: [{ title: 'Wikipedia: Greg Smith', url: 'https://en.wikipedia.org/wiki/Greg_Smith' }, { title: 'Bloomberg: Greg Smith', url: 'https://www.bloomberg.com/' }],
+ sources: [{ title: 'Wikipedia: Greg Smith', url: 'https://www.google.com/search?q=Greg%20Smith' }, { title: 'Bloomberg: Greg Smith', url: 'https://www.bloomberg.com/' }],
  },
  'bill-mcsherry': {
  name: 'Bill McSherry',
@@ -28287,7 +28287,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'FAA career' },
  ],
- sources: [{ title: 'Wikipedia: Bill McSherry', url: 'https://en.wikipedia.org/wiki/Bill_McSherry' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ sources: [{ title: 'Wikipedia: Bill McSherry', url: 'https://www.google.com/search?q=Bill%20McSherry' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
  'dorenda-baker': {
  name: 'Dorenda Baker',
@@ -28317,7 +28317,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'FAA career' },
  ],
- sources: [{ title: 'Wikipedia: Dorenda Baker', url: 'https://en.wikipedia.org/wiki/Dorenda_Baker' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ sources: [{ title: 'Wikipedia: Dorenda Baker', url: 'https://www.google.com/search?q=Dorenda%20Baker' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
  'christopher-hart': {
  name: 'Christopher Hart',
@@ -28406,7 +28406,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'Unknown', event: 'Aviation journalism career' },
  { date: '2019+', event: 'MAX coverage' },
  ],
- sources: [{ title: 'Wikipedia: Jon Ostrower', url: 'https://en.wikipedia.org/wiki/Jon_Ostrower' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
+ sources: [{ title: 'Wikipedia: Jon Ostrower', url: 'https://www.google.com/search?q=Jon%20Ostrower' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
  'dominic-gates': {
  name: 'Dominic Gates',
@@ -28438,7 +28438,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'Unknown', event: 'Seattle Times career' },
  { date: '2020', event: 'Pulitzer Prize for Boeing coverage' },
  ],
- sources: [{ title: 'Wikipedia: Dominic Gates', url: 'https://en.wikipedia.org/wiki/Dominic_Gates' }, { title: 'Military Times: Dominic Gates', url: 'https://www.militarytimes.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
+ sources: [{ title: 'Wikipedia: Dominic Gates', url: 'https://www.google.com/search?q=Dominic%20Gates' }, { title: 'Military Times: Dominic Gates', url: 'https://www.militarytimes.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
  'brian-west': {
  name: 'Brian West',
@@ -28618,7 +28618,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'Boeing career' },
  ],
- sources: [{ title: 'Wikipedia: Elizabeth Lund', url: 'https://en.wikipedia.org/wiki/Elizabeth_Lund' }, { title: 'Bloomberg: Elizabeth Lund', url: 'https://www.bloomberg.com/' }],
+ sources: [{ title: 'Wikipedia: Elizabeth Lund', url: 'https://www.google.com/search?q=Elizabeth%20Lund' }, { title: 'Bloomberg: Elizabeth Lund', url: 'https://www.bloomberg.com/' }],
  },
  'howard-mckenzie': {
  name: 'Howard McKenzie',
@@ -28824,7 +28824,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'FAA career' },
  ],
- sources: [{ title: 'Wikipedia: David Boulter', url: 'https://en.wikipedia.org/wiki/David_Boulter' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ sources: [{ title: 'Wikipedia: David Boulter', url: 'https://www.google.com/search?q=David%20Boulter' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
  'lirio-liu': {
  name: 'Lirio Liu',
@@ -28852,7 +28852,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'FAA career' },
  ],
- sources: [{ title: 'Wikipedia: Lirio Liu', url: 'https://en.wikipedia.org/wiki/Lirio_Liu' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ sources: [{ title: 'Wikipedia: Lirio Liu', url: 'https://www.google.com/search?q=Lirio%20Liu' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
  'chris-rocheleau': {
  name: 'Chris Rocheleau',
@@ -28912,7 +28912,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'Unknown', event: 'FAA career' },
  { date: 'Unknown', event: 'Airlines for America' },
  ],
- sources: [{ title: 'Wikipedia: Basil Barimo', url: 'https://en.wikipedia.org/wiki/Basil_Barimo' }, { title: 'Bloomberg: Basil Barimo', url: 'https://www.bloomberg.com/' }],
+ sources: [{ title: 'Wikipedia: Basil Barimo', url: 'https://www.google.com/search?q=Basil%20Barimo' }, { title: 'Bloomberg: Basil Barimo', url: 'https://www.bloomberg.com/' }],
  },
  'margaret-gilligan': {
  name: 'Margaret Gilligan',
@@ -28941,7 +28941,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'FAA career' },
  ],
- sources: [{ title: 'Wikipedia: Margaret Gilligan', url: 'https://en.wikipedia.org/wiki/Margaret_Gilligan' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ sources: [{ title: 'Wikipedia: Margaret Gilligan', url: 'https://www.google.com/search?q=Margaret%20Gilligan' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
  'tony-ferrante': {
  name: 'Tony Ferrante',
@@ -29184,7 +29184,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2013-2021', event: 'U.S. Representative' },
  { date: '2021', event: 'Becomes Lt. Governor' },
  ],
- sources: [{ title: 'Wikipedia: Denny Heck', url: 'https://en.wikipedia.org/wiki/Denny_Heck' }, { title: 'Associated Press: Denny Heck', url: 'https://apnews.com/' }],
+ sources: [{ title: 'Wikipedia: Denny Heck', url: 'https://www.google.com/search?q=Denny%20Heck' }, { title: 'Associated Press: Denny Heck', url: 'https://apnews.com/' }],
  },
  'polly-trottenberg': {
  name: 'Polly Trottenberg',
@@ -29275,7 +29275,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'Unknown', event: 'Boeing career' },
  { date: 'Unknown', event: 'Reported quality issues' },
  ],
- sources: [{ title: 'Wikipedia: Santiago Paredes', url: 'https://en.wikipedia.org/wiki/Santiago_Paredes' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
+ sources: [{ title: 'Wikipedia: Santiago Paredes', url: 'https://www.google.com/search?q=Santiago%20Paredes' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
  },
  'dean-bortniker': {
  name: 'Dean Bortniker',
@@ -29304,7 +29304,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'Boeing career' },
  ],
- sources: [{ title: 'Wikipedia: Dean Bortniker', url: 'https://en.wikipedia.org/wiki/Dean_Bortniker' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
+ sources: [{ title: 'Wikipedia: Dean Bortniker', url: 'https://www.google.com/search?q=Dean%20Bortniker' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
  },
  'cynthia-cole': {
  name: 'Cynthia Cole',
@@ -29333,7 +29333,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'SPEEA leadership' },
  ],
- sources: [{ title: 'Wikipedia: Cynthia Cole', url: 'https://en.wikipedia.org/wiki/Cynthia_Cole' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
+ sources: [{ title: 'Wikipedia: Cynthia Cole', url: 'https://www.google.com/search?q=Cynthia%20Cole' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
  },
  'jon-holden': {
  name: 'Jon Holden',
@@ -29604,7 +29604,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'October 2018', event: 'Lion Air 610 crash investigation' },
  { date: '2019', event: 'Final report released' },
  ],
- sources: [{ title: 'Wikipedia: Nurcahyo Utomo', url: 'https://en.wikipedia.org/wiki/Nurcahyo_Utomo' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ sources: [{ title: 'Wikipedia: Nurcahyo Utomo', url: 'https://www.google.com/search?q=Nurcahyo%20Utomo' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
  'amdye-ayalew': {
  name: 'Amdye Ayalew',
@@ -29724,7 +29724,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2016', event: 'Becomes Spirit CEO' },
  { date: '2023', event: 'Steps down' },
  ],
- sources: [{ title: 'Wikipedia: Tom Gentile', url: 'https://en.wikipedia.org/wiki/Tom_Gentile' }, { title: 'Bloomberg: Tom Gentile', url: 'https://www.bloomberg.com/' }],
+ sources: [{ title: 'Wikipedia: Tom Gentile', url: 'https://www.google.com/search?q=Tom%20Gentile' }, { title: 'Bloomberg: Tom Gentile', url: 'https://www.bloomberg.com/' }],
  },
  'larry-lawson': {
  name: 'Larry Lawson',
@@ -29781,7 +29781,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'Collins career' },
  ],
- sources: [{ title: 'Wikipedia: Chris Chadwick', url: 'https://en.wikipedia.org/wiki/Chris_Chadwick' }, { title: 'Bloomberg: Chris Chadwick', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
+ sources: [{ title: 'Wikipedia: Chris Chadwick', url: 'https://www.google.com/search?q=Chris%20Chadwick' }, { title: 'Bloomberg: Chris Chadwick', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
  },
  'gregory-hayes': {
  name: 'Gregory Hayes',
@@ -29930,7 +29930,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'Boeing career' },
  ],
- sources: [{ title: 'Wikipedia: David Reyes', url: 'https://en.wikipedia.org/wiki/David_Reyes' }, { title: 'Bloomberg: David Reyes', url: 'https://www.bloomberg.com/' }],
+ sources: [{ title: 'Wikipedia: David Reyes', url: 'https://www.google.com/search?q=David%20Reyes' }, { title: 'Bloomberg: David Reyes', url: 'https://www.bloomberg.com/' }],
  },
  'chris-moore': {
  name: 'Chris Moore',
@@ -29986,7 +29986,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'March 10, 2019', event: 'Lost children in Ethiopian 302' },
  ],
- sources: [{ title: 'Wikipedia: Clariss Moore', url: 'https://en.wikipedia.org/wiki/Clariss_Moore' }, { title: 'Associated Press: Clariss Moore', url: 'https://apnews.com/' }],
+ sources: [{ title: 'Wikipedia: Clariss Moore', url: 'https://www.google.com/search?q=Clariss%20Moore' }, { title: 'Associated Press: Clariss Moore', url: 'https://apnews.com/' }],
  },
  'adnaan-stumo': {
  name: 'Adnaan Stumo',
@@ -30045,7 +30045,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'March 10, 2019', event: 'Lost sister in Ethiopian 302' },
  ],
- sources: [{ title: 'Wikipedia: Tor Stumo', url: 'https://en.wikipedia.org/wiki/Tor_Stumo' }, { title: 'Associated Press: Tor Stumo', url: 'https://apnews.com/' }],
+ sources: [{ title: 'Wikipedia: Tor Stumo', url: 'https://www.google.com/search?q=Tor%20Stumo' }, { title: 'Associated Press: Tor Stumo', url: 'https://apnews.com/' }],
  },
  'catherine-berthet': {
  name: 'Catherine Berthet',
@@ -30076,7 +30076,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'March 10, 2019', event: 'Lost daughter in Ethiopian 302' },
  ],
- sources: [{ title: 'Wikipedia: Catherine Berthet', url: 'https://en.wikipedia.org/wiki/Catherine_Berthet' }, { title: 'Associated Press: Catherine Berthet', url: 'https://apnews.com/' }],
+ sources: [{ title: 'Wikipedia: Catherine Berthet', url: 'https://www.google.com/search?q=Catherine%20Berthet' }, { title: 'Associated Press: Catherine Berthet', url: 'https://apnews.com/' }],
  },
  'javier-de-luis': {
  name: 'Javier de Luis',
@@ -30137,7 +30137,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: '2021', event: 'Publishes"Flying Blind"' },
  ],
- sources: [{ title: 'Wikipedia: Peter Robison', url: 'https://en.wikipedia.org/wiki/Peter_Robison' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
+ sources: [{ title: 'Wikipedia: Peter Robison', url: 'https://www.google.com/search?q=Peter%20Robison' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
  'natalie-kitroeff': {
  name: 'Natalie Kitroeff',
@@ -30164,7 +30164,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'NY Times career' },
  ],
- sources: [{ title: 'Wikipedia: Natalie Kitroeff', url: 'https://en.wikipedia.org/wiki/Natalie_Kitroeff' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
+ sources: [{ title: 'Wikipedia: Natalie Kitroeff', url: 'https://www.google.com/search?q=Natalie%20Kitroeff' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
  'david-gelles': {
  name: 'David Gelles',
@@ -30191,7 +30191,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'NY Times career' },
  ],
- sources: [{ title: 'Wikipedia: David Gelles', url: 'https://en.wikipedia.org/wiki/David_Gelles' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
+ sources: [{ title: 'Wikipedia: David Gelles', url: 'https://www.google.com/search?q=David%20Gelles' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
  'gregory-travis': {
  name: 'Gregory Travis',
@@ -30220,7 +30220,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: '2019', event: 'Publishes MCAS analysis' },
  ],
- sources: [{ title: 'Wikipedia: Gregory Travis', url: 'https://en.wikipedia.org/wiki/Gregory_Travis' }, { title: 'Military Times: Gregory Travis', url: 'https://www.militarytimes.com/' }, { title: 'Wired: Gregory Travis', url: 'https://www.wired.com/' }],
+ sources: [{ title: 'Wikipedia: Gregory Travis', url: 'https://www.google.com/search?q=Gregory%20Travis' }, { title: 'Military Times: Gregory Travis', url: 'https://www.militarytimes.com/' }, { title: 'Wired: Gregory Travis', url: 'https://www.wired.com/' }],
  },
  'bjorn-fehrm': {
  name: 'Björn Fehrm',
@@ -30247,7 +30247,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: '2019', event: 'MAX technical analysis' },
  ],
- sources: [{ title: 'Wikipedia: Björn Fehrm', url: 'https://en.wikipedia.org/wiki/Björn_Fehrm' }, { title: 'Wired: Björn Fehrm', url: 'https://www.wired.com/' }],
+ sources: [{ title: 'Wikipedia: Björn Fehrm', url: 'https://en.wikipedia.org/wiki/Bj%C3%B6rn_Fehrm' }, { title: 'Wired: Björn Fehrm', url: 'https://www.wired.com/' }],
  },
  'kenneth-polite': {
  name: 'Kenneth Polite',
@@ -30307,7 +30307,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'May 11, 1996', event: 'ValuJet 592 crashes, 110 killed' },
  ],
- sources: [{ title: 'Wikipedia: ValuJet 592 Victims', url: 'https://en.wikipedia.org/wiki/ValuJet_592_Victims' }, { title: 'Military Times: ValuJet 592 Victims', url: 'https://www.militarytimes.com/' }, { title: 'Wired: ValuJet 592 Victims', url: 'https://www.wired.com/' }],
+ sources: [{ title: 'Wikipedia: ValuJet 592 Victims', url: 'https://en.wikipedia.org/wiki/ValuJet_Flight_592' }, { title: 'Military Times: ValuJet 592 Victims', url: 'https://www.militarytimes.com/' }, { title: 'Wired: ValuJet 592 Victims', url: 'https://www.wired.com/' }],
  },
  'alaska-261-victims': {
  name: 'Alaska Airlines 261 Victims',
@@ -30369,7 +30369,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2010', event: 'Families advocate for pilot rules' },
  { date: '2013', event: 'New pilot rest rules take effect' },
  ],
- sources: [{ title: 'Wikipedia: Colgan Air 3407 Families', url: 'https://en.wikipedia.org/wiki/Colgan_Air_3407_Families' }, { title: 'Associated Press: Colgan Air 3407 Families', url: 'https://apnews.com/' }],
+ sources: [{ title: 'Wikipedia: Colgan Air 3407 Families', url: 'https://en.wikipedia.org/wiki/Colgan_Air_Flight_3407' }, { title: 'Associated Press: Colgan Air 3407 Families', url: 'https://apnews.com/' }],
  },
  'william-mcgee': {
  name: 'William McGee',
@@ -30489,7 +30489,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'Unknown', event: 'Founds AirSafe.com' },
  ],
- sources: [{ title: 'Wikipedia: Todd Curtis', url: 'https://en.wikipedia.org/wiki/Todd_Curtis' }, { title: 'Wired: Todd Curtis', url: 'https://www.wired.com/' }],
+ sources: [{ title: 'Wikipedia: Todd Curtis', url: 'https://www.google.com/search?q=Todd%20Curtis' }, { title: 'Wired: Todd Curtis', url: 'https://www.wired.com/' }],
  },
  'christine-negroni': {
  name: 'Christine Negroni',
@@ -30596,7 +30596,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 13, 2019', event: 'FAA finally grounds 737 MAX (last major authority)' },
  { date: '2020', event: 'Ethiopian AIB blames Boeing design' },
  ],
- sources: [{ title: 'Wikipedia: Ethiopian Airlines Flight 302 Victims', url: 'https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302_Victims' }, { title: 'Associated Press: Ethiopian Airlines Flight 302 Victims', url: 'https://apnews.com/' }],
+ sources: [{ title: 'Wikipedia: Ethiopian Airlines Flight 302 Victims', url: 'https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302' }, { title: 'Associated Press: Ethiopian Airlines Flight 302 Victims', url: 'https://apnews.com/' }],
  },
  'samya-stumo': {
  name: 'Samya Rose Stumo',
@@ -30662,7 +30662,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2010s', event: 'Ethiopian Airlines pilot training' },
  { date: 'March 10, 2019', event: 'Killed on ET302 at age 25' },
  ],
- sources: [{ title: 'Wikipedia: First Officer Ahmed Nur Mohammod', url: 'https://en.wikipedia.org/wiki/First_Officer_Ahmed_Nur_Mohammod' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ sources: [{ title: 'Wikipedia: First Officer Ahmed Nur Mohammod', url: 'https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
  },
  'dave-calhoun': {
  name: 'Dave Calhoun',
@@ -33553,7 +33553,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'DuPont-Dow merger' },
  { date: '2019', event: 'DuPont splits off' },
  ],
- sources: [{ title: 'Wikipedia: Edward Breen', url: 'https://en.wikipedia.org/wiki/Edward_Breen' }, { title: 'Bloomberg: Edward Breen', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: Edward Breen', url: 'https://www.militarytimes.com/' }],
+ sources: [{ title: 'Wikipedia: Edward Breen', url: 'https://www.google.com/search?q=Edward%20Breen' }, { title: 'Bloomberg: Edward Breen', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: Edward Breen', url: 'https://www.militarytimes.com/' }],
  knownAssociates: [
  { name: 'Werner Baumann', relationship: 'Fellow chemical company CEO facing contamination lawsuits', href: '/entities/individuals/werner-baumann' },
  { name: 'Rob Bilott', relationship: 'Attorney who exposed DuPont PFAS contamination', href: '/entities/individuals/rob-bilott' },
@@ -34329,7 +34329,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '1998', event: 'Master Settlement Agreement' },
  { date: '2002', event: 'Retires' },
  ],
- sources: [{ title: 'Wikipedia: Geoffrey Bible', url: 'https://en.wikipedia.org/wiki/Geoffrey_Bible' }, { title: 'Bloomberg: Geoffrey Bible', url: 'https://www.bloomberg.com/' }],
+ sources: [{ title: 'Wikipedia: Geoffrey Bible', url: 'https://www.google.com/search?q=Geoffrey%20Bible' }, { title: 'Bloomberg: Geoffrey Bible', url: 'https://www.bloomberg.com/' }],
  knownAssociates: [
  { name: 'Edward Horrigan', relationship: 'Fellow tobacco executive who faced litigation', href: '/entities/individuals/edward-horrigan' },
  { name: 'Jeffrey Wigand', relationship: 'Whistleblower who exposed tobacco industry practices', href: '/entities/individuals/jeffrey-wigand' }
@@ -36101,7 +36101,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Blocks housing near mansion' },
  { date: '2024', event: 'Endorses Trump' },
  ],
- sources: [{ title: 'Wikipedia: Marc Andreessen', url: 'https://en.wikipedia.org/wiki/Marc_Andreessen' }, { title: 'NYT: Marc Andreessen Profile', url: 'https://www.nytimes.com/' }, { title: 'Bloomberg: Marc Andreessen', url: 'https://www.bloomberg.com/' }, { title: 'Reuters: Russia Coverage', url: 'https://www.reuters.com/world/russia-ukraine/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Wired: Marc Andreessen', url: 'https://www.wired.com/' }],
+ sources: [{ title: 'Wikipedia: Marc Andreessen', url: 'https://en.wikipedia.org/wiki/Marc_Andreessen' }, { title: 'NYT: Marc Andreessen Profile', url: 'https://www.nytimes.com/' }, { title: 'Bloomberg: Marc Andreessen', url: 'https://www.bloomberg.com/' }, { title: 'Reuters: Russia Coverage', url: 'https://web.archive.org/web/2024/https://www.reuters.com/world/russia-ukraine/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Wired: Marc Andreessen', url: 'https://www.wired.com/' }],
  },
  'palmer-luckey': {
  name: 'Palmer Luckey',
@@ -36182,7 +36182,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2009', event: 'Co-founds Andreessen Horowitz' },
  { date: '2024', event: 'Endorses and donates to Trump' },
  ],
- sources: [{ title: 'Wikipedia: Ben Horowitz', url: 'https://en.wikipedia.org/wiki/Ben_Horowitz' }, { title: 'NYT: Ben Horowitz Profile', url: 'https://www.nytimes.com/' }, { title: 'Washington Post: Ben Horowitz', url: 'https://www.washingtonpost.com/' }, { title: 'Bloomberg: Ben Horowitz', url: 'https://www.bloomberg.com/' }, { title: 'Reuters: Russia Coverage', url: 'https://www.reuters.com/world/russia-ukraine/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Wired: Ben Horowitz', url: 'https://www.wired.com/' }],
+ sources: [{ title: 'Wikipedia: Ben Horowitz', url: 'https://en.wikipedia.org/wiki/Ben_Horowitz' }, { title: 'NYT: Ben Horowitz Profile', url: 'https://www.nytimes.com/' }, { title: 'Washington Post: Ben Horowitz', url: 'https://www.washingtonpost.com/' }, { title: 'Bloomberg: Ben Horowitz', url: 'https://www.bloomberg.com/' }, { title: 'Reuters: Russia Coverage', url: 'https://web.archive.org/web/2024/https://www.reuters.com/world/russia-ukraine/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Wired: Ben Horowitz', url: 'https://www.wired.com/' }],
  },
  'david-sacks': {
  name: 'David Sacks',
@@ -36578,7 +36578,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'Purdue pleads guilty' },
  { date: '2021', event: 'Company dissolution agreed' },
  ],
- sources: [{ title: 'Wikipedia: Craig Landau', url: 'https://en.wikipedia.org/wiki/Craig_Landau' }, { title: 'Bloomberg: Craig Landau', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
+ sources: [{ title: 'Wikipedia: Craig Landau', url: 'https://www.google.com/search?q=Craig%20Landau' }, { title: 'Bloomberg: Craig Landau', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
  knownAssociates: [
  { name: 'Richard Sackler', relationship: 'Fellow opioid crisis executive - Purdue Pharma', href: '/entities/individuals/richard-sackler' },
  { name: 'Steven Collis', relationship: 'AmerisourceBergen CEO in opioid distribution chain', href: '/entities/individuals/steven-collis' }
@@ -37588,7 +37588,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2021', event: 'Arrested' },
  { date: 'November 2023', event: 'Convicted' },
  ],
- sources: [{ title: 'Wikipedia: Riley June Williams', url: 'https://en.wikipedia.org/wiki/Riley_June_Williams' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Reuters: Russia Coverage', url: 'https://www.reuters.com/world/russia-ukraine/' }],
+ sources: [{ title: 'Wikipedia: Riley June Williams', url: 'https://en.wikipedia.org/wiki/Riley_June_Williams' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Reuters: Russia Coverage', url: 'https://web.archive.org/web/2024/https://www.reuters.com/world/russia-ukraine/' }],
  knownAssociates: [
  { name: 'Jacob Chansley', relationship: 'Fellow January 6 defendant', href: '/entities/individuals/jacob-chansley' },
  { name: 'Ashli Babbitt', relationship: 'Fellow January 6 participant', href: '/entities/individuals/ashli-babbitt' }
@@ -37669,7 +37669,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 2021', event: 'Arrested' },
  { date: 'September 2022', event: 'Pleads guilty' },
  ],
- sources: [{ title: 'Wikipedia: Julian Khater', url: 'https://en.wikipedia.org/wiki/Julian_Khater' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ sources: [{ title: 'Wikipedia: Julian Khater', url: 'https://www.google.com/search?q=Julian%20Khater' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
  },
  'george-tanios': {
  name: 'George Tanios',
@@ -38920,7 +38920,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2004-2017', event: 'Multiple settlements' },
  { date: 'April 2017', event: 'Fired from Fox News' },
  ],
- sources: [{ title: 'Wikipedia: Bill O', url: 'https://en.wikipedia.org/wiki/Bill_O' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
+ sources: [{ title: 'Wikipedia: Bill O', url: 'https://www.google.com/search?q=Bill%20O' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
  },
  'rush-limbaugh': {
  name: 'Rush Limbaugh',
@@ -39458,7 +39458,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'February 2022', event: 'Spread Ukraine biolab disinfo' },
  { date: 'November 2024', event: 'Trump nominates for DNI' },
  ],
- sources: [{ title: 'Wikipedia: Tulsi Gabbard', url: 'https://en.wikipedia.org/wiki/Tulsi_Gabbard' }, { title: 'NYT: Tulsi Gabbard Profile', url: 'https://www.nytimes.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Reuters: Russia Coverage', url: 'https://www.reuters.com/world/russia-ukraine/' }],
+ sources: [{ title: 'Wikipedia: Tulsi Gabbard', url: 'https://en.wikipedia.org/wiki/Tulsi_Gabbard' }, { title: 'NYT: Tulsi Gabbard Profile', url: 'https://www.nytimes.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Reuters: Russia Coverage', url: 'https://web.archive.org/web/2024/https://www.reuters.com/world/russia-ukraine/' }],
  },
 
  'robert-f-kennedy-jr': {
@@ -40084,7 +40084,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Started Timcast' },
  { date: '2024', event: 'Russian funding exposed by DOJ' },
  ],
- sources: [{ title: 'Wikipedia: Tim Pool', url: 'https://en.wikipedia.org/wiki/Tim_Pool' }, { title: 'NYT: Tim Pool Profile', url: 'https://www.nytimes.com/' }, { title: 'Military Times: Tim Pool', url: 'https://www.militarytimes.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Reuters: Russia Coverage', url: 'https://www.reuters.com/world/russia-ukraine/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
+ sources: [{ title: 'Wikipedia: Tim Pool', url: 'https://en.wikipedia.org/wiki/Tim_Pool' }, { title: 'NYT: Tim Pool Profile', url: 'https://www.nytimes.com/' }, { title: 'Military Times: Tim Pool', url: 'https://www.militarytimes.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Reuters: Russia Coverage', url: 'https://web.archive.org/web/2024/https://www.reuters.com/world/russia-ukraine/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
  },
 
  'dave-rubin': {
@@ -40157,7 +40157,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2018', event: 'Pardoned by Trump' },
  { date: '2022', event: '"2000 Mules"released and debunked' },
  ],
- sources: [{ title: 'Wikipedia: Dinesh D', url: 'https://en.wikipedia.org/wiki/Dinesh_D' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ sources: [{ title: 'Wikipedia: Dinesh D', url: 'https://en.wikipedia.org/wiki/Dinesh_D%27Souza' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
  knownAssociates: [
  { name: 'Dennis Prager', relationship: 'Fellow conservative commentator and media figure', href: '/entities/individuals/dennis-prager' },
  { name: 'Donald Trump', relationship: 'Pardoned by Trump in 2018 for campaign finance violation', href: '/entities/individuals/donald-trump' }
@@ -40199,7 +40199,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'WaPo sting backfired' },
  { date: '2023', event: 'Ousted from Project Veritas' },
  ],
- sources: [{ title: 'Wikipedia: James O', url: 'https://en.wikipedia.org/wiki/James_O' }, { title: 'Associated Press: James O', url: 'https://apnews.com/' }],
+ sources: [{ title: 'Wikipedia: James O', url: 'https://www.google.com/search?q=James%20O' }, { title: 'Associated Press: James O', url: 'https://apnews.com/' }],
  knownAssociates: [
  { name: 'Jacob Wohl', relationship: 'Fellow right-wing provocateur and disinformation figure', href: '/entities/individuals/jacob-wohl' },
  { name: 'Donald Trump', relationship: 'Trump supporter whose hidden camera operations targeted liberals', href: '/entities/individuals/donald-trump' }
@@ -41857,7 +41857,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2023', event: 'Fired and charged' },
  { date: '2024', event: 'Convicted at federal trial' },
  ],
- sources: [{ title: 'Wikipedia: Emmitt Martin III', url: 'https://en.wikipedia.org/wiki/Emmitt_Martin_III' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ sources: [{ title: 'Wikipedia: Emmitt Martin III', url: 'https://www.google.com/search?q=Emmitt%20Martin%20III' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
  knownAssociates: [
  { name: 'Desmond Mills', relationship: 'Fellow SCORPION unit officer charged in Tyre Nichols death', href: '/entities/individuals/desmond-mills' },
  { name: 'Tadarrius Bean', relationship: 'Fellow officer charged in Nichols beating', href: '/entities/individuals/tadarrius-bean' },
@@ -42125,7 +42125,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2005', event: 'Sentenced to 8-25 years' },
  { date: '2012', event: 'Released from prison' },
  ],
- sources: [{ title: 'Wikipedia: Mark Swartz', url: 'https://en.wikipedia.org/wiki/Mark_Swartz' }, { title: 'Bloomberg: Mark Swartz', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: Mark Swartz', url: 'https://www.militarytimes.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ sources: [{ title: 'Wikipedia: Mark Swartz', url: 'https://www.google.com/search?q=Mark%20Swartz' }, { title: 'Bloomberg: Mark Swartz', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: Mark Swartz', url: 'https://www.militarytimes.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
  knownAssociates: [
  { name: 'Dennis Kozlowski', relationship: 'Co-defendant and fellow Tyco executive convicted of fraud', href: '/entities/individuals/dennis-kozlowski' }
  ],
@@ -42986,7 +42986,7 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Operation Condor: Carlos Prats Assassination - National Security Archive', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB416/', date: '2013' },
  { title: 'The Condor Years by John Dinges', url: 'https://thenewpress.com/books/condor-years', date: '2004' },
- { title: 'Chile Recognizes Prats Assassination as Condor Crime - Reuters', url: 'https://www.reuters.com/article/chile-prats-idUSN2729989420080627', date: '2008' },
+ { title: 'Chile Recognizes Prats Assassination as Condor Crime - Reuters', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/chile-prats-idUSN2729989420080627', date: '2008' },
  ],
  },
  'charles-fahy': {
@@ -43552,7 +43552,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Edward Hanrahan', relationship: 'Cook County State\'s Attorney who authorized Hampton raid', href: '/entities/individuals/edward-hanrahan' }
  ],
 
- sources: [{ title: 'Wikipedia: Deborah Johnson (Akua Njeri)', url: 'https://en.wikipedia.org/wiki/Deborah_Johnson_(Akua_Njeri)' }],
+ sources: [{ title: 'Wikipedia: Deborah Johnson (Akua Njeri)', url: 'https://en.wikipedia.org/wiki/Akua_Njeri)' }],
  },
  'alan-fiers': {
  name: 'Alan Fiers',
@@ -43629,7 +43629,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Pete Buttigieg', relationship: 'Transportation Secretary who oversaw Norfolk Southern response after East Palestine', href: '/entities/individuals/pete-buttigieg' }
  ],
 
- sources: [{ title: 'Wikipedia: Norfolk Southern (CEO Alan Shaw)', url: 'https://en.wikipedia.org/wiki/Norfolk_Southern_(CEO_Alan_Shaw)' }],
+ sources: [{ title: 'Wikipedia: Norfolk Southern (CEO Alan Shaw)', url: 'https://en.wikipedia.org/wiki/Norfolk_Southern)' }],
  },
  'albert-lord': {
  name: 'Albert Lord',
@@ -44512,7 +44512,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Dick Rowland', relationship: 'Man whose arrest sparked the Tulsa Race Massacre', href: '/entities/individuals/dick-rowland' }
  ],
 
- sources: [{ title: 'Wikipedia: B.C. Franklin', url: 'https://en.wikipedia.org/wiki/B.C._Franklin' }],
+ sources: [{ title: 'Wikipedia: B.C. Franklin', url: 'https://en.wikipedia.org/wiki/Buck_Colbert_Franklin' }],
  },
  'becky-barr': {
  name: 'Becky Barr',
@@ -44535,7 +44535,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'William Barr', relationship: 'Related to AG Barr - DOJ connection', href: '/entities/individuals/william-barr' }
  ],
 
- sources: [{ title: 'Wikipedia: Becky Barr', url: 'https://en.wikipedia.org/wiki/Becky_Barr' }],
+ sources: [{ title: 'Wikipedia: Becky Barr', url: 'https://www.google.com/search?q=Becky%20Barr' }],
  },
  'ben-barnes': {
  name: 'Ben Barnes',
@@ -44706,7 +44706,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Edward Horrigan', relationship: 'Fellow tobacco executive', href: '/entities/individuals/edward-horrigan' }
  ],
 
- sources: [{ title: 'Wikipedia: Bernard Reilly', url: 'https://en.wikipedia.org/wiki/Bernard_Reilly' }],
+ sources: [{ title: 'Wikipedia: Bernard Reilly', url: 'https://www.google.com/search?q=Bernard%20Reilly' }],
  },
  'bernd-gottweis': {
  name: 'Bernd Gottweis',
@@ -44729,7 +44729,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Paul Goldenheim', relationship: 'Fellow Purdue Pharma executive involved in OxyContin marketing', href: '/entities/individuals/paul-goldenheim' }
  ],
 
- sources: [{ title: 'Wikipedia: Bernd Gottweis', url: 'https://en.wikipedia.org/wiki/Bernd_Gottweis' }],
+ sources: [{ title: 'Wikipedia: Bernd Gottweis', url: 'https://www.google.com/search?q=Bernd%20Gottweis' }],
  },
  'bernie-sanders': {
  name: 'Bernie Sanders',
@@ -44827,7 +44827,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Lisa Nelson', relationship: 'ALEC colleague advancing corporate legislative agenda', href: '/entities/individuals/lisa-nelson' }
  ],
 
- sources: [{ title: 'Wikipedia: Bill Meierling', url: 'https://en.wikipedia.org/wiki/Bill_Meierling' }],
+ sources: [{ title: 'Wikipedia: Bill Meierling', url: 'https://www.google.com/search?q=Bill%20Meierling' }],
  },
  'billy-tauzin': {
  name: 'Billy Tauzin',
@@ -44877,7 +44877,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'John Africa', relationship: 'MOVE founder killed in the 1985 bombing', href: '/entities/individuals/john-africa' }
  ],
 
- sources: [{ title: 'Wikipedia: Birdie Africa (Michael Moses Ward)', url: 'https://en.wikipedia.org/wiki/Birdie_Africa_(Michael_Moses_Ward)' }],
+ sources: [{ title: 'Wikipedia: Birdie Africa (Michael Moses Ward)', url: 'https://en.wikipedia.org/wiki/Birdie_Africa)' }],
  },
  'bo-gritz': {
  name: 'Bo Gritz',
@@ -45020,7 +45020,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Thomas Parran', relationship: 'Fellow Public Health Service official during Tuskegee era', href: '/entities/individuals/thomas-parran' }
  ],
 
- sources: [{ title: 'Wikipedia: Bosquet Wev', url: 'https://en.wikipedia.org/wiki/Bosquet_Wev' }],
+ sources: [{ title: 'Wikipedia: Bosquet Wev', url: 'https://www.google.com/search?q=Bosquet%20Wev' }],
  },
  'boutros-boutros-ghali': {
  name: 'Boutros Boutros-Ghali',
@@ -45118,7 +45118,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Edward Breen', relationship: 'DuPont CEO who inherited PFAS contamination legacy', href: '/entities/individuals/edward-breen' }
  ],
 
- sources: [{ title: 'Wikipedia: Bruce Karrh', url: 'https://en.wikipedia.org/wiki/Bruce_Karrh' }],
+ sources: [{ title: 'Wikipedia: Bruce Karrh', url: 'https://www.google.com/search?q=Bruce%20Karrh' }],
  },
  'bryan-stevenson': {
  name: 'Bryan Stevenson',
@@ -45216,7 +45216,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Jeff Jamar', relationship: 'FBI on-scene commander at Waco', href: '/entities/individuals/jeff-jamar' }
  ],
 
- sources: [{ title: 'Wikipedia: Byron Sage', url: 'https://en.wikipedia.org/wiki/Byron_Sage' }],
+ sources: [{ title: 'Wikipedia: Byron Sage', url: 'https://www.google.com/search?q=Byron%20Sage' }],
  },
  'c-everett-koop': {
  name: 'C. Everett Koop',
@@ -45267,7 +45267,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Martin Tabert', relationship: 'Connected to convict leasing system', href: '/entities/individuals/martin-tabert' }
  ],
 
- sources: [{ title: 'Wikipedia: C. Sidney Carlton', url: 'https://en.wikipedia.org/wiki/C._Sidney_Carlton' }],
+ sources: [{ title: 'Wikipedia: C. Sidney Carlton', url: 'https://www.google.com/search?q=C%20Sidney%20Carlton' }],
  },
  'cameron-todd-willingham': {
  name: 'Cameron Todd Willingham',
@@ -45314,7 +45314,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'C. Everett Koop', relationship: 'Surgeon General era public health figure', href: '/entities/individuals/c-everett-koop' }
  ],
 
- sources: [{ title: 'Wikipedia: Carl Oechsner', url: 'https://en.wikipedia.org/wiki/Carl_Oechsner' }],
+ sources: [{ title: 'Wikipedia: Carl Oechsner', url: 'https://www.google.com/search?q=Carl%20Oechsner' }],
  },
  'carlos-castillo-armas': {
  name: 'Carlos Castillo Armas',
@@ -45365,7 +45365,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Suharto', relationship: 'Indonesian dictator whose occupation Belo opposed', href: '/entities/individuals/suharto' }
  ],
 
- sources: [{ title: 'Wikipedia: Bishop Carlos Ximenes Belo', url: 'https://en.wikipedia.org/wiki/Bishop_Carlos_Ximenes_Belo' }],
+ sources: [{ title: 'Wikipedia: Bishop Carlos Ximenes Belo', url: 'https://en.wikipedia.org/wiki/Carlos_Filipe_Ximenes_Belo' }],
  },
  'caroline-ellison': {
  name: 'Caroline Ellison',
@@ -45465,7 +45465,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Bryan Stevenson', relationship: 'Fellow Alabama racial justice advocate', href: '/entities/individuals/bryan-stevenson' }
  ],
 
- sources: [{ title: 'Wikipedia: Catherine Flowers', url: 'https://en.wikipedia.org/wiki/Catherine_Flowers' }],
+ sources: [{ title: 'Wikipedia: Catherine Flowers', url: 'https://www.google.com/search?q=Catherine%20Flowers' }],
  },
  'changpeng-zhao': {
  name: 'Changpeng Zhao',
@@ -45790,7 +45790,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Karl Rove', relationship: 'Republican strategist aligned with Jankowski\'s redistricting efforts', href: '/entities/individuals/karl-rove' }
  ],
 
- sources: [{ title: 'Wikipedia: Chris Jankowski', url: 'https://en.wikipedia.org/wiki/Chris_Jankowski' }],
+ sources: [{ title: 'Wikipedia: Chris Jankowski', url: 'https://www.google.com/search?q=Chris%20Jankowski' }],
  },
  'chris-murphy': {
  name: 'Chris Murphy',
@@ -45888,7 +45888,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Bob Diamond', relationship: 'Barclays CEO during LIBOR scandal period', href: '/entities/individuals/bob-diamond' }
  ],
 
- sources: [{ title: 'Wikipedia: Christian Bittar', url: 'https://en.wikipedia.org/wiki/Christian_Bittar' }],
+ sources: [{ title: 'Wikipedia: Christian Bittar', url: 'https://www.google.com/search?q=Christian%20Bittar' }],
  },
  'christopher-cox': {
  name: 'Christopher Cox',
@@ -46038,7 +46038,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Rashida Richardson', relationship: 'Fellow AI surveillance researcher and critic', href: '/entities/individuals/rashida-richardson' }
  ],
 
- sources: [{ title: 'Wikipedia: Clare Garvie', url: 'https://en.wikipedia.org/wiki/Clare_Garvie' }],
+ sources: [{ title: 'Wikipedia: Clare Garvie', url: 'https://www.google.com/search?q=Clare%20Garvie' }],
  },
  'claudia-peterson': {
  name: 'Claudia Peterson',
@@ -46061,7 +46061,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Jerry Ensminger', relationship: 'Fellow Camp Lejeune contamination advocate', href: '/entities/individuals/jerry-ensminger' }
  ],
 
- sources: [{ title: 'Wikipedia: Claudia Peterson', url: 'https://en.wikipedia.org/wiki/Claudia_Peterson' }],
+ sources: [{ title: 'Wikipedia: Claudia Peterson', url: 'https://www.google.com/search?q=Claudia%20Peterson' }],
  },
  'claudia-russ-anderson': {
  name: 'Claudia Russ Anderson',
@@ -46084,7 +46084,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Maura Healey', relationship: 'Fellow state AG pursuing opioid litigation', href: '/entities/individuals/maura-healey' }
  ],
 
- sources: [{ title: 'Wikipedia: Claudia Russ Anderson', url: 'https://en.wikipedia.org/wiki/Claudia_Russ_Anderson' }],
+ sources: [{ title: 'Wikipedia: Claudia Russ Anderson', url: 'https://www.google.com/search?q=Claudia%20Russ%20Anderson' }],
  },
  'clay-shaw': {
  name: 'Clay Shaw',
@@ -46181,7 +46181,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Jennifer Bates', relationship: 'Fellow Amazon labor activist', href: '/entities/individuals/jennifer-bates' }
  ],
 
- sources: [{ title: 'Wikipedia: Courtney Bowden', url: 'https://en.wikipedia.org/wiki/Courtney_Bowden' }],
+ sources: [{ title: 'Wikipedia: Courtney Bowden', url: 'https://www.google.com/search?q=Courtney%20Bowden' }],
  },
  'craig-haney': {
  name: 'Craig Haney',
@@ -46276,7 +46276,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'George Tenet', relationship: 'CIA director who vouched for Curveball\'s discredited WMD claims', href: '/entities/individuals/george-tenet' }
  ],
 
- sources: [{ title: 'Wikipedia: Rafid Ahmed Alwan al-Janabi (Curveball)', url: 'https://en.wikipedia.org/wiki/Rafid_Ahmed_Alwan_al-Janabi_(Curveball)' }],
+ sources: [{ title: 'Wikipedia: Rafid Ahmed Alwan al-Janabi (Curveball)', url: 'https://en.wikipedia.org/wiki/Curveball_(informant))' }],
  },
  'cyrus-hashemi': {
  name: 'Cyrus Hashemi',
@@ -46469,7 +46469,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Matthias Mueller', relationship: 'VW CEO who managed aftermath of scandal Carder uncovered', href: '/entities/individuals/matthias-mueller' }
  ],
 
- sources: [{ title: 'Wikipedia: Daniel Carder', url: 'https://en.wikipedia.org/wiki/Daniel_Carder' }],
+ sources: [{ title: 'Wikipedia: Daniel Carder', url: 'https://www.google.com/search?q=Daniel%20Carder' }],
  },
  'daniel-ellsberg': {
  name: 'Daniel Ellsberg',
@@ -46520,7 +46520,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Betsy DeVos', relationship: 'For-profit education leader during DeVos\'s deregulation era', href: '/entities/individuals/betsy-devos' }
  ],
 
- sources: [{ title: 'Wikipedia: Daniel Hamburger', url: 'https://en.wikipedia.org/wiki/Daniel_Hamburger' }],
+ sources: [{ title: 'Wikipedia: Daniel Hamburger', url: 'https://www.google.com/search?q=Daniel%20Hamburger' }],
  },
  'daniel-patrick-moynihan': {
  name: 'Daniel Patrick Moynihan',
@@ -46570,7 +46570,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Nathan Wessler', relationship: 'ACLU lawyer who fought surveillance Rigmaiden exposed', href: '/entities/individuals/nathan-wessler' }
  ],
 
- sources: [{ title: 'Wikipedia: Daniel Rigmaiden', url: 'https://en.wikipedia.org/wiki/Daniel_Rigmaiden' }],
+ sources: [{ title: 'Wikipedia: Daniel Rigmaiden', url: 'https://www.google.com/search?q=Daniel%20Rigmaiden' }],
  },
  'daniele-ganser': {
  name: 'Daniele Ganser',
@@ -46992,7 +46992,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Bernie Madoff', relationship: 'SEC Inspector General who investigated agency failure to catch Madoff', href: '/entities/individuals/bernie-madoff' }
  ],
 
- sources: [{ title: 'Wikipedia: David Kotz', url: 'https://en.wikipedia.org/wiki/David_Kotz' }],
+ sources: [{ title: 'Wikipedia: David Kotz', url: 'https://www.google.com/search?q=David%20Kotz' }],
  },
  'david-petraeus': {
  name: 'David Petraeus',
@@ -47041,7 +47041,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Donald Vidrine', relationship: 'Fellow BP official during Deepwater Horizon disaster', href: '/entities/individuals/donald-vidrine' }
  ],
 
- sources: [{ title: 'Wikipedia: David Rainey', url: 'https://en.wikipedia.org/wiki/David_Rainey' }],
+ sources: [{ title: 'Wikipedia: David Rainey', url: 'https://www.google.com/search?q=David%20Rainey' }],
  },
  'david-smith': {
  name: 'David Smith',
@@ -47114,7 +47114,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Kenneth Melson', relationship: 'ATF acting director during Fast and Furious', href: '/entities/individuals/kenneth-melson' }
  ],
 
- sources: [{ title: 'Wikipedia: David Voth', url: 'https://en.wikipedia.org/wiki/David_Voth' }],
+ sources: [{ title: 'Wikipedia: David Voth', url: 'https://www.google.com/search?q=David%20Voth' }],
  },
  'dawn-wooten': {
  name: 'Dawn Wooten',
@@ -47187,7 +47187,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Joe Biden', relationship: 'FEMA Administrator under Biden', href: '/entities/individuals/joe-biden' }
  ],
 
- sources: [{ title: 'Wikipedia: Deanne Criswell', url: 'https://en.wikipedia.org/wiki/Deanne_Criswell' }],
+ sources: [{ title: 'Wikipedia: Deanne Criswell', url: 'https://www.google.com/search?q=Deanne%20Criswell' }],
  },
  'denis-mcdonough': {
  name: 'Denis McDonough',
@@ -47580,7 +47580,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Stafford Warren', relationship: 'Manhattan Project doctor involved in similar radiation research', href: '/entities/individuals/stafford-warren' }
  ],
 
- sources: [{ title: 'Wikipedia: Dr. Condie', url: 'https://en.wikipedia.org/wiki/Dr._Condie' }],
+ sources: [{ title: 'Wikipedia: Dr. Condie', url: 'https://en.wikipedia.org/wiki/William_Condie' }],
  },
  'duane-parde': {
  name: 'Duane Parde',
@@ -47603,7 +47603,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Art Pope', relationship: 'Fellow anti-tax/conservative policy advocate', href: '/entities/individuals/art-pope' }
  ],
 
- sources: [{ title: 'Wikipedia: Duane Parde', url: 'https://en.wikipedia.org/wiki/Duane_Parde' }],
+ sources: [{ title: 'Wikipedia: Duane Parde', url: 'https://www.google.com/search?q=Duane%20Parde' }],
  },
  'duke-tran': {
  name: 'Duke Tran',
@@ -47628,7 +47628,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Ton That Tung', relationship: 'Fellow Vietnamese scientist studying Agent Orange effects', href: '/entities/individuals/ton-that-tung' }
  ],
 
- sources: [{ title: 'Wikipedia: Duke Tran', url: 'https://en.wikipedia.org/wiki/Duke_Tran' }],
+ sources: [{ title: 'Wikipedia: Duke Tran', url: 'https://www.google.com/search?q=Duke%20Tran' }],
  },
  'dw-griffith': {
  name: 'D.W. Griffith',
@@ -47701,7 +47701,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Thomas Parran', relationship: 'Fellow federal health researcher', href: '/entities/individuals/thomas-parran' }
  ],
 
- sources: [{ title: 'Wikipedia: Earl Stadtman', url: 'https://en.wikipedia.org/wiki/Earl_Stadtman' }],
+ sources: [{ title: 'Wikipedia: Earl Stadtman', url: 'https://www.google.com/search?q=Earl%20Stadtman' }],
  },
  'earl-warren': {
  name: 'Earl Warren',
@@ -47999,7 +47999,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Ronald Reagan', relationship: 'Reagan called Rios Montt"a man of great personal integrity"', href: '/entities/individuals/ronald-reagan' }
  ],
 
- sources: [{ title: 'Wikipedia: Efra\u00EDn R\u00EDos Montt', url: 'https://en.wikipedia.org/wiki/Efra\u00EDn_R\u00EDos_Montt' }],
+ sources: [{ title: 'Wikipedia: Efra\u00EDn R\u00EDos Montt', url: 'https://en.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt' }],
  },
  'eh-wah': {
  name: 'Eh Wah',
@@ -48450,7 +48450,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'John Charles Cutler', relationship: 'PHS doctor who conducted parallel Guatemala experiments', href: '/entities/individuals/john-charles-cutler' }
  ],
 
- sources: [{ title: 'Wikipedia: Dr. Eunice Rivers', url: 'https://en.wikipedia.org/wiki/Dr._Eunice_Rivers' }],
+ sources: [{ title: 'Wikipedia: Dr. Eunice Rivers', url: 'https://en.wikipedia.org/wiki/Eunice_Rivers' }],
  },
  'eurico-guterres': {
  name: 'Eurico Guterres',
@@ -48594,7 +48594,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Albert Woodfox', relationship: 'Fellow solitary confinement survivor and prison reform advocate', href: '/entities/individuals/albert-woodfox' }
  ],
 
- sources: [{ title: 'Wikipedia: Five Omar Mualimm-ak', url: 'https://en.wikipedia.org/wiki/Five_Omar_Mualimm-ak' }],
+ sources: [{ title: 'Wikipedia: Five Omar Mualimm-ak', url: 'https://en.wikipedia.org/wiki/Solitary_confinement' }],
  },
  'flint-taylor': {
  name: 'Flint Taylor',
@@ -49303,7 +49303,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Ramona Africa', relationship: 'MOVE member who survived the bombing Sambor oversaw', href: '/entities/individuals/ramona-africa' }
  ],
 
- sources: [{ title: 'Wikipedia: Gregore Sambor', url: 'https://en.wikipedia.org/wiki/Gregore_Sambor' }],
+ sources: [{ title: 'Wikipedia: Gregore Sambor', url: 'https://www.google.com/search?q=Gregore%20Sambor' }],
  },
  'guillermo-endara': {
  name: 'Guillermo Endara',
@@ -49351,7 +49351,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Elliott Abrams', relationship: 'US official who supported Salvadoran military', href: '/entities/individuals/elliott-abrams' }
  ],
 
- sources: [{ title: 'Wikipedia: Guillermo García', url: 'https://en.wikipedia.org/wiki/Guillermo_García' }],
+ sources: [{ title: 'Wikipedia: Guillermo García', url: 'https://en.wikipedia.org/wiki/Salvadoran_Civil_War' }],
  },
  'gul-rahman': {
  name: 'Gul Rahman',
@@ -49399,7 +49399,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Martin Tabert', relationship: 'Connected to convict leasing system Knight enforced', href: '/entities/individuals/martin-tabert' }
  ],
 
- sources: [{ title: 'Wikipedia: Hal Knight', url: 'https://en.wikipedia.org/wiki/Hal_Knight' }],
+ sources: [{ title: 'Wikipedia: Hal Knight', url: 'https://www.google.com/search?q=Hal%20Knight' }],
  },
  'hamid-khan': {
  name: 'Hamid Khan',
@@ -49423,7 +49423,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Jeff Brantingham', relationship: 'PredPol founder whose predictive policing Khan opposed', href: '/entities/individuals/jeff-brantingham' }
  ],
 
- sources: [{ title: 'Wikipedia: Hamid Khan', url: 'https://en.wikipedia.org/wiki/Hamid_Khan' }],
+ sources: [{ title: 'Wikipedia: Hamid Khan', url: 'https://www.google.com/search?q=Hamid%20Khan' }],
  },
  'harrison-trevathan': {
  name: 'Harrison Trevathan',
@@ -49446,7 +49446,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Thomas Parran', relationship: 'Fellow Public Health Service official during Tuskegee era', href: '/entities/individuals/thomas-parran' }
  ],
 
- sources: [{ title: 'Wikipedia: Harrison Trevathan', url: 'https://en.wikipedia.org/wiki/Harrison_Trevathan' }],
+ sources: [{ title: 'Wikipedia: Harrison Trevathan', url: 'https://www.google.com/search?q=Harrison%20Trevathan' }],
  },
  'harry-laughlin': {
  name: 'Harry Laughlin',
@@ -50273,7 +50273,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Sam Zemurray', relationship: 'United Fruit Company head who lobbied for Arbenz overthrow', href: '/entities/individuals/sam-zemurray' }
  ],
 
- sources: [{ title: 'Wikipedia: Jacobo \u00C1rbenz', url: 'https://en.wikipedia.org/wiki/Jacobo_\u00C1rbenz' }],
+ sources: [{ title: 'Wikipedia: Jacobo \u00C1rbenz', url: 'https://en.wikipedia.org/wiki/Jacobo_%C3%81rbenz' }],
  },
  'jaime-zapata': {
  name: 'Jaime Zapata',
@@ -50710,7 +50710,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Lynndie England', relationship: 'Soldier under Karpinski\'s command convicted at Abu Ghraib', href: '/entities/individuals/lynndie-england' }
  ],
 
- sources: [{ title: 'Wikipedia: Brig. Gen. Janis Karpinski', url: 'https://en.wikipedia.org/wiki/Brig._Gen._Janis_Karpinski' }],
+ sources: [{ title: 'Wikipedia: Brig. Gen. Janis Karpinski', url: 'https://en.wikipedia.org/wiki/Janis_Karpinski' }],
  },
  'jason-forge': {
  name: 'Jason Forge',
@@ -51081,7 +51081,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Tom Hayes', relationship: 'Fellow LIBOR manipulation figure', href: '/entities/individuals/tom-hayes' }
  ],
 
- sources: [{ title: 'Wikipedia: Jerry del Missier', url: 'https://en.wikipedia.org/wiki/Jerry_del_Missier' }],
+ sources: [{ title: 'Wikipedia: Jerry del Missier', url: 'https://www.google.com/search?q=Jerry%20del%20Missier' }],
  },
  'jerry-ensminger': {
  name: 'Jerry Ensminger',
@@ -51106,7 +51106,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Claudia Peterson', relationship: 'Fellow Camp Lejeune contamination activist', href: '/entities/individuals/claudia-peterson' }
  ],
 
- sources: [{ title: 'Wikipedia: Jerry Ensminger', url: 'https://en.wikipedia.org/wiki/Jerry_Ensminger' }],
+ sources: [{ title: 'Wikipedia: Jerry Ensminger', url: 'https://www.google.com/search?q=Jerry%20Ensminger' }],
  },
  'jerry-falwell': {
  name: 'Jerry Falwell',
@@ -51154,7 +51154,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Ida B. Wells', relationship: 'Fellow anti-lynching crusader', href: '/entities/individuals/ida-b-wells' }
  ],
 
- sources: [{ title: 'Wikipedia: Jesse Daniel Ames', url: 'https://en.wikipedia.org/wiki/Jesse_Daniel_Ames' }],
+ sources: [{ title: 'Wikipedia: Jesse Daniel Ames', url: 'https://www.google.com/search?q=Jesse%20Daniel%20Ames' }],
  },
  'jesse-gagliano': {
  name: 'Jesse Gagliano',
@@ -51178,7 +51178,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Tony Hayward', relationship: 'BP CEO during Deepwater Horizon disaster', href: '/entities/individuals/tony-hayward' }
  ],
 
- sources: [{ title: 'Wikipedia: Jesse Gagliano', url: 'https://en.wikipedia.org/wiki/Jesse_Gagliano' }],
+ sources: [{ title: 'Wikipedia: Jesse Gagliano', url: 'https://www.google.com/search?q=Jesse%20Gagliano' }],
  },
  'jesse-jackson': {
  name: 'Jesse Jackson',
@@ -51345,7 +51345,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Mike Williams', relationship: 'Transocean electronics technician who was on rig during explosion', href: '/entities/individuals/mike-williams' }
  ],
 
- sources: [{ title: 'Wikipedia: Jimmy Harrell', url: 'https://en.wikipedia.org/wiki/Jimmy_Harrell' }],
+ sources: [{ title: 'Wikipedia: Jimmy Harrell', url: 'https://www.google.com/search?q=Jimmy%20Harrell' }],
  },
  'joe-kelso': {
  name: 'Joe Kelso',
@@ -51368,7 +51368,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Robert Houghton', relationship: 'LAPD detective in RFK assassination investigation', href: '/entities/individuals/robert-houghton' }
  ],
 
- sources: [{ title: 'Wikipedia: Joe Kelso', url: 'https://en.wikipedia.org/wiki/Joe_Kelso' }],
+ sources: [{ title: 'Wikipedia: Joe Kelso', url: 'https://www.google.com/search?q=Joe%20Kelso' }],
  },
  'john-africa': {
  name: 'John Africa (Vincent Leaphart)',
@@ -51394,7 +51394,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Frank Powell', relationship: 'Officer who dropped the bomb on MOVE', href: '/entities/individuals/frank-powell' }
  ],
 
- sources: [{ title: 'Wikipedia: John Africa (Vincent Leaphart)', url: 'https://en.wikipedia.org/wiki/John_Africa_(Vincent_Leaphart)' }],
+ sources: [{ title: 'Wikipedia: John Africa (Vincent Leaphart)', url: 'https://en.wikipedia.org/wiki/John_Africa)' }],
  },
  'john-anjain': {
  name: 'John Anjain',
@@ -51418,7 +51418,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Lewis Strauss', relationship: 'AEC chairman who authorized Pacific nuclear tests', href: '/entities/individuals/lewis-strauss' }
  ],
 
- sources: [{ title: 'Wikipedia: John Anjain', url: 'https://en.wikipedia.org/wiki/John_Anjain' }],
+ sources: [{ title: 'Wikipedia: John Anjain', url: 'https://www.google.com/search?q=John%20Anjain' }],
  },
  'john-carreyrou': {
  name: 'John Carreyrou',
@@ -51468,7 +51468,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Susan Reverby', relationship: 'Historian who discovered Cutler\'s Guatemala experiments', href: '/entities/individuals/susan-reverby' }
  ],
 
- sources: [{ title: 'Wikipedia: Dr. John Charles Cutler', url: 'https://en.wikipedia.org/wiki/Dr._John_Charles_Cutler' }],
+ sources: [{ title: 'Wikipedia: Dr. John Charles Cutler', url: 'https://en.wikipedia.org/wiki/John_Charles_Cutler' }],
  },
  'john-chivington': {
  name: 'John Chivington',
@@ -51633,7 +51633,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Richard Henry Pratt', relationship: 'Carlisle boarding school era figure', href: '/entities/individuals/richard-henry-pratt' }
  ],
 
- sources: [{ title: 'Wikipedia: Chief John Gustafson', url: 'https://en.wikipedia.org/wiki/Chief_John_Gustafson' }],
+ sources: [{ title: 'Wikipedia: Chief John Gustafson', url: 'https://www.google.com/search?q=Chief%20John%20Gustafson' }],
  },
  'john-hannah': {
  name: 'John Hannah',
@@ -51783,7 +51783,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Thomas Parran', relationship: 'PHS colleague during Tuskegee/Guatemala experiments', href: '/entities/individuals/thomas-parran' }
  ],
 
- sources: [{ title: 'Wikipedia: Dr. John Mahoney', url: 'https://en.wikipedia.org/wiki/Dr._John_Mahoney' }],
+ sources: [{ title: 'Wikipedia: Dr. John Mahoney', url: 'https://en.wikipedia.org/wiki/John_Mahoney_(physician)' }],
  },
  'john-paul-stevens': {
  name: 'John Paul Stevens',
@@ -51879,7 +51879,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Jeff Bezos', relationship: 'Amazon executive under Bezos', href: '/entities/individuals/jeff-bezos' }
  ],
 
- sources: [{ title: 'Wikipedia: John Schoettler', url: 'https://en.wikipedia.org/wiki/John_Schoettler' }],
+ sources: [{ title: 'Wikipedia: John Schoettler', url: 'https://www.google.com/search?q=John%20Schoettler' }],
  },
  'john-sperling': {
  name: 'John Sperling',
@@ -52119,7 +52119,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Mandrel Stuart', relationship: 'Fellow civil asset forfeiture victim', href: '/entities/individuals/mandrel-stuart' }
  ],
 
- sources: [{ title: 'Wikipedia: Joseph Rivers', url: 'https://en.wikipedia.org/wiki/Joseph_Rivers' }],
+ sources: [{ title: 'Wikipedia: Joseph Rivers', url: 'https://www.google.com/search?q=Joseph%20Rivers' }],
  },
  'joseph-weekley': {
  name: 'Joseph Weekley',
@@ -52142,7 +52142,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Aiyana Stanley-Jones', relationship: 'Shot and killed 7-year-old Aiyana in botched raid', href: '/entities/individuals/aiyana-stanley-jones' }
  ],
 
- sources: [{ title: 'Wikipedia: Joseph Weekley', url: 'https://en.wikipedia.org/wiki/Joseph_Weekley' }],
+ sources: [{ title: 'Wikipedia: Joseph Weekley', url: 'https://www.google.com/search?q=Joseph%20Weekley' }],
  },
  'joseph-welch': {
  name: 'Joseph Welch',
@@ -52215,7 +52215,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'John Charles Cutler', relationship: 'Worked with Cutler on Guatemala STD experiments', href: '/entities/individuals/john-charles-cutler' }
  ],
 
- sources: [{ title: 'Wikipedia: Dr. Juan Funes', url: 'https://en.wikipedia.org/wiki/Dr._Juan_Funes' }],
+ sources: [{ title: 'Wikipedia: Dr. Juan Funes', url: 'https://en.wikipedia.org/wiki/Juan_Funes' }],
  },
  'juan-mendez': {
  name: 'Juan M\u00E9ndez',
@@ -52238,7 +52238,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Romeo Dallaire', relationship: 'Fellow human rights and international justice figure', href: '/entities/individuals/romeo-dallaire' }
  ],
 
- sources: [{ title: 'Wikipedia: Juan M\u00E9ndez', url: 'https://en.wikipedia.org/wiki/Juan_M\u00E9ndez' }],
+ sources: [{ title: 'Wikipedia: Juan M\u00E9ndez', url: 'https://en.wikipedia.org/wiki/Juan_E._M%C3%A9ndez' }],
  },
  'juana-majel-dixon': {
  name: 'Juana Majel-Dixon',
@@ -52261,7 +52261,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Dave Archambault II', relationship: 'Fellow Native American rights leader', href: '/entities/individuals/dave-archambault-ii' }
  ],
 
- sources: [{ title: 'Wikipedia: Juana Majel-Dixon', url: 'https://en.wikipedia.org/wiki/Juana_Majel-Dixon' }],
+ sources: [{ title: 'Wikipedia: Juana Majel-Dixon', url: 'https://www.google.com/search?q=Juana%20Majel-Dixon' }],
  },
  'judith-miller': {
  name: 'Judith Miller',
@@ -52527,7 +52527,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Paul Schrade', relationship: 'Fellow RFK shooting witness and victim', href: '/entities/individuals/paul-schrade' }
  ],
 
- sources: [{ title: 'Wikipedia: Karl Uecker', url: 'https://en.wikipedia.org/wiki/Karl_Uecker' }],
+ sources: [{ title: 'Wikipedia: Karl Uecker', url: 'https://www.google.com/search?q=Karl%20Uecker' }],
  },
  'katharine-graham': {
  name: 'Katharine Graham',
@@ -52599,7 +52599,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Wilson Goode', relationship: 'Philadelphia mayor who ordered bombing that killed MOVE members', href: '/entities/individuals/wilson-goode' }
  ],
 
- sources: [{ title: 'Wikipedia: Katricia Dotson Africa', url: 'https://en.wikipedia.org/wiki/Katricia_Dotson_Africa' }],
+ sources: [{ title: 'Wikipedia: Katricia Dotson Africa', url: 'https://www.google.com/search?q=Katricia%20Dotson%20Africa' }],
  },
  'keeanga-yamahtta-taylor': {
  name: 'Keeanga-Yamahtta Taylor',
@@ -52858,7 +52858,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Malcolm X', relationship: 'Wrongfully convicted of Malcolm X\'s assassination for decades', href: '/entities/individuals/malcolm-x' }
  ],
 
- sources: [{ title: 'Wikipedia: Khalil Islam (Thomas 15X Johnson)', url: 'https://en.wikipedia.org/wiki/Khalil_Islam_(Thomas_15X_Johnson)' }],
+ sources: [{ title: 'Wikipedia: Khalil Islam (Thomas 15X Johnson)', url: 'https://en.wikipedia.org/wiki/Khalil_Islam)' }],
  },
  'kirk-bloodsworth': {
  name: 'Kirk Bloodsworth',
@@ -52952,7 +52952,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Joy Buolamwini', relationship: 'Fellow algorithmic accountability researcher', href: '/entities/individuals/joy-buolamwini' }
  ],
 
- sources: [{ title: 'Wikipedia: Kristian Lum', url: 'https://en.wikipedia.org/wiki/Kristian_Lum' }],
+ sources: [{ title: 'Wikipedia: Kristian Lum', url: 'https://www.google.com/search?q=Kristian%20Lum' }],
  },
  'kurt-blome': {
  name: 'Kurt Blome',
@@ -53003,7 +53003,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Robert Kaluza', relationship: 'Fellow BP employee charged in Deepwater Horizon disaster', href: '/entities/individuals/robert-kaluza' }
  ],
 
- sources: [{ title: 'Wikipedia: Kurt Mix', url: 'https://en.wikipedia.org/wiki/Kurt_Mix' }],
+ sources: [{ title: 'Wikipedia: Kurt Mix', url: 'https://www.google.com/search?q=Kurt%20Mix' }],
  },
  'kyle-kirchmeier': {
  name: 'Morton County Sheriff (Kyle Kirchmeier)',
@@ -53027,7 +53027,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Chase Iron Eyes', relationship: 'Activist arrested by Kirchmeier\'s deputies at Standing Rock', href: '/entities/individuals/chase-iron-eyes' }
  ],
 
- sources: [{ title: 'Wikipedia: Morton County Sheriff (Kyle Kirchmeier)', url: 'https://en.wikipedia.org/wiki/Morton_County_Sheriff_(Kyle_Kirchmeier)' }],
+ sources: [{ title: 'Wikipedia: Morton County Sheriff (Kyle Kirchmeier)', url: 'https://en.wikipedia.org/wiki/Morton_County,_North_Dakota)' }],
  },
  'kyle-thompson': {
  name: 'Kyle Thompson',
@@ -53170,7 +53170,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Sirhan Sirhan', relationship: 'Defense attorney who represented Sirhan for decades', href: '/entities/individuals/sirhan-sirhan' }
  ],
 
- sources: [{ title: 'Wikipedia: Laurence Teeter', url: 'https://en.wikipedia.org/wiki/Laurence_Teeter' }],
+ sources: [{ title: 'Wikipedia: Laurence Teeter', url: 'https://www.google.com/search?q=Laurence%20Teeter' }],
  },
  'lee-atwater': {
  name: 'Lee Atwater',
@@ -53416,7 +53416,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Hughes Van Ellis', relationship: 'Fellow elderly Tulsa Massacre descendant', href: '/entities/individuals/hughes-van-ellis' }
  ],
 
- sources: [{ title: 'Wikipedia: Lessie Benningfield Randle', url: 'https://en.wikipedia.org/wiki/Lessie_Benningfield_Randle' }],
+ sources: [{ title: 'Wikipedia: Lessie Benningfield Randle', url: 'https://www.google.com/search?q=Lessie%20Benningfield%20Randle' }],
  },
  'lewis-strauss': {
  name: 'Lewis Strauss',
@@ -53488,7 +53488,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Mary Kathryn Nagle', relationship: 'Fellow advocate for Missing and Murdered Indigenous Women', href: '/entities/individuals/mary-kathryn-nagle' }
  ],
 
- sources: [{ title: 'Wikipedia: Lisa Brunner', url: 'https://en.wikipedia.org/wiki/Lisa_Brunner' }],
+ sources: [{ title: 'Wikipedia: Lisa Brunner', url: 'https://www.google.com/search?q=Lisa%20Brunner' }],
  },
  'lisa-nelson': {
  name: 'Lisa Nelson',
@@ -53535,7 +53535,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Karen Ignagni', relationship: 'Health insurance lobby head whose industry Fowler protected', href: '/entities/individuals/karen-ignagni' }
  ],
 
- sources: [{ title: 'Wikipedia: Liz Fowler', url: 'https://en.wikipedia.org/wiki/Liz_Fowler' }],
+ sources: [{ title: 'Wikipedia: Liz Fowler', url: 'https://www.google.com/search?q=Liz%20Fowler' }],
  },
  'lloyd-jowers': {
  name: 'Lloyd Jowers',
@@ -53780,7 +53780,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Dawn Wooten', relationship: 'ICE nurse who blew whistle on Amin\'s forced hysterectomies', href: '/entities/individuals/dawn-wooten' }
  ],
 
- sources: [{ title: 'Wikipedia: Mahendra Amin', url: 'https://en.wikipedia.org/wiki/Mahendra_Amin' }],
+ sources: [{ title: 'Wikipedia: Mahendra Amin', url: 'https://www.google.com/search?q=Mahendra%20Amin' }],
  },
  'malcolm-x': {
  name: 'Malcolm X (El-Hajj Malik El-Shabazz)',
@@ -53804,7 +53804,7 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
  ],
  timeline: [{ date: '1965', event: 'documented in ArkHive investigations for their role as Civil rights leader assassinated February 21, 1965 at Audubon Ballroom, Manhattan.' }],
- sources: [{ title: 'Wikipedia: Malcolm X (El-Hajj Malik El-Shabazz)', url: 'https://en.wikipedia.org/wiki/Malcolm_X_(El-Hajj_Malik_El-Shabazz)' }],
+ sources: [{ title: 'Wikipedia: Malcolm X (El-Hajj Malik El-Shabazz)', url: 'https://en.wikipedia.org/wiki/Malcolm_X)' }],
  },
  'mamie-till-mobley': {
  name: 'Mamie Till-Mobley',
@@ -53877,7 +53877,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Maxwell Thurman', relationship: 'Fellow commander during Panama invasion', href: '/entities/individuals/maxwell-thurman' }
  ],
 
- sources: [{ title: 'Wikipedia: General Marc Cisneros', url: 'https://en.wikipedia.org/wiki/General_Marc_Cisneros' }],
+ sources: [{ title: 'Wikipedia: General Marc Cisneros', url: 'https://en.wikipedia.org/wiki/Marc_Cisneros' }],
  },
  'marc-edwards': {
  name: 'Marc Edwards',
@@ -54387,7 +54387,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Efrain Rios Montt', relationship: 'Intelligence chief under Rios Montt during genocide', href: '/entities/individuals/efrain-rios-montt' }
  ],
 
- sources: [{ title: 'Wikipedia: Mauricio Rodríguez Sánchez', url: 'https://en.wikipedia.org/wiki/Mauricio_Rodríguez_Sánchez' }],
+ sources: [{ title: 'Wikipedia: Mauricio Rodríguez Sánchez', url: 'https://en.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt#Trial' }],
  },
  'max-baucus': {
  name: 'Max Baucus',
@@ -54437,7 +54437,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Marc Cisneros', relationship: 'Fellow commander during US invasion of Panama', href: '/entities/individuals/marc-cisneros' }
  ],
 
- sources: [{ title: 'Wikipedia: General Maxwell Thurman', url: 'https://en.wikipedia.org/wiki/General_Maxwell_Thurman' }],
+ sources: [{ title: 'Wikipedia: General Maxwell Thurman', url: 'https://en.wikipedia.org/wiki/Maxwell_R._Thurman' }],
  },
  'mcgeorge-bundy': {
  name: 'McGeorge Bundy',
@@ -54585,7 +54585,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Frank Powell', relationship: 'MOVE bombing figure (different Michael Powell connected to police)', href: '/entities/individuals/frank-powell' }
  ],
 
- sources: [{ title: 'Wikipedia: Michael D. Powell', url: 'https://en.wikipedia.org/wiki/Michael_D._Powell' }],
+ sources: [{ title: 'Wikipedia: Michael D. Powell', url: 'https://www.google.com/search?q=Michael%20D%20Powell' }],
  },
  'michael-regan': {
  name: 'Michael Regan',
@@ -54877,7 +54877,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Malcolm X', relationship: 'Wrongfully convicted of assassinating Malcolm X; exonerated 2021', href: '/entities/individuals/malcolm-x' }
  ],
 
- sources: [{ title: 'Wikipedia: Muhammad Abdul Aziz (Norman 3X Butler)', url: 'https://en.wikipedia.org/wiki/Muhammad_Abdul_Aziz_(Norman_3X_Butler)' }],
+ sources: [{ title: 'Wikipedia: Muhammad Abdul Aziz (Norman 3X Butler)', url: 'https://en.wikipedia.org/wiki/Muhammad_Abdul_Aziz)' }],
  },
  'mujahid-abdul-halim': {
  name: 'Mujahid Abdul Halim (Talmadge Hayer)',
@@ -54901,7 +54901,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Muhammad Abdul Aziz', relationship: 'Wrongfully convicted alongside Halim for Malcolm X murder', href: '/entities/individuals/muhammad-abdul-aziz' }
  ],
 
- sources: [{ title: 'Wikipedia: Mujahid Abdul Halim (Talmadge Hayer)', url: 'https://en.wikipedia.org/wiki/Mujahid_Abdul_Halim_(Talmadge_Hayer)' }],
+ sources: [{ title: 'Wikipedia: Mujahid Abdul Halim (Talmadge Hayer)', url: 'https://en.wikipedia.org/wiki/Mujahid_Abdul_Halim)' }],
  },
  'naomi-oreskes': {
  name: 'Naomi Oreskes',
@@ -54975,7 +54975,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Rashida Richardson', relationship: 'Fellow digital rights and surveillance accountability advocate', href: '/entities/individuals/rashida-richardson' }
  ],
 
- sources: [{ title: 'Wikipedia: Nathan Wessler', url: 'https://en.wikipedia.org/wiki/Nathan_Wessler' }],
+ sources: [{ title: 'Wikipedia: Nathan Wessler', url: 'https://www.google.com/search?q=Nathan%20Wessler' }],
  },
  'nawar-al-awlaki': {
  name: 'Nawar al-Awlaki',
@@ -55166,7 +55166,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Ton That Tung', relationship: 'Fellow Vietnamese documenting Agent Orange effects', href: '/entities/individuals/ton-that-tung' }
  ],
 
- sources: [{ title: 'Wikipedia: Nguyen Viet Nhan', url: 'https://en.wikipedia.org/wiki/Nguyen_Viet_Nhan' }],
+ sources: [{ title: 'Wikipedia: Nguyen Viet Nhan', url: 'https://www.google.com/search?q=Nguyen%20Viet%20Nhan' }],
  },
  'nicolas-sarkozy': {
  name: 'Nicolas Sarkozy',
@@ -55214,7 +55214,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Stephen Hemsley', relationship: 'UnitedHealth CEO whose company denied affordable insulin', href: '/entities/individuals/stephen-hemsley' }
  ],
 
- sources: [{ title: 'Wikipedia: Nicole Smith-Holt', url: 'https://en.wikipedia.org/wiki/Nicole_Smith-Holt' }],
+ sources: [{ title: 'Wikipedia: Nicole Smith-Holt', url: 'https://www.google.com/search?q=Nicole%20Smith-Holt' }],
  },
  'nijeer-parks': {
  name: 'Nijeer Parks',
@@ -55238,7 +55238,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Joy Buolamwini', relationship: 'AI researcher documenting facial recognition bias that harmed Parks', href: '/entities/individuals/joy-buolamwini' }
  ],
 
- sources: [{ title: 'Wikipedia: Nijeer Parks', url: 'https://en.wikipedia.org/wiki/Nijeer_Parks' }],
+ sources: [{ title: 'Wikipedia: Nijeer Parks', url: 'https://www.google.com/search?q=Nijeer%20Parks' }],
  },
  'nishad-singh': {
  name: 'Nishad Singh',
@@ -55263,7 +55263,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Gary Wang', relationship: 'Fellow FTX co-founder who cooperated', href: '/entities/individuals/gary-wang' }
  ],
 
- sources: [{ title: 'Wikipedia: Nishad Singh', url: 'https://en.wikipedia.org/wiki/Nishad_Singh' }],
+ sources: [{ title: 'Wikipedia: Nishad Singh', url: 'https://www.google.com/search?q=Nishad%20Singh' }],
  },
  'norman-schwarzkopf': {
  name: 'General Norman Schwarzkopf',
@@ -55287,7 +55287,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Colin Powell', relationship: 'Joint Chiefs Chairman during Schwarzkopf\'s Gulf War command', href: '/entities/individuals/colin-powell' }
  ],
 
- sources: [{ title: 'Wikipedia: General Norman Schwarzkopf', url: 'https://en.wikipedia.org/wiki/General_Norman_Schwarzkopf' }],
+ sources: [{ title: 'Wikipedia: General Norman Schwarzkopf', url: 'https://en.wikipedia.org/wiki/Norman_Schwarzkopf_Jr.' }],
  },
  'norodom-sihanouk': {
  name: 'Prince Norodom Sihanouk',
@@ -55437,7 +55437,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Stafford Warren', relationship: 'Manhattan Project radiologist connected to nuclear testing', href: '/entities/individuals/stafford-warren' }
  ],
 
- sources: [{ title: 'Wikipedia: Orville Kelly', url: 'https://en.wikipedia.org/wiki/Orville_Kelly' }],
+ sources: [{ title: 'Wikipedia: Orville Kelly', url: 'https://www.google.com/search?q=Orville%20Kelly' }],
  },
  'oscar-danilo-blandon': {
  name: 'Oscar Danilo Bland\u00F3n',
@@ -55462,7 +55462,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Oliver North', relationship: 'Iran-Contra figure connected to drug pipeline', href: '/entities/individuals/oliver-north' }
  ],
 
- sources: [{ title: 'Wikipedia: Oscar Danilo Bland\u00F3n', url: 'https://en.wikipedia.org/wiki/Oscar_Danilo_Bland\u00F3n' }],
+ sources: [{ title: 'Wikipedia: Oscar Danilo Bland\u00F3n', url: 'https://en.wikipedia.org/wiki/Oscar_Danilo_Bland%C3%B3n' }],
  },
  'oscar-romero': {
  name: 'Óscar Romero',
@@ -55535,7 +55535,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Mandrel Stuart', relationship: 'Fellow civil asset forfeiture victim', href: '/entities/individuals/mandrel-stuart' }
  ],
 
- sources: [{ title: 'Wikipedia: Pamela Foster', url: 'https://en.wikipedia.org/wiki/Pamela_Foster' }],
+ sources: [{ title: 'Wikipedia: Pamela Foster', url: 'https://www.google.com/search?q=Pamela%20Foster' }],
  },
  'paul-goldenheim': {
  name: 'Paul Goldenheim',
@@ -55560,7 +55560,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Richard Sackler', relationship: 'Sackler family head behind OxyContin marketing', href: '/entities/individuals/richard-sackler' }
  ],
 
- sources: [{ title: 'Wikipedia: Paul Goldenheim', url: 'https://en.wikipedia.org/wiki/Paul_Goldenheim' }],
+ sources: [{ title: 'Wikipedia: Paul Goldenheim', url: 'https://www.google.com/search?q=Paul%20Goldenheim' }],
  },
  'paul-kagame': {
  name: 'Paul Kagame',
@@ -55705,7 +55705,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Thomas Silverstein', relationship: 'Prisoner held in extreme solitary like Pelican Bay SHU inmates', href: '/entities/individuals/thomas-silverstein' }
  ],
 
- sources: [{ title: 'Wikipedia: Pelican Bay Prisoners', url: 'https://en.wikipedia.org/wiki/Pelican_Bay_Prisoners' }],
+ sources: [{ title: 'Wikipedia: Pelican Bay Prisoners', url: 'https://en.wikipedia.org/wiki/Pelican_Bay_State_Prison' }],
  },
  'pete-arredondo': {
  name: 'Pete Arredondo',
@@ -55949,7 +55949,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Joy Buolamwini', relationship: 'AI researcher who documented facial recognition bias', href: '/entities/individuals/joy-buolamwini' }
  ],
 
- sources: [{ title: 'Wikipedia: Porcha Woodruff', url: 'https://en.wikipedia.org/wiki/Porcha_Woodruff' }],
+ sources: [{ title: 'Wikipedia: Porcha Woodruff', url: 'https://www.google.com/search?q=Porcha%20Woodruff' }],
  },
  'prudence-bushnell': {
  name: 'Prudence Bushnell',
@@ -56240,7 +56240,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Thomas Parran', relationship: 'Fellow PHS figure connected to unethical experiments', href: '/entities/individuals/thomas-parran' }
  ],
 
- sources: [{ title: 'Wikipedia: Dr. R.C. Arnold', url: 'https://en.wikipedia.org/wiki/Dr._R.C._Arnold' }],
+ sources: [{ title: 'Wikipedia: Dr. R.C. Arnold', url: 'https://en.wikipedia.org/wiki/R._C._Arnold' }],
  },
  'rebecca-mark': {
  name: 'Rebecca Mark',
@@ -56288,7 +56288,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Kyle Kirchmeier', relationship: 'Sheriff whose deputies arrested Fallis', href: '/entities/individuals/kyle-kirchmeier' }
  ],
 
- sources: [{ title: 'Wikipedia: Red Fawn Fallis', url: 'https://en.wikipedia.org/wiki/Red_Fawn_Fallis' }],
+ sources: [{ title: 'Wikipedia: Red Fawn Fallis', url: 'https://www.google.com/search?q=Red%20Fawn%20Fallis' }],
  },
  'reinhard-gehlen': {
  name: 'Reinhard Gehlen',
@@ -56408,7 +56408,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Thomas Stephens', relationship: 'Fellow tobacco industry figure', href: '/entities/individuals/thomas-stephens' }
  ],
 
- sources: [{ title: 'Wikipedia: Richard Dorenkamp', url: 'https://en.wikipedia.org/wiki/Richard_Dorenkamp' }],
+ sources: [{ title: 'Wikipedia: Richard Dorenkamp', url: 'https://www.google.com/search?q=Richard%20Dorenkamp' }],
  },
  'richard-henry-pratt': {
  name: 'Richard Henry Pratt',
@@ -56597,7 +56597,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Robin Vos', relationship: 'Wisconsin political figure', href: '/entities/individuals/robin-vos' }
  ],
 
- sources: [{ title: 'Wikipedia: R.J. Lehmann', url: 'https://en.wikipedia.org/wiki/R.J._Lehmann' }],
+ sources: [{ title: 'Wikipedia: R.J. Lehmann', url: 'https://www.google.com/search?q=RJ%20Lehmann' }],
  },
  'rob-bilott': {
  name: 'Rob Bilott',
@@ -56769,7 +56769,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Richard Sackler', relationship: 'Fellow pharmaceutical industry exec facing opioid scrutiny', href: '/entities/individuals/richard-sackler' }
  ],
 
- sources: [{ title: 'Wikipedia: Robert Hugin', url: 'https://en.wikipedia.org/wiki/Robert_Hugin' }],
+ sources: [{ title: 'Wikipedia: Robert Hugin', url: 'https://www.google.com/search?q=Robert%20Hugin' }],
  },
  'robert-kaluza': {
  name: 'Robert Kaluza',
@@ -56793,7 +56793,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Kurt Mix', relationship: 'Fellow BP employee charged in spill cover-up', href: '/entities/individuals/kurt-mix' }
  ],
 
- sources: [{ title: 'Wikipedia: Robert Kaluza', url: 'https://en.wikipedia.org/wiki/Robert_Kaluza' }],
+ sources: [{ title: 'Wikipedia: Robert Kaluza', url: 'https://www.google.com/search?q=Robert%20Kaluza' }],
  },
  'robert-kehoe': {
  name: 'Robert Kehoe',
@@ -56893,7 +56893,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Marshall Green', relationship: 'US Ambassador who directed Martens during Indonesian massacre', href: '/entities/individuals/marshall-green' }
  ],
 
- sources: [{ title: 'Wikipedia: Robert J. Martens', url: 'https://en.wikipedia.org/wiki/Robert_J._Martens' }],
+ sources: [{ title: 'Wikipedia: Robert J. Martens', url: 'https://www.google.com/search?q=Robert%20J%20Martens' }],
  },
  'robert-mcfarlane': {
  name: 'Robert McFarlane',
@@ -57105,7 +57105,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Elliott Abrams', relationship: 'Reagan official who downplayed D\'Aubuisson\'s death squads', href: '/entities/individuals/elliott-abrams' }
  ],
 
- sources: [{ title: 'Wikipedia: Roberto D', url: 'https://en.wikipedia.org/wiki/Roberto_D' }],
+ sources: [{ title: 'Wikipedia: Roberto D', url: 'https://en.wikipedia.org/wiki/Roberto_De_Vido' }],
  },
  'robin-arkley-ii': {
  name: 'Robin Arkley II',
@@ -57128,7 +57128,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Thomas Hofeller', relationship: 'Republican donor connected to conservative political strategy', href: '/entities/individuals/thomas-hofeller' }
  ],
 
- sources: [{ title: 'Wikipedia: Robin Arkley II', url: 'https://en.wikipedia.org/wiki/Robin_Arkley_II' }],
+ sources: [{ title: 'Wikipedia: Robin Arkley II', url: 'https://www.google.com/search?q=Robin%20Arkley%20II' }],
  },
  'robin-vos': {
  name: 'Robin Vos',
@@ -57348,7 +57348,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'William O\'Neal', relationship: 'FBI informant Mitchell handled to infiltrate Black Panthers', href: '/entities/individuals/william-oneal' }
  ],
 
- sources: [{ title: 'Wikipedia: Roy Martin Mitchell', url: 'https://en.wikipedia.org/wiki/Roy_Martin_Mitchell' }],
+ sources: [{ title: 'Wikipedia: Roy Martin Mitchell', url: 'https://www.google.com/search?q=Roy%20Martin%20Mitchell' }],
  },
  'rufina-amaya': {
  name: 'Rufina Amaya',
@@ -57885,7 +57885,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Richard Rothstein', relationship: 'Housing historian who documented impact of restrictive covenants like in Shelley case', href: '/entities/individuals/richard-rothstein' }
  ],
 
- sources: [{ title: 'Wikipedia: Shelley v. Kraemer Plaintiffs', url: 'https://en.wikipedia.org/wiki/Shelley_v._Kraemer_Plaintiffs' }],
+ sources: [{ title: 'Wikipedia: Shelley v. Kraemer Plaintiffs', url: 'https://en.wikipedia.org/wiki/Shelley_v._Kraemer' }],
  },
  'sherrilyn-ifill': {
  name: 'Sherrilyn Ifill',
@@ -58130,7 +58130,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Stanley McChrystal', relationship: 'Fellow military commander in Middle East/Africa operations', href: '/entities/individuals/stanley-mcchrystal' }
  ],
 
- sources: [{ title: 'Wikipedia: General Stephen Townsend', url: 'https://en.wikipedia.org/wiki/General_Stephen_Townsend' }],
+ sources: [{ title: 'Wikipedia: General Stephen Townsend', url: 'https://en.wikipedia.org/wiki/Stephen_J._Townsend' }],
  },
  'stephen-ubl': {
  name: 'Stephen Ubl',
@@ -58223,7 +58223,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Thomas Parran', relationship: 'Connected to Public Health Service during unethical research', href: '/entities/individuals/thomas-parran' }
  ],
 
- sources: [{ title: 'Wikipedia: Stuart Johnson', url: 'https://en.wikipedia.org/wiki/Stuart_Johnson' }],
+ sources: [{ title: 'Wikipedia: Stuart Johnson', url: 'https://www.google.com/search?q=Stuart%20Johnson' }],
  },
  'stuart-symington': {
  name: 'Stuart Symington',
@@ -58515,7 +58515,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Robert Crants', relationship: 'Fellow CCA private prison founder', href: '/entities/individuals/robert-crants' }
  ],
 
- sources: [{ title: 'Wikipedia: Terrell Don Hutto', url: 'https://en.wikipedia.org/wiki/Terrell_Don_Hutto' }],
+ sources: [{ title: 'Wikipedia: Terrell Don Hutto', url: 'https://www.google.com/search?q=Terrell%20Don%20Hutto' }],
  },
  'terry-dehko': {
  name: 'Terry Dehko',
@@ -58538,7 +58538,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Mandrel Stuart', relationship: 'Fellow civil asset forfeiture victim', href: '/entities/individuals/mandrel-stuart' }
  ],
 
- sources: [{ title: 'Wikipedia: Terry Dehko', url: 'https://en.wikipedia.org/wiki/Terry_Dehko' }],
+ sources: [{ title: 'Wikipedia: Terry Dehko', url: 'https://www.google.com/search?q=Terry%20Dehko' }],
  },
  'terry-farr': {
  name: 'Terry Farr',
@@ -58562,7 +58562,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Philippe Moryoussef', relationship: 'Fellow LIBOR manipulation participant', href: '/entities/individuals/philippe-moryoussef' }
  ],
 
- sources: [{ title: 'Wikipedia: Terry Farr', url: 'https://en.wikipedia.org/wiki/Terry_Farr' }],
+ sources: [{ title: 'Wikipedia: Terry Farr', url: 'https://www.google.com/search?q=Terry%20Farr' }],
  },
  'thad-allen': {
  name: 'Thad Allen',
@@ -58611,7 +58611,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Robert F. Kennedy', relationship: 'Was guarding RFK when assassination occurred', href: '/entities/individuals/robert-f-kennedy' }
  ],
 
- sources: [{ title: 'Wikipedia: Thane Eugene Cesar', url: 'https://en.wikipedia.org/wiki/Thane_Eugene_Cesar' }],
+ sources: [{ title: 'Wikipedia: Thane Eugene Cesar', url: 'https://www.google.com/search?q=Thane%20Eugene%20Cesar' }],
  },
  'theodore-bilbo': {
  name: 'Theodore Bilbo',
@@ -58968,7 +58968,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Geoffrey Miller', relationship: 'Miller ordered Pappas to"Gitmo-ize"Abu Ghraib', href: '/entities/individuals/geoffrey-miller' }
  ],
 
- sources: [{ title: 'Wikipedia: Col. Thomas Pappas', url: 'https://en.wikipedia.org/wiki/Col._Thomas_Pappas' }],
+ sources: [{ title: 'Wikipedia: Col. Thomas Pappas', url: 'https://en.wikipedia.org/wiki/Thomas_Pappas_(general)' }],
  },
  'thomas-parran': {
  name: 'Surgeon General Thomas Parran',
@@ -58995,7 +58995,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Susan Reverby', relationship: 'Historian who uncovered Parran-era experiments', href: '/entities/individuals/susan-reverby' }
  ],
 
- sources: [{ title: 'Wikipedia: Surgeon General Thomas Parran', url: 'https://en.wikipedia.org/wiki/Surgeon_General_Thomas_Parran' }],
+ sources: [{ title: 'Wikipedia: Surgeon General Thomas Parran', url: 'https://en.wikipedia.org/wiki/Thomas_Parran_Jr.' }],
  },
  'thomas-silverstein': {
  name: 'Thomas Silverstein',
@@ -59090,7 +59090,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Stephen Townsend', relationship: 'Fellow AFRICOM commander', href: '/entities/individuals/stephen-townsend' }
  ],
 
- sources: [{ title: 'Wikipedia: General Thomas Waldhauser', url: 'https://en.wikipedia.org/wiki/General_Thomas_Waldhauser' }],
+ sources: [{ title: 'Wikipedia: General Thomas Waldhauser', url: 'https://en.wikipedia.org/wiki/Thomas_D._Waldhauser' }],
  },
  'tim-moore': {
  name: 'Tim Moore',
@@ -59405,7 +59405,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Nguyen Viet Nhan', relationship: 'Fellow Vietnamese documenting Agent Orange health effects', href: '/entities/individuals/nguyen-viet-nhan' }
  ],
 
- sources: [{ title: 'Wikipedia: Ton That Tung', url: 'https://en.wikipedia.org/wiki/Ton_That_Tung' }],
+ sources: [{ title: 'Wikipedia: Ton That Tung', url: 'https://www.google.com/search?q=Ton%20That%20Tung' }],
  },
  'tree-africa': {
  name: 'Tree Africa',
@@ -59429,7 +59429,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'John Africa', relationship: 'MOVE founder', href: '/entities/individuals/john-africa' }
  ],
 
- sources: [{ title: 'Wikipedia: Tree Africa', url: 'https://en.wikipedia.org/wiki/Tree_Africa' }],
+ sources: [{ title: 'Wikipedia: Tree Africa', url: 'https://www.google.com/search?q=Tree%20Africa' }],
  },
  'tyler-shultz': {
  name: 'Tyler Shultz',
@@ -59554,7 +59554,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'C. Everett Koop', relationship: 'Surgeon General whose anti-tobacco efforts DeNoble\'s research supported', href: '/entities/individuals/c-everett-koop' }
  ],
 
- sources: [{ title: 'Wikipedia: Victor DeNoble', url: 'https://en.wikipedia.org/wiki/Victor_DeNoble' }],
+ sources: [{ title: 'Wikipedia: Victor DeNoble', url: 'https://www.google.com/search?q=Victor%20DeNoble' }],
  },
  'victor-hugo-green': {
  name: 'The Green Book Publishers',
@@ -59577,7 +59577,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Robert Moses', relationship: 'Published Green Book to help Black travelers navigate Moses\' segregated America', href: '/entities/individuals/robert-moses' }
  ],
 
- sources: [{ title: 'Wikipedia: The Green Book Publishers', url: 'https://en.wikipedia.org/wiki/The_Green_Book_Publishers' }],
+ sources: [{ title: 'Wikipedia: The Green Book Publishers', url: 'https://en.wikipedia.org/wiki/The_Negro_Motorist_Green_Book' }],
  },
  'vincenzo-vinciguerra': {
  name: 'Vincenzo Vinciguerra',
@@ -59849,7 +59849,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Robert Bilott', relationship: 'Attorney Tennant contacted about poisoned cattle', href: '/entities/individuals/robert-bilott' }
  ],
 
- sources: [{ title: 'Wikipedia: Wilbur Tennant', url: 'https://en.wikipedia.org/wiki/Wilbur_Tennant' }],
+ sources: [{ title: 'Wikipedia: Wilbur Tennant', url: 'https://www.google.com/search?q=Wilbur%20Tennant' }],
  },
  'william-colby': {
  name: 'William Colby',
@@ -59901,7 +59901,7 @@ const individualData: Record<string, IndividualProfile> = {
  { name: 'Thomas Parran', relationship: 'PHS official during unethical medical experimentation era', href: '/entities/individuals/thomas-parran' }
  ],
 
- sources: [{ title: 'Wikipedia: William H. Craig', url: 'https://en.wikipedia.org/wiki/William_H._Craig' }],
+ sources: [{ title: 'Wikipedia: William H. Craig', url: 'https://www.google.com/search?q=William%20H%20Craig' }],
  },
  'william-degan': {
  name: 'William Degan',
@@ -64489,7 +64489,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'WSJ reports on meetings and financial transfer' },
  ],
  sources: [
- { title: 'WSJ: Chomsky-Epstein Meetings', url: 'https://www.wsj.com/us-news/law/noam-chomsky-jeffrey-epstein-meetings-992a93d0', date: '2024' },
+ { title: 'WSJ: Chomsky-Epstein Meetings', url: 'https://web.archive.org/web/2024/https://www.wsj.com/us-news/law/noam-chomsky-jeffrey-epstein-meetings-992a93d0', date: '2024' },
  ],
  },
  'murray-gell-mann': {
@@ -64716,7 +64716,7 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
  ],
  timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
- sources: [{ title: 'Wikipedia: Katinka Matson', url: 'https://en.wikipedia.org/wiki/Katinka_Matson' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
+ sources: [{ title: 'Wikipedia: Katinka Matson', url: 'https://www.google.com/search?q=Katinka%20Matson' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
  },
  'katie-couric': {
  name: 'Katie Couric',
@@ -65008,7 +65008,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: '2006', event: 'Resisted serious prosecution of Epstein' },
  ],
- sources: [{ title: 'Wikipedia: Barry Krischer', url: 'https://en.wikipedia.org/wiki/Barry_Krischer' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ sources: [{ title: 'Wikipedia: Barry Krischer', url: 'https://www.google.com/search?q=Barry%20Krischer' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
  },
  'geoffrey-berman': {
  name: 'Geoffrey Berman',
@@ -65285,7 +65285,7 @@ const individualData: Record<string, IndividualProfile> = {
  timeline: [
  { date: '2019 Aug 16', event: 'Ruled Epstein death suicide by hanging' },
  ],
- sources: [{ title: 'Wikipedia: Dr. Barbara Sampson', url: 'https://en.wikipedia.org/wiki/Dr._Barbara_Sampson' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
+ sources: [{ title: 'Wikipedia: Dr. Barbara Sampson', url: 'https://en.wikipedia.org/wiki/Barbara_Sampson' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
  },
  'sarah-ransome': {
  name: 'Sarah Ransome',
@@ -65350,7 +65350,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2000s', event: 'Worked on Lolita Express' },
  { date: '2019', event: 'Spoke publicly about experience' },
  ],
- sources: [{ title: 'Wikipedia: Chauntae Davies', url: 'https://en.wikipedia.org/wiki/Chauntae_Davies' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
+ sources: [{ title: 'Wikipedia: Chauntae Davies', url: 'https://www.google.com/search?q=Chauntae%20Davies' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
  'teresa-helm': {
  name: 'Teresa Helm',
@@ -65403,7 +65403,7 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
  ],
  timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
- sources: [{ title: 'Wikipedia: French Officials', url: 'https://en.wikipedia.org/wiki/French_Officials' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ sources: [{ title: 'Wikipedia: French Officials', url: 'https://en.wikipedia.org/wiki/Government_of_France' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
  'leslie-groff': {
  name: 'Leslie Groff',

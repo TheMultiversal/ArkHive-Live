@@ -79,13 +79,13 @@ const investigation = {
  ],
  sources: [
  { title: 'Bad Blood: Secrets and Lies in a Silicon Valley Startup - John Carreyrou', url: 'https://www.penguinrandomhouse.com/books/549670/bad-blood-by-john-carreyrou/', date: '2018-05' },
- { title: 'WSJ - Hot Startup Theranos Has Struggled With Its Blood-Test Technology', url: 'https://www.wsj.com/articles/theranos-has-struggled-with-blood-tests-1444881901', date: '2015-10-15' },
+ { title: 'WSJ - Hot Startup Theranos Has Struggled With Its Blood-Test Technology', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/theranos-has-struggled-with-blood-tests-1444881901', date: '2015-10-15' },
  { title: 'DOJ Indictment of Holmes and Balwani', url: 'https://www.justice.gov/usao-ndca/press-release/file/1072511/download', date: '2018-06-15' },
  { title: 'SEC Charges Theranos and Holmes with Securities Fraud', url: 'https://www.sec.gov/news/press-release/2018-41', date: '2018-03-14' },
  { title: 'Holmes Sentencing - DOJ Press Release', url: 'https://www.justice.gov/usao-ndca/pr/theranos-founder-elizabeth-holmes-sentenced-more-11-years-federal-prison', date: '2022-11-18' },
  { title: 'CMS Inspection Report - Theranos Newark Lab', url: 'https://www.cms.gov/newsroom/fact-sheets/theranos-inc', date: '2016-01' },
  { title: 'The Inventor: Out for Blood in Silicon Valley - HBO Documentary', url: 'https://www.hbo.com/movies/the-inventor-out-for-blood-in-silicon-valley', date: '2019-03' },
- { title: 'Balwani Convicted on All Counts - Reuters', url: 'https://www.reuters.com/legal/theranos-executive-sunny-balwani-convicted-fraud-2022-07-07/', date: '2022-07-07' },
+ { title: 'Balwani Convicted on All Counts - Reuters', url: 'https://web.archive.org/web/2024/https://www.reuters.com/legal/theranos-executive-sunny-balwani-convicted-fraud-2022-07-07/', date: '2022-07-07' },
  ],
 };
 

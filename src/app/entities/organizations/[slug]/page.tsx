@@ -2602,7 +2602,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  keyFigures: [],
  affiliatedOrganizations: [],
  timeline: [{ date: '1889', event: 'Rosebud Reservation established' }, { date: 'Ongoing', event: 'Continues fight for tribal sovereignty and resources' }],
- sources: [{ title: 'Wikipedia: Rosebud Indian Reservation', url: 'https://en.wikipedia.org/wiki/Rosebud_Indian_Reservation', date: '2024' }, { title: 'Rosebud Sioux Tribe', url: 'https://www.rfrci.org/', date: '2024' }],
+ sources: [{ title: 'Wikipedia: Rosebud Indian Reservation', url: 'https://en.wikipedia.org/wiki/Rosebud_Indian_Reservation', date: '2024' }, { title: 'Rosebud Sioux Tribe', url: 'https://web.archive.org/web/2023/https://www.rfrci.org/', date: '2024' }],
  },
  'saudi-arabia': {
  name: 'Kingdom of Saudi Arabia',
@@ -2668,7 +2668,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2019 Jul', event: 'Closed days after Epstein arrest' },
  ],
  sources: [
- { title: 'Reuters - Ghislaine Maxwell TerraMar Project', url: 'https://www.reuters.com/article/us-people-ghislaine-maxwell-terramar-idUSKCN24J2AU', date: '2024' },
+ { title: 'Reuters - Ghislaine Maxwell TerraMar Project', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/us-people-ghislaine-maxwell-terramar-idUSKCN24J2AU', date: '2024' },
  { title: 'Independent - TerraMar Dissolved After Epstein Arrest', url: 'https://www.independent.co.uk/news/world/americas/ghislaine-maxwell-terramar-project-jeffrey-epstein-ocean-charity-a9006576.html', date: '2024' },
  ],
  },

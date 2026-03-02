@@ -87,7 +87,7 @@ const investigation = {
  { title: 'Romero Assassination Investigation - National Security Archive', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB339/', date: '2010' },
  { title: 'El Salvador: War, Peace, and Human Rights - National Security Archive', url: 'https://nsarchive.gwu.edu/project/el-salvador-project', date: 'Ongoing' },
  { title: 'Inocente Orlando Montano Convicted for Jesuit Murders - BBC News', url: 'https://www.bbc.com/news/world-latin-america-54075067', date: 'September 2020' },
- { title: 'School of the Americas and El Salvador - SOA Watch', url: 'https://soaw.org/about-the-soawhinsec', date: 'Ongoing' },
+ { title: 'School of the Americas and El Salvador - SOA Watch', url: 'https://soaw.org/home', date: 'Ongoing' },
  { title: 'The Churchwomen Murders - Maryknoll Sisters Archive', url: 'https://www.maryknollsisters.org/who-we-are/our-history/the-martyred-sisters/', date: '1980' },
  { title: 'Death Squads in El Salvador - Americas Watch Report', url: 'https://www.hrw.org/reports/1991/elsalvador/', date: '1991' },
  ],

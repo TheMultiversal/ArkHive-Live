@@ -165,7 +165,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  tags: ['Disinformation', 'Psychological Operations', 'Big Lie', 'Propaganda', 'Cambridge Analytica', 'Facebook', 'Cult', 'Radicalization', 'Fox News', 'Fake News'],
  sources: [
  { title: 'Cambridge Analytica Whistleblower Investigation', url: 'https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election', type: 'Investigation' },
- { title: 'Facebook Whistleblower Frances Haugen Documents', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
+ { title: 'Facebook Whistleblower Frances Haugen Documents', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
  { title: 'MIT Study: False News Spreads Faster', url: 'https://science.sciencemag.org/content/359/6380/1146', type: 'Academic Study' },
  { title: 'January 6 Committee Report on Disinformation', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  ],
@@ -280,10 +280,10 @@ const investigationDatabase: Record<string, InvestigationData> = {
  tags: ['Securities Fraud', 'Market Manipulation', 'DJT Stock', 'Cryptocurrency', 'Insider Trading', 'SPAC', 'Trump Media', 'NFT', 'Meme Coins'],
  sources: [
  { title: 'SEC Trump Hotels Fine', url: 'https://www.sec.gov/news/press/2002-102.txt', type: 'Government Document' },
- { title: 'DJT Stock Volatility Analysis', url: 'https://www.reuters.com/markets/us/trump-media-shares-sink-further-volatile-trading-2024-04-16/', type: 'Financial News' },
+ { title: 'DJT Stock Volatility Analysis', url: 'https://web.archive.org/web/2024/https://www.reuters.com/markets/us/trump-media-shares-sink-further-volatile-trading-2024-04-16/', type: 'Financial News' },
  { title: 'SEC DWAC Settlement', url: 'https://www.sec.gov/news/press-release/2023-129', type: 'Government Document' },
  { title: 'Trump Crypto Analysis - NY Times', url: 'https://www.nytimes.com/2025/01/18/business/trump-meme-coin.html', type: 'News Report' },
- { title: 'World Liberty Financial Investigation', url: 'https://www.reuters.com/technology/trumps-world-liberty-financial-raises-over-300-million-crypto-tokens-2025-01-20/', type: 'Financial News' },
+ { title: 'World Liberty Financial Investigation', url: 'https://web.archive.org/web/2024/https://www.reuters.com/technology/trumps-world-liberty-financial-raises-over-300-million-crypto-tokens-2025-01-20/', type: 'Financial News' },
  { title: 'Carl Icahn Steel Trading', url: 'https://www.bloomberg.com/news/articles/2018-03-08/carl-icahn-s-bet-against-steel-gets-huge-boost-from-trump-tariff', type: 'Financial News' },
  { title: 'Trump NFT Sales', url: 'https://opensea.io/collection/trump-digital-trading-cards', type: 'Market Data' },
  { title: 'Truth Social User Estimates', url: 'https://www.similarweb.com/website/truthsocial.com/', type: 'Analytics Data' },
@@ -545,7 +545,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Currency Speculation', 'Market Manipulation', 'Black Wednesday', 'George Soros', 'Financial Markets', 'LIBOR', 'Cryptocurrency', 'Insider Trading'],
  sources: [
- { title: 'LIBOR Scandal Overview', url: 'https://www.reuters.com/article/us-libor-scandal/timeline-the-libor-scandal-idUSBRE8610M420120702', type: 'Investigation' },
+ { title: 'LIBOR Scandal Overview', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/us-libor-scandal/timeline-the-libor-scandal-idUSBRE8610M420120702', type: 'Investigation' },
  { title: 'JPMorgan Spoofing Settlement', url: 'https://www.justice.gov/opa/pr/jpmorgan-chase-co-agrees-pay-920-million-connection-schemes-defraud-precious-metals-and-us', type: 'Legal Document' },
  ],
  affiliations: [
@@ -805,7 +805,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Market Manipulation', 'Economic Policy', 'Conflicts of Interest', 'Federal Reserve'],
  sources: [
- { title: 'Trump Tweet Market Impact', url: 'https://www.reuters.com/article/us-usa-markets-trump-tweets-analysis-idUSKCN1VX1VT', type: 'Financial Analysis' },
+ { title: 'Trump Tweet Market Impact', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/us-usa-markets-trump-tweets-analysis-idUSKCN1VX1VT', type: 'Financial Analysis' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Subject', href: '/entities/individuals/donald-trump' },
@@ -2586,7 +2586,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  tags: ['Russia', 'Money Laundering', 'Trump Organization', 'Felix Sater', 'Bayrock', 'Deutsche Bank', 'Oligarchs'],
  sources: [
  { title: 'Trump Jr. 2008 Statement on Russians', url: 'https://www.eturbonews.com/9788/executive-talk-donald-trump-jr-bullish-russia-and-potential-f/', type: 'News Report' },
- { title: 'Reuters Sater Investigation', url: 'https://www.reuters.com/investigates/special-report/usa-trump-russia-sater/', type: 'Investigation' },
+ { title: 'Reuters Sater Investigation', url: 'https://web.archive.org/web/2024/https://www.reuters.com/investigates/special-report/usa-trump-russia-sater/', type: 'Investigation' },
  { title: 'Trump Palm Beach Sale Analysis', url: 'https://www.mcclatchydc.com/news/nation-world/national/article135243694.html', type: 'News Report' },
  { title: 'FinCEN Files Trump Transactions', url: 'https://web.archive.org/web/2024/https://www.buzzfeednews.com/article/jasonleopold/fincen-files-trump-suspicious-reports', type: 'Investigation' },
  { title: 'Deutsche Bank Russian Laundering', url: 'https://www.nytimes.com/2017/01/30/business/deutsche-bank-fined-for-helping-russians-launder-10-billion.html', type: 'News Report' },
@@ -3283,7 +3283,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  sources: [
  { title: 'Connecticut Verdict - NYT', url: 'https://www.nytimes.com/2022/10/12/business/media/alex-jones-sandy-hook-damages.html', type: 'News Report' },
  { title: 'InfoWars Financials Analysis', url: 'https://www.nytimes.com/2022/08/04/us/politics/alex-jones-infowars-finances.html', type: 'Investigation' },
- { title: 'Bankruptcy Proceedings', url: 'https://www.reuters.com/legal/alex-jones-infowars-bankruptcy-judge-weighs-request-allow-sandy-hook-families-2023-06-09/', type: 'Court Filing' },
+ { title: 'Bankruptcy Proceedings', url: 'https://web.archive.org/web/2024/https://www.reuters.com/legal/alex-jones-infowars-bankruptcy-judge-weighs-request-allow-sandy-hook-families-2023-06-09/', type: 'Court Filing' },
  ],
  affiliations: [
  { id: '1', name: 'Alex Jones', type: 'individual', relationship: 'Spread lies about dead children', href: '/entities/individuals/alex-jones' },
@@ -3629,7 +3629,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  tags: ['Lab Leak', 'COVID-19', 'Wuhan', 'WIV', 'Pandemic Origins', 'China', 'FBI', 'DOE'],
  sources: [
  { title: 'FBI Director Testimony on Lab Leak Assessment', url: 'https://www.fbi.gov/news/testimony/worldwide-threats-to-the-homeland-2023', type: 'Congressional Testimony' },
- { title: 'DOE Lab Leak Assessment - WSJ', url: 'https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a', type: 'News Report' },
+ { title: 'DOE Lab Leak Assessment - WSJ', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a', type: 'News Report' },
  { title: 'State Department Fact Sheet on WIV', url: 'https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/', type: 'Government Document' },
  { title: 'The Lancet COVID-19 Commission Task Force', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01585-9/fulltext', type: 'Scientific Report' },
  ],
@@ -4997,8 +4997,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Wuhan', 'Lab Leak', 'COVID-19 Origins', 'Biosafety', 'China', 'Shi Zhengli', 'Intelligence'],
  sources: [
- { title: 'WSJ: Wuhan Lab Researchers Sick November 2019', url: 'https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228', type: 'Investigation' },
- { title: 'DOE Lab Leak Assessment', url: 'https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a', type: 'News Report' },
+ { title: 'WSJ: Wuhan Lab Researchers Sick November 2019', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228', type: 'Investigation' },
+ { title: 'DOE Lab Leak Assessment', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a', type: 'News Report' },
  { title: 'ODNI COVID-19 Origin Report', url: 'https://www.dni.gov/files/ODNI/documents/assessments/Report-on-Potential-Links-Between-the-Wuhan-Institute-of-Virology-and-the-Origins-of-COVID-19-20230623.pdf', type: 'Intelligence Report' },
  ],
  affiliations: [
@@ -5873,7 +5873,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  tags: ['China', 'CCP', 'United Front', 'Confucius Institute', 'TikTok', 'Foreign Influence', 'Espionage'],
  sources: [
  { title: 'FBI Director Wray Congressional Testimony on China', url: 'https://www.fbi.gov/news/speeches/the-threat-posed-by-the-chinese-government-and-the-chinese-communist-party-to-the-economic-and-national-security-of-the-united-states', type: 'Government Testimony' },
- { title: 'Senate Homeland Security Committee: China\'s Impact on the U.S. Education System', url: 'https://www.hsgac.senate.gov/imo/media/doc/PSI%20Report%20China\'s%20Impact%20on%20the%20US%20Education%20System.pdf', type: 'Government Report' },
+ { title: 'Senate Homeland Security Committee: China\'s Impact on the U.S. Education System', url: 'https://www.hsgac.senate.gov/imo/media/doc/PSI%20Report%20China%27s%20Impact%20on%20the%20US%20Education%20System.pdf', type: 'Government Report' },
  { title: 'DOJ China Initiative Prosecutions', url: 'https://www.justice.gov/nsd/information-about-department-justice-s-china-initiative-and-compilation-china-related', type: 'Government Website' },
  { title: 'Australian Strategic Policy Institute: CCP Inc.', url: 'https://www.aspi.org.au/report/ccp-inc', type: 'Research Report' },
  ],
@@ -6489,7 +6489,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Social Media', 'Facebook', 'Instagram', 'Mental Health', 'Misinformation', 'Algorithms'],
  sources: [
- { title: 'Facebook Papers', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
+ { title: 'Facebook Papers', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Meta', type: 'corporation', relationship: 'Owner of Facebook and Instagram', href: '/entities/corporations/meta' },
@@ -7253,7 +7253,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Facebook', 'Instagram', 'Mental Health', 'Teenagers', 'Algorithm', 'Frances Haugen'],
  sources: [
- { title: 'Wall Street Journal Facebook Files', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
+ { title: 'Wall Street Journal Facebook Files', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Meta', type: 'corporation', relationship: 'Facebook parent company', href: '/entities/corporations/meta' },
@@ -7338,7 +7338,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
  { id: '1', name: 'OpenAI', type: 'corporation', relationship: 'Leading AI developer', href: '/entities/corporations/openai' },
  { id: '2', name: 'Google', type: 'corporation', relationship: 'AI developer, fired ethics researchers', href: '/entities/corporations/google' },
  ],
- }, '1980s-insider-trading': {
+ },
+ '1980s-insider-trading': {
  title: '1980s Insider Trading Scandals',
  subtitle: 'Wall Street insider trading ring involving Ivan Boesky, Michael Milken, and others that defined an e',
  severity: 'high',

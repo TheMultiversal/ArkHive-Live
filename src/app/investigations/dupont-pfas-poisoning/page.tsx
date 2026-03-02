@@ -80,7 +80,7 @@ const investigation = {
  { title: 'C8 Science Panel Findings', url: 'http://www.c8sciencepanel.org/prob_link.html', date: '2012' },
  { title: 'EPA Final PFAS Drinking Water Standards', url: 'https://www.epa.gov/newsreleases/biden-harris-administration-finalizes-first-ever-national-drinking-water-standard', date: '2024-04-10' },
  { title: 'DuPont PFOA Consent Order - EPA', url: 'https://www.epa.gov/enforcement/dupont-washington-works-consent-order', date: '2005' },
- { title: '3M $10.3 Billion PFAS Settlement', url: 'https://www.reuters.com/legal/3m-reaches-103-bln-settlement-forever-chemicals-us-water-supplies-2023-06-22/', date: '2023-06-22' },
+ { title: '3M $10.3 Billion PFAS Settlement', url: 'https://web.archive.org/web/2024/https://www.reuters.com/legal/3m-reaches-103-bln-settlement-forever-chemicals-us-water-supplies-2023-06-22/', date: '2023-06-22' },
  { title: 'Dark Waters (Film) - Based on Robert Bilott\'s Fight Against DuPont', url: 'https://www.imdb.com/title/tt9071322/', date: '2019-11-22' },
  ],
 };

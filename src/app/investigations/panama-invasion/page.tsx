@@ -78,7 +78,7 @@ const investigation = {
  { title: 'National Security Archive - Panama Invasion Declassified', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB489/', date: '2014' },
  { title: 'Noriega: God\'s Favorite - New York Times Review', url: 'https://www.nytimes.com/2017/05/30/world/americas/manuel-antonio-noriega-dead-panama.html', date: '2017' },
  { title: 'Americas Watch - Human Rights in Panama After the Invasion', url: 'https://www.hrw.org/reports/1991/panama/', date: '1991' },
- { title: 'PBS Frontline - The Panama Deception', url: 'https://www.pbs.org/wgbh/pages/frontline/shows/drugs/archive/noriega.html', date: '2000' },
+ { title: 'PBS Frontline - The Panama Deception', url: 'https://www.pbs.org/wgbh/frontline/documentary/drug-wars/', date: '2000' },
  { title: 'UN General Assembly Resolution 44/240 - Condemning the Invasion', url: 'https://digitallibrary.un.org/record/82188', date: '1989' },
  { title: 'Washington Post - Panama: 10 Years Later', url: 'https://www.washingtonpost.com/archive/politics/1999/12/20/panama-10-years-later/', date: '1999' },
  { title: 'Just Cause: Marine Operations in Panama - USMC History Division', url: 'https://www.usmcu.edu/Research/Marine-Corps-History-Division/', date: '1996' },
