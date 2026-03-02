@@ -134,18 +134,27 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  Key Affiliations
  </h2>
  <div className="space-y-3">
- {individual.affiliations.map((affiliation, index) => (
- <div
+ {individual.affiliations.map((affiliation, index) => {
+ const slug = affiliation.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+ const typePathMap = { agency: 'agencies', corporation: 'corporations', organization: 'organizations' };
+ const href = `/entities/${typePathMap[affiliation.type]}/${slug}`;
+ return (
+ <Link
  key={index}
- className={`flex items-center justify-between p-4 border ${affiliationTypeColors[affiliation.type]}`}
+ href={href}
+ className={`flex items-center justify-between p-4 border hover:border-blood-500/50 transition-all group ${affiliationTypeColors[affiliation.type]}`}
  >
  <div>
- <p className="font-medium">{affiliation.name}</p>
+ <p className="font-medium group-hover:text-blood-400 transition-colors">{affiliation.name}</p>
  <p className="text-sm text-zinc-500">{affiliation.role}</p>
  </div>
+ <div className="flex items-center gap-2">
  <span className="text-xs uppercase">{affiliation.type}</span>
+ <ExternalLink className="w-3 h-3 text-zinc-600 group-hover:text-blood-500 transition-colors"/>
  </div>
- ))}
+ </Link>
+ );
+ })}
  </div>
  </motion.section>
 
@@ -160,14 +169,19 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  <AlertTriangle className="w-5 h-5 text-blood-500"/>
  Controversies & Concerns
  </h2>
- <ul className="space-y-3">
+             <div className="space-y-3">
  {individual.controversies.map((controversy, index) => (
- <li key={index} className="flex items-start gap-3">
- <span className="w-1.5 h-1.5 bg-blood-500 mt-2 flex-shrink-0"/>
- <span className="text-zinc-300">{controversy}</span>
- </li>
+ <div
+ key={index}
+ className="p-4 bg-zinc-900/40 border border-zinc-800 hover:border-blood-500/30 transition-all"
+ >
+ <div className="flex items-start gap-3">
+ <AlertTriangle className="w-4 h-4 text-blood-500/60 mt-0.5 flex-shrink-0"/>
+ <p className="text-zinc-300 text-sm leading-relaxed">{controversy}</p>
+ </div>
+ </div>
  ))}
- </ul>
+ </div>
  </motion.section>
 
  {/* Related Investigations */}
@@ -292,6 +306,23 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  </p>
  <div className="space-y-2">
  {individual.sources.map((source, index) => (
+ source.url ? (
+ <a
+ key={index}
+ href={source.url}
+ target="_blank"
+ rel="noopener noreferrer"
+ className="flex items-start gap-3 p-3 bg-zinc-900/30 border border-zinc-800/50 text-sm hover:border-blood-500/50 hover:bg-zinc-900/60 transition-all group"
+ >
+ <ExternalLink className="w-4 h-4 text-zinc-600 group-hover:text-blood-500 mt-0.5 flex-shrink-0 transition-colors"/>
+ <div className="flex-1">
+ <span className="text-zinc-300 group-hover:text-blood-400 transition-colors">{source.title}</span>
+ {source.date && (
+ <span className="text-zinc-600 ml-2">({source.date})</span>
+ )}
+ </div>
+ </a>
+ ) : (
  <div
  key={index}
  className="flex items-start gap-3 p-3 bg-zinc-900/30 border border-zinc-800/50 text-sm"
@@ -304,6 +335,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  )}
  </div>
  </div>
+ )
  ))}
  </div>
  </motion.section>

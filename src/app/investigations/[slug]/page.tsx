@@ -242,8 +242,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
  sources: [
  { title: 'Trump Russia Hacking Request - Full Video', url: 'https://www.youtube.com/watch?v=3kxG8uJUsWU', type: 'Video Evidence' },
  { title: 'Mueller Report on Russian Hacking', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
- { title: 'GRU Officer Indictments', url: 'http://web.archive.org/web/20240314115300/http://web.archive.org/web/20240314115300/https://www.justice.gov/file/1080281/download', type: 'Court Filing' },
- { title: 'Roger Stone Indictment', url: 'http://web.archive.org/web/20240314104559/http://web.archive.org/web/20240314104559/https://www.justice.gov/file/1124706/download', type: 'Court Filing' },
+ { title: 'GRU Officer Indictments', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1080281/download', type: 'Court Filing' },
+ { title: 'Roger Stone Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1124706/download', type: 'Court Filing' },
  { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', type: 'Government Report' },
  ],
  affiliations: [
@@ -828,7 +828,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Pandemic', 'Gain of Function', 'COVID-19', 'Wuhan', 'Public Health'],
  sources: [
- { title: 'NIH Gain of Function Research', url: 'http://web.archive.org/web/20250528001123/http://web.archive.org/web/20250528001123/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', type: 'Government Document' },
+ { title: 'NIH Gain of Function Research', url: 'https://web.archive.org/web/2024/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', type: 'Government Document' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Pandemic response', href: '/entities/individuals/donald-trump' },
@@ -1183,7 +1183,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  sources: [
  { title: 'Carroll v. Trump - First Trial Verdict', url: 'https://www.courtlistener.com/docket/16871571/carroll-v-trump/', type: 'Court Records' },
  { title: 'Carroll v. Trump - Second Trial Verdict', url: 'https://www.courtlistener.com/docket/67371534/carroll-v-trump/', type: 'Court Records' },
- { title: 'Original New York Magazine Article', url: 'https://web.archive.org/web/*/https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', type: 'Primary Source' },
+ { title: 'Original New York Magazine Article', url: 'https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', type: 'Primary Source' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant, found liable', href: '/entities/individuals/donald-trump' },
@@ -1303,8 +1303,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Impeachment', 'Ukraine', 'Zelensky', 'Abuse of Power', 'Obstruction of Congress'],
  sources: [
- { title: 'July 25 Call Memo', url: 'http://web.archive.org/web/20210113040119/http://web.archive.org/web/20210113040119/https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf', type: 'Primary Document' },
- { title: 'Whistleblower Complaint', url: 'http://web.archive.org/web/20230101115346/http://web.archive.org/web/20230101115346/https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf', type: 'Primary Document' },
+ { title: 'July 25 Call Memo', url: 'https://web.archive.org/web/2024/https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf', type: 'Primary Document' },
+ { title: 'Whistleblower Complaint', url: 'https://web.archive.org/web/2024/https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf', type: 'Primary Document' },
  { title: 'House Impeachment Resolution', url: 'https://www.congress.gov/bill/116th-congress/house-resolution/755', type: 'Congressional Record' },
  { title: 'Senate Trial Record', url: 'https://www.congress.gov/congressional-record/senate-trial-record', type: 'Congressional Record' },
  ],
@@ -2194,7 +2194,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Michael Flynn', 'Russia', 'Turkey', 'Foreign Agent', 'Pardon', 'Mueller', 'Kislyak'],
  sources: [
- { title: 'Flynn Statement of Offense', url: 'http://web.archive.org/web/20240314193724/http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download', type: 'Court Filing' },
+ { title: 'Flynn Statement of Offense', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1015126/download', type: 'Court Filing' },
  { title: 'Mueller Report Flynn Sections', url: 'https://www.justice.gov/storage/report.pdf', type: 'Government Report' },
  { title: 'Flynn Turkey Payment Investigation', url: 'https://www.nytimes.com/2017/03/10/us/politics/michael-flynn-turkey.html', type: 'News Report' },
  ],
@@ -2667,7 +2667,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  { title: 'January 6 Committee DOJ Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'Clark Indictment - Georgia', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
  { title: 'Trump-Rosen Call Notes', url: 'https://www.nytimes.com/2021/07/30/us/politics/trump-doj-rosen-election.html', type: 'News Report' },
- { title: 'Federal J6 Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+ { title: 'Federal J6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Pressured DOJ to overturn election', href: '/entities/individuals/donald-trump' },
@@ -2971,7 +2971,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  sources: [
  { title: 'Eastman Memos', url: 'https://www.cnn.com/2021/09/21/politics/read-eastman-memo/index.html', type: 'Document' },
  { title: 'January 6 Committee Report - Green Bay Sweep', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
- { title: 'Federal Trump Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+ { title: 'Federal Trump Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
  ],
  affiliations: [
  { id: '1', name: 'Peter Navarro', type: 'individual', relationship: 'Named and promoted the scheme', href: '/entities/individuals/peter-navarro' },
@@ -3084,7 +3084,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Russia', 'IRA', 'Disinformation', 'Troll Farm', 'Prigozhin', 'Social Media', 'Election Interference'],
  sources: [
- { title: 'Mueller Indictment - IRA', url: 'http://web.archive.org/web/20240315011338/http://web.archive.org/web/20240315011338/http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download', type: 'Court Filing' },
+ { title: 'Mueller Indictment - IRA', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1035477/download', type: 'Court Filing' },
  { title: 'Senate Intelligence Committee Report Vol. 2', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/Report_Volume2.pdf', type: 'Government Report' },
  { title: 'Facebook IRA Disclosure', url: 'https://about.fb.com/news/2017/10/hard-questions-russian-ads/', type: 'Company Statement' },
  { title: 'Oxford Internet Institute Analysis', url: 'https://comprop.oii.ox.ac.uk/research/ira-political-polarization/', type: 'Academic Research' },
@@ -3399,7 +3399,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  tags: ['Iraq War', 'WMD', 'Bush Administration', 'Cheney', 'Colin Powell', 'War Crimes', 'Yellowcake', 'Aluminum Tubes'],
  sources: [
  { title: 'Downing Street Memo', url: 'https://www.nytimes.com/2005/05/01/international/europe/secret-uk-memo.html', type: 'Leaked Document' },
- { title: 'Duelfer Report (Iraq Survey Group)', url: 'http://web.archive.org/web/20201206173010/http://web.archive.org/web/20201206173010/https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/', type: 'Government Report' },
+ { title: 'Duelfer Report (Iraq Survey Group)', url: 'https://web.archive.org/web/2024/https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/', type: 'Government Report' },
  { title: 'Powell UN Speech Transcript', url: 'https://www.un.org/press/en/2003/sc7658.doc.htm', type: 'Official Transcript' },
  { title: 'Bush State of the Union 2003 (16 Words)', url: 'https://georgewbush-whitehouse.archives.gov/news/releases/2003/01/20030128-19.html', type: 'Official Transcript' },
  ],
@@ -3591,7 +3591,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Gain-of-Function', 'NIH', 'Wuhan', 'EcoHealth Alliance', 'Fauci', 'COVID-19', 'Lab Research'],
  sources: [
- { title: 'NIH Acknowledges Gain-of-Function Research', url: 'http://web.archive.org/web/20250528001123/http://web.archive.org/web/20250528001123/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', type: 'Government Statement' },
+ { title: 'NIH Acknowledges Gain-of-Function Research', url: 'https://web.archive.org/web/2024/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', type: 'Government Statement' },
  { title: 'EcoHealth Alliance NIH Grant', url: 'https://reporter.nih.gov/search/xQW6UJmWfUuOV01ntGvLwQ/project-details/9819304', type: 'Grant Record' },
  { title: 'The Intercept - NIH Documents', url: 'https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/', type: 'Investigation' },
  { title: 'Science Debate on Gain-of-Function', url: 'https://www.science.org/doi/10.1126/science.abn4737', type: 'Scientific Article' },
@@ -3934,7 +3934,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  { title: 'Pentagon IG Report on Feith\'s Office', url: 'https://www.dodig.mil/reports.html/Article/1119855/review-of-the-pre-iraq-war-activities-of-the-office-of-the-under-secretary-of-d/', type: 'Government Report' },
  { title: 'Mother Jones - The Lie Factory', url: 'https://www.motherjones.com/politics/2004/01/lie-factory/', type: 'Investigation' },
  { title: 'New Yorker - Selective Intelligence', url: 'https://www.newyorker.com/magazine/2003/05/12/selective-intelligence', type: 'Investigation' },
- { title: 'Senate Intelligence Committee Iraq Report', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', type: 'Congressional Report' },
+ { title: 'Senate Intelligence Committee Iraq Report', url: 'https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', type: 'Congressional Report' },
  ],
  affiliations: [ 
  { id: '1', name: 'Douglas Feith', type: 'individual', relationship: 'Created and directed OSP', href: '/entities/individuals/douglas-feith' },
@@ -4155,8 +4155,8 @@ const investigationDatabase: Record<string, InvestigationData> = {
  sources: [
  { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Congressional Report' },
  { title: 'Mueller Report - Russian Interference', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
- { title: 'DOJ IRA Indictment', url: 'http://web.archive.org/web/20240315011338/http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download', type: 'Court Filing' },
- { title: 'DOJ GRU Indictment', url: 'http://web.archive.org/web/20240314115300/http://web.archive.org/web/20240314115300/https://www.justice.gov/file/1080281/download', type: 'Court Filing' },
+ { title: 'DOJ IRA Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1035477/download', type: 'Court Filing' },
+ { title: 'DOJ GRU Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1080281/download', type: 'Court Filing' },
  ],
  affiliations: [
  { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Ordered interference campaign', href: '/entities/individuals/vladimir-putin' },
@@ -4766,7 +4766,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Trump Indictment', 'Election Conspiracy', 'Jack Smith', 'January 6', 'Fake Electors', 'Federal Charges'],
  sources: [
- { title: 'Trump Federal Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+ { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
  { title: 'Supreme Court Immunity Ruling', url: 'https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf', type: 'Court Decision' },
  ],
  affiliations: [
@@ -5292,7 +5292,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Pardons', 'Trump', 'Bannon', 'Stone', 'Flynn', 'Manafort', 'Blackwater', 'Obstruction of Justice', 'Corruption'],
  sources: [
- { title: 'DOJ Pardon Records', url: 'http://web.archive.org/web/20210424061514/http://web.archive.org/web/20210424061514/https://www.justice.gov/pardon/pardons-granted-president-donald-trump', type: 'Government Records' },
+ { title: 'DOJ Pardon Records', url: 'https://web.archive.org/web/2024/https://www.justice.gov/pardon/pardons-granted-president-donald-trump', type: 'Government Records' },
  { title: 'NYT - Trump Pardon Spree', url: 'https://www.nytimes.com/2021/01/20/us/politics/trump-pardons.html', type: 'News Report' },
  { title: 'Blackwater Massacre Pardons', url: 'https://www.nytimes.com/2020/12/22/us/politics/blackwater-pardons.html', type: 'News Report' },
  { title: 'Mueller Report on Stone/Manafort', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
@@ -6093,7 +6093,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Iraq War', 'WMD Lies', 'Bush', 'Cheney', 'Torture', 'ISIS'],
  sources: [
- { title: 'Iraq Survey Group Final Report', url: 'http://web.archive.org/web/20201206173010/http://web.archive.org/web/20201206173010/https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/', type: 'Government Report' },
+ { title: 'Iraq Survey Group Final Report', url: 'https://web.archive.org/web/2024/https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/', type: 'Government Report' },
  ],
  affiliations: [
  { id: '1', name: 'George W. Bush', type: 'individual', relationship: 'Ordered invasion based on lies', href: '/entities/individuals/george-w-bush' },
@@ -6277,7 +6277,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['FBI', 'Civil Rights', 'MLK', 'COINTELPRO', 'Fred Hampton', 'Black Panthers'],
  sources: [
- { title: 'FBI King File', url: 'https://web.archive.org/web/2024/https://vault.fbi.gov/Martin%20Luther%20King%2C%20Jr.', type: 'Government Documents' },
+ { title: 'FBI King File', url: 'https://vault.fbi.gov/Martin%20Luther%20King%2C%20Jr.', type: 'Government Documents' },
  { title: 'Church Committee Final Report Book III', url: 'https://www.intelligence.senate.gov/sites/default/files/94755_III.pdf', type: 'Government Report' },
  ],
  affiliations: [
@@ -6789,7 +6789,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  tags: ['2020 Election', 'Fake Electors', 'January 6', 'Trump', 'Election Interference'],
  sources: [
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
- { title: 'Trump Federal Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+ { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Led the conspiracy', href: '/entities/individuals/donald-trump' },
@@ -6844,7 +6844,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  tags: ['Boeing', '737 MAX', 'Corporate Crime', 'FAA', 'Aviation Safety', 'Regulatory Capture'],
  sources: [
  { title: 'DOJ Boeing Deferred Prosecution Agreement', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Press Release' },
- { title: 'House Committee Boeing Investigation', url: 'http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Report' },
+ { title: 'House Committee Boeing Investigation', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Report' },
  { title: 'Internal Boeing Documents', url: 'https://www.nytimes.com/2020/01/09/business/boeing-737-messages.html', type: 'News Investigation' },
  ],
  affiliations: [
@@ -6877,7 +6877,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  tags: ['Lion Air', 'Boeing 737 MAX', 'MCAS', 'Indonesia', 'Corporate Murder', 'FAA', 'Regulatory Capture', 'ICC Crimes'],
  sources: [
  { title: 'KNKT Final Report - Lion Air 610', url: 'http://knkt.dephub.go.id/knkt/ntsc_aviation/baru/2018%20-%20035%20-%20PK-LQP%20Final%20Report.pdf', type: 'Government Report' },
- { title: 'Boeing Internal Documents - House Committee', url: 'http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Report' },
+ { title: 'Boeing Internal Documents - House Committee', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Report' },
  { title: 'Seattle Times MCAS Investigation', url: 'https://www.seattletimes.com/business/boeing-aerospace/failed-certification-faa-missed-safety-issues-in-the-737-max-system-implicated-in-the-lion-air-crash/', type: 'Investigation' },
  { title: 'DOJ Boeing Prosecution', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Press Release' },
  ],
@@ -6915,7 +6915,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Ethiopian Airlines', 'Boeing 737 MAX', 'MCAS', 'Ethiopia', 'Corporate Murder', 'Crimes Against Humanity', 'ICC', 'Samya Stumo'],
  sources: [
- { title: 'House Transportation Committee Report', url: 'http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
+ { title: 'House Transportation Committee Report', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
  { title: 'Samya Stumo Family Testimony', url: 'https://www.c-span.org/video/?465887-1/boeing-737-max', type: 'Congressional Testimony' },
  ],
  affiliations: [
@@ -6990,9 +6990,9 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['Boeing', 'Corporate Crime', 'Mass Murder', 'Regulatory Capture', 'FAA', 'ICC', 'Crimes Against Humanity', 'Deferred Prosecution'],
  sources: [
- { title: 'House Committee Boeing Investigation Final Report', url: 'http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
+ { title: 'House Committee Boeing Investigation Final Report', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
  { title: 'DOJ Boeing Deferred Prosecution Agreement', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Court Filing' },
- { title: 'Boeing Internal Communications - Congressional Record', url: 'http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/http://web.archive.org/web/20221209082934/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Documents' },
+ { title: 'Boeing Internal Communications - Congressional Record', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Documents' },
  { title: 'NTSB Alaska Airlines 1282 Investigation', url: 'https://www.ntsb.gov/investigations/Pages/DCA24MA063.aspx', type: 'Government Report' },
  ],
  affiliations: [
@@ -7030,7 +7030,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
  ],
  tags: ['FAA', 'Regulatory Capture', 'Boeing', 'ODA', 'Revolving Door', 'Aviation Safety'],
  sources: [
- { title: 'House Committee Report on FAA Oversight', url: 'http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/http://web.archive.org/web/20221207103614/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
+ { title: 'House Committee Report on FAA Oversight', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
  { title: 'GAO FAA Oversight Report', url: 'https://www.gao.gov/products/gao-20-626', type: 'Government Report' },
  ],
  affiliations: [

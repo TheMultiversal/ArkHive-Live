@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo, useCallback } from"react";
+import { useState, useMemo, useCallback, useEffect } from"react";
+import { useSearchParams } from"next/navigation";
 import InvestigationCard, { Investigation } from"@/components/cards/InvestigationCard";
 import { Search, AlertTriangle, X, ChevronLeft, ChevronRight, Skull, Shield, Scale, Globe, Landmark, Building2, Siren, FileWarning, Microscope, Radio, Crosshair, Flame, Users, DollarSign, Eye, Filter } from"lucide-react";
 
@@ -4431,12 +4432,22 @@ const ITEMS_PER_PAGE = 24;
 // PAGE COMPONENT
 // ──────────────────────────────────────────────────────────────────
 export default function InvestigationsPage() {
+ const searchParams = useSearchParams();
  const [searchQuery, setSearchQuery] = useState("");
  const [activeCategory, setActiveCategory] = useState("All");
  const [activeSeverity, setActiveSeverity] = useState("");
  const [sortBy, setSortBy] = useState<"alpha"|"newest"|"oldest"|"severity">("alpha");
  const [currentPage, setCurrentPage] = useState(1);
  const [showFilters, setShowFilters] = useState(false);
+
+ // Read tag from URL search params
+ useEffect(() => {
+ const tag = searchParams.get('tag');
+ if (tag) {
+ setSearchQuery(tag);
+ setCurrentPage(1);
+ }
+ }, [searchParams]);
 
  // Normalize + compute category counts once
  const { normalizedData, categoryCounts } = useMemo(() => {

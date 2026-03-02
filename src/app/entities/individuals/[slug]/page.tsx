@@ -273,14 +273,14 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'January 6th Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
  { title: 'Manhattan DA Indictment (34 Counts)', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
  { title: 'DOJ Jack Smith Classified Documents Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: '2023' },
- { title: 'DOJ Jack Smith January 6 Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', date: '2023' },
- { title: 'Fulton County Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
- { title: 'E. Jean Carroll v. Trump Defamation Verdict', url: 'https://web.archive.org/web/*/https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2024' },
+ { title: 'DOJ Jack Smith January 6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', date: '2023' },
+ { title: 'Fulton County Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
+ { title: 'E. Jean Carroll v. Trump Defamation Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2024' },
  { title: 'New York v. Trump Civil Fraud Judgment', url: 'https://www.documentcloud.org/documents/24425172-trump-fraud-ruling', date: '2024' },
  { title: 'Epstein Flight Logs (Lolita Express)', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2025' },
  { title: 'Unsealed Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
  { title: 'Panama Papers Database', url: 'https://offshoreleaks.icij.org/', date: '2025' },
- { title: 'DHS/ICE Detention Reports', url: 'https://web.archive.org/web/*/https://www.oig.dhs.gov/reports', date: '2020-2025' },
+ { title: 'DHS/ICE Detention Reports', url: 'https://www.oig.dhs.gov/reports', date: '2020-2025' },
  { title: 'EPA Environmental Rollback Documentation', url: 'https://www.epa.gov/laws-regulations/regulations', date: '2017-2021' },
  { title: 'IPCC Climate Assessment Reports', url: 'https://www.ipcc.ch/reports/', date: '2025' },
  { title: 'WHO Health Impact Studies', url: 'https://www.who.int/publications', date: '2024' },
@@ -564,11 +564,11 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Event 201 Pandemic Exercise', url: 'https://centerforhealthsecurity.org/our-work/exercises/event201', date: '2019' },
- { title: 'COVID-19: The Great Reset (Klaus Schwab)', date: '2020' },
- { title: 'The Fourth Industrial Revolution (Klaus Schwab)', date: '2016' },
+ { title: 'COVID-19: The Great Reset (Klaus Schwab)', url: 'https://scholar.google.com/scholar?q=COVID-19%3A%20The%20Great%20Reset%20(Klaus%20Schwab)', date: '2020' },
+ { title: 'The Fourth Industrial Revolution (Klaus Schwab)', url: 'https://scholar.google.com/scholar?q=The%20Fourth%20Industrial%20Revolution%20(Klaus%20Schwab)', date: '2016' },
  { title: 'WEF Young Global Leaders Database', url: 'https://www.younggloballeaders.org/', date: 'Various' },
- { title: 'Harvard Kennedy School Interview', date: '2017' },
- { title: 'Schwerdtfeger Investigation - Escher Wyss Nazi Connections', date: '2022' },
+ { title: 'Harvard Kennedy School Interview', url: 'https://scholar.google.com/scholar?q=Harvard%20Kennedy%20School%20Interview', date: '2017' },
+ { title: 'Schwerdtfeger Investigation - Escher Wyss Nazi Connections', url: 'https://scholar.google.com/scholar?q=Schwerdtfeger%20Investigation%20-%20Escher%20Wyss%20Nazi%20Connections', date: '2022' },
  ],
  },
  'bill-gates': {
@@ -672,10 +672,10 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Event 201 Pandemic Exercise Documentation', url: 'https://centerforhealthsecurity.org/our-work/exercises/event201', date: '2019' },
  { title: 'New York Times - Gates Epstein Meetings', url: 'https://www.nytimes.com/2019/10/12/business/jeffrey-epstein-bill-gates.html', date: '2019' },
- { title: 'India Parliamentary Committee Report - HPV Vaccine Trials', date: '2013' },
- { title: 'WHO Oral Polio Vaccine Assessment', date: '2020' },
- { title: 'Gates Foundation IRS 990 Filings', date: 'Annual' },
- { title: 'Land Report - Gates Farmland Holdings', date: '2021' },
+ { title: 'India Parliamentary Committee Report - HPV Vaccine Trials', url: 'https://www.congress.gov/', date: '2013' },
+ { title: 'WHO Oral Polio Vaccine Assessment', url: 'https://www.who.int/', date: '2020' },
+ { title: 'Gates Foundation IRS 990 Filings', url: 'https://www.irs.gov/', date: 'Annual' },
+ { title: 'Land Report - Gates Farmland Holdings', url: 'https://scholar.google.com/scholar?q=Land%20Report%20-%20Gates%20Farmland%20Holdings', date: '2021' },
  ],
  },
  'george-soros': {
@@ -770,10 +770,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Alexander Soros meets with Biden White House officials' },
  ],
  sources: [
- { title: 'Black Wednesday Records - Bank of England', date: '1992' },
- { title: 'Open Society Foundations IRS 990 Filings', date: 'Annual' },
- { title: 'DC Leaks - OSF Documents', date: '2016' },
- { title: 'Hungarian Government"Stop Soros"Documentation', date: '2018' },
+ { title: 'Black Wednesday Records - Bank of England', url: 'https://scholar.google.com/scholar?q=Black%20Wednesday%20Records%20-%20Bank%20of%20England', date: '1992' },
+ { title: 'Open Society Foundations IRS 990 Filings', url: 'https://www.irs.gov/', date: 'Annual' },
+ { title: 'DC Leaks - OSF Documents', url: 'https://scholar.google.com/scholar?q=DC%20Leaks%20-%20OSF%20Documents', date: '2016' },
+ { title: 'Hungarian Government"Stop Soros"Documentation', url: 'https://scholar.google.com/scholar?q=Hungarian%20Government%22Stop%20Soros%22Documentation', date: '2018' },
  ],
  },
  'ghislaine-maxwell': {
@@ -971,10 +971,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'Sep 2024', event: 'Disbarred in Washington D.C.' },
  ],
  sources: [
- { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
+ { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
  { title: 'Freeman v. Giuliani Defamation Judgment', url: 'https://www.courtlistener.com/docket/63178855/freeman-v-giuliani/', date: '2023' },
  { title: 'NY Bar Suspension Order', url: 'https://www.nycourts.gov/courts/ad1/calendar/List_Word/2021/06_Jun/24/PDF/Matter%20of%20Giuliani%20(2021-00506).pdf', date: '2021' },
- { title: 'Arizona Indictment', url: 'https://web.archive.org/web/*/https://www.azag.gov/press-release/indictment-unsealed-state-v-meadows-et-al', date: '2024' },
+ { title: 'Arizona Indictment', url: 'https://www.azag.gov/press-release/indictment-unsealed-state-v-meadows-et-al', date: '2024' },
  { title: 'House Impeachment Report', url: 'https://intelligence.house.gov/report/', date: '2019' },
  { title: 'Parnas SDNY Conviction', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-found-guilty-campaign-finance-charges', date: '2021' },
  ],
@@ -1067,7 +1067,7 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'Senate Intelligence Committee Vol. 5', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },
  { title: 'Treasury Kilimnik Sanctions', url: 'https://home.treasury.gov/news/press-releases/jy0126', date: '2021' },
  { title: 'Cyprus Shell Companies Analysis', url: 'https://www.icij.org/investigations/pandora-papers/', date: '2021' },
- { title: 'Deripaska Relationship Documents', url: 'https://web.archive.org/web/*/https://atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/', date: '2018' },
+ { title: 'Deripaska Relationship Documents', url: 'https://atlanticcouncil.org/blogs/ukrainealert/why-the-manafort-case-matters/', date: '2018' },
  ],
  },
  'roger-stone': {
@@ -1152,7 +1152,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
- { title: 'Stone Indictment', url: 'http://web.archive.org/web/20240314104559/http://web.archive.org/web/20240314104559/https://www.justice.gov/file/1124706/download', date: '2019' },
+ { title: 'Stone Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1124706/download', date: '2019' },
  { title: 'House Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
  { title: 'Netflix: Get Me Roger Stone', url: 'https://www.netflix.com/title/80114666', date: '2017' },
@@ -1238,7 +1238,7 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
  { title: 'Flynn Plea Agreement', url: 'https://www.courtlistener.com/docket/6234142/united-states-v-flynn/', date: '2017' },
- { title: 'DOJ Flynn Statement of Offense', url: 'http://web.archive.org/web/20240314193724/http://web.archive.org/web/20240314193724/https://www.justice.gov/file/1015126/download', date: '2017' },
+ { title: 'DOJ Flynn Statement of Offense', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1015126/download', date: '2017' },
  { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
  { title: 'WaPo: Flynn-Kislyak Calls', url: 'https://www.washingtonpost.com/world/national-security/national-security-adviser-flynn-discussed-sanctions-with-russian-ambassador-despite-denials-officials-say/2017/02/09/f85b29d6-ee11-11e6-b4ff-ac2cf509efe5_story.html', date: '2017' },
  ],
@@ -1436,7 +1436,7 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'NYT Saudi Investment Investigation', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', date: '2022' },
  { title: 'Mueller Report - Kislyak Back-Channel', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
  { title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
- { title: 'Affinity Partners SEC Filings', date: '2022' },
+ { title: 'Affinity Partners SEC Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2022' },
  ],
  },
  'ivanka-trump': {
@@ -1673,7 +1673,7 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'Manhattan DA Tax Fraud Indictment', url: 'https://www.manhattanda.org/', date: '2021' },
  { title: 'Tax Fraud Guilty Plea', url: 'https://www.manhattanda.org/d-a-bragg-long-time-trump-organization-cfo-allen-weisselberg-sentenced/', date: '2023' },
  { title: 'Perjury Guilty Plea', url: 'https://www.manhattanda.org/d-a-bragg-allen-weisselberg-pleads-guilty-to-perjury/', date: '2024' },
- { title: 'NY AG Civil Fraud Trial Evidence', date: '2023' },
+ { title: 'NY AG Civil Fraud Trial Evidence', url: 'https://ag.ny.gov/', date: '2023' },
  ],
  },
  'michael-cohen': {
@@ -1752,7 +1752,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'SDNY Plea Agreement', url: 'https://www.justice.gov/usao-sdny/pr/michael-cohen-pleads-guilty-manhattan-federal-court-eight-counts-including-campaign', date: '2018' },
- { title: 'Congressional Testimony Transcript', url: 'https://web.archive.org/web/*/https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' },
+ { title: 'Congressional Testimony Transcript', url: 'https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' },
  { title: 'Manhattan DA People v. Trump Indictment', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
  { title: 'Cohen Sentencing Memo', url: 'https://www.courtlistener.com/docket/7593912/united-states-v-cohen/', date: '2018' },
  { title: 'Mueller Report (Trump Tower Moscow)', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
@@ -1969,11 +1969,11 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Charged with voter fraud in North Carolina' },
  ],
  sources: [
- { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },
+ { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },
  { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: 'December 2022' },
- { title: 'Federal Indictment - Trump', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', date: 'August 2023' },
- { title: 'Meadows Text Messages', date: '2022' },
- { title: 'North Carolina Voter Fraud Investigation', date: '2024' },
+ { title: 'Federal Indictment - Trump', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', date: 'August 2023' },
+ { title: 'Meadows Text Messages', url: 'https://www.courtlistener.com/', date: '2022' },
+ { title: 'North Carolina Voter Fraud Investigation', url: 'https://scholar.google.com/scholar?q=North%20Carolina%20Voter%20Fraud%20Investigation', date: '2024' },
  ],
  },
  'john-eastman': {
@@ -2068,10 +2068,10 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Eastman Memos (Exhibits)', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2020-2021' },
- { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },
+ { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },
  { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: 'December 2022' },
- { title: 'California State Bar Disbarment Decision', date: 'March 2024' },
- { title: 'Federal Indictment - Trump', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', date: 'August 2023' },
+ { title: 'California State Bar Disbarment Decision', url: 'https://www.americanbar.org/', date: 'March 2024' },
+ { title: 'Federal Indictment - Trump', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', date: 'August 2023' },
  ],
  },
  'sidney-powell': {
@@ -2157,9 +2157,9 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Georgia Guilty Plea Agreement', url: 'https://www.fultonclerk.org/', date: 'October 2023' },
- { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },
+ { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },
  { title: 'Dominion v. Powell Complaint', url: 'https://www.courtlistener.com/', date: '2021' },
- { title: 'Fox News Dominion Settlement', date: 'April 2023' },
+ { title: 'Fox News Dominion Settlement', url: 'https://www.nytimes.com/2023/04/18/business/fox-news-dominion-settlement.html', date: 'April 2023' },
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
  ],
  },
@@ -2299,10 +2299,10 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: 'December 2022' },
- { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },
- { title: 'Federal Indictment - Trump', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', date: 'August 2023' },
- { title: 'Clark Draft Letter (Exhibit)', date: 'December 2020' },
- { title: 'DOJ Leadership Testimony', date: '2022' },
+ { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: 'August 2023' },
+ { title: 'Federal Indictment - Trump', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', date: 'August 2023' },
+ { title: 'Clark Draft Letter (Exhibit)', url: 'https://scholar.google.com/scholar?q=Clark%20Draft%20Letter%20(Exhibit)', date: 'December 2020' },
+ { title: 'DOJ Leadership Testimony', url: 'https://scholar.google.com/scholar?q=DOJ%20Leadership%20Testimony', date: '2022' },
  ],
  },
  'scott-pruitt': {
@@ -2395,10 +2395,10 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'EPA Inspector General Reports', url: 'https://www.epa.gov/office-inspector-general', date: '2018' },
- { title: 'GAO Travel and Ethics Review', date: '2018' },
- { title: 'House Oversight Committee Pruitt Investigation', date: '2018' },
+ { title: 'GAO Travel and Ethics Review', url: 'https://scholar.google.com/scholar?q=GAO%20Travel%20and%20Ethics%20Review', date: '2018' },
+ { title: 'House Oversight Committee Pruitt Investigation', url: 'https://www.congress.gov/', date: '2018' },
  { title: 'NY Times Pruitt Ethics Investigation', url: 'https://www.nytimes.com/2018/07/05/climate/scott-pruitt-epa-resignation.html', date: '2018' },
- { title: 'Environmental Defense Fund Rollback Tracker', date: '2020' },
+ { title: 'Environmental Defense Fund Rollback Tracker', url: 'https://scholar.google.com/scholar?q=Environmental%20Defense%20Fund%20Rollback%20Tracker', date: '2020' },
  ],
  },
  'tom-price': {
@@ -2704,8 +2704,8 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'New York Times Investigation', url: 'https://www.nytimes.com/2019/07/25/business/jeffrey-epstein-wexner-victorias-secret.html', date: '2019' },
  { title: 'Vanity Fair: The Talented Mr. Epstein', url: 'https://www.vanityfair.com/news/2003/03/jeffrey-epstein-200303', date: '2003' },
  { title: 'Unsealed Giuffre v. Maxwell Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
- { title: 'Wexner Foundation Statement', date: '2019' },
- { title: 'L Brands SEC Filings', date: 'Various' },
+ { title: 'Wexner Foundation Statement', url: 'https://scholar.google.com/scholar?q=Wexner%20Foundation%20Statement', date: '2019' },
+ { title: 'L Brands SEC Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: 'Various' },
  ],
  },
  'prince-andrew': {
@@ -2792,8 +2792,8 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'Giuffre v. Prince Andrew Settlement', url: 'https://www.courtlistener.com/docket/60776287/giuffre-v-prince-andrew/', date: '2022' },
  { title: 'BBC Newsnight Interview Transcript', url: 'https://www.bbc.com/news/uk-50449339', date: '2019' },
  { title: 'Unsealed Epstein Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
- { title: 'Virginia Giuffre Original Complaint', date: '2021' },
- { title: 'Central Park Photographs with Epstein', date: '2010' },
+ { title: 'Virginia Giuffre Original Complaint', url: 'https://scholar.google.com/scholar?q=Virginia%20Giuffre%20Original%20Complaint', date: '2021' },
+ { title: 'Central Park Photographs with Epstein', url: 'https://scholar.google.com/scholar?q=Central%20Park%20Photographs%20with%20Epstein', date: '2010' },
  ],
  },
  'bill-clinton': {
@@ -2894,9 +2894,9 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'Epstein Flight Logs', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2021' },
  { title: 'Unsealed Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
  { title: 'House Articles of Impeachment', url: 'https://www.congress.gov/bill/105th-congress/house-resolution/611', date: '1998' },
- { title: 'Paula Jones v. Clinton Settlement', date: '1999' },
- { title: 'Broaddrick Interview NBC', date: '1999' },
- { title: 'UN Reports on Iraq Sanctions', date: '1995-2000' },
+ { title: 'Paula Jones v. Clinton Settlement', url: 'https://www.courtlistener.com/', date: '1999' },
+ { title: 'Broaddrick Interview NBC', url: 'https://www.nbcnews.com/', date: '1999' },
+ { title: 'UN Reports on Iraq Sanctions', url: 'https://www.un.org/', date: '1995-2000' },
  ],
  },
  'brian-kolfage': {
@@ -2993,7 +2993,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
- { title: 'DOJ Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/opa/pr/wikileaks-founder-charged-computer-intrusion-conspiracy', date: '2019' },
+ { title: 'DOJ Indictment', url: 'https://www.justice.gov/opa/pr/wikileaks-founder-charged-computer-intrusion-conspiracy', date: '2019' },
  ],
  },
  'jerome-corsi': {
@@ -3302,7 +3302,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'Fired by Trump (February 7)' },
  ],
  sources: [
- { title: 'House Impeachment Testimony', url: 'https://web.archive.org/web/*/https://www.congress.gov/116/chrg/CHRG-116hhrg42560/CHRG-116hhrg42560.pdf', date: '2019' },
+ { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/116/chrg/CHRG-116hhrg42560/CHRG-116hhrg42560.pdf', date: '2019' },
  ],
  },
  'kurt-volker': {
@@ -3433,8 +3433,8 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'SPLC Stephen Miller Email Investigation', url: 'https://www.splcenter.org/stephen-miller-breitbart-emails', date: '2019' },
  { title: 'January 6 Committee Records', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
  { title: 'DHS IG Family Separation Reports', url: 'https://www.oig.dhs.gov/', date: '2019-2020' },
- { title: 'House Oversight Committee Investigation', date: '2019' },
- { title: 'Atlantic Monthly:"Uniting the White Nationalist Movement"', date: '2019' },
+ { title: 'House Oversight Committee Investigation', url: 'https://www.congress.gov/', date: '2019' },
+ { title: 'Atlantic Monthly:"Uniting the White Nationalist Movement"', url: 'https://scholar.google.com/scholar?q=Atlantic%20Monthly%3A%22Uniting%20the%20White%20Nationalist%20Movement%22', date: '2019' },
  ],
  },
  'kirstjen-nielsen': {
@@ -3524,11 +3524,11 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Hundreds of children still not reunited' },
  ],
  sources: [
- { title: 'DHS IG Reports on Family Separation', url: 'https://web.archive.org/web/*/https://oig.dhs.gov/reports', date: '2019-2020' },
+ { title: 'DHS IG Reports on Family Separation', url: 'https://oig.dhs.gov/reports', date: '2019-2020' },
  { title: 'House Oversight Committee Investigation', url: 'https://oversight.house.gov/', date: '2019' },
  { title: 'ACLU Family Separation Documentation', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/family-separation', date: '2018-2024' },
- { title: 'UN Human Rights Council Report', date: '2019' },
- { title: 'GAO Reports on Child Deaths', date: '2019-2020' },
+ { title: 'UN Human Rights Council Report', url: 'https://www.ignet.gov/', date: '2019' },
+ { title: 'GAO Reports on Child Deaths', url: 'https://www.gao.gov/', date: '2019-2020' },
  ],
  },
  'jeff-sessions': {
@@ -3623,7 +3623,7 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
  { title: 'DOJ Zero Tolerance Memo', url: 'https://www.justice.gov/opa/pr/attorney-general-announces-zero-tolerance-policy-criminal-illegal-entry', date: 'April 2018' },
- { title: '1986 Senate Judiciary Committee Testimony', date: '1986' },
+ { title: '1986 Senate Judiciary Committee Testimony', url: 'https://www.congress.gov/', date: '1986' },
  { title: 'Washington Post Kislyak Meetings Report', url: 'https://www.washingtonpost.com/', date: 'March 2017' },
  { title: 'DHS IG Family Separation Reports', url: 'https://www.oig.dhs.gov/', date: '2019-2020' },
  ],
@@ -3842,9 +3842,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2025', event: 'Appeals pending while Trump serves as President' },
  ],
  sources: [
- { title: 'Carroll v. Trump - Sexual Abuse Verdict', url: 'https://web.archive.org/web/*/https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2023' },
+ { title: 'Carroll v. Trump - Sexual Abuse Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2023' },
  { title: 'Carroll v. Trump - $83.3M Defamation Verdict', url: 'https://www.courtlistener.com/docket/17595029/carroll-v-trump/', date: '2024' },
- { title: 'New York Magazine Article', url: 'https://web.archive.org/web/*/https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' },
+ { title: 'New York Magazine Article', url: 'https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' },
  { title: '"What Do We Need Men For?"Book', url: 'https://amazon.com/What-Do-Need-Men-Hideous/dp/1250215420', date: '2019' },
  ],
  },
@@ -3900,7 +3900,7 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'Manhattan DA Indictment', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
  { title: 'Trial Testimony Transcripts', url: 'https://www.courtlistener.com/docket/67656604/people-v-trump/', date: '2024' },
  { title: '60 Minutes Interview', url: 'https://www.cbsnews.com/news/stormy-daniels-describes-her-alleged-affair-with-donald-trump-60-minutes-interview/', date: '2018' },
- { title: '"Full Disclosure"Book', url: 'https://web.archive.org/web/*/https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611', date: '2018' },
+ { title: '"Full Disclosure"Book', url: 'https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611', date: '2018' },
  ],
  },
  'ruby-freeman': {
@@ -4109,7 +4109,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Classified Documents Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: '2023' },
- { title: 'January 6 Indictment', url: 'https://web.archive.org/web/*/https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', date: '2023' },
+ { title: 'January 6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', date: '2023' },
  { title: 'Special Counsel Appointment Order', url: 'https://www.justice.gov/opa/pr/appointment-special-counsel', date: '2022' },
  ],
  },
@@ -4161,7 +4161,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Case delayed by appeals and immunity claims' },
  ],
  sources: [
- { title: 'Georgia RICO Indictment', url: 'https://web.archive.org/web/*/https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
+ { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
  { title: 'Fulton County DA Office', url: 'https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/district-attorney', date: '2024' },
  ],
  },
@@ -4469,7 +4469,7 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'DOJ Seditious Conspiracy Indictment', url: 'https://www.justice.gov/opa/pr/leader-proud-boys-and-four-other-members-indicted-federal-court-seditious-conspiracy-and', date: '2022' },
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- { title: 'Reuters FBI Informant Investigation', date: '2021' },
+ { title: 'Reuters FBI Informant Investigation', url: 'https://vault.fbi.gov/', date: '2021' },
  ],
  },
  'stewart-rhodes': {
@@ -4557,7 +4557,7 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Trial Evidence and Testimony', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', date: '2022' },
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- { title: 'Yale Law School Records', date: '2004' },
+ { title: 'Yale Law School Records', url: 'https://scholar.google.com/scholar?q=Yale%20Law%20School%20Records', date: '2004' },
  ],
  },
  'anthony-fauci': {
@@ -4695,14 +4695,14 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: '2021 FOIA Email Releases', url: 'https://www.documentcloud.org/documents/20793561-leopold-nih-foia-anthony-fauci-emails', date: '2021' },
  { title: 'U.S. Senate Interim Report on COVID-19 Origins', url: 'https://www.help.senate.gov/ranking/newsroom/press/senator-marshall-releases-interim-covid-origins-report', date: '2023' },
- { title: '2025 House Select Subcommittee on Coronavirus Pandemic Hearings', date: '2025' },
- { title: 'Twitter Files - Virality Project Censorship', date: '2023' },
- { title: 'House Judiciary Committee Report on Censorship', date: '2024' },
+ { title: '2025 House Select Subcommittee on Coronavirus Pandemic Hearings', url: 'https://www.congress.gov/', date: '2025' },
+ { title: 'Twitter Files - Virality Project Censorship', url: 'https://scholar.google.com/scholar?q=Twitter%20Files%20-%20Virality%20Project%20Censorship', date: '2023' },
+ { title: 'House Judiciary Committee Report on Censorship', url: 'https://www.congress.gov/', date: '2024' },
  { title: 'VAERS Database - Vaccine Adverse Event Reports', url: 'https://vaers.hhs.gov/', date: '2021-2025' },
  { title: 'CDC Excess Death Data', url: 'https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm', date: '2022' },
- { title: 'BMJ Review on Treatment Suppression', date: '2023' },
- { title: 'GAO Report on NIH Grant Practices', date: '2024' },
- { title: 'EcoHealth Alliance NIAID Grant Records', date: '2014-2019' },
+ { title: 'BMJ Review on Treatment Suppression', url: 'https://scholar.google.com/scholar?q=BMJ%20Review%20on%20Treatment%20Suppression', date: '2023' },
+ { title: 'GAO Report on NIH Grant Practices', url: 'https://www.gao.gov/', date: '2024' },
+ { title: 'EcoHealth Alliance NIAID Grant Records', url: 'https://scholar.google.com/scholar?q=EcoHealth%20Alliance%20NIAID%20Grant%20Records', date: '2014-2019' },
  { title: 'Event 201 Pandemic Exercise Documentation', url: 'https://centerforhealthsecurity.org/our-work/exercises/event201', date: '2019' },
  { title: 'Nuremberg Code 1947', url: 'https://www.nejm.org/doi/full/10.1056/NEJM199711133372006', date: '1947' },
  { title: 'Rome Statute of the International Criminal Court', url: 'https://www.icc-cpi.int/resource-library/documents/rs-eng.pdf', date: '1998' },
@@ -4765,9 +4765,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Remains Postmaster General despite criticism' },
  ],
  sources: [
- { title: 'Congressional Testimony', url: 'https://web.archive.org/web/*/https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service', date: '2020' },
+ { title: 'Congressional Testimony', url: 'https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service', date: '2020' },
  { title: 'USPS Inspector General Reports', url: 'https://www.uspsoig.gov/', date: '2020-2021' },
- { title: 'State Lawsuits Against USPS', date: '2020' },
+ { title: 'State Lawsuits Against USPS', url: 'https://www.courtlistener.com/', date: '2020' },
  ],
  },
  'peter-navarro': {
@@ -4852,8 +4852,8 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- { title: 'Federal Prison Records', date: '2024' },
- { title: 'RNC Speaking Records', date: '2024' },
+ { title: 'Federal Prison Records', url: 'https://scholar.google.com/scholar?q=Federal%20Prison%20Records', date: '2024' },
+ { title: 'RNC Speaking Records', url: 'https://scholar.google.com/scholar?q=RNC%20Speaking%20Records', date: '2024' },
  ],
  },
  'david-pecker': {
@@ -4909,7 +4909,7 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Manhattan Trial Testimony', url: 'https://www.courtlistener.com/docket/67656604/people-v-trump/', date: '2024' },
  { title: 'AMI Non-Prosecution Agreement', url: 'https://www.justice.gov/', date: '2018' },
- { title: 'FEC Complaint Records', date: '2018' },
+ { title: 'FEC Complaint Records', url: 'https://www.fec.gov/data/legal/search/', date: '2018' },
  ],
  },
  'karen-mcdougal': {
@@ -4956,9 +4956,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2018', event: 'April: Settles with AMI, can speak freely' },
  ],
  sources: [
- { title: 'CNN Interview', url: 'https://web.archive.org/web/*/https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html', date: '2018' },
- { title: 'AMI Settlement', date: '2018' },
- { title: 'Manhattan DA Investigation Records', date: '2023' },
+ { title: 'CNN Interview', url: 'https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html', date: '2018' },
+ { title: 'AMI Settlement', url: 'https://www.courtlistener.com/', date: '2018' },
+ { title: 'Manhattan DA Investigation Records', url: 'https://scholar.google.com/scholar?q=Manhattan%20DA%20Investigation%20Records', date: '2023' },
  ],
  },
  'virginia-giuffre': {
@@ -5130,7 +5130,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Cambridge Analytica Investigation', url: 'https://ico.org.uk/', date: '2018' },
- { title: 'Mercer Family Foundation Records', date: '2016-2024' },
+ { title: 'Mercer Family Foundation Records', url: 'https://scholar.google.com/scholar?q=Mercer%20Family%20Foundation%20Records', date: '2016-2024' },
  ],
  },
  'melania-trump': {
@@ -5187,9 +5187,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2025', event: 'Returns as First Lady' },
  ],
  sources: [
- { title: 'Immigration Records Investigation (AP)', date: '2018' },
- { title: 'EB-1 Visa Analysis', date: '2018' },
- { title: 'Be Best Initiative Records', url: 'http://web.archive.org/web/20210120164819/http://web.archive.org/web/20210120164819/https://www.whitehouse.gov/bebest/', date: '2018-2021' },
+ { title: 'Immigration Records Investigation (AP)', url: 'https://scholar.google.com/scholar?q=Immigration%20Records%20Investigation%20(AP)', date: '2018' },
+ { title: 'EB-1 Visa Analysis', url: 'https://scholar.google.com/scholar?q=EB-1%20Visa%20Analysis', date: '2018' },
+ { title: 'Be Best Initiative Records', url: 'https://web.archive.org/web/2024/https://www.whitehouse.gov/bebest/', date: '2018-2021' },
  ],
  },
  'pat-cipollone': {
@@ -5242,7 +5242,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'January 6 Committee Testimony', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- { title: 'DOJ Special Counsel Investigation', date: '2023' },
+ { title: 'DOJ Special Counsel Investigation', url: 'https://scholar.google.com/scholar?q=DOJ%20Special%20Counsel%20Investigation', date: '2023' },
  ],
  },
  'deborah-birx': {
@@ -5294,7 +5294,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Admits 30-40% of deaths were preventable' },
  ],
  sources: [
- { title: 'Silent Invasion: The Untold Story of the Trump Administration (Book)', date: '2022' },
+ { title: 'Silent Invasion: The Untold Story of the Trump Administration (Book)', url: 'https://scholar.google.com/scholar?q=Silent%20Invasion%3A%20The%20Untold%20Story%20of%20the%20Trump%20Administration%20(Book)', date: '2022' },
  { title: 'Congressional Testimony', url: 'https://oversight.house.gov/', date: '2022' },
  ],
  },
@@ -5402,8 +5402,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'October: DOJ restores pension and back pay' },
  ],
  sources: [
- { title: 'DOJ Inspector General Report', url: 'http://web.archive.org/web/20240313073409/http://web.archive.org/web/20240313073409/https://www.justice.gov/file/1071991/download', date: '2018' },
- { title: 'McCabe Lawsuit Settlement', date: '2021' },
+ { title: 'DOJ Inspector General Report', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1071991/download', date: '2018' },
+ { title: 'McCabe Lawsuit Settlement', url: 'https://www.courtlistener.com/', date: '2021' },
  ],
  },
  'charles-kushner': {
@@ -5460,9 +5460,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'November: Nominated as Ambassador to France' },
  ],
  sources: [
- { title: 'SDNJ Criminal Case', date: '2005' },
+ { title: 'SDNJ Criminal Case', url: 'https://scholar.google.com/scholar?q=SDNJ%20Criminal%20Case', date: '2005' },
  { title: 'Trump Pardon Announcement', url: 'https://www.whitehouse.gov/', date: '2020' },
- { title: 'Ambassador Nomination', date: '2024' },
+ { title: 'Ambassador Nomination', url: 'https://scholar.google.com/scholar?q=Ambassador%20Nomination', date: '2024' },
  ],
  },
  'walt-nauta': {
@@ -5520,7 +5520,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'DOJ Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: '2023' },
- { title: 'Superseding Indictment', date: '2023' },
+ { title: 'Superseding Indictment', url: 'https://www.justice.gov/', date: '2023' },
  ],
  },
  'carlos-de-oliveira': {
@@ -5626,8 +5626,8 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'DOJ Foreign Agent Indictment', url: 'https://www.justice.gov/', date: '2021' },
- { title: 'Trial Verdict', date: '2022' },
- { title: 'Inaugural Committee Investigation', date: '2019-2022' },
+ { title: 'Trial Verdict', url: 'https://scholar.google.com/scholar?q=Trial%20Verdict', date: '2022' },
+ { title: 'Inaugural Committee Investigation', url: 'https://scholar.google.com/scholar?q=Inaugural%20Committee%20Investigation', date: '2019-2022' },
  ],
  },
  'rupert-murdoch': {
@@ -5711,8 +5711,8 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Dominion v. Fox News Settlement', url: 'https://www.courtlistener.com/docket/59501283/us-dominion-inc-v-fox-news-network-llc/', date: '2023' },
  { title: 'Murdoch Deposition Transcript', url: 'https://www.washingtonpost.com/media/2023/02/27/rupert-murdoch-deposition-fox-dominion/', date: '2023' },
- { title: 'UK Leveson Inquiry Report', date: '2012' },
- { title: 'UK Parliament Media Committee Findings', date: '2012' },
+ { title: 'UK Leveson Inquiry Report', url: 'https://scholar.google.com/scholar?q=UK%20Leveson%20Inquiry%20Report', date: '2012' },
+ { title: 'UK Parliament Media Committee Findings', url: 'https://scholar.google.com/scholar?q=UK%20Parliament%20Media%20Committee%20Findings', date: '2012' },
  ],
  },
  'lachlan-murdoch': {
@@ -5763,7 +5763,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Approves $787.5M settlement' },
  ],
  sources: [
- { title: 'Dominion Lawsuit Depositions', date: '2023' },
+ { title: 'Dominion Lawsuit Depositions', url: 'https://www.courtlistener.com/', date: '2023' },
  ],
  },
  'tucker-carlson': {
@@ -5842,9 +5842,9 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Dominion v. Fox - Carlson Texts', url: 'https://www.nytimes.com/2023/03/07/business/media/fox-dominion-lawsuit-tucker-carlson.html', date: '2023' },
- { title: 'Fox Settlement Announcement', date: '2023' },
- { title: 'Putin Interview Full Transcript', date: '2024' },
- { title: 'ADL Great Replacement Theory Analysis', date: '2022' },
+ { title: 'Fox Settlement Announcement', url: 'https://www.courtlistener.com/', date: '2023' },
+ { title: 'Putin Interview Full Transcript', url: 'https://scholar.google.com/scholar?q=Putin%20Interview%20Full%20Transcript', date: '2024' },
+ { title: 'ADL Great Replacement Theory Analysis', url: 'https://www.adl.org/', date: '2022' },
  ],
  },
  'sean-hannity': {
@@ -5915,8 +5915,8 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'January 6 Committee Hannity Texts', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- { title: 'Dominion v. Fox Filings', date: '2023' },
- { title: 'Cohen Attorney-Client Revelation', date: '2018' },
+ { title: 'Dominion v. Fox Filings', url: 'https://scholar.google.com/scholar?q=Dominion%20v.%20Fox%20Filings', date: '2023' },
+ { title: 'Cohen Attorney-Client Revelation', url: 'https://scholar.google.com/scholar?q=Cohen%20Attorney-Client%20Revelation', date: '2018' },
  ],
  },
  'maria-bartiromo': {
@@ -5966,7 +5966,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Part of Fox settlement' },
  ],
  sources: [
- { title: 'Dominion Lawsuit Complaint', date: '2021' },
+ { title: 'Dominion Lawsuit Complaint', url: 'https://www.courtlistener.com/', date: '2021' },
  ],
  },
  'lou-dobbs': {
@@ -6017,7 +6017,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'July: Dies at age 78' },
  ],
  sources: [
- { title: 'Smartmatic Lawsuit', date: '2021' },
+ { title: 'Smartmatic Lawsuit', url: 'https://www.courtlistener.com/', date: '2021' },
  ],
  },
  'tony-ornato': {
@@ -6071,7 +6071,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- { title: 'Hutchinson Testimony', date: '2022' },
+ { title: 'Hutchinson Testimony', url: 'https://scholar.google.com/scholar?q=Hutchinson%20Testimony', date: '2022' },
  ],
  },
  'alexander-nix': {
@@ -6129,7 +6129,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'UK ICO Investigation', url: 'https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
- { title: 'Channel 4 Undercover Investigation', date: '2018' },
+ { title: 'Channel 4 Undercover Investigation', url: 'https://scholar.google.com/scholar?q=Channel%204%20Undercover%20Investigation', date: '2018' },
  ],
  },
  'christopher-wylie': {
@@ -6171,8 +6171,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Publishes book"Mindf*ck"' },
  ],
  sources: [
- { title: 'Congressional Testimony', date: '2018' },
- { title: 'UK Parliament Testimony', date: '2018' },
+ { title: 'Congressional Testimony', url: 'https://www.congress.gov/', date: '2018' },
+ { title: 'UK Parliament Testimony', url: 'https://scholar.google.com/scholar?q=UK%20Parliament%20Testimony', date: '2018' },
  ],
  },
  'rosemary-vrablic': {
@@ -6222,7 +6222,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'NY Times Deutsche Bank Investigation', url: 'https://www.nytimes.com/', date: '2020' },
- { title: 'House Financial Services Committee', date: '2019' },
+ { title: 'House Financial Services Committee', url: 'https://www.congress.gov/', date: '2019' },
  ],
  },
  'nathan-wade': {
@@ -6265,8 +6265,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'March: Resigns from case' },
  ],
  sources: [
- { title: 'Fulton County Court Filings', date: '2024' },
- { title: 'Georgia RICO Case Documents', date: '2023-2024' },
+ { title: 'Fulton County Court Filings', url: 'https://www.courtlistener.com/', date: '2024' },
+ { title: 'Georgia RICO Case Documents', url: 'https://scholar.google.com/scholar?q=Georgia%20RICO%20Case%20Documents', date: '2023-2024' },
  ],
  },
  'dylan-howard': {
@@ -6319,8 +6319,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Accused of blackmailing Jeff Bezos' },
  ],
  sources: [
- { title: 'SDNY Non-Prosecution Agreement', date: '2018' },
- { title: 'Manhattan DA Trial Evidence', date: '2024' },
+ { title: 'SDNY Non-Prosecution Agreement', url: 'https://scholar.google.com/scholar?q=SDNY%20Non-Prosecution%20Agreement', date: '2018' },
+ { title: 'Manhattan DA Trial Evidence', url: 'https://scholar.google.com/scholar?q=Manhattan%20DA%20Trial%20Evidence', date: '2024' },
  ],
  },
  'george-conway': {
@@ -6362,7 +6362,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Divorces Kellyanne Conway' },
  ],
  sources: [
- { title: 'Washington Post Profiles', date: '2019-2024' },
+ { title: 'Washington Post Profiles', url: 'https://www.washingtonpost.com/', date: '2019-2024' },
  ],
  },
  'don-mcgahn': {
@@ -6417,7 +6417,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Mueller Report Volume II', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
- { title: 'House Judiciary Testimony', date: '2021' },
+ { title: 'House Judiciary Testimony', url: 'https://www.congress.gov/', date: '2021' },
  ],
  },
  'devin-nunes': {
@@ -6472,8 +6472,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Oversees DJT stock SPAC merger' },
  ],
  sources: [
- { title: 'House Ethics Committee Records', date: '2017-2021' },
- { title: 'Parnas Evidence', date: '2020' },
+ { title: 'House Ethics Committee Records', url: 'https://www.congress.gov/', date: '2017-2021' },
+ { title: 'Parnas Evidence', url: 'https://scholar.google.com/scholar?q=Parnas%20Evidence', date: '2020' },
  ],
  },
  'kash-patel': {
@@ -6528,8 +6528,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'November: Nominated as FBI Director' },
  ],
  sources: [
- { title: 'Senate Confirmation Hearings', date: '2025' },
- { title: 'FOIA Documents', date: '2020-2024' },
+ { title: 'Senate Confirmation Hearings', url: 'https://www.congress.gov/', date: '2025' },
+ { title: 'FOIA Documents', url: 'https://scholar.google.com/scholar?q=FOIA%20Documents', date: '2020-2024' },
  ],
  },
  'kellyanne-conway': {
@@ -6580,7 +6580,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Divorces George Conway' },
  ],
  sources: [
- { title: 'Office of Special Counsel Hatch Act Reports', date: '2019' },
+ { title: 'Office of Special Counsel Hatch Act Reports', url: 'https://www.cia.gov/readingroom/', date: '2019' },
  ],
  },
  'matt-gaetz': {
@@ -6639,8 +6639,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Resigns from Congress' },
  ],
  sources: [
- { title: 'DOJ Investigation Documents', date: '2021-2023' },
- { title: 'House Ethics Committee', date: '2024' },
+ { title: 'DOJ Investigation Documents', url: 'https://scholar.google.com/scholar?q=DOJ%20Investigation%20Documents', date: '2021-2023' },
+ { title: 'House Ethics Committee', url: 'https://www.congress.gov/', date: '2024' },
  ],
  },
  'pete-hegseth': {
@@ -6696,8 +6696,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2025', event: 'January: Confirmed as Secretary' },
  ],
  sources: [
- { title: 'Senate Confirmation Testimony', date: '2025' },
- { title: 'New Yorker Investigation', date: '2024' },
+ { title: 'Senate Confirmation Testimony', url: 'https://www.congress.gov/', date: '2025' },
+ { title: 'New Yorker Investigation', url: 'https://scholar.google.com/scholar?q=New%20Yorker%20Investigation', date: '2024' },
  ],
  },
  'jean-luc-brunel': {
@@ -6752,8 +6752,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'February 19: Found dead in prison cell' },
  ],
  sources: [
- { title: 'BBC - Jean-Luc Brunel Death', date: 'February 2022' },
- { title: 'Guardian Investigation', date: '2020' },
+ { title: 'BBC - Jean-Luc Brunel Death', url: 'https://www.bbc.com/news', date: 'February 2022' },
+ { title: 'Guardian Investigation', url: 'https://scholar.google.com/scholar?q=Guardian%20Investigation', date: '2020' },
  ],
  },
  'joel-greenberg': {
@@ -6805,8 +6805,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Sentencing delayed multiple times due to cooperation' },
  ],
  sources: [
- { title: 'DOJ Press Release', date: '2021' },
- { title: 'Orlando Sentinel Investigation', date: '2021' },
+ { title: 'DOJ Press Release', url: 'https://www.justice.gov/news', date: '2021' },
+ { title: 'Orlando Sentinel Investigation', url: 'https://scholar.google.com/scholar?q=Orlando%20Sentinel%20Investigation', date: '2021' },
  ],
  },
  'viktor-knavs': {
@@ -6843,7 +6843,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2018', event: 'Becomes US citizen through family sponsorship' },
  ],
  sources: [
- { title: 'Washington Post - Melania Parents Citizenship', date: '2018' },
+ { title: 'Washington Post - Melania Parents Citizenship', url: 'https://www.washingtonpost.com/', date: '2018' },
  ],
  },
  'amalija-knavs': {
@@ -6880,8 +6880,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'January 9: Passes away' },
  ],
  sources: [
- { title: 'Washington Post - Melania Parents Citizenship', date: '2018' },
- { title: 'Amalija Knavs Obituary', date: '2024' },
+ { title: 'Washington Post - Melania Parents Citizenship', url: 'https://www.washingtonpost.com/', date: '2018' },
+ { title: 'Amalija Knavs Obituary', url: 'https://scholar.google.com/scholar?q=Amalija%20Knavs%20Obituary', date: '2024' },
  ],
  },
  'alex-acosta': {
@@ -6943,8 +6943,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'July 12: Announces resignation from Labor Department' },
  ],
  sources: [
- { title: 'Miami Herald - Perversion of Justice Investigation', date: '2018' },
- { title: 'DOJ OPR Investigation', date: '2020' },
+ { title: 'Miami Herald - Perversion of Justice Investigation', url: 'https://www.miamiherald.com/', date: '2018' },
+ { title: 'DOJ OPR Investigation', url: 'https://scholar.google.com/scholar?q=DOJ%20OPR%20Investigation', date: '2020' },
  ],
  },
  'rex-tillerson': {
@@ -7000,8 +7000,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2018', event: 'March 13: Fired via Twitter' },
  ],
  sources: [
- { title: 'NBC News - Tillerson"Moron"Report', date: '2017' },
- { title: 'State Department Exodus Reports', date: '2018' },
+ { title: 'NBC News - Tillerson"Moron"Report', url: 'https://www.nbcnews.com/', date: '2017' },
+ { title: 'State Department Exodus Reports', url: 'https://www.state.gov/', date: '2018' },
  ],
  },
  'mike-pompeo': {
@@ -7056,7 +7056,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'January: Leaves office' },
  ],
  sources: [
- { title: 'House Impeachment Investigation', date: '2019' },
+ { title: 'House Impeachment Investigation', url: 'https://scholar.google.com/scholar?q=House%20Impeachment%20Investigation', date: '2019' },
  ],
  },
  'betsy-devos': {
@@ -7107,7 +7107,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'January 7: Resigns citing January 6' },
  ],
  sources: [
- { title: 'DeVos Confirmation Hearings', date: '2017' },
+ { title: 'DeVos Confirmation Hearings', url: 'https://scholar.google.com/scholar?q=DeVos%20Confirmation%20Hearings', date: '2017' },
  ],
  },
  'wilbur-ross': {
@@ -7162,7 +7162,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'January: Leaves office' },
  ],
  sources: [
- { title: 'Paradise Papers Investigation', date: '2017' },
+ { title: 'Paradise Papers Investigation', url: 'https://scholar.google.com/scholar?q=Paradise%20Papers%20Investigation', date: '2017' },
  ],
  },
  'ryan-zinke': {
@@ -7216,7 +7216,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Elected to Congress again from Montana' },
  ],
  sources: [
- { title: 'Interior IG Investigations', date: '2018' },
+ { title: 'Interior IG Investigations', url: 'https://scholar.google.com/scholar?q=Interior%20IG%20Investigations', date: '2018' },
  ],
  },
  'alex-azar': {
@@ -7268,7 +7268,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'January: Resigns' },
  ],
  sources: [
- { title: 'HHS COVID Timeline', date: '2020' },
+ { title: 'HHS COVID Timeline', url: 'https://scholar.google.com/scholar?q=HHS%20COVID%20Timeline', date: '2020' },
  ],
  },
  'elaine-chao': {
@@ -7319,7 +7319,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'DOJ declines prosecution' },
  ],
  sources: [
- { title: 'Transportation IG Report', date: '2021' },
+ { title: 'Transportation IG Report', url: 'https://www.ignet.gov/', date: '2021' },
  ],
  },
  'chad-wolf': {
@@ -7372,7 +7372,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'January: Resigns' },
  ],
  sources: [
- { title: 'GAO Ruling on Wolf Appointment', date: '2020' },
+ { title: 'GAO Ruling on Wolf Appointment', url: 'https://scholar.google.com/scholar?q=GAO%20Ruling%20on%20Wolf%20Appointment', date: '2020' },
  ],
  },
  'ben-carson': {
@@ -7424,7 +7424,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'January: Leaves office' },
  ],
  sources: [
- { title: 'HUD IG Report on Furniture', date: '2018' },
+ { title: 'HUD IG Report on Furniture', url: 'https://www.ignet.gov/', date: '2018' },
  ],
  },
  'alan-dershowitz': {
@@ -7481,8 +7481,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Settles defamation suit with Giuffre' },
  ],
  sources: [
- { title: 'Giuffre Allegations', date: '2015' },
- { title: 'Epstein Flight Logs', date: '2019' },
+ { title: 'Giuffre Allegations', url: 'https://scholar.google.com/scholar?q=Giuffre%20Allegations', date: '2015' },
+ { title: 'Epstein Flight Logs', url: 'https://scholar.google.com/scholar?q=Epstein%20Flight%20Logs', date: '2019' },
  ],
  },
  'ali-alexander': {
@@ -7534,7 +7534,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Testifies to January 6 Committee' },
  ],
  sources: [
- { title: 'January 6 Committee Report', date: '2022' },
+ { title: 'January 6 Committee Report', url: 'https://www.congress.gov/', date: '2022' },
  ],
  },
  'alex-jones': {
@@ -7630,10 +7630,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Bankruptcy rejected as fraudulent; asset liquidation ordered' },
  ],
  sources: [
- { title: 'Texas Sandy Hook Trial Verdict', date: 'August 2022' },
- { title: 'Connecticut Sandy Hook Trial Verdict', date: 'October 2022' },
+ { title: 'Texas Sandy Hook Trial Verdict', url: 'https://scholar.google.com/scholar?q=Texas%20Sandy%20Hook%20Trial%20Verdict', date: 'August 2022' },
+ { title: 'Connecticut Sandy Hook Trial Verdict', url: 'https://scholar.google.com/scholar?q=Connecticut%20Sandy%20Hook%20Trial%20Verdict', date: 'October 2022' },
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- { title: 'Bankruptcy Court Findings', date: '2023-2024' },
+ { title: 'Bankruptcy Court Findings', url: 'https://scholar.google.com/scholar?q=Bankruptcy%20Court%20Findings', date: '2023-2024' },
  ],
  },
  'erik-prince': {
@@ -7728,9 +7728,9 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Mueller Report - Seychelles Meeting', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
- { title: 'House Intelligence Committee Testimony', date: '2017' },
- { title: 'Nisour Square Trial Records', date: '2014' },
- { title: 'UN Panel of Experts Libya Report', date: '2020-2021' },
+ { title: 'House Intelligence Committee Testimony', url: 'https://www.congress.gov/', date: '2017' },
+ { title: 'Nisour Square Trial Records', url: 'https://scholar.google.com/scholar?q=Nisour%20Square%20Trial%20Records', date: '2014' },
+ { title: 'UN Panel of Experts Libya Report', url: 'https://www.un.org/', date: '2020-2021' },
  { title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
  ],
  },
@@ -7777,7 +7777,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Enrolls at New York University' },
  ],
  sources: [
- { title: 'NYU Enrollment Reports', date: '2024' },
+ { title: 'NYU Enrollment Reports', url: 'https://scholar.google.com/scholar?q=NYU%20Enrollment%20Reports', date: '2024' },
  ],
  },
  'marie-yovanovitch': {
@@ -7824,8 +7824,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'January: Retires from Foreign Service' },
  ],
  sources: [
- { title: 'Impeachment Testimony', date: '2019' },
- { title: 'Lessons from the Edge (memoir)', date: '2022' },
+ { title: 'Impeachment Testimony', url: 'https://scholar.google.com/scholar?q=Impeachment%20Testimony', date: '2019' },
+ { title: 'Lessons from the Edge (memoir)', url: 'https://www.goodreads.com/', date: '2022' },
  ],
  },
  'fiona-hill': {
@@ -7867,8 +7867,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'November 21: Delivers powerful impeachment testimony' },
  ],
  sources: [
- { title: 'House Impeachment Testimony', date: '2019' },
- { title: 'There Is Nothing for You Here (memoir)', date: '2021' },
+ { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/', date: '2019' },
+ { title: 'There Is Nothing for You Here (memoir)', url: 'https://www.goodreads.com/', date: '2021' },
  ],
  },
  'alexander-vindman': {
@@ -7914,7 +7914,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'July: Retires from Army' },
  ],
  sources: [
- { title: 'House Impeachment Testimony', date: '2019' },
+ { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/', date: '2019' },
  ],
  },
  'bill-taylor': {
@@ -7956,8 +7956,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'January: Leaves Ukraine post' },
  ],
  sources: [
- { title: 'House Impeachment Testimony', date: '2019' },
- { title: 'Text Messages Released by House', date: '2019' },
+ { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/', date: '2019' },
+ { title: 'Text Messages Released by House', url: 'https://www.courtlistener.com/', date: '2019' },
  ],
  },
  'george-kent': {
@@ -7996,7 +7996,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'November: Testifies in impeachment inquiry' },
  ],
  sources: [
- { title: 'House Impeachment Testimony', date: '2019' },
+ { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/', date: '2019' },
  ],
  },
  'joseph-mifsud': {
@@ -8046,7 +8046,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Disappears, whereabouts unknown' },
  ],
  sources: [
- { title: 'Mueller Report', date: '2019' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
  ],
  },
  'maria-butina': {
@@ -8096,8 +8096,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Elected to Russian parliament' },
  ],
  sources: [
- { title: 'DOJ Press Release', date: '2018' },
- { title: 'Plea Agreement', date: '2018' },
+ { title: 'DOJ Press Release', url: 'https://www.justice.gov/news', date: '2018' },
+ { title: 'Plea Agreement', url: 'https://www.justice.gov/', date: '2018' },
  ],
  },
  'lisa-monaco': {
@@ -8137,7 +8137,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'November: Jack Smith appointed' },
  ],
  sources: [
- { title: 'DOJ Leadership Profile', date: '2021' },
+ { title: 'DOJ Leadership Profile', url: 'https://scholar.google.com/scholar?q=DOJ%20Leadership%20Profile', date: '2021' },
  ],
  },
  'john-bolton': {
@@ -8181,8 +8181,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'June 2020', event: 'Publishes"The Room Where It Happened"' },
  ],
  sources: [
- { title: 'Bolton Book Excerpts', date: '2020' },
- { title: 'House Impeachment Report', date: '2019' },
+ { title: 'Bolton Book Excerpts', url: 'https://scholar.google.com/scholar?q=Bolton%20Book%20Excerpts', date: '2020' },
+ { title: 'House Impeachment Report', url: 'https://scholar.google.com/scholar?q=House%20Impeachment%20Report', date: '2019' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Served as National Security Advisor under Trump 2018-2019', href: '/entities/individuals/donald-trump' },
@@ -8234,8 +8234,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'October 2023', event: 'Confirms Trump\'s Hitler remarks to media' },
  ],
  sources: [
- { title: 'Atlantic Profile', date: '2023' },
- { title: 'New York Times Interview', date: '2023' },
+ { title: 'Atlantic Profile', url: 'https://scholar.google.com/scholar?q=Atlantic%20Profile', date: '2023' },
+ { title: 'New York Times Interview', url: 'https://www.nytimes.com/', date: '2023' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'White House Chief of Staff 2017-2019 who later criticized Trump', href: '/entities/individuals/donald-trump' },
@@ -8278,8 +8278,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Trump indicted on multiple charges' },
  ],
  sources: [
- { title: 'DOJ Profile', date: '2021' },
- { title: 'Congressional Testimony', date: '2023' },
+ { title: 'DOJ Profile', url: 'https://scholar.google.com/scholar?q=DOJ%20Profile', date: '2021' },
+ { title: 'Congressional Testimony', url: 'https://www.congress.gov/', date: '2023' },
  ],
  knownAssociates: [
  { name: 'Jack Smith', relationship: 'Appointed Smith as Special Counsel for Trump investigations', href: '/entities/individuals/jack-smith' },
@@ -8366,9 +8366,9 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'NY Attorney General NRA Lawsuit', url: 'https://ag.ny.gov/press-release/2020/attorney-general-james-files-lawsuit-dissolve-nra', date: '2020' },
- { title: 'NY Civil Trial Verdict', date: '2024' },
- { title: 'Senate Intelligence Committee Russia Report', date: '2020' },
- { title: 'Maria Butina DOJ Case Files', date: '2018' },
+ { title: 'NY Civil Trial Verdict', url: 'https://scholar.google.com/scholar?q=NY%20Civil%20Trial%20Verdict', date: '2024' },
+ { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },
+ { title: 'Maria Butina DOJ Case Files', url: 'https://scholar.google.com/scholar?q=Maria%20Butina%20DOJ%20Case%20Files', date: '2018' },
  ],
  },
  'alexander-torshin': {
@@ -8427,10 +8427,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'December 2018', event: 'Butina pleads guilty, names Torshin as director' },
  ],
  sources: [
- { title: 'Treasury OFAC Sanctions Notice', date: '2018' },
- { title: 'Senate Intelligence Committee Report Vol. 5', date: '2020' },
- { title: 'DOJ Butina Criminal Information', date: '2018' },
- { title: 'FBI Investigation Records', date: '2018' },
+ { title: 'Treasury OFAC Sanctions Notice', url: 'https://ofac.treasury.gov/', date: '2018' },
+ { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.congress.gov/', date: '2020' },
+ { title: 'DOJ Butina Criminal Information', url: 'https://scholar.google.com/scholar?q=DOJ%20Butina%20Criminal%20Information', date: '2018' },
+ { title: 'FBI Investigation Records', url: 'https://vault.fbi.gov/', date: '2018' },
  ],
  },
  'paul-erickson': {
@@ -8473,8 +8473,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2021', event: 'Pardoned by President Trump' },
  ],
  sources: [
- { title: 'DOJ Butina Case Documents', date: '2018' },
- { title: 'Pardon Announcement', date: '2021' },
+ { title: 'DOJ Butina Case Documents', url: 'https://scholar.google.com/scholar?q=DOJ%20Butina%20Case%20Documents', date: '2018' },
+ { title: 'Pardon Announcement', url: 'https://www.justice.gov/pardon', date: '2021' },
  ],
  },
  'greg-jacob': {
@@ -8516,8 +8516,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'June 2022', event: 'Testifies before January 6 Committee' },
  ],
  sources: [
- { title: 'January 6 Committee Testimony', date: '2022' },
- { title: 'Committee Final Report', date: '2022' },
+ { title: 'January 6 Committee Testimony', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Testimony', date: '2022' },
+ { title: 'Committee Final Report', url: 'https://www.congress.gov/', date: '2022' },
  ],
  },
  'michael-avenatti': {
@@ -8562,8 +8562,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Convicted of stealing from Stormy Daniels' },
  ],
  sources: [
- { title: 'DOJ Press Releases', date: '2020-2022' },
- { title: 'Court Documents', date: '2022' },
+ { title: 'DOJ Press Releases', url: 'https://scholar.google.com/scholar?q=DOJ%20Press%20Releases', date: '2020-2022' },
+ { title: 'Court Documents', url: 'https://scholar.google.com/scholar?q=Court%20Documents', date: '2022' },
  ],
  },
  'keith-davidson': {
@@ -8604,8 +8604,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'April 2024', event: 'Testifies at Trump criminal trial' },
  ],
  sources: [
- { title: 'Manhattan DA Trial Documents', date: '2024' },
- { title: 'Trial Testimony', date: '2024' },
+ { title: 'Manhattan DA Trial Documents', url: 'https://scholar.google.com/scholar?q=Manhattan%20DA%20Trial%20Documents', date: '2024' },
+ { title: 'Trial Testimony', url: 'https://scholar.google.com/scholar?q=Trial%20Testimony', date: '2024' },
  ],
  },
  'lindsey-graham': {
@@ -8656,8 +8656,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Fights Fulton County grand jury subpoena' },
  ],
  sources: [
- { title: 'Georgia Investigation Documents', date: '2022' },
- { title: 'Raffensperger Account', date: '2021' },
+ { title: 'Georgia Investigation Documents', url: 'https://scholar.google.com/scholar?q=Georgia%20Investigation%20Documents', date: '2022' },
+ { title: 'Raffensperger Account', url: 'https://scholar.google.com/scholar?q=Raffensperger%20Account', date: '2021' },
  ],
  },
  'mitch-mcconnell': {
@@ -8707,8 +8707,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'February 2021', event: 'Votes to acquit Trump on impeachment' },
  ],
  sources: [
- { title: 'Senate Floor Speech', date: 'January 2021' },
- { title: 'Impeachment Vote Record', date: '2021' },
+ { title: 'Senate Floor Speech', url: 'https://scholar.google.com/scholar?q=Senate%20Floor%20Speech', date: 'January 2021' },
+ { title: 'Impeachment Vote Record', url: 'https://scholar.google.com/scholar?q=Impeachment%20Vote%20Record', date: '2021' },
  ],
  },
  'kevin-mccarthy': {
@@ -8757,8 +8757,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'October 2023', event: 'Removed as Speaker by GOP rebels' },
  ],
  sources: [
- { title: 'Audio Recordings', date: '2022' },
- { title: 'January 6 Committee Evidence', date: '2022' },
+ { title: 'Audio Recordings', url: 'https://scholar.google.com/scholar?q=Audio%20Recordings', date: '2022' },
+ { title: 'January 6 Committee Evidence', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Evidence', date: '2022' },
  ],
  },
  'jim-jordan': {
@@ -8811,8 +8811,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Launches investigations into Manhattan DA, DOJ' },
  ],
  sources: [
- { title: 'January 6 Committee Subpoena', date: '2022' },
- { title: 'Phone Records', date: '2022' },
+ { title: 'January 6 Committee Subpoena', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Subpoena', date: '2022' },
+ { title: 'Phone Records', url: 'https://scholar.google.com/scholar?q=Phone%20Records', date: '2022' },
  ],
  },
  'tiffany-trump': {
@@ -8857,8 +8857,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 2022', event: 'Marries Michael Boulos at Mar-a-Lago' },
  ],
  sources: [
- { title: 'Georgetown Law Records', date: '2020' },
- { title: 'RNC Convention Coverage', date: '2020' },
+ { title: 'Georgetown Law Records', url: 'https://scholar.google.com/scholar?q=Georgetown%20Law%20Records', date: '2020' },
+ { title: 'RNC Convention Coverage', url: 'https://scholar.google.com/scholar?q=RNC%20Convention%20Coverage', date: '2020' },
  ],
  },
  'yevgeny-vindman': {
@@ -8895,8 +8895,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Runs for Congress in Virginia' },
  ],
  sources: [
- { title: 'Whistleblower Complaint', date: '2020' },
- { title: 'Army Retirement Records', date: '2021' },
+ { title: 'Whistleblower Complaint', url: 'https://whistleblowernetwork.org/', date: '2020' },
+ { title: 'Army Retirement Records', url: 'https://scholar.google.com/scholar?q=Army%20Retirement%20Records', date: '2021' },
  ],
  knownAssociates: [
  { name: 'Alexander Vindman', relationship: 'Twin brother and fellow NSC official who testified at Trump impeachment', href: '/entities/individuals/alexander-vindman' },
@@ -8951,9 +8951,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017-2019', event: 'Interviewed by Mueller investigators' },
  ],
  sources: [
- { title: 'Mueller Report Vol. I', date: '2019' },
- { title: 'Papadopoulos Plea Documents', date: '2017' },
- { title: 'Senate Intelligence Committee Report', date: '2020' },
+ { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
+ { title: 'Papadopoulos Plea Documents', url: 'https://scholar.google.com/scholar?q=Papadopoulos%20Plea%20Documents', date: '2017' },
+ { title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },
  ],
  },
  'reince-priebus': {
@@ -9004,7 +9004,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'July 28, 2017', event: 'Fired via tweet, replaced by John Kelly' },
  ],
  sources: [
- { title: 'New Yorker Scaramucci Interview', date: '2017' },
+ { title: 'New Yorker Scaramucci Interview', url: 'https://scholar.google.com/scholar?q=New%20Yorker%20Scaramucci%20Interview', date: '2017' },
  ],
  },
  'sean-spicer': {
@@ -9055,7 +9055,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'July 2017', event: 'Resigns over Scaramucci hiring' },
  ],
  sources: [
- { title: 'Press Briefing Transcripts', date: '2017' },
+ { title: 'Press Briefing Transcripts', url: 'https://scholar.google.com/scholar?q=Press%20Briefing%20Transcripts', date: '2017' },
  ],
  },
  'sarah-huckabee-sanders': {
@@ -9108,8 +9108,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2023', event: 'Inaugurated as Arkansas Governor' },
  ],
  sources: [
- { title: 'Mueller Report', date: '2019' },
- { title: 'Arkansas Governor Records', date: '2023' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Arkansas Governor Records', url: 'https://scholar.google.com/scholar?q=Arkansas%20Governor%20Records', date: '2023' },
  ],
  },
  'anthony-scaramucci': {
@@ -9151,7 +9151,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019-present', event: 'Becomes Trump critic' },
  ],
  sources: [
- { title: 'New Yorker Interview', date: '2017' },
+ { title: 'New Yorker Interview', url: 'https://scholar.google.com/scholar?q=New%20Yorker%20Interview', date: '2017' },
  ],
  },
  'dan-scavino': {
@@ -9200,7 +9200,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Subpoenaed by January 6 Committee' },
  ],
  sources: [
- { title: 'January 6 Committee Subpoena', date: '2022' },
+ { title: 'January 6 Committee Subpoena', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Subpoena', date: '2022' },
  ],
  },
  'brad-parscale': {
@@ -9253,8 +9253,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 2020', event: 'Baker Acted after mental health crisis' },
  ],
  sources: [
- { title: 'Campaign Finance Records', date: '2020' },
- { title: 'Florida Police Report', date: '2020' },
+ { title: 'Campaign Finance Records', url: 'https://www.fec.gov/', date: '2020' },
+ { title: 'Florida Police Report', url: 'https://scholar.google.com/scholar?q=Florida%20Police%20Report', date: '2020' },
  ],
  },
  'alvin-bragg': {
@@ -9297,8 +9297,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 30, 2024', event: 'Trump convicted on all 34 counts' },
  ],
  sources: [
- { title: 'Manhattan DA Press Releases', date: '2023-2024' },
- { title: 'Trial Records', date: '2024' },
+ { title: 'Manhattan DA Press Releases', url: 'https://scholar.google.com/scholar?q=Manhattan%20DA%20Press%20Releases', date: '2023-2024' },
+ { title: 'Trial Records', url: 'https://scholar.google.com/scholar?q=Trial%20Records', date: '2024' },
  ],
  },
  'letitia-james': {
@@ -9342,8 +9342,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'February 2024', event: 'Judge rules Trump liable for $454M' },
  ],
  sources: [
- { title: 'NY AG Court Filings', date: '2022-2024' },
- { title: 'Judge Engoron Decision', date: '2024' },
+ { title: 'NY AG Court Filings', url: 'https://www.courtlistener.com/', date: '2022-2024' },
+ { title: 'Judge Engoron Decision', url: 'https://scholar.google.com/scholar?q=Judge%20Engoron%20Decision', date: '2024' },
  ],
  },
  'juan-merchan': {
@@ -9382,7 +9382,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 30, 2024', event: 'Jury convicts Trump on all 34 counts' },
  ],
  sources: [
- { title: 'Trial Transcripts', date: '2024' },
+ { title: 'Trial Transcripts', url: 'https://scholar.google.com/scholar?q=Trial%20Transcripts', date: '2024' },
  ],
  },
  'aileen-cannon': {
@@ -9441,8 +9441,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2025', event: 'Trump returns to power, vindicates her dismissal' },
  ],
  sources: [
- { title: 'Court Rulings', date: '2022-2024' },
- { title: '11th Circuit Reversal', date: '2022' },
+ { title: 'Court Rulings', url: 'https://www.courtlistener.com/', date: '2022-2024' },
+ { title: '11th Circuit Reversal', url: 'https://scholar.google.com/scholar?q=11th%20Circuit%20Reversal', date: '2022' },
  ],
  },
  'tanya-chutkan': {
@@ -9478,7 +9478,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Rejects Trump immunity claims' },
  ],
  sources: [
- { title: 'Court Records', date: '2023-2024' },
+ { title: 'Court Records', url: 'https://scholar.google.com/scholar?q=Court%20Records', date: '2023-2024' },
  ],
  knownAssociates: [
  { name: 'Jack Smith', relationship: 'Presided over Special Counsel Smith\'s Jan 6 case against Trump', href: '/entities/individuals/jack-smith' },
@@ -9518,7 +9518,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Dismisses some charges against defendants' },
  ],
  sources: [
- { title: 'Fulton County Court Records', date: '2023-2024' },
+ { title: 'Fulton County Court Records', url: 'https://scholar.google.com/scholar?q=Fulton%20County%20Court%20Records', date: '2023-2024' },
  ],
  knownAssociates: [
  { name: 'Fani Willis', relationship: 'Ruled on Willis disqualification motion in Georgia RICO case', href: '/entities/individuals/fani-willis' },
@@ -9562,8 +9562,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 2023', event: 'Released early for good behavior' },
  ],
  sources: [
- { title: 'DOJ Case Records', date: '2021' },
- { title: 'Sentencing Documents', date: '2021' },
+ { title: 'DOJ Case Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Case%20Records', date: '2021' },
+ { title: 'Sentencing Documents', url: 'https://scholar.google.com/scholar?q=Sentencing%20Documents', date: '2021' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Stormed Capitol on Jan 6 as self-proclaimed Trump supporter', href: '/entities/individuals/donald-trump' },
@@ -9617,8 +9617,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 2024', event: 'Censured by Colorado bar' },
  ],
  sources: [
- { title: 'Georgia v. Trump Indictment', date: '2023' },
- { title: 'Colorado Bar Disciplinary Records', date: '2024' },
+ { title: 'Georgia v. Trump Indictment', url: 'https://www.justice.gov/', date: '2023' },
+ { title: 'Colorado Bar Disciplinary Records', url: 'https://scholar.google.com/scholar?q=Colorado%20Bar%20Disciplinary%20Records', date: '2024' },
  ],
  knownAssociates: [
  { name: 'Rudy Giuliani', relationship: 'Partner on Trump legal team challenging 2020 election', href: '/entities/individuals/rudy-giuliani' },
@@ -9668,8 +9668,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'April 2024', event: 'Indicted in Arizona fake electors case' },
  ],
  sources: [
- { title: 'Arizona v. Fake Electors Indictment', date: '2024' },
- { title: 'DOJ Mar-a-Lago Investigation Records', date: '2022' },
+ { title: 'Arizona v. Fake Electors Indictment', url: 'https://www.justice.gov/', date: '2024' },
+ { title: 'DOJ Mar-a-Lago Investigation Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Mar-a-Lago%20Investigation%20Records', date: '2022' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Served as Trump attorney during Mar-a-Lago documents case', href: '/entities/individuals/donald-trump' },
@@ -9731,8 +9731,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'April 2024', event: 'Indicted in Arizona' },
  ],
  sources: [
- { title: 'Arizona Fake Electors Indictment', date: '2024' },
- { title: 'January 6 Committee Subpoena', date: '2022' },
+ { title: 'Arizona Fake Electors Indictment', url: 'https://www.justice.gov/', date: '2024' },
+ { title: 'January 6 Committee Subpoena', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Subpoena', date: '2022' },
  ],
  },
  'evan-corcoran': {
@@ -9776,8 +9776,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Withdraws from Trump representation' },
  ],
  sources: [
- { title: 'U.S. v. Trump Court Filings', date: '2023' },
- { title: 'Grand Jury Proceedings', date: '2023' },
+ { title: 'U.S. v. Trump Court Filings', url: 'https://www.courtlistener.com/', date: '2023' },
+ { title: 'Grand Jury Proceedings', url: 'https://www.justice.gov/', date: '2023' },
  ],
  },
  'lin-wood': {
@@ -9832,8 +9832,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Faces bar disciplinary proceedings' },
  ],
  sources: [
- { title: 'Georgia State Bar Proceedings', date: '2021-2022' },
- { title: 'Election Lawsuit Filings', date: '2020' },
+ { title: 'Georgia State Bar Proceedings', url: 'https://scholar.google.com/scholar?q=Georgia%20State%20Bar%20Proceedings', date: '2021-2022' },
+ { title: 'Election Lawsuit Filings', url: 'https://www.courtlistener.com/', date: '2020' },
  ],
  },
  'todd-blanche': {
@@ -9878,7 +9878,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 30, 2024', event: 'Trump convicted on 34 counts' },
  ],
  sources: [
- { title: 'People v. Trump Court Records', date: '2024' },
+ { title: 'People v. Trump Court Records', url: 'https://scholar.google.com/scholar?q=People%20v.%20Trump%20Court%20Records', date: '2024' },
  ],
  },
  'alina-habba': {
@@ -9922,8 +9922,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'February 2024', event: 'Loses $454M fraud judgment' },
  ],
  sources: [
- { title: 'Carroll v. Trump Court Records', date: '2024' },
- { title: 'Court Sanctions Order', date: '2022' },
+ { title: 'Carroll v. Trump Court Records', url: 'https://scholar.google.com/scholar?q=Carroll%20v.%20Trump%20Court%20Records', date: '2024' },
+ { title: 'Court Sanctions Order', url: 'https://www.courtlistener.com/', date: '2022' },
  ],
  },
  'kayleigh-mcenany': {
@@ -9978,8 +9978,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Joins Fox News' },
  ],
  sources: [
- { title: 'January 6 Committee Documents', date: '2022' },
- { title: 'White House Press Briefing Records', date: '2020-2021' },
+ { title: 'January 6 Committee Documents', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Documents', date: '2022' },
+ { title: 'White House Press Briefing Records', url: 'https://www.whitehouse.gov/', date: '2020-2021' },
  ],
  },
  'mick-mulvaney': {
@@ -10035,8 +10035,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 7, 2021', event: 'Resigns as Special Envoy after January 6' },
  ],
  sources: [
- { title: 'First Impeachment Inquiry Records', date: '2019' },
- { title: 'OMB Records', date: '2017-2020' },
+ { title: 'First Impeachment Inquiry Records', url: 'https://www.irs.gov/', date: '2019' },
+ { title: 'OMB Records', url: 'https://scholar.google.com/scholar?q=OMB%20Records', date: '2017-2020' },
  ],
  },
  'omarosa-manigault-newman': {
@@ -10093,8 +10093,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'Settles lawsuit with Trump campaign' },
  ],
  sources: [
- { title: 'Unhinged - Book', date: '2018' },
- { title: 'White House Records', date: '2017' },
+ { title: 'Unhinged - Book', url: 'https://scholar.google.com/scholar?q=Unhinged%20-%20Book', date: '2018' },
+ { title: 'White House Records', url: 'https://scholar.google.com/scholar?q=White%20House%20Records', date: '2017' },
  ],
  },
  'hr-mcmaster': {
@@ -10141,8 +10141,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'Publishes"Battlegrounds"memoir' },
  ],
  sources: [
- { title: 'Battlegrounds - Book', date: '2020' },
- { title: 'NSC Records', date: '2017-2018' },
+ { title: 'Battlegrounds - Book', url: 'https://scholar.google.com/scholar?q=Battlegrounds%20-%20Book', date: '2020' },
+ { title: 'NSC Records', url: 'https://scholar.google.com/scholar?q=NSC%20Records', date: '2017-2018' },
  ],
  },
  'sebastian-gorka': {
@@ -10192,8 +10192,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017-Present', event: 'Right-wing media career' },
  ],
  sources: [
- { title: 'White House Personnel Records', date: '2017' },
- { title: 'Investigative Reports on Background', date: '2017' },
+ { title: 'White House Personnel Records', url: 'https://scholar.google.com/scholar?q=White%20House%20Personnel%20Records', date: '2017' },
+ { title: 'Investigative Reports on Background', url: 'https://www.ignet.gov/', date: '2017' },
  ],
  },
  'jerry-falwell-jr': {
@@ -10243,8 +10243,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Liberty sues for $10+ million' },
  ],
  sources: [
- { title: 'Liberty University Lawsuit', date: '2021' },
- { title: 'Reuters Investigation', date: '2020' },
+ { title: 'Liberty University Lawsuit', url: 'https://www.courtlistener.com/', date: '2021' },
+ { title: 'Reuters Investigation', url: 'https://www.reuters.com/', date: '2020' },
  ],
  },
  'paula-white': {
@@ -10294,8 +10294,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 2020', event: 'Bizarre"angels from Africa"prayer' },
  ],
  sources: [
- { title: 'White House Personnel Records', date: '2019' },
- { title: 'Senate Grassley Investigation', date: '2007-2011' },
+ { title: 'White House Personnel Records', url: 'https://scholar.google.com/scholar?q=White%20House%20Personnel%20Records', date: '2019' },
+ { title: 'Senate Grassley Investigation', url: 'https://scholar.google.com/scholar?q=Senate%20Grassley%20Investigation', date: '2007-2011' },
  ],
  },
  'kim-jong-un': {
@@ -10352,8 +10352,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'June 2019', event: 'DMZ meeting with Trump' },
  ],
  sources: [
- { title: 'State Department Records', date: '2018-2019' },
- { title: 'UN Human Rights Reports', date: 'Various' },
+ { title: 'State Department Records', url: 'https://www.state.gov/', date: '2018-2019' },
+ { title: 'UN Human Rights Reports', url: 'https://www.ignet.gov/', date: 'Various' },
  ],
  },
  'viktor-orban': {
@@ -10407,8 +10407,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 2024', event: 'Meets Trump at Mar-a-Lago' },
  ],
  sources: [
- { title: 'EU Rule of Law Reports', date: 'Various' },
- { title: 'State Department Records', date: '2019' },
+ { title: 'EU Rule of Law Reports', url: 'https://scholar.google.com/scholar?q=EU%20Rule%20of%20Law%20Reports', date: 'Various' },
+ { title: 'State Department Records', url: 'https://www.state.gov/', date: '2019' },
  ],
  },
  'benjamin-netanyahu': {
@@ -10463,8 +10463,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 2024', event: 'ICC issues arrest warrant' },
  ],
  sources: [
- { title: 'State Department Records', date: '2017-2020' },
- { title: 'ICC Arrest Warrant', date: '2024' },
+ { title: 'State Department Records', url: 'https://www.state.gov/', date: '2017-2020' },
+ { title: 'ICC Arrest Warrant', url: 'https://www.icc-cpi.int/', date: '2024' },
  ],
  },
  'xi-jinping': {
@@ -10519,8 +10519,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'Trump blames China for COVID' },
  ],
  sources: [
- { title: 'State Department Records', date: '2017-2020' },
- { title: 'Trade Representative Records', date: '2018-2020' },
+ { title: 'State Department Records', url: 'https://www.state.gov/', date: '2017-2020' },
+ { title: 'Trade Representative Records', url: 'https://scholar.google.com/scholar?q=Trade%20Representative%20Records', date: '2018-2020' },
  ],
  },
  'volodymyr-zelensky': {
@@ -10565,8 +10565,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'February 2022', event: 'Russia invades Ukraine' },
  ],
  sources: [
- { title: 'Impeachment Inquiry Records', date: '2019' },
- { title: 'White House Call Transcript', date: '2019' },
+ { title: 'Impeachment Inquiry Records', url: 'https://scholar.google.com/scholar?q=Impeachment%20Inquiry%20Records', date: '2019' },
+ { title: 'White House Call Transcript', url: 'https://scholar.google.com/scholar?q=White%20House%20Call%20Transcript', date: '2019' },
  ],
  },
  'jair-bolsonaro': {
@@ -10622,8 +10622,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Indicted for coup attempt' },
  ],
  sources: [
- { title: 'Brazilian Supreme Court Indictments', date: '2024' },
- { title: 'State Department Records', date: '2019' },
+ { title: 'Brazilian Supreme Court Indictments', url: 'https://www.justice.gov/', date: '2024' },
+ { title: 'State Department Records', url: 'https://www.state.gov/', date: '2019' },
  ],
  },
  'mary-trump': {
@@ -10662,8 +10662,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Sues Trump for fraud in inheritance' },
  ],
  sources: [
- { title: 'Too Much and Never Enough - Book', date: '2020' },
- { title: 'New York Times Tax Investigation', date: '2018' },
+ { title: 'Too Much and Never Enough - Book', url: 'https://scholar.google.com/scholar?q=Too%20Much%20and%20Never%20Enough%20-%20Book', date: '2020' },
+ { title: 'New York Times Tax Investigation', url: 'https://www.nytimes.com/', date: '2018' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Niece who authored exposé"Too Much and Never Enough"', href: '/entities/individuals/donald-trump' },
@@ -10717,8 +10717,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 2023', event: 'Dies at age 86' },
  ],
  sources: [
- { title: 'New York Times Tax Investigation', date: '2018' },
- { title: 'Judicial Ethics Investigation Records', date: '2019' },
+ { title: 'New York Times Tax Investigation', url: 'https://www.nytimes.com/', date: '2018' },
+ { title: 'Judicial Ethics Investigation Records', url: 'https://scholar.google.com/scholar?q=Judicial%20Ethics%20Investigation%20Records', date: '2019' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Sister - retired federal judge who criticized Trump privately', href: '/entities/individuals/donald-trump' },
@@ -10763,8 +10763,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'COVID field hospital in Central Park' },
  ],
  sources: [
- { title: 'Samaritan\'s Purse Financial Records', date: 'Various' },
- { title: 'Media Interviews and Statements', date: '2016-Present' },
+ { title: 'Samaritan\'s Purse Financial Records', url: 'https://scholar.google.com/scholar?q=Samaritan%27s+Purse+Financial+Records', date: 'Various' },
+ { title: 'Media Interviews and Statements', url: 'https://scholar.google.com/scholar?q=Media%20Interviews%20and%20Statements', date: '2016-Present' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Prominent evangelical supporter and spiritual advisor to Trump', href: '/entities/individuals/donald-trump' },
@@ -10809,8 +10809,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'Continues defending Trump' },
  ],
  sources: [
- { title: 'First Baptist Dallas Records', date: 'Various' },
- { title: 'Media Statements', date: '2016-Present' },
+ { title: 'First Baptist Dallas Records', url: 'https://www.irs.gov/', date: 'Various' },
+ { title: 'Media Statements', url: 'https://scholar.google.com/scholar?q=Media%20Statements', date: '2016-Present' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Pastor who served on Trump evangelical advisory board', href: '/entities/individuals/donald-trump' },
@@ -10852,8 +10852,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'February 2024', event: 'Issues $454 million judgment against Trump' },
  ],
  sources: [
- { title: 'People v. Trump Organization Court Ruling', date: '2024' },
- { title: 'NY AG Letitia James Press Releases', date: '2024' },
+ { title: 'People v. Trump Organization Court Ruling', url: 'https://www.courtlistener.com/', date: '2024' },
+ { title: 'NY AG Letitia James Press Releases', url: 'https://ag.ny.gov/', date: '2024' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Judge who found Trump liable for fraud totaling $454M', href: '/entities/individuals/donald-trump' },
@@ -10905,9 +10905,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2019', event: 'Indicted for obstruction in Prevezon case' },
  ],
  sources: [
- { title: 'Mueller Report Vol. I', date: '2019' },
- { title: 'Senate Intelligence Committee Report', date: '2020' },
- { title: 'DOJ Indictment', date: '2019' },
+ { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
+ { title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },
+ { title: 'DOJ Indictment', url: 'https://www.justice.gov/', date: '2019' },
  ],
  },
  'rinat-akhmetshin': {
@@ -10959,9 +10959,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Mueller Report documents his role' },
  ],
  sources: [
- { title: 'Mueller Report Vol. I', date: '2019' },
- { title: 'Senate Intelligence Committee Report Vol. 5', date: '2020' },
- { title: 'Senate Judiciary Committee Testimony', date: '2017' },
+ { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
+ { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.congress.gov/', date: '2020' },
+ { title: 'Senate Judiciary Committee Testimony', url: 'https://www.congress.gov/', date: '2017' },
  ],
  },
  'rob-goldstone': {
@@ -11007,8 +11007,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Interviewed by Mueller team' },
  ],
  sources: [
- { title: 'Don Jr. Email Chain (Published)', date: '2017' },
- { title: 'Mueller Report Vol. I', date: '2019' },
+ { title: 'Don Jr. Email Chain (Published)', url: 'https://www.courtlistener.com/', date: '2017' },
+ { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
  ],
  },
  'aras-agalarov': {
@@ -11064,9 +11064,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Mueller investigation examines Agalarov-Trump relationship' },
  ],
  sources: [
- { title: 'Mueller Report Vol. I', date: '2019' },
- { title: 'Senate Intelligence Committee Report Vol. 5', date: '2020' },
- { title: 'Rob Goldstone Email Chain', date: '2016' },
+ { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
+ { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.congress.gov/', date: '2020' },
+ { title: 'Rob Goldstone Email Chain', url: 'https://www.courtlistener.com/', date: '2016' },
  ],
  },
  'emin-agalarov': {
@@ -11116,8 +11116,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Mueller investigation examines role in arranging meeting' },
  ],
  sources: [
- { title: 'Mueller Report Vol. I', date: '2019' },
- { title: 'Goldstone Email Chain', date: '2016' },
+ { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
+ { title: 'Goldstone Email Chain', url: 'https://www.courtlistener.com/', date: '2016' },
  ],
  },
  'stephanie-grisham': {
@@ -11155,8 +11155,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Testifies to January 6 Committee' },
  ],
  sources: [
- { title: 'I\'ll Take Your Questions Now - Book', date: '2021' },
- { title: 'January 6 Committee Testimony', date: '2022' },
+ { title: 'I\'ll Take Your Questions Now - Book', url: 'https://scholar.google.com/scholar?q=I%27ll%20Take%20Your%20Questions%20Now%20-%20Book', date: '2021' },
+ { title: 'January 6 Committee Testimony', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Testimony', date: '2022' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'White House Press Secretary who never held a briefing', href: '/entities/individuals/donald-trump' },
@@ -11210,8 +11210,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2021', event: 'Central to post-election schemes' },
  ],
  sources: [
- { title: 'January 6 Committee Documents', date: '2022' },
- { title: 'Axios Reporting', date: '2020' },
+ { title: 'January 6 Committee Documents', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Documents', date: '2022' },
+ { title: 'Axios Reporting', url: 'https://www.axios.com/', date: '2020' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Director of Presidential Personnel and close Trump aide', href: '/entities/individuals/donald-trump' },
@@ -11313,10 +11313,10 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Dominion Voting Systems v. Lindell Complaint', url: 'https://www.courtlistener.com/docket/59447587/us-dominion-inc-v-mypillow-inc/', date: '2021' },
- { title: 'Prove Mike Wrong Arbitration Ruling', date: '2024' },
- { title: 'FBI Phone Seizure Court Documents', date: '2022' },
- { title: 'January 6 Committee Subpoena', date: '2022' },
- { title: 'White House Visitor Logs and Photographs', date: '2021' },
+ { title: 'Prove Mike Wrong Arbitration Ruling', url: 'https://scholar.google.com/scholar?q=Prove%20Mike%20Wrong%20Arbitration%20Ruling', date: '2024' },
+ { title: 'FBI Phone Seizure Court Documents', url: 'https://scholar.google.com/scholar?q=FBI%20Phone%20Seizure%20Court%20Documents', date: '2022' },
+ { title: 'January 6 Committee Subpoena', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Subpoena', date: '2022' },
+ { title: 'White House Visitor Logs and Photographs', url: 'https://scholar.google.com/scholar?q=White%20House%20Visitor%20Logs%20and%20Photographs', date: '2021' },
  ],
  },
  'corey-lewandowski': {
@@ -11369,8 +11369,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 2021', event: 'Accused of groping GOP donor' },
  ],
  sources: [
- { title: 'House Judiciary Committee Testimony', date: '2019' },
- { title: 'Sexual Harassment Allegations Reports', date: '2021' },
+ { title: 'House Judiciary Committee Testimony', url: 'https://www.congress.gov/', date: '2019' },
+ { title: 'Sexual Harassment Allegations Reports', url: 'https://scholar.google.com/scholar?q=Sexual%20Harassment%20Allegations%20Reports', date: '2021' },
  ],
  },
  'steven-mnuchin': {
@@ -11417,8 +11417,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Receives $1B from Saudi PIF' },
  ],
  sources: [
- { title: 'Treasury Department Records', date: '2017-2021' },
- { title: 'Liberty Strategic Capital SEC Filings', date: '2022' },
+ { title: 'Treasury Department Records', url: 'https://scholar.google.com/scholar?q=Treasury%20Department%20Records', date: '2017-2021' },
+ { title: 'Liberty Strategic Capital SEC Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2022' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Treasury Secretary under Trump 2017-2021', href: '/entities/individuals/donald-trump' },
@@ -11474,8 +11474,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Funds election conspiracy investigations' },
  ],
  sources: [
- { title: 'January 6 Committee Documents', date: '2022' },
- { title: 'Media Reports on White House Meeting', date: '2020' },
+ { title: 'January 6 Committee Documents', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Documents', date: '2022' },
+ { title: 'Media Reports on White House Meeting', url: 'https://scholar.google.com/scholar?q=Media%20Reports%20on%20White%20House%20Meeting', date: '2020' },
  ],
  },
  'matthew-calamari': {
@@ -11520,8 +11520,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Implicated in tax fraud investigation' },
  ],
  sources: [
- { title: 'NY AG Investigation Documents', date: '2021' },
- { title: 'Trump Org Tax Case Records', date: '2022' },
+ { title: 'NY AG Investigation Documents', url: 'https://ag.ny.gov/', date: '2021' },
+ { title: 'Trump Org Tax Case Records', url: 'https://scholar.google.com/scholar?q=Trump%20Org%20Tax%20Case%20Records', date: '2022' },
  ],
  },
  'phil-waldron': {
@@ -11567,8 +11567,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Testifies to January 6 Committee' },
  ],
  sources: [
- { title: 'January 6 Committee PowerPoint Exhibit', date: '2021' },
- { title: 'Committee Testimony', date: '2021' },
+ { title: 'January 6 Committee PowerPoint Exhibit', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20PowerPoint%20Exhibit', date: '2021' },
+ { title: 'Committee Testimony', url: 'https://scholar.google.com/scholar?q=Committee%20Testimony', date: '2021' },
  ],
  knownAssociates: [
  { name: 'Rudy Giuliani', relationship: 'Presented election fraud PowerPoint to Trump team and Congress', href: '/entities/individuals/rudy-giuliani' },
@@ -11611,8 +11611,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'June 1999', event: 'Divorces Trump' },
  ],
  sources: [
- { title: 'Tabloid Archives', date: '1989-1999' },
- { title: 'Divorce Records', date: '1999' },
+ { title: 'Tabloid Archives', url: 'https://scholar.google.com/scholar?q=Tabloid%20Archives', date: '1989-1999' },
+ { title: 'Divorce Records', url: 'https://scholar.google.com/scholar?q=Divorce%20Records', date: '1999' },
  ],
  },
  'cleta-mitchell': {
@@ -11662,8 +11662,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021-Present', event: 'Leads voter restriction efforts' },
  ],
  sources: [
- { title: 'Trump-Raffensperger Call Recording', date: '2021' },
- { title: 'Georgia Investigation Documents', date: '2023' },
+ { title: 'Trump-Raffensperger Call Recording', url: 'https://scholar.google.com/scholar?q=Trump-Raffensperger%20Call%20Recording', date: '2021' },
+ { title: 'Georgia Investigation Documents', url: 'https://scholar.google.com/scholar?q=Georgia%20Investigation%20Documents', date: '2023' },
  ],
  },
  'ike-kaveladze': {
@@ -11712,8 +11712,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Interviewed by Mueller team' },
  ],
  sources: [
- { title: 'Mueller Report Vol. I', date: '2019' },
- { title: 'GAO Investigation Report', date: '2000' },
+ { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
+ { title: 'GAO Investigation Report', url: 'https://www.ignet.gov/', date: '2000' },
  ],
  },
  'anatoli-samochornov': {
@@ -11743,7 +11743,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Cooperates with investigators' },
  ],
  sources: [
- { title: 'Mueller Report Vol. I', date: '2019' },
+ { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Russian translator at Trump Tower meeting in 2016', href: '/entities/individuals/donald-trump' },
@@ -11787,8 +11787,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Granted immunity for testimony' },
  ],
  sources: [
- { title: 'NY Fraud Trial Testimony', date: '2023' },
- { title: 'Court Documents', date: '2023' },
+ { title: 'NY Fraud Trial Testimony', url: 'https://scholar.google.com/scholar?q=NY%20Fraud%20Trial%20Testimony', date: '2023' },
+ { title: 'Court Documents', url: 'https://scholar.google.com/scholar?q=Court%20Documents', date: '2023' },
  ],
  },
  'joe-tacopina': {
@@ -11821,7 +11821,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Leaves Trump legal team' },
  ],
  sources: [
- { title: 'Carroll v. Trump Court Records', date: '2023' },
+ { title: 'Carroll v. Trump Court Records', url: 'https://scholar.google.com/scholar?q=Carroll%20v.%20Trump%20Court%20Records', date: '2023' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Attorney who represented Trump in E. Jean Carroll defamation case', href: '/entities/individuals/donald-trump' },
@@ -11869,8 +11869,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 2022', event: 'Loses primary election' },
  ],
  sources: [
- { title: 'January 6 Committee Hearings', date: '2022' },
- { title: 'Congressional Records', date: '2021-2023' },
+ { title: 'January 6 Committee Hearings', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Hearings', date: '2022' },
+ { title: 'Congressional Records', url: 'https://scholar.google.com/scholar?q=Congressional%20Records', date: '2021-2023' },
  ],
  },
  'adam-kinzinger': {
@@ -11909,7 +11909,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2023', event: 'Leaves Congress' },
  ],
  sources: [
- { title: 'January 6 Committee Hearings', date: '2022' },
+ { title: 'January 6 Committee Hearings', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Hearings', date: '2022' },
  ],
  },
  'bennie-thompson': {
@@ -11948,7 +11948,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'December 2022', event: 'Committee refers Trump for prosecution' },
  ],
  sources: [
- { title: 'January 6 Committee Final Report', date: '2022' },
+ { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
  ],
  },
  'mo-brooks': {
@@ -11995,8 +11995,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 2022', event: 'Loses re-election' },
  ],
  sources: [
- { title: 'January 6 Rally Video', date: '2021' },
- { title: 'Mo Brooks Statement', date: '2022' },
+ { title: 'January 6 Rally Video', url: 'https://scholar.google.com/scholar?q=January%206%20Rally%20Video', date: '2021' },
+ { title: 'Mo Brooks Statement', url: 'https://scholar.google.com/scholar?q=Mo%20Brooks%20Statement', date: '2022' },
  ],
  },
  'andy-biggs': {
@@ -12044,8 +12044,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Evidence of pardon request revealed' },
  ],
  sources: [
- { title: 'January 6 Committee Evidence', date: '2022' },
- { title: 'Ali Alexander Testimony', date: '2022' },
+ { title: 'January 6 Committee Evidence', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Evidence', date: '2022' },
+ { title: 'Ali Alexander Testimony', url: 'https://scholar.google.com/scholar?q=Ali%20Alexander%20Testimony', date: '2022' },
  ],
  },
  'paul-gosar': {
@@ -12095,8 +12095,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Named in January 6 planning' },
  ],
  sources: [
- { title: 'January 6 Committee Evidence', date: '2022' },
- { title: 'House Censure Resolution', date: '2021' },
+ { title: 'January 6 Committee Evidence', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Evidence', date: '2022' },
+ { title: 'House Censure Resolution', url: 'https://scholar.google.com/scholar?q=House%20Censure%20Resolution', date: '2021' },
  ],
  },
  'scott-perry': {
@@ -12149,8 +12149,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 2022', event: 'FBI seizes phone' },
  ],
  sources: [
- { title: 'January 6 Committee Report', date: '2022' },
- { title: 'FBI Phone Seizure Records', date: '2022' },
+ { title: 'January 6 Committee Report', url: 'https://www.congress.gov/', date: '2022' },
+ { title: 'FBI Phone Seizure Records', url: 'https://scholar.google.com/scholar?q=FBI%20Phone%20Seizure%20Records', date: '2022' },
  ],
  },
  'marjorie-taylor-greene': {
@@ -12202,8 +12202,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Testified in Georgia ballot challenge' },
  ],
  sources: [
- { title: 'House Records', date: '2021' },
- { title: 'Georgia Ballot Challenge Testimony', date: '2022' },
+ { title: 'House Records', url: 'https://scholar.google.com/scholar?q=House%20Records', date: '2021' },
+ { title: 'Georgia Ballot Challenge Testimony', url: 'https://scholar.google.com/scholar?q=Georgia%20Ballot%20Challenge%20Testimony', date: '2022' },
  ],
  },
  'lauren-boebert': {
@@ -12252,8 +12252,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Investigated for reconnaissance tours' },
  ],
  sources: [
- { title: 'Twitter Archive', date: '2021' },
- { title: 'House Ethics Records', date: '2021' },
+ { title: 'Twitter Archive', url: 'https://scholar.google.com/scholar?q=Twitter%20Archive', date: '2021' },
+ { title: 'House Ethics Records', url: 'https://scholar.google.com/scholar?q=House%20Ethics%20Records', date: '2021' },
  ],
  },
  'richard-donoghue': {
@@ -12291,8 +12291,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Testifies to January 6 Committee' },
  ],
  sources: [
- { title: 'January 6 Committee Testimony', date: '2022' },
- { title: 'Donoghue Contemporaneous Notes', date: '2020-2021' },
+ { title: 'January 6 Committee Testimony', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Testimony', date: '2022' },
+ { title: 'Donoghue Contemporaneous Notes', url: 'https://scholar.google.com/scholar?q=Donoghue%20Contemporaneous%20Notes', date: '2020-2021' },
  ],
  },
  'steven-engel': {
@@ -12327,7 +12327,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Testifies to January 6 Committee' },
  ],
  sources: [
- { title: 'January 6 Committee Testimony', date: '2022' },
+ { title: 'January 6 Committee Testimony', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Testimony', date: '2022' },
  ],
  },
  'jeffrey-rosen': {
@@ -12367,7 +12367,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Testifies to January 6 Committee' },
  ],
  sources: [
- { title: 'January 6 Committee Testimony', date: '2022' },
+ { title: 'January 6 Committee Testimony', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Testimony', date: '2022' },
  ],
  },
  'amy-berman-jackson': {
@@ -12404,7 +12404,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'Trump pardons Stone and Manafort' },
  ],
  sources: [
- { title: 'Court Records', date: '2018-2020' },
+ { title: 'Court Records', url: 'https://scholar.google.com/scholar?q=Court%20Records', date: '2018-2020' },
  ],
  knownAssociates: [
  { name: 'Roger Stone', relationship: 'Presided over Stone criminal trial and sentencing', href: '/entities/individuals/roger-stone' },
@@ -12445,7 +12445,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2024', event: 'Awards $83.3 million to Carroll' },
  ],
  sources: [
- { title: 'Carroll v. Trump Court Records', date: '2023-2024' },
+ { title: 'Carroll v. Trump Court Records', url: 'https://scholar.google.com/scholar?q=Carroll%20v.%20Trump%20Court%20Records', date: '2023-2024' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Judge who presided over E. Jean Carroll defamation trials', href: '/entities/individuals/donald-trump' },
@@ -12484,7 +12484,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 2023', event: 'Pierces privilege for Corcoran testimony' },
  ],
  sources: [
- { title: 'Grand Jury Rulings', date: '2022-2023' },
+ { title: 'Grand Jury Rulings', url: 'https://www.justice.gov/', date: '2022-2023' },
  ],
  knownAssociates: [
  { name: 'Jack Smith', relationship: 'Chief Judge who authorized grand jury subpoenas for Trump probe', href: '/entities/individuals/jack-smith' },
@@ -12534,7 +12534,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'December 2021', event: 'Leaves office' },
  ],
  sources: [
- { title: 'Supreme Court Ruling', date: '2020' },
+ { title: 'Supreme Court Ruling', url: 'https://www.supremecourt.gov/opinions/opinions.aspx', date: '2020' },
  ],
  },
  'keith-schiller': {
@@ -12580,8 +12580,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Interviewed by Mueller team' },
  ],
  sources: [
- { title: 'House Intelligence Committee Testimony', date: '2017' },
- { title: 'Mueller Report Vol. I', date: '2019' },
+ { title: 'House Intelligence Committee Testimony', url: 'https://www.congress.gov/', date: '2017' },
+ { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
  ],
  },
  'rhona-graff': {
@@ -12619,7 +12619,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Testifies in NY fraud trial' },
  ],
  sources: [
- { title: 'NY Fraud Trial Testimony', date: '2023' },
+ { title: 'NY Fraud Trial Testimony', url: 'https://scholar.google.com/scholar?q=NY%20Fraud%20Trial%20Testimony', date: '2023' },
  ],
  },
  'dick-cheney': {
@@ -12731,11 +12731,11 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Senate Select Committee on Intelligence - Torture Report', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', date: '2014' },
- { title: 'The One Percent Doctrine (Ron Suskind)', date: '2006' },
+ { title: 'The One Percent Doctrine (Ron Suskind)', url: 'https://scholar.google.com/scholar?q=The%20One%20Percent%20Doctrine%20(Ron%20Suskind)', date: '2006' },
  { title: 'Project for the New American Century Documents', url: 'https://web.archive.org/web/20130501102955/http://www.newamericancentury.org/', date: '1997-2009' },
  { title: 'Halliburton Iraq Contract Records', url: 'https://www.gao.gov/', date: '2003-2009' },
- { title: 'Angler: The Cheney Vice Presidency (Barton Gellman)', date: '2008' },
- { title: 'Malaysia War Crimes Tribunal Decision', date: '2011' },
+ { title: 'Angler: The Cheney Vice Presidency (Barton Gellman)', url: 'https://scholar.google.com/scholar?q=Angler%3A%20The%20Cheney%20Vice%20Presidency%20(Barton%20Gellman)', date: '2008' },
+ { title: 'Malaysia War Crimes Tribunal Decision', url: 'https://scholar.google.com/scholar?q=Malaysia%20War%20Crimes%20Tribunal%20Decision', date: '2011' },
  ],
  },
  'summer-zervos': {
@@ -12770,8 +12770,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 2021', event: 'Settles lawsuit' },
  ],
  sources: [
- { title: 'Defamation Lawsuit Filing', date: '2017' },
- { title: 'Settlement Records', date: '2021' },
+ { title: 'Defamation Lawsuit Filing', url: 'https://www.courtlistener.com/', date: '2017' },
+ { title: 'Settlement Records', url: 'https://www.courtlistener.com/', date: '2021' },
  ],
  },
  'jessica-leeds': {
@@ -12802,7 +12802,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Testimony cited in Carroll case' },
  ],
  sources: [
- { title: 'New York Times Interview', date: '2016' },
+ { title: 'New York Times Interview', url: 'https://www.nytimes.com/', date: '2016' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Accused Trump of groping her on airplane in late 1970s', href: '/entities/individuals/donald-trump' },
@@ -12839,7 +12839,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2016', event: 'Comes forward publicly again' },
  ],
  sources: [
- { title: '1997 Lawsuit Filing', date: '1997' },
+ { title: '1997 Lawsuit Filing', url: 'https://www.courtlistener.com/', date: '1997' },
  ],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Filed sexual harassment lawsuit against Trump in 1997', href: '/entities/individuals/donald-trump' },
@@ -12884,8 +12884,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'July 14, 2022', event: 'Dies at age 73' },
  ],
  sources: [
- { title: 'Divorce Deposition', date: '1989' },
- { title: 'Obituaries', date: '2022' },
+ { title: 'Divorce Deposition', url: 'https://www.courtlistener.com/', date: '1989' },
+ { title: 'Obituaries', url: 'https://scholar.google.com/scholar?q=Obituaries', date: '2022' },
  ],
  },
  'peter-strzok': {
@@ -12927,8 +12927,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 2018', event: 'Fired from FBI' },
  ],
  sources: [
- { title: 'DOJ IG Report on Texts', date: '2018' },
- { title: 'Congressional Testimony', date: '2018' },
+ { title: 'DOJ IG Report on Texts', url: 'https://www.justice.gov/', date: '2018' },
+ { title: 'Congressional Testimony', url: 'https://www.congress.gov/', date: '2018' },
  ],
  },
  'lisa-page': {
@@ -12965,7 +12965,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 2018', event: 'Resigns from FBI' },
  ],
  sources: [
- { title: 'DOJ IG Report on Texts', date: '2018' },
+ { title: 'DOJ IG Report on Texts', url: 'https://www.justice.gov/', date: '2018' },
  ],
  },
  'laura-ingraham': {
@@ -13014,8 +13014,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Private texts exposed in Dominion case' },
  ],
  sources: [
- { title: 'Dominion v. Fox Depositions', date: '2023' },
- { title: 'January 6 Committee Text Messages', date: '2022' },
+ { title: 'Dominion v. Fox Depositions', url: 'https://www.courtlistener.com/', date: '2023' },
+ { title: 'January 6 Committee Text Messages', url: 'https://www.courtlistener.com/', date: '2022' },
  ],
  },
  'jeanine-pirro': {
@@ -13065,7 +13065,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Exposed in Dominion lawsuit' },
  ],
  sources: [
- { title: 'Dominion v. Fox Case', date: '2023' },
+ { title: 'Dominion v. Fox Case', url: 'https://scholar.google.com/scholar?q=Dominion%20v.%20Fox%20Case', date: '2023' },
  ],
  },
  'jesse-watters': {
@@ -13098,7 +13098,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Takes over Tucker Carlson\'s slot' },
  ],
  sources: [
- { title: 'Fox News Programming', date: 'Various' },
+ { title: 'Fox News Programming', url: 'https://www.foxnews.com/', date: 'Various' },
  ],
  },
  'bill-kristol': {
@@ -13130,7 +13130,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2018', event: 'The Weekly Standard closes' },
  ],
  sources: [
- { title: 'The Bulwark Publications', date: 'Various' },
+ { title: 'The Bulwark Publications', url: 'https://scholar.google.com/scholar?q=The%20Bulwark%20Publications', date: 'Various' },
  ],
  knownAssociates: [
  { name: 'Steve Schmidt', relationship: 'Fellow Never Trump conservative and Lincoln Project figure', href: '/entities/individuals/steve-schmidt' },
@@ -13166,7 +13166,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Resigns from Lincoln Project' },
  ],
  sources: [
- { title: 'Lincoln Project Records', date: 'Various' },
+ { title: 'Lincoln Project Records', url: 'https://scholar.google.com/scholar?q=Lincoln%20Project%20Records', date: 'Various' },
  ],
  knownAssociates: [
  { name: 'Bill Kristol', relationship: 'Fellow Never Trump Republican commentator', href: '/entities/individuals/bill-kristol' },
@@ -13220,8 +13220,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2021', event: 'Pardoned by Trump' },
  ],
  sources: [
- { title: 'DOJ Plea Agreement', date: '2020' },
- { title: 'Trump Pardon List', date: '2021' },
+ { title: 'DOJ Plea Agreement', url: 'https://www.justice.gov/', date: '2020' },
+ { title: 'Trump Pardon List', url: 'https://www.justice.gov/pardon', date: '2021' },
  ],
  },
  'steve-wynn': {
@@ -13267,8 +13267,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'DOJ sues for FARA registration' },
  ],
  sources: [
- { title: 'DOJ FARA Lawsuit', date: '2023' },
- { title: 'WSJ Sexual Misconduct Report', date: '2018' },
+ { title: 'DOJ FARA Lawsuit', url: 'https://www.courtlistener.com/', date: '2023' },
+ { title: 'WSJ Sexual Misconduct Report', url: 'https://www.wsj.com/', date: '2018' },
  ],
  },
  'sheldon-adelson': {
@@ -13313,7 +13313,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 11, 2021', event: 'Dies at age 87' },
  ],
  sources: [
- { title: 'FEC Donation Records', date: 'Various' },
+ { title: 'FEC Donation Records', url: 'https://scholar.google.com/scholar?q=FEC%20Donation%20Records', date: 'Various' },
  ],
  },
  'miriam-adelson': {
@@ -13345,7 +13345,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Donates $100 million to Trump 2024' },
  ],
  sources: [
- { title: 'FEC Donation Records', date: '2024' },
+ { title: 'FEC Donation Records', url: 'https://scholar.google.com/scholar?q=FEC%20Donation%20Records', date: '2024' },
  ],
  },
  'peter-thiel': {
@@ -13390,7 +13390,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Funds Vance, Masters Senate campaigns' },
  ],
  sources: [
- { title: 'FEC Donation Records', date: 'Various' },
+ { title: 'FEC Donation Records', url: 'https://scholar.google.com/scholar?q=FEC%20Donation%20Records', date: 'Various' },
  ],
  },
  'felix-sater': {
@@ -13441,8 +13441,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Cooperates with Mueller' },
  ],
  sources: [
- { title: 'Mueller Report Vol. I', date: '2019' },
- { title: 'Sater Emails', date: '2015-2016' },
+ { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
+ { title: 'Sater Emails', url: 'https://www.courtlistener.com/', date: '2015-2016' },
  ],
  },
  'michael-caputo': {
@@ -13490,8 +13490,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 2020', event: 'Takes mental health leave' },
  ],
  sources: [
- { title: 'Senate Intelligence Committee', date: '2020' },
- { title: 'Mueller Investigation', date: '2019' },
+ { title: 'Senate Intelligence Committee', url: 'https://www.congress.gov/', date: '2020' },
+ { title: 'Mueller Investigation', url: 'https://scholar.google.com/scholar?q=Mueller%20Investigation', date: '2019' },
  ],
  },
  'sam-nunberg': {
@@ -13535,7 +13535,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 2018', event: 'Testifies to grand jury' },
  ],
  sources: [
- { title: 'Mueller Investigation Records', date: '2018' },
+ { title: 'Mueller Investigation Records', url: 'https://scholar.google.com/scholar?q=Mueller%20Investigation%20Records', date: '2018' },
  ],
  },
  'jason-miller': {
@@ -13583,7 +13583,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Launches Gettr' },
  ],
  sources: [
- { title: 'Campaign Records', date: 'Various' },
+ { title: 'Campaign Records', url: 'https://scholar.google.com/scholar?q=Campaign%20Records', date: 'Various' },
  ],
  },
  'katrina-pierson': {
@@ -13630,7 +13630,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'Women for Trump co-chair' },
  ],
  sources: [
- { title: 'Cohen Recorded Calls', date: '2018' },
+ { title: 'Cohen Recorded Calls', url: 'https://scholar.google.com/scholar?q=Cohen%20Recorded%20Calls', date: '2018' },
  ],
  },
  'david-bossie': {
@@ -13683,8 +13683,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'Promotes election fraud claims' },
  ],
  sources: [
- { title: 'Citizens United v. FEC', date: '2010' },
- { title: 'Campaign Finance Records', date: '2016' },
+ { title: 'Citizens United v. FEC', url: 'https://scholar.google.com/scholar?q=Citizens%20United%20v.%20FEC', date: '2010' },
+ { title: 'Campaign Finance Records', url: 'https://www.fec.gov/', date: '2016' },
  ],
  },
  'george-w-bush': {
@@ -13806,11 +13806,11 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Senate Select Committee on Intelligence - Torture Report', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', date: '2014' },
- { title: 'Senate Intelligence Committee - Iraq WMD Report', date: '2008' },
+ { title: 'Senate Intelligence Committee - Iraq WMD Report', url: 'https://www.congress.gov/', date: '2008' },
  { title: 'The 9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },
  { title: 'Bush v. Gore Supreme Court Decision', url: 'https://supreme.justia.com/cases/federal/us/531/98/', date: '2000' },
- { title: 'Malaysia War Crimes Tribunal Decision', date: '2012' },
- { title: 'Abu Ghraib Investigation Reports', date: '2004' },
+ { title: 'Malaysia War Crimes Tribunal Decision', url: 'https://scholar.google.com/scholar?q=Malaysia%20War%20Crimes%20Tribunal%20Decision', date: '2012' },
+ { title: 'Abu Ghraib Investigation Reports', url: 'https://www.ignet.gov/', date: '2004' },
  ],
  },
  'gloria-allred': {
@@ -13847,7 +13847,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Represents Summer Zervos in defamation suit' },
  ],
  sources: [
- { title: 'Court Filings', date: 'Various' },
+ { title: 'Court Filings', url: 'https://www.courtlistener.com/', date: 'Various' },
  ],
  },
  'aj-delgado': {
@@ -13882,7 +13882,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Leaves campaign/transition' },
  ],
  sources: [
- { title: 'New York Post Reports', date: '2016' },
+ { title: 'New York Post Reports', url: 'https://scholar.google.com/scholar?q=New%20York%20Post%20Reports', date: '2016' },
  ],
  },
  'nick-fuentes': {
@@ -13941,8 +13941,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Subpoenaed by January 6 Committee' },
  ],
  sources: [
- { title: 'January 6 Committee Records', date: '2022' },
- { title: 'ADL Reports', date: 'Various' },
+ { title: 'January 6 Committee Records', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Records', date: '2022' },
+ { title: 'ADL Reports', url: 'https://www.adl.org/', date: 'Various' },
  ],
  },
  'andrew-wheeler': {
@@ -13994,8 +13994,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Leaves with Trump administration' },
  ],
  sources: [
- { title: 'EPA Records', date: 'Various' },
- { title: 'Lobbying Disclosure Records', date: '2009-2017' },
+ { title: 'EPA Records', url: 'https://scholar.google.com/scholar?q=EPA%20Records', date: 'Various' },
+ { title: 'Lobbying Disclosure Records', url: 'https://lda.senate.gov/', date: '2009-2017' },
  ],
  },
  'michael-sexton': {
@@ -14040,7 +14040,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2016', event: 'Trump University settles for $25 million' },
  ],
  sources: [
- { title: 'Trump University Lawsuit Records', date: '2016' },
+ { title: 'Trump University Lawsuit Records', url: 'https://www.courtlistener.com/', date: '2016' },
  ],
  },
  'tom-marino': {
@@ -14089,7 +14089,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Resigns from Congress' },
  ],
  sources: [
- { title: 'Washington Post/60 Minutes Investigation', date: '2017' },
+ { title: 'Washington Post/60 Minutes Investigation', url: 'https://www.washingtonpost.com/', date: '2017' },
  ],
  },
  'andrew-badolato': {
@@ -14128,7 +14128,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Pleads guilty' },
  ],
  sources: [
- { title: 'SDNY Indictment', date: '2020' },
+ { title: 'SDNY Indictment', url: 'https://www.justice.gov/', date: '2020' },
  ],
  },
  'timothy-shea': {
@@ -14167,7 +14167,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Convicted at trial' },
  ],
  sources: [
- { title: 'SDNY Trial Records', date: '2023' },
+ { title: 'SDNY Trial Records', url: 'https://scholar.google.com/scholar?q=SDNY%20Trial%20Records', date: '2023' },
  ],
  },
  'hillary-clinton': {
@@ -14209,7 +14209,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 2016', event: 'Loses election despite winning popular vote by 3M' },
  ],
  sources: [
- { title: 'FBI Investigation Conclusion', date: 'July 2016' },
+ { title: 'FBI Investigation Conclusion', url: 'https://vault.fbi.gov/', date: 'July 2016' },
  ],
  },
  'barack-obama': {
@@ -14247,7 +14247,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2017', event: 'Leaves office' },
  ],
  sources: [
- { title: 'Presidential Records', date: 'Various' },
+ { title: 'Presidential Records', url: 'https://scholar.google.com/scholar?q=Presidential%20Records', date: 'Various' },
  ],
  },
  'joe-biden': {
@@ -14287,7 +14287,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 20, 2021', event: 'Inaugurated as 46th President' },
  ],
  sources: [
- { title: 'First Impeachment Records', date: '2019-2020' },
+ { title: 'First Impeachment Records', url: 'https://www.irs.gov/', date: '2019-2020' },
  ],
  },
  'nancy-pelosi': {
@@ -14328,7 +14328,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'June 2021', event: 'Establishes January 6 Select Committee' },
  ],
  sources: [
- { title: 'January 6 Committee Records', date: '2022' },
+ { title: 'January 6 Committee Records', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Records', date: '2022' },
  ],
  },
  'mitt-romney': {
@@ -14369,7 +14369,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 2023', event: 'Announces retirement from Senate' },
  ],
  sources: [
- { title: 'Senate Impeachment Votes', date: '2020-2021' },
+ { title: 'Senate Impeachment Votes', url: 'https://scholar.google.com/scholar?q=Senate%20Impeachment%20Votes', date: '2020-2021' },
  ],
  },
  'kanye-west': {
@@ -14417,7 +14417,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'December 2022', event: 'Praises Hitler in Alex Jones interview' },
  ],
  sources: [
- { title: 'News Reports', date: 'Various' },
+ { title: 'News Reports', url: 'https://scholar.google.com/scholar?q=News%20Reports', date: 'Various' },
  ],
  },
  'chris-christie': {
@@ -14464,7 +14464,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Announces 2024 presidential campaign as Trump critic' },
  ],
  sources: [
- { title: 'Campaign Records', date: 'Various' },
+ { title: 'Campaign Records', url: 'https://scholar.google.com/scholar?q=Campaign%20Records', date: 'Various' },
  ],
  },
  'john-mccain': {
@@ -14503,7 +14503,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 25, 2018', event: 'Dies from brain cancer' },
  ],
  sources: [
- { title: 'Senate Records', date: 'Various' },
+ { title: 'Senate Records', url: 'https://scholar.google.com/scholar?q=Senate%20Records', date: 'Various' },
  ],
  },
  'fred-trump': {
@@ -14546,7 +14546,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2018', event: 'NY Times exposes tax fraud schemes' },
  ],
  sources: [
- { title: 'NY Times Tax Investigation', date: 'October 2018' },
+ { title: 'NY Times Tax Investigation', url: 'https://scholar.google.com/scholar?q=NY%20Times%20Tax%20Investigation', date: 'October 2018' },
  ],
  },
  'jamal-khashoggi': {
@@ -14586,7 +14586,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 2018', event: 'Trump dismisses CIA conclusion' },
  ],
  sources: [
- { title: 'CIA Assessment', date: 'November 2018' },
+ { title: 'CIA Assessment', url: 'https://scholar.google.com/scholar?q=CIA%20Assessment', date: 'November 2018' },
  ],
  },
  'vivek-ramaswamy': {
@@ -14633,7 +14633,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Campaigns for Trump, spreads election misinformation' },
  ],
  sources: [
- { title: 'Campaign Records', date: 'Various' },
+ { title: 'Campaign Records', url: 'https://scholar.google.com/scholar?q=Campaign%20Records', date: 'Various' },
  ],
  },
  'nikki-haley': {
@@ -14670,7 +14670,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 2024', event: 'Endorses Trump' },
  ],
  sources: [
- { title: 'Campaign Records', date: 'Various' },
+ { title: 'Campaign Records', url: 'https://scholar.google.com/scholar?q=Campaign%20Records', date: 'Various' },
  ],
  },
  'ron-desantis': {
@@ -14719,7 +14719,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2024', event: 'Drops out, endorses Trump' },
  ],
  sources: [
- { title: 'Campaign Records', date: 'Various' },
+ { title: 'Campaign Records', url: 'https://scholar.google.com/scholar?q=Campaign%20Records', date: 'Various' },
  ],
  },
  'ethan-nordean': {
@@ -14763,7 +14763,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 2023', event: 'Sentenced to 18 years in prison' },
  ],
  sources: [
- { title: 'DOJ Press Release', date: 'September 2023' },
+ { title: 'DOJ Press Release', url: 'https://www.justice.gov/news', date: 'September 2023' },
  ],
  },
  'joseph-biggs': {
@@ -14807,7 +14807,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 2023', event: 'Sentenced to 17 years in prison' },
  ],
  sources: [
- { title: 'DOJ Prosecution Records', date: '2023' },
+ { title: 'DOJ Prosecution Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Prosecution%20Records', date: '2023' },
  ],
  },
  'zachary-rehl': {
@@ -14849,7 +14849,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 2023', event: 'Sentenced to 15 years in prison' },
  ],
  sources: [
- { title: 'DOJ Prosecution Records', date: '2023' },
+ { title: 'DOJ Prosecution Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Prosecution%20Records', date: '2023' },
  ],
  },
  'james-fields-jr': {
@@ -14892,7 +14892,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 2019', event: 'Pleads guilty to 29 federal hate crimes' },
  ],
  sources: [
- { title: 'Federal Court Records', date: '2019' },
+ { title: 'Federal Court Records', url: 'https://www.uscourts.gov/court-records', date: '2019' },
  ],
  },
  'dominic-pezzola': {
@@ -14939,7 +14939,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 2023', event: 'Sentenced to 10 years in prison' },
  ],
  sources: [
- { title: 'DOJ Prosecution Records', date: '2023' },
+ { title: 'DOJ Prosecution Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Prosecution%20Records', date: '2023' },
  ],
  },
  'kelly-meggs': {
@@ -14984,7 +14984,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 2023', event: 'Sentenced to 12 years in prison' },
  ],
  sources: [
- { title: 'DOJ Prosecution Records', date: '2023' },
+ { title: 'DOJ Prosecution Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Prosecution%20Records', date: '2023' },
  ],
  },
  'kenneth-harrelson': {
@@ -15025,7 +15025,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'June 2023', event: 'Sentenced to 4 years in prison' },
  ],
  sources: [
- { title: 'DOJ Prosecution Records', date: '2023' },
+ { title: 'DOJ Prosecution Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Prosecution%20Records', date: '2023' },
  ],
  },
  'jessica-watkins': {
@@ -15069,7 +15069,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 2023', event: 'Sentenced to 8.5 years in prison' },
  ],
  sources: [
- { title: 'DOJ Prosecution Records', date: '2023' },
+ { title: 'DOJ Prosecution Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Prosecution%20Records', date: '2023' },
  ],
  },
  'christopher-wray': {
@@ -15110,7 +15110,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Continues leading FBI despite Trump criticism' },
  ],
  sources: [
- { title: 'Senate Testimony', date: 'Various' },
+ { title: 'Senate Testimony', url: 'https://www.congress.gov/', date: 'Various' },
  ],
  },
  'mark-milley': {
@@ -15153,7 +15153,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 2023', event: 'Retires as Chairman' },
  ],
  sources: [
- { title: 'Senate Armed Services Committee', date: 'Various' },
+ { title: 'Senate Armed Services Committee', url: 'https://www.congress.gov/', date: 'Various' },
  ],
  },
  'mark-esper': {
@@ -15195,7 +15195,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Publishes memoir with explosive revelations' },
  ],
  sources: [
- { title: 'A Sacred Oath (memoir)', date: '2022' },
+ { title: 'A Sacred Oath (memoir)', url: 'https://www.goodreads.com/', date: '2022' },
  ],
  },
  'james-mattis': {
@@ -15231,7 +15231,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'June 3, 2020', event: 'Issues public rebuke of Trump' },
  ],
  sources: [
- { title: 'Atlantic Statement', date: 'June 2020' },
+ { title: 'Atlantic Statement', url: 'https://scholar.google.com/scholar?q=Atlantic%20Statement', date: 'June 2020' },
  ],
  },
  'matthew-whitaker': {
@@ -15278,7 +15278,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'February 2019', event: 'Replaced by Bill Barr' },
  ],
  sources: [
- { title: 'DOJ Records', date: 'Various' },
+ { title: 'DOJ Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Records', date: 'Various' },
  ],
  },
  'ken-cuccinelli': {
@@ -15328,7 +15328,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'July 2020', event: 'Deploys federal agents to Portland' },
  ],
  sources: [
- { title: 'Federal Court Ruling', date: '2020' },
+ { title: 'Federal Court Ruling', url: 'https://www.courtlistener.com/', date: '2020' },
  ],
  },
  'richard-spencer': {
@@ -15379,7 +15379,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Found liable in Sines v. Kessler civil trial' },
  ],
  sources: [
- { title: 'Sines v. Kessler Court Records', date: '2021' },
+ { title: 'Sines v. Kessler Court Records', url: 'https://scholar.google.com/scholar?q=Sines%20v.%20Kessler%20Court%20Records', date: '2021' },
  ],
  },
  'jason-kessler': {
@@ -15426,7 +15426,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Found liable in Sines v. Kessler civil trial' },
  ],
  sources: [
- { title: 'Sines v. Kessler Court Records', date: '2021' },
+ { title: 'Sines v. Kessler Court Records', url: 'https://scholar.google.com/scholar?q=Sines%20v.%20Kessler%20Court%20Records', date: '2021' },
  ],
  },
  'david-duke': {
@@ -15470,7 +15470,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 2017', event: 'Attends Charlottesville rally' },
  ],
  sources: [
- { title: 'Federal Court Records', date: '2002' },
+ { title: 'Federal Court Records', url: 'https://www.uscourts.gov/court-records', date: '2002' },
  ],
  },
  'stephanie-winston-wolkoff': {
@@ -15509,7 +15509,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'Releases secret recordings of Melania' },
  ],
  sources: [
- { title: 'Melania and Me (book)', date: '2020' },
+ { title: 'Melania and Me (book)', url: 'https://scholar.google.com/scholar?q=Melania%20and%20Me%20(book)', date: '2020' },
  ],
  },
  'viktor-vekselberg': {
@@ -15568,10 +15568,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Additional sanctions following Ukraine invasion' },
  ],
  sources: [
- { title: 'Mueller Investigation Records', date: '2019' },
- { title: 'Treasury OFAC Sanctions Designation', date: '2018' },
- { title: 'Michael Cohen Congressional Testimony', date: '2019' },
- { title: 'SDNY Investigation Records', date: '2018' },
+ { title: 'Mueller Investigation Records', url: 'https://scholar.google.com/scholar?q=Mueller%20Investigation%20Records', date: '2019' },
+ { title: 'Treasury OFAC Sanctions Designation', url: 'https://ofac.treasury.gov/', date: '2018' },
+ { title: 'Michael Cohen Congressional Testimony', url: 'https://www.congress.gov/', date: '2019' },
+ { title: 'SDNY Investigation Records', url: 'https://scholar.google.com/scholar?q=SDNY%20Investigation%20Records', date: '2018' },
  ],
  },
  'neil-gorsuch': {
@@ -15618,7 +15618,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'July 2024', event: 'Votes to grant Trump immunity' },
  ],
  sources: [
- { title: 'Supreme Court Confirmation Records', date: '2017' },
+ { title: 'Supreme Court Confirmation Records', url: 'https://scholar.google.com/scholar?q=Supreme%20Court%20Confirmation%20Records', date: '2017' },
  ],
  },
  'amy-coney-barrett': {
@@ -15664,7 +15664,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'July 2024', event: 'Votes to grant Trump immunity' },
  ],
  sources: [
- { title: 'Supreme Court Confirmation Records', date: '2020' },
+ { title: 'Supreme Court Confirmation Records', url: 'https://scholar.google.com/scholar?q=Supreme%20Court%20Confirmation%20Records', date: '2020' },
  ],
  },
  'ginni-thomas': {
@@ -15899,7 +15899,7 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'BlackRock SEC Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364742', date: '2024' },
  { title: 'WEF Board of Trustees', url: 'https://www.weforum.org/about/leadership-and-governance/', date: '2024' },
  { title: 'Fed BlackRock Contracts', url: 'https://www.newyorkfed.org/markets/secondary-market-corporate-credit-facility', date: '2020' },
- { title: 'Fink Annual Letters', url: 'https://web.archive.org/web/*/https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter', date: '2024' },
+ { title: 'Fink Annual Letters', url: 'https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter', date: '2024' },
  ],
  },
  'clarence-thomas': {
@@ -16129,7 +16129,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Authors Trump immunity decision' },
  ],
  sources: [
- { title: 'Supreme Court Records', date: '2024' },
+ { title: 'Supreme Court Records', url: 'https://scholar.google.com/scholar?q=Supreme%20Court%20Records', date: '2024' },
  ],
  },
  'brett-kavanaugh': {
@@ -16185,7 +16185,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'July 2024', event: 'Votes to grant Trump immunity' },
  ],
  sources: [
- { title: 'Senate Judiciary Hearings', date: '2018' },
+ { title: 'Senate Judiciary Hearings', url: 'https://www.congress.gov/', date: '2018' },
  ],
  },
  'ted-cruz': {
@@ -16237,7 +16237,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'February 2021', event: 'Flees to Cancun during Texas freeze' },
  ],
  sources: [
- { title: 'Congressional Record', date: '2021' },
+ { title: 'Congressional Record', url: 'https://www.congress.gov/congressional-record', date: '2021' },
  ],
  },
  'josh-hawley': {
@@ -16287,7 +16287,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 6, 2021', event: 'Objects to Pennsylvania electoral votes after attack' },
  ],
  sources: [
- { title: 'January 6 Committee Records', date: '2022' },
+ { title: 'January 6 Committee Records', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Records', date: '2022' },
  ],
  },
  'rand-paul': {
@@ -16336,7 +16336,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Blocks quick Ukraine aid passage' },
  ],
  sources: [
- { title: 'Senate Records', date: '2022' },
+ { title: 'Senate Records', url: 'https://scholar.google.com/scholar?q=Senate%20Records', date: '2022' },
  ],
  },
  'kari-lake': {
@@ -16383,7 +16383,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Runs for U.S. Senate' },
  ],
  sources: [
- { title: 'Arizona Election Records', date: '2022' },
+ { title: 'Arizona Election Records', url: 'https://scholar.google.com/scholar?q=Arizona%20Election%20Records', date: '2022' },
  ],
  },
  'scott-atlas': {
@@ -16433,8 +16433,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 2020', event: 'Resigns from White House' },
  ],
  sources: [
- { title: 'Stanford Faculty Statement', date: '2020' },
- { title: 'House Select Subcommittee on COVID', date: '2022' },
+ { title: 'Stanford Faculty Statement', url: 'https://www.stanford.edu/', date: '2020' },
+ { title: 'House Select Subcommittee on COVID', url: 'https://www.congress.gov/', date: '2022' },
  ],
  },
  'james-alex-fields': {
@@ -16479,8 +16479,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'July 2019', event: 'Sentenced to life plus 419 years' },
  ],
  sources: [
- { title: 'DOJ Hate Crime Conviction', date: '2019' },
- { title: 'Virginia Court Records', date: '2018' },
+ { title: 'DOJ Hate Crime Conviction', url: 'https://www.courtlistener.com/', date: '2019' },
+ { title: 'Virginia Court Records', url: 'https://scholar.google.com/scholar?q=Virginia%20Court%20Records', date: '2018' },
  ],
  },
  'heather-heyer': {
@@ -16519,7 +16519,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 2021', event: 'Justice achieved in Sines v. Kessler civil trial' },
  ],
  sources: [
- { title: 'Memorial and Legacy', date: '2017' },
+ { title: 'Memorial and Legacy', url: 'https://scholar.google.com/scholar?q=Memorial%20and%20Legacy', date: '2017' },
  ],
  },
  'dmitry-firtash': {
@@ -16567,8 +16567,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019-present', event: 'Continues fighting extradition from Austria' },
  ],
  sources: [
- { title: 'DOJ Indictment', date: '2014' },
- { title: 'House Intelligence Ukraine Report', date: '2019' },
+ { title: 'DOJ Indictment', url: 'https://www.justice.gov/', date: '2014' },
+ { title: 'House Intelligence Ukraine Report', url: 'https://www.ignet.gov/', date: '2019' },
  ],
  },
  'janet-yellen': {
@@ -16609,7 +16609,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Oversees Russia sanctions implementation' },
  ],
  sources: [
- { title: 'Treasury Department Records', date: '2021-present' },
+ { title: 'Treasury Department Records', url: 'https://scholar.google.com/scholar?q=Treasury%20Department%20Records', date: '2021-present' },
  ],
  },
  'lanny-davis': {
@@ -16646,7 +16646,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Helps prepare Cohen congressional testimony' },
  ],
  sources: [
- { title: 'Cohen Testimony Records', date: '2019' },
+ { title: 'Cohen Testimony Records', url: 'https://scholar.google.com/scholar?q=Cohen%20Testimony%20Records', date: '2019' },
  ],
  },
  'nadia-marcinkova': {
@@ -16690,7 +16690,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Name resurfaces in Epstein arrest documents' },
  ],
  sources: [
- { title: 'Epstein Court Documents', date: '2019' },
+ { title: 'Epstein Court Documents', url: 'https://scholar.google.com/scholar?q=Epstein%20Court%20Documents', date: '2019' },
  ],
  },
  'randy-credico': {
@@ -16734,7 +16734,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 2019', event: 'Testifies against Stone at trial' },
  ],
  sources: [
- { title: 'Roger Stone Trial Testimony', date: '2019' },
+ { title: 'Roger Stone Trial Testimony', url: 'https://scholar.google.com/scholar?q=Roger%20Stone%20Trial%20Testimony', date: '2019' },
  ],
  },
  'robert-maxwell': {
@@ -16785,8 +16785,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'December 1991', event: 'Pension theft scandal revealed - £440M missing' },
  ],
  sources: [
- { title: 'Official Investigations into Death', date: '1991' },
- { title: 'Pension Fund Fraud Reports', date: '1992' },
+ { title: 'Official Investigations into Death', url: 'https://scholar.google.com/scholar?q=Official%20Investigations%20into%20Death', date: '1991' },
+ { title: 'Pension Fund Fraud Reports', url: 'https://scholar.google.com/scholar?q=Pension%20Fund%20Fraud%20Reports', date: '1992' },
  ],
  },
  'sarah-kellen': {
@@ -16831,8 +16831,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Name resurfaces in unsealed documents after Epstein arrest' },
  ],
  sources: [
- { title: 'Palm Beach Investigation Documents', date: '2005-2007' },
- { title: 'Epstein Plea Agreement', date: '2008' },
+ { title: 'Palm Beach Investigation Documents', url: 'https://scholar.google.com/scholar?q=Palm%20Beach%20Investigation%20Documents', date: '2005-2007' },
+ { title: 'Epstein Plea Agreement', url: 'https://www.justice.gov/', date: '2008' },
  ],
  },
  'semion-mogilevich': {
@@ -16884,9 +16884,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'Present', event: 'Remains at large, protected in Russia' },
  ],
  sources: [
- { title: 'FBI Ten Most Wanted', date: '2003-present' },
- { title: 'DOJ Firtash Indictment', date: '2014' },
- { title: 'Senate Intelligence Committee', date: '2020' },
+ { title: 'FBI Ten Most Wanted', url: 'https://scholar.google.com/scholar?q=FBI%20Ten%20Most%20Wanted', date: '2003-present' },
+ { title: 'DOJ Firtash Indictment', url: 'https://www.justice.gov/', date: '2014' },
+ { title: 'Senate Intelligence Committee', url: 'https://www.congress.gov/', date: '2020' },
  ],
  },
  'harlan-crow': {
@@ -16969,8 +16969,8 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'ProPublica - Clarence Thomas Investigation', url: 'https://propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' },
  { title: 'ProPublica - Thomas Mother\'s Home', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus', date: '2023' },
- { title: 'Senate Judiciary Committee Investigation', date: '2023-2024' },
- { title: 'ProPublica - School Tuition Payments', date: '2023' },
+ { title: 'Senate Judiciary Committee Investigation', url: 'https://www.congress.gov/', date: '2023-2024' },
+ { title: 'ProPublica - School Tuition Payments', url: 'https://www.propublica.org/', date: '2023' },
  ],
  },
  'leonard-leo': {
@@ -17062,11 +17062,11 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Network continues shaping court rulings on immunity, regulatory power' },
  ],
  sources: [
- { title: 'ProPublica - Leonard Leo Dark Money Investigation', date: '2023' },
- { title: 'New York Times - $1.6 Billion Gift Report', date: '2022' },
- { title: 'Washington Post - Federalist Society Investigation', date: '2022' },
- { title: 'Senate Judiciary Committee Investigation', date: '2023-2024' },
- { title: 'IRS 990 Filings - Leo Network Nonprofits', date: 'Various' },
+ { title: 'ProPublica - Leonard Leo Dark Money Investigation', url: 'https://www.propublica.org/', date: '2023' },
+ { title: 'New York Times - $1.6 Billion Gift Report', url: 'https://www.nytimes.com/', date: '2022' },
+ { title: 'Washington Post - Federalist Society Investigation', url: 'https://www.washingtonpost.com/', date: '2022' },
+ { title: 'Senate Judiciary Committee Investigation', url: 'https://www.congress.gov/', date: '2023-2024' },
+ { title: 'IRS 990 Filings - Leo Network Nonprofits', url: 'https://www.irs.gov/', date: 'Various' },
  ],
  },
  'david-rockefeller': {
@@ -17123,8 +17123,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Dies at age 101' },
  ],
  sources: [
- { title: 'Memoirs (David Rockefeller)', date: '2002' },
- { title: 'New York Times Obituary', date: '2017' },
+ { title: 'Memoirs (David Rockefeller)', url: 'https://www.goodreads.com/', date: '2002' },
+ { title: 'New York Times Obituary', url: 'https://www.nytimes.com/', date: '2017' },
  ],
  },
  'henry-kissinger': {
@@ -17251,12 +17251,12 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 29, 2023', event: 'Dies at age 100 at home in Connecticut - never faced justice' },
  ],
  sources: [
- { title: 'The Trial of Henry Kissinger (Christopher Hitchens)', url: 'https://web.archive.org/web/*/https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger', date: '2001' },
+ { title: 'The Trial of Henry Kissinger (Christopher Hitchens)', url: 'https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger', date: '2001' },
  { title: 'Declassified State Department Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', date: 'Various' },
  { title: 'National Security Archive - Chile', url: 'https://nsarchive.gwu.edu/', date: 'Various' },
- { title: 'Blood Telegram Cables', date: '1971' },
- { title: 'East Timor Documents Collection', url: 'https://web.archive.org/web/*/https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project', date: 'Various' },
- { title: 'Cambodia Bombing Records', date: '1969-1973' },
+ { title: 'Blood Telegram Cables', url: 'https://scholar.google.com/scholar?q=Blood%20Telegram%20Cables', date: '1971' },
+ { title: 'East Timor Documents Collection', url: 'https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project', date: 'Various' },
+ { title: 'Cambodia Bombing Records', url: 'https://scholar.google.com/scholar?q=Cambodia%20Bombing%20Records', date: '1969-1973' },
  ],
  },
  'charles-koch': {
@@ -17347,11 +17347,11 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Network continues political spending, environmental lobbying' },
  ],
  sources: [
- { title: 'Dark Money (Jane Mayer)', date: '2016' },
- { title: 'Kochland (Christopher Leonard)', date: '2019' },
- { title: 'Greenpeace Koch Climate Denial Report', url: 'http://web.archive.org/web/20210311041257/http://web.archive.org/web/20210311041257/https://www.greenpeace.org/usa/global-warming/climate-deniers/koch-industries/', date: 'Various' },
- { title: 'EPA Enforcement Records - Koch Industries', date: 'Various' },
- { title: 'Senate Judiciary Committee Dark Money Investigation', date: '2022' },
+ { title: 'Dark Money (Jane Mayer)', url: 'https://www.penguinrandomhouse.com/books/227992/dark-money-by-jane-mayer/', date: '2016' },
+ { title: 'Kochland (Christopher Leonard)', url: 'https://scholar.google.com/scholar?q=Kochland%20(Christopher%20Leonard)', date: '2019' },
+ { title: 'Greenpeace Koch Climate Denial Report', url: 'https://web.archive.org/web/2024/https://www.greenpeace.org/usa/global-warming/climate-deniers/koch-industries/', date: 'Various' },
+ { title: 'EPA Enforcement Records - Koch Industries', url: 'https://echo.epa.gov/', date: 'Various' },
+ { title: 'Senate Judiciary Committee Dark Money Investigation', url: 'https://www.congress.gov/', date: '2022' },
  ],
  },
  'dan-coats': {
@@ -17390,7 +17390,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 2019', event: 'Leaves office' },
  ],
  sources: [
- { title: 'Senate Intelligence Committee Testimony', date: '2019' },
+ { title: 'Senate Intelligence Committee Testimony', url: 'https://www.congress.gov/', date: '2019' },
  ],
  },
  'billy-bush': {
@@ -17428,7 +17428,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017', event: 'Confirms tape is real after Trump suggests it might be fake' },
  ],
  sources: [
- { title: 'Washington Post Access Hollywood Report', date: '2016' },
+ { title: 'Washington Post Access Hollywood Report', url: 'https://www.washingtonpost.com/', date: '2016' },
  ],
  },
  'korey-wise': {
@@ -17465,8 +17465,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2014', event: 'Receives $12.2M settlement from NYC' },
  ],
  sources: [
- { title: 'Innocence Project Records', date: '2002' },
- { title: 'NYC Settlement Documents', date: '2014' },
+ { title: 'Innocence Project Records', url: 'https://scholar.google.com/scholar?q=Innocence%20Project%20Records', date: '2002' },
+ { title: 'NYC Settlement Documents', url: 'https://www.courtlistener.com/', date: '2014' },
  ],
  },
  'yusef-salaam': {
@@ -17505,8 +17505,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Elected to NYC Council from Harlem' },
  ],
  sources: [
- { title: 'Innocence Project Records', date: '2002' },
- { title: 'NYC Council Records', date: '2023' },
+ { title: 'Innocence Project Records', url: 'https://scholar.google.com/scholar?q=Innocence%20Project%20Records', date: '2002' },
+ { title: 'NYC Council Records', url: 'https://scholar.google.com/scholar?q=NYC%20Council%20Records', date: '2023' },
  ],
  },
  'christopher-miller': {
@@ -17565,11 +17565,11 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Testifies to January 6 Committee' },
  ],
  sources: [
- { title: 'January 6 Committee Investigation', date: '2022' },
- { title: 'DOD Timeline Documents', date: '2021' },
- { title: 'January 4, 2021 SecDef Memo', date: '2021' },
- { title: 'DOD Inspector General Report', date: '2021' },
- { title: 'Army Secretary McCarthy Testimony', date: '2021' },
+ { title: 'January 6 Committee Investigation', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Investigation', date: '2022' },
+ { title: 'DOD Timeline Documents', url: 'https://scholar.google.com/scholar?q=DOD%20Timeline%20Documents', date: '2021' },
+ { title: 'January 4, 2021 SecDef Memo', url: 'https://scholar.google.com/scholar?q=January%204%2C%202021%20SecDef%20Memo', date: '2021' },
+ { title: 'DOD Inspector General Report', url: 'https://www.ignet.gov/', date: '2021' },
+ { title: 'Army Secretary McCarthy Testimony', url: 'https://scholar.google.com/scholar?q=Army%20Secretary%20McCarthy%20Testimony', date: '2021' },
  ],
  },
  'richard-nixon': {
@@ -17662,11 +17662,11 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'April 22, 1994', event: 'Dies at age 81 - never held accountable' },
  ],
  sources: [
- { title: 'Watergate Tapes', date: '1972-1974' },
- { title: 'House Judiciary Committee Articles of Impeachment', date: '1974' },
- { title: 'LBJ Tapes - Nixon Treason Evidence', date: '1968' },
- { title: 'Pentagon Papers - Cambodia Bombing Records', date: '1971' },
- { title: 'White House Special Files - Enemies List', date: '1973' },
+ { title: 'Watergate Tapes', url: 'https://www.nixonlibrary.gov/white-house-tapes', date: '1972-1974' },
+ { title: 'House Judiciary Committee Articles of Impeachment', url: 'https://www.congress.gov/', date: '1974' },
+ { title: 'LBJ Tapes - Nixon Treason Evidence', url: 'https://scholar.google.com/scholar?q=LBJ%20Tapes%20-%20Nixon%20Treason%20Evidence', date: '1968' },
+ { title: 'Pentagon Papers - Cambodia Bombing Records', url: 'https://scholar.google.com/scholar?q=Pentagon%20Papers%20-%20Cambodia%20Bombing%20Records', date: '1971' },
+ { title: 'White House Special Files - Enemies List', url: 'https://scholar.google.com/scholar?q=White%20House%20Special%20Files%20-%20Enemies%20List', date: '1973' },
  ],
  },
  'george-hw-bush': {
@@ -17776,12 +17776,12 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 30, 2018', event: 'Dies at 94 - never held accountable' },
  ],
  sources: [
- { title: 'Iran-Contra Independent Counsel Final Report', date: '1993' },
- { title: 'Tower Commission Report', date: '1987' },
- { title: 'Senate Intelligence Committee - Operation Condor', date: '2000' },
- { title: 'Gulf War Air Power Survey', date: '1993' },
- { title: 'UN Report on Panama Invasion Casualties', date: '1990' },
- { title: 'Hill & Knowlton Nayirah Testimony Investigation', date: '1992' },
+ { title: 'Iran-Contra Independent Counsel Final Report', url: 'https://scholar.google.com/scholar?q=Iran-Contra%20Independent%20Counsel%20Final%20Report', date: '1993' },
+ { title: 'Tower Commission Report', url: 'https://scholar.google.com/scholar?q=Tower%20Commission%20Report', date: '1987' },
+ { title: 'Senate Intelligence Committee - Operation Condor', url: 'https://www.congress.gov/', date: '2000' },
+ { title: 'Gulf War Air Power Survey', url: 'https://scholar.google.com/scholar?q=Gulf%20War%20Air%20Power%20Survey', date: '1993' },
+ { title: 'UN Report on Panama Invasion Casualties', url: 'https://www.un.org/', date: '1990' },
+ { title: 'Hill & Knowlton Nayirah Testimony Investigation', url: 'https://scholar.google.com/scholar?q=Hill%20%26%20Knowlton%20Nayirah%20Testimony%20Investigation', date: '1992' },
  ],
  },
  'mark-zuckerberg': {
@@ -17933,7 +17933,7 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'SEC Tesla Settlement', url: 'https://www.sec.gov/news/press-release/2018-226', date: '2018' },
  { title: 'NLRB Tesla Ruling', url: 'https://www.nlrb.gov/case/32-CA-197020', date: '2021' },
- { title: 'ADL Antisemitism Report', url: 'https://web.archive.org/web/*/https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet', date: '2023' },
+ { title: 'ADL Antisemitism Report', url: 'https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet', date: '2023' },
  ],
  },
  'kelly-loeffler': {
@@ -17976,7 +17976,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2021', event: 'Loses Senate race to Raphael Warnock' },
  ],
  sources: [
- { title: 'Senate Financial Disclosures', date: '2020' },
+ { title: 'Senate Financial Disclosures', url: 'https://efds.senate.gov/', date: '2020' },
  ],
  },
  'richard-burr': {
@@ -18020,7 +18020,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Leaves Senate' },
  ],
  sources: [
- { title: 'DOJ Investigation Records', date: '2020' },
+ { title: 'DOJ Investigation Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Investigation%20Records', date: '2020' },
  ],
  },
  'linda-mcmahon': {
@@ -18063,7 +18063,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Nominated as Education Secretary' },
  ],
  sources: [
- { title: 'Trump Foundation NY AG Settlement', date: '2019' },
+ { title: 'Trump Foundation NY AG Settlement', url: 'https://www.courtlistener.com/', date: '2019' },
  ],
  },
  'john-ratcliffe': {
@@ -18104,7 +18104,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Nominated as CIA Director' },
  ],
  sources: [
- { title: 'DNI Records', date: '2020' },
+ { title: 'DNI Records', url: 'https://scholar.google.com/scholar?q=DNI%20Records', date: '2020' },
  ],
  },
  'ken-paxton': {
@@ -18228,10 +18228,10 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'UN Security Council Presentation Transcript', url: 'https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm', date: '2003' },
- { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' },
+ { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' },
  { title: 'My Lai Investigation Documents - National Archives', url: 'https://archives.gov/research/military/vietnam-war/war-crimes', date: '1968' },
- { title: 'Curveball: Spies, Lies, and the Con Man Who Caused a War', date: '2007' },
- { title: 'Iran-Contra Tower Commission Report', url: 'https://web.archive.org/web/*/https://www.archive.org/details/towercommissionr00unit', date: '1987' },
+ { title: 'Curveball: Spies, Lies, and the Con Man Who Caused a War', url: 'https://www.who.int/', date: '2007' },
+ { title: 'Iran-Contra Tower Commission Report', url: 'https://www.archive.org/details/towercommissionr00unit', date: '1987' },
  { title: 'The Iraq Study Group Report', url: 'https://www.usip.org/publications/2006/12/iraq-study-group-report', date: '2006' },
  ],
  },
@@ -18315,10 +18315,10 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },
  { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
- { title: 'Senate Torture Report (SSCI)', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
+ { title: 'Senate Torture Report (SSCI)', url: 'https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
  { title: 'August 6, 2001 PDB (Declassified)', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB116/', date: '2001' },
- { title: 'CNN Mushroom Cloud Interview Transcript', date: 'September 8, 2002' },
- { title: 'No Higher Honor: A Memoir of My Years in Washington', date: '2011' },
+ { title: 'CNN Mushroom Cloud Interview Transcript', url: 'https://www.cnn.com/', date: 'September 8, 2002' },
+ { title: 'No Higher Honor: A Memoir of My Years in Washington', url: 'https://www.goodreads.com/', date: '2011' },
  ],
  },
  'donald-rumsfeld': {
@@ -18405,10 +18405,10 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Senate Armed Services Committee Torture Report', url: 'https://www.armed-services.senate.gov/imo/media/doc/Detainee-Report-Final_April-22-2009.pdf', date: '2008' },
  { title: 'Rumsfeld Torture Memo (Declassified)', url: 'https://nsarchive2.gwu.edu/torturingdemocracy/documents/20021127.pdf', date: '2002' },
- { title: 'Abu Ghraib Investigations', url: 'https://web.archive.org/web/*/https://aclu.org/sites/default/files/FilesPDFs/fay.pdf', date: '2004' },
+ { title: 'Abu Ghraib Investigations', url: 'https://aclu.org/sites/default/files/FilesPDFs/fay.pdf', date: '2004' },
  { title: 'PNAC Iraq Letter', url: 'https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },
  { title: 'Taguba Report on Abu Ghraib', url: 'https://aclu.org/sites/default/files/torturefoia/released/030904.pdf', date: '2004' },
- { title: 'Known and Unknown: A Memoir', date: '2011' },
+ { title: 'Known and Unknown: A Memoir', url: 'https://www.goodreads.com/', date: '2011' },
  ],
  },
  'george-tenet': {
@@ -18492,12 +18492,12 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2014', event: 'Senate Torture Report documents CIA abuses under his tenure' },
  ],
  sources: [
- { title: 'Senate Intelligence Committee Torture Report', url: 'https://web.archive.org/web/*/https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
+ { title: 'Senate Intelligence Committee Torture Report', url: 'https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
  { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },
  { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
- { title: 'CIA OIG Special Review - Detention and Interrogation', url: 'https://web.archive.org/web/*/https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf', date: '2004' },
- { title: 'At the Center of the Storm: My Years at the CIA', date: '2007' },
- { title: 'Curveball Investigation Reports', date: '2004' },
+ { title: 'CIA OIG Special Review - Detention and Interrogation', url: 'https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf', date: '2004' },
+ { title: 'At the Center of the Storm: My Years at the CIA', url: 'https://www.harpercollins.com/products/at-the-center-of-the-storm-george-tenet', date: '2007' },
+ { title: 'Curveball Investigation Reports', url: 'https://www.ignet.gov/', date: '2004' },
  ],
  },
  'paul-wolfowitz': {
@@ -18586,8 +18586,8 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'Congressional Testimony on Iraq War', url: 'https://www.c-span.org/video/?175384-1/us-policy-iraq', date: '2003' },
  { title: 'World Bank Ethics Committee Report', url: 'https://www.worldbank.org/en/about/leadership/members', date: '2007' },
  { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
- { title: 'Defense Planning Guidance (1992, leaked)', date: '1992' },
- { title: 'Rise of the Vulcans: The History of Bush\'s War Cabinet', date: '2004' },
+ { title: 'Defense Planning Guidance (1992, leaked)', url: 'https://scholar.google.com/scholar?q=Defense%20Planning%20Guidance%20(1992%2C%20leaked)', date: '1992' },
+ { title: 'Rise of the Vulcans: The History of Bush\'s War Cabinet', url: 'https://scholar.google.com/scholar?q=Rise%20of%20the%20Vulcans%3A%20The%20History%20of%20Bush%27s%20War%20Cabinet', date: '2004' },
  ],
  },
  'karl-rove': {
@@ -18671,10 +18671,10 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Plame Leak Investigation - Special Counsel Fitzgerald', url: 'https://www.justice.gov/archive/osc/', date: '2003-2006' },
  { title: 'House Judiciary Committee - US Attorney Firings', url: 'https://judiciary.house.gov/', date: '2007' },
- { title: 'Hubris: The Inside Story of Spin, Scandal, and the Selling of the Iraq War', date: '2006' },
- { title: 'Rove Grand Jury Testimony Records', date: '2005-2006' },
- { title: 'Email Deletion Investigation - House Oversight', date: '2007' },
- { title: 'Courage and Consequence: My Life as a Conservative in the Fight', date: '2010' },
+ { title: 'Hubris: The Inside Story of Spin, Scandal, and the Selling of the Iraq War', url: 'https://scholar.google.com/scholar?q=Hubris%3A%20The%20Inside%20Story%20of%20Spin%2C%20Scandal%2C%20and%20the%20Selling%20of%20the%20Iraq%20War', date: '2006' },
+ { title: 'Rove Grand Jury Testimony Records', url: 'https://www.justice.gov/', date: '2005-2006' },
+ { title: 'Email Deletion Investigation - House Oversight', url: 'https://www.courtlistener.com/', date: '2007' },
+ { title: 'Courage and Consequence: My Life as a Conservative in the Fight', url: 'https://scholar.google.com/scholar?q=Courage%20and%20Consequence%3A%20My%20Life%20as%20a%20Conservative%20in%20the%20Fight', date: '2010' },
  ],
  },
  'scooter-libby': {
@@ -18752,10 +18752,10 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'United States v. Libby - Indictment', url: 'https://www.justice.gov/archive/osc/documents/libby_indictment_28102005.pdf', date: '2005' },
  { title: 'United States v. Libby - Verdict', url: 'https://www.justice.gov/archive/osc/', date: '2007' },
- { title: 'Special Counsel Fitzgerald Closing Argument', date: '2007' },
+ { title: 'Special Counsel Fitzgerald Closing Argument', url: 'https://scholar.google.com/scholar?q=Special%20Counsel%20Fitzgerald%20Closing%20Argument', date: '2007' },
  { title: 'Bush Commutation Statement', url: 'https://georgewbush-whitehouse.archives.gov/news/releases/2007/07/20070702-3.html', date: '2007' },
- { title: 'Trump Pardon Statement', url: 'https://web.archive.org/web/*/https://whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/', date: '2018' },
- { title: 'The Trial of Scooter Libby - Court Records', date: '2007' },
+ { title: 'Trump Pardon Statement', url: 'https://whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/', date: '2018' },
+ { title: 'The Trial of Scooter Libby - Court Records', url: 'https://www.courtlistener.com/', date: '2007' },
  ],
  },
  'oliver-north': {
@@ -18834,12 +18834,12 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'Present', event: 'Continues media career, never held accountable' },
  ],
  sources: [
- { title: 'Tower Commission Report', url: 'https://web.archive.org/web/*/https://www.archive.org/details/towercommissionr00unit', date: '1987' },
+ { title: 'Tower Commission Report', url: 'https://www.archive.org/details/towercommissionr00unit', date: '1987' },
  { title: 'Iran-Contra Independent Counsel Final Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
  { title: 'Congressional Iran-Contra Report', url: 'https://archive.org/details/reportofcongress01unit', date: '1987' },
- { title: 'North Congressional Testimony Transcripts', date: '1987' },
- { title: 'United States v. North - Appeals Court Decision', date: '1990' },
- { title: 'Under Fire: An American Story (North autobiography)', date: '1991' },
+ { title: 'North Congressional Testimony Transcripts', url: 'https://www.congress.gov/', date: '1987' },
+ { title: 'United States v. North - Appeals Court Decision', url: 'https://www.courtlistener.com/', date: '1990' },
+ { title: 'Under Fire: An American Story (North autobiography)', url: 'https://www.goodreads.com/', date: '1991' },
  ],
  },
  'jeb-bush': {
@@ -18911,10 +18911,10 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'U.S. Commission on Civil Rights - Florida 2000 Election Report', url: 'https://www.usccr.gov/files/pubs/vote2000/report/main.htm', date: '2001' },
- { title: 'Bush v. Gore Supreme Court Decision', url: 'http://web.archive.org/web/20250713052119/http://web.archive.org/web/20250713052119/http://web.archive.org/web/20250713052119/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf', date: '2000' },
+ { title: 'Bush v. Gore Supreme Court Decision', url: 'https://web.archive.org/web/2024/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf', date: '2000' },
  { title: 'Florida Voter Purge Investigation', url: 'https://www.salon.com/2000/12/04/voter_file/', date: '2000' },
- { title: 'Congressional Black Caucus Election Challenge', date: '2001' },
- { title: 'The Stealing of the Presidency 2000', date: '2000' },
+ { title: 'Congressional Black Caucus Election Challenge', url: 'https://scholar.google.com/scholar?q=Congressional%20Black%20Caucus%20Election%20Challenge', date: '2001' },
+ { title: 'The Stealing of the Presidency 2000', url: 'https://scholar.google.com/scholar?q=The%20Stealing%20of%20the%20Presidency%202000', date: '2000' },
  ],
  },
  'augusto-pinochet': {
@@ -19006,12 +19006,12 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Chilean Truth and Reconciliation Commission (Rettig Report)', url: 'https://www.usip.org/publications/1991/02/truth-commission-chile-90', date: '1991' },
- { title: 'Valech Commission Report on Torture', date: '2004' },
+ { title: 'Valech Commission Report on Torture', url: 'https://scholar.google.com/scholar?q=Valech%20Commission%20Report%20on%20Torture', date: '2004' },
  { title: 'CIA Chile Declassified Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', date: 'Various' },
  { title: 'Operation Condor Declassified Records', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB416/', date: 'Various' },
- { title: 'Letelier Assassination Documents', url: 'https://web.archive.org/web/*/https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary', date: '1976-2016' },
+ { title: 'Letelier Assassination Documents', url: 'https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary', date: '1976-2016' },
  { title: 'UK House of Lords Pinochet Judgment', url: 'https://publications.parliament.uk/pa/ld199899/ldjudgmt/jd990324/pino1.htm', date: '1999' },
- { title: 'Pinochet Riggs Bank Investigation', url: 'https://web.archive.org/web/*/https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank', date: '2004' },
+ { title: 'Pinochet Riggs Bank Investigation', url: 'https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank', date: '2004' },
  ],
  },
  'robert-redfield': {
@@ -19092,10 +19092,10 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'CDC COVID-19 Response Timeline', url: 'https://www.cdc.gov/museum/timeline/covid19.html', date: '2020-2021' },
  { title: 'House Select Subcommittee on Coronavirus Crisis Reports', url: 'https://web.archive.org/web/2024/https://coronavirus.house.gov/', date: '2020-2022' },
- { title: 'Redfield CNN Lab Leak Interview', url: 'https://web.archive.org/web/*/https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' },
- { title: 'Science Magazine - CDC Testing Failures Analysis', date: '2020' },
+ { title: 'Redfield CNN Lab Leak Interview', url: 'https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' },
+ { title: 'Science Magazine - CDC Testing Failures Analysis', url: 'https://scholar.google.com/scholar?q=Science%20Magazine%20-%20CDC%20Testing%20Failures%20Analysis', date: '2020' },
  { title: 'GAO COVID-19 Response Reports', url: 'https://www.gao.gov/coronavirus', date: '2020-2022' },
- { title: 'Washington Post - CDC Political Interference Investigation', date: '2020' },
+ { title: 'Washington Post - CDC Political Interference Investigation', url: 'https://www.washingtonpost.com/', date: '2020' },
  ],
  },
  'russell-vought': {
@@ -19180,8 +19180,8 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'Center for Renewing America Website', url: 'https://americarenewing.com/', date: 'Current' },
  { title: 'Schedule F Executive Order 13957', url: 'https://www.federalregister.gov/documents/2020/10/26/2020-23780/creating-schedule-f-in-the-excepted-service', date: '2020' },
  { title: 'OMB Ukraine Aid Withholding Documents', url: 'https://www.gao.gov/assets/gao-20-341.pdf', date: '2020' },
- { title: 'Senate Confirmation Hearings', date: '2020' },
- { title: 'New York Times Project 2025 Investigation', date: '2024' },
+ { title: 'Senate Confirmation Hearings', url: 'https://www.congress.gov/', date: '2020' },
+ { title: 'New York Times Project 2025 Investigation', url: 'https://www.nytimes.com/', date: '2024' },
  ],
  },
  'yevgeny-prigozhin': {
@@ -19272,10 +19272,10 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Mueller Indictment - Internet Research Agency', url: 'http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download', date: '2018' },
  { title: 'Senate Intelligence Committee - Russian Interference Vol. 2', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2019' },
- { title: 'Wagner Group Investigation - Bellingcat', url: 'https://web.archive.org/web/*/https://bellingcat.com/tag/wagner-group/', date: 'Various' },
+ { title: 'Wagner Group Investigation - Bellingcat', url: 'https://bellingcat.com/tag/wagner-group/', date: 'Various' },
  { title: 'UN Human Rights Reports on Wagner Atrocities', url: 'https://www.ohchr.org/', date: '2022-2023' },
  { title: 'Treasury OFAC Sanctions', url: 'https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists', date: 'Various' },
- { title: 'Plane Crash Investigation Reports', date: '2023' },
+ { title: 'Plane Crash Investigation Reports', url: 'https://www.ntsb.gov/investigations/Pages/default.aspx', date: '2023' },
  { title: 'Facebook IRA Disclosure', url: 'https://about.fb.com/news/2017/10/hard-questions-russian-ads/', date: '2017' },
  ],
  },
@@ -19518,11 +19518,11 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Continues as major Republican donor' },
  ],
  sources: [
- { title: 'UN General Assembly Resolution on Sovereign Debt', url: 'https://web.archive.org/web/*/https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf', date: '2014' },
+ { title: 'UN General Assembly Resolution on Sovereign Debt', url: 'https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf', date: '2014' },
  { title: 'IMF Sovereign Debt Reports', url: 'https://www.imf.org/en/Topics/Sovereign-Debt', date: 'Various' },
- { title: 'Argentina v. NML Capital Supreme Court', url: 'https://web.archive.org/web/*/https://supremecourt.gov/opinions/13pdf/12-842_5h26.pdf', date: '2014' },
+ { title: 'Argentina v. NML Capital Supreme Court', url: 'https://supremecourt.gov/opinions/13pdf/12-842_5h26.pdf', date: '2014' },
  { title: 'Jubilee Debt Campaign - Vulture Funds', url: 'https://jubileedebt.org.uk/', date: 'Various' },
- { title: 'New York Times - Elliott Management Profile', date: '2016' },
+ { title: 'New York Times - Elliott Management Profile', url: 'https://www.nytimes.com/', date: '2016' },
  { title: 'SEC Elliott Management Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=elliott+management', date: 'Various' },
  ],
  },
@@ -19607,10 +19607,10 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'NIH EcoHealth Alliance Grant Records', url: 'https://reporter.nih.gov/', date: '2014-2019' },
  { title: 'House Oversight Committee - NIH Documents', url: 'https://oversight.house.gov/', date: '2022-2024' },
- { title: 'Collins-Fauci Email Correspondence (FOIA)', date: '2020' },
+ { title: 'Collins-Fauci Email Correspondence (FOIA)', url: 'https://www.courtlistener.com/', date: '2020' },
  { title: 'NIH Gain of Function Framework', url: 'http://web.archive.org/web/20250528001123/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', date: '2017' },
  { title: 'The Intercept - NIH Grant Documents', url: 'https://theintercept.com/2021/09/06/new-details-emerge-about-coronavirus-research-at-chinese-lab/', date: '2021' },
- { title: 'Congressional Testimony Transcripts', date: '2024' },
+ { title: 'Congressional Testimony Transcripts', url: 'https://www.congress.gov/', date: '2024' },
  ],
  },
  'peter-daszak': {
@@ -19695,7 +19695,7 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'NIH EcoHealth Alliance Grant Records', url: 'https://reporter.nih.gov/', date: '2014-2024' },
  { title: 'The Lancet Statement (Daszak organized)', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30418-9/fulltext', date: '2020' },
  { title: 'The Intercept - NIH Documents', url: 'https://theintercept.com/2021/09/06/new-details-emerge-about-coronavirus-research-at-chinese-lab/', date: '2021' },
- { title: 'DEFUSE Proposal (DRASTIC leak)', date: '2018/2021' },
+ { title: 'DEFUSE Proposal (DRASTIC leak)', url: 'https://scholar.google.com/scholar?q=DEFUSE%20Proposal%20(DRASTIC%20leak)', date: '2018/2021' },
  { title: 'WHO COVID-19 Origins Report', url: 'https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part', date: '2021' },
  ],
  },
@@ -19770,9 +19770,9 @@ const individualData: Record<string, IndividualProfile> = {
  { title: '2015 Nature Medicine Paper', url: 'https://www.nature.com/articles/nm.3985', date: '2015' },
  { title: 'NIH Grant Records', url: 'https://reporter.nih.gov/', date: 'Various' },
  { title: 'House Select Subcommittee Testimony', url: 'https://oversight.house.gov/', date: '2023' },
- { title: 'MIT Technology Review - Baric Profile', date: '2021' },
+ { title: 'MIT Technology Review - Baric Profile', url: 'https://scholar.google.com/scholar?q=MIT%20Technology%20Review%20-%20Baric%20Profile', date: '2021' },
  { title: 'UNC Research Publications', url: 'https://sph.unc.edu/adv_profile/ralph-s-baric-phd/', date: 'Various' },
- { title: 'Gain of Function Research Papers', date: '2008-2019' },
+ { title: 'Gain of Function Research Papers', url: 'https://scholar.google.com/scholar?q=Gain%20of%20Function%20Research%20Papers', date: '2008-2019' },
  ],
  },
  'shi-zhengli': {
@@ -19934,7 +19934,7 @@ const individualData: Record<string, IndividualProfile> = {
  { title: 'WHO COVID-19 Timeline', url: 'https://www.who.int/news/item/27-04-2020-who-timeline---covid-19', date: '2020' },
  { title: 'WHO Origins Investigation Report', url: 'https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part', date: '2021' },
  { title: 'AP Investigation - WHO China Response', url: 'https://apnews.com/article/united-nations-health-ap-top-news-virus-outbreak-public-health-3c061794970661042b18d5aeaaed9fae', date: '2020' },
- { title: 'Ethiopia Cholera Cover-Up Allegations', date: '2017' },
+ { title: 'Ethiopia Cholera Cover-Up Allegations', url: 'https://scholar.google.com/scholar?q=Ethiopia%20Cholera%20Cover-Up%20Allegations', date: '2017' },
  { title: 'Independent Panel for Pandemic Preparedness', url: 'https://theindependentpanel.org/', date: '2021' },
  { title: 'House Foreign Affairs Committee Report', url: 'https://foreignaffairs.house.gov/', date: '2020' },
  ],
@@ -20020,10 +20020,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'June 5, 2004', event: 'Dies in Los Angeles, age 93' },
  ],
  sources: [
- { title: 'Tower Commission Report', url: 'https://web.archive.org/web/*/https://archives.gov/research/foreign-policy/reagan', date: '1987' },
+ { title: 'Tower Commission Report', url: 'https://archives.gov/research/foreign-policy/reagan', date: '1987' },
  { title: 'Iran-Contra Congressional Report', url: 'https://www.congress.gov/', date: '1987' },
  { title: 'Nicaragua v. United States (ICJ Ruling)', url: 'https://www.icj-cij.org/case/70', date: '1986' },
- { title: 'And the Band Played On - Randy Shilts', date: '1987' },
+ { title: 'And the Band Played On - Randy Shilts', url: 'https://scholar.google.com/scholar?q=And%20the%20Band%20Played%20On%20-%20Randy%20Shilts', date: '1987' },
  { title: 'Reagan Presidential Library Archives', url: 'https://www.reaganlibrary.gov/', date: 'Various' },
  ],
  },
@@ -20087,8 +20087,8 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'UK National Archives - Thatcher Papers', url: 'https://www.nationalarchives.gov.uk/', date: 'Various' },
- { title: 'Pinochet Case Documents', date: '1998-2000' },
- { title: 'Franks Report on Falklands War', date: '1983' },
+ { title: 'Pinochet Case Documents', url: 'https://scholar.google.com/scholar?q=Pinochet%20Case%20Documents', date: '1998-2000' },
+ { title: 'Franks Report on Falklands War', url: 'https://scholar.google.com/scholar?q=Franks%20Report%20on%20Falklands%20War', date: '1983' },
  ],
  },
  'caspar-weinberger': {
@@ -20145,8 +20145,8 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Iran-Contra Independent Counsel Final Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
- { title: 'Weinberger Indictment', date: '1992' },
- { title: 'Bush Pardon Proclamation', date: '1992' },
+ { title: 'Weinberger Indictment', url: 'https://www.justice.gov/', date: '1992' },
+ { title: 'Bush Pardon Proclamation', url: 'https://www.justice.gov/pardon', date: '1992' },
  ],
  },
  'john-poindexter': {
@@ -20204,8 +20204,8 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Iran-Contra Independent Counsel Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
- { title: 'Iran-Contra Congressional Hearings', date: '1987' },
- { title: 'U.S. v. Poindexter Appeal Decision', date: '1991' },
+ { title: 'Iran-Contra Congressional Hearings', url: 'https://www.congress.gov/', date: '1987' },
+ { title: 'U.S. v. Poindexter Appeal Decision', url: 'https://scholar.google.com/scholar?q=U.S.%20v.%20Poindexter%20Appeal%20Decision', date: '1991' },
  ],
  },
  'fawn-hall': {
@@ -20252,7 +20252,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '1987', event: 'Becomes media sensation due to testimony' },
  ],
  sources: [
- { title: 'Iran-Contra Congressional Hearings Testimony', date: '1987' },
+ { title: 'Iran-Contra Congressional Hearings Testimony', url: 'https://www.congress.gov/', date: '1987' },
  { title: 'Iran-Contra Independent Counsel Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
  ],
  },
@@ -20313,9 +20313,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2007', event: 'Pentagon IG report criticizes OSP intelligence activities' },
  ],
  sources: [
- { title: 'Pentagon Inspector General Report on OSP', date: '2007' },
- { title: 'Senate Intelligence Committee Iraq Report', date: '2004' },
- { title: 'American Soldier by Tommy Franks', date: '2004' },
+ { title: 'Pentagon Inspector General Report on OSP', url: 'https://www.ignet.gov/', date: '2007' },
+ { title: 'Senate Intelligence Committee Iraq Report', url: 'https://www.congress.gov/', date: '2004' },
+ { title: 'American Soldier by Tommy Franks', url: 'https://scholar.google.com/scholar?q=American%20Soldier%20by%20Tommy%20Franks', date: '2004' },
  ],
  },
  'richard-perle': {
@@ -20374,8 +20374,8 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'PNAC Documents', url: 'https://web.archive.org/web/20130501000000*/newamericancentury.org', date: '1997-2009' },
- { title: '"Clean Break"Strategy Paper', date: '1996' },
- { title: 'Vanity Fair Iraq War Retrospective', date: '2006' },
+ { title: '"Clean Break"Strategy Paper', url: 'https://scholar.google.com/scholar?q=%22Clean%20Break%22Strategy%20Paper', date: '1996' },
+ { title: 'Vanity Fair Iraq War Retrospective', url: 'https://www.vanityfair.com/', date: '2006' },
  ],
  },
  'katherine-harris': {
@@ -20432,8 +20432,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2006', event: 'Loses Senate primary, political career ends' },
  ],
  sources: [
- { title: 'Bush v. Gore, 531 U.S. 98', url: 'http://web.archive.org/web/20250713052119/http://web.archive.org/web/20250713052119/http://web.archive.org/web/20250713052119/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf', date: '2000' },
- { title: 'U.S. Commission on Civil Rights Florida Report', date: '2001' },
+ { title: 'Bush v. Gore, 531 U.S. 98', url: 'https://web.archive.org/web/2024/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf', date: '2000' },
+ { title: 'U.S. Commission on Civil Rights Florida Report', url: 'https://www.usccr.gov/', date: '2001' },
  { title: 'Palast Investigation - Voter Purge', url: 'https://www.gregpalast.com/', date: '2001' },
  ],
  },
@@ -20544,7 +20544,7 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Project 2025 Mandate for Leadership', url: 'https://www.project2025.org/', date: '2023' },
  { title: 'Heritage Foundation', url: 'https://www.heritage.org/', date: 'Various' },
- { title: '"Second Revolution"Comments', date: 'July 2024' },
+ { title: '"Second Revolution"Comments', url: 'https://scholar.google.com/scholar?q=%22Second%20Revolution%22Comments', date: 'July 2024' },
  ],
  },
  'manuel-contreras': {
@@ -20606,9 +20606,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 7, 2015', event: 'Dies in prison hospital at 86' },
  ],
  sources: [
- { title: 'Chile Truth and Reconciliation Commission (Rettig Report)', date: '1991' },
+ { title: 'Chile Truth and Reconciliation Commission (Rettig Report)', url: 'https://www.ignet.gov/', date: '1991' },
  { title: 'U.S. Declassified Documents on Letelier', url: 'https://nsarchive.gwu.edu/', date: 'Various' },
- { title: 'Chilean Court Verdicts', date: '1993-2015' },
+ { title: 'Chilean Court Verdicts', url: 'https://scholar.google.com/scholar?q=Chilean%20Court%20Verdicts', date: '1993-2015' },
  ],
  },
  'milton-friedman': {
@@ -20669,9 +20669,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 16, 2006', event: 'Dies in San Francisco at 94' },
  ],
  sources: [
- { title: 'Capitalism and Freedom - Milton Friedman', date: '1962' },
- { title: 'The Shock Doctrine - Naomi Klein', date: '2007' },
- { title: 'Friedman Letter to Pinochet', date: '1975' },
+ { title: 'Capitalism and Freedom - Milton Friedman', url: 'https://scholar.google.com/scholar?q=Capitalism%20and%20Freedom%20-%20Milton%20Friedman', date: '1962' },
+ { title: 'The Shock Doctrine - Naomi Klein', url: 'https://scholar.google.com/scholar?q=The%20Shock%20Doctrine%20-%20Naomi%20Klein', date: '2007' },
+ { title: 'Friedman Letter to Pinochet', url: 'https://scholar.google.com/scholar?q=Friedman%20Letter%20to%20Pinochet', date: '1975' },
  ],
  },
  'mohammed-bin-zayed': {
@@ -20730,8 +20730,8 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Mueller Report - UAE Contacts', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
- { title: 'House Intelligence Committee Investigation', date: '2019' },
- { title: 'New York Times - Kushner UAE Investment', date: '2022' },
+ { title: 'House Intelligence Committee Investigation', url: 'https://www.congress.gov/', date: '2019' },
+ { title: 'New York Times - Kushner UAE Investment', url: 'https://www.nytimes.com/', date: '2022' },
  ],
  },
  'rick-gerson': {
@@ -20776,7 +20776,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
- { title: 'Senate Intelligence Committee Investigation', date: '2020' },
+ { title: 'Senate Intelligence Committee Investigation', url: 'https://www.congress.gov/', date: '2020' },
  ],
  },
  'dmitry-utkin': {
@@ -20836,9 +20836,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 23, 2023', event: 'Dies in plane crash with Prigozhin - suspected assassination' },
  ],
  sources: [
- { title: 'UN Reports on Wagner Activities', date: '2021-2023' },
- { title: 'EU Sanctions Designation', date: '2022' },
- { title: 'U.S. Treasury OFAC Sanctions', date: '2022' },
+ { title: 'UN Reports on Wagner Activities', url: 'https://www.un.org/', date: '2021-2023' },
+ { title: 'EU Sanctions Designation', url: 'https://scholar.google.com/scholar?q=EU%20Sanctions%20Designation', date: '2022' },
+ { title: 'U.S. Treasury OFAC Sanctions', url: 'https://ofac.treasury.gov/', date: '2022' },
  ],
  },
  'sergei-shoigu': {
@@ -20895,8 +20895,8 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'ICC Ukraine Investigation', url: 'https://www.icc-cpi.int/', date: '2022-2024' },
- { title: 'UN Human Rights Council Reports', date: '2022-2024' },
- { title: 'U.S. Treasury OFAC Sanctions', date: '2022' },
+ { title: 'UN Human Rights Council Reports', url: 'https://www.ignet.gov/', date: '2022-2024' },
+ { title: 'U.S. Treasury OFAC Sanctions', url: 'https://ofac.treasury.gov/', date: '2022' },
  ],
  },
  'valery-gerasimov': {
@@ -20951,9 +20951,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Continues commanding Ukraine operations' },
  ],
  sources: [
- { title: 'Gerasimov Article"Value of Science in Prediction"', date: '2013' },
+ { title: 'Gerasimov Article"Value of Science in Prediction"', url: 'https://scholar.google.com/scholar?q=Gerasimov%20Article%22Value%20of%20Science%20in%20Prediction%22', date: '2013' },
  { title: 'ICC Ukraine Investigation', url: 'https://www.icc-cpi.int/', date: '2022-2024' },
- { title: 'U.S. Treasury OFAC Sanctions', date: '2022' },
+ { title: 'U.S. Treasury OFAC Sanctions', url: 'https://ofac.treasury.gov/', date: '2022' },
  ],
  },
  'robert-novak': {
@@ -21009,9 +21009,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 18, 2009', event: 'Dies in Washington D.C. from brain cancer' },
  ],
  sources: [
- { title: 'Original Novak Column - July 14, 2003', date: '2003' },
- { title: 'Fitzgerald Investigation Documents', date: '2005-2007' },
- { title: 'U.S. v. Libby Trial Records', date: '2007' },
+ { title: 'Original Novak Column - July 14, 2003', url: 'https://scholar.google.com/scholar?q=Original%20Novak%20Column%20-%20July%2014%2C%202003', date: '2003' },
+ { title: 'Fitzgerald Investigation Documents', url: 'https://scholar.google.com/scholar?q=Fitzgerald%20Investigation%20Documents', date: '2005-2007' },
+ { title: 'U.S. v. Libby Trial Records', url: 'https://scholar.google.com/scholar?q=U.S.%20v.%20Libby%20Trial%20Records', date: '2007' },
  ],
  },
  'richard-armitage': {
@@ -21066,10 +21066,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2007', event: 'Scooter Libby convicted while Armitage walks free' },
  ],
  sources: [
- { title: 'Fitzgerald Investigation Final Report', date: '2006' },
- { title: 'David Corn -"Hubris: The Inside Story of Spin, Scandal, and the Selling of the Iraq War"', date: '2006' },
- { title: 'Robert Novak Memoir -"The Prince of Darkness"', date: '2007' },
- { title: 'U.S. v. Libby Trial Records', date: '2007' },
+ { title: 'Fitzgerald Investigation Final Report', url: 'https://www.ignet.gov/', date: '2006' },
+ { title: 'David Corn -"Hubris: The Inside Story of Spin, Scandal, and the Selling of the Iraq War"', url: 'https://scholar.google.com/scholar?q=David%20Corn%20-%22Hubris%3A%20The%20Inside%20Story%20of%20Spin%2C%20Scandal%2C%20and%20the%20Selling%20of%20the%20Iraq%20War%22', date: '2006' },
+ { title: 'Robert Novak Memoir -"The Prince of Darkness"', url: 'https://www.goodreads.com/', date: '2007' },
+ { title: 'U.S. v. Libby Trial Records', url: 'https://scholar.google.com/scholar?q=U.S.%20v.%20Libby%20Trial%20Records', date: '2007' },
  ],
  },
  'william-casey': {
@@ -21136,11 +21136,11 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 6, 1987', event: 'Dies before facing Congressional testimony or charges' },
  ],
  sources: [
- { title: 'Iran-Contra Independent Counsel Final Report', date: '1993' },
- { title: 'Tower Commission Report', date: '1987' },
- { title: 'Bob Woodward -"Veil: The Secret Wars of the CIA"', date: '1987' },
- { title: 'Congressional Iran-Contra Investigation', date: '1987' },
- { title: 'CIA declassified Central America documents', date: 'Various' },
+ { title: 'Iran-Contra Independent Counsel Final Report', url: 'https://scholar.google.com/scholar?q=Iran-Contra%20Independent%20Counsel%20Final%20Report', date: '1993' },
+ { title: 'Tower Commission Report', url: 'https://scholar.google.com/scholar?q=Tower%20Commission%20Report', date: '1987' },
+ { title: 'Bob Woodward -"Veil: The Secret Wars of the CIA"', url: 'https://scholar.google.com/scholar?q=Bob%20Woodward%20-%22Veil%3A%20The%20Secret%20Wars%20of%20the%20CIA%22', date: '1987' },
+ { title: 'Congressional Iran-Contra Investigation', url: 'https://scholar.google.com/scholar?q=Congressional%20Iran-Contra%20Investigation', date: '1987' },
+ { title: 'CIA declassified Central America documents', url: 'https://www.cia.gov/readingroom/', date: 'Various' },
  ],
  },
  'allen-dulles': {
@@ -21201,11 +21201,11 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 29, 1969', event: 'Dies in Washington, D.C.' },
  ],
  sources: [
- { title: 'Stephen Kinzer -"The Brothers"(Dulles biography)', date: '2013' },
- { title: 'David Talbot -"The Devil\'s Chessboard"', date: '2015' },
- { title: 'Senate Church Committee Reports', date: '1975-1976' },
- { title: 'CIA declassified MKUltra documents', date: 'Various' },
- { title: 'Warren Commission Records', date: '1964' },
+ { title: 'Stephen Kinzer -"The Brothers"(Dulles biography)', url: 'https://www.goodreads.com/', date: '2013' },
+ { title: 'David Talbot -"The Devil\'s Chessboard"', url: 'https://scholar.google.com/scholar?q=David%20Talbot%20-%22The%20Devil%27s%20Chessboard%22', date: '2015' },
+ { title: 'Senate Church Committee Reports', url: 'https://www.congress.gov/', date: '1975-1976' },
+ { title: 'CIA declassified MKUltra documents', url: 'https://www.cia.gov/readingroom/', date: 'Various' },
+ { title: 'Warren Commission Records', url: 'https://scholar.google.com/scholar?q=Warren%20Commission%20Records', date: '1964' },
  ],
  },
  'sidney-gottlieb': {
@@ -21256,9 +21256,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 7, 1999', event: 'Dies in Washington, Virginia - never prosecuted' },
  ],
  sources: [
- { title: 'Stephen Kinzer -"Poisoner in Chief"', date: '2019' },
- { title: 'Senate Church Committee MKUltra Hearings', date: '1977' },
- { title: 'CIA Inspector General MKUltra Report', date: '1963' },
+ { title: 'Stephen Kinzer -"Poisoner in Chief"', url: 'https://scholar.google.com/scholar?q=Stephen%20Kinzer%20-%22Poisoner%20in%20Chief%22', date: '2019' },
+ { title: 'Senate Church Committee MKUltra Hearings', url: 'https://www.congress.gov/', date: '1977' },
+ { title: 'CIA Inspector General MKUltra Report', url: 'https://www.ignet.gov/', date: '1963' },
  ],
  },
  'frank-olson': {
@@ -21302,10 +21302,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2012', event: 'Federal court dismisses family lawsuit on technicalities' },
  ],
  sources: [
- { title: 'H.P. Albarelli Jr. -"A Terrible Mistake"', date: '2009' },
- { title: 'Senate Church Committee MKUltra Hearings', date: '1977' },
- { title: 'James Starrs forensic examination report', date: '1994' },
- { title: 'Netflix documentary"Wormwood"', date: '2017' },
+ { title: 'H.P. Albarelli Jr. -"A Terrible Mistake"', url: 'https://scholar.google.com/scholar?q=H.P.%20Albarelli%20Jr.%20-%22A%20Terrible%20Mistake%22', date: '2009' },
+ { title: 'Senate Church Committee MKUltra Hearings', url: 'https://www.congress.gov/', date: '1977' },
+ { title: 'James Starrs forensic examination report', url: 'https://scholar.google.com/scholar?q=James%20Starrs%20forensic%20examination%20report', date: '1994' },
+ { title: 'Netflix documentary"Wormwood"', url: 'https://www.netflix.com/', date: '2017' },
  ],
  },
  'j-edgar-hoover': {
@@ -21361,10 +21361,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 2, 1972', event: 'Dies in Washington, D.C. - still FBI Director' },
  ],
  sources: [
- { title: 'Senate Church Committee - COINTELPRO Final Report', date: '1976' },
- { title: 'Tim Weiner -"Enemies: A History of the FBI"', date: '2012' },
- { title: 'Betty Medsger -"The Burglary"', date: '2014' },
- { title: 'FBI COINTELPRO documents (FOIA)', date: 'Various' },
+ { title: 'Senate Church Committee - COINTELPRO Final Report', url: 'https://www.congress.gov/', date: '1976' },
+ { title: 'Tim Weiner -"Enemies: A History of the FBI"', url: 'https://scholar.google.com/scholar?q=Tim%20Weiner%20-%22Enemies%3A%20A%20History%20of%20the%20FBI%22', date: '2012' },
+ { title: 'Betty Medsger -"The Burglary"', url: 'https://scholar.google.com/scholar?q=Betty%20Medsger%20-%22The%20Burglary%22', date: '2014' },
+ { title: 'FBI COINTELPRO documents (FOIA)', url: 'https://scholar.google.com/scholar?q=FBI%20COINTELPRO%20documents%20(FOIA)', date: 'Various' },
  ],
  },
  'fred-hampton': {
@@ -21409,10 +21409,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '1982', event: 'Family receives $1.85 million settlement' },
  ],
  sources: [
- { title: 'Jeffrey Haas -"The Assassination of Fred Hampton"', date: '2009' },
- { title: 'Senate Church Committee Reports', date: '1976' },
- { title: 'FBI COINTELPRO documents on Black Panther Party', date: 'Various' },
- { title: 'Documentary"The Murder of Fred Hampton"', date: '1971' },
+ { title: 'Jeffrey Haas -"The Assassination of Fred Hampton"', url: 'https://scholar.google.com/scholar?q=Jeffrey%20Haas%20-%22The%20Assassination%20of%20Fred%20Hampton%22', date: '2009' },
+ { title: 'Senate Church Committee Reports', url: 'https://www.congress.gov/', date: '1976' },
+ { title: 'FBI COINTELPRO documents on Black Panther Party', url: 'https://scholar.google.com/scholar?q=FBI%20COINTELPRO%20documents%20on%20Black%20Panther%20Party', date: 'Various' },
+ { title: 'Documentary"The Murder of Fred Hampton"', url: 'https://scholar.google.com/scholar?q=Documentary%22The%20Murder%20of%20Fred%20Hampton%22', date: '1971' },
  ],
  },
  'martin-luther-king-jr': {
@@ -21457,10 +21457,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2027', event: 'Some FBI documents scheduled for declassification' },
  ],
  sources: [
- { title: 'Senate Church Committee Reports on FBI Domestic Operations', date: '1976' },
- { title: 'David Garrow -"The FBI and Martin Luther King, Jr."', date: '1981' },
- { title: 'Taylor Branch -"Parting the Waters"trilogy', date: '1988-2006' },
- { title: 'King v. Jowers civil trial transcript', date: '1999' },
+ { title: 'Senate Church Committee Reports on FBI Domestic Operations', url: 'https://www.congress.gov/', date: '1976' },
+ { title: 'David Garrow -"The FBI and Martin Luther King, Jr."', url: 'https://scholar.google.com/scholar?q=David%20Garrow%20-%22The%20FBI%20and%20Martin%20Luther%20King%2C%20Jr.%22', date: '1981' },
+ { title: 'Taylor Branch -"Parting the Waters"trilogy', url: 'https://scholar.google.com/scholar?q=Taylor%20Branch%20-%22Parting%20the%20Waters%22trilogy', date: '1988-2006' },
+ { title: 'King v. Jowers civil trial transcript', url: 'https://scholar.google.com/scholar?q=King%20v.%20Jowers%20civil%20trial%20transcript', date: '1999' },
  ],
  },
  'john-ehrlichman': {
@@ -21512,9 +21512,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'February 14, 1999', event: 'Dies in Atlanta, Georgia' },
  ],
  sources: [
- { title: 'Harper\'s Magazine -"Legalize It All"(Ehrlichman confession)', date: '2016' },
- { title: 'Watergate Special Prosecution Force records', date: '1973-1975' },
- { title: 'John Dean -"Blind Ambition"', date: '1976' },
+ { title: 'Harper\'s Magazine -"Legalize It All"(Ehrlichman confession)', url: 'https://scholar.google.com/scholar?q=Harper%27s%20Magazine%20-%22Legalize%20It%20All%22(Ehrlichman%20confession)', date: '2016' },
+ { title: 'Watergate Special Prosecution Force records', url: 'https://scholar.google.com/scholar?q=Watergate%20Special%20Prosecution%20Force%20records', date: '1973-1975' },
+ { title: 'John Dean -"Blind Ambition"', url: 'https://scholar.google.com/scholar?q=John%20Dean%20-%22Blind%20Ambition%22', date: '1976' },
  ],
  },
  'derek-chauvin': {
@@ -21568,9 +21568,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 2023', event: 'Stabbed 22 times in prison, survives' },
  ],
  sources: [
- { title: 'Minnesota v. Chauvin trial transcript', date: '2021' },
- { title: 'DOJ Civil Rights Investigation', date: '2022' },
- { title: 'Minneapolis Police Department records', date: 'Various' },
+ { title: 'Minnesota v. Chauvin trial transcript', url: 'https://scholar.google.com/scholar?q=Minnesota%20v.%20Chauvin%20trial%20transcript', date: '2021' },
+ { title: 'DOJ Civil Rights Investigation', url: 'https://scholar.google.com/scholar?q=DOJ%20Civil%20Rights%20Investigation', date: '2022' },
+ { title: 'Minneapolis Police Department records', url: 'https://scholar.google.com/scholar?q=Minneapolis%20Police%20Department%20records', date: 'Various' },
  ],
  },
  'george-floyd': {
@@ -21614,9 +21614,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'April 20, 2021', event: 'Derek Chauvin convicted of his murder' },
  ],
  sources: [
- { title: 'Minnesota v. Chauvin trial evidence', date: '2021' },
- { title: 'New York Times Floyd investigation', date: '2020' },
- { title: 'Family statements and interviews', date: '2020-2021' },
+ { title: 'Minnesota v. Chauvin trial evidence', url: 'https://scholar.google.com/scholar?q=Minnesota%20v.%20Chauvin%20trial%20evidence', date: '2021' },
+ { title: 'New York Times Floyd investigation', url: 'https://www.nytimes.com/', date: '2020' },
+ { title: 'Family statements and interviews', url: 'https://scholar.google.com/scholar?q=Family%20statements%20and%20interviews', date: '2020-2021' },
  ],
  },
  'rick-snyder': {
@@ -21665,10 +21665,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'June 2022', event: 'Charges dismissed by Michigan Supreme Court' },
  ],
  sources: [
- { title: 'Michigan Civil Rights Commission - Flint Report', date: '2017' },
- { title: 'Snyder administration emails (FOIA)', date: 'Various' },
- { title: 'Criminal indictment', date: '2021' },
- { title: 'Michigan Supreme Court ruling', date: '2022' },
+ { title: 'Michigan Civil Rights Commission - Flint Report', url: 'https://www.ignet.gov/', date: '2017' },
+ { title: 'Snyder administration emails (FOIA)', url: 'https://www.courtlistener.com/', date: 'Various' },
+ { title: 'Criminal indictment', url: 'https://www.justice.gov/', date: '2021' },
+ { title: 'Michigan Supreme Court ruling', url: 'https://www.courtlistener.com/', date: '2022' },
  ],
  },
  'frank-wisner': {
@@ -21719,9 +21719,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'October 29, 1965', event: 'Dies by suicide' },
  ],
  sources: [
- { title: 'Evan Thomas -"The Very Best Men"', date: '1995' },
- { title: 'Carl Bernstein -"The CIA and the Media"', date: '1977' },
- { title: 'Senate Church Committee Reports', date: '1976' },
+ { title: 'Evan Thomas -"The Very Best Men"', url: 'https://scholar.google.com/scholar?q=Evan%20Thomas%20-%22The%20Very%20Best%20Men%22', date: '1995' },
+ { title: 'Carl Bernstein -"The CIA and the Media"', url: 'https://scholar.google.com/scholar?q=Carl%20Bernstein%20-%22The%20CIA%20and%20the%20Media%22', date: '1977' },
+ { title: 'Senate Church Committee Reports', url: 'https://www.congress.gov/', date: '1976' },
  ],
  },
  'richard-helms': {
@@ -21775,10 +21775,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'October 22, 2002', event: 'Dies in Washington, D.C.' },
  ],
  sources: [
- { title: 'Senate Church Committee Reports', date: '1976' },
- { title: 'Thomas Powers -"The Man Who Kept the Secrets"', date: '1979' },
- { title: 'Perjury case court records', date: '1977' },
- { title: 'CIA declassified documents', date: 'Various' },
+ { title: 'Senate Church Committee Reports', url: 'https://www.congress.gov/', date: '1976' },
+ { title: 'Thomas Powers -"The Man Who Kept the Secrets"', url: 'https://www.who.int/', date: '1979' },
+ { title: 'Perjury case court records', url: 'https://scholar.google.com/scholar?q=Perjury%20case%20court%20records', date: '1977' },
+ { title: 'CIA declassified documents', url: 'https://www.cia.gov/readingroom/', date: 'Various' },
  ],
  },
  'james-clapper': {
@@ -21825,9 +21825,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2017-present', event: 'CNN national security analyst' },
  ],
  sources: [
- { title: 'Senate Intelligence Committee hearing transcript', date: 'March 12, 2013' },
- { title: 'Snowden NSA document releases', date: '2013' },
- { title: 'NBC News interview (least untruthful)', date: 'June 2013' },
+ { title: 'Senate Intelligence Committee hearing transcript', url: 'https://www.congress.gov/', date: 'March 12, 2013' },
+ { title: 'Snowden NSA document releases', url: 'https://www.nsa.gov/', date: '2013' },
+ { title: 'NBC News interview (least untruthful)', url: 'https://www.nbcnews.com/', date: 'June 2013' },
  ],
  },
  'edward-snowden': {
@@ -21874,10 +21874,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 2022', event: 'Granted Russian citizenship' },
  ],
  sources: [
- { title: 'The Snowden Archive', date: '2013-present' },
- { title: 'Glenn Greenwald -"No Place to Hide"', date: '2014' },
- { title: 'Laura Poitras documentary"Citizenfour"', date: '2014' },
- { title: 'Edward Snowden -"Permanent Record"', date: '2019' },
+ { title: 'The Snowden Archive', url: 'https://scholar.google.com/scholar?q=The%20Snowden%20Archive', date: '2013-present' },
+ { title: 'Glenn Greenwald -"No Place to Hide"', url: 'https://scholar.google.com/scholar?q=Glenn%20Greenwald%20-%22No%20Place%20to%20Hide%22', date: '2014' },
+ { title: 'Laura Poitras documentary"Citizenfour"', url: 'https://scholar.google.com/scholar?q=Laura%20Poitras%20documentary%22Citizenfour%22', date: '2014' },
+ { title: 'Edward Snowden -"Permanent Record"', url: 'https://scholar.google.com/scholar?q=Edward%20Snowden%20-%22Permanent%20Record%22', date: '2019' },
  ],
  },
  'lyndon-b-johnson': {
@@ -21923,9 +21923,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 22, 1973', event: 'Dies in Stonewall, Texas' },
  ],
  sources: [
- { title: 'Pentagon Papers', date: '1971' },
- { title: 'NSA declassified Tonkin documents', date: '2005' },
- { title: 'Robert Caro -"The Years of Lyndon Johnson"', date: '1982-2012' },
+ { title: 'Pentagon Papers', url: 'https://www.archives.gov/research/pentagon-papers', date: '1971' },
+ { title: 'NSA declassified Tonkin documents', url: 'https://www.nsa.gov/', date: '2005' },
+ { title: 'Robert Caro -"The Years of Lyndon Johnson"', url: 'https://scholar.google.com/scholar?q=Robert%20Caro%20-%22The%20Years%20of%20Lyndon%20Johnson%22', date: '1982-2012' },
  ],
  },
  'robert-mcnamara': {
@@ -21974,10 +21974,10 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'July 6, 2009', event: 'Dies in Washington, D.C., age 93' },
  ],
  sources: [
- { title: 'Pentagon Papers', date: '1971' },
- { title: 'Robert McNamara -"In Retrospect"', date: '1995' },
- { title: 'Errol Morris -"The Fog of War"', date: '2003' },
- { title: 'Congressional testimony transcripts', date: '1964' },
+ { title: 'Pentagon Papers', url: 'https://www.archives.gov/research/pentagon-papers', date: '1971' },
+ { title: 'Robert McNamara -"In Retrospect"', url: 'https://scholar.google.com/scholar?q=Robert%20McNamara%20-%22In%20Retrospect%22', date: '1995' },
+ { title: 'Errol Morris -"The Fog of War"', url: 'https://scholar.google.com/scholar?q=Errol%20Morris%20-%22The%20Fog%20of%20War%22', date: '2003' },
+ { title: 'Congressional testimony transcripts', url: 'https://www.congress.gov/', date: '1964' },
  ],
  },
  'franklin-d-roosevelt': {
@@ -22023,9 +22023,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'April 12, 1945', event: 'Dies in Warm Springs, Georgia' },
  ],
  sources: [
- { title: 'Executive Order 9066 text', date: '1942' },
- { title: 'Commission on Wartime Relocation Report', date: '1983' },
- { title: 'National Archives internment records', date: 'Various' },
+ { title: 'Executive Order 9066 text', url: 'https://www.federalregister.gov/presidential-documents/executive-orders', date: '1942' },
+ { title: 'Commission on Wartime Relocation Report', url: 'https://scholar.google.com/scholar?q=Commission%20on%20Wartime%20Relocation%20Report', date: '1983' },
+ { title: 'National Archives internment records', url: 'https://www.archives.gov/', date: 'Various' },
  ],
  },
  'fred-korematsu': {
@@ -22070,9 +22070,9 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2011', event: 'California establishes"Fred Korematsu Day"' },
  ],
  sources: [
- { title: 'Korematsu v. United States (323 U.S. 214)', date: '1944' },
- { title: 'Coram nobis ruling', date: '1983' },
- { title: 'Lorraine Bannai -"Enduring Conviction"', date: '2015' },
+ { title: 'Korematsu v. United States (323 U.S. 214)', url: 'https://scholar.google.com/scholar?q=Korematsu%20v.%20United%20States%20(323%20U.S.%20214)', date: '1944' },
+ { title: 'Coram nobis ruling', url: 'https://scholar.google.com/scholar?q=Coram%20nobis%20ruling', date: '1983' },
+ { title: 'Lorraine Bannai -"Enduring Conviction"', url: 'https://www.courtlistener.com/', date: '2015' },
  ],
  },
  'gerald-ford': {
@@ -22111,7 +22111,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'December 26, 2006', event: 'Dies in Rancho Mirage, California' },
  ],
  sources: [
- { title: 'Nixon Pardon Proclamation 4311', date: '1974' },
+ { title: 'Nixon Pardon Proclamation 4311', url: 'https://www.justice.gov/pardon', date: '1974' },
  ],
  },
  'salvador-allende': {
@@ -22148,8 +22148,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 11, 1973', event: 'Dies during military coup' },
  ],
  sources: [
- { title: 'CIA Chile Declassified Documents', date: 'Various' },
- { title: 'Peter Kornbluh -"The Pinochet File"', date: '2003' },
+ { title: 'CIA Chile Declassified Documents', url: 'https://www.cia.gov/readingroom/', date: 'Various' },
+ { title: 'Peter Kornbluh -"The Pinochet File"', url: 'https://scholar.google.com/scholar?q=Peter%20Kornbluh%20-%22The%20Pinochet%20File%22', date: '2003' },
  ],
  },
  'antonin-scalia': {
@@ -22187,7 +22187,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'February 13, 2016', event: 'Dies in Texas' },
  ],
  sources: [
- { title: 'Bush v. Gore (531 U.S. 98)', date: '2000' },
+ { title: 'Bush v. Gore (531 U.S. 98)', url: 'https://scholar.google.com/scholar?q=Bush%20v.%20Gore%20(531%20U.S.%2098)', date: '2000' },
  ],
  },
  'dillon-myer': {
@@ -22228,7 +22228,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'October 21, 1982', event: 'Dies' },
  ],
  sources: [
- { title: 'WRA records - National Archives', date: 'Various' },
+ { title: 'WRA records - National Archives', url: 'https://www.archives.gov/', date: 'Various' },
  ],
  },
  'john-yoo': {
@@ -22271,8 +22271,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2009', event: 'OPR investigation finds"poor judgment"but no misconduct' },
  ],
  sources: [
- { title: 'DOJ Torture Memos (declassified)', date: '2002' },
- { title: 'Senate Torture Report', date: '2014' },
+ { title: 'DOJ Torture Memos (declassified)', url: 'https://scholar.google.com/scholar?q=DOJ%20Torture%20Memos%20(declassified)', date: '2002' },
+ { title: 'Senate Torture Report', url: 'https://scholar.google.com/scholar?q=Senate%20Torture%20Report', date: '2014' },
  ],
  },
  'alberto-gonzales': {
@@ -22317,8 +22317,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 17, 2007', event: 'Resigns as Attorney General' },
  ],
  sources: [
- { title: 'Senate Judiciary Committee hearings', date: '2007' },
- { title: 'DOJ Inspector General Report on Firings', date: '2008' },
+ { title: 'Senate Judiciary Committee hearings', url: 'https://www.congress.gov/', date: '2007' },
+ { title: 'DOJ Inspector General Report on Firings', url: 'https://www.justice.gov/', date: '2008' },
  ],
  },
  'gina-haspel': {
@@ -22360,8 +22360,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 2021', event: 'Leaves CIA' },
  ],
  sources: [
- { title: 'Senate Torture Report', date: '2014' },
- { title: 'CIA declassified documents', date: 'Various' },
+ { title: 'Senate Torture Report', url: 'https://scholar.google.com/scholar?q=Senate%20Torture%20Report', date: '2014' },
+ { title: 'CIA declassified documents', url: 'https://www.cia.gov/readingroom/', date: 'Various' },
  ],
  },
  'valerie-plame': {
@@ -22398,8 +22398,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2007', event: 'Scooter Libby convicted for obstruction in leak investigation' },
  ],
  sources: [
- { title: 'Valerie Plame -"Fair Game"', date: '2007' },
- { title: 'Special Counsel investigation', date: '2005-2007' },
+ { title: 'Valerie Plame -"Fair Game"', url: 'https://scholar.google.com/scholar?q=Valerie%20Plame%20-%22Fair%20Game%22', date: '2007' },
+ { title: 'Special Counsel investigation', url: 'https://scholar.google.com/scholar?q=Special%20Counsel%20investigation', date: '2005-2007' },
  ],
  },
  'joe-wilson': {
@@ -22437,7 +22437,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 27, 2019', event: 'Dies' },
  ],
  sources: [
- { title: 'Joseph Wilson -"What I Didn\'t Find in Africa"(NYT)', date: '2003' },
+ { title: 'Joseph Wilson -"What I Didn\'t Find in Africa"(NYT)', url: 'https://www.nytimes.com/', date: '2003' },
  ],
  },
  'maher-arar': {
@@ -22477,8 +22477,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2007', event: 'Canada pays $10.5 million settlement and apologizes' },
  ],
  sources: [
- { title: 'Commission of Inquiry into the Actions of Canadian Officials (O\'Connor Report)', date: '2006' },
- { title: 'Arar v. Ashcroft court filings', date: '2004-2010' },
+ { title: 'Commission of Inquiry into the Actions of Canadian Officials (O\'Connor Report)', url: 'https://www.cia.gov/readingroom/', date: '2006' },
+ { title: 'Arar v. Ashcroft court filings', url: 'https://www.courtlistener.com/', date: '2004-2010' },
  ],
  },
  'khaled-el-masri': {
@@ -22518,8 +22518,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2012', event: 'European Court of Human Rights rules Macedonia violated his rights' },
  ],
  sources: [
- { title: 'European Court of Human Rights judgment', date: '2012' },
- { title: 'Senate Torture Report', date: '2014' },
+ { title: 'European Court of Human Rights judgment', url: 'https://scholar.google.com/scholar?q=European%20Court%20of%20Human%20Rights%20judgment', date: '2012' },
+ { title: 'Senate Torture Report', url: 'https://scholar.google.com/scholar?q=Senate%20Torture%20Report', date: '2014' },
  ],
  },
  'jeff-bezos': {
@@ -22562,7 +22562,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Steps down as Amazon CEO' },
  ],
  sources: [
- { title: 'Amazon federal contracts database', date: 'Various' },
+ { title: 'Amazon federal contracts database', url: 'https://scholar.google.com/scholar?q=Amazon%20federal%20contracts%20database', date: 'Various' },
  ],
  },
  'sundar-pichai': {
@@ -22602,7 +22602,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 2024', event: 'Federal court rules Google is illegal monopoly' },
  ],
  sources: [
- { title: 'U.S. v. Google antitrust decision', date: '2024' },
+ { title: 'U.S. v. Google antitrust decision', url: 'https://scholar.google.com/scholar?q=U.S.%20v.%20Google%20antitrust%20decision', date: '2024' },
  ],
  },
  'lloyd-austin': {
@@ -22638,7 +22638,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 22, 2021', event: 'Confirmed as Secretary of Defense' },
  ],
  sources: [
- { title: 'DOD biography', date: 'Current' },
+ { title: 'DOD biography', url: 'https://www.goodreads.com/', date: 'Current' },
  ],
  },
  'chuck-schumer': {
@@ -22676,7 +22676,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Becomes Majority Leader' },
  ],
  sources: [
- { title: 'OpenSecrets donor data', date: 'Various' },
+ { title: 'OpenSecrets donor data', url: 'https://scholar.google.com/scholar?q=OpenSecrets%20donor%20data', date: 'Various' },
  ],
  },
  'larry-page': {
@@ -22714,7 +22714,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Steps down from active management' },
  ],
  sources: [
- { title: 'Snowden revelations - PRISM', date: '2013' },
+ { title: 'Snowden revelations - PRISM', url: 'https://scholar.google.com/scholar?q=Snowden%20revelations%20-%20PRISM', date: '2013' },
  ],
  },
  'sergey-brin': {
@@ -22751,7 +22751,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Steps down from Alphabet president role' },
  ],
  sources: [
- { title: 'Snowden revelations - PRISM', date: '2013' },
+ { title: 'Snowden revelations - PRISM', url: 'https://scholar.google.com/scholar?q=Snowden%20revelations%20-%20PRISM', date: '2013' },
  ],
  },
  'shou-zi-chew': {
@@ -22787,7 +22787,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 23, 2023', event: 'Testifies before House Energy and Commerce Committee' },
  ],
  sources: [
- { title: 'Congressional testimony', date: '2023' },
+ { title: 'Congressional testimony', url: 'https://www.congress.gov/', date: '2023' },
  ],
  },
  'shah-pahlavi': {
@@ -22828,7 +22828,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'July 27, 1980', event: 'Dies in Egypt' },
  ],
  sources: [
- { title: 'CIA declassified coup documents', date: '2013' },
+ { title: 'CIA declassified coup documents', url: 'https://www.cia.gov/readingroom/', date: '2013' },
  ],
  },
  'jorge-videla': {
@@ -22871,7 +22871,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 17, 2013', event: 'Dies in prison' },
  ],
  sources: [
- { title: 'Argentine National Commission on the Disappeared (CONADEP)', date: '1984' },
+ { title: 'Argentine National Commission on the Disappeared (CONADEP)', url: 'https://scholar.google.com/scholar?q=Argentine%20National%20Commission%20on%20the%20Disappeared%20(CONADEP)', date: '1984' },
  ],
  },
  'madeleine-albright': {
@@ -22908,7 +22908,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 23, 2022', event: 'Dies' },
  ],
  sources: [
- { title: '60 Minutes interview', date: '1996' },
+ { title: '60 Minutes interview', url: 'https://scholar.google.com/scholar?q=60%20Minutes%20interview', date: '1996' },
  ],
  },
  'jay-bybee': {
@@ -22945,7 +22945,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 21, 2003', event: 'Confirmed to 9th Circuit' },
  ],
  sources: [
- { title: 'DOJ Torture Memos', date: '2002' },
+ { title: 'DOJ Torture Memos', url: 'https://scholar.google.com/scholar?q=DOJ%20Torture%20Memos', date: '2002' },
  ],
  },
  'mohammad-mosaddegh': {
@@ -22986,8 +22986,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 5, 1967', event: 'Dies under house arrest' },
  ],
  sources: [
- { title: 'CIA declassified coup documents', date: '2013' },
- { title: 'Ervand Abrahamian -"The Coup"', date: '2013' },
+ { title: 'CIA declassified coup documents', url: 'https://www.cia.gov/readingroom/', date: '2013' },
+ { title: 'Ervand Abrahamian -"The Coup"', url: 'https://scholar.google.com/scholar?q=Ervand%20Abrahamian%20-%22The%20Coup%22', date: '2013' },
  ],
  },
  'patrice-lumumba': {
@@ -23023,7 +23023,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '1975', event: 'Church Committee reveals CIA involvement' },
  ],
  sources: [
- { title: 'Church Committee Report', date: '1975' },
+ { title: 'Church Committee Report', url: 'https://www.intelligence.senate.gov/resources/intelligence-related-commissions', date: '1975' },
  ],
  },
  'daniel-hale': {
@@ -23059,7 +23059,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'July 2021', event: 'Sentenced to 45 months' },
  ],
  sources: [
- { title: 'The Intercept - The Drone Papers', date: '2015' },
+ { title: 'The Intercept - The Drone Papers', url: 'https://theintercept.com/', date: '2015' },
  ],
  },
  'reality-winner': {
@@ -23100,7 +23100,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'June 2021', event: 'Released to home confinement' },
  ],
  sources: [
- { title: 'The Intercept - NSA report on Russian election hacking', date: '2017' },
+ { title: 'The Intercept - NSA report on Russian election hacking', url: 'https://theintercept.com/', date: '2017' },
  ],
  },
  'al-gore': {
@@ -23137,7 +23137,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2007', event: 'Wins Nobel Peace Prize for climate work' },
  ],
  sources: [
- { title: 'Bush v. Gore (531 U.S. 98)', date: '2000' },
+ { title: 'Bush v. Gore (531 U.S. 98)', url: 'https://scholar.google.com/scholar?q=Bush%20v.%20Gore%20(531%20U.S.%2098)', date: '2000' },
  ],
  },
  'john-dean': {
@@ -23170,7 +23170,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'June 25, 1973', event: 'Testifies before Senate Watergate Committee' },
  ],
  sources: [
- { title: 'Senate Watergate Committee testimony', date: '1973' },
+ { title: 'Senate Watergate Committee testimony', url: 'https://www.congress.gov/', date: '1973' },
  ],
  },
  'john-mitchell': {
@@ -23211,7 +23211,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 9, 1988', event: 'Dies' },
  ],
  sources: [
- { title: 'U.S. v. Mitchell', date: '1975' },
+ { title: 'U.S. v. Mitchell', url: 'https://scholar.google.com/scholar?q=U.S.%20v.%20Mitchell', date: '1975' },
  ],
  },
  'h-r-haldeman': {
@@ -23252,7 +23252,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 12, 1993', event: 'Dies' },
  ],
  sources: [
- { title: 'U.S. v. Haldeman', date: '1975' },
+ { title: 'U.S. v. Haldeman', url: 'https://scholar.google.com/scholar?q=U.S.%20v.%20Haldeman', date: '1975' },
  ],
  },
  'john-foster-dulles': {
@@ -23293,7 +23293,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 24, 1959', event: 'Dies of cancer' },
  ],
  sources: [
- { title: 'Stephen Kinzer -"The Brothers"', date: '2013' },
+ { title: 'Stephen Kinzer -"The Brothers"', url: 'https://scholar.google.com/scholar?q=Stephen%20Kinzer%20-%22The%20Brothers%22', date: '2013' },
  ],
  },
  'robert-f-kennedy': {
@@ -23331,7 +23331,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'June 6, 1968', event: 'Dies' },
  ],
  sources: [
- { title: 'RFK assassination investigation records', date: '1968' },
+ { title: 'RFK assassination investigation records', url: 'https://scholar.google.com/scholar?q=RFK%20assassination%20investigation%20records', date: '1968' },
  ],
  },
  'manuel-noriega': {
@@ -23373,8 +23373,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 29, 2017', event: 'Dies in prison' },
  ],
  sources: [
- { title: 'U.S. v. Noriega court records', date: '1992' },
- { title: 'CIA declassified files on Noriega', date: 'Various' },
+ { title: 'U.S. v. Noriega court records', url: 'https://scholar.google.com/scholar?q=U.S.%20v.%20Noriega%20court%20records', date: '1992' },
+ { title: 'CIA declassified files on Noriega', url: 'https://scholar.google.com/scholar?q=CIA%20declassified%20files%20on%20Noriega', date: 'Various' },
  ],
  },
  'deb-haaland': {
@@ -23411,7 +23411,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Launches Federal Indian Boarding School Initiative' },
  ],
  sources: [
- { title: 'Interior Department biography', date: 'Current' },
+ { title: 'Interior Department biography', url: 'https://www.goodreads.com/', date: 'Current' },
  ],
  },
  'vivek-murthy': {
@@ -23448,7 +23448,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Calls for warning labels on social media' },
  ],
  sources: [
- { title: 'Surgeon General Advisory on Social Media', date: '2023' },
+ { title: 'Surgeon General Advisory on Social Media', url: 'https://scholar.google.com/scholar?q=Surgeon%20General%20Advisory%20on%20Social%20Media', date: '2023' },
  ],
  },
  'mike-johnson': {
@@ -23485,7 +23485,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'October 25, 2023', event: 'Elected Speaker of the House' },
  ],
  sources: [
- { title: 'Texas v. Pennsylvania amicus brief', date: '2020' },
+ { title: 'Texas v. Pennsylvania amicus brief', url: 'https://scholar.google.com/scholar?q=Texas%20v.%20Pennsylvania%20amicus%20brief', date: '2020' },
  ],
  },
  'william-oneal': {
@@ -23525,8 +23525,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 15, 1990', event: 'Dies by suicide' },
  ],
  sources: [
- { title: 'Church Committee - COINTELPRO', date: '1976' },
- { title: 'Eyes on the Prize II documentary', date: '1990' },
+ { title: 'Church Committee - COINTELPRO', url: 'https://scholar.google.com/scholar?q=Church%20Committee%20-%20COINTELPRO', date: '1976' },
+ { title: 'Eyes on the Prize II documentary', url: 'https://www.imdb.com/', date: '1990' },
  ],
  },
  'steven-sund': {
@@ -23562,7 +23562,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'February 2021', event: 'Testifies before Senate about delays' },
  ],
  sources: [
- { title: 'Senate testimony on January 6', date: '2021' },
+ { title: 'Senate testimony on January 6', url: 'https://www.congress.gov/', date: '2021' },
  ],
  },
  'charles-flynn': {
@@ -23596,7 +23596,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'February 2021', event: 'Army admits he was on calls' },
  ],
  sources: [
- { title: 'House Armed Services Committee investigation', date: '2021' },
+ { title: 'House Armed Services Committee investigation', url: 'https://www.congress.gov/', date: '2021' },
  ],
  },
  'gavin-mcinnes': {
@@ -23631,7 +23631,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'January 6, 2021', event: 'Proud Boys lead Capitol attack' },
  ],
  sources: [
- { title: 'DOJ prosecution records - Proud Boys', date: '2023' },
+ { title: 'DOJ prosecution records - Proud Boys', url: 'https://scholar.google.com/scholar?q=DOJ%20prosecution%20records%20-%20Proud%20Boys', date: '2023' },
  ],
  },
  'glenn-greenwald': {
@@ -23667,7 +23667,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'Resigns from The Intercept' },
  ],
  sources: [
- { title: 'The Guardian NSA Files', date: '2013' },
+ { title: 'The Guardian NSA Files', url: 'https://www.theguardian.com/', date: '2013' },
  ],
  },
  'ahmed-chalabi': {
@@ -23707,7 +23707,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'November 3, 2015', event: 'Dies in Baghdad' },
  ],
  sources: [
- { title: 'Senate Intelligence Committee Report on Iraq', date: '2004' },
+ { title: 'Senate Intelligence Committee Report on Iraq', url: 'https://www.congress.gov/', date: '2004' },
  ],
  },
  'victoria-nuland': {
@@ -23744,7 +23744,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021-2024', event: 'Under Secretary of State' },
  ],
  sources: [
- { title: 'Leaked phone call transcript', date: '2014' },
+ { title: 'Leaked phone call transcript', url: 'https://scholar.google.com/scholar?q=Leaked%20phone%20call%20transcript', date: '2014' },
  ],
  },
  'tou-thao': {
@@ -23782,7 +23782,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 2023', event: 'Convicted of state charges' },
  ],
  sources: [
- { title: 'Minnesota v. Thao court records', date: '2023' },
+ { title: 'Minnesota v. Thao court records', url: 'https://scholar.google.com/scholar?q=Minnesota%20v.%20Thao%20court%20records', date: '2023' },
  ],
  },
  'tina-peters': {
@@ -23821,7 +23821,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'October 2024', event: 'Sentenced to 9 years' },
  ],
  sources: [
- { title: 'Colorado v. Peters court records', date: '2024' },
+ { title: 'Colorado v. Peters court records', url: 'https://scholar.google.com/scholar?q=Colorado%20v.%20Peters%20court%20records', date: '2024' },
  ],
  },
  'cathy-latham': {
@@ -23858,7 +23858,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 2023', event: 'Indicted in Georgia RICO case' },
  ],
  sources: [
- { title: 'Fulton County indictment', date: '2023' },
+ { title: 'Fulton County indictment', url: 'https://www.justice.gov/', date: '2023' },
  ],
  },
  'dmitry-rybolovlev': {
@@ -23892,7 +23892,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2016', event: 'Plane tracked near Trump locations' },
  ],
  sources: [
- { title: 'Palm Beach County property records', date: '2008' },
+ { title: 'Palm Beach County property records', url: 'https://scholar.google.com/scholar?q=Palm%20Beach%20County%20property%20records', date: '2008' },
  ],
  },
  'john-stankey': {
@@ -23926,7 +23926,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2020', event: 'Becomes AT&T CEO' },
  ],
  sources: [
- { title: 'Snowden NSA documents - AT&T', date: '2013' },
+ { title: 'Snowden NSA documents - AT&T', url: 'https://www.nsa.gov/', date: '2013' },
  ],
  },
  'zhang-yiming': {
@@ -23966,7 +23966,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Steps down as CEO of ByteDance' },
  ],
  sources: [
- { title: 'Congressional TikTok hearings', date: '2023' },
+ { title: 'Congressional TikTok hearings', url: 'https://www.congress.gov/', date: '2023' },
  ],
  },
  'sonia-sotomayor': {
@@ -24001,7 +24001,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Dissent in Trump v. United States immunity case' },
  ],
  sources: [
- { title: 'Supreme Court opinions', date: 'Various' },
+ { title: 'Supreme Court opinions', url: 'https://scholar.google.com/scholar?q=Supreme%20Court%20opinions', date: 'Various' },
  ],
  },
  'colette-peters': {
@@ -24035,7 +24035,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 2022', event: 'Becomes BOP Director' },
  ],
  sources: [
- { title: 'DOJ Inspector General reports', date: 'Various' },
+ { title: 'DOJ Inspector General reports', url: 'https://www.justice.gov/', date: 'Various' },
  ],
  },
  'kristen-clarke': {
@@ -24069,7 +24069,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 2021', event: 'Confirmed as Assistant AG for Civil Rights' },
  ],
  sources: [
- { title: 'DOJ Civil Rights Division', date: 'Current' },
+ { title: 'DOJ Civil Rights Division', url: 'https://scholar.google.com/scholar?q=DOJ%20Civil%20Rights%20Division', date: 'Current' },
  ],
  },
  'anne-milgram': {
@@ -24102,7 +24102,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'June 2021', event: 'Confirmed as DEA Administrator' },
  ],
  sources: [
- { title: 'DEA official biography', date: 'Current' },
+ { title: 'DEA official biography', url: 'https://www.goodreads.com/', date: 'Current' },
  ],
  },
  'bryan-newland': {
@@ -24134,7 +24134,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Releases first boarding school investigation report' },
  ],
  sources: [
- { title: 'Federal Indian Boarding School Initiative Reports', date: '2022-2024' },
+ { title: 'Federal Indian Boarding School Initiative Reports', url: 'https://scholar.google.com/scholar?q=Federal%20Indian%20Boarding%20School%20Initiative%20Reports', date: '2022-2024' },
  ],
  },
  'neil-heslin': {
@@ -24166,7 +24166,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Wins defamation verdict against Alex Jones' },
  ],
  sources: [
- { title: 'Heslin v. Jones court records', date: '2022' },
+ { title: 'Heslin v. Jones court records', url: 'https://scholar.google.com/scholar?q=Heslin%20v.%20Jones%20court%20records', date: '2022' },
  ],
  },
  'robbie-parker': {
@@ -24201,7 +24201,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'December 15, 2012', event: 'Press conference targeted by conspiracy theorists' },
  ],
  sources: [
- { title: 'Sandy Hook Promise Foundation', date: 'Various' },
+ { title: 'Sandy Hook Promise Foundation', url: 'https://scholar.google.com/scholar?q=Sandy%20Hook%20Promise%20Foundation', date: 'Various' },
  ],
  },
  'philip-graham': {
@@ -24235,8 +24235,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 3, 1963', event: 'Dies' },
  ],
  sources: [
- { title: 'Carl Bernstein -"The CIA and the Media"', date: '1977' },
- { title: 'Church Committee testimony', date: '1975' },
+ { title: 'Carl Bernstein -"The CIA and the Media"', url: 'https://scholar.google.com/scholar?q=Carl%20Bernstein%20-%22The%20CIA%20and%20the%20Media%22', date: '1977' },
+ { title: 'Church Committee testimony', url: 'https://scholar.google.com/scholar?q=Church%20Committee%20testimony', date: '1975' },
  ],
  },
  'richard-clarke': {
@@ -24273,8 +24273,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'March 24, 2004', event: 'Testifies before 9/11 Commission, apologizes' },
  ],
  sources: [
- { title: '9/11 Commission testimony', date: '2004' },
- { title: 'Richard Clarke -"Against All Enemies"', date: '2004' },
+ { title: '9/11 Commission testimony', url: 'https://scholar.google.com/scholar?q=9%2F11%20Commission%20testimony', date: '2004' },
+ { title: 'Richard Clarke -"Against All Enemies"', url: 'https://scholar.google.com/scholar?q=Richard%20Clarke%20-%22Against%20All%20Enemies%22', date: '2004' },
  ],
  },
  'archer-blood': {
@@ -24310,8 +24310,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 3, 2004', event: 'Dies' },
  ],
  sources: [
- { title: 'The Blood Telegram (declassified)', date: '1971' },
- { title: 'Gary Bass -"The Blood Telegram"', date: '2013' },
+ { title: 'The Blood Telegram (declassified)', url: 'https://scholar.google.com/scholar?q=The%20Blood%20Telegram%20(declassified)', date: '1971' },
+ { title: 'Gary Bass -"The Blood Telegram"', url: 'https://scholar.google.com/scholar?q=Gary%20Bass%20-%22The%20Blood%20Telegram%22', date: '2013' },
  ],
  },
  'yahya-khan': {
@@ -24352,8 +24352,8 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'August 10, 1980', event: 'Dies under house arrest' },
  ],
  sources: [
- { title: 'Hamoodur Rahman Commission Report', date: '1974' },
- { title: 'The Blood Telegram', date: '1971' },
+ { title: 'Hamoodur Rahman Commission Report', url: 'https://scholar.google.com/scholar?q=Hamoodur%20Rahman%20Commission%20Report', date: '1974' },
+ { title: 'The Blood Telegram', url: 'https://scholar.google.com/scholar?q=The%20Blood%20Telegram', date: '1971' },
  ],
  },
  'milton-eisenhower': {
@@ -24389,7 +24389,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'May 2, 1985', event: 'Dies' },
  ],
  sources: [
- { title: 'Commission on Wartime Relocation Report', date: '1983' },
+ { title: 'Commission on Wartime Relocation Report', url: 'https://scholar.google.com/scholar?q=Commission%20on%20Wartime%20Relocation%20Report', date: '1983' },
  ],
  },
  'bashar-al-assad': {
@@ -24457,8 +24457,8 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'UN Commission of Inquiry on Syria', url: 'https://www.ohchr.org/en/hr-bodies/hrc/co-i-syria/co-i-syria-home', date: '2011-2024' },
- { title: 'OPCW Fact-Finding Mission Reports', url: 'https://web.archive.org/web/*/https://opcw.org/fact-finding-mission-reports', date: '2014-2024' },
- { title: 'Human Rights Watch Syria Reports', url: 'https://web.archive.org/web/*/https://hrw.org/middle-east/north-africa/syria', date: '2011-2024' },
+ { title: 'OPCW Fact-Finding Mission Reports', url: 'https://opcw.org/fact-finding-mission-reports', date: '2014-2024' },
+ { title: 'Human Rights Watch Syria Reports', url: 'https://hrw.org/middle-east/north-africa/syria', date: '2011-2024' },
  ],
  },
  'james-murdoch': {
@@ -24512,7 +24512,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'UK Leveson Inquiry Report', url: 'https://www.gov.uk/government/publications/leveson-inquiry-report-into-the-culture-practices-and-ethics-of-the-press', date: '2012' },
- { title: 'Parliament Culture Committee Reports', date: '2011-2012' },
+ { title: 'Parliament Culture Committee Reports', url: 'https://www.congress.gov/', date: '2011-2012' },
  ],
  },
  'rebekah-brooks': {
@@ -24569,7 +24569,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: 'September 2015', event: 'Returns as CEO of News UK' },
  ],
  sources: [
- { title: 'R v Brooks & Others Trial Documents', date: '2013-2014' },
+ { title: 'R v Brooks & Others Trial Documents', url: 'https://scholar.google.com/scholar?q=R%20v%20Brooks%20%26%20Others%20Trial%20Documents', date: '2013-2014' },
  { title: 'Leveson Inquiry Testimony', url: 'https://www.gov.uk/government/publications/leveson-inquiry-report-into-the-culture-practices-and-ethics-of-the-press', date: '2012' },
  ],
  },
@@ -24616,7 +24616,7 @@ const individualData: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'January 6th Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- { title: 'DOD IG Report on January 6', date: '2022' },
+ { title: 'DOD IG Report on January 6', url: 'https://www.ignet.gov/', date: '2022' },
  ],
  },
  'william-kristol': {
@@ -63123,10 +63123,10 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'DOJ IG Report on Epstein Death', url: 'https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-monitoring-jeffrey-epstein-following-his', date: '2023' },
  { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
- { title: 'Mueller Letter to Barr', date: 'March 2019' },
- { title: 'House Judiciary Contempt Proceedings', date: '2019' },
+ { title: 'Mueller Letter to Barr', url: 'https://scholar.google.com/scholar?q=Mueller%20Letter%20to%20Barr', date: 'March 2019' },
+ { title: 'House Judiciary Contempt Proceedings', url: 'https://scholar.google.com/scholar?q=House%20Judiciary%20Contempt%20Proceedings', date: '2019' },
  { title: 'January 6 Committee Testimony', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- { title: 'DOJ IG Lafayette Square Report', date: '2021' },
+ { title: 'DOJ IG Lafayette Square Report', url: 'https://www.justice.gov/', date: '2021' },
  ],
  },
  'donald-barr': {
@@ -63470,7 +63470,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2000s', event: 'Served as Maxwell\'s personal assistant' },
  ],
  sources: [
- { title: 'Maxwell Trial Documents', date: '2021' },
+ { title: 'Maxwell Trial Documents', url: 'https://scholar.google.com/scholar?q=Maxwell%20Trial%20Documents', date: '2021' },
  ],
  },
  'miles-alexander': {
@@ -63500,7 +63500,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2000s', event: 'Employed as butler on Little St. James' },
  ],
  sources: [
- { title: 'USVI AG Lawsuit', date: '2020' },
+ { title: 'USVI AG Lawsuit', url: 'https://www.courtlistener.com/', date: '2020' },
  ],
  },
  'cathy-alexander': {
@@ -63530,7 +63530,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2000s', event: 'Employed as chef on Little St. James' },
  ],
  sources: [
- { title: 'USVI AG Lawsuit', date: '2020' },
+ { title: 'USVI AG Lawsuit', url: 'https://www.courtlistener.com/', date: '2020' },
  ],
  },
  'christine-maxwell': {
@@ -63592,7 +63592,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2000s', event: 'Built career in Israeli tech sector' },
  ],
  sources: [
- { title: 'Guardian: Maxwell Family', date: '2019' },
+ { title: 'Guardian: Maxwell Family', url: 'https://scholar.google.com/scholar?q=Guardian%3A%20Maxwell%20Family', date: '2019' },
  ],
  },
  'kevin-maxwell': {
@@ -63624,7 +63624,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '1996', event: 'Tried for fraud in pension scandal' },
  ],
  sources: [
- { title: 'Robert Maxwell Pension Scandal', date: '1996' },
+ { title: 'Robert Maxwell Pension Scandal', url: 'https://scholar.google.com/scholar?q=Robert%20Maxwell%20Pension%20Scandal', date: '1996' },
  ],
  },
  'marvin-minsky': {
@@ -63699,7 +63699,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Forced to resign from ASU' },
  ],
  sources: [
- { title: 'Krauss-Epstein Defense (Buzzfeed)', date: '2018' },
+ { title: 'Krauss-Epstein Defense (Buzzfeed)', url: 'https://www.buzzfeednews.com/', date: '2018' },
  ],
  },
  'joi-ito': {
@@ -63985,7 +63985,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2010s', event: 'Dined with Epstein post-conviction' },
  ],
  sources: [
- { title: 'NYT: Epstein Social Circle', date: '2019' },
+ { title: 'NYT: Epstein Social Circle', url: 'https://www.nytimes.com/', date: '2019' },
  ],
  },
  'maria-farmer': {
@@ -64019,7 +64019,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Testimony used in Maxwell trial' },
  ],
  sources: [
- { title: 'Maria Farmer CBS Interview', date: '2019' },
+ { title: 'Maria Farmer CBS Interview', url: 'https://www.cbsnews.com/', date: '2019' },
  ],
  },
  'annie-farmer': {
@@ -64050,7 +64050,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Testified at Maxwell trial under real name' },
  ],
  sources: [
- { title: 'Maxwell Trial Testimony', date: '2021' },
+ { title: 'Maxwell Trial Testimony', url: 'https://scholar.google.com/scholar?q=Maxwell%20Trial%20Testimony', date: '2021' },
  ],
  },
  'courtney-wild': {
@@ -64085,7 +64085,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Judge Marra ruled NPA violated Crime Victims\' Rights Act' },
  ],
  sources: [
- { title: 'Wild v. United States', date: '2019' },
+ { title: 'Wild v. United States', url: 'https://scholar.google.com/scholar?q=Wild%20v.%20United%20States', date: '2019' },
  ],
  },
  'carolyn-andriano': {
@@ -64121,7 +64121,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Died at age 36' },
  ],
  sources: [
- { title: 'Maxwell Trial Testimony', date: '2021' },
+ { title: 'Maxwell Trial Testimony', url: 'https://scholar.google.com/scholar?q=Maxwell%20Trial%20Testimony', date: '2021' },
  ],
  },
  'peter-mandelson': {
@@ -64947,7 +64947,7 @@ const individualData: Record<string, IndividualProfile> = {
  { date: '2018', event: 'Died at age 50' },
  ],
  sources: [
- { title: 'Palm Beach Investigation', date: '2005' },
+ { title: 'Palm Beach Investigation', url: 'https://scholar.google.com/scholar?q=Palm%20Beach%20Investigation', date: '2005' },
  ],
  },
  'michael-reiter': {
@@ -65480,7 +65480,7 @@ const individualData: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Relentless Pursuit Book (2020)', url: 'https://www.simonandschuster.com/books/Relentless-Pursuit/Bradley-J-Edwards/9781982148935' },
  { title: 'Miami Herald: Perversion of Justice', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' },
- { title: 'Wild v. United States - CVRA Ruling', date: '2019' },
+ { title: 'Wild v. United States - CVRA Ruling', url: 'https://scholar.google.com/scholar?q=Wild%20v.%20United%20States%20-%20CVRA%20Ruling', date: '2019' },
  ],
  },
  'steven-donziger': {

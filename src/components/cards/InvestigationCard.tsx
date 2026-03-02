@@ -116,9 +116,14 @@ export default function InvestigationCard({ investigation, featured = false }: I
  {/* Tags */}
  <div className="flex flex-wrap gap-1.5 mb-3">
  {investigation.tags.slice(0, featured ? 5 : 3).map((tag) => (
- <span key={tag} className="px-2 py-0.5 bg-zinc-950 border border-zinc-800/50 text-zinc-600 text-[10px] font-medium uppercase tracking-wide">
+ <Link
+ key={tag}
+ href={`/investigations?tag=${encodeURIComponent(tag)}`}
+ onClick={(e) => e.stopPropagation()}
+ className="px-2 py-0.5 bg-zinc-950 border border-zinc-800/50 text-zinc-600 text-[10px] font-medium uppercase tracking-wide hover:border-blood-500/50 hover:text-blood-500 transition-colors"
+ >
  {tag}
- </span>
+ </Link>
  ))}
  </div>
 

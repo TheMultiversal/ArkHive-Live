@@ -32,7 +32,7 @@ const investigationData = {
  countriesAffected: '200+',
  facebookFine: '$5 billion',
  appUsers: '270,000',
- dataPoints: '5,000+ per user',
+ dataPoints: '5,000+ data points',
  },
 
  keyFigures: [
@@ -276,7 +276,7 @@ export default function CambridgeAnalyticaPage() {
  <div className="glass-card p-4 text-center border-l-4 border-zinc-500">
  <Target className="w-6 h-6 text-zinc-400 mx-auto mb-2"/>
  <p className="text-xl font-black text-zinc-400">{investigationData.dataStats.dataPoints}</p>
- <p className="text-xs text-zinc-400">Per User</p>
+ <p className="text-xs text-zinc-400">Personal Data Points Harvested Per User</p>
  </div>
  </div>
  </motion.section>

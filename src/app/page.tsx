@@ -313,22 +313,22 @@ export default function Home() {
  </div>
  <div className="flex flex-wrap gap-2 text-xs">
  {[
- { name:"Election Interference", href:"/investigations/election-interference"},
- { name:"Financial Fraud", href:"/investigations/financial-fraud"},
- { name:"Human Trafficking", href:"/investigations/global-trafficking"},
- { name:"RICO Violations", href:"/investigations/georgia-rico"},
- { name:"Seditious Conspiracy", href:"/investigations/oath-keepers-sedition"},
- { name:"Obstruction of Justice", href:"/investigations/obstruction-of-justice"},
- { name:"Tax Evasion", href:"/investigations/tax-evasion"},
- { name:"Wire Fraud", href:"/investigations"},
- { name:"Campaign Finance Crimes", href:"/investigations/campaign-finance"},
- { name:"Bribery", href:"/investigations/bribery-corruption"},
- { name:"Bank Fraud", href:"/investigations/2008-financial-crisis"},
- { name:"Securities Fraud", href:"/investigations/securities-fraud"},
- { name:"Money Laundering", href:"/investigations/money-laundering"},
- { name:"Perjury", href:"/investigations"},
- { name:"Sexual Assault", href:"/investigations/sexual-assault"},
- { name:"Racketeering", href:"/investigations/georgia-rico"},
+ { name:"Election Interference", href:"/categories/election-interference"},
+ { name:"Financial Fraud", href:"/categories/financial-fraud"},
+ { name:"Human Trafficking", href:"/categories/human-trafficking"},
+ { name:"RICO Violations", href:"/categories/racketeering"},
+ { name:"Seditious Conspiracy", href:"/categories/seditious-conspiracy"},
+ { name:"Obstruction of Justice", href:"/categories/obstruction-of-justice"},
+ { name:"Tax Evasion", href:"/categories/tax-evasion"},
+ { name:"Wire Fraud", href:"/categories/wire-fraud"},
+ { name:"Campaign Finance Crimes", href:"/categories/campaign-finance"},
+ { name:"Bribery", href:"/categories/bribery-corruption"},
+ { name:"Bank Fraud", href:"/categories/financial-fraud"},
+ { name:"Securities Fraud", href:"/categories/securities-fraud"},
+ { name:"Money Laundering", href:"/categories/money-laundering"},
+ { name:"Perjury", href:"/categories/perjury"},
+ { name:"Sexual Assault", href:"/categories/sexual-assault"},
+ { name:"Racketeering", href:"/categories/racketeering"},
  ].map((crime, i) => (
  <Link key={i} href={crime.href} className="px-2 py-1 bg-blood-950/50 border border-blood-700/50 text-blood-500 hover:bg-blood-900/30 hover:border-blood-500 transition-colors">
  {crime.name}

@@ -115,7 +115,7 @@ const investigation = {
  sources: [
  { title: 'Deutsche Bank and Trump: A Timeline', url: 'https://www.nytimes.com/2020/02/04/magazine/deutsche-bank-trump.html', date: '2020' },
  { title: 'House Subpoenas for Deutsche Bank Records', url: 'https://www.congress.gov/bill/116th-congress/house-resolution/507', date: '2019' },
- { title: 'Deutsche Bank $670M Russia Fine', url: 'https://web.archive.org/web/*/https://www.justice.gov/opa/pr/deutsche-bank-agrees-pay-over-41-million-resolve-foreign-corrupt-practices-act', date: '2017' },
+ { title: 'Deutsche Bank $670M Russia Fine', url: 'https://www.justice.gov/opa/pr/deutsche-bank-agrees-pay-over-41-million-resolve-foreign-corrupt-practices-act', date: '2017' },
  { title: 'Dark Towers: Deutsche Bank Book', url: 'https://www.harpercollins.com/products/dark-towers-david-enrich', date: '2020' },
  ],
 };

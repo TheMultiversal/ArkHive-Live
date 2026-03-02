@@ -1648,16 +1648,7 @@ const timelineEvents: TimelineEvent[] = [
  slug:"gun-violence-inaction",
  tags: ["Guns","NRA","Mass Shootings"],
  },
- {
- date:"June 22, 2022",
- sortDate:"2022-06-24",
- title:"Roe v. Wade Overturned",
- description:"SCOTUS overturned 50 years of reproductive rights in Dobbs decision. Federalist Society justices delivered decades-long conservative goal.",
- category:"Government Abuse",
- severity:"critical",
- slug:"roe-v-wade-overturn",
- tags: ["SCOTUS","Abortion","Rights"],
- },
+
  {
  date:"2023-present",
  sortDate:"2023-01-01",
