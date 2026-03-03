@@ -1,0 +1,31 @@
+{
+  "ollama": {
+    "model": "llama3:8b",
+    "temperature": 0.7,
+    "timeout": 180000
+  },
+  "workers": {
+    "min": 2,
+    "max": 8
+  },
+  "scanner": {
+    "scanInterval": 120000,
+    "maxProfilesPerCycle": 50
+  },
+  "generation": {
+    "mode": "hybrid",
+    "batchSize": 5,
+    "backupBeforeInject": true
+  },
+  "replication": {
+    "enabled": true,
+    "maxSpawnedBots": 6
+  },
+  "monitor": {
+    "httpPort": 3001,
+    "enableDashboard": true
+  },
+  "quality": {
+    "scoreThreshold": 60
+  }
+}

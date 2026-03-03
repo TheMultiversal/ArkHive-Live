@@ -1,0 +1,20 @@
+# ArkHive Swarm Intelligence — Ignored Files
+# These are runtime artifacts, not source code
+
+# Runtime state files
+.daemon.pid
+.stop
+.swarm-state.json
+.queue.json
+
+# Generated profiles (can be regenerated)
+generated/
+
+# Logs
+logs/
+
+# Backups
+backups/
+
+# Auto-spawned bot scripts
+spawned/
