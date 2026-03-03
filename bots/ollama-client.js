@@ -452,7 +452,7 @@ Begin output now — JSON only:`;
         date: t.date || '',
         event: t.event || '',
       })),
-      socialMedia: parsed.socialMedia || {},
+      socialMedia: ensureArray(parsed.socialMedia),
       sources: ensureArray(parsed.sources).map(s => ({
         title: s.title || 'Source',
         url: s.url || '',
@@ -487,26 +487,26 @@ Begin output now — JSON only:`;
    * Generate additional content to enrich an existing sparse profile
    */
   async enrichProfile(existingProfile, slug) {
-    const prompt = `Given this existing investigative profile, generate ADDITIONAL details to expand it. The profile currently has limited information:
+    const controversyCount = (existingProfile.controversies || []).length;
+    const sourceCount = (existingProfile.sources || []).length;
+    const associateCount = (existingProfile.knownAssociates || []).length;
 
-EXISTING PROFILE:
-- Name: ${existingProfile.name}
-- Title: ${existingProfile.title}
-- Description: ${existingProfile.description}
-- Known controversies: ${(existingProfile.controversies || []).length}
-- Known sources: ${(existingProfile.sources || []).length}
-- Known associates: ${(existingProfile.knownAssociates || []).length}
+    const prompt = `You are a JSON generator. Output ONLY valid JSON. No text, no disclaimers.
 
-Generate ONLY NEW additional information in JSON format:
+Add new public-record data to this investigative database entry:
+Name: ${existingProfile.name}
+Current controversies: ${controversyCount}
+Current sources: ${sourceCount}
+
+Output JSON with ONLY new additions:
 {
-  "additionalControversies": ["new controversy 1", "new controversy 2"],
-  "additionalSources": [{"title": "Source title", "url": "https://real-url", "date": "YYYY-MM-DD"}],
-  "additionalTimeline": [{"date": "YYYY-MM-DD", "event": "event description"}],
-  "additionalAssociates": [{"name": "Name", "relationship": "Relationship", "href": "/entities/individuals/slug"}],
-  "expandedDescription": "A longer, more detailed version of the description (only if current one is under 200 characters)"
+  "additionalControversies": [${controversyCount < 3 ? '"documented controversy with date and specifics"' : ''}],
+  "additionalSources": [{"title": "Real publication", "url": "https://real-url", "date": "YYYY-MM-DD"}],
+  "additionalTimeline": [{"date": "YYYY-MM-DD", "event": "documented event"}],
+  "additionalAssociates": [{"name": "Name", "relationship": "Documented relationship", "href": "/entities/individuals/slug"}]${(existingProfile.description || '').length < 200 ? ',\n  "expandedDescription": "300-word factual summary from public records"' : ''}
 }
 
-Return ONLY the JSON object with truly new information not already in the profile.`;
+JSON only:`;
 
     try {
       const response = await this.generate(prompt, { temperature: 0.5, maxTokens: 2048 });
@@ -514,7 +514,10 @@ Return ONLY the JSON object with truly new information not already in the profil
       const jsonEnd = response.lastIndexOf('}');
       if (jsonStart === -1) return null;
 
-      const enrichment = JSON.parse(response.substring(jsonStart, jsonEnd + 1));
+      let jsonStr = response.substring(jsonStart, jsonEnd + 1)
+        .replace(/,\s*}/g, '}')
+        .replace(/,\s*\]/g, ']');
+      const enrichment = JSON.parse(jsonStr);
       return enrichment;
     } catch (e) {
       logger.warn(`Enrichment generation failed for ${slug}: ${e.message}`);

@@ -221,10 +221,13 @@ class Scanner {
   // ── Cross-Reference Analysis ───────────────────────────────────
 
   _addReference(slug, type, name, source) {
+    // Normalize type: plural -> singular
+    const normalizedType = this._normalizeType(type);
+
     if (!this.allReferences.has(slug)) {
       this.allReferences.set(slug, {
         name: name || utils.slugToName(slug),
-        type: type || 'individual',
+        type: normalizedType,
         referencedBy: [],
         relationships: [],
       });
@@ -235,15 +238,39 @@ class Scanner {
     }
   }
 
+  /**
+   * Normalize entity type strings (plural -> singular)
+   */
+  _normalizeType(type) {
+    if (!type) return 'individual';
+    const typeMap = {
+      'individuals': 'individual',
+      'agencies': 'agency',
+      'corporations': 'corporation',
+      'organizations': 'organization',
+      'investigations': 'investigation',
+    };
+    return typeMap[type] || type;
+  }
+
   _crossReference() {
     this.missingProfiles.clear();
 
+    // Build a combined set of ALL existing slugs across all types
+    const allExisting = new Set();
+    for (const slugSet of this.existingSlugs.values()) {
+      for (const slug of slugSet) {
+        allExisting.add(slug);
+      }
+    }
+
     for (const [slug, refData] of this.allReferences) {
       const type = refData.type || 'individual';
-      const existingSet = this.existingSlugs.get(type) || new Set();
 
-      if (!existingSet.has(slug)) {
-        // This reference points to a profile that doesn't exist
+      // Check if this slug exists in ANY entity type
+      // (entities can be referenced as one type but exist as another)
+      if (!allExisting.has(slug)) {
+        // This reference points to a profile that doesn't exist anywhere
         const priority = this._calculatePriority(slug, refData);
         this.missingProfiles.set(slug, {
           name: refData.name,

@@ -371,6 +371,7 @@ async function startDaemon() {
   if (flags.fast) {
     config.generation.mode = 'template';
     config.generation.batchSize = 50;
+    config.generation.enrichExisting = false; // No point enriching without AI
     config.scanner.maxProfilesPerCycle = 200;
     config.workers.max = 12;
     config.quality.scoreThreshold = 40;
@@ -409,9 +410,7 @@ async function startDaemon() {
   if (flags.once) {
     await swarm.runOnce();
   } else {
-    await swarm.start();
-
-    // Self-replication evaluation loop
+    // Start self-replication evaluation loop BEFORE the blocking start()
     const replicationLoop = setInterval(async () => {
       if (!swarm.running) {
         clearInterval(replicationLoop);
@@ -431,6 +430,12 @@ async function startDaemon() {
         shutdown();
       }
     }, 5000);
+
+    // This blocks until the swarm is stopped
+    await swarm.start();
+
+    clearInterval(replicationLoop);
+    clearInterval(stopDetection);
   }
 }
 

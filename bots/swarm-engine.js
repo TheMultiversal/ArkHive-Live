@@ -94,7 +94,7 @@ class SwarmEngine extends EventEmitter {
       await this.spawnWorker();
     }
 
-    // Start timers
+    // Start health check timers (but NOT the scan timer — we cycle manually)
     this._startTimers();
 
     // Start distributing tasks
@@ -109,6 +109,92 @@ class SwarmEngine extends EventEmitter {
     });
 
     this.emit('started');
+
+    // ═══ CONTINUOUS CYCLE LOOP ═══
+    // This is the main heartbeat — scan, generate, distribute, wait, flush, repeat
+    await this._continuousCycleLoop();
+  }
+
+  /**
+   * Continuous cycle loop — the true heartbeat of the swarm
+   * Runs until this.running becomes false
+   */
+  async _continuousCycleLoop() {
+    while (this.running) {
+      // Wait for current batch to finish
+      await this._waitForQueueDrain();
+
+      // Flush any pending injections
+      await this._flushInjectionBuffer();
+
+      if (!this.running) break;
+
+      // Cooldown between cycles
+      const cooldown = config.generation.cooldownBetweenBatches || 3000;
+      logger.swarm(`Cycle ${this.cycleCount} complete. Cooldown ${cooldown}ms before next scan...`);
+      await new Promise(r => setTimeout(r, cooldown));
+
+      if (!this.running) break;
+
+      // Clear completed tasks from previous cycles (they're already injected)
+      // Keep only the last 50 for stats display
+      if (this.queue.completed.length > 50) {
+        this.queue.completed = this.queue.completed.slice(-50);
+      }
+
+      // Re-scan for new work
+      await this.runScanCycle();
+
+      const pendingCount = this.queue.tasks.filter(t => t.status === 'pending').length;
+      if (pendingCount === 0) {
+        logger.swarm('No new tasks found. Sleeping 30s before re-scan...');
+        await new Promise(r => setTimeout(r, 30000));
+      } else {
+        // Ensure we have enough workers
+        await this._ensureMinWorkers();
+      }
+    }
+  }
+
+  /**
+   * Wait for all pending/processing tasks to drain
+   */
+  async _waitForQueueDrain() {
+    return new Promise((resolve) => {
+      const check = () => {
+        if (!this.running) { resolve(); return; }
+
+        const pending = this.queue.tasks.filter(t => t.status === 'pending').length;
+        const processing = this.processing.size;
+
+        if (pending === 0 && processing === 0) {
+          resolve();
+        } else {
+          // Keep distributing while there's work
+          if (pending > 0) this._distribute();
+          setTimeout(check, 1000);
+        }
+      };
+      check();
+    });
+  }
+
+  /**
+   * Ensure minimum workers are alive and idle
+   */
+  async _ensureMinWorkers() {
+    const alive = this.workers.size;
+    const needed = Math.max(config.workers.min, Math.min(
+      Math.ceil(this.queue.tasks.filter(t => t.status === 'pending').length / 3),
+      config.workers.max
+    )) - alive;
+
+    if (needed > 0) {
+      logger.swarm(`Spawning ${needed} workers (have ${alive}, need more for ${this.queue.tasks.filter(t => t.status === 'pending').length} tasks)`);
+      for (let i = 0; i < needed; i++) {
+        await this.spawnWorker();
+      }
+    }
   }
 
   /**
@@ -425,6 +511,9 @@ class SwarmEngine extends EventEmitter {
     // Remove from processing map
     this.processing.delete(task.id);
 
+    // CRITICAL: Remove completed task from queue.tasks so it doesn't block future cycles
+    this.queue.tasks = this.queue.tasks.filter(t => t.id !== task.id);
+
     // Track duration
     if (elapsed) {
       this._taskDurations.push(elapsed);
@@ -438,10 +527,10 @@ class SwarmEngine extends EventEmitter {
       worker.tasksCompleted++;
       this.stats.totalTasksProcessed++;
 
-      // Add to injection buffer
-      if (profile && task.action === 'create') {
-        this.injectionBuffer.push({ slug: task.slug, profile });
-        logger.swarm(`+1 profile queued for injection: ${task.slug} (quality: ${quality}/100)`);
+      // Add to injection buffer (both create AND enrich profiles)
+      if (profile && (task.action === 'create' || task.action === 'enrich')) {
+        this.injectionBuffer.push({ slug: task.slug, profile, action: task.action });
+        logger.swarm(`+1 profile queued for injection: ${task.slug} (${task.action}) (quality: ${quality}/100)`);
       }
 
       // Move task to completed
@@ -510,17 +599,27 @@ class SwarmEngine extends EventEmitter {
 
     this.workers.delete(workerId);
 
-    // Self-healing: restart worker if under min and not shutting down
-    if (this.running && !this.paused && this.workers.size < config.workers.min) {
-      if (worker.restarts < config.workers.maxRestartsPerWorker) {
-        logger.swarm(`Self-healing: respawning worker (${this.workers.size}/${config.workers.min} min)`);
-        this.stats.totalWorkerRestarts++;
+    // Self-healing: restart worker if under target count and not shutting down
+    if (this.running && !this.paused) {
+      const pendingTasks = this.queue.tasks.filter(t => t.status === 'pending').length;
+      const targetWorkers = Math.max(config.workers.min, Math.min(
+        Math.ceil(pendingTasks / 3),
+        config.workers.max
+      ));
 
-        setTimeout(() => {
-          if (this.running) this.spawnWorker();
-        }, config.workers.restartCooldown);
-      } else {
-        logger.error(`Worker ${workerId} exceeded max restarts (${config.workers.maxRestartsPerWorker})`);
+      if (this.workers.size < targetWorkers) {
+        if (!worker.restarts || worker.restarts < config.workers.maxRestartsPerWorker) {
+          logger.swarm(`Self-healing: respawning worker (${this.workers.size}/${targetWorkers} target, ${pendingTasks} pending)`);
+          this.stats.totalWorkerRestarts++;
+
+          setTimeout(() => {
+            if (this.running) {
+              this.spawnWorker();
+            }
+          }, config.workers.restartCooldown);
+        } else {
+          logger.error(`Worker ${workerId} exceeded max restarts (${config.workers.maxRestartsPerWorker})`);
+        }
       }
     }
   }
@@ -530,7 +629,20 @@ class SwarmEngine extends EventEmitter {
   // ══════════════════════════════════════════════════════════════
 
   /**
+   * Count how many currently-processing tasks are using AI (Ollama)
+   * Only tasks without forceTemplate AND in hybrid/ai mode count
+   */
+  _countAiProcessing() {
+    let count = 0;
+    for (const [, info] of this.processing) {
+      if (!info.task.forceTemplate) count++;
+    }
+    return count;
+  }
+
+  /**
    * Distribute pending tasks to idle workers
+   * Respects AI concurrency limits — excess workers get forceTemplate=true
    */
   _distribute() {
     if (!this.running || this.paused) return;
@@ -544,10 +656,25 @@ class SwarmEngine extends EventEmitter {
     pendingTasks.sort((a, b) => (b.priority || 0) - (a.priority || 0));
 
     const toAssign = Math.min(pendingTasks.length, idleWorkers.length);
+    const maxAI = config.ollama.maxConcurrent || 1;
+    let currentAI = this._countAiProcessing();
 
     for (let i = 0; i < toAssign; i++) {
       const task = pendingTasks[i];
       const worker = idleWorkers[i];
+
+      // AI concurrency gate: if we've hit the Ollama limit,
+      // force remaining tasks to use templates (fast, no timeout)
+      if (config.generation.mode !== 'template') {
+        if (currentAI < maxAI) {
+          task.forceTemplate = false;
+          currentAI++;
+        } else {
+          task.forceTemplate = true;
+        }
+      } else {
+        task.forceTemplate = true;  // template mode always forces template
+      }
 
       task.status = 'processing';
       worker.status = 'busy';
@@ -561,13 +688,15 @@ class SwarmEngine extends EventEmitter {
 
       try {
         worker.process.send({ type: 'task', task });
-        logger.debug(`Assigned ${task.slug} to ${worker.id}`);
+        const modeLabel = task.forceTemplate ? 'TEMPLATE' : 'AI';
+        logger.debug(`Assigned ${task.slug} to ${worker.id} [${modeLabel}]`);
       } catch (e) {
         logger.error(`Failed to send task to ${worker.id}: ${e.message}`);
         task.status = 'pending';
         worker.status = 'idle';
         worker.currentTask = null;
         this.processing.delete(task.id);
+        if (!task.forceTemplate) currentAI--;
       }
     }
 
@@ -589,10 +718,12 @@ class SwarmEngine extends EventEmitter {
     const results = await scanner.fullScan();
     const tasks = scanner.generateTasks(config.scanner.maxProfilesPerCycle);
 
-    // Add new tasks to queue (avoiding duplicates)
+    // Add new tasks to queue (avoiding duplicates in current cycle only)
+    // NOTE: Only block against actively pending/processing tasks, NOT completed.
+    // Completed tasks from previous cycles should not prevent re-scanning.
+    // The scanner already checks page.tsx — if a profile was injected, scanner won't list it.
     const existingIds = new Set([
       ...this.queue.tasks.map(t => t.slug),
-      ...this.queue.completed.map(t => t.slug),
       ...Array.from(this.processing.values()).map(p => p.task.slug),
     ]);
 
@@ -613,6 +744,11 @@ class SwarmEngine extends EventEmitter {
 
     this.lastScanTime = new Date().toISOString();
     utils.saveQueue(this.queue);
+
+    // CRITICAL: distribute tasks to idle workers immediately after scan
+    if (added > 0) {
+      this._distribute();
+    }
 
     this.emit('scan-complete', { added, total: this.queue.tasks.length });
 
@@ -643,6 +779,9 @@ class SwarmEngine extends EventEmitter {
       for (let i = 0; i < needed; i++) {
         await this.spawnWorker();
       }
+
+      // Distribute immediately after scaling up
+      this._distribute();
     }
 
     // Scale down
@@ -696,10 +835,8 @@ class SwarmEngine extends EventEmitter {
   // ══════════════════════════════════════════════════════════════
 
   _startTimers() {
-    // Periodic scan timer
-    this.scanTimer = setInterval(() => {
-      this.runScanCycle();
-    }, config.scanner.scanInterval);
+    // NOTE: No scan timer — the continuous cycle loop handles scanning.
+    // We only need auto-scale, heartbeat, injection flush, and state save.
 
     // Auto-scale timer
     this.scaleTimer = setInterval(() => {
@@ -715,6 +852,11 @@ class SwarmEngine extends EventEmitter {
     this.injectionTimer = setInterval(() => {
       this._flushInjectionBuffer();
     }, 30000);
+
+    // State save timer — persist stats every 15s
+    this._stateTimer = setInterval(() => {
+      this._saveState();
+    }, 15000);
   }
 
   _stopTimers() {
@@ -722,10 +864,12 @@ class SwarmEngine extends EventEmitter {
     if (this.scaleTimer) clearInterval(this.scaleTimer);
     if (this.heartbeatCheckTimer) clearInterval(this.heartbeatCheckTimer);
     if (this.injectionTimer) clearInterval(this.injectionTimer);
+    if (this._stateTimer) clearInterval(this._stateTimer);
     this.scanTimer = null;
     this.scaleTimer = null;
     this.heartbeatCheckTimer = null;
     this.injectionTimer = null;
+    this._stateTimer = null;
   }
 
   /**

@@ -232,6 +232,8 @@ function truncate(str, maxLength = 80) {
  * Escape single quotes for JS string literals
  */
 function escapeJsString(str) {
+  if (str === null || str === undefined) return '';
+  if (typeof str !== 'string') str = String(str);
   return str
     .replace(/\\/g, '\\\\')
     .replace(/'/g, "\\'")
@@ -402,19 +404,23 @@ function profileToTsLiteral(slug, profile) {
   if (profile.netWorth) lines.push(`    netWorth: '${esc(profile.netWorth)}',`);
 
   // Education array
-  lines.push(`    education: [${(profile.education || []).map(e => `'${esc(e)}'`).join(', ')}],`);
+  lines.push(`    education: [${(profile.education || []).map(e => `'${esc(typeof e === 'string' ? e : (e?.degree || e?.name || JSON.stringify(e)))}'`).join(', ')}],`);
 
   // Affiliations array
   lines.push(`    affiliations: [`);
   for (const aff of (profile.affiliations || [])) {
-    lines.push(`      { name: '${esc(aff.name)}', role: '${esc(aff.role)}', type: '${esc(aff.type || 'organization')}' },`);
+    const affName = typeof aff === 'string' ? aff : (aff.name || 'Unknown');
+    const affRole = typeof aff === 'string' ? 'Associated' : (aff.role || 'Associated');
+    const affType = typeof aff === 'string' ? 'organization' : (aff.type || 'organization');
+    lines.push(`      { name: '${esc(affName)}', role: '${esc(affRole)}', type: '${esc(affType)}' },`);
   }
   lines.push(`    ],`);
 
   // Controversies array
   lines.push(`    controversies: [`);
   for (const c of (profile.controversies || [])) {
-    lines.push(`      '${esc(c)}',`);
+    const cStr = typeof c === 'string' ? c : (c?.description || c?.title || JSON.stringify(c));
+    lines.push(`      '${esc(cStr)}',`);
   }
   lines.push(`    ],`);
 
@@ -422,7 +428,11 @@ function profileToTsLiteral(slug, profile) {
   if (profile.charges && profile.charges.length > 0) {
     lines.push(`    charges: [`);
     for (const ch of profile.charges) {
-      lines.push(`      { statute: '${esc(ch.statute)}', description: '${esc(ch.description)}', category: '${esc(ch.category)}' },`);
+      if (typeof ch === 'string') {
+        lines.push(`      { statute: '', description: '${esc(ch)}', category: 'Other' },`);
+      } else {
+        lines.push(`      { statute: '${esc(ch.statute || '')}', description: '${esc(ch.description || '')}', category: '${esc(ch.category || 'Other')}' },`);
+      }
     }
     lines.push(`    ],`);
   } else {
@@ -432,14 +442,22 @@ function profileToTsLiteral(slug, profile) {
   // Related investigations
   lines.push(`    relatedInvestigations: [`);
   for (const ri of (profile.relatedInvestigations || [])) {
-    lines.push(`      { title: '${esc(ri.title)}', slug: '${esc(ri.slug)}', severity: '${ri.severity || 'medium'}' },`);
+    if (typeof ri === 'string') {
+      lines.push(`      { title: '${esc(ri)}', slug: '${esc(ri.toLowerCase().replace(/[^a-z0-9]+/g, '-'))}', severity: 'medium' },`);
+    } else {
+      lines.push(`      { title: '${esc(ri.title || '')}', slug: '${esc(ri.slug || '')}', severity: '${ri.severity || 'medium'}' },`);
+    }
   }
   lines.push(`    ],`);
 
   // Timeline
   lines.push(`    timeline: [`);
   for (const t of (profile.timeline || [])) {
-    lines.push(`      { date: '${esc(t.date)}', event: '${esc(t.event)}' },`);
+    if (typeof t === 'string') {
+      lines.push(`      { date: '', event: '${esc(t)}' },`);
+    } else {
+      lines.push(`      { date: '${esc(t.date || '')}', event: '${esc(t.event || '')}' },`);
+    }
   }
   lines.push(`    ],`);
 
@@ -457,20 +475,26 @@ function profileToTsLiteral(slug, profile) {
   // Sources
   lines.push(`    sources: [`);
   for (const s of (profile.sources || [])) {
-    lines.push(`      { title: '${esc(s.title)}', url: '${esc(s.url)}', date: '${esc(s.date || '')}' },`);
+    if (typeof s === 'string') {
+      lines.push(`      { title: '${esc(s)}', url: '', date: '' },`);
+    } else {
+      lines.push(`      { title: '${esc(s.title || 'Source')}', url: '${esc(s.url || '')}', date: '${esc(s.date || '')}' },`);
+    }
   }
   lines.push(`    ],`);
 
   // Aliases
-  lines.push(`    aliases: [${(profile.aliases || []).map(a => `'${esc(a)}'`).join(', ')}],`);
+  lines.push(`    aliases: [${(profile.aliases || []).map(a => `'${esc(typeof a === 'string' ? a : String(a))}'`).join(', ')}],`);
 
   // Known associates
   lines.push(`    knownAssociates: [`);
   for (const ka of (profile.knownAssociates || [])) {
-    if (ka.href) {
-      lines.push(`      { name: '${esc(ka.name)}', relationship: '${esc(ka.relationship)}', href: '${esc(ka.href)}' },`);
+    if (typeof ka === 'string') {
+      lines.push(`      { name: '${esc(ka)}', relationship: 'Connected' },`);
+    } else if (ka.href) {
+      lines.push(`      { name: '${esc(ka.name || 'Unknown')}', relationship: '${esc(ka.relationship || 'Connected')}', href: '${esc(ka.href)}' },`);
     } else {
-      lines.push(`      { name: '${esc(ka.name)}', relationship: '${esc(ka.relationship)}' },`);
+      lines.push(`      { name: '${esc(ka.name || 'Unknown')}', relationship: '${esc(ka.relationship || 'Connected')}' },`);
     }
   }
   lines.push(`    ],`);
@@ -590,6 +614,53 @@ function formatBytes(bytes) {
   return `${(bytes / (1024 * 1024)).toFixed(1)}MB`;
 }
 
+/**
+ * Parse an existing profile from page.tsx by slug.
+ * Extracts the profile object literal and evaluates it into a JS object.
+ */
+function parseExistingProfile(slug) {
+  const content = readFileSafe(config.paths.individuals);
+  if (!content) return null;
+
+  // Find the start of this profile: ' 'slug': {' or '  'slug': {'
+  // Support both 1-space and 2-space indentation
+  let startMarker = ` '${slug}': {`;
+  let startIdx = content.indexOf(startMarker);
+  if (startIdx === -1) {
+    startMarker = `  '${slug}': {`;
+    startIdx = content.indexOf(startMarker);
+  }
+  if (startIdx === -1) return null;
+
+  // Find the end of this profile block — look for the next profile or closing '};'
+  // We need to count braces to find the matching closing brace
+  const blockStart = content.indexOf('{', startIdx);
+  let depth = 0;
+  let endIdx = -1;
+  for (let i = blockStart; i < content.length; i++) {
+    if (content[i] === '{') depth++;
+    if (content[i] === '}') {
+      depth--;
+      if (depth === 0) {
+        endIdx = i + 1;
+        break;
+      }
+    }
+  }
+
+  if (endIdx === -1) return null;
+
+  const objectLiteral = content.substring(blockStart, endIdx);
+
+  try {
+    // Use Function constructor to safely evaluate the object literal
+    const profile = new Function('return (' + objectLiteral + ')')();
+    return profile;
+  } catch (e) {
+    return null;
+  }
+}
+
 module.exports = {
   readFileSafe,
   writeFileAtomic,
@@ -610,6 +681,7 @@ module.exports = {
   generateProfileTemplate,
   profileToTsLiteral,
   validateProfile,
+  parseExistingProfile,
   formatNumber,
   formatDuration,
   formatBytes,

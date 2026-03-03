@@ -81,7 +81,7 @@ class Injector {
 
   /**
    * Inject multiple profiles in a single file write (batch injection)
-   * More efficient than individual injections
+   * Supports both new profiles (create) and replacing existing ones (enrich)
    */
   async injectBatch(profiles) {
     if (!profiles || profiles.length === 0) return { success: true, injected: 0 };
@@ -104,55 +104,113 @@ class Injector {
     }
 
     const existingSlugs = new Set(utils.extractExistingIndividualSlugs(content));
-    const toInject = [];
+    const toInject = [];  // new profiles to insert
+    const toReplace = []; // existing profiles to replace (enrichment)
 
-    for (const { slug, profile } of profiles) {
+    for (const { slug, profile, action } of profiles) {
       if (existingSlugs.has(slug)) {
-        logger.warn(`Skipping ${slug} — already exists`);
+        if (action === 'enrich') {
+          toReplace.push({ slug, profile });
+        } else {
+          logger.warn(`Skipping ${slug} — already exists`);
+        }
         continue;
       }
       toInject.push({ slug, profile });
       existingSlugs.add(slug); // Prevent duplicates within batch
     }
 
-    if (toInject.length === 0) {
-      logger.inject('No new profiles to inject');
+    // Apply replacements for enriched profiles
+    for (const { slug, profile } of toReplace) {
+      const newLiteral = utils.profileToTsLiteral(slug, profile);
+      const replaced = this._replaceProfileInContent(content, slug, newLiteral);
+      if (replaced) {
+        content = replaced;
+        logger.inject(`  ~ ${slug} (enriched)`);
+      } else {
+        logger.warn(`Could not replace profile for ${slug}`);
+      }
+    }
+
+    // Insert new profiles
+    if (toInject.length > 0) {
+      const literals = toInject.map(({ slug, profile }) =>
+        utils.profileToTsLiteral(slug, profile)
+      ).join('\n');
+
+      const insertionResult = this._findInsertionPoint(content);
+      if (!insertionResult.success) {
+        return { success: false, message: insertionResult.message, injected: 0 };
+      }
+
+      content =
+        content.substring(0, insertionResult.position) +
+        '\n' + literals + '\n' +
+        content.substring(insertionResult.position);
+    }
+
+    const totalChanged = toInject.length + toReplace.length;
+    if (totalChanged === 0) {
+      logger.inject('No profiles to inject or update');
       return { success: true, injected: 0 };
     }
 
-    // Generate all TypeScript literals
-    const literals = toInject.map(({ slug, profile }) =>
-      utils.profileToTsLiteral(slug, profile)
-    ).join('\n');
-
-    // Find insertion point
-    const insertionResult = this._findInsertionPoint(content);
-    if (!insertionResult.success) {
-      return { success: false, message: insertionResult.message, injected: 0 };
-    }
-
-    // Insert all profiles at once
-    const newContent =
-      content.substring(0, insertionResult.position) +
-      '\n' + literals + '\n' +
-      content.substring(insertionResult.position);
-
     try {
-      utils.writeFileAtomic(filePath, newContent);
-      this.stats.totalInjected += toInject.length;
+      utils.writeFileAtomic(filePath, content);
+      this.stats.totalInjected += totalChanged;
       this.stats.lastInjection = new Date().toISOString();
 
-      logger.inject(`✓ Batch injected ${toInject.length} profiles`);
+      logger.inject(`✓ Batch: ${toInject.length} new, ${toReplace.length} enriched`);
       for (const { slug, profile } of toInject) {
         logger.inject(`  + ${slug} (${profile.name})`);
       }
 
-      return { success: true, injected: toInject.length };
+      return { success: true, injected: totalChanged };
     } catch (e) {
-      this.stats.totalFailed += toInject.length;
+      this.stats.totalFailed += totalChanged;
       logger.error(`Batch write failed: ${e.message}`);
       return { success: false, message: `Write failed: ${e.message}`, injected: 0 };
     }
+  }
+
+  /**
+   * Replace an existing profile block in content with a new one
+   * Returns the updated content string, or null if replacement failed
+   */
+  _replaceProfileInContent(content, slug, newLiteral) {
+    // Find the start: ' 'slug': {' or '  'slug': {'
+    // Support both 1-space and 2-space indentation
+    let startIdx = content.indexOf(` '${slug}': {`);
+    if (startIdx === -1) startIdx = content.indexOf(`  '${slug}': {`);
+    if (startIdx === -1) return null;
+
+    // Find the matching closing brace from `{`
+    const blockStart = content.indexOf('{', startIdx);
+    let depth = 0;
+    let endIdx = -1;
+    for (let i = blockStart; i < content.length; i++) {
+      if (content[i] === '{') depth++;
+      if (content[i] === '}') {
+        depth--;
+        if (depth === 0) {
+          endIdx = i + 1;
+          break;
+        }
+      }
+    }
+
+    if (endIdx === -1) return null;
+
+    // Check for trailing comma
+    let trailingEnd = endIdx;
+    if (content[trailingEnd] === ',') trailingEnd++;
+
+    // Replace: from the start of the profile line to after the closing brace+comma
+    // Find the start of the line (go back to previous newline)
+    let lineStart = startIdx;
+    while (lineStart > 0 && content[lineStart - 1] !== '\n') lineStart--;
+
+    return content.substring(0, lineStart) + newLiteral + '\n' + content.substring(trailingEnd);
   }
 
   /**

@@ -61,7 +61,8 @@ async function processTask(task) {
   currentTask = task;
   const startTime = Date.now();
 
-  log.worker(`Processing task: ${task.slug} (${task.action}) [priority: ${task.priority}]`);
+  const modeLabel = task.forceTemplate ? 'TEMPLATE' : (ollama.available ? 'AI' : 'TEMPLATE');
+  log.worker(`Processing task: ${task.slug} (${task.action}) [priority: ${task.priority}] [${modeLabel}]`);
 
   try {
     let profile;
@@ -139,8 +140,12 @@ async function generateNewProfile(task) {
     relationships: task.context?.relationships || [],
   };
 
+  // If the swarm engine forced template mode (AI concurrency limit), skip Ollama
+  const useAI = !task.forceTemplate && ollama.available &&
+    (config.generation.mode === 'ai' || config.generation.mode === 'hybrid');
+
   // Try AI generation first
-  if (ollama.available && (config.generation.mode === 'ai' || config.generation.mode === 'hybrid')) {
+  if (useAI) {
     try {
       log.ai(`Generating AI profile for ${task.name}...`);
       const profile = await ollama.generateProfile(task.slug, context);
@@ -174,15 +179,35 @@ async function generateNewProfile(task) {
  * Enrich an existing sparse profile with additional data
  */
 async function enrichExistingProfile(task) {
-  // Load existing profile from generated directory or parse from page
-  const existing = injector.loadGenerated(task.slug);
+  // Load existing profile from generated directory first
+  let existing = injector.loadGenerated(task.slug);
+
+  // If not in generated/, parse the current profile from page.tsx
   if (!existing) {
-    // Fall back to creating a new profile
+    try {
+      existing = utils.parseExistingProfile(task.slug);
+      if (existing) {
+        log.debug(`Parsed existing profile for ${task.slug} from page.tsx`);
+      }
+    } catch (e) {
+      log.debug(`Could not parse existing profile for ${task.slug}: ${e.message}`);
+    }
+  }
+
+  // If we still don't have an existing profile AND we're in template mode, skip enrichment
+  // Template mode can't actually improve anything without the existing profile
+  if (!existing && config.generation.mode === 'template') {
     log.warn(`No existing profile found for enrichment of ${task.slug}, creating new`);
     return generateNewProfile({ ...task, action: 'create' });
   }
 
-  if (ollama.available) {
+  // If no existing profile but we have AI, generate from scratch
+  if (!existing) {
+    log.warn(`No existing profile found for enrichment of ${task.slug}, creating new`);
+    return generateNewProfile({ ...task, action: 'create' });
+  }
+
+  if (ollama.available && !task.forceTemplate) {
     try {
       const enrichment = await ollama.enrichProfile(existing, task.slug);
       if (enrichment) {
