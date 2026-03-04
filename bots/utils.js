@@ -615,11 +615,23 @@ function formatBytes(bytes) {
 }
 
 /**
- * Parse an existing profile from page.tsx by slug.
- * Extracts the profile object literal and evaluates it into a JS object.
+ * Parse an existing profile from shard files by slug.
+ * Determines the correct shard from the slug's first letter,
+ * extracts the profile object literal and evaluates it into a JS object.
  */
 function parseExistingProfile(slug) {
-  const content = readFileSafe(config.paths.individuals);
+  // Try shard-manager first (post-migration), fall back to monolithic file
+  let content;
+  try {
+    const shardManager = require('./shard-manager');
+    const letter = shardManager.getShardLetter(slug);
+    content = shardManager.readShard(letter);
+  } catch (_) {}
+
+  // Fallback: read from monolithic file
+  if (!content) {
+    content = readFileSafe(config.paths.individuals);
+  }
   if (!content) return null;
 
   // Find the start of this profile: ' 'slug': {' or '  'slug': {'

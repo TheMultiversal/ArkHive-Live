@@ -1,0 +1,5783 @@
+// AUTO-GENERATED — Shard [M] managed by ArkHive Swarm Intelligence
+import type { IndividualProfile } from './types';
+
+const profiles: Record<string, IndividualProfile> = {
+  'michael-flynn': {
+    name: 'Michael Thomas Flynn',
+    title: 'Convicted Felon (Pardoned), Disgraced General',
+    role: 'Former National Security Advisor, QAnon Promoter',
+    riskLevel: 'critical',
+    description: 'Michael Flynn is a disgraced retired Army lieutenant general who served as Trump\'s National Security Advisor for only 24 days before resigning over undisclosed contacts with Russian officials. He pleaded guilty twice to lying to the FBI about secret communications with Russian Ambassador Sergey Kislyak during the presidential transition. After being pardoned by Trump, Flynn became a prominent QAnon conspiracy theorist and called for military overthrow of the government. He leads"ReAwaken America"tours promoting election fraud lies and Christian nationalism.',
+    birthDate: 'December 24, 1958',
+    birthPlace: 'Middletown, Rhode Island, USA',
+    netWorth: '$5+ million',
+    education: ['M.B.A. - Golden Gate University', 'M.A. - Naval War College', 'M.A. - Naval Postgraduate School', 'B.S. Management Science - University of Rhode Island'],
+    affiliations: [
+      { name: 'White House', role: 'National Security Advisor (Jan 20 - Feb 13, 2017 - 24 days)', type: 'agency' },
+      { name: 'Defense Intelligence Agency', role: 'Director (2012-2014), forced out', type: 'agency' },
+      { name: 'Flynn Intel Group', role: 'Founder (unregistered foreign lobbying)', type: 'corporation' },
+      { name: 'RT (Russia Today)', role: 'Paid speaker ($45,000 at Putin dinner)', type: 'corporation' },
+      { name: 'U.S. Army', role: 'Lieutenant General (Retired)', type: 'agency' },
+    ],
+    controversies: [
+      'LIED TO FBI: Pled guilty twice to making false statements about December 2016 calls with Russian Ambassador Kislyak discussing Obama sanctions',
+      'SECRET RUSSIA COMMUNICATIONS: Discussed lifting sanctions on Russia with Kislyak during transition, undermining Obama administration foreign policy',
+      'RT PAYMENT: Accepted $45,000 from Russian state propaganda outlet RT, sat next to Putin at December 2015 Moscow dinner',
+      'TURKEY LOBBYING: Unregistered lobbying for Turkish government ($530,000) while advising Trump campaign',
+      '"LOCK HER UP": Led chants against Hillary Clinton at 2016 RNC, later pled guilty to his own crimes',
+      'QANON OATH: Took QAnon oath on video ("Where we go one, we go all"), actively promotes conspiracy theories',
+      'MARTIAL LAW CALLS: Called for Trump to declare martial law, seize voting machines, deploy military to rerun 2020 election',
+      'REAWAKEN AMERICA TOUR: Leads Christian nationalist rallies spreading election lies and conspiracy theories',
+      'FIRED FROM DIA: Forced out as Defense Intelligence Agency director in 2014 for poor management and behavior',
+    ],
+    charges: [
+      { statute: '18 U.S.C. § 1001', description: 'Making false statements to FBI about Kislyak calls (pled guilty twice)', category: 'Obstruction' },
+      { statute: '22 U.S.C. § 618 (FARA)', description: 'Failure to register as foreign agent for Turkey ($530,000)', category: 'National Security' },
+      { statute: '18 U.S.C. § 951', description: 'Acting as agent of foreign government without notification', category: 'National Security' },
+    ],
+    relatedInvestigations: [
+      { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
+      { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+      { title: 'Foreign Influence Operations', slug: 'foreign-influence', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1958', event: 'Born in Middletown, Rhode Island' },
+      { date: '1981', event: 'Commissioned as Army officer' },
+      { date: '2012', event: 'Appointed Director of Defense Intelligence Agency' },
+      { date: '2014', event: 'Forced out of DIA for management failures' },
+      { date: '2015 (Dec)', event: 'Paid $45,000 by RT, sits next to Putin at Moscow gala' },
+      { date: '2016 (Jul)', event: 'Leads"Lock her up!"chant at Republican National Convention' },
+      { date: '2016 (Aug-Nov)', event: 'Lobbies for Turkey while advising Trump campaign ($530,000)' },
+      { date: '2016 (Dec 22)', event: 'Secret call with Russian Ambassador Kislyak about Obama sanctions' },
+      { date: '2016 (Dec 29)', event: 'Another Kislyak call after Obama expels Russian diplomats' },
+      { date: '2017 (Jan 20)', event: 'Appointed National Security Advisor' },
+      { date: '2017 (Jan 24)', event: 'Lies to FBI agents Strzok and Pientka about Kislyak calls' },
+      { date: '2017 (Feb 13)', event: 'Resigns after only 24 days when lies exposed' },
+      { date: '2017 (Dec 1)', event: 'Pleads guilty to lying to FBI' },
+      { date: '2018', event: 'Cooperates with Mueller investigation' },
+      { date: '2020 (Jan)', event: 'Attempts to withdraw guilty plea' },
+      { date: '2020 (May)', event: 'DOJ drops charges under Barr in controversial decision' },
+      { date: '2020 (Nov 25)', event: 'Pardoned by Trump' },
+      { date: '2020 (Dec)', event: 'Calls for martial law and military seizure of voting machines' },
+      { date: '2021 (Jul)', event: 'Takes QAnon oath on video at conference' },
+      { date: '2021-present', event: 'Leads ReAwaken America tours promoting election lies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+      { title: 'Flynn Plea Agreement', url: 'https://www.courtlistener.com/docket/6234142/united-states-v-flynn/', date: '2017' },
+      { title: 'DOJ Flynn Statement of Offense', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1015126/download', date: '2017' },
+      { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
+      { title: 'WaPo: Flynn-Kislyak Calls', url: 'https://www.washingtonpost.com/world/national-security/national-security-adviser-flynn-discussed-sanctions-with-russian-ambassador-despite-denials-officials-say/2017/02/09/f85b29d6-ee11-11e6-b4ff-ac2cf509efe5_story.html', date: '2017' },
+    ],
+    aliases: ['General Flynn', 'QAnon General'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'National Security Advisor, pardoned ally', href: '/entities/individuals/donald-trump' },
+      { name: 'Sergey Kislyak', relationship: 'Russian Ambassador, secret sanctions discussions', href: '/entities/individuals/sergey-kislyak' },
+      { name: 'Sidney Powell', relationship: 'Attorney, Kraken lawsuits, pardoned together', href: '/entities/individuals/sidney-powell' },
+      { name: 'Lin Wood', relationship: 'Attorney, election fraud conspiracy ally', href: '/entities/individuals/lin-wood' },
+      { name: 'Mike Lindell', relationship: 'ReAwaken America tour partner', href: '/entities/individuals/mike-lindell' },
+      { name: 'Patrick Byrne', relationship: 'Election conspiracy ally, Overstock founder', href: '/entities/individuals/patrick-byrne' },
+      { name: 'Vladimir Putin', relationship: 'Sat at Putin\'s table at RT gala December 2015', href: '/entities/individuals/vladimir-putin' },
+    ],
+  },
+  'michael-cohen': {
+    name: 'Michael Dean Cohen',
+    title: 'Convicted Felon, Former Trump Fixer',
+    role: 'Former Trump Personal Attorney, Key Prosecution Witness',
+    riskLevel: 'high',
+    description: 'Michael Dean Cohen served as Donald Trump\'s personal attorney and fixer from 2006 to 2018. He arranged hush money payments to Stormy Daniels and Karen McDougal, served as RNC Deputy Finance Chair, and was sentenced to three years in federal prison for campaign finance violations, tax evasion, and lying to Congress. He became the star witness in Trump\'s Manhattan criminal trial.',
+    birthDate: 'August 25, 1966',
+    birthPlace: 'Long Island, New York, USA',
+    netWorth: '$4+ million (pre-conviction)',
+    education: ['J.D. - Thomas M. Cooley Law School (1991)', 'B.A. - American University'],
+    affiliations: [
+      { name: 'Trump Organization', role: 'Executive VP & Personal Attorney (2006-2018)', type: 'corporation' },
+      { name: 'Republican National Committee', role: 'Deputy Finance Chairman (2017-2018)', type: 'organization' },
+      { name: 'Essential Consultants LLC', role: 'Shell company for hush payments', type: 'corporation' },
+    ],
+    controversies: [
+      'HUSH MONEY SCHEME: Paid $130,000 to Stormy Daniels and facilitated $150,000 to Karen McDougal via AMI to silence affairs before 2016 election',
+      'CAMPAIGN FINANCE CRIMES: Payments were illegal campaign contributions, Cohen pled guilty August 2018',
+      'TRUMP TOWER MOSCOW: Lied to Congress about timeline - negotiations continued through June 2016, not January as claimed',
+      '"FIXER"ROLE: Threatened journalists, handled lawsuits, buried negative stories, created shell companies for 12+ years',
+      'TAX EVASION: Evaded $1.4 million in taxes on taxi medallion income',
+      'COOPERATING WITNESS: Flipped on Trump after being abandoned, testified extensively in multiple proceedings',
+      'MANHATTAN TRIAL STAR WITNESS: Key testimony in 2024 trial that resulted in Trump\'s 34 felony convictions',
+      'CONGRESSIONAL TESTIMONY: Dramatic February 2019 testimony calling Trump"a racist, a conman, a cheat"',
+      'PRISON TIME: Served time at Otisville federal prison, then home confinement',
+    ],
+    charges: [
+      { statute: '52 U.S.C. § 30116(a)(1)(A)', description: 'Causing unlawful corporate campaign contribution (Stormy payment)', category: 'Election Crimes' },
+      { statute: '52 U.S.C. § 30116(a)(7)', description: 'Excessive campaign contribution', category: 'Election Crimes' },
+      { statute: '26 U.S.C. § 7201', description: 'Tax evasion - $1.4 million in unreported income', category: 'Financial Crimes' },
+      { statute: '18 U.S.C. § 1014', description: 'Making false statements to financial institution', category: 'Financial Crimes' },
+      { statute: '18 U.S.C. § 1001', description: 'Making false statements to Congress (Trump Tower Moscow)', category: 'Obstruction' },
+    ],
+    relatedInvestigations: [
+      { title: 'Hush Money & Campaign Finance', slug: 'hush-money', severity: 'critical' },
+      { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+      { title: 'Trump Organization Financial Fraud', slug: 'trump-org-fraud', severity: 'critical' },
+      { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1966', event: 'Born on Long Island, New York' },
+      { date: '1991', event: 'Graduates from Thomas M. Cooley Law School' },
+      { date: '2006', event: 'Joins Trump Organization as personal attorney' },
+      { date: '2015-2016', event: 'Negotiates Trump Tower Moscow deal, lies about timeline' },
+      { date: '2016 (Aug)', event: 'Creates Essential Consultants LLC shell company' },
+      { date: '2016 (Oct 27)', event: 'Pays Stormy Daniels $130,000 through shell company' },
+      { date: '2016 (Nov)', event: 'AMI pays Karen McDougal $150,000 with Cohen coordination' },
+      { date: '2017 (Feb)', event: 'Trump Organization reimburses Cohen - falsified as legal retainer' },
+      { date: '2017 (Apr)', event: 'Named RNC Deputy Finance Chairman' },
+      { date: '2018 (Apr 9)', event: 'FBI raids Cohen\'s office, home, and hotel room' },
+      { date: '2018 (Jun)', event: 'Resigns from RNC position' },
+      { date: '2018 (Aug 21)', event: 'Pleads guilty to 8 federal charges, implicates Trump' },
+      { date: '2018 (Nov 29)', event: 'Pleads guilty to lying to Congress about Trump Tower Moscow' },
+      { date: '2018 (Dec 12)', event: 'Sentenced to 3 years in federal prison' },
+      { date: '2019 (Feb 27)', event: 'Dramatic Congressional testimony:"Trump is a racist, a conman, a cheat"' },
+      { date: '2019 (May 6)', event: 'Reports to Otisville Federal Prison' },
+      { date: '2020 (May)', event: 'Released to home confinement due to COVID-19' },
+      { date: '2020 (Jul)', event: 'Briefly returned to prison for refusing to stop writing book' },
+      { date: '2024 (May)', event: 'Star witness in Manhattan hush money trial' },
+      { date: '2024 (May 30)', event: 'Trump convicted on all 34 felony counts, largely on Cohen\'s testimony' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'SDNY Plea Agreement', url: 'https://www.justice.gov/usao-sdny/pr/michael-cohen-pleads-guilty-manhattan-federal-court-eight-counts-including-campaign', date: '2018' },
+      { title: 'Congressional Testimony Transcript', url: 'https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' },
+      { title: 'Manhattan DA People v. Trump Indictment', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
+      { title: 'Cohen Sentencing Memo', url: 'https://www.courtlistener.com/docket/7593912/united-states-v-cohen/', date: '2018' },
+      { title: 'Mueller Report (Trump Tower Moscow)', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+      { title: 'Cohen Book: Disloyal - A Memoir', url: 'https://www.simonandschuster.com/books/Disloyal-A-Memoir/Michael-Cohen/9781510764699', date: '2020' },
+    ],
+    aliases: ['Trump\'s Fixer', 'Personal Attorney', 'Ray Donovan'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Client for 12 years, turned star witness against him', href: '/entities/individuals/donald-trump' },
+      { name: 'Stormy Daniels', relationship: 'Paid $130,000 hush money to silence affair allegations', href: '/entities/individuals/stormy-daniels' },
+      { name: 'Karen McDougal', relationship: 'Facilitated $150,000 AMI catch-and-kill payment', href: '/entities/individuals/karen-mcdougal' },
+      { name: 'David Pecker', relationship: 'AMI CEO, coordinated catch-and-kill scheme', href: '/entities/individuals/david-pecker' },
+      { name: 'Allen Weisselberg', relationship: 'Trump CFO, coordinated reimbursements', href: '/entities/individuals/allen-weisselberg' },
+      { name: 'Keith Davidson', relationship: 'Attorney for Daniels and McDougal', href: '/entities/individuals/keith-davidson' },
+      { name: 'Lanny Davis', relationship: 'Attorney representing Cohen during cooperation', href: '/entities/individuals/lanny-davis' },
+    ],
+  },
+  'mohammed-bin-salman': {
+    name: 'Mohammed bin Salman bin Abdulaziz Al Saud',
+    title: 'Crown Prince of Saudi Arabia',
+    role: 'Saudi Ruler, War Crimes Perpetrator',
+    riskLevel: 'critical',
+    description: 'Mohammed bin Salman (MBS) is the Crown Prince of Saudi Arabia who received a $110 billion arms deal from Trump and later invested $2 billion in Jared Kushner\'s fund. He is implicated in the murder of journalist Jamal Khashoggi and the Yemen genocide.',
+    birthDate: 'August 31, 1985',
+    birthPlace: 'Riyadh, Saudi Arabia',
+    netWorth: '$2+ billion (personal), controls $700B sovereign fund',
+    education: ['Law - King Saud University'],
+    affiliations: [
+      { name: 'Kingdom of Saudi Arabia', role: 'Crown Prince, De Facto Ruler', type: 'agency' },
+      { name: 'Public Investment Fund', role: 'Chairman ($700B fund)', type: 'corporation' },
+    ],
+    controversies: [
+      'Jamal Khashoggi murder ordered by MBS per CIA assessment',
+      'Yemen war causing 400,000+ deaths including 85,000 children',
+      'Trump arms deal providing weapons for Yemen genocide',
+      '$2 billion investment in Kushner fund despite objections',
+      'Purge of rivals at Ritz Carlton',
+      'Human rights abuses against dissidents',
+    ],
+    charges: [
+      { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'Khashoggi Murder - CIA assessment concluded MBS ordered the assassination and dismemberment of journalist Jamal Khashoggi', category: 'International Criminal' },
+      { statute: 'Rome Statute Article 8 (War Crimes)', description: 'Yemen War Crimes - Directing military campaign causing 400,000+ deaths including deliberate targeting of civilians', category: 'International Criminal' },
+      { statute: 'Geneva Convention IV Article 147', description: 'Grave Breaches - Willful killing, torture, extensive destruction not justified by military necessity in Yemen', category: 'International Humanitarian Law' },
+      { statute: 'UN Convention Against Torture', description: 'Systematic Torture - Torture of dissidents including women\'s rights activists detained during crackdowns', category: 'International' },
+      { statute: '18 U.S.C. § 1116', description: 'Murder of Internationally Protected Person - Khashoggi was a US resident journalist murdered in consulate', category: 'US Federal' },
+      { statute: '18 U.S.C. § 2332', description: 'Extraterritorial Murder - Ordering killing of US person outside United States', category: 'US Federal' },
+      { statute: 'Arms Export Control Act', description: 'Weapons Diversion - US weapons provided under $110B deal used for war crimes in Yemen violating end-use agreements', category: 'US Law' },
+      { statute: 'Rome Statute Article 7(1)(h)', description: 'Persecution - Systematic persecution of dissidents, journalists, women\'s rights activists', category: 'International Criminal' },
+      { statute: 'UN Charter Article 2(4)', description: 'Blockade Violations - Naval blockade of Yemen contributing to world\'s worst humanitarian crisis', category: 'International' },
+      { statute: 'ICCPR Articles 6, 7, 9', description: 'Arbitrary Detention - Mass detention and extrajudicial killings of critics including at Ritz Carlton purge', category: 'International' },
+      { statute: 'Global Magnitsky Act', description: 'Human Rights Violations - Multiple US officials called for Magnitsky sanctions for Khashoggi murder', category: 'US Law' },
+    ],
+    relatedInvestigations: [
+      { title: 'War Profiteering: Saudi Arms Deal', slug: 'saudi-arms-deal', severity: 'critical' },
+      { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1985', event: 'Born in Riyadh' },
+      { date: '2017', event: 'Named Crown Prince' },
+      { date: '2017', event: 'Trump announces $110B arms deal' },
+      { date: '2018', event: 'Orders killing of Jamal Khashoggi (October)' },
+      { date: '2022', event: '$2 billion investment in Kushner fund' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'CIA Assessment on Khashoggi', url: 'https://www.dni.gov/', date: '2018' },
+      { title: 'UN Yemen Report', url: 'https://www.ohchr.org/en/hr-bodies/hrc/yemen/index', date: '2020' },
+    ],
+    aliases: ['MBS', 'Mr. Bone Saw'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: '$110B arms deal, Khashoggi cover-up', href: '/entities/individuals/donald-trump' },
+      { name: 'Jared Kushner', relationship: '$2 billion investment after leaving office', href: '/entities/individuals/jared-kushner' },
+    ],
+  },
+  'mark-meadows': {
+    name: 'Mark Meadows',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mark Meadows is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Mark Meadows has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+  'mike-pence': {
+    name: 'Michael Richard Pence',
+    title: '48th Vice President of the United States',
+    role: 'Vice President (2017-2021), January 6 Target',
+    riskLevel: 'medium',
+    description: 'Mike Pence served as Vice President under Donald Trump and became central to the January 6 story when he refused Trump\'s pressure to reject electoral votes and overturn the 2020 election. Rioters at the Capitol chanted"Hang Mike Pence"while Trump tweeted criticism of him. Pence later testified to the grand jury and briefly ran for president in 2024.',
+    birthDate: 'June 7, 1959',
+    birthPlace: 'Columbus, Indiana, USA',
+    netWorth: '$4+ million',
+    education: ['J.D. - Indiana University McKinney School of Law', 'B.A. - Hanover College'],
+    affiliations: [
+      { name: 'United States Government', role: 'Vice President (2017-2021)', type: 'agency' },
+      { name: 'U.S. House of Representatives', role: 'Representative (2001-2013)', type: 'agency' },
+      { name: 'Indiana', role: 'Governor (2013-2017)', type: 'agency' },
+    ],
+    controversies: [
+      'Enabled Trump for 4 years before drawing the line on January 6',
+      'Fled Capitol under Secret Service protection during riot',
+      'Rioters built gallows, chanted"Hang Mike Pence"',
+      'Trump tweeted attack on him while riot ongoing',
+      'Initially resisted testifying, then cooperated with grand jury',
+      'Refused to endorse Trump in 2024',
+      'Presidential campaign failed quickly',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+      { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1959', event: 'Born in Columbus, Indiana' },
+      { date: '2001', event: 'Elected to U.S. House of Representatives' },
+      { date: '2013', event: 'Becomes Governor of Indiana' },
+      { date: '2016', event: 'Selected as Trump\'s running mate' },
+      { date: '2017', event: 'Inaugurated as 48th Vice President' },
+      { date: '2020', event: 'December-January: Receives pressure from Trump, Eastman' },
+      { date: '2021', event: 'January 6: Refuses to reject electoral votes' },
+      { date: '2021', event: 'January 6: Evacuated from Capitol as mob chants threats' },
+      { date: '2021', event: 'January 6: Trump tweets criticism during riot' },
+      { date: '2022', event: 'Cooperates with January 6 Committee' },
+      { date: '2023', event: 'Testifies to Jack Smith grand jury' },
+      { date: '2023', event: 'June: Launches presidential campaign' },
+      { date: '2023', event: 'October: Suspends presidential campaign' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
+      { title: '"So Help Me God"Memoir', url: 'https://www.simonandschuster.com/books/So-Help-Me-God/Mike-Pence/9781982190330', date: '2022' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President, pressured him to overturn election', href: '/entities/individuals/donald-trump' },
+      { name: 'John Eastman', relationship: 'Received fake elector pressure scheme', href: '/entities/individuals/john-eastman' },
+      { name: 'Greg Jacob', relationship: 'Counsel who advised against Eastman scheme' },
+    ],
+  },
+  'melania-trump': {
+    name: 'Melania Trump',
+    title: 'Former First Lady of the United States',
+    role: 'First Lady (2017-2021, 2025-Present)',
+    riskLevel: 'medium',
+    description: 'Melania Trump served as First Lady of the United States from 2017 to 2021. Born Melanija Knavs in Slovenia, she married Donald Trump in 2005. She was notably absent during many of Trump\'s legal proceedings and rarely commented publicly on his controversies, scandals, or criminal indictments.',
+    birthDate: 'April 26, 1970',
+    birthPlace: 'Novo Mesto, Slovenia (then Yugoslavia)',
+    netWorth: '$50+ million',
+    education: ['University of Ljubljana (attended, did not graduate)', 'Secondary School of Design and Photography, Ljubljana'],
+    affiliations: [
+      { name: 'White House', role: 'First Lady (2017-2021, 2025-Present)', type: 'agency' },
+      { name: 'Be Best Initiative', role: 'Founder', type: 'organization' },
+    ],
+    controversies: [
+      '"I Really Don\'t Care, Do U?"jacket while visiting detained migrant children',
+      'EB-1"Einstein Visa"despite no extraordinary ability documentation',
+      'Sponsored parents for citizenship despite Trump\'s anti-chain migration stance',
+      'Plagiarized Michelle Obama speech at 2016 RNC',
+      'Questions about early US immigration work status',
+      'Largely absent from 2024 campaign',
+      'Silent during Trump\'s criminal trials and convictions',
+      'Reportedly has separate financial arrangement from Trump',
+      'Be Best anti-bullying campaign while married to notorious bully',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Family Separation Policy', slug: 'family-separation', severity: 'critical' },
+      { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1970', event: 'Born Melanija Knavs in Slovenia' },
+      { date: '1996', event: 'Meets Donald Trump at Fashion Week party' },
+      { date: '2001', event: 'Obtains EB-1"Einstein Visa"' },
+      { date: '2005', event: 'Marries Donald Trump' },
+      { date: '2006', event: 'Son Barron born; becomes US citizen' },
+      { date: '2016', event: 'July: Plagiarizes Michelle Obama at RNC' },
+      { date: '2017', event: 'January: Becomes First Lady' },
+      { date: '2018', event: 'June: Wears"I Really Don\'t Care"jacket to border' },
+      { date: '2018', event: 'Parents become citizens through chain migration' },
+      { date: '2021', event: 'January: Leaves White House' },
+      { date: '2024', event: 'Largely absent from campaign' },
+      { date: '2025', event: 'Returns as First Lady' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Immigration Records Investigation (AP)', url: 'https://scholar.google.com/scholar?q=Immigration%20Records%20Investigation%20(AP)', date: '2018' },
+      { title: 'EB-1 Visa Analysis', url: 'https://scholar.google.com/scholar?q=EB-1%20Visa%20Analysis', date: '2018' },
+      { title: 'Be Best Initiative Records', url: 'https://web.archive.org/web/2024/https://www.whitehouse.gov/bebest/', date: '2018-2021' },
+    ],
+    aliases: ['Melania Knauss', 'Melanija Knavs'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Husband since 2005', href: '/entities/individuals/donald-trump' },
+      { name: 'Viktor Knavs', relationship: 'Father, became US citizen through chain migration' },
+      { name: 'Amalija Knavs', relationship: 'Mother, became US citizen through chain migration' },
+    ],
+  },
+ 'maria-bartiromo': {
+ name: 'Maria Sara Bartiromo',
+ title: 'Fox Business Host',
+ role: 'Election Disinformation Spreader, Sidney Powell Platform',
+ riskLevel: 'high',
+ description: 'Maria Bartiromo is a Fox Business host who gave extensive airtime to Sidney Powell\'s false election fraud claims. She was the first to air Powell\'s"Dominion switched votes"conspiracy theory. Dominion\'s lawsuit included her specifically for spreading the lies.',
+ birthDate: 'September 11, 1967',
+ birthPlace: 'Brooklyn, New York, USA',
+ education: [
+ 'B.A. - New York University (Journalism)',
+ ],
+ netWorth: '$50+ million',
+ aliases: ['Money Honey'],
+ affiliations: [
+ { name: 'Fox Business', role: 'Host (2013-present)', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Sidney Powell', relationship: 'Gave platform for fraud claims', href: '/entities/individuals/sidney-powell' },
+ { name: 'Donald Trump', relationship: 'Interviewed multiple times, supportive coverage', href: '/entities/individuals/donald-trump' },
+ ],
+ controversies: [
+ 'First to air Sidney Powell\'s Dominion conspiracy',
+ 'Named defendant in Dominion lawsuit',
+ 'Continued spreading claims after being told they were false',
+ 'Texts showed she knew claims were dubious',
+ 'Gave platform for most extreme election lies',
+ 'Called by Trump morning of January 6',
+ ],
+ charges: [
+ { statute: 'Civil Defamation Liability', description: 'Dominion Lawsuit - Specifically named for broadcasting false claims about Dominion voting machines', category: 'Civil' },
+ { statute: 'Civil Defamation Liability', description: 'Smartmatic Lawsuit - Named defendant for broadcasting false claims about voting systems', category: 'Civil' },
+ { statute: '52 U.S.C. § 20511', description: 'Potential Conspiracy to Deprive Rights - Broadcast disinformation designed to undermine election results', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud - Knowingly broadcast false statements after being told claims were false', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction - First-mover in broadcasting claims intended to prevent certification of election', category: 'Potential Federal' },
+ { statute: 'FCC Regulations', description: 'Potential Broadcast Violations - Deliberate broadcasting of demonstrably false statements about election security', category: 'Regulatory' },
+ ],
+ relatedInvestigations: [
+ { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1967', event: 'Born in Brooklyn' },
+ { date: '2013', event: 'Joins Fox Business' },
+ { date: '2020', event: 'November: First to air Powell\'s Dominion claims' },
+ { date: '2021', event: 'Named in Dominion lawsuit' },
+ { date: '2023', event: 'Part of Fox settlement' },
+ ],
+ sources: [
+ { title: 'Dominion Lawsuit Complaint', url: 'https://www.courtlistener.com/', date: '2021' },
+ ],
+ },
+ 'matt-gaetz': {
+ name: 'Matthew Louis Gaetz II',
+ title: 'Former Attorney General Nominee',
+ role: 'Former Congressman, Trump Ally',
+ riskLevel: 'critical',
+ description: 'Matthew Louis Gaetz II is a former Florida congressman investigated by the DOJ for alleged sex trafficking of a 17-year-old. His associate Joel Greenberg pleaded guilty to sex trafficking and cooperated with investigators. Trump nominated him for Attorney General in 2024 but he withdrew amid scandal. Venmo payments and witness testimony were central to the investigation.',
+ birthDate: 'May 7, 1982',
+ birthPlace: 'Hollywood, Florida',
+ education: [
+ 'J.D. - William & Mary Law School (2007)',
+ 'B.S. - Florida State University (2003)',
+ ],
+ netWorth: '$500,000+',
+ aliases: [],
+ affiliations: [
+ { name: 'U.S. House of Representatives', role: 'Member FL-1 (2017-2025)', type: 'agency' },
+ { name: 'Florida House of Representatives', role: 'Member (2010-2016)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'AG nominee, loyal ally', href: '/entities/individuals/donald-trump' },
+ { name: 'Joel Greenberg', relationship: 'Close friend, convicted sex trafficker' },
+ { name: 'Roger Stone', relationship: 'Political ally', href: '/entities/individuals/roger-stone' },
+ ],
+ controversies: [
+ 'DOJ sex trafficking investigation (no charges)',
+ 'House Ethics investigation into sexual misconduct',
+ 'Alleged sex with 17-year-old',
+ 'Allegations of paying for sex',
+ 'Drug use allegations',
+ 'Showed colleagues nude photos of women',
+ 'Joel Greenberg cooperated with investigators',
+ 'AG nomination withdrawn due to scandal',
+ ],
+ charges: [
+ { statute: '18 U.S.C. § 1591', description: 'Potential Sex Trafficking - DOJ investigated allegations of sex with 17-year-old (declined to prosecute)', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 2422(b)', description: 'Potential Coercion and Enticement of Minor - Allegations of paying for sex with 17-year-old', category: 'Potential Federal' },
+ { statute: 'Florida Stat. § 794.05', description: 'Potential Unlawful Sexual Activity with Minor - Alleged sexual contact with 17-year-old', category: 'Potential State' },
+ { statute: '18 U.S.C. § 2252', description: 'Potential Sexual Exploitation - Allegations of showing nude photos of women to colleagues without consent', category: 'Potential Federal' },
+ { statute: '21 U.S.C. § 841', description: 'Potential Drug Distribution - Allegations of providing drugs to women in exchange for sex', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1952', description: 'Potential Interstate Travel for Prostitution - Alleged travel across state lines for sexual activity', category: 'Potential Federal' },
+ { statute: 'House Ethics Rules', description: 'Multiple Violations - Sexual misconduct, drug use, showing explicit images in workplace (House Ethics report suppressed)', category: 'Ethics' },
+ { statute: 'Florida Stat. § 796.07', description: 'Potential Prostitution - Allegations of paying for sex with adult women', category: 'Potential State' },
+ ],
+ relatedInvestigations: [
+ { title: 'Sex Trafficking Investigation', slug: 'gaetz-sex-trafficking', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2017', event: 'Elected to Congress' },
+ { date: '2020', event: 'Joel Greenberg arrested for sex trafficking' },
+ { date: '2021', event: 'DOJ investigation revealed' },
+ { date: '2021', event: 'Greenberg pleads guilty, cooperates' },
+ { date: '2023', event: 'DOJ declines prosecution' },
+ { date: '2024', event: 'November: AG nominee, withdraws' },
+ { date: '2024', event: 'Resigns from Congress' },
+ ],
+ sources: [
+ { title: 'DOJ Investigation Documents', url: 'https://scholar.google.com/scholar?q=DOJ%20Investigation%20Documents', date: '2021-2023' },
+ { title: 'House Ethics Committee', url: 'https://www.congress.gov/', date: '2024' },
+ ],
+ },
+ 'mike-pompeo': {
+ name: 'Michael Richard Pompeo',
+ title: 'Former U.S. Secretary of State & CIA Director',
+ role: 'Secretary of State 2018-2021, CIA Director 2017-2018',
+ riskLevel: 'high',
+ description: 'Mike Pompeo served as CIA Director and then Secretary of State under Trump. He was deeply involved in the Ukraine pressure campaign that led to Trump\'s first impeachment, testified in closed session, and promoted conspiracy theories about Biden. He took taxpayer-funded trips that appeared to be campaigning for potential 2024 presidential run.',
+ birthDate: 'December 30, 1963',
+ birthPlace: 'Orange, California',
+ education: [
+ 'Harvard Law School (J.D.)',
+ 'United States Military Academy at West Point (B.S.)',
+ ],
+ aliases: ['Pompeo'],
+ affiliations: [
+ { name: 'U.S. Department of State', role: 'Secretary (2018-2021)', type: 'agency' },
+ { name: 'CIA', role: 'Director (2017-2018)', type: 'agency' },
+ { name: 'U.S. House of Representatives', role: 'Kansas 4th (2011-2017)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Cabinet member, loyalist', href: '/entities/individuals/donald-trump' },
+ { name: 'Rudy Giuliani', relationship: 'Ukraine pressure campaign', href: '/entities/individuals/rudy-giuliani' },
+ ],
+ controversies: [
+ 'Central role in Ukraine pressure campaign',
+ 'Refused to defend Ambassador Marie Yovanovitch',
+ 'Used taxpayer funds for apparent campaign trips',
+ 'Madison dinners with political donors on government dime',
+ 'Pushed Benghazi conspiracy theories',
+ 'Wife used government resources improperly',
+ 'Blocked State Department witnesses from testifying at impeachment',
+ ],
+ charges: [
+ { statute: '18 U.S.C. § 1505 (Obstruction of Congressional Proceedings)', description: 'Obstruction of Impeachment Investigation - Blocked State Department witnesses from testifying, refused to produce subpoenaed documents', category: 'Obstruction' },
+ { statute: '2 U.S.C. § 192 (Contempt of Congress)', description: 'Defiance of Subpoenas - Refused to comply with House impeachment inquiry subpoenas for documents and testimony', category: 'Contempt' },
+ { statute: '5 U.S.C. § 7323 (Hatch Act)', description: 'Illegal Campaign Activity - OSC found Hatch Act violations for political speech during official foreign travel, RNC speech from Jerusalem', category: 'Campaign Finance' },
+ { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Ukraine Pressure Campaign - Central role in scheme to pressure Ukraine for political investigations, on July 25 call', category: 'Conspiracy' },
+ { statute: '22 U.S.C. § 4028 (Prohibited Personnel Practices)', description: 'Ambassador Removal - Complicit in removal of Ambassador Yovanovitch based on political considerations and corrupt purpose', category: 'Personnel' },
+ { statute: '31 U.S.C. § 1301(a) (Purpose Statute)', description: 'Misuse of Appropriated Funds - Madison Dinners using State Department funds for political donor events', category: 'Federal Spending' },
+ { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office - Used official position and government resources for personal political advancement', category: 'Ethics' },
+ { statute: '5 C.F.R. § 2635.705', description: 'Misuse of Government Resources - Wife used State Department staff for personal errands and holiday card mailing', category: 'Ethics' },
+ ],
+ relatedInvestigations: [
+ { title: 'Ukraine Extortion', slug: 'ukraine-extortion', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2011', event: 'Elected to Congress from Kansas' },
+ { date: '2017', event: 'January: Confirmed as CIA Director' },
+ { date: '2018', event: 'April: Confirmed as Secretary of State' },
+ { date: '2019', event: 'Central role in Ukraine scandal' },
+ { date: '2021', event: 'January: Leaves office' },
+ ],
+ sources: [
+ { title: 'House Impeachment Investigation', url: 'https://scholar.google.com/scholar?q=House%20Impeachment%20Investigation', date: '2019' },
+ ],
+ },
+ 'marie-yovanovitch': {
+ name: 'Marie Louise Yovanovitch',
+ title: 'Former US Ambassador to Ukraine',
+ role: 'Career Diplomat, Key Impeachment Witness',
+ riskLevel: 'low',
+ description: 'Marie Yovanovitch is a former U.S. diplomat who served as Ambassador to Ukraine from 2016 until her abrupt removal in 2019. She was targeted by Rudy Giuliani and his associates in a smear campaign, then recalled by Trump. Her congressional testimony during the first impeachment inquiry was considered powerful and damning.',
+ birthDate: 'November 11, 1958',
+ birthPlace: 'Montreal, Canada',
+ education: [
+ 'Princeton University (B.A. History and Russian Studies)',
+ 'National War College',
+ ],
+ aliases: ['Masha'],
+ affiliations: [
+ { name: 'State Department', role: 'Career Foreign Service Officer', type: 'agency' },
+ { name: 'Georgetown University', role: 'Senior Fellow', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Rudy Giuliani', relationship: 'Targeted by his smear campaign', href: '/entities/individuals/rudy-giuliani' },
+ { name: 'Lev Parnas', relationship: 'Involved in plot against her', href: '/entities/individuals/lev-parnas' },
+ { name: 'Igor Fruman', relationship: 'Involved in plot against her', href: '/entities/individuals/igor-fruman' },
+ { name: 'Fiona Hill', relationship: 'Fellow witness, colleague', href: '/entities/individuals/fiona-hill' },
+ { name: 'Bill Taylor', relationship: 'Successor in Ukraine', href: '/entities/individuals/bill-taylor' },
+ { name: 'George Kent', relationship: 'State Dept colleague', href: '/entities/individuals/george-kent' },
+ ],
+ controversies: [
+ 'Abruptly recalled from Ukraine by Trump',
+ 'Targeted by Giuliani smear campaign',
+ 'Trump called her"bad news"on Zelensky call',
+ 'Received threats prompting security concerns',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Ukraine Extortion', slug: 'ukraine-extortion', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2016', event: 'Appointed Ambassador to Ukraine' },
+ { date: '2018', event: 'Giuliani begins campaign against her' },
+ { date: '2019', event: 'April: Recalled from Ukraine' },
+ { date: '2019', event: 'July 25: Trump disparages her on Zelensky call' },
+ { date: '2019', event: 'November 15: Testifies in impeachment inquiry' },
+ { date: '2020', event: 'January: Retires from Foreign Service' },
+ ],
+ sources: [
+ { title: 'Impeachment Testimony', url: 'https://scholar.google.com/scholar?q=Impeachment%20Testimony', date: '2019' },
+ { title: 'Lessons from the Edge (memoir)', url: 'https://www.goodreads.com/', date: '2022' },
+ ],
+ },
+ 'maria-butina': {
+ name: 'Maria Valeryevna Butina',
+ title: 'Convicted Russian Agent',
+ role: 'Russian Spy Who Infiltrated NRA and GOP',
+ riskLevel: 'critical',
+ description: 'Maria Butina is a Russian national who pleaded guilty to conspiracy to act as an unregistered foreign agent. She infiltrated the NRA and Republican political circles to advance Russian interests. She worked with Russian official Alexander Torshin and American Paul Erickson.',
+ birthDate: 'November 10, 1988',
+ birthPlace: 'Barnaul, Russia',
+ education: [
+ 'American University (M.A. International Relations)',
+ 'Altai State University',
+ ],
+ aliases: [],
+ affiliations: [
+ { name: 'Right to Bear Arms (Russia)', role: 'Founder', type: 'organization' },
+ { name: 'NRA', role: 'Infiltrated', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Alexander Torshin', relationship: 'Russian handler/supervisor', href: '/entities/individuals/alexander-torshin' },
+ { name: 'Paul Erickson', relationship: 'American boyfriend, convicted felon', href: '/entities/individuals/paul-erickson' },
+ { name: 'Wayne LaPierre', relationship: 'NRA CEO she targeted', href: '/entities/individuals/wayne-lapierre' },
+ ],
+ controversies: [
+ 'Pleaded guilty to acting as Russian agent',
+ 'Infiltrated NRA and Republican circles',
+ 'Built relationships with GOP officials',
+ 'Channeled Russian money through NRA (alleged)',
+ 'Deported to Russia, now a lawmaker there',
+ ],
+ charges: [
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy to act as unregistered foreign agent', category: 'Espionage' },
+ ],
+ relatedInvestigations: [
+ { title: 'NRA Russia Investigation', slug: 'nra-russia', severity: 'critical' },
+ { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2015', event: 'Asks Trump question at event' },
+ { date: '2016', event: 'Attends NRA convention, GOP events' },
+ { date: '2016', event: 'Builds relationships with Republicans' },
+ { date: '2018', event: 'July: Arrested' },
+ { date: '2018', event: 'December: Pleads guilty' },
+ { date: '2019', event: 'April: Sentenced to 18 months' },
+ { date: '2019', event: 'October: Deported to Russia' },
+ { date: '2021', event: 'Elected to Russian parliament' },
+ ],
+ sources: [
+ { title: 'DOJ Press Release', url: 'https://www.justice.gov/news', date: '2018' },
+ { title: 'Plea Agreement', url: 'https://www.justice.gov/', date: '2018' },
+ ],
+ },
+ 'merrick-garland': {
+ name: 'Merrick Garland',
+ title: 'Attorney General of the United States',
+ role: 'DOJ Leadership',
+ riskLevel: 'low' as const,
+ description: 'Current Attorney General overseeing the Justice Department\'s investigations into Donald Trump. Garland appointed Special Counsel Jack Smith to handle the January 6 and classified documents cases. Previously denied Supreme Court seat when Mitch McConnell refused to hold hearings on his 2016 nomination. Known for cautious, methodical approach that drew criticism from those wanting faster Trump prosecution.',
+ education: [
+ 'Law Degree',
+ ],
+ affiliations: [
+ { name: 'Department of Justice', role: 'Attorney General', type: 'agency' },
+ { name: 'D.C. Circuit Court', role: 'Former Chief Judge', type: 'agency' },
+ ],
+ controversies: [
+ 'Appointed Special Counsel Jack Smith in November 2022',
+ 'Oversees all federal Trump investigations',
+ 'Denied Supreme Court seat by McConnell in 2016',
+ 'Former Chief Judge of D.C. Circuit',
+ 'Led Oklahoma City bombing prosecution',
+ 'Criticized for slow pace of January 6 accountability',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ { title: 'Mar-a-Lago Documents', slug: 'mar-a-lago-documents', severity: 'critical' },
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 2021', event: 'Confirmed as Attorney General' },
+ { date: 'August 2022', event: 'Authorizes Mar-a-Lago search' },
+ { date: 'November 2022', event: 'Appoints Jack Smith as Special Counsel' },
+ { date: '2023', event: 'Trump indicted on multiple charges' },
+ ],
+ sources: [
+ { title: 'DOJ Profile', url: 'https://scholar.google.com/scholar?q=DOJ%20Profile', date: '2021' },
+ { title: 'Congressional Testimony', url: 'https://www.congress.gov/', date: '2023' },
+ ],
+ knownAssociates: [
+ { name: 'Jack Smith', relationship: 'Appointed Smith as Special Counsel for Trump investigations', href: '/entities/individuals/jack-smith' },
+ { name: 'Joe Biden', relationship: 'Nominated as Attorney General by Biden in 2021', href: '/entities/individuals/joe-biden' },
+ { name: 'Lisa Monaco', relationship: 'Deputy Attorney General under Garland', href: '/entities/individuals/lisa-monaco' }
+ ],
+
+ },
+ 'michael-avenatti': {
+ name: 'Michael Avenatti',
+ title: 'Former Attorney',
+ role: 'Stormy Daniels Attorney',
+ riskLevel: 'high' as const,
+ description: 'Celebrity attorney who represented Stormy Daniels in her case against Donald Trump and Michael Cohen. Avenatti became a prominent Trump critic and media figure before his own legal troubles emerged. He was convicted of extorting Nike, defrauding clients including Daniels, and stealing settlement funds. Currently serving lengthy prison sentences for multiple fraud convictions.',
+ education: [
+ 'Law Degree',
+ ],
+ affiliations: [
+ { name: 'Eagan Avenatti LLP', role: 'Partner (Former)', type: 'corporation' },
+ ],
+
+ knownAssociates: [
+ { name: 'Stormy Daniels', relationship: 'Attorney who represented Daniels in lawsuits against Trump over hush money agreement; later convicted of stealing from her', href: '/entities/individuals/stormy-daniels' },
+ { name: 'Michael Cohen', relationship: 'Adversary and counterpart in hush money saga; cross-examined Cohen\'s role in Stormy Daniels payment', href: '/entities/individuals/michael-cohen' },
+ { name: 'Donald Trump', relationship: 'Became prominent Trump antagonist through Stormy Daniels representation; briefly considered 2020 presidential run', href: '/entities/individuals/donald-trump' },
+ ],
+ controversies: [
+ 'Represented Stormy Daniels against Trump/Cohen',
+ 'Convicted of extorting Nike for $25 million',
+ 'Convicted of stealing from Stormy Daniels',
+ 'Convicted of defrauding multiple clients',
+ 'Briefly considered 2020 presidential run',
+ 'Currently serving 19+ years in federal prison',
+ ],
+ charges: [
+ { statute: 'Extortion', description: 'Attempted extortion of Nike', category: 'Extortion' },
+ { statute: 'Wire Fraud', description: 'Defrauding Stormy Daniels of book proceeds', category: 'Financial Crime' },
+ { statute: 'Aggravated Identity Theft', description: 'Client fund theft', category: 'Fraud' },
+ ],
+ relatedInvestigations: [
+ { title: 'Hush Money Payments', slug: 'stormy-daniels-hush-money', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'February 2018', event: 'Begins representing Stormy Daniels' },
+ { date: '2018', event: 'Becomes prominent Trump critic on cable news' },
+ { date: 'March 2019', event: 'Arrested for Nike extortion' },
+ { date: '2020', event: 'Convicted of extortion and client fraud' },
+ { date: '2022', event: 'Convicted of stealing from Stormy Daniels' },
+ ],
+ sources: [
+ { title: 'DOJ Press Releases', url: 'https://scholar.google.com/scholar?q=DOJ%20Press%20Releases', date: '2020-2022' },
+ { title: 'Court Documents', url: 'https://scholar.google.com/scholar?q=Court%20Documents', date: '2022' },
+ ],
+ },
+ 'mitch-mcconnell': {
+ name: 'Mitch McConnell',
+ title: 'U.S. Senator (R-KY)',
+ role: 'Senate Republican Leader',
+ riskLevel: 'medium' as const,
+ description: 'Long-serving Senate Republican leader who blocked Merrick Garland\'s Supreme Court nomination and enabled confirmation of three Trump justices. After January 6, McConnell stated Trump was"practically and morally responsible"for the attack but voted to acquit in impeachment. He represents the establishment GOP response to Trump - private condemnation combined with public enabling.',
+ education: [
+ 'Massachusetts Institute of Technology',
+ ],
+ affiliations: [
+ { name: 'U.S. Senate', role: 'Minority Leader/Former Majority Leader', type: 'agency' },
+ { name: 'Republican Party', role: 'Senior Leader', type: 'organization' },
+ ],
+
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Senate leader who enabled Trump agenda while privately condemning January 6; said Trump was"practically and morally responsible"then voted to acquit', href: '/entities/individuals/donald-trump' },
+ { name: 'Elaine Chao', relationship: 'Wife who served as Trump\'s Secretary of Transportation; resigned after January 6 Capitol attack', href: '/entities/individuals/elaine-chao' },
+ { name: 'Chuck Schumer', relationship: 'Senate counterpart and Democratic leader; decades-long institutional rivalry over Senate control', href: '/entities/individuals/chuck-schumer' },
+ { name: 'Kevin McCarthy', relationship: 'House Republican counterpart who coordinated GOP legislative strategy during Trump era', href: '/entities/individuals/kevin-mccarthy' },
+ { name: 'Merrick Garland', relationship: 'Blocked his Supreme Court nomination for 293 days in 2016, refusing to hold hearings', href: '/entities/individuals/merrick-garland' },
+ ],
+ controversies: [
+ 'Blocked Garland Supreme Court nomination in 2016',
+ 'Enabled three Trump Supreme Court confirmations',
+ 'Called Trump"practically and morally responsible"for Jan 6',
+ 'Voted to acquit Trump in second impeachment',
+ 'Longest-serving Senate party leader in history',
+ 'Wife Elaine Chao served in Trump cabinet',
+ ],
+ charges: [
+ { statute: 'U.S. Constitution, Article II, Section 2', description: 'Constitutional Violation - Refused to hold hearing on Merrick Garland nomination, denying constitutional advice and consent duty', category: 'Constitutional' },
+ { statute: 'Senate Ethics Rules', description: 'Multiple Violations - Dereliction of constitutional duty, enabling authoritarian conduct while acknowledging Trump guilt', category: 'Ethics' },
+ { statute: '18 U.S.C. § 4 (Misprision of Felony)', description: 'Potential Violation - Acknowledged Trump was"practically and morally responsible"for January 6 crimes but voted to acquit and block accountability', category: 'Potential Federal' },
+ { statute: '5 U.S.C. app. §§ 101-111 (Ethics in Government Act)', description: 'Potential Conflicts - Wife served in Trump cabinet while McConnell controlled Senate Trump agenda', category: 'Potential Ethics' },
+ { statute: '18 U.S.C. § 3', description: 'Potential Accessory After the Fact - Protected Trump from conviction despite acknowledging his guilt in inciting insurrection', category: 'Potential Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'February 2016', event: 'Blocks Garland Supreme Court hearings' },
+ { date: '2017-2020', event: 'Confirms Gorsuch, Kavanaugh, Barrett' },
+ { date: 'January 6, 2021', event: 'Certifies Biden victory after attack' },
+ { date: 'January 2021', event: 'Says Trump"provoked"January 6 mob' },
+ { date: 'February 2021', event: 'Votes to acquit Trump on impeachment' },
+ ],
+ sources: [
+ { title: 'Senate Floor Speech', url: 'https://scholar.google.com/scholar?q=Senate%20Floor%20Speech', date: 'January 2021' },
+ { title: 'Impeachment Vote Record', url: 'https://scholar.google.com/scholar?q=Impeachment%20Vote%20Record', date: '2021' },
+ ],
+ },
+ 'mick-mulvaney': {
+ name: 'John Michael Mulvaney',
+ title: 'Former Acting White House Chief of Staff',
+ role: 'Trump Administration Official',
+ riskLevel: 'medium' as const,
+ aliases: ['Mick Mulvaney'],
+ description: 'Served as Acting White House Chief of Staff from January 2019 to March 2020, also serving as OMB Director. Famously admitted quid pro quo in Ukraine scandal at press briefing telling reporters to"get over it."Resigned as Special Envoy to Northern Ireland after January 6.',
+ birthDate: 'July 21, 1967',
+ birthPlace: 'Alexandria, Virginia',
+ education: [
+ 'J.D. - University of North Carolina',
+ 'B.A. - Georgetown University',
+ 'MBA Coursework - University of North Carolina',
+ ],
+ affiliations: [
+ { name: 'Trump White House', role: 'Acting Chief of Staff (2019-2020)', type: 'agency' },
+ { name: 'Office of Management and Budget', role: 'Director (2017-2020)', type: 'agency' },
+ { name: 'U.S. House of Representatives', role: 'Congressman, SC (2011-2017)', type: 'agency' },
+ ],
+
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Served as Acting White House Chief of Staff (2019-2020); publicly admitted Ukraine quid pro quo then tried to walk it back', href: '/entities/individuals/donald-trump' },
+ { name: 'Mark Meadows', relationship: 'Replaced by Meadows as Chief of Staff; both were former Freedom Caucus members in Congress', href: '/entities/individuals/mark-meadows' },
+ { name: 'John Bolton', relationship: 'Overlapped as senior Trump officials; Bolton\'s book detailed conflicts with Mulvaney over Ukraine policy', href: '/entities/individuals/john-bolton' },
+ { name: 'Mike Pence', relationship: 'Coordinated with Vice President on legislative strategy during acting Chief of Staff tenure', href: '/entities/individuals/mike-pence' },
+ ],
+ controversies: [
+ '"Get over it"admission of Ukraine quid pro quo',
+ 'Withheld Ukraine military aid',
+ 'Refused to comply with impeachment subpoena',
+ 'Oversaw government shutdown standoffs',
+ 'Resigned after January 6',
+ 'Now critical of Trump',
+ ],
+ charges: [
+ { statute: '2 U.S.C. § 192 (Contempt of Congress)', description: 'Defied Subpoena - Refused to comply with House impeachment inquiry subpoena', category: 'Federal' },
+ { statute: '18 U.S.C. § 610 (Coercion of Political Activity)', description: 'Ukraine Extortion - Admitted on camera that military aid was conditioned on political investigations ("Get over it")', category: 'Federal' },
+ { statute: '2 U.S.C. § 684 (Impoundment Control Act)', description: 'Unlawful Impoundment - GAO found OMB under his direction illegally withheld Ukraine military aid', category: 'Federal' },
+ { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Potential Conspiracy - Participated in scheme to extort Ukraine for political benefit', category: 'Potential Federal' },
+ { statute: '52 U.S.C. § 30121 (Foreign Contributions)', description: 'Potential Foreign Election Interference - Scheme to obtain foreign investigation as campaign contribution', category: 'Potential Election' },
+ { statute: '18 U.S.C. § 201 (Bribery)', description: 'Potential Bribery - Official acts (military aid) conditioned on thing of value (Biden investigation)', category: 'Potential Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'Ukraine Extortion', slug: 'ukraine-extortion', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'February 2017', event: 'Confirmed as OMB Director' },
+ { date: 'January 2019', event: 'Becomes Acting Chief of Staff' },
+ { date: 'October 2019', event: '"Get over it"press conference' },
+ { date: 'March 2020', event: 'Replaced by Mark Meadows' },
+ { date: 'January 7, 2021', event: 'Resigns as Special Envoy after January 6' },
+ ],
+ sources: [
+ { title: 'First Impeachment Inquiry Records', url: 'https://www.irs.gov/', date: '2019' },
+ { title: 'OMB Records', url: 'https://scholar.google.com/scholar?q=OMB%20Records', date: '2017-2020' },
+ ],
+ },
+ 'mary-trump': {
+ name: 'Mary Lea Trump',
+ title: 'Author & Psychologist',
+ role: 'Trump Family Critic',
+ riskLevel: 'low' as const,
+ description: 'Donald Trump\'s niece and author of bestselling exposé"Too Much and Never Enough: How My Family Created the World\'s Most Dangerous Man."Clinical psychologist who provided Trump family tax documents to New York Times, revealing tax fraud. Currently hosts podcast and continues to publicly criticize her uncle.',
+ birthDate: 'May 3, 1965',
+ birthPlace: 'New York, New York',
+ education: [
+ 'Ph.D. Clinical Psychology - Adelphi University',
+ 'M.A. - Columbia University',
+ 'B.A. - Tufts University',
+ ],
+ affiliations: [
+ { name: 'Trump Family', role: 'Niece (daughter of Fred Trump Jr.)', type: 'organization' },
+ ],
+ controversies: [
+ 'Published"Too Much and Never Enough"exposé',
+ 'Provided tax documents to New York Times',
+ 'Revealed Trump family dysfunction',
+ 'Described Donald as"narcissist"',
+ 'Ongoing lawsuits with Trump Organization',
+ 'Banned from speaking about family (lawsuit)',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Tax Evasion & Fraud', slug: 'tax-evasion', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1981', event: 'Father Fred Trump Jr. dies' },
+ { date: '1999', event: 'Family inheritance dispute' },
+ { date: 'July 2020', event: 'Publishes"Too Much and Never Enough"' },
+ { date: '2020', event: 'Revealed as source for NYT tax investigation' },
+ { date: '2021', event: 'Sues Trump for fraud in inheritance' },
+ ],
+ sources: [
+ { title: 'Too Much and Never Enough - Book', url: 'https://scholar.google.com/scholar?q=Too%20Much%20and%20Never%20Enough%20-%20Book', date: '2020' },
+ { title: 'New York Times Tax Investigation', url: 'https://www.nytimes.com/', date: '2018' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Niece who authored exposé"Too Much and Never Enough"', href: '/entities/individuals/donald-trump' },
+ { name: 'Maryanne Trump Barry', relationship: 'Aunt - retired federal judge', href: '/entities/individuals/maryanne-trump-barry' },
+ { name: 'Fred Trump', relationship: 'Father - nephew of Donald Trump\'s father', href: '/entities/individuals/fred-trump' }
+ ],
+
+ },
+ 'maryanne-trump-barry': {
+ name: 'Maryanne Trump Barry',
+ title: 'Retired Federal Judge',
+ role: 'Trump Sister',
+ riskLevel: 'medium' as const,
+ description: 'Donald Trump\'s older sister who served as federal judge from 1983 to 2019. Retired amid judicial ethics investigation into family tax schemes revealed by New York Times. Secret recordings by niece Mary Trump revealed her calling Donald"cruel"with"no principles"who"doesn\'t read."Died in November 2023.',
+ birthDate: 'April 5, 1937',
+ birthPlace: 'Queens, New York City',
+ education: [
+ 'LL.M. - University of Virginia School of Law',
+ 'J.D. - Hofstra Law School',
+ 'B.A. - Mount Holyoke College',
+ ],
+ affiliations: [
+ { name: 'U.S. Court of Appeals, Third Circuit', role: 'Senior Judge (1999-2019)', type: 'agency' },
+ { name: 'Trump Family', role: 'Eldest Sibling', type: 'organization' },
+ ],
+ controversies: [
+ 'Retired amid ethics investigation into tax schemes',
+ 'Benefited from fraudulent tax valuations',
+ 'Secret recordings revealed criticism of Donald',
+ 'Called Donald"cruel"with"no principles"',
+ 'Said Donald"doesn\'t read"',
+ 'Ethics case closed upon retirement',
+ ],
+ charges: [
+ { statute: 'N.Y. Tax Law § 1801 (Tax Fraud)', description: 'Tax Fraud Scheme - Benefited from fraudulent property valuations that shifted wealth from parents while evading gift/estate taxes', category: 'Potential State Tax' },
+ { statute: '26 U.S.C. § 7201 (Federal Tax Evasion)', description: 'Federal Tax Evasion - Participated in family scheme to undervalue properties and avoid federal taxes', category: 'Potential Federal' },
+ { statute: '28 U.S.C. § 455 (Disqualification)', description: 'Judicial Ethics Violations - Failed to recuse from matters potentially affected by family financial interests', category: 'Judicial Ethics' },
+ { statute: 'Code of Conduct for U.S. Judges Canon 2', description: 'Appearance of Impropriety - Participated in family financial schemes while serving as federal judge', category: 'Judicial Ethics' },
+ { statute: 'Judicial Conduct Rules', description: 'Ethics Investigation - Retired to avoid judicial conduct investigation into tax scheme participation', category: 'Judicial' },
+ { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Potential False Financial Disclosures - Failed to accurately report income from family tax schemes on judicial disclosure forms', category: 'Potential Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'Tax Evasion & Fraud', slug: 'tax-evasion', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1983', event: 'Appointed federal judge by Reagan' },
+ { date: '1999', event: 'Elevated to Third Circuit by Clinton' },
+ { date: '2018', event: 'NYT reveals family tax schemes' },
+ { date: '2019', event: 'Retires amid ethics investigation' },
+ { date: '2020', event: 'Secret recordings released' },
+ { date: 'November 2023', event: 'Dies at age 86' },
+ ],
+ sources: [
+ { title: 'New York Times Tax Investigation', url: 'https://www.nytimes.com/', date: '2018' },
+ { title: 'Judicial Ethics Investigation Records', url: 'https://scholar.google.com/scholar?q=Judicial%20Ethics%20Investigation%20Records', date: '2019' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Sister - retired federal judge who criticized Trump privately', href: '/entities/individuals/donald-trump' },
+ { name: 'Mary Trump', relationship: 'Niece who recorded Barry\'s criticism of Donald', href: '/entities/individuals/mary-trump' },
+ { name: 'Fred Trump', relationship: 'Father - patriarch of Trump family', href: '/entities/individuals/fred-trump' }
+ ],
+
+ },
+ 'mike-lindell': {
+ name: 'Michael James Lindell',
+ title: 'MyPillow CEO, Election Fraud Promoter',
+ role: 'Election Conspiracy Promoter, Defamation Defendant, Deplatformed Disinformation Spreader',
+ riskLevel: 'critical' as const,
+ description: 'Michael Lindell, CEO of MyPillow, transformed from pillow salesman to one of the most dangerous election conspiracy promoters in American history. He spent over $50 MILLION of his own money spreading demonstrably false claims about the 2020 election, produced multiple debunked documentaries, and became a central figure in the"Stop the Steal"movement. His relentless promotion of lies about Dominion Voting Systems resulted in a $1.3 BILLION defamation lawsuit. His"Prove Mike Wrong"challenge backfired when a software expert WON $5 MILLION by disproving his claims. He lost millions more as retailers dropped MyPillow, his company filed for bankruptcy protection, and his phone was seized by the FBI. He was seen at the White House with notes about invoking martial law. His actions contributed to the delegitimization of democratic elections and endangered election workers nationwide.',
+ birthDate: 'June 28, 1961',
+ birthPlace: 'Mankato, Minnesota',
+ education: [
+ 'University of Minnesota (dropped out)',
+ ],
+ netWorth: '$50+ million (declining due to legal costs and bankruptcy)',
+ aliases: ['The MyPillow Guy', 'Mike'],
+ affiliations: [
+ { name: 'MyPillow Inc.', role: 'CEO & Founder', type: 'corporation' },
+ { name: 'Lindell TV', role: 'Founder (streaming platform for disinformation)', type: 'corporation' },
+ { name: 'Frank Speech', role: 'Founder (social media for disinformation)', type: 'organization' },
+ { name: 'Lindell Management LLC', role: 'Owner', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Close ally; White House meetings; martial law notes', href: '/entities/individuals/donald-trump' },
+ { name: 'Sidney Powell', relationship: 'Election conspiracy ally; shared platforms', href: '/entities/individuals/sidney-powell' },
+ { name: 'Rudy Giuliani', relationship: 'Election conspiracy ally; joint events', href: '/entities/individuals/rudy-giuliani' },
+ { name: 'Michael Flynn', relationship: 'ReAwaken America tour partner', href: '/entities/individuals/michael-flynn' },
+ { name: 'Steve Bannon', relationship: 'Election lie promoter; shared platforms', href: '/entities/individuals/steve-bannon' },
+ { name: 'Patrick Byrne', relationship: 'Fellow election conspiracy funder', href: '/entities/individuals/patrick-byrne' },
+ ],
+ controversies: [
+ 'DOMINION DEFAMATION - $1.3 BILLION LAWSUIT',
+ 'Repeatedly and falsely accused Dominion of rigging election',
+ 'Called their machines"the biggest crime in history"',
+ 'Claimed without evidence 80 million votes were switched',
+ 'Dominion lawsuit alleges 3,000+ false statements',
+ 'PROVE MIKE WRONG CHALLENGE - LOST $5 MILLION',
+ 'Offered $5 million to anyone who could disprove his data',
+ 'Software expert Robert Zeidman proved data was fabricated',
+ 'Arbitration panel ruled Lindell must pay $5 million (April 2024)',
+ 'His own challenge exposed his lies as fraudulent',
+ 'DEBUNKED DOCUMENTARIES',
+ '"Absolute Proof"(Feb 2021) - completely debunked',
+ '"Scientific Proof"(Mar 2021) - discredited by experts',
+ '"Absolutely 9-0"(Aug 2021) - rejected by courts',
+ 'Claimed to have evidence for Supreme Court - never materialized',
+ 'FBI PHONE SEIZURE',
+ 'September 2022: Phone seized by FBI at Hardee\'s drive-through',
+ 'Under investigation for election-related crimes in Colorado',
+ 'Subpoenaed by January 6 Committee',
+ 'WHITE HOUSE MARTIAL LAW NOTES',
+ 'January 15, 2021: Photographed at White House with visible notes',
+ 'Notes mentioned"martial law if necessary"and"Insurrection Act"',
+ 'Advocated for military intervention to overturn election',
+ 'MYPILLOW COLLAPSE',
+ 'Dropped by Walmart, Bed Bath & Beyond, Kohl\'s, other retailers',
+ 'Company filed for bankruptcy protection',
+ 'Spent $50+ million of company funds on election lies',
+ 'DANGER TO DEMOCRACY',
+ 'Contributed to nationwide distrust of elections',
+ 'Endangered lives of election workers',
+ 'Funded and organized"Stop the Steal"events',
+ ],
+ charges: [
+ { statute: 'Civil Defamation', description: 'Dominion Voting Systems lawsuit - $1.3 billion pending', category: 'Civil' },
+ { statute: 'Civil - Contract Breach', description: 'Lost $5 million"Prove Mike Wrong"arbitration', category: 'Civil' },
+ { statute: '18 U.S.C. § 1030', description: 'Computer Fraud - under investigation (Colorado election data)', category: 'Potential' },
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud the United States', category: 'Potential' },
+ { statute: '52 U.S.C. § 20511', description: 'Conspiracy Against Rights - voter intimidation through disinformation', category: 'Potential' },
+ { statute: '18 U.S.C. § 1343', description: 'Wire Fraud - soliciting donations based on false election claims', category: 'Potential' },
+ { statute: '18 U.S.C. § 1512(c)', description: 'Obstruction of Official Proceeding - Stop the Steal involvement', category: 'Potential' },
+ { statute: 'C.R.S. § 18-8-904', description: 'Colorado Criminal Impersonation (election investigation)', category: 'State' },
+ ],
+ relatedInvestigations: [
+ { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+ { title: 'Stop the Steal Network', slug: 'stop-the-steal', severity: 'critical' },
+ { title: 'Colorado Election Data Breach', slug: 'colorado-election-breach', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'June 28, 1961', event: 'Born in Mankato, Minnesota' },
+ { date: '2004', event: 'Founds MyPillow after years of addiction' },
+ { date: 'November 2020', event: 'Begins promoting election fraud conspiracy theories' },
+ { date: 'December 2020', event: 'Meets repeatedly at White House pushing election lies' },
+ { date: 'January 15, 2021', event: 'Photographed at White House with"martial law"notes' },
+ { date: 'February 5, 2021', event: 'Releases"Absolute Proof"documentary - immediately debunked' },
+ { date: 'February 22, 2021', event: 'Sued by Dominion Voting Systems for $1.3 BILLION' },
+ { date: 'March 2021', event: 'Releases additional debunked documentaries' },
+ { date: 'August 2021', event: 'Hosts"Cyber Symposium"- fails to produce promised evidence' },
+ { date: 'September 13, 2022', event: 'FBI seizes phone at Hardee\'s drive-through' },
+ { date: 'April 2024', event: 'Arbitration panel orders $5 million payment for"Prove Mike Wrong"challenge' },
+ { date: '2024', event: 'MyPillow files for bankruptcy protection' },
+ { date: '2024', event: 'Dropped by major retailers nationwide' },
+ ],
+ sources: [
+ { title: 'Dominion Voting Systems v. Lindell Complaint', url: 'https://www.courtlistener.com/docket/59447587/us-dominion-inc-v-mypillow-inc/', date: '2021' },
+ { title: 'Prove Mike Wrong Arbitration Ruling', url: 'https://scholar.google.com/scholar?q=Prove%20Mike%20Wrong%20Arbitration%20Ruling', date: '2024' },
+ { title: 'FBI Phone Seizure Court Documents', url: 'https://scholar.google.com/scholar?q=FBI%20Phone%20Seizure%20Court%20Documents', date: '2022' },
+ { title: 'January 6 Committee Subpoena', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Subpoena', date: '2022' },
+ { title: 'White House Visitor Logs and Photographs', url: 'https://scholar.google.com/scholar?q=White%20House%20Visitor%20Logs%20and%20Photographs', date: '2021' },
+ ],
+ },
+ 'matthew-calamari': {
+ name: 'Matthew Calamari',
+ title: 'Trump Organization COO',
+ role: 'Trump Org Executive',
+ riskLevel: 'medium' as const,
+ description: 'Chief Operating Officer of the Trump Organization who rose from security guard to top executive. Former bodyguard who Trump personally elevated. Implicated in tax fraud investigation alongside Allen Weisselberg for receiving off-the-books compensation including free apartments and cars. His son Matthew Calamari Jr. also works for Trump Org.',
+ birthDate: '1958',
+ birthPlace: 'New York',
+ education: [],
+ affiliations: [
+ { name: 'Trump Organization', role: 'Chief Operating Officer', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Employer, personally elevated him', href: '/entities/individuals/donald-trump' },
+ { name: 'Allen Weisselberg', relationship: 'Fellow executive, co-beneficiary of tax scheme', href: '/entities/individuals/allen-weisselberg' },
+ ],
+ controversies: [
+ 'Received free apartment in Trump building',
+ 'Received free car as compensation',
+ 'Off-the-books benefits as part of tax scheme',
+ 'Implicated in NY criminal investigation',
+ 'Rose from security guard to COO',
+ ],
+ charges: [
+ { statute: 'N.Y. Tax Law § 1801 (Tax Fraud)', description: 'Tax Fraud Scheme - Received unreported compensation including free apartment and car as part of Trump Org tax evasion', category: 'Tax Fraud' },
+ { statute: '26 U.S.C. § 7201 (Federal Tax Evasion)', description: 'Federal Tax Evasion - Participated in scheme to avoid federal taxes on off-the-books compensation', category: 'Tax Evasion' },
+ { statute: '26 U.S.C. § 7206 (False Returns)', description: 'False Tax Returns - Failed to report substantial in-kind compensation as required', category: 'Tax Fraud' },
+ { statute: 'N.Y. Penal Law § 105.15 (Conspiracy)', description: 'Conspiracy - Participated in organized scheme with Trump Org executives to evade taxes', category: 'Conspiracy' },
+ { statute: 'N.Y. Penal Law § 175.10 (Falsifying Records)', description: 'Falsifying Business Records - Compensation disguised as business expenses in corporate records', category: 'Fraud' },
+ { statute: '18 U.S.C. § 1956 (Money Laundering)', description: 'Money Laundering Concerns - Off-the-books compensation may constitute concealment of illegally derived funds', category: 'Money Laundering' },
+ ],
+ relatedInvestigations: [
+ { title: 'Trump Organization Fraud', slug: 'trump-org-fraud', severity: 'critical' },
+ { title: 'Tax Evasion & Fraud', slug: 'tax-evasion', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1981', event: 'Hired as security guard at US Open' },
+ { date: '1980s', event: 'Becomes Trump\'s personal bodyguard' },
+ { date: '2000s', event: 'Elevated to executive roles' },
+ { date: '2021', event: 'Implicated in tax fraud investigation' },
+ ],
+ sources: [
+ { title: 'NY AG Investigation Documents', url: 'https://ag.ny.gov/', date: '2021' },
+ { title: 'Trump Org Tax Case Records', url: 'https://scholar.google.com/scholar?q=Trump%20Org%20Tax%20Case%20Records', date: '2022' },
+ ],
+ },
+ 'marla-maples': {
+ name: 'Marla Ann Maples',
+ title: 'Actress & Television Personality',
+ role: 'Trump Second Wife',
+ riskLevel: 'low' as const,
+ description: 'Donald Trump\'s second wife (1993-1999) and mother of Tiffany Trump. Their affair during Trump\'s marriage to Ivana Trump was a major tabloid scandal in the early 1990s. Famous for alleged"Best Sex I Ever Had"NY Post headline (which she claims was fabricated).',
+ birthDate: 'October 27, 1963',
+ birthPlace: 'Dalton, Georgia',
+ education: [
+ 'University of Georgia (no degree)',
+ ],
+ affiliations: [
+ { name: 'Trump Family', role: 'Second Wife (1993-1999)', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Ex-husband', href: '/entities/individuals/donald-trump' },
+ { name: 'Tiffany Trump', relationship: 'Daughter', href: '/entities/individuals/tiffany-trump' },
+ ],
+ controversies: [
+ 'Affair with Trump while he was married to Ivana',
+ 'Tabloid scandal"Best Sex I Ever Had"headline',
+ 'Marriage to Trump lasted 6 years',
+ 'Reportedly received modest divorce settlement',
+ 'Raised Tiffany largely apart from Trump',
+ ],
+ charges: [],
+ relatedInvestigations: [],
+ timeline: [
+ { date: '1989', event: 'Relationship with Trump becomes public' },
+ { date: '1991', event: 'Trump divorces Ivana' },
+ { date: 'December 1993', event: 'Marries Donald Trump' },
+ { date: 'October 1993', event: 'Tiffany Trump born' },
+ { date: 'June 1999', event: 'Divorces Trump' },
+ ],
+ sources: [
+ { title: 'Tabloid Archives', url: 'https://scholar.google.com/scholar?q=Tabloid%20Archives', date: '1989-1999' },
+ { title: 'Divorce Records', url: 'https://scholar.google.com/scholar?q=Divorce%20Records', date: '1999' },
+ ],
+ },
+ 'mo-brooks': {
+ name: 'Morris Jackson"Mo"Brooks Jr.',
+ title: 'Former U.S. Representative (R-AL)',
+ role: 'January 6 Rally Speaker',
+ riskLevel: 'high' as const,
+ description: 'Former Republican Congressman who spoke at the January 6 rally wearing body armor, telling the crowd to"start taking down names and kicking ass."Initially one of Trump\'s staunchest allies until Trump rescinded his endorsement. Claims Trump asked him to illegally rescind the 2020 election.',
+ birthDate: 'April 29, 1954',
+ birthPlace: 'Charleston, South Carolina',
+ education: [
+ 'J.D. - University of Alabama School of Law',
+ 'B.A. - Duke University',
+ ],
+ affiliations: [
+ { name: 'U.S. House of Representatives', role: 'Former Representative (2011-2023)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Initially ally, later rejected', href: '/entities/individuals/donald-trump' },
+ ],
+ controversies: [
+ 'Spoke at January 6 rally in body armor',
+ '"Kick ass"speech before Capitol attack',
+ 'Claims Trump asked him to"rescind"election',
+ 'Lost Trump endorsement after refusing illegal request',
+ 'Subpoenaed by January 6 Committee',
+ ],
+ charges: [
+ { statute: '18 U.S.C. § 2101 (Inciting a Riot)', description: 'Riot Incitement -"Kick ass"speech in body armor directly before Capitol attack', category: 'Incitement' },
+ { statute: '18 U.S.C. § 373 (Solicitation)', description: 'Solicitation to Commit Violence - Exhorted crowd to"start taking down names and kicking ass"', category: 'Incitement' },
+ { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress - Speech intended to prevent January 6 certification', category: 'Obstruction' },
+ { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to Defraud US - Part of coordinated effort to overturn election', category: 'Conspiracy' },
+ { statute: '52 U.S.C. § 20511 (Election Interference)', description: 'Election Fraud Promotion - Voted against certification based on false fraud claims', category: 'Election Crime' },
+ { statute: 'U.S. Constitution, 14th Amendment, Section 3', description: 'Disqualification Question - Gave aid/comfort to insurrection through inciting speech', category: 'Constitutional' },
+ { statute: '18 U.S.C. § 2384 (Seditious Conspiracy)', description: 'Sedition Concerns - Pre-planned speech coordinated with Stop the Steal rally', category: 'Sedition' },
+ ],
+ relatedInvestigations: [
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'January 6, 2021', event: 'Speaks at rally,"kick ass"speech' },
+ { date: '2022', event: 'Claims Trump asked to rescind election' },
+ { date: '2022', event: 'Loses Trump endorsement' },
+ { date: 'November 2022', event: 'Loses re-election' },
+ ],
+ sources: [
+ { title: 'January 6 Rally Video', url: 'https://scholar.google.com/scholar?q=January%206%20Rally%20Video', date: '2021' },
+ { title: 'Mo Brooks Statement', url: 'https://scholar.google.com/scholar?q=Mo%20Brooks%20Statement', date: '2022' },
+ ],
+ },
+ 'marjorie-taylor-greene': {
+ name: 'Marjorie Taylor Greene',
+ title: 'U.S. Representative (R-GA)',
+ role: 'Election Denial Congresswoman',
+ riskLevel: 'high' as const,
+ aliases: ['MTG'],
+ description: 'Republican Congresswoman known for promoting QAnon conspiracy theories, election denial, and extremist rhetoric. Stripped of committee assignments. Key Trump ally who has called for"national divorce"and promoted violence against Democrats. Investigated for potential January 6 connections.',
+ birthDate: 'May 27, 1974',
+ birthPlace: 'Milledgeville, Georgia',
+ education: [
+ 'B.B.A. - University of Georgia',
+ ],
+ affiliations: [
+ { name: 'U.S. House of Representatives', role: 'Representative (2021-Present)', type: 'agency' },
+ { name: 'Freedom Caucus', role: 'Member', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Close ally', href: '/entities/individuals/donald-trump' },
+ { name: 'Matt Gaetz', relationship: 'Political ally', href: '/entities/individuals/matt-gaetz' },
+ { name: 'Lauren Boebert', relationship: 'Political ally', href: '/entities/individuals/lauren-boebert' },
+ ],
+ controversies: [
+ 'Promoted QAnon conspiracy theories',
+ 'Called for violence against Democrats',
+ 'Stripped of committee assignments',
+ 'Harassed Parkland shooting survivors',
+ 'Compared vaccine requirements to Holocaust',
+ 'Promoted election denial',
+ 'Live-tweeted Pelosi location on January 6',
+ ],
+ charges: [
+ { statute: '18 U.S.C. § 373', description: 'Potential Solicitation to Commit Crime of Violence - Social media posts calling for violence against Democrats and suggesting executions', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 879', description: 'Potential Threats Against Former Officials - Posts suggesting violence against Nancy Pelosi and other Democrats', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1512(c)(2)', description: 'Potential Obstruction of Official Proceeding - Live-tweeted Pelosi location during Capitol attack, potentially coordinating with rioters', category: 'Potential Federal' },
+ { statute: 'U.S. Constitution, 14th Amendment, Section 3', description: 'Potential Disqualification from Office - Challenged in Georgia for engaging in or giving aid/comfort to insurrection', category: 'Constitutional' },
+ { statute: '18 U.S.C. § 1038', description: 'Potential False Information and Hoaxes - Promoted QAnon conspiracy theories about Parkland shooting', category: 'Potential Federal' },
+ { statute: 'House Ethics Rules', description: 'Multiple Violations - Harassment of colleagues, promoting violence, stripped of committee assignments', category: 'Ethics' },
+ { statute: '18 U.S.C. § 241', description: 'Potential Conspiracy Against Rights - Promoted harassment campaigns against election workers and officials', category: 'Potential Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'January 2021', event: 'Sworn into Congress' },
+ { date: 'January 6, 2021', event: 'Votes against certification' },
+ { date: 'February 2021', event: 'Stripped of committee assignments' },
+ { date: '2022', event: 'Testified in Georgia ballot challenge' },
+ ],
+ sources: [
+ { title: 'House Records', url: 'https://scholar.google.com/scholar?q=House%20Records', date: '2021' },
+ { title: 'Georgia Ballot Challenge Testimony', url: 'https://scholar.google.com/scholar?q=Georgia%20Ballot%20Challenge%20Testimony', date: '2022' },
+ ],
+ },
+ 'miriam-adelson': {
+ name: 'Miriam Adelson',
+ title: 'Physician & GOP Mega-Donor',
+ role: 'Trump Major Donor',
+ riskLevel: 'low' as const,
+ description: 'Physician and widow of Sheldon Adelson. Continued as major GOP donor after husband\'s death. Received Presidential Medal of Freedom from Trump. Donated $100 million to Trump\'s 2024 campaign. Israeli-American philanthropist.',
+ birthDate: 'October 10, 1945',
+ birthPlace: 'Tel Aviv, Israel',
+ education: [
+ 'M.D. - Tel Aviv University',
+ ],
+ affiliations: [
+ { name: 'Las Vegas Sands', role: 'Majority Owner', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Major donor, received Medal of Freedom', href: '/entities/individuals/donald-trump' },
+ ],
+ controversies: [
+ 'Continued mega-donations after husband\'s death',
+ '$100 million to Trump 2024 campaign',
+ 'Presidential Medal of Freedom recipient',
+ ],
+ charges: [],
+ relatedInvestigations: [],
+ timeline: [
+ { date: '2018', event: 'Receives Presidential Medal of Freedom from Trump' },
+ { date: '2024', event: 'Donates $100 million to Trump 2024' },
+ ],
+ sources: [
+ { title: 'FEC Donation Records', url: 'https://scholar.google.com/scholar?q=FEC%20Donation%20Records', date: '2024' },
+ ],
+ },
+ 'michael-caputo': {
+ name: 'Michael Roman Caputo',
+ title: 'Political Consultant',
+ role: 'Trump Campaign Aide / HHS Spokesman',
+ riskLevel: 'medium' as const,
+ description: 'Republican operative who worked in Russia in the 1990s and advised Trump\'s 2016 campaign. Later served as HHS spokesman during COVID where he accused CDC scientists of"sedition."Had contact with Russian national offering dirt on Clinton.',
+ birthDate: 'April 18, 1962',
+ birthPlace: 'East Aurora, New York',
+ education: [
+ 'B.A. - University at Buffalo',
+ ],
+ affiliations: [
+ { name: 'Trump Campaign 2016', role: 'Communications Advisor', type: 'organization' },
+ { name: 'HHS', role: 'Former Spokesman', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Roger Stone', relationship: 'Longtime associate', href: '/entities/individuals/roger-stone' },
+ { name: 'Paul Manafort', relationship: 'Worked together in Ukraine', href: '/entities/individuals/paul-manafort' },
+ ],
+ controversies: [
+ 'Contact with Russian national during campaign',
+ 'Accused CDC of"sedition"during COVID',
+ 'Worked in Russia in 1990s',
+ 'Mental health leave from HHS',
+ 'Testified to Mueller and House Intel',
+ ],
+ charges: [
+ { statute: '52 U.S.C. § 30121 (Foreign Contributions)', description: 'Russian Contact - Met with Russian national offering"dirt"on Clinton during 2016 campaign', category: 'Campaign Finance' },
+ { statute: '18 U.S.C. § 951 (Foreign Agent)', description: 'Potential Unregistered Agent - Extensive work in Russia in 1990s; connections to Russian intelligence concerns', category: 'Foreign Agent' },
+ { statute: '42 U.S.C. § 247d (Public Health)', description: 'Public Health Interference - Accused CDC scientists of"sedition"and interfered with COVID communications', category: 'Public Health' },
+ { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Potential False Statements - Statements to Congress about Russian contacts', category: 'Potential Federal' },
+ { statute: '5 C.F.R. § 2635.101 (Ethics)', description: 'Politicization of HHS - Attempted to alter CDC scientific reports for political purposes', category: 'Ethics' },
+ { statute: '18 U.S.C. § 1038 (False Information)', description: 'COVID Misinformation - Spread false claims about CDC and pandemic response', category: 'Misinformation' },
+ ],
+ relatedInvestigations: [
+ { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
+ { title: 'COVID Response', slug: 'covid-response', severity: 'high' },
+ ],
+ timeline: [
+ { date: '1990s', event: 'Works in Russia' },
+ { date: '2016', event: 'Joins Trump campaign' },
+ { date: '2020', event: 'Becomes HHS spokesman' },
+ { date: 'September 2020', event: 'Takes mental health leave' },
+ ],
+ sources: [
+ { title: 'Senate Intelligence Committee', url: 'https://www.congress.gov/', date: '2020' },
+ { title: 'Mueller Investigation', url: 'https://scholar.google.com/scholar?q=Mueller%20Investigation', date: '2019' },
+ ],
+ },
+ 'michael-sexton': {
+ name: 'Michael Sexton',
+ title: 'Former Trump University President',
+ role: 'Trump University Executive',
+ riskLevel: 'high' as const,
+ description: 'President of Trump University from 2005-2010. Managed day-to-day operations of the fraudulent real estate seminar program. Despite having no real estate experience, he led the organization that falsely promised to share Trump\'s real estate secrets. Trump University paid $25 million to settle fraud lawsuits.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: [
+ 'Unknown',
+ ],
+ affiliations: [
+ { name: 'Trump University', role: 'President (2005-2010)', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Employer, Trump University founder', href: '/entities/individuals/donald-trump' },
+ ],
+ controversies: [
+ 'Led fraudulent Trump University',
+ 'No real estate experience',
+ 'Oversaw deceptive marketing',
+ 'Part of $25 million fraud settlement',
+ 'Misrepresented instructors as handpicked by Trump',
+ ],
+ charges: [
+ { statute: 'N.Y. Exec. Law § 63(12) (Consumer Fraud)', description: 'Consumer Fraud - Led organization that made false claims about instructors being"handpicked"by Trump', category: 'State Fraud' },
+ { statute: 'Cal. Bus. & Prof. Code § 17200 (Unfair Business Practices)', description: 'Unfair Business Practices - Oversaw deceptive marketing in California ($25M settlement)', category: 'State Consumer Protection' },
+ { statute: '15 U.S.C. § 45 (FTC Act - Deceptive Practices)', description: 'Deceptive Trade Practices - False advertising claiming students would learn Trump\'s secrets', category: 'Federal Consumer Protection' },
+ { statute: 'N.Y. Educ. Law § 5001', description: 'Operating Unlicensed School - Trump University operated without proper educational license in New York', category: 'State Education Law' },
+ { statute: '18 U.S.C. § 1341 (Mail Fraud)', description: 'Potential Mail Fraud - Marketing materials sent via mail containing false claims about program', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Potential Wire Fraud - Online marketing and interstate communications containing fraudulent claims', category: 'Potential Federal' },
+ { statute: 'N.Y. Gen. Bus. Law § 349 (Deceptive Acts)', description: 'Deceptive Acts - Misrepresented quality of education and instructor qualifications', category: 'State Consumer Protection' },
+ ],
+ relatedInvestigations: [
+ { title: 'Trump University', slug: 'trump-university', severity: 'high' },
+ ],
+ timeline: [
+ { date: '2005', event: 'Becomes Trump University President' },
+ { date: '2010', event: 'Trump University shuts down' },
+ { date: '2016', event: 'Trump University settles for $25 million' },
+ ],
+ sources: [
+ { title: 'Trump University Lawsuit Records', url: 'https://www.courtlistener.com/', date: '2016' },
+ ],
+ },
+ 'mitt-romney': {
+ name: 'Willard Mitt Romney',
+ title: 'U.S. Senator from Utah',
+ role: 'Only Republican to Vote to Convict Trump',
+ riskLevel: 'low' as const,
+ description: 'Republican senator and 2012 presidential nominee who was the only Republican to vote to convict Trump in the first impeachment trial. Has been a consistent Trump critic and target of MAGA attacks. Did not seek re-election in 2024.',
+ birthDate: 'March 12, 1947',
+ birthPlace: 'Detroit, Michigan',
+ education: [
+ 'Brigham Young University (B.A.)',
+ 'Harvard Law School (J.D.)',
+ 'Harvard Business School (M.B.A.)',
+ ],
+ affiliations: [
+ { name: 'Republican Party', role: 'Senator from Utah', type: 'organization' },
+ { name: 'U.S. Senate', role: 'Senator (2019-2025)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Liz Cheney', relationship: 'Fellow Trump critic', href: '/entities/individuals/liz-cheney' },
+ { name: 'Adam Kinzinger', relationship: 'Fellow Trump critic', href: '/entities/individuals/adam-kinzinger' },
+ ],
+ controversies: [
+ 'Booed at Utah GOP convention',
+ 'Target of Trump attacks',
+ 'Called RINO by MAGA movement',
+ 'Marched in BLM protest',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Ukraine Extortion', slug: 'ukraine-extortion', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'February 2020', event: 'Only Republican to vote to convict Trump (first impeachment)' },
+ { date: 'May 2021', event: 'Booed at Utah GOP convention' },
+ { date: 'February 2021', event: 'Votes to convict Trump (second impeachment)' },
+ { date: 'September 2023', event: 'Announces retirement from Senate' },
+ ],
+ sources: [
+ { title: 'Senate Impeachment Votes', url: 'https://scholar.google.com/scholar?q=Senate%20Impeachment%20Votes', date: '2020-2021' },
+ ],
+ },
+ 'mark-milley': {
+ name: 'Mark Alexander Milley',
+ title: '20th Chairman of the Joint Chiefs of Staff',
+ role: 'Former Top Military Officer (2019-2023)',
+ riskLevel: 'low' as const,
+ description: 'Four-star Army general who served as Chairman of the Joint Chiefs under Trump and Biden. Became concerned about Trump\'s mental state after the 2020 election, took steps to prevent potential unlawful military orders, and apologized for participating in Trump\'s Lafayette Square photo-op. Called January 6 a"Reichstag moment."',
+ birthDate: 'June 18, 1958',
+ birthPlace: 'Winchester, Massachusetts',
+ education: [
+ 'Princeton University (B.A.)',
+ 'Columbia University (M.A.)',
+ 'U.S. Naval War College (M.A.)',
+ ],
+ affiliations: [
+ { name: 'U.S. Army', role: 'General (retired)', type: 'agency' },
+ { name: 'Joint Chiefs of Staff', role: 'Chairman (2019-2023)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Commander-in-Chief (estranged)', href: '/entities/individuals/donald-trump' },
+ { name: 'Mark Esper', relationship: 'Secretary of Defense', href: '/entities/individuals/mark-esper' },
+ ],
+ controversies: [
+ 'Apologized for Lafayette Square photo-op',
+ 'Took steps to prevent unlawful Trump orders',
+ 'Trump called for his execution over China calls',
+ 'Called January 6 a"Reichstag moment"',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Lafayette Square', slug: 'lafayette-square', severity: 'high' },
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'September 2019', event: 'Becomes Chairman of Joint Chiefs' },
+ { date: 'June 1, 2020', event: 'Accompanies Trump to Lafayette Square' },
+ { date: 'June 11, 2020', event: 'Publicly apologizes for photo-op participation' },
+ { date: 'January 6, 2021', event: 'Monitors Capitol attack from Pentagon' },
+ { date: 'September 2023', event: 'Retires as Chairman' },
+ ],
+ sources: [
+ { title: 'Senate Armed Services Committee', url: 'https://www.congress.gov/', date: 'Various' },
+ ],
+ },
+ 'mark-esper': {
+ name: 'Mark Thomas Esper',
+ title: '27th Secretary of Defense',
+ role: 'Former Secretary of Defense (2019-2020)',
+ riskLevel: 'medium' as const,
+ description: 'Secretary of Defense who was fired by Trump after the 2020 election. Publicly opposed using active-duty military against protesters after Lafayette Square. Wrote memoir revealing Trump asked about shooting protesters and using missiles on drug labs in Mexico.',
+ birthDate: 'April 26, 1964',
+ birthPlace: 'Uniontown, Pennsylvania',
+ education: [
+ 'U.S. Military Academy at West Point (B.S.)',
+ 'Harvard University (M.P.A.)',
+ 'George Washington University (Ph.D.)',
+ ],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Secretary (2019-2020)', type: 'agency' },
+ { name: 'U.S. Army', role: 'Lieutenant Colonel (retired)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Fired him', href: '/entities/individuals/donald-trump' },
+ { name: 'Mark Milley', relationship: 'Chairman of Joint Chiefs', href: '/entities/individuals/mark-milley' },
+ ],
+ controversies: [
+ 'Fired by Trump after opposing election challenge',
+ 'Revealed Trump asked about shooting protesters',
+ 'Revealed Trump asked about bombing Mexico',
+ 'Opposed Insurrection Act against protesters',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Lafayette Square', slug: 'lafayette-square', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'July 2019', event: 'Confirmed as Secretary of Defense' },
+ { date: 'June 1, 2020', event: 'Present for Lafayette Square photo-op' },
+ { date: 'June 3, 2020', event: 'Publicly opposes Insurrection Act use' },
+ { date: 'November 9, 2020', event: 'Fired by Trump via tweet' },
+ { date: '2022', event: 'Publishes memoir with explosive revelations' },
+ ],
+ sources: [
+ { title: 'A Sacred Oath (memoir)', url: 'https://www.goodreads.com/', date: '2022' },
+ ],
+ },
+ 'matthew-whitaker': {
+ name: 'Matthew George Whitaker',
+ title: 'Former Acting Attorney General',
+ role: 'Acting Attorney General (2018-2019)',
+ riskLevel: 'high' as const,
+ description: 'Trump loyalist installed as Acting Attorney General after Jeff Sessions was fired. Criticized the Mueller investigation before his appointment and refused to recuse himself despite ethics recommendations. Previously promoted a patent firm that was shut down for fraud.',
+ birthDate: 'October 29, 1969',
+ birthPlace: 'Des Moines, Iowa',
+ education: [
+ 'University of Iowa (B.A., M.B.A., J.D.)',
+ ],
+ affiliations: [
+ { name: 'Department of Justice', role: 'Acting AG (2018-2019)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Appointed him', href: '/entities/individuals/donald-trump' },
+ { name: 'Jeff Sessions', relationship: 'Predecessor', href: '/entities/individuals/jeff-sessions' },
+ ],
+ controversies: [
+ 'Refused to recuse from Mueller oversight despite conflicts',
+ 'Previously criticized Mueller investigation',
+ 'Associated with World Patent Marketing fraud scheme',
+ 'Constitutional questions about appointment',
+ ],
+ charges: [
+ { statute: '28 C.F.R. § 45.2 (DOJ Recusal)', description: 'Recusal Violation - Refused to recuse from Mueller investigation despite ethics officials\' recommendation', category: 'Ethics' },
+ { statute: '5 C.F.R. § 2635.502 (Impartiality)', description: 'Impartiality Violation - Oversaw investigation he had publicly prejudged and criticized', category: 'Ethics' },
+ { statute: '18 U.S.C. § 1512(c) (Obstruction)', description: 'Potential Obstruction - Appointed specifically to oversee and potentially interfere with Mueller investigation', category: 'Potential Federal' },
+ { statute: 'FTC Act (World Patent Marketing)', description: 'Fraud Association - Served on advisory board of World Patent Marketing, shut down by FTC for $26M fraud', category: 'Civil Fraud' },
+ { statute: 'U.S. Constitution, Appointments Clause', description: 'Constitutional Violation Question - Appointment as Acting AG bypassed Senate confirmation requirements', category: 'Constitutional' },
+ { statute: '28 U.S.C. § 508 (AG Succession)', description: 'Potential Statutory Violation - Appointment potentially violated succession statute requirements', category: 'Statutory' },
+ { statute: '5 U.S.C. § 3345 (Vacancies Act)', description: 'Vacancies Act Concerns - Appointment as Acting AG raised questions about proper authority', category: 'Administrative Law' },
+ ],
+ relatedInvestigations: [
+ { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
+ { title: 'Obstruction of Justice', slug: 'obstruction-of-justice', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'September 2017', event: 'Becomes Sessions chief of staff' },
+ { date: 'November 7, 2018', event: 'Becomes Acting AG after Sessions fired' },
+ { date: 'November 2018', event: 'Ethics officials recommend recusal, he refuses' },
+ { date: 'February 2019', event: 'Replaced by Bill Barr' },
+ ],
+ sources: [
+ { title: 'DOJ Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Records', date: 'Various' },
+ ],
+ },
+ 'mark-zuckerberg': {
+ name: 'Mark Elliot Zuckerberg',
+ title: 'CEO of Meta Platforms (Facebook)',
+ role: 'Tech CEO, Social Media Mogul, Surveillance Capitalism Pioneer',
+ riskLevel: 'critical',
+ description: 'Mark Zuckerberg is the founder and CEO of Meta Platforms (formerly Facebook), the company responsible for the largest privacy breach in history through Cambridge Analytica (87 million users), systematic amplification of disinformation that undermined democracy, enabling Russian election interference, and building the most comprehensive surveillance apparatus in human history. Facebook\'s algorithms radicalized millions and contributed to genocide in Myanmar.',
+ birthDate: 'May 14, 1984',
+ birthPlace: 'White Plains, New York, USA',
+ education: [
+ 'Harvard University (dropped out 2004)',
+ 'Phillips Exeter Academy',
+ ],
+ netWorth: '$177 billion (Forbes 2024)',
+ aliases: ['Zuck', 'The Social Network guy'],
+ affiliations: [
+ { name: 'Meta Platforms', role: 'CEO, Chairman, Founder', type: 'corporation' },
+ { name: 'Facebook', role: 'Founder (2004)', type: 'corporation' },
+ { name: 'Chan Zuckerberg Initiative', role: 'Co-founder', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Sheryl Sandberg', relationship: 'Former COO, helped build surveillance ad model' },
+ { name: 'Peter Thiel', relationship: 'Early Facebook investor, board member', href: '/entities/individuals/peter-thiel' },
+ { name: 'Alexander Nix', relationship: 'Cambridge Analytica CEO, data recipient', href: '/entities/individuals/alexander-nix' },
+ { name: 'Christopher Wylie', relationship: 'Whistleblower who exposed CA operation', href: '/entities/individuals/christopher-wylie' },
+ ],
+ controversies: [
+ 'CAMBRIDGE ANALYTICA: 87 million users\' data harvested without consent and weaponized for psychological manipulation in 2016 election',
+ 'RUSSIAN INTERFERENCE: Facebook platform used extensively by Russian Internet Research Agency to spread disinformation, reach 126 million Americans',
+ 'MYANMAR GENOCIDE: UN investigation found Facebook played"determining role"in genocide against Rohingya Muslims - 25,000+ killed',
+ 'ALGORITHMIC RADICALIZATION: Internal research showed Instagram made teen girls\' body image issues worse; company suppressed findings',
+ 'ELECTION DISINFORMATION: False news spreads 6x faster than truth on platform; company profits from engagement regardless of harm',
+ 'PRIVACY VIOLATIONS: FTC $5 billion fine (2019) for privacy violations - largest in FTC history',
+ 'WHISTLEBLOWER REVELATIONS: Frances Haugen exposed internal documents showing company chose profits over safety',
+ 'MONOPOLY POWER: Acquisitions of Instagram and WhatsApp to eliminate competition, FTC antitrust lawsuit pending',
+ ],
+ charges: [
+ { statute: '15 U.S.C. § 45 (FTC Act)', description: 'Unfair and Deceptive Practices - Cambridge Analytica, privacy violations ($5B fine)', category: 'Consumer Protection' },
+ { statute: 'GDPR Article 83', description: 'Data Protection Violations - EU fines exceeding $1.3 billion', category: 'Privacy' },
+ { statute: 'Rome Statute Article 25(3)(c)', description: 'Aiding and Abetting Genocide - Myanmar platform role', category: 'International Criminal Court' },
+ { statute: 'Rome Statute Article 7(1)(h)', description: 'Crime Against Humanity - Persecution through platform enabling', category: 'International Criminal Court' },
+ { statute: '15 U.S.C. § 1 (Sherman Act)', description: 'Monopolization - acquisition of competitors to maintain dominance', category: 'Antitrust' },
+ { statute: '52 U.S.C. § 30121', description: 'Foreign Election Interference - platform enabled Russian operations', category: 'Election Crimes' },
+ ],
+ relatedInvestigations: [
+ { title: 'Cambridge Analytica Scandal', slug: 'cambridge-analytica', severity: 'critical' },
+ { title: 'Psychological Manipulation Campaigns', slug: 'psychological-manipulation', severity: 'critical' },
+ { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
+ { title: 'Surveillance State Expansion', slug: 'surveillance-expansion', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'May 14, 1984', event: 'Born in White Plains, New York' },
+ { date: 'February 4, 2004', event: 'Launches Facebook from Harvard dorm' },
+ { date: '2012', event: 'Facebook IPO - becomes billionaire' },
+ { date: '2012', event: 'Acquires Instagram for $1 billion (eliminating competitor)' },
+ { date: '2014', event: 'Acquires WhatsApp for $19 billion (eliminating competitor)' },
+ { date: '2014-2015', event: 'Cambridge Analytica harvests 87 million users\' data' },
+ { date: '2016', event: 'Russian IRA uses Facebook to reach 126 million Americans' },
+ { date: '2017-2018', event: 'Facebook\'s role in Myanmar genocide documented by UN' },
+ { date: 'March 2018', event: 'Cambridge Analytica scandal breaks' },
+ { date: 'April 2018', event: 'Testifies before Congress -"I\'m sorry"' },
+ { date: 'July 2019', event: 'FTC imposes record $5 billion fine' },
+ { date: 'October 2021', event: 'Frances Haugen whistleblower revelations' },
+ { date: 'October 2021', event: 'Rebrands company as"Meta"' },
+ { date: '2023', event: 'FTC sues to unwind Instagram/WhatsApp acquisitions' },
+ ],
+ sources: [
+ { title: 'FTC $5 Billion Facebook Settlement', url: 'https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook', date: '2019' },
+ { title: 'UN Myanmar Report on Facebook', url: 'https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index', date: '2018' },
+ { title: 'Cambridge Analytica Investigation', url: 'https://www.theguardian.com/news/series/cambridge-analytica-files', date: '2018' },
+ { title: 'Facebook Files (WSJ)', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/the-facebook-files-11631713039', date: '2021' },
+ ],
+ },
+ 'margaret-thatcher': {
+ name: 'Margaret Hilda Thatcher',
+ title: 'Prime Minister of the United Kingdom',
+ role: 'Pinochet Defender, Neoliberalism Pioneer, Falklands War Leader',
+ riskLevel: 'high' as const,
+ description: 'Margaret Thatcher served as Prime Minister of the United Kingdom from 1979 to 1990, becoming the longest-serving British PM of the 20th century. Known as the"Iron Lady,"she implemented radical neoliberal economic policies that devastated British industry, crushed unions, and created lasting inequality. She was a close ally and defender of Chilean dictator Augusto Pinochet, opposing his arrest for human rights crimes. Her government\'s handling of the Falklands War, poll tax riots, and miners\' strike defined an era of confrontation. Thatcher\'s policies privatized public utilities, deregulated finance, and laid the groundwork for the 2008 financial crisis. Her support for apartheid South Africa and friendship with dictators earned international condemnation.',
+ birthDate: 'October 13, 1925',
+ birthPlace: 'Grantham, Lincolnshire, England',
+ deathDate: 'April 8, 2013',
+ education: [
+ 'B.Sc. in Chemistry - Somerville College, Oxford (1947)',
+ 'Barrister - Lincoln\'s Inn (1953)',
+ ],
+ netWorth: '$70 million (at death)',
+ aliases: ['The Iron Lady', 'Maggie', 'TINA (There Is No Alternative)'],
+ affiliations: [
+ { name: 'UK Government', role: 'Prime Minister (1979-1990)', type: 'agency' },
+ { name: 'Conservative Party', role: 'Leader (1975-1990)', type: 'organization' },
+ { name: 'House of Lords', role: 'Baroness Thatcher (1992-2013)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Ronald Reagan', relationship: 'Close ally, ideological partner', href: '/entities/individuals/ronald-reagan' },
+ { name: 'Augusto Pinochet', relationship: 'Defended against extradition, called"true friend"', href: '/entities/individuals/augusto-pinochet' },
+ { name: 'Milton Friedman', relationship: 'Economic advisor, Chicago School influence', href: '/entities/individuals/milton-friedman' },
+ ],
+ controversies: [
+ 'PINOCHET DEFENSE: Called dictator Augusto Pinochet a"true friend"and opposed his 1998 arrest in London for human rights crimes',
+ 'Visited Pinochet under house arrest, lobbied for his release despite 3,000+ killed and 40,000 tortured under his regime',
+ 'FALKLANDS WAR: 1982 conflict killed 900+, sank Argentine ship Belgrano killing 323 sailors while ship was sailing away',
+ 'MINERS\' STRIKE: Year-long confrontation (1984-85) destroyed mining communities, police violence against strikers',
+ 'POLL TAX: Regressive tax sparked riots, contributed to her downfall',
+ 'APARTHEID SUPPORT: Called ANC"terrorists,"opposed sanctions against South Africa',
+ 'NEOLIBERAL DESTRUCTION: Privatization of public utilities, deregulation caused lasting inequality',
+ 'SECTION 28: Banned"promotion of homosexuality"in schools, LGBTQ discrimination',
+ 'NORTHERN IRELAND: Hunger strikes, 10 prisoners died including Bobby Sands',
+ 'UNION BUSTING: Systematic destruction of organized labor',
+ ],
+ charges: [
+ { statute: 'Rome Statute Article 7(1)(h)', description: 'Persecution - Support for apartheid regime', category: 'International Criminal Court' },
+ { statute: 'Universal Jurisdiction Principle', description: 'Complicity in torture - Pinochet support', category: 'International' },
+ { statute: 'Geneva Conventions', description: 'Questions about Belgrano sinking during Falklands War', category: 'International' },
+ ],
+ relatedInvestigations: [
+ { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+ { title: 'Climate Policy Sabotage', slug: 'climate-sabotage', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'October 13, 1925', event: 'Born in Grantham, Lincolnshire' },
+ { date: '1959', event: 'Elected MP for Finchley' },
+ { date: '1975', event: 'Elected Conservative Party leader' },
+ { date: 'May 4, 1979', event: 'Becomes Prime Minister' },
+ { date: 'April-June 1982', event: 'Falklands War with Argentina' },
+ { date: '1984-1985', event: 'Miners\' strike confrontation' },
+ { date: '1990', event: 'Poll tax riots' },
+ { date: 'November 28, 1990', event: 'Resigns as Prime Minister' },
+ { date: '1998', event: 'Visits Pinochet under house arrest in London' },
+ { date: 'April 8, 2013', event: 'Dies in London, age 87' },
+ ],
+ sources: [
+ { title: 'UK National Archives - Thatcher Papers', url: 'https://www.nationalarchives.gov.uk/', date: 'Various' },
+ { title: 'Pinochet Case Documents', url: 'https://scholar.google.com/scholar?q=Pinochet%20Case%20Documents', date: '1998-2000' },
+ { title: 'Franks Report on Falklands War', url: 'https://scholar.google.com/scholar?q=Franks%20Report%20on%20Falklands%20War', date: '1983' },
+ ],
+ },
+ 'marco-rubio': {
+ name: 'Marco Antonio Rubio',
+ title: 'U.S. Secretary of State',
+ role: 'Trump Ally, Former Senator, Current Secretary of State',
+ riskLevel: 'high' as const,
+ description: 'Marco Rubio currently serves as U.S. Secretary of State in the Trump administration (2025-present), after serving as U.S. Senator from Florida from 2011 to 2025. Once a Trump critic who called him a"con artist"during the 2016 primaries, Rubio became a loyal Trump ally. As Secretary of State, he advances Trump\'s foreign policy agenda. His evolution from Trump critic to Trump cabinet member exemplifies the Republican Party\'s transformation into a Trump-loyalty-first organization.',
+ birthDate: 'May 28, 1971',
+ birthPlace: 'Miami, Florida, USA',
+ education: [
+ 'B.S. - University of Florida (1993)',
+ 'J.D. - University of Miami School of Law (1996)',
+ ],
+ netWorth: '$3+ million',
+ aliases: ['Little Marco', 'Marco'],
+ affiliations: [
+ { name: 'U.S. State Department', role: 'Secretary of State (2025-present)', type: 'agency' },
+ { name: 'U.S. Senate', role: 'Senator from Florida (2011-2025)', type: 'agency' },
+ { name: 'Republican Party', role: 'Senior Party Member', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'President, Rubio now serves in cabinet despite 2016 rivalry', href: '/entities/individuals/donald-trump' },
+ ],
+ controversies: [
+ 'TRUMP FLIP-FLOP: Called Trump a"con artist"in 2016, now serves in his cabinet',
+ '2016 PRIMARY: Trump nicknamed him"Little Marco,"Rubio attacked Trump\'s character',
+ 'COMPLETE REVERSAL: Went from harsh Trump critic to loyal supporter',
+ 'FLORIDA FINANCES: Questions about personal finances during early career',
+ 'FOREIGN POLICY: Hawkish positions on Cuba, Venezuela, China',
+ 'Represents transformation of GOP into Trump-loyalty organization',
+ ],
+ charges: [
+ { statute: 'Pending investigations', description: 'As current official, potential for future accountability', category: 'Ongoing' },
+ ],
+ relatedInvestigations: [
+ { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'May 28, 1971', event: 'Born in Miami, Florida' },
+ { date: '2000', event: 'Elected to Florida House of Representatives' },
+ { date: '2006', event: 'Becomes Florida House Speaker' },
+ { date: '2010', event: 'Elected U.S. Senator from Florida' },
+ { date: '2016', event: 'Presidential campaign - calls Trump"con artist"' },
+ { date: '2016', event: 'Trump nicknames him"Little Marco"' },
+ { date: '2016', event: 'Suspends campaign, endorses Trump' },
+ { date: '2016-2024', event: 'Evolves into loyal Trump supporter' },
+ { date: 'January 2025', event: 'Confirmed as Secretary of State' },
+ ],
+ sources: [
+ { title: 'Senate Records', url: 'https://www.senate.gov/', date: 'Various' },
+ { title: 'State Department', url: 'https://www.state.gov/', date: '2025' },
+ ],
+ },
+ 'manuel-contreras': {
+ name: 'Manuel Contreras Sepúlveda',
+ title: 'Director of DINA',
+ role: 'Pinochet\'s Enforcer, Letelier Assassination Mastermind',
+ riskLevel: 'critical' as const,
+ description: 'Manuel Contreras was the founder and director of DINA (Dirección de Inteligencia Nacional), the Chilean secret police under dictator Augusto Pinochet from 1973 to 1977. DINA was responsible for the torture, disappearance, and murder of thousands of Pinochet opponents during Operation Condor. Contreras personally ordered the 1976 car bombing assassination of former Chilean diplomat Orlando Letelier and American colleague Ronni Moffitt in Washington, D.C. - the only state-sponsored assassination on American soil. He was convicted of this and other crimes and died in prison in 2015.',
+ birthDate: 'May 4, 1929',
+ birthPlace: 'Santiago, Chile',
+ deathDate: 'August 7, 2015',
+ education: [
+ 'Chilean Army War Academy',
+ 'U.S. Army School of the Americas',
+ ],
+ netWorth: 'Unknown',
+ aliases: ['El Mamo', 'The Butcher of Chile'],
+ affiliations: [
+ { name: 'DINA', role: 'Founder and Director (1973-1977)', type: 'agency' },
+ { name: 'Chilean Army', role: 'Brigadier General', type: 'agency' },
+ { name: 'Operation Condor', role: 'Key Coordinator', type: 'organization' },
+ { name: 'CIA', role: 'Paid Asset (documented)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Augusto Pinochet', relationship: 'Dictator he served, DINA operated under direct orders', href: '/entities/individuals/augusto-pinochet' },
+ ],
+ controversies: [
+ 'DINA DIRECTOR: Led organization responsible for 3,000+ deaths and 40,000 political prisoners',
+ 'LETELIER ASSASSINATION: Ordered car bombing in Washington D.C. killing diplomat and American',
+ 'OPERATION CONDOR: Coordinated cross-border assassinations with other dictatorships',
+ 'CIA ASSET: Was a paid CIA asset despite known human rights abuses',
+ 'TORTURE CENTERS: Oversaw Villa Grimaldi and other torture facilities',
+ 'DISAPPEARED: Thousands"disappeared"under DINA never found',
+ 'Convicted of multiple murders and crimes against humanity',
+ 'Died in prison at 86, never showed remorse',
+ ],
+ charges: [
+ { statute: 'Chilean Criminal Code', description: 'Murder - Letelier assassination (CONVICTED, 7 years, later 12 years)', category: 'Chile' },
+ { statute: 'U.S. Federal Law', description: 'Letelier Assassination - ordered murder on U.S. soil', category: 'Federal' },
+ { statute: 'Rome Statute Article 7', description: 'Crimes Against Humanity - systematic murder, torture, disappearances', category: 'International Criminal Court' },
+ { statute: 'Geneva Conventions', description: 'War Crimes - torture and extrajudicial killing', category: 'International' },
+ { statute: 'Inter-American Human Rights', description: 'Systematic Human Rights Violations', category: 'International' },
+ ],
+ relatedInvestigations: [
+ { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'May 4, 1929', event: 'Born in Santiago, Chile' },
+ { date: '1973', event: 'September 11 coup - helps Pinochet seize power' },
+ { date: '1973', event: 'Founds DINA as Pinochet\'s secret police' },
+ { date: '1973-1977', event: 'Directs DINA - thousands killed, tortured, disappeared' },
+ { date: '1975', event: 'Helps coordinate Operation Condor with other dictatorships' },
+ { date: 'September 21, 1976', event: 'Orlando Letelier assassinated in Washington D.C. on his orders' },
+ { date: '1977', event: 'DINA dissolved after international pressure, replaced by CNI' },
+ { date: '1993', event: 'Convicted of Letelier murder, sentenced to 7 years' },
+ { date: '1995', event: 'Sentence increased to 12 years' },
+ { date: '2005', event: 'Additional convictions for other murders' },
+ { date: '2015', event: 'Convicted in hundreds of cases, serving 500+ years' },
+ { date: 'August 7, 2015', event: 'Dies in prison hospital at 86' },
+ ],
+ sources: [
+ { title: 'Chile Truth and Reconciliation Commission (Rettig Report)', url: 'https://www.ignet.gov/', date: '1991' },
+ { title: 'U.S. Declassified Documents on Letelier', url: 'https://nsarchive.gwu.edu/', date: 'Various' },
+ { title: 'Chilean Court Verdicts', url: 'https://scholar.google.com/scholar?q=Chilean%20Court%20Verdicts', date: '1993-2015' },
+ ],
+ },
+ 'milton-friedman': {
+ name: 'Milton Friedman',
+ title: 'Economist, Nobel Laureate',
+ role: 'Chicago School Founder, Pinochet Advisor, Neoliberalism Architect',
+ riskLevel: 'high' as const,
+ description: 'Milton Friedman was an American economist and Nobel laureate who founded the Chicago School of economics and developed monetarism. His free-market ideology provided the intellectual foundation for neoliberalism implemented by Reagan, Thatcher, and dictatorships worldwide. Most controversially, Friedman advised Chilean dictator Augusto Pinochet on economic"shock therapy"while the regime tortured and murdered thousands. His theories about privatization, deregulation, and government minimization were tested first in Chile\'s laboratory of dictatorship before spreading globally. Critics call this the"shock doctrine"- using crises to implement radical market reforms.',
+ birthDate: 'July 31, 1912',
+ birthPlace: 'Brooklyn, New York, USA',
+ deathDate: 'November 16, 2006',
+ education: [
+ 'B.A. - Rutgers University (1932)',
+ 'M.A. - University of Chicago (1933)',
+ 'Ph.D. - Columbia University (1946)',
+ ],
+ netWorth: 'Unknown',
+ aliases: ['Chicago School Founder', 'Neoliberalism Father'],
+ affiliations: [
+ { name: 'University of Chicago', role: 'Professor of Economics (1946-1977)', type: 'organization' },
+ { name: 'Hoover Institution', role: 'Senior Research Fellow (1977-2006)', type: 'organization' },
+ { name: 'Mont Pelerin Society', role: 'Co-Founder', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Augusto Pinochet', relationship: 'Advised on economic policy, met in 1975', href: '/entities/individuals/augusto-pinochet' },
+ { name: 'Margaret Thatcher', relationship: 'Ideological influence on policies', href: '/entities/individuals/margaret-thatcher' },
+ { name: 'Ronald Reagan', relationship: 'Economic advisor, influenced Reaganomics', href: '/entities/individuals/ronald-reagan' },
+ ],
+ controversies: [
+ 'PINOCHET ADVISING: Met with dictator in 1975, advised"shock treatment"economics',
+ 'Letter to Pinochet praised his"economic policies"while regime murdered thousands',
+ 'CHICAGO BOYS: His students implemented radical privatization under dictatorship',
+ 'SHOCK DOCTRINE: Economic reforms tested under dictatorship before democratic countries',
+ 'INEQUALITY: Policies he advocated dramatically increased global inequality',
+ 'DEFENDED PINOCHET: Claimed he advised on economy not politics - criticized as naive at best',
+ 'Received Nobel Prize despite Pinochet controversy (1976)',
+ 'Policies contributed to 2008 financial crisis through deregulation advocacy',
+ ],
+ charges: [
+ { statute: 'Historical/Moral Accountability', description: 'Providing intellectual cover for dictatorship economic policies', category: 'Moral' },
+ { statute: 'Complicity by Association', description: 'Advising regime committing crimes against humanity', category: 'International' },
+ ],
+ relatedInvestigations: [
+ { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+ { title: 'Economic Manipulation', slug: 'economic-manipulation', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'July 31, 1912', event: 'Born in Brooklyn, New York' },
+ { date: '1946', event: 'Joins University of Chicago faculty' },
+ { date: '1947', event: 'Co-founds Mont Pelerin Society' },
+ { date: '1962', event: 'Publishes"Capitalism and Freedom"' },
+ { date: 'March 1975', event: 'Visits Chile, meets Pinochet' },
+ { date: 'April 1975', event: 'Letter to Pinochet praising policies, advising"shock treatment"' },
+ { date: '1975-1982', event: 'Chicago Boys implement his theories in Chile' },
+ { date: '1976', event: 'Awarded Nobel Prize in Economics' },
+ { date: '1980', event: '"Free to Choose"PBS series' },
+ { date: '1980s', event: 'Influences Reagan and Thatcher policies' },
+ { date: 'November 16, 2006', event: 'Dies in San Francisco at 94' },
+ ],
+ sources: [
+ { title: 'Capitalism and Freedom - Milton Friedman', url: 'https://scholar.google.com/scholar?q=Capitalism%20and%20Freedom%20-%20Milton%20Friedman', date: '1962' },
+ { title: 'The Shock Doctrine - Naomi Klein', url: 'https://scholar.google.com/scholar?q=The%20Shock%20Doctrine%20-%20Naomi%20Klein', date: '2007' },
+ { title: 'Friedman Letter to Pinochet', url: 'https://scholar.google.com/scholar?q=Friedman%20Letter%20to%20Pinochet', date: '1975' },
+ ],
+ },
+ 'mohammed-bin-zayed': {
+ name: 'Mohammed bin Zayed Al Nahyan',
+ title: 'President of the United Arab Emirates',
+ role: 'MBZ, UAE Ruler, Regional Power Broker',
+ riskLevel: 'critical' as const,
+ description: 'Mohammed bin Zayed Al Nahyan (MBZ) is the President of the United Arab Emirates and ruler of Abu Dhabi since 2022, having previously served as Crown Prince and de facto ruler since 2014. He has cultivated extensive ties with U.S. political figures, including controversial relationships with Trump associates. MBZ has been implicated in influence operations through intermediaries including George Nader (convicted pedophile) and Elliott Broidy, who sought to advance UAE interests. The UAE under MBZ has supported military interventions in Yemen and Libya, and participated in the blockade of Qatar.',
+ birthDate: 'March 11, 1961',
+ birthPlace: 'Al Ain, Abu Dhabi, UAE',
+ education: [
+ 'Royal Military Academy Sandhurst (UK)',
+ ],
+ netWorth: '$30+ billion (royal family wealth)',
+ aliases: ['MBZ', 'Crown Prince', 'UAE President'],
+ affiliations: [
+ { name: 'United Arab Emirates', role: 'President (2022-present), de facto ruler (2014-2022)', type: 'agency' },
+ { name: 'UAE Armed Forces', role: 'Deputy Supreme Commander', type: 'agency' },
+ { name: 'Abu Dhabi Investment Authority', role: 'Oversight ($900B sovereign fund)', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Cultivated ties through intermediaries', href: '/entities/individuals/donald-trump' },
+ { name: 'Jared Kushner', relationship: '$2 billion investment after Kushner left White House', href: '/entities/individuals/jared-kushner' },
+ { name: 'Mohammed bin Salman', relationship: 'Saudi ally, coordinated Yemen war and Qatar blockade', href: '/entities/individuals/mohammed-bin-salman' },
+ ],
+ controversies: [
+ 'TRUMP BACKCHANNEL: Used intermediaries to establish secret communications with Trump transition',
+ 'GEORGE NADER: Used convicted pedophile as intermediary to Trump administration',
+ 'JARED KUSHNER: UAE invested $2 billion in Kushner firm after he left White House',
+ 'YEMEN WAR: UAE participated in Saudi-led coalition causing humanitarian catastrophe',
+ 'QATAR BLOCKADE: Led 2017 blockade of Qatar, attempted to get Trump administration support',
+ 'LIBYA INTERVENTION: UAE military involvement in Libyan civil war',
+ 'HUMAN RIGHTS: UAE criticized for treatment of dissidents, migrant workers',
+ 'INFLUENCE OPERATIONS: Multiple intermediaries sought to advance UAE interests in Washington',
+ ],
+ charges: [
+ { statute: 'Rome Statute Article 8', description: 'War Crimes - Yemen intervention causing mass civilian casualties', category: 'International Criminal Court' },
+ { statute: '22 U.S.C. § 611', description: 'Foreign Agents - Unregistered agents operating on behalf of UAE', category: 'Federal' },
+ { statute: '18 U.S.C. § 201', description: 'Bribery - Payments to U.S. officials through intermediaries', category: 'Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'Saudi Arms Deal', slug: 'saudi-arms-deal', severity: 'critical' },
+ { title: 'Foreign Influence Operations', slug: 'foreign-influence', severity: 'critical' },
+ { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 11, 1961', event: 'Born in Al Ain, Abu Dhabi' },
+ { date: '1979', event: 'Graduates Royal Military Academy Sandhurst' },
+ { date: '2004', event: 'Named Crown Prince of Abu Dhabi' },
+ { date: '2014', event: 'Becomes de facto ruler as Sheikh Khalifa incapacitated' },
+ { date: '2016', event: 'Establishes backchannels to Trump transition' },
+ { date: '2017', event: 'Leads Qatar blockade' },
+ { date: '2017', event: 'UAE joins Saudi-led Yemen intervention' },
+ { date: '2021', event: 'Kushner receives $2 billion UAE investment' },
+ { date: 'May 2022', event: 'Becomes President of UAE after Khalifa\'s death' },
+ ],
+ sources: [
+ { title: 'Mueller Report - UAE Contacts', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'House Intelligence Committee Investigation', url: 'https://www.congress.gov/', date: '2019' },
+ { title: 'New York Times - Kushner UAE Investment', url: 'https://www.nytimes.com/', date: '2022' },
+ ],
+ },
+ 'martin-luther-king-jr': {
+ name: 'Martin Luther King Jr.',
+ title: 'Civil Rights Leader / FBI Target',
+ role: 'Preeminent civil rights leader, Nobel Peace Prize winner, target of FBI harassment',
+ riskLevel: 'low',
+ description: 'Dr. Martin Luther King Jr. was the preeminent leader of the American civil rights movement, winner of the Nobel Peace Prize, and target of an extensive FBI harassment campaign. J. Edgar Hoover called him"the most dangerous Negro in America."The FBI surveilled him constantly, sent him a letter encouraging suicide, and attempted to destroy him through disinformation. He was assassinated on April 4, 1968. Questions about FBI involvement in his death persist.',
+ education: [],
+ affiliations: [
+ { name: 'Southern Christian Leadership Conference', role: 'President and Co-founder', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'J. Edgar Hoover', relationship: 'Orchestrated harassment campaign', href: '/entities/individuals/j-edgar-hoover' },
+ { name: 'Robert F. Kennedy', relationship: 'Authorized wiretaps as AG', href: '/entities/individuals/robert-f-kennedy' },
+ ],
+ controversies: [
+ 'FBI TARGETING: The FBI began surveilling King in 1955 and intensified after the 1963 March on Washington. Hoover received authorization for extensive wiretapping from Attorney General Robert Kennedy.',
+ 'THE SUICIDE LETTER: In 1964, the FBI sent King an anonymous package containing an alleged recording of extramarital affairs and a letter calling him a"fraud"and strongly suggesting he commit suicide before being exposed.',
+ 'CONSTANT SURVEILLANCE: FBI bugged King\'s home, office, and hotel rooms. Agents followed him constantly. The FBI shared surveillance information with media outlets and political figures to discredit him.',
+ 'COINTELPRO OPERATIONS: Under COINTELPRO, the FBI attempted to prevent King from receiving the Nobel Peace Prize, tried to find a"suitable"replacement leader, and sought to destroy his marriage and reputation.',
+ 'OPPOSITION TO VIETNAM: King\'s 1967 speech opposing the Vietnam War intensified FBI hostility. The FBI saw his antiwar stance as evidence of communist influence.',
+ 'ASSASSINATION QUESTIONS: King was assassinated in Memphis on April 4, 1968. James Earl Ray confessed but later recanted. The King family believes Ray was a patsy and has called for a full investigation of government involvement.',
+ 'CIVIL TRIAL VERDICT: In 1999, a civil jury found that government agencies were part of a conspiracy to assassinate King. The verdict received minimal media coverage.',
+ 'DOCUMENTS SEALED: Many FBI documents about King remain classified until 2027. The continued secrecy fuels suspicion about what the government is hiding.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'COINTELPRO', slug: 'cointelpro', severity: 'critical' },
+ { title: 'FBI Harassment of Civil Rights Leaders', slug: 'fbi-civil-rights', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'January 15, 1929', event: 'Born in Atlanta, Georgia' },
+ { date: '1955', event: 'Leads Montgomery Bus Boycott, FBI begins surveillance' },
+ { date: '1963', event: 'March on Washington,"I Have a Dream"speech' },
+ { date: '1963', event: 'FBI Director Hoover calls him"most dangerous Negro"' },
+ { date: '1964', event: 'Receives Nobel Peace Prize' },
+ { date: 'November 1964', event: 'FBI sends anonymous"suicide letter"' },
+ { date: 'April 4, 1967', event: '"Beyond Vietnam"speech opposing war' },
+ { date: 'April 4, 1968', event: 'Assassinated in Memphis, Tennessee' },
+ { date: '1999', event: 'Civil jury finds government conspiracy in assassination' },
+ { date: '2027', event: 'Some FBI documents scheduled for declassification' },
+ ],
+ sources: [
+ { title: 'Senate Church Committee Reports on FBI Domestic Operations', url: 'https://www.congress.gov/', date: '1976' },
+ { title: 'David Garrow -"The FBI and Martin Luther King, Jr."', url: 'https://scholar.google.com/scholar?q=David%20Garrow%20-%22The%20FBI%20and%20Martin%20Luther%20King%2C%20Jr.%22', date: '1981' },
+ { title: 'Taylor Branch -"Parting the Waters"trilogy', url: 'https://scholar.google.com/scholar?q=Taylor%20Branch%20-%22Parting%20the%20Waters%22trilogy', date: '1988-2006' },
+ { title: 'King v. Jowers civil trial transcript', url: 'https://scholar.google.com/scholar?q=King%20v.%20Jowers%20civil%20trial%20transcript', date: '1999' },
+ ],
+ },
+ 'maher-arar': {
+ name: 'Maher Arar',
+ title: 'Rendition Victim',
+ role: 'Canadian citizen kidnapped by U.S. and rendered to Syria for torture',
+ riskLevel: 'low',
+ description: 'Maher Arar is a Canadian citizen who was seized by U.S. authorities at JFK Airport in 2002 and"rendered"to Syria, where he was imprisoned and tortured for a year based on false intelligence. He was completely innocent. Canada apologized and paid him $10.5 million; the U.S. has never apologized or compensated him.',
+ birthDate: '1970',
+ birthPlace: 'Syria',
+ education: ['McGill University - Engineering'],
+ affiliations: [
+ { name: 'Independent', role: 'Joseph Wilson - ', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'George W. Bush', relationship: 'President during extraordinary rendition program that sent Arar to Syria for torture', href: '/entities/individuals/george-w-bush' },
+ { name: 'John Ashcroft', relationship: 'Attorney General who oversaw DOJ during Arar\'s rendition and deportation to Syria', href: '/entities/individuals/john-ashcroft' },
+ { name: 'Condoleezza Rice', relationship: 'National Security Advisor involved in post-9/11 rendition policies that led to Arar\'s torture', href: '/entities/individuals/condoleezza-rice' },
+ ],
+ controversies: [
+ 'Canadian citizen seized by U.S. at JFK Airport and rendered to Syria where he was tortured for nearly a year',
+ 'Canada awarded Arar $10.5 million settlement and formal apology; the U.S. has never apologized',
+ 'His case became a landmark example of post-9/11 extraordinary rendition abuses',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'CIA Rendition Program', slug: 'rendition', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1970', event: 'Born in Syria' },
+ { date: '1987', event: 'Moves to Canada' },
+ { date: 'September 26, 2002', event: 'Detained at JFK Airport during layover' },
+ { date: 'October 8, 2002', event: 'Rendered to Syria' },
+ { date: 'October 2002 - October 2003', event: 'Imprisoned and tortured in Syria' },
+ { date: 'October 5, 2003', event: 'Released to Canada' },
+ { date: '2006', event: 'Canadian inquiry clears him, finds RCMP at fault' },
+ { date: '2007', event: 'Canada pays $10.5 million settlement and apologizes' },
+ ],
+ sources: [
+ { title: 'Commission of Inquiry into the Actions of Canadian Officials (O\'Connor Report)', url: 'https://www.cia.gov/readingroom/', date: '2006' },
+ { title: 'Arar v. Ashcroft court filings', url: 'https://www.courtlistener.com/', date: '2004-2010' },
+ ],
+ },
+ 'madeleine-albright': {
+ name: 'Madeleine Albright',
+ title: 'Secretary of State (1997-2001)',
+ role: 'Said Iraq sanctions killing 500,000 children was"worth it"',
+ riskLevel: 'critical',
+ description: 'Madeleine Albright was the first female Secretary of State. She infamously said on 60 Minutes that the deaths of 500,000 Iraqi children from sanctions was"worth it."She advocated for the NATO bombing of Yugoslavia and defended U.S. interventionist foreign policy.',
+ birthDate: 'May 15, 1937',
+ birthPlace: 'Prague, Czechoslovakia',
+ deathDate: 'March 23, 2022',
+ education: ['Wellesley College', 'Columbia University'],
+ affiliations: [
+ { name: 'U.S. State Department', role: 'Secretary of State (1997-2001)', type: 'agency' },
+ { name: 'United Nations', role: 'U.S. Ambassador (1993-1997)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Bill Clinton', relationship: 'President who appointed her', href: '/entities/individuals/bill-clinton' },
+ ],
+ controversies: [
+ '"WORTH IT": Said 500,000 Iraqi children dead from sanctions was"worth it"on 60 Minutes',
+ 'YUGOSLAVIA BOMBING: Advocated for NATO bombing campaign',
+ 'INTERVENTIONISM: Pushed aggressive foreign policy causing civilian deaths',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Iraq Sanctions', slug: 'iraq-sanctions', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'May 15, 1937', event: 'Born in Prague, Czechoslovakia' },
+ { date: '1993-1997', event: 'U.S. Ambassador to United Nations' },
+ { date: 'May 12, 1996', event: '"Worth it"statement on 60 Minutes' },
+ { date: 'January 23, 1997', event: 'Becomes Secretary of State' },
+ { date: 'March 23, 2022', event: 'Dies' },
+ ],
+ sources: [
+ { title: '60 Minutes interview', url: 'https://scholar.google.com/scholar?q=60%20Minutes%20interview', date: '1996' },
+ ],
+ },
+ 'mohammad-mosaddegh': {
+ name: 'Mohammad Mosaddegh',
+ title: 'Prime Minister of Iran (1951-1953)',
+ role: 'Democratically elected leader overthrown by CIA/MI6 coup',
+ riskLevel: 'low',
+ description: 'Mohammad Mosaddegh was the democratically elected Prime Minister of Iran who nationalized the British-controlled oil industry. In 1953, the CIA and MI6 overthrew him in Operation Ajax, replacing him with the Shah\'s authoritarian rule. This coup shaped Iranian distrust of the West for generations.',
+ birthDate: 'June 16, 1882',
+ birthPlace: 'Tehran, Iran',
+ deathDate: 'March 5, 1967',
+ education: ['Sciences Po, Paris', 'University of Neuchâtel'],
+ affiliations: [
+ { name: 'Iranian Government', role: 'Prime Minister (1951-1953)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Dwight D. Eisenhower', relationship: 'U.S. President who authorized CIA coup (Operation Ajax) that overthrew Mosaddegh\'s democratically elected government in 1953', href: '/entities/individuals/dwight-d-eisenhower' },
+ { name: 'Allen Dulles', relationship: 'CIA Director who orchestrated the 1953 Iranian coup against Mosaddegh', href: '/entities/individuals/allen-dulles' },
+ { name: 'Winston Churchill', relationship: 'British PM who pushed for coup after Mosaddegh nationalized Anglo-Iranian Oil Company', href: '/entities/individuals/winston-churchill' },
+ ],
+ controversies: [
+ 'Democratically elected Iranian PM overthrown in CIA/MI6-backed coup (Operation Ajax) in 1953',
+ 'Nationalized Anglo-Iranian Oil Company which triggered Western-backed regime change',
+ 'His overthrow installed the Shah whose authoritarian rule ultimately led to the 1979 Islamic Revolution',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Iran Coup 1953', slug: 'iran-coup', severity: 'critical' },
+ { title: 'CIA Coups', slug: 'cia-coups', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'June 16, 1882', event: 'Born in Tehran' },
+ { date: 'April 28, 1951', event: 'Becomes Prime Minister' },
+ { date: 'May 1, 1951', event: 'Nationalizes Anglo-Iranian Oil Company' },
+ { date: 'August 19, 1953', event: 'Overthrown in CIA/MI6 coup' },
+ { date: '1953-1956', event: 'Imprisoned' },
+ { date: '1956-1967', event: 'House arrest until death' },
+ { date: 'March 5, 1967', event: 'Dies under house arrest' },
+ ],
+ sources: [
+ { title: 'CIA declassified coup documents', url: 'https://www.cia.gov/readingroom/', date: '2013' },
+ { title: 'Ervand Abrahamian -"The Coup"', url: 'https://scholar.google.com/scholar?q=Ervand%20Abrahamian%20-%22The%20Coup%22', date: '2013' },
+ ],
+ },
+ 'manuel-noriega': {
+ name: 'Manuel Noriega',
+ title: 'Dictator of Panama (1983-1989)',
+ role: 'CIA asset and drug trafficker invaded by U.S. forces',
+ riskLevel: 'critical',
+ description: 'Manuel Noriega was a Panamanian dictator who was on the CIA payroll for decades while simultaneously trafficking drugs. When he became politically inconvenient, the U.S. invaded Panama in 1989 ("Operation Just Cause"), killing hundreds of civilians. He was captured, tried in the U.S., and died in prison.',
+ birthDate: 'February 11, 1934',
+ birthPlace: 'Panama City, Panama',
+ deathDate: 'May 29, 2017',
+ education: ['Military School of Chorrillos (Peru)'],
+ affiliations: [
+ { name: 'Panamanian Defense Forces', role: 'Commander', type: 'agency' },
+ { name: 'Central Intelligence Agency', role: 'Paid Asset', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'George H.W. Bush', relationship: 'CIA contact when Bush was DCI', href: '/entities/individuals/george-hw-bush' },
+ ],
+ controversies: [
+ 'CIA ASSET: Paid by CIA while trafficking drugs',
+ 'DRUG TRAFFICKING: Facilitated Colombian cartels',
+ 'U.S. INVASION: 1989 invasion killed hundreds of civilians',
+ 'DICTATOR: Rigged elections, murdered opponents',
+ ],
+ charges: [
+ { statute: '21 U.S.C. § 846', description: 'Drug Trafficking Conspiracy', category: 'Federal Crime' },
+ ],
+ relatedInvestigations: [
+ { title: 'Panama Invasion', slug: 'panama-invasion', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'February 11, 1934', event: 'Born in Panama City' },
+ { date: '1966', event: 'Begins working with CIA' },
+ { date: '1983', event: 'Becomes de facto dictator' },
+ { date: 'December 20, 1989', event: 'U.S. invades Panama' },
+ { date: 'January 3, 1990', event: 'Surrenders to U.S. forces' },
+ { date: '1992', event: 'Convicted of drug trafficking' },
+ { date: 'May 29, 2017', event: 'Dies in prison' },
+ ],
+ sources: [
+ { title: 'U.S. v. Noriega court records', url: 'https://scholar.google.com/scholar?q=U.S.%20v.%20Noriega%20court%20records', date: '1992' },
+ { title: 'CIA declassified files on Noriega', url: 'https://scholar.google.com/scholar?q=CIA%20declassified%20files%20on%20Noriega', date: 'Various' },
+ ],
+ },
+ 'mike-johnson': {
+ name: 'Mike Johnson',
+ title: 'Speaker of the House',
+ role: 'House Speaker who helped coordinate efforts to overturn 2020 election',
+ riskLevel: 'high',
+ description: 'Mike Johnson became House Speaker in October 2023. Before that, he was a key architect of efforts to overturn the 2020 election, helping coordinate the strategy to object to electoral votes and filing an amicus brief in Texas v. Pennsylvania. He recruited 100+ Republicans to sign onto the brief challenging election results.',
+ birthDate: 'January 30, 1972',
+ birthPlace: 'Shreveport, Louisiana',
+ education: ['Louisiana State University', 'Paul M. Hebert Law Center'],
+ affiliations: [
+ { name: 'United States House of Representatives', role: 'Speaker', type: 'agency' },
+ { name: 'Republican Party', role: 'House Leader', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Aligned with election overturn efforts', href: '/entities/individuals/donald-trump' },
+ ],
+ controversies: [
+ 'ELECTION OBJECTION: Helped coordinate Republican objections to 2020 election certification',
+ 'TEXAS AMICUS: Recruited 100+ Republicans to sign amicus brief in Texas v. Pennsylvania',
+ 'JANUARY 6: Participated in congressional effort to delay certification',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ { title: '2020 Election Overturn Attempt', slug: '2020-election-overturn', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'January 30, 1972', event: 'Born in Shreveport, Louisiana' },
+ { date: '2017', event: 'Elected to Congress' },
+ { date: 'December 2020', event: 'Organizes Texas amicus brief' },
+ { date: 'January 6, 2021', event: 'Objects to electoral votes' },
+ { date: 'October 25, 2023', event: 'Elected Speaker of the House' },
+ ],
+ sources: [
+ { title: 'Texas v. Pennsylvania amicus brief', url: 'https://scholar.google.com/scholar?q=Texas%20v.%20Pennsylvania%20amicus%20brief', date: '2020' },
+ ],
+ },
+ 'milton-eisenhower': {
+ name: 'Milton Eisenhower',
+ title: 'Eisenhower Adviser / Japanese Internment Figure',
+ role: 'Helped design Japanese American internment program',
+ riskLevel: 'high',
+ description: 'Milton Eisenhower, brother of Dwight Eisenhower, served as the first director of the War Relocation Authority in 1942. He helped design the unconstitutional program that imprisoned 120,000 Japanese Americans. He later expressed regret but was instrumental in creating the concentration camp system.',
+ birthDate: 'September 15, 1899',
+ birthPlace: 'Abilene, Kansas',
+ deathDate: 'May 2, 1985',
+ education: ['Kansas State University'],
+ affiliations: [
+ { name: 'War Relocation Authority', role: 'First Director (1942)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Dwight D. Eisenhower', relationship: 'Brother', href: '/entities/individuals/dwight-eisenhower' },
+ { name: 'Dillon S. Myer', relationship: 'Successor at WRA', href: '/entities/individuals/dillon-myer' },
+ ],
+ controversies: [
+ 'INTERNMENT ARCHITECT: Helped design Japanese American imprisonment program',
+ 'WRA DIRECTOR: First head of War Relocation Authority',
+ 'LATER REGRET: Expressed remorse but damage was done',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'September 15, 1899', event: 'Born in Abilene, Kansas' },
+ { date: 'March 1942', event: 'Becomes first WRA director' },
+ { date: 'June 1942', event: 'Leaves WRA, replaced by Dillon Myer' },
+ { date: 'May 2, 1985', event: 'Dies' },
+ ],
+ sources: [
+ { title: 'Commission on Wartime Relocation Report', url: 'https://scholar.google.com/scholar?q=Commission%20on%20Wartime%20Relocation%20Report', date: '1983' },
+ ],
+ },
+ 'martin-winterkorn': {
+ name: 'Martin Winterkorn',
+ title: 'Former CEO (Charged)',
+ role: 'Former CEO of Volkswagen',
+ riskLevel: 'critical',
+ description: 'Martin Winterkorn was CEO of Volkswagen when the company was caught cheating on emissions tests in 11 million vehicles. He was charged in the US but avoided extradition. The fraud killed thousands through excess pollution.',
+ birthDate: 'May 24, 1947',
+ birthPlace: 'Leonberg, West Germany',
+ education: ['University of Stuttgart (Metallurgy)', 'Max Planck Institute (PhD)'],
+ affiliations: [
+ { name: 'Volkswagen', role: 'CEO', type: 'corporation' as const },
+ { name: 'Audi', role: 'CEO', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Oliver Schmidt', relationship: 'VW executive who was imprisoned in the U.S. for his role in the diesel emissions scandal', href: '/entities/individuals/oliver-schmidt' },
+ { name: 'Herbert Diess', relationship: 'Successor as VW CEO tasked with repairing the company after Winterkorn\'s emissions fraud scandal', href: '/entities/individuals/herbert-diess' },
+ ],
+ controversies: [
+ 'DIESELGATE: 11 million vehicles with defeat devices',
+ 'DECEPTION:"Clean diesel"marketing was fraud',
+ 'HEALTH HARM: Excess emissions caused thousands of deaths',
+ 'AVOIDANCE: Charged in US but avoided extradition',
+ ],
+ charges: [
+ { statute: 'Wire Fraud', description: 'Conspiracy to defraud US', category: 'Federal Crime' },
+ ],
+ relatedInvestigations: [
+ { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
+ ],
+ timeline: [
+ { date: '2007', event: 'Becomes VW CEO' },
+ { date: 'September 2015', event: 'EPA reveals defeat devices' },
+ { date: 'September 2015', event: 'Resigns as CEO' },
+ { date: 'May 2018', event: 'Charged by US prosecutors' },
+ { date: '2019', event: 'Charged in Germany for fraud' },
+ ],
+ sources: [{ title: 'Wikipedia: Martin Winterkorn', url: 'https://en.wikipedia.org/wiki/Martin_Winterkorn' }, { title: 'Bloomberg: Martin Winterkorn', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ },
+ 'michael-huerta': {
+ name: 'Michael Huerta',
+ title: 'Transportation Official',
+ role: 'Former FAA Administrator (2013-2018)',
+ riskLevel: 'medium',
+ description: 'Michael Huerta served as FAA Administrator from 2013 to 2018. Under his leadership, the FAA expanded the Organization Designation Authorization (ODA) program that allowed Boeing to self-certify aircraft. He was Administrator when the flawed 737 MAX was certified in 2017. After leaving the FAA, he joined multiple corporate boards.',
+ birthDate: 'January 21, 1956',
+ birthPlace: 'Riverside, California',
+ education: ['Princeton University', 'Wharton School of Business'],
+ affiliations: [
+ { name: 'FAA', role: 'Administrator', type: 'agency' as const },
+ { name: 'Department of Transportation', role: 'Various positions', type: 'agency' as const },
+ ],
+ knownAssociates: [
+ { name: 'Ali Bahrami', relationship: 'FAA colleague', href: '/entities/individuals/ali-bahrami' },
+ ],
+ controversies: [
+ 'ODA EXPANSION: Oversaw expansion of self-certification program',
+ 'MAX CERTIFICATION: 737 MAX certified under his watch',
+ 'CORPORATE BOARDS: Joined corporate boards after leaving FAA',
+ 'UNDERSTAFFING: Air traffic controller shortage worsened during tenure',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ { title: 'Regulatory Capture', slug: 'regulatory-capture', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'January 21, 1956', event: 'Born in California' },
+ { date: '2010', event: 'Joins FAA as Deputy Administrator' },
+ { date: 'December 2011', event: 'Becomes Acting Administrator' },
+ { date: 'January 2013', event: 'Confirmed as Administrator' },
+ { date: 'March 2017', event: '737 MAX certified by FAA' },
+ { date: 'January 2018', event: 'Term ends' },
+ ],
+ sources: [{ title: 'Wikipedia: Michael Huerta', url: 'https://en.wikipedia.org/wiki/Michael_Huerta' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ },
+ 'mike-whitaker': {
+ name: 'Mike Whitaker',
+ title: 'Aviation Official',
+ role: 'FAA Administrator (2023-present)',
+ riskLevel: 'medium',
+ description: 'Mike Whitaker is the current FAA Administrator, confirmed in October 2023. He previously served as FAA Deputy Administrator from 2013-2016 and later worked for Supernal (Hyundai air mobility company). He inherited an FAA in crisis following the Boeing 737 MAX disasters and Alaska Airlines door plug blowout. While he has taken a tougher stance on Boeing than predecessors, critics argue systemic reform of the FAA\'s cozy relationship with industry remains incomplete.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Georgetown University', 'Harvard Business School'],
+ affiliations: [
+ { name: 'FAA', role: 'Administrator', type: 'agency' as const },
+ { name: 'Supernal', role: 'Chief Operating Officer', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Pete Buttigieg', relationship: 'Secretary of Transportation (boss)', href: '/entities/individuals/pete-buttigieg' },
+ ],
+ controversies: [
+ 'INDUSTRY TIES: Worked for Hyundai air mobility company before returning to FAA',
+ 'INHERITED CRISIS: Took over FAA after years of regulatory failure',
+ 'SLOW REFORM: Critics say systemic changes to FAA-industry relationship incomplete',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ { title: 'Regulatory Capture', slug: 'regulatory-capture', severity: 'high' },
+ ],
+ timeline: [
+ { date: '2013', event: 'Becomes FAA Deputy Administrator' },
+ { date: '2016', event: 'Leaves FAA' },
+ { date: '2021', event: 'Joins Supernal (Hyundai)' },
+ { date: 'October 2023', event: 'Confirmed as FAA Administrator' },
+ { date: 'January 2024', event: 'Deals with Alaska Airlines door plug blowout' },
+ ],
+ sources: [{ title: 'Wikipedia: Mike Whitaker', url: 'https://en.wikipedia.org/wiki/Mike_Whitaker' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ },
+ 'marion-blakey': {
+ name: 'Marion Blakey',
+ title: 'Aviation Executive',
+ role: 'Former FAA Administrator (2002-2007)',
+ riskLevel: 'high',
+ description: 'Marion Blakey served as FAA Administrator from 2002 to 2007. Her tenure saw the expansion of the ODA program that would later allow Boeing to self-certify the 737 MAX. After leaving the FAA, she became President and CEO of the Aerospace Industries Association, the lobbying group that advocates for reduced FAA oversight - the very industry she had regulated. This exemplifies the"revolving door"corruption at the FAA.',
+ birthDate: 'July 29, 1948',
+ birthPlace: 'Gadsden, Alabama',
+ education: ['Mary Washington College'],
+ affiliations: [
+ { name: 'FAA', role: 'Administrator', type: 'agency' as const },
+ { name: 'Aerospace Industries Association', role: 'President & CEO', type: 'organization' as const },
+ { name: 'Rolls-Royce North America', role: 'Board Director', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Ali Bahrami', relationship: 'Succeeded her at AIA', href: '/entities/individuals/ali-bahrami' },
+ ],
+ controversies: [
+ 'REVOLVING DOOR: Went from FAA Administrator to CEO of aerospace industry lobbying group',
+ 'ODA EXPANSION: Oversaw growth of self-certification program during tenure',
+ 'CONFLICT OF INTEREST: Lobbied for reduced oversight of industry she once regulated',
+ 'CORPORATE BOARDS: Joined boards of companies FAA regulates',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Regulatory Capture', slug: 'regulatory-capture', severity: 'high' },
+ { title: 'Corporate Influence', slug: 'corporate-influence', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'July 29, 1948', event: 'Born in Alabama' },
+ { date: 'September 2002', event: 'Becomes FAA Administrator' },
+ { date: '2007', event: 'Leaves FAA' },
+ { date: '2007', event: 'Becomes CEO of Aerospace Industries Association' },
+ { date: '2017', event: 'Becomes AIA Chairman' },
+ ],
+ sources: [{ title: 'Wikipedia: Marion Blakey', url: 'https://en.wikipedia.org/wiki/Marion_Blakey' }, { title: 'Bloomberg: Marion Blakey', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
+ },
+ 'michael-stumo': {
+ name: 'Michael Stumo',
+ title: 'Victims Advocate',
+ role: 'Father of Boeing Crash Victim',
+ riskLevel: 'low',
+ description: 'Michael Stumo is an attorney and trade policy advocate whose 24-year-old daughter Samya Rose Stumo was killed in the Ethiopian Airlines Flight 302 crash on March 10, 2019. Since her death, he and his wife Nadia Milleron have become leading advocates for aviation safety reform, testifying before Congress, meeting with regulators, and pushing for accountability for Boeing executives. Stumo has been a vocal critic of the FAA\'s"tombstone mentality"that only acts after people die.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Law degree'],
+ affiliations: [
+ { name: 'Coalition for a Prosperous America', role: 'CEO', type: 'organization' as const },
+ ],
+ knownAssociates: [
+ { name: 'Nadia Milleron', relationship: 'Wife, fellow advocate', href: '/entities/individuals/nadia-milleron' },
+ { name: 'Ed Pierson', relationship: 'Boeing whistleblower ally', href: '/entities/individuals/ed-pierson' },
+ { name: 'Paul Njoroge', relationship: 'Fellow victims advocate', href: '/entities/individuals/paul-njoroge' },
+ ],
+ controversies: [
+ 'VICTIMS ADVOCATE: Lost daughter Samya in Ethiopian crash',
+ 'FAA CRITIC: Testified against FAA regulatory failures',
+ 'BOEING ACCOUNTABILITY: Pushed for criminal prosecution of executives',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 10, 2019', event: 'Daughter Samya killed in Ethiopian 302' },
+ { date: '2019-present', event: 'Congressional testimonies on Boeing' },
+ { date: '2020', event: 'Opposes deferred prosecution agreement for Boeing' },
+ ],
+ sources: [{ title: 'Wikipedia: Michael Stumo', url: 'https://www.google.com/search?q=Michael%20Stumo' }, { title: 'Bloomberg: Michael Stumo', url: 'https://www.bloomberg.com/' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
+ },
+ 'mike-sinnett': {
+ name: 'Mike Sinnett',
+ title: 'Boeing Executive',
+ role: 'Former Boeing VP of Product Strategy',
+ riskLevel: 'high',
+ description: 'Mike Sinnett was Boeing\'s Vice President of Product Strategy and one of the executives who defended MCAS to the media and regulators after the Lion Air crash. He minimized the system\'s risks and assured the public the 737 MAX was safe - just months before the Ethiopian Airlines crash. His public defense of Boeing\'s decisions helped delay action that could have prevented the second crash.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Engineering degree'],
+ affiliations: [
+ { name: 'Boeing', role: 'VP of Product Strategy', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Dennis Muilenburg', relationship: 'Boeing CEO', href: '/entities/individuals/dennis-muilenburg' },
+ ],
+ controversies: [
+ 'MCAS DEFENSE: Publicly defended MCAS system after Lion Air crash',
+ 'DOWNPLAYED RISKS: Minimized dangers before Ethiopian crash',
+ 'MEDIA APPEARANCES: Assured public MAX was safe',
+ 'SECOND CRASH: Ethiopian crash occurred after his reassurances',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'Unknown', event: 'Boeing career' },
+ { date: 'October 2018', event: 'Lion Air crash' },
+ { date: 'November 2018', event: 'Defends MCAS publicly' },
+ { date: 'March 2019', event: 'Ethiopian crash after his assurances' },
+ ],
+ sources: [{ title: 'Wikipedia: Mike Sinnett', url: 'https://en.wikipedia.org/wiki/Mike_Sinnett' }, { title: 'Bloomberg: Mike Sinnett', url: 'https://www.bloomberg.com/' }],
+ },
+ 'mark-forkner': {
+ name: 'Mark Forkner',
+ title: 'Boeing Pilot',
+ role: 'Former Boeing Chief Technical Pilot for 737 MAX',
+ riskLevel: 'high',
+ description: 'Mark Forkner was Boeing\'s Chief Technical Pilot for the 737 MAX and the only Boeing employee criminally charged in connection with the crashes. Text messages revealed he told colleagues he had"basically lied to the regulators (unknowingly)"about MCAS, and joked that the system was"running rampant"in simulator tests. He was charged with fraud for deceiving the FAA to keep MCAS out of pilot training materials. He was acquitted in March 2022, with jurors saying Boeing leadership should have been charged instead.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Pilot training'],
+ affiliations: [
+ { name: 'Boeing', role: 'Chief Technical Pilot', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Dennis Muilenburg', relationship: 'Boeing CEO', href: '/entities/individuals/dennis-muilenburg' },
+ ],
+ controversies: [
+ 'DECEIVED FAA: Texts showed he misled regulators about MCAS',
+ '"LIED TO REGULATORS": Own words in messages',
+ 'ONLY PERSON CHARGED: Sole Boeing employee criminally prosecuted',
+ 'ACQUITTED: Jury found not guilty - said executives should have been charged',
+ 'TRAINING MATERIALS: Kept MCAS dangers out of pilot training',
+ ],
+ charges: [
+ { statute: 'Wire Fraud', description: 'Deceiving FAA about MCAS system', category: 'Federal Crime' },
+ ],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ { title: 'Obstruction of Justice', slug: 'obstruction-of-justice', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'Unknown', event: 'Boeing career as pilot' },
+ { date: '2016', event: 'Sends messages about deceiving FAA' },
+ { date: 'October 2018', event: 'Lion Air crash' },
+ { date: 'March 2019', event: 'Ethiopian crash' },
+ { date: 'October 2021', event: 'Indicted on fraud charges' },
+ { date: 'March 2022', event: 'Acquitted by jury' },
+ ],
+ sources: [{ title: 'Wikipedia: Mark Forkner', url: 'https://en.wikipedia.org/wiki/Mark_Forkner' }, { title: 'Wired: Mark Forkner', url: 'https://www.wired.com/' }],
+ },
+ 'maria-cantwell': {
+ name: 'Maria Cantwell',
+ title: 'Politician',
+ role: 'US Senator from Washington',
+ riskLevel: 'medium',
+ description: 'Maria Cantwell is a US Senator from Washington (where Boeing has major operations) who chairs the Senate Commerce Committee. While she led investigations into the 737 MAX crashes and sponsored aviation safety legislation, critics note her difficult position representing a state whose economy depends heavily on Boeing. She has pushed for reforms while also supporting Boeing jobs, leading to accusations of conflicted oversight.',
+ birthDate: 'October 13, 1958',
+ birthPlace: 'Indianapolis, Indiana',
+ education: ['Miami University'],
+ affiliations: [
+ { name: 'US Senate', role: 'Senator', type: 'agency' as const },
+ ],
+ knownAssociates: [
+ { name: 'Peter DeFazio', relationship: 'Congressional ally on aviation safety', href: '/entities/individuals/peter-defazio' },
+ ],
+ controversies: [
+ 'BOEING STATE: Represents Washington where Boeing is major employer',
+ 'CONFLICTED: Pushed reforms while supporting Boeing jobs',
+ 'INVESTIGATION LEADER: Led Senate investigation of MAX crashes',
+ 'LEGISLATION: Sponsored aviation safety reforms',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ { title: 'Regulatory Capture', slug: 'regulatory-capture', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'October 13, 1958', event: 'Born in Indiana' },
+ { date: '2001', event: 'Becomes US Senator from Washington' },
+ { date: '2019', event: 'Leads Senate investigation of MAX crashes' },
+ { date: '2020', event: 'Aviation safety legislation' },
+ ],
+ sources: [{ title: 'Wikipedia: Maria Cantwell', url: 'https://en.wikipedia.org/wiki/Maria_Cantwell' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ },
+ 'mark-lindquist': {
+ name: 'Mark Lindquist',
+ title: 'Attorney',
+ role: 'Aviation Disaster Attorney',
+ riskLevel: 'low',
+ description: 'Mark Lindquist is an aviation disaster attorney who has represented families of Boeing 737 MAX crash victims. Based in Washington State near Boeing headquarters, he has been a vocal critic of Boeing\'s safety culture and the FAA\'s regulatory failures. He has pushed for accountability and helped expose documents showing Boeing knew of MCAS dangers.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Law degree'],
+ affiliations: [
+ { name: 'Herrmann Law Group', role: 'Attorney', type: 'organization' as const },
+ ],
+ knownAssociates: [
+ { name: 'Robert Clifford', relationship: 'Fellow aviation attorney', href: '/entities/individuals/robert-clifford' },
+ ],
+ controversies: [
+ 'VICTIMS ATTORNEY: Represents MAX crash families',
+ 'BOEING CRITIC: Exposed documents on Boeing knowledge',
+ 'ACCOUNTABILITY: Pushed for executive prosecution',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2019+', event: 'Represents Boeing crash victims' },
+ ],
+ sources: [{ title: 'Wikipedia: Mark Lindquist', url: 'https://en.wikipedia.org/wiki/Mark_Lindquist' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
+ },
+ 'michael-oleary': {
+ name: 'Michael O\'Leary',
+ title: 'Airline Executive',
+ role: 'Ryanair CEO',
+ riskLevel: 'medium',
+ description: 'Michael O\'Leary is CEO of Ryanair, one of the world\'s largest 737 MAX operators and Boeing\'s biggest European customer. Unlike other airline executives, O\'Leary defended Boeing during the MAX crisis and continued to order MAX aircraft, arguing the plane was safe after fixes. His vocal support for Boeing influenced European attitudes toward the aircraft.',
+ birthDate: 'March 20, 1961',
+ birthPlace: 'Mullingar, Ireland',
+ education: ['Trinity College Dublin'],
+ affiliations: [
+ { name: 'Ryanair', role: 'CEO', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX crisis; Ryanair is major Boeing customer and O\'Leary publicly criticized delays', href: '/entities/individuals/dennis-muilenburg' },
+ { name: 'Willie Walsh', relationship: 'IAG CEO and fellow European aviation executive; both shaped low-cost carrier competition', href: '/entities/individuals/willie-walsh' },
+ ],
+ controversies: [
+ 'BOEING DEFENDER: Defended MAX during crisis',
+ 'CONTINUED ORDERS: Kept ordering MAX jets',
+ 'EUROPEAN INFLUENCE: Shaped MAX return in Europe',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 20, 1961', event: 'Born in Ireland' },
+ { date: '1994', event: 'Becomes Ryanair CEO' },
+ { date: '2019', event: 'Defends Boeing during MAX grounding' },
+ ],
+ sources: [{ title: 'Wikipedia: Michael O', url: 'https://www.google.com/search?q=Michael%20O' }, { title: 'Bloomberg: Michael O', url: 'https://www.bloomberg.com/' }],
+ },
+ 'michael-teal': {
+ name: 'Michael Teal',
+ title: 'Boeing Engineer',
+ role: 'Boeing 737 Chief Engineer',
+ riskLevel: 'high',
+ description: 'Michael Teal served as Chief Engineer on the Boeing 737, including during the MAX development. As the lead engineer for the aircraft, he had responsibility for technical decisions about the plane\'s design. He retired before the crashes.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Engineering degree'],
+ affiliations: [
+ { name: 'Boeing', role: 'Chief Engineer 737', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX development; Teal served as chief engineer for the program', href: '/entities/individuals/dennis-muilenburg' },
+ { name: 'Keith Leverkuhn', relationship: 'Boeing 737 MAX program VP who worked alongside Teal on the aircraft\'s development', href: '/entities/individuals/keith-leverkuhn' },
+ ],
+ controversies: [
+ 'CHIEF ENGINEER: Lead technical authority on 737',
+ 'MAX DEVELOPMENT: Oversaw MAX engineering',
+ 'DESIGN DECISIONS: Technical decisions on MCAS',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'Unknown', event: 'Boeing engineering career' },
+ ],
+ sources: [{ title: 'Wikipedia: Michael Teal', url: 'https://www.google.com/search?q=Michael%20Teal' }, { title: 'Wired: Michael Teal', url: 'https://www.wired.com/' }],
+ },
+ 'margaret-gilligan': {
+ name: 'Margaret Gilligan',
+ title: 'FAA Official',
+ role: 'Former FAA Associate Administrator',
+ riskLevel: 'high',
+ description: 'Margaret"Peggy"Gilligan (not to be confused with Peggy Gilligan) served in senior FAA positions with aviation safety responsibilities. Long-tenured FAA officials oversaw the expansion of the ODA program that contributed to certification failures.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'FAA', role: 'Former Associate Administrator', type: 'agency' as const },
+ ],
+ knownAssociates: [
+ { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Gilligan\'s FAA division certified the 737 MAX', href: '/entities/individuals/dennis-muilenburg' },
+ { name: 'Ali Bahrami', relationship: 'FAA successor who continued aviation safety oversight after Gilligan\'s retirement', href: '/entities/individuals/ali-bahrami' },
+ ],
+ controversies: [
+ 'LONG TENURE: FAA official during ODA expansion',
+ 'CERTIFICATION OVERSIGHT: Safety role during key period',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'Unknown', event: 'FAA career' },
+ ],
+ sources: [{ title: 'Wikipedia: Margaret Gilligan', url: 'https://www.google.com/search?q=Margaret%20Gilligan' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ },
+ 'mary-schiavo': {
+ name: 'Mary Schiavo',
+ title: 'Former Inspector General',
+ role: 'Former DOT Inspector General',
+ riskLevel: 'low',
+ description: 'Mary Schiavo served as DOT Inspector General from 1990 to 1996, where she exposed FAA failures. She resigned citing FAA\'s inability to improve. After leaving government, she became an aviation safety attorney and commentator, frequently criticizing FAA\'s captured relationship with industry.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Unknown', 'Law degree'],
+ affiliations: [
+ { name: 'Department of Transportation', role: 'Former Inspector General', type: 'agency' as const },
+ ],
+ knownAssociates: [
+ { name: 'David Hinson', relationship: 'FAA Administrator whom Schiavo exposed for regulatory failures as DOT Inspector General', href: '/entities/individuals/david-hinson' },
+ { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Schiavo has publicly criticized for putting profits over safety', href: '/entities/individuals/dennis-muilenburg' },
+ { name: 'William McGee', relationship: 'Fellow aviation safety advocate and consumer protection journalist', href: '/entities/individuals/william-mcgee' },
+ ],
+ controversies: [
+ 'FAA CRITIC: Long-time critic of FAA capture',
+ 'INSPECTOR GENERAL: Exposed FAA failures',
+ 'RESIGNED IN PROTEST: Left citing FAA problems',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ { title: 'Regulatory Capture', slug: 'regulatory-capture', severity: 'high' },
+ ],
+ timeline: [
+ { date: '1990-1996', event: 'DOT Inspector General' },
+ { date: '1996', event: 'Resigns, becomes safety advocate' },
+ ],
+ sources: [{ title: 'Wikipedia: Mary Schiavo', url: 'https://en.wikipedia.org/wiki/Mary_Schiavo' }, { title: 'Military Times: Mary Schiavo', url: 'https://www.militarytimes.com/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
+ },
+ 'mortimer-sackler': {
+ name: 'Mortimer Sackler',
+ title: 'Purdue Pharma Co-owner',
+ role: 'Sackler Family - OxyContin Empire',
+ riskLevel: 'critical',
+ description: 'Mortimer Sackler was co-owner of Purdue Pharma with his brothers. The family built a pharmaceutical dynasty that aggressively marketed OxyContin while hiding its addictive properties. When the opioid epidemic became undeniable, the Sacklers withdrew billions from Purdue before its bankruptcy.',
+ birthDate: '1916',
+ birthPlace: 'Brooklyn, New York',
+ deathDate: 'March 24, 2010',
+ education: ['NYU (Medicine)', 'University of Glasgow'],
+ affiliations: [
+ { name: 'Purdue Pharma', role: 'Co-owner', type: 'corporation' as const },
+ ],
+
+ knownAssociates: [
+ { name: 'Richard Sackler', relationship: 'Nephew and fellow Purdue Pharma board member who aggressively promoted OxyContin sales despite knowing addiction risks', href: '/entities/individuals/richard-sackler' },
+ { name: 'Raymond Sackler', relationship: 'Brother and co-owner of Purdue Pharma who shared responsibility for the company\'s role in the opioid epidemic', href: '/entities/individuals/raymond-sackler' },
+ { name: 'Arthur Sackler', relationship: 'Brother who built the original Sackler pharmaceutical fortune through aggressive marketing of Valium', href: '/entities/individuals/arthur-sackler' },
+ ],
+ controversies: [
+ 'OXYCONTIN FORTUNE: Built wealth on addiction',
+ 'UK KNIGHTHOOD: Made CBE despite drug crisis',
+ 'PHILANTHROPY COVER: Used donations to launder reputation',
+ ],
+ charges: [
+ { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity', category: 'INTERNATIONAL' },
+ ],
+ relatedInvestigations: [
+ { title: 'Opioid Crisis', slug: 'opioid-crisis', severity: 'critical' },
+ { title: 'Sackler Family Crimes', slug: 'sackler-family', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1916', event: 'Born in Brooklyn' },
+ { date: '1996', event: 'OxyContin launch' },
+ { date: 'March 24, 2010', event: 'Dies at 93' },
+ ],
+ sources: [{ title: 'Wikipedia: Mortimer Sackler', url: 'https://en.wikipedia.org/wiki/Mortimer_Sackler' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
+ },
+ 'michael-bloomberg': {
+ name: 'Michael Bloomberg',
+ title: 'Former NYC Mayor / Bloomberg LP Founder',
+ role: 'Bloomberg LP - Media Power, Stop-and-Frisk Architect',
+ riskLevel: 'high',
+ description: 'Michael Bloomberg served as NYC Mayor from 2002-2013 and is founder of Bloomberg LP. As mayor, he implemented the racist stop-and-frisk policy that disproportionately targeted Black and Latino New Yorkers. His media empire creates conflicts of interest in financial coverage. He spent $1 billion on his failed presidential campaign.',
+ birthDate: 'February 14, 1942',
+ birthPlace: 'Boston, Massachusetts',
+ education: ['Johns Hopkins University', 'Harvard Business School'],
+ netWorth: '$106 billion',
+ affiliations: [
+ { name: 'Bloomberg LP', role: 'Founder/Owner', type: 'corporation' as const },
+ { name: 'NYC Government', role: 'Former Mayor', type: 'agency' as const },
+ ],
+ controversies: [
+ 'STOP AND FRISK: 5 million stops, 90% minorities, ruled unconstitutional',
+ 'MEDIA CONFLICTS: Bloomberg News avoids negative coverage of China',
+ 'WORKPLACE HARASSMENT: Multiple lawsuits alleging hostile environment',
+ 'OCCUPY CRACKDOWN: Violently cleared Zuccotti Park',
+ 'BILLION DOLLAR CAMPAIGN: Bought way into debates then dropped out',
+ 'NDA SETTLEMENTS: Refused to release women from NDAs',
+ ],
+ charges: [
+ { statute: '42 U.S.C. � 1983', description: 'Civil Rights Violations - Stop and frisk policy', category: 'RULED UNCONSTITUTIONAL' },
+ { statute: 'Title VII', description: 'Workplace discrimination allegations', category: 'SETTLED' },
+ ],
+ relatedInvestigations: [
+ { title: 'NYPD Racial Profiling', slug: 'nypd-racial-profiling', severity: 'critical' },
+ { title: 'Media Consolidation', slug: 'media-consolidation', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'February 14, 1942', event: 'Born in Boston' },
+ { date: '1981', event: 'Founds Bloomberg LP' },
+ { date: '2002-2013', event: 'NYC Mayor (3 terms)' },
+ { date: '2013', event: 'Stop-and-frisk ruled unconstitutional' },
+ { date: '2020', event: 'Failed presidential campaign' },
+ ],
+ sources: [{ title: 'Wikipedia: Michael Bloomberg', url: 'https://en.wikipedia.org/wiki/Michael_Bloomberg' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Ran against Trump-era politics in 2020 presidential bid', href: '/entities/individuals/donald-trump' },
+ { name: 'Ray Dalio', relationship: 'Fellow billionaire financier and philanthropist', href: '/entities/individuals/ray-dalio' }
+ ],
+
+ },
+ 'michael-milken': {
+ name: 'Michael Milken',
+ title: 'Convicted Financier',
+ role: '"Junk Bond King"- Securities Fraud Conviction',
+ riskLevel: 'high',
+ description: 'Michael Milken pioneered the junk bond market in the 1980s at Drexel Burnham Lambert, enabling hostile takeovers and corporate raiders. He was convicted of securities fraud in 1990 and served 22 months in prison. Despite his conviction, he was pardoned by Trump in 2020 and has rebuilt his reputation through philanthropy while remaining influential in finance.',
+ birthDate: 'July 4, 1946',
+ birthPlace: 'Encino, California',
+ education: ['UC Berkeley', 'Wharton School (MBA)'],
+ netWorth: '$6 billion',
+ affiliations: [
+ { name: 'Drexel Burnham Lambert', role: 'Former Head of Bond Trading', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Ivan Boesky', relationship: 'Insider trading conspirator', href: '/entities/individuals/ivan-boesky' },
+ ],
+ controversies: [
+ 'SECURITIES FRAUD: Convicted on 6 felony counts',
+ 'INSIDER TRADING: Worked with Ivan Boesky',
+ 'DREXEL COLLAPSE: Firm went bankrupt after scandal',
+ 'TRUMP PARDON: Pardoned in 2020 after lobbying',
+ 'REPUTATION LAUNDERING: Philanthropy after conviction',
+ '$600 MILLION FINE: Largest individual fine at time',
+ ],
+ charges: [
+ { statute: '15 U.S.C. � 78j(b)', description: 'Securities Fraud', category: 'CONVICTED' },
+ { statute: '15 U.S.C. � 78ff', description: 'Securities violations (6 counts)', category: 'CONVICTED' },
+ ],
+ relatedInvestigations: [
+ { title: '1980s Insider Trading Scandal', slug: '1980s-insider-trading', severity: 'critical' },
+ { title: 'Trump Pardons Investigation', slug: 'trump-pardons', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'July 4, 1946', event: 'Born in California' },
+ { date: '1970s-80s', event: 'Builds junk bond empire at Drexel' },
+ { date: '1989', event: 'Indicted on 98 counts' },
+ { date: '1990', event: 'Pleads guilty to 6 felonies' },
+ { date: '1991-1993', event: 'Serves 22 months in prison' },
+ { date: 'February 2020', event: 'Pardoned by Trump' },
+ ],
+ sources: [{ title: 'Wikipedia: Michael Milken', url: 'https://en.wikipedia.org/wiki/Michael_Milken' }, { title: 'NYT: Michael Milken Profile', url: 'https://www.nytimes.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ },
+ 'michael-hayden': {
+ name: 'Michael Hayden',
+ title: 'Former CIA/NSA Director',
+ role: 'CIA/NSA Director - Mass Surveillance Architect',
+ riskLevel: 'critical',
+ description: 'Michael Hayden directed both the NSA (1999-2005) and CIA (2006-2009). At NSA, he created the warrantless wiretapping program that illegally surveilled Americans without court orders. At CIA, he oversaw the torture program and extraordinary rendition. He has consistently defended unconstitutional surveillance and torture as necessary.',
+ birthDate: 'March 17, 1945',
+ birthPlace: 'Pittsburgh, Pennsylvania',
+ education: ['Duquesne University', 'Duquesne (MA)'],
+ affiliations: [
+ { name: 'NSA', role: 'Former Director', type: 'agency' as const },
+ { name: 'CIA', role: 'Former Director', type: 'agency' as const },
+ ],
+ knownAssociates: [
+ { name: 'George W. Bush', relationship: 'President who appointed him', href: '/entities/individuals/george-w-bush' },
+ { name: 'Dick Cheney', relationship: 'Worked with on surveillance', href: '/entities/individuals/dick-cheney' },
+ ],
+ controversies: [
+ 'WARRANTLESS WIRETAPPING: Created illegal surveillance program',
+ 'TORTURE PROGRAM: Oversaw enhanced interrogation at CIA',
+ 'EXTRAORDINARY RENDITION: Kidnapping suspects to black sites',
+ 'LIED ABOUT SURVEILLANCE: Misled Congress and public',
+ 'DEFENDED TORTURE: Continues to defend"EIT"program',
+ ],
+ charges: [
+ { statute: '50 U.S.C. � 1809', description: 'FISA violations - Warrantless surveillance', category: 'UNPROSECUTED' },
+ { statute: '18 U.S.C. � 2340A', description: 'Torture statute violations', category: 'UNPROSECUTED' },
+ { statute: 'Rome Statute Article 7(1)(e)', description: 'Crimes Against Humanity - Imprisonment/torture', category: 'INTERNATIONAL' },
+ ],
+ relatedInvestigations: [
+ { title: 'NSA Mass Surveillance', slug: 'nsa-mass-surveillance', severity: 'critical' },
+ { title: 'CIA Torture Program', slug: 'cia-torture-program', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 17, 1945', event: 'Born in Pittsburgh' },
+ { date: '1999-2005', event: 'NSA Director' },
+ { date: '2001', event: 'Creates warrantless wiretapping' },
+ { date: '2006-2009', event: 'CIA Director' },
+ ],
+ sources: [{ title: 'Wikipedia: Michael Hayden', url: 'https://en.wikipedia.org/wiki/Michael_Hayden' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Military Times: Michael Hayden', url: 'https://www.militarytimes.com/' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
+ },
+ 'mike-wirth': {
+ name: 'Mike Wirth',
+ title: 'Chevron CEO',
+ role: 'Chevron CEO - Ecuador Pollution, Climate Denial',
+ riskLevel: 'critical',
+ description: 'Mike Wirth leads Chevron, which inherited Texaco\'s catastrophic pollution in Ecuador\'s Amazon - dubbed the"Amazon Chernobyl."Chevron has fought a $9.5 billion judgment for decades and persecuted the lawyer who won the case. The company continues to expand fossil fuels while funding climate denial.',
+ birthDate: '1960',
+ birthPlace: 'United States',
+ education: ['University of Colorado', 'Kellogg (MBA)'],
+ affiliations: [
+ { name: 'Chevron', role: 'CEO', type: 'corporation' as const },
+ ],
+ controversies: [
+ 'ECUADOR POLLUTION:"Amazon Chernobyl"- millions of gallons dumped',
+ 'JUDGMENT DODGING: Refuses to pay $9.5B verdict',
+ 'LAWYER PERSECUTION: Steven Donziger imprisoned',
+ 'CLIMATE DENIAL: Funds denial organizations',
+ 'RICHMOND REFINERY: Pollution harms community',
+ 'FOSSIL EXPANSION: Continues to expand production',
+ ],
+ charges: [
+ { statute: 'Ecuador Judgment', description: '$9.5 billion for Amazon pollution', category: 'AVOIDING PAYMENT' },
+ { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Environmental destruction', category: 'INTERNATIONAL' },
+ ],
+ relatedInvestigations: [
+ { title: 'Chevron Ecuador', slug: 'chevron-ecuador', severity: 'critical' },
+ { title: 'Fossil Fuel Industry Crimes', slug: 'fossil-fuel-crimes', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1960', event: 'Born' },
+ { date: '1982', event: 'Joins Chevron' },
+ { date: '2018', event: 'Becomes Chevron CEO' },
+ ],
+ sources: [{ title: 'Wikipedia: Mike Wirth', url: 'https://en.wikipedia.org/wiki/Mike_Wirth' }, { title: 'Bloomberg: Mike Wirth', url: 'https://www.bloomberg.com/' }, { title: 'InsideClimate News', url: 'https://insideclimatenews.org/' }],
+ knownAssociates: [
+ { name: 'Lee Raymond', relationship: 'Former ExxonMobil CEO - fellow fossil fuel executive', href: '/entities/individuals/lee-raymond' },
+ { name: 'Rex Tillerson', relationship: 'Former Exxon CEO and fellow oil industry leader', href: '/entities/individuals/rex-tillerson' }
+ ],
+
+ },
+ 'mark-schneider': {
+ name: 'Mark Schneider',
+ title: 'Nestl� CEO',
+ role: 'Nestl� CEO - Water Privatization, Child Labor',
+ riskLevel: 'critical',
+ description: 'Mark Schneider leads Nestl�, the world\'s largest food company. Nestl� has been accused of extracting water from drought-stricken areas, using child labor in cocoa supply chains, aggressive baby formula marketing in developing countries, and contributing to the plastic pollution crisis.',
+ birthDate: 'November 1965',
+ birthPlace: 'Germany',
+ education: ['St. Gallen University', 'Harvard Business School'],
+ affiliations: [
+ { name: 'Nestl�', role: 'CEO', type: 'corporation' as const },
+ ],
+ controversies: [
+ 'WATER EXTRACTION: Bottling during droughts while communities suffer',
+ 'CHILD LABOR: Cocoa supply chain documented using child labor',
+ 'BABY FORMULA: Aggressive marketing causing infant deaths',
+ 'PLASTIC POLLUTION: Top plastic polluter globally',
+ 'CALIFORNIA WATER: Extracting from national forest on expired permit',
+ 'SLAVE LABOR: Sued over slave labor in supply chains',
+ ],
+ charges: [
+ { statute: 'International Human Rights', description: 'Child labor, forced labor', category: 'LAWSUITS' },
+ { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Other inhumane acts', category: 'INTERNATIONAL' },
+ ],
+ relatedInvestigations: [
+ { title: 'Nestl� Human Rights Abuses', slug: 'nestle-human-rights', severity: 'critical' },
+ { title: 'Corporate Water Theft', slug: 'corporate-water-theft', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'November 1965', event: 'Born in Germany' },
+ { date: '2017', event: 'Becomes Nestl� CEO' },
+ ],
+ sources: [{ title: 'Wikipedia: Mark Schneider', url: 'https://en.wikipedia.org/wiki/Mark_Schneider' }, { title: 'Bloomberg: Mark Schneider', url: 'https://www.bloomberg.com/' }],
+ knownAssociates: [
+ { name: 'James Quincey', relationship: 'Fellow food/beverage CEO facing public health criticism', href: '/entities/individuals/james-quincey' },
+ { name: 'Ramon Laguarta', relationship: 'PepsiCo CEO - peer in food industry', href: '/entities/individuals/ramon-laguarta' }
+ ],
+
+ },
+ 'martin-shkreli': {
+ name: 'Martin Shkreli',
+ title: 'Former Turing Pharmaceuticals CEO',
+ role: '"Pharma Bro"- Price Gouging, Securities Fraud',
+ riskLevel: 'critical',
+ description: 'Martin Shkreli became the face of pharmaceutical greed when he raised the price of Daraprim, a life-saving AIDS medication, from $13.50 to $750 per pill - a 5,000% increase. He was convicted of securities fraud unrelated to drug pricing and served time in federal prison.',
+ birthDate: 'March 17, 1983',
+ birthPlace: 'Brooklyn, New York',
+ education: ['Baruch College'],
+ netWorth: 'Negative (owes $65M)',
+ affiliations: [
+ { name: 'Turing Pharmaceuticals', role: 'Former CEO', type: 'corporation' as const },
+ { name: 'Retrophin', role: 'Former CEO', type: 'corporation' as const },
+ ],
+ controversies: [
+ 'DARAPRIM: Raised AIDS drug price 5,000%',
+ 'SECURITIES FRAUD: Convicted, sentenced to 7 years',
+ 'WU-TANG ALBUM: Bought sole copy for $2M',
+ '$65M DISGORGEMENT: Ordered to pay back profits',
+ 'LIFETIME PHARMA BAN: Banned from pharmaceutical industry',
+ 'SMIRKING TESTIMONY: Mocked Congress during hearing',
+ ],
+ charges: [
+ { statute: '15 U.S.C. � 78j(b)', description: 'Securities fraud', category: 'CONVICTED - 7 YEARS' },
+ { statute: '15 U.S.C. � 78ff', description: 'Securities fraud conspiracy', category: 'CONVICTED' },
+ { statute: 'FTC', description: 'Antitrust violations', category: '$65M DISGORGEMENT + LIFETIME BAN' },
+ ],
+ relatedInvestigations: [
+ { title: 'Drug Price Gouging', slug: 'drug-price-gouging', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 17, 1983', event: 'Born in Brooklyn' },
+ { date: '2015', event: 'Daraprim price increase scandal' },
+ { date: '2017', event: 'Convicted of securities fraud' },
+ { date: '2018', event: 'Sentenced to 7 years' },
+ { date: '2022', event: 'Released, banned from pharma' },
+ ],
+ sources: [{ title: 'Wikipedia: Martin Shkreli', url: 'https://en.wikipedia.org/wiki/Martin_Shkreli' }, { title: 'Bloomberg: Martin Shkreli', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
+ knownAssociates: [
+ { name: 'Jordan Belfort', relationship: 'Fellow convicted Wall Street figure known for public notoriety', href: '/entities/individuals/jordan-belfort' },
+ { name: 'John Kapoor', relationship: 'Fellow pharmaceutical executive convicted of fraud', href: '/entities/individuals/john-kapoor' }
+ ],
+
+ },
+ 'mary-barra': {
+ name: 'Mary Barra',
+ title: 'GM CEO',
+ role: 'GM CEO - Ignition Switch Deaths',
+ riskLevel: 'high',
+ description: 'Mary Barra became GM CEO in 2014 just before the ignition switch scandal broke. GM knew for over a decade that faulty switches were causing deaths but did nothing. At least 124 people died. GM paid $900 million to avoid prosecution, but no executives were charged despite internal evidence showing they knew.',
+ birthDate: 'December 24, 1961',
+ birthPlace: 'Royal Oak, Michigan',
+ education: ['GM Institute', 'Stanford (MBA)'],
+ netWorth: '$100 million',
+ affiliations: [
+ { name: 'General Motors', role: 'CEO', type: 'corporation' as const },
+ ],
+ controversies: [
+ '124+ DEATHS: Ignition switch killed drivers',
+ 'DECADE OF KNOWLEDGE: GM knew and did nothing',
+ '$900M SETTLEMENT: Deferred prosecution agreement',
+ 'NO EXECUTIVES CHARGED: Despite criminal conduct',
+ 'INTERNAL COVERUP: Engineers warned management',
+ '2.6 MILLION RECALLS: Massive safety recall',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 1001', description: 'Wire fraud, concealment', category: 'CORPORATE DPA $900M' },
+ { statute: 'State Product Liability', description: 'Wrongful death suits', category: 'SETTLEMENTS' },
+ ],
+ relatedInvestigations: [
+ { title: 'GM Ignition Switch Deaths', slug: 'gm-ignition-switch', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'December 24, 1961', event: 'Born in Michigan' },
+ { date: 'January 2014', event: 'Becomes GM CEO' },
+ { date: 'February 2014', event: 'Ignition switch scandal breaks' },
+ { date: '2015', event: '$900M deferred prosecution' },
+ ],
+ sources: [{ title: 'Wikipedia: Mary Barra', url: 'https://en.wikipedia.org/wiki/Mary_Barra' }, { title: 'Bloomberg: Mary Barra', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ knownAssociates: [
+ { name: 'Tim Cook', relationship: 'Fellow CEO navigating EV and tech transformation', href: '/entities/individuals/tim-cook' },
+ { name: 'Doug McMillon', relationship: 'Fellow Fortune 500 CEO', href: '/entities/individuals/doug-mcmillon' }
+ ],
+
+ },
+ 'michael-slager': {
+ name: 'Michael Slager',
+ title: 'Former North Charleston Police Officer',
+ role: 'Shot Walter Scott in Back - CONVICTED',
+ riskLevel: 'critical',
+ description: 'Michael Slager shot Walter Scott in the back 5 times as Scott ran away after a traffic stop on April 4, 2015. Video showed Slager planting his taser near Scott\'s body. He was convicted of civil rights violations and sentenced to 20 years.',
+ birthDate: '1982 (approx)',
+ birthPlace: 'South Carolina',
+ education: ['Police Academy'],
+ affiliations: [
+ { name: 'North Charleston Police Department', role: 'Former Officer', type: 'agency' as const },
+ ],
+ controversies: [
+ 'WALTER SCOTT: Shot in back 5 times while running',
+ 'PLANTED EVIDENCE: Video showed him planting taser',
+ 'LIED IN REPORT: False official statement',
+ 'CONVICTED: Federal civil rights violation',
+ '20 YEARS: Rare significant police sentence',
+ 'VIDEO EVIDENCE: Citizen video proved murder',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 242', description: 'Deprivation of rights under color of law', category: 'CONVICTED - 20 YEARS' },
+ { statute: 'State Murder Charge', description: 'Murder', category: 'MISTRIAL, THEN FEDERAL PLEA' },
+ ],
+ relatedInvestigations: [
+ { title: 'Walter Scott Murder', slug: 'walter-scott-murder', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'April 4, 2015', event: 'Shoots Walter Scott in back' },
+ { date: 'April 2015', event: 'Video released, indicted for murder' },
+ { date: 'December 2016', event: 'State trial ends in mistrial' },
+ { date: 'May 2017', event: 'Pleads guilty to federal charges' },
+ { date: 'December 2017', event: 'Sentenced to 20 years' },
+ ],
+ sources: [{ title: 'Wikipedia: Michael Slager', url: 'https://en.wikipedia.org/wiki/Michael_Slager' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ knownAssociates: [
+ { name: 'Walter Scott', relationship: 'Officer who shot Walter Scott in the back while fleeing', href: '/entities/individuals/walter-scott' }
+ ],
+
+ },
+ 'matt-lauer': {
+ name: 'Matt Lauer',
+ title: 'Disgraced News Anchor',
+ role: 'NBC Anchor - Sexual Misconduct, Rape Allegation',
+ riskLevel: 'critical',
+ description: 'Matt Lauer was NBC\'s highest-paid anchor earning $25 million/year when he was fired in 2017 for sexual misconduct. He was accused by multiple women of harassment and assault, including a detailed rape allegation. He had a secret button to lock his office door.',
+ birthDate: 'December 30, 1957',
+ birthPlace: 'New York City',
+ education: ['Ohio University'],
+ netWorth: '$80 million',
+ affiliations: [
+ { name: 'NBC News', role: 'Former Anchor', type: 'corporation' as const },
+ ],
+ controversies: [
+ 'RAPE ALLEGATION: Brooke Nevils detailed anal rape',
+ 'DOOR LOCK BUTTON: Secret button to trap women',
+ 'MULTIPLE ACCUSERS: Several women came forward',
+ '$25M SALARY: Protected despite complaints',
+ 'INSTANT FIRING: NBC terminated immediately',
+ 'ANN CURRY: Allegedly retaliated against colleague',
+ ],
+ charges: [
+ { statute: 'Sexual Misconduct', description: 'NBC internal findings', category: 'FIRED' },
+ { statute: 'Alleged Rape', description: 'No criminal charges filed', category: 'NOT CHARGED' },
+ ],
+ relatedInvestigations: [
+ { title: 'NBC Workplace Misconduct', slug: 'nbc-misconduct', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'December 30, 1957', event: 'Born in New York' },
+ { date: '1997-2017', event: '20 years at Today Show' },
+ { date: '2014', event: 'Alleged rape of Brooke Nevils' },
+ { date: 'November 2017', event: 'Fired by NBC' },
+ { date: '2019', event: 'Ronan Farrow book details allegations' },
+ ],
+ sources: [{ title: 'Wikipedia: Matt Lauer', url: 'https://en.wikipedia.org/wiki/Matt_Lauer' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
+ knownAssociates: [
+ { name: 'Charlie Rose', relationship: 'Fellow TV anchor fired for sexual misconduct in same period', href: '/entities/individuals/charlie-rose' },
+ { name: 'Les Moonves', relationship: 'Fellow media figure ousted during #MeToo movement', href: '/entities/individuals/les-moonves' },
+ { name: 'Harvey Weinstein', relationship: 'His firing was triggered by #MeToo wave started by Weinstein case', href: '/entities/individuals/harvey-weinstein' }
+ ],
+
+ },
+ 'matt-walsh': {
+ name: 'Matt Walsh',
+ title: 'Right-Wing Commentator',
+ role: 'Daily Wire Host - Anti-LGBTQ Extremism',
+ riskLevel: 'high',
+ description: 'Matt Walsh is a Daily Wire host who describes himself as a"theocratic fascist."He created the anti-trans film"What Is A Woman"and campaigns against LGBTQ rights. He has promoted child marriage, targeted trans children, and spreads dangerous disinformation.',
+ birthDate: 'June 18, 1986',
+ birthPlace: 'Maryland',
+ education: ['No college degree'],
+ affiliations: [
+ { name: 'Daily Wire', role: 'Host', type: 'corporation' as const },
+ ],
+ controversies: [
+ '"THEOCRATIC FASCIST": Self-description',
+ 'CHILD MARRIAGE: Defended teen marriage for girls',
+ 'ANTI-TRANS FILM:"What Is A Woman"targets trans people',
+ 'VANDERBILT ATTACK: Targeted hospital trans clinic with harassment',
+ 'TRANS CHILDREN: Targets vulnerable youth',
+ ],
+ charges: [
+ { statute: 'Stochastic Terrorism', description: 'Rhetoric leads to harassment campaigns', category: 'NOT CHARGED' },
+ ],
+ relatedInvestigations: [
+ { title: 'Anti-LGBTQ Extremism', slug: 'anti-lgbtq-extremism', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'June 18, 1986', event: 'Born in Maryland' },
+ { date: '2018', event: 'Joins Daily Wire' },
+ { date: '2022', event: 'Releases anti-trans film' },
+ { date: '2022', event: 'Orchestrates Vanderbilt clinic harassment' },
+ ],
+ sources: [{ title: 'Wikipedia: Matt Walsh', url: 'https://en.wikipedia.org/wiki/Matt_Walsh' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
+ knownAssociates: [
+ { name: 'Steven Crowder', relationship: 'Fellow conservative media personality and Daily Wire colleague', href: '/entities/individuals/steven-crowder' },
+ { name: 'Ben Shapiro', relationship: 'Daily Wire co-host and conservative media ally', href: '/entities/individuals/ben-shapiro' }
+ ],
+
+ },
+ 'marc-andreessen': {
+ name: 'Marc Andreessen',
+ title: 'Venture Capitalist',
+ role: 'a16z Founder - Tech Oligarch, AI Accelerationist',
+ riskLevel: 'high',
+ description: 'Marc Andreessen is a billionaire venture capitalist who co-founded Andreessen Horowitz (a16z). He has pushed"techno-optimist"ideology that dismisses tech harms, opposed housing development near his mansion while funding housing startups, and has become a major funder of far-right political causes and Trump.',
+ birthDate: 'July 9, 1971',
+ birthPlace: 'Cedar Falls, Iowa',
+ education: ['University of Illinois Urbana-Champaign'],
+ netWorth: '$1.7 billion',
+ affiliations: [
+ { name: 'Andreessen Horowitz', role: 'Co-Founder/General Partner', type: 'corporation' as const },
+ { name: 'Meta', role: 'Board Member', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Ben Horowitz', relationship: 'Business partner', href: '/entities/individuals/ben-horowitz' },
+ { name: 'Mark Zuckerberg', relationship: 'Board colleague', href: '/entities/individuals/mark-zuckerberg' },
+ ],
+ controversies: [
+ 'NIMBY HYPOCRISY: Blocked housing near mansion while investing in housing tech',
+ 'TECHNO-OPTIMIST MANIFESTO: Dismissed tech harms',
+ 'TRUMP SUPPORT: Major donor to far-right causes',
+ 'AI ACCELERATIONISM: Pushed unregulated AI development',
+ 'META BOARD: Enabled Facebook\'s harms',
+ 'CRYPTO PROMOTION: Pushed volatile crypto investments',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Tech Oligarchy', slug: 'tech-oligarchy', severity: 'high' },
+ { title: 'Silicon Valley Politics', slug: 'silicon-valley-politics', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'July 9, 1971', event: 'Born in Iowa' },
+ { date: '1993', event: 'Co-creates Mosaic browser' },
+ { date: '1994', event: 'Co-founds Netscape' },
+ { date: '2009', event: 'Co-founds Andreessen Horowitz' },
+ { date: '2022', event: 'Blocks housing near mansion' },
+ { date: '2024', event: 'Endorses Trump' },
+ ],
+ sources: [{ title: 'Wikipedia: Marc Andreessen', url: 'https://en.wikipedia.org/wiki/Marc_Andreessen' }, { title: 'NYT: Marc Andreessen Profile', url: 'https://www.nytimes.com/' }, { title: 'Bloomberg: Marc Andreessen', url: 'https://www.bloomberg.com/' }, { title: 'Reuters: Russia Coverage', url: 'https://web.archive.org/web/2024/https://www.reuters.com/world/russia-ukraine/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Wired: Marc Andreessen', url: 'https://www.wired.com/' }],
+ },
+ 'michael-babich': {
+ name: 'Michael Babich',
+ title: 'Convicted Pharma Executive',
+ role: 'Insys CEO - Opioid Bribery Scheme CONVICTED',
+ riskLevel: 'critical',
+ description: 'Michael Babich was the CEO of Insys Therapeutics convicted of racketeering for his role in the scheme to bribe doctors to prescribe fentanyl spray. He was a key architect of the criminal enterprise that contributed to the opioid crisis.',
+ birthDate: '1970s (approx)',
+ birthPlace: 'Unknown',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'Insys Therapeutics', role: 'Former CEO', type: 'corporation' as const },
+ ],
+ controversies: [
+ 'RACKETEERING: Convicted under RICO',
+ 'BRIBERY SCHEME: Orchestrated doctor bribes',
+ 'FENTANYL PUSHING: Promoted dangerous opioid',
+ 'SPEAKER PROGRAMS: Used fake speaker fees as bribes',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 1962', description: 'RICO - Racketeering', category: 'CONVICTED - 30 MONTHS' },
+ { statute: '18 U.S.C. � 371', description: 'Conspiracy', category: 'CONVICTED' },
+ ],
+ relatedInvestigations: [
+ { title: 'Opioid Crisis', slug: 'opioid-crisis', severity: 'critical' },
+ { title: 'Insys Prosecutions', slug: 'insys-prosecutions', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2010', event: 'Becomes Insys CEO' },
+ { date: '2016', event: 'Indicted' },
+ { date: 'May 2019', event: 'Convicted' },
+ { date: 'January 2020', event: 'Sentenced to 30 months' },
+ ],
+ sources: [{ title: 'Wikipedia: Michael Babich', url: 'https://en.wikipedia.org/wiki/Michael_Babich' }, { title: 'Bloomberg: Michael Babich', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
+ knownAssociates: [
+ { name: 'John Kapoor', relationship: 'Boss at Insys Therapeutics - both convicted of opioid bribery', href: '/entities/individuals/john-kapoor' }
+ ],
+
+ },
+ 'mort-zuckerman': {
+ name: 'Mort Zuckerman',
+ title: 'Media Billionaire',
+ role: 'US News Owner - Epstein Associate',
+ riskLevel: 'medium',
+ description: 'Mort Zuckerman is a billionaire media and real estate magnate who owned US News & World Report and the New York Daily News. He was part of Jeffrey Epstein\'s social circle and Epstein managed some of his finances before his 2008 conviction.',
+ birthDate: 'June 4, 1937',
+ birthPlace: 'Montreal, Canada',
+ education: ['McGill University', 'University of Pennsylvania', 'Harvard'],
+ netWorth: '$3.5 billion',
+ affiliations: [
+ { name: 'Boston Properties', role: 'Founder/Chairman', type: 'corporation' as const },
+ { name: 'US News & World Report', role: 'Former Owner', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Financial manager', href: '/entities/individuals/jeffrey-epstein' },
+ 
+ { name: 'Ghislaine Maxwell', relationship: 'NYC media/social circles', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Les Wexner', relationship: 'Both in Epstein billionaire network', href: '/entities/individuals/les-wexner' },
+ { name: 'Donald Trump', relationship: 'NYC real estate/media circles', href: '/entities/individuals/donald-trump' },
+ ],
+ controversies: [
+ 'EPSTEIN FINANCIAL TIES: Epstein managed money',
+ 'SOCIAL CIRCLE: Part of Epstein network',
+ 'PRE-CONVICTION: Relationship before 2008',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Epstein Network', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'June 4, 1937', event: 'Born in Canada' },
+ { date: '1990s-2000s', event: 'Epstein manages finances' },
+ ],
+ sources: [{ title: 'Wikipedia: Mort Zuckerman', url: 'https://en.wikipedia.org/wiki/Mort_Zuckerman' }, { title: 'Bloomberg: Mort Zuckerman', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
+ },
+ 'mark-ciavarella': {
+ name: 'Mark Ciavarella',
+ title: 'Convicted Corrupt Judge',
+ role: 'Kids for Cash Scandal - Jailed Children for Profit CONVICTED',
+ riskLevel: 'critical',
+ description: 'Mark Ciavarella was a Pennsylvania juvenile court judge who accepted $2.6 million in bribes from private prison operators to sentence thousands of children to detention for trivial offenses. He destroyed the lives of over 4,000 children for profit in one of the worst judicial corruption scandals in American history.',
+ birthDate: 'March 1950',
+ birthPlace: 'Wilkes-Barre, Pennsylvania',
+ education: ['Duquesne University School of Law'],
+ affiliations: [
+ { name: 'Luzerne County Court', role: 'Former Judge', type: 'organization' as const },
+ ],
+ knownAssociates: [
+ { name: 'Michael Conahan', relationship: 'Co-conspirator', href: '/entities/individuals/michael-conahan' },
+ ],
+ controversies: [
+ '4,000+ CHILDREN JAILED: Sentenced kids for profit',
+ '$2.6 MILLION BRIBES: Kickbacks from private prisons',
+ 'TRIVIAL OFFENSES: Jailed kids for minor infractions',
+ 'DENIED COUNSEL: Pressured children to waive lawyers',
+ 'RUINED LIVES: Suicides, destroyed futures',
+ 'LONGEST SENTENCE: 28 years federal prison',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 1951', description: 'Racketeering', category: 'CONVICTED - 28 YEARS' },
+ { statute: '18 U.S.C. � 371', description: 'Conspiracy', category: 'CONVICTED' },
+ { statute: '18 U.S.C. � 1341', description: 'Mail fraud', category: 'CONVICTED' },
+ { statute: '26 U.S.C. � 7201', description: 'Tax evasion', category: 'CONVICTED' },
+ ],
+ relatedInvestigations: [
+ { title: 'Kids for Cash Scandal', slug: 'kids-for-cash', severity: 'critical' },
+ { title: 'Private Prison Corruption', slug: 'private-prison-corruption', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1996', event: 'Becomes juvenile court judge' },
+ { date: '2003-2008', event: 'Sentences thousands of children for bribes' },
+ { date: '2009', event: 'Arrested' },
+ { date: '2011', event: 'Convicted on 12 counts' },
+ { date: 'August 2011', event: 'Sentenced to 28 years' },
+ ],
+ sources: [{ title: 'Wikipedia: Mark Ciavarella', url: 'https://en.wikipedia.org/wiki/Mark_Ciavarella' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
+ },
+ 'michael-conahan': {
+ name: 'Michael Conahan',
+ title: 'Convicted Corrupt Judge',
+ role: 'Kids for Cash Scandal - Mastermind CONVICTED',
+ riskLevel: 'critical',
+ description: 'Michael Conahan was the senior judge who masterminded the Kids for Cash scheme. He secured contracts with private detention centers and conspired with Ciavarella to fill them with children for kickbacks. He helped destroy the lives of thousands of children for profit.',
+ birthDate: '1952',
+ birthPlace: 'Pennsylvania',
+ education: ['Temple University School of Law'],
+ affiliations: [
+ { name: 'Luzerne County Court', role: 'Former Senior Judge', type: 'organization' as const },
+ ],
+ knownAssociates: [
+ { name: 'Mark Ciavarella', relationship: 'Co-conspirator', href: '/entities/individuals/mark-ciavarella' },
+ ],
+ controversies: [
+ 'MASTERMIND: Orchestrated entire scheme',
+ 'CONTRACT MANIPULATION: Secured private prison contracts',
+ 'CHILDREN DESTROYED: Thousands of lives ruined',
+ 'COVER-UP: Helped hide the scheme',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 1951', description: 'Racketeering', category: 'CONVICTED - 17.5 YEARS' },
+ { statute: '18 U.S.C. � 371', description: 'Conspiracy', category: 'CONVICTED' },
+ ],
+ relatedInvestigations: [
+ { title: 'Kids for Cash Scandal', slug: 'kids-for-cash', severity: 'critical' },
+ { title: 'Private Prison Corruption', slug: 'private-prison-corruption', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2002', event: 'Becomes senior judge' },
+ { date: '2003-2008', event: 'Orchestrates kickback scheme' },
+ { date: '2009', event: 'Pleads guilty' },
+ { date: '2011', event: 'Sentenced to 17.5 years' },
+ ],
+ sources: [{ title: 'Wikipedia: Michael Conahan', url: 'https://en.wikipedia.org/wiki/Michael_Conahan' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
+ },
+ 'mohamed-noor': {
+ name: 'Mohamed Noor',
+ title: 'Convicted Police Officer',
+ role: 'Minneapolis Police - Killed Justine Damond CONVICTED',
+ riskLevel: 'high',
+ description: 'Mohamed Noor was a Minneapolis police officer who shot and killed Justine Damond in 2017. Damond, an Australian woman, had called 911 to report a possible assault and approached the police car when Noor shot her through the car door. He was convicted of murder.',
+ birthDate: '1985',
+ birthPlace: 'Somalia',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'Minneapolis Police Department', role: 'Former Officer', type: 'agency' as const },
+ ],
+ controversies: [
+ 'KILLED JUSTINE DAMOND: Shot woman who called 911',
+ 'SHOT THROUGH DOOR: Fired across partner',
+ 'BODY CAM OFF: Camera not activated',
+ 'CONVICTED: Found guilty of murder',
+ ],
+ charges: [
+ { statute: 'Minnesota Statute 609.19', description: 'Third-degree murder', category: 'CONVICTED' },
+ { statute: 'Minnesota Statute 609.205', description: 'Second-degree manslaughter', category: 'CONVICTED - 4.75 YEARS' },
+ ],
+ relatedInvestigations: [
+ { title: 'Police Killings', slug: 'police-killings', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1985', event: 'Born in Somalia' },
+ { date: 'July 15, 2017', event: 'Kills Justine Damond' },
+ { date: 'April 2019', event: 'Convicted of murder' },
+ { date: 'June 2019', event: 'Sentenced' },
+ ],
+ sources: [{ title: 'Wikipedia: Mohamed Noor', url: 'https://en.wikipedia.org/wiki/Mohamed_Noor' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ knownAssociates: [
+ { name: 'Kim Potter', relationship: 'Fellow Minnesota officer convicted of fatal shooting', href: '/entities/individuals/kim-potter' }
+ ],
+
+ },
+ 'myles-cosgrove': {
+ name: 'Myles Cosgrove',
+ title: 'Police Officer',
+ role: 'LMPD Detective - Breonna Taylor Raid',
+ riskLevel: 'high',
+ description: 'Myles Cosgrove was the Louisville Metro Police detective who fired the fatal shot that killed Breonna Taylor during the botched raid on her apartment in March 2020. FBI ballistics determined his bullet killed Taylor. He was fired for violating department policy but never charged with her death.',
+ birthDate: 'Unknown',
+ birthPlace: 'Kentucky',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'Louisville Metro Police Department', role: 'Former Detective', type: 'agency' as const },
+ ],
+ controversies: [
+ 'KILLED BREONNA TAYLOR: Fired fatal shot',
+ 'BLINDLY FIRED: Shot 16 rounds into apartment',
+ 'NO BODY CAM: Failed to activate camera',
+ 'FIRED: Terminated for policy violations',
+ 'NO MURDER CHARGE: Never charged for killing',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 242', description: 'Deprivation of rights - Excessive force', category: 'FEDERAL INDICTMENT' },
+ ],
+ relatedInvestigations: [
+ { title: 'Breonna Taylor Killing', slug: 'breonna-taylor', severity: 'critical' },
+ { title: 'Police Killings', slug: 'police-killings', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 13, 2020', event: 'Kills Breonna Taylor' },
+ { date: 'January 2021', event: 'Fired from LMPD' },
+ { date: 'August 2022', event: 'Federally indicted' },
+ ],
+ sources: [{ title: 'Wikipedia: Myles Cosgrove', url: 'https://en.wikipedia.org/wiki/Myles_Cosgrove' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ knownAssociates: [
+ { name: 'Brett Hankison', relationship: 'Fellow officer involved in Breonna Taylor shooting', href: '/entities/individuals/brett-hankison' },
+ { name: 'Breonna Taylor', relationship: 'Fired shots during fatal raid on Taylor\'s apartment', href: '/entities/individuals/breonna-taylor' },
+ { name: 'Joshua Jaynes', relationship: 'Detective who obtained the warrant for Taylor raid', href: '/entities/individuals/joshua-jaynes' }
+ ],
+
+ },
+ 'mark-finchem': {
+ name: 'Mark Finchem',
+ title: 'Former Arizona Representative',
+ role: 'Election Denier - Oath Keepers Member',
+ riskLevel: 'high',
+ description: 'Mark Finchem is a former Arizona state representative and Oath Keepers member who was present at the January 6 Capitol. He repeatedly claimed the 2020 election was stolen and ran unsuccessfully for Secretary of State in 2022 to control elections.',
+ birthDate: 'September 28, 1959',
+ birthPlace: 'Michigan',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'Arizona House of Representatives', role: 'Former Member', type: 'agency' as const },
+ { name: 'Oath Keepers', role: 'Member', type: 'organization' as const },
+ ],
+ controversies: [
+ 'OATH KEEPERS: Member of militia group',
+ 'JANUARY 6: Present at Capitol',
+ 'ELECTION DENIAL: Claims 2020 was stolen',
+ 'SOS RACE: Ran to control elections',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'January 6 Investigation', slug: 'january-6-investigation', severity: 'critical' },
+ { title: 'Oath Keepers', slug: 'oath-keepers', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'September 28, 1959', event: 'Born in Michigan' },
+ { date: 'January 6, 2021', event: 'Present at Capitol' },
+ { date: 'November 2022', event: 'Lost Secretary of State race' },
+ ],
+ sources: [{ title: 'Wikipedia: Mark Finchem', url: 'https://en.wikipedia.org/wiki/Mark_Finchem' }, { title: 'Associated Press: Mark Finchem', url: 'https://apnews.com/' }],
+ knownAssociates: [
+ { name: 'Kari Lake', relationship: 'Fellow Arizona election denier', href: '/entities/individuals/kari-lake' },
+ { name: 'Donald Trump', relationship: 'Trump-endorsed candidate who denied 2020 election results', href: '/entities/individuals/donald-trump' }
+ ],
+
+ },
+ 'madison-cawthorn': {
+ name: 'Madison Cawthorn',
+ title: 'Former Congressman',
+ role: 'NC Rep - January 6 Rally Speaker',
+ riskLevel: 'medium',
+ description: 'Madison Cawthorn was the youngest member of Congress when elected at 25. He spoke at the January 6 rally and called the insurrectionists"political prisoners."He was caught with a gun at the airport twice, faced ethics complaints, and lost his primary after claiming colleagues invited him to orgies.',
+ birthDate: 'August 1, 1995',
+ birthPlace: 'Asheville, North Carolina',
+ education: ['Patrick Henry College (withdrew)'],
+ affiliations: [
+ { name: 'US House of Representatives', role: 'Former Member', type: 'agency' as const },
+ ],
+ controversies: [
+ 'JANUARY 6 RALLY: Spoke before riot',
+ 'AIRPORT GUNS: Caught twice',
+ 'ORGY CLAIMS: Said colleagues invited him',
+ 'DRIVING VIOLATIONS: Multiple charges',
+ 'SEXUAL MISCONDUCT: Accused by multiple women',
+ 'NAZI VACATION: Visited Hitler retreat',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'January 6 Investigation', slug: 'january-6-investigation', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'August 1, 1995', event: 'Born in North Carolina' },
+ { date: 'January 6, 2021', event: 'Speaks at rally' },
+ { date: '2022', event: 'Gun at airport arrests' },
+ { date: 'May 2022', event: 'Loses primary' },
+ ],
+ sources: [{ title: 'Wikipedia: Madison Cawthorn', url: 'https://en.wikipedia.org/wiki/Madison_Cawthorn' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Youngest Trump-aligned congressman before scandal and defeat', href: '/entities/individuals/donald-trump' },
+ { name: 'George Santos', relationship: 'Fellow young Republican congressman expelled in scandal', href: '/entities/individuals/george-santos' }
+ ],
+
+ },
+ 'michele-bachmann': {
+ name: 'Michele Bachmann',
+ title: 'Former Minnesota Congresswoman',
+ role: 'Tea Party Leader - Conspiracy Queen',
+ riskLevel: 'medium',
+ description: 'Michele Bachmann represented Minnesota in Congress and ran for President in 2012. She founded the Tea Party Caucus, spread debunked conspiracy theories (Obama"anti-American,"vaccines cause mental disabilities), and helped normalize extreme rhetoric that led to Trump.',
+ birthDate: 'April 6, 1956',
+ birthPlace: 'Waterloo, Iowa',
+ education: ['Winona State University', 'Oral Roberts University', 'College of William & Mary Law School'],
+ affiliations: [
+ { name: 'U.S. House of Representatives', role: 'Former Rep (R-MN)', type: 'agency' as const },
+ { name: 'Tea Party Caucus', role: 'Founder', type: 'organization' as const },
+ ],
+
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Early Trump supporter and fellow outsider politician who helped lay the groundwork for populist conservative movement', href: '/entities/individuals/donald-trump' },
+ { name: 'Sarah Palin', relationship: 'Fellow Tea Party leader and prominent female conservative voice who energized the Republican base', href: '/entities/individuals/sarah-palin' },
+ ],
+ controversies: [
+ 'ANTI-AMERICAN OBAMA: Called for investigation of"anti-American"views',
+ 'VACCINE LIES: Said HPV vaccine causes mental disabilities',
+ 'MUSLIM BROTHERHOOD: Accused Clinton aide of Brotherhood ties',
+ 'GAY THERAPY: Husband ran"pray away the gay"clinic',
+ 'ETHICS VIOLATIONS: Campaign finance issues',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Political Radicalization', slug: 'radicalization', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'April 6, 1956', event: 'Born in Iowa' },
+ { date: '2007-2015', event: 'U.S. Representative' },
+ { date: '2010', event: 'Founded Tea Party Caucus' },
+ { date: '2011-2012', event: 'Presidential campaign' },
+ { date: '2012', event: 'Huma Abedin Muslim Brotherhood accusations' },
+ ],
+ sources: [{ title: 'Wikipedia: Michele Bachmann', url: 'https://en.wikipedia.org/wiki/Michele_Bachmann' }, { title: 'NYT: Michele Bachmann Profile', url: 'https://www.nytimes.com/' }, { title: 'Washington Post: Michele Bachmann', url: 'https://www.washingtonpost.com/' }],
+ },
+ 'milo-yiannopoulos': {
+ name: 'Milo Yiannopoulos',
+ title: 'Former Breitbart Editor',
+ role: 'Alt-Right Troll - Pedophilia Defender',
+ riskLevel: 'high',
+ description: 'Milo Yiannopoulos was a Breitbart editor and alt-right provocateur banned from most platforms. His career ended after audio surfaced defending pedophilia. He later claimed to be"ex-gay"and worked briefly for MTG. His rise and fall epitomizes the alt-right media cycle.',
+ birthDate: 'October 18, 1984',
+ birthPlace: 'Kent, England',
+ education: ['University of Manchester (dropped out)', 'Wolfson College Cambridge (dropped out)'],
+ affiliations: [
+ { name: 'Breitbart', role: 'Former Tech Editor', type: 'organization' as const },
+ { name: 'Marjorie Taylor Greene Office', role: 'Former Intern', type: 'agency' as const },
+ ],
+ controversies: [
+ 'PEDOPHILIA DEFENSE: Audio defending"relationships"with minors',
+ 'PLATFORM BANS: Banned from Twitter, Facebook, etc.',
+ 'BERKELEY RIOTS: Caused violent protests',
+ 'HARASSMENT CAMPAIGNS: Led attacks on journalists',
+ 'EX-GAY CLAIMS: Claims to be"ex-gay"',
+ 'MTG INTERN: Worked as Congressional intern at 37',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Alt-Right Radicalization', slug: 'alt-right', severity: 'high' },
+ { title: 'Platform Extremism', slug: 'platform-extremism', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'October 18, 1984', event: 'Born in England' },
+ { date: '2016', event: 'Twitter permanent ban' },
+ { date: '2016-2017', event: 'Breitbart Tech Editor' },
+ { date: 'February 2017', event: 'Pedophilia comments surfaced' },
+ { date: '2017', event: 'Book deal cancelled, resigned from Breitbart' },
+ { date: '2022', event: 'MTG intern' },
+ ],
+ sources: [{ title: 'Wikipedia: Milo Yiannopoulos', url: 'https://en.wikipedia.org/wiki/Milo_Yiannopoulos' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
+ knownAssociates: [
+ { name: 'Steve Bannon', relationship: 'Former Breitbart colleague under Bannon\'s leadership', href: '/entities/individuals/steve-bannon' },
+ { name: 'Roger Stone', relationship: 'Fellow provocateur in Trump political orbit', href: '/entities/individuals/roger-stone' }
+ ],
+
+ },
+ 'mike-parson': {
+ name: 'Mike Parson',
+ title: 'Missouri Governor',
+ role: 'Reporter Prosecution - COVID Negligence',
+ riskLevel: 'medium',
+ description: 'Mike Parson is Missouri Governor who tried to prosecute a journalist for finding publicly accessible data showing teacher SSNs on state website. He refused COVID measures while state suffered. He pardoned Mark McCloskey who waved guns at BLM protesters.',
+ birthDate: 'September 17, 1955',
+ birthPlace: 'Wheatland, Missouri',
+ education: [],
+ affiliations: [
+ { name: 'State of Missouri', role: 'Governor', type: 'agency' as const },
+ ],
+ controversies: [
+ 'REPORTER PROSECUTION: Tried to jail journalist for viewing public data',
+ 'COVID NEGLIGENCE: Refused mask mandates',
+ 'MCCLOSKEY PARDON: Pardoned gun-pointing couple',
+ 'EXECUTION PACE: Resumed executions rapidly',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Press Freedom Attacks', slug: 'press-freedom', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'September 17, 1955', event: 'Born in Missouri' },
+ { date: '2018-Present', event: 'Missouri Governor' },
+ { date: '2020', event: 'Refused COVID mandates' },
+ { date: '2021', event: 'Threatened journalist prosecution' },
+ { date: '2021', event: 'Pardoned McCloskeys' },
+ ],
+ sources: [{ title: 'Wikipedia: Mike Parson', url: 'https://en.wikipedia.org/wiki/Mike_Parson' }, { title: 'Wired: Mike Parson', url: 'https://www.wired.com/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
+ knownAssociates: [
+ { name: 'Greg Abbott', relationship: 'Fellow Republican governor', href: '/entities/individuals/greg-abbott' },
+ { name: 'Kim Reynolds', relationship: 'Fellow Midwestern GOP governor', href: '/entities/individuals/kim-reynolds' }
+ ],
+
+ },
+ 'mark-swartz': {
+ name: 'Mark Swartz',
+ role: 'Former Tyco CFO',
+ title: 'Profile',
+ riskLevel: 'medium',
+ description: 'Mark Swartz was the CFO of Tyco International who, along with CEO Dennis Kozlowski, looted the company of over $400 million through unauthorized bonuses, loan forgiveness, and fraudulent stock sales. He was convicted of grand larceny, securities fraud, and conspiracy, serving nearly 7 years in prison.',
+ birthDate: '1960',
+ birthPlace: 'Unknown',
+ education: ['University of Massachusetts Amherst', 'MBA'],
+ affiliations: [
+ { name: 'Tyco International', role: 'CFO (1995-2002)', type: 'corporation' as const },
+ ],
+ controversies: [
+ 'CORPORATE THEFT: Stole $400+ million from Tyco shareholders',
+ 'UNAUTHORIZED BONUSES: $62 million in loan forgiveness',
+ 'SECURITIES FRAUD: Failed to disclose compensation',
+ '$6,000 SHOWER CURTAIN: Symbol of excess (Kozlowski trial)',
+ ],
+ charges: [
+ { statute: 'NY Penal Law � 155.42', description: 'Grand larceny in the first degree', category: 'Theft' },
+ { statute: 'NY General Business Law � 352-c', description: 'Securities fraud', category: 'Securities' },
+ { statute: 'NY Penal Law � 105', description: 'Criminal conspiracy', category: 'Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'Corporate Fraud Scandals', slug: 'corporate-fraud-scandals', severity: 'high' },
+ { title: 'Tyco Scandal', slug: 'tyco-scandal', severity: 'high' },
+ ],
+ timeline: [
+ { date: '1995', event: 'Became CFO of Tyco' },
+ { date: '2002', event: 'Resigned, indicted' },
+ { date: '2005', event: 'Convicted on all counts' },
+ { date: '2005', event: 'Sentenced to 8-25 years' },
+ { date: '2012', event: 'Released from prison' },
+ ],
+ sources: [{ title: 'Wikipedia: Mark Swartz', url: 'https://www.google.com/search?q=Mark%20Swartz' }, { title: 'Bloomberg: Mark Swartz', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: Mark Swartz', url: 'https://www.militarytimes.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ knownAssociates: [
+ { name: 'Dennis Kozlowski', relationship: 'Co-defendant and fellow Tyco executive convicted of fraud', href: '/entities/individuals/dennis-kozlowski' }
+ ],
+
+ },
+ 'mahendra-amin': {
+ name: 'Mahendra Amin',
+ title: 'Gynecologist accused of performing unnecessary hysterectomies on detained women',
+ role: 'Gynecologist accused of performing unnecessary hysterectomies on detained women',
+ riskLevel: 'high',
+ description: 'Mahendra Amin is documented in ArkHive investigations for their role as Gynecologist accused of performing unnecessary hysterectomies on detained women.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Lynndie England', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Ice Detention Abuses', slug: 'ice-detention-abuses', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Gynecologist accused of performing unnecessary hysterectomies on detained women' }],
+ knownAssociates: [
+ { name: 'Dawn Wooten', relationship: 'ICE nurse who blew whistle on Amin\'s forced hysterectomies', href: '/entities/individuals/dawn-wooten' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mahendra Amin', url: 'https://www.google.com/search?q=Mahendra%20Amin' }],
+ },
+ 'malcolm-x': {
+ name: 'Malcolm X (El-Hajj Malik El-Shabazz)',
+ title: 'Civil rights leader assassinated February 21, 1965 at Audubon Ballroom, Manhattan',
+ role: 'Civil rights leader assassinated February 21, 1965 at Audubon Ballroom, Manhattan',
+ riskLevel: 'high',
+ description: 'Malcolm X (El-Hajj Malik El-Shabazz) is documented in ArkHive investigations for their role as Civil rights leader assassinated February 21, 1965 at Audubon Ballroom, Manhattan.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Mahendra Amin', type: 'organization' },
+ ],
+
+ knownAssociates: [
+ { name: 'Martin Luther King Jr.', relationship: 'Fellow civil rights leader with contrasting philosophies - King advocated nonviolent integration while Malcolm X initially promoted Black separatism', href: '/entities/individuals/martin-luther-king-jr' },
+ { name: 'Elijah Muhammad', relationship: 'Nation of Islam leader and former mentor whom Malcolm X followed devotedly before breaking away in 1964 over personal and ideological disputes', href: '/entities/individuals/elijah-muhammad' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
+ ],
+ timeline: [{ date: '1965', event: 'documented in ArkHive investigations for their role as Civil rights leader assassinated February 21, 1965 at Audubon Ballroom, Manhattan.' }],
+ sources: [{ title: 'Wikipedia: Malcolm X (El-Hajj Malik El-Shabazz)', url: 'https://en.wikipedia.org/wiki/Malcolm_X)' }],
+ },
+ 'mamie-till-mobley': {
+ name: 'Mamie Till-Mobley',
+ title: 'Emmett\'s mother who demanded open casket funeral, galvanized Civil Rights Movement',
+ role: 'Emmett\'s mother who demanded open casket funeral, galvanized Civil Rights Movement',
+ riskLevel: 'high',
+ description: 'Mamie Till-Mobley is documented in ArkHive investigations for their role as Emmett\'s mother who demanded open casket funeral, galvanized Civil Rights Movement.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Malcolm X (El-Hajj Malik El-Shabazz)', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Emmett' }],
+ knownAssociates: [
+ { name: 'Emmett Till', relationship: 'Mother who demanded open casket to show what racists did to her son', href: '/entities/individuals/emmett-till' },
+ { name: 'Roy Bryant', relationship: 'One of Emmett\'s murderers acquitted by all-white jury', href: '/entities/individuals/roy-bryant' },
+ { name: 'J.W. Milam', relationship: 'Co-murderer of Emmett Till', href: '/entities/individuals/jw-milam' },
+ { name: 'Moses Wright', relationship: 'Emmett\'s great-uncle who bravely identified killers in court', href: '/entities/individuals/moses-wright' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mamie Till-Mobley', url: 'https://en.wikipedia.org/wiki/Mamie_Till-Mobley' }],
+ },
+ 'mandrel-stuart': {
+ name: 'Mandrel Stuart',
+ title: 'Virginia restaurant owner who had $17,550 seized during traffic stop; never charged',
+ role: 'Virginia restaurant owner who had $17,550 seized during traffic stop; never charged',
+ riskLevel: 'high',
+ description: 'Mandrel Stuart is documented in ArkHive investigations for their role as Virginia restaurant owner who had $17,550 seized during traffic stop; never charged.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Mamie Till-Mobley', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Civil Asset Forfeiture', slug: 'civil-asset-forfeiture', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Virginia restaurant owner who had $17,550 seized during traffic stop; never charged' }],
+ knownAssociates: [
+ { name: 'Joseph Rivers', relationship: 'Fellow civil asset forfeiture victim', href: '/entities/individuals/joseph-rivers' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mandrel Stuart', url: 'https://en.wikipedia.org/wiki/Mandrel_Stuart' }],
+ },
+ 'marc-cisneros': {
+ name: 'General Marc Cisneros',
+ title: 'U.S. Army South Commander during the invasion',
+ role: 'U.S. Army South Commander during the invasion',
+ riskLevel: 'high',
+ description: 'General Marc Cisneros is documented in ArkHive investigations for their role as U.S. Army South Commander during the invasion.',
+ education: [],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ { name: 'United States Military', role: 'Service Member', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Panama Invasion', slug: 'panama-invasion', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as U.S. Army South Commander during the invasion' }],
+ knownAssociates: [
+ { name: 'Maxwell Thurman', relationship: 'Fellow commander during Panama invasion', href: '/entities/individuals/maxwell-thurman' }
+ ],
+
+ sources: [{ title: 'Wikipedia: General Marc Cisneros', url: 'https://en.wikipedia.org/wiki/Marc_Cisneros' }],
+ },
+ 'marc-edwards': {
+ name: 'Marc Edwards',
+ title: 'Virginia Tech engineer who exposed Flint, Michigan water contamination',
+ role: 'Virginia Tech engineer who exposed Flint, Michigan water contamination',
+ riskLevel: 'high',
+ description: 'Marc Edwards is documented in ArkHive investigations for their role as Virginia Tech engineer who exposed Flint, Michigan water contamination.',
+ education: [],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 2 documented investigations',
+ ],
+ relatedInvestigations: [
+ { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
+ { title: 'Water Contamination Nationwide', slug: 'water-contamination-nationwide', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Virginia Tech engineer who exposed Flint, Michigan water contamination' }],
+ knownAssociates: [
+ { name: 'LeeAnne Walters', relationship: 'Flint resident who brought water samples to Edwards', href: '/entities/individuals/leeanne-walters' },
+ { name: 'Mona Hanna-Attisha', relationship: 'Pediatrician whose blood lead data confirmed Edwards\' findings', href: '/entities/individuals/mona-hanna-attisha' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Marc Edwards', url: 'https://en.wikipedia.org/wiki/Marc_Edwards' }],
+ },
+ 'marc-short': {
+ name: 'Marc Short',
+ title: 'Former president of Freedom Partners, later Trump\'s legislative affairs director',
+ role: 'Former president of Freedom Partners, later Trump\'s legislative affairs director',
+ riskLevel: 'high',
+ description: 'Marc Short is documented in ArkHive investigations for their role as Former president of Freedom Partners, later Trump\'s legislative affairs director.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Marc Edwards', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Koch Network', slug: 'koch-network', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Former president of Freedom Partners, later Trump' }],
+ knownAssociates: [
+ { name: 'Mike Pence', relationship: 'Chief of Staff to Vice President Pence', href: '/entities/individuals/mike-pence' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Marc Short', url: 'https://en.wikipedia.org/wiki/Marc_Short' }],
+ },
+ 'marcus-agius': {
+ name: 'Marcus Agius',
+ title: 'Barclays Chairman who resigned alongside Diamond in the wake of the scandal',
+ role: 'Barclays Chairman who resigned alongside Diamond in the wake of the scandal',
+ riskLevel: 'high',
+ description: 'Marcus Agius is documented in ArkHive investigations for their role as Barclays Chairman who resigned alongside Diamond in the wake of the scandal.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Marc Short', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Barclays Chairman who resigned alongside Diamond in the wake of the scandal' }],
+ knownAssociates: [
+ { name: 'Bob Diamond', relationship: 'Barclays chairman who resigned alongside Diamond in LIBOR scandal', href: '/entities/individuals/bob-diamond' },
+ { name: 'Mervyn King', relationship: 'Bank of England governor during Barclays LIBOR manipulation', href: '/entities/individuals/mervyn-king' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Marcus Agius', url: 'https://en.wikipedia.org/wiki/Marcus_Agius' }],
+ },
+ 'margaret-chase-smith': {
+ name: 'Margaret Chase Smith',
+ title: 'Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950',
+ role: 'Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950',
+ riskLevel: 'high',
+ description: 'Margaret Chase Smith is documented in ArkHive investigations for their role as Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950.',
+ education: [
+ 'Massachusetts Institute of Technology',
+ ],
+ affiliations: [
+ { name: 'United States Senate', role: 'Senator', type: 'agency' },
+ { name: 'Republican Party', role: 'Member', type: 'organization' },
+ { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
+ ],
+ timeline: [{ date: '1950', event: 'documented in ArkHive investigations for their role as Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950.' }],
+ knownAssociates: [
+ { name: 'Joseph McCarthy', relationship: 'Delivered"Declaration of Conscience"speech against McCarthyism', href: '/entities/individuals/joseph-mccarthy' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Margaret Chase Smith', url: 'https://en.wikipedia.org/wiki/Margaret_Chase_Smith' }],
+ },
+ 'margaret-sanger': {
+ name: 'Margaret Sanger',
+ title: 'Birth control advocate whose movement intersected with eugenics ideology',
+ role: 'Birth control advocate whose movement intersected with eugenics ideology',
+ riskLevel: 'high',
+ description: 'Margaret Sanger is documented in ArkHive investigations for their role as Birth control advocate whose movement intersected with eugenics ideology.',
+ education: [],
+ affiliations: [
+ { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Birth control advocate whose movement intersected with eugenics ideology' }],
+ knownAssociates: [
+ { name: 'Harry Laughlin', relationship: 'Eugenics figure who intersected with Sanger\'s birth control movement', href: '/entities/individuals/harry-laughlin' },
+ { name: 'Paul Popenoe', relationship: 'Fellow eugenics-connected figure in reproductive policy', href: '/entities/individuals/paul-popenoe' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Margaret Sanger', url: 'https://en.wikipedia.org/wiki/Margaret_Sanger' }],
+ },
+ 'marjorie-dannenfelser': {
+ name: 'Marjorie Dannenfelser',
+ title: 'President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying',
+ role: 'President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying',
+ riskLevel: 'high',
+ description: 'Marjorie Dannenfelser is documented in ArkHive investigations for their role as President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Margaret Sanger', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Roe V Wade Overturn', slug: 'roe-v-wade-overturn', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying' }],
+ knownAssociates: [
+ { name: 'Lynn Fitch', relationship: 'Mississippi AG who brought Dobbs case Dannenfelser supported', href: '/entities/individuals/lynn-fitch' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Marjorie Dannenfelser', url: 'https://en.wikipedia.org/wiki/Marjorie_Dannenfelser' }],
+ },
+ 'mark-brnovich': {
+ name: 'Mark Brnovich',
+ title: 'Arizona AG who defended ALEC-backed voter suppression laws',
+ role: 'Arizona AG who defended ALEC-backed voter suppression laws',
+ riskLevel: 'high',
+ description: 'Mark Brnovich is documented in ArkHive investigations for their role as Arizona AG who defended ALEC-backed voter suppression laws.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Marjorie Dannenfelser', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Alec Model Legislation', slug: 'alec-model-legislation', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Arizona AG who defended ALEC-backed voter suppression laws' }],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Arizona AG pressured by Trump to overturn 2020 election results', href: '/entities/individuals/donald-trump' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mark Brnovich', url: 'https://en.wikipedia.org/wiki/Mark_Brnovich' }],
+ },
+ 'mark-clark': {
+ name: 'Mark Clark',
+ title: 'Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm)',
+ role: 'Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm)',
+ riskLevel: 'high',
+ description: 'Mark Clark is documented in ArkHive investigations for their role as Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm).',
+ education: [],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Fred Hampton Assassination', slug: 'fred-hampton-assassination', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive d' }],
+ knownAssociates: [
+ { name: 'Fred Hampton', relationship: 'Killed alongside Hampton in Chicago police raid', href: '/entities/individuals/fred-hampton' },
+ { name: 'Edward Hanrahan', relationship: 'State\'s Attorney who authorized raid that killed Clark and Hampton', href: '/entities/individuals/edward-hanrahan' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mark Clark', url: 'https://en.wikipedia.org/wiki/Mark_Clark' }],
+ },
+ 'mark-lane': {
+ name: 'Mark Lane',
+ title: 'Attorney and author who investigated links between Ray and intelligence agencies',
+ role: 'Attorney and author who investigated links between Ray and intelligence agencies',
+ riskLevel: 'high',
+ description: 'Mark Lane is documented in ArkHive investigations for their role as Attorney and author who investigated links between Ray and intelligence agencies.',
+ education: [
+ 'Law Degree',
+ ],
+ affiliations: [
+ { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Mlk Assassination', slug: 'mlk-assassination', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Attorney and author who investigated links between Ray and intelligence agencies' }],
+ knownAssociates: [
+ { name: 'Lee Harvey Oswald', relationship: 'JFK assassination researcher who challenged Warren Commission findings on Oswald', href: '/entities/individuals/lee-harvey-oswald' },
+ { name: 'Jim Garrison', relationship: 'Supported Garrison\'s JFK conspiracy prosecution', href: '/entities/individuals/jim-garrison' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mark Lane', url: 'https://en.wikipedia.org/wiki/Mark_Lane' }],
+ },
+ 'mark-madoff': {
+ name: 'Mark Madoff',
+ title: 'Son who reported his father to authorities; committed suicide in 2010',
+ role: 'Son who reported his father to authorities; committed suicide in 2010',
+ riskLevel: 'high',
+ description: 'Mark Madoff is documented in ArkHive investigations for their role as Son who reported his father to authorities; committed suicide in 2010.',
+ education: [
+ 'Massachusetts Institute of Technology',
+ ],
+ affiliations: [
+ { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Bernie Madoff Ponzi', slug: 'bernie-madoff-ponzi', severity: 'high' },
+ ],
+ timeline: [{ date: '2010', event: 'documented in ArkHive investigations for their role as Son who reported his father to authorities; committed suicide in 2010.' }],
+ knownAssociates: [
+ { name: 'Bernie Madoff', relationship: 'Son who reported father\'s Ponzi scheme; later died by suicide', href: '/entities/individuals/bernie-madoff' },
+ { name: 'Peter Madoff', relationship: 'Uncle who was also at Madoff firm', href: '/entities/individuals/peter-madoff' },
+ { name: 'Ruth Madoff', relationship: 'Mother who chose to stay with Bernie initially', href: '/entities/individuals/ruth-madoff' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mark Madoff', url: 'https://en.wikipedia.org/wiki/Mark_Madoff' }],
+ },
+ 'marshall-green': {
+ name: 'Marshall Green',
+ title: 'US Ambassador to Indonesia who maintained close contact with military during killings',
+ role: 'US Ambassador to Indonesia who maintained close contact with military during killings',
+ riskLevel: 'high',
+ description: 'Marshall Green is documented in ArkHive investigations for their role as US Ambassador to Indonesia who maintained close contact with military during killings.',
+ education: [
+ 'MBA',
+ ],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Indonesia Mass Killings', slug: 'indonesia-mass-killings', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as US Ambassador to Indonesia who maintained close contact with military during killings' }],
+ knownAssociates: [
+ { name: 'Suharto', relationship: 'US Ambassador who supported Suharto\'s rise to power', href: '/entities/individuals/suharto' },
+ { name: 'Robert Martens', relationship: 'Embassy staffer who provided kill lists under Green', href: '/entities/individuals/robert-martens' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Marshall Green', url: 'https://en.wikipedia.org/wiki/Marshall_Green' }],
+ },
+ 'martin-tabert': {
+ name: 'Martin Tabert',
+ title: 'White Northerner whose death in a Florida convict camp exposed the system nationally',
+ role: 'White Northerner whose death in a Florida convict camp exposed the system nationally',
+ riskLevel: 'high',
+ description: 'Martin Tabert is documented in ArkHive investigations for their role as White Northerner whose death in a Florida convict camp exposed the system nationally.',
+ education: [],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Convict Leasing', slug: 'convict-leasing', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as White Northerner whose death in a Florida convict camp exposed the system nationally' }],
+ knownAssociates: [
+ { name: 'C. Sidney Carlton', relationship: 'Convict leasing system figure connected to Tabert\'s death', href: '/entities/individuals/c-sidney-carlton' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Martin Tabert', url: 'https://en.wikipedia.org/wiki/Martin_Tabert' }],
+ },
+ 'martin-wheatley': {
+ name: 'Martin Wheatley',
+ title: 'Head of the Wheatley Review that recommended fundamental reform of LIBOR governance',
+ role: 'Head of the Wheatley Review that recommended fundamental reform of LIBOR governance',
+ riskLevel: 'high',
+ description: 'Martin Wheatley is documented in ArkHive investigations for their role as Head of the Wheatley Review that recommended fundamental reform of LIBOR governance.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Martin Tabert', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Head of the Wheatley Review that recommended fundamental reform of LIBOR governance' }],
+ knownAssociates: [
+ { name: 'Tom Hayes', relationship: 'LIBOR scandal figure; Wheatley led FCA investigation', href: '/entities/individuals/tom-hayes' },
+ { name: 'Mervyn King', relationship: 'Bank of England during LIBOR era', href: '/entities/individuals/mervyn-king' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Martin Wheatley', url: 'https://en.wikipedia.org/wiki/Martin_Wheatley' }],
+ },
+ 'mary-alice-relf': {
+ name: 'Mary Alice Relf',
+ title: '12-year-old Black girl sterilized by federally funded Alabama clinic without consent',
+ role: '12-year-old Black girl sterilized by federally funded Alabama clinic without consent',
+ riskLevel: 'high',
+ description: 'Mary Alice Relf is documented in ArkHive investigations for their role as 12-year-old Black girl sterilized by federally funded Alabama clinic without consent.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Martin Wheatley', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as 12-year-old Black girl sterilized by federally funded Alabama clinic without consent' }],
+ knownAssociates: [
+ { name: 'Minnie Lee Relf', relationship: 'Sister who was also sterilized without consent', href: '/entities/individuals/minnie-lee-relf' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mary Alice Relf', url: 'https://en.wikipedia.org/wiki/Mary_Alice_Relf' }],
+ },
+ 'mary-kathryn-nagle': {
+ name: 'Mary Kathryn Nagle',
+ title: 'Cherokee attorney and playwright, advocate for tribal jurisdiction over non-Native perpetrators',
+ role: 'Cherokee attorney and playwright, advocate for tribal jurisdiction over non-Native perpetrators',
+ riskLevel: 'high',
+ description: 'Mary Kathryn Nagle is documented in ArkHive investigations for their role as Cherokee attorney and playwright, advocate for tribal jurisdiction over non-Native perpetrators.',
+ education: [
+ 'Law Degree',
+ ],
+ affiliations: [
+ { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Missing Murdered Indigenous Women', slug: 'missing-murdered-indigenous-women', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Cherokee attorney and playwright, advocate for tribal jurisdiction over non-Native perpetrators' }],
+ knownAssociates: [
+ { name: 'Lisa Brunner', relationship: 'Fellow MMIW advocate', href: '/entities/individuals/lisa-brunner' },
+ { name: 'Savanna LaFontaine-Greywind', relationship: 'MMIW case Nagle documented', href: '/entities/individuals/savanna-lafontaine-greywind' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mary Kathryn Nagle', url: 'https://en.wikipedia.org/wiki/Mary_Kathryn_Nagle' }],
+ },
+ 'mary-turner': {
+ name: 'Mary Turner',
+ title: 'Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body',
+ role: 'Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body',
+ riskLevel: 'high',
+ description: 'Mary Turner is documented in ArkHive investigations for their role as Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Mary Kathryn Nagle', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
+ ],
+ timeline: [{ date: '1918', event: 'documented in ArkHive investigations for their role as Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body.' }],
+ knownAssociates: [
+ { name: 'Ida B. Wells', relationship: 'Wells\' anti-lynching work documented mass violence like Turner\'s killing', href: '/entities/individuals/ida-b-wells' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mary Turner', url: 'https://en.wikipedia.org/wiki/Mary_Turner' }],
+ },
+ 'matthias-mueller': {
+ name: 'Matthias Müller',
+ title: 'Succeeded Winterkorn as CEO; oversaw VW\'s crisis response and settlement negotiations',
+ role: 'Succeeded Winterkorn as CEO; oversaw VW\'s crisis response and settlement negotiations',
+ riskLevel: 'high',
+ description: 'Matthias Müller is documented in ArkHive investigations for their role as Succeeded Winterkorn as CEO; oversaw VW\'s crisis response and settlement negotiations.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Mary Turner', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Succeeded Winterkorn as CEO; oversaw VW' }],
+ knownAssociates: [
+ { name: 'Herbert Diess', relationship: 'Successor as VW CEO', href: '/entities/individuals/herbert-diess' },
+ { name: 'Oliver Schmidt', relationship: 'VW executive imprisoned during Mueller\'s tenure', href: '/entities/individuals/oliver-schmidt' },
+ { name: 'Daniel Carder', relationship: 'WVU researcher who discovered VW emissions cheating', href: '/entities/individuals/daniel-carder' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Matthias Müller', url: 'https://en.wikipedia.org/wiki/Matthias_Müller' }],
+ },
+ 'maude-devictor': {
+ name: 'Maude DeVictor',
+ title: 'VA benefits counselor who first connected veteran illness to Agent Orange exposure',
+ role: 'VA benefits counselor who first connected veteran illness to Agent Orange exposure',
+ riskLevel: 'high',
+ description: 'Maude DeVictor is documented in ArkHive investigations for their role as VA benefits counselor who first connected veteran illness to Agent Orange exposure.',
+ education: [],
+ affiliations: [
+ { name: 'United States Military', role: 'Service Member', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as VA benefits counselor who first connected veteran illness to Agent Orange exposure' }],
+ knownAssociates: [
+ { name: 'Bobby Muller', relationship: 'Fellow Agent Orange/veterans advocacy figure', href: '/entities/individuals/bobby-muller' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Maude DeVictor', url: 'https://en.wikipedia.org/wiki/Maude_DeVictor' }],
+ },
+ 'maura-healey': {
+ name: 'Maura Healey',
+ title: 'Massachusetts AG (now Governor) who launched fraud investigation into ExxonMobil\'s climate deception',
+ role: 'Massachusetts AG (now Governor) who launched fraud investigation into ExxonMobil\'s climate deception',
+ riskLevel: 'high',
+ description: 'Maura Healey is documented in ArkHive investigations for their role as Massachusetts AG (now Governor) who launched fraud investigation into ExxonMobil\'s climate deception.',
+ education: [],
+ affiliations: [
+ { name: 'State Government', role: 'Governor', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 2 documented investigations',
+ ],
+ relatedInvestigations: [
+ { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
+ { title: 'Purdue Pharma Oxycontin', slug: 'purdue-pharma-oxycontin', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Massachusetts AG (now Governor) who launched fraud investigation into ExxonMobil' }],
+ knownAssociates: [
+ { name: 'Richard Sackler', relationship: 'MA AG who sued Sackler family over opioid crisis', href: '/entities/individuals/richard-sackler' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Maura Healey', url: 'https://en.wikipedia.org/wiki/Maura_Healey' }],
+ },
+ 'maurice-bishop': {
+ name: 'Maurice Bishop',
+ title: 'Grenadian Prime Minister assassinated in coup days before U.S. invasion',
+ role: 'Grenadian Prime Minister assassinated in coup days before U.S. invasion',
+ riskLevel: 'high',
+ description: 'Maurice Bishop is documented in ArkHive investigations for their role as Grenadian Prime Minister assassinated in coup days before U.S. invasion.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Maura Healey', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Grenada Invasion', slug: 'grenada-invasion', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Grenadian Prime Minister assassinated in coup days before U.S. invasion' }],
+ knownAssociates: [
+ { name: 'Hudson Austin', relationship: 'Military leader who overthrew and killed Bishop', href: '/entities/individuals/hudson-austin' },
+ { name: 'Bernard Coard', relationship: 'Deputy who turned against Bishop in coup', href: '/entities/individuals/bernard-coard' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Maurice Bishop', url: 'https://en.wikipedia.org/wiki/Maurice_Bishop' }],
+ },
+ 'mauricio-rodriguez-sanchez': {
+ name: 'Mauricio Rodríguez Sánchez',
+ title: 'Head of military intelligence during Ríos Montt regime; co-defendant in genocide trial',
+ role: 'Head of military intelligence during Ríos Montt regime; co-defendant in genocide trial',
+ riskLevel: 'high',
+ description: 'Mauricio Rodríguez Sánchez is documented in ArkHive investigations for their role as Head of military intelligence during Ríos Montt regime; co-defendant in genocide trial.',
+ education: [],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Guatemala Genocide', slug: 'guatemala-genocide', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Head of military intelligence during Ríos Montt regime; co-defendant in genocide trial' }],
+ knownAssociates: [
+ { name: 'Efrain Rios Montt', relationship: 'Intelligence chief under Rios Montt during genocide', href: '/entities/individuals/efrain-rios-montt' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mauricio Rodríguez Sánchez', url: 'https://en.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt#Trial' }],
+ },
+ 'max-baucus': {
+ name: 'Max Baucus',
+ title: 'Senate Finance Committee chair who excluded single-payer advocates from ACA hearings; took $5M from health industry',
+ role: 'Senate Finance Committee chair who excluded single-payer advocates from ACA hearings; took $5M from health industry',
+ riskLevel: 'high',
+ description: 'Max Baucus is documented in ArkHive investigations for their role as Senate Finance Committee chair who excluded single-payer advocates from ACA hearings; took $5M from health industry.',
+ education: [
+ 'Massachusetts Institute of Technology',
+ ],
+ affiliations: [
+ { name: 'United States Senate', role: 'Senator', type: 'agency' },
+ { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Medical Bankruptcy', slug: 'medical-bankruptcy', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Senate Finance Committee chair who excluded single-payer advocates from ACA hearings; took $5M from ' }],
+ knownAssociates: [
+ { name: 'Liz Fowler', relationship: 'Baucus staffer who wrote ACA provisions favorable to insurers', href: '/entities/individuals/liz-fowler' },
+ { name: 'Karen Ignagni', relationship: 'AHIP president who lobbied Baucus on health reform', href: '/entities/individuals/karen-ignagni' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Max Baucus', url: 'https://en.wikipedia.org/wiki/Max_Baucus' }],
+ },
+ 'maxwell-thurman': {
+ name: 'General Maxwell Thurman',
+ title: 'SOUTHCOM Commander who directed military operations in Panama',
+ role: 'SOUTHCOM Commander who directed military operations in Panama',
+ riskLevel: 'high',
+ description: 'General Maxwell Thurman is documented in ArkHive investigations for their role as SOUTHCOM Commander who directed military operations in Panama.',
+ education: [],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Panama Invasion', slug: 'panama-invasion', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as SOUTHCOM Commander who directed military operations in Panama' }],
+ knownAssociates: [
+ { name: 'Marc Cisneros', relationship: 'Fellow commander during US invasion of Panama', href: '/entities/individuals/marc-cisneros' }
+ ],
+
+ sources: [{ title: 'Wikipedia: General Maxwell Thurman', url: 'https://en.wikipedia.org/wiki/Maxwell_R._Thurman' }],
+ },
+ 'mcgeorge-bundy': {
+ name: 'McGeorge Bundy',
+ title: 'National Security Advisor to Kennedy and Johnson who was one of the principal architects of escalation. Advocated for bombing North Vietnam and committing combat troops while privately harboring doubts about success.',
+ role: 'National Security Advisor to Kennedy and Johnson who was one of the principal architects of escalation. Advocated for bombing North Vietnam and committing combat troops while privately harboring doubts about success.',
+ riskLevel: 'high',
+ description: 'McGeorge Bundy is documented in ArkHive investigations for their role as National Security Advisor to Kennedy and Johnson who was one of the principal architects of escalation. Advocated for bombing North Vietnam and committing combat troops while privately harboring doubts about success..',
+ education: [
+ 'Massachusetts Institute of Technology',
+ ],
+ affiliations: [
+ { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as National Security Advisor to Kennedy and Johnson who was one of the principal architects of escalati' }],
+ knownAssociates: [
+ { name: 'Robert McNamara', relationship: 'Fellow Vietnam War architect under JFK and LBJ', href: '/entities/individuals/robert-mcnamara' },
+ { name: 'Dean Rusk', relationship: 'Secretary of State alongside Bundy as NSA', href: '/entities/individuals/dean-rusk' },
+ { name: 'Lyndon Johnson', relationship: 'National Security Advisor under LBJ', href: '/entities/individuals/lyndon-johnson' }
+ ],
+
+ sources: [{ title: 'Wikipedia: McGeorge Bundy', url: 'https://en.wikipedia.org/wiki/McGeorge_Bundy' }],
+ },
+ 'medgar-evers': {
+ name: 'Medgar Evers',
+ title: 'NAACP field secretary who investigated the Till case in Mississippi',
+ role: 'NAACP field secretary who investigated the Till case in Mississippi',
+ riskLevel: 'high',
+ description: 'Medgar Evers is documented in ArkHive investigations for their role as NAACP field secretary who investigated the Till case in Mississippi.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: McGeorge Bundy', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 2 documented investigations',
+ ],
+ relatedInvestigations: [
+ { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
+ { title: 'War On Black America', slug: 'war-on-black-america', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as NAACP field secretary who investigated the Till case in Mississippi' }],
+ knownAssociates: [
+ { name: 'Martin Luther King Jr', relationship: 'Fellow civil rights leader; assassination galvanized movement', href: '/entities/individuals/martin-luther-king-jr' },
+ { name: 'Byron De La Beckwith', relationship: 'White supremacist who assassinated Evers', href: '/entities/individuals/byron-de-la-beckwith' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Medgar Evers', url: 'https://en.wikipedia.org/wiki/Medgar_Evers' }],
+ },
+ 'mervyn-king': {
+ name: 'Mervyn King',
+ title: 'Governor of the Bank of England during the period of LIBOR manipulation; faced questions about institutional awareness',
+ role: 'Governor of the Bank of England during the period of LIBOR manipulation; faced questions about institutional awareness',
+ riskLevel: 'high',
+ description: 'Mervyn King is documented in ArkHive investigations for their role as Governor of the Bank of England during the period of LIBOR manipulation; faced questions about institutional awareness.',
+ education: [],
+ affiliations: [
+ { name: 'State Government', role: 'Governor', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Governor of the Bank of England during the period of LIBOR manipulation; faced questions about insti' }],
+ knownAssociates: [
+ { name: 'Bob Diamond', relationship: 'Barclays CEO during LIBOR scandal King investigated', href: '/entities/individuals/bob-diamond' },
+ { name: 'Paul Tucker', relationship: 'Bank of England deputy implicated in LIBOR communications', href: '/entities/individuals/paul-tucker' },
+ { name: 'Marcus Agius', relationship: 'Barclays chairman during LIBOR scandal', href: '/entities/individuals/marcus-agius' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mervyn King', url: 'https://en.wikipedia.org/wiki/Mervyn_King' }],
+ },
+ 'michael-friedman': {
+ name: 'Michael Friedman',
+ title: 'Former President and CEO of Purdue Pharma; pled guilty to federal misbranding charges in 2007',
+ role: 'Former President and CEO of Purdue Pharma; pled guilty to federal misbranding charges in 2007',
+ riskLevel: 'high',
+ description: 'Michael Friedman is documented in ArkHive investigations for their role as Former President and CEO of Purdue Pharma; pled guilty to federal misbranding charges in 2007.',
+ education: [],
+ affiliations: [
+ { name: 'Purdue Pharma', role: 'Executive', type: 'corporation' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Purdue Pharma Oxycontin', slug: 'purdue-pharma-oxycontin', severity: 'high' },
+ ],
+ timeline: [{ date: '2007', event: 'documented in ArkHive investigations for their role as Former President and CEO of Purdue Pharma; pled guilty to federal misbranding charges in 2007.' }],
+ knownAssociates: [
+ { name: 'Howard Udell', relationship: 'Fellow Purdue Pharma exec who pled guilty to OxyContin fraud', href: '/entities/individuals/howard-udell' },
+ { name: 'Paul Goldenheim', relationship: 'Fellow Purdue exec convicted alongside Friedman', href: '/entities/individuals/paul-goldenheim' },
+ { name: 'Richard Sackler', relationship: 'Sackler family head who directed marketing Friedman executed', href: '/entities/individuals/richard-sackler' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Michael Friedman', url: 'https://en.wikipedia.org/wiki/Michael_Friedman' }],
+ },
+ 'michael-oliver': {
+ name: 'Michael Oliver',
+ title: 'Black man wrongfully arrested by Detroit PD due to false facial recognition match',
+ role: 'Black man wrongfully arrested by Detroit PD due to false facial recognition match',
+ riskLevel: 'high',
+ description: 'Michael Oliver is documented in ArkHive investigations for their role as Black man wrongfully arrested by Detroit PD due to false facial recognition match.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Michael Friedman', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Facial Recognition Surveillance', slug: 'facial-recognition-surveillance', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Black man wrongfully arrested by Detroit PD due to false facial recognition match' }],
+ knownAssociates: [
+ { name: 'Thomas Jackson', relationship: 'Ferguson police figure', href: '/entities/individuals/thomas-jackson' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Michael Oliver', url: 'https://en.wikipedia.org/wiki/Michael_Oliver' }],
+ },
+ 'michael-powell': {
+ name: 'Michael D. Powell',
+ title: 'ALEC National Chairman \u2014 Oversaw development of model legislation increasing incarceration rates',
+ role: 'ALEC National Chairman \u2014 Oversaw development of model legislation increasing incarceration rates',
+ riskLevel: 'high',
+ description: 'Michael D. Powell is documented in ArkHive investigations for their role as ALEC National Chairman \u2014 Oversaw development of model legislation increasing incarceration rates.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Michael Oliver', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Private Prison Industry', slug: 'private-prison-industry', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as ALEC National Chairman \u2014 Oversaw development of model legislation increasing incarceration rate' }],
+ knownAssociates: [
+ { name: 'Frank Powell', relationship: 'MOVE bombing figure (different Michael Powell connected to police)', href: '/entities/individuals/frank-powell' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Michael D. Powell', url: 'https://www.google.com/search?q=Michael%20D%20Powell' }],
+ },
+ 'michael-regan': {
+ name: 'Michael Regan',
+ title: 'EPA Administrator who investigated Jackson water system',
+ role: 'EPA Administrator who investigated Jackson water system',
+ riskLevel: 'high',
+ description: 'Michael Regan is documented in ArkHive investigations for their role as EPA Administrator who investigated Jackson water system.',
+ education: [],
+ affiliations: [
+ { name: 'Environmental Protection Agency', role: 'EPA Official', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Jackson Water Crisis', slug: 'jackson-water-crisis', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as EPA Administrator who investigated Jackson water system' }],
+ knownAssociates: [
+ { name: 'Marc Edwards', relationship: 'EPA administrator during ongoing environmental justice work', href: '/entities/individuals/marc-edwards' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Michael Regan', url: 'https://en.wikipedia.org/wiki/Michael_Regan' }],
+ },
+ 'michael-townley': {
+ name: 'Michael Townley',
+ title: 'American-born DINA operative who built and detonated the car bomb that killed Orlando Letelier in Washington, D.C. Also involved in other Condor assassinations in Europe and South America',
+ role: 'American-born DINA operative who built and detonated the car bomb that killed Orlando Letelier in Washington, D.C. Also involved in other Condor assassinations in Europe and South America',
+ riskLevel: 'high',
+ description: 'Michael Townley is documented in ArkHive investigations for their role as American-born DINA operative who built and detonated the car bomb that killed Orlando Letelier in Washington, D.C. Also involved in other Condor assassinations in Europe and South America.',
+ education: [],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 2 documented investigations',
+ ],
+ relatedInvestigations: [
+ { title: 'Chile Coup', slug: 'chile-coup', severity: 'high' },
+ { title: 'Operation Condor', slug: 'operation-condor', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as American-born DINA operative who built and detonated the car bomb that killed Orlando Letelier in Wa' }],
+ knownAssociates: [
+ { name: 'Orlando Letelier', relationship: 'DINA agent who assassinated Letelier in Washington DC', href: '/entities/individuals/orlando-letelier' },
+ { name: 'Augusto Pinochet', relationship: 'Pinochet\'s secret police agent who carried out assassinations', href: '/entities/individuals/augusto-pinochet' },
+ { name: 'Stefano Delle Chiaie', relationship: 'Fellow Operation Condor operative', href: '/entities/individuals/stefano-delle-chiaie' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Michael Townley', url: 'https://en.wikipedia.org/wiki/Michael_Townley' }],
+ },
+ 'michel-martelly': {
+ name: 'Michel Martelly',
+ title: 'President installed with Clinton support (2011-2016); accused of corruption and ties to Duvalierists',
+ role: 'President installed with Clinton support (2011-2016); accused of corruption and ties to Duvalierists',
+ riskLevel: 'high',
+ description: 'Michel Martelly is documented in ArkHive investigations for their role as President installed with Clinton support (2011-2016); accused of corruption and ties to Duvalierists.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Michael Townley', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Haiti Exploitation', slug: 'haiti-exploitation', severity: 'high' },
+ ],
+ timeline: [{ date: '2011', event: 'documented in ArkHive investigations for their role as President installed with Clinton support (2011-2016); accused of corruption and ties to Duvalierists.' }, { date: '2016', event: 'documented in ArkHive investigations for their role as President installed with Clinton support (2011-2016); accused of corruption and ties to Duvalierists.' }],
+ knownAssociates: [
+ { name: 'Jean-Bertrand Aristide', relationship: 'Political rival and former Haitian president', href: '/entities/individuals/jean-bertrand-aristide' },
+ { name: 'Jean-Claude Duvalier', relationship: 'Martelly allegedly connected to Duvalier-era forces', href: '/entities/individuals/jean-claude-duvalier' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Michel Martelly', url: 'https://en.wikipedia.org/wiki/Michel_Martelly' }],
+ },
+ 'miguel-cardona': {
+ name: 'Miguel Cardona',
+ title: 'Biden Education Secretary who oversaw $160B+ in student loan relief through various programs',
+ role: 'Biden Education Secretary who oversaw $160B+ in student loan relief through various programs',
+ riskLevel: 'high',
+ description: 'Miguel Cardona is documented in ArkHive investigations for their role as Biden Education Secretary who oversaw $160B+ in student loan relief through various programs.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Michel Martelly', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Biden Education Secretary who oversaw $160B+ in student loan relief through various programs' }],
+ knownAssociates: [
+ { name: 'Betsy DeVos', relationship: 'Successor as Education Secretary who reversed DeVos policies', href: '/entities/individuals/betsy-devos' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Miguel Cardona', url: 'https://en.wikipedia.org/wiki/Miguel_Cardona' }],
+ },
+ 'mike-moore': {
+ name: 'Mike Moore',
+ title: 'Mississippi Attorney General who filed the first state lawsuit against big tobacco in 1994',
+ role: 'Mississippi Attorney General who filed the first state lawsuit against big tobacco in 1994',
+ riskLevel: 'high',
+ description: 'Mike Moore is documented in ArkHive investigations for their role as Mississippi Attorney General who filed the first state lawsuit against big tobacco in 1994.',
+ education: [
+ 'Law Degree',
+ ],
+ affiliations: [
+ { name: 'Department of Justice', role: 'DOJ Official', type: 'agency' },
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
+ ],
+ timeline: [{ date: '1994', event: 'documented in ArkHive investigations for their role as Mississippi Attorney General who filed the first state lawsuit against big tobacco in 1994.' }],
+ knownAssociates: [
+ { name: 'Richard Scruggs', relationship: 'Attorney partner in Mississippi tobacco lawsuit', href: '/entities/individuals/richard-scruggs' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mike Moore', url: 'https://en.wikipedia.org/wiki/Mike_Moore' }],
+ },
+ 'mike-williams': {
+ name: 'Mike Williams',
+ title: 'Transocean chief electronics technician; key survivor witness who testified about safety failures',
+ role: 'Transocean chief electronics technician; key survivor witness who testified about safety failures',
+ riskLevel: 'high',
+ description: 'Mike Williams is documented in ArkHive investigations for their role as Transocean chief electronics technician; key survivor witness who testified about safety failures.',
+ education: [],
+ affiliations: [
+ { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Transocean chief electronics technician; key survivor witness who testified about safety failures' }],
+ knownAssociates: [
+ { name: 'Jimmy Harrell', relationship: 'Transocean supervisor on Deepwater Horizon', href: '/entities/individuals/jimmy-harrell' },
+ { name: 'Donald Vidrine', relationship: 'BP supervisor on rig during blowout', href: '/entities/individuals/donald-vidrine' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mike Williams', url: 'https://en.wikipedia.org/wiki/Mike_Williams' }],
+ },
+ 'minnie-lee-relf': {
+ name: 'Minnie Lee Relf',
+ title: '14-year-old Black girl sterilized alongside her sister by Alabama clinic',
+ role: '14-year-old Black girl sterilized alongside her sister by Alabama clinic',
+ riskLevel: 'high',
+ description: 'Minnie Lee Relf is documented in ArkHive investigations for their role as 14-year-old Black girl sterilized alongside her sister by Alabama clinic.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Mike Williams', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as 14-year-old Black girl sterilized alongside her sister by Alabama clinic' }],
+ knownAssociates: [
+ { name: 'Mary Alice Relf', relationship: 'Sister who was also involuntarily sterilized', href: '/entities/individuals/mary-alice-relf' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Minnie Lee Relf', url: 'https://en.wikipedia.org/wiki/Minnie_Lee_Relf' }],
+ },
+ 'mohamed-farrah-aidid': {
+ name: 'Mohamed Farrah Aidid',
+ title: 'Somali warlord whose forces killed U.S. soldiers in 1993 Battle of Mogadishu',
+ role: 'Somali warlord whose forces killed U.S. soldiers in 1993 Battle of Mogadishu',
+ riskLevel: 'high',
+ description: 'Mohamed Farrah Aidid is documented in ArkHive investigations for their role as Somali warlord whose forces killed U.S. soldiers in 1993 Battle of Mogadishu.',
+ education: [],
+ affiliations: [
+ { name: 'United States Military', role: 'Service Member', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Somalia Intervention', slug: 'somalia-intervention', severity: 'high' },
+ ],
+ timeline: [{ date: '1993', event: 'soldiers in 1993 Battle of Mogadishu.' }],
+ knownAssociates: [
+ { name: 'Les Aspin', relationship: 'Defense Secretary during Battle of Mogadishu against Aidid', href: '/entities/individuals/les-aspin' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mohamed Farrah Aidid', url: 'https://en.wikipedia.org/wiki/Mohamed_Farrah_Aidid' }],
+ },
+ 'mona-hanna-attisha': {
+ name: 'Mona Hanna-Attisha',
+ title: 'Flint pediatrician who documented elevated blood lead levels in children',
+ role: 'Flint pediatrician who documented elevated blood lead levels in children',
+ riskLevel: 'high',
+ description: 'Mona Hanna-Attisha is documented in ArkHive investigations for their role as Flint pediatrician who documented elevated blood lead levels in children.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Mohamed Farrah Aidid', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 2 documented investigations',
+ ],
+ relatedInvestigations: [
+ { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
+ { title: 'Water Contamination Nationwide', slug: 'water-contamination-nationwide', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Flint pediatrician who documented elevated blood lead levels in children' }],
+ knownAssociates: [
+ { name: 'Marc Edwards', relationship: 'Virginia Tech scientist who tested Flint water alongside Hanna-Attisha', href: '/entities/individuals/marc-edwards' },
+ { name: 'LeeAnne Walters', relationship: 'Flint resident whose water testing sparked investigation', href: '/entities/individuals/leeanne-walters' },
+ { name: 'Rick Snyder', relationship: 'Michigan governor whose administration caused Flint water crisis', href: '/entities/individuals/rick-snyder' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mona Hanna-Attisha', url: 'https://en.wikipedia.org/wiki/Mona_Hanna-Attisha' }],
+ },
+ 'moses-wright': {
+ name: 'Moses Wright',
+ title: 'Emmett\'s great-uncle who witnessed the kidnapping and testified at trial',
+ role: 'Emmett\'s great-uncle who witnessed the kidnapping and testified at trial',
+ riskLevel: 'high',
+ description: 'Moses Wright is documented in ArkHive investigations for their role as Emmett\'s great-uncle who witnessed the kidnapping and testified at trial.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Mona Hanna-Attisha', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Emmett' }],
+ knownAssociates: [
+ { name: 'Mamie Till-Mobley', relationship: 'Emmett\'s mother; Wright testified identifying killers', href: '/entities/individuals/mamie-till-mobley' },
+ { name: 'Roy Bryant', relationship: 'Bravely pointed out Bryant as Emmett Till\'s kidnapper in court', href: '/entities/individuals/roy-bryant' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Moses Wright', url: 'https://en.wikipedia.org/wiki/Moses_Wright' }],
+ },
+ 'muammar-gaddafi': {
+ name: 'Muammar Gaddafi',
+ title: 'Libyan leader overthrown and extrajudicially killed during intervention',
+ role: 'Libyan leader overthrown and extrajudicially killed during intervention',
+ riskLevel: 'high',
+ description: 'Muammar Gaddafi is documented in ArkHive investigations for their role as Libyan leader overthrown and extrajudicially killed during intervention.',
+ education: [],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Libya Intervention', slug: 'libya-intervention', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Libyan leader overthrown and extrajudicially killed during intervention' }],
+ knownAssociates: [
+ { name: 'Khalifa Haftar', relationship: 'Former general who later fought for control of post-Gaddafi Libya', href: '/entities/individuals/khalifa-haftar' },
+ { name: 'Nicolas Sarkozy', relationship: 'French president who led NATO intervention toppling Gaddafi', href: '/entities/individuals/nicolas-sarkozy' },
+ { name: 'Hillary Clinton', relationship: 'Secretary of State during Libya intervention', href: '/entities/individuals/hillary-clinton' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Muammar Gaddafi', url: 'https://en.wikipedia.org/wiki/Muammar_Gaddafi' }],
+ },
+ 'muhammad-abdul-aziz': {
+ name: 'Muhammad Abdul Aziz (Norman 3X Butler)',
+ title: 'Wrongfully convicted of Malcolm X\'s murder; exonerated after 56 years in November 2021',
+ role: 'Wrongfully convicted of Malcolm X\'s murder; exonerated after 56 years in November 2021',
+ riskLevel: 'high',
+ description: 'Muhammad Abdul Aziz (Norman 3X Butler) is documented in ArkHive investigations for their role as Wrongfully convicted of Malcolm X\'s murder; exonerated after 56 years in November 2021.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Muammar Gaddafi', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Wrongfully convicted of Malcolm X' }],
+ knownAssociates: [
+ { name: 'Khalil Islam', relationship: 'Fellow wrongfully convicted man in Malcolm X assassination', href: '/entities/individuals/khalil-islam' },
+ { name: 'Malcolm X', relationship: 'Wrongfully convicted of assassinating Malcolm X; exonerated 2021', href: '/entities/individuals/malcolm-x' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Muhammad Abdul Aziz (Norman 3X Butler)', url: 'https://en.wikipedia.org/wiki/Muhammad_Abdul_Aziz)' }],
+ },
+ 'mujahid-abdul-halim': {
+ name: 'Mujahid Abdul Halim (Talmadge Hayer)',
+ title: 'Self-confessed assassin who testified that Aziz and Islam were innocent and named the real accomplices',
+ role: 'Self-confessed assassin who testified that Aziz and Islam were innocent and named the real accomplices',
+ riskLevel: 'high',
+ description: 'Mujahid Abdul Halim (Talmadge Hayer) is documented in ArkHive investigations for their role as Self-confessed assassin who testified that Aziz and Islam were innocent and named the real accomplices.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Muhammad Abdul Aziz (Norman 3X Butler)', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Self-confessed assassin who testified that Aziz and Islam were innocent and named the real accomplic' }],
+ knownAssociates: [
+ { name: 'Malcolm X', relationship: 'Actual shooter who killed Malcolm X', href: '/entities/individuals/malcolm-x' },
+ { name: 'Muhammad Abdul Aziz', relationship: 'Wrongfully convicted alongside Halim for Malcolm X murder', href: '/entities/individuals/muhammad-abdul-aziz' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Mujahid Abdul Halim (Talmadge Hayer)', url: 'https://en.wikipedia.org/wiki/Mujahid_Abdul_Halim)' }],
+ },
+ 'mark-hyman': {
+ name: 'Mark Hyman',
+ title: 'Sinclair Broadcasting commentator whose conservative"must-run"segments were mandated on local news stations nationwide',
+ role: 'Media Figure',
+ riskLevel: 'medium',
+ description: 'Mark Hyman was a Sinclair Broadcasting commentator whose conservative editorial segments were among the"must-run"content that Sinclair forced its local news stations to air, regardless of local editorial preferences, blurring the line between news and political commentary.',
+ education: [],
+ affiliations: [
+ { name: 'Sinclair Broadcast Group', role: 'Commentator', type: 'corporation' },
+ ],
+ controversies: [
+ 'Produced mandatory conservative commentary segments forced on Sinclair\'s local news stations',
+ ],
+ relatedInvestigations: [
+ { title: 'Sinclair Broadcasting: Scripted Local News', slug: 'sinclair-broadcasting', severity: 'high' },
+ ],
+ timeline: [
+ { date: '2004', event: 'Began producing"must-run"conservative commentary segments for Sinclair Broadcasting stations' },
+ ],
+ sources: [
+ { title: 'Sinclair Broadcasting: Scripted Local News', url: '/investigations/sinclair-broadcasting' },
+ ],
+ knownAssociates: [
+ { name: 'Suzanne Scott', relationship: 'Fellow conservative media figure', href: '/entities/individuals/suzanne-scott' }
+ ],
+
+ },
+ 'mark-ruffalo': {
+ name: 'Mark Ruffalo',
+ title: 'Actor and environmental activist who advocated for victims of DuPont\'s PFAS contamination',
+ role: 'Activist',
+ riskLevel: 'low',
+ description: 'Mark Ruffalo is an actor and environmental activist who starred in the film"Dark Waters"and used his public platform to bring attention to DuPont\'s PFAS contamination crisis, advocating for affected communities and stronger chemical regulations.',
+ education: [],
+ affiliations: [
+ { name: 'Media', role: 'Journalist', type: 'corporation' },
+ { name: 'Entertainment Industry', role: 'Entertainment Figure', type: 'corporation' },
+ ],
+ controversies: [
+ 'Advocated for DuPont PFAS contamination victims and stronger chemical safety regulations',
+ ],
+ relatedInvestigations: [
+ { title: 'DuPont PFAS Poisoning', slug: 'dupont-pfas-poisoning', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2019', event: 'Starred in"Dark Waters"bringing public attention to DuPont PFAS contamination' },
+ ],
+ sources: [
+ { title: 'DuPont PFAS Poisoning', url: '/investigations/dupont-pfas-poisoning' },
+ ],
+ knownAssociates: [
+ { name: 'Robert Bilott', relationship: 'Portrayed attorney Bilott in Dark Waters film about DuPont', href: '/entities/individuals/robert-bilott' },
+ { name: 'Wilbur Tennant', relationship: 'Dark Waters featured Tennant\'s farmer story', href: '/entities/individuals/wilbur-tennant' }
+ ],
+
+ },
+ 'matthew-albence': {
+ name: 'Matthew Albence',
+ title: 'Acting ICE Director who defended detention facility conditions during period of documented abuses',
+ role: 'Government Official',
+ riskLevel: 'high',
+ description: 'Matthew Albence served as Acting Director of ICE during a period of extensively documented abuses in immigration detention facilities, including family separations, overcrowding, inadequate medical care, and deaths in custody. He defended the conditions publicly.',
+ education: [],
+ affiliations: [
+ { name: 'Immigration and Customs Enforcement', role: 'Acting Director', type: 'agency' },
+ ],
+ controversies: [
+ 'Defended ICE detention conditions during period of documented abuses, family separations, and deaths in custody',
+ ],
+ relatedInvestigations: [
+ { title: 'ICE Detention Abuses', slug: 'ice-detention-abuses', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2019', event: 'Served as Acting ICE Director during period of documented detention facility abuses' },
+ ],
+ sources: [
+ { title: 'ICE Detention Abuses', url: '/investigations/ice-detention-abuses' },
+ ],
+ knownAssociates: [
+ { name: 'Kevin McAleenan', relationship: 'Fellow Trump immigration enforcement official', href: '/entities/individuals/kevin-mcaleenan' }
+ ],
+
+ },
+ 'michelle-alexander': {
+ name: 'Michelle Alexander',
+ title: 'Legal scholar and author of"The New Jim Crow"who documented systemic racism in the criminal justice system',
+ role: 'Academic',
+ riskLevel: 'low',
+ description: 'Michelle Alexander is a legal scholar, civil rights advocate, and author of"The New Jim Crow: Mass Incarceration in the Age of Colorblindness,"which documented how the War on Drugs and mass incarceration created a new racial caste system in America.',
+ education: [],
+ affiliations: [
+ { name: 'Ohio State University', role: 'Law Professor', type: 'organization' },
+ ],
+ controversies: [
+ 'Documented how mass incarceration functions as a new form of racial control in America',
+ ],
+ relatedInvestigations: [
+ { title: 'War on Black America', slug: 'war-on-black-america', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2010', event: 'Published"The New Jim Crow"documenting systemic racism in the criminal justice system' },
+ ],
+ sources: [
+ { title: 'War on Black America', url: '/investigations/war-on-black-america' },
+ ],
+ knownAssociates: [
+ { name: 'Bryan Stevenson', relationship: 'Fellow mass incarceration critic and criminal justice reformer', href: '/entities/individuals/bryan-stevenson' },
+ { name: 'Radley Balko', relationship: 'Fellow criminal justice reform writer', href: '/entities/individuals/radley-balko' }
+ ],
+
+ },
+ 'mike-masaoka': {
+ name: 'Mike Masaoka',
+ title: 'JACL leader who controversially encouraged Japanese American cooperation with internment to prove loyalty',
+ role: 'Activist',
+ riskLevel: 'medium',
+ description: 'Mike Masaoka was the national secretary of the Japanese American Citizens League (JACL) who controversially advocated for Japanese American cooperation with internment orders, believing that demonstrating loyalty through compliance would lead to better treatment and eventual acceptance.',
+ education: [],
+ affiliations: [
+ { name: 'Japanese American Citizens League', role: 'National Secretary', type: 'organization' },
+ ],
+ controversies: [
+ 'Encouraged cooperation with internment, drawing criticism from Japanese Americans who viewed it as capitulation',
+ ],
+ relatedInvestigations: [
+ { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1942', event: 'Advocated for JACL cooperation with internment orders as strategy to prove Japanese American loyalty' },
+ ],
+ sources: [
+ { title: 'Japanese American Internment', url: '/investigations/japanese-internment' },
+ ],
+ knownAssociates: [
+ { name: 'Norman Mineta', relationship: 'Fellow Japanese American leader during internment era', href: '/entities/individuals/norman-mineta' },
+ { name: 'Gordon Hirabayashi', relationship: 'Masaoka\'s JACL compliance strategy conflicted with resistors like Hirabayashi', href: '/entities/individuals/gordon-hirabayashi' }
+ ],
+
+ },
+ 'minoru-yasui': {
+ name: 'Minoru Yasui',
+ title: 'Japanese American attorney who deliberately violated internment curfew orders to create a legal test case',
+ role: 'Activist',
+ riskLevel: 'low',
+ description: 'Minoru Yasui was a Japanese American attorney who deliberately violated the military curfew imposed on Japanese Americans to create a legal test case challenging the constitutionality of internment. His conviction was later vacated as part of the redress movement.',
+ education: [
+ 'Law Degree',
+ ],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+ ],
+ controversies: [
+ 'Challenged constitutionality of Japanese American internment curfew through deliberate civil disobedience',
+ ],
+ relatedInvestigations: [
+ { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1942', event: 'Deliberately violated internment curfew in Portland, Oregon, to create test case challenging constitutionality' },
+ ],
+ sources: [
+ { title: 'Japanese American Internment', url: '/investigations/japanese-internment' },
+ ],
+ knownAssociates: [
+ { name: 'Gordon Hirabayashi', relationship: 'Fellow Japanese American internment resister', href: '/entities/individuals/gordon-hirabayashi' },
+ { name: 'John L. DeWitt', relationship: 'Challenged DeWitt\'s curfew order in court', href: '/entities/individuals/john-l-dewitt' }
+ ],
+
+ },
+ 'martin-van-buren': {
+ name: 'Martin Van Buren',
+ title: '8th President of the United States',
+ role: 'Political Figure',
+ riskLevel: 'high',
+ description: 'Martin Van Buren served as the 8th President of the United States from 1837 to 1841. He enforced the Indian Removal Act signed by his predecessor Andrew Jackson, overseeing the forced removal of the Cherokee and other Native American tribes from their ancestral lands in what became known as the Trail of Tears, resulting in the deaths of thousands.',
+ birthDate: 'December 5, 1782',
+ birthPlace: 'Kinderhook, New York',
+ deathDate: 'July 24, 1862',
+ education: [],
+ affiliations: [
+ { name: 'United States Government', role: '8th President (1837-1841)', type: 'agency' },
+ ],
+ controversies: [
+ 'Enforced the Indian Removal Act, directly overseeing the Trail of Tears',
+ 'Refused to halt the forced removal of Cherokee despite Supreme Court rulings',
+ 'Thousands of Native Americans died during forced marches under his administration',
+ ],
+ relatedInvestigations: [
+ { title: 'Trail of Tears', slug: 'trail-of-tears', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1837', event: 'Inaugurated as 8th President, inherited Indian Removal Act enforcement' },
+ { date: '1838', event: 'Ordered military enforcement of Cherokee removal - the Trail of Tears' },
+ { date: '1838-1839', event: 'Approximately 4,000 Cherokee died during the forced march westward' },
+ ],
+ sources: [
+ { title: 'Trail of Tears', url: '/investigations/trail-of-tears' },
+ ],
+ knownAssociates: [
+ { name: 'Andrew Jackson', relationship: 'VP under Jackson; continued Indian Removal as president', href: '/entities/individuals/andrew-jackson' },
+ { name: 'Winfield Scott', relationship: 'General who carried out Cherokee removal under Van Buren', href: '/entities/individuals/winfield-scott' }
+ ],
+
+ },
+ 'michael-fanone': {
+ name: 'Michael Fanone',
+ title: 'DC Metropolitan Police Officer',
+ role: 'Law Enforcement Officer',
+ riskLevel: 'low',
+ description: 'Michael Fanone was a DC Metropolitan Police Officer who responded to the January 6, 2021 Capitol attack. He was dragged into the mob, beaten, tased, and suffered a heart attack and traumatic brain injury during the insurrection. He became an outspoken critic of efforts to downplay the severity of the attack and testified before Congress about his experience.',
+ education: [],
+ affiliations: [
+ { name: 'DC Metropolitan Police Department', role: 'Police Officer', type: 'agency' },
+ ],
+ controversies: [
+ 'Dragged into mob and severely beaten during January 6 Capitol attack, suffered heart attack and traumatic brain injury',
+ 'Became outspoken critic of Republican efforts to minimize the insurrection',
+ 'Testified before Congress about the violence he experienced on January 6',
+ ],
+ relatedInvestigations: [
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'January 6, 2021', event: 'Responded to Capitol attack, was dragged into mob, beaten, tased, suffered heart attack and TBI' },
+ { date: '2021', event: 'Testified before House Select Committee on January 6 attack' },
+ { date: '2022', event: 'Left the police force, continued advocacy for accountability' },
+ ],
+ sources: [
+ { title: 'January 6 Insurrection', url: '/investigations/january-6-insurrection' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Officer assaulted during Jan 6 Capitol attack Trump incited', href: '/entities/individuals/donald-trump' }
+ ],
+
+ },
+ 'michael-steinhardt': {
+ name: 'Michael Steinhardt',
+ title: 'Hedge Fund Pioneer',
+ role: 'Billionaire Named in Documents',
+ riskLevel: 'medium',
+ description: 'Billionaire hedge fund pioneer and philanthropist named in unsealed Epstein court documents. Co-founded Birthright Israel. Known for aggressive management style and accusations of sexual harassment from multiple women in the financial industry.',
+ birthDate: 'December 7, 1940',
+ birthPlace: 'Brooklyn, New York',
+ education: ['University of Pennsylvania - Wharton School'],
+ netWorth: '$1.2 billion',
+ affiliations: [
+ { name: 'Steinhardt Partners', role: 'Founder', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Named in documents', href: '/entities/individuals/jeffrey-epstein' },
+ 
+ { name: 'Ghislaine Maxwell', relationship: 'Social connection', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Les Wexner', relationship: 'Both major financial supporters connected to Epstein', href: '/entities/individuals/les-wexner' },
+ { name: 'Glenn Dubin', relationship: 'Hedge fund peers in Epstein circle', href: '/entities/individuals/glenn-dubin' },
+ ],
+ controversies: [
+ 'Named in unsealed Epstein documents (2024)',
+ 'Multiple women accused him of sexual harassment',
+ 'Returned stolen antiquities worth $70M to various countries',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2019', event: 'Accused of sexual harassment by multiple women' },
+ { date: '2024', event: 'Named in unsealed Epstein documents' },
+ ],
+ sources: [
+ { title: '2024 Unsealed Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
+ ],
+ },
+ 'miles-alexander': {
+ name: 'Miles Alexander',
+ title: 'Butler at Little St. James',
+ role: 'Staff Witness',
+ riskLevel: 'low',
+ description: 'Butler at Jeffrey Epstein\'s Little St. James Island in the US Virgin Islands. A potential witness to activities on the island who was named in various court documents.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Epstein Network Complicity', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Employer', href: '/entities/individuals/jeffrey-epstein' },
+ { name: 'Cathy Alexander', relationship: 'Spouse, also employed on island', href: '/entities/individuals/cathy-alexander' },
+ 
+ { name: 'Ghislaine Maxwell', relationship: 'Alleged to have facilitated recruitment', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Virginia Giuffre', relationship: 'Fellow survivor in Epstein network cases', href: '/entities/individuals/virginia-giuffre' }
+ ],
+ controversies: [
+ 'Named in documents as potential witness to island activities',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2000s', event: 'Employed as butler on Little St. James' },
+ ],
+ sources: [
+ { title: 'USVI AG Lawsuit', url: 'https://www.courtlistener.com/', date: '2020' },
+ ],
+ },
+ 'marvin-minsky': {
+ name: 'Marvin Minsky',
+ title: 'MIT AI Pioneer',
+ role: 'Accused by Virginia Giuffre',
+ riskLevel: 'high',
+ description: 'Renowned MIT professor and pioneer of artificial intelligence, co-founder of the MIT AI Laboratory. Accused by Virginia Giuffre of sexual contact at Epstein\'s Little St. James Island. Giuffre stated in deposition that she was directed by Maxwell to have sex with Minsky. Died in 2016 before allegations became public.',
+ birthDate: 'August 9, 1927',
+ birthPlace: 'New York City, New York',
+ deathDate: 'January 24, 2016',
+ education: ['Harvard University - Mathematics', 'Princeton University - PhD Mathematics'],
+ affiliations: [
+ { name: 'MIT', role: 'Co-founder of AI Laboratory', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Visited Epstein\'s island', href: '/entities/individuals/jeffrey-epstein' },
+ { name: 'Virginia Giuffre', relationship: 'Named by Giuffre in deposition', href: '/entities/individuals/virginia-giuffre' },
+ 
+ { name: 'Ghislaine Maxwell', relationship: 'Connected through Epstein\'s scientific social events', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Joi Ito', relationship: 'MIT colleague connected through Epstein funding network', href: '/entities/individuals/joi-ito' },
+ { name: 'Lawrence Krauss', relationship: 'Fellow scientist in Epstein\'s academic circle', href: '/entities/individuals/lawrence-krauss' }
+ ],
+ controversies: [
+ 'Accused by Virginia Giuffre of sexual contact on Epstein\'s island',
+ 'Reportedly directed by Maxwell to have sex with Giuffre',
+ 'Died before allegations became public',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2000s', event: 'Visited Epstein\'s Little St. James Island' },
+ { date: '2016', event: 'Died January 24, 2016' },
+ { date: '2019', event: 'Allegations became public through court documents' },
+ ],
+ sources: [
+ { title: 'Giuffre Deposition Testimony', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2019' },
+ ],
+ },
+ 'martin-nowak': {
+ name: 'Martin Nowak',
+ title: 'Harvard Professor',
+ role: 'Director of Epstein-Funded Program',
+ riskLevel: 'medium',
+ description: 'Harvard professor who ran the Program for Evolutionary Dynamics, which received substantial funding from Jeffrey Epstein. The program was Epstein\'s primary academic front at Harvard, giving him a legitimate reason to maintain campus presence and cultivate relationships with academics even after his sex offender conviction.',
+ birthDate: 'April 7, 1965',
+ birthPlace: 'Vienna, Austria',
+ education: ['University of Vienna - PhD Mathematics'],
+ affiliations: [
+ { name: 'Harvard University', role: 'Professor, Director of PED', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Primary funder of his program', href: '/entities/individuals/jeffrey-epstein' },
+ { name: 'Joi Ito', relationship: 'Both received Epstein funding', href: '/entities/individuals/joi-ito' },
+ 
+ { name: 'Ghislaine Maxwell', relationship: 'Connected through Epstein\'s academic funding operations', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Larry Summers', relationship: 'Harvard colleague during period of Epstein donations', href: '/entities/individuals/larry-summers' },
+ { name: 'Lawrence Krauss', relationship: 'Fellow scientist who received Epstein funding', href: '/entities/individuals/lawrence-krauss' }
+ ],
+ controversies: [
+ 'Ran Epstein-funded program at Harvard',
+ 'Program gave Epstein academic legitimacy post-conviction',
+ 'Under investigation by Harvard for Epstein ties',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2003', event: 'Founded Program for Evolutionary Dynamics with Epstein funding' },
+ { date: '2019', event: 'Under scrutiny for Epstein connection' },
+ ],
+ sources: [
+ { title: 'Harvard Epstein Donations', url: 'https://www.thecrimson.com/article/2020/5/1/harvard-epstein-donations/', date: '2020' },
+ ],
+ },
+ 'maria-farmer': {
+ name: 'Maria Farmer',
+ title: 'Victim and Whistleblower',
+ role: 'First Known Reporter to FBI (1996)',
+ riskLevel: 'low',
+ description: 'Artist and one of the earliest known victims of Epstein and Maxwell who reported their abuse to the FBI and NYPD in 1996 - three years before real investigation began. The FBI took no action for nearly a decade. She and her younger sister Annie Farmer were both abused. Maria was assaulted at the Wexner estate in Ohio. Her courage in coming forward early, only to be ignored by authorities, represents one of the most damning failures of law enforcement in the case.',
+ education: ['New York Academy of Art'],
+ affiliations: [
+ { name: 'Federal Bureau of Investigation', role: 'FBI Official', type: 'agency' },
+ { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Victim - abused by', href: '/entities/individuals/jeffrey-epstein' },
+ { name: 'Ghislaine Maxwell', relationship: 'Victim - assaulted by', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Les Wexner', relationship: 'Assaulted at Wexner property', href: '/entities/individuals/les-wexner' },
+ { name: 'Annie Farmer', relationship: 'Sister, also a victim', href: '/entities/individuals/annie-farmer' },
+ ],
+ controversies: [
+ 'Reported abuse to FBI in 1996 - was ignored',
+ 'Assaulted by Maxwell at Wexner estate in Ohio',
+ 'FBI failure to act allowed trafficking to continue for over a decade',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1996', event: 'Reported abuse to FBI and NYPD - ignored' },
+ { date: '2019', event: 'Spoke publicly about abuse and FBI failure' },
+ { date: '2021', event: 'Testimony used in Maxwell trial' },
+ ],
+ sources: [
+ { title: 'Maria Farmer CBS Interview', url: 'https://www.cbsnews.com/', date: '2019' },
+ ],
+ },
+ 'mark-middleton': {
+ name: 'Mark Middleton',
+ title: 'Clinton White House Aide',
+ role: 'Arranged Epstein WH Visits',
+ riskLevel: 'high',
+ description: 'Former Clinton White House aide who arranged multiple visits by Jeffrey Epstein to the White House. Middleton was found dead in May 2022 in Perryville, Arkansas, in what was ruled a suicide by hanging. He also had a shotgun wound to his chest. His death, like Epstein\'s, raised significant questions.',
+ deathDate: 'May 7, 2022',
+ education: [],
+ affiliations: [
+ { name: 'Clinton White House', role: 'Special Assistant to the President', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Arranged White House visits for', href: '/entities/individuals/jeffrey-epstein' },
+ { name: 'Bill Clinton', relationship: 'Worked in Clinton White House', href: '/entities/individuals/bill-clinton' },
+ 
+ { name: 'Ghislaine Maxwell', relationship: 'Facilitated Maxwell\'s access to Clinton White House', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Virginia Giuffre', relationship: 'Referenced in connection with Clinton-Epstein White House visits', href: '/entities/individuals/virginia-giuffre' }
+ ],
+ controversies: [
+ 'Arranged Epstein\'s White House visits',
+ 'Found dead in 2022 under suspicious circumstances',
+ 'Death ruled suicide despite also having shotgun wound to chest',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1993-1995', event: 'Served in Clinton White House' },
+ { date: '1990s', event: 'Arranged Epstein White House visits' },
+ { date: '2022 May', event: 'Found dead in Arkansas' },
+ ],
+ sources: [{ title: 'Wikipedia: Mark Middleton', url: 'https://en.wikipedia.org/wiki/Mark_Middleton' }, { title: 'Washington Post: Mark Middleton', url: 'https://www.washingtonpost.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
+ },
+ 'murray-gell-mann': {
+ name: 'Murray Gell-Mann',
+ title: 'Nobel Physics Laureate',
+ role: 'Epstein-Funded Events',
+ riskLevel: 'low',
+ description: 'Nobel Prize-winning physicist who predicted quarks. Attended Epstein-funded events through Edge Foundation and Santa Fe Institute connections. Died in 2019.',
+ birthDate: 'September 15, 1929',
+ deathDate: 'May 24, 2019',
+ education: ['Yale University', 'MIT - PhD Physics'],
+ affiliations: [
+ { name: 'Santa Fe Institute', role: 'Co-Founder', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Attended funded events', href: '/entities/individuals/jeffrey-epstein' },
+ 
+ { name: 'John Brockman', relationship: 'Edge Foundation, connected through intellectual circles', href: '/entities/individuals/john-brockman' },
+ { name: 'Steven Pinker', relationship: 'Fellow Edge Foundation intellectual', href: '/entities/individuals/steven-pinker' },
+ { name: 'Lawrence Krauss', relationship: 'Fellow physicist in Epstein orbit', href: '/entities/individuals/lawrence-krauss' },
+ ],
+ controversies: [
+ 'Attended Epstein-funded science events',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2019', event: 'Died May 24' },
+ ],
+ sources: [{ title: 'Wikipedia: Murray Gell-Mann', url: 'https://en.wikipedia.org/wiki/Murray_Gell-Mann' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
+ },
+ 'mick-jagger': {
+ name: 'Mick Jagger',
+ title: 'Rolling Stones Frontman',
+ role: 'Named in Black Book',
+ riskLevel: 'low',
+ description: 'Iconic Rolling Stones frontman named in Epstein\'s Black Book with multiple contact numbers.',
+ birthDate: 'July 26, 1943',
+ education: ['London School of Economics (did not finish)'],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: David Blaine', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Named in Black Book', href: '/entities/individuals/jeffrey-epstein' },
+ 
+ { name: 'Ghislaine Maxwell', relationship: 'NYC/London social circles', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Naomi Campbell', relationship: 'Personal relationship, both in Epstein black book', href: '/entities/individuals/naomi-campbell' },
+ { name: 'Prince Andrew', relationship: 'British social circles, both in black book', href: '/entities/individuals/prince-andrew' },
+ ],
+ controversies: [
+ 'Named in Epstein Black Book',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
+ sources: [{ title: 'Wikipedia: Mick Jagger', url: 'https://en.wikipedia.org/wiki/Mick_Jagger' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
+ },
+ 'michael-reiter': {
+ name: 'Michael Reiter',
+ title: 'Palm Beach Police Chief',
+ role: 'Referred Case to FBI',
+ riskLevel: 'low',
+ description: 'Palm Beach Police Chief who supported Detective Joe Recarey\'s investigation and took the extraordinary step of referring the case to the FBI after State Attorney Barry Krischer refused to pursue serious charges.',
+ education: [],
+ affiliations: [
+ { name: 'Palm Beach Police Department', role: 'Chief', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Joe Recarey', relationship: 'Led investigation under his command', href: '/entities/individuals/joe-recarey' },
+ 
+ { name: 'Barry Krischer', relationship: 'State Attorney who refused to prosecute fully', href: '/entities/individuals/barry-krischer' },
+ { name: 'Ghislaine Maxwell', relationship: 'Named in police investigation', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Alex Acosta', relationship: 'US Attorney contacted about federal prosecution', href: '/entities/individuals/alex-acosta' },
+ ],
+ controversies: [
+ 'Palm Beach Police Chief who pushed for Epstein\'s prosecution despite pressure from high-powered defense attorneys',
+ 'Referred the case to the FBI after Palm Beach State Attorney Barry Krischer appeared to protect Epstein',
+ 'Publicly blamed Acosta\'s office for the sweetheart deal that let Epstein avoid serious prison time',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2005-2006', event: 'Oversaw investigation and referred to FBI' },
+ ],
+ sources: [{ title: 'Wikipedia: Michael Reiter', url: 'https://en.wikipedia.org/wiki/Michael_Reiter' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ },
+ 'maurene-comey': {
+ name: 'Maurene Comey',
+ title: 'SDNY Prosecutor',
+ role: 'Prosecuted Maxwell Case',
+ riskLevel: 'low',
+ description: 'Federal prosecutor in SDNY who worked on the Maxwell case. Daughter of former FBI Director James Comey, who was FBI Director during the original Epstein investigation.',
+ education: [],
+ affiliations: [
+ { name: 'SDNY', role: 'Assistant US Attorney', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'James Comey', relationship: 'Father, former FBI Director', href: '/entities/individuals/james-comey' },
+ 
+ { name: 'Audrey Strauss', relationship: 'Acting US Attorney overseeing Maxwell case', href: '/entities/individuals/audrey-strauss' },
+ { name: 'Geoffrey Berman', relationship: 'Former SDNY chief who initiated investigation', href: '/entities/individuals/geoffrey-berman' },
+ { name: 'Ghislaine Maxwell', relationship: 'Prosecuted at trial, secured conviction', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Virginia Giuffre', relationship: 'Victim whose testimony was central to case', href: '/entities/individuals/virginia-giuffre' },
+ ],
+ controversies: [
+ 'Father was FBI Director during original Epstein investigation period',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2021', event: 'Prosecuted Maxwell case' },
+ ],
+ sources: [{ title: 'Wikipedia: Maurene Comey', url: 'https://en.wikipedia.org/wiki/Maurene_Comey' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
+ },
+ 'michael-baden': {
+ name: 'Dr. Michael Baden',
+ title: 'Forensic Pathologist',
+ role: 'Found Evidence of Homicidal Strangulation',
+ riskLevel: 'low',
+ description: 'Forensic pathologist hired by the Epstein family who reviewed the autopsy and found evidence more consistent with homicidal strangulation than suicide. Cited a broken hyoid bone (rare in suicidal hanging but common in strangulation) and bilateral hemorrhages as inconsistent with the official suicide ruling.',
+ birthDate: 'July 7, 1934',
+ education: ['City College of New York', 'NYU School of Medicine'],
+ affiliations: [
+ { name: 'Independent', role: 'Miami Herald: Epstein Investigation', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Hired by Epstein family to observe autopsy', href: '/entities/individuals/jeffrey-epstein' },
+ { name: 'Barbara Sampson', relationship: 'NYC Chief Medical Examiner who ruled suicide', href: '/entities/individuals/barbara-sampson' },
+ 
+ { name: 'Ghislaine Maxwell', relationship: 'Forensic findings relevant to Maxwell defense arguments', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Nicholas Tartaglione', relationship: 'Epstein cellmate investigated in connection with death', href: '/entities/individuals/nicholas-tartaglione' }
+ ],
+ controversies: [
+ 'High-profile forensic pathologist hired by Epstein\'s brother to observe autopsy after Epstein\'s jail death',
+ 'Publicly stated evidence was more consistent with homicidal strangulation than suicide',
+ 'His findings contradicted the official ruling by NYC medical examiner of suicide by hanging',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2019 Oct', event: 'Released findings contradicting suicide ruling' },
+ ],
+ sources: [
+ { title: 'Dr. Baden Autopsy Findings', url: 'https://www.foxnews.com/us/forensic-pathologist-jeffrey-epstein-homicide', date: '2019' },
+ ],
+ },
+ 'mike-huckabee': {
+"name":"Mike Huckabee",
+"title":"Former Governor of Arkansas",
+"role":"Trump Ambassador to Israel",
+"riskLevel":"high",
+"description":"Republican politician, former governor of Arkansas (1996-2007), two-time presidential candidate, and father of Sarah Huckabee Sanders. Appointed as Trump's Ambassador to Israel. Known for extreme evangelical Christian positions and unwavering Trump loyalty.",
+"education": [
+"Ouachita Baptist University - B.A.",
+"Southwestern Baptist Theological Seminary"
+ ],
+"affiliations": [
+ {
+"name":"Republican Party",
+"role":"Governor, Presidential Candidate",
+"type":"organization"
+ }
+ ],
+"knownAssociates": [
+ {
+"name":"Donald Trump",
+"relationship":"Appointed Ambassador to Israel",
+"href":"/entities/individuals/donald-trump"
+ },
+ {
+"name":"Sarah Huckabee Sanders",
+"relationship":"Father - she served as Trump Press Secretary",
+"href":"/entities/individuals/sarah-huckabee-sanders"
+ }
+ ],
+"controversies": [
+"Appointed ambassador despite no diplomatic experience",
+"Supports Israeli settlements in occupied territories",
+"Used pardon power controversially as governor"
+ ],
+"relatedInvestigations": [
+ {
+"title":"Trump Criminal Compendium",
+"slug":"trump-criminal-compendium",
+"severity":"critical"
+ }
+ ],
+"timeline": [
+ {
+"date":"1996",
+"event":"Became Governor of Arkansas"
+ },
+ {
+"date":"2024",
+"event":"Nominated as Ambassador to Israel"
+ }
+ ],
+"sources": [
+ {
+"title":"AP: Huckabee Ambassador",
+"url":"https://apnews.com/article/huckabee-ambassador-israel",
+"date":"2024"
+ }
+ ]
+ },
+ 'mark-burnett': {
+"name":"Mark Burnett",
+"title":"Television Producer",
+"role":"Creator of The Apprentice",
+"riskLevel":"medium",
+"description":"British-American television producer who created The Apprentice, the show that rehabilitated Donald Trump's image as a successful businessman after multiple bankruptcies. Refused to release potentially damaging outtakes from the show despite public pressure.",
+"education": [],
+"affiliations": [
+ {
+"name":"MGM Television",
+"role":"Chairman",
+"type":"corporation"
+ }
+ ],
+"knownAssociates": [
+ {
+"name":"Donald Trump",
+"relationship":"Created The Apprentice which built Trump brand",
+"href":"/entities/individuals/donald-trump"
+ }
+ ],
+"controversies": [
+"Refused to release Apprentice outtakes allegedly containing racist language by Trump",
+"Created the media image that enabled Trump political career",
+"NDA agreements prevent cast/crew from speaking about on-set behavior"
+ ],
+"relatedInvestigations": [
+ {
+"title":"Trump Criminal Compendium",
+"slug":"trump-criminal-compendium",
+"severity":"critical"
+ }
+ ],
+"timeline": [
+ {
+"date":"2004",
+"event":"Launched The Apprentice with Trump"
+ },
+ {
+"date":"2016",
+"event":"Pressure to release outtakes during campaign"
+ }
+ ],
+"sources": [
+ {
+"title":"New Yorker: How Mark Burnett Resurrected Trump",
+"url":"https://www.newyorker.com/magazine/2019/01/07/how-mark-burnett-resurrected-donald-trump-as-an-icon-of-american-success",
+"date":"2019"
+ }
+ ]
+ },
+ 'moon-jae-in': {
+"name":"Moon Jae-in",
+"title":"Former President of South Korea",
+"role":"North Korea Diplomacy Partner",
+"riskLevel":"low",
+"description":"President of South Korea (2017-2022) who facilitated the Trump-Kim Jong Un summits. Played a critical diplomatic role in the 2018 inter-Korean detente.",
+"education": [
+"Kyung Hee University - Law"
+ ],
+"affiliations": [
+ {
+"name":"South Korean Government",
+"role":"President",
+"type":"agency"
+ }
+ ],
+"knownAssociates": [
+ {
+"name":"Donald Trump",
+"relationship":"Facilitated North Korea diplomacy",
+"href":"/entities/individuals/donald-trump"
+ },
+ {
+"name":"Kim Jong Un",
+"relationship":"Diplomatic counterpart in inter-Korean summits",
+"href":"/entities/individuals/kim-jong-un"
+ }
+ ],
+"controversies": [
+"Criticized for being too accommodating to North Korea",
+"Trump-Kim diplomacy produced no lasting agreements"
+ ],
+"relatedInvestigations": [],
+"timeline": [
+ {
+"date":"2018",
+"event":"Facilitated inter-Korean summit at Panmunjom"
+ }
+ ],
+"sources": [
+ {
+"title":"BBC: Moon Jae-in Profile",
+"url":"https://www.bbc.com/news/world-asia-40108032",
+"date":"2022"
+ }
+ ]
+ },
+ 'michael-brown': {
+"name":"Michael Brown",
+"title":"Victim of Police Shooting",
+"role":"Ferguson, Missouri - Catalyst for Protests",
+"riskLevel":"low",
+"description":"Unarmed 18-year-old African American shot and killed by Ferguson police officer Darren Wilson on August 9, 2014. His death and the subsequent non-indictment of Wilson sparked weeks of protests in Ferguson and nationwide, becoming a turning point for the Black Lives Matter movement.",
+"birthDate":"May 20, 1996",
+"education": [],
+"affiliations": [],
+"knownAssociates": [],
+"controversies": [
+"DOJ report found systemic racism in Ferguson police department",
+"Officer Wilson not indicted by grand jury",
+"His killing exposed predatory municipal court system targeting Black residents"
+ ],
+"relatedInvestigations": [
+ {
+"title":"Police Brutality",
+"slug":"police-brutality",
+"severity":"critical"
+ }
+ ],
+"timeline": [
+ {
+"date":"2014 Aug 9",
+"event":"Shot and killed by officer Darren Wilson"
+ },
+ {
+"date":"2014 Nov",
+"event":"Grand jury declined to indict Wilson"
+ },
+ {
+"date":"2015",
+"event":"DOJ report documented systemic racism in Ferguson PD"
+ }
+ ],
+"sources": [
+ {
+"title":"DOJ Ferguson Report",
+"url":"https://www.justice.gov/sites/default/files/opa/press-releases/attachments/2015/03/04/ferguson_police_department_report.pdf",
+"date":"2015"
+ }
+ ]
+ },
+ 'masayoshi-son': {
+"name":"Masayoshi Son",
+"title":"SoftBank CEO",
+"role":"Tech Investor, Vision Fund",
+"riskLevel":"medium",
+"description":"Japanese-Korean billionaire founder and CEO of SoftBank Group. His $100 billion Vision Fund became the world's largest tech investment vehicle but suffered massive losses on bets like WeWork. Close relationship with Saudi Crown Prince Mohammed bin Salman, who was the Vision Fund's largest investor.",
+"birthDate":"August 11, 1957",
+"education": [
+"University of California, Berkeley"
+ ],
+"affiliations": [
+ {
+"name":"SoftBank Group",
+"role":"CEO",
+"type":"corporation"
+ }
+ ],
+"knownAssociates": [
+ {
+"name":"Mohammed bin Salman",
+"relationship":"Saudi Crown Prince, largest Vision Fund investor",
+"href":"/entities/individuals/mohammed-bin-salman"
+ }
+ ],
+"controversies": [
+"Vision Fund lost billions on WeWork, Uber, and other bets",
+"Close financial ties to Saudi Arabia despite Khashoggi murder",
+"Aggressive investment strategy disrupted tech markets"
+ ],
+"relatedInvestigations": [
+ {
+"title":"Saudi Connections",
+"slug":"saudi-connections",
+"severity":"high"
+ }
+ ],
+"timeline": [
+ {
+"date":"2017",
+"event":"Launched $100B Vision Fund with Saudi investment"
+ },
+ {
+"date":"2019",
+"event":"WeWork implosion caused massive losses"
+ }
+ ],
+"sources": [
+ {
+"title":"FT: SoftBank Vision Fund",
+"url":"https://www.ft.com/content/softbank-vision-fund",
+"date":"2023"
+ }
+ ]
+ },
+  'microsoft': {
+    name: 'Microsoft',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Microsoft is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Microsoft has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'meta': {
+    name: 'Meta',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Meta is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Meta has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'murray-energy': {
+    name: 'Murray Energy',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Murray Energy is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Murray Energy has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'metropolitan-police': {
+    name: 'Metropolitan Police',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Metropolitan Police is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Metropolitan Police has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'ministry-of-state-security': {
+    name: 'Ministry Of State Security',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ministry Of State Security is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Ministry Of State Security has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'mi6': {
+    name: 'Mi6',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mi6 is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Mi6 has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'minneapolis-pd': {
+    name: 'Minneapolis Pd',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Minneapolis Pd is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Minneapolis Pd has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+};
+
+export default profiles;

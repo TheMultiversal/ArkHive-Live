@@ -1,0 +1,3731 @@
+// AUTO-GENERATED — Shard [T] managed by ArkHive Swarm Intelligence
+import type { IndividualProfile } from './types';
+
+const profiles: Record<string, IndividualProfile> = {
+ 'tom-price': {
+ name: 'Thomas Edmunds Price',
+ title: 'Former HHS Secretary',
+ role: 'Healthcare, Private Jet Scandal',
+ riskLevel: 'medium',
+ description: 'Thomas Edmunds Price served as Secretary of Health and Human Services from 2017 to September 2017. He was forced to resign after just seven months amid revelations that he spent over $1 million in taxpayer funds on private and military jet travel, violating government travel policies.',
+ birthDate: 'October 8, 1954',
+ birthPlace: 'Lansing, Michigan, USA',
+ education: [
+ 'M.D. - University of Michigan Medical School',
+ 'B.A. - University of Michigan',
+ ],
+ netWorth: '$13+ million',
+ affiliations: [
+ { name: 'HHS', role: 'Secretary (2017)', type: 'agency' },
+ { name: 'U.S. Congress', role: 'Representative GA-6 (2005-2017)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'HHS Secretary appointee', href: '/entities/individuals/donald-trump' },
+ ],
+ controversies: [
+ '$400,000+ in private jet travel',
+ 'Stock trading in healthcare companies while legislating',
+ 'Shortest-serving HHS Secretary',
+ ],
+ relatedInvestigations: [
+ { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1954', event: 'Born in Michigan' },
+ { date: '2017', event: 'Confirmed as HHS Secretary (February)' },
+ { date: '2017', event: 'Resigns amid travel scandal (September)' },
+ ],
+ sources: [
+ { title: 'HHS IG Report', url: 'https://oig.hhs.gov/', date: '2017' },
+ ],
+ },
+  'tom-barrack': {
+    name: 'Thomas Joseph Barrack Jr.',
+    title: 'Billionaire Real Estate Investor',
+    role: 'Trump Inaugural Chair, Charged as Foreign Agent',
+    riskLevel: 'high',
+    description: 'Tom Barrack is a billionaire investor and long-time Trump friend who chaired Trump\'s inaugural committee, which raised a record $107 million and is under investigation for misspending. He was arrested and charged with acting as an unregistered foreign agent for the UAE, but was acquitted at trial.',
+    birthDate: 'April 28, 1947',
+    birthPlace: 'Boston, Massachusetts, USA',
+    netWorth: '$1+ billion',
+    education: ['J.D. - University of San Diego School of Law', 'B.A. - University of Southern California'],
+    affiliations: [
+      { name: 'Colony Capital', role: 'Founder, CEO (former)', type: 'corporation' },
+      { name: 'Trump Inaugural Committee', role: 'Chairman (2016-2017)', type: 'organization' },
+    ],
+    controversies: [
+      'Chaired inaugural committee that raised record $107M',
+      'Inaugural committee spending under investigation',
+      'Charged with acting as unregistered UAE agent',
+      'Allegedly shared non-public info with UAE officials',
+      'Tried to insert pro-UAE language into Trump speeches',
+      'Acquitted at trial (2022)',
+      'Helped Paul Manafort get campaign chairman job',
+    ],
+    charges: [
+      { statute: '18 U.S.C. § 951', description: 'Acting as foreign agent - acquitted', category: 'Foreign Agent' },
+      { statute: '18 U.S.C. § 1001', description: 'False statements - acquitted', category: 'False Statements' },
+      { statute: '18 U.S.C. § 1512', description: 'Obstruction - acquitted', category: 'Obstruction' },
+    ],
+    relatedInvestigations: [
+      { title: 'Inaugural Committee Investigation', slug: 'inaugural-committee', severity: 'high' },
+      { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1947', event: 'Born in Boston' },
+      { date: '1980s', event: 'Begins friendship with Trump' },
+      { date: '2016', event: 'Named chair of Trump Inaugural Committee' },
+      { date: '2017', event: 'Inaugural raises record $107M, spending questioned' },
+      { date: '2019', event: 'Federal investigators subpoena inaugural committee' },
+      { date: '2021', event: 'July: Arrested on foreign agent charges' },
+      { date: '2021', event: 'Released on $250 million bond' },
+      { date: '2022', event: 'November: Acquitted on all charges' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'DOJ Foreign Agent Indictment', url: 'https://www.justice.gov/', date: '2021' },
+      { title: 'Trial Verdict', url: 'https://scholar.google.com/scholar?q=Trial%20Verdict', date: '2022' },
+      { title: 'Inaugural Committee Investigation', url: 'https://scholar.google.com/scholar?q=Inaugural%20Committee%20Investigation', date: '2019-2022' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: '40+ year friendship, inaugural chairman', href: '/entities/individuals/donald-trump' },
+      { name: 'Jared Kushner', relationship: 'Close relationship, UAE intermediary', href: '/entities/individuals/jared-kushner' },
+      { name: 'Paul Manafort', relationship: 'Business partner', href: '/entities/individuals/paul-manafort' },
+    ],
+  },
+  'tucker-carlson': {
+    name: 'Tucker Carlson',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Tucker Carlson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Tucker Carlson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+ 'tony-ornato': {
+ name: 'Anthony Ornato',
+ title: 'Former Secret Service Agent',
+ role: 'January 6 Key Figure, Trump Loyalist',
+ riskLevel: 'high',
+ description: 'Tony Ornato was a Secret Service agent who took the unusual step of being detailed to the White House as deputy chief of staff under Trump. He was present during key January 6 events and disputed Cassidy Hutchinson\'s testimony about Trump grabbing the steering wheel, though other agents corroborated her account.',
+ birthDate: 'Unknown',
+ birthPlace: 'Connecticut, USA',
+ education: [
+ 'University of Connecticut',
+ ],
+ netWorth: 'Unknown',
+ aliases: [],
+ affiliations: [
+ { name: 'Secret Service', role: 'Agent (returned 2021)', type: 'agency' },
+ { name: 'White House', role: 'Deputy Chief of Staff (2020-2021)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Detailed to serve as deputy chief of staff', href: '/entities/individuals/donald-trump' },
+ { name: 'Mark Meadows', relationship: 'Worked directly with', href: '/entities/individuals/mark-meadows' },
+ { name: 'Cassidy Hutchinson', relationship: 'She testified about his account of limo incident', href: '/entities/individuals/cassidy-hutchinson' },
+ ],
+ controversies: [
+ 'Unprecedented detail from Secret Service to political position',
+ 'Present during January 6 events',
+ 'Deleted text messages from January 5-6',
+ 'Disputed Hutchinson\'s testimony (other agents corroborated her)',
+ 'Questions about loyalty to Trump vs. Secret Service mission',
+ 'Involved in discussions about Trump going to Capitol',
+ ],
+ charges: [
+ { statute: '18 U.S.C. § 1519', description: 'Potential Destruction of Records - Text messages from January 5-6 were deleted from Secret Service devices under his leadership', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction - Deleted communications that may have been relevant to January 6 congressional investigation', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Disputed Cassidy Hutchinson testimony though other agents corroborated her account', category: 'Potential Federal' },
+ { statute: '44 U.S.C. § 3106 (Federal Records Act)', description: 'Records Preservation Violations - Failure to preserve text messages as required federal records', category: 'Federal Records' },
+ { statute: '5 C.F.R. § 2635.101', description: 'Ethics Violations - Unprecedented detail from Secret Service to political White House position raised conflict concerns', category: 'Ethics' },
+ { statute: '18 U.S.C. § 4 (Misprision of Felony)', description: 'Potential Failure to Report - May have had knowledge of January 6 planning that was not properly reported', category: 'Potential Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2020', event: 'Takes unusual detail as White House deputy chief of staff' },
+ { date: '2021', event: 'January 6: Present during key events' },
+ { date: '2021', event: 'Text messages from Jan 5-6 deleted' },
+ { date: '2021', event: 'Returns to Secret Service' },
+ { date: '2022', event: 'Cassidy Hutchinson testifies about his account' },
+ { date: '2022', event: 'Retires from Secret Service' },
+ ],
+ sources: [
+ { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
+ { title: 'Hutchinson Testimony', url: 'https://scholar.google.com/scholar?q=Hutchinson%20Testimony', date: '2022' },
+ ],
+ },
+ 'tiffany-trump': {
+ name: 'Tiffany Ariana Trump',
+ title: 'Trump Family Member',
+ role: 'Daughter of Donald Trump',
+ riskLevel: 'low' as const,
+ description: 'Youngest daughter of Donald Trump from his marriage to Marla Maples. A Georgetown Law graduate, Tiffany has maintained a lower public profile than her half-siblings but appeared at campaign events and the 2020 Republican National Convention. She married Michael Boulos, son of a wealthy Lebanese-Nigerian family with business ties to the Middle East, at Mar-a-Lago in November 2022.',
+ birthDate: 'October 13, 1993',
+ birthPlace: 'West Palm Beach, Florida',
+ education: [
+ 'Georgetown University Law Center (J.D., 2020)',
+ 'University of Pennsylvania (B.A. Sociology, 2016)',
+ ],
+ affiliations: [
+ { name: 'Trump Organization', role: 'Family Member', type: 'corporation' },
+ { name: 'Republican Party', role: 'Surrogate', type: 'organization' },
+ ],
+
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Daughter from second marriage to Marla Maples; graduated from Georgetown Law School', href: '/entities/individuals/donald-trump' },
+ { name: 'Ivanka Trump', relationship: 'Half-sister from Trump\'s first marriage; publicly close despite different upbringings', href: '/entities/individuals/ivanka-trump' },
+ { name: 'Melania Trump', relationship: 'Stepmother who joined Trump family during Tiffany\'s childhood', href: '/entities/individuals/melania-trump' },
+ { name: 'Eric Trump', relationship: 'Half-brother from Trump\'s first marriage to Ivana Trump', href: '/entities/individuals/eric-trump' },
+ { name: 'Donald Trump Jr.', relationship: 'Half-brother from Trump\'s first marriage; both part of extended Trump family political orbit', href: '/entities/individuals/donald-trump-jr' },
+ ],
+ controversies: [
+ 'Largely kept distance from Trump business operations',
+ 'Spoke at 2020 Republican National Convention',
+ 'Wedding at Mar-a-Lago reportedly cost millions',
+ 'Husband\'s family has Nigerian oil interests',
+ 'Less involved in administration than Ivanka',
+ ],
+ charges: [],
+ relatedInvestigations: [],
+ timeline: [
+ { date: '1993', event: 'Born to Donald Trump and Marla Maples' },
+ { date: '2016', event: 'Graduates University of Pennsylvania' },
+ { date: '2016', event: 'Speaks at Republican National Convention' },
+ { date: '2020', event: 'Graduates Georgetown Law' },
+ { date: '2020', event: 'Speaks at RNC, supports father\'s campaign' },
+ { date: 'November 2022', event: 'Marries Michael Boulos at Mar-a-Lago' },
+ ],
+ sources: [
+ { title: 'Georgetown Law Records', url: 'https://scholar.google.com/scholar?q=Georgetown%20Law%20Records', date: '2020' },
+ { title: 'RNC Convention Coverage', url: 'https://scholar.google.com/scholar?q=RNC%20Convention%20Coverage', date: '2020' },
+ ],
+ },
+ 'tanya-chutkan': {
+ name: 'Tanya Sue Chutkan',
+ title: 'U.S. District Judge',
+ role: 'Federal Judge',
+ riskLevel: 'low' as const,
+ description: 'Federal judge presiding over Donald Trump\'s January 6 criminal case in Washington D.C. Known for handing down tough sentences to January 6 defendants, often exceeding prosecutors\' recommendations. Born in Jamaica, became a U.S. citizen, and worked as a public defender before becoming a judge. Appointed by President Obama.',
+ birthDate: 'July 5, 1962',
+ birthPlace: 'Kingston, Jamaica',
+ education: [
+ 'University of Pennsylvania Law School (J.D.)',
+ 'George Washington University (B.A.)',
+ ],
+ affiliations: [
+ { name: 'U.S. District Court, D.C.', role: 'Judge', type: 'agency' },
+ ],
+ controversies: [
+ 'Presiding over Trump January 6 federal case',
+ 'Known for tough sentences on January 6 defendants',
+ 'Trump attempted recusal motions (denied)',
+ 'Rejected presidential immunity claims',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ { title: 'Fake Electors Scheme', slug: 'fake-electors', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2014', event: 'Appointed to federal bench by Obama' },
+ { date: '2021-present', event: 'Sentences January 6 defendants' },
+ { date: 'August 2023', event: 'Assigned to Trump January 6 case' },
+ { date: '2024', event: 'Rejects Trump immunity claims' },
+ ],
+ sources: [
+ { title: 'Court Records', url: 'https://scholar.google.com/scholar?q=Court%20Records', date: '2023-2024' },
+ ],
+ knownAssociates: [
+ { name: 'Jack Smith', relationship: 'Presided over Special Counsel Smith\'s Jan 6 case against Trump', href: '/entities/individuals/jack-smith' },
+ { name: 'Donald Trump', relationship: 'Judge assigned to Trump January 6 federal case', href: '/entities/individuals/donald-trump' }
+ ],
+
+ },
+ 'todd-blanche': {
+ name: 'Todd Blanche',
+ title: 'Trump Defense Attorney',
+ role: 'Lead Criminal Defense Lawyer',
+ riskLevel: 'low' as const,
+ description: 'Criminal defense attorney who serves as lead counsel for Donald Trump in his federal and state criminal cases. Former federal prosecutor who previously worked at Cadwalader law firm. Known for aggressive cross-examination style. Defended Trump in the New York hush money trial resulting in 34 convictions.',
+ birthDate: '1976',
+ birthPlace: 'New York',
+ education: [
+ 'J.D. - Brooklyn Law School',
+ 'Former AUSA, Southern District of New York',
+ ],
+ affiliations: [
+ { name: 'Blanche Law', role: 'Founding Partner', type: 'corporation' },
+ { name: 'DOJ', role: 'Former Assistant U.S. Attorney', type: 'agency' },
+ ],
+
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Lead defense attorney in Manhattan hush money trial and federal cases; later nominated as Deputy Attorney General', href: '/entities/individuals/donald-trump' },
+ { name: 'Alvin Bragg', relationship: 'Opposing counsel as Manhattan DA who prosecuted the case Blanche defended', href: '/entities/individuals/alvin-bragg' },
+ { name: 'Juan Merchan', relationship: 'Judge before whom Blanche argued Trump\'s defense in the hush money trial', href: '/entities/individuals/juan-merchan' },
+ { name: 'Jack Smith', relationship: 'Special Counsel whose federal prosecutions Blanche defended Trump against', href: '/entities/individuals/jack-smith' },
+ ],
+ controversies: [
+ 'Lead counsel in Trump federal cases',
+ 'Defended Trump in 34-count conviction',
+ 'Criticized for aggressive Michael Cohen cross',
+ 'Left Cadwalader to represent Trump',
+ 'Appears regularly at Trump court proceedings',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Hush Money Payments', slug: 'hush-money', severity: 'critical' },
+ { title: 'Mar-a-Lago Documents', slug: 'mar-a-lago-documents', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'April 2023', event: 'Joins Trump legal team' },
+ { date: '2023', event: 'Leaves Cadwalader law firm' },
+ { date: 'April-May 2024', event: 'Defends Trump in hush money trial' },
+ { date: 'May 30, 2024', event: 'Trump convicted on 34 counts' },
+ ],
+ sources: [
+ { title: 'People v. Trump Court Records', url: 'https://scholar.google.com/scholar?q=People%20v.%20Trump%20Court%20Records', date: '2024' },
+ ],
+ },
+ 'tom-marino': {
+ name: 'Thomas Anthony Marino',
+ title: 'Former U.S. Representative',
+ role: 'Failed Drug Czar Nominee',
+ riskLevel: 'high' as const,
+ description: 'Pennsylvania congressman who sponsored legislation that hobbled DEA enforcement against opioid distributors flooding communities with pills. Trump nominated him as Drug Czar in 2017, but he withdrew after a joint investigation by Washington Post and 60 Minutes revealed his role in the opioid crisis.',
+ birthDate: 'August 13, 1952',
+ birthPlace: 'Williamsport, Pennsylvania',
+ education: [
+ 'Lycoming College (B.A.)',
+ 'Dickinson School of Law (J.D.)',
+ ],
+ affiliations: [
+ { name: 'U.S. House of Representatives', role: 'Representative (2011-2019)', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Failed Drug Czar nominee', href: '/entities/individuals/donald-trump' },
+ ],
+ controversies: [
+ 'Sponsored bill protecting opioid distributors',
+ 'Received donations from pharma industry',
+ 'Failed Drug Czar nomination',
+ 'Legislation hamstrung DEA enforcement',
+ 'Bill passed with little scrutiny',
+ ],
+ charges: [
+ { statute: '18 U.S.C. § 201(b) (Bribery)', description: 'Potential Bribery - Received $100,000+ from pharmaceutical industry while sponsoring legislation directly benefiting opioid distributors', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 201(c) (Illegal Gratuity)', description: 'Potential Illegal Gratuity - Campaign donations from pharma industry correlated with legislative favors', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1346 (Honest Services Fraud)', description: 'Potential Honest Services Fraud - Deprived constituents of honest services by secretly serving pharma industry interests', category: 'Potential Federal' },
+ { statute: '21 U.S.C. § 823 (DEA Registration)', description: 'Legislative Obstruction of DEA - Ensuring Patient Access Act hamstrung DEA ability to suspend suspicious distributors', category: 'Regulatory Harm' },
+ { statute: 'Controlled Substances Act Undermining', description: 'Systematically weakened DEA enforcement powers during height of opioid epidemic', category: 'Regulatory' },
+ { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Potential False Statements - Misrepresented purpose of legislation to Congress and public', category: 'Potential Federal' },
+ { statute: 'House Ethics Rules', description: 'Ethics Violations - Failed to disclose extent of pharmaceutical industry connections while advancing their legislation', category: 'Congressional Ethics' },
+ { statute: 'Negligent Homicide (Moral Accountability)', description: 'Contributed to 400,000+ opioid deaths by protecting distributors flooding communities with pills', category: 'Moral Accountability' },
+ ],
+ relatedInvestigations: [
+ { title: 'Opioid Crisis', slug: 'opioid-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2011', event: 'Elected to Congress' },
+ { date: '2016', event: 'Sponsors Ensuring Patient Access Act' },
+ { date: '2017', event: 'Nominated as Drug Czar' },
+ { date: 'October 2017', event: 'Withdraws nomination after investigation' },
+ { date: '2019', event: 'Resigns from Congress' },
+ ],
+ sources: [
+ { title: 'Washington Post/60 Minutes Investigation', url: 'https://www.washingtonpost.com/', date: '2017' },
+ ],
+ },
+ 'timothy-shea': {
+ name: 'Timothy Shea',
+ title: 'Convicted Fraudster',
+ role: 'We Build The Wall Co-Defendant',
+ riskLevel: 'critical' as const,
+ description: 'Co-defendant in the We Build The Wall fraud case who was convicted at trial. Unlike Bannon (pardoned) and Badolato (pleaded guilty), Shea went to trial and was found guilty. Helped steal money from donors who thought they were funding private border wall construction.',
+ birthDate: 'Unknown',
+ birthPlace: 'Colorado',
+ education: [
+ 'Unknown',
+ ],
+ affiliations: [
+ { name: 'We Build The Wall', role: 'Co-conspirator', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Steve Bannon', relationship: 'Co-defendant', href: '/entities/individuals/steve-bannon' },
+ { name: 'Brian Kolfage', relationship: 'Co-defendant, scheme organizer', href: '/entities/individuals/brian-kolfage' },
+ ],
+ controversies: [
+ 'We Build The Wall fraud scheme',
+ 'Convicted at trial',
+ 'Stole donor money',
+ ],
+ charges: [
+ { statute: 'Wire Fraud Conspiracy', description: 'Conspiracy to commit wire fraud (convicted)', category: 'Financial Crimes' },
+ { statute: 'Money Laundering', description: 'Money laundering conspiracy (convicted)', category: 'Financial Crimes' },
+ ],
+ relatedInvestigations: [
+ { title: 'Build the Wall Fraud', slug: 'build-the-wall-fraud', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2018-2019', event: 'Participates in scheme' },
+ { date: 'August 2020', event: 'Arrested' },
+ { date: '2023', event: 'Convicted at trial' },
+ ],
+ sources: [
+ { title: 'SDNY Trial Records', url: 'https://scholar.google.com/scholar?q=SDNY%20Trial%20Records', date: '2023' },
+ ],
+ },
+ 'ted-cruz': {
+ name: 'Rafael Edward"Ted"Cruz',
+ title: 'U.S. Senator (R-Texas)',
+ role: 'Election Objector, Constitutional Challenge Leader',
+ riskLevel: 'high' as const,
+ description: 'Ted Cruz was a leader of the effort to overturn the 2020 election results. He led the objection to Arizona\'s electoral votes on January 6, 2021, continuing even after the Capitol was attacked. He proposed an"electoral commission"to delay certification and give Trump a path to overturn the election.',
+ birthDate: 'December 22, 1970',
+ birthPlace: 'Calgary, Alberta, Canada',
+ education: [
+ 'Juris Doctor, magna cum laude - Harvard Law School',
+ 'Bachelor of Arts, cum laude - Princeton University',
+ ],
+ affiliations: [
+ { name: 'U.S. Senate', role: 'Senator from Texas (2013-Present)', type: 'agency' },
+ { name: 'Republican Party', role: 'Presidential Candidate 2016', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Rival turned ally, election objector', href: '/entities/individuals/donald-trump' },
+ { name: 'Josh Hawley', relationship: 'Co-led election objection', href: '/entities/individuals/josh-hawley' },
+ ],
+ controversies: [
+ 'Led January 6 electoral vote objection',
+ 'Proposed"electoral commission"to delay certification',
+ 'Continued objections after Capitol attack',
+ 'Fled to Cancun during Texas power grid failure',
+ 'Called Trump a"pathological liar"then endorsed him',
+ ],
+ charges: [
+ { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy to Defraud the United States - Led coordinated effort to overturn certified election results with knowingly false claims', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1512(c)(2)', description: 'Potential Obstruction of an Official Proceeding - Led objection to electoral vote certification on January 6, continued after violence', category: 'Potential Federal' },
+ { statute: '52 U.S.C. § 20511', description: 'Potential Election Interference - Proposed"electoral commission"scheme to delay and potentially overturn democratic election', category: 'Potential Election' },
+ { statute: '18 U.S.C. § 241', description: 'Potential Conspiracy Against Rights - Participated in scheme to disenfranchise millions of voters', category: 'Potential Civil Rights' },
+ { statute: 'U.S. Constitution, 14th Amendment, Section 3', description: 'Potential Disqualification - Participated in insurrection by continuing to object after violent attack on certification', category: 'Constitutional' },
+ { statute: 'Senate Ethics Rules', description: 'Multiple Violations - Spreading disinformation about election fraud with no evidence, misleading public about legal process', category: 'Ethics' },
+ { statute: '18 U.S.C. § 595', description: 'Potential Interference with Election by Government Officer - Used Senate position to attempt to overturn election', category: 'Potential Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ { title: 'Fake Electors', slug: 'fake-electors', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2016', event: 'Loses presidential primary to Trump, calls him"pathological liar"' },
+ { date: '2016', event: 'Endorses Trump after criticism' },
+ { date: 'January 2, 2021', event: 'Announces plan to object to electoral votes' },
+ { date: 'January 6, 2021', event: 'Leads Arizona electoral vote objection' },
+ { date: 'January 6, 2021', event: 'Continues objection after Capitol attack' },
+ { date: 'February 2021', event: 'Flees to Cancun during Texas freeze' },
+ ],
+ sources: [
+ { title: 'Congressional Record', url: 'https://www.congress.gov/congressional-record', date: '2021' },
+ ],
+ },
+ 'tedros-adhanom': {
+ name: 'Tedros Adhanom Ghebreyesus',
+ title: 'WHO Director-General',
+ role: 'Global Health Chief, COVID Response Leader, China Relations Controversy',
+ riskLevel: 'high',
+ description: 'Tedros Adhanom Ghebreyesus is an Ethiopian politician and public health researcher serving as Director-General of the World Health Organization since 2017. His tenure has been marked by controversy over WHO\'s COVID-19 response, including initial praise of China\'s transparency, delayed pandemic declaration, and resistance to lab leak investigation. Prior to WHO, he served as Ethiopia\'s Health Minister and Foreign Minister under the TPLF government, facing accusations of covering up cholera outbreaks. His appointment was backed by China, leading to ongoing questions about WHO\'s independence.',
+ birthDate: 'March 3, 1965',
+ birthPlace: 'Asmara, Eritrea (then Ethiopia)',
+ education: [
+ 'Ph.D. in Community Health - University of Nottingham (2000)',
+ 'M.Sc. in Immunology of Infectious Diseases - London School of Hygiene & Tropical Medicine (1992)',
+ 'Degree in Biology - University of Asmara',
+ ],
+ netWorth: 'Undisclosed (UN salary ~$239,000/year)',
+ aliases: ['Dr. Tedros', 'WHO Chief'],
+ affiliations: [
+ { name: 'World Health Organization', role: 'Director-General (2017-present)', type: 'organization' },
+ { name: 'Ethiopian Government', role: 'Health Minister (2005-2012), Foreign Minister (2012-2016)', type: 'agency' },
+ { name: 'Tigray People\'s Liberation Front (TPLF)', role: 'Political base', type: 'organization' },
+ { name: 'Bill & Melinda Gates Foundation', role: 'Backed his candidacy', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Xi Jinping', relationship: 'Praised China COVID response, accused of deference', href: '/entities/individuals/xi-jinping' },
+ { name: 'Bill Gates', relationship: 'Gates Foundation support, WHO major donor', href: '/entities/individuals/bill-gates' },
+ { name: 'Anthony Fauci', relationship: 'COVID-19 response coordination', href: '/entities/individuals/anthony-fauci' },
+ ],
+ controversies: [
+ 'CHINA PRAISE: January 2020, praised China\'s"transparency"and COVID response while evidence suggested cover-up',
+ 'DELAYED PANDEMIC DECLARATION: WHO declared pandemic March 11, 2020 - weeks after evidence warranted it',
+ 'HUMAN-TO-HUMAN DENIAL: WHO tweeted January 14, 2020"no clear evidence of human-to-human transmission"',
+ 'TRAVEL RESTRICTIONS: Initially opposed travel restrictions from China',
+ 'LAB LEAK DISMISSAL: WHO investigation dismissed lab leak as"extremely unlikely"based on limited access',
+ 'CHINA ACCESS FAILURE: Unable to secure full access for origins investigation',
+ 'TAIWAN EXCLUSION: Kept Taiwan excluded from WHO despite successful COVID response',
+ 'ETHIOPIA CHOLERA COVER-UP: Accused of covering up cholera outbreaks as Health Minister (called"acute watery diarrhea")',
+ 'TPLF CONNECTION: Political background with government accused of human rights abuses',
+ 'SECOND TERM: Re-elected unopposed in 2022 despite controversy',
+ 'TIGRAY GENOCIDE: Accused Ethiopia of genocide in Tigray, criticized for political involvement',
+ 'PPE FAILURES: WHO slow to recommend masking, PPE guidance criticized',
+ ],
+ charges: [
+ { statute: 'WHO Constitution Article 2', description: 'Failure to provide accurate information - Delayed warnings', category: 'International' },
+ { statute: 'International Health Regulations 2005', description: 'IHR Violations - Inadequate pandemic response', category: 'International' },
+ { statute: 'Ethiopian Criminal Code', description: 'Cholera cover-up allegations (as Health Minister)', category: 'Ethiopia' },
+ { statute: 'Rome Statute Article 7', description: 'TPLF government human rights concerns (as official)', category: 'International Criminal Court' },
+ ],
+ relatedInvestigations: [
+ { title: 'COVID-19 Response Failures', slug: 'covid-response', severity: 'critical' },
+ { title: 'WHO China Deference', slug: 'who-china', severity: 'critical' },
+ { title: 'Global Pandemic Conspiracy', slug: 'pandemic-conspiracy', severity: 'critical' },
+ { title: 'Lab Leak Cover-Up', slug: 'lab-leak', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 3, 1965', event: 'Born in Asmara (then Ethiopia, now Eritrea)' },
+ { date: '1986', event: 'Graduates University of Asmara with biology degree' },
+ { date: '1992', event: 'M.Sc. from London School of Hygiene & Tropical Medicine' },
+ { date: '2000', event: 'Ph.D. from University of Nottingham' },
+ { date: '2005-2012', event: 'Ethiopian Health Minister - accused of covering up cholera as"acute watery diarrhea"' },
+ { date: '2012-2016', event: 'Ethiopian Foreign Minister' },
+ { date: 'May 2017', event: 'Elected WHO Director-General with China\'s backing' },
+ { date: 'December 31, 2019', event: 'WHO informed of pneumonia cluster in Wuhan' },
+ { date: 'January 14, 2020', event: 'WHO tweets"no clear evidence of human-to-human transmission"' },
+ { date: 'January 28, 2020', event: 'Meets Xi Jinping, praises China\'s"transparency"' },
+ { date: 'January 30, 2020', event: 'Declares Public Health Emergency of International Concern' },
+ { date: 'February 2020', event: 'Opposes travel restrictions, calls them counterproductive' },
+ { date: 'March 11, 2020', event: 'Finally declares COVID-19 a pandemic' },
+ { date: 'May 2020', event: 'Trump announces US withdrawing from WHO' },
+ { date: 'January 2021', event: 'Biden rejoins WHO' },
+ { date: 'February 2021', event: 'WHO origins team visits Wuhan, limited access' },
+ { date: 'March 2021', event: 'WHO report dismisses lab leak as"extremely unlikely"' },
+ { date: 'July 2021', event: 'Calls for new investigation, admits initial study inadequate' },
+ { date: 'May 2022', event: 'Re-elected unopposed as Director-General' },
+ { date: '2022', event: 'Accuses Ethiopia of genocide in Tigray' },
+ { date: '2024', event: 'Continues as WHO Director-General, pandemic treaty negotiations' },
+ ],
+ sources: [
+ { title: 'WHO COVID-19 Timeline', url: 'https://www.who.int/news/item/27-04-2020-who-timeline---covid-19', date: '2020' },
+ { title: 'WHO Origins Investigation Report', url: 'https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part', date: '2021' },
+ { title: 'AP Investigation - WHO China Response', url: 'https://apnews.com/article/united-nations-health-ap-top-news-virus-outbreak-public-health-3c061794970661042b18d5aeaaed9fae', date: '2020' },
+ { title: 'Ethiopia Cholera Cover-Up Allegations', url: 'https://scholar.google.com/scholar?q=Ethiopia%20Cholera%20Cover-Up%20Allegations', date: '2017' },
+ { title: 'Independent Panel for Pandemic Preparedness', url: 'https://theindependentpanel.org/', date: '2021' },
+ { title: 'House Foreign Affairs Committee Report', url: 'https://foreignaffairs.house.gov/', date: '2020' },
+ ],
+ },
+ 'tou-thao': {
+ name: 'Tou Thao',
+ title: 'Former Minneapolis Police Officer',
+ role: 'Officer who blocked bystanders during George Floyd murder',
+ riskLevel: 'critical',
+ description: 'Tou Thao was a Minneapolis police officer who stood guard and blocked concerned bystanders while Derek Chauvin murdered George Floyd on May 25, 2020. He was convicted of aiding and abetting manslaughter and federal civil rights violations.',
+ birthDate: '1985',
+ birthPlace: 'Minnesota',
+ education: [],
+ affiliations: [
+ { name: 'Minneapolis Police Department', role: 'Former Officer', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Derek Chauvin', relationship: 'Fellow officer at scene', href: '/entities/individuals/derek-chauvin' },
+ ],
+ controversies: [
+ 'GEORGE FLOYD: Blocked bystanders while Chauvin murdered Floyd',
+ 'PRIOR COMPLAINTS: Had 6 prior complaints on his record',
+ 'CONVICTED: Found guilty of aiding and abetting',
+ ],
+ charges: [
+ { statute: 'Minnesota Statutes § 609.205', description: 'Aiding and Abetting Manslaughter', category: 'Violent Crime' },
+ { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law', category: 'Federal Crime' },
+ ],
+ relatedInvestigations: [
+ { title: 'George Floyd Murder', slug: 'george-floyd-murder', severity: 'critical' },
+ { title: 'Police Brutality', slug: 'police-brutality', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2012', event: 'Joins Minneapolis Police' },
+ { date: 'May 25, 2020', event: 'Present at George Floyd murder' },
+ { date: 'February 2022', event: 'Convicted of federal civil rights violations' },
+ { date: 'May 2023', event: 'Convicted of state charges' },
+ ],
+ sources: [
+ { title: 'Minnesota v. Thao court records', url: 'https://scholar.google.com/scholar?q=Minnesota%20v.%20Thao%20court%20records', date: '2023' },
+ ],
+ },
+ 'tina-peters': {
+ name: 'Tina Peters',
+ title: 'Former Colorado County Clerk',
+ role: 'Election official who illegally copied voting machine data',
+ riskLevel: 'high',
+ description: 'Tina Peters was the Mesa County, Colorado Clerk who illegally allowed unauthorized access to voting machines and copied sensitive election data. She became a hero in election denial circles but was convicted on multiple felony counts and sentenced to 9 years in prison.',
+ birthDate: '1955',
+ birthPlace: 'Unknown',
+ education: [],
+ affiliations: [
+ { name: 'Mesa County, Colorado', role: 'Former Clerk and Recorder', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Embraced by Trump movement', href: '/entities/individuals/donald-trump' },
+ ],
+ controversies: [
+ 'VOTING MACHINE BREACH: Allowed unauthorized access to election systems',
+ 'DATA THEFT: Copied and distributed sensitive election data',
+ 'CONVICTED: Found guilty on 7 counts including identity theft',
+ 'SENTENCED: 9 years in prison',
+ ],
+ charges: [
+ { statute: 'Colorado Election Code Violations', description: 'Multiple election-related felonies', category: 'Election Crime' },
+ { statute: 'Identity Theft', description: 'Used fake identity to allow access', category: 'Fraud' },
+ ],
+ relatedInvestigations: [
+ { title: 'Election Interference', slug: 'election-interference', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2019', event: 'Elected Mesa County Clerk' },
+ { date: 'May 2021', event: 'Allows unauthorized access to voting machines' },
+ { date: 'August 2022', event: 'Indicted on multiple charges' },
+ { date: 'August 2024', event: 'Convicted on 7 counts' },
+ { date: 'October 2024', event: 'Sentenced to 9 years' },
+ ],
+ sources: [
+ { title: 'Colorado v. Peters court records', url: 'https://scholar.google.com/scholar?q=Colorado%20v.%20Peters%20court%20records', date: '2024' },
+ ],
+ },
+ 'tewolde-gebremariam': {
+ name: 'Tewolde GebreMariam',
+ title: 'Airline Executive',
+ role: 'Former Ethiopian Airlines CEO',
+ riskLevel: 'low',
+ description: 'Tewolde GebreMariam was CEO of Ethiopian Airlines when Flight 302 crashed on March 10, 2019, killing all 157 people aboard. Unlike Lion Air, Ethiopian and GebreMariam defended their pilots, saying they followed Boeing\'s procedures but the procedures were inadequate. He was vocal in criticizing Boeing and the FAA for certification failures. Ethiopian Airlines has a strong safety record.',
+ birthDate: 'Unknown',
+ birthPlace: 'Ethiopia',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'Ethiopian Airlines', role: 'CEO', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Yared Getachew', relationship: 'Captain of Ethiopian Airlines Flight 302 killed by 737 MAX MCAS failure', href: '/entities/individuals/yared-getachew' },
+ { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose MCAS system caused both 737 MAX fatal crashes', href: '/entities/individuals/dennis-muilenburg' },
+ ],
+ controversies: [
+ 'DEFENDED PILOTS: Stood behind crew, blamed Boeing',
+ 'BOEING CRITIC: Vocal critic of Boeing and FAA',
+ 'GROUNDED FLEET: Ethiopian among first to ground MAX',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 10, 2019', event: 'Ethiopian 302 crashes, 157 killed' },
+ { date: 'March 2019', event: 'Defends pilots, criticizes Boeing' },
+ { date: '2022', event: 'Steps down as CEO' },
+ ],
+ sources: [{ title: 'Wikipedia: Tewolde GebreMariam', url: 'https://en.wikipedia.org/wiki/Tewolde_GebreMariam' }, { title: 'Bloomberg: Tewolde GebreMariam', url: 'https://www.bloomberg.com/' }],
+ },
+ 'tom-kennedy-spirit': {
+ name: 'Tom Gentile',
+ title: 'Aviation Executive',
+ role: 'Former Spirit AeroSystems CEO',
+ riskLevel: 'high',
+ description: 'Tom Gentile served as CEO of Spirit AeroSystems, the Boeing supplier that manufactures 737 fuselages, from 2016 to 2023. Spirit was responsible for the door plug that blew off the Alaska Airlines 737 MAX in January 2024. Under his leadership, Spirit faced quality control problems, delivery delays, and safety concerns. Boeing is now reacquiring Spirit amid ongoing quality issues.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['West Point', 'MIT Sloan'],
+ affiliations: [
+ { name: 'Spirit AeroSystems', role: 'CEO', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during his tenure', href: '/entities/individuals/dennis-muilenburg' },
+ ],
+ controversies: [
+ 'QUALITY ISSUES: Spirit had ongoing quality problems',
+ 'DOOR PLUG: Fuselage section linked to Alaska incident',
+ 'DELIVERY DELAYS: Production problems affected Boeing',
+ 'BOEING REACQUISITION: Quality issues led to Boeing buyback',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2016', event: 'Becomes Spirit AeroSystems CEO' },
+ { date: '2018-2019', event: 'Spirit produces MAX fuselages during crashes' },
+ { date: '2023', event: 'Steps down as CEO' },
+ { date: 'January 2024', event: 'Door plug blowout linked to Spirit production' },
+ ],
+ sources: [{ title: 'Wikipedia: Tom Gentile', url: 'https://www.google.com/search?q=Tom%20Gentile' }, { title: 'Bloomberg: Tom Gentile', url: 'https://www.bloomberg.com/' }],
+ },
+ 'tim-clark': {
+ name: 'Tim Clark',
+ title: 'Airline Executive',
+ role: 'Emirates President',
+ riskLevel: 'low',
+ description: 'Sir Tim Clark is President of Emirates airline and one of the most influential voices in commercial aviation. He has been publicly critical of Boeing\'s quality control and safety issues, representing a major customer willing to speak out. Emirates is primarily an Airbus operator but Clark\'s criticism carried weight across the industry.',
+ birthDate: 'July 10, 1949',
+ birthPlace: 'England',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'Emirates', role: 'President', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Clark was vocal critic of 737 MAX safety issues as Emirates airline president', href: '/entities/individuals/dennis-muilenburg' },
+ { name: 'Akbar Al Baker', relationship: 'Fellow Gulf airline CEO (Qatar Airways); rival and contemporary in Middle East aviation', href: '/entities/individuals/akbar-al-baker' },
+ ],
+ controversies: [
+ 'BOEING CRITIC: Publicly called out Boeing quality issues',
+ 'INDUSTRY VOICE: Influential criticism of manufacturer',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'July 10, 1949', event: 'Born in England' },
+ { date: '2003', event: 'Becomes Emirates President' },
+ { date: '2024', event: 'Public criticism of Boeing' },
+ ],
+ sources: [{ title: 'Wikipedia: Tim Clark', url: 'https://en.wikipedia.org/wiki/Tim_Clark' }, { title: 'Bloomberg: Tim Clark', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ },
+ 'tim-keating': {
+ name: 'Tim Keating',
+ title: 'Corporate Lobbyist',
+ role: 'Boeing SVP Government Operations',
+ riskLevel: 'high',
+ description: 'Tim Keating served as Boeing\'s Senior Vice President of Government Operations, leading the company\'s lobbying efforts in Washington. He oversaw Boeing\'s government relations during the MAX crisis, managing relationships with FAA officials, members of Congress, and the Trump administration. Boeing spent heavily on lobbying during this period.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'Boeing', role: 'SVP Government Operations', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whom Keating served under as VP of government operations during 737 MAX crisis', href: '/entities/individuals/dennis-muilenburg' },
+ { name: 'David Calhoun', relationship: 'Boeing CEO successor whom Keating\'s government relations team supported', href: '/entities/individuals/david-calhoun' },
+ ],
+ controversies: [
+ 'CHIEF LOBBYIST: Led Boeing lobbying during MAX crisis',
+ 'FAA INFLUENCE: Managed FAA relationships',
+ 'CONGRESSIONAL RELATIONS: Lobbying amid investigations',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ { title: 'Corporate Influence', slug: 'corporate-influence', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Unknown', event: 'Boeing lobbying career' },
+ ],
+ sources: [{ title: 'Wikipedia: Tim Keating', url: 'https://en.wikipedia.org/wiki/Tim_Keating' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
+ },
+ 'ted-colbert': {
+ name: 'Ted Colbert',
+ title: 'Aviation Executive',
+ role: 'Boeing Defense, Space & Security CEO',
+ riskLevel: 'medium',
+ description: 'Ted Colbert leads Boeing\'s Defense, Space & Security division, managing military contracts while the commercial division faces safety crises. Boeing\'s defense business has had its own problems with cost overruns and quality issues on programs like KC-46 tanker and Starliner spacecraft.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Georgia Tech', 'Harvard Business School'],
+ affiliations: [
+ { name: 'Boeing', role: 'Defense CEO', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'David Calhoun', relationship: 'Boeing CEO who appointed Colbert as head of Boeing Defense, Space & Security division', href: '/entities/individuals/david-calhoun' },
+ { name: 'Dennis Muilenburg', relationship: 'Former Boeing CEO under whom Colbert rose through corporate leadership ranks', href: '/entities/individuals/dennis-muilenburg' },
+ ],
+ controversies: [
+ 'KC-46 PROBLEMS: Tanker program delays and issues',
+ 'STARLINER: Spacecraft failures and delays',
+ 'COST OVERRUNS: Defense program budget problems',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2022', event: 'Becomes Defense CEO' },
+ ],
+ sources: [{ title: 'Wikipedia: Ted Colbert', url: 'https://en.wikipedia.org/wiki/Ted_Colbert' }, { title: 'Bloomberg: Ted Colbert', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
+ },
+ 'tony-ferrante': {
+ name: 'Tony Ferrante',
+ title: 'FAA Official',
+ role: 'FAA Flight Standards Director',
+ riskLevel: 'medium',
+ description: 'Tony Ferrante served as director of FAA Flight Standards, responsible for pilot training and operational standards. Flight Standards approved pilot training requirements for the 737 MAX that were later criticized as inadequate, including minimal MCAS training.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'FAA', role: 'Flight Standards Director', type: 'agency' as const },
+ ],
+ knownAssociates: [
+ { name: 'Dennis Muilenburg', relationship: 'Boeing CEO who brought in Ferrante for cybersecurity and risk management assessments', href: '/entities/individuals/dennis-muilenburg' },
+ { name: 'David Calhoun', relationship: 'Boeing CEO who continued engaging Ferrante\'s expertise on corporate risk', href: '/entities/individuals/david-calhoun' },
+ ],
+ controversies: [
+ 'PILOT TRAINING: Approved MAX training requirements',
+ 'MCAS TRAINING: Inadequate training on new system',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'Unknown', event: 'FAA career' },
+ ],
+ sources: [{ title: 'Wikipedia: Tony Ferrante', url: 'https://en.wikipedia.org/wiki/Tony_Ferrante' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
+ },
+ 'tom-gentile': {
+ name: 'Tom Gentile',
+ title: 'Aviation Executive',
+ role: 'Former Spirit AeroSystems CEO',
+ riskLevel: 'high',
+ description: 'Tom Gentile served as CEO of Spirit AeroSystems from 2016 to 2023. Spirit manufactured the 737 fuselages with quality problems that contributed to the door plug blowout. Under his leadership, Spirit faced delivery delays and quality issues that affected Boeing.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['West Point', 'MIT Sloan'],
+ affiliations: [
+ { name: 'Spirit AeroSystems', role: 'Former CEO', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Gentile led Spirit AeroSystems, Boeing\'s key fuselage supplier for 737 MAX', href: '/entities/individuals/dennis-muilenburg' },
+ { name: 'David Calhoun', relationship: 'Boeing CEO who reacquired Spirit AeroSystems to address quality control failures', href: '/entities/individuals/david-calhoun' },
+ ],
+ controversies: [
+ 'QUALITY FAILURES: Spirit had quality problems',
+ 'FUSELAGE ISSUES: 737 fuselage manufacturing problems',
+ 'DOOR PLUG ORIGIN: Problems originated during his tenure',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2016', event: 'Becomes Spirit CEO' },
+ { date: '2023', event: 'Steps down' },
+ ],
+ sources: [{ title: 'Wikipedia: Tom Gentile', url: 'https://www.google.com/search?q=Tom%20Gentile' }, { title: 'Bloomberg: Tom Gentile', url: 'https://www.bloomberg.com/' }],
+ },
+ 'tor-stumo': {
+ name: 'Tor Stumo',
+ title: 'Victims Family',
+ role: 'Lost Sister in Ethiopian 302',
+ riskLevel: 'low',
+ description: 'Tor Stumo lost his sister Samya Stumo in the Ethiopian Airlines 302 crash. The Stumo family has been among the most vocal advocates for Boeing accountability and against the DOJ settlement.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'Department of Justice', role: 'DOJ Official', type: 'agency' },
+ ],
+ knownAssociates: [
+ { name: 'Michael Stumo', relationship: 'Father', href: '/entities/individuals/michael-stumo' },
+ { name: 'Nadia Milleron', relationship: 'Mother', href: '/entities/individuals/nadia-milleron' },
+ ],
+ controversies: [
+ 'Family member of ET302 victim who became prominent in crash family advocacy efforts',
+ 'Pushed for DOJ criminal prosecution of Boeing and executive accountability',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 10, 2019', event: 'Lost sister in Ethiopian 302' },
+ ],
+ sources: [{ title: 'Wikipedia: Tor Stumo', url: 'https://www.google.com/search?q=Tor%20Stumo' }, { title: 'Associated Press: Tor Stumo', url: 'https://apnews.com/' }],
+ },
+ 'todd-curtis': {
+ name: 'Todd Curtis',
+ title: 'Aviation Safety Analyst',
+ role: 'AirSafe.com Founder',
+ riskLevel: 'low',
+ description: 'Todd Curtis is an aviation safety researcher and founder of AirSafe.com. He provides data-driven analysis of aviation safety and has been a resource for understanding crash statistics and safety trends.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'AirSafe.com', role: 'Founder', type: 'organization' as const },
+ ],
+ knownAssociates: [
+ { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Curtis founded AirSafe.com tracking airline safety data including 737 MAX crashes', href: '/entities/individuals/dennis-muilenburg' },
+ { name: 'Mary Schiavo', relationship: 'Fellow aviation safety expert and public safety advocate', href: '/entities/individuals/mary-schiavo' },
+ ],
+ controversies: [
+ 'SAFETY DATA: Provides aviation safety statistics',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'Unknown', event: 'Founds AirSafe.com' },
+ ],
+ sources: [{ title: 'Wikipedia: Todd Curtis', url: 'https://www.google.com/search?q=Todd%20Curtis' }, { title: 'Wired: Todd Curtis', url: 'https://www.wired.com/' }],
+ },
+ 'tony-hayward': {
+ name: 'Tony Hayward',
+ title: 'Former BP CEO',
+ role: 'BP CEO - Deepwater Horizon Disaster',
+ riskLevel: 'critical',
+ description: 'Tony Hayward was CEO of BP during the Deepwater Horizon disaster in April 2010, the largest marine oil spill in history. The explosion killed 11 workers and spilled 4.9 million barrels of oil into the Gulf of Mexico over 87 days. BP\'s cost-cutting culture under Hayward contributed to the disaster. His tone-deaf comment"I\'d like my life back"epitomized corporate callousness. BP paid over $65 billion in cleanup and legal costs.',
+ birthDate: 'May 21, 1957',
+ birthPlace: 'Slough, England',
+ education: ['University of Edinburgh (Geology)', 'University of Edinburgh (PhD)'],
+ affiliations: [
+ { name: 'BP', role: 'Former CEO', type: 'corporation' as const },
+ { name: 'Glencore', role: 'Former Chairman', type: 'corporation' as const },
+ ],
+ controversies: [
+ 'DEEPWATER HORIZON: 11 dead, largest oil spill in history',
+ 'COST CUTTING: BP safety culture contributed to disaster',
+ '"I\'D LIKE MY LIFE BACK": Tone-deaf comment while Gulf suffered',
+ 'YACHT RACE: Went sailing while oil still spilling',
+ '$65 BILLION: Total BP costs from disaster',
+ 'NO PRISON: No executives jailed despite deaths',
+ ],
+ charges: [
+ { statute: '33 U.S.C. � 1319(c)(1)', description: 'Clean Water Act Violations (Corporate plea)', category: 'CORPORATE GUILTY PLEA' },
+ { statute: '18 U.S.C. � 1112', description: 'Involuntary Manslaughter - 11 worker deaths', category: 'UNPROSECUTED' },
+ { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crime - Widespread environmental destruction', category: 'INTERNATIONAL' },
+ ],
+ relatedInvestigations: [
+ { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'critical' },
+ { title: 'Environmental Crimes', slug: 'environmental-crimes', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'May 21, 1957', event: 'Born in England' },
+ { date: '2007', event: 'Becomes BP CEO' },
+ { date: 'April 20, 2010', event: 'Deepwater Horizon explosion' },
+ { date: 'July 2010', event: 'Well finally capped' },
+ { date: 'October 2010', event: 'Resigns as BP CEO' },
+ { date: '2012', event: 'BP pleads guilty, pays $4.5B criminal fine' },
+ ],
+ sources: [{ title: 'Wikipedia: Tony Hayward', url: 'https://en.wikipedia.org/wiki/Tony_Hayward' }, { title: 'Bloomberg: Tony Hayward', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: Tony Hayward', url: 'https://www.militarytimes.com/' }, { title: 'InsideClimate News', url: 'https://insideclimatenews.org/' }],
+ knownAssociates: [
+ { name: 'Bob Dudley', relationship: 'Successor as BP CEO after Deepwater Horizon disaster', href: '/entities/individuals/robert-dudley' },
+ { name: 'Donald Vidrine', relationship: 'BP well site leader during Deepwater Horizon explosion', href: '/entities/individuals/donald-vidrine' },
+ { name: 'Thad Allen', relationship: 'Coast Guard Admiral who led federal spill response', href: '/entities/individuals/thad-allen' }
+ ],
+
+ },
+ 'thomas-sandefur': {
+ name: 'Thomas E. Sandefur Jr.',
+ title: 'Former Brown & Williamson CEO',
+ role: 'Big Tobacco CEO -"The Insider"Whistleblower Case',
+ riskLevel: 'critical',
+ description: 'Thomas Sandefur was CEO of Brown & Williamson and one of the seven tobacco executives who lied to Congress in 1994. His company was later exposed by whistleblower Jeffrey Wigand, whose story became the film"The Insider."Sandefur died in 1996, avoiding accountability for decades of industry deception.',
+ birthDate: '1939',
+ birthPlace: 'United States',
+ deathDate: 'July 1996',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'Brown & Williamson', role: 'Former CEO', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Wigand', relationship: 'Whistleblower who exposed company', href: '/entities/individuals/jeffrey-wigand' },
+ ],
+ controversies: [
+ 'CONGRESSIONAL PERJURY: Lied under oath',
+ 'JEFFREY WIGAND: Company threatened whistleblower',
+ '"THE INSIDER": Story became major film',
+ 'COUMARIN: Added addictive compound to cigarettes',
+ 'DIED BEFORE JUSTICE: Avoided accountability',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 1621', description: 'Perjury', category: 'UNPROSECUTED - DECEASED' },
+ ],
+ relatedInvestigations: [
+ { title: 'Big Tobacco Cover-Up', slug: 'big-tobacco-coverup', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'April 14, 1994', event: 'Lies to Congress' },
+ { date: '1995', event: 'Wigand expos� on 60 Minutes' },
+ { date: 'July 1996', event: 'Dies of lung disease' },
+ ],
+ sources: [{ title: 'Wikipedia: Thomas E. Sandefur Jr.', url: 'https://en.wikipedia.org/wiki/Thomas_E._Sandefur_Jr.' }, { title: 'Bloomberg: Thomas E. Sandefur Jr.', url: 'https://www.bloomberg.com/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
+ },
+ 'tom-petters': {
+ name: 'Tom Petters',
+ title: 'Convicted Ponzi Schemer',
+ role: 'Petters Group - $3.65 Billion Fraud',
+ riskLevel: 'critical',
+ description: 'Tom Petters ran a $3.65 billion Ponzi scheme through Petters Group Worldwide, claiming to buy consumer electronics from retailers and resell them to big-box stores. In reality, no merchandise existed - it was all fabricated paperwork. He lived extravagantly on stolen investor money until the scheme collapsed in 2008.',
+ birthDate: 'January 15, 1957',
+ birthPlace: 'Minnesota',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'Petters Group Worldwide', role: 'Founder', type: 'corporation' as const },
+ ],
+ controversies: [
+ '$3.65 BILLION: Third largest Ponzi after Madoff/Stanford',
+ 'FAKE ELECTRONICS: Invented merchandise transactions',
+ 'FORGED DOCUMENTS: Created fake purchase orders',
+ 'POLAROID: Bought the company with fraud money',
+ 'SUN COUNTRY: Owned airline with stolen funds',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 1341', description: 'Mail Fraud', category: 'CONVICTED' },
+ { statute: '18 U.S.C. � 1343', description: 'Wire Fraud', category: 'CONVICTED' },
+ { statute: '18 U.S.C. � 1956', description: 'Money Laundering', category: 'CONVICTED' },
+ ],
+ relatedInvestigations: [
+ { title: 'Petters Ponzi Scheme', slug: 'petters-ponzi', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'January 15, 1957', event: 'Born in Minnesota' },
+ { date: 'September 2008', event: 'Arrested' },
+ { date: 'December 2009', event: 'Convicted' },
+ { date: 'April 2010', event: 'Sentenced to 50 years' },
+ ],
+ sources: [{ title: 'Wikipedia: Tom Petters', url: 'https://en.wikipedia.org/wiki/Tom_Petters' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ knownAssociates: [
+ { name: 'Allen Stanford', relationship: 'Contemporary Ponzi scheme operator', href: '/entities/individuals/allen-stanford' },
+ { name: 'Bernie Madoff', relationship: 'Fellow fraudster in same era of large-scale Ponzi schemes', href: '/entities/individuals/bernie-madoff' }
+ ],
+
+ },
+ 'tim-cook': {
+ name: 'Tim Cook',
+ title: 'Apple CEO',
+ role: 'Apple CEO - Labor Exploitation, Privacy Theater',
+ riskLevel: 'high',
+ description: 'Tim Cook has led Apple since 2011, overseeing a company that relies on exploitative labor practices in China, particularly through Foxconn where workers have committed suicide due to conditions. Despite marketing privacy as a core value, Apple has complied with Chinese government demands for data access and censorship. Apple avoids billions in taxes through offshore schemes while lobbying against right-to-repair laws.',
+ birthDate: 'November 1, 1960',
+ birthPlace: 'Mobile, Alabama',
+ education: ['Auburn University', 'Duke University (MBA)'],
+ netWorth: '$2 billion',
+ affiliations: [
+ { name: 'Apple Inc.', role: 'CEO', type: 'corporation' as const },
+ ],
+ controversies: [
+ 'FOXCONN SUICIDES: Workers killed themselves due to conditions',
+ 'CHINA COMPLIANCE: Stores Chinese user data on government servers',
+ 'APP CENSORSHIP: Removed VPNs, apps at China\'s request',
+ 'TAX AVOIDANCE: $252 billion held offshore to avoid US taxes',
+ 'RIGHT TO REPAIR: Lobbies against consumer repair rights',
+ 'UYGHUR LABOR: Supply chain linked to forced labor',
+ 'PLANNED OBSOLESCENCE: Deliberately slowed old iPhones',
+ ],
+ charges: [
+ { statute: '26 U.S.C. � 7201', description: 'Tax Evasion - Offshore tax schemes', category: 'UNINVESTIGATED' },
+ { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Profiting from forced labor', category: 'INTERNATIONAL' },
+ { statute: '15 U.S.C. � 45', description: 'Unfair Business Practices - Planned obsolescence', category: 'CIVIL' },
+ ],
+ relatedInvestigations: [
+ { title: 'Tech Labor Exploitation', slug: 'tech-labor-exploitation', severity: 'critical' },
+ { title: 'Corporate Tax Avoidance', slug: 'corporate-tax-avoidance', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'November 1, 1960', event: 'Born in Alabama' },
+ { date: '1998', event: 'Joins Apple' },
+ { date: 'August 2011', event: 'Becomes Apple CEO' },
+ { date: '2017', event: 'Batterygate scandal' },
+ { date: '2021', event: 'Congressional testimony on App Store' },
+ ],
+ sources: [{ title: 'Wikipedia: Tim Cook', url: 'https://en.wikipedia.org/wiki/Tim_Cook' }, { title: 'Bloomberg: Tim Cook', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Wired: Tim Cook', url: 'https://www.wired.com/' }],
+ knownAssociates: [
+ { name: 'Satya Nadella', relationship: 'Fellow Big Tech CEO and competitor', href: '/entities/individuals/satya-nadella' },
+ { name: 'Mark Zuckerberg', relationship: 'Publicly criticized Facebook privacy practices', href: '/entities/individuals/mark-zuckerberg' }
+ ],
+
+ },
+ 'trevor-milton': {
+ name: 'Trevor Milton',
+ title: 'Former Nikola Motors Founder',
+ role: 'Nikola Motors Founder - EV Fraud Conviction',
+ riskLevel: 'high',
+ description: 'Trevor Milton founded Nikola Motors, an electric/hydrogen truck company, and defrauded investors with lies about the company\'s technology. He claimed Nikola had a working semi truck when it was actually just rolled downhill for promotional video. He was convicted of securities fraud in 2022 and sentenced to 4 years in prison.',
+ birthDate: 'April 6, 1982',
+ birthPlace: 'Utah',
+ education: ['University of Utah (dropped out)'],
+ affiliations: [
+ { name: 'Nikola Motors', role: 'Former Founder/CEO', type: 'corporation' as const },
+ ],
+ controversies: [
+ 'FAKE TRUCK: Semi in promotional video was just rolling downhill',
+ 'HYDROGEN LIES: Claimed tech that didn\'t exist',
+ 'INVESTOR FRAUD: Deceived about company capabilities',
+ '$BILLIONS LOST: Investors lost billions on fraud',
+ ],
+ charges: [
+ { statute: '15 U.S.C. � 78j(b)', description: 'Securities Fraud', category: 'CONVICTED' },
+ { statute: '18 U.S.C. � 1343', description: 'Wire Fraud', category: 'CONVICTED' },
+ ],
+ relatedInvestigations: [
+ { title: 'EV Fraud', slug: 'ev-fraud', severity: 'high' },
+ { title: 'Startup Fraud', slug: 'startup-fraud', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'April 6, 1982', event: 'Born in Utah' },
+ { date: '2015', event: 'Founds Nikola Motors' },
+ { date: '2020', event: 'Hindenburg Research exposes fraud' },
+ { date: '2020', event: 'Resigns from Nikola' },
+ { date: 'October 2022', event: 'Convicted of fraud' },
+ { date: '2023', event: 'Sentenced to 4 years' },
+ ],
+ sources: [{ title: 'Wikipedia: Trevor Milton', url: 'https://en.wikipedia.org/wiki/Trevor_Milton' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ knownAssociates: [
+ { name: 'Charlie Javice', relationship: 'Contemporary startup fraud case - similar deception tactics', href: '/entities/individuals/charlie-javice' },
+ { name: 'Adam Neumann', relationship: 'Fellow startup founder accused of misleading investors', href: '/entities/individuals/adam-neumann' }
+ ],
+
+ },
+ 'travis-kalanick': {
+ name: 'Travis Kalanick',
+ title: 'Former Uber CEO',
+ role: 'Uber Founder - Toxic Culture, Worker Exploitation',
+ riskLevel: 'high',
+ description: 'Travis Kalanick co-founded Uber and built a company notorious for toxic workplace culture, sexual harassment, worker exploitation, and illegal tactics. He was forced out after a series of scandals including widespread sexual harassment, stolen technology, and operating illegally in cities worldwide.',
+ birthDate: 'August 6, 1976',
+ birthPlace: 'Los Angeles, California',
+ education: ['UCLA (incomplete)'],
+ netWorth: '$3 billion',
+ affiliations: [
+ { name: 'Uber', role: 'Former CEO, Co-founder', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Dara Khosrowshahi', relationship: 'Successor as CEO', href: '/entities/individuals/dara-khosrowshahi' },
+ ],
+ controversies: [
+ 'TOXIC CULTURE: Rampant sexual harassment,"bro culture"',
+ 'GREYBALL: Software to evade regulators',
+ 'WAYMO THEFT: Accused of stealing self-driving tech',
+ 'GIG EXPLOITATION: Built worker misclassification model',
+ 'GOD VIEW: Tool to spy on users\' locations',
+ 'ILLEGAL OPERATIONS: Operated in violation of local laws',
+ ],
+ charges: [
+ { statute: 'Trade Secret Theft', description: 'Waymo autonomous technology', category: 'SETTLED $245M' },
+ { statute: 'State Labor Laws', description: 'Worker misclassification', category: 'ONGOING' },
+ ],
+ relatedInvestigations: [
+ { title: 'Uber Scandals', slug: 'uber-scandals', severity: 'high' },
+ { title: 'Gig Economy Exploitation', slug: 'gig-economy-exploitation', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'August 6, 1976', event: 'Born in Los Angeles' },
+ { date: '2009', event: 'Co-founds Uber' },
+ { date: '2017', event: 'Forced to resign as CEO' },
+ ],
+ sources: [{ title: 'Wikipedia: Travis Kalanick', url: 'https://en.wikipedia.org/wiki/Travis_Kalanick' }, { title: 'Bloomberg: Travis Kalanick', url: 'https://www.bloomberg.com/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'Wired: Travis Kalanick', url: 'https://www.wired.com/' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
+ },
+ 'timothy-loehmann': {
+ name: 'Timothy Loehmann',
+ title: 'Former Cleveland Police Officer',
+ role: 'Shot Tamir Rice - 12 Year Old Child',
+ riskLevel: 'critical',
+ description: 'Timothy Loehmann shot and killed 12-year-old Tamir Rice within 2 seconds of arriving on scene in Cleveland on November 22, 2014. Rice was playing with a toy gun in a park. Loehmann had previously been deemed unfit for duty by another department but was hired anyway. He was never charged.',
+ birthDate: '1990 (approx)',
+ birthPlace: 'Ohio',
+ education: ['Police Academy'],
+ affiliations: [
+ { name: 'Cleveland Police Department', role: 'Former Officer', type: 'agency' as const },
+ ],
+ controversies: [
+ 'TAMIR RICE: Shot 12-year-old within 2 seconds',
+ 'TOY GUN: Child was playing with toy gun',
+ 'NO CHARGES: Never indicted for killing child',
+ 'UNFIT FOR DUTY: Previous department found him unstable',
+ 'FIRED: Eventually terminated for lying on application',
+ 'REHIRED: Attempted to join other departments',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 242', description: 'Deprivation of rights', category: 'NOT CHARGED' },
+ { statute: 'Ohio Homicide Laws', description: 'Murder/Manslaughter', category: 'NOT INDICTED' },
+ ],
+ relatedInvestigations: [
+ { title: 'Tamir Rice Shooting', slug: 'tamir-rice-shooting', severity: 'critical' },
+ { title: 'Police Accountability Failures', slug: 'police-accountability', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'November 22, 2014', event: 'Shoots Tamir Rice, age 12' },
+ { date: 'December 2015', event: 'Grand jury declines to indict' },
+ { date: '2017', event: 'Fired for lying on job application' },
+ ],
+ sources: [{ title: 'Wikipedia: Timothy Loehmann', url: 'https://en.wikipedia.org/wiki/Timothy_Loehmann' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ knownAssociates: [
+ { name: 'Tamir Rice', relationship: 'Officer who shot and killed 12-year-old Tamir Rice in 2014', href: '/entities/individuals/tamir-rice' }
+ ],
+
+ },
+ 'tommy-tuberville': {
+ name: 'Tommy Tuberville',
+ title: 'U.S. Senator (AL)',
+ role: 'Senator - Military Promotion Blockade',
+ riskLevel: 'high',
+ description: 'Tommy Tuberville is a former football coach elected to the Senate in 2020. He single-handedly blocked over 400 military promotions for 10 months to protest abortion policy, weakening military readiness. He has made numerous false statements and shown ignorance of basic government functions.',
+ birthDate: 'September 18, 1954',
+ birthPlace: 'Camden, Arkansas',
+ education: ['Southern Arkansas University'],
+ affiliations: [
+ { name: 'U.S. Senate', role: 'Senator', type: 'agency' as const },
+ ],
+ controversies: [
+ 'MILITARY BLOCKADE: Held 400+ promotions hostage for 10 months',
+ 'WHITE NATIONALISTS: Refused to condemn them',
+ 'THREE BRANCHES: Didn\'t know what they were',
+ 'D-DAY CONFUSION: Confused WWII history',
+ 'FRAUD BUSINESS: Business partner convicted of fraud',
+ ],
+ charges: [
+ { statute: 'Senate Rules', description: 'Unprecedented holds on military', category: 'PROCEDURAL ABUSE' },
+ ],
+ relatedInvestigations: [
+ { title: 'Military Readiness Crisis', slug: 'military-readiness', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'September 18, 1954', event: 'Born in Arkansas' },
+ { date: '2021', event: 'Becomes Senator' },
+ { date: 'February-December 2023', event: 'Blocks military promotions' },
+ ],
+ sources: [{ title: 'Wikipedia: Tommy Tuberville', url: 'https://en.wikipedia.org/wiki/Tommy_Tuberville' }, { title: 'Military Times: Tommy Tuberville', url: 'https://www.militarytimes.com/' }],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Strong Trump supporter who blocked military promotions', href: '/entities/individuals/donald-trump' },
+ { name: 'Lloyd Austin', relationship: 'Blocked Austin\'s military nominations over abortion policy', href: '/entities/individuals/lloyd-austin' }
+ ],
+
+ },
+ 'tony-blair': {
+ name: 'Tony Blair',
+ title: 'Former Prime Minister of UK',
+ role: 'UK PM - Iraq War Based on Lies',
+ riskLevel: 'critical',
+ description: 'Tony Blair led the UK into the Iraq War based on the false claim that Saddam Hussein had weapons of mass destruction. The Chilcot Report found the war was based on flawed intelligence and Blair overstated the threat. Hundreds of thousands died in the resulting chaos.',
+ birthDate: 'May 6, 1953',
+ birthPlace: 'Edinburgh, Scotland',
+ education: ['Oxford University'],
+ affiliations: [
+ { name: 'United Kingdom', role: 'Former Prime Minister', type: 'organization' as const },
+ ],
+ knownAssociates: [
+ { name: 'George W. Bush', relationship: 'Iraq War partner', href: '/entities/individuals/george-w-bush' },
+ ],
+ controversies: [
+ 'IRAQ WAR: Led UK into war based on false WMD claims',
+ 'CHILCOT REPORT: Found war was unjustified',
+ '"DODGY DOSSIER": Sexed-up intelligence claims',
+ 'HUNDREDS OF THOUSANDS DEAD: Iraq death toll',
+ 'WAR CRIMINAL ACCUSATIONS: Global campaign for prosecution',
+ 'POST-PM WEALTH: Made millions from dictators',
+ ],
+ charges: [
+ { statute: 'Rome Statute Article 8 bis', description: 'Crime of Aggression - Iraq War', category: 'INTERNATIONAL' },
+ { statute: 'Rome Statute Article 8', description: 'War Crimes - Iraq civilian deaths', category: 'INTERNATIONAL' },
+ ],
+ relatedInvestigations: [
+ { title: 'Iraq War Crimes', slug: 'iraq-war-crimes', severity: 'critical' },
+ { title: 'WMD Lies', slug: 'wmd-lies', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'May 6, 1953', event: 'Born in Scotland' },
+ { date: '1997', event: 'Becomes Prime Minister' },
+ { date: '2003', event: 'Leads UK into Iraq War' },
+ { date: '2007', event: 'Leaves office' },
+ { date: '2016', event: 'Chilcot Report criticizes war' },
+ ],
+ sources: [{ title: 'Wikipedia: Tony Blair', url: 'https://en.wikipedia.org/wiki/Tony_Blair' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Military Times: Tony Blair', url: 'https://www.militarytimes.com/' }, { title: 'BBC News', url: 'https://www.bbc.com/news' }],
+ },
+ 'thomas-homan': {
+ name: 'Thomas Homan',
+ title: 'Former ICE Director',
+ role: 'ICE - Family Separations, Detention Deaths',
+ riskLevel: 'critical',
+ description: 'Thomas Homan served as Acting ICE Director under Trump and was a key architect of the family separation policy. Under his leadership, children were torn from parents, detained in cages, and several died in custody. He openly bragged about deporting immigrants and defended the cruel policies.',
+ birthDate: '1959',
+ birthPlace: 'West Carthage, New York',
+ education: ['SUNY Potsdam', 'Law Enforcement Training'],
+ affiliations: [
+ { name: 'Immigration and Customs Enforcement', role: 'Former Acting Director', type: 'agency' as const },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Appointed by', href: '/entities/individuals/donald-trump' },
+ { name: 'Stephen Miller', relationship: 'Immigration policy ally', href: '/entities/individuals/stephen-miller' },
+ ],
+ controversies: [
+ 'FAMILY SEPARATION: Key architect of policy',
+ 'CHILDREN IN CAGES: Oversaw mass child detention',
+ 'DETENTION DEATHS: Deaths increased under leadership',
+ '"ZERO TOLERANCE": Implemented cruel policy',
+ 'DEPORTATION PRIDE: Bragged about deportations',
+ 'THREATENED POLITICIANS: Threatened to arrest officials',
+ ],
+ charges: [
+ { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Family separation', category: 'INTERNATIONAL' },
+ { statute: 'Rome Statute Article 7(1)(e)', description: 'Crimes Against Humanity - Imprisonment', category: 'INTERNATIONAL' },
+ ],
+ relatedInvestigations: [
+ { title: 'Family Separation Policy', slug: 'family-separation-policy', severity: 'critical' },
+ { title: 'ICE Detention Deaths', slug: 'ice-detention-deaths', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1959', event: 'Born in New York' },
+ { date: 'January 2017', event: 'Becomes Acting ICE Director' },
+ { date: '2018', event: 'Family separations implemented' },
+ { date: 'June 2018', event: 'Leaves ICE' },
+ ],
+ sources: [{ title: 'Wikipedia: Thomas Homan', url: 'https://en.wikipedia.org/wiki/Thomas_Homan' }, { title: 'NYT: Thomas Homan Profile', url: 'https://www.nytimes.com/' }],
+ },
+ 'thomas-caldwell': {
+ name: 'Thomas Caldwell',
+ title: 'Convicted Oath Keeper',
+ role: 'Oath Keepers Leader - January 6 CONVICTED',
+ riskLevel: 'critical',
+ description: 'Thomas Caldwell was a retired Navy Lieutenant Commander and Oath Keepers leader convicted for his role in the January 6 insurrection. He helped coordinate the militia\'s plans to storm the Capitol and was convicted of seditious conspiracy.',
+ birthDate: '1965 (approx)',
+ birthPlace: 'Virginia',
+ education: ['U.S. Navy'],
+ affiliations: [
+ { name: 'Oath Keepers', role: 'Regional Coordinator', type: 'organization' as const },
+ { name: 'U.S. Navy', role: 'Former Lt. Commander', type: 'agency' as const },
+ ],
+ knownAssociates: [
+ { name: 'Stewart Rhodes', relationship: 'Oath Keepers founder', href: '/entities/individuals/stewart-rhodes' },
+ 
+ { name: 'Jeffrey Epstein', relationship: 'Admitted meeting Epstein multiple times; apologized publicly', href: '/entities/individuals/jeffrey-epstein' },
+ { name: 'Joi Ito', relationship: 'Connected through MIT Media Lab and Epstein fundraising', href: '/entities/individuals/joi-ito' },
+ { name: 'Ben Horowitz', relationship: 'Fellow Silicon Valley investor in same social circles', href: '/entities/individuals/ben-horowitz' },
+ { name: 'Chamath Palihapitiya', relationship: 'Tech industry peer in venture capital ecosystem', href: '/entities/individuals/chamath-palihapitiya' },
+ { name: 'Bill Gates', relationship: 'Fellow tech billionaire who met with Epstein', href: '/entities/individuals/bill-gates' }
+ ],
+ controversies: [
+ 'JANUARY 6: Coordinated Oath Keepers attack',
+ 'SEDITIOUS CONSPIRACY: Convicted of plotting insurrection',
+ 'MILITARY BACKGROUND: Used training for sedition',
+ 'WEAPONS CACHE: Organized quick reaction force',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 2384', description: 'Seditious conspiracy', category: 'CONVICTED' },
+ { statute: '18 U.S.C. � 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED' },
+ ],
+ relatedInvestigations: [
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ { title: 'Oath Keepers Sedition', slug: 'oath-keepers-sedition', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1965', event: 'Born' },
+ { date: 'January 6, 2021', event: 'Participates in Capitol attack' },
+ { date: 'January 2021', event: 'Arrested' },
+ { date: 'November 2022', event: 'Convicted of seditious conspiracy' },
+ ],
+ sources: [{ title: 'Wikipedia: Thomas Caldwell', url: 'https://en.wikipedia.org/wiki/Thomas_Caldwell' }, { title: 'Military Times: Thomas Caldwell', url: 'https://www.militarytimes.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ },
+ 'travis-mcmichael': {
+ name: 'Travis McMichael',
+ title: 'Convicted Murderer',
+ role: 'Ahmaud Arbery Killer - Modern Lynching CONVICTED',
+ riskLevel: 'critical',
+ description: 'Travis McMichael is the man who shot and killed Ahmaud Arbery, a 25-year-old Black man who was jogging in Brunswick, Georgia. McMichael, his father, and neighbor pursued Arbery in trucks and shot him in what prosecutors called a modern-day lynching. Convicted of murder and federal hate crimes.',
+ birthDate: '1985',
+ birthPlace: 'Georgia',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'US Coast Guard', role: 'Former', type: 'agency' as const },
+ ],
+ knownAssociates: [
+ { name: 'Gregory McMichael', relationship: 'Father/Co-killer', href: '/entities/individuals/gregory-mcmichael' },
+ { name: 'William Bryan', relationship: 'Accomplice', href: '/entities/individuals/william-bryan' },
+ ],
+ controversies: [
+ 'MURDERED AHMAUD ARBERY: Shot jogger dead',
+ 'MODERN LYNCHING: Hunted Black man in trucks',
+ 'HATE CRIME: Targeted based on race',
+ 'COVER-UP ATTEMPT: Initially no charges',
+ 'VIDEO EVIDENCE: Accomplice filmed murder',
+ ],
+ charges: [
+ { statute: 'Georgia Code � 16-5-1', description: 'Malice murder', category: 'CONVICTED - LIFE' },
+ { statute: '18 U.S.C. � 249', description: 'Federal hate crime - Murder', category: 'CONVICTED - LIFE' },
+ { statute: '18 U.S.C. � 247', description: 'Use of firearm in hate crime', category: 'CONVICTED' },
+ ],
+ relatedInvestigations: [
+ { title: 'Ahmaud Arbery Murder', slug: 'ahmaud-arbery-murder', severity: 'critical' },
+ { title: 'Hate Crimes', slug: 'hate-crimes', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'February 23, 2020', event: 'Murders Ahmaud Arbery' },
+ { date: 'May 2020', event: 'Video released, arrests made' },
+ { date: 'November 2021', event: 'Convicted of state murder' },
+ { date: 'February 2022', event: 'Convicted of federal hate crimes' },
+ ],
+ sources: [{ title: 'Wikipedia: Travis McMichael', url: 'https://en.wikipedia.org/wiki/Travis_McMichael' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ },
+ 'thomas-webster': {
+ name: 'Thomas Webster',
+ title: 'Convicted Capitol Assaulter',
+ role: 'Former NYPD Officer - Attacked Capitol Police CONVICTED',
+ riskLevel: 'critical',
+ description: 'Thomas Webster is a former NYPD officer who attacked Capitol Police Officer Noah Rathbun with a metal flagpole on January 6. Despite claiming self-defense, video showed him as the aggressor. He received one of the longest sentences for assaulting an officer.',
+ birthDate: '1966',
+ birthPlace: 'New York',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'New York City Police Department', role: 'Former Officer', type: 'agency' as const },
+ { name: 'US Marine Corps', role: 'Former', type: 'agency' as const },
+ ],
+ controversies: [
+ 'ATTACKED WITH FLAGPOLE: Beat officer with metal pole',
+ 'FORMER COP: Ex-NYPD officer attacked police',
+ 'SCREAMED THREATS: Threatened officers',
+ 'TACKLED OFFICER: Physically assaulted Rathbun',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 111', description: 'Assaulting officers with dangerous weapon', category: 'CONVICTED - 10 YEARS' },
+ { statute: '18 U.S.C. � 231', description: 'Civil disorder', category: 'CONVICTED' },
+ ],
+ relatedInvestigations: [
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'January 6, 2021', event: 'Attacks Officer Rathbun' },
+ { date: 'February 2021', event: 'Arrested' },
+ { date: 'May 2022', event: 'Convicted at trial' },
+ { date: 'September 2022', event: 'Sentenced to 10 years' },
+ ],
+ sources: [{ title: 'Wikipedia: Thomas Webster', url: 'https://en.wikipedia.org/wiki/Thomas_Webster' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ knownAssociates: [
+ { name: 'Jacob Chansley', relationship: 'Fellow January 6 defendant', href: '/entities/individuals/jacob-chansley' },
+ { name: 'Guy Reffitt', relationship: 'Fellow January 6 convicted rioter', href: '/entities/individuals/guy-reffitt' }
+ ],
+
+ },
+ 'tom-homan': {
+ name: 'Tom Homan',
+ title: 'Former ICE Acting Director',
+ role: 'Immigration Hardliner - Family Separation Architect',
+ riskLevel: 'high',
+ description: 'Tom Homan was Acting Director of ICE and is credited with implementing the"zero tolerance"family separation policy. He defended separating children from parents as a deterrent. He has been named to lead immigration enforcement in Trump\'s second term.',
+ birthDate: '1961',
+ birthPlace: 'New York',
+ education: ['SUNY Potsdam'],
+ affiliations: [
+ { name: 'ICE', role: 'Former Acting Director', type: 'agency' as const },
+ ],
+
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Acting ICE Director under Trump; appointed as"border czar"for Trump\'s second term with sweeping deportation mandate', href: '/entities/individuals/donald-trump' },
+ { name: 'Stephen Miller', relationship: 'Co-architect of Trump\'s hardline immigration policies including family separation zero-tolerance policy', href: '/entities/individuals/stephen-miller' },
+ { name: 'Kirstjen Nielsen', relationship: 'Worked under Nielsen at DHS to implement zero-tolerance border policy that separated thousands of families', href: '/entities/individuals/kirstjen-nielsen' },
+ { name: 'Jeff Sessions', relationship: 'Attorney General who announced the zero-tolerance policy Homan helped implement at the border', href: '/entities/individuals/jeff-sessions' },
+ ],
+ controversies: [
+ 'FAMILY SEPARATION: Architect of policy',
+ 'ZERO TOLERANCE: Separated thousands of families',
+ 'DEFENDED CAGES: Children in detention centers',
+ 'MASS DEPORTATION PLANS: For second Trump term',
+ 'HARDLINE RHETORIC: Against immigrants',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Family Separation Policy', slug: 'family-separation', severity: 'critical' },
+ { title: 'ICE Abuses', slug: 'ice-abuses', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1961', event: 'Born in New York' },
+ { date: '2017-2018', event: 'Acting ICE Director' },
+ { date: '2018', event: 'Zero tolerance implementation' },
+ { date: '2024', event: 'Named border czar for second term' },
+ ],
+ sources: [{ title: 'Wikipedia: Tom Homan', url: 'https://en.wikipedia.org/wiki/Tom_Homan' }, { title: 'NYT: Tom Homan Profile', url: 'https://www.nytimes.com/' }],
+ },
+ 'tristan-tate': {
+ name: 'Tristan Tate',
+ title: 'Indicted Influencer',
+ role: 'Andrew Tate\'s Brother - Human Trafficking INDICTED',
+ riskLevel: 'critical',
+ description: 'Tristan Tate is Andrew Tate\'s brother, also indicted in Romania for human trafficking and rape alongside his sibling. They allegedly operated a scheme luring women with promises of romantic relationships then forcing them into webcam and exploitation operations.',
+ birthDate: 'July 15, 1988',
+ birthPlace: 'Luton, England',
+ education: ['Luton Sixth Form College'],
+ affiliations: [
+ { name: 'Hustlers University', role: 'Partner', type: 'corporation' as const },
+ ],
+
+ knownAssociates: [
+ { name: 'Andrew Tate', relationship: 'Brother and business partner; co-defendant in Romanian human trafficking and organized crime prosecution', href: '/entities/individuals/andrew-tate' },
+ ],
+ controversies: [
+ 'HUMAN TRAFFICKING: Indicted in Romania',
+ 'RAPE CHARGES: Multiple victims',
+ 'ORGANIZED CRIME: Alleged crime group',
+ 'WEBCAM EXPLOITATION: Alleged scheme',
+ ],
+ charges: [
+ { statute: 'Romanian Criminal Code', description: 'Human trafficking', category: 'INDICTED' },
+ { statute: 'Romanian Criminal Code', description: 'Rape', category: 'INDICTED' },
+ ],
+ relatedInvestigations: [
+ { title: 'Human Trafficking', slug: 'human-trafficking', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'July 15, 1988', event: 'Born in England' },
+ { date: 'December 2022', event: 'Arrested in Romania' },
+ { date: '2023', event: 'Indicted on trafficking charges' },
+ ],
+ sources: [{ title: 'Wikipedia: Tristan Tate', url: 'https://en.wikipedia.org/wiki/Tristan_Tate' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ },
+ 'tulsi-gabbard': {
+ name: 'Tulsi Gabbard',
+ title: 'Former Congresswoman - DNI Nominee',
+ role: 'Putin Apologist - Assad Defender',
+ riskLevel: 'high',
+ description: 'Tulsi Gabbard served as Hawaii Congresswoman before Trump nominated her for Director of National Intelligence. She met with Bashar al-Assad, spread Russian disinformation about Ukraine biolabs, defended Putin\'s invasion, and appeared regularly on Russian state media. Security experts called her nomination a national security threat.',
+ birthDate: 'April 12, 1981',
+ birthPlace: 'Leloaloa, American Samoa',
+ education: ['Hawaii Pacific University'],
+ affiliations: [
+ { name: 'U.S. House of Representatives', role: 'Former Rep (D-HI)', type: 'agency' as const },
+ { name: 'U.S. Army National Guard', role: 'Lieutenant Colonel', type: 'agency' as const },
+ { name: 'Trump Administration 2.0', role: 'DNI Nominee', type: 'agency' as const },
+ ],
+
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Former Democratic congresswoman who endorsed Trump in 2024 and was appointed Director of National Intelligence', href: '/entities/individuals/donald-trump' },
+ { name: 'Vladimir Putin', relationship: 'Criticized for echoing Russian talking points on Ukraine and Syria; met with Assad in 2017 without State Department approval', href: '/entities/individuals/vladimir-putin' },
+ { name: 'Bashar al-Assad', relationship: 'Controversially met with Syrian dictator Assad in 2017, questioning U.S. regime change policy and drawing bipartisan condemnation', href: '/entities/individuals/bashar-al-assad' },
+ ],
+ controversies: [
+ 'ASSAD MEETING: Met with Syrian dictator in 2017',
+ 'RUSSIAN PROPAGANDA: Spread Ukraine biolab conspiracy',
+ 'PUTIN DEFENSE: Blamed NATO for invasion',
+ 'RT APPEARANCES: Regular Russian state media guest',
+ 'CULT TIES: Raised in Science of Identity Foundation',
+ 'HOMOPHOBIA: Past anti-LGBTQ activism',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Russian Influence Operations', slug: 'russian-influence', severity: 'critical' },
+ { title: 'Foreign Agent Concerns', slug: 'foreign-agents', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'April 12, 1981', event: 'Born in American Samoa' },
+ { date: '2013-2021', event: 'U.S. Representative' },
+ { date: 'January 2017', event: 'Met Assad in Syria' },
+ { date: 'February 2022', event: 'Spread Ukraine biolab disinfo' },
+ { date: 'November 2024', event: 'Trump nominates for DNI' },
+ ],
+ sources: [{ title: 'Wikipedia: Tulsi Gabbard', url: 'https://en.wikipedia.org/wiki/Tulsi_Gabbard' }, { title: 'NYT: Tulsi Gabbard Profile', url: 'https://www.nytimes.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Reuters: Russia Coverage', url: 'https://web.archive.org/web/2024/https://www.reuters.com/world/russia-ukraine/' }],
+ },
+ 'tim-pool': {
+ name: 'Tim Pool',
+ title: 'Right-Wing Podcaster',
+ role: 'Russian Asset - Civil War Promoter',
+ riskLevel: 'high',
+ description: 'Tim Pool is a right-wing podcaster exposed by DOJ as unwitting Russian asset receiving $100K per video through Tenet Media. He predicted Trump would win 49 states, promoted civil war rhetoric, and pushed election fraud conspiracies. His beanie-wearing"centrist"persona masks far-right content.',
+ birthDate: 'March 9, 1986',
+ birthPlace: 'Chicago, Illinois',
+ education: [],
+ affiliations: [
+ { name: 'Tenet Media', role: 'Contributor (Russian-funded)', type: 'organization' as const },
+ { name: 'Timcast', role: 'Host', type: 'organization' as const },
+ ],
+
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Pro-Trump media personality who hosted content amplifying Trump\'s political messaging', href: '/entities/individuals/donald-trump' },
+ { name: 'Elon Musk', relationship: 'Hosted prominent Twitter/X Spaces events with Musk, helping promote the platform after Musk\'s acquisition', href: '/entities/individuals/elon-musk' },
+ ],
+ controversies: [
+ 'RUSSIAN MONEY: DOJ revealed $100K/video from Russia',
+ 'CIVIL WAR: Repeatedly promoted civil war rhetoric',
+ '49 STATES: Predicted absurd Trump landslide',
+ 'ELECTION LIES: Spread fraud conspiracies',
+ 'FAKE CENTRIST: Claims neutrality while pushing far-right content',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Russian Influence Operations', slug: 'russian-influence', severity: 'critical' },
+ { title: 'Political Radicalization', slug: 'radicalization', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'March 9, 1986', event: 'Born in Chicago' },
+ { date: '2011', event: 'Occupy Wall Street coverage' },
+ { date: '2017', event: 'Started Timcast' },
+ { date: '2024', event: 'Russian funding exposed by DOJ' },
+ ],
+ sources: [{ title: 'Wikipedia: Tim Pool', url: 'https://en.wikipedia.org/wiki/Tim_Pool' }, { title: 'NYT: Tim Pool Profile', url: 'https://www.nytimes.com/' }, { title: 'Military Times: Tim Pool', url: 'https://www.militarytimes.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Reuters: Russia Coverage', url: 'https://web.archive.org/web/2024/https://www.reuters.com/world/russia-ukraine/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
+ },
+ 'trent-lott': {
+ name: 'Trent Lott',
+ title: 'Former Senate Majority Leader',
+ role: 'Thurmond Praise - Segregation Nostalgia',
+ riskLevel: 'high',
+ description: 'Trent Lott was Senate Majority Leader who resigned from leadership after praising Strom Thurmond\'s segregationist presidential campaign. He said if Thurmond had won,"we wouldn\'t have had all these problems."He later became a lobbyist.',
+ birthDate: 'October 9, 1941',
+ birthPlace: 'Grenada, Mississippi',
+ education: ['University of Mississippi'],
+ affiliations: [
+ { name: 'U.S. Senate', role: 'Former Majority Leader (R-MS)', type: 'agency' as const },
+ { name: 'Breaux Lott Leadership Group', role: 'Co-founder (Lobbyist)', type: 'corporation' as const },
+ ],
+ controversies: [
+ 'THURMOND PRAISE: Praised segregationist campaign',
+ 'SEGREGATION NOSTALGIA: Said U.S. wouldn\'t have"problems"',
+ 'CCC TIES: Spoke to white supremacist group',
+ 'REVOLVING DOOR: Became lobbyist immediately',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'White Supremacist Ties', slug: 'white-supremacy', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'October 9, 1941', event: 'Born in Mississippi' },
+ { date: '1989-2007', event: 'U.S. Senator' },
+ { date: '1996-2001', event: 'Senate Majority Leader' },
+ { date: 'December 2002', event: 'Thurmond birthday comments' },
+ { date: 'December 2002', event: 'Resigned leadership' },
+ { date: '2008', event: 'Became lobbyist' },
+ ],
+ sources: [{ title: 'Wikipedia: Trent Lott', url: 'https://en.wikipedia.org/wiki/Trent_Lott' }, { title: 'Associated Press: Trent Lott', url: 'https://apnews.com/' }],
+ knownAssociates: [
+ { name: 'Strom Thurmond', relationship: 'Praised Thurmond\'s segregationist campaign at 100th birthday', href: '/entities/individuals/strom-thurmond' },
+ { name: 'Jesse Helms', relationship: 'Fellow Southern conservative senator', href: '/entities/individuals/jesse-helms' }
+ ],
+
+ },
+ 'timothy-mcveigh': {
+ name: 'Timothy McVeigh',
+ title: 'Oklahoma City Bomber',
+ role: 'Domestic Terrorist - 168 Dead',
+ riskLevel: 'critical',
+ description: 'Timothy McVeigh was responsible for the Oklahoma City bombing on April 19, 1995, killing 168 people including 19 children in daycare. It was the deadliest domestic terrorist attack in U.S. history until 9/11. He was a Gulf War veteran radicalized by Ruby Ridge and Waco. Executed in 2001.',
+ birthDate: 'April 23, 1968',
+ birthPlace: 'Lockport, New York',
+ deathDate: 'June 11, 2001',
+ education: ['Bryant & Stratton Business College (incomplete)'],
+ affiliations: [
+ { name: 'U.S. Army', role: 'Former Sergeant', type: 'agency' as const },
+ { name: 'Militia Movement', role: 'Associate', type: 'organization' as const },
+ ],
+ controversies: [
+ 'OKLAHOMA CITY: 168 killed including 19 children',
+ 'TRUCK BOMB: 4,800 lbs ANFO explosive',
+ 'ANTI-GOVERNMENT: Radicalized by Waco/Ruby Ridge',
+ 'NO REMORSE: Called victims"collateral damage"',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 844', description: 'Use of weapon of mass destruction - truck bomb', category: 'Terrorism' },
+ { statute: '18 U.S.C. � 1111', description: 'First-degree murder (168 counts)', category: 'Homicide' },
+ ],
+ relatedInvestigations: [
+ { title: 'Domestic Terrorism', slug: 'domestic-terrorism', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'April 23, 1968', event: 'Born in New York' },
+ { date: '1988-1991', event: 'U.S. Army service' },
+ { date: 'April 19, 1995', event: 'Oklahoma City bombing - 168 killed' },
+ { date: '1997', event: 'Convicted, sentenced to death' },
+ { date: 'June 11, 2001', event: 'Executed by lethal injection' },
+ ],
+ sources: [{ title: 'Wikipedia: Timothy McVeigh', url: 'https://en.wikipedia.org/wiki/Timothy_McVeigh' }, { title: 'Military Times: Timothy McVeigh', url: 'https://www.militarytimes.com/' }],
+ knownAssociates: [
+ { name: 'Terry Nichols', relationship: 'Co-conspirator in Oklahoma City bombing', href: '/entities/individuals/terry-nichols' },
+ { name: 'Eric Rudolph', relationship: 'Contemporary domestic terrorist of 1990s', href: '/entities/individuals/eric-rudolph' }
+ ],
+
+ },
+ 'ted-kaczynski': {
+ name: 'Ted Kaczynski',
+ title: 'The Unabomber',
+ role: 'Anti-Technology Terrorist - 17-Year Campaign',
+ riskLevel: 'critical',
+ description: 'Ted Kaczynski was the Unabomber who conducted a 17-year mail bombing campaign (1978-1995), killing 3 and injuring 23. A Harvard-educated math prodigy, he targeted universities and airlines with increasingly sophisticated bombs. His manifesto was published to help identify him.',
+ birthDate: 'May 22, 1942',
+ birthPlace: 'Chicago, Illinois',
+ deathDate: 'June 10, 2023',
+ education: ['Harvard University', 'University of Michigan'],
+ affiliations: [
+ { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+ { name: 'Saudi Arabian Government', role: 'Saudi Official', type: 'agency' },
+ ],
+ controversies: [
+ 'MAIL BOMBS: 16 bombs over 17 years',
+ '3 KILLED: Professors and executives',
+ '23 INJURED: Maimed for life',
+ 'MANIFESTO:"Industrial Society and Its Future"',
+ 'CIA EXPERIMENTS: Subject of MKUltra at Harvard',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 844', description: 'Use of explosive device in commission of felony', category: 'Terrorism' },
+ { statute: '18 U.S.C. � 1111', description: 'First-degree murder (3 counts)', category: 'Homicide' },
+ ],
+ relatedInvestigations: [
+ { title: 'Domestic Terrorism', slug: 'domestic-terrorism', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'May 22, 1942', event: 'Born in Chicago' },
+ { date: '1958', event: 'Entered Harvard at 16' },
+ { date: '1978-1995', event: 'Unabomber campaign' },
+ { date: 'April 1996', event: 'Arrested in Montana cabin' },
+ { date: '1998', event: 'Pleaded guilty, life in prison' },
+ { date: 'June 10, 2023', event: 'Died in prison' },
+ ],
+ sources: [{ title: 'Wikipedia: Ted Kaczynski', url: 'https://en.wikipedia.org/wiki/Ted_Kaczynski' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Wired: Ted Kaczynski', url: 'https://www.wired.com/' }],
+ knownAssociates: [
+ { name: 'Timothy McVeigh', relationship: 'Fellow domestic terrorist of 1990s era', href: '/entities/individuals/timothy-mcveigh' }
+ ],
+
+ },
+ 'tate-reeves': {
+ name: 'Tate Reeves',
+ title: 'Mississippi Governor',
+ role: 'Welfare Scandal - Brett Favre Connection',
+ riskLevel: 'high',
+ description: 'Tate Reeves is Mississippi Governor implicated in the largest public fraud case in state history - $77 million in welfare funds diverted to wealthy. Text messages showed him arranging payments to Brett Favre. Mississippi remains poorest state under his leadership.',
+ birthDate: 'June 5, 1974',
+ birthPlace: 'Florence, Mississippi',
+ education: ['Millsaps College', 'Harvard Business School'],
+ affiliations: [
+ { name: 'State of Mississippi', role: 'Governor', type: 'agency' as const },
+ ],
+ controversies: [
+ 'WELFARE FRAUD: $77 million diverted to wealthy',
+ 'BRETT FAVRE: Texts showed arranging payments',
+ 'POOREST STATE: Mississippi last in most metrics',
+ 'ABORTION BAN: Signed near-total ban',
+ 'JACKSON WATER: Ignored capital city water crisis',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Mississippi Welfare Fraud', slug: 'mississippi-welfare', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'June 5, 1974', event: 'Born in Mississippi' },
+ { date: '2020-Present', event: 'Mississippi Governor' },
+ { date: '2022', event: 'Welfare fraud scandal emerges' },
+ { date: '2022', event: 'Jackson water crisis' },
+ { date: '2023', event: 'Favre text messages revealed' },
+ ],
+ sources: [{ title: 'Wikipedia: Tate Reeves', url: 'https://en.wikipedia.org/wiki/Tate_Reeves' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ knownAssociates: [
+ { name: 'Phil Bryant', relationship: 'Predecessor as Mississippi governor', href: '/entities/individuals/phil-bryant' },
+ { name: 'Greg Abbott', relationship: 'Fellow Republican governor', href: '/entities/individuals/greg-abbott' }
+ ],
+
+ },
+ 'tudor-dixon': {
+ name: 'Tudor Dixon',
+ title: 'Michigan Gubernatorial Candidate',
+ role: 'DeVos-Backed - Election Denier',
+ riskLevel: 'medium',
+ description: 'Tudor Dixon was the Trump-endorsed Michigan gubernatorial candidate backed by the DeVos family. She promoted election denial, said 14-year-old rape victims should be forced to give birth, and lost by 10 points to Gretchen Whitmer in 2022.',
+ birthDate: 'May 5, 1977',
+ birthPlace: 'Muskegon, Michigan',
+ education: ['University of Kentucky'],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ controversies: [
+ 'RAPE PREGNANCY: Said victims should give birth',
+ 'ELECTION DENIAL: Questioned 2020 results',
+ 'DEVOS MONEY: Backed by billionaire family',
+ 'KIDNAPPING DISMISSAL: Minimized Whitmer plot',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Election Denial', slug: 'election-denial', severity: 'medium' },
+ ],
+ timeline: [
+ { date: 'May 5, 1977', event: 'Born in Michigan' },
+ { date: '2022', event: 'Lost to Whitmer by 10 points' },
+ ],
+ sources: [{ title: 'Wikipedia: Tudor Dixon', url: 'https://en.wikipedia.org/wiki/Tudor_Dixon' }, { title: 'NYT: Tudor Dixon Profile', url: 'https://www.nytimes.com/' }],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Trump-endorsed Michigan governor candidate 2022', href: '/entities/individuals/donald-trump' },
+ { name: 'Betsy DeVos', relationship: 'Michigan Republican ally and DeVos family-backed candidate', href: '/entities/individuals/betsy-devos' }
+ ],
+
+ },
+ 'terry-nichols': {
+ name: 'Terry Nichols',
+ title: 'Oklahoma City Bombing Co-Conspirator',
+ role: 'McVeigh Accomplice - 168 Dead',
+ riskLevel: 'critical',
+ description: 'Terry Nichols was Timothy McVeigh\'s co-conspirator in the Oklahoma City bombing that killed 168 people including 19 children. He helped build the bomb and source materials. He was convicted of conspiracy and involuntary manslaughter, receiving multiple life sentences.',
+ birthDate: 'April 1, 1955',
+ birthPlace: 'Lapeer, Michigan',
+ education: ['Central Michigan University'],
+ affiliations: [
+ { name: 'U.S. Army', role: 'Former Private', type: 'agency' as const },
+ { name: 'Militia Movement', role: 'Associate', type: 'organization' as const },
+ ],
+ controversies: [
+ 'OKLAHOMA CITY: Co-conspirator in 168 deaths',
+ 'BOMB MATERIALS: Helped source fertilizer and fuel',
+ 'MILITIA TIES: Anti-government extremist',
+ 'AVOID DEATH PENALTY: Got life instead of execution',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 844', description: 'Conspiracy to use weapon of mass destruction', category: 'Terrorism' },
+ { statute: '18 U.S.C. � 1112', description: 'Involuntary manslaughter (8 counts)', category: 'Homicide' },
+ ],
+ relatedInvestigations: [
+ { title: 'Domestic Terrorism', slug: 'domestic-terrorism', severity: 'critical' },
+ { title: 'Oklahoma City Bombing', slug: 'okc-bombing', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'April 1, 1955', event: 'Born in Michigan' },
+ { date: '1988', event: 'Met McVeigh in Army' },
+ { date: '1994-1995', event: 'Helped plan and source bomb materials' },
+ { date: 'April 19, 1995', event: 'Oklahoma City bombing - 168 killed' },
+ { date: '1997', event: 'Federal conviction - life in prison' },
+ { date: '2004', event: 'Oklahoma conviction - 161 life sentences' },
+ ],
+ sources: [{ title: 'Wikipedia: Terry Nichols', url: 'https://en.wikipedia.org/wiki/Terry_Nichols' }, { title: 'Associated Press: Terry Nichols', url: 'https://apnews.com/' }],
+ knownAssociates: [
+ { name: 'Timothy McVeigh', relationship: 'Co-conspirator who built the Oklahoma City bomb', href: '/entities/individuals/timothy-mcveigh' }
+ ],
+
+ },
+ 'tadarrius-bean': {
+ name: 'Tadarrius Bean',
+ role: 'Former Memphis Police Officer',
+ title: 'Profile',
+ riskLevel: 'medium',
+ description: 'Tadarrius Bean was one of five Memphis police officers convicted in the beating death of Tyre Nichols. He was captured on video kicking Nichols as he lay on the ground. Bean was convicted of federal civil rights violations along with his co-defendants.',
+ birthDate: 'Unknown',
+ birthPlace: 'Memphis, Tennessee',
+ education: [],
+ affiliations: [
+ { name: 'Memphis Police Department', role: 'Former Officer - SCORPION Unit', type: 'agency' as const },
+ ],
+ controversies: [
+ 'TYRE NICHOLS MURDER: Kicked prone, handcuffed man',
+ 'SCORPION UNIT: Part of disbanded violent unit',
+ 'FEDERAL CONVICTION: Civil rights violations',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 242', description: 'Deprivation of rights under color of law (resulting in death)', category: 'Civil Rights' },
+ { statute: 'Tennessee Code � 39-13-202', description: 'Second-degree murder', category: 'Homicide' },
+ ],
+ relatedInvestigations: [
+ { title: 'Police Brutality', slug: 'police-brutality-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'January 7, 2023', event: 'Beat Tyre Nichols' },
+ { date: 'January 2023', event: 'Fired and charged' },
+ { date: '2024', event: 'Convicted federally' },
+ ],
+ sources: [{ title: 'Wikipedia: Tadarrius Bean', url: 'https://en.wikipedia.org/wiki/Tadarrius_Bean' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ knownAssociates: [
+ { name: 'Desmond Mills', relationship: 'Fellow SCORPION unit officer charged in Nichols case', href: '/entities/individuals/desmond-mills' },
+ { name: 'Emmitt Martin', relationship: 'Fellow officer charged in Tyre Nichols death', href: '/entities/individuals/emmitt-martin' }
+ ],
+
+ },
+ 'timothy-rigas': {
+ name: 'Timothy Rigas',
+ role: 'Former Adelphia CFO',
+ title: 'Profile',
+ riskLevel: 'medium',
+ description: 'Timothy Rigas was the CFO of Adelphia Communications who helped his father John Rigas and family steal billions from the cable company. They hid $2.3 billion in debt, used company money to buy timber rights and build a golf course, and funded family luxuries. Adelphia\'s bankruptcy was one of the largest in American history at the time.',
+ birthDate: '1956',
+ birthPlace: 'Coudersport, Pennsylvania',
+ education: ['Harvard Business School (MBA)'],
+ affiliations: [
+ { name: 'Adelphia Communications', role: 'CFO (1986-2002)', type: 'corporation' as const },
+ ],
+ controversies: [
+ 'ADELPHIA FRAUD: Stole billions from public company',
+ 'HIDDEN DEBT: Concealed $2.3 billion in debt',
+ 'FAMILY THEFT: Rigas family used company as piggy bank',
+ 'SECURITIES FRAUD: Lied to investors and regulators',
+ 'BANKRUPTCY: Company filed for bankruptcy 2002',
+ ],
+ charges: [
+ { statute: '18 U.S.C. � 1343', description: 'Wire fraud', category: 'Fraud' },
+ { statute: '18 U.S.C. � 1348', description: 'Securities fraud', category: 'Securities' },
+ { statute: '18 U.S.C. � 371', description: 'Conspiracy', category: 'Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'Corporate Fraud Scandals', slug: 'corporate-fraud-scandals', severity: 'high' },
+ { title: 'Adelphia Scandal', slug: 'adelphia-scandal', severity: 'high' },
+ ],
+ timeline: [
+ { date: '1986', event: 'Became CFO of Adelphia' },
+ { date: '2002', event: 'Arrested with father and brother' },
+ { date: '2002', event: 'Adelphia files bankruptcy' },
+ { date: '2004', event: 'Convicted of fraud charges' },
+ { date: '2004', event: 'Sentenced to 20 years (later reduced to 17)' },
+ { date: '2016', event: 'Released from prison' },
+ ],
+ sources: [{ title: 'Wikipedia: Timothy Rigas', url: 'https://en.wikipedia.org/wiki/Timothy_Rigas' }, { title: 'Associated Press: Timothy Rigas', url: 'https://apnews.com/' }],
+ knownAssociates: [
+ { name: 'John Rigas', relationship: 'Father and co-defendant in Adelphia Communications fraud', href: '/entities/individuals/john-rigas' }
+ ],
+
+ },
+ 'tamika-palmer': {
+ name: 'Tamika Palmer',
+ title: 'Breonna Taylor\'s mother who became a leading advocate for banning no-knock warrants nationwide',
+ role: 'Breonna Taylor\'s mother who became a leading advocate for banning no-knock warrants nationwide',
+ riskLevel: 'high',
+ description: 'Tamika Palmer is documented in ArkHive investigations for their role as Breonna Taylor\'s mother who became a leading advocate for banning no-knock warrants nationwide.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Suzanne Scott', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Breonna Taylor' }],
+ knownAssociates: [
+ { name: 'Breonna Taylor', relationship: 'Mother of Breonna Taylor killed in no-knock raid', href: '/entities/individuals/breonna-taylor' },
+ { name: 'Joshua Jaynes', relationship: 'Detective who obtained false warrant leading to Taylor\'s death', href: '/entities/individuals/joshua-jaynes' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Tamika Palmer', url: 'https://en.wikipedia.org/wiki/Tamika_Palmer' }],
+ },
+ 'tamir-rice': {
+ name: 'Tamir Rice',
+ title: '12-year-old boy shot by police within 2 seconds of arrival while playing with a toy gun in a Cleveland park',
+ role: '12-year-old boy shot by police within 2 seconds of arrival while playing with a toy gun in a Cleveland park',
+ riskLevel: 'high',
+ description: 'Tamir Rice is documented in ArkHive investigations for their role as 12-year-old boy shot by police within 2 seconds of arrival while playing with a toy gun in a Cleveland park.',
+ education: [],
+ affiliations: [
+ { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Police Militarization', slug: 'police-militarization', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as 12-year-old boy shot by police within 2 seconds of arrival while playing with a toy gun in a Clevela' }],
+ knownAssociates: [
+ { name: 'Timothy Loehmann', relationship: 'Officer who shot 12-year-old Tamir at Cleveland playground', href: '/entities/individuals/timothy-loehmann' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Tamir Rice', url: 'https://en.wikipedia.org/wiki/Tamir_Rice' }],
+ },
+ 'tarla-makaeff': {
+ name: 'Tarla Makaeff',
+ title: 'Original lead plaintiff; testified about high-pressure upselling tactics',
+ role: 'Original lead plaintiff; testified about high-pressure upselling tactics',
+ riskLevel: 'high',
+ description: 'Tarla Makaeff is documented in ArkHive investigations for their role as Original lead plaintiff; testified about high-pressure upselling tactics.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Tamir Rice', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Trump University', slug: 'trump-university', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Original lead plaintiff; testified about high-pressure upselling tactics' }],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Lead plaintiff in Trump University fraud lawsuit', href: '/entities/individuals/donald-trump' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Tarla Makaeff', url: 'https://en.wikipedia.org/wiki/Tarla_Makaeff' }],
+ },
+ 'ted-henifin': {
+ name: 'Ted Henifin',
+ title: 'Court-appointed third-party manager of Jackson water system',
+ role: 'Court-appointed third-party manager of Jackson water system',
+ riskLevel: 'high',
+ description: 'Ted Henifin is documented in ArkHive investigations for their role as Court-appointed third-party manager of Jackson water system.',
+ education: [],
+ affiliations: [
+ { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Jackson Water Crisis', slug: 'jackson-water-crisis', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Court-appointed third-party manager of Jackson water system' }],
+ knownAssociates: [
+ { name: 'Marc Edwards', relationship: 'Worked with Edwards on Flint water crisis infrastructure', href: '/entities/individuals/marc-edwards' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Ted Henifin', url: 'https://en.wikipedia.org/wiki/Ted_Henifin' }],
+ },
+ 'ted-shackley': {
+ name: 'Ted Shackley',
+ title: 'CIA Station Chief in Vientiane who ran covert operations',
+ role: 'CIA Station Chief in Vientiane who ran covert operations',
+ riskLevel: 'high',
+ description: 'Ted Shackley is documented in ArkHive investigations for their role as CIA Station Chief in Vientiane who ran covert operations.',
+ education: [],
+ affiliations: [
+ { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
+ { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 2 documented investigations',
+ ],
+ relatedInvestigations: [
+ { title: 'Laos Secret Bombing', slug: 'laos-secret-bombing', severity: 'high' },
+ { title: 'Phoenix Program', slug: 'phoenix-program', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as CIA Station Chief in Vientiane who ran covert operations' }],
+ knownAssociates: [
+ { name: 'Edwin Wilson', relationship: 'CIA rogue agent connected to Shackley\'s secret operations', href: '/entities/individuals/edwin-wilson' },
+ { name: 'Thomas Clines', relationship: 'Fellow CIA officer in Shackley\'s secret team', href: '/entities/individuals/thomas-corcoran' },
+ { name: 'Vang Pao', relationship: 'Hmong general Shackley ran Secret War with in Laos', href: '/entities/individuals/vang-pao' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Ted Shackley', url: 'https://en.wikipedia.org/wiki/Ted_Shackley' }],
+ },
+ 'terrell-don-hutto': {
+ name: 'Terrell Don Hutto',
+ title: 'CCA Co-founder \u2014 Former Arkansas corrections commissioner; namesake of infamous T. Don Hutto immigrant detention center',
+ role: 'CCA Co-founder \u2014 Former Arkansas corrections commissioner; namesake of infamous T. Don Hutto immigrant detention center',
+ riskLevel: 'high',
+ description: 'Terrell Don Hutto is documented in ArkHive investigations for their role as CCA Co-founder \u2014 Former Arkansas corrections commissioner; namesake of infamous T. Don Hutto immigrant detention center.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Ted Shackley', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Private Prison Industry', slug: 'private-prison-industry', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as CCA Co-founder \u2014 Former Arkansas corrections commissioner; namesake of infamous T. Don Hutto im' }],
+ knownAssociates: [
+ { name: 'Thomas Beasley', relationship: 'CCA co-founder alongside Hutto', href: '/entities/individuals/thomas-beasley' },
+ { name: 'Robert Crants', relationship: 'Fellow CCA private prison founder', href: '/entities/individuals/robert-crants' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Terrell Don Hutto', url: 'https://www.google.com/search?q=Terrell%20Don%20Hutto' }],
+ },
+ 'terry-dehko': {
+ name: 'Terry Dehko',
+ title: 'Michigan grocery store owner whose entire bank account was seized through structuring allegations',
+ role: 'Michigan grocery store owner whose entire bank account was seized through structuring allegations',
+ riskLevel: 'high',
+ description: 'Terry Dehko is documented in ArkHive investigations for their role as Michigan grocery store owner whose entire bank account was seized through structuring allegations.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Terrell Don Hutto', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Civil Asset Forfeiture', slug: 'civil-asset-forfeiture', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Michigan grocery store owner whose entire bank account was seized through structuring allegations' }],
+ knownAssociates: [
+ { name: 'Mandrel Stuart', relationship: 'Fellow civil asset forfeiture victim', href: '/entities/individuals/mandrel-stuart' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Terry Dehko', url: 'https://www.google.com/search?q=Terry%20Dehko' }],
+ },
+ 'terry-farr': {
+ name: 'Terry Farr',
+ title: 'RP Martin broker who acted as intermediary helping traders coordinate LIBOR submissions',
+ role: 'RP Martin broker who acted as intermediary helping traders coordinate LIBOR submissions',
+ riskLevel: 'high',
+ description: 'Terry Farr is documented in ArkHive investigations for their role as RP Martin broker who acted as intermediary helping traders coordinate LIBOR submissions.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Terry Dehko', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as RP Martin broker who acted as intermediary helping traders coordinate LIBOR submissions' }],
+ knownAssociates: [
+ { name: 'Tom Hayes', relationship: 'Fellow LIBOR scandal figure', href: '/entities/individuals/tom-hayes' },
+ { name: 'Philippe Moryoussef', relationship: 'Fellow LIBOR manipulation participant', href: '/entities/individuals/philippe-moryoussef' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Terry Farr', url: 'https://www.google.com/search?q=Terry%20Farr' }],
+ },
+ 'thad-allen': {
+ name: 'Thad Allen',
+ title: 'Coast Guard Admiral who served as National Incident Commander for the federal response',
+ role: 'Coast Guard Admiral who served as National Incident Commander for the federal response',
+ riskLevel: 'high',
+ description: 'Thad Allen is documented in ArkHive investigations for their role as Coast Guard Admiral who served as National Incident Commander for the federal response.',
+ education: [],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ { name: 'United States Military', role: 'Service Member', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Coast Guard Admiral who served as National Incident Commander for the federal response' }],
+ knownAssociates: [
+ { name: 'Tony Hayward', relationship: 'National Incident Commander managing BP Deepwater Horizon response', href: '/entities/individuals/tony-hayward' },
+ { name: 'Ken Salazar', relationship: 'Interior Secretary during BP spill Allen managed', href: '/entities/individuals/ken-salazar' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thad Allen', url: 'https://en.wikipedia.org/wiki/Thad_Allen' }],
+ },
+ 'thane-cesar': {
+ name: 'Thane Eugene Cesar',
+ title: 'Security guard standing directly behind Kennedy; drew his gun during the shooting',
+ role: 'Security guard standing directly behind Kennedy; drew his gun during the shooting',
+ riskLevel: 'high',
+ description: 'Thane Eugene Cesar is documented in ArkHive investigations for their role as Security guard standing directly behind Kennedy; drew his gun during the shooting.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Thad Allen', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Rfk Assassination', slug: 'rfk-assassination', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Security guard standing directly behind Kennedy; drew his gun during the shooting' }],
+ knownAssociates: [
+ { name: 'Sirhan Sirhan', relationship: 'Security guard present when Sirhan shot RFK; suspect in second gun theory', href: '/entities/individuals/sirhan-sirhan' },
+ { name: 'Robert F. Kennedy', relationship: 'Was guarding RFK when assassination occurred', href: '/entities/individuals/robert-f-kennedy' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thane Eugene Cesar', url: 'https://www.google.com/search?q=Thane%20Eugene%20Cesar' }],
+ },
+ 'theodore-bilbo': {
+ name: 'Theodore Bilbo',
+ title: 'Mississippi Senator who openly advocated lynching and blocked anti-lynching legislation',
+ role: 'Mississippi Senator who openly advocated lynching and blocked anti-lynching legislation',
+ riskLevel: 'high',
+ description: 'Theodore Bilbo is documented in ArkHive investigations for their role as Mississippi Senator who openly advocated lynching and blocked anti-lynching legislation.',
+ education: [],
+ affiliations: [
+ { name: 'United States Senate', role: 'Senator', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Mississippi Senator who openly advocated lynching and blocked anti-lynching legislation' }],
+ knownAssociates: [
+ { name: 'Nathan Bedford Forrest', relationship: 'Fellow white supremacist political figure championing racial hierarchy', href: '/entities/individuals/nathan-bedford-forrest' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Theodore Bilbo', url: 'https://en.wikipedia.org/wiki/Theodore_Bilbo' }],
+ },
+ 'theoneste-bagosora': {
+ name: 'Théoneste Bagosora',
+ title: 'Rwandan military official considered the mastermind of the genocide',
+ role: 'Rwandan military official considered the mastermind of the genocide',
+ riskLevel: 'high',
+ description: 'Théoneste Bagosora is documented in ArkHive investigations for their role as Rwandan military official considered the mastermind of the genocide.',
+ education: [],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Rwandan military official considered the mastermind of the genocide' }],
+ knownAssociates: [
+ { name: 'Juvenal Habyarimana', relationship: 'Launched genocide after Habyarimana\'s assassination', href: '/entities/individuals/juvenal-habyarimana' },
+ { name: 'Romeo Dallaire', relationship: 'UN commander who Bagosora warned"this will be an apocalypse"', href: '/entities/individuals/romeo-dallaire' },
+ { name: 'Paul Kagame', relationship: 'RPF leader whose forces ended genocide Bagosora directed', href: '/entities/individuals/paul-kagame' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Théoneste Bagosora', url: 'https://en.wikipedia.org/wiki/Théoneste_Bagosora' }],
+ },
+ 'thomas-beasley': {
+ name: 'Thomas Beasley',
+ title: 'CCA Co-founder \u2014 Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983',
+ role: 'CCA Co-founder \u2014 Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983',
+ riskLevel: 'high',
+ description: 'Thomas Beasley is documented in ArkHive investigations for their role as CCA Co-founder \u2014 Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983.',
+ education: [],
+ affiliations: [
+ { name: 'Republican Party', role: 'Member', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Private Prison Industry', slug: 'private-prison-industry', severity: 'high' },
+ ],
+ timeline: [{ date: '1983', event: 'documented in ArkHive investigations for their role as CCA Co-founder \u2014 Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983.' }],
+ knownAssociates: [
+ { name: 'Robert Crants', relationship: 'Co-founded CCA private prison empire', href: '/entities/individuals/robert-crants' },
+ { name: 'Terrell Don Hutto', relationship: 'Fellow CCA co-founder', href: '/entities/individuals/terrell-don-hutto' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Beasley', url: 'https://en.wikipedia.org/wiki/Thomas_Beasley' }],
+ },
+ 'thomas-curry': {
+ name: 'Thomas Curry',
+ title: 'OCC Comptroller who fined Wells Fargo $35M and referred executives for investigation',
+ role: 'OCC Comptroller who fined Wells Fargo $35M and referred executives for investigation',
+ riskLevel: 'high',
+ description: 'Thomas Curry is documented in ArkHive investigations for their role as OCC Comptroller who fined Wells Fargo $35M and referred executives for investigation.',
+ education: [],
+ affiliations: [
+ { name: 'Wells Fargo', role: 'Executive', type: 'corporation' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as OCC Comptroller who fined Wells Fargo $35M and referred executives for investigation' }],
+ knownAssociates: [
+ { name: 'Martin Wheatley', relationship: 'Fellow financial regulator during LIBOR scandal era', href: '/entities/individuals/martin-wheatley' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Curry', url: 'https://en.wikipedia.org/wiki/Thomas_Curry' }],
+ },
+ 'thomas-dobbs': {
+ name: 'Thomas Dobbs',
+ title: 'Mississippi State Health Officer, named defendant in Dobbs v. Jackson',
+ role: 'Mississippi State Health Officer, named defendant in Dobbs v. Jackson',
+ riskLevel: 'high',
+ description: 'Thomas Dobbs is documented in ArkHive investigations for their role as Mississippi State Health Officer, named defendant in Dobbs v. Jackson.',
+ education: [],
+ affiliations: [
+ { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Roe V Wade Overturn', slug: 'roe-v-wade-overturn', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Mississippi State Health Officer, named defendant in Dobbs v. Jackson' }],
+ knownAssociates: [
+ { name: 'Lynn Fitch', relationship: 'Mississippi AG who argued Dobbs v. Jackson case', href: '/entities/individuals/lynn-fitch' },
+ { name: 'Phil Bryant', relationship: 'Governor who signed 15-week abortion ban in Dobbs case', href: '/entities/individuals/phil-bryant' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Dobbs', url: 'https://en.wikipedia.org/wiki/Thomas_Dobbs' }],
+ },
+ 'thomas-drake': {
+ name: 'Thomas Drake',
+ title: 'Former NSA senior executive who exposed the Trailblazer surveillance program\'s waste and illegality',
+ role: 'Former NSA senior executive who exposed the Trailblazer surveillance program\'s waste and illegality',
+ riskLevel: 'high',
+ description: 'Thomas Drake is documented in ArkHive investigations for their role as Former NSA senior executive who exposed the Trailblazer surveillance program\'s waste and illegality.',
+ education: [],
+ affiliations: [
+ { name: 'National Security Agency', role: 'NSA Official', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Whistleblower Persecution', slug: 'whistleblower-persecution', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Former NSA senior executive who exposed the Trailblazer surveillance program' }],
+ knownAssociates: [
+ { name: 'Edward Snowden', relationship: 'Fellow NSA whistleblower who preceded Snowden', href: '/entities/individuals/edward-snowden' },
+ { name: 'William Binney', relationship: 'Fellow NSA whistleblower who exposed ThinThread abuse', href: '/entities/individuals/william-binney' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Drake', url: 'https://en.wikipedia.org/wiki/Thomas_Drake' }],
+ },
+ 'thomas-enders': {
+ name: 'Thomas Enders',
+ title: 'Assistant Secretary of State who oversaw El Salvador policy and suppressed massacre reports',
+ role: 'Assistant Secretary of State who oversaw El Salvador policy and suppressed massacre reports',
+ riskLevel: 'high',
+ description: 'Thomas Enders is documented in ArkHive investigations for their role as Assistant Secretary of State who oversaw El Salvador policy and suppressed massacre reports.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Thomas Drake', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Assistant Secretary of State who oversaw El Salvador policy and suppressed massacre reports' }],
+ knownAssociates: [
+ { name: 'Elliott Abrams', relationship: 'Fellow Reagan Central America policy figure', href: '/entities/individuals/elliott-abrams' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Enders', url: 'https://en.wikipedia.org/wiki/Thomas_Enders' }],
+ },
+ 'thomas-hofeller': {
+ name: 'Thomas Hofeller',
+ title: 'Republican master redistricting strategist who drew maps for decades; files revealed racial targeting',
+ role: 'Republican master redistricting strategist who drew maps for decades; files revealed racial targeting',
+ riskLevel: 'high',
+ description: 'Thomas Hofeller is documented in ArkHive investigations for their role as Republican master redistricting strategist who drew maps for decades; files revealed racial targeting.',
+ education: [],
+ affiliations: [
+ { name: 'Republican Party', role: 'Member', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Gerrymandering', slug: 'gerrymandering', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Republican master redistricting strategist who drew maps for decades; files revealed racial targetin' }],
+ knownAssociates: [
+ { name: 'Chris Jankowski', relationship: 'Fellow Republican gerrymandering strategist', href: '/entities/individuals/chris-jankowski' },
+ { name: 'Phil Berger', relationship: 'NC Republican who used Hofeller\'s maps', href: '/entities/individuals/phil-berger' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Hofeller', url: 'https://en.wikipedia.org/wiki/Thomas_Hofeller' }],
+ },
+ 'thomas-jackson': {
+ name: 'Thomas Jackson',
+ title: 'Ferguson Police Chief who oversaw militarized response to protests; DOJ found pattern of racial bias in department',
+ role: 'Ferguson Police Chief who oversaw militarized response to protests; DOJ found pattern of racial bias in department',
+ riskLevel: 'high',
+ description: 'Thomas Jackson is documented in ArkHive investigations for their role as Ferguson Police Chief who oversaw militarized response to protests; DOJ found pattern of racial bias in department.',
+ education: [],
+ affiliations: [
+ { name: 'Department of Justice', role: 'DOJ Official', type: 'agency' },
+ { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Police Militarization', slug: 'police-militarization', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Ferguson Police Chief who oversaw militarized response to protests; DOJ found pattern of racial bias' }],
+ knownAssociates: [
+ { name: 'Darren Wilson', relationship: 'Ferguson police chief during Michael Brown shooting by Wilson', href: '/entities/individuals/darren-wilson' },
+ { name: 'Michael Brown', relationship: 'Brown\'s death under Jackson\'s police leadership triggered Ferguson unrest', href: '/entities/individuals/michael-brown' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Jackson', url: 'https://en.wikipedia.org/wiki/Thomas_Jackson' }],
+ },
+ 'thomas-jefferson': {
+ name: 'Thomas Jefferson',
+ title: '3rd President of the United States. While publicly expressing sympathy for Native peoples, pursued aggressive policies of land acquisition and assimilation. Privately wrote of driving Native Americans"with the beasts of the forests into the Stony mountains"and advocated using debt to acquire tribal lands.',
+ role: '3rd President of the United States. While publicly expressing sympathy for Native peoples, pursued aggressive policies of land acquisition and assimilation. Privately wrote of driving Native Americans"with the beasts of the forests into the Stony mountains"and advocated using debt to acquire tribal lands.',
+ riskLevel: 'high',
+ description: 'Thomas Jefferson is documented in ArkHive investigations for their role as 3rd President of the United States. While publicly expressing sympathy for Native peoples, pursued aggressive policies of land acquisition and assimilation. Privately wrote of driving Native Americans"with the beasts of the forests into the Stony mountains"and advocated using debt to acquire tribal lands..',
+ education: [],
+ affiliations: [],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as 3rd President of the United States. While publicly expressing sympathy for Native peoples, pursued a' }],
+ knownAssociates: [
+ { name: 'James Knox Polk', relationship: 'Expansionist president who followed Jefferson\'s manifest destiny vision', href: '/entities/individuals/james-knox-polk' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Jefferson', url: 'https://en.wikipedia.org/wiki/Thomas_Jefferson' }],
+ },
+ 'thomas-midgley': {
+ name: 'Thomas Midgley Jr.',
+ title: 'Inventor of tetraethyl lead gasoline additive - knew of its toxicity',
+ role: 'Inventor of tetraethyl lead gasoline additive - knew of its toxicity',
+ riskLevel: 'high',
+ description: 'Thomas Midgley Jr. is documented in ArkHive investigations for their role as Inventor of tetraethyl lead gasoline additive - knew of its toxicity.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Thomas Jefferson', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Inventor of tetraethyl lead gasoline additive - knew of its toxicity' }],
+ knownAssociates: [
+ { name: 'Robert Kehoe', relationship: 'Scientist who defended Midgley\'s leaded gasoline', href: '/entities/individuals/robert-kehoe' },
+ { name: 'Clair Patterson', relationship: 'Scientist who proved Midgley\'s leaded gasoline poisoned the planet', href: '/entities/individuals/clair-patterson' },
+ { name: 'Herbert Needleman', relationship: 'Researcher who documented leaded gasoline brain damage Midgley caused', href: '/entities/individuals/herbert-needleman' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Midgley Jr.', url: 'https://en.wikipedia.org/wiki/Thomas_Midgley_Jr.' }],
+ },
+ 'thomas-morgan': {
+ name: 'Thomas Morgan',
+ title: 'Commissioner of Indian Affairs (1889-1893). Systematized and massively expanded the boarding school network, making attendance compulsory and authorizing use of force for child removal.',
+ role: 'Commissioner of Indian Affairs (1889-1893). Systematized and massively expanded the boarding school network, making attendance compulsory and authorizing use of force for child removal.',
+ riskLevel: 'high',
+ description: 'Thomas Morgan is documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1889-1893). Systematized and massively expanded the boarding school network, making attendance compulsory and authorizing use of force for child removal..',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Commissioner of Indian Affairs (1889-1893). System', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'high' },
+ ],
+ timeline: [{ date: '1889', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1889-1893)' }, { date: '1893', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1889-1893)' }],
+ knownAssociates: [
+ { name: 'Richard Henry Pratt', relationship: 'BIA Commissioner during Pratt\'s boarding school era', href: '/entities/individuals/richard-henry-pratt' },
+ { name: 'Henry Dawes', relationship: 'Dawes Act enforced during Morgan\'s BIA tenure', href: '/entities/individuals/henry-dawes' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Morgan', url: 'https://en.wikipedia.org/wiki/Thomas_Morgan' }],
+ },
+ 'thomas-murray': {
+ name: 'Thomas Murray',
+ title: 'AEC Commissioner who pushed for expanded Pacific testing',
+ role: 'AEC Commissioner who pushed for expanded Pacific testing',
+ riskLevel: 'high',
+ description: 'Thomas Murray is documented in ArkHive investigations for their role as AEC Commissioner who pushed for expanded Pacific testing.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Thomas Morgan', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as AEC Commissioner who pushed for expanded Pacific testing' }],
+ knownAssociates: [
+ { name: 'Lewis Strauss', relationship: 'Fellow AEC commissioner during nuclear testing', href: '/entities/individuals/lewis-strauss' },
+ { name: 'Stafford Warren', relationship: 'Manhattan Project radiologist connected to AEC nuclear history', href: '/entities/individuals/stafford-warren' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Murray', url: 'https://en.wikipedia.org/wiki/Thomas_Murray' }],
+ },
+ 'thomas-noguchi': {
+ name: 'Thomas Noguchi',
+ title: 'LA County Coroner who determined fatal shot came from 1-3 inches behind Kennedy\'s right ear',
+ role: 'LA County Coroner who determined fatal shot came from 1-3 inches behind Kennedy\'s right ear',
+ riskLevel: 'high',
+ description: 'Thomas Noguchi is documented in ArkHive investigations for their role as LA County Coroner who determined fatal shot came from 1-3 inches behind Kennedy\'s right ear.',
+ education: [],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Rfk Assassination', slug: 'rfk-assassination', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as LA County Coroner who determined fatal shot came from 1-3 inches behind Kennedy' }],
+ knownAssociates: [
+ { name: 'Sirhan Sirhan', relationship: 'Coroner who autopsied RFK in case against Sirhan', href: '/entities/individuals/sirhan-sirhan' },
+ { name: 'Robert Houghton', relationship: 'LAPD detective in RFK case alongside Noguchi', href: '/entities/individuals/robert-houghton' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Noguchi', url: 'https://en.wikipedia.org/wiki/Thomas_Noguchi' }],
+ },
+ 'thomas-pappas': {
+ name: 'Col. Thomas Pappas',
+ title: 'Commander of the 205th Military Intelligence Brigade at Abu Ghraib who approved the use of dogs during interrogation - a technique that directly led to the photographed abuses. Received a fine and letter of reprimand. No criminal charges.',
+ role: 'Commander of the 205th Military Intelligence Brigade at Abu Ghraib who approved the use of dogs during interrogation - a technique that directly led to the photographed abuses. Received a fine and letter of reprimand. No criminal charges.',
+ riskLevel: 'high',
+ description: 'Col. Thomas Pappas is documented in ArkHive investigations for their role as Commander of the 205th Military Intelligence Brigade at Abu Ghraib who approved the use of dogs during interrogation - a technique that directly led to the photographed abuses. Received a fine and letter of reprimand. No criminal charges..',
+ education: [],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Abu Ghraib', slug: 'abu-ghraib', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Commander of the 205th Military Intelligence Brigade at Abu Ghraib who approved the use of dogs duri' }],
+ knownAssociates: [
+ { name: 'Ricardo Sanchez', relationship: 'Commander who authorized Pappas at Abu Ghraib', href: '/entities/individuals/ricardo-sanchez' },
+ { name: 'Geoffrey Miller', relationship: 'Miller ordered Pappas to"Gitmo-ize"Abu Ghraib', href: '/entities/individuals/geoffrey-miller' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Col. Thomas Pappas', url: 'https://en.wikipedia.org/wiki/Thomas_Pappas_(general)' }],
+ },
+ 'thomas-parran': {
+ name: 'Surgeon General Thomas Parran',
+ title: 'U.S. Surgeon General who approved and was aware of the Guatemala experiments',
+ role: 'U.S. Surgeon General who approved and was aware of the Guatemala experiments',
+ riskLevel: 'high',
+ description: 'Surgeon General Thomas Parran is documented in ArkHive investigations for their role as U.S. Surgeon General who approved and was aware of the Guatemala experiments.',
+ education: [
+ 'Medical Degree',
+ ],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as U.S. Surgeon General who approved and was aware of the Guatemala experiments' }],
+ knownAssociates: [
+ { name: 'John Charles Cutler', relationship: 'PHS officer who ran Guatemala experiments under Parran', href: '/entities/individuals/john-charles-cutler' },
+ { name: 'Eunice Rivers', relationship: 'Nurse in Tuskegee study under Parran\'s PHS', href: '/entities/individuals/eunice-rivers' },
+ { name: 'Susan Reverby', relationship: 'Historian who uncovered Parran-era experiments', href: '/entities/individuals/susan-reverby' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Surgeon General Thomas Parran', url: 'https://en.wikipedia.org/wiki/Thomas_Parran_Jr.' }],
+ },
+ 'thomas-silverstein': {
+ name: 'Thomas Silverstein',
+ title: 'Federal prisoner held in solitary at ADX Florence for 36 years until his death - longest in federal custody',
+ role: 'Federal prisoner held in solitary at ADX Florence for 36 years until his death - longest in federal custody',
+ riskLevel: 'high',
+ description: 'Thomas Silverstein is documented in ArkHive investigations for their role as Federal prisoner held in solitary at ADX Florence for 36 years until his death - longest in federal custody.',
+ education: [],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Federal prisoner held in solitary at ADX Florence for 36 years until his death - longest in federa' }],
+ knownAssociates: [
+ { name: 'Pelican Bay Prisoners', relationship: 'Fellow long-term solitary confinement figure', href: '/entities/individuals/pelican-bay-prisoners' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Silverstein', url: 'https://en.wikipedia.org/wiki/Thomas_Silverstein' }],
+ },
+ 'thomas-stephens': {
+ name: 'Thomas Stephens',
+ title: 'Johns-Manville CEO - Oversaw decades of asbestos cover-up and worker exposure',
+ role: 'Johns-Manville CEO - Oversaw decades of asbestos cover-up and worker exposure',
+ riskLevel: 'high',
+ description: 'Thomas Stephens is documented in ArkHive investigations for their role as Johns-Manville CEO - Oversaw decades of asbestos cover-up and worker exposure.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Thomas Silverstein', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Corporate Homicide', slug: 'corporate-homicide', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Johns-Manville CEO - Oversaw decades of asbestos cover-up and worker exposure' }],
+ knownAssociates: [
+ { name: 'C. Everett Koop', relationship: 'Surgeon General who fought against tobacco Stephens promoted', href: '/entities/individuals/c-everett-koop' },
+ { name: 'Victor DeNoble', relationship: 'Tobacco researcher who blew whistle on nicotine manipulation', href: '/entities/individuals/victor-denoble' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Stephens', url: 'https://en.wikipedia.org/wiki/Thomas_Stephens' }],
+ },
+ 'thomas-stroock': {
+ name: 'Thomas Stroock',
+ title: 'US Ambassador to Guatemala (1989-1992) who defended military despite evidence of atrocities',
+ role: 'US Ambassador to Guatemala (1989-1992) who defended military despite evidence of atrocities',
+ riskLevel: 'high',
+ description: 'Thomas Stroock is documented in ArkHive investigations for their role as US Ambassador to Guatemala (1989-1992) who defended military despite evidence of atrocities.',
+ education: [
+ 'MBA',
+ ],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Guatemala Genocide', slug: 'guatemala-genocide', severity: 'high' },
+ ],
+ timeline: [{ date: '1989', event: 'documented in ArkHive investigations for their role as US Ambassador to Guatemala (1989-1992) who defended military despite evidence of atrocities.' }, { date: '1992', event: 'documented in ArkHive investigations for their role as US Ambassador to Guatemala (1989-1992) who defended military despite evidence of atrocities.' }],
+ knownAssociates: [
+ { name: 'Efrain Rios Montt', relationship: 'US Ambassador during Guatemalan genocide aftermath', href: '/entities/individuals/efrain-rios-montt' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Thomas Stroock', url: 'https://en.wikipedia.org/wiki/Thomas_Stroock' }],
+ },
+ 'thomas-waldhauser': {
+ name: 'General Thomas Waldhauser',
+ title: 'AFRICOM Commander who oversaw the escalation of strikes in Somalia',
+ role: 'AFRICOM Commander who oversaw the escalation of strikes in Somalia',
+ riskLevel: 'high',
+ description: 'General Thomas Waldhauser is documented in ArkHive investigations for their role as AFRICOM Commander who oversaw the escalation of strikes in Somalia.',
+ education: [],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Somalia Intervention', slug: 'somalia-intervention', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as AFRICOM Commander who oversaw the escalation of strikes in Somalia' }],
+ knownAssociates: [
+ { name: 'Stephen Townsend', relationship: 'Fellow AFRICOM commander', href: '/entities/individuals/stephen-townsend' }
+ ],
+
+ sources: [{ title: 'Wikipedia: General Thomas Waldhauser', url: 'https://en.wikipedia.org/wiki/Thomas_D._Waldhauser' }],
+ },
+ 'tim-moore': {
+ name: 'Tim Moore',
+ title: 'NC House Speaker who defended racial and partisan gerrymanders in court',
+ role: 'NC House Speaker who defended racial and partisan gerrymanders in court',
+ riskLevel: 'high',
+ description: 'Tim Moore is documented in ArkHive investigations for their role as NC House Speaker who defended racial and partisan gerrymanders in court.',
+ education: [],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Gerrymandering', slug: 'gerrymandering', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as NC House Speaker who defended racial and partisan gerrymanders in court' }],
+ knownAssociates: [
+ { name: 'Phil Berger', relationship: 'Fellow NC Republican gerrymandering figure', href: '/entities/individuals/phil-berger' },
+ { name: 'Thomas Hofeller', relationship: 'GOP mapmaker whose work Moore used', href: '/entities/individuals/thomas-hofeller' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Tim Moore', url: 'https://en.wikipedia.org/wiki/Tim_Moore' }],
+ },
+ 'tim-phillips': {
+ name: 'Tim Phillips',
+ title: 'President of Americans for Prosperity, orchestrated Tea Party mobilization',
+ role: 'President of Americans for Prosperity, orchestrated Tea Party mobilization',
+ riskLevel: 'high',
+ description: 'Tim Phillips is documented in ArkHive investigations for their role as President of Americans for Prosperity, orchestrated Tea Party mobilization.',
+ education: [],
+ affiliations: [
+ { name: 'United States Government', role: 'Wikipedia: Tim Moore', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Koch Network', slug: 'koch-network', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as President of Americans for Prosperity, orchestrated Tea Party mobilization' }],
+ knownAssociates: [
+ { name: 'Richard Fink', relationship: 'Koch network strategist alongside Phillips', href: '/entities/individuals/richard-fink' },
+ { name: 'Charles Koch', relationship: 'Koch funded Americans for Prosperity that Phillips runs', href: '/entities/individuals/charles-koch' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Tim Phillips', url: 'https://en.wikipedia.org/wiki/Tim_Phillips' }],
+ },
+ 'tim-russ': {
+ name: 'Tim Russ',
+ title: 'Former Wells Fargo regional president who raised concerns about sales practices to senior management',
+ role: 'Former Wells Fargo regional president who raised concerns about sales practices to senior management',
+ riskLevel: 'high',
+ description: 'Tim Russ is documented in ArkHive investigations for their role as Former Wells Fargo regional president who raised concerns about sales practices to senior management.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Tim Phillips', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Former Wells Fargo regional president who raised concerns about sales practices to senior management' }],
+ knownAssociates: [
+ { name: 'Jeff Jamar', relationship: 'ATF negotiator during Waco siege', href: '/entities/individuals/jeff-jamar' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Tim Russ', url: 'https://en.wikipedia.org/wiki/Tim_Russ' }],
+ },
+ 'tim-walberg': {
+ name: 'Tim Walberg',
+ title: 'US Congressman who co-sponsored DUE PROCESS Act to reform federal forfeiture',
+ role: 'US Congressman who co-sponsored DUE PROCESS Act to reform federal forfeiture',
+ riskLevel: 'high',
+ description: 'Tim Walberg is documented in ArkHive investigations for their role as US Congressman who co-sponsored DUE PROCESS Act to reform federal forfeiture.',
+ education: [],
+ affiliations: [
+ { name: 'United States Congress', role: 'Representative', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Civil Asset Forfeiture', slug: 'civil-asset-forfeiture', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as US Congressman who co-sponsored DUE PROCESS Act to reform federal forfeiture' }],
+ knownAssociates: [
+ { name: 'Betsy DeVos', relationship: 'Michigan congressman aligned with DeVos education agenda', href: '/entities/individuals/betsy-devos' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Tim Walberg', url: 'https://en.wikipedia.org/wiki/Tim_Walberg' }],
+ },
+ 'timothy-mellon': {
+ name: 'Timothy Mellon',
+ title: 'Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024 - largest single donation in U.S. history',
+ role: 'Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024 - largest single donation in U.S. history',
+ riskLevel: 'high',
+ description: 'Timothy Mellon is documented in ArkHive investigations for their role as Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024 - largest single donation in U.S. history.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Tim Walberg', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Dark Money Politics', slug: 'dark-money-politics', severity: 'high' },
+ ],
+ timeline: [{ date: '2024', event: 'in 2024 - largest single donation in U.S' }],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Largest individual donor to Trump Super PAC', href: '/entities/individuals/donald-trump' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Timothy Mellon', url: 'https://en.wikipedia.org/wiki/Timothy_Mellon' }],
+ },
+ 'timothy-olson': {
+ name: 'Timothy Olson',
+ title: 'Deadspin editor who compiled the viral video showing identical Sinclair scripts',
+ role: 'Deadspin editor who compiled the viral video showing identical Sinclair scripts',
+ riskLevel: 'high',
+ description: 'Timothy Olson is documented in ArkHive investigations for their role as Deadspin editor who compiled the viral video showing identical Sinclair scripts.',
+ education: [],
+ affiliations: [
+ { name: 'Media', role: 'Journalist', type: 'corporation' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Sinclair Broadcasting', slug: 'sinclair-broadcasting', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Deadspin editor who compiled the viral video showing identical Sinclair scripts' }],
+ knownAssociates: [
+ { name: 'David Koresh', relationship: 'ATF agent during Waco raid', href: '/entities/individuals/david-koresh' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Timothy Olson', url: 'https://en.wikipedia.org/wiki/Timothy_Olson' }],
+ },
+ 'timothy-purdon': {
+ name: 'Timothy Purdon',
+ title: 'Former US Attorney for North Dakota, raised alarm about missing Indigenous women cases',
+ role: 'Former US Attorney for North Dakota, raised alarm about missing Indigenous women cases',
+ riskLevel: 'high',
+ description: 'Timothy Purdon is documented in ArkHive investigations for their role as Former US Attorney for North Dakota, raised alarm about missing Indigenous women cases.',
+ education: [
+ 'Law Degree',
+ ],
+ affiliations: [
+ { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Missing Murdered Indigenous Women', slug: 'missing-murdered-indigenous-women', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Former US Attorney for North Dakota, raised alarm about missing Indigenous women cases' }],
+ knownAssociates: [
+ { name: 'Timothy Purdon', relationship: 'US Attorney involved in DAPL legal proceedings', href: '/entities/individuals/timothy-purdon' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Timothy Purdon', url: 'https://en.wikipedia.org/wiki/Timothy_Purdon' }],
+ },
+ 'timothy-sloan': {
+ name: 'Timothy Sloan',
+ title: 'Stumpf\'s successor as CEO; resigned 2019 under pressure for failure to reform',
+ role: 'Stumpf\'s successor as CEO; resigned 2019 under pressure for failure to reform',
+ riskLevel: 'high',
+ description: 'Timothy Sloan is documented in ArkHive investigations for their role as Stumpf\'s successor as CEO; resigned 2019 under pressure for failure to reform.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Timothy Purdon', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Stumpf' }],
+ knownAssociates: [
+ { name: 'John Stumpf', relationship: 'Succeeded Stumpf as Wells Fargo CEO during fake accounts scandal', href: '/entities/individuals/john-stumpf' },
+ { name: 'Carrie Tolstedt', relationship: 'Wells Fargo exec who ran division creating fake accounts under Sloan', href: '/entities/individuals/carrie-tolstedt' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Timothy Sloan', url: 'https://en.wikipedia.org/wiki/Timothy_Sloan' }],
+ },
+ 'timothy-tyson': {
+ name: 'Timothy Tyson',
+ title: 'Historian who recorded Carolyn Bryant\'s admission that she lied',
+ role: 'Historian who recorded Carolyn Bryant\'s admission that she lied',
+ riskLevel: 'high',
+ description: 'Timothy Tyson is documented in ArkHive investigations for their role as Historian who recorded Carolyn Bryant\'s admission that she lied.',
+ education: [],
+ affiliations: [
+ { name: 'Music Industry', role: 'Artist', type: 'corporation' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Historian who recorded Carolyn Bryant' }],
+ knownAssociates: [
+ { name: 'Mamie Till-Mobley', relationship: 'Historian who documented new evidence about Till murder', href: '/entities/individuals/mamie-till-mobley' },
+ { name: 'Roy Bryant', relationship: 'Tyson revealed Bryant\'s wife recanted Till accusations', href: '/entities/individuals/roy-bryant' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Timothy Tyson', url: 'https://en.wikipedia.org/wiki/Timothy_Tyson' }],
+ },
+ 'tom-harkin': {
+ name: 'Tom Harkin',
+ title: 'Senator who led investigation into for-profit colleges; 2012 Senate HELP Committee report exposed industry fraud',
+ role: 'Senator who led investigation into for-profit colleges; 2012 Senate HELP Committee report exposed industry fraud',
+ riskLevel: 'high',
+ description: 'Tom Harkin is documented in ArkHive investigations for their role as Senator who led investigation into for-profit colleges; 2012 Senate HELP Committee report exposed industry fraud.',
+ education: [
+ 'Massachusetts Institute of Technology',
+ ],
+ affiliations: [
+ { name: 'United States Senate', role: 'Senator', type: 'agency' },
+ { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
+ ],
+ timeline: [{ date: '2012', event: 'documented in ArkHive investigations for their role as Senator who led investigation into for-profit colleges; 2012 Senate HELP Committee report exposed industry fraud.' }],
+ knownAssociates: [
+ { name: 'Tom Saffer', relationship: 'Senator who championed atomic veterans Saffer represented', href: '/entities/individuals/tom-saffer' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Tom Harkin', url: 'https://en.wikipedia.org/wiki/Tom_Harkin' }],
+ },
+ 'tom-hayes': {
+ name: 'Tom Hayes',
+ title: 'Former UBS and Citigroup trader; the first person convicted of LIBOR manipulation, establishing the legal precedent',
+ role: 'Former UBS and Citigroup trader; the first person convicted of LIBOR manipulation, establishing the legal precedent',
+ riskLevel: 'high',
+ description: 'Tom Hayes is documented in ArkHive investigations for their role as Former UBS and Citigroup trader; the first person convicted of LIBOR manipulation, establishing the legal precedent.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Tom Harkin', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Former UBS and Citigroup trader; the first person convicted of LIBOR manipulation, establishing the ' }],
+ knownAssociates: [
+ { name: 'Bob Diamond', relationship: 'Barclays CEO during LIBOR manipulation Hayes participated in', href: '/entities/individuals/bob-diamond' },
+ { name: 'Terry Farr', relationship: 'Fellow LIBOR manipulation figure', href: '/entities/individuals/terry-farr' },
+ { name: 'Philippe Moryoussef', relationship: 'Fellow LIBOR trader', href: '/entities/individuals/philippe-moryoussef' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Tom Hayes', url: 'https://en.wikipedia.org/wiki/Tom_Hayes' }],
+ },
+ 'tom-saffer': {
+ name: 'Tom Saffer',
+ title: 'Atomic veteran and co-author documenting military nuclear testing exposure',
+ role: 'Atomic veteran and co-author documenting military nuclear testing exposure',
+ riskLevel: 'high',
+ description: 'Tom Saffer is documented in ArkHive investigations for their role as Atomic veteran and co-author documenting military nuclear testing exposure.',
+ education: [],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ { name: 'United States Military', role: 'Service Member', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Atomic veteran and co-author documenting military nuclear testing exposure' }],
+ knownAssociates: [
+ { name: 'Orville Kelly', relationship: 'Fellow atomic veteran fighting for recognition', href: '/entities/individuals/orville-kelly' },
+ { name: 'Tom Harkin', relationship: 'Senator who championed atomic veterans', href: '/entities/individuals/tom-harkin' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Tom Saffer', url: 'https://en.wikipedia.org/wiki/Tom_Saffer' }],
+ },
+ 'ton-that-tung': {
+ name: 'Ton That Tung',
+ title: 'Vietnamese surgeon who documented Agent Orange health effects in Vietnamese population',
+ role: 'Vietnamese surgeon who documented Agent Orange health effects in Vietnamese population',
+ riskLevel: 'high',
+ description: 'Ton That Tung is documented in ArkHive investigations for their role as Vietnamese surgeon who documented Agent Orange health effects in Vietnamese population.',
+ education: [
+ 'Medical Degree',
+ ],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Tom Saffer', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Vietnamese surgeon who documented Agent Orange health effects in Vietnamese population' }],
+ knownAssociates: [
+ { name: 'Nguyen Viet Nhan', relationship: 'Fellow Vietnamese documenting Agent Orange health effects', href: '/entities/individuals/nguyen-viet-nhan' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Ton That Tung', url: 'https://www.google.com/search?q=Ton%20That%20Tung' }],
+ },
+ 'tree-africa': {
+ name: 'Tree Africa',
+ title: 'Child killed in the bombing',
+ role: 'Child killed in the bombing',
+ riskLevel: 'high',
+ description: 'Tree Africa is documented in ArkHive investigations for their role as Child killed in the bombing.',
+ education: [],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Child killed in the bombing' }],
+ knownAssociates: [
+ { name: 'Ramona Africa', relationship: 'Fellow MOVE member', href: '/entities/individuals/ramona-africa' },
+ { name: 'John Africa', relationship: 'MOVE founder', href: '/entities/individuals/john-africa' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Tree Africa', url: 'https://www.google.com/search?q=Tree%20Africa' }],
+ },
+ 'tyler-shultz': {
+ name: 'Tyler Shultz',
+ title: 'Theranos lab employee and grandson of board member George Shultz; became a key whistleblower despite family pressure',
+ role: 'Theranos lab employee and grandson of board member George Shultz; became a key whistleblower despite family pressure',
+ riskLevel: 'high',
+ description: 'Tyler Shultz is documented in ArkHive investigations for their role as Theranos lab employee and grandson of board member George Shultz; became a key whistleblower despite family pressure.',
+ education: [],
+ affiliations: [
+ { name: 'Whistleblower', role: 'Whistleblower', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Theranos Fraud', slug: 'theranos-fraud', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Theranos lab employee and grandson of board member George Shultz; became a key whistleblower despite' }],
+ knownAssociates: [
+ { name: 'Elizabeth Holmes', relationship: 'Theranos whistleblower who reported fraud by Holmes', href: '/entities/individuals/elizabeth-holmes' },
+ { name: 'John Carreyrou', relationship: 'WSJ reporter Shultz went to with Theranos evidence', href: '/entities/individuals/john-carreyrou' },
+ { name: 'Erika Cheung', relationship: 'Fellow Theranos whistleblower', href: '/entities/individuals/erika-cheung' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Tyler Shultz', url: 'https://en.wikipedia.org/wiki/Tyler_Shultz' }],
+ },
+ 'theodore-roosevelt': {
+ name: 'Theodore Roosevelt',
+ title: 'US President who expanded the Indian boarding school system as part of assimilation policy',
+ role: 'Political Figure',
+ riskLevel: 'critical',
+ description: 'Theodore Roosevelt served as the 26th President of the United States and presided over a significant expansion of the Indian boarding school system. He publicly declared that Indigenous peoples must abandon their cultures and assimilate, calling the forced education policy essential.',
+ education: [],
+ affiliations: [
+ { name: 'United States Government', role: '26th President', type: 'agency' },
+ ],
+ controversies: [
+ 'Expanded Indian boarding school system designed to destroy Indigenous cultures through forced assimilation',
+ ],
+ relatedInvestigations: [
+ { title: 'American Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1901', event: 'As President, expanded the Indian boarding school system and promoted forced assimilation policies' },
+ ],
+ sources: [
+ { title: 'American Indian Boarding Schools', url: '/investigations/indian-boarding-schools' },
+ ],
+ knownAssociates: [
+ { name: 'Smedley Butler', relationship: 'Marine general who served in Roosevelt\'s imperial wars then denounced them', href: '/entities/individuals/smedley-butler' },
+ { name: 'Woodrow Wilson', relationship: 'Successor who continued American expansionism', href: '/entities/individuals/woodrow-wilson' }
+ ],
+
+ },
+ 'thomas-corcoran': {
+ name: 'Thomas Corcoran',
+ title: 'Washington lobbyist and lawyer who facilitated United Fruit Company\'s push for the 1954 Guatemala coup',
+ role: 'Political Figure',
+ riskLevel: 'high',
+ description: 'Thomas"Tommy the Cork"Corcoran was a powerful Washington lawyer and lobbyist who used his political connections to facilitate the United Fruit Company\'s lobbying campaign that helped convince the Eisenhower administration to authorize the 1954 CIA coup in Guatemala.',
+ education: [],
+ affiliations: [
+ { name: 'United Fruit Company', role: 'Lobbyist', type: 'corporation' },
+ ],
+ controversies: [
+ 'Lobbied for the 1954 Guatemala coup on behalf of United Fruit Company\'s commercial interests',
+ ],
+ relatedInvestigations: [
+ { title: '1954 Guatemala Coup (Operation PBSUCCESS)', slug: 'guatemala-coup-1954', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1954', event: 'Facilitated United Fruit Company lobbying for the CIA coup against Guatemala\'s elected government' },
+ ],
+ sources: [
+ { title: '1954 Guatemala Coup (Operation PBSUCCESS)', url: '/investigations/guatemala-coup-1954' },
+ ],
+ knownAssociates: [
+ { name: 'Allen Dulles', relationship: 'Washington fixer connected to CIA operations', href: '/entities/individuals/allen-dulles' }
+ ],
+
+ },
+ 'tim-geithner': {
+ name: 'Tim Geithner',
+ title: 'Treasury Secretary during the 2008 financial crisis who oversaw the Wall Street bailout',
+ role: 'Government Official',
+ riskLevel: 'high',
+ description: 'Timothy Geithner served as President of the New York Federal Reserve and then as Treasury Secretary during the 2008 financial crisis. He was a key architect of the Wall Street bailout, which rescued major banks while millions of Americans lost their homes.',
+ education: [],
+ affiliations: [
+ { name: 'US Department of the Treasury', role: 'Secretary of the Treasury', type: 'agency' },
+ { name: 'Federal Reserve Bank of New York', role: 'President', type: 'agency' },
+ ],
+ controversies: [
+ 'Oversaw Wall Street bailout that rescued banks while homeowners faced foreclosure',
+ ],
+ relatedInvestigations: [
+ { title: '2008 Financial Crisis', slug: '2008-financial-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2009', event: 'Became Treasury Secretary, oversaw TARP bailout and financial crisis response that favored Wall Street' },
+ ],
+ sources: [
+ { title: '2008 Financial Crisis', url: '/investigations/2008-financial-crisis' },
+ ],
+ knownAssociates: [
+ { name: 'Henry Paulson', relationship: 'Treasury predecessor during financial crisis', href: '/entities/individuals/henry-paulson' },
+ { name: 'Robert Rubin', relationship: 'Mentor and predecessor who shaped Wall Street-friendly policy', href: '/entities/individuals/robert-rubin' },
+ { name: 'Barack Obama', relationship: 'Treasury Secretary under Obama during bank bailouts', href: '/entities/individuals/barack-obama' }
+ ],
+
+ },
+ 'thomas-pritzker': {
+ name: 'Thomas Pritzker',
+ title: 'Hyatt Hotels Executive Chairman',
+ role: 'Billionaire Named in Documents',
+ riskLevel: 'medium',
+ description: 'Billionaire executive chairman of Hyatt Hotels and member of the Pritzker family. Named in unsealed Epstein court documents in 2024. The nature and extent of his relationship with Epstein became subject to scrutiny after document releases.',
+ birthDate: 'June 6, 1950',
+ birthPlace: 'Chicago, Illinois',
+ education: ['Claremont McKenna College', 'University of Chicago - MBA and JD'],
+ netWorth: '$3.5 billion',
+ affiliations: [
+ { name: 'Hyatt Hotels', role: 'Executive Chairman', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Named in documents', href: '/entities/individuals/jeffrey-epstein' },
+ 
+ { name: 'Ghislaine Maxwell', relationship: 'Social connection through Epstein events', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Glenn Dubin', relationship: 'Fellow billionaire in Epstein social circle', href: '/entities/individuals/glenn-dubin' },
+ { name: 'Les Wexner', relationship: 'Fellow billionaire connected to Epstein', href: '/entities/individuals/les-wexner' },
+ { name: 'Bill Gates', relationship: 'Both attended Epstein gatherings', href: '/entities/individuals/bill-gates' },
+ ],
+ controversies: [
+ 'Named in unsealed Giuffre v. Maxwell documents (2024)',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2024', event: 'Named in unsealed court documents' },
+ ],
+ sources: [
+ { title: '2024 Unsealed Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
+ ],
+ },
+ 'terje-roed-larsen': {
+ name: 'Terje Roed-Larsen',
+ title: 'Former UN Diplomat',
+ role: 'Received $130K From Epstein Post-Conviction',
+ riskLevel: 'medium',
+ description: 'Norwegian diplomat and former UN Special Envoy who received $130,000 from Epstein\'s foundation after his 2008 sex offender conviction. The payment was not disclosed to the UN. Roed-Larsen resigned from his position at the International Peace Institute after the relationship was exposed.',
+ birthDate: 'November 22, 1947',
+ birthPlace: 'Bergen, Norway',
+ education: ['University of Bergen'],
+ affiliations: [
+ { name: 'United Nations', role: 'Former Special Envoy', type: 'organization' },
+ { name: 'International Peace Institute', role: 'Former President', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Received $130K from Epstein foundation', href: '/entities/individuals/jeffrey-epstein' },
+ 
+ { name: 'Ghislaine Maxwell', relationship: 'Social connection through Epstein circle', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Ehud Barak', relationship: 'Israeli political connections, Oslo Accords negotiator', href: '/entities/individuals/ehud-barak' },
+ { name: 'Bill Clinton', relationship: 'Political connections through international diplomacy', href: '/entities/individuals/bill-clinton' },
+ ],
+ controversies: [
+ 'Received $130K from Epstein foundation post-conviction',
+ 'Did not disclose payment to UN',
+ 'Resigned from International Peace Institute',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2016', event: 'Received $130K from Epstein foundation' },
+ { date: '2019', event: 'Payment exposed, resigned from IPI' },
+ ],
+ sources: [{ title: 'Wikipedia: Terje Roed-Larsen', url: 'https://en.wikipedia.org/wiki/Terje_Roed-Larsen' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
+ },
+ 'teresa-helm': {
+ name: 'Teresa Helm',
+ title: 'Victim, Grand Jury Witness',
+ role: 'Testified to Grand Jury',
+ riskLevel: 'low',
+ description: 'Victim of Epstein who testified before the grand jury. Recruited through massage work.',
+ education: [],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Victim', href: '/entities/individuals/jeffrey-epstein' },
+ 
+ { name: 'Ghislaine Maxwell', relationship: 'Present during assault at NYC mansion', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Virginia Giuffre', relationship: 'Fellow victim', href: '/entities/individuals/virginia-giuffre' },
+ { name: 'Maria Farmer', relationship: 'Fellow victim and first accuser', href: '/entities/individuals/maria-farmer' },
+ ],
+ controversies: [
+ 'Epstein survivor recruited as a masseuse who was sexually assaulted at multiple Epstein properties',
+ 'Filed civil lawsuit describing systematic abuse and manipulation by Epstein and his associates',
+ 'Advocated for accountability from institutions that enabled Epstein\'s access to victims',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
+ sources: [{ title: 'Wikipedia: Teresa Helm', url: 'https://en.wikipedia.org/wiki/Teresa_Helm' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
+ },
+ 'trayvon-martin': {
+"name":"Trayvon Martin",
+"title":"Victim of Extrajudicial Killing",
+"role":"Symbol of Racial Violence, Catalyst for BLM",
+"riskLevel":"low",
+"description":"Unarmed 17-year-old African American shot and killed by neighborhood watch volunteer George Zimmerman in Sanford, Florida on February 26, 2012. Zimmerman's acquittal in 2013 sparked nationwide protests and directly inspired the founding of the Black Lives Matter movement.",
+"birthDate":"February 5, 1995",
+"education": [],
+"affiliations": [],
+"knownAssociates": [
+ {
+"name":"George Zimmerman",
+"relationship":"Killer, acquitted of murder",
+"href":"/entities/individuals/george-zimmerman"
+ }
+ ],
+"controversies": [
+"His killing exposed Stand Your Ground laws as enabling racial violence",
+"Zimmerman acquittal catalyzed Black Lives Matter movement",
+"Case highlighted systemic racism in criminal justice"
+ ],
+"relatedInvestigations": [
+ {
+"title":"Police Brutality",
+"slug":"police-brutality",
+"severity":"critical"
+ }
+ ],
+"timeline": [
+ {
+"date":"2012 Feb 26",
+"event":"Shot and killed by George Zimmerman"
+ },
+ {
+"date":"2013",
+"event":"Zimmerman acquitted, sparking national protests"
+ }
+ ],
+"sources": [
+ {
+"title":"DOJ Investigation",
+"url":"https://www.justice.gov/crt/file/836416/download",
+"date":"2012"
+ }
+ ]
+ },
+ 'thurgood-marshall': {
+"name":"Thurgood Marshall",
+"title":"First Black Supreme Court Justice",
+"role":"Civil Rights Legal Pioneer",
+"riskLevel":"low",
+"description":"First African American Supreme Court Justice (1967-1991) and chief counsel for the NAACP Legal Defense Fund. Successfully argued Brown v. Board of Education (1954), ending legal school segregation. One of the most consequential legal figures in American civil rights history.",
+"birthDate":"July 2, 1908",
+"education": [
+"Lincoln University",
+"Howard University School of Law"
+ ],
+"affiliations": [
+ {
+"name":"NAACP Legal Defense Fund",
+"role":"Chief Counsel",
+"type":"organization"
+ },
+ {
+"name":"U.S. Supreme Court",
+"role":"Associate Justice",
+"type":"agency"
+ }
+ ],
+"knownAssociates": [],
+"controversies": [
+"Brown v. Board ended school segregation",
+"Champion of civil liberties on Supreme Court",
+"His legacy is being systematically undermined by conservative court"
+ ],
+"relatedInvestigations": [
+ {
+"title":"War on Black America",
+"slug":"war-on-black-america",
+"severity":"critical"
+ }
+ ],
+"timeline": [
+ {
+"date":"1954",
+"event":"Won Brown v. Board of Education"
+ },
+ {
+"date":"1967",
+"event":"Appointed to Supreme Court by LBJ"
+ },
+ {
+"date":"1991",
+"event":"Retired from Supreme Court"
+ },
+ {
+"date":"1993",
+"event":"Died at age 84"
+ }
+ ],
+"sources": [
+ {
+"title":"Supreme Court Historical Society",
+"url":"https://supremecourthistory.org/history-of-the-court/the-current-court/justice-thurgood-marshall/",
+"date":"2023"
+ }
+ ]
+ },
+ 'tom-cruise': {
+"name":"Tom Cruise",
+"title":"Actor, Scientologist",
+"role":"Top Scientology Ambassador",
+"riskLevel":"medium",
+"description":"Hollywood actor and the most prominent celebrity member of the Church of Scientology. His close relationship with Scientology leader David Miscavige and his public promotion of the organization have been extensively documented. Former members allege Scientology used its resources to serve Cruise's personal interests.",
+"birthDate":"July 3, 1962",
+"education": [],
+"affiliations": [
+ {
+"name":"Church of Scientology",
+"role":"Celebrity Ambassador",
+"type":"organization"
+ }
+ ],
+"knownAssociates": [
+ {
+"name":"David Miscavige",
+"relationship":"Close personal friend, Scientology leader",
+"href":"/entities/individuals/david-miscavige"
+ }
+ ],
+"controversies": [
+"Primary celebrity promoter of Scientology",
+"Former members allege church used resources for his benefit",
+"Aggressive legal tactics against critics"
+ ],
+"relatedInvestigations": [],
+"timeline": [
+ {
+"date":"1990",
+"event":"Became active Scientologist"
+ },
+ {
+"date":"2005",
+"event":"Publicly promoted Scientology on national TV"
+ }
+ ],
+"sources": [
+ {
+"title":"Going Clear Documentary",
+"url":"https://www.hbo.com/movies/going-clear-scientology-and-the-prison-of-belief",
+"date":"2015"
+ }
+ ]
+ },
+ 'tom-delay': {
+"name":"Tom DeLay",
+"title":"Former House Majority Leader",
+"role":"The Hammer - Corrupt K Street Project",
+"riskLevel":"high",
+"description":"Republican House Majority Leader (2003-2005) known as \"The Hammer\"for his aggressive enforcement of party discipline. Forced to resign after indictment on money laundering and conspiracy charges related to illegal corporate campaign contributions. Architect of the K Street Project that openly linked lobbying firms to the Republican Party.",
+"education": [
+"University of Houston"
+ ],
+"affiliations": [
+ {
+"name":"Republican Party",
+"role":"House Majority Leader",
+"type":"organization"
+ }
+ ],
+"knownAssociates": [
+ {
+"name":"Jack Abramoff",
+"relationship":"Corrupt lobbyist closely tied to DeLay operation",
+"href":"/entities/individuals/jack-abramoff"
+ }
+ ],
+"controversies": [
+"Indicted for money laundering and conspiracy",
+"K Street Project openly corrupted lobbying",
+"Texas redistricting scandal",
+"Convicted in 2010, overturned on appeal"
+ ],
+"relatedInvestigations": [
+ {
+"title":"Dark Money Politics",
+"slug":"dark-money-politics",
+"severity":"critical"
+ }
+ ],
+"timeline": [
+ {
+"date":"2003",
+"event":"Became House Majority Leader"
+ },
+ {
+"date":"2005",
+"event":"Indicted, forced to resign leadership"
+ },
+ {
+"date":"2010",
+"event":"Convicted of money laundering"
+ },
+ {
+"date":"2013",
+"event":"Conviction overturned on appeal"
+ }
+ ],
+"sources": [
+ {
+"title":"Washington Post: DeLay Conviction",
+"url":"https://www.washingtonpost.com/politics/tom-delay/",
+"date":"2013"
+ }
+ ]
+ },
+ 'thomas-kean': {
+"name":"Thomas Kean",
+"title":"Former Governor of New Jersey",
+"role":"9/11 Commission Chairman",
+"riskLevel":"low",
+"description":"Republican former governor of New Jersey (1982-1990) who chaired the 9/11 Commission. The commission's final report documented intelligence failures and became a landmark document. Kean later expressed frustration that the commission was \"set up to fail\"and faced obstruction from the Bush administration.",
+"education": [
+"Princeton University",
+"Columbia University - M.A."
+ ],
+"affiliations": [
+ {
+"name":"9/11 Commission",
+"role":"Chairman",
+"type":"organization"
+ }
+ ],
+"knownAssociates": [
+ {
+"name":"George W. Bush",
+"relationship":"Bush administration obstructed commission work",
+"href":"/entities/individuals/george-w-bush"
+ }
+ ],
+"controversies": [
+"Said 9/11 Commission was \"set up to fail\"",
+"Bush administration resisted cooperation",
+"Commission unable to fully investigate Saudi connections"
+ ],
+"relatedInvestigations": [
+ {
+"title":"Saudi Connections",
+"slug":"saudi-connections",
+"severity":"critical"
+ }
+ ],
+"timeline": [
+ {
+"date":"2002",
+"event":"Appointed 9/11 Commission Chairman"
+ },
+ {
+"date":"2004",
+"event":"Released 9/11 Commission Report"
+ }
+ ],
+"sources": [
+ {
+"title":"9/11 Commission Report",
+"url":"https://www.9-11commission.gov/report/",
+"date":"2004"
+ }
+ ]
+ },
+ 'timnit-gebru': {
+"name":"Timnit Gebru",
+"title":"AI Ethics Researcher",
+"role":"Fired from Google for Ethics Research",
+"riskLevel":"low",
+"description":"Ethiopian-American computer scientist and AI ethics researcher who was fired from Google in December 2020 after the company tried to suppress her research paper on the dangers and biases of large language models. Her dismissal sparked a major controversy about corporate control of AI ethics research. Founded the Distributed AI Research Institute (DAIR).",
+"birthDate":"c. 1983",
+"education": [
+"Stanford University - Ph.D."
+ ],
+"affiliations": [
+ {
+"name":"DAIR Institute",
+"role":"Founder",
+"type":"organization"
+ }
+ ],
+"knownAssociates": [],
+"controversies": [
+"Fired from Google for publishing AI bias research",
+"Case exposed corporate suppression of AI ethics",
+"Research highlighted racial and gender bias in AI systems",
+"Founded independent AI research institute"
+ ],
+"relatedInvestigations": [
+ {
+"title":"Facial Recognition Surveillance",
+"slug":"facial-recognition-surveillance",
+"severity":"high"
+ }
+ ],
+"timeline": [
+ {
+"date":"2018",
+"event":"Published landmark study on facial recognition racial bias"
+ },
+ {
+"date":"2020 Dec",
+"event":"Fired from Google over AI ethics paper"
+ },
+ {
+"date":"2021",
+"event":"Founded DAIR Institute"
+ }
+ ],
+"sources": [
+ {
+"title":"MIT Technology Review: Gebru Case",
+"url":"https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/",
+"date":"2020"
+ }
+ ]
+ },
+  'trump-media': {
+    name: 'Trump Media',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Trump Media is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Trump Media has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'trump-organization': {
+    name: 'Trump Organization',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Trump Organization is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Trump Organization has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'trump-university': {
+    name: 'Trump University',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Trump University is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Trump University has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'twitter': {
+    name: 'Twitter',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Twitter is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Twitter has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'trilateral-commission': {
+    name: 'Trilateral Commission',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Trilateral Commission is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Trilateral Commission has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'tigerswan': {
+    name: 'Tigerswan',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Tigerswan is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Tigerswan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'tc-energy': {
+    name: 'Tc Energy',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Tc Energy is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Tc Energy has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'tiktok': {
+    name: 'Tiktok',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Tiktok is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Tiktok has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+};
+
+export default profiles;

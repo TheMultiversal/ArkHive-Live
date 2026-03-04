@@ -8,6 +8,7 @@ const path = require('path');
 const config = require('./config');
 const logger = require('./logger').child('INJECTOR');
 const utils = require('./utils');
+const shardManager = require('./shard-manager');
 
 class Injector {
   constructor() {
@@ -20,67 +21,66 @@ class Injector {
   }
 
   /**
-   * Inject a single profile into the individuals page.tsx
+   * Inject a single profile into the correct shard file
    * Returns { success: boolean, message: string }
    */
   async injectIndividualProfile(slug, profile) {
     logger.inject(`Injecting profile: ${slug} (${profile.name})`);
 
-    const filePath = config.paths.individuals;
-    const content = utils.readFileSafe(filePath);
-    if (!content) {
-      return { success: false, message: 'Could not read individuals page' };
-    }
+    const letter = shardManager.getShardLetter(slug);
 
-    // Check if profile already exists
-    const existingSlugs = utils.extractExistingIndividualSlugs(content);
-    if (existingSlugs.includes(slug)) {
-      logger.warn(`Profile ${slug} already exists — skipping injection`);
-      return { success: false, message: 'Profile already exists' };
-    }
-
-    // Create backup before modifying
-    if (config.generation.backupBeforeInject) {
-      const backupPath = utils.backupFile(filePath);
-      if (backupPath) {
-        this.stats.totalBackups++;
-        logger.inject(`Backup created: ${path.basename(backupPath)}`);
-      }
-    }
-
-    // Generate the TypeScript literal
-    const tsLiteral = utils.profileToTsLiteral(slug, profile);
-
-    // Find the insertion point — right before the closing of individualData
-    // We look for the last profile entry's closing `},` followed by `};` (end of object)
-    // Or we insert before the generateStaticParams function
-    const insertionResult = this._findInsertionPoint(content);
-    if (!insertionResult.success) {
-      return { success: false, message: insertionResult.message };
-    }
-
-    // Insert the new profile
-    const newContent =
-      content.substring(0, insertionResult.position) +
-      '\n' + tsLiteral + '\n' +
-      content.substring(insertionResult.position);
-
-    // Write back atomically
     try {
-      utils.writeFileAtomic(filePath, newContent);
+      await shardManager.acquireLock(letter);
+
+      let content = shardManager.readShard(letter);
+      if (!content) {
+        shardManager.createEmptyShard(letter);
+        content = shardManager.readShard(letter);
+      }
+
+      // Check if profile already exists
+      const existingSlugs = utils.extractExistingIndividualSlugs(content);
+      if (existingSlugs.includes(slug)) {
+        logger.warn(`Profile ${slug} already exists in shard ${letter} — skipping`);
+        return { success: false, message: 'Profile already exists' };
+      }
+
+      // Backup before modifying
+      if (config.generation.backupBeforeInject) {
+        shardManager.backupShard(letter);
+        this.stats.totalBackups++;
+      }
+
+      // Generate the TypeScript literal and find insertion point
+      const tsLiteral = utils.profileToTsLiteral(slug, profile);
+      const insertionResult = this._findInsertionPoint(content);
+      if (!insertionResult.success) {
+        return { success: false, message: insertionResult.message };
+      }
+
+      // Insert the new profile
+      const newContent =
+        content.substring(0, insertionResult.position) +
+        '\n' + tsLiteral + '\n' +
+        content.substring(insertionResult.position);
+
+      shardManager.writeShard(letter, newContent);
       this.stats.totalInjected++;
       this.stats.lastInjection = new Date().toISOString();
-      logger.inject(`✓ Successfully injected ${slug} (${profile.name})`);
-      return { success: true, message: `Profile ${slug} injected successfully` };
+      logger.inject(`✓ Injected ${slug} (${profile.name}) [shard:${letter}]`);
+      return { success: true, message: `Profile ${slug} injected into shard ${letter}` };
     } catch (e) {
       this.stats.totalFailed++;
-      logger.error(`Failed to write file after injection: ${e.message}`);
-      return { success: false, message: `Write failed: ${e.message}` };
+      logger.error(`Injection failed for ${slug}: ${e.message}`);
+      return { success: false, message: `Injection failed: ${e.message}` };
+    } finally {
+      shardManager.releaseLock(letter);
     }
   }
 
   /**
-   * Inject multiple profiles in a single file write (batch injection)
+   * Inject multiple profiles across shard files (batch injection)
+   * Groups by shard letter and processes each shard independently
    * Supports both new profiles (create) and replacing existing ones (enrich)
    */
   async injectBatch(profiles) {
@@ -88,89 +88,104 @@ class Injector {
 
     logger.inject(`Batch injecting ${profiles.length} profiles...`);
 
-    const filePath = config.paths.individuals;
-    let content = utils.readFileSafe(filePath);
-    if (!content) {
-      return { success: false, message: 'Could not read individuals page', injected: 0 };
+    // Group profiles by shard letter
+    const shardGroups = new Map(); // letter -> [{ slug, profile, action }]
+    for (const item of profiles) {
+      const letter = shardManager.getShardLetter(item.slug);
+      if (!shardGroups.has(letter)) shardGroups.set(letter, []);
+      shardGroups.get(letter).push(item);
     }
 
-    // Create a single backup for the batch
-    if (config.generation.backupBeforeInject) {
-      const backupPath = utils.backupFile(filePath);
-      if (backupPath) {
-        this.stats.totalBackups++;
-        logger.inject(`Batch backup created: ${path.basename(backupPath)}`);
-      }
-    }
+    let totalInjected = 0;
+    let totalErrors = 0;
 
-    const existingSlugs = new Set(utils.extractExistingIndividualSlugs(content));
-    const toInject = [];  // new profiles to insert
-    const toReplace = []; // existing profiles to replace (enrichment)
+    // Process each shard independently (per-shard locking)
+    for (const [letter, shardProfiles] of shardGroups) {
+      try {
+        await shardManager.acquireLock(letter);
 
-    for (const { slug, profile, action } of profiles) {
-      if (existingSlugs.has(slug)) {
-        if (action === 'enrich') {
-          toReplace.push({ slug, profile });
-        } else {
-          logger.warn(`Skipping ${slug} — already exists`);
+        let content = shardManager.readShard(letter);
+        if (!content) {
+          shardManager.createEmptyShard(letter);
+          content = shardManager.readShard(letter);
         }
-        continue;
+
+        // Backup shard before modification
+        if (config.generation.backupBeforeInject) {
+          shardManager.backupShard(letter);
+          this.stats.totalBackups++;
+        }
+
+        const existingSlugs = new Set(utils.extractExistingIndividualSlugs(content));
+        const toInject = [];
+        const toReplace = [];
+
+        for (const { slug, profile, action } of shardProfiles) {
+          if (existingSlugs.has(slug)) {
+            if (action === 'enrich') {
+              toReplace.push({ slug, profile });
+            } else {
+              logger.warn(`Skipping ${slug} — already exists in shard ${letter}`);
+            }
+            continue;
+          }
+          toInject.push({ slug, profile });
+          existingSlugs.add(slug);
+        }
+
+        // Apply replacements for enriched profiles
+        for (const { slug, profile } of toReplace) {
+          const newLiteral = utils.profileToTsLiteral(slug, profile);
+          const replaced = this._replaceProfileInContent(content, slug, newLiteral);
+          if (replaced) {
+            content = replaced;
+            logger.inject(`  ~ ${slug} (enriched) [shard:${letter}]`);
+          } else {
+            logger.warn(`Could not replace profile for ${slug} in shard ${letter}`);
+          }
+        }
+
+        // Insert new profiles
+        if (toInject.length > 0) {
+          const literals = toInject.map(({ slug, profile }) =>
+            utils.profileToTsLiteral(slug, profile)
+          ).join('\n');
+
+          const insertionResult = this._findInsertionPoint(content);
+          if (!insertionResult.success) {
+            logger.error(`No insertion point in shard ${letter}: ${insertionResult.message}`);
+            totalErrors += toInject.length;
+            continue;
+          }
+
+          content =
+            content.substring(0, insertionResult.position) +
+            '\n' + literals + '\n' +
+            content.substring(insertionResult.position);
+        }
+
+        const changed = toInject.length + toReplace.length;
+        if (changed > 0) {
+          shardManager.writeShard(letter, content);
+          totalInjected += changed;
+          for (const { slug, profile } of toInject) {
+            logger.inject(`  + ${slug} (${profile.name}) [shard:${letter}]`);
+          }
+        }
+      } catch (e) {
+        logger.error(`Shard ${letter} injection failed: ${e.message}`);
+        totalErrors += shardProfiles.length;
+      } finally {
+        shardManager.releaseLock(letter);
       }
-      toInject.push({ slug, profile });
-      existingSlugs.add(slug); // Prevent duplicates within batch
     }
 
-    // Apply replacements for enriched profiles
-    for (const { slug, profile } of toReplace) {
-      const newLiteral = utils.profileToTsLiteral(slug, profile);
-      const replaced = this._replaceProfileInContent(content, slug, newLiteral);
-      if (replaced) {
-        content = replaced;
-        logger.inject(`  ~ ${slug} (enriched)`);
-      } else {
-        logger.warn(`Could not replace profile for ${slug}`);
-      }
-    }
+    this.stats.totalInjected += totalInjected;
+    this.stats.totalFailed += totalErrors;
+    if (totalInjected > 0) this.stats.lastInjection = new Date().toISOString();
 
-    // Insert new profiles
-    if (toInject.length > 0) {
-      const literals = toInject.map(({ slug, profile }) =>
-        utils.profileToTsLiteral(slug, profile)
-      ).join('\n');
-
-      const insertionResult = this._findInsertionPoint(content);
-      if (!insertionResult.success) {
-        return { success: false, message: insertionResult.message, injected: 0 };
-      }
-
-      content =
-        content.substring(0, insertionResult.position) +
-        '\n' + literals + '\n' +
-        content.substring(insertionResult.position);
-    }
-
-    const totalChanged = toInject.length + toReplace.length;
-    if (totalChanged === 0) {
-      logger.inject('No profiles to inject or update');
-      return { success: true, injected: 0 };
-    }
-
-    try {
-      utils.writeFileAtomic(filePath, content);
-      this.stats.totalInjected += totalChanged;
-      this.stats.lastInjection = new Date().toISOString();
-
-      logger.inject(`✓ Batch: ${toInject.length} new, ${toReplace.length} enriched`);
-      for (const { slug, profile } of toInject) {
-        logger.inject(`  + ${slug} (${profile.name})`);
-      }
-
-      return { success: true, injected: totalChanged };
-    } catch (e) {
-      this.stats.totalFailed += totalChanged;
-      logger.error(`Batch write failed: ${e.message}`);
-      return { success: false, message: `Write failed: ${e.message}`, injected: 0 };
-    }
+    logger.inject(`✓ Batch complete: ${totalInjected} injected, ${totalErrors} errors`);
+    return { success: totalErrors === 0, injected: totalInjected };
   }
 
   /**
@@ -249,8 +264,7 @@ class Injector {
     if (!fs.existsSync(generatedDir)) return [];
 
     const files = fs.readdirSync(generatedDir).filter(f => f.endsWith('.json'));
-    const content = utils.readFileSafe(config.paths.individuals);
-    const existingSlugs = content ? new Set(utils.extractExistingIndividualSlugs(content)) : new Set();
+    const existingSlugs = new Set(shardManager.extractAllSlugs());
 
     return files
       .map(f => f.replace('.json', ''))
@@ -289,11 +303,12 @@ class Injector {
       }
     }
 
-    // Fallback: search for `};\n` that ends the individualData object
-    // by counting braces from the declaration
-    const dataStart = content.indexOf('const individualData');
+    // Fallback: search for the data object declaration
+    // Support both monolithic format (const individualData) and shard format (const profiles)
+    let dataStart = content.indexOf('const individualData');
+    if (dataStart === -1) dataStart = content.indexOf('const profiles');
     if (dataStart === -1) {
-      return { success: false, position: -1, message: 'Could not find individualData declaration' };
+      return { success: false, position: -1, message: 'Could not find data object (individualData or profiles)' };
     }
 
     // Find the opening brace of the Record

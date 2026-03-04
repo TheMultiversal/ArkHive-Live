@@ -3,7 +3,7 @@
 //  The hive mind: orchestrates workers, manages queues, auto-scales
 // ═══════════════════════════════════════════════════════════════════
 
-const { fork } = require('child_process');
+const { Worker } = require('worker_threads');
 const path = require('path');
 const EventEmitter = require('events');
 const config = require('./config');
@@ -40,6 +40,7 @@ class SwarmEngine extends EventEmitter {
     // Batch injection buffer
     this.injectionBuffer = [];
     this.injectionTimer = null;
+    this._injectionLock = false;  // Mutex to prevent concurrent flushes
 
     // Stats
     this.stats = {
@@ -227,10 +228,11 @@ class SwarmEngine extends EventEmitter {
       new Promise(resolve => setTimeout(resolve, config.workers.gracefulShutdownTimeout)),
     ]);
 
-    // Force kill any remaining workers
+    // Force terminate any remaining workers
     for (const [id, worker] of this.workers) {
-      if (worker.process && !worker.process.killed) {
-        worker.process.kill('SIGKILL');
+      if (worker.process && !worker.terminated) {
+        worker.terminated = true;
+        worker.process.terminate();
       }
     }
     this.workers.clear();
@@ -367,20 +369,19 @@ class SwarmEngine extends EventEmitter {
     logger.worker(`Spawning worker ${workerId}...`);
 
     const workerPath = path.join(config.paths.bots, 'worker.js');
-    const child = fork(workerPath, [], {
-      env: {
-        ...process.env,
+    const child = new Worker(workerPath, {
+      workerData: {
         WORKER_ID: workerId,
         GENERATION_MODE: config.generation.mode,
         TEMPLATE_FALLBACK: config.generation.templateFallback ? '1' : '0',
       },
-      stdio: ['pipe', 'pipe', 'pipe', 'ipc'],
     });
 
     const workerInfo = {
       process: child,
       id: workerId,
-      pid: child.pid,
+      pid: child.threadId,
+      terminated: false,
       status: 'starting',
       currentTask: null,
       lastHeartbeat: Date.now(),
@@ -394,20 +395,16 @@ class SwarmEngine extends EventEmitter {
     this.stats.totalWorkersSpawned++;
     this.stats.peakWorkers = Math.max(this.stats.peakWorkers, this.workers.size);
 
-    // Forward stdout/stderr
-    child.stdout?.on('data', (data) => {
-      process.stdout.write(data);
-    });
-    child.stderr?.on('data', (data) => {
-      process.stderr.write(data);
-    });
+    // Worker threads share stdout/stderr automatically — no piping needed
 
-    // Handle IPC messages from worker
+    // Handle messages from worker thread
     child.on('message', (msg) => this._handleWorkerMessage(workerId, msg));
 
-    // Handle worker death
-    child.on('exit', (code, signal) => {
-      this._handleWorkerDeath(workerId, code, signal);
+    // Handle worker thread exit (no signal param for threads)
+    child.on('exit', (code) => {
+      const worker = this.workers.get(workerId);
+      if (worker) worker.terminated = true;
+      this._handleWorkerDeath(workerId, code, null);
     });
 
     child.on('error', (err) => {
@@ -429,13 +426,14 @@ class SwarmEngine extends EventEmitter {
 
       // Send shutdown message
       try {
-        worker.process.send({ type: 'shutdown' });
+        worker.process.postMessage({ type: 'shutdown' });
       } catch (_) {}
 
       // Wait for graceful shutdown
       const timeout = setTimeout(() => {
-        if (worker.process && !worker.process.killed) {
-          worker.process.kill('SIGTERM');
+        if (worker.process && !worker.terminated) {
+          worker.terminated = true;
+          worker.process.terminate();
         }
         this.workers.delete(workerId);
         resolve();
@@ -687,7 +685,7 @@ class SwarmEngine extends EventEmitter {
       });
 
       try {
-        worker.process.send({ type: 'task', task });
+        worker.process.postMessage({ type: 'task', task });
         const modeLabel = task.forceTemplate ? 'TEMPLATE' : 'AI';
         logger.debug(`Assigned ${task.slug} to ${worker.id} [${modeLabel}]`);
       } catch (e) {
@@ -812,21 +810,38 @@ class SwarmEngine extends EventEmitter {
   async _flushInjectionBuffer() {
     if (this.injectionBuffer.length === 0) return;
 
+    // Prevent concurrent flushes — this is the key guard against file corruption
+    if (this._injectionLock) {
+      logger.warn('Injection flush already in progress — skipping to prevent race');
+      return;
+    }
+    this._injectionLock = true;
+
     const batch = [...this.injectionBuffer];
     this.injectionBuffer = [];
 
     logger.inject(`Flushing injection buffer: ${batch.length} profiles`);
 
-    const result = await injector.injectBatch(batch);
+    try {
+      const result = await injector.injectBatch(batch);
 
-    if (result.success) {
-      this.stats.totalProfilesInjected += result.injected;
-      this.queue.stats.totalInjected += result.injected;
-      utils.saveQueue(this.queue);
+      if (result.success) {
+        this.stats.totalProfilesInjected += result.injected;
+        this.queue.stats.totalInjected += result.injected;
+        utils.saveQueue(this.queue);
 
-      this.emit('injection-complete', { count: result.injected });
-    } else {
-      logger.error(`Batch injection failed: ${result.message}`);
+        this.emit('injection-complete', { count: result.injected });
+      } else {
+        logger.error(`Batch injection failed: ${result.message}`);
+        // Put profiles back in the buffer for retry
+        this.injectionBuffer.unshift(...batch);
+      }
+    } catch (e) {
+      logger.error(`Injection flush threw: ${e.message}`);
+      // Put profiles back in the buffer for retry
+      this.injectionBuffer.unshift(...batch);
+    } finally {
+      this._injectionLock = false;
     }
   }
 
@@ -888,11 +903,11 @@ class SwarmEngine extends EventEmitter {
 
         // Try pinging first
         try {
-          worker.process.send({ type: 'ping' });
+          worker.process.postMessage({ type: 'ping' });
         } catch (e) {
-          // Worker IPC is dead — kill it
-          logger.error(`Worker ${id} IPC dead — killing process`);
-          try { worker.process.kill('SIGKILL'); } catch (_) {}
+          // Worker IPC is dead — terminate it
+          logger.error(`Worker ${id} IPC dead — terminating thread`);
+          try { worker.terminated = true; worker.process.terminate(); } catch (_) {}
           this._handleWorkerDeath(id, null, 'heartbeat-timeout');
         }
       }
@@ -901,8 +916,8 @@ class SwarmEngine extends EventEmitter {
       if (worker.currentTask) {
         const taskInfo = this.processing.get(worker.currentTask.id);
         if (taskInfo && (now - taskInfo.startTime) > config.workers.taskTimeout) {
-          logger.warn(`Worker ${id} has task stuck for ${utils.formatDuration(now - taskInfo.startTime)} — killing`);
-          try { worker.process.kill('SIGTERM'); } catch (_) {}
+          logger.warn(`Worker ${id} has task stuck for ${utils.formatDuration(now - taskInfo.startTime)} — terminating`);
+          try { worker.terminated = true; worker.process.terminate(); } catch (_) {}
         }
       }
     }

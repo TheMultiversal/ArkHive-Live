@@ -1,8 +1,11 @@
 // ═══════════════════════════════════════════════════════════════════
-//  ARKHIVE SWARM INTELLIGENCE — WORKER PROCESS
-//  Forked child: receives tasks, generates profiles, reports back
-//  Communicates with parent via IPC (process.send / process.on)
+//  ARKHIVE SWARM INTELLIGENCE — WORKER PROCESS / THREAD
+//  Spawned child: receives tasks, generates profiles, reports back
+//  Supports both worker_threads (low RAM) and child_process.fork (legacy)
 // ═══════════════════════════════════════════════════════════════════
+
+const { parentPort, workerData, isMainThread } = require('worker_threads');
+const isThread = !isMainThread && parentPort != null;
 
 const config = require('./config');
 const { Logger } = require('./logger');
@@ -10,16 +13,16 @@ const utils = require('./utils');
 const injector = require('./injector');
 const { OllamaClient } = require('./ollama-client');
 
-const workerId = process.env.WORKER_ID || `W${process.pid}`;
+// Worker ID: prefer workerData (thread mode) → env (fork mode) → fallback
+const workerId = (isThread ? workerData.WORKER_ID : process.env.WORKER_ID) || `W${process.pid}`;
 const log = new Logger(`WORKER-${workerId}`);
 
 // Apply generation mode override from parent daemon
-if (process.env.GENERATION_MODE) {
-  config.generation.mode = process.env.GENERATION_MODE;
-}
-if (process.env.TEMPLATE_FALLBACK === '0') {
-  config.generation.templateFallback = false;
-}
+const genMode = isThread ? workerData.GENERATION_MODE : process.env.GENERATION_MODE;
+if (genMode) config.generation.mode = genMode;
+
+const tmplFallback = isThread ? workerData.TEMPLATE_FALLBACK : process.env.TEMPLATE_FALLBACK;
+if (tmplFallback === '0') config.generation.templateFallback = false;
 
 // Each worker gets its own Ollama client instance
 const ollama = new OllamaClient();
@@ -28,11 +31,14 @@ let isShuttingDown = false;
 let currentTask = null;
 let heartbeatTimer = null;
 
-// ── IPC Communication ────────────────────────────────────────────
+// ── IPC Communication (thread-safe) ──────────────────────────────
 
 function send(type, payload = {}) {
-  if (process.send) {
-    process.send({ type, workerId, ...payload });
+  const msg = { type, workerId, ...payload };
+  if (isThread) {
+    parentPort.postMessage(msg);
+  } else if (process.send) {
+    process.send(msg);
   }
 }
 
@@ -366,7 +372,9 @@ async function init() {
 
 // ── Message Handler ──────────────────────────────────────────────
 
-process.on('message', async (msg) => {
+// ── Message listener (thread-aware) ──────────────────────────────
+const messageSource = isThread ? parentPort : process;
+messageSource.on('message', async (msg) => {
   if (isShuttingDown) return;
 
   switch (msg.type) {

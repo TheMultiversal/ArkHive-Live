@@ -1,0 +1,822 @@
+// AUTO-GENERATED — Shard [I] managed by ArkHive Swarm Intelligence
+import type { IndividualProfile } from './types';
+
+const profiles: Record<string, IndividualProfile> = {
+  'ivanka-trump': {
+    name: 'Ivana Marie Trump',
+    title: 'Former Senior Advisor to the President',
+    role: 'Trump Daughter, Businesswoman',
+    riskLevel: 'high',
+    description: 'Ivanka Marie Trump served as Senior Advisor to President Donald Trump from 2017 to 2021. She leveraged her White House position to secure Chinese trademarks for her fashion brand and participated in high-level diplomatic meetings despite no government experience. She testified before the January 6th Committee and distanced herself from her father\'s election fraud claims.',
+    birthDate: 'October 30, 1981',
+    birthPlace: 'Manhattan, New York City, USA',
+    netWorth: '$300+ million',
+    education: ['B.S. - University of Pennsylvania (Wharton)'],
+    affiliations: [
+      { name: 'White House', role: 'Senior Advisor (2017-2021)', type: 'agency' },
+      { name: 'Trump Organization', role: 'Executive Vice President', type: 'corporation' },
+    ],
+    controversies: [
+      'Chinese trademarks approved while serving in White House',
+      'Personal email use for government business',
+      'January 6 Committee testimony about trying to stop father',
+      'New York civil fraud case testimony',
+      'Using official position to promote business interests',
+    ],
+    charges: [
+      { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest - Received Chinese trademarks while serving in White House on China policy matters', category: 'Potential Ethics' },
+      { statute: '18 U.S.C. § 201', description: 'Potential Bribery - Chinese trademark approvals coincided with favorable China policies', category: 'Potential Federal' },
+      { statute: '44 U.S.C. § 3106', description: 'Federal Records Act Violations - Used personal email for official government business', category: 'Federal' },
+      { statute: 'New York Exec. Law § 63(12)', description: 'Civil Fraud - Named defendant in NY AG lawsuit for fraudulent Trump Organization practices (removed before trial)', category: 'State Civil' },
+      { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain - Promoted Ivanka Trump brand products while serving as federal official', category: 'Ethics' },
+      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Testimony in NY fraud case about involvement in financial statements', category: 'Potential Federal' },
+    ],
+    relatedInvestigations: [
+      { title: 'Trump Organization Financial Fraud', slug: 'trump-org-fraud', severity: 'critical' },
+      { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1981', event: 'Born in Manhattan' },
+      { date: '2009', event: 'Marries Jared Kushner' },
+      { date: '2017', event: 'Joins White House as Senior Advisor' },
+      { date: '2018', event: 'Chinese trademark approvals during service' },
+      { date: '2021', event: 'Leaves White House' },
+      { date: '2022', event: 'Testifies to January 6 Committee' },
+      { date: '2023', event: 'Testifies in New York fraud trial' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'January 6 Committee Testimony', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
+    ],
+    aliases: ['First Daughter'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Father', href: '/entities/individuals/donald-trump' },
+      { name: 'Jared Kushner', relationship: 'Husband', href: '/entities/individuals/jared-kushner' },
+    ],
+  },
+ 'igor-fruman': {
+ name: 'Igor Fruman',
+ title: 'Convicted Felon',
+ role: 'Giuliani Associate, Ukraine Scheme Operative',
+ riskLevel: 'high',
+ description: 'Igor Fruman is a Belarus-born American businessman who worked alongside Lev Parnas and Rudy Giuliani in the Ukraine pressure campaign. He was convicted of campaign finance violations.',
+ birthDate: '1966',
+ birthPlace: 'Belarus, Soviet Union',
+ education: ['Unknown'],
+ netWorth: 'Unknown',
+ aliases: ['Giuliani\'s Fixer'],
+ affiliations: [
+ { name: 'Global Energy Producers', role: 'Co-Founder', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Rudy Giuliani', relationship: 'Ukraine pressure campaign', href: '/entities/individuals/rudy-giuliani' },
+ { name: 'Lev Parnas', relationship: 'Business partner, co-defendant', href: '/entities/individuals/lev-parnas' },
+ { name: 'Donald Trump', relationship: 'Met at fundraisers', href: '/entities/individuals/donald-trump' },
+ ],
+ controversies: [
+ 'Ukraine pressure campaign',
+ 'Illegal campaign contributions',
+ 'Arrested fleeing country with Parnas',
+ 'Funneled foreign money to Republicans',
+ ],
+ charges: [
+ { statute: '52 U.S.C. § 30121', description: 'Foreign national campaign contributions', category: 'Election Crimes' },
+ { statute: '52 U.S.C. § 30122', description: 'Straw donor contributions', category: 'Election Crimes' },
+ ],
+ relatedInvestigations: [
+ { title: 'Ukraine Extortion Scheme', slug: 'ukraine-extortion', severity: 'critical' },
+ { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1966', event: 'Born in Belarus' },
+ { date: '2018', event: 'Begins Ukraine scheme with Giuliani' },
+ { date: '2019', event: 'Arrested at Dulles Airport (October 9)' },
+ { date: '2021', event: 'Pleads guilty to campaign finance charge' },
+ { date: '2022', event: 'Sentenced to 1 year in prison' },
+ ],
+ sources: [
+ { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-and-igor-fruman-charged-campaign-finance-offenses', date: '2019' },
+ ],
+ },
+ 'ivan-timofeev': {
+ name: 'Ivan Timofeev',
+ title: 'Russian Think Tank Official',
+ role: 'Russian Intelligence Contact',
+ riskLevel: 'high' as const,
+ description: 'Director of Programs at the Russian International Affairs Council (RIAC), a Kremlin-linked think tank. Timofeev served as the intermediary who connected George Papadopoulos to Joseph Mifsud and facilitated communications about potential Trump-Russia cooperation during the 2016 campaign. He discussed obtaining"dirt"on Hillary Clinton and arranging meetings between Trump campaign officials and Russian government representatives.',
+ education: [
+ 'MGIMO University (Moscow State Institute of International Relations)',
+ ],
+ affiliations: [
+ { name: 'Russian International Affairs Council', role: 'Director of Programs', type: 'organization' },
+ { name: 'Russian Government', role: 'Connected Official', type: 'agency' },
+ ],
+
+ knownAssociates: [
+ { name: 'George Papadopoulos', relationship: 'Russian think tank official connected to Papadopoulos; part of the network arranging"dirt"on Hillary Clinton through Russian contacts', href: '/entities/individuals/george-papadopoulos' },
+ ],
+ controversies: [
+ 'Key intermediary in Papadopoulos-Russia communications',
+ 'Discussed obtaining Clinton"dirt"via email',
+ 'Helped arrange potential Trump-Putin meeting',
+ 'Connected to Russian Ministry of Foreign Affairs',
+ 'Cited in Mueller Report as Russian contact',
+ 'Facilitated Russian government outreach to Trump campaign',
+ 'Worked at Kremlin-linked think tank RIAC',
+ ],
+ charges: [
+ { statute: '18 U.S.C. § 951', description: 'Potential Foreign Agent Activity - Acted on behalf of Russian government to facilitate contact with Trump campaign', category: 'Potential National Security' },
+ { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential Unregistered Foreign Agent - Facilitated Russian government communications with US political campaign', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Participated in Russian operation to influence 2016 US election', category: 'Potential Federal' },
+ { statute: '52 U.S.C. § 30121', description: 'Potential Foreign Election Interference - Facilitated Russian government offers of assistance to US campaign', category: 'Potential Election Law' },
+ { statute: '18 U.S.C. § 1030', description: 'Potential Computer Fraud - Discussed obtaining"dirt"that may have included hacked materials', category: 'Potential Federal' },
+ { statute: 'Mueller Report Documentation', description: 'Key Figure in Russian Outreach - Identified in Mueller Report as Russian contact who facilitated Kremlin-campaign communications', category: 'Documented' },
+ ],
+ relatedInvestigations: [
+ { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
+ { title: 'Foreign Influence Operations', slug: 'foreign-influence', severity: 'critical' },
+ { title: 'Trump Tower Meeting', slug: 'trump-tower-meeting', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'March 2016', event: 'First contact with Papadopoulos via Mifsud' },
+ { date: 'April 2016', event: 'Emails about"dirt"on Clinton' },
+ { date: 'April-May 2016', event: 'Facilitates Russian government outreach to campaign' },
+ { date: '2016', event: 'Discusses potential Trump-Russia meetings' },
+ { date: '2017-2019', event: 'Interviewed by Mueller investigators' },
+ ],
+ sources: [
+ { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
+ { title: 'Papadopoulos Plea Documents', url: 'https://scholar.google.com/scholar?q=Papadopoulos%20Plea%20Documents', date: '2017' },
+ { title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },
+ ],
+ },
+ 'ike-kaveladze': {
+ name: 'Irakly"Ike"Kaveladze',
+ title: 'Russian-American Businessman',
+ role: 'Trump Tower Meeting Attendee',
+ riskLevel: 'high' as const,
+ description: 'Russian-American businessman who attended the June 9, 2016 Trump Tower meeting as representative of the Agalarov family. Previously investigated by GAO in 2000 for setting up over 2,000 Delaware shell companies that moved $1.4 billion from Russia. Works for Crocus Group, the Agalarov business empire.',
+ birthDate: '1959',
+ birthPlace: 'Soviet Georgia',
+ education: [
+ 'MBA - University of New Haven',
+ ],
+ affiliations: [
+ { name: 'Crocus Group', role: 'Vice President', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Aras Agalarov', relationship: 'Employer', href: '/entities/individuals/aras-agalarov' },
+ { name: 'Emin Agalarov', relationship: 'Business associate', href: '/entities/individuals/emin-agalarov' },
+ { name: 'Natalia Veselnitskaya', relationship: 'Fellow meeting attendee', href: '/entities/individuals/natalia-veselnitskaya' },
+ { name: 'Donald Trump Jr.', relationship: 'Meeting attendee', href: '/entities/individuals/donald-trump-jr' },
+ ],
+ controversies: [
+ 'Attended Trump Tower meeting June 9, 2016',
+ 'Previously investigated for Russian money laundering',
+ 'Set up 2,000+ Delaware shell companies',
+ 'Moved $1.4 billion from Russia through shells',
+ 'Representative of Agalarov family',
+ ],
+ charges: [
+ { statute: '18 U.S.C. § 1956 (Money Laundering)', description: 'GAO Investigation - Set up 2,000+ Delaware shell companies that moved $1.4 billion from Russia (GAO investigated 2000)', category: 'Money Laundering' },
+ { statute: '31 U.S.C. § 5324 (Structuring)', description: 'Structuring Concerns - Complex shell company network designed to obscure fund origins', category: 'Financial Crime' },
+ { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Russian Coordination - Attended Trump Tower meeting as representative of Russian oligarch family', category: 'Conspiracy' },
+ { statute: '31 U.S.C. § 5322 (Reporting Violations)', description: 'Bank Secrecy Act - Shell company scheme designed to evade financial reporting requirements', category: 'Financial Crime' },
+ { statute: '52 U.S.C. § 30121 (Foreign Contributions)', description: 'Foreign Election Influence - Represented Russian interests at Trump Tower meeting offering campaign assistance', category: 'Campaign Finance' },
+ { statute: '18 U.S.C. § 951 (Foreign Agent)', description: 'Unregistered Agent Concerns - Acting on behalf of Russian business interests without disclosure', category: 'Foreign Agent' },
+ ],
+ relatedInvestigations: [
+ { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
+ { title: 'Trump Tower Meeting', slug: 'trump-tower-meeting', severity: 'critical' },
+ { title: 'Money Laundering', slug: 'money-laundering', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2000', event: 'GAO investigates shell company scheme' },
+ { date: 'June 9, 2016', event: 'Attends Trump Tower meeting' },
+ { date: '2017', event: 'Interviewed by Mueller team' },
+ ],
+ sources: [
+ { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
+ { title: 'GAO Investigation Report', url: 'https://www.ignet.gov/', date: '2000' },
+ ],
+ },
+ 'ivana-trump': {
+ name: 'Ivana Marie Trump',
+ title: 'Businesswoman & Former Model',
+ role: 'Trump First Wife (Deceased)',
+ riskLevel: 'low' as const,
+ description: 'Donald Trump\'s first wife (1977-1991) and mother of Donald Jr., Ivanka, and Eric. Czech-American businesswoman and socialite. In 1989 divorce deposition, alleged Trump raped her but later recanted, saying she felt"violated"but not in"criminal sense."Died in 2022.',
+ birthDate: 'February 20, 1949',
+ birthPlace: 'Zlín, Czechoslovakia',
+ education: [
+ 'Charles University, Prague',
+ ],
+ affiliations: [
+ { name: 'Trump Organization', role: 'Former VP Interior Design', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Ex-husband', href: '/entities/individuals/donald-trump' },
+ { name: 'Donald Trump Jr.', relationship: 'Son', href: '/entities/individuals/donald-trump-jr' },
+ { name: 'Ivanka Trump', relationship: 'Daughter', href: '/entities/individuals/ivanka-trump' },
+ { name: 'Eric Trump', relationship: 'Son', href: '/entities/individuals/eric-trump' },
+ ],
+ controversies: [
+ 'Alleged rape in 1989 divorce deposition',
+ 'Later clarified felt"violated"not criminally',
+ 'Contentious divorce proceedings',
+ 'Received $14 million settlement',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Sexual Assault', slug: 'sexual-assault', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1977', event: 'Marries Donald Trump' },
+ { date: '1989', event: 'Divorce proceedings begin' },
+ { date: '1991', event: 'Divorce finalized' },
+ { date: 'July 14, 2022', event: 'Dies at age 73' },
+ ],
+ sources: [
+ { title: 'Divorce Deposition', url: 'https://www.courtlistener.com/', date: '1989' },
+ { title: 'Obituaries', url: 'https://scholar.google.com/scholar?q=Obituaries', date: '2022' },
+ ],
+ },
+ 'irving-kristol': {
+ name: 'Irving Kristol',
+ title: 'Founder of Neoconservatism',
+ role: 'Political Theorist, Publisher',
+ riskLevel: 'medium',
+ description: 'Often called the"godfather of neoconservatism,"Irving Kristol founded the movement that would shape U.S. foreign policy. Father of Bill Kristol.',
+ birthDate: 'January 22, 1920',
+ birthPlace: 'Brooklyn, New York, USA',
+ deathDate: 'September 18, 2009',
+ education: [
+ 'City College of New York - BA (1940)',
+ ],
+ affiliations: [
+ { name: 'American Enterprise Institute', role: 'Senior Fellow', type: 'organization' },
+ { name: 'The Public Interest', role: 'Co-Editor', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'William Kristol', relationship: 'Son, neoconservative leader', href: '/entities/individuals/william-kristol' },
+ ],
+ controversies: [
+ 'NEOCONSERVATISM: Founded ideology that led to Iraq War',
+ 'COLD WAR: Shifted from Trotskyism to anti-communism',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Neocon Network', slug: 'neocon-network', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'January 22, 1920', event: 'Born in Brooklyn' },
+ { date: '1965', event: 'Founds The Public Interest' },
+ { date: '1995', event: 'Awarded Presidential Medal of Freedom' },
+ { date: 'September 18, 2009', event: 'Dies in Washington D.C.' },
+ ],
+ sources: [{ title: 'Wikipedia: Irving Kristol', url: 'https://en.wikipedia.org/wiki/Irving_Kristol' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
+ },
+ 'ike-riffel': {
+ name: 'Ike Riffel',
+ title: 'Victims Advocate',
+ role: 'Father of Ethiopian Crash Victim',
+ riskLevel: 'low',
+ description: 'Ike Riffel is an American father whose son Melvin was killed in the Ethiopian Airlines Flight 302 crash at age 26. Melvin was traveling to Kenya for his work helping communities get clean water. Ike has become a vocal advocate for accountability, testifying before Congress and pushing for criminal prosecution of Boeing executives.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'United States Congress', role: 'Representative', type: 'agency' },
+ { name: 'Boeing', role: 'Executive', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Michael Stumo', relationship: 'Fellow victims advocate', href: '/entities/individuals/michael-stumo' },
+ { name: 'Paul Njoroge', relationship: 'Fellow victims advocate', href: '/entities/individuals/paul-njoroge' },
+ ],
+ controversies: [
+ 'VICTIMS ADVOCATE: Lost son Melvin in Ethiopian crash',
+ 'CONGRESSIONAL TESTIMONY: Testified about loss',
+ 'ACCOUNTABILITY ADVOCATE: Pushed for executive prosecution',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 10, 2019', event: 'Son Melvin killed in Ethiopian 302' },
+ { date: '2019-present', event: 'Advocacy for accountability' },
+ ],
+ sources: [{ title: 'Wikipedia: Ike Riffel', url: 'https://en.wikipedia.org/wiki/Ike_Riffel' }, { title: 'Bloomberg: Ike Riffel', url: 'https://www.bloomberg.com/' }],
+ },
+ 'ivan-boesky': {
+ name: 'Ivan Boesky',
+ title: 'Convicted Insider Trader',
+ role: 'Wall Street Arbitrageur - Insider Trading Conspiracy',
+ riskLevel: 'high',
+ description: 'Ivan Boesky was a stock trader who became the face of 1980s Wall Street greed. He made millions through insider trading, famously declaring"Greed is good"(later used in the film Wall Street). He cooperated with prosecutors, wearing a wire to record Michael Milken, and served 3.5 years in prison. His $100 million fine was the largest ever at the time.',
+ birthDate: 'March 6, 1937',
+ birthPlace: 'Detroit, Michigan',
+ deathDate: 'May 20, 2024',
+ education: ['Wayne State University', 'Detroit College of Law'],
+ affiliations: [
+ { name: 'Ivan F. Boesky Corporation', role: 'Founder', type: 'corporation' as const },
+ ],
+ knownAssociates: [
+ { name: 'Michael Milken', relationship: 'Insider trading partner', href: '/entities/individuals/michael-milken' },
+ ],
+ controversies: [
+ '"GREED IS GOOD": Famous speech at Berkeley',
+ 'INSIDER TRADING: Systematic illegal trading',
+ 'WORE A WIRE: Cooperated against Milken',
+ '$100 MILLION FINE: Record at the time',
+ 'WALL STREET INSPIRATION: Gordon Gekko based on him',
+ ],
+ charges: [
+ { statute: '15 U.S.C. � 78j(b)', description: 'Securities Fraud', category: 'CONVICTED' },
+ { statute: '15 U.S.C. � 78ff', description: 'Insider Trading', category: 'CONVICTED' },
+ ],
+ relatedInvestigations: [
+ { title: '1980s Insider Trading Scandal', slug: '1980s-insider-trading', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 6, 1937', event: 'Born in Detroit' },
+ { date: '1986', event: '"Greed is good"speech' },
+ { date: 'November 1986', event: 'Pleads guilty, agrees to cooperate' },
+ { date: '1987', event: 'Banned from securities industry' },
+ { date: '1988-1991', event: 'Serves prison sentence' },
+ { date: 'May 20, 2024', event: 'Dies at 87' },
+ ],
+ sources: [{ title: 'Wikipedia: Ivan Boesky', url: 'https://en.wikipedia.org/wiki/Ivan_Boesky' }, { title: 'Bloomberg: Ivan Boesky', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ },
+ 'ian-gibbons': {
+ name: 'Ian Gibbons',
+ title: 'Theranos chief scientist who was aware the technology didn\'t work; died by suicide before being deposed',
+ role: 'Theranos chief scientist who was aware the technology didn\'t work; died by suicide before being deposed',
+ riskLevel: 'high',
+ description: 'Ian Gibbons is documented in ArkHive investigations for their role as Theranos chief scientist who was aware the technology didn\'t work; died by suicide before being deposed.',
+ education: [],
+ affiliations: [
+ { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Theranos Fraud', slug: 'theranos-fraud', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Theranos chief scientist who was aware the technology didn' }],
+ knownAssociates: [
+ { name: 'Elizabeth Holmes', relationship: 'Theranos scientist who died before testifying against Holmes', href: '/entities/individuals/elizabeth-holmes' },
+ { name: 'Tyler Shultz', relationship: 'Fellow Theranos whistleblower', href: '/entities/individuals/tyler-shultz' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Ian Gibbons', url: 'https://en.wikipedia.org/wiki/Ian_Gibbons' }],
+ },
+ 'ida-b-wells': {
+ name: 'Ida B. Wells',
+ title: 'Journalist who documented racial terror and its connection to forced labor systems',
+ role: 'Journalist who documented racial terror and its connection to forced labor systems',
+ riskLevel: 'high',
+ description: 'Ida B. Wells is documented in ArkHive investigations for their role as Journalist who documented racial terror and its connection to forced labor systems.',
+ education: [],
+ affiliations: [
+ { name: 'Media', role: 'Journalist', type: 'corporation' },
+ ],
+ controversies: [
+ 'Connected to 3 documented investigations',
+ ],
+ relatedInvestigations: [
+ { title: 'Convict Leasing', slug: 'convict-leasing', severity: 'high' },
+ { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
+ { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Journalist who documented racial terror and its connection to forced labor systems' }],
+ knownAssociates: [
+ { name: 'Frederick Douglass', relationship: 'Fellow civil rights pioneer and anti-lynching ally', href: '/entities/individuals/frederick-douglass' },
+ { name: 'Mamie Till-Mobley', relationship: 'Wells\' anti-lynching crusade continued by Till case', href: '/entities/individuals/mamie-till-mobley' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Ida B. Wells', url: 'https://en.wikipedia.org/wiki/Ida_B._Wells' }],
+ },
+ 'irving-picard': {
+ name: 'Irving Picard',
+ title: 'Trustee appointed to recover Madoff victim funds; recovered over $14.4 billion',
+ role: 'Trustee appointed to recover Madoff victim funds; recovered over $14.4 billion',
+ riskLevel: 'high',
+ description: 'Irving Picard is documented in ArkHive investigations for their role as Trustee appointed to recover Madoff victim funds; recovered over $14.4 billion.',
+ education: [],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ relatedInvestigations: [
+ { title: 'Bernie Madoff Ponzi', slug: 'bernie-madoff-ponzi', severity: 'high' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Trustee appointed to recover Madoff victim funds; recovered over $14.4 billion' }],
+ knownAssociates: [
+ { name: 'Bernie Madoff', relationship: 'Court-appointed trustee recovering billions for Madoff victims', href: '/entities/individuals/bernie-madoff' },
+ { name: 'Jeffry Picower', relationship: 'Largest Madoff beneficiary from whom Picard recovered $7.2B', href: '/entities/individuals/jeffry-picower' },
+ { name: 'Frank DiPascali', relationship: 'Madoff co-conspirator whose cooperation aided recovery', href: '/entities/individuals/frank-dipascali' }
+ ],
+
+ sources: [{ title: 'Wikipedia: Irving Picard', url: 'https://en.wikipedia.org/wiki/Irving_Picard' }],
+ },
+ 'isabel-maxwell': {
+ name: 'Isabel Maxwell',
+ title: 'Tech Executive, Ghislaine\'s Sister',
+ role: 'Israeli Tech Connections',
+ riskLevel: 'medium',
+ description: 'Ghislaine Maxwell\'s sister with deep connections to the Israeli technology sector. Served on the boards of multiple Israeli tech companies and maintained connections that bridge the Maxwell family\'s intelligence background with Silicon Valley and Israeli tech.',
+ education: ['Oxford University'],
+ affiliations: [
+ { name: 'CommTouch (Cyren)', role: 'Former President', type: 'corporation' },
+ ],
+ knownAssociates: [
+ { name: 'Ghislaine Maxwell', relationship: 'Sister', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Robert Maxwell', relationship: 'Father', href: '/entities/individuals/robert-maxwell' },
+ { name: 'Christine Maxwell', relationship: 'Sister', href: '/entities/individuals/christine-maxwell' },
+ ],
+ controversies: [
+ 'Deep connections to Israeli tech and intelligence sectors',
+ 'Maxwell family intelligence ties',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1991', event: 'Father Robert Maxwell died' },
+ { date: '2000s', event: 'Built career in Israeli tech sector' },
+ ],
+ sources: [
+ { title: 'Guardian: Maxwell Family', url: 'https://scholar.google.com/scholar?q=Guardian%3A%20Maxwell%20Family', date: '2019' },
+ ],
+ },
+ 'itzhak-perlman': {
+ name: 'Itzhak Perlman',
+ title: 'Violinist',
+ role: 'Named in Black Book',
+ riskLevel: 'low',
+ description: 'World-renowned violinist named in Epstein\'s Black Book.',
+ birthDate: 'August 31, 1945',
+ education: ['Juilliard School'],
+ affiliations: [
+ { name: 'Independent', role: 'Epstein Network Complicity', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Named in Black Book', href: '/entities/individuals/jeffrey-epstein' },
+ 
+ { name: 'Ghislaine Maxwell', relationship: 'Present at Epstein social events', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Ehud Barak', relationship: 'Israeli connections through cultural/political circles', href: '/entities/individuals/ehud-barak' },
+ { name: 'Les Wexner', relationship: 'Philanthropic circles', href: '/entities/individuals/les-wexner' },
+ ],
+ controversies: [
+ 'Named in Epstein Black Book',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
+ sources: [{ title: 'Wikipedia: Itzhak Perlman', url: 'https://en.wikipedia.org/wiki/Itzhak_Perlman' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
+ },
+ 'igor-zinoviev': {
+ name: 'Igor Zinoviev',
+ title: 'Epstein Bodyguard',
+ role: 'Security Staff, MMA Fighter',
+ riskLevel: 'low',
+ description: 'Mixed martial arts fighter who served as Jeffrey Epstein\'s bodyguard and witnessed activity at his properties.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Alfredo Rodriguez', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Employer', href: '/entities/individuals/jeffrey-epstein' },
+ 
+ { name: 'Ghislaine Maxwell', relationship: 'Worked for Maxwell as bodyguard', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Sarah Kellen', relationship: 'Interacted through household staff role', href: '/entities/individuals/sarah-kellen' },
+ { name: 'Juan Alessi', relationship: 'Fellow household staff member', href: '/entities/individuals/juan-alessi' },
+ ],
+ controversies: [
+ 'Named in documents as potential witness',
+ ],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
+ sources: [{ title: 'Wikipedia: Igor Zinoviev', url: 'https://en.wikipedia.org/wiki/Igor_Zinoviev' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
+ },
+  'ice': {
+    name: 'Ice',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ice is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Ice has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'imf': {
+    name: 'Imf',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Imf is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Imf has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'interior-department': {
+    name: 'Interior Department',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Interior Department is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Interior Department has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'irs': {
+    name: 'Irs',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Irs is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Irs has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'internet-research-agency': {
+    name: 'Internet Research Agency',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Internet Research Agency is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Internet Research Agency has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'infowars': {
+    name: 'Infowars',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Infowars is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Infowars has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'investigations-page': {
+    name: 'Investigations Page',
+    title: 'Connected Entity',
+    role: 'Under Investigation',
+    riskLevel: 'high',
+    description: 'Investigations Page is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Dhs, Nsa, Fbi, Ice, Cbp and 111 other entities have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Dhs', role: 'Connected Entity', type: 'organization' },
+      { name: 'Nsa', role: 'Connected Entity', type: 'organization' },
+      { name: 'Fbi', role: 'Connected Entity', type: 'organization' },
+      { name: 'Ice', role: 'Connected Entity', type: 'organization' },
+      { name: 'Cbp', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Dhs, Nsa, Fbi, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Investigations Page has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Cross-referenced in 116 separate profile entries, suggesting a significant role within institutional power networks under scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 116 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Dhs, Nsa, Fbi' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Dhs', relationship: 'Connected Entity', href: '/entities/individuals/dhs' },
+      { name: 'Nsa', relationship: 'Connected Entity', href: '/entities/individuals/nsa' },
+      { name: 'Fbi', relationship: 'Connected Entity', href: '/entities/individuals/fbi' },
+      { name: 'Ice', relationship: 'Connected Entity', href: '/entities/individuals/ice' },
+      { name: 'Cbp', relationship: 'Connected Entity', href: '/entities/individuals/cbp' },
+      { name: 'Aclu', relationship: 'Connected Entity', href: '/entities/individuals/aclu' },
+      { name: 'Clearview Ai', relationship: 'Connected Entity', href: '/entities/individuals/clearview-ai' },
+      { name: 'Epa', relationship: 'Connected Entity', href: '/entities/individuals/epa' },
+      { name: 'Nestle', relationship: 'Connected Entity', href: '/entities/individuals/nestle' },
+      { name: 'Coca Cola', relationship: 'Connected Entity', href: '/entities/individuals/coca-cola' },
+    ],
+  },
+  'icc': {
+    name: 'Icc',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Icc is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Icc has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+  'icrc': {
+    name: 'Icrc',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Icrc is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Icrc has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
+    ],
+  },
+};
+
+export default profiles;

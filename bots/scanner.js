@@ -8,6 +8,7 @@ const path = require('path');
 const config = require('./config');
 const logger = require('./logger').child('SCANNER');
 const utils = require('./utils');
+const shardManager = require('./shard-manager');
 
 class Scanner {
   constructor() {
@@ -89,8 +90,13 @@ class Scanner {
     logger.scan('Running quick delta scan...');
     const startTime = Date.now();
 
-    // Re-read individuals file for new entries
-    const content = utils.readFileSafe(config.paths.individuals);
+    // Re-read from shards for new entries
+    let content;
+    if (shardManager.isActive()) {
+      content = shardManager.getCombinedContent();
+    } else {
+      content = utils.readFileSafe(config.paths.individuals);
+    }
     if (!content) return this.getResults();
 
     const currentSlugs = utils.extractExistingIndividualSlugs(content);
@@ -114,9 +120,17 @@ class Scanner {
 
   async _scanIndividuals() {
     logger.scan('Scanning individuals...');
-    const content = utils.readFileSafe(config.paths.individuals);
+
+    // Read from shards (post-migration) or monolithic file (legacy)
+    let content;
+    if (shardManager.isActive()) {
+      content = shardManager.getCombinedContent();
+      logger.scan('Reading from sharded individual files');
+    } else {
+      content = utils.readFileSafe(config.paths.individuals);
+    }
     if (!content) {
-      logger.warn('Could not read individuals page');
+      logger.warn('Could not read individuals data');
       return;
     }
 

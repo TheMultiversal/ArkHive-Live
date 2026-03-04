@@ -2,7 +2,8 @@
   "ollama": {
     "model": "llama3:8b",
     "temperature": 0.7,
-    "timeout": 180000
+    "timeout": 300000,
+    "maxConcurrent": 4
   },
   "workers": {
     "min": 2,
@@ -14,7 +15,7 @@
   },
   "generation": {
     "mode": "hybrid",
-    "batchSize": 5,
+    "batchSize": 10,
     "backupBeforeInject": true
   },
   "replication": {
