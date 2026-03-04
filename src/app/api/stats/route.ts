@@ -1,13 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-// Mock statistics data
+// Platform statistics
 const stats = {
  overview: {
- totalInvestigations: 47,
- activeInvestigations: 24,
- completedInvestigations: 18,
- archivedInvestigations: 5,
- totalEntities: 342,
+ totalInvestigations: 559,
+ activeInvestigations: 312,
+ completedInvestigations: 198,
+ archivedInvestigations: 49,
+ totalEntities: 2341,
  totalDocuments: 1847,
  totalCollaborators: 156,
  activeWorkspaces: 34
