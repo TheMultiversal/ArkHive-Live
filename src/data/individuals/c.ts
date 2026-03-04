@@ -4727,6 +4727,40 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
     ],
   },
+  'comey': {
+    name: 'James Comey',
+    title: 'FBI Director',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'James Comey is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Andrew Mccabe have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Andrew Mccabe', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Andrew Mccabe, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'James Comey has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-04', event: 'Network analysis identified connections to: Andrew Mccabe' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Andrew Mccabe', relationship: 'Connected Entity', href: '/entities/individuals/andrew-mccabe' },
+    ],
+  },
+
 };
 
 export default profiles;

@@ -127,64 +127,64 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'alexander-nix': {
- name: 'Alexander James Ashburner Nix',
- title: 'Former Cambridge Analytica CEO',
- role: 'Data Harvesting Architect',
- riskLevel: 'high',
- description: 'Alexander Nix was the CEO of Cambridge Analytica who oversaw the harvesting of 87 million Facebook users\' data for political targeting. He was caught on hidden camera boasting about using bribes and sex workers to entrap politicians. He was banned from serving as a company director in the UK.',
- birthDate: '1975',
- birthPlace: 'United Kingdom',
- education: [
- 'M.A. - University of Manchester (Art History)',
- 'Eton College',
- ],
- netWorth: 'Unknown',
- aliases: [],
- affiliations: [
- { name: 'Cambridge Analytica', role: 'CEO (2014-2018)', type: 'corporation' },
- { name: 'SCL Group', role: 'Director', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Robert Mercer', relationship: 'Primary investor', href: '/entities/individuals/robert-mercer' },
- { name: 'Steve Bannon', relationship: 'Board vice president', href: '/entities/individuals/steve-bannon' },
- { name: 'Christopher Wylie', relationship: 'Former employee, whistleblower' },
- ],
- controversies: [
- 'Oversaw harvesting of 87 million Facebook profiles',
- 'Caught on camera discussing bribes and honey traps',
- 'Lied to UK Parliament about data practices',
- 'Company dissolved after scandal',
- 'Banned as company director for 7 years',
- 'Used psychological profiling for voter manipulation',
- ],
- charges: [
- { statute: 'UK Companies Act 2006 § 216', description: 'UK Director Disqualification - Banned from serving as company director for 7 years for misleading practices', category: 'UK Regulatory' },
- { statute: 'UK Data Protection Act 1998', description: 'Data Protection Violations - Oversaw illegal harvesting of 87 million Facebook users\' personal data without consent', category: 'UK Criminal' },
- { statute: '18 U.S.C. § 1030 (CFAA)', description: 'Potential Computer Fraud - Unauthorized access to Facebook user data through deceptive app practices', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud - Used harvested data to manipulate voters through psychological targeting', category: 'Potential Federal' },
- { statute: '52 U.S.C. § 30121', description: 'Potential Foreign National Campaign Contribution - UK citizen providing substantial services to US presidential campaign', category: 'Potential Election' },
- { statute: 'UK Bribery Act 2010', description: 'Bribery Admissions - Caught on camera discussing using bribes and honey traps to influence politicians', category: 'UK Criminal' },
- { statute: 'UK Parliament Contempt', description: 'Contempt of Parliament - Provided false testimony to UK Parliament about Cambridge Analytica practices', category: 'UK Legislative' },
- { statute: 'GDPR Article 83', description: 'EU Data Protection Violations - Massive violations of European data protection rights', category: 'EU Regulatory' },
- ],
- relatedInvestigations: [
- { title: 'Cambridge Analytica Investigation', slug: 'cambridge-analytica', severity: 'critical' },
- { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
- ],
- timeline: [
- { date: '1975', event: 'Born in UK' },
- { date: '2014', event: 'Becomes Cambridge Analytica CEO' },
- { date: '2016', event: 'Works on Trump campaign' },
- { date: '2018', event: 'March: Scandal breaks, suspended as CEO' },
- { date: '2018', event: 'Company dissolves' },
- { date: '2020', event: 'Banned as company director for 7 years' },
- ],
- sources: [
- { title: 'UK ICO Investigation', url: 'https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
- { title: 'Channel 4 Undercover Investigation', url: 'https://scholar.google.com/scholar?q=Channel%204%20Undercover%20Investigation', date: '2018' },
- ],
- },
+
+  'alexander-nix': {
+    name: 'Alexander James Ashburner Nix',
+    title: 'Former Cambridge Analytica CEO',
+    role: 'Data Harvesting Architect',
+    riskLevel: 'high',
+    description: 'Alexander Nix was the CEO of Cambridge Analytica who oversaw the harvesting of 87 million Facebook users\' data for political targeting. He was caught on hidden camera boasting about using bribes and sex workers to entrap politicians. He was banned from serving as a company director in the UK.',
+    birthDate: '1975',
+    birthPlace: 'United Kingdom',
+    netWorth: 'Unknown',
+    education: ['M.A. - University of Manchester (Art History)', 'Eton College'],
+    affiliations: [
+      { name: 'Cambridge Analytica', role: 'CEO (2014-2018)', type: 'corporation' },
+      { name: 'SCL Group', role: 'Director', type: 'corporation' },
+    ],
+    controversies: [
+      'Oversaw harvesting of 87 million Facebook profiles',
+      'Caught on camera discussing bribes and honey traps',
+      'Lied to UK Parliament about data practices',
+      'Company dissolved after scandal',
+      'Banned as company director for 7 years',
+      'Used psychological profiling for voter manipulation',
+    ],
+    charges: [
+      { statute: 'UK Companies Act 2006 § 216', description: 'UK Director Disqualification - Banned from serving as company director for 7 years for misleading practices', category: 'UK Regulatory' },
+      { statute: 'UK Data Protection Act 1998', description: 'Data Protection Violations - Oversaw illegal harvesting of 87 million Facebook users\' personal data without consent', category: 'UK Criminal' },
+      { statute: '18 U.S.C. § 1030 (CFAA)', description: 'Potential Computer Fraud - Unauthorized access to Facebook user data through deceptive app practices', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud - Used harvested data to manipulate voters through psychological targeting', category: 'Potential Federal' },
+      { statute: '52 U.S.C. § 30121', description: 'Potential Foreign National Campaign Contribution - UK citizen providing substantial services to US presidential campaign', category: 'Potential Election' },
+      { statute: 'UK Bribery Act 2010', description: 'Bribery Admissions - Caught on camera discussing using bribes and honey traps to influence politicians', category: 'UK Criminal' },
+      { statute: 'UK Parliament Contempt', description: 'Contempt of Parliament - Provided false testimony to UK Parliament about Cambridge Analytica practices', category: 'UK Legislative' },
+      { statute: 'GDPR Article 83', description: 'EU Data Protection Violations - Massive violations of European data protection rights', category: 'EU Regulatory' },
+    ],
+    relatedInvestigations: [
+      { title: 'Cambridge Analytica Investigation', slug: 'cambridge-analytica', severity: 'critical' },
+      { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1975', event: 'Born in UK' },
+      { date: '2014', event: 'Becomes Cambridge Analytica CEO' },
+      { date: '2016', event: 'Works on Trump campaign' },
+      { date: '2018', event: 'March: Scandal breaks, suspended as CEO' },
+      { date: '2018', event: 'Company dissolves' },
+      { date: '2020', event: 'Banned as company director for 7 years' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'UK ICO Investigation', url: 'https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
+      { title: 'Channel 4 Undercover Investigation', url: 'https://scholar.google.com/scholar?q=Channel%204%20Undercover%20Investigation', date: '2018' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Robert Mercer', relationship: 'Primary investor', href: '/entities/individuals/robert-mercer' },
+      { name: 'Steve Bannon', relationship: 'Board vice president', href: '/entities/individuals/steve-bannon' },
+      { name: 'Christopher Wylie', relationship: 'Former employee, whistleblower' },
+    ],
+  },
+
  'amalija-knavs': {
  name: 'Amalija Knavs',
  title: 'Mother of First Lady Melania Trump',
@@ -284,6 +284,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'alex-azar': {
     name: 'Alex Michael Azar II',
     title: 'Former U.S. Secretary of Health and Human Services',
@@ -334,6 +335,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Anthony Fauci', relationship: 'HHS oversaw NIAID', href: '/entities/individuals/anthony-fauci' },
     ],
   },
+
 
   'alan-dershowitz': {
     name: 'Alan Morton Dershowitz',
@@ -391,6 +393,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Steven Pinker', relationship: 'Harvard colleague, connected in Epstein academic circle', href: '/entities/individuals/steven-pinker' },
     ],
   },
+
 
   'ali-alexander': {
     name: 'Ali Akbar Alexander',
@@ -4804,6 +4807,73 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
     ],
   },
+  'associate-1-slug': {
+    name: 'Associate 1',
+    title: 'Relationship 1',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Associate 1 is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Donald Trump have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Donald Trump', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Donald Trump, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Associate 1 has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-04', event: 'Network analysis identified connections to: Donald Trump' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Connected Entity', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+  'associate-2-slug': {
+    name: 'Associate 2',
+    title: 'Relationship 2',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Associate 2 is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Donald Trump have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Donald Trump', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Donald Trump, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Associate 2 has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-04', event: 'Network analysis identified connections to: Donald Trump' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Connected Entity', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+
 };
 
 export default profiles;

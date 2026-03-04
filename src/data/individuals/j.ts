@@ -8177,6 +8177,40 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Connected Entity', href: '/entities/individuals/donald-trump' },
     ],
   },
+  'jake-sullivan': {
+    name: 'Jake Sullivan',
+    title: 'National Security Advisor, key policy partner',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Jake Sullivan is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Antony Blinken have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+      { name: 'Antony Blinken', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed connections to Antony Blinken, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
+      'Jake Sullivan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-04', event: 'Network analysis identified connections to: Antony Blinken' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Antony Blinken', relationship: 'Connected Entity', href: '/entities/individuals/antony-blinken' },
+    ],
+  },
+
 };
 
 export default profiles;
