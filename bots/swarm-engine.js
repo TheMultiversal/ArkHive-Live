@@ -11,6 +11,7 @@ const logger = require('./logger').child('SWARM');
 const utils = require('./utils');
 const scanner = require('./scanner');
 const injector = require('./injector');
+const codebaseUpdater = require('./codebase-updater');
 
 class SwarmEngine extends EventEmitter {
   constructor() {
@@ -831,6 +832,13 @@ class SwarmEngine extends EventEmitter {
         utils.saveQueue(this.queue);
 
         this.emit('injection-complete', { count: result.injected });
+
+        // Propagate changes to all hardcoded stats across the codebase
+        try {
+          await codebaseUpdater.updateAll();
+        } catch (updErr) {
+          logger.error(`Codebase updater failed: ${updErr.message}`);
+        }
       } else {
         logger.error(`Batch injection failed: ${result.message}`);
         // Put profiles back in the buffer for retry
