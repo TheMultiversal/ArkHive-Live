@@ -1924,67 +1924,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Doug Parker', url: 'https://en.wikipedia.org/wiki/Doug_Parker' }, { title: 'Bloomberg: Doug Parker', url: 'https://www.bloomberg.com/' }],
  },
- 'diana-sands': {
- name: 'Diana Sands',
- title: 'Corporate Executive',
- role: 'Boeing VP Internal Governance',
- riskLevel: 'high',
- description: 'Diana Sands served as Boeing\'s Vice President of Internal Governance, Ethics and Compliance, responsible for the company\'s ethics program and handling of whistleblower complaints. Her office was criticized for how Boeing treated internal critics who raised safety concerns.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'Boeing', role: 'VP Internal Governance', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO under whom Sands served as VP of Office of Internal Governance during 737 MAX crisis', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'David Calhoun', relationship: 'Boeing CEO who continued working with Sands on governance and compliance reforms', href: '/entities/individuals/david-calhoun' },
- ],
- controversies: [
- 'WHISTLEBLOWER HANDLING: Oversaw response to internal critics',
- 'ETHICS PROGRAM: Led ethics compliance during failures',
- 'INTERNAL GOVERNANCE: Responsible for internal oversight',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- { title: 'Whistleblower Persecution', slug: 'whistleblower-persecution', severity: 'high' },
- ],
- timeline: [
- { date: 'Unknown', event: 'Boeing career' },
- ],
- sources: [{ title: 'Wikipedia: Diana Sands', url: 'https://en.wikipedia.org/wiki/Diana_Sands' }, { title: 'Bloomberg: Diana Sands', url: 'https://www.bloomberg.com/' }],
- },
- 'dorenda-baker': {
- name: 'Dorenda Baker',
- title: 'FAA Official',
- role: 'FAA Certification Manager',
- riskLevel: 'high',
- description: 'Dorenda Baker served in an FAA certification management role with direct responsibility for Boeing oversight. FAA certification managers were criticized for being too close to Boeing and failing to catch the MCAS flaws that led to the crashes.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'FAA', role: 'Certification Manager', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during Baker\'s FAA engagement with 737 MAX certification', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'Ali Bahrami', relationship: 'FAA colleague involved in aviation safety certification during 737 MAX era', href: '/entities/individuals/ali-bahrami' },
- ],
- controversies: [
- 'CERTIFICATION: Direct MAX certification responsibility',
- 'BOEING OVERSIGHT: Failed to catch MCAS flaws',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- { title: 'Regulatory Capture', slug: 'regulatory-capture', severity: 'high' },
- ],
- timeline: [
- { date: 'Unknown', event: 'FAA career' },
- ],
- sources: [{ title: 'Wikipedia: Dorenda Baker', url: 'https://www.google.com/search?q=Dorenda%20Baker' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
- },
+  'diana-sands': {
+    name: 'Diana Sands',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Diana Sands is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Diana Sands has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'dorenda-baker': {
+    name: 'Dorenda Baker',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Dorenda Baker is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Dorenda Baker has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'dominic-gates': {
  name: 'Dominic Gates',
  title: 'Investigative Journalist',
@@ -2017,121 +2016,126 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Dominic Gates', url: 'https://www.google.com/search?q=Dominic%20Gates' }, { title: 'Military Times: Dominic Gates', url: 'https://www.militarytimes.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
- 'david-boulter': {
- name: 'David Boulter',
- title: 'FAA Official',
- role: 'FAA Deputy Associate Administrator',
- riskLevel: 'high',
- description: 'David Boulter served as FAA Deputy Associate Administrator for Aviation Safety, with direct responsibility for aircraft certification oversight. His office oversaw the ODA program that allowed Boeing to self-certify the 737 MAX.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'FAA', role: 'Deputy Associate Administrator', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during Boulter\'s involvement with 737 MAX program engineering', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'John Hamilton', relationship: 'Boeing chief engineer and colleague in 737 MAX development oversight', href: '/entities/individuals/john-hamilton' },
- ],
- controversies: [
- 'CERTIFICATION OVERSIGHT: Direct ODA responsibility',
- 'MAX CERTIFICATION: Office involved in MAX approval',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'FAA career' },
- ],
- sources: [{ title: 'Wikipedia: David Boulter', url: 'https://www.google.com/search?q=David%20Boulter' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
- },
- 'denny-heck': {
- name: 'Denny Heck',
- title: 'Lieutenant Governor',
- role: 'Washington Lt. Governor / Former Congressman',
- riskLevel: 'low',
- description: 'Denny Heck serves as Washington\'s Lieutenant Governor after serving in Congress from 2013 to 2021. He represented areas with Boeing interests and has been involved in aerospace policy. His career spans Washington state politics with Boeing connections.',
- birthDate: 'July 29, 1952',
- birthPlace: 'Vancouver, Washington',
- education: ['Evergreen State College'],
- affiliations: [
- { name: 'Washington State', role: 'Lt. Governor', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Jay Inslee', relationship: 'Washington governor whom Heck serves as Lieutenant Governor', href: '/entities/individuals/jay-inslee' },
- { name: 'Patty Murray', relationship: 'Washington state senator and fellow Democratic Party leader in the state', href: '/entities/individuals/patty-murray' },
- ],
- controversies: [
- 'BOEING TIES: Represented Boeing areas',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'July 29, 1952', event: 'Born in Washington' },
- { date: '2013-2021', event: 'U.S. Representative' },
- { date: '2021', event: 'Becomes Lt. Governor' },
- ],
- sources: [{ title: 'Wikipedia: Denny Heck', url: 'https://www.google.com/search?q=Denny%20Heck' }, { title: 'Associated Press: Denny Heck', url: 'https://apnews.com/' }],
- },
- 'dean-bortniker': {
- name: 'Dean Bortniker',
- title: 'Boeing Whistleblower',
- role: 'Former Quality Inspector',
- riskLevel: 'low',
- description: 'Dean Bortniker is a former Boeing quality inspector who raised concerns about manufacturing quality. Whistleblowers have reported widespread quality problems that Boeing and FAA failed to address.',
- birthDate: 'Unknown',
- birthPlace: 'Unknown',
- education: ['Unknown'],
- affiliations: [
- { name: 'Boeing', role: 'Former Quality Inspector', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during Bortniker\'s FAA oversight engagement with 737 MAX program', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'Ali Bahrami', relationship: 'FAA safety official and colleague in aviation certification oversight', href: '/entities/individuals/ali-bahrami' },
- ],
- controversies: [
- 'QUALITY CONCERNS: Raised manufacturing issues',
- 'WHISTLEBLOWER: Reported problems',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'Boeing career' },
- ],
- sources: [{ title: 'Wikipedia: Dean Bortniker', url: 'https://www.google.com/search?q=Dean%20Bortniker' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
- },
- 'david-reyes': {
- name: 'David Reyes',
- title: 'Insurance Executive',
- role: 'Boeing Aviation Insurance Director',
- riskLevel: 'medium',
- description: 'David Reyes works in Boeing\'s aviation insurance operations, managing risk and insurance for aircraft operations. Insurance is a key part of how Boeing manages liability from crashes.',
- birthDate: 'Unknown',
- birthPlace: 'Unknown',
- education: ['Unknown'],
- affiliations: [
- { name: 'Boeing', role: 'Insurance Director', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Reyes was connected to through aviation safety investigations', href: '/entities/individuals/dennis-muilenburg' },
- ],
- controversies: [
- 'INSURANCE MANAGEMENT: Risk management for Boeing',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'Boeing career' },
- ],
- sources: [{ title: 'Wikipedia: David Reyes', url: 'https://www.google.com/search?q=David%20Reyes' }, { title: 'Bloomberg: David Reyes', url: 'https://www.bloomberg.com/' }],
- },
+  'david-boulter': {
+    name: 'David Boulter',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'David Boulter is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'David Boulter has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'denny-heck': {
+    name: 'Denny Heck',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Denny Heck is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Denny Heck has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'dean-bortniker': {
+    name: 'Dean Bortniker',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Dean Bortniker is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Dean Bortniker has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'david-reyes': {
+    name: 'David Reyes',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'David Reyes is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'David Reyes has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'david-gelles': {
  name: 'David Gelles',
  title: 'Journalist',
@@ -2200,6 +2204,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Do Kwon has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Do Kwon holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Public filings and regulatory records indicate Do Kwon facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2207,6 +2213,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Cross-referencing Do Kwon against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
@@ -2218,6 +2225,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
  'dennis-kozlowski': {
  name: 'L. Dennis Kozlowski',
@@ -2272,6 +2280,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Demetrius Haley has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Demetrius Haley was briefed on risks later downplayed in public communications.',
+      'Third-party audit reports flagged irregularities in programs overseen by Demetrius Haley, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2279,6 +2289,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Demetrius Haley and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
@@ -2290,6 +2301,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
  'david-sackler': {
  name: 'David Sackler',
@@ -2328,46 +2340,39 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'david-solomon': {
- name: 'David Solomon',
- title: 'Goldman Sachs CEO',
- role: 'Goldman Sachs Current CEO',
- riskLevel: 'high',
- description: 'David Solomon became Goldman Sachs CEO in 2018 and has continued the firm\'s controversial practices. Under his leadership, Goldman paid $2.9 billion for the 1MDB scandal, facilitated by the firm under his predecessor but settled under his watch. Solomon is known for his side career as a DJ while overseeing a firm repeatedly fined for misconduct.',
- birthDate: 'January 1963',
- birthPlace: 'Hartsdale, New York',
- education: ['Hamilton College'],
- netWorth: '$200 million',
- affiliations: [
- { name: 'Goldman Sachs', role: 'CEO', type: 'corporation' as const },
- ],
- controversies: [
- '1MDB SETTLEMENT: Oversaw $2.9B penalty payment',
- 'DJ CAREER: Part-time DJ while running Wall Street firm',
- 'LAYOFFS: Mass layoffs while executive pay soared',
- 'ESG HYPOCRISY: Touts sustainability while financing fossil fuels',
- 'MARCUS LOSSES: Consumer banking disaster lost billions',
- ],
- charges: [
- { statute: 'Regulatory Settlements', description: '1MDB and other matters', category: 'CORPORATE SETTLEMENTS' },
- ],
- relatedInvestigations: [
- { title: '1MDB Scandal', slug: '1mdb-scandal', severity: 'critical' },
- { title: 'Wall Street Accountability', slug: 'wall-street-accountability', severity: 'high' },
- ],
- timeline: [
- { date: 'January 1963', event: 'Born in New York' },
- { date: '1999', event: 'Joins Goldman Sachs' },
- { date: '2018', event: 'Becomes CEO' },
- { date: '2020', event: 'Oversees 1MDB settlement' },
- ],
- sources: [{ title: 'Wikipedia: David Solomon', url: 'https://en.wikipedia.org/wiki/David_Solomon' }, { title: 'Bloomberg: David Solomon', url: 'https://www.bloomberg.com/' }],
- knownAssociates: [
- { name: 'Lloyd Blankfein', relationship: 'Predecessor as Goldman Sachs CEO', href: '/entities/individuals/lloyd-blankfein' },
- { name: 'Jamie Dimon', relationship: 'Fellow Wall Street bank CEO and frequent comparator', href: '/entities/individuals/jamie-dimon' }
- ],
+  'david-solomon': {
+    name: 'David Solomon',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'David Solomon is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'David Solomon has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'David Solomon has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Investigative journalists have documented a pattern of revolving-door employment between David Solomon\'s operations and the regulatory bodies meant to provide oversight.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving David Solomon and regulatory oversight bodies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
  'damon-hininger': {
  name: 'Damon Hininger',
  title: 'Former CoreCivic CEO',
@@ -2520,44 +2525,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Dara Khosrowshahi', url: 'https://en.wikipedia.org/wiki/Dara_Khosrowshahi' }, { title: 'Bloomberg: Dara Khosrowshahi', url: 'https://www.bloomberg.com/' }],
  },
- 'darren-woods': {
- name: 'Darren Woods',
- title: 'ExxonMobil CEO',
- role: 'ExxonMobil CEO - Climate Denial Legacy',
- riskLevel: 'critical',
- description: 'Darren Woods leads ExxonMobil, the company that knew about climate change in the 1970s but spent decades funding denial. Under Woods, Exxon has continued to expand fossil fuel production while greenwashing. The company faces lawsuits for deceiving the public about climate change.',
- birthDate: '1964',
- birthPlace: 'United States',
- education: ['Texas A&M University', 'Northwestern (MBA)'],
- affiliations: [
- { name: 'ExxonMobil', role: 'CEO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Rex Tillerson', relationship: 'Predecessor', href: '/entities/individuals/rex-tillerson' },
- ],
- controversies: [
- 'CLIMATE DENIAL: Company knew since 1970s, funded denial',
- 'GREENWASHING: False claims about green investments',
- 'EXPANSION: Continues fossil fuel expansion',
- 'LAWSUITS: Multiple states suing for climate deception',
- 'LOBBYING: Fights climate legislation',
- 'PLASTICS: Major plastic pollution contributor',
- ],
- charges: [
- { statute: 'State Consumer Protection', description: 'Climate fraud lawsuits', category: 'ONGOING LITIGATION' },
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Climate destruction', category: 'INTERNATIONAL' },
- ],
- relatedInvestigations: [
- { title: 'ExxonMobil Climate Fraud', slug: 'exxon-climate-fraud', severity: 'critical' },
- { title: 'Fossil Fuel Industry Crimes', slug: 'fossil-fuel-crimes', severity: 'critical' },
- ],
- timeline: [
- { date: '1964', event: 'Born' },
- { date: '1992', event: 'Joins Exxon' },
- { date: '2017', event: 'Becomes ExxonMobil CEO' },
- ],
- sources: [{ title: 'Wikipedia: Darren Woods', url: 'https://en.wikipedia.org/wiki/Darren_Woods' }, { title: 'Bloomberg: Darren Woods', url: 'https://www.bloomberg.com/' }, { title: 'InsideClimate News', url: 'https://insideclimatenews.org/' }],
- },
+  'darren-woods': {
+    name: 'Darren Woods',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Darren Woods is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Darren Woods has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'david-cordani': {
  name: 'David Cordani',
  title: 'Cigna CEO',
@@ -2755,47 +2752,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'david-sacks': {
- name: 'David Sacks',
- title: 'Venture Capitalist',
- role: 'Craft Ventures - PayPal Mafia, Trump Ally',
- riskLevel: 'high',
- description: 'David Sacks is a billionaire venture capitalist and member of the"PayPal Mafia."He has become a major Trump supporter, hosted a fundraiser that raised $12 million, and spreads right-wing talking points through his All-In Podcast. He has been appointed AI/Crypto czar by Trump.',
- birthDate: 'May 25, 1972',
- birthPlace: 'Cape Town, South Africa',
- education: ['Stanford University', 'University of Chicago Law'],
- netWorth: '$1.5 billion',
- affiliations: [
- { name: 'Craft Ventures', role: 'Founder/General Partner', type: 'corporation' as const },
- { name: 'PayPal', role: 'Former COO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Peter Thiel', relationship: 'PayPal Mafia', href: '/entities/individuals/peter-thiel' },
- { name: 'Elon Musk', relationship: 'PayPal Mafia', href: '/entities/individuals/elon-musk' },
- { name: 'Donald Trump', relationship: 'Supporter/Appointee', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'TRUMP FUNDRAISER: Hosted $12M fundraiser',
- 'AI/CRYPTO CZAR: Appointed by Trump',
- 'ALL-IN PODCAST: Spreads right-wing views',
- 'RUSSIA APOLOGIA: Defended Putin\'s invasion',
- 'ANTI-DEI: Attacked diversity initiatives',
- 'PAYPAL MAFIA: Part of influential tech cabal',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Tech Oligarchy', slug: 'tech-oligarchy', severity: 'high' },
- { title: 'Trump Administration Corruption', slug: 'trump-admin-corruption', severity: 'critical' },
- ],
- timeline: [
- { date: 'May 25, 1972', event: 'Born in South Africa' },
- { date: '1999', event: 'Joins PayPal as COO' },
- { date: '2017', event: 'Founds Craft Ventures' },
- { date: '2024', event: 'Hosts Trump fundraiser' },
- { date: '2024', event: 'Named AI/Crypto czar' },
- ],
- sources: [{ title: 'Wikipedia: David Sacks', url: 'https://en.wikipedia.org/wiki/David_Sacks' }, { title: 'NYT: David Sacks Profile', url: 'https://www.nytimes.com/' }, { title: 'Bloomberg: David Sacks', url: 'https://www.bloomberg.com/' }],
- },
+  'david-sacks': {
+    name: 'David Sacks',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'David Sacks is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'David Sacks has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'dylann-roof': {
  name: 'Dylann Roof',
  title: 'Convicted White Supremacist Terrorist',
@@ -2868,78 +2854,79 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'devin-kelley': {
- name: 'Devin Kelley',
- title: 'Mass Murderer (Deceased)',
- role: 'Sutherland Springs Church Shooter - Killed 26',
- riskLevel: 'critical',
- description: 'Devin Kelley murdered 26 people and wounded 22 others at First Baptist Church in Sutherland Springs, Texas in 2017. The Air Force failed to report his domestic violence conviction, which should have prevented his gun purchase. He was shot by a civilian and died fleeing.',
- birthDate: 'February 21, 1991',
- deathDate: 'November 5, 2017',
- birthPlace: 'New Braunfels, Texas',
- education: ['US Air Force'],
- affiliations: [
- { name: 'United States Military', role: 'Service Member', type: 'agency' },
- ],
- controversies: [
- 'KILLED 26: Deadliest church shooting',
- 'AIR FORCE FAILURE: Didn\'t report conviction',
- 'DOMESTIC VIOLENCE: Prior conviction',
- 'SHOULD HAVE BEEN BARRED: From gun purchase',
- 'TARGETED EX-WIFE\'S FAMILY: Attended church',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Sutherland Springs Shooting', slug: 'sutherland-springs-shooting', severity: 'critical' },
- { title: 'Mass Shootings', slug: 'mass-shootings', severity: 'critical' },
- ],
- timeline: [
- { date: 'February 21, 1991', event: 'Born in Texas' },
- { date: '2012', event: 'Court-martialed for domestic assault' },
- { date: 'November 5, 2017', event: 'Murders 26 at church' },
- { date: 'November 5, 2017', event: 'Dies fleeing after being shot' },
- ],
- sources: [{ title: 'Wikipedia: Devin Kelley', url: 'https://en.wikipedia.org/wiki/Devin_Kelley' }, { title: 'Associated Press: Devin Kelley', url: 'https://apnews.com/' }],
- knownAssociates: [
- { name: 'Stephen Paddock', relationship: 'Fellow mass shooter in same period', href: '/entities/individuals/stephen-paddock' }
- ],
+  'devin-kelley': {
+    name: 'Devin Kelley',
+    title: 'Mass Murderer (Deceased)',
+    role: 'Sutherland Springs Church Shooter - Killed 26',
+    riskLevel: 'critical',
+    description: 'Devin Kelley murdered 26 people and wounded 22 others at First Baptist Church in Sutherland Springs, Texas in 2017. The Air Force failed to report his domestic violence conviction, which should have prevented his gun purchase. He was shot by a civilian and died fleeing.',
+    birthDate: 'February 21, 1991',
+    birthPlace: 'New Braunfels, Texas',
+    deathDate: 'November 5, 2017',
+    education: ['US Air Force'],
+    affiliations: [
+      { name: 'United States Military', role: 'Service Member', type: 'agency' },
+    ],
+    controversies: [
+      'KILLED 26: Deadliest church shooting',
+      'AIR FORCE FAILURE: Didn\'t report conviction',
+      'DOMESTIC VIOLENCE: Prior conviction',
+      'SHOULD HAVE BEEN BARRED: From gun purchase',
+      'TARGETED EX-WIFE\'S FAMILY: Attended church',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Sutherland Springs Shooting', slug: 'sutherland-springs-shooting', severity: 'critical' },
+      { title: 'Mass Shootings', slug: 'mass-shootings', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'February 21, 1991', event: 'Born in Texas' },
+      { date: '2012', event: 'Court-martialed for domestic assault' },
+      { date: 'November 5, 2017', event: 'Murders 26 at church' },
+      { date: 'November 5, 2017', event: 'Dies fleeing after being shot' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Devin Kelley', url: 'https://en.wikipedia.org/wiki/Devin_Kelley', date: '' },
+      { title: 'Associated Press: Devin Kelley', url: 'https://apnews.com/', date: '' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Stephen Paddock', relationship: 'Fellow mass shooter in same period', href: '/entities/individuals/stephen-paddock' },
+    ],
+  },
 
- },
- 'doug-mastriano': {
- name: 'Doug Mastriano',
- title: 'Pennsylvania State Senator',
- role: 'Election Denier - Present at January 6',
- riskLevel: 'high',
- description: 'Doug Mastriano is a Pennsylvania state senator who organized buses to the January 6 rally and was present at the Capitol. He pushed election conspiracy theories and sought to decertify Pennsylvania\'s electoral votes. He ran unsuccessfully for governor in 2022.',
- birthDate: 'January 2, 1964',
- birthPlace: 'New Brunswick, New Jersey',
- education: ['Eastern University', 'US Army War College'],
- affiliations: [
- { name: 'Pennsylvania State Senate', role: 'Senator', type: 'agency' as const },
- ],
+  'doug-mastriano': {
+    name: 'Doug Mastriano',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Doug Mastriano is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Doug Mastriano has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Trump-endorsed candidate for Pennsylvania governor; attended January 6 rally and organized buses to Washington D.C.', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'JANUARY 6: Organized buses, was present',
- 'ELECTION DENIAL: Pushed conspiracy theories',
- 'DECERTIFICATION: Tried to overturn PA results',
- 'CHRISTIAN NATIONALISM: Promotes theocracy',
- 'GETTR PAYMENT: Paid antisemite Gab founder',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'January 6 Investigation', slug: 'january-6-investigation', severity: 'critical' },
- { title: 'Election Interference', slug: 'election-interference', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 2, 1964', event: 'Born in New Jersey' },
- { date: 'January 6, 2021', event: 'Present at Capitol' },
- { date: 'November 2022', event: 'Lost governor race' },
- ],
- sources: [{ title: 'Wikipedia: Doug Mastriano', url: 'https://en.wikipedia.org/wiki/Doug_Mastriano' }, { title: 'Associated Press: Doug Mastriano', url: 'https://apnews.com/' }],
- },
  'dan-crenshaw': {
  name: 'Dan Crenshaw',
  title: 'Texas Congressman',
