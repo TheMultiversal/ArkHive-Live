@@ -938,6 +938,15 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'medium',
     members: 'Unknown',
   },
+  'project-veritas': {
+    name: 'Project Veritas',
+    slug: 'project-veritas',
+    type: 'Organization',
+    description: 'Project Veritas is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
 
 
 
