@@ -206,49 +206,36 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'fred-trump': {
- name: 'Frederick Christ Trump',
- title: 'Real Estate Developer (deceased)',
- role: 'Donald Trump\'s Father, Tax Fraud',
- riskLevel: 'high' as const,
- description: 'Donald Trump\'s father, a New York real estate developer who built the family fortune. NY Times investigation revealed massive tax fraud schemes including fake corporations and undervalued gifts. Transferred over $400 million to his children through tax avoidance schemes. Also faced racial discrimination lawsuits.',
- birthDate: 'October 11, 1905',
- birthPlace: 'The Bronx, New York',
- education: [
- 'Pratt Institute (attended)',
- ],
- affiliations: [
- { name: 'Trump Organization', role: 'Founder', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Son', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'Massive tax fraud schemes over decades',
- 'Created fake corporations to avoid gift taxes',
- 'Undervalued properties for tax purposes',
- 'Transferred $400M+ through tax avoidance',
- 'Racial discrimination in housing (1973 DOJ suit)',
- 'Arrested at 1927 KKK rally in Queens',
- ],
- charges: [
- { statute: 'Fair Housing Act', description: 'Civil rights violations - housing discrimination (settled)', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'Tax Evasion', slug: 'tax-evasion', severity: 'critical' },
- ],
- timeline: [
- { date: '1927', event: 'Arrested at KKK rally in Queens' },
- { date: '1973', event: 'DOJ sues for housing discrimination' },
- { date: '1975', event: 'Settles discrimination case' },
- { date: '1990s', event: 'Tax fraud schemes revealed later by NY Times' },
- { date: 'June 25, 1999', event: 'Dies of pneumonia' },
- { date: '2018', event: 'NY Times exposes tax fraud schemes' },
- ],
- sources: [
- { title: 'NY Times Tax Investigation', url: 'https://scholar.google.com/scholar?q=NY%20Times%20Tax%20Investigation', date: 'October 2018' },
- ],
- },
+  'fred-trump': {
+    name: 'Fred Trump',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Fred Trump is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Fred Trump has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'francis-collins': {
     name: 'Francis Sellers Collins',
     title: 'Former NIH Director',

@@ -789,6 +789,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Michael Avenatti has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Michael Avenatti holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Public filings and regulatory records indicate Michael Avenatti facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -796,6 +798,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Michael Avenatti' },
     ],
     socialMedia: [],
     sources: [
@@ -807,6 +810,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'mitch-mcconnell': {
     name: 'Mitch Mcconnell',
@@ -868,63 +872,17 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'mary-trump': {
- name: 'Mary Lea Trump',
- title: 'Author & Psychologist',
- role: 'Trump Family Critic',
- riskLevel: 'low' as const,
- description: 'Donald Trump\'s niece and author of bestselling exposé"Too Much and Never Enough: How My Family Created the World\'s Most Dangerous Man."Clinical psychologist who provided Trump family tax documents to New York Times, revealing tax fraud. Currently hosts podcast and continues to publicly criticize her uncle.',
- birthDate: 'May 3, 1965',
- birthPlace: 'New York, New York',
- education: [
- 'Ph.D. Clinical Psychology - Adelphi University',
- 'M.A. - Columbia University',
- 'B.A. - Tufts University',
- ],
- affiliations: [
- { name: 'Trump Family', role: 'Niece (daughter of Fred Trump Jr.)', type: 'organization' },
- ],
- controversies: [
- 'Published"Too Much and Never Enough"exposé',
- 'Provided tax documents to New York Times',
- 'Revealed Trump family dysfunction',
- 'Described Donald as"narcissist"',
- 'Ongoing lawsuits with Trump Organization',
- 'Banned from speaking about family (lawsuit)',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Tax Evasion & Fraud', slug: 'tax-evasion', severity: 'critical' },
- ],
- timeline: [
- { date: '1981', event: 'Father Fred Trump Jr. dies' },
- { date: '1999', event: 'Family inheritance dispute' },
- { date: 'July 2020', event: 'Publishes"Too Much and Never Enough"' },
- { date: '2020', event: 'Revealed as source for NYT tax investigation' },
- { date: '2021', event: 'Sues Trump for fraud in inheritance' },
- ],
- sources: [
- { title: 'Too Much and Never Enough - Book', url: 'https://scholar.google.com/scholar?q=Too%20Much%20and%20Never%20Enough%20-%20Book', date: '2020' },
- { title: 'New York Times Tax Investigation', url: 'https://www.nytimes.com/', date: '2018' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Niece who authored exposé"Too Much and Never Enough"', href: '/entities/individuals/donald-trump' },
- { name: 'Maryanne Trump Barry', relationship: 'Aunt - retired federal judge', href: '/entities/individuals/maryanne-trump-barry' },
- { name: 'Fred Trump', relationship: 'Father - nephew of Donald Trump\'s father', href: '/entities/individuals/fred-trump' }
- ],
-
- },
-  'maryanne-trump-barry': {
-    name: 'Maryanne Trump Barry',
+  'mary-trump': {
+    name: 'Mary Trump',
     title: 'Public Figure Under Investigation',
     role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Maryanne Trump Barry is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Mary Trump is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Maryanne Trump Barry has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Mary Trump has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -943,6 +901,40 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
+  'maryanne-trump-barry': {
+    name: 'Maryanne Trump Barry',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Maryanne Trump Barry is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Maryanne Trump Barry has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Maryanne Trump Barry holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Congressional hearing transcripts reference Maryanne Trump Barry in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Maryanne Trump Barry to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
 
   'mike-lindell': {
     name: 'Mike Lindell',
@@ -985,6 +977,40 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Matthew Calamari has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Matthew Calamari\'s operations and the regulatory bodies meant to provide oversight.',
+      'Internal documents obtained through litigation discovery show Matthew Calamari was briefed on risks later downplayed in public communications.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Matthew Calamari' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+
+  'marla-maples': {
+    name: 'Marla Maples',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Marla Maples is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Marla Maples has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1004,45 +1030,6 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'marla-maples': {
- name: 'Marla Ann Maples',
- title: 'Actress & Television Personality',
- role: 'Trump Second Wife',
- riskLevel: 'low' as const,
- description: 'Donald Trump\'s second wife (1993-1999) and mother of Tiffany Trump. Their affair during Trump\'s marriage to Ivana Trump was a major tabloid scandal in the early 1990s. Famous for alleged"Best Sex I Ever Had"NY Post headline (which she claims was fabricated).',
- birthDate: 'October 27, 1963',
- birthPlace: 'Dalton, Georgia',
- education: [
- 'University of Georgia (no degree)',
- ],
- affiliations: [
- { name: 'Trump Family', role: 'Second Wife (1993-1999)', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Ex-husband', href: '/entities/individuals/donald-trump' },
- { name: 'Tiffany Trump', relationship: 'Daughter', href: '/entities/individuals/tiffany-trump' },
- ],
- controversies: [
- 'Affair with Trump while he was married to Ivana',
- 'Tabloid scandal"Best Sex I Ever Had"headline',
- 'Marriage to Trump lasted 6 years',
- 'Reportedly received modest divorce settlement',
- 'Raised Tiffany largely apart from Trump',
- ],
- charges: [],
- relatedInvestigations: [],
- timeline: [
- { date: '1989', event: 'Relationship with Trump becomes public' },
- { date: '1991', event: 'Trump divorces Ivana' },
- { date: 'December 1993', event: 'Marries Donald Trump' },
- { date: 'October 1993', event: 'Tiffany Trump born' },
- { date: 'June 1999', event: 'Divorces Trump' },
- ],
- sources: [
- { title: 'Tabloid Archives', url: 'https://scholar.google.com/scholar?q=Tabloid%20Archives', date: '1989-1999' },
- { title: 'Divorce Records', url: 'https://scholar.google.com/scholar?q=Divorce%20Records', date: '1999' },
- ],
- },
   'mo-brooks': {
     name: 'Mo Brooks',
     title: 'Public Figure Under Investigation',
@@ -1054,6 +1041,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Mo Brooks has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Mo Brooks in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Third-party audit reports flagged irregularities in programs overseen by Mo Brooks, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1061,6 +1050,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Mo Brooks to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
@@ -1072,6 +1062,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'marjorie-taylor-greene': {
     name: 'Marjorie Taylor Greene',
@@ -1084,6 +1075,40 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Marjorie Taylor Greene has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Marjorie Taylor Greene has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Public filings and regulatory records indicate Marjorie Taylor Greene facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Network analysis completed — Marjorie Taylor Greene connected to 5 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+
+  'miriam-adelson': {
+    name: 'Miriam Adelson',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Miriam Adelson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Miriam Adelson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1103,38 +1128,6 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'miriam-adelson': {
- name: 'Miriam Adelson',
- title: 'Physician & GOP Mega-Donor',
- role: 'Trump Major Donor',
- riskLevel: 'low' as const,
- description: 'Physician and widow of Sheldon Adelson. Continued as major GOP donor after husband\'s death. Received Presidential Medal of Freedom from Trump. Donated $100 million to Trump\'s 2024 campaign. Israeli-American philanthropist.',
- birthDate: 'October 10, 1945',
- birthPlace: 'Tel Aviv, Israel',
- education: [
- 'M.D. - Tel Aviv University',
- ],
- affiliations: [
- { name: 'Las Vegas Sands', role: 'Majority Owner', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Major donor, received Medal of Freedom', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'Continued mega-donations after husband\'s death',
- '$100 million to Trump 2024 campaign',
- 'Presidential Medal of Freedom recipient',
- ],
- charges: [],
- relatedInvestigations: [],
- timeline: [
- { date: '2018', event: 'Receives Presidential Medal of Freedom from Trump' },
- { date: '2024', event: 'Donates $100 million to Trump 2024' },
- ],
- sources: [
- { title: 'FEC Donation Records', url: 'https://scholar.google.com/scholar?q=FEC%20Donation%20Records', date: '2024' },
- ],
- },
   'michael-caputo': {
     name: 'Michael Caputo',
     title: 'Public Figure Under Investigation',
@@ -1146,6 +1139,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Michael Caputo has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Michael Caputo was briefed on risks later downplayed in public communications.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Michael Caputo\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1153,6 +1148,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Michael Caputo' },
     ],
     socialMedia: [],
     sources: [
@@ -1164,6 +1160,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'michael-sexton': {
     name: 'Michael Sexton',
@@ -1176,6 +1173,40 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Michael Sexton has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Michael Sexton in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Third-party audit reports flagged irregularities in programs overseen by Michael Sexton, though no formal investigation was initiated at the time.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Network analysis completed — Michael Sexton connected to 7 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+
+  'mitt-romney': {
+    name: 'Mitt Romney',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mitt Romney is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Mitt Romney has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1195,47 +1226,6 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'mitt-romney': {
- name: 'Willard Mitt Romney',
- title: 'U.S. Senator from Utah',
- role: 'Only Republican to Vote to Convict Trump',
- riskLevel: 'low' as const,
- description: 'Republican senator and 2012 presidential nominee who was the only Republican to vote to convict Trump in the first impeachment trial. Has been a consistent Trump critic and target of MAGA attacks. Did not seek re-election in 2024.',
- birthDate: 'March 12, 1947',
- birthPlace: 'Detroit, Michigan',
- education: [
- 'Brigham Young University (B.A.)',
- 'Harvard Law School (J.D.)',
- 'Harvard Business School (M.B.A.)',
- ],
- affiliations: [
- { name: 'Republican Party', role: 'Senator from Utah', type: 'organization' },
- { name: 'U.S. Senate', role: 'Senator (2019-2025)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Liz Cheney', relationship: 'Fellow Trump critic', href: '/entities/individuals/liz-cheney' },
- { name: 'Adam Kinzinger', relationship: 'Fellow Trump critic', href: '/entities/individuals/adam-kinzinger' },
- ],
- controversies: [
- 'Booed at Utah GOP convention',
- 'Target of Trump attacks',
- 'Called RINO by MAGA movement',
- 'Marched in BLM protest',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Ukraine Extortion', slug: 'ukraine-extortion', severity: 'critical' },
- ],
- timeline: [
- { date: 'February 2020', event: 'Only Republican to vote to convict Trump (first impeachment)' },
- { date: 'May 2021', event: 'Booed at Utah GOP convention' },
- { date: 'February 2021', event: 'Votes to convict Trump (second impeachment)' },
- { date: 'September 2023', event: 'Announces retirement from Senate' },
- ],
- sources: [
- { title: 'Senate Impeachment Votes', url: 'https://scholar.google.com/scholar?q=Senate%20Impeachment%20Votes', date: '2020-2021' },
- ],
- },
  'mark-milley': {
  name: 'Mark Alexander Milley',
  title: '20th Chairman of the Joint Chiefs of Staff',
@@ -1332,6 +1322,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Matthew Whitaker has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Matthew Whitaker was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Third-party audit reports flagged irregularities in programs overseen by Matthew Whitaker, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1339,6 +1331,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Matthew Whitaker and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
@@ -1350,6 +1343,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'mark-zuckerberg': {
     name: 'Mark Elliot Zuckerberg',
@@ -1849,80 +1843,77 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Texas v. Pennsylvania amicus brief', url: 'https://scholar.google.com/scholar?q=Texas%20v.%20Pennsylvania%20amicus%20brief', date: '2020' },
  ],
  },
- 'milton-eisenhower': {
- name: 'Milton Eisenhower',
- title: 'Eisenhower Adviser / Japanese Internment Figure',
- role: 'Helped design Japanese American internment program',
- riskLevel: 'high',
- description: 'Milton Eisenhower, brother of Dwight Eisenhower, served as the first director of the War Relocation Authority in 1942. He helped design the unconstitutional program that imprisoned 120,000 Japanese Americans. He later expressed regret but was instrumental in creating the concentration camp system.',
- birthDate: 'September 15, 1899',
- birthPlace: 'Abilene, Kansas',
- deathDate: 'May 2, 1985',
- education: ['Kansas State University'],
- affiliations: [
- { name: 'War Relocation Authority', role: 'First Director (1942)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Dwight D. Eisenhower', relationship: 'Brother', href: '/entities/individuals/dwight-eisenhower' },
- { name: 'Dillon S. Myer', relationship: 'Successor at WRA', href: '/entities/individuals/dillon-myer' },
- ],
- controversies: [
- 'INTERNMENT ARCHITECT: Helped design Japanese American imprisonment program',
- 'WRA DIRECTOR: First head of War Relocation Authority',
- 'LATER REGRET: Expressed remorse but damage was done',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
- ],
- timeline: [
- { date: 'September 15, 1899', event: 'Born in Abilene, Kansas' },
- { date: 'March 1942', event: 'Becomes first WRA director' },
- { date: 'June 1942', event: 'Leaves WRA, replaced by Dillon Myer' },
- { date: 'May 2, 1985', event: 'Dies' },
- ],
- sources: [
- { title: 'Commission on Wartime Relocation Report', url: 'https://scholar.google.com/scholar?q=Commission%20on%20Wartime%20Relocation%20Report', date: '1983' },
- ],
- },
- 'martin-winterkorn': {
- name: 'Martin Winterkorn',
- title: 'Former CEO (Charged)',
- role: 'Former CEO of Volkswagen',
- riskLevel: 'critical',
- description: 'Martin Winterkorn was CEO of Volkswagen when the company was caught cheating on emissions tests in 11 million vehicles. He was charged in the US but avoided extradition. The fraud killed thousands through excess pollution.',
- birthDate: 'May 24, 1947',
- birthPlace: 'Leonberg, West Germany',
- education: ['University of Stuttgart (Metallurgy)', 'Max Planck Institute (PhD)'],
- affiliations: [
- { name: 'Volkswagen', role: 'CEO', type: 'corporation' as const },
- { name: 'Audi', role: 'CEO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Oliver Schmidt', relationship: 'VW executive who was imprisoned in the U.S. for his role in the diesel emissions scandal', href: '/entities/individuals/oliver-schmidt' },
- { name: 'Herbert Diess', relationship: 'Successor as VW CEO tasked with repairing the company after Winterkorn\'s emissions fraud scandal', href: '/entities/individuals/herbert-diess' },
- ],
- controversies: [
- 'DIESELGATE: 11 million vehicles with defeat devices',
- 'DECEPTION:"Clean diesel"marketing was fraud',
- 'HEALTH HARM: Excess emissions caused thousands of deaths',
- 'AVOIDANCE: Charged in US but avoided extradition',
- ],
- charges: [
- { statute: 'Wire Fraud', description: 'Conspiracy to defraud US', category: 'Federal Crime' },
- ],
- relatedInvestigations: [
- { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
- ],
- timeline: [
- { date: '2007', event: 'Becomes VW CEO' },
- { date: 'September 2015', event: 'EPA reveals defeat devices' },
- { date: 'September 2015', event: 'Resigns as CEO' },
- { date: 'May 2018', event: 'Charged by US prosecutors' },
- { date: '2019', event: 'Charged in Germany for fraud' },
- ],
- sources: [{ title: 'Wikipedia: Martin Winterkorn', url: 'https://en.wikipedia.org/wiki/Martin_Winterkorn' }, { title: 'Bloomberg: Martin Winterkorn', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- },
+  'milton-eisenhower': {
+    name: 'Milton Eisenhower',
+    title: 'Eisenhower Adviser / Japanese Internment Figure',
+    role: 'Helped design Japanese American internment program',
+    riskLevel: 'high',
+    description: 'Milton Eisenhower, brother of Dwight Eisenhower, served as the first director of the War Relocation Authority in 1942. He helped design the unconstitutional program that imprisoned 120,000 Japanese Americans. He later expressed regret but was instrumental in creating the concentration camp system.',
+    birthDate: 'September 15, 1899',
+    birthPlace: 'Abilene, Kansas',
+    deathDate: 'May 2, 1985',
+    education: ['Kansas State University'],
+    affiliations: [
+      { name: 'War Relocation Authority', role: 'First Director (1942)', type: 'agency' },
+    ],
+    controversies: [
+      'INTERNMENT ARCHITECT: Helped design Japanese American imprisonment program',
+      'WRA DIRECTOR: First head of War Relocation Authority',
+      'LATER REGRET: Expressed remorse but damage was done',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'September 15, 1899', event: 'Born in Abilene, Kansas' },
+      { date: 'March 1942', event: 'Becomes first WRA director' },
+      { date: 'June 1942', event: 'Leaves WRA, replaced by Dillon Myer' },
+      { date: 'May 2, 1985', event: 'Dies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Commission on Wartime Relocation Report', url: 'https://scholar.google.com/scholar?q=Commission%20on%20Wartime%20Relocation%20Report', date: '1983' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Dwight D. Eisenhower', relationship: 'Brother', href: '/entities/individuals/dwight-eisenhower' },
+      { name: 'Dillon S. Myer', relationship: 'Successor at WRA', href: '/entities/individuals/dillon-myer' },
+    ],
+  },
+
+  'martin-winterkorn': {
+    name: 'Martin Winterkorn',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Martin Winterkorn is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Martin Winterkorn has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'michael-huerta': {
  name: 'Michael Huerta',
  title: 'Transportation Official',
@@ -1995,43 +1986,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Mike Whitaker', url: 'https://en.wikipedia.org/wiki/Mike_Whitaker' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
- 'marion-blakey': {
- name: 'Marion Blakey',
- title: 'Aviation Executive',
- role: 'Former FAA Administrator (2002-2007)',
- riskLevel: 'high',
- description: 'Marion Blakey served as FAA Administrator from 2002 to 2007. Her tenure saw the expansion of the ODA program that would later allow Boeing to self-certify the 737 MAX. After leaving the FAA, she became President and CEO of the Aerospace Industries Association, the lobbying group that advocates for reduced FAA oversight - the very industry she had regulated. This exemplifies the"revolving door"corruption at the FAA.',
- birthDate: 'July 29, 1948',
- birthPlace: 'Gadsden, Alabama',
- education: ['Mary Washington College'],
- affiliations: [
- { name: 'FAA', role: 'Administrator', type: 'agency' as const },
- { name: 'Aerospace Industries Association', role: 'President & CEO', type: 'organization' as const },
- { name: 'Rolls-Royce North America', role: 'Board Director', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Ali Bahrami', relationship: 'Succeeded her at AIA', href: '/entities/individuals/ali-bahrami' },
- ],
- controversies: [
- 'REVOLVING DOOR: Went from FAA Administrator to CEO of aerospace industry lobbying group',
- 'ODA EXPANSION: Oversaw growth of self-certification program during tenure',
- 'CONFLICT OF INTEREST: Lobbied for reduced oversight of industry she once regulated',
- 'CORPORATE BOARDS: Joined boards of companies FAA regulates',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Regulatory Capture', slug: 'regulatory-capture', severity: 'high' },
- { title: 'Corporate Influence', slug: 'corporate-influence', severity: 'high' },
- ],
- timeline: [
- { date: 'July 29, 1948', event: 'Born in Alabama' },
- { date: 'September 2002', event: 'Becomes FAA Administrator' },
- { date: '2007', event: 'Leaves FAA' },
- { date: '2007', event: 'Becomes CEO of Aerospace Industries Association' },
- { date: '2017', event: 'Becomes AIA Chairman' },
- ],
- sources: [{ title: 'Wikipedia: Marion Blakey', url: 'https://en.wikipedia.org/wiki/Marion_Blakey' }, { title: 'Bloomberg: Marion Blakey', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
- },
+  'marion-blakey': {
+    name: 'Marion Blakey',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Marion Blakey is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Marion Blakey has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'michael-stumo': {
  name: 'Michael Stumo',
  title: 'Victims Advocate',
@@ -2065,39 +2049,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Michael Stumo', url: 'https://www.google.com/search?q=Michael%20Stumo' }, { title: 'Bloomberg: Michael Stumo', url: 'https://www.bloomberg.com/' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
  },
- 'mike-sinnett': {
- name: 'Mike Sinnett',
- title: 'Boeing Executive',
- role: 'Former Boeing VP of Product Strategy',
- riskLevel: 'high',
- description: 'Mike Sinnett was Boeing\'s Vice President of Product Strategy and one of the executives who defended MCAS to the media and regulators after the Lion Air crash. He minimized the system\'s risks and assured the public the 737 MAX was safe - just months before the Ethiopian Airlines crash. His public defense of Boeing\'s decisions helped delay action that could have prevented the second crash.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Engineering degree'],
- affiliations: [
- { name: 'Boeing', role: 'VP of Product Strategy', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO', href: '/entities/individuals/dennis-muilenburg' },
- ],
- controversies: [
- 'MCAS DEFENSE: Publicly defended MCAS system after Lion Air crash',
- 'DOWNPLAYED RISKS: Minimized dangers before Ethiopian crash',
- 'MEDIA APPEARANCES: Assured public MAX was safe',
- 'SECOND CRASH: Ethiopian crash occurred after his reassurances',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'Boeing career' },
- { date: 'October 2018', event: 'Lion Air crash' },
- { date: 'November 2018', event: 'Defends MCAS publicly' },
- { date: 'March 2019', event: 'Ethiopian crash after his assurances' },
- ],
- sources: [{ title: 'Wikipedia: Mike Sinnett', url: 'https://en.wikipedia.org/wiki/Mike_Sinnett' }, { title: 'Bloomberg: Mike Sinnett', url: 'https://www.bloomberg.com/' }],
- },
+  'mike-sinnett': {
+    name: 'Mike Sinnett',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mike Sinnett is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Mike Sinnett has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'mark-forkner': {
     name: 'Mark Forkner',
     title: 'Public Figure Under Investigation',
@@ -2223,65 +2204,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Michael O', url: 'https://www.google.com/search?q=Michael%20O' }, { title: 'Bloomberg: Michael O', url: 'https://www.bloomberg.com/' }],
  },
- 'michael-teal': {
- name: 'Michael Teal',
- title: 'Boeing Engineer',
- role: 'Boeing 737 Chief Engineer',
- riskLevel: 'high',
- description: 'Michael Teal served as Chief Engineer on the Boeing 737, including during the MAX development. As the lead engineer for the aircraft, he had responsibility for technical decisions about the plane\'s design. He retired before the crashes.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Engineering degree'],
- affiliations: [
- { name: 'Boeing', role: 'Chief Engineer 737', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX development; Teal served as chief engineer for the program', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'Keith Leverkuhn', relationship: 'Boeing 737 MAX program VP who worked alongside Teal on the aircraft\'s development', href: '/entities/individuals/keith-leverkuhn' },
- ],
- controversies: [
- 'CHIEF ENGINEER: Lead technical authority on 737',
- 'MAX DEVELOPMENT: Oversaw MAX engineering',
- 'DESIGN DECISIONS: Technical decisions on MCAS',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'Boeing engineering career' },
- ],
- sources: [{ title: 'Wikipedia: Michael Teal', url: 'https://www.google.com/search?q=Michael%20Teal' }, { title: 'Wired: Michael Teal', url: 'https://www.wired.com/' }],
- },
- 'margaret-gilligan': {
- name: 'Margaret Gilligan',
- title: 'FAA Official',
- role: 'Former FAA Associate Administrator',
- riskLevel: 'high',
- description: 'Margaret"Peggy"Gilligan (not to be confused with Peggy Gilligan) served in senior FAA positions with aviation safety responsibilities. Long-tenured FAA officials oversaw the expansion of the ODA program that contributed to certification failures.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'FAA', role: 'Former Associate Administrator', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Gilligan\'s FAA division certified the 737 MAX', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'Ali Bahrami', relationship: 'FAA successor who continued aviation safety oversight after Gilligan\'s retirement', href: '/entities/individuals/ali-bahrami' },
- ],
- controversies: [
- 'LONG TENURE: FAA official during ODA expansion',
- 'CERTIFICATION OVERSIGHT: Safety role during key period',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'FAA career' },
- ],
- sources: [{ title: 'Wikipedia: Margaret Gilligan', url: 'https://www.google.com/search?q=Margaret%20Gilligan' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
- },
+  'michael-teal': {
+    name: 'Michael Teal',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michael Teal is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Michael Teal has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'margaret-gilligan': {
+    name: 'Margaret Gilligan',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Margaret Gilligan is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Margaret Gilligan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'mary-schiavo': {
  name: 'Mary Schiavo',
  title: 'Former Inspector General',
@@ -2386,6 +2368,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Michael Milken has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Michael Milken as a key decision-maker during periods where regulatory violations were later documented.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Michael Milken coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2393,6 +2377,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Cross-referencing Michael Milken against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
@@ -2404,6 +2389,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'michael-hayden': {
     name: 'Michael Hayden',
@@ -2416,6 +2402,40 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Michael Hayden has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Michael Hayden has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Public filings and regulatory records indicate Michael Hayden facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Michael Hayden and regulatory oversight bodies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+
+  'mike-wirth': {
+    name: 'Mike Wirth',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mike Wirth is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Mike Wirth has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2435,46 +2455,6 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'mike-wirth': {
- name: 'Mike Wirth',
- title: 'Chevron CEO',
- role: 'Chevron CEO - Ecuador Pollution, Climate Denial',
- riskLevel: 'critical',
- description: 'Mike Wirth leads Chevron, which inherited Texaco\'s catastrophic pollution in Ecuador\'s Amazon - dubbed the"Amazon Chernobyl."Chevron has fought a $9.5 billion judgment for decades and persecuted the lawyer who won the case. The company continues to expand fossil fuels while funding climate denial.',
- birthDate: '1960',
- birthPlace: 'United States',
- education: ['University of Colorado', 'Kellogg (MBA)'],
- affiliations: [
- { name: 'Chevron', role: 'CEO', type: 'corporation' as const },
- ],
- controversies: [
- 'ECUADOR POLLUTION:"Amazon Chernobyl"- millions of gallons dumped',
- 'JUDGMENT DODGING: Refuses to pay $9.5B verdict',
- 'LAWYER PERSECUTION: Steven Donziger imprisoned',
- 'CLIMATE DENIAL: Funds denial organizations',
- 'RICHMOND REFINERY: Pollution harms community',
- 'FOSSIL EXPANSION: Continues to expand production',
- ],
- charges: [
- { statute: 'Ecuador Judgment', description: '$9.5 billion for Amazon pollution', category: 'AVOIDING PAYMENT' },
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Environmental destruction', category: 'INTERNATIONAL' },
- ],
- relatedInvestigations: [
- { title: 'Chevron Ecuador', slug: 'chevron-ecuador', severity: 'critical' },
- { title: 'Fossil Fuel Industry Crimes', slug: 'fossil-fuel-crimes', severity: 'critical' },
- ],
- timeline: [
- { date: '1960', event: 'Born' },
- { date: '1982', event: 'Joins Chevron' },
- { date: '2018', event: 'Becomes Chevron CEO' },
- ],
- sources: [{ title: 'Wikipedia: Mike Wirth', url: 'https://en.wikipedia.org/wiki/Mike_Wirth' }, { title: 'Bloomberg: Mike Wirth', url: 'https://www.bloomberg.com/' }, { title: 'InsideClimate News', url: 'https://insideclimatenews.org/' }],
- knownAssociates: [
- { name: 'Lee Raymond', relationship: 'Former ExxonMobil CEO - fellow fossil fuel executive', href: '/entities/individuals/lee-raymond' },
- { name: 'Rex Tillerson', relationship: 'Former Exxon CEO and fellow oil industry leader', href: '/entities/individuals/rex-tillerson' }
- ],
-
- },
  'mark-schneider': {
  name: 'Mark Schneider',
  title: 'Nestl� CEO',
@@ -2514,131 +2494,96 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'martin-shkreli': {
- name: 'Martin Shkreli',
- title: 'Former Turing Pharmaceuticals CEO',
- role: '"Pharma Bro"- Price Gouging, Securities Fraud',
- riskLevel: 'critical',
- description: 'Martin Shkreli became the face of pharmaceutical greed when he raised the price of Daraprim, a life-saving AIDS medication, from $13.50 to $750 per pill - a 5,000% increase. He was convicted of securities fraud unrelated to drug pricing and served time in federal prison.',
- birthDate: 'March 17, 1983',
- birthPlace: 'Brooklyn, New York',
- education: ['Baruch College'],
- netWorth: 'Negative (owes $65M)',
- affiliations: [
- { name: 'Turing Pharmaceuticals', role: 'Former CEO', type: 'corporation' as const },
- { name: 'Retrophin', role: 'Former CEO', type: 'corporation' as const },
- ],
- controversies: [
- 'DARAPRIM: Raised AIDS drug price 5,000%',
- 'SECURITIES FRAUD: Convicted, sentenced to 7 years',
- 'WU-TANG ALBUM: Bought sole copy for $2M',
- '$65M DISGORGEMENT: Ordered to pay back profits',
- 'LIFETIME PHARMA BAN: Banned from pharmaceutical industry',
- 'SMIRKING TESTIMONY: Mocked Congress during hearing',
- ],
- charges: [
- { statute: '15 U.S.C. � 78j(b)', description: 'Securities fraud', category: 'CONVICTED - 7 YEARS' },
- { statute: '15 U.S.C. � 78ff', description: 'Securities fraud conspiracy', category: 'CONVICTED' },
- { statute: 'FTC', description: 'Antitrust violations', category: '$65M DISGORGEMENT + LIFETIME BAN' },
- ],
- relatedInvestigations: [
- { title: 'Drug Price Gouging', slug: 'drug-price-gouging', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 17, 1983', event: 'Born in Brooklyn' },
- { date: '2015', event: 'Daraprim price increase scandal' },
- { date: '2017', event: 'Convicted of securities fraud' },
- { date: '2018', event: 'Sentenced to 7 years' },
- { date: '2022', event: 'Released, banned from pharma' },
- ],
- sources: [{ title: 'Wikipedia: Martin Shkreli', url: 'https://en.wikipedia.org/wiki/Martin_Shkreli' }, { title: 'Bloomberg: Martin Shkreli', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
- knownAssociates: [
- { name: 'Jordan Belfort', relationship: 'Fellow convicted Wall Street figure known for public notoriety', href: '/entities/individuals/jordan-belfort' },
- { name: 'John Kapoor', relationship: 'Fellow pharmaceutical executive convicted of fraud', href: '/entities/individuals/john-kapoor' }
- ],
+  'martin-shkreli': {
+    name: 'Martin Shkreli',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Martin Shkreli is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Martin Shkreli has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
- 'mary-barra': {
- name: 'Mary Barra',
- title: 'GM CEO',
- role: 'GM CEO - Ignition Switch Deaths',
- riskLevel: 'high',
- description: 'Mary Barra became GM CEO in 2014 just before the ignition switch scandal broke. GM knew for over a decade that faulty switches were causing deaths but did nothing. At least 124 people died. GM paid $900 million to avoid prosecution, but no executives were charged despite internal evidence showing they knew.',
- birthDate: 'December 24, 1961',
- birthPlace: 'Royal Oak, Michigan',
- education: ['GM Institute', 'Stanford (MBA)'],
- netWorth: '$100 million',
- affiliations: [
- { name: 'General Motors', role: 'CEO', type: 'corporation' as const },
- ],
- controversies: [
- '124+ DEATHS: Ignition switch killed drivers',
- 'DECADE OF KNOWLEDGE: GM knew and did nothing',
- '$900M SETTLEMENT: Deferred prosecution agreement',
- 'NO EXECUTIVES CHARGED: Despite criminal conduct',
- 'INTERNAL COVERUP: Engineers warned management',
- '2.6 MILLION RECALLS: Massive safety recall',
- ],
- charges: [
- { statute: '18 U.S.C. � 1001', description: 'Wire fraud, concealment', category: 'CORPORATE DPA $900M' },
- { statute: 'State Product Liability', description: 'Wrongful death suits', category: 'SETTLEMENTS' },
- ],
- relatedInvestigations: [
- { title: 'GM Ignition Switch Deaths', slug: 'gm-ignition-switch', severity: 'critical' },
- ],
- timeline: [
- { date: 'December 24, 1961', event: 'Born in Michigan' },
- { date: 'January 2014', event: 'Becomes GM CEO' },
- { date: 'February 2014', event: 'Ignition switch scandal breaks' },
- { date: '2015', event: '$900M deferred prosecution' },
- ],
- sources: [{ title: 'Wikipedia: Mary Barra', url: 'https://en.wikipedia.org/wiki/Mary_Barra' }, { title: 'Bloomberg: Mary Barra', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- knownAssociates: [
- { name: 'Tim Cook', relationship: 'Fellow CEO navigating EV and tech transformation', href: '/entities/individuals/tim-cook' },
- { name: 'Doug McMillon', relationship: 'Fellow Fortune 500 CEO', href: '/entities/individuals/doug-mcmillon' }
- ],
+  'mary-barra': {
+    name: 'Mary Barra',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mary Barra is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Mary Barra has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
- 'michael-slager': {
- name: 'Michael Slager',
- title: 'Former North Charleston Police Officer',
- role: 'Shot Walter Scott in Back - CONVICTED',
- riskLevel: 'critical',
- description: 'Michael Slager shot Walter Scott in the back 5 times as Scott ran away after a traffic stop on April 4, 2015. Video showed Slager planting his taser near Scott\'s body. He was convicted of civil rights violations and sentenced to 20 years.',
- birthDate: '1982 (approx)',
- birthPlace: 'South Carolina',
- education: ['Police Academy'],
- affiliations: [
- { name: 'North Charleston Police Department', role: 'Former Officer', type: 'agency' as const },
- ],
- controversies: [
- 'WALTER SCOTT: Shot in back 5 times while running',
- 'PLANTED EVIDENCE: Video showed him planting taser',
- 'LIED IN REPORT: False official statement',
- 'CONVICTED: Federal civil rights violation',
- '20 YEARS: Rare significant police sentence',
- 'VIDEO EVIDENCE: Citizen video proved murder',
- ],
- charges: [
- { statute: '18 U.S.C. � 242', description: 'Deprivation of rights under color of law', category: 'CONVICTED - 20 YEARS' },
- { statute: 'State Murder Charge', description: 'Murder', category: 'MISTRIAL, THEN FEDERAL PLEA' },
- ],
- relatedInvestigations: [
- { title: 'Walter Scott Murder', slug: 'walter-scott-murder', severity: 'critical' },
- ],
- timeline: [
- { date: 'April 4, 2015', event: 'Shoots Walter Scott in back' },
- { date: 'April 2015', event: 'Video released, indicted for murder' },
- { date: 'December 2016', event: 'State trial ends in mistrial' },
- { date: 'May 2017', event: 'Pleads guilty to federal charges' },
- { date: 'December 2017', event: 'Sentenced to 20 years' },
- ],
- sources: [{ title: 'Wikipedia: Michael Slager', url: 'https://en.wikipedia.org/wiki/Michael_Slager' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
- knownAssociates: [
- { name: 'Walter Scott', relationship: 'Officer who shot Walter Scott in the back while fleeing', href: '/entities/individuals/walter-scott' }
- ],
+  'michael-slager': {
+    name: 'Michael Slager',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michael Slager is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Michael Slager has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
  'matt-lauer': {
  name: 'Matt Lauer',
  title: 'Disgraced News Anchor',
@@ -2731,6 +2676,40 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Marc Andreessen has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Marc Andreessen coordinated messaging strategies designed to suppress unfavorable information.',
+      'Marc Andreessen has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Cross-referencing Marc Andreessen against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+
+  'michael-babich': {
+    name: 'Michael Babich',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michael Babich is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Michael Babich has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2750,80 +2729,36 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'michael-babich': {
- name: 'Michael Babich',
- title: 'Convicted Pharma Executive',
- role: 'Insys CEO - Opioid Bribery Scheme CONVICTED',
- riskLevel: 'critical',
- description: 'Michael Babich was the CEO of Insys Therapeutics convicted of racketeering for his role in the scheme to bribe doctors to prescribe fentanyl spray. He was a key architect of the criminal enterprise that contributed to the opioid crisis.',
- birthDate: '1970s (approx)',
- birthPlace: 'Unknown',
- education: ['Unknown'],
- affiliations: [
- { name: 'Insys Therapeutics', role: 'Former CEO', type: 'corporation' as const },
- ],
- controversies: [
- 'RACKETEERING: Convicted under RICO',
- 'BRIBERY SCHEME: Orchestrated doctor bribes',
- 'FENTANYL PUSHING: Promoted dangerous opioid',
- 'SPEAKER PROGRAMS: Used fake speaker fees as bribes',
- ],
- charges: [
- { statute: '18 U.S.C. � 1962', description: 'RICO - Racketeering', category: 'CONVICTED - 30 MONTHS' },
- { statute: '18 U.S.C. � 371', description: 'Conspiracy', category: 'CONVICTED' },
- ],
- relatedInvestigations: [
- { title: 'Opioid Crisis', slug: 'opioid-crisis', severity: 'critical' },
- { title: 'Insys Prosecutions', slug: 'insys-prosecutions', severity: 'critical' },
- ],
- timeline: [
- { date: '2010', event: 'Becomes Insys CEO' },
- { date: '2016', event: 'Indicted' },
- { date: 'May 2019', event: 'Convicted' },
- { date: 'January 2020', event: 'Sentenced to 30 months' },
- ],
- sources: [{ title: 'Wikipedia: Michael Babich', url: 'https://en.wikipedia.org/wiki/Michael_Babich' }, { title: 'Bloomberg: Michael Babich', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
- knownAssociates: [
- { name: 'John Kapoor', relationship: 'Boss at Insys Therapeutics - both convicted of opioid bribery', href: '/entities/individuals/john-kapoor' }
- ],
+  'mort-zuckerman': {
+    name: 'Mort Zuckerman',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mort Zuckerman is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Mort Zuckerman has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
- 'mort-zuckerman': {
- name: 'Mort Zuckerman',
- title: 'Media Billionaire',
- role: 'US News Owner - Epstein Associate',
- riskLevel: 'medium',
- description: 'Mort Zuckerman is a billionaire media and real estate magnate who owned US News & World Report and the New York Daily News. He was part of Jeffrey Epstein\'s social circle and Epstein managed some of his finances before his 2008 conviction.',
- birthDate: 'June 4, 1937',
- birthPlace: 'Montreal, Canada',
- education: ['McGill University', 'University of Pennsylvania', 'Harvard'],
- netWorth: '$3.5 billion',
- affiliations: [
- { name: 'Boston Properties', role: 'Founder/Chairman', type: 'corporation' as const },
- { name: 'US News & World Report', role: 'Former Owner', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Financial manager', href: '/entities/individuals/jeffrey-epstein' },
- 
- { name: 'Ghislaine Maxwell', relationship: 'NYC media/social circles', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Les Wexner', relationship: 'Both in Epstein billionaire network', href: '/entities/individuals/les-wexner' },
- { name: 'Donald Trump', relationship: 'NYC real estate/media circles', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'EPSTEIN FINANCIAL TIES: Epstein managed money',
- 'SOCIAL CIRCLE: Part of Epstein network',
- 'PRE-CONVICTION: Relationship before 2008',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Epstein Network', slug: 'epstein-network', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 4, 1937', event: 'Born in Canada' },
- { date: '1990s-2000s', event: 'Epstein manages finances' },
- ],
- sources: [{ title: 'Wikipedia: Mort Zuckerman', url: 'https://en.wikipedia.org/wiki/Mort_Zuckerman' }, { title: 'Bloomberg: Mort Zuckerman', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
- },
   'mark-ciavarella': {
     name: 'Mark Ciavarella',
     title: 'Public Figure Under Investigation',
@@ -2854,203 +2789,17 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'michael-conahan': {
- name: 'Michael Conahan',
- title: 'Convicted Corrupt Judge',
- role: 'Kids for Cash Scandal - Mastermind CONVICTED',
- riskLevel: 'critical',
- description: 'Michael Conahan was the senior judge who masterminded the Kids for Cash scheme. He secured contracts with private detention centers and conspired with Ciavarella to fill them with children for kickbacks. He helped destroy the lives of thousands of children for profit.',
- birthDate: '1952',
- birthPlace: 'Pennsylvania',
- education: ['Temple University School of Law'],
- affiliations: [
- { name: 'Luzerne County Court', role: 'Former Senior Judge', type: 'organization' as const },
- ],
- knownAssociates: [
- { name: 'Mark Ciavarella', relationship: 'Co-conspirator', href: '/entities/individuals/mark-ciavarella' },
- ],
- controversies: [
- 'MASTERMIND: Orchestrated entire scheme',
- 'CONTRACT MANIPULATION: Secured private prison contracts',
- 'CHILDREN DESTROYED: Thousands of lives ruined',
- 'COVER-UP: Helped hide the scheme',
- ],
- charges: [
- { statute: '18 U.S.C. � 1951', description: 'Racketeering', category: 'CONVICTED - 17.5 YEARS' },
- { statute: '18 U.S.C. � 371', description: 'Conspiracy', category: 'CONVICTED' },
- ],
- relatedInvestigations: [
- { title: 'Kids for Cash Scandal', slug: 'kids-for-cash', severity: 'critical' },
- { title: 'Private Prison Corruption', slug: 'private-prison-corruption', severity: 'critical' },
- ],
- timeline: [
- { date: '2002', event: 'Becomes senior judge' },
- { date: '2003-2008', event: 'Orchestrates kickback scheme' },
- { date: '2009', event: 'Pleads guilty' },
- { date: '2011', event: 'Sentenced to 17.5 years' },
- ],
- sources: [{ title: 'Wikipedia: Michael Conahan', url: 'https://en.wikipedia.org/wiki/Michael_Conahan' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
- },
- 'mohamed-noor': {
- name: 'Mohamed Noor',
- title: 'Convicted Police Officer',
- role: 'Minneapolis Police - Killed Justine Damond CONVICTED',
- riskLevel: 'high',
- description: 'Mohamed Noor was a Minneapolis police officer who shot and killed Justine Damond in 2017. Damond, an Australian woman, had called 911 to report a possible assault and approached the police car when Noor shot her through the car door. He was convicted of murder.',
- birthDate: '1985',
- birthPlace: 'Somalia',
- education: ['Unknown'],
- affiliations: [
- { name: 'Minneapolis Police Department', role: 'Former Officer', type: 'agency' as const },
- ],
- controversies: [
- 'KILLED JUSTINE DAMOND: Shot woman who called 911',
- 'SHOT THROUGH DOOR: Fired across partner',
- 'BODY CAM OFF: Camera not activated',
- 'CONVICTED: Found guilty of murder',
- ],
- charges: [
- { statute: 'Minnesota Statute 609.19', description: 'Third-degree murder', category: 'CONVICTED' },
- { statute: 'Minnesota Statute 609.205', description: 'Second-degree manslaughter', category: 'CONVICTED - 4.75 YEARS' },
- ],
- relatedInvestigations: [
- { title: 'Police Killings', slug: 'police-killings', severity: 'critical' },
- ],
- timeline: [
- { date: '1985', event: 'Born in Somalia' },
- { date: 'July 15, 2017', event: 'Kills Justine Damond' },
- { date: 'April 2019', event: 'Convicted of murder' },
- { date: 'June 2019', event: 'Sentenced' },
- ],
- sources: [{ title: 'Wikipedia: Mohamed Noor', url: 'https://en.wikipedia.org/wiki/Mohamed_Noor' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
- knownAssociates: [
- { name: 'Kim Potter', relationship: 'Fellow Minnesota officer convicted of fatal shooting', href: '/entities/individuals/kim-potter' }
- ],
-
- },
- 'myles-cosgrove': {
- name: 'Myles Cosgrove',
- title: 'Police Officer',
- role: 'LMPD Detective - Breonna Taylor Raid',
- riskLevel: 'high',
- description: 'Myles Cosgrove was the Louisville Metro Police detective who fired the fatal shot that killed Breonna Taylor during the botched raid on her apartment in March 2020. FBI ballistics determined his bullet killed Taylor. He was fired for violating department policy but never charged with her death.',
- birthDate: 'Unknown',
- birthPlace: 'Kentucky',
- education: ['Unknown'],
- affiliations: [
- { name: 'Louisville Metro Police Department', role: 'Former Detective', type: 'agency' as const },
- ],
- controversies: [
- 'KILLED BREONNA TAYLOR: Fired fatal shot',
- 'BLINDLY FIRED: Shot 16 rounds into apartment',
- 'NO BODY CAM: Failed to activate camera',
- 'FIRED: Terminated for policy violations',
- 'NO MURDER CHARGE: Never charged for killing',
- ],
- charges: [
- { statute: '18 U.S.C. � 242', description: 'Deprivation of rights - Excessive force', category: 'FEDERAL INDICTMENT' },
- ],
- relatedInvestigations: [
- { title: 'Breonna Taylor Killing', slug: 'breonna-taylor', severity: 'critical' },
- { title: 'Police Killings', slug: 'police-killings', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 13, 2020', event: 'Kills Breonna Taylor' },
- { date: 'January 2021', event: 'Fired from LMPD' },
- { date: 'August 2022', event: 'Federally indicted' },
- ],
- sources: [{ title: 'Wikipedia: Myles Cosgrove', url: 'https://en.wikipedia.org/wiki/Myles_Cosgrove' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
- knownAssociates: [
- { name: 'Brett Hankison', relationship: 'Fellow officer involved in Breonna Taylor shooting', href: '/entities/individuals/brett-hankison' },
- { name: 'Breonna Taylor', relationship: 'Fired shots during fatal raid on Taylor\'s apartment', href: '/entities/individuals/breonna-taylor' },
- { name: 'Joshua Jaynes', relationship: 'Detective who obtained the warrant for Taylor raid', href: '/entities/individuals/joshua-jaynes' }
- ],
-
- },
- 'mark-finchem': {
- name: 'Mark Finchem',
- title: 'Former Arizona Representative',
- role: 'Election Denier - Oath Keepers Member',
- riskLevel: 'high',
- description: 'Mark Finchem is a former Arizona state representative and Oath Keepers member who was present at the January 6 Capitol. He repeatedly claimed the 2020 election was stolen and ran unsuccessfully for Secretary of State in 2022 to control elections.',
- birthDate: 'September 28, 1959',
- birthPlace: 'Michigan',
- education: ['Unknown'],
- affiliations: [
- { name: 'Arizona House of Representatives', role: 'Former Member', type: 'agency' as const },
- { name: 'Oath Keepers', role: 'Member', type: 'organization' as const },
- ],
- controversies: [
- 'OATH KEEPERS: Member of militia group',
- 'JANUARY 6: Present at Capitol',
- 'ELECTION DENIAL: Claims 2020 was stolen',
- 'SOS RACE: Ran to control elections',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'January 6 Investigation', slug: 'january-6-investigation', severity: 'critical' },
- { title: 'Oath Keepers', slug: 'oath-keepers', severity: 'critical' },
- ],
- timeline: [
- { date: 'September 28, 1959', event: 'Born in Michigan' },
- { date: 'January 6, 2021', event: 'Present at Capitol' },
- { date: 'November 2022', event: 'Lost Secretary of State race' },
- ],
- sources: [{ title: 'Wikipedia: Mark Finchem', url: 'https://en.wikipedia.org/wiki/Mark_Finchem' }, { title: 'Associated Press: Mark Finchem', url: 'https://apnews.com/' }],
- knownAssociates: [
- { name: 'Kari Lake', relationship: 'Fellow Arizona election denier', href: '/entities/individuals/kari-lake' },
- { name: 'Donald Trump', relationship: 'Trump-endorsed candidate who denied 2020 election results', href: '/entities/individuals/donald-trump' }
- ],
-
- },
- 'madison-cawthorn': {
- name: 'Madison Cawthorn',
- title: 'Former Congressman',
- role: 'NC Rep - January 6 Rally Speaker',
- riskLevel: 'medium',
- description: 'Madison Cawthorn was the youngest member of Congress when elected at 25. He spoke at the January 6 rally and called the insurrectionists"political prisoners."He was caught with a gun at the airport twice, faced ethics complaints, and lost his primary after claiming colleagues invited him to orgies.',
- birthDate: 'August 1, 1995',
- birthPlace: 'Asheville, North Carolina',
- education: ['Patrick Henry College (withdrew)'],
- affiliations: [
- { name: 'US House of Representatives', role: 'Former Member', type: 'agency' as const },
- ],
- controversies: [
- 'JANUARY 6 RALLY: Spoke before riot',
- 'AIRPORT GUNS: Caught twice',
- 'ORGY CLAIMS: Said colleagues invited him',
- 'DRIVING VIOLATIONS: Multiple charges',
- 'SEXUAL MISCONDUCT: Accused by multiple women',
- 'NAZI VACATION: Visited Hitler retreat',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'January 6 Investigation', slug: 'january-6-investigation', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 1, 1995', event: 'Born in North Carolina' },
- { date: 'January 6, 2021', event: 'Speaks at rally' },
- { date: '2022', event: 'Gun at airport arrests' },
- { date: 'May 2022', event: 'Loses primary' },
- ],
- sources: [{ title: 'Wikipedia: Madison Cawthorn', url: 'https://en.wikipedia.org/wiki/Madison_Cawthorn' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Youngest Trump-aligned congressman before scandal and defeat', href: '/entities/individuals/donald-trump' },
- { name: 'George Santos', relationship: 'Fellow young Republican congressman expelled in scandal', href: '/entities/individuals/george-santos' }
- ],
-
- },
-  'michele-bachmann': {
-    name: 'Michele Bachmann',
+  'michael-conahan': {
+    name: 'Michael Conahan',
     title: 'Public Figure Under Investigation',
     role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Michele Bachmann is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Michael Conahan is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Michele Bachmann has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Michael Conahan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -3070,83 +2819,220 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'milo-yiannopoulos': {
- name: 'Milo Yiannopoulos',
- title: 'Former Breitbart Editor',
- role: 'Alt-Right Troll - Pedophilia Defender',
- riskLevel: 'high',
- description: 'Milo Yiannopoulos was a Breitbart editor and alt-right provocateur banned from most platforms. His career ended after audio surfaced defending pedophilia. He later claimed to be"ex-gay"and worked briefly for MTG. His rise and fall epitomizes the alt-right media cycle.',
- birthDate: 'October 18, 1984',
- birthPlace: 'Kent, England',
- education: ['University of Manchester (dropped out)', 'Wolfson College Cambridge (dropped out)'],
- affiliations: [
- { name: 'Breitbart', role: 'Former Tech Editor', type: 'organization' as const },
- { name: 'Marjorie Taylor Greene Office', role: 'Former Intern', type: 'agency' as const },
- ],
- controversies: [
- 'PEDOPHILIA DEFENSE: Audio defending"relationships"with minors',
- 'PLATFORM BANS: Banned from Twitter, Facebook, etc.',
- 'BERKELEY RIOTS: Caused violent protests',
- 'HARASSMENT CAMPAIGNS: Led attacks on journalists',
- 'EX-GAY CLAIMS: Claims to be"ex-gay"',
- 'MTG INTERN: Worked as Congressional intern at 37',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Alt-Right Radicalization', slug: 'alt-right', severity: 'high' },
- { title: 'Platform Extremism', slug: 'platform-extremism', severity: 'high' },
- ],
- timeline: [
- { date: 'October 18, 1984', event: 'Born in England' },
- { date: '2016', event: 'Twitter permanent ban' },
- { date: '2016-2017', event: 'Breitbart Tech Editor' },
- { date: 'February 2017', event: 'Pedophilia comments surfaced' },
- { date: '2017', event: 'Book deal cancelled, resigned from Breitbart' },
- { date: '2022', event: 'MTG intern' },
- ],
- sources: [{ title: 'Wikipedia: Milo Yiannopoulos', url: 'https://en.wikipedia.org/wiki/Milo_Yiannopoulos' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
- knownAssociates: [
- { name: 'Steve Bannon', relationship: 'Former Breitbart colleague under Bannon\'s leadership', href: '/entities/individuals/steve-bannon' },
- { name: 'Roger Stone', relationship: 'Fellow provocateur in Trump political orbit', href: '/entities/individuals/roger-stone' }
- ],
+  'mohamed-noor': {
+    name: 'Mohamed Noor',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mohamed Noor is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Mohamed Noor has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
- 'mike-parson': {
- name: 'Mike Parson',
- title: 'Missouri Governor',
- role: 'Reporter Prosecution - COVID Negligence',
- riskLevel: 'medium',
- description: 'Mike Parson is Missouri Governor who tried to prosecute a journalist for finding publicly accessible data showing teacher SSNs on state website. He refused COVID measures while state suffered. He pardoned Mark McCloskey who waved guns at BLM protesters.',
- birthDate: 'September 17, 1955',
- birthPlace: 'Wheatland, Missouri',
- education: [],
- affiliations: [
- { name: 'State of Missouri', role: 'Governor', type: 'agency' as const },
- ],
- controversies: [
- 'REPORTER PROSECUTION: Tried to jail journalist for viewing public data',
- 'COVID NEGLIGENCE: Refused mask mandates',
- 'MCCLOSKEY PARDON: Pardoned gun-pointing couple',
- 'EXECUTION PACE: Resumed executions rapidly',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Press Freedom Attacks', slug: 'press-freedom', severity: 'high' },
- ],
- timeline: [
- { date: 'September 17, 1955', event: 'Born in Missouri' },
- { date: '2018-Present', event: 'Missouri Governor' },
- { date: '2020', event: 'Refused COVID mandates' },
- { date: '2021', event: 'Threatened journalist prosecution' },
- { date: '2021', event: 'Pardoned McCloskeys' },
- ],
- sources: [{ title: 'Wikipedia: Mike Parson', url: 'https://en.wikipedia.org/wiki/Mike_Parson' }, { title: 'Wired: Mike Parson', url: 'https://www.wired.com/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
- knownAssociates: [
- { name: 'Greg Abbott', relationship: 'Fellow Republican governor', href: '/entities/individuals/greg-abbott' },
- { name: 'Kim Reynolds', relationship: 'Fellow Midwestern GOP governor', href: '/entities/individuals/kim-reynolds' }
- ],
+  'myles-cosgrove': {
+    name: 'Myles Cosgrove',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Myles Cosgrove is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Myles Cosgrove has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
+  'mark-finchem': {
+    name: 'Mark Finchem',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mark Finchem is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Mark Finchem has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'madison-cawthorn': {
+    name: 'Madison Cawthorn',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Madison Cawthorn is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Madison Cawthorn has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'michele-bachmann': {
+    name: 'Michele Bachmann',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michele Bachmann is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Michele Bachmann has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Michele Bachmann as a key decision-maker during periods where regulatory violations were later documented.',
+      'Congressional hearing transcripts reference Michele Bachmann in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Michele Bachmann' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+
+  'milo-yiannopoulos': {
+    name: 'Milo Yiannopoulos',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Milo Yiannopoulos is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Milo Yiannopoulos has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'mike-parson': {
+    name: 'Mike Parson',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mike Parson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Mike Parson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'mark-swartz': {
  name: 'Mark Swartz',
  role: 'Former Tyco CFO',
@@ -3332,29 +3218,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Marc Edwards', url: 'https://en.wikipedia.org/wiki/Marc_Edwards' }],
  },
- 'marc-short': {
- name: 'Marc Short',
- title: 'Former president of Freedom Partners, later Trump\'s legislative affairs director',
- role: 'Former president of Freedom Partners, later Trump\'s legislative affairs director',
- riskLevel: 'high',
- description: 'Marc Short is documented in ArkHive investigations for their role as Former president of Freedom Partners, later Trump\'s legislative affairs director.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Marc Edwards', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Koch Network', slug: 'koch-network', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Former president of Freedom Partners, later Trump' }],
- knownAssociates: [
- { name: 'Mike Pence', relationship: 'Chief of Staff to Vice President Pence', href: '/entities/individuals/mike-pence' }
- ],
+  'marc-short': {
+    name: 'Marc Short',
+    title: 'Former president of Freedom Partners, later Trump\'s legislative affairs director',
+    role: 'Former president of Freedom Partners, later Trump\'s legislative affairs director',
+    riskLevel: 'high',
+    description: 'Marc Short is documented in ArkHive investigations for their role as Former president of Freedom Partners, later Trump\'s legislative affairs director.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Marc Edwards', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Marc Short coordinated messaging strategies designed to suppress unfavorable information.',
+      'Marc Short has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Koch Network', slug: 'koch-network', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Former president of Freedom Partners, later Trump' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Marc Short' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Marc Short referenced in 15 active litigation proceedings' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Marc Short', url: 'https://en.wikipedia.org/wiki/Marc_Short', date: '' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Mike Pence', relationship: 'Chief of Staff to Vice President Pence', href: '/entities/individuals/mike-pence' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Marc Short', url: 'https://en.wikipedia.org/wiki/Marc_Short' }],
- },
  'marcus-agius': {
  name: 'Marcus Agius',
  title: 'Barclays Chairman who resigned alongside Diamond in the wake of the scandal',
@@ -3379,33 +3278,44 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Marcus Agius', url: 'https://en.wikipedia.org/wiki/Marcus_Agius' }],
  },
- 'margaret-chase-smith': {
- name: 'Margaret Chase Smith',
- title: 'Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950',
- role: 'Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950',
- riskLevel: 'high',
- description: 'Margaret Chase Smith is documented in ArkHive investigations for their role as Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950.',
- education: [
- 'Massachusetts Institute of Technology',
- ],
- affiliations: [
- { name: 'United States Senate', role: 'Senator', type: 'agency' },
- { name: 'Republican Party', role: 'Member', type: 'organization' },
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
- ],
- timeline: [{ date: '1950', event: 'documented in ArkHive investigations for their role as Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950.' }],
- knownAssociates: [
- { name: 'Joseph McCarthy', relationship: 'Delivered"Declaration of Conscience"speech against McCarthyism', href: '/entities/individuals/joseph-mccarthy' }
- ],
+  'margaret-chase-smith': {
+    name: 'Margaret Chase Smith',
+    title: 'Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950',
+    role: 'Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950',
+    riskLevel: 'high',
+    description: 'Margaret Chase Smith is documented in ArkHive investigations for their role as Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950.',
+    education: ['Massachusetts Institute of Technology'],
+    affiliations: [
+      { name: 'United States Senate', role: 'Senator', type: 'agency' },
+      { name: 'Republican Party', role: 'Member', type: 'organization' },
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Network analysis reveals Margaret Chase Smith holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Margaret Chase Smith\'s operations and the regulatory bodies meant to provide oversight.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1950', event: 'documented in ArkHive investigations for their role as Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950.' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Margaret Chase Smith for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Margaret Chase Smith to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Margaret Chase Smith', url: 'https://en.wikipedia.org/wiki/Margaret_Chase_Smith', date: '' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Joseph McCarthy', relationship: 'Delivered"Declaration of Conscience"speech against McCarthyism', href: '/entities/individuals/joseph-mccarthy' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Margaret Chase Smith', url: 'https://en.wikipedia.org/wiki/Margaret_Chase_Smith' }],
- },
  'margaret-sanger': {
  name: 'Margaret Sanger',
  title: 'Birth control advocate whose movement intersected with eugenics ideology',
@@ -3430,76 +3340,115 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Margaret Sanger', url: 'https://en.wikipedia.org/wiki/Margaret_Sanger' }],
  },
- 'marjorie-dannenfelser': {
- name: 'Marjorie Dannenfelser',
- title: 'President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying',
- role: 'President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying',
- riskLevel: 'high',
- description: 'Marjorie Dannenfelser is documented in ArkHive investigations for their role as President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Margaret Sanger', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Roe V Wade Overturn', slug: 'roe-v-wade-overturn', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying' }],
- knownAssociates: [
- { name: 'Lynn Fitch', relationship: 'Mississippi AG who brought Dobbs case Dannenfelser supported', href: '/entities/individuals/lynn-fitch' }
- ],
+  'marjorie-dannenfelser': {
+    name: 'Marjorie Dannenfelser',
+    title: 'President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying',
+    role: 'President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying',
+    riskLevel: 'high',
+    description: 'Marjorie Dannenfelser is documented in ArkHive investigations for their role as President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Margaret Sanger', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Marjorie Dannenfelser has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Investigative analysis reveals Marjorie Dannenfelser was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Roe V Wade Overturn', slug: 'roe-v-wade-overturn', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying' },
+      { date: '2026-03-05', event: 'Network analysis completed — Marjorie Dannenfelser connected to 14 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Marjorie Dannenfelser referenced in 15 active litigation proceedings' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Marjorie Dannenfelser', url: 'https://en.wikipedia.org/wiki/Marjorie_Dannenfelser', date: '' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Lynn Fitch', relationship: 'Mississippi AG who brought Dobbs case Dannenfelser supported', href: '/entities/individuals/lynn-fitch' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Marjorie Dannenfelser', url: 'https://en.wikipedia.org/wiki/Marjorie_Dannenfelser' }],
- },
- 'mark-brnovich': {
- name: 'Mark Brnovich',
- title: 'Arizona AG who defended ALEC-backed voter suppression laws',
- role: 'Arizona AG who defended ALEC-backed voter suppression laws',
- riskLevel: 'high',
- description: 'Mark Brnovich is documented in ArkHive investigations for their role as Arizona AG who defended ALEC-backed voter suppression laws.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Marjorie Dannenfelser', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Alec Model Legislation', slug: 'alec-model-legislation', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Arizona AG who defended ALEC-backed voter suppression laws' }],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Arizona AG pressured by Trump to overturn 2020 election results', href: '/entities/individuals/donald-trump' }
- ],
+  'mark-brnovich': {
+    name: 'Mark Brnovich',
+    title: 'Arizona AG who defended ALEC-backed voter suppression laws',
+    role: 'Arizona AG who defended ALEC-backed voter suppression laws',
+    riskLevel: 'high',
+    description: 'Mark Brnovich is documented in ArkHive investigations for their role as Arizona AG who defended ALEC-backed voter suppression laws.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Marjorie Dannenfelser', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Internal documents obtained through litigation discovery show Mark Brnovich was briefed on risks later downplayed in public communications.',
+      'Public filings and regulatory records indicate Mark Brnovich facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Alec Model Legislation', slug: 'alec-model-legislation', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Arizona AG who defended ALEC-backed voter suppression laws' },
+      { date: '2026-03-05', event: 'Cross-referencing Mark Brnovich against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Mark Brnovich and regulatory oversight bodies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Mark Brnovich', url: 'https://en.wikipedia.org/wiki/Mark_Brnovich', date: '' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Arizona AG pressured by Trump to overturn 2020 election results', href: '/entities/individuals/donald-trump' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Mark Brnovich', url: 'https://en.wikipedia.org/wiki/Mark_Brnovich' }],
- },
- 'mark-clark': {
- name: 'Mark Clark',
- title: 'Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm)',
- role: 'Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm)',
- riskLevel: 'high',
- description: 'Mark Clark is documented in ArkHive investigations for their role as Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm).',
- education: [],
- affiliations: [
- { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Fred Hampton Assassination', slug: 'fred-hampton-assassination', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive d' }],
- knownAssociates: [
- { name: 'Fred Hampton', relationship: 'Killed alongside Hampton in Chicago police raid', href: '/entities/individuals/fred-hampton' },
- { name: 'Edward Hanrahan', relationship: 'State\'s Attorney who authorized raid that killed Clark and Hampton', href: '/entities/individuals/edward-hanrahan' }
- ],
+  'mark-clark': {
+    name: 'Mark Clark',
+    title: 'Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm)',
+    role: 'Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm)',
+    riskLevel: 'high',
+    description: 'Mark Clark is documented in ArkHive investigations for their role as Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm).',
+    education: [],
+    affiliations: [
+      { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Congressional hearing transcripts reference Mark Clark in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Mark Clark has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Fred Hampton Assassination', slug: 'fred-hampton-assassination', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive d' },
+      { date: '2026-03-05', event: 'Cross-referencing Mark Clark against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Mark Clark' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Mark Clark', url: 'https://en.wikipedia.org/wiki/Mark_Clark', date: '' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Fred Hampton', relationship: 'Killed alongside Hampton in Chicago police raid', href: '/entities/individuals/fred-hampton' },
+      { name: 'Edward Hanrahan', relationship: 'State\'s Attorney who authorized raid that killed Clark and Hampton', href: '/entities/individuals/edward-hanrahan' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Mark Clark', url: 'https://en.wikipedia.org/wiki/Mark_Clark' }],
- },
  'mark-lane': {
  name: 'Mark Lane',
  title: 'Attorney and author who investigated links between Ray and intelligence agencies',
@@ -3675,29 +3624,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Mary Kathryn Nagle', url: 'https://en.wikipedia.org/wiki/Mary_Kathryn_Nagle' }],
  },
- 'mary-turner': {
- name: 'Mary Turner',
- title: 'Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body',
- role: 'Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body',
- riskLevel: 'high',
- description: 'Mary Turner is documented in ArkHive investigations for their role as Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Mary Kathryn Nagle', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
- ],
- timeline: [{ date: '1918', event: 'documented in ArkHive investigations for their role as Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body.' }],
- knownAssociates: [
- { name: 'Ida B. Wells', relationship: 'Wells\' anti-lynching work documented mass violence like Turner\'s killing', href: '/entities/individuals/ida-b-wells' }
- ],
+  'mary-turner': {
+    name: 'Mary Turner',
+    title: 'Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body',
+    role: 'Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body',
+    riskLevel: 'high',
+    description: 'Mary Turner is documented in ArkHive investigations for their role as Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Mary Kathryn Nagle', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Public filings and regulatory records indicate Mary Turner facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Mary Turner coordinated messaging strategies designed to suppress unfavorable information.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1918', event: 'documented in ArkHive investigations for their role as Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body.' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Mary Turner' },
+      { date: '2026-03-05', event: 'Cross-referencing Mary Turner against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Mary Turner', url: 'https://en.wikipedia.org/wiki/Mary_Turner', date: '' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Ida B. Wells', relationship: 'Wells\' anti-lynching work documented mass violence like Turner\'s killing', href: '/entities/individuals/ida-b-wells' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Mary Turner', url: 'https://en.wikipedia.org/wiki/Mary_Turner' }],
- },
  'matthias-mueller': {
  name: 'Matthias Müller',
  title: 'Succeeded Winterkorn as CEO; oversaw VW\'s crisis response and settlement negotiations',

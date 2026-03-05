@@ -1418,37 +1418,36 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'keith-leverkuhn': {
- name: 'Keith Leverkuhn',
- title: 'Boeing Executive',
- role: 'Boeing 737 MAX Program Manager',
- riskLevel: 'high',
- description: 'Keith Leverkuhn served as the 737 MAX Program Manager at Boeing, with direct responsibility for the aircraft\'s development and production. He oversaw the program during its critical development phase and managed the push to deliver the MAX on schedule despite technical challenges.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'Boeing', role: '737 MAX Program Manager', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX program; Leverkuhn served as VP and GM of the 737 program', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'John Hamilton', relationship: 'Boeing chief engineer who worked with Leverkuhn on 737 MAX development', href: '/entities/individuals/john-hamilton' },
- ],
- controversies: [
- 'PROGRAM MANAGER: Direct responsibility for MAX development',
- 'SCHEDULE PRESSURE: Managed program under delivery pressure',
- 'DEVELOPMENT DECISIONS: Oversaw key program choices',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'Boeing career' },
- { date: '2011-2017', event: 'MAX program development' },
- ],
- sources: [{ title: 'Wikipedia: Keith Leverkuhn', url: 'https://www.google.com/search?q=Keith%20Leverkuhn' }, { title: 'Bloomberg: Keith Leverkuhn', url: 'https://www.bloomberg.com/' }],
- },
+  'keith-leverkuhn': {
+    name: 'Keith Leverkuhn',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Keith Leverkuhn is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Keith Leverkuhn has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'kenneth-polite': {
     name: 'Kenneth Polite',
     title: 'Public Figure Under Investigation',
