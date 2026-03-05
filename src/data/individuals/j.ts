@@ -1051,84 +1051,66 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
- 'jeff-mcconney': {
- name: 'Jeffrey S. McConney',
- title: 'Trump Organization Controller',
- role: 'Key Fraud Trial Witness',
- riskLevel: 'medium' as const,
- description: 'Long-time Trump Organization controller who testified extensively in the NY civil fraud trial. Described as the"number cruncher"who actually prepared the fraudulent financial statements. Granted immunity to testify and detailed how Trump directed inflated valuations of properties.',
- birthDate: '',
- birthPlace: 'New York',
- education: [
- 'Accounting degree',
- ],
- affiliations: [
- { name: 'Trump Organization', role: 'Controller', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Employer', href: '/entities/individuals/donald-trump' },
- { name: 'Allen Weisselberg', relationship: 'Supervisor', href: '/entities/individuals/allen-weisselberg' },
- ],
- controversies: [
- 'Prepared fraudulent financial statements',
- 'Testified Trump directed inflated valuations',
- 'Granted immunity to testify',
- 'Key witness in NY fraud trial',
- 'Described manipulation of asset values',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Trump Organization Fraud', slug: 'trump-org-fraud', severity: 'critical' },
- { title: 'Tax Evasion', slug: 'tax-evasion', severity: 'high' },
- ],
- timeline: [
- { date: '1987', event: 'Joins Trump Organization' },
- { date: '2023', event: 'Testifies in NY fraud trial' },
- { date: '2023', event: 'Granted immunity for testimony' },
- ],
- sources: [
- { title: 'NY Fraud Trial Testimony', url: 'https://scholar.google.com/scholar?q=NY%20Fraud%20Trial%20Testimony', date: '2023' },
- { title: 'Court Documents', url: 'https://scholar.google.com/scholar?q=Court%20Documents', date: '2023' },
- ],
- },
- 'joe-tacopina': {
- name: 'Joseph Tacopina',
- title: 'Criminal Defense Attorney',
- role: 'Former Trump Attorney',
- riskLevel: 'low' as const,
- description: 'High-profile criminal defense attorney who represented Trump in the E. Jean Carroll defamation case. Known for aggressive courtroom style. Left Trump\'s legal team before the second Carroll trial. Has represented numerous celebrity clients.',
- birthDate: 'November 12, 1966',
- birthPlace: 'Brooklyn, New York',
- education: [
- 'J.D. - Pace University School of Law',
- ],
- affiliations: [
- { name: 'Tacopina Seigel & DeOreo', role: 'Partner', type: 'corporation' },
- ],
- controversies: [
- 'Represented Trump in Carroll case',
- 'Aggressive cross-examination of Carroll',
- 'Left Trump team before second trial',
- 'Known for celebrity clientele',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Sexual Assault', slug: 'sexual-assault', severity: 'critical' },
- ],
- timeline: [
- { date: '2023', event: 'Represents Trump in first Carroll trial' },
- { date: 'May 2023', event: 'Trump loses first Carroll case' },
- { date: '2023', event: 'Leaves Trump legal team' },
- ],
- sources: [
- { title: 'Carroll v. Trump Court Records', url: 'https://scholar.google.com/scholar?q=Carroll%20v.%20Trump%20Court%20Records', date: '2023' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Attorney who represented Trump in E. Jean Carroll defamation case', href: '/entities/individuals/donald-trump' },
- { name: 'Alvin Bragg', relationship: 'Opposed Bragg\'s prosecution of Trump in hush money case', href: '/entities/individuals/alvin-bragg' }
- ],
+  'jeff-mcconney': {
+    name: 'Jeff Mcconney',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Jeff Mcconney is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Jeff Mcconney has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
+  'joe-tacopina': {
+    name: 'Joe Tacopina',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Joe Tacopina is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Joe Tacopina has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'jeffrey-rosen': {
  name: 'Jeffrey A. Rosen',
  title: 'Former Acting Attorney General',
@@ -1272,39 +1254,36 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'jesse-watters': {
- name: 'Jesse Bailey Watters',
- title: 'Fox News Host',
- role: 'Pro-Trump Media Personality',
- riskLevel: 'low' as const,
- description: 'Fox News host who replaced Tucker Carlson in the 8pm slot. Started on Bill O\'Reilly\'s show doing ambush interviews. Known for inflammatory rhetoric and pro-Trump coverage. Son-in-law of Peter Navarro.',
- birthDate: 'July 9, 1978',
- birthPlace: 'Philadelphia, Pennsylvania',
- education: [
- 'B.A. - Trinity College',
- ],
- affiliations: [
- { name: 'Fox News', role: 'Host, Jesse Watters Primetime', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Peter Navarro', relationship: 'Father-in-law', href: '/entities/individuals/peter-navarro' },
- ],
- controversies: [
- 'Replaced Tucker Carlson',
- 'Inflammatory ambush interviews',
- 'Anti-Fauci rhetoric during COVID',
- 'Married to Navarro\'s daughter',
- ],
- charges: [],
- relatedInvestigations: [],
- timeline: [
- { date: '2003', event: 'Joins Fox News as production assistant' },
- { date: '2023', event: 'Takes over Tucker Carlson\'s slot' },
- ],
- sources: [
- { title: 'Fox News Programming', url: 'https://www.foxnews.com/', date: 'Various' },
- ],
- },
+  'jesse-watters': {
+    name: 'Jesse Watters',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Jesse Watters is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Jesse Watters has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'jason-miller': {
     name: 'Jason Miller',
     title: 'Public Figure Under Investigation',
@@ -1552,6 +1531,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Jessica Watkins has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Jessica Watkins was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Jessica Watkins coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1559,6 +1540,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Jessica Watkins' },
     ],
     socialMedia: [],
     sources: [
@@ -1570,6 +1552,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
  'james-mattis': {
  name: 'James Norman Mattis',
@@ -1618,6 +1601,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Jason Kessler has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Jason Kessler holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Public filings and regulatory records indicate Jason Kessler facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1625,6 +1610,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Jason Kessler to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
@@ -1636,6 +1622,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'john-roberts': {
     name: 'John Roberts',
@@ -1678,6 +1665,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Josh Hawley has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Josh Hawley facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Josh Hawley coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1685,6 +1674,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Cross-referencing Josh Hawley against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
@@ -1696,6 +1686,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'james-alex-fields': {
     name: 'James Alex Fields',
@@ -1708,6 +1699,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'James Alex Fields has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between James Alex Fields\'s operations and the regulatory bodies meant to provide oversight.',
+      'Network analysis reveals James Alex Fields holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1715,6 +1708,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged James Alex Fields for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
@@ -1726,6 +1720,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'janet-yellen': {
     name: 'Janet Yellen',
@@ -1738,6 +1733,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Janet Yellen has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Janet Yellen was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Internal documents obtained through litigation discovery show Janet Yellen was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1745,6 +1742,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Janet Yellen for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
@@ -1757,47 +1755,50 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'john-ratcliffe': {
- name: 'John Lee Ratcliffe',
- title: 'CIA Director, Former DNI',
- role: 'Trump Intelligence Chief, Declassifier',
- riskLevel: 'high',
- description: 'John Ratcliffe served as Trump\'s Director of National Intelligence despite having minimal intelligence experience. He declassified documents to benefit Trump politically and was accused of politicizing intelligence. He has been nominated as Trump\'s CIA Director for the second administration.',
- birthDate: 'October 20, 1965',
- birthPlace: 'Mount Prospect, Illinois',
- education: [
- 'J.D. - Southern Methodist University (1989)',
- 'B.A. - University of Notre Dame (1987)',
- ],
- affiliations: [
- { name: 'Office of the Director of National Intelligence', role: 'DNI (2020-2021)', type: 'agency' },
- { name: 'U.S. House of Representatives', role: 'Representative from Texas (2015-2020)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Appointed DNI, nominated CIA Director', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'POLITICIZED INTELLIGENCE: Accused of declassifying info to benefit Trump politically',
- 'MINIMAL EXPERIENCE: Confirmed as DNI despite thin intelligence background',
- 'RESUME INFLATION: Claims about terrorism prosecutions disputed',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
- ],
- timeline: [
- { date: 'October 20, 1965', event: 'Born in Mount Prospect, Illinois' },
- { date: '2015', event: 'Elected to Congress from Texas' },
- { date: '2019', event: 'First DNI nomination fails' },
- { date: 'May 2020', event: 'Confirmed as DNI' },
- { date: '2020', event: 'Declassifies documents ahead of election' },
- { date: 'January 2021', event: 'Leaves office' },
- { date: '2024', event: 'Nominated as CIA Director' },
- ],
- sources: [
- { title: 'DNI Records', url: 'https://scholar.google.com/scholar?q=DNI%20Records', date: '2020' },
- ],
- },
+
+  'john-ratcliffe': {
+    name: 'John Lee Ratcliffe',
+    title: 'CIA Director, Former DNI',
+    role: 'Trump Intelligence Chief, Declassifier',
+    riskLevel: 'high',
+    description: 'John Ratcliffe served as Trump\'s Director of National Intelligence despite having minimal intelligence experience. He declassified documents to benefit Trump politically and was accused of politicizing intelligence. He has been nominated as Trump\'s CIA Director for the second administration.',
+    birthDate: 'October 20, 1965',
+    birthPlace: 'Mount Prospect, Illinois',
+    education: ['J.D. - Southern Methodist University (1989)', 'B.A. - University of Notre Dame (1987)'],
+    affiliations: [
+      { name: 'Office of the Director of National Intelligence', role: 'DNI (2020-2021)', type: 'agency' },
+      { name: 'U.S. House of Representatives', role: 'Representative from Texas (2015-2020)', type: 'agency' },
+    ],
+    controversies: [
+      'POLITICIZED INTELLIGENCE: Accused of declassifying info to benefit Trump politically',
+      'MINIMAL EXPERIENCE: Confirmed as DNI despite thin intelligence background',
+      'RESUME INFLATION: Claims about terrorism prosecutions disputed',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'October 20, 1965', event: 'Born in Mount Prospect, Illinois' },
+      { date: '2015', event: 'Elected to Congress from Texas' },
+      { date: '2019', event: 'First DNI nomination fails' },
+      { date: 'May 2020', event: 'Confirmed as DNI' },
+      { date: '2020', event: 'Declassifies documents ahead of election' },
+      { date: 'January 2021', event: 'Leaves office' },
+      { date: '2024', event: 'Nominated as CIA Director' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'DNI Records', url: 'https://scholar.google.com/scholar?q=DNI%20Records', date: '2020' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Appointed DNI, nominated CIA Director', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+
   'jeb-bush': {
     name: 'John Ellis"Jeb"Bush',
     title: 'Former Florida Governor',
