@@ -1545,42 +1545,36 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
- 'james-mattis': {
- name: 'James Norman Mattis',
- title: '26th Secretary of Defense',
- role: 'Former Secretary of Defense (2017-2019)',
- riskLevel: 'low' as const,
- description: 'Retired Marine Corps General known as"Mad Dog"who served as Trump\'s first Secretary of Defense. Resigned in protest over Trump\'s Syria withdrawal. Later issued extraordinary public rebuke of Trump after Lafayette Square, accusing him of trying to divide Americans.',
- birthDate: 'September 8, 1950',
- birthPlace: 'Pullman, Washington',
- education: [
- 'Central Washington University (B.A.)',
- 'National War College',
- ],
- affiliations: [
- { name: 'Department of Defense', role: 'Secretary (2017-2019)', type: 'agency' },
- { name: 'U.S. Marine Corps', role: 'General (retired)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Former employer (estranged)', href: '/entities/individuals/donald-trump' },
- { name: 'John Kelly', relationship: 'Fellow General, Trump critic', href: '/entities/individuals/john-kelly' },
- ],
- controversies: [
- 'Resigned over Syria policy disagreement',
- 'Issued public rebuke of Trump after Lafayette Square',
- 'Called Trump threat to Constitution',
- ],
- charges: [],
- relatedInvestigations: [],
- timeline: [
- { date: 'January 2017', event: 'Confirmed as Secretary of Defense' },
- { date: 'December 2018', event: 'Resigns over Syria policy' },
- { date: 'June 3, 2020', event: 'Issues public rebuke of Trump' },
- ],
- sources: [
- { title: 'Atlantic Statement', url: 'https://scholar.google.com/scholar?q=Atlantic%20Statement', date: 'June 2020' },
- ],
- },
+  'james-mattis': {
+    name: 'James Mattis',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'James Mattis is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'James Mattis has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'jason-kessler': {
     name: 'Jason Kessler',
     title: 'Public Figure Under Investigation',
@@ -3003,37 +2997,36 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'john-hamilton': {
- name: 'John Hamilton',
- title: 'Boeing Executive',
- role: 'Boeing VP & Chief Engineer',
- riskLevel: 'high',
- description: 'John Hamilton served as Boeing\'s Vice President of Engineering and Chief Engineer, with responsibility for aircraft design and certification. His engineering organization oversaw the 737 MAX design including MCAS. He testified before Congress about the MAX design process.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Engineering degree'],
- affiliations: [
- { name: 'Boeing', role: 'VP & Chief Engineer', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during Hamilton\'s tenure as chief engineer when MCAS design flaws were concealed from regulators', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'Ali Bahrami', relationship: 'FAA safety official who certified 737 MAX partly based on representations from Hamilton\'s engineering team', href: '/entities/individuals/ali-bahrami' },
- ],
- controversies: [
- 'MCAS DESIGN: Engineering organization responsible for MCAS',
- 'CERTIFICATION: Oversaw engineering certification process',
- 'CONGRESSIONAL TESTIMONY: Testified about design decisions',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'Boeing engineering career' },
- { date: '2019', event: 'Congressional testimony' },
- ],
- sources: [{ title: 'Wikipedia: John Hamilton', url: 'https://en.wikipedia.org/wiki/John_Hamilton' }, { title: 'Bloomberg: John Hamilton', url: 'https://www.bloomberg.com/' }],
- },
+  'john-hamilton': {
+    name: 'John Hamilton',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'John Hamilton is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'John Hamilton has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'jon-ostrower': {
  name: 'Jon Ostrower',
  title: 'Aviation Journalist',

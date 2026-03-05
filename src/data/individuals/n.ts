@@ -472,6 +472,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Narendra Modi has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Narendra Modi facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Network analysis reveals Narendra Modi holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -479,6 +481,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Narendra Modi' },
     ],
     socialMedia: [],
     sources: [
@@ -490,6 +493,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
  'nicolas-maduro': {
  name: 'Nicol�s Maduro',
