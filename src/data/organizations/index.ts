@@ -738,6 +738,141 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'medium',
     members: 'Unknown',
   },
+  'national-rifle-association': {
+    name: 'National Rifle Association',
+    slug: 'national-rifle-association',
+    type: 'Organization',
+    description: 'National Rifle Association is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'aipac': {
+    name: 'AIPAC',
+    slug: 'aipac',
+    type: 'Organization',
+    description: 'AIPAC is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'koch-network-organizations': {
+    name: 'Koch Network Organizations',
+    slug: 'koch-network-organizations',
+    type: 'Organization',
+    description: 'Koch Network Organizations is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'opus-dei': {
+    name: 'Opus Dei',
+    slug: 'opus-dei',
+    type: 'Organization',
+    description: 'Opus Dei is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'knights-of-malta': {
+    name: 'Knights of Malta',
+    slug: 'knights-of-malta',
+    type: 'Organization',
+    description: 'Knights of Malta is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'chatham-house': {
+    name: 'Chatham House',
+    slug: 'chatham-house',
+    type: 'Organization',
+    description: 'Chatham House is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'club-of-rome': {
+    name: 'Club of Rome',
+    slug: 'club-of-rome',
+    type: 'Organization',
+    description: 'Club of Rome is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'world-health-organization': {
+    name: 'World Health Organization',
+    slug: 'world-health-organization',
+    type: 'Organization',
+    description: 'World Health Organization is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'international-monetary-fund': {
+    name: 'International Monetary Fund',
+    slug: 'international-monetary-fund',
+    type: 'Organization',
+    description: 'International Monetary Fund is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'world-bank-group': {
+    name: 'World Bank Group',
+    slug: 'world-bank-group',
+    type: 'Organization',
+    description: 'World Bank Group is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'bank-for-international-settlements': {
+    name: 'Bank for International Settlements',
+    slug: 'bank-for-international-settlements',
+    type: 'Organization',
+    description: 'Bank for International Settlements is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'project-for-the-new-american-century': {
+    name: 'Project for the New American Century',
+    slug: 'project-for-the-new-american-century',
+    type: 'Organization',
+    description: 'Project for the New American Century is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'center-for-strategic-international-studies': {
+    name: 'Center for Strategic International Studies',
+    slug: 'center-for-strategic-international-studies',
+    type: 'Organization',
+    description: 'Center for Strategic International Studies is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'hudson-institute': {
+    name: 'Hudson Institute',
+    slug: 'hudson-institute',
+    type: 'Organization',
+    description: 'Hudson Institute is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'hoover-institution': {
+    name: 'Hoover Institution',
+    slug: 'hoover-institution',
+    type: 'Organization',
+    description: 'Hoover Institution is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

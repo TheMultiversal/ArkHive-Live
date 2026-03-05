@@ -131,6 +131,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'alexander-nix': {
     name: 'Alexander James Ashburner Nix',
     title: 'Former Cambridge Analytica CEO',
@@ -187,6 +188,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Christopher Wylie', relationship: 'Former employee, whistleblower' },
     ],
   },
+
 
 
 
