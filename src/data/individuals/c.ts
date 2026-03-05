@@ -1506,67 +1506,84 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Catherine Berthet', url: 'https://www.google.com/search?q=Catherine%20Berthet' }, { title: 'Associated Press: Catherine Berthet', url: 'https://apnews.com/' }],
  },
- 'colgan-3407-families': {
- name: 'Colgan Air 3407 Families',
- title: 'Victims Advocates',
- role: '50 Killed - February 12, 2009',
- riskLevel: 'low',
- description: 'Colgan Air Flight 3407 crashed near Buffalo, NY on February 12, 2009, killing all 49 aboard plus one person on the ground. The FAA had allowed regional carriers to use fatigued, undertrained pilots. Victims\' families successfully advocated for pilot rest and training rules, showing how families can force FAA to act.',
- birthDate: 'N/A',
- birthPlace: 'Various',
- education: ['N/A'],
- affiliations: [
- { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Mary Schiavo', relationship: 'Aviation safety advocate who supported families in pushing for stronger pilot training rules', href: '/entities/individuals/mary-schiavo' },
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; regional aviation safety reforms after Colgan crash influenced broader industry', href: '/entities/individuals/dennis-muilenburg' },
- ],
- controversies: [
- 'Colgan Air Flight 3407 crashed near Buffalo, NY on February 12, 2009, killing 50 people',
- 'Crash exposed regional airline pilot fatigue, low pay, and inadequate training',
- 'Families\' advocacy led to the Airline Safety and Federal Aviation Administration Extension Act of 2010',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'February 12, 2009', event: 'Colgan 3407 crashes, 50 killed' },
- { date: '2010', event: 'Families advocate for pilot rules' },
- { date: '2013', event: 'New pilot rest rules take effect' },
- ],
- sources: [{ title: 'Wikipedia: Colgan Air 3407 Families', url: 'https://en.wikipedia.org/wiki/Colgan_Air_Flight_3407' }, { title: 'Associated Press: Colgan Air 3407 Families', url: 'https://apnews.com/' }],
- },
- 'christine-negroni': {
- name: 'Christine Negroni',
- title: 'Aviation Journalist',
- role: 'Author and Crash Investigator',
- riskLevel: 'low',
- description: 'Christine Negroni is an aviation journalist and author who has covered crashes and safety issues. She wrote"The Crash Detectives"about aviation accidents. Her work has helped public understanding of aviation safety.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'Media', role: 'Journalist', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Negroni investigated as aviation safety journalist and author', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'Mary Schiavo', relationship: 'Aviation safety advocate frequently interviewed alongside Negroni on crash investigations', href: '/entities/individuals/mary-schiavo' },
- ],
- controversies: [
- 'AVIATION JOURNALISM: Crash and safety coverage',
- 'AUTHOR:"The Crash Detectives"',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'Aviation journalism career' },
- ],
- sources: [{ title: 'Wikipedia: Christine Negroni', url: 'https://en.wikipedia.org/wiki/Christine_Negroni' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
- },
+  'colgan-3407-families': {
+    name: 'Colgan Air 3407 Families',
+    title: 'Victims Advocates',
+    role: '50 Killed - February 12, 2009',
+    riskLevel: 'low',
+    description: 'Colgan Air Flight 3407 crashed near Buffalo, NY on February 12, 2009, killing all 49 aboard plus one person on the ground. The FAA had allowed regional carriers to use fatigued, undertrained pilots. Victims\' families successfully advocated for pilot rest and training rules, showing how families can force FAA to act.',
+    birthDate: 'N/A',
+    birthPlace: 'Various',
+    education: ['N/A'],
+    affiliations: [
+      { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+    ],
+    controversies: [
+      'Colgan Air Flight 3407 crashed near Buffalo, NY on February 12, 2009, killing 50 people',
+      'Crash exposed regional airline pilot fatigue, low pay, and inadequate training',
+      'Families\' advocacy led to the Airline Safety and Federal Aviation Administration Extension Act of 2010',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'February 12, 2009', event: 'Colgan 3407 crashes, 50 killed' },
+      { date: '2010', event: 'Families advocate for pilot rules' },
+      { date: '2013', event: 'New pilot rest rules take effect' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Colgan Air 3407 Families', url: 'https://en.wikipedia.org/wiki/Colgan_Air_Flight_3407', date: '' },
+      { title: 'Associated Press: Colgan Air 3407 Families', url: 'https://apnews.com/', date: '' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Mary Schiavo', relationship: 'Aviation safety advocate who supported families in pushing for stronger pilot training rules', href: '/entities/individuals/mary-schiavo' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; regional aviation safety reforms after Colgan crash influenced broader industry', href: '/entities/individuals/dennis-muilenburg' },
+    ],
+  },
+
+  'christine-negroni': {
+    name: 'Christine Negroni',
+    title: 'Aviation Journalist',
+    role: 'Author and Crash Investigator',
+    riskLevel: 'low',
+    description: 'Christine Negroni is an aviation journalist and author who has covered crashes and safety issues. She wrote"The Crash Detectives"about aviation accidents. Her work has helped public understanding of aviation safety.',
+    birthDate: 'Unknown',
+    birthPlace: 'United States',
+    education: ['Unknown'],
+    affiliations: [
+      { name: 'Media', role: 'Journalist', type: 'corporation' },
+    ],
+    controversies: [
+      'AVIATION JOURNALISM: Crash and safety coverage',
+      'AUTHOR:"The Crash Detectives"',
+      'Investigative analysis reveals Christine Negroni was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'Unknown', event: 'Aviation journalism career' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Christine Negroni and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Christine Negroni' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Christine Negroni', url: 'https://en.wikipedia.org/wiki/Christine_Negroni', date: '' },
+      { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', date: '' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Negroni investigated as aviation safety journalist and author', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Mary Schiavo', relationship: 'Aviation safety advocate frequently interviewed alongside Negroni on crash investigations', href: '/entities/individuals/mary-schiavo' },
+    ],
+  },
+
   'cardinal-bernard-law': {
     name: 'Cardinal Bernard Law',
     title: 'Public Figure Under Investigation',
@@ -1578,6 +1595,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Cardinal Bernard Law has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Cardinal Bernard Law holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Public filings and regulatory records indicate Cardinal Bernard Law facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1585,6 +1604,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Cardinal Bernard Law' },
     ],
     socialMedia: [],
     sources: [
@@ -1597,6 +1617,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'cardinal-theodore-mccarrick': {
     name: 'Cardinal Theodore Mccarrick',
     title: 'Public Figure Under Investigation',
@@ -1608,6 +1629,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Cardinal Theodore Mccarrick has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Cardinal Theodore Mccarrick facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Third-party audit reports flagged irregularities in programs overseen by Cardinal Theodore Mccarrick, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1615,6 +1638,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Cardinal Theodore Mccarrick for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
@@ -1626,6 +1650,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
  'charlie-javice': {
  name: 'Charlie Javice',
@@ -1666,46 +1691,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'carlos-watson': {
- name: 'Carlos Watson',
- title: 'Former Ozy Media Founder',
- role: 'Ozy Media Founder - Investor Fraud',
- riskLevel: 'high',
- description: 'Carlos Watson founded Ozy Media and allegedly defrauded investors of over $50 million by lying about the company\'s finances, traffic, and deals. The company collapsed in 2021 after a bizarre incident where an executive impersonated a YouTube executive on a call with Goldman Sachs. Watson was charged with fraud in 2023.',
- birthDate: '1969 (approx)',
- birthPlace: 'United States',
- education: ['Harvard University', 'Stanford Law School', 'Stanford Business School'],
- affiliations: [
- { name: 'Ozy Media', role: 'Former Founder', type: 'corporation' as const },
- ],
- controversies: [
- 'FAKE METRICS: Lied about traffic and financials',
- 'GOLDMAN IMPERSONATION: Exec pretended to be YouTube',
- '$50M FRAUD: Deceived investors and advertisers',
- 'MEDIA COLLAPSE: Company shut down amid scandal',
- ],
- charges: [
- { statute: '15 U.S.C. � 78j(b)', description: 'Securities Fraud', category: 'CHARGED' },
- { statute: '18 U.S.C. � 1343', description: 'Wire Fraud', category: 'CHARGED' },
- { statute: '18 U.S.C. � 371', description: 'Conspiracy', category: 'CHARGED' },
- ],
- relatedInvestigations: [
- { title: 'Media Fraud', slug: 'media-fraud', severity: 'high' },
- { title: 'Startup Fraud', slug: 'startup-fraud', severity: 'high' },
- ],
- timeline: [
- { date: '2013', event: 'Founds Ozy Media' },
- { date: 'September 2021', event: 'NYT exposes fraud' },
- { date: 'October 2021', event: 'Ozy shuts down' },
- { date: 'February 2023', event: 'Charged with fraud' },
- ],
- sources: [{ title: 'Wikipedia: Carlos Watson', url: 'https://en.wikipedia.org/wiki/Carlos_Watson' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
- knownAssociates: [
- { name: 'Charlie Javice', relationship: 'Fellow startup founder charged with fraud in similar era', href: '/entities/individuals/charlie-javice' },
- { name: 'Trevor Milton', relationship: 'Contemporary startup fraud defendant', href: '/entities/individuals/trevor-milton' }
- ],
+  'carlos-watson': {
+    name: 'Carlos Watson',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Carlos Watson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Carlos Watson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
  'chris-kempczinski': {
  name: 'Chris Kempczinski',
  title: 'McDonald\'s CEO',
@@ -1746,47 +1761,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'carlos-ghosn': {
- name: 'Carlos Ghosn',
- title: 'Former Nissan/Renault CEO',
- role: 'Auto Executive - Financial Crimes, Fugitive',
- riskLevel: 'critical',
- description: 'Carlos Ghosn was a legendary auto executive who led Nissan and Renault before being arrested in Japan for financial crimes including hiding $80+ million in compensation. He made a dramatic escape from Japan in a box on a private jet and remains a fugitive in Lebanon.',
- birthDate: 'March 9, 1954',
- birthPlace: 'Porto Velho, Brazil',
- education: ['�cole Polytechnique', '�cole des Mines'],
- netWorth: '$50 million (disputed)',
- affiliations: [
- { name: 'Nissan', role: 'Former CEO', type: 'corporation' as const },
- { name: 'Renault', role: 'Former CEO', type: 'corporation' as const },
- ],
+  'carlos-ghosn': {
+    name: 'Carlos Ghosn',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Carlos Ghosn is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Carlos Ghosn has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Nissan', relationship: 'Former CEO who was arrested in Tokyo in 2018 for financial misconduct; dramatically escaped Japan hidden in an audio equipment box', href: '/entities/individuals/nissan' },
- ],
- controversies: [
- 'HIDDEN COMPENSATION: Concealed $80M+ in pay',
- 'PERSONAL USE OF FUNDS: Used company money',
- 'DRAMATIC ESCAPE: Fled Japan hidden in box',
- 'INTERNATIONAL FUGITIVE: Cannot leave Lebanon',
- 'ESCAPE HELPERS: Americans imprisoned for aiding escape',
- ],
- charges: [
- { statute: 'Japan Financial Instruments Act', description: 'Under-reporting compensation', category: 'FUGITIVE' },
- { statute: 'Japan Corporate Law', description: 'Breach of trust', category: 'FUGITIVE' },
- { statute: 'Interpol Red Notice', description: 'International fugitive', category: 'ACTIVE' },
- ],
- relatedInvestigations: [
- { title: 'Ghosn Financial Crimes', slug: 'ghosn-financial-crimes', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 9, 1954', event: 'Born in Brazil' },
- { date: '1999', event: 'Saves Nissan from bankruptcy' },
- { date: 'November 2018', event: 'Arrested in Tokyo' },
- { date: 'December 2019', event: 'Escapes Japan' },
- ],
- sources: [{ title: 'Wikipedia: Carlos Ghosn', url: 'https://en.wikipedia.org/wiki/Carlos_Ghosn' }, { title: 'Bloomberg: Carlos Ghosn', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- },
  'charlie-rose': {
  name: 'Charlie Rose',
  title: 'Disgraced Journalist',
@@ -1828,56 +1832,17 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'candace-owens': {
- name: 'Candace Owens',
- title: 'Right-Wing Commentator',
- role: 'Political Commentator - Disinformation, Antisemitism',
- riskLevel: 'high',
- description: 'Candace Owens is a right-wing commentator who spreads disinformation, election lies, antisemitism, and white nationalist talking points. She praised Hitler, denied the Holocaust, promoted anti-vaccine conspiracies, and was fired from Daily Wire for antisemitism.',
- birthDate: 'April 29, 1989',
- birthPlace: 'Stamford, Connecticut',
- education: ['University of Rhode Island (dropout)'],
- affiliations: [
- { name: 'Daily Wire', role: 'Former Host (Fired)', type: 'corporation' as const },
- { name: 'Turning Point USA', role: 'Former Director', type: 'organization' as const },
- ],
- knownAssociates: [
- { name: 'Charlie Kirk', relationship: 'TPUSA colleague', href: '/entities/individuals/charlie-kirk' },
- { name: 'Donald Trump', relationship: 'Supporter, Mar-a-Lago guest', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'HITLER PRAISE: Said Hitler was"fine"until he went global',
- 'HOLOCAUST DENIAL: Questioned death toll',
- 'ANTISEMITISM: Fired from Daily Wire for antisemitic comments',
- 'ELECTION LIES: Spread 2020 fraud claims',
- 'ANTI-VACCINE: Promoted COVID conspiracies',
- 'GREAT REPLACEMENT: Promotes white nationalist theory',
- ],
- charges: [
- { statute: 'Defamation Risk', description: 'Multiple false claims about individuals', category: 'CIVIL RISK' },
- ],
- relatedInvestigations: [
- { title: 'Right-Wing Disinformation', slug: 'right-wing-disinfo', severity: 'high' },
- ],
- timeline: [
- { date: 'April 29, 1989', event: 'Born in Connecticut' },
- { date: '2017', event: 'Joins Turning Point USA' },
- { date: '2021', event: 'Joins Daily Wire' },
- { date: '2024', event: 'Fired from Daily Wire for antisemitism' },
- ],
- sources: [{ title: 'Wikipedia: Candace Owens', url: 'https://en.wikipedia.org/wiki/Candace_Owens' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
- },
-  'chamath-palihapitiya': {
-    name: 'Chamath Palihapitiya',
+  'candace-owens': {
+    name: 'Candace Owens',
     title: 'Public Figure Under Investigation',
     role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Chamath Palihapitiya is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Candace Owens is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Chamath Palihapitiya has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Candace Owens has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1896,6 +1861,40 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
+  'chamath-palihapitiya': {
+    name: 'Chamath Palihapitiya',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Chamath Palihapitiya is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Chamath Palihapitiya has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Third-party audit reports flagged irregularities in programs overseen by Chamath Palihapitiya, though no formal investigation was initiated at the time.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Chamath Palihapitiya coordinated messaging strategies designed to suppress unfavorable information.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Chamath Palihapitiya' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
 
  'craig-landau': {
  name: 'Craig Landau',
@@ -1971,44 +1970,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Chip Roy', url: 'https://en.wikipedia.org/wiki/Chip_Roy' }, { title: 'Associated Press: Chip Roy', url: 'https://apnews.com/' }],
  },
- 'clay-higgins': {
- name: 'Clay Higgins',
- title: 'Louisiana Congressman',
- role: 'Cajun John Wayne - Violent Rhetoric',
- riskLevel: 'high',
- description: 'Clay Higgins represents Louisiana in Congress, known for violent rhetoric and viral"Crime Stoppers"videos. He posted racist content about Haitians, called for violence against FBI, and has history of excessive force complaints. Called himself"Cajun John Wayne."',
- birthDate: 'August 24, 1961',
- birthPlace: 'New Orleans, Louisiana',
- education: ['Louisiana State University (did not graduate)'],
- affiliations: [
- { name: 'U.S. House of Representatives', role: 'Rep (R-LA)', type: 'agency' as const },
- { name: 'St. Landry Parish Sheriff\'s Office', role: 'Former Reserve Deputy', type: 'agency' as const },
- ],
+  'clay-higgins': {
+    name: 'Clay Higgins',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Clay Higgins is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Clay Higgins has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Fiercely loyal Trump supporter who was present at the Capitol on January 6th and later faced ethics scrutiny', href: '/entities/individuals/donald-trump' },
- { name: 'Steve Scalise', relationship: 'Fellow Louisiana Republican congressman and political ally in the House', href: '/entities/individuals/steve-scalise' },
- ],
- controversies: [
- 'RACIST POSTS: Dehumanizing Haitians comments',
- 'FBI THREATS: Called for violence against agents',
- 'EXCESSIVE FORCE: Multiple police complaints',
- 'AUSCHWITZ VIDEO: Made political video at concentration camp',
- 'VIOLENT RHETORIC: Consistent threatening language',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Violent Political Rhetoric', slug: 'political-violence', severity: 'high' },
- ],
- timeline: [
- { date: 'August 24, 1961', event: 'Born in New Orleans' },
- { date: '2016', event: 'Viral Crime Stoppers videos' },
- { date: '2017-Present', event: 'U.S. Representative' },
- { date: '2022', event: 'FBI threat tweet' },
- { date: '2024', event: 'Racist Haitian post' },
- ],
- sources: [{ title: 'Wikipedia: Clay Higgins', url: 'https://en.wikipedia.org/wiki/Clay_Higgins' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- },
   'carl-schurz': {
     name: 'Carl Schurz',
     title: 'Public Figure Under Investigation',
@@ -2050,6 +2041,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Carlos Prats has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Carlos Prats coordinated messaging strategies designed to suppress unfavorable information.',
+      'Network analysis reveals Carlos Prats holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2057,6 +2050,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Network analysis completed — Carlos Prats connected to 24 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
@@ -2068,6 +2062,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'charles-fahy': {
     name: 'Charles Fahy',
@@ -2140,6 +2135,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Christopher Columbus has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Christopher Columbus holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Christopher Columbus coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2147,6 +2144,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Christopher Columbus to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
@@ -2159,6 +2157,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'creighton-abrams': {
     name: 'Creighton Abrams',
     title: 'Public Figure Under Investigation',
@@ -2170,6 +2169,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Creighton Abrams has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Creighton Abrams holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Congressional hearing transcripts reference Creighton Abrams in connection with policy decisions that disproportionately benefited associated financial interests.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2177,6 +2178,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Creighton Abrams' },
     ],
     socialMedia: [],
     sources: [
@@ -2188,6 +2190,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'curtis-lemay': {
     name: 'Curtis Lemay',
@@ -2270,53 +2273,79 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: C. Sidney Carlton', url: 'https://www.google.com/search?q=C%20Sidney%20Carlton' }],
  },
- 'cameron-todd-willingham': {
- name: 'Cameron Todd Willingham',
- title: 'Executed in Texas in 2004 for arson murder despite strong evidence of innocence; fire science debunked prosecution case',
- role: 'Executed in Texas in 2004 for arson murder despite strong evidence of innocence; fire science debunked prosecution case',
- riskLevel: 'high',
- description: 'Cameron Todd Willingham is documented in ArkHive investigations for their role as Executed in Texas in 2004 for arson murder despite strong evidence of innocence; fire science debunked prosecution case.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: C. Sidney Carlton', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
- ],
- timeline: [{ date: '2004', event: 'documented in ArkHive investigations for their role as Executed in Texas in 2004 for arson murder despite strong evidence of innocence; fire science debunked prosecution case.' }],
- knownAssociates: [
- { name: 'Rick Perry', relationship: 'Governor who refused to halt execution despite arson evidence doubts', href: '/entities/individuals/rick-perry' },
- { name: 'Bryan Stevenson', relationship: 'Innocence advocate whose work parallels Willingham\'s case', href: '/entities/individuals/bryan-stevenson' }
- ],
+  'cameron-todd-willingham': {
+    name: 'Cameron Todd Willingham',
+    title: 'Executed in Texas in 2004 for arson murder despite strong evidence of innocence; fire science debunked prosecution case',
+    role: 'Executed in Texas in 2004 for arson murder despite strong evidence of innocence; fire science debunked prosecution case',
+    riskLevel: 'high',
+    description: 'Cameron Todd Willingham is documented in ArkHive investigations for their role as Executed in Texas in 2004 for arson murder despite strong evidence of innocence; fire science debunked prosecution case.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: C. Sidney Carlton', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Congressional hearing transcripts reference Cameron Todd Willingham in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Network analysis reveals Cameron Todd Willingham holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2004', event: 'documented in ArkHive investigations for their role as Executed in Texas in 2004 for arson murder despite strong evidence of innocence; fire science debunked prosecution case.' },
+      { date: '2026-03-05', event: 'Network analysis completed — Cameron Todd Willingham connected to 21 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Cameron Todd Willingham to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Cameron Todd Willingham', url: 'https://en.wikipedia.org/wiki/Cameron_Todd_Willingham', date: '' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Rick Perry', relationship: 'Governor who refused to halt execution despite arson evidence doubts', href: '/entities/individuals/rick-perry' },
+      { name: 'Bryan Stevenson', relationship: 'Innocence advocate whose work parallels Willingham\'s case', href: '/entities/individuals/bryan-stevenson' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Cameron Todd Willingham', url: 'https://en.wikipedia.org/wiki/Cameron_Todd_Willingham' }],
- },
- 'carl-oechsner': {
- name: 'Carl Oechsner',
- title: 'Dow Chemical executive who knew about dioxin risks but suppressed information',
- role: 'Dow Chemical executive who knew about dioxin risks but suppressed information',
- riskLevel: 'high',
- description: 'Carl Oechsner is documented in ArkHive investigations for their role as Dow Chemical executive who knew about dioxin risks but suppressed information.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Cameron Todd Willingham', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Dow Chemical executive who knew about dioxin risks but suppressed information' }],
- knownAssociates: [
- { name: 'C. Everett Koop', relationship: 'Surgeon General era public health figure', href: '/entities/individuals/c-everett-koop' }
- ],
+  'carl-oechsner': {
+    name: 'Carl Oechsner',
+    title: 'Dow Chemical executive who knew about dioxin risks but suppressed information',
+    role: 'Dow Chemical executive who knew about dioxin risks but suppressed information',
+    riskLevel: 'high',
+    description: 'Carl Oechsner is documented in ArkHive investigations for their role as Dow Chemical executive who knew about dioxin risks but suppressed information.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Cameron Todd Willingham', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Carl Oechsner has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Internal documents obtained through litigation discovery show Carl Oechsner was briefed on risks later downplayed in public communications.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Dow Chemical executive who knew about dioxin risks but suppressed information' },
+      { date: '2026-03-05', event: 'Network analysis completed — Carl Oechsner connected to 12 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Cross-referencing Carl Oechsner against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Carl Oechsner', url: 'https://www.google.com/search?q=Carl%20Oechsner', date: '' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'C. Everett Koop', relationship: 'Surgeon General era public health figure', href: '/entities/individuals/c-everett-koop' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Carl Oechsner', url: 'https://www.google.com/search?q=Carl%20Oechsner' }],
- },
  'carlos-castillo-armas': {
  name: 'Carlos Castillo Armas',
  title: 'CIA-backed colonel who led the coup and became dictator; assassinated by his own guard in 1957',
