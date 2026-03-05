@@ -1952,6 +1952,17 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'alibaba-group': {
+    id: '3fe1cd9fe0d4ab00',
+    slug: 'alibaba-group',
+    name: 'Alibaba Group',
+    type: 'corporation',
+    description: 'Alibaba Group is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 
