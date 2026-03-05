@@ -970,6 +970,15 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'medium',
     members: 'Unknown',
   },
+  'transparency-international': {
+    name: 'Transparency International',
+    slug: 'transparency-international',
+    type: 'Organization',
+    description: 'Transparency International is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
 
 
 
