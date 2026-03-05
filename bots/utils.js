@@ -508,69 +508,96 @@ function profileToTsLiteral(slug, profile) {
 
 /**
  * Validate a profile against quality requirements
+ * Now supports per-type validation via config.quality.requiredFieldsByType
+ * @param {object} profile - The profile/entity data to validate
+ * @param {string} [entityType='individual'] - The entity type
  * Returns { valid: boolean, score: number, issues: string[] }
  */
-function validateProfile(profile) {
+function validateProfile(profile, entityType = 'individual') {
   const issues = [];
   let score = 100;
 
+  // Use per-type required fields if available, else default
+  const requiredFields = (config.quality.requiredFieldsByType && config.quality.requiredFieldsByType[entityType])
+    || config.quality.requiredFields;
+
+  // Use per-type risk levels if available
+  const validRiskLevels = (config.quality.riskLevelsByType && config.quality.riskLevelsByType[entityType])
+    || config.quality.riskLevels;
+
   // Required fields
-  for (const field of config.quality.requiredFields) {
+  for (const field of requiredFields) {
     if (!profile[field]) {
       issues.push(`Missing required field: ${field}`);
       score -= 15;
     }
   }
 
-  // Risk level validation
-  if (profile.riskLevel && !config.quality.riskLevels.includes(profile.riskLevel)) {
-    issues.push(`Invalid riskLevel: ${profile.riskLevel}`);
+  // Risk level / severity validation
+  const rlField = entityType === 'investigation' ? 'severity' : 'riskLevel';
+  if (profile[rlField] && !validRiskLevels.includes(profile[rlField])) {
+    issues.push(`Invalid ${rlField}: ${profile[rlField]}`);
     score -= 10;
   }
 
-  // Description length
-  if (profile.description) {
-    if (profile.description.length < config.quality.minDescriptionLength) {
-      issues.push(`Description too short (${profile.description.length} chars, min ${config.quality.minDescriptionLength})`);
+  // Description / summary length
+  const descField = entityType === 'investigation' ? 'summary' : 'description';
+  if (profile[descField]) {
+    if (profile[descField].length < config.quality.minDescriptionLength) {
+      issues.push(`${descField} too short (${profile[descField].length} chars, min ${config.quality.minDescriptionLength})`);
       score -= 10;
     }
-    if (profile.description.length > config.quality.maxDescriptionLength) {
-      issues.push(`Description too long (${profile.description.length} chars, max ${config.quality.maxDescriptionLength})`);
+    if (profile[descField].length > config.quality.maxDescriptionLength) {
+      issues.push(`${descField} too long (${profile[descField].length} chars, max ${config.quality.maxDescriptionLength})`);
       score -= 5;
     }
   }
 
-  // Array minimums
-  if ((profile.controversies || []).length < config.quality.minControversies) {
-    issues.push(`Too few controversies (${(profile.controversies || []).length}, min ${config.quality.minControversies})`);
-    score -= 10;
-  }
-  if ((profile.sources || []).length < config.quality.minSources) {
-    issues.push(`Too few sources (${(profile.sources || []).length}, min ${config.quality.minSources})`);
-    score -= 10;
-  }
-  if ((profile.knownAssociates || []).length < config.quality.minKnownAssociates) {
-    issues.push(`Too few known associates (${(profile.knownAssociates || []).length}, min ${config.quality.minKnownAssociates})`);
-    score -= 5;
-  }
-  if ((profile.timeline || []).length < config.quality.minTimelineEvents) {
-    issues.push(`Too few timeline events (${(profile.timeline || []).length}, min ${config.quality.minTimelineEvents})`);
-    score -= 5;
-  }
-
-  // Source URL validation
-  for (const source of (profile.sources || [])) {
-    if (!source.url || (!source.url.startsWith('http') && !source.url.startsWith('/'))) {
-      issues.push(`Invalid source URL: ${source.url}`);
-      score -= 3;
+  // Individual-specific checks
+  if (entityType === 'individual') {
+    if ((profile.controversies || []).length < config.quality.minControversies) {
+      issues.push(`Too few controversies (${(profile.controversies || []).length}, min ${config.quality.minControversies})`);
+      score -= 10;
+    }
+    if ((profile.sources || []).length < config.quality.minSources) {
+      issues.push(`Too few sources (${(profile.sources || []).length}, min ${config.quality.minSources})`);
+      score -= 10;
+    }
+    if ((profile.knownAssociates || []).length < config.quality.minKnownAssociates) {
+      issues.push(`Too few known associates (${(profile.knownAssociates || []).length}, min ${config.quality.minKnownAssociates})`);
+      score -= 5;
+    }
+    if ((profile.timeline || []).length < config.quality.minTimelineEvents) {
+      issues.push(`Too few timeline events (${(profile.timeline || []).length}, min ${config.quality.minTimelineEvents})`);
+      score -= 5;
+    }
+    for (const source of (profile.sources || [])) {
+      if (!source.url || (!source.url.startsWith('http') && !source.url.startsWith('/'))) {
+        issues.push(`Invalid source URL: ${source.url}`);
+        score -= 3;
+      }
+    }
+    for (const ka of (profile.knownAssociates || [])) {
+      if (ka.href && !ka.href.startsWith('/entities/')) {
+        issues.push(`Invalid associate href: ${ka.href}`);
+        score -= 3;
+      }
     }
   }
 
-  // Known associate href validation
-  for (const ka of (profile.knownAssociates || [])) {
-    if (ka.href && !ka.href.startsWith('/entities/')) {
-      issues.push(`Invalid associate href: ${ka.href}`);
-      score -= 3;
+  // Investigation-specific checks
+  if (entityType === 'investigation') {
+    if ((profile.sources || []).length < config.quality.minSources) {
+      issues.push(`Too few sources (${(profile.sources || []).length}, min ${config.quality.minSources})`);
+      score -= 10;
+    }
+    if ((profile.content || []).length < 2) {
+      issues.push(`Too few content paragraphs (${(profile.content || []).length}, min 2)`);
+      score -= 10;
+    }
+    if ((profile.tags || []).length < 1) {
+      issues.push(`No tags`);
+      score -= 5;
     }
   }
 
@@ -612,6 +639,211 @@ function formatBytes(bytes) {
   if (bytes < 1024) return `${bytes}B`;
   if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)}KB`;
   return `${(bytes / (1024 * 1024)).toFixed(1)}MB`;
+}
+
+// ── Per-Type TS Literal Generators ───────────────────────────────
+
+/**
+ * Serialize an agency profile to TypeScript object literal string
+ * Matches AgencyProfile interface: { id, slug, name, type, description, role, investigationCount, riskLevel, imageUrl? }
+ */
+function agencyToTsLiteral(slug, profile) {
+  const esc = escapeJsString;
+  const lines = [];
+  lines.push(`  '${slug}': {`);
+  lines.push(`    id: '${esc(profile.id || generateId())}',`);
+  lines.push(`    slug: '${esc(slug)}',`);
+  lines.push(`    name: '${esc(profile.name)}',`);
+  lines.push(`    type: 'agency',`);
+  lines.push(`    description: '${esc(profile.description)}',`);
+  lines.push(`    role: '${esc(profile.role || 'Government Agency')}',`);
+  lines.push(`    investigationCount: ${profile.investigationCount || 0},`);
+  lines.push(`    riskLevel: '${profile.riskLevel || 'moderate'}',`);
+  if (profile.imageUrl) lines.push(`    imageUrl: '${esc(profile.imageUrl)}',`);
+  lines.push(`  },`);
+  return lines.join('\n');
+}
+
+/**
+ * Serialize a corporation profile to TypeScript object literal string
+ */
+function corporationToTsLiteral(slug, profile) {
+  const esc = escapeJsString;
+  const lines = [];
+  lines.push(`  '${slug}': {`);
+  lines.push(`    id: '${esc(profile.id || generateId())}',`);
+  lines.push(`    slug: '${esc(slug)}',`);
+  lines.push(`    name: '${esc(profile.name)}',`);
+  lines.push(`    type: 'corporation',`);
+  lines.push(`    description: '${esc(profile.description)}',`);
+  lines.push(`    role: '${esc(profile.role || 'Corporation')}',`);
+  lines.push(`    investigationCount: ${profile.investigationCount || 0},`);
+  lines.push(`    riskLevel: '${profile.riskLevel || 'moderate'}',`);
+  if (profile.imageUrl) lines.push(`    imageUrl: '${esc(profile.imageUrl)}',`);
+  lines.push(`  },`);
+  return lines.join('\n');
+}
+
+/**
+ * Serialize an organization profile to TypeScript object literal string
+ */
+function organizationToTsLiteral(slug, profile) {
+  const esc = escapeJsString;
+  const lines = [];
+  lines.push(`  '${slug}': {`);
+  lines.push(`    name: '${esc(profile.name)}',`);
+  lines.push(`    slug: '${esc(slug)}',`);
+  lines.push(`    type: '${esc(profile.type || 'Organization')}',`);
+  lines.push(`    description: '${esc(profile.description)}',`);
+  lines.push(`    riskLevel: '${profile.riskLevel || 'medium'}',`);
+  lines.push(`    members: '${esc(profile.members || 'Unknown')}',`);
+  if (profile.id) lines.push(`    id: '${esc(profile.id)}',`);
+  lines.push(`  },`);
+  return lines.join('\n');
+}
+
+/**
+ * Serialize an investigation to TypeScript object literal string
+ */
+function investigationToTsLiteral(slug, investigation) {
+  const esc = escapeJsString;
+  const lines = [];
+  lines.push(`  '${slug}': {`);
+  lines.push(`    title: '${esc(investigation.title)}',`);
+  lines.push(`    subtitle: '${esc(investigation.subtitle || '')}',`);
+  lines.push(`    severity: '${investigation.severity || 'medium'}',`);
+  lines.push(`    category: '${esc(investigation.category || 'General')}',`);
+  lines.push(`    date: '${esc(investigation.date || new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }))}',`);
+  lines.push(`    lastUpdated: '${esc(investigation.lastUpdated || new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }))}',`);
+  lines.push(`    summary: '${esc(investigation.summary)}',`);
+  // content array
+  lines.push(`    content: [`);
+  for (const c of (investigation.content || [])) {
+    lines.push(`      '${esc(c)}',`);
+  }
+  lines.push(`    ],`);
+  // tags
+  lines.push(`    tags: [${(investigation.tags || []).map(t => `'${esc(t)}'`).join(', ')}],`);
+  // sources
+  lines.push(`    sources: [`);
+  for (const s of (investigation.sources || [])) {
+    lines.push(`      { title: '${esc(s.title || 'Source')}', url: '${esc(s.url || '')}', type: '${esc(s.type || 'News Report')}' },`);
+  }
+  lines.push(`    ],`);
+  // affiliations
+  lines.push(`    affiliations: [`);
+  for (const a of (investigation.affiliations || [])) {
+    lines.push(`      { id: '${esc(a.id || generateId())}', name: '${esc(a.name)}', type: '${esc(a.type || 'individual')}', relationship: '${esc(a.relationship || 'Connected')}', href: '${esc(a.href || '')}' },`);
+  }
+  lines.push(`    ],`);
+  lines.push(`  },`);
+  return lines.join('\n');
+}
+
+// ── Per-Type Template Generators ─────────────────────────────────
+
+/**
+ * Generate a minimal agency template (used when AI is unavailable)
+ */
+function generateAgencyTemplate(slug, context = {}) {
+  const name = context.name || slugToName(slug);
+  return {
+    id: generateId(),
+    slug,
+    name,
+    type: 'agency',
+    description: `${name} is a government agency identified through ArkHive's investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.`,
+    role: context.role || 'Government Agency',
+    investigationCount: context.investigationCount || 0,
+    riskLevel: context.riskLevel || 'moderate',
+  };
+}
+
+/**
+ * Generate a minimal corporation template
+ */
+function generateCorporationTemplate(slug, context = {}) {
+  const name = context.name || slugToName(slug);
+  return {
+    id: generateId(),
+    slug,
+    name,
+    type: 'corporation',
+    description: `${name} is a corporate entity identified through ArkHive's investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.`,
+    role: context.role || 'Corporation',
+    investigationCount: context.investigationCount || 0,
+    riskLevel: context.riskLevel || 'moderate',
+  };
+}
+
+/**
+ * Generate a minimal organization template
+ */
+function generateOrganizationTemplate(slug, context = {}) {
+  const name = context.name || slugToName(slug);
+  return {
+    name,
+    slug,
+    type: context.type || 'Organization',
+    description: `${name} is an organization identified through ArkHive's investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.`,
+    riskLevel: context.riskLevel || 'medium',
+    members: context.members || 'Unknown',
+  };
+}
+
+/**
+ * Generate a minimal investigation template
+ */
+function generateInvestigationTemplate(slug, context = {}) {
+  const name = context.name || slugToName(slug);
+  const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  return {
+    title: context.title || name,
+    subtitle: context.subtitle || `Investigation into ${name}`,
+    severity: context.severity || 'medium',
+    category: context.category || 'General',
+    date: context.date || today,
+    lastUpdated: today,
+    summary: context.summary || `ArkHive's automated investigative intelligence has flagged ${name} for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.`,
+    content: context.content || [
+      `${name} has been identified through ArkHive's systematic analysis of institutional power structures, corporate networks, and government accountability gaps.`,
+      `This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.`,
+    ],
+    tags: context.tags || ['ArkHive', 'Investigation', 'Accountability'],
+    sources: context.sources || [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: context.affiliations || [],
+  };
+}
+
+/**
+ * Dispatch to the correct TS literal generator based on entity type
+ */
+function entityToTsLiteral(slug, data, entityType) {
+  switch (entityType) {
+    case 'individual': return profileToTsLiteral(slug, data);
+    case 'agency':       return agencyToTsLiteral(slug, data);
+    case 'corporation':  return corporationToTsLiteral(slug, data);
+    case 'organization': return organizationToTsLiteral(slug, data);
+    case 'investigation': return investigationToTsLiteral(slug, data);
+    default: return profileToTsLiteral(slug, data);
+  }
+}
+
+/**
+ * Dispatch to the correct template generator based on entity type
+ */
+function generateEntityTemplate(slug, entityType, context = {}) {
+  switch (entityType) {
+    case 'individual':    return generateProfileTemplate(slug, context);
+    case 'agency':        return generateAgencyTemplate(slug, context);
+    case 'corporation':   return generateCorporationTemplate(slug, context);
+    case 'organization':  return generateOrganizationTemplate(slug, context);
+    case 'investigation': return generateInvestigationTemplate(slug, context);
+    default: return generateProfileTemplate(slug, context);
+  }
 }
 
 /**
@@ -697,4 +929,15 @@ module.exports = {
   formatNumber,
   formatDuration,
   formatBytes,
+  // ── New multi-type generators ──
+  agencyToTsLiteral,
+  corporationToTsLiteral,
+  organizationToTsLiteral,
+  investigationToTsLiteral,
+  entityToTsLiteral,
+  generateAgencyTemplate,
+  generateCorporationTemplate,
+  generateOrganizationTemplate,
+  generateInvestigationTemplate,
+  generateEntityTemplate,
 };

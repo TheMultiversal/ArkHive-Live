@@ -1,4 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
+
+export const dynamic = 'force-static';
 
 // Mock data for search results
 const mockInvestigations = [
@@ -82,73 +84,19 @@ const mockDocuments = [
  }
 ];
 
-export async function GET(request: NextRequest) {
- const searchParams = request.nextUrl.searchParams;
- const query = searchParams.get('q') || '';
- const type = searchParams.get('type') || 'all';
- const severity = searchParams.get('severity');
- const dateFrom = searchParams.get('dateFrom');
- const dateTo = searchParams.get('dateTo');
- const page = parseInt(searchParams.get('page') || '1');
- const limit = parseInt(searchParams.get('limit') || '20');
-
+export async function GET() {
  try {
  // Combine all mock data
- let results: Array<{
+ const results: Array<{
  id: string;
  type: string;
  title: string;
  description: string;
  [key: string]: unknown;
- }> = [];
+ }> = [...mockInvestigations, ...mockEntities, ...mockDocuments];
 
- if (type === 'all' || type === 'investigation') {
- results = [...results, ...mockInvestigations];
- }
- if (type === 'all' || type === 'entity') {
- results = [...results, ...mockEntities];
- }
- if (type === 'all' || type === 'document') {
- results = [...results, ...mockDocuments];
- }
-
- // Filter by query
- if (query) {
- const lowerQuery = query.toLowerCase();
- results = results.filter(item =>
- item.title.toLowerCase().includes(lowerQuery) ||
- item.description.toLowerCase().includes(lowerQuery) ||
- (item.tags as string[])?.some((tag: string) => tag.toLowerCase().includes(lowerQuery))
- );
- }
-
- // Filter by severity (for investigations)
- if (severity && severity !== 'all') {
- results = results.filter(item =>
- item.type !== 'investigation' || (item as typeof mockInvestigations[0]).severity === severity
- );
- }
-
- // Filter by date range
- if (dateFrom || dateTo) {
- results = results.filter(item => {
- if (!('date' in item)) return true;
- const itemDate = new Date(item.date as string);
- if (dateFrom && itemDate < new Date(dateFrom)) return false;
- if (dateTo && itemDate > new Date(dateTo)) return false;
- return true;
- });
- }
-
- // Sort by relevance (simple: exact matches first, then partial)
- if (query) {
- const lowerQuery = query.toLowerCase();
- results.sort((a, b) => {
- const aExact = a.title.toLowerCase() === lowerQuery ? 1 : 0;
- const bExact = b.title.toLowerCase() === lowerQuery ? 1 : 0;
- return bExact - aExact;
- });
- }
+ const page = 1;
+ const limit = 20;
 
  // Pagination
  const total = results.length;
@@ -167,13 +115,9 @@ export async function GET(request: NextRequest) {
  hasMore: start + limit < total
  },
  meta: {
- query,
- type,
- filters: {
- severity,
- dateFrom,
- dateTo
- }
+ query: '',
+ type: 'all',
+ filters: {}
  }
  }
  });

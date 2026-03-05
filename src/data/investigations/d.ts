@@ -484,6 +484,7 @@ const investigations_d: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'disinformation-warfare-infrastructure': {
     title: 'Disinformation Warfare Infrastructure',
     subtitle: 'Investigation into Disinformation Warfare Infrastructure',
@@ -946,7 +947,6 @@ const investigations_d: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_d;

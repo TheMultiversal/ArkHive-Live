@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 import { v4 as uuidv4 } from 'uuid';
 
+export const dynamic = 'force-static';
+
 interface SubmissionData {
  subject: string;
  category: string;

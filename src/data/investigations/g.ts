@@ -732,6 +732,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'gulf-of-tonkin-fabricated-incident': {
     title: 'Gulf of Tonkin Fabricated Incident',
     subtitle: 'Investigation into Gulf of Tonkin Fabricated Incident',
@@ -900,7 +901,6 @@ const investigations_g: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_g;

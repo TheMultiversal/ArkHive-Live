@@ -1754,6 +1754,7 @@ const investigations_c: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'cambridge-analytica-global-operations': {
     title: 'Cambridge Analytica Global Operations',
     subtitle: 'Investigation into Cambridge Analytica Global Operations',
@@ -2468,7 +2469,6 @@ const investigations_c: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_c;

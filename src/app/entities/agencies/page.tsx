@@ -1,954 +1,130 @@
 "use client";
 
-import { useState } from"react";
-import Link from"next/link";
-import { Landmark, ChevronRight, Search, Skull } from"lucide-react";
-import EntityCard, { Entity } from"@/components/cards/EntityCard";
+import { useState, useMemo } from "react";
+import Link from "next/link";
+import { Landmark, ChevronRight, Search, Skull, Filter } from "lucide-react";
+import EntityCard from "@/components/cards/EntityCard";
+import agencyData from "@/data/agencies";
 
-// Agency data
-const agencies: Entity[] = [
- {
- id:"1",
- slug:"doj",
- name:"Department of Justice",
- type:"agency",
- description:"Under Trump, the DOJ became a weapon of political persecution. AG William Barr misrepresented the Mueller Report, intervened in Roger Stone's sentencing, and dropped charges against Michael Flynn.",
- role:"Federal Executive Department",
- investigationCount: 1,
- riskLevel:"extreme",
- },
- {
- id:"2",
- slug:"dhs",
- name:"Department of Homeland Security",
- type:"agency",
- description:"Implemented the Muslim ban, family separation policy, and deployed federal agents against protesters. Stephen Miller's immigration policies traumatized thousands of children.",
- role:"Federal Executive Department",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"3",
- slug:"ice",
- name:"Immigration and Customs Enforcement",
- type:"agency",
- description:"Conducted workplace raids, detained asylum seekers, and became the face of aggressive immigration enforcement. Multiple deaths in custody and forced sterilization allegations.",
- role:"Law Enforcement Agency",
- investigationCount: 1,
- riskLevel:"extreme",
- },
- {
- id:"4",
- slug:"fbi",
- name:"Federal Bureau of Investigation",
- type:"agency",
- description:"Domestic intelligence and law enforcement agency with long history of controversial surveillance programs. Trump repeatedly attacked the FBI while director Comey investigated Russia ties.",
- role:"Intelligence & Law Enforcement",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"5",
- slug:"cia",
- name:"Central Intelligence Agency",
- type:"agency",
- description:"Foreign intelligence service with documented history of torture, black sites, and foreign government coups. MKUltra mind control experiments only scratched the surface.",
- role:"Foreign Intelligence",
- investigationCount: 1,
- riskLevel:"extreme",
- },
- {
- id:"6",
- slug:"nsa",
- name:"National Security Agency",
- type:"agency",
- description:"Global surveillance apparatus exposed by Edward Snowden. PRISM program collected data on millions of Americans while bulk metadata collection violated constitutional protections.",
- role:"Signals Intelligence",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"7",
- slug:"epa",
- name:"Environmental Protection Agency",
- type:"agency",
- description:"Under Scott Pruitt and Andrew Wheeler, the EPA became a tool for industry lobbyists. Rolled back over 100 environmental regulations while suppressing climate science.",
- role:"Independent Federal Agency",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"8",
- slug:"usps",
- name:"United States Postal Service",
- type:"agency",
- description:"Louis DeJoy, a major Trump donor with conflicts of interest, removed 671 mail sorting machines before the 2020 election. An attempted sabotage of mail-in voting.",
- role:"Independent Federal Agency",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"9",
- slug:"secret-service",
- name:"United States Secret Service",
- type:"agency",
- description:"Deleted January 6th text messages. Agents paid inflated rates at Trump properties while the agency faced unprecedented costs protecting Trump's sprawling real estate empire.",
- role:"Federal Law Enforcement",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"10",
- slug:"state-department",
- name:"U.S. Department of State",
- type:"agency",
- description:"Under Trump, career diplomats were sidelined while Giuliani conducted shadow diplomacy. Marie Yovanovitch recalled after smear campaign. Pompeo enabled Saudi arms sales despite objections.",
- role:"Federal Executive Department",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"11",
- slug:"gsa",
- name:"General Services Administration",
- type:"agency",
- description:"Allowed Trump to profit from DC hotel lease. Emily Murphy delayed Biden transition ascertainment for weeks. Failed to enforce conflict of interest provisions.",
- role:"Independent Federal Agency",
- investigationCount: 2,
- riskLevel:"moderate",
- },
- {
- id:"12",
- slug:"treasury",
- name:"U.S. Department of the Treasury",
- type:"agency",
- description:"Mnuchin blocked Trump tax returns, granted sanctions relief to Russian oligarchs, and delivered COVID relief favoring corporations. FinCEN leaks exposed suspicious Trump transactions.",
- role:"Federal Executive Department",
- investigationCount: 3,
- riskLevel:"high",
- },
- {
- id:"13",
- slug:"pentagon",
- name:"U.S. Department of Defense",
- type:"agency",
- description:"National Guard deployment delayed on January 6th. Esper fired for opposing Insurrection Act. Trump installed loyalists in final weeks. Kash Patel made Chief of Staff to Acting SecDef.",
- role:"Federal Executive Department",
- investigationCount: 3,
- riskLevel:"extreme",
- },
- {
- id:"14",
- slug:"supreme-court",
- name:"Supreme Court of the United States",
- type:"agency",
- description:"Granted presidents broad immunity from prosecution, overturned Roe v. Wade, gutted voting rights. Multiple justices face ethics scandals involving unreported gifts and trips.",
- role:"Judicial Branch",
- investigationCount: 3,
- riskLevel:"extreme",
- },
- {
- id:"15",
- slug:"dina",
- name:"DINA (Chilean Secret Police)",
- type:"agency",
- description:"Pinochet's secret police responsible for systematic torture, assassination, and forced disappearance. Coordinated with Operation Condor. Assassinated Orlando Letelier in Washington D.C.",
- role:"Secret Police (Dissolved)",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"16",
- slug:"savak",
- name:"SAVAK (Iranian Secret Police)",
- type:"agency",
- description:"Shah's CIA/Mossad-trained secret police estimated to have killed 100,000+ Iranians. Notorious for torture including electric shock, burning, and nail extraction. Fueled 1979 revolution.",
- role:"Secret Police (Dissolved)",
- investigationCount: 3,
- riskLevel:"extreme",
- },
- {
- id:"17",
- slug:"oss",
- name:"Office of Strategic Services",
- type:"agency",
- description:"WWII intelligence agency and CIA predecessor. Recruited Nazi war criminals through Operation Paperclip. Established stay-behind networks that became far-right terror groups.",
- role:"Intelligence (Dissolved)",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"18",
- slug:"office-of-legal-counsel",
- name:"Office of Legal Counsel",
- type:"agency",
- description:"DOJ office that authored torture memos authorizing waterboarding and 'enhanced interrogation.' Created legal cover for warrantless surveillance and presidential immunity from prosecution.",
- role:"DOJ Legal Advisory",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"19",
- slug:"capitol-police",
- name:"United States Capitol Police",
- type:"agency",
- description:"Overwhelmed on January 6, 2021 despite advance intelligence warnings. Subsequent investigations revealed delayed National Guard deployment and questions about leadership decisions.",
- role:"Federal Law Enforcement",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"20",
- slug:"atf",
- name:"Bureau of Alcohol, Tobacco, Firearms and Explosives",
- type:"agency",
- description:"Systematically weakened by NRA-backed legislation. Cannot maintain electronic gun sales database, inspect dealers adequately, or have permanent director due to gun lobby obstruction.",
- role:"Law Enforcement",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"21",
- slug:"cbp",
- name:"Customs and Border Protection",
- type:"agency",
- description:"Largest federal law enforcement agency. Children died in custody, secret Facebook groups with racist content. Involved in family separation at border.",
- role:"Border Security",
- investigationCount: 1,
- riskLevel:"extreme",
- },
- {
- id:"22",
- slug:"gru",
- name:"GRU (Russian Military Intelligence)",
- type:"agency",
- description:"Russian military intelligence responsible for 2016 DNC hack, Skripal poisonings, and election interference operations. Unit 29155 linked to assassinations across Europe.",
- role:"Foreign Intelligence",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"23",
- slug:"war-relocation-authority",
- name:"War Relocation Authority",
- type:"agency",
- description:"Administered Japanese American internment camps during WWII. Imprisoned 120,000 people without charge based solely on race. A shameful chapter in American history.",
- role:"Historical (Dissolved)",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"24",
- slug:"bop",
- name:"Federal Bureau of Prisons",
- type:"agency",
- description:"Manages 122 federal prisons. Documented failures including deaths, sexual abuse by staff, inadequate medical care. Jeffrey Epstein died under suspicious circumstances in BOP custody.",
- role:"Prison Administration",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"25",
- slug:"dea",
- name:"Drug Enforcement Administration",
- type:"agency",
- description:"Enforces federal drug laws that have disproportionately targeted minorities. The War on Drugs has imprisoned millions while failing to reduce drug use or trafficking.",
- role:"Law Enforcement",
- investigationCount: 3,
- riskLevel:"high",
- },
- {
- id:"26",
- slug:"fsb",
- name:"FSB (Russian Federal Security Service)",
- type:"agency",
- description:"Russia's domestic security agency, successor to the KGB. Directly implicated in 2016 election interference, cyberattacks, and poisoning of dissidents including Navalny.",
- role:"Foreign Intelligence",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"27",
- slug:"hhs",
- name:"Department of Health and Human Services",
- type:"agency",
- description:"Oversees public health and social services. Under Trump, failed COVID response killed hundreds of thousands. Family separation policy traumatized children.",
- role:"Federal Executive Department",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"28",
- slug:"cdc",
- name:"Centers for Disease Control and Prevention",
- type:"agency",
- description:"America's public health agency. COVID guidance overruled by Trump White House. Historically continued Tuskegee syphilis experiment until 1972.",
- role:"Public Health Agency",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"29",
- slug:"fema",
- name:"Federal Emergency Management Agency",
- type:"agency",
- description:"Coordinates disaster response. Failed Puerto Rico after Hurricane Maria - 3,000 deaths. Trump threw paper towels while citizens died.",
- role:"Disaster Response",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"30",
- slug:"fec",
- name:"Federal Election Commission",
- type:"agency",
- description:"Deliberately left without quorum by Trump to prevent campaign finance enforcement. Dark money proliferated while violations went uninvestigated.",
- role:"Independent Regulatory Agency",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"31",
- slug:"irs",
- name:"Internal Revenue Service",
- type:"agency",
- description:"Failed to properly audit Trump's returns as required by policy. Trump claimed audit prevented release for years - a lie. Returns showed minimal tax payments.",
- role:"Tax Collection",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"32",
- slug:"sec",
- name:"Securities and Exchange Commission",
- type:"agency",
- description:"Regulates securities markets. Investigated Trump Organization financial dealings, Truth Social merger. Questions about enforcement against politically connected.",
- role:"Financial Regulatory Agency",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"33",
- slug:"bia",
- name:"Bureau of Indian Affairs",
- type:"agency",
- description:"Administered genocide and forced assimilation of Native Americans. Operated boarding schools where thousands of children died. Mismanaged $137B+ in trust funds.",
- role:"Federal Administration",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"34",
- slug:"public-health-service",
- name:"U.S. Public Health Service",
- type:"agency",
- description:"Conducted Tuskegee syphilis experiment (1932-1972), deliberately withholding treatment from Black men for 40 years. Guatemala STD experiments on prisoners.",
- role:"Public Health",
- investigationCount: 1,
- riskLevel:"extreme",
- },
- {
- id:"35",
- slug:"minneapolis-pd",
- name:"Minneapolis Police Department",
- type:"agency",
- description:"Officers murdered George Floyd in 2020, sparking largest protests in U.S. history. DOJ found pattern of unconstitutional excessive force and discrimination.",
- role:"Municipal Law Enforcement",
- investigationCount: 3,
- riskLevel:"extreme",
- },
- {
- id:"36",
- slug:"michigan-deq",
- name:"Michigan DEQ",
- type:"agency",
- description:"Responsible for Flint water crisis catastrophe. Manipulated testing, covered up lead contamination, allowed 100,000 people to be poisoned for 18 months.",
- role:"State Environmental Agency",
- investigationCount: 3,
- riskLevel:"extreme",
- },
- {
- id:"37",
- slug:"us-army",
- name:"United States Army",
- type:"agency",
- description:"Land warfare branch with history of atrocities: Native American genocide, My Lai massacre, Abu Ghraib torture, civilian casualties across wars.",
- role:"Military Branch",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"38",
- slug:"dod",
- name:"Department of Defense",
- type:"agency",
- description:"Coordinates all military branches. Gulf of Tonkin lies led to Vietnam. Iraq WMD lies killed hundreds of thousands. Never passed a full audit despite trillions spent.",
- role:"Cabinet Department",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"39",
- slug:"us-senate",
- name:"United States Senate",
- type:"agency",
- description:"Upper chamber of Congress. Filibuster blocked civil rights for decades. Refused Merrick Garland vote. Acquitted Trump twice despite overwhelming evidence.",
- role:"Legislative Body",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"40",
- slug:"manhattan-da",
- name:"Manhattan District Attorney",
- type:"agency",
- description:"Secured first criminal conviction of a former president. Trump found guilty on 34 felony counts of falsifying business records in hush money case.",
- role:"Local Prosecutorial Office",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"41",
- slug:"fulton-county-da",
- name:"Fulton County District Attorney",
- type:"agency",
- description:"Brought RICO charges against Trump and 18 co-defendants for efforts to overturn 2020 Georgia election results. Multiple defendants have pled guilty.",
- role:"Local Prosecutorial Office",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"42",
- slug:"noaa",
- name:"NOAA",
- type:"agency",
- description:"Center of 'Sharpiegate' scandal when Trump altered hurricane forecast with Sharpie. Leadership pressured to validate his false statements.",
- role:"Federal Scientific Agency",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"43",
- slug:"commerce-department",
- name:"Department of Commerce",
- type:"agency",
- description:"Under Wilbur Ross, attempted citizenship question on Census to suppress immigrant responses. Ross lied to Congress and had massive conflicts of interest.",
- role:"Federal Executive Department",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"44",
- slug:"usaid",
- name:"USAID",
- type:"agency",
- description:"Administers foreign aid. Aid withheld from Ukraine in Trump extortion scheme. Budget cuts proposed while corruption plagued pandemic response.",
- role:"Independent Agency",
- investigationCount: 1,
- riskLevel:"moderate",
- },
- {
- id:"45",
- slug:"doi",
- name:"Department of the Interior",
- type:"agency",
- description:"Manages federal lands, Native American affairs. Dark history of genocide, boarding schools, treaty violations. BIA described as most corrupt federal agency.",
- role:"Cabinet Department",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"46",
- slug:"national-archives",
- name:"National Archives (NARA)",
- type:"agency",
- description:"Discovered Trump took classified documents to Mar-a-Lago. Attempted recovery triggered FBI investigation. Found highest classification materials.",
- role:"Independent Agency",
- investigationCount: 1,
- riskLevel:"moderate",
- },
- {
- id:"47",
- slug:"park-police",
- name:"U.S. Park Police",
- type:"agency",
- description:"Violently cleared peaceful Lafayette Square protesters with chemical agents to enable Trump's St. John's Church photo op in June 2020.",
- role:"Federal Law Enforcement",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"48",
- slug:"fda",
- name:"Food and Drug Administration",
- type:"agency",
- description:"Faced unprecedented political pressure during COVID. Trump pushed hydroxychloroquine authorization, pressured vaccine approval timing for political benefit.",
- role:"Federal Regulatory Agency",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"49",
- slug:"doe",
- name:"Department of Energy",
- type:"agency",
- description:"Led by Rick Perry who wanted to eliminate it. Promoted fossil fuels, undermined renewables. Perry involved in Ukraine energy scandal.",
- role:"Federal Executive Department",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"50",
- slug:"usda",
- name:"Department of Agriculture",
- type:"agency",
- description:"Scientists fled after forced relocation. School lunch nutrition rolled back. Farm bailouts covered self-inflicted trade war damage.",
- role:"Federal Executive Department",
- investigationCount: 2,
- riskLevel:"moderate",
- },
- {
- id:"51",
- slug:"doj-civil-rights",
- name:"DOJ Civil Rights Division",
- type:"agency",
- description:"Tasked with enforcing federal civil rights statutes, the division has faced repeated political interference. Investigations into police departments shelved, consent decrees abandoned, and voting rights enforcement gutted under successive administrations.",
- role:"Federal Executive Department",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"52",
- slug:"africom",
- name:"United States Africa Command (AFRICOM)",
- type:"agency",
- description:"Oversees U.S. military operations across Africa with minimal congressional oversight. Drone strikes, covert special operations, and undisclosed base expansions have drawn scrutiny over civilian casualties and mission creep.",
- role:"Military Command",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"53",
- slug:"army-corps",
- name:"U.S. Army Corps of Engineers",
- type:"agency",
- description:"Manages billions in infrastructure and water projects while facing allegations of environmental negligence. The Corps approved the Dakota Access Pipeline route and has been linked to catastrophic flood-control failures.",
- role:"Military Command",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"54",
- slug:"cfpb",
- name:"Consumer Financial Protection Bureau",
- type:"agency",
- description:"Created after the 2008 financial crisis to police predatory lending. Repeatedly targeted for dismantling by industry-aligned officials who gutted enforcement actions and froze rulemaking from within.",
- role:"Independent Federal Agency",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"55",
- slug:"cisa",
- name:"Cybersecurity and Infrastructure Security Agency",
- type:"agency",
- description:"Charged with defending U.S. critical infrastructure from cyber threats. Its election security work became politically contentious, leading to the firing of its director for contradicting claims of widespread voter fraud.",
- role:"Intelligence & Law Enforcement",
- investigationCount: 3,
- riskLevel:"high",
- },
- {
- id:"56",
- slug:"congress",
- name:"United States Congress",
- type:"agency",
- description:"The legislative branch wields oversight and appropriations power but has been mired in partisan gridlock, insider trading scandals, dark money influence, and the systematic erosion of institutional checks on executive authority.",
- role:"Federal Legislative Body",
- investigationCount: 1,
- riskLevel:"extreme",
- },
- {
- id:"57",
- slug:"fcc",
- name:"Federal Communications Commission",
- type:"agency",
- description:"Regulates telecommunications and broadcasting. Oversaw the controversial repeal of net neutrality rules under industry-friendly leadership, while millions of public comments were found to be fabricated.",
- role:"Independent Federal Agency",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"58",
- slug:"fisa-court",
- name:"Foreign Intelligence Surveillance Court (FISA Court)",
- type:"agency",
- description:"Secret court approving domestic surveillance warrants with virtually no public accountability. Exposed by the Snowden revelations for rubber-stamping mass surveillance programs targeting U.S. citizens.",
- role:"Intelligence & Law Enforcement",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"59",
- slug:"icc",
- name:"International Criminal Court",
- type:"agency",
- description:"Investigates war crimes and crimes against humanity worldwide. Faced sanctions and threats from the United States after opening probes into American military conduct in Afghanistan and allied nations' operations.",
- role:"International Organization",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"60",
- slug:"metropolitan-police",
- name:"Metropolitan Police Department of D.C.",
- type:"agency",
- description:"The primary law enforcement agency for the nation's capital. Scrutinized for its response to the January 6th Capitol breach and ongoing concerns over use-of-force policies and protest suppression tactics.",
- role:"Intelligence & Law Enforcement",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"61",
- slug:"ministry-of-state-security",
- name:"Ministry of State Security (China)",
- type:"agency",
- description:"China's principal intelligence and secret police apparatus. Implicated in global cyber-espionage campaigns, transnational repression of dissidents, and infiltration of Western technology and government institutions.",
- role:"Foreign Intelligence",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"62",
- slug:"national-guard",
- name:"National Guard of the United States",
- type:"agency",
- description:"Dual state-federal military reserve force deployed in domestic emergencies and overseas conflicts. Controversial deployments against civil rights protesters and questions over politicized activation decisions.",
- role:"Military Command",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"63",
- slug:"nih",
- name:"National Institutes of Health",
- type:"agency",
- description:"The nation's premier medical research institution. Faced political interference over pandemic guidance, gain-of-function research funding controversies, and attempts to suppress scientific findings inconvenient to officials.",
- role:"Federal Executive Department",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"64",
- slug:"osha",
- name:"Occupational Safety and Health Administration",
- type:"agency",
- description:"Responsible for workplace safety enforcement across the country. Chronically underfunded and understaffed, with inspection rates at historic lows while preventable worker deaths continue to climb.",
- role:"Federal Regulatory Agency",
- investigationCount: 3,
- riskLevel:"high",
- },
- {
- id:"65",
- slug:"saudi-arabia",
- name:"Kingdom of Saudi Arabia (Government)",
- type:"agency",
- description:"Petrostate with deep U.S. ties implicated in the murder of journalist Jamal Khashoggi, the Yemen humanitarian catastrophe, and efforts to influence American politics through lobbying and arms deals worth hundreds of billions.",
- role:"Foreign Government Agency",
- investigationCount: 1,
- riskLevel:"extreme",
- },
- {
- id:"66",
- slug:"united-nations",
- name:"United Nations",
- type:"agency",
- description:"Global intergovernmental organization criticized for Security Council paralysis, peacekeeping abuse scandals, and inability to enforce resolutions against powerful member states committing documented atrocities.",
- role:"International Organization",
- investigationCount: 5,
- riskLevel:"high",
- },
- {
- id:"67",
- slug:"faa",
- name:"Federal Aviation Administration",
- type:"agency",
- description:"Delegated critical safety certification to Boeing itself before two 737 MAX crashes killed 346 people. A captured regulator whose systemic failures in oversight enabled preventable aviation disasters.",
- role:"Federal Regulatory Agency",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"68",
- slug:"federal-reserve",
- name:"Federal Reserve System",
- type:"agency",
- description:"Central banking system wielding enormous economic power with limited transparency. Officials caught trading securities during monetary policy deliberations, raising serious conflict-of-interest concerns.",
- role:"Independent Federal Agency",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"69",
- slug:"jsoc",
- name:"Joint Special Operations Command (JSOC)",
- type:"agency",
- description:"Elite military command conducting classified kill-or-capture operations worldwide. Operates with minimal congressional oversight and has been linked to extrajudicial killings and unacknowledged combat deployments.",
- role:"Military Command",
- investigationCount: 2,
- riskLevel:"extreme",
- },
- {
- id:"70",
- slug:"mi6",
- name:"Secret Intelligence Service (MI6)",
- type:"agency",
- description:"Britain's foreign intelligence service with a long history of covert regime change operations. Linked to the Steele dossier controversy and joint surveillance programs with American intelligence agencies.",
- role:"Foreign Intelligence",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"71",
- slug:"knkt",
- name:"Indonesian National Transportation Safety Committee (KNKT)",
- type:"agency",
- description:"Investigation body that probed the Lion Air 737 MAX crash. Their findings exposed Boeing's concealment of the MCAS system flaw, triggering a global grounding and the unraveling of the FAA's certification failures.",
- role:"Foreign Government Agency",
- investigationCount: 1,
- riskLevel:"moderate",
- },
- {
- id:"72",
- slug:"ethiopian-aib",
- name:"Ethiopian Aircraft Accident Investigation Bureau",
- type:"agency",
- description:"Led the investigation into Ethiopian Airlines Flight 302, the second fatal 737 MAX crash. Their preliminary report was pivotal in confirming the MCAS design defect and forcing the worldwide fleet grounding.",
- role:"Foreign Government Agency",
- investigationCount: 1,
- riskLevel:"moderate",
- },
- {
- id:"73",
- slug:"easa",
- name:"European Union Aviation Safety Agency (EASA)",
- type:"agency",
- description:"Europe's aviation regulator that broke with the FAA by independently grounding the 737 MAX before the United States acted. Conducted its own recertification review, exposing cracks in the FAA's global authority.",
- role:"Foreign Government Agency",
- investigationCount: 1,
- riskLevel:"moderate",
- },
- {
- id:"74",
- slug:"transport-canada",
- name:"Transport Canada Civil Aviation",
- type:"agency",
- description:"Canada's aviation regulator that independently validated 737 MAX recertification rather than deferring to the FAA. Their scrutiny highlighted the erosion of trust in American regulatory oversight.",
- role:"Foreign Government Agency",
- investigationCount: 3,
- riskLevel:"moderate",
- },
- {
- id:"75",
- slug:"ntsb",
- name:"National Transportation Safety Board (NTSB)",
- type:"agency",
- description:"Independent federal agency investigating transportation disasters. Despite producing damning findings on Boeing and the FAA, the NTSB lacks enforcement power - its safety recommendations are routinely ignored.",
- role:"Independent Federal Agency",
- investigationCount: 2,
- riskLevel:"high",
- },
- {
- id:"76",
- slug:"interior-department",
- name:"U.S. Department of the Interior",
- type:"agency",
- description:"Manages federal lands and natural resources. Under Trump, aggressively expanded fossil fuel extraction, rolled back environmental protections, and was at the center of the Lafayette Square clearing operation.",
- role:"Federal Executive Department",
- investigationCount: 3,
- riskLevel:"high",
- },
- {
- id:"77",
- slug:"department-of-defense",
- name:"United States Department of Defense",
- type:"agency",
- description:"Responsible for coordinating all agencies and functions related to national security. Failed audits with trillions in unaccounted spending, Abu Ghraib scandal, civilian drone casualties, and January 6 inaction.",
- role:"Federal Executive Department",
- investigationCount: 1,
- riskLevel:"extreme",
- },
- {
- id:"78",
- slug:"department-of-state",
- name:"United States Department of State",
- type:"agency",
- description:"Conducts foreign policy and diplomacy. Under Trump, hollowed out, politicized, and used to pressure Ukraine leading to the first impeachment. Career diplomats purged.",
- role:"Federal Executive Department",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"79",
- slug:"baltimore-pd",
- name:"Baltimore Police Department",
- type:"agency",
- description:"Documented deploying Stingray surveillance devices without warrants. Subject to DOJ consent decree after systemic civil rights violations. Gun Trace Task Force corruption scandal.",
- role:"Municipal Law Enforcement",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"80",
- slug:"lapd-ig",
- name:"LAPD Inspector General",
- type:"agency",
- description:"Provides civilian oversight of the LAPD, including audits of PredPol predictive policing that revealed racial bias in deployment and disproportionate targeting of minority communities.",
- role:"Civilian Oversight",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"81",
- slug:"us-marshals",
- name:"United States Marshals Service",
- type:"agency",
- description:"Oldest federal law enforcement agency, involved in fugitive operations, witness protection, and asset forfeiture. Documented using Stingray cell-site simulator technology for warrantless surveillance.",
- role:"Federal Law Enforcement",
- investigationCount: 1,
- riskLevel:"high",
- },
- {
- id:"mossad-ep",
- slug:"mossad",
- name:"Mossad",
- type:"agency",
- description:"Israeli national intelligence agency. Multiple intelligence sources and former officers have alleged that Jeffrey Epstein and Ghislaine Maxwell operated as Israeli intelligence assets running a sexual...",
- role:"Foreign Intelligence",
- investigationCount: 1,
- riskLevel:"extreme",
- },
- {
- id:"french-justice-ep",
- slug:"french-justice",
- name:"French Judicial System",
- type:"agency",
- description:"French judicial authorities who opened an investigation into Jeffrey Epstein's activities in France in 2019. Paris prosecutors investigated crimes at Epstein's Avenue Foch apartment. Jean-Luc Brunel w...",
- role:"Judicial",
- investigationCount: 1,
- riskLevel:"moderate",
- },
- {
- id:"usvi-ag-ep",
- slug:"usvi-ag",
- name:"US Virgin Islands Attorney General",
- type:"agency",
- description:"The USVI AG office filed a landmark lawsuit against the Epstein estate in 2020. AG Denise George detailed decades of trafficking in the territory. George was fired by the USVI governor one day after s...",
- role:"Territorial Law Enforcement",
- investigationCount: 1,
- riskLevel:"moderate",
- },
- {
- id:"palm-beach-pd-ep",
- slug:"palm-beach-pd",
- name:"Palm Beach Police Department",
- type:"agency",
- description:"Conducted the original investigation into Epstein starting in 2005 under Chief Michael Reiter and Detective Joe Recarey. Identified 40+ victims. Their work was undermined at the state and federal leve...",
- role:"Local Law Enforcement",
- investigationCount: 1,
- riskLevel:"low",
- },
- {
- id:"afp-ep",
- slug:"afp",
- name:"Australian Federal Police",
- type:"agency",
- description:"Investigated Epstein connections following revelations that some victims were Australian nationals. Australian media reported connections between Epstein and Australian figures in his black book....",
- role:"Federal Law Enforcement",
- investigationCount: 1,
- riskLevel:"low",
- },
-];
+interface Entity {
+  id: string;
+  slug: string;
+  name: string;
+  type: "agency" | "corporation" | "individual" | "organization";
+  description: string;
+  role: string;
+  investigationCount: number;
+  riskLevel: "extreme" | "high" | "moderate" | "low";
+  imageUrl?: string;
+}
+
+// Build entity list from live shard data
+const agencies: Entity[] = Object.values(agencyData).map((a: any) => ({
+  id: a.id || a.slug,
+  slug: a.slug,
+  name: a.name,
+  type: "agency" as const,
+  description: a.description,
+  role: a.role,
+  investigationCount: a.investigationCount || 0,
+  riskLevel: a.riskLevel as Entity["riskLevel"],
+}));
+
+const riskOrder: Record<string, number> = { extreme: 0, high: 1, moderate: 2, low: 3 };
+agencies.sort(
+  (a, b) => riskOrder[a.riskLevel] - riskOrder[b.riskLevel] || a.name.localeCompare(b.name)
+);
+
+type RiskFilter = "all" | "extreme" | "high" | "moderate" | "low";
 
 export default function AgenciesPage() {
- const [searchQuery, setSearchQuery] = useState("");
- 
- const filteredAgencies = agencies.filter((agency) =>
- agency.name.toLowerCase().includes(searchQuery.toLowerCase())
- );
+  const [searchQuery, setSearchQuery] = useState("");
+  const [riskFilter, setRiskFilter] = useState<RiskFilter>("all");
 
- return (
- <div className="min-h-screen pt-20 lg:pt-24 pb-16">
- <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
- {/* Breadcrumb - Sharp */}
- <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6 pt-4">
- <Link href="/"className="hover:text-blood-600 transition-colors">Home</Link>
- <ChevronRight className="w-4 h-4"/>
- <Link href="/entities"className="hover:text-blood-600 transition-colors">Entities</Link>
- <ChevronRight className="w-4 h-4"/>
- <span className="text-blood-600">Agencies</span>
- </nav>
+  const filtered = useMemo(() => {
+    return agencies.filter((a) => {
+      const matchesSearch =
+        a.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        a.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        a.role.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesRisk = riskFilter === "all" || a.riskLevel === riskFilter;
+      return matchesSearch && matchesRisk;
+    });
+  }, [searchQuery, riskFilter]);
 
- {/* Header - Crystal Clear */}
- <div className="py-8">
- <div className="border-2 border-blood-800/60 bg-black/60 p-6 lg:p-8 mb-8">
- {/* Top decorative line */}
- <div className="flex items-center gap-4 mb-6">
- <span className="h-[2px] flex-1 bg-gradient-to-r from-blood-700 to-transparent"/>
- <Landmark className="w-6 h-6 text-blood-600"/>
- <span className="h-[2px] flex-1 bg-gradient-to-l from-blood-700 to-transparent"/>
- </div>
+  const riskCounts = useMemo(
+    () => ({
+      all: agencies.length,
+      extreme: agencies.filter((i) => i.riskLevel === "extreme").length,
+      high: agencies.filter((i) => i.riskLevel === "high").length,
+      moderate: agencies.filter((i) => i.riskLevel === "moderate").length,
+      low: agencies.filter((i) => i.riskLevel === "low").length,
+    }),
+    []
+  );
 
- <div className="text-center mb-6">
- <h1 className="text-3xl lg:text-4xl font-black text-white uppercase tracking-wider mb-2">
- GOVERNMENT AGENCIES
- </h1>
- <p className="text-lg text-blood-600 font-bold uppercase tracking-[0.15em]">
- The Architects of Control
- </p>
- <p className="text-sm text-zinc-500 mt-2">
- {agencies.length} entities documented in the archive
- </p>
- </div>
+  return (
+    <div className="min-h-screen pt-20 lg:pt-24 pb-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6 pt-4">
+          <Link href="/" className="hover:text-blood-600 transition-colors">Home</Link>
+          <ChevronRight className="w-4 h-4" />
+          <Link href="/entities" className="hover:text-blood-600 transition-colors">Entities</Link>
+          <ChevronRight className="w-4 h-4" />
+          <span className="text-blood-600">Agencies</span>
+        </nav>
 
- <p className="text-zinc-400 text-center max-w-2xl mx-auto leading-relaxed">
- Federal, state, and local government agencies whose policies and actions have been
- documented across our investigations. Every agency profile maps their crimes, 
- connections, and cover-ups.
- </p>
- </div>
- </div>
+        <div className="py-8">
+          <div className="border-2 border-blood-800/60 bg-black/60 p-6 lg:p-8 mb-8">
+            <div className="flex items-center gap-4 mb-6">
+              <span className="h-[2px] flex-1 bg-gradient-to-r from-blood-700 to-transparent" />
+              <Landmark className="w-6 h-6 text-blood-600" />
+              <span className="h-[2px] flex-1 bg-gradient-to-l from-blood-700 to-transparent" />
+            </div>
+            <div className="text-center mb-6">
+              <h1 className="text-3xl lg:text-4xl font-black text-white uppercase tracking-wider mb-2">GOVERNMENT AGENCIES</h1>
+              <p className="text-lg text-blood-600 font-bold uppercase tracking-[0.15em]">The Machinery of State Power</p>
+              <p className="text-sm text-zinc-500 mt-2">{agencies.length.toLocaleString()} agencies documented in the archive</p>
+            </div>
+            <p className="text-zinc-400 text-center max-w-2xl mx-auto leading-relaxed">
+              Federal departments, intelligence agencies, and regulatory bodies. Every agency entry documents their role, investigations, and connections. Continuously expanded by ArkHive Swarm Intelligence.
+            </p>
+          </div>
+        </div>
 
- {/* Search - Sharp */}
- <div className="mb-8">
- <div className="relative max-w-md">
- <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500"/>
- <input
- type="text"
- value={searchQuery}
- onChange={(e) => setSearchQuery(e.target.value)}
- placeholder="Search agencies..."
- className="w-full pl-12 pr-4 py-3 bg-black/60 border-2 border-zinc-800 text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors"
- />
- </div>
- </div>
+        <div className="flex flex-col sm:flex-row gap-4 mb-8">
+          <div className="relative flex-1 max-w-md">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500" />
+            <input type="text" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} placeholder="Search agencies..." className="w-full pl-12 pr-4 py-3 bg-black/60 border-2 border-zinc-800 text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors" />
+          </div>
+          <div className="flex items-center gap-2 flex-wrap">
+            <Filter className="w-4 h-4 text-zinc-500" />
+            {(["all", "extreme", "high", "moderate", "low"] as RiskFilter[]).map((level) => (
+              <button key={level} onClick={() => setRiskFilter(level)} className={`px-3 py-2 text-xs font-bold uppercase tracking-wider border transition-colors ${riskFilter === level ? level === "extreme" ? "border-blood-600 bg-blood-900/50 text-blood-400" : level === "high" ? "border-blood-700 bg-blood-900/30 text-blood-500" : level === "moderate" ? "border-zinc-600 bg-zinc-900/50 text-zinc-300" : level === "low" ? "border-zinc-700 bg-zinc-900/30 text-zinc-400" : "border-blood-700 bg-blood-900/30 text-white" : "border-zinc-800 bg-transparent text-zinc-500 hover:border-zinc-600"}`}>
+                {level} ({riskCounts[level]})
+              </button>
+            ))}
+          </div>
+        </div>
 
- {/* Grid */}
- <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
- {filteredAgencies.map((agency) => (
- <EntityCard key={agency.id} entity={agency} />
- ))}
- </div>
+        <div className="text-sm text-zinc-500 mb-4">
+          Showing {filtered.length.toLocaleString()} of {agencies.length.toLocaleString()} agencies
+        </div>
 
- {filteredAgencies.length === 0 && (
- <div className="border border-zinc-800 bg-black/60 p-12 text-center">
- <div className="w-16 h-16 border-2 border-zinc-700 flex items-center justify-center mx-auto mb-4">
- <Skull className="w-8 h-8 text-zinc-600"/>
- </div>
- <h3 className="text-xl font-bold text-white mb-2 uppercase tracking-wider">No Agencies Found</h3>
- <p className="text-zinc-500">No agencies match your search criteria.</p>
- </div>
- )}
- </div>
- </div>
- );
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filtered.map((agency) => (<EntityCard key={agency.id} entity={agency} />))}
+        </div>
+
+        {filtered.length === 0 && (
+          <div className="border border-zinc-800 bg-black/60 p-12 text-center">
+            <div className="w-16 h-16 border-2 border-zinc-700 flex items-center justify-center mx-auto mb-4">
+              <Skull className="w-8 h-8 text-zinc-600" />
+            </div>
+            <h3 className="text-xl font-bold text-white mb-2 uppercase tracking-wider">No Agencies Found</h3>
+            <p className="text-zinc-500">No agencies match your search criteria.</p>
+          </div>
+        )}
+      </div>
+    </div>
+  );
 }

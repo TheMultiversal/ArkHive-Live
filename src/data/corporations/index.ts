@@ -2072,68 +2072,27 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  'private-prison-industry': {
+    id: 'private-prison-industry',
+    slug: 'private-prison-industry',
+    name: 'Private Prison Industry',
+    type: 'corporation',
+    description: 'Private Prison Industry is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    role: 'Corporation',
+    investigationCount: 1,
+    riskLevel: 'moderate',
+  },
+  'bank-for-international-settlements': {
+    id: 'bank-for-international-settlements',
+    slug: 'bank-for-international-settlements',
+    name: 'Bank for International Settlements',
+    type: 'corporation',
+    description: 'Bank for International Settlements is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 1,
+    riskLevel: 'moderate',
+  },
 };
 
 export default corporations;
-export type { CorporationProfile };
+export type { CorporationProfile } from './types';

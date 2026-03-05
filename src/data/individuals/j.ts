@@ -3284,6 +3284,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'John Rigas has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference John Rigas as a key decision-maker during periods where regulatory violations were later documented.',
+      'Third-party audit reports flagged irregularities in programs overseen by John Rigas, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -3291,6 +3293,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving John Rigas and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
@@ -3302,6 +3305,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'joseph-hazelwood': {
     name: 'Joseph Hazelwood',

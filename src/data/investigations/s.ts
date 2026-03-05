@@ -1042,6 +1042,7 @@ const investigations_s: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'super-pac-coordination-scandals': {
     title: 'Super PAC Coordination Scandals',
     subtitle: 'Investigation into Super PAC Coordination Scandals',
@@ -1483,7 +1484,6 @@ const investigations_s: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_s;

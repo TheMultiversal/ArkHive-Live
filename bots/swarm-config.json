@@ -1,22 +1,30 @@
 {
   "ollama": {
-    "model": "llama3:8b",
-    "temperature": 0.7,
-    "timeout": 300000,
-    "maxConcurrent": 4
+    "model": "llama3.1:8b",
+    "temperature": 0.75,
+    "timeout": 120000,
+    "maxConcurrent": 2
   },
   "workers": {
-    "min": 2,
-    "max": 8
+    "min": 4,
+    "max": 6,
+    "heartbeatTimeout": 120000,
+    "taskTimeout": 180000,
+    "restartCooldown": 2000
   },
   "scanner": {
-    "scanInterval": 120000,
-    "maxProfilesPerCycle": 50
+    "scanInterval": 45000,
+    "quickScanInterval": 10000,
+    "maxProfilesPerCycle": 200,
+    "maxQueueSize": 2000
   },
   "generation": {
-    "mode": "hybrid",
-    "batchSize": 10,
-    "backupBeforeInject": true
+    "mode": "template",
+    "batchSize": 20,
+    "backupBeforeInject": true,
+    "cooldownBetweenBatches": 1000,
+    "maxProfilesPerSession": 5000,
+    "enrichExisting": true
   },
   "replication": {
     "enabled": true,
@@ -27,6 +35,6 @@
     "enableDashboard": true
   },
   "quality": {
-    "scoreThreshold": 60
+    "scoreThreshold": 50
   }
 }

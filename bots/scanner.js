@@ -9,6 +9,7 @@ const config = require('./config');
 const logger = require('./logger').child('SCANNER');
 const utils = require('./utils');
 const shardManager = require('./shard-manager');
+const { agencyManager, corporationManager, organizationManager, investigationManager } = require('./shard-manager');
 
 class Scanner {
   constructor() {
@@ -53,6 +54,7 @@ class Scanner {
     await this._scanIndividuals();
     await this._scanAgencies();
     await this._scanCorporations();
+    await this._scanOrganizations();
     await this._scanInvestigations();
 
     // Cross-reference: find missing profiles
@@ -167,11 +169,19 @@ class Scanner {
 
   async _scanAgencies() {
     logger.scan('Scanning agencies...');
-    const content = utils.readFileSafe(config.paths.agencies);
+
+    // Read from data directory (post-migration)
+    let content;
+    if (agencyManager.isActive()) {
+      content = agencyManager.readContent();
+      logger.scan('Reading agencies from data directory');
+    } else {
+      content = utils.readFileSafe(config.paths.agencies);
+    }
     if (!content) return;
 
-    // Extract agency slugs from the page
-    const slugRegex = /slug:\s*'([a-z0-9-]+)'/g;
+    // Extract agency slugs from the data
+    const slugRegex = /^\s*'([a-z0-9-]+)'\s*:\s*\{/gm;
     const slugs = new Set();
     let match;
     while ((match = slugRegex.exec(content)) !== null) {
@@ -182,7 +192,7 @@ class Scanner {
     // Extract cross-references
     const affiliations = utils.extractAffiliationLinks(content);
     for (const aff of affiliations) {
-      this._addReference(aff.slug, aff.type, aff.name, 'agencies-page');
+      this._addReference(aff.slug, aff.type, aff.name, 'agencies-data');
     }
 
     logger.scan(`Found ${slugs.size} agencies`);
@@ -190,10 +200,17 @@ class Scanner {
 
   async _scanCorporations() {
     logger.scan('Scanning corporations...');
-    const content = utils.readFileSafe(config.paths.corporations);
+
+    let content;
+    if (corporationManager.isActive()) {
+      content = corporationManager.readContent();
+      logger.scan('Reading corporations from data directory');
+    } else {
+      content = utils.readFileSafe(config.paths.corporations);
+    }
     if (!content) return;
 
-    const slugRegex = /slug:\s*'([a-z0-9-]+)'/g;
+    const slugRegex = /^\s*'([a-z0-9-]+)'\s*:\s*\{/gm;
     const slugs = new Set();
     let match;
     while ((match = slugRegex.exec(content)) !== null) {
@@ -203,19 +220,55 @@ class Scanner {
 
     const affiliations = utils.extractAffiliationLinks(content);
     for (const aff of affiliations) {
-      this._addReference(aff.slug, aff.type, aff.name, 'corporations-page');
+      this._addReference(aff.slug, aff.type, aff.name, 'corporations-data');
     }
 
     logger.scan(`Found ${slugs.size} corporations`);
   }
 
+  async _scanOrganizations() {
+    logger.scan('Scanning organizations...');
+
+    let content;
+    if (organizationManager.isActive()) {
+      content = organizationManager.readContent();
+      logger.scan('Reading organizations from data directory');
+    } else {
+      content = utils.readFileSafe(path.join(config.paths.organizations, 'page.tsx'));
+    }
+    if (!content) return;
+
+    const slugRegex = /^\s*'([a-z0-9-]+)'\s*:\s*\{/gm;
+    const slugs = new Set();
+    let match;
+    while ((match = slugRegex.exec(content)) !== null) {
+      slugs.add(match[1]);
+    }
+    this.existingSlugs.set('organization', slugs);
+
+    const affiliations = utils.extractAffiliationLinks(content);
+    for (const aff of affiliations) {
+      this._addReference(aff.slug, aff.type, aff.name, 'organizations-data');
+    }
+
+    logger.scan(`Found ${slugs.size} organizations`);
+  }
+
   async _scanInvestigations() {
     logger.scan('Scanning investigations...');
-    const content = utils.readFileSafe(config.paths.investigations);
+
+    // Read from sharded investigation data (post-migration)
+    let content;
+    if (investigationManager.isActive()) {
+      content = investigationManager.getCombinedContent();
+      logger.scan('Reading investigations from sharded data directory');
+    } else {
+      content = utils.readFileSafe(config.paths.investigations);
+    }
     if (!content) return;
 
     // Extract investigation slugs
-    const slugRegex = /(?:^|\n)\s*'([a-z0-9-]+)'\s*:\s*\{/g;
+    const slugRegex = /^\s*'([a-z0-9-]+)'\s*:\s*\{/gm;
     const slugs = new Set();
     let match;
     while ((match = slugRegex.exec(content)) !== null) {
@@ -226,7 +279,7 @@ class Scanner {
     // Extract entity references from investigations
     const affiliations = utils.extractAffiliationLinks(content);
     for (const aff of affiliations) {
-      this._addReference(aff.slug, aff.type, aff.name, 'investigations-page');
+      this._addReference(aff.slug, aff.type, aff.name, 'investigations-data');
     }
 
     logger.scan(`Found ${slugs.size} investigations`);

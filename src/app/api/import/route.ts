@@ -1,4 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
+
+export const dynamic = 'force-static';
 
 // ============================================================
 // Types
@@ -42,34 +44,9 @@ const importJobsStore: ImportJob[] = [];
 // GET /api/import - Get import jobs
 // ============================================================
 
-export async function GET(request: NextRequest) {
+export async function GET() {
  try {
- const { searchParams } = new URL(request.url);
- const jobId = searchParams.get('id');
- const userId = searchParams.get('userId');
- const status = searchParams.get('status');
-
- // Get specific job
- if (jobId) {
- const job = importJobsStore.find(j => j.id === jobId);
- if (!job) {
- return NextResponse.json(
- { error: 'Import job not found' },
- { status: 404 }
- );
- }
- return NextResponse.json(job);
- }
-
- // List jobs
- let jobs = [...importJobsStore];
-
- if (userId) {
- jobs = jobs.filter(j => j.userId === userId);
- }
- if (status) {
- jobs = jobs.filter(j => j.status === status);
- }
+ const jobs = [...importJobsStore];
 
  // Sort by creation date descending
  jobs.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
@@ -91,7 +68,7 @@ export async function GET(request: NextRequest) {
 // POST /api/import - Create import job
 // ============================================================
 
-export async function POST(request: NextRequest) {
+export async function POST(request: Request) {
  try {
  const body = await request.json();
 
@@ -229,7 +206,7 @@ function simulateImportProcessing(jobId: string, records: unknown[]) {
 // DELETE /api/import - Cancel import job
 // ============================================================
 
-export async function DELETE(request: NextRequest) {
+export async function DELETE(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const jobId = searchParams.get('id');

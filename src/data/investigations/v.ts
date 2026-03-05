@@ -166,6 +166,7 @@ const investigations_v: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'voter-roll-purges-and-suppression-tactics': {
     title: 'Voter Roll Purges and Suppression Tactics',
     subtitle: 'Investigation into Voter Roll Purges and Suppression Tactics',
@@ -292,7 +293,6 @@ const investigations_v: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_v;

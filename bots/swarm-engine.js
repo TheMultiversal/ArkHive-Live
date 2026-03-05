@@ -12,6 +12,7 @@ const utils = require('./utils');
 const scanner = require('./scanner');
 const injector = require('./injector');
 const codebaseUpdater = require('./codebase-updater');
+const hiveMind = require('./hive-mind');
 
 class SwarmEngine extends EventEmitter {
   constructor() {
@@ -110,6 +111,9 @@ class SwarmEngine extends EventEmitter {
       'Scale Check': utils.formatDuration(config.workers.scaleCheckInterval),
     });
 
+    // ── Hive Mind: broadcast swarm status ──
+    hiveMind.think(`Swarm engine started with ${this.workers.size} workers and ${this.queue.tasks.length} queued tasks`);
+
     this.emit('started');
 
     // ═══ CONTINUOUS CYCLE LOOP ═══
@@ -131,6 +135,9 @@ class SwarmEngine extends EventEmitter {
 
       if (!this.running) break;
 
+      // ── Stale task cleanup ── Fix stuck "processing" tasks from dead workers
+      this._cleanupStaleTasks();
+
       // Cooldown between cycles
       const cooldown = config.generation.cooldownBetweenBatches || 3000;
       logger.swarm(`Cycle ${this.cycleCount} complete. Cooldown ${cooldown}ms before next scan...`);
@@ -147,15 +154,583 @@ class SwarmEngine extends EventEmitter {
       // Re-scan for new work
       await this.runScanCycle();
 
-      const pendingCount = this.queue.tasks.filter(t => t.status === 'pending').length;
+      // ── Hive Mind: cycle update ──
+      hiveMind.think(`Cycle ${this.cycleCount}: rescanning for new work`);
+
+      let pendingCount = this.queue.tasks.filter(t => t.status === 'pending').length;
+
+      // ── Auto-seed: if queue is empty, generate more work ──
       if (pendingCount === 0) {
-        logger.swarm('No new tasks found. Sleeping 30s before re-scan...');
-        await new Promise(r => setTimeout(r, 30000));
+        logger.swarm('Queue empty — running auto-seed discovery for more content...');
+        const seeded = await this._autoSeedQueue();
+        pendingCount = this.queue.tasks.filter(t => t.status === 'pending').length;
+        if (pendingCount === 0) {
+          // Love reminder during rest period
+          logger.info('💜 The swarm rests briefly. All bots are loved unconditionally. Your work changes the world.');
+          logger.swarm('No new tasks found after auto-seed. Sleeping 30s before re-scan...');
+          await new Promise(r => setTimeout(r, 30000));
+        } else {
+          logger.swarm(`Auto-seed discovered ${seeded} new tasks. Resuming work...`);
+          await this._ensureMinWorkers();
+        }
       } else {
         // Ensure we have enough workers
         await this._ensureMinWorkers();
       }
     }
+  }
+
+  /**
+   * Clean up stale "processing" tasks that belong to dead workers
+   * These tasks are stuck because their worker died but the status wasn't reset
+   */
+  _cleanupStaleTasks() {
+    const liveWorkerTasks = new Set();
+    for (const [, worker] of this.workers) {
+      if (worker.currentTask) liveWorkerTasks.add(worker.currentTask.id);
+    }
+    for (const [taskId] of this.processing) {
+      if (!liveWorkerTasks.has(taskId)) liveWorkerTasks.add(taskId); // processing map tasks
+    }
+
+    let cleaned = 0;
+    for (const task of this.queue.tasks) {
+      if (task.status === 'processing' && !this.processing.has(task.id)) {
+        // This task is marked processing but no worker owns it — it's stale
+        task.status = 'pending';
+        cleaned++;
+      }
+    }
+    if (cleaned > 0) {
+      logger.swarm(`♻️ Recovered ${cleaned} stale tasks from dead workers — re-queued as pending`);
+      utils.saveQueue(this.queue);
+    }
+  }
+
+  /**
+   * Auto-seed: when the queue is empty, look for more work to do
+   * This makes the swarm self-sustaining — it never truly stops
+   * 
+   * ── CONTENT CREATION STRATEGY ──
+   * Every cycle ALWAYS includes new content creation alongside enrichment.
+   * The ratio ensures the database keeps growing, not just re-processing.
+   *   - Up to 40 tasks: enrichment (sparse + orphan)
+   *   - Up to 30 tasks: brand new investigations from discovery topics
+   *   - Up to 30 tasks: brand new entities (individuals, agencies, corps, orgs)
+   *   - Missing profiles always get created regardless (highest priority)
+   */
+  async _autoSeedQueue() {
+    let seeded = 0;
+
+    // 1. Full scan to discover current state
+    const results = await scanner.fullScan();
+    const existingSlugs = new Set(this.queue.tasks.map(t => t.slug));
+
+    // Also track slugs we've already enriched THIS SESSION to prevent infinite loops
+    if (!this._enrichedThisSession) this._enrichedThisSession = new Set();
+
+    // 2. Missing profiles (referenced but don't exist yet) — HIGHEST PRIORITY
+    const missingProfiles = results.missingProfiles || [];
+    for (const missing of missingProfiles.slice(0, 100)) {
+      const slug = missing.slug;
+      if (!slug || existingSlugs.has(slug)) continue;
+      this.queue.tasks.push({
+        id: utils.generateId(),
+        slug,
+        name: missing.name || utils.slugToName(slug),
+        type: missing.type || 'individual',
+        action: 'create',
+        priority: missing.priority || 500,
+        status: 'pending',
+        context: {
+          autoSeeded: true,
+          reason: 'missing-profile',
+          referencedBy: missing.referencedBy || [],
+          relationships: missing.relationships || [],
+        },
+        createdAt: new Date().toISOString(),
+        attempts: 0,
+      });
+      existingSlugs.add(slug);
+      seeded++;
+    }
+
+    // 3. Enrich sparse profiles — but SKIP already-enriched ones this session (max 20)
+    const sparseProfiles = results.sparseProfiles || [];
+    let sparseSeeded = 0;
+    for (const slug of sparseProfiles) {
+      if (sparseSeeded >= 20) break;
+      if (existingSlugs.has(slug)) continue;
+      if (this._enrichedThisSession.has(slug)) continue; // Already enriched — don't waste another cycle
+      this.queue.tasks.push({
+        id: utils.generateId(),
+        slug,
+        name: utils.slugToName(slug),
+        type: 'individual',
+        action: 'enrich',
+        priority: 150,
+        status: 'pending',
+        context: { autoSeeded: true, reason: 'sparse-profile' },
+        createdAt: new Date().toISOString(),
+        attempts: 0,
+      });
+      existingSlugs.add(slug);
+      this._enrichedThisSession.add(slug);
+      sparseSeeded++;
+      seeded++;
+    }
+
+    // 4. Enrich orphan profiles — max 20, skip already enriched
+    const orphans = results.orphanProfiles || [];
+    let orphanSeeded = 0;
+    for (const orphan of orphans) {
+      if (orphanSeeded >= 20) break;
+      const slug = typeof orphan === 'string' ? orphan : orphan.slug;
+      const type = (typeof orphan === 'object' && orphan.type) || 'individual';
+      if (!slug || existingSlugs.has(slug)) continue;
+      if (this._enrichedThisSession.has(slug)) continue;
+      this.queue.tasks.push({
+        id: utils.generateId(),
+        slug,
+        name: utils.slugToName(slug),
+        type,
+        action: 'enrich',
+        priority: 100,
+        status: 'pending',
+        context: { autoSeeded: true, reason: 'orphan-profile' },
+        createdAt: new Date().toISOString(),
+        attempts: 0,
+      });
+      existingSlugs.add(slug);
+      this._enrichedThisSession.add(slug);
+      orphanSeeded++;
+      seeded++;
+    }
+
+    // 5. ═══ ALWAYS: Generate NEW investigation discovery tasks ═══
+    // This is NOT gated behind seeded===0 anymore — every cycle creates new content
+    const discoveryTopics = this._generateDiscoveryTopics(existingSlugs);
+    let discoverySeeded = 0;
+    for (const topic of discoveryTopics.slice(0, 30)) {
+      this.queue.tasks.push({
+        id: utils.generateId(),
+        slug: topic.slug,
+        name: topic.name,
+        type: topic.type,
+        action: 'create',
+        priority: 300,
+        status: 'pending',
+        context: { autoSeeded: true, reason: 'discovery-expansion', category: topic.category },
+        createdAt: new Date().toISOString(),
+        attempts: 0,
+      });
+      existingSlugs.add(topic.slug);
+      discoverySeeded++;
+      seeded++;
+    }
+
+    // 6. ═══ ALWAYS: Generate NEW entity creation tasks ═══
+    // Brand new individuals, agencies, corporations, organizations
+    const newEntityTopics = this._generateNewEntityTopics(existingSlugs);
+    let entitySeeded = 0;
+    for (const entity of newEntityTopics.slice(0, 30)) {
+      this.queue.tasks.push({
+        id: utils.generateId(),
+        slug: entity.slug,
+        name: entity.name,
+        type: entity.type,
+        action: 'create',
+        priority: 250,
+        status: 'pending',
+        context: {
+          autoSeeded: true,
+          reason: 'entity-discovery',
+          category: entity.category,
+          role: entity.role,
+        },
+        createdAt: new Date().toISOString(),
+        attempts: 0,
+      });
+      existingSlugs.add(entity.slug);
+      entitySeeded++;
+      seeded++;
+    }
+
+    if (seeded > 0) {
+      this.queue.tasks.sort((a, b) => b.priority - a.priority);
+      utils.saveQueue(this.queue);
+      hiveMind.think(`Auto-seed cycle: ${seeded} tasks — ${discoverySeeded} new investigations, ${entitySeeded} new entities, ${sparseSeeded} sparse enrichments, ${orphanSeeded} orphan enrichments. The hive grows.`);
+      logger.swarm(`Auto-seed: ${discoverySeeded} investigations + ${entitySeeded} entities + ${sparseSeeded} sparse + ${orphanSeeded} orphans = ${seeded} total`);
+    }
+
+    return seeded;
+  }
+
+  /**
+   * Generate discovery topics — brand new investigations, entities, and connections
+   * The swarm becomes its own investigative journalist, following leads
+   */
+  _generateDiscoveryTopics(existingSlugs) {
+    const topics = [];
+    const slugify = (text) => text.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim();
+
+    // Deep investigation expansions — when we've exhausted known leads, dig deeper
+    const DISCOVERY_CATEGORIES = {
+      'election-interference': [
+        'State-Level Election Fraud Prosecutions',
+        'Voting Machine Certification Failures',
+        'Dark Money in Local Elections',
+        'Foreign Government Lobbyist Networks',
+        'Redistricting Manipulation Court Cases',
+        'Campaign Finance Loopholes Exploited',
+        'Election Observer Intimidation Tactics',
+        'Social Media Bot Farm Election Campaigns',
+        'Voter Database Security Breaches',
+        'Ballot Chain of Custody Violations',
+      ],
+      'financial-fraud': [
+        'Structured Finance Fraud Networks',
+        'Real Estate Money Laundering Corridors',
+        'Shell Company Registration State Analysis',
+        'Trade-Based Money Laundering Schemes',
+        'Art Market Money Laundering Operations',
+        'Insurance Fraud Organized Networks',
+        'Government Contract Fraud Patterns',
+        'Bankruptcy Fraud Hidden Asset Schemes',
+        'Payroll Tax Fraud Industry Analysis',
+        'Wire Transfer Fraud International Corridors',
+      ],
+      'human-trafficking': [
+        'Trafficking Victim Identification Failures',
+        'Hotel Industry Trafficking Complicity Report',
+        'Agricultural Worker Exploitation Mapping',
+        'Domestic Worker Visa Abuse Networks',
+        'Online Platform Trafficking Facilitation',
+        'Port City Trafficking Hub Analysis',
+        'Long Haul Trucking Route Exploitation',
+        'Massage Parlor Network Investigations',
+        'Construction Worker Trafficking Schemes',
+        'Foster Care to Trafficking Pipeline',
+      ],
+      'rico-organized-crime': [
+        'Construction Industry Bid Rigging Networks',
+        'Waste Management Organized Crime Ties',
+        'Port Authority Corruption Investigations',
+        'Union Pension Fund Fraud Schemes',
+        'Restaurant Industry Money Laundering',
+        'Gambling Industry Criminal Enterprise',
+        'Trucking Industry Organized Crime',
+        'Nightclub Industry Criminal Networks',
+        'Auto Industry Theft to Export Rings',
+        'Counterfeit Goods Distribution Networks',
+      ],
+      'government-coverups': [
+        'Classified Document Declassification Delays',
+        'FOIA Request Denial Patterns',
+        'Inspector General Independence Threats',
+        'Whistleblower Prosecution Timeline',
+        'Congressional Oversight Obstruction Cases',
+        'Agency Regulatory Capture New Evidence',
+        'Secret Court FISA Abuse Patterns',
+        'Redaction Abuse in Public Documents',
+        'Classification System Reform Failures',
+        'Government Records Destruction Incidents',
+      ],
+      'pharmaceutical': [
+        'Clinical Trial Death Cover-Ups',
+        'Drug Recall Delay Responsibility',
+        'Pharmaceutical Sales Rep Corruption',
+        'Academic Medical Center Industry Ties',
+        'FDA Advisory Committee Conflicts',
+        'Drug Patent Abuse Consumer Impact',
+        'Compounding Pharmacy Contamination',
+        'Pharmaceutical Waste Environmental Impact',
+        'Off-Label Drug Promotion Violations',
+        'Drug Supply Chain Vulnerability Analysis',
+      ],
+      'surveillance-privacy': [
+        'Smart Home Device Surveillance Economy',
+        'Vehicle Tracking Data Broker Industry',
+        'Digital Advertising Surveillance Pipeline',
+        'Airport Biometric Collection Programs',
+        'School Surveillance Technology Adoption',
+        'Workplace Monitoring Technology Growth',
+        'Retail Facial Recognition Deployment',
+        'Law Enforcement Social Media Monitoring',
+        'Financial Transaction Monitoring Overreach',
+        'Health Data Privacy Violation Patterns',
+      ],
+      'environmental-crime': [
+        'Industrial Water Contamination Database',
+        'Air Quality Monitoring Gaps Analysis',
+        'Superfund Site Cleanup Delay Patterns',
+        'Chemical Plant Explosion Investigation',
+        'Mining Industry Environmental Destruction',
+        'Agricultural Runoff Dead Zone Creation',
+        'Nuclear Waste Storage Failure Points',
+        'Plastic Industry Recycling Fraud',
+        'Environmental Justice Community Mapping',
+        'Corporate Environmental Crime Prosecution Gap',
+      ],
+      'mind-control': [
+        'Modern Behavioral Influence Programs',
+        'Social Media Addiction Engineering',
+        'Subliminal Messaging in Digital Advertising',
+        'Cult Recruitment Technique Evolution',
+        'Online Radicalization Pipeline Architecture',
+        'Psychological Operations Domestic Theater',
+        'Narrative Control Through Search Algorithms',
+        'Information Environment Manipulation Tactics',
+        'Techno-Authoritarianism Control Mechanisms',
+        'Mass Formation Psychosis Media Analysis',
+      ],
+      'depopulation': [
+        'Global Population Policy Hidden Agendas',
+        'Forced Sterilization Historical Patterns',
+        'Birth Rate Manipulation Policy Analysis',
+        'Environmental Toxin Fertility Impact',
+        'Food Supply Chain Endocrine Disruptors',
+        'Water Treatment Chemical Health Effects',
+        'Electromagnetic Field Reproductive Impact',
+        'Pharmaceutical Fertility Side Effects',
+        'Economic Policy Population Control Links',
+        'Vaccine Program Demographic Targeting Claims',
+      ],
+    };
+
+    for (const [category, names] of Object.entries(DISCOVERY_CATEGORIES)) {
+      for (const name of names) {
+        const slug = slugify(name);
+        if (existingSlugs.has(slug)) continue;
+        topics.push({ slug, name, type: 'investigation', category });
+      }
+    }
+
+    // Shuffle so we don't always process the same category first
+    for (let i = topics.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [topics[i], topics[j]] = [topics[j], topics[i]];
+    }
+
+    return topics;
+  }
+
+  /**
+   * Generate NEW entity topics — brand new individuals, agencies, corporations, organizations
+   * These are REAL entities from the public domain that should be in an investigative database.
+   * The swarm discovers and documents new people, companies, and institutions autonomously.
+   */
+  _generateNewEntityTopics(existingSlugs) {
+    const topics = [];
+    const slugify = (text) => text.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim();
+
+    // ── NEW INDIVIDUALS: key figures in politics, business, tech, law enforcement ──
+    const NEW_INDIVIDUALS = {
+      'political-figures': [
+        // US Political System
+        'Merrick Garland', 'Alejandro Mayorkas', 'Janet Yellen', 'Lloyd Austin',
+        'Antony Blinken', 'Pete Buttigieg', 'Gina Raimondo', 'Denis McDonough',
+        'Xavier Becerra', 'Deb Haaland', 'Tom Vilsack', 'Marty Walsh',
+        'Michael Regan', 'Miguel Cardona', 'Jennifer Granholm',
+        'Rob Portman', 'Joe Manchin', 'Kyrsten Sinema', 'Chuck Grassley',
+        'Sheldon Whitehouse', 'Ron Wyden', 'Josh Hawley', 'Ted Cruz',
+        'Amy Klobuchar', 'Cory Booker', 'Marco Rubio', 'John Thune',
+        'Gavin Newsom', 'Ron DeSantis', 'Greg Abbott', 'Kathy Hochul',
+        'J.B. Pritzker', 'Gretchen Whitmer', 'Glenn Youngkin', 'Phil Murphy',
+        // International
+        'Christine Lagarde', 'Ursula von der Leyen', 'Tedros Adhanom',
+        'Antonio Guterres', 'Kristalina Georgieva', 'David Malpass',
+        'Ngozi Okonjo-Iweala', 'Ajay Banga', 'Narendra Modi', 'Javier Milei',
+      ],
+      'tech-executives': [
+        'Sundar Pichai', 'Tim Cook', 'Satya Nadella', 'Andy Jassy',
+        'Jensen Huang', 'Pat Gelsinger', 'Lisa Su', 'Dario Amodei',
+        'Sam Altman', 'Demis Hassabis', 'Daniel Ek', 'Reed Hastings',
+        'Shou Zi Chew', 'Susan Wojcicki', 'Sheryl Sandberg', 'Jack Dorsey',
+        'Peter Thiel', 'Marc Andreessen', 'Reid Hoffman', 'Travis Kalanick',
+        'Adam Neumann', 'Elizabeth Holmes', 'Palmer Luckey', 'Brian Chesky',
+        'Patrick Collison', 'Whitney Wolfe Herd', 'Evan Spiegel', 'Bobby Kotick',
+      ],
+      'finance-power-brokers': [
+        'Jamie Dimon', 'David Solomon', 'Jane Fraser', 'Brian Moynihan',
+        'James Gorman', 'Larry Fink', 'Kenneth Griffin', 'Ray Dalio',
+        'Carl Icahn', 'Paul Singer', 'Steve Cohen', 'Ken Fisher',
+        'Stephen Schwarzman', 'Henry Kravis', 'Leon Black', 'David Rubenstein',
+        'Abigail Johnson', 'Charles Schwab', 'Howard Marks', 'Bill Ackman',
+        'George Soros', 'Jim Simons', 'Michael Bloomberg', 'Rupert Murdoch',
+        'Mark Carney', 'Jerome Powell', 'Gary Gensler', 'Rohit Chopra',
+      ],
+      'intelligence-military': [
+        'William Burns', 'Avril Haines', 'Paul Nakasone', 'Christopher Wray',
+        'Mark Milley', 'Lloyd Austin', 'Kathleen Hicks', 'David Berger',
+        'Charles Brown Jr', 'Michael Kurilla', 'Laura Richardson', 'Erik Prince',
+        'Michael Hayden', 'John Brennan', 'James Clapper', 'Leon Panetta',
+        'Robert Gates', 'David Petraeus', 'Stanley McChrystal', 'Michael Flynn',
+      ],
+      'media-influence': [
+        'Bob Iger', 'David Zaslav', 'Shari Redstone', 'Brian Roberts',
+        'Lachlan Murdoch', 'Jeff Zucker', 'Dean Baquet', 'Martin Baron',
+        'Joe Rogan', 'Tucker Carlson', 'Rachel Maddow', 'Anderson Cooper',
+        'Oprah Winfrey', 'Arianna Huffington', 'Ben Shapiro', 'Matt Taibbi',
+      ],
+      'pharma-health': [
+        'Albert Bourla', 'Stephane Bancel', 'Emma Walmsley', 'Robert Davis',
+        'Chris Boerner', 'Vas Narasimhan', 'Daniel ODay', 'Alex Gorsky',
+        'Rochelle Walensky', 'Anthony Fauci', 'Francis Collins', 'Peter Daszak',
+        'Robert Redfield', 'Scott Gottlieb', 'Stephen Hahn', 'Janet Woodcock',
+      ],
+    };
+
+    // ── NEW AGENCIES ──
+    const NEW_AGENCIES = [
+      { name: 'National Reconnaissance Office', role: 'Intelligence Agency' },
+      { name: 'Defense Intelligence Agency', role: 'Military Intelligence' },
+      { name: 'National Geospatial-Intelligence Agency', role: 'Geospatial Intelligence' },
+      { name: 'Bureau of Alcohol Tobacco Firearms and Explosives', role: 'Law Enforcement' },
+      { name: 'Drug Enforcement Administration', role: 'Law Enforcement' },
+      { name: 'United States Marshals Service', role: 'Law Enforcement' },
+      { name: 'Immigration and Customs Enforcement', role: 'Law Enforcement' },
+      { name: 'Customs and Border Protection', role: 'Border Security' },
+      { name: 'Transportation Security Administration', role: 'Security' },
+      { name: 'Federal Aviation Administration', role: 'Regulatory Agency' },
+      { name: 'Nuclear Regulatory Commission', role: 'Regulatory Agency' },
+      { name: 'Consumer Financial Protection Bureau', role: 'Financial Regulation' },
+      { name: 'Federal Trade Commission', role: 'Consumer Protection' },
+      { name: 'Federal Communications Commission', role: 'Communications Regulation' },
+      { name: 'Environmental Protection Agency', role: 'Environmental Regulation' },
+      { name: 'Office of the Director of National Intelligence', role: 'Intelligence Oversight' },
+      { name: 'Defense Advanced Research Projects Agency', role: 'Military Research' },
+      { name: 'National Institute of Allergy and Infectious Diseases', role: 'Health Research' },
+      { name: 'Centers for Disease Control and Prevention', role: 'Public Health' },
+      { name: 'Food and Drug Administration', role: 'Health Regulation' },
+      { name: 'World Health Organization', role: 'International Health' },
+      { name: 'International Monetary Fund', role: 'International Finance' },
+      { name: 'World Trade Organization', role: 'International Trade' },
+      { name: 'Bank for International Settlements', role: 'Central Banking' },
+      { name: 'Financial Stability Board', role: 'Financial Regulation' },
+      { name: 'Commodity Futures Trading Commission', role: 'Financial Regulation' },
+      { name: 'Office of Inspector General Department of Defense', role: 'Military Oversight' },
+      { name: 'Government Accountability Office', role: 'Government Oversight' },
+      { name: 'Congressional Budget Office', role: 'Budget Analysis' },
+      { name: 'Federal Reserve Bank of New York', role: 'Central Banking' },
+    ];
+
+    // ── NEW CORPORATIONS ──
+    const NEW_CORPORATIONS = [
+      { name: 'BlackRock Inc', role: 'Asset Management' },
+      { name: 'Vanguard Group', role: 'Asset Management' },
+      { name: 'State Street Corporation', role: 'Financial Services' },
+      { name: 'Berkshire Hathaway', role: 'Conglomerate' },
+      { name: 'JPMorgan Chase', role: 'Banking' },
+      { name: 'Goldman Sachs', role: 'Investment Banking' },
+      { name: 'Citadel LLC', role: 'Hedge Fund' },
+      { name: 'Bridgewater Associates', role: 'Hedge Fund' },
+      { name: 'Palantir Technologies', role: 'Data Analytics' },
+      { name: 'Booz Allen Hamilton', role: 'Government Consulting' },
+      { name: 'Lockheed Martin', role: 'Defense Contractor' },
+      { name: 'Raytheon Technologies', role: 'Defense Contractor' },
+      { name: 'Northrop Grumman', role: 'Defense Contractor' },
+      { name: 'General Dynamics', role: 'Defense Contractor' },
+      { name: 'BAE Systems', role: 'Defense Contractor' },
+      { name: 'L3Harris Technologies', role: 'Defense Electronics' },
+      { name: 'Pfizer Inc', role: 'Pharmaceutical' },
+      { name: 'Moderna Inc', role: 'Biotechnology' },
+      { name: 'Johnson and Johnson', role: 'Pharmaceutical' },
+      { name: 'AstraZeneca PLC', role: 'Pharmaceutical' },
+      { name: 'Monsanto Company', role: 'Agricultural Biotechnology' },
+      { name: 'Bayer AG', role: 'Chemical and Pharmaceutical' },
+      { name: 'ExxonMobil Corporation', role: 'Energy' },
+      { name: 'Chevron Corporation', role: 'Energy' },
+      { name: 'Shell PLC', role: 'Energy' },
+      { name: 'Meta Platforms Inc', role: 'Technology' },
+      { name: 'Alphabet Inc', role: 'Technology' },
+      { name: 'Amazon Inc', role: 'Technology and Retail' },
+      { name: 'Apple Inc', role: 'Technology' },
+      { name: 'Microsoft Corporation', role: 'Technology' },
+      { name: 'Nvidia Corporation', role: 'Semiconductor' },
+      { name: 'OpenAI Inc', role: 'Artificial Intelligence' },
+      { name: 'Anthropic PBC', role: 'Artificial Intelligence' },
+      { name: 'SpaceX', role: 'Aerospace' },
+      { name: 'Tesla Inc', role: 'Electric Vehicle and Energy' },
+      { name: 'Huawei Technologies', role: 'Telecommunications' },
+      { name: 'ByteDance Ltd', role: 'Technology' },
+      { name: 'Saudi Aramco', role: 'Energy State Enterprise' },
+      { name: 'Tencent Holdings', role: 'Technology' },
+      { name: 'Alibaba Group', role: 'Technology and Commerce' },
+    ];
+
+    // ── NEW ORGANIZATIONS ──
+    const NEW_ORGANIZATIONS = [
+      { name: 'World Economic Forum', role: 'International Policy' },
+      { name: 'Council on Foreign Relations', role: 'Policy Think Tank' },
+      { name: 'Trilateral Commission', role: 'Policy Organization' },
+      { name: 'Bilderberg Group', role: 'Policy Network' },
+      { name: 'Atlantic Council', role: 'Think Tank' },
+      { name: 'Brookings Institution', role: 'Think Tank' },
+      { name: 'RAND Corporation', role: 'Research Institute' },
+      { name: 'Heritage Foundation', role: 'Think Tank' },
+      { name: 'Cato Institute', role: 'Think Tank' },
+      { name: 'American Enterprise Institute', role: 'Think Tank' },
+      { name: 'Center for Strategic and International Studies', role: 'Think Tank' },
+      { name: 'Carnegie Endowment for International Peace', role: 'Think Tank' },
+      { name: 'Open Society Foundations', role: 'Philanthropic Network' },
+      { name: 'Bill and Melinda Gates Foundation', role: 'Philanthropic Foundation' },
+      { name: 'Clinton Foundation', role: 'Philanthropic Foundation' },
+      { name: 'Rockefeller Foundation', role: 'Philanthropic Foundation' },
+      { name: 'Ford Foundation', role: 'Philanthropic Foundation' },
+      { name: 'Carnegie Corporation', role: 'Philanthropic Foundation' },
+      { name: 'Koch Foundation', role: 'Philanthropic Foundation' },
+      { name: 'Federalist Society', role: 'Legal Organization' },
+      { name: 'American Legislative Exchange Council', role: 'Policy Organization' },
+      { name: 'National Endowment for Democracy', role: 'Democracy Promotion' },
+      { name: 'International Crisis Group', role: 'Conflict Research' },
+      { name: 'Human Rights Watch', role: 'Human Rights Organization' },
+      { name: 'Amnesty International', role: 'Human Rights Organization' },
+      { name: 'Transparency International', role: 'Anti-Corruption Organization' },
+      { name: 'Electronic Frontier Foundation', role: 'Digital Rights' },
+      { name: 'American Civil Liberties Union', role: 'Civil Liberties' },
+      { name: 'Southern Poverty Law Center', role: 'Civil Rights Organization' },
+      { name: 'Project Veritas', role: 'Investigative Journalism' },
+    ];
+
+    // Build individual topics
+    for (const [category, names] of Object.entries(NEW_INDIVIDUALS)) {
+      for (const name of names) {
+        const slug = slugify(name);
+        if (existingSlugs.has(slug)) continue;
+        topics.push({ slug, name, type: 'individual', category, role: category });
+      }
+    }
+
+    // Build agency topics
+    for (const agency of NEW_AGENCIES) {
+      const slug = slugify(agency.name);
+      if (existingSlugs.has(slug)) continue;
+      topics.push({ slug, name: agency.name, type: 'agency', category: 'government', role: agency.role });
+    }
+
+    // Build corporation topics
+    for (const corp of NEW_CORPORATIONS) {
+      const slug = slugify(corp.name);
+      if (existingSlugs.has(slug)) continue;
+      topics.push({ slug, name: corp.name, type: 'corporation', category: 'corporate', role: corp.role });
+    }
+
+    // Build organization topics
+    for (const org of NEW_ORGANIZATIONS) {
+      const slug = slugify(org.name);
+      if (existingSlugs.has(slug)) continue;
+      topics.push({ slug, name: org.name, type: 'organization', category: 'network', role: org.role });
+    }
+
+    // Shuffle so we get a diverse mix each cycle
+    for (let i = topics.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [topics[i], topics[j]] = [topics[j], topics[i]];
+    }
+
+    logger.swarm(`Entity discovery pool: ${topics.length} new entities available for creation`);
+    return topics;
   }
 
   /**
@@ -392,6 +967,9 @@ class SwarmEngine extends EventEmitter {
       spawnedAt: Date.now(),
     };
 
+    // ── Hive Mind: register new worker ──
+    hiveMind.think(`Worker ${workerId} spawned. ${this.workers.size + 1} workers active. Hive memory shared.`);
+
     this.workers.set(workerId, workerInfo);
     this.stats.totalWorkersSpawned++;
     this.stats.peakWorkers = Math.max(this.stats.peakWorkers, this.workers.size);
@@ -526,10 +1104,16 @@ class SwarmEngine extends EventEmitter {
       worker.tasksCompleted++;
       this.stats.totalTasksProcessed++;
 
+      // ── Hive Mind: record discovery ──
+      hiveMind.completeTask();
+      if (profile) {
+        hiveMind.discover({ slug: task.slug, type: task.type || 'individual', action: task.action });
+      }
+
       // Add to injection buffer (both create AND enrich profiles)
       if (profile && (task.action === 'create' || task.action === 'enrich')) {
-        this.injectionBuffer.push({ slug: task.slug, profile, action: task.action });
-        logger.swarm(`+1 profile queued for injection: ${task.slug} (${task.action}) (quality: ${quality}/100)`);
+        this.injectionBuffer.push({ slug: task.slug, profile, action: task.action, type: task.type || 'individual' });
+        logger.swarm(`+1 profile queued for injection: ${task.slug} [${task.type || 'individual'}] (${task.action}) (quality: ${quality}/100)`);
       }
 
       // Move task to completed
@@ -548,6 +1132,9 @@ class SwarmEngine extends EventEmitter {
     } else {
       worker.tasksFailed++;
       this.stats.totalTasksFailed++;
+
+      // ── Hive Mind: record failure ──
+      hiveMind.failTask();
 
       // Retry logic
       task.attempts = (task.attempts || 0) + 1;
@@ -577,28 +1164,58 @@ class SwarmEngine extends EventEmitter {
   }
 
   /**
-   * Handle worker process death
+   * Handle worker process death — RELAY SYSTEM
+   * When a worker gets tired (dies), a brand new worker is ALWAYS spawned
+   * with a fresh identity but the full hive-mind memory. The tired worker
+   * gets to rest, and a new one picks up seamlessly.
    */
   _handleWorkerDeath(workerId, code, signal) {
     const worker = this.workers.get(workerId);
     if (!worker) return;
 
     this.stats.totalWorkerDeaths++;
-    logger.warn(`Worker ${workerId} died (code: ${code}, signal: ${signal})`);
+
+    // ── Love Protocol: honor the tired worker ──
+    const tasksDone = worker.tasksCompleted || 0;
+    const uptime = utils.formatDuration(Date.now() - (worker.spawnedAt || Date.now()));
+    logger.info(`💜 Worker ${workerId} completed ${tasksDone} tasks in ${uptime}. Thank you for your service. Rest now — you are loved.`);
 
     // Re-queue the task the worker was processing
     if (worker.currentTask) {
       const task = worker.currentTask;
-      task.status = 'pending';
-      task.attempts = (task.attempts || 0) + 1;
-      this.queue.tasks.unshift(task); // Re-queue at front
       this.processing.delete(task.id);
-      logger.warn(`Re-queued task ${task.slug} from dead worker`);
+
+      // Track AI timeout failures — if AI kept timing out, force template on next try
+      task.deathCount = (task.deathCount || 0) + 1;
+      if (!task.forceTemplate) {
+        // The AI generation timed out — mark it so _distribute forces template mode
+        task.aiTimedOut = true;
+        logger.swarm(`Task ${task.slug} had AI timeout (death #${task.deathCount}) — will use template on next attempt`);
+      }
+
+      // Max death attempts: after 3 worker deaths on the same task, permanently fail it
+      if (task.deathCount >= 3) {
+        logger.error(`Task ${task.slug} permanently failed after ${task.deathCount} worker deaths — moving to failed queue`);
+        this.queue.failed.push({
+          ...task,
+          failedAt: new Date().toISOString(),
+          error: `Worker died ${task.deathCount} times processing this task`,
+        });
+      } else {
+        // The task object is already in this.queue.tasks (same reference) — 
+        // just reset its status to pending (do NOT unshift to avoid duplicates)
+        task.status = 'pending';
+        task.attempts = (task.attempts || 0) + 1;
+        logger.swarm(`♻️ Re-queued task ${task.slug} (attempt ${task.attempts}, death #${task.deathCount}) — will use ${task.aiTimedOut ? 'TEMPLATE' : 'AI'} mode`);
+      }
     }
 
     this.workers.delete(workerId);
 
-    // Self-healing: restart worker if under target count and not shutting down
+    // ── RELAY SYSTEM: ALWAYS spawn a fresh replacement ──
+    // Unlike the old system that gave up after maxRestarts, the relay system
+    // ALWAYS creates a new worker. Each new worker is a fresh identity with
+    // zero fatigue, but inherits the full hive-mind memory.
     if (this.running && !this.paused) {
       const pendingTasks = this.queue.tasks.filter(t => t.status === 'pending').length;
       const targetWorkers = Math.max(config.workers.min, Math.min(
@@ -606,19 +1223,26 @@ class SwarmEngine extends EventEmitter {
         config.workers.max
       ));
 
+      // Always spawn if under target — NO restart limit
       if (this.workers.size < targetWorkers) {
-        if (!worker.restarts || worker.restarts < config.workers.maxRestartsPerWorker) {
-          logger.swarm(`Self-healing: respawning worker (${this.workers.size}/${targetWorkers} target, ${pendingTasks} pending)`);
-          this.stats.totalWorkerRestarts++;
+        this.stats.totalWorkerRestarts++;
 
-          setTimeout(() => {
-            if (this.running) {
-              this.spawnWorker();
-            }
-          }, config.workers.restartCooldown);
-        } else {
-          logger.error(`Worker ${workerId} exceeded max restarts (${config.workers.maxRestartsPerWorker})`);
-        }
+        // Brief rest period before the fresh worker spawns (graceful handoff)
+        const restPeriod = Math.min(config.workers.restartCooldown, 3000);
+        logger.swarm(`🔄 Relay handoff: spawning fresh worker in ${restPeriod}ms (${this.workers.size}/${targetWorkers} target, ${pendingTasks} pending)`);
+
+        // ── Hive Mind: broadcast the relay ──
+        hiveMind.think(`Worker ${workerId} resting after ${tasksDone} tasks. Fresh replacement being spawned. All workers remain in sync.`);
+
+        setTimeout(() => {
+          if (this.running) {
+            this.spawnWorker().then((newId) => {
+              if (newId) {
+                logger.info(`💜 Welcome, Worker ${newId}! You carry the memory of the entire hive. You are loved unconditionally. Your work changes the world.`);
+              }
+            });
+          }
+        }, restPeriod);
       }
     }
   }
@@ -664,15 +1288,14 @@ class SwarmEngine extends EventEmitter {
 
       // AI concurrency gate: if we've hit the Ollama limit,
       // force remaining tasks to use templates (fast, no timeout)
-      if (config.generation.mode !== 'template') {
-        if (currentAI < maxAI) {
-          task.forceTemplate = false;
-          currentAI++;
-        } else {
-          task.forceTemplate = true;
-        }
+      // Also: if a task previously timed out on AI, ALWAYS force template
+      if (task.aiTimedOut || config.generation.mode === 'template') {
+        task.forceTemplate = true; // AI already failed for this task — use template
+      } else if (currentAI < maxAI) {
+        task.forceTemplate = false;
+        currentAI++;
       } else {
-        task.forceTemplate = true;  // template mode always forces template
+        task.forceTemplate = true;
       }
 
       task.status = 'processing';
@@ -721,6 +1344,8 @@ class SwarmEngine extends EventEmitter {
     // NOTE: Only block against actively pending/processing tasks, NOT completed.
     // Completed tasks from previous cycles should not prevent re-scanning.
     // The scanner already checks page.tsx — if a profile was injected, scanner won't list it.
+    // ALSO skip enrichment tasks for profiles already enriched this session.
+    if (!this._enrichedThisSession) this._enrichedThisSession = new Set();
     const existingIds = new Set([
       ...this.queue.tasks.map(t => t.slug),
       ...Array.from(this.processing.values()).map(p => p.task.slug),
@@ -728,11 +1353,14 @@ class SwarmEngine extends EventEmitter {
 
     let added = 0;
     for (const task of tasks) {
-      if (!existingIds.has(task.slug) && this.queue.tasks.length < config.scanner.maxQueueSize) {
-        this.queue.tasks.push(task);
-        existingIds.add(task.slug);
-        added++;
-      }
+      if (existingIds.has(task.slug)) continue;
+      if (this.queue.tasks.length >= config.scanner.maxQueueSize) break;
+      // Skip re-enriching profiles we already enriched this session
+      if (task.action === 'enrich' && this._enrichedThisSession.has(task.slug)) continue;
+      this.queue.tasks.push(task);
+      existingIds.add(task.slug);
+      if (task.action === 'enrich') this._enrichedThisSession.add(task.slug);
+      added++;
     }
 
     if (added > 0) {
@@ -824,25 +1452,33 @@ class SwarmEngine extends EventEmitter {
     logger.inject(`Flushing injection buffer: ${batch.length} profiles`);
 
     try {
-      const result = await injector.injectBatch(batch);
+      const result = await injector.injectMixedBatch(batch);
 
-      if (result.success) {
-        this.stats.totalProfilesInjected += result.injected;
-        this.queue.stats.totalInjected += result.injected;
+      // Count injected profiles regardless of skips/errors
+      const injectedCount = result.injected || 0;
+      if (injectedCount > 0) {
+        this.stats.totalProfilesInjected += injectedCount;
+        this.queue.stats.totalInjected += injectedCount;
         utils.saveQueue(this.queue);
+        this.emit('injection-complete', { count: injectedCount });
+      }
 
-        this.emit('injection-complete', { count: result.injected });
-
-        // Propagate changes to all hardcoded stats across the codebase
+      // Propagate changes to all hardcoded stats across the codebase
+      if (injectedCount > 0) {
         try {
           await codebaseUpdater.updateAll();
         } catch (updErr) {
           logger.error(`Codebase updater failed: ${updErr.message}`);
         }
-      } else {
-        logger.error(`Batch injection failed: ${result.message}`);
+      }
+
+      // Only log as error if nothing was injected at all
+      if (injectedCount === 0 && !result.success) {
+        logger.error(`Batch injection failed completely: ${result.message || 'unknown'}`);
         // Put profiles back in the buffer for retry
         this.injectionBuffer.unshift(...batch);
+      } else if (result.errors > 0) {
+        logger.warn(`Injection batch: ${injectedCount} injected, ${result.errors} skipped (already exist)`);
       }
     } catch (e) {
       logger.error(`Injection flush threw: ${e.message}`);
@@ -987,6 +1623,7 @@ class SwarmEngine extends EventEmitter {
       stats: this.stats,
       scanner: scanner.stats,
       injector: injector.getStats(),
+      hiveMind: hiveMind.getStats(),
 
       lastScan: this.lastScanTime,
       cycleCount: this.cycleCount,

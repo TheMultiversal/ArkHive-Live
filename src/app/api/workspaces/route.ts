@@ -1,4 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
+
+export const dynamic = 'force-static';
 
 // ============================================================
 // Types
@@ -62,65 +64,23 @@ const workspacesStore: Workspace[] = [
 // GET /api/workspaces - Get workspaces
 // ============================================================
 
-export async function GET(request: NextRequest) {
+export async function GET() {
  try {
- const { searchParams } = new URL(request.url);
- const id = searchParams.get('id');
- const userId = searchParams.get('userId');
- const type = searchParams.get('type');
- const status = searchParams.get('status');
- const page = parseInt(searchParams.get('page') || '1');
- const limit = parseInt(searchParams.get('limit') || '20');
-
- // Get by ID
- if (id) {
- const workspace = workspacesStore.find(w => w.id === id);
- if (!workspace) {
- return NextResponse.json(
- { error: 'Workspace not found' },
- { status: 404 }
- );
- }
- return NextResponse.json(workspace);
- }
-
- // List workspaces
- let workspaces = [...workspacesStore];
-
- // Apply filters
- if (userId) {
- workspaces = workspaces.filter(w => 
- w.members.some(m => m.userId === userId)
- );
- }
- if (type) {
- const types = type.split(',');
- workspaces = workspaces.filter(w => types.includes(w.type));
- }
- if (status) {
- const statuses = status.split(',');
- workspaces = workspaces.filter(w => statuses.includes(w.status));
- }
+ const workspaces = [...workspacesStore];
 
  // Sort by updated date descending
  workspaces.sort((a, b) => 
  new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
  );
 
- // Pagination
- const total = workspaces.length;
- const totalPages = Math.ceil(total / limit);
- const offset = (page - 1) * limit;
- const paginatedWorkspaces = workspaces.slice(offset, offset + limit);
-
  return NextResponse.json({
- data: paginatedWorkspaces,
+ data: workspaces,
  pagination: {
- page,
- limit,
- total,
- totalPages,
- hasMore: page < totalPages,
+ page: 1,
+ limit: 20,
+ total: workspaces.length,
+ totalPages: 1,
+ hasMore: false,
  },
  });
  } catch (error) {
@@ -136,7 +96,7 @@ export async function GET(request: NextRequest) {
 // POST /api/workspaces - Create workspace
 // ============================================================
 
-export async function POST(request: NextRequest) {
+export async function POST(request: Request) {
  try {
  const body = await request.json();
 
@@ -191,7 +151,7 @@ export async function POST(request: NextRequest) {
 // PATCH /api/workspaces - Update workspace
 // ============================================================
 
-export async function PATCH(request: NextRequest) {
+export async function PATCH(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const id = searchParams.get('id');
@@ -286,7 +246,7 @@ export async function PATCH(request: NextRequest) {
 // DELETE /api/workspaces - Delete workspace
 // ============================================================
 
-export async function DELETE(request: NextRequest) {
+export async function DELETE(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const id = searchParams.get('id');

@@ -566,6 +566,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'wire-fraud-transnational-networks': {
     title: 'Wire Fraud Transnational Networks',
     subtitle: 'Investigation into Wire Fraud Transnational Networks',
@@ -776,7 +777,6 @@ const investigations_w: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_w;

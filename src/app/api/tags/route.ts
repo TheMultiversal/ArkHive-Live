@@ -1,4 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
+
+export const dynamic = 'force-static';
 
 // ============================================================
 // Types
@@ -64,44 +66,12 @@ function slugify(text: string): string {
 // GET /api/tags - Get all tags
 // ============================================================
 
-export async function GET(request: NextRequest) {
+export async function GET() {
  try {
- const { searchParams } = new URL(request.url);
- const category = searchParams.get('category');
- const search = searchParams.get('search');
- const sortBy = searchParams.get('sortBy') || 'name';
- const sortOrder = searchParams.get('sortOrder') || 'asc';
+ const tags = [...tagsStore];
 
- let tags = [...tagsStore];
-
- // Apply filters
- if (category) {
- tags = tags.filter(t => t.category === category);
- }
- if (search) {
- const searchLower = search.toLowerCase();
- tags = tags.filter(t => 
- t.name.toLowerCase().includes(searchLower) ||
- t.description.toLowerCase().includes(searchLower)
- );
- }
-
- // Sort
- tags.sort((a, b) => {
- let comparison = 0;
- switch (sortBy) {
- case 'name':
- comparison = a.name.localeCompare(b.name);
- break;
- case 'usage':
- comparison = a.usageCount - b.usageCount;
- break;
- case 'date':
- comparison = new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime();
- break;
- }
- return sortOrder === 'asc' ? comparison : -comparison;
- });
+ // Sort by name ascending (default)
+ tags.sort((a, b) => a.name.localeCompare(b.name));
 
  return NextResponse.json({
  data: tags,
@@ -120,7 +90,7 @@ export async function GET(request: NextRequest) {
 // POST /api/tags - Create a new tag
 // ============================================================
 
-export async function POST(request: NextRequest) {
+export async function POST(request: Request) {
  try {
  const body = await request.json();
 
@@ -170,7 +140,7 @@ export async function POST(request: NextRequest) {
 // PATCH /api/tags - Update a tag
 // ============================================================
 
-export async function PATCH(request: NextRequest) {
+export async function PATCH(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const tagId = searchParams.get('id');
@@ -214,7 +184,7 @@ export async function PATCH(request: NextRequest) {
 // DELETE /api/tags - Delete a tag
 // ============================================================
 
-export async function DELETE(request: NextRequest) {
+export async function DELETE(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const tagId = searchParams.get('id');

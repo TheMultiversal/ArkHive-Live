@@ -1,4 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
+
+export const dynamic = 'force-static';
 
 // ============================================================
 // Types
@@ -62,30 +64,9 @@ const invitesStore: TeamInvite[] = [];
 // GET /api/teams - Get team members
 // ============================================================
 
-export async function GET(request: NextRequest) {
+export async function GET() {
  try {
- const { searchParams } = new URL(request.url);
- const role = searchParams.get('role');
- const status = searchParams.get('status');
- const search = searchParams.get('search');
- const includeInvites = searchParams.get('includeInvites') === 'true';
-
- let members = [...teamStore];
-
- // Apply filters
- if (role) {
- members = members.filter(m => m.role === role);
- }
- if (status) {
- members = members.filter(m => m.status === status);
- }
- if (search) {
- const searchLower = search.toLowerCase();
- members = members.filter(m => 
- m.name.toLowerCase().includes(searchLower) ||
- m.email.toLowerCase().includes(searchLower)
- );
- }
+ const members = [...teamStore];
 
  const response: {
  members: TeamMember[];
@@ -97,16 +78,13 @@ export async function GET(request: NextRequest) {
  };
  } = {
  members,
+ invites: invitesStore,
  stats: {
  total: members.length,
  active: members.filter(m => m.status === 'active').length,
  pending: invitesStore.length,
  },
  };
-
- if (includeInvites) {
- response.invites = invitesStore;
- }
 
  return NextResponse.json(response);
  } catch (error) {
@@ -122,7 +100,7 @@ export async function GET(request: NextRequest) {
 // POST /api/teams - Invite a new team member
 // ============================================================
 
-export async function POST(request: NextRequest) {
+export async function POST(request: Request) {
  try {
  const body = await request.json();
 
@@ -176,7 +154,7 @@ export async function POST(request: NextRequest) {
 // PATCH /api/teams - Update team member
 // ============================================================
 
-export async function PATCH(request: NextRequest) {
+export async function PATCH(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const memberId = searchParams.get('id');
@@ -230,7 +208,7 @@ export async function PATCH(request: NextRequest) {
 // DELETE /api/teams - Remove team member or revoke invite
 // ============================================================
 
-export async function DELETE(request: NextRequest) {
+export async function DELETE(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const memberId = searchParams.get('id');

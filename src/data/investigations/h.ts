@@ -252,6 +252,7 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'hedge-fund-market-manipulation': {
     title: 'Hedge Fund Market Manipulation',
     subtitle: 'Investigation into Hedge Fund Market Manipulation',
@@ -378,7 +379,6 @@ const investigations_h: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_h;

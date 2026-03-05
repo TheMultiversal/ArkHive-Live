@@ -326,6 +326,7 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'nsa-stellarwind-warrantless-wiretapping': {
     title: 'NSA Stellarwind Warrantless Wiretapping',
     subtitle: 'Investigation into NSA Stellarwind Warrantless Wiretapping',
@@ -431,7 +432,6 @@ const investigations_n: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_n;

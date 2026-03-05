@@ -986,46 +986,271 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'medium',
     members: 'Unknown',
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  'citizens-united': {
+    name: 'Citizens United',
+    slug: 'citizens-united',
+    type: 'Corporation',
+    description: 'Citizens United is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'ohio-state': {
+    name: 'Ohio State',
+    slug: 'ohio-state',
+    type: 'Corporation',
+    description: 'Ohio State is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'financial-stability-board': {
+    name: 'Financial Stability Board',
+    slug: 'financial-stability-board',
+    type: 'Government Agency',
+    description: 'Financial Stability Board is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'global-energy-producers': {
+    name: 'Global Energy Producers',
+    slug: 'global-energy-producers',
+    type: 'Corporation',
+    description: 'Global Energy Producers is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'allied-security-operations-group': {
+    name: 'Allied Security Operations Group',
+    slug: 'allied-security-operations-group',
+    type: 'Corporation',
+    description: 'Allied Security Operations Group is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'americas-project': {
+    name: 'Americas Project',
+    slug: 'americas-project',
+    type: 'Corporation',
+    description: 'Americas Project is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'breitbart-news': {
+    name: 'Breitbart News',
+    slug: 'breitbart-news',
+    type: 'Corporation',
+    description: 'Breitbart News is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'conservative-partnership-institute': {
+    name: 'Conservative Partnership Institute',
+    slug: 'conservative-partnership-institute',
+    type: 'Corporation',
+    description: 'Conservative Partnership Institute is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'dalton-school': {
+    name: 'Dalton School',
+    slug: 'dalton-school',
+    type: 'Corporation',
+    description: 'Dalton School is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'financial-trust': {
+    name: 'Financial Trust',
+    slug: 'financial-trust',
+    type: 'Corporation',
+    description: 'Financial Trust is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'fraud-guarantee': {
+    name: 'Fraud Guarantee',
+    slug: 'fraud-guarantee',
+    type: 'Corporation',
+    description: 'Fraud Guarantee is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'freedom-caucus': {
+    name: 'Freedom Caucus',
+    slug: 'freedom-caucus',
+    type: 'Corporation',
+    description: 'Freedom Caucus is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'gettr': {
+    name: 'Gettr',
+    slug: 'gettr',
+    type: 'Corporation',
+    description: 'Gettr is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'gratitude-america': {
+    name: 'Gratitude America',
+    slug: 'gratitude-america',
+    type: 'Corporation',
+    description: 'Gratitude America is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'great-america-pac': {
+    name: 'Great America Pac',
+    slug: 'great-america-pac',
+    type: 'Corporation',
+    description: 'Great America Pac is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'harvard-university': {
+    name: 'Harvard University',
+    slug: 'harvard-university',
+    type: 'Corporation',
+    description: 'Harvard University is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'interlochen': {
+    name: 'Interlochen',
+    slug: 'interlochen',
+    type: 'Corporation',
+    description: 'Interlochen is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'karin-models': {
+    name: 'Karin Models',
+    slug: 'karin-models',
+    type: 'Corporation',
+    description: 'Karin Models is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'lindell-management': {
+    name: 'Lindell Management',
+    slug: 'lindell-management',
+    type: 'Corporation',
+    description: 'Lindell Management is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'mc2-model-management': {
+    name: 'Mc2 Model Management',
+    slug: 'mc2-model-management',
+    type: 'Corporation',
+    description: 'Mc2 Model Management is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'mc2': {
+    name: 'Mc2',
+    slug: 'mc2',
+    type: 'Corporation',
+    description: 'Mc2 is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'mit': {
+    name: 'Mit',
+    slug: 'mit',
+    type: 'Corporation',
+    description: 'Mit is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'mypillow': {
+    name: 'Mypillow',
+    slug: 'mypillow',
+    type: 'Corporation',
+    description: 'Mypillow is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'parler': {
+    name: 'Parler',
+    slug: 'parler',
+    type: 'Corporation',
+    description: 'Parler is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'rockefeller-university': {
+    name: 'Rockefeller University',
+    slug: 'rockefeller-university',
+    type: 'Corporation',
+    description: 'Rockefeller University is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'scl-group': {
+    name: 'Scl Group',
+    slug: 'scl-group',
+    type: 'Corporation',
+    description: 'Scl Group is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'southern-trust': {
+    name: 'Southern Trust',
+    slug: 'southern-trust',
+    type: 'Corporation',
+    description: 'Southern Trust is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'stop-the-steal': {
+    name: 'Stop The Steal',
+    slug: 'stop-the-steal',
+    type: 'Corporation',
+    description: 'Stop The Steal is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'the-bulwark': {
+    name: 'The Bulwark',
+    slug: 'the-bulwark',
+    type: 'Corporation',
+    description: 'The Bulwark is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'the-lincoln-project': {
+    name: 'The Lincoln Project',
+    slug: 'the-lincoln-project',
+    type: 'Corporation',
+    description: 'The Lincoln Project is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'washington-free-beacon': {
+    name: 'Washington Free Beacon',
+    slug: 'washington-free-beacon',
+    type: 'Corporation',
+    description: 'Washington Free Beacon is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'washington-post': {
+    name: 'Washington Post',
+    slug: 'washington-post',
+    type: 'Corporation',
+    description: 'Washington Post is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
+  'world-trade-organization': {
+    name: 'World Trade Organization',
+    slug: 'world-trade-organization',
+    type: 'Government Agency',
+    description: 'World Trade Organization is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    riskLevel: 'low',
+    members: 'Unknown',
+  },
 };
 
 export default organizations;
-export type { OrganizationProfile };
+export type { OrganizationProfile } from './types';

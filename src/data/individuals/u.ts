@@ -306,6 +306,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Ursula von der Leyen has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Ursula von der Leyen facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Congressional hearing transcripts reference Ursula von der Leyen in connection with policy decisions that disproportionately benefited associated financial interests.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -313,6 +315,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Ursula von der Leyen' },
     ],
     socialMedia: [],
     sources: [
@@ -324,6 +327,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
 };
 

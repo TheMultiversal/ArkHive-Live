@@ -137,6 +137,7 @@ const investigations_o: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'offshore-tax-haven-architecture': {
     title: 'Offshore Tax Haven Architecture',
     subtitle: 'Investigation into Offshore Tax Haven Architecture',
@@ -515,7 +516,6 @@ const investigations_o: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_o;

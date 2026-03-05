@@ -38,6 +38,7 @@ const investigations_q: Record<string, InvestigationData> = {
  { id: '5', name: 'Mohammed bin Zayed', type: 'individual', relationship: 'Led UAE side of blockade', href: '/entities/individuals/mohammed-bin-zayed' },
  { id: '6', name: 'Kushner Companies', type: 'corporation', relationship: 'Benefited from resolution', href: '/entities/corporations/kushner-companies' },
  ],
+ },
   'qualified-immunity-police-accountability-gap': {
     title: 'Qualified Immunity Police Accountability Gap',
     subtitle: 'Investigation into Qualified Immunity Police Accountability Gap',
@@ -59,7 +60,6 @@ const investigations_q: Record<string, InvestigationData> = {
     ],
   },
 
- },
 };
 
 export default investigations_q;

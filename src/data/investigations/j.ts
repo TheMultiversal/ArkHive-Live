@@ -111,6 +111,7 @@ const investigations_j: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'journalistic-source-protection-failures': {
     title: 'Journalistic Source Protection Failures',
     subtitle: 'Investigation into Journalistic Source Protection Failures',
@@ -153,7 +154,6 @@ const investigations_j: Record<string, InvestigationData> = {
   },
 
 
- },
 };
 
 export default investigations_j;

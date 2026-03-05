@@ -1,4 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
+
+export const dynamic = 'force-static';
 
 // ============================================================
 // Types
@@ -54,34 +56,8 @@ const deliveriesStore: WebhookDelivery[] = [];
 // GET /api/webhooks - Get webhooks
 // ============================================================
 
-export async function GET(request: NextRequest) {
+export async function GET() {
  try {
- const { searchParams } = new URL(request.url);
- const webhookId = searchParams.get('id');
- const includeDeliveries = searchParams.get('includeDeliveries') === 'true';
-
- // Get specific webhook
- if (webhookId) {
- const webhook = webhooksStore.find(w => w.id === webhookId);
- if (!webhook) {
- return NextResponse.json(
- { error: 'Webhook not found' },
- { status: 404 }
- );
- }
-
- const response: { webhook: Webhook; deliveries?: WebhookDelivery[] } = { webhook };
-
- if (includeDeliveries) {
- response.deliveries = deliveriesStore
- .filter(d => d.webhookId === webhookId)
- .slice(0, 50);
- }
-
- return NextResponse.json(response);
- }
-
- // List all webhooks
  return NextResponse.json({
  data: webhooksStore,
  total: webhooksStore.length,
@@ -99,7 +75,7 @@ export async function GET(request: NextRequest) {
 // POST /api/webhooks - Create webhook
 // ============================================================
 
-export async function POST(request: NextRequest) {
+export async function POST(request: Request) {
  try {
  const body = await request.json();
 
@@ -150,7 +126,7 @@ export async function POST(request: NextRequest) {
 // PATCH /api/webhooks - Update webhook
 // ============================================================
 
-export async function PATCH(request: NextRequest) {
+export async function PATCH(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const webhookId = searchParams.get('id');
@@ -205,7 +181,7 @@ export async function PATCH(request: NextRequest) {
 // DELETE /api/webhooks - Delete webhook
 // ============================================================
 
-export async function DELETE(request: NextRequest) {
+export async function DELETE(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const webhookId = searchParams.get('id');

@@ -1,4 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
+
+export const dynamic = 'force-static';
 
 // ============================================================
 // Types
@@ -36,31 +38,10 @@ const analyticsStore: AnalyticsEvent[] = [];
 // GET /api/analytics - Get analytics summary
 // ============================================================
 
-export async function GET(request: NextRequest) {
+export async function GET() {
  try {
- const { searchParams } = new URL(request.url);
- const startDate = searchParams.get('startDate');
- const endDate = searchParams.get('endDate');
- const type = searchParams.get('type');
+ const events = [...analyticsStore];
 
- let events = [...analyticsStore];
-
- // Filter by date range
- if (startDate) {
- const start = new Date(startDate);
- events = events.filter(e => new Date(e.timestamp) >= start);
- }
- if (endDate) {
- const end = new Date(endDate);
- events = events.filter(e => new Date(e.timestamp) <= end);
- }
-
- // Filter by type
- if (type) {
- events = events.filter(e => e.type === type);
- }
-
- // Calculate summary
  const uniqueUsers = new Set(events.filter(e => e.userId).map(e => e.userId)).size;
  const uniqueSessions = new Set(events.map(e => e.sessionId)).size;
  const pageViews = events.filter(e => e.type === 'pageview').length;
@@ -120,7 +101,7 @@ export async function GET(request: NextRequest) {
 // POST /api/analytics - Track an analytics event
 // ============================================================
 
-export async function POST(request: NextRequest) {
+export async function POST(request: Request) {
  try {
  const body = await request.json();
  
@@ -157,7 +138,7 @@ export async function POST(request: NextRequest) {
 // DELETE /api/analytics - Clear analytics data
 // ============================================================
 
-export async function DELETE(request: NextRequest) {
+export async function DELETE(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const confirm = searchParams.get('confirm');

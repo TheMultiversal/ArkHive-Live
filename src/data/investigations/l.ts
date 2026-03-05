@@ -217,6 +217,7 @@ const investigations_l: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'labor-trafficking-in-agriculture': {
     title: 'Labor Trafficking in Agriculture',
     subtitle: 'Investigation into Labor Trafficking in Agriculture',
@@ -343,7 +344,6 @@ const investigations_l: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_l;

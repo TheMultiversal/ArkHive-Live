@@ -793,6 +793,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'electoral-college-manipulation': {
     title: 'Electoral College Manipulation',
     subtitle: 'Investigation into Electoral College Manipulation',
@@ -1066,7 +1067,6 @@ const investigations_e: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_e;

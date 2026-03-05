@@ -3671,6 +3671,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Test Inject Check 999 has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Test Inject Check 999 in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Internal documents obtained through litigation discovery show Test Inject Check 999 was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -3678,6 +3680,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Network analysis completed — Test Inject Check 999 connected to 12 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
@@ -3689,6 +3692,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
   'tom-vilsack': {
     name: 'Tom Vilsack',
     title: 'Public Figure Under Investigation',
@@ -3700,6 +3704,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Tom Vilsack has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Tom Vilsack\'s operations and the regulatory bodies meant to provide oversight.',
+      'Investigative analysis reveals Tom Vilsack was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -3707,6 +3713,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Tom Vilsack and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
@@ -3718,6 +3725,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
 
 };

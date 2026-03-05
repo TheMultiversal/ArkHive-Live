@@ -1,4 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
+
+export const dynamic = 'force-static';
 
 // ============================================================
 // Types
@@ -71,49 +73,12 @@ const availableProviders = [
 // GET /api/integrations - Get integrations
 // ============================================================
 
-export async function GET(request: NextRequest) {
+export async function GET() {
  try {
- const { searchParams } = new URL(request.url);
- const integrationId = searchParams.get('id');
- const type = searchParams.get('type');
- const status = searchParams.get('status');
- const listProviders = searchParams.get('providers') === 'true';
-
- // List available providers
- if (listProviders) {
- const typeFilter = searchParams.get('providerType');
- let providers = [...availableProviders];
- if (typeFilter) {
- providers = providers.filter(p => p.type === typeFilter);
- }
- return NextResponse.json({ providers });
- }
-
- // Get specific integration
- if (integrationId) {
- const integration = integrationsStore.find(i => i.id === integrationId);
- if (!integration) {
- return NextResponse.json(
- { error: 'Integration not found' },
- { status: 404 }
- );
- }
- return NextResponse.json(integration);
- }
-
- // List integrations
- let integrations = [...integrationsStore];
-
- if (type) {
- integrations = integrations.filter(i => i.type === type);
- }
- if (status) {
- integrations = integrations.filter(i => i.status === status);
- }
-
  return NextResponse.json({
- data: integrations,
- total: integrations.length,
+ data: integrationsStore,
+ total: integrationsStore.length,
+ providers: availableProviders,
  });
  } catch (error) {
  console.error('Integrations GET error:', error);
@@ -128,7 +93,7 @@ export async function GET(request: NextRequest) {
 // POST /api/integrations - Create integration
 // ============================================================
 
-export async function POST(request: NextRequest) {
+export async function POST(request: Request) {
  try {
  const body = await request.json();
 
@@ -195,7 +160,7 @@ export async function POST(request: NextRequest) {
 // PATCH /api/integrations - Update integration
 // ============================================================
 
-export async function PATCH(request: NextRequest) {
+export async function PATCH(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const integrationId = searchParams.get('id');
@@ -271,7 +236,7 @@ export async function PATCH(request: NextRequest) {
 // DELETE /api/integrations - Disconnect integration
 // ============================================================
 
-export async function DELETE(request: NextRequest) {
+export async function DELETE(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const integrationId = searchParams.get('id');

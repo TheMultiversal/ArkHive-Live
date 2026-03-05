@@ -613,6 +613,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'rico-enterprise-criminal-networks': {
     title: 'RICO Enterprise Criminal Networks',
     subtitle: 'Investigation into RICO Enterprise Criminal Networks',
@@ -802,7 +803,6 @@ const investigations_r: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_r;

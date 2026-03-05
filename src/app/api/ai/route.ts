@@ -1,4 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
+
+export const dynamic = 'force-static';
 
 // ============================================================
 // Types
@@ -41,38 +43,9 @@ const aiJobsStore: AIAnalysis[] = [];
 // GET /api/ai - Get AI analysis jobs
 // ============================================================
 
-export async function GET(request: NextRequest) {
+export async function GET() {
  try {
- const { searchParams } = new URL(request.url);
- const jobId = searchParams.get('id');
- const userId = searchParams.get('userId');
- const type = searchParams.get('type');
- const status = searchParams.get('status');
-
- // Get specific job
- if (jobId) {
- const job = aiJobsStore.find(j => j.id === jobId);
- if (!job) {
- return NextResponse.json(
- { error: 'AI analysis job not found' },
- { status: 404 }
- );
- }
- return NextResponse.json(job);
- }
-
- // List jobs
- let jobs = [...aiJobsStore];
-
- if (userId) {
- jobs = jobs.filter(j => j.userId === userId);
- }
- if (type) {
- jobs = jobs.filter(j => j.type === type);
- }
- if (status) {
- jobs = jobs.filter(j => j.status === status);
- }
+ const jobs = [...aiJobsStore];
 
  // Sort by creation date descending
  jobs.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
@@ -94,7 +67,7 @@ export async function GET(request: NextRequest) {
 // POST /api/ai - Create AI analysis job
 // ============================================================
 
-export async function POST(request: NextRequest) {
+export async function POST(request: Request) {
  try {
  const body = await request.json();
 
@@ -276,7 +249,7 @@ function generateMockAIOutput(type: string, inputText: string): AIAnalysis['outp
 // DELETE /api/ai - Cancel AI job
 // ============================================================
 
-export async function DELETE(request: NextRequest) {
+export async function DELETE(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const jobId = searchParams.get('id');

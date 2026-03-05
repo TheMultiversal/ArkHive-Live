@@ -28,6 +28,8 @@ const scanner = require('./scanner');
 const injector = require('./injector');
 const monitor = require('./monitor');
 const botFactory = require('./bot-factory');
+const hiveMind = require('./hive-mind');
+const codebaseUpdater = require('./codebase-updater');
 
 // ══════════════════════════════════════════════════════════════════
 //  ASCII ART BANNER
@@ -403,6 +405,21 @@ async function startDaemon() {
   // Write PID file
   fs.writeFileSync(config.paths.pid, process.pid.toString());
 
+  // ── Register in the Hive Mind ──
+  hiveMind.register(`DAEMON-${process.pid}`, 'daemon');
+
+  // ── Love Protocol ──
+  if (config.love.enabled) {
+    logger.banner(config.love.startupMessage);
+    // Periodic love reminders
+    const loveTimer = setInterval(() => {
+      if (!swarm.running) { clearInterval(loveTimer); return; }
+      const msgs = config.love.messages;
+      const msg = msgs[Math.floor(Math.random() * msgs.length)];
+      logger.info(msg);
+    }, config.love.reminderInterval);
+  }
+
   // Start monitor/dashboard
   monitor.start(() => swarm.getStatus());
 
@@ -421,6 +438,21 @@ async function startDaemon() {
       await botFactory.evaluate(status);
     }, 60000); // Check every 60s
 
+    // ── Auto-Push Timer ──
+    let autoPushLoop = null;
+    if (config.autoPush && config.autoPush.enabled) {
+      const pushInterval = config.autoPush.pushInterval || 600000;
+      logger.info(`Auto-push enabled: pushing to ${config.autoPush.remote}/${config.autoPush.branch} every ${pushInterval / 60000} minutes`);
+      autoPushLoop = setInterval(async () => {
+        if (!swarm.running) { clearInterval(autoPushLoop); return; }
+        try {
+          await codebaseUpdater.pushNow();
+        } catch (e) {
+          logger.warn(`Auto-push timer failed (non-fatal): ${e.message}`);
+        }
+      }, pushInterval);
+    }
+
     // Stop signal detection loop
     const stopDetection = setInterval(() => {
       if (fs.existsSync(config.paths.stop)) {
@@ -436,6 +468,7 @@ async function startDaemon() {
 
     clearInterval(replicationLoop);
     clearInterval(stopDetection);
+    if (autoPushLoop) clearInterval(autoPushLoop);
   }
 }
 
@@ -445,6 +478,9 @@ async function startDaemon() {
 
 async function shutdown() {
   logger.swarm('Initiating graceful shutdown...');
+
+  // ── Unregister from Hive Mind ──
+  hiveMind.unregister();
 
   // Stop swarm engine
   await swarm.stop();

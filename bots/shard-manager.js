@@ -2,6 +2,7 @@
 //  ARKHIVE SWARM INTELLIGENCE — SHARD MANAGER
 //  Splits the monolithic data into per-letter shard files
 //  Enables concurrent writes without corruption
+//  Now supports MULTIPLE entity types (individuals, investigations, etc.)
 // ═══════════════════════════════════════════════════════════════════
 
 const fs = require('fs');
@@ -236,3 +237,265 @@ export type { IndividualProfile };
 module.exports = new ShardManager();
 module.exports.ShardManager = ShardManager;
 module.exports.ALL_SHARDS = ALL_SHARDS;
+
+// ═══════════════════════════════════════════════════════════════════
+//  SINGLE-FILE DATA MANAGER
+//  For entity types stored in a single index.ts (agencies, corps, orgs)
+// ═══════════════════════════════════════════════════════════════════
+
+class SingleFileManager {
+  /**
+   * @param {string} entityType - e.g. 'agencies', 'corporations', 'organizations'
+   */
+  constructor(entityType) {
+    this.entityType = entityType;
+    this.dataDir = config.paths.dataDir[entityType];
+    this._lock = false;
+  }
+
+  getFilePath() {
+    return path.join(this.dataDir, 'index.ts');
+  }
+
+  isActive() {
+    return fs.existsSync(this.getFilePath());
+  }
+
+  readContent() {
+    try { return fs.readFileSync(this.getFilePath(), 'utf8'); } catch (_) { return null; }
+  }
+
+  writeContent(content) {
+    const filePath = this.getFilePath();
+    const tmpPath = filePath + '.tmp.' + crypto.randomBytes(4).toString('hex');
+    try {
+      fs.writeFileSync(tmpPath, content, 'utf8');
+      for (let attempt = 0; attempt < 5; attempt++) {
+        try {
+          fs.renameSync(tmpPath, filePath);
+          return true;
+        } catch (e) {
+          if (e.code === 'EPERM' || e.code === 'EBUSY') {
+            const waitMs = 200 * (attempt + 1);
+            const start = Date.now();
+            while (Date.now() - start < waitMs) { /* busy wait */ }
+          } else { throw e; }
+        }
+      }
+      try { fs.unlinkSync(tmpPath); } catch (_) {}
+      fs.writeFileSync(filePath, content, 'utf8');
+      return true;
+    } catch (e) {
+      try { fs.unlinkSync(tmpPath); } catch (_) {}
+      throw e;
+    }
+  }
+
+  extractAllSlugs() {
+    const content = this.readContent();
+    if (!content) return [];
+    const slugs = [];
+    const regex = /^\s*'([a-z0-9-]+)'\s*:\s*\{/gm;
+    let match;
+    while ((match = regex.exec(content)) !== null) {
+      slugs.push(match[1]);
+    }
+    return slugs;
+  }
+
+  backup() {
+    const filePath = this.getFilePath();
+    if (!fs.existsSync(filePath)) return null;
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const backupPath = path.join(config.paths.backups, `${this.entityType}-index.${timestamp}.bak`);
+    fs.copyFileSync(filePath, backupPath);
+    return backupPath;
+  }
+
+  async acquireLock() {
+    while (this._lock) {
+      await new Promise(r => setTimeout(r, 20));
+    }
+    this._lock = true;
+  }
+
+  releaseLock() {
+    this._lock = false;
+  }
+
+  ensureDir() {
+    if (!fs.existsSync(this.dataDir)) {
+      fs.mkdirSync(this.dataDir, { recursive: true });
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════
+//  INVESTIGATION SHARD MANAGER
+//  Letter-based sharding for investigations (same pattern as individuals)
+// ═══════════════════════════════════════════════════════════════════
+
+class InvestigationShardManager {
+  constructor() {
+    this.shardDir = config.paths.dataDir.investigations;
+    this._locks = new Map();
+  }
+
+  getShardLetter(slug) {
+    const first = (slug || '')[0]?.toLowerCase();
+    if (first && first >= 'a' && first <= 'z') return first;
+    // Investigations can start with numbers
+    if (first && first >= '0' && first <= '9') return first;
+    return 'misc';
+  }
+
+  getShardPath(letter) {
+    return path.join(this.shardDir, `${letter}.ts`);
+  }
+
+  isActive() {
+    return fs.existsSync(path.join(this.shardDir, 'index.ts'));
+  }
+
+  readShard(letter) {
+    const p = this.getShardPath(letter);
+    try { return fs.readFileSync(p, 'utf8'); } catch (_) { return null; }
+  }
+
+  readAllShards() {
+    const shards = new Map();
+    if (!fs.existsSync(this.shardDir)) return shards;
+    const files = fs.readdirSync(this.shardDir).filter(f => f.endsWith('.ts') && f !== 'index.ts' && f !== 'types.ts');
+    for (const file of files) {
+      const letter = file.replace('.ts', '');
+      shards.set(letter, fs.readFileSync(path.join(this.shardDir, file), 'utf8'));
+    }
+    return shards;
+  }
+
+  getCombinedContent() {
+    let combined = '';
+    const shards = this.readAllShards();
+    for (const [, content] of shards) {
+      combined += content + '\n';
+    }
+    return combined;
+  }
+
+  extractAllSlugs() {
+    const slugs = [];
+    const shards = this.readAllShards();
+    for (const [, content] of shards) {
+      const regex = /^\s*'([a-z0-9-]+)'\s*:\s*\{/gm;
+      let match;
+      while ((match = regex.exec(content)) !== null) {
+        slugs.push(match[1]);
+      }
+    }
+    return slugs;
+  }
+
+  writeShard(letter, content) {
+    const filePath = this.getShardPath(letter);
+    const tmpPath = filePath + '.tmp.' + crypto.randomBytes(4).toString('hex');
+    try {
+      fs.writeFileSync(tmpPath, content, 'utf8');
+      for (let attempt = 0; attempt < 5; attempt++) {
+        try {
+          fs.renameSync(tmpPath, filePath);
+          return true;
+        } catch (e) {
+          if (e.code === 'EPERM' || e.code === 'EBUSY') {
+            const waitMs = 200 * (attempt + 1);
+            const start = Date.now();
+            while (Date.now() - start < waitMs) { /* busy wait */ }
+          } else { throw e; }
+        }
+      }
+      try { fs.unlinkSync(tmpPath); } catch (_) {}
+      fs.writeFileSync(filePath, content, 'utf8');
+      return true;
+    } catch (e) {
+      try { fs.unlinkSync(tmpPath); } catch (_) {}
+      throw e;
+    }
+  }
+
+  backupShard(letter) {
+    const filePath = this.getShardPath(letter);
+    if (!fs.existsSync(filePath)) return null;
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const backupPath = path.join(config.paths.backups, `inv-shard-${letter}.${timestamp}.bak`);
+    fs.copyFileSync(filePath, backupPath);
+    return backupPath;
+  }
+
+  async acquireLock(letter) {
+    while (this._locks.get(letter)) {
+      await new Promise(r => setTimeout(r, 20));
+    }
+    this._locks.set(letter, true);
+  }
+
+  releaseLock(letter) {
+    this._locks.delete(letter);
+  }
+
+  createEmptyShard(letter) {
+    const label = letter.toUpperCase();
+    const content = `// AUTO-GENERATED — Investigation Shard [${label}] managed by ArkHive Swarm Intelligence
+import type { InvestigationData } from './types';
+
+const investigations_${letter}: Record<string, InvestigationData> = {
+};
+
+export default investigations_${letter};
+`;
+    this.writeShard(letter, content);
+  }
+
+  createIndexFile() {
+    if (!fs.existsSync(this.shardDir)) return null;
+    const files = fs.readdirSync(this.shardDir).filter(f => f.endsWith('.ts') && f !== 'index.ts' && f !== 'types.ts');
+    const letters = files.map(f => f.replace('.ts', ''));
+
+    const imports = letters.map(l => `import shard_${l} from './${l}';`).join('\n');
+    const spreads = letters.map(l => `  ...shard_${l},`).join('\n');
+
+    const content = `// AUTO-GENERATED by ArkHive Swarm Intelligence — DO NOT EDIT MANUALLY
+import type { InvestigationData } from './types';
+
+${imports}
+
+const investigationDatabase: Record<string, InvestigationData> = {
+${spreads}
+};
+
+export default investigationDatabase;
+export type { InvestigationData, InvestigationAffiliation, InvestigationSource } from './types';
+`;
+    const indexPath = path.join(this.shardDir, 'index.ts');
+    fs.writeFileSync(indexPath, content, 'utf8');
+    return indexPath;
+  }
+
+  ensureDir() {
+    if (!fs.existsSync(this.shardDir)) {
+      fs.mkdirSync(this.shardDir, { recursive: true });
+    }
+  }
+}
+
+// ── Pre-built per-type managers ──────────────────────────────────
+
+const agencyManager       = new SingleFileManager('agencies');
+const corporationManager  = new SingleFileManager('corporations');
+const organizationManager = new SingleFileManager('organizations');
+const investigationManager = new InvestigationShardManager();
+
+module.exports.SingleFileManager = SingleFileManager;
+module.exports.InvestigationShardManager = InvestigationShardManager;
+module.exports.agencyManager = agencyManager;
+module.exports.corporationManager = corporationManager;
+module.exports.organizationManager = organizationManager;
+module.exports.investigationManager = investigationManager;

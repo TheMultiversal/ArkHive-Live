@@ -1,4 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
+
+export const dynamic = 'force-static';
 
 // ============================================================
 // Types
@@ -49,59 +51,24 @@ const auditStore: AuditLogEntry[] = [
 // GET /api/audit - Get audit logs
 // ============================================================
 
-export async function GET(request: NextRequest) {
+export async function GET() {
  try {
- const { searchParams } = new URL(request.url);
- const page = parseInt(searchParams.get('page') || '1');
- const limit = parseInt(searchParams.get('limit') || '50');
- const userId = searchParams.get('userId');
- const action = searchParams.get('action');
- const resourceType = searchParams.get('resourceType');
- const riskLevel = searchParams.get('riskLevel');
- const startDate = searchParams.get('startDate');
- const endDate = searchParams.get('endDate');
-
- let logs = [...auditStore];
-
- // Apply filters
- if (userId) {
- logs = logs.filter(l => l.userId === userId);
- }
- if (action) {
- logs = logs.filter(l => l.action === action);
- }
- if (resourceType) {
- logs = logs.filter(l => l.resourceType === resourceType);
- }
- if (riskLevel) {
- logs = logs.filter(l => l.riskLevel === riskLevel);
- }
- if (startDate) {
- const start = new Date(startDate);
- logs = logs.filter(l => new Date(l.timestamp) >= start);
- }
- if (endDate) {
- const end = new Date(endDate);
- logs = logs.filter(l => new Date(l.timestamp) <= end);
- }
+ const logs = [...auditStore];
 
  // Sort by timestamp descending
  logs.sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
 
- // Pagination
- const total = logs.length;
- const totalPages = Math.ceil(total / limit);
- const offset = (page - 1) * limit;
- const paginatedLogs = logs.slice(offset, offset + limit);
+ const limit = 50;
+ const paginatedLogs = logs.slice(0, limit);
 
  return NextResponse.json({
  data: paginatedLogs,
  pagination: {
- page,
+ page: 1,
  limit,
- total,
- totalPages,
- hasMore: page < totalPages,
+ total: logs.length,
+ totalPages: Math.ceil(logs.length / limit),
+ hasMore: logs.length > limit,
  },
  });
  } catch (error) {
@@ -117,7 +84,7 @@ export async function GET(request: NextRequest) {
 // POST /api/audit - Create audit log entry
 // ============================================================
 
-export async function POST(request: NextRequest) {
+export async function POST(request: Request) {
  try {
  const body = await request.json();
 

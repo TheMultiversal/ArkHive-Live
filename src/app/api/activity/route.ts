@@ -1,4 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
+
+export const dynamic = 'force-static';
 
 // ============================================================
 // Types
@@ -54,56 +56,24 @@ const activityStore: ActivityItem[] = [
 // GET /api/activity - Get activity feed
 // ============================================================
 
-export async function GET(request: NextRequest) {
+export async function GET() {
  try {
- const { searchParams } = new URL(request.url);
- const page = parseInt(searchParams.get('page') || '1');
- const limit = parseInt(searchParams.get('limit') || '50');
- const type = searchParams.get('type');
- const action = searchParams.get('action');
- const userId = searchParams.get('userId');
- const resourceId = searchParams.get('resourceId');
- const since = searchParams.get('since');
-
- let activities = [...activityStore];
-
- // Apply filters
- if (type) {
- const types = type.split(',');
- activities = activities.filter(a => types.includes(a.type));
- }
- if (action) {
- const actions = action.split(',');
- activities = activities.filter(a => actions.includes(a.action));
- }
- if (userId) {
- activities = activities.filter(a => a.userId === userId);
- }
- if (resourceId) {
- activities = activities.filter(a => a.resourceId === resourceId);
- }
- if (since) {
- const sinceDate = new Date(since);
- activities = activities.filter(a => new Date(a.timestamp) > sinceDate);
- }
+ const activities = [...activityStore];
 
  // Sort by timestamp descending
  activities.sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
 
- // Pagination
- const total = activities.length;
- const totalPages = Math.ceil(total / limit);
- const offset = (page - 1) * limit;
- const paginatedActivities = activities.slice(offset, offset + limit);
+ const limit = 50;
+ const paginatedActivities = activities.slice(0, limit);
 
  return NextResponse.json({
  data: paginatedActivities,
  pagination: {
- page,
+ page: 1,
  limit,
- total,
- totalPages,
- hasMore: page < totalPages,
+ total: activities.length,
+ totalPages: Math.ceil(activities.length / limit),
+ hasMore: activities.length > limit,
  },
  });
  } catch (error) {
@@ -119,7 +89,7 @@ export async function GET(request: NextRequest) {
 // POST /api/activity - Log new activity
 // ============================================================
 
-export async function POST(request: NextRequest) {
+export async function POST(request: Request) {
  try {
  const body = await request.json();
 
@@ -167,7 +137,7 @@ export async function POST(request: NextRequest) {
 // PATCH /api/activity - Mark activity as read
 // ============================================================
 
-export async function PATCH(request: NextRequest) {
+export async function PATCH(request: Request) {
  try {
  const { searchParams } = new URL(request.url);
  const activityId = searchParams.get('id');

@@ -571,6 +571,7 @@ const investigations_m: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'ms-13-transnational-operations': {
     title: 'MS-13 Transnational Operations',
     subtitle: 'Investigation into MS-13 Transnational Operations',
@@ -865,7 +866,6 @@ const investigations_m: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_m;

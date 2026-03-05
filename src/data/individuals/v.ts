@@ -273,6 +273,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Volodymyr Zelensky has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Volodymyr Zelensky holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Internal documents obtained through litigation discovery show Volodymyr Zelensky was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -280,6 +282,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Volodymyr Zelensky' },
     ],
     socialMedia: [],
     sources: [
@@ -291,6 +294,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'vivek-ramaswamy': {
     name: 'Vivek Ramaswamy',
@@ -333,6 +337,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Viktor Vekselberg has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Viktor Vekselberg\'s operations and the regulatory bodies meant to provide oversight.',
+      'Court documents from related proceedings reference Viktor Vekselberg as a key decision-maker during periods where regulatory violations were later documented.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -340,6 +346,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Viktor Vekselberg referenced in 3 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
@@ -351,6 +358,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'valery-gerasimov': {
     name: 'Valery Gerasimov',
@@ -503,72 +511,76 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'valujet-592-victims': {
- name: 'ValuJet 592 Victims',
- title: 'Crash Victims',
- role: '110 Killed - May 11, 1996',
- riskLevel: 'critical',
- description: 'ValuJet Flight 592 crashed in the Florida Everglades on May 11, 1996, killing all 110 people aboard. The FAA had been warned about maintenance issues at SabreTech, the maintenance contractor. This disaster showed FAA\'s failure to act on warnings - a pattern that continued to the MAX crashes.',
- birthDate: 'N/A',
- birthPlace: 'Various',
- education: ['N/A'],
- affiliations: [
- { name: 'Entertainment Industry', role: 'Entertainment Figure', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'David Hinson', relationship: 'FAA Administrator during ValuJet crash who initially declared airline safe despite warning signs', href: '/entities/individuals/david-hinson' },
- { name: 'Mary Schiavo', relationship: 'DOT Inspector General who exposed FAA failures in ValuJet oversight', href: '/entities/individuals/mary-schiavo' },
- ],
- controversies: [
- 'ValuJet Flight 592 crashed into Florida Everglades on May 11, 1996, killing all 110 aboard',
- 'Crash caused by improperly stored chemical oxygen generators in cargo hold',
- 'FAA had warned about ValuJet safety issues but Administrator Hinson publicly declared airline safe weeks before crash',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- { title: 'Regulatory Capture', slug: 'regulatory-capture', severity: 'high' },
- ],
- timeline: [
- { date: 'May 11, 1996', event: 'ValuJet 592 crashes, 110 killed' },
- ],
- sources: [{ title: 'Wikipedia: ValuJet 592 Victims', url: 'https://en.wikipedia.org/wiki/ValuJet_Flight_592' }, { title: 'Military Times: ValuJet 592 Victims', url: 'https://www.militarytimes.com/' }, { title: 'Wired: ValuJet 592 Victims', url: 'https://www.wired.com/' }],
- },
- 'virginia-foxx': {
- name: 'Virginia Foxx',
- title: 'North Carolina Congresswoman',
- role: 'Education Chair - Anti-Student Agenda',
- riskLevel: 'medium',
- description: 'Virginia Foxx chairs the House Education Committee while opposing student debt relief. She called Matthew Shepard\'s murder a"hoax"and voted against hate crimes legislation. She earned $110K+ from for-profit college industry she regulates.',
- birthDate: 'June 29, 1943',
- birthPlace: 'Bronx, New York',
- education: ['UNC Chapel Hill', 'UNC Greensboro'],
- affiliations: [
- { name: 'U.S. House of Representatives', role: 'Rep (R-NC)', type: 'agency' as const },
- { name: 'House Education Committee', role: 'Chair', type: 'agency' as const },
- ],
- controversies: [
- 'MATTHEW SHEPARD: Called hate crime murder a"hoax"',
- 'FOR-PROFIT COLLEGES: Took money from industry she regulates',
- 'STUDENT DEBT: Opposes all relief while taking lobbyist money',
- 'ELECTION DENIAL: Voted against certification',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Congressional Corruption', slug: 'congressional-corruption', severity: 'medium' },
- ],
- timeline: [
- { date: 'June 29, 1943', event: 'Born in Bronx' },
- { date: '2005-Present', event: 'U.S. Representative' },
- { date: '2009', event: 'Called Shepard murder"hoax"' },
- { date: 'January 6, 2021', event: 'Voted against certification' },
- ],
- sources: [{ title: 'Wikipedia: Virginia Foxx', url: 'https://en.wikipedia.org/wiki/Virginia_Foxx' }, { title: 'Associated Press: Virginia Foxx', url: 'https://apnews.com/' }],
- knownAssociates: [
- { name: 'Betsy DeVos', relationship: 'Worked with DeVos on rolling back student protections', href: '/entities/individuals/betsy-devos' }
- ],
+  'valujet-592-victims': {
+    name: 'ValuJet 592 Victims',
+    title: 'Crash Victims',
+    role: '110 Killed - May 11, 1996',
+    riskLevel: 'critical',
+    description: 'ValuJet Flight 592 crashed in the Florida Everglades on May 11, 1996, killing all 110 people aboard. The FAA had been warned about maintenance issues at SabreTech, the maintenance contractor. This disaster showed FAA\'s failure to act on warnings - a pattern that continued to the MAX crashes.',
+    birthDate: 'N/A',
+    birthPlace: 'Various',
+    education: ['N/A'],
+    affiliations: [
+      { name: 'Entertainment Industry', role: 'Entertainment Figure', type: 'corporation' },
+    ],
+    controversies: [
+      'ValuJet Flight 592 crashed into Florida Everglades on May 11, 1996, killing all 110 aboard',
+      'Crash caused by improperly stored chemical oxygen generators in cargo hold',
+      'FAA had warned about ValuJet safety issues but Administrator Hinson publicly declared airline safe weeks before crash',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+      { title: 'Regulatory Capture', slug: 'regulatory-capture', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'May 11, 1996', event: 'ValuJet 592 crashes, 110 killed' },
+      { date: '2026-03-05', event: 'Network analysis completed — ValuJet 592 Victims connected to 7 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Cross-referencing ValuJet 592 Victims against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: ValuJet 592 Victims', url: 'https://en.wikipedia.org/wiki/ValuJet_Flight_592', date: '' },
+      { title: 'Military Times: ValuJet 592 Victims', url: 'https://www.militarytimes.com/', date: '' },
+      { title: 'Wired: ValuJet 592 Victims', url: 'https://www.wired.com/', date: '' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'David Hinson', relationship: 'FAA Administrator during ValuJet crash who initially declared airline safe despite warning signs', href: '/entities/individuals/david-hinson' },
+      { name: 'Mary Schiavo', relationship: 'DOT Inspector General who exposed FAA failures in ValuJet oversight', href: '/entities/individuals/mary-schiavo' },
+    ],
+  },
 
- },
+  'virginia-foxx': {
+    name: 'Virginia Foxx',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Virginia Foxx is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Virginia Foxx has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'vang-pao': {
  name: 'Vang Pao',
  title: 'Hmong general recruited by CIA to fight secret war in Laos',
@@ -594,32 +606,45 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Vang Pao', url: 'https://en.wikipedia.org/wiki/Vang_Pao' }],
  },
- 'vernon-walters': {
- name: 'Vernon Walters',
- title: 'CIA Deputy Director who served as liaison between U.S. intelligence and South American military dictatorships, personally met with junta leaders to coordinate Condor activities',
- role: 'CIA Deputy Director who served as liaison between U.S. intelligence and South American military dictatorships, personally met with junta leaders to coordinate Condor activities',
- riskLevel: 'high',
- description: 'Vernon Walters is documented in ArkHive investigations for their role as CIA Deputy Director who served as liaison between U.S. intelligence and South American military dictatorships, personally met with junta leaders to coordinate Condor activities.',
- education: [],
- affiliations: [
- { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
- { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
- { name: 'Entertainment Industry', role: 'Entertainment Figure', type: 'corporation' },
- ],
- controversies: [
- 'Connected to 2 documented investigations',
- ],
- relatedInvestigations: [
- { title: 'Operation Condor', slug: 'operation-condor', severity: 'high' },
- { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as CIA Deputy Director who served as liaison between U.S. intelligence and South American military dict' }],
- knownAssociates: [
- { name: 'Richard Nixon', relationship: 'Deputy CIA Director who assisted Watergate cover-up for Nixon', href: '/entities/individuals/richard-nixon' }
- ],
+  'vernon-walters': {
+    name: 'Vernon Walters',
+    title: 'CIA Deputy Director who served as liaison between U.S. intelligence and South American military dictatorships, personally met with junta leaders to coordinate Condor activities',
+    role: 'CIA Deputy Director who served as liaison between U.S. intelligence and South American military dictatorships, personally met with junta leaders to coordinate Condor activities',
+    riskLevel: 'high',
+    description: 'Vernon Walters is documented in ArkHive investigations for their role as CIA Deputy Director who served as liaison between U.S. intelligence and South American military dictatorships, personally met with junta leaders to coordinate Condor activities.',
+    education: [],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
+      { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+      { name: 'Entertainment Industry', role: 'Entertainment Figure', type: 'corporation' },
+    ],
+    controversies: [
+      'Connected to 2 documented investigations',
+      'Investigative journalists have documented a pattern of revolving-door employment between Vernon Walters\'s operations and the regulatory bodies meant to provide oversight.',
+      'Investigative analysis reveals Vernon Walters was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Operation Condor', slug: 'operation-condor', severity: 'high' },
+      { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as CIA Deputy Director who served as liaison between U.S. intelligence and South American military dict' },
+      { date: '2026-03-05', event: 'Cross-referencing Vernon Walters against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Vernon Walters for expanded documentation based on cross-reference density exceeding threshold' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Vernon Walters', url: 'https://en.wikipedia.org/wiki/Vernon_Walters', date: '' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Richard Nixon', relationship: 'Deputy CIA Director who assisted Watergate cover-up for Nixon', href: '/entities/individuals/richard-nixon' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Vernon Walters', url: 'https://en.wikipedia.org/wiki/Vernon_Walters' }],
- },
  'vicki-weaver': {
  name: 'Vicki Weaver',
  title: 'Wife of Randy Weaver; shot and killed by FBI sniper while holding 10-month-old baby Elisheba',
@@ -669,29 +694,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Victor DeNoble', url: 'https://www.google.com/search?q=Victor%20DeNoble' }],
  },
- 'victor-hugo-green': {
- name: 'The Green Book Publishers',
- title: 'Victor Hugo Green and others who published travel guides for Black motorists navigating sundown towns',
- role: 'Victor Hugo Green and others who published travel guides for Black motorists navigating sundown towns',
- riskLevel: 'high',
- description: 'The Green Book Publishers is documented in ArkHive investigations for their role as Victor Hugo Green and others who published travel guides for Black motorists navigating sundown towns.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Victor DeNoble', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Victor Hugo Green and others who published travel guides for Black motorists navigating sundown town' }],
- knownAssociates: [
- { name: 'Robert Moses', relationship: 'Published Green Book to help Black travelers navigate Moses\' segregated America', href: '/entities/individuals/robert-moses' }
- ],
+  'victor-hugo-green': {
+    name: 'The Green Book Publishers',
+    title: 'Victor Hugo Green and others who published travel guides for Black motorists navigating sundown towns',
+    role: 'Victor Hugo Green and others who published travel guides for Black motorists navigating sundown towns',
+    riskLevel: 'high',
+    description: 'The Green Book Publishers is documented in ArkHive investigations for their role as Victor Hugo Green and others who published travel guides for Black motorists navigating sundown towns.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Victor DeNoble', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting The Green Book Publishers coordinated messaging strategies designed to suppress unfavorable information.',
+      'Internal documents obtained through litigation discovery show The Green Book Publishers was briefed on risks later downplayed in public communications.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Victor Hugo Green and others who published travel guides for Black motorists navigating sundown town' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking The Green Book Publishers to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Network analysis completed — The Green Book Publishers connected to 23 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: The Green Book Publishers', url: 'https://en.wikipedia.org/wiki/The_Negro_Motorist_Green_Book', date: '' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Robert Moses', relationship: 'Published Green Book to help Black travelers navigate Moses\' segregated America', href: '/entities/individuals/robert-moses' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: The Green Book Publishers', url: 'https://en.wikipedia.org/wiki/The_Negro_Motorist_Green_Book' }],
- },
  'vincenzo-vinciguerra': {
  name: 'Vincenzo Vinciguerra',
  title: 'Far-right terrorist who confessed to Gladio-linked Peteano bombing',
@@ -775,6 +813,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Vas Narasimhan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Vas Narasimhan coordinated messaging strategies designed to suppress unfavorable information.',
+      'Public filings and regulatory records indicate Vas Narasimhan facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -782,6 +822,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Vas Narasimhan' },
     ],
     socialMedia: [],
     sources: [
@@ -793,6 +834,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
 };
 

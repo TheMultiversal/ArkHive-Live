@@ -807,6 +807,7 @@ const investigations_a: Record<string, InvestigationData> = {
  { title: 'DFEH Lawsuit', url: 'https://www.documentcloud.org/', type: 'Legal' },
  ],
  affiliations: [],
+ },
   'agribusiness-capture-of-usda': {
     title: 'Agribusiness Capture of USDA',
     subtitle: 'Investigation into Agribusiness Capture of USDA',
@@ -1127,23 +1128,6 @@ const investigations_a: Record<string, InvestigationData> = {
     affiliations: [
     ],
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- },
 };
 
 export default investigations_a;

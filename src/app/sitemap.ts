@@ -1,5 +1,7 @@
 import { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static';
+
 // Mock data - replace with actual database queries in production
 const getInvestigations = () => [
  { slug: 'welcome-to-arkhive', lastUpdated: '2026-01-31' },

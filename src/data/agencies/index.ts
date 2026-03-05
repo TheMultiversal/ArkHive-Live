@@ -1372,58 +1372,47 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  'fbi-org': {
+    id: 'fbi-org',
+    slug: 'fbi-org',
+    name: 'Fbi Org',
+    type: 'agency',
+    description: 'Fbi Org is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    role: 'Government Agency',
+    investigationCount: 1,
+    riskLevel: 'moderate',
+  },
+  'fop': {
+    id: 'fop',
+    slug: 'fop',
+    name: 'Fop',
+    type: 'agency',
+    description: 'Fop is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    role: 'Government Agency',
+    investigationCount: 1,
+    riskLevel: 'moderate',
+  },
+  'fraternal-order-of-police': {
+    id: 'fraternal-order-of-police',
+    slug: 'fraternal-order-of-police',
+    name: 'Fraternal Order Of Police',
+    type: 'agency',
+    description: 'Fraternal Order Of Police is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    role: 'Government Agency',
+    investigationCount: 1,
+    riskLevel: 'moderate',
+  },
+  'nsa-org': {
+    id: 'nsa-org',
+    slug: 'nsa-org',
+    name: 'Nsa Org',
+    type: 'agency',
+    description: 'Nsa Org is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    role: 'Government Agency',
+    investigationCount: 1,
+    riskLevel: 'moderate',
+  },
 };
 
 export default agencies;
-export type { AgencyProfile };
+export type { AgencyProfile } from './types';

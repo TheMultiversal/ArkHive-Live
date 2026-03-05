@@ -450,6 +450,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'insider-trading-congressional-members': {
     title: 'Insider Trading Congressional Members',
     subtitle: 'Investigation into Insider Trading Congressional Members',
@@ -618,7 +619,6 @@ const investigations_i: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_i;

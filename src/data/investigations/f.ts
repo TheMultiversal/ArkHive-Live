@@ -743,6 +743,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'foreign-election-interference-operations': {
     title: 'Foreign Election Interference Operations',
     subtitle: 'Investigation into Foreign Election Interference Operations',
@@ -1163,7 +1164,6 @@ const investigations_f: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_f;

@@ -692,6 +692,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'bay-of-pigs-cover-up': {
     title: 'Bay of Pigs Cover-Up',
     subtitle: 'Investigation into Bay of Pigs Cover-Up',
@@ -839,7 +840,6 @@ const investigations_b: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_b;

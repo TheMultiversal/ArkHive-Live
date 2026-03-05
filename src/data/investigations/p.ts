@@ -1132,6 +1132,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'ppp-loan-fraud-epidemic': {
     title: 'PPP Loan Fraud Epidemic',
     subtitle: 'Investigation into PPP Loan Fraud Epidemic',
@@ -1678,7 +1679,6 @@ const investigations_p: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_p;

@@ -1,4 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
+
+export const dynamic = 'force-static';
 
 interface Document {
  id: string;
@@ -136,72 +138,15 @@ const documents: Document[] = [
  }
 ];
 
-export async function GET(request: NextRequest) {
- const searchParams = request.nextUrl.searchParams;
- const query = searchParams.get('q') || '';
- const category = searchParams.get('category');
- const classification = searchParams.get('classification');
- const type = searchParams.get('type');
- const investigation = searchParams.get('investigation');
- const sortBy = searchParams.get('sortBy') || 'date';
- const sortOrder = searchParams.get('sortOrder') || 'desc';
- const page = parseInt(searchParams.get('page') || '1');
- const limit = parseInt(searchParams.get('limit') || '20');
+export async function GET() {
+ const page = 1;
+ const limit = 20;
 
  try {
- let results = [...documents];
+ const results = [...documents];
 
- // Filter by query
- if (query) {
- const lowerQuery = query.toLowerCase();
- results = results.filter(doc =>
- doc.title.toLowerCase().includes(lowerQuery) ||
- doc.description.toLowerCase().includes(lowerQuery) ||
- doc.tags.some(tag => tag.toLowerCase().includes(lowerQuery))
- );
- }
-
- // Filter by category
- if (category && category !== 'all') {
- results = results.filter(doc => doc.category === category);
- }
-
- // Filter by classification
- if (classification && classification !== 'all') {
- results = results.filter(doc => doc.classification === classification);
- }
-
- // Filter by type
- if (type && type !== 'all') {
- results = results.filter(doc => doc.type === type);
- }
-
- // Filter by investigation
- if (investigation) {
- results = results.filter(doc => doc.investigation === investigation);
- }
-
- // Sort
- results.sort((a, b) => {
- let comparison = 0;
- switch (sortBy) {
- case 'date':
- comparison = new Date(a.date).getTime() - new Date(b.date).getTime();
- break;
- case 'title':
- comparison = a.title.localeCompare(b.title);
- break;
- case 'downloads':
- comparison = a.downloadCount - b.downloadCount;
- break;
- case 'size':
- comparison = a.sizeBytes - b.sizeBytes;
- break;
- default:
- comparison = 0;
- }
- return sortOrder === 'desc' ? -comparison : comparison;
- });
+ // Sort by date descending (default)
+ results.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
  // Pagination
  const total = results.length;
@@ -244,7 +189,7 @@ export async function GET(request: NextRequest) {
 }
 
 // Get single document by ID
-export async function POST(request: NextRequest) {
+export async function POST(request: Request) {
  try {
  const body = await request.json();
  const { documentId } = body;

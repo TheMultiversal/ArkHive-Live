@@ -285,6 +285,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'union-pension-fund-fraud-schemes': {
     title: 'Union Pension Fund Fraud Schemes',
     subtitle: 'Investigation into Union Pension Fund Fraud Schemes',
@@ -306,7 +307,6 @@ const investigations_u: Record<string, InvestigationData> = {
     ],
   },
 
- },
 };
 
 export default investigations_u;

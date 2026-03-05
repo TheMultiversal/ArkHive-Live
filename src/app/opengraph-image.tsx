@@ -6,7 +6,7 @@
 
 import { ImageResponse } from 'next/og';
 
-export const runtime = 'edge';
+export const dynamic = 'force-static';
 
 export const alt = 'ArkHive - Investigative Documentation Platform';
 export const size = {

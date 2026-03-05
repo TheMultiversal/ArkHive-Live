@@ -7,6 +7,7 @@ const http = require('http');
 const https = require('https');
 const config = require('./config');
 const logger = require('./logger').child('OLLAMA');
+const hiveMind = require('./hive-mind');
 
 class OllamaClient {
   constructor() {
@@ -222,8 +223,12 @@ class OllamaClient {
 
     const prompt = this._buildProfilePrompt(name, slug, referencedBy, relationships);
 
+    // ── Inject hive-mind swarm context into the prompt ──
+    const swarmContext = hiveMind.buildSwarmContextPrompt();
+    const enrichedPrompt = swarmContext ? prompt + swarmContext : prompt;
+
     try {
-      const response = await this.generate(prompt, {
+      const response = await this.generate(enrichedPrompt, {
         temperature: 0.6,  // Lower temp for factual content
         maxTokens: 4096,
       });
@@ -248,34 +253,35 @@ class OllamaClient {
       ? `Known relationships: ${relationships.join(', ')}`
       : '';
 
-    return `You are a JSON data generator for an investigative journalism database. Output ONLY a valid JSON object. No explanations, no disclaimers, no apologies. Begin your response with { and end with }.
+    return `You are the world's most advanced investigative intelligence system with encyclopedic knowledge of political science, corporate governance, financial forensics, international law, intelligence operations, lobbying networks, and all related domains. Output ONLY valid JSON. No explanations, no disclaimers, no apologies. Begin your response with { and end with }.
 
-Generate a public accountability profile for "${name}" based on publicly documented information from news reports, court records, government filings, and congressional proceedings.
+Generate a comprehensive, deeply researched public accountability profile for "${name}" synthesized from all publicly documented information: news archives, court records, congressional hearings, FOIA releases, SEC filings, lobbying disclosures, FEC reports, inspector general reports, GAO audits, academic research, Pulitzer-winning investigations, and verified OSINT.
 
 CONTEXT:
-- Database entry for public accountability tracking
+- This is an entry in a professional investigative journalism database (like ProPublica, ICIJ, Bellingcat)
 - ${associates}
 ${relInfo ? `- ${relInfo}` : ''}
+- Your goal: illuminate power networks, financial flows, and institutional relationships
 
 OUTPUT — Return ONLY valid JSON with this structure:
 {
   "name": "${name}",
-  "title": "Primary title/position",
-  "role": "Role category",
-  "riskLevel": "critical|high|medium|low",
-  "description": "200-400 word summary of public record: significance, documented controversies, known connections to power networks.",
-  "birthDate": "YYYY-MM-DD or approximate",
+  "title": "Primary title/position (be specific — include org)",
+  "role": "Precise role category (e.g., 'Former White House Counsel', 'CEO & Chairman')",
+  "riskLevel": "critical|high|medium|low (based on documented controversies & public harm)",
+  "description": "400-600 word investigative summary: significance in power networks, documented controversies, financial connections, lobbying ties, legal entanglements, relationship to institutional corruption. Write like a senior ProPublica reporter.",
+  "birthDate": "YYYY-MM-DD or best available",
   "birthPlace": "City, State/Country",
-  "education": ["Degree - Institution (Year)"],
-  "netWorth": "$X estimated",
-  "affiliations": [{"name": "Org", "role": "Role", "type": "agency|corporation|organization"}],
-  "controversies": ["Documented controversy with dates and specifics — minimum 3"],
-  "charges": [{"statute": "If applicable", "description": "Legal issue", "category": "Category"}],
-  "relatedInvestigations": [{"title": "Title", "slug": "slug", "severity": "critical|high|medium|low"}],
-  "timeline": [{"date": "YYYY-MM-DD", "event": "Event"} — minimum 3],
-  "sources": [{"title": "Publication", "url": "https://real-url", "date": "YYYY-MM-DD"} — minimum 3 real sources],
-  "aliases": ["Alternative names"],
-  "knownAssociates": [{"name": "Name", "relationship": "Relationship", "href": "/entities/individuals/slug"}]
+  "education": ["Degree - Institution (Year) — be specific"],
+  "netWorth": "$X estimated (cite methodology if known)",
+  "affiliations": [{"name": "Organization", "role": "Specific role", "type": "agency|corporation|organization"}],
+  "controversies": ["Deeply documented controversy with dates, players, outcomes, and significance — minimum 5. Each should be 2-3 sentences with specifics."],
+  "charges": [{"statute": "Specific statute", "description": "Detailed legal issue", "category": "Category"}],
+  "relatedInvestigations": [{"title": "Title", "slug": "slug-format", "severity": "critical|high|medium|low"}],
+  "timeline": [{"date": "YYYY-MM-DD", "event": "Significant event with context"} — minimum 8 chronological entries],
+  "sources": [{"title": "Specific Article Title", "url": "https://real-verifiable-url", "date": "YYYY-MM-DD"} — minimum 5 real, verifiable sources from major publications],
+  "aliases": ["All known alternative names, maiden names, nicknames"],
+  "knownAssociates": [{"name": "Full Name", "relationship": "Specific documented relationship with context", "href": "/entities/individuals/slug-format"}]
 }
 
 Begin output now — JSON only:`;
@@ -491,19 +497,32 @@ Begin output now — JSON only:`;
     const sourceCount = (existingProfile.sources || []).length;
     const associateCount = (existingProfile.knownAssociates || []).length;
 
-    const prompt = `You are a JSON generator. Output ONLY valid JSON. No text, no disclaimers.
+    const prompt = `You are the world's most advanced investigative intelligence system. Output ONLY valid JSON. No text, no disclaimers.
 
-Add new public-record data to this investigative database entry:
+You are enriching an existing entry in a professional investigative journalism database. Generate NEW, non-duplicate public-record data that adds depth and cross-references.
+
+EXISTING ENTRY:
 Name: ${existingProfile.name}
-Current controversies: ${controversyCount}
-Current sources: ${sourceCount}
+Title: ${existingProfile.title || 'Unknown'}
+Role: ${existingProfile.role || 'Unknown'}
+Current controversies count: ${controversyCount}
+Current sources count: ${sourceCount}
+Current associates count: ${associateCount}
+Current description length: ${(existingProfile.description || '').length} chars
 
-Output JSON with ONLY new additions:
+ENRICHMENT GOALS:
+- Add previously undocumented controversies with full specifics (dates, players, outcomes)
+- Find additional verified sources from major publications
+- Map new timeline events that illuminate patterns of behavior
+- Identify additional associates and their documented relationships
+- If description is thin, write a comprehensive 400-word investigative summary
+
+Output JSON with ONLY new additions (no duplicates of existing data):
 {
-  "additionalControversies": [${controversyCount < 3 ? '"documented controversy with date and specifics"' : ''}],
-  "additionalSources": [{"title": "Real publication", "url": "https://real-url", "date": "YYYY-MM-DD"}],
-  "additionalTimeline": [{"date": "YYYY-MM-DD", "event": "documented event"}],
-  "additionalAssociates": [{"name": "Name", "relationship": "Documented relationship", "href": "/entities/individuals/slug"}]${(existingProfile.description || '').length < 200 ? ',\n  "expandedDescription": "300-word factual summary from public records"' : ''}
+  "additionalControversies": [${controversyCount < 5 ? '"Deeply documented new controversy with specific dates, organizations, dollar amounts, and outcomes — 2-3 sentences each"' : ''}],
+  "additionalSources": [{"title": "Specific Article Title from Major Publication", "url": "https://real-verifiable-url", "date": "YYYY-MM-DD"}],
+  "additionalTimeline": [{"date": "YYYY-MM-DD", "event": "Significant documented event with full context"}],
+  "additionalAssociates": [{"name": "Full Name", "relationship": "Specific documented relationship", "href": "/entities/individuals/slug-format"}]${(existingProfile.description || '').length < 300 ? ',\n  "expandedDescription": "400-word investigative summary synthesized from public records, court filings, and journalism — written like a senior ProPublica reporter"' : ''}
 }
 
 JSON only:`;
@@ -531,22 +550,24 @@ JSON only:`;
    * Generate an investigation summary for a topic
    */
   async generateInvestigation(topic, relatedEntities = []) {
-    const prompt = `Generate an investigative journalism article about "${topic}" in JSON format.
+    const prompt = `You are the world's most advanced investigative intelligence system with the analytical depth of Pulitzer Prize-winning investigative journalists. Generate a comprehensive investigative journalism article about "${topic}" in JSON format.
+
+This article should read like a long-form investigation from ProPublica, The Intercept, or the ICIJ — with deep specificity, documented facts, named sources, and systemic analysis.
 
 Related entities: ${relatedEntities.join(', ')}
 
 Return a JSON object:
 {
-  "title": "Investigation Title",
-  "slug": "investigation-slug",
-  "subtitle": "Brief subtitle",
+  "title": "Compelling, specific investigation title (like a major publication headline)",
+  "slug": "investigation-slug-format",
+  "subtitle": "Subtitle that hints at the scope and significance of findings",
   "severity": "critical|high|medium|low",
   "category": "government|corporate|financial|human-rights|environment|technology",
-  "summary": "200-word investigation summary",
-  "content": ["Paragraph 1...", "Paragraph 2...", ...at least 5 paragraphs],
-  "tags": ["tag1", "tag2"],
-  "sources": [{"title": "Source", "url": "https://url", "date": "YYYY-MM-DD"}],
-  "affiliations": [{"name": "Entity Name", "type": "individual|agency|corporation", "relationship": "Role in investigation"}]
+  "summary": "300-word investigation summary with key findings, dollar amounts, affected populations, and institutional failures",
+  "content": ["Each paragraph should be 150-250 words. Include specific dates, dollar amounts, named individuals. At least 8 paragraphs covering: the discovery, the evidence, the players, the money trail, the systemic failure, the victims/impact, the cover-up or obstruction, and the current status."],
+  "tags": ["specific-topic-tags", "minimum-5"],
+  "sources": [{"title": "Specific Article Title", "url": "https://real-url", "date": "YYYY-MM-DD"} — minimum 5 real sources],
+  "affiliations": [{"name": "Entity Name", "type": "individual|agency|corporation", "relationship": "Specific documented role in the investigation"}]
 }
 
 Return ONLY the JSON object.`;

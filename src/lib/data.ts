@@ -1,16 +1,64 @@
-import investigationsData from '@/data/investigations.json';
-import entitiesData from '@/data/entities.json';
-import timelineData from '@/data/timeline.json';
+import investigationDatabase from '@/data/investigations';
+import individualData from '@/data/individuals';
+import agencyData from '@/data/agencies';
+import corporationData from '@/data/corporations';
+import organizationData from '@/data/organizations';
 import type { Investigation, Entity, TimelineEvent, Affiliation } from '@/types';
 
-// Type assertions for JSON data
-const investigations = investigationsData as Investigation[];
-const entities = entitiesData as {
- agencies: Entity[];
- corporations: Entity[];
- individuals: Entity[];
-};
-const timeline = timelineData as TimelineEvent[];
+// Convert the investigation database (Record<string, InvestigationData>) into Investigation[] 
+const investigations: Investigation[] = Object.entries(investigationDatabase).map(([slug, inv]) => ({
+ id: slug,
+ slug,
+ title: inv.title,
+ subtitle: inv.subtitle || '',
+ summary: inv.summary,
+ content: inv.content || [],
+ category: inv.category,
+ severity: inv.severity,
+ date: inv.date,
+ lastUpdated: inv.lastUpdated || inv.date,
+ entityCount: inv.affiliations?.length || 0,
+ tags: inv.tags || [],
+ sources: (inv.sources || []).map((s, i) => ({
+  id: `src-${slug}-${i}`,
+  title: s.title,
+  url: s.url,
+  type: (s.type?.toLowerCase() || 'other') as 'document' | 'article' | 'video' | 'report' | 'archive' | 'other',
+ })),
+ affiliations: (inv.affiliations || []).map((a) => ({
+  id: a.id,
+  name: a.name,
+  type: a.type as 'individual' | 'agency' | 'corporation' | 'organization',
+  relationship: a.relationship,
+  href: a.href || `/entities/${a.type === 'individual' ? 'individuals' : a.type === 'agency' ? 'agencies' : a.type === 'corporation' ? 'corporations' : 'organizations'}/${a.id}`,
+  strength: 'direct' as const,
+ })),
+}));
+
+// Convert entity data records into Entity[]
+function recordToEntities(record: Record<string, unknown>, type: Entity['type']): Entity[] {
+ return Object.entries(record).map(([slug, data]) => {
+  const d = data as Record<string, unknown>;
+  return {
+   id: (d.id as string) || slug,
+   slug,
+   name: (d.name as string) || slug,
+   type,
+   description: (d.description as string) || '',
+   role: (d.role as string) || (d.type as string) || type,
+   investigationCount: (d.investigationCount as number) || 0,
+   riskLevel: ((d.riskLevel as string) || 'moderate') as Entity['riskLevel'],
+   affiliations: [],
+   investigations: [],
+  };
+ });
+}
+
+const agencies = recordToEntities(agencyData, 'agency');
+const corporations = recordToEntities(corporationData, 'corporation');
+const individuals = recordToEntities(individualData, 'individual');
+// organizations don't have a separate unified type yet — adapt similarly
+const organizations = recordToEntities(organizationData || {}, 'organization');
 
 /**
  * Get all investigations
@@ -61,11 +109,13 @@ export function searchInvestigations(query: string): Investigation[] {
 export function getEntitiesByType(type: Entity['type']): Entity[] {
  switch (type) {
  case 'agency':
- return entities.agencies;
+ return agencies;
  case 'corporation':
- return entities.corporations;
+ return corporations;
  case 'individual':
- return entities.individuals;
+ return individuals;
+ case 'organization':
+ return organizations;
  default:
  return [];
  }
@@ -75,7 +125,7 @@ export function getEntitiesByType(type: Entity['type']): Entity[] {
  * Get all entities across all types
  */
 export function getAllEntities(): Entity[] {
- return [...entities.agencies, ...entities.corporations, ...entities.individuals];
+ return [...agencies, ...corporations, ...individuals, ...organizations];
 }
 
 /**
@@ -112,8 +162,22 @@ export function searchEntities(query: string): Entity[] {
  * Get all timeline events
  */
 export function getTimelineEvents(): TimelineEvent[] {
- return timeline.sort(
- (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+ // Timeline derived from investigations
+ const events: TimelineEvent[] = investigations.map((inv) => ({
+  id: inv.id,
+  date: inv.date,
+  sortDate: inv.date,
+  title: inv.title,
+  description: inv.summary,
+  category: inv.category,
+  severity: inv.severity,
+  slug: inv.slug,
+  tags: inv.tags,
+  investigationId: inv.id,
+  type: 'event' as const,
+ }));
+ return events.sort(
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
  );
 }
 
@@ -123,7 +187,7 @@ export function getTimelineEvents(): TimelineEvent[] {
 export function getTimelineEventsByInvestigation(
  investigationId: string
 ): TimelineEvent[] {
- return timeline
+ return getTimelineEvents()
  .filter((event) => event.investigationId === investigationId)
  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
@@ -151,9 +215,10 @@ export function getPlatformStats() {
  ),
  activeAlerts: investigations.filter((inv) => inv.severity === 'critical')
  .length,
- agencyCount: entities.agencies.length,
- corporationCount: entities.corporations.length,
- individualCount: entities.individuals.length,
+ agencyCount: agencies.length,
+ corporationCount: corporations.length,
+ individualCount: individuals.length,
+ organizationCount: organizations.length,
  };
 }
 

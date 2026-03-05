@@ -811,6 +811,7 @@ const investigations_t: Record<string, InvestigationData> = {
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
  affiliations: [],
+ },
   'trafficking-corridors-central-america': {
     title: 'Trafficking Corridors Central America',
     subtitle: 'Investigation into Trafficking Corridors Central America',
@@ -1084,7 +1085,6 @@ const investigations_t: Record<string, InvestigationData> = {
 
 
 
- },
 };
 
 export default investigations_t;

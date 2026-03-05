@@ -1,0 +1,294 @@
+﻿Γû▓ Next.js 16.1.6 (Turbopack)
+
+node.exe : ΓÜá The "middleware" file convention is deprecated. Please use 
+"proxy" instead. Learn more: 
+https://nextjs.org/docs/messages/middleware-to-proxy
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Users\Arkhi\AppData\Roaming\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ΓÜá The "middle...leware-to-proxy 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 67s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/3504) ...
+  Generating static pages using 7 workers (876/3504) 
+  Generating static pages using 7 workers (1752/3504) 
+  Generating static pages using 7 workers (2628/3504) 
+Γ£ô Generating static pages using 7 workers (3504/3504) in 2.6min
+  Finalizing page optimization ...
+
+Route (app)
+Γöî Γùï /
+Γö£ Γùï /_not-found
+Γö£ Γùï /about
+Γö£ Γùï /activity
+Γö£ Γùï /analytics
+Γö£ ╞Æ /api/activity
+Γö£ ╞Æ /api/ai
+Γö£ ╞Æ /api/analytics
+Γö£ ╞Æ /api/audit
+Γö£ ╞Æ /api/auth
+Γö£ ╞Æ /api/auth/check
+Γö£ ╞Æ /api/documents
+Γö£ ╞Æ /api/entities
+Γö£ ╞Æ /api/export
+Γö£ ╞Æ /api/import
+Γö£ ╞Æ /api/integrations
+Γö£ ╞Æ /api/investigations
+Γö£ ╞Æ /api/logout
+Γö£ Γùï /api/search
+Γö£ ╞Æ /api/stats
+Γö£ ╞Æ /api/submit
+Γö£ ╞Æ /api/tags
+Γö£ ╞Æ /api/teams
+Γö£ ╞Æ /api/webhooks
+Γö£ ╞Æ /api/workspaces
+Γö£ Γùï /apple-icon
+Γö£ Γùï /archives
+Γö£ Γùï /audit
+Γö£ Γùï /bookmarks
+Γö£ Γùï /categories
+Γö£ ΓùÅ /categories/[category]
+Γöé Γö£ /categories/sexual-assault
+Γöé Γö£ /categories/election-interference
+Γöé Γö£ /categories/financial-fraud
+Γöé Γöö [+16 more paths]
+Γö£ Γùï /contact
+Γö£ Γùï /contributor
+Γö£ Γùï /dashboard
+Γö£ Γùï /documents
+Γö£ Γùï /drafts
+Γö£ Γùï /enter
+Γö£ Γùï /entities
+Γö£ Γùï /entities/agencies
+Γö£ ΓùÅ /entities/agencies/[slug]
+Γöé Γö£ /entities/agencies/afp
+Γöé Γö£ /entities/agencies/africom
+Γöé Γö£ /entities/agencies/army-corps
+Γöé Γöö [+83 more paths]
+Γö£ Γùï /entities/corporations
+Γö£ ΓùÅ /entities/corporations/[slug]
+Γöé Γö£ /entities/corporations/3m-company
+Γöé Γö£ /entities/corporations/affinity-partners
+Γöé Γö£ /entities/corporations/alden-global-capital
+Γöé Γöö [+143 more paths]
+Γö£ Γùï /entities/individuals
+Γö£ ΓùÅ /entities/individuals/[slug]
+Γöé Γö£ /entities/individuals/allen-weisselberg
+Γöé Γö£ /entities/individuals/anthony-fauci
+Γöé Γö£ /entities/individuals/andrew-mccabe
+Γöé Γöö [+2113 more paths]
+Γö£ Γùï /entities/organizations
+Γö£ ΓùÅ /entities/organizations/[slug]
+Γöé Γö£ /entities/organizations/federalist-society
+Γöé Γö£ /entities/organizations/heritage-foundation
+Γöé Γö£ /entities/organizations/project-2025
+Γöé Γöö [+80 more paths]
+Γö£ Γùï /faq
+Γö£ Γùï /icon
+Γö£ Γùï /investigations
+Γö£ ΓùÅ /investigations/[slug]
+Γöé Γö£ /investigations/1980s-insider-trading
+Γöé Γö£ /investigations/1mdb-scandal
+Γöé Γö£ /investigations/2000-election
+Γöé Γöö [+823 more paths]
+Γö£ Γùï /investigations/2008-financial-crisis
+Γö£ Γùï /investigations/abu-ghraib
+Γö£ Γùï /investigations/afghanistan-papers
+Γö£ Γùï /investigations/agent-orange
+Γö£ Γùï /investigations/alec-model-legislation
+Γö£ Γùï /investigations/amazon-labor-abuses
+Γö£ Γùï /investigations/bernie-madoff-ponzi
+Γö£ Γùï /investigations/big-tobacco-coverup
+Γö£ Γùï /investigations/boeing-737-max
+Γö£ Γùï /investigations/build-the-wall-fraud
+Γö£ Γùï /investigations/bush-v-gore
+Γö£ Γùï /investigations/cambodia-bombing
+Γö£ Γùï /investigations/cambridge-analytica
+Γö£ Γùï /investigations/charlottesville
+Γö£ Γùï /investigations/chile-coup
+Γö£ Γùï /investigations/cia-coups
+Γö£ Γùï /investigations/cia-drug-trafficking
+Γö£ Γùï /investigations/cia-torture-program
+Γö£ Γùï /investigations/citizens-united
+Γö£ Γùï /investigations/civil-asset-forfeiture
+Γö£ Γùï /investigations/climate-sabotage
+Γö£ Γùï /investigations/cointelpro
+Γö£ Γùï /investigations/convict-leasing
+Γö£ Γùï /investigations/corporate-homicide
+Γö£ Γùï /investigations/covid-response
+Γö£ Γùï /investigations/dark-money-politics
+Γö£ Γùï /investigations/death-penalty-injustice
+Γö£ Γùï /investigations/deepwater-horizon
+Γö£ Γùï /investigations/defamation
+Γö£ Γùï /investigations/deutsche-bank
+Γö£ Γùï /investigations/dominion-defamation
+Γö£ Γùï /investigations/drone-assassination-program
+Γö£ Γùï /investigations/dupont-pfas-poisoning
+Γö£ Γùï /investigations/east-timor-genocide
+Γö£ Γùï /investigations/el-salvador-death-squads
+Γö£ Γùï /investigations/emmett-till
+Γö£ Γùï /investigations/emoluments
+Γö£ Γùï /investigations/enron-scandal
+Γö£ Γùï /investigations/epstein-network
+Γö£ Γùï /investigations/extraordinary-rendition
+Γö£ Γùï /investigations/exxon-climate-coverup
+Γö£ Γùï /investigations/facial-recognition-surveillance
+Γö£ Γùï /investigations/fake-electors
+Γö£ Γùï /investigations/family-separation
+Γö£ Γùï /investigations/federalist-society
+Γö£ Γùï /investigations/flint-water-crisis
+Γö£ Γùï /investigations/forced-sterilization
+Γö£ Γùï /investigations/fox-news-propaganda
+Γö£ Γùï /investigations/fred-hampton-assassination
+Γö£ Γùï /investigations/ftx-crypto-fraud
+Γö£ Γùï /investigations/georgia-rico
+Γö£ Γùï /investigations/gerrymandering
+Γö£ Γùï /investigations/grenada-invasion
+Γö£ Γùï /investigations/guantanamo-bay
+Γö£ Γùï /investigations/guatemala-coup-1954
+Γö£ Γùï /investigations/guatemala-genocide
+Γö£ Γùï /investigations/guatemala-syphilis-experiments
+Γö£ Γùï /investigations/gulf-of-tonkin
+Γö£ Γùï /investigations/gun-violence-inaction
+Γö£ Γùï /investigations/haiti-exploitation
+Γö£ Γùï /investigations/health-insurance-deaths
+Γö£ Γùï /investigations/hush-money
+Γö£ Γùï /investigations/ice-detention-abuses
+Γö£ Γùï /investigations/inaugural-committee
+Γö£ Γùï /investigations/indian-boarding-schools
+Γö£ Γùï /investigations/indonesia-mass-killings
+Γö£ Γùï /investigations/iran-contra
+Γö£ Γùï /investigations/iran-coup
+Γö£ Γùï /investigations/iraq-war-lies
+Γö£ Γùï /investigations/jackson-water-crisis
+Γö£ Γùï /investigations/january-6-insurrection
+Γö£ Γùï /investigations/japanese-internment
+Γö£ Γùï /investigations/jfk-assassination
+Γö£ Γùï /investigations/kissinger-crimes
+Γö£ Γùï /investigations/koch-network
+Γö£ Γùï /investigations/lafayette-square
+Γö£ Γùï /investigations/laos-secret-bombing
+Γö£ Γùï /investigations/lead-poisoning-coverup
+Γö£ Γùï /investigations/leonard-leo-network
+Γö£ Γùï /investigations/libor-scandal
+Γö£ Γùï /investigations/libya-intervention
+Γö£ Γùï /investigations/lynching-in-america
+Γö£ Γùï /investigations/malcolm-x-assassination
+Γö£ Γùï /investigations/mar-a-lago-documents
+Γö£ Γùï /investigations/mass-incarceration
+Γö£ Γùï /investigations/mccarthyism-red-scare
+Γö£ Γùï /investigations/medical-bankruptcy
+Γö£ Γùï /investigations/missing-murdered-indigenous-women
+Γö£ Γùï /investigations/mkultra
+Γö£ Γùï /investigations/mlk-assassination
+Γö£ Γùï /investigations/money-laundering
+Γö£ Γùï /investigations/move-bombing
+Γö£ Γùï /investigations/muslim-ban
+Γö£ Γùï /investigations/native-american-genocide
+Γö£ Γùï /investigations/no-knock-raids
+Γö£ Γùï /investigations/nsa-mass-surveillance
+Γö£ Γùï /investigations/nuclear-testing-victims
+Γö£ Γùï /investigations/oath-keepers-sedition
+Γö£ Γùï /investigations/obstruction-of-justice
+Γö£ Γùï /investigations/october-surprise-1980
+Γö£ Γùï /investigations/operation-condor
+Γö£ Γùï /investigations/operation-fast-and-furious
+Γö£ Γùï /investigations/operation-gladio
+Γö£ Γùï /investigations/operation-mockingbird
+Γö£ Γùï /investigations/operation-northwoods
+Γö£ Γùï /investigations/operation-paperclip
+Γö£ Γùï /investigations/opioid-crisis
+Γö£ Γùï /investigations/panama-invasion
+Γö£ Γùï /investigations/panama-papers
+Γö£ Γùï /investigations/pardons-corruption
+Γö£ Γùï /investigations/patriot-act
+Γö£ Γùï /investigations/pentagon-papers
+Γö£ Γùï /investigations/pharmaceutical-price-gouging
+Γö£ Γùï /investigations/phoenix-program
+Γö£ Γùï /investigations/police-brutality
+Γö£ Γùï /investigations/police-militarization
+Γö£ Γùï /investigations/predictive-policing
+Γö£ Γùï /investigations/private-prison-industry
+Γö£ Γùï /investigations/project-2025
+Γö£ Γùï /investigations/proud-boys-sedition
+Γö£ Γùï /investigations/puerto-rico
+Γö£ Γùï /investigations/purdue-pharma-oxycontin
+Γö£ Γùï /investigations/qanon-radicalization
+Γö£ Γùï /investigations/redlining-housing-discrimination
+Γö£ Γùï /investigations/rfk-assassination
+Γö£ Γùï /investigations/roe-v-wade-overturn
+Γö£ Γùï /investigations/ruby-ridge
+Γö£ Γùï /investigations/russian-interference
+Γö£ Γùï /investigations/rwanda-genocide-inaction
+Γö£ Γùï /investigations/saudi-arms-deal
+Γö£ Γùï /investigations/saudi-connections
+Γö£ Γùï /investigations/savings-and-loan-crisis
+Γö£ Γùï /investigations/school-of-the-americas
+Γö£ Γùï /investigations/sexual-assault
+Γö£ Γùï /investigations/sinclair-broadcasting
+Γö£ Γùï /investigations/solitary-confinement
+Γö£ Γùï /investigations/somalia-intervention
+Γö£ Γùï /investigations/standing-rock
+Γö£ Γùï /investigations/stingray-surveillance
+Γö£ Γùï /investigations/student-debt-crisis
+Γö£ Γùï /investigations/sundown-towns
+Γö£ Γùï /investigations/supreme-court-ethics
+Γö£ Γùï /investigations/tax-evasion
+Γö£ Γùï /investigations/theranos-fraud
+Γö£ Γùï /investigations/trump-criminal-compendium
+Γö£ Γùï /investigations/trump-foundation
+Γö£ Γùï /investigations/trump-org-fraud
+Γö£ Γùï /investigations/trump-university
+Γö£ Γùï /investigations/tulsa-race-massacre
+Γö£ Γùï /investigations/tuskegee-experiment
+Γö£ Γùï /investigations/ukraine-extortion
+Γö£ Γùï /investigations/union-busting
+Γö£ Γùï /investigations/us-support-for-apartheid
+Γö£ Γùï /investigations/vietnam-war-crimes
+Γö£ Γùï /investigations/volkswagen-emissions
+Γö£ Γùï /investigations/voter-suppression
+Γö£ Γùï /investigations/waco-siege
+Γö£ Γùï /investigations/war-on-black-america
+Γö£ Γùï /investigations/war-on-drugs
+Γö£ Γùï /investigations/water-contamination-nationwide
+Γö£ Γùï /investigations/watergate
+Γö£ Γùï /investigations/wells-fargo-fraud
+Γö£ Γùï /investigations/whistleblower-persecution
+Γö£ Γùï /investigations/yemen-war
+Γö£ Γùï /manifest.webmanifest
+Γö£ Γùï /methodology
+Γö£ Γùï /notifications
+Γö£ Γùï /offline
+Γö£ Γùï /opengraph-image
+Γö£ Γùï /privacy
+Γö£ Γùï /profile
+Γö£ Γùï /recent
+Γö£ Γùï /robots.txt
+Γö£ Γùï /search
+Γö£ Γùï /sitemap.xml
+Γö£ Γùï /sources
+Γö£ Γùï /submit
+Γö£ Γùï /tags
+Γö£ Γùï /team
+Γö£ Γùï /terms
+Γö£ Γùï /timeline
+Γö£ Γùï /workspaces
+Γö£ ΓùÅ /workspaces/[id]
+Γöé Γö£ /workspaces/1
+Γöé Γö£ /workspaces/2
+Γöé Γö£ /workspaces/3
+Γöé Γöö [+2 more paths]
+Γöö Γùï /workspaces/create
+
+
+╞Æ Proxy (Middleware)
+
+Γùï  (Static)   prerendered as static content
+ΓùÅ  (SSG)      prerendered as static HTML (uses generateStaticParams)
+╞Æ  (Dynamic)  server-rendered on demand
+
