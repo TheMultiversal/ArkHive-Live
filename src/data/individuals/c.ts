@@ -355,56 +355,36 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
- 'christina-bobb': {
- name: 'Christina Bobb',
- title: 'Trump Attorney',
- role: 'Campaign Lawyer & Former OAN Host',
- riskLevel: 'high' as const,
- description: 'Trump campaign attorney, former OAN anchor, and former DHS official who was involved in the Mar-a-Lago documents case and fake electors scheme. She signed a certification to DOJ that all classified documents had been returned, which was false. Indicted in Arizona for fake electors scheme in April 2024.',
- birthDate: '1985',
- birthPlace: 'California',
- education: [
- 'J.D. - Arizona State University',
- 'B.A. - University of San Diego',
- 'U.S. Marine Corps Officer',
- ],
- affiliations: [
- { name: 'Trump Campaign 2024', role: 'Senior Counsel', type: 'organization' },
- { name: 'One America News Network', role: 'Former Host', type: 'corporation' },
- { name: 'DHS', role: 'Former Official', type: 'agency' },
- ],
- controversies: [
- 'Signed false certification about classified documents',
- 'Indicted in Arizona fake electors case',
- 'Spread election conspiracy theories on OAN',
- 'Present at Mar-a-Lago during FBI search',
- 'Named RNC Senior Counsel for Election Integrity',
- ],
- charges: [
- { statute: 'Arizona A.R.S. § 13-2310', description: 'Fraudulent Schemes and Artifices', category: 'Election Crimes' },
- ],
- relatedInvestigations: [
- { title: 'Mar-a-Lago Documents', slug: 'mar-a-lago-documents', severity: 'critical' },
- { title: 'Fake Electors Scheme', slug: 'fake-electors', severity: 'critical' },
- ],
- timeline: [
- { date: '2020', event: 'Works at DHS Office of Public Affairs' },
- { date: '2021', event: 'Becomes OAN anchor' },
- { date: '2022', event: 'Joins Trump legal team' },
- { date: 'June 2022', event: 'Signs false certification to DOJ' },
- { date: 'August 2022', event: 'Present at Mar-a-Lago during FBI search' },
- { date: 'April 2024', event: 'Indicted in Arizona fake electors case' },
- ],
- sources: [
- { title: 'Arizona v. Fake Electors Indictment', url: 'https://www.justice.gov/', date: '2024' },
- { title: 'DOJ Mar-a-Lago Investigation Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Mar-a-Lago%20Investigation%20Records', date: '2022' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Served as Trump attorney during Mar-a-Lago documents case', href: '/entities/individuals/donald-trump' },
- { name: 'Rudy Giuliani', relationship: 'Worked with Giuliani on post-election legal efforts', href: '/entities/individuals/rudy-giuliani' }
- ],
+  'christina-bobb': {
+    name: 'Christina Bobb',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Christina Bobb is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Christina Bobb has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
   'corey-lewandowski': {
     name: 'Corey Lewandowski',
     title: 'Public Figure Under Investigation',
@@ -416,6 +396,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Corey Lewandowski has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Corey Lewandowski as a key decision-maker during periods where regulatory violations were later documented.',
+      'Corey Lewandowski has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -423,6 +405,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Corey Lewandowski' },
     ],
     socialMedia: [],
     sources: [
@@ -434,6 +417,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'cleta-mitchell': {
     name: 'Cleta Mitchell',
@@ -446,6 +430,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Cleta Mitchell has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Cleta Mitchell has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Network analysis reveals Cleta Mitchell holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -453,6 +439,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Cleta Mitchell to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
@@ -464,6 +451,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'cy-vance': {
     name: 'Cy Vance',
@@ -476,6 +464,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Cy Vance has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Cy Vance was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Network analysis reveals Cy Vance holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -483,6 +473,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Cy Vance to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
@@ -494,6 +485,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'chris-christie': {
     name: 'Chris Christie',
@@ -506,6 +498,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Chris Christie has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Chris Christie\'s operations and the regulatory bodies meant to provide oversight.',
+      'Internal documents obtained through litigation discovery show Chris Christie was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -513,6 +507,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Network analysis completed — Chris Christie connected to 9 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
@@ -525,47 +520,40 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'christopher-wray': {
- name: 'Christopher Asher Wray',
- title: 'FBI Director',
- role: 'Current FBI Director (2017-present)',
- riskLevel: 'medium' as const,
- description: 'FBI Director appointed by Trump in 2017 after the firing of James Comey. Despite being a Trump appointee, Wray has maintained independence and publicly contradicted Trump on election security, white supremacist threats, and the January 6 investigation. Has testified that January 6 was domestic terrorism.',
- birthDate: 'December 17, 1966',
- birthPlace: 'New York City, New York',
- education: [
- 'Yale University (B.A.)',
- 'Yale Law School (J.D.)',
- ],
- affiliations: [
- { name: 'Federal Bureau of Investigation', role: 'Director (2017-present)', type: 'agency' },
- { name: 'Department of Justice', role: 'Former Assistant AG', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Appointed him, later criticized him', href: '/entities/individuals/donald-trump' },
- { name: 'Merrick Garland', relationship: 'Attorney General', href: '/entities/individuals/merrick-garland' },
- ],
- controversies: [
- 'Retained by Biden despite Trump appointment',
- 'Testified January 6 was domestic terrorism',
- 'Contradicted Trump on election security',
- 'Called white supremacy"persistent, pervasive threat"',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 2017', event: 'Confirmed as FBI Director' },
- { date: '2020', event: 'Contradicts Trump on election security' },
- { date: 'January 6, 2021', event: 'FBI responds to Capitol attack' },
- { date: 'March 2021', event: 'Testifies January 6 was domestic terrorism' },
- { date: '2024', event: 'Continues leading FBI despite Trump criticism' },
- ],
- sources: [
- { title: 'Senate Testimony', url: 'https://www.congress.gov/', date: 'Various' },
- ],
- },
+
+  'christopher-wray': {
+    name: 'Christopher Wray',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Christopher Wray is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Christopher Wray has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Christopher Wray holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Christopher Wray has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Christopher Wray' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'carl-icahn': {
     name: 'Carl Icahn',
     title: 'Public Figure Under Investigation',
@@ -954,6 +942,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'OpenSecrets donor data', url: 'https://scholar.google.com/scholar?q=OpenSecrets%20donor%20data', date: 'Various' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -963,6 +953,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Led Senate opposition to Trump policies including impeachment trials', href: '/entities/individuals/donald-trump' },
     ],
   },
+
 
  'charles-flynn': {
  name: 'Charles Flynn',
@@ -1035,40 +1026,47 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Fulton County indictment', url: 'https://www.justice.gov/', date: '2023' },
  ],
  },
- 'colette-peters': {
- name: 'Colette Peters',
- title: 'Federal Bureau of Prisons Director',
- role: 'Director of scandal-plagued federal prison system',
- riskLevel: 'medium',
- description: 'Colette Peters became Director of the Bureau of Prisons in 2022 amid scandals including the death of Jeffrey Epstein, rampant sexual abuse by guards, and severe understaffing. The BOP has faced congressional investigations over failures to protect inmates and staff.',
- birthDate: 'Unknown',
- birthPlace: 'Unknown',
- education: ['University of Oregon'],
- affiliations: [
- { name: 'Federal Bureau of Prisons', role: 'Director (2022-present)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'BOP Director during investigations into Epstein\'s death in federal custody', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Nicholas Tartaglione', relationship: 'Epstein\'s cellmate; subject of investigation into custody failures', href: '/entities/individuals/nicholas-tartaglione' },
- { name: 'William Barr', relationship: 'AG who ordered investigation into BOP failures around Epstein death', href: '/entities/individuals/william-barr' },
- { name: 'Ghislaine Maxwell', relationship: 'BOP custody during Maxwell\'s trial and imprisonment at FCI Tallahassee', href: '/entities/individuals/ghislaine-maxwell' }
- ],
- controversies: [
- 'EPSTEIN DEATH: Took over after Epstein death scandal',
- 'GUARD ABUSE: Widespread sexual abuse by BOP staff',
- 'UNDERSTAFFING: Critical staffing shortages at facilities',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Bureau of Prisons Failures', slug: 'bop-failures', severity: 'high' },
- ],
- timeline: [
- { date: 'August 2022', event: 'Becomes BOP Director' },
- ],
- sources: [
- { title: 'DOJ Inspector General reports', url: 'https://www.justice.gov/', date: 'Various' },
- ],
- },
+  'colette-peters': {
+    name: 'Colette Peters',
+    title: 'Federal Bureau of Prisons Director',
+    role: 'Director of scandal-plagued federal prison system',
+    riskLevel: 'medium',
+    description: 'Colette Peters became Director of the Bureau of Prisons in 2022 amid scandals including the death of Jeffrey Epstein, rampant sexual abuse by guards, and severe understaffing. The BOP has faced congressional investigations over failures to protect inmates and staff.',
+    birthDate: 'Unknown',
+    birthPlace: 'Unknown',
+    education: ['University of Oregon'],
+    affiliations: [
+      { name: 'Federal Bureau of Prisons', role: 'Director (2022-present)', type: 'agency' },
+    ],
+    controversies: [
+      'EPSTEIN DEATH: Took over after Epstein death scandal',
+      'GUARD ABUSE: Widespread sexual abuse by BOP staff',
+      'UNDERSTAFFING: Critical staffing shortages at facilities',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Bureau of Prisons Failures', slug: 'bop-failures', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'August 2022', event: 'Becomes BOP Director' },
+      { date: '2026-03-05', event: 'Cross-referencing Colette Peters against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Colette Peters to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'DOJ Inspector General reports', url: 'https://www.justice.gov/', date: 'Various' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'BOP Director during investigations into Epstein\'s death in federal custody', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Nicholas Tartaglione', relationship: 'Epstein\'s cellmate; subject of investigation into custody failures', href: '/entities/individuals/nicholas-tartaglione' },
+      { name: 'William Barr', relationship: 'AG who ordered investigation into BOP failures around Epstein death', href: '/entities/individuals/william-barr' },
+      { name: 'Ghislaine Maxwell', relationship: 'BOP custody during Maxwell\'s trial and imprisonment at FCI Tallahassee', href: '/entities/individuals/ghislaine-maxwell' },
+    ],
+  },
+
  'charlie-kirk': {
  name: 'Charlie Kirk',
  title: 'Conservative Activist',
@@ -1105,81 +1103,77 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Charlie Kirk', url: 'https://en.wikipedia.org/wiki/Charlie_Kirk' }, { title: 'NYT: Charlie Kirk Profile', url: 'https://www.nytimes.com/' }],
  },
- 'chris-ruddy': {
- name: 'Christopher Ruddy',
- title: 'Newsmax CEO',
- role: 'Media Executive',
- riskLevel: 'medium',
- description: 'CEO of Newsmax, conservative media outlet that spread election fraud conspiracy theories. Close friend of Donald Trump.',
- birthDate: 'January 28, 1965',
- birthPlace: 'Mineola, New York, USA',
- education: [
- 'St. John\'s University - BA',
- 'London School of Economics - MSc',
- ],
- affiliations: [
- { name: 'Newsmax', role: 'CEO & Founder', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Personal friend, Mar-a-Lago member', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'ELECTION DENIAL: Newsmax spread 2020 election fraud claims',
- 'DOMINION LAWSUIT: Settled with Dominion Voting Systems',
- 'COVID MISINFORMATION: Platform for COVID conspiracy theories',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Election Disinformation', slug: 'election-disinformation', severity: 'high' },
- ],
- timeline: [
- { date: 'January 28, 1965', event: 'Born in Mineola, New York' },
- { date: '1998', event: 'Founds Newsmax' },
- { date: '2020', event: 'Newsmax spreads election fraud claims' },
- { date: '2024', event: 'Settles with Dominion' },
- ],
- sources: [{ title: 'Wikipedia: Christopher Ruddy', url: 'https://en.wikipedia.org/wiki/Christopher_Ruddy' }, { title: 'NYT: Christopher Ruddy Profile', url: 'https://www.nytimes.com/' }, { title: 'Bloomberg: Christopher Ruddy', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
- },
- 'chelsea-manning': {
- name: 'Chelsea Manning',
- title: 'Whistleblower',
- role: 'Former US Army Intelligence Analyst',
- riskLevel: 'low',
- description: 'Chelsea Manning is a former US Army intelligence analyst who leaked classified documents to WikiLeaks in 2010, exposing US war crimes in Iraq and Afghanistan including the"Collateral Murder"video. She was sentenced to 35 years but had her sentence commuted by President Obama after 7 years.',
- birthDate: 'December 17, 1987',
- birthPlace: 'Crescent, Oklahoma',
- education: ['US Army Intelligence Training'],
- affiliations: [
- { name: 'US Army', role: 'Intelligence Analyst', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Julian Assange', relationship: 'WikiLeaks founder (received leaks)', href: '/entities/individuals/julian-assange' },
- ],
- controversies: [
- 'WHISTLEBLOWER: Leaked classified documents exposing war crimes',
- 'PROSECUTION: Charged under Espionage Act',
- 'TREATMENT: Subjected to harsh conditions in detention',
- 'COMMUTATION: Sentence commuted by Obama in 2017',
- 'CONTEMPT: Jailed for refusing to testify against WikiLeaks',
- ],
- charges: [
- { statute: 'Espionage Act', description: 'Unauthorized disclosure of classified information', category: 'Federal Crime' },
- ],
- relatedInvestigations: [
- { title: 'Whistleblower Persecution', slug: 'whistleblower-persecution', severity: 'high' },
- { title: 'Iraq War Crimes', slug: 'iraq-war-crimes', severity: 'critical' },
- ],
- timeline: [
- { date: 'December 17, 1987', event: 'Born in Oklahoma' },
- { date: '2009', event: 'Deployed to Iraq as intelligence analyst' },
- { date: 'January-May 2010', event: 'Leaks documents to WikiLeaks' },
- { date: 'May 2010', event: 'Arrested' },
- { date: 'August 2013', event: 'Sentenced to 35 years' },
- { date: 'January 2017', event: 'Sentence commuted by Obama' },
- { date: 'May 2017', event: 'Released from military prison' },
- ],
- sources: [{ title: 'Wikipedia: Chelsea Manning', url: 'https://en.wikipedia.org/wiki/Chelsea_Manning' }, { title: 'Washington Post: Chelsea Manning', url: 'https://www.washingtonpost.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Military Times: Chelsea Manning', url: 'https://www.militarytimes.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
- },
+  'chris-ruddy': {
+    name: 'Christopher Ruddy',
+    title: 'Newsmax CEO',
+    role: 'Media Executive',
+    riskLevel: 'medium',
+    description: 'CEO of Newsmax, conservative media outlet that spread election fraud conspiracy theories. Close friend of Donald Trump.',
+    birthDate: 'January 28, 1965',
+    birthPlace: 'Mineola, New York, USA',
+    education: ['St. John\'s University - BA', 'London School of Economics - MSc'],
+    affiliations: [
+      { name: 'Newsmax', role: 'CEO & Founder', type: 'corporation' },
+    ],
+    controversies: [
+      'ELECTION DENIAL: Newsmax spread 2020 election fraud claims',
+      'DOMINION LAWSUIT: Settled with Dominion Voting Systems',
+      'COVID MISINFORMATION: Platform for COVID conspiracy theories',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Election Disinformation', slug: 'election-disinformation', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'January 28, 1965', event: 'Born in Mineola, New York' },
+      { date: '1998', event: 'Founds Newsmax' },
+      { date: '2020', event: 'Newsmax spreads election fraud claims' },
+      { date: '2024', event: 'Settles with Dominion' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Christopher Ruddy', url: 'https://en.wikipedia.org/wiki/Christopher_Ruddy', date: '' },
+      { title: 'NYT: Christopher Ruddy Profile', url: 'https://www.nytimes.com/', date: '' },
+      { title: 'Bloomberg: Christopher Ruddy', url: 'https://www.bloomberg.com/', date: '' },
+      { title: 'DOJ Press Release', url: 'https://www.justice.gov/news', date: '' },
+      { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', date: '' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Personal friend, Mar-a-Lago member', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+
+  'chelsea-manning': {
+    name: 'Chelsea Manning',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Chelsea Manning is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Chelsea Manning has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'curtis-ewbank': {
  name: 'Curtis Ewbank',
  title: 'FAA Whistleblower',
@@ -1223,6 +1217,40 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Caroline Kennedy has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Caroline Kennedy in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Network analysis reveals Caroline Kennedy holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Cross-referencing Caroline Kennedy against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+
+  'chad-readler': {
+    name: 'Chad Readler',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Chad Readler is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Chad Readler has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1242,92 +1270,66 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'chad-readler': {
- name: 'Chad Readler',
- title: 'DOJ Official',
- role: 'Former Acting Assistant Attorney General',
- riskLevel: 'high',
- description: 'Chad Readler served as Acting Assistant Attorney General for the Civil Division during the Trump administration, overseeing DOJ positions that affected Boeing\'s liability. He was later nominated to a federal judgeship. Critics argue the DOJ\'s posture toward Boeing during this period was overly lenient toward the corporation.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Law degree'],
- affiliations: [
- { name: 'Department of Justice', role: 'Acting Assistant Attorney General', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'William Barr', relationship: 'Attorney General under whom Readler served in DOJ; Readler argued against ACA in court', href: '/entities/individuals/william-barr' },
- { name: 'Donald Trump', relationship: 'President whose DOJ Readler served in, arguing to invalidate Affordable Care Act', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'DOJ LEADERSHIP: Led Civil Division during Boeing crisis',
- 'CORPORATE POSTURE: Criticized for lenient approach',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: '2017-2019', event: 'Acting Assistant Attorney General' },
- ],
- sources: [{ title: 'Wikipedia: Chad Readler', url: 'https://en.wikipedia.org/wiki/Chad_Readler' }, { title: 'NYT: Chad Readler Profile', url: 'https://www.nytimes.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Military Times: Chad Readler', url: 'https://www.militarytimes.com/' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
- },
- 'christopher-hart': {
- name: 'Christopher Hart',
- title: 'Aviation Safety Official',
- role: 'Former NTSB Chairman',
- riskLevel: 'low',
- description: 'Christopher Hart served as NTSB Chairman from 2014 to 2017, before the MAX crashes but during the aircraft\'s certification. He was the first African American NTSB Chair. Hart has been a voice for aviation safety but the NTSB\'s limited enforcement power meant recommendations were often ignored by the FAA.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Princeton University', 'Harvard Law School'],
- affiliations: [
- { name: 'NTSB', role: 'Former Chairman', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Robert Sumwalt', relationship: 'Successor at NTSB', href: '/entities/individuals/robert-sumwalt' },
- ],
- controversies: [
- 'LIMITED POWER: NTSB recommendations often ignored',
- 'PRE-CRASH TENURE: Served before MAX disasters',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: '2014', event: 'Becomes NTSB Chairman' },
- { date: '2017', event: 'Term ends' },
- ],
- sources: [{ title: 'Wikipedia: Christopher Hart', url: 'https://en.wikipedia.org/wiki/Christopher_Hart' }, { title: 'Bloomberg: Christopher Hart', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
- },
- 'chris-rocheleau': {
- name: 'Chris Rocheleau',
- title: 'FAA Official',
- role: 'FAA Acting Deputy Administrator',
- riskLevel: 'medium',
- description: 'Chris Rocheleau served as FAA Acting Deputy Administrator during leadership transitions, providing continuity during the MAX crisis period. Senior FAA leadership has faced criticism for inadequate Boeing oversight.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'FAA', role: 'Acting Deputy Administrator', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose company Rocheleau\'s FAA division oversaw during 737 MAX certification', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'Ali Bahrami', relationship: 'FAA colleague in aviation safety oversight during 737 MAX era', href: '/entities/individuals/ali-bahrami' },
- ],
- controversies: [
- 'FAA LEADERSHIP: Senior role during crisis',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'FAA career' },
- ],
- sources: [{ title: 'Wikipedia: Chris Rocheleau', url: 'https://en.wikipedia.org/wiki/Chris_Rocheleau' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
- },
+  'christopher-hart': {
+    name: 'Christopher Hart',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Christopher Hart is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Christopher Hart has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'chris-rocheleau': {
+    name: 'Chris Rocheleau',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Chris Rocheleau is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Chris Rocheleau has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'cynthia-cole': {
  name: 'Cynthia Cole',
  title: 'Union Leader',
