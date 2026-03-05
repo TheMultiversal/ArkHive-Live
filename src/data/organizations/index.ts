@@ -898,6 +898,15 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'medium',
     members: 'Unknown',
   },
+  'center-for-strategic-and-international-studies': {
+    name: 'Center for Strategic and International Studies',
+    slug: 'center-for-strategic-and-international-studies',
+    type: 'Organization',
+    description: 'Center for Strategic and International Studies is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
 
 
 

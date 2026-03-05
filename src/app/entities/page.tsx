@@ -42,7 +42,7 @@ const entityCategories = [
  subtitle:"The Shadow Networks",
  description:"Think tanks, lobbying groups, dark money networks. The organizations that pull the strings from behind the curtain.",
  icon: Building2,
- count: 111,
+ count: 112,
  },
 ];
 

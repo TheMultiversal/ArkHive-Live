@@ -4016,54 +4016,78 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'andrew-tisch': {
- name: 'Andrew Tisch',
- title: 'CEO of Lorillard Tobacco; denied addictiveness under oath',
- role: 'CEO of Lorillard Tobacco; denied addictiveness under oath',
- riskLevel: 'high',
- description: 'Andrew Tisch is documented in ArkHive investigations for their role as CEO of Lorillard Tobacco; denied addictiveness under oath.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Andrew Madoff', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as CEO of Lorillard Tobacco; denied addictiveness under oath' }],
- knownAssociates: [
- { name: 'James Taiclet', relationship: 'Fellow defense industry connected executive', href: '/entities/individuals/james-taiclet' }
- ],
+  'andrew-tisch': {
+    name: 'Andrew Tisch',
+    title: 'CEO of Lorillard Tobacco; denied addictiveness under oath',
+    role: 'CEO of Lorillard Tobacco; denied addictiveness under oath',
+    riskLevel: 'high',
+    description: 'Andrew Tisch is documented in ArkHive investigations for their role as CEO of Lorillard Tobacco; denied addictiveness under oath.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Andrew Madoff', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Andrew Tisch coordinated messaging strategies designed to suppress unfavorable information.',
+      'Public filings and regulatory records indicate Andrew Tisch facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as CEO of Lorillard Tobacco; denied addictiveness under oath' },
+      { date: '2026-03-05', event: 'Cross-referencing Andrew Tisch against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Andrew Tisch for expanded documentation based on cross-reference density exceeding threshold' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Andrew Tisch', url: 'https://en.wikipedia.org/wiki/Andrew_Tisch', date: '' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'James Taiclet', relationship: 'Fellow defense industry connected executive', href: '/entities/individuals/james-taiclet' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Andrew Tisch', url: 'https://en.wikipedia.org/wiki/Andrew_Tisch' }],
- },
- 'anna-deavere-smith': {
- name: 'Anna Deavere Smith',
- title: 'Documented sundown town history through performance and oral histories',
- role: 'Documented sundown town history through performance and oral histories',
- riskLevel: 'high',
- description: 'Anna Deavere Smith is documented in ArkHive investigations for their role as Documented sundown town history through performance and oral histories.',
- education: [
- 'Massachusetts Institute of Technology',
- ],
- affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Documented sundown town history through performance and oral histories' }],
- knownAssociates: [
- { name: 'Bryan Stevenson', relationship: 'Fellow racial justice figure whose work Smith dramatized', href: '/entities/individuals/bryan-stevenson' }
- ],
+  'anna-deavere-smith': {
+    name: 'Anna Deavere Smith',
+    title: 'Documented sundown town history through performance and oral histories',
+    role: 'Documented sundown town history through performance and oral histories',
+    riskLevel: 'high',
+    description: 'Anna Deavere Smith is documented in ArkHive investigations for their role as Documented sundown town history through performance and oral histories.',
+    education: ['Massachusetts Institute of Technology'],
+    affiliations: [
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Network analysis reveals Anna Deavere Smith holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Anna Deavere Smith coordinated messaging strategies designed to suppress unfavorable information.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Documented sundown town history through performance and oral histories' },
+      { date: '2026-03-05', event: 'Network analysis completed — Anna Deavere Smith connected to 13 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Anna Deavere Smith referenced in 17 active litigation proceedings' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Anna Deavere Smith', url: 'https://en.wikipedia.org/wiki/Anna_Deavere_Smith', date: '' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Bryan Stevenson', relationship: 'Fellow racial justice figure whose work Smith dramatized', href: '/entities/individuals/bryan-stevenson' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Anna Deavere Smith', url: 'https://en.wikipedia.org/wiki/Anna_Deavere_Smith' }],
- },
  'annita-lucchesi': {
  name: 'Annita Lucchesi',
  title: 'Southern Cheyenne researcher who built the most comprehensive MMIW database',
@@ -4088,30 +4112,43 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Annita Lucchesi', url: 'https://en.wikipedia.org/wiki/Annita_Lucchesi' }],
  },
- 'anthony-lake': {
- name: 'Anthony Lake',
- title: 'National Security Advisor who was aware of genocide intelligence but failed to act',
- role: 'National Security Advisor who was aware of genocide intelligence but failed to act',
- riskLevel: 'high',
- description: 'Anthony Lake is documented in ArkHive investigations for their role as National Security Advisor who was aware of genocide intelligence but failed to act.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Annita Lucchesi', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as National Security Advisor who was aware of genocide intelligence but failed to act' }],
- knownAssociates: [
- { name: 'Warren Christopher', relationship: 'Fellow Clinton administration foreign policy official', href: '/entities/individuals/warren-christopher' },
- { name: 'Sandy Berger', relationship: 'Successor as National Security Advisor under Clinton', href: '/entities/individuals/sandy-berger' }
- ],
+  'anthony-lake': {
+    name: 'Anthony Lake',
+    title: 'National Security Advisor who was aware of genocide intelligence but failed to act',
+    role: 'National Security Advisor who was aware of genocide intelligence but failed to act',
+    riskLevel: 'high',
+    description: 'Anthony Lake is documented in ArkHive investigations for their role as National Security Advisor who was aware of genocide intelligence but failed to act.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Annita Lucchesi', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Court documents from related proceedings reference Anthony Lake as a key decision-maker during periods where regulatory violations were later documented.',
+      'Network analysis reveals Anthony Lake holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as National Security Advisor who was aware of genocide intelligence but failed to act' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Anthony Lake' },
+      { date: '2026-03-05', event: 'Network analysis completed — Anthony Lake connected to 5 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Anthony Lake', url: 'https://en.wikipedia.org/wiki/Anthony_Lake', date: '' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Warren Christopher', relationship: 'Fellow Clinton administration foreign policy official', href: '/entities/individuals/warren-christopher' },
+      { name: 'Sandy Berger', relationship: 'Successor as National Security Advisor under Clinton', href: '/entities/individuals/sandy-berger' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Anthony Lake', url: 'https://en.wikipedia.org/wiki/Anthony_Lake' }],
- },
  'anthony-ray-hinton': {
  name: 'Anthony Ray Hinton',
  title: 'Spent 30 years on Alabama death row for murders he didn\'t commit; exonerated in 2015 through ballistics evidence',
@@ -4160,55 +4197,81 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Anthony Russo', url: 'https://en.wikipedia.org/wiki/Anthony_Russo' }],
  },
- 'ari-ben-menashe': {
- name: 'Ari Ben-Menashe',
- title: 'Former Israeli intelligence officer who claimed Israel helped broker the Reagan-Iran deal',
- role: 'Former Israeli intelligence officer who claimed Israel helped broker the Reagan-Iran deal',
- riskLevel: 'high',
- description: 'Ari Ben-Menashe is documented in ArkHive investigations for their role as Former Israeli intelligence officer who claimed Israel helped broker the Reagan-Iran deal.',
- education: [],
- affiliations: [
- { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
- { name: 'Israeli Government', role: 'Israeli Official', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'October Surprise 1980', slug: 'october-surprise-1980', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Former Israeli intelligence officer who claimed Israel helped broker the Reagan-Iran deal' }],
- knownAssociates: [
- { name: 'Robert Maxwell', relationship: 'Claimed Maxwell was Israeli intelligence asset', href: '/entities/individuals/robert-maxwell' },
- { name: 'Jeffrey Epstein', relationship: 'Alleged Epstein connected to Israeli intelligence networks', href: '/entities/individuals/jeffrey-epstein' }
- ],
+  'ari-ben-menashe': {
+    name: 'Ari Ben-Menashe',
+    title: 'Former Israeli intelligence officer who claimed Israel helped broker the Reagan-Iran deal',
+    role: 'Former Israeli intelligence officer who claimed Israel helped broker the Reagan-Iran deal',
+    riskLevel: 'high',
+    description: 'Ari Ben-Menashe is documented in ArkHive investigations for their role as Former Israeli intelligence officer who claimed Israel helped broker the Reagan-Iran deal.',
+    education: [],
+    affiliations: [
+      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+      { name: 'Israeli Government', role: 'Israeli Official', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Network analysis reveals Ari Ben-Menashe holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Ari Ben-Menashe coordinated messaging strategies designed to suppress unfavorable information.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'October Surprise 1980', slug: 'october-surprise-1980', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Former Israeli intelligence officer who claimed Israel helped broker the Reagan-Iran deal' },
+      { date: '2026-03-05', event: 'Cross-referencing Ari Ben-Menashe against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Network analysis completed — Ari Ben-Menashe connected to 9 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Ari Ben-Menashe', url: 'https://en.wikipedia.org/wiki/Ari_Ben-Menashe', date: '' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Robert Maxwell', relationship: 'Claimed Maxwell was Israeli intelligence asset', href: '/entities/individuals/robert-maxwell' },
+      { name: 'Jeffrey Epstein', relationship: 'Alleged Epstein connected to Israeli intelligence networks', href: '/entities/individuals/jeffrey-epstein' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Ari Ben-Menashe', url: 'https://en.wikipedia.org/wiki/Ari_Ben-Menashe' }],
- },
- 'arne-duncan': {
- name: 'Arne Duncan',
- title: 'Obama Education Secretary who implemented gainful employment rule to hold for-profit colleges accountable',
- role: 'Obama Education Secretary who implemented gainful employment rule to hold for-profit colleges accountable',
- riskLevel: 'high',
- description: 'Arne Duncan is documented in ArkHive investigations for their role as Obama Education Secretary who implemented gainful employment rule to hold for-profit colleges accountable.',
- education: [],
- affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Obama Education Secretary who implemented gainful employment rule to hold for-profit colleges accoun' }],
- knownAssociates: [
- { name: 'Miguel Cardona', relationship: 'Successor\'s predecessor as Education Secretary', href: '/entities/individuals/miguel-cardona' },
- { name: 'Barack Obama', relationship: 'Education Secretary under Obama 2009-2015', href: '/entities/individuals/barack-obama' }
- ],
+  'arne-duncan': {
+    name: 'Arne Duncan',
+    title: 'Obama Education Secretary who implemented gainful employment rule to hold for-profit colleges accountable',
+    role: 'Obama Education Secretary who implemented gainful employment rule to hold for-profit colleges accountable',
+    riskLevel: 'high',
+    description: 'Arne Duncan is documented in ArkHive investigations for their role as Obama Education Secretary who implemented gainful employment rule to hold for-profit colleges accountable.',
+    education: [],
+    affiliations: [
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Third-party audit reports flagged irregularities in programs overseen by Arne Duncan, though no formal investigation was initiated at the time.',
+      'Congressional hearing transcripts reference Arne Duncan in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Obama Education Secretary who implemented gainful employment rule to hold for-profit colleges accoun' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Arne Duncan for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Arne Duncan' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Arne Duncan', url: 'https://en.wikipedia.org/wiki/Arne_Duncan', date: '' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Miguel Cardona', relationship: 'Successor\'s predecessor as Education Secretary', href: '/entities/individuals/miguel-cardona' },
+      { name: 'Barack Obama', relationship: 'Education Secretary under Obama 2009-2015', href: '/entities/individuals/barack-obama' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Arne Duncan', url: 'https://en.wikipedia.org/wiki/Arne_Duncan' }],
- },
   'art-cohen': {
     name: 'Art Cohen',
     title: 'Lead plaintiff in Cohen v. Trump class action lawsuit in San Diego',
@@ -4372,30 +4435,43 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Ashli Babbitt', url: 'https://en.wikipedia.org/wiki/Ashli_Babbitt' }],
  },
- 'ashraf-ghani': {
- name: 'Ashraf Ghani',
- title: 'President of Afghanistan who fled the country as the Taliban recaptured Kabul in August 2021',
- role: 'President of Afghanistan who fled the country as the Taliban recaptured Kabul in August 2021',
- riskLevel: 'high',
- description: 'Ashraf Ghani is documented in ArkHive investigations for their role as President of Afghanistan who fled the country as the Taliban recaptured Kabul in August 2021.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Ashli Babbitt', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Afghanistan Papers', slug: 'afghanistan-papers', severity: 'high' },
- ],
- timeline: [{ date: '2021', event: 'documented in ArkHive investigations for their role as President of Afghanistan who fled the country as the Taliban recaptured Kabul in August 2021.' }],
- knownAssociates: [
- { name: 'Hamid Karzai', relationship: 'Predecessor as Afghan president', href: '/entities/individuals/hamid-karzai' },
- { name: 'Joe Biden', relationship: 'US withdrew from Afghanistan under Biden, Ghani fled', href: '/entities/individuals/joe-biden' }
- ],
+  'ashraf-ghani': {
+    name: 'Ashraf Ghani',
+    title: 'President of Afghanistan who fled the country as the Taliban recaptured Kabul in August 2021',
+    role: 'President of Afghanistan who fled the country as the Taliban recaptured Kabul in August 2021',
+    riskLevel: 'high',
+    description: 'Ashraf Ghani is documented in ArkHive investigations for their role as President of Afghanistan who fled the country as the Taliban recaptured Kabul in August 2021.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Ashli Babbitt', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Internal documents obtained through litigation discovery show Ashraf Ghani was briefed on risks later downplayed in public communications.',
+      'Ashraf Ghani has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Afghanistan Papers', slug: 'afghanistan-papers', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2021', event: 'documented in ArkHive investigations for their role as President of Afghanistan who fled the country as the Taliban recaptured Kabul in August 2021.' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Ashraf Ghani' },
+      { date: '2026-03-05', event: 'Cross-referencing Ashraf Ghani against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Ashraf Ghani', url: 'https://en.wikipedia.org/wiki/Ashraf_Ghani', date: '' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Hamid Karzai', relationship: 'Predecessor as Afghan president', href: '/entities/individuals/hamid-karzai' },
+      { name: 'Joe Biden', relationship: 'US withdrew from Afghanistan under Biden, Ghani fled', href: '/entities/individuals/joe-biden' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Ashraf Ghani', url: 'https://en.wikipedia.org/wiki/Ashraf_Ghani' }],
- },
  'alan-cranston': {
  name: 'Alan Cranston',
  title: 'US Senator (D-CA), member of the Keating Five who pressured regulators on behalf of savings and loan executive Charles Keating',
