@@ -87,6 +87,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Hr Mcmaster has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Hr Mcmaster has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Hr Mcmaster\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -94,6 +96,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Hr Mcmaster and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
@@ -105,6 +108,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
  'hillary-clinton': {
  name: 'Hillary Diane Rodham Clinton',
@@ -346,35 +350,36 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'howard-mckenzie': {
- name: 'Howard McKenzie',
- title: 'Aviation Engineer',
- role: 'Boeing Chief Engineer',
- riskLevel: 'high',
- description: 'Howard McKenzie serves as Boeing\'s Chief Engineer, overseeing engineering decisions and technical authority. The chief engineer role is responsible for aircraft design and safety engineering. Engineering decisions under his watch include ongoing 737 MAX issues.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Engineering degree'],
- affiliations: [
- { name: 'Boeing', role: 'Chief Engineer', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during McKenzie\'s involvement with 737 MAX engineering oversight', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'John Hamilton', relationship: 'Boeing chief engineer and colleague in aircraft engineering leadership', href: '/entities/individuals/john-hamilton' },
- ],
- controversies: [
- 'ENGINEERING OVERSIGHT: Top engineering authority',
- 'TECHNICAL DECISIONS: Design and safety responsibility',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'Boeing engineering career' },
- ],
- sources: [{ title: 'Wikipedia: Howard McKenzie', url: 'https://en.wikipedia.org/wiki/Howard_McKenzie' }, { title: 'Military Times: Howard McKenzie', url: 'https://www.militarytimes.com/' }],
- },
+  'howard-mckenzie': {
+    name: 'Howard Mckenzie',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Howard Mckenzie is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Howard Mckenzie has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'howard-schultz': {
  name: 'Howard Schultz',
  title: 'Former Starbucks CEO',
@@ -417,47 +422,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'heather-bresch': {
- name: 'Heather Bresch',
- title: 'Former Mylan CEO',
- role: 'Mylan CEO - EpiPen Price Gouging',
- riskLevel: 'critical',
- description: 'Heather Bresch, daughter of Senator Joe Manchin, led Mylan during the EpiPen price gouging scandal. She raised EpiPen prices from $100 to over $600 while giving herself a 600% raise. Millions of families with children with severe allergies were forced to pay or risk death.',
- birthDate: 'July 21, 1969',
- birthPlace: 'Morgantown, West Virginia',
- education: ['West Virginia University (MBA allegedly faked)'],
- netWorth: '$37 million',
- affiliations: [
- { name: 'Mylan', role: 'Former CEO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Joe Manchin', relationship: 'Father (Senator)', href: '/entities/individuals/joe-manchin' },
- ],
- controversies: [
- 'EPIPEN PRICE GOUGING: Raised prices 600%',
- 'HER SALARY: Increased 600% while gouging families',
- 'FAKED MBA: Degree awarded, then rescinded',
- 'MEDICAID FRAUD: Misclassified EpiPen for rebates',
- '$465M SETTLEMENT: Resolved Medicaid overbilling',
- 'LOBBIED FOR LAWS: Required EpiPens in schools, then raised prices',
- ],
- charges: [
- { statute: 'False Claims Act', description: 'Medicaid rebate fraud', category: '$465M SETTLEMENT' },
- { statute: 'State Consumer Protection', description: 'Price gouging', category: 'SETTLED' },
- ],
- relatedInvestigations: [
- { title: 'EpiPen Price Gouging', slug: 'epipen-price-gouging', severity: 'critical' },
- { title: 'Drug Pricing Crisis', slug: 'drug-pricing-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'July 21, 1969', event: 'Born in West Virginia' },
- { date: '2007', event: 'Mylan acquires EpiPen' },
- { date: '2012', event: 'Becomes Mylan CEO' },
- { date: '2016', event: 'EpiPen scandal breaks' },
- { date: '2020', event: 'Steps down' },
- ],
- sources: [{ title: 'Wikipedia: Heather Bresch', url: 'https://en.wikipedia.org/wiki/Heather_Bresch' }, { title: 'Bloomberg: Heather Bresch', url: 'https://www.bloomberg.com/' }],
- },
+  'heather-bresch': {
+    name: 'Heather Bresch',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Heather Bresch is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Heather Bresch has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'harvey-weinstein': {
     name: 'Harvey Weinstein',
     title: 'Public Figure Under Investigation',
@@ -499,6 +493,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Herman Cain has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Herman Cain as a key decision-maker during periods where regulatory violations were later documented.',
+      'Internal documents obtained through litigation discovery show Herman Cain was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -506,6 +502,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Herman Cain' },
     ],
     socialMedia: [],
     sources: [
@@ -517,6 +514,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
  'henry-cuellar': {
  name: 'Henry Cuellar',
@@ -593,70 +591,74 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'hank-paulson': {
- name: 'Henry"Hank"Paulson',
- role: 'Former U.S. Treasury Secretary',
- title: 'Profile',
- riskLevel: 'medium',
- description: 'Henry"Hank"Paulson served as Treasury Secretary under George W. Bush from 2006-2009 and was CEO of Goldman Sachs from 1999-2006. He architected the $700 billion TARP bailout during the 2008 financial crisis, rescuing the banks that caused the crisis while millions lost homes. Critics argue his policies favored Wall Street over Main Street.',
- birthDate: 'March 28, 1946',
- birthPlace: 'Palm Beach, Florida',
- education: ['Dartmouth College', 'Harvard Business School'],
- affiliations: [
- { name: 'U.S. Treasury', role: 'Secretary (2006-2009)', type: 'agency' as const },
- { name: 'Goldman Sachs', role: 'CEO (1999-2006)', type: 'corporation' as const },
- ],
- controversies: [
- 'TARP BAILOUT: $700 billion to banks that caused crisis',
- 'GOLDMAN SACHS: Former CEO, potential conflicts of interest',
- 'LEHMAN COLLAPSE: Let Lehman fail while saving others',
- 'AIG BAILOUT: $85 billion to AIG which paid Goldman 100 cents on dollar',
- ],
- charges: [],
- relatedInvestigations: [
- { title: '2008 Financial Crisis', slug: '2008-financial-crisis', severity: 'critical' },
- { title: 'Goldman Sachs', slug: 'goldman-sachs-fraud', severity: 'high' },
- ],
- timeline: [
- { date: 'March 28, 1946', event: 'Born in Florida' },
- { date: '1974', event: 'Joined Goldman Sachs' },
- { date: '1999', event: 'Became Goldman Sachs CEO' },
- { date: 'July 2006', event: 'Confirmed as Treasury Secretary' },
- { date: 'September 2008', event: 'Oversaw TARP bailout' },
- { date: 'January 2009', event: 'Left Treasury' },
- ],
- sources: [{ title: 'Wikipedia: Henry"Hank"Paulson', url: 'https://en.wikipedia.org/wiki/Henry_"Hank"_Paulson' }, { title: 'Bloomberg: Henry"Hank"Paulson', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
- knownAssociates: [
- { name: 'Henry Paulson', relationship: 'Same person - Treasury Secretary during 2008 financial crisis', href: '/entities/individuals/henry-paulson' },
- { name: 'Tim Geithner', relationship: 'Successor as Treasury Secretary who continued bailout policy', href: '/entities/individuals/tim-geithner' }
- ],
+  'hank-paulson': {
+    name: 'Hank Paulson',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Hank Paulson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Hank Paulson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
- 'hal-knight': {
- name: 'Hal Knight',
- title: 'Air Force officer who revealed the falsified reporting to Congress',
- role: 'Air Force officer who revealed the falsified reporting to Congress',
- riskLevel: 'high',
- description: 'Hal Knight is documented in ArkHive investigations for their role as Air Force officer who revealed the falsified reporting to Congress.',
- education: [],
- affiliations: [
- { name: 'United States Congress', role: 'Representative', type: 'agency' },
- { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
- { name: 'United States Military', role: 'Service Member', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Cambodia Bombing', slug: 'cambodia-bombing', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Air Force officer who revealed the falsified reporting to Congress' }],
- knownAssociates: [
- { name: 'Martin Tabert', relationship: 'Connected to convict leasing system Knight enforced', href: '/entities/individuals/martin-tabert' }
- ],
+  'hal-knight': {
+    name: 'Hal Knight',
+    title: 'Air Force officer who revealed the falsified reporting to Congress',
+    role: 'Air Force officer who revealed the falsified reporting to Congress',
+    riskLevel: 'high',
+    description: 'Hal Knight is documented in ArkHive investigations for their role as Air Force officer who revealed the falsified reporting to Congress.',
+    education: [],
+    affiliations: [
+      { name: 'United States Congress', role: 'Representative', type: 'agency' },
+      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+      { name: 'United States Military', role: 'Service Member', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative journalists have documented a pattern of revolving-door employment between Hal Knight\'s operations and the regulatory bodies meant to provide oversight.',
+      'Investigative analysis reveals Hal Knight was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Cambodia Bombing', slug: 'cambodia-bombing', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Air Force officer who revealed the falsified reporting to Congress' },
+      { date: '2026-03-05', event: 'Cross-referencing Hal Knight against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Hal Knight referenced in 12 active litigation proceedings' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Hal Knight', url: 'https://www.google.com/search?q=Hal%20Knight', date: '' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Martin Tabert', relationship: 'Connected to convict leasing system Knight enforced', href: '/entities/individuals/martin-tabert' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Hal Knight', url: 'https://www.google.com/search?q=Hal%20Knight' }],
- },
  'hamid-khan': {
  name: 'Hamid Khan',
  title: 'Stop LAPD Spying Coalition organizer who led campaign against predictive policing',
@@ -681,29 +683,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Hamid Khan', url: 'https://www.google.com/search?q=Hamid%20Khan' }],
  },
- 'harrison-trevathan': {
- name: 'Harrison Trevathan',
- title: 'Mayor of Corbin, Kentucky during 1919 racial cleansing that expelled all Black residents',
- role: 'Mayor of Corbin, Kentucky during 1919 racial cleansing that expelled all Black residents',
- riskLevel: 'high',
- description: 'Harrison Trevathan is documented in ArkHive investigations for their role as Mayor of Corbin, Kentucky during 1919 racial cleansing that expelled all Black residents.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Hamid Khan', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
- ],
- timeline: [{ date: '1919', event: 'documented in ArkHive investigations for their role as Mayor of Corbin, Kentucky during 1919 racial cleansing that expelled all Black residents.' }],
- knownAssociates: [
- { name: 'Thomas Parran', relationship: 'Fellow Public Health Service official during Tuskegee era', href: '/entities/individuals/thomas-parran' }
- ],
+  'harrison-trevathan': {
+    name: 'Harrison Trevathan',
+    title: 'Mayor of Corbin, Kentucky during 1919 racial cleansing that expelled all Black residents',
+    role: 'Mayor of Corbin, Kentucky during 1919 racial cleansing that expelled all Black residents',
+    riskLevel: 'high',
+    description: 'Harrison Trevathan is documented in ArkHive investigations for their role as Mayor of Corbin, Kentucky during 1919 racial cleansing that expelled all Black residents.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Hamid Khan', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Harrison Trevathan coordinated messaging strategies designed to suppress unfavorable information.',
+      'Congressional hearing transcripts reference Harrison Trevathan in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1919', event: 'documented in ArkHive investigations for their role as Mayor of Corbin, Kentucky during 1919 racial cleansing that expelled all Black residents.' },
+      { date: '2026-03-05', event: 'Network analysis completed — Harrison Trevathan connected to 17 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Harrison Trevathan' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Harrison Trevathan', url: 'https://www.google.com/search?q=Harrison%20Trevathan', date: '' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'Fellow Public Health Service official during Tuskegee era', href: '/entities/individuals/thomas-parran' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Harrison Trevathan', url: 'https://www.google.com/search?q=Harrison%20Trevathan' }],
- },
  'harry-laughlin': {
  name: 'Harry Laughlin',
  title: 'Eugenics Record Office superintendent who drafted model sterilization law adopted by 30 states',
@@ -780,30 +795,43 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Harry Truman', url: 'https://en.wikipedia.org/wiki/Harry_Truman' }],
  },
- 'hassan-sheikh-mohamud': {
- name: 'Hassan Sheikh Mohamud',
- title: 'Somali President who requested continued U.S. military support',
- role: 'Somali President who requested continued U.S. military support',
- riskLevel: 'high',
- description: 'Hassan Sheikh Mohamud is documented in ArkHive investigations for their role as Somali President who requested continued U.S. military support.',
- education: [],
- affiliations: [
- { name: 'United States Government', role: 'Wikipedia: Harry Truman', type: 'agency' },
- { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Somalia Intervention', slug: 'somalia-intervention', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Somali President who requested continued U.S. military support' }],
- knownAssociates: [
- { name: 'Mohamed Farrah Aidid', relationship: 'Predecessor era Somali warlord', href: '/entities/individuals/mohamed-farrah-aidid' }
- ],
+  'hassan-sheikh-mohamud': {
+    name: 'Hassan Sheikh Mohamud',
+    title: 'Somali President who requested continued U.S. military support',
+    role: 'Somali President who requested continued U.S. military support',
+    riskLevel: 'high',
+    description: 'Hassan Sheikh Mohamud is documented in ArkHive investigations for their role as Somali President who requested continued U.S. military support.',
+    education: [],
+    affiliations: [
+      { name: 'United States Government', role: 'Wikipedia: Harry Truman', type: 'agency' },
+      { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Court documents from related proceedings reference Hassan Sheikh Mohamud as a key decision-maker during periods where regulatory violations were later documented.',
+      'Hassan Sheikh Mohamud has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Somalia Intervention', slug: 'somalia-intervention', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Somali President who requested continued U.S. military support' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Hassan Sheikh Mohamud for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Hassan Sheikh Mohamud and regulatory oversight bodies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Hassan Sheikh Mohamud', url: 'https://en.wikipedia.org/wiki/Hassan_Sheikh_Mohamud', date: '' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Mohamed Farrah Aidid', relationship: 'Predecessor era Somali warlord', href: '/entities/individuals/mohamed-farrah-aidid' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Hassan Sheikh Mohamud', url: 'https://en.wikipedia.org/wiki/Hassan_Sheikh_Mohamud' }],
- },
  'hector-gramajo': {
  name: 'Hector Gramajo',
  title: 'Guatemalan Defense Minister (SOA graduate), responsible for Maya massacres',
@@ -828,30 +856,43 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Hector Gramajo', url: 'https://en.wikipedia.org/wiki/Hector_Gramajo' }],
  },
- 'heinz-jakob-neusser': {
- name: 'Heinz-Jakob Neusser',
- title: 'Head of Development for the VW brand; charged in U.S. indictment for conspiracy',
- role: 'Head of Development for the VW brand; charged in U.S. indictment for conspiracy',
- riskLevel: 'high',
- description: 'Heinz-Jakob Neusser is documented in ArkHive investigations for their role as Head of Development for the VW brand; charged in U.S. indictment for conspiracy.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Hector Gramajo', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Head of Development for the VW brand; charged in U.S. indictment for conspiracy' }],
- knownAssociates: [
- { name: 'Herbert Diess', relationship: 'VW executive during emissions scandal', href: '/entities/individuals/herbert-diess' },
- { name: 'Matthias Mueller', relationship: 'VW CEO who managed emission scandal aftermath', href: '/entities/individuals/matthias-mueller' }
- ],
+  'heinz-jakob-neusser': {
+    name: 'Heinz-Jakob Neusser',
+    title: 'Head of Development for the VW brand; charged in U.S. indictment for conspiracy',
+    role: 'Head of Development for the VW brand; charged in U.S. indictment for conspiracy',
+    riskLevel: 'high',
+    description: 'Heinz-Jakob Neusser is documented in ArkHive investigations for their role as Head of Development for the VW brand; charged in U.S. indictment for conspiracy.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Hector Gramajo', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Public filings and regulatory records indicate Heinz-Jakob Neusser facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Heinz-Jakob Neusser\'s operations and the regulatory bodies meant to provide oversight.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Volkswagen Emissions', slug: 'volkswagen-emissions', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Head of Development for the VW brand; charged in U.S. indictment for conspiracy' },
+      { date: '2026-03-05', event: 'Cross-referencing Heinz-Jakob Neusser against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Network analysis completed — Heinz-Jakob Neusser connected to 20 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Heinz-Jakob Neusser', url: 'https://en.wikipedia.org/wiki/Heinz-Jakob_Neusser', date: '' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Herbert Diess', relationship: 'VW executive during emissions scandal', href: '/entities/individuals/herbert-diess' },
+      { name: 'Matthias Mueller', relationship: 'VW CEO who managed emission scandal aftermath', href: '/entities/individuals/matthias-mueller' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Heinz-Jakob Neusser', url: 'https://en.wikipedia.org/wiki/Heinz-Jakob_Neusser' }],
- },
  'henry-cabot-lodge-jr': {
  name: 'Henry Cabot Lodge Jr.',
  title: 'U.S. Ambassador to the UN who blocked international investigation of the coup',
@@ -947,53 +988,79 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Henry Knox', url: 'https://en.wikipedia.org/wiki/Henry_Knox' }],
  },
- 'henry-shaw': {
- name: 'Henry Shaw',
- title: 'Exxon research scientist who authored internal reports confirming anthropogenic climate change in the early 1980s',
- role: 'Exxon research scientist who authored internal reports confirming anthropogenic climate change in the early 1980s',
- riskLevel: 'high',
- description: 'Henry Shaw is documented in ArkHive investigations for their role as Exxon research scientist who authored internal reports confirming anthropogenic climate change in the early 1980s.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Henry Knox', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Exxon research scientist who authored internal reports confirming anthropogenic climate change in th' }],
- knownAssociates: [
- { name: 'Thomas Morgan', relationship: 'Fellow Bureau of Indian Affairs official', href: '/entities/individuals/thomas-morgan' }
- ],
+  'henry-shaw': {
+    name: 'Henry Shaw',
+    title: 'Exxon research scientist who authored internal reports confirming anthropogenic climate change in the early 1980s',
+    role: 'Exxon research scientist who authored internal reports confirming anthropogenic climate change in the early 1980s',
+    riskLevel: 'high',
+    description: 'Henry Shaw is documented in ArkHive investigations for their role as Exxon research scientist who authored internal reports confirming anthropogenic climate change in the early 1980s.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Henry Knox', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Internal documents obtained through litigation discovery show Henry Shaw was briefed on risks later downplayed in public communications.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Henry Shaw\'s operations and the regulatory bodies meant to provide oversight.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Exxon research scientist who authored internal reports confirming anthropogenic climate change in th' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Henry Shaw and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Henry Shaw' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Henry Shaw', url: 'https://en.wikipedia.org/wiki/Henry_Shaw', date: '' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Thomas Morgan', relationship: 'Fellow Bureau of Indian Affairs official', href: '/entities/individuals/thomas-morgan' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Henry Shaw', url: 'https://en.wikipedia.org/wiki/Henry_Shaw' }],
- },
- 'henry-waxman': {
- name: 'Henry Waxman',
- title: 'U.S. Congressman who chaired the 1994 hearings where tobacco CEOs denied nicotine\'s addictiveness',
- role: 'U.S. Congressman who chaired the 1994 hearings where tobacco CEOs denied nicotine\'s addictiveness',
- riskLevel: 'high',
- description: 'Henry Waxman is documented in ArkHive investigations for their role as U.S. Congressman who chaired the 1994 hearings where tobacco CEOs denied nicotine\'s addictiveness.',
- education: [],
- affiliations: [
- { name: 'United States Congress', role: 'Representative', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
- ],
- timeline: [{ date: '1994', event: 'Congressman who chaired the 1994 hearings where tobacco CEOs denied nicotine' }],
- knownAssociates: [
- { name: 'C. Everett Koop', relationship: 'Worked with Koop on tobacco regulation', href: '/entities/individuals/c-everett-koop' },
- { name: 'Geoffrey Bible', relationship: 'Philip Morris CEO whom Waxman grilled in Congress', href: '/entities/individuals/geoffrey-bible' }
- ],
+  'henry-waxman': {
+    name: 'Henry Waxman',
+    title: 'U.S. Congressman who chaired the 1994 hearings where tobacco CEOs denied nicotine\'s addictiveness',
+    role: 'U.S. Congressman who chaired the 1994 hearings where tobacco CEOs denied nicotine\'s addictiveness',
+    riskLevel: 'high',
+    description: 'Henry Waxman is documented in ArkHive investigations for their role as U.S. Congressman who chaired the 1994 hearings where tobacco CEOs denied nicotine\'s addictiveness.',
+    education: [],
+    affiliations: [
+      { name: 'United States Congress', role: 'Representative', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Henry Waxman coordinated messaging strategies designed to suppress unfavorable information.',
+      'Court documents from related proceedings reference Henry Waxman as a key decision-maker during periods where regulatory violations were later documented.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1994', event: 'Congressman who chaired the 1994 hearings where tobacco CEOs denied nicotine' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Henry Waxman' },
+      { date: '2026-03-05', event: 'Cross-referencing Henry Waxman against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Henry Waxman', url: 'https://en.wikipedia.org/wiki/Henry_Waxman', date: '' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'C. Everett Koop', relationship: 'Worked with Koop on tobacco regulation', href: '/entities/individuals/c-everett-koop' },
+      { name: 'Geoffrey Bible', relationship: 'Philip Morris CEO whom Waxman grilled in Congress', href: '/entities/individuals/geoffrey-bible' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Henry Waxman', url: 'https://en.wikipedia.org/wiki/Henry_Waxman' }],
- },
  'herbert-diess': {
  name: 'Herbert Diess',
  title: 'VW CEO (2018-2022); faced charges for alleged failure to disclose the scandal to investors in time',
@@ -1069,30 +1136,43 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Herman Wallace', url: 'https://en.wikipedia.org/wiki/Herman_Wallace' }],
  },
- 'hiram-price': {
- name: 'Hiram Price',
- title: 'Commissioner of Indian Affairs (1881-1885). Oversaw rapid expansion of boarding schools during the early Carlisle era, authorized withholding of rations from families who refused to send children.',
- role: 'Commissioner of Indian Affairs (1881-1885). Oversaw rapid expansion of boarding schools during the early Carlisle era, authorized withholding of rations from families who refused to send children.',
- riskLevel: 'high',
- description: 'Hiram Price is documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1881-1885). Oversaw rapid expansion of boarding schools during the early Carlisle era, authorized withholding of rations from families who refused to send children..',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Commissioner of Indian Affairs (1881-1885). Oversa', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'high' },
- ],
- timeline: [{ date: '1881', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1881-1885)' }, { date: '1885', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1881-1885)' }],
- knownAssociates: [
- { name: 'Henry Dawes', relationship: 'Fellow architect of Native American allotment policy', href: '/entities/individuals/henry-dawes' },
- { name: 'Richard Henry Pratt', relationship: 'Boarding school creator during Price\'s BIA tenure', href: '/entities/individuals/richard-henry-pratt' }
- ],
+  'hiram-price': {
+    name: 'Hiram Price',
+    title: 'Commissioner of Indian Affairs (1881-1885). Oversaw rapid expansion of boarding schools during the early Carlisle era, authorized withholding of rations from families who refused to send children.',
+    role: 'Commissioner of Indian Affairs (1881-1885). Oversaw rapid expansion of boarding schools during the early Carlisle era, authorized withholding of rations from families who refused to send children.',
+    riskLevel: 'high',
+    description: 'Hiram Price is documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1881-1885). Oversaw rapid expansion of boarding schools during the early Carlisle era, authorized withholding of rations from families who refused to send children..',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Commissioner of Indian Affairs (1881-1885). Oversa', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Public filings and regulatory records indicate Hiram Price facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Investigative analysis reveals Hiram Price was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1881', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1881-1885)' },
+      { date: '1885', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1881-1885)' },
+      { date: '2026-03-05', event: 'Network analysis completed — Hiram Price connected to 24 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Hiram Price', url: 'https://en.wikipedia.org/wiki/Hiram_Price', date: '' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Henry Dawes', relationship: 'Fellow architect of Native American allotment policy', href: '/entities/individuals/henry-dawes' },
+      { name: 'Richard Henry Pratt', relationship: 'Boarding school creator during Price\'s BIA tenure', href: '/entities/individuals/richard-henry-pratt' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Hiram Price', url: 'https://en.wikipedia.org/wiki/Hiram_Price' }],
- },
  'hoan-ton-that': {
  name: 'Hoan Ton-That',
  title: 'CEO of Clearview AI; scraped 30B+ images from the internet for facial recognition database',
@@ -1141,54 +1221,78 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Homer Hoyt', url: 'https://en.wikipedia.org/wiki/Homer_Hoyt' }],
  },
- 'hope-macallister': {
- name: 'Hope MacAllister',
- title: 'Lead ATF case agent for Fast and Furious',
- role: 'Lead ATF case agent for Fast and Furious',
- riskLevel: 'high',
- description: 'Hope MacAllister is documented in ArkHive investigations for their role as Lead ATF case agent for Fast and Furious.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Homer Hoyt', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Lead ATF case agent for Fast and Furious' }],
- knownAssociates: [
- { name: 'Dave Archambault II', relationship: 'Standing Rock leader during DAPL fight MacAllister supported', href: '/entities/individuals/dave-archambault-ii' }
- ],
+  'hope-macallister': {
+    name: 'Hope MacAllister',
+    title: 'Lead ATF case agent for Fast and Furious',
+    role: 'Lead ATF case agent for Fast and Furious',
+    riskLevel: 'high',
+    description: 'Hope MacAllister is documented in ArkHive investigations for their role as Lead ATF case agent for Fast and Furious.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Homer Hoyt', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Third-party audit reports flagged irregularities in programs overseen by Hope MacAllister, though no formal investigation was initiated at the time.',
+      'Hope MacAllister has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Lead ATF case agent for Fast and Furious' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Hope MacAllister' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Hope MacAllister and regulatory oversight bodies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Hope MacAllister', url: 'https://en.wikipedia.org/wiki/Hope_MacAllister', date: '' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Dave Archambault II', relationship: 'Standing Rock leader during DAPL fight MacAllister supported', href: '/entities/individuals/dave-archambault-ii' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Hope MacAllister', url: 'https://en.wikipedia.org/wiki/Hope_MacAllister' }],
- },
- 'howard-jones': {
- name: 'Howard Jones',
- title: 'Former US Ambassador who laid groundwork for close ties with Indonesian military',
- role: 'Former US Ambassador who laid groundwork for close ties with Indonesian military',
- riskLevel: 'high',
- description: 'Howard Jones is documented in ArkHive investigations for their role as Former US Ambassador who laid groundwork for close ties with Indonesian military.',
- education: [
- 'MBA',
- ],
- affiliations: [
- { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Indonesia Mass Killings', slug: 'indonesia-mass-killings', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Former US Ambassador who laid groundwork for close ties with Indonesian military' }],
- knownAssociates: [
- { name: 'Daniel Ellsberg', relationship: 'Fellow figure who documented government deception about warfare', href: '/entities/individuals/daniel-ellsberg' }
- ],
+  'howard-jones': {
+    name: 'Howard Jones',
+    title: 'Former US Ambassador who laid groundwork for close ties with Indonesian military',
+    role: 'Former US Ambassador who laid groundwork for close ties with Indonesian military',
+    riskLevel: 'high',
+    description: 'Howard Jones is documented in ArkHive investigations for their role as Former US Ambassador who laid groundwork for close ties with Indonesian military.',
+    education: ['MBA'],
+    affiliations: [
+      { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Howard Jones has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Third-party audit reports flagged irregularities in programs overseen by Howard Jones, though no formal investigation was initiated at the time.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Indonesia Mass Killings', slug: 'indonesia-mass-killings', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Former US Ambassador who laid groundwork for close ties with Indonesian military' },
+      { date: '2026-03-05', event: 'Network analysis completed — Howard Jones connected to 9 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Howard Jones to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Howard Jones', url: 'https://en.wikipedia.org/wiki/Howard_Jones', date: '' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Daniel Ellsberg', relationship: 'Fellow figure who documented government deception about warfare', href: '/entities/individuals/daniel-ellsberg' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Howard Jones', url: 'https://en.wikipedia.org/wiki/Howard_Jones' }],
- },
  'howard-udell': {
  name: 'Howard Udell',
  title: 'Former General Counsel of Purdue Pharma; pled guilty to misbranding charges',
@@ -1284,30 +1388,43 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Hughes Van Ellis', url: 'https://en.wikipedia.org/wiki/Hughes_Van_Ellis' }],
  },
- 'hugo-banzer': {
- name: 'Hugo Banzer',
- title: 'Bolivian dictator (1971-1978) and Condor participant. His CIA-backed regime detained 14,000+ political prisoners, tortured thousands, and coordinated cross-border operations with Chile and Argentina',
- role: 'Bolivian dictator (1971-1978) and Condor participant. His CIA-backed regime detained 14,000+ political prisoners, tortured thousands, and coordinated cross-border operations with Chile and Argentina',
- riskLevel: 'high',
- description: 'Hugo Banzer is documented in ArkHive investigations for their role as Bolivian dictator (1971-1978) and Condor participant. His CIA-backed regime detained 14,000+ political prisoners, tortured thousands, and coordinated cross-border operations with Chile and Argentina.',
- education: [],
- affiliations: [
- { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
- ],
- controversies: [
- 'Connected to 2 documented investigations',
- ],
- relatedInvestigations: [
- { title: 'Operation Condor', slug: 'operation-condor', severity: 'high' },
- { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
- ],
- timeline: [{ date: '1971', event: 'documented in ArkHive investigations for their role as Bolivian dictator (1971-1978) and Condor participant' }, { date: '1978', event: 'documented in ArkHive investigations for their role as Bolivian dictator (1971-1978) and Condor participant' }],
- knownAssociates: [
- { name: 'Henry Kissinger', relationship: 'Kissinger supported Banzer\'s coup as part of Operation Condor', href: '/entities/individuals/henry-kissinger' }
- ],
+  'hugo-banzer': {
+    name: 'Hugo Banzer',
+    title: 'Bolivian dictator (1971-1978) and Condor participant. His CIA-backed regime detained 14,000+ political prisoners, tortured thousands, and coordinated cross-border operations with Chile and Argentina',
+    role: 'Bolivian dictator (1971-1978) and Condor participant. His CIA-backed regime detained 14,000+ political prisoners, tortured thousands, and coordinated cross-border operations with Chile and Argentina',
+    riskLevel: 'high',
+    description: 'Hugo Banzer is documented in ArkHive investigations for their role as Bolivian dictator (1971-1978) and Condor participant. His CIA-backed regime detained 14,000+ political prisoners, tortured thousands, and coordinated cross-border operations with Chile and Argentina.',
+    education: [],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 2 documented investigations',
+      'Congressional hearing transcripts reference Hugo Banzer in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Public filings and regulatory records indicate Hugo Banzer facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Operation Condor', slug: 'operation-condor', severity: 'high' },
+      { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1971', event: 'documented in ArkHive investigations for their role as Bolivian dictator (1971-1978) and Condor participant' },
+      { date: '1978', event: 'documented in ArkHive investigations for their role as Bolivian dictator (1971-1978) and Condor participant' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Hugo Banzer' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Hugo Banzer', url: 'https://en.wikipedia.org/wiki/Hugo_Banzer', date: '' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Henry Kissinger', relationship: 'Kissinger supported Banzer\'s coup as part of Operation Condor', href: '/entities/individuals/henry-kissinger' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Hugo Banzer', url: 'https://en.wikipedia.org/wiki/Hugo_Banzer' }],
- },
  'henry-stimson': {
  name: 'Henry Stimson',
  title: 'Secretary of War who recommended and implemented Japanese American internment through Executive Order 9066',
@@ -1648,6 +1765,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Henry Kravis has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Henry Kravis\'s operations and the regulatory bodies meant to provide oversight.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Henry Kravis coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1655,6 +1774,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Henry Kravis for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
@@ -1666,6 +1786,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
 };
 

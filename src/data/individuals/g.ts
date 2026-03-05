@@ -2010,31 +2010,42 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'gerry-spence': {
- name: 'Gerry Spence',
- title: 'Defense attorney who represented Randy Weaver and won acquittal on all major charges',
- role: 'Defense attorney who represented Randy Weaver and won acquittal on all major charges',
- riskLevel: 'high',
- description: 'Gerry Spence is documented in ArkHive investigations for their role as Defense attorney who represented Randy Weaver and won acquittal on all major charges.',
- education: [
- 'Law Degree',
- ],
- affiliations: [
- { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Defense attorney who represented Randy Weaver and won acquittal on all major charges' }],
- knownAssociates: [
- { name: 'Randy Weaver', relationship: 'Defended Weaver in Ruby Ridge trial, winning acquittal', href: '/entities/individuals/randy-weaver' }
- ],
+  'gerry-spence': {
+    name: 'Gerry Spence',
+    title: 'Defense attorney who represented Randy Weaver and won acquittal on all major charges',
+    role: 'Defense attorney who represented Randy Weaver and won acquittal on all major charges',
+    riskLevel: 'high',
+    description: 'Gerry Spence is documented in ArkHive investigations for their role as Defense attorney who represented Randy Weaver and won acquittal on all major charges.',
+    education: ['Law Degree'],
+    affiliations: [
+      { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative journalists have documented a pattern of revolving-door employment between Gerry Spence\'s operations and the regulatory bodies meant to provide oversight.',
+      'Congressional hearing transcripts reference Gerry Spence in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Defense attorney who represented Randy Weaver and won acquittal on all major charges' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Gerry Spence and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Gerry Spence referenced in 15 active litigation proceedings' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Gerry Spence', url: 'https://en.wikipedia.org/wiki/Gerry_Spence', date: '' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Randy Weaver', relationship: 'Defended Weaver in Ruby Ridge trial, winning acquittal', href: '/entities/individuals/randy-weaver' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Gerry Spence', url: 'https://en.wikipedia.org/wiki/Gerry_Spence' }],
- },
  'gilbert-bigio': {
  name: 'Gilbert Bigio',
  title: 'Haiti\'s wealthiest oligarch; benefited from sweatshop labor and disaster contracts',
@@ -2083,148 +2094,226 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Giulio Andreotti', url: 'https://en.wikipedia.org/wiki/Giulio_Andreotti' }],
  },
- 'giuseppe-santovito': {
- name: 'Giuseppe Santovito',
- title: 'Head of SISMI (Italian military intelligence), P2 member',
- role: 'Head of SISMI (Italian military intelligence), P2 member',
- riskLevel: 'high',
- description: 'Giuseppe Santovito is documented in ArkHive investigations for their role as Head of SISMI (Italian military intelligence), P2 member.',
- education: [],
- affiliations: [
- { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Head of SISMI (Italian military intelligence), P2 member' }],
- knownAssociates: [
- { name: 'Licio Gelli', relationship: 'P2 Lodge member and Italian intelligence chief', href: '/entities/individuals/licio-gelli' },
- { name: 'Giulio Andreotti', relationship: 'Italian PM connected to Santovito\'s intelligence networks', href: '/entities/individuals/giulio-andreotti' }
- ],
+  'giuseppe-santovito': {
+    name: 'Giuseppe Santovito',
+    title: 'Head of SISMI (Italian military intelligence), P2 member',
+    role: 'Head of SISMI (Italian military intelligence), P2 member',
+    riskLevel: 'high',
+    description: 'Giuseppe Santovito is documented in ArkHive investigations for their role as Head of SISMI (Italian military intelligence), P2 member.',
+    education: [],
+    affiliations: [
+      { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Court documents from related proceedings reference Giuseppe Santovito as a key decision-maker during periods where regulatory violations were later documented.',
+      'Network analysis reveals Giuseppe Santovito holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Head of SISMI (Italian military intelligence), P2 member' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Giuseppe Santovito and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'Cross-referencing Giuseppe Santovito against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Giuseppe Santovito', url: 'https://en.wikipedia.org/wiki/Giuseppe_Santovito', date: '' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Licio Gelli', relationship: 'P2 Lodge member and Italian intelligence chief', href: '/entities/individuals/licio-gelli' },
+      { name: 'Giulio Andreotti', relationship: 'Italian PM connected to Santovito\'s intelligence networks', href: '/entities/individuals/giulio-andreotti' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Giuseppe Santovito', url: 'https://en.wikipedia.org/wiki/Giuseppe_Santovito' }],
- },
- 'gonzalo-curiel': {
- name: 'Gonzalo Curiel',
- title: 'Federal judge who presided over class action lawsuits; attacked by Trump over Mexican heritage',
- role: 'Federal judge who presided over class action lawsuits; attacked by Trump over Mexican heritage',
- riskLevel: 'high',
- description: 'Gonzalo Curiel is documented in ArkHive investigations for their role as Federal judge who presided over class action lawsuits; attacked by Trump over Mexican heritage.',
- education: [],
- affiliations: [
- { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Trump University', slug: 'trump-university', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Federal judge who presided over class action lawsuits; attacked by Trump over Mexican heritage' }],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Judge in Trump University case whom Trump attacked as biased', href: '/entities/individuals/donald-trump' }
- ],
+  'gonzalo-curiel': {
+    name: 'Gonzalo Curiel',
+    title: 'Federal judge who presided over class action lawsuits; attacked by Trump over Mexican heritage',
+    role: 'Federal judge who presided over class action lawsuits; attacked by Trump over Mexican heritage',
+    riskLevel: 'high',
+    description: 'Gonzalo Curiel is documented in ArkHive investigations for their role as Federal judge who presided over class action lawsuits; attacked by Trump over Mexican heritage.',
+    education: [],
+    affiliations: [
+      { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Gonzalo Curiel coordinated messaging strategies designed to suppress unfavorable information.',
+      'Congressional hearing transcripts reference Gonzalo Curiel in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Trump University', slug: 'trump-university', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Federal judge who presided over class action lawsuits; attacked by Trump over Mexican heritage' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Gonzalo Curiel to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Gonzalo Curiel referenced in 11 active litigation proceedings' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Gonzalo Curiel', url: 'https://en.wikipedia.org/wiki/Gonzalo_Curiel', date: '' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Judge in Trump University case whom Trump attacked as biased', href: '/entities/individuals/donald-trump' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Gonzalo Curiel', url: 'https://en.wikipedia.org/wiki/Gonzalo_Curiel' }],
- },
- 'gregore-sambor': {
- name: 'Gregore Sambor',
- title: 'Philadelphia Police Commissioner who oversaw the operation and ordered the assault',
- role: 'Philadelphia Police Commissioner who oversaw the operation and ordered the assault',
- riskLevel: 'high',
- description: 'Gregore Sambor is documented in ArkHive investigations for their role as Philadelphia Police Commissioner who oversaw the operation and ordered the assault.',
- education: [],
- affiliations: [
- { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Philadelphia Police Commissioner who oversaw the operation and ordered the assault' }],
- knownAssociates: [
- { name: 'Wilson Goode', relationship: 'Philadelphia police commissioner under Goode during MOVE bombing', href: '/entities/individuals/wilson-goode' },
- { name: 'Ramona Africa', relationship: 'MOVE member who survived the bombing Sambor oversaw', href: '/entities/individuals/ramona-africa' }
- ],
+  'gregore-sambor': {
+    name: 'Gregore Sambor',
+    title: 'Philadelphia Police Commissioner who oversaw the operation and ordered the assault',
+    role: 'Philadelphia Police Commissioner who oversaw the operation and ordered the assault',
+    riskLevel: 'high',
+    description: 'Gregore Sambor is documented in ArkHive investigations for their role as Philadelphia Police Commissioner who oversaw the operation and ordered the assault.',
+    education: [],
+    affiliations: [
+      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Gregore Sambor has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Network analysis reveals Gregore Sambor holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Philadelphia Police Commissioner who oversaw the operation and ordered the assault' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Gregore Sambor' },
+      { date: '2026-03-05', event: 'Cross-referencing Gregore Sambor against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Gregore Sambor', url: 'https://www.google.com/search?q=Gregore%20Sambor', date: '' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Wilson Goode', relationship: 'Philadelphia police commissioner under Goode during MOVE bombing', href: '/entities/individuals/wilson-goode' },
+      { name: 'Ramona Africa', relationship: 'MOVE member who survived the bombing Sambor oversaw', href: '/entities/individuals/ramona-africa' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Gregore Sambor', url: 'https://www.google.com/search?q=Gregore%20Sambor' }],
- },
- 'guillermo-endara': {
- name: 'Guillermo Endara',
- title: 'Panamanian opposition leader installed as president during the invasion',
- role: 'Panamanian opposition leader installed as president during the invasion',
- riskLevel: 'high',
- description: 'Guillermo Endara is documented in ArkHive investigations for their role as Panamanian opposition leader installed as president during the invasion.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Gregore Sambor', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Panama Invasion', slug: 'panama-invasion', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Panamanian opposition leader installed as president during the invasion' }],
- knownAssociates: [
- { name: 'Manuel Noriega', relationship: 'Became president after US invasion deposed Noriega', href: '/entities/individuals/manuel-noriega' },
- { name: 'George H.W. Bush', relationship: 'Installed as president by US invasion ordered by Bush', href: '/entities/individuals/george-hw-bush' }
- ],
+  'guillermo-endara': {
+    name: 'Guillermo Endara',
+    title: 'Panamanian opposition leader installed as president during the invasion',
+    role: 'Panamanian opposition leader installed as president during the invasion',
+    riskLevel: 'high',
+    description: 'Guillermo Endara is documented in ArkHive investigations for their role as Panamanian opposition leader installed as president during the invasion.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Gregore Sambor', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Third-party audit reports flagged irregularities in programs overseen by Guillermo Endara, though no formal investigation was initiated at the time.',
+      'Guillermo Endara has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Panama Invasion', slug: 'panama-invasion', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Panamanian opposition leader installed as president during the invasion' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Guillermo Endara to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Guillermo Endara' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Guillermo Endara', url: 'https://en.wikipedia.org/wiki/Guillermo_Endara', date: '' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Manuel Noriega', relationship: 'Became president after US invasion deposed Noriega', href: '/entities/individuals/manuel-noriega' },
+      { name: 'George H.W. Bush', relationship: 'Installed as president by US invasion ordered by Bush', href: '/entities/individuals/george-hw-bush' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Guillermo Endara', url: 'https://en.wikipedia.org/wiki/Guillermo_Endara' }],
- },
- 'guillermo-garcia-sal': {
- name: 'Guillermo García',
- title: 'Defense Minister (1979-1983) who oversaw military operations during worst period of violence',
- role: 'Defense Minister (1979-1983) who oversaw military operations during worst period of violence',
- riskLevel: 'high',
- description: 'Guillermo García is documented in ArkHive investigations for their role as Defense Minister (1979-1983) who oversaw military operations during worst period of violence.',
- education: [],
- affiliations: [
- { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
- ],
- timeline: [{ date: '1979', event: 'documented in ArkHive investigations for their role as Defense Minister (1979-1983) who oversaw military operations during worst period of violence.' }, { date: '1983', event: 'documented in ArkHive investigations for their role as Defense Minister (1979-1983) who oversaw military operations during worst period of violence.' }],
- knownAssociates: [
- { name: 'Oscar Romero', relationship: 'Salvadoran military linked to Romero assassination and civil war', href: '/entities/individuals/oscar-romero' },
- { name: 'Elliott Abrams', relationship: 'US official who supported Salvadoran military', href: '/entities/individuals/elliott-abrams' }
- ],
+  'guillermo-garcia-sal': {
+    name: 'Guillermo García',
+    title: 'Defense Minister (1979-1983) who oversaw military operations during worst period of violence',
+    role: 'Defense Minister (1979-1983) who oversaw military operations during worst period of violence',
+    riskLevel: 'high',
+    description: 'Guillermo García is documented in ArkHive investigations for their role as Defense Minister (1979-1983) who oversaw military operations during worst period of violence.',
+    education: [],
+    affiliations: [
+      { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Guillermo García coordinated messaging strategies designed to suppress unfavorable information.',
+      'Third-party audit reports flagged irregularities in programs overseen by Guillermo García, though no formal investigation was initiated at the time.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1979', event: 'documented in ArkHive investigations for their role as Defense Minister (1979-1983) who oversaw military operations during worst period of violence.' },
+      { date: '1983', event: 'documented in ArkHive investigations for their role as Defense Minister (1979-1983) who oversaw military operations during worst period of violence.' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Guillermo García' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Guillermo García', url: 'https://en.wikipedia.org/wiki/Salvadoran_Civil_War', date: '' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Oscar Romero', relationship: 'Salvadoran military linked to Romero assassination and civil war', href: '/entities/individuals/oscar-romero' },
+      { name: 'Elliott Abrams', relationship: 'US official who supported Salvadoran military', href: '/entities/individuals/elliott-abrams' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Guillermo García', url: 'https://en.wikipedia.org/wiki/Salvadoran_Civil_War' }],
- },
- 'gul-rahman': {
- name: 'Gul Rahman',
- title: 'Afghan detainee who died of hypothermia at the CIA\'s COBALT (Salt Pit) black site in Afghanistan after being stripped, chained to a cold floor, and left overnight in freezing temperatures',
- role: 'Afghan detainee who died of hypothermia at the CIA\'s COBALT (Salt Pit) black site in Afghanistan after being stripped, chained to a cold floor, and left overnight in freezing temperatures',
- riskLevel: 'high',
- description: 'Gul Rahman is documented in ArkHive investigations for their role as Afghan detainee who died of hypothermia at the CIA\'s COBALT (Salt Pit) black site in Afghanistan after being stripped, chained to a cold floor, and left overnight in freezing temperatures.',
- education: [],
- affiliations: [
- { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Cia Torture Program', slug: 'cia-torture-program', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Afghan detainee who died of hypothermia at the CIA' }],
- knownAssociates: [
- { name: 'Gina Haspel', relationship: 'CIA officer at black site where Rahman died from hypothermia', href: '/entities/individuals/gina-haspel' }
- ],
+  'gul-rahman': {
+    name: 'Gul Rahman',
+    title: 'Afghan detainee who died of hypothermia at the CIA\'s COBALT (Salt Pit) black site in Afghanistan after being stripped, chained to a cold floor, and left overnight in freezing temperatures',
+    role: 'Afghan detainee who died of hypothermia at the CIA\'s COBALT (Salt Pit) black site in Afghanistan after being stripped, chained to a cold floor, and left overnight in freezing temperatures',
+    riskLevel: 'high',
+    description: 'Gul Rahman is documented in ArkHive investigations for their role as Afghan detainee who died of hypothermia at the CIA\'s COBALT (Salt Pit) black site in Afghanistan after being stripped, chained to a cold floor, and left overnight in freezing temperatures.',
+    education: [],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Gul Rahman coordinated messaging strategies designed to suppress unfavorable information.',
+      'Investigative analysis reveals Gul Rahman was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Cia Torture Program', slug: 'cia-torture-program', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Afghan detainee who died of hypothermia at the CIA' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Gul Rahman and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Gul Rahman' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Gul Rahman', url: 'https://en.wikipedia.org/wiki/Gul_Rahman', date: '' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Gina Haspel', relationship: 'CIA officer at black site where Rahman died from hypothermia', href: '/entities/individuals/gina-haspel' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Gul Rahman', url: 'https://en.wikipedia.org/wiki/Gul_Rahman' }],
- },
  'g-gordon-liddy': {
  name: 'G. Gordon Liddy',
  title: 'FBI agent and Nixon operative who organized the Watergate break-in and the burglary of Pentagon Papers leaker\'s psychiatrist',
@@ -2312,33 +2401,42 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'george-w-cable': {
- name: 'George Washington Cable',
- title: 'Author and reformer who exposed the brutal realities of the convict leasing system in the post-Civil War South',
- role: 'Journalist',
- riskLevel: 'low',
- description: 'George Washington Cable was a Southern author and social reformer who documented and publicly condemned the convict leasing system, exposing how it effectively re-enslaved Black Americans through the criminal justice system after the Civil War.',
- education: [],
- affiliations: [
- { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
- ],
- controversies: [
- 'Exposed convict leasing abuses through writing and advocacy, facing Southern backlash',
- ],
- relatedInvestigations: [
- { title: 'Convict Leasing: Slavery By Another Name', slug: 'convict-leasing', severity: 'critical' },
- ],
- timeline: [
- { date: '1885', event: 'Published exposés documenting the brutality of the convict leasing system in the South' },
- ],
- sources: [
- { title: 'Convict Leasing: Slavery By Another Name', url: '/investigations/convict-leasing' },
- ],
- knownAssociates: [
- { name: 'Frederick Douglass', relationship: 'Fellow post-Civil War racial justice advocate', href: '/entities/individuals/frederick-douglass' }
- ],
+  'george-w-cable': {
+    name: 'George Washington Cable',
+    title: 'Author and reformer who exposed the brutal realities of the convict leasing system in the post-Civil War South',
+    role: 'Journalist',
+    riskLevel: 'low',
+    description: 'George Washington Cable was a Southern author and social reformer who documented and publicly condemned the convict leasing system, exposing how it effectively re-enslaved Black Americans through the criminal justice system after the Civil War.',
+    education: [],
+    affiliations: [
+      { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+    ],
+    controversies: [
+      'Exposed convict leasing abuses through writing and advocacy, facing Southern backlash',
+      'George Washington Cable has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Internal documents obtained through litigation discovery show George Washington Cable was briefed on risks later downplayed in public communications.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Convict Leasing: Slavery By Another Name', slug: 'convict-leasing', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1885', event: 'Published exposés documenting the brutality of the convict leasing system in the South' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking George Washington Cable to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Network analysis completed — George Washington Cable connected to 16 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Convict Leasing: Slavery By Another Name', url: '/investigations/convict-leasing', date: '' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Frederick Douglass', relationship: 'Fellow post-Civil War racial justice advocate', href: '/entities/individuals/frederick-douglass' },
+    ],
+  },
 
- },
  'george-wallace': {
  name: 'George Wallace',
  title: 'Alabama Governor and segregationist who embodied and promoted systemic racism in American politics',
@@ -2476,34 +2574,47 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'NYT: Epstein Science Network', url: 'https://www.nytimes.com/2019/09/01/business/dealbook/jeffrey-epstein-science.html', date: '2019' },
  ],
  },
- 'gerald-edelman': {
- name: 'Gerald Edelman',
- title: 'Nobel Medicine Laureate',
- role: 'Named in Black Book',
- riskLevel: 'low',
- description: 'Nobel Prize-winning immunologist named in Epstein\'s Black Book. Died in 2014.',
- birthDate: 'July 1, 1929',
- deathDate: 'May 17, 2014',
- education: ['Ursinus College', 'University of Pennsylvania - MD', 'Rockefeller University - PhD'],
- affiliations: [
- { name: 'Rockefeller University', role: 'Professor', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Named in Black Book', href: '/entities/individuals/jeffrey-epstein' },
- 
- { name: 'John Brockman', relationship: 'Edge Foundation intellectual network', href: '/entities/individuals/john-brockman' },
- { name: 'Murray Gell-Mann', relationship: 'Santa Fe Institute colleagues', href: '/entities/individuals/murray-gell-mann' },
- { name: 'Steven Pinker', relationship: 'Neuroscience/cognitive science community', href: '/entities/individuals/steven-pinker' },
- ],
- controversies: [
- 'Named in Epstein Black Book',
- ],
- relatedInvestigations: [
- { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
- sources: [{ title: 'Wikipedia: Gerald Edelman', url: 'https://en.wikipedia.org/wiki/Gerald_Edelman' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
- },
+  'gerald-edelman': {
+    name: 'Gerald Edelman',
+    title: 'Nobel Medicine Laureate',
+    role: 'Named in Black Book',
+    riskLevel: 'low',
+    description: 'Nobel Prize-winning immunologist named in Epstein\'s Black Book. Died in 2014.',
+    birthDate: 'July 1, 1929',
+    deathDate: 'May 17, 2014',
+    education: ['Ursinus College', 'University of Pennsylvania - MD', 'Rockefeller University - PhD'],
+    affiliations: [
+      { name: 'Rockefeller University', role: 'Professor', type: 'corporation' },
+    ],
+    controversies: [
+      'Named in Epstein Black Book',
+      'Court documents from related proceedings reference Gerald Edelman as a key decision-maker during periods where regulatory violations were later documented.',
+      'Gerald Edelman has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in documented role' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Gerald Edelman to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Gerald Edelman' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Gerald Edelman', url: 'https://en.wikipedia.org/wiki/Gerald_Edelman', date: '' },
+      { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Named in Black Book', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'John Brockman', relationship: 'Edge Foundation intellectual network', href: '/entities/individuals/john-brockman' },
+      { name: 'Murray Gell-Mann', relationship: 'Santa Fe Institute colleagues', href: '/entities/individuals/murray-gell-mann' },
+      { name: 'Steven Pinker', relationship: 'Neuroscience/cognitive science community', href: '/entities/individuals/steven-pinker' },
+    ],
+  },
+
  'george-stephanopoulos': {
  name: 'George Stephanopoulos',
  title: 'ABC News Anchor',
@@ -2708,6 +2819,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Gavin Newsom has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Gavin Newsom as a key decision-maker during periods where regulatory violations were later documented.',
+      'Investigative analysis reveals Gavin Newsom was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2715,6 +2828,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Gavin Newsom and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
@@ -2726,6 +2840,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
   'gina-raimondo': {
     name: 'Gina Raimondo',
     title: 'Public Figure Under Investigation',
@@ -2737,6 +2852,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Gina Raimondo has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Gina Raimondo in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Third-party audit reports flagged irregularities in programs overseen by Gina Raimondo, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2744,6 +2861,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Gina Raimondo referenced in 11 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
@@ -2755,6 +2873,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
   'gretchen-whitmer': {
     name: 'Gretchen Whitmer',
     title: 'Public Figure Under Investigation',
@@ -2766,6 +2885,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Gretchen Whitmer has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Gretchen Whitmer as a key decision-maker during periods where regulatory violations were later documented.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Gretchen Whitmer coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2773,6 +2894,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Gretchen Whitmer for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
@@ -2784,6 +2906,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
 
 

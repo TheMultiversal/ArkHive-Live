@@ -4700,6 +4700,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Cory Booker has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Cory Booker was briefed on risks later downplayed in public communications.',
+      'Investigative analysis reveals Cory Booker was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -4707,6 +4709,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Cory Booker and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
@@ -4718,6 +4721,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
 
 

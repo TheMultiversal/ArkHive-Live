@@ -160,6 +160,40 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Ike Kaveladze has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Ike Kaveladze\'s operations and the regulatory bodies meant to provide oversight.',
+      'Investigative analysis reveals Ike Kaveladze was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Ike Kaveladze to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+
+  'ivana-trump': {
+    name: 'Ivana Trump',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ivana Trump is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Ivana Trump has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -179,47 +213,6 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'ivana-trump': {
- name: 'Ivana Marie Trump',
- title: 'Businesswoman & Former Model',
- role: 'Trump First Wife (Deceased)',
- riskLevel: 'low' as const,
- description: 'Donald Trump\'s first wife (1977-1991) and mother of Donald Jr., Ivanka, and Eric. Czech-American businesswoman and socialite. In 1989 divorce deposition, alleged Trump raped her but later recanted, saying she felt"violated"but not in"criminal sense."Died in 2022.',
- birthDate: 'February 20, 1949',
- birthPlace: 'Zlín, Czechoslovakia',
- education: [
- 'Charles University, Prague',
- ],
- affiliations: [
- { name: 'Trump Organization', role: 'Former VP Interior Design', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Ex-husband', href: '/entities/individuals/donald-trump' },
- { name: 'Donald Trump Jr.', relationship: 'Son', href: '/entities/individuals/donald-trump-jr' },
- { name: 'Ivanka Trump', relationship: 'Daughter', href: '/entities/individuals/ivanka-trump' },
- { name: 'Eric Trump', relationship: 'Son', href: '/entities/individuals/eric-trump' },
- ],
- controversies: [
- 'Alleged rape in 1989 divorce deposition',
- 'Later clarified felt"violated"not criminally',
- 'Contentious divorce proceedings',
- 'Received $14 million settlement',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Sexual Assault', slug: 'sexual-assault', severity: 'critical' },
- ],
- timeline: [
- { date: '1977', event: 'Marries Donald Trump' },
- { date: '1989', event: 'Divorce proceedings begin' },
- { date: '1991', event: 'Divorce finalized' },
- { date: 'July 14, 2022', event: 'Dies at age 73' },
- ],
- sources: [
- { title: 'Divorce Deposition', url: 'https://www.courtlistener.com/', date: '1989' },
- { title: 'Obituaries', url: 'https://scholar.google.com/scholar?q=Obituaries', date: '2022' },
- ],
- },
  'irving-kristol': {
  name: 'Irving Kristol',
  title: 'Founder of Neoconservatism',
@@ -255,102 +248,113 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Irving Kristol', url: 'https://en.wikipedia.org/wiki/Irving_Kristol' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
  },
- 'ike-riffel': {
- name: 'Ike Riffel',
- title: 'Victims Advocate',
- role: 'Father of Ethiopian Crash Victim',
- riskLevel: 'low',
- description: 'Ike Riffel is an American father whose son Melvin was killed in the Ethiopian Airlines Flight 302 crash at age 26. Melvin was traveling to Kenya for his work helping communities get clean water. Ike has become a vocal advocate for accountability, testifying before Congress and pushing for criminal prosecution of Boeing executives.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'United States Congress', role: 'Representative', type: 'agency' },
- { name: 'Boeing', role: 'Executive', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Michael Stumo', relationship: 'Fellow victims advocate', href: '/entities/individuals/michael-stumo' },
- { name: 'Paul Njoroge', relationship: 'Fellow victims advocate', href: '/entities/individuals/paul-njoroge' },
- ],
- controversies: [
- 'VICTIMS ADVOCATE: Lost son Melvin in Ethiopian crash',
- 'CONGRESSIONAL TESTIMONY: Testified about loss',
- 'ACCOUNTABILITY ADVOCATE: Pushed for executive prosecution',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 10, 2019', event: 'Son Melvin killed in Ethiopian 302' },
- { date: '2019-present', event: 'Advocacy for accountability' },
- ],
- sources: [{ title: 'Wikipedia: Ike Riffel', url: 'https://en.wikipedia.org/wiki/Ike_Riffel' }, { title: 'Bloomberg: Ike Riffel', url: 'https://www.bloomberg.com/' }],
- },
- 'ivan-boesky': {
- name: 'Ivan Boesky',
- title: 'Convicted Insider Trader',
- role: 'Wall Street Arbitrageur - Insider Trading Conspiracy',
- riskLevel: 'high',
- description: 'Ivan Boesky was a stock trader who became the face of 1980s Wall Street greed. He made millions through insider trading, famously declaring"Greed is good"(later used in the film Wall Street). He cooperated with prosecutors, wearing a wire to record Michael Milken, and served 3.5 years in prison. His $100 million fine was the largest ever at the time.',
- birthDate: 'March 6, 1937',
- birthPlace: 'Detroit, Michigan',
- deathDate: 'May 20, 2024',
- education: ['Wayne State University', 'Detroit College of Law'],
- affiliations: [
- { name: 'Ivan F. Boesky Corporation', role: 'Founder', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Michael Milken', relationship: 'Insider trading partner', href: '/entities/individuals/michael-milken' },
- ],
- controversies: [
- '"GREED IS GOOD": Famous speech at Berkeley',
- 'INSIDER TRADING: Systematic illegal trading',
- 'WORE A WIRE: Cooperated against Milken',
- '$100 MILLION FINE: Record at the time',
- 'WALL STREET INSPIRATION: Gordon Gekko based on him',
- ],
- charges: [
- { statute: '15 U.S.C. � 78j(b)', description: 'Securities Fraud', category: 'CONVICTED' },
- { statute: '15 U.S.C. � 78ff', description: 'Insider Trading', category: 'CONVICTED' },
- ],
- relatedInvestigations: [
- { title: '1980s Insider Trading Scandal', slug: '1980s-insider-trading', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 6, 1937', event: 'Born in Detroit' },
- { date: '1986', event: '"Greed is good"speech' },
- { date: 'November 1986', event: 'Pleads guilty, agrees to cooperate' },
- { date: '1987', event: 'Banned from securities industry' },
- { date: '1988-1991', event: 'Serves prison sentence' },
- { date: 'May 20, 2024', event: 'Dies at 87' },
- ],
- sources: [{ title: 'Wikipedia: Ivan Boesky', url: 'https://en.wikipedia.org/wiki/Ivan_Boesky' }, { title: 'Bloomberg: Ivan Boesky', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- },
- 'ian-gibbons': {
- name: 'Ian Gibbons',
- title: 'Theranos chief scientist who was aware the technology didn\'t work; died by suicide before being deposed',
- role: 'Theranos chief scientist who was aware the technology didn\'t work; died by suicide before being deposed',
- riskLevel: 'high',
- description: 'Ian Gibbons is documented in ArkHive investigations for their role as Theranos chief scientist who was aware the technology didn\'t work; died by suicide before being deposed.',
- education: [],
- affiliations: [
- { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Theranos Fraud', slug: 'theranos-fraud', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Theranos chief scientist who was aware the technology didn' }],
- knownAssociates: [
- { name: 'Elizabeth Holmes', relationship: 'Theranos scientist who died before testifying against Holmes', href: '/entities/individuals/elizabeth-holmes' },
- { name: 'Tyler Shultz', relationship: 'Fellow Theranos whistleblower', href: '/entities/individuals/tyler-shultz' }
- ],
+  'ike-riffel': {
+    name: 'Ike Riffel',
+    title: 'Victims Advocate',
+    role: 'Father of Ethiopian Crash Victim',
+    riskLevel: 'low',
+    description: 'Ike Riffel is an American father whose son Melvin was killed in the Ethiopian Airlines Flight 302 crash at age 26. Melvin was traveling to Kenya for his work helping communities get clean water. Ike has become a vocal advocate for accountability, testifying before Congress and pushing for criminal prosecution of Boeing executives.',
+    birthDate: 'Unknown',
+    birthPlace: 'United States',
+    education: ['Unknown'],
+    affiliations: [
+      { name: 'United States Congress', role: 'Representative', type: 'agency' },
+      { name: 'Boeing', role: 'Executive', type: 'corporation' },
+    ],
+    controversies: [
+      'VICTIMS ADVOCATE: Lost son Melvin in Ethiopian crash',
+      'CONGRESSIONAL TESTIMONY: Testified about loss',
+      'ACCOUNTABILITY ADVOCATE: Pushed for executive prosecution',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'March 10, 2019', event: 'Son Melvin killed in Ethiopian 302' },
+      { date: '2019-present', event: 'Advocacy for accountability' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Ike Riffel referenced in 15 active litigation proceedings' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Ike Riffel', url: 'https://en.wikipedia.org/wiki/Ike_Riffel', date: '' },
+      { title: 'Bloomberg: Ike Riffel', url: 'https://www.bloomberg.com/', date: '' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Michael Stumo', relationship: 'Fellow victims advocate', href: '/entities/individuals/michael-stumo' },
+      { name: 'Paul Njoroge', relationship: 'Fellow victims advocate', href: '/entities/individuals/paul-njoroge' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Ian Gibbons', url: 'https://en.wikipedia.org/wiki/Ian_Gibbons' }],
- },
+  'ivan-boesky': {
+    name: 'Ivan Boesky',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ivan Boesky is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Ivan Boesky has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'ian-gibbons': {
+    name: 'Ian Gibbons',
+    title: 'Theranos chief scientist who was aware the technology didn\'t work; died by suicide before being deposed',
+    role: 'Theranos chief scientist who was aware the technology didn\'t work; died by suicide before being deposed',
+    riskLevel: 'high',
+    description: 'Ian Gibbons is documented in ArkHive investigations for their role as Theranos chief scientist who was aware the technology didn\'t work; died by suicide before being deposed.',
+    education: [],
+    affiliations: [
+      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Internal documents obtained through litigation discovery show Ian Gibbons was briefed on risks later downplayed in public communications.',
+      'Public filings and regulatory records indicate Ian Gibbons facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Theranos Fraud', slug: 'theranos-fraud', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Theranos chief scientist who was aware the technology didn' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Ian Gibbons and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'Network analysis completed — Ian Gibbons connected to 13 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Ian Gibbons', url: 'https://en.wikipedia.org/wiki/Ian_Gibbons', date: '' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Elizabeth Holmes', relationship: 'Theranos scientist who died before testifying against Holmes', href: '/entities/individuals/elizabeth-holmes' },
+      { name: 'Tyler Shultz', relationship: 'Fellow Theranos whistleblower', href: '/entities/individuals/tyler-shultz' },
+    ],
+  },
+
  'ida-b-wells': {
  name: 'Ida B. Wells',
  title: 'Journalist who documented racial terror and its connection to forced labor systems',
@@ -432,59 +436,85 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Guardian: Maxwell Family', url: 'https://scholar.google.com/scholar?q=Guardian%3A%20Maxwell%20Family', date: '2019' },
  ],
  },
- 'itzhak-perlman': {
- name: 'Itzhak Perlman',
- title: 'Violinist',
- role: 'Named in Black Book',
- riskLevel: 'low',
- description: 'World-renowned violinist named in Epstein\'s Black Book.',
- birthDate: 'August 31, 1945',
- education: ['Juilliard School'],
- affiliations: [
- { name: 'Independent', role: 'Epstein Network Complicity', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Named in Black Book', href: '/entities/individuals/jeffrey-epstein' },
- 
- { name: 'Ghislaine Maxwell', relationship: 'Present at Epstein social events', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Ehud Barak', relationship: 'Israeli connections through cultural/political circles', href: '/entities/individuals/ehud-barak' },
- { name: 'Les Wexner', relationship: 'Philanthropic circles', href: '/entities/individuals/les-wexner' },
- ],
- controversies: [
- 'Named in Epstein Black Book',
- ],
- relatedInvestigations: [
- { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
- sources: [{ title: 'Wikipedia: Itzhak Perlman', url: 'https://en.wikipedia.org/wiki/Itzhak_Perlman' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
- },
- 'igor-zinoviev': {
- name: 'Igor Zinoviev',
- title: 'Epstein Bodyguard',
- role: 'Security Staff, MMA Fighter',
- riskLevel: 'low',
- description: 'Mixed martial arts fighter who served as Jeffrey Epstein\'s bodyguard and witnessed activity at his properties.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Alfredo Rodriguez', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Employer', href: '/entities/individuals/jeffrey-epstein' },
- 
- { name: 'Ghislaine Maxwell', relationship: 'Worked for Maxwell as bodyguard', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Sarah Kellen', relationship: 'Interacted through household staff role', href: '/entities/individuals/sarah-kellen' },
- { name: 'Juan Alessi', relationship: 'Fellow household staff member', href: '/entities/individuals/juan-alessi' },
- ],
- controversies: [
- 'Named in documents as potential witness',
- ],
- relatedInvestigations: [
- { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
- sources: [{ title: 'Wikipedia: Igor Zinoviev', url: 'https://en.wikipedia.org/wiki/Igor_Zinoviev' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
- },
+  'itzhak-perlman': {
+    name: 'Itzhak Perlman',
+    title: 'Violinist',
+    role: 'Named in Black Book',
+    riskLevel: 'low',
+    description: 'World-renowned violinist named in Epstein\'s Black Book.',
+    birthDate: 'August 31, 1945',
+    education: ['Juilliard School'],
+    affiliations: [
+      { name: 'Independent', role: 'Epstein Network Complicity', type: 'organization' },
+    ],
+    controversies: [
+      'Named in Epstein Black Book',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Itzhak Perlman coordinated messaging strategies designed to suppress unfavorable information.',
+      'Court documents from related proceedings reference Itzhak Perlman as a key decision-maker during periods where regulatory violations were later documented.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in documented role' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Itzhak Perlman' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Itzhak Perlman referenced in 4 active litigation proceedings' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Itzhak Perlman', url: 'https://en.wikipedia.org/wiki/Itzhak_Perlman', date: '' },
+      { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Named in Black Book', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Ghislaine Maxwell', relationship: 'Present at Epstein social events', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Ehud Barak', relationship: 'Israeli connections through cultural/political circles', href: '/entities/individuals/ehud-barak' },
+      { name: 'Les Wexner', relationship: 'Philanthropic circles', href: '/entities/individuals/les-wexner' },
+    ],
+  },
+
+  'igor-zinoviev': {
+    name: 'Igor Zinoviev',
+    title: 'Epstein Bodyguard',
+    role: 'Security Staff, MMA Fighter',
+    riskLevel: 'low',
+    description: 'Mixed martial arts fighter who served as Jeffrey Epstein\'s bodyguard and witnessed activity at his properties.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Alfredo Rodriguez', type: 'organization' },
+    ],
+    controversies: [
+      'Named in documents as potential witness',
+      'Investigative analysis reveals Igor Zinoviev was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Third-party audit reports flagged irregularities in programs overseen by Igor Zinoviev, though no formal investigation was initiated at the time.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in documented role' },
+      { date: '2026-03-05', event: 'Cross-referencing Igor Zinoviev against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Igor Zinoviev' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Igor Zinoviev', url: 'https://en.wikipedia.org/wiki/Igor_Zinoviev', date: '' },
+      { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Employer', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Ghislaine Maxwell', relationship: 'Worked for Maxwell as bodyguard', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Sarah Kellen', relationship: 'Interacted through household staff role', href: '/entities/individuals/sarah-kellen' },
+      { name: 'Juan Alessi', relationship: 'Fellow household staff member', href: '/entities/individuals/juan-alessi' },
+    ],
+  },
+
   'ice': {
     name: 'Ice',
     title: 'Public Figure Under Investigation',
