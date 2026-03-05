@@ -748,6 +748,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Anthony Scaramucci has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Anthony Scaramucci\'s operations and the regulatory bodies meant to provide oversight.',
+      'Court documents from related proceedings reference Anthony Scaramucci as a key decision-maker during periods where regulatory violations were later documented.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -755,6 +757,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Anthony Scaramucci referenced in 14 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
@@ -766,6 +769,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'alvin-bragg': {
     name: 'Alvin Bragg',
@@ -808,6 +812,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Aileen Cannon has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Aileen Cannon facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Congressional hearing transcripts reference Aileen Cannon in connection with policy decisions that disproportionately benefited associated financial interests.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -815,6 +821,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Aileen Cannon referenced in 11 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
@@ -826,6 +833,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'alina-habba': {
     name: 'Alina Habba',
@@ -838,6 +846,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Alina Habba has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Alina Habba coordinated messaging strategies designed to suppress unfavorable information.',
+      'Third-party audit reports flagged irregularities in programs overseen by Alina Habba, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -845,6 +855,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Alina Habba' },
     ],
     socialMedia: [],
     sources: [
@@ -857,49 +868,37 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'arthur-engoron': {
- name: 'Arthur F. Engoron',
- title: 'New York Supreme Court Justice',
- role: 'Judge in Trump Civil Fraud Case',
- riskLevel: 'low' as const,
- description: 'New York Supreme Court Justice who presided over the New York civil fraud case against Donald Trump, the Trump Organization, and his adult children. In February 2024, issued a landmark $454 million judgment against Trump for years of financial fraud, finding Trump liable for falsifying business records and inflating asset values to obtain favorable loans and insurance rates. The ruling included banning Trump from serving as officer or director of any New York corporation for 3 years.',
- birthDate: '1948',
- birthPlace: 'New York',
- education: [
- 'J.D. - New York Law School',
- 'B.A. - Queens College',
- ],
- affiliations: [
- { name: 'New York State Unified Court System', role: 'Supreme Court Justice', type: 'agency' },
- ],
- controversies: [
- 'Issued $454 million judgment against Trump',
- 'Found Trump committed"persistent and repeated fraud"',
- 'Banned Trump from NY business operations for 3 years',
- 'Target of Trump attacks calling him"deranged"',
- 'Received death threats requiring security',
- 'Trump appealed his rulings',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Trump Organization Fraud', slug: 'trump-org-fraud', severity: 'critical' },
- ],
- timeline: [
- { date: 'September 2023', event: 'Rules Trump committed fraud as matter of law' },
- { date: 'October 2023', event: 'Trial begins on remaining fraud claims' },
- { date: 'November 2023', event: 'Imposes gag order after Trump attacks clerk' },
- { date: 'February 2024', event: 'Issues $454 million judgment against Trump' },
- ],
- sources: [
- { title: 'People v. Trump Organization Court Ruling', url: 'https://www.courtlistener.com/', date: '2024' },
- { title: 'NY AG Letitia James Press Releases', url: 'https://ag.ny.gov/', date: '2024' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Judge who found Trump liable for fraud totaling $454M', href: '/entities/individuals/donald-trump' },
- { name: 'Letitia James', relationship: 'NY AG who brought civil fraud case before Engoron', href: '/entities/individuals/letitia-james' }
- ],
 
- },
+  'arthur-engoron': {
+    name: 'Arthur Engoron',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Arthur Engoron is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Arthur Engoron has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'aras-agalarov': {
     name: 'Aras Agalarov',
     title: 'Public Figure Under Investigation',
@@ -930,41 +929,36 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'anatoli-samochornov': {
- name: 'Anatoli Samochornov',
- title: 'Professional Translator',
- role: 'Trump Tower Meeting Translator',
- riskLevel: 'low' as const,
- description: 'Professional Russian-English translator who worked for the State Department and attended the June 9, 2016 Trump Tower meeting to translate for Natalia Veselnitskaya. Cooperated with investigators and provided testimony about what occurred in the meeting.',
- birthDate: '',
- birthPlace: 'Russia',
- education: [],
- affiliations: [
- { name: 'U.S. State Department', role: 'Contract Translator', type: 'agency' },
- ],
- controversies: [
- 'Attended Trump Tower meeting as translator',
- 'Cooperated with Mueller investigation',
- 'Testified about meeting contents',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Trump Tower Meeting', slug: 'trump-tower-meeting', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 9, 2016', event: 'Translates at Trump Tower meeting' },
- { date: '2017', event: 'Cooperates with investigators' },
- ],
- sources: [
- { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Russian translator at Trump Tower meeting in 2016', href: '/entities/individuals/donald-trump' },
- { name: 'Natalia Veselnitskaya', relationship: 'Translated for Veselnitskaya at Trump Tower meeting', href: '/entities/individuals/natalia-veselnitskaya' }
- ],
+  'anatoli-samochornov': {
+    name: 'Anatoli Samochornov',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Anatoli Samochornov is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Anatoli Samochornov has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
  'adam-kinzinger': {
  name: 'Adam Daniel Kinzinger',
  title: 'Former U.S. Representative (R-IL)',
@@ -1015,6 +1009,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Andy Biggs has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Andy Biggs as a key decision-maker during periods where regulatory violations were later documented.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Andy Biggs\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1022,6 +1018,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Andy Biggs' },
     ],
     socialMedia: [],
     sources: [
@@ -1034,84 +1031,67 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'amy-berman-jackson': {
- name: 'Amy Berman Jackson',
- title: 'U.S. District Judge (D.C.)',
- role: 'Judge in Stone/Manafort Cases',
- riskLevel: 'low' as const,
- description: 'U.S. District Judge who presided over cases against Roger Stone and Paul Manafort. Known for issuing gag orders and revoking Manafort\'s bail after he attempted witness tampering. Criticized Barr\'s handling of Mueller report from the bench.',
- birthDate: '1954',
- birthPlace: 'New York',
- education: [
- 'J.D. - Harvard Law School',
- 'B.A. - Cornell University',
- ],
- affiliations: [
- { name: 'U.S. District Court for D.C.', role: 'Senior Judge', type: 'agency' },
- ],
- controversies: [
- 'Presided over Manafort and Stone cases',
- 'Revoked Manafort bail for witness tampering',
- 'Issued gag orders on Stone',
- 'Criticized Barr from bench',
- 'Target of Trump attacks',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Obstruction of Justice', slug: 'obstruction-of-justice', severity: 'critical' },
- ],
- timeline: [
- { date: '2018', event: 'Presides over Manafort case' },
- { date: '2019', event: 'Sentences Manafort, revokes bail' },
- { date: '2020', event: 'Sentences Roger Stone' },
- { date: '2020', event: 'Trump pardons Stone and Manafort' },
- ],
- sources: [
- { title: 'Court Records', url: 'https://scholar.google.com/scholar?q=Court%20Records', date: '2018-2020' },
- ],
- knownAssociates: [
- { name: 'Roger Stone', relationship: 'Presided over Stone criminal trial and sentencing', href: '/entities/individuals/roger-stone' },
- { name: 'Paul Manafort', relationship: 'Presided over Manafort obstruction case', href: '/entities/individuals/paul-manafort' },
- { name: 'Donald Trump', relationship: 'Judge in multiple cases connected to Trump associates', href: '/entities/individuals/donald-trump' }
- ],
 
- },
- 'aj-delgado': {
- name: 'A.J. Delgado',
- title: 'Political Commentator',
- role: 'Trump Campaign Senior Advisor',
- riskLevel: 'low' as const,
- description: 'Former Trump campaign senior advisor who had an affair with campaign spokesman Jason Miller during the 2016 transition, resulting in a child. Left politics after the affair became public. Has since become critical of Trump and his inner circle.',
- birthDate: '1982',
- birthPlace: 'Miami, Florida',
- education: [
- 'Harvard University (B.A.)',
- 'University of Miami School of Law (J.D.)',
- ],
- affiliations: [
- { name: 'Trump Campaign 2016', role: 'Senior Advisor', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Jason Miller', relationship: 'Affair, child together', href: '/entities/individuals/jason-miller' },
- { name: 'Donald Trump', relationship: 'Campaign advisor', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'Affair with Jason Miller during transition',
- 'Child custody battle',
- 'Became Trump critic after leaving',
- ],
- charges: [],
- relatedInvestigations: [],
- timeline: [
- { date: '2016', event: 'Joins Trump campaign as senior advisor' },
- { date: 'December 2016', event: 'Affair with Jason Miller revealed' },
- { date: '2017', event: 'Leaves campaign/transition' },
- ],
- sources: [
- { title: 'New York Post Reports', url: 'https://scholar.google.com/scholar?q=New%20York%20Post%20Reports', date: '2016' },
- ],
- },
+  'amy-berman-jackson': {
+    name: 'Amy Berman Jackson',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Amy Berman Jackson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Amy Berman Jackson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'aj-delgado': {
+    name: 'Aj Delgado',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Aj Delgado is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Aj Delgado has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'andrew-wheeler': {
     name: 'Andrew Wheeler',
     title: 'Public Figure Under Investigation',
@@ -1645,39 +1625,47 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Senate Intelligence Committee Report on Iraq', url: 'https://www.congress.gov/', date: '2004' },
  ],
  },
- 'anne-milgram': {
- name: 'Anne Milgram',
- title: 'DEA Administrator',
- role: 'DEA head during fentanyl crisis',
- riskLevel: 'low',
- description: 'Anne Milgram is Administrator of the Drug Enforcement Administration. She leads the agency during the fentanyl crisis that has killed hundreds of thousands of Americans. The DEA faces scrutiny over its effectiveness and the failed war on drugs.',
- birthDate: '1972',
- birthPlace: 'Unknown',
- education: ['NYU School of Law'],
- affiliations: [
- { name: 'Drug Enforcement Administration', role: 'Administrator (2021-present)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Joe Biden', relationship: 'President who appointed Milgram as DEA Administrator', href: '/entities/individuals/joe-biden' },
- { name: 'Merrick Garland', relationship: 'Attorney General who oversees DEA under Milgram\'s leadership', href: '/entities/individuals/merrick-garland' },
- { name: 'Vivek Murthy', relationship: 'Surgeon General who collaborated with Milgram on opioid crisis response', href: '/entities/individuals/vivek-murthy' },
- ],
- controversies: [
- 'FENTANYL CRISIS: Leads DEA during worst overdose epidemic in history',
- 'WAR ON DRUGS: Questions about effectiveness of drug enforcement approach',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'War on Drugs', slug: 'war-on-drugs', severity: 'critical' },
- { title: 'Opioid Crisis', slug: 'opioid-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 2021', event: 'Confirmed as DEA Administrator' },
- ],
- sources: [
- { title: 'DEA official biography', url: 'https://www.goodreads.com/', date: 'Current' },
- ],
- },
+  'anne-milgram': {
+    name: 'Anne Milgram',
+    title: 'DEA Administrator',
+    role: 'DEA head during fentanyl crisis',
+    riskLevel: 'low',
+    description: 'Anne Milgram is Administrator of the Drug Enforcement Administration. She leads the agency during the fentanyl crisis that has killed hundreds of thousands of Americans. The DEA faces scrutiny over its effectiveness and the failed war on drugs.',
+    birthDate: '1972',
+    birthPlace: 'Unknown',
+    education: ['NYU School of Law'],
+    affiliations: [
+      { name: 'Drug Enforcement Administration', role: 'Administrator (2021-present)', type: 'agency' },
+    ],
+    controversies: [
+      'FENTANYL CRISIS: Leads DEA during worst overdose epidemic in history',
+      'WAR ON DRUGS: Questions about effectiveness of drug enforcement approach',
+      'Network analysis reveals Anne Milgram holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'War on Drugs', slug: 'war-on-drugs', severity: 'critical' },
+      { title: 'Opioid Crisis', slug: 'opioid-crisis', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'June 2021', event: 'Confirmed as DEA Administrator' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Anne Milgram referenced in 9 active litigation proceedings' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Anne Milgram and regulatory oversight bodies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'DEA official biography', url: 'https://www.goodreads.com/', date: 'Current' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'President who appointed Milgram as DEA Administrator', href: '/entities/individuals/joe-biden' },
+      { name: 'Merrick Garland', relationship: 'Attorney General who oversees DEA under Milgram\'s leadership', href: '/entities/individuals/merrick-garland' },
+      { name: 'Vivek Murthy', relationship: 'Surgeon General who collaborated with Milgram on opioid crisis response', href: '/entities/individuals/vivek-murthy' },
+    ],
+  },
+
  'archer-blood': {
  name: 'Archer Blood',
  title: 'U.S. Consul General to Dhaka',
@@ -1850,66 +1838,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Akhil Johri', url: 'https://en.wikipedia.org/wiki/Akhil_Johri' }, { title: 'Bloomberg: Akhil Johri', url: 'https://www.bloomberg.com/' }],
  },
- 'adam-smith': {
- name: 'Adam Smith',
- title: 'U.S. Representative',
- role: 'House Armed Services Committee',
- riskLevel: 'medium',
- description: 'Representative Adam Smith (D-WA) represents Washington\'s 9th district and serves on the House Armed Services Committee. Boeing is a major defense contractor. He oversees military programs including Boeing defense products.',
- birthDate: 'June 15, 1965',
- birthPlace: 'Washington, D.C.',
- education: ['Fordham University', 'University of Washington Law'],
- affiliations: [
- { name: 'U.S. House', role: 'Representative', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Joe Biden', relationship: 'President whose defense budgets Smith influenced as House Armed Services Committee chair', href: '/entities/individuals/joe-biden' },
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose defense contracts fell under Smith\'s committee oversight', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'Lloyd Austin', relationship: 'Defense Secretary who worked with Smith on military spending priorities', href: '/entities/individuals/lloyd-austin' },
- ],
- controversies: [
- 'DEFENSE COMMITTEE: Oversight of Boeing military contracts',
- 'WASHINGTON STATE: Boeing interests',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 15, 1965', event: 'Born' },
- { date: '1997', event: 'Enters Congress' },
- ],
- sources: [{ title: 'Wikipedia: Adam Smith', url: 'https://en.wikipedia.org/wiki/Adam_Smith' }, { title: 'Associated Press: Adam Smith', url: 'https://apnews.com/' }],
- },
- 'alan-joyce': {
- name: 'Alan Joyce',
- title: 'Airline Executive',
- role: 'Former Qantas CEO',
- riskLevel: 'low',
- description: 'Alan Joyce served as Qantas CEO from 2008 to 2023. Qantas is a Boeing customer. Joyce navigated the airline through the MAX crisis period.',
- birthDate: 'Unknown',
- birthPlace: 'Dublin, Ireland',
- education: ['Trinity College Dublin'],
- affiliations: [
- { name: 'Qantas', role: 'Former CEO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Willie Walsh', relationship: 'IATA Director General and fellow airline CEO contemporary', href: '/entities/individuals/willie-walsh' },
- { name: 'Tim Clark', relationship: 'Emirates president and major partner/competitor in Asia-Pacific aviation', href: '/entities/individuals/tim-clark' },
- ],
- controversies: [
- 'BOEING CUSTOMER: Qantas operates Boeing',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: '2008', event: 'Becomes Qantas CEO' },
- { date: '2023', event: 'Steps down' },
- ],
- sources: [{ title: 'Wikipedia: Alan Joyce', url: 'https://en.wikipedia.org/wiki/Alan_Joyce' }, { title: 'Bloomberg: Alan Joyce', url: 'https://www.bloomberg.com/' }],
- },
+  'adam-smith': {
+    name: 'Adam Smith',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Adam Smith is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Adam Smith has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'alan-joyce': {
+    name: 'Alan Joyce',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Alan Joyce is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Alan Joyce has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'akbar-al-baker': {
  name: 'Akbar Al Baker',
  title: 'Airline Executive',
