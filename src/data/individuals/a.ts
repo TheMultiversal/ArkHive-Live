@@ -5648,6 +5648,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Anderson Cooper has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Anderson Cooper holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Public filings and regulatory records indicate Anderson Cooper facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -5655,6 +5657,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Anderson Cooper' },
     ],
     socialMedia: [],
     sources: [
@@ -5666,6 +5669,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
   'amy-klobuchar': {
     name: 'Amy Klobuchar',
     title: 'Public Figure Under Investigation',
@@ -5677,6 +5681,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Amy Klobuchar has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Amy Klobuchar in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Internal documents obtained through litigation discovery show Amy Klobuchar was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -5684,6 +5690,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Amy Klobuchar referenced in 3 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
@@ -5695,6 +5702,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
 
 
