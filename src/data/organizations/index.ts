@@ -858,6 +858,24 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'medium',
     members: 'Unknown',
   },
+  'electronic-frontier-foundation': {
+    name: 'Electronic Frontier Foundation',
+    slug: 'electronic-frontier-foundation',
+    type: 'Organization',
+    description: 'Electronic Frontier Foundation is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'carnegie-corporation': {
+    name: 'Carnegie Corporation',
+    slug: 'carnegie-corporation',
+    type: 'Organization',
+    description: 'Carnegie Corporation is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
+
 
 
 

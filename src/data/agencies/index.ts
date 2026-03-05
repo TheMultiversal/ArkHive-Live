@@ -1252,6 +1252,28 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'federal-reserve-bank-of-new-york': {
+    id: '1551905d455d4991',
+    slug: 'federal-reserve-bank-of-new-york',
+    name: 'Federal Reserve Bank of New York',
+    type: 'agency',
+    description: 'Federal Reserve Bank of New York is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'world-trade-organization': {
+    id: 'dc70c2c75b2950e4',
+    slug: 'world-trade-organization',
+    name: 'World Trade Organization',
+    type: 'agency',
+    description: 'World Trade Organization is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
+
 
 
 

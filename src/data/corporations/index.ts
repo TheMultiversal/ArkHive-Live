@@ -1892,6 +1892,28 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'exxonmobil-corporation': {
+    id: 'b2acba9ce65a5da0',
+    slug: 'exxonmobil-corporation',
+    name: 'ExxonMobil Corporation',
+    type: 'corporation',
+    description: 'ExxonMobil Corporation is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'tesla-inc': {
+    id: 'd184517cd6aa1c8b',
+    slug: 'tesla-inc',
+    name: 'Tesla Inc',
+    type: 'corporation',
+    description: 'Tesla Inc is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
+
 
 
 
