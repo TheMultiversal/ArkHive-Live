@@ -113,6 +113,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'brad-raffensperger': {
     name: 'Brad Raffensperger',
     title: 'Georgia Secretary of State',
@@ -164,6 +165,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Mark Meadows', relationship: 'On call pressuring to find votes', href: '/entities/individuals/mark-meadows' },
     ],
   },
+
 
 
 
@@ -225,6 +227,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'ben-carson': {
     name: 'Benjamin Solomon Carson Sr.',
     title: 'Former U.S. Secretary of Housing and Urban Development',
@@ -275,6 +278,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Pete Hegseth', relationship: 'Fellow Trump cabinet member', href: '/entities/individuals/pete-hegseth' },
     ],
   },
+
 
 
 
@@ -776,6 +780,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Hafez al-Assad', relationship: 'Father, predecessor dictator', href: '/entities/individuals/hafez-al-assad' },
     ],
   },
+
 
 
 
@@ -3044,6 +3049,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Ghislaine Maxwell', relationship: 'Named in civil suits as co-conspirator', href: '/entities/individuals/ghislaine-maxwell' },
     ],
   },
+
 
 
 

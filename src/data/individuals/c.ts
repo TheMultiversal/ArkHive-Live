@@ -59,6 +59,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'charles-kushner': {
     name: 'Charles Kushner',
     title: 'Real Estate Developer',
@@ -120,6 +121,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'carlos-de-oliveira': {
     name: 'Carlos De Oliveira',
     title: 'Mar-a-Lago Property Manager',
@@ -171,6 +173,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Walt Nauta', relationship: 'Co-defendant in documents case', href: '/entities/individuals/walt-nauta' },
     ],
   },
+
 
 
 

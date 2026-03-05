@@ -296,6 +296,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'alex-azar': {
     name: 'Alex Michael Azar II',
     title: 'Former U.S. Secretary of Health and Human Services',
@@ -346,6 +347,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Anthony Fauci', relationship: 'HHS oversaw NIAID', href: '/entities/individuals/anthony-fauci' },
     ],
   },
+
 
 
 
@@ -412,6 +414,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'ali-alexander': {
     name: 'Ali Akbar Alexander',
     title: 'Political Activist',
@@ -463,6 +466,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Roger Stone', relationship: 'Stop the Steal collaborator', href: '/entities/individuals/roger-stone' },
     ],
   },
+
 
 
 
