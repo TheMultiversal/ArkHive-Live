@@ -807,6 +807,69 @@ const investigations_a: Record<string, InvestigationData> = {
  { title: 'DFEH Lawsuit', url: 'https://www.documentcloud.org/', type: 'Legal' },
  ],
  affiliations: [],
+  'agribusiness-capture-of-usda': {
+    title: 'Agribusiness Capture of USDA',
+    subtitle: 'Investigation into Agribusiness Capture of USDA',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Agribusiness Capture of USDA for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Agribusiness Capture of USDA has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+  'asbestos-cover-up-decades-of-death': {
+    title: 'Asbestos Cover-Up Decades of Death',
+    subtitle: 'Investigation into Asbestos Cover-Up Decades of Death',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Asbestos Cover-Up Decades of Death for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Asbestos Cover-Up Decades of Death has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+  'agent-orange-dioxin-legacy': {
+    title: 'Agent Orange Dioxin Legacy',
+    subtitle: 'Investigation into Agent Orange Dioxin Legacy',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Agent Orange Dioxin Legacy for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Agent Orange Dioxin Legacy has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+
+
+
  },
 };
 
