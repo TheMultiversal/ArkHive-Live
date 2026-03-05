@@ -2032,6 +2032,17 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'bayer-ag': {
+    id: '92eecff627b7f5f9',
+    slug: 'bayer-ag',
+    name: 'Bayer AG',
+    type: 'corporation',
+    description: 'Bayer AG is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 

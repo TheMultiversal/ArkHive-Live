@@ -1332,6 +1332,17 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'bureau-of-alcohol-tobacco-firearms-and-explosives': {
+    id: '21d9c9061cfcbef3',
+    slug: 'bureau-of-alcohol-tobacco-firearms-and-explosives',
+    name: 'Bureau of Alcohol Tobacco Firearms and Explosives',
+    type: 'agency',
+    description: 'Bureau of Alcohol Tobacco Firearms and Explosives is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 
