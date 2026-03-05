@@ -1292,6 +1292,17 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'congressional-budget-office': {
+    id: 'e9c6c21a137c5468',
+    slug: 'congressional-budget-office',
+    name: 'Congressional Budget Office',
+    type: 'agency',
+    description: 'Congressional Budget Office is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 

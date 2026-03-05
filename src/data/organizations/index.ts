@@ -906,6 +906,15 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'medium',
     members: 'Unknown',
   },
+  'american-civil-liberties-union': {
+    name: 'American Civil Liberties Union',
+    slug: 'american-civil-liberties-union',
+    type: 'Organization',
+    description: 'American Civil Liberties Union is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
 
 
 
