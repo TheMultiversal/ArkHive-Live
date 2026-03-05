@@ -1272,6 +1272,28 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'national-institute-of-allergy-and-infectious-diseases': {
+    id: 'fca5da511cb226e4',
+    slug: 'national-institute-of-allergy-and-infectious-diseases',
+    name: 'National Institute of Allergy and Infectious Diseases',
+    type: 'agency',
+    description: 'National Institute of Allergy and Infectious Diseases is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'financial-stability-board': {
+    id: 'bc164ae9933a5a92',
+    slug: 'financial-stability-board',
+    name: 'Financial Stability Board',
+    type: 'agency',
+    description: 'Financial Stability Board is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
+
 
 
 
