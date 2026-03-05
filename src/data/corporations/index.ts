@@ -2012,6 +2012,28 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'moderna-inc': {
+    id: '61e01c0328f591d4',
+    slug: 'moderna-inc',
+    name: 'Moderna Inc',
+    type: 'corporation',
+    description: 'Moderna Inc is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'monsanto-company': {
+    id: 'f689b50e2caefc8c',
+    slug: 'monsanto-company',
+    name: 'Monsanto Company',
+    type: 'corporation',
+    description: 'Monsanto Company is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
+
 
 
 
