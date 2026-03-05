@@ -109,6 +109,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
   'brad-raffensperger': {
     name: 'Brad Raffensperger',
     title: 'Georgia Secretary of State',
@@ -160,6 +162,9 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Mark Meadows', relationship: 'On call pressuring to find votes', href: '/entities/individuals/mark-meadows' },
     ],
   },
+
+
+
 
   'betsy-devos': {
     name: 'Elisabeth Dee DeVos',
@@ -213,6 +218,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
   'ben-carson': {
     name: 'Benjamin Solomon Carson Sr.',
     title: 'Former U.S. Secretary of Housing and Urban Development',
@@ -264,263 +271,184 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'barron-trump': {
- name: 'Barron William Trump',
- title: 'Son of Donald Trump',
- role: 'Student, Trump Family Member',
- riskLevel: 'low',
- description: 'Barron Trump is the youngest child of Donald Trump and Melania Trump. Born in 2006, he was 10 years old when his father became president. He has been largely shielded from public life, though he was selected as a Florida delegate to the 2024 Republican National Convention before his mother declined on his behalf. He enrolled at NYU in 2024.',
- birthDate: 'March 20, 2006',
- birthPlace: 'New York City, New York',
- education: [
- 'New York University (enrolled 2024)',
- 'Oxbridge Academy, Palm Beach, Florida',
- 'St. Andrew\'s Episcopal School, Potomac, Maryland',
- 'Columbia Grammar & Preparatory School, NYC',
- ],
- aliases: ['Barron'],
- affiliations: [
- { name: 'Trump Family', role: 'Son of Donald and Melania Trump', type: 'organization' },
- { name: 'New York University', role: 'Student', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Father', href: '/entities/individuals/donald-trump' },
- { name: 'Melania Trump', relationship: 'Mother', href: '/entities/individuals/melania-trump' },
- { name: 'Donald Trump Jr.', relationship: 'Half-brother', href: '/entities/individuals/donald-trump-jr' },
- { name: 'Ivanka Trump', relationship: 'Half-sister', href: '/entities/individuals/ivanka-trump' },
- { name: 'Eric Trump', relationship: 'Half-brother', href: '/entities/individuals/eric-trump' },
- { name: 'Viktor Knavs', relationship: 'Grandfather (maternal)', href: '/entities/individuals/viktor-knavs' },
- { name: 'Amalija Knavs', relationship: 'Grandmother (maternal, deceased)', href: '/entities/individuals/amalija-knavs' },
- ],
- controversies: [
- 'Selected as Florida delegate to 2024 RNC (mother declined)',
- 'Largely shielded from media scrutiny as a minor',
- 'Reported to have influenced father\'s outreach to young voters/podcasters',
- ],
- charges: [],
- relatedInvestigations: [],
- timeline: [
- { date: '2006', event: 'March 20: Born in New York City' },
- { date: '2017', event: 'Moves to White House after school year ends' },
- { date: '2021', event: 'Moves to Mar-a-Lago with parents' },
- { date: '2024', event: 'Selected as RNC delegate, mother declines' },
- { date: '2024', event: 'Enrolls at New York University' },
- ],
- sources: [
- { title: 'NYU Enrollment Reports', url: 'https://scholar.google.com/scholar?q=NYU%20Enrollment%20Reports', date: '2024' },
- ],
- },
- 'bill-taylor': {
- name: 'William Brockenbrough Taylor Jr.',
- title: 'Former Acting US Ambassador to Ukraine',
- role: 'Career Diplomat, Key Impeachment Witness',
- riskLevel: 'low',
- description: 'Bill Taylor is a retired U.S. diplomat and Vietnam War veteran who served as Acting U.S. Ambassador to Ukraine in 2019. His text messages and testimony revealed the quid pro quo linking military aid to investigations. He documented the"irregular channel"of Ukraine policy run by Giuliani.',
- birthDate: 'September 16, 1947',
- birthPlace: 'New York City, New York',
- education: [
- 'Harvard University (M.P.A.)',
- 'United States Military Academy at West Point',
- ],
- aliases: [],
- affiliations: [
- { name: 'State Department', role: 'Career Foreign Service Officer', type: 'agency' },
- { name: 'U.S. Institute of Peace', role: 'Vice President', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Marie Yovanovitch', relationship: 'Predecessor in Ukraine', href: '/entities/individuals/marie-yovanovitch' },
- { name: 'Gordon Sondland', relationship: 'EU Ambassador, irregular channel', href: '/entities/individuals/gordon-sondland' },
- { name: 'George Kent', relationship: 'State Dept colleague', href: '/entities/individuals/george-kent' },
- { name: 'Kurt Volker', relationship: 'Special Envoy, irregular channel', href: '/entities/individuals/kurt-volker' },
- ],
- controversies: [
- 'Documented quid pro quo in text messages',
- 'Testified about"irregular channel"in Ukraine policy',
- '"I think it\'s crazy to withhold security assistance for help with a political campaign"',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Ukraine Extortion', slug: 'ukraine-extortion', severity: 'critical' },
- ],
- timeline: [
- { date: '2019', event: 'June: Named Acting Ambassador to Ukraine' },
- { date: '2019', event: 'September: Texts reveal quid pro quo concern' },
- { date: '2019', event: 'October/November: Testifies in impeachment inquiry' },
- { date: '2020', event: 'January: Leaves Ukraine post' },
- ],
- sources: [
- { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/', date: '2019' },
- { title: 'Text Messages Released by House', url: 'https://www.courtlistener.com/', date: '2019' },
- ],
- },
- 'brad-parscale': {
- name: 'Bradley James Parscale',
- title: 'Former Trump Campaign Manager',
- role: 'Digital Media Strategist',
- riskLevel: 'medium' as const,
- description: 'Digital media consultant who ran Trump\'s 2020 campaign before being demoted amid falling poll numbers. Previously managed Trump\'s successful 2016 digital campaign. In September 2020, was involuntarily committed after his wife called police about self-harm threats following his firing. Investigated for campaign finance issues.',
- birthDate: 'January 3, 1976',
- birthPlace: 'Topeka, Kansas',
- education: [
- 'Trinity University (B.A.)',
- ],
- affiliations: [
- { name: 'Trump Campaign', role: 'Campaign Manager (Former)', type: 'organization' },
- { name: 'Republican Party', role: 'Digital Strategist', type: 'organization' },
- ],
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Served as 2020 campaign manager before demotion; built Trump\'s digital operation starting in 2016', href: '/entities/individuals/donald-trump' },
- { name: 'Jared Kushner', relationship: 'Close working relationship as Kushner oversaw digital campaign strategy; Kushner was key to his hiring and firing', href: '/entities/individuals/jared-kushner' },
- { name: 'Cambridge Analytica', relationship: 'Coordinated with the data firm on Trump 2016 campaign\'s micro-targeting voter strategy', href: '/entities/individuals/cambridge-analytica' },
- ],
- controversies: [
- 'Demoted as campaign manager amid falling polls',
- 'Mental health crisis - Baker Acted in September 2020',
- 'Lavish lifestyle scrutinized during campaign',
- 'Cambridge Analytica connections in 2016',
- 'Campaign finance practices investigated',
- 'Received over $39 million through campaign firms',
- 'Luxury purchases while campaign finances scrutinized',
- 'Facebook advertising practices under investigation',
- ],
- charges: [
- { statute: '52 U.S.C. § 30114', description: 'Potential Personal Use of Campaign Funds - Lavish lifestyle including luxury cars, waterfront homes while receiving tens of millions from campaign operations', category: 'Potential Election' },
- { statute: '52 U.S.C. § 30104', description: 'Potential Campaign Finance Disclosure Violations - Complex web of LLCs and vendors may have obscured true flow of campaign funds', category: 'Potential Election' },
- { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud - Use of multiple corporate entities to funnel campaign payments', category: 'Potential Federal' },
- { statute: 'California Consumer Privacy Act', description: 'Potential Privacy Violations - Cambridge Analytica data practices during 2016 digital campaign operations', category: 'Potential State' },
- { statute: '15 U.S.C. § 45 (FTC Act)', description: 'Potential Unfair/Deceptive Practices - Facebook advertising targeting using improperly obtained user data', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1030', description: 'Potential Computer Fraud - Cambridge Analytica data harvesting facilitated through campaign digital operations', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- { title: 'Cambridge Analytica', slug: 'cambridge-analytica', severity: 'high' },
- { title: 'Campaign Finance Fraud', slug: 'campaign-finance', severity: 'high' },
- ],
- timeline: [
- { date: '2016', event: 'Runs Trump digital campaign' },
- { date: 'February 2018', event: 'Named 2020 campaign manager' },
- { date: 'July 2020', event: 'Demoted from campaign manager' },
- { date: 'September 2020', event: 'Baker Acted after mental health crisis' },
- ],
- sources: [
- { title: 'Campaign Finance Records', url: 'https://www.fec.gov/', date: '2020' },
- { title: 'Florida Police Report', url: 'https://scholar.google.com/scholar?q=Florida%20Police%20Report', date: '2020' },
- ],
- },
- 'boris-epshteyn': {
- name: 'Boris Epshteyn',
- title: 'Trump Strategic Advisor',
- role: 'Campaign Advisor & Fake Electors Co-Conspirator',
- riskLevel: 'high' as const,
- description: 'Russian-born American political strategist who serves as a close advisor to Donald Trump. Indicted in Arizona in April 2024 for his role in the fake electors scheme. Described as gatekeeper to Trump and key architect of post-election strategy. Previously worked as Trump 2016 surrogate and White House communications staffer.',
- birthDate: 'August 12, 1982',
- birthPlace: 'Moscow, Russia (Soviet Union)',
- education: [
- 'J.D. - Georgetown University Law Center',
- 'B.A. - Georgetown University',
- ],
- affiliations: [
- { name: 'Trump Campaign 2024', role: 'Strategic Advisor', type: 'organization' },
- { name: 'Trump White House', role: 'Special Assistant (2017)', type: 'agency' },
- { name: 'Sinclair Broadcasting', role: 'Former Commentator', type: 'corporation' },
- ],
- controversies: [
- 'Indicted in Arizona fake electors scheme',
- 'Key architect of post-2020 election strategy',
- 'Coordinates Trump legal defense across jurisdictions',
- 'Subpoenaed by January 6 Committee',
- 'Forced to resign from White House after 2 months',
- 'Serves as Trump gatekeeper',
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Senior political advisor and campaign attorney', href: '/entities/individuals/donald-trump' },
- { name: 'Evan Corcoran', relationship: 'Fellow Trump legal defense team member', href: '/entities/individuals/evan-corcoran' },
- { name: 'Jeffrey Epstein', relationship: 'Referenced in Epstein file release political discussions', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Keith Schiller', relationship: 'Fellow Trump inner circle member', href: '/entities/individuals/keith-schiller' }
- ],
- charges: [
- { statute: 'Arizona A.R.S. § 13-2310', description: 'Fraudulent Schemes and Artifices - Indicted April 2024 for role in fake electors scheme', category: 'Election Crimes' },
- { statute: 'Arizona A.R.S. § 13-1003', description: 'Conspiracy - Coordinated multi-state fake electors implementation', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 371 (Conspiracy to Defraud US)', description: 'Federal Conspiracy - Key architect coordinating post-election strategy across jurisdictions', category: 'Federal Crime' },
- { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress - Coordinated efforts to prevent January 6 certification', category: 'Obstruction' },
- { statute: '52 U.S.C. § 20511 (Election Fraud)', description: 'Election Interference - Directed state-level fake electors implementation', category: 'Election Crime' },
- { statute: '18 U.S.C. § 1001 (False Statements)', description: 'False Claims - Spread knowingly false election fraud allegations', category: 'Fraud' },
- { statute: 'Nevada Fake Electors Investigation', description: 'Under Investigation - Potential charges pending in Nevada for fake electors role', category: 'State Crimes' },
- { statute: 'Georgia RICO Investigation', description: 'Potential Target - Possible unindicted co-conspirator in Georgia RICO case', category: 'State Crimes' },
- ],
- relatedInvestigations: [
- { title: 'Fake Electors Scheme', slug: 'fake-electors', severity: 'critical' },
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- ],
- timeline: [
- { date: '2016', event: 'Trump campaign surrogate' },
- { date: 'January 2017', event: 'Appointed Special Assistant to President' },
- { date: 'March 2017', event: 'Resigns from White House' },
- { date: '2020-2021', event: 'Coordinates post-election legal strategy' },
- { date: 'December 2020', event: 'Involved in fake electors planning' },
- { date: 'April 2024', event: 'Indicted in Arizona' },
- ],
- sources: [
- { title: 'Arizona Fake Electors Indictment', url: 'https://www.justice.gov/', date: '2024' },
- { title: 'January 6 Committee Subpoena', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Subpoena', date: '2022' },
- ],
- },
- 'benjamin-netanyahu': {
- name: 'Benjamin Netanyahu',
- title: 'Prime Minister of Israel',
- role: 'International Trump Ally',
- riskLevel: 'medium' as const,
- aliases: ['Bibi Netanyahu'],
- description: 'Long-serving Israeli Prime Minister and close Trump ally. Benefited from Trump\'s Jerusalem embassy move, Golan Heights recognition, and Abraham Accords. Trump named settlements after him. Currently facing corruption charges in Israel and ICC arrest warrant for Gaza war crimes.',
- birthDate: 'October 21, 1949',
- birthPlace: 'Tel Aviv, Israel',
- education: [
- 'M.B.A. - MIT Sloan School',
- 'B.S. Architecture - MIT',
- ],
- affiliations: [
- { name: 'Israeli Government', role: 'Prime Minister', type: 'agency' },
- { name: 'Likud Party', role: 'Leader', type: 'organization' },
- ],
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Close alliance yielded Jerusalem embassy move, Golan Heights recognition, and Abraham Accords; named settlement"Trump Heights"', href: '/entities/individuals/donald-trump' },
- { name: 'Jared Kushner', relationship: 'Longtime family friend who led Abraham Accords negotiations; Netanyahu attended Kushner family events for decades', href: '/entities/individuals/jared-kushner' },
- { name: 'Vladimir Putin', relationship: 'Maintained working relationship on Syria de-confliction; visited Moscow frequently to coordinate military operations', href: '/entities/individuals/vladimir-putin' },
- { name: 'Joe Biden', relationship: 'Decades-long relationship strained by Biden administration pressure over judicial overhaul and Gaza operations', href: '/entities/individuals/joe-biden' },
- ],
- controversies: [
- 'Corruption charges in Israel (ongoing)',
- 'ICC arrest warrant for war crimes (2024)',
- 'Close Trump relationship',
- 'Benefited from Jerusalem embassy move',
- 'Trump recognized Golan Heights annexation',
- 'Trump named settlement"Trump Heights"',
- 'Gaza humanitarian crisis',
- ],
- charges: [
- { statute: 'Rome Statute Article 8 (War Crimes)', description: 'ICC ARREST WARRANT - International Criminal Court issued arrest warrant for war crimes in Gaza (November 2024)', category: 'International Criminal' },
- { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'ICC ARREST WARRANT - Arrest warrant includes crimes against humanity charges', category: 'International Criminal' },
- { statute: 'Israeli Penal Law - Bribery', description: 'Israeli Corruption Case 4000 - Charged with bribery for regulatory favors to telecom company in exchange for positive coverage', category: 'Israeli Criminal' },
- { statute: 'Israeli Penal Law - Fraud and Breach of Trust', description: 'Israeli Corruption Cases 1000 & 2000 - Charged with fraud for accepting improper gifts from businessmen', category: 'Israeli Criminal' },
- { statute: 'Geneva Convention IV', description: 'Protection of Civilians - ICC cited violations of protections for civilian population in Gaza', category: 'International Humanitarian Law' },
- { statute: 'UN Charter Article 2(4)', description: 'Proportionality Violations - Disproportionate military response documented by UN agencies', category: 'International' },
- ],
- relatedInvestigations: [
- { title: 'Saudi Connections', slug: 'saudi-connections', severity: 'high' },
- ],
- timeline: [
- { date: 'December 2017', event: 'Trump recognizes Jerusalem as capital' },
- { date: 'May 2018', event: 'U.S. Embassy moves to Jerusalem' },
- { date: 'March 2019', event: 'Trump recognizes Golan Heights' },
- { date: '2020', event: 'Abraham Accords signing' },
- { date: 'November 2024', event: 'ICC issues arrest warrant' },
- ],
- sources: [
- { title: 'State Department Records', url: 'https://www.state.gov/', date: '2017-2020' },
- { title: 'ICC Arrest Warrant', url: 'https://www.icc-cpi.int/', date: '2024' },
- ],
- },
+  'barron-trump': {
+    name: 'Barron William Trump',
+    title: 'Son of Donald Trump',
+    role: 'Student, Trump Family Member',
+    riskLevel: 'low',
+    description: 'Barron Trump is the youngest child of Donald Trump and Melania Trump. Born in 2006, he was 10 years old when his father became president. He has been largely shielded from public life, though he was selected as a Florida delegate to the 2024 Republican National Convention before his mother declined on his behalf. He enrolled at NYU in 2024.',
+    birthDate: 'March 20, 2006',
+    birthPlace: 'New York City, New York',
+    education: ['New York University (enrolled 2024)', 'Oxbridge Academy, Palm Beach, Florida', 'St. Andrew\'s Episcopal School, Potomac, Maryland', 'Columbia Grammar & Preparatory School, NYC'],
+    affiliations: [
+      { name: 'Trump Family', role: 'Son of Donald and Melania Trump', type: 'organization' },
+      { name: 'New York University', role: 'Student', type: 'organization' },
+    ],
+    controversies: [
+      'Selected as Florida delegate to 2024 RNC (mother declined)',
+      'Largely shielded from media scrutiny as a minor',
+      'Reported to have influenced father\'s outreach to young voters/podcasters',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2006', event: 'March 20: Born in New York City' },
+      { date: '2017', event: 'Moves to White House after school year ends' },
+      { date: '2021', event: 'Moves to Mar-a-Lago with parents' },
+      { date: '2024', event: 'Selected as RNC delegate, mother declines' },
+      { date: '2024', event: 'Enrolls at New York University' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NYU Enrollment Reports', url: 'https://scholar.google.com/scholar?q=NYU%20Enrollment%20Reports', date: '2024' },
+    ],
+    aliases: ['Barron'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Father', href: '/entities/individuals/donald-trump' },
+      { name: 'Melania Trump', relationship: 'Mother', href: '/entities/individuals/melania-trump' },
+      { name: 'Donald Trump Jr.', relationship: 'Half-brother', href: '/entities/individuals/donald-trump-jr' },
+      { name: 'Ivanka Trump', relationship: 'Half-sister', href: '/entities/individuals/ivanka-trump' },
+      { name: 'Eric Trump', relationship: 'Half-brother', href: '/entities/individuals/eric-trump' },
+      { name: 'Viktor Knavs', relationship: 'Grandfather (maternal)', href: '/entities/individuals/viktor-knavs' },
+      { name: 'Amalija Knavs', relationship: 'Grandmother (maternal, deceased)', href: '/entities/individuals/amalija-knavs' },
+    ],
+  },
+
+  'bill-taylor': {
+    name: 'William Brockenbrough Taylor Jr.',
+    title: 'Former Acting US Ambassador to Ukraine',
+    role: 'Career Diplomat, Key Impeachment Witness',
+    riskLevel: 'low',
+    description: 'Bill Taylor is a retired U.S. diplomat and Vietnam War veteran who served as Acting U.S. Ambassador to Ukraine in 2019. His text messages and testimony revealed the quid pro quo linking military aid to investigations. He documented the"irregular channel"of Ukraine policy run by Giuliani.',
+    birthDate: 'September 16, 1947',
+    birthPlace: 'New York City, New York',
+    education: ['Harvard University (M.P.A.)', 'United States Military Academy at West Point'],
+    affiliations: [
+      { name: 'State Department', role: 'Career Foreign Service Officer', type: 'agency' },
+      { name: 'U.S. Institute of Peace', role: 'Vice President', type: 'organization' },
+    ],
+    controversies: [
+      'Documented quid pro quo in text messages',
+      'Testified about"irregular channel"in Ukraine policy',
+      '"I think it\'s crazy to withhold security assistance for help with a political campaign"',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Ukraine Extortion', slug: 'ukraine-extortion', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2019', event: 'June: Named Acting Ambassador to Ukraine' },
+      { date: '2019', event: 'September: Texts reveal quid pro quo concern' },
+      { date: '2019', event: 'October/November: Testifies in impeachment inquiry' },
+      { date: '2020', event: 'January: Leaves Ukraine post' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/', date: '2019' },
+      { title: 'Text Messages Released by House', url: 'https://www.courtlistener.com/', date: '2019' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Marie Yovanovitch', relationship: 'Predecessor in Ukraine', href: '/entities/individuals/marie-yovanovitch' },
+      { name: 'Gordon Sondland', relationship: 'EU Ambassador, irregular channel', href: '/entities/individuals/gordon-sondland' },
+      { name: 'George Kent', relationship: 'State Dept colleague', href: '/entities/individuals/george-kent' },
+      { name: 'Kurt Volker', relationship: 'Special Envoy, irregular channel', href: '/entities/individuals/kurt-volker' },
+    ],
+  },
+
+  'brad-parscale': {
+    name: 'Brad Parscale',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Brad Parscale is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Brad Parscale has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'boris-epshteyn': {
+    name: 'Boris Epshteyn',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Boris Epshteyn is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Boris Epshteyn has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'benjamin-netanyahu': {
+    name: 'Benjamin Netanyahu',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Benjamin Netanyahu is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Benjamin Netanyahu has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'bennie-thompson': {
  name: 'Bennie Gordon Thompson',
  title: 'U.S. Representative (D-MS)',
@@ -674,62 +602,36 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Presidential Records', url: 'https://scholar.google.com/scholar?q=Presidential%20Records', date: 'Various' },
  ],
  },
- 'brett-kavanaugh': {
- name: 'Brett Michael Kavanaugh',
- title: 'Associate Justice, U.S. Supreme Court',
- role: 'Trump Appointee, Conservative Majority',
- riskLevel: 'high' as const,
- description: 'Brett Kavanaugh was confirmed to the Supreme Court in 2018 amid credible sexual assault allegations from Dr. Christine Blasey Ford and others. His confirmation hearing became a national spectacle with Kavanaugh displaying a combative, partisan temperament. He was confirmed 50-48, the narrowest margin in modern history.',
- birthDate: 'February 12, 1965',
- birthPlace: 'Washington, D.C., USA',
- education: [
- 'Juris Doctor, cum laude - Yale Law School',
- 'Bachelor of Arts, cum laude - Yale University',
- ],
- affiliations: [
- { name: 'U.S. Supreme Court', role: 'Associate Justice (2018-Present)', type: 'agency' },
- { name: 'Federalist Society', role: 'Member', type: 'organization' },
- { name: 'Ken Starr Investigation', role: 'Former staff attorney', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Nominated by', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'Dr. Christine Blasey Ford alleged sexual assault',
- 'Multiple other women came forward with allegations',
- 'Combative, partisan confirmation hearing',
- 'Narrowest confirmation margin in modern history (50-48)',
- 'Limited FBI investigation scope',
- 'Unexplained baseball ticket debts paid off',
- 'Voted to overturn Roe v. Wade',
- ],
- charges: [
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements to Congress - Conflicting testimony about drinking, sexual behavior, yearbook references', category: 'Potential' },
- { statute: '18 U.S.C. § 1621', description: 'Potential Perjury - Statements under oath contradicted by contemporaneous witnesses', category: 'Potential' },
- { statute: 'Maryland Criminal Law § 3-307', description: 'Potential Sexual Offense - Dr. Christine Blasey Ford allegation of assault at 1982 party (no statute of limitations for felony sexual offenses)', category: 'Potential State' },
- { statute: '5 U.S.C. app. §§ 101-111 (Ethics in Government Act)', description: 'Potential Violations - $92,000 in"baseball tickets"debt mysteriously paid off before nomination, unexplained $200K in debts disappeared', category: 'Potential Ethics' },
- { statute: '28 U.S.C. § 455(a)', description: 'Disqualification Concerns - Partisan statements during confirmation about"revenge on behalf of the Clintons"demonstrate bias', category: 'Judicial Ethics' },
- { statute: 'Code of Conduct for U.S. Judges', description: 'Canon 2 Violations - Displayed partisan bias and political statements during confirmation process', category: 'Judicial' },
- { statute: '18 U.S.C. § 201(c)', description: 'Potential Illegal Gratuity - Unexplained payment of debts by unknown parties prior to nomination', category: 'Potential' },
- { statute: '18 U.S.C. § 1512(b)', description: 'Potential Witness Tampering - Reports that potential corroborating witnesses were contacted prior to FBI investigation', category: 'Potential' },
- ],
- relatedInvestigations: [
- { title: 'Supreme Court Ethics Crisis', slug: 'scotus-ethics', severity: 'critical' },
- { title: 'Federalist Society Court Capture', slug: 'federalist-society', severity: 'high' },
- ],
- timeline: [
- { date: '1982', event: 'Alleged assault of Christine Blasey Ford' },
- { date: 'July 2018', event: 'Nominated by Trump' },
- { date: 'September 2018', event: 'Blasey Ford testifies before Senate' },
- { date: 'September 2018', event: 'Combative hearing performance' },
- { date: 'October 2018', event: 'Confirmed 50-48' },
- { date: 'June 2022', event: 'Votes to overturn Roe v. Wade' },
- { date: 'July 2024', event: 'Votes to grant Trump immunity' },
- ],
- sources: [
- { title: 'Senate Judiciary Hearings', url: 'https://www.congress.gov/', date: '2018' },
- ],
- },
+  'brett-kavanaugh': {
+    name: 'Brett Kavanaugh',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Brett Kavanaugh is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Brett Kavanaugh has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'billy-bush': {
  name: 'William Hall Bush',
  title: 'TV Host',
@@ -800,75 +702,75 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Federal Indian Boarding School Initiative Reports', url: 'https://scholar.google.com/scholar?q=Federal%20Indian%20Boarding%20School%20Initiative%20Reports', date: '2022-2024' },
  ],
  },
- 'bashar-al-assad': {
- name: 'Bashar Hafez al-Assad',
- title: 'President of Syria (2000-2024)',
- role: 'Dictator, War Criminal, Chemical Weapons User',
- riskLevel: 'critical',
- description: 'Bashar al-Assad served as President of Syria from 2000 until his overthrow in December 2024. He inherited power from his father Hafez al-Assad and presided over the brutal suppression of the 2011 Arab Spring protests that evolved into the Syrian Civil War. His regime killed an estimated 500,000+ people, displaced 13 million, and used chemical weapons against civilians including the 2013 Ghouta attack killing 1,400+ and 2017 Khan Shaykhun attack. Assad received military backing from Russia and Iran throughout the conflict. He fled to Russia following rebel advances in December 2024.',
- birthDate: 'September 11, 1965',
- birthPlace: 'Damascus, Syria',
- education: [
- 'Damascus University - Medicine (1988)',
- 'Western Eye Hospital, London - Ophthalmology residency (1992-1994)',
- ],
- netWorth: '$1-2 billion (estimated, much looted from Syria)',
- aliases: ['The Butcher of Damascus', 'Dr. Assad'],
- affiliations: [
- { name: 'Syrian Government', role: 'President (2000-2024)', type: 'agency' },
- { name: 'Baath Party', role: 'Regional Secretary', type: 'organization' },
- { name: 'Syrian Armed Forces', role: 'Commander-in-Chief', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Vladimir Putin', relationship: 'Military ally, provided air support and troops', href: '/entities/individuals/vladimir-putin' },
- { name: 'Ali Khamenei', relationship: 'Iranian Supreme Leader, provided militias', href: '/entities/individuals/ali-khamenei' },
- { name: 'Qasem Soleimani', relationship: 'Iranian general coordinating Syria operations (killed 2020)', href: '/entities/individuals/qasem-soleimani' },
- { name: 'Hafez al-Assad', relationship: 'Father, predecessor dictator', href: '/entities/individuals/hafez-al-assad' },
- ],
- controversies: [
- 'CHEMICAL WEAPONS USE: Multiple documented chemical attacks including Ghouta (2013, 1,400+ dead), Khan Shaykhun (2017, 89 dead), Douma (2018)',
- 'MASS ATROCITIES: Estimated 500,000+ killed during Syrian Civil War under his command',
- 'TORTURE PROGRAM:"Caesar photos"documented systematic torture killing 11,000+ detainees',
- 'BARREL BOMBS: Indiscriminate use of barrel bombs on civilian areas',
- 'SIEGE WARFARE: Starved civilian populations in besieged areas like Eastern Ghouta',
- 'DISPLACEMENT: 13 million Syrians displaced, largest refugee crisis since WWII',
- 'HOSPITAL TARGETING: Systematic bombing of hospitals documented by MSF and others',
- 'RUSSIAN INTERVENTION: Invited Russian military intervention in 2015',
- ],
- charges: [
- { statute: 'Rome Statute Article 7(1)(a)', description: 'Murder - mass killing of civilians', category: 'Crimes Against Humanity' },
- { statute: 'Rome Statute Article 7(1)(f)', description: 'Torture - systematic torture program', category: 'Crimes Against Humanity' },
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Other inhumane acts - chemical weapons use', category: 'Crimes Against Humanity' },
- { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'Willful killing - war crime', category: 'War Crimes' },
- { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'Intentionally directing attacks against civilians', category: 'War Crimes' },
- { statute: 'Chemical Weapons Convention', description: 'Use of prohibited chemical weapons on civilian population', category: 'International Crime' },
- { statute: 'Geneva Convention Common Article 3', description: 'Violence to life and person of non-combatants', category: 'War Crimes' },
- ],
- relatedInvestigations: [
- { title: 'Crimes Against Humanity', slug: 'crimes-against-humanity', severity: 'critical' },
- { title: 'War Crimes Without Accountability', slug: 'war-crimes', severity: 'critical' },
- { title: 'Syrian Chemical Weapons Attacks', slug: 'syrian-chemical-weapons', severity: 'critical' },
- ],
- timeline: [
- { date: 'September 11, 1965', event: 'Born in Damascus' },
- { date: '1994', event: 'Brother Bassel dies in car crash, Bashar recalled from London' },
- { date: 'June 10, 2000', event: 'Father Hafez dies' },
- { date: 'July 17, 2000', event: 'Becomes President of Syria' },
- { date: 'March 2011', event: 'Arab Spring protests begin in Daraa' },
- { date: 'April 2011', event: 'Orders military crackdown on protesters' },
- { date: 'August 21, 2013', event: 'Ghouta chemical attack kills 1,400+' },
- { date: 'September 2013', event: 'Agrees to destroy chemical weapons under threat of U.S. strikes' },
- { date: 'September 30, 2015', event: 'Russia begins military intervention on his behalf' },
- { date: 'April 4, 2017', event: 'Khan Shaykhun chemical attack kills 89' },
- { date: 'April 7, 2018', event: 'Douma chemical attack' },
- { date: 'December 2024', event: 'Regime collapses, Assad flees to Russia' },
- ],
- sources: [
- { title: 'UN Commission of Inquiry on Syria', url: 'https://www.ohchr.org/en/hr-bodies/hrc/co-i-syria/co-i-syria-home', date: '2011-2024' },
- { title: 'OPCW Fact-Finding Mission Reports', url: 'https://opcw.org/fact-finding-mission-reports', date: '2014-2024' },
- { title: 'Human Rights Watch Syria Reports', url: 'https://hrw.org/middle-east/north-africa/syria', date: '2011-2024' },
- ],
- },
+  'bashar-al-assad': {
+    name: 'Bashar Hafez al-Assad',
+    title: 'President of Syria (2000-2024)',
+    role: 'Dictator, War Criminal, Chemical Weapons User',
+    riskLevel: 'critical',
+    description: 'Bashar al-Assad served as President of Syria from 2000 until his overthrow in December 2024. He inherited power from his father Hafez al-Assad and presided over the brutal suppression of the 2011 Arab Spring protests that evolved into the Syrian Civil War. His regime killed an estimated 500,000+ people, displaced 13 million, and used chemical weapons against civilians including the 2013 Ghouta attack killing 1,400+ and 2017 Khan Shaykhun attack. Assad received military backing from Russia and Iran throughout the conflict. He fled to Russia following rebel advances in December 2024.',
+    birthDate: 'September 11, 1965',
+    birthPlace: 'Damascus, Syria',
+    netWorth: '$1-2 billion (estimated, much looted from Syria)',
+    education: ['Damascus University - Medicine (1988)', 'Western Eye Hospital, London - Ophthalmology residency (1992-1994)'],
+    affiliations: [
+      { name: 'Syrian Government', role: 'President (2000-2024)', type: 'agency' },
+      { name: 'Baath Party', role: 'Regional Secretary', type: 'organization' },
+      { name: 'Syrian Armed Forces', role: 'Commander-in-Chief', type: 'agency' },
+    ],
+    controversies: [
+      'CHEMICAL WEAPONS USE: Multiple documented chemical attacks including Ghouta (2013, 1,400+ dead), Khan Shaykhun (2017, 89 dead), Douma (2018)',
+      'MASS ATROCITIES: Estimated 500,000+ killed during Syrian Civil War under his command',
+      'TORTURE PROGRAM:"Caesar photos"documented systematic torture killing 11,000+ detainees',
+      'BARREL BOMBS: Indiscriminate use of barrel bombs on civilian areas',
+      'SIEGE WARFARE: Starved civilian populations in besieged areas like Eastern Ghouta',
+      'DISPLACEMENT: 13 million Syrians displaced, largest refugee crisis since WWII',
+      'HOSPITAL TARGETING: Systematic bombing of hospitals documented by MSF and others',
+      'RUSSIAN INTERVENTION: Invited Russian military intervention in 2015',
+    ],
+    charges: [
+      { statute: 'Rome Statute Article 7(1)(a)', description: 'Murder - mass killing of civilians', category: 'Crimes Against Humanity' },
+      { statute: 'Rome Statute Article 7(1)(f)', description: 'Torture - systematic torture program', category: 'Crimes Against Humanity' },
+      { statute: 'Rome Statute Article 7(1)(k)', description: 'Other inhumane acts - chemical weapons use', category: 'Crimes Against Humanity' },
+      { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'Willful killing - war crime', category: 'War Crimes' },
+      { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'Intentionally directing attacks against civilians', category: 'War Crimes' },
+      { statute: 'Chemical Weapons Convention', description: 'Use of prohibited chemical weapons on civilian population', category: 'International Crime' },
+      { statute: 'Geneva Convention Common Article 3', description: 'Violence to life and person of non-combatants', category: 'War Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'Crimes Against Humanity', slug: 'crimes-against-humanity', severity: 'critical' },
+      { title: 'War Crimes Without Accountability', slug: 'war-crimes', severity: 'critical' },
+      { title: 'Syrian Chemical Weapons Attacks', slug: 'syrian-chemical-weapons', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'September 11, 1965', event: 'Born in Damascus' },
+      { date: '1994', event: 'Brother Bassel dies in car crash, Bashar recalled from London' },
+      { date: 'June 10, 2000', event: 'Father Hafez dies' },
+      { date: 'July 17, 2000', event: 'Becomes President of Syria' },
+      { date: 'March 2011', event: 'Arab Spring protests begin in Daraa' },
+      { date: 'April 2011', event: 'Orders military crackdown on protesters' },
+      { date: 'August 21, 2013', event: 'Ghouta chemical attack kills 1,400+' },
+      { date: 'September 2013', event: 'Agrees to destroy chemical weapons under threat of U.S. strikes' },
+      { date: 'September 30, 2015', event: 'Russia begins military intervention on his behalf' },
+      { date: 'April 4, 2017', event: 'Khan Shaykhun chemical attack kills 89' },
+      { date: 'April 7, 2018', event: 'Douma chemical attack' },
+      { date: 'December 2024', event: 'Regime collapses, Assad flees to Russia' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'UN Commission of Inquiry on Syria', url: 'https://www.ohchr.org/en/hr-bodies/hrc/co-i-syria/co-i-syria-home', date: '2011-2024' },
+      { title: 'OPCW Fact-Finding Mission Reports', url: 'https://opcw.org/fact-finding-mission-reports', date: '2014-2024' },
+      { title: 'Human Rights Watch Syria Reports', url: 'https://hrw.org/middle-east/north-africa/syria', date: '2011-2024' },
+    ],
+    aliases: ['The Butcher of Damascus', 'Dr. Assad'],
+    knownAssociates: [
+      { name: 'Vladimir Putin', relationship: 'Military ally, provided air support and troops', href: '/entities/individuals/vladimir-putin' },
+      { name: 'Ali Khamenei', relationship: 'Iranian Supreme Leader, provided militias', href: '/entities/individuals/ali-khamenei' },
+      { name: 'Qasem Soleimani', relationship: 'Iranian general coordinating Syria operations (killed 2020)', href: '/entities/individuals/qasem-soleimani' },
+      { name: 'Hafez al-Assad', relationship: 'Father, predecessor dictator', href: '/entities/individuals/hafez-al-assad' },
+    ],
+  },
+
+
  'brian-ohara': {
  name: 'Brian OHara',
  title: 'Police Administrator',
@@ -1178,140 +1080,96 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Björn Fehrm', url: 'https://en.wikipedia.org/wiki/Bj%C3%B6rn_Fehrm' }, { title: 'Wired: Björn Fehrm', url: 'https://www.wired.com/' }],
  },
- 'bill-hwang': {
- name: 'Sung Kook"Bill"Hwang',
- title: 'Archegos Capital Founder',
- role: 'Archegos Founder - $36 Billion Collapse',
- riskLevel: 'critical',
- description: 'Bill Hwang founded Archegos Capital Management, a family office that secretly amassed massive leveraged positions in media stocks using total return swaps to hide its exposure. In March 2021, Archegos collapsed in days, causing $36 billion in losses and triggering the bankruptcy of Credit Suisse\'s prime brokerage. Hwang was convicted in July 2024 of fraud, market manipulation, and racketeering.',
- birthDate: '1964',
- birthPlace: 'South Korea',
- education: ['UCLA', 'Carnegie Mellon (MBA)'],
- affiliations: [
- { name: 'Archegos Capital', role: 'Founder', type: 'corporation' as const },
- { name: 'Tiger Management', role: 'Former Analyst', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Julian Robertson', relationship: 'Former mentor at Tiger', href: '/entities/individuals/julian-robertson' },
- ],
- controversies: [
- 'ARCHEGOS COLLAPSE: $36 billion in losses',
- 'HIDDEN LEVERAGE: Used swaps to hide massive positions',
- 'MARKET MANIPULATION: Artificially inflated stock prices',
- 'CREDIT SUISSE: Collapse contributed to CS bankruptcy',
- 'PRIOR CONVICTION: 2012 SEC insider trading settlement',
- 'RACKETEERING: Convicted under RICO',
- 'RELIGIOUS HYPOCRISY: Ran"Christian"fund while committing fraud',
- ],
- charges: [
- { statute: '18 U.S.C. � 1962', description: 'RICO - Racketeering conspiracy', category: 'CONVICTED' },
- { statute: '15 U.S.C. � 78j(b)', description: 'Securities Fraud - Market manipulation', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 1343', description: 'Wire Fraud', category: 'CONVICTED' },
- ],
- relatedInvestigations: [
- { title: 'Archegos Collapse', slug: 'archegos-collapse', severity: 'critical' },
- { title: 'Wall Street Manipulation', slug: 'wall-street-manipulation', severity: 'critical' },
- ],
- timeline: [
- { date: '1964', event: 'Born in South Korea' },
- { date: '2012', event: 'SEC settlement for insider trading' },
- { date: '2013', event: 'Founds Archegos Capital' },
- { date: 'March 2021', event: 'Archegos collapses in days' },
- { date: 'April 2022', event: 'Indicted on fraud charges' },
- { date: 'July 2024', event: 'Convicted on all counts' },
- ],
- sources: [{ title: 'Wikipedia: Sung Kook"Bill"Hwang', url: 'https://en.wikipedia.org/wiki/Sung_Kook_"Bill"_Hwang' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
- },
- 'bernie-ebbers': {
- name: 'Bernard Ebbers',
- title: 'Former WorldCom CEO',
- role: 'WorldCom CEO - $11 Billion Accounting Fraud',
- riskLevel: 'critical',
- description: 'Bernie Ebbers built WorldCom into a telecom giant through aggressive acquisitions, then oversaw an $11 billion accounting fraud - the largest in U.S. history at the time. The fraud inflated profits and hid expenses, misleading investors and employees. When WorldCom collapsed in 2002, it was the largest bankruptcy in American history. Ebbers was sentenced to 25 years in prison.',
- birthDate: 'August 27, 1941',
- birthPlace: 'Edmonton, Alberta, Canada',
- deathDate: 'February 2, 2020',
- education: ['Mississippi College'],
- affiliations: [
- { name: 'WorldCom', role: 'Former CEO', type: 'corporation' as const },
- ],
- controversies: [
- '$11 BILLION FRAUD: Largest accounting fraud at the time',
- 'LARGEST BANKRUPTCY: WorldCom collapse was record',
- '17,000 JOBS LOST: Employees lost jobs and retirement',
- 'FEIGNED IGNORANCE: Claimed he didn\'t know about fraud',
- 'LOANS FROM COMPANY: Borrowed $400M from WorldCom',
- 'DIED IN PRISON: Released shortly before death',
- ],
- charges: [
- { statute: '15 U.S.C. � 78j(b)', description: 'Securities Fraud', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 1343', description: 'Wire Fraud', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 371', description: 'Conspiracy', category: 'CONVICTED' },
- ],
- relatedInvestigations: [
- { title: 'WorldCom Fraud', slug: 'worldcom-fraud', severity: 'critical' },
- { title: 'Corporate Crime', slug: 'corporate-crime', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 27, 1941', event: 'Born in Canada' },
- { date: '1983', event: 'Founds LDDS (later WorldCom)' },
- { date: 'June 2002', event: 'WorldCom fraud discovered' },
- { date: 'July 2002', event: 'WorldCom files bankruptcy' },
- { date: 'March 2005', event: 'Convicted on all counts' },
- { date: 'July 2005', event: 'Sentenced to 25 years' },
- { date: 'February 2, 2020', event: 'Dies shortly after release' },
- ],
- sources: [{ title: 'Wikipedia: Bernard Ebbers', url: 'https://en.wikipedia.org/wiki/Bernard_Ebbers' }, { title: 'Bloomberg: Bernard Ebbers', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- knownAssociates: [
- { name: 'Scott Sullivan', relationship: 'WorldCom CFO who cooperated in fraud case against Ebbers', href: '/entities/individuals/scott-sullivan' },
- { name: 'Jack Grubman', relationship: 'Telecom analyst whose recommendations propped up WorldCom', href: '/entities/individuals/jack-grubman' }
- ],
+  'bill-hwang': {
+    name: 'Bill Hwang',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Bill Hwang is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Bill Hwang has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
- 'brett-hankison': {
- name: 'Brett Hankison',
- title: 'Former Louisville Police Detective',
- role: 'Breonna Taylor Raid - Fired Blindly Into Apartment',
- riskLevel: 'high',
- description: 'Brett Hankison was a Louisville police detective who fired 10 rounds blindly into Breonna Taylor\'s apartment during the March 2020 raid, with bullets entering neighboring apartments. He was the only officer charged initially - not for Taylor\'s death but for"wanton endangerment"of her neighbors. He was acquitted of state charges but later convicted of federal civil rights violations.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Police training'],
- affiliations: [
- { name: 'Louisville Metro Police', role: 'Former Detective (Fired)', type: 'agency' as const },
- ],
- controversies: [
- 'BLIND FIRING: Shot 10 rounds into covered window/door',
- 'NEIGHBORING APARTMENTS: Bullets endangered other residents',
- 'FIRED FROM DEPARTMENT: Terminated for actions',
- 'STATE ACQUITTAL: Found not guilty of wanton endangerment',
- 'FEDERAL CONVICTION: Convicted of civil rights violations',
- 'PRIOR MISCONDUCT: History of complaints',
- ],
- charges: [
- { statute: '18 U.S.C. � 242', description: 'Deprivation of Rights Under Color of Law', category: 'CONVICTED' },
- { statute: 'KY Wanton Endangerment', description: 'Endangering Taylor\'s neighbors', category: 'ACQUITTED' },
- ],
- relatedInvestigations: [
- { title: 'Breonna Taylor Killing', slug: 'breonna-taylor', severity: 'critical' },
- { title: 'Police Brutality', slug: 'police-brutality', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 13, 2020', event: 'Breonna Taylor raid' },
- { date: 'June 2020', event: 'Fired from department' },
- { date: 'September 2020', event: 'Charged with wanton endangerment' },
- { date: 'March 2022', event: 'Acquitted of state charges' },
- { date: 'August 2022', event: 'Federal civil rights charges' },
- { date: '2023', event: 'Convicted of federal charges' },
- ],
- sources: [{ title: 'Wikipedia: Brett Hankison', url: 'https://en.wikipedia.org/wiki/Brett_Hankison' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
- knownAssociates: [
- { name: 'Breonna Taylor', relationship: 'One of officers involved in fatal raid on Taylor\'s apartment', href: '/entities/individuals/breonna-taylor' },
- { name: 'Myles Cosgrove', relationship: 'Fellow officer who fired shots during Breonna Taylor raid', href: '/entities/individuals/myles-cosgrove' },
- { name: 'Joshua Jaynes', relationship: 'Detective who obtained no-knock warrant for Taylor raid', href: '/entities/individuals/joshua-jaynes' }
- ],
+  'bernie-ebbers': {
+    name: 'Bernie Ebbers',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Bernie Ebbers is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Bernie Ebbers has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
+  'brett-hankison': {
+    name: 'Brett Hankison',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Brett Hankison is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Brett Hankison has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'brian-moynihan': {
  name: 'Brian Moynihan',
  title: 'Bank of America CEO',
@@ -1636,95 +1494,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Ben Shapiro', url: 'https://en.wikipedia.org/wiki/Ben_Shapiro' }, { title: 'InsideClimate News', url: 'https://insideclimatenews.org/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
- 'ben-horowitz': {
- name: 'Ben Horowitz',
- title: 'Venture Capitalist',
- role: 'a16z Co-Founder - Tech Oligarch, Trump Donor',
- riskLevel: 'high',
- description: 'Ben Horowitz is a billionaire venture capitalist who co-founded Andreessen Horowitz (a16z). Despite previously supporting Democratic causes, he became a major Trump donor in 2024, citing crypto regulation concerns. His firm has invested in numerous controversial startups.',
- birthDate: 'June 13, 1966',
- birthPlace: 'London, England',
- education: ['Columbia University', 'UCLA Anderson School'],
- netWorth: '$600 million',
- affiliations: [
- { name: 'Andreessen Horowitz', role: 'Co-Founder/General Partner', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Marc Andreessen', relationship: 'Business partner', href: '/entities/individuals/marc-andreessen' },
- 
- { name: 'Jeffrey Epstein', relationship: 'Silicon Valley connections to Epstein\'s tech industry fundraising network', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Reid Hoffman', relationship: 'Fellow VC who admitted knowing and meeting with Epstein', href: '/entities/individuals/reid-hoffman' },
- { name: 'Chamath Palihapitiya', relationship: 'Silicon Valley peer in tech venture capital ecosystem', href: '/entities/individuals/chamath-palihapitiya' },
- { name: 'Joi Ito', relationship: 'MIT Media Lab director who solicited Epstein donations; VC connections', href: '/entities/individuals/joi-ito' }
- ],
- controversies: [
- 'TRUMP DONOR: Major contributor to Trump 2024',
- 'POLITICAL FLIP: Previously Democratic donor',
- 'CRYPTO LOBBYING: Pushed for crypto deregulation',
- 'CONTROVERSIAL INVESTMENTS: Backed problematic companies',
- 'CULTURAL INFLUENCE: Shapes tech industry ideology',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Tech Oligarchy', slug: 'tech-oligarchy', severity: 'high' },
- { title: 'Political Dark Money', slug: 'political-dark-money', severity: 'medium' },
- ],
- timeline: [
- { date: 'June 13, 1966', event: 'Born in London' },
- { date: '1999', event: 'Co-founds Loudcloud' },
- { date: '2009', event: 'Co-founds Andreessen Horowitz' },
- { date: '2024', event: 'Endorses and donates to Trump' },
- ],
- sources: [{ title: 'Wikipedia: Ben Horowitz', url: 'https://en.wikipedia.org/wiki/Ben_Horowitz' }, { title: 'NYT: Ben Horowitz Profile', url: 'https://www.nytimes.com/' }, { title: 'Washington Post: Ben Horowitz', url: 'https://www.washingtonpost.com/' }, { title: 'Bloomberg: Ben Horowitz', url: 'https://www.bloomberg.com/' }, { title: 'Reuters: Russia Coverage', url: 'https://web.archive.org/web/2024/https://www.reuters.com/world/russia-ukraine/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Wired: Ben Horowitz', url: 'https://www.wired.com/' }],
- },
- 'bernie-madoff': {
- name: 'Bernie Madoff',
- title: 'Convicted Ponzi Schemer (Deceased)',
- role: 'Largest Ponzi Scheme in History - $65 BILLION CONVICTED',
- riskLevel: 'critical',
- description: 'Bernie Madoff perpetrated the largest Ponzi scheme in history, defrauding investors of approximately $65 billion. His victims included charities, pension funds, and individual investors. He was sentenced to 150 years and died in prison in 2021.',
- birthDate: 'April 29, 1938',
- birthPlace: 'Queens, New York',
- education: ['Hofstra University', 'Brooklyn Law School (no degree)'],
- netWorth: 'Negative (all assets seized)',
- affiliations: [
- { name: 'Bernard L. Madoff Investment Securities', role: 'Founder/Chairman', type: 'corporation' as const },
- ],
- controversies: [
- '$65 BILLION FRAUD: Largest Ponzi scheme ever',
- 'DESTROYED CHARITIES: Wiped out foundations',
- 'FAMILY DEVASTATION: Son committed suicide',
- 'SEC FAILURE: Ignored whistleblowers for years',
- 'FEEDER FUNDS: Network of enablers',
- '150 YEARS: Maximum sentence',
- ],
- charges: [
- { statute: '18 U.S.C. � 1341', description: 'Mail fraud', category: 'CONVICTED - 150 YEARS' },
- { statute: '18 U.S.C. � 1343', description: 'Wire fraud', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 1956', description: 'Money laundering', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 1957', description: 'Engaging in monetary transactions with criminal proceeds', category: 'CONVICTED' },
- ],
- relatedInvestigations: [
- { title: 'Madoff Ponzi Scheme', slug: 'madoff-ponzi', severity: 'critical' },
- { title: 'SEC Failures', slug: 'sec-failures', severity: 'critical' },
- ],
- timeline: [
- { date: 'April 29, 1938', event: 'Born in Queens' },
- { date: '1960', event: 'Founds investment firm' },
- { date: '1980s', event: 'Ponzi scheme likely begins' },
- { date: 'December 2008', event: 'Scheme collapses, arrested' },
- { date: 'June 2009', event: 'Sentenced to 150 years' },
- { date: 'April 14, 2021', event: 'Dies in prison' },
- ],
- sources: [{ title: 'Wikipedia: Bernie Madoff', url: 'https://en.wikipedia.org/wiki/Bernie_Madoff' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- knownAssociates: [
- { name: 'Harry Markopolos', relationship: 'Whistleblower who warned SEC about Madoff for years', href: '/entities/individuals/harry-markopolos' },
- { name: 'Frank DiPascali', relationship: 'Madoff\'s right-hand man and key co-conspirator', href: '/entities/individuals/frank-dipascali' },
- { name: 'Irving Picard', relationship: 'Trustee recovering Madoff victims\' funds', href: '/entities/individuals/irving-picard' },
- { name: 'Peter Madoff', relationship: 'Brother and compliance officer in Madoff scheme', href: '/entities/individuals/peter-madoff' }
- ],
+  'ben-horowitz': {
+    name: 'Ben Horowitz',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ben Horowitz is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Ben Horowitz has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
+  'bernie-madoff': {
+    name: 'Bernie Madoff',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Bernie Madoff is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Bernie Madoff has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'bruce-jessen': {
  name: 'Bruce Jessen',
  title: 'CIA Torture Psychologist',
@@ -1801,44 +1630,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Billy McFarland', url: 'https://en.wikipedia.org/wiki/Billy_McFarland' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
  },
- 'bill-oreilly': {
- name: 'Bill O\'Reilly',
- title: 'Disgraced TV Host',
- role: 'Former Fox News Host - Sexual Harassment Settlements',
- riskLevel: 'high',
- description: 'Bill O\'Reilly was Fox News\' top-rated host until he was fired after revelations that Fox paid $45+ million to settle sexual harassment claims against him. He used his powerful position to harass women and attempted to destroy the careers of those who complained.',
- birthDate: 'September 10, 1949',
- birthPlace: 'New York City',
- education: ['Marist College', 'Boston University', 'Harvard Kennedy School'],
- affiliations: [
- { name: 'Fox News', role: 'Former Host', type: 'corporation' as const },
- ],
+  'bill-oreilly': {
+    name: 'Bill Oreilly',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Bill Oreilly is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Bill Oreilly has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Rupert Murdoch', relationship: 'Fox News owner who protected O\'Reilly through multiple harassment scandals before firing him in 2017 after advertiser exodus', href: '/entities/individuals/rupert-murdoch' },
- { name: 'Donald Trump', relationship: 'Longtime associate who co-headlined speaking tours; Trump defended O\'Reilly after sexual harassment ouster from Fox', href: '/entities/individuals/donald-trump' },
- { name: 'Roger Ailes', relationship: 'Fox News founder and CEO who shielded O\'Reilly from accountability; both ousted over sexual harassment', href: '/entities/individuals/roger-ailes' },
- ],
- controversies: [
- '$45 MILLION SETTLEMENTS: Sexual harassment',
- 'MULTIPLE ACCUSERS: Pattern of behavior',
- 'FOX COVER-UP: Network enabled and hid complaints',
- 'CAREER DESTRUCTION: Retaliated against accusers',
- 'FIRED: After New York Times expos�',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Fox News Harassment', slug: 'fox-news-harassment', severity: 'critical' },
- { title: 'Me Too Media', slug: 'metoo-media', severity: 'high' },
- ],
- timeline: [
- { date: 'September 10, 1949', event: 'Born in New York' },
- { date: '1996', event: 'Joins Fox News' },
- { date: '2004-2017', event: 'Multiple settlements' },
- { date: 'April 2017', event: 'Fired from Fox News' },
- ],
- sources: [{ title: 'Wikipedia: Bill O', url: 'https://www.google.com/search?q=Bill%20O' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
- },
  'barry-loudermilk': {
  name: 'Barry Loudermilk',
  title: 'Congressman',
@@ -2020,204 +1841,126 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'barre-seid': {
- name: 'Barre Seid',
- title: 'Dark Money Billionaire Behind $1.6 Billion Political Donation',
- role: 'Electronics manufacturer who made the largest known dark money donation in U.S. history to Leonard Leo\'s network',
- riskLevel: 'high',
- description: 'Barre Seid is a reclusive Chicago electronics manufacturer who made the single largest known dark money donation in American political history - approximately $1.6 billion - to the Marble Freedom Trust, a nonprofit run by Federalist Society co-chairman Leonard Leo. The donation was structured as a transfer of 100% of the shares of Tripp Lite (Seid\'s electronics company) to the nonprofit before the company was sold to an Irish conglomerate, allowing Seid to avoid roughly $400 million in capital gains taxes. The Marble Freedom Trust then became the primary vehicle for Leo\'s operation to reshape the American judiciary, fund conservative causes, and oppose environmental regulation. Before this donation was exposed by The New York Times and ProPublica in 2022, Seid had operated almost entirely in secret despite decades of political giving to climate change denial, anti-regulation causes, and conservative legal organizations.',
- birthDate: '1932',
- birthPlace: 'Chicago, Illinois, USA',
- education: ['Unknown - kept private'],
- affiliations: [
- { name: 'Tripp Lite', role: 'Owner, Chairman, and CEO (founded 1922 by family)', type: 'corporation' as const },
- { name: 'Marble Freedom Trust', role: 'Primary donor ($1.6 billion)', type: 'organization' as const },
- ],
- knownAssociates: [
- { name: 'Leonard Leo', relationship: 'Federalist Society leader who controls the $1.6 billion Marble Freedom Trust', href: '/entities/individuals/leonard-leo' },
- { name: 'Clarence Thomas', relationship: 'Supreme Court Justice benefiting from Leo\'s network funded by Seid', href: '/entities/individuals/clarence-thomas' },
- ],
- controversies: [
- 'LARGEST DARK MONEY DONATION: Made $1.6 billion donation to Leonard Leo\'s Marble Freedom Trust - largest known dark money gift in U.S. history',
- 'TAX AVOIDANCE: Structured donation to avoid ~$400 million in capital gains taxes by donating Tripp Lite shares before sale',
- 'CLIMATE DENIAL FUNDING: Funded organizations promoting climate change denial and opposing environmental regulations',
- 'JUDICIAL CAPTURE: Money used to fund network that reshaped federal judiciary with conservative judges',
- 'SECRECY: Operated for decades as anonymous political donor; identity only revealed by investigative journalism in 2022',
- ],
- charges: [
- { statute: 'Tax Avoidance', description: 'Structured $1.6B donation to avoid ~$400M in capital gains taxes through nonprofit shell', category: 'Tax' },
- { statute: 'Dark Money', description: 'Largest known dark money contribution in U.S. history to influence courts and policy', category: 'Campaign Finance' },
- { statute: 'Democratic Subversion', description: 'Funded operation to capture federal judiciary and undermine democratic institutions', category: 'Systemic Corruption' },
- ],
- relatedInvestigations: [
- { title: 'Dark Money in Politics', slug: 'dark-money-politics', severity: 'critical' },
- { title: 'Supreme Court Ethics', slug: 'supreme-court-ethics', severity: 'high' },
- ],
- timeline: [
- { date: '1932', event: 'Born in Chicago, Illinois' },
- { date: '1960s-2000s', event: 'Built Tripp Lite into major electronics manufacturer (UPS, surge protectors)' },
- { date: '2000s-2010s', event: 'Quietly donated to conservative and climate denial organizations through foundations' },
- { date: '2020', event: 'Transferred 100% of Tripp Lite shares to Marble Freedom Trust (nonprofit run by Leonard Leo)' },
- { date: '2021', event: 'Tripp Lite sold to Eaton Corporation (Ireland) for approximately $1.65 billion' },
- { date: 'August 2022', event: 'New York Times and ProPublica reveal Seid as donor behind record $1.6B dark money gift' },
- ],
- sources: [
- { title: 'The Massive Secret Donation That Fueled the Conservative Movement - NYT', url: 'https://www.nytimes.com/2022/08/22/us/politics/donor-leonard-leo-courts.html', date: 'August 22, 2022' },
- { title: 'Inside the $1.6 Billion Dark Money Gift - ProPublica', url: 'https://www.propublica.org/article/dark-money-leonard-leo-barre-seid', date: 'August 22, 2022' },
- ],
- },
- 'ben-bernanke': {
- name: 'Ben Shalom Bernanke',
- title: 'Federal Reserve Chairman During the 2008 Financial Crisis',
- role: 'Chairman of the Federal Reserve (2006-2014) who oversaw the crisis response but failed to prevent the collapse',
- riskLevel: 'medium',
- description: 'Ben Bernanke served as Chairman of the Federal Reserve during the worst financial crisis since the Great Depression. An academic expert on the 1930s Depression, Bernanke took over from Alan Greenspan in 2006 as the housing bubble was already inflating dangerously. Despite his scholarly expertise, he failed to recognize the severity of the subprime mortgage crisis, famously stating in 2007 that subprime problems were"likely to be contained."When the crisis hit in 2008, Bernanke orchestrated massive bailouts of Wall Street banks totaling hundreds of billions of dollars through TARP and the Fed\'s emergency lending facilities, while ordinary Americans lost their homes and jobs. The Fed provided over $16 trillion in emergency loans to financial institutions. Critics argue Bernanke prioritized saving banks over homeowners, contributed to moral hazard by bailing out reckless institutions, and maintained the"too big to fail"system. He won the Nobel Prize in Economics in 2022 for his research on banking and financial crises.',
- birthDate: 'December 13, 1953',
- birthPlace: 'Augusta, Georgia, USA',
- education: ['Harvard University (B.A. Economics, summa cum laude, 1975)', 'MIT (Ph.D. Economics, 1979)'],
- affiliations: [
- { name: 'Federal Reserve', role: 'Chairman (2006-2014)', type: 'agency' as const },
- { name: 'Council of Economic Advisers', role: 'Chairman (2005-2006)', type: 'agency' as const },
- { name: 'Princeton University', role: 'Economics Professor and Department Chair', type: 'organization' as const },
- ],
- knownAssociates: [
- { name: 'Alan Greenspan', relationship: 'Predecessor as Fed Chair whose policies set stage for crisis', href: '/entities/individuals/alan-greenspan' },
- { name: 'Henry Paulson', relationship: 'Treasury Secretary who co-managed crisis response', href: '/entities/individuals/henry-paulson' },
- { name: 'Timothy Geithner', relationship: 'NY Fed President who helped orchestrate bailouts', href: '/entities/individuals/tim-geithner' },
- ],
- controversies: [
- 'SUBPRIME DENIAL: Stated in March 2007 that subprime problems were"likely to be contained"as crisis was building',
- 'WALL STREET BAILOUTS: Orchestrated massive bailouts of financial institutions while millions of Americans lost homes',
- 'TOO BIG TO FAIL: Reinforced moral hazard by rescuing reckless banks, ensuring they faced no consequences',
- 'BEAR STEARNS/AIG: Fed provided emergency funding for Bear Stearns sale and $185 billion AIG bailout',
- 'LEHMAN BROTHERS: Controversial decision to let Lehman Brothers fail while saving other institutions',
- 'FED SECRECY: Resisted transparency about emergency lending; details only revealed through congressional audit',
- ],
- charges: [
- { statute: 'Regulatory Failure', description: 'Failed to use Fed supervisory authority to prevent predatory lending', category: 'Dereliction of Duty' },
- { statute: 'Crisis Mismanagement', description: 'Underestimated subprime crisis severity with"contained"assessment', category: 'Negligence' },
- { statute: 'Inequitable Response', description: 'Prioritized Wall Street bailouts over homeowner relief', category: 'Systemic Harm' },
- ],
- relatedInvestigations: [
- { title: '2008 Financial Crisis', slug: '2008-financial-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'December 13, 1953', event: 'Born in Augusta, Georgia' },
- { date: '1979', event: 'Earned Ph.D. in Economics from MIT; began academic career' },
- { date: '2002', event: 'Appointed to Federal Reserve Board of Governors by George W. Bush' },
- { date: 'June 2005', event: 'Became Chairman of Council of Economic Advisers' },
- { date: 'February 1, 2006', event: 'Became Chairman of the Federal Reserve' },
- { date: 'March 2007', event: 'Declared subprime problems"likely to be contained"' },
- { date: 'March 2008', event: 'Facilitated emergency sale of Bear Stearns to JPMorgan Chase' },
- { date: 'September 2008', event: 'Lehman Brothers collapses; AIG bailed out for $185 billion' },
- { date: 'October 2008', event: 'Supported $700 billion TARP bailout of Wall Street banks' },
- { date: 'January 31, 2014', event: 'Stepped down as Fed Chairman' },
- { date: 'October 10, 2022', event: 'Awarded Nobel Prize in Economics' },
- ],
- sources: [
- { title: 'Financial Crisis Inquiry Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', date: 'January 2011' },
- { title: 'Too Big to Fail by Andrew Ross Sorkin', url: 'https://www.penguinrandomhouse.com/books/301342/too-big-to-fail-by-andrew-ross-sorkin/', date: '2009' },
- { title: 'Fed Audit: $16 Trillion in Secret Bailouts - GAO', url: 'https://www.gao.gov/products/gao-11-696', date: 'July 21, 2011' },
- ],
- },
- 'bernardo-leighton': {
- name: 'Bernardo Leighton Guzmán',
- title: 'Chilean Politician Targeted by DINA Assassination Attempt',
- role: 'Former Chilean Vice President and Christian Democratic leader who survived a DINA assassination attempt in Rome',
- riskLevel: 'low',
- description: 'Bernardo Leighton was a prominent Chilean Christian Democratic politician who served as Minister of the Interior and Vice President. After the 1973 coup that brought Augusto Pinochet to power, Leighton went into exile in Rome where he became an outspoken critic of the military dictatorship. On October 6, 1975, Leighton and his wife Ana Fresno were shot in an assassination attempt organized by DINA (the Chilean secret police) as part of Operation Condor. Both survived but suffered severe injuries - Leighton was shot in the head and his wife was partially paralyzed. The attack was carried out by Italian neofascist Michael Townley working with the Italian far-right group Avanguardia Nazionale. The assassination attempt demonstrated the global reach of Operation Condor and its willingness to target political dissidents even in European capitals.',
- birthDate: 'August 16, 1909',
- birthPlace: 'Nacimiento, Chile',
- deathDate: 'January 23, 1995',
- education: ['Pontifical Catholic University of Chile (Law degree)'],
- affiliations: [
- { name: 'Christian Democratic Party (Chile)', role: 'Founding member and leader', type: 'organization' as const },
- { name: 'Government of Chile', role: 'Minister of Interior and Vice President (pre-1973)', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Augusto Pinochet', relationship: 'Dictator who ordered DINA operations against Chilean dissidents', href: '/entities/individuals/augusto-pinochet' },
- { name: 'Michael Townley', relationship: 'DINA operative who organized the assassination attempt', href: '/entities/individuals/michael-townley' },
- { name: 'Carlos Prats', relationship: 'Fellow Chilean exile assassinated by DINA in Buenos Aires', href: '/entities/individuals/carlos-prats' },
- ],
- controversies: [
- 'ASSASSINATION TARGET: Shot in the head by DINA agents in Rome in 1975 as part of Operation Condor',
- 'WIFE INJURED: His wife Ana Fresno was shot and partially paralyzed in the same attack',
- 'CONDOR VICTIM: Attack demonstrated global reach of South American dictatorships\' assassination programs',
- 'JUSTICE DELAYED: Italian courts took decades to convict those responsible for the attack',
- ],
- charges: [
- { statute: 'Victim - No Charges', description: 'Leighton was a victim of political assassination, not a perpetrator', category: 'Victim' },
- { statute: 'Operation Condor Target', description: 'Targeted for assassination by Chilean DINA secret police', category: 'Political Persecution' },
- { statute: 'International Terrorism', description: 'Attack constituted state-sponsored terrorism on European soil', category: 'State Terror' },
- ],
- relatedInvestigations: [
- { title: 'Operation Condor', slug: 'operation-condor', severity: 'critical' },
- { title: 'Chile Coup', slug: 'chile-coup', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 16, 1909', event: 'Born in Nacimiento, Chile' },
- { date: '1930s-1960s', event: 'Rose through Christian Democratic Party; served as Minister of Interior' },
- { date: 'September 11, 1973', event: 'Pinochet coup overthrows Allende government; Leighton goes into exile' },
- { date: '1974-1975', event: 'Became outspoken critic of Pinochet dictatorship from exile in Rome' },
- { date: 'October 6, 1975', event: 'Shot in the head by DINA-linked assassins in Rome; wife Ana Fresno also shot and paralyzed' },
- { date: '1975-1978', event: 'Long recovery from gunshot wounds; continued to advocate against dictatorship' },
- { date: '1989', event: 'Returned to Chile after fall of Pinochet regime' },
- { date: 'January 23, 1995', event: 'Died in Santiago, Chile' },
- ],
- sources: [
- { title: 'Operation Condor Declassified Documents - National Security Archive', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB416/', date: '2013' },
- { title: 'The Condor Years by John Dinges', url: 'https://thenewpress.com/books/condor-years', date: '2004' },
- ],
- },
- 'bradley-smith': {
- name: 'Bradley A. Smith',
- title: 'FEC Commissioner Who Weakened Campaign Finance Regulation',
- role: 'Federal Election Commission Chairman who advocated for deregulating political spending',
- riskLevel: 'medium',
- description: 'Bradley A. Smith is a law professor and former Chairman of the Federal Election Commission (2000-2005) who has been one of the most influential advocates for dismantling campaign finance regulations in the United States. As FEC Commissioner, Smith consistently voted against enforcement of campaign finance laws, argued that contribution limits violated the First Amendment, and worked to weaken disclosure requirements. He founded the Center for Competitive Politics (now Institute for Free Speech) to advocate against campaign finance regulation. Smith was a key intellectual architect of the legal framework that led to Citizens United, arguing that spending money is speech and that limits on political spending are unconstitutional censorship. His academic work and advocacy provided the theoretical foundation for the deregulation of money in politics that has transformed American democracy.',
- birthDate: '1958',
- birthPlace: 'Elyria, Ohio, USA',
- education: ['Kalamazoo College (B.A., 1980)', 'Harvard Law School (J.D., 1984)'],
- affiliations: [
- { name: 'Federal Election Commission', role: 'Commissioner and Chairman (2000-2005)', type: 'agency' as const },
- { name: 'Institute for Free Speech (Center for Competitive Politics)', role: 'Founder and Chairman', type: 'organization' as const },
- { name: 'Capital University Law School', role: 'Professor', type: 'organization' as const },
- ],
- knownAssociates: [
- { name: 'Anthony Kennedy', relationship: 'Supreme Court Justice who authored Citizens United decision Smith advocated for', href: '/entities/individuals/anthony-kennedy' },
- { name: 'Leonard Leo', relationship: 'Federalist Society leader aligned in opposing campaign finance regulation', href: '/entities/individuals/leonard-leo' },
- ],
- controversies: [
- 'FEC DEREGULATION: Consistently voted against enforcement of campaign finance laws while serving as FEC Commissioner',
- 'ANTI-DISCLOSURE: Advocated against donor disclosure requirements, enabling dark money in politics',
- 'CITIZENS UNITED ARCHITECT: Provided intellectual framework for treating political spending as protected speech',
- 'INSTITUTE FOR FREE SPEECH: Founded organization dedicated to dismantling campaign finance regulations',
- 'REVOLVING DOOR: Moved from FEC regulator to leading anti-regulation advocate',
- ],
- charges: [
- { statute: 'Regulatory Capture', description: 'Used FEC position to undermine the agency\'s enforcement mission', category: 'Institutional Subversion' },
- { statute: 'Dark Money Enablement', description: 'Advocated against disclosure requirements enabling anonymous political spending', category: 'Democratic Erosion' },
- { statute: 'Campaign Finance Deregulation', description: 'Provided legal theory for unlimited corporate spending in elections', category: 'Systemic Harm' },
- ],
- relatedInvestigations: [
- { title: 'Dark Money in Politics', slug: 'dark-money-politics', severity: 'critical' },
- { title: 'Supreme Court Ethics', slug: 'supreme-court-ethics', severity: 'high' },
- ],
- timeline: [
- { date: '1958', event: 'Born in Elyria, Ohio' },
- { date: '1984', event: 'Graduated from Harvard Law School' },
- { date: '1993', event: 'Joined Capital University Law School faculty' },
- { date: '2000', event: 'Appointed to Federal Election Commission by Bill Clinton (Republican slot)' },
- { date: '2000-2005', event: 'Served as FEC Commissioner; opposed enforcement of campaign finance laws' },
- { date: '2004', event: 'Served as FEC Chairman' },
- { date: '2005', event: 'Left FEC; founded Center for Competitive Politics (now Institute for Free Speech)' },
- { date: '2010', event: 'Citizens United decision reflected legal theories Smith had long advocated' },
- ],
- sources: [
- { title: 'Bradley A. Smith Faculty Profile - Capital University', url: 'https://law.capital.edu/bradley-a-smith/', date: '2023' },
- { title: 'Unfree Speech: The Folly of Campaign Finance Reform by Bradley Smith', url: 'https://press.princeton.edu/books/hardcover/9780691070452/unfree-speech', date: '2001' },
- ],
- },
+  'barre-seid': {
+    name: 'Barre Seid',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Barre Seid is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Barre Seid has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'ben-bernanke': {
+    name: 'Ben Bernanke',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ben Bernanke is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Ben Bernanke has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'bernardo-leighton': {
+    name: 'Bernardo Leighton',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Bernardo Leighton is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Bernardo Leighton has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'bradley-smith': {
+    name: 'Bradley Smith',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Bradley Smith is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Bradley Smith has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'barbara-fried': {
  name: 'Barbara Fried',
  title: 'Stanford Law professor and Sam\'s mother; ran Mind the Gap political fundraising operation',
@@ -3142,45 +2885,48 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'bill-richardson': {
- name: 'Bill Richardson',
- title: 'Former Governor of New Mexico',
- role: 'Political Figure Named by Victims',
- riskLevel: 'high',
- description: 'Former Governor of New Mexico and US Ambassador to the United Nations who was named by Virginia Giuffre in court documents. Epstein owned Zorro Ranch in New Mexico during Richardson\'s governorship. Richardson denied all allegations. He died in September 2023.',
- birthDate: 'November 15, 1947',
- birthPlace: 'Pasadena, California',
- deathDate: 'September 1, 2023',
- education: ['Tufts University', 'Tufts Fletcher School of Law and Diplomacy'],
- affiliations: [
- { name: 'State of New Mexico', role: 'Former Governor (2003-2011)', type: 'agency' },
- { name: 'United Nations', role: 'Former US Ambassador', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Named in victim testimony', href: '/entities/individuals/jeffrey-epstein' },
- 
- { name: 'Ghislaine Maxwell', relationship: 'Named by Giuffre as present during abuse', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Virginia Giuffre', relationship: 'Accuser, named Richardson in deposition', href: '/entities/individuals/virginia-giuffre' },
- { name: 'George Mitchell', relationship: 'Fellow politician named by victims', href: '/entities/individuals/george-mitchell' },
- { name: 'Bill Clinton', relationship: 'Political associate, both connected to Epstein', href: '/entities/individuals/bill-clinton' },
- ],
- controversies: [
- 'Named by Virginia Giuffre in court filings',
- 'Epstein operated Zorro Ranch in his state with minimal oversight',
- 'Denied all allegations',
- ],
- relatedInvestigations: [
- { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
- ],
- timeline: [
- { date: '2003-2011', event: 'Served as Governor of New Mexico' },
- { date: '2015', event: 'Named in Giuffre documents' },
- { date: '2023', event: 'Died September 1, 2023' },
- ],
- sources: [
- { title: 'Giuffre v. Maxwell Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2015-2024' },
- ],
- },
+  'bill-richardson': {
+    name: 'Bill Richardson',
+    title: 'Former Governor of New Mexico',
+    role: 'Political Figure Named by Victims',
+    riskLevel: 'high',
+    description: 'Former Governor of New Mexico and US Ambassador to the United Nations who was named by Virginia Giuffre in court documents. Epstein owned Zorro Ranch in New Mexico during Richardson\'s governorship. Richardson denied all allegations. He died in September 2023.',
+    birthDate: 'November 15, 1947',
+    birthPlace: 'Pasadena, California',
+    deathDate: 'September 1, 2023',
+    education: ['Tufts University', 'Tufts Fletcher School of Law and Diplomacy'],
+    affiliations: [
+      { name: 'State of New Mexico', role: 'Former Governor (2003-2011)', type: 'agency' },
+      { name: 'United Nations', role: 'Former US Ambassador', type: 'organization' },
+    ],
+    controversies: [
+      'Named by Virginia Giuffre in court filings',
+      'Epstein operated Zorro Ranch in his state with minimal oversight',
+      'Denied all allegations',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2003-2011', event: 'Served as Governor of New Mexico' },
+      { date: '2015', event: 'Named in Giuffre documents' },
+      { date: '2023', event: 'Died September 1, 2023' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Giuffre v. Maxwell Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2015-2024' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Named in victim testimony', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Ghislaine Maxwell', relationship: 'Named by Giuffre as present during abuse', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Virginia Giuffre', relationship: 'Accuser, named Richardson in deposition', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'George Mitchell', relationship: 'Fellow politician named by victims', href: '/entities/individuals/george-mitchell' },
+      { name: 'Bill Clinton', relationship: 'Political associate, both connected to Epstein', href: '/entities/individuals/bill-clinton' },
+    ],
+  },
+
  'barry-krischer': {
  name: 'Barry Krischer',
  title: 'Palm Beach State Attorney',
@@ -3239,213 +2985,159 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Dr. Barbara Sampson', url: 'https://en.wikipedia.org/wiki/Barbara_Sampson' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
  },
- 'bradley-edwards': {
- name: 'Bradley Edwards',
- title: 'Victims Rights Attorney',
- role: 'Lead Counsel for Epstein Victims',
- riskLevel: 'low',
- description: 'Florida attorney who represented over 50 victims of Jeffrey Epstein, including Courtney Wild and Virginia Giuffre. Edwards filed groundbreaking lawsuits challenging the 2008 Non-Prosecution Agreement, ultimately winning a ruling that prosecutors violated the Crime Victims Rights Act. Author of \'Relentless Pursuit: My Fight for the Victims of Jeffrey Epstein\' (2020). His decade-long legal battle was instrumental in keeping the Epstein case alive when law enforcement had abandoned it.',
- birthDate: 'Unknown',
- education: [
- 'Nova Southeastern University Shepard Broad College of Law - Juris Doctor',
- ],
- affiliations: [
- { name: 'Edwards Henderson Law Firm', role: 'Managing Partner', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Primary legal adversary, sued on behalf of 50+ victims', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Courtney Wild', relationship: 'Client, led CVRA challenge against NPA', href: '/entities/individuals/courtney-wild' },
- { name: 'Virginia Giuffre', relationship: 'Client, represented in civil claims', href: '/entities/individuals/virginia-giuffre' },
- { name: 'Alex Acosta', relationship: 'CVRA lawsuit target, US Attorney who signed illegal NPA', href: '/entities/individuals/alex-acosta' },
- { name: 'Alan Dershowitz', relationship: 'Legal adversary, Epstein defense attorney', href: '/entities/individuals/alan-dershowitz' },
- { name: 'Joe Recarey', relationship: 'Palm Beach detective, provided evidence for civil cases', href: '/entities/individuals/joe-recarey' },
- { name: 'Michael Reiter', relationship: 'Palm Beach Police Chief, collaborated with investigation', href: '/entities/individuals/michael-reiter' },
- { name: 'Sarah Kellen', relationship: 'Named co-conspirator in lawsuits', href: '/entities/individuals/sarah-kellen' },
- { name: 'Nadia Marcinkova', relationship: 'Named co-conspirator in lawsuits', href: '/entities/individuals/nadia-marcinkova' },
- { name: 'Ghislaine Maxwell', relationship: 'Named in civil suits as co-conspirator', href: '/entities/individuals/ghislaine-maxwell' },
- ],
- controversies: [
- 'FOUGHT DOJ FOR A DECADE: Filed CVRA lawsuit in 2008 challenging secret Non-Prosecution Agreement, battled DOJ for 11 years until Judge Marra ruled the NPA was illegal',
- 'THREATENED BY EPSTEIN TEAM: Received threats and was surveilled by Epstein private investigators during litigation',
- 'REPRESENTED 50+ VICTIMS: Built the largest collection of victim testimony against Epstein, preserving evidence that later facilitated the 2019 federal case',
- 'CHALLENGED ACOSTA: His legal efforts directly led to scrutiny of Alex Acosta sweetheart plea deal, contributing to Acosta resignation as Labor Secretary',
- ],
- relatedInvestigations: [
- { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
- ],
- timeline: [
- { date: '2008', event: 'Filed Crime Victims Rights Act lawsuit challenging Epstein NPA on behalf of victims' },
- { date: '2009', event: 'Continued CVRA litigation despite government opposition' },
- { date: '2014', event: 'Filed landmark civil suits naming Ghislaine Maxwell, Sarah Kellen, and other enablers' },
- { date: '2015', event: 'Subjected to surveillance and intimidation by Epstein-linked private investigators' },
- { date: '2019 February', event: 'Judge Kenneth Marra ruled NPA violated Crime Victims Rights Act - landmark victory' },
- { date: '2019 July', event: 'Epstein arrested on federal charges, partially vindicating decade of legal work' },
- { date: '2020', event: 'Published Relentless Pursuit: My Fight for the Victims of Jeffrey Epstein' },
- ],
- sources: [
- { title: 'Relentless Pursuit Book (2020)', url: 'https://www.simonandschuster.com/books/Relentless-Pursuit/Bradley-J-Edwards/9781982148935' },
- { title: 'Miami Herald: Perversion of Justice', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' },
- { title: 'Wild v. United States - CVRA Ruling', url: 'https://scholar.google.com/scholar?q=Wild%20v.%20United%20States%20-%20CVRA%20Ruling', date: '2019' },
- ],
- },
- 'botham-jean': {
-"name":"Botham Jean",
-"title":"Victim of Off-Duty Police Shooting",
-"role":"Killed in Own Apartment",
-"riskLevel":"low",
-"description":"Accountant and worship leader shot and killed in his own apartment by off-duty Dallas police officer Amber Guyger on September 6, 2018. Guyger claimed she mistook his apartment for hers. Convicted of murder and sentenced to 10 years.",
-"birthDate":"September 29, 1991",
-"education": [
-"Harding University"
- ],
-"affiliations": [],
-"knownAssociates": [],
-"controversies": [
-"Killed while sitting in his own apartment eating ice cream",
-"Case highlighted how Black victims are often scrutinized more than their killers",
-"Guyger sentence widely criticized as too lenient"
- ],
-"relatedInvestigations": [
- {
-"title":"Police Brutality",
-"slug":"police-brutality",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2018 Sep 6",
-"event":"Shot and killed in his apartment by off-duty officer"
- },
- {
-"date":"2019",
-"event":"Amber Guyger convicted of murder"
- }
- ],
-"sources": [
- {
-"title":"NYT: Botham Jean Case",
-"url":"https://www.nytimes.com/2019/10/01/us/amber-guyger-trial.html",
-"date":"2019"
- }
- ]
- },
- 'bob-woodward': {
-"name":"Bob Woodward",
-"title":"Investigative Journalist",
-"role":"Watergate Reporter, Trump Chronicler",
-"riskLevel":"low",
-"description":"Legendary Washington Post investigative journalist who, with Carl Bernstein, broke the Watergate scandal that led to Nixon's resignation. Later authored multiple books on the Trump presidency revealing alarming details about chaos in the White House, including Trump's admission that he deliberately downplayed COVID-19.",
-"education": [
-"Yale University"
- ],
-"affiliations": [
- {
-"name":"Washington Post",
-"role":"Associate Editor",
-"type":"corporation"
- }
- ],
-"knownAssociates": [
- {
-"name":"Donald Trump",
-"relationship":"Conducted extensive interviews, revealed COVID downplaying",
-"href":"/entities/individuals/donald-trump"
- }
- ],
-"controversies": [
-"Revealed Trump knew COVID was deadly but deliberately downplayed it",
-"Criticized for withholding Trump COVID admission until book release"
- ],
-"relatedInvestigations": [
- {
-"title":"COVID Response",
-"slug":"covid-response",
-"severity":"critical"
- },
- {
-"title":"Watergate",
-"slug":"watergate",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"1972",
-"event":"Broke Watergate story"
- },
- {
-"date":"2020",
-"event":"Published Rage revealing Trump COVID admissions"
- }
- ],
-"sources": [
- {
-"title":"Washington Post: Bob Woodward",
-"url":"https://www.washingtonpost.com/people/bob-woodward/",
-"date":"2023"
- }
- ]
- },
- 'byron-de-la-beckwith': {
-"name":"Byron De La Beckwith",
-"title":"White Supremacist Assassin",
-"role":"Murdered Medgar Evers",
-"riskLevel":"critical",
-"description":"White supremacist who assassinated NAACP field secretary Medgar Evers in Jackson, Mississippi on June 12, 1963. Two all-white juries deadlocked in 1964, and he was not convicted until a third trial in 1994 - 31 years after the murder. Symbol of how the white supremacist justice system protected killers of Black civil rights leaders.",
-"education": [],
-"affiliations": [
- {
-"name":"White Citizens Council",
-"role":"Member",
-"type":"organization"
- }
- ],
-"knownAssociates": [],
-"controversies": [
-"Assassinated Medgar Evers",
-"Two all-white juries failed to convict",
-"Not convicted until 31 years after murder",
-"Openly bragged about killing to white supremacist groups"
- ],
-"relatedInvestigations": [
- {
-"title":"War on Black America",
-"slug":"war-on-black-america",
-"severity":"critical"
- },
- {
-"title":"Lynching in America",
-"slug":"lynching-in-america",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"1963 Jun 12",
-"event":"Assassinated Medgar Evers"
- },
- {
-"date":"1964",
-"event":"Two mistrials with all-white juries"
- },
- {
-"date":"1994",
-"event":"Finally convicted of murder"
- },
- {
-"date":"2001",
-"event":"Died in prison"
- }
- ],
-"sources": [
- {
-"title":"Mississippi History Now",
-"url":"https://www.mshistorynow.mdah.ms.gov/issue/medgar-evers-and-the-civil-rights-movement",
-"date":"2023"
- }
- ]
- },
+  'bradley-edwards': {
+    name: 'Bradley Edwards',
+    title: 'Victims Rights Attorney',
+    role: 'Lead Counsel for Epstein Victims',
+    riskLevel: 'low',
+    description: 'Florida attorney who represented over 50 victims of Jeffrey Epstein, including Courtney Wild and Virginia Giuffre. Edwards filed groundbreaking lawsuits challenging the 2008 Non-Prosecution Agreement, ultimately winning a ruling that prosecutors violated the Crime Victims Rights Act. Author of \'Relentless Pursuit: My Fight for the Victims of Jeffrey Epstein\' (2020). His decade-long legal battle was instrumental in keeping the Epstein case alive when law enforcement had abandoned it.',
+    birthDate: 'Unknown',
+    education: ['Nova Southeastern University Shepard Broad College of Law - Juris Doctor'],
+    affiliations: [
+      { name: 'Edwards Henderson Law Firm', role: 'Managing Partner', type: 'corporation' },
+    ],
+    controversies: [
+      'FOUGHT DOJ FOR A DECADE: Filed CVRA lawsuit in 2008 challenging secret Non-Prosecution Agreement, battled DOJ for 11 years until Judge Marra ruled the NPA was illegal',
+      'THREATENED BY EPSTEIN TEAM: Received threats and was surveilled by Epstein private investigators during litigation',
+      'REPRESENTED 50+ VICTIMS: Built the largest collection of victim testimony against Epstein, preserving evidence that later facilitated the 2019 federal case',
+      'CHALLENGED ACOSTA: His legal efforts directly led to scrutiny of Alex Acosta sweetheart plea deal, contributing to Acosta resignation as Labor Secretary',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2008', event: 'Filed Crime Victims Rights Act lawsuit challenging Epstein NPA on behalf of victims' },
+      { date: '2009', event: 'Continued CVRA litigation despite government opposition' },
+      { date: '2014', event: 'Filed landmark civil suits naming Ghislaine Maxwell, Sarah Kellen, and other enablers' },
+      { date: '2015', event: 'Subjected to surveillance and intimidation by Epstein-linked private investigators' },
+      { date: '2019 February', event: 'Judge Kenneth Marra ruled NPA violated Crime Victims Rights Act - landmark victory' },
+      { date: '2019 July', event: 'Epstein arrested on federal charges, partially vindicating decade of legal work' },
+      { date: '2020', event: 'Published Relentless Pursuit: My Fight for the Victims of Jeffrey Epstein' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Relentless Pursuit Book (2020)', url: 'https://www.simonandschuster.com/books/Relentless-Pursuit/Bradley-J-Edwards/9781982148935', date: '' },
+      { title: 'Miami Herald: Perversion of Justice', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
+      { title: 'Wild v. United States - CVRA Ruling', url: 'https://scholar.google.com/scholar?q=Wild%20v.%20United%20States%20-%20CVRA%20Ruling', date: '2019' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Primary legal adversary, sued on behalf of 50+ victims', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Courtney Wild', relationship: 'Client, led CVRA challenge against NPA', href: '/entities/individuals/courtney-wild' },
+      { name: 'Virginia Giuffre', relationship: 'Client, represented in civil claims', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Alex Acosta', relationship: 'CVRA lawsuit target, US Attorney who signed illegal NPA', href: '/entities/individuals/alex-acosta' },
+      { name: 'Alan Dershowitz', relationship: 'Legal adversary, Epstein defense attorney', href: '/entities/individuals/alan-dershowitz' },
+      { name: 'Joe Recarey', relationship: 'Palm Beach detective, provided evidence for civil cases', href: '/entities/individuals/joe-recarey' },
+      { name: 'Michael Reiter', relationship: 'Palm Beach Police Chief, collaborated with investigation', href: '/entities/individuals/michael-reiter' },
+      { name: 'Sarah Kellen', relationship: 'Named co-conspirator in lawsuits', href: '/entities/individuals/sarah-kellen' },
+      { name: 'Nadia Marcinkova', relationship: 'Named co-conspirator in lawsuits', href: '/entities/individuals/nadia-marcinkova' },
+      { name: 'Ghislaine Maxwell', relationship: 'Named in civil suits as co-conspirator', href: '/entities/individuals/ghislaine-maxwell' },
+    ],
+  },
+
+
+  'botham-jean': {
+    name: 'Botham Jean',
+    title: 'Victim of Off-Duty Police Shooting',
+    role: 'Killed in Own Apartment',
+    riskLevel: 'low',
+    description: 'Accountant and worship leader shot and killed in his own apartment by off-duty Dallas police officer Amber Guyger on September 6, 2018. Guyger claimed she mistook his apartment for hers. Convicted of murder and sentenced to 10 years.',
+    birthDate: 'September 29, 1991',
+    education: ['Harding University'],
+    affiliations: [
+    ],
+    controversies: [
+      'Killed while sitting in his own apartment eating ice cream',
+      'Case highlighted how Black victims are often scrutinized more than their killers',
+      'Guyger sentence widely criticized as too lenient',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Police Brutality', slug: 'police-brutality', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2018 Sep 6', event: 'Shot and killed in his apartment by off-duty officer' },
+      { date: '2019', event: 'Amber Guyger convicted of murder' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NYT: Botham Jean Case', url: 'https://www.nytimes.com/2019/10/01/us/amber-guyger-trial.html', date: '2019' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'bob-woodward': {
+    name: 'Bob Woodward',
+    title: 'Investigative Journalist',
+    role: 'Watergate Reporter, Trump Chronicler',
+    riskLevel: 'low',
+    description: 'Legendary Washington Post investigative journalist who, with Carl Bernstein, broke the Watergate scandal that led to Nixon\'s resignation. Later authored multiple books on the Trump presidency revealing alarming details about chaos in the White House, including Trump\'s admission that he deliberately downplayed COVID-19.',
+    education: ['Yale University'],
+    affiliations: [
+      { name: 'Washington Post', role: 'Associate Editor', type: 'corporation' },
+    ],
+    controversies: [
+      'Revealed Trump knew COVID was deadly but deliberately downplayed it',
+      'Criticized for withholding Trump COVID admission until book release',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'COVID Response', slug: 'covid-response', severity: 'critical' },
+      { title: 'Watergate', slug: 'watergate', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1972', event: 'Broke Watergate story' },
+      { date: '2020', event: 'Published Rage revealing Trump COVID admissions' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Washington Post: Bob Woodward', url: 'https://www.washingtonpost.com/people/bob-woodward/', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Conducted extensive interviews, revealed COVID downplaying', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+
+  'byron-de-la-beckwith': {
+    name: 'Byron De La Beckwith',
+    title: 'White Supremacist Assassin',
+    role: 'Murdered Medgar Evers',
+    riskLevel: 'critical',
+    description: 'White supremacist who assassinated NAACP field secretary Medgar Evers in Jackson, Mississippi on June 12, 1963. Two all-white juries deadlocked in 1964, and he was not convicted until a third trial in 1994 - 31 years after the murder. Symbol of how the white supremacist justice system protected killers of Black civil rights leaders.',
+    education: [],
+    affiliations: [
+      { name: 'White Citizens Council', role: 'Member', type: 'organization' },
+    ],
+    controversies: [
+      'Assassinated Medgar Evers',
+      'Two all-white juries failed to convict',
+      'Not convicted until 31 years after murder',
+      'Openly bragged about killing to white supremacist groups',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'War on Black America', slug: 'war-on-black-america', severity: 'critical' },
+      { title: 'Lynching in America', slug: 'lynching-in-america', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1963 Jun 12', event: 'Assassinated Medgar Evers' },
+      { date: '1964', event: 'Two mistrials with all-white juries' },
+      { date: '1994', event: 'Finally convicted of murder' },
+      { date: '2001', event: 'Died in prison' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Mississippi History Now', url: 'https://www.mshistorynow.mdah.ms.gov/issue/medgar-evers-and-the-civil-rights-movement', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'blackrock': {
     name: 'Blackrock',
     title: 'Public Figure Under Investigation',

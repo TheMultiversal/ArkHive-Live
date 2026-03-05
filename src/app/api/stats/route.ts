@@ -7,7 +7,7 @@ const stats = {
  activeInvestigations: 312,
  completedInvestigations: 198,
  archivedInvestigations: 49,
- totalEntities: 2346,
+ totalEntities: 2347,
  totalDocuments: 1847,
  totalCollaborators: 156,
  activeWorkspaces: 34

@@ -128,6 +128,8 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
+
   'alexander-nix': {
     name: 'Alexander James Ashburner Nix',
     title: 'Former Cambridge Analytica CEO',
@@ -184,6 +186,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Christopher Wylie', relationship: 'Former employee, whistleblower' },
     ],
   },
+
+
 
  'amalija-knavs': {
  name: 'Amalija Knavs',
@@ -285,6 +289,8 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
+
   'alex-azar': {
     name: 'Alex Michael Azar II',
     title: 'Former U.S. Secretary of Health and Human Services',
@@ -335,6 +341,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Anthony Fauci', relationship: 'HHS oversaw NIAID', href: '/entities/individuals/anthony-fauci' },
     ],
   },
+
+
 
 
   'alan-dershowitz': {
@@ -395,6 +403,8 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
+
   'ali-alexander': {
     name: 'Ali Akbar Alexander',
     title: 'Political Activist',
@@ -446,6 +456,9 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Roger Stone', relationship: 'Stop the Steal collaborator', href: '/entities/individuals/roger-stone' },
     ],
   },
+
+
+
 
   'alex-jones': {
     name: 'Alex Jones',
@@ -1122,6 +1135,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
   'allen-dulles': {
     name: 'Allen Dulles',
     title: 'CIA Director (1953-1961)',
@@ -1190,6 +1206,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
   'antonin-scalia': {
     name: 'Antonin Scalia',
     title: 'Supreme Court Justice (1986-2016)',
@@ -1230,6 +1249,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Clarence Thomas', relationship: 'Fellow conservative justice', href: '/entities/individuals/clarence-thomas' },
     ],
   },
+
+
 
   'alberto-gonzales': {
     name: 'Alberto Gonzales',
@@ -1279,6 +1300,9 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'John Yoo', relationship: 'Torture memo author', href: '/entities/individuals/john-yoo' },
     ],
   },
+
+
+
 
  'al-gore': {
  name: 'Al Gore',

@@ -34,7 +34,7 @@ const entityCategories = [
  subtitle:"The Names Behind The Crimes",
  description:"Politicians, executives, bureaucrats. The faces behind the policies of death and destruction.",
  icon: Users,
- count: 2031,
+ count: 2032,
  },
  {
  type:"organizations",

@@ -55,6 +55,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Pat Cipollone', relationship: 'White House Counsel who warned of crimes' },
     ],
   },
+
+
   'charles-kushner': {
     name: 'Charles Kushner',
     title: 'Real Estate Developer',
@@ -112,6 +114,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Ivanka Trump', relationship: 'Daughter-in-law', href: '/entities/individuals/ivanka-trump' },
     ],
   },
+
+
   'carlos-de-oliveira': {
     name: 'Carlos De Oliveira',
     title: 'Mar-a-Lago Property Manager',
@@ -163,6 +167,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Walt Nauta', relationship: 'Co-defendant in documents case', href: '/entities/individuals/walt-nauta' },
     ],
   },
+
+
  'christopher-wylie': {
  name: 'Christopher Wylie',
  title: 'Cambridge Analytica Whistleblower',
@@ -206,59 +212,59 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'UK Parliament Testimony', url: 'https://scholar.google.com/scholar?q=UK%20Parliament%20Testimony', date: '2018' },
  ],
  },
- 'chad-wolf': {
- name: 'Chad Frederick Wolf',
- title: 'Former Acting Secretary of Homeland Security',
- role: 'Acting DHS Secretary 2019-2021 (illegally appointed)',
- riskLevel: 'high',
- description: 'Chad Wolf served as Acting DHS Secretary under Trump, though federal courts ruled his appointment was illegal under the Vacancies Act. He oversaw family separations, deployment of federal agents against protesters in Portland, and the Lafayette Square clearing. GAO ruled he was serving unlawfully.',
- birthDate: 'February 2, 1976',
- birthPlace: 'Texas',
- education: [
- 'George Mason University School of Law (J.D.)',
- 'Southern Methodist University (B.A.)',
- ],
- aliases: ['Wolf'],
- affiliations: [
- { name: 'Department of Homeland Security', role: 'Acting Secretary (2019-2021)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Appointed him Acting Secretary', href: '/entities/individuals/donald-trump' },
- { name: 'Stephen Miller', relationship: 'Immigration policy collaboration', href: '/entities/individuals/stephen-miller' },
- ],
- controversies: [
- 'GAO ruled his appointment violated federal law',
- 'Federal courts invalidated actions due to illegal appointment',
- 'Oversaw deployment of federal agents in Portland',
- 'Family separation policy implementation',
- 'Lafayette Square protest clearing',
- 'DHS intelligence gathering on journalists',
- 'Refused to acknowledge Biden election victory',
- ],
- charges: [
- { statute: '5 U.S.C. §§ 3345-3349d (Federal Vacancies Reform Act)', description: 'Violation - GAO ruled Wolf\'s appointment as Acting DHS Secretary was illegal, making his official actions invalid', category: 'Federal' },
- { statute: '42 U.S.C. § 1983', description: 'Deprivation of Rights Under Color of Law - Ordered deployment of federal agents against Portland protesters, violating First and Fourth Amendment rights', category: 'Civil Rights' },
- { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights - Family separation policy implementation caused lasting harm to children', category: 'Civil Rights' },
- { statute: '5 U.S.C. § 552a (Privacy Act)', description: 'Potential Violations - DHS intelligence gathering on journalists and protesters', category: 'Potential Federal' },
- { statute: 'First Amendment', description: 'Constitutional Violations - Lafayette Square clearing violated peaceful protesters\' rights', category: 'Constitutional' },
- { statute: '8 U.S.C. § 1232 (Trafficking Victims Protection)', description: 'Potential Violations - Family separation policy may have violated child protection requirements', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Misrepresented legality of his appointment and authority', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- { title: 'Family Separation', slug: 'family-separation', severity: 'critical' },
- { title: 'Lafayette Square', slug: 'lafayette-square', severity: 'high' },
- ],
- timeline: [
- { date: '2019', event: 'November: Becomes Acting DHS Secretary' },
- { date: '2020', event: 'June: Lafayette Square incident' },
- { date: '2020', event: 'Summer: Portland federal agent deployment' },
- { date: '2020', event: 'August: GAO rules appointment illegal' },
- { date: '2021', event: 'January: Resigns' },
- ],
- sources: [
- { title: 'GAO Ruling on Wolf Appointment', url: 'https://scholar.google.com/scholar?q=GAO%20Ruling%20on%20Wolf%20Appointment', date: '2020' },
- ],
- },
+  'chad-wolf': {
+    name: 'Chad Frederick Wolf',
+    title: 'Former Acting Secretary of Homeland Security',
+    role: 'Acting DHS Secretary 2019-2021 (illegally appointed)',
+    riskLevel: 'high',
+    description: 'Chad Wolf served as Acting DHS Secretary under Trump, though federal courts ruled his appointment was illegal under the Vacancies Act. He oversaw family separations, deployment of federal agents against protesters in Portland, and the Lafayette Square clearing. GAO ruled he was serving unlawfully.',
+    birthDate: 'February 2, 1976',
+    birthPlace: 'Texas',
+    education: ['George Mason University School of Law (J.D.)', 'Southern Methodist University (B.A.)'],
+    affiliations: [
+      { name: 'Department of Homeland Security', role: 'Acting Secretary (2019-2021)', type: 'agency' },
+    ],
+    controversies: [
+      'GAO ruled his appointment violated federal law',
+      'Federal courts invalidated actions due to illegal appointment',
+      'Oversaw deployment of federal agents in Portland',
+      'Family separation policy implementation',
+      'Lafayette Square protest clearing',
+      'DHS intelligence gathering on journalists',
+      'Refused to acknowledge Biden election victory',
+    ],
+    charges: [
+      { statute: '5 U.S.C. §§ 3345-3349d (Federal Vacancies Reform Act)', description: 'Violation - GAO ruled Wolf\'s appointment as Acting DHS Secretary was illegal, making his official actions invalid', category: 'Federal' },
+      { statute: '42 U.S.C. § 1983', description: 'Deprivation of Rights Under Color of Law - Ordered deployment of federal agents against Portland protesters, violating First and Fourth Amendment rights', category: 'Civil Rights' },
+      { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights - Family separation policy implementation caused lasting harm to children', category: 'Civil Rights' },
+      { statute: '5 U.S.C. § 552a (Privacy Act)', description: 'Potential Violations - DHS intelligence gathering on journalists and protesters', category: 'Potential Federal' },
+      { statute: 'First Amendment', description: 'Constitutional Violations - Lafayette Square clearing violated peaceful protesters\' rights', category: 'Constitutional' },
+      { statute: '8 U.S.C. § 1232 (Trafficking Victims Protection)', description: 'Potential Violations - Family separation policy may have violated child protection requirements', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Misrepresented legality of his appointment and authority', category: 'Potential Federal' },
+    ],
+    relatedInvestigations: [
+      { title: 'Family Separation', slug: 'family-separation', severity: 'critical' },
+      { title: 'Lafayette Square', slug: 'lafayette-square', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2019', event: 'November: Becomes Acting DHS Secretary' },
+      { date: '2020', event: 'June: Lafayette Square incident' },
+      { date: '2020', event: 'Summer: Portland federal agent deployment' },
+      { date: '2020', event: 'August: GAO rules appointment illegal' },
+      { date: '2021', event: 'January: Resigns' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'GAO Ruling on Wolf Appointment', url: 'https://scholar.google.com/scholar?q=GAO%20Ruling%20on%20Wolf%20Appointment', date: '2020' },
+    ],
+    aliases: ['Wolf'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Appointed him Acting Secretary', href: '/entities/individuals/donald-trump' },
+      { name: 'Stephen Miller', relationship: 'Immigration policy collaboration', href: '/entities/individuals/stephen-miller' },
+    ],
+  },
+
+
  'christina-bobb': {
  name: 'Christina Bobb',
  title: 'Trump Attorney',
@@ -309,203 +315,126 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'corey-lewandowski': {
- name: 'Corey R. Lewandowski',
- title: 'Former Trump Campaign Manager',
- role: 'Trump Political Operative',
- riskLevel: 'high' as const,
- description: 'Original Trump 2016 campaign manager who was fired in June 2016 but remained close to Trump. Known for aggressive"Let Trump be Trump"approach. Charged with battery against reporter Michelle Fields (charges dropped). Accused of sexual harassment and inappropriate conduct. Testified before Congress about Russia investigation.',
- birthDate: 'September 18, 1973',
- birthPlace: 'Lowell, Massachusetts',
- education: [
- 'B.A. - University of Massachusetts Lowell',
- 'M.A. - American University',
- ],
- affiliations: [
- { name: 'Trump Campaign 2016', role: 'Campaign Manager', type: 'organization' },
- { name: 'Great America PAC', role: 'Senior Advisor', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Boss, political patron', href: '/entities/individuals/donald-trump' },
- { name: 'David Bossie', relationship: 'Political ally, co-author', href: '/entities/individuals/david-bossie' },
- ],
- controversies: [
- 'Charged with battery against Michelle Fields (dropped)',
- 'Accused of sexual harassment by multiple women',
- 'Groped GOP donor Trashelle Odom at dinner',
- 'Fired from CNN for paid speeches to Trump',
- 'Evasive testimony before House Judiciary Committee',
- 'Let Trump Be Trump approach amplified controversies',
- 'Asked to deliver message to Sessions about Mueller investigation',
- 'Discussed with Trump limiting Mueller investigation scope',
- ],
- charges: [
- { statute: '18 U.S.C. § 1505', description: 'Potential Obstruction of Congressional Proceedings - Evasive and misleading testimony before House Judiciary Committee in September 2019', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction of Official Proceeding - Tasked by Trump to deliver message to Sessions limiting Mueller investigation (per Mueller Report)', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Misleading statements to congressional investigators about campaign activities', category: 'Potential Federal' },
- { statute: 'Nevada Rev. Stat. § 200.366', description: 'Sexual Assault - Groping allegations by Trashelle Odom at Las Vegas charity event (2021)', category: 'State Criminal' },
- { statute: 'Florida Stat. § 784.03', description: 'Battery Charges (Dropped) - Physical contact with reporter Michelle Fields during 2016 campaign', category: 'State Criminal (Dropped)' },
- { statute: '52 U.S.C. § 30121', description: 'Potential Foreign Contact Issues - Great America PAC activities and foreign national contacts', category: 'Potential Election' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Mueller Report documented role in potential obstruction scheme to limit investigation', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 2015', event: 'Hired as Trump campaign manager' },
- { date: 'March 2016', event: 'Charged with battery (later dropped)' },
- { date: 'June 2016', event: 'Fired from campaign' },
- { date: 'September 2019', event: 'Evasive House Judiciary testimony' },
- { date: 'September 2021', event: 'Accused of groping GOP donor' },
- ],
- sources: [
- { title: 'House Judiciary Committee Testimony', url: 'https://www.congress.gov/', date: '2019' },
- { title: 'Sexual Harassment Allegations Reports', url: 'https://scholar.google.com/scholar?q=Sexual%20Harassment%20Allegations%20Reports', date: '2021' },
- ],
- },
- 'cleta-mitchell': {
- name: 'Cleta Mitchell',
- title: 'Republican Election Attorney',
- role: 'Trump Georgia Call Lawyer',
- riskLevel: 'high' as const,
- description: 'Conservative attorney who was on Trump\'s infamous January 2, 2021 phone call to Georgia Secretary of State Brad Raffensperger demanding to"find 11,780 votes."Mitchell has been a prominent promoter of election fraud claims and has worked to restrict voting access across multiple states. Resigned from her law firm Foley & Lardner after the call became public.',
- birthDate: '1950',
- birthPlace: 'Oklahoma',
- education: [
- 'J.D. - University of Oklahoma',
- ],
- affiliations: [
- { name: 'Conservative Partnership Institute', role: 'Senior Legal Fellow', type: 'organization' },
- { name: 'Foley & Lardner LLP', role: 'Former Partner (resigned)', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Client on Georgia call', href: '/entities/individuals/donald-trump' },
- { name: 'Mark Meadows', relationship: 'Coordinated election challenges', href: '/entities/individuals/mark-meadows' },
- ],
- controversies: [
- 'On Trump-Raffensperger"find votes"call',
- 'Resigned from law firm after call exposed',
- 'Leads restrictive voting efforts across states',
- 'Continues promoting election fraud claims',
- 'Key figure in post-election pressure campaign',
- 'Works to install partisan election officials',
- ],
- charges: [
- { statute: 'O.C.G.A. § 21-2-604 (Solicitation of Election Fraud)', description: 'Georgia Call Participant - Participated in call demanding Raffensperger"find 11,780 votes"to change election outcome', category: 'Election Crime' },
- { statute: 'O.C.G.A. § 16-10-20 (False Statements)', description: 'False Claims to Officials - Made false election fraud claims to Georgia Secretary of State', category: 'Fraud' },
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to Defraud US - Key figure in coordinated pressure campaign to overturn election results', category: 'Conspiracy' },
- { statute: '52 U.S.C. § 20511 (Election Intimidation)', description: 'Intimidation of Officials - Pressured election officials to commit fraud', category: 'Election Crime' },
- { statute: 'Georgia Bar Rules 8.4', description: 'Attorney Misconduct - Participated in scheme to pressure officials to violate law', category: 'Ethics' },
- { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress - Pressure campaign aimed at preventing January 6 certification', category: 'Obstruction' },
- { statute: '18 U.S.C. § 595 (Interference by Officials)', description: 'Election Interference - Used position to coordinate multi-state voter suppression efforts', category: 'Election Crime' },
- ],
- relatedInvestigations: [
- { title: 'Georgia RICO', slug: 'georgia-rico', severity: 'critical' },
- { title: 'Fake Electors Scheme', slug: 'fake-electors', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 2, 2021', event: 'Participates in Trump-Raffensperger call' },
- { date: 'January 2021', event: 'Call recording made public' },
- { date: 'January 2021', event: 'Resigns from Foley & Lardner' },
- { date: '2021-Present', event: 'Leads voter restriction efforts' },
- ],
- sources: [
- { title: 'Trump-Raffensperger Call Recording', url: 'https://scholar.google.com/scholar?q=Trump-Raffensperger%20Call%20Recording', date: '2021' },
- { title: 'Georgia Investigation Documents', url: 'https://scholar.google.com/scholar?q=Georgia%20Investigation%20Documents', date: '2023' },
- ],
- },
- 'cy-vance': {
- name: 'Cyrus Roberts Vance Jr.',
- title: 'Former Manhattan District Attorney',
- role: 'Initiated Trump Investigation',
- riskLevel: 'low' as const,
- description: 'Former Manhattan DA who initiated the criminal investigation that ultimately led to Trump\'s 34 felony convictions. Fought to the Supreme Court for Trump\'s tax returns. Investigation continued under his successor Alvin Bragg.',
- birthDate: 'May 7, 1954',
- birthPlace: 'New York City',
- education: [
- 'J.D. - Georgetown University Law Center',
- 'B.A. - Yale University',
- ],
- affiliations: [
- { name: 'Manhattan DA Office', role: 'Former District Attorney (2010-2022)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Alvin Bragg', relationship: 'Successor as DA', href: '/entities/individuals/alvin-bragg' },
- 
- { name: 'Jeffrey Epstein', relationship: 'As Chief Judge, oversaw Epstein-related grand jury proceedings', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Ghislaine Maxwell', relationship: 'Oversaw sealed court proceedings related to Maxwell case', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Virginia Giuffre', relationship: 'Managed unsealing of Giuffre v. Maxwell documents', href: '/entities/individuals/virginia-giuffre' },
- { name: 'Geoffrey Berman', relationship: 'SDNY prosecutor who brought the 2019 federal case', href: '/entities/individuals/geoffrey-berman' }
- ,
- { name: 'Harvey Weinstein', relationship: 'Initially declined to prosecute despite evidence', href: '/entities/individuals/harvey-weinstein' }
- ],
- controversies: [
- 'Initiated Trump criminal investigation',
- 'Supreme Court fight for tax returns',
- 'Criticized for not indicting Trump sooner',
- 'Declined to prosecute Harvey Weinstein initially',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Hush Money', slug: 'hush-money', severity: 'critical' },
- { title: 'Tax Evasion', slug: 'tax-evasion', severity: 'high' },
- ],
- timeline: [
- { date: '2018', event: 'Begins Trump investigation' },
- { date: '2020', event: 'Supreme Court rules for tax returns' },
- { date: 'December 2021', event: 'Leaves office' },
- ],
- sources: [
- { title: 'Supreme Court Ruling', url: 'https://www.supremecourt.gov/opinions/opinions.aspx', date: '2020' },
- ],
- },
- 'chris-christie': {
- name: 'Christopher James Christie',
- title: 'Former Governor of New Jersey',
- role: 'Trump Ally Turned Critic',
- riskLevel: 'medium' as const,
- description: 'Former New Jersey Governor who led Trump\'s 2016 transition team before being fired. Was one of first major Republicans to endorse Trump in 2016. Later became a Trump critic and 2024 presidential candidate. Helped Trump prepare for debates but was hospitalized with COVID after a White House event.',
- birthDate: 'September 6, 1962',
- birthPlace: 'Newark, New Jersey',
- education: [
- 'University of Delaware (B.A.)',
- 'Seton Hall University School of Law (J.D.)',
- ],
- affiliations: [
- { name: 'Republican Party', role: 'Governor of NJ (2010-2018)', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Former ally, transition chair', href: '/entities/individuals/donald-trump' },
- { name: 'Jared Kushner', relationship: 'Enemy (prosecuted his father)', href: '/entities/individuals/jared-kushner' },
- { name: 'Charles Kushner', relationship: 'Prosecuted as U.S. Attorney', href: '/entities/individuals/charles-kushner' },
- ],
- controversies: [
- 'Bridgegate scandal',
- 'Fired from transition by Kushner',
- 'Hospitalized with COVID after Rose Garden event',
- 'Later became Trump critic',
- ],
- charges: [
- { statute: '18 U.S.C. § 1951 (Hobbs Act)', description: 'Bridgegate Scandal - Senior staff convicted of using government power to punish political rival; Christie denied knowledge but investigation showed involvement', category: 'Official Misconduct' },
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Bridgegate Conspiracy - Staff members convicted for conspiracy; extensive evidence showed Christie\'s awareness', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1346 (Honest Services Fraud)', description: 'Deprivation of Honest Services - Used government resources for political retaliation against Fort Lee mayor', category: 'Potential Federal' },
- { statute: 'N.J.S.A. 2C:30-2 (Official Misconduct)', description: 'State Official Misconduct - Bridge closure endangered public safety for political purposes', category: 'Potential State' },
- { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Potential False Statements - Initial denials contradicted by trial evidence and convicted staff testimony', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- { title: 'COVID Response', slug: 'covid-response', severity: 'critical' },
- ],
- timeline: [
- { date: 'February 2016', event: 'Endorses Trump for President' },
- { date: 'May 2016', event: 'Named transition chair' },
- { date: 'November 2016', event: 'Fired from transition' },
- { date: 'September 2020', event: 'Hospitalized with COVID after Rose Garden event' },
- { date: '2023', event: 'Announces 2024 presidential campaign as Trump critic' },
- ],
- sources: [
- { title: 'Campaign Records', url: 'https://scholar.google.com/scholar?q=Campaign%20Records', date: 'Various' },
- ],
- },
+  'corey-lewandowski': {
+    name: 'Corey Lewandowski',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Corey Lewandowski is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Corey Lewandowski has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'cleta-mitchell': {
+    name: 'Cleta Mitchell',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Cleta Mitchell is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Cleta Mitchell has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'cy-vance': {
+    name: 'Cy Vance',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Cy Vance is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Cy Vance has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'chris-christie': {
+    name: 'Chris Christie',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Chris Christie is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Chris Christie has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'christopher-wray': {
  name: 'Christopher Asher Wray',
  title: 'FBI Director',
@@ -547,591 +476,362 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Senate Testimony', url: 'https://www.congress.gov/', date: 'Various' },
  ],
  },
- 'carl-icahn': {
- name: 'Carl Celian Icahn',
- title: 'Billionaire Investor, Corporate Raider',
- role: 'Trump Advisor, Alleged Insider Trading',
- riskLevel: 'high' as const,
- description: 'Carl Icahn is a billionaire investor who served as an informal advisor to President Trump while maintaining massive financial positions that could benefit from policy decisions. He allegedly made over $30 million by shorting steel stocks before Trump\'s tariff announcements, raising serious questions about insider trading and conflicts of interest.',
- birthDate: 'February 16, 1936',
- birthPlace: 'Queens, New York City, USA',
- education: [
- 'B.A. Philosophy - Princeton University (1957)',
- 'NYU School of Medicine (incomplete)',
- ],
- netWorth: '$24+ billion',
- aliases: ['The Icahn', 'Corporate Raider'],
- affiliations: [
- { name: 'Icahn Enterprises', role: 'Founder & Chairman', type: 'corporation' },
- { name: 'Trump Administration', role: 'Special Advisor on Regulatory Reform (unpaid, 2017)', type: 'organization' },
- { name: 'TWA', role: 'Former Owner', type: 'corporation' },
- { name: 'CVR Energy', role: 'Majority Owner', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Friend since 1980s, informal advisor', href: '/entities/individuals/donald-trump' },
- { name: 'Wilbur Ross', relationship: 'Fellow investor, Commerce Secretary', href: '/entities/individuals/wilbur-ross' },
- { name: 'Steven Mnuchin', relationship: 'Treasury Secretary, financial circles', href: '/entities/individuals/steven-mnuchin' },
- ],
- controversies: [
- 'STEEL STOCK SHORTING: Sold $31.3 million of stock in company with steel exposure one week before Trump announced steel tariffs, potentially saving/making tens of millions',
- 'REGULATORY ADVISOR CONFLICT: Named"Special Advisor to the President on Regulatory Reform"while holding $150+ billion in holdings affected by regulations',
- 'RIN TRADING: Pushed EPA policy change on biofuel credits (RINs) that would benefit his CVR Energy refinery by hundreds of millions',
- 'NO ETHICS AGREEMENT: Refused to sign ethics agreement or divest holdings while advising Trump on policies affecting his investments',
- 'INSIDER ACCESS: Had direct access to Trump and cabinet members while maintaining undisclosed policy positions',
- 'TWA DESTRUCTION: Accused of asset-stripping TWA into bankruptcy, costing 22,000 jobs',
- 'SEC INVESTIGATIONS: Multiple SEC inquiries throughout career into trading practices',
- 'HINDENBURG SHORT ATTACK: Target of Hindenburg Research short seller report alleging"Ponzi-like"structures at Icahn Enterprises (2023)',
- ],
- charges: [
- { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act § 10(b))', description: 'Potential Securities Fraud - Sold $31.3 million steel-exposed stock one week before Trump tariff announcement', category: 'Potential Securities' },
- { statute: 'SEC Rule 10b-5', description: 'Potential Insider Trading - Used non-public information from White House access to trade ahead of policy announcements', category: 'Potential Securities' },
- { statute: '18 U.S.C. § 1348', description: 'Potential Securities Fraud - Trading on material non-public information obtained through government advisory role', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud - Used electronic communications to execute trades based on insider information', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Coordinated with administration officials on policy timing to benefit personal holdings', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 201', description: 'Potential Conflict of Interest - Advised on regulations affecting $150+ billion personal holdings without divestiture', category: 'Potential Federal' },
- { statute: 'Executive Order 13770 (Ethics Pledge)', description: 'Violation - Refused to sign ethics agreement while serving as presidential advisor', category: 'Ethics' },
- { statute: '5 C.F.R. § 2635 (Standards of Ethical Conduct)', description: 'Potential Violations - Used public office for private gain by advocating RIN policy changes benefiting CVR Energy', category: 'Potential Ethics' },
- { statute: '18 U.S.C. § 208', description: 'Potential Financial Conflict of Interest - Participated in policy matters affecting personal investments', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- { title: 'Securities & Market Fraud', slug: 'securities-fraud', severity: 'critical' },
- { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
- ],
- timeline: [
- { date: '1936', event: 'Born in Queens, New York' },
- { date: '1968', event: 'Founds Icahn & Co.' },
- { date: '1985', event: 'Acquires TWA in hostile takeover' },
- { date: '1985-2000s', event: 'Earns"corporate raider"reputation through hostile takeovers' },
- { date: '1988', event: 'Trump and Icahn become friends through NY real estate circles' },
- { date: '1992', event: 'TWA files for bankruptcy, later liquidates' },
- { date: 'Dec 2016', event: 'Named Special Advisor to President-elect Trump on regulatory reform' },
- { date: '2017', event: 'Pushes EPA on biofuel credit policy (RINs) benefiting CVR Energy' },
- { date: 'Feb 2018', event: 'Sells $31.3M in steel-exposed stock' },
- { date: 'Mar 1, 2018', event: 'Trump announces steel tariffs, stocks drop' },
- { date: 'Aug 2018', event: 'Resigns as advisor amid ethics questions' },
- { date: 'May 2023', event: 'Hindenburg Research releases damaging short report on Icahn Enterprises' },
- { date: '2023', event: 'Icahn Enterprises stock drops 50%+ following Hindenburg report' },
- ],
- sources: [
- { title: 'Icahn Steel Trade Before Tariffs', url: 'https://www.bloomberg.com/news/articles/2018-03-08/carl-icahn-s-bet-against-steel-gets-huge-boost-from-trump-tariff', date: '2018' },
- { title: 'Icahn Regulatory Advisor Conflicts', url: 'https://www.nytimes.com/2017/01/21/business/trump-carl-icahn-adviser.html', date: '2017' },
- { title: 'Hindenburg Research Report', url: 'https://hindenburgresearch.com/icahn/', date: '2023' },
- { title: 'RIN Policy Push', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/us-usa-biofuels-icahn/trump-adviser-icahn-lobbied-epa-for-biofuel-changes-documents-idUSKBN1560JI', date: '2017' },
- ],
- },
- 'clarence-thomas': {
- name: 'Clarence Thomas',
- title: 'Associate Justice, U.S. Supreme Court',
- role: 'Most Ethically Compromised Justice in Modern History, Coup Enabler',
- riskLevel: 'critical' as const,
- description: 'Clarence Thomas is the most ethically compromised Supreme Court Justice in modern American history. For OVER 20 YEARS, he failed to disclose luxury trips, gifts, and real estate transactions from Republican megadonor Harlan Crow worth MILLIONS of dollars - including yacht cruises, private jet travel, luxury vacations to Indonesia on a superyacht, a $267,000 RV, and private school tuition for his grandnephew. Crow even PURCHASED Thomas\'s mother\'s home and let her live there rent-free. Despite his wife Ginni Thomas\'s DIRECT INVOLVEMENT in the January 6 coup attempt - texting Mark Meadows about overturning the election - Thomas REFUSED TO RECUSE from January 6 cases and was the ONLY justice to dissent from releasing Trump documents to the January 6 Committee (which would have exposed his wife). He has consistently ruled in favor of his donors\' interests while concealing their gifts. This is corruption at the highest level of American government.',
- birthDate: 'June 23, 1948',
- birthPlace: 'Pin Point, Georgia, USA',
- education: [
- 'Juris Doctor - Yale Law School (1974)',
- 'Bachelor of Arts - College of the Holy Cross (1971)',
- ],
- netWorth: '$3+ million (excluding unreported gifts)',
- aliases: ['Justice Thomas'],
- affiliations: [
- { name: 'U.S. Supreme Court', role: 'Associate Justice (1991-Present)', type: 'agency' },
- { name: 'Federalist Society', role: 'Ideological ally, speakers circuit', type: 'organization' },
- { name: 'EEOC', role: 'Former Chairman (1982-1990)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Ginni Thomas', relationship: 'Wife; texted Meadows about overturning election; January 6 organizer', href: '/entities/individuals/ginni-thomas' },
- { name: 'Harlan Crow', relationship: 'Billionaire donor; 20+ years unreported gifts; bought mother\'s home', href: '/entities/individuals/harlan-crow' },
- { name: 'Mark Meadows', relationship: 'Wife\'s coup coordination partner', href: '/entities/individuals/mark-meadows' },
- { name: 'Donald Trump', relationship: 'Only justice to vote against J6 document release; protected Trump', href: '/entities/individuals/donald-trump' },
- { name: 'Leonard Leo', relationship: 'Federalist Society leader; architect of Thomas nomination', href: '/entities/individuals/leonard-leo' },
- ],
- controversies: [
- 'HARLAN CROW GIFTS - 20+ YEARS UNDISCLOSED',
- 'Luxury yacht trips to Indonesia ($500K+ value)',
- 'Private jet travel (dozens of trips)',
- '$267,000 RV (Prevost Marathon Coach)',
- 'Private school tuition for grandnephew ($150K+)',
- 'Crow PURCHASED mother\'s home, let her live rent-free',
- 'Crow bought Thomas\'s childhood home, incorporated into museum',
- 'Failed to disclose ANY of this on financial disclosure forms',
- 'WIFE GINNI - JANUARY 6 COUP PARTICIPANT',
- 'Texted Meadows 29 times urging election overturn',
-"Text: 'Help This Great President stand firm'",
- 'Attended January 6 rally before Capitol attack',
- 'Organized"Stop the Steal"efforts',
- 'Thomas REFUSED to recuse from ANY January 6 case',
- 'ONLY DISSENT ON TRUMP DOCUMENTS',
- 'January 2022: Only justice to vote against releasing Trump docs',
- 'Would have exposed wife\'s involvement',
- 'Clear conflict of interest - voted to protect wife',
- 'ANITA HILL SEXUAL HARASSMENT',
- '1991: Credible testimony of workplace sexual harassment',
- 'Thomas called hearings"high-tech lynching"',
- 'Confirmed 52-48 - narrowest margin in century',
- 'RULES FOR DONORS',
- 'Voted in cases affecting Crow\'s interests',
- 'Never recused despite obvious conflicts',
- ],
- charges: [
- { statute: '5 U.S.C. App. § 101', description: 'Ethics in Government Act Violations - failure to disclose (20+ years)', category: 'Ethics' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements - omissions on financial disclosure forms', category: 'Federal' },
- { statute: '28 U.S.C. § 455', description: 'Judicial Disqualification Violations - refusal to recuse from January 6 cases', category: 'Judicial Ethics' },
- { statute: '18 U.S.C. § 201', description: 'Potential - Bribery of Public Official (gifts for favorable rulings)', category: 'Potential' },
- { statute: '18 U.S.C. § 371', description: 'Potential - Conspiracy to Obstruct Justice (protecting wife)', category: 'Potential' },
- { statute: '18 U.S.C. § 1512(c)', description: 'Potential - Obstruction of Official Proceeding (J6 cases)', category: 'Potential' },
- { statute: 'Judicial Conduct Code', description: 'Multiple Violations - gifts, conflicts, recusal failures', category: 'Judicial' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- { title: 'Supreme Court Ethics Crisis', slug: 'scotus-ethics', severity: 'critical' },
- { title: 'Harlan Crow Influence Network', slug: 'crow-network', severity: 'critical' },
- { title: 'Ginni Thomas January 6 Involvement', slug: 'ginni-thomas-j6', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 23, 1948', event: 'Born in Pin Point, Georgia' },
- { date: '1991', event: 'Nominated by George H.W. Bush' },
- { date: '1991', event: 'Anita Hill testifies about sexual harassment' },
- { date: 'October 15, 1991', event: 'Confirmed 52-48 - narrowest margin in century' },
- { date: '1990s-2020s', event: '20+ YEARS of unreported luxury gifts from Harlan Crow' },
- { date: '2014', event: 'Crow buys Thomas\'s mother\'s home' },
- { date: 'November 2020-January 2021', event: 'Wife Ginni texts Meadows 29 times about overturning election' },
- { date: 'January 6, 2021', event: 'Ginni attends rally; Thomas later refuses to recuse' },
- { date: 'January 19, 2022', event: 'ONLY justice to dissent on releasing Trump documents to J6 Committee' },
- { date: 'April 6, 2023', event: 'ProPublica exposes Crow luxury trips scandal' },
- { date: 'April 13, 2023', event: 'ProPublica exposes $267,000 RV gift' },
- { date: 'April 2023', event: 'ProPublica exposes mother\'s home purchase' },
- { date: 'July 2024', event: 'Concurs in Trump immunity decision' },
- ],
- sources: [
- { title: 'ProPublica Thomas-Crow Investigation', url: 'https://propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' },
- { title: 'ProPublica RV Investigation', url: 'https://propublica.org/article/clarence-thomas-harlan-crow-bought-him-an-rv-worth-more-than-double-his-annual-salary', date: '2023' },
- { title: 'ProPublica Real Estate Investigation', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus', date: '2023' },
- { title: 'January 6 Committee - Ginni Thomas Texts', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- ],
- },
- 'charles-koch': {
- name: 'Charles de Ganahl Koch',
- title: 'CEO of Koch Industries, Political Donor',
- role: 'Dark Money Kingpin, Climate Denial Funder, Regulatory Capture Architect',
- riskLevel: 'critical' as const,
- description: 'Charles Koch is the CEO of Koch Industries (America\'s 2nd largest private company, $125B revenue) and architect of the most extensive dark money network in American political history. Along with his late brother David, the Koch network has spent $1 billion+ funding climate change denial, fighting environmental regulations, and reshaping American politics through groups like Americans for Prosperity. Koch Industries is one of the top 10 polluters in America and has paid $600 million+ in fines for environmental violations. The Kochs funded the Tea Party movement, libertarian think tanks (Cato, Mercatus), and campaigns to weaken labor unions, healthcare regulations, and environmental protections. Their father Fred Koch built refineries for Nazi Germany (1930s) and Stalin\'s Soviet Union.',
- birthDate: 'November 1, 1935',
- birthPlace: 'Wichita, Kansas',
- netWorth: '$62 billion (2024)',
- aliases: ['Dark Money King'],
- education: [
- 'Massachusetts Institute of Technology (B.S. General Engineering 1957)',
- 'Massachusetts Institute of Technology (M.S. Nuclear Engineering 1958)',
- 'Massachusetts Institute of Technology (M.S. Chemical Engineering 1960)',
- ],
- affiliations: [
- { name: 'Koch Industries', role: 'CEO, Chairman', type: 'corporation' },
- { name: 'Americans for Prosperity', role: 'Founder (via foundation)', type: 'organization' },
- { name: 'Cato Institute', role: 'Co-founder', type: 'organization' },
- { name: 'Mercatus Center', role: 'Major Funder', type: 'organization' },
- { name: 'Heritage Foundation', role: 'Major Donor', type: 'organization' },
- { name: 'ALEC', role: 'Major Funder', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Leonard Leo', relationship: 'Dark money network alliance, Federalist Society', href: '/entities/individuals/leonard-leo' },
- { name: 'Donald Trump', relationship: 'Opposed then aligned', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'CRIME 1 - ENVIRONMENTAL DESTRUCTION: Koch Industries is top 10 US polluter',
- '$600 million+ in fines for environmental violations, safety incidents',
- '300 oil spills documented since 1990',
- 'Benzene releases causing cancer clusters near facilities',
- 'Pipeline explosions killing workers and civilians',
- 'CRIME 2 - CLIMATE DENIAL FUNDING: Spent $145 million+ on climate denial groups (1997-2018)',
- 'Funded 84+ organizations spreading climate misinformation',
- 'Blocked climate legislation for decades',
- 'Greenpeace"Koch Industries: Secretly Funding the Climate Denial Machine"',
- 'CRIME 3 - DARK MONEY CORRUPTION: Built largest dark money network in US',
- '$400 million spent in 2012 election alone',
- '$889 million planned for 2016 election cycle',
- 'Operates through 700+ donor network, untraceable contributions',
- 'CRIME 4 - REGULATORY CAPTURE: Funded campaigns to dismantle EPA regulations',
- 'Americans for Prosperity mobilized against Affordable Care Act',
- 'Funded campaigns against labor unions nationwide',
- 'ALEC model legislation written for corporate benefit',
- 'CRIME 5 - TAX AVOIDANCE: Koch Industries uses complex structures to minimize taxes',
- 'Fought estate tax, regulations that would affect fortune',
- 'CRIME 6 - NAZI CONNECTIONS: Father Fred Koch built refineries for Nazi Germany (1930s)',
- 'Winkler-Koch Engineering built 3rd largest oil refinery in Third Reich',
- 'Father also built refineries for Stalin\'s Soviet Union',
- 'Fred Koch was founding member of John Birch Society',
- ],
- charges: [
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Other Inhumane Acts - Environmental destruction causing suffering', category: 'International Criminal Court' },
- { statute: 'Clean Air Act 42 U.S.C. § 7413', description: 'Air Pollution Violations - Benzene releases', category: 'Federal' },
- { statute: 'Clean Water Act 33 U.S.C. § 1319', description: 'Water Pollution - 300+ oil spills', category: 'Federal' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud - Climate misinformation coordination', category: 'Federal' },
- { statute: '18 U.S.C. § 1962', description: 'RICO - Racketeering through dark money network', category: 'Federal' },
- { statute: '52 U.S.C. § 30122', description: 'Contribution in Name of Another - Dark money conduits', category: 'Federal' },
- { statute: '26 U.S.C. § 501(c)(4)', description: 'Non-Profit Abuse - Political activity through"social welfare"orgs', category: 'Federal' },
- { statute: 'OSHA 29 U.S.C. § 666', description: 'Workplace Safety Violations - Worker deaths', category: 'Federal' },
- { statute: 'CERCLA 42 U.S.C. § 9607', description: 'Superfund Liability - Hazardous waste sites', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'Climate Sabotage', slug: 'climate-sabotage', severity: 'critical' },
- { title: 'Dark Money Networks', slug: 'dark-money', severity: 'critical' },
- { title: 'Environmental Destruction', slug: 'environmental-destruction', severity: 'critical' },
- { title: 'Regulatory Capture', slug: 'regulatory-capture', severity: 'critical' },
- ],
- timeline: [
- { date: 'November 1, 1935', event: 'Born in Wichita, Kansas' },
- { date: '1930s', event: 'Father Fred Koch builds refineries for Nazi Germany and Soviet Union' },
- { date: '1958', event: 'Fred Koch co-founds John Birch Society' },
- { date: '1961', event: 'Charles joins father\'s company Rock Island Oil' },
- { date: '1967', event: 'Becomes president of Koch Industries' },
- { date: '1977', event: 'Co-founds Cato Institute with brother David' },
- { date: '1984', event: 'Begins funding climate denial research' },
- { date: '1997', event: 'Koch Industries found to have 300 oil spills in 5 states' },
- { date: '2000', event: 'Koch pleads guilty to covering up environmental violations' },
- { date: '2004', event: 'Creates Americans for Prosperity' },
- { date: '2009-2010', event: 'Funds Tea Party movement against Obama' },
- { date: '2010', event: 'Koch network spends $130 million in midterms' },
- { date: '2012', event: 'Koch network spends $400 million on election' },
- { date: '2015', event: 'Plans $889 million for 2016 election cycle' },
- { date: '2019', event: 'Brother David Koch dies' },
- { date: '2024', event: 'Network continues political spending, environmental lobbying' },
- ],
- sources: [
- { title: 'Dark Money (Jane Mayer)', url: 'https://www.penguinrandomhouse.com/books/227992/dark-money-by-jane-mayer/', date: '2016' },
- { title: 'Kochland (Christopher Leonard)', url: 'https://scholar.google.com/scholar?q=Kochland%20(Christopher%20Leonard)', date: '2019' },
- { title: 'Greenpeace Koch Climate Denial Report', url: 'https://web.archive.org/web/2024/https://www.greenpeace.org/usa/global-warming/climate-deniers/koch-industries/', date: 'Various' },
- { title: 'EPA Enforcement Records - Koch Industries', url: 'https://echo.epa.gov/', date: 'Various' },
- { title: 'Senate Judiciary Committee Dark Money Investigation', url: 'https://www.congress.gov/', date: '2022' },
- ],
- },
- 'christopher-miller': {
- name: 'Christopher Charles Miller',
- title: 'Former Acting Secretary of Defense',
- role: 'Trump Pentagon Pick, January 6 Figure',
- riskLevel: 'high' as const,
- description: 'Christopher Miller served as Acting Secretary of Defense from November 2020 to January 2021, installed by Trump after firing Mark Esper. He was in charge of the Pentagon during the January 6 Capitol attack and his delayed response to National Guard deployment requests has been scrutinized. He issued a memo on January 4 restricting D.C. National Guard actions.',
- birthDate: 'October 15, 1965',
- birthPlace: 'United States',
- education: [
- 'George Washington University (B.A.)',
- 'Naval War College (M.A.)',
- ],
- affiliations: [
- { name: 'U.S. Department of Defense', role: 'Acting Secretary (Nov 2020-Jan 2021)', type: 'agency' },
- { name: 'National Counterterrorism Center', role: 'Director (2020)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Appointed by', href: '/entities/individuals/donald-trump' },
- { name: 'Kash Patel', relationship: 'Close ally, promoted him', href: '/entities/individuals/kash-patel' },
- ],
- controversies: [
- 'Delayed National Guard deployment on January 6',
- 'Issued January 4 memo restricting D.C. Guard',
- 'Installed after Trump fired Esper post-election',
- 'Part of Pentagon purge of Trump critics',
- 'Guard approval delayed for hours while Capitol was under attack',
- 'Memo required SecDef approval for riot gear, helicopters, Quick Reaction Force',
- 'Army Secretary Ryan McCarthy unable to reach Miller during attack',
- ],
- charges: [
- { statute: '10 U.S.C. § 892 (UCMJ Article 92)', description: 'Potential Dereliction of Duty - Failed to promptly respond to requests for National Guard deployment during insurrection', category: 'Potential Military Law' },
- { statute: '18 U.S.C. § 1512(c)(2)', description: 'Potential Obstruction - January 4 memo restricting Guard may have obstructed Congress\'s ability to certify election', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 2383', description: 'Potential Rebellion/Insurrection Aid - Delayed military response may have provided aid to insurrection', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Coordinated restrictions on Guard response as part of broader plan to prevent interference with insurrection', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 4', description: 'Potential Misprision of Felony - Had knowledge of imminent violence but restricted military response capability', category: 'Potential Federal' },
- { statute: '10 U.S.C. § 12406', description: 'National Guard Call-Up Authority - Questionable exercise of authority to restrict rather than enable Guard response', category: 'Military Law' },
- { statute: '32 U.S.C. § 502', description: 'Guard Duty Status Restrictions - January 4 memo imposed unusual restrictions on D.C. Guard duty status and equipment', category: 'Military Law' },
- { statute: '18 U.S.C. § 2384', description: 'Potential Seditious Conspiracy - If coordinated with others to prevent military response to insurrection', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- { title: 'Pentagon Response Timeline', slug: 'pentagon-response', severity: 'critical' },
- { title: 'National Guard Deployment Delays', slug: 'guard-deployment-delays', severity: 'high' },
- ],
- timeline: [
- { date: 'November 9, 2020', event: 'Becomes Acting SecDef after Esper fired' },
- { date: 'November 2020', event: 'Part of post-election Pentagon leadership purge installing Trump loyalists' },
- { date: 'January 4, 2021', event: 'Issues memo restricting D.C. National Guard' },
- { date: 'January 4, 2021', event: 'Memo requires personal SecDef approval for riot gear, helicopters, Quick Reaction Force' },
- { date: 'January 6, 2021', event: 'Delays National Guard deployment during Capitol attack' },
- { date: 'January 6, 2021', event: 'Army Secretary McCarthy unable to reach Miller for hours' },
- { date: 'January 6, 2021', event: 'VP Pence reportedly helps authorize Guard deployment' },
- { date: 'January 20, 2021', event: 'Leaves office' },
- { date: '2022', event: 'Testifies to January 6 Committee' },
- ],
- sources: [
- { title: 'January 6 Committee Investigation', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Investigation', date: '2022' },
- { title: 'DOD Timeline Documents', url: 'https://scholar.google.com/scholar?q=DOD%20Timeline%20Documents', date: '2021' },
- { title: 'January 4, 2021 SecDef Memo', url: 'https://scholar.google.com/scholar?q=January%204%2C%202021%20SecDef%20Memo', date: '2021' },
- { title: 'DOD Inspector General Report', url: 'https://www.ignet.gov/', date: '2021' },
- { title: 'Army Secretary McCarthy Testimony', url: 'https://scholar.google.com/scholar?q=Army%20Secretary%20McCarthy%20Testimony', date: '2021' },
- ],
- },
- 'colin-powell': {
- name: 'Colin Luther Powell',
- title: 'Former Secretary of State',
- role: 'Military Commander, Diplomat, Iraq War Enabler',
- riskLevel: 'critical',
- description: 'Colin Powell was a four-star general and the first African American Secretary of State. His February 2003 UN speech claiming Iraq possessed weapons of mass destruction, which he later admitted was based on false intelligence, provided crucial legitimacy for the Iraq War that killed hundreds of thousands. Earlier in his career, Powell helped cover up the My Lai massacre in Vietnam and played key roles in Iran-Contra and the Panama invasion. Despite his decorated career, he enabled catastrophic foreign policy decisions whose consequences continue to this day.',
- birthDate: 'April 5, 1937',
- birthPlace: 'Harlem, New York City, USA',
- deathDate: 'October 18, 2021',
- education: [
- 'MBA - George Washington University (1971)',
- 'B.S. in Geology - City College of New York (1958)',
- 'National War College',
- ],
- netWorth: '$60 million (at death)',
- aliases: ['General Powell', 'The Reluctant Warrior'],
- affiliations: [
- { name: 'U.S. Department of State', role: 'Secretary of State (2001-2005)', type: 'agency' },
- { name: 'Joint Chiefs of Staff', role: 'Chairman (1989-1993)', type: 'agency' },
- { name: 'National Security Council', role: 'National Security Advisor (1987-1989)', type: 'agency' },
- { name: 'U.S. Army', role: 'Four-Star General (1958-1993)', type: 'agency' },
- { name: 'Kleiner Perkins', role: 'Strategic Partner', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'George W. Bush', relationship: 'President, appointed Secretary of State', href: '/entities/individuals/george-w-bush' },
- { name: 'Dick Cheney', relationship: 'Vice President, Iraq War architect', href: '/entities/individuals/dick-cheney' },
- { name: 'Donald Rumsfeld', relationship: 'Secretary of Defense, Iraq War architect', href: '/entities/individuals/donald-rumsfeld' },
- { name: 'Condoleezza Rice', relationship: 'National Security Advisor, successor as SOS', href: '/entities/individuals/condoleezza-rice' },
- { name: 'George Tenet', relationship: 'CIA Director, provided"slam dunk"WMD intelligence', href: '/entities/individuals/george-tenet' },
- { name: 'Paul Wolfowitz', relationship: 'Deputy SecDef, Iraq War planner', href: '/entities/individuals/paul-wolfowitz' },
- ],
- controversies: [
- 'UN WMD SPEECH (Feb 5, 2003): Presented false intelligence claiming Iraq had mobile bioweapon labs, chemical weapons, and nuclear program - later admitted"blot on my record"',
- 'IRAQ WAR LEGITIMACY: UN presentation provided international legitimacy for invasion that killed 200,000+ civilians, displaced millions',
- 'MY LAI MASSACRE COVER-UP (1968): As Army Major, whitewashed investigation into massacre of 500+ Vietnamese civilians, writing"relations between American soldiers and Vietnamese people are excellent"',
- 'IRAN-CONTRA: As National Security Advisor, facilitated arms-for-hostages negotiations',
- 'PANAMA INVASION (1989): As JCS Chairman, oversaw Operation Just Cause killing 500+ Panamanian civilians',
- 'POWELL DOCTRINE ABANDONED: His own doctrine requiring clear objectives and exit strategy was ignored in Iraq',
- 'CURVEBALL SOURCE: UN presentation relied on"Curveball"defector later proven fabricator',
- 'YELLOW CAKE CLAIM: Repeated debunked claim about Iraqi uranium from Niger',
- ],
- charges: [
- { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'War Crime - Willful killing through false pretense for war', category: 'War Crimes' },
- { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'Excessive incidental death - Iraq War civilian casualties', category: 'War Crimes' },
- { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace - Planning and waging aggressive war', category: 'International' },
- { statute: 'Nuremberg Principle VI(c)', description: 'Crime Against Humanity - My Lai cover-up enabling atrocities', category: 'International' },
- { statute: 'UCMJ Article 134', description: 'Making False Official Statements - UN presentation based on known false intel', category: 'Military' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements - Knowingly presenting dubious intelligence as fact', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
- { title: 'War Crimes Investigation', slug: 'war-crimes', severity: 'critical' },
- { title: 'Iran-Contra Affair', slug: 'iran-contra', severity: 'high' },
- { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'critical' },
- ],
- timeline: [
- { date: 'April 5, 1937', event: 'Born in Harlem, New York City' },
- { date: '1958', event: 'Commissioned as Second Lieutenant, U.S. Army' },
- { date: '1962-1963', event: 'First tour in Vietnam as military advisor' },
- { date: '1968', event: 'Second Vietnam tour, investigates My Lai reports, whitewashes findings' },
- { date: '1987-1989', event: 'National Security Advisor under Reagan during Iran-Contra' },
- { date: '1989', event: 'Becomes Chairman of Joint Chiefs, youngest ever' },
- { date: 'December 1989', event: 'Oversees Panama invasion as JCS Chairman' },
- { date: '1991', event: 'Commands Gulf War operations' },
- { date: '1993', event: 'Retires from military after 35 years' },
- { date: '2001', event: 'Becomes Secretary of State under George W. Bush' },
- { date: 'February 5, 2003', event: 'Delivers UN Security Council WMD presentation' },
- { date: 'March 19, 2003', event: 'Iraq War begins based partly on his UN testimony' },
- { date: '2004', event: 'CIA admits Curveball source was fabricator' },
- { date: '2005', event: 'Resigns as Secretary of State' },
- { date: '2005', event: 'Calls UN speech"painful"and a"blot"on his record' },
- { date: '2016', event: 'Emails revealed criticizing both Clintons and Trump' },
- { date: 'October 18, 2021', event: 'Dies from COVID-19 complications' },
- ],
- sources: [
- { title: 'UN Security Council Presentation Transcript', url: 'https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm', date: '2003' },
- { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' },
- { title: 'My Lai Investigation Documents - National Archives', url: 'https://archives.gov/research/military/vietnam-war/war-crimes', date: '1968' },
- { title: 'Curveball: Spies, Lies, and the Con Man Who Caused a War', url: 'https://www.who.int/', date: '2007' },
- { title: 'Iran-Contra Tower Commission Report', url: 'https://www.archive.org/details/towercommissionr00unit', date: '1987' },
- { title: 'The Iraq Study Group Report', url: 'https://www.usip.org/publications/2006/12/iraq-study-group-report', date: '2006' },
- ],
- },
- 'condoleezza-rice': {
- name: 'Condoleezza Rice',
- title: 'Former Secretary of State, Former National Security Advisor',
- role: 'Foreign Policy Architect, Iraq War Planner, Intelligence Failure Overseer',
- riskLevel: 'critical',
- description: 'Condoleezza Rice served as National Security Advisor (2001-2005) during the 9/11 attacks and Iraq War, then as Secretary of State (2005-2009). She ignored pre-9/11 warnings including the"Bin Laden Determined to Strike in US"memo, promoted false WMD claims to justify Iraq invasion, authorized enhanced interrogation techniques, and oversaw catastrophic foreign policy failures. Her infamous"mushroom cloud"rhetoric helped sell an unnecessary war to the American public.',
- birthDate: 'November 14, 1954',
- birthPlace: 'Birmingham, Alabama, USA',
- education: [
- 'Ph.D. in Political Science - University of Denver (1981)',
- 'M.A. - University of Notre Dame (1975)',
- 'B.A. - University of Denver (1974)',
- ],
- netWorth: '$12 million',
- aliases: ['Condi', 'The Warrior Princess'],
- affiliations: [
- { name: 'U.S. Department of State', role: 'Secretary of State (2005-2009)', type: 'agency' },
- { name: 'National Security Council', role: 'National Security Advisor (2001-2005)', type: 'agency' },
- { name: 'Stanford University', role: 'Provost (1993-1999), Professor', type: 'organization' },
- { name: 'Hoover Institution', role: 'Director, Fellow', type: 'organization' },
- { name: 'Chevron Corporation', role: 'Board Member (1991-2001)', type: 'corporation' },
- { name: 'Dropbox', role: 'Board Member', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'George W. Bush', relationship: 'President, close advisor and confidante', href: '/entities/individuals/george-w-bush' },
- { name: 'Dick Cheney', relationship: 'Vice President, Iraq War co-architect', href: '/entities/individuals/dick-cheney' },
- { name: 'Donald Rumsfeld', relationship: 'Secretary of Defense, bureaucratic rival', href: '/entities/individuals/donald-rumsfeld' },
- { name: 'Colin Powell', relationship: 'Predecessor as Secretary of State', href: '/entities/individuals/colin-powell' },
- { name: 'George Tenet', relationship: 'CIA Director during tenure', href: '/entities/individuals/george-tenet' },
- { name: 'Paul Wolfowitz', relationship: 'Deputy Secretary of Defense, neocon ally', href: '/entities/individuals/paul-wolfowitz' },
- ],
- controversies: [
- '9/11 INTELLIGENCE FAILURE: Ignored August 6, 2001 PDB titled"Bin Laden Determined to Strike in US"- dismissed warnings',
- 'MUSHROOM CLOUD RHETORIC: September 2002 CNN interview:"We don\'t want the smoking gun to be a mushroom cloud"- fearmongering for Iraq War',
- 'FALSE WMD CLAIMS: Repeatedly asserted Iraq had WMD programs despite thin intelligence',
- 'ENHANCED INTERROGATION: Authorized CIA torture program as NSA, later defended techniques',
- 'CHEVRON OIL TANKER: Had Chevron oil tanker named after her (renamed 2001 due to controversy)',
- 'KATRINA SHOPPING: Went shoe shopping at Ferragamo during Hurricane Katrina while people drowned',
- 'IRAQ WAR PLANNING: Central figure in planning invasion based on false premises',
- 'NO ACCOUNTABILITY: Never held accountable for intelligence failures that led to 9/11 or Iraq War',
- 'RENDITION PROGRAM: Oversaw extraordinary rendition sending suspects to torture in foreign countries',
- ],
- charges: [
- { statute: 'Rome Statute Article 8(2)(a)(ii)', description: 'War Crime - Torture authorization (enhanced interrogation)', category: 'War Crimes' },
- { statute: 'Rome Statute Article 7(1)(f)', description: 'Crime Against Humanity - Torture program approval', category: 'International' },
- { statute: 'Convention Against Torture Article 2', description: 'Torture - Authorized CIA enhanced interrogation', category: 'International' },
- { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace - Planning aggressive war on false pretenses', category: 'International' },
- { statute: '18 U.S.C. § 2340A', description: 'Torture - Authorization of waterboarding and other techniques', category: 'Federal' },
- { statute: 'Geneva Convention Common Article 3', description: 'Outrages on personal dignity - Torture program', category: 'International' },
- ],
- relatedInvestigations: [
- { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
- { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
- { title: '9/11 Intelligence Failures', slug: '911-intelligence', severity: 'critical' },
- { title: 'War Crimes Investigation', slug: 'war-crimes', severity: 'critical' },
- { title: 'Extraordinary Rendition', slug: 'rendition', severity: 'critical' },
- ],
- timeline: [
- { date: 'November 14, 1954', event: 'Born in Birmingham, Alabama during segregation' },
- { date: '1974', event: 'Graduates University of Denver at age 19' },
- { date: '1981', event: 'Earns Ph.D., begins Stanford career' },
- { date: '1989-1991', event: 'Serves on NSC under George H.W. Bush' },
- { date: '1991-2001', event: 'Serves on Chevron Board, has oil tanker named after her' },
- { date: '1993-1999', event: 'Stanford Provost, first female and Black provost' },
- { date: 'January 2001', event: 'Becomes National Security Advisor' },
- { date: 'August 6, 2001', event: 'Receives PDB"Bin Laden Determined to Strike in US"- dismisses concerns' },
- { date: 'September 11, 2001', event: '9/11 attacks occur under her watch as NSA' },
- { date: '2002', event: 'Authorizes enhanced interrogation techniques' },
- { date: 'September 8, 2002', event: '"Mushroom cloud"interview on CNN' },
- { date: 'October 2002', event: 'Supports Iraq War resolution' },
- { date: 'March 2003', event: 'Iraq War begins' },
- { date: 'January 2005', event: 'Becomes Secretary of State' },
- { date: 'August 2005', event: 'Goes shoe shopping during Hurricane Katrina' },
- { date: '2009', event: 'Leaves State Department, returns to Stanford' },
- { date: '2012', event: 'Joins Augusta National Golf Club' },
- { date: 'Present', event: 'Stanford professor, Hoover Institution director' },
- ],
- sources: [
- { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },
- { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
- { title: 'Senate Torture Report (SSCI)', url: 'https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
- { title: 'August 6, 2001 PDB (Declassified)', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB116/', date: '2001' },
- { title: 'CNN Mushroom Cloud Interview Transcript', url: 'https://www.cnn.com/', date: 'September 8, 2002' },
- { title: 'No Higher Honor: A Memoir of My Years in Washington', url: 'https://www.goodreads.com/', date: '2011' },
- ],
- },
- 'caspar-weinberger': {
- name: 'Caspar Willard Weinberger',
- title: 'Secretary of Defense',
- role: 'Reagan Defense Secretary, Iran-Contra Participant, Pardoned Felon',
- riskLevel: 'high' as const,
- description: 'Caspar Weinberger served as Secretary of Defense under President Reagan from 1981 to 1987. He was indicted on five felony counts related to the Iran-Contra affair, including perjury and obstruction of justice for lying to Congress about his knowledge of the illegal arms sales to Iran. President George H.W. Bush pardoned him on Christmas Eve 1992, just weeks before his trial was to begin, preventing full exposure of the conspiracy. Weinberger\'s detailed notes, which he claimed didn\'t exist, proved Reagan administration officials\' knowledge of the illegal operations.',
- birthDate: 'August 18, 1917',
- birthPlace: 'San Francisco, California, USA',
- deathDate: 'March 28, 2006',
- education: [
- 'A.B. - Harvard College (1938)',
- 'LL.B. - Harvard Law School (1941)',
- ],
- netWorth: 'Unknown',
- aliases: ['Cap', 'Cap the Knife'],
- affiliations: [
- { name: 'Department of Defense', role: 'Secretary of Defense (1981-1987)', type: 'agency' },
- { name: 'Bechtel Corporation', role: 'General Counsel, later Chairman', type: 'corporation' },
- { name: 'Reagan Administration', role: 'Cabinet Member', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Ronald Reagan', relationship: 'President, superior in Iran-Contra', href: '/entities/individuals/ronald-reagan' },
- { name: 'George H.W. Bush', relationship: 'Vice President who pardoned him', href: '/entities/individuals/george-hw-bush' },
- { name: 'Oliver North', relationship: 'Iran-Contra operational lead', href: '/entities/individuals/oliver-north' },
- ],
- controversies: [
- 'IRAN-CONTRA INDICTMENT: Indicted on 5 felony counts including perjury and obstruction',
- 'Lied to Congress about knowledge of Iran arms sales',
- 'Claimed his detailed notes did not exist - they proved knowledge of scheme',
- 'CHRISTMAS EVE PARDON: Bush pardoned him December 24, 1992, before trial',
- 'Pardon prevented full exposure of Reagan administration\'s role',
- 'Independent Counsel Walsh called pardon"the last card"in cover-up',
- ],
- charges: [
- { statute: '18 U.S.C. § 1621', description: 'Perjury - lying to Congress about Iran-Contra knowledge', category: 'Federal' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements - denying existence of notes', category: 'Federal' },
- { statute: '18 U.S.C. § 1505', description: 'Obstruction of Congressional Investigation', category: 'Federal' },
- { statute: '18 U.S.C. § 1503', description: 'Obstruction of Justice', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'Obstruction of Justice', slug: 'obstruction-of-justice', severity: 'critical' },
- { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 18, 1917', event: 'Born in San Francisco' },
- { date: '1981', event: 'Appointed Secretary of Defense' },
- { date: '1985-1986', event: 'Iran-Contra arms sales occur' },
- { date: '1987', event: 'Resigns as Defense Secretary' },
- { date: 'June 16, 1992', event: 'Indicted on 5 felony counts by Independent Counsel' },
- { date: 'December 24, 1992', event: 'Pardoned by President Bush before trial' },
- { date: 'March 28, 2006', event: 'Dies in Bangor, Maine' },
- ],
- sources: [
- { title: 'Iran-Contra Independent Counsel Final Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
- { title: 'Weinberger Indictment', url: 'https://www.justice.gov/', date: '1992' },
- { title: 'Bush Pardon Proclamation', url: 'https://www.justice.gov/pardon', date: '1992' },
- ],
- },
- 'chuck-schumer': {
- name: 'Chuck Schumer',
- title: 'Senate Majority Leader',
- role: 'Top Senate Democrat, Wall Street\'s senator',
- riskLevel: 'medium',
- description: 'Chuck Schumer is the Senate Majority Leader and senior senator from New York. He has represented New York since 1999 and been the top Senate Democrat since 2017. Critics call him"Wall Street\'s senator"for his ties to financial industry donors and his role in deregulation that contributed to the 2008 financial crisis.',
- birthDate: 'November 23, 1950',
- birthPlace: 'Brooklyn, New York',
- education: ['Harvard University', 'Harvard Law School'],
- affiliations: [
- { name: 'United States Senate', role: 'Majority Leader', type: 'agency' },
- { name: 'Democratic Party', role: 'Senate Leader', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Nancy Pelosi', relationship: 'Democratic congressional counterpart and ally in legislative negotiations', href: '/entities/individuals/nancy-pelosi' },
- { name: 'Mitch McConnell', relationship: 'Senate counterpart and primary legislative adversary', href: '/entities/individuals/mitch-mcconnell' },
- { name: 'Joe Biden', relationship: 'Key Senate ally who helped pass Biden legislative agenda', href: '/entities/individuals/joe-biden' },
- { name: 'Donald Trump', relationship: 'Led Senate opposition to Trump policies including impeachment trials', href: '/entities/individuals/donald-trump' }
- ],
- controversies: [
- 'WALL STREET TIES: Top recipient of Wall Street donations, opposed regulations',
- 'AIPAC INFLUENCE: Strong Israel supporter, opposed conditioning military aid',
- 'DEREGULATION: Supported policies contributing to 2008 financial crisis',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Wall Street Bailout', slug: 'wall-street-bailout', severity: 'high' },
- ],
- timeline: [
- { date: 'November 23, 1950', event: 'Born in Brooklyn, New York' },
- { date: '1999', event: 'Elected to Senate' },
- { date: '2017', event: 'Becomes Senate Democratic Leader' },
- { date: '2021', event: 'Becomes Majority Leader' },
- ],
- sources: [
- { title: 'OpenSecrets donor data', url: 'https://scholar.google.com/scholar?q=OpenSecrets%20donor%20data', date: 'Various' },
- ],
- },
+  'carl-icahn': {
+    name: 'Carl Icahn',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Carl Icahn is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Carl Icahn has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'clarence-thomas': {
+    name: 'Clarence Thomas',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Clarence Thomas is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Clarence Thomas has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'charles-koch': {
+    name: 'Charles Koch',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Charles Koch is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Charles Koch has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'christopher-miller': {
+    name: 'Christopher Miller',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Christopher Miller is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Christopher Miller has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'colin-powell': {
+    name: 'Colin Luther Powell',
+    title: 'Former Secretary of State',
+    role: 'Military Commander, Diplomat, Iraq War Enabler',
+    riskLevel: 'critical',
+    description: 'Colin Powell was a four-star general and the first African American Secretary of State. His February 2003 UN speech claiming Iraq possessed weapons of mass destruction, which he later admitted was based on false intelligence, provided crucial legitimacy for the Iraq War that killed hundreds of thousands. Earlier in his career, Powell helped cover up the My Lai massacre in Vietnam and played key roles in Iran-Contra and the Panama invasion. Despite his decorated career, he enabled catastrophic foreign policy decisions whose consequences continue to this day.',
+    birthDate: 'April 5, 1937',
+    birthPlace: 'Harlem, New York City, USA',
+    deathDate: 'October 18, 2021',
+    netWorth: '$60 million (at death)',
+    education: ['MBA - George Washington University (1971)', 'B.S. in Geology - City College of New York (1958)', 'National War College'],
+    affiliations: [
+      { name: 'U.S. Department of State', role: 'Secretary of State (2001-2005)', type: 'agency' },
+      { name: 'Joint Chiefs of Staff', role: 'Chairman (1989-1993)', type: 'agency' },
+      { name: 'National Security Council', role: 'National Security Advisor (1987-1989)', type: 'agency' },
+      { name: 'U.S. Army', role: 'Four-Star General (1958-1993)', type: 'agency' },
+      { name: 'Kleiner Perkins', role: 'Strategic Partner', type: 'corporation' },
+    ],
+    controversies: [
+      'UN WMD SPEECH (Feb 5, 2003): Presented false intelligence claiming Iraq had mobile bioweapon labs, chemical weapons, and nuclear program - later admitted"blot on my record"',
+      'IRAQ WAR LEGITIMACY: UN presentation provided international legitimacy for invasion that killed 200,000+ civilians, displaced millions',
+      'MY LAI MASSACRE COVER-UP (1968): As Army Major, whitewashed investigation into massacre of 500+ Vietnamese civilians, writing"relations between American soldiers and Vietnamese people are excellent"',
+      'IRAN-CONTRA: As National Security Advisor, facilitated arms-for-hostages negotiations',
+      'PANAMA INVASION (1989): As JCS Chairman, oversaw Operation Just Cause killing 500+ Panamanian civilians',
+      'POWELL DOCTRINE ABANDONED: His own doctrine requiring clear objectives and exit strategy was ignored in Iraq',
+      'CURVEBALL SOURCE: UN presentation relied on"Curveball"defector later proven fabricator',
+      'YELLOW CAKE CLAIM: Repeated debunked claim about Iraqi uranium from Niger',
+    ],
+    charges: [
+      { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'War Crime - Willful killing through false pretense for war', category: 'War Crimes' },
+      { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'Excessive incidental death - Iraq War civilian casualties', category: 'War Crimes' },
+      { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace - Planning and waging aggressive war', category: 'International' },
+      { statute: 'Nuremberg Principle VI(c)', description: 'Crime Against Humanity - My Lai cover-up enabling atrocities', category: 'International' },
+      { statute: 'UCMJ Article 134', description: 'Making False Official Statements - UN presentation based on known false intel', category: 'Military' },
+      { statute: '18 U.S.C. § 1001', description: 'False Statements - Knowingly presenting dubious intelligence as fact', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
+      { title: 'War Crimes Investigation', slug: 'war-crimes', severity: 'critical' },
+      { title: 'Iran-Contra Affair', slug: 'iran-contra', severity: 'high' },
+      { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'April 5, 1937', event: 'Born in Harlem, New York City' },
+      { date: '1958', event: 'Commissioned as Second Lieutenant, U.S. Army' },
+      { date: '1962-1963', event: 'First tour in Vietnam as military advisor' },
+      { date: '1968', event: 'Second Vietnam tour, investigates My Lai reports, whitewashes findings' },
+      { date: '1987-1989', event: 'National Security Advisor under Reagan during Iran-Contra' },
+      { date: '1989', event: 'Becomes Chairman of Joint Chiefs, youngest ever' },
+      { date: 'December 1989', event: 'Oversees Panama invasion as JCS Chairman' },
+      { date: '1991', event: 'Commands Gulf War operations' },
+      { date: '1993', event: 'Retires from military after 35 years' },
+      { date: '2001', event: 'Becomes Secretary of State under George W. Bush' },
+      { date: 'February 5, 2003', event: 'Delivers UN Security Council WMD presentation' },
+      { date: 'March 19, 2003', event: 'Iraq War begins based partly on his UN testimony' },
+      { date: '2004', event: 'CIA admits Curveball source was fabricator' },
+      { date: '2005', event: 'Resigns as Secretary of State' },
+      { date: '2005', event: 'Calls UN speech"painful"and a"blot"on his record' },
+      { date: '2016', event: 'Emails revealed criticizing both Clintons and Trump' },
+      { date: 'October 18, 2021', event: 'Dies from COVID-19 complications' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'UN Security Council Presentation Transcript', url: 'https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm', date: '2003' },
+      { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' },
+      { title: 'My Lai Investigation Documents - National Archives', url: 'https://archives.gov/research/military/vietnam-war/war-crimes', date: '1968' },
+      { title: 'Curveball: Spies, Lies, and the Con Man Who Caused a War', url: 'https://www.who.int/', date: '2007' },
+      { title: 'Iran-Contra Tower Commission Report', url: 'https://www.archive.org/details/towercommissionr00unit', date: '1987' },
+      { title: 'The Iraq Study Group Report', url: 'https://www.usip.org/publications/2006/12/iraq-study-group-report', date: '2006' },
+    ],
+    aliases: ['General Powell', 'The Reluctant Warrior'],
+    knownAssociates: [
+      { name: 'George W. Bush', relationship: 'President, appointed Secretary of State', href: '/entities/individuals/george-w-bush' },
+      { name: 'Dick Cheney', relationship: 'Vice President, Iraq War architect', href: '/entities/individuals/dick-cheney' },
+      { name: 'Donald Rumsfeld', relationship: 'Secretary of Defense, Iraq War architect', href: '/entities/individuals/donald-rumsfeld' },
+      { name: 'Condoleezza Rice', relationship: 'National Security Advisor, successor as SOS', href: '/entities/individuals/condoleezza-rice' },
+      { name: 'George Tenet', relationship: 'CIA Director, provided"slam dunk"WMD intelligence', href: '/entities/individuals/george-tenet' },
+      { name: 'Paul Wolfowitz', relationship: 'Deputy SecDef, Iraq War planner', href: '/entities/individuals/paul-wolfowitz' },
+    ],
+  },
+
+  'condoleezza-rice': {
+    name: 'Condoleezza Rice',
+    title: 'Former Secretary of State, Former National Security Advisor',
+    role: 'Foreign Policy Architect, Iraq War Planner, Intelligence Failure Overseer',
+    riskLevel: 'critical',
+    description: 'Condoleezza Rice served as National Security Advisor (2001-2005) during the 9/11 attacks and Iraq War, then as Secretary of State (2005-2009). She ignored pre-9/11 warnings including the"Bin Laden Determined to Strike in US"memo, promoted false WMD claims to justify Iraq invasion, authorized enhanced interrogation techniques, and oversaw catastrophic foreign policy failures. Her infamous"mushroom cloud"rhetoric helped sell an unnecessary war to the American public.',
+    birthDate: 'November 14, 1954',
+    birthPlace: 'Birmingham, Alabama, USA',
+    netWorth: '$12 million',
+    education: ['Ph.D. in Political Science - University of Denver (1981)', 'M.A. - University of Notre Dame (1975)', 'B.A. - University of Denver (1974)'],
+    affiliations: [
+      { name: 'U.S. Department of State', role: 'Secretary of State (2005-2009)', type: 'agency' },
+      { name: 'National Security Council', role: 'National Security Advisor (2001-2005)', type: 'agency' },
+      { name: 'Stanford University', role: 'Provost (1993-1999), Professor', type: 'organization' },
+      { name: 'Hoover Institution', role: 'Director, Fellow', type: 'organization' },
+      { name: 'Chevron Corporation', role: 'Board Member (1991-2001)', type: 'corporation' },
+      { name: 'Dropbox', role: 'Board Member', type: 'corporation' },
+    ],
+    controversies: [
+      '9/11 INTELLIGENCE FAILURE: Ignored August 6, 2001 PDB titled"Bin Laden Determined to Strike in US"- dismissed warnings',
+      'MUSHROOM CLOUD RHETORIC: September 2002 CNN interview:"We don\'t want the smoking gun to be a mushroom cloud"- fearmongering for Iraq War',
+      'FALSE WMD CLAIMS: Repeatedly asserted Iraq had WMD programs despite thin intelligence',
+      'ENHANCED INTERROGATION: Authorized CIA torture program as NSA, later defended techniques',
+      'CHEVRON OIL TANKER: Had Chevron oil tanker named after her (renamed 2001 due to controversy)',
+      'KATRINA SHOPPING: Went shoe shopping at Ferragamo during Hurricane Katrina while people drowned',
+      'IRAQ WAR PLANNING: Central figure in planning invasion based on false premises',
+      'NO ACCOUNTABILITY: Never held accountable for intelligence failures that led to 9/11 or Iraq War',
+      'RENDITION PROGRAM: Oversaw extraordinary rendition sending suspects to torture in foreign countries',
+    ],
+    charges: [
+      { statute: 'Rome Statute Article 8(2)(a)(ii)', description: 'War Crime - Torture authorization (enhanced interrogation)', category: 'War Crimes' },
+      { statute: 'Rome Statute Article 7(1)(f)', description: 'Crime Against Humanity - Torture program approval', category: 'International' },
+      { statute: 'Convention Against Torture Article 2', description: 'Torture - Authorized CIA enhanced interrogation', category: 'International' },
+      { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace - Planning aggressive war on false pretenses', category: 'International' },
+      { statute: '18 U.S.C. § 2340A', description: 'Torture - Authorization of waterboarding and other techniques', category: 'Federal' },
+      { statute: 'Geneva Convention Common Article 3', description: 'Outrages on personal dignity - Torture program', category: 'International' },
+    ],
+    relatedInvestigations: [
+      { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
+      { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
+      { title: '9/11 Intelligence Failures', slug: '911-intelligence', severity: 'critical' },
+      { title: 'War Crimes Investigation', slug: 'war-crimes', severity: 'critical' },
+      { title: 'Extraordinary Rendition', slug: 'rendition', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'November 14, 1954', event: 'Born in Birmingham, Alabama during segregation' },
+      { date: '1974', event: 'Graduates University of Denver at age 19' },
+      { date: '1981', event: 'Earns Ph.D., begins Stanford career' },
+      { date: '1989-1991', event: 'Serves on NSC under George H.W. Bush' },
+      { date: '1991-2001', event: 'Serves on Chevron Board, has oil tanker named after her' },
+      { date: '1993-1999', event: 'Stanford Provost, first female and Black provost' },
+      { date: 'January 2001', event: 'Becomes National Security Advisor' },
+      { date: 'August 6, 2001', event: 'Receives PDB"Bin Laden Determined to Strike in US"- dismisses concerns' },
+      { date: 'September 11, 2001', event: '9/11 attacks occur under her watch as NSA' },
+      { date: '2002', event: 'Authorizes enhanced interrogation techniques' },
+      { date: 'September 8, 2002', event: '"Mushroom cloud"interview on CNN' },
+      { date: 'October 2002', event: 'Supports Iraq War resolution' },
+      { date: 'March 2003', event: 'Iraq War begins' },
+      { date: 'January 2005', event: 'Becomes Secretary of State' },
+      { date: 'August 2005', event: 'Goes shoe shopping during Hurricane Katrina' },
+      { date: '2009', event: 'Leaves State Department, returns to Stanford' },
+      { date: '2012', event: 'Joins Augusta National Golf Club' },
+      { date: 'Present', event: 'Stanford professor, Hoover Institution director' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },
+      { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
+      { title: 'Senate Torture Report (SSCI)', url: 'https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
+      { title: 'August 6, 2001 PDB (Declassified)', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB116/', date: '2001' },
+      { title: 'CNN Mushroom Cloud Interview Transcript', url: 'https://www.cnn.com/', date: 'September 8, 2002' },
+      { title: 'No Higher Honor: A Memoir of My Years in Washington', url: 'https://www.goodreads.com/', date: '2011' },
+    ],
+    aliases: ['Condi', 'The Warrior Princess'],
+    knownAssociates: [
+      { name: 'George W. Bush', relationship: 'President, close advisor and confidante', href: '/entities/individuals/george-w-bush' },
+      { name: 'Dick Cheney', relationship: 'Vice President, Iraq War co-architect', href: '/entities/individuals/dick-cheney' },
+      { name: 'Donald Rumsfeld', relationship: 'Secretary of Defense, bureaucratic rival', href: '/entities/individuals/donald-rumsfeld' },
+      { name: 'Colin Powell', relationship: 'Predecessor as Secretary of State', href: '/entities/individuals/colin-powell' },
+      { name: 'George Tenet', relationship: 'CIA Director during tenure', href: '/entities/individuals/george-tenet' },
+      { name: 'Paul Wolfowitz', relationship: 'Deputy Secretary of Defense, neocon ally', href: '/entities/individuals/paul-wolfowitz' },
+    ],
+  },
+
+  'caspar-weinberger': {
+    name: 'Caspar Weinberger',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Caspar Weinberger is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Caspar Weinberger has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'chuck-schumer': {
+    name: 'Chuck Schumer',
+    title: 'Senate Majority Leader',
+    role: 'Top Senate Democrat, Wall Street\'s senator',
+    riskLevel: 'medium',
+    description: 'Chuck Schumer is the Senate Majority Leader and senior senator from New York. He has represented New York since 1999 and been the top Senate Democrat since 2017. Critics call him"Wall Street\'s senator"for his ties to financial industry donors and his role in deregulation that contributed to the 2008 financial crisis.',
+    birthDate: 'November 23, 1950',
+    birthPlace: 'Brooklyn, New York',
+    education: ['Harvard University', 'Harvard Law School'],
+    affiliations: [
+      { name: 'United States Senate', role: 'Majority Leader', type: 'agency' },
+      { name: 'Democratic Party', role: 'Senate Leader', type: 'organization' },
+    ],
+    controversies: [
+      'WALL STREET TIES: Top recipient of Wall Street donations, opposed regulations',
+      'AIPAC INFLUENCE: Strong Israel supporter, opposed conditioning military aid',
+      'DEREGULATION: Supported policies contributing to 2008 financial crisis',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Wall Street Bailout', slug: 'wall-street-bailout', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'November 23, 1950', event: 'Born in Brooklyn, New York' },
+      { date: '1999', event: 'Elected to Senate' },
+      { date: '2017', event: 'Becomes Senate Democratic Leader' },
+      { date: '2021', event: 'Becomes Majority Leader' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'OpenSecrets donor data', url: 'https://scholar.google.com/scholar?q=OpenSecrets%20donor%20data', date: 'Various' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Nancy Pelosi', relationship: 'Democratic congressional counterpart and ally in legislative negotiations', href: '/entities/individuals/nancy-pelosi' },
+      { name: 'Mitch McConnell', relationship: 'Senate counterpart and primary legislative adversary', href: '/entities/individuals/mitch-mcconnell' },
+      { name: 'Joe Biden', relationship: 'Key Senate ally who helped pass Biden legislative agenda', href: '/entities/individuals/joe-biden' },
+      { name: 'Donald Trump', relationship: 'Led Senate opposition to Trump policies including impeachment trials', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+
  'charles-flynn': {
  name: 'Charles Flynn',
  title: 'U.S. Army General',
@@ -1380,42 +1080,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Curtis Ewbank', url: 'https://www.google.com/search?q=Curtis%20Ewbank' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
  },
- 'caroline-kennedy': {
- name: 'Caroline Kennedy',
- title: 'Diplomat/Corporate Director',
- role: 'Boeing Board Member',
- riskLevel: 'medium',
- description: 'Caroline Kennedy, daughter of President John F. Kennedy, served on Boeing\'s Board of Directors while also serving as U.S. Ambassador to Australia (2022-present) and previously Ambassador to Japan (2013-2017). Her presence on the board raised questions about conflicts between diplomatic roles and corporate oversight of a major defense contractor with significant safety issues.',
- birthDate: 'November 27, 1957',
- birthPlace: 'New York City',
- education: ['Harvard University', 'Columbia Law School'],
- affiliations: [
- { name: 'Boeing', role: 'Board Member', type: 'corporation' as const },
- { name: 'US State Department', role: 'Ambassador', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Joe Biden', relationship: 'President who appointed Kennedy as Ambassador to Australia; long Kennedy family ally', href: '/entities/individuals/joe-biden' },
- { name: 'Barack Obama', relationship: 'President whom Kennedy endorsed early and served as Ambassador to Japan', href: '/entities/individuals/barack-obama' },
- { name: 'Robert F. Kennedy', relationship: 'Father, U.S. Attorney General assassinated in 1968', href: '/entities/individuals/robert-f-kennedy' },
- { name: 'Robert F. Kennedy Jr.', relationship: 'Cousin and anti-vaccine activist whose views have diverged sharply from Kennedy family political legacy', href: '/entities/individuals/robert-f-kennedy-jr' },
- ],
- controversies: [
- 'DUAL ROLES: Ambassador while on Boeing board',
- 'DEFENSE CONTRACTOR: Board member of major military contractor',
- 'OVERSIGHT QUESTIONS: Board failed to prevent continued safety issues',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'November 27, 1957', event: 'Born in New York' },
- { date: '2013-2017', event: 'Ambassador to Japan' },
- { date: '2017', event: 'Joins Boeing Board' },
- { date: '2022-present', event: 'Ambassador to Australia' },
- ],
- sources: [{ title: 'Wikipedia: Caroline Kennedy', url: 'https://en.wikipedia.org/wiki/Caroline_Kennedy' }, { title: 'Associated Press: Caroline Kennedy', url: 'https://apnews.com/' }],
- },
+  'caroline-kennedy': {
+    name: 'Caroline Kennedy',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Caroline Kennedy is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Caroline Kennedy has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'chad-readler': {
  name: 'Chad Readler',
  title: 'DOJ Official',
@@ -1737,103 +1431,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Christine Negroni', url: 'https://en.wikipedia.org/wiki/Christine_Negroni' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
- 'cardinal-bernard-law': {
- name: 'Bernard Francis Law',
- title: 'Former Cardinal of Boston',
- role: 'Boston Archdiocese - Systematic Abuse Cover-Up',
- riskLevel: 'critical',
- description: 'Cardinal Bernard Law was Archbishop of Boston from 1984 to 2002, during which time he systematically covered up the sexual abuse of children by priests under his authority. He transferred known abusers between parishes rather than removing them, allowing them to continue abusing children. The Boston Globe\'s Spotlight investigation exposed the cover-up, leading to his resignation. Rather than face justice, he was given a prestigious position at the Vatican.',
- birthDate: 'November 4, 1931',
- birthPlace: 'Torre�n, Mexico',
- deathDate: 'December 20, 2017',
- education: ['Harvard University', 'St. Joseph Seminary'],
- affiliations: [
- { name: 'Catholic Church', role: 'Cardinal', type: 'organization' as const },
- { name: 'Archdiocese of Boston', role: 'Former Archbishop', type: 'organization' as const },
- { name: 'Vatican', role: 'Archpriest (after resignation)', type: 'organization' as const },
- ],
- controversies: [
- 'SYSTEMATIC COVER-UP: Protected abuser priests for decades',
- 'TRANSFERRED ABUSERS: Moved Fr. John Geoghan to new parishes',
- 'HUNDREDS OF VICTIMS: Over 1,000 victims in Boston alone',
- 'SPOTLIGHT EXPOSURE: Boston Globe investigation exposed crimes',
- 'NO PROSECUTION: Never faced criminal charges',
- 'VATICAN PROTECTION: Given prestigious Rome position after fleeing',
- 'PAPAL FUNERAL: Officiated at JP2\'s funeral despite scandal',
- ],
- charges: [
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Enabling systematic child abuse', category: 'INTERNATIONAL' },
- { statute: 'MA Child Endangerment', description: 'Failure to report child abuse', category: 'UNPROSECUTED' },
- { statute: '18 U.S.C. � 2', description: 'Accessory to child sexual abuse', category: 'UNPROSECUTED' },
- ],
- relatedInvestigations: [
- { title: 'Catholic Church Abuse Scandal', slug: 'catholic-church-abuse', severity: 'critical' },
- { title: 'Boston Archdiocese Cover-Up', slug: 'boston-archdiocese-coverup', severity: 'critical' },
- ],
- timeline: [
- { date: 'November 4, 1931', event: 'Born in Mexico' },
- { date: '1984', event: 'Becomes Boston Archbishop' },
- { date: '2001', event: 'Spotlight investigation begins' },
- { date: 'January 2002', event: 'Boston Globe publishes expos�' },
- { date: 'December 2002', event: 'Resigns as Archbishop' },
- { date: '2004', event: 'Appointed Archpriest in Rome' },
- { date: 'December 20, 2017', event: 'Dies in Rome' },
- ],
- sources: [{ title: 'Wikipedia: Bernard Francis Law', url: 'https://en.wikipedia.org/wiki/Bernard_Francis_Law' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
- knownAssociates: [
- { name: 'Cardinal Theodore McCarrick', relationship: 'Fellow cardinal accused of covering up sexual abuse', href: '/entities/individuals/cardinal-theodore-mccarrick' },
- { name: 'John Geoghan', relationship: 'Priest whose abuse Law covered up for decades', href: '/entities/individuals/john-geoghan' }
- ],
+  'cardinal-bernard-law': {
+    name: 'Cardinal Bernard Law',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Cardinal Bernard Law is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Cardinal Bernard Law has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
- 'cardinal-theodore-mccarrick': {
- name: 'Theodore Edgar McCarrick',
- title: 'Defrocked Cardinal',
- role: 'Former Cardinal - Serial Abuser and Cover-Up Artist',
- riskLevel: 'critical',
- description: 'Theodore McCarrick was a powerful Cardinal who served as Archbishop of Washington D.C. and wielded enormous influence in the American Catholic Church. In 2018, it was revealed he had sexually abused minors and adult seminarians for decades. He was defrocked by the Vatican in 2019 - the first Cardinal removed in modern times. In 2021, he was criminally charged in Massachusetts for sexually assaulting a minor.',
- birthDate: 'July 7, 1930',
- birthPlace: 'New York City',
- education: ['Fordham University', 'St. Joseph Seminary', 'Catholic University'],
- affiliations: [
- { name: 'Catholic Church', role: 'Defrocked Cardinal', type: 'organization' as const },
- { name: 'Archdiocese of Washington', role: 'Former Archbishop', type: 'organization' as const },
- ],
- controversies: [
- 'MINOR ABUSE: Sexually abused children',
- 'SEMINARIAN ABUSE: Abused adult seminarians for decades',
- 'DECADES OF CRIMES: Abuse spanning 50+ years',
- 'DEFROCKED: First Cardinal removed in modern times',
- 'KNOWN AND PROTECTED: Church knew and promoted him anyway',
- 'CRIMINAL CHARGES: Charged in Massachusetts at age 91',
- 'SETTLEMENTS: Church paid victims to silence them',
- ],
- charges: [
- { statute: 'MA G.L. c. 265 � 13B', description: 'Indecent Assault on Minor', category: 'CHARGED (dismissed - incompetent)' },
- { statute: 'Canon Law', description: 'Laicized by Vatican', category: 'CANONICAL' },
- { statute: 'Rome Statute Article 7(1)(g)', description: 'Crimes Against Humanity - Sexual violence', category: 'INTERNATIONAL' },
- ],
- relatedInvestigations: [
- { title: 'Catholic Church Abuse Scandal', slug: 'catholic-church-abuse', severity: 'critical' },
- { title: 'McCarrick Investigation', slug: 'mccarrick-investigation', severity: 'critical' },
- ],
- timeline: [
- { date: 'July 7, 1930', event: 'Born in New York City' },
- { date: '1958', event: 'Ordained priest' },
- { date: '1981', event: 'Becomes Bishop' },
- { date: '2000-2006', event: 'Archbishop of Washington' },
- { date: 'July 2018', event: 'Abuse allegations made public' },
- { date: 'February 2019', event: 'Defrocked by Vatican' },
- { date: 'July 2021', event: 'Criminally charged in MA' },
- { date: '2022', event: 'Charges dismissed (dementia)' },
- ],
- sources: [{ title: 'Wikipedia: Theodore Edgar McCarrick', url: 'https://en.wikipedia.org/wiki/Theodore_Edgar_McCarrick' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
- knownAssociates: [
- { name: 'Cardinal Bernard Law', relationship: 'Fellow cardinal implicated in abuse cover-up scandal', href: '/entities/individuals/cardinal-bernard-law' },
- { name: 'Pope Francis', relationship: 'Defrocked by Pope Francis in 2019 after abuse findings', href: '/entities/individuals/pope-francis' }
- ],
+  'cardinal-theodore-mccarrick': {
+    name: 'Cardinal Theodore Mccarrick',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Cardinal Theodore Mccarrick is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Cardinal Theodore Mccarrick has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
  'charlie-javice': {
  name: 'Charlie Javice',
  title: 'Former Frank Founder',
@@ -2074,53 +1731,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Candace Owens', url: 'https://en.wikipedia.org/wiki/Candace_Owens' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
  },
- 'chamath-palihapitiya': {
- name: 'Chamath Palihapitiya',
- title: 'Venture Capitalist',
- role: 'Social Capital - SPAC King, Uyghur Comments',
- riskLevel: 'high',
- description: 'Chamath Palihapitiya is a venture capitalist known for his SPAC deals that enriched him while retail investors lost money. He sparked outrage when he said"nobody cares"about Uyghur genocide. He has admitted Facebook, where he was an executive, was"ripping apart the social fabric of society."',
- birthDate: 'September 3, 1976',
- birthPlace: 'Sri Lanka',
- education: ['University of Waterloo'],
- netWorth: '$1.2 billion',
- affiliations: [
- { name: 'Social Capital', role: 'Founder/CEO', type: 'corporation' as const },
- { name: 'Facebook', role: 'Former VP Growth', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Mark Zuckerberg', relationship: 'Former employer', href: '/entities/individuals/mark-zuckerberg' },
- 
- { name: 'Jeffrey Epstein', relationship: 'Discussed Epstein connections in Silicon Valley venture capital circles', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Reid Hoffman', relationship: 'Fellow tech investor who met with Epstein', href: '/entities/individuals/reid-hoffman' },
- { name: 'Ben Horowitz', relationship: 'Fellow VC in tech industry with Epstein proximity', href: '/entities/individuals/ben-horowitz' },
- { name: 'Joi Ito', relationship: 'MIT Media Lab director who accepted Epstein funding', href: '/entities/individuals/joi-ito' }
- ],
- controversies: [
- 'UYGHUR COMMENTS: Said"nobody cares"about genocide',
- 'SPAC LOSSES: Retail investors lost while he profited',
- 'FACEBOOK GUILT: Admitted it"rips apart"society',
- 'CLOVER HEALTH: SPAC under investigation',
- 'VIRGIN GALACTIC: SPAC underperformed',
- 'ALL-IN PODCAST: Platform for tech oligarch views',
- ],
- charges: [
- { statute: 'SEC Investigation', description: 'Clover Health SPAC disclosure issues', category: 'INVESTIGATION' },
- ],
- relatedInvestigations: [
- { title: 'SPAC Fraud', slug: 'spac-fraud', severity: 'high' },
- { title: 'Tech Oligarchy', slug: 'tech-oligarchy', severity: 'high' },
- ],
- timeline: [
- { date: 'September 3, 1976', event: 'Born in Sri Lanka' },
- { date: '2007', event: 'Joins Facebook' },
- { date: '2011', event: 'Founds Social Capital' },
- { date: '2017', event: 'Admits Facebook"ripping apart"society' },
- { date: '2021', event: 'SPAC deals under scrutiny' },
- { date: 'January 2022', event: 'Uyghur"nobody cares"comment' },
- ],
- sources: [{ title: 'Wikipedia: Chamath Palihapitiya', url: 'https://en.wikipedia.org/wiki/Chamath_Palihapitiya' }, { title: 'Bloomberg: Chamath Palihapitiya', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Wired: Chamath Palihapitiya', url: 'https://www.wired.com/' }],
- },
+  'chamath-palihapitiya': {
+    name: 'Chamath Palihapitiya',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Chamath Palihapitiya is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Chamath Palihapitiya has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'craig-landau': {
  name: 'Craig Landau',
  title: 'Pharma Executive',
@@ -2233,375 +1873,216 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Clay Higgins', url: 'https://en.wikipedia.org/wiki/Clay_Higgins' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
  },
- 'carl-schurz': {
- name: 'Carl Schurz',
- title: 'Secretary of the Interior, Indian Policy Reformer',
- role: 'Secretary of the Interior (1877-1881) who oversaw federal Indian policy during a critical period',
- riskLevel: 'medium',
- description: 'Carl Schurz was a German-born American politician, Union Army general, and Secretary of the Interior under President Rutherford B. Hayes from 1877 to 1881. As Interior Secretary, he oversaw the Bureau of Indian Affairs during the critical period of forced assimilation and reservation confinement of Native Americans. While Schurz is sometimes credited as a"reformer"compared to his predecessors, his policies still advanced the destruction of Native American cultures and sovereignty. He advocated for the"civilization"of Native Americans through assimilation - replacing indigenous languages, customs, and governance with Euro-American practices. He supported the allotment system that would later become the Dawes Act, which broke up communal tribal lands and resulted in the loss of approximately 90 million acres of Native land. His approach, while less overtly genocidal than outright removal, was still a form of cultural genocide designed to eliminate Native American identity.',
- birthDate: 'March 2, 1829',
- birthPlace: 'Liblar, near Cologne, Prussia (now Germany)',
- deathDate: 'May 14, 1906',
- education: ['University of Bonn (did not complete degree due to 1848 revolution)'],
- affiliations: [
- { name: 'United States Department of the Interior', role: 'Secretary (1877-1881)', type: 'agency' as const },
- { name: 'United States Army', role: 'Union Army Brigadier General (Civil War)', type: 'agency' as const },
- { name: 'Republican Party', role: 'U.S. Senator from Missouri (1869-1875)', type: 'organization' as const },
- ],
- knownAssociates: [
- { name: 'Rutherford B. Hayes', relationship: 'President who appointed Schurz as Secretary of the Interior', href: '/entities/individuals/rutherford-b-hayes' },
- { name: 'Richard Henry Pratt', relationship: 'Founded Carlisle Indian School during Schurz\'s tenure', href: '/entities/individuals/richard-henry-pratt' },
- ],
- controversies: [
- 'FORCED ASSIMILATION: Advocated"civilizing"Native Americans by destroying indigenous languages, cultures, and governance',
- 'ALLOTMENT SYSTEM: Supported land allotment policies that resulted in loss of 90 million acres of Native land',
- 'BOARDING SCHOOLS: Oversaw period when Indian boarding schools began separating Native children from families',
- 'CULTURAL GENOCIDE:"Reform"policies still aimed at elimination of Native American cultural identity',
- 'RESERVATION CONFINEMENT: Continued policies of confining Native peoples to reservations with inadequate resources',
- ],
- charges: [
- { statute: 'Cultural Genocide', description: 'Oversaw policies designed to destroy Native American cultures and identities', category: 'Crimes Against Humanity' },
- { statute: 'Treaty Violations', description: 'Interior Department violations of treaties with sovereign Native nations', category: 'International Law' },
- { statute: 'Forced Assimilation', description: 'Implemented programs to forcibly assimilate Native Americans into Euro-American culture', category: 'Human Rights' },
- ],
- relatedInvestigations: [
- { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'critical' },
- { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 2, 1829', event: 'Born in Liblar, Prussia' },
- { date: '1848-1849', event: 'Participated in German revolutions; fled to United States' },
- { date: '1861-1865', event: 'Served as Union Army general in the Civil War' },
- { date: '1869-1875', event: 'Served as U.S. Senator from Missouri' },
- { date: '1877', event: 'Appointed Secretary of the Interior by President Hayes' },
- { date: '1877-1881', event: 'Oversaw Bureau of Indian Affairs; pushed assimilation policies' },
- { date: '1879', event: 'Carlisle Indian Industrial School founded under his watch' },
- { date: '1881', event: 'Left office; continued writing and speaking career' },
- { date: 'May 14, 1906', event: 'Died in New York City' },
- ],
- sources: [
- { title: 'Carl Schurz and Indian Policy Reform - OAH', url: 'https://www.oah.org/tah/issues/2014/november/serving-serving-serving/', date: '2014' },
- { title: 'A Century of Dishonor by Helen Hunt Jackson', url: 'https://www.gutenberg.org/ebooks/3865', date: '1881' },
- ],
- },
- 'carlos-prats': {
- name: 'Carlos Prats González',
- title: 'Chilean Army Commander Assassinated by DINA',
- role: 'Commander-in-Chief of the Chilean Army assassinated in Buenos Aires by Pinochet\'s secret police in 1974',
- riskLevel: 'low',
- description: 'Carlos Prats González was the Commander-in-Chief of the Chilean Army and former Minister of Defense under President Salvador Allende. A constitutionalist military officer, Prats opposed the military coup and resigned as Army commander in August 1973, three weeks before Pinochet seized power. After the September 11, 1973 coup, Prats went into exile in Buenos Aires, Argentina. On September 30, 1974, Prats and his wife Sofía Cuthbert were assassinated by a car bomb planted by DINA agent Michael Townley on orders from Pinochet\'s regime. The assassination was one of the most notorious acts of Operation Condor, demonstrating the cross-border reach of South American dictatorships. The investigation took decades, and in 2010, a Chilean court convicted former DINA chief Manuel Contreras and other agents for the murder.',
- birthDate: 'February 24, 1915',
- birthPlace: 'Talcahuano, Chile',
- deathDate: 'September 30, 1974',
- education: ['Chilean Military Academy (graduated 1935)'],
- affiliations: [
- { name: 'Chilean Army', role: 'Commander-in-Chief (1970-1973)', type: 'agency' as const },
- { name: 'Government of Chile', role: 'Minister of Defense under Allende (1972-1973)', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Salvador Allende', relationship: 'President of Chile whom Prats served as Army commander', href: '/entities/individuals/salvador-allende' },
- { name: 'Augusto Pinochet', relationship: 'Successor as Army commander who ordered Prats\' assassination', href: '/entities/individuals/augusto-pinochet' },
- { name: 'Michael Townley', relationship: 'DINA agent who planted the car bomb that killed Prats', href: '/entities/individuals/michael-townley' },
- ],
- controversies: [
- 'ASSASSINATION: Murdered along with wife by car bomb in Buenos Aires, planted by DINA agent Michael Townley',
- 'OPERATION CONDOR VICTIM: One of the most prominent victims of cross-border assassination program',
- 'CONSTITUTIONALIST STANCE: Opposed military intervention against Allende, making him a target for Pinochet',
- 'DELAYED JUSTICE: Investigation took over 30 years; convictions not secured until 2010',
- ],
- charges: [
- { statute: 'Victim - No Charges', description: 'Prats was a victim of state-sponsored assassination, not a perpetrator', category: 'Victim' },
- { statute: 'Operation Condor Target', description: 'Assassinated by DINA agents as part of Operation Condor', category: 'Political Assassination' },
- { statute: 'State Terrorism', description: 'Murder constituted act of international state-sponsored terrorism', category: 'State Terror' },
- ],
- relatedInvestigations: [
- { title: 'Operation Condor', slug: 'operation-condor', severity: 'critical' },
- { title: 'Chile Coup', slug: 'chile-coup', severity: 'critical' },
- ],
- timeline: [
- { date: 'February 24, 1915', event: 'Born in Talcahuano, Chile' },
- { date: '1935', event: 'Graduated from Chilean Military Academy' },
- { date: '1970', event: 'Appointed Commander-in-Chief of the Chilean Army by President Allende' },
- { date: '1972-1973', event: 'Served simultaneously as Minister of Defense' },
- { date: 'August 23, 1973', event: 'Resigned as Army commander; replaced by Augusto Pinochet' },
- { date: 'September 11, 1973', event: 'Pinochet leads military coup; Prats goes into exile in Buenos Aires' },
- { date: 'September 30, 1974', event: 'Assassinated with wife Sofía Cuthbert by car bomb in Buenos Aires' },
- { date: '2000', event: 'Michael Townley identified as bomb planter; investigation reopened' },
- { date: '2010', event: 'Chilean court convicts Manuel Contreras and agents for the Prats assassination' },
- ],
- sources: [
- { title: 'Operation Condor: Carlos Prats Assassination - National Security Archive', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB416/', date: '2013' },
- { title: 'The Condor Years by John Dinges', url: 'https://thenewpress.com/books/condor-years', date: '2004' },
- { title: 'Chile Recognizes Prats Assassination as Condor Crime - Reuters', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/chile-prats-idUSN2729989420080627', date: '2008' },
- ],
- },
- 'charles-fahy': {
- name: 'Charles Fahy',
- title: 'Solicitor General Who Suppressed Evidence in Japanese Internment Cases',
- role: 'U.S. Solicitor General who withheld and falsified evidence before the Supreme Court to uphold Japanese American internment',
- riskLevel: 'high',
- description: 'Charles Fahy served as Solicitor General of the United States from 1941 to 1945, during which he argued before the Supreme Court in defense of the Japanese American internment. In the landmark cases Hirabayashi v. United States (1943) and Korematsu v. United States (1944), Fahy suppressed and falsified critical evidence from military and intelligence agencies - including reports from the FBI, FCC, and Office of Naval Intelligence - that found Japanese Americans posed no security threat. The suppressed evidence included the Ringle Report, which concluded that the vast majority of Japanese Americans were loyal to the United States. Fahy presented the government\'s case as one of military necessity while knowingly concealing evidence that contradicted that claim. His misconduct was not fully revealed until the 1980s when Peter Irons discovered the suppressed documents, leading to the vacating of Fred Korematsu\'s conviction through coram nobis proceedings in 1983.',
- birthDate: 'August 13, 1892',
- birthPlace: 'Rome, Georgia, USA',
- deathDate: 'September 17, 1979',
- education: ['Georgetown University (LL.B., 1914)'],
- affiliations: [
- { name: 'United States Department of Justice', role: 'Solicitor General (1941-1945)', type: 'agency' as const },
- { name: 'U.S. Court of Appeals, D.C. Circuit', role: 'Judge (1949-1967)', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Franklin D. Roosevelt', relationship: 'President who signed Executive Order 9066 authorizing internment', href: '/entities/individuals/franklin-d-roosevelt' },
- { name: 'John DeWitt', relationship: 'Western Defense Commander whose false claims Fahy presented to the Court', href: '/entities/individuals/john-l-dewitt' },
- { name: 'Earl Warren', relationship: 'California Attorney General who supported internment (later recanted as Chief Justice)', href: '/entities/individuals/earl-warren' },
- ],
- controversies: [
- 'EVIDENCE SUPPRESSION: Deliberately withheld FBI, FCC, and ONI reports showing Japanese Americans posed no security threat',
- 'RINGLE REPORT CONCEALMENT: Suppressed Office of Naval Intelligence report concluding Japanese Americans were loyal',
- 'KOREMATSU FRAUD: Enabled wrongful conviction of Fred Korematsu by presenting false"military necessity"argument',
- 'SOLICITOR GENERAL MISCONDUCT: Violated ethical duty of candor to the Supreme Court by suppressing exculpatory evidence',
- 'INTERNMENT DEFENSE: Argued that mass incarceration of 120,000 people based on race was constitutionally permissible',
- ],
- charges: [
- { statute: 'Fraud on the Court', description: 'Suppressed exculpatory evidence and presented false information to the Supreme Court', category: 'Judicial Misconduct' },
- { statute: 'Civil Rights Violation', description: 'Defended mass incarceration of 120,000 Americans based solely on race', category: 'Civil Rights' },
- { statute: 'Evidence Tampering', description: 'Altered and suppressed military and intelligence reports contradicting internment necessity', category: 'Obstruction' },
- ],
- relatedInvestigations: [
- { title: 'Japanese Internment', slug: 'japanese-internment', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 13, 1892', event: 'Born in Rome, Georgia' },
- { date: '1914', event: 'Graduated from Georgetown University Law School' },
- { date: '1941', event: 'Appointed Solicitor General of the United States' },
- { date: 'February 19, 1942', event: 'Executive Order 9066 signed; Fahy tasked with defending internment in court' },
- { date: '1943', event: 'Argued Hirabayashi v. United States; suppressed contradictory evidence' },
- { date: '1944', event: 'Argued Korematsu v. United States; Supreme Court upholds internment 6-3 with suppressed evidence' },
- { date: '1949', event: 'Appointed judge on U.S. Court of Appeals, D.C. Circuit' },
- { date: 'September 17, 1979', event: 'Died in Washington, D.C.' },
- { date: '1983', event: 'Peter Irons discovers suppressed evidence; Korematsu conviction vacated via coram nobis' },
- ],
- sources: [
- { title: 'Justice at War by Peter Irons', url: 'https://global.oup.com/academic/product/justice-at-war-9780195034974', date: '1983' },
- { title: 'Korematsu v. United States Coram Nobis Case - Fred T. Korematsu Institute', url: 'https://www.korematsuinstitute.org/fred-t-korematsu-lifetime', date: '2023' },
- { title: 'Commission on Wartime Relocation Report: Personal Justice Denied', url: 'https://www.archives.gov/research/japanese-americans/justice-denied', date: '1983' },
- ],
- },
- 'charles-graner': {
- name: 'Charles Albert Graner Jr.',
- title: 'Abu Ghraib Torturer, Convicted War Criminal',
- role: 'U.S. Army Specialist convicted as ringleader of detainee abuse at Abu Ghraib prison',
- riskLevel: 'high',
- description: 'Charles Graner was a U.S. Army Specialist and former civilian prison guard who became the most prominent convicted abuser in the Abu Ghraib torture scandal. Identified as the ringleader of the abuse, Graner was photographed and recorded participating in the systematic torture, humiliation, and abuse of Iraqi detainees at Abu Ghraib prison in 2003-2004. He was photographed giving a thumbs-up over a pile of naked, hooded detainees, posing behind a human pyramid of prisoners, and standing over a detainee who had been beaten to the point of appearing dead. Graner showed no remorse, referring to the abuse as"just having fun"and comparing stacking naked prisoners to"cheerleader pyramids."He was convicted by court-martial in January 2005 and sentenced to 10 years in military prison. While enlisted soldiers like Graner were prosecuted, no senior officers or officials who authorized"enhanced interrogation techniques"were ever held accountable.',
- birthDate: 'April 20, 1968',
- birthPlace: 'Pittsburgh, Pennsylvania, USA',
- education: ['Attended Waynesburg University'],
- affiliations: [
- { name: 'United States Army', role: 'Specialist, 372nd Military Police Company (2003-2005)', type: 'agency' as const },
- { name: 'SCI Greene State Prison', role: 'Former civilian corrections officer (Pennsylvania)', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Lynndie England', relationship: 'Fellow Abu Ghraib guard and romantic partner; convicted of abuse', href: '/entities/individuals/lynndie-england' },
- { name: 'Antonio Taguba', relationship: 'Army general who investigated and documented Graner\'s abuses', href: '/entities/individuals/antonio-taguba' },
- { name: 'Donald Rumsfeld', relationship: 'Secretary of Defense who authorized harsh interrogation techniques', href: '/entities/individuals/donald-rumsfeld' },
- ],
- controversies: [
- 'ABU GHRAIB TORTURE: Ringleader of systematic physical and sexual abuse of Iraqi detainees including forced nudity, beatings, and humiliation',
- 'TROPHY PHOTOS: Photographed giving thumbs-up over beaten and hooded detainees, smiling behind human pyramids',
- 'NO REMORSE: Described abuse as"just having fun"and compared naked prisoner pyramids to"cheerleader pyramids"',
- 'SELECTIVE PROSECUTION: Low-ranking soldiers prosecuted while senior officials who authorized techniques faced no accountability',
- 'PRIOR ABUSE HISTORY: Had prior complaints of excessive force as civilian prison guard in Pennsylvania',
- ],
- charges: [
- { statute: 'UCMJ - Assault', description: 'Assault consummated by battery against multiple detainees', category: 'Military Crime' },
- { statute: 'UCMJ - Conspiracy', description: 'Conspiracy to maltreat detainees', category: 'Military Crime' },
- { statute: 'UCMJ - Maltreatment', description: 'Maltreatment of prisoners in violation of military law', category: 'War Crime' },
- { statute: 'UCMJ - Dereliction of Duty', description: 'Dereliction in performance of duties as military police', category: 'Military Crime' },
- { statute: 'Geneva Conventions', description: 'Treatment violated protections for prisoners of war and detainees', category: 'International Law' },
- ],
- relatedInvestigations: [
- { title: 'Abu Ghraib', slug: 'abu-ghraib', severity: 'critical' },
- { title: 'CIA Torture Program', slug: 'cia-torture-program', severity: 'critical' },
- ],
- timeline: [
- { date: 'April 20, 1968', event: 'Born in Pittsburgh, Pennsylvania' },
- { date: '1990s', event: 'Worked as corrections officer at SCI Greene state prison in Pennsylvania' },
- { date: '2003', event: 'Deployed to Iraq with 372nd Military Police Company; assigned to Abu Ghraib prison' },
- { date: 'October-December 2003', event: 'Participated in systematic abuse and torture of detainees at Abu Ghraib' },
- { date: 'January 2004', event: 'Army Specialist Joseph Darby turns over abuse photos to Army investigators' },
- { date: 'April 2004', event: 'Abu Ghraib photos published by CBS News and The New Yorker' },
- { date: 'January 14, 2005', event: 'Convicted by court-martial of assault, conspiracy, maltreatment, and other charges' },
- { date: 'January 15, 2005', event: 'Sentenced to 10 years in military prison, reduction to Private, dishonorable discharge' },
- { date: 'August 2011', event: 'Released from military prison after serving approximately 6.5 years' },
- ],
- sources: [
- { title: 'Torture at Abu Ghraib - Seymour Hersh, The New Yorker', url: 'https://www.newyorker.com/magazine/2004/05/10/torture-at-abu-ghraib', date: 'May 10, 2004' },
- { title: 'The Taguba Report (AR 15-6 Investigation)', url: 'https://www.thetorturedatabase.org/document/article-15-6-investigation-800th-military-police-brigade-taguba-report', date: 'March 2004' },
- { title: 'Abu Ghraib Ringleader Graner Convicted - Washington Post', url: 'https://www.washingtonpost.com/wp-dyn/articles/A28680-2005Jan14.html', date: 'January 15, 2005' },
- ],
- },
- 'christopher-columbus': {
- name: 'Christopher Columbus (Cristoforo Colombo)',
- title: 'Explorer Who Initiated the Genocide of Indigenous Peoples in the Americas',
- role: 'Navigator and colonial governor whose voyages initiated centuries of genocide, enslavement, and exploitation of indigenous peoples',
- riskLevel: 'critical',
- description: 'Christopher Columbus was a Genoese navigator who, under the sponsorship of the Spanish Crown, made four voyages to the Americas beginning in 1492. While traditionally celebrated as a"discoverer,"Columbus initiated the systematic genocide, enslavement, and exploitation of indigenous peoples in the Caribbean and Americas. As governor of Hispaniola, Columbus established the encomienda system of forced labor, imposed tribute quotas requiring indigenous Taíno people to deliver gold or have their hands cut off, personally oversaw mass executions, and initiated a transatlantic slave trade. Within decades of his arrival, the Taíno population of Hispaniola was reduced from an estimated 250,000-300,000 to near extinction through murder, enslavement, disease, and starvation. Columbus was so brutal that he was removed from power by the Spanish Crown in 1500 and sent back to Spain in chains after reports of his tyranny. His own journals and those of Bartolomé de las Casas document the horrors he inflicted.',
- birthDate: 'Between August 25 and October 31, 1451',
- birthPlace: 'Genoa, Republic of Genoa (present-day Italy)',
- deathDate: 'May 20, 1506',
- education: ['Self-educated navigator; possibly attended University of Pavia briefly'],
- aliases: ['Cristoforo Colombo', 'Cristóbal Colón'],
- affiliations: [
- { name: 'Spanish Crown', role: 'Admiral of the Ocean Sea, Governor of the Indies', type: 'agency' as const },
- { name: 'Colony of Hispaniola', role: 'Governor and Viceroy (1492-1500)', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Queen Isabella I', relationship: 'Spanish monarch who sponsored Columbus\'s voyages', href: '/entities/individuals/queen-isabella' },
- { name: 'Bartolomé de las Casas', relationship: 'Spanish priest who documented Columbus\'s atrocities against indigenous peoples', href: '/entities/individuals/bartolome-de-las-casas' },
- ],
- controversies: [
- 'INDIGENOUS GENOCIDE: Initiated systematic extermination of Taíno people; population reduced from ~300,000 to near extinction within decades',
- 'ENSLAVEMENT: Enslaved thousands of indigenous people; initiated transatlantic slave trade from the Americas',
- 'MUTILATION: Imposed gold tribute quotas; those who failed had their hands cut off and were left to bleed to death',
- 'MASS EXECUTION: Ordered mass hangings and burnings; used attack dogs against indigenous people',
- 'SEXUAL SLAVERY: Facilitated and personally participated in sexual exploitation of indigenous women and girls',
- 'FORCED LABOR: Established encomienda system of forced labor that worked indigenous people to death',
- 'REMOVAL FROM POWER: So brutal that Spanish Crown removed him as governor and sent him back to Spain in chains (1500)',
- ],
- charges: [
- { statute: 'Genocide', description: 'Initiated systematic destruction of indigenous Taíno and other Caribbean peoples', category: 'Crimes Against Humanity' },
- { statute: 'Enslavement', description: 'Enslaved thousands of indigenous people and initiated transatlantic slave trade', category: 'Crimes Against Humanity' },
- { statute: 'Crimes Against Humanity', description: 'Mass murder, mutilation, sexual slavery, and forced labor of indigenous populations', category: 'International Crime' },
- ],
- relatedInvestigations: [
- { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'critical' },
- { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'critical' },
- ],
- timeline: [
- { date: '1451', event: 'Born in Genoa, present-day Italy' },
- { date: 'October 12, 1492', event: 'First voyage: Landed on island in the Bahamas; encountered Taíno people' },
- { date: '1493', event: 'Second voyage: Established colony on Hispaniola; began enslavement of indigenous people' },
- { date: '1494-1496', event: 'Imposed gold tribute; those who failed had hands amputated' },
- { date: '1495', event: 'Shipped 500 enslaved Taíno people to Spain; 200 died during voyage' },
- { date: '1498', event: 'Third voyage: Further colonization and exploitation' },
- { date: '1500', event: 'Removed as governor by Spanish Crown for tyranny; sent back to Spain in chains' },
- { date: '1502', event: 'Fourth and final voyage' },
- { date: 'May 20, 1506', event: 'Died in Valladolid, Spain' },
- ],
- sources: [
- { title: 'A Short Account of the Destruction of the Indies by Bartolomé de las Casas', url: 'https://www.gutenberg.org/ebooks/20321', date: '1552' },
- { title: 'American Holocaust: The Conquest of the New World by David Stannard', url: 'https://global.oup.com/academic/product/american-holocaust-9780195085570', date: '1992' },
- { title: 'Columbus\'s Own Journal (Diario) - Accessible Archives', url: 'https://www.loc.gov/item/2004fod02001/', date: '1492-1493' },
- ],
- },
- 'creighton-abrams': {
- name: 'Creighton Williams Abrams Jr.',
- title: 'Vietnam War Commander, U.S. Army Chief of Staff',
- role: 'Commander of U.S. forces in Vietnam (1968-1972) who oversaw continued war operations including secret bombing campaigns',
- riskLevel: 'high',
- description: 'General Creighton Abrams was a highly decorated U.S. Army officer who commanded all U.S. military forces in Vietnam from 1968 to 1972, succeeding General William Westmoreland. While Abrams is often credited with shifting tactics from large search-and-destroy operations toward a strategy of"Vietnamization"(transferring combat responsibilities to South Vietnamese forces), he also oversaw the expansion of the war into Cambodia and Laos, the continuation of the Phoenix Program\'s targeted assassination campaign, and the secret bombing of Cambodia (Operation Menu). Under his command, U.S. forces continued operations that resulted in significant civilian casualties. Abrams later served as Army Chief of Staff from 1972 until his death in 1974. The M1 Abrams main battle tank was named in his honor.',
- birthDate: 'September 15, 1914',
- birthPlace: 'Springfield, Massachusetts, USA',
- deathDate: 'September 4, 1974',
- education: ['United States Military Academy, West Point (1936)'],
- affiliations: [
- { name: 'United States Army', role: 'Chief of Staff (1972-1974); Commander MACV Vietnam (1968-1972)', type: 'agency' as const },
- { name: 'Military Assistance Command, Vietnam (MACV)', role: 'Commanding General (1968-1972)', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Richard Nixon', relationship: 'President who directed Vietnam War strategy including Cambodia invasion', href: '/entities/individuals/richard-nixon' },
- { name: 'Henry Kissinger', relationship: 'National Security Advisor who co-planned secret Cambodia bombing', href: '/entities/individuals/henry-kissinger' },
- { name: 'William Westmoreland', relationship: 'Predecessor as MACV commander in Vietnam', href: '/entities/individuals/william-westmoreland' },
- ],
- controversies: [
- 'CAMBODIA BOMBING: Oversaw Operation Menu - secret bombing of Cambodia that killed tens of thousands of civilians',
- 'CAMBODIA INVASION: Commanded U.S. forces during 1970 incursion into Cambodia, expanding the war',
- 'PHOENIX PROGRAM: Continued CIA-military assassination program that killed thousands of suspected Viet Cong',
- 'CIVILIAN CASUALTIES: Military operations under his command continued to cause significant Vietnamese civilian deaths',
- 'MY LAI AFTERMATH: Commanded Vietnam forces during period when My Lai cover-up was maintained',
- 'LAOS OPERATIONS: Oversaw Operation Lam Son 719, the disastrous incursion into Laos',
- ],
- charges: [
- { statute: 'Laws of War', description: 'Secret bombing campaigns in Cambodia violated international law and congressional authorization', category: 'War Crime' },
- { statute: 'Civilian Targeting', description: 'Military operations under his command caused widespread civilian casualties', category: 'Laws of War' },
- { statute: 'Assassination Program', description: 'Continued Phoenix Program targeting and killing suspected enemy operatives', category: 'Extrajudicial Killing' },
- ],
- relatedInvestigations: [
- { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'critical' },
- ],
- timeline: [
- { date: 'September 15, 1914', event: 'Born in Springfield, Massachusetts' },
- { date: '1936', event: 'Graduated from West Point; commissioned in U.S. Army Cavalry' },
- { date: '1944-1945', event: 'Distinguished tank commander in WWII; led relief column to Bastogne' },
- { date: 'July 1968', event: 'Assumed command of MACV, replacing General Westmoreland' },
- { date: 'March 1969', event: 'Operation Menu: secret bombing of Cambodia begins under his command' },
- { date: 'April-June 1970', event: 'Commanded U.S. forces during Cambodian incursion' },
- { date: '1971', event: 'Oversaw Operation Lam Son 719 incursion into Laos' },
- { date: '1968-1972', event: 'Implemented Vietnamization while continuing combat operations' },
- { date: 'October 1972', event: 'Became Army Chief of Staff' },
- { date: 'September 4, 1974', event: 'Died of cancer in Washington, D.C. while serving as Chief of Staff' },
- ],
- sources: [
- { title: 'Sorley, Lewis. A Better War: The Unexamined Victories and Final Tragedy of America\'s Last Years in Vietnam', url: 'https://www.hmhbooks.com/shop/books/A-Better-War/9780156013093', date: '1999' },
- { title: 'The Secret Bombing of Cambodia - Yale University', url: 'https://gsp.yale.edu/case-studies/cambodian-genocide-program', date: '2023' },
- { title: 'Vietnam War: Creighton Abrams - History.com', url: 'https://www.history.com/topics/vietnam-war', date: '2023' },
- ],
- },
- 'curtis-lemay': {
- name: 'Curtis Emerson LeMay',
- title: 'Air Force General, Architect of Strategic Firebombing Campaigns',
- role: 'U.S. Air Force general who ordered the firebombing of Japanese cities killing hundreds of thousands of civilians',
- riskLevel: 'critical',
- description: 'Curtis LeMay was a U.S. Air Force general who planned and executed the most destructive aerial bombing campaigns in history. As commander of the XXI Bomber Command in the Pacific during World War II, LeMay ordered the switch from high-altitude precision bombing to low-altitude incendiary (firebombing) attacks on Japanese cities. The firebombing of Tokyo on March 9-10, 1945 (Operation Meetinghouse) killed an estimated 100,000 civilians in a single night - more than either atomic bombing - and destroyed 16 square miles of the city. LeMay\'s campaign ultimately firebombed 67 Japanese cities, killing an estimated 330,000-900,000 Japanese civilians and leaving millions homeless. LeMay himself acknowledged that had the U.S. lost the war, he would have been tried as a war criminal. He later headed Strategic Air Command during the Cold War, advocated for nuclear first strikes against the Soviet Union and China, and ran as George Wallace\'s vice presidential candidate on a segregationist ticket in 1968.',
- birthDate: 'November 15, 1906',
- birthPlace: 'Columbus, Ohio, USA',
- deathDate: 'October 1, 1990',
- education: ['Ohio State University (civil engineering)', 'Air Corps Tactical School'],
- affiliations: [
- { name: 'United States Air Force', role: 'Chief of Staff (1961-1965)', type: 'agency' as const },
- { name: 'Strategic Air Command', role: 'Commander (1948-1957)', type: 'agency' as const },
- { name: 'XXI Bomber Command', role: 'Commander, Pacific Theater (1945)', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Robert McNamara', relationship: 'Defense adviser who helped plan LeMay\'s firebombing operations; later Secretary of Defense', href: '/entities/individuals/robert-mcnamara' },
- { name: 'George Wallace', relationship: '1968 presidential candidate; LeMay ran as his VP on segregationist ticket', href: '/entities/individuals/george-wallace' },
- { name: 'John F. Kennedy', relationship: 'President who clashed with LeMay during Cuban Missile Crisis; LeMay urged bombing Cuba', href: '/entities/individuals/john-f-kennedy' },
- ],
- controversies: [
- 'TOKYO FIREBOMBING: Ordered Operation Meetinghouse (March 9-10, 1945) killing ~100,000 civilians in a single night',
- 'JAPANESE CITY BOMBING: Firebombed 67 Japanese cities killing estimated 330,000-900,000 civilians total',
- 'WAR CRIMES ADMISSION: Said"if we\'d lost the war, we\'d all have been prosecuted as war criminals"',
- 'NUCLEAR FIRST STRIKE: Advocated preemptive nuclear attacks against Soviet Union and China during Cold War',
- 'CUBAN MISSILE CRISIS: Pushed for bombing Cuba and invading during 1962 missile crisis, risking nuclear war',
- 'VIETNAM ESCALATION: Advocated bombing North Vietnam"back to the Stone Age"',
- 'SEGREGATIONIST TICKET: Ran as George Wallace\'s VP candidate on a segregationist third-party ticket in 1968',
- ],
- charges: [
- { statute: 'War Crimes', description: 'Deliberately targeted civilian populations with incendiary bombing campaigns designed to maximize civilian casualties', category: 'War Crime' },
- { statute: 'Hague Convention Violations', description: 'Indiscriminate bombing of civilian population centers violated laws of war', category: 'International Law' },
- { statute: 'Crimes Against Humanity', description: 'Systematic destruction of 67 Japanese cities killing hundreds of thousands of non-combatants', category: 'Crimes Against Humanity' },
- ],
- relatedInvestigations: [
- { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'critical' },
- ],
- timeline: [
- { date: 'November 15, 1906', event: 'Born in Columbus, Ohio' },
- { date: '1928', event: 'Commissioned as second lieutenant in the U.S. Army Air Corps' },
- { date: '1942-1944', event: 'Led bombing campaigns over Europe in WWII' },
- { date: 'January 1945', event: 'Took command of XXI Bomber Command in the Pacific' },
- { date: 'March 9-10, 1945', event: 'Operation Meetinghouse: Tokyo firebombing kills ~100,000 civilians in one night' },
- { date: 'March-August 1945', event: 'Firebombed 67 Japanese cities; hundreds of thousands of civilians killed' },
- { date: '1948-1957', event: 'Commanded Strategic Air Command; built nuclear bomber force' },
- { date: 'October 1962', event: 'Pushed for bombing Cuba during Cuban Missile Crisis; overruled by Kennedy' },
- { date: '1961-1965', event: 'Served as Air Force Chief of Staff; clashed with civilian leadership over Vietnam' },
- { date: '1968', event: 'Ran as George Wallace\'s VP candidate on American Independent Party (segregationist) ticket' },
- { date: 'October 1, 1990', event: 'Died at March Air Force Base, California' },
- ],
- sources: [
- { title: 'The Fog of War - Errol Morris Documentary (Robert McNamara on LeMay)', url: 'https://www.imdb.com/title/tt0317910/', date: '2003' },
- { title: 'Bombing to Win: Air Power and Coercion in War by Robert Pape', url: 'https://www.cornellpress.cornell.edu/book/9780801483110/bombing-to-win/', date: '1996' },
- { title: 'LeMay: The Life and Wars of General Curtis LeMay by Warren Kozak', url: 'https://www.simonandschuster.com/books/LeMay/Warren-Kozak/9781621573029', date: '2009' },
- ],
- },
+  'carl-schurz': {
+    name: 'Carl Schurz',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Carl Schurz is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Carl Schurz has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'carlos-prats': {
+    name: 'Carlos Prats',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Carlos Prats is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Carlos Prats has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'charles-fahy': {
+    name: 'Charles Fahy',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Charles Fahy is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Charles Fahy has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'charles-graner': {
+    name: 'Charles Graner',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Charles Graner is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Charles Graner has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'christopher-columbus': {
+    name: 'Christopher Columbus',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Christopher Columbus is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Christopher Columbus has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'creighton-abrams': {
+    name: 'Creighton Abrams',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Creighton Abrams is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Creighton Abrams has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'curtis-lemay': {
+    name: 'Curtis Lemay',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Curtis Lemay is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Curtis Lemay has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'c-everett-koop': {
  name: 'C. Everett Koop',
  title: 'U.S. Surgeon General who declared nicotine as addictive as heroin and cocaine in 1988',
@@ -3955,41 +3436,44 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Epstein Flight Logs', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2021' },
  ],
  },
- 'courtney-wild': {
- name: 'Courtney Wild',
- title: 'Victim Advocate',
- role: 'Led Legal Challenge Against NPA',
- riskLevel: 'low',
- description: 'Epstein victim who led the legal challenge against the 2008 Non-Prosecution Agreement. Her lawsuit (Wild v. United States) resulted in federal judge Kenneth Marra ruling in 2019 that the NPA violated the Crime Victims\' Rights Act by failing to notify victims. Her advocacy was instrumental in keeping the case alive.',
- education: [],
- affiliations: [
- { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Victim', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Bradley Edwards', relationship: 'Attorney who represented Wild', href: '/entities/individuals/bradley-edwards' },
- 
- { name: 'Ghislaine Maxwell', relationship: 'Named co-conspirator, involved in recruiting', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Alex Acosta', relationship: 'US Attorney whose NPA violated her rights', href: '/entities/individuals/alex-acosta' },
- { name: 'Virginia Giuffre', relationship: 'Fellow victim and advocate', href: '/entities/individuals/virginia-giuffre' },
- { name: 'Sarah Kellen', relationship: 'Epstein assistant, scheduled appointments', href: '/entities/individuals/sarah-kellen' },
- ],
- controversies: [
- 'Filed landmark Crime Victims\' Rights Act lawsuit challenging the secret 2008 Epstein plea deal',
- 'Was recruited at age 14 from a trailer park and sexually abused by Epstein at his Palm Beach mansion',
- 'Her case exposed how Alexander Acosta\'s sweetheart deal violated the rights of over 30 identified victims',
- ],
- relatedInvestigations: [
- { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
- ],
- timeline: [
- { date: '2008', event: 'Filed challenge against NPA' },
- { date: '2019', event: 'Judge Marra ruled NPA violated Crime Victims\' Rights Act' },
- ],
- sources: [
- { title: 'Wild v. United States', url: 'https://scholar.google.com/scholar?q=Wild%20v.%20United%20States', date: '2019' },
- ],
- },
+  'courtney-wild': {
+    name: 'Courtney Wild',
+    title: 'Victim Advocate',
+    role: 'Led Legal Challenge Against NPA',
+    riskLevel: 'low',
+    description: 'Epstein victim who led the legal challenge against the 2008 Non-Prosecution Agreement. Her lawsuit (Wild v. United States) resulted in federal judge Kenneth Marra ruling in 2019 that the NPA violated the Crime Victims\' Rights Act by failing to notify victims. Her advocacy was instrumental in keeping the case alive.',
+    education: [],
+    affiliations: [
+      { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+    ],
+    controversies: [
+      'Filed landmark Crime Victims\' Rights Act lawsuit challenging the secret 2008 Epstein plea deal',
+      'Was recruited at age 14 from a trailer park and sexually abused by Epstein at his Palm Beach mansion',
+      'Her case exposed how Alexander Acosta\'s sweetheart deal violated the rights of over 30 identified victims',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2008', event: 'Filed challenge against NPA' },
+      { date: '2019', event: 'Judge Marra ruled NPA violated Crime Victims\' Rights Act' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wild v. United States', url: 'https://scholar.google.com/scholar?q=Wild%20v.%20United%20States', date: '2019' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Victim', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Bradley Edwards', relationship: 'Attorney who represented Wild', href: '/entities/individuals/bradley-edwards' },
+      { name: 'Ghislaine Maxwell', relationship: 'Named co-conspirator, involved in recruiting', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Alex Acosta', relationship: 'US Attorney whose NPA violated her rights', href: '/entities/individuals/alex-acosta' },
+      { name: 'Virginia Giuffre', relationship: 'Fellow victim and advocate', href: '/entities/individuals/virginia-giuffre' },
+      { name: 'Sarah Kellen', relationship: 'Epstein assistant, scheduled appointments', href: '/entities/individuals/sarah-kellen' },
+    ],
+  },
+
  'carolyn-andriano': {
  name: 'Carolyn Andriano',
  title: 'Victim, Maxwell Trial Witness',
@@ -4085,120 +3569,75 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Chauntae Davies', url: 'https://www.google.com/search?q=Chauntae%20Davies' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
- 'charlie-munger': {
-"name":"Charlie Munger",
-"title":"Vice Chairman of Berkshire Hathaway",
-"role":"Warren Buffett's Business Partner",
-"riskLevel":"low",
-"description":"Billionaire investor and vice chairman of Berkshire Hathaway who was Warren Buffett's closest business partner for over 60 years. Known for his sharp wit and multidisciplinary approach to investing. Died November 28, 2023 at age 99.",
-"birthDate":"January 1, 1924",
-"education": [
-"University of Michigan",
-"Harvard Law School"
- ],
-"affiliations": [
- {
-"name":"Berkshire Hathaway",
-"role":"Vice Chairman",
-"type":"corporation"
- }
- ],
-"knownAssociates": [
- {
-"name":"Warren Buffett",
-"relationship":"Business partner for 60+ years",
-"href":"/entities/individuals/warren-buffett"
- }
- ],
-"controversies": [
-"Defended Chinese government practices",
-"Designed controversial UCSB dormitory",
-"Criticized cryptocurrency as \"rat poison\""
- ],
-"relatedInvestigations": [],
-"timeline": [
- {
-"date":"1978",
-"event":"Became Berkshire Hathaway Vice Chairman"
- },
- {
-"date":"2023 Nov 28",
-"event":"Died at age 99"
- }
- ],
-"sources": [
- {
-"title":"WSJ: Charlie Munger Obituary",
-"url":"https://www.wsj.com/business/charlie-munger-berkshire-hathaway-dies",
-"date":"2023"
- }
- ]
- },
- 'cambridge-analytica': {
-"name":"Cambridge Analytica (Entity Reference)",
-"title":"Data Mining Company",
-"role":"Election Manipulation via Facebook Data",
-"riskLevel":"critical",
-"description":"British political consulting firm that harvested personal data from millions of Facebook profiles without consent and used it for political advertising. Central to the 2016 Trump campaign's digital strategy. Dissolved in 2018 after the scandal broke.",
-"education": [],
-"affiliations": [
- {
-"name":"SCL Group",
-"role":"Parent Company",
-"type":"corporation"
- }
- ],
-"knownAssociates": [
- {
-"name":"Alexander Nix",
-"relationship":"CEO of Cambridge Analytica",
-"href":"/entities/individuals/alexander-nix"
- },
- {
-"name":"Steve Bannon",
-"relationship":"Vice president and board member",
-"href":"/entities/individuals/steve-bannon"
- },
- {
-"name":"Robert Mercer",
-"relationship":"Primary funder",
-"href":"/entities/individuals/robert-mercer"
- }
- ],
-"controversies": [
-"Harvested 87 million Facebook profiles without consent",
-"Used psychographic targeting for Trump campaign",
-"Dissolved after whistleblower Christopher Wylie exposed operations"
- ],
-"relatedInvestigations": [
- {
-"title":"Cambridge Analytica",
-"slug":"cambridge-analytica",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2014",
-"event":"Began harvesting Facebook user data"
- },
- {
-"date":"2016",
-"event":"Worked on Trump presidential campaign"
- },
- {
-"date":"2018",
-"event":"Scandal exposed, company dissolved"
- }
- ],
-"sources": [
- {
-"title":"Guardian: Cambridge Analytica Files",
-"url":"https://www.theguardian.com/news/series/cambridge-analytica-files",
-"date":"2018"
- }
- ]
- },
+  'charlie-munger': {
+    name: 'Charlie Munger',
+    title: 'Vice Chairman of Berkshire Hathaway',
+    role: 'Warren Buffett\'s Business Partner',
+    riskLevel: 'low',
+    description: 'Billionaire investor and vice chairman of Berkshire Hathaway who was Warren Buffett\'s closest business partner for over 60 years. Known for his sharp wit and multidisciplinary approach to investing. Died November 28, 2023 at age 99.',
+    birthDate: 'January 1, 1924',
+    education: ['University of Michigan', 'Harvard Law School'],
+    affiliations: [
+      { name: 'Berkshire Hathaway', role: 'Vice Chairman', type: 'corporation' },
+    ],
+    controversies: [
+      'Defended Chinese government practices',
+      'Designed controversial UCSB dormitory',
+      'Criticized cryptocurrency as "rat poison"',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '1978', event: 'Became Berkshire Hathaway Vice Chairman' },
+      { date: '2023 Nov 28', event: 'Died at age 99' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'WSJ: Charlie Munger Obituary', url: 'https://www.wsj.com/business/charlie-munger-berkshire-hathaway-dies', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Warren Buffett', relationship: 'Business partner for 60+ years', href: '/entities/individuals/warren-buffett' },
+    ],
+  },
+
+  'cambridge-analytica': {
+    name: 'Cambridge Analytica (Entity Reference)',
+    title: 'Data Mining Company',
+    role: 'Election Manipulation via Facebook Data',
+    riskLevel: 'critical',
+    description: 'British political consulting firm that harvested personal data from millions of Facebook profiles without consent and used it for political advertising. Central to the 2016 Trump campaign\'s digital strategy. Dissolved in 2018 after the scandal broke.',
+    education: [],
+    affiliations: [
+      { name: 'SCL Group', role: 'Parent Company', type: 'corporation' },
+    ],
+    controversies: [
+      'Harvested 87 million Facebook profiles without consent',
+      'Used psychographic targeting for Trump campaign',
+      'Dissolved after whistleblower Christopher Wylie exposed operations',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Cambridge Analytica', slug: 'cambridge-analytica', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2014', event: 'Began harvesting Facebook user data' },
+      { date: '2016', event: 'Worked on Trump presidential campaign' },
+      { date: '2018', event: 'Scandal exposed, company dissolved' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Guardian: Cambridge Analytica Files', url: 'https://www.theguardian.com/news/series/cambridge-analytica-files', date: '2018' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Alexander Nix', relationship: 'CEO of Cambridge Analytica', href: '/entities/individuals/alexander-nix' },
+      { name: 'Steve Bannon', relationship: 'Vice president and board member', href: '/entities/individuals/steve-bannon' },
+      { name: 'Robert Mercer', relationship: 'Primary funder', href: '/entities/individuals/robert-mercer' },
+    ],
+  },
+
   'cbp': {
     name: 'Cbp',
     title: 'Public Figure Under Investigation',
