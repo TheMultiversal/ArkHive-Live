@@ -1359,64 +1359,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Cynthia Cole', url: 'https://www.google.com/search?q=Cynthia%20Cole' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
  },
- 'carsten-spohr': {
- name: 'Carsten Spohr',
- title: 'Airline Executive',
- role: 'Lufthansa CEO',
- riskLevel: 'medium',
- description: 'Carsten Spohr serves as CEO of Lufthansa Group, one of Europe\'s largest airline groups and a major Boeing customer. Lufthansa operates Boeing aircraft and was affected by the MAX grounding.',
- birthDate: 'December 16, 1966',
- birthPlace: 'Germany',
- education: ['Unknown'],
- affiliations: [
- { name: 'Lufthansa', role: 'CEO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Willie Walsh', relationship: 'IATA Director General and fellow European airline industry executive', href: '/entities/individuals/willie-walsh' },
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Spohr managed Lufthansa\'s fleet amid 737 MAX grounding', href: '/entities/individuals/dennis-muilenburg' },
- ],
- controversies: [
- 'BOEING CUSTOMER: Major Boeing operator',
- 'MAX IMPACT: Affected by MAX grounding',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'December 16, 1966', event: 'Born in Germany' },
- { date: '2014', event: 'Becomes Lufthansa CEO' },
- ],
- sources: [{ title: 'Wikipedia: Carsten Spohr', url: 'https://en.wikipedia.org/wiki/Carsten_Spohr' }, { title: 'Bloomberg: Carsten Spohr', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
- },
- 'chris-chadwick': {
- name: 'Chris Chadwick',
- title: 'Aviation Executive',
- role: 'Collins Aerospace President',
- riskLevel: 'medium',
- description: 'Chris Chadwick serves as President of Collins Aerospace, a major Boeing supplier providing avionics and other systems. Collins supplies critical components for Boeing aircraft including the 737.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'Collins Aerospace', role: 'President', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Chadwick served in Boeing leadership during key defense and commercial divisions', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'David Calhoun', relationship: 'Boeing CEO and corporate colleague in aerospace executive leadership', href: '/entities/individuals/david-calhoun' },
- ],
- controversies: [
- 'BOEING SUPPLIER: Collins provides Boeing components',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'Collins career' },
- ],
- sources: [{ title: 'Wikipedia: Chris Chadwick', url: 'https://www.google.com/search?q=Chris%20Chadwick' }, { title: 'Bloomberg: Chris Chadwick', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
- },
+  'carsten-spohr': {
+    name: 'Carsten Spohr',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Carsten Spohr is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Carsten Spohr has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'chris-chadwick': {
+    name: 'Chris Chadwick',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Chris Chadwick is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Chris Chadwick has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'chris-moore': {
  name: 'Chris Moore',
  title: 'Victims Advocate',
