@@ -2042,6 +2042,17 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'shell-plc': {
+    id: 'e39b67b055abe18d',
+    slug: 'shell-plc',
+    name: 'Shell PLC',
+    type: 'corporation',
+    description: 'Shell PLC is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 
