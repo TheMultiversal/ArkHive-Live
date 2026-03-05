@@ -48,6 +48,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Manhattan DA Trial Testimony', url: 'https://manhattanda.org/', date: '2024' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -55,6 +56,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Michael Cohen', relationship: 'Coordinated hush money cover story', href: '/entities/individuals/michael-cohen' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
 
 
 

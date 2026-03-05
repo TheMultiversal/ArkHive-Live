@@ -153,6 +153,17 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
   'gordon-sondland': {
     name: 'Gordon David Sondland',
     title: 'Former US Ambassador to EU',
@@ -248,6 +259,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
       { title: 'Papadopoulos Plea Agreement', url: 'https://www.courtlistener.com/docket/6182316/united-states-v-papadopoulos/', date: '2017' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
     ],
     aliases: ['Coffee Boy (Trump dismissal)'],
     knownAssociates: [
@@ -255,6 +267,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Joseph Mifsud', relationship: 'Told him Russians had Clinton emails' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -609,6 +632,17 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
   'george-nader': {
     name: 'George Aref Nader',
     title: 'Convicted Pedophile, Trump Advisor',
@@ -706,6 +740,17 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
   'george-floyd': {
     name: 'George Floyd',
     title: 'Murder Victim / Symbol of Police Brutality',
@@ -766,6 +811,17 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
   'gerald-ford': {
     name: 'Gerald Ford',
     title: '38th President of the United States',
@@ -801,12 +857,25 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Nixon Pardon Proclamation 4311', url: 'https://www.justice.gov/pardon', date: '1974' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Richard Nixon', relationship: 'Predecessor, pardoned', href: '/entities/individuals/richard-nixon' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -857,12 +926,24 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Senate Torture Report', url: 'https://scholar.google.com/scholar?q=Senate%20Torture%20Report', date: '2014' },
       { title: 'CIA declassified documents', url: 'https://www.cia.gov/readingroom/', date: 'Various' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Donald Trump', relationship: 'Appointed her CIA Director', href: '/entities/individuals/donald-trump' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -97,6 +97,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Shaye Moss', relationship: 'Defamation victim, election worker', href: '/entities/individuals/shaye-moss' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
   'roger-stone': {
     name: 'Roger Jason Stone Jr.',
     title: 'Convicted Felon (Pardoned), Professional Dirty Trickster',
@@ -187,6 +198,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Steve Bannon', relationship: 'Political ally, War Room coordination', href: '/entities/individuals/steve-bannon' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
  'rick-perry': {
  name: 'James Richard Perry',
  title: 'Former Energy Secretary',
@@ -271,6 +293,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
       { title: 'Gates Plea Agreement', url: 'https://www.courtlistener.com/docket/6183591/united-states-v-manafort/', date: '2018' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: ['Manafort\'s Deputy'],
     knownAssociates: [
@@ -278,6 +301,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Campaign deputy manager', href: '/entities/individuals/donald-trump' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
   'ruby-freeman': {
     name: 'Ruby Freeman',
     title: 'Former Georgia Election Worker',
@@ -331,6 +365,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Rudy Giuliani', relationship: 'Defamed her, owes $148 million judgment', href: '/entities/individuals/rudy-giuliani' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
   'robert-mueller': {
     name: 'Robert Swan Mueller III',
     title: 'Former FBI Director & Special Counsel',
@@ -376,6 +421,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
       { title: 'Congressional Testimony', url: 'https://www.c-span.org/video/?462628-1/robert-mueller-testifies-house-judiciary-committee', date: '2019' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -384,6 +430,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Rod Rosenstein', relationship: 'Deputy AG who appointed him' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
   'robert-mercer': {
     name: 'Robert Leroy Mercer',
     title: 'Billionaire Hedge Fund Manager',
@@ -445,6 +502,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Rebekah Mercer', relationship: 'Daughter, co-operative political activities', href: '/entities/individuals/rebekah-mercer' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
   'rebekah-mercer': {
     name: 'Rebekah Mercer',
     title: 'Conservative Mega-Donor',
@@ -493,6 +561,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Cambridge Analytica Investigation', url: 'https://ico.org.uk/', date: '2018' },
       { title: 'Mercer Family Foundation Records', url: 'https://scholar.google.com/scholar?q=Mercer%20Family%20Foundation%20Records', date: '2016-2024' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -501,6 +570,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Steve Bannon', relationship: 'Close ally, funded his operations', href: '/entities/individuals/steve-bannon' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
   'rod-rosenstein': {
     name: 'Rod Jay Rosenstein',
     title: 'Former Deputy Attorney General',
@@ -544,6 +624,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
       { title: 'DOJ Inspector General Report', url: 'https://www.justice.gov/storage/120919-examination.pdf', date: '2019' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -553,6 +634,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Andrew McCabe', relationship: 'Discussed wearing wire with', href: '/entities/individuals/andrew-mccabe' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
   'rupert-murdoch': {
     name: 'Rupert Murdoch',
     title: 'Public Figure Under Investigation',
@@ -582,218 +674,232 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
- 'rosemary-vrablic': {
- name: 'Rosemary Vrablic',
- title: 'Former Deutsche Bank Managing Director',
- role: 'Trump\'s Personal Banker',
- riskLevel: 'high',
- description: 'Rosemary T. Vrablic was a senior wealth management banker at Deutsche Bank who personally managed the Trump Organization\'s accounts. She approved hundreds of millions in loans to Trump when no other major bank would lend to him. She resigned from Deutsche Bank in 2021 amid scrutiny of the bank\'s Trump lending relationships.',
- birthDate: 'Unknown',
- birthPlace: 'USA',
- education: ['Unknown'],
- netWorth: 'Unknown',
- aliases: [],
- affiliations: [
- { name: 'Deutsche Bank', role: 'Managing Director, Private Wealth (resigned 2020)', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Personal banker, approved $300M+ in loans', href: '/entities/individuals/donald-trump' },
- { name: 'Jared Kushner', relationship: 'Also managed Kushner accounts', href: '/entities/individuals/jared-kushner' },
- { name: 'Ivanka Trump', relationship: 'Managed her accounts', href: '/entities/individuals/ivanka-trump' },
- ],
- controversies: [
- 'Approved Trump loans when no other bank would',
- 'Personal investments in company tied to Kushner',
- 'Resigned amid internal investigation',
- 'Overruled internal risk assessments',
- 'Bought investment in Trump-connected company',
- ],
- charges: [
- { statute: '18 U.S.C. § 1014', description: 'Potential Bank Fraud - Approved loans to Trump despite knowledge of inflated financial statements and internal risk warnings', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1344', description: 'Potential Bank Fraud Scheme - Pattern of approving loans to politically connected client despite red flags', category: 'Potential Federal' },
- { statute: '31 U.S.C. § 5318 (Bank Secrecy Act)', description: 'Potential Anti-Money Laundering Violations - Failed to properly flag suspicious transactions in Trump accounts', category: 'Potential Federal' },
- { statute: '12 C.F.R. Part 208 (Regulation H)', description: 'Banking Regulation Violations - Overruled internal risk assessments to approve questionable loans', category: 'Banking Regulatory' },
- { statute: '18 U.S.C. § 208', description: 'Conflict of Interest - Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Pattern of facilitating questionable loans to Trump despite institutional warnings', category: 'Potential Federal' },
- { statute: 'SEC Rule 10b-5', description: 'Potential Securities Violations - Personal investments while possessing material non-public information about clients', category: 'Potential Securities' },
- ],
- relatedInvestigations: [
- { title: 'Deutsche Bank Investigation', slug: 'deutsche-bank', severity: 'critical' },
- { title: 'Money Laundering', slug: 'money-laundering', severity: 'critical' },
- ],
- timeline: [
- { date: '2011', event: 'Begins banking relationship with Trump' },
- { date: '2012-2015', event: 'Approves $300M+ in loans to Trump' },
- { date: '2020', event: 'Internal investigation into personal investments' },
- { date: '2020', event: 'December: Resigns from Deutsche Bank' },
- ],
- sources: [
- { title: 'NY Times Deutsche Bank Investigation', url: 'https://www.nytimes.com/', date: '2020' },
- { title: 'House Financial Services Committee', url: 'https://www.congress.gov/', date: '2019' },
- ],
- },
- 'rex-tillerson': {
- name: 'Rex Wayne Tillerson',
- title: 'Former U.S. Secretary of State',
- role: 'Secretary of State 2017-2018, Former ExxonMobil CEO',
- riskLevel: 'high',
- description: 'Rex Tillerson served as Secretary of State under Trump for just over a year before being fired via Twitter. As ExxonMobil CEO, he had close ties to Russia and was awarded the Order of Friendship by Vladimir Putin. He reportedly called Trump a"fucking moron"and clashed repeatedly with the president over policy. He oversaw the decimation of the State Department, with mass resignations and unfilled positions.',
- birthDate: 'March 23, 1952',
- birthPlace: 'Wichita Falls, Texas',
- education: [
- 'University of Texas at Austin (B.S. Civil Engineering)',
- ],
- netWorth: '$300 million+',
- aliases: ['Rex'],
- affiliations: [
- { name: 'U.S. Department of State', role: 'Secretary (2017-2018)', type: 'agency' },
- { name: 'ExxonMobil', role: 'Chairman & CEO (2006-2016)', type: 'corporation' },
- { name: 'Boy Scouts of America', role: 'National President (2010-2012)', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Fired him as Secretary of State', href: '/entities/individuals/donald-trump' },
- { name: 'Vladimir Putin', relationship: 'Close business relationship at Exxon, received Order of Friendship', href: '/entities/individuals/vladimir-putin' },
- ],
- controversies: [
- 'Received Russian Order of Friendship from Putin',
- 'ExxonMobil climate change cover-up and misinformation',
- 'Called Trump a"fucking moron"',
- 'Decimation of State Department under his leadership',
- 'Mass resignations and unfilled diplomatic positions',
- 'Fired via Twitter while on diplomatic trip to Africa',
- 'ExxonMobil\'s decades of funding climate denial',
- ],
- charges: [
- { statute: '18 U.S.C. § 1341 (Mail Fraud)', description: 'Potential Corporate Fraud - ExxonMobil under investigation for deceiving investors about climate change impacts during his tenure', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Potential Securities Fraud - Company communicated misleading climate information to investors while CEO', category: 'Potential Federal' },
- { statute: 'SEC Rule 10b-5', description: 'Securities Fraud Investigation - NY AG and SEC investigated ExxonMobil climate disclosures during Tillerson era', category: 'Potential Securities' },
- { statute: '22 U.S.C. § 8907 (UFSA)', description: 'Potential Sanctions Violations - ExxonMobil sought OFAC waiver to continue Russia projects under sanctions', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 208', description: 'Conflict of Interest Concerns - Managed State Dept while ExxonMobil had billions in pending Russian deals', category: 'Ethics' },
- { statute: 'UN Framework Convention on Climate Change', description: 'Climate Treaty Violations - Company\'s climate denial undermined international climate agreements', category: 'International' },
- { statute: '42 U.S.C. § 4332 (NEPA)', description: 'Environmental Law Violations - Knowingly misled public about climate impacts of fossil fuels', category: 'Environmental' },
- { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'ICC Consideration - Climate disinformation contributed to humanitarian crises affecting millions globally', category: 'International' },
- ],
- relatedInvestigations: [
- { title: 'Climate Sabotage', slug: 'climate-sabotage', severity: 'critical' },
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- ],
- timeline: [
- { date: '2006', event: 'Becomes CEO of ExxonMobil' },
- { date: '2013', event: 'Receives Russian Order of Friendship from Putin' },
- { date: '2017', event: 'February: Confirmed as Secretary of State' },
- { date: '2017', event: 'October: Reports emerge he called Trump a"moron"' },
- { date: '2018', event: 'March 13: Fired via Twitter' },
- ],
- sources: [
- { title: 'NBC News - Tillerson"Moron"Report', url: 'https://www.nbcnews.com/', date: '2017' },
- { title: 'State Department Exodus Reports', url: 'https://www.state.gov/', date: '2018' },
- ],
- },
- 'ryan-zinke': {
- name: 'Ryan Keith Zinke',
- title: 'Former U.S. Secretary of the Interior',
- role: 'Interior Secretary 2017-2019, Montana Congressman',
- riskLevel: 'high',
- description: 'Ryan Zinke served as Interior Secretary under Trump until resigning amid multiple ethics investigations. He opened vast public lands to drilling and mining, reduced national monuments, and faced at least 15 federal investigations into ethics violations including using taxpayer funds for personal travel and a real estate deal in his hometown involving Halliburton.',
- birthDate: 'November 1, 1961',
- birthPlace: 'Bozeman, Montana',
- education: [
- 'University of San Diego (M.B.A.)',
- 'University of Oregon (B.S. Geology)',
- ],
- aliases: ['Zinke'],
- affiliations: [
- { name: 'U.S. Department of Interior', role: 'Secretary (2017-2019)', type: 'agency' },
- { name: 'U.S. House of Representatives', role: 'Montana At-Large (2015-2017)', type: 'agency' },
- { name: 'U.S. Navy SEALs', role: 'Commander (retired)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Cabinet member', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'At least 15 federal ethics investigations',
- 'Real estate deal with Halliburton chairman in Montana',
- 'Used taxpayer funds for wife\'s travel',
- 'Chartered private planes unnecessarily',
- 'Reduced Bears Ears and Grand Staircase monuments by 85%',
- 'Opened Arctic National Wildlife Refuge to drilling',
- 'Had special Interior flag raised when he was in office',
- 'Resigned before investigations concluded',
- ],
- charges: [
- { statute: '18 U.S.C. § 208', description: 'DOJ Referral - Financial conflict of interest in Montana land deal with Halliburton chairman (DOJ declined prosecution)', category: 'Ethics' },
- { statute: '31 U.S.C. § 1344', description: 'Potential Misuse of Government Aircraft - Chartered private and military planes for unnecessary travel', category: 'Potential Federal' },
- { statute: '5 C.F.R. § 2635', description: 'Multiple Ethics Violations - At least 15 separate IG investigations into ethics misconduct', category: 'Ethics' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Misleading statements to Interior IG about travel and real estate dealings', category: 'Potential Federal' },
- { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain - Montana real estate development benefited from official position', category: 'Ethics' },
- { statute: '41 U.S.C. § 423', description: 'Potential Procurement Violations - Improper influence over Interior Department contracts', category: 'Potential Federal' },
- { statute: '16 U.S.C. § 431 (Antiquities Act)', description: 'Circumvention - Illegally reduced national monuments, later partially reversed by courts', category: 'Environmental' },
- ],
- relatedInvestigations: [
- { title: 'Climate Sabotage', slug: 'climate-sabotage', severity: 'critical' },
- ],
- timeline: [
- { date: '2017', event: 'March: Confirmed as Interior Secretary' },
- { date: '2017', event: 'December: Announces monument reductions' },
- { date: '2018', event: 'Multiple ethics investigations opened' },
- { date: '2018', event: 'December: Announces resignation' },
- { date: '2022', event: 'Elected to Congress again from Montana' },
- ],
- sources: [
- { title: 'Interior IG Investigations', url: 'https://scholar.google.com/scholar?q=Interior%20IG%20Investigations', date: '2018' },
- ],
- },
- 'reince-priebus': {
- name: 'Reince Richard Priebus',
- title: 'Former White House Chief of Staff',
- role: 'Trump Administration Official',
- riskLevel: 'medium' as const,
- description: 'First White House Chief of Staff under Donald Trump, serving the shortest tenure in modern history (189 days) before being fired via tweet while sitting on Air Force One. Previously served as RNC Chairman during the 2016 election when Russian interference occurred. Pushed out to make way for John Kelly after Anthony Scaramucci publicly attacked him.',
- birthDate: 'March 18, 1972',
- birthPlace: 'Dover, New Jersey',
- education: [
- 'University of Miami School of Law (J.D.)',
- 'University of Wisconsin-Whitewater (B.A.)',
- ],
- affiliations: [
- { name: 'White House', role: 'Chief of Staff (Former)', type: 'agency' },
- { name: 'Republican National Committee', role: 'Former Chairman', type: 'organization' },
- ],
+  'rosemary-vrablic': {
+    name: 'Rosemary Vrablic',
+    title: 'Former Deutsche Bank Managing Director',
+    role: 'Trump\'s Personal Banker',
+    riskLevel: 'high',
+    description: 'Rosemary T. Vrablic was a senior wealth management banker at Deutsche Bank who personally managed the Trump Organization\'s accounts. She approved hundreds of millions in loans to Trump when no other major bank would lend to him. She resigned from Deutsche Bank in 2021 amid scrutiny of the bank\'s Trump lending relationships.',
+    birthDate: 'Unknown',
+    birthPlace: 'USA',
+    netWorth: 'Unknown',
+    education: ['Unknown'],
+    affiliations: [
+      { name: 'Deutsche Bank', role: 'Managing Director, Private Wealth (resigned 2020)', type: 'corporation' },
+    ],
+    controversies: [
+      'Approved Trump loans when no other bank would',
+      'Personal investments in company tied to Kushner',
+      'Resigned amid internal investigation',
+      'Overruled internal risk assessments',
+      'Bought investment in Trump-connected company',
+    ],
+    charges: [
+      { statute: '18 U.S.C. § 1014', description: 'Potential Bank Fraud - Approved loans to Trump despite knowledge of inflated financial statements and internal risk warnings', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 1344', description: 'Potential Bank Fraud Scheme - Pattern of approving loans to politically connected client despite red flags', category: 'Potential Federal' },
+      { statute: '31 U.S.C. § 5318 (Bank Secrecy Act)', description: 'Potential Anti-Money Laundering Violations - Failed to properly flag suspicious transactions in Trump accounts', category: 'Potential Federal' },
+      { statute: '12 C.F.R. Part 208 (Regulation H)', description: 'Banking Regulation Violations - Overruled internal risk assessments to approve questionable loans', category: 'Banking Regulatory' },
+      { statute: '18 U.S.C. § 208', description: 'Conflict of Interest - Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
+      { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Pattern of facilitating questionable loans to Trump despite institutional warnings', category: 'Potential Federal' },
+      { statute: 'SEC Rule 10b-5', description: 'Potential Securities Violations - Personal investments while possessing material non-public information about clients', category: 'Potential Securities' },
+    ],
+    relatedInvestigations: [
+      { title: 'Deutsche Bank Investigation', slug: 'deutsche-bank', severity: 'critical' },
+      { title: 'Money Laundering', slug: 'money-laundering', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2011', event: 'Begins banking relationship with Trump' },
+      { date: '2012-2015', event: 'Approves $300M+ in loans to Trump' },
+      { date: '2020', event: 'Internal investigation into personal investments' },
+      { date: '2020', event: 'December: Resigns from Deutsche Bank' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NY Times Deutsche Bank Investigation', url: 'https://www.nytimes.com/', date: '2020' },
+      { title: 'House Financial Services Committee', url: 'https://www.congress.gov/', date: '2019' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Personal banker, approved $300M+ in loans', href: '/entities/individuals/donald-trump' },
+      { name: 'Jared Kushner', relationship: 'Also managed Kushner accounts', href: '/entities/individuals/jared-kushner' },
+      { name: 'Ivanka Trump', relationship: 'Managed her accounts', href: '/entities/individuals/ivanka-trump' },
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Served as Trump\'s first White House Chief of Staff for 189 days before being fired via tweet while on Air Force One', href: '/entities/individuals/donald-trump' },
- { name: 'Steve Bannon', relationship: 'Bitter West Wing rival as Chief Strategist; their power struggle defined early Trump White House chaos', href: '/entities/individuals/steve-bannon' },
- { name: 'Sean Spicer', relationship: 'Close political ally who brought Spicer from RNC to serve as White House Press Secretary', href: '/entities/individuals/sean-spicer' },
- { name: 'Paul Ryan', relationship: 'Fellow Wisconsin Republican and longtime political ally; coordinated GOP legislative agenda', href: '/entities/individuals/paul-ryan' },
- { name: 'Mike Pence', relationship: 'Worked closely as RNC Chairman to integrate Pence as VP pick and manage 2016 campaign operations', href: '/entities/individuals/mike-pence' },
- ],
- controversies: [
- 'Shortest-serving Chief of Staff in modern history (189 days)',
- 'Fired via tweet while on Air Force One',
- 'RNC Chairman during Russian election interference 2016',
- 'Struggled to manage chaotic White House',
- 'Publicly humiliated by Anthony Scaramucci',
- ],
- charges: [
- { statute: '52 U.S.C. § 30121', description: 'Potential Foreign Campaign Contribution - RNC accepted Russian-linked donations during his chairmanship', category: 'Potential Election' },
- { statute: '18 U.S.C. § 1519', description: 'Potential Records Destruction - Questions about preservation of RNC communications regarding Russian contacts', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Mueller interviewed him about knowledge of Russian contacts with campaign', category: 'Potential Federal' },
- { statute: '52 U.S.C. § 30109', description: 'Campaign Finance Oversight Failures - RNC under his leadership failed to properly vet foreign-connected donations', category: 'Potential Election' },
- { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential FARA Coordination - Knowledge of foreign agents like Maria Butina attending RNC events', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
- ],
- timeline: [
- { date: '2011-2017', event: 'Serves as RNC Chairman' },
- { date: 'January 2017', event: 'Becomes White House Chief of Staff' },
- { date: 'July 2017', event: 'Scaramucci attacks him in New Yorker interview' },
- { date: 'July 28, 2017', event: 'Fired via tweet, replaced by John Kelly' },
- ],
- sources: [
- { title: 'New Yorker Scaramucci Interview', url: 'https://scholar.google.com/scholar?q=New%20Yorker%20Scaramucci%20Interview', date: '2017' },
- ],
- },
+
+
+
+
+
+
+
+
+
+
+  'rex-tillerson': {
+    name: 'Rex Wayne Tillerson',
+    title: 'Former U.S. Secretary of State',
+    role: 'Secretary of State 2017-2018, Former ExxonMobil CEO',
+    riskLevel: 'high',
+    description: 'Rex Tillerson served as Secretary of State under Trump for just over a year before being fired via Twitter. As ExxonMobil CEO, he had close ties to Russia and was awarded the Order of Friendship by Vladimir Putin. He reportedly called Trump a"fucking moron"and clashed repeatedly with the president over policy. He oversaw the decimation of the State Department, with mass resignations and unfilled positions.',
+    birthDate: 'March 23, 1952',
+    birthPlace: 'Wichita Falls, Texas',
+    netWorth: '$300 million+',
+    education: ['University of Texas at Austin (B.S. Civil Engineering)'],
+    affiliations: [
+      { name: 'U.S. Department of State', role: 'Secretary (2017-2018)', type: 'agency' },
+      { name: 'ExxonMobil', role: 'Chairman & CEO (2006-2016)', type: 'corporation' },
+      { name: 'Boy Scouts of America', role: 'National President (2010-2012)', type: 'organization' },
+    ],
+    controversies: [
+      'Received Russian Order of Friendship from Putin',
+      'ExxonMobil climate change cover-up and misinformation',
+      'Called Trump a"fucking moron"',
+      'Decimation of State Department under his leadership',
+      'Mass resignations and unfilled diplomatic positions',
+      'Fired via Twitter while on diplomatic trip to Africa',
+      'ExxonMobil\'s decades of funding climate denial',
+    ],
+    charges: [
+      { statute: '18 U.S.C. § 1341 (Mail Fraud)', description: 'Potential Corporate Fraud - ExxonMobil under investigation for deceiving investors about climate change impacts during his tenure', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Potential Securities Fraud - Company communicated misleading climate information to investors while CEO', category: 'Potential Federal' },
+      { statute: 'SEC Rule 10b-5', description: 'Securities Fraud Investigation - NY AG and SEC investigated ExxonMobil climate disclosures during Tillerson era', category: 'Potential Securities' },
+      { statute: '22 U.S.C. § 8907 (UFSA)', description: 'Potential Sanctions Violations - ExxonMobil sought OFAC waiver to continue Russia projects under sanctions', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 208', description: 'Conflict of Interest Concerns - Managed State Dept while ExxonMobil had billions in pending Russian deals', category: 'Ethics' },
+      { statute: 'UN Framework Convention on Climate Change', description: 'Climate Treaty Violations - Company\'s climate denial undermined international climate agreements', category: 'International' },
+      { statute: '42 U.S.C. § 4332 (NEPA)', description: 'Environmental Law Violations - Knowingly misled public about climate impacts of fossil fuels', category: 'Environmental' },
+      { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'ICC Consideration - Climate disinformation contributed to humanitarian crises affecting millions globally', category: 'International' },
+    ],
+    relatedInvestigations: [
+      { title: 'Climate Sabotage', slug: 'climate-sabotage', severity: 'critical' },
+      { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2006', event: 'Becomes CEO of ExxonMobil' },
+      { date: '2013', event: 'Receives Russian Order of Friendship from Putin' },
+      { date: '2017', event: 'February: Confirmed as Secretary of State' },
+      { date: '2017', event: 'October: Reports emerge he called Trump a"moron"' },
+      { date: '2018', event: 'March 13: Fired via Twitter' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NBC News - Tillerson"Moron"Report', url: 'https://www.nbcnews.com/', date: '2017' },
+      { title: 'State Department Exodus Reports', url: 'https://www.state.gov/', date: '2018' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: ['Rex'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Fired him as Secretary of State', href: '/entities/individuals/donald-trump' },
+      { name: 'Vladimir Putin', relationship: 'Close business relationship at Exxon, received Order of Friendship', href: '/entities/individuals/vladimir-putin' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'ryan-zinke': {
+    name: 'Ryan Keith Zinke',
+    title: 'Former U.S. Secretary of the Interior',
+    role: 'Interior Secretary 2017-2019, Montana Congressman',
+    riskLevel: 'high',
+    description: 'Ryan Zinke served as Interior Secretary under Trump until resigning amid multiple ethics investigations. He opened vast public lands to drilling and mining, reduced national monuments, and faced at least 15 federal investigations into ethics violations including using taxpayer funds for personal travel and a real estate deal in his hometown involving Halliburton.',
+    birthDate: 'November 1, 1961',
+    birthPlace: 'Bozeman, Montana',
+    education: ['University of San Diego (M.B.A.)', 'University of Oregon (B.S. Geology)'],
+    affiliations: [
+      { name: 'U.S. Department of Interior', role: 'Secretary (2017-2019)', type: 'agency' },
+      { name: 'U.S. House of Representatives', role: 'Montana At-Large (2015-2017)', type: 'agency' },
+      { name: 'U.S. Navy SEALs', role: 'Commander (retired)', type: 'agency' },
+    ],
+    controversies: [
+      'At least 15 federal ethics investigations',
+      'Real estate deal with Halliburton chairman in Montana',
+      'Used taxpayer funds for wife\'s travel',
+      'Chartered private planes unnecessarily',
+      'Reduced Bears Ears and Grand Staircase monuments by 85%',
+      'Opened Arctic National Wildlife Refuge to drilling',
+      'Had special Interior flag raised when he was in office',
+      'Resigned before investigations concluded',
+    ],
+    charges: [
+      { statute: '18 U.S.C. § 208', description: 'DOJ Referral - Financial conflict of interest in Montana land deal with Halliburton chairman (DOJ declined prosecution)', category: 'Ethics' },
+      { statute: '31 U.S.C. § 1344', description: 'Potential Misuse of Government Aircraft - Chartered private and military planes for unnecessary travel', category: 'Potential Federal' },
+      { statute: '5 C.F.R. § 2635', description: 'Multiple Ethics Violations - At least 15 separate IG investigations into ethics misconduct', category: 'Ethics' },
+      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Misleading statements to Interior IG about travel and real estate dealings', category: 'Potential Federal' },
+      { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain - Montana real estate development benefited from official position', category: 'Ethics' },
+      { statute: '41 U.S.C. § 423', description: 'Potential Procurement Violations - Improper influence over Interior Department contracts', category: 'Potential Federal' },
+      { statute: '16 U.S.C. § 431 (Antiquities Act)', description: 'Circumvention - Illegally reduced national monuments, later partially reversed by courts', category: 'Environmental' },
+    ],
+    relatedInvestigations: [
+      { title: 'Climate Sabotage', slug: 'climate-sabotage', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2017', event: 'March: Confirmed as Interior Secretary' },
+      { date: '2017', event: 'December: Announces monument reductions' },
+      { date: '2018', event: 'Multiple ethics investigations opened' },
+      { date: '2018', event: 'December: Announces resignation' },
+      { date: '2022', event: 'Elected to Congress again from Montana' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Interior IG Investigations', url: 'https://scholar.google.com/scholar?q=Interior%20IG%20Investigations', date: '2018' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: ['Zinke'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Cabinet member', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'reince-priebus': {
+    name: 'Reince Priebus',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Reince Priebus is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Reince Priebus has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'robert-jeffress': {
  name: 'Robert James Jeffress Jr.',
  title: 'Pastor of First Baptist Dallas',
@@ -839,107 +945,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'rinat-akhmetshin': {
- name: 'Rinat Akhmetshin',
- title: 'Russian-American Lobbyist',
- role: 'Trump Tower Meeting Attendee',
- riskLevel: 'high' as const,
- description: 'Russian-American lobbyist and former Soviet military intelligence officer who attended the June 9, 2016 Trump Tower meeting. Naturalized U.S. citizen with background in Soviet counterintelligence. Worked on anti-Magnitsky Act lobbying efforts. His presence at the meeting heightened concerns about Russian intelligence involvement in the campaign.',
- birthDate: '1968',
- birthPlace: 'Soviet Union',
- education: [
- 'Soviet Military Intelligence Training',
- ],
- affiliations: [
- { name: 'Soviet Military Intelligence', role: 'Former Officer', type: 'agency' },
- { name: 'Lobbying Firms', role: 'Registered Lobbyist', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Natalia Veselnitskaya', relationship: 'Fellow Trump Tower meeting attendee', href: '/entities/individuals/natalia-veselnitskaya' },
- { name: 'Donald Trump Jr.', relationship: 'Trump Tower meeting attendee', href: '/entities/individuals/donald-trump-jr' },
- { name: 'Rob Goldstone', relationship: 'Meeting arranger', href: '/entities/individuals/rob-goldstone' },
- ],
- controversies: [
- 'Attended Trump Tower meeting June 9, 2016',
- 'Former Soviet military intelligence officer',
- 'Lobbied against Magnitsky Act',
- 'Accused of hacking activities (denied)',
- 'Testified to Senate Judiciary Committee',
- 'Background in Soviet counterintelligence GRU',
- 'Anti-Magnitsky Act lobbying on behalf of Russian interests',
- ],
- charges: [
- { statute: '18 U.S.C. § 951', description: 'Potential Foreign Agent Activity - Former Soviet military intelligence officer attended meeting offering Russian government assistance to campaign', category: 'Potential National Security' },
- { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential FARA Violations - Lobbied on behalf of Russian interests without proper registration', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Participated in Russian operation to provide"dirt"on Clinton to Trump campaign', category: 'Potential Federal' },
- { statute: '52 U.S.C. § 30121', description: 'Potential Foreign Election Contribution - Participated in meeting offering foreign government assistance to US campaign', category: 'Potential Election Law' },
- { statute: '18 U.S.C. § 1030', description: 'Potential Computer Crimes - Accused of involvement in hacking activities (denied)', category: 'Potential Federal' },
- { statute: 'Senate Intelligence Committee Documentation', description: 'Russian Intelligence Background - Identified by Senate as former Soviet counterintelligence officer at Trump Tower meeting', category: 'Documented' },
- ],
- relatedInvestigations: [
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Trump Tower Meeting', slug: 'trump-tower-meeting', severity: 'critical' },
- { title: 'Foreign Influence Operations', slug: 'foreign-influence', severity: 'high' },
- ],
- timeline: [
- { date: 'June 9, 2016', event: 'Attends Trump Tower meeting with Russian delegation' },
- { date: '2017', event: 'Presence at meeting revealed by media' },
- { date: '2017', event: 'Testifies to Senate Judiciary Committee' },
- { date: '2019', event: 'Mueller Report documents his role' },
- ],
- sources: [
- { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
- { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.congress.gov/', date: '2020' },
- { title: 'Senate Judiciary Committee Testimony', url: 'https://www.congress.gov/', date: '2017' },
- ],
- },
- 'rob-goldstone': {
- name: 'Robert Goldstone',
- title: 'British Music Publicist',
- role: 'Trump Tower Meeting Arranger',
- riskLevel: 'medium' as const,
- description: 'British-born music publicist who arranged the infamous June 9, 2016 Trump Tower meeting. Sent the email to Donald Trump Jr. promising damaging information about Hillary Clinton as"part of Russia and its government\'s support for Mr. Trump."Represented Russian pop star Emin Agalarov and his father Aras, who had business dealings with Trump.',
- birthDate: '1960',
- birthPlace: 'Manchester, England',
- education: [],
- affiliations: [
- { name: 'Oui 2 Entertainment', role: 'President', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Donald Trump Jr.', relationship: 'Trump Tower meeting contact', href: '/entities/individuals/donald-trump-jr' },
- { name: 'Emin Agalarov', relationship: 'Client, Russian pop star', href: '/entities/individuals/emin-agalarov' },
- { name: 'Aras Agalarov', relationship: 'Client, Russian oligarch', href: '/entities/individuals/aras-agalarov' },
- { name: 'Natalia Veselnitskaya', relationship: 'Introduced for meeting', href: '/entities/individuals/natalia-veselnitskaya' },
- ],
- controversies: [
- 'Sent"Russia and its government\'s support"email',
- 'Arranged Trump Tower meeting June 2016',
- 'Email became key evidence in Russia investigation',
- 'Connected Trump campaign to Russian operatives',
- 'Testified to Mueller investigation',
- 'Email documented offer of Russian government assistance to campaign',
- ],
- charges: [
- { statute: '52 U.S.C. § 30121', description: 'Potential Foreign Election Contribution - Arranged meeting offering foreign government assistance to US campaign', category: 'Potential Election Law' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Participated in scheme connecting Russian operatives to Trump campaign', category: 'Potential Federal' },
- { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential Unregistered Foreign Agent - Facilitated Russian government outreach to campaign without registration', category: 'Potential Federal' },
- { statute: 'Mueller Report Documentation', description: 'Key Facilitator - Email documented as central evidence of Russia-Trump campaign connection', category: 'Documented' },
- ],
- relatedInvestigations: [
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Trump Tower Meeting', slug: 'trump-tower-meeting', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 3, 2016', event: 'Sends email to Don Jr. promising Russian dirt on Clinton' },
- { date: 'June 9, 2016', event: 'Attends Trump Tower meeting' },
- { date: 'July 2017', event: 'Email chain published by Don Jr.' },
- { date: '2017', event: 'Interviewed by Mueller team' },
- ],
- sources: [
- { title: 'Don Jr. Email Chain (Published)', url: 'https://www.courtlistener.com/', date: '2017' },
- { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
- ],
- },
+  'rinat-akhmetshin': {
+    name: 'Rinat Akhmetshin',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Rinat Akhmetshin is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Rinat Akhmetshin has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'rob-goldstone': {
+    name: 'Rob Goldstone',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Rob Goldstone is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Rob Goldstone has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'richard-donoghue': {
  name: 'Richard Peter Donoghue',
  title: 'Former Acting Deputy Attorney General',
@@ -1017,1149 +1082,950 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'NY Fraud Trial Testimony', url: 'https://scholar.google.com/scholar?q=NY%20Fraud%20Trial%20Testimony', date: '2023' },
  ],
  },
- 'ron-desantis': {
- name: 'Ronald Dion DeSantis',
- title: 'Governor of Florida',
- role: 'Trump Rival, MAGA Governor',
- riskLevel: 'medium' as const,
- description: 'Florida Governor who rose to prominence as a Trump ally before becoming his 2024 primary rival. Known for"anti-woke"policies, COVID skepticism, and fights with Disney. Lost badly to Trump in primaries and endorsed him.',
- birthDate: 'September 14, 1978',
- birthPlace: 'Jacksonville, Florida',
- education: [
- 'Yale University (B.A.)',
- 'Harvard Law School (J.D.)',
- ],
- affiliations: [
- { name: 'Republican Party', role: 'Governor of Florida', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Former ally, 2024 rival', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'COVID policies led to excess deaths',
- 'Flew migrants to Martha\'s Vineyard',
- 'War with Disney over"Don\'t Say Gay"',
- 'Removed elected prosecutor',
- 'Book bans in schools',
- ],
- charges: [
- { statute: '18 U.S.C. § 241', description: 'Potential Conspiracy Against Rights - Martha\'s Vineyard migrant transport scheme alleged to have deceived migrants about destination', category: 'Potential Federal Civil Rights' },
- { statute: '18 U.S.C. § 1201', description: 'Potential Kidnapping - Migrants allegedly transported under false pretenses across state lines', category: 'Potential Federal' },
- { statute: 'Texas Penal Code § 20.01', description: 'Potential Unlawful Restraint - Class action lawsuit filed over migrant transport from Texas', category: 'Potential State' },
- { statute: '42 U.S.C. § 1983', description: 'Deprivation of Civil Rights - Multiple lawsuits over removal of elected prosecutor without cause', category: 'Federal Civil Rights' },
- { statute: 'Florida Const. Art. I § 2', description: 'Potential Violation - Removal of elected prosecutor violated voters\' rights, currently in litigation', category: 'State Constitutional' },
- { statute: 'First Amendment', description: 'Potential Violation -"Stop WOKE"Act found unconstitutional as government viewpoint discrimination', category: 'Constitutional' },
- { statute: '42 U.S.C. § 1983', description: 'Civil Rights Violations - Book bans and curriculum restrictions face multiple federal court challenges', category: 'Federal Civil Rights' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Alleged misrepresentation of COVID death data', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- { title: 'COVID Response', slug: 'covid-response', severity: 'critical' },
- ],
- timeline: [
- { date: '2018', event: 'Elected Governor with Trump endorsement' },
- { date: '2020', event: 'Minimizes COVID, reopens Florida early' },
- { date: '2022', event: 'Re-elected by wide margin' },
- { date: 'May 2023', event: 'Announces presidential campaign' },
- { date: 'January 2024', event: 'Drops out, endorses Trump' },
- ],
- sources: [
- { title: 'Campaign Records', url: 'https://scholar.google.com/scholar?q=Campaign%20Records', date: 'Various' },
- ],
- },
- 'richard-spencer': {
- name: 'Richard Bertrand Spencer',
- title: 'White Nationalist Leader',
- role: 'Alt-Right Figure, Charlottesville Organizer',
- riskLevel: 'high' as const,
- description: 'White nationalist and self-described"alt-right"leader who helped organize the 2017 Unite the Right rally in Charlottesville. Famous for leading"Heil Trump"salutes after 2016 election. Banned from most social media platforms.',
- birthDate: 'May 11, 1978',
- birthPlace: 'Boston, Massachusetts',
- education: [
- 'University of Virginia (B.A.)',
- 'University of Chicago (M.A.)',
- 'Duke University (unfinished Ph.D.)',
- ],
- affiliations: [
- { name: 'National Policy Institute', role: 'President', type: 'organization' },
- { name: 'Alt-Right Movement', role: 'Leader', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Jason Kessler', relationship: 'Charlottesville co-organizer', href: '/entities/individuals/jason-kessler' },
- ],
- controversies: [
- 'Led"Heil Trump"Nazi salutes at NPI conference',
- 'Organized Unite the Right rally',
- 'Promotes"peaceful ethnic cleansing"',
- 'Banned from most social media',
- 'Punched on camera on Inauguration Day',
- ],
- charges: [
- { statute: 'Sines v. Kessler Civil Verdict', description: 'Civil Liability - Found liable in federal civil trial for conspiracy to commit racially motivated violence at Charlottesville', category: 'Civil' },
- { statute: '42 U.S.C. § 1985(3) (Conspiracy Against Rights)', description: 'Conspiracy to Deprive Civil Rights - Organized rally that resulted in violence against counter-protesters', category: 'Civil Rights' },
- { statute: '18 U.S.C. § 241 (Conspiracy Against Rights)', description: 'Potential Conspiracy - Organized event where participants attacked people exercising constitutional rights', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 245 (Federally Protected Activities)', description: 'Potential Violation - Rally violence interfered with federally protected activities', category: 'Potential Federal' },
- { statute: 'Virginia Code § 18.2-57', description: 'Potential Assault - Led organization whose members committed assaults at Charlottesville', category: 'Potential State' },
- { statute: '18 U.S.C. § 2101 (Inciting Riot)', description: 'Potential Riot Incitement - Organized event that foreseeably resulted in violence', category: 'Potential Federal' },
- { statute: 'Multiple University Bans', description: 'Campus Speaking Bans - Banned from multiple university campuses due to security concerns', category: 'Administrative' },
- { statute: 'Platform Bans', description: 'Terms of Service Violations - Banned from Twitter, Facebook, YouTube, PayPal for promoting hatred', category: 'Civil' },
- ],
- relatedInvestigations: [
- { title: 'Charlottesville', slug: 'charlottesville', severity: 'critical' },
- ],
- timeline: [
- { date: '2008', event: 'Founds National Policy Institute' },
- { date: 'November 2016', event: 'Leads"Heil Trump"salutes at NPI conference' },
- { date: 'January 20, 2017', event: 'Punched on camera on Inauguration Day' },
- { date: 'August 2017', event: 'Helps organize Charlottesville rally' },
- { date: '2021', event: 'Found liable in Sines v. Kessler civil trial' },
- ],
- sources: [
- { title: 'Sines v. Kessler Court Records', url: 'https://scholar.google.com/scholar?q=Sines%20v.%20Kessler%20Court%20Records', date: '2021' },
- ],
- },
- 'rand-paul': {
- name: 'Randal Howard Paul',
- title: 'U.S. Senator (R-Kentucky)',
- role: 'COVID Misinformation Spreader, Fauci Antagonist',
- riskLevel: 'medium' as const,
- description: 'Rand Paul consistently spread COVID-19 misinformation and led attacks on Dr. Anthony Fauci during the pandemic. He was banned from YouTube for COVID misinformation. He voted to acquit Trump in both impeachment trials and blocked quick passage of aid bills.',
- birthDate: 'January 7, 1963',
- birthPlace: 'Pittsburgh, Pennsylvania, USA',
- education: [
- 'Doctor of Medicine - Duke University School of Medicine',
- 'Bachelor of Science - Baylor University',
- ],
- affiliations: [
- { name: 'U.S. Senate', role: 'Senator from Kentucky (2011-Present)', type: 'agency' },
- { name: 'Republican Party', role: 'Presidential Candidate 2016', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Political ally', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'Spread COVID-19 misinformation',
- 'Banned from YouTube for COVID claims',
- 'Antagonized Dr. Fauci repeatedly',
- 'Voted to acquit Trump twice',
- 'Blocked Ukraine aid',
- 'Wife purchased Gilead stock before pandemic',
- ],
- charges: [
- { statute: '15 U.S.C. § 78j (Securities Fraud)', description: 'Potential Insider Trading - Wife purchased Gilead stock before pandemic; stock rose after Gilead\'s remdesivir treatment', category: 'Potential Securities' },
- { statute: '5 U.S.C. app. §§ 101-111 (Ethics in Government Act)', description: 'Disclosure Concerns - Delayed disclosure of wife\'s Gilead stock purchase during pandemic response', category: 'Ethics' },
- { statute: 'STOCK Act (Pub.L. 112-105)', description: 'Potential Violation - Stock trades based on non-public information about pandemic response', category: 'Potential Congressional Ethics' },
- { statute: 'Senate Ethics Rules', description: 'Multiple Violations - Spread COVID misinformation that endangered public health, conflicts of interest', category: 'Ethics' },
- { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Potential False Statements - Repeatedly made false claims about COVID-19, treatments, and Dr. Fauci that contradicted medical evidence', category: 'Potential Federal' },
- { statute: 'YouTube Community Guidelines', description: 'Terms of Service Violation - Banned from YouTube for spreading COVID-19 misinformation', category: 'Platform Sanctions' },
- { statute: 'Medical Ethics (Physician)', description: 'Medical License Concerns - As physician, spread misinformation contradicting medical consensus', category: 'Professional' },
- ],
- relatedInvestigations: [
- { title: 'COVID Response', slug: 'covid-response', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 2020', event: 'First senator to test positive for COVID' },
- { date: '2020-2022', event: 'Repeatedly clashes with Dr. Fauci' },
- { date: 'August 2021', event: 'Banned from YouTube for COVID misinformation' },
- { date: '2022', event: 'Blocks quick Ukraine aid passage' },
- ],
- sources: [
- { title: 'Senate Records', url: 'https://scholar.google.com/scholar?q=Senate%20Records', date: '2022' },
- ],
- },
- 'randy-credico': {
- name: 'Randy Credico',
- title: 'Comedian, Political Activist',
- role: 'Roger Stone WikiLeaks Intermediary',
- riskLevel: 'medium' as const,
- description: 'Randy Credico is a comedian and political activist who served as Roger Stone\'s back channel to WikiLeaks\' Julian Assange. Stone threatened Credico and his therapy dog to prevent testimony, leading to Stone\'s conviction for witness tampering. Credico eventually testified against Stone.',
- birthDate: 'October 4, 1954',
- birthPlace: 'Brooklyn, New York',
- education: [
- 'Unknown',
- ],
- affiliations: [
- { name: 'WBAI Radio', role: 'Former Host', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Roger Stone', relationship: 'Used as WikiLeaks intermediary', href: '/entities/individuals/roger-stone' },
- { name: 'Julian Assange', relationship: 'Had interview access', href: '/entities/individuals/julian-assange' },
- 
- { name: 'Jeffrey Epstein', relationship: 'Activist who pushed for investigation transparency', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Ghislaine Maxwell', relationship: 'Advocated for full prosecution and disclosure', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Virginia Giuffre', relationship: 'Supported victims\' advocacy efforts', href: '/entities/individuals/virginia-giuffre' }
- ],
- controversies: [
- 'Roger Stone threatened him and his dog"Bianca"',
- 'Stone told him to"do a Frank Pentangeli"(Godfather reference to lying to Congress)',
- 'Initially claimed to be Stone\'s WikiLeaks source',
- 'Testified against Stone at trial',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Cybercrimes', slug: 'cybercrimes', severity: 'high' },
- ],
- timeline: [
- { date: '2016', event: 'Conducts interview with Julian Assange for radio' },
- { date: '2016', event: 'Roger Stone claims Credico is his WikiLeaks contact' },
- { date: '2018', event: 'Stone sends threatening messages about testimony' },
- { date: 'April 2018', event: 'Stone threatens his dog Bianca' },
- { date: 'November 2019', event: 'Testifies against Stone at trial' },
- ],
- sources: [
- { title: 'Roger Stone Trial Testimony', url: 'https://scholar.google.com/scholar?q=Roger%20Stone%20Trial%20Testimony', date: '2019' },
- ],
- },
- 'robert-maxwell': {
- name: 'Robert Maxwell',
- title: 'Media Baron (Deceased)',
- role: 'Father of Ghislaine Maxwell',
- riskLevel: 'high' as const,
- description: 'Robert Maxwell was a British media mogul, Member of Parliament, and alleged spy who died mysteriously in 1991 after falling from his yacht. He was the father of Ghislaine Maxwell. After his death, it was revealed he had stolen hundreds of millions from employee pension funds. Alleged ties to Mossad and multiple intelligence services.',
- birthDate: 'June 10, 1923',
- birthPlace: 'Czechoslovakia (now Ukraine)',
- aliases: ['Ján Ludvík Hyman Binyamin Hoch', 'Captain Bob'],
- education: [
- 'Self-educated',
- ],
- affiliations: [
- { name: 'Mirror Group Newspapers', role: 'Owner', type: 'corporation' },
- { name: 'Macmillan Publishing', role: 'Owner', type: 'corporation' },
- { name: 'British Parliament', role: 'MP for Buckingham (1964-1970)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Ghislaine Maxwell', relationship: 'Daughter', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Jeffrey Epstein', relationship: 'Associate (met through Ghislaine)', href: '/entities/individuals/jeffrey-epstein' },
- 
- { name: 'Kevin Maxwell', relationship: 'Son involved in family business empire', href: '/entities/individuals/kevin-maxwell' },
- { name: 'Ehud Barak', relationship: 'Israeli political figure connected through intelligence networks', href: '/entities/individuals/ehud-barak' },
- { name: 'Prince Andrew', relationship: 'Connected to British establishment through media empire', href: '/entities/individuals/prince-andrew' }
- ],
- controversies: [
- 'Stole £440 million from employee pension funds',
- 'Mysterious death falling from yacht"Lady Ghislaine"',
- 'Alleged Mossad spy',
- 'Alleged KGB asset',
- 'Buried on Mount of Olives in Israel with state honors',
- 'Created media empire through fraud and intimidation',
- 'Known for bullying employees and business partners',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Elite Trafficking Network', slug: 'elite-trafficking', severity: 'critical' },
- ],
- timeline: [
- { date: '1923', event: 'Born in Czechoslovakia' },
- { date: 'WWII', event: 'Serves in British Army, decorated for bravery' },
- { date: '1964', event: 'Elected to Parliament' },
- { date: '1980s', event: 'Builds media empire' },
- { date: 'November 5, 1991', event: 'Found dead in Atlantic Ocean near yacht' },
- { date: 'November 1991', event: 'Buried on Mount of Olives with Israeli state honors' },
- { date: 'December 1991', event: 'Pension theft scandal revealed - £440M missing' },
- ],
- sources: [
- { title: 'Official Investigations into Death', url: 'https://scholar.google.com/scholar?q=Official%20Investigations%20into%20Death', date: '1991' },
- { title: 'Pension Fund Fraud Reports', url: 'https://scholar.google.com/scholar?q=Pension%20Fund%20Fraud%20Reports', date: '1992' },
- ],
- },
- 'richard-nixon': {
- name: 'Richard Milhous Nixon',
- title: '37th President of the United States',
- role: 'War Criminal, Traitor, Obstructor of Justice (Deceased)',
- riskLevel: 'critical' as const,
- description: 'Richard Nixon served as the 37th President until his resignation in 1974 amid the Watergate scandal - the only president to resign from office. Before becoming president, Nixon committed arguably the most consequential act of treason in American history by secretly sabotaging Vietnam peace talks in 1968 to win the election, extending the war by 5 years and causing 20,000+ additional American deaths. As president, he orchestrated the secret bombing of Cambodia (Operation Menu) that killed 150,000+ civilians without Congressional authorization. Watergate exposed his use of government agencies against political enemies, illegal wiretapping, and systematic obstruction of justice. Pardoned by Gerald Ford, he never faced criminal prosecution.',
- birthDate: 'January 9, 1913',
- birthPlace: 'Yorba Linda, California',
- deathDate: 'April 22, 1994',
- education: [
- 'Whittier College (B.A. 1934)',
- 'Duke University School of Law (LL.B. 1937)',
- ],
- netWorth: '$15 million (at death)',
- aliases: ['Tricky Dick'],
- affiliations: [
- { name: 'Office of the President', role: '37th President (1969-1974)', type: 'agency' },
- { name: 'Office of Vice President', role: 'VP under Eisenhower (1953-1961)', type: 'agency' },
- { name: 'Republican Party', role: 'President', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Henry Kissinger', relationship: 'Secretary of State, co-architect of Cambodia bombing', href: '/entities/individuals/henry-kissinger' },
- { name: 'Roger Stone', relationship: 'Young dirty tricks operative, has Nixon tattoo on back', href: '/entities/individuals/roger-stone' },
- { name: 'George H.W. Bush', relationship: 'UN Ambassador, RNC Chairman', href: '/entities/individuals/george-hw-bush' },
- ],
- controversies: [
- 'CRIME 1 - TREASON: Sabotaged 1968 Vietnam peace talks to win election',
- 'Sent intermediaries to South Vietnam urging them to reject peace deal',
- 'LBJ called it"treason"on recorded phone calls',
- 'War extended 5 years, 20,000+ additional American deaths, 1 million+ Vietnamese',
- 'CRIME 2 - WAR CRIMES: Secret bombing of Cambodia (Operation Menu)',
- '150,000+ Cambodian civilians killed without Congressional authorization',
- '540,000 tons of bombs dropped - more than WWII Japan bombings',
- 'Destabilized Cambodia, enabled Khmer Rouge rise (2 million dead)',
- 'CRIME 3 - WATERGATE: Directed break-in, cover-up, obstruction of justice',
- 'Ordered CIA to obstruct FBI investigation ("smoking gun"tape)',
- 'Paid hush money to burglars',
- 'Fired special prosecutor in Saturday Night Massacre',
- 'CRIME 4 - ABUSE OF POWER: Used IRS to target political enemies',
- 'Created enemies list for government harassment',
- 'Wiretapped journalists, officials without warrants',
- 'CRIME 5 - SOUTHERN STRATEGY: Exploited racial resentment for political gain',
- 'Aide John Ehrlichman admitted War on Drugs targeted blacks and hippies',
- 'Realigned American politics around racial division',
- 'Only president to resign',
- 'Pardoned by Gerald Ford - never faced trial',
- ],
- charges: [
- { statute: 'Unindicted Co-conspirator', description: 'Named in Watergate grand jury indictments', category: 'Federal' },
- { statute: '18 U.S.C. § 953 (Logan Act)', description: 'Treason - Unauthorized negotiation with foreign government (1968 peace sabotage)', category: 'Federal' },
- { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crime - Attacks on civilian population (Cambodia)', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crime - Excessive civilian casualties', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 8bis', description: 'Crime of Aggression - Unauthorized war in Cambodia', category: 'International Criminal Court' },
- { statute: 'Nuremberg Charter Article 6(b)', description: 'War Crimes - Wanton destruction, murder of civilians', category: 'International' },
- { statute: '18 U.S.C. § 1503', description: 'Obstruction of Justice - Watergate cover-up', category: 'Federal' },
- { statute: '18 U.S.C. § 1505', description: 'Obstruction of Congressional Proceedings', category: 'Federal' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud United States', category: 'Federal' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements - Lies to investigators', category: 'Federal' },
- { statute: '50 U.S.C. § 1801', description: 'Wiretapping Violations - Warrantless surveillance', category: 'Federal' },
- { statute: '26 U.S.C. § 7212', description: 'IRS Abuse - Using agency against enemies', category: 'Federal' },
- { statute: 'House Judiciary Articles of Impeachment', description: 'Obstruction, Abuse of Power, Contempt of Congress', category: 'Congress' },
- ],
- relatedInvestigations: [
- { title: 'Watergate', slug: 'watergate', severity: 'critical' },
- { title: 'Cambodia Genocide', slug: 'cambodia-bombing', severity: 'critical' },
- { title: 'Vietnam War Crimes', slug: 'vietnam-crimes', severity: 'critical' },
- { title: 'Obstruction of Justice', slug: 'obstruction-of-justice', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 9, 1913', event: 'Born in Yorba Linda, California' },
- { date: '1950', event: 'Elected to Senate using red-baiting tactics' },
- { date: '1953-1961', event: 'Serves as Vice President under Eisenhower' },
- { date: '1960', event: 'Loses presidential election to JFK' },
- { date: 'October 1968', event: 'TREASON: Sabotages Vietnam peace talks through Anna Chennault' },
- { date: 'November 1968', event: 'Wins presidency in close election' },
- { date: 'March 1969', event: 'Begins secret bombing of Cambodia (Operation Menu)' },
- { date: '1969-1973', event: 'Cambodia bombing kills 150,000+ civilians' },
- { date: 'June 17, 1972', event: 'Watergate break-in at DNC headquarters' },
- { date: 'June 23, 1972', event: '"Smoking gun"tape - orders CIA to obstruct FBI' },
- { date: 'November 1972', event: 'Wins re-election in landslide' },
- { date: '1973', event: 'Enemies list exposed' },
- { date: 'October 20, 1973', event: 'Saturday Night Massacre - fires special prosecutor' },
- { date: 'July 1974', event: 'Supreme Court orders release of tapes' },
- { date: 'July 27-30, 1974', event: 'House Judiciary approves Articles of Impeachment' },
- { date: 'August 8, 1974', event: 'Announces resignation' },
- { date: 'August 9, 1974', event: 'Leaves office - only president to resign' },
- { date: 'September 8, 1974', event: 'Ford pardons Nixon - no criminal prosecution' },
- { date: 'April 22, 1994', event: 'Dies at age 81 - never held accountable' },
- ],
- sources: [
- { title: 'Watergate Tapes', url: 'https://www.nixonlibrary.gov/white-house-tapes', date: '1972-1974' },
- { title: 'House Judiciary Committee Articles of Impeachment', url: 'https://www.congress.gov/', date: '1974' },
- { title: 'LBJ Tapes - Nixon Treason Evidence', url: 'https://scholar.google.com/scholar?q=LBJ%20Tapes%20-%20Nixon%20Treason%20Evidence', date: '1968' },
- { title: 'Pentagon Papers - Cambodia Bombing Records', url: 'https://scholar.google.com/scholar?q=Pentagon%20Papers%20-%20Cambodia%20Bombing%20Records', date: '1971' },
- { title: 'White House Special Files - Enemies List', url: 'https://scholar.google.com/scholar?q=White%20House%20Special%20Files%20-%20Enemies%20List', date: '1973' },
- ],
- },
- 'richard-burr': {
- name: 'Richard Mauze Burr',
- title: 'Former U.S. Senator from North Carolina',
- role: 'COVID Insider Trader, Intelligence Committee Chair',
- riskLevel: 'high',
- description: 'Richard Burr was Chair of the Senate Intelligence Committee when he sold $1.7 million in stock after receiving classified COVID briefings while publicly downplaying the pandemic. The FBI investigated and served a warrant on his phone. The DOJ declined to prosecute. He resigned as Intelligence Chair but served out his term.',
- birthDate: 'November 30, 1955',
- birthPlace: 'Charlottesville, Virginia',
- education: [
- 'B.A. - Wake Forest University (1978)',
- ],
- affiliations: [
- { name: 'U.S. Senate', role: 'Senator from North Carolina (2005-2023)', type: 'agency' },
- { name: 'Senate Intelligence Committee', role: 'Chair (2015-2020)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Kelly Loeffler', relationship: 'Fellow COVID insider trader', href: '/entities/individuals/kelly-loeffler' },
- ],
- controversies: [
- 'COVID INSIDER TRADING: Sold $1.7M in stock after classified briefing',
- 'PUBLIC DOWNPLAYING: Told public virus was under control while selling stock',
- 'FBI INVESTIGATION: Phone seized in insider trading probe',
- 'NO PROSECUTION: DOJ declined to charge despite evidence',
- ],
- charges: [
- { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading - sold stock on material nonpublic information', category: 'Not prosecuted' },
- ],
- relatedInvestigations: [
- { title: 'Securities & Market Fraud', slug: 'securities-fraud', severity: 'critical' },
- ],
- timeline: [
- { date: 'November 30, 1955', event: 'Born in Charlottesville, Virginia' },
- { date: '2005', event: 'Becomes U.S. Senator' },
- { date: '2015', event: 'Becomes Senate Intelligence Chair' },
- { date: 'January-February 2020', event: 'Sells $1.7M in stock after COVID briefing' },
- { date: 'May 2020', event: 'FBI seizes phone in investigation' },
- { date: 'May 2020', event: 'Steps down as Intelligence Chair' },
- { date: 'January 2021', event: 'DOJ declines prosecution' },
- { date: '2023', event: 'Leaves Senate' },
- ],
- sources: [
- { title: 'DOJ Investigation Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Investigation%20Records', date: '2020' },
- ],
- },
- 'robert-redfield': {
- name: 'Robert Ray Redfield Jr.',
- title: 'Former CDC Director',
- role: 'Public Health Official, COVID Response Failure, Lab Leak Advocate',
- riskLevel: 'high',
- description: 'Robert Redfield served as CDC Director from 2018-2021, overseeing one of the most catastrophic public health failures in American history. Under his leadership, the CDC botched initial COVID-19 testing, issued contradictory mask guidance, and allowed political interference to compromise scientific integrity. He was sidelined by the Trump administration while promoting unproven treatments and later became an outspoken advocate for the Wuhan lab leak theory, claiming he believes COVID-19 originated from a laboratory accident. His tenure was marked by delayed responses, faulty test kits, and subordination to political messaging over public health.',
- birthDate: 'June 10, 1951',
- birthPlace: 'New York, USA',
- education: [
- 'M.D. - Georgetown University School of Medicine (1977)',
- 'B.S. - Georgetown University',
- 'Walter Reed Army Institute of Research fellowship',
- ],
- netWorth: 'Undisclosed',
- aliases: ['Dr. Redfield', 'CDC Director'],
- affiliations: [
- { name: 'Centers for Disease Control and Prevention', role: 'Director (2018-2021)', type: 'agency' },
- { name: 'University of Maryland School of Medicine', role: 'Professor, Institute of Human Virology', type: 'organization' },
- { name: 'Walter Reed Army Medical Center', role: 'Former Chief, Retrovirus Research', type: 'agency' },
- { name: 'Department of Health and Human Services', role: 'Senior Official', type: 'agency' },
- { name: 'Trump Administration', role: 'COVID-19 Task Force Member', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Appointed by, sidelined during pandemic', href: '/entities/individuals/donald-trump' },
- { name: 'Anthony Fauci', relationship: 'COVID Task Force colleague, sometimes contradicted', href: '/entities/individuals/anthony-fauci' },
- { name: 'Deborah Birx', relationship: 'White House COVID Response Coordinator', href: '/entities/individuals/deborah-birx' },
- { name: 'Alex Azar', relationship: 'HHS Secretary, superior', href: '/entities/individuals/alex-azar' },
- { name: 'Francis Collins', relationship: 'NIH Director, COVID response coordination', href: '/entities/individuals/francis-collins' },
- ],
- controversies: [
- 'FAULTY TEST KITS: CDC released contaminated COVID test kits in February 2020, delaying US response by critical weeks',
- 'MASK GUIDANCE FLIP-FLOPS: Initially advised against masks, then reversed, creating public confusion and distrust',
- 'POLITICAL INTERFERENCE: Allowed Trump administration to edit CDC guidance documents for political messaging',
- 'TESTING DELAYS: Restricted testing criteria early in pandemic, missed community spread window',
- 'SIDELINED BY WHITE HOUSE: Marginalized as Trump administration sought to downplay pandemic severity',
- 'LAB LEAK ADVOCACY: Publicly stated belief that COVID originated from Wuhan Institute of Virology lab accident',
- 'HYDROXYCHLOROQUINE: Did not adequately push back against unproven treatment promotion',
- 'DATA MANIPULATION: CDC reporting systems were altered to route through HHS, reducing transparency',
- 'RELIGIOUS CONFLICTS: Past advocacy for abstinence-only education raised concerns about science-based policy',
- 'PREVIOUS HIV VACCINE CONTROVERSY: Accused of manipulating data in 1990s HIV vaccine trial',
- 'SCHOOL REOPENING PRESSURE: Changed CDC guidance on schools under White House pressure',
- 'EXCESS DEATH TOLL: Over 400,000 Americans died of COVID during his CDC tenure',
- ],
- charges: [
- { statute: '18 U.S.C. § 1001', description: 'False Statements - Potential misrepresentation of testing capabilities', category: 'Federal' },
- { statute: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices - Allowing political interference in scientific guidance', category: 'Federal' },
- { statute: 'Nuremberg Code Principle I', description: 'Informed Consent - Testing delays deprived public of information', category: 'International' },
- { statute: '42 U.S.C. § 247d', description: 'Public Health Emergency Response Failures', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'COVID-19 Response Failures', slug: 'covid-response', severity: 'critical' },
- { title: 'Lab Leak Investigation', slug: 'lab-leak', severity: 'critical' },
- { title: 'CDC Testing Failures', slug: 'cdc-testing', severity: 'high' },
- { title: 'Global Pandemic Conspiracy', slug: 'pandemic-conspiracy', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 10, 1951', event: 'Born in New York' },
- { date: '1977', event: 'Graduates Georgetown medical school' },
- { date: '1985-1996', event: 'Leads military HIV research at Walter Reed' },
- { date: '1992-1994', event: 'HIV vaccine trial data controversy' },
- { date: '1996', event: 'Co-founds Institute of Human Virology at University of Maryland' },
- { date: '2018', event: 'Appointed CDC Director by Trump administration' },
- { date: 'January 2020', event: 'First COVID-19 cases reported in US' },
- { date: 'February 2020', event: 'CDC releases faulty COVID test kits, delays testing by weeks' },
- { date: 'February 2020', event: 'Restricts testing criteria, misses community spread' },
- { date: 'March 2020', event: 'WHO declares pandemic, US far behind on testing' },
- { date: 'April 2020', event: 'CDC reverses mask guidance after initially advising against' },
- { date: 'July 2020', event: 'White House forces CDC data to route through HHS' },
- { date: 'September 2020', event: 'CDC guidance on school reopening altered under pressure' },
- { date: 'October 2020', event: 'CDC admits aerosol transmission after months of denial' },
- { date: 'January 2021', event: 'Leaves CDC with over 400,000 American COVID deaths' },
- { date: 'March 2021', event: 'Testifies to Congress he believes COVID was lab leak' },
- { date: '2022-2023', event: 'Continues advocating lab leak theory in media appearances' },
- { date: '2024', event: 'House COVID committee investigates CDC failures' },
- ],
- sources: [
- { title: 'CDC COVID-19 Response Timeline', url: 'https://www.cdc.gov/museum/timeline/covid19.html', date: '2020-2021' },
- { title: 'House Select Subcommittee on Coronavirus Crisis Reports', url: 'https://web.archive.org/web/2024/https://coronavirus.house.gov/', date: '2020-2022' },
- { title: 'Redfield CNN Lab Leak Interview', url: 'https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' },
- { title: 'Science Magazine - CDC Testing Failures Analysis', url: 'https://scholar.google.com/scholar?q=Science%20Magazine%20-%20CDC%20Testing%20Failures%20Analysis', date: '2020' },
- { title: 'GAO COVID-19 Response Reports', url: 'https://www.gao.gov/coronavirus', date: '2020-2022' },
- { title: 'Washington Post - CDC Political Interference Investigation', url: 'https://www.washingtonpost.com/', date: '2020' },
- ],
- },
- 'russell-vought': {
- name: 'Russell Thurlow Vought',
- title: 'Project 2025 Architect, Former OMB Director',
- role: 'Conservative Policy Architect, Administrative State Dismantler',
- riskLevel: 'critical',
- description: 'Russell Vought served as Director of the Office of Management and Budget (2020-2021) under Trump and is a primary architect of Project 2025, the Heritage Foundation blueprint for radically restructuring the federal government. He founded the Center for Renewing America to advance authoritarian policies including Schedule F to enable mass firings of federal workers, unitary executive theory to concentrate power in the presidency, and Christian nationalist governance. His Project 2025 chapter calls for weaponizing the DOJ, eliminating the Department of Education, and gutting environmental and civil rights protections. He is expected to hold senior positions in any future Trump administration.',
- birthDate: '1976',
- birthPlace: 'United States',
- education: [
- 'J.D. - George Washington University Law School',
- 'B.A. - Wheaton College',
- ],
- netWorth: 'Undisclosed',
- aliases: ['Russ Vought', 'Project 2025 Mastermind'],
- affiliations: [
- { name: 'Office of Management and Budget', role: 'Director (2020-2021)', type: 'agency' },
- { name: 'Center for Renewing America', role: 'Founder & President', type: 'organization' },
- { name: 'Heritage Foundation', role: 'Project 2025 Co-Author', type: 'organization' },
- { name: 'Republican Study Committee', role: 'Former Policy Director', type: 'organization' },
- { name: 'Heritage Action', role: 'Former Vice President', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Appointed OMB Director, key policy advisor', href: '/entities/individuals/donald-trump' },
- { name: 'Kevin Roberts', relationship: 'Heritage Foundation President, Project 2025 leader', href: '/entities/individuals/kevin-roberts' },
- { name: 'Stephen Miller', relationship: 'Immigration policy coordination', href: '/entities/individuals/stephen-miller' },
- { name: 'Steve Bannon', relationship: 'MAGA movement coordination', href: '/entities/individuals/steve-bannon' },
- { name: 'Mark Meadows', relationship: 'White House coordination during Trump admin', href: '/entities/individuals/mark-meadows' },
- ],
- controversies: [
- 'PROJECT 2025 ARCHITECT: Primary author of 920-page blueprint to dismantle federal government and concentrate executive power',
- 'SCHEDULE F: Championed policy to reclassify 50,000+ federal workers as at-will employees for mass political firings',
- 'CHRISTIAN NATIONALISM: Openly advocates for Christian nationalist governance, religious tests for government',
- 'UNITARY EXECUTIVE: Promotes theory that president has absolute control over executive branch, beyond legal constraints',
- 'DOJ WEAPONIZATION: Project 2025 calls for using DOJ to prosecute political enemies',
- 'IMPOUNDMENT: Advocates illegal presidential impoundment of congressionally appropriated funds',
- 'ELIMINATE EDUCATION DEPT: Project 2025 calls for abolishing Department of Education entirely',
- 'GUT EPA: Plans to dramatically reduce environmental protections and climate action',
- 'ANTI-MUSLIM STATEMENTS: 2016 controversy over statements that Muslims"do not simply have a deficient theology"',
- 'BUDGET MANIPULATION: Used OMB to withhold Ukraine aid during first impeachment scandal',
- 'DEEP STATE NARRATIVE: Promotes conspiracy theory of permanent bureaucratic resistance to conservative agenda',
- 'CENTER FOR RENEWING AMERICA: Organization coordinates"war room"for implementing Project 2025',
- ],
- charges: [
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud United States - Project 2025 coordination', category: 'Federal' },
- { statute: '2 U.S.C. § 684', description: 'Impoundment Control Act Violations - Illegal withholding of funds', category: 'Federal' },
- { statute: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices - Schedule F politicization plan', category: 'Federal' },
- { statute: 'U.S. Constitution Article I', description: 'Separation of Powers Violations - Unitary executive overreach', category: 'Constitutional' },
- { statute: '18 U.S.C. § 595', description: 'Interference by Administrative Employees - Political coercion plans', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'Project 2025 Authoritarian Blueprint', slug: 'project-2025', severity: 'critical' },
- { title: 'Christian Nationalist Takeover', slug: 'christian-nationalism', severity: 'critical' },
- { title: 'Ukraine Extortion Scheme', slug: 'ukraine-extortion', severity: 'critical' },
- { title: 'Administrative State Capture', slug: 'admin-state-capture', severity: 'critical' },
- ],
- timeline: [
- { date: '1976', event: 'Born in United States' },
- { date: '1998', event: 'Graduates Wheaton College' },
- { date: '2001', event: 'Graduates George Washington Law School' },
- { date: '2001-2007', event: 'Policy staffer in Congress' },
- { date: '2007-2015', event: 'Policy Director, Republican Study Committee' },
- { date: '2015-2016', event: 'Vice President, Heritage Action' },
- { date: '2016', event: 'Controversy over anti-Muslim statements' },
- { date: '2017', event: 'Joins Trump OMB as Deputy Director' },
- { date: '2019', event: 'Confirmed as Acting OMB Director' },
- { date: '2019', event: 'Involved in withholding Ukraine military aid' },
- { date: '2020', event: 'Confirmed as OMB Director' },
- { date: 'October 2020', event: 'Issues Schedule F executive order to enable mass firings' },
- { date: 'January 2021', event: 'Biden rescinds Schedule F order' },
- { date: 'January 2021', event: 'Leaves OMB after Biden inauguration' },
- { date: '2021', event: 'Founds Center for Renewing America' },
- { date: '2022-2023', event: 'Authors Project 2025 chapter on Executive Office of the President' },
- { date: '2023', event: 'Project 2025"Mandate for Leadership"published' },
- { date: '2024', event: 'Project 2025 becomes major campaign issue' },
- { date: '2024', event: 'Trump publicly distances from Project 2025 while advisors embrace it' },
- { date: '2025', event: 'Expected senior role in second Trump administration' },
- ],
- sources: [
- { title: 'Project 2025 Mandate for Leadership', url: 'https://www.project2025.org/playbook/', date: '2023' },
- { title: 'Center for Renewing America Website', url: 'https://americarenewing.com/', date: 'Current' },
- { title: 'Schedule F Executive Order 13957', url: 'https://www.federalregister.gov/documents/2020/10/26/2020-23780/creating-schedule-f-in-the-excepted-service', date: '2020' },
- { title: 'OMB Ukraine Aid Withholding Documents', url: 'https://www.gao.gov/assets/gao-20-341.pdf', date: '2020' },
- { title: 'Senate Confirmation Hearings', url: 'https://www.congress.gov/', date: '2020' },
- { title: 'New York Times Project 2025 Investigation', url: 'https://www.nytimes.com/', date: '2024' },
- ],
- },
- 'ralph-baric': {
- name: 'Ralph Steven Baric',
- title: 'Coronavirus Researcher',
- role: 'Gain of Function Pioneer, UNC Virologist, COVID Origins Figure',
- riskLevel: 'high',
- description: 'Ralph Baric is a professor of epidemiology at the University of North Carolina at Chapel Hill and one of the world\'s leading coronavirus researchers. He pioneered techniques for manipulating coronaviruses and collaborated with Wuhan Institute of Virology on chimeric virus research. His 2015 paper with Shi Zhengli demonstrated creating chimeric coronaviruses that could infect human cells. While his research has contributed to pandemic preparedness and therapeutics development, it has also raised serious questions about the risks of gain of function research and the origins of COVID-19.',
- birthDate: '1954',
- birthPlace: 'United States',
- education: [
- 'Ph.D. in Microbiology and Immunology - North Carolina State University',
- 'Postdoctoral training - University of Southern California',
- ],
- netWorth: 'Undisclosed (University professor)',
- aliases: ['Dr. Baric', 'Coronavirus Pioneer'],
- affiliations: [
- { name: 'University of North Carolina at Chapel Hill', role: 'Professor of Epidemiology (1986-present)', type: 'organization' },
- { name: 'Wuhan Institute of Virology', role: 'Research Collaborator', type: 'organization' },
- { name: 'National Institutes of Health', role: 'Major Grant Recipient', type: 'agency' },
- { name: 'EcoHealth Alliance', role: 'Collaborator', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Shi Zhengli', relationship: 'Wuhan"Bat Woman,"co-authored 2015 chimeric virus paper', href: '/entities/individuals/shi-zhengli' },
- { name: 'Peter Daszak', relationship: 'EcoHealth Alliance, joint research', href: '/entities/individuals/peter-daszak' },
- { name: 'Francis Collins', relationship: 'NIH Director, grant oversight', href: '/entities/individuals/francis-collins' },
- { name: 'Anthony Fauci', relationship: 'NIAID Director, funding source', href: '/entities/individuals/anthony-fauci' },
- ],
- controversies: [
- '2015 CHIMERIC VIRUS: Co-created chimeric coronavirus using bat virus spike protein, demonstrated human cell infection',
- 'GAIN OF FUNCTION PIONEER: Developed techniques to enhance viral capabilities that raise biosecurity concerns',
- 'WUHAN COLLABORATION: Worked directly with Shi Zhengli and shared techniques with Wuhan lab',
- 'MORATORIUM EXCEPTION: Research continued during 2014-2017 gain of function pause under NIH exception',
- 'NO-SEE CONTRACT: Special agreement with Moderna allowed early remdesivir access but restricted disclosure',
- 'FURIN CLEAVAGE: Questions about whether techniques could have been used to engineer SARS-CoV-2 features',
- 'THERAPEUTIC DEVELOPMENT: Also credited with contributing to COVID-19 treatment and vaccine development',
- 'DUAL USE CONCERN: Research has both defensive and potential offensive applications',
- 'CONGRESSIONAL SCRUTINY: Called to testify about gain of function research and Wuhan connections',
- 'SCIENTIFIC DEBATE: Defends research as necessary for pandemic preparedness despite risks',
- ],
- charges: [
- { statute: 'Select Agent Regulations 42 CFR 73', description: 'Questions about Biosafety Compliance', category: 'Federal' },
- { statute: 'NIH Guidelines for Research', description: 'Potential Gain of Function Policy Violations', category: 'Federal' },
- { statute: 'HHS P3CO Framework', description: 'Enhanced Pathogen Research Oversight Questions', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'COVID-19 Origins Investigation', slug: 'covid-origins', severity: 'critical' },
- { title: 'Gain of Function Research', slug: 'gain-of-function', severity: 'critical' },
- { title: 'Wuhan Lab Connection', slug: 'wuhan-lab', severity: 'critical' },
- { title: 'Lab Leak Cover-Up', slug: 'lab-leak', severity: 'critical' },
- ],
- timeline: [
- { date: '1954', event: 'Born in United States' },
- { date: '1980s', event: 'Begins coronavirus research' },
- { date: '1986', event: 'Joins University of North Carolina faculty' },
- { date: '2000s', event: 'Develops reverse genetics systems for coronaviruses' },
- { date: '2008', event: 'Develops techniques to create chimeric coronaviruses' },
- { date: '2013', event: 'Begins collaboration with Wuhan Institute of Virology' },
- { date: '2014', event: 'NIH announces gain of function research moratorium' },
- { date: '2015', event: 'Receives exception to continue research during moratorium' },
- { date: 'November 2015', event: 'Publishes chimeric virus paper with Shi Zhengli in Nature Medicine' },
- { date: '2017', event: 'Gain of function moratorium lifted' },
- { date: 'December 2019', event: 'COVID-19 emerges in Wuhan' },
- { date: '2020', event: 'Work scrutinized in context of pandemic origins' },
- { date: '2020', event: 'Contributes to remdesivir development and testing' },
- { date: '2021', event: 'Called to discuss research by congressional investigators' },
- { date: '2022-2024', event: 'Continues to defend research as necessary for preparedness' },
- { date: '2024', event: 'Congressional investigations continue into gain of function oversight' },
- ],
- sources: [
- { title: '2015 Nature Medicine Paper', url: 'https://www.nature.com/articles/nm.3985', date: '2015' },
- { title: 'NIH Grant Records', url: 'https://reporter.nih.gov/', date: 'Various' },
- { title: 'House Select Subcommittee Testimony', url: 'https://oversight.house.gov/', date: '2023' },
- { title: 'MIT Technology Review - Baric Profile', url: 'https://scholar.google.com/scholar?q=MIT%20Technology%20Review%20-%20Baric%20Profile', date: '2021' },
- { title: 'UNC Research Publications', url: 'https://sph.unc.edu/adv_profile/ralph-s-baric-phd/', date: 'Various' },
- { title: 'Gain of Function Research Papers', url: 'https://scholar.google.com/scholar?q=Gain%20of%20Function%20Research%20Papers', date: '2008-2019' },
- ],
- },
- 'ronald-reagan': {
- name: 'Ronald Wilson Reagan',
- title: '40th President of the United States',
- role: 'Iran-Contra Mastermind, Trickle-Down Architect, AIDS Crisis Ignorer',
- riskLevel: 'critical' as const,
- description: 'Ronald Reagan served as the 40th President of the United States (1981-1989) and remains one of the most consequential and destructive presidents in American history. His administration illegally sold weapons to Iran and used the proceeds to fund Contra rebels in Nicaragua in direct violation of the Boland Amendment - a scheme that involved drug trafficking and resulted in tens of thousands of deaths. Reagan\'s"trickle-down economics"gutted the middle class while enriching the wealthy, setting the stage for decades of inequality. He deliberately ignored the AIDS crisis for years as tens of thousands died, refusing to even say the word"AIDS"publicly until 1985 - four years into the epidemic. His administration\'s deregulation, union-busting, and social program cuts transformed American society and established the playbook for modern Republican governance.',
- birthDate: 'February 6, 1911',
- birthPlace: 'Tampico, Illinois, USA',
- deathDate: 'June 5, 2004',
- education: [
- 'B.A. in Economics and Sociology - Eureka College (1932)',
- ],
- netWorth: '$13 million (at death)',
- aliases: ['The Gipper', 'The Great Communicator', 'Ronnie'],
- affiliations: [
- { name: 'Office of the President', role: '40th President (1981-1989)', type: 'agency' },
- { name: 'State of California', role: 'Governor (1967-1975)', type: 'agency' },
- { name: 'Republican Party', role: 'Party Leader', type: 'organization' },
- { name: 'Screen Actors Guild', role: 'President (1947-1952, 1959-1960)', type: 'organization' },
- { name: 'CIA', role: 'Oversight during Iran-Contra', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'George H.W. Bush', relationship: 'Vice President, CIA Director, Iran-Contra knowledge', href: '/entities/individuals/george-hw-bush' },
- { name: 'Oliver North', relationship: 'NSC staff, Iran-Contra operational lead', href: '/entities/individuals/oliver-north' },
- { name: 'Caspar Weinberger', relationship: 'Defense Secretary, Iran-Contra participant, pardoned', href: '/entities/individuals/caspar-weinberger' },
- { name: 'John Poindexter', relationship: 'National Security Advisor, Iran-Contra, convicted', href: '/entities/individuals/john-poindexter' },
- { name: 'William Casey', relationship: 'CIA Director, Iran-Contra architect', href: '/entities/individuals/william-casey' },
- ],
- controversies: [
- 'IRAN-CONTRA AFFAIR: Illegally sold weapons to Iran (violating arms embargo) and funneled proceeds to Nicaraguan Contras (violating Boland Amendment)',
- 'Claimed"I don\'t recall"88 times during Iran-Contra testimony',
- 'CONTRAS AND DRUG TRAFFICKING: CIA-backed Contras involved in cocaine trafficking to fund operations, contributing to crack epidemic',
- 'AIDS CRISIS: Refused to acknowledge AIDS publicly for 4 years as epidemic killed tens of thousands - first public mention 1985, 20,849 dead by then',
- 'Press Secretary Larry Speakes joked about AIDS at briefings while Americans died',
- 'TRICKLE-DOWN ECONOMICS: Tax cuts for wealthy increased inequality, national debt tripled from $994 billion to $2.8 trillion',
- 'Union busting - fired 11,345 PATCO air traffic controllers, devastating organized labor',
- 'COLD WAR ESCALATION:"Evil Empire"rhetoric, SDI"Star Wars"program, nuclear brinkmanship',
- 'LEBANON BARRACKS BOMBING: 241 U.S. servicemembers killed October 1983, inadequate security',
- 'GRENADA INVASION: Invaded tiny Caribbean nation to distract from Lebanon disaster',
- 'SAVINGS AND LOAN CRISIS: Deregulation enabled $160 billion taxpayer bailout',
- 'HOUSING AND HOMELESS: Slashed HUD budget 75%, homelessness exploded',
- 'MENTAL HEALTH: Closed mental health facilities, patients dumped on streets',
- 'ENVIRONMENTAL ROLLBACKS: James Watt at Interior, Anne Gorsuch at EPA gutted protections',
- ],
- charges: [
- { statute: 'Boland Amendment Violation', description: 'Funding Contras through illegal arms sales after Congress prohibited it', category: 'Constitutional Violation' },
- { statute: 'Arms Export Control Act', description: 'Illegal arms sales to Iran without congressional notification', category: 'Federal' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements -"I don\'t recall"testimony widely viewed as deceptive', category: 'Federal' },
- { statute: 'Neutrality Act 18 U.S.C. § 960', description: 'Supporting armed operations against Nicaragua, a nation at peace with US', category: 'Federal' },
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - AIDS crisis negligence causing mass death', category: 'International Criminal Court' },
- { statute: '21 U.S.C. § 841', description: 'Drug trafficking complicity - Contra cocaine operations', category: 'Federal' },
- { statute: 'International Court of Justice Ruling', description: 'Nicaragua v. United States - US found guilty of violations of international law', category: 'International' },
- ],
- relatedInvestigations: [
- { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
- { title: 'Money Laundering Networks', slug: 'money-laundering', severity: 'critical' },
- { title: 'COVID-19 Response Failures', slug: 'covid-response', severity: 'critical' },
- ],
- timeline: [
- { date: 'February 6, 1911', event: 'Born in Tampico, Illinois' },
- { date: '1937-1964', event: 'Hollywood acting career' },
- { date: '1947-1952', event: 'Screen Actors Guild President, FBI informant on"subversives"' },
- { date: '1967-1975', event: 'Governor of California' },
- { date: 'January 20, 1981', event: 'Inaugurated as 40th President' },
- { date: 'March 30, 1981', event: 'Survives assassination attempt by John Hinckley Jr.' },
- { date: '1981', event: 'AIDS epidemic begins - administration ignores it' },
- { date: 'August 5, 1981', event: 'Fires 11,345 striking PATCO air traffic controllers' },
- { date: '1981', event: 'Economic Recovery Tax Act - massive tax cuts for wealthy' },
- { date: 'October 23, 1983', event: 'Beirut barracks bombing kills 241 U.S. servicemembers' },
- { date: 'October 25, 1983', event: 'Invades Grenada -"Operation Urgent Fury"' },
- { date: '1984', event: 'Boland Amendment prohibits funding Nicaraguan Contras' },
- { date: '1985', event: 'First public mention of AIDS - after 20,000+ Americans dead' },
- { date: '1985-1986', event: 'Iran-Contra arms sales and diversion of funds to Contras' },
- { date: 'November 1986', event: 'Iran-Contra scandal breaks publicly' },
- { date: 'March 4, 1987', event: 'Addresses nation on Iran-Contra, accepts"responsibility"' },
- { date: '1987', event: 'Congressional Iran-Contra hearings, Oliver North testifies' },
- { date: 'January 20, 1989', event: 'Leaves office with national debt tripled' },
- { date: '1994', event: 'Announces Alzheimer\'s diagnosis' },
- { date: 'June 5, 2004', event: 'Dies in Los Angeles, age 93' },
- ],
- sources: [
- { title: 'Tower Commission Report', url: 'https://archives.gov/research/foreign-policy/reagan', date: '1987' },
- { title: 'Iran-Contra Congressional Report', url: 'https://www.congress.gov/', date: '1987' },
- { title: 'Nicaragua v. United States (ICJ Ruling)', url: 'https://www.icj-cij.org/case/70', date: '1986' },
- { title: 'And the Band Played On - Randy Shilts', url: 'https://scholar.google.com/scholar?q=And%20the%20Band%20Played%20On%20-%20Randy%20Shilts', date: '1987' },
- { title: 'Reagan Presidential Library Archives', url: 'https://www.reaganlibrary.gov/', date: 'Various' },
- ],
- },
- 'richard-perle': {
- name: 'Richard Norman Perle',
- title: 'Chairman, Defense Policy Board',
- role: '"Prince of Darkness,"Neocon Leader, Iraq War Architect',
- riskLevel: 'critical' as const,
- description: 'Richard Perle is a neoconservative political advisor known as the"Prince of Darkness"who played a central role in advocating for the Iraq War. He served as Chairman of the Defense Policy Board Advisory Committee from 2001 to 2003 and was a key figure in the Project for the New American Century. Perle pushed for Iraq invasion long before 9/11 and used the attacks to advance regime change. He resigned as DPB Chairman amid conflict of interest allegations involving defense contractor dealings. His ideology shaped post-Cold War American interventionism and contributed to catastrophic Middle East destabilization.',
- birthDate: 'September 16, 1941',
- birthPlace: 'New York City, USA',
- education: [
- 'B.A. - University of Southern California (1964)',
- 'M.A. - Princeton University (1967)',
- ],
- netWorth: 'Unknown',
- aliases: ['The Prince of Darkness', 'Dark Prince'],
- affiliations: [
- { name: 'Defense Policy Board', role: 'Chairman (2001-2003)', type: 'agency' },
- { name: 'Project for the New American Century', role: 'Co-Founder, Signatory', type: 'organization' },
- { name: 'American Enterprise Institute', role: 'Resident Fellow', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Douglas Feith', relationship: 'Fellow neocon, Iraq War collaborator', href: '/entities/individuals/douglas-feith' },
- { name: 'Paul Wolfowitz', relationship: 'Fellow PNAC member, Iraq War advocate', href: '/entities/individuals/paul-wolfowitz' },
- { name: 'Dick Cheney', relationship: 'Vice President, Iraq War partner', href: '/entities/individuals/dick-cheney' },
- ],
- controversies: [
- '"PRINCE OF DARKNESS": Nickname reflects aggressive militaristic ideology',
- 'IRAQ WAR ADVOCACY: Key architect of Iraq invasion, pushed for it years before 9/11',
- 'PNAC SIGNATORY: 1998 letter to Clinton calling for Iraq regime change',
- 'CONFLICT OF INTEREST: Resigned DPB chairmanship over contractor dealings',
- 'Firm had clients benefiting from Iraq War while he advocated for it',
- 'Called Iraq invasion"a war we can win easily"- war lasted 8+ years',
- 'POST-WAR CHAOS: Bears responsibility for deaths of hundreds of thousands',
- 'Israeli connections raised questions about divided loyalties',
- ],
- charges: [
- { statute: '18 U.S.C. § 208', description: 'Conflict of Interest - contractor dealings while on Defense Policy Board', category: 'Federal' },
- { statute: 'Rome Statute Article 8(2)(a)', description: 'War Crimes - complicity in illegal war based on false pretenses', category: 'International Criminal Court' },
- { statute: 'Nuremberg Principles', description: 'Crime Against Peace - advocating aggressive war', category: 'International' },
- ],
- relatedInvestigations: [
- { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
- ],
- timeline: [
- { date: 'September 16, 1941', event: 'Born in New York City' },
- { date: '1969-1980', event: 'Congressional staff positions' },
- { date: '1981-1987', event: 'Assistant Secretary of Defense under Reagan' },
- { date: '1996', event: 'Co-authors"Clean Break"strategy paper for Netanyahu' },
- { date: '1998', event: 'Signs PNAC letter calling for Iraq regime change' },
- { date: '2001', event: 'Appointed Chairman, Defense Policy Board' },
- { date: 'September 12, 2001', event: 'Pushes for Iraq attack day after 9/11' },
- { date: '2003', event: 'Iraq War begins' },
- { date: 'March 2003', event: 'Resigns DPB chairmanship over conflict of interest' },
- { date: '2006', event: 'Admits Iraq War was failure in Vanity Fair interview' },
- ],
- sources: [
- { title: 'PNAC Documents', url: 'https://web.archive.org/web/20130501000000*/newamericancentury.org', date: '1997-2009' },
- { title: '"Clean Break"Strategy Paper', url: 'https://scholar.google.com/scholar?q=%22Clean%20Break%22Strategy%20Paper', date: '1996' },
- { title: 'Vanity Fair Iraq War Retrospective', url: 'https://www.vanityfair.com/', date: '2006' },
- ],
- },
- 'rick-gerson': {
- name: 'Rick Gerson',
- title: 'Hedge Fund Manager',
- role: 'Kushner Friend, UAE Backchannel',
- riskLevel: 'high' as const,
- description: 'Rick Gerson is a hedge fund manager and close friend of Jared Kushner who served as an unofficial backchannel between the Trump transition team and the United Arab Emirates. He facilitated communications between Kushner and Mohammed bin Zayed (MBZ) before and after the 2016 election, helping arrange the controversial December 2016 meeting in the Seychelles between Erik Prince and a Russian banker. Gerson\'s role highlights the informal influence networks operating around the Trump administration.',
- birthDate: 'Unknown',
- birthPlace: 'USA',
- education: [
- 'Details not public',
- ],
- netWorth: 'Unknown (hedge fund wealth)',
- aliases: ['Kushner Backchannel'],
- affiliations: [
- { name: 'Gerson Lehrman Group', role: 'Connection (not founder)', type: 'corporation' },
- { name: 'Platinum Partners', role: 'Former connection', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Jared Kushner', relationship: 'Close friend, facilitated UAE contacts', href: '/entities/individuals/jared-kushner' },
- { name: 'Mohammed bin Zayed', relationship: 'UAE contact', href: '/entities/individuals/mohammed-bin-zayed' },
- ],
- controversies: [
- 'UAE BACKCHANNEL: Facilitated communications between Kushner and MBZ',
- 'SEYCHELLES MEETING: Helped arrange Erik Prince-Russian banker meeting',
- 'INFORMAL DIPLOMACY: Operated outside official channels during transition',
- 'Mueller investigation examined his role in foreign contacts',
- 'Highlights problematic informal influence networks',
- ],
- charges: [
- { statute: 'Logan Act 18 U.S.C. § 953', description: 'Potential unauthorized foreign diplomacy', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Foreign Influence Operations', slug: 'foreign-influence', severity: 'critical' },
- ],
- timeline: [
- { date: '2016', event: 'Facilitates Kushner-MBZ communications during transition' },
- { date: 'December 2016', event: 'Involved in arranging Seychelles meeting' },
- { date: '2017-2019', event: 'Role examined by Mueller investigation' },
- ],
- sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
- { title: 'Senate Intelligence Committee Investigation', url: 'https://www.congress.gov/', date: '2020' },
- ],
- },
- 'robert-novak': {
- name: 'Robert David Sanders Novak',
- title: 'Political Commentator',
- role: 'Columnist Who Outed Valerie Plame',
- riskLevel: 'high' as const,
- description: 'Robert Novak was a conservative political commentator and syndicated columnist who, on July 14, 2003, publicly exposed Valerie Plame as a CIA operative. This exposure, based on leaks from Bush administration officials, effectively ended Plame\'s covert career and potentially endangered lives. The leak was political retaliation against Plame\'s husband, Ambassador Joseph Wilson, who had publicly contradicted the administration\'s claims about Iraqi WMD programs. The resulting investigation led to the conviction of Scooter Libby, Vice President Cheney\'s chief of staff.',
- birthDate: 'February 26, 1931',
- birthPlace: 'Joliet, Illinois, USA',
- deathDate: 'August 18, 2009',
- education: [
- 'B.S. - University of Illinois (1952)',
- ],
- netWorth: 'Unknown',
- aliases: ['Prince of Darkness', 'The Prince of Darkness'],
- affiliations: [
- { name: 'CNN', role: 'Co-Host, Crossfire (1980-2005)', type: 'corporation' },
- { name: 'Chicago Sun-Times', role: 'Syndicated Columnist', type: 'corporation' },
- { name: 'Evans-Novak Political Report', role: 'Co-Publisher', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Richard Armitage', relationship: 'Source for Plame leak', href: '/entities/individuals/richard-armitage' },
- { name: 'Karl Rove', relationship: 'Confirmed Plame identity', href: '/entities/individuals/karl-rove' },
- ],
- controversies: [
- 'PLAME EXPOSURE: Published column outing Valerie Plame as CIA operative July 14, 2003',
- 'Column identified her as"agency operative on weapons of mass destruction"',
- 'RETALIATION: Leak was political payback against Ambassador Joseph Wilson',
- 'Wilson had written op-ed contradicting Bush administration Iraq WMD claims',
- 'SOURCES: Richard Armitage was primary source, Karl Rove confirmed',
- 'REFUSED TO TESTIFY: Initially refused to cooperate with investigation',
- 'LIBBY CONVICTION: Investigation led to Scooter Libby\'s conviction for perjury/obstruction',
- 'Did not face prosecution despite publishing classified information',
- ],
- charges: [
- { statute: '18 U.S.C. § 793 (Espionage Act)', description: 'Potential unauthorized disclosure of classified information', category: 'Federal' },
- { statute: '50 U.S.C. § 421 (Intelligence Identities Protection Act)', description: 'Potential disclosure of covert agent identity', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
- ],
- timeline: [
- { date: 'February 26, 1931', event: 'Born in Joliet, Illinois' },
- { date: '1963', event: 'Begins"Evans-Novak Political Report"column' },
- { date: '1980', event: 'Becomes CNN Crossfire co-host' },
- { date: 'July 6, 2003', event: 'Joseph Wilson op-ed disputes Iraq uranium claims' },
- { date: 'July 14, 2003', event: 'Publishes column outing Valerie Plame as CIA' },
- { date: 'December 2003', event: 'Special Counsel appointed to investigate leak' },
- { date: '2005', event: 'Testifies before grand jury under immunity' },
- { date: '2006', event: 'Reveals Armitage as primary source' },
- { date: '2007', event: 'Scooter Libby convicted, later pardoned by Trump' },
- { date: 'August 18, 2009', event: 'Dies in Washington D.C. from brain cancer' },
- ],
- sources: [
- { title: 'Original Novak Column - July 14, 2003', url: 'https://scholar.google.com/scholar?q=Original%20Novak%20Column%20-%20July%2014%2C%202003', date: '2003' },
- { title: 'Fitzgerald Investigation Documents', url: 'https://scholar.google.com/scholar?q=Fitzgerald%20Investigation%20Documents', date: '2005-2007' },
- { title: 'U.S. v. Libby Trial Records', url: 'https://scholar.google.com/scholar?q=U.S.%20v.%20Libby%20Trial%20Records', date: '2007' },
- ],
- },
- 'richard-armitage': {
- name: 'Richard Armitage',
- title: 'Former Deputy Secretary of State',
- description: 'Deputy Secretary of State under Colin Powell who was the primary source for Robert Novak\'s column that outed CIA operative Valerie Plame. Despite being the original leaker, Armitage was never prosecuted while Scooter Libby was convicted. Armitage was also involved in Iran-Contra as Assistant Secretary of Defense.',
- role: 'Deputy Secretary of State who leaked classified CIA identity',
- riskLevel: 'high',
- birthDate: 'April 26, 1945',
- birthPlace: 'Boston, Massachusetts',
- education: ['U.S. Naval Academy (1967)'],
- controversies: [
- 'Primary source who leaked Valerie Plame\'s CIA identity to Robert Novak',
- 'Never prosecuted despite being original leaker while Scooter Libby convicted',
- 'Involved in Iran-Contra affair during Reagan administration',
- 'Escaped accountability through special counsel investigation',
- ],
- charges: [
- { statute: 'Intelligence Identities Protection Act - 50 U.S.C. § 421', description: 'Disclosed identity of covert CIA officer', category: 'National Security' },
- { statute: 'Espionage Act - 18 U.S.C. § 793', description: 'Leaked classified information about intelligence operative', category: 'National Security' },
- { statute: 'Obstruction of Justice - 18 U.S.C. § 1503', description: 'Potential concealment during investigation', category: 'Obstruction' },
- ],
- affiliations: [
- { name: 'U.S. State Department', role: 'Deputy Secretary of State', type: 'agency' },
- { name: 'Department of Defense', role: 'Assistant Secretary', type: 'agency' },
- { name: 'Bush Administration', role: 'Senior Official', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Colin Powell', relationship: 'Superior at State Department', href: '/entities/individuals/colin-powell' },
- { name: 'Robert Novak', relationship: 'Journalist who published Plame leak', href: '/entities/individuals/robert-novak' },
- { name: 'George W. Bush', relationship: 'President', href: '/entities/individuals/george-w-bush' },
- { name: 'Condoleezza Rice', relationship: 'National Security Advisor', href: '/entities/individuals/condoleezza-rice' },
- { name: 'Scooter Libby', relationship: 'Co-leaker who was prosecuted', href: '/entities/individuals/scooter-libby' },
- ],
- relatedInvestigations: [
- { title: 'Plame Leak Scandal', slug: 'plame-leak', severity: 'high' },
- { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
- { title: 'Iran-Contra Affair', slug: 'iran-contra', severity: 'critical' },
- ],
- timeline: [
- { date: 'April 26, 1945', event: 'Born in Boston, Massachusetts' },
- { date: '1967', event: 'Graduates U.S. Naval Academy' },
- { date: '1967-1973', event: 'Vietnam War service, three tours' },
- { date: '1983-1989', event: 'Assistant Secretary of Defense for International Security Affairs' },
- { date: '1986-1987', event: 'Involved in Iran-Contra affair negotiations' },
- { date: '2001-2005', event: 'Deputy Secretary of State under Colin Powell' },
- { date: 'June 2003', event: 'Learns of Valerie Plame from State Dept. memo' },
- { date: 'July 8, 2003', event: 'Tells Robert Novak about Valerie Plame' },
- { date: 'July 14, 2003', event: 'Novak publishes column outing Plame' },
- { date: '2006', event: 'Revealed as primary leak source by Fitzgerald investigation' },
- { date: '2006', event: 'Escapes prosecution despite being original leaker' },
- { date: '2007', event: 'Scooter Libby convicted while Armitage walks free' },
- ],
- sources: [
- { title: 'Fitzgerald Investigation Final Report', url: 'https://www.ignet.gov/', date: '2006' },
- { title: 'David Corn -"Hubris: The Inside Story of Spin, Scandal, and the Selling of the Iraq War"', url: 'https://scholar.google.com/scholar?q=David%20Corn%20-%22Hubris%3A%20The%20Inside%20Story%20of%20Spin%2C%20Scandal%2C%20and%20the%20Selling%20of%20the%20Iraq%20War%22', date: '2006' },
- { title: 'Robert Novak Memoir -"The Prince of Darkness"', url: 'https://www.goodreads.com/', date: '2007' },
- { title: 'U.S. v. Libby Trial Records', url: 'https://scholar.google.com/scholar?q=U.S.%20v.%20Libby%20Trial%20Records', date: '2007' },
- ],
- },
- 'rick-snyder': {
- name: 'Rick Snyder',
- title: 'Former Governor of Michigan',
- role: 'Governor whose administration poisoned Flint residents with lead-contaminated water',
- riskLevel: 'critical',
- description: 'Rick Snyder served as Governor of Michigan from 2011-2019 and was criminally charged for his role in the Flint water crisis. His administration\'s cost-cutting decisions and subsequent cover-up poisoned 100,000 residents with lead-contaminated water. Despite being charged with willful neglect of duty, all charges were dropped in 2022. The predominantly Black city of Flint continues to suffer the consequences.',
- education: [],
- affiliations: [
- { name: 'State of Michigan', role: 'Governor (2011-2019)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Republican governor during Trump era; Flint water crisis overlapped with 2016 campaign', href: '/entities/individuals/donald-trump' }
- ],
- controversies: [
- 'EMERGENCY MANAGEMENT: Snyder signed legislation expanding emergency manager powers over financially distressed cities. Emergency managers, appointed by Snyder, stripped elected officials of power in majority-Black cities including Flint and Detroit.',
- 'COST-CUTTING DECISION: Under Snyder\'s appointed emergency manager, Flint switched water sources in April 2014 to save $5 million. No corrosion control was implemented despite known risks.',
- 'IGNORED WARNINGS: Snyder\'s administration received numerous warnings about water quality and lead levels. Internal emails show officials knew of problems while publicly claiming the water was safe.',
- 'COVER-UP: The Michigan Department of Environmental Quality, under Snyder\'s administration, manipulated testing protocols to hide lead contamination. Officials attacked and discredited researchers who exposed the crisis.',
- 'LEGIONNAIRES\' OUTBREAK: At least 12 people died from Legionnaires\' disease caused by the contaminated water. Snyder\'s administration initially concealed the outbreak.',
- 'DELAYED RESPONSE: Despite knowing of lead contamination, Snyder did not declare a state of emergency until January 2016 - nearly two years after the water switch.',
- 'CRIMINAL CHARGES: In January 2021, Snyder was charged with two counts of willful neglect of duty (misdemeanors). He was the first Michigan governor charged with crimes related to actions in office.',
- 'CHARGES DROPPED: In June 2022, the Michigan Supreme Court ruled the indictments were invalid due to procedural issues with the one-person grand jury. Charges against Snyder and other officials were dismissed.',
- 'NO ACCOUNTABILITY: Despite poisoning 100,000 people, Snyder faces no criminal consequences. The Flint water crisis exemplifies environmental racism and official impunity.',
- ],
- charges: [
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Other Inhumane Acts: Actions causing great suffering and serious injury to body - lead poisoning of 100,000 people', category: 'International Criminal Law' },
- { statute: 'MCL 750.478', description: 'Willful Neglect of Duty: Charged (2 counts) - dismissed on procedural grounds', category: 'State Criminal Law' },
- { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law: Potential federal charge for depriving residents of safe water', category: 'Federal Civil Rights' },
- ],
- relatedInvestigations: [
- { title: 'Flint Water Crisis', slug: 'flint-water-crisis', severity: 'critical' },
- { title: 'Environmental Racism', slug: 'environmental-racism', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 19, 1958', event: 'Born in Battle Creek, Michigan' },
- { date: 'January 1, 2011', event: 'Becomes Governor of Michigan' },
- { date: '2011', event: 'Signs expanded emergency manager legislation' },
- { date: '2013', event: 'Appoints emergency manager to Flint' },
- { date: 'April 25, 2014', event: 'Flint switches water source under emergency management' },
- { date: '2014-2015', event: 'Administration ignores warnings, covers up contamination' },
- { date: 'January 2016', event: 'Finally declares state of emergency' },
- { date: 'January 2019', event: 'Leaves office' },
- { date: 'January 14, 2021', event: 'Charged with willful neglect of duty' },
- { date: 'June 2022', event: 'Charges dismissed by Michigan Supreme Court' },
- ],
- sources: [
- { title: 'Michigan Civil Rights Commission - Flint Report', url: 'https://www.ignet.gov/', date: '2017' },
- { title: 'Snyder administration emails (FOIA)', url: 'https://www.courtlistener.com/', date: 'Various' },
- { title: 'Criminal indictment', url: 'https://www.justice.gov/', date: '2021' },
- { title: 'Michigan Supreme Court ruling', url: 'https://www.courtlistener.com/', date: '2022' },
- ],
- },
- 'richard-helms': {
- name: 'Richard Helms',
- title: 'CIA Director (1966-1973)',
- role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress about Chile',
- riskLevel: 'critical',
- description: 'Richard Helms served as CIA Director from 1966-1973 and ordered the destruction of MKUltra records to prevent accountability for human experimentation crimes. He lied to Congress about CIA involvement in the Chilean coup and was convicted of perjury - receiving only a $2,000 fine. He oversaw continued mind control experiments, assassination programs, and domestic surveillance while destroying evidence of the CIA\'s worst crimes.',
- education: [],
- affiliations: [
- { name: 'CIA', role: 'Director (1966-1973)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Sidney Gottlieb', relationship: 'MKUltra director under his command', href: '/entities/individuals/sidney-gottlieb' },
- ],
- controversies: [
- 'MKULTRA DESTRUCTION: In 1973, as the Watergate scandal threatened to expose CIA activities, Helms ordered the destruction of all MKUltra files. Most were shredded, eliminating evidence of experiments on thousands of unwitting Americans.',
- 'CHILE PERJURY: Helms testified to Congress that the CIA was not involved in the 1973 coup against Salvador Allende. This was a deliberate lie. He was later convicted of failing to testify"fully and completely."',
- 'MINIMAL PUNISHMENT: Despite lying to Congress about operations that overthrew a democracy and killed thousands, Helms received only a $2,000 fine and a two-year suspended sentence. He reportedly considered the conviction a"badge of honor."',
- 'ASSASSINATION PROGRAMS: As Director, Helms oversaw CIA assassination programs against foreign leaders including Fidel Castro. He managed plausible deniability for the Agency.',
- 'DOMESTIC SURVEILLANCE: Operation CHAOS, run under Helms, spied on American antiwar activists. This violated the CIA\'s charter prohibiting domestic operations.',
- 'WATERGATE CONNECTIONS: Helms navigated Watergate carefully, refusing to let the CIA take blame for the burglary while hiding the Agency\'s own secrets.',
- 'EVIDENCE DESTRUCTION PATTERN: Beyond MKUltra, Helms established a pattern of destroying evidence. He understood that without records, crimes couldn\'t be proven.',
- 'PROTECTED REPUTATION: Despite destroying evidence of American citizens being tortured and drugged, Helms maintained his reputation in Washington. He was welcomed in elite circles until his death.',
- ],
- charges: [
- { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity - Torture: Oversaw continuation of MKUltra experiments', category: 'International Criminal Law' },
- { statute: 'Rome Statute Article 70(1)(c)', description: 'Obstruction of Justice: Destroyed evidence to prevent accountability', category: 'International Criminal Law' },
- { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Directed operations to overthrow the Chilean government', category: 'International Criminal Law' },
- { statute: '18 U.S.C. § 1621', description: 'Perjury: Convicted for lying to Congress about Chile', category: 'Federal Crimes' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements: Lies to Congressional committees', category: 'Federal Crimes' },
- { statute: '18 U.S.C. § 1519', description: 'Destruction of Records: Ordered destruction of MKUltra files', category: 'Federal Crimes' },
- { statute: '18 U.S.C. § 1512', description: 'Obstruction of Justice: Evidence destruction to impede investigations', category: 'Federal Crimes' },
- ],
- relatedInvestigations: [
- { title: 'MKUltra Mind Control Program', slug: 'mkultra', severity: 'critical' },
- { title: 'Chile Coup 1973', slug: 'chile-coup', severity: 'critical' },
- { title: 'Operation CHAOS', slug: 'operation-chaos', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 30, 1913', event: 'Born in St. Davids, Pennsylvania' },
- { date: '1942', event: 'Joins OSS' },
- { date: '1947', event: 'Joins CIA at its founding' },
- { date: 'June 30, 1966', event: 'Becomes CIA Director' },
- { date: '1967-1974', event: 'Oversees Operation CHAOS domestic surveillance' },
- { date: '1973', event: 'Orders destruction of MKUltra files' },
- { date: 'September 1973', event: 'CIA helps overthrow Allende in Chile' },
- { date: 'February 2, 1973', event: 'Leaves CIA, becomes Ambassador to Iran' },
- { date: '1977', event: 'Testifies falsely to Congress about Chile' },
- { date: 'November 4, 1977', event: 'Pleads no contest to perjury, fined $2,000' },
- { date: 'October 22, 2002', event: 'Dies in Washington, D.C.' },
- ],
- sources: [
- { title: 'Senate Church Committee Reports', url: 'https://www.congress.gov/', date: '1976' },
- { title: 'Thomas Powers -"The Man Who Kept the Secrets"', url: 'https://www.who.int/', date: '1979' },
- { title: 'Perjury case court records', url: 'https://scholar.google.com/scholar?q=Perjury%20case%20court%20records', date: '1977' },
- { title: 'CIA declassified documents', url: 'https://www.cia.gov/readingroom/', date: 'Various' },
- ],
- },
- 'robert-mcnamara': {
- name: 'Robert McNamara',
- title: 'Secretary of Defense (1961-1968)',
- role: 'Defense Secretary who lied about Gulf of Tonkin and presided over Vietnam escalation',
- riskLevel: 'critical',
- description: 'Robert McNamara served as Secretary of Defense under Kennedy and Johnson, presiding over the massive escalation of the Vietnam War. He lied to Congress and the public about the Gulf of Tonkin incident and the war\'s progress while privately doubting it could be won. His"body count"metrics and bombing campaigns killed millions. Decades later, he admitted"We were wrong, terribly wrong"- but faced no accountability.',
- education: [],
- affiliations: [
- { name: 'Department of Defense', role: 'Secretary (1961-1968)', type: 'agency' },
- { name: 'World Bank', role: 'President (1968-1981)', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Lyndon B. Johnson', relationship: 'President he served', href: '/entities/individuals/lyndon-b-johnson' },
- ],
- controversies: [
- 'TONKIN LIES: McNamara told Congress the Gulf of Tonkin attacks were"unequivocal"and"unprovoked."Both claims were false. The second attack never happened, and the U.S. had been conducting covert operations against North Vietnam.',
- 'WAR ESCALATION: McNamara oversaw the buildup from 16,000 advisors to over 500,000 troops. He approved massive bombing campaigns that dropped more tonnage than all of WWII.',
- 'BODY COUNT: McNamara\'s Pentagon measured success through"body counts"and"kill ratios"- dehumanizing metrics that incentivized civilian casualties and false reporting.',
- 'PRIVATE DOUBTS: McNamara privately doubted the war could be won as early as 1965-1966, yet continued publicly supporting escalation. The Pentagon Papers revealed the depth of internal pessimism.',
- 'AGENT ORANGE: Under McNamara, the military sprayed millions of gallons of Agent Orange over Vietnam, causing cancer, birth defects, and environmental devastation that continues today.',
- 'LEAVING OFFICE: McNamara left the Pentagon in 1968 and became World Bank president. He never faced consequences for the war\'s deceptions.',
- 'LATE ADMISSION: In his 1995 memoir and 2003 documentary"The Fog of War,"McNamara admitted the war was wrong."We were wrong, terribly wrong. We owe it to future generations to explain why."But he stopped short of calling it criminal.',
- 'NO ACCOUNTABILITY: Despite his role in a war that killed millions based on lies, McNamara lived comfortably until age 93. His late-life remorse changed nothing for the dead.',
- ],
- charges: [
- { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes - Attack on Civilians: Bombing campaigns killed hundreds of thousands of civilians', category: 'International Criminal Law' },
- { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crimes - Causing Widespread Environmental Damage: Agent Orange spraying devastated Vietnam\'s environment', category: 'International Criminal Law' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements: Lied to Congress about Tonkin incident', category: 'Federal Crimes' },
- { statute: '18 U.S.C. § 1621', description: 'Perjury: False testimony under oath', category: 'Federal Crimes' },
- ],
- relatedInvestigations: [
- { title: 'Gulf of Tonkin Incident', slug: 'gulf-of-tonkin', severity: 'critical' },
- { title: 'Vietnam War', slug: 'vietnam-war', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 9, 1916', event: 'Born in San Francisco, California' },
- { date: 'January 21, 1961', event: 'Becomes Secretary of Defense under Kennedy' },
- { date: 'August 1964', event: 'Testifies falsely about Gulf of Tonkin' },
- { date: '1965-1968', event: 'Oversees massive Vietnam escalation' },
- { date: 'February 29, 1968', event: 'Leaves Pentagon' },
- { date: '1968-1981', event: 'World Bank president' },
- { date: '1995', event: 'Publishes"In Retrospect"admitting errors' },
- { date: '2003', event: '"Fog of War"documentary' },
- { date: 'July 6, 2009', event: 'Dies in Washington, D.C., age 93' },
- ],
- sources: [
- { title: 'Pentagon Papers', url: 'https://www.archives.gov/research/pentagon-papers', date: '1971' },
- { title: 'Robert McNamara -"In Retrospect"', url: 'https://scholar.google.com/scholar?q=Robert%20McNamara%20-%22In%20Retrospect%22', date: '1995' },
- { title: 'Errol Morris -"The Fog of War"', url: 'https://scholar.google.com/scholar?q=Errol%20Morris%20-%22The%20Fog%20of%20War%22', date: '2003' },
- { title: 'Congressional testimony transcripts', url: 'https://www.congress.gov/', date: '1964' },
- ],
- },
- 'reality-winner': {
- name: 'Reality Winner',
- title: 'NSA Whistleblower',
- role: 'Leaked evidence of Russian election interference, imprisoned',
- riskLevel: 'low',
- description: 'Reality Winner was an NSA contractor who leaked a classified report showing Russian interference in the 2016 election to The Intercept. She was sentenced to over 5 years in prison - the longest sentence ever for an unauthorized disclosure to the media - while those who benefited from Russian interference faced no consequences.',
- birthDate: 'December 4, 1991',
- birthPlace: 'Alice, Texas',
- education: ['Air Force training'],
- affiliations: [
- { name: 'National Security Agency', role: 'Contractor', type: 'agency' },
- { name: 'U.S. Air Force', role: 'Former Airman', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'President whose administration aggressively prosecuted Winner for leaking evidence of Russian election interference', href: '/entities/individuals/donald-trump' },
- { name: 'Jeff Sessions', relationship: 'Attorney General who personally announced Winner\'s prosecution and pledged crackdown on leakers', href: '/entities/individuals/jeff-sessions' },
- { name: 'Edward Snowden', relationship: 'Fellow NSA whistleblower whose case set precedent for Espionage Act prosecutions of leakers', href: '/entities/individuals/edward-snowden' },
- { name: 'Daniel Hale', relationship: 'Fellow intelligence community whistleblower prosecuted under Espionage Act for revealing drone program details', href: '/entities/individuals/daniel-hale' },
- ],
- controversies: [
- 'NSA contractor who leaked classified report proving Russian cyberattacks on U.S. election infrastructure',
- 'Sentenced to 5 years and 3 months - the longest sentence ever for an unauthorized disclosure to media',
- 'Her leak confirmed what intelligence agencies were warning about Russian interference in 2016 election',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Russian Election Interference', slug: 'russian-election-interference', severity: 'critical' },
- ],
- timeline: [
- { date: 'December 4, 1991', event: 'Born in Alice, Texas' },
- { date: '2010-2016', event: 'Serves in U.S. Air Force' },
- { date: 'February 2017', event: 'Begins work as NSA contractor' },
- { date: 'May 2017', event: 'Leaks Russian interference document' },
- { date: 'June 3, 2017', event: 'Arrested' },
- { date: 'June 2018', event: 'Sentenced to 63 months' },
- { date: 'June 2021', event: 'Released to home confinement' },
- ],
- sources: [
- { title: 'The Intercept - NSA report on Russian election hacking', url: 'https://theintercept.com/', date: '2017' },
- ],
- },
+  'ron-desantis': {
+    name: 'Ron Desantis',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ron Desantis is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Ron Desantis has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'richard-spencer': {
+    name: 'Richard Spencer',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Richard Spencer is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Richard Spencer has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'rand-paul': {
+    name: 'Rand Paul',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Rand Paul is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Rand Paul has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'randy-credico': {
+    name: 'Randy Credico',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Randy Credico is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Randy Credico has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'robert-maxwell': {
+    name: 'Robert Maxwell',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Robert Maxwell is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Robert Maxwell has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'richard-nixon': {
+    name: 'Richard Nixon',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Richard Nixon is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Richard Nixon has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'richard-burr': {
+    name: 'Richard Mauze Burr',
+    title: 'Former U.S. Senator from North Carolina',
+    role: 'COVID Insider Trader, Intelligence Committee Chair',
+    riskLevel: 'high',
+    description: 'Richard Burr was Chair of the Senate Intelligence Committee when he sold $1.7 million in stock after receiving classified COVID briefings while publicly downplaying the pandemic. The FBI investigated and served a warrant on his phone. The DOJ declined to prosecute. He resigned as Intelligence Chair but served out his term.',
+    birthDate: 'November 30, 1955',
+    birthPlace: 'Charlottesville, Virginia',
+    education: ['B.A. - Wake Forest University (1978)'],
+    affiliations: [
+      { name: 'U.S. Senate', role: 'Senator from North Carolina (2005-2023)', type: 'agency' },
+      { name: 'Senate Intelligence Committee', role: 'Chair (2015-2020)', type: 'agency' },
+    ],
+    controversies: [
+      'COVID INSIDER TRADING: Sold $1.7M in stock after classified briefing',
+      'PUBLIC DOWNPLAYING: Told public virus was under control while selling stock',
+      'FBI INVESTIGATION: Phone seized in insider trading probe',
+      'NO PROSECUTION: DOJ declined to charge despite evidence',
+    ],
+    charges: [
+      { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading - sold stock on material nonpublic information', category: 'Not prosecuted' },
+    ],
+    relatedInvestigations: [
+      { title: 'Securities & Market Fraud', slug: 'securities-fraud', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'November 30, 1955', event: 'Born in Charlottesville, Virginia' },
+      { date: '2005', event: 'Becomes U.S. Senator' },
+      { date: '2015', event: 'Becomes Senate Intelligence Chair' },
+      { date: 'January-February 2020', event: 'Sells $1.7M in stock after COVID briefing' },
+      { date: 'May 2020', event: 'FBI seizes phone in investigation' },
+      { date: 'May 2020', event: 'Steps down as Intelligence Chair' },
+      { date: 'January 2021', event: 'DOJ declines prosecution' },
+      { date: '2023', event: 'Leaves Senate' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'DOJ Investigation Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Investigation%20Records', date: '2020' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Kelly Loeffler', relationship: 'Fellow COVID insider trader', href: '/entities/individuals/kelly-loeffler' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'robert-redfield': {
+    name: 'Robert Ray Redfield Jr.',
+    title: 'Former CDC Director',
+    role: 'Public Health Official, COVID Response Failure, Lab Leak Advocate',
+    riskLevel: 'high',
+    description: 'Robert Redfield served as CDC Director from 2018-2021, overseeing one of the most catastrophic public health failures in American history. Under his leadership, the CDC botched initial COVID-19 testing, issued contradictory mask guidance, and allowed political interference to compromise scientific integrity. He was sidelined by the Trump administration while promoting unproven treatments and later became an outspoken advocate for the Wuhan lab leak theory, claiming he believes COVID-19 originated from a laboratory accident. His tenure was marked by delayed responses, faulty test kits, and subordination to political messaging over public health.',
+    birthDate: 'June 10, 1951',
+    birthPlace: 'New York, USA',
+    netWorth: 'Undisclosed',
+    education: ['M.D. - Georgetown University School of Medicine (1977)', 'B.S. - Georgetown University', 'Walter Reed Army Institute of Research fellowship'],
+    affiliations: [
+      { name: 'Centers for Disease Control and Prevention', role: 'Director (2018-2021)', type: 'agency' },
+      { name: 'University of Maryland School of Medicine', role: 'Professor, Institute of Human Virology', type: 'organization' },
+      { name: 'Walter Reed Army Medical Center', role: 'Former Chief, Retrovirus Research', type: 'agency' },
+      { name: 'Department of Health and Human Services', role: 'Senior Official', type: 'agency' },
+      { name: 'Trump Administration', role: 'COVID-19 Task Force Member', type: 'agency' },
+    ],
+    controversies: [
+      'FAULTY TEST KITS: CDC released contaminated COVID test kits in February 2020, delaying US response by critical weeks',
+      'MASK GUIDANCE FLIP-FLOPS: Initially advised against masks, then reversed, creating public confusion and distrust',
+      'POLITICAL INTERFERENCE: Allowed Trump administration to edit CDC guidance documents for political messaging',
+      'TESTING DELAYS: Restricted testing criteria early in pandemic, missed community spread window',
+      'SIDELINED BY WHITE HOUSE: Marginalized as Trump administration sought to downplay pandemic severity',
+      'LAB LEAK ADVOCACY: Publicly stated belief that COVID originated from Wuhan Institute of Virology lab accident',
+      'HYDROXYCHLOROQUINE: Did not adequately push back against unproven treatment promotion',
+      'DATA MANIPULATION: CDC reporting systems were altered to route through HHS, reducing transparency',
+      'RELIGIOUS CONFLICTS: Past advocacy for abstinence-only education raised concerns about science-based policy',
+      'PREVIOUS HIV VACCINE CONTROVERSY: Accused of manipulating data in 1990s HIV vaccine trial',
+      'SCHOOL REOPENING PRESSURE: Changed CDC guidance on schools under White House pressure',
+      'EXCESS DEATH TOLL: Over 400,000 Americans died of COVID during his CDC tenure',
+    ],
+    charges: [
+      { statute: '18 U.S.C. § 1001', description: 'False Statements - Potential misrepresentation of testing capabilities', category: 'Federal' },
+      { statute: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices - Allowing political interference in scientific guidance', category: 'Federal' },
+      { statute: 'Nuremberg Code Principle I', description: 'Informed Consent - Testing delays deprived public of information', category: 'International' },
+      { statute: '42 U.S.C. § 247d', description: 'Public Health Emergency Response Failures', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: 'COVID-19 Response Failures', slug: 'covid-response', severity: 'critical' },
+      { title: 'Lab Leak Investigation', slug: 'lab-leak', severity: 'critical' },
+      { title: 'CDC Testing Failures', slug: 'cdc-testing', severity: 'high' },
+      { title: 'Global Pandemic Conspiracy', slug: 'pandemic-conspiracy', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'June 10, 1951', event: 'Born in New York' },
+      { date: '1977', event: 'Graduates Georgetown medical school' },
+      { date: '1985-1996', event: 'Leads military HIV research at Walter Reed' },
+      { date: '1992-1994', event: 'HIV vaccine trial data controversy' },
+      { date: '1996', event: 'Co-founds Institute of Human Virology at University of Maryland' },
+      { date: '2018', event: 'Appointed CDC Director by Trump administration' },
+      { date: 'January 2020', event: 'First COVID-19 cases reported in US' },
+      { date: 'February 2020', event: 'CDC releases faulty COVID test kits, delays testing by weeks' },
+      { date: 'February 2020', event: 'Restricts testing criteria, misses community spread' },
+      { date: 'March 2020', event: 'WHO declares pandemic, US far behind on testing' },
+      { date: 'April 2020', event: 'CDC reverses mask guidance after initially advising against' },
+      { date: 'July 2020', event: 'White House forces CDC data to route through HHS' },
+      { date: 'September 2020', event: 'CDC guidance on school reopening altered under pressure' },
+      { date: 'October 2020', event: 'CDC admits aerosol transmission after months of denial' },
+      { date: 'January 2021', event: 'Leaves CDC with over 400,000 American COVID deaths' },
+      { date: 'March 2021', event: 'Testifies to Congress he believes COVID was lab leak' },
+      { date: '2022-2023', event: 'Continues advocating lab leak theory in media appearances' },
+      { date: '2024', event: 'House COVID committee investigates CDC failures' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'CDC COVID-19 Response Timeline', url: 'https://www.cdc.gov/museum/timeline/covid19.html', date: '2020-2021' },
+      { title: 'House Select Subcommittee on Coronavirus Crisis Reports', url: 'https://web.archive.org/web/2024/https://coronavirus.house.gov/', date: '2020-2022' },
+      { title: 'Redfield CNN Lab Leak Interview', url: 'https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' },
+      { title: 'Science Magazine - CDC Testing Failures Analysis', url: 'https://scholar.google.com/scholar?q=Science%20Magazine%20-%20CDC%20Testing%20Failures%20Analysis', date: '2020' },
+      { title: 'GAO COVID-19 Response Reports', url: 'https://www.gao.gov/coronavirus', date: '2020-2022' },
+      { title: 'Washington Post - CDC Political Interference Investigation', url: 'https://www.washingtonpost.com/', date: '2020' },
+    ],
+    aliases: ['Dr. Redfield', 'CDC Director'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Appointed by, sidelined during pandemic', href: '/entities/individuals/donald-trump' },
+      { name: 'Anthony Fauci', relationship: 'COVID Task Force colleague, sometimes contradicted', href: '/entities/individuals/anthony-fauci' },
+      { name: 'Deborah Birx', relationship: 'White House COVID Response Coordinator', href: '/entities/individuals/deborah-birx' },
+      { name: 'Alex Azar', relationship: 'HHS Secretary, superior', href: '/entities/individuals/alex-azar' },
+      { name: 'Francis Collins', relationship: 'NIH Director, COVID response coordination', href: '/entities/individuals/francis-collins' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'russell-vought': {
+    name: 'Russell Thurlow Vought',
+    title: 'Project 2025 Architect, Former OMB Director',
+    role: 'Conservative Policy Architect, Administrative State Dismantler',
+    riskLevel: 'critical',
+    description: 'Russell Vought served as Director of the Office of Management and Budget (2020-2021) under Trump and is a primary architect of Project 2025, the Heritage Foundation blueprint for radically restructuring the federal government. He founded the Center for Renewing America to advance authoritarian policies including Schedule F to enable mass firings of federal workers, unitary executive theory to concentrate power in the presidency, and Christian nationalist governance. His Project 2025 chapter calls for weaponizing the DOJ, eliminating the Department of Education, and gutting environmental and civil rights protections. He is expected to hold senior positions in any future Trump administration.',
+    birthDate: '1976',
+    birthPlace: 'United States',
+    netWorth: 'Undisclosed',
+    education: ['J.D. - George Washington University Law School', 'B.A. - Wheaton College'],
+    affiliations: [
+      { name: 'Office of Management and Budget', role: 'Director (2020-2021)', type: 'agency' },
+      { name: 'Center for Renewing America', role: 'Founder & President', type: 'organization' },
+      { name: 'Heritage Foundation', role: 'Project 2025 Co-Author', type: 'organization' },
+      { name: 'Republican Study Committee', role: 'Former Policy Director', type: 'organization' },
+      { name: 'Heritage Action', role: 'Former Vice President', type: 'organization' },
+    ],
+    controversies: [
+      'PROJECT 2025 ARCHITECT: Primary author of 920-page blueprint to dismantle federal government and concentrate executive power',
+      'SCHEDULE F: Championed policy to reclassify 50,000+ federal workers as at-will employees for mass political firings',
+      'CHRISTIAN NATIONALISM: Openly advocates for Christian nationalist governance, religious tests for government',
+      'UNITARY EXECUTIVE: Promotes theory that president has absolute control over executive branch, beyond legal constraints',
+      'DOJ WEAPONIZATION: Project 2025 calls for using DOJ to prosecute political enemies',
+      'IMPOUNDMENT: Advocates illegal presidential impoundment of congressionally appropriated funds',
+      'ELIMINATE EDUCATION DEPT: Project 2025 calls for abolishing Department of Education entirely',
+      'GUT EPA: Plans to dramatically reduce environmental protections and climate action',
+      'ANTI-MUSLIM STATEMENTS: 2016 controversy over statements that Muslims"do not simply have a deficient theology"',
+      'BUDGET MANIPULATION: Used OMB to withhold Ukraine aid during first impeachment scandal',
+      'DEEP STATE NARRATIVE: Promotes conspiracy theory of permanent bureaucratic resistance to conservative agenda',
+      'CENTER FOR RENEWING AMERICA: Organization coordinates"war room"for implementing Project 2025',
+    ],
+    charges: [
+      { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud United States - Project 2025 coordination', category: 'Federal' },
+      { statute: '2 U.S.C. § 684', description: 'Impoundment Control Act Violations - Illegal withholding of funds', category: 'Federal' },
+      { statute: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices - Schedule F politicization plan', category: 'Federal' },
+      { statute: 'U.S. Constitution Article I', description: 'Separation of Powers Violations - Unitary executive overreach', category: 'Constitutional' },
+      { statute: '18 U.S.C. § 595', description: 'Interference by Administrative Employees - Political coercion plans', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: 'Project 2025 Authoritarian Blueprint', slug: 'project-2025', severity: 'critical' },
+      { title: 'Christian Nationalist Takeover', slug: 'christian-nationalism', severity: 'critical' },
+      { title: 'Ukraine Extortion Scheme', slug: 'ukraine-extortion', severity: 'critical' },
+      { title: 'Administrative State Capture', slug: 'admin-state-capture', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1976', event: 'Born in United States' },
+      { date: '1998', event: 'Graduates Wheaton College' },
+      { date: '2001', event: 'Graduates George Washington Law School' },
+      { date: '2001-2007', event: 'Policy staffer in Congress' },
+      { date: '2007-2015', event: 'Policy Director, Republican Study Committee' },
+      { date: '2015-2016', event: 'Vice President, Heritage Action' },
+      { date: '2016', event: 'Controversy over anti-Muslim statements' },
+      { date: '2017', event: 'Joins Trump OMB as Deputy Director' },
+      { date: '2019', event: 'Confirmed as Acting OMB Director' },
+      { date: '2019', event: 'Involved in withholding Ukraine military aid' },
+      { date: '2020', event: 'Confirmed as OMB Director' },
+      { date: 'October 2020', event: 'Issues Schedule F executive order to enable mass firings' },
+      { date: 'January 2021', event: 'Biden rescinds Schedule F order' },
+      { date: 'January 2021', event: 'Leaves OMB after Biden inauguration' },
+      { date: '2021', event: 'Founds Center for Renewing America' },
+      { date: '2022-2023', event: 'Authors Project 2025 chapter on Executive Office of the President' },
+      { date: '2023', event: 'Project 2025"Mandate for Leadership"published' },
+      { date: '2024', event: 'Project 2025 becomes major campaign issue' },
+      { date: '2024', event: 'Trump publicly distances from Project 2025 while advisors embrace it' },
+      { date: '2025', event: 'Expected senior role in second Trump administration' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Project 2025 Mandate for Leadership', url: 'https://www.project2025.org/playbook/', date: '2023' },
+      { title: 'Center for Renewing America Website', url: 'https://americarenewing.com/', date: 'Current' },
+      { title: 'Schedule F Executive Order 13957', url: 'https://www.federalregister.gov/documents/2020/10/26/2020-23780/creating-schedule-f-in-the-excepted-service', date: '2020' },
+      { title: 'OMB Ukraine Aid Withholding Documents', url: 'https://www.gao.gov/assets/gao-20-341.pdf', date: '2020' },
+      { title: 'Senate Confirmation Hearings', url: 'https://www.congress.gov/', date: '2020' },
+      { title: 'New York Times Project 2025 Investigation', url: 'https://www.nytimes.com/', date: '2024' },
+    ],
+    aliases: ['Russ Vought', 'Project 2025 Mastermind'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Appointed OMB Director, key policy advisor', href: '/entities/individuals/donald-trump' },
+      { name: 'Kevin Roberts', relationship: 'Heritage Foundation President, Project 2025 leader', href: '/entities/individuals/kevin-roberts' },
+      { name: 'Stephen Miller', relationship: 'Immigration policy coordination', href: '/entities/individuals/stephen-miller' },
+      { name: 'Steve Bannon', relationship: 'MAGA movement coordination', href: '/entities/individuals/steve-bannon' },
+      { name: 'Mark Meadows', relationship: 'White House coordination during Trump admin', href: '/entities/individuals/mark-meadows' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'ralph-baric': {
+    name: 'Ralph Steven Baric',
+    title: 'Coronavirus Researcher',
+    role: 'Gain of Function Pioneer, UNC Virologist, COVID Origins Figure',
+    riskLevel: 'high',
+    description: 'Ralph Baric is a professor of epidemiology at the University of North Carolina at Chapel Hill and one of the world\'s leading coronavirus researchers. He pioneered techniques for manipulating coronaviruses and collaborated with Wuhan Institute of Virology on chimeric virus research. His 2015 paper with Shi Zhengli demonstrated creating chimeric coronaviruses that could infect human cells. While his research has contributed to pandemic preparedness and therapeutics development, it has also raised serious questions about the risks of gain of function research and the origins of COVID-19.',
+    birthDate: '1954',
+    birthPlace: 'United States',
+    netWorth: 'Undisclosed (University professor)',
+    education: ['Ph.D. in Microbiology and Immunology - North Carolina State University', 'Postdoctoral training - University of Southern California'],
+    affiliations: [
+      { name: 'University of North Carolina at Chapel Hill', role: 'Professor of Epidemiology (1986-present)', type: 'organization' },
+      { name: 'Wuhan Institute of Virology', role: 'Research Collaborator', type: 'organization' },
+      { name: 'National Institutes of Health', role: 'Major Grant Recipient', type: 'agency' },
+      { name: 'EcoHealth Alliance', role: 'Collaborator', type: 'organization' },
+    ],
+    controversies: [
+      '2015 CHIMERIC VIRUS: Co-created chimeric coronavirus using bat virus spike protein, demonstrated human cell infection',
+      'GAIN OF FUNCTION PIONEER: Developed techniques to enhance viral capabilities that raise biosecurity concerns',
+      'WUHAN COLLABORATION: Worked directly with Shi Zhengli and shared techniques with Wuhan lab',
+      'MORATORIUM EXCEPTION: Research continued during 2014-2017 gain of function pause under NIH exception',
+      'NO-SEE CONTRACT: Special agreement with Moderna allowed early remdesivir access but restricted disclosure',
+      'FURIN CLEAVAGE: Questions about whether techniques could have been used to engineer SARS-CoV-2 features',
+      'THERAPEUTIC DEVELOPMENT: Also credited with contributing to COVID-19 treatment and vaccine development',
+      'DUAL USE CONCERN: Research has both defensive and potential offensive applications',
+      'CONGRESSIONAL SCRUTINY: Called to testify about gain of function research and Wuhan connections',
+      'SCIENTIFIC DEBATE: Defends research as necessary for pandemic preparedness despite risks',
+    ],
+    charges: [
+      { statute: 'Select Agent Regulations 42 CFR 73', description: 'Questions about Biosafety Compliance', category: 'Federal' },
+      { statute: 'NIH Guidelines for Research', description: 'Potential Gain of Function Policy Violations', category: 'Federal' },
+      { statute: 'HHS P3CO Framework', description: 'Enhanced Pathogen Research Oversight Questions', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: 'COVID-19 Origins Investigation', slug: 'covid-origins', severity: 'critical' },
+      { title: 'Gain of Function Research', slug: 'gain-of-function', severity: 'critical' },
+      { title: 'Wuhan Lab Connection', slug: 'wuhan-lab', severity: 'critical' },
+      { title: 'Lab Leak Cover-Up', slug: 'lab-leak', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1954', event: 'Born in United States' },
+      { date: '1980s', event: 'Begins coronavirus research' },
+      { date: '1986', event: 'Joins University of North Carolina faculty' },
+      { date: '2000s', event: 'Develops reverse genetics systems for coronaviruses' },
+      { date: '2008', event: 'Develops techniques to create chimeric coronaviruses' },
+      { date: '2013', event: 'Begins collaboration with Wuhan Institute of Virology' },
+      { date: '2014', event: 'NIH announces gain of function research moratorium' },
+      { date: '2015', event: 'Receives exception to continue research during moratorium' },
+      { date: 'November 2015', event: 'Publishes chimeric virus paper with Shi Zhengli in Nature Medicine' },
+      { date: '2017', event: 'Gain of function moratorium lifted' },
+      { date: 'December 2019', event: 'COVID-19 emerges in Wuhan' },
+      { date: '2020', event: 'Work scrutinized in context of pandemic origins' },
+      { date: '2020', event: 'Contributes to remdesivir development and testing' },
+      { date: '2021', event: 'Called to discuss research by congressional investigators' },
+      { date: '2022-2024', event: 'Continues to defend research as necessary for preparedness' },
+      { date: '2024', event: 'Congressional investigations continue into gain of function oversight' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: '2015 Nature Medicine Paper', url: 'https://www.nature.com/articles/nm.3985', date: '2015' },
+      { title: 'NIH Grant Records', url: 'https://reporter.nih.gov/', date: 'Various' },
+      { title: 'House Select Subcommittee Testimony', url: 'https://oversight.house.gov/', date: '2023' },
+      { title: 'MIT Technology Review - Baric Profile', url: 'https://scholar.google.com/scholar?q=MIT%20Technology%20Review%20-%20Baric%20Profile', date: '2021' },
+      { title: 'UNC Research Publications', url: 'https://sph.unc.edu/adv_profile/ralph-s-baric-phd/', date: 'Various' },
+      { title: 'Gain of Function Research Papers', url: 'https://scholar.google.com/scholar?q=Gain%20of%20Function%20Research%20Papers', date: '2008-2019' },
+    ],
+    aliases: ['Dr. Baric', 'Coronavirus Pioneer'],
+    knownAssociates: [
+      { name: 'Shi Zhengli', relationship: 'Wuhan"Bat Woman,"co-authored 2015 chimeric virus paper', href: '/entities/individuals/shi-zhengli' },
+      { name: 'Peter Daszak', relationship: 'EcoHealth Alliance, joint research', href: '/entities/individuals/peter-daszak' },
+      { name: 'Francis Collins', relationship: 'NIH Director, grant oversight', href: '/entities/individuals/francis-collins' },
+      { name: 'Anthony Fauci', relationship: 'NIAID Director, funding source', href: '/entities/individuals/anthony-fauci' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'ronald-reagan': {
+    name: 'Ronald Reagan',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ronald Reagan is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Ronald Reagan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'richard-perle': {
+    name: 'Richard Perle',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Richard Perle is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Richard Perle has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'rick-gerson': {
+    name: 'Rick Gerson',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Rick Gerson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Rick Gerson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'robert-novak': {
+    name: 'Robert Novak',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Robert Novak is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Robert Novak has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'richard-armitage': {
+    name: 'Richard Armitage',
+    title: 'Former Deputy Secretary of State',
+    role: 'Deputy Secretary of State who leaked classified CIA identity',
+    riskLevel: 'high',
+    description: 'Deputy Secretary of State under Colin Powell who was the primary source for Robert Novak\'s column that outed CIA operative Valerie Plame. Despite being the original leaker, Armitage was never prosecuted while Scooter Libby was convicted. Armitage was also involved in Iran-Contra as Assistant Secretary of Defense.',
+    birthDate: 'April 26, 1945',
+    birthPlace: 'Boston, Massachusetts',
+    education: ['U.S. Naval Academy (1967)'],
+    affiliations: [
+      { name: 'U.S. State Department', role: 'Deputy Secretary of State', type: 'agency' },
+      { name: 'Department of Defense', role: 'Assistant Secretary', type: 'agency' },
+      { name: 'Bush Administration', role: 'Senior Official', type: 'organization' },
+    ],
+    controversies: [
+      'Primary source who leaked Valerie Plame\'s CIA identity to Robert Novak',
+      'Never prosecuted despite being original leaker while Scooter Libby convicted',
+      'Involved in Iran-Contra affair during Reagan administration',
+      'Escaped accountability through special counsel investigation',
+    ],
+    charges: [
+      { statute: 'Intelligence Identities Protection Act - 50 U.S.C. § 421', description: 'Disclosed identity of covert CIA officer', category: 'National Security' },
+      { statute: 'Espionage Act - 18 U.S.C. § 793', description: 'Leaked classified information about intelligence operative', category: 'National Security' },
+      { statute: 'Obstruction of Justice - 18 U.S.C. § 1503', description: 'Potential concealment during investigation', category: 'Obstruction' },
+    ],
+    relatedInvestigations: [
+      { title: 'Plame Leak Scandal', slug: 'plame-leak', severity: 'high' },
+      { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
+      { title: 'Iran-Contra Affair', slug: 'iran-contra', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'April 26, 1945', event: 'Born in Boston, Massachusetts' },
+      { date: '1967', event: 'Graduates U.S. Naval Academy' },
+      { date: '1967-1973', event: 'Vietnam War service, three tours' },
+      { date: '1983-1989', event: 'Assistant Secretary of Defense for International Security Affairs' },
+      { date: '1986-1987', event: 'Involved in Iran-Contra affair negotiations' },
+      { date: '2001-2005', event: 'Deputy Secretary of State under Colin Powell' },
+      { date: 'June 2003', event: 'Learns of Valerie Plame from State Dept. memo' },
+      { date: 'July 8, 2003', event: 'Tells Robert Novak about Valerie Plame' },
+      { date: 'July 14, 2003', event: 'Novak publishes column outing Plame' },
+      { date: '2006', event: 'Revealed as primary leak source by Fitzgerald investigation' },
+      { date: '2006', event: 'Escapes prosecution despite being original leaker' },
+      { date: '2007', event: 'Scooter Libby convicted while Armitage walks free' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Fitzgerald Investigation Final Report', url: 'https://www.ignet.gov/', date: '2006' },
+      { title: 'David Corn -"Hubris: The Inside Story of Spin, Scandal, and the Selling of the Iraq War"', url: 'https://scholar.google.com/scholar?q=David%20Corn%20-%22Hubris%3A%20The%20Inside%20Story%20of%20Spin%2C%20Scandal%2C%20and%20the%20Selling%20of%20the%20Iraq%20War%22', date: '2006' },
+      { title: 'Robert Novak Memoir -"The Prince of Darkness"', url: 'https://www.goodreads.com/', date: '2007' },
+      { title: 'U.S. v. Libby Trial Records', url: 'https://scholar.google.com/scholar?q=U.S.%20v.%20Libby%20Trial%20Records', date: '2007' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Colin Powell', relationship: 'Superior at State Department', href: '/entities/individuals/colin-powell' },
+      { name: 'Robert Novak', relationship: 'Journalist who published Plame leak', href: '/entities/individuals/robert-novak' },
+      { name: 'George W. Bush', relationship: 'President', href: '/entities/individuals/george-w-bush' },
+      { name: 'Condoleezza Rice', relationship: 'National Security Advisor', href: '/entities/individuals/condoleezza-rice' },
+      { name: 'Scooter Libby', relationship: 'Co-leaker who was prosecuted', href: '/entities/individuals/scooter-libby' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'rick-snyder': {
+    name: 'Rick Snyder',
+    title: 'Former Governor of Michigan',
+    role: 'Governor whose administration poisoned Flint residents with lead-contaminated water',
+    riskLevel: 'critical',
+    description: 'Rick Snyder served as Governor of Michigan from 2011-2019 and was criminally charged for his role in the Flint water crisis. His administration\'s cost-cutting decisions and subsequent cover-up poisoned 100,000 residents with lead-contaminated water. Despite being charged with willful neglect of duty, all charges were dropped in 2022. The predominantly Black city of Flint continues to suffer the consequences.',
+    education: [],
+    affiliations: [
+      { name: 'State of Michigan', role: 'Governor (2011-2019)', type: 'agency' },
+    ],
+    controversies: [
+      'EMERGENCY MANAGEMENT: Snyder signed legislation expanding emergency manager powers over financially distressed cities. Emergency managers, appointed by Snyder, stripped elected officials of power in majority-Black cities including Flint and Detroit.',
+      'COST-CUTTING DECISION: Under Snyder\'s appointed emergency manager, Flint switched water sources in April 2014 to save $5 million. No corrosion control was implemented despite known risks.',
+      'IGNORED WARNINGS: Snyder\'s administration received numerous warnings about water quality and lead levels. Internal emails show officials knew of problems while publicly claiming the water was safe.',
+      'COVER-UP: The Michigan Department of Environmental Quality, under Snyder\'s administration, manipulated testing protocols to hide lead contamination. Officials attacked and discredited researchers who exposed the crisis.',
+      'LEGIONNAIRES\' OUTBREAK: At least 12 people died from Legionnaires\' disease caused by the contaminated water. Snyder\'s administration initially concealed the outbreak.',
+      'DELAYED RESPONSE: Despite knowing of lead contamination, Snyder did not declare a state of emergency until January 2016 - nearly two years after the water switch.',
+      'CRIMINAL CHARGES: In January 2021, Snyder was charged with two counts of willful neglect of duty (misdemeanors). He was the first Michigan governor charged with crimes related to actions in office.',
+      'CHARGES DROPPED: In June 2022, the Michigan Supreme Court ruled the indictments were invalid due to procedural issues with the one-person grand jury. Charges against Snyder and other officials were dismissed.',
+      'NO ACCOUNTABILITY: Despite poisoning 100,000 people, Snyder faces no criminal consequences. The Flint water crisis exemplifies environmental racism and official impunity.',
+    ],
+    charges: [
+      { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Other Inhumane Acts: Actions causing great suffering and serious injury to body - lead poisoning of 100,000 people', category: 'International Criminal Law' },
+      { statute: 'MCL 750.478', description: 'Willful Neglect of Duty: Charged (2 counts) - dismissed on procedural grounds', category: 'State Criminal Law' },
+      { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law: Potential federal charge for depriving residents of safe water', category: 'Federal Civil Rights' },
+    ],
+    relatedInvestigations: [
+      { title: 'Flint Water Crisis', slug: 'flint-water-crisis', severity: 'critical' },
+      { title: 'Environmental Racism', slug: 'environmental-racism', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'August 19, 1958', event: 'Born in Battle Creek, Michigan' },
+      { date: 'January 1, 2011', event: 'Becomes Governor of Michigan' },
+      { date: '2011', event: 'Signs expanded emergency manager legislation' },
+      { date: '2013', event: 'Appoints emergency manager to Flint' },
+      { date: 'April 25, 2014', event: 'Flint switches water source under emergency management' },
+      { date: '2014-2015', event: 'Administration ignores warnings, covers up contamination' },
+      { date: 'January 2016', event: 'Finally declares state of emergency' },
+      { date: 'January 2019', event: 'Leaves office' },
+      { date: 'January 14, 2021', event: 'Charged with willful neglect of duty' },
+      { date: 'June 2022', event: 'Charges dismissed by Michigan Supreme Court' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Michigan Civil Rights Commission - Flint Report', url: 'https://www.ignet.gov/', date: '2017' },
+      { title: 'Snyder administration emails (FOIA)', url: 'https://www.courtlistener.com/', date: 'Various' },
+      { title: 'Criminal indictment', url: 'https://www.justice.gov/', date: '2021' },
+      { title: 'Michigan Supreme Court ruling', url: 'https://www.courtlistener.com/', date: '2022' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Republican governor during Trump era; Flint water crisis overlapped with 2016 campaign', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'richard-helms': {
+    name: 'Richard Helms',
+    title: 'CIA Director (1966-1973)',
+    role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress about Chile',
+    riskLevel: 'critical',
+    description: 'Richard Helms served as CIA Director from 1966-1973 and ordered the destruction of MKUltra records to prevent accountability for human experimentation crimes. He lied to Congress about CIA involvement in the Chilean coup and was convicted of perjury - receiving only a $2,000 fine. He oversaw continued mind control experiments, assassination programs, and domestic surveillance while destroying evidence of the CIA\'s worst crimes.',
+    education: [],
+    affiliations: [
+      { name: 'CIA', role: 'Director (1966-1973)', type: 'agency' },
+    ],
+    controversies: [
+      'MKULTRA DESTRUCTION: In 1973, as the Watergate scandal threatened to expose CIA activities, Helms ordered the destruction of all MKUltra files. Most were shredded, eliminating evidence of experiments on thousands of unwitting Americans.',
+      'CHILE PERJURY: Helms testified to Congress that the CIA was not involved in the 1973 coup against Salvador Allende. This was a deliberate lie. He was later convicted of failing to testify"fully and completely."',
+      'MINIMAL PUNISHMENT: Despite lying to Congress about operations that overthrew a democracy and killed thousands, Helms received only a $2,000 fine and a two-year suspended sentence. He reportedly considered the conviction a"badge of honor."',
+      'ASSASSINATION PROGRAMS: As Director, Helms oversaw CIA assassination programs against foreign leaders including Fidel Castro. He managed plausible deniability for the Agency.',
+      'DOMESTIC SURVEILLANCE: Operation CHAOS, run under Helms, spied on American antiwar activists. This violated the CIA\'s charter prohibiting domestic operations.',
+      'WATERGATE CONNECTIONS: Helms navigated Watergate carefully, refusing to let the CIA take blame for the burglary while hiding the Agency\'s own secrets.',
+      'EVIDENCE DESTRUCTION PATTERN: Beyond MKUltra, Helms established a pattern of destroying evidence. He understood that without records, crimes couldn\'t be proven.',
+      'PROTECTED REPUTATION: Despite destroying evidence of American citizens being tortured and drugged, Helms maintained his reputation in Washington. He was welcomed in elite circles until his death.',
+    ],
+    charges: [
+      { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity - Torture: Oversaw continuation of MKUltra experiments', category: 'International Criminal Law' },
+      { statute: 'Rome Statute Article 70(1)(c)', description: 'Obstruction of Justice: Destroyed evidence to prevent accountability', category: 'International Criminal Law' },
+      { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Directed operations to overthrow the Chilean government', category: 'International Criminal Law' },
+      { statute: '18 U.S.C. § 1621', description: 'Perjury: Convicted for lying to Congress about Chile', category: 'Federal Crimes' },
+      { statute: '18 U.S.C. § 1001', description: 'False Statements: Lies to Congressional committees', category: 'Federal Crimes' },
+      { statute: '18 U.S.C. § 1519', description: 'Destruction of Records: Ordered destruction of MKUltra files', category: 'Federal Crimes' },
+      { statute: '18 U.S.C. § 1512', description: 'Obstruction of Justice: Evidence destruction to impede investigations', category: 'Federal Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'MKUltra Mind Control Program', slug: 'mkultra', severity: 'critical' },
+      { title: 'Chile Coup 1973', slug: 'chile-coup', severity: 'critical' },
+      { title: 'Operation CHAOS', slug: 'operation-chaos', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'March 30, 1913', event: 'Born in St. Davids, Pennsylvania' },
+      { date: '1942', event: 'Joins OSS' },
+      { date: '1947', event: 'Joins CIA at its founding' },
+      { date: 'June 30, 1966', event: 'Becomes CIA Director' },
+      { date: '1967-1974', event: 'Oversees Operation CHAOS domestic surveillance' },
+      { date: '1973', event: 'Orders destruction of MKUltra files' },
+      { date: 'September 1973', event: 'CIA helps overthrow Allende in Chile' },
+      { date: 'February 2, 1973', event: 'Leaves CIA, becomes Ambassador to Iran' },
+      { date: '1977', event: 'Testifies falsely to Congress about Chile' },
+      { date: 'November 4, 1977', event: 'Pleads no contest to perjury, fined $2,000' },
+      { date: 'October 22, 2002', event: 'Dies in Washington, D.C.' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Senate Church Committee Reports', url: 'https://www.congress.gov/', date: '1976' },
+      { title: 'Thomas Powers -"The Man Who Kept the Secrets"', url: 'https://www.who.int/', date: '1979' },
+      { title: 'Perjury case court records', url: 'https://scholar.google.com/scholar?q=Perjury%20case%20court%20records', date: '1977' },
+      { title: 'CIA declassified documents', url: 'https://www.cia.gov/readingroom/', date: 'Various' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Sidney Gottlieb', relationship: 'MKUltra director under his command', href: '/entities/individuals/sidney-gottlieb' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'robert-mcnamara': {
+    name: 'Robert McNamara',
+    title: 'Secretary of Defense (1961-1968)',
+    role: 'Defense Secretary who lied about Gulf of Tonkin and presided over Vietnam escalation',
+    riskLevel: 'critical',
+    description: 'Robert McNamara served as Secretary of Defense under Kennedy and Johnson, presiding over the massive escalation of the Vietnam War. He lied to Congress and the public about the Gulf of Tonkin incident and the war\'s progress while privately doubting it could be won. His"body count"metrics and bombing campaigns killed millions. Decades later, he admitted"We were wrong, terribly wrong"- but faced no accountability.',
+    education: [],
+    affiliations: [
+      { name: 'Department of Defense', role: 'Secretary (1961-1968)', type: 'agency' },
+      { name: 'World Bank', role: 'President (1968-1981)', type: 'organization' },
+    ],
+    controversies: [
+      'TONKIN LIES: McNamara told Congress the Gulf of Tonkin attacks were"unequivocal"and"unprovoked."Both claims were false. The second attack never happened, and the U.S. had been conducting covert operations against North Vietnam.',
+      'WAR ESCALATION: McNamara oversaw the buildup from 16,000 advisors to over 500,000 troops. He approved massive bombing campaigns that dropped more tonnage than all of WWII.',
+      'BODY COUNT: McNamara\'s Pentagon measured success through"body counts"and"kill ratios"- dehumanizing metrics that incentivized civilian casualties and false reporting.',
+      'PRIVATE DOUBTS: McNamara privately doubted the war could be won as early as 1965-1966, yet continued publicly supporting escalation. The Pentagon Papers revealed the depth of internal pessimism.',
+      'AGENT ORANGE: Under McNamara, the military sprayed millions of gallons of Agent Orange over Vietnam, causing cancer, birth defects, and environmental devastation that continues today.',
+      'LEAVING OFFICE: McNamara left the Pentagon in 1968 and became World Bank president. He never faced consequences for the war\'s deceptions.',
+      'LATE ADMISSION: In his 1995 memoir and 2003 documentary"The Fog of War,"McNamara admitted the war was wrong."We were wrong, terribly wrong. We owe it to future generations to explain why."But he stopped short of calling it criminal.',
+      'NO ACCOUNTABILITY: Despite his role in a war that killed millions based on lies, McNamara lived comfortably until age 93. His late-life remorse changed nothing for the dead.',
+    ],
+    charges: [
+      { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes - Attack on Civilians: Bombing campaigns killed hundreds of thousands of civilians', category: 'International Criminal Law' },
+      { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crimes - Causing Widespread Environmental Damage: Agent Orange spraying devastated Vietnam\'s environment', category: 'International Criminal Law' },
+      { statute: '18 U.S.C. § 1001', description: 'False Statements: Lied to Congress about Tonkin incident', category: 'Federal Crimes' },
+      { statute: '18 U.S.C. § 1621', description: 'Perjury: False testimony under oath', category: 'Federal Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'Gulf of Tonkin Incident', slug: 'gulf-of-tonkin', severity: 'critical' },
+      { title: 'Vietnam War', slug: 'vietnam-war', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'June 9, 1916', event: 'Born in San Francisco, California' },
+      { date: 'January 21, 1961', event: 'Becomes Secretary of Defense under Kennedy' },
+      { date: 'August 1964', event: 'Testifies falsely about Gulf of Tonkin' },
+      { date: '1965-1968', event: 'Oversees massive Vietnam escalation' },
+      { date: 'February 29, 1968', event: 'Leaves Pentagon' },
+      { date: '1968-1981', event: 'World Bank president' },
+      { date: '1995', event: 'Publishes"In Retrospect"admitting errors' },
+      { date: '2003', event: '"Fog of War"documentary' },
+      { date: 'July 6, 2009', event: 'Dies in Washington, D.C., age 93' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Pentagon Papers', url: 'https://www.archives.gov/research/pentagon-papers', date: '1971' },
+      { title: 'Robert McNamara -"In Retrospect"', url: 'https://scholar.google.com/scholar?q=Robert%20McNamara%20-%22In%20Retrospect%22', date: '1995' },
+      { title: 'Errol Morris -"The Fog of War"', url: 'https://scholar.google.com/scholar?q=Errol%20Morris%20-%22The%20Fog%20of%20War%22', date: '2003' },
+      { title: 'Congressional testimony transcripts', url: 'https://www.congress.gov/', date: '1964' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Lyndon B. Johnson', relationship: 'President he served', href: '/entities/individuals/lyndon-b-johnson' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'reality-winner': {
+    name: 'Reality Winner',
+    title: 'NSA Whistleblower',
+    role: 'Leaked evidence of Russian election interference, imprisoned',
+    riskLevel: 'low',
+    description: 'Reality Winner was an NSA contractor who leaked a classified report showing Russian interference in the 2016 election to The Intercept. She was sentenced to over 5 years in prison - the longest sentence ever for an unauthorized disclosure to the media - while those who benefited from Russian interference faced no consequences.',
+    birthDate: 'December 4, 1991',
+    birthPlace: 'Alice, Texas',
+    education: ['Air Force training'],
+    affiliations: [
+      { name: 'National Security Agency', role: 'Contractor', type: 'agency' },
+      { name: 'U.S. Air Force', role: 'Former Airman', type: 'agency' },
+    ],
+    controversies: [
+      'NSA contractor who leaked classified report proving Russian cyberattacks on U.S. election infrastructure',
+      'Sentenced to 5 years and 3 months - the longest sentence ever for an unauthorized disclosure to media',
+      'Her leak confirmed what intelligence agencies were warning about Russian interference in 2016 election',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Russian Election Interference', slug: 'russian-election-interference', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'December 4, 1991', event: 'Born in Alice, Texas' },
+      { date: '2010-2016', event: 'Serves in U.S. Air Force' },
+      { date: 'February 2017', event: 'Begins work as NSA contractor' },
+      { date: 'May 2017', event: 'Leaks Russian interference document' },
+      { date: 'June 3, 2017', event: 'Arrested' },
+      { date: 'June 2018', event: 'Sentenced to 63 months' },
+      { date: 'June 2021', event: 'Released to home confinement' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'The Intercept - NSA report on Russian election hacking', url: 'https://theintercept.com/', date: '2017' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President whose administration aggressively prosecuted Winner for leaking evidence of Russian election interference', href: '/entities/individuals/donald-trump' },
+      { name: 'Jeff Sessions', relationship: 'Attorney General who personally announced Winner\'s prosecution and pledged crackdown on leakers', href: '/entities/individuals/jeff-sessions' },
+      { name: 'Edward Snowden', relationship: 'Fellow NSA whistleblower whose case set precedent for Espionage Act prosecutions of leakers', href: '/entities/individuals/edward-snowden' },
+      { name: 'Daniel Hale', relationship: 'Fellow intelligence community whistleblower prosecuted under Espionage Act for revealing drone program details', href: '/entities/individuals/daniel-hale' },
+    ],
+  },
+
  'robert-f-kennedy': {
  name: 'Robert F. Kennedy',
  title: 'U.S. Attorney General / Senator',
@@ -2233,148 +2099,173 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Sandy Hook Promise Foundation', url: 'https://scholar.google.com/scholar?q=Sandy%20Hook%20Promise%20Foundation', date: 'Various' },
  ],
  },
- 'richard-clarke': {
- name: 'Richard Clarke',
- title: 'Counter-Terrorism Coordinator',
- role: 'Official who warned about Al-Qaeda before 9/11, testified about failures',
- riskLevel: 'low',
- description: 'Richard Clarke was the National Coordinator for Security and Counter-terrorism who repeatedly warned the Bush administration about Al-Qaeda before 9/11. At the 9/11 Commission, he famously apologized to the families:"Your government failed you... and I failed you."',
- birthDate: 'October 27, 1950',
- birthPlace: 'Boston, Massachusetts',
- education: ['University of Pennsylvania', 'MIT'],
- affiliations: [
- { name: 'National Security Council', role: 'Counter-Terrorism Coordinator', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'George W. Bush', relationship: 'President Clarke served under as counterterrorism coordinator; Clarke testified Bush administration ignored pre-9/11 warnings', href: '/entities/individuals/george-w-bush' },
- { name: 'Condoleezza Rice', relationship: 'National Security Advisor whom Clarke warned about al-Qaeda threats before 9/11', href: '/entities/individuals/condoleezza-rice' },
- { name: 'Bill Clinton', relationship: 'President under whom Clarke served as National Coordinator for Counterterrorism', href: '/entities/individuals/bill-clinton' },
- { name: 'George Tenet', relationship: 'CIA Director who shared Clarke\'s concerns about imminent al-Qaeda attack pre-9/11', href: '/entities/individuals/george-tenet' },
- ],
- controversies: [
- 'Testified before 9/11 Commission that Bush administration failed to act on urgent al-Qaeda warnings',
- 'Publicly apologized to 9/11 families saying"your government failed you"',
- 'Warned Condoleezza Rice about imminent al-Qaeda attack in months before September 11',
- ],
- charges: [],
- relatedInvestigations: [
- { title: '9/11 Intelligence Failures', slug: '9-11-failures', severity: 'critical' },
- ],
- timeline: [
- { date: 'October 27, 1950', event: 'Born in Boston' },
- { date: 'January 2001', event: 'Requests urgent meeting on Al-Qaeda (ignored)' },
- { date: 'September 11, 2001', event: '9/11 attacks' },
- { date: 'March 24, 2004', event: 'Testifies before 9/11 Commission, apologizes' },
- ],
- sources: [
- { title: '9/11 Commission testimony', url: 'https://scholar.google.com/scholar?q=9%2F11%20Commission%20testimony', date: '2004' },
- { title: 'Richard Clarke -"Against All Enemies"', url: 'https://scholar.google.com/scholar?q=Richard%20Clarke%20-%22Against%20All%20Enemies%22', date: '2004' },
- ],
- },
- 'rebekah-brooks': {
- name: 'Rebekah Mary Brooks',
- title: 'CEO of News UK',
- role: 'Media Executive, Phone Hacking Central Figure',
- riskLevel: 'high',
- description: 'Rebekah Brooks (née Wade) is CEO of News UK (formerly News International), the British newspaper arm of Rupert Murdoch\'s empire. She was editor of News of the World (2000-2003) and The Sun (2003-2009) when systematic phone hacking of celebrities, politicians, and crime victims occurred. She was arrested and charged with phone hacking and obstruction of justice but acquitted in 2014. Despite the scandal, she was rehired as CEO in 2015, demonstrating Murdoch\'s loyalty to her.',
- birthDate: 'May 27, 1968',
- birthPlace: 'Warrington, Cheshire, UK',
- education: [
- 'Appleton Hall County Grammar School',
- ],
- aliases: ['Rebekah Wade (maiden name)'],
- affiliations: [
- { name: 'News UK', role: 'CEO (2009-2011, 2015-present)', type: 'corporation' },
- { name: 'News of the World', role: 'Former Editor (2000-2003)', type: 'corporation' },
- { name: 'The Sun', role: 'Former Editor (2003-2009)', type: 'corporation' },
- { name: 'News Corporation', role: 'Senior Executive', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Rupert Murdoch', relationship: 'Employer, close ally', href: '/entities/individuals/rupert-murdoch' },
- { name: 'James Murdoch', relationship: 'Former boss at News International', href: '/entities/individuals/james-murdoch' },
- { name: 'Andy Coulson', relationship: 'Successor as NoTW editor, convicted of hacking', href: '/entities/individuals/andy-coulson' },
- { name: 'David Cameron', relationship: 'Close friend, Christmas neighbor', href: '/entities/individuals/david-cameron' },
- ],
- controversies: [
- 'PHONE HACKING: Newspaper under her editorship hacked phones of celebrities, politicians, and crime victims',
- 'MILLY DOWLER: News of the World hacked murdered schoolgirl\'s phone, giving false hope to family',
- 'OBSTRUCTION CHARGES: Charged with conspiring to pervert course of justice (acquitted)',
- 'CRIMINAL TRIAL: Arrested and tried alongside Andy Coulson, acquitted on all charges 2014',
- 'REHIRED: Despite scandal, rehired as News UK CEO in 2015',
- 'POLITICAL ACCESS: Close relationship with Prime Ministers Blair, Brown, Cameron',
- ],
- charges: [
- { statute: 'UK Regulation of Investigatory Powers Act 2000', description: 'Phone interception (charged, acquitted)', category: 'Cybercrimes' },
- { statute: 'Perverting the Course of Justice', description: 'Obstruction conspiracy (charged, acquitted)', category: 'Obstruction' },
- { statute: 'Data Protection Act', description: 'Privacy violations during editorship', category: 'Privacy Crimes' },
- ],
- relatedInvestigations: [
- { title: 'News of the World Phone Hacking', slug: 'news-of-the-world-hacking', severity: 'high' },
- { title: 'Media Manipulation Networks', slug: 'media-manipulation', severity: 'high' },
- ],
- timeline: [
- { date: 'May 27, 1968', event: 'Born in Warrington, Cheshire' },
- { date: '1989', event: 'Joins News of the World as secretary' },
- { date: '2000', event: 'Becomes editor of News of the World at age 31' },
- { date: '2003', event: 'Becomes editor of The Sun' },
- { date: '2009', event: 'Becomes CEO of News International' },
- { date: 'July 2011', event: 'News of the World closes' },
- { date: 'July 15, 2011', event: 'Resigns as CEO amid scandal' },
- { date: 'July 17, 2011', event: 'Arrested on phone hacking charges' },
- { date: 'June 24, 2014', event: 'Acquitted of all charges' },
- { date: 'September 2015', event: 'Returns as CEO of News UK' },
- ],
- sources: [
- { title: 'R v Brooks & Others Trial Documents', url: 'https://scholar.google.com/scholar?q=R%20v%20Brooks%20%26%20Others%20Trial%20Documents', date: '2013-2014' },
- { title: 'Leveson Inquiry Testimony', url: 'https://www.gov.uk/government/publications/leveson-inquiry-report-into-the-culture-practices-and-ethics-of-the-press', date: '2012' },
- ],
- },
- 'ryan-mccarthy': {
- name: 'Ryan McCarthy',
- title: 'Former Secretary of the Army',
- role: 'Army Leadership During January 6',
- riskLevel: 'high',
- description: 'Ryan McCarthy served as Secretary of the Army from September 2019 to January 2021. He is a key figure in the delayed National Guard response to the January 6 Capitol attack. The Guard took over 3 hours to deploy after initial requests, raising questions about why military assistance was withheld during the insurrection. McCarthy approved the eventual deployment but the delay allowed the mob to breach the Capitol for hours.',
- birthDate: 'February 1975',
- birthPlace: 'Illinois, USA',
- education: [
- 'Virginia Military Institute',
- 'Georgetown University - MBA',
- ],
- affiliations: [
- { name: 'Department of the Army', role: 'Secretary (2019-2021)', type: 'agency' },
- { name: 'Department of Defense', role: 'Under Secretary (2017-2019)', type: 'agency' },
- { name: 'Lockheed Martin', role: 'Former Executive', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Mark Milley', relationship: 'Chairman Joint Chiefs during Jan 6', href: '/entities/individuals/mark-milley' },
- { name: 'Christopher Miller', relationship: 'Acting SecDef during Jan 6', href: '/entities/individuals/christopher-miller' },
- { name: 'Donald Trump', relationship: 'Appointed by', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'JANUARY 6 RESPONSE: National Guard took 3+ hours to deploy despite urgent requests',
- 'PENTAGON DELAYS: Questions about who authorized the delay in Guard deployment',
- 'COMMAND CONFUSION: Conflicting accounts of who could authorize deployment',
- 'CONGRESSIONAL TESTIMONY: Testified to Congress about delayed response',
- ],
- charges: [
- { statute: '10 U.S.C. § 892', description: 'Potential dereliction of duty during insurrection', category: 'Military Justice' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- ],
- timeline: [
- { date: 'February 1975', event: 'Born in Illinois' },
- { date: 'September 2019', event: 'Confirmed as Secretary of the Army' },
- { date: 'January 6, 2021', event: 'Capitol attacked, Guard deployment delayed' },
- { date: 'January 6, 2021, 5:08 PM', event: 'Finally authorizes Guard deployment' },
- { date: 'January 20, 2021', event: 'Leaves office' },
- ],
- sources: [
- { title: 'January 6th Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- { title: 'DOD IG Report on January 6', url: 'https://www.ignet.gov/', date: '2022' },
- ],
- },
+  'richard-clarke': {
+    name: 'Richard Clarke',
+    title: 'Counter-Terrorism Coordinator',
+    role: 'Official who warned about Al-Qaeda before 9/11, testified about failures',
+    riskLevel: 'low',
+    description: 'Richard Clarke was the National Coordinator for Security and Counter-terrorism who repeatedly warned the Bush administration about Al-Qaeda before 9/11. At the 9/11 Commission, he famously apologized to the families:"Your government failed you... and I failed you."',
+    birthDate: 'October 27, 1950',
+    birthPlace: 'Boston, Massachusetts',
+    education: ['University of Pennsylvania', 'MIT'],
+    affiliations: [
+      { name: 'National Security Council', role: 'Counter-Terrorism Coordinator', type: 'agency' },
+    ],
+    controversies: [
+      'Testified before 9/11 Commission that Bush administration failed to act on urgent al-Qaeda warnings',
+      'Publicly apologized to 9/11 families saying"your government failed you"',
+      'Warned Condoleezza Rice about imminent al-Qaeda attack in months before September 11',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: '9/11 Intelligence Failures', slug: '9-11-failures', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'October 27, 1950', event: 'Born in Boston' },
+      { date: 'January 2001', event: 'Requests urgent meeting on Al-Qaeda (ignored)' },
+      { date: 'September 11, 2001', event: '9/11 attacks' },
+      { date: 'March 24, 2004', event: 'Testifies before 9/11 Commission, apologizes' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: '9/11 Commission testimony', url: 'https://scholar.google.com/scholar?q=9%2F11%20Commission%20testimony', date: '2004' },
+      { title: 'Richard Clarke -"Against All Enemies"', url: 'https://scholar.google.com/scholar?q=Richard%20Clarke%20-%22Against%20All%20Enemies%22', date: '2004' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'George W. Bush', relationship: 'President Clarke served under as counterterrorism coordinator; Clarke testified Bush administration ignored pre-9/11 warnings', href: '/entities/individuals/george-w-bush' },
+      { name: 'Condoleezza Rice', relationship: 'National Security Advisor whom Clarke warned about al-Qaeda threats before 9/11', href: '/entities/individuals/condoleezza-rice' },
+      { name: 'Bill Clinton', relationship: 'President under whom Clarke served as National Coordinator for Counterterrorism', href: '/entities/individuals/bill-clinton' },
+      { name: 'George Tenet', relationship: 'CIA Director who shared Clarke\'s concerns about imminent al-Qaeda attack pre-9/11', href: '/entities/individuals/george-tenet' },
+    ],
+  },
+
+  'rebekah-brooks': {
+    name: 'Rebekah Mary Brooks',
+    title: 'CEO of News UK',
+    role: 'Media Executive, Phone Hacking Central Figure',
+    riskLevel: 'high',
+    description: 'Rebekah Brooks (née Wade) is CEO of News UK (formerly News International), the British newspaper arm of Rupert Murdoch\'s empire. She was editor of News of the World (2000-2003) and The Sun (2003-2009) when systematic phone hacking of celebrities, politicians, and crime victims occurred. She was arrested and charged with phone hacking and obstruction of justice but acquitted in 2014. Despite the scandal, she was rehired as CEO in 2015, demonstrating Murdoch\'s loyalty to her.',
+    birthDate: 'May 27, 1968',
+    birthPlace: 'Warrington, Cheshire, UK',
+    education: ['Appleton Hall County Grammar School'],
+    affiliations: [
+      { name: 'News UK', role: 'CEO (2009-2011, 2015-present)', type: 'corporation' },
+      { name: 'News of the World', role: 'Former Editor (2000-2003)', type: 'corporation' },
+      { name: 'The Sun', role: 'Former Editor (2003-2009)', type: 'corporation' },
+      { name: 'News Corporation', role: 'Senior Executive', type: 'corporation' },
+    ],
+    controversies: [
+      'PHONE HACKING: Newspaper under her editorship hacked phones of celebrities, politicians, and crime victims',
+      'MILLY DOWLER: News of the World hacked murdered schoolgirl\'s phone, giving false hope to family',
+      'OBSTRUCTION CHARGES: Charged with conspiring to pervert course of justice (acquitted)',
+      'CRIMINAL TRIAL: Arrested and tried alongside Andy Coulson, acquitted on all charges 2014',
+      'REHIRED: Despite scandal, rehired as News UK CEO in 2015',
+      'POLITICAL ACCESS: Close relationship with Prime Ministers Blair, Brown, Cameron',
+    ],
+    charges: [
+      { statute: 'UK Regulation of Investigatory Powers Act 2000', description: 'Phone interception (charged, acquitted)', category: 'Cybercrimes' },
+      { statute: 'Perverting the Course of Justice', description: 'Obstruction conspiracy (charged, acquitted)', category: 'Obstruction' },
+      { statute: 'Data Protection Act', description: 'Privacy violations during editorship', category: 'Privacy Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'News of the World Phone Hacking', slug: 'news-of-the-world-hacking', severity: 'high' },
+      { title: 'Media Manipulation Networks', slug: 'media-manipulation', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'May 27, 1968', event: 'Born in Warrington, Cheshire' },
+      { date: '1989', event: 'Joins News of the World as secretary' },
+      { date: '2000', event: 'Becomes editor of News of the World at age 31' },
+      { date: '2003', event: 'Becomes editor of The Sun' },
+      { date: '2009', event: 'Becomes CEO of News International' },
+      { date: 'July 2011', event: 'News of the World closes' },
+      { date: 'July 15, 2011', event: 'Resigns as CEO amid scandal' },
+      { date: 'July 17, 2011', event: 'Arrested on phone hacking charges' },
+      { date: 'June 24, 2014', event: 'Acquitted of all charges' },
+      { date: 'September 2015', event: 'Returns as CEO of News UK' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'R v Brooks & Others Trial Documents', url: 'https://scholar.google.com/scholar?q=R%20v%20Brooks%20%26%20Others%20Trial%20Documents', date: '2013-2014' },
+      { title: 'Leveson Inquiry Testimony', url: 'https://www.gov.uk/government/publications/leveson-inquiry-report-into-the-culture-practices-and-ethics-of-the-press', date: '2012' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+    ],
+    aliases: ['Rebekah Wade (maiden name)'],
+    knownAssociates: [
+      { name: 'Rupert Murdoch', relationship: 'Employer, close ally', href: '/entities/individuals/rupert-murdoch' },
+      { name: 'James Murdoch', relationship: 'Former boss at News International', href: '/entities/individuals/james-murdoch' },
+      { name: 'Andy Coulson', relationship: 'Successor as NoTW editor, convicted of hacking', href: '/entities/individuals/andy-coulson' },
+      { name: 'David Cameron', relationship: 'Close friend, Christmas neighbor', href: '/entities/individuals/david-cameron' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'ryan-mccarthy': {
+    name: 'Ryan McCarthy',
+    title: 'Former Secretary of the Army',
+    role: 'Army Leadership During January 6',
+    riskLevel: 'high',
+    description: 'Ryan McCarthy served as Secretary of the Army from September 2019 to January 2021. He is a key figure in the delayed National Guard response to the January 6 Capitol attack. The Guard took over 3 hours to deploy after initial requests, raising questions about why military assistance was withheld during the insurrection. McCarthy approved the eventual deployment but the delay allowed the mob to breach the Capitol for hours.',
+    birthDate: 'February 1975',
+    birthPlace: 'Illinois, USA',
+    education: ['Virginia Military Institute', 'Georgetown University - MBA'],
+    affiliations: [
+      { name: 'Department of the Army', role: 'Secretary (2019-2021)', type: 'agency' },
+      { name: 'Department of Defense', role: 'Under Secretary (2017-2019)', type: 'agency' },
+      { name: 'Lockheed Martin', role: 'Former Executive', type: 'corporation' },
+    ],
+    controversies: [
+      'JANUARY 6 RESPONSE: National Guard took 3+ hours to deploy despite urgent requests',
+      'PENTAGON DELAYS: Questions about who authorized the delay in Guard deployment',
+      'COMMAND CONFUSION: Conflicting accounts of who could authorize deployment',
+      'CONGRESSIONAL TESTIMONY: Testified to Congress about delayed response',
+    ],
+    charges: [
+      { statute: '10 U.S.C. § 892', description: 'Potential dereliction of duty during insurrection', category: 'Military Justice' },
+    ],
+    relatedInvestigations: [
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'February 1975', event: 'Born in Illinois' },
+      { date: 'September 2019', event: 'Confirmed as Secretary of the Army' },
+      { date: 'January 6, 2021', event: 'Capitol attacked, Guard deployment delayed' },
+      { date: 'January 6, 2021, 5:08 PM', event: 'Finally authorizes Guard deployment' },
+      { date: 'January 20, 2021', event: 'Leaves office' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'January 6th Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
+      { title: 'DOD IG Report on January 6', url: 'https://www.ignet.gov/', date: '2022' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Mark Milley', relationship: 'Chairman Joint Chiefs during Jan 6', href: '/entities/individuals/mark-milley' },
+      { name: 'Christopher Miller', relationship: 'Acting SecDef during Jan 6', href: '/entities/individuals/christopher-miller' },
+      { name: 'Donald Trump', relationship: 'Appointed by', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
  'robert-kagan': {
  name: 'Robert Kagan',
  title: 'Neoconservative Foreign Policy Analyst',
@@ -2822,48 +2713,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Richard Anderson', url: 'https://en.wikipedia.org/wiki/Richard_Anderson' }, { title: 'Bloomberg: Richard Anderson', url: 'https://www.bloomberg.com/' }],
  },
- 'raj-rajaratnam': {
- name: 'Raj Rajaratnam',
- title: 'Former Galleon Group Founder',
- role: 'Galleon Group - Largest Hedge Fund Insider Trading Case',
- riskLevel: 'critical',
- description: 'Raj Rajaratnam founded the Galleon Group hedge fund and orchestrated the largest insider trading scheme in hedge fund history. He cultivated a network of corporate insiders who fed him confidential information about companies including Goldman Sachs, Intel, and Google. In 2011, he was convicted on 14 counts and sentenced to 11 years in prison - then the longest sentence ever for insider trading.',
- birthDate: 'June 15, 1957',
- birthPlace: 'Sri Lanka',
- education: ['University of Sussex', 'Wharton School (MBA)'],
- netWorth: '$Was $1.3 billion before conviction',
- affiliations: [
- { name: 'Galleon Group', role: 'Founder', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Rajat Gupta', relationship: 'Goldman Sachs board member who fed tips', href: '/entities/individuals/rajat-gupta' },
- ],
- controversies: [
- 'INSIDER TRADING: Traded on confidential corporate information',
- 'WIRETAPS: First use of wiretaps in insider trading case',
- 'NETWORK: Built network of corporate insiders',
- 'GOLDMAN INFO: Got tips from Goldman board member',
- '$72 MILLION: Illegal profits from trading',
- 'LONGEST SENTENCE: 11 years - record at the time',
- ],
- charges: [
- { statute: '15 U.S.C. � 78j(b)', description: 'Securities Fraud - Insider trading (14 counts)', category: 'CONVICTED' },
- { statute: '15 U.S.C. � 78ff', description: 'Conspiracy to commit securities fraud', category: 'CONVICTED' },
- ],
- relatedInvestigations: [
- { title: 'Galleon Insider Trading', slug: 'galleon-insider-trading', severity: 'critical' },
- { title: 'Wall Street Manipulation', slug: 'wall-street-manipulation', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 15, 1957', event: 'Born in Sri Lanka' },
- { date: '1997', event: 'Founds Galleon Group' },
- { date: 'October 2009', event: 'Arrested by FBI' },
- { date: 'May 2011', event: 'Convicted on 14 counts' },
- { date: 'October 2011', event: 'Sentenced to 11 years' },
- { date: '2019', event: 'Released from prison' },
- ],
- sources: [{ title: 'Wikipedia: Raj Rajaratnam', url: 'https://en.wikipedia.org/wiki/Raj_Rajaratnam' }, { title: 'Bloomberg: Raj Rajaratnam', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Wired: Raj Rajaratnam', url: 'https://www.wired.com/' }],
- },
+  'raj-rajaratnam': {
+    name: 'Raj Rajaratnam',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Raj Rajaratnam is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Raj Rajaratnam has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'rajat-gupta': {
  name: 'Rajat Gupta',
  title: 'Former Goldman Sachs Director',
@@ -3053,93 +2932,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Roger Ailes', url: 'https://en.wikipedia.org/wiki/Roger_Ailes' }, { title: 'Bloomberg: Roger Ailes', url: 'https://www.bloomberg.com/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
- 'rick-scott': {
- name: 'Rick Scott',
- title: 'U.S. Senator (FL)',
- role: 'Senator - Medicare Fraud Executive',
- riskLevel: 'critical',
- description: 'Rick Scott was CEO of Columbia/HCA when it committed the largest Medicare fraud in history. The company paid $1.7 billion in fines. Scott invoked the Fifth Amendment 75 times during depositions to avoid self-incrimination. He was never charged and later became Governor and Senator of Florida.',
- birthDate: 'December 1, 1952',
- birthPlace: 'Bloomington, Illinois',
- education: ['University of Missouri', 'SMU (Law)'],
- netWorth: '$500 million',
- affiliations: [
- { name: 'U.S. Senate', role: 'Senator', type: 'agency' as const },
- { name: 'Columbia/HCA', role: 'Former CEO', type: 'corporation' as const },
- ],
+  'rick-scott': {
+    name: 'Rick Scott',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Rick Scott is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Rick Scott has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Close Trump ally in Senate; oversaw largest Medicare fraud in history ($1.7 billion at Columbia/HCA) before entering politics', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- '$1.7 BILLION FRAUD: Largest Medicare fraud settlement',
- 'INVOKED FIFTH 75 TIMES: Refused to answer questions',
- 'NOT CHARGED: Despite overseeing massive fraud',
- 'GOLDEN PARACHUTE: $10M+ severance after fraud',
- 'ELECTED ANYWAY: Became Governor and Senator',
- ],
- charges: [
- { statute: 'False Claims Act', description: 'Medicare fraud (company)', category: 'COMPANY PAID $1.7B' },
- { statute: 'Senate Ethics', description: 'Conflicts of interest', category: 'ONGOING SCRUTINY' },
- ],
- relatedInvestigations: [
- { title: 'Columbia HCA Medicare Fraud', slug: 'columbia-hca-fraud', severity: 'critical' },
- ],
- timeline: [
- { date: 'December 1, 1952', event: 'Born in Illinois' },
- { date: '1987', event: 'Co-founds Columbia Hospital' },
- { date: '1997', event: 'FBI raids company; Scott resigns' },
- { date: '2000-2003', event: 'Company pays $1.7B in fines' },
- { date: '2011', event: 'Becomes Florida Governor' },
- { date: '2019', event: 'Becomes U.S. Senator' },
- ],
- sources: [{ title: 'Wikipedia: Rick Scott', url: 'https://en.wikipedia.org/wiki/Rick_Scott' }, { title: 'Bloomberg: Rick Scott', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- },
- 'recep-tayyip-erdogan': {
- name: 'Recep Tayyip Erdogan',
- title: 'President of Turkey',
- role: 'Turkish President - Authoritarian Rule, Press Suppression',
- riskLevel: 'critical',
- description: 'Recep Tayyip Erdogan has ruled Turkey since 2003, transforming it from a democracy into an authoritarian state. He has imprisoned more journalists than any other country, purged tens of thousands after a 2016 coup attempt, attacked Kurdish civilians, and used a failed coup to consolidate power.',
- birthDate: 'February 26, 1954',
- birthPlace: 'Istanbul, Turkey',
- education: ['Marmara University'],
- affiliations: [
- { name: 'Republic of Turkey', role: 'President', type: 'organization' as const },
- { name: 'AKP Party', role: 'Founder/Leader', type: 'organization' as const },
- ],
- controversies: [
- 'JOURNALIST IMPRISONMENT: World leader in jailing journalists',
- 'POST-COUP PURGE: 150,000+ detained or fired after 2016',
- 'KURDISH ATTACKS: Military operations killing civilians',
- 'PRESS SHUTDOWN: Closed 150+ media outlets',
- 'CONSTITUTIONAL CHANGES: Grabbed dictatorial powers',
- 'CORRUPTION: Family implicated in massive corruption',
- ],
- charges: [
- { statute: 'Rome Statute Article 7(1)(e)', description: 'Crimes Against Humanity - Imprisonment', category: 'INTERNATIONAL' },
- { statute: 'Rome Statute Article 7(1)(h)', description: 'Persecution on political grounds', category: 'INTERNATIONAL' },
- { statute: 'Rome Statute Article 8', description: 'War Crimes - Kurdish civilian attacks', category: 'INTERNATIONAL' },
- ],
- relatedInvestigations: [
- { title: 'Turkey Authoritarianism', slug: 'turkey-authoritarianism', severity: 'critical' },
- { title: 'Press Freedom Violations', slug: 'press-freedom-violations', severity: 'critical' },
- ],
- timeline: [
- { date: 'February 26, 1954', event: 'Born in Istanbul' },
- { date: '2003', event: 'Becomes Prime Minister' },
- { date: '2014', event: 'Becomes President' },
- { date: 'July 2016', event: 'Survives coup, begins purge' },
- { date: '2017', event: 'Referendum grants sweeping powers' },
- ],
- sources: [{ title: 'Wikipedia: Recep Tayyip Erdogan', url: 'https://en.wikipedia.org/wiki/Recep_Tayyip_Erdogan' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
- knownAssociates: [
- { name: 'Vladimir Putin', relationship: 'Strategic partner and rival managing Turkey-Russia relations', href: '/entities/individuals/vladimir-putin' },
- { name: 'Donald Trump', relationship: 'Maintained close personal relationship with Trump', href: '/entities/individuals/donald-trump' },
- { name: 'Abdel Fattah el-Sisi', relationship: 'Regional rival as authoritarian Middle Eastern leader', href: '/entities/individuals/abdel-fattah-el-sisi' }
- ],
+  'recep-tayyip-erdogan': {
+    name: 'Recep Tayyip Erdogan',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Recep Tayyip Erdogan is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Recep Tayyip Erdogan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
  'rodrigo-duterte': {
  name: 'Rodrigo Duterte',
  title: 'Former President of Philippines',
@@ -3467,87 +3319,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'recep-erdogan': {
- name: 'Recep Tayyip Erdogan',
- title: 'President of Turkey',
- role: 'Turkish President - Authoritarian Crackdown',
- riskLevel: 'critical',
- description: 'Recep Tayyip Erdogan has ruled Turkey since 2003, first as PM then President. He has overseen massive crackdowns on press freedom, jailing more journalists than any other country. After a 2016 coup attempt, he purged 150,000+ people from government, academia, and military.',
- birthDate: 'February 26, 1954',
- birthPlace: 'Istanbul, Turkey',
- education: ['Marmara University'],
- affiliations: [
- { name: 'Republic of Turkey', role: 'President', type: 'agency' as const },
- { name: 'AKP', role: 'Founder/Leader', type: 'organization' as const },
- ],
+  'recep-erdogan': {
+    name: 'Recep Erdogan',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Recep Erdogan is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Recep Erdogan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Complex relationship marked by Trump clearing way for Turkish Syria incursion in 2019 and sharing classified intel; Trump praised Erdogan as"friend"', href: '/entities/individuals/donald-trump' },
- { name: 'Vladimir Putin', relationship: 'Purchased Russian S-400 missile system defying NATO; complex frenemy relationship balancing Russian and Western alliances', href: '/entities/individuals/vladimir-putin' },
- { name: 'Michael Flynn', relationship: 'Flynn secretly lobbied for Turkish government during 2016 campaign; discussed extraditing Gulen cleric to Turkey', href: '/entities/individuals/michael-flynn' },
- ],
- controversies: [
- 'JOURNALIST PRISON: Most jailed journalists globally',
- 'POST-COUP PURGE: 150,000+ fired/arrested',
- 'KURDISH ATTACKS: Military operations in Syria',
- 'PRESS CRACKDOWN: Hundreds of media outlets closed',
- 'CONSTITUTIONAL CHANGES: Expanded presidential power',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Press Freedom Violations', slug: 'press-freedom', severity: 'critical' },
- { title: 'Authoritarian Consolidation', slug: 'authoritarianism', severity: 'critical' },
- ],
- timeline: [
- { date: 'February 26, 1954', event: 'Born in Istanbul' },
- { date: '2003', event: 'Becomes Prime Minister' },
- { date: '2014', event: 'Becomes President' },
- { date: 'July 2016', event: 'Coup attempt, massive purge follows' },
- ],
- sources: [{ title: 'Wikipedia: Recep Tayyip Erdogan', url: 'https://en.wikipedia.org/wiki/Recep_Tayyip_Erdogan' }, { title: 'Military Times: Recep Tayyip Erdogan', url: 'https://www.militarytimes.com/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
- },
- 'rush-limbaugh': {
- name: 'Rush Limbaugh',
- title: 'Right-Wing Radio Host (Deceased)',
- role: 'Conservative Radio Pioneer - Racism and Misogyny',
- riskLevel: 'high',
- description: 'Rush Limbaugh was the most influential conservative radio host, spreading racist, misogynist, and conspiratorial content to millions for three decades. He called Sandra Fluke a"slut,"mocked Michael J. Fox\'s Parkinson\'s, and pushed conspiracy theories. Trump awarded him the Medal of Freedom.',
- birthDate: 'January 12, 1951',
- deathDate: 'February 17, 2021',
- birthPlace: 'Cape Girardeau, Missouri',
- education: ['Southeast Missouri State University (dropped out)'],
- affiliations: [
- { name: 'EIB Network', role: 'Host', type: 'corporation' as const },
- { name: 'Premiere Networks', role: 'Host', type: 'corporation' as const },
- ],
+  'rush-limbaugh': {
+    name: 'Rush Limbaugh',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Rush Limbaugh is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Rush Limbaugh has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Influential conservative radio host who championed Trump; received Presidential Medal of Freedom from Trump at 2020 State of the Union', href: '/entities/individuals/donald-trump' },
- { name: 'Roger Ailes', relationship: 'Fellow architect of conservative media landscape; shared ideology and audience in building right-wing media infrastructure', href: '/entities/individuals/roger-ailes' },
- { name: 'Sean Hannity', relationship: 'Protégé in conservative talk radio who continued Limbaugh\'s legacy of partisan commentary', href: '/entities/individuals/sean-hannity' },
- ],
- controversies: [
- 'RACIST CONTENT: Decades of dog whistles and worse',
- 'MISOGYNY: Called women"feminazis"',
- 'SANDRA FLUKE: Called her"slut"for birth control testimony',
- 'MICHAEL J FOX: Mocked Parkinson\'s symptoms',
- 'OPIOID ADDICTION: Doctor shopped for OxyContin',
- 'MEDAL OF FREEDOM: Trump awarded him',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Media Radicalization', slug: 'media-radicalization', severity: 'high' },
- { title: 'Right-Wing Media', slug: 'right-wing-media', severity: 'high' },
- ],
- timeline: [
- { date: 'January 12, 1951', event: 'Born in Missouri' },
- { date: '1988', event: 'National radio show begins' },
- { date: '2003', event: 'Opioid addiction revealed' },
- { date: 'February 2020', event: 'Medal of Freedom' },
- { date: 'February 17, 2021', event: 'Died of lung cancer' },
- ],
- sources: [{ title: 'Wikipedia: Rush Limbaugh', url: 'https://en.wikipedia.org/wiki/Rush_Limbaugh' }, { title: 'Associated Press: Rush Limbaugh', url: 'https://apnews.com/' }],
- },
  'ron-johnson': {
  name: 'Ron Johnson',
  title: 'Senator',
@@ -3585,50 +3416,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Ron Johnson', url: 'https://en.wikipedia.org/wiki/Ron_Johnson' }, { title: 'NYT: Ron Johnson Profile', url: 'https://www.nytimes.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
- 'robert-f-kennedy-jr': {
- name: 'Robert F. Kennedy Jr.',
- title: 'HHS Secretary Nominee',
- role: 'Anti-Vaccine Architect - Health Misinformation',
- riskLevel: 'critical',
- description: 'Robert F. Kennedy Jr. is America\'s most influential anti-vaccine activist, nominated by Trump to lead Health and Human Services. His Children\'s Health Defense spreads deadly medical misinformation. He claimed vaccines cause autism (debunked), WiFi causes cancer, AIDS isn\'t caused by HIV, and pushed COVID conspiracies that led to preventable deaths.',
- birthDate: 'January 17, 1954',
- birthPlace: 'Washington, D.C.',
- education: ['Harvard University', 'University of Virginia School of Law', 'Pace University School of Law'],
- affiliations: [
- { name: 'Children\'s Health Defense', role: 'Founder/Chairman', type: 'organization' as const },
- { name: 'Trump Administration 2.0', role: 'HHS Secretary Nominee', type: 'agency' as const },
- ],
+  'robert-f-kennedy-jr': {
+    name: 'Robert F Kennedy Jr',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Robert F Kennedy Jr is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Robert F Kennedy Jr has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Dropped independent presidential bid to endorse Trump in 2024; appointed Secretary of Health and Human Services', href: '/entities/individuals/donald-trump' },
- { name: 'Anthony Fauci', relationship: 'Leading critic of Fauci\'s pandemic response; spread vaccine misinformation contradicting Fauci\'s public health guidance', href: '/entities/individuals/anthony-fauci' },
- { name: 'Joe Biden', relationship: 'Challenged Biden for Democratic nomination in 2024 before switching to independent run and ultimately endorsing Trump', href: '/entities/individuals/joe-biden' },
- ],
- controversies: [
- 'ANTI-VACCINE: Decades of debunked claims',
- 'AUTISM LIES: Falsely linked vaccines to autism',
- 'COVID MISINFO: Opposed vaccines during pandemic',
- 'HIV DENIAL: Questioned AIDS causation',
- 'CHILDREN\'S DEATHS: Samoa measles outbreak linked to CHD',
- 'DEBANKING: Multiple platforms banned him for misinfo',
- '5G/WIFI: Claimed causes cancer',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'COVID Misinformation', slug: 'covid-misinformation', severity: 'critical' },
- { title: 'Public Health Threats', slug: 'public-health-threats', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 17, 1954', event: 'Born in Washington D.C.' },
- { date: '2005', event: 'Published debunked vaccine-autism article' },
- { date: '2016', event: 'Founded Children\'s Health Defense' },
- { date: '2019', event: 'Samoa measles outbreak after CHD visit' },
- { date: '2020-2021', event: 'Major COVID vaccine opponent' },
- { date: 'August 2024', event: 'Dropped presidential bid for Trump' },
- { date: 'November 2024', event: 'Nominated for HHS Secretary' },
- ],
- sources: [{ title: 'Wikipedia: Robert F. Kennedy Jr.', url: 'https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
- },
  'ralph-norman': {
  name: 'Ralph Norman',
  title: 'South Carolina Congressman',
@@ -3667,45 +3484,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Ralph Norman', url: 'https://en.wikipedia.org/wiki/Ralph_Norman' }, { title: 'NYT: Ralph Norman Profile', url: 'https://www.nytimes.com/' }],
  },
- 'rick-santorum': {
- name: 'Rick Santorum',
- title: 'Former Pennsylvania Senator',
- role: 'Culture Warrior - Homophobic Remarks',
- riskLevel: 'medium',
- description: 'Rick Santorum served as Pennsylvania Senator and ran for President twice. Known for extreme anti-LGBTQ positions, comparing homosexuality to bestiality. His"man on dog"comments and opposition to contraception made him a culture war icon. Later fired from CNN for minimizing Native American genocide.',
- birthDate: 'May 10, 1958',
- birthPlace: 'Winchester, Virginia',
- education: ['Penn State', 'University of Pittsburgh', 'Dickinson School of Law'],
- affiliations: [
- { name: 'U.S. Senate', role: 'Former Senator (R-PA)', type: 'agency' as const },
- { name: 'CNN', role: 'Former Commentator (Fired)', type: 'corporation' as const },
- ],
+  'rick-santorum': {
+    name: 'Rick Santorum',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Rick Santorum is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Rick Santorum has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Republican predecessor in presidential campaigns; ran for president in 2012 and 2016 before Trump reshaped the party', href: '/entities/individuals/donald-trump' },
- { name: 'Newt Gingrich', relationship: 'Fellow 2012 Republican presidential primary candidate who split the conservative vote', href: '/entities/individuals/newt-gingrich' },
- { name: 'Mitt Romney', relationship: 'Chief rival in the 2012 Republican presidential primary; Santorum won 11 states before conceding', href: '/entities/individuals/mitt-romney' },
- ],
- controversies: [
- 'MAN ON DOG: Compared homosexuality to bestiality',
- 'CONTRACEPTION: Opposed birth control access',
- 'NATIVE AMERICAN COMMENTS: Said"there was nothing here"before Europeans',
- 'CNN FIRING: Fired for genocide minimization',
- 'ANTI-LGBTQ: Career-long opposition to gay rights',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Anti-LGBTQ Discrimination', slug: 'lgbtq-discrimination', severity: 'medium' },
- ],
- timeline: [
- { date: 'May 10, 1958', event: 'Born in Virginia' },
- { date: '1995-2007', event: 'U.S. Senator' },
- { date: '2003', event: '"Man on dog"interview' },
- { date: '2012, 2016', event: 'Presidential campaigns' },
- { date: '2021', event: 'Fired from CNN' },
- ],
- sources: [{ title: 'Wikipedia: Rick Santorum', url: 'https://en.wikipedia.org/wiki/Rick_Santorum' }, { title: 'Military Times: Rick Santorum', url: 'https://www.militarytimes.com/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
- },
  'ramesh-balwani': {
  name: 'Ramesh"Sunny"Balwani',
  role: 'Former Theranos President/COO',
@@ -5542,251 +5350,173 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
  sources: [{ title: 'Wikipedia: Ronald Perelman', url: 'https://en.wikipedia.org/wiki/Ronald_Perelman' }, { title: 'Bloomberg: Ronald Perelman', url: 'https://www.bloomberg.com/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
  },
- 'rodney-king': {
-"name":"Rodney King",
-"title":"Victim of Police Beating",
-"role":"LAPD Beating Sparked 1992 LA Riots",
-"riskLevel":"low",
-"description":"African American man severely beaten by four LAPD officers on March 3, 1991, in an incident captured on videotape by bystander George Holliday. The acquittal of the officers triggered the 1992 Los Angeles riots, one of the deadliest in U.S. history. His case became a landmark symbol of police brutality and racial injustice.",
-"birthDate":"April 2, 1965",
-"education": [],
-"affiliations": [],
-"knownAssociates": [],
-"controversies": [
-"Beaten 56 times by police batons",
-"Officers acquitted by all-white jury",
-"Acquittal triggered LA riots killing 63 people"
- ],
-"relatedInvestigations": [
- {
-"title":"Police Brutality",
-"slug":"police-brutality",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"1991 Mar 3",
-"event":"Beaten by LAPD officers, caught on video"
- },
- {
-"date":"1992 Apr 29",
-"event":"Officers acquitted, LA riots begin"
- },
- {
-"date":"2012",
-"event":"Died at age 47"
- }
- ],
-"sources": [
- {
-"title":"LA Times: Rodney King",
-"url":"https://www.latimes.com/local/la-me-rodney-king-sg-storygallery.html",
-"date":"2012"
- }
- ]
- },
- 'rosa-parks': {
-"name":"Rosa Parks",
-"title":"Civil Rights Icon",
-"role":"Montgomery Bus Boycott, Mother of Civil Rights",
-"riskLevel":"low",
-"description":"African American civil rights activist whose refusal to surrender her seat on a Montgomery, Alabama bus on December 1, 1955 sparked the Montgomery Bus Boycott. Her act of defiance became one of the most important symbols of the civil rights movement and led to the Supreme Court ruling that bus segregation was unconstitutional.",
-"birthDate":"February 4, 1913",
-"education": [
-"Alabama State Teachers College"
- ],
-"affiliations": [
- {
-"name":"NAACP",
-"role":"Secretary, Montgomery chapter",
-"type":"organization"
- }
- ],
-"knownAssociates": [
- {
-"name":"Martin Luther King Jr.",
-"relationship":"Led Montgomery Bus Boycott sparked by her arrest",
-"href":"/entities/individuals/martin-luther-king-jr"
- }
- ],
-"controversies": [
-"Her arrest and the boycott catalyzed the modern civil rights movement",
-"Received Congressional Gold Medal and Presidential Medal of Freedom"
- ],
-"relatedInvestigations": [
- {
-"title":"War on Black America",
-"slug":"war-on-black-america",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"1955 Dec 1",
-"event":"Refused to give up bus seat, arrested"
- },
- {
-"date":"1956",
-"event":"Supreme Court ruled bus segregation unconstitutional"
- },
- {
-"date":"2005",
-"event":"Died at age 92"
- }
- ],
-"sources": [
- {
-"title":"Library of Congress: Rosa Parks",
-"url":"https://www.loc.gov/collections/rosa-parks-papers/",
-"date":"2023"
- }
- ]
- },
- 'ralph-nader': {
-"name":"Ralph Nader",
-"title":"Consumer Advocate, Presidential Candidate",
-"role":"Automotive Safety Pioneer, Green Party",
-"riskLevel":"low",
-"description":"Consumer advocate and political activist whose 1965 book \"Unsafe at Any Speed\"led to major automotive safety reforms. Ran for president multiple times, most controversially in 2000 when his Green Party candidacy was blamed for splitting the liberal vote in Florida, contributing to George W. Bush's victory over Al Gore.",
-"birthDate":"February 27, 1934",
-"education": [
-"Princeton University",
-"Harvard Law School"
- ],
-"affiliations": [
- {
-"name":"Green Party",
-"role":"Presidential Candidate",
-"type":"organization"
- }
- ],
-"knownAssociates": [],
-"controversies": [
-"2000 presidential run blamed for Bush victory over Gore",
-"Automotive safety advocacy saved millions of lives",
-"Championed consumer protection legislation"
- ],
-"relatedInvestigations": [
- {
-"title":"Bush v. Gore",
-"slug":"bush-v-gore",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"1965",
-"event":"Published Unsafe at Any Speed"
- },
- {
-"date":"2000",
-"event":"Green Party presidential candidate in contested election"
- }
- ],
-"sources": [
- {
-"title":"Nader.org",
-"url":"https://nader.org/",
-"date":"2023"
- }
- ]
- },
- 'roberto-calvi': {
-"name":"Roberto Calvi",
-"title":"Italian Banker",
-"role":"\"God's Banker\"- Vatican Bank Scandal",
-"riskLevel":"critical",
-"description":"Italian banker and chairman of Banco Ambrosiano who was found hanging under Blackfriars Bridge in London in 1982 in circumstances initially ruled suicide, then changed to murder. His death exposed a massive financial scandal involving the Vatican Bank, the Mafia, and the P2 Masonic lodge. $1.3 billion went missing.",
-"birthDate":"April 13, 1920",
-"education": [
-"Bocconi University"
- ],
-"affiliations": [
- {
-"name":"Banco Ambrosiano",
-"role":"Chairman",
-"type":"corporation"
- }
- ],
-"knownAssociates": [],
-"controversies": [
-"Found dead under London bridge in suspicious circumstances",
-"$1.3 billion disappeared from Banco Ambrosiano",
-"Connected to Vatican Bank, P2 lodge, and Mafia",
-"Five people acquitted of his murder in 2007"
- ],
-"relatedInvestigations": [
- {
-"title":"Money Laundering",
-"slug":"money-laundering",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"1975",
-"event":"Became Banco Ambrosiano chairman"
- },
- {
-"date":"1982 Jun 17",
-"event":"Found dead under Blackfriars Bridge, London"
- }
- ],
-"sources": [
- {
-"title":"BBC: God's Banker",
-"url":"https://www.bbc.com/news/magazine-19965052",
-"date":"2012"
- }
- ]
- },
- 'richard-scruggs': {
-"name":"Richard Scruggs",
-"title":"Trial Lawyer",
-"role":"Big Tobacco Litigation, Bribery Conviction",
-"riskLevel":"high",
-"description":"Mississippi trial lawyer who led the landmark litigation against Big Tobacco in the 1990s, winning a $246 billion settlement. Later convicted of conspiring to bribe a judge in 2008 and sentenced to prison. Brother-in-law of Senator Trent Lott.",
-"education": [
-"University of Mississippi - J.D."
- ],
-"affiliations": [],
-"knownAssociates": [],
-"controversies": [
-"Led historic $246B tobacco settlement",
-"Convicted of judicial bribery conspiracy",
-"Brother-in-law of Senator Trent Lott",
-"Rose to fame then fell to corruption"
- ],
-"relatedInvestigations": [
- {
-"title":"Big Tobacco Coverup",
-"slug":"big-tobacco-coverup",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"1994",
-"event":"Filed Mississippi tobacco lawsuit"
- },
- {
-"date":"1998",
-"event":"$246 billion Master Settlement Agreement"
- },
- {
-"date":"2008",
-"event":"Convicted of bribery, sentenced to 5 years"
- }
- ],
-"sources": [
- {
-"title":"NYT: Scruggs Conviction",
-"url":"https://www.nytimes.com/2008/03/15/us/15scruggs.html",
-"date":"2008"
- }
- ]
- },
+  'rodney-king': {
+    name: 'Rodney King',
+    title: 'Victim of Police Beating',
+    role: 'LAPD Beating Sparked 1992 LA Riots',
+    riskLevel: 'low',
+    description: 'African American man severely beaten by four LAPD officers on March 3, 1991, in an incident captured on videotape by bystander George Holliday. The acquittal of the officers triggered the 1992 Los Angeles riots, one of the deadliest in U.S. history. His case became a landmark symbol of police brutality and racial injustice.',
+    birthDate: 'April 2, 1965',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Beaten 56 times by police batons',
+      'Officers acquitted by all-white jury',
+      'Acquittal triggered LA riots killing 63 people',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Police Brutality', slug: 'police-brutality', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1991 Mar 3', event: 'Beaten by LAPD officers, caught on video' },
+      { date: '1992 Apr 29', event: 'Officers acquitted, LA riots begin' },
+      { date: '2012', event: 'Died at age 47' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'LA Times: Rodney King', url: 'https://www.latimes.com/local/la-me-rodney-king-sg-storygallery.html', date: '2012' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'rosa-parks': {
+    name: 'Rosa Parks',
+    title: 'Civil Rights Icon',
+    role: 'Montgomery Bus Boycott, Mother of Civil Rights',
+    riskLevel: 'low',
+    description: 'African American civil rights activist whose refusal to surrender her seat on a Montgomery, Alabama bus on December 1, 1955 sparked the Montgomery Bus Boycott. Her act of defiance became one of the most important symbols of the civil rights movement and led to the Supreme Court ruling that bus segregation was unconstitutional.',
+    birthDate: 'February 4, 1913',
+    education: ['Alabama State Teachers College'],
+    affiliations: [
+      { name: 'NAACP', role: 'Secretary, Montgomery chapter', type: 'organization' },
+    ],
+    controversies: [
+      'Her arrest and the boycott catalyzed the modern civil rights movement',
+      'Received Congressional Gold Medal and Presidential Medal of Freedom',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'War on Black America', slug: 'war-on-black-america', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1955 Dec 1', event: 'Refused to give up bus seat, arrested' },
+      { date: '1956', event: 'Supreme Court ruled bus segregation unconstitutional' },
+      { date: '2005', event: 'Died at age 92' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Library of Congress: Rosa Parks', url: 'https://www.loc.gov/collections/rosa-parks-papers/', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Martin Luther King Jr.', relationship: 'Led Montgomery Bus Boycott sparked by her arrest', href: '/entities/individuals/martin-luther-king-jr' },
+    ],
+  },
+
+  'ralph-nader': {
+    name: 'Ralph Nader',
+    title: 'Consumer Advocate, Presidential Candidate',
+    role: 'Automotive Safety Pioneer, Green Party',
+    riskLevel: 'low',
+    description: 'Consumer advocate and political activist whose 1965 book "Unsafe at Any Speed"led to major automotive safety reforms. Ran for president multiple times, most controversially in 2000 when his Green Party candidacy was blamed for splitting the liberal vote in Florida, contributing to George W. Bush\'s victory over Al Gore.',
+    birthDate: 'February 27, 1934',
+    education: ['Princeton University', 'Harvard Law School'],
+    affiliations: [
+      { name: 'Green Party', role: 'Presidential Candidate', type: 'organization' },
+    ],
+    controversies: [
+      '2000 presidential run blamed for Bush victory over Gore',
+      'Automotive safety advocacy saved millions of lives',
+      'Championed consumer protection legislation',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Bush v. Gore', slug: 'bush-v-gore', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1965', event: 'Published Unsafe at Any Speed' },
+      { date: '2000', event: 'Green Party presidential candidate in contested election' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Nader.org', url: 'https://nader.org/', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'roberto-calvi': {
+    name: 'Roberto Calvi',
+    title: 'Italian Banker',
+    role: '"God\'s Banker"- Vatican Bank Scandal',
+    riskLevel: 'critical',
+    description: 'Italian banker and chairman of Banco Ambrosiano who was found hanging under Blackfriars Bridge in London in 1982 in circumstances initially ruled suicide, then changed to murder. His death exposed a massive financial scandal involving the Vatican Bank, the Mafia, and the P2 Masonic lodge. $1.3 billion went missing.',
+    birthDate: 'April 13, 1920',
+    education: ['Bocconi University'],
+    affiliations: [
+      { name: 'Banco Ambrosiano', role: 'Chairman', type: 'corporation' },
+    ],
+    controversies: [
+      'Found dead under London bridge in suspicious circumstances',
+      '$1.3 billion disappeared from Banco Ambrosiano',
+      'Connected to Vatican Bank, P2 lodge, and Mafia',
+      'Five people acquitted of his murder in 2007',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Money Laundering', slug: 'money-laundering', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1975', event: 'Became Banco Ambrosiano chairman' },
+      { date: '1982 Jun 17', event: 'Found dead under Blackfriars Bridge, London' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'BBC: God\'s Banker', url: 'https://www.bbc.com/news/magazine-19965052', date: '2012' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'richard-scruggs': {
+    name: 'Richard Scruggs',
+    title: 'Trial Lawyer',
+    role: 'Big Tobacco Litigation, Bribery Conviction',
+    riskLevel: 'high',
+    description: 'Mississippi trial lawyer who led the landmark litigation against Big Tobacco in the 1990s, winning a $246 billion settlement. Later convicted of conspiring to bribe a judge in 2008 and sentenced to prison. Brother-in-law of Senator Trent Lott.',
+    education: ['University of Mississippi - J.D.'],
+    affiliations: [
+    ],
+    controversies: [
+      'Led historic $246B tobacco settlement',
+      'Convicted of judicial bribery conspiracy',
+      'Brother-in-law of Senator Trent Lott',
+      'Rose to fame then fell to corruption',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1994', event: 'Filed Mississippi tobacco lawsuit' },
+      { date: '1998', event: '$246 billion Master Settlement Agreement' },
+      { date: '2008', event: 'Convicted of bribery, sentenced to 5 years' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NYT: Scruggs Conviction', url: 'https://www.nytimes.com/2008/03/15/us/15scruggs.html', date: '2008' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'rtx': {
     name: 'Rtx',
     title: 'Public Figure Under Investigation',

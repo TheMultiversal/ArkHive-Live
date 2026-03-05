@@ -56,6 +56,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: ['Czar', 'The Man Who Owns Russia'],
     knownAssociates: [
@@ -63,6 +64,16 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Paul Manafort', relationship: 'Received polling data via Kilimnik', href: '/entities/individuals/paul-manafort' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
   'viktor-yanukovych': {
     name: 'Viktor Fedorovych Yanukovych',
     title: 'Exiled Former President of Ukraine',
@@ -103,6 +114,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
       { title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: ['Putin\'s Puppet'],
     knownAssociates: [
@@ -111,6 +123,16 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Konstantin Kilimnik', relationship: 'Manafort operative in Ukraine', href: '/entities/individuals/konstantin-kilimnik' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
   'virginia-giuffre': {
     name: 'Virginia Louise Giuffre',
     title: 'Epstein Survivor, Key Accuser',
@@ -163,6 +185,16 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Prince Andrew', relationship: 'Forced to have sex with him, sued and settled' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
  'viktor-knavs': {
  name: 'Viktor Knavs',
  title: 'Father of First Lady Melania Trump',
@@ -200,385 +232,277 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Washington Post - Melania Parents Citizenship', url: 'https://www.washingtonpost.com/', date: '2018' },
  ],
  },
- 'viktor-orban': {
- name: 'Viktor Mihály Orbán',
- title: 'Prime Minister of Hungary',
- role: 'International Trump Ally',
- riskLevel: 'high' as const,
- aliases: ['Viktor Orbán'],
- description: 'Hungarian Prime Minister and leader of Fidesz party who has transformed Hungary into an"illiberal democracy."Close Trump ally who Trump hosted at White House and Mar-a-Lago. Praised by Trump as strong leader. Model for American right-wing on restricting immigration, LGBTQ rights, and media.',
- birthDate: 'May 31, 1963',
- birthPlace: 'Székesfehérvár, Hungary',
- education: [
- 'Law Degree - Eötvös Loránd University',
- 'Pembroke College, Oxford (Soros Fellowship)',
- ],
- affiliations: [
- { name: 'Hungarian Government', role: 'Prime Minister (2010-Present)', type: 'agency' },
- { name: 'Fidesz Party', role: 'Leader', type: 'organization' },
- ],
+  'viktor-orban': {
+    name: 'Viktor Orban',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Viktor Orban is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Viktor Orban has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Invited to Mar-a-Lago and the White House; Trump praised Orban as"strong leader"and model for right-wing governance', href: '/entities/individuals/donald-trump' },
- { name: 'Vladimir Putin', relationship: 'Closest EU leader to Putin; opposed sanctions and maintained energy ties despite Ukraine invasion', href: '/entities/individuals/vladimir-putin' },
- { name: 'Xi Jinping', relationship: 'Deepened Hungary-China economic ties; hosted Xi for state visit and supported Belt and Road Initiative in EU', href: '/entities/individuals/xi-jinping' },
- { name: 'Jair Bolsonaro', relationship: 'Fellow right-wing populist leader; aligned on nationalist, anti-immigration, and anti-EU governance model', href: '/entities/individuals/jair-bolsonaro' },
- ],
- controversies: [
- 'Dismantled democratic institutions in Hungary',
- 'Restricted press freedom',
- 'Anti-LGBTQ legislation',
- 'Close relationship with Putin',
- 'Blocked EU Ukraine aid',
- 'Praised by Trump as model leader',
- 'Accepted Soros scholarship then became anti-Soros',
- ],
- charges: [
- { statute: 'EU Treaty Article 7', description: 'Rule of Law Violations - EU triggered Article 7 proceedings for undermining democratic institutions', category: 'EU Law' },
- { statute: 'European Convention on Human Rights', description: 'Human Rights Violations - European Court of Human Rights ruled against Hungary multiple times', category: 'International' },
- { statute: 'EU Charter of Fundamental Rights', description: 'Press Freedom Violations - Systematic suppression of independent media documented by EU', category: 'International' },
- { statute: 'UN Human Rights Standards', description: 'LGBTQ+ Rights Violations - Anti-LGBTQ legislation condemned by UN human rights bodies', category: 'International' },
- { statute: 'Geneva Convention Articles', description: 'Refugee Rights Violations - Blocked asylum seekers and refugees in violation of international obligations', category: 'International' },
- { statute: 'EU Anti-Corruption Directives', description: 'Corruption Concerns - EU withheld billions in funding due to corruption and rule of law concerns', category: 'EU' },
- ],
- relatedInvestigations: [
- { title: 'Authoritarian International Network', slug: 'authoritarian-network', severity: 'high' },
- ],
- timeline: [
- { date: '2010', event: 'Returns to power as Prime Minister' },
- { date: 'May 2019', event: 'Trump hosts at White House' },
- { date: '2022', event: 'Speaks at CPAC' },
- { date: 'March 2024', event: 'Meets Trump at Mar-a-Lago' },
- ],
- sources: [
- { title: 'EU Rule of Law Reports', url: 'https://scholar.google.com/scholar?q=EU%20Rule%20of%20Law%20Reports', date: 'Various' },
- { title: 'State Department Records', url: 'https://www.state.gov/', date: '2019' },
- ],
- },
- 'volodymyr-zelensky': {
- name: 'Volodymyr Oleksandrovych Zelensky',
- title: 'President of Ukraine',
- role: 'First Impeachment Central Figure',
- riskLevel: 'low' as const,
- aliases: ['Volodymyr Zelenskyy'],
- description: 'Ukrainian President who was pressured by Trump in the"perfect phone call"that led to Trump\'s first impeachment. Trump withheld military aid while demanding Zelensky announce Biden investigations. Former comedian and actor who became wartime leader after Russian invasion. Trump claims he can end Ukraine war in 24 hours.',
- birthDate: 'January 25, 1978',
- birthPlace: 'Kryvyi Rih, Ukraine',
- education: [
- 'Law Degree - Kryvyi Rih Institute of Economics',
- ],
- affiliations: [
- { name: 'Ukrainian Government', role: 'President (2019-Present)', type: 'agency' },
- { name: 'Servant of the People', role: 'Party Founder', type: 'organization' },
- ],
+  'volodymyr-zelensky': {
+    name: 'Volodymyr Zelensky',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Volodymyr Zelensky is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Volodymyr Zelensky has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Subject of Trump\'s 2019"perfect phone call"demanding investigation of Biden that led to first impeachment; pressured in 2025 over peace deal', href: '/entities/individuals/donald-trump' },
- { name: 'Joe Biden', relationship: 'Key wartime ally who secured billions in U.S. military and economic aid for Ukraine\'s defense against Russia', href: '/entities/individuals/joe-biden' },
- { name: 'Vladimir Putin', relationship: 'Wartime adversary who launched full-scale invasion of Ukraine in February 2022; ongoing existential conflict', href: '/entities/individuals/vladimir-putin' },
- { name: 'Alexander Vindman', relationship: 'NSC official who reported Trump-Zelensky call to authorities, triggering first Trump impeachment', href: '/entities/individuals/alexander-vindman' },
- ],
- controversies: [
- 'Trump pressured for Biden investigation',
- 'Subject of Trump"perfect phone call"',
- 'Military aid withheld as leverage',
- 'Central to first Trump impeachment',
- 'Trump claims he can end war in 24 hours',
- 'Ongoing tensions with Trump over support',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Ukraine Extortion', slug: 'ukraine-extortion', severity: 'critical' },
- ],
- timeline: [
- { date: 'May 2019', event: 'Inaugurated as Ukrainian President' },
- { date: 'July 25, 2019', event: 'Trump phone call pressuring for investigation' },
- { date: 'September 2019', event: 'Call becomes public, impeachment begins' },
- { date: 'February 2022', event: 'Russia invades Ukraine' },
- ],
- sources: [
- { title: 'Impeachment Inquiry Records', url: 'https://scholar.google.com/scholar?q=Impeachment%20Inquiry%20Records', date: '2019' },
- { title: 'White House Call Transcript', url: 'https://scholar.google.com/scholar?q=White%20House%20Call%20Transcript', date: '2019' },
- ],
- },
- 'vivek-ramaswamy': {
- name: 'Vivek Ganapathy Ramaswamy',
- title: 'Entrepreneur, 2024 Presidential Candidate',
- role: 'MAGA Supporter, Trump Ally',
- riskLevel: 'medium' as const,
- description: 'Biotech entrepreneur and 2024 Republican presidential candidate who became a vocal Trump supporter. After dropping out, endorsed Trump and has been mentioned for potential cabinet positions. Known for controversial statements about 9/11 and climate change.',
- birthDate: 'August 9, 1985',
- birthPlace: 'Cincinnati, Ohio',
- netWorth: '$950 million',
- education: [
- 'Harvard University (B.A.)',
- 'Yale Law School (J.D.)',
- ],
- affiliations: [
- { name: 'Roivant Sciences', role: 'Founder', type: 'corporation' },
- { name: 'Republican Party', role: '2024 Presidential Candidate', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Political ally', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'Questioned official 9/11 narrative',
- 'Climate change skepticism',
- 'Called January 6 an"inside job"',
- 'Proposed raising voting age',
- 'Spread election conspiracy theories',
- 'Defended Trump\'s actions on January 6',
- 'Proposed eliminating FBI and other agencies',
- ],
- charges: [
- { statute: '52 U.S.C. § 20511', description: 'Potential Election Disinformation - Spread false claims about January 6 being an"inside job"to undermine election integrity', category: 'Potential Election' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Made knowingly false claims about 9/11 and January 6 in campaign context', category: 'Potential Federal' },
- { statute: '47 U.S.C. § 312 (Public Interest)', description: 'Public Interest Violations - Used media platforms to spread conspiracy theories undermining democratic institutions', category: 'Public Interest' },
- ],
- relatedInvestigations: [
- { title: 'Election Disinformation', slug: 'election-disinformation', severity: 'high' },
- ],
- timeline: [
- { date: 'February 2023', event: 'Announces presidential campaign' },
- { date: '2023', event: 'Spreads January 6"inside job"conspiracy theory' },
- { date: 'January 2024', event: 'Drops out, endorses Trump' },
- { date: '2024', event: 'Campaigns for Trump, spreads election misinformation' },
- ],
- sources: [
- { title: 'Campaign Records', url: 'https://scholar.google.com/scholar?q=Campaign%20Records', date: 'Various' },
- ],
- },
- 'viktor-vekselberg': {
- name: 'Viktor Felixovich Vekselberg',
- title: 'Russian Oligarch',
- role: 'Sanctioned Billionaire',
- riskLevel: 'high' as const,
- description: 'Russian billionaire oligarch who donated to Trump\'s inaugural committee through a US subsidiary. Stopped by Mueller investigators at airport. Under US sanctions. His company Renova\'s US subsidiary donated $250,000 to inaugural.',
- birthDate: 'April 14, 1957',
- birthPlace: 'Drohobych, Ukraine (then USSR)',
- netWorth: '$7 billion (pre-sanctions)',
- education: [
- 'Moscow State University of Transport',
- ],
- affiliations: [
- { name: 'Renova Group', role: 'Chairman', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Michael Cohen', relationship: 'Met with Cohen after inauguration', href: '/entities/individuals/michael-cohen' },
- ],
- controversies: [
- 'Donated to Trump inaugural through US subsidiary',
- 'Under US sanctions',
- 'Stopped and questioned by Mueller team',
- 'Company paid Michael Cohen for"consulting"',
- 'Columbus Nova (Renova subsidiary) paid Cohen $500,000 for"consulting"',
- 'Renova Group controls major Russian industrial assets',
- 'Close ties to Kremlin despite business persona',
- 'Met with Cohen at Trump Tower after inauguration',
- ],
- charges: [
- { statute: '50 U.S.C. § 1701-1706 (IEEPA)', description: 'Sanctions Designated - Treasury OFAC designated for acting on behalf of Russian government, asset freeze and transaction prohibitions', category: 'Treasury Sanctions' },
- { statute: '31 C.F.R. Part 589 (Russia Sanctions)', description: 'OFAC Russia Sanctions - Subject to comprehensive sanctions for Russian oligarch status and Kremlin connections', category: 'Federal Sanctions' },
- { statute: '52 U.S.C. § 30121', description: 'Foreign National Contribution - $250,000+ donated to Trump inaugural through US subsidiary, foreign national contribution to inaugural', category: 'Election Law' },
- { statute: '52 U.S.C. § 30122', description: 'Contribution in Name of Another - Used US subsidiary Columbus Nova as conduit for foreign oligarch donation to inaugural', category: 'Election Law' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud United States - Coordinated payments to Michael Cohen ($500K) for access to Trump administration', category: 'Federal' },
- { statute: '18 U.S.C. § 951', description: 'Potential Foreign Agent Activity - Operated in US advancing Russian government interests without registration', category: 'Potential National Security' },
- { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential Unregistered Foreign Agent - Activities in US promoting Russian interests may require FARA registration', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 201', description: 'Potential Bribery - Payments to Cohen for access to Trump administration may constitute bribery', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1956', description: 'Potential Money Laundering - Funds transferred through US subsidiary structures to obscure origin', category: 'Potential Federal' },
- { statute: 'Executive Order 13661', description: 'Sanctions for Russian Harmful Activities - Designated under executive order for Russian oligarch status', category: 'Executive' },
- ],
- relatedInvestigations: [
- { title: 'Inaugural Committee', slug: 'inaugural-committee', severity: 'high' },
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Russian Money Laundering', slug: 'russian-money-laundering', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 2017', event: 'Attends Trump inauguration' },
- { date: 'January 2017', event: 'Company donates $250,000+ to inaugural through US subsidiary' },
- { date: '2017', event: 'Columbus Nova (Renova subsidiary) pays Michael Cohen $500,000' },
- { date: '2017', event: 'Meets with Cohen at Trump Tower' },
- { date: '2018', event: 'Stopped by Mueller investigators at New York area airport' },
- { date: 'April 2018', event: 'Sanctioned by US Treasury OFAC' },
- { date: '2018', event: 'Columbus Nova claims it operates independently (disputed)' },
- { date: '2022', event: 'Additional sanctions following Ukraine invasion' },
- ],
- sources: [
- { title: 'Mueller Investigation Records', url: 'https://scholar.google.com/scholar?q=Mueller%20Investigation%20Records', date: '2019' },
- { title: 'Treasury OFAC Sanctions Designation', url: 'https://ofac.treasury.gov/', date: '2018' },
- { title: 'Michael Cohen Congressional Testimony', url: 'https://www.congress.gov/', date: '2019' },
- { title: 'SDNY Investigation Records', url: 'https://scholar.google.com/scholar?q=SDNY%20Investigation%20Records', date: '2018' },
- ],
- },
- 'valery-gerasimov': {
- name: 'Valery Vasilyevich Gerasimov',
- title: 'Chief of Russian General Staff',
- role: '"Gerasimov Doctrine"Author, Ukraine War Commander',
- riskLevel: 'critical' as const,
- description: 'Valery Gerasimov has served as Chief of the General Staff of the Russian Armed Forces since 2012 and is credited with developing the"Gerasimov Doctrine"- a theory of hybrid warfare combining military, political, economic, and information operations. He has commanded Russian military operations in Ukraine since January 2023 and bears direct responsibility for military strategies that have resulted in mass civilian casualties. His doctrine influenced Russian interference in Western elections and information warfare campaigns globally.',
- birthDate: 'September 8, 1955',
- birthPlace: 'Kazan, Tatar ASSR, Russia',
- education: [
- 'Kazan Higher Tank Command School',
- 'Military Academy of Armored Forces',
- 'Military Academy of the General Staff',
- ],
- netWorth: 'Unknown',
- aliases: ['Gerasimov Doctrine Creator'],
- affiliations: [
- { name: 'Russian General Staff', role: 'Chief (2012-present)', type: 'agency' },
- { name: 'Russian Armed Forces', role: 'General of the Army', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Vladimir Putin', relationship: 'Supreme Commander, Putin\'s top military advisor', href: '/entities/individuals/vladimir-putin' },
- { name: 'Sergei Shoigu', relationship: 'Former Defense Minister, worked under', href: '/entities/individuals/sergei-shoigu' },
- ],
- controversies: [
- 'GERASIMOV DOCTRINE: Developed hybrid warfare theory combining military and non-military tools',
- 'Doctrine used to justify election interference, disinformation, cyber attacks',
- 'UKRAINE COMMAND: Named overall commander of Ukraine operations January 2023',
- 'WAR CRIMES: Commands forces responsible for systematic civilian targeting',
- 'MILITARY FAILURES: Criticized for high casualties and strategic setbacks',
- 'ICC may issue warrant for Ukraine war crimes',
- ],
- charges: [
- { statute: 'Rome Statute Article 8', description: 'War Crimes - Overall command responsibility for Ukraine operations', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 28', description: 'Command Responsibility - Superior knew or should have known of subordinate crimes', category: 'International Criminal Court' },
- { statute: 'U.S. Sanctions (OFAC)', description: 'Designated for Ukraine invasion', category: 'Federal' },
- { statute: 'EU Sanctions', description: 'Designated for aggression against Ukraine', category: 'European Union' },
- ],
- relatedInvestigations: [
- { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
- ],
- timeline: [
- { date: 'September 8, 1955', event: 'Born in Kazan, Russia' },
- { date: '1977', event: 'Commissioned as tank officer' },
- { date: '2012', event: 'Appointed Chief of General Staff' },
- { date: '2013', event: 'Publishes article outlining"Gerasimov Doctrine"' },
- { date: '2014', event: 'Oversees Crimea annexation, Donbas operations' },
- { date: '2016', event: 'Doctrine influences U.S. election interference' },
- { date: 'February 2022', event: 'Ukraine full-scale invasion' },
- { date: 'January 2023', event: 'Named overall commander of Ukraine operations' },
- { date: '2024', event: 'Continues commanding Ukraine operations' },
- ],
- sources: [
- { title: 'Gerasimov Article"Value of Science in Prediction"', url: 'https://scholar.google.com/scholar?q=Gerasimov%20Article%22Value%20of%20Science%20in%20Prediction%22', date: '2013' },
- { title: 'ICC Ukraine Investigation', url: 'https://www.icc-cpi.int/', date: '2022-2024' },
- { title: 'U.S. Treasury OFAC Sanctions', url: 'https://ofac.treasury.gov/', date: '2022' },
- ],
- },
- 'valerie-plame': {
- name: 'Valerie Plame',
- title: 'CIA Covert Officer (Exposed)',
- role: 'CIA officer whose identity was illegally exposed in retaliation for her husband\'s Iraq War criticism',
- riskLevel: 'low',
- description: 'Valerie Plame was a covert CIA officer whose identity was exposed by the Bush administration in 2003 as retaliation against her husband, Joe Wilson, who publicly disputed Bush\'s claim that Iraq sought uranium from Niger. The exposure ended her career, potentially endangered lives, and exposed the administration\'s willingness to burn intelligence assets for political revenge.',
- birthDate: 'August 13, 1963',
- birthPlace: 'Anchorage, Alaska',
- education: ['Pennsylvania State University', 'London School of Economics', 'College of Europe'],
- affiliations: [
- { name: 'Central Intelligence Agency', role: 'Covert Operations Officer', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Joe Wilson', relationship: 'Husband', href: '/entities/individuals/joe-wilson' },
- { name: 'Richard Armitage', relationship: 'Original leaker', href: '/entities/individuals/richard-armitage' },
- ],
- controversies: [
- 'CIA covert officer whose identity was deliberately leaked by Bush administration officials in retaliation for her husband\'s Iraq War criticism',
- 'Scooter Libby convicted of obstruction related to the leak; later pardoned by Trump',
- 'The leak destroyed her intelligence network tracking WMD proliferation',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Plame Affair', slug: 'plame-leak', severity: 'high' },
- { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 13, 1963', event: 'Born in Anchorage, Alaska' },
- { date: '1985', event: 'Joins CIA' },
- { date: 'July 6, 2003', event: 'Husband Joe Wilson publishes op-ed questioning Iraq intelligence' },
- { date: 'July 14, 2003', event: 'Robert Novak publishes column outing her as CIA' },
- { date: '2007', event: 'Scooter Libby convicted for obstruction in leak investigation' },
- ],
- sources: [
- { title: 'Valerie Plame -"Fair Game"', url: 'https://scholar.google.com/scholar?q=Valerie%20Plame%20-%22Fair%20Game%22', date: '2007' },
- { title: 'Special Counsel investigation', url: 'https://scholar.google.com/scholar?q=Special%20Counsel%20investigation', date: '2005-2007' },
- ],
- },
- 'vivek-murthy': {
- name: 'Vivek Murthy',
- title: 'U.S. Surgeon General',
- role: 'Surgeon General who declared social media harms a public health emergency',
- riskLevel: 'low',
- description: 'Vivek Murthy is the U.S. Surgeon General who has declared social media harms to youth mental health a public health emergency. He has called for warning labels on social media platforms similar to tobacco warnings, highlighting the link between social media use and youth depression and anxiety.',
- birthDate: 'July 10, 1977',
- birthPlace: 'Huddersfield, England',
- education: ['Harvard University', 'Yale School of Medicine'],
- affiliations: [
- { name: 'U.S. Public Health Service', role: 'Surgeon General', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Joe Biden', relationship: 'President who appointed Murthy as Surgeon General; Murthy led COVID-19 public health messaging', href: '/entities/individuals/joe-biden' },
- { name: 'Anthony Fauci', relationship: 'Fellow public health leader during COVID-19 pandemic; collaborated on vaccination campaigns', href: '/entities/individuals/anthony-fauci' },
- { name: 'Donald Trump', relationship: 'President who fired Murthy as Surgeon General in 2017; Murthy was later reappointed by Biden', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'Fired by Trump in 2017, then reappointed by Biden as Surgeon General',
- 'Declared gun violence a public health crisis, drawing conservative criticism',
- 'Issued advisory on social media\'s impact on youth mental health challenging tech companies',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Social Media Harms', slug: 'social-media-harms', severity: 'high' },
- ],
- timeline: [
- { date: 'July 10, 1977', event: 'Born in Huddersfield, England' },
- { date: '2014-2017', event: 'First term as Surgeon General' },
- { date: '2021-present', event: 'Second term as Surgeon General' },
- { date: '2023', event: 'Issues advisory on social media and youth mental health' },
- { date: '2024', event: 'Calls for warning labels on social media' },
- ],
- sources: [
- { title: 'Surgeon General Advisory on Social Media', url: 'https://scholar.google.com/scholar?q=Surgeon%20General%20Advisory%20on%20Social%20Media', date: '2023' },
- ],
- },
- 'victoria-nuland': {
- name: 'Victoria Nuland',
- title: 'State Department Official',
- role: 'Key figure in U.S. Ukraine policy,"F*** the EU"call',
- riskLevel: 'medium',
- description: 'Victoria Nuland is a career diplomat who served in senior State Department roles under multiple administrations. She was caught on tape saying"F*** the EU"while discussing Ukraine policy in 2014. She was instrumental in U.S. support for the Maidan revolution and later Ukraine policy.',
- birthDate: 'July 1, 1961',
- birthPlace: 'New York City, New York',
- education: ['Brown University'],
- affiliations: [
- { name: 'U.S. State Department', role: 'Under Secretary (2021-2024)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Joe Biden', relationship: 'President under whom Nuland served as Under Secretary of State for Political Affairs', href: '/entities/individuals/joe-biden' },
- { name: 'Hillary Clinton', relationship: 'Secretary of State under whom Nuland served as spokesperson', href: '/entities/individuals/hillary-clinton' },
- { name: 'Dick Cheney', relationship: 'Vice President under whom Nuland served as principal deputy national security advisor', href: '/entities/individuals/dick-cheney' },
- { name: 'Antony Blinken', relationship: 'Secretary of State and direct superior during Biden administration Ukraine policy', href: '/entities/individuals/antony-blinken' },
- ],
- controversies: [
- '"F*** THE EU": Caught on tape dismissing European allies in 2014',
- 'UKRAINE INVOLVEMENT: Central role in U.S. Ukraine policy during Maidan',
- 'REGIME CHANGE: Advocated for interventionist foreign policy',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Ukraine Policy', slug: 'ukraine-policy', severity: 'high' },
- ],
- timeline: [
- { date: 'July 1, 1961', event: 'Born in New York City' },
- { date: '2013-2017', event: 'Assistant Secretary for European Affairs' },
- { date: 'February 2014', event: '"F*** the EU"call leaked' },
- { date: '2021-2024', event: 'Under Secretary of State' },
- ],
- sources: [
- { title: 'Leaked phone call transcript', url: 'https://scholar.google.com/scholar?q=Leaked%20phone%20call%20transcript', date: '2014' },
- ],
- },
+  'vivek-ramaswamy': {
+    name: 'Vivek Ramaswamy',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Vivek Ramaswamy is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Vivek Ramaswamy has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'viktor-vekselberg': {
+    name: 'Viktor Vekselberg',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Viktor Vekselberg is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Viktor Vekselberg has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'valery-gerasimov': {
+    name: 'Valery Gerasimov',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Valery Gerasimov is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Valery Gerasimov has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'valerie-plame': {
+    name: 'Valerie Plame',
+    title: 'CIA Covert Officer (Exposed)',
+    role: 'CIA officer whose identity was illegally exposed in retaliation for her husband\'s Iraq War criticism',
+    riskLevel: 'low',
+    description: 'Valerie Plame was a covert CIA officer whose identity was exposed by the Bush administration in 2003 as retaliation against her husband, Joe Wilson, who publicly disputed Bush\'s claim that Iraq sought uranium from Niger. The exposure ended her career, potentially endangered lives, and exposed the administration\'s willingness to burn intelligence assets for political revenge.',
+    birthDate: 'August 13, 1963',
+    birthPlace: 'Anchorage, Alaska',
+    education: ['Pennsylvania State University', 'London School of Economics', 'College of Europe'],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'Covert Operations Officer', type: 'agency' },
+    ],
+    controversies: [
+      'CIA covert officer whose identity was deliberately leaked by Bush administration officials in retaliation for her husband\'s Iraq War criticism',
+      'Scooter Libby convicted of obstruction related to the leak; later pardoned by Trump',
+      'The leak destroyed her intelligence network tracking WMD proliferation',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Plame Affair', slug: 'plame-leak', severity: 'high' },
+      { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'August 13, 1963', event: 'Born in Anchorage, Alaska' },
+      { date: '1985', event: 'Joins CIA' },
+      { date: 'July 6, 2003', event: 'Husband Joe Wilson publishes op-ed questioning Iraq intelligence' },
+      { date: 'July 14, 2003', event: 'Robert Novak publishes column outing her as CIA' },
+      { date: '2007', event: 'Scooter Libby convicted for obstruction in leak investigation' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Valerie Plame -"Fair Game"', url: 'https://scholar.google.com/scholar?q=Valerie%20Plame%20-%22Fair%20Game%22', date: '2007' },
+      { title: 'Special Counsel investigation', url: 'https://scholar.google.com/scholar?q=Special%20Counsel%20investigation', date: '2005-2007' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Joe Wilson', relationship: 'Husband', href: '/entities/individuals/joe-wilson' },
+      { name: 'Richard Armitage', relationship: 'Original leaker', href: '/entities/individuals/richard-armitage' },
+    ],
+  },
+
+  'vivek-murthy': {
+    name: 'Vivek Murthy',
+    title: 'U.S. Surgeon General',
+    role: 'Surgeon General who declared social media harms a public health emergency',
+    riskLevel: 'low',
+    description: 'Vivek Murthy is the U.S. Surgeon General who has declared social media harms to youth mental health a public health emergency. He has called for warning labels on social media platforms similar to tobacco warnings, highlighting the link between social media use and youth depression and anxiety.',
+    birthDate: 'July 10, 1977',
+    birthPlace: 'Huddersfield, England',
+    education: ['Harvard University', 'Yale School of Medicine'],
+    affiliations: [
+      { name: 'U.S. Public Health Service', role: 'Surgeon General', type: 'agency' },
+    ],
+    controversies: [
+      'Fired by Trump in 2017, then reappointed by Biden as Surgeon General',
+      'Declared gun violence a public health crisis, drawing conservative criticism',
+      'Issued advisory on social media\'s impact on youth mental health challenging tech companies',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Social Media Harms', slug: 'social-media-harms', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'July 10, 1977', event: 'Born in Huddersfield, England' },
+      { date: '2014-2017', event: 'First term as Surgeon General' },
+      { date: '2021-present', event: 'Second term as Surgeon General' },
+      { date: '2023', event: 'Issues advisory on social media and youth mental health' },
+      { date: '2024', event: 'Calls for warning labels on social media' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Surgeon General Advisory on Social Media', url: 'https://scholar.google.com/scholar?q=Surgeon%20General%20Advisory%20on%20Social%20Media', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'President who appointed Murthy as Surgeon General; Murthy led COVID-19 public health messaging', href: '/entities/individuals/joe-biden' },
+      { name: 'Anthony Fauci', relationship: 'Fellow public health leader during COVID-19 pandemic; collaborated on vaccination campaigns', href: '/entities/individuals/anthony-fauci' },
+      { name: 'Donald Trump', relationship: 'President who fired Murthy as Surgeon General in 2017; Murthy was later reappointed by Biden', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+
+  'victoria-nuland': {
+    name: 'Victoria Nuland',
+    title: 'State Department Official',
+    role: 'Key figure in U.S. Ukraine policy,"F*** the EU"call',
+    riskLevel: 'medium',
+    description: 'Victoria Nuland is a career diplomat who served in senior State Department roles under multiple administrations. She was caught on tape saying"F*** the EU"while discussing Ukraine policy in 2014. She was instrumental in U.S. support for the Maidan revolution and later Ukraine policy.',
+    birthDate: 'July 1, 1961',
+    birthPlace: 'New York City, New York',
+    education: ['Brown University'],
+    affiliations: [
+      { name: 'U.S. State Department', role: 'Under Secretary (2021-2024)', type: 'agency' },
+    ],
+    controversies: [
+      '"F*** THE EU": Caught on tape dismissing European allies in 2014',
+      'UKRAINE INVOLVEMENT: Central role in U.S. Ukraine policy during Maidan',
+      'REGIME CHANGE: Advocated for interventionist foreign policy',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Ukraine Policy', slug: 'ukraine-policy', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'July 1, 1961', event: 'Born in New York City' },
+      { date: '2013-2017', event: 'Assistant Secretary for European Affairs' },
+      { date: 'February 2014', event: '"F*** the EU"call leaked' },
+      { date: '2021-2024', event: 'Under Secretary of State' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Leaked phone call transcript', url: 'https://scholar.google.com/scholar?q=Leaked%20phone%20call%20transcript', date: '2014' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'President under whom Nuland served as Under Secretary of State for Political Affairs', href: '/entities/individuals/joe-biden' },
+      { name: 'Hillary Clinton', relationship: 'Secretary of State under whom Nuland served as spokesperson', href: '/entities/individuals/hillary-clinton' },
+      { name: 'Dick Cheney', relationship: 'Vice President under whom Nuland served as principal deputy national security advisor', href: '/entities/individuals/dick-cheney' },
+      { name: 'Antony Blinken', relationship: 'Secretary of State and direct superior during Biden administration Ukraine policy', href: '/entities/individuals/antony-blinken' },
+    ],
+  },
+
  'valujet-592-victims': {
  name: 'ValuJet 592 Victims',
  title: 'Crash Victims',

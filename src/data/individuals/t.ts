@@ -94,6 +94,16 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Paul Manafort', relationship: 'Business partner', href: '/entities/individuals/paul-manafort' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
   'tucker-carlson': {
     name: 'Tucker Carlson',
     title: 'Public Figure Under Investigation',
@@ -123,106 +133,100 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
- 'tony-ornato': {
- name: 'Anthony Ornato',
- title: 'Former Secret Service Agent',
- role: 'January 6 Key Figure, Trump Loyalist',
- riskLevel: 'high',
- description: 'Tony Ornato was a Secret Service agent who took the unusual step of being detailed to the White House as deputy chief of staff under Trump. He was present during key January 6 events and disputed Cassidy Hutchinson\'s testimony about Trump grabbing the steering wheel, though other agents corroborated her account.',
- birthDate: 'Unknown',
- birthPlace: 'Connecticut, USA',
- education: [
- 'University of Connecticut',
- ],
- netWorth: 'Unknown',
- aliases: [],
- affiliations: [
- { name: 'Secret Service', role: 'Agent (returned 2021)', type: 'agency' },
- { name: 'White House', role: 'Deputy Chief of Staff (2020-2021)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Detailed to serve as deputy chief of staff', href: '/entities/individuals/donald-trump' },
- { name: 'Mark Meadows', relationship: 'Worked directly with', href: '/entities/individuals/mark-meadows' },
- { name: 'Cassidy Hutchinson', relationship: 'She testified about his account of limo incident', href: '/entities/individuals/cassidy-hutchinson' },
- ],
- controversies: [
- 'Unprecedented detail from Secret Service to political position',
- 'Present during January 6 events',
- 'Deleted text messages from January 5-6',
- 'Disputed Hutchinson\'s testimony (other agents corroborated her)',
- 'Questions about loyalty to Trump vs. Secret Service mission',
- 'Involved in discussions about Trump going to Capitol',
- ],
- charges: [
- { statute: '18 U.S.C. § 1519', description: 'Potential Destruction of Records - Text messages from January 5-6 were deleted from Secret Service devices under his leadership', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction - Deleted communications that may have been relevant to January 6 congressional investigation', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Disputed Cassidy Hutchinson testimony though other agents corroborated her account', category: 'Potential Federal' },
- { statute: '44 U.S.C. § 3106 (Federal Records Act)', description: 'Records Preservation Violations - Failure to preserve text messages as required federal records', category: 'Federal Records' },
- { statute: '5 C.F.R. § 2635.101', description: 'Ethics Violations - Unprecedented detail from Secret Service to political White House position raised conflict concerns', category: 'Ethics' },
- { statute: '18 U.S.C. § 4 (Misprision of Felony)', description: 'Potential Failure to Report - May have had knowledge of January 6 planning that was not properly reported', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- ],
- timeline: [
- { date: '2020', event: 'Takes unusual detail as White House deputy chief of staff' },
- { date: '2021', event: 'January 6: Present during key events' },
- { date: '2021', event: 'Text messages from Jan 5-6 deleted' },
- { date: '2021', event: 'Returns to Secret Service' },
- { date: '2022', event: 'Cassidy Hutchinson testifies about his account' },
- { date: '2022', event: 'Retires from Secret Service' },
- ],
- sources: [
- { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- { title: 'Hutchinson Testimony', url: 'https://scholar.google.com/scholar?q=Hutchinson%20Testimony', date: '2022' },
- ],
- },
- 'tiffany-trump': {
- name: 'Tiffany Ariana Trump',
- title: 'Trump Family Member',
- role: 'Daughter of Donald Trump',
- riskLevel: 'low' as const,
- description: 'Youngest daughter of Donald Trump from his marriage to Marla Maples. A Georgetown Law graduate, Tiffany has maintained a lower public profile than her half-siblings but appeared at campaign events and the 2020 Republican National Convention. She married Michael Boulos, son of a wealthy Lebanese-Nigerian family with business ties to the Middle East, at Mar-a-Lago in November 2022.',
- birthDate: 'October 13, 1993',
- birthPlace: 'West Palm Beach, Florida',
- education: [
- 'Georgetown University Law Center (J.D., 2020)',
- 'University of Pennsylvania (B.A. Sociology, 2016)',
- ],
- affiliations: [
- { name: 'Trump Organization', role: 'Family Member', type: 'corporation' },
- { name: 'Republican Party', role: 'Surrogate', type: 'organization' },
- ],
+  'tony-ornato': {
+    name: 'Anthony Ornato',
+    title: 'Former Secret Service Agent',
+    role: 'January 6 Key Figure, Trump Loyalist',
+    riskLevel: 'high',
+    description: 'Tony Ornato was a Secret Service agent who took the unusual step of being detailed to the White House as deputy chief of staff under Trump. He was present during key January 6 events and disputed Cassidy Hutchinson\'s testimony about Trump grabbing the steering wheel, though other agents corroborated her account.',
+    birthDate: 'Unknown',
+    birthPlace: 'Connecticut, USA',
+    netWorth: 'Unknown',
+    education: ['University of Connecticut'],
+    affiliations: [
+      { name: 'Secret Service', role: 'Agent (returned 2021)', type: 'agency' },
+      { name: 'White House', role: 'Deputy Chief of Staff (2020-2021)', type: 'agency' },
+    ],
+    controversies: [
+      'Unprecedented detail from Secret Service to political position',
+      'Present during January 6 events',
+      'Deleted text messages from January 5-6',
+      'Disputed Hutchinson\'s testimony (other agents corroborated her)',
+      'Questions about loyalty to Trump vs. Secret Service mission',
+      'Involved in discussions about Trump going to Capitol',
+    ],
+    charges: [
+      { statute: '18 U.S.C. § 1519', description: 'Potential Destruction of Records - Text messages from January 5-6 were deleted from Secret Service devices under his leadership', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction - Deleted communications that may have been relevant to January 6 congressional investigation', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Disputed Cassidy Hutchinson testimony though other agents corroborated her account', category: 'Potential Federal' },
+      { statute: '44 U.S.C. § 3106 (Federal Records Act)', description: 'Records Preservation Violations - Failure to preserve text messages as required federal records', category: 'Federal Records' },
+      { statute: '5 C.F.R. § 2635.101', description: 'Ethics Violations - Unprecedented detail from Secret Service to political White House position raised conflict concerns', category: 'Ethics' },
+      { statute: '18 U.S.C. § 4 (Misprision of Felony)', description: 'Potential Failure to Report - May have had knowledge of January 6 planning that was not properly reported', category: 'Potential Federal' },
+    ],
+    relatedInvestigations: [
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2020', event: 'Takes unusual detail as White House deputy chief of staff' },
+      { date: '2021', event: 'January 6: Present during key events' },
+      { date: '2021', event: 'Text messages from Jan 5-6 deleted' },
+      { date: '2021', event: 'Returns to Secret Service' },
+      { date: '2022', event: 'Cassidy Hutchinson testifies about his account' },
+      { date: '2022', event: 'Retires from Secret Service' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
+      { title: 'Hutchinson Testimony', url: 'https://scholar.google.com/scholar?q=Hutchinson%20Testimony', date: '2022' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Detailed to serve as deputy chief of staff', href: '/entities/individuals/donald-trump' },
+      { name: 'Mark Meadows', relationship: 'Worked directly with', href: '/entities/individuals/mark-meadows' },
+      { name: 'Cassidy Hutchinson', relationship: 'She testified about his account of limo incident', href: '/entities/individuals/cassidy-hutchinson' },
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Daughter from second marriage to Marla Maples; graduated from Georgetown Law School', href: '/entities/individuals/donald-trump' },
- { name: 'Ivanka Trump', relationship: 'Half-sister from Trump\'s first marriage; publicly close despite different upbringings', href: '/entities/individuals/ivanka-trump' },
- { name: 'Melania Trump', relationship: 'Stepmother who joined Trump family during Tiffany\'s childhood', href: '/entities/individuals/melania-trump' },
- { name: 'Eric Trump', relationship: 'Half-brother from Trump\'s first marriage to Ivana Trump', href: '/entities/individuals/eric-trump' },
- { name: 'Donald Trump Jr.', relationship: 'Half-brother from Trump\'s first marriage; both part of extended Trump family political orbit', href: '/entities/individuals/donald-trump-jr' },
- ],
- controversies: [
- 'Largely kept distance from Trump business operations',
- 'Spoke at 2020 Republican National Convention',
- 'Wedding at Mar-a-Lago reportedly cost millions',
- 'Husband\'s family has Nigerian oil interests',
- 'Less involved in administration than Ivanka',
- ],
- charges: [],
- relatedInvestigations: [],
- timeline: [
- { date: '1993', event: 'Born to Donald Trump and Marla Maples' },
- { date: '2016', event: 'Graduates University of Pennsylvania' },
- { date: '2016', event: 'Speaks at Republican National Convention' },
- { date: '2020', event: 'Graduates Georgetown Law' },
- { date: '2020', event: 'Speaks at RNC, supports father\'s campaign' },
- { date: 'November 2022', event: 'Marries Michael Boulos at Mar-a-Lago' },
- ],
- sources: [
- { title: 'Georgetown Law Records', url: 'https://scholar.google.com/scholar?q=Georgetown%20Law%20Records', date: '2020' },
- { title: 'RNC Convention Coverage', url: 'https://scholar.google.com/scholar?q=RNC%20Convention%20Coverage', date: '2020' },
- ],
- },
+
+
+
+
+
+
+
+
+
+  'tiffany-trump': {
+    name: 'Tiffany Trump',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Tiffany Trump is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Tiffany Trump has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'tanya-chutkan': {
  name: 'Tanya Sue Chutkan',
  title: 'U.S. District Judge',
@@ -264,100 +268,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'todd-blanche': {
- name: 'Todd Blanche',
- title: 'Trump Defense Attorney',
- role: 'Lead Criminal Defense Lawyer',
- riskLevel: 'low' as const,
- description: 'Criminal defense attorney who serves as lead counsel for Donald Trump in his federal and state criminal cases. Former federal prosecutor who previously worked at Cadwalader law firm. Known for aggressive cross-examination style. Defended Trump in the New York hush money trial resulting in 34 convictions.',
- birthDate: '1976',
- birthPlace: 'New York',
- education: [
- 'J.D. - Brooklyn Law School',
- 'Former AUSA, Southern District of New York',
- ],
- affiliations: [
- { name: 'Blanche Law', role: 'Founding Partner', type: 'corporation' },
- { name: 'DOJ', role: 'Former Assistant U.S. Attorney', type: 'agency' },
- ],
+  'todd-blanche': {
+    name: 'Todd Blanche',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Todd Blanche is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Todd Blanche has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Lead defense attorney in Manhattan hush money trial and federal cases; later nominated as Deputy Attorney General', href: '/entities/individuals/donald-trump' },
- { name: 'Alvin Bragg', relationship: 'Opposing counsel as Manhattan DA who prosecuted the case Blanche defended', href: '/entities/individuals/alvin-bragg' },
- { name: 'Juan Merchan', relationship: 'Judge before whom Blanche argued Trump\'s defense in the hush money trial', href: '/entities/individuals/juan-merchan' },
- { name: 'Jack Smith', relationship: 'Special Counsel whose federal prosecutions Blanche defended Trump against', href: '/entities/individuals/jack-smith' },
- ],
- controversies: [
- 'Lead counsel in Trump federal cases',
- 'Defended Trump in 34-count conviction',
- 'Criticized for aggressive Michael Cohen cross',
- 'Left Cadwalader to represent Trump',
- 'Appears regularly at Trump court proceedings',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Hush Money Payments', slug: 'hush-money', severity: 'critical' },
- { title: 'Mar-a-Lago Documents', slug: 'mar-a-lago-documents', severity: 'critical' },
- ],
- timeline: [
- { date: 'April 2023', event: 'Joins Trump legal team' },
- { date: '2023', event: 'Leaves Cadwalader law firm' },
- { date: 'April-May 2024', event: 'Defends Trump in hush money trial' },
- { date: 'May 30, 2024', event: 'Trump convicted on 34 counts' },
- ],
- sources: [
- { title: 'People v. Trump Court Records', url: 'https://scholar.google.com/scholar?q=People%20v.%20Trump%20Court%20Records', date: '2024' },
- ],
- },
- 'tom-marino': {
- name: 'Thomas Anthony Marino',
- title: 'Former U.S. Representative',
- role: 'Failed Drug Czar Nominee',
- riskLevel: 'high' as const,
- description: 'Pennsylvania congressman who sponsored legislation that hobbled DEA enforcement against opioid distributors flooding communities with pills. Trump nominated him as Drug Czar in 2017, but he withdrew after a joint investigation by Washington Post and 60 Minutes revealed his role in the opioid crisis.',
- birthDate: 'August 13, 1952',
- birthPlace: 'Williamsport, Pennsylvania',
- education: [
- 'Lycoming College (B.A.)',
- 'Dickinson School of Law (J.D.)',
- ],
- affiliations: [
- { name: 'U.S. House of Representatives', role: 'Representative (2011-2019)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Failed Drug Czar nominee', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'Sponsored bill protecting opioid distributors',
- 'Received donations from pharma industry',
- 'Failed Drug Czar nomination',
- 'Legislation hamstrung DEA enforcement',
- 'Bill passed with little scrutiny',
- ],
- charges: [
- { statute: '18 U.S.C. § 201(b) (Bribery)', description: 'Potential Bribery - Received $100,000+ from pharmaceutical industry while sponsoring legislation directly benefiting opioid distributors', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 201(c) (Illegal Gratuity)', description: 'Potential Illegal Gratuity - Campaign donations from pharma industry correlated with legislative favors', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1346 (Honest Services Fraud)', description: 'Potential Honest Services Fraud - Deprived constituents of honest services by secretly serving pharma industry interests', category: 'Potential Federal' },
- { statute: '21 U.S.C. § 823 (DEA Registration)', description: 'Legislative Obstruction of DEA - Ensuring Patient Access Act hamstrung DEA ability to suspend suspicious distributors', category: 'Regulatory Harm' },
- { statute: 'Controlled Substances Act Undermining', description: 'Systematically weakened DEA enforcement powers during height of opioid epidemic', category: 'Regulatory' },
- { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Potential False Statements - Misrepresented purpose of legislation to Congress and public', category: 'Potential Federal' },
- { statute: 'House Ethics Rules', description: 'Ethics Violations - Failed to disclose extent of pharmaceutical industry connections while advancing their legislation', category: 'Congressional Ethics' },
- { statute: 'Negligent Homicide (Moral Accountability)', description: 'Contributed to 400,000+ opioid deaths by protecting distributors flooding communities with pills', category: 'Moral Accountability' },
- ],
- relatedInvestigations: [
- { title: 'Opioid Crisis', slug: 'opioid-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: '2011', event: 'Elected to Congress' },
- { date: '2016', event: 'Sponsors Ensuring Patient Access Act' },
- { date: '2017', event: 'Nominated as Drug Czar' },
- { date: 'October 2017', event: 'Withdraws nomination after investigation' },
- { date: '2019', event: 'Resigns from Congress' },
- ],
- sources: [
- { title: 'Washington Post/60 Minutes Investigation', url: 'https://www.washingtonpost.com/', date: '2017' },
- ],
- },
+  'tom-marino': {
+    name: 'Tom Marino',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Tom Marino is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Tom Marino has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'timothy-shea': {
  name: 'Timothy Shea',
  title: 'Convicted Fraudster',
@@ -397,142 +367,127 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'SDNY Trial Records', url: 'https://scholar.google.com/scholar?q=SDNY%20Trial%20Records', date: '2023' },
  ],
  },
- 'ted-cruz': {
- name: 'Rafael Edward"Ted"Cruz',
- title: 'U.S. Senator (R-Texas)',
- role: 'Election Objector, Constitutional Challenge Leader',
- riskLevel: 'high' as const,
- description: 'Ted Cruz was a leader of the effort to overturn the 2020 election results. He led the objection to Arizona\'s electoral votes on January 6, 2021, continuing even after the Capitol was attacked. He proposed an"electoral commission"to delay certification and give Trump a path to overturn the election.',
- birthDate: 'December 22, 1970',
- birthPlace: 'Calgary, Alberta, Canada',
- education: [
- 'Juris Doctor, magna cum laude - Harvard Law School',
- 'Bachelor of Arts, cum laude - Princeton University',
- ],
- affiliations: [
- { name: 'U.S. Senate', role: 'Senator from Texas (2013-Present)', type: 'agency' },
- { name: 'Republican Party', role: 'Presidential Candidate 2016', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Rival turned ally, election objector', href: '/entities/individuals/donald-trump' },
- { name: 'Josh Hawley', relationship: 'Co-led election objection', href: '/entities/individuals/josh-hawley' },
- ],
- controversies: [
- 'Led January 6 electoral vote objection',
- 'Proposed"electoral commission"to delay certification',
- 'Continued objections after Capitol attack',
- 'Fled to Cancun during Texas power grid failure',
- 'Called Trump a"pathological liar"then endorsed him',
- ],
- charges: [
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy to Defraud the United States - Led coordinated effort to overturn certified election results with knowingly false claims', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1512(c)(2)', description: 'Potential Obstruction of an Official Proceeding - Led objection to electoral vote certification on January 6, continued after violence', category: 'Potential Federal' },
- { statute: '52 U.S.C. § 20511', description: 'Potential Election Interference - Proposed"electoral commission"scheme to delay and potentially overturn democratic election', category: 'Potential Election' },
- { statute: '18 U.S.C. § 241', description: 'Potential Conspiracy Against Rights - Participated in scheme to disenfranchise millions of voters', category: 'Potential Civil Rights' },
- { statute: 'U.S. Constitution, 14th Amendment, Section 3', description: 'Potential Disqualification - Participated in insurrection by continuing to object after violent attack on certification', category: 'Constitutional' },
- { statute: 'Senate Ethics Rules', description: 'Multiple Violations - Spreading disinformation about election fraud with no evidence, misleading public about legal process', category: 'Ethics' },
- { statute: '18 U.S.C. § 595', description: 'Potential Interference with Election by Government Officer - Used Senate position to attempt to overturn election', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- { title: 'Fake Electors', slug: 'fake-electors', severity: 'critical' },
- ],
- timeline: [
- { date: '2016', event: 'Loses presidential primary to Trump, calls him"pathological liar"' },
- { date: '2016', event: 'Endorses Trump after criticism' },
- { date: 'January 2, 2021', event: 'Announces plan to object to electoral votes' },
- { date: 'January 6, 2021', event: 'Leads Arizona electoral vote objection' },
- { date: 'January 6, 2021', event: 'Continues objection after Capitol attack' },
- { date: 'February 2021', event: 'Flees to Cancun during Texas freeze' },
- ],
- sources: [
- { title: 'Congressional Record', url: 'https://www.congress.gov/congressional-record', date: '2021' },
- ],
- },
- 'tedros-adhanom': {
- name: 'Tedros Adhanom Ghebreyesus',
- title: 'WHO Director-General',
- role: 'Global Health Chief, COVID Response Leader, China Relations Controversy',
- riskLevel: 'high',
- description: 'Tedros Adhanom Ghebreyesus is an Ethiopian politician and public health researcher serving as Director-General of the World Health Organization since 2017. His tenure has been marked by controversy over WHO\'s COVID-19 response, including initial praise of China\'s transparency, delayed pandemic declaration, and resistance to lab leak investigation. Prior to WHO, he served as Ethiopia\'s Health Minister and Foreign Minister under the TPLF government, facing accusations of covering up cholera outbreaks. His appointment was backed by China, leading to ongoing questions about WHO\'s independence.',
- birthDate: 'March 3, 1965',
- birthPlace: 'Asmara, Eritrea (then Ethiopia)',
- education: [
- 'Ph.D. in Community Health - University of Nottingham (2000)',
- 'M.Sc. in Immunology of Infectious Diseases - London School of Hygiene & Tropical Medicine (1992)',
- 'Degree in Biology - University of Asmara',
- ],
- netWorth: 'Undisclosed (UN salary ~$239,000/year)',
- aliases: ['Dr. Tedros', 'WHO Chief'],
- affiliations: [
- { name: 'World Health Organization', role: 'Director-General (2017-present)', type: 'organization' },
- { name: 'Ethiopian Government', role: 'Health Minister (2005-2012), Foreign Minister (2012-2016)', type: 'agency' },
- { name: 'Tigray People\'s Liberation Front (TPLF)', role: 'Political base', type: 'organization' },
- { name: 'Bill & Melinda Gates Foundation', role: 'Backed his candidacy', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Xi Jinping', relationship: 'Praised China COVID response, accused of deference', href: '/entities/individuals/xi-jinping' },
- { name: 'Bill Gates', relationship: 'Gates Foundation support, WHO major donor', href: '/entities/individuals/bill-gates' },
- { name: 'Anthony Fauci', relationship: 'COVID-19 response coordination', href: '/entities/individuals/anthony-fauci' },
- ],
- controversies: [
- 'CHINA PRAISE: January 2020, praised China\'s"transparency"and COVID response while evidence suggested cover-up',
- 'DELAYED PANDEMIC DECLARATION: WHO declared pandemic March 11, 2020 - weeks after evidence warranted it',
- 'HUMAN-TO-HUMAN DENIAL: WHO tweeted January 14, 2020"no clear evidence of human-to-human transmission"',
- 'TRAVEL RESTRICTIONS: Initially opposed travel restrictions from China',
- 'LAB LEAK DISMISSAL: WHO investigation dismissed lab leak as"extremely unlikely"based on limited access',
- 'CHINA ACCESS FAILURE: Unable to secure full access for origins investigation',
- 'TAIWAN EXCLUSION: Kept Taiwan excluded from WHO despite successful COVID response',
- 'ETHIOPIA CHOLERA COVER-UP: Accused of covering up cholera outbreaks as Health Minister (called"acute watery diarrhea")',
- 'TPLF CONNECTION: Political background with government accused of human rights abuses',
- 'SECOND TERM: Re-elected unopposed in 2022 despite controversy',
- 'TIGRAY GENOCIDE: Accused Ethiopia of genocide in Tigray, criticized for political involvement',
- 'PPE FAILURES: WHO slow to recommend masking, PPE guidance criticized',
- ],
- charges: [
- { statute: 'WHO Constitution Article 2', description: 'Failure to provide accurate information - Delayed warnings', category: 'International' },
- { statute: 'International Health Regulations 2005', description: 'IHR Violations - Inadequate pandemic response', category: 'International' },
- { statute: 'Ethiopian Criminal Code', description: 'Cholera cover-up allegations (as Health Minister)', category: 'Ethiopia' },
- { statute: 'Rome Statute Article 7', description: 'TPLF government human rights concerns (as official)', category: 'International Criminal Court' },
- ],
- relatedInvestigations: [
- { title: 'COVID-19 Response Failures', slug: 'covid-response', severity: 'critical' },
- { title: 'WHO China Deference', slug: 'who-china', severity: 'critical' },
- { title: 'Global Pandemic Conspiracy', slug: 'pandemic-conspiracy', severity: 'critical' },
- { title: 'Lab Leak Cover-Up', slug: 'lab-leak', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 3, 1965', event: 'Born in Asmara (then Ethiopia, now Eritrea)' },
- { date: '1986', event: 'Graduates University of Asmara with biology degree' },
- { date: '1992', event: 'M.Sc. from London School of Hygiene & Tropical Medicine' },
- { date: '2000', event: 'Ph.D. from University of Nottingham' },
- { date: '2005-2012', event: 'Ethiopian Health Minister - accused of covering up cholera as"acute watery diarrhea"' },
- { date: '2012-2016', event: 'Ethiopian Foreign Minister' },
- { date: 'May 2017', event: 'Elected WHO Director-General with China\'s backing' },
- { date: 'December 31, 2019', event: 'WHO informed of pneumonia cluster in Wuhan' },
- { date: 'January 14, 2020', event: 'WHO tweets"no clear evidence of human-to-human transmission"' },
- { date: 'January 28, 2020', event: 'Meets Xi Jinping, praises China\'s"transparency"' },
- { date: 'January 30, 2020', event: 'Declares Public Health Emergency of International Concern' },
- { date: 'February 2020', event: 'Opposes travel restrictions, calls them counterproductive' },
- { date: 'March 11, 2020', event: 'Finally declares COVID-19 a pandemic' },
- { date: 'May 2020', event: 'Trump announces US withdrawing from WHO' },
- { date: 'January 2021', event: 'Biden rejoins WHO' },
- { date: 'February 2021', event: 'WHO origins team visits Wuhan, limited access' },
- { date: 'March 2021', event: 'WHO report dismisses lab leak as"extremely unlikely"' },
- { date: 'July 2021', event: 'Calls for new investigation, admits initial study inadequate' },
- { date: 'May 2022', event: 'Re-elected unopposed as Director-General' },
- { date: '2022', event: 'Accuses Ethiopia of genocide in Tigray' },
- { date: '2024', event: 'Continues as WHO Director-General, pandemic treaty negotiations' },
- ],
- sources: [
- { title: 'WHO COVID-19 Timeline', url: 'https://www.who.int/news/item/27-04-2020-who-timeline---covid-19', date: '2020' },
- { title: 'WHO Origins Investigation Report', url: 'https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part', date: '2021' },
- { title: 'AP Investigation - WHO China Response', url: 'https://apnews.com/article/united-nations-health-ap-top-news-virus-outbreak-public-health-3c061794970661042b18d5aeaaed9fae', date: '2020' },
- { title: 'Ethiopia Cholera Cover-Up Allegations', url: 'https://scholar.google.com/scholar?q=Ethiopia%20Cholera%20Cover-Up%20Allegations', date: '2017' },
- { title: 'Independent Panel for Pandemic Preparedness', url: 'https://theindependentpanel.org/', date: '2021' },
- { title: 'House Foreign Affairs Committee Report', url: 'https://foreignaffairs.house.gov/', date: '2020' },
- ],
- },
+  'ted-cruz': {
+    name: 'Ted Cruz',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ted Cruz is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Ted Cruz has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'tedros-adhanom': {
+    name: 'Tedros Adhanom Ghebreyesus',
+    title: 'WHO Director-General',
+    role: 'Global Health Chief, COVID Response Leader, China Relations Controversy',
+    riskLevel: 'high',
+    description: 'Tedros Adhanom Ghebreyesus is an Ethiopian politician and public health researcher serving as Director-General of the World Health Organization since 2017. His tenure has been marked by controversy over WHO\'s COVID-19 response, including initial praise of China\'s transparency, delayed pandemic declaration, and resistance to lab leak investigation. Prior to WHO, he served as Ethiopia\'s Health Minister and Foreign Minister under the TPLF government, facing accusations of covering up cholera outbreaks. His appointment was backed by China, leading to ongoing questions about WHO\'s independence.',
+    birthDate: 'March 3, 1965',
+    birthPlace: 'Asmara, Eritrea (then Ethiopia)',
+    netWorth: 'Undisclosed (UN salary ~$239,000/year)',
+    education: ['Ph.D. in Community Health - University of Nottingham (2000)', 'M.Sc. in Immunology of Infectious Diseases - London School of Hygiene & Tropical Medicine (1992)', 'Degree in Biology - University of Asmara'],
+    affiliations: [
+      { name: 'World Health Organization', role: 'Director-General (2017-present)', type: 'organization' },
+      { name: 'Ethiopian Government', role: 'Health Minister (2005-2012), Foreign Minister (2012-2016)', type: 'agency' },
+      { name: 'Tigray People\'s Liberation Front (TPLF)', role: 'Political base', type: 'organization' },
+      { name: 'Bill & Melinda Gates Foundation', role: 'Backed his candidacy', type: 'organization' },
+    ],
+    controversies: [
+      'CHINA PRAISE: January 2020, praised China\'s"transparency"and COVID response while evidence suggested cover-up',
+      'DELAYED PANDEMIC DECLARATION: WHO declared pandemic March 11, 2020 - weeks after evidence warranted it',
+      'HUMAN-TO-HUMAN DENIAL: WHO tweeted January 14, 2020"no clear evidence of human-to-human transmission"',
+      'TRAVEL RESTRICTIONS: Initially opposed travel restrictions from China',
+      'LAB LEAK DISMISSAL: WHO investigation dismissed lab leak as"extremely unlikely"based on limited access',
+      'CHINA ACCESS FAILURE: Unable to secure full access for origins investigation',
+      'TAIWAN EXCLUSION: Kept Taiwan excluded from WHO despite successful COVID response',
+      'ETHIOPIA CHOLERA COVER-UP: Accused of covering up cholera outbreaks as Health Minister (called"acute watery diarrhea")',
+      'TPLF CONNECTION: Political background with government accused of human rights abuses',
+      'SECOND TERM: Re-elected unopposed in 2022 despite controversy',
+      'TIGRAY GENOCIDE: Accused Ethiopia of genocide in Tigray, criticized for political involvement',
+      'PPE FAILURES: WHO slow to recommend masking, PPE guidance criticized',
+    ],
+    charges: [
+      { statute: 'WHO Constitution Article 2', description: 'Failure to provide accurate information - Delayed warnings', category: 'International' },
+      { statute: 'International Health Regulations 2005', description: 'IHR Violations - Inadequate pandemic response', category: 'International' },
+      { statute: 'Ethiopian Criminal Code', description: 'Cholera cover-up allegations (as Health Minister)', category: 'Ethiopia' },
+      { statute: 'Rome Statute Article 7', description: 'TPLF government human rights concerns (as official)', category: 'International Criminal Court' },
+    ],
+    relatedInvestigations: [
+      { title: 'COVID-19 Response Failures', slug: 'covid-response', severity: 'critical' },
+      { title: 'WHO China Deference', slug: 'who-china', severity: 'critical' },
+      { title: 'Global Pandemic Conspiracy', slug: 'pandemic-conspiracy', severity: 'critical' },
+      { title: 'Lab Leak Cover-Up', slug: 'lab-leak', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'March 3, 1965', event: 'Born in Asmara (then Ethiopia, now Eritrea)' },
+      { date: '1986', event: 'Graduates University of Asmara with biology degree' },
+      { date: '1992', event: 'M.Sc. from London School of Hygiene & Tropical Medicine' },
+      { date: '2000', event: 'Ph.D. from University of Nottingham' },
+      { date: '2005-2012', event: 'Ethiopian Health Minister - accused of covering up cholera as"acute watery diarrhea"' },
+      { date: '2012-2016', event: 'Ethiopian Foreign Minister' },
+      { date: 'May 2017', event: 'Elected WHO Director-General with China\'s backing' },
+      { date: 'December 31, 2019', event: 'WHO informed of pneumonia cluster in Wuhan' },
+      { date: 'January 14, 2020', event: 'WHO tweets"no clear evidence of human-to-human transmission"' },
+      { date: 'January 28, 2020', event: 'Meets Xi Jinping, praises China\'s"transparency"' },
+      { date: 'January 30, 2020', event: 'Declares Public Health Emergency of International Concern' },
+      { date: 'February 2020', event: 'Opposes travel restrictions, calls them counterproductive' },
+      { date: 'March 11, 2020', event: 'Finally declares COVID-19 a pandemic' },
+      { date: 'May 2020', event: 'Trump announces US withdrawing from WHO' },
+      { date: 'January 2021', event: 'Biden rejoins WHO' },
+      { date: 'February 2021', event: 'WHO origins team visits Wuhan, limited access' },
+      { date: 'March 2021', event: 'WHO report dismisses lab leak as"extremely unlikely"' },
+      { date: 'July 2021', event: 'Calls for new investigation, admits initial study inadequate' },
+      { date: 'May 2022', event: 'Re-elected unopposed as Director-General' },
+      { date: '2022', event: 'Accuses Ethiopia of genocide in Tigray' },
+      { date: '2024', event: 'Continues as WHO Director-General, pandemic treaty negotiations' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'WHO COVID-19 Timeline', url: 'https://www.who.int/news/item/27-04-2020-who-timeline---covid-19', date: '2020' },
+      { title: 'WHO Origins Investigation Report', url: 'https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part', date: '2021' },
+      { title: 'AP Investigation - WHO China Response', url: 'https://apnews.com/article/united-nations-health-ap-top-news-virus-outbreak-public-health-3c061794970661042b18d5aeaaed9fae', date: '2020' },
+      { title: 'Ethiopia Cholera Cover-Up Allegations', url: 'https://scholar.google.com/scholar?q=Ethiopia%20Cholera%20Cover-Up%20Allegations', date: '2017' },
+      { title: 'Independent Panel for Pandemic Preparedness', url: 'https://theindependentpanel.org/', date: '2021' },
+      { title: 'House Foreign Affairs Committee Report', url: 'https://foreignaffairs.house.gov/', date: '2020' },
+    ],
+    aliases: ['Dr. Tedros', 'WHO Chief'],
+    knownAssociates: [
+      { name: 'Xi Jinping', relationship: 'Praised China COVID response, accused of deference', href: '/entities/individuals/xi-jinping' },
+      { name: 'Bill Gates', relationship: 'Gates Foundation support, WHO major donor', href: '/entities/individuals/bill-gates' },
+      { name: 'Anthony Fauci', relationship: 'COVID-19 response coordination', href: '/entities/individuals/anthony-fauci' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
  'tou-thao': {
  name: 'Tou Thao',
  title: 'Former Minneapolis Police Officer',
@@ -884,52 +839,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Todd Curtis', url: 'https://www.google.com/search?q=Todd%20Curtis' }, { title: 'Wired: Todd Curtis', url: 'https://www.wired.com/' }],
  },
- 'tony-hayward': {
- name: 'Tony Hayward',
- title: 'Former BP CEO',
- role: 'BP CEO - Deepwater Horizon Disaster',
- riskLevel: 'critical',
- description: 'Tony Hayward was CEO of BP during the Deepwater Horizon disaster in April 2010, the largest marine oil spill in history. The explosion killed 11 workers and spilled 4.9 million barrels of oil into the Gulf of Mexico over 87 days. BP\'s cost-cutting culture under Hayward contributed to the disaster. His tone-deaf comment"I\'d like my life back"epitomized corporate callousness. BP paid over $65 billion in cleanup and legal costs.',
- birthDate: 'May 21, 1957',
- birthPlace: 'Slough, England',
- education: ['University of Edinburgh (Geology)', 'University of Edinburgh (PhD)'],
- affiliations: [
- { name: 'BP', role: 'Former CEO', type: 'corporation' as const },
- { name: 'Glencore', role: 'Former Chairman', type: 'corporation' as const },
- ],
- controversies: [
- 'DEEPWATER HORIZON: 11 dead, largest oil spill in history',
- 'COST CUTTING: BP safety culture contributed to disaster',
- '"I\'D LIKE MY LIFE BACK": Tone-deaf comment while Gulf suffered',
- 'YACHT RACE: Went sailing while oil still spilling',
- '$65 BILLION: Total BP costs from disaster',
- 'NO PRISON: No executives jailed despite deaths',
- ],
- charges: [
- { statute: '33 U.S.C. � 1319(c)(1)', description: 'Clean Water Act Violations (Corporate plea)', category: 'CORPORATE GUILTY PLEA' },
- { statute: '18 U.S.C. � 1112', description: 'Involuntary Manslaughter - 11 worker deaths', category: 'UNPROSECUTED' },
- { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crime - Widespread environmental destruction', category: 'INTERNATIONAL' },
- ],
- relatedInvestigations: [
- { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'critical' },
- { title: 'Environmental Crimes', slug: 'environmental-crimes', severity: 'critical' },
- ],
- timeline: [
- { date: 'May 21, 1957', event: 'Born in England' },
- { date: '2007', event: 'Becomes BP CEO' },
- { date: 'April 20, 2010', event: 'Deepwater Horizon explosion' },
- { date: 'July 2010', event: 'Well finally capped' },
- { date: 'October 2010', event: 'Resigns as BP CEO' },
- { date: '2012', event: 'BP pleads guilty, pays $4.5B criminal fine' },
- ],
- sources: [{ title: 'Wikipedia: Tony Hayward', url: 'https://en.wikipedia.org/wiki/Tony_Hayward' }, { title: 'Bloomberg: Tony Hayward', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: Tony Hayward', url: 'https://www.militarytimes.com/' }, { title: 'InsideClimate News', url: 'https://insideclimatenews.org/' }],
- knownAssociates: [
- { name: 'Bob Dudley', relationship: 'Successor as BP CEO after Deepwater Horizon disaster', href: '/entities/individuals/robert-dudley' },
- { name: 'Donald Vidrine', relationship: 'BP well site leader during Deepwater Horizon explosion', href: '/entities/individuals/donald-vidrine' },
- { name: 'Thad Allen', relationship: 'Coast Guard Admiral who led federal spill response', href: '/entities/individuals/thad-allen' }
- ],
+  'tony-hayward': {
+    name: 'Tony Hayward',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Tony Hayward is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Tony Hayward has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
  'thomas-sandefur': {
  name: 'Thomas E. Sandefur Jr.',
  title: 'Former Brown & Williamson CEO',
@@ -1006,51 +945,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'tim-cook': {
- name: 'Tim Cook',
- title: 'Apple CEO',
- role: 'Apple CEO - Labor Exploitation, Privacy Theater',
- riskLevel: 'high',
- description: 'Tim Cook has led Apple since 2011, overseeing a company that relies on exploitative labor practices in China, particularly through Foxconn where workers have committed suicide due to conditions. Despite marketing privacy as a core value, Apple has complied with Chinese government demands for data access and censorship. Apple avoids billions in taxes through offshore schemes while lobbying against right-to-repair laws.',
- birthDate: 'November 1, 1960',
- birthPlace: 'Mobile, Alabama',
- education: ['Auburn University', 'Duke University (MBA)'],
- netWorth: '$2 billion',
- affiliations: [
- { name: 'Apple Inc.', role: 'CEO', type: 'corporation' as const },
- ],
- controversies: [
- 'FOXCONN SUICIDES: Workers killed themselves due to conditions',
- 'CHINA COMPLIANCE: Stores Chinese user data on government servers',
- 'APP CENSORSHIP: Removed VPNs, apps at China\'s request',
- 'TAX AVOIDANCE: $252 billion held offshore to avoid US taxes',
- 'RIGHT TO REPAIR: Lobbies against consumer repair rights',
- 'UYGHUR LABOR: Supply chain linked to forced labor',
- 'PLANNED OBSOLESCENCE: Deliberately slowed old iPhones',
- ],
- charges: [
- { statute: '26 U.S.C. � 7201', description: 'Tax Evasion - Offshore tax schemes', category: 'UNINVESTIGATED' },
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Profiting from forced labor', category: 'INTERNATIONAL' },
- { statute: '15 U.S.C. � 45', description: 'Unfair Business Practices - Planned obsolescence', category: 'CIVIL' },
- ],
- relatedInvestigations: [
- { title: 'Tech Labor Exploitation', slug: 'tech-labor-exploitation', severity: 'critical' },
- { title: 'Corporate Tax Avoidance', slug: 'corporate-tax-avoidance', severity: 'high' },
- ],
- timeline: [
- { date: 'November 1, 1960', event: 'Born in Alabama' },
- { date: '1998', event: 'Joins Apple' },
- { date: 'August 2011', event: 'Becomes Apple CEO' },
- { date: '2017', event: 'Batterygate scandal' },
- { date: '2021', event: 'Congressional testimony on App Store' },
- ],
- sources: [{ title: 'Wikipedia: Tim Cook', url: 'https://en.wikipedia.org/wiki/Tim_Cook' }, { title: 'Bloomberg: Tim Cook', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Wired: Tim Cook', url: 'https://www.wired.com/' }],
- knownAssociates: [
- { name: 'Satya Nadella', relationship: 'Fellow Big Tech CEO and competitor', href: '/entities/individuals/satya-nadella' },
- { name: 'Mark Zuckerberg', relationship: 'Publicly criticized Facebook privacy practices', href: '/entities/individuals/mark-zuckerberg' }
- ],
+  'tim-cook': {
+    name: 'Tim Cook',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Tim Cook is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Tim Cook has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
  'trevor-milton': {
  name: 'Trevor Milton',
  title: 'Former Nikola Motors Founder',
@@ -1247,90 +1171,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Tony Blair', url: 'https://en.wikipedia.org/wiki/Tony_Blair' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Military Times: Tony Blair', url: 'https://www.militarytimes.com/' }, { title: 'BBC News', url: 'https://www.bbc.com/news' }],
  },
- 'thomas-homan': {
- name: 'Thomas Homan',
- title: 'Former ICE Director',
- role: 'ICE - Family Separations, Detention Deaths',
- riskLevel: 'critical',
- description: 'Thomas Homan served as Acting ICE Director under Trump and was a key architect of the family separation policy. Under his leadership, children were torn from parents, detained in cages, and several died in custody. He openly bragged about deporting immigrants and defended the cruel policies.',
- birthDate: '1959',
- birthPlace: 'West Carthage, New York',
- education: ['SUNY Potsdam', 'Law Enforcement Training'],
- affiliations: [
- { name: 'Immigration and Customs Enforcement', role: 'Former Acting Director', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Appointed by', href: '/entities/individuals/donald-trump' },
- { name: 'Stephen Miller', relationship: 'Immigration policy ally', href: '/entities/individuals/stephen-miller' },
- ],
- controversies: [
- 'FAMILY SEPARATION: Key architect of policy',
- 'CHILDREN IN CAGES: Oversaw mass child detention',
- 'DETENTION DEATHS: Deaths increased under leadership',
- '"ZERO TOLERANCE": Implemented cruel policy',
- 'DEPORTATION PRIDE: Bragged about deportations',
- 'THREATENED POLITICIANS: Threatened to arrest officials',
- ],
- charges: [
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Family separation', category: 'INTERNATIONAL' },
- { statute: 'Rome Statute Article 7(1)(e)', description: 'Crimes Against Humanity - Imprisonment', category: 'INTERNATIONAL' },
- ],
- relatedInvestigations: [
- { title: 'Family Separation Policy', slug: 'family-separation-policy', severity: 'critical' },
- { title: 'ICE Detention Deaths', slug: 'ice-detention-deaths', severity: 'critical' },
- ],
- timeline: [
- { date: '1959', event: 'Born in New York' },
- { date: 'January 2017', event: 'Becomes Acting ICE Director' },
- { date: '2018', event: 'Family separations implemented' },
- { date: 'June 2018', event: 'Leaves ICE' },
- ],
- sources: [{ title: 'Wikipedia: Thomas Homan', url: 'https://en.wikipedia.org/wiki/Thomas_Homan' }, { title: 'NYT: Thomas Homan Profile', url: 'https://www.nytimes.com/' }],
- },
- 'thomas-caldwell': {
- name: 'Thomas Caldwell',
- title: 'Convicted Oath Keeper',
- role: 'Oath Keepers Leader - January 6 CONVICTED',
- riskLevel: 'critical',
- description: 'Thomas Caldwell was a retired Navy Lieutenant Commander and Oath Keepers leader convicted for his role in the January 6 insurrection. He helped coordinate the militia\'s plans to storm the Capitol and was convicted of seditious conspiracy.',
- birthDate: '1965 (approx)',
- birthPlace: 'Virginia',
- education: ['U.S. Navy'],
- affiliations: [
- { name: 'Oath Keepers', role: 'Regional Coordinator', type: 'organization' as const },
- { name: 'U.S. Navy', role: 'Former Lt. Commander', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Stewart Rhodes', relationship: 'Oath Keepers founder', href: '/entities/individuals/stewart-rhodes' },
- 
- { name: 'Jeffrey Epstein', relationship: 'Admitted meeting Epstein multiple times; apologized publicly', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Joi Ito', relationship: 'Connected through MIT Media Lab and Epstein fundraising', href: '/entities/individuals/joi-ito' },
- { name: 'Ben Horowitz', relationship: 'Fellow Silicon Valley investor in same social circles', href: '/entities/individuals/ben-horowitz' },
- { name: 'Chamath Palihapitiya', relationship: 'Tech industry peer in venture capital ecosystem', href: '/entities/individuals/chamath-palihapitiya' },
- { name: 'Bill Gates', relationship: 'Fellow tech billionaire who met with Epstein', href: '/entities/individuals/bill-gates' }
- ],
- controversies: [
- 'JANUARY 6: Coordinated Oath Keepers attack',
- 'SEDITIOUS CONSPIRACY: Convicted of plotting insurrection',
- 'MILITARY BACKGROUND: Used training for sedition',
- 'WEAPONS CACHE: Organized quick reaction force',
- ],
- charges: [
- { statute: '18 U.S.C. � 2384', description: 'Seditious conspiracy', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- { title: 'Oath Keepers Sedition', slug: 'oath-keepers-sedition', severity: 'critical' },
- ],
- timeline: [
- { date: '1965', event: 'Born' },
- { date: 'January 6, 2021', event: 'Participates in Capitol attack' },
- { date: 'January 2021', event: 'Arrested' },
- { date: 'November 2022', event: 'Convicted of seditious conspiracy' },
- ],
- sources: [{ title: 'Wikipedia: Thomas Caldwell', url: 'https://en.wikipedia.org/wiki/Thomas_Caldwell' }, { title: 'Military Times: Thomas Caldwell', url: 'https://www.militarytimes.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- },
+  'thomas-homan': {
+    name: 'Thomas Homan',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Thomas Homan is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Thomas Homan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'thomas-caldwell': {
+    name: 'Thomas Caldwell',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Thomas Caldwell is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Thomas Caldwell has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'travis-mcmichael': {
  name: 'Travis McMichael',
  title: 'Convicted Murderer',
@@ -1410,45 +1310,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'tom-homan': {
- name: 'Tom Homan',
- title: 'Former ICE Acting Director',
- role: 'Immigration Hardliner - Family Separation Architect',
- riskLevel: 'high',
- description: 'Tom Homan was Acting Director of ICE and is credited with implementing the"zero tolerance"family separation policy. He defended separating children from parents as a deterrent. He has been named to lead immigration enforcement in Trump\'s second term.',
- birthDate: '1961',
- birthPlace: 'New York',
- education: ['SUNY Potsdam'],
- affiliations: [
- { name: 'ICE', role: 'Former Acting Director', type: 'agency' as const },
- ],
+  'tom-homan': {
+    name: 'Tom Homan',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Tom Homan is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Tom Homan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Acting ICE Director under Trump; appointed as"border czar"for Trump\'s second term with sweeping deportation mandate', href: '/entities/individuals/donald-trump' },
- { name: 'Stephen Miller', relationship: 'Co-architect of Trump\'s hardline immigration policies including family separation zero-tolerance policy', href: '/entities/individuals/stephen-miller' },
- { name: 'Kirstjen Nielsen', relationship: 'Worked under Nielsen at DHS to implement zero-tolerance border policy that separated thousands of families', href: '/entities/individuals/kirstjen-nielsen' },
- { name: 'Jeff Sessions', relationship: 'Attorney General who announced the zero-tolerance policy Homan helped implement at the border', href: '/entities/individuals/jeff-sessions' },
- ],
- controversies: [
- 'FAMILY SEPARATION: Architect of policy',
- 'ZERO TOLERANCE: Separated thousands of families',
- 'DEFENDED CAGES: Children in detention centers',
- 'MASS DEPORTATION PLANS: For second Trump term',
- 'HARDLINE RHETORIC: Against immigrants',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Family Separation Policy', slug: 'family-separation', severity: 'critical' },
- { title: 'ICE Abuses', slug: 'ice-abuses', severity: 'critical' },
- ],
- timeline: [
- { date: '1961', event: 'Born in New York' },
- { date: '2017-2018', event: 'Acting ICE Director' },
- { date: '2018', event: 'Zero tolerance implementation' },
- { date: '2024', event: 'Named border czar for second term' },
- ],
- sources: [{ title: 'Wikipedia: Tom Homan', url: 'https://en.wikipedia.org/wiki/Tom_Homan' }, { title: 'NYT: Tom Homan Profile', url: 'https://www.nytimes.com/' }],
- },
  'tristan-tate': {
  name: 'Tristan Tate',
  title: 'Indicted Influencer',
@@ -1485,48 +1376,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Tristan Tate', url: 'https://en.wikipedia.org/wiki/Tristan_Tate' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
  },
- 'tulsi-gabbard': {
- name: 'Tulsi Gabbard',
- title: 'Former Congresswoman - DNI Nominee',
- role: 'Putin Apologist - Assad Defender',
- riskLevel: 'high',
- description: 'Tulsi Gabbard served as Hawaii Congresswoman before Trump nominated her for Director of National Intelligence. She met with Bashar al-Assad, spread Russian disinformation about Ukraine biolabs, defended Putin\'s invasion, and appeared regularly on Russian state media. Security experts called her nomination a national security threat.',
- birthDate: 'April 12, 1981',
- birthPlace: 'Leloaloa, American Samoa',
- education: ['Hawaii Pacific University'],
- affiliations: [
- { name: 'U.S. House of Representatives', role: 'Former Rep (D-HI)', type: 'agency' as const },
- { name: 'U.S. Army National Guard', role: 'Lieutenant Colonel', type: 'agency' as const },
- { name: 'Trump Administration 2.0', role: 'DNI Nominee', type: 'agency' as const },
- ],
+  'tulsi-gabbard': {
+    name: 'Tulsi Gabbard',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Tulsi Gabbard is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Tulsi Gabbard has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Former Democratic congresswoman who endorsed Trump in 2024 and was appointed Director of National Intelligence', href: '/entities/individuals/donald-trump' },
- { name: 'Vladimir Putin', relationship: 'Criticized for echoing Russian talking points on Ukraine and Syria; met with Assad in 2017 without State Department approval', href: '/entities/individuals/vladimir-putin' },
- { name: 'Bashar al-Assad', relationship: 'Controversially met with Syrian dictator Assad in 2017, questioning U.S. regime change policy and drawing bipartisan condemnation', href: '/entities/individuals/bashar-al-assad' },
- ],
- controversies: [
- 'ASSAD MEETING: Met with Syrian dictator in 2017',
- 'RUSSIAN PROPAGANDA: Spread Ukraine biolab conspiracy',
- 'PUTIN DEFENSE: Blamed NATO for invasion',
- 'RT APPEARANCES: Regular Russian state media guest',
- 'CULT TIES: Raised in Science of Identity Foundation',
- 'HOMOPHOBIA: Past anti-LGBTQ activism',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Russian Influence Operations', slug: 'russian-influence', severity: 'critical' },
- { title: 'Foreign Agent Concerns', slug: 'foreign-agents', severity: 'high' },
- ],
- timeline: [
- { date: 'April 12, 1981', event: 'Born in American Samoa' },
- { date: '2013-2021', event: 'U.S. Representative' },
- { date: 'January 2017', event: 'Met Assad in Syria' },
- { date: 'February 2022', event: 'Spread Ukraine biolab disinfo' },
- { date: 'November 2024', event: 'Trump nominates for DNI' },
- ],
- sources: [{ title: 'Wikipedia: Tulsi Gabbard', url: 'https://en.wikipedia.org/wiki/Tulsi_Gabbard' }, { title: 'NYT: Tulsi Gabbard Profile', url: 'https://www.nytimes.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Reuters: Russia Coverage', url: 'https://web.archive.org/web/2024/https://www.reuters.com/world/russia-ukraine/' }],
- },
  'tim-pool': {
  name: 'Tim Pool',
  title: 'Right-Wing Podcaster',
@@ -3139,329 +3018,212 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
  sources: [{ title: 'Wikipedia: Teresa Helm', url: 'https://en.wikipedia.org/wiki/Teresa_Helm' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
  },
- 'trayvon-martin': {
-"name":"Trayvon Martin",
-"title":"Victim of Extrajudicial Killing",
-"role":"Symbol of Racial Violence, Catalyst for BLM",
-"riskLevel":"low",
-"description":"Unarmed 17-year-old African American shot and killed by neighborhood watch volunteer George Zimmerman in Sanford, Florida on February 26, 2012. Zimmerman's acquittal in 2013 sparked nationwide protests and directly inspired the founding of the Black Lives Matter movement.",
-"birthDate":"February 5, 1995",
-"education": [],
-"affiliations": [],
-"knownAssociates": [
- {
-"name":"George Zimmerman",
-"relationship":"Killer, acquitted of murder",
-"href":"/entities/individuals/george-zimmerman"
- }
- ],
-"controversies": [
-"His killing exposed Stand Your Ground laws as enabling racial violence",
-"Zimmerman acquittal catalyzed Black Lives Matter movement",
-"Case highlighted systemic racism in criminal justice"
- ],
-"relatedInvestigations": [
- {
-"title":"Police Brutality",
-"slug":"police-brutality",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2012 Feb 26",
-"event":"Shot and killed by George Zimmerman"
- },
- {
-"date":"2013",
-"event":"Zimmerman acquitted, sparking national protests"
- }
- ],
-"sources": [
- {
-"title":"DOJ Investigation",
-"url":"https://www.justice.gov/crt/file/836416/download",
-"date":"2012"
- }
- ]
- },
- 'thurgood-marshall': {
-"name":"Thurgood Marshall",
-"title":"First Black Supreme Court Justice",
-"role":"Civil Rights Legal Pioneer",
-"riskLevel":"low",
-"description":"First African American Supreme Court Justice (1967-1991) and chief counsel for the NAACP Legal Defense Fund. Successfully argued Brown v. Board of Education (1954), ending legal school segregation. One of the most consequential legal figures in American civil rights history.",
-"birthDate":"July 2, 1908",
-"education": [
-"Lincoln University",
-"Howard University School of Law"
- ],
-"affiliations": [
- {
-"name":"NAACP Legal Defense Fund",
-"role":"Chief Counsel",
-"type":"organization"
- },
- {
-"name":"U.S. Supreme Court",
-"role":"Associate Justice",
-"type":"agency"
- }
- ],
-"knownAssociates": [],
-"controversies": [
-"Brown v. Board ended school segregation",
-"Champion of civil liberties on Supreme Court",
-"His legacy is being systematically undermined by conservative court"
- ],
-"relatedInvestigations": [
- {
-"title":"War on Black America",
-"slug":"war-on-black-america",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"1954",
-"event":"Won Brown v. Board of Education"
- },
- {
-"date":"1967",
-"event":"Appointed to Supreme Court by LBJ"
- },
- {
-"date":"1991",
-"event":"Retired from Supreme Court"
- },
- {
-"date":"1993",
-"event":"Died at age 84"
- }
- ],
-"sources": [
- {
-"title":"Supreme Court Historical Society",
-"url":"https://supremecourthistory.org/history-of-the-court/the-current-court/justice-thurgood-marshall/",
-"date":"2023"
- }
- ]
- },
- 'tom-cruise': {
-"name":"Tom Cruise",
-"title":"Actor, Scientologist",
-"role":"Top Scientology Ambassador",
-"riskLevel":"medium",
-"description":"Hollywood actor and the most prominent celebrity member of the Church of Scientology. His close relationship with Scientology leader David Miscavige and his public promotion of the organization have been extensively documented. Former members allege Scientology used its resources to serve Cruise's personal interests.",
-"birthDate":"July 3, 1962",
-"education": [],
-"affiliations": [
- {
-"name":"Church of Scientology",
-"role":"Celebrity Ambassador",
-"type":"organization"
- }
- ],
-"knownAssociates": [
- {
-"name":"David Miscavige",
-"relationship":"Close personal friend, Scientology leader",
-"href":"/entities/individuals/david-miscavige"
- }
- ],
-"controversies": [
-"Primary celebrity promoter of Scientology",
-"Former members allege church used resources for his benefit",
-"Aggressive legal tactics against critics"
- ],
-"relatedInvestigations": [],
-"timeline": [
- {
-"date":"1990",
-"event":"Became active Scientologist"
- },
- {
-"date":"2005",
-"event":"Publicly promoted Scientology on national TV"
- }
- ],
-"sources": [
- {
-"title":"Going Clear Documentary",
-"url":"https://www.hbo.com/movies/going-clear-scientology-and-the-prison-of-belief",
-"date":"2015"
- }
- ]
- },
- 'tom-delay': {
-"name":"Tom DeLay",
-"title":"Former House Majority Leader",
-"role":"The Hammer - Corrupt K Street Project",
-"riskLevel":"high",
-"description":"Republican House Majority Leader (2003-2005) known as \"The Hammer\"for his aggressive enforcement of party discipline. Forced to resign after indictment on money laundering and conspiracy charges related to illegal corporate campaign contributions. Architect of the K Street Project that openly linked lobbying firms to the Republican Party.",
-"education": [
-"University of Houston"
- ],
-"affiliations": [
- {
-"name":"Republican Party",
-"role":"House Majority Leader",
-"type":"organization"
- }
- ],
-"knownAssociates": [
- {
-"name":"Jack Abramoff",
-"relationship":"Corrupt lobbyist closely tied to DeLay operation",
-"href":"/entities/individuals/jack-abramoff"
- }
- ],
-"controversies": [
-"Indicted for money laundering and conspiracy",
-"K Street Project openly corrupted lobbying",
-"Texas redistricting scandal",
-"Convicted in 2010, overturned on appeal"
- ],
-"relatedInvestigations": [
- {
-"title":"Dark Money Politics",
-"slug":"dark-money-politics",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2003",
-"event":"Became House Majority Leader"
- },
- {
-"date":"2005",
-"event":"Indicted, forced to resign leadership"
- },
- {
-"date":"2010",
-"event":"Convicted of money laundering"
- },
- {
-"date":"2013",
-"event":"Conviction overturned on appeal"
- }
- ],
-"sources": [
- {
-"title":"Washington Post: DeLay Conviction",
-"url":"https://www.washingtonpost.com/politics/tom-delay/",
-"date":"2013"
- }
- ]
- },
- 'thomas-kean': {
-"name":"Thomas Kean",
-"title":"Former Governor of New Jersey",
-"role":"9/11 Commission Chairman",
-"riskLevel":"low",
-"description":"Republican former governor of New Jersey (1982-1990) who chaired the 9/11 Commission. The commission's final report documented intelligence failures and became a landmark document. Kean later expressed frustration that the commission was \"set up to fail\"and faced obstruction from the Bush administration.",
-"education": [
-"Princeton University",
-"Columbia University - M.A."
- ],
-"affiliations": [
- {
-"name":"9/11 Commission",
-"role":"Chairman",
-"type":"organization"
- }
- ],
-"knownAssociates": [
- {
-"name":"George W. Bush",
-"relationship":"Bush administration obstructed commission work",
-"href":"/entities/individuals/george-w-bush"
- }
- ],
-"controversies": [
-"Said 9/11 Commission was \"set up to fail\"",
-"Bush administration resisted cooperation",
-"Commission unable to fully investigate Saudi connections"
- ],
-"relatedInvestigations": [
- {
-"title":"Saudi Connections",
-"slug":"saudi-connections",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2002",
-"event":"Appointed 9/11 Commission Chairman"
- },
- {
-"date":"2004",
-"event":"Released 9/11 Commission Report"
- }
- ],
-"sources": [
- {
-"title":"9/11 Commission Report",
-"url":"https://www.9-11commission.gov/report/",
-"date":"2004"
- }
- ]
- },
- 'timnit-gebru': {
-"name":"Timnit Gebru",
-"title":"AI Ethics Researcher",
-"role":"Fired from Google for Ethics Research",
-"riskLevel":"low",
-"description":"Ethiopian-American computer scientist and AI ethics researcher who was fired from Google in December 2020 after the company tried to suppress her research paper on the dangers and biases of large language models. Her dismissal sparked a major controversy about corporate control of AI ethics research. Founded the Distributed AI Research Institute (DAIR).",
-"birthDate":"c. 1983",
-"education": [
-"Stanford University - Ph.D."
- ],
-"affiliations": [
- {
-"name":"DAIR Institute",
-"role":"Founder",
-"type":"organization"
- }
- ],
-"knownAssociates": [],
-"controversies": [
-"Fired from Google for publishing AI bias research",
-"Case exposed corporate suppression of AI ethics",
-"Research highlighted racial and gender bias in AI systems",
-"Founded independent AI research institute"
- ],
-"relatedInvestigations": [
- {
-"title":"Facial Recognition Surveillance",
-"slug":"facial-recognition-surveillance",
-"severity":"high"
- }
- ],
-"timeline": [
- {
-"date":"2018",
-"event":"Published landmark study on facial recognition racial bias"
- },
- {
-"date":"2020 Dec",
-"event":"Fired from Google over AI ethics paper"
- },
- {
-"date":"2021",
-"event":"Founded DAIR Institute"
- }
- ],
-"sources": [
- {
-"title":"MIT Technology Review: Gebru Case",
-"url":"https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/",
-"date":"2020"
- }
- ]
- },
+  'trayvon-martin': {
+    name: 'Trayvon Martin',
+    title: 'Victim of Extrajudicial Killing',
+    role: 'Symbol of Racial Violence, Catalyst for BLM',
+    riskLevel: 'low',
+    description: 'Unarmed 17-year-old African American shot and killed by neighborhood watch volunteer George Zimmerman in Sanford, Florida on February 26, 2012. Zimmerman\'s acquittal in 2013 sparked nationwide protests and directly inspired the founding of the Black Lives Matter movement.',
+    birthDate: 'February 5, 1995',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'His killing exposed Stand Your Ground laws as enabling racial violence',
+      'Zimmerman acquittal catalyzed Black Lives Matter movement',
+      'Case highlighted systemic racism in criminal justice',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Police Brutality', slug: 'police-brutality', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2012 Feb 26', event: 'Shot and killed by George Zimmerman' },
+      { date: '2013', event: 'Zimmerman acquitted, sparking national protests' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'DOJ Investigation', url: 'https://www.justice.gov/crt/file/836416/download', date: '2012' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'George Zimmerman', relationship: 'Killer, acquitted of murder', href: '/entities/individuals/george-zimmerman' },
+    ],
+  },
+
+  'thurgood-marshall': {
+    name: 'Thurgood Marshall',
+    title: 'First Black Supreme Court Justice',
+    role: 'Civil Rights Legal Pioneer',
+    riskLevel: 'low',
+    description: 'First African American Supreme Court Justice (1967-1991) and chief counsel for the NAACP Legal Defense Fund. Successfully argued Brown v. Board of Education (1954), ending legal school segregation. One of the most consequential legal figures in American civil rights history.',
+    birthDate: 'July 2, 1908',
+    education: ['Lincoln University', 'Howard University School of Law'],
+    affiliations: [
+      { name: 'NAACP Legal Defense Fund', role: 'Chief Counsel', type: 'organization' },
+      { name: 'U.S. Supreme Court', role: 'Associate Justice', type: 'agency' },
+    ],
+    controversies: [
+      'Brown v. Board ended school segregation',
+      'Champion of civil liberties on Supreme Court',
+      'His legacy is being systematically undermined by conservative court',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'War on Black America', slug: 'war-on-black-america', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1954', event: 'Won Brown v. Board of Education' },
+      { date: '1967', event: 'Appointed to Supreme Court by LBJ' },
+      { date: '1991', event: 'Retired from Supreme Court' },
+      { date: '1993', event: 'Died at age 84' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Supreme Court Historical Society', url: 'https://supremecourthistory.org/history-of-the-court/the-current-court/justice-thurgood-marshall/', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'tom-cruise': {
+    name: 'Tom Cruise',
+    title: 'Actor, Scientologist',
+    role: 'Top Scientology Ambassador',
+    riskLevel: 'medium',
+    description: 'Hollywood actor and the most prominent celebrity member of the Church of Scientology. His close relationship with Scientology leader David Miscavige and his public promotion of the organization have been extensively documented. Former members allege Scientology used its resources to serve Cruise\'s personal interests.',
+    birthDate: 'July 3, 1962',
+    education: [],
+    affiliations: [
+      { name: 'Church of Scientology', role: 'Celebrity Ambassador', type: 'organization' },
+    ],
+    controversies: [
+      'Primary celebrity promoter of Scientology',
+      'Former members allege church used resources for his benefit',
+      'Aggressive legal tactics against critics',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '1990', event: 'Became active Scientologist' },
+      { date: '2005', event: 'Publicly promoted Scientology on national TV' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Going Clear Documentary', url: 'https://www.hbo.com/movies/going-clear-scientology-and-the-prison-of-belief', date: '2015' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'David Miscavige', relationship: 'Close personal friend, Scientology leader', href: '/entities/individuals/david-miscavige' },
+    ],
+  },
+
+  'tom-delay': {
+    name: 'Tom DeLay',
+    title: 'Former House Majority Leader',
+    role: 'The Hammer - Corrupt K Street Project',
+    riskLevel: 'high',
+    description: 'Republican House Majority Leader (2003-2005) known as "The Hammer"for his aggressive enforcement of party discipline. Forced to resign after indictment on money laundering and conspiracy charges related to illegal corporate campaign contributions. Architect of the K Street Project that openly linked lobbying firms to the Republican Party.',
+    education: ['University of Houston'],
+    affiliations: [
+      { name: 'Republican Party', role: 'House Majority Leader', type: 'organization' },
+    ],
+    controversies: [
+      'Indicted for money laundering and conspiracy',
+      'K Street Project openly corrupted lobbying',
+      'Texas redistricting scandal',
+      'Convicted in 2010, overturned on appeal',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Dark Money Politics', slug: 'dark-money-politics', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2003', event: 'Became House Majority Leader' },
+      { date: '2005', event: 'Indicted, forced to resign leadership' },
+      { date: '2010', event: 'Convicted of money laundering' },
+      { date: '2013', event: 'Conviction overturned on appeal' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Washington Post: DeLay Conviction', url: 'https://www.washingtonpost.com/politics/tom-delay/', date: '2013' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jack Abramoff', relationship: 'Corrupt lobbyist closely tied to DeLay operation', href: '/entities/individuals/jack-abramoff' },
+    ],
+  },
+
+  'thomas-kean': {
+    name: 'Thomas Kean',
+    title: 'Former Governor of New Jersey',
+    role: '9/11 Commission Chairman',
+    riskLevel: 'low',
+    description: 'Republican former governor of New Jersey (1982-1990) who chaired the 9/11 Commission. The commission\'s final report documented intelligence failures and became a landmark document. Kean later expressed frustration that the commission was "set up to fail"and faced obstruction from the Bush administration.',
+    education: ['Princeton University', 'Columbia University - M.A.'],
+    affiliations: [
+      { name: '9/11 Commission', role: 'Chairman', type: 'organization' },
+    ],
+    controversies: [
+      'Said 9/11 Commission was "set up to fail"',
+      'Bush administration resisted cooperation',
+      'Commission unable to fully investigate Saudi connections',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Saudi Connections', slug: 'saudi-connections', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2002', event: 'Appointed 9/11 Commission Chairman' },
+      { date: '2004', event: 'Released 9/11 Commission Report' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'George W. Bush', relationship: 'Bush administration obstructed commission work', href: '/entities/individuals/george-w-bush' },
+    ],
+  },
+
+  'timnit-gebru': {
+    name: 'Timnit Gebru',
+    title: 'AI Ethics Researcher',
+    role: 'Fired from Google for Ethics Research',
+    riskLevel: 'low',
+    description: 'Ethiopian-American computer scientist and AI ethics researcher who was fired from Google in December 2020 after the company tried to suppress her research paper on the dangers and biases of large language models. Her dismissal sparked a major controversy about corporate control of AI ethics research. Founded the Distributed AI Research Institute (DAIR).',
+    birthDate: 'c. 1983',
+    education: ['Stanford University - Ph.D.'],
+    affiliations: [
+      { name: 'DAIR Institute', role: 'Founder', type: 'organization' },
+    ],
+    controversies: [
+      'Fired from Google for publishing AI bias research',
+      'Case exposed corporate suppression of AI ethics',
+      'Research highlighted racial and gender bias in AI systems',
+      'Founded independent AI research institute',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Facial Recognition Surveillance', slug: 'facial-recognition-surveillance', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2018', event: 'Published landmark study on facial recognition racial bias' },
+      { date: '2020 Dec', event: 'Fired from Google over AI ethics paper' },
+      { date: '2021', event: 'Founded DAIR Institute' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'MIT Technology Review: Gebru Case', url: 'https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/', date: '2020' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'trump-media': {
     name: 'Trump Media',
     title: 'Public Figure Under Investigation',

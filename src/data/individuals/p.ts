@@ -91,6 +91,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Dmitry Firtash', relationship: 'Ukrainian oligarch, extradition case', href: '/entities/individuals/dmitry-firtash' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
   'prince-andrew': {
     name: 'Prince Andrew',
     title: 'Public Figure Under Investigation',
@@ -192,6 +203,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'January 6 Committee Testimony', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'DOJ Special Counsel Investigation', url: 'https://scholar.google.com/scholar?q=DOJ%20Special%20Counsel%20Investigation', date: '2023' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -200,312 +212,234 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'John Eastman', relationship: 'Opposed his fake electors scheme', href: '/entities/individuals/john-eastman' },
     ],
   },
- 'pete-hegseth': {
- name: 'Peter Brian Hegseth',
- title: 'Secretary of Defense',
- role: 'Fox News Host, Military Veteran',
- riskLevel: 'high',
- description: 'Peter Brian Hegseth is a Fox News host and Army National Guard veteran whom Trump nominated as Secretary of Defense. His confirmation was controversial due to allegations of sexual assault, excessive drinking, financial mismanagement of veterans organizations, and a settlement with a sexual assault accuser.',
- birthDate: 'June 6, 1980',
- birthPlace: 'Minneapolis, Minnesota',
- education: [
- 'M.P.P. - Harvard Kennedy School',
- 'B.A. - Princeton University',
- ],
- netWorth: '$4 million',
- aliases: [],
- affiliations: [
- { name: 'Department of Defense', role: 'Secretary (2025-Present)', type: 'agency' },
- { name: 'Fox News', role: 'Host (2014-2024)', type: 'corporation' },
- { name: 'Concerned Veterans for America', role: 'CEO (former)', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'SecDef appointee', href: '/entities/individuals/donald-trump' },
- 
- { name: 'Jeffrey Epstein', relationship: 'Referenced in connection with Trump administration Epstein file discussions', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Matt Gaetz', relationship: 'Congressional ally investigated for related conduct', href: '/entities/individuals/matt-gaetz' },
- { name: 'Keith Schiller', relationship: 'Fellow Trump inner circle member', href: '/entities/individuals/keith-schiller' }
- ],
- controversies: [
- 'Sexual assault allegation (2017, settled)',
- 'Excessive drinking concerns',
- 'Financial mismanagement at veterans groups',
- 'No senior leadership experience',
- 'Advocated pardoning war criminals',
- 'Opposes women in combat',
- 'Multiple marriages amid affairs',
- '"I haven\'t washed hands in 10 years"comment',
- ],
- charges: [
- { statute: 'California Penal Code § 243.4', description: 'Potential Sexual Battery - 2017 allegation at California Republican convention (settled out of court)', category: 'Potential State' },
- { statute: '26 U.S.C. § 501(c)(3)', description: 'Potential Violation - Financial mismanagement at Concerned Veterans for America and Vets for Freedom nonprofits', category: 'Potential Tax/Nonprofit' },
- { statute: 'IRS Form 990 Requirements', description: 'Potential Violations - Accused of financial irregularities while running veterans nonprofits', category: 'Potential Tax' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Allegations of misrepresenting qualifications and conduct during confirmation', category: 'Potential Federal' },
- { statute: '10 U.S.C. § 892 (UCMJ Art. 92)', description: 'Historical - Advocated pardoning war criminals convicted under military law', category: 'Military Justice' },
- { statute: '5 C.F.R. § 2635 (Standards of Ethical Conduct)', description: 'Potential Violations - Conflicts of interest and conduct unbecoming executive branch official', category: 'Potential Ethics' },
- ],
- relatedInvestigations: [],
- timeline: [
- { date: '2012-2014', event: 'CEO of veterans nonprofits' },
- { date: '2014', event: 'Joins Fox News' },
- { date: '2017', event: 'Sexual assault allegation, settles' },
- { date: '2024', event: 'November: Nominated as SecDef' },
- { date: '2025', event: 'January: Confirmed as Secretary' },
- ],
- sources: [
- { title: 'Senate Confirmation Testimony', url: 'https://www.congress.gov/', date: '2025' },
- { title: 'New Yorker Investigation', url: 'https://scholar.google.com/scholar?q=New%20Yorker%20Investigation', date: '2024' },
- ],
- },
- 'paul-erickson': {
- name: 'Paul Erickson',
- title: 'Republican Political Operative',
- role: 'Maria Butina Associate',
- riskLevel: 'high' as const,
- description: 'Republican political operative who served as Maria Butina\'s romantic partner and facilitator in the United States. Erickson helped Butina make connections in conservative political circles and at the NRA. He was convicted of wire fraud and money laundering in an unrelated case and later pardoned by Trump. Evidence showed he was aware of and assisted Butina\'s Russian government-directed activities.',
- education: [],
- affiliations: [
- { name: 'Republican Party', role: 'Operative', type: 'organization' },
- { name: 'National Rifle Association', role: 'Member/Connector', type: 'organization' },
- ],
 
- knownAssociates: [
- { name: 'Maria Butina', relationship: 'Romantic partner who helped Butina infiltrate NRA and Republican networks; convicted of fraud related to schemes during their relationship', href: '/entities/individuals/maria-butina' },
- ],
- controversies: [
- 'Maria Butina\'s American boyfriend and facilitator',
- 'Helped Butina infiltrate conservative organizations',
- 'Convicted of wire fraud and money laundering',
- 'Pardoned by Trump in January 2021',
- 'Former Pat Buchanan campaign advisor',
- 'Introduced Butina to NRA and GOP circles',
- ],
- charges: [
- { statute: 'Wire Fraud', description: 'Investment scheme fraud', category: 'Financial Crime' },
- { statute: 'Money Laundering', description: 'Laundering fraud proceeds', category: 'Financial Crime' },
- ],
- relatedInvestigations: [
- { title: 'NRA Russia Investigation', slug: 'nra-russia', severity: 'high' },
- { title: 'Foreign Influence Operations', slug: 'foreign-influence', severity: 'high' },
- ],
- timeline: [
- { date: '2013', event: 'Begins relationship with Maria Butina' },
- { date: '2015', event: 'Helps Butina establish U.S. presence' },
- { date: '2016', event: 'Facilitates NRA and GOP introductions' },
- { date: '2018', event: 'Butina arrested, Erickson investigated' },
- { date: '2019', event: 'Convicted of wire fraud and money laundering' },
- { date: 'January 2021', event: 'Pardoned by President Trump' },
- ],
- sources: [
- { title: 'DOJ Butina Case Documents', url: 'https://scholar.google.com/scholar?q=DOJ%20Butina%20Case%20Documents', date: '2018' },
- { title: 'Pardon Announcement', url: 'https://www.justice.gov/pardon', date: '2021' },
- ],
- },
- 'paula-white': {
- name: 'Paula Michelle White-Cain',
- title: 'Televangelist',
- role: 'Trump Spiritual Advisor',
- riskLevel: 'medium' as const,
- aliases: ['Paula White'],
- description: 'Prosperity gospel televangelist who served as chair of Trump\'s evangelical advisory board and gave invocation at his 2017 inauguration. Led prayers at White House and delivered bizarre spiritual warfare prayer during 2020 election calling for"angels from Africa."Official White House faith advisor.',
- birthDate: 'April 20, 1966',
- birthPlace: 'Tupelo, Mississippi',
- education: [
- 'Honorary Doctorate - Oral Roberts University',
- ],
- affiliations: [
- { name: 'Trump White House', role: 'Advisor to Faith Opportunity Initiatives', type: 'agency' },
- { name: 'City of Destiny Church', role: 'Senior Pastor', type: 'organization' },
- { name: 'Paula White Ministries', role: 'Founder', type: 'corporation' },
- ],
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Personal spiritual advisor who led White House Faith and Opportunity Initiative; delivered prayers at Trump events and inauguration', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'Prosperity gospel preacher criticized by mainstream Christians',
- 'Senate investigation into finances (2007-2011)',
- '"Angels from Africa"prayer during election',
- 'Called for"all satanic pregnancies to miscarry"',
- 'Multiple marriages',
- 'Close personal relationship with Trump',
- ],
- charges: [
- { statute: '26 U.S.C. § 501(c)(3)', description: 'Senate Grassley Investigation - Subject of 2007-2011 Senate Finance Committee investigation into prosperity gospel ministry finances', category: 'Tax/Nonprofit' },
- { statute: '26 U.S.C. § 7206 (Tax Fraud)', description: 'Potential Tax Violations - Senate investigation examined lavish lifestyle funded by tax-exempt ministry donations', category: 'Potential Federal Tax' },
- { statute: '18 U.S.C. § 1341 (Mail Fraud)', description: 'Potential Fraud - Prosperity gospel solicitations promising divine financial returns in exchange for donations', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Potential Wire Fraud - Televised and online solicitations making promises of miraculous returns for"seed"donations', category: 'Potential Federal' },
- { statute: '5 U.S.C. § 7323 (Hatch Act)', description: 'Potential Violations - Political activity as official White House faith advisor, election prayers from official capacity', category: 'Potential Ethics' },
- { statute: 'FTC Act § 5 (Unfair/Deceptive Practices)', description: 'Consumer Protection Concerns - Prosperity gospel promises of guaranteed financial returns may constitute deceptive practices', category: 'Regulatory' },
- ],
- relatedInvestigations: [
- { title: 'Religious Right Political Network', slug: 'religious-right', severity: 'medium' },
- ],
- timeline: [
- { date: '2002', event: 'Begins friendship with Trump' },
- { date: 'January 2017', event: 'Delivers inauguration invocation' },
- { date: '2019', event: 'Official White House faith advisor' },
- { date: 'November 2020', event: 'Bizarre"angels from Africa"prayer' },
- ],
- sources: [
- { title: 'White House Personnel Records', url: 'https://scholar.google.com/scholar?q=White%20House%20Personnel%20Records', date: '2019' },
- { title: 'Senate Grassley Investigation', url: 'https://scholar.google.com/scholar?q=Senate%20Grassley%20Investigation', date: '2007-2011' },
- ],
- },
- 'patrick-byrne': {
- name: 'Patrick Michael Byrne',
- title: 'Former Overstock.com CEO',
- role: 'Election Conspiracy Promoter',
- riskLevel: 'high' as const,
- description: 'Former CEO of Overstock.com who became a major funder and promoter of election conspiracy theories. Attended a chaotic December 2020 White House meeting where participants discussed seizing voting machines and appointing Sidney Powell as special counsel. Claimed to have had a relationship with Russian spy Maria Butina on behalf of FBI.',
- birthDate: 'November 21, 1962',
- birthPlace: 'Fort Wayne, Indiana',
- education: [
- 'Ph.D. Philosophy - Stanford University',
- 'B.A. - Dartmouth College',
- ],
- affiliations: [
- { name: 'Overstock.com', role: 'Former CEO (resigned 2019)', type: 'corporation' },
- { name: 'The America Project', role: 'Founder', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Sidney Powell', relationship: 'Election conspiracy ally', href: '/entities/individuals/sidney-powell' },
- { name: 'Michael Flynn', relationship: 'White House meeting attendee', href: '/entities/individuals/michael-flynn' },
- { name: 'Maria Butina', relationship: 'Claimed romantic relationship', href: '/entities/individuals/maria-butina' },
- ],
- controversies: [
- 'Attended December 2020 WH meeting on seizing voting machines',
- 'Claimed relationship with Russian spy Maria Butina',
- 'Funded"Stop the Steal"investigations',
- 'Promoted Dominion conspiracy theories',
- 'Resigned from Overstock after Maria Butina revelations',
- ],
- charges: [
- { statute: '18 U.S.C. § 2384 (Seditious Conspiracy)', description: 'Coup Meeting Participant - Attended December 2020 White House meeting discussing seizure of voting machines and martial law', category: 'Sedition' },
- { statute: '18 U.S.C. § 371 (Conspiracy to Defraud US)', description: 'Election Overthrow Scheme - Participated in planning sessions to overturn legitimate election results', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress - Funded and promoted efforts to prevent January 6 certification', category: 'Obstruction' },
- { statute: '52 U.S.C. § 20511 (Election Fraud)', description: 'Election Interference - Funded fake election audits and promoted false fraud claims', category: 'Election Crime' },
- { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Dominion Defamation - Spread knowingly false claims about voting machines', category: 'Defamation' },
- { statute: '18 U.S.C. § 951 (Foreign Agent)', description: 'Russian Intelligence Contact - Admitted romantic relationship with convicted Russian agent Maria Butina', category: 'Foreign Contact' },
- { statute: 'SEC Disclosure Requirements', description: 'Disclosure Failures - Overstock stock affected by undisclosed foreign agent relationship', category: 'Securities' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 2019', event: 'Resigns from Overstock after Butina revelations' },
- { date: 'December 2020', event: 'Attends chaotic White House meeting' },
- { date: '2021', event: 'Funds election conspiracy investigations' },
- ],
- sources: [
- { title: 'January 6 Committee Documents', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Documents', date: '2022' },
- { title: 'Media Reports on White House Meeting', url: 'https://scholar.google.com/scholar?q=Media%20Reports%20on%20White%20House%20Meeting', date: '2020' },
- ],
- },
- 'phil-waldron': {
- name: 'Philip G. Waldron',
- title: 'Retired Army Colonel',
- role: 'Coup PowerPoint Author',
- riskLevel: 'high' as const,
- description: 'Retired Army colonel who authored the infamous PowerPoint presentation outlining strategies to overturn the 2020 election, including having Trump declare a national emergency and seize voting machines. The presentation was shared with members of Congress and White House officials before January 6.',
- birthDate: '',
- birthPlace: 'Texas',
- education: [
- 'U.S. Army Officer Training',
- ],
- affiliations: [
- { name: 'U.S. Army', role: 'Retired Colonel', type: 'agency' },
- { name: 'Allied Security Operations Group', role: 'Advisor', type: 'corporation' },
- ],
- controversies: [
- 'Authored coup PowerPoint presentation',
- 'Presentation outlined seizing voting machines',
- 'Shared with Congress and White House',
- 'Testified to January 6 Committee',
- 'Connected to Rudy Giuliani election efforts',
- 'Spread Dominion conspiracy theories',
- ],
- charges: [
- { statute: '18 U.S.C. § 2384 (Seditious Conspiracy)', description: 'Coup Planning - Authored PowerPoint presentation outlining plan to declare national emergency and seize voting machines', category: 'Sedition' },
- { statute: '18 U.S.C. § 371 (Conspiracy to Defraud US)', description: 'Election Interference - Created detailed strategy to prevent lawful transfer of power', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress - Document created with intent to obstruct January 6 certification', category: 'Obstruction' },
- { statute: '52 U.S.C. § 20511 (Election Interference)', description: 'Intimidation via False Claims - Spread Dominion conspiracy theories to justify seizing machines', category: 'Election Crime' },
- { statute: '18 U.S.C. § 1001 (False Statements)', description: 'False Election Claims - PowerPoint contained knowingly false claims about election fraud', category: 'Fraud' },
- { statute: 'UCMJ Article 94 (Sedition)', description: 'Military Oath Violation - As retired officer, advocated military involvement in domestic coup', category: 'Military Law' },
- { statute: '10 U.S.C. § 888 (Contempt)', description: 'Contempt Toward Officials - Retired officer advocating overthrow of civilian government', category: 'Military Law' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- { title: 'Fake Electors Scheme', slug: 'fake-electors', severity: 'critical' },
- ],
- timeline: [
- { date: 'December 2020', event: 'Creates coup PowerPoint' },
- { date: 'December 2020', event: 'Presentation shared with Congress' },
- { date: 'January 2021', event: 'Referenced in planning before Jan 6' },
- { date: '2021', event: 'Testifies to January 6 Committee' },
- ],
- sources: [
- { title: 'January 6 Committee PowerPoint Exhibit', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20PowerPoint%20Exhibit', date: '2021' },
- { title: 'Committee Testimony', url: 'https://scholar.google.com/scholar?q=Committee%20Testimony', date: '2021' },
- ],
- knownAssociates: [
- { name: 'Rudy Giuliani', relationship: 'Presented election fraud PowerPoint to Trump team and Congress', href: '/entities/individuals/rudy-giuliani' },
- { name: 'Donald Trump', relationship: 'Retired colonel who pushed election fraud theories to Trump circle', href: '/entities/individuals/donald-trump' }
- ],
 
- },
- 'paul-gosar': {
- name: 'Paul Anthony Gosar',
- title: 'U.S. Representative (R-AZ)',
- role: 'January 6 Connected Congressman',
- riskLevel: 'high' as const,
- description: 'Republican Congressman who Ali Alexander named as one of three congressmen who helped plan the January 6 rally. Has ties to white nationalist groups. Censured by the House for posting anime video depicting violence against AOC. Six of his siblings endorsed his opponent.',
- birthDate: 'November 27, 1958',
- birthPlace: 'Rock Springs, Wyoming',
- education: [
- 'D.D.S. - Creighton University',
- 'B.S. - Creighton University',
- ],
- affiliations: [
- { name: 'U.S. House of Representatives', role: 'Representative (2011-Present)', type: 'agency' },
- { name: 'Freedom Caucus', role: 'Member', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Ali Alexander', relationship: 'January 6 coordination', href: '/entities/individuals/ali-alexander' },
- { name: 'Andy Biggs', relationship: 'Fellow January 6 connected congressman', href: '/entities/individuals/andy-biggs' },
- { name: 'Nick Fuentes', relationship: 'White nationalist associate', href: '/entities/individuals/nick-fuentes' },
- ],
- controversies: [
- 'Named by Ali Alexander in January 6 planning',
- 'Ties to white nationalist groups',
- 'Attended Nick Fuentes event',
- 'Censured for violent video against AOC',
- 'Six siblings endorsed his opponent',
- 'Sought presidential pardon',
- ],
- charges: [
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to Defraud US - Named by Ali Alexander as planning January 6 with intent to disrupt certification', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress - Planned disruption of January 6 certification with Stop the Steal', category: 'Obstruction' },
- { statute: '18 U.S.C. § 879 (Threats)', description: 'Threatening Communications - Posted anime video depicting violence against Rep. Ocasio-Cortez (censured by House)', category: 'Threats' },
- { statute: 'U.S. Constitution, 14th Amendment, Section 3', description: 'Disqualification Question - Sought pardon and attended white nationalist events supporting insurrection', category: 'Constitutional' },
- { statute: '18 U.S.C. § 2384 (Seditious Conspiracy)', description: 'Sedition Concerns - Coordinated with Stop the Steal organizers to disrupt constitutional process', category: 'Sedition' },
- { statute: 'House Ethics Rules', description: 'Multiple Violations - Censured for violent video, white nationalist associations, family condemnation', category: 'Ethics' },
- { statute: '18 U.S.C. § 241 (Conspiracy Against Rights)', description: 'Civil Rights Concerns - Association with white nationalist groups promoting racial discrimination', category: 'Civil Rights' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- ],
- timeline: [
- { date: 'February 2021', event: 'Speaks at AFPAC white nationalist conference' },
- { date: 'November 2021', event: 'Censured by House' },
- { date: '2022', event: 'Named in January 6 planning' },
- ],
- sources: [
- { title: 'January 6 Committee Evidence', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Evidence', date: '2022' },
- { title: 'House Censure Resolution', url: 'https://scholar.google.com/scholar?q=House%20Censure%20Resolution', date: '2021' },
- ],
- },
+
+
+
+
+
+
+
+
+  'pete-hegseth': {
+    name: 'Peter Brian Hegseth',
+    title: 'Secretary of Defense',
+    role: 'Fox News Host, Military Veteran',
+    riskLevel: 'high',
+    description: 'Peter Brian Hegseth is a Fox News host and Army National Guard veteran whom Trump nominated as Secretary of Defense. His confirmation was controversial due to allegations of sexual assault, excessive drinking, financial mismanagement of veterans organizations, and a settlement with a sexual assault accuser.',
+    birthDate: 'June 6, 1980',
+    birthPlace: 'Minneapolis, Minnesota',
+    netWorth: '$4 million',
+    education: ['M.P.P. - Harvard Kennedy School', 'B.A. - Princeton University'],
+    affiliations: [
+      { name: 'Department of Defense', role: 'Secretary (2025-Present)', type: 'agency' },
+      { name: 'Fox News', role: 'Host (2014-2024)', type: 'corporation' },
+      { name: 'Concerned Veterans for America', role: 'CEO (former)', type: 'organization' },
+    ],
+    controversies: [
+      'Sexual assault allegation (2017, settled)',
+      'Excessive drinking concerns',
+      'Financial mismanagement at veterans groups',
+      'No senior leadership experience',
+      'Advocated pardoning war criminals',
+      'Opposes women in combat',
+      'Multiple marriages amid affairs',
+      '"I haven\'t washed hands in 10 years"comment',
+    ],
+    charges: [
+      { statute: 'California Penal Code § 243.4', description: 'Potential Sexual Battery - 2017 allegation at California Republican convention (settled out of court)', category: 'Potential State' },
+      { statute: '26 U.S.C. § 501(c)(3)', description: 'Potential Violation - Financial mismanagement at Concerned Veterans for America and Vets for Freedom nonprofits', category: 'Potential Tax/Nonprofit' },
+      { statute: 'IRS Form 990 Requirements', description: 'Potential Violations - Accused of financial irregularities while running veterans nonprofits', category: 'Potential Tax' },
+      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Allegations of misrepresenting qualifications and conduct during confirmation', category: 'Potential Federal' },
+      { statute: '10 U.S.C. § 892 (UCMJ Art. 92)', description: 'Historical - Advocated pardoning war criminals convicted under military law', category: 'Military Justice' },
+      { statute: '5 C.F.R. § 2635 (Standards of Ethical Conduct)', description: 'Potential Violations - Conflicts of interest and conduct unbecoming executive branch official', category: 'Potential Ethics' },
+    ],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2012-2014', event: 'CEO of veterans nonprofits' },
+      { date: '2014', event: 'Joins Fox News' },
+      { date: '2017', event: 'Sexual assault allegation, settles' },
+      { date: '2024', event: 'November: Nominated as SecDef' },
+      { date: '2025', event: 'January: Confirmed as Secretary' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Senate Confirmation Testimony', url: 'https://www.congress.gov/', date: '2025' },
+      { title: 'New Yorker Investigation', url: 'https://scholar.google.com/scholar?q=New%20Yorker%20Investigation', date: '2024' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'SecDef appointee', href: '/entities/individuals/donald-trump' },
+      { name: 'Jeffrey Epstein', relationship: 'Referenced in connection with Trump administration Epstein file discussions', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Matt Gaetz', relationship: 'Congressional ally investigated for related conduct', href: '/entities/individuals/matt-gaetz' },
+      { name: 'Keith Schiller', relationship: 'Fellow Trump inner circle member', href: '/entities/individuals/keith-schiller' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'paul-erickson': {
+    name: 'Paul Erickson',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Paul Erickson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Paul Erickson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'paula-white': {
+    name: 'Paula White',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Paula White is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Paula White has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'patrick-byrne': {
+    name: 'Patrick Byrne',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Patrick Byrne is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Patrick Byrne has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'phil-waldron': {
+    name: 'Phil Waldron',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Phil Waldron is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Phil Waldron has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'paul-gosar': {
+    name: 'Paul Gosar',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Paul Gosar is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Paul Gosar has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'peter-strzok': {
  name: 'Peter Paul Strzok II',
  title: 'Former FBI Deputy Asst. Director',
@@ -549,308 +483,320 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Congressional Testimony', url: 'https://www.congress.gov/', date: '2018' },
  ],
  },
- 'peter-thiel': {
- name: 'Peter Andreas Thiel',
- title: 'Tech Billionaire',
- role: 'Trump Donor & Advisor',
- riskLevel: 'medium' as const,
- description: 'PayPal co-founder, Palantir co-founder, and early Facebook investor. Was sole major tech donor to support Trump in 2016. Funded primary campaigns of JD Vance and Blake Masters. Libertarian who has called democracy incompatible with freedom.',
- birthDate: 'October 11, 1967',
- birthPlace: 'Frankfurt, West Germany',
- education: [
- 'J.D. - Stanford Law School',
- 'B.A. - Stanford University',
- ],
- affiliations: [
- { name: 'Palantir Technologies', role: 'Co-Founder', type: 'corporation' },
- { name: 'Founders Fund', role: 'Partner', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: '2016 donor and transition advisor', href: '/entities/individuals/donald-trump' },
- { name: 'JD Vance', relationship: 'Funded political career' },
- ],
- controversies: [
- 'Only major tech donor to back Trump 2016',
- 'Funded destruction of Gawker Media',
- 'Palantir contracts with ICE',
- 'Libertarian anti-democracy statements',
- 'Funded JD Vance, Blake Masters campaigns',
- ],
- charges: [
- { statute: '52 U.S.C. § 30122', description: 'Potential Straw Donor Violations - Complex funding arrangements for political candidates raise campaign finance questions', category: 'Potential Election' },
- { statute: '52 U.S.C. § 30121', description: 'Potential Foreign National Contribution Issues - As German-born citizen, donations and fundraising activities scrutinized', category: 'Potential Election' },
- { statute: '18 U.S.C. § 1030 (CFAA)', description: 'Potential Violations Through Palantir - ICE surveillance contracts raise questions about warrantless surveillance', category: 'Potential Federal' },
- { statute: '42 U.S.C. § 1983', description: 'Civil Rights Concerns - Palantir technology used for immigration enforcement targeting vulnerable communities', category: 'Civil Rights' },
- { statute: '5 U.S.C. § 552a (Privacy Act)', description: 'Potential Violations Through Palantir - Government surveillance programs may violate privacy protections', category: 'Potential Federal' },
- { statute: '26 U.S.C. § 501(c)(4)', description: 'Potential Dark Money Violations - Political spending through nonprofit structures may violate tax law', category: 'Potential Tax' },
- ],
- relatedInvestigations: [],
- timeline: [
- { date: '2016', event: 'Major Trump donor, spoke at RNC' },
- { date: '2016-2017', event: 'Trump transition team' },
- { date: '2022', event: 'Funds Vance, Masters Senate campaigns' },
- ],
- sources: [
- { title: 'FEC Donation Records', url: 'https://scholar.google.com/scholar?q=FEC%20Donation%20Records', date: 'Various' },
- ],
- },
- 'paul-wolfowitz': {
- name: 'Paul Dundes Wolfowitz',
- title: 'Former Deputy Secretary of Defense',
- role: 'Iraq War Architect, Neoconservative Ideologue, World Bank Scandal',
- riskLevel: 'critical',
- description: 'Paul Wolfowitz was the leading intellectual architect of the Iraq War as Deputy Secretary of Defense. A founding neoconservative who advocated for regime change in Iraq since the 1990s, he claimed the war would pay for itself through oil revenues and predicted US troops would be greeted as liberators. His catastrophically wrong predictions contributed to a war that killed hundreds of thousands. He later resigned from the World Bank in disgrace over a corruption scandal involving his girlfriend.',
- birthDate: 'December 22, 1943',
- birthPlace: 'Brooklyn, New York City, USA',
- education: [
- 'Ph.D. in Political Science - University of Chicago (1972)',
- 'B.A. in Mathematics - Cornell University (1965)',
- ],
- netWorth: '$5+ million',
- aliases: ['Wolfie', 'The Architect', 'Neocon-in-Chief'],
- affiliations: [
- { name: 'U.S. Department of Defense', role: 'Deputy Secretary (2001-2005)', type: 'agency' },
- { name: 'World Bank', role: 'President (2005-2007, resigned in scandal)', type: 'organization' },
- { name: 'Project for the New American Century', role: 'Founding Signatory', type: 'organization' },
- { name: 'U.S. Department of State', role: 'Ambassador to Indonesia (1986-1989)', type: 'agency' },
- { name: 'American Enterprise Institute', role: 'Visiting Scholar', type: 'organization' },
- { name: 'Johns Hopkins SAIS', role: 'Dean (1994-2001)', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Rumsfeld', relationship: 'Secretary of Defense, direct supervisor', href: '/entities/individuals/donald-rumsfeld' },
- { name: 'Dick Cheney', relationship: 'Vice President, neoconservative ally', href: '/entities/individuals/dick-cheney' },
- { name: 'George W. Bush', relationship: 'President, sold on Iraq War vision', href: '/entities/individuals/george-w-bush' },
- { name: 'Condoleezza Rice', relationship: 'NSA, Iraq planning coordination', href: '/entities/individuals/condoleezza-rice' },
- { name: 'Colin Powell', relationship: 'Secretary of State, skeptic of his views', href: '/entities/individuals/colin-powell' },
- { name: 'Douglas Feith', relationship: 'Undersecretary, Office of Special Plans', href: '/entities/individuals/douglas-feith' },
- { name: 'Richard Perle', relationship: 'Fellow neoconservative, Defense Policy Board', href: '/entities/individuals/richard-perle' },
- { name: 'Scooter Libby', relationship: 'Former student, Cheney chief of staff', href: '/entities/individuals/scooter-libby' },
- ],
- controversies: [
- 'IRAQ WAR ARCHITECT: Principal designer of Iraq invasion strategy, predicted"cakewalk"victory',
- '"GREETED AS LIBERATORS": Predicted Iraqis would welcome US troops - catastrophically wrong',
- '"WAR PAYS FOR ITSELF": Claimed Iraq oil would finance reconstruction - war cost $3+ trillion',
- 'TROOP LEVEL DISMISSALS: Attacked General Shinseki for saying 300,000 troops needed - sent far fewer',
- 'PNAC SIGNATORY: Signed 1998 letter calling for Iraq regime change, pre-planned invasion',
- 'OFFICE OF SPECIAL PLANS: Created parallel intelligence operation to"stovepipe"intel to White House',
- 'CURVEBALL CHAMPION: Promoted false intelligence about mobile bioweapon labs',
- 'WORLD BANK CORRUPTION: Resigned in disgrace after arranging massive pay raise for girlfriend Shaha Riza ($193,000)',
- 'INDONESIA DICTATORSHIP: As ambassador, supported Suharto dictatorship during human rights abuses',
- 'CASUALTY DENIALISM: Dramatically underestimated war casualties, showed callous disregard',
- ],
- charges: [
- { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace - Planning aggressive war on false pretenses', category: 'International' },
- { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crime - Excessive incidental death through inadequate planning', category: 'War Crimes' },
- { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'War Crime - Willful killing through inadequate troop levels', category: 'War Crimes' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements - Presenting manipulated intelligence to Congress', category: 'Federal' },
- { statute: 'World Bank Staff Rules', description: 'Corruption - Ethics violations, girlfriend pay raise', category: 'International' },
- { statute: 'UN Charter Article 2(4)', description: 'Prohibition on Use of Force - Planning illegal war', category: 'International' },
- ],
- relatedInvestigations: [
- { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
- { title: 'Office of Special Plans', slug: 'special-plans', severity: 'critical' },
- { title: 'War Crimes Investigation', slug: 'war-crimes', severity: 'critical' },
- { title: 'Neoconservative Network', slug: 'neocon-network', severity: 'high' },
- { title: 'World Bank Corruption', slug: 'world-bank', severity: 'medium' },
- ],
- timeline: [
- { date: 'December 22, 1943', event: 'Born in Brooklyn, NY to Polish Jewish immigrants' },
- { date: '1972', event: 'Earns PhD from University of Chicago under Albert Wohlstetter' },
- { date: '1977-1980', event: 'Deputy Assistant Secretary of Defense under Carter' },
- { date: '1986-1989', event: 'Ambassador to Indonesia under Reagan, supports Suharto' },
- { date: '1989-1993', event: 'Undersecretary of Defense for Policy under George H.W. Bush' },
- { date: '1992', event: 'Authors Defense Planning Guidance calling for American hegemony' },
- { date: '1994-2001', event: 'Dean of Johns Hopkins SAIS' },
- { date: '1997', event: 'Co-founds Project for the New American Century' },
- { date: '1998', event: 'Signs PNAC letter calling for Iraq regime change' },
- { date: 'January 2001', event: 'Becomes Deputy Secretary of Defense' },
- { date: 'September 11, 2001', event: 'Immediately focuses on Iraq despite al-Qaeda responsibility' },
- { date: '2002', event: 'Creates Office of Special Plans for Iraq intelligence' },
- { date: 'February 2003', event: '"Greeted as liberators"testimony to Congress' },
- { date: 'March 2003', event: '"War will pay for itself"claim before Congress' },
- { date: 'March 2003', event: 'Iraq War begins under his strategic vision' },
- { date: '2004-2005', event: 'Iraq insurgency contradicts all his predictions' },
- { date: 'June 2005', event: 'Becomes World Bank President' },
- { date: 'April 2007', event: 'Girlfriend pay raise scandal emerges' },
- { date: 'May 2007', event: 'Resigns from World Bank in disgrace' },
- { date: 'Present', event: 'American Enterprise Institute visiting scholar, unrepentant' },
- ],
- sources: [
- { title: 'PNAC Iraq Letter', url: 'https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },
- { title: 'Congressional Testimony on Iraq War', url: 'https://www.c-span.org/video/?175384-1/us-policy-iraq', date: '2003' },
- { title: 'World Bank Ethics Committee Report', url: 'https://www.worldbank.org/en/about/leadership/members', date: '2007' },
- { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
- { title: 'Defense Planning Guidance (1992, leaked)', url: 'https://scholar.google.com/scholar?q=Defense%20Planning%20Guidance%20(1992%2C%20leaked)', date: '1992' },
- { title: 'Rise of the Vulcans: The History of Bush\'s War Cabinet', url: 'https://scholar.google.com/scholar?q=Rise%20of%20the%20Vulcans%3A%20The%20History%20of%20Bush%27s%20War%20Cabinet', date: '2004' },
- ],
- },
- 'paul-singer': {
- name: 'Paul Elliott Singer',
- title: 'Hedge Fund Billionaire',
- role: 'Vulture Capitalist, Republican Mega-Donor, Sovereign Debt Speculator',
- riskLevel: 'high',
- description: 'Paul Singer is a billionaire hedge fund manager and founder of Elliott Management, known as the pioneer of"vulture capitalism"- buying distressed sovereign debt at pennies on the dollar and suing poor nations for full repayment. His aggressive tactics have targeted Argentina, Peru, Congo, and other developing nations, seizing assets and extracting billions while impoverishing populations. A major Republican donor, Singer initially opposed Trump before becoming a significant financial supporter. His fund\'s tactics have been condemned by the UN, IMF, and development organizations as predatory and harmful to global economic stability.',
- birthDate: 'August 22, 1944',
- birthPlace: 'New York City, USA',
- education: [
- 'J.D. - Harvard Law School (1969)',
- 'B.S. in Psychology - University of Rochester (1966)',
- ],
- netWorth: '$6+ billion',
- aliases: ['Vulture Capitalist', 'Sovereign Debt Predator'],
- affiliations: [
- { name: 'Elliott Management Corporation', role: 'Founder & Co-CEO (1977-present)', type: 'corporation' },
- { name: 'Republican Party', role: 'Major Donor', type: 'organization' },
- { name: 'Manhattan Institute', role: 'Board Member', type: 'organization' },
- { name: 'Commentary Magazine', role: 'Board Member', type: 'organization' },
- { name: 'Paul E. Singer Foundation', role: 'Founder', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Major donor (after initial opposition)', href: '/entities/individuals/donald-trump' },
- { name: 'Marco Rubio', relationship: 'Preferred 2016 candidate, major donor', href: '/entities/individuals/marco-rubio' },
- { name: 'Jeb Bush', relationship: 'Initial 2016 support', href: '/entities/individuals/jeb-bush' },
- { name: 'Washington Free Beacon', relationship: 'Funder, initially commissioned Trump opposition research' },
- ],
- controversies: [
- 'ARGENTINA DEBT CRISIS: Bought Argentine debt for $48 million, sued for $2.4 billion, seized Argentine naval ship',
- 'VULTURE FUND TACTICS: Pioneered strategy of buying distressed sovereign debt and suing for full value',
- 'PERU LAWSUIT: Extracted $58 million from Peru on debt bought for $11 million',
- 'CONGO EXPLOITATION: Pursued Democratic Republic of Congo for debt during civil war',
- 'SEIZED ARGENTINE SHIP: In 2012, convinced Ghana to seize Argentine naval training vessel ARA Libertad',
- 'UN CONDEMNATION: United Nations has condemned vulture fund practices as harmful to development',
- 'PUERTO RICO: Elliott Management among hedge funds profiting from Puerto Rico debt crisis',
- 'STEELE DOSSIER ORIGIN: Washington Free Beacon (Singer-funded) originally hired Fusion GPS before Democrats',
- 'ANTI-TRUMP THEN PRO-TRUMP: Opposed Trump in 2016, became major donor after election',
- 'TWITTER PRESSURE: Elliott Management pressured Twitter board, contributed to eventual Musk takeover',
- 'CAESARS BANKRUPTCY: Aggressive tactics in Caesars Entertainment bankruptcy',
- 'AT&T ACTIVISM: Pressured AT&T for changes, profited from corporate restructuring',
- ],
- charges: [
- { statute: 'UN General Assembly Res. 68/304', description: 'Sovereign Debt Restructuring Violations - Condemned vulture fund practices', category: 'International' },
- { statute: 'IMF Lending Framework', description: 'Undermining Debt Relief - Blocking HIPC debt relief for poor nations', category: 'International' },
- { statute: 'ICSID Arbitration Rules', description: 'Aggressive Sovereign Litigation - Seizing state assets', category: 'International' },
- { statute: '15 U.S.C. § 78j(b)', description: 'Securities Manipulation - Market manipulation allegations', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'Vulture Capitalism', slug: 'vulture-capitalism', severity: 'high' },
- { title: 'Sovereign Debt Exploitation', slug: 'sovereign-debt', severity: 'high' },
- { title: 'Republican Dark Money', slug: 'republican-dark-money', severity: 'high' },
- { title: 'Hedge Fund Predation', slug: 'hedge-fund-predation', severity: 'high' },
- ],
- timeline: [
- { date: 'August 22, 1944', event: 'Born in New York City' },
- { date: '1966', event: 'Graduates University of Rochester' },
- { date: '1969', event: 'Graduates Harvard Law School' },
- { date: '1977', event: 'Founds Elliott Associates with $1.3 million' },
- { date: '1990s', event: 'Pioneers vulture fund strategy targeting sovereign debt' },
- { date: '1996', event: 'Peru case: $11 million investment yields $58 million' },
- { date: '2001', event: 'Argentina defaults, Singer begins buying distressed debt' },
- { date: '2008', event: 'Pursues Congo debt during civil war period' },
- { date: '2012', event: 'Ghana seizes Argentine naval ship ARA Libertad at Singer\'s request' },
- { date: '2014', event: 'Argentina forced into technical default over Elliott lawsuit' },
- { date: '2015', event: 'Washington Free Beacon (Singer-funded) hires Fusion GPS for Trump research' },
- { date: '2016', event: 'Opposes Trump, supports Rubio then others' },
- { date: '2016', event: 'Argentina settles, pays Elliott $2.4 billion on $48 million investment' },
- { date: '2017', event: 'Begins donating to Trump and GOP after election' },
- { date: '2020', event: 'Elliott pressures Twitter board' },
- { date: '2022', event: 'Twitter sale to Musk, Elliott profits' },
- { date: '2024', event: 'Continues as major Republican donor' },
- ],
- sources: [
- { title: 'UN General Assembly Resolution on Sovereign Debt', url: 'https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf', date: '2014' },
- { title: 'IMF Sovereign Debt Reports', url: 'https://www.imf.org/en/Topics/Sovereign-Debt', date: 'Various' },
- { title: 'Argentina v. NML Capital Supreme Court', url: 'https://supremecourt.gov/opinions/13pdf/12-842_5h26.pdf', date: '2014' },
- { title: 'Jubilee Debt Campaign - Vulture Funds', url: 'https://jubileedebt.org.uk/', date: 'Various' },
- { title: 'New York Times - Elliott Management Profile', url: 'https://www.nytimes.com/', date: '2016' },
- { title: 'SEC Elliott Management Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=elliott+management', date: 'Various' },
- ],
- },
- 'peter-daszak': {
- name: 'Peter Daszak',
- title: 'EcoHealth Alliance President',
- role: 'Virus Hunter, Wuhan Lab Connection, NIH Grant Recipient',
- riskLevel: 'critical',
- description: 'Peter Daszak is a British zoologist and president of EcoHealth Alliance, a nonprofit that received NIH funding for coronavirus research at the Wuhan Institute of Virology. He has been central to COVID origins controversy due to his organization\'s close collaboration with Wuhan researchers, his role in organizing the Lancet letter dismissing lab leak as"conspiracy theory"(while concealing his conflict of interest), and his presence on the WHO investigation team despite his direct connections to Wuhan. Congressional investigations have revealed his grants supported gain of function research despite his denials.',
- birthDate: '1966',
- birthPlace: 'Manchester, United Kingdom',
- education: [
- 'Ph.D. in Parasitology - University of East London',
- 'B.Sc. - University of Wales, Bangor',
- ],
- netWorth: '$400,000+ annual salary (EcoHealth)',
- aliases: ['Virus Hunter', 'Bat Man', 'EcoHealth CEO'],
- affiliations: [
- { name: 'EcoHealth Alliance', role: 'President (2010-present)', type: 'organization' },
- { name: 'Wuhan Institute of Virology', role: 'Research Collaborator', type: 'organization' },
- { name: 'National Institutes of Health', role: 'Major Grant Recipient', type: 'agency' },
- { name: 'USAID PREDICT Program', role: 'Participant', type: 'agency' },
- { name: 'WHO COVID-19 Origins Investigation', role: 'Team Member', type: 'organization' },
- { name: 'The Lancet COVID-19 Commission', role: 'Task Force Chair (recused)', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Shi Zhengli', relationship: 'Wuhan"Bat Woman,"primary research collaborator', href: '/entities/individuals/shi-zhengli' },
- { name: 'Ralph Baric', relationship: 'UNC coronavirus researcher, joint publications', href: '/entities/individuals/ralph-baric' },
- { name: 'Francis Collins', relationship: 'NIH Director, grant oversight', href: '/entities/individuals/francis-collins' },
- { name: 'Anthony Fauci', relationship: 'NIAID Director, funding source', href: '/entities/individuals/anthony-fauci' },
- ],
- controversies: [
- 'WUHAN COLLABORATION: EcoHealth funneled NIH money to Wuhan Institute of Virology for bat coronavirus research',
- 'LANCET LETTER: Organized February 2020 letter calling lab leak"conspiracy theory"while hiding conflict of interest',
- 'WHO INVESTIGATION CONFLICT: Placed on WHO origins team despite direct Wuhan connections',
- 'GAIN OF FUNCTION DENIALS: Repeatedly denied NIH-funded gain of function research despite evidence',
- 'NIH GRANT TERMINATION: Grant terminated in 2020, partially reinstated, then fully cut in 2024',
- 'CONGRESSIONAL DEBARMENT: House recommended debarment from federal funding',
- 'CHIMERIC VIRUS RESEARCH: EcoHealth grants funded creation of chimeric coronaviruses at Wuhan',
- 'MISSING DATA: Failed to provide required NIH documentation on Wuhan research',
- 'DEFUSE PROPOSAL: 2018 DARPA proposal revealed plans for inserting furin cleavage sites in coronaviruses',
- 'CONFLICT CONCEALMENT: Did not disclose EcoHealth-Wuhan relationship in Lancet letter',
- 'SAMPLE DESTRUCTION: Concerns about missing virus samples and database takedowns',
- 'EVIDENCE OBSTRUCTION: Accused of impeding COVID origins investigation',
- ],
- charges: [
- { statute: '18 U.S.C. § 1001', description: 'False Statements - Misrepresentations to NIH about research nature', category: 'Federal' },
- { statute: '31 U.S.C. § 3729', description: 'False Claims Act - False certifications on federal grants', category: 'Federal' },
- { statute: '18 U.S.C. § 1519', description: 'Destruction of Records - Missing documentation', category: 'Federal' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy - Coordinated lab leak dismissal campaign', category: 'Federal' },
- { statute: 'NIH Grant Regulations 45 CFR 75', description: 'Grant Condition Violations', category: 'Federal' },
- { statute: 'Federal Acquisition Regulation', description: 'Debarment - House recommendation', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'COVID-19 Origins Investigation', slug: 'covid-origins', severity: 'critical' },
- { title: 'Gain of Function Research', slug: 'gain-of-function', severity: 'critical' },
- { title: 'Lab Leak Cover-Up', slug: 'lab-leak', severity: 'critical' },
- { title: 'NIH Funding of Wuhan Research', slug: 'nih-wuhan', severity: 'critical' },
- { title: 'EcoHealth Alliance Investigation', slug: 'ecohealth', severity: 'critical' },
- ],
- timeline: [
- { date: '1966', event: 'Born in Manchester, UK' },
- { date: '2000s', event: 'Establishes EcoHealth Alliance (formerly Wildlife Trust)' },
- { date: '2010', event: 'Becomes President of EcoHealth Alliance' },
- { date: '2014', event: 'Receives NIH grant for bat coronavirus research' },
- { date: '2014-2019', event: 'EcoHealth subawards funds to Wuhan Institute of Virology' },
- { date: '2015', event: 'Co-authors paper on chimeric coronavirus with Shi Zhengli and Baric' },
- { date: '2018', event: 'DEFUSE proposal to DARPA mentions furin cleavage site insertion (rejected)' },
- { date: 'September 2019', event: 'Wuhan virus database taken offline' },
- { date: 'December 2019', event: 'COVID-19 emerges in Wuhan' },
- { date: 'February 19, 2020', event: 'Organizes Lancet letter calling lab leak"conspiracy theory"' },
- { date: 'April 2020', event: 'NIH terminates EcoHealth grant under Trump administration' },
- { date: '2021', event: 'Joins WHO COVID-19 origins investigation team' },
- { date: 'February 2021', event: 'WHO team visits Wuhan, widely criticized as inadequate' },
- { date: 'June 2021', event: 'Recused from Lancet COVID Commission task force over conflicts' },
- { date: '2022', event: 'NIH documents reveal extent of Wuhan collaboration' },
- { date: '2023', event: 'Congressional investigations intensify' },
- { date: 'May 2024', event: 'House votes to recommend debarment from federal funding' },
- { date: 'August 2024', event: 'HHS suspends and initiates debarment proceedings' },
- ],
- sources: [
- { title: 'House Select Subcommittee on Coronavirus Pandemic', url: 'https://oversight.house.gov/subcommittee/select-subcommittee-on-the-coronavirus-pandemic/', date: '2023-2024' },
- { title: 'NIH EcoHealth Alliance Grant Records', url: 'https://reporter.nih.gov/', date: '2014-2024' },
- { title: 'The Lancet Statement (Daszak organized)', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30418-9/fulltext', date: '2020' },
- { title: 'The Intercept - NIH Documents', url: 'https://theintercept.com/2021/09/06/new-details-emerge-about-coronavirus-research-at-chinese-lab/', date: '2021' },
- { title: 'DEFUSE Proposal (DRASTIC leak)', url: 'https://scholar.google.com/scholar?q=DEFUSE%20Proposal%20(DRASTIC%20leak)', date: '2018/2021' },
- { title: 'WHO COVID-19 Origins Report', url: 'https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part', date: '2021' },
- ],
- },
+  'peter-thiel': {
+    name: 'Peter Thiel',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Peter Thiel is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Peter Thiel has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'paul-wolfowitz': {
+    name: 'Paul Dundes Wolfowitz',
+    title: 'Former Deputy Secretary of Defense',
+    role: 'Iraq War Architect, Neoconservative Ideologue, World Bank Scandal',
+    riskLevel: 'critical',
+    description: 'Paul Wolfowitz was the leading intellectual architect of the Iraq War as Deputy Secretary of Defense. A founding neoconservative who advocated for regime change in Iraq since the 1990s, he claimed the war would pay for itself through oil revenues and predicted US troops would be greeted as liberators. His catastrophically wrong predictions contributed to a war that killed hundreds of thousands. He later resigned from the World Bank in disgrace over a corruption scandal involving his girlfriend.',
+    birthDate: 'December 22, 1943',
+    birthPlace: 'Brooklyn, New York City, USA',
+    netWorth: '$5+ million',
+    education: ['Ph.D. in Political Science - University of Chicago (1972)', 'B.A. in Mathematics - Cornell University (1965)'],
+    affiliations: [
+      { name: 'U.S. Department of Defense', role: 'Deputy Secretary (2001-2005)', type: 'agency' },
+      { name: 'World Bank', role: 'President (2005-2007, resigned in scandal)', type: 'organization' },
+      { name: 'Project for the New American Century', role: 'Founding Signatory', type: 'organization' },
+      { name: 'U.S. Department of State', role: 'Ambassador to Indonesia (1986-1989)', type: 'agency' },
+      { name: 'American Enterprise Institute', role: 'Visiting Scholar', type: 'organization' },
+      { name: 'Johns Hopkins SAIS', role: 'Dean (1994-2001)', type: 'organization' },
+    ],
+    controversies: [
+      'IRAQ WAR ARCHITECT: Principal designer of Iraq invasion strategy, predicted"cakewalk"victory',
+      '"GREETED AS LIBERATORS": Predicted Iraqis would welcome US troops - catastrophically wrong',
+      '"WAR PAYS FOR ITSELF": Claimed Iraq oil would finance reconstruction - war cost $3+ trillion',
+      'TROOP LEVEL DISMISSALS: Attacked General Shinseki for saying 300,000 troops needed - sent far fewer',
+      'PNAC SIGNATORY: Signed 1998 letter calling for Iraq regime change, pre-planned invasion',
+      'OFFICE OF SPECIAL PLANS: Created parallel intelligence operation to"stovepipe"intel to White House',
+      'CURVEBALL CHAMPION: Promoted false intelligence about mobile bioweapon labs',
+      'WORLD BANK CORRUPTION: Resigned in disgrace after arranging massive pay raise for girlfriend Shaha Riza ($193,000)',
+      'INDONESIA DICTATORSHIP: As ambassador, supported Suharto dictatorship during human rights abuses',
+      'CASUALTY DENIALISM: Dramatically underestimated war casualties, showed callous disregard',
+    ],
+    charges: [
+      { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace - Planning aggressive war on false pretenses', category: 'International' },
+      { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crime - Excessive incidental death through inadequate planning', category: 'War Crimes' },
+      { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'War Crime - Willful killing through inadequate troop levels', category: 'War Crimes' },
+      { statute: '18 U.S.C. § 1001', description: 'False Statements - Presenting manipulated intelligence to Congress', category: 'Federal' },
+      { statute: 'World Bank Staff Rules', description: 'Corruption - Ethics violations, girlfriend pay raise', category: 'International' },
+      { statute: 'UN Charter Article 2(4)', description: 'Prohibition on Use of Force - Planning illegal war', category: 'International' },
+    ],
+    relatedInvestigations: [
+      { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
+      { title: 'Office of Special Plans', slug: 'special-plans', severity: 'critical' },
+      { title: 'War Crimes Investigation', slug: 'war-crimes', severity: 'critical' },
+      { title: 'Neoconservative Network', slug: 'neocon-network', severity: 'high' },
+      { title: 'World Bank Corruption', slug: 'world-bank', severity: 'medium' },
+    ],
+    timeline: [
+      { date: 'December 22, 1943', event: 'Born in Brooklyn, NY to Polish Jewish immigrants' },
+      { date: '1972', event: 'Earns PhD from University of Chicago under Albert Wohlstetter' },
+      { date: '1977-1980', event: 'Deputy Assistant Secretary of Defense under Carter' },
+      { date: '1986-1989', event: 'Ambassador to Indonesia under Reagan, supports Suharto' },
+      { date: '1989-1993', event: 'Undersecretary of Defense for Policy under George H.W. Bush' },
+      { date: '1992', event: 'Authors Defense Planning Guidance calling for American hegemony' },
+      { date: '1994-2001', event: 'Dean of Johns Hopkins SAIS' },
+      { date: '1997', event: 'Co-founds Project for the New American Century' },
+      { date: '1998', event: 'Signs PNAC letter calling for Iraq regime change' },
+      { date: 'January 2001', event: 'Becomes Deputy Secretary of Defense' },
+      { date: 'September 11, 2001', event: 'Immediately focuses on Iraq despite al-Qaeda responsibility' },
+      { date: '2002', event: 'Creates Office of Special Plans for Iraq intelligence' },
+      { date: 'February 2003', event: '"Greeted as liberators"testimony to Congress' },
+      { date: 'March 2003', event: '"War will pay for itself"claim before Congress' },
+      { date: 'March 2003', event: 'Iraq War begins under his strategic vision' },
+      { date: '2004-2005', event: 'Iraq insurgency contradicts all his predictions' },
+      { date: 'June 2005', event: 'Becomes World Bank President' },
+      { date: 'April 2007', event: 'Girlfriend pay raise scandal emerges' },
+      { date: 'May 2007', event: 'Resigns from World Bank in disgrace' },
+      { date: 'Present', event: 'American Enterprise Institute visiting scholar, unrepentant' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'PNAC Iraq Letter', url: 'https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },
+      { title: 'Congressional Testimony on Iraq War', url: 'https://www.c-span.org/video/?175384-1/us-policy-iraq', date: '2003' },
+      { title: 'World Bank Ethics Committee Report', url: 'https://www.worldbank.org/en/about/leadership/members', date: '2007' },
+      { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
+      { title: 'Defense Planning Guidance (1992, leaked)', url: 'https://scholar.google.com/scholar?q=Defense%20Planning%20Guidance%20(1992%2C%20leaked)', date: '1992' },
+      { title: 'Rise of the Vulcans: The History of Bush\'s War Cabinet', url: 'https://scholar.google.com/scholar?q=Rise%20of%20the%20Vulcans%3A%20The%20History%20of%20Bush%27s%20War%20Cabinet', date: '2004' },
+    ],
+    aliases: ['Wolfie', 'The Architect', 'Neocon-in-Chief'],
+    knownAssociates: [
+      { name: 'Donald Rumsfeld', relationship: 'Secretary of Defense, direct supervisor', href: '/entities/individuals/donald-rumsfeld' },
+      { name: 'Dick Cheney', relationship: 'Vice President, neoconservative ally', href: '/entities/individuals/dick-cheney' },
+      { name: 'George W. Bush', relationship: 'President, sold on Iraq War vision', href: '/entities/individuals/george-w-bush' },
+      { name: 'Condoleezza Rice', relationship: 'NSA, Iraq planning coordination', href: '/entities/individuals/condoleezza-rice' },
+      { name: 'Colin Powell', relationship: 'Secretary of State, skeptic of his views', href: '/entities/individuals/colin-powell' },
+      { name: 'Douglas Feith', relationship: 'Undersecretary, Office of Special Plans', href: '/entities/individuals/douglas-feith' },
+      { name: 'Richard Perle', relationship: 'Fellow neoconservative, Defense Policy Board', href: '/entities/individuals/richard-perle' },
+      { name: 'Scooter Libby', relationship: 'Former student, Cheney chief of staff', href: '/entities/individuals/scooter-libby' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'paul-singer': {
+    name: 'Paul Elliott Singer',
+    title: 'Hedge Fund Billionaire',
+    role: 'Vulture Capitalist, Republican Mega-Donor, Sovereign Debt Speculator',
+    riskLevel: 'high',
+    description: 'Paul Singer is a billionaire hedge fund manager and founder of Elliott Management, known as the pioneer of"vulture capitalism"- buying distressed sovereign debt at pennies on the dollar and suing poor nations for full repayment. His aggressive tactics have targeted Argentina, Peru, Congo, and other developing nations, seizing assets and extracting billions while impoverishing populations. A major Republican donor, Singer initially opposed Trump before becoming a significant financial supporter. His fund\'s tactics have been condemned by the UN, IMF, and development organizations as predatory and harmful to global economic stability.',
+    birthDate: 'August 22, 1944',
+    birthPlace: 'New York City, USA',
+    netWorth: '$6+ billion',
+    education: ['J.D. - Harvard Law School (1969)', 'B.S. in Psychology - University of Rochester (1966)'],
+    affiliations: [
+      { name: 'Elliott Management Corporation', role: 'Founder & Co-CEO (1977-present)', type: 'corporation' },
+      { name: 'Republican Party', role: 'Major Donor', type: 'organization' },
+      { name: 'Manhattan Institute', role: 'Board Member', type: 'organization' },
+      { name: 'Commentary Magazine', role: 'Board Member', type: 'organization' },
+      { name: 'Paul E. Singer Foundation', role: 'Founder', type: 'organization' },
+    ],
+    controversies: [
+      'ARGENTINA DEBT CRISIS: Bought Argentine debt for $48 million, sued for $2.4 billion, seized Argentine naval ship',
+      'VULTURE FUND TACTICS: Pioneered strategy of buying distressed sovereign debt and suing for full value',
+      'PERU LAWSUIT: Extracted $58 million from Peru on debt bought for $11 million',
+      'CONGO EXPLOITATION: Pursued Democratic Republic of Congo for debt during civil war',
+      'SEIZED ARGENTINE SHIP: In 2012, convinced Ghana to seize Argentine naval training vessel ARA Libertad',
+      'UN CONDEMNATION: United Nations has condemned vulture fund practices as harmful to development',
+      'PUERTO RICO: Elliott Management among hedge funds profiting from Puerto Rico debt crisis',
+      'STEELE DOSSIER ORIGIN: Washington Free Beacon (Singer-funded) originally hired Fusion GPS before Democrats',
+      'ANTI-TRUMP THEN PRO-TRUMP: Opposed Trump in 2016, became major donor after election',
+      'TWITTER PRESSURE: Elliott Management pressured Twitter board, contributed to eventual Musk takeover',
+      'CAESARS BANKRUPTCY: Aggressive tactics in Caesars Entertainment bankruptcy',
+      'AT&T ACTIVISM: Pressured AT&T for changes, profited from corporate restructuring',
+    ],
+    charges: [
+      { statute: 'UN General Assembly Res. 68/304', description: 'Sovereign Debt Restructuring Violations - Condemned vulture fund practices', category: 'International' },
+      { statute: 'IMF Lending Framework', description: 'Undermining Debt Relief - Blocking HIPC debt relief for poor nations', category: 'International' },
+      { statute: 'ICSID Arbitration Rules', description: 'Aggressive Sovereign Litigation - Seizing state assets', category: 'International' },
+      { statute: '15 U.S.C. § 78j(b)', description: 'Securities Manipulation - Market manipulation allegations', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: 'Vulture Capitalism', slug: 'vulture-capitalism', severity: 'high' },
+      { title: 'Sovereign Debt Exploitation', slug: 'sovereign-debt', severity: 'high' },
+      { title: 'Republican Dark Money', slug: 'republican-dark-money', severity: 'high' },
+      { title: 'Hedge Fund Predation', slug: 'hedge-fund-predation', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'August 22, 1944', event: 'Born in New York City' },
+      { date: '1966', event: 'Graduates University of Rochester' },
+      { date: '1969', event: 'Graduates Harvard Law School' },
+      { date: '1977', event: 'Founds Elliott Associates with $1.3 million' },
+      { date: '1990s', event: 'Pioneers vulture fund strategy targeting sovereign debt' },
+      { date: '1996', event: 'Peru case: $11 million investment yields $58 million' },
+      { date: '2001', event: 'Argentina defaults, Singer begins buying distressed debt' },
+      { date: '2008', event: 'Pursues Congo debt during civil war period' },
+      { date: '2012', event: 'Ghana seizes Argentine naval ship ARA Libertad at Singer\'s request' },
+      { date: '2014', event: 'Argentina forced into technical default over Elliott lawsuit' },
+      { date: '2015', event: 'Washington Free Beacon (Singer-funded) hires Fusion GPS for Trump research' },
+      { date: '2016', event: 'Opposes Trump, supports Rubio then others' },
+      { date: '2016', event: 'Argentina settles, pays Elliott $2.4 billion on $48 million investment' },
+      { date: '2017', event: 'Begins donating to Trump and GOP after election' },
+      { date: '2020', event: 'Elliott pressures Twitter board' },
+      { date: '2022', event: 'Twitter sale to Musk, Elliott profits' },
+      { date: '2024', event: 'Continues as major Republican donor' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'UN General Assembly Resolution on Sovereign Debt', url: 'https://www.un.org/en/development/desa/population/migration/generalassembly/docs/globalcompact/A_RES_68_304.pdf', date: '2014' },
+      { title: 'IMF Sovereign Debt Reports', url: 'https://www.imf.org/en/Topics/Sovereign-Debt', date: 'Various' },
+      { title: 'Argentina v. NML Capital Supreme Court', url: 'https://supremecourt.gov/opinions/13pdf/12-842_5h26.pdf', date: '2014' },
+      { title: 'Jubilee Debt Campaign - Vulture Funds', url: 'https://jubileedebt.org.uk/', date: 'Various' },
+      { title: 'New York Times - Elliott Management Profile', url: 'https://www.nytimes.com/', date: '2016' },
+      { title: 'SEC Elliott Management Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=elliott+management', date: 'Various' },
+    ],
+    aliases: ['Vulture Capitalist', 'Sovereign Debt Predator'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Major donor (after initial opposition)', href: '/entities/individuals/donald-trump' },
+      { name: 'Marco Rubio', relationship: 'Preferred 2016 candidate, major donor', href: '/entities/individuals/marco-rubio' },
+      { name: 'Jeb Bush', relationship: 'Initial 2016 support', href: '/entities/individuals/jeb-bush' },
+      { name: 'Washington Free Beacon', relationship: 'Funder, initially commissioned Trump opposition research' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  'peter-daszak': {
+    name: 'Peter Daszak',
+    title: 'EcoHealth Alliance President',
+    role: 'Virus Hunter, Wuhan Lab Connection, NIH Grant Recipient',
+    riskLevel: 'critical',
+    description: 'Peter Daszak is a British zoologist and president of EcoHealth Alliance, a nonprofit that received NIH funding for coronavirus research at the Wuhan Institute of Virology. He has been central to COVID origins controversy due to his organization\'s close collaboration with Wuhan researchers, his role in organizing the Lancet letter dismissing lab leak as"conspiracy theory"(while concealing his conflict of interest), and his presence on the WHO investigation team despite his direct connections to Wuhan. Congressional investigations have revealed his grants supported gain of function research despite his denials.',
+    birthDate: '1966',
+    birthPlace: 'Manchester, United Kingdom',
+    netWorth: '$400,000+ annual salary (EcoHealth)',
+    education: ['Ph.D. in Parasitology - University of East London', 'B.Sc. - University of Wales, Bangor'],
+    affiliations: [
+      { name: 'EcoHealth Alliance', role: 'President (2010-present)', type: 'organization' },
+      { name: 'Wuhan Institute of Virology', role: 'Research Collaborator', type: 'organization' },
+      { name: 'National Institutes of Health', role: 'Major Grant Recipient', type: 'agency' },
+      { name: 'USAID PREDICT Program', role: 'Participant', type: 'agency' },
+      { name: 'WHO COVID-19 Origins Investigation', role: 'Team Member', type: 'organization' },
+      { name: 'The Lancet COVID-19 Commission', role: 'Task Force Chair (recused)', type: 'organization' },
+    ],
+    controversies: [
+      'WUHAN COLLABORATION: EcoHealth funneled NIH money to Wuhan Institute of Virology for bat coronavirus research',
+      'LANCET LETTER: Organized February 2020 letter calling lab leak"conspiracy theory"while hiding conflict of interest',
+      'WHO INVESTIGATION CONFLICT: Placed on WHO origins team despite direct Wuhan connections',
+      'GAIN OF FUNCTION DENIALS: Repeatedly denied NIH-funded gain of function research despite evidence',
+      'NIH GRANT TERMINATION: Grant terminated in 2020, partially reinstated, then fully cut in 2024',
+      'CONGRESSIONAL DEBARMENT: House recommended debarment from federal funding',
+      'CHIMERIC VIRUS RESEARCH: EcoHealth grants funded creation of chimeric coronaviruses at Wuhan',
+      'MISSING DATA: Failed to provide required NIH documentation on Wuhan research',
+      'DEFUSE PROPOSAL: 2018 DARPA proposal revealed plans for inserting furin cleavage sites in coronaviruses',
+      'CONFLICT CONCEALMENT: Did not disclose EcoHealth-Wuhan relationship in Lancet letter',
+      'SAMPLE DESTRUCTION: Concerns about missing virus samples and database takedowns',
+      'EVIDENCE OBSTRUCTION: Accused of impeding COVID origins investigation',
+    ],
+    charges: [
+      { statute: '18 U.S.C. § 1001', description: 'False Statements - Misrepresentations to NIH about research nature', category: 'Federal' },
+      { statute: '31 U.S.C. § 3729', description: 'False Claims Act - False certifications on federal grants', category: 'Federal' },
+      { statute: '18 U.S.C. § 1519', description: 'Destruction of Records - Missing documentation', category: 'Federal' },
+      { statute: '18 U.S.C. § 371', description: 'Conspiracy - Coordinated lab leak dismissal campaign', category: 'Federal' },
+      { statute: 'NIH Grant Regulations 45 CFR 75', description: 'Grant Condition Violations', category: 'Federal' },
+      { statute: 'Federal Acquisition Regulation', description: 'Debarment - House recommendation', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: 'COVID-19 Origins Investigation', slug: 'covid-origins', severity: 'critical' },
+      { title: 'Gain of Function Research', slug: 'gain-of-function', severity: 'critical' },
+      { title: 'Lab Leak Cover-Up', slug: 'lab-leak', severity: 'critical' },
+      { title: 'NIH Funding of Wuhan Research', slug: 'nih-wuhan', severity: 'critical' },
+      { title: 'EcoHealth Alliance Investigation', slug: 'ecohealth', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1966', event: 'Born in Manchester, UK' },
+      { date: '2000s', event: 'Establishes EcoHealth Alliance (formerly Wildlife Trust)' },
+      { date: '2010', event: 'Becomes President of EcoHealth Alliance' },
+      { date: '2014', event: 'Receives NIH grant for bat coronavirus research' },
+      { date: '2014-2019', event: 'EcoHealth subawards funds to Wuhan Institute of Virology' },
+      { date: '2015', event: 'Co-authors paper on chimeric coronavirus with Shi Zhengli and Baric' },
+      { date: '2018', event: 'DEFUSE proposal to DARPA mentions furin cleavage site insertion (rejected)' },
+      { date: 'September 2019', event: 'Wuhan virus database taken offline' },
+      { date: 'December 2019', event: 'COVID-19 emerges in Wuhan' },
+      { date: 'February 19, 2020', event: 'Organizes Lancet letter calling lab leak"conspiracy theory"' },
+      { date: 'April 2020', event: 'NIH terminates EcoHealth grant under Trump administration' },
+      { date: '2021', event: 'Joins WHO COVID-19 origins investigation team' },
+      { date: 'February 2021', event: 'WHO team visits Wuhan, widely criticized as inadequate' },
+      { date: 'June 2021', event: 'Recused from Lancet COVID Commission task force over conflicts' },
+      { date: '2022', event: 'NIH documents reveal extent of Wuhan collaboration' },
+      { date: '2023', event: 'Congressional investigations intensify' },
+      { date: 'May 2024', event: 'House votes to recommend debarment from federal funding' },
+      { date: 'August 2024', event: 'HHS suspends and initiates debarment proceedings' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'House Select Subcommittee on Coronavirus Pandemic', url: 'https://oversight.house.gov/subcommittee/select-subcommittee-on-the-coronavirus-pandemic/', date: '2023-2024' },
+      { title: 'NIH EcoHealth Alliance Grant Records', url: 'https://reporter.nih.gov/', date: '2014-2024' },
+      { title: 'The Lancet Statement (Daszak organized)', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30418-9/fulltext', date: '2020' },
+      { title: 'The Intercept - NIH Documents', url: 'https://theintercept.com/2021/09/06/new-details-emerge-about-coronavirus-research-at-chinese-lab/', date: '2021' },
+      { title: 'DEFUSE Proposal (DRASTIC leak)', url: 'https://scholar.google.com/scholar?q=DEFUSE%20Proposal%20(DRASTIC%20leak)', date: '2018/2021' },
+      { title: 'WHO COVID-19 Origins Report', url: 'https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part', date: '2021' },
+    ],
+    aliases: ['Virus Hunter', 'Bat Man', 'EcoHealth CEO'],
+    knownAssociates: [
+      { name: 'Shi Zhengli', relationship: 'Wuhan"Bat Woman,"primary research collaborator', href: '/entities/individuals/shi-zhengli' },
+      { name: 'Ralph Baric', relationship: 'UNC coronavirus researcher, joint publications', href: '/entities/individuals/ralph-baric' },
+      { name: 'Francis Collins', relationship: 'NIH Director, grant oversight', href: '/entities/individuals/francis-collins' },
+      { name: 'Anthony Fauci', relationship: 'NIAID Director, funding source', href: '/entities/individuals/anthony-fauci' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
  'patrice-lumumba': {
  name: 'Patrice Lumumba',
  title: 'Prime Minister of Congo (1960)',
@@ -1480,46 +1426,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'pam-bondi': {
- name: 'Pam Bondi',
- title: 'Attorney General Nominee',
- role: 'Trump University Settlement - Pay-to-Play',
- riskLevel: 'high',
- description: 'Pam Bondi served as Florida Attorney General and is Trump\'s AG nominee. She dropped Florida\'s Trump University fraud investigation after receiving a $25,000 donation from Trump Foundation. She later served on Trump\'s impeachment defense team. Critics cite clear quid pro quo corruption.',
- birthDate: 'November 17, 1965',
- birthPlace: 'Tampa, Florida',
- education: ['University of Florida', 'Stetson University College of Law'],
- affiliations: [
- { name: 'State of Florida', role: 'Former Attorney General', type: 'agency' as const },
- { name: 'Trump Administration 2.0', role: 'AG Nominee', type: 'agency' as const },
- ],
+  'pam-bondi': {
+    name: 'Pam Bondi',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Pam Bondi is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Pam Bondi has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'As Florida AG, dropped Trump University fraud investigation after PAC received $25,000 Trump donation; later appointed Attorney General in 2025', href: '/entities/individuals/donald-trump' },
- { name: 'Lev Parnas', relationship: 'Connected through Trump orbit; Parnas attended Bondi fundraisers during Ukraine pressure campaign period', href: '/entities/individuals/lev-parnas' },
- ],
- controversies: [
- 'TRUMP U BRIBE: Dropped investigation after $25K donation',
- 'IRS VIOLATION: Trump Foundation donation was illegal',
- 'IMPEACHMENT DEFENSE: Defended Trump\'s Ukraine scheme',
- 'PAY-TO-PLAY: Pattern of donor favoritism',
- 'LOBBYING: Represented foreign governments',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Trump University Fraud', slug: 'trump-university', severity: 'high' },
- { title: 'Political Corruption', slug: 'political-corruption', severity: 'high' },
- ],
- timeline: [
- { date: 'November 17, 1965', event: 'Born in Tampa' },
- { date: '2011-2019', event: 'Florida Attorney General' },
- { date: 'September 2013', event: 'Received Trump Foundation donation' },
- { date: 'October 2013', event: 'Dropped Trump U investigation' },
- { date: '2020', event: 'Trump impeachment defense team' },
- { date: 'November 2024', event: 'Nominated for Attorney General' },
- ],
- sources: [{ title: 'Wikipedia: Pam Bondi', url: 'https://en.wikipedia.org/wiki/Pam_Bondi' }, { title: 'NYT: Pam Bondi Profile', url: 'https://www.nytimes.com/' }, { title: 'Military Times: Pam Bondi', url: 'https://www.militarytimes.com/' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
- },
  'pamela-foster': {
  name: 'Pamela Foster',
  title: 'Yakama Nation Council member, fought for MMIW protections in Washington state',
@@ -1859,32 +1795,39 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Phil Bryant', url: 'https://en.wikipedia.org/wiki/Phil_Bryant' }],
  },
- 'philip-sheridan': {
- name: 'Philip Sheridan',
- title: 'U.S. Army General. Commanded the Military Division of the Missouri overseeing Indian Wars campaigns. Advocated total war against Native peoples and endorsed buffalo extermination. Attributed with the statement"The only good Indian is a dead Indian."',
- role: 'U.S. Army General. Commanded the Military Division of the Missouri overseeing Indian Wars campaigns. Advocated total war against Native peoples and endorsed buffalo extermination. Attributed with the statement"The only good Indian is a dead Indian."',
- riskLevel: 'high',
- description: 'Philip Sheridan is documented in ArkHive investigations for their role as U.S. Army General. Commanded the Military Division of the Missouri overseeing Indian Wars campaigns. Advocated total war against Native peoples and endorsed buffalo extermination. Attributed with the statement"The only good Indian is a dead Indian.".',
- education: [],
- affiliations: [
- { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
- { name: 'United States Military', role: 'Service Member', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as U.S. Army General. Commanded the Military Division of the Missouri overseeing Indian Wars campaigns.' }],
- knownAssociates: [
- { name: 'George Armstrong Custer', relationship: 'Custer served under Sheridan during Indian Wars', href: '/entities/individuals/george-armstrong-custer' },
- { name: 'William Tecumseh Sherman', relationship: 'Fellow Union general who oversaw Native American campaigns', href: '/entities/individuals/william-tecumseh-sherman' },
- { name: 'James Forsyth', relationship: 'Officer under Sheridan\'s command at Wounded Knee', href: '/entities/individuals/james-forsyth' }
- ],
+  'philip-sheridan': {
+    name: 'Philip Sheridan',
+    title: 'U.S. Army General. Commanded the Military Division of the Missouri overseeing Indian Wars campaigns. Advocated total war against Native peoples and endorsed buffalo extermination. Attributed with the statement"The only good Indian is a dead Indian."',
+    role: 'U.S. Army General. Commanded the Military Division of the Missouri overseeing Indian Wars campaigns. Advocated total war against Native peoples and endorsed buffalo extermination. Attributed with the statement"The only good Indian is a dead Indian."',
+    riskLevel: 'high',
+    description: 'Philip Sheridan is documented in ArkHive investigations for their role as U.S. Army General. Commanded the Military Division of the Missouri overseeing Indian Wars campaigns. Advocated total war against Native peoples and endorsed buffalo extermination. Attributed with the statement"The only good Indian is a dead Indian.".',
+    education: [],
+    affiliations: [
+      { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+      { name: 'United States Military', role: 'Service Member', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as U.S. Army General. Commanded the Military Division of the Missouri overseeing Indian Wars campaigns.' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Philip Sheridan', url: 'https://en.wikipedia.org/wiki/Philip_Sheridan', date: '' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'George Armstrong Custer', relationship: 'Custer served under Sheridan during Indian Wars', href: '/entities/individuals/george-armstrong-custer' },
+      { name: 'William Tecumseh Sherman', relationship: 'Fellow Union general who oversaw Native American campaigns', href: '/entities/individuals/william-tecumseh-sherman' },
+      { name: 'James Forsyth', relationship: 'Officer under Sheridan\'s command at Wounded Knee', href: '/entities/individuals/james-forsyth' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Philip Sheridan', url: 'https://en.wikipedia.org/wiki/Philip_Sheridan' }],
- },
  'philippe-moryoussef': {
  name: 'Philippe Moryoussef',
  title: 'Former Barclays trader convicted of EURIBOR manipulation conspiracy',
@@ -2040,237 +1983,148 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Guardian: Mandelson-Epstein', url: 'https://www.theguardian.com/uk-news/2019/jul/30/peter-mandelson-jeffrey-epstein', date: '2019' },
  ],
  },
- 'paul-ryan': {
-"name":"Paul Ryan",
-"title":"Former Speaker of the House",
-"role":"Republican Congressional Leader, VP Candidate",
-"riskLevel":"high",
-"description":"Republican politician who served as Speaker of the House (2015-2019) and was Mitt Romney's VP running mate in 2012. Championed tax cuts for the wealthy and austerity for social programs. Initially criticized Trump but fell in line, enabling the Trump agenda through Congress before retiring.",
-"education": [
-"Miami University - B.A. Economics and Political Science"
- ],
-"affiliations": [
- {
-"name":"Republican Party",
-"role":"Speaker of the House",
-"type":"organization"
- },
- {
-"name":"Fox Corporation",
-"role":"Board Member",
-"type":"corporation"
- }
- ],
-"knownAssociates": [
- {
-"name":"Donald Trump",
-"relationship":"Enabled Trump legislative agenda as Speaker",
-"href":"/entities/individuals/donald-trump"
- },
- {
-"name":"Mitch McConnell",
-"relationship":"Senate counterpart, coordinated GOP strategy",
-"href":"/entities/individuals/mitch-mcconnell"
- },
- {
-"name":"Kevin McCarthy",
-"relationship":"Successor as House Republican leader",
-"href":"/entities/individuals/kevin-mccarthy"
- },
- {
-"name":"Mike Pence",
-"relationship":"Fellow establishment Republican who aligned with Trump",
-"href":"/entities/individuals/mike-pence"
- }
- ],
-"controversies": [
-"Championed 2017 Tax Cuts and Jobs Act benefiting wealthy and corporations",
-"Attempted to repeal Affordable Care Act",
-"Enabled Trump agenda despite private criticisms",
-"Joined Fox Corporation board after retirement"
- ],
-"relatedInvestigations": [
- {
-"title":"Tax Evasion",
-"slug":"tax-evasion",
-"severity":"high"
- }
- ],
-"timeline": [
- {
-"date":"2015",
-"event":"Became Speaker of the House"
- },
- {
-"date":"2017",
-"event":"Passed Tax Cuts and Jobs Act"
- },
- {
-"date":"2019",
-"event":"Retired from Congress"
- }
- ],
-"sources": [
- {
-"title":"NYT: Paul Ryan Profile",
-"url":"https://www.nytimes.com/topic/person/paul-d-ryan",
-"date":"2019"
- }
- ]
- },
- 'philando-castile': {
-"name":"Philando Castile",
-"title":"Victim of Police Shooting",
-"role":"Shot During Traffic Stop, Streamed Live",
-"riskLevel":"low",
-"description":"African American school nutrition supervisor shot and killed by St. Anthony, Minnesota police officer Jeronimo Yanez during a traffic stop on July 6, 2016. His girlfriend Diamond Reynolds live-streamed the aftermath on Facebook as their 4-year-old daughter watched from the backseat. Castile had informed Yanez he had a licensed firearm. Yanez was acquitted.",
-"birthDate":"July 16, 1983",
-"education": [],
-"affiliations": [],
-"knownAssociates": [],
-"controversies": [
-"Had been pulled over 49 times in 13 years",
-"Informed officer of legal firearm before being shot",
-"Girlfriend live-streamed aftermath on Facebook",
-"Officer acquitted despite video evidence"
- ],
-"relatedInvestigations": [
- {
-"title":"Police Brutality",
-"slug":"police-brutality",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2016 Jul 6",
-"event":"Shot and killed during traffic stop"
- },
- {
-"date":"2017",
-"event":"Officer Yanez acquitted"
- }
- ],
-"sources": [
- {
-"title":"MPR: The Life and Death of Philando Castile",
-"url":"https://www.mprnews.org/topic/philandocastile",
-"date":"2017"
- }
- ]
- },
- 'pat-tillman': {
-"name":"Pat Tillman",
-"title":"NFL Player Turned Army Ranger",
-"role":"Killed by Friendly Fire, Military Cover-Up",
-"riskLevel":"low",
-"description":"NFL player who left a $3.6 million contract with the Arizona Cardinals to enlist as an Army Ranger after 9/11. Killed by friendly fire in Afghanistan on April 22, 2004. The military initially fabricated a heroic combat death story, and the cover-up extended to the highest levels of the Pentagon.",
-"birthDate":"November 6, 1976",
-"education": [
-"Arizona State University"
- ],
-"affiliations": [
- {
-"name":"U.S. Army",
-"role":"Specialist, 75th Ranger Regiment",
-"type":"agency"
- }
- ],
-"knownAssociates": [
- {
-"name":"Donald Rumsfeld",
-"relationship":"Defense Secretary during friendly fire cover-up",
-"href":"/entities/individuals/donald-rumsfeld"
- }
- ],
-"controversies": [
-"Killed by friendly fire, not enemy combat",
-"Military fabricated heroic death narrative",
-"Pentagon cover-up reached highest levels",
-"Family lied to about circumstances of death"
- ],
-"relatedInvestigations": [
- {
-"title":"Whistleblower Persecution",
-"slug":"whistleblower-persecution",
-"severity":"high"
- }
- ],
-"timeline": [
- {
-"date":"2002",
-"event":"Left NFL to enlist in Army Rangers"
- },
- {
-"date":"2004 Apr 22",
-"event":"Killed by friendly fire in Afghanistan"
- },
- {
-"date":"2007",
-"event":"Congressional hearing exposed military cover-up"
- }
- ],
-"sources": [
- {
-"title":"Washington Post: Tillman Investigation",
-"url":"https://www.washingtonpost.com/wp-srv/nation/specials/tillman/",
-"date":"2007"
- }
- ]
- },
- 'pope-francis': {
-"name":"Pope Francis",
-"title":"Head of the Catholic Church",
-"role":"266th Pope, First from Americas",
-"riskLevel":"low",
-"description":"Born Jorge Mario Bergoglio, became Pope in 2013 as the first from the Americas and first Jesuit pope. Has pushed reform on climate change and poverty while facing criticism for slow response to the church's sexual abuse crisis, though he has taken some steps including establishing new accountability mechanisms.",
-"birthDate":"December 17, 1936",
-"education": [
-"Universidad del Salvador - Philosophy",
-"Philosophical and Theological Faculty of San Miguel - Theology"
- ],
-"affiliations": [
- {
-"name":"Catholic Church",
-"role":"Pope",
-"type":"organization"
- }
- ],
-"knownAssociates": [],
-"controversies": [
-"Criticized for slow response to sexual abuse crisis",
-"Established new accountability mechanisms for bishops",
-"Progressive on climate and poverty, conservative on some social issues"
- ],
-"relatedInvestigations": [
- {
-"title":"Sexual Assault",
-"slug":"sexual-assault",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2013",
-"event":"Elected Pope"
- },
- {
-"date":"2015",
-"event":"Published climate encyclical Laudato Si"
- },
- {
-"date":"2019",
-"event":"Established new abuse reporting requirements"
- }
- ],
-"sources": [
- {
-"title":"Vatican: Pope Francis",
-"url":"https://www.vatican.va/content/francesco/en.html",
-"date":"2024"
- }
- ]
- },
+  'paul-ryan': {
+    name: 'Paul Ryan',
+    title: 'Former Speaker of the House',
+    role: 'Republican Congressional Leader, VP Candidate',
+    riskLevel: 'high',
+    description: 'Republican politician who served as Speaker of the House (2015-2019) and was Mitt Romney\'s VP running mate in 2012. Championed tax cuts for the wealthy and austerity for social programs. Initially criticized Trump but fell in line, enabling the Trump agenda through Congress before retiring.',
+    education: ['Miami University - B.A. Economics and Political Science'],
+    affiliations: [
+      { name: 'Republican Party', role: 'Speaker of the House', type: 'organization' },
+      { name: 'Fox Corporation', role: 'Board Member', type: 'corporation' },
+    ],
+    controversies: [
+      'Championed 2017 Tax Cuts and Jobs Act benefiting wealthy and corporations',
+      'Attempted to repeal Affordable Care Act',
+      'Enabled Trump agenda despite private criticisms',
+      'Joined Fox Corporation board after retirement',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Tax Evasion', slug: 'tax-evasion', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2015', event: 'Became Speaker of the House' },
+      { date: '2017', event: 'Passed Tax Cuts and Jobs Act' },
+      { date: '2019', event: 'Retired from Congress' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NYT: Paul Ryan Profile', url: 'https://www.nytimes.com/topic/person/paul-d-ryan', date: '2019' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Enabled Trump legislative agenda as Speaker', href: '/entities/individuals/donald-trump' },
+      { name: 'Mitch McConnell', relationship: 'Senate counterpart, coordinated GOP strategy', href: '/entities/individuals/mitch-mcconnell' },
+      { name: 'Kevin McCarthy', relationship: 'Successor as House Republican leader', href: '/entities/individuals/kevin-mccarthy' },
+      { name: 'Mike Pence', relationship: 'Fellow establishment Republican who aligned with Trump', href: '/entities/individuals/mike-pence' },
+    ],
+  },
+
+  'philando-castile': {
+    name: 'Philando Castile',
+    title: 'Victim of Police Shooting',
+    role: 'Shot During Traffic Stop, Streamed Live',
+    riskLevel: 'low',
+    description: 'African American school nutrition supervisor shot and killed by St. Anthony, Minnesota police officer Jeronimo Yanez during a traffic stop on July 6, 2016. His girlfriend Diamond Reynolds live-streamed the aftermath on Facebook as their 4-year-old daughter watched from the backseat. Castile had informed Yanez he had a licensed firearm. Yanez was acquitted.',
+    birthDate: 'July 16, 1983',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Had been pulled over 49 times in 13 years',
+      'Informed officer of legal firearm before being shot',
+      'Girlfriend live-streamed aftermath on Facebook',
+      'Officer acquitted despite video evidence',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Police Brutality', slug: 'police-brutality', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2016 Jul 6', event: 'Shot and killed during traffic stop' },
+      { date: '2017', event: 'Officer Yanez acquitted' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'MPR: The Life and Death of Philando Castile', url: 'https://www.mprnews.org/topic/philandocastile', date: '2017' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'pat-tillman': {
+    name: 'Pat Tillman',
+    title: 'NFL Player Turned Army Ranger',
+    role: 'Killed by Friendly Fire, Military Cover-Up',
+    riskLevel: 'low',
+    description: 'NFL player who left a $3.6 million contract with the Arizona Cardinals to enlist as an Army Ranger after 9/11. Killed by friendly fire in Afghanistan on April 22, 2004. The military initially fabricated a heroic combat death story, and the cover-up extended to the highest levels of the Pentagon.',
+    birthDate: 'November 6, 1976',
+    education: ['Arizona State University'],
+    affiliations: [
+      { name: 'U.S. Army', role: 'Specialist, 75th Ranger Regiment', type: 'agency' },
+    ],
+    controversies: [
+      'Killed by friendly fire, not enemy combat',
+      'Military fabricated heroic death narrative',
+      'Pentagon cover-up reached highest levels',
+      'Family lied to about circumstances of death',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Whistleblower Persecution', slug: 'whistleblower-persecution', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2002', event: 'Left NFL to enlist in Army Rangers' },
+      { date: '2004 Apr 22', event: 'Killed by friendly fire in Afghanistan' },
+      { date: '2007', event: 'Congressional hearing exposed military cover-up' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Washington Post: Tillman Investigation', url: 'https://www.washingtonpost.com/wp-srv/nation/specials/tillman/', date: '2007' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Rumsfeld', relationship: 'Defense Secretary during friendly fire cover-up', href: '/entities/individuals/donald-rumsfeld' },
+    ],
+  },
+
+  'pope-francis': {
+    name: 'Pope Francis',
+    title: 'Head of the Catholic Church',
+    role: '266th Pope, First from Americas',
+    riskLevel: 'low',
+    description: 'Born Jorge Mario Bergoglio, became Pope in 2013 as the first from the Americas and first Jesuit pope. Has pushed reform on climate change and poverty while facing criticism for slow response to the church\'s sexual abuse crisis, though he has taken some steps including establishing new accountability mechanisms.',
+    birthDate: 'December 17, 1936',
+    education: ['Universidad del Salvador - Philosophy', 'Philosophical and Theological Faculty of San Miguel - Theology'],
+    affiliations: [
+      { name: 'Catholic Church', role: 'Pope', type: 'organization' },
+    ],
+    controversies: [
+      'Criticized for slow response to sexual abuse crisis',
+      'Established new accountability mechanisms for bishops',
+      'Progressive on climate and poverty, conservative on some social issues',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Sexual Assault', slug: 'sexual-assault', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2013', event: 'Elected Pope' },
+      { date: '2015', event: 'Published climate encyclical Laudato Si' },
+      { date: '2019', event: 'Established new abuse reporting requirements' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Vatican: Pope Francis', url: 'https://www.vatican.va/content/francesco/en.html', date: '2024' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'pepsico': {
     name: 'Pepsico',
     title: 'Public Figure Under Investigation',

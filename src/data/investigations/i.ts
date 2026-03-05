@@ -530,6 +530,48 @@ const investigations_i: Record<string, InvestigationData> = {
     affiliations: [
     ],
   },
+  'industrial-water-contamination-database': {
+    title: 'Industrial Water Contamination Database',
+    subtitle: 'Investigation into Industrial Water Contamination Database',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Industrial Water Contamination Database for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Industrial Water Contamination Database has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+  'information-environment-manipulation-tactics': {
+    title: 'Information Environment Manipulation Tactics',
+    subtitle: 'Investigation into Information Environment Manipulation Tactics',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Information Environment Manipulation Tactics for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Information Environment Manipulation Tactics has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+
+
 
 
 

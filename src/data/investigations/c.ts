@@ -2194,6 +2194,90 @@ const investigations_c: Record<string, InvestigationData> = {
     affiliations: [
     ],
   },
+  'classification-system-reform-failures': {
+    title: 'Classification System Reform Failures',
+    subtitle: 'Investigation into Classification System Reform Failures',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Classification System Reform Failures for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Classification System Reform Failures has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+  'cult-recruitment-technique-evolution': {
+    title: 'Cult Recruitment Technique Evolution',
+    subtitle: 'Investigation into Cult Recruitment Technique Evolution',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Cult Recruitment Technique Evolution for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Cult Recruitment Technique Evolution has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+  'construction-industry-bid-rigging-networks': {
+    title: 'Construction Industry Bid Rigging Networks',
+    subtitle: 'Investigation into Construction Industry Bid Rigging Networks',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Construction Industry Bid Rigging Networks for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Construction Industry Bid Rigging Networks has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+  'corporate-environmental-crime-prosecution-gap': {
+    title: 'Corporate Environmental Crime Prosecution Gap',
+    subtitle: 'Investigation into Corporate Environmental Crime Prosecution Gap',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Corporate Environmental Crime Prosecution Gap for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Corporate Environmental Crime Prosecution Gap has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+
+
+
+
 
 
 

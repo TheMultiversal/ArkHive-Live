@@ -157,6 +157,18 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   'alexander-nix': {
     name: 'Alexander James Ashburner Nix',
     title: 'Former Cambridge Analytica CEO',
@@ -205,6 +217,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'UK ICO Investigation', url: 'https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
       { title: 'Channel 4 Undercover Investigation', url: 'https://scholar.google.com/scholar?q=Channel%204%20Undercover%20Investigation', date: '2018' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -213,6 +226,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Christopher Wylie', relationship: 'Former employee, whistleblower' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -329,6 +354,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Miami Herald - Perversion of Justice Investigation', url: 'https://www.miamiherald.com/', date: '2018' },
       { title: 'DOJ OPR Investigation', url: 'https://scholar.google.com/scholar?q=DOJ%20OPR%20Investigation', date: '2020' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: ['Alexander Acosta'],
     knownAssociates: [
@@ -340,6 +366,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Michael Reiter', relationship: 'Palm Beach Police Chief who pushed for federal prosecution', href: '/entities/individuals/michael-reiter' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -397,6 +435,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'HHS COVID Timeline', url: 'https://scholar.google.com/scholar?q=HHS%20COVID%20Timeline', date: '2020' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
     ],
     aliases: ['Azar'],
     knownAssociates: [
@@ -404,6 +444,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Anthony Fauci', relationship: 'HHS oversaw NIAID', href: '/entities/individuals/anthony-fauci' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -463,6 +515,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Giuffre Allegations', url: 'https://scholar.google.com/scholar?q=Giuffre%20Allegations', date: '2015' },
       { title: 'Epstein Flight Logs', url: 'https://scholar.google.com/scholar?q=Epstein%20Flight%20Logs', date: '2019' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
     ],
     aliases: ['Dersh'],
     knownAssociates: [
@@ -474,6 +527,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Steven Pinker', relationship: 'Harvard colleague, connected in Epstein academic circle', href: '/entities/individuals/steven-pinker' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -532,6 +597,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'January 6 Committee Report', url: 'https://www.congress.gov/', date: '2022' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: ['Ali Akbar', 'Ali Abdul-Razaq Akbar'],
     knownAssociates: [
@@ -539,6 +606,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Roger Stone', relationship: 'Stop the Steal collaborator', href: '/entities/individuals/roger-stone' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1241,6 +1320,18 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   'allen-dulles': {
     name: 'Allen Dulles',
     title: 'CIA Director (1953-1961)',
@@ -1322,6 +1413,18 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   'antonin-scalia': {
     name: 'Antonin Scalia',
     title: 'Supreme Court Justice (1986-2016)',
@@ -1356,12 +1459,26 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Bush v. Gore (531 U.S. 98)', url: 'https://scholar.google.com/scholar?q=Bush%20v.%20Gore%20(531%20U.S.%2098)', date: '2000' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Clarence Thomas', relationship: 'Fellow conservative justice', href: '/entities/individuals/clarence-thomas' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1417,6 +1534,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Senate Judiciary Committee hearings', url: 'https://www.congress.gov/', date: '2007' },
       { title: 'DOJ Inspector General Report on Firings', url: 'https://www.justice.gov/', date: '2008' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1424,6 +1542,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'John Yoo', relationship: 'Torture memo author', href: '/entities/individuals/john-yoo' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

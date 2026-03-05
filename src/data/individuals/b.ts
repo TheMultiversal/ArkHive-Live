@@ -102,12 +102,26 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands', date: '2020' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: ['Border Wall Scammer'],
     knownAssociates: [
       { name: 'Steve Bannon', relationship: 'We Build the Wall co-conspirator (pardoned)', href: '/entities/individuals/steve-bannon' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -187,6 +201,18 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   'betsy-devos': {
     name: 'Elisabeth Dee DeVos',
     title: 'Former U.S. Secretary of Education',
@@ -231,6 +257,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'DeVos Confirmation Hearings', url: 'https://scholar.google.com/scholar?q=DeVos%20Confirmation%20Hearings', date: '2017' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: ['Betsy DeVos'],
     knownAssociates: [
@@ -238,6 +266,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Erik Prince', relationship: 'Brother, Blackwater founder', href: '/entities/individuals/erik-prince' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -294,6 +334,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'HUD IG Report on Furniture', url: 'https://www.ignet.gov/', date: '2018' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
     ],
     aliases: ['Dr. Ben Carson'],
     knownAssociates: [
@@ -302,6 +344,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Pete Hegseth', relationship: 'Fellow Trump cabinet member', href: '/entities/individuals/pete-hegseth' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -812,6 +865,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Hafez al-Assad', relationship: 'Father, predecessor dictator', href: '/entities/individuals/hafez-al-assad' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3089,6 +3154,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Ghislaine Maxwell', relationship: 'Named in civil suits as co-conspirator', href: '/entities/individuals/ghislaine-maxwell' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
 
 
 

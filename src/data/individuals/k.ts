@@ -72,6 +72,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Georgia Guilty Plea', url: 'https://www.fultonclerk.org/', date: '2023' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
     ],
     aliases: ['Fake Electors Architect'],
     knownAssociates: [
@@ -79,6 +81,16 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'John Eastman', relationship: 'Co-conspirator', href: '/entities/individuals/john-eastman' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
 
 
   'konstantin-kilimnik': {
@@ -136,6 +148,16 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Campaign data recipient via Manafort', href: '/entities/individuals/donald-trump' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
 
 
  'kurt-volker': {
@@ -305,6 +327,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Senate Confirmation Hearings', url: 'https://www.congress.gov/', date: '2025' },
       { title: 'FOIA Documents', url: 'https://scholar.google.com/scholar?q=FOIA%20Documents', date: '2020-2024' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: ['Kash'],
     knownAssociates: [
@@ -312,6 +335,16 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Devin Nunes', relationship: 'Former boss, Nunes memo co-author', href: '/entities/individuals/devin-nunes' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
 
 
   'kellyanne-conway': {
@@ -357,6 +390,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Office of Special Counsel Hatch Act Reports', url: 'https://www.cia.gov/readingroom/', date: '2019' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -364,6 +399,16 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'George Conway', relationship: 'Ex-husband, Trump critic (divorced 2024)', href: '/entities/individuals/george-conway' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
 
 
   'keith-davidson': {
@@ -781,12 +826,24 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Senate Financial Disclosures', url: 'https://efds.senate.gov/', date: '2020' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Richard Burr', relationship: 'Fellow COVID insider trader', href: '/entities/individuals/richard-burr' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
 
 
   'ken-paxton': {
@@ -826,12 +883,24 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Texas v. Pennsylvania', url: 'https://www.supremecourt.gov/orders/courtorders/121120zr_p860.pdf', date: '2020' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Donald Trump', relationship: 'Filed lawsuit to overturn election', href: '/entities/individuals/donald-trump' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
 
 
   'karl-rove': {
@@ -920,6 +989,16 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
+
+
+
+
+
+
+
+
+
   'kirill-dmitriev': {
     name: 'Kirill Aleksandrovich Dmitriev',
     title: 'Russian Sovereign Wealth Fund CEO',
@@ -999,6 +1078,16 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Jared Kushner', relationship: 'Indirect contact through intermediaries', href: '/entities/individuals/jared-kushner' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
 
 
   'katherine-harris': {

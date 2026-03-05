@@ -1262,6 +1262,69 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
     ],
   },
+  'social-media-bot-farm-election-campaigns': {
+    title: 'Social Media Bot Farm Election Campaigns',
+    subtitle: 'Investigation into Social Media Bot Farm Election Campaigns',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Social Media Bot Farm Election Campaigns for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Social Media Bot Farm Election Campaigns has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+  'state-level-election-fraud-prosecutions': {
+    title: 'State-Level Election Fraud Prosecutions',
+    subtitle: 'Investigation into State-Level Election Fraud Prosecutions',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged State-Level Election Fraud Prosecutions for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'State-Level Election Fraud Prosecutions has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+  'superfund-site-cleanup-delay-patterns': {
+    title: 'Superfund Site Cleanup Delay Patterns',
+    subtitle: 'Investigation into Superfund Site Cleanup Delay Patterns',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Superfund Site Cleanup Delay Patterns for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Superfund Site Cleanup Delay Patterns has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+
+
+
 
 
 

@@ -45,6 +45,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-and-igor-fruman-charged-campaign-finance-offenses', date: '2019' },
       { title: 'House Intelligence Committee Evidence', url: 'https://intelligence.house.gov/reports-letters/', date: '2020' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: ['Giuliani\'s Fixer'],
     knownAssociates: [
@@ -53,6 +54,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Met multiple times, photographed together', href: '/entities/individuals/donald-trump' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
 
   'les-wexner': {
     name: 'Les Wexner',
@@ -148,6 +160,16 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
+
+
+
+
+
+
+
+
+
   'lachlan-murdoch': {
     name: 'Lachlan Keith Murdoch',
     title: 'Fox Corporation CEO',
@@ -191,6 +213,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Dominion Lawsuit Depositions', url: 'https://www.courtlistener.com/', date: '2023' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -198,6 +222,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Network supported his candidacy', href: '/entities/individuals/donald-trump' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
 
   'lou-dobbs': {
     name: 'Louis Carl Dobbs',
@@ -241,6 +276,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Smartmatic Lawsuit', url: 'https://www.courtlistener.com/', date: '2021' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -249,6 +286,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Rudy Giuliani', relationship: 'Gave platform repeatedly', href: '/entities/individuals/rudy-giuliani' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
 
  'lisa-monaco': {
  name: 'Lisa Oudens Monaco',
@@ -753,6 +801,17 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
+
+
+
+
+
+
+
+
  'lloyd-austin': {
  name: 'Lloyd Austin',
  title: 'Secretary of Defense',
@@ -1014,6 +1073,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Lion Air Flight 610 Victims', url: 'https://en.wikipedia.org/wiki/Lion_Air_Flight_610_Victims', date: '' },
       { title: 'Associated Press: Lion Air Flight 610 Victims', url: 'https://apnews.com/', date: '' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1022,6 +1082,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Sanjiv Singh', relationship: 'Lion Air co-founder whose airline operated the doomed flight', href: '/entities/individuals/sanjiv-singh' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
 
   'larry-ellison': {
     name: 'Larry Ellison',

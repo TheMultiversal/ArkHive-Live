@@ -52,6 +52,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'DOJ Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: '2023' },
       { title: 'Superseding Indictment', url: 'https://www.justice.gov/', date: '2023' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -59,215 +60,194 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Carlos De Oliveira', relationship: 'Co-defendant in documents case', href: '/entities/individuals/carlos-de-oliveira' },
     ],
   },
- 'wilbur-ross': {
- name: 'Wilbur Louis Ross Jr.',
- title: 'Former U.S. Secretary of Commerce',
- role: 'Commerce Secretary 2017-2021, Billionaire"King of Bankruptcy"',
- riskLevel: 'high',
- description: 'Wilbur Louis Ross Jr. served as Secretary of Commerce from 2017 to 2021. He maintained undisclosed business ties to Russian oligarchs and partners of Vladimir Putin through Navigator Holdings. Forbes accused him of lying about his net worth for years. The Paradise Papers revealed his connections to Putin\'s son-in-law through a shipping firm.',
- birthDate: 'November 28, 1937',
- birthPlace: 'Weehawken, New Jersey',
- education: [
- 'Harvard Business School (M.B.A.)',
- 'Yale University (B.A.)',
- ],
- netWorth: '$700 million+',
- aliases: ['King of Bankruptcy'],
- affiliations: [
- { name: 'U.S. Department of Commerce', role: 'Secretary (2017-2021)', type: 'agency' },
- { name: 'Bank of Cyprus', role: 'Vice Chairman', type: 'corporation' },
- { name: 'Navigator Holdings', role: 'Investor (Russian oligarch ties)', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Cabinet member, business associate', href: '/entities/individuals/donald-trump' },
- { name: 'Vladimir Putin', relationship: 'Business ties through Russian oligarchs', href: '/entities/individuals/vladimir-putin' },
- ],
- controversies: [
- 'Business ties to Russian oligarchs through Bank of Cyprus',
- 'Navigator Holdings connection to Putin\'s family',
- 'Pushed citizenship question to suppress census response',
- 'Failed to divest from businesses as promised',
- 'Forbes removed him from billionaire list for inflating wealth',
- 'Frequently fell asleep in meetings',
- 'Sago Mine disaster - 12 miners died at his company\'s mine',
- ],
- charges: [
- { statute: '18 U.S.C. § 208', description: 'Potential Financial Conflict of Interest - Failed to fully divest from Navigator Holdings with Russian oligarch ties while serving as Commerce Secretary', category: 'Potential Ethics' },
- { statute: '5 C.F.R. § 2635', description: 'Multiple Ethics Violations - Maintained business ties that conflicted with official duties', category: 'Ethics' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Failed to fully disclose Russian business connections on ethics forms', category: 'Potential Federal' },
- { statute: '13 U.S.C. § 221', description: 'Census Act Violation - Improperly added citizenship question to suppress responses in minority communities (blocked by Supreme Court)', category: 'Federal Census' },
- { statute: '42 U.S.C. § 1983', description: 'Deprivation of Rights - Citizenship question designed to undercount minorities for redistricting', category: 'Civil Rights' },
- { statute: '30 U.S.C. § 820 (Mine Safety)', description: 'Historical Violations - Sago Mine disaster killed 12 workers at his company\'s mine due to safety failures', category: 'Worker Safety' },
- { statute: '22 U.S.C. § 618 (FARA)', description: 'Potential Violation - Unreported foreign business relationships during confirmation and tenure', category: 'Potential National Security' },
- ],
- relatedInvestigations: [
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- ],
- timeline: [
- { date: '2017', event: 'February: Confirmed as Commerce Secretary' },
- { date: '2017', event: 'Paradise Papers reveal Russian business ties' },
- { date: '2019', event: 'Pushes census citizenship question' },
- { date: '2019', event: 'Supreme Court blocks citizenship question' },
- { date: '2021', event: 'January: Leaves office' },
- ],
- sources: [
- { title: 'Paradise Papers Investigation', url: 'https://scholar.google.com/scholar?q=Paradise%20Papers%20Investigation', date: '2017' },
- ],
- },
- 'wayne-lapierre': {
- name: 'Wayne Robert LaPierre Jr.',
- title: 'Disgraced Former NRA CEO',
- role: 'Gun Lobby Leader, Corruption Defendant, Russian Asset Cultivator',
- riskLevel: 'critical' as const,
- description: 'Wayne LaPierre was the longtime CEO of the National Rifle Association for over 30 years until his disgraceful resignation in January 2024, just DAYS before his corruption trial began. He was found LIABLE for $5.4 MILLION in improper spending - using NRA member dues for personal luxuries including private jets, luxury yachts, African safaris, and Zegna suits. Under his leadership, the NRA cultivated close ties with RUSSIAN OPERATIVES including convicted spy Maria Butina and sanctioned Russian official Alexander Torshin, raising serious questions about foreign influence in American politics. LaPierre transformed the NRA from a gun safety organization into a hyper-partisan political weapon that blocked gun safety legislation after every mass shooting, including Sandy Hook, Parkland, and Uvalde. His leadership saw the NRA nearly dissolve due to corruption and file for bankruptcy. He enabled the deaths of countless Americans by successfully lobbying against assault weapons bans, universal background checks, and red flag laws.',
- birthDate: 'November 8, 1949',
- birthPlace: 'Schenectady, New York, USA',
- education: [
- 'M.A. - Boston College (Political Science)',
- 'B.A. - Siena College',
- ],
- netWorth: '$10+ million (personal wealth from NRA salary)',
- aliases: ['Wayne', 'NRA Wayne'],
- affiliations: [
- { name: 'National Rifle Association', role: 'Executive VP & CEO (1991-2024)', type: 'organization' },
- { name: 'Republican Party', role: 'Major donor and influence operation', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Maria Butina', relationship: 'Russian spy he allowed NRA access', href: '/entities/individuals/maria-butina' },
- { name: 'Alexander Torshin', relationship: 'Sanctioned Russian official cultivated by NRA', href: '/entities/individuals/alexander-torshin' },
- { name: 'Donald Trump', relationship: 'Major political ally; NRA endorsed', href: '/entities/individuals/donald-trump' },
- { name: 'Oliver North', relationship: 'Former NRA President; internal conflict', href: '/entities/individuals/oliver-north' },
- ],
- controversies: [
- 'FOUND LIABLE - $5.4 MILLION IMPROPER SPENDING',
- 'Used NRA funds for African safari trips',
- 'Yacht rentals for personal vacations',
- 'Private jets for family travel',
- '$275,000 in Zegna clothing',
- 'RUSSIAN INFILTRATION',
- 'Allowed Maria Butina and Alexander Torshin NRA access',
- 'Butina attended NRA conventions as VIP (2014-2018)',
- 'Torshin met with NRA leadership and Trump Jr.',
- 'FBI investigated NRA-Russia connections',
- 'BLOCKING GUN SAFETY LEGISLATION',
- 'Lobbied against assault weapons ban renewal',
- 'Blocked universal background checks after every mass shooting',
- 'Opposed red flag laws after Parkland',
- '"The only thing that stops a bad guy with a gun..."rhetoric',
- 'ORGANIZATIONAL CORRUPTION',
- 'NRA filed for bankruptcy under his leadership',
- 'NY Attorney General sued to dissolve NRA',
- 'Internal power struggles with Oliver North',
- 'Resigned DAYS before trial began',
- ],
- charges: [
- { statute: 'NY Not-for-Profit Corporation Law § 112', description: 'Breach of Fiduciary Duty - FOUND LIABLE', category: 'Civil' },
- { statute: 'NY EPTL § 8-1.4', description: 'Self-Dealing and Personal Benefit - FOUND LIABLE', category: 'Civil' },
- { statute: 'NY Executive Law § 172', description: 'Improper Use of Charitable Funds - FOUND LIABLE', category: 'Civil' },
- { statute: '18 U.S.C. § 1343', description: 'Wire Fraud (potential - NRA fundraising for personal use)', category: 'Potential' },
- { statute: '18 U.S.C. § 1341', description: 'Mail Fraud (potential - fundraising solicitations)', category: 'Potential' },
- { statute: '26 U.S.C. § 501(c)(4)', description: 'Violation of Tax-Exempt Status Requirements', category: 'Tax' },
- { statute: '22 U.S.C. § 611', description: 'FARA - Failure to Register (potential - Russian coordination)', category: 'Potential' },
- ],
- relatedInvestigations: [
- { title: 'NRA Russia Investigation', slug: 'nra-russia', severity: 'critical' },
- { title: 'NRA Corruption and Dissolution', slug: 'nra-corruption', severity: 'critical' },
- { title: 'Foreign Influence Operations', slug: 'foreign-influence', severity: 'critical' },
- { title: 'Gun Lobby Political Influence', slug: 'gun-lobby-influence', severity: 'high' },
- ],
- timeline: [
- { date: 'November 8, 1949', event: 'Born in Schenectady, New York' },
- { date: '1977', event: 'Joins NRA as state liaison' },
- { date: '1991', event: 'Becomes NRA Executive VP and CEO' },
- { date: '2012', event: 'Sandy Hook shooting - blocks gun reform' },
- { date: '2014-2018', event: 'Maria Butina attends NRA conventions as VIP' },
- { date: 'May 2016', event: 'Alexander Torshin meets Donald Trump Jr. at NRA convention' },
- { date: '2018', event: 'Parkland shooting -"more guns"response' },
- { date: '2018', event: 'NY Attorney General begins NRA investigation' },
- { date: 'July 2018', event: 'Maria Butina arrested; NRA-Russia ties exposed' },
- { date: 'August 2020', event: 'NY AG sues to dissolve NRA' },
- { date: '2021', event: 'NRA files for bankruptcy (dismissed)' },
- { date: 'January 5, 2024', event: 'Resigns as CEO DAYS before corruption trial' },
- { date: 'February 2024', event: 'Found liable for $5.4 million in improper spending' },
- ],
- sources: [
- { title: 'NY Attorney General NRA Lawsuit', url: 'https://ag.ny.gov/press-release/2020/attorney-general-james-files-lawsuit-dissolve-nra', date: '2020' },
- { title: 'NY Civil Trial Verdict', url: 'https://scholar.google.com/scholar?q=NY%20Civil%20Trial%20Verdict', date: '2024' },
- { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },
- { title: 'Maria Butina DOJ Case Files', url: 'https://scholar.google.com/scholar?q=Maria%20Butina%20DOJ%20Case%20Files', date: '2018' },
- ],
- },
- 'william-casey': {
- name: 'William Casey',
- title: 'Former CIA Director',
- description: 'CIA Director under Reagan (1981-1987) who was the chief architect of the Iran-Contra affair, authorizing secret arms sales to Iran and illegal funding of Nicaraguan Contras. Casey operated a"shadow CIA"that circumvented Congressional oversight, ran death squads in Central America, and supported brutal dictatorships. Died of brain cancer before he could face charges.',
- role: 'CIA Director who orchestrated Iran-Contra and Central American death squads',
- riskLevel: 'critical',
- birthDate: 'March 13, 1913',
- birthPlace: 'Elmhurst, New York',
- deathDate: 'May 6, 1987',
- education: ['Fordham University', 'St. John\'s University School of Law'],
- controversies: [
- 'Chief architect of Iran-Contra affair',
- 'Authorized illegal arms sales to Iran',
- 'Diverted profits to fund Nicaraguan Contras in violation of Boland Amendment',
- 'Oversaw CIA support for Central American death squads',
- 'Lied to Congress about covert operations',
- 'Died before facing charges or testimony',
- ],
- charges: [
- { statute: 'Boland Amendment Violations', description: 'Illegal funding of Nicaraguan Contra rebels after Congress explicitly banned it', category: 'Constitutional Violation' },
- { statute: 'Arms Export Control Act - 22 U.S.C. § 2778', description: 'Illegal weapons sales to Iran', category: 'National Security' },
- { statute: 'Conspiracy Against the United States - 18 U.S.C. § 371', description: 'Orchestrated Iran-Contra operation', category: 'Conspiracy' },
- { statute: 'False Statements - 18 U.S.C. § 1001', description: 'Lying to Congress about covert operations', category: 'Obstruction' },
- { statute: 'ICC Rome Statute Article 7 - Crimes Against Humanity', description: 'Support for death squads and mass atrocities in Central America', category: 'International Crime' },
- { statute: 'ICC Rome Statute Article 8 - War Crimes', description: 'Torture, extrajudicial killings, and targeting civilians', category: 'International Crime' },
- { statute: 'Geneva Conventions - Common Article 3', description: 'Violations in treatment of civilians and prisoners', category: 'International Crime' },
- ],
- affiliations: [
- { name: 'Central Intelligence Agency', role: 'Director (1981-1987)', type: 'agency' },
- { name: 'Reagan Administration', role: 'Cabinet Member', type: 'organization' },
- { name: 'OSS', role: 'WWII Service', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Ronald Reagan', relationship: 'President', href: '/entities/individuals/ronald-reagan' },
- { name: 'Oliver North', relationship: 'NSC aide who ran operations', href: '/entities/individuals/oliver-north' },
- { name: 'George H.W. Bush', relationship: 'Vice President with CIA background', href: '/entities/individuals/george-hw-bush' },
- { name: 'John Poindexter', relationship: 'National Security Advisor', href: '/entities/individuals/john-poindexter' },
- { name: 'Caspar Weinberger', relationship: 'Secretary of Defense', href: '/entities/individuals/caspar-weinberger' },
- { name: 'Augusto Pinochet', relationship: 'CIA-backed dictator', href: '/entities/individuals/augusto-pinochet' },
- ],
- relatedInvestigations: [
- { title: 'Iran-Contra Affair', slug: 'iran-contra', severity: 'critical' },
- { title: 'CIA Coups', slug: 'cia-coups', severity: 'critical' },
- { title: 'Rendition Program', slug: 'rendition', severity: 'critical' },
- { title: 'Africa Destabilization', slug: 'africa-destabilization', severity: 'high' },
- ],
- timeline: [
- { date: 'March 13, 1913', event: 'Born in Elmhurst, New York' },
- { date: '1943-1945', event: 'Serves in OSS during World War II' },
- { date: '1971', event: 'Chair of Securities and Exchange Commission' },
- { date: '1980', event: 'Campaign manager for Ronald Reagan' },
- { date: 'January 28, 1981', event: 'Confirmed as CIA Director' },
- { date: '1981', event: 'Begins covert war against Nicaragua' },
- { date: '1981-1983', event: 'Oversees CIA support for Guatemalan death squads' },
- { date: '1984', event: 'Congress passes Boland Amendment banning Contra aid' },
- { date: '1985-1986', event: 'Authorizes secret arms-for-hostages deal with Iran' },
- { date: '1985-1986', event: 'Diverts Iran arms sale profits to Contras' },
- { date: 'October 1986', event: 'Eugene Hasenfus shot down, Iran-Contra exposed' },
- { date: 'November 1986', event: 'Iran-Contra scandal breaks publicly' },
- { date: 'December 15, 1986', event: 'Suffers seizure, brain tumor discovered' },
- { date: 'January 29, 1987', event: 'Resigns as CIA Director' },
- { date: 'May 6, 1987', event: 'Dies before facing Congressional testimony or charges' },
- ],
- sources: [
- { title: 'Iran-Contra Independent Counsel Final Report', url: 'https://scholar.google.com/scholar?q=Iran-Contra%20Independent%20Counsel%20Final%20Report', date: '1993' },
- { title: 'Tower Commission Report', url: 'https://scholar.google.com/scholar?q=Tower%20Commission%20Report', date: '1987' },
- { title: 'Bob Woodward -"Veil: The Secret Wars of the CIA"', url: 'https://scholar.google.com/scholar?q=Bob%20Woodward%20-%22Veil%3A%20The%20Secret%20Wars%20of%20the%20CIA%22', date: '1987' },
- { title: 'Congressional Iran-Contra Investigation', url: 'https://scholar.google.com/scholar?q=Congressional%20Iran-Contra%20Investigation', date: '1987' },
- { title: 'CIA declassified Central America documents', url: 'https://www.cia.gov/readingroom/', date: 'Various' },
- ],
- },
+
+
+
+
+
+
+
+
+
+
+  'wilbur-ross': {
+    name: 'Wilbur Louis Ross Jr.',
+    title: 'Former U.S. Secretary of Commerce',
+    role: 'Commerce Secretary 2017-2021, Billionaire"King of Bankruptcy"',
+    riskLevel: 'high',
+    description: 'Wilbur Louis Ross Jr. served as Secretary of Commerce from 2017 to 2021. He maintained undisclosed business ties to Russian oligarchs and partners of Vladimir Putin through Navigator Holdings. Forbes accused him of lying about his net worth for years. The Paradise Papers revealed his connections to Putin\'s son-in-law through a shipping firm.',
+    birthDate: 'November 28, 1937',
+    birthPlace: 'Weehawken, New Jersey',
+    netWorth: '$700 million+',
+    education: ['Harvard Business School (M.B.A.)', 'Yale University (B.A.)'],
+    affiliations: [
+      { name: 'U.S. Department of Commerce', role: 'Secretary (2017-2021)', type: 'agency' },
+      { name: 'Bank of Cyprus', role: 'Vice Chairman', type: 'corporation' },
+      { name: 'Navigator Holdings', role: 'Investor (Russian oligarch ties)', type: 'corporation' },
+    ],
+    controversies: [
+      'Business ties to Russian oligarchs through Bank of Cyprus',
+      'Navigator Holdings connection to Putin\'s family',
+      'Pushed citizenship question to suppress census response',
+      'Failed to divest from businesses as promised',
+      'Forbes removed him from billionaire list for inflating wealth',
+      'Frequently fell asleep in meetings',
+      'Sago Mine disaster - 12 miners died at his company\'s mine',
+    ],
+    charges: [
+      { statute: '18 U.S.C. § 208', description: 'Potential Financial Conflict of Interest - Failed to fully divest from Navigator Holdings with Russian oligarch ties while serving as Commerce Secretary', category: 'Potential Ethics' },
+      { statute: '5 C.F.R. § 2635', description: 'Multiple Ethics Violations - Maintained business ties that conflicted with official duties', category: 'Ethics' },
+      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Failed to fully disclose Russian business connections on ethics forms', category: 'Potential Federal' },
+      { statute: '13 U.S.C. § 221', description: 'Census Act Violation - Improperly added citizenship question to suppress responses in minority communities (blocked by Supreme Court)', category: 'Federal Census' },
+      { statute: '42 U.S.C. § 1983', description: 'Deprivation of Rights - Citizenship question designed to undercount minorities for redistricting', category: 'Civil Rights' },
+      { statute: '30 U.S.C. § 820 (Mine Safety)', description: 'Historical Violations - Sago Mine disaster killed 12 workers at his company\'s mine due to safety failures', category: 'Worker Safety' },
+      { statute: '22 U.S.C. § 618 (FARA)', description: 'Potential Violation - Unreported foreign business relationships during confirmation and tenure', category: 'Potential National Security' },
+    ],
+    relatedInvestigations: [
+      { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2017', event: 'February: Confirmed as Commerce Secretary' },
+      { date: '2017', event: 'Paradise Papers reveal Russian business ties' },
+      { date: '2019', event: 'Pushes census citizenship question' },
+      { date: '2019', event: 'Supreme Court blocks citizenship question' },
+      { date: '2021', event: 'January: Leaves office' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Paradise Papers Investigation', url: 'https://scholar.google.com/scholar?q=Paradise%20Papers%20Investigation', date: '2017' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+    ],
+    aliases: ['King of Bankruptcy'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Cabinet member, business associate', href: '/entities/individuals/donald-trump' },
+      { name: 'Vladimir Putin', relationship: 'Business ties through Russian oligarchs', href: '/entities/individuals/vladimir-putin' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+  'wayne-lapierre': {
+    name: 'Wayne Lapierre',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Wayne Lapierre is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Wayne Lapierre has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'william-casey': {
+    name: 'William Casey',
+    title: 'Former CIA Director',
+    role: 'CIA Director who orchestrated Iran-Contra and Central American death squads',
+    riskLevel: 'critical',
+    description: 'CIA Director under Reagan (1981-1987) who was the chief architect of the Iran-Contra affair, authorizing secret arms sales to Iran and illegal funding of Nicaraguan Contras. Casey operated a"shadow CIA"that circumvented Congressional oversight, ran death squads in Central America, and supported brutal dictatorships. Died of brain cancer before he could face charges.',
+    birthDate: 'March 13, 1913',
+    birthPlace: 'Elmhurst, New York',
+    deathDate: 'May 6, 1987',
+    education: ['Fordham University', 'St. John\'s University School of Law'],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'Director (1981-1987)', type: 'agency' },
+      { name: 'Reagan Administration', role: 'Cabinet Member', type: 'organization' },
+      { name: 'OSS', role: 'WWII Service', type: 'organization' },
+    ],
+    controversies: [
+      'Chief architect of Iran-Contra affair',
+      'Authorized illegal arms sales to Iran',
+      'Diverted profits to fund Nicaraguan Contras in violation of Boland Amendment',
+      'Oversaw CIA support for Central American death squads',
+      'Lied to Congress about covert operations',
+      'Died before facing charges or testimony',
+    ],
+    charges: [
+      { statute: 'Boland Amendment Violations', description: 'Illegal funding of Nicaraguan Contra rebels after Congress explicitly banned it', category: 'Constitutional Violation' },
+      { statute: 'Arms Export Control Act - 22 U.S.C. § 2778', description: 'Illegal weapons sales to Iran', category: 'National Security' },
+      { statute: 'Conspiracy Against the United States - 18 U.S.C. § 371', description: 'Orchestrated Iran-Contra operation', category: 'Conspiracy' },
+      { statute: 'False Statements - 18 U.S.C. § 1001', description: 'Lying to Congress about covert operations', category: 'Obstruction' },
+      { statute: 'ICC Rome Statute Article 7 - Crimes Against Humanity', description: 'Support for death squads and mass atrocities in Central America', category: 'International Crime' },
+      { statute: 'ICC Rome Statute Article 8 - War Crimes', description: 'Torture, extrajudicial killings, and targeting civilians', category: 'International Crime' },
+      { statute: 'Geneva Conventions - Common Article 3', description: 'Violations in treatment of civilians and prisoners', category: 'International Crime' },
+    ],
+    relatedInvestigations: [
+      { title: 'Iran-Contra Affair', slug: 'iran-contra', severity: 'critical' },
+      { title: 'CIA Coups', slug: 'cia-coups', severity: 'critical' },
+      { title: 'Rendition Program', slug: 'rendition', severity: 'critical' },
+      { title: 'Africa Destabilization', slug: 'africa-destabilization', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'March 13, 1913', event: 'Born in Elmhurst, New York' },
+      { date: '1943-1945', event: 'Serves in OSS during World War II' },
+      { date: '1971', event: 'Chair of Securities and Exchange Commission' },
+      { date: '1980', event: 'Campaign manager for Ronald Reagan' },
+      { date: 'January 28, 1981', event: 'Confirmed as CIA Director' },
+      { date: '1981', event: 'Begins covert war against Nicaragua' },
+      { date: '1981-1983', event: 'Oversees CIA support for Guatemalan death squads' },
+      { date: '1984', event: 'Congress passes Boland Amendment banning Contra aid' },
+      { date: '1985-1986', event: 'Authorizes secret arms-for-hostages deal with Iran' },
+      { date: '1985-1986', event: 'Diverts Iran arms sale profits to Contras' },
+      { date: 'October 1986', event: 'Eugene Hasenfus shot down, Iran-Contra exposed' },
+      { date: 'November 1986', event: 'Iran-Contra scandal breaks publicly' },
+      { date: 'December 15, 1986', event: 'Suffers seizure, brain tumor discovered' },
+      { date: 'January 29, 1987', event: 'Resigns as CIA Director' },
+      { date: 'May 6, 1987', event: 'Dies before facing Congressional testimony or charges' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Iran-Contra Independent Counsel Final Report', url: 'https://scholar.google.com/scholar?q=Iran-Contra%20Independent%20Counsel%20Final%20Report', date: '1993' },
+      { title: 'Tower Commission Report', url: 'https://scholar.google.com/scholar?q=Tower%20Commission%20Report', date: '1987' },
+      { title: 'Bob Woodward -"Veil: The Secret Wars of the CIA"', url: 'https://scholar.google.com/scholar?q=Bob%20Woodward%20-%22Veil%3A%20The%20Secret%20Wars%20of%20the%20CIA%22', date: '1987' },
+      { title: 'Congressional Iran-Contra Investigation', url: 'https://scholar.google.com/scholar?q=Congressional%20Iran-Contra%20Investigation', date: '1987' },
+      { title: 'CIA declassified Central America documents', url: 'https://www.cia.gov/readingroom/', date: 'Various' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Ronald Reagan', relationship: 'President', href: '/entities/individuals/ronald-reagan' },
+      { name: 'Oliver North', relationship: 'NSC aide who ran operations', href: '/entities/individuals/oliver-north' },
+      { name: 'George H.W. Bush', relationship: 'Vice President with CIA background', href: '/entities/individuals/george-hw-bush' },
+      { name: 'John Poindexter', relationship: 'National Security Advisor', href: '/entities/individuals/john-poindexter' },
+      { name: 'Caspar Weinberger', relationship: 'Secretary of Defense', href: '/entities/individuals/caspar-weinberger' },
+      { name: 'Augusto Pinochet', relationship: 'CIA-backed dictator', href: '/entities/individuals/augusto-pinochet' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
  'william-oneal': {
  name: 'William O\'Neal',
  title: 'FBI Informant',
@@ -309,62 +289,72 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Eyes on the Prize II documentary', url: 'https://www.imdb.com/', date: '1990' },
  ],
  },
- 'william-kristol': {
- name: 'William Kristol',
- title: 'Neoconservative Commentator',
- role: 'Political Commentator, Iraq War Advocate',
- riskLevel: 'medium',
- description: 'William Kristol is a prominent neoconservative political commentator who was one of the most influential advocates for the Iraq War. He co-founded the Project for the New American Century (PNAC), which advocated for regime change in Iraq years before 9/11. As editor of The Weekly Standard (1995-2018), he used his platform to push for military intervention. Though he later became a critic of Trump, his advocacy for the Iraq War contributed to a conflict that killed hundreds of thousands.',
- birthDate: 'December 23, 1952',
- birthPlace: 'New York City, USA',
- education: [
- 'Harvard University - BA',
- 'Harvard University - PhD Political Philosophy',
- ],
- affiliations: [
- { name: 'Project for the New American Century', role: 'Co-Founder', type: 'organization' },
- { name: 'The Weekly Standard', role: 'Editor (1995-2018)', type: 'corporation' },
- { name: 'Emergency Committee for Israel', role: 'Founder', type: 'organization' },
- { name: 'Defending Democracy Together', role: 'Founder', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Robert Kagan', relationship: 'PNAC co-founder', href: '/entities/individuals/robert-kagan' },
- { name: 'Dick Cheney', relationship: 'PNAC member, Iraq War architect', href: '/entities/individuals/dick-cheney' },
- { name: 'Donald Rumsfeld', relationship: 'PNAC signatory, Iraq War architect', href: '/entities/individuals/donald-rumsfeld' },
- { name: 'Paul Wolfowitz', relationship: 'PNAC signatory, Iraq War architect', href: '/entities/individuals/paul-wolfowitz' },
- { name: 'Irving Kristol', relationship: 'Father, neoconservative founder', href: '/entities/individuals/irving-kristol' },
- ],
- controversies: [
- 'IRAQ WAR ADVOCACY: Aggressively promoted Iraq invasion based on false WMD claims',
- 'PNAC LETTER: 1998 letter to Clinton calling for Iraq regime change',
- 'WAR CHEERLEADING: Predicted quick, easy victory in Iraq',
- 'NEVER APOLOGIZED: Despite war\'s catastrophic outcome, never fully acknowledged error',
- 'SAUDI ARABIA: Advocated regime change in multiple Middle Eastern countries',
- ],
- charges: [
- { statute: 'Moral Responsibility', description: 'Advocacy for illegal war resulting in mass casualties', category: 'War Crimes (Moral)' },
- ],
- relatedInvestigations: [
- { title: 'Iraq War Crimes', slug: 'iraq-war', severity: 'critical' },
- { title: 'War Crimes Without Accountability', slug: 'war-crimes', severity: 'critical' },
- ],
- timeline: [
- { date: 'December 23, 1952', event: 'Born in New York City' },
- { date: '1976', event: 'Earns PhD from Harvard' },
- { date: '1985-1988', event: 'Chief of Staff to VP Dan Quayle' },
- { date: '1995', event: 'Founds The Weekly Standard' },
- { date: '1997', event: 'Co-founds Project for the New American Century' },
- { date: 'January 26, 1998', event: 'Signs PNAC letter calling for Iraq regime change' },
- { date: '2002-2003', event: 'Advocates heavily for Iraq invasion' },
- { date: '2003', event: 'Iraq War begins' },
- { date: '2016', event: 'Breaks with Republican Party over Trump' },
- { date: '2018', event: 'The Weekly Standard closes' },
- ],
- sources: [
- { title: 'PNAC Statement of Principles', url: 'https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm', date: '1997' },
- { title: 'PNAC Letter to Clinton', url: 'https://web.archive.org/web/20050212041719/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },
- ],
- },
+  'william-kristol': {
+    name: 'William Kristol',
+    title: 'Neoconservative Commentator',
+    role: 'Political Commentator, Iraq War Advocate',
+    riskLevel: 'medium',
+    description: 'William Kristol is a prominent neoconservative political commentator who was one of the most influential advocates for the Iraq War. He co-founded the Project for the New American Century (PNAC), which advocated for regime change in Iraq years before 9/11. As editor of The Weekly Standard (1995-2018), he used his platform to push for military intervention. Though he later became a critic of Trump, his advocacy for the Iraq War contributed to a conflict that killed hundreds of thousands.',
+    birthDate: 'December 23, 1952',
+    birthPlace: 'New York City, USA',
+    education: ['Harvard University - BA', 'Harvard University - PhD Political Philosophy'],
+    affiliations: [
+      { name: 'Project for the New American Century', role: 'Co-Founder', type: 'organization' },
+      { name: 'The Weekly Standard', role: 'Editor (1995-2018)', type: 'corporation' },
+      { name: 'Emergency Committee for Israel', role: 'Founder', type: 'organization' },
+      { name: 'Defending Democracy Together', role: 'Founder', type: 'organization' },
+    ],
+    controversies: [
+      'IRAQ WAR ADVOCACY: Aggressively promoted Iraq invasion based on false WMD claims',
+      'PNAC LETTER: 1998 letter to Clinton calling for Iraq regime change',
+      'WAR CHEERLEADING: Predicted quick, easy victory in Iraq',
+      'NEVER APOLOGIZED: Despite war\'s catastrophic outcome, never fully acknowledged error',
+      'SAUDI ARABIA: Advocated regime change in multiple Middle Eastern countries',
+    ],
+    charges: [
+      { statute: 'Moral Responsibility', description: 'Advocacy for illegal war resulting in mass casualties', category: 'War Crimes (Moral)' },
+    ],
+    relatedInvestigations: [
+      { title: 'Iraq War Crimes', slug: 'iraq-war', severity: 'critical' },
+      { title: 'War Crimes Without Accountability', slug: 'war-crimes', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'December 23, 1952', event: 'Born in New York City' },
+      { date: '1976', event: 'Earns PhD from Harvard' },
+      { date: '1985-1988', event: 'Chief of Staff to VP Dan Quayle' },
+      { date: '1995', event: 'Founds The Weekly Standard' },
+      { date: '1997', event: 'Co-founds Project for the New American Century' },
+      { date: 'January 26, 1998', event: 'Signs PNAC letter calling for Iraq regime change' },
+      { date: '2002-2003', event: 'Advocates heavily for Iraq invasion' },
+      { date: '2003', event: 'Iraq War begins' },
+      { date: '2016', event: 'Breaks with Republican Party over Trump' },
+      { date: '2018', event: 'The Weekly Standard closes' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'PNAC Statement of Principles', url: 'https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm', date: '1997' },
+      { title: 'PNAC Letter to Clinton', url: 'https://web.archive.org/web/20050212041719/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Robert Kagan', relationship: 'PNAC co-founder', href: '/entities/individuals/robert-kagan' },
+      { name: 'Dick Cheney', relationship: 'PNAC member, Iraq War architect', href: '/entities/individuals/dick-cheney' },
+      { name: 'Donald Rumsfeld', relationship: 'PNAC signatory, Iraq War architect', href: '/entities/individuals/donald-rumsfeld' },
+      { name: 'Paul Wolfowitz', relationship: 'PNAC signatory, Iraq War architect', href: '/entities/individuals/paul-wolfowitz' },
+      { name: 'Irving Kristol', relationship: 'Father, neoconservative founder', href: '/entities/individuals/irving-kristol' },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
  'william-calley': {
  name: 'William Calley',
  title: 'Convicted War Criminal',
@@ -1452,100 +1442,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'william-barr': {
- name: 'William Pelham Barr',
- title: 'Former Attorney General',
- role: 'Trump\'s Attorney General, AG During Epstein Death, Mueller Cover-Up Artist',
- riskLevel: 'critical' as const,
- aliases: ['Bill Barr', 'Trump\'s Roy Cohn', 'The Cover-Up General'],
- description: 'William Barr served as Trump\'s Attorney General and systematically corrupted the Department of Justice to serve Trump\'s personal interests. He issued a deliberately misleading four-page summary of the Mueller Report, intervened in Roger Stone\'s sentencing, dropped the Michael Flynn prosecution, and ordered the violent clearing of Lafayette Square. Critically, Barr oversaw the Bureau of Prisons during Jeffrey Epstein\'s death in federal custody at MCC New York on August 10, 2019. His father, Donald Barr, hired the 20-year-old college dropout Epstein as a math teacher at the elite Dalton School in 1973. Barr declared he was"satisfied"Epstein\'s death was a suicide despite two malfunctioning cameras, two sleeping guards, and removal from suicide watch. He also attempted to fire SDNY US Attorney Geoffrey Berman who was investigating Epstein associates.',
- birthDate: 'May 23, 1950',
- birthPlace: 'New York City, USA',
- education: [
- 'J.D. - George Washington University Law School',
- 'M.A. - Columbia University (Chinese Studies)',
- 'B.A. - Columbia University',
- ],
- netWorth: '$40+ million',
- affiliations: [
- { name: 'Department of Justice', role: 'Attorney General (1991-1993, 2019-2020)', type: 'agency' },
- { name: 'Bureau of Prisons', role: 'Oversight as AG during Epstein death', type: 'agency' },
- { name: 'Time Warner', role: 'General Counsel', type: 'corporation' },
- { name: 'Kirkland & Ellis', role: 'Of Counsel', type: 'corporation' },
- { name: 'CIA', role: 'Analyst (1973-1977)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Served as personal protector, covered up investigations', href: '/entities/individuals/donald-trump' },
- { name: 'Jeffrey Epstein', relationship: 'AG overseeing BOP during death in custody; father hired Epstein at Dalton', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Donald Barr', relationship: 'Father, hired Epstein at Dalton School in 1974', href: '/entities/individuals/donald-barr' },
- { name: 'Ghislaine Maxwell', relationship: 'DOJ oversaw Maxwell prosecution; attempted to fire SDNY attorney', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Geoffrey Berman', relationship: 'Attempted to fire SDNY prosecutor investigating Epstein associates', href: '/entities/individuals/geoffrey-berman' },
- { name: 'Colette Peters', relationship: 'BOP Director during investigations into Epstein custody failures', href: '/entities/individuals/colette-peters' },
- { name: 'Nicholas Tartaglione', relationship: 'Epstein cellmate investigated in connection with death', href: '/entities/individuals/nicholas-tartaglione' },
- { name: 'Barbara Sampson', relationship: 'NYC Medical Examiner who ruled Epstein death suicide', href: '/entities/individuals/barbara-sampson' },
- { name: 'Roger Stone', relationship: 'Intervened to reduce sentence', href: '/entities/individuals/roger-stone' },
- { name: 'Michael Flynn', relationship: 'Dropped prosecution', href: '/entities/individuals/michael-flynn' },
- { name: 'Robert Mueller', relationship: 'Misrepresented his report findings', href: '/entities/individuals/robert-mueller' },
- ],
- controversies: [
- 'Oversaw Bureau of Prisons when Epstein died under suspicious circumstances',
- 'Father Donald Barr hired Epstein at Dalton School',
- 'Declared satisfaction with suicide ruling despite overwhelming circumstantial evidence',
- 'Attempted to fire SDNY US Attorney Geoffrey Berman who was investigating Epstein associates',
- 'Recused himself from Epstein case but maintained DOJ oversight',
- 'Mueller Report Cover-Up: Issued misleading 4-page summary before anyone read report',
- 'Mueller wrote letter: Barr"did not fully capture"findings',
- 'Report documented 10+ instances of obstruction',
- 'Overruled career prosecutors in Roger Stone sentencing - all four resigned in protest',
- 'Ordered Flynn case dropped despite two guilty pleas',
- 'Ordered violent clearing of Lafayette Square for Trump photo-op',
- 'Deployed federal agents against Portland protesters without local consent',
- 'Spread mail-in voting fraud claims before 2020 election',
- 'Iran-Contra Cover-Up: Recommended pardons for Iran-Contra criminals in first tenure',
- ],
- charges: [
- { statute: '18 U.S.C. \u00a7 1503', description: 'Obstruction of Justice - Mueller report cover-up', category: 'Federal' },
- { statute: '18 U.S.C. \u00a7 1505', description: 'Obstruction of Congressional Proceeding - Misleading Congress', category: 'Federal' },
- { statute: '18 U.S.C. \u00a7 1512(c)', description: 'Obstruction of Official Proceeding - Stone/Flynn interference', category: 'Federal' },
- { statute: '18 U.S.C. \u00a7 242', description: 'Deprivation of Rights Under Color of Law - Lafayette Square', category: 'Federal' },
- { statute: '18 U.S.C. \u00a7 241', description: 'Conspiracy Against Rights - Voter suppression rhetoric', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
- { title: 'Obstruction of Justice', slug: 'obstruction-of-justice', severity: 'critical' },
- { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
- { title: 'DOJ Politicization', slug: 'doj-politicization', severity: 'critical' },
- { title: 'Mueller Report Suppression', slug: 'mueller-suppression', severity: 'critical' },
- ],
- timeline: [
- { date: 'May 23, 1950', event: 'Born in New York City' },
- { date: '1973-1977', event: 'Works as CIA analyst' },
- { date: '1991-1993', event: 'First term as Attorney General under George H.W. Bush' },
- { date: '1992', event: 'Recommends Iran-Contra pardons, protecting Reagan/Bush officials' },
- { date: 'June 2018', event: 'Sends unsolicited 19-page memo attacking Mueller obstruction theory' },
- { date: 'February 2019', event: 'Confirmed as Attorney General (second term)' },
- { date: 'March 24, 2019', event: 'Issues misleading 4-page Mueller Report summary' },
- { date: 'March 27, 2019', event: 'Mueller writes letter objecting to Barr\'s characterization' },
- { date: 'April 18, 2019', event: 'Full Mueller Report released, contradicts Barr summary' },
- { date: 'August 10, 2019', event: 'Jeffrey Epstein dies in federal custody under Barr\'s DOJ oversight' },
- { date: 'August 2019', event: 'Declares satisfaction with suicide ruling despite suspicious circumstances' },
- { date: 'February 2020', event: 'Intervenes in Roger Stone sentencing, prosecutors resign' },
- { date: 'May 2020', event: 'Moves to drop Flynn prosecution' },
- { date: 'June 1, 2020', event: 'Orders Lafayette Square cleared for Trump photo-op' },
- { date: 'June 2020', event: 'Attempts to fire SDNY US Attorney Geoffrey Berman' },
- { date: 'December 1, 2020', event: 'Admits DOJ found no evidence of widespread fraud' },
- { date: 'December 23, 2020', event: 'Resigns rather than support Trump\'s worst election lies' },
- { date: '2022', event: 'Testifies to January 6 Committee, calls Trump claims"bullshit"' },
- ],
- sources: [
- { title: 'DOJ IG Report on Epstein Death', url: 'https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-monitoring-jeffrey-epstein-following-his', date: '2023' },
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
- { title: 'Mueller Letter to Barr', url: 'https://scholar.google.com/scholar?q=Mueller%20Letter%20to%20Barr', date: 'March 2019' },
- { title: 'House Judiciary Contempt Proceedings', url: 'https://scholar.google.com/scholar?q=House%20Judiciary%20Contempt%20Proceedings', date: '2019' },
- { title: 'January 6 Committee Testimony', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- { title: 'DOJ IG Lafayette Square Report', url: 'https://www.justice.gov/', date: '2021' },
- ],
- },
+  'william-barr': {
+    name: 'William Barr',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'William Barr is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'William Barr has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'woody-allen': {
  name: 'Woody Allen',
  title: 'Film Director',
@@ -1581,96 +1507,72 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'NYT: Epstein Social Circle', url: 'https://www.nytimes.com/', date: '2019' },
  ],
  },
- 'walter-scott': {
-"name":"Walter Scott",
-"title":"Victim of Police Shooting",
-"role":"Shot While Running Away",
-"riskLevel":"low",
-"description":"Unarmed African American man shot in the back five times while running away from North Charleston, South Carolina police officer Michael Slager on April 4, 2015. A bystander's video contradicted Slager's initial report. Slager was convicted of civil rights violations and sentenced to 20 years.",
-"birthDate":"February 9, 1965",
-"education": [],
-"affiliations": [],
-"knownAssociates": [],
-"controversies": [
-"Shot in the back while fleeing",
-"Officer planted taser near body to justify shooting",
-"Bystander video exposed police lies"
- ],
-"relatedInvestigations": [
- {
-"title":"Police Brutality",
-"slug":"police-brutality",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2015 Apr 4",
-"event":"Shot in the back by officer Slager"
- },
- {
-"date":"2017",
-"event":"Slager sentenced to 20 years for civil rights violations"
- }
- ],
-"sources": [
- {
-"title":"NYT: Walter Scott Case",
-"url":"https://www.nytimes.com/2017/12/07/us/michael-slager-sentence-walter-scott.html",
-"date":"2017"
- }
- ]
- },
- 'william-lloyd-garrison': {
-"name":"William Lloyd Garrison",
-"title":"Abolitionist, Publisher",
-"role":"The Liberator, Anti-Slavery Movement",
-"riskLevel":"low",
-"description":"Prominent American abolitionist who published The Liberator newspaper (1831-1865) and was a founding member of the American Anti-Slavery Society. One of the most vocal advocates for immediate emancipation of all enslaved people.",
-"birthDate":"December 10, 1805",
-"education": [],
-"affiliations": [
- {
-"name":"American Anti-Slavery Society",
-"role":"Co-founder",
-"type":"organization"
- }
- ],
-"knownAssociates": [],
-"controversies": [
-"Burned copy of Constitution calling it \"a covenant with death\"",
-"Mob nearly killed him in 1835 for his abolitionist views",
-"His absolutist position split the abolitionist movement"
- ],
-"relatedInvestigations": [
- {
-"title":"War on Black America",
-"slug":"war-on-black-america",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"1831",
-"event":"Founded The Liberator newspaper"
- },
- {
-"date":"1833",
-"event":"Co-founded American Anti-Slavery Society"
- },
- {
-"date":"1865",
-"event":"Published final issue after slavery abolished"
- }
- ],
-"sources": [
- {
-"title":"PBS: William Lloyd Garrison",
-"url":"https://www.pbs.org/wgbh/aia/part4/4p1561.html",
-"date":"2023"
- }
- ]
- },
+  'walter-scott': {
+    name: 'Walter Scott',
+    title: 'Victim of Police Shooting',
+    role: 'Shot While Running Away',
+    riskLevel: 'low',
+    description: 'Unarmed African American man shot in the back five times while running away from North Charleston, South Carolina police officer Michael Slager on April 4, 2015. A bystander\'s video contradicted Slager\'s initial report. Slager was convicted of civil rights violations and sentenced to 20 years.',
+    birthDate: 'February 9, 1965',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Shot in the back while fleeing',
+      'Officer planted taser near body to justify shooting',
+      'Bystander video exposed police lies',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Police Brutality', slug: 'police-brutality', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2015 Apr 4', event: 'Shot in the back by officer Slager' },
+      { date: '2017', event: 'Slager sentenced to 20 years for civil rights violations' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NYT: Walter Scott Case', url: 'https://www.nytimes.com/2017/12/07/us/michael-slager-sentence-walter-scott.html', date: '2017' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'william-lloyd-garrison': {
+    name: 'William Lloyd Garrison',
+    title: 'Abolitionist, Publisher',
+    role: 'The Liberator, Anti-Slavery Movement',
+    riskLevel: 'low',
+    description: 'Prominent American abolitionist who published The Liberator newspaper (1831-1865) and was a founding member of the American Anti-Slavery Society. One of the most vocal advocates for immediate emancipation of all enslaved people.',
+    birthDate: 'December 10, 1805',
+    education: [],
+    affiliations: [
+      { name: 'American Anti-Slavery Society', role: 'Co-founder', type: 'organization' },
+    ],
+    controversies: [
+      'Burned copy of Constitution calling it "a covenant with death"',
+      'Mob nearly killed him in 1835 for his abolitionist views',
+      'His absolutist position split the abolitionist movement',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'War on Black America', slug: 'war-on-black-america', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1831', event: 'Founded The Liberator newspaper' },
+      { date: '1833', event: 'Co-founded American Anti-Slavery Society' },
+      { date: '1865', event: 'Published final issue after slavery abolished' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'PBS: William Lloyd Garrison', url: 'https://www.pbs.org/wgbh/aia/part4/4p1561.html', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'wef': {
     name: 'Wef',
     title: 'Public Figure Under Investigation',

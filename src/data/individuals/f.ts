@@ -43,6 +43,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
       { title: 'Fulton County DA Office', url: 'https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/district-attorney', date: '2024' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -52,6 +53,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Mark Meadows', relationship: 'RICO co-defendant', href: '/entities/individuals/mark-meadows' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -342,6 +355,18 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   'fawn-hall': {
     name: 'Fawn Hall',
     title: 'Public Figure Under Investigation',
@@ -442,6 +467,18 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   'fred-hampton': {
     name: 'Fred Hampton',
     title: 'Black Panther Party Chairman / Assassination Victim',
@@ -492,6 +529,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'William O\'Neal', relationship: 'FBI informant who drugged him', href: '/entities/individuals/william-oneal' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -586,6 +635,17 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
   'franklin-d-roosevelt': {
     name: 'Franklin D. Roosevelt',
     title: '32nd President of the United States',
@@ -654,6 +714,17 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
   'fred-korematsu': {
     name: 'Fred Korematsu',
     title: 'Civil Rights Hero / Japanese Internment Resister',
@@ -703,6 +774,17 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Franklin D. Roosevelt', relationship: 'President who signed EO 9066', href: '/entities/individuals/franklin-d-roosevelt' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
 
 
 

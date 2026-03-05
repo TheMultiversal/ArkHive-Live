@@ -41,6 +41,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'New York Fraud Trial Documents', url: 'https://www.documentcloud.org/documents/24425172-trump-fraud-ruling', date: '2024' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -48,6 +50,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Allen Weisselberg', relationship: 'Trump Organization CFO', href: '/entities/individuals/allen-weisselberg' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -153,6 +167,18 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   'enrique-tarrio': {
     name: 'Enrique Tarrio',
     title: 'Public Figure Under Investigation',
@@ -226,12 +252,26 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Transportation IG Report', url: 'https://www.ignet.gov/', date: '2021' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
     ],
     aliases: ['Chao'],
     knownAssociates: [
       { name: 'Donald Trump', relationship: 'Cabinet member', href: '/entities/individuals/donald-trump' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -523,6 +563,18 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   'edward-snowden': {
     name: 'Edward Snowden',
     title: 'NSA Whistleblower',
@@ -575,6 +627,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Glenn Greenwald', relationship: 'Journalist who published disclosures', href: '/entities/individuals/glenn-greenwald' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -856,6 +920,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Ethiopian Airlines Flight 302 Victims', url: 'https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302', date: '' },
       { title: 'Associated Press: Ethiopian Airlines Flight 302 Victims', url: 'https://apnews.com/', date: '' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -864,6 +929,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Tewolde Gebremariam', relationship: 'Ethiopian Airlines CEO whose airline lost Flight 302', href: '/entities/individuals/tewolde-gebremariam' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

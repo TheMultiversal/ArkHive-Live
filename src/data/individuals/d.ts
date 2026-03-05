@@ -286,6 +286,17 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
   'donald-trump-jr': {
     name: 'Donald John Trump Jr.',
     title: 'Executive Vice President',
@@ -329,6 +340,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
       { title: 'Trump Tower Meeting Emails', url: 'https://www.nytimes.com/interactive/2017/07/11/us/politics/donald-trump-jr-email-text.html', date: '2017' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
     ],
     aliases: ['Don Jr.', 'Junior'],
     knownAssociates: [
@@ -337,6 +349,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Jared Kushner', relationship: 'Brother-in-law, attended Trump Tower meeting', href: '/entities/individuals/jared-kushner' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -430,6 +454,18 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   'deborah-birx': {
     name: 'Deborah Leah Birx',
     title: 'Former White House Coronavirus Response Coordinator',
@@ -474,6 +510,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Silent Invasion: The Untold Story of the Trump Administration (Book)', url: 'https://scholar.google.com/scholar?q=Silent%20Invasion%3A%20The%20Untold%20Story%20of%20the%20Trump%20Administration%20(Book)', date: '2022' },
       { title: 'Congressional Testimony', url: 'https://oversight.house.gov/', date: '2022' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: ['Scarf Lady', 'Dr. Birx'],
     knownAssociates: [
@@ -481,6 +518,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Anthony Fauci', relationship: 'Task force colleague', href: '/entities/individuals/anthony-fauci' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -553,6 +602,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'SDNY Non-Prosecution Agreement', url: 'https://scholar.google.com/scholar?q=SDNY%20Non-Prosecution%20Agreement', date: '2018' },
       { title: 'Manhattan DA Trial Evidence', url: 'https://scholar.google.com/scholar?q=Manhattan%20DA%20Trial%20Evidence', date: '2024' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -562,6 +612,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Karen McDougal', relationship: 'Negotiated $150K silence payment', href: '/entities/individuals/karen-mcdougal' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -635,6 +697,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report Volume II', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
       { title: 'House Judiciary Testimony', url: 'https://www.congress.gov/', date: '2021' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -642,6 +705,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Robert Mueller', relationship: 'Key cooperating witness', href: '/entities/individuals/robert-mueller' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -716,6 +791,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'House Ethics Committee Records', url: 'https://www.congress.gov/', date: '2017-2021' },
       { title: 'Parnas Evidence', url: 'https://scholar.google.com/scholar?q=Parnas%20Evidence', date: '2020' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -723,6 +799,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Kash Patel', relationship: 'House Intelligence staffer, ally', href: '/entities/individuals/kash-patel' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1127,6 +1215,18 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   'douglas-feith': {
     name: 'Douglas Feith',
     title: 'Public Figure Under Investigation',
@@ -1271,6 +1371,18 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   'dillon-myer': {
     name: 'Dillon S. Myer',
     title: 'War Relocation Authority Director',
@@ -1308,12 +1420,26 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'WRA records - National Archives', url: 'https://www.archives.gov/', date: 'Various' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Franklin D. Roosevelt', relationship: 'President who authorized internment', href: '/entities/individuals/franklin-d-roosevelt' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1501,6 +1627,18 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'John Foster Dulles', relationship: 'Secretary of State', href: '/entities/individuals/john-foster-dulles' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

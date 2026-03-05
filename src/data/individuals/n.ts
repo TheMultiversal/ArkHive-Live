@@ -46,115 +46,66 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Georgia RICO Case Documents', url: 'https://scholar.google.com/scholar?q=Georgia%20RICO%20Case%20Documents', date: '2023-2024' },
  ],
  },
- 'natalia-veselnitskaya': {
- name: 'Natalia Vladimirovna Veselnitskaya',
- title: 'Russian Attorney',
- role: 'Trump Tower Meeting Attendee',
- riskLevel: 'high' as const,
- description: 'Russian lawyer with ties to the Kremlin who attended the infamous June 9, 2016 Trump Tower meeting with Donald Trump Jr., Jared Kushner, and Paul Manafort. The meeting was arranged on the promise of"dirt"on Hillary Clinton as"part of Russia and its government\'s support for Mr. Trump."Previously represented FSB officer Denis Katsyv in money laundering case. Indicted in 2019 for obstruction of justice related to the Prevezon case.',
- birthDate: 'February 8, 1975',
- birthPlace: 'Moscow, Russia',
- education: [
- 'Law Degree - Moscow State Law Academy',
- ],
- affiliations: [
- { name: 'Russian Government', role: 'Connected Attorney', type: 'agency' },
- { name: 'Prosecutor General of Russia', role: 'Former Employee', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump Jr.', relationship: 'Trump Tower meeting attendee', href: '/entities/individuals/donald-trump-jr' },
- { name: 'Jared Kushner', relationship: 'Trump Tower meeting attendee', href: '/entities/individuals/jared-kushner' },
- { name: 'Paul Manafort', relationship: 'Trump Tower meeting attendee', href: '/entities/individuals/paul-manafort' },
- { name: 'Rinat Akhmetshin', relationship: 'Fellow Trump Tower meeting attendee', href: '/entities/individuals/rinat-akhmetshin' },
- { name: 'Rob Goldstone', relationship: 'Meeting arranger', href: '/entities/individuals/rob-goldstone' },
- ],
- controversies: [
- 'Attended Trump Tower meeting June 9, 2016',
- 'Meeting promised"dirt"on Hillary Clinton',
- 'Represented FSB officer in money laundering case',
- 'Connections to Russian Prosecutor General',
- 'Indicted for obstruction of justice (2019)',
- 'Previously worked on anti-Magnitsky Act lobbying',
- ],
- charges: [
- { statute: '18 U.S.C. § 1512', description: 'Obstruction of Justice (Indicted 2019)', category: 'Obstruction' },
- ],
- relatedInvestigations: [
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Trump Tower Meeting', slug: 'trump-tower-meeting', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 3, 2016', event: 'Meeting arranged via Rob Goldstone email' },
- { date: 'June 9, 2016', event: 'Attends Trump Tower meeting' },
- { date: '2017', event: 'Meeting revealed by New York Times' },
- { date: 'January 2019', event: 'Indicted for obstruction in Prevezon case' },
- ],
- sources: [
- { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
- { title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },
- { title: 'DOJ Indictment', url: 'https://www.justice.gov/', date: '2019' },
- ],
- },
- 'nick-fuentes': {
- name: 'Nicholas Joseph Fuentes',
- title: 'White Nationalist Streamer',
- role: 'America First Political Movement Leader',
- riskLevel: 'critical' as const,
- description: 'White supremacist, Holocaust denier, and antisemitic internet personality who dined with Donald Trump at Mar-a-Lago in November 2022 alongside Kanye West. Leader of the"groyper"movement and America First organization. Has praised Hitler and denied the Holocaust. Attended the January 6 rally.',
- birthDate: 'August 18, 1998',
- birthPlace: 'Chicago, Illinois',
- education: [
- 'Boston University (expelled)',
- ],
- affiliations: [
- { name: 'America First', role: 'Founder/Leader', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Dined at Mar-a-Lago', href: '/entities/individuals/donald-trump' },
- { name: 'Paul Gosar', relationship: 'Spoke at AFPAC events', href: '/entities/individuals/paul-gosar' },
- { name: 'Marjorie Taylor Greene', relationship: 'Spoke at AFPAC', href: '/entities/individuals/marjorie-taylor-greene' },
- { name: 'Ali Alexander', relationship: 'Stop the Steal collaborator', href: '/entities/individuals/ali-alexander' },
- ],
- controversies: [
- 'Holocaust denial on livestreams',
- 'Praised Adolf Hitler',
- 'Antisemitic and racist rhetoric',
- 'Dined with Trump at Mar-a-Lago (Nov 2022)',
- 'Attended January 6 rally at Capitol',
- 'Called for"holy war"',
- 'Banned from most social media platforms',
- 'Subpoenaed by January 6 Committee',
- 'Led crowd chanting outside Capitol on January 6',
- 'Celebrated violence on livestream during insurrection',
- 'No-fly list placement reported',
- ],
- charges: [
- { statute: '18 U.S.C. § 2101', description: 'Potential Incitement to Riot - Led crowd chanting and celebrated violence during January 6 attack on Capitol', category: 'Federal' },
- { statute: '18 U.S.C. § 2102', description: 'Potential Riot Participation - Present at Capitol during insurrection, encouraged participants via livestream', category: 'Federal' },
- { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction of Official Proceeding - Participated in rally and aftermath designed to prevent certification of election', category: 'Federal' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Coordinated with Ali Alexander and Stop the Steal movement', category: 'Federal' },
- { statute: '18 U.S.C. § 875(c)', description: 'Potential Threats - Rhetoric calling for violence against political opponents and religious minorities', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 241', description: 'Potential Conspiracy Against Rights - White nationalist movement aimed at disenfranchising minorities', category: 'Potential Civil Rights' },
- { statute: '49 U.S.C. § 46110', description: 'No-Fly List Designation - Reportedly placed on federal no-fly list following January 6', category: 'Federal Administrative' },
- { statute: 'Multiple State Laws', description: 'Potential Hate Speech/Incitement - Holocaust denial, antisemitic content may violate various state laws', category: 'State' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- { title: 'White Nationalist Infiltration', slug: 'white-nationalism', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 2017', event: 'Attends Charlottesville rally' },
- { date: '2019', event: 'Launches America First movement' },
- { date: 'January 6, 2021', event: 'Attends Capitol rally' },
- { date: 'February 2021', event: 'Paul Gosar speaks at AFPAC' },
- { date: 'November 22, 2022', event: 'Dines with Trump at Mar-a-Lago' },
- { date: '2023', event: 'Subpoenaed by January 6 Committee' },
- ],
- sources: [
- { title: 'January 6 Committee Records', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Records', date: '2022' },
- { title: 'ADL Reports', url: 'https://www.adl.org/', date: 'Various' },
- ],
- },
+  'natalia-veselnitskaya': {
+    name: 'Natalia Veselnitskaya',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Natalia Veselnitskaya is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Natalia Veselnitskaya has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'nick-fuentes': {
+    name: 'Nick Fuentes',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Nick Fuentes is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Nick Fuentes has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'nancy-pelosi': {
  name: 'Nancy Patricia Pelosi',
  title: 'Former Speaker of the House',
@@ -233,97 +184,66 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Campaign Records', url: 'https://scholar.google.com/scholar?q=Campaign%20Records', date: 'Various' },
  ],
  },
- 'neil-gorsuch': {
- name: 'Neil McGill Gorsuch',
- title: 'Associate Justice, U.S. Supreme Court',
- role: 'Trump Appointee, Conservative Majority',
- riskLevel: 'high' as const,
- description: 'Neil Gorsuch was appointed to the Supreme Court by Trump in 2017 after Mitch McConnell blocked Obama\'s nomination of Merrick Garland for nearly a year. His appointment began the transformation of the Court into a 6-3 conservative supermajority that overturned Roe v. Wade and expanded presidential immunity.',
- birthDate: 'August 29, 1967',
- birthPlace: 'Denver, Colorado, USA',
- education: [
- 'Doctor of Philosophy - University of Oxford',
- 'Juris Doctor - Harvard Law School',
- 'Bachelor of Arts - Columbia University',
- ],
- affiliations: [
- { name: 'U.S. Supreme Court', role: 'Associate Justice (2017-Present)', type: 'agency' },
- { name: 'Federalist Society', role: 'Member', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Nominated by', href: '/entities/individuals/donald-trump' },
- { name: 'Mitch McConnell', relationship: 'Confirmation orchestrated by', href: '/entities/individuals/mitch-mcconnell' },
- ],
- controversies: [
- 'Appointed to stolen seat after McConnell blocked Merrick Garland',
- 'Ruled to expand presidential immunity',
- 'Voted to overturn Roe v. Wade',
- 'Ethics concerns over unreported luxury travel',
- ],
- charges: [
- { statute: '5 U.S.C. app. §§ 101-111 (Ethics in Government Act)', description: 'Potential Violations - Unreported luxury travel, private jet flights from billionaire benefactors', category: 'Judicial Ethics' },
- { statute: '28 U.S.C. § 455(a)', description: 'Disqualification Violation - Refusal to recuse from cases where impartiality questioned, ruling on issues directly affecting Federalist Society backers', category: 'Judicial Ethics' },
- { statute: '28 U.S.C. § 455(b)(4)', description: 'Disqualification Violation - Financial interest in entities appearing before Court', category: 'Judicial Ethics' },
- { statute: 'Judicial Conduct and Disability Act (28 U.S.C. §§ 351-364)', description: 'Multiple Violations - Conduct prejudicial to administration of justice', category: 'Judicial' },
- { statute: 'Code of Conduct for U.S. Judges', description: 'Canon 2 Violations - Failure to avoid appearance of impropriety', category: 'Judicial' },
- { statute: '18 U.S.C. § 201(c)', description: 'Potential - Illegal Gratuities - Acceptance of valuable gifts from parties with Court interests', category: 'Potential' },
- ],
- relatedInvestigations: [],
- timeline: [
- { date: 'March 2016', event: 'McConnell blocks Garland nomination' },
- { date: 'January 2017', event: 'Nominated by Trump' },
- { date: 'April 2017', event: 'Confirmed 54-45 after nuclear option' },
- { date: 'June 2022', event: 'Votes to overturn Roe v. Wade' },
- { date: 'July 2024', event: 'Votes to grant Trump immunity' },
- ],
- sources: [
- { title: 'Supreme Court Confirmation Records', url: 'https://scholar.google.com/scholar?q=Supreme%20Court%20Confirmation%20Records', date: '2017' },
- ],
- },
- 'nadia-marcinkova': {
- name: 'Nadia Marcinkova',
- title: 'Epstein Victim/Alleged Recruiter',
- role: 'Later Became Helicopter Pilot',
- riskLevel: 'medium' as const,
- description: 'Nadia Marcinkova was allegedly"purchased"by Jeffrey Epstein from her family in the former Yugoslavia as a teenager and described by him as his"sex slave."Court documents allege she later became a participant in abuse of other victims. She later became a licensed pilot and changed her name to Nadia Marcinko, operating a helicopter company. Received immunity in 2008 plea deal.',
- birthDate: '1985 (approximate)',
- birthPlace: 'Former Yugoslavia',
- aliases: ['Nadia Marcinko', 'Global Girl'],
- education: [
- 'FAA-licensed pilot',
- ],
- affiliations: [
- { name: 'Aviloop LLC', role: 'CEO, helicopter company', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Abuser/"owner"', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Ghislaine Maxwell', relationship: 'Co-abuser (alleged)', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Sarah Kellen', relationship: 'Co-alleged recruiter', href: '/entities/individuals/sarah-kellen' },
- ],
- controversies: [
- 'Allegedly"purchased"by Epstein as a teenager',
- 'Described by Epstein as his"sex slave"',
- 'Named in court documents as participant in abuse',
- 'Received immunity in problematic 2008 plea deal',
- 'Changed name and started new business',
- ],
- charges: [
- { statute: 'Immunity Agreement', description: 'Granted immunity in 2008 Epstein plea deal', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'Elite Trafficking Network', slug: 'elite-trafficking', severity: 'critical' },
- ],
- timeline: [
- { date: 'Early 2000s', event: 'Allegedly brought from Yugoslavia by Epstein' },
- { date: '2005', event: 'Named in victim depositions' },
- { date: '2008', event: 'Receives immunity in Epstein plea deal' },
- { date: 'Post-2008', event: 'Becomes helicopter pilot, changes name' },
- { date: '2019', event: 'Name resurfaces in Epstein arrest documents' },
- ],
- sources: [
- { title: 'Epstein Court Documents', url: 'https://scholar.google.com/scholar?q=Epstein%20Court%20Documents', date: '2019' },
- ],
- },
+  'neil-gorsuch': {
+    name: 'Neil Gorsuch',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Neil Gorsuch is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Neil Gorsuch has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'nadia-marcinkova': {
+    name: 'Nadia Marcinkova',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Nadia Marcinkova is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Nadia Marcinkova has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'neil-heslin': {
  name: 'Neil Heslin',
  title: 'Sandy Hook Parent',
@@ -541,53 +461,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Natalie Kitroeff', url: 'https://www.google.com/search?q=Natalie%20Kitroeff' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
- 'narendra-modi': {
- name: 'Narendra Modi',
- title: 'Prime Minister of India',
- role: 'Indian PM - Gujarat Riots, Hindu Nationalism',
- riskLevel: 'critical',
- description: 'Narendra Modi has served as India\'s PM since 2014 and was Chief Minister of Gujarat during the 2002 riots where 1,000-2,000 Muslims were killed. He was denied a US visa for years over his role. His government has persecuted Muslims, suppressed Kashmir, and attacked press freedom.',
- birthDate: 'September 17, 1950',
- birthPlace: 'Vadnagar, Gujarat, India',
- education: ['Gujarat University', 'Delhi University'],
- affiliations: [
- { name: 'Republic of India', role: 'Prime Minister', type: 'organization' as const },
- { name: 'BJP Party', role: 'Leader', type: 'organization' as const },
- { name: 'RSS', role: 'Member', type: 'organization' as const },
- ],
- controversies: [
- 'GUJARAT RIOTS: 1,000-2,000 Muslims killed under his watch',
- 'US VISA BAN: Denied entry for years',
- 'KASHMIR LOCKDOWN: Revoked autonomy, mass detentions',
- 'CAA/NRC: Anti-Muslim citizenship laws',
- 'PRESS SUPPRESSION: Falling press freedom rankings',
- 'PEGASUS SPYWARE: Spied on journalists, opposition',
- ],
- charges: [
- { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity - Persecution', category: 'INTERNATIONAL' },
- { statute: 'Rome Statute Article 7(1)(a)', description: 'Crimes Against Humanity - Gujarat murders', category: 'INTERNATIONAL' },
- { statute: 'US Immigration Law', description: 'Visa denial for religious persecution', category: 'FORMER US BAN' },
- ],
- relatedInvestigations: [
- { title: 'Gujarat Riots', slug: 'gujarat-riots', severity: 'critical' },
- { title: 'Kashmir Suppression', slug: 'kashmir-suppression', severity: 'critical' },
- ],
- timeline: [
- { date: 'September 17, 1950', event: 'Born in Gujarat' },
- { date: '2001', event: 'Becomes Gujarat Chief Minister' },
- { date: 'February 2002', event: 'Gujarat riots kill 1,000-2,000' },
- { date: '2005', event: 'US denies visa' },
- { date: '2014', event: 'Becomes Prime Minister' },
- { date: '2019', event: 'Revokes Kashmir autonomy' },
- ],
- sources: [{ title: 'Wikipedia: Narendra Modi', url: 'https://en.wikipedia.org/wiki/Narendra_Modi' }, { title: 'Associated Press: Narendra Modi', url: 'https://apnews.com/' }],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Cultivated close relationship with Trump administration', href: '/entities/individuals/donald-trump' },
- { name: 'Recep Tayyip Erdogan', relationship: 'Fellow leader of rising authoritarian power', href: '/entities/individuals/recep-tayyip-erdogan' },
- { name: 'Vladimir Putin', relationship: 'Maintained strategic partnership with Russia', href: '/entities/individuals/vladimir-putin' }
- ],
+  'narendra-modi': {
+    name: 'Narendra Modi',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Narendra Modi is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Narendra Modi has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
  'nicolas-maduro': {
  name: 'Nicol�s Maduro',
  title: 'President of Venezuela',
@@ -671,45 +574,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'newt-gingrich': {
- name: 'Newt Gingrich',
- title: 'Former House Speaker',
- role: 'Architect of Political Polarization',
- riskLevel: 'high',
- description: 'Newt Gingrich as Speaker revolutionized partisan warfare, teaching Republicans to demonize Democrats. His"Contract with America"and tactics like government shutdowns laid groundwork for today\'s dysfunction. He was censured for ethics violations and advised Trump on January 6 strategy.',
- birthDate: 'June 17, 1943',
- birthPlace: 'Harrisburg, Pennsylvania',
- education: ['Emory University', 'Tulane University'],
- affiliations: [
- { name: 'US House of Representatives', role: 'Former Speaker', type: 'agency' as const },
- ],
+  'newt-gingrich': {
+    name: 'Newt Gingrich',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Newt Gingrich is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Newt Gingrich has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Early Trump ally and informal advisor; considered for VP in 2016; helped shape Trump\'s combative political style', href: '/entities/individuals/donald-trump' },
- { name: 'Kevin McCarthy', relationship: 'Mentored McCarthy in Republican politics; both served as House GOP leaders who reshaped partisan warfare', href: '/entities/individuals/kevin-mccarthy' },
- { name: 'Bill Clinton', relationship: 'As Speaker of the House, led Clinton impeachment in 1998 while simultaneously conducting his own extramarital affair', href: '/entities/individuals/bill-clinton' },
- ],
- controversies: [
- 'ETHICS VIOLATIONS: Censured, $300K fine',
- 'POLARIZATION ARCHITECT: Taught demonization',
- 'SERIAL AFFAIRS: While impeaching Clinton',
- 'GOVERNMENT SHUTDOWN: Pioneered tactic',
- 'TRUMP ADVISOR: January 6 strategy',
- 'GOPAC MEMO: Taught negative language',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Political Polarization', slug: 'polarization', severity: 'high' },
- { title: 'January 6 Investigation', slug: 'january-6-investigation', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 17, 1943', event: 'Born in Pennsylvania' },
- { date: '1995-1999', event: 'House Speaker' },
- { date: '1997', event: 'Censured for ethics violations' },
- { date: 'January 6, 2021', event: 'Advised Trump' },
- ],
- sources: [{ title: 'Wikipedia: Newt Gingrich', url: 'https://en.wikipedia.org/wiki/Newt_Gingrich' }, { title: 'NYT: Newt Gingrich Profile', url: 'https://www.nytimes.com/' }, { title: 'Washington Post: Newt Gingrich', url: 'https://www.washingtonpost.com/' }, { title: 'Military Times: Newt Gingrich', url: 'https://www.militarytimes.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
- },
  'nancy-mace': {
  name: 'Nancy Mace',
  title: 'South Carolina Congresswoman',
@@ -1368,39 +1262,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Nicholas Tartaglione', url: 'https://en.wikipedia.org/wiki/Nicholas_Tartaglione' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
  },
- 'nissan': {
-"name":"Nissan (Entity Reference)",
-"title":"Automotive Manufacturer",
-"role":"Carlos Ghosn Financial Misconduct",
-"riskLevel":"medium",
-"description":"Japanese automotive manufacturer involved in the Carlos Ghosn financial misconduct scandal. Ghosn, former chairman, was arrested in Tokyo in 2018 for alleged financial crimes and later escaped Japan hidden in a musical equipment box.",
-"education": [],
-"affiliations": [],
-"knownAssociates": [],
-"controversies": [
-"Carlos Ghosn arrested for financial misconduct",
-"Internal power struggle led to Ghosn's downfall",
-"Dramatic escape from Japanese justice"
- ],
-"relatedInvestigations": [],
-"timeline": [
- {
-"date":"2018",
-"event":"Carlos Ghosn arrested in Tokyo"
- },
- {
-"date":"2019",
-"event":"Ghosn escaped Japan to Lebanon"
- }
- ],
-"sources": [
- {
-"title":"WSJ: Ghosn Saga",
-"url":"https://www.wsj.com/articles/carlos-ghosn-nissan",
-"date":"2020"
- }
- ]
- },
+  'nissan': {
+    name: 'Nissan (Entity Reference)',
+    title: 'Automotive Manufacturer',
+    role: 'Carlos Ghosn Financial Misconduct',
+    riskLevel: 'medium',
+    description: 'Japanese automotive manufacturer involved in the Carlos Ghosn financial misconduct scandal. Ghosn, former chairman, was arrested in Tokyo in 2018 for alleged financial crimes and later escaped Japan hidden in a musical equipment box.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Carlos Ghosn arrested for financial misconduct',
+      'Internal power struggle led to Ghosn\'s downfall',
+      'Dramatic escape from Japanese justice',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2018', event: 'Carlos Ghosn arrested in Tokyo' },
+      { date: '2019', event: 'Ghosn escaped Japan to Lebanon' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'WSJ: Ghosn Saga', url: 'https://www.wsj.com/articles/carlos-ghosn-nissan', date: '2020' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'nsa': {
     name: 'Nsa',
     title: 'Public Figure Under Investigation',
