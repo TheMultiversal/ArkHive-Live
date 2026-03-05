@@ -1932,6 +1932,17 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'berkshire-hathaway': {
+    id: '6682f6abe23e0829',
+    slug: 'berkshire-hathaway',
+    name: 'Berkshire Hathaway',
+    type: 'corporation',
+    description: 'Berkshire Hathaway is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 
