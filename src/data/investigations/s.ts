@@ -1382,6 +1382,69 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
     ],
   },
+  'subliminal-messaging-in-digital-advertising': {
+    title: 'Subliminal Messaging in Digital Advertising',
+    subtitle: 'Investigation into Subliminal Messaging in Digital Advertising',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Subliminal Messaging in Digital Advertising for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Subliminal Messaging in Digital Advertising has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+  'structured-finance-fraud-networks': {
+    title: 'Structured Finance Fraud Networks',
+    subtitle: 'Investigation into Structured Finance Fraud Networks',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Structured Finance Fraud Networks for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Structured Finance Fraud Networks has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+  'smart-home-device-surveillance-economy': {
+    title: 'Smart Home Device Surveillance Economy',
+    subtitle: 'Investigation into Smart Home Device Surveillance Economy',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Smart Home Device Surveillance Economy for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Smart Home Device Surveillance Economy has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+
+
+
 
 
 
