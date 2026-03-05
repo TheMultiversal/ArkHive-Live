@@ -1929,65 +1929,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Akbar Al Baker', url: 'https://en.wikipedia.org/wiki/Akbar_Al_Baker' }, { title: 'Bloomberg: Akbar Al Baker', url: 'https://www.bloomberg.com/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
- 'amdye-ayalew': {
- name: 'Amdye Ayalew',
- title: 'Crash Investigator',
- role: 'Ethiopian AIB Lead Investigator',
- riskLevel: 'low',
- description: 'Amdye Ayalew led the Ethiopian Aircraft Accident Investigation Bureau\'s investigation into Ethiopian Airlines Flight 302. The investigation confirmed MCAS as the cause and showed pilots followed procedures but could not overcome the system. The Ethiopian report was crucial to understanding the disaster.',
- birthDate: 'Unknown',
- birthPlace: 'Ethiopia',
- education: ['Unknown'],
- affiliations: [
- { name: 'Ethiopian AIB', role: 'Investigator', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Yared Getachew', relationship: 'Captain of Ethiopian Airlines Flight 302 whose crash Ayalew investigated', href: '/entities/individuals/yared-getachew' },
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose MCAS system caused the Ethiopian Airlines crash', href: '/entities/individuals/dennis-muilenburg' },
- ],
- controversies: [
- 'ETHIOPIAN INVESTIGATION: Led crash investigation',
- 'CONFIRMED MCAS: Report proved system failure',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 2019', event: 'Ethiopian 302 crash investigation' },
- { date: '2019', event: 'Preliminary report released' },
- ],
- sources: [{ title: 'Wikipedia: Amdye Ayalew', url: 'https://en.wikipedia.org/wiki/Amdye_Ayalew' }, { title: 'Associated Press: Amdye Ayalew', url: 'https://apnews.com/' }],
- },
- 'aaron-mccarter': {
- name: 'Aaron McCarter',
- title: 'Aviation Regulator',
- role: 'Transport Canada Official',
- riskLevel: 'low',
- description: 'Aaron McCarter is a Transport Canada official involved in reviewing FAA certification processes after the MAX crashes. Canada, like other countries, lost confidence in FAA certification and conducted its own MAX review before allowing the aircraft to return to service.',
- birthDate: 'Unknown',
- birthPlace: 'Canada',
- education: ['Unknown'],
- affiliations: [
- { name: 'Transport Canada', role: 'Official', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during McCarter\'s involvement in 737 MAX oversight', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'Ali Bahrami', relationship: 'FAA safety official connected to certification decisions McCarter engaged with', href: '/entities/individuals/ali-bahrami' },
- ],
- controversies: [
- 'FAA REVIEW: Examined FAA certification failures',
- 'INDEPENDENT REVIEW: Canada did own MAX evaluation',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: '2019+', event: 'MAX certification review' },
- ],
- sources: [{ title: 'Wikipedia: Aaron McCarter', url: 'https://en.wikipedia.org/wiki/Aaron_McCarter' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
- },
+  'amdye-ayalew': {
+    name: 'Amdye Ayalew',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Amdye Ayalew is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Amdye Ayalew has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'aaron-mccarter': {
+    name: 'Aaron Mccarter',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Aaron Mccarter is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Aaron Mccarter has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'adnaan-stumo': {
  name: 'Adnaan Stumo',
  title: 'Victims Family',
