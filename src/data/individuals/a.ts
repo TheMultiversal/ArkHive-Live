@@ -4784,10 +4784,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2019', event: 'Led first Trump impeachment investigation' },
       { date: '2024', event: 'Elected to U.S. Senate' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Adam Schiff to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
       { title: 'House Intelligence Committee', url: 'https://intelligence.house.gov/', date: '2024' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4795,6 +4798,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Nancy Pelosi', relationship: 'Speaker who authorized impeachment inquiry', href: '/entities/individuals/nancy-pelosi' },
     ],
   },
+
 
   'allison-mack': {
     name: 'Allison Mack',

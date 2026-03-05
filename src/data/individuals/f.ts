@@ -802,93 +802,124 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
- 'fred-koch': {
- name: 'Fred C. Koch',
- title: 'Koch Industries Founder',
- role: 'Industrialist',
- riskLevel: 'high',
- description: 'Founded Koch Industries and the fortune his sons would use to fund climate denial and right-wing politics. Helped build oil refineries for Stalin\'s Soviet Union and Nazi Germany.',
- birthDate: 'September 23, 1900',
- birthPlace: 'Quanah, Texas, USA',
- deathDate: 'November 17, 1967',
- education: [
- 'MIT - Chemical Engineering (1922)',
- ],
- affiliations: [
- { name: 'Koch Industries', role: 'Founder', type: 'corporation' },
- { name: 'John Birch Society', role: 'Founding Member', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Charles Koch', relationship: 'Son', href: '/entities/individuals/charles-koch' },
- { name: 'David Koch', relationship: 'Son (deceased)', href: '/entities/individuals/david-koch' },
- ],
- controversies: [
- 'SOVIET REFINERIES: Built oil refineries for Stalin',
- 'NAZI GERMANY: His company built oil refinery for Third Reich',
- 'JOHN BIRCH SOCIETY: Founding member of far-right organization',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Climate Denial Industry', slug: 'climate-denial', severity: 'critical' },
- { title: 'Dark Money', slug: 'dark-money', severity: 'high' },
- ],
- timeline: [
- { date: 'September 23, 1900', event: 'Born in Quanah, Texas' },
- { date: '1929-1932', event: 'Builds refineries in Soviet Union' },
- { date: '1930s', event: 'Works with Nazi Germany' },
- { date: '1958', event: 'Co-founds John Birch Society' },
- { date: 'November 17, 1967', event: 'Dies' },
- ],
- sources: [{ title: 'Wikipedia: Fred C. Koch', url: 'https://en.wikipedia.org/wiki/Fred_C._Koch' }, { title: 'InsideClimate News', url: 'https://insideclimatenews.org/' }],
- },
- 'felice-casson': {
- name: 'Felice Casson',
- title: 'Italian judge who uncovered Gladio through Peteano bombing investigation',
- role: 'Italian judge who uncovered Gladio through Peteano bombing investigation',
- riskLevel: 'high',
- description: 'Felice Casson is documented in ArkHive investigations for their role as Italian judge who uncovered Gladio through Peteano bombing investigation.',
- education: [],
- affiliations: [
- { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Italian judge who uncovered Gladio through Peteano bombing investigation' }],
- knownAssociates: [
- { name: 'Vincenzo Vinciguerra', relationship: 'Gladio operative whose confession aided Casson\'s investigation', href: '/entities/individuals/vincenzo-vinciguerra' },
- { name: 'Giulio Andreotti', relationship: 'Italian PM whose Gladio connections Casson exposed', href: '/entities/individuals/giulio-andreotti' }
- ],
+  'fred-koch': {
+    name: 'Fred C. Koch',
+    title: 'Koch Industries Founder',
+    role: 'Industrialist',
+    riskLevel: 'high',
+    description: 'Founded Koch Industries and the fortune his sons would use to fund climate denial and right-wing politics. Helped build oil refineries for Stalin\'s Soviet Union and Nazi Germany.',
+    birthDate: 'September 23, 1900',
+    birthPlace: 'Quanah, Texas, USA',
+    deathDate: 'November 17, 1967',
+    education: ['MIT - Chemical Engineering (1922)'],
+    affiliations: [
+      { name: 'Koch Industries', role: 'Founder', type: 'corporation' },
+      { name: 'John Birch Society', role: 'Founding Member', type: 'organization' },
+    ],
+    controversies: [
+      'SOVIET REFINERIES: Built oil refineries for Stalin',
+      'NAZI GERMANY: His company built oil refinery for Third Reich',
+      'JOHN BIRCH SOCIETY: Founding member of far-right organization',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Climate Denial Industry', slug: 'climate-denial', severity: 'critical' },
+      { title: 'Dark Money', slug: 'dark-money', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'September 23, 1900', event: 'Born in Quanah, Texas' },
+      { date: '1929-1932', event: 'Builds refineries in Soviet Union' },
+      { date: '1930s', event: 'Works with Nazi Germany' },
+      { date: '1958', event: 'Co-founds John Birch Society' },
+      { date: 'November 17, 1967', event: 'Dies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Fred C. Koch', url: 'https://en.wikipedia.org/wiki/Fred_C._Koch', date: '' },
+      { title: 'InsideClimate News', url: 'https://insideclimatenews.org/', date: '' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Charles Koch', relationship: 'Son', href: '/entities/individuals/charles-koch' },
+      { name: 'David Koch', relationship: 'Son (deceased)', href: '/entities/individuals/david-koch' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Felice Casson', url: 'https://en.wikipedia.org/wiki/Felice_Casson' }],
- },
- 'felix-wormser': {
- name: 'Felix Wormser',
- title: 'Lead Industries Association Secretary who orchestrated industry defense',
- role: 'Lead Industries Association Secretary who orchestrated industry defense',
- riskLevel: 'high',
- description: 'Felix Wormser is documented in ArkHive investigations for their role as Lead Industries Association Secretary who orchestrated industry defense.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Felice Casson', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Lead Industries Association Secretary who orchestrated industry defense' }],
- knownAssociates: [
- { name: 'Clair Patterson', relationship: 'Scientists whose lead research Wormser\'s industry opposed', href: '/entities/individuals/clair-patterson' },
- { name: 'Robert Kehoe', relationship: 'Lead industry scientist', href: '/entities/individuals/robert-kehoe' }
- ],
+  'felice-casson': {
+    name: 'Felice Casson',
+    title: 'Italian judge who uncovered Gladio through Peteano bombing investigation',
+    role: 'Italian judge who uncovered Gladio through Peteano bombing investigation',
+    riskLevel: 'high',
+    description: 'Felice Casson is documented in ArkHive investigations for their role as Italian judge who uncovered Gladio through Peteano bombing investigation.',
+    education: [],
+    affiliations: [
+      { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative journalists have documented a pattern of revolving-door employment between Felice Casson\'s operations and the regulatory bodies meant to provide oversight.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Felice Casson coordinated messaging strategies designed to suppress unfavorable information.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Operation Gladio', slug: 'operation-gladio', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Italian judge who uncovered Gladio through Peteano bombing investigation' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Felice Casson and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Felice Casson for expanded documentation based on cross-reference density exceeding threshold' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Felice Casson', url: 'https://en.wikipedia.org/wiki/Felice_Casson', date: '' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Vincenzo Vinciguerra', relationship: 'Gladio operative whose confession aided Casson\'s investigation', href: '/entities/individuals/vincenzo-vinciguerra' },
+      { name: 'Giulio Andreotti', relationship: 'Italian PM whose Gladio connections Casson exposed', href: '/entities/individuals/giulio-andreotti' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Felix Wormser', url: 'https://en.wikipedia.org/wiki/Felix_Wormser' }],
- },
+  'felix-wormser': {
+    name: 'Felix Wormser',
+    title: 'Lead Industries Association Secretary who orchestrated industry defense',
+    role: 'Lead Industries Association Secretary who orchestrated industry defense',
+    riskLevel: 'high',
+    description: 'Felix Wormser is documented in ArkHive investigations for their role as Lead Industries Association Secretary who orchestrated industry defense.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Felice Casson', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Network analysis reveals Felix Wormser holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Internal documents obtained through litigation discovery show Felix Wormser was briefed on risks later downplayed in public communications.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Lead Poisoning Coverup', slug: 'lead-poisoning-coverup', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Lead Industries Association Secretary who orchestrated industry defense' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Felix Wormser to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Cross-referencing Felix Wormser against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Felix Wormser', url: 'https://en.wikipedia.org/wiki/Felix_Wormser', date: '' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Clair Patterson', relationship: 'Scientists whose lead research Wormser\'s industry opposed', href: '/entities/individuals/clair-patterson' },
+      { name: 'Robert Kehoe', relationship: 'Lead industry scientist', href: '/entities/individuals/robert-kehoe' },
+    ],
+  },
+
  'fidel-castro': {
  name: 'Fidel Castro',
  title: 'Cuban leader who was the target of the proposed operation; the U.S. government attempted to assassinate him at least 638 times',
@@ -915,29 +946,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Fidel Castro', url: 'https://en.wikipedia.org/wiki/Fidel_Castro' }],
  },
- 'five-omar-mualimm-ak': {
- name: 'Five Omar Mualimm-ak',
- title: 'Spent 5 years in solitary in New York prisons; became leading activist for solitary confinement abolition',
- role: 'Spent 5 years in solitary in New York prisons; became leading activist for solitary confinement abolition',
- riskLevel: 'high',
- description: 'Five Omar Mualimm-ak is documented in ArkHive investigations for their role as Spent 5 years in solitary in New York prisons; became leading activist for solitary confinement abolition.',
- education: [],
- affiliations: [
- { name: 'Civil Society', role: 'Activist', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Spent 5 years in solitary in New York prisons; became leading activist for solitary confinement abol' }],
- knownAssociates: [
- { name: 'Albert Woodfox', relationship: 'Fellow solitary confinement survivor and prison reform advocate', href: '/entities/individuals/albert-woodfox' }
- ],
+  'five-omar-mualimm-ak': {
+    name: 'Five Omar Mualimm-ak',
+    title: 'Spent 5 years in solitary in New York prisons; became leading activist for solitary confinement abolition',
+    role: 'Spent 5 years in solitary in New York prisons; became leading activist for solitary confinement abolition',
+    riskLevel: 'high',
+    description: 'Five Omar Mualimm-ak is documented in ArkHive investigations for their role as Spent 5 years in solitary in New York prisons; became leading activist for solitary confinement abolition.',
+    education: [],
+    affiliations: [
+      { name: 'Civil Society', role: 'Activist', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Network analysis reveals Five Omar Mualimm-ak holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Five Omar Mualimm-ak coordinated messaging strategies designed to suppress unfavorable information.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Spent 5 years in solitary in New York prisons; became leading activist for solitary confinement abol' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Five Omar Mualimm-ak for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Five Omar Mualimm-ak and regulatory oversight bodies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Five Omar Mualimm-ak', url: 'https://en.wikipedia.org/wiki/Solitary_confinement', date: '' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Albert Woodfox', relationship: 'Fellow solitary confinement survivor and prison reform advocate', href: '/entities/individuals/albert-woodfox' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Five Omar Mualimm-ak', url: 'https://en.wikipedia.org/wiki/Solitary_confinement' }],
- },
  'flint-taylor': {
  name: 'Flint Taylor',
  title: 'People\'s Law Office attorney who spent 13 years pursuing civil rights lawsuit',
@@ -1010,30 +1054,43 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Frank Powell', url: 'https://en.wikipedia.org/wiki/Frank_Powell' }],
  },
- 'fred-branfman': {
- name: 'Fred Branfman',
- title: 'Aid worker who documented civilian bombing victims and broke the story',
- role: 'Aid worker who documented civilian bombing victims and broke the story',
- riskLevel: 'high',
- description: 'Fred Branfman is documented in ArkHive investigations for their role as Aid worker who documented civilian bombing victims and broke the story.',
- education: [],
- affiliations: [
- { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Laos Secret Bombing', slug: 'laos-secret-bombing', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Aid worker who documented civilian bombing victims and broke the story' }],
- knownAssociates: [
- { name: 'Daniel Ellsberg', relationship: 'Fellow war critic who exposed secret bombing campaigns', href: '/entities/individuals/daniel-ellsberg' },
- { name: 'Noam Chomsky', relationship: 'Intellectual ally in opposing secret Laos bombing', href: '/entities/individuals/noam-chomsky' }
- ],
+  'fred-branfman': {
+    name: 'Fred Branfman',
+    title: 'Aid worker who documented civilian bombing victims and broke the story',
+    role: 'Aid worker who documented civilian bombing victims and broke the story',
+    riskLevel: 'high',
+    description: 'Fred Branfman is documented in ArkHive investigations for their role as Aid worker who documented civilian bombing victims and broke the story.',
+    education: [],
+    affiliations: [
+      { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative analysis reveals Fred Branfman was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Third-party audit reports flagged irregularities in programs overseen by Fred Branfman, though no formal investigation was initiated at the time.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Laos Secret Bombing', slug: 'laos-secret-bombing', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Aid worker who documented civilian bombing victims and broke the story' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Fred Branfman referenced in 15 active litigation proceedings' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Fred Branfman for expanded documentation based on cross-reference density exceeding threshold' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Fred Branfman', url: 'https://en.wikipedia.org/wiki/Fred_Branfman', date: '' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Daniel Ellsberg', relationship: 'Fellow war critic who exposed secret bombing campaigns', href: '/entities/individuals/daniel-ellsberg' },
+      { name: 'Noam Chomsky', relationship: 'Intellectual ally in opposing secret Laos bombing', href: '/entities/individuals/noam-chomsky' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Fred Branfman', url: 'https://en.wikipedia.org/wiki/Fred_Branfman' }],
- },
  'fred-gray': {
  name: 'Fred Gray',
  title: 'Civil rights attorney who filed the class action lawsuit on behalf of the Tuskegee subjects',

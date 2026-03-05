@@ -89,8 +89,8 @@ const featuredEntities: Entity[] = [
 // Real statistics from the archive — auto-updated by ArkHive Swarm Intelligence
 const stats = {
  totalInvestigations: 826,
- entitiesTracked: 2552,
- individuals: 2099,
+ entitiesTracked: 2553,
+ individuals: 2100,
  agencies: 133,
  corporations: 203,
  organizations: 117,
