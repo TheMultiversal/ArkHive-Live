@@ -276,6 +276,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
  'christina-bobb': {
  name: 'Christina Bobb',
  title: 'Trump Attorney',
@@ -687,6 +688,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Paul Wolfowitz', relationship: 'Deputy SecDef, Iraq War planner', href: '/entities/individuals/paul-wolfowitz' },
     ],
   },
+
 
 
 

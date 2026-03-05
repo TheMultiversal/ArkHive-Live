@@ -52,49 +52,49 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Mark Meadows', relationship: 'RICO co-defendant', href: '/entities/individuals/mark-meadows' },
     ],
   },
- 'fiona-hill': {
- name: 'Fiona Hill',
- title: 'Former NSC Senior Director',
- role: 'Russia Expert, Key Impeachment Witness',
- riskLevel: 'low',
- description: 'Fiona Hill is a British-American foreign affairs specialist who served as Deputy Assistant to the President and Senior Director for European and Russian Affairs on the National Security Council. Her impeachment testimony was considered among the most powerful, directly debunking the false Ukraine conspiracy theory.',
- birthDate: 'October 13, 1965',
- birthPlace: 'Bishop Auckland, England',
- education: [
- 'Harvard University (Ph.D.)',
- 'St Andrews University (M.A.)',
- ],
- aliases: [],
- affiliations: [
- { name: 'National Security Council', role: 'Senior Director for Europe/Russia', type: 'agency' },
- { name: 'Brookings Institution', role: 'Senior Fellow', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Alexander Vindman', relationship: 'NSC colleague, fellow witness', href: '/entities/individuals/alexander-vindman' },
- { name: 'Marie Yovanovitch', relationship: 'Fellow witness', href: '/entities/individuals/marie-yovanovitch' },
- { name: 'John Bolton', relationship: 'Former boss at NSC', href: '/entities/individuals/john-bolton' },
- { name: 'Gordon Sondland', relationship: 'Conflicted with on Ukraine policy', href: '/entities/individuals/gordon-sondland' },
- ],
- controversies: [
- 'Testified that GOP Ukraine conspiracy was Russian propaganda',
- 'Warned about Giuliani\'s"drug deal"in Ukraine',
- 'Reported concerns about irregular Ukraine channel',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Ukraine Extortion', slug: 'ukraine-extortion', severity: 'critical' },
- { title: 'Russia Investigation', slug: 'russia-investigation', severity: 'critical' },
- ],
- timeline: [
- { date: '2017', event: 'Joins NSC as Senior Director' },
- { date: '2019', event: 'July: Resigns from NSC' },
- { date: '2019', event: 'November 21: Delivers powerful impeachment testimony' },
- ],
- sources: [
- { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/', date: '2019' },
- { title: 'There Is Nothing for You Here (memoir)', url: 'https://www.goodreads.com/', date: '2021' },
- ],
- },
+
+  'fiona-hill': {
+    name: 'Fiona Hill',
+    title: 'Former NSC Senior Director',
+    role: 'Russia Expert, Key Impeachment Witness',
+    riskLevel: 'low',
+    description: 'Fiona Hill is a British-American foreign affairs specialist who served as Deputy Assistant to the President and Senior Director for European and Russian Affairs on the National Security Council. Her impeachment testimony was considered among the most powerful, directly debunking the false Ukraine conspiracy theory.',
+    birthDate: 'October 13, 1965',
+    birthPlace: 'Bishop Auckland, England',
+    education: ['Harvard University (Ph.D.)', 'St Andrews University (M.A.)'],
+    affiliations: [
+      { name: 'National Security Council', role: 'Senior Director for Europe/Russia', type: 'agency' },
+      { name: 'Brookings Institution', role: 'Senior Fellow', type: 'organization' },
+    ],
+    controversies: [
+      'Testified that GOP Ukraine conspiracy was Russian propaganda',
+      'Warned about Giuliani\'s"drug deal"in Ukraine',
+      'Reported concerns about irregular Ukraine channel',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Ukraine Extortion', slug: 'ukraine-extortion', severity: 'critical' },
+      { title: 'Russia Investigation', slug: 'russia-investigation', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2017', event: 'Joins NSC as Senior Director' },
+      { date: '2019', event: 'July: Resigns from NSC' },
+      { date: '2019', event: 'November 21: Delivers powerful impeachment testimony' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/', date: '2019' },
+      { title: 'There Is Nothing for You Here (memoir)', url: 'https://www.goodreads.com/', date: '2021' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Alexander Vindman', relationship: 'NSC colleague, fellow witness', href: '/entities/individuals/alexander-vindman' },
+      { name: 'Marie Yovanovitch', relationship: 'Fellow witness', href: '/entities/individuals/marie-yovanovitch' },
+      { name: 'John Bolton', relationship: 'Former boss at NSC', href: '/entities/individuals/john-bolton' },
+      { name: 'Gordon Sondland', relationship: 'Conflicted with on Ukraine policy', href: '/entities/individuals/gordon-sondland' },
+    ],
+  },
+
  'franklin-graham': {
  name: 'William Franklin Graham III',
  title: 'Evangelist & CEO of Samaritan\'s Purse',
@@ -141,58 +141,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'felix-sater': {
- name: 'Felix Henry Sater',
- title: 'Real Estate Developer',
- role: 'Trump Tower Moscow Fixer',
- riskLevel: 'high' as const,
- description: 'Soviet-born businessman with organized crime ties who worked on Trump Tower Moscow project. Former FBI informant. Emailed Michael Cohen:"I will get Putin on this program and we will get Donald elected."Has Trump Org business card despite criminal past.',
- birthDate: 'March 2, 1966',
- birthPlace: 'Moscow, Soviet Union',
- education: [
- 'Pace University',
- ],
- affiliations: [
- { name: 'Bayrock Group', role: 'Managing Director', type: 'corporation' },
- { name: 'Trump Organization', role: 'Senior Advisor', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Business partner', href: '/entities/individuals/donald-trump' },
- { name: 'Michael Cohen', relationship: 'Trump Tower Moscow collaborator', href: '/entities/individuals/michael-cohen' },
- ],
- controversies: [
- 'Trump Tower Moscow"get Putin on this program"',
- 'Organized crime connections',
- 'Prior conviction for stock fraud',
- 'FBI informant status',
- 'Had Trump Org business card despite past',
- 'Emailed Cohen"we will get Donald elected"',
- 'Russian mafia ties through father',
- 'Assault conviction (bar fight with broken glass)',
- ],
- charges: [
- { statute: 'Securities Fraud', description: 'Stock manipulation (convicted 1998)', category: 'Fraud' },
- { statute: '52 U.S.C. § 30121', description: 'Potential Foreign Election Interference - Coordinated Trump Tower Moscow project promising to"get Putin on this program"to help Trump\'s election', category: 'Potential Election Law' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Emails show coordination with Cohen to leverage Russian government for Trump campaign advantage', category: 'Potential Federal' },
- { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential Unregistered Foreign Agent - Acted as intermediary for Russian government officials without registration', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 951', description: 'Potential Agent of Foreign Government - Facilitated communications between Trump campaign and Kremlin officials', category: 'Potential National Security' },
- { statute: 'Mueller Report Documentation', description: 'Key Trump-Russia Figure - Emails documented showing intent to leverage Putin for Trump election', category: 'Documented' },
- ],
- relatedInvestigations: [
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Money Laundering', slug: 'money-laundering', severity: 'critical' },
- ],
- timeline: [
- { date: '1998', event: 'Convicted of stock fraud' },
- { date: '2000s', event: 'Works on Trump projects' },
- { date: '2015-2016', event: 'Pushes Trump Tower Moscow' },
- { date: '2017', event: 'Cooperates with Mueller' },
- ],
- sources: [
- { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
- { title: 'Sater Emails', url: 'https://www.courtlistener.com/', date: '2015-2016' },
- ],
- },
+  'felix-sater': {
+    name: 'Felix Sater',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Felix Sater is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Felix Sater has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'fred-trump': {
  name: 'Frederick Christ Trump',
  title: 'Real Estate Developer (deceased)',
@@ -236,384 +214,379 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'NY Times Tax Investigation', url: 'https://scholar.google.com/scholar?q=NY%20Times%20Tax%20Investigation', date: 'October 2018' },
  ],
  },
- 'francis-collins': {
- name: 'Francis Sellers Collins',
- title: 'Former NIH Director',
- role: 'Government Scientist, Gain of Function Oversight, COVID Response',
- riskLevel: 'high',
- description: 'Francis Collins served as NIH Director from 2009-2021, the longest-serving director in history. He oversaw NIH during critical decisions regarding gain of function research funding, including grants to EcoHealth Alliance that supported work at the Wuhan Institute of Virology. Collins has faced scrutiny for NIH\'s oversight of dangerous pathogen research, the agency\'s handling of lab leak hypothesis discussions, and emails suggesting coordination to dismiss lab leak theory as"conspiracy."Previously led the Human Genome Project and is known for reconciling Christian faith with science.',
- birthDate: 'April 14, 1950',
- birthPlace: 'Staunton, Virginia, USA',
- education: [
- 'M.D. - University of North Carolina at Chapel Hill (1977)',
- 'Ph.D. in Physical Chemistry - Yale University (1974)',
- 'B.S. in Chemistry - University of Virginia (1970)',
- ],
- netWorth: 'Undisclosed',
- aliases: ['Dr. Collins', 'NIH Director', 'Genome Project Leader'],
- affiliations: [
- { name: 'National Institutes of Health', role: 'Director (2009-2021)', type: 'agency' },
- { name: 'Human Genome Project', role: 'Director (1993-2008)', type: 'organization' },
- { name: 'National Human Genome Research Institute', role: 'Founder & Director', type: 'agency' },
- { name: 'White House Office of Science and Technology Policy', role: 'Acting Director (2021-2022)', type: 'agency' },
- { name: 'BioLogos Foundation', role: 'Founder', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Anthony Fauci', relationship: 'NIAID Director, subordinate, COVID response partner', href: '/entities/individuals/anthony-fauci' },
- { name: 'Peter Daszak', relationship: 'EcoHealth Alliance, NIH grant recipient', href: '/entities/individuals/peter-daszak' },
- { name: 'Ralph Baric', relationship: 'UNC researcher, NIH-funded coronavirus work', href: '/entities/individuals/ralph-baric' },
- { name: 'Robert Redfield', relationship: 'CDC Director, COVID response coordination', href: '/entities/individuals/robert-redfield' },
- { name: 'Donald Trump', relationship: 'Kept as NIH Director despite administration tensions', href: '/entities/individuals/donald-trump' },
- { name: 'Barack Obama', relationship: 'Appointed NIH Director 2009', href: '/entities/individuals/barack-obama' },
- ],
- controversies: [
- 'GAIN OF FUNCTION OVERSIGHT: NIH funded EcoHealth Alliance grants supporting coronavirus research at Wuhan Institute of Virology',
- 'LAB LEAK DISMISSAL: Emails show Collins urged discrediting lab leak hypothesis as"conspiracy theory"',
- 'FEBRUARY 2020 EMAIL: Wrote to Fauci about"taking down"lab leak discussion',
- 'ECOHEALTH GRANTS: NIH awarded $3.7 million to EcoHealth for bat coronavirus research including Wuhan collaboration',
- 'DEFINITION GAMES: NIH changed gain of function definitions, claiming funded research didn\'t qualify',
- 'OVERSIGHT FAILURES: Questions about whether NIH adequately monitored dangerous research it funded',
- 'MORATORIUM CIRCUMVENTION: Research continued during 2014-2017 gain of function moratorium through exceptions',
- 'CONGRESSIONAL TESTIMONY: Inconsistent statements about NIH funding of gain of function research',
- 'FAUCI COORDINATION: Emails show close coordination with Fauci on pandemic messaging',
- 'SCIENTIST SUPPRESSION: Great Barrington Declaration authors claim NIH coordinated"devastating takedown"',
- 'CONFLICT OF INTEREST: Questions about NIH officials reviewing grants to institutions with existing relationships',
- 'DELAYED TRANSPARENCY: NIH slow to release relevant documents, emails about COVID origins discussions',
- ],
- charges: [
- { statute: '18 U.S.C. § 1001', description: 'False Statements - Potential misrepresentations about gain of function funding', category: 'Federal' },
- { statute: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices - Scientific suppression allegations', category: 'Federal' },
- { statute: '31 U.S.C. § 3729', description: 'False Claims Act - Grant oversight failures', category: 'Federal' },
- { statute: 'HHS Research Integrity Regulations', description: 'Research Oversight Failures', category: 'Federal' },
- { statute: 'NIH Guidelines for Research', description: 'Inadequate Oversight of High-Risk Research', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'COVID-19 Origins Investigation', slug: 'covid-origins', severity: 'critical' },
- { title: 'Gain of Function Research', slug: 'gain-of-function', severity: 'critical' },
- { title: 'Lab Leak Cover-Up', slug: 'lab-leak', severity: 'critical' },
- { title: 'NIH Funding of Wuhan Research', slug: 'nih-wuhan', severity: 'critical' },
- { title: 'Global Pandemic Conspiracy', slug: 'pandemic-conspiracy', severity: 'critical' },
- ],
- timeline: [
- { date: 'April 14, 1950', event: 'Born in Staunton, Virginia' },
- { date: '1974', event: 'Ph.D. in Physical Chemistry from Yale' },
- { date: '1977', event: 'M.D. from University of North Carolina' },
- { date: '1993', event: 'Appointed Director of National Human Genome Research Institute' },
- { date: '1993-2003', event: 'Leads Human Genome Project to completion' },
- { date: '2006', event: 'Founds BioLogos Foundation (faith and science)' },
- { date: '2009', event: 'Appointed NIH Director by President Obama' },
- { date: '2014', event: 'Gain of function research moratorium announced' },
- { date: '2014-2019', event: 'NIH funds EcoHealth Alliance coronavirus research' },
- { date: '2017', event: 'Gain of function moratorium lifted with new framework' },
- { date: 'January 2020', event: 'COVID-19 emerges, NIH-funded research at Wuhan under scrutiny' },
- { date: 'February 1, 2020', event: 'Email to Fauci about"taking down"lab leak discussion' },
- { date: 'February 2020', event: 'Coordinates response to lab leak hypothesis' },
- { date: 'October 2020', event: 'Emails show effort to discredit Great Barrington Declaration' },
- { date: 'December 2021', event: 'Resigns as NIH Director after 12 years' },
- { date: '2022', event: 'Serves briefly as Acting White House Science Advisor' },
- { date: '2022-2024', event: 'Congressional investigations into NIH COVID decisions' },
- { date: '2024', event: 'Testifies before Congress on gain of function oversight' },
- ],
- sources: [
- { title: 'NIH EcoHealth Alliance Grant Records', url: 'https://reporter.nih.gov/', date: '2014-2019' },
- { title: 'House Oversight Committee - NIH Documents', url: 'https://oversight.house.gov/', date: '2022-2024' },
- { title: 'Collins-Fauci Email Correspondence (FOIA)', url: 'https://www.courtlistener.com/', date: '2020' },
- { title: 'NIH Gain of Function Framework', url: 'http://web.archive.org/web/20250528001123/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', date: '2017' },
- { title: 'The Intercept - NIH Grant Documents', url: 'https://theintercept.com/2021/09/06/new-details-emerge-about-coronavirus-research-at-chinese-lab/', date: '2021' },
- { title: 'Congressional Testimony Transcripts', url: 'https://www.congress.gov/', date: '2024' },
- ],
- },
- 'fawn-hall': {
- name: 'Fawn Hall',
- title: 'NSC Secretary',
- role: 'Oliver North Secretary, Document Shredder',
- riskLevel: 'medium' as const,
- description: 'Fawn Hall served as personal secretary to Oliver North at the National Security Council during the Iran-Contra affair. She testified before Congress that she helped North shred and smuggle classified documents related to the illegal arms sales and Contra funding. Her testimony, given under immunity, detailed how she altered and destroyed evidence after the operation was exposed, and how she smuggled documents out of the White House in her clothing. Her blonde appearance and dramatic testimony made her a tabloid sensation during the hearings.',
- birthDate: 'May 14, 1959',
- birthPlace: 'Annandale, Virginia, USA',
- education: [
- 'High school education',
- ],
- netWorth: 'Unknown',
- aliases: ['The Blonde Who Shredded'],
- affiliations: [
- { name: 'National Security Council', role: 'Secretary to Oliver North (1983-1986)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Oliver North', relationship: 'Boss, directed her to destroy documents', href: '/entities/individuals/oliver-north' },
- ],
- controversies: [
- 'DOCUMENT DESTRUCTION: Helped Oliver North shred documents after Iran-Contra exposed',
- 'Testified she shredded documents for"days"on North\'s orders',
- 'SMUGGLING EVIDENCE: Hid documents in her clothing and smuggled them out of White House',
- 'Testified with immunity before Congress in 1987',
- 'Famous quote:"Sometimes you have to go above the written law"',
- 'Granted immunity in exchange for testimony against North',
- ],
- charges: [
- { statute: '18 U.S.C. § 1519', description: 'Destruction of Records - shredding classified documents', category: 'Federal' },
- { statute: '18 U.S.C. § 1503', description: 'Obstruction of Justice - destroying evidence (immunity granted)', category: 'Federal' },
- { statute: '18 U.S.C. § 793', description: 'Handling Classified Documents - smuggling out of White House', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'Obstruction of Justice', slug: 'obstruction-of-justice', severity: 'critical' },
- ],
- timeline: [
- { date: 'May 14, 1959', event: 'Born in Annandale, Virginia' },
- { date: '1983', event: 'Becomes Oliver North\'s secretary at NSC' },
- { date: 'November 1986', event: 'Iran-Contra exposed, helps shred documents' },
- { date: 'November 25, 1986', event: 'North fired, Hall leaves NSC' },
- { date: 'June 1987', event: 'Testifies before Congress with immunity' },
- { date: '1987', event: 'Becomes media sensation due to testimony' },
- ],
- sources: [
- { title: 'Iran-Contra Congressional Hearings Testimony', url: 'https://www.congress.gov/', date: '1987' },
- { title: 'Iran-Contra Independent Counsel Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
- ],
- },
- 'frank-olson': {
- name: 'Frank Olson',
- title: 'Army Scientist / MKUltra Victim',
- role: 'Army biological weapons researcher secretly dosed with LSD, died under suspicious circumstances',
- riskLevel: 'low',
- description: 'Frank Olson was an Army scientist and CIA biological weapons researcher who died under suspicious circumstances on November 28, 1953, after being secretly dosed with LSD by Sidney Gottlieb. The CIA claimed suicide, but forensic evidence suggests homicide. His death exposes the human cost of MKUltra and the government\'s willingness to kill to protect secrets.',
- education: [],
- affiliations: [
- { name: 'CIA', role: 'Biological weapons researcher', type: 'agency' },
- { name: 'Fort Detrick', role: 'Research scientist', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Sidney Gottlieb', relationship: 'Drugged Olson with LSD', href: '/entities/individuals/sidney-gottlieb' },
- ],
- controversies: [
- 'UNWITTING VICTIM: At a retreat on November 19, 1953, Sidney Gottlieb slipped LSD into Olson\'s drink without his knowledge. This was a deliberate experiment on an unwitting subject.',
- 'PSYCHOLOGICAL CRISIS: After being drugged, Olson experienced a severe psychological crisis. He told colleagues he had made"a terrible mistake."The nature of his distress suggested he may have learned disturbing information about biological weapons use.',
- 'THE FALL: On November 28, 1953, Olson allegedly ran across a hotel room and crashed through a closed window shade and glass, falling 13 stories to his death. A CIA agent was in the room.',
- 'OFFICIAL COVER-UP: The CIA told his family it was suicide from work stress. The truth about the LSD dosing was hidden for 22 years until the Church Committee investigation.',
- 'EXHUMATION EVIDENCE: In 1994, Olson\'s body was exhumed. Forensic pathologist James Starrs found a cranial injury inconsistent with falling and consistent with a blow to the head before the fall.',
- 'MURDER THEORY: The forensic evidence, coupled with Olson\'s potential knowledge of U.S. biological weapons use in Korea and his expressed desire to quit, suggests he was killed to prevent him from talking.',
- 'FAMILY\'S FIGHT: Olson\'s son Eric has spent decades investigating his father\'s death. The family received a settlement and apology from President Ford in 1975, but believe the full truth remains hidden.',
- 'SYMBOLIC CASE: The Olson case represents the willingness of intelligence agencies to kill Americans to protect secrets. His death was neither investigated nor prosecuted.',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'MKUltra Mind Control Program', slug: 'mkultra', severity: 'critical' },
- ],
- timeline: [
- { date: 'July 17, 1910', event: 'Born in Hurley, Wisconsin' },
- { date: '1943', event: 'Joins U.S. Army biological weapons program' },
- { date: 'Post-WWII', event: 'Works at Fort Detrick on biological weapons' },
- { date: '1950-1953', event: 'Alleged involvement in biological weapons operations during Korean War' },
- { date: 'November 19, 1953', event: 'Secretly dosed with LSD by Sidney Gottlieb at retreat' },
- { date: 'November 1953', event: 'Experiences severe psychological distress, expresses desire to quit' },
- { date: 'November 28, 1953', event: 'Falls to death from Hotel Statler window in New York' },
- { date: '1975', event: 'Church Committee reveals LSD dosing, family receives settlement' },
- { date: '1994', event: 'Body exhumed, forensic evidence suggests homicide' },
- { date: '2012', event: 'Federal court dismisses family lawsuit on technicalities' },
- ],
- sources: [
- { title: 'H.P. Albarelli Jr. -"A Terrible Mistake"', url: 'https://scholar.google.com/scholar?q=H.P.%20Albarelli%20Jr.%20-%22A%20Terrible%20Mistake%22', date: '2009' },
- { title: 'Senate Church Committee MKUltra Hearings', url: 'https://www.congress.gov/', date: '1977' },
- { title: 'James Starrs forensic examination report', url: 'https://scholar.google.com/scholar?q=James%20Starrs%20forensic%20examination%20report', date: '1994' },
- { title: 'Netflix documentary"Wormwood"', url: 'https://www.netflix.com/', date: '2017' },
- ],
- },
- 'fred-hampton': {
- name: 'Fred Hampton',
- title: 'Black Panther Party Chairman / Assassination Victim',
- role: 'Revolutionary leader assassinated by FBI-orchestrated police raid at age 21',
- riskLevel: 'low',
- description: 'Fred Hampton was the chairman of the Illinois chapter of the Black Panther Party, assassinated by Chicago Police in an FBI-orchestrated raid on December 4, 1969. He was 21 years old. The FBI designated him a"key militant leader"and targeted him for elimination. An FBI informant drugged him before the raid. He was shot in bed, likely while unconscious. His assassination exemplifies COINTELPRO\'s extrajudicial killings of Black leaders.',
- education: [],
- affiliations: [
- { name: 'Black Panther Party', role: 'Illinois Chapter Chairman', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'J. Edgar Hoover', relationship: 'Ordered targeting under COINTELPRO', href: '/entities/individuals/j-edgar-hoover' },
- { name: 'William O\'Neal', relationship: 'FBI informant who drugged him', href: '/entities/individuals/william-oneal' },
- ],
- controversies: [
- 'REVOLUTIONARY LEADER: At 21, Hampton was already a charismatic leader who had united Chicago gangs into a"Rainbow Coalition"with the Young Patriots and Young Lords. His organizing success made him a threat to the establishment.',
- 'FBI TARGET: The FBI designated Hampton a"key militant leader"and targeted him under COINTELPRO. FBI documents show explicit intent to"neutralize"him.',
- 'INFORMANT INFILTRATION: FBI informant William O\'Neal infiltrated the Panthers as head of security. He provided floor plans of Hampton\'s apartment and drugged Hampton\'s drink the night before the raid.',
- 'THE RAID: At 4:45 AM on December 4, 1969, Chicago Police conducted a raid. Officers fired 90-99 shots; Panthers fired one. Hampton was shot twice in the head at close range while in bed - evidence suggests he was unconscious from the drugging.',
- 'MARK CLARK KILLED: Also killed was Mark Clark, a Panther leader. He was the only Panther to fire a shot, apparently reflexively when shot.',
- 'COVER-UP ATTEMPTED: State\'s Attorney Edward Hanrahan initially claimed a"fierce gun battle."Physical evidence proved police lies. A federal grand jury later found the raid was part of a coordinated effort to destroy the Panthers.',
- 'CIVIL SUIT: After criminal charges against raiders were dropped, Hampton\'s family filed civil suit. In 1982, the city, county, and federal government paid $1.85 million to survivors and families.',
- 'LEGACY: Hampton\'s assassination radicalized many and exposed the government\'s willingness to murder Black leaders. The Rainbow Coalition concept later influenced Jesse Jackson\'s presidential campaigns.',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'COINTELPRO', slug: 'cointelpro', severity: 'critical' },
- { title: 'FBI Assassination of Black Leaders', slug: 'fbi-assassinations', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 30, 1948', event: 'Born in Summit, Illinois' },
- { date: '1966-1968', event: 'Leads NAACP Youth Council in Maywood, Illinois' },
- { date: '1968', event: 'Joins Black Panther Party, rises quickly' },
- { date: '1969', event: 'Becomes Chairman of Illinois Black Panther Party' },
- { date: '1969', event: 'Creates Rainbow Coalition uniting gangs and activists' },
- { date: '1969', event: 'FBI designates him"key militant leader"for neutralization' },
- { date: '1969', event: 'FBI infiltrates Panthers with informant William O\'Neal' },
- { date: 'December 3, 1969', event: 'O\'Neal drugs Hampton\'s drink' },
- { date: 'December 4, 1969', event: 'Assassinated in bed during police raid, age 21' },
- { date: '1982', event: 'Family receives $1.85 million settlement' },
- ],
- sources: [
- { title: 'Jeffrey Haas -"The Assassination of Fred Hampton"', url: 'https://scholar.google.com/scholar?q=Jeffrey%20Haas%20-%22The%20Assassination%20of%20Fred%20Hampton%22', date: '2009' },
- { title: 'Senate Church Committee Reports', url: 'https://www.congress.gov/', date: '1976' },
- { title: 'FBI COINTELPRO documents on Black Panther Party', url: 'https://scholar.google.com/scholar?q=FBI%20COINTELPRO%20documents%20on%20Black%20Panther%20Party', date: 'Various' },
- { title: 'Documentary"The Murder of Fred Hampton"', url: 'https://scholar.google.com/scholar?q=Documentary%22The%20Murder%20of%20Fred%20Hampton%22', date: '1971' },
- ],
- },
- 'frank-wisner': {
- name: 'Frank Wisner',
- title: 'CIA Covert Operations Chief',
- role: 'CIA official who ran Operation Mockingbird and directed coups in Iran and Guatemala',
- riskLevel: 'critical',
- description: 'Frank Wisner was a senior CIA official who directed covert operations and ran Operation Mockingbird, the CIA\'s program to infiltrate and control American media. He oversaw coups in Iran and Guatemala, established the CIA\'s covert action capabilities, and cultivated relationships with journalists and media executives. He suffered a mental breakdown, likely from the moral weight of his actions, and committed suicide in 1965.',
- education: [],
- affiliations: [
- { name: 'CIA', role: 'Deputy Director for Plans', type: 'agency' },
- { name: 'Office of Policy Coordination', role: 'Head', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Allen Dulles', relationship: 'CIA Director, close collaborator', href: '/entities/individuals/allen-dulles' },
- ],
- controversies: [
- 'OPERATION MOCKINGBIRD: Wisner ran"Wisner\'s Wurlitzer"- his term for the CIA\'s ability to play the media like an organ. He cultivated relationships with publishers, editors, and journalists at major outlets including The Washington Post, The New York Times, and CBS.',
- 'MEDIA CONTROL: Under Wisner, the CIA placed stories, suppressed unfavorable coverage, and used journalists for intelligence gathering. He bragged that he could make the media play any tune he wanted.',
- 'COVERT OPERATIONS: As head of the Office of Policy Coordination and later Deputy Director for Plans, Wisner directed major covert operations including coups in Iran (1953) and Guatemala (1954).',
- 'PSYCHOLOGICAL WARFARE: Established Radio Free Europe and Radio Liberty as CIA propaganda outlets. Funded intellectual and cultural organizations as part of the cultural Cold War.',
- 'HUNGARIAN TRAGEDY: Wisner\'s Radio Free Europe broadcasts encouraged the 1956 Hungarian Revolution, implying U.S. support. When the Soviets crushed the uprising and the U.S. did nothing, Wisner reportedly never recovered from the guilt.',
- 'MENTAL BREAKDOWN: After Hungary, Wisner suffered a severe mental breakdown. He underwent electroshock therapy and was eventually forced to retire from the CIA.',
- 'SUICIDE: On October 29, 1965, Wisner died by suicide, shooting himself with a shotgun at his farm. Friends attributed his death to the psychological toll of his covert work.',
- 'LEGACY: Wisner established the template for CIA media manipulation that continues today. The revolving door between intelligence agencies and media, the use of"former"officials as commentators, and coordinated narratives all trace to his innovations.',
- ],
- charges: [
- { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity - Persecution: Suppression of free press and political discourse through media manipulation', category: 'International Criminal Law' },
- { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Directed coups overthrowing sovereign governments', category: 'International Criminal Law' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy: Conspiracy to overthrow foreign governments', category: 'Federal Crimes' },
- { statute: '50 U.S.C. § 3091', description: 'Violations of Intelligence Authorization: Covert operations exceeding authorized scope', category: 'Intelligence Law' },
- ],
- relatedInvestigations: [
- { title: 'Operation Mockingbird', slug: 'operation-mockingbird', severity: 'critical' },
- { title: 'Iran Coup 1953', slug: 'iran-coup-1953', severity: 'critical' },
- { title: 'Guatemala Coup 1954', slug: 'guatemala-coup-1954', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 23, 1909', event: 'Born in Laurel, Mississippi' },
- { date: '1941-1945', event: 'OSS service during WWII' },
- { date: '1948', event: 'Becomes head of Office of Policy Coordination' },
- { date: 'Early 1950s', event: 'Establishes Operation Mockingbird' },
- { date: '1953', event: 'Directs Operation Ajax (Iran coup)' },
- { date: '1954', event: 'Directs Operation PBSuccess (Guatemala coup)' },
- { date: '1956', event: 'Hungarian Revolution tragedy' },
- { date: '1958', event: 'Suffers mental breakdown' },
- { date: '1962', event: 'Retires from CIA' },
- { date: 'October 29, 1965', event: 'Dies by suicide' },
- ],
- sources: [
- { title: 'Evan Thomas -"The Very Best Men"', url: 'https://scholar.google.com/scholar?q=Evan%20Thomas%20-%22The%20Very%20Best%20Men%22', date: '1995' },
- { title: 'Carl Bernstein -"The CIA and the Media"', url: 'https://scholar.google.com/scholar?q=Carl%20Bernstein%20-%22The%20CIA%20and%20the%20Media%22', date: '1977' },
- { title: 'Senate Church Committee Reports', url: 'https://www.congress.gov/', date: '1976' },
- ],
- },
- 'franklin-d-roosevelt': {
- name: 'Franklin D. Roosevelt',
- title: '32nd President of the United States',
- role: 'President who signed Executive Order 9066 authorizing Japanese American internment',
- riskLevel: 'critical',
- description: 'Franklin D. Roosevelt served as President from 1933-1945, leading the nation through the Depression and World War II. However, he also signed Executive Order 9066, which authorized the forced internment of 120,000 Japanese Americans - 62% of whom were U.S. citizens. This mass imprisonment without charge or trial remains one of the worst civil liberties violations in American history.',
- education: [],
- affiliations: [
- { name: 'United States Government', role: '32nd President (1933-1945)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Fred Korematsu', relationship: 'Japanese American who challenged internment', href: '/entities/individuals/fred-korematsu' },
- ],
- controversies: [
- 'EXECUTIVE ORDER 9066: On February 19, 1942, Roosevelt signed EO 9066 authorizing military commanders to designate"exclusion zones"and remove any persons from them. While race-neutral on its face, it was applied only to Japanese Americans.',
- 'RACIAL MOTIVATION: The internment was driven by racism, wartime hysteria, and economic jealousy. German and Italian Americans were not interned en masse despite the U.S. also being at war with Germany and Italy.',
- 'FBI OPPOSITION: FBI Director J. Edgar Hoover (no civil libertarian himself) advised that mass internment was unnecessary, as the FBI had already identified actual security risks.',
- 'NO EVIDENCE: No Japanese American was ever charged with espionage or sabotage. The internment was based on racial prejudice, not evidence of disloyalty.',
- 'PROPERTY DESTRUCTION: Japanese Americans lost an estimated $400 million in property (billions today). Homes, businesses, and possessions were abandoned or sold at fraction of value.',
- 'CONCENTRATION CAMPS: The ten"relocation centers"were in remote desert and swamp locations. Guard towers, barbed wire, and armed guards belied claims they were for"protection."',
- 'COURT COVER-UP: The Supreme Court\'s Korematsu decision upholding internment was later revealed to have relied on government lies about military necessity. Solicitor General suppressed evidence.',
- 'LASTING SHAME: The internment remains a stain on American history. It demonstrates how quickly rights can be stripped from unpopular minorities during wartime.',
- ],
- charges: [
- { statute: 'Rome Statute Article 7(1)(e)', description: 'Crimes Against Humanity - Imprisonment: Mass imprisonment of 120,000 people based on race without charge', category: 'International Criminal Law' },
- { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity - Persecution: Targeted Japanese Americans for persecution based on racial identity', category: 'International Criminal Law' },
- { statute: 'U.S. Constitution - 5th Amendment', description: 'Due Process Violation: Imprisoned citizens without charge or trial', category: 'Constitutional Violations' },
- { statute: 'U.S. Constitution - 14th Amendment', description: 'Equal Protection Violation: Discriminatory treatment based on race', category: 'Constitutional Violations' },
- ],
- relatedInvestigations: [
- { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
- { title: 'Wartime Civil Liberties Violations', slug: 'wartime-civil-liberties', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 30, 1882', event: 'Born in Hyde Park, New York' },
- { date: 'March 4, 1933', event: 'Becomes President' },
- { date: 'December 7, 1941', event: 'Pearl Harbor attack' },
- { date: 'February 19, 1942', event: 'Signs Executive Order 9066' },
- { date: 'March 1942', event: 'Mass removals begin' },
- { date: 'December 18, 1944', event: 'Korematsu decision upholds internment' },
- { date: 'April 12, 1945', event: 'Dies in Warm Springs, Georgia' },
- ],
- sources: [
- { title: 'Executive Order 9066 text', url: 'https://www.federalregister.gov/presidential-documents/executive-orders', date: '1942' },
- { title: 'Commission on Wartime Relocation Report', url: 'https://scholar.google.com/scholar?q=Commission%20on%20Wartime%20Relocation%20Report', date: '1983' },
- { title: 'National Archives internment records', url: 'https://www.archives.gov/', date: 'Various' },
- ],
- },
- 'fred-korematsu': {
- name: 'Fred Korematsu',
- title: 'Civil Rights Hero / Japanese Internment Resister',
- role: 'Civil rights hero who refused internment and later received Presidential Medal of Freedom',
- riskLevel: 'low',
- description: 'Fred Korematsu was a Japanese American who refused to report for internment in 1942 and was arrested for defying Executive Order 9066. His case reached the Supreme Court, which ruled against him in one of its most reviled decisions. Decades later, his conviction was vacated after evidence emerged that the government had suppressed evidence and lied to the Court. He received the Presidential Medal of Freedom and spent his later years advocating against post-9/11 discrimination.',
- education: [],
- affiliations: [
- { name: 'United States Government', role: 'Civil Rights Hero / Japanese Internment Resister', type: 'agency' },
- { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Franklin D. Roosevelt', relationship: 'President who signed EO 9066', href: '/entities/individuals/franklin-d-roosevelt' },
- ],
- controversies: [
- 'DEFIANCE: In 1942, the 23-year-old Korematsu refused to report for internment. He had plastic surgery to alter his appearance and changed his name, hoping to avoid detection and stay with his Italian American girlfriend.',
- 'ARREST: Korematsu was arrested in San Leandro, California on May 30, 1942. He was convicted of violating military exclusion orders.',
- 'SUPREME COURT DEFEAT: In December 1944, the Supreme Court ruled 6-3 against Korematsu, accepting the government\'s claims of"military necessity."Justice Frank Murphy\'s dissent called the decision a"legalization of racism."',
- 'CORAM NOBIS: In 1983, lawyer Peter Irons discovered that the Justice Department had suppressed evidence undermining claims of military necessity. Korematsu\'s conviction was vacated in 1983 in a coram nobis proceeding.',
- 'GOVERNMENT LIES EXPOSED: The suppressed evidence showed the government knew Japanese Americans posed no security threat. The Solicitor General had lied to the Supreme Court.',
- 'PRESIDENTIAL MEDAL: In 1998, President Clinton awarded Korematsu the Presidential Medal of Freedom, the nation\'s highest civilian honor.',
- 'POST-9/11 ADVOCACY: After September 11, Korematsu spoke out against discrimination targeting Muslim Americans. He filed amicus briefs opposing Guantanamo detention policies.',
- 'LEGACY: Korematsu became a symbol of resistance to racial injustice."Fred Korematsu Day"is celebrated in several states on his birthday, January 30.',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
- { title: 'Korematsu v. United States', slug: 'korematsu-case', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 30, 1919', event: 'Born in Oakland, California' },
- { date: 'February 19, 1942', event: 'Roosevelt signs EO 9066' },
- { date: 'May 30, 1942', event: 'Arrested for refusing to report' },
- { date: 'September 1942', event: 'Convicted of violating exclusion order' },
- { date: 'December 18, 1944', event: 'Supreme Court rules against him' },
- { date: '1983', event: 'Conviction vacated after government lies exposed' },
- { date: 'January 15, 1998', event: 'Receives Presidential Medal of Freedom' },
- { date: 'Post-9/11', event: 'Advocates against discrimination of Muslims' },
- { date: 'March 30, 2005', event: 'Dies in Larkspur, California' },
- { date: '2011', event: 'California establishes"Fred Korematsu Day"' },
- ],
- sources: [
- { title: 'Korematsu v. United States (323 U.S. 214)', url: 'https://scholar.google.com/scholar?q=Korematsu%20v.%20United%20States%20(323%20U.S.%20214)', date: '1944' },
- { title: 'Coram nobis ruling', url: 'https://scholar.google.com/scholar?q=Coram%20nobis%20ruling', date: '1983' },
- { title: 'Lorraine Bannai -"Enduring Conviction"', url: 'https://www.courtlistener.com/', date: '2015' },
- ],
- },
+  'francis-collins': {
+    name: 'Francis Sellers Collins',
+    title: 'Former NIH Director',
+    role: 'Government Scientist, Gain of Function Oversight, COVID Response',
+    riskLevel: 'high',
+    description: 'Francis Collins served as NIH Director from 2009-2021, the longest-serving director in history. He oversaw NIH during critical decisions regarding gain of function research funding, including grants to EcoHealth Alliance that supported work at the Wuhan Institute of Virology. Collins has faced scrutiny for NIH\'s oversight of dangerous pathogen research, the agency\'s handling of lab leak hypothesis discussions, and emails suggesting coordination to dismiss lab leak theory as"conspiracy."Previously led the Human Genome Project and is known for reconciling Christian faith with science.',
+    birthDate: 'April 14, 1950',
+    birthPlace: 'Staunton, Virginia, USA',
+    netWorth: 'Undisclosed',
+    education: ['M.D. - University of North Carolina at Chapel Hill (1977)', 'Ph.D. in Physical Chemistry - Yale University (1974)', 'B.S. in Chemistry - University of Virginia (1970)'],
+    affiliations: [
+      { name: 'National Institutes of Health', role: 'Director (2009-2021)', type: 'agency' },
+      { name: 'Human Genome Project', role: 'Director (1993-2008)', type: 'organization' },
+      { name: 'National Human Genome Research Institute', role: 'Founder & Director', type: 'agency' },
+      { name: 'White House Office of Science and Technology Policy', role: 'Acting Director (2021-2022)', type: 'agency' },
+      { name: 'BioLogos Foundation', role: 'Founder', type: 'organization' },
+    ],
+    controversies: [
+      'GAIN OF FUNCTION OVERSIGHT: NIH funded EcoHealth Alliance grants supporting coronavirus research at Wuhan Institute of Virology',
+      'LAB LEAK DISMISSAL: Emails show Collins urged discrediting lab leak hypothesis as"conspiracy theory"',
+      'FEBRUARY 2020 EMAIL: Wrote to Fauci about"taking down"lab leak discussion',
+      'ECOHEALTH GRANTS: NIH awarded $3.7 million to EcoHealth for bat coronavirus research including Wuhan collaboration',
+      'DEFINITION GAMES: NIH changed gain of function definitions, claiming funded research didn\'t qualify',
+      'OVERSIGHT FAILURES: Questions about whether NIH adequately monitored dangerous research it funded',
+      'MORATORIUM CIRCUMVENTION: Research continued during 2014-2017 gain of function moratorium through exceptions',
+      'CONGRESSIONAL TESTIMONY: Inconsistent statements about NIH funding of gain of function research',
+      'FAUCI COORDINATION: Emails show close coordination with Fauci on pandemic messaging',
+      'SCIENTIST SUPPRESSION: Great Barrington Declaration authors claim NIH coordinated"devastating takedown"',
+      'CONFLICT OF INTEREST: Questions about NIH officials reviewing grants to institutions with existing relationships',
+      'DELAYED TRANSPARENCY: NIH slow to release relevant documents, emails about COVID origins discussions',
+    ],
+    charges: [
+      { statute: '18 U.S.C. § 1001', description: 'False Statements - Potential misrepresentations about gain of function funding', category: 'Federal' },
+      { statute: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices - Scientific suppression allegations', category: 'Federal' },
+      { statute: '31 U.S.C. § 3729', description: 'False Claims Act - Grant oversight failures', category: 'Federal' },
+      { statute: 'HHS Research Integrity Regulations', description: 'Research Oversight Failures', category: 'Federal' },
+      { statute: 'NIH Guidelines for Research', description: 'Inadequate Oversight of High-Risk Research', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: 'COVID-19 Origins Investigation', slug: 'covid-origins', severity: 'critical' },
+      { title: 'Gain of Function Research', slug: 'gain-of-function', severity: 'critical' },
+      { title: 'Lab Leak Cover-Up', slug: 'lab-leak', severity: 'critical' },
+      { title: 'NIH Funding of Wuhan Research', slug: 'nih-wuhan', severity: 'critical' },
+      { title: 'Global Pandemic Conspiracy', slug: 'pandemic-conspiracy', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'April 14, 1950', event: 'Born in Staunton, Virginia' },
+      { date: '1974', event: 'Ph.D. in Physical Chemistry from Yale' },
+      { date: '1977', event: 'M.D. from University of North Carolina' },
+      { date: '1993', event: 'Appointed Director of National Human Genome Research Institute' },
+      { date: '1993-2003', event: 'Leads Human Genome Project to completion' },
+      { date: '2006', event: 'Founds BioLogos Foundation (faith and science)' },
+      { date: '2009', event: 'Appointed NIH Director by President Obama' },
+      { date: '2014', event: 'Gain of function research moratorium announced' },
+      { date: '2014-2019', event: 'NIH funds EcoHealth Alliance coronavirus research' },
+      { date: '2017', event: 'Gain of function moratorium lifted with new framework' },
+      { date: 'January 2020', event: 'COVID-19 emerges, NIH-funded research at Wuhan under scrutiny' },
+      { date: 'February 1, 2020', event: 'Email to Fauci about"taking down"lab leak discussion' },
+      { date: 'February 2020', event: 'Coordinates response to lab leak hypothesis' },
+      { date: 'October 2020', event: 'Emails show effort to discredit Great Barrington Declaration' },
+      { date: 'December 2021', event: 'Resigns as NIH Director after 12 years' },
+      { date: '2022', event: 'Serves briefly as Acting White House Science Advisor' },
+      { date: '2022-2024', event: 'Congressional investigations into NIH COVID decisions' },
+      { date: '2024', event: 'Testifies before Congress on gain of function oversight' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NIH EcoHealth Alliance Grant Records', url: 'https://reporter.nih.gov/', date: '2014-2019' },
+      { title: 'House Oversight Committee - NIH Documents', url: 'https://oversight.house.gov/', date: '2022-2024' },
+      { title: 'Collins-Fauci Email Correspondence (FOIA)', url: 'https://www.courtlistener.com/', date: '2020' },
+      { title: 'NIH Gain of Function Framework', url: 'http://web.archive.org/web/20250528001123/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', date: '2017' },
+      { title: 'The Intercept - NIH Grant Documents', url: 'https://theintercept.com/2021/09/06/new-details-emerge-about-coronavirus-research-at-chinese-lab/', date: '2021' },
+      { title: 'Congressional Testimony Transcripts', url: 'https://www.congress.gov/', date: '2024' },
+    ],
+    aliases: ['Dr. Collins', 'NIH Director', 'Genome Project Leader'],
+    knownAssociates: [
+      { name: 'Anthony Fauci', relationship: 'NIAID Director, subordinate, COVID response partner', href: '/entities/individuals/anthony-fauci' },
+      { name: 'Peter Daszak', relationship: 'EcoHealth Alliance, NIH grant recipient', href: '/entities/individuals/peter-daszak' },
+      { name: 'Ralph Baric', relationship: 'UNC researcher, NIH-funded coronavirus work', href: '/entities/individuals/ralph-baric' },
+      { name: 'Robert Redfield', relationship: 'CDC Director, COVID response coordination', href: '/entities/individuals/robert-redfield' },
+      { name: 'Donald Trump', relationship: 'Kept as NIH Director despite administration tensions', href: '/entities/individuals/donald-trump' },
+      { name: 'Barack Obama', relationship: 'Appointed NIH Director 2009', href: '/entities/individuals/barack-obama' },
+    ],
+  },
+
+  'fawn-hall': {
+    name: 'Fawn Hall',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Fawn Hall is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Fawn Hall has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'frank-olson': {
+    name: 'Frank Olson',
+    title: 'Army Scientist / MKUltra Victim',
+    role: 'Army biological weapons researcher secretly dosed with LSD, died under suspicious circumstances',
+    riskLevel: 'low',
+    description: 'Frank Olson was an Army scientist and CIA biological weapons researcher who died under suspicious circumstances on November 28, 1953, after being secretly dosed with LSD by Sidney Gottlieb. The CIA claimed suicide, but forensic evidence suggests homicide. His death exposes the human cost of MKUltra and the government\'s willingness to kill to protect secrets.',
+    education: [],
+    affiliations: [
+      { name: 'CIA', role: 'Biological weapons researcher', type: 'agency' },
+      { name: 'Fort Detrick', role: 'Research scientist', type: 'agency' },
+    ],
+    controversies: [
+      'UNWITTING VICTIM: At a retreat on November 19, 1953, Sidney Gottlieb slipped LSD into Olson\'s drink without his knowledge. This was a deliberate experiment on an unwitting subject.',
+      'PSYCHOLOGICAL CRISIS: After being drugged, Olson experienced a severe psychological crisis. He told colleagues he had made"a terrible mistake."The nature of his distress suggested he may have learned disturbing information about biological weapons use.',
+      'THE FALL: On November 28, 1953, Olson allegedly ran across a hotel room and crashed through a closed window shade and glass, falling 13 stories to his death. A CIA agent was in the room.',
+      'OFFICIAL COVER-UP: The CIA told his family it was suicide from work stress. The truth about the LSD dosing was hidden for 22 years until the Church Committee investigation.',
+      'EXHUMATION EVIDENCE: In 1994, Olson\'s body was exhumed. Forensic pathologist James Starrs found a cranial injury inconsistent with falling and consistent with a blow to the head before the fall.',
+      'MURDER THEORY: The forensic evidence, coupled with Olson\'s potential knowledge of U.S. biological weapons use in Korea and his expressed desire to quit, suggests he was killed to prevent him from talking.',
+      'FAMILY\'S FIGHT: Olson\'s son Eric has spent decades investigating his father\'s death. The family received a settlement and apology from President Ford in 1975, but believe the full truth remains hidden.',
+      'SYMBOLIC CASE: The Olson case represents the willingness of intelligence agencies to kill Americans to protect secrets. His death was neither investigated nor prosecuted.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'MKUltra Mind Control Program', slug: 'mkultra', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'July 17, 1910', event: 'Born in Hurley, Wisconsin' },
+      { date: '1943', event: 'Joins U.S. Army biological weapons program' },
+      { date: 'Post-WWII', event: 'Works at Fort Detrick on biological weapons' },
+      { date: '1950-1953', event: 'Alleged involvement in biological weapons operations during Korean War' },
+      { date: 'November 19, 1953', event: 'Secretly dosed with LSD by Sidney Gottlieb at retreat' },
+      { date: 'November 1953', event: 'Experiences severe psychological distress, expresses desire to quit' },
+      { date: 'November 28, 1953', event: 'Falls to death from Hotel Statler window in New York' },
+      { date: '1975', event: 'Church Committee reveals LSD dosing, family receives settlement' },
+      { date: '1994', event: 'Body exhumed, forensic evidence suggests homicide' },
+      { date: '2012', event: 'Federal court dismisses family lawsuit on technicalities' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'H.P. Albarelli Jr. -"A Terrible Mistake"', url: 'https://scholar.google.com/scholar?q=H.P.%20Albarelli%20Jr.%20-%22A%20Terrible%20Mistake%22', date: '2009' },
+      { title: 'Senate Church Committee MKUltra Hearings', url: 'https://www.congress.gov/', date: '1977' },
+      { title: 'James Starrs forensic examination report', url: 'https://scholar.google.com/scholar?q=James%20Starrs%20forensic%20examination%20report', date: '1994' },
+      { title: 'Netflix documentary"Wormwood"', url: 'https://www.netflix.com/', date: '2017' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Sidney Gottlieb', relationship: 'Drugged Olson with LSD', href: '/entities/individuals/sidney-gottlieb' },
+    ],
+  },
+
+  'fred-hampton': {
+    name: 'Fred Hampton',
+    title: 'Black Panther Party Chairman / Assassination Victim',
+    role: 'Revolutionary leader assassinated by FBI-orchestrated police raid at age 21',
+    riskLevel: 'low',
+    description: 'Fred Hampton was the chairman of the Illinois chapter of the Black Panther Party, assassinated by Chicago Police in an FBI-orchestrated raid on December 4, 1969. He was 21 years old. The FBI designated him a"key militant leader"and targeted him for elimination. An FBI informant drugged him before the raid. He was shot in bed, likely while unconscious. His assassination exemplifies COINTELPRO\'s extrajudicial killings of Black leaders.',
+    education: [],
+    affiliations: [
+      { name: 'Black Panther Party', role: 'Illinois Chapter Chairman', type: 'organization' },
+    ],
+    controversies: [
+      'REVOLUTIONARY LEADER: At 21, Hampton was already a charismatic leader who had united Chicago gangs into a"Rainbow Coalition"with the Young Patriots and Young Lords. His organizing success made him a threat to the establishment.',
+      'FBI TARGET: The FBI designated Hampton a"key militant leader"and targeted him under COINTELPRO. FBI documents show explicit intent to"neutralize"him.',
+      'INFORMANT INFILTRATION: FBI informant William O\'Neal infiltrated the Panthers as head of security. He provided floor plans of Hampton\'s apartment and drugged Hampton\'s drink the night before the raid.',
+      'THE RAID: At 4:45 AM on December 4, 1969, Chicago Police conducted a raid. Officers fired 90-99 shots; Panthers fired one. Hampton was shot twice in the head at close range while in bed - evidence suggests he was unconscious from the drugging.',
+      'MARK CLARK KILLED: Also killed was Mark Clark, a Panther leader. He was the only Panther to fire a shot, apparently reflexively when shot.',
+      'COVER-UP ATTEMPTED: State\'s Attorney Edward Hanrahan initially claimed a"fierce gun battle."Physical evidence proved police lies. A federal grand jury later found the raid was part of a coordinated effort to destroy the Panthers.',
+      'CIVIL SUIT: After criminal charges against raiders were dropped, Hampton\'s family filed civil suit. In 1982, the city, county, and federal government paid $1.85 million to survivors and families.',
+      'LEGACY: Hampton\'s assassination radicalized many and exposed the government\'s willingness to murder Black leaders. The Rainbow Coalition concept later influenced Jesse Jackson\'s presidential campaigns.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'COINTELPRO', slug: 'cointelpro', severity: 'critical' },
+      { title: 'FBI Assassination of Black Leaders', slug: 'fbi-assassinations', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'August 30, 1948', event: 'Born in Summit, Illinois' },
+      { date: '1966-1968', event: 'Leads NAACP Youth Council in Maywood, Illinois' },
+      { date: '1968', event: 'Joins Black Panther Party, rises quickly' },
+      { date: '1969', event: 'Becomes Chairman of Illinois Black Panther Party' },
+      { date: '1969', event: 'Creates Rainbow Coalition uniting gangs and activists' },
+      { date: '1969', event: 'FBI designates him"key militant leader"for neutralization' },
+      { date: '1969', event: 'FBI infiltrates Panthers with informant William O\'Neal' },
+      { date: 'December 3, 1969', event: 'O\'Neal drugs Hampton\'s drink' },
+      { date: 'December 4, 1969', event: 'Assassinated in bed during police raid, age 21' },
+      { date: '1982', event: 'Family receives $1.85 million settlement' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Jeffrey Haas -"The Assassination of Fred Hampton"', url: 'https://scholar.google.com/scholar?q=Jeffrey%20Haas%20-%22The%20Assassination%20of%20Fred%20Hampton%22', date: '2009' },
+      { title: 'Senate Church Committee Reports', url: 'https://www.congress.gov/', date: '1976' },
+      { title: 'FBI COINTELPRO documents on Black Panther Party', url: 'https://scholar.google.com/scholar?q=FBI%20COINTELPRO%20documents%20on%20Black%20Panther%20Party', date: 'Various' },
+      { title: 'Documentary"The Murder of Fred Hampton"', url: 'https://scholar.google.com/scholar?q=Documentary%22The%20Murder%20of%20Fred%20Hampton%22', date: '1971' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'J. Edgar Hoover', relationship: 'Ordered targeting under COINTELPRO', href: '/entities/individuals/j-edgar-hoover' },
+      { name: 'William O\'Neal', relationship: 'FBI informant who drugged him', href: '/entities/individuals/william-oneal' },
+    ],
+  },
+
+  'frank-wisner': {
+    name: 'Frank Wisner',
+    title: 'CIA Covert Operations Chief',
+    role: 'CIA official who ran Operation Mockingbird and directed coups in Iran and Guatemala',
+    riskLevel: 'critical',
+    description: 'Frank Wisner was a senior CIA official who directed covert operations and ran Operation Mockingbird, the CIA\'s program to infiltrate and control American media. He oversaw coups in Iran and Guatemala, established the CIA\'s covert action capabilities, and cultivated relationships with journalists and media executives. He suffered a mental breakdown, likely from the moral weight of his actions, and committed suicide in 1965.',
+    education: [],
+    affiliations: [
+      { name: 'CIA', role: 'Deputy Director for Plans', type: 'agency' },
+      { name: 'Office of Policy Coordination', role: 'Head', type: 'agency' },
+    ],
+    controversies: [
+      'OPERATION MOCKINGBIRD: Wisner ran"Wisner\'s Wurlitzer"- his term for the CIA\'s ability to play the media like an organ. He cultivated relationships with publishers, editors, and journalists at major outlets including The Washington Post, The New York Times, and CBS.',
+      'MEDIA CONTROL: Under Wisner, the CIA placed stories, suppressed unfavorable coverage, and used journalists for intelligence gathering. He bragged that he could make the media play any tune he wanted.',
+      'COVERT OPERATIONS: As head of the Office of Policy Coordination and later Deputy Director for Plans, Wisner directed major covert operations including coups in Iran (1953) and Guatemala (1954).',
+      'PSYCHOLOGICAL WARFARE: Established Radio Free Europe and Radio Liberty as CIA propaganda outlets. Funded intellectual and cultural organizations as part of the cultural Cold War.',
+      'HUNGARIAN TRAGEDY: Wisner\'s Radio Free Europe broadcasts encouraged the 1956 Hungarian Revolution, implying U.S. support. When the Soviets crushed the uprising and the U.S. did nothing, Wisner reportedly never recovered from the guilt.',
+      'MENTAL BREAKDOWN: After Hungary, Wisner suffered a severe mental breakdown. He underwent electroshock therapy and was eventually forced to retire from the CIA.',
+      'SUICIDE: On October 29, 1965, Wisner died by suicide, shooting himself with a shotgun at his farm. Friends attributed his death to the psychological toll of his covert work.',
+      'LEGACY: Wisner established the template for CIA media manipulation that continues today. The revolving door between intelligence agencies and media, the use of"former"officials as commentators, and coordinated narratives all trace to his innovations.',
+    ],
+    charges: [
+      { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity - Persecution: Suppression of free press and political discourse through media manipulation', category: 'International Criminal Law' },
+      { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Directed coups overthrowing sovereign governments', category: 'International Criminal Law' },
+      { statute: '18 U.S.C. § 371', description: 'Conspiracy: Conspiracy to overthrow foreign governments', category: 'Federal Crimes' },
+      { statute: '50 U.S.C. § 3091', description: 'Violations of Intelligence Authorization: Covert operations exceeding authorized scope', category: 'Intelligence Law' },
+    ],
+    relatedInvestigations: [
+      { title: 'Operation Mockingbird', slug: 'operation-mockingbird', severity: 'critical' },
+      { title: 'Iran Coup 1953', slug: 'iran-coup-1953', severity: 'critical' },
+      { title: 'Guatemala Coup 1954', slug: 'guatemala-coup-1954', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'June 23, 1909', event: 'Born in Laurel, Mississippi' },
+      { date: '1941-1945', event: 'OSS service during WWII' },
+      { date: '1948', event: 'Becomes head of Office of Policy Coordination' },
+      { date: 'Early 1950s', event: 'Establishes Operation Mockingbird' },
+      { date: '1953', event: 'Directs Operation Ajax (Iran coup)' },
+      { date: '1954', event: 'Directs Operation PBSuccess (Guatemala coup)' },
+      { date: '1956', event: 'Hungarian Revolution tragedy' },
+      { date: '1958', event: 'Suffers mental breakdown' },
+      { date: '1962', event: 'Retires from CIA' },
+      { date: 'October 29, 1965', event: 'Dies by suicide' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Evan Thomas -"The Very Best Men"', url: 'https://scholar.google.com/scholar?q=Evan%20Thomas%20-%22The%20Very%20Best%20Men%22', date: '1995' },
+      { title: 'Carl Bernstein -"The CIA and the Media"', url: 'https://scholar.google.com/scholar?q=Carl%20Bernstein%20-%22The%20CIA%20and%20the%20Media%22', date: '1977' },
+      { title: 'Senate Church Committee Reports', url: 'https://www.congress.gov/', date: '1976' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Allen Dulles', relationship: 'CIA Director, close collaborator', href: '/entities/individuals/allen-dulles' },
+    ],
+  },
+
+  'franklin-d-roosevelt': {
+    name: 'Franklin D. Roosevelt',
+    title: '32nd President of the United States',
+    role: 'President who signed Executive Order 9066 authorizing Japanese American internment',
+    riskLevel: 'critical',
+    description: 'Franklin D. Roosevelt served as President from 1933-1945, leading the nation through the Depression and World War II. However, he also signed Executive Order 9066, which authorized the forced internment of 120,000 Japanese Americans - 62% of whom were U.S. citizens. This mass imprisonment without charge or trial remains one of the worst civil liberties violations in American history.',
+    education: [],
+    affiliations: [
+      { name: 'United States Government', role: '32nd President (1933-1945)', type: 'agency' },
+    ],
+    controversies: [
+      'EXECUTIVE ORDER 9066: On February 19, 1942, Roosevelt signed EO 9066 authorizing military commanders to designate"exclusion zones"and remove any persons from them. While race-neutral on its face, it was applied only to Japanese Americans.',
+      'RACIAL MOTIVATION: The internment was driven by racism, wartime hysteria, and economic jealousy. German and Italian Americans were not interned en masse despite the U.S. also being at war with Germany and Italy.',
+      'FBI OPPOSITION: FBI Director J. Edgar Hoover (no civil libertarian himself) advised that mass internment was unnecessary, as the FBI had already identified actual security risks.',
+      'NO EVIDENCE: No Japanese American was ever charged with espionage or sabotage. The internment was based on racial prejudice, not evidence of disloyalty.',
+      'PROPERTY DESTRUCTION: Japanese Americans lost an estimated $400 million in property (billions today). Homes, businesses, and possessions were abandoned or sold at fraction of value.',
+      'CONCENTRATION CAMPS: The ten"relocation centers"were in remote desert and swamp locations. Guard towers, barbed wire, and armed guards belied claims they were for"protection."',
+      'COURT COVER-UP: The Supreme Court\'s Korematsu decision upholding internment was later revealed to have relied on government lies about military necessity. Solicitor General suppressed evidence.',
+      'LASTING SHAME: The internment remains a stain on American history. It demonstrates how quickly rights can be stripped from unpopular minorities during wartime.',
+    ],
+    charges: [
+      { statute: 'Rome Statute Article 7(1)(e)', description: 'Crimes Against Humanity - Imprisonment: Mass imprisonment of 120,000 people based on race without charge', category: 'International Criminal Law' },
+      { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity - Persecution: Targeted Japanese Americans for persecution based on racial identity', category: 'International Criminal Law' },
+      { statute: 'U.S. Constitution - 5th Amendment', description: 'Due Process Violation: Imprisoned citizens without charge or trial', category: 'Constitutional Violations' },
+      { statute: 'U.S. Constitution - 14th Amendment', description: 'Equal Protection Violation: Discriminatory treatment based on race', category: 'Constitutional Violations' },
+    ],
+    relatedInvestigations: [
+      { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
+      { title: 'Wartime Civil Liberties Violations', slug: 'wartime-civil-liberties', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'January 30, 1882', event: 'Born in Hyde Park, New York' },
+      { date: 'March 4, 1933', event: 'Becomes President' },
+      { date: 'December 7, 1941', event: 'Pearl Harbor attack' },
+      { date: 'February 19, 1942', event: 'Signs Executive Order 9066' },
+      { date: 'March 1942', event: 'Mass removals begin' },
+      { date: 'December 18, 1944', event: 'Korematsu decision upholds internment' },
+      { date: 'April 12, 1945', event: 'Dies in Warm Springs, Georgia' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Executive Order 9066 text', url: 'https://www.federalregister.gov/presidential-documents/executive-orders', date: '1942' },
+      { title: 'Commission on Wartime Relocation Report', url: 'https://scholar.google.com/scholar?q=Commission%20on%20Wartime%20Relocation%20Report', date: '1983' },
+      { title: 'National Archives internment records', url: 'https://www.archives.gov/', date: 'Various' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Fred Korematsu', relationship: 'Japanese American who challenged internment', href: '/entities/individuals/fred-korematsu' },
+    ],
+  },
+
+  'fred-korematsu': {
+    name: 'Fred Korematsu',
+    title: 'Civil Rights Hero / Japanese Internment Resister',
+    role: 'Civil rights hero who refused internment and later received Presidential Medal of Freedom',
+    riskLevel: 'low',
+    description: 'Fred Korematsu was a Japanese American who refused to report for internment in 1942 and was arrested for defying Executive Order 9066. His case reached the Supreme Court, which ruled against him in one of its most reviled decisions. Decades later, his conviction was vacated after evidence emerged that the government had suppressed evidence and lied to the Court. He received the Presidential Medal of Freedom and spent his later years advocating against post-9/11 discrimination.',
+    education: [],
+    affiliations: [
+      { name: 'United States Government', role: 'Civil Rights Hero / Japanese Internment Resister', type: 'agency' },
+      { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+    ],
+    controversies: [
+      'DEFIANCE: In 1942, the 23-year-old Korematsu refused to report for internment. He had plastic surgery to alter his appearance and changed his name, hoping to avoid detection and stay with his Italian American girlfriend.',
+      'ARREST: Korematsu was arrested in San Leandro, California on May 30, 1942. He was convicted of violating military exclusion orders.',
+      'SUPREME COURT DEFEAT: In December 1944, the Supreme Court ruled 6-3 against Korematsu, accepting the government\'s claims of"military necessity."Justice Frank Murphy\'s dissent called the decision a"legalization of racism."',
+      'CORAM NOBIS: In 1983, lawyer Peter Irons discovered that the Justice Department had suppressed evidence undermining claims of military necessity. Korematsu\'s conviction was vacated in 1983 in a coram nobis proceeding.',
+      'GOVERNMENT LIES EXPOSED: The suppressed evidence showed the government knew Japanese Americans posed no security threat. The Solicitor General had lied to the Supreme Court.',
+      'PRESIDENTIAL MEDAL: In 1998, President Clinton awarded Korematsu the Presidential Medal of Freedom, the nation\'s highest civilian honor.',
+      'POST-9/11 ADVOCACY: After September 11, Korematsu spoke out against discrimination targeting Muslim Americans. He filed amicus briefs opposing Guantanamo detention policies.',
+      'LEGACY: Korematsu became a symbol of resistance to racial injustice."Fred Korematsu Day"is celebrated in several states on his birthday, January 30.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
+      { title: 'Korematsu v. United States', slug: 'korematsu-case', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'January 30, 1919', event: 'Born in Oakland, California' },
+      { date: 'February 19, 1942', event: 'Roosevelt signs EO 9066' },
+      { date: 'May 30, 1942', event: 'Arrested for refusing to report' },
+      { date: 'September 1942', event: 'Convicted of violating exclusion order' },
+      { date: 'December 18, 1944', event: 'Supreme Court rules against him' },
+      { date: '1983', event: 'Conviction vacated after government lies exposed' },
+      { date: 'January 15, 1998', event: 'Receives Presidential Medal of Freedom' },
+      { date: 'Post-9/11', event: 'Advocates against discrimination of Muslims' },
+      { date: 'March 30, 2005', event: 'Dies in Larkspur, California' },
+      { date: '2011', event: 'California establishes"Fred Korematsu Day"' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Korematsu v. United States (323 U.S. 214)', url: 'https://scholar.google.com/scholar?q=Korematsu%20v.%20United%20States%20(323%20U.S.%20214)', date: '1944' },
+      { title: 'Coram nobis ruling', url: 'https://scholar.google.com/scholar?q=Coram%20nobis%20ruling', date: '1983' },
+      { title: 'Lorraine Bannai -"Enduring Conviction"', url: 'https://www.courtlistener.com/', date: '2015' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Franklin D. Roosevelt', relationship: 'President who signed EO 9066', href: '/entities/individuals/franklin-d-roosevelt' },
+    ],
+  },
+
  'fred-koch': {
  name: 'Fred C. Koch',
  title: 'Koch Industries Founder',
@@ -1187,123 +1160,74 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
  sources: [{ title: 'Wikipedia: French Officials', url: 'https://en.wikipedia.org/wiki/Government_of_France' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
- 'federico-pena': {
-"name":"Federico Pena",
-"title":"Former Secretary of Transportation",
-"role":"Clinton Cabinet Member, Aviation Policy",
-"riskLevel":"low",
-"description":"First Hispanic mayor of Denver (1983-1991) and served in the Clinton administration as Secretary of Transportation (1993-1997) and Secretary of Energy (1997-1998). Oversaw aviation policy during a period of airline deregulation.",
-"education": [
-"University of Texas - J.D."
- ],
-"affiliations": [
- {
-"name":"U.S. Department of Transportation",
-"role":"Secretary",
-"type":"agency"
- }
- ],
-"knownAssociates": [
- {
-"name":"Bill Clinton",
-"relationship":"Appointed him to two cabinet positions",
-"href":"/entities/individuals/bill-clinton"
- }
- ],
-"controversies": [
-"Oversaw aviation deregulation policies",
-"Denver International Airport construction delays and cost overruns during his mayoral tenure"
- ],
-"relatedInvestigations": [
- {
-"title":"Boeing 737 MAX",
-"slug":"boeing-737-max",
-"severity":"high"
- }
- ],
-"timeline": [
- {
-"date":"1983",
-"event":"Became Mayor of Denver"
- },
- {
-"date":"1993",
-"event":"Became Secretary of Transportation"
- }
- ],
-"sources": [
- {
-"title":"DOT Historical Bio",
-"url":"https://www.transportation.gov/briefing-room/secretaries",
-"date":"2023"
- }
- ]
- },
- 'felix-rodriguez': {
-"name":"Felix Rodriguez",
-"title":"CIA Operative",
-"role":"Bay of Pigs, Iran-Contra, Che Guevara",
-"riskLevel":"high",
-"description":"Cuban-American CIA operative involved in the Bay of Pigs invasion, the hunt for Che Guevara in Bolivia, and the Iran-Contra affair. Helped coordinate covert arms shipments to the Nicaraguan Contras from El Salvador. Connected to Oliver North's network.",
-"education": [],
-"affiliations": [
- {
-"name":"Central Intelligence Agency",
-"role":"Operations Officer",
-"type":"agency"
- }
- ],
-"knownAssociates": [
- {
-"name":"Oliver North",
-"relationship":"Coordinated Iran-Contra operations",
-"href":"/entities/individuals/oliver-north"
- },
- {
-"name":"George H.W. Bush",
-"relationship":"Met with then-VP Bush during Iran-Contra period",
-"href":"/entities/individuals/george-hw-bush"
- }
- ],
-"controversies": [
-"Present at execution of Che Guevara",
-"Ran Iran-Contra supply operations from El Salvador",
-"Alleged connections to drug trafficking through Contra supply network"
- ],
-"relatedInvestigations": [
- {
-"title":"Iran-Contra Affair",
-"slug":"iran-contra",
-"severity":"critical"
- },
- {
-"title":"CIA Coups",
-"slug":"cia-coups",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"1961",
-"event":"Participated in Bay of Pigs invasion"
- },
- {
-"date":"1967",
-"event":"Involved in capture of Che Guevara in Bolivia"
- },
- {
-"date":"1985-1986",
-"event":"Ran Iran-Contra supply operations"
- }
- ],
-"sources": [
- {
-"title":"National Security Archive: Iran-Contra",
-"url":"https://nsarchive.gwu.edu/project/iran-contra-affair",
-"date":"2023"
- }
- ]
- },
+  'federico-pena': {
+    name: 'Federico Pena',
+    title: 'Former Secretary of Transportation',
+    role: 'Clinton Cabinet Member, Aviation Policy',
+    riskLevel: 'low',
+    description: 'First Hispanic mayor of Denver (1983-1991) and served in the Clinton administration as Secretary of Transportation (1993-1997) and Secretary of Energy (1997-1998). Oversaw aviation policy during a period of airline deregulation.',
+    education: ['University of Texas - J.D.'],
+    affiliations: [
+      { name: 'U.S. Department of Transportation', role: 'Secretary', type: 'agency' },
+    ],
+    controversies: [
+      'Oversaw aviation deregulation policies',
+      'Denver International Airport construction delays and cost overruns during his mayoral tenure',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Boeing 737 MAX', slug: 'boeing-737-max', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1983', event: 'Became Mayor of Denver' },
+      { date: '1993', event: 'Became Secretary of Transportation' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'DOT Historical Bio', url: 'https://www.transportation.gov/briefing-room/secretaries', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Bill Clinton', relationship: 'Appointed him to two cabinet positions', href: '/entities/individuals/bill-clinton' },
+    ],
+  },
+
+  'felix-rodriguez': {
+    name: 'Felix Rodriguez',
+    title: 'CIA Operative',
+    role: 'Bay of Pigs, Iran-Contra, Che Guevara',
+    riskLevel: 'high',
+    description: 'Cuban-American CIA operative involved in the Bay of Pigs invasion, the hunt for Che Guevara in Bolivia, and the Iran-Contra affair. Helped coordinate covert arms shipments to the Nicaraguan Contras from El Salvador. Connected to Oliver North\'s network.',
+    education: [],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'Operations Officer', type: 'agency' },
+    ],
+    controversies: [
+      'Present at execution of Che Guevara',
+      'Ran Iran-Contra supply operations from El Salvador',
+      'Alleged connections to drug trafficking through Contra supply network',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Iran-Contra Affair', slug: 'iran-contra', severity: 'critical' },
+      { title: 'CIA Coups', slug: 'cia-coups', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1961', event: 'Participated in Bay of Pigs invasion' },
+      { date: '1967', event: 'Involved in capture of Che Guevara in Bolivia' },
+      { date: '1985-1986', event: 'Ran Iran-Contra supply operations' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'National Security Archive: Iran-Contra', url: 'https://nsarchive.gwu.edu/project/iran-contra-affair', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Oliver North', relationship: 'Coordinated Iran-Contra operations', href: '/entities/individuals/oliver-north' },
+      { name: 'George H.W. Bush', relationship: 'Met with then-VP Bush during Iran-Contra period', href: '/entities/individuals/george-hw-bush' },
+    ],
+  },
+
   'fbi': {
     name: 'Fbi',
     title: 'Public Figure Under Investigation',

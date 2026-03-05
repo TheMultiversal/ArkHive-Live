@@ -49,6 +49,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'e-jean-carroll': {
     name: 'E. Jean Carroll',
     title: 'Journalist, Author, Sexual Assault Survivor',
@@ -185,6 +186,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Cabinet member', href: '/entities/individuals/donald-trump' },
     ],
   },
+
 
   'erik-prince': {
     name: 'Erik Prince',

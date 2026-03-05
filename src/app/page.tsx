@@ -87,11 +87,17 @@ const featuredEntities: Entity[] = [
 ];
 
 // Real statistics from the archive — auto-updated by ArkHive Swarm Intelligence
+// These are initial SSR values; StatsDisplay fetches live data on mount
 const stats = {
- totalInvestigations: 722,
- entitiesTracked: 2456,
- documentsArchived: 201, // document entries on /documents page
- activeAlerts: 60, // notification entries on /notifications page
+ totalInvestigations: 2757,
+ entitiesTracked: 11302,
+ individuals: 8125,
+ agencies: 125,
+ corporations: 189,
+ organizations: 106,
+ connections: 3400,
+ documentsArchived: 1028,
+ activeAlerts: 276,
 };
 
 export default function Home() {

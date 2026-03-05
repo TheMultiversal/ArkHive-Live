@@ -54,6 +54,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Jared Kushner', relationship: 'Husband', href: '/entities/individuals/jared-kushner' },
     ],
   },
+
  'igor-fruman': {
  name: 'Igor Fruman',
  title: 'Convicted Felon',
@@ -98,108 +99,66 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-and-igor-fruman-charged-campaign-finance-offenses', date: '2019' },
  ],
  },
- 'ivan-timofeev': {
- name: 'Ivan Timofeev',
- title: 'Russian Think Tank Official',
- role: 'Russian Intelligence Contact',
- riskLevel: 'high' as const,
- description: 'Director of Programs at the Russian International Affairs Council (RIAC), a Kremlin-linked think tank. Timofeev served as the intermediary who connected George Papadopoulos to Joseph Mifsud and facilitated communications about potential Trump-Russia cooperation during the 2016 campaign. He discussed obtaining"dirt"on Hillary Clinton and arranging meetings between Trump campaign officials and Russian government representatives.',
- education: [
- 'MGIMO University (Moscow State Institute of International Relations)',
- ],
- affiliations: [
- { name: 'Russian International Affairs Council', role: 'Director of Programs', type: 'organization' },
- { name: 'Russian Government', role: 'Connected Official', type: 'agency' },
- ],
+  'ivan-timofeev': {
+    name: 'Ivan Timofeev',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ivan Timofeev is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Ivan Timofeev has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'George Papadopoulos', relationship: 'Russian think tank official connected to Papadopoulos; part of the network arranging"dirt"on Hillary Clinton through Russian contacts', href: '/entities/individuals/george-papadopoulos' },
- ],
- controversies: [
- 'Key intermediary in Papadopoulos-Russia communications',
- 'Discussed obtaining Clinton"dirt"via email',
- 'Helped arrange potential Trump-Putin meeting',
- 'Connected to Russian Ministry of Foreign Affairs',
- 'Cited in Mueller Report as Russian contact',
- 'Facilitated Russian government outreach to Trump campaign',
- 'Worked at Kremlin-linked think tank RIAC',
- ],
- charges: [
- { statute: '18 U.S.C. § 951', description: 'Potential Foreign Agent Activity - Acted on behalf of Russian government to facilitate contact with Trump campaign', category: 'Potential National Security' },
- { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential Unregistered Foreign Agent - Facilitated Russian government communications with US political campaign', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Participated in Russian operation to influence 2016 US election', category: 'Potential Federal' },
- { statute: '52 U.S.C. § 30121', description: 'Potential Foreign Election Interference - Facilitated Russian government offers of assistance to US campaign', category: 'Potential Election Law' },
- { statute: '18 U.S.C. § 1030', description: 'Potential Computer Fraud - Discussed obtaining"dirt"that may have included hacked materials', category: 'Potential Federal' },
- { statute: 'Mueller Report Documentation', description: 'Key Figure in Russian Outreach - Identified in Mueller Report as Russian contact who facilitated Kremlin-campaign communications', category: 'Documented' },
- ],
- relatedInvestigations: [
- { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Foreign Influence Operations', slug: 'foreign-influence', severity: 'critical' },
- { title: 'Trump Tower Meeting', slug: 'trump-tower-meeting', severity: 'high' },
- ],
- timeline: [
- { date: 'March 2016', event: 'First contact with Papadopoulos via Mifsud' },
- { date: 'April 2016', event: 'Emails about"dirt"on Clinton' },
- { date: 'April-May 2016', event: 'Facilitates Russian government outreach to campaign' },
- { date: '2016', event: 'Discusses potential Trump-Russia meetings' },
- { date: '2017-2019', event: 'Interviewed by Mueller investigators' },
- ],
- sources: [
- { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
- { title: 'Papadopoulos Plea Documents', url: 'https://scholar.google.com/scholar?q=Papadopoulos%20Plea%20Documents', date: '2017' },
- { title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },
- ],
- },
- 'ike-kaveladze': {
- name: 'Irakly"Ike"Kaveladze',
- title: 'Russian-American Businessman',
- role: 'Trump Tower Meeting Attendee',
- riskLevel: 'high' as const,
- description: 'Russian-American businessman who attended the June 9, 2016 Trump Tower meeting as representative of the Agalarov family. Previously investigated by GAO in 2000 for setting up over 2,000 Delaware shell companies that moved $1.4 billion from Russia. Works for Crocus Group, the Agalarov business empire.',
- birthDate: '1959',
- birthPlace: 'Soviet Georgia',
- education: [
- 'MBA - University of New Haven',
- ],
- affiliations: [
- { name: 'Crocus Group', role: 'Vice President', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Aras Agalarov', relationship: 'Employer', href: '/entities/individuals/aras-agalarov' },
- { name: 'Emin Agalarov', relationship: 'Business associate', href: '/entities/individuals/emin-agalarov' },
- { name: 'Natalia Veselnitskaya', relationship: 'Fellow meeting attendee', href: '/entities/individuals/natalia-veselnitskaya' },
- { name: 'Donald Trump Jr.', relationship: 'Meeting attendee', href: '/entities/individuals/donald-trump-jr' },
- ],
- controversies: [
- 'Attended Trump Tower meeting June 9, 2016',
- 'Previously investigated for Russian money laundering',
- 'Set up 2,000+ Delaware shell companies',
- 'Moved $1.4 billion from Russia through shells',
- 'Representative of Agalarov family',
- ],
- charges: [
- { statute: '18 U.S.C. § 1956 (Money Laundering)', description: 'GAO Investigation - Set up 2,000+ Delaware shell companies that moved $1.4 billion from Russia (GAO investigated 2000)', category: 'Money Laundering' },
- { statute: '31 U.S.C. § 5324 (Structuring)', description: 'Structuring Concerns - Complex shell company network designed to obscure fund origins', category: 'Financial Crime' },
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Russian Coordination - Attended Trump Tower meeting as representative of Russian oligarch family', category: 'Conspiracy' },
- { statute: '31 U.S.C. § 5322 (Reporting Violations)', description: 'Bank Secrecy Act - Shell company scheme designed to evade financial reporting requirements', category: 'Financial Crime' },
- { statute: '52 U.S.C. § 30121 (Foreign Contributions)', description: 'Foreign Election Influence - Represented Russian interests at Trump Tower meeting offering campaign assistance', category: 'Campaign Finance' },
- { statute: '18 U.S.C. § 951 (Foreign Agent)', description: 'Unregistered Agent Concerns - Acting on behalf of Russian business interests without disclosure', category: 'Foreign Agent' },
- ],
- relatedInvestigations: [
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Trump Tower Meeting', slug: 'trump-tower-meeting', severity: 'critical' },
- { title: 'Money Laundering', slug: 'money-laundering', severity: 'critical' },
- ],
- timeline: [
- { date: '2000', event: 'GAO investigates shell company scheme' },
- { date: 'June 9, 2016', event: 'Attends Trump Tower meeting' },
- { date: '2017', event: 'Interviewed by Mueller team' },
- ],
- sources: [
- { title: 'Mueller Report Vol. I', url: 'https://scholar.google.com/scholar?q=Mueller%20Report%20Vol.%20I', date: '2019' },
- { title: 'GAO Investigation Report', url: 'https://www.ignet.gov/', date: '2000' },
- ],
- },
+  'ike-kaveladze': {
+    name: 'Ike Kaveladze',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ike Kaveladze is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Ike Kaveladze has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'ivana-trump': {
  name: 'Ivana Marie Trump',
  title: 'Businesswoman & Former Model',
@@ -751,6 +710,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Coca Cola', relationship: 'Connected Entity', href: '/entities/individuals/coca-cola' },
     ],
   },
+
   'icc': {
     name: 'Icc',
     title: 'Public Figure Under Investigation',

@@ -566,6 +566,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'devin-nunes': {
     name: 'Devin Gerald Nunes',
     title: 'CEO, Trump Media & Technology Group',
@@ -620,6 +621,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Kash Patel', relationship: 'House Intelligence staffer, ally', href: '/entities/individuals/kash-patel' },
     ],
   },
+
 
 
 
@@ -976,6 +978,7 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
   'douglas-feith': {
     name: 'Douglas Feith',
     title: 'Public Figure Under Investigation',
@@ -1096,6 +1099,7 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
   'dillon-myer': {
     name: 'Dillon S. Myer',
     title: 'War Relocation Authority Director',
@@ -1139,6 +1143,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Franklin D. Roosevelt', relationship: 'President who authorized internment', href: '/entities/individuals/franklin-d-roosevelt' },
     ],
   },
+
 
 
  'daniel-hale': {
@@ -1302,6 +1307,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'John Foster Dulles', relationship: 'Secretary of State', href: '/entities/individuals/john-foster-dulles' },
     ],
   },
+
 
 
  'david-cameron': {

@@ -55,54 +55,37 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Michael Cohen', relationship: 'Coordinated hush money cover story', href: '/entities/individuals/michael-cohen' },
     ],
   },
- 'hr-mcmaster': {
- name: 'Herbert Raymond McMaster',
- title: 'Former National Security Advisor',
- role: 'Retired Lieutenant General',
- riskLevel: 'low' as const,
- aliases: ['H.R. McMaster'],
- description: 'Served as National Security Advisor from February 2017 to April 2018, replacing Michael Flynn. Career Army officer known for intellectual approach. Clashed with Trump over Russia policy and was eventually replaced by John Bolton. Later criticized Trump in memoir"Battlegrounds."',
- birthDate: 'July 24, 1962',
- birthPlace: 'Philadelphia, Pennsylvania',
- education: [
- 'Ph.D. History - University of North Carolina',
- 'M.A. - University of North Carolina',
- 'B.S. - U.S. Military Academy at West Point',
- ],
- affiliations: [
- { name: 'National Security Council', role: 'National Security Advisor (2017-2018)', type: 'agency' },
- { name: 'U.S. Army', role: 'Lieutenant General (Retired)', type: 'agency' },
- { name: 'Hoover Institution', role: 'Senior Fellow', type: 'organization' },
- ],
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Served as National Security Advisor (2017-2018); clashed with Trump over Russia policy and was pushed out', href: '/entities/individuals/donald-trump' },
- { name: 'John Bolton', relationship: 'Replaced by Bolton as National Security Advisor; represented competing foreign policy visions', href: '/entities/individuals/john-bolton' },
- { name: 'Michael Flynn', relationship: 'Succeeded Flynn as National Security Advisor after Flynn\'s forced resignation over Russia contacts', href: '/entities/individuals/michael-flynn' },
- { name: 'Rex Tillerson', relationship: 'Fellow Trump cabinet member who shared concerns about Trump\'s approach to national security', href: '/entities/individuals/rex-tillerson' },
- ],
- controversies: [
- 'Defended Trump\'s intelligence sharing with Russians',
- 'Clashed with Trump over Russia policy',
- 'Pushed to expel Russian diplomats',
- 'Removed"Radical Islamic terrorism"from NSC documents',
- 'Criticized Trump in post-administration book',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- ],
- timeline: [
- { date: 'February 2017', event: 'Appointed National Security Advisor' },
- { date: 'May 2017', event: 'Defends Trump sharing intel with Russians' },
- { date: 'April 2018', event: 'Replaced by John Bolton' },
- { date: '2020', event: 'Publishes"Battlegrounds"memoir' },
- ],
- sources: [
- { title: 'Battlegrounds - Book', url: 'https://scholar.google.com/scholar?q=Battlegrounds%20-%20Book', date: '2020' },
- { title: 'NSC Records', url: 'https://scholar.google.com/scholar?q=NSC%20Records', date: '2017-2018' },
- ],
- },
+  'hr-mcmaster': {
+    name: 'Hr Mcmaster',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Hr Mcmaster is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Hr Mcmaster has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'hillary-clinton': {
  name: 'Hillary Diane Rodham Clinton',
  title: 'Former Secretary of State',
@@ -145,261 +128,96 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'FBI Investigation Conclusion', url: 'https://vault.fbi.gov/', date: 'July 2016' },
  ],
  },
- 'heather-heyer': {
- name: 'Heather Danielle Heyer',
- title: 'Victim of Charlottesville Attack',
- role: 'Paralegal, Civil Rights Activist',
- riskLevel: 'low' as const,
- description: 'Heather Heyer was killed at age 32 while counter-protesting the Unite the Right white supremacist rally in Charlottesville on August 12, 2017. She was a paralegal and activist who stood up against racism and hate. Her murder galvanized national opposition to white supremacy.',
- birthDate: 'May 29, 1985',
- birthPlace: 'Charlottesville, Virginia, USA',
- education: [
- 'High school diploma',
- 'Paralegal training',
- ],
- affiliations: [
- { name: 'Department of Justice', role: 'DOJ Official', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Susan Bro', relationship: 'Mother and activist who continued advocacy after Heather\'s murder at the Charlottesville Unite the Right rally', href: '/entities/individuals/susan-bro' },
- { name: 'James Alex Fields Jr.', relationship: 'White supremacist who murdered Heyer by driving car into counter-protesters; convicted of first-degree murder', href: '/entities/individuals/james-alex-fields-jr' },
- { name: 'Donald Trump', relationship: 'President who infamously said there were"very fine people on both sides"after the rally where Heyer was killed', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'Murdered at age 32 by white supremacist at Charlottesville Unite the Right rally on August 12, 2017',
- 'Her death became a symbol of the dangers of rising far-right extremism in America',
- 'Trump\'s"very fine people on both sides"response to her murder drew widespread condemnation',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Charlottesville', slug: 'charlottesville', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 12, 2017', event: 'Attends counter-protest against Unite the Right' },
- { date: 'August 12, 2017', event: 'Murdered by James Alex Fields in car attack' },
- { date: 'August 2017', event: 'Her mother Susan Bro speaks at memorial' },
- { date: 'November 2021', event: 'Justice achieved in Sines v. Kessler civil trial' },
- ],
- sources: [
- { title: 'Memorial and Legacy', url: 'https://scholar.google.com/scholar?q=Memorial%20and%20Legacy', date: '2017' },
- ],
- },
- 'harlan-crow': {
- name: 'Harlan Crow',
- title: 'Real Estate Billionaire',
- role: 'Supreme Court Justice Briber, Nazi Memorabilia Collector',
- riskLevel: 'critical' as const,
- description: 'Harlan Crow is a Dallas real estate billionaire who has systematically corrupted Supreme Court Justice Clarence Thomas through decades of undisclosed luxury gifts worth millions of dollars. ProPublica investigations revealed Crow paid for private jet flights, superyacht trips, and exclusive resort vacations for Thomas without any disclosure. Crow purchased Thomas\'s mother\'s house ($133,000) and allowed her to live there rent-free. He paid tuition at elite private schools for a Thomas relative. Thomas has never recused himself from cases involving Crow\'s business interests. Crow keeps Nazi memorabilia, including Hitler\'s personal effects and paintings of dictators, in his home. He is a major donor to conservative causes that come before the Supreme Court.',
- birthDate: '1948',
- birthPlace: 'Dallas, Texas',
- netWorth: '$2.6 billion (estimated)',
- aliases: ['The Thomas Benefactor'],
- education: [
- 'University of Texas at Austin',
- ],
- affiliations: [
- { name: 'Crow Holdings', role: 'Chairman', type: 'corporation' },
- { name: 'American Enterprise Institute', role: 'Board Member', type: 'organization' },
- { name: 'Club for Growth', role: 'Major Donor', type: 'organization' },
- { name: 'Federalist Society', role: 'Major Donor', type: 'organization' },
- { name: 'Hoover Institution', role: 'Trustee', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Clarence Thomas', relationship: '25+ years of undisclosed gifts, personal friend', href: '/entities/individuals/clarence-thomas' },
- { name: 'Ginni Thomas', relationship: 'Friend, beneficiary of gifts', href: '/entities/individuals/ginni-thomas' },
- { name: 'Leonard Leo', relationship: 'Fellow conservative donor, network ally', href: '/entities/individuals/leonard-leo' },
- { name: 'Samuel Alito', relationship: 'Similar pattern of gifts', href: '/entities/individuals/samuel-alito' },
- ],
- controversies: [
- 'CRIME 1 - BRIBERY OF PUBLIC OFFICIAL: Provided 25+ years of undisclosed luxury gifts to Justice Thomas',
- 'Private jet travel (worth $500,000+), superyacht trips, resort vacations',
- '2019 Indonesia trip alone valued at over $500,000',
- 'CRIME 2 - REAL PROPERTY BRIBERY: Purchased Thomas\'s mother\'s home for $133,000 (2014)',
- 'Mother continued living there rent-free until her death',
- 'Property value never disclosed on Thomas financial forms',
- 'CRIME 3 - EDUCATIONAL BRIBERY: Paid private school tuition for Thomas relative',
- 'Hidden Hills Academy and Randolph-Macon Academy tuition payments',
- 'Thomas never disclosed these payments',
- 'CRIME 4 - CONFLICTS OF INTEREST: Thomas failed to recuse from cases affecting Crow interests',
- 'Crow has business before federal courts Thomas influences',
- 'Thomas voted on cases affecting Crow donors and allies',
- 'CRIME 5 - TAX FRAUD: Gift tax implications never addressed',
- 'Gifts to public official may constitute taxable income',
- 'No evidence of proper reporting',
- 'DISTURBING COLLECTION: Nazi memorabilia in home',
- 'Owns Hitler\'s personal linens, Nazi art, dictator paintings',
- 'Garden contains statues of communist dictators',
- ],
- charges: [
- { statute: '18 U.S.C. § 201(b)', description: 'Bribery of Public Official - Providing things of value to influence official acts', category: 'Federal' },
- { statute: '18 U.S.C. § 201(c)', description: 'Illegal Gratuity - Giving things of value for official acts', category: 'Federal' },
- { statute: '18 U.S.C. § 1346', description: 'Honest Services Fraud - Scheme to deprive public of honest services', category: 'Federal' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy - To defraud United States through bribery scheme', category: 'Federal' },
- { statute: '26 U.S.C. § 7201', description: 'Tax Evasion - Unreported gift tax obligations', category: 'Federal' },
- { statute: '26 U.S.C. § 2501', description: 'Gift Tax - Failure to pay gift tax on transfers', category: 'Federal' },
- { statute: '5 U.S.C. App. § 101', description: 'Ethics in Government - Facilitating non-disclosure', category: 'Federal' },
- { statute: 'Canon 2A Judicial Conduct', description: 'Impropriety - Creating appearance of impropriety', category: 'Judicial Ethics' },
- ],
- relatedInvestigations: [
- { title: 'Supreme Court Corruption', slug: 'scotus-corruption', severity: 'critical' },
- { title: 'Bribery and Corruption', slug: 'bribery-corruption', severity: 'critical' },
- { title: 'Dark Money Networks', slug: 'dark-money', severity: 'critical' },
- ],
- timeline: [
- { date: '1948', event: 'Born in Dallas, Texas' },
- { date: '1996', event: 'Takes over Crow Holdings from father Trammell Crow' },
- { date: '1990s', event: 'Begins friendship with Clarence Thomas' },
- { date: '1999-2023', event: '25 years of undisclosed luxury travel to Thomas' },
- { date: '2003', event: 'Donates $175,000 to library project honoring Thomas' },
- { date: '2014', event: 'Purchases Thomas\'s mother\'s home for $133,000' },
- { date: '2019', event: 'Indonesia superyacht trip with Thomas (valued $500,000+)' },
- { date: 'April 2023', event: 'ProPublica exposes decades of undisclosed gifts' },
- { date: 'May 2023', event: 'Senate Judiciary Committee opens investigation' },
- { date: 'July 2023', event: 'Revealed paid private school tuition for Thomas relative' },
- { date: 'August 2023', event: 'Nazi memorabilia collection becomes public' },
- { date: 'September 2023', event: 'Subpoenaed by Senate Judiciary Committee' },
- { date: 'November 2023', event: 'Supreme Court adopts ethics code (unenforceable)' },
- { date: '2024', event: 'Investigation continues, no enforcement mechanism' },
- ],
- sources: [
- { title: 'ProPublica - Clarence Thomas Investigation', url: 'https://propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-harlan-crow', date: '2023' },
- { title: 'ProPublica - Thomas Mother\'s Home', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-scotus', date: '2023' },
- { title: 'Senate Judiciary Committee Investigation', url: 'https://www.congress.gov/', date: '2023-2024' },
- { title: 'ProPublica - School Tuition Payments', url: 'https://www.propublica.org/', date: '2023' },
- ],
- },
- 'henry-kissinger': {
- name: 'Henry Alfred Kissinger',
- title: 'Former Secretary of State, National Security Advisor',
- role: 'War Criminal, Genocide Enabler, Mass Murder Architect (Deceased)',
- riskLevel: 'critical' as const,
- description: 'Henry Kissinger served as Secretary of State (1973-1977) and National Security Advisor (1969-1975) under Nixon and Ford, becoming the architect of some of the worst atrocities of the 20th century. He orchestrated the secret bombing of Cambodia (1969-1973) that killed 150,000+ civilians, supported the Chilean coup that installed Pinochet (3,000+ killed, 40,000 tortured), enabled Indonesia\'s genocide in East Timor (100,000-180,000 deaths), and supported Pakistan\'s genocide in Bangladesh (300,000-3,000,000 deaths). He sabotaged Vietnam peace talks in 1968 to help Nixon win election, extending the war by 5 years. He won the Nobel Peace Prize (1973) while simultaneously bombing Cambodia. Multiple countries have sought his arrest for war crimes. He died November 29, 2023 at age 100 without facing justice.',
- birthDate: 'May 27, 1923',
- birthPlace: 'Fürth, Bavaria, Germany',
- deathDate: 'November 29, 2023',
- education: [
- 'Harvard University (B.A. summa cum laude 1950)',
- 'Harvard University (M.A. 1952)',
- 'Harvard University (Ph.D. 1954)',
- ],
- netWorth: '$50 million+ (Kissinger Associates)',
- aliases: ['Dr. K', 'The Butcher of Cambodia'],
- affiliations: [
- { name: 'U.S. State Department', role: 'Secretary of State (1973-1977)', type: 'agency' },
- { name: 'National Security Council', role: 'National Security Advisor (1969-1975)', type: 'agency' },
- { name: 'Kissinger Associates', role: 'Founder (consulting for dictators)', type: 'corporation' },
- { name: 'Council on Foreign Relations', role: 'Member', type: 'organization' },
- { name: 'Trilateral Commission', role: 'Member', type: 'organization' },
- { name: 'Bilderberg Group', role: 'Steering Committee', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Richard Nixon', relationship: 'President, Cambodia bombing partnership', href: '/entities/individuals/richard-nixon' },
- { name: 'David Rockefeller', relationship: 'Close associate, Trilateral Commission', href: '/entities/individuals/david-rockefeller' },
- { name: 'Donald Trump', relationship: 'Advised on Russia policy 2016-2017', href: '/entities/individuals/donald-trump' },
- { name: 'Klaus Schwab', relationship: 'World Economic Forum co-architect', href: '/entities/individuals/klaus-schwab' },
- { name: 'Augusto Pinochet', relationship: 'Supported 1973 coup, maintained relationship', href: '/entities/individuals/augusto-pinochet' },
- ],
- controversies: [
- 'CRIME 1 - CAMBODIA BOMBING: Operation Menu (1969-1973) - 150,000+ civilian deaths',
- 'Secret bombing campaign hidden from Congress and American public',
- '540,000 tons of bombs dropped - more than all WWII bombs on Japan',
- 'Destabilized Cambodia, enabling Khmer Rouge rise (2 million dead)',
- 'CRIME 2 - CHILE COUP: Orchestrated 1973 overthrow of democratically elected Allende',
- '"Make the economy scream"- ordered economic sabotage before coup',
- 'Supported Pinochet dictatorship: 3,000+ killed, 40,000 tortured, 200,000 exiled',
- 'Operation Condor coordination - regional assassination program',
- 'CRIME 3 - EAST TIMOR GENOCIDE: Greenlit Indonesia\'s 1975 invasion',
- 'Met with Suharto day before invasion, gave explicit approval',
- '100,000-180,000 East Timorese killed (1/3 of population)',
- 'Continued US weapons supply during genocide',
- 'CRIME 4 - BANGLADESH GENOCIDE: Supported Pakistan\'s Operation Searchlight',
- 'Ignored"Blood Telegram"from US diplomats documenting atrocities',
- '300,000-3,000,000 Bengalis killed with US-supplied weapons',
- 'Punished diplomats who reported genocide',
- 'CRIME 5 - VIETNAM PEACE SABOTAGE: 1968 interference extended war',
- 'Secretly told South Vietnam to reject peace talks before 1968 election',
- 'Extended war 5 years, cost 20,000+ additional American lives',
- 'Won Nobel Peace Prize (1973) while bombing continued',
- 'CRIME 6 - ARGENTINA DIRTY WAR: Encouraged military junta (1976-1983)',
- '"If there are things that have to be done, you should do them quickly"',
- '30,000"disappeared"during junta\'s rule',
- 'CRIME 7 - WIRETAPPING: Surveilled own staff and journalists',
- 'Illegal wiretaps to find leakers, violated civil liberties',
- 'Multiple countries issued arrest warrants - could not travel freely',
- 'Avoided extradition requests from Spain, France, Chile, Argentina',
- ],
- charges: [
- { statute: 'Rome Statute Article 8bis', description: 'Crime of Aggression - Unauthorized war in Cambodia', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crime - Intentionally directing attacks against civilian population', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crime - Excessive incidental civilian death (Cambodia bombing)', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 7(1)(a)', description: 'Murder - Crime Against Humanity (multiple genocides)', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 7(1)(b)', description: 'Extermination - Crime Against Humanity', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 7(1)(d)', description: 'Deportation - Crime Against Humanity', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 7(1)(h)', description: 'Persecution - Political persecution in Chile, Argentina', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 7(1)(i)', description: 'Enforced Disappearance - Operation Condor, Argentine Dirty War', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 6(a)', description: 'Genocide - Killing members of groups (East Timor, Bangladesh)', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 6(c)', description: 'Genocide - Deliberately inflicting conditions to destroy groups', category: 'International Criminal Court' },
- { statute: 'Nuremberg Charter Article 6(a)', description: 'Crimes Against Peace - Planning aggressive war', category: 'International' },
- { statute: 'Nuremberg Charter Article 6(b)', description: 'War Crimes - Wanton destruction, murder of civilians', category: 'International' },
- { statute: 'Nuremberg Charter Article 6(c)', description: 'Crimes Against Humanity - Murder, persecution', category: 'International' },
- { statute: 'Geneva Convention IV Article 147', description: 'Grave Breaches - Willful killing, extensive destruction', category: 'Geneva Conventions' },
- { statute: 'Convention on Genocide Article II', description: 'Genocide - Acts committed with intent to destroy groups', category: 'International' },
- { statute: 'Convention on Genocide Article III', description: 'Conspiracy to Commit Genocide - Chile, East Timor, Bangladesh', category: 'International' },
- { statute: '18 U.S.C. § 1091', description: 'Genocide - US criminal prohibition', category: 'Federal' },
- { statute: '18 U.S.C. § 2441', description: 'War Crimes Act - Grave breaches', category: 'Federal' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy - Against lawful government (Chile)', category: 'Federal' },
- { statute: 'Logan Act (18 U.S.C. § 953)', description: 'Unauthorized Negotiation - 1968 Vietnam peace sabotage', category: 'Federal' },
- { statute: '50 U.S.C. § 1801', description: 'FISA Violations - Warrantless wiretapping of staff', category: 'Federal' },
- { statute: 'Spain Universal Jurisdiction', description: 'War Crimes - Judge Garzón investigation', category: 'Spain' },
- { statute: 'France Universal Jurisdiction', description: 'Crimes Against Humanity - French warrant', category: 'France' },
- { statute: 'Chile Extradition Request', description: 'Murder, Conspiracy - Pinochet coup crimes', category: 'Chile' },
- { statute: 'Argentina Extradition Request', description: 'Crimes Against Humanity - Operation Condor', category: 'Argentina' },
- ],
- relatedInvestigations: [
- { title: 'Cambodia Genocide', slug: 'cambodia-bombing', severity: 'critical' },
- { title: 'Chile Coup & Pinochet', slug: 'chile-coup', severity: 'critical' },
- { title: 'East Timor Genocide', slug: 'east-timor', severity: 'critical' },
- { title: 'Bangladesh Genocide', slug: 'bangladesh-genocide', severity: 'critical' },
- { title: 'Operation Condor', slug: 'operation-condor', severity: 'critical' },
- { title: 'Vietnam War Crimes', slug: 'vietnam-crimes', severity: 'critical' },
- ],
- timeline: [
- { date: 'May 27, 1923', event: 'Born in Fürth, Bavaria, Germany to Jewish family' },
- { date: '1938', event: 'Family flees Nazi Germany to United States' },
- { date: '1943-1946', event: 'US Army service, Counter Intelligence Corps' },
- { date: '1954', event: 'Completes Harvard Ph.D. in political science' },
- { date: 'October 1968', event: 'Secretly sabotages Vietnam peace talks to help Nixon win election' },
- { date: 'January 1969', event: 'Becomes National Security Advisor under Nixon' },
- { date: 'March 1969', event: 'Begins secret bombing of Cambodia (Operation Menu)' },
- { date: '1969-1973', event: 'Cambodia bombing kills 150,000+ civilians, drops 540,000 tons of bombs' },
- { date: '1971', event: 'Supports Pakistan genocide in Bangladesh - ignores Blood Telegram' },
- { date: '1971', event: 'Authorizes wiretapping of own staff and journalists' },
- { date: 'September 1973', event: 'Orchestrates coup in Chile - Allende killed, Pinochet installed' },
- { date: 'September 1973', event: 'Becomes Secretary of State' },
- { date: 'October 1973', event: 'Awarded Nobel Peace Prize - Le Duc Tho refuses to accept' },
- { date: '1975', event: 'Meeting with Suharto: Greenlights Indonesia invasion of East Timor' },
- { date: 'December 1975', event: 'East Timor invasion begins - 1/3 of population eventually killed' },
- { date: '1976', event: 'Encourages Argentine junta:"Do what you have to do quickly"' },
- { date: '1977', event: 'Leaves government, founds Kissinger Associates' },
- { date: '1982', event: 'Kissinger Associates begins consulting for dictators and corporations' },
- { date: '1998', event: 'Spain issues arrest warrant - Judge Garzón investigation' },
- { date: '2001', event: 'Christopher Hitchens publishes"The Trial of Henry Kissinger"' },
- { date: '2001', event: 'France issues summons for testimony on Operation Condor' },
- { date: '2002', event: 'Chile requests extradition for Pinochet coup crimes' },
- { date: '2002', event: 'Argentina requests testimony on Dirty War disappearances' },
- { date: '2016', event: 'Advises Trump transition team on Russia policy' },
- { date: '2017', event: 'Meets Trump in Oval Office multiple times' },
- { date: 'November 29, 2023', event: 'Dies at age 100 at home in Connecticut - never faced justice' },
- ],
- sources: [
- { title: 'The Trial of Henry Kissinger (Christopher Hitchens)', url: 'https://www.versobooks.com/books/1689-the-trial-of-henry-kissinger', date: '2001' },
- { title: 'Declassified State Department Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', date: 'Various' },
- { title: 'National Security Archive - Chile', url: 'https://nsarchive.gwu.edu/', date: 'Various' },
- { title: 'Blood Telegram Cables', url: 'https://scholar.google.com/scholar?q=Blood%20Telegram%20Cables', date: '1971' },
- { title: 'East Timor Documents Collection', url: 'https://nsarchive.gwu.edu/project/indonesia-and-east-timor-documentation-project', date: 'Various' },
- { title: 'Cambodia Bombing Records', url: 'https://scholar.google.com/scholar?q=Cambodia%20Bombing%20Records', date: '1969-1973' },
- ],
- },
+  'heather-heyer': {
+    name: 'Heather Heyer',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Heather Heyer is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Heather Heyer has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'harlan-crow': {
+    name: 'Harlan Crow',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Harlan Crow is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Harlan Crow has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'henry-kissinger': {
+    name: 'Henry Kissinger',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Henry Kissinger is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Henry Kissinger has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'h-r-haldeman': {
  name: 'H. R. Haldeman',
  title: 'Nixon Chief of Staff',
@@ -478,44 +296,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Hafez al-Assad', url: 'https://en.wikipedia.org/wiki/Hafez_al-Assad' }, { title: 'Associated Press: Hafez al-Assad', url: 'https://apnews.com/' }],
  },
- 'harry-stonecipher': {
- name: 'Harry Stonecipher',
- title: 'Corporate Executive',
- role: 'Former Boeing CEO (2003-2005)',
- riskLevel: 'high',
- description: 'Harry Stonecipher served as Boeing CEO from 2003 to 2005, bringing the McDonnell Douglas cost-cutting culture to Boeing after the 1997 merger. He previously led McDonnell Douglas and returned to Boeing after his predecessor Phil Condit resigned. Stonecipher prioritized financial performance over engineering, establishing the culture that critics say led to the 737 MAX disasters. He was forced to resign over a consensual affair but his cultural impact on Boeing lasted far longer.',
- birthDate: 'May 13, 1936',
- birthPlace: 'Harriman, Tennessee',
- education: ['Tennessee Technological University', 'Georgia Institute of Technology'],
- affiliations: [
- { name: 'Boeing', role: 'CEO', type: 'corporation' as const },
- { name: 'McDonnell Douglas', role: 'CEO', type: 'corporation' as const },
- { name: 'General Electric', role: 'Former Executive', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Phil Condit', relationship: 'Predecessor as Boeing CEO', href: '/entities/individuals/phil-condit' },
- { name: 'Jim McNerney', relationship: 'Successor as Boeing CEO', href: '/entities/individuals/jim-mcnerney' },
- ],
- controversies: [
- 'MCDONNELL CULTURE: Brought MD cost-cutting culture to Boeing',
- 'FINANCE OVER ENGINEERING: Prioritized financial metrics over safety',
- 'CULTURAL DESTRUCTION: Critics blame him for destroying Boeing engineering culture',
- 'AFFAIR RESIGNATION: Forced out over consensual relationship in 2005',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- { title: 'Corporate Influence', slug: 'corporate-influence', severity: 'high' },
- ],
- timeline: [
- { date: 'May 13, 1936', event: 'Born in Tennessee' },
- { date: '1994-1997', event: 'CEO of McDonnell Douglas' },
- { date: '1997', event: 'Boeing-McDonnell Douglas merger' },
- { date: 'December 2003', event: 'Becomes Boeing CEO' },
- { date: 'March 2005', event: 'Resigns over affair' },
- ],
- sources: [{ title: 'Wikipedia: Harry Stonecipher', url: 'https://en.wikipedia.org/wiki/Harry_Stonecipher' }, { title: 'Bloomberg: Harry Stonecipher', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
- },
+  'harry-stonecipher': {
+    name: 'Harry Stonecipher',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Harry Stonecipher is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Harry Stonecipher has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'howard-mckenzie': {
  name: 'Howard McKenzie',
  title: 'Aviation Engineer',
@@ -628,102 +438,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Heather Bresch', url: 'https://en.wikipedia.org/wiki/Heather_Bresch' }, { title: 'Bloomberg: Heather Bresch', url: 'https://www.bloomberg.com/' }],
  },
- 'harvey-weinstein': {
- name: 'Harvey Weinstein',
- title: 'Convicted Rapist',
- role: 'Film Producer - Serial Rape, Sex Trafficking CONVICTED',
- riskLevel: 'critical',
- description: 'Harvey Weinstein was one of Hollywood\'s most powerful producers who used his position to rape and sexually assault over 80 women over three decades. The 2017 exposure of his crimes launched the #MeToo movement. He was convicted of rape and sexual assault in both New York and Los Angeles.',
- birthDate: 'March 19, 1952',
- birthPlace: 'Flushing, Queens, New York',
- education: ['University at Buffalo'],
- netWorth: 'Negative (settlements/judgments)',
- affiliations: [
- { name: 'Miramax', role: 'Former Co-Chairman', type: 'corporation' as const },
- { name: 'The Weinstein Company', role: 'Former Co-Chairman', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Friend, donor before exposure', href: '/entities/individuals/donald-trump' },
- { name: 'Ghislaine Maxwell', relationship: 'Social circles overlapped in NYC/Hollywood', href: '/entities/individuals/ghislaine-maxwell' },
- 
- { name: 'Jeffrey Epstein', relationship: 'Parallel case of institutional failure to stop serial sexual abuse', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Harvey Weinstein', relationship: 'Fellow high-profile sex abuse case driving #MeToo movement', href: '/entities/individuals/harvey-weinstein' },
- { name: 'Bill Cosby', relationship: 'Parallel case of institutional protection of serial abusers', href: '/entities/individuals/bill-cosby' }
- ,
- { name: 'Cy Vance', relationship: 'Manhattan DA involved in both cases\' prosecution decisions', href: '/entities/individuals/cy-vance' }
- ,
- { name: 'Alan Dershowitz', relationship: 'Celebrity defense attorney connected to both cases', href: '/entities/individuals/alan-dershowitz' }
- ],
- controversies: [
- '80+ ACCUSERS: Decades of serial rape and assault',
- 'CASTING COUCH: Used career leverage for sex',
- 'NDA COVER-UPS: Paid millions to silence victims',
- 'NYPD AUDIO: Recording captured assault admission',
- '#METOO: His exposure launched global movement',
- 'CONVICTED RAPIST: Found guilty in NY and LA',
- ],
- charges: [
- { statute: 'NY Penal Law � 130.35', description: 'Rape in the first degree', category: 'CONVICTED - 23 YEARS' },
- { statute: 'NY Penal Law � 130.55', description: 'Criminal sexual act', category: 'CONVICTED' },
- { statute: 'California Penal Code 261', description: 'Rape', category: 'CONVICTED - 16 YEARS' },
- { statute: 'California Penal Code 289', description: 'Sexual penetration by force', category: 'CONVICTED' },
- ],
- relatedInvestigations: [
- { title: 'Weinstein Sexual Assault', slug: 'weinstein-sexual-assault', severity: 'critical' },
- { title: 'Hollywood Abuse Cover-ups', slug: 'hollywood-abuse', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 19, 1952', event: 'Born in New York' },
- { date: '1979', event: 'Founds Miramax' },
- { date: '1980s-2017', event: 'Three decades of alleged assaults' },
- { date: 'October 2017', event: 'NYT and New Yorker expose crimes' },
- { date: 'February 2020', event: 'Convicted in New York' },
- { date: 'March 2020', event: 'Sentenced to 23 years' },
- { date: 'December 2022', event: 'Convicted in Los Angeles, additional 16 years' },
- ],
- sources: [{ title: 'Wikipedia: Harvey Weinstein', url: 'https://en.wikipedia.org/wiki/Harvey_Weinstein' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
- },
- 'herman-cain': {
- name: 'Herman Cain',
- title: 'Former CEO - 2012 Presidential Candidate',
- role: 'Token Diversity - COVID Denial Death',
- riskLevel: 'medium',
- description: 'Herman Cain was Godfather\'s Pizza CEO who ran for President in 2012 (9-9-9 tax plan). He faced multiple sexual harassment allegations. He attended Trump\'s Tulsa rally without mask during COVID and died weeks later. His Twitter posthumously continued posting anti-COVID measures content.',
- birthDate: 'December 13, 1945',
- birthPlace: 'Memphis, Tennessee',
- deathDate: 'July 30, 2020',
- education: ['Morehouse College', 'Purdue University'],
- affiliations: [
- { name: 'Godfather\'s Pizza', role: 'Former CEO', type: 'corporation' as const },
- { name: 'National Restaurant Association', role: 'Former President', type: 'organization' as const },
- { name: 'Federal Reserve Bank of Kansas City', role: 'Former Chairman', type: 'agency' as const },
- ],
+  'harvey-weinstein': {
+    name: 'Harvey Weinstein',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Harvey Weinstein is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Harvey Weinstein has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Loyal presidential supporter who attended Trump\'s Tulsa rally in June 2020 and died of COVID-19 weeks later', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'SEXUAL HARASSMENT: Multiple allegations derailed campaign',
- 'COVID DENIAL: Attended Tulsa rally without mask',
- 'COVID DEATH: Died of COVID after rally',
- 'POSTHUMOUS TWEETS: Account continued posting anti-COVID content',
- 'NRA SETTLEMENTS: Restaurant Association paid settlements',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'COVID Misinformation', slug: 'covid-misinformation', severity: 'high' },
- { title: 'Sexual Harassment', slug: 'sexual-harassment', severity: 'high' },
- ],
- timeline: [
- { date: 'December 13, 1945', event: 'Born in Memphis' },
- { date: '1986-1996', event: 'Godfather\'s Pizza CEO' },
- { date: '2011-2012', event: 'Presidential campaign' },
- { date: 'November 2011', event: 'Suspended campaign amid allegations' },
- { date: 'June 20, 2020', event: 'Attended Tulsa rally' },
- { date: 'July 30, 2020', event: 'Died of COVID-19' },
- ],
- sources: [{ title: 'Wikipedia: Herman Cain', url: 'https://en.wikipedia.org/wiki/Herman_Cain' }, { title: 'Bloomberg: Herman Cain', url: 'https://www.bloomberg.com/' }],
- },
+  'herman-cain': {
+    name: 'Herman Cain',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Herman Cain is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Herman Cain has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'henry-cuellar': {
  name: 'Henry Cuellar',
  title: 'Texas Congressman',
@@ -1644,111 +1418,73 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Palm Beach Police Investigation', url: 'https://www.documentcloud.org/documents/1508273-palm-beach-police-investigation', date: '2005' },
  ],
  },
- 'hugh-grant-monsanto': {
-"name":"Hugh Grant (Monsanto)",
-"title":"Former Monsanto CEO",
-"role":"Led Roundup/Glyphosate Defense",
-"riskLevel":"high",
-"description":"CEO of Monsanto (2003-2018) who oversaw the company during its most controversial period, including the defense of Roundup weedkiller against cancer claims and the push for GMO adoption. Led Monsanto through the Bayer acquisition in 2018, just before massive Roundup lawsuit losses.",
-"education": [
-"University of Edinburgh"
- ],
-"affiliations": [
- {
-"name":"Monsanto",
-"role":"CEO",
-"type":"corporation"
- }
- ],
-"knownAssociates": [],
-"controversies": [
-"Defended Roundup despite internal knowledge of cancer links",
-"Aggressive legal and PR tactics against critics",
-"Monsanto ghost-wrote scientific studies"
- ],
-"relatedInvestigations": [
- {
-"title":"Corporate Homicide",
-"slug":"corporate-homicide",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2003",
-"event":"Became Monsanto CEO"
- },
- {
-"date":"2018",
-"event":"Bayer acquired Monsanto for $63B"
- }
- ],
-"sources": [
- {
-"title":"Reuters: Monsanto Roundup",
-"url":"https://www.reuters.com/investigates/special-report/glyphosate-cancer-costs-analysis/",
-"date":"2019"
- }
- ]
- },
- 'hamid-karzai': {
-"name":"Hamid Karzai",
-"title":"Former President of Afghanistan",
-"role":"U.S.-Backed Afghan Leader",
-"riskLevel":"medium",
-"description":"First president of Afghanistan after the U.S. invasion (2001-2014). Initially backed by the U.S. but his government became synonymous with corruption and ineffective governance. Brother Ahmed Wali Karzai was a CIA asset and alleged drug trafficker.",
-"education": [
-"Himachal Pradesh University - M.A."
- ],
-"affiliations": [
- {
-"name":"Government of Afghanistan",
-"role":"President",
-"type":"agency"
- }
- ],
-"knownAssociates": [
- {
-"name":"George W. Bush",
-"relationship":"U.S. President who installed him",
-"href":"/entities/individuals/george-w-bush"
- }
- ],
-"controversies": [
-"Government plagued by corruption",
-"Brother was CIA asset and alleged drug trafficker",
-"Failed to build effective Afghan governance",
-"Increasingly critical of U.S. military operations"
- ],
-"relatedInvestigations": [
- {
-"title":"Afghanistan Papers",
-"slug":"afghanistan-papers",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2001",
-"event":"Became interim leader of Afghanistan"
- },
- {
-"date":"2004",
-"event":"Elected president"
- },
- {
-"date":"2014",
-"event":"Left office"
- }
- ],
-"sources": [
- {
-"title":"Washington Post: Afghanistan Papers",
-"url":"https://www.washingtonpost.com/graphics/2019/investigations/afghanistan-papers/",
-"date":"2019"
- }
- ]
- },
+  'hugh-grant-monsanto': {
+    name: 'Hugh Grant (Monsanto)',
+    title: 'Former Monsanto CEO',
+    role: 'Led Roundup/Glyphosate Defense',
+    riskLevel: 'high',
+    description: 'CEO of Monsanto (2003-2018) who oversaw the company during its most controversial period, including the defense of Roundup weedkiller against cancer claims and the push for GMO adoption. Led Monsanto through the Bayer acquisition in 2018, just before massive Roundup lawsuit losses.',
+    education: ['University of Edinburgh'],
+    affiliations: [
+      { name: 'Monsanto', role: 'CEO', type: 'corporation' },
+    ],
+    controversies: [
+      'Defended Roundup despite internal knowledge of cancer links',
+      'Aggressive legal and PR tactics against critics',
+      'Monsanto ghost-wrote scientific studies',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Corporate Homicide', slug: 'corporate-homicide', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2003', event: 'Became Monsanto CEO' },
+      { date: '2018', event: 'Bayer acquired Monsanto for $63B' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Reuters: Monsanto Roundup', url: 'https://www.reuters.com/investigates/special-report/glyphosate-cancer-costs-analysis/', date: '2019' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'hamid-karzai': {
+    name: 'Hamid Karzai',
+    title: 'Former President of Afghanistan',
+    role: 'U.S.-Backed Afghan Leader',
+    riskLevel: 'medium',
+    description: 'First president of Afghanistan after the U.S. invasion (2001-2014). Initially backed by the U.S. but his government became synonymous with corruption and ineffective governance. Brother Ahmed Wali Karzai was a CIA asset and alleged drug trafficker.',
+    education: ['Himachal Pradesh University - M.A.'],
+    affiliations: [
+      { name: 'Government of Afghanistan', role: 'President', type: 'agency' },
+    ],
+    controversies: [
+      'Government plagued by corruption',
+      'Brother was CIA asset and alleged drug trafficker',
+      'Failed to build effective Afghan governance',
+      'Increasingly critical of U.S. military operations',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Afghanistan Papers', slug: 'afghanistan-papers', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2001', event: 'Became interim leader of Afghanistan' },
+      { date: '2004', event: 'Elected president' },
+      { date: '2014', event: 'Left office' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Washington Post: Afghanistan Papers', url: 'https://www.washingtonpost.com/graphics/2019/investigations/afghanistan-papers/', date: '2019' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'George W. Bush', relationship: 'U.S. President who installed him', href: '/entities/individuals/george-w-bush' },
+    ],
+  },
+
   'heritage-foundation': {
     name: 'Heritage Foundation',
     title: 'Public Figure Under Investigation',

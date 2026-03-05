@@ -1270,6 +1270,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'alberto-gonzales': {
     name: 'Alberto Gonzales',
     title: 'U.S. Attorney General (2005-2007)',
@@ -1318,6 +1319,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'John Yoo', relationship: 'Torture memo author', href: '/entities/individuals/john-yoo' },
     ],
   },
+
 
 
 

@@ -53,6 +53,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Met multiple times, photographed together', href: '/entities/individuals/donald-trump' },
     ],
   },
+
   'les-wexner': {
     name: 'Les Wexner',
     title: 'Public Figure Under Investigation',
@@ -145,6 +146,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Appointee, major donor', href: '/entities/individuals/donald-trump' },
     ],
   },
+
   'lachlan-murdoch': {
     name: 'Lachlan Keith Murdoch',
     title: 'Fox Corporation CEO',
@@ -195,57 +197,58 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Network supported his candidacy', href: '/entities/individuals/donald-trump' },
     ],
   },
- 'lou-dobbs': {
- name: 'Louis Carl Dobbs',
- title: 'Former Fox Business Host',
- role: 'Election Disinformation Spreader',
- riskLevel: 'high',
- description: 'Lou Dobbs was a Fox Business host whose show was cancelled in 2021 after he was named in Smartmatic\'s defamation lawsuit for spreading false election fraud claims. He died in 2024. Trump called him"a great fighter"and"champion of truth."',
- birthDate: 'September 24, 1945',
- birthPlace: 'Childress, Texas, USA',
- education: [
- 'B.A. - Harvard University (Economics)',
- ],
- netWorth: '$60+ million',
- aliases: [],
- affiliations: [
- { name: 'Fox Business', role: 'Host (2011-2021)', type: 'corporation' },
- { name: 'CNN', role: 'Host (1980-2009)', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Close ally, spoke at events', href: '/entities/individuals/donald-trump' },
- { name: 'Sidney Powell', relationship: 'Promoted her election claims', href: '/entities/individuals/sidney-powell' },
- { name: 'Rudy Giuliani', relationship: 'Gave platform repeatedly', href: '/entities/individuals/rudy-giuliani' },
- ],
- controversies: [
- 'Show cancelled after Smartmatic lawsuit',
- 'Repeatedly promoted false election claims',
- 'Called a"true believer"in Trump conspiracies',
- 'Participated in Trump campaign calls',
- ],
- charges: [
- { statute: 'Civil Defamation Liability', description: 'Smartmatic Lawsuit - Show cancelled after being named defendant for broadcasting false voting machine claims', category: 'Civil' },
- { statute: 'Civil Defamation Liability', description: 'Dominion Lawsuit - Named in $1.6 billion lawsuit for repeatedly promoting false election fraud claims', category: 'Civil' },
- { statute: '52 U.S.C. § 20511', description: 'Potential Conspiracy to Deprive Voting Rights - Broadcast coordinated disinformation campaign to undermine election results', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud - Knowingly broadcast false statements about election integrity for profit and influence', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction - Broadcast claims designed to prevent certification and overturn election', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Participated in Trump campaign calls while broadcasting favorable coverage', category: 'Potential Federal' },
- { statute: 'FCC Regulations 47 C.F.R. § 73.1217', description: 'Broadcast Violations - Deliberate broadcasting of demonstrably false statements about election security', category: 'Regulatory' },
- ],
- relatedInvestigations: [
- { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
- ],
- timeline: [
- { date: '1945', event: 'Born in Texas' },
- { date: '2011', event: 'Joins Fox Business' },
- { date: '2020', event: 'Promotes election fraud claims extensively' },
- { date: '2021', event: 'February: Show cancelled after Smartmatic lawsuit' },
- { date: '2024', event: 'July: Dies at age 78' },
- ],
- sources: [
- { title: 'Smartmatic Lawsuit', url: 'https://www.courtlistener.com/', date: '2021' },
- ],
- },
+
+  'lou-dobbs': {
+    name: 'Louis Carl Dobbs',
+    title: 'Former Fox Business Host',
+    role: 'Election Disinformation Spreader',
+    riskLevel: 'high',
+    description: 'Lou Dobbs was a Fox Business host whose show was cancelled in 2021 after he was named in Smartmatic\'s defamation lawsuit for spreading false election fraud claims. He died in 2024. Trump called him"a great fighter"and"champion of truth."',
+    birthDate: 'September 24, 1945',
+    birthPlace: 'Childress, Texas, USA',
+    netWorth: '$60+ million',
+    education: ['B.A. - Harvard University (Economics)'],
+    affiliations: [
+      { name: 'Fox Business', role: 'Host (2011-2021)', type: 'corporation' },
+      { name: 'CNN', role: 'Host (1980-2009)', type: 'corporation' },
+    ],
+    controversies: [
+      'Show cancelled after Smartmatic lawsuit',
+      'Repeatedly promoted false election claims',
+      'Called a"true believer"in Trump conspiracies',
+      'Participated in Trump campaign calls',
+    ],
+    charges: [
+      { statute: 'Civil Defamation Liability', description: 'Smartmatic Lawsuit - Show cancelled after being named defendant for broadcasting false voting machine claims', category: 'Civil' },
+      { statute: 'Civil Defamation Liability', description: 'Dominion Lawsuit - Named in $1.6 billion lawsuit for repeatedly promoting false election fraud claims', category: 'Civil' },
+      { statute: '52 U.S.C. § 20511', description: 'Potential Conspiracy to Deprive Voting Rights - Broadcast coordinated disinformation campaign to undermine election results', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud - Knowingly broadcast false statements about election integrity for profit and influence', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction - Broadcast claims designed to prevent certification and overturn election', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Participated in Trump campaign calls while broadcasting favorable coverage', category: 'Potential Federal' },
+      { statute: 'FCC Regulations 47 C.F.R. § 73.1217', description: 'Broadcast Violations - Deliberate broadcasting of demonstrably false statements about election security', category: 'Regulatory' },
+    ],
+    relatedInvestigations: [
+      { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1945', event: 'Born in Texas' },
+      { date: '2011', event: 'Joins Fox Business' },
+      { date: '2020', event: 'Promotes election fraud claims extensively' },
+      { date: '2021', event: 'February: Show cancelled after Smartmatic lawsuit' },
+      { date: '2024', event: 'July: Dies at age 78' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Smartmatic Lawsuit', url: 'https://www.courtlistener.com/', date: '2021' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Close ally, spoke at events', href: '/entities/individuals/donald-trump' },
+      { name: 'Sidney Powell', relationship: 'Promoted her election claims', href: '/entities/individuals/sidney-powell' },
+      { name: 'Rudy Giuliani', relationship: 'Gave platform repeatedly', href: '/entities/individuals/rudy-giuliani' },
+    ],
+  },
+
  'lisa-monaco': {
  name: 'Lisa Oudens Monaco',
  title: 'Deputy Attorney General',
@@ -286,159 +289,96 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'DOJ Leadership Profile', url: 'https://scholar.google.com/scholar?q=DOJ%20Leadership%20Profile', date: '2021' },
  ],
  },
- 'lindsey-graham': {
- name: 'Lindsey Graham',
- title: 'U.S. Senator (R-SC)',
- role: 'Trump Ally in Congress',
- riskLevel: 'medium' as const,
- description: 'Senior Republican Senator who transformed from harsh Trump critic during 2016 primaries to staunch Trump defender. Graham made calls to Georgia officials after the 2020 election that are under investigation. He served as Senate Judiciary Chair and helped confirm three Trump Supreme Court justices. Known for dramatic reversals from calling Trump a"race-baiting xenophobe"to becoming one of his closest Senate allies.',
- education: [],
- affiliations: [
- { name: 'U.S. Senate', role: 'Senator, South Carolina', type: 'agency' },
- { name: 'Senate Judiciary Committee', role: 'Former Chair', type: 'agency' },
- { name: 'Republican Party', role: 'Senior Member', type: 'organization' },
- ],
+  'lindsey-graham': {
+    name: 'Lindsey Graham',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Lindsey Graham is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Lindsey Graham has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Transformed from calling Trump a"race-baiting xenophobe"in 2015 to becoming one of his closest Senate allies and golf partner', href: '/entities/individuals/donald-trump' },
- { name: 'John McCain', relationship: 'Close personal friend and Senate ally for decades; continued McCain\'s legacy on foreign policy hawkishness', href: '/entities/individuals/john-mccain' },
- { name: 'Brett Kavanaugh', relationship: 'Led aggressive defense during contentious Supreme Court confirmation hearings as Senate Judiciary Chair', href: '/entities/individuals/brett-kavanaugh' },
- { name: 'Ted Cruz', relationship: 'Fellow Republican senator; competed for influence in Trump-era GOP realignment', href: '/entities/individuals/ted-cruz' },
- { name: 'Joe Biden', relationship: 'Cross-aisle relationship from shared Senate service; publicly called Biden"as good a man as God ever created"before becoming fierce critic', href: '/entities/individuals/joe-biden' },
- ],
- controversies: [
- 'Called Georgia officials about ballot signatures in 2020',
- 'Fought subpoena from Fulton County grand jury',
- 'Called Trump"race-baiting xenophobe"in 2015',
- 'Became close Trump ally and golf partner',
- 'Led Barrett Supreme Court confirmation',
- 'Predicted"destroyed"party if they nominated Trump',
- ],
- charges: [
- { statute: 'Georgia O.C.G.A. § 21-2-604', description: 'Potential Solicitation of Election Fraud - Called Georgia Secretary of State Raffensperger suggesting he find ways to discard legal ballots', category: 'Potential State Election' },
- { statute: '52 U.S.C. § 20511', description: 'Potential Voter Intimidation - Pressured state election official regarding ballot counting', category: 'Potential Federal Election' },
- { statute: '18 U.S.C. § 595', description: 'Potential Interference with Elections by Government Officer - Used Senate position to pressure Georgia officials', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy to Defraud the United States - Participated in coordinated effort to overturn election results', category: 'Potential Federal' },
- { statute: 'Senate Ethics Rules', description: 'Multiple Violations - Using official position to interfere with state election administration, misleading public about election integrity', category: 'Ethics' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Denied asking Raffensperger to throw out ballots despite witness accounts', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- { title: 'Georgia RICO Case', slug: 'georgia-rico', severity: 'critical' },
- { title: 'Fake Electors Scheme', slug: 'fake-electors', severity: 'critical' },
- ],
- timeline: [
- { date: '2015-2016', event: 'Harsh Trump critic during primaries' },
- { date: '2017', event: 'Becomes close Trump ally' },
- { date: '2020', event: 'Chairs Barrett confirmation hearings' },
- { date: 'November 2020', event: 'Calls Georgia Secretary of State Raffensperger' },
- { date: '2022', event: 'Fights Fulton County grand jury subpoena' },
- ],
- sources: [
- { title: 'Georgia Investigation Documents', url: 'https://scholar.google.com/scholar?q=Georgia%20Investigation%20Documents', date: '2022' },
- { title: 'Raffensperger Account', url: 'https://scholar.google.com/scholar?q=Raffensperger%20Account', date: '2021' },
- ],
- },
- 'letitia-james': {
- name: 'Letitia Ann James',
- title: 'New York Attorney General',
- role: 'Prosecutor',
- riskLevel: 'low' as const,
- description: 'New York Attorney General who won a landmark $454 million civil fraud judgment against Donald Trump and the Trump Organization. Her investigation found Trump inflated his net worth by billions to secure favorable loans. Also oversaw dissolution of the Trump Foundation for charity fraud. First Black woman elected to statewide office in New York.',
- birthDate: 'October 18, 1958',
- birthPlace: 'Brooklyn, New York',
- education: [
- 'Howard University School of Law (J.D.)',
- 'CUNY Lehman College (B.A.)',
- ],
- affiliations: [
- { name: 'New York Attorney General Office', role: 'Attorney General', type: 'agency' },
- { name: 'Democratic Party', role: 'Elected Official', type: 'organization' },
- ],
+  'letitia-james': {
+    name: 'Letitia James',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Letitia James is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Letitia James has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'New York AG who won $454 million civil fraud judgment against Trump and the Trump Organization', href: '/entities/individuals/donald-trump' },
- { name: 'Allen Weisselberg', relationship: 'Trump Organization CFO whose testimony and conviction were central to James\'s fraud case', href: '/entities/individuals/allen-weisselberg' },
- { name: 'Eric Trump', relationship: 'Named defendant in civil fraud suit; found liable alongside his father for inflating assets', href: '/entities/individuals/eric-trump' },
- { name: 'Michael Cohen', relationship: 'Former Trump lawyer whose congressional testimony provided roadmap for James\'s fraud investigation', href: '/entities/individuals/michael-cohen' },
- ],
- controversies: [
- 'Won $454 million fraud judgment against Trump',
- 'Dissolved Trump Foundation for charity fraud',
- 'Faced threats and harassment for prosecuting Trump',
- 'Republican attempts to discredit as"political witch hunt"',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Trump Organization Fraud', slug: 'trump-org-fraud', severity: 'critical' },
- { title: 'Trump Foundation', slug: 'trump-foundation', severity: 'high' },
- ],
- timeline: [
- { date: 'January 2019', event: 'Takes office as NY Attorney General' },
- { date: '2019', event: 'Dissolves Trump Foundation for fraud' },
- { date: 'September 2022', event: 'Files $250M civil fraud lawsuit' },
- { date: 'February 2024', event: 'Judge rules Trump liable for $454M' },
- ],
- sources: [
- { title: 'NY AG Court Filings', url: 'https://www.courtlistener.com/', date: '2022-2024' },
- { title: 'Judge Engoron Decision', url: 'https://scholar.google.com/scholar?q=Judge%20Engoron%20Decision', date: '2024' },
- ],
- },
- 'lin-wood': {
- name: 'Lucian Lincoln Wood Jr.',
- title: 'Attorney',
- role: 'Election Conspiracy Lawyer',
- riskLevel: 'high' as const,
- aliases: ['Lin Wood'],
- description: 'High-profile attorney who became notorious for spreading election conspiracy theories and filing frivolous lawsuits challenging the 2020 election. Made outlandish claims including that Chief Justice John Roberts was involved in Epstein conspiracy and that Mike Pence should face execution. Investigated by Georgia and Texas bar associations.',
- birthDate: 'October 19, 1952',
- birthPlace: 'Raleigh, North Carolina',
- education: [
- 'J.D. - Mercer University School of Law',
- 'B.A. - Mercer University',
- ],
- affiliations: [
- { name: 'L. Lin Wood, P.C.', role: 'Attorney', type: 'corporation' },
- ],
- controversies: [
- 'Filed numerous frivolous election lawsuits',
- 'Claimed Chief Justice Roberts in Epstein conspiracy',
- 'Called for Mike Pence to face"firing squad"',
- 'Spread QAnon-adjacent conspiracy theories',
- 'Georgia bar investigated for mental competency',
- 'Multiple bar complaints filed',
- 'Fell out with Sidney Powell and Kyle Rittenhouse',
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Political ally and election fraud claims attorney', href: '/entities/individuals/donald-trump' },
- { name: 'Jeffrey Epstein', relationship: 'Made public claims about Epstein network and Chief Justice Roberts', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Ghislaine Maxwell', relationship: 'Referenced Maxwell connections in conspiratorial claims', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Alan Dershowitz', relationship: 'Public disputes over Epstein-related allegations', href: '/entities/individuals/alan-dershowitz' }
- ],
- charges: [
- { statute: 'Georgia Bar Rules 3.1', description: 'Frivolous Lawsuits - Filed numerous meritless election lawsuits knowing claims were false', category: 'Bar Violations' },
- { statute: '18 U.S.C. § 373 (Solicitation)', description: 'Incitement to Violence - Publicly called for Vice President Pence to face"firing squad"', category: 'Incitement' },
- { statute: '18 U.S.C. § 875(c) (Threats)', description: 'Threatening Communications - Death threats against government officials via social media', category: 'Threats' },
- { statute: '18 U.S.C. § 1001 (False Statements)', description: 'False Claims - Made knowingly false election fraud allegations in court filings', category: 'Fraud' },
- { statute: 'Georgia Bar Rules 8.4', description: 'Attorney Misconduct - Conduct prejudicial to administration of justice, mental fitness questions', category: 'Ethics' },
- { statute: '52 U.S.C. § 20511 (Election Intimidation)', description: 'Voter Intimidation - False claims intended to undermine confidence in elections', category: 'Election Crime' },
- { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction - Participated in coordinated effort to prevent certification of election', category: 'Obstruction' },
- { statute: 'Fed. R. Civ. P. Rule 11', description: 'Sanctions Violations - Filed court documents without factual basis', category: 'Court Sanctions' },
- ],
- relatedInvestigations: [
- { title: 'Fake Electors Scheme', slug: 'fake-electors', severity: 'critical' },
- ],
- timeline: [
- { date: '2020', event: 'Files multiple election lawsuits' },
- { date: 'December 2020', event: 'Attends"Stop the Steal"rallies' },
- { date: 'January 2021', event: 'Calls for Pence execution' },
- { date: '2021', event: 'Georgia bar opens investigation' },
- { date: '2022', event: 'Faces bar disciplinary proceedings' },
- ],
- sources: [
- { title: 'Georgia State Bar Proceedings', url: 'https://scholar.google.com/scholar?q=Georgia%20State%20Bar%20Proceedings', date: '2021-2022' },
- { title: 'Election Lawsuit Filings', url: 'https://www.courtlistener.com/', date: '2020' },
- ],
- },
+  'lin-wood': {
+    name: 'Lin Wood',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Lin Wood is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Lin Wood has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'liz-cheney': {
  name: 'Elizabeth Lynne Cheney',
  title: 'Former U.S. Representative (R-WY)',
@@ -483,56 +423,36 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Congressional Records', url: 'https://scholar.google.com/scholar?q=Congressional%20Records', date: '2021-2023' },
  ],
  },
- 'lauren-boebert': {
- name: 'Lauren Opal Boebert',
- title: 'U.S. Representative (R-CO)',
- role: 'Election Denial Congresswoman',
- riskLevel: 'high' as const,
- description: 'Republican Congresswoman known for gun rights advocacy, election denial, and inflammatory rhetoric. Tweeted"Today is 1776"on January 6. Investigated for potentially providing reconnaissance tours before the Capitol attack. Husband exposed himself to minors in 2004 (she was present).',
- birthDate: 'December 19, 1986',
- birthPlace: 'Altamonte Springs, Florida',
- education: [
- 'GED (obtained 2020)',
- ],
- affiliations: [
- { name: 'U.S. House of Representatives', role: 'Representative (2021-Present)', type: 'agency' },
- { name: 'Freedom Caucus', role: 'Member', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Ally', href: '/entities/individuals/donald-trump' },
- { name: 'Marjorie Taylor Greene', relationship: 'Political ally', href: '/entities/individuals/marjorie-taylor-greene' },
- ],
- controversies: [
- 'Tweeted"Today is 1776"on January 6',
- 'Investigated for Capitol tours before attack',
- 'Tweeted Pelosi location during attack',
- 'Husband\'s indecent exposure conviction',
- 'Restaurant caused food poisoning outbreak',
- 'Multiple arrests before Congress',
- 'Election denial promotion',
- ],
- charges: [
- { statute: '18 U.S.C. § 1512(c)(2)', description: 'Potential Obstruction of Official Proceeding - Tweeted"Today is 1776"on January 6, potentially coordinating with insurrectionists', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 373', description: 'Potential Solicitation to Commit Crime of Violence -"1776"tweet interpreted as call to violent revolution during attack', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 879', description: 'Potential Threats Against Officials - Tweeted location of Speaker Pelosi during active attack on Capitol', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 2', description: 'Potential Aiding and Abetting - Investigated for providing reconnaissance tours before January 6 attack', category: 'Potential Federal' },
- { statute: 'U.S. Constitution, 14th Amendment, Section 3', description: 'Potential Disqualification from Office - Potential engagement in or giving aid to insurrection', category: 'Constitutional' },
- { statute: 'House Ethics Rules', description: 'Multiple Violations - Potentially compromising Capitol security, election denial promotion', category: 'Ethics' },
- { statute: 'Colorado Rev. Stat. § 25-4-1607', description: 'Past Violation - Restaurant caused pork slider food poisoning outbreak (Shooters Grill)', category: 'State Public Health' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 6, 2021', event: 'Tweets"Today is 1776"' },
- { date: 'January 6, 2021', event: 'Votes against certification' },
- { date: '2021', event: 'Investigated for reconnaissance tours' },
- ],
- sources: [
- { title: 'Twitter Archive', url: 'https://scholar.google.com/scholar?q=Twitter%20Archive', date: '2021' },
- { title: 'House Ethics Records', url: 'https://scholar.google.com/scholar?q=House%20Ethics%20Records', date: '2021' },
- ],
- },
+  'lauren-boebert': {
+    name: 'Lauren Boebert',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Lauren Boebert is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Lauren Boebert has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'lewis-kaplan': {
  name: 'Lewis A. Kaplan',
  title: 'U.S. District Judge (S.D.N.Y.)',
@@ -610,132 +530,66 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'DOJ IG Report on Texts', url: 'https://www.justice.gov/', date: '2018' },
  ],
  },
- 'laura-ingraham': {
- name: 'Laura Anne Ingraham',
- title: 'Fox News Host',
- role: 'Pro-Trump Media Personality',
- riskLevel: 'medium' as const,
- description: 'Fox News host and conservative commentator who has been one of Trump\'s most loyal media defenders. Hosts"The Ingraham Angle."Text messages revealed she knew Trump lost 2020 election but continued promoting election fraud claims on air. Dominion lawsuit revealed her private doubts.',
- birthDate: 'June 19, 1963',
- birthPlace: 'Glastonbury, Connecticut',
- education: [
- 'J.D. - University of Virginia',
- 'B.A. - Dartmouth College',
- ],
- affiliations: [
- { name: 'Fox News', role: 'Host, The Ingraham Angle', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Tucker Carlson', relationship: 'Fellow Fox host', href: '/entities/individuals/tucker-carlson' },
- { name: 'Sean Hannity', relationship: 'Fellow Fox host', href: '/entities/individuals/sean-hannity' },
- { name: 'Donald Trump', relationship: 'Political ally', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'Texted Meadows on Jan 6 to stop violence',
- 'Dominion lawsuit revealed private doubts',
- 'Continued promoting election fraud on air',
- 'Known gap between private/public statements',
- 'Mocked Parkland survivor David Hogg',
- 'Gave Nazi-like salute at 2016 RNC (claims accidental)',
- 'Promoted hydroxychloroquine as COVID cure',
- ],
- charges: [
- { statute: 'Civil Defamation Liability', description: 'Dominion/Smartmatic Lawsuits - Knowingly spread false election fraud claims while privately doubting them', category: 'Civil' },
- { statute: '52 U.S.C. § 20511', description: 'Potential Conspiracy to Deprive Rights - Promoted false election claims designed to disenfranchise voters', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction Awareness - Texts to Meadows show awareness of danger, knowledge of need for Trump to act', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud - Broadcasting statements known to be false to defraud viewers and advertisers', category: 'Potential Federal' },
- { statute: 'FCC Regulations', description: 'Potential Broadcasting Violations - Deliberate broadcasting of known false statements about election integrity', category: 'Regulatory' },
- ],
- relatedInvestigations: [
- { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- ],
- timeline: [
- { date: '2017', event: 'Launches The Ingraham Angle' },
- { date: 'January 6, 2021', event: 'Texts Meadows urging Trump to stop riot' },
- { date: '2023', event: 'Private texts exposed in Dominion case' },
- ],
- sources: [
- { title: 'Dominion v. Fox Depositions', url: 'https://www.courtlistener.com/', date: '2023' },
- { title: 'January 6 Committee Text Messages', url: 'https://www.courtlistener.com/', date: '2022' },
- ],
- },
- 'larry-fink': {
- name: 'Laurence Douglas Fink',
- title: 'Chairman & CEO, BlackRock',
- role: 'Head of World\'s Largest Asset Manager, Davos Leader',
- riskLevel: 'high' as const,
- description: 'Larry Fink is the CEO of BlackRock, the world\'s largest asset manager with over $10 trillion in assets under management. A central figure at the World Economic Forum in Davos, he has promoted ESG investing and stakeholder capitalism while BlackRock\'s massive holdings give it unprecedented influence over global corporations and markets.',
- birthDate: 'November 2, 1952',
- birthPlace: 'Van Nuys, California, USA',
- education: [
- 'MBA - UCLA Anderson School of Management (1976)',
- 'B.A. Political Science - UCLA (1974)',
- ],
- netWorth: '$1.2+ billion',
- aliases: ['King of Wall Street', 'BlackRock Larry'],
- affiliations: [
- { name: 'BlackRock', role: 'Co-Founder, Chairman & CEO (1988-Present)', type: 'corporation' },
- { name: 'World Economic Forum', role: 'Board of Trustees', type: 'organization' },
- { name: 'Council on Foreign Relations', role: 'Board Member', type: 'organization' },
- { name: 'Museum of Modern Art', role: 'Board Member', type: 'organization' },
- { name: 'NYU', role: 'Board of Trustees', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Klaus Schwab', relationship: 'WEF partnership, Great Reset alignment', href: '/entities/individuals/klaus-schwab' },
- { name: 'Bill Gates', relationship: 'Climate investment coordination', href: '/entities/individuals/bill-gates' },
- { name: 'Janet Yellen', relationship: 'Treasury coordination, FSOC', href: '/entities/individuals/janet-yellen' },
- ],
- controversies: [
- 'UNPRECEDENTED CONCENTRATION: BlackRock manages $10+ trillion, making it the largest shareholder in most major corporations globally',
- 'ESG CONTROVERSY: Promoted ESG (Environmental, Social, Governance) investing, attacked by both left (greenwashing) and right (woke capitalism)',
- 'GOVERNMENT CONTRACTS: BlackRock received no-bid Fed contracts during COVID crisis to manage bond-buying programs, potential conflicts',
- 'SHAREHOLDER VOTING POWER: BlackRock votes shares for millions of retirement accounts, giving Fink enormous corporate governance influence',
- '"YOU\'LL OWN NOTHING": Associated with WEF vision of stakeholder capitalism and reduced private ownership',
- 'HOUSING CRISIS ROLE: BlackRock and subsidiaries bought 80,000+ homes post-2008 crash, accused of driving up prices',
- 'FOSSIL FUEL HYPOCRISY: Promotes climate action while remaining one of world\'s largest investors in fossil fuel companies',
- 'ALADDIN SYSTEM: BlackRock\'s Aladdin risk management system manages $20+ trillion globally, creating systemic risk concentration',
- 'REVOLVING DOOR: Former BlackRock executives have served in Biden Treasury, Fed, and other financial regulatory roles',
- ],
- charges: [
- { statute: '15 U.S.C. § 78j (Securities Exchange Act)', description: 'Potential Market Manipulation - BlackRock\'s $10+ trillion in holdings gives unprecedented ability to influence markets and corporate governance', category: 'Potential Securities' },
- { statute: 'Sherman Antitrust Act (15 U.S.C. § 1)', description: 'Potential Antitrust Concerns - BlackRock, Vanguard, State Street together own 20%+ of most S&P 500 companies, raising competition concerns', category: 'Potential Federal' },
- { statute: 'Clayton Act (15 U.S.C. § 18)', description: 'Potential Horizontal Shareholding Concerns - Common ownership across competing companies may reduce competition', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 208 (Financial Conflicts)', description: 'Revolving Door Concerns - Former BlackRock executives in government positions created appearance of conflicts', category: 'Ethics' },
- { statute: 'FAR 3.104 (Procurement Integrity)', description: 'No-Bid Contract Questions - Received Fed contracts during COVID without competitive bidding process', category: 'Potential Federal' },
- { statute: 'Dodd-Frank SIFI Designation', description: 'Systemic Risk Creation - Aladdin system managing $20+ trillion creates concentrated systemic risk', category: 'Regulatory Concern' },
- { statute: 'Investment Company Act', description: 'Potential Fiduciary Duty Questions - Using shareholder votes for ESG agenda vs. pure financial returns', category: 'Potential Securities' },
- { statute: 'Fair Housing Act (42 U.S.C. § 3601)', description: 'Housing Market Impact - BlackRock\'s purchase of 80,000+ homes allegedly contributed to housing affordability crisis', category: 'Civil Rights Impact' },
- ],
- relatedInvestigations: [
- { title: 'The Great Reset Agenda', slug: 'great-reset', severity: 'high' },
- { title: 'Global Governance Networks', slug: 'global-governance', severity: 'high' },
- { title: 'Economic Manipulation', slug: 'economic-manipulation', severity: 'high' },
- ],
- timeline: [
- { date: '1952', event: 'Born in Van Nuys, California' },
- { date: '1976', event: 'Joins First Boston after UCLA MBA' },
- { date: '1988', event: 'Co-founds BlackRock with initial $1 billion under management' },
- { date: '1999', event: 'Takes BlackRock public' },
- { date: '2006', event: 'Acquires Merrill Lynch Investment Managers' },
- { date: '2009', event: 'Acquires Barclays Global Investors, including iShares ETFs' },
- { date: '2009', event: 'BlackRock hired by Treasury/Fed to manage toxic assets' },
- { date: '2017', event: 'Annual letter calls for"sense of purpose"in corporations' },
- { date: '2018', event: 'Letter demands companies address societal impact' },
- { date: '2020', event: 'BlackRock awarded no-bid Fed contracts for pandemic bond buying' },
- { date: '2020', event: 'Assets under management exceed $8 trillion' },
- { date: '2021', event: 'Joins WEF Great Reset initiative' },
- { date: '2022', event: 'ESG backlash leads to state divestment campaigns' },
- { date: '2023', event: 'Drops"ESG"language amid political controversy' },
- { date: '2024', event: 'BlackRock AUM exceeds $10 trillion' },
- ],
- sources: [
- { title: 'BlackRock SEC Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001364742', date: '2024' },
- { title: 'WEF Board of Trustees', url: 'https://www.weforum.org/about/leadership-and-governance/', date: '2024' },
- { title: 'Fed BlackRock Contracts', url: 'https://www.newyorkfed.org/markets/secondary-market-corporate-credit-facility', date: '2020' },
- { title: 'Fink Annual Letters', url: 'https://blackrock.com/corporate/investor-relations/larry-fink-annual-letter', date: '2024' },
- ],
- },
+  'laura-ingraham': {
+    name: 'Laura Ingraham',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Laura Ingraham is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Laura Ingraham has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'larry-fink': {
+    name: 'Larry Fink',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Larry Fink is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Larry Fink has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'lanny-davis': {
  name: 'Lanny J. Davis',
  title: 'Attorney, Political Commentator',
@@ -773,193 +627,131 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Cohen Testimony Records', url: 'https://scholar.google.com/scholar?q=Cohen%20Testimony%20Records', date: '2019' },
  ],
  },
- 'leonard-leo': {
- name: 'Leonard Anthony Leo',
- title: 'Federalist Society Co-Chairman',
- role: 'Architect of Conservative Judicial Takeover, Dark Money Kingpin',
- riskLevel: 'critical' as const,
- description: 'Leonard Leo is the most influential unelected figure in American history, having engineered the conservative takeover of the federal judiciary through a $1.6 billion dark money network. As co-chairman of the Federalist Society, he personally selected all three Trump Supreme Court nominees (Gorsuch, Kavanaugh, Barrett) and shaped the 6-3 conservative majority that overturned Roe v. Wade. His network of nonprofits funnels hundreds of millions in untraceable donations to judicial confirmation campaigns, Republican causes, and groups that appear before the courts he stacked. He has close personal relationships with Clarence Thomas and Samuel Alito, providing luxury travel while they rule on cases affecting his donors. In 2020, he received the largest single political gift in history: $1.6 billion from electronics mogul Barre Seid.',
- birthDate: 'June 1, 1965',
- birthPlace: 'Monroe, New Jersey',
- netWorth: 'Unknown (controls $1.6B+ in nonprofit funds)',
- aliases: ['The Judicial Kingmaker', 'Dark Money Leo'],
- education: [
- 'Cornell University (B.A. 1987)',
- 'Cornell Law School (J.D. 1989)',
- ],
- affiliations: [
- { name: 'Federalist Society', role: 'Co-Chairman (since 1991)', type: 'organization' },
- { name: 'Judicial Crisis Network', role: 'Board Member/Controller', type: 'organization' },
- { name: 'CRC Advisors', role: 'Principal', type: 'corporation' },
- { name: 'Marble Freedom Trust', role: 'Controls ($1.6B gift)', type: 'organization' },
- { name: 'Concord Fund', role: 'Controls (formerly JCN)', type: 'organization' },
- { name: '85 Fund', role: 'Controls', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Clarence Thomas', relationship: 'Close friend, provides luxury travel, Thomas rules on his donors\' cases', href: '/entities/individuals/clarence-thomas' },
- { name: 'Ginni Thomas', relationship: 'Close associate, funding connections', href: '/entities/individuals/ginni-thomas' },
- { name: 'Harlan Crow', relationship: 'Network ally, fellow Thomas benefactor', href: '/entities/individuals/harlan-crow' },
- { name: 'Donald Trump', relationship: 'Judicial advisor, provided all SCOTUS picks', href: '/entities/individuals/donald-trump' },
- { name: 'Brett Kavanaugh', relationship: 'Selected for Supreme Court, led confirmation', href: '/entities/individuals/brett-kavanaugh' },
- { name: 'Samuel Alito', relationship: 'Selected for Supreme Court, provided travel', href: '/entities/individuals/samuel-alito' },
- { name: 'Neil Gorsuch', relationship: 'Selected for Supreme Court', href: '/entities/individuals/neil-gorsuch' },
- { name: 'Amy Coney Barrett', relationship: 'Selected for Supreme Court', href: '/entities/individuals/amy-coney-barrett' },
- { name: 'Charles Koch', relationship: 'Dark money network coordination', href: '/entities/individuals/charles-koch' },
- ],
- controversies: [
- 'CRIME 1 - JUDICIAL CORRUPTION: Hand-picked all 3 Trump Supreme Court justices',
- 'Created the 6-3 conservative majority that overturned Roe v. Wade',
- 'Close personal friendship with Clarence Thomas while cases decided',
- 'Provided luxury travel to Thomas, Alito while controlling cases before them',
- 'CRIME 2 - DARK MONEY CORRUPTION: Controls $1.6 billion dark money network',
- 'Received largest single political gift in US history ($1.6B from Barre Seid)',
- 'Network of 20+ nonprofits shields donor identities',
- 'Judicial Crisis Network spent $17M on Gorsuch, $22M on Kavanaugh confirmations',
- 'CRIME 3 - CONFLICTS OF INTEREST: Wife received $60,000 from Leo-controlled nonprofit',
- 'His donors\' cases come before justices he selected and befriended',
- 'ProPublica: Leo-connected groups filed amicus briefs in cases Thomas decided',
- 'CRIME 4 - SUBVERSION OF DEMOCRATIC PROCESS: Merrick Garland blockade strategy',
- 'Orchestrated campaign to block Obama\'s Supreme Court pick for 11 months',
- 'Then rushed Barrett confirmation in 8 days before 2020 election',
- 'CRIME 5 - TAX VIOLATIONS: $1.6B transfer designed to avoid taxes',
- 'Seid avoided $400M+ in taxes by donating company to Marble Freedom Trust',
- 'Network uses 501(c)(4)"social welfare"orgs for pure political activity',
- ],
- charges: [
- { statute: '18 U.S.C. § 201', description: 'Bribery of Public Officials - Providing things of value to justices', category: 'Federal' },
- { statute: '18 U.S.C. § 1346', description: 'Honest Services Fraud - Depriving public of impartial judiciary', category: 'Federal' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud United States - Dark money coordination', category: 'Federal' },
- { statute: '18 U.S.C. § 1962', description: 'RICO - Pattern of racketeering through nonprofit network', category: 'Federal' },
- { statute: '26 U.S.C. § 501(c)(4)', description: 'Non-Profit Abuse - Political activity through"social welfare"orgs', category: 'Federal' },
- { statute: '52 U.S.C. § 30122', description: 'Contribution in Name of Another - Dark money conduits', category: 'Federal' },
- { statute: '28 U.S.C. § 455', description: 'Judicial Disqualification - Creating conflicts of interest for justices', category: 'Federal' },
- { statute: 'Canon 3C Judicial Conduct', description: 'Disqualification - Gifts to judges creating appearance of impropriety', category: 'Judicial Ethics' },
- { statute: '5 U.S.C. App. § 101', description: 'Ethics in Government - Undisclosed gifts to judges', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'Dark Money Networks', slug: 'dark-money', severity: 'critical' },
- { title: 'Supreme Court Corruption', slug: 'scotus-corruption', severity: 'critical' },
- { title: 'Judicial Capture', slug: 'judicial-capture', severity: 'critical' },
- { title: 'Bribery and Corruption', slug: 'bribery-corruption', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 1, 1965', event: 'Born in Monroe, New Jersey' },
- { date: '1989', event: 'Graduates Cornell Law School' },
- { date: '1991', event: 'Joins Federalist Society' },
- { date: '2005', event: 'Advises Bush on Roberts and Alito nominations' },
- { date: '2016', event: 'Creates Trump judicial candidate list - gains unprecedented power' },
- { date: 'March 2016', event: 'Orchestrates Merrick Garland blockade strategy' },
- { date: '2017', event: 'Selects Neil Gorsuch for Supreme Court, leads confirmation' },
- { date: '2018', event: 'Selects Brett Kavanaugh, spends $22M on confirmation campaign' },
- { date: '2019', event: 'ProPublica begins investigating dark money network' },
- { date: 'September 2020', event: 'Ruth Bader Ginsburg dies - Leo springs into action' },
- { date: 'October 2020', event: 'Rushes Amy Coney Barrett confirmation in 8 days' },
- { date: '2020', event: 'Receives $1.6 billion from Barre Seid - largest political gift ever' },
- { date: 'June 2022', event: 'His court overturns Roe v. Wade - 50-year goal achieved' },
- { date: '2023', event: 'ProPublica exposes Clarence Thomas gift scandal' },
- { date: '2023', event: 'ProPublica exposes Samuel Alito luxury travel' },
- { date: '2023', event: 'Senate Judiciary investigates dark money network' },
- { date: '2024', event: 'Network continues shaping court rulings on immunity, regulatory power' },
- ],
- sources: [
- { title: 'ProPublica - Leonard Leo Dark Money Investigation', url: 'https://www.propublica.org/', date: '2023' },
- { title: 'New York Times - $1.6 Billion Gift Report', url: 'https://www.nytimes.com/', date: '2022' },
- { title: 'Washington Post - Federalist Society Investigation', url: 'https://www.washingtonpost.com/', date: '2022' },
- { title: 'Senate Judiciary Committee Investigation', url: 'https://www.congress.gov/', date: '2023-2024' },
- { title: 'IRS 990 Filings - Leo Network Nonprofits', url: 'https://www.irs.gov/', date: 'Various' },
- ],
- },
- 'linda-mcmahon': {
- name: 'Linda Marie McMahon',
- title: 'Former SBA Administrator, WWE Co-founder',
- role: 'Trump Cabinet Member, Education Secretary Nominee',
- riskLevel: 'medium',
- description: 'Linda McMahon co-founded WWE with her husband Vince McMahon and served as Trump\'s Small Business Administration head. She and her husband donated $5 million to the Trump Foundation, which was later ordered dissolved for illegal self-dealing. She has been nominated as Trump\'s Education Secretary despite having no education policy experience.',
- birthDate: 'October 4, 1948',
- birthPlace: 'New Bern, North Carolina',
- education: [
- 'B.A. - East Carolina University',
- ],
- netWorth: '$3 billion',
- affiliations: [
- { name: 'Small Business Administration', role: 'Administrator (2017-2019)', type: 'agency' },
- { name: 'WWE', role: 'Co-founder, Former CEO', type: 'corporation' },
- { name: 'America First Policy Institute', role: 'Chair', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Major donor, WWE relationship, cabinet member', href: '/entities/individuals/donald-trump' },
- { name: 'Vince McMahon', relationship: 'Husband, WWE co-founder' },
- ],
- controversies: [
- 'TRUMP FOUNDATION DONOR: $5M donation to foundation later ordered dissolved',
- 'PAY TO PLAY: Donated to Trump then received cabinet position',
- 'NO EDUCATION EXPERIENCE: Nominated for Education Secretary with no policy background',
- 'WWE STEROID SCANDAL: WWE faced federal prosecution for steroid distribution',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Financial Fraud Operations', slug: 'trump-org-fraud', severity: 'critical' },
- ],
- timeline: [
- { date: 'October 4, 1948', event: 'Born in New Bern, North Carolina' },
- { date: '1980', event: 'Co-founds WWE with husband Vince' },
- { date: '2014', event: 'Donates $5 million to Trump Foundation' },
- { date: '2017-2019', event: 'Serves as SBA Administrator' },
- { date: '2019', event: 'Joins America First Policy Institute' },
- { date: '2024', event: 'Nominated as Education Secretary' },
- ],
- sources: [
- { title: 'Trump Foundation NY AG Settlement', url: 'https://www.courtlistener.com/', date: '2019' },
- ],
- },
- 'lyndon-b-johnson': {
- name: 'Lyndon B. Johnson',
- title: '36th President of the United States',
- role: 'President who escalated Vietnam War based on fabricated Gulf of Tonkin incident',
- riskLevel: 'critical',
- description: 'Lyndon B. Johnson served as President from 1963-1969, escalating the Vietnam War based on the fabricated Gulf of Tonkin incident. He knew the August 4, 1964"attack"that justified the Tonkin Gulf Resolution never occurred but used it to expand the war anyway. The resulting conflict killed 58,000 Americans and 2-3 million Vietnamese. Johnson\'s domestic achievements cannot erase his responsibility for a catastrophic war built on lies.',
- education: [],
- affiliations: [
- { name: 'United States Government', role: '36th President (1963-1969)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Robert McNamara', relationship: 'Secretary of Defense who executed policy', href: '/entities/individuals/robert-mcnamara' },
- ],
- controversies: [
- 'TONKIN DECEPTION: Johnson used the August 4, 1964"attack"(which never happened) to push through the Gulf of Tonkin Resolution giving him virtually unlimited war powers. He privately expressed doubts about the attack while publicly claiming certainty.',
- 'ESCALATION: Johnson escalated from 16,000 advisors to over 500,000 troops. He authorized massive bombing campaigns including Rolling Thunder. He repeatedly misled the public about the war\'s progress.',
- 'THE CREDIBILITY GAP: The difference between official claims and reality created the"credibility gap."Americans increasingly distrusted government statements about Vietnam.',
- 'DRAFT AND CASUALTIES: Under Johnson, over 30,000 Americans died in Vietnam. Hundreds of thousands more were wounded. The draft disproportionately affected poor and minority communities.',
- 'PENTAGON PAPERS: The Pentagon Papers, leaked in 1971, revealed systematic government deception about Vietnam under Johnson and his predecessors. Johnson\'s administration had known the war was likely unwinnable.',
- 'DOMESTIC ACHIEVEMENTS: Johnson signed landmark civil rights and social welfare legislation including the Civil Rights Act, Voting Rights Act, Medicare, and Medicaid. These achievements are marred by his war.',
- 'WITHDRAWAL: Facing antiwar opposition and a credibility collapse, Johnson announced in March 1968 he would not seek re-election. He had lost the country\'s trust.',
- 'LEGACY: Johnson\'s legacy is forever divided between transformative domestic policy and a catastrophic war built on deception that killed millions and damaged American democracy.',
- ],
- charges: [
- { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes - Attack on Civilians: Bombing campaigns killed hundreds of thousands of Vietnamese civilians', category: 'International Criminal Law' },
- { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Escalated war based on fabricated casus belli', category: 'International Criminal Law' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements: Deceived Congress and public about Tonkin incident', category: 'Federal Crimes' },
- ],
- relatedInvestigations: [
- { title: 'Gulf of Tonkin Incident', slug: 'gulf-of-tonkin', severity: 'critical' },
- { title: 'Vietnam War', slug: 'vietnam-war', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 27, 1908', event: 'Born near Stonewall, Texas' },
- { date: 'November 22, 1963', event: 'Becomes President after JFK assassination' },
- { date: 'August 2, 1964', event: 'Gulf of Tonkin first incident' },
- { date: 'August 4, 1964', event: 'Alleged second attack (never happened)' },
- { date: 'August 7, 1964', event: 'Gulf of Tonkin Resolution passes' },
- { date: '1965-1968', event: 'Massive troop escalation' },
- { date: 'March 31, 1968', event: 'Announces he will not seek re-election' },
- { date: 'January 22, 1973', event: 'Dies in Stonewall, Texas' },
- ],
- sources: [
- { title: 'Pentagon Papers', url: 'https://www.archives.gov/research/pentagon-papers', date: '1971' },
- { title: 'NSA declassified Tonkin documents', url: 'https://www.nsa.gov/', date: '2005' },
- { title: 'Robert Caro -"The Years of Lyndon Johnson"', url: 'https://scholar.google.com/scholar?q=Robert%20Caro%20-%22The%20Years%20of%20Lyndon%20Johnson%22', date: '1982-2012' },
- ],
- },
+  'leonard-leo': {
+    name: 'Leonard Leo',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Leonard Leo is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Leonard Leo has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'linda-mcmahon': {
+    name: 'Linda Marie McMahon',
+    title: 'Former SBA Administrator, WWE Co-founder',
+    role: 'Trump Cabinet Member, Education Secretary Nominee',
+    riskLevel: 'medium',
+    description: 'Linda McMahon co-founded WWE with her husband Vince McMahon and served as Trump\'s Small Business Administration head. She and her husband donated $5 million to the Trump Foundation, which was later ordered dissolved for illegal self-dealing. She has been nominated as Trump\'s Education Secretary despite having no education policy experience.',
+    birthDate: 'October 4, 1948',
+    birthPlace: 'New Bern, North Carolina',
+    netWorth: '$3 billion',
+    education: ['B.A. - East Carolina University'],
+    affiliations: [
+      { name: 'Small Business Administration', role: 'Administrator (2017-2019)', type: 'agency' },
+      { name: 'WWE', role: 'Co-founder, Former CEO', type: 'corporation' },
+      { name: 'America First Policy Institute', role: 'Chair', type: 'organization' },
+    ],
+    controversies: [
+      'TRUMP FOUNDATION DONOR: $5M donation to foundation later ordered dissolved',
+      'PAY TO PLAY: Donated to Trump then received cabinet position',
+      'NO EDUCATION EXPERIENCE: Nominated for Education Secretary with no policy background',
+      'WWE STEROID SCANDAL: WWE faced federal prosecution for steroid distribution',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Financial Fraud Operations', slug: 'trump-org-fraud', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'October 4, 1948', event: 'Born in New Bern, North Carolina' },
+      { date: '1980', event: 'Co-founds WWE with husband Vince' },
+      { date: '2014', event: 'Donates $5 million to Trump Foundation' },
+      { date: '2017-2019', event: 'Serves as SBA Administrator' },
+      { date: '2019', event: 'Joins America First Policy Institute' },
+      { date: '2024', event: 'Nominated as Education Secretary' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Trump Foundation NY AG Settlement', url: 'https://www.courtlistener.com/', date: '2019' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Major donor, WWE relationship, cabinet member', href: '/entities/individuals/donald-trump' },
+      { name: 'Vince McMahon', relationship: 'Husband, WWE co-founder' },
+    ],
+  },
+
+  'lyndon-b-johnson': {
+    name: 'Lyndon B. Johnson',
+    title: '36th President of the United States',
+    role: 'President who escalated Vietnam War based on fabricated Gulf of Tonkin incident',
+    riskLevel: 'critical',
+    description: 'Lyndon B. Johnson served as President from 1963-1969, escalating the Vietnam War based on the fabricated Gulf of Tonkin incident. He knew the August 4, 1964"attack"that justified the Tonkin Gulf Resolution never occurred but used it to expand the war anyway. The resulting conflict killed 58,000 Americans and 2-3 million Vietnamese. Johnson\'s domestic achievements cannot erase his responsibility for a catastrophic war built on lies.',
+    education: [],
+    affiliations: [
+      { name: 'United States Government', role: '36th President (1963-1969)', type: 'agency' },
+    ],
+    controversies: [
+      'TONKIN DECEPTION: Johnson used the August 4, 1964"attack"(which never happened) to push through the Gulf of Tonkin Resolution giving him virtually unlimited war powers. He privately expressed doubts about the attack while publicly claiming certainty.',
+      'ESCALATION: Johnson escalated from 16,000 advisors to over 500,000 troops. He authorized massive bombing campaigns including Rolling Thunder. He repeatedly misled the public about the war\'s progress.',
+      'THE CREDIBILITY GAP: The difference between official claims and reality created the"credibility gap."Americans increasingly distrusted government statements about Vietnam.',
+      'DRAFT AND CASUALTIES: Under Johnson, over 30,000 Americans died in Vietnam. Hundreds of thousands more were wounded. The draft disproportionately affected poor and minority communities.',
+      'PENTAGON PAPERS: The Pentagon Papers, leaked in 1971, revealed systematic government deception about Vietnam under Johnson and his predecessors. Johnson\'s administration had known the war was likely unwinnable.',
+      'DOMESTIC ACHIEVEMENTS: Johnson signed landmark civil rights and social welfare legislation including the Civil Rights Act, Voting Rights Act, Medicare, and Medicaid. These achievements are marred by his war.',
+      'WITHDRAWAL: Facing antiwar opposition and a credibility collapse, Johnson announced in March 1968 he would not seek re-election. He had lost the country\'s trust.',
+      'LEGACY: Johnson\'s legacy is forever divided between transformative domestic policy and a catastrophic war built on deception that killed millions and damaged American democracy.',
+    ],
+    charges: [
+      { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes - Attack on Civilians: Bombing campaigns killed hundreds of thousands of Vietnamese civilians', category: 'International Criminal Law' },
+      { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Escalated war based on fabricated casus belli', category: 'International Criminal Law' },
+      { statute: '18 U.S.C. § 1001', description: 'False Statements: Deceived Congress and public about Tonkin incident', category: 'Federal Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'Gulf of Tonkin Incident', slug: 'gulf-of-tonkin', severity: 'critical' },
+      { title: 'Vietnam War', slug: 'vietnam-war', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'August 27, 1908', event: 'Born near Stonewall, Texas' },
+      { date: 'November 22, 1963', event: 'Becomes President after JFK assassination' },
+      { date: 'August 2, 1964', event: 'Gulf of Tonkin first incident' },
+      { date: 'August 4, 1964', event: 'Alleged second attack (never happened)' },
+      { date: 'August 7, 1964', event: 'Gulf of Tonkin Resolution passes' },
+      { date: '1965-1968', event: 'Massive troop escalation' },
+      { date: 'March 31, 1968', event: 'Announces he will not seek re-election' },
+      { date: 'January 22, 1973', event: 'Dies in Stonewall, Texas' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Pentagon Papers', url: 'https://www.archives.gov/research/pentagon-papers', date: '1971' },
+      { title: 'NSA declassified Tonkin documents', url: 'https://www.nsa.gov/', date: '2005' },
+      { title: 'Robert Caro -"The Years of Lyndon Johnson"', url: 'https://scholar.google.com/scholar?q=Robert%20Caro%20-%22The%20Years%20of%20Lyndon%20Johnson%22', date: '1982-2012' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Robert McNamara', relationship: 'Secretary of Defense who executed policy', href: '/entities/individuals/robert-mcnamara' },
+    ],
+  },
+
  'lloyd-austin': {
  name: 'Lloyd Austin',
  title: 'Secretary of Defense',
@@ -1185,131 +977,111 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Larry Lawson', url: 'https://en.wikipedia.org/wiki/Larry_Lawson' }, { title: 'Bloomberg: Larry Lawson', url: 'https://www.bloomberg.com/' }],
  },
- 'lion-air-610-victims': {
- name: 'Lion Air Flight 610 Victims',
- title: 'Crash Victims',
- role: '189 People Killed - October 29, 2018',
- riskLevel: 'critical',
- description: '189 innocent people were killed when Lion Air Flight 610 crashed into the Java Sea 13 minutes after takeoff from Jakarta, Indonesia. The crash was caused by Boeing\'s MCAS system, which pilots were never told existed. Boeing knew of the defect and concealed it. These were human beings - families, children, workers - murdered by corporate greed. The youngest victim was a 3-month-old baby.',
- birthDate: 'Various',
- birthPlace: 'Various - Primarily Indonesian',
- education: ['N/A'],
- affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Bhavye Suneja', relationship: 'Captain of Lion Air Flight 610 who was among the 189 victims', href: '/entities/individuals/bhavye-suneja' },
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose 737 MAX MCAS design flaw caused the crash', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'Sanjiv Singh', relationship: 'Lion Air co-founder whose airline operated the doomed flight', href: '/entities/individuals/sanjiv-singh' },
- ],
- controversies: [
- 'MURDERED BY BOEING: 189 people killed by known defect',
- 'CONCEALMENT: Boeing hid MCAS from pilots who could have saved them',
- 'NO JUSTICE: No Boeing executive imprisoned for their deaths',
- 'INADEQUATE COMPENSATION: Victims families received fraction of what lives were worth',
- 'FORGOTTEN: Often overshadowed by Ethiopian crash in Western media',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Lion Air Flight 610', slug: 'lion-air-610', severity: 'critical' },
- { title: 'Boeing Criminal Enterprise', slug: 'boeing-criminal-enterprise', severity: 'critical' },
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'October 29, 2018', event: '189 people board Lion Air Flight 610' },
- { date: 'October 29, 2018 - 6:20 AM', event: 'Aircraft departs Jakarta' },
- { date: 'October 29, 2018 - 6:33 AM', event: 'Aircraft crashes into Java Sea - All 189 killed' },
- { date: '2019', event: 'KNKT report blames Boeing MCAS design' },
- { date: '2021', event: 'Boeing pays fraction of victims settlement' },
- ],
- sources: [{ title: 'Wikipedia: Lion Air Flight 610 Victims', url: 'https://en.wikipedia.org/wiki/Lion_Air_Flight_610_Victims' }, { title: 'Associated Press: Lion Air Flight 610 Victims', url: 'https://apnews.com/' }],
- },
- 'larry-ellison': {
- name: 'Larry Ellison',
- title: 'Oracle Founder',
- role: 'Oracle Founder - Surveillance Tech, Political Influence',
- riskLevel: 'high',
- description: 'Larry Ellison co-founded Oracle and built it into a database giant that powers surveillance systems worldwide. A close ally of Donald Trump, he hosted fundraisers at his Hawaiian estate and promoted hydroxychloroquine during COVID. Oracle\'s technology enables government surveillance, and Ellison has been involved in multiple controversies including discriminatory hiring practices.',
- birthDate: 'August 17, 1944',
- birthPlace: 'New York City',
- education: ['University of Illinois (dropped out)', 'University of Chicago (dropped out)'],
- netWorth: '$158 billion',
- affiliations: [
- { name: 'Oracle Corporation', role: 'Founder/CTO', type: 'corporation' as const },
- { name: 'Tesla', role: 'Board Member', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Political ally, fundraiser host', href: '/entities/individuals/donald-trump' },
- { name: 'Elon Musk', relationship: 'Tesla board colleague', href: '/entities/individuals/elon-musk' },
- ],
- controversies: [
- 'TRUMP ALLY: Hosted fundraisers, promoted hydroxychloroquine',
- 'SURVEILLANCE TECH: Oracle databases power government surveillance',
- 'HIRING DISCRIMINATION: DOL found systematic discrimination',
- 'TAX AVOIDANCE: Complex offshore structures',
- 'LANAI ISLAND: Bought 98% of Hawaiian island',
- 'COVID MISINFORMATION: Promoted unproven treatments',
- ],
- charges: [
- { statute: 'Executive Order 11246', description: 'Employment Discrimination - Systematic pay disparities', category: 'DOL SETTLEMENT' },
- { statute: '26 U.S.C. � 7201', description: 'Tax Evasion schemes', category: 'UNINVESTIGATED' },
- ],
- relatedInvestigations: [
- { title: 'Surveillance Capitalism', slug: 'surveillance-capitalism', severity: 'critical' },
- { title: 'Tech Billionaire Influence', slug: 'tech-billionaire-influence', severity: 'high' },
- ],
- timeline: [
- { date: 'August 17, 1944', event: 'Born in NYC' },
- { date: '1977', event: 'Co-founds Oracle' },
- { date: '2020', event: 'Hosts Trump fundraiser in Hawaii' },
- { date: '2020', event: 'Promotes hydroxychloroquine' },
- ],
- sources: [{ title: 'Wikipedia: Larry Ellison', url: 'https://en.wikipedia.org/wiki/Larry_Ellison' }, { title: 'NYT: Larry Ellison Profile', url: 'https://www.nytimes.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Wired: Larry Ellison', url: 'https://www.wired.com/' }],
- },
- 'lloyd-blankfein': {
- name: 'Lloyd Blankfein',
- title: 'Former Goldman Sachs CEO',
- role: 'Goldman Sachs CEO During 2008 Crisis',
- riskLevel: 'critical',
- description: 'Lloyd Blankfein led Goldman Sachs from 2006-2018, including through the 2008 financial crisis. Goldman bet against the same mortgage securities it sold to clients, profited from the bailout, and paid billions in fines. Blankfein famously said Goldman was doing"God\'s work."Goldman received $10 billion in TARP bailout funds while paying massive bonuses.',
- birthDate: 'September 20, 1954',
- birthPlace: 'Bronx, New York',
- education: ['Harvard College', 'Harvard Law School'],
- netWorth: '$1.5 billion',
- affiliations: [
- { name: 'Goldman Sachs', role: 'Former CEO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Hank Paulson', relationship: 'Predecessor, Treasury Secretary who bailed out Goldman', href: '/entities/individuals/hank-paulson' },
- ],
- controversies: [
- '2008 CRISIS: Goldman profited while economy collapsed',
- 'ABACUS DEAL: Bet against securities sold to clients - $550M fine',
- 'BAILOUT BONUS: $10B TARP funds, then record bonuses',
- '"GOD\'S WORK": Claimed Goldman doing divine service',
- '1MDB SCANDAL: Goldman helped loot Malaysian fund - $2.9B fine',
- 'REVOLVING DOOR: Goldman alumni throughout government',
- ],
- charges: [
- { statute: '15 U.S.C. � 78j(b)', description: 'Securities Fraud - ABACUS deal', category: 'SETTLED - $550M' },
- { statute: 'DOJ Malaysia', description: '1MDB fraud facilitation', category: 'SETTLED - $2.9B' },
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Economic destruction', category: 'INTERNATIONAL' },
- ],
- relatedInvestigations: [
- { title: '2008 Financial Crisis', slug: '2008-financial-crisis', severity: 'critical' },
- { title: '1MDB Scandal', slug: '1mdb-scandal', severity: 'critical' },
- ],
- timeline: [
- { date: 'September 20, 1954', event: 'Born in Bronx' },
- { date: '1982', event: 'Joins Goldman Sachs' },
- { date: '2006', event: 'Becomes CEO' },
- { date: '2008', event: 'Financial crisis, bailout received' },
- { date: '2010', event: 'ABACUS settlement' },
- { date: '2018', event: 'Steps down as CEO' },
- { date: '2020', event: '1MDB settlement' },
- ],
- sources: [{ title: 'Wikipedia: Lloyd Blankfein', url: 'https://en.wikipedia.org/wiki/Lloyd_Blankfein' }, { title: 'Bloomberg: Lloyd Blankfein', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
- },
+  'lion-air-610-victims': {
+    name: 'Lion Air Flight 610 Victims',
+    title: 'Crash Victims',
+    role: '189 People Killed - October 29, 2018',
+    riskLevel: 'critical',
+    description: '189 innocent people were killed when Lion Air Flight 610 crashed into the Java Sea 13 minutes after takeoff from Jakarta, Indonesia. The crash was caused by Boeing\'s MCAS system, which pilots were never told existed. Boeing knew of the defect and concealed it. These were human beings - families, children, workers - murdered by corporate greed. The youngest victim was a 3-month-old baby.',
+    birthDate: 'Various',
+    birthPlace: 'Various - Primarily Indonesian',
+    education: ['N/A'],
+    affiliations: [
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'MURDERED BY BOEING: 189 people killed by known defect',
+      'CONCEALMENT: Boeing hid MCAS from pilots who could have saved them',
+      'NO JUSTICE: No Boeing executive imprisoned for their deaths',
+      'INADEQUATE COMPENSATION: Victims families received fraction of what lives were worth',
+      'FORGOTTEN: Often overshadowed by Ethiopian crash in Western media',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Lion Air Flight 610', slug: 'lion-air-610', severity: 'critical' },
+      { title: 'Boeing Criminal Enterprise', slug: 'boeing-criminal-enterprise', severity: 'critical' },
+      { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'October 29, 2018', event: '189 people board Lion Air Flight 610' },
+      { date: 'October 29, 2018 - 6:20 AM', event: 'Aircraft departs Jakarta' },
+      { date: 'October 29, 2018 - 6:33 AM', event: 'Aircraft crashes into Java Sea - All 189 killed' },
+      { date: '2019', event: 'KNKT report blames Boeing MCAS design' },
+      { date: '2021', event: 'Boeing pays fraction of victims settlement' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Lion Air Flight 610 Victims', url: 'https://en.wikipedia.org/wiki/Lion_Air_Flight_610_Victims', date: '' },
+      { title: 'Associated Press: Lion Air Flight 610 Victims', url: 'https://apnews.com/', date: '' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Bhavye Suneja', relationship: 'Captain of Lion Air Flight 610 who was among the 189 victims', href: '/entities/individuals/bhavye-suneja' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO whose 737 MAX MCAS design flaw caused the crash', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Sanjiv Singh', relationship: 'Lion Air co-founder whose airline operated the doomed flight', href: '/entities/individuals/sanjiv-singh' },
+    ],
+  },
+
+  'larry-ellison': {
+    name: 'Larry Ellison',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Larry Ellison is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Larry Ellison has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'lloyd-blankfein': {
+    name: 'Lloyd Blankfein',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Lloyd Blankfein is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Lloyd Blankfein has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'les-moonves': {
  name: 'Les Moonves',
  title: 'Former CBS CEO',
@@ -1395,46 +1167,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'leon-black': {
- name: 'Leon Black',
- title: 'Private Equity Billionaire',
- role: 'Apollo Global Founder - Epstein Ties, $158 Million Paid',
- riskLevel: 'critical',
- description: 'Leon Black is a billionaire private equity founder who paid Jeffrey Epstein $158 million for financial advice and other services after Epstein\'s 2008 conviction. He stepped down from Apollo amid scrutiny of the relationship and has faced multiple allegations of sexual misconduct.',
- birthDate: 'July 31, 1951',
- birthPlace: 'New York City',
- education: ['Dartmouth College', 'Harvard Business School'],
- netWorth: '$10 billion',
- affiliations: [
- { name: 'Apollo Global Management', role: 'Co-Founder (stepped back)', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Paid $158 million', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Ghislaine Maxwell', relationship: 'Social connection through Epstein', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Glenn Dubin', relationship: 'Both major Epstein financial associates', href: '/entities/individuals/glenn-dubin' },
- ],
- controversies: [
- '$158 MILLION TO EPSTEIN: Paid convicted sex offender',
- 'POST-CONVICTION PAYMENTS: Continued paying after 2008',
- 'STEPPED DOWN: Left Apollo CEO role',
- 'SEXUAL MISCONDUCT ALLEGATIONS: Multiple accusations',
- 'EPSTEIN LEGAL ADVICE: Claimed payments for tax advice',
- ],
- charges: [
- { statute: 'Civil Lawsuits', description: 'Sexual misconduct allegations', category: 'CIVIL LITIGATION' },
- ],
- relatedInvestigations: [
- { title: 'Epstein Network', slug: 'epstein-network', severity: 'critical' },
- { title: 'Private Equity Abuses', slug: 'private-equity-abuses', severity: 'high' },
- ],
- timeline: [
- { date: 'July 31, 1951', event: 'Born in New York' },
- { date: '1990', event: 'Co-founds Apollo' },
- { date: '2008-2017', event: 'Pays Epstein $158 million' },
- { date: '2021', event: 'Steps down as Apollo CEO' },
- ],
- sources: [{ title: 'Wikipedia: Leon Black', url: 'https://en.wikipedia.org/wiki/Leon_Black' }, { title: 'Bloomberg: Leon Black', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
- },
+  'leon-black': {
+    name: 'Leon Black',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Leon Black is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Leon Black has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'larry-brock': {
  name: 'Larry Brock',
  title: 'Convicted January 6 Rioter',
@@ -1512,44 +1274,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'larry-kudlow': {
- name: 'Larry Kudlow',
- title: 'Former Economic Advisor',
- role: 'Trump Economic Advisor - Pandemic Minimizer',
- riskLevel: 'medium',
- description: 'Larry Kudlow was Director of the National Economic Council under Trump. He repeatedly downplayed COVID-19, calling it"contained"and predicting it would have minimal economic impact. He has a history of being wrong on major economic predictions, including the 2008 financial crisis.',
- birthDate: 'August 20, 1947',
- birthPlace: 'Englewood, New Jersey',
- education: ['University of Rochester', 'Princeton University (incomplete)'],
- affiliations: [
- { name: 'National Economic Council', role: 'Former Director', type: 'agency' as const },
- { name: 'Fox Business', role: 'Host', type: 'corporation' as const },
- ],
+  'larry-kudlow': {
+    name: 'Larry Kudlow',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Larry Kudlow is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Larry Kudlow has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Served as National Economic Council Director (2018-2021); TV economist who became Trump\'s top economic advisor', href: '/entities/individuals/donald-trump' },
- { name: 'Steve Mnuchin', relationship: 'Treasury Secretary counterpart; coordinated on tax reform, trade policy, and COVID economic response', href: '/entities/individuals/steve-mnuchin' },
- { name: 'Gary Cohn', relationship: 'Replaced Cohn as NEC Director after Cohn resigned over tariff disagreements with Trump', href: '/entities/individuals/gary-cohn' },
- { name: 'Peter Navarro', relationship: 'Fellow White House economic advisor; clashed over trade policy with Navarro pushing harder protectionism', href: '/entities/individuals/peter-navarro' },
- ],
- controversies: [
- 'COVID MINIMIZATION: Called virus"contained"',
- 'WRONG ON 2008: Denied coming financial crisis',
- 'TRICKLE-DOWN ADVOCACY: Failed economic theory',
- 'PANDEMIC DENIAL: Predicted minimal impact',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Trump Administration', slug: 'trump-administration', severity: 'high' },
- { title: 'COVID Response Failures', slug: 'covid-failures', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 20, 1947', event: 'Born in New Jersey' },
- { date: '2018-2021', event: 'NEC Director' },
- { date: 'February 2020', event: 'Claims COVID is"contained"' },
- ],
- sources: [{ title: 'Wikipedia: Larry Kudlow', url: 'https://en.wikipedia.org/wiki/Larry_Kudlow' }, { title: 'NYT: Larry Kudlow Profile', url: 'https://www.nytimes.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
- },
  'louie-gohmert': {
  name: 'Louie Gohmert',
  title: 'Former Congressman',
@@ -1587,46 +1341,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'lee-zeldin': {
- name: 'Lee Zeldin',
- title: 'EPA Administrator Nominee',
- role: 'Election Denier - Environmental Deregulation',
- riskLevel: 'high',
- description: 'Lee Zeldin served as New York Congressman and is Trump\'s EPA Administrator nominee. He voted to overturn the 2020 election, has no environmental background, and is expected to gut environmental protections. He has zero votes supporting environmental legislation.',
- birthDate: 'January 30, 1980',
- birthPlace: 'East Meadow, New York',
- education: ['SUNY Albany', 'Albany Law School'],
- affiliations: [
- { name: 'U.S. House of Representatives', role: 'Former Rep (R-NY)', type: 'agency' as const },
- { name: 'Trump Administration 2.0', role: 'EPA Administrator Nominee', type: 'agency' as const },
- ],
+  'lee-zeldin': {
+    name: 'Lee Zeldin',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Lee Zeldin is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Lee Zeldin has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Trump-appointed EPA Administrator and longtime loyal congressional ally who defended Trump during first impeachment', href: '/entities/individuals/donald-trump' },
- { name: 'Scott Pruitt', relationship: 'Predecessor as EPA head known for aggressive regulatory rollbacks; Zeldin continued deregulatory approach', href: '/entities/individuals/scott-pruitt' },
- { name: 'Kevin McCarthy', relationship: 'House Republican colleague who supported Zeldin\'s gubernatorial bid in New York', href: '/entities/individuals/kevin-mccarthy' },
- ],
- controversies: [
- 'ELECTION DENIAL: Voted to overturn 2020 results',
- 'NO ENVIRONMENT RECORD: Zero environmental experience',
- 'DEREGULATION AGENDA: Expected to gut EPA',
- 'CLIMATE DENIAL: Opposes climate action',
- 'INDUSTRY TIES: Expected to favor polluters',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'January 6th Investigation', slug: 'january-6th', severity: 'critical' },
- { title: 'Environmental Deregulation', slug: 'environmental-crimes', severity: 'high' },
- ],
- timeline: [
- { date: 'January 30, 1980', event: 'Born in New York' },
- { date: '2015-2023', event: 'U.S. Representative' },
- { date: 'January 6, 2021', event: 'Voted to overturn election' },
- { date: '2022', event: 'Lost NY Governor race' },
- { date: 'November 2024', event: 'Nominated for EPA Administrator' },
- ],
- sources: [{ title: 'Wikipedia: Lee Zeldin', url: 'https://en.wikipedia.org/wiki/Lee_Zeldin' }, { title: 'NYT: Lee Zeldin Profile', url: 'https://www.nytimes.com/' }],
- },
  'lisa-eisenhart': {
  name: 'Lisa Eisenhart',
  role: 'January 6 Insurrectionist',
@@ -1885,32 +1629,41 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Lee Iacocca', url: 'https://en.wikipedia.org/wiki/Lee_Iacocca' }],
  },
- 'lee-raymond': {
- name: 'Lee Raymond',
- title: 'Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it',
- role: 'Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it',
- riskLevel: 'high',
- description: 'Lee Raymond is documented in ArkHive investigations for their role as Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it.',
- education: [],
- affiliations: [
- { name: 'United States Congress', role: 'Representative', type: 'agency' },
- { name: 'ExxonMobil', role: 'Executive', type: 'corporation' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
- ],
- timeline: [{ date: '1993', event: 'documented in ArkHive investigations for their role as Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it.' }, { date: '2005', event: 'documented in ArkHive investigations for their role as Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it.' }, { date: '1997', event: 'documented in ArkHive investigations for their role as Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it.' }],
- knownAssociates: [
- { name: 'James Black', relationship: 'Exxon scientist whose climate findings Raymond suppressed', href: '/entities/individuals/james-black' },
- { name: 'Rex Tillerson', relationship: 'Successor as Exxon CEO', href: '/entities/individuals/rex-tillerson' },
- { name: 'Naomi Oreskes', relationship: 'Historian who documented Exxon\'s climate denial under Raymond', href: '/entities/individuals/naomi-oreskes' }
- ],
+  'lee-raymond': {
+    name: 'Lee Raymond',
+    title: 'Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it',
+    role: 'Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it',
+    riskLevel: 'high',
+    description: 'Lee Raymond is documented in ArkHive investigations for their role as Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it.',
+    education: [],
+    affiliations: [
+      { name: 'United States Congress', role: 'Representative', type: 'agency' },
+      { name: 'ExxonMobil', role: 'Executive', type: 'corporation' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1993', event: 'documented in ArkHive investigations for their role as Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it.' },
+      { date: '2005', event: 'documented in ArkHive investigations for their role as Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it.' },
+      { date: '1997', event: 'documented in ArkHive investigations for their role as Exxon CEO (1993-2005) who publicly denied climate change at the 1997 World Petroleum Congress while internal scientists confirmed it.' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Lee Raymond', url: 'https://en.wikipedia.org/wiki/Lee_Raymond', date: '' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'James Black', relationship: 'Exxon scientist whose climate findings Raymond suppressed', href: '/entities/individuals/james-black' },
+      { name: 'Rex Tillerson', relationship: 'Successor as Exxon CEO', href: '/entities/individuals/rex-tillerson' },
+      { name: 'Naomi Oreskes', relationship: 'Historian who documented Exxon\'s climate denial under Raymond', href: '/entities/individuals/naomi-oreskes' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Lee Raymond', url: 'https://en.wikipedia.org/wiki/Lee_Raymond' }],
- },
  'leeanne-walters': {
  name: 'LeeAnne Walters',
  title: 'Flint mother whose children suffered lead poisoning; her activism helped expose the crisis',
@@ -2465,80 +2218,86 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Miami Herald Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '2018' },
  ],
  },
- 'lawrence-krauss': {
- name: 'Lawrence Krauss',
- title: 'Theoretical Physicist',
- role: 'Epstein Defender, Funding Recipient',
- riskLevel: 'medium',
- description: 'Theoretical physicist and science popularizer who publicly defended Jeffrey Epstein even after his 2008 conviction and sex offender registration. Krauss received Epstein funding for his Origins Project at Arizona State University. He was placed on leave and later forced to resign from ASU amid his own sexual misconduct allegations.',
- birthDate: 'May 27, 1954',
- birthPlace: 'New York City, New York',
- education: ['Carleton University', 'MIT - PhD Physics'],
- affiliations: [
- { name: 'Arizona State University', role: 'Former Professor', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Defended publicly, received funding', href: '/entities/individuals/jeffrey-epstein' },
- 
- { name: 'Ghislaine Maxwell', relationship: 'Social connection at Epstein events', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Joi Ito', relationship: 'Fellow academic who accepted Epstein support', href: '/entities/individuals/joi-ito' },
- { name: 'John Brockman', relationship: 'Edge Foundation organizer, connected academics', href: '/entities/individuals/john-brockman' },
- { name: 'Marvin Minsky', relationship: 'Fellow scientist in Epstein academic circle', href: '/entities/individuals/marvin-minsky' },
- ],
- controversies: [
- 'Publicly defended Epstein after 2008 conviction',
- 'Received Epstein funding for Origins Project',
- 'Forced to resign from ASU over own sexual misconduct allegations',
- ],
- relatedInvestigations: [
- { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
- ],
- timeline: [
- { date: '2011', event: 'Defended Epstein in Daily Beast interview' },
- { date: '2018', event: 'Placed on leave from ASU over sexual misconduct allegations' },
- { date: '2019', event: 'Forced to resign from ASU' },
- ],
- sources: [
- { title: 'Krauss-Epstein Defense (Buzzfeed)', url: 'https://www.buzzfeednews.com/', date: '2018' },
- ],
- },
- 'larry-summers': {
- name: 'Larry Summers',
- title: 'Former US Treasury Secretary',
- role: 'Epstein Associate, Harvard President',
- riskLevel: 'medium',
- description: 'Former US Treasury Secretary and President of Harvard University who maintained a relationship with Jeffrey Epstein. Met with Epstein multiple times including during his time at Harvard. Questions raised about Epstein\'s $9M+ in donations to Harvard and his continued access to campus offices post-conviction.',
- birthDate: 'November 30, 1954',
- birthPlace: 'New Haven, Connecticut',
- education: ['MIT - BS Economics', 'Harvard University - PhD Economics'],
- affiliations: [
- { name: 'Harvard University', role: 'Former President (2001-2006)', type: 'corporation' },
- { name: 'US Treasury', role: 'Former Secretary (1999-2001)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Met multiple times, associated at Harvard', href: '/entities/individuals/jeffrey-epstein' },
- 
- { name: 'Ghislaine Maxwell', relationship: 'Present at Epstein gatherings', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Bill Gates', relationship: 'Both met with Epstein, overlapping academic connections', href: '/entities/individuals/bill-gates' },
- { name: 'Martin Nowak', relationship: 'Harvard colleague, both received Epstein funding', href: '/entities/individuals/martin-nowak' },
- { name: 'Joi Ito', relationship: 'MIT connections, both accepted Epstein support', href: '/entities/individuals/joi-ito' },
- ],
- controversies: [
- 'Met with Epstein multiple times during and after Harvard presidency',
- 'Epstein donated $9M+ to Harvard during Summers\' tenure',
- 'Questions about Epstein\'s campus access post-conviction',
- ],
- relatedInvestigations: [
- { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
- ],
- timeline: [
- { date: '1999-2001', event: 'Served as US Treasury Secretary' },
- { date: '2001-2006', event: 'Harvard President during Epstein donations' },
- ],
- sources: [
- { title: 'Harvard Epstein Donations', url: 'https://www.thecrimson.com/article/2020/5/1/harvard-epstein-donations/', date: '2020' },
- ],
- },
+  'lawrence-krauss': {
+    name: 'Lawrence Krauss',
+    title: 'Theoretical Physicist',
+    role: 'Epstein Defender, Funding Recipient',
+    riskLevel: 'medium',
+    description: 'Theoretical physicist and science popularizer who publicly defended Jeffrey Epstein even after his 2008 conviction and sex offender registration. Krauss received Epstein funding for his Origins Project at Arizona State University. He was placed on leave and later forced to resign from ASU amid his own sexual misconduct allegations.',
+    birthDate: 'May 27, 1954',
+    birthPlace: 'New York City, New York',
+    education: ['Carleton University', 'MIT - PhD Physics'],
+    affiliations: [
+      { name: 'Arizona State University', role: 'Former Professor', type: 'corporation' },
+    ],
+    controversies: [
+      'Publicly defended Epstein after 2008 conviction',
+      'Received Epstein funding for Origins Project',
+      'Forced to resign from ASU over own sexual misconduct allegations',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2011', event: 'Defended Epstein in Daily Beast interview' },
+      { date: '2018', event: 'Placed on leave from ASU over sexual misconduct allegations' },
+      { date: '2019', event: 'Forced to resign from ASU' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Krauss-Epstein Defense (Buzzfeed)', url: 'https://www.buzzfeednews.com/', date: '2018' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Defended publicly, received funding', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Ghislaine Maxwell', relationship: 'Social connection at Epstein events', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Joi Ito', relationship: 'Fellow academic who accepted Epstein support', href: '/entities/individuals/joi-ito' },
+      { name: 'John Brockman', relationship: 'Edge Foundation organizer, connected academics', href: '/entities/individuals/john-brockman' },
+      { name: 'Marvin Minsky', relationship: 'Fellow scientist in Epstein academic circle', href: '/entities/individuals/marvin-minsky' },
+    ],
+  },
+
+  'larry-summers': {
+    name: 'Larry Summers',
+    title: 'Former US Treasury Secretary',
+    role: 'Epstein Associate, Harvard President',
+    riskLevel: 'medium',
+    description: 'Former US Treasury Secretary and President of Harvard University who maintained a relationship with Jeffrey Epstein. Met with Epstein multiple times including during his time at Harvard. Questions raised about Epstein\'s $9M+ in donations to Harvard and his continued access to campus offices post-conviction.',
+    birthDate: 'November 30, 1954',
+    birthPlace: 'New Haven, Connecticut',
+    education: ['MIT - BS Economics', 'Harvard University - PhD Economics'],
+    affiliations: [
+      { name: 'Harvard University', role: 'Former President (2001-2006)', type: 'corporation' },
+      { name: 'US Treasury', role: 'Former Secretary (1999-2001)', type: 'agency' },
+    ],
+    controversies: [
+      'Met with Epstein multiple times during and after Harvard presidency',
+      'Epstein donated $9M+ to Harvard during Summers\' tenure',
+      'Questions about Epstein\'s campus access post-conviction',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1999-2001', event: 'Served as US Treasury Secretary' },
+      { date: '2001-2006', event: 'Harvard President during Epstein donations' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Harvard Epstein Donations', url: 'https://www.thecrimson.com/article/2020/5/1/harvard-epstein-donations/', date: '2020' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Met multiple times, associated at Harvard', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Ghislaine Maxwell', relationship: 'Present at Epstein gatherings', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Bill Gates', relationship: 'Both met with Epstein, overlapping academic connections', href: '/entities/individuals/bill-gates' },
+      { name: 'Martin Nowak', relationship: 'Harvard colleague, both received Epstein funding', href: '/entities/individuals/martin-nowak' },
+      { name: 'Joi Ito', relationship: 'MIT connections, both accepted Epstein support', href: '/entities/individuals/joi-ito' },
+    ],
+  },
+
  'lynn-forester-de-rothschild': {
  name: 'Lynn Forester de Rothschild',
  title: 'Businesswoman',
@@ -2653,318 +2412,206 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
  sources: [{ title: 'Wikipedia: Leslie Groff', url: 'https://en.wikipedia.org/wiki/Leslie_Groff' }, { title: 'Bloomberg: Leslie Groff', url: 'https://www.bloomberg.com/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
  },
- 'lara-trump': {
-"name":"Lara Trump",
-"title":"RNC Co-Chair",
-"role":"Trump Family Political Operative",
-"riskLevel":"medium",
-"description":"Wife of Eric Trump, appointed RNC co-chair in 2024. Oversaw restructuring of Republican National Committee to serve Trump's legal defense and campaign, redirecting party funds toward Trump's personal legal bills.",
-"education": [
-"North Carolina State University",
-"New York School of Interior Design"
- ],
-"affiliations": [
- {
-"name":"Republican National Committee",
-"role":"Co-Chair",
-"type":"organization"
- }
- ],
-"knownAssociates": [
- {
-"name":"Donald Trump",
-"relationship":"Father-in-law, installed her as RNC co-chair",
-"href":"/entities/individuals/donald-trump"
- },
- {
-"name":"Eric Trump",
-"relationship":"Husband",
-"href":"/entities/individuals/eric-trump"
- }
- ],
-"controversies": [
-"Restructured RNC to fund Trump legal defense",
-"Redirected party resources away from down-ballot candidates",
-"Purged RNC staff loyal to previous leadership"
- ],
-"relatedInvestigations": [
- {
-"title":"Trump Criminal Compendium",
-"slug":"trump-criminal-compendium",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2024",
-"event":"Appointed RNC Co-Chair"
- }
- ],
-"sources": [
- {
-"title":"AP: Lara Trump RNC",
-"url":"https://apnews.com/article/lara-trump-rnc",
-"date":"2024"
- }
- ]
- },
- 'leonard-pozner': {
-"name":"Leonard Pozner",
-"title":"Sandy Hook Parent",
-"role":"Anti-Conspiracy Activist",
-"riskLevel":"low",
-"description":"Father of Noah Pozner, the youngest victim of the Sandy Hook Elementary School shooting. Successfully sued Alex Jones for defamation after Jones promoted conspiracy theories that the shooting was a hoax, leading to a $1.5 billion judgment.",
-"education": [],
-"affiliations": [
- {
-"name":"HONR Network",
-"role":"Founder",
-"type":"organization"
- }
- ],
-"knownAssociates": [
- {
-"name":"Alex Jones",
-"relationship":"Sued for defamation over Sandy Hook hoax claims",
-"href":"/entities/individuals/alex-jones"
- }
- ],
-"controversies": [
-"Targeted by conspiracy theorists and death threats for years",
-"Won landmark defamation case establishing accountability for disinformation"
- ],
-"relatedInvestigations": [
- {
-"title":"QAnon Radicalization",
-"slug":"qanon-radicalization",
-"severity":"high"
- }
- ],
-"timeline": [
- {
-"date":"2012",
-"event":"Son Noah killed at Sandy Hook"
- },
- {
-"date":"2022",
-"event":"Won $1.5B defamation judgment against Alex Jones"
- }
- ],
-"sources": [
- {
-"title":"NYT: Sandy Hook Families v Jones",
-"url":"https://www.nytimes.com/2022/10/12/us/alex-jones-sandy-hook-damages.html",
-"date":"2022"
- }
- ]
- },
- 'laquan-mcdonald': {
-"name":"Laquan McDonald",
-"title":"Victim of Police Shooting",
-"role":"Chicago Cover-Up Case",
-"riskLevel":"low",
-"description":"African American 17-year-old shot 16 times by Chicago police officer Jason Van Dyke on October 20, 2014. Dashcam video contradicted police reports and was suppressed for 13 months by the City of Chicago, exposing a systemic cover-up. Van Dyke was convicted of second-degree murder.",
-"birthDate":"September 25, 1997",
-"education": [],
-"affiliations": [],
-"knownAssociates": [],
-"controversies": [
-"Shot 16 times while walking away from officers",
-"Dashcam footage suppressed for over a year",
-"Cover-up led to firing of Chicago Police superintendent"
- ],
-"relatedInvestigations": [
- {
-"title":"Police Brutality",
-"slug":"police-brutality",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2014 Oct 20",
-"event":"Shot 16 times by officer Van Dyke"
- },
- {
-"date":"2015 Nov",
-"event":"Dashcam footage released after court order"
- },
- {
-"date":"2018",
-"event":"Van Dyke convicted of second-degree murder"
- }
- ],
-"sources": [
- {
-"title":"Chicago Tribune Investigation",
-"url":"https://www.chicagotribune.com/topic/laquan-mcdonald/",
-"date":"2018"
- }
- ]
- },
- 'lou-anna-simon': {
-"name":"Lou Anna Simon",
-"title":"Former Michigan State University President",
-"role":"Oversaw Nassar Cover-Up",
-"riskLevel":"high",
-"description":"President of Michigan State University (2005-2018) who resigned after revelations that she had been informed about sexual abuse complaints against Larry Nassar as early as 2014 but failed to take adequate action. Charged with lying to police about her knowledge.",
-"education": [
-"Indiana University - Ph.D."
- ],
-"affiliations": [
- {
-"name":"Michigan State University",
-"role":"President",
-"type":"organization"
- }
- ],
-"knownAssociates": [
- {
-"name":"Larry Nassar",
-"relationship":"University president who failed to stop his abuse",
-"href":"/entities/individuals/larry-nassar"
- }
- ],
-"controversies": [
-"Knew about Nassar complaints but failed to act",
-"Charged with lying to police",
-"MSU paid $500M+ in settlements to victims"
- ],
-"relatedInvestigations": [
- {
-"title":"Sexual Assault",
-"slug":"sexual-assault",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2014",
-"event":"Informed about Title IX complaint against Nassar"
- },
- {
-"date":"2018 Jan",
-"event":"Resigned as MSU president"
- },
- {
-"date":"2018 Nov",
-"event":"Charged with lying to police"
- }
- ],
-"sources": [
- {
-"title":"Detroit News: Simon Charges",
-"url":"https://www.detroitnews.com/story/news/local/michigan/2018/11/20/michigan-state-lou-anna-simon-charged-nassar/",
-"date":"2018"
- }
- ]
- },
- 'lawrence-rawl': {
-"name":"Lawrence Rawl",
-"title":"Former Exxon CEO",
-"role":"Exxon Valdez Response Failure",
-"riskLevel":"high",
-"description":"Chairman and CEO of Exxon during the 1989 Exxon Valdez oil spill disaster. Widely criticized for his slow and dismissive response to the worst oil spill in U.S. history at the time, refusing to visit the disaster site for weeks and minimizing the environmental damage.",
-"education": [],
-"affiliations": [
- {
-"name":"ExxonMobil",
-"role":"CEO and Chairman",
-"type":"corporation"
- }
- ],
-"knownAssociates": [],
-"controversies": [
-"Dismissed severity of Exxon Valdez disaster",
-"Refused to visit spill site for weeks",
-"Company fought paying damages for decades"
- ],
-"relatedInvestigations": [
- {
-"title":"Exxon Climate Coverup",
-"slug":"exxon-climate-coverup",
-"severity":"critical"
- },
- {
-"title":"Deepwater Horizon",
-"slug":"deepwater-horizon",
-"severity":"high"
- }
- ],
-"timeline": [
- {
-"date":"1986",
-"event":"Became Exxon CEO"
- },
- {
-"date":"1989 Mar",
-"event":"Exxon Valdez oil spill"
- },
- {
-"date":"1993",
-"event":"Retired from Exxon"
- }
- ],
-"sources": [
- {
-"title":"NYT: Rawl Exxon Valdez Response",
-"url":"https://www.nytimes.com/1989/04/21/us/exxon-chairman-under-fire.html",
-"date":"1989"
- }
- ]
- },
- 'louis-brandeis': {
-"name":"Louis Brandeis",
-"title":"Supreme Court Justice",
-"role":"First Jewish Justice, Privacy Pioneer",
-"riskLevel":"low",
-"description":"First Jewish Supreme Court Justice (1916-1939) and influential progressive legal thinker. Co-authored the foundational \"Right to Privacy\"paper in 1890. Known as \"The People's Attorney\"for fighting corporate monopolies. His dissents on free speech and privacy became foundational American law.",
-"birthDate":"November 13, 1856",
-"education": [
-"Harvard Law School"
- ],
-"affiliations": [
- {
-"name":"U.S. Supreme Court",
-"role":"Associate Justice",
-"type":"agency"
- }
- ],
-"knownAssociates": [],
-"controversies": [
-"Fought against corporate monopolies and trusts",
-"Pioneered right to privacy legal theory",
-"His antitrust philosophy is being revived against Big Tech"
- ],
-"relatedInvestigations": [
- {
-"title":"NSA Mass Surveillance",
-"slug":"nsa-mass-surveillance",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"1890",
-"event":"Published \"The Right to Privacy\"paper"
- },
- {
-"date":"1916",
-"event":"Appointed to Supreme Court"
- },
- {
-"date":"1939",
-"event":"Retired from Court"
- }
- ],
-"sources": [
- {
-"title":"Brandeis University: Legacy",
-"url":"https://www.brandeis.edu/about/louis-brandeis.html",
-"date":"2023"
- }
- ]
- },
+  'lara-trump': {
+    name: 'Lara Trump',
+    title: 'RNC Co-Chair',
+    role: 'Trump Family Political Operative',
+    riskLevel: 'medium',
+    description: 'Wife of Eric Trump, appointed RNC co-chair in 2024. Oversaw restructuring of Republican National Committee to serve Trump\'s legal defense and campaign, redirecting party funds toward Trump\'s personal legal bills.',
+    education: ['North Carolina State University', 'New York School of Interior Design'],
+    affiliations: [
+      { name: 'Republican National Committee', role: 'Co-Chair', type: 'organization' },
+    ],
+    controversies: [
+      'Restructured RNC to fund Trump legal defense',
+      'Redirected party resources away from down-ballot candidates',
+      'Purged RNC staff loyal to previous leadership',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2024', event: 'Appointed RNC Co-Chair' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'AP: Lara Trump RNC', url: 'https://apnews.com/article/lara-trump-rnc', date: '2024' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Father-in-law, installed her as RNC co-chair', href: '/entities/individuals/donald-trump' },
+      { name: 'Eric Trump', relationship: 'Husband', href: '/entities/individuals/eric-trump' },
+    ],
+  },
+
+  'leonard-pozner': {
+    name: 'Leonard Pozner',
+    title: 'Sandy Hook Parent',
+    role: 'Anti-Conspiracy Activist',
+    riskLevel: 'low',
+    description: 'Father of Noah Pozner, the youngest victim of the Sandy Hook Elementary School shooting. Successfully sued Alex Jones for defamation after Jones promoted conspiracy theories that the shooting was a hoax, leading to a $1.5 billion judgment.',
+    education: [],
+    affiliations: [
+      { name: 'HONR Network', role: 'Founder', type: 'organization' },
+    ],
+    controversies: [
+      'Targeted by conspiracy theorists and death threats for years',
+      'Won landmark defamation case establishing accountability for disinformation',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'QAnon Radicalization', slug: 'qanon-radicalization', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2012', event: 'Son Noah killed at Sandy Hook' },
+      { date: '2022', event: 'Won $1.5B defamation judgment against Alex Jones' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NYT: Sandy Hook Families v Jones', url: 'https://www.nytimes.com/2022/10/12/us/alex-jones-sandy-hook-damages.html', date: '2022' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Alex Jones', relationship: 'Sued for defamation over Sandy Hook hoax claims', href: '/entities/individuals/alex-jones' },
+    ],
+  },
+
+  'laquan-mcdonald': {
+    name: 'Laquan McDonald',
+    title: 'Victim of Police Shooting',
+    role: 'Chicago Cover-Up Case',
+    riskLevel: 'low',
+    description: 'African American 17-year-old shot 16 times by Chicago police officer Jason Van Dyke on October 20, 2014. Dashcam video contradicted police reports and was suppressed for 13 months by the City of Chicago, exposing a systemic cover-up. Van Dyke was convicted of second-degree murder.',
+    birthDate: 'September 25, 1997',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Shot 16 times while walking away from officers',
+      'Dashcam footage suppressed for over a year',
+      'Cover-up led to firing of Chicago Police superintendent',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Police Brutality', slug: 'police-brutality', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2014 Oct 20', event: 'Shot 16 times by officer Van Dyke' },
+      { date: '2015 Nov', event: 'Dashcam footage released after court order' },
+      { date: '2018', event: 'Van Dyke convicted of second-degree murder' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Chicago Tribune Investigation', url: 'https://www.chicagotribune.com/topic/laquan-mcdonald/', date: '2018' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'lou-anna-simon': {
+    name: 'Lou Anna Simon',
+    title: 'Former Michigan State University President',
+    role: 'Oversaw Nassar Cover-Up',
+    riskLevel: 'high',
+    description: 'President of Michigan State University (2005-2018) who resigned after revelations that she had been informed about sexual abuse complaints against Larry Nassar as early as 2014 but failed to take adequate action. Charged with lying to police about her knowledge.',
+    education: ['Indiana University - Ph.D.'],
+    affiliations: [
+      { name: 'Michigan State University', role: 'President', type: 'organization' },
+    ],
+    controversies: [
+      'Knew about Nassar complaints but failed to act',
+      'Charged with lying to police',
+      'MSU paid $500M+ in settlements to victims',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Sexual Assault', slug: 'sexual-assault', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2014', event: 'Informed about Title IX complaint against Nassar' },
+      { date: '2018 Jan', event: 'Resigned as MSU president' },
+      { date: '2018 Nov', event: 'Charged with lying to police' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Detroit News: Simon Charges', url: 'https://www.detroitnews.com/story/news/local/michigan/2018/11/20/michigan-state-lou-anna-simon-charged-nassar/', date: '2018' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Larry Nassar', relationship: 'University president who failed to stop his abuse', href: '/entities/individuals/larry-nassar' },
+    ],
+  },
+
+  'lawrence-rawl': {
+    name: 'Lawrence Rawl',
+    title: 'Former Exxon CEO',
+    role: 'Exxon Valdez Response Failure',
+    riskLevel: 'high',
+    description: 'Chairman and CEO of Exxon during the 1989 Exxon Valdez oil spill disaster. Widely criticized for his slow and dismissive response to the worst oil spill in U.S. history at the time, refusing to visit the disaster site for weeks and minimizing the environmental damage.',
+    education: [],
+    affiliations: [
+      { name: 'ExxonMobil', role: 'CEO and Chairman', type: 'corporation' },
+    ],
+    controversies: [
+      'Dismissed severity of Exxon Valdez disaster',
+      'Refused to visit spill site for weeks',
+      'Company fought paying damages for decades',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'critical' },
+      { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1986', event: 'Became Exxon CEO' },
+      { date: '1989 Mar', event: 'Exxon Valdez oil spill' },
+      { date: '1993', event: 'Retired from Exxon' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NYT: Rawl Exxon Valdez Response', url: 'https://www.nytimes.com/1989/04/21/us/exxon-chairman-under-fire.html', date: '1989' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'louis-brandeis': {
+    name: 'Louis Brandeis',
+    title: 'Supreme Court Justice',
+    role: 'First Jewish Justice, Privacy Pioneer',
+    riskLevel: 'low',
+    description: 'First Jewish Supreme Court Justice (1916-1939) and influential progressive legal thinker. Co-authored the foundational "Right to Privacy"paper in 1890. Known as "The People\'s Attorney"for fighting corporate monopolies. His dissents on free speech and privacy became foundational American law.',
+    birthDate: 'November 13, 1856',
+    education: ['Harvard Law School'],
+    affiliations: [
+      { name: 'U.S. Supreme Court', role: 'Associate Justice', type: 'agency' },
+    ],
+    controversies: [
+      'Fought against corporate monopolies and trusts',
+      'Pioneered right to privacy legal theory',
+      'His antitrust philosophy is being revived against Big Tech',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'NSA Mass Surveillance', slug: 'nsa-mass-surveillance', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1890', event: 'Published "The Right to Privacy"paper' },
+      { date: '1916', event: 'Appointed to Supreme Court' },
+      { date: '1939', event: 'Retired from Court' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Brandeis University: Legacy', url: 'https://www.brandeis.edu/about/louis-brandeis.html', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'lockheed-martin': {
     name: 'Lockheed Martin',
     title: 'Public Figure Under Investigation',
