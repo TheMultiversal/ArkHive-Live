@@ -176,6 +176,11 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
+
+
   'jared-kushner': {
     name: 'Jared Kushner',
     title: 'Public Figure Under Investigation',
@@ -315,6 +320,10 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
+
  'jerome-corsi': {
  name: 'Jerome Robert Corsi',
  title: 'Conspiracy Theorist, Author',
@@ -439,6 +448,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
   'james-comey': {
     name: 'James Brien Comey Jr.',
     title: 'Former FBI Director',
@@ -494,6 +506,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Andrew McCabe', relationship: 'Deputy Director who took over after firing' },
     ],
   },
+
+
 
   'jean-luc-brunel': {
     name: 'Jean-Luc Brunel',
@@ -551,6 +565,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'joel-greenberg': {
     name: 'Joel Greenberg',
     title: 'Former Seminole County Tax Collector',
@@ -605,6 +620,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'joseph-mifsud': {
     name: 'Joseph Mifsud',
     title: 'Maltese Professor',
@@ -653,6 +669,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Ivan Timofeev', relationship: 'Russian contact he introduced', href: '/entities/individuals/ivan-timofeev' },
     ],
   },
+
 
   'john-bolton': {
     name: 'John Bolton',
@@ -1762,6 +1779,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'john-poindexter': {
     name: 'John Poindexter',
     title: 'Public Figure Under Investigation',
@@ -1854,6 +1872,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'john-ehrlichman': {
     name: 'John Ehrlichman',
     title: 'Nixon Domestic Policy Advisor',
@@ -1911,6 +1930,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'james-clapper': {
     name: 'James Clapper',
     title: 'Director of National Intelligence (2010-2017)',
@@ -1963,6 +1983,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'john-yoo': {
     name: 'John Yoo',
     title: 'Bush DOJ Official / Torture Memo Author',
@@ -2009,6 +2030,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Alberto Gonzales', relationship: 'White House Counsel', href: '/entities/individuals/alberto-gonzales' },
     ],
   },
+
 
  'joe-wilson': {
  name: 'Joseph Wilson',
@@ -2094,6 +2116,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'jorge-videla': {
     name: 'Jorge Rafael Videla',
     title: 'Argentine Dictator (1976-1981)',
@@ -2139,6 +2162,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Henry Kissinger', relationship: 'U.S. support for junta', href: '/entities/individuals/henry-kissinger' },
     ],
   },
+
 
  'jay-bybee': {
  name: 'Jay Bybee',
@@ -2383,6 +2407,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Rebekah Brooks', relationship: 'News UK CEO, phone hacking scandal', href: '/entities/individuals/rebekah-brooks' },
     ],
   },
+
 
  'john-f-kennedy': {
  name: 'John Fitzgerald Kennedy',
@@ -7029,6 +7054,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Efraim Zuroff', relationship: 'Nazi hunter who searched for Mengele in South America', href: '/entities/individuals/efraim-zuroff' },
     ],
   },
+
 
  'jay-lefkowitz': {
  name: 'Jay Lefkowitz',

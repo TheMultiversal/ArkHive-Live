@@ -282,6 +282,10 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
   'donald-trump-jr': {
     name: 'Donald John Trump Jr.',
     title: 'Executive Vice President',
@@ -333,6 +337,9 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Jared Kushner', relationship: 'Brother-in-law, attended Trump Tower meeting', href: '/entities/individuals/jared-kushner' },
     ],
   },
+
+
+
 
 
 
@@ -398,6 +405,31 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   'deborah-birx': {
     name: 'Deborah Leah Birx',
     title: 'Former White House Coronavirus Response Coordinator',
@@ -449,6 +481,30 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Anthony Fauci', relationship: 'Task force colleague', href: '/entities/individuals/anthony-fauci' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -510,6 +566,29 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   'don-mcgahn': {
     name: 'Donald F. McGahn II',
     title: 'Former White House Counsel',
@@ -563,6 +642,29 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Robert Mueller', relationship: 'Key cooperating witness', href: '/entities/individuals/robert-mueller' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -621,6 +723,29 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Kash Patel', relationship: 'House Intelligence staffer, ally', href: '/entities/individuals/kash-patel' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -979,6 +1104,29 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   'douglas-feith': {
     name: 'Douglas Feith',
     title: 'Public Figure Under Investigation',
@@ -1100,6 +1248,29 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   'dillon-myer': {
     name: 'Dillon S. Myer',
     title: 'War Relocation Authority Director',
@@ -1143,6 +1314,29 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Franklin D. Roosevelt', relationship: 'President who authorized internment', href: '/entities/individuals/franklin-d-roosevelt' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1307,6 +1501,29 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'John Foster Dulles', relationship: 'Secretary of State', href: '/entities/individuals/john-foster-dulles' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

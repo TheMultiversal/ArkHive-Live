@@ -80,6 +80,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'konstantin-kilimnik': {
     name: 'Konstantin Viktorovych Kilimnik',
     title: 'Russian Intelligence Asset',
@@ -135,6 +136,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Campaign data recipient via Manafort', href: '/entities/individuals/donald-trump' },
     ],
   },
+
 
  'kurt-volker': {
  name: 'Kurt Douglas Volker',
@@ -311,6 +313,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'kellyanne-conway': {
     name: 'Kellyanne Elizabeth Conway',
     title: 'Former Senior Counselor to the President',
@@ -361,6 +364,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'George Conway', relationship: 'Ex-husband, Trump critic (divorced 2024)', href: '/entities/individuals/george-conway' },
     ],
   },
+
 
   'keith-davidson': {
     name: 'Keith Davidson',
@@ -784,6 +788,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'ken-paxton': {
     name: 'Warren Kenneth Paxton Jr.',
     title: 'Texas Attorney General',
@@ -827,6 +832,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Filed lawsuit to overturn election', href: '/entities/individuals/donald-trump' },
     ],
   },
+
 
   'karl-rove': {
     name: 'Karl Christian Rove',
@@ -913,6 +919,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'kirill-dmitriev': {
     name: 'Kirill Aleksandrovich Dmitriev',
     title: 'Russian Sovereign Wealth Fund CEO',
@@ -992,6 +999,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Jared Kushner', relationship: 'Indirect contact through intermediaries', href: '/entities/individuals/jared-kushner' },
     ],
   },
+
 
   'katherine-harris': {
     name: 'Katherine Harris',

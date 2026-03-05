@@ -53,6 +53,28 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   'fiona-hill': {
     name: 'Fiona Hill',
     title: 'Former NSC Senior Director',
@@ -299,6 +321,27 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   'fawn-hall': {
     name: 'Fawn Hall',
     title: 'Public Figure Under Investigation',
@@ -379,6 +422,26 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   'fred-hampton': {
     name: 'Fred Hampton',
     title: 'Black Panther Party Chairman / Assassination Victim',
@@ -429,6 +492,25 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'William O\'Neal', relationship: 'FBI informant who drugged him', href: '/entities/individuals/william-oneal' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   'frank-wisner': {
     name: 'Frank Wisner',
@@ -486,6 +568,24 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   'franklin-d-roosevelt': {
     name: 'Franklin D. Roosevelt',
     title: '32nd President of the United States',
@@ -537,6 +637,23 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   'fred-korematsu': {
     name: 'Fred Korematsu',
     title: 'Civil Rights Hero / Japanese Internment Resister',
@@ -586,6 +703,22 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Franklin D. Roosevelt', relationship: 'President who signed EO 9066', href: '/entities/individuals/franklin-d-roosevelt' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  'fred-koch': {
  name: 'Fred C. Koch',

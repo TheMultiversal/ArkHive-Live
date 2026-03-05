@@ -147,6 +147,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'lachlan-murdoch': {
     name: 'Lachlan Keith Murdoch',
     title: 'Fox Corporation CEO',

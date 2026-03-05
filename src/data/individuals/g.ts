@@ -138,6 +138,21 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   'gordon-sondland': {
     name: 'Gordon David Sondland',
     title: 'Former US Ambassador to EU',
@@ -240,6 +255,20 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Joseph Mifsud', relationship: 'Told him Russians had Clinton emails' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  'george-conway': {
  name: 'George T. Conway III',
@@ -567,6 +596,19 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
   'george-nader': {
     name: 'George Aref Nader',
     title: 'Convicted Pedophile, Trump Advisor',
@@ -652,6 +694,18 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
   'george-floyd': {
     name: 'George Floyd',
     title: 'Murder Victim / Symbol of Police Brutality',
@@ -701,6 +755,17 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
+
+
+
+
+
+
+
+
   'gerald-ford': {
     name: 'Gerald Ford',
     title: '38th President of the United States',
@@ -742,6 +807,16 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Richard Nixon', relationship: 'Predecessor, pardoned', href: '/entities/individuals/richard-nixon' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
 
   'gina-haspel': {
     name: 'Gina Haspel',
@@ -788,6 +863,15 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Appointed her CIA Director', href: '/entities/individuals/donald-trump' },
     ],
   },
+
+
+
+
+
+
+
+
+
 
  'gavin-mcinnes': {
  name: 'Gavin McInnes',

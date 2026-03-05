@@ -55,6 +55,13 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
+
+
+
+
+
  'igor-fruman': {
  name: 'Igor Fruman',
  title: 'Convicted Felon',
@@ -710,6 +717,12 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Coca Cola', relationship: 'Connected Entity', href: '/entities/individuals/coca-cola' },
     ],
   },
+
+
+
+
+
+
 
   'icc': {
     name: 'Icc',

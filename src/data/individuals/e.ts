@@ -50,6 +50,29 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   'e-jean-carroll': {
     name: 'E. Jean Carroll',
     title: 'Journalist, Author, Sexual Assault Survivor',
@@ -105,6 +128,29 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Carol Martin', relationship: 'Friend she told about assault' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   'enrique-tarrio': {
@@ -186,6 +232,29 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Cabinet member', href: '/entities/individuals/donald-trump' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   'erik-prince': {
@@ -431,6 +500,29 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   'edward-snowden': {
     name: 'Edward Snowden',
     title: 'NSA Whistleblower',
@@ -483,6 +575,29 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Glenn Greenwald', relationship: 'Journalist who published disclosures', href: '/entities/individuals/glenn-greenwald' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   'elizabeth-holmes': {
@@ -749,6 +864,29 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Tewolde Gebremariam', relationship: 'Ethiopian Airlines CEO whose airline lost Flight 302', href: '/entities/individuals/tewolde-gebremariam' },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  'eric-munchel': {
