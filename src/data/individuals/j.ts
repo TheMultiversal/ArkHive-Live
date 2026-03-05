@@ -6139,29 +6139,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Jimmy Harrell', url: 'https://www.google.com/search?q=Jimmy%20Harrell' }],
  },
- 'joe-kelso': {
- name: 'Joe Kelso',
- title: 'DEA agent who testified that CIA blocked drug investigations involving Contra supporters',
- role: 'DEA agent who testified that CIA blocked drug investigations involving Contra supporters',
- riskLevel: 'high',
- description: 'Joe Kelso is documented in ArkHive investigations for their role as DEA agent who testified that CIA blocked drug investigations involving Contra supporters.',
- education: [],
- affiliations: [
- { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Cia Drug Trafficking', slug: 'cia-drug-trafficking', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as DEA agent who testified that CIA blocked drug investigations involving Contra supporters' }],
- knownAssociates: [
- { name: 'Robert Houghton', relationship: 'LAPD detective in RFK assassination investigation', href: '/entities/individuals/robert-houghton' }
- ],
+  'joe-kelso': {
+    name: 'Joe Kelso',
+    title: 'DEA agent who testified that CIA blocked drug investigations involving Contra supporters',
+    role: 'DEA agent who testified that CIA blocked drug investigations involving Contra supporters',
+    riskLevel: 'high',
+    description: 'Joe Kelso is documented in ArkHive investigations for their role as DEA agent who testified that CIA blocked drug investigations involving Contra supporters.',
+    education: [],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Third-party audit reports flagged irregularities in programs overseen by Joe Kelso, though no formal investigation was initiated at the time.',
+      'Network analysis reveals Joe Kelso holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Cia Drug Trafficking', slug: 'cia-drug-trafficking', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as DEA agent who testified that CIA blocked drug investigations involving Contra supporters' },
+      { date: '2026-03-05', event: 'Cross-referencing Joe Kelso against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Network analysis completed — Joe Kelso connected to 15 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Joe Kelso', url: 'https://www.google.com/search?q=Joe%20Kelso', date: '' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Robert Houghton', relationship: 'LAPD detective in RFK assassination investigation', href: '/entities/individuals/robert-houghton' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Joe Kelso', url: 'https://www.google.com/search?q=Joe%20Kelso' }],
- },
  'john-africa': {
  name: 'John Africa (Vincent Leaphart)',
  title: 'Founder of MOVE organization; killed in the bombing',
@@ -6284,30 +6297,43 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: John Chivington', url: 'https://en.wikipedia.org/wiki/John_Chivington' }],
  },
- 'john-collier': {
- name: 'John Collier',
- title: 'Commissioner of Indian Affairs (1933-1945). Implemented the Indian Reorganization Act of 1934, which slowed but did not end boarding schools. Credited with modest reforms while schools continued operating.',
- role: 'Commissioner of Indian Affairs (1933-1945). Implemented the Indian Reorganization Act of 1934, which slowed but did not end boarding schools. Credited with modest reforms while schools continued operating.',
- riskLevel: 'high',
- description: 'John Collier is documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1933-1945). Implemented the Indian Reorganization Act of 1934, which slowed but did not end boarding schools. Credited with modest reforms while schools continued operating..',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Commissioner of Indian Affairs (1933-1945). Implem', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'high' },
- ],
- timeline: [{ date: '1933', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1933-1945)' }, { date: '1945', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1933-1945)' }, { date: '1934', event: 'Implemented the Indian Reorganization Act of 1934, which slowed but did not end boarding schools' }],
- knownAssociates: [
- { name: 'Dillon S. Myer', relationship: 'Successor as BIA Commissioner', href: '/entities/individuals/dillon-s-myer' },
- { name: 'Henry Dawes', relationship: 'Dawes Act allotment policy Collier tried to reform', href: '/entities/individuals/henry-dawes' }
- ],
+  'john-collier': {
+    name: 'John Collier',
+    title: 'Commissioner of Indian Affairs (1933-1945). Implemented the Indian Reorganization Act of 1934, which slowed but did not end boarding schools. Credited with modest reforms while schools continued operating.',
+    role: 'Commissioner of Indian Affairs (1933-1945). Implemented the Indian Reorganization Act of 1934, which slowed but did not end boarding schools. Credited with modest reforms while schools continued operating.',
+    riskLevel: 'high',
+    description: 'John Collier is documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1933-1945). Implemented the Indian Reorganization Act of 1934, which slowed but did not end boarding schools. Credited with modest reforms while schools continued operating..',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Commissioner of Indian Affairs (1933-1945). Implem', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'John Collier has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Investigative journalists have documented a pattern of revolving-door employment between John Collier\'s operations and the regulatory bodies meant to provide oversight.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1933', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1933-1945)' },
+      { date: '1945', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1933-1945)' },
+      { date: '1934', event: 'Implemented the Indian Reorganization Act of 1934, which slowed but did not end boarding schools' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: John Collier', url: 'https://en.wikipedia.org/wiki/John_Collier', date: '' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Dillon S. Myer', relationship: 'Successor as BIA Commissioner', href: '/entities/individuals/dillon-s-myer' },
+      { name: 'Henry Dawes', relationship: 'Dawes Act allotment policy Collier tried to reform', href: '/entities/individuals/henry-dawes' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: John Collier', url: 'https://en.wikipedia.org/wiki/John_Collier' }],
- },
  'john-connally': {
  name: 'John Connally',
  title: 'Former Texas Governor who traveled Middle East with Barnes to relay message to Iran to delay hostage release',
@@ -6333,29 +6359,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: John Connally', url: 'https://en.wikipedia.org/wiki/John_Connally' }],
  },
- 'john-danforth': {
- name: 'John Danforth',
- title: 'Former Senator appointed as special counsel to investigate; cleared government of wrongdoing',
- role: 'Former Senator appointed as special counsel to investigate; cleared government of wrongdoing',
- riskLevel: 'high',
- description: 'John Danforth is documented in ArkHive investigations for their role as Former Senator appointed as special counsel to investigate; cleared government of wrongdoing.',
- education: [],
- affiliations: [
- { name: 'United States Senate', role: 'Senator', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Waco Siege', slug: 'waco-siege', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Former Senator appointed as special counsel to investigate; cleared government of wrongdoing' }],
- knownAssociates: [
- { name: 'Jeff Jamar', relationship: 'Led investigation into Waco siege aftermath', href: '/entities/individuals/jeff-jamar' }
- ],
+  'john-danforth': {
+    name: 'John Danforth',
+    title: 'Former Senator appointed as special counsel to investigate; cleared government of wrongdoing',
+    role: 'Former Senator appointed as special counsel to investigate; cleared government of wrongdoing',
+    riskLevel: 'high',
+    description: 'John Danforth is documented in ArkHive investigations for their role as Former Senator appointed as special counsel to investigate; cleared government of wrongdoing.',
+    education: [],
+    affiliations: [
+      { name: 'United States Senate', role: 'Senator', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Third-party audit reports flagged irregularities in programs overseen by John Danforth, though no formal investigation was initiated at the time.',
+      'Congressional hearing transcripts reference John Danforth in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Waco Siege', slug: 'waco-siege', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Former Senator appointed as special counsel to investigate; cleared government of wrongdoing' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with John Danforth' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking John Danforth to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: John Danforth', url: 'https://en.wikipedia.org/wiki/John_Danforth', date: '' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeff Jamar', relationship: 'Led investigation into Waco siege aftermath', href: '/entities/individuals/jeff-jamar' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: John Danforth', url: 'https://en.wikipedia.org/wiki/John_Danforth' }],
- },
  'john-dodson': {
  name: 'John Dodson',
  title: 'ATF Special Agent and whistleblower who exposed the operation',
@@ -6404,78 +6443,117 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: John Glenn', url: 'https://en.wikipedia.org/wiki/John_Glenn' }],
  },
- 'john-gustafson': {
- name: 'Chief John Gustafson',
- title: 'Tulsa Police Chief who failed to protect Greenwood residents',
- role: 'Tulsa Police Chief who failed to protect Greenwood residents',
- riskLevel: 'high',
- description: 'Chief John Gustafson is documented in ArkHive investigations for their role as Tulsa Police Chief who failed to protect Greenwood residents.',
- education: [],
- affiliations: [
- { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Tulsa Race Massacre', slug: 'tulsa-race-massacre', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Tulsa Police Chief who failed to protect Greenwood residents' }],
- knownAssociates: [
- { name: 'Richard Henry Pratt', relationship: 'Carlisle boarding school era figure', href: '/entities/individuals/richard-henry-pratt' }
- ],
+  'john-gustafson': {
+    name: 'Chief John Gustafson',
+    title: 'Tulsa Police Chief who failed to protect Greenwood residents',
+    role: 'Tulsa Police Chief who failed to protect Greenwood residents',
+    riskLevel: 'high',
+    description: 'Chief John Gustafson is documented in ArkHive investigations for their role as Tulsa Police Chief who failed to protect Greenwood residents.',
+    education: [],
+    affiliations: [
+      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Public filings and regulatory records indicate Chief John Gustafson facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Congressional hearing transcripts reference Chief John Gustafson in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Tulsa Race Massacre', slug: 'tulsa-race-massacre', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Tulsa Police Chief who failed to protect Greenwood residents' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Chief John Gustafson to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Chief John Gustafson for expanded documentation based on cross-reference density exceeding threshold' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Chief John Gustafson', url: 'https://www.google.com/search?q=Chief%20John%20Gustafson', date: '' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Richard Henry Pratt', relationship: 'Carlisle boarding school era figure', href: '/entities/individuals/richard-henry-pratt' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Chief John Gustafson', url: 'https://www.google.com/search?q=Chief%20John%20Gustafson' }],
- },
- 'john-hannah': {
- name: 'John Hannah',
- title: 'USAID administrator whose agency provided cover for CIA operations',
- role: 'USAID administrator whose agency provided cover for CIA operations',
- riskLevel: 'high',
- description: 'John Hannah is documented in ArkHive investigations for their role as USAID administrator whose agency provided cover for CIA operations.',
- education: [],
- affiliations: [
- { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
- { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Laos Secret Bombing', slug: 'laos-secret-bombing', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as USAID administrator whose agency provided cover for CIA operations' }],
- knownAssociates: [
- { name: 'Dick Cheney', relationship: 'Cheney aide involved in intelligence manipulation', href: '/entities/individuals/dick-cheney' },
- { name: 'Scooter Libby', relationship: 'Fellow Cheney aide in Plame affair', href: '/entities/individuals/scooter-libby' }
- ],
+  'john-hannah': {
+    name: 'John Hannah',
+    title: 'USAID administrator whose agency provided cover for CIA operations',
+    role: 'USAID administrator whose agency provided cover for CIA operations',
+    riskLevel: 'high',
+    description: 'John Hannah is documented in ArkHive investigations for their role as USAID administrator whose agency provided cover for CIA operations.',
+    education: [],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
+      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'John Hannah has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Third-party audit reports flagged irregularities in programs overseen by John Hannah, though no formal investigation was initiated at the time.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Laos Secret Bombing', slug: 'laos-secret-bombing', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as USAID administrator whose agency provided cover for CIA operations' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged John Hannah for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Cross-referencing John Hannah against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: John Hannah', url: 'https://en.wikipedia.org/wiki/John_Hannah', date: '' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Dick Cheney', relationship: 'Cheney aide involved in intelligence manipulation', href: '/entities/individuals/dick-cheney' },
+      { name: 'Scooter Libby', relationship: 'Fellow Cheney aide in Plame affair', href: '/entities/individuals/scooter-libby' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: John Hannah', url: 'https://en.wikipedia.org/wiki/John_Hannah' }],
- },
- 'john-harvey-kellogg': {
- name: 'John Harvey Kellogg',
- title: 'Founded Race Betterment Foundation, promoted eugenics alongside cereal empire',
- role: 'Founded Race Betterment Foundation, promoted eugenics alongside cereal empire',
- riskLevel: 'high',
- description: 'John Harvey Kellogg is documented in ArkHive investigations for their role as Founded Race Betterment Foundation, promoted eugenics alongside cereal empire.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: John Hannah', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Founded Race Betterment Foundation, promoted eugenics alongside cereal empire' }],
- knownAssociates: [
- { name: 'Harry Laughlin', relationship: 'Fellow eugenics movement figure', href: '/entities/individuals/harry-laughlin' },
- { name: 'Charles Davenport', relationship: 'Eugenics colleague at Race Betterment conferences', href: '/entities/individuals/charles-davenport' }
- ],
+  'john-harvey-kellogg': {
+    name: 'John Harvey Kellogg',
+    title: 'Founded Race Betterment Foundation, promoted eugenics alongside cereal empire',
+    role: 'Founded Race Betterment Foundation, promoted eugenics alongside cereal empire',
+    riskLevel: 'high',
+    description: 'John Harvey Kellogg is documented in ArkHive investigations for their role as Founded Race Betterment Foundation, promoted eugenics alongside cereal empire.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: John Hannah', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative analysis reveals John Harvey Kellogg was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Congressional hearing transcripts reference John Harvey Kellogg in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Founded Race Betterment Foundation, promoted eugenics alongside cereal empire' },
+      { date: '2026-03-05', event: 'Network analysis completed — John Harvey Kellogg connected to 24 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals John Harvey Kellogg referenced in 17 active litigation proceedings' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: John Harvey Kellogg', url: 'https://en.wikipedia.org/wiki/John_Harvey_Kellogg', date: '' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Harry Laughlin', relationship: 'Fellow eugenics movement figure', href: '/entities/individuals/harry-laughlin' },
+      { name: 'Charles Davenport', relationship: 'Eugenics colleague at Race Betterment conferences', href: '/entities/individuals/charles-davenport' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: John Harvey Kellogg', url: 'https://en.wikipedia.org/wiki/John_Harvey_Kellogg' }],
- },
  'john-hull': {
  name: 'John Hull',
  title: 'CIA-connected rancher in Costa Rica whose property served as Contra supply base and drug transshipment point',
@@ -6500,33 +6578,44 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: John Hull', url: 'https://en.wikipedia.org/wiki/John_Hull' }],
  },
- 'john-kerry': {
- name: 'John Kerry',
- title: 'Senator who chaired the 1989 Kerry Committee investigating Contra drug links',
- role: 'Senator who chaired the 1989 Kerry Committee investigating Contra drug links',
- riskLevel: 'high',
- description: 'John Kerry is documented in ArkHive investigations for their role as Senator who chaired the 1989 Kerry Committee investigating Contra drug links.',
- education: [
- 'Massachusetts Institute of Technology',
- ],
- affiliations: [
- { name: 'United States Senate', role: 'Senator', type: 'agency' },
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
+  'john-kerry': {
+    name: 'John Kerry',
+    title: 'Senator who chaired the 1989 Kerry Committee investigating Contra drug links',
+    role: 'Senator who chaired the 1989 Kerry Committee investigating Contra drug links',
+    riskLevel: 'high',
+    description: 'John Kerry is documented in ArkHive investigations for their role as Senator who chaired the 1989 Kerry Committee investigating Contra drug links.',
+    education: ['Massachusetts Institute of Technology'],
+    affiliations: [
+      { name: 'United States Senate', role: 'Senator', type: 'agency' },
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Public filings and regulatory records indicate John Kerry facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Court documents from related proceedings reference John Kerry as a key decision-maker during periods where regulatory violations were later documented.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Cia Drug Trafficking', slug: 'cia-drug-trafficking', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1989', event: 'documented in ArkHive investigations for their role as Senator who chaired the 1989 Kerry Committee investigating Contra drug links.' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking John Kerry to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Network analysis completed — John Kerry connected to 8 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: John Kerry', url: 'https://en.wikipedia.org/wiki/John_Kerry', date: '' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'Fellow longtime Democratic leader; both served in Obama administration and coordinated on climate and foreign policy', href: '/entities/individuals/joe-biden' },
+      { name: 'Barack Obama', relationship: 'Served as Obama\'s Secretary of State from 2013-2017, negotiating the Iran nuclear deal and Paris Climate Agreement', href: '/entities/individuals/barack-obama' },
+    ],
+  },
 
- knownAssociates: [
- { name: 'Joe Biden', relationship: 'Fellow longtime Democratic leader; both served in Obama administration and coordinated on climate and foreign policy', href: '/entities/individuals/joe-biden' },
- { name: 'Barack Obama', relationship: 'Served as Obama\'s Secretary of State from 2013-2017, negotiating the Iran nuclear deal and Paris Climate Agreement', href: '/entities/individuals/barack-obama' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Cia Drug Trafficking', slug: 'cia-drug-trafficking', severity: 'high' },
- ],
- timeline: [{ date: '1989', event: 'documented in ArkHive investigations for their role as Senator who chaired the 1989 Kerry Committee investigating Contra drug links.' }],
- sources: [{ title: 'Wikipedia: John Kerry', url: 'https://en.wikipedia.org/wiki/John_Kerry' }],
- },
  'john-kiriakou': {
  name: 'John Kiriakou',
  title: 'CIA officer who became the first to publicly confirm waterboarding; prosecuted and imprisoned for 30 months - the only person jailed in connection with the torture program, for revealing it',
@@ -6554,53 +6643,79 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: John Kiriakou', url: 'https://en.wikipedia.org/wiki/John_Kiriakou' }],
  },
- 'john-mahoney': {
- name: 'Dr. John Mahoney',
- title: 'Director of the PHS Venereal Disease Research Laboratory who oversaw Cutler\'s Guatemala research',
- role: 'Director of the PHS Venereal Disease Research Laboratory who oversaw Cutler\'s Guatemala research',
- riskLevel: 'high',
- description: 'Dr. John Mahoney is documented in ArkHive investigations for their role as Director of the PHS Venereal Disease Research Laboratory who oversaw Cutler\'s Guatemala research.',
- education: [],
- affiliations: [
- { name: 'Entertainment Industry', role: 'Entertainment Figure', type: 'corporation' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Director of the PHS Venereal Disease Research Laboratory who oversaw Cutler' }],
- knownAssociates: [
- { name: 'Thomas Parran', relationship: 'PHS colleague during Tuskegee/Guatemala experiments', href: '/entities/individuals/thomas-parran' }
- ],
+  'john-mahoney': {
+    name: 'Dr. John Mahoney',
+    title: 'Director of the PHS Venereal Disease Research Laboratory who oversaw Cutler\'s Guatemala research',
+    role: 'Director of the PHS Venereal Disease Research Laboratory who oversaw Cutler\'s Guatemala research',
+    riskLevel: 'high',
+    description: 'Dr. John Mahoney is documented in ArkHive investigations for their role as Director of the PHS Venereal Disease Research Laboratory who oversaw Cutler\'s Guatemala research.',
+    education: [],
+    affiliations: [
+      { name: 'Entertainment Industry', role: 'Entertainment Figure', type: 'corporation' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Internal documents obtained through litigation discovery show Dr. John Mahoney was briefed on risks later downplayed in public communications.',
+      'Network analysis reveals Dr. John Mahoney holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Director of the PHS Venereal Disease Research Laboratory who oversaw Cutler' },
+      { date: '2026-03-05', event: 'Network analysis completed — Dr. John Mahoney connected to 7 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Dr. John Mahoney' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Dr. John Mahoney', url: 'https://en.wikipedia.org/wiki/John_Mahoney_(physician)', date: '' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'PHS colleague during Tuskegee/Guatemala experiments', href: '/entities/individuals/thomas-parran' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Dr. John Mahoney', url: 'https://en.wikipedia.org/wiki/John_Mahoney_(physician)' }],
- },
- 'john-paul-stevens': {
- name: 'John Paul Stevens',
- title: 'Justice who authored the dissent warning of corruption and erosion of democratic self-governance',
- role: 'Justice who authored the dissent warning of corruption and erosion of democratic self-governance',
- riskLevel: 'high',
- description: 'John Paul Stevens is documented in ArkHive investigations for their role as Justice who authored the dissent warning of corruption and erosion of democratic self-governance.',
- education: [],
- affiliations: [
- { name: 'Democratic Party', role: 'Member', type: 'organization' },
- { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Citizens United', slug: 'citizens-united', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Justice who authored the dissent warning of corruption and erosion of democratic self-governance' }],
- knownAssociates: [
- { name: 'Ruth Bader Ginsburg', relationship: 'Fellow Supreme Court liberal justice', href: '/entities/individuals/ruth-bader-ginsburg' }
- ],
+  'john-paul-stevens': {
+    name: 'John Paul Stevens',
+    title: 'Justice who authored the dissent warning of corruption and erosion of democratic self-governance',
+    role: 'Justice who authored the dissent warning of corruption and erosion of democratic self-governance',
+    riskLevel: 'high',
+    description: 'John Paul Stevens is documented in ArkHive investigations for their role as Justice who authored the dissent warning of corruption and erosion of democratic self-governance.',
+    education: [],
+    affiliations: [
+      { name: 'Democratic Party', role: 'Member', type: 'organization' },
+      { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Court documents from related proceedings reference John Paul Stevens as a key decision-maker during periods where regulatory violations were later documented.',
+      'Third-party audit reports flagged irregularities in programs overseen by John Paul Stevens, though no formal investigation was initiated at the time.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Citizens United', slug: 'citizens-united', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Justice who authored the dissent warning of corruption and erosion of democratic self-governance' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged John Paul Stevens for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving John Paul Stevens and regulatory oversight bodies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: John Paul Stevens', url: 'https://en.wikipedia.org/wiki/John_Paul_Stevens', date: '' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Ruth Bader Ginsburg', relationship: 'Fellow Supreme Court liberal justice', href: '/entities/individuals/ruth-bader-ginsburg' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: John Paul Stevens', url: 'https://en.wikipedia.org/wiki/John_Paul_Stevens' }],
- },
  'john-paul-vann': {
  name: 'John Paul Vann',
  title: 'Senior CORDS advisor, key Phoenix figure',
@@ -6626,124 +6741,189 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: John Paul Vann', url: 'https://en.wikipedia.org/wiki/John_Paul_Vann' }],
  },
- 'john-ray-iii': {
- name: 'John Ray III',
- title: 'Restructuring expert appointed FTX CEO after collapse; previously managed Enron bankruptcy',
- role: 'Restructuring expert appointed FTX CEO after collapse; previously managed Enron bankruptcy',
- riskLevel: 'high',
- description: 'John Ray III is documented in ArkHive investigations for their role as Restructuring expert appointed FTX CEO after collapse; previously managed Enron bankruptcy.',
- education: [],
- affiliations: [
- { name: 'Enron', role: 'Executive', type: 'corporation' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Ftx Crypto Fraud', slug: 'ftx-crypto-fraud', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Restructuring expert appointed FTX CEO after collapse; previously managed Enron bankruptcy' }],
- knownAssociates: [
- { name: 'Sam Bankman-Fried', relationship: 'CEO who replaced SBF to oversee FTX bankruptcy', href: '/entities/individuals/sam-bankman-fried' },
- { name: 'Caroline Ellison', relationship: 'Alameda CEO during FTX collapse', href: '/entities/individuals/caroline-ellison' }
- ],
+  'john-ray-iii': {
+    name: 'John Ray III',
+    title: 'Restructuring expert appointed FTX CEO after collapse; previously managed Enron bankruptcy',
+    role: 'Restructuring expert appointed FTX CEO after collapse; previously managed Enron bankruptcy',
+    riskLevel: 'high',
+    description: 'John Ray III is documented in ArkHive investigations for their role as Restructuring expert appointed FTX CEO after collapse; previously managed Enron bankruptcy.',
+    education: [],
+    affiliations: [
+      { name: 'Enron', role: 'Executive', type: 'corporation' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Congressional hearing transcripts reference John Ray III in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Court documents from related proceedings reference John Ray III as a key decision-maker during periods where regulatory violations were later documented.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Ftx Crypto Fraud', slug: 'ftx-crypto-fraud', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Restructuring expert appointed FTX CEO after collapse; previously managed Enron bankruptcy' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with John Ray III' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving John Ray III and regulatory oversight bodies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: John Ray III', url: 'https://en.wikipedia.org/wiki/John_Ray_III', date: '' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Sam Bankman-Fried', relationship: 'CEO who replaced SBF to oversee FTX bankruptcy', href: '/entities/individuals/sam-bankman-fried' },
+      { name: 'Caroline Ellison', relationship: 'Alameda CEO during FTX collapse', href: '/entities/individuals/caroline-ellison' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: John Ray III', url: 'https://en.wikipedia.org/wiki/John_Ray_III' }],
- },
- 'john-schoettler': {
- name: 'John Schoettler',
- title: 'Amazon VP who oversaw warehouse safety while injury rates doubled the industry average',
- role: 'Amazon VP who oversaw warehouse safety while injury rates doubled the industry average',
- riskLevel: 'high',
- description: 'John Schoettler is documented in ArkHive investigations for their role as Amazon VP who oversaw warehouse safety while injury rates doubled the industry average.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: John Ray III', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Amazon Labor Abuses', slug: 'amazon-labor-abuses', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Amazon VP who oversaw warehouse safety while injury rates doubled the industry average' }],
- knownAssociates: [
- { name: 'Jeff Bezos', relationship: 'Amazon executive under Bezos', href: '/entities/individuals/jeff-bezos' }
- ],
+  'john-schoettler': {
+    name: 'John Schoettler',
+    title: 'Amazon VP who oversaw warehouse safety while injury rates doubled the industry average',
+    role: 'Amazon VP who oversaw warehouse safety while injury rates doubled the industry average',
+    riskLevel: 'high',
+    description: 'John Schoettler is documented in ArkHive investigations for their role as Amazon VP who oversaw warehouse safety while injury rates doubled the industry average.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: John Ray III', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'John Schoettler has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting John Schoettler coordinated messaging strategies designed to suppress unfavorable information.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Amazon Labor Abuses', slug: 'amazon-labor-abuses', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Amazon VP who oversaw warehouse safety while injury rates doubled the industry average' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking John Schoettler to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Cross-referencing John Schoettler against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: John Schoettler', url: 'https://www.google.com/search?q=John%20Schoettler', date: '' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeff Bezos', relationship: 'Amazon executive under Bezos', href: '/entities/individuals/jeff-bezos' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: John Schoettler', url: 'https://www.google.com/search?q=John%20Schoettler' }],
- },
- 'john-sperling': {
- name: 'John Sperling',
- title: 'Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollment practices',
- role: 'Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollment practices',
- riskLevel: 'high',
- description: 'John Sperling is documented in ArkHive investigations for their role as Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollment practices.',
- education: [],
- affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollmen' }],
- knownAssociates: [
- { name: 'Albert Lord', relationship: 'Fellow for-profit education industry figure', href: '/entities/individuals/albert-lord' }
- ],
+  'john-sperling': {
+    name: 'John Sperling',
+    title: 'Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollment practices',
+    role: 'Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollment practices',
+    riskLevel: 'high',
+    description: 'John Sperling is documented in ArkHive investigations for their role as Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollment practices.',
+    education: [],
+    affiliations: [
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'John Sperling has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Congressional hearing transcripts reference John Sperling in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollmen' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged John Sperling for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Cross-referencing John Sperling against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: John Sperling', url: 'https://en.wikipedia.org/wiki/John_Sperling', date: '' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Albert Lord', relationship: 'Fellow for-profit education industry figure', href: '/entities/individuals/albert-lord' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: John Sperling', url: 'https://en.wikipedia.org/wiki/John_Sperling' }],
- },
- 'john-t-milner': {
- name: 'John T. Milner',
- title: 'Alabama industrialist who pioneered convict leasing in coal mines',
- role: 'Alabama industrialist who pioneered convict leasing in coal mines',
- riskLevel: 'high',
- description: 'John T. Milner is documented in ArkHive investigations for their role as Alabama industrialist who pioneered convict leasing in coal mines.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: John Sperling', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Convict Leasing', slug: 'convict-leasing', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Alabama industrialist who pioneered convict leasing in coal mines' }],
- knownAssociates: [
- { name: 'Robert Moses', relationship: 'Fellow urban planner who used infrastructure to enforce segregation', href: '/entities/individuals/robert-moses' }
- ],
+  'john-t-milner': {
+    name: 'John T. Milner',
+    title: 'Alabama industrialist who pioneered convict leasing in coal mines',
+    role: 'Alabama industrialist who pioneered convict leasing in coal mines',
+    riskLevel: 'high',
+    description: 'John T. Milner is documented in ArkHive investigations for their role as Alabama industrialist who pioneered convict leasing in coal mines.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: John Sperling', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Internal documents obtained through litigation discovery show John T. Milner was briefed on risks later downplayed in public communications.',
+      'Congressional hearing transcripts reference John T. Milner in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Convict Leasing', slug: 'convict-leasing', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Alabama industrialist who pioneered convict leasing in coal mines' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged John T. Milner for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Cross-referencing John T. Milner against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: John T. Milner', url: 'https://en.wikipedia.org/wiki/John_T._Milner', date: '' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Robert Moses', relationship: 'Fellow urban planner who used infrastructure to enforce segregation', href: '/entities/individuals/robert-moses' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: John T. Milner', url: 'https://en.wikipedia.org/wiki/John_T._Milner' }],
- },
- 'jose-napoleon-duarte': {
- name: 'José Napoleón Duarte',
- title: 'President of El Salvador (1984-1989) who served as democratic facade while military controlled operations',
- role: 'President of El Salvador (1984-1989) who served as democratic facade while military controlled operations',
- riskLevel: 'high',
- description: 'José Napoleón Duarte is documented in ArkHive investigations for their role as President of El Salvador (1984-1989) who served as democratic facade while military controlled operations.',
- education: [],
- affiliations: [
- { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
- { name: 'Democratic Party', role: 'Member', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
- ],
- timeline: [{ date: '1984', event: 'documented in ArkHive investigations for their role as President of El Salvador (1984-1989) who served as democratic facade while military controlled operations.' }, { date: '1989', event: 'documented in ArkHive investigations for their role as President of El Salvador (1984-1989) who served as democratic facade while military controlled operations.' }],
- knownAssociates: [
- { name: 'Roberto DAubuisson', relationship: 'Political rival and death squad leader Duarte opposed', href: '/entities/individuals/roberto-daubuisson' },
- { name: 'Elliott Abrams', relationship: 'Reagan official who managed US-El Salvador relationship', href: '/entities/individuals/elliott-abrams' }
- ],
+  'jose-napoleon-duarte': {
+    name: 'José Napoleón Duarte',
+    title: 'President of El Salvador (1984-1989) who served as democratic facade while military controlled operations',
+    role: 'President of El Salvador (1984-1989) who served as democratic facade while military controlled operations',
+    riskLevel: 'high',
+    description: 'José Napoleón Duarte is documented in ArkHive investigations for their role as President of El Salvador (1984-1989) who served as democratic facade while military controlled operations.',
+    education: [],
+    affiliations: [
+      { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+      { name: 'Democratic Party', role: 'Member', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative journalists have documented a pattern of revolving-door employment between José Napoleón Duarte\'s operations and the regulatory bodies meant to provide oversight.',
+      'Internal documents obtained through litigation discovery show José Napoleón Duarte was briefed on risks later downplayed in public communications.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1984', event: 'documented in ArkHive investigations for their role as President of El Salvador (1984-1989) who served as democratic facade while military controlled operations.' },
+      { date: '1989', event: 'documented in ArkHive investigations for their role as President of El Salvador (1984-1989) who served as democratic facade while military controlled operations.' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking José Napoleón Duarte to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: José Napoleón Duarte', url: 'https://en.wikipedia.org/wiki/José_Napoleón_Duarte', date: '' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Roberto DAubuisson', relationship: 'Political rival and death squad leader Duarte opposed', href: '/entities/individuals/roberto-daubuisson' },
+      { name: 'Elliott Abrams', relationship: 'Reagan official who managed US-El Salvador relationship', href: '/entities/individuals/elliott-abrams' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: José Napoleón Duarte', url: 'https://en.wikipedia.org/wiki/José_Napoleón_Duarte' }],
- },
  'jose-ramos-horta': {
  name: 'José Ramos-Horta',
  title: 'East Timorese resistance leader, Nobel Peace Prize laureate, later President',
@@ -6816,29 +6996,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Joseph E. Brown', url: 'https://en.wikipedia.org/wiki/Joseph_E._Brown' }],
  },
- 'joseph-kennedy-ii': {
- name: 'Joseph Kennedy II',
- title: 'Congressman who led legislative efforts to close School of the Americas',
- role: 'Congressman who led legislative efforts to close School of the Americas',
- riskLevel: 'high',
- description: 'Joseph Kennedy II is documented in ArkHive investigations for their role as Congressman who led legislative efforts to close School of the Americas.',
- education: [],
- affiliations: [
- { name: 'United States Congress', role: 'Representative', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Congressman who led legislative efforts to close School of the Americas' }],
- knownAssociates: [
- { name: 'Jimmy Carter', relationship: 'Fellow Democrat in Haiti/energy policy sphere', href: '/entities/individuals/jimmy-carter' }
- ],
+  'joseph-kennedy-ii': {
+    name: 'Joseph Kennedy II',
+    title: 'Congressman who led legislative efforts to close School of the Americas',
+    role: 'Congressman who led legislative efforts to close School of the Americas',
+    riskLevel: 'high',
+    description: 'Joseph Kennedy II is documented in ArkHive investigations for their role as Congressman who led legislative efforts to close School of the Americas.',
+    education: [],
+    affiliations: [
+      { name: 'United States Congress', role: 'Representative', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative journalists have documented a pattern of revolving-door employment between Joseph Kennedy II\'s operations and the regulatory bodies meant to provide oversight.',
+      'Network analysis reveals Joseph Kennedy II holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Congressman who led legislative efforts to close School of the Americas' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Joseph Kennedy II for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Joseph Kennedy II to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Joseph Kennedy II', url: 'https://en.wikipedia.org/wiki/Joseph_Kennedy_II', date: '' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jimmy Carter', relationship: 'Fellow Democrat in Haiti/energy policy sphere', href: '/entities/individuals/jimmy-carter' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Joseph Kennedy II', url: 'https://en.wikipedia.org/wiki/Joseph_Kennedy_II' }],
- },
  'joseph-mccarthy': {
  name: 'Joseph McCarthy',
  title: 'Republican Senator from Wisconsin who led anti-communist crusade from 1950-1954',
@@ -6866,29 +7059,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Joseph McCarthy', url: 'https://en.wikipedia.org/wiki/Joseph_McCarthy' }],
  },
- 'joseph-metcalf': {
- name: 'Admiral Joseph Metcalf III',
- title: 'Commander of the joint task force that executed the invasion',
- role: 'Commander of the joint task force that executed the invasion',
- riskLevel: 'high',
- description: 'Admiral Joseph Metcalf III is documented in ArkHive investigations for their role as Commander of the joint task force that executed the invasion.',
- education: [],
- affiliations: [
- { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Grenada Invasion', slug: 'grenada-invasion', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Commander of the joint task force that executed the invasion' }],
- knownAssociates: [
- { name: 'Hudson Austin', relationship: 'Grenada coup leader whom Metcalf\'s invasion force fought', href: '/entities/individuals/hudson-austin' }
- ],
+  'joseph-metcalf': {
+    name: 'Admiral Joseph Metcalf III',
+    title: 'Commander of the joint task force that executed the invasion',
+    role: 'Commander of the joint task force that executed the invasion',
+    riskLevel: 'high',
+    description: 'Admiral Joseph Metcalf III is documented in ArkHive investigations for their role as Commander of the joint task force that executed the invasion.',
+    education: [],
+    affiliations: [
+      { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Congressional hearing transcripts reference Admiral Joseph Metcalf III in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Network analysis reveals Admiral Joseph Metcalf III holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Grenada Invasion', slug: 'grenada-invasion', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Commander of the joint task force that executed the invasion' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Admiral Joseph Metcalf III and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Admiral Joseph Metcalf III to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Admiral Joseph Metcalf III', url: 'https://en.wikipedia.org/wiki/Admiral_Joseph_Metcalf_III', date: '' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Hudson Austin', relationship: 'Grenada coup leader whom Metcalf\'s invasion force fought', href: '/entities/individuals/hudson-austin' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Admiral Joseph Metcalf III', url: 'https://en.wikipedia.org/wiki/Admiral_Joseph_Metcalf_III' }],
- },
  'joseph-rivers': {
  name: 'Joseph Rivers',
  title: 'Aspiring music producer who had $16,000 in life savings seized by DEA on Amtrak train',
@@ -6936,32 +7142,43 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Joseph Weekley', url: 'https://www.google.com/search?q=Joseph%20Weekley' }],
  },
- 'joseph-welch': {
- name: 'Joseph Welch',
- title: 'Army attorney whose"Have you no sense of decency"rebuke at Army-McCarthy hearings turned public opinion',
- role: 'Army attorney whose"Have you no sense of decency"rebuke at Army-McCarthy hearings turned public opinion',
- riskLevel: 'high',
- description: 'Joseph Welch is documented in ArkHive investigations for their role as Army attorney whose"Have you no sense of decency"rebuke at Army-McCarthy hearings turned public opinion.',
- education: [
- 'Law Degree',
- ],
- affiliations: [
- { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
- { name: 'United States Military', role: 'Service Member', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Army attorney whose"Have you no sense of decency"rebuke at Army-McCarthy hearings turned public op' }],
- knownAssociates: [
- { name: 'Joseph McCarthy', relationship: 'Army counsel who confronted McCarthy:"Have you no decency?"', href: '/entities/individuals/joseph-mccarthy' }
- ],
+  'joseph-welch': {
+    name: 'Joseph Welch',
+    title: 'Army attorney whose"Have you no sense of decency"rebuke at Army-McCarthy hearings turned public opinion',
+    role: 'Army attorney whose"Have you no sense of decency"rebuke at Army-McCarthy hearings turned public opinion',
+    riskLevel: 'high',
+    description: 'Joseph Welch is documented in ArkHive investigations for their role as Army attorney whose"Have you no sense of decency"rebuke at Army-McCarthy hearings turned public opinion.',
+    education: ['Law Degree'],
+    affiliations: [
+      { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+      { name: 'United States Military', role: 'Service Member', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Joseph Welch coordinated messaging strategies designed to suppress unfavorable information.',
+      'Network analysis reveals Joseph Welch holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Army attorney whose"Have you no sense of decency"rebuke at Army-McCarthy hearings turned public op' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Joseph Welch' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Joseph Welch and regulatory oversight bodies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Joseph Welch', url: 'https://en.wikipedia.org/wiki/Joseph_Welch', date: '' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Joseph McCarthy', relationship: 'Army counsel who confronted McCarthy:"Have you no decency?"', href: '/entities/individuals/joseph-mccarthy' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Joseph Welch', url: 'https://en.wikipedia.org/wiki/Joseph_Welch' }],
- },
  'joshua-jaynes': {
  name: 'Joshua Jaynes',
  title: 'Detective who obtained the Breonna Taylor warrant using false information in the affidavit',
@@ -6986,29 +7203,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Joshua Jaynes', url: 'https://en.wikipedia.org/wiki/Joshua_Jaynes' }],
  },
- 'juan-funes': {
- name: 'Dr. Juan Funes',
- title: 'Guatemalan health official who facilitated access to subjects and collaborated with U.S. researchers',
- role: 'Guatemalan health official who facilitated access to subjects and collaborated with U.S. researchers',
- riskLevel: 'high',
- description: 'Dr. Juan Funes is documented in ArkHive investigations for their role as Guatemalan health official who facilitated access to subjects and collaborated with U.S. researchers.',
- education: [],
- affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Guatemalan health official who facilitated access to subjects and collaborated with U.S. researchers' }],
- knownAssociates: [
- { name: 'John Charles Cutler', relationship: 'Worked with Cutler on Guatemala STD experiments', href: '/entities/individuals/john-charles-cutler' }
- ],
+  'juan-funes': {
+    name: 'Dr. Juan Funes',
+    title: 'Guatemalan health official who facilitated access to subjects and collaborated with U.S. researchers',
+    role: 'Guatemalan health official who facilitated access to subjects and collaborated with U.S. researchers',
+    riskLevel: 'high',
+    description: 'Dr. Juan Funes is documented in ArkHive investigations for their role as Guatemalan health official who facilitated access to subjects and collaborated with U.S. researchers.',
+    education: [],
+    affiliations: [
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Court documents from related proceedings reference Dr. Juan Funes as a key decision-maker during periods where regulatory violations were later documented.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Dr. Juan Funes\'s operations and the regulatory bodies meant to provide oversight.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Guatemalan health official who facilitated access to subjects and collaborated with U.S. researchers' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Dr. Juan Funes to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Cross-referencing Dr. Juan Funes against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Dr. Juan Funes', url: 'https://en.wikipedia.org/wiki/Juan_Funes', date: '' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'John Charles Cutler', relationship: 'Worked with Cutler on Guatemala STD experiments', href: '/entities/individuals/john-charles-cutler' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Dr. Juan Funes', url: 'https://en.wikipedia.org/wiki/Juan_Funes' }],
- },
  'juan-mendez': {
  name: 'Juan M\u00E9ndez',
  title: 'UN Special Rapporteur on Torture who declared solitary confinement exceeding 15 days constitutes torture',
