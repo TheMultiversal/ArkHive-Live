@@ -1352,6 +1352,17 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'centers-for-disease-control-and-prevention': {
+    id: 'd8b37e79fd786745',
+    slug: 'centers-for-disease-control-and-prevention',
+    name: 'Centers for Disease Control and Prevention',
+    type: 'agency',
+    description: 'Centers for Disease Control and Prevention is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 

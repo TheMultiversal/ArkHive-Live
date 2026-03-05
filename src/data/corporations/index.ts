@@ -2062,6 +2062,17 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'openai-inc': {
+    id: '97829ada6ed254ff',
+    slug: 'openai-inc',
+    name: 'OpenAI Inc',
+    type: 'corporation',
+    description: 'OpenAI Inc is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 
