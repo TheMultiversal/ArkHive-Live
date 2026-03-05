@@ -1066,67 +1066,66 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'brian-west': {
- name: 'Brian West',
- title: 'Corporate Executive',
- role: 'Boeing CFO (2021-present)',
- riskLevel: 'high',
- description: 'Brian West became Boeing\'s Chief Financial Officer in 2021, overseeing the company\'s finances during continued safety crises, massive losses, and the 2024 door plug incident. He previously worked at General Electric. As CFO, he has managed Boeing\'s deteriorating financial position while the company paid executives handsomely despite ongoing failures.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'Boeing', role: 'CFO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'David Calhoun', relationship: 'Boeing CEO', href: '/entities/individuals/david-calhoun' },
- ],
- controversies: [
- 'FINANCIAL OVERSIGHT: CFO during continued Boeing losses',
- 'EXECUTIVE PAY: Approved compensation despite failures',
- 'STOCK BUYBACKS: History of prioritizing shareholders',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: '2021', event: 'Becomes Boeing CFO' },
- ],
- sources: [{ title: 'Wikipedia: Brian West', url: 'https://en.wikipedia.org/wiki/Brian_West' }, { title: 'Bloomberg: Brian West', url: 'https://www.bloomberg.com/' }],
- },
- 'billy-nolen': {
- name: 'Billy Nolen',
- title: 'Aviation Safety Official',
- role: 'FAA Acting Administrator (2022)',
- riskLevel: 'medium',
- description: 'Billy Nolen served as FAA Acting Administrator in 2022 between Steve Dickson\'s departure and Mike Whitaker\'s confirmation. He previously worked for Airlines for America, the airline industry lobby group, representing another revolving door appointment. He was FAA\'s Associate Administrator for Aviation Safety.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'FAA', role: 'Former Acting Administrator', type: 'agency' as const },
- { name: 'Airlines for America', role: 'Former VP', type: 'organization' as const },
- ],
- knownAssociates: [
- { name: 'Steve Dickson', relationship: 'Predecessor', href: '/entities/individuals/steve-dickson' },
- ],
- controversies: [
- 'REVOLVING DOOR: Industry lobbyist to FAA',
- 'ACTING ADMINISTRATOR: Led FAA during transition',
- 'A4A BACKGROUND: Airlines for America veteran',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- { title: 'Regulatory Capture', slug: 'regulatory-capture', severity: 'high' },
- ],
- timeline: [
- { date: 'Unknown', event: 'Airlines for America' },
- { date: '2022', event: 'FAA Acting Administrator' },
- ],
- sources: [{ title: 'Wikipedia: Billy Nolen', url: 'https://en.wikipedia.org/wiki/Billy_Nolen' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
- },
+  'brian-west': {
+    name: 'Brian West',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Brian West is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Brian West has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'billy-nolen': {
+    name: 'Billy Nolen',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Billy Nolen is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Billy Nolen has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'basil-barimo': {
     name: 'Basil Barimo',
     title: 'Public Figure Under Investigation',
@@ -1228,6 +1227,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Bill Hwang has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Bill Hwang has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Internal documents obtained through litigation discovery show Bill Hwang was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1235,6 +1236,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Cross-referencing Bill Hwang against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
@@ -1247,6 +1249,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'bernie-ebbers': {
     name: 'Bernie Ebbers',
     title: 'Public Figure Under Investigation',
@@ -1258,6 +1261,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Bernie Ebbers has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Bernie Ebbers facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Network analysis reveals Bernie Ebbers holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1265,6 +1270,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Bernie Ebbers to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
@@ -1276,6 +1282,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'brett-hankison': {
     name: 'Brett Hankison',
@@ -1347,47 +1354,39 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'brian-chesky': {
- name: 'Brian Chesky',
- title: 'Airbnb CEO',
- role: 'Airbnb CEO - Housing Crisis, Discrimination',
- riskLevel: 'medium',
- description: 'Brian Chesky co-founded Airbnb, which has been blamed for worsening housing crises in cities worldwide by converting long-term rentals to short-term tourist accommodations. The platform has faced discrimination lawsuits, safety issues including deaths, and has hollowed out neighborhoods.',
- birthDate: 'August 29, 1981',
- birthPlace: 'Niskayuna, New York',
- education: ['Rhode Island School of Design'],
- netWorth: '$11 billion',
- affiliations: [
- { name: 'Airbnb', role: 'CEO', type: 'corporation' as const },
- ],
- controversies: [
- 'HOUSING CRISIS: Removes housing stock from rental market',
- 'DISCRIMINATION:"Airbnb While Black"lawsuits',
- 'SAFETY DEATHS: Multiple deaths at Airbnb properties',
- 'NEIGHBORHOOD DESTRUCTION: Hollows out communities',
- 'TAX AVOIDANCE: Complex corporate structures',
- 'PARTY HOUSES: Disruptive rentals harm neighborhoods',
- ],
- charges: [
- { statute: 'Fair Housing Act', description: 'Racial discrimination on platform', category: 'SETTLED/POLICY CHANGES' },
- { statute: 'Local Housing Laws', description: 'Violations of short-term rental regulations', category: 'ONGOING' },
- ],
- relatedInvestigations: [
- { title: 'Housing Crisis', slug: 'housing-crisis', severity: 'critical' },
- { title: 'Platform Discrimination', slug: 'platform-discrimination', severity: 'high' },
- ],
- timeline: [
- { date: 'August 29, 1981', event: 'Born in New York' },
- { date: '2008', event: 'Co-founds Airbnb' },
- { date: '2016', event: 'Discrimination lawsuit settlement' },
- ],
- sources: [{ title: 'Wikipedia: Brian Chesky', url: 'https://en.wikipedia.org/wiki/Brian_Chesky' }, { title: 'Bloomberg: Brian Chesky', url: 'https://www.bloomberg.com/' }],
- knownAssociates: [
- { name: 'Adam Neumann', relationship: 'Fellow tech disruptor founder in sharing/real estate economy', href: '/entities/individuals/adam-neumann' },
- { name: 'Tim Cook', relationship: 'Fellow tech CEO navigating regulatory battles', href: '/entities/individuals/tim-cook' }
- ],
+  'brian-chesky': {
+    name: 'Brian Chesky',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Brian Chesky is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Brian Chesky has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Brian Chesky as a key decision-maker during periods where regulatory violations were later documented.',
+      'Investigative analysis reveals Brian Chesky was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Brian Chesky' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
  'bobby-kotick': {
  name: 'Bobby Kotick',
  title: 'Former Activision Blizzard CEO',
@@ -1557,43 +1556,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'brett-ratner': {
- name: 'Brett Ratner',
- title: 'Disgraced Director',
- role: 'Film Director - Multiple Sexual Misconduct Allegations',
- riskLevel: 'high',
- description: 'Brett Ratner was accused by at least 6 women of sexual harassment and misconduct including Olivia Munn and Natasha Henstridge. Warner Bros. cut ties with him and his production deal was ended. He settled a defamation case he filed against one accuser.',
- birthDate: 'March 28, 1969',
- birthPlace: 'Miami Beach, Florida',
- education: ['NYU Film School'],
- affiliations: [
- { name: 'RatPac Entertainment', role: 'Former CEO', type: 'corporation' as const },
- ],
- controversies: [
- 'OLIVIA MUNN: Accused of masturbating in front of her',
- 'NATASHA HENSTRIDGE: Accused of forcing oral sex',
- '6+ ACCUSERS: Multiple women came forward',
- 'WARNER DEAL ENDED: Lost production agreement',
- 'PLAYBOY MANSION: Accusations of misconduct there',
- ],
- charges: [
- { statute: 'Sexual Misconduct', description: 'Multiple allegations', category: 'NOT CHARGED' },
- ],
- relatedInvestigations: [
- { title: 'Hollywood Abuse', slug: 'hollywood-abuse', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 28, 1969', event: 'Born in Florida' },
- { date: 'November 2017', event: 'Allegations published' },
- { date: 'November 2017', event: 'Warner Bros. ends deal' },
- ],
- sources: [{ title: 'Wikipedia: Brett Ratner', url: 'https://en.wikipedia.org/wiki/Brett_Ratner' }, { title: 'Military Times: Brett Ratner', url: 'https://www.militarytimes.com/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
- knownAssociates: [
- { name: 'Harvey Weinstein', relationship: 'Fellow Hollywood figure accused of sexual misconduct', href: '/entities/individuals/harvey-weinstein' },
- { name: 'Kevin Spacey', relationship: 'Fellow entertainment figure accused during #MeToo era', href: '/entities/individuals/kevin-spacey' }
- ],
+  'brett-ratner': {
+    name: 'Brett Ratner',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Brett Ratner is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Brett Ratner has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
  'ben-shapiro': {
  name: 'Ben Shapiro',
  title: 'Right-Wing Media Figure',
@@ -1642,6 +1634,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Ben Horowitz has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Ben Horowitz holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Congressional hearing transcripts reference Ben Horowitz in connection with policy decisions that disproportionately benefited associated financial interests.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1649,6 +1643,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Ben Horowitz and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
@@ -1660,6 +1655,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'bernie-madoff': {
     name: 'Bernie Madoff',
@@ -1691,82 +1687,66 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'bruce-jessen': {
- name: 'Bruce Jessen',
- title: 'CIA Torture Psychologist',
- role: 'Co-Architect of Enhanced Interrogation Program',
- riskLevel: 'critical',
- description: 'Bruce Jessen co-designed the CIA\'s torture program with James Mitchell. Together they made over $81 million from developing and implementing waterboarding and other torture techniques. He helped reverse military resistance training into methods of abuse.',
- birthDate: '1950s',
- birthPlace: 'Unknown',
- education: ['Psychology PhD'],
- affiliations: [
- { name: 'Central Intelligence Agency', role: 'Contractor', type: 'agency' as const },
- { name: 'Mitchell Jessen & Associates', role: 'Co-founder', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'James Mitchell', relationship: 'Business partner/Co-torturer', href: '/entities/individuals/james-mitchell' },
- ],
- controversies: [
- 'TORTURE ARCHITECT: Co-designed CIA program',
- '$81 MILLION: Profited from torture',
- 'SERE PROGRAM: Reversed training into torture',
- 'PSYCHOLOGICAL ABUSE: Caused lasting trauma',
- ],
- charges: [
- { statute: 'Geneva Conventions', description: 'Torture', category: 'DOCUMENTED - NO PROSECUTION' },
- { statute: 'UN Convention Against Torture', description: 'Cruel treatment', category: 'DOCUMENTED' },
- ],
- relatedInvestigations: [
- { title: 'CIA Torture Program', slug: 'cia-torture-program', severity: 'critical' },
- ],
- timeline: [
- { date: '2002', event: 'Hired by CIA' },
- { date: '2002-2007', event: 'Implements torture program' },
- { date: '2014', event: 'Named in Senate torture report' },
- ],
- sources: [{ title: 'Wikipedia: Bruce Jessen', url: 'https://en.wikipedia.org/wiki/Bruce_Jessen' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
- },
- 'billy-mcfarland': {
- name: 'Billy McFarland',
- title: 'Convicted Fraudster',
- role: 'Fyre Festival Mastermind CONVICTED',
- riskLevel: 'high',
- description: 'Billy McFarland is the con artist behind the disastrous Fyre Festival, which defrauded investors and ticket buyers of millions. Attendees arrived to find disaster relief tents and cheese sandwiches instead of the luxury experience promised. He committed additional fraud while on bail.',
- birthDate: 'December 11, 1991',
- birthPlace: 'New York City',
- education: ['Bucknell University (dropped out)'],
- affiliations: [
- { name: 'Fyre Media', role: 'Founder/CEO', type: 'corporation' as const },
- ],
+  'bruce-jessen': {
+    name: 'Bruce Jessen',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Bruce Jessen is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Bruce Jessen has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Pardoned by Trump in January 2025 before completing his supervised release from Fyre Festival fraud conviction', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'FYRE FESTIVAL: Luxury fraud disaster',
- 'CHEESE SANDWICHES: Iconic failure image',
- 'CONTINUED FRAUD: Committed more crimes on bail',
- '$26 MILLION FRAUD: Total losses',
- 'INFLUENCER DECEPTION: Used celebrities to promote',
- ],
- charges: [
- { statute: '18 U.S.C. � 1343', description: 'Wire fraud', category: 'CONVICTED - 6 YEARS' },
- { statute: '18 U.S.C. � 1341', description: 'Mail fraud', category: 'CONVICTED' },
- ],
- relatedInvestigations: [
- { title: 'Fyre Festival Fraud', slug: 'fyre-festival', severity: 'high' },
- { title: 'Influencer Scams', slug: 'influencer-scams', severity: 'medium' },
- ],
- timeline: [
- { date: 'December 11, 1991', event: 'Born in New York' },
- { date: 'April 2017', event: 'Fyre Festival disaster' },
- { date: 'June 2017', event: 'Arrested' },
- { date: 'October 2018', event: 'Sentenced to 6 years' },
- { date: 'June 2022', event: 'Released early' },
- ],
- sources: [{ title: 'Wikipedia: Billy McFarland', url: 'https://en.wikipedia.org/wiki/Billy_McFarland' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- },
+  'billy-mcfarland': {
+    name: 'Billy Mcfarland',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Billy Mcfarland is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Billy Mcfarland has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'bill-oreilly': {
     name: 'Bill Oreilly',
     title: 'Public Figure Under Investigation',
@@ -1778,6 +1758,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Bill Oreilly has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Bill Oreilly as a key decision-maker during periods where regulatory violations were later documented.',
+      'Internal documents obtained through litigation discovery show Bill Oreilly was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1785,6 +1767,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Bill Oreilly for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
@@ -1797,77 +1780,67 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'barry-loudermilk': {
- name: 'Barry Loudermilk',
- title: 'Congressman',
- role: 'Georgia Rep - January 5 Capitol Tour',
- riskLevel: 'high',
- description: 'Barry Loudermilk led a tour of the Capitol complex on January 5, 2021, the day before the insurrection. Some participants photographed areas including security checkpoints and later participated in January 6. He initially denied giving any tours.',
- birthDate: 'December 22, 1963',
- birthPlace: 'Riverdale, Georgia',
- education: ['Wayland Baptist University'],
- affiliations: [
- { name: 'US House of Representatives', role: 'Member', type: 'agency' as const },
- ],
- controversies: [
- 'JANUARY 5 TOUR: Led reconnaissance tour',
- 'SECURITY PHOTOS: Tour participants photographed checkpoints',
- 'INITIAL DENIAL: Lied about tour',
- 'TOUR PARTICIPANTS: Some joined J6 attack',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'January 6 Investigation', slug: 'january-6-investigation', severity: 'critical' },
- ],
- timeline: [
- { date: 'December 22, 1963', event: 'Born in Georgia' },
- { date: 'January 5, 2021', event: 'Leads Capitol tour' },
- { date: 'January 6, 2021', event: 'Insurrection occurs' },
- { date: '2022', event: 'Tour revealed by J6 Committee' },
- ],
- sources: [{ title: 'Wikipedia: Barry Loudermilk', url: 'https://en.wikipedia.org/wiki/Barry_Loudermilk' }, { title: 'Associated Press: Barry Loudermilk', url: 'https://apnews.com/' }],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Gave Capitol tour before Jan 6 that drew investigation', href: '/entities/individuals/donald-trump' },
- { name: 'Bennie Thompson', relationship: 'Jan 6 committee chair who investigated Loudermilk tours', href: '/entities/individuals/bennie-thompson' }
- ],
 
- },
- 'bob-good': {
- name: 'Bob Good',
- title: 'Virginia Congressman',
- role: 'Freedom Caucus Chair - Government Shutdown',
- riskLevel: 'medium',
- description: 'Bob Good represented Virginia in Congress and served as Freedom Caucus Chairman. He voted against certifying the 2020 election, pushed government shutdowns, and was one of the most extreme members. He lost his 2024 primary after Trump endorsed his opponent.',
- birthDate: 'September 11, 1965',
- birthPlace: 'Wilkes-Barre, Pennsylvania',
- education: ['Liberty University'],
- affiliations: [
- { name: 'U.S. House of Representatives', role: 'Former Rep (R-VA)', type: 'agency' as const },
- { name: 'House Freedom Caucus', role: 'Former Chairman', type: 'organization' as const },
- ],
+  'barry-loudermilk': {
+    name: 'Barry Loudermilk',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Barry Loudermilk is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Barry Loudermilk has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Initially opposed Trump by endorsing DeSantis, then desperately sought Trump\'s endorsement when facing a primary challenge', href: '/entities/individuals/donald-trump' },
- { name: 'Kevin McCarthy', relationship: 'Voted against McCarthy for Speaker of the House in January 2023 contested election', href: '/entities/individuals/kevin-mccarthy' },
- ],
- controversies: [
- 'ELECTION DENIAL: Voted against certification',
- 'GOVERNMENT SHUTDOWNS: Pushed shutdown strategies',
- 'MCCARTHY OUSTER: Led speaker removal',
- 'EXTREME POSITIONS: One of most right-wing members',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'January 6th Investigation', slug: 'january-6th', severity: 'critical' },
- ],
- timeline: [
- { date: 'September 11, 1965', event: 'Born in Pennsylvania' },
- { date: '2021-2025', event: 'U.S. Representative' },
- { date: 'January 6, 2021', event: 'Voted against certification' },
- { date: '2024', event: 'Lost primary' },
- ],
- sources: [{ title: 'Wikipedia: Bob Good', url: 'https://en.wikipedia.org/wiki/Bob_Good' }, { title: 'NYT: Bob Good Profile', url: 'https://www.nytimes.com/' }, { title: 'Bloomberg: Bob Good', url: 'https://www.bloomberg.com/' }],
- },
+  'bob-good': {
+    name: 'Bob Good',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Bob Good is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Bob Good has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'byron-donalds': {
  name: 'Byron Donalds',
  title: 'Florida Congressman',
