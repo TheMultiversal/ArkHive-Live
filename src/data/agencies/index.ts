@@ -1302,6 +1302,17 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'international-monetary-fund': {
+    id: '4a807b2ee6cf9a69',
+    slug: 'international-monetary-fund',
+    name: 'International Monetary Fund',
+    type: 'agency',
+    description: 'International Monetary Fund is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 
