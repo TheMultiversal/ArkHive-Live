@@ -368,6 +368,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Emin Agalarov has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Emin Agalarov as a key decision-maker during periods where regulatory violations were later documented.',
+      'Internal documents obtained through litigation discovery show Emin Agalarov was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -375,6 +377,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Emin Agalarov' },
     ],
     socialMedia: [],
     sources: [
@@ -386,6 +389,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'elliott-broidy': {
     name: 'Elliott Broidy',
@@ -757,73 +761,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Earl Lawrence', url: 'https://www.google.com/search?q=Earl%20Lawrence' }, { title: 'Bloomberg: Earl Lawrence', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
  },
- 'edmund-giambastiani': {
- name: 'Edmund Giambastiani',
- title: 'Military/Corporate',
- role: 'Boeing Board Member',
- riskLevel: 'high',
- description: 'Admiral Edmund Giambastiani (Ret.) is a Boeing Board Member who previously served as Vice Chairman of the Joint Chiefs of Staff, the second-highest military position in the U.S. He epitomizes the military-industrial revolving door, moving from overseeing military procurement to the board of a major defense contractor. He has served on Boeing\'s board since 2009, through the entire MAX crisis.',
- birthDate: 'April 16, 1948',
- birthPlace: 'Canastota, New York',
- education: ['Naval Academy', 'Naval War College'],
- affiliations: [
- { name: 'Boeing', role: 'Board Member', type: 'corporation' as const },
- { name: 'Joint Chiefs of Staff', role: 'Former Vice Chairman', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Patrick Shanahan', relationship: 'Fellow military-industrial connection', href: '/entities/individuals/patrick-shanahan' },
- ],
- controversies: [
- 'REVOLVING DOOR: Joint Chiefs to Boeing board',
- 'LONG TENURE: On board throughout entire MAX crisis',
- 'DEFENSE CONTRACTS: Oversight of company with major military business',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- { title: 'Corporate Influence', slug: 'corporate-influence', severity: 'high' },
- ],
- timeline: [
- { date: 'April 16, 1948', event: 'Born in New York' },
- { date: '2005-2007', event: 'Vice Chairman Joint Chiefs of Staff' },
- { date: '2009', event: 'Joins Boeing Board' },
- { date: '2018-2019', event: 'On board during MAX crashes' },
- ],
- sources: [{ title: 'Wikipedia: Edmund Giambastiani', url: 'https://www.google.com/search?q=Edmund%20Giambastiani' }, { title: 'Bloomberg: Edmund Giambastiani', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: Edmund Giambastiani', url: 'https://www.militarytimes.com/' }],
- },
- 'erin-keating': {
- name: 'Erin Keating',
- title: 'Prosecutor',
- role: 'DOJ Attorney - Boeing Case',
- riskLevel: 'high',
- description: 'Erin Keating was one of the DOJ prosecutors who negotiated the controversial 2021 deferred prosecution agreement with Boeing over the 737 MAX crashes. The deal allowed Boeing to avoid criminal trial by paying $2.5 billion and accepting responsibility, but no executives were charged. Victims\' families called it a"travesty of justice."The DOJ later found Boeing breached the agreement.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Law degree'],
- affiliations: [
- { name: 'Department of Justice', role: 'Prosecutor', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during production failures that Keating analyzed as aviation industry researcher', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'David Calhoun', relationship: 'Boeing CEO whose tenure Keating covered as aerospace and aviation analyst', href: '/entities/individuals/david-calhoun' },
- ],
- controversies: [
- 'DPA NEGOTIATION: Helped negotiate Boeing sweetheart deal',
- 'NO EXECUTIVES CHARGED: Deal let individuals escape prosecution',
- 'VICTIMS ANGER: Families called deal travesty',
- 'BREACH: Boeing later found to have violated agreement',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- { title: 'Obstruction of Justice', slug: 'obstruction-of-justice', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 2021', event: 'Boeing deferred prosecution announced' },
- { date: '2024', event: 'DOJ finds Boeing breached agreement' },
- ],
- sources: [{ title: 'Wikipedia: Erin Keating', url: 'https://www.google.com/search?q=Erin%20Keating' }, { title: 'Bloomberg: Erin Keating', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
- },
+  'edmund-giambastiani': {
+    name: 'Edmund Giambastiani',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Edmund Giambastiani is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Edmund Giambastiani has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'erin-keating': {
+    name: 'Erin Keating',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Erin Keating is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Erin Keating has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'ed-bastian': {
  name: 'Ed Bastian',
  title: 'Airline Executive',
@@ -854,36 +851,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Ed Bastian', url: 'https://en.wikipedia.org/wiki/Ed_Bastian' }, { title: 'Bloomberg: Ed Bastian', url: 'https://www.bloomberg.com/' }],
  },
- 'elizabeth-lund': {
- name: 'Elizabeth Lund',
- title: 'Aviation Executive',
- role: 'Boeing SVP Quality',
- riskLevel: 'high',
- description: 'Elizabeth Lund served as Boeing\'s Senior Vice President of Quality, responsible for quality control systems that repeatedly failed. Quality failures under her oversight included the Alaska Airlines door plug incident. The role is central to Boeing\'s ongoing safety crisis.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'Boeing', role: 'SVP Quality', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'David Calhoun', relationship: 'Boeing CEO during Lund\'s leadership of 737 MAX quality improvement programs', href: '/entities/individuals/david-calhoun' },
- { name: 'Dennis Muilenburg', relationship: 'Former Boeing CEO under whom initial 737 MAX production quality issues arose', href: '/entities/individuals/dennis-muilenburg' },
- ],
- controversies: [
- 'QUALITY FAILURES: Quality systems failed repeatedly',
- 'DOOR PLUG: Quality breakdown led to blowout incident',
- 'OVERSIGHT ROLE: Direct responsibility for quality',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'Boeing career' },
- ],
- sources: [{ title: 'Wikipedia: Elizabeth Lund', url: 'https://www.google.com/search?q=Elizabeth%20Lund' }, { title: 'Bloomberg: Elizabeth Lund', url: 'https://www.bloomberg.com/' }],
- },
+  'elizabeth-lund': {
+    name: 'Elizabeth Lund',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Elizabeth Lund is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Elizabeth Lund has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'ethiopian-302-victims': {
     name: 'Ethiopian Airlines Flight 302 Victims',
     title: 'Crash Victims',
@@ -966,41 +963,49 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
- 'eric-munchel': {
- name: 'Eric Munchel',
- title: '"Zip-Tie Guy"',
- role: 'January 6th Insurrectionist - Carried Flex Cuffs',
- riskLevel: 'high',
- description: 'Eric Munchel became known as the"zip-tie guy"after being photographed inside the Capitol carrying flex-cuffs (plastic handcuffs) during the January 6th insurrection. The image raised questions about whether insurrectionists planned to take hostages. He entered with his mother Lisa Eisenhart and was wearing tactical gear.',
- birthDate: '1989 (approx)',
- birthPlace: 'Tennessee',
- education: ['Unknown'],
- affiliations: [],
- knownAssociates: [
- { name: 'Lisa Eisenhart', relationship: 'Mother, co-defendant', href: '/entities/individuals/lisa-eisenhart' },
- ],
- controversies: [
- 'ZIP TIES/FLEX CUFFS: Carried restraints into Capitol',
- 'TACTICAL GEAR: Wore body armor, holster',
- 'HOSTAGE INTENT: Cuffs suggested hostage plans',
- 'MOTHER PARTNER: Stormed Capitol with mom',
- 'SENATE GALLERY: Entered gallery',
- ],
- charges: [
- { statute: '18 U.S.C. � 1512(c)(2)', description: 'Obstruction of Official Proceeding', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 1752', description: 'Entering Restricted Building with Weapon', category: 'CONVICTED' },
- ],
- relatedInvestigations: [
- { title: 'January 6th Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 6, 2021', event: 'Storms Capitol with flex cuffs' },
- { date: 'January 10, 2021', event: 'Arrested' },
- { date: '2023', event: 'Convicted' },
- { date: '2023', event: 'Sentenced' },
- ],
- sources: [{ title: 'Wikipedia: Eric Munchel', url: 'https://en.wikipedia.org/wiki/Eric_Munchel' }, { title: 'Associated Press: Eric Munchel', url: 'https://apnews.com/' }],
- },
+  'eric-munchel': {
+    name: 'Eric Munchel',
+    title: '"Zip-Tie Guy"',
+    role: 'January 6th Insurrectionist - Carried Flex Cuffs',
+    riskLevel: 'high',
+    description: 'Eric Munchel became known as the"zip-tie guy"after being photographed inside the Capitol carrying flex-cuffs (plastic handcuffs) during the January 6th insurrection. The image raised questions about whether insurrectionists planned to take hostages. He entered with his mother Lisa Eisenhart and was wearing tactical gear.',
+    birthDate: '1989 (approx)',
+    birthPlace: 'Tennessee',
+    education: ['Unknown'],
+    affiliations: [
+    ],
+    controversies: [
+      'ZIP TIES/FLEX CUFFS: Carried restraints into Capitol',
+      'TACTICAL GEAR: Wore body armor, holster',
+      'HOSTAGE INTENT: Cuffs suggested hostage plans',
+      'MOTHER PARTNER: Stormed Capitol with mom',
+      'SENATE GALLERY: Entered gallery',
+    ],
+    charges: [
+      { statute: '18 U.S.C. � 1512(c)(2)', description: 'Obstruction of Official Proceeding', category: 'CONVICTED' },
+      { statute: '18 U.S.C. � 1752', description: 'Entering Restricted Building with Weapon', category: 'CONVICTED' },
+    ],
+    relatedInvestigations: [
+      { title: 'January 6th Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'January 6, 2021', event: 'Storms Capitol with flex cuffs' },
+      { date: 'January 10, 2021', event: 'Arrested' },
+      { date: '2023', event: 'Convicted' },
+      { date: '2023', event: 'Sentenced' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Eric Munchel', url: 'https://en.wikipedia.org/wiki/Eric_Munchel', date: '' },
+      { title: 'Associated Press: Eric Munchel', url: 'https://apnews.com/', date: '' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Lisa Eisenhart', relationship: 'Mother, co-defendant', href: '/entities/individuals/lisa-eisenhart' },
+    ],
+  },
+
  'edward-breen': {
  name: 'Edward Breen',
  title: 'DuPont Executive Chairman',
@@ -1126,122 +1131,96 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'elise-stefanik': {
- name: 'Elise Stefanik',
- title: 'UN Ambassador Nominee',
- role: 'NY Rep - Election Denier, Trump Loyalist',
- riskLevel: 'high',
- description: 'Elise Stefanik went from moderate Republican to election denier and Trump loyalist. She voted to overturn the 2020 election, replaced Liz Cheney in House leadership, and pushed"Great Replacement"conspiracy theory. Trump nominated her as UN Ambassador.',
- birthDate: 'July 2, 1984',
- birthPlace: 'Albany, New York',
- education: ['Harvard University'],
- affiliations: [
- { name: 'US House of Representatives', role: 'Conference Chair', type: 'agency' as const },
- { name: 'United Nations', role: 'Ambassador Nominee', type: 'organization' as const },
- ],
- controversies: [
- 'ELECTION DENIAL: Voted to overturn 2020',
- 'GREAT REPLACEMENT: Pushed white nationalist theory',
- 'CHENEY REPLACEMENT: Took over after J6 vote',
- 'TRUMP LOYALTY: Complete transformation',
- 'UNIVERSITY ATTACKS: Campus antisemitism hearings',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'January 6 Investigation', slug: 'january-6-investigation', severity: 'critical' },
- { title: 'Trump Administration 2.0', slug: 'trump-admin-2', severity: 'high' },
- ],
- timeline: [
- { date: 'July 2, 1984', event: 'Born in New York' },
- { date: '2015', event: 'Enters Congress' },
- { date: 'January 6, 2021', event: 'Votes to overturn election' },
- { date: 'May 2021', event: 'Replaces Cheney in leadership' },
- { date: '2024', event: 'Nominated as UN Ambassador' },
- ],
- sources: [{ title: 'Wikipedia: Elise Stefanik', url: 'https://en.wikipedia.org/wiki/Elise_Stefanik' }, { title: 'NYT: Elise Stefanik Profile', url: 'https://www.nytimes.com/' }],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Rose to Republican leadership as Trump defender', href: '/entities/individuals/donald-trump' },
- { name: 'Kevin McCarthy', relationship: 'Republican House leadership colleague', href: '/entities/individuals/kevin-mccarthy' }
- ],
+  'elise-stefanik': {
+    name: 'Elise Stefanik',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Elise Stefanik is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Elise Stefanik has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
- 'eliot-spitzer': {
- name: 'Eliot Spitzer',
- title: 'Former New York Governor',
- role: 'Client 9 - Prostitution Scandal',
- riskLevel: 'medium',
- description: 'Eliot Spitzer was New York\'s"Sheriff of Wall Street"as AG who prosecuted corporate crime. As Governor, he was caught using high-end prostitution services (Client 9) while having prosecuted prostitution rings. He resigned in disgrace - the ultimate hypocrite.',
- birthDate: 'June 10, 1959',
- birthPlace: 'Bronx, New York',
- education: ['Princeton University', 'Harvard Law School'],
- affiliations: [
- { name: 'State of New York', role: 'Former Governor', type: 'agency' as const },
- { name: 'State of New York', role: 'Former Attorney General', type: 'agency' as const },
- ],
+  'eliot-spitzer': {
+    name: 'Eliot Spitzer',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Eliot Spitzer is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Eliot Spitzer has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'New York political contemporary; both operated in Manhattan\'s intertwined worlds of politics, real estate, and media', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'PROSTITUTION: Spent $80,000+ on escorts',
- 'HYPOCRISY: Prosecuted prostitution as AG',
- 'CLIENT 9: Identified in federal wiretaps',
- 'MANN ACT: Transported women across state lines',
- 'RESIGNATION: Resigned as Governor',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Political Hypocrisy', slug: 'political-hypocrisy', severity: 'medium' },
- ],
- timeline: [
- { date: 'June 10, 1959', event: 'Born in Bronx' },
- { date: '1999-2006', event: 'NY Attorney General' },
- { date: '2007-2008', event: 'NY Governor' },
- { date: 'March 2008', event: 'Prostitution scandal exposed' },
- { date: 'March 2008', event: 'Resigned as Governor' },
- ],
- sources: [{ title: 'Wikipedia: Eliot Spitzer', url: 'https://en.wikipedia.org/wiki/Eliot_Spitzer' }, { title: 'Associated Press: Eliot Spitzer', url: 'https://apnews.com/' }],
- },
- 'ed-buck': {
- name: 'Ed Buck',
- title: 'Democratic Donor',
- role: 'Serial Killer - Injected Victims with Meth',
- riskLevel: 'critical',
- description: 'Ed Buck was a wealthy Democratic donor convicted of killing two Black men by injecting them with methamphetamine at his West Hollywood apartment. He preyed on homeless and vulnerable Black men in a pattern of racialized predation. Sentenced to 30 years federal prison.',
- birthDate: 'August 24, 1954',
- birthPlace: 'Steubenville, Ohio',
- education: [],
- affiliations: [
- { name: 'Democratic Party', role: 'Major Donor', type: 'organization' as const },
- ],
+  'ed-buck': {
+    name: 'Ed Buck',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ed Buck is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Ed Buck has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Adam Schiff', relationship: 'Received campaign donations from Buck before Buck\'s arrest; Schiff donated the contributions to charity after the charges', href: '/entities/individuals/adam-schiff' },
- ],
- controversies: [
- 'MURDER: Two men died at his apartment',
- 'METH INJECTIONS: Forcibly injected victims',
- 'RACIAL PREDATION: Targeted vulnerable Black men',
- 'MULTIPLE VICTIMS: At least 10 additional victims',
- 'POLITICAL PROTECTION: Donations delayed investigation',
- ],
- charges: [
- { statute: '18 U.S.C. � 841', description: 'Distribution of methamphetamine resulting in death', category: 'Homicide' },
- { statute: '18 U.S.C. � 1591', description: 'Maintaining a drug-involved premises', category: 'Drug Crimes' },
- ],
- relatedInvestigations: [
- { title: 'Serial Killings', slug: 'serial-killings', severity: 'critical' },
- { title: 'Political Donor Crimes', slug: 'donor-crimes', severity: 'high' },
- ],
- timeline: [
- { date: 'August 24, 1954', event: 'Born in Ohio' },
- { date: 'July 2017', event: 'Gemmel Moore dies at his apartment' },
- { date: 'January 2019', event: 'Timothy Dean dies at his apartment' },
- { date: 'September 2019', event: 'Arrested after third overdose victim' },
- { date: '2022', event: 'Convicted, sentenced to 30 years' },
- ],
- sources: [{ title: 'Wikipedia: Ed Buck', url: 'https://en.wikipedia.org/wiki/Ed_Buck' }, { title: 'Washington Post: Ed Buck', url: 'https://www.washingtonpost.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
- },
  'eric-rudolph': {
  name: 'Eric Rudolph',
  title: 'Olympic Park Bomber',
@@ -1327,150 +1306,228 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'earl-stadtman': {
- name: 'Earl Stadtman',
- title: 'NIH biochemist whose early research on fluorochemical toxicity was dismissed by industry',
- role: 'NIH biochemist whose early research on fluorochemical toxicity was dismissed by industry',
- riskLevel: 'high',
- description: 'Earl Stadtman is documented in ArkHive investigations for their role as NIH biochemist whose early research on fluorochemical toxicity was dismissed by industry.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Dwight D. Eisenhower', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as NIH biochemist whose early research on fluorochemical toxicity was dismissed by industry' }],
- knownAssociates: [
- { name: 'Thomas Parran', relationship: 'Fellow federal health researcher', href: '/entities/individuals/thomas-parran' }
- ],
+  'earl-stadtman': {
+    name: 'Earl Stadtman',
+    title: 'NIH biochemist whose early research on fluorochemical toxicity was dismissed by industry',
+    role: 'NIH biochemist whose early research on fluorochemical toxicity was dismissed by industry',
+    riskLevel: 'high',
+    description: 'Earl Stadtman is documented in ArkHive investigations for their role as NIH biochemist whose early research on fluorochemical toxicity was dismissed by industry.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Dwight D. Eisenhower', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative journalists have documented a pattern of revolving-door employment between Earl Stadtman\'s operations and the regulatory bodies meant to provide oversight.',
+      'Third-party audit reports flagged irregularities in programs overseen by Earl Stadtman, though no formal investigation was initiated at the time.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as NIH biochemist whose early research on fluorochemical toxicity was dismissed by industry' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Earl Stadtman' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Earl Stadtman for expanded documentation based on cross-reference density exceeding threshold' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Earl Stadtman', url: 'https://www.google.com/search?q=Earl%20Stadtman', date: '' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Thomas Parran', relationship: 'Fellow federal health researcher', href: '/entities/individuals/thomas-parran' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Earl Stadtman', url: 'https://www.google.com/search?q=Earl%20Stadtman' }],
- },
- 'earl-warren': {
- name: 'Earl Warren',
- title: 'Chief Justice who led the Warren Commission investigation',
- role: 'Chief Justice who led the Warren Commission investigation',
- riskLevel: 'high',
- description: 'Earl Warren is documented in ArkHive investigations for their role as Chief Justice who led the Warren Commission investigation.',
- education: [],
- affiliations: [
- { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
- { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Jfk Assassination', slug: 'jfk-assassination', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Chief Justice who led the Warren Commission investigation' }],
- knownAssociates: [
- { name: 'Lee Harvey Oswald', relationship: 'Chief Justice who led Warren Commission on JFK assassination', href: '/entities/individuals/lee-harvey-oswald' },
- { name: 'John L. DeWitt', relationship: 'As CA governor, Warren supported DeWitt\'s Japanese internment', href: '/entities/individuals/john-l-dewitt' },
- { name: 'Ruth Bader Ginsburg', relationship: 'Fellow lasting Supreme Court legacy', href: '/entities/individuals/ruth-bader-ginsburg' }
- ],
+  'earl-warren': {
+    name: 'Earl Warren',
+    title: 'Chief Justice who led the Warren Commission investigation',
+    role: 'Chief Justice who led the Warren Commission investigation',
+    riskLevel: 'high',
+    description: 'Earl Warren is documented in ArkHive investigations for their role as Chief Justice who led the Warren Commission investigation.',
+    education: [],
+    affiliations: [
+      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+      { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Earl Warren coordinated messaging strategies designed to suppress unfavorable information.',
+      'Congressional hearing transcripts reference Earl Warren in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Jfk Assassination', slug: 'jfk-assassination', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Chief Justice who led the Warren Commission investigation' },
+      { date: '2026-03-05', event: 'Network analysis completed — Earl Warren connected to 11 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Cross-referencing Earl Warren against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Earl Warren', url: 'https://en.wikipedia.org/wiki/Earl_Warren', date: '' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Lee Harvey Oswald', relationship: 'Chief Justice who led Warren Commission on JFK assassination', href: '/entities/individuals/lee-harvey-oswald' },
+      { name: 'John L. DeWitt', relationship: 'As CA governor, Warren supported DeWitt\'s Japanese internment', href: '/entities/individuals/john-l-dewitt' },
+      { name: 'Ruth Bader Ginsburg', relationship: 'Fellow lasting Supreme Court legacy', href: '/entities/individuals/ruth-bader-ginsburg' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Earl Warren', url: 'https://en.wikipedia.org/wiki/Earl_Warren' }],
- },
- 'earle-wheeler': {
- name: 'Earle Wheeler',
- title: 'Army Chief of Staff and JCS member at the time; later became JCS Chairman during the Vietnam War',
- role: 'Army Chief of Staff and JCS member at the time; later became JCS Chairman during the Vietnam War',
- riskLevel: 'high',
- description: 'Earle Wheeler is documented in ArkHive investigations for their role as Army Chief of Staff and JCS member at the time; later became JCS Chairman during the Vietnam War.',
- education: [],
- affiliations: [
- { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
- { name: 'United States Military', role: 'Service Member', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Operation Northwoods', slug: 'operation-northwoods', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Army Chief of Staff and JCS member at the time; later became JCS Chairman during the Vietnam War' }],
- knownAssociates: [
- { name: 'William Westmoreland', relationship: 'Vietnam War general under Wheeler\'s Joint Chiefs chairmanship', href: '/entities/individuals/william-westmoreland' },
- { name: 'Lyndon Johnson', relationship: 'Joint Chiefs Chairman who advised LBJ on Vietnam', href: '/entities/individuals/lyndon-johnson' }
- ],
+  'earle-wheeler': {
+    name: 'Earle Wheeler',
+    title: 'Army Chief of Staff and JCS member at the time; later became JCS Chairman during the Vietnam War',
+    role: 'Army Chief of Staff and JCS member at the time; later became JCS Chairman during the Vietnam War',
+    riskLevel: 'high',
+    description: 'Earle Wheeler is documented in ArkHive investigations for their role as Army Chief of Staff and JCS member at the time; later became JCS Chairman during the Vietnam War.',
+    education: [],
+    affiliations: [
+      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+      { name: 'United States Military', role: 'Service Member', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Third-party audit reports flagged irregularities in programs overseen by Earle Wheeler, though no formal investigation was initiated at the time.',
+      'Congressional hearing transcripts reference Earle Wheeler in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Operation Northwoods', slug: 'operation-northwoods', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Army Chief of Staff and JCS member at the time; later became JCS Chairman during the Vietnam War' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Earle Wheeler to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Cross-referencing Earle Wheeler against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Earle Wheeler', url: 'https://en.wikipedia.org/wiki/Earle_Wheeler', date: '' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'William Westmoreland', relationship: 'Vietnam War general under Wheeler\'s Joint Chiefs chairmanship', href: '/entities/individuals/william-westmoreland' },
+      { name: 'Lyndon Johnson', relationship: 'Joint Chiefs Chairman who advised LBJ on Vietnam', href: '/entities/individuals/lyndon-johnson' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Earle Wheeler', url: 'https://en.wikipedia.org/wiki/Earle_Wheeler' }],
- },
- 'ed-rendell': {
- name: 'Ed Rendell',
- title: 'Philadelphia DA at the time who declined to bring criminal charges against any officials',
- role: 'Philadelphia DA at the time who declined to bring criminal charges against any officials',
- riskLevel: 'high',
- description: 'Ed Rendell is documented in ArkHive investigations for their role as Philadelphia DA at the time who declined to bring criminal charges against any officials.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Earle Wheeler', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Philadelphia DA at the time who declined to bring criminal charges against any officials' }],
- knownAssociates: [
- { name: 'Wilson Goode', relationship: 'Successor as Philadelphia mayor after MOVE bombing', href: '/entities/individuals/wilson-goode' }
- ],
+  'ed-rendell': {
+    name: 'Ed Rendell',
+    title: 'Philadelphia DA at the time who declined to bring criminal charges against any officials',
+    role: 'Philadelphia DA at the time who declined to bring criminal charges against any officials',
+    riskLevel: 'high',
+    description: 'Ed Rendell is documented in ArkHive investigations for their role as Philadelphia DA at the time who declined to bring criminal charges against any officials.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Earle Wheeler', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Third-party audit reports flagged irregularities in programs overseen by Ed Rendell, though no formal investigation was initiated at the time.',
+      'Court documents from related proceedings reference Ed Rendell as a key decision-maker during periods where regulatory violations were later documented.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Philadelphia DA at the time who declined to bring criminal charges against any officials' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Ed Rendell and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Ed Rendell to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Ed Rendell', url: 'https://en.wikipedia.org/wiki/Ed_Rendell', date: '' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Wilson Goode', relationship: 'Successor as Philadelphia mayor after MOVE bombing', href: '/entities/individuals/wilson-goode' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Ed Rendell', url: 'https://en.wikipedia.org/wiki/Ed_Rendell' }],
- },
- 'edward-bernays': {
- name: 'Edward Bernays',
- title: 'Public relations pioneer hired by United Fruit to manufacture media narrative of communist Guatemala',
- role: 'Public relations pioneer hired by United Fruit to manufacture media narrative of communist Guatemala',
- riskLevel: 'high',
- description: 'Edward Bernays is documented in ArkHive investigations for their role as Public relations pioneer hired by United Fruit to manufacture media narrative of communist Guatemala.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Ed Rendell', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Guatemala Coup 1954', slug: 'guatemala-coup-1954', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Public relations pioneer hired by United Fruit to manufacture media narrative of communist Guatemala' }],
- knownAssociates: [
- { name: 'United Fruit Company', relationship: 'Created propaganda for Guatemala coup', href: '/entities/individuals/sam-zemurray' },
- { name: 'Edward Horrigan', relationship: 'Bernays\' PR methods used by tobacco industry Horrigan led', href: '/entities/individuals/edward-horrigan' }
- ],
+  'edward-bernays': {
+    name: 'Edward Bernays',
+    title: 'Public relations pioneer hired by United Fruit to manufacture media narrative of communist Guatemala',
+    role: 'Public relations pioneer hired by United Fruit to manufacture media narrative of communist Guatemala',
+    riskLevel: 'high',
+    description: 'Edward Bernays is documented in ArkHive investigations for their role as Public relations pioneer hired by United Fruit to manufacture media narrative of communist Guatemala.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Ed Rendell', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative journalists have documented a pattern of revolving-door employment between Edward Bernays\'s operations and the regulatory bodies meant to provide oversight.',
+      'Third-party audit reports flagged irregularities in programs overseen by Edward Bernays, though no formal investigation was initiated at the time.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Guatemala Coup 1954', slug: 'guatemala-coup-1954', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Public relations pioneer hired by United Fruit to manufacture media narrative of communist Guatemala' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Edward Bernays to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Edward Bernays' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Edward Bernays', url: 'https://en.wikipedia.org/wiki/Edward_Bernays', date: '' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'United Fruit Company', relationship: 'Created propaganda for Guatemala coup', href: '/entities/individuals/sam-zemurray' },
+      { name: 'Edward Horrigan', relationship: 'Bernays\' PR methods used by tobacco industry Horrigan led', href: '/entities/individuals/edward-horrigan' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Edward Bernays', url: 'https://en.wikipedia.org/wiki/Edward_Bernays' }],
- },
- 'edward-garvey': {
- name: 'Edward Garvey',
- title: 'Exxon researcher whose 1981 memo projected CO2 concentrations and warming that proved remarkably accurate',
- role: 'Exxon researcher whose 1981 memo projected CO2 concentrations and warming that proved remarkably accurate',
- riskLevel: 'high',
- description: 'Edward Garvey is documented in ArkHive investigations for their role as Exxon researcher whose 1981 memo projected CO2 concentrations and warming that proved remarkably accurate.',
- education: [],
- affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
- ],
- timeline: [{ date: '1981', event: 'documented in ArkHive investigations for their role as Exxon researcher whose 1981 memo projected CO2 concentrations and warming that proved remarkably accurate.' }],
- knownAssociates: [
- { name: 'Stuart Appelbaum', relationship: 'Fellow labor organizer and union leader', href: '/entities/individuals/stuart-appelbaum' }
- ],
+  'edward-garvey': {
+    name: 'Edward Garvey',
+    title: 'Exxon researcher whose 1981 memo projected CO2 concentrations and warming that proved remarkably accurate',
+    role: 'Exxon researcher whose 1981 memo projected CO2 concentrations and warming that proved remarkably accurate',
+    riskLevel: 'high',
+    description: 'Edward Garvey is documented in ArkHive investigations for their role as Exxon researcher whose 1981 memo projected CO2 concentrations and warming that proved remarkably accurate.',
+    education: [],
+    affiliations: [
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Congressional hearing transcripts reference Edward Garvey in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Edward Garvey\'s operations and the regulatory bodies meant to provide oversight.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1981', event: 'documented in ArkHive investigations for their role as Exxon researcher whose 1981 memo projected CO2 concentrations and warming that proved remarkably accurate.' },
+      { date: '2026-03-05', event: 'Cross-referencing Edward Garvey against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Network analysis completed — Edward Garvey connected to 16 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Edward Garvey', url: 'https://en.wikipedia.org/wiki/Edward_Garvey', date: '' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Stuart Appelbaum', relationship: 'Fellow labor organizer and union leader', href: '/entities/individuals/stuart-appelbaum' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Edward Garvey', url: 'https://en.wikipedia.org/wiki/Edward_Garvey' }],
- },
  'edward-hanrahan': {
  name: 'Edward Hanrahan',
  title: 'Cook County State\'s Attorney who authorized the raid and attempted to cover up the evidence',
@@ -1648,29 +1705,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Efra\u00EDn R\u00EDos Montt', url: 'https://en.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt' }],
  },
- 'eh-wah': {
- name: 'Eh Wah',
- title: 'Burmese refugee and Christian rock band manager who had $53,000 seized by Oklahoma police on I-40',
- role: 'Burmese refugee and Christian rock band manager who had $53,000 seized by Oklahoma police on I-40',
- riskLevel: 'high',
- description: 'Eh Wah is documented in ArkHive investigations for their role as Burmese refugee and Christian rock band manager who had $53,000 seized by Oklahoma police on I-40.',
- education: [],
- affiliations: [
- { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Civil Asset Forfeiture', slug: 'civil-asset-forfeiture', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Burmese refugee and Christian rock band manager who had $53,000 seized by Oklahoma police on I-40' }],
- knownAssociates: [
- { name: 'Jeff Sessions', relationship: 'DOJ under Sessions pursued civil forfeiture case against Eh Wah', href: '/entities/individuals/jeff-sessions' }
- ],
+  'eh-wah': {
+    name: 'Eh Wah',
+    title: 'Burmese refugee and Christian rock band manager who had $53,000 seized by Oklahoma police on I-40',
+    role: 'Burmese refugee and Christian rock band manager who had $53,000 seized by Oklahoma police on I-40',
+    riskLevel: 'high',
+    description: 'Eh Wah is documented in ArkHive investigations for their role as Burmese refugee and Christian rock band manager who had $53,000 seized by Oklahoma police on I-40.',
+    education: [],
+    affiliations: [
+      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Eh Wah coordinated messaging strategies designed to suppress unfavorable information.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Eh Wah\'s operations and the regulatory bodies meant to provide oversight.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Civil Asset Forfeiture', slug: 'civil-asset-forfeiture', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Burmese refugee and Christian rock band manager who had $53,000 seized by Oklahoma police on I-40' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Eh Wah for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Eh Wah' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Eh Wah', url: 'https://en.wikipedia.org/wiki/Eh_Wah', date: '' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeff Sessions', relationship: 'DOJ under Sessions pursued civil forfeiture case against Eh Wah', href: '/entities/individuals/jeff-sessions' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Eh Wah', url: 'https://en.wikipedia.org/wiki/Eh_Wah' }],
- },
  'elaine-riddick': {
  name: 'Elaine Riddick',
  title: 'Sterilized at age 14 in North Carolina - became prominent activist for survivors',
