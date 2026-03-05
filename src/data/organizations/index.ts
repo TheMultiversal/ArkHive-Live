@@ -674,6 +674,78 @@ const organizations: Record<string, OrganizationProfile> = {
     members: '193 member states',
     id: 'united-nations-ep',
   },
+  'bohemian-club': {
+    name: 'Bohemian Club',
+    slug: 'bohemian-club',
+    type: 'Organization',
+    description: 'Bohemian Club is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'skull-and-bones-society': {
+    name: 'Skull and Bones Society',
+    slug: 'skull-and-bones-society',
+    type: 'Organization',
+    description: 'Skull and Bones Society is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'american-legislative-exchange-council': {
+    name: 'American Legislative Exchange Council',
+    slug: 'american-legislative-exchange-council',
+    type: 'Organization',
+    description: 'American Legislative Exchange Council is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'brookings-institution': {
+    name: 'Brookings Institution',
+    slug: 'brookings-institution',
+    type: 'Organization',
+    description: 'Brookings Institution is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'rand-corporation': {
+    name: 'RAND Corporation',
+    slug: 'rand-corporation',
+    type: 'Organization',
+    description: 'RAND Corporation is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'atlantic-council': {
+    name: 'Atlantic Council',
+    slug: 'atlantic-council',
+    type: 'Organization',
+    description: 'Atlantic Council is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'council-of-the-americas': {
+    name: 'Council of the Americas',
+    slug: 'council-of-the-americas',
+    type: 'Organization',
+    description: 'Council of the Americas is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'business-roundtable': {
+    name: 'Business Roundtable',
+    slug: 'business-roundtable',
+    type: 'Organization',
+    description: 'Business Roundtable is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
+
+
+
+
+
+
+
 };
 
 export default organizations;

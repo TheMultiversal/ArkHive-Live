@@ -26,7 +26,7 @@ const entityCategories = [
  subtitle:"Profit Over People",
  description:"Big Pharma, Big Tech, defense contractors. Companies that put shareholder value above human life.",
  icon: Building2,
- count: 177,
+ count: 189,
  },
  {
  type:"individuals",
@@ -42,7 +42,7 @@ const entityCategories = [
  subtitle:"The Shadow Networks",
  description:"Think tanks, lobbying groups, dark money networks. The organizations that pull the strings from behind the curtain.",
  icon: Building2,
- count: 83,
+ count: 91,
  },
 ];
 

@@ -1772,6 +1772,138 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'halliburton-company': {
+    id: '14d777a7209bfefc',
+    slug: 'halliburton-company',
+    name: 'Halliburton Company',
+    type: 'corporation',
+    description: 'Halliburton Company is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'kbr-inc': {
+    id: '4eb20a12905c41fb',
+    slug: 'kbr-inc',
+    name: 'KBR Inc',
+    type: 'corporation',
+    description: 'KBR Inc is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'academi-blackwater': {
+    id: '8f79af9e8761c375',
+    slug: 'academi-blackwater',
+    name: 'Academi Blackwater',
+    type: 'corporation',
+    description: 'Academi Blackwater is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'bechtel-corporation': {
+    id: '1ad08834d2dfc9c8',
+    slug: 'bechtel-corporation',
+    name: 'Bechtel Corporation',
+    type: 'corporation',
+    description: 'Bechtel Corporation is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'carlyle-group': {
+    id: 'f45249d167e7948a',
+    slug: 'carlyle-group',
+    name: 'Carlyle Group',
+    type: 'corporation',
+    description: 'Carlyle Group is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'citigroup': {
+    id: 'b2f6576e3baa1824',
+    slug: 'citigroup',
+    name: 'Citigroup',
+    type: 'corporation',
+    description: 'Citigroup is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'bank-of-america': {
+    id: '6aa8f1557746e892',
+    slug: 'bank-of-america',
+    name: 'Bank of America',
+    type: 'corporation',
+    description: 'Bank of America is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'credit-suisse': {
+    id: '029ccd194525b02e',
+    slug: 'credit-suisse',
+    name: 'Credit Suisse',
+    type: 'corporation',
+    description: 'Credit Suisse is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'hsbc-holdings': {
+    id: 'b9f58a929caf31bb',
+    slug: 'hsbc-holdings',
+    name: 'HSBC Holdings',
+    type: 'corporation',
+    description: 'HSBC Holdings is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'deutsche-bank-ag': {
+    id: '50e3d03de55d9b65',
+    slug: 'deutsche-bank-ag',
+    name: 'Deutsche Bank AG',
+    type: 'corporation',
+    description: 'Deutsche Bank AG is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'nso-group': {
+    id: '1fb093763de1e774',
+    slug: 'nso-group',
+    name: 'NSO Group',
+    type: 'corporation',
+    description: 'NSO Group is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'huawei-technologies': {
+    id: '222cd191d4e96a7a',
+    slug: 'huawei-technologies',
+    name: 'Huawei Technologies',
+    type: 'corporation',
+    description: 'Huawei Technologies is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
