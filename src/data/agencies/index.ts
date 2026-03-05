@@ -1362,6 +1362,17 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'united-states-marshals-service': {
+    id: '73761c27b8768284',
+    slug: 'united-states-marshals-service',
+    name: 'United States Marshals Service',
+    type: 'agency',
+    description: 'United States Marshals Service is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 

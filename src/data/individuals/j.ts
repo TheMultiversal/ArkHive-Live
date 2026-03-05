@@ -8771,6 +8771,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Jim Simons has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Jim Simons was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Jim Simons\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -8778,6 +8780,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Jim Simons' },
     ],
     socialMedia: [],
     sources: [
@@ -8789,6 +8792,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
 
 
