@@ -1342,6 +1342,17 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'bank-for-international-settlements': {
+    id: 'bcf3c9afd5b5c281',
+    slug: 'bank-for-international-settlements',
+    name: 'Bank for International Settlements',
+    type: 'agency',
+    description: 'Bank for International Settlements is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 

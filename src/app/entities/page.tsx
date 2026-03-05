@@ -18,7 +18,7 @@ const entityCategories = [
  subtitle:"The Architects of Control",
  description:"Federal, state, and local agencies that implement policies of harm. Their crimes, their cover-ups, their connections.",
  icon: Landmark,
- count: 134,
+ count: 135,
  },
  {
  type:"corporations",
@@ -34,7 +34,7 @@ const entityCategories = [
  subtitle:"The Names Behind The Crimes",
  description:"Politicians, executives, bureaucrats. The faces behind the policies of death and destruction.",
  icon: Users,
- count: 2101,
+ count: 2103,
  },
  {
  type:"organizations",
