@@ -27,6 +27,7 @@ import shard_t from './t';
 import shard_u from './u';
 import shard_v from './v';
 import shard_w from './w';
+import shard_x from './x';
 import shard_y from './y';
 
 const investigationDatabase: Record<string, InvestigationData> = {
@@ -56,6 +57,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
   ...shard_u,
   ...shard_v,
   ...shard_w,
+  ...shard_x,
   ...shard_y,
 };
 
