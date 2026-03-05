@@ -18,7 +18,7 @@ const entityCategories = [
  subtitle:"The Architects of Control",
  description:"Federal, state, and local agencies that implement policies of harm. Their crimes, their cover-ups, their connections.",
  icon: Landmark,
- count: 131,
+ count: 132,
  },
  {
  type:"corporations",
@@ -26,7 +26,7 @@ const entityCategories = [
  subtitle:"Profit Over People",
  description:"Big Pharma, Big Tech, defense contractors. Companies that put shareholder value above human life.",
  icon: Building2,
- count: 199,
+ count: 200,
  },
  {
  type:"individuals",
@@ -34,7 +34,7 @@ const entityCategories = [
  subtitle:"The Names Behind The Crimes",
  description:"Politicians, executives, bureaucrats. The faces behind the policies of death and destruction.",
  icon: Users,
- count: 2084,
+ count: 2086,
  },
  {
  type:"organizations",
@@ -42,7 +42,7 @@ const entityCategories = [
  subtitle:"The Shadow Networks",
  description:"Think tanks, lobbying groups, dark money networks. The organizations that pull the strings from behind the curtain.",
  icon: Building2,
- count: 115,
+ count: 116,
  },
 ];
 

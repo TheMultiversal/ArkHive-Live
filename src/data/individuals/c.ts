@@ -1067,42 +1067,47 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'charlie-kirk': {
- name: 'Charlie Kirk',
- title: 'Conservative Activist',
- role: 'Founder of Turning Point USA',
- riskLevel: 'high',
- description: 'Founded Turning Point USA at age 18. Spreads election denial, promotes Trump, and mobilizes young conservatives.',
- birthDate: 'October 14, 1993',
- birthPlace: 'Arlington Heights, Illinois, USA',
- education: [
- 'Did not attend college',
- ],
- affiliations: [
- { name: 'Turning Point USA', role: 'Founder & Executive Director', type: 'organization' },
- { name: 'Turning Point Action', role: 'Founder', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Close ally, rally organizer', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'ELECTION DENIAL: Promoted 2020 election fraud conspiracy theories',
- 'JANUARY 6: Organized buses to Washington D.C. for"Stop the Steal"',
- 'RACISM: Multiple TPUSA employees exposed for racist statements',
- 'DARK MONEY: Funded by undisclosed wealthy donors',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Election Denial Movement', slug: 'election-denial', severity: 'critical' },
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- ],
- timeline: [
- { date: 'October 14, 1993', event: 'Born in Arlington Heights, Illinois' },
- { date: '2012', event: 'Founds Turning Point USA' },
- { date: 'January 6, 2021', event: 'Organized transportation to D.C.' },
- ],
- sources: [{ title: 'Wikipedia: Charlie Kirk', url: 'https://en.wikipedia.org/wiki/Charlie_Kirk' }, { title: 'NYT: Charlie Kirk Profile', url: 'https://www.nytimes.com/' }],
- },
+  'charlie-kirk': {
+    name: 'Charlie Kirk',
+    title: 'Conservative Activist',
+    role: 'Founder of Turning Point USA',
+    riskLevel: 'high',
+    description: 'Founded Turning Point USA at age 18. Spreads election denial, promotes Trump, and mobilizes young conservatives.',
+    birthDate: 'October 14, 1993',
+    birthPlace: 'Arlington Heights, Illinois, USA',
+    education: ['Did not attend college'],
+    affiliations: [
+      { name: 'Turning Point USA', role: 'Founder & Executive Director', type: 'organization' },
+      { name: 'Turning Point Action', role: 'Founder', type: 'organization' },
+    ],
+    controversies: [
+      'ELECTION DENIAL: Promoted 2020 election fraud conspiracy theories',
+      'JANUARY 6: Organized buses to Washington D.C. for"Stop the Steal"',
+      'RACISM: Multiple TPUSA employees exposed for racist statements',
+      'DARK MONEY: Funded by undisclosed wealthy donors',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Election Denial Movement', slug: 'election-denial', severity: 'critical' },
+      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'October 14, 1993', event: 'Born in Arlington Heights, Illinois' },
+      { date: '2012', event: 'Founds Turning Point USA' },
+      { date: 'January 6, 2021', event: 'Organized transportation to D.C.' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Charlie Kirk', url: 'https://en.wikipedia.org/wiki/Charlie_Kirk', date: '' },
+      { title: 'NYT: Charlie Kirk Profile', url: 'https://www.nytimes.com/', date: '' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Close ally, rally organizer', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+
   'chris-ruddy': {
     name: 'Christopher Ruddy',
     title: 'Newsmax CEO',

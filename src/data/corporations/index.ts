@@ -1992,6 +1992,17 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'bytedance-ltd': {
+    id: 'be96e2f940a29944',
+    slug: 'bytedance-ltd',
+    name: 'ByteDance Ltd',
+    type: 'corporation',
+    description: 'ByteDance Ltd is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 

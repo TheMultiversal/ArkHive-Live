@@ -1312,6 +1312,17 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'world-health-organization': {
+    id: 'eea33a8b690b7b72',
+    slug: 'world-health-organization',
+    name: 'World Health Organization',
+    type: 'agency',
+    description: 'World Health Organization is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 

@@ -930,6 +930,15 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'medium',
     members: 'Unknown',
   },
+  'rockefeller-foundation': {
+    name: 'Rockefeller Foundation',
+    slug: 'rockefeller-foundation',
+    type: 'Organization',
+    description: 'Rockefeller Foundation is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
 
 
 
