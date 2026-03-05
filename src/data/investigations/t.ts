@@ -1051,6 +1051,27 @@ const investigations_t: Record<string, InvestigationData> = {
     affiliations: [
     ],
   },
+  'techno-authoritarianism-control-mechanisms': {
+    title: 'Techno-Authoritarianism Control Mechanisms',
+    subtitle: 'Investigation into Techno-Authoritarianism Control Mechanisms',
+    severity: 'medium',
+    category: 'General',
+    date: 'March 4, 2026',
+    lastUpdated: 'March 4, 2026',
+    summary: 'ArkHive\'s automated investigative intelligence has flagged Techno-Authoritarianism Control Mechanisms for documentation and expanded analysis. This investigation was generated based on cross-references and network analysis of related entities in the accountability database.',
+    content: [
+      'Techno-Authoritarianism Control Mechanisms has been identified through ArkHive\'s systematic analysis of institutional power structures, corporate networks, and government accountability gaps.',
+      'This investigation is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface through automated intelligence gathering.',
+    ],
+    tags: ['ArkHive', 'Investigation', 'Accountability'],
+    sources: [
+      { title: 'ArkHive Investigative Database', url: 'https://arkhive.org', type: 'Database' },
+      { title: 'Public Records Analysis', url: 'https://arkhive.org/methodology', type: 'Methodology' },
+    ],
+    affiliations: [
+    ],
+  },
+
 
 
 

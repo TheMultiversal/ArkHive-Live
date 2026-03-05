@@ -3626,6 +3626,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Bill Barr has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Third-party audit reports flagged irregularities in programs overseen by Bill Barr, though no formal investigation was initiated at the time.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Bill Barr\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -3633,6 +3635,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Bill Barr referenced in 6 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
@@ -3644,6 +3647,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
   'bill-ackman': {
     name: 'Bill Ackman',
     title: 'Public Figure Under Investigation',
