@@ -978,6 +978,15 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'medium',
     members: 'Unknown',
   },
+  'ford-foundation': {
+    name: 'Ford Foundation',
+    slug: 'ford-foundation',
+    type: 'Organization',
+    description: 'Ford Foundation is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
 
 
 
