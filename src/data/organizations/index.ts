@@ -962,6 +962,15 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'medium',
     members: 'Unknown',
   },
+  'cato-institute': {
+    name: 'Cato Institute',
+    slug: 'cato-institute',
+    type: 'Organization',
+    description: 'Cato Institute is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
 
 
 

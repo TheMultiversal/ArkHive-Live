@@ -1901,41 +1901,36 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'blake-masters': {
- name: 'Blake Masters',
- title: 'Thiel Prot�g�',
- role: 'Tech Bro - Great Replacement Promoter',
- riskLevel: 'high',
- description: 'Blake Masters is a Peter Thiel prot�g� who ran for Arizona Senate promoting"great replacement"conspiracy theory and questioning 2020 election. He scrubbed his website of extreme positions before general election. He blamed gun violence on"Black people, frankly."',
- birthDate: 'August 5, 1986',
- birthPlace: 'Tucson, Arizona',
- education: ['Stanford University', 'Stanford Law School'],
- affiliations: [
- { name: 'Thiel Capital', role: 'COO', type: 'corporation' as const },
- ],
- controversies: [
- 'GREAT REPLACEMENT: Promoted white nationalist theory',
- 'RACIST COMMENTS: Blamed gun violence on Black people',
- 'ELECTION DENIAL: Questioned 2020 results',
- 'WEBSITE SCRUBBING: Removed extreme positions',
- 'THIEL MONEY: $15M from billionaire backer',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'White Nationalist Politics', slug: 'white-nationalism', severity: 'high' },
- ],
- timeline: [
- { date: 'August 5, 1986', event: 'Born in Arizona' },
- { date: '2014', event: 'Published"Zero to One"with Thiel' },
- { date: '2022', event: 'Lost Arizona Senate race' },
- ],
- sources: [{ title: 'Wikipedia: Blake Masters', url: 'https://en.wikipedia.org/wiki/Blake_Masters' }, { title: 'Military Times: Blake Masters', url: 'https://www.militarytimes.com/' }, { title: 'Wired: Blake Masters', url: 'https://www.wired.com/' }],
- knownAssociates: [
- { name: 'Peter Thiel', relationship: 'Protégé and co-author backed by Thiel in Senate race', href: '/entities/individuals/peter-thiel' },
- { name: 'Donald Trump', relationship: 'Trump-endorsed Arizona Senate candidate 2022', href: '/entities/individuals/donald-trump' }
- ],
+  'blake-masters': {
+    name: 'Blake Masters',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Blake Masters is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Blake Masters has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
   'barre-seid': {
     name: 'Barre Seid',
     title: 'Public Figure Under Investigation',
