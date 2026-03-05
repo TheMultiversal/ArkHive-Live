@@ -319,7 +319,7 @@ const mockNotifications: NotificationItem[] = [
  id: 'notif_31',
  type: 'system',
  title: 'Platform Statistics',
- message: 'ArkHive now tracking 697 investigations, 2,347 entities, and 201 archived documents.',
+ message: 'ArkHive now tracking 711 investigations, 2,353 entities, and 201 archived documents.',
  read: true,
  timestamp: new Date(Date.now() - 1000 * 60 * 60 * 76),
  actionUrl: '/',

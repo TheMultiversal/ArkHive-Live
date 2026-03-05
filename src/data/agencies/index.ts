@@ -862,6 +862,61 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 1,
     riskLevel: 'low',
   },
+  'national-reconnaissance-office': {
+    id: 'df5830f01fc66bff',
+    slug: 'national-reconnaissance-office',
+    name: 'National Reconnaissance Office',
+    type: 'agency',
+    description: 'National Reconnaissance Office is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'national-geospatial-intelligence-agency': {
+    id: '97b478f479d1d00c',
+    slug: 'national-geospatial-intelligence-agency',
+    name: 'National Geospatial-Intelligence Agency',
+    type: 'agency',
+    description: 'National Geospatial-Intelligence Agency is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'bureau-of-alcohol-tobacco-firearms': {
+    id: '152c58a7a70ea2fb',
+    slug: 'bureau-of-alcohol-tobacco-firearms',
+    name: 'Bureau of Alcohol Tobacco Firearms',
+    type: 'agency',
+    description: 'Bureau of Alcohol Tobacco Firearms is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'federal-trade-commission': {
+    id: 'ccab84353ddbaa77',
+    slug: 'federal-trade-commission',
+    name: 'Federal Trade Commission',
+    type: 'agency',
+    description: 'Federal Trade Commission is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'securities-and-exchange-commission': {
+    id: 'f6c8fdc0f87e8699',
+    slug: 'securities-and-exchange-commission',
+    name: 'Securities and Exchange Commission',
+    type: 'agency',
+    description: 'Securities and Exchange Commission is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
+
+
+
+
 };
 
 export default agencies;
