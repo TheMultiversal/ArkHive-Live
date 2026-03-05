@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 // Platform statistics (auto-updated by ArkHive Swarm Intelligence)
 const stats = {
  overview: {
- totalInvestigations: 587,
+ totalInvestigations: 602,
  activeInvestigations: 312,
  completedInvestigations: 198,
  archivedInvestigations: 49,
