@@ -1972,6 +1972,17 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'nvidia-corporation': {
+    id: '810f06056df1a831',
+    slug: 'nvidia-corporation',
+    name: 'Nvidia Corporation',
+    type: 'corporation',
+    description: 'Nvidia Corporation is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 

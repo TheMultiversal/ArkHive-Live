@@ -914,6 +914,24 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'medium',
     members: 'Unknown',
   },
+  'southern-poverty-law-center': {
+    name: 'Southern Poverty Law Center',
+    slug: 'southern-poverty-law-center',
+    type: 'Organization',
+    description: 'Southern Poverty Law Center is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'amnesty-international': {
+    name: 'Amnesty International',
+    slug: 'amnesty-international',
+    type: 'Organization',
+    description: 'Amnesty International is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
+
 
 
 
