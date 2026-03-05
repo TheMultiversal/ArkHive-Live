@@ -1,9 +1,9 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 
-// Platform statistics
+// Platform statistics (auto-updated by ArkHive Swarm Intelligence)
 const stats = {
  overview: {
- totalInvestigations: 559,
+ totalInvestigations: 579,
  activeInvestigations: 312,
  completedInvestigations: 198,
  archivedInvestigations: 49,
@@ -81,50 +81,27 @@ const stats = {
  ]
  },
  trends: {
- investigationsChange: 12, // percentage
+ investigationsChange: 12,
  documentsChange: 23,
  entitiesChange: 8,
  collaboratorsChange: 15
  }
 };
 
-export async function GET(request: NextRequest) {
- const searchParams = request.nextUrl.searchParams;
- const category = searchParams.get('category'); // overview, investigations, entities, documents, activity
- const period = searchParams.get('period') || '7d'; // 7d, 30d, 90d, 1y
+// Static export compatible — use dynamic = 'force-static'
+export const dynamic = 'force-static';
 
- try {
- let responseData: Record<string, unknown>;
-
- if (category && category !== 'all') {
- // Return specific category
- responseData = {
- [category]: stats[category as keyof typeof stats] || null,
- trends: stats.trends,
- period
- };
- } else {
- // Return all stats
- responseData = {
- ...stats,
- period
- };
- }
-
+export async function GET() {
  return NextResponse.json({
  success: true,
- data: responseData,
+ data: {
+ ...stats,
+ period: '7d'
+ },
  meta: {
  generatedAt: new Date().toISOString(),
- period,
- category: category || 'all'
+ period: '7d',
+ category: 'all'
  }
  });
- } catch (error) {
- console.error('Stats error:', error);
- return NextResponse.json(
- { success: false, error: 'Failed to fetch statistics' },
- { status: 500 }
- );
- }
 }

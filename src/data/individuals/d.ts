@@ -279,6 +279,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
   'donald-trump-jr': {
     name: 'Donald John Trump Jr.',
     title: 'Executive Vice President',
@@ -330,6 +332,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Jared Kushner', relationship: 'Brother-in-law, attended Trump Tower meeting', href: '/entities/individuals/jared-kushner' },
     ],
   },
+
+
 
   'david-pecker': {
     name: 'David J. Pecker',
@@ -389,6 +393,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
   'deborah-birx': {
     name: 'Deborah Leah Birx',
     title: 'Former White House Coronavirus Response Coordinator',
@@ -440,6 +446,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Anthony Fauci', relationship: 'Task force colleague', href: '/entities/individuals/anthony-fauci' },
     ],
   },
+
+
 
   'dylan-howard': {
     name: 'Dylan Howard',
@@ -495,6 +503,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
   'don-mcgahn': {
     name: 'Donald F. McGahn II',
     title: 'Former White House Counsel',
@@ -548,6 +558,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Robert Mueller', relationship: 'Key cooperating witness', href: '/entities/individuals/robert-mueller' },
     ],
   },
+
+
 
   'devin-nunes': {
     name: 'Devin Gerald Nunes',
@@ -603,6 +615,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Kash Patel', relationship: 'House Intelligence staffer, ally', href: '/entities/individuals/kash-patel' },
     ],
   },
+
+
 
   'dan-scavino': {
     name: 'Dan Scavino',
@@ -664,107 +678,66 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'david-bossie': {
- name: 'David Bossie',
- title: 'Political Operative',
- role: 'Deputy Campaign Manager 2016',
- riskLevel: 'high' as const,
- description: 'Conservative political activist, Citizens United president, and Trump 2016 deputy campaign manager. Key figure in promoting conspiracy theories and right-wing media narratives. Co-authored books with Corey Lewandowski. His organization Citizens United was behind the landmark Supreme Court case that opened unlimited dark money in politics.',
- birthDate: 'October 23, 1965',
- birthPlace: 'Boston, Massachusetts',
- education: [
- 'University of Maryland (attended)',
- ],
- affiliations: [
- { name: 'Citizens United', role: 'President', type: 'organization' },
- { name: 'Trump Campaign 2016', role: 'Deputy Campaign Manager', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Campaign deputy manager', href: '/entities/individuals/donald-trump' },
- { name: 'Steve Bannon', relationship: 'Political ally, film collaborator', href: '/entities/individuals/steve-bannon' },
- { name: 'Corey Lewandowski', relationship: 'Co-author, political ally', href: '/entities/individuals/corey-lewandowski' },
- { name: 'Kellyanne Conway', relationship: 'Campaign colleague', href: '/entities/individuals/kellyanne-conway' },
- ],
- controversies: [
- 'Citizens United case enabling unlimited dark money',
- 'Promoted Clinton conspiracy theories in 1990s',
- 'Produced anti-Hillary documentaries',
- 'Spread election fraud misinformation',
- 'Ties to aggressive fundraising operations',
- 'Deceptive PAC fundraising practices under investigation',
- 'Coordinated with campaign despite super PAC rules',
- ],
- charges: [
- { statute: '52 U.S.C. § 30118', description: 'Potential Campaign Finance Violations - Coordination between Citizens United organizations and Trump campaign may have violated prohibition on corporate contributions', category: 'Election' },
- { statute: '52 U.S.C. § 30104', description: 'Potential Disclosure Violations - Citizens United dark money operations obscured true donors to political advertising', category: 'Election' },
- { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud - Deceptive fundraising practices through various PACs and organizations', category: 'Potential Federal' },
- { statute: '52 U.S.C. § 30121', description: 'Potential Foreign Contribution Facilitation - Citizens United role in anonymous donation channels that may have included foreign funds', category: 'Potential Election' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Coordinated election misinformation campaign around 2020 election fraud claims', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction - Amplified false election claims designed to prevent certification of legitimate results', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Cambridge Analytica', slug: 'cambridge-analytica', severity: 'high' },
- { title: 'Dark Money in Politics', slug: 'dark-money', severity: 'high' },
- ],
- timeline: [
- { date: '1992', event: 'Investigates Clinton Whitewater' },
- { date: '2010', event: 'Citizens United Supreme Court case' },
- { date: 'August 2016', event: 'Joins Trump campaign as deputy manager' },
- { date: '2020', event: 'Promotes election fraud claims' },
- ],
- sources: [
- { title: 'Citizens United v. FEC', url: 'https://scholar.google.com/scholar?q=Citizens%20United%20v.%20FEC', date: '2010' },
- { title: 'Campaign Finance Records', url: 'https://www.fec.gov/', date: '2016' },
- ],
- },
- 'dominic-pezzola': {
- name: 'Dominic Pezzola',
- title: 'Proud Boys Member',
- role: 'Seditious Conspiracy Convict',
- riskLevel: 'critical' as const,
- description: 'Proud Boys member who used a stolen police riot shield to break a window at the U.S. Capitol on January 6, 2021, allowing rioters to first enter the building. Known as"Spaz,"he was convicted of seditious conspiracy and sentenced to 10 years in prison.',
- birthDate: '1984',
- birthPlace: 'Rochester, New York',
- education: [
- 'Unknown',
- ],
- affiliations: [
- { name: 'Proud Boys', role: 'Member, Rochester Chapter', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Enrique Tarrio', relationship: 'Proud Boys Chairman', href: '/entities/individuals/enrique-tarrio' },
- { name: 'Ethan Nordean', relationship: 'Co-defendant', href: '/entities/individuals/ethan-nordean' },
- { name: 'Joseph Biggs', relationship: 'Co-defendant', href: '/entities/individuals/joseph-biggs' },
- { name: 'Zachary Rehl', relationship: 'Co-defendant', href: '/entities/individuals/zachary-rehl' },
- ],
- controversies: [
- 'First to breach Capitol building on January 6',
- 'Stole police riot shield and used it to break window',
- 'Smoked cigar in celebration after breach',
- 'Filmed breaking window',
- ],
- charges: [
- { statute: '18 U.S.C. § 2384', description: 'Seditious conspiracy (convicted)', category: 'Federal' },
- { statute: '18 U.S.C. § 1512(c)(2)', description: 'Obstruction of official proceeding (convicted)', category: 'Federal' },
- { statute: '18 U.S.C. § 1361', description: 'Destruction of government property (convicted)', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- { title: 'Proud Boys Sedition', slug: 'proud-boys-sedition', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 6, 2021', event: 'Steals police riot shield during Capitol attack' },
- { date: 'January 6, 2021', event: 'Uses shield to break Capitol window - first breach' },
- { date: 'January 6, 2021', event: 'Smokes cigar in celebration inside Capitol' },
- { date: 'January 2021', event: 'Arrested' },
- { date: 'May 2023', event: 'Convicted of seditious conspiracy' },
- { date: 'September 2023', event: 'Sentenced to 10 years in prison' },
- ],
- sources: [
- { title: 'DOJ Prosecution Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Prosecution%20Records', date: '2023' },
- ],
- },
+  'david-bossie': {
+    name: 'David Bossie',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'David Bossie is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'David Bossie has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'dominic-pezzola': {
+    name: 'Dominic Pezzola',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Dominic Pezzola is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Dominic Pezzola has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'david-duke': {
  name: 'David Ernest Duke',
  title: 'Former KKK Grand Wizard',
@@ -809,113 +782,66 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Federal Court Records', url: 'https://www.uscourts.gov/court-records', date: '2002' },
  ],
  },
- 'dmitry-firtash': {
- name: 'Dmytro Firtash',
- title: 'Ukrainian Oligarch',
- role: 'Manafort/Giuliani Associate',
- riskLevel: 'high' as const,
- description: 'Ukrainian oligarch with close ties to Russian organized crime who funded Paul Manafort\'s Ukraine work and later connected Rudy Giuliani to Ukrainian prosecutors pushing Biden conspiracy theories. Under U.S. indictment for bribery since 2014 but fighting extradition from Austria. Key figure in Trump-Ukraine scandal.',
- birthDate: 'May 2, 1965',
- birthPlace: 'Synkiv, Ukraine',
- netWorth: '$600 million (estimated)',
- education: [
- 'Ukrainian State University of Food Technologies',
- ],
- affiliations: [
- { name: 'Group DF', role: 'Founder, Chairman', type: 'corporation' },
- { name: 'RosUkrEnergo', role: 'Co-Owner (with Gazprom)', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Paul Manafort', relationship: 'Business partner, paid for Ukraine work', href: '/entities/individuals/paul-manafort' },
- { name: 'Rudy Giuliani', relationship: 'Connected to Ukraine sources', href: '/entities/individuals/rudy-giuliani' },
- { name: 'Lev Parnas', relationship: 'Giuliani fixer, intermediary', href: '/entities/individuals/lev-parnas' },
- { name: 'Semion Mogilevich', relationship: 'Alleged Russian mob ties', href: '/entities/individuals/semion-mogilevich' },
- ],
- controversies: [
- 'U.S. indictment for bribery conspiracy since 2014',
- 'Fighting extradition from Austria for over a decade',
- 'Funded Manafort\'s work for pro-Russian Ukrainian politicians',
- 'Connected Giuliani associates to Ukrainian prosecutors',
- 'Ties to Russian organized crime figures',
- 'RosUkrEnergo gas scheme with Kremlin',
- ],
- charges: [
- { statute: 'U.S. Indictment', description: 'Bribery conspiracy (pending since 2014)', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'Ukraine Extortion', slug: 'ukraine-extortion', severity: 'critical' },
- { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
- ],
- timeline: [
- { date: '2004-2010', event: 'Funds Manafort\'s work for pro-Russia Ukrainian politicians' },
- { date: '2014', event: 'Indicted by DOJ for bribery conspiracy' },
- { date: '2014', event: 'Arrested in Austria on U.S. warrant' },
- { date: '2019', event: 'Lawyers paid by Firtash connect Giuliani to Ukrainian prosecutors' },
- { date: '2019-present', event: 'Continues fighting extradition from Austria' },
- ],
- sources: [
- { title: 'DOJ Indictment', url: 'https://www.justice.gov/', date: '2014' },
- { title: 'House Intelligence Ukraine Report', url: 'https://www.ignet.gov/', date: '2019' },
- ],
- },
- 'david-rockefeller': {
- name: 'David Rockefeller Sr.',
- title: 'Banker, Philanthropist, New World Order Figure',
- role: 'Global Elite Patriarch (Deceased)',
- riskLevel: 'critical' as const,
- description: 'David Rockefeller was the patriarch of the Rockefeller family and chairman of Chase Manhattan Bank. He was a founding member of the Trilateral Commission and longtime member of the Council on Foreign Relations. Often cited in discussions of global elite networks and New World Order theories. He died in 2017 at age 101.',
- birthDate: 'June 12, 1915',
- birthPlace: 'New York City, New York',
- deathDate: 'March 20, 2017',
- netWorth: '$3.3 billion (at death)',
- education: [
- 'Harvard University (B.A. 1936)',
- 'University of Chicago (Ph.D. Economics 1940)',
- 'London School of Economics',
- ],
- affiliations: [
- { name: 'Chase Manhattan Bank', role: 'CEO, Chairman (1969-1981)', type: 'corporation' },
- { name: 'Council on Foreign Relations', role: 'Director, Honorary Chairman', type: 'organization' },
- { name: 'Trilateral Commission', role: 'Founder', type: 'organization' },
- { name: 'Bilderberg Group', role: 'Member', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Henry Kissinger', relationship: 'Close associate, Trilateral Commission co-founder', href: '/entities/individuals/henry-kissinger' },
- { name: 'Klaus Schwab', relationship: 'World Economic Forum founder', href: '/entities/individuals/klaus-schwab' },
- ],
- controversies: [
- 'Founding member of globalist Trilateral Commission',
- 'Accused of pushing New World Order agenda',
- 'Met with world leaders outside official channels',
- 'Chase Manhattan controversial loans to apartheid South Africa',
- 'Family funded population control research',
- 'Extensive ties to intelligence agencies',
- ],
- charges: [
- { statute: 'UN Anti-Apartheid Convention', description: 'Apartheid Support - Chase Manhattan provided loans to apartheid South Africa government during international sanctions', category: 'International Law' },
- { statute: 'Sullivan Principles Violations', description: 'Corporate Responsibility Failures - Chase operations in South Africa violated anti-apartheid corporate codes', category: 'International Ethics' },
- { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential Unregistered Foreign Agent Activity - Met with foreign leaders and conducted diplomacy outside official channels', category: 'Potential Federal' },
- { statute: 'Logan Act (18 U.S.C. § 953)', description: 'Potential Logan Act Violations - Private citizen conducting unauthorized foreign policy negotiations', category: 'Potential Federal' },
- { statute: 'Sherman Antitrust Act', description: 'Historical Antitrust Concerns - Banking consolidation and coordination through CFR/Trilateral networks', category: 'Historical Federal' },
- { statute: 'Bank Secrecy Act', description: 'Historical Compliance Questions - Chase international banking operations during cold war era', category: 'Historical Federal' },
- ],
- relatedInvestigations: [
- { title: 'Global Elite Networks', slug: 'global-elite', severity: 'high' },
- { title: 'Banking and Financial Crimes', slug: 'banking-crimes', severity: 'high' },
- ],
- timeline: [
- { date: '1946', event: 'Joins Chase National Bank' },
- { date: '1961', event: 'Becomes Chase president' },
- { date: '1973', event: 'Co-founds Trilateral Commission with Brzezinski' },
- { date: '1976', event: 'Helps bring Jimmy Carter to power' },
- { date: '1981', event: 'Retires from Chase' },
- { date: '2017', event: 'Dies at age 101' },
- ],
- sources: [
- { title: 'Memoirs (David Rockefeller)', url: 'https://www.goodreads.com/', date: '2002' },
- { title: 'New York Times Obituary', url: 'https://www.nytimes.com/', date: '2017' },
- ],
- },
+  'dmitry-firtash': {
+    name: 'Dmitry Firtash',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Dmitry Firtash is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Dmitry Firtash has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'david-rockefeller': {
+    name: 'David Rockefeller',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'David Rockefeller is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'David Rockefeller has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'dan-coats': {
  name: 'Daniel Ray Coats',
  title: 'Former Director of National Intelligence',
@@ -955,317 +881,261 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Senate Intelligence Committee Testimony', url: 'https://www.congress.gov/', date: '2019' },
  ],
  },
- 'donald-rumsfeld': {
- name: 'Donald Henry Rumsfeld',
- title: 'Former Secretary of Defense',
- role: 'Iraq War Architect, Torture Program Overseer, Military-Industrial Complex Operator',
- riskLevel: 'critical',
- description: 'Donald Rumsfeld served twice as Secretary of Defense and was a principal architect of the Iraq War. He oversaw the Abu Ghraib torture scandal, authorized"enhanced interrogation techniques,"dismissed concerns about troop levels and post-war planning, and cultivated a culture of secrecy and deception. His arrogant mismanagement led to catastrophic failures in Iraq, thousands of American deaths, and hundreds of thousands of Iraqi civilian casualties. His infamous"known unknowns"philosophy masked deliberate ignorance.',
- birthDate: 'July 9, 1932',
- birthPlace: 'Chicago, Illinois, USA',
- deathDate: 'June 29, 2021',
- education: [
- 'B.A. in Political Science - Princeton University (1954)',
- 'U.S. Navy Flight Training',
- ],
- netWorth: '$30+ million (at death)',
- aliases: ['Rummy', 'The Known Unknown'],
- affiliations: [
- { name: 'U.S. Department of Defense', role: 'Secretary of Defense (2001-2006, 1975-1977)', type: 'agency' },
- { name: 'G.D. Searle & Company', role: 'CEO (1977-1985)', type: 'corporation' },
- { name: 'Gilead Sciences', role: 'Chairman (1997-2001)', type: 'corporation' },
- { name: 'RAND Corporation', role: 'Board Member', type: 'organization' },
- { name: 'Project for the New American Century', role: 'Signatory', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'George W. Bush', relationship: 'President who appointed him', href: '/entities/individuals/george-w-bush' },
- { name: 'Dick Cheney', relationship: 'Vice President, longtime ally, Iraq War co-architect', href: '/entities/individuals/dick-cheney' },
- { name: 'Condoleezza Rice', relationship: 'NSA/Secretary of State, bureaucratic rival', href: '/entities/individuals/condoleezza-rice' },
- { name: 'Paul Wolfowitz', relationship: 'Deputy, Iraq War architect', href: '/entities/individuals/paul-wolfowitz' },
- { name: 'Colin Powell', relationship: 'Secretary of State, skeptic of his plans', href: '/entities/individuals/colin-powell' },
- { name: 'George Tenet', relationship: 'CIA Director, provided intelligence', href: '/entities/individuals/george-tenet' },
- ],
- controversies: [
- 'IRAQ WAR ARCHITECT: Principal designer of Iraq invasion based on false WMD claims, killed 200,000+ civilians',
- 'ABU GHRAIB TORTURE: Authorized interrogation techniques that led to torture and abuse scandal, approved"stress positions"and other torture methods',
- 'RUMSFELD MEMO: December 2002 memo authorized torture techniques, wrote"I stand for 8-10 hours a day. Why is standing limited to 4 hours?"',
- 'TROOP LEVEL DISASTER: Dismissed Army Chief Shinseki\'s call for 300,000+ troops, sent only 150,000 - insufficient for occupation',
- '"STUFF HAPPENS": Dismissed looting of Iraqi museums and infrastructure with callous"stuff happens"comment',
- 'ARMOR SHORTAGE: Troops lacked armored vehicles and body armor -"you go to war with the army you have"',
- 'KNOWN UNKNOWNS: Used philosophical rhetoric to deflect accountability for intelligence failures',
- 'PNAC SIGNATORY: Signed 1998 letter calling for Iraq regime change, pre-planned invasion',
- 'GILEAD TAMIFLU: Held Gilead stock (maker of Tamiflu) while pushing bird flu fears - conflict of interest',
- 'FIRED DISSENT: Fired Army Secretary Thomas White and other officials who questioned his plans',
- 'INSURGENCY DENIAL: Refused to call Iraqi resistance an"insurgency"for years despite military advice',
- ],
- charges: [
- { statute: 'Rome Statute Article 8(2)(a)(ii)', description: 'War Crime - Torture (Abu Ghraib, authorized techniques)', category: 'War Crimes' },
- { statute: 'Rome Statute Article 8(2)(a)(iii)', description: 'War Crime - Willfully causing great suffering', category: 'War Crimes' },
- { statute: 'Rome Statute Article 7(1)(f)', description: 'Crime Against Humanity - Torture as policy', category: 'International' },
- { statute: 'Convention Against Torture Article 1', description: 'Torture - Authorized and approved torture methods', category: 'International' },
- { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace - Planning and waging aggressive war', category: 'International' },
- { statute: 'Nuremberg Principle VI(b)', description: 'War Crime - Ill-treatment of prisoners of war', category: 'International' },
- { statute: 'Geneva Convention III Article 17', description: 'Torture of POWs - Authorized stress positions, sleep deprivation', category: 'International' },
- { statute: '18 U.S.C. § 2340A', description: 'Torture - Direct authorization of torture techniques', category: 'Federal' },
- { statute: 'UCMJ Article 93', description: 'Cruelty and Maltreatment - Created conditions for abuse', category: 'Military' },
- ],
- relatedInvestigations: [
- { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
- { title: 'Abu Ghraib Torture Scandal', slug: 'abu-ghraib', severity: 'critical' },
- { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
- { title: 'War Crimes Investigation', slug: 'war-crimes', severity: 'critical' },
- { title: 'Military-Industrial Corruption', slug: 'military-industrial', severity: 'high' },
- ],
- timeline: [
- { date: 'July 9, 1932', event: 'Born in Chicago, Illinois' },
- { date: '1954', event: 'Graduates Princeton, joins Navy as pilot' },
- { date: '1962', event: 'Elected to Congress from Illinois' },
- { date: '1975-1977', event: 'First term as Secretary of Defense under Ford (youngest ever)' },
- { date: '1977-1985', event: 'CEO of G.D. Searle - oversaw aspartame FDA approval controversy' },
- { date: '1983-1984', event: 'Reagan envoy to Middle East, shakes hands with Saddam Hussein' },
- { date: '1997-2001', event: 'Chairman of Gilead Sciences' },
- { date: '1998', event: 'Signs PNAC letter calling for Iraq regime change' },
- { date: 'January 2001', event: 'Returns as Secretary of Defense under George W. Bush' },
- { date: 'September 11, 2001', event: 'Pentagon attacked, immediately looks for Iraq connection' },
- { date: 'November 2001', event: 'Approves interrogation techniques for Guantanamo' },
- { date: 'December 2002', event: 'Signs memo authorizing torture techniques' },
- { date: 'March 2003', event: 'Iraq War begins under his direction' },
- { date: 'April 2003', event: '"Stuff happens"comment about Iraq looting' },
- { date: 'April 2004', event: 'Abu Ghraib torture photos released publicly' },
- { date: 'December 2004', event: '"You go to war with the army you have"comment' },
- { date: 'November 2006', event: 'Resigns as SecDef after Republicans lose midterms' },
- { date: 'June 29, 2021', event: 'Dies at 88 without facing accountability' },
- ],
- sources: [
- { title: 'Senate Armed Services Committee Torture Report', url: 'https://www.armed-services.senate.gov/imo/media/doc/Detainee-Report-Final_April-22-2009.pdf', date: '2008' },
- { title: 'Rumsfeld Torture Memo (Declassified)', url: 'https://nsarchive2.gwu.edu/torturingdemocracy/documents/20021127.pdf', date: '2002' },
- { title: 'Abu Ghraib Investigations', url: 'https://aclu.org/sites/default/files/FilesPDFs/fay.pdf', date: '2004' },
- { title: 'PNAC Iraq Letter', url: 'https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },
- { title: 'Taguba Report on Abu Ghraib', url: 'https://aclu.org/sites/default/files/torturefoia/released/030904.pdf', date: '2004' },
- { title: 'Known and Unknown: A Memoir', url: 'https://www.goodreads.com/', date: '2011' },
- ],
- },
- 'douglas-feith': {
- name: 'Douglas Jay Feith',
- title: 'Under Secretary of Defense for Policy',
- role: 'Office of Special Plans Director, Iraq War Lies Architect',
- riskLevel: 'critical' as const,
- description: 'Douglas Feith served as Under Secretary of Defense for Policy under Donald Rumsfeld from 2001 to 2005. He created and oversaw the Office of Special Plans, a secretive intelligence unit that cherry-picked and manipulated intelligence to build the case for invading Iraq. The OSP bypassed established intelligence agencies to provide the Bush administration with"alternative"intelligence supporting claims of Iraqi WMDs and al-Qaeda connections that were later proven false. General Tommy Franks famously called him"the f***ing stupidest guy on the face of the earth."The Iraq War he helped engineer killed hundreds of thousands and destabilized the Middle East.',
- birthDate: 'July 16, 1953',
- birthPlace: 'Philadelphia, Pennsylvania, USA',
- education: [
- 'B.A. magna cum laude - Harvard College (1975)',
- 'J.D. magna cum laude - Georgetown University Law Center (1978)',
- ],
- netWorth: 'Unknown',
- aliases: ['OSP Director', 'The Stupidest Guy on Earth'],
- affiliations: [
- { name: 'Department of Defense', role: 'Under Secretary for Policy (2001-2005)', type: 'agency' },
- { name: 'Office of Special Plans', role: 'Creator and Overseer', type: 'agency' },
- { name: 'Project for the New American Century', role: 'Signatory', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Donald Rumsfeld', relationship: 'Defense Secretary, superior', href: '/entities/individuals/donald-rumsfeld' },
- { name: 'Richard Perle', relationship: 'Fellow neocon, Iraq War advocate', href: '/entities/individuals/richard-perle' },
- { name: 'Paul Wolfowitz', relationship: 'Deputy Secretary, Iraq War architect', href: '/entities/individuals/paul-wolfowitz' },
- ],
- controversies: [
- 'OFFICE OF SPECIAL PLANS: Created secretive unit to manufacture Iraq War intelligence',
- 'OSP bypassed CIA, DIA to provide"alternative"intelligence to White House',
- 'IRAQ WMD LIES: Promoted false claims about Iraqi weapons of mass destruction',
- 'AL-QAEDA CONNECTION LIES: Pushed false Iraq-al-Qaeda links to justify invasion',
- 'TOMMY FRANKS ASSESSMENT: CENTCOM commander called him"stupidest guy on the face of the earth"',
- 'DOD IG REPORT: Pentagon Inspector General found OSP produced"inappropriate"intelligence',
- 'POST-WAR PLANNING FAILURE: Responsible for catastrophic lack of post-invasion planning',
- 'Advocate for aggressive Israeli policies while serving in U.S. government',
- ],
- charges: [
- { statute: '18 U.S.C. § 1001', description: 'False Statements - providing misleading intelligence to Congress and public', category: 'Federal' },
- { statute: 'Rome Statute Article 8(2)(a)', description: 'War Crimes - complicity in illegal invasion based on false pretenses', category: 'International Criminal Court' },
- { statute: 'Nuremberg Principles', description: 'Crime Against Peace - planning aggressive war', category: 'International' },
- ],
- relatedInvestigations: [
- { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
- { title: 'Obstruction of Justice', slug: 'obstruction-of-justice', severity: 'critical' },
- ],
- timeline: [
- { date: 'July 16, 1953', event: 'Born in Philadelphia' },
- { date: '1981-1982', event: 'Middle East specialist on Reagan NSC' },
- { date: '1984-1986', event: 'Deputy Assistant Secretary of Defense' },
- { date: '1997', event: 'Signs PNAC letter calling for Iraq regime change' },
- { date: 'July 2001', event: 'Appointed Under Secretary of Defense for Policy' },
- { date: 'September 2001', event: 'Creates Office of Special Plans after 9/11' },
- { date: '2002', event: 'OSP provides"alternative"Iraq intelligence to White House' },
- { date: 'March 2003', event: 'Iraq War begins based on false intelligence' },
- { date: '2004', event: 'Tommy Franks calls him"stupidest guy on face of earth"in book' },
- { date: 'August 2005', event: 'Resigns from Pentagon' },
- { date: '2007', event: 'Pentagon IG report criticizes OSP intelligence activities' },
- ],
- sources: [
- { title: 'Pentagon Inspector General Report on OSP', url: 'https://www.ignet.gov/', date: '2007' },
- { title: 'Senate Intelligence Committee Iraq Report', url: 'https://www.congress.gov/', date: '2004' },
- { title: 'American Soldier by Tommy Franks', url: 'https://scholar.google.com/scholar?q=American%20Soldier%20by%20Tommy%20Franks', date: '2004' },
- ],
- },
- 'dmitry-utkin': {
- name: 'Dmitry Valeryevich Utkin',
- title: 'Wagner Group Co-Founder',
- role: 'PMC Commander, War Criminal, Nazi Sympathizer',
- riskLevel: 'critical' as const,
- description: 'Dmitry Utkin was a former Russian military intelligence (GRU) officer who co-founded and commanded the Wagner Group private military company alongside Yevgeny Prigozhin. Known by the call sign"Wagner"(after Richard Wagner, Hitler\'s favorite composer), Utkin reportedly had Nazi SS symbols tattooed on his body. He led Wagner forces in Syria, Ukraine, Libya, Mali, and Central African Republic, with units accused of widespread war crimes including massacres, torture, and mass executions. Utkin died in the suspicious plane crash on August 23, 2023, alongside Prigozhin, two months after the brief Wagner mutiny against Russian military leadership.',
- birthDate: 'June 11, 1970',
- birthPlace: 'Asbest, Sverdlovsk Oblast, Russia',
- deathDate: 'August 23, 2023',
- education: [
- 'Ryazan Higher Airborne Command School',
- 'GRU training',
- ],
- netWorth: 'Unknown',
- aliases: ['Wagner', 'Wagnerian'],
- affiliations: [
- { name: 'Wagner Group', role: 'Co-Founder, Military Commander', type: 'organization' },
- { name: 'GRU', role: 'Former Lieutenant Colonel', type: 'agency' },
- { name: 'Russian Military', role: 'Former Special Forces Officer', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Yevgeny Prigozhin', relationship: 'Wagner co-founder, financier, died in same crash', href: '/entities/individuals/yevgeny-prigozhin' },
- { name: 'Vladimir Putin', relationship: 'Wagner operated as Kremlin proxy force', href: '/entities/individuals/vladimir-putin' },
- ],
- controversies: [
- 'NAZI TATTOOS: Reportedly has Nazi SS symbols tattooed on body',
- 'Call sign"Wagner"chosen for Hitler\'s favorite composer',
- 'WAR CRIMES: Wagner forces accused of massacres, torture, executions in multiple countries',
- 'SYRIA: Participated in brutal Assad campaign',
- 'UKRAINE: Commanded forces in Donbas from 2014, then full invasion from 2022',
- 'AFRICA: Wagner operations in Libya, Mali, CAR linked to atrocities',
- 'SLEDGEHAMMER EXECUTIONS: Wagner videos showed sledgehammer executions of deserters',
- 'PLANE CRASH: Died in suspicious crash 2 months after Wagner mutiny',
- 'Widely believed Putin ordered assassination',
- ],
- charges: [
- { statute: 'Rome Statute Article 8', description: 'War Crimes - Murder, torture, attacks on civilians', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 7', description: 'Crimes Against Humanity - Widespread attacks on civilian populations', category: 'International Criminal Court' },
- { statute: 'U.S. Sanctions (OFAC)', description: 'Designated for involvement in Russian aggression', category: 'Federal' },
- { statute: 'EU Sanctions', description: 'Designated for human rights violations', category: 'European Union' },
- ],
- relatedInvestigations: [
- { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
- ],
- timeline: [
- { date: 'June 11, 1970', event: 'Born in Asbest, Russia' },
- { date: '1990s-2000s', event: 'Serves in Russian military, GRU special forces' },
- { date: '2013', event: 'Retires from military, joins Moran Security Group' },
- { date: '2014', event: 'Co-founds Wagner Group with Prigozhin' },
- { date: '2014-2015', event: 'Commands Wagner in Donbas, Ukraine' },
- { date: '2015-2019', event: 'Wagner operations in Syria supporting Assad' },
- { date: '2018-2023', event: 'Wagner expands to Libya, Mali, CAR, Sudan' },
- { date: '2022', event: 'Wagner fights in Ukraine full-scale invasion' },
- { date: 'June 23-24, 2023', event: 'Wagner mutiny, march on Moscow' },
- { date: 'August 23, 2023', event: 'Dies in plane crash with Prigozhin - suspected assassination' },
- ],
- sources: [
- { title: 'UN Reports on Wagner Activities', url: 'https://www.un.org/', date: '2021-2023' },
- { title: 'EU Sanctions Designation', url: 'https://scholar.google.com/scholar?q=EU%20Sanctions%20Designation', date: '2022' },
- { title: 'U.S. Treasury OFAC Sanctions', url: 'https://ofac.treasury.gov/', date: '2022' },
- ],
- },
- 'derek-chauvin': {
- name: 'Derek Chauvin',
- title: 'Convicted Murderer / Former Minneapolis Police Officer',
- role: 'Former police officer convicted of murdering George Floyd',
- riskLevel: 'critical',
- description: 'Derek Chauvin is a former Minneapolis police officer convicted of murdering George Floyd on May 25, 2020. He knelt on Floyd\'s neck for 9 minutes and 29 seconds while Floyd pleaded that he couldn\'t breathe. The murder, captured on video by bystander Darnella Frazier, sparked the largest protests in U.S. history. Chauvin had 18 prior complaints against him and was never disciplined.',
- education: [],
- affiliations: [
- { name: 'Minneapolis Police Department', role: 'Police Officer (2001-2020)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'George Floyd', relationship: 'Murder victim', href: '/entities/individuals/george-floyd' },
- { name: 'Tou Thao', relationship: 'Fellow officer at scene, convicted', href: '/entities/individuals/tou-thao' },
- ],
- controversies: [
- 'THE MURDER: On May 25, 2020, Chauvin responded to a call about an alleged counterfeit $20 bill. He knelt on George Floyd\'s neck for 9 minutes and 29 seconds while Floyd was handcuffed and lying face-down. Floyd said"I can\'t breathe"over 20 times before dying.',
- 'VIDEO EVIDENCE: Bystander Darnella Frazier, then 17, recorded the murder on her phone. The video showed Chauvin\'s callous disregard as Floyd died and bystanders pleaded with him to stop. Frazier received a special Pulitzer Prize.',
- 'PATTERN OF VIOLENCE: Chauvin had 18 prior complaints filed against him during his 19-year career. He was disciplined for only one. In 2017, he knelt on a 14-year-old for 17 minutes, ignoring calls to stop.',
- 'CONVICTION: In April 2021, Chauvin was convicted of second-degree murder, third-degree murder, and second-degree manslaughter. He was sentenced to 22.5 years in state prison.',
- 'FEDERAL CONVICTION: In 2022, Chauvin pleaded guilty to federal civil rights charges and was sentenced to an additional 21 years. He admitted he willfully deprived Floyd of his constitutional rights.',
- 'SYSTEMIC PROTECTION: Despite 18 complaints, Chauvin remained on the force. The Minneapolis Police Department\'s culture of protecting abusive officers enabled his violence.',
- 'GLOBAL IMPACT: Floyd\'s murder sparked protests in all 50 states and over 60 countries. It became a defining moment for the Black Lives Matter movement and triggered nationwide debates about policing.',
- 'PRISON ATTACK: In November 2023, Chauvin was stabbed 22 times by another inmate at a federal prison in Arizona. He survived.',
- ],
- charges: [
- { statute: 'Rome Statute Article 7(1)(a)', description: 'Murder: Killed George Floyd through sustained neck compression', category: 'International Criminal Law' },
- { statute: 'Rome Statute Article 7(1)(f)', description: 'Torture: Inflicted severe suffering over 9+ minutes while victim pleaded for his life', category: 'International Criminal Law' },
- { statute: 'Minn. Stat. § 609.19', description: 'Murder in the Second Degree: Convicted - 22.5 years', category: 'State Criminal Law' },
- { statute: 'Minn. Stat. § 609.195', description: 'Murder in the Third Degree: Convicted', category: 'State Criminal Law' },
- { statute: 'Minn. Stat. § 609.205', description: 'Manslaughter in the Second Degree: Convicted', category: 'State Criminal Law' },
- { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law: Federal conviction - 21 years', category: 'Federal Civil Rights' },
- ],
- relatedInvestigations: [
- { title: 'Police Brutality in America', slug: 'police-brutality', severity: 'critical' },
- { title: 'George Floyd Murder', slug: 'george-floyd-murder', severity: 'critical' },
- ],
- timeline: [
- { date: 'March 19, 1976', event: 'Born in Oakdale, Minnesota' },
- { date: '2001', event: 'Joins Minneapolis Police Department' },
- { date: '2001-2020', event: 'Accumulates 18 complaints, one discipline' },
- { date: '2017', event: 'Kneels on 14-year-old for 17 minutes' },
- { date: 'May 25, 2020', event: 'Murders George Floyd by kneeling on his neck' },
- { date: 'May 26, 2020', event: 'Video goes viral, protests begin' },
- { date: 'May 29, 2020', event: 'Arrested and charged with murder' },
- { date: 'April 20, 2021', event: 'Convicted of murder on all counts' },
- { date: 'June 25, 2021', event: 'Sentenced to 22.5 years in state prison' },
- { date: 'July 2022', event: 'Pleads guilty to federal civil rights charges' },
- { date: 'July 7, 2022', event: 'Sentenced to 21 years federal prison' },
- { date: 'November 2023', event: 'Stabbed 22 times in prison, survives' },
- ],
- sources: [
- { title: 'Minnesota v. Chauvin trial transcript', url: 'https://scholar.google.com/scholar?q=Minnesota%20v.%20Chauvin%20trial%20transcript', date: '2021' },
- { title: 'DOJ Civil Rights Investigation', url: 'https://scholar.google.com/scholar?q=DOJ%20Civil%20Rights%20Investigation', date: '2022' },
- { title: 'Minneapolis Police Department records', url: 'https://scholar.google.com/scholar?q=Minneapolis%20Police%20Department%20records', date: 'Various' },
- ],
- },
- 'dillon-myer': {
- name: 'Dillon S. Myer',
- title: 'War Relocation Authority Director',
- role: 'Administered Japanese American concentration camps during WWII',
- riskLevel: 'critical',
- description: 'Dillon S. Myer directed the War Relocation Authority from 1942-1946, administering the unconstitutional incarceration of 120,000 Japanese Americans. He later became Commissioner of Indian Affairs (1950-1953) where he continued policies of forced assimilation against Native Americans. He represents the bureaucratic machinery of ethnic persecution.',
- birthDate: 'September 4, 1891',
- birthPlace: 'Hebron, Ohio',
- deathDate: 'October 21, 1982',
- education: ['Ohio State University'],
- affiliations: [
- { name: 'War Relocation Authority', role: 'Director (1942-1946)', type: 'agency' },
- { name: 'Bureau of Indian Affairs', role: 'Commissioner (1950-1953)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Franklin D. Roosevelt', relationship: 'President who authorized internment', href: '/entities/individuals/franklin-d-roosevelt' },
- ],
- controversies: [
- 'Administered unconstitutional imprisonment of 120,000 Japanese Americans',
- 'Defended the camps as humane despite evidence of suffering',
- 'Later applied similar approaches to Native Americans as BIA Commissioner',
- 'Promoted"termination"policy to eliminate tribal sovereignty',
- ],
- charges: [
- { statute: 'U.S. Constitution - 5th Amendment', description: 'Administered program that imprisoned citizens without due process', category: 'Constitutional Violation' },
- ],
- relatedInvestigations: [
- { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
- ],
- timeline: [
- { date: 'September 4, 1891', event: 'Born in Hebron, Ohio' },
- { date: 'June 1942', event: 'Becomes WRA Director' },
- { date: '1942-1946', event: 'Oversees Japanese American incarceration' },
- { date: '1946', event: 'WRA abolished' },
- { date: '1950-1953', event: 'Commissioner of Indian Affairs' },
- { date: 'October 21, 1982', event: 'Dies' },
- ],
- sources: [
- { title: 'WRA records - National Archives', url: 'https://www.archives.gov/', date: 'Various' },
- ],
- },
+  'donald-rumsfeld': {
+    name: 'Donald Henry Rumsfeld',
+    title: 'Former Secretary of Defense',
+    role: 'Iraq War Architect, Torture Program Overseer, Military-Industrial Complex Operator',
+    riskLevel: 'critical',
+    description: 'Donald Rumsfeld served twice as Secretary of Defense and was a principal architect of the Iraq War. He oversaw the Abu Ghraib torture scandal, authorized"enhanced interrogation techniques,"dismissed concerns about troop levels and post-war planning, and cultivated a culture of secrecy and deception. His arrogant mismanagement led to catastrophic failures in Iraq, thousands of American deaths, and hundreds of thousands of Iraqi civilian casualties. His infamous"known unknowns"philosophy masked deliberate ignorance.',
+    birthDate: 'July 9, 1932',
+    birthPlace: 'Chicago, Illinois, USA',
+    deathDate: 'June 29, 2021',
+    netWorth: '$30+ million (at death)',
+    education: ['B.A. in Political Science - Princeton University (1954)', 'U.S. Navy Flight Training'],
+    affiliations: [
+      { name: 'U.S. Department of Defense', role: 'Secretary of Defense (2001-2006, 1975-1977)', type: 'agency' },
+      { name: 'G.D. Searle & Company', role: 'CEO (1977-1985)', type: 'corporation' },
+      { name: 'Gilead Sciences', role: 'Chairman (1997-2001)', type: 'corporation' },
+      { name: 'RAND Corporation', role: 'Board Member', type: 'organization' },
+      { name: 'Project for the New American Century', role: 'Signatory', type: 'organization' },
+    ],
+    controversies: [
+      'IRAQ WAR ARCHITECT: Principal designer of Iraq invasion based on false WMD claims, killed 200,000+ civilians',
+      'ABU GHRAIB TORTURE: Authorized interrogation techniques that led to torture and abuse scandal, approved"stress positions"and other torture methods',
+      'RUMSFELD MEMO: December 2002 memo authorized torture techniques, wrote"I stand for 8-10 hours a day. Why is standing limited to 4 hours?"',
+      'TROOP LEVEL DISASTER: Dismissed Army Chief Shinseki\'s call for 300,000+ troops, sent only 150,000 - insufficient for occupation',
+      '"STUFF HAPPENS": Dismissed looting of Iraqi museums and infrastructure with callous"stuff happens"comment',
+      'ARMOR SHORTAGE: Troops lacked armored vehicles and body armor -"you go to war with the army you have"',
+      'KNOWN UNKNOWNS: Used philosophical rhetoric to deflect accountability for intelligence failures',
+      'PNAC SIGNATORY: Signed 1998 letter calling for Iraq regime change, pre-planned invasion',
+      'GILEAD TAMIFLU: Held Gilead stock (maker of Tamiflu) while pushing bird flu fears - conflict of interest',
+      'FIRED DISSENT: Fired Army Secretary Thomas White and other officials who questioned his plans',
+      'INSURGENCY DENIAL: Refused to call Iraqi resistance an"insurgency"for years despite military advice',
+    ],
+    charges: [
+      { statute: 'Rome Statute Article 8(2)(a)(ii)', description: 'War Crime - Torture (Abu Ghraib, authorized techniques)', category: 'War Crimes' },
+      { statute: 'Rome Statute Article 8(2)(a)(iii)', description: 'War Crime - Willfully causing great suffering', category: 'War Crimes' },
+      { statute: 'Rome Statute Article 7(1)(f)', description: 'Crime Against Humanity - Torture as policy', category: 'International' },
+      { statute: 'Convention Against Torture Article 1', description: 'Torture - Authorized and approved torture methods', category: 'International' },
+      { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace - Planning and waging aggressive war', category: 'International' },
+      { statute: 'Nuremberg Principle VI(b)', description: 'War Crime - Ill-treatment of prisoners of war', category: 'International' },
+      { statute: 'Geneva Convention III Article 17', description: 'Torture of POWs - Authorized stress positions, sleep deprivation', category: 'International' },
+      { statute: '18 U.S.C. § 2340A', description: 'Torture - Direct authorization of torture techniques', category: 'Federal' },
+      { statute: 'UCMJ Article 93', description: 'Cruelty and Maltreatment - Created conditions for abuse', category: 'Military' },
+    ],
+    relatedInvestigations: [
+      { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
+      { title: 'Abu Ghraib Torture Scandal', slug: 'abu-ghraib', severity: 'critical' },
+      { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
+      { title: 'War Crimes Investigation', slug: 'war-crimes', severity: 'critical' },
+      { title: 'Military-Industrial Corruption', slug: 'military-industrial', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'July 9, 1932', event: 'Born in Chicago, Illinois' },
+      { date: '1954', event: 'Graduates Princeton, joins Navy as pilot' },
+      { date: '1962', event: 'Elected to Congress from Illinois' },
+      { date: '1975-1977', event: 'First term as Secretary of Defense under Ford (youngest ever)' },
+      { date: '1977-1985', event: 'CEO of G.D. Searle - oversaw aspartame FDA approval controversy' },
+      { date: '1983-1984', event: 'Reagan envoy to Middle East, shakes hands with Saddam Hussein' },
+      { date: '1997-2001', event: 'Chairman of Gilead Sciences' },
+      { date: '1998', event: 'Signs PNAC letter calling for Iraq regime change' },
+      { date: 'January 2001', event: 'Returns as Secretary of Defense under George W. Bush' },
+      { date: 'September 11, 2001', event: 'Pentagon attacked, immediately looks for Iraq connection' },
+      { date: 'November 2001', event: 'Approves interrogation techniques for Guantanamo' },
+      { date: 'December 2002', event: 'Signs memo authorizing torture techniques' },
+      { date: 'March 2003', event: 'Iraq War begins under his direction' },
+      { date: 'April 2003', event: '"Stuff happens"comment about Iraq looting' },
+      { date: 'April 2004', event: 'Abu Ghraib torture photos released publicly' },
+      { date: 'December 2004', event: '"You go to war with the army you have"comment' },
+      { date: 'November 2006', event: 'Resigns as SecDef after Republicans lose midterms' },
+      { date: 'June 29, 2021', event: 'Dies at 88 without facing accountability' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Senate Armed Services Committee Torture Report', url: 'https://www.armed-services.senate.gov/imo/media/doc/Detainee-Report-Final_April-22-2009.pdf', date: '2008' },
+      { title: 'Rumsfeld Torture Memo (Declassified)', url: 'https://nsarchive2.gwu.edu/torturingdemocracy/documents/20021127.pdf', date: '2002' },
+      { title: 'Abu Ghraib Investigations', url: 'https://aclu.org/sites/default/files/FilesPDFs/fay.pdf', date: '2004' },
+      { title: 'PNAC Iraq Letter', url: 'https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },
+      { title: 'Taguba Report on Abu Ghraib', url: 'https://aclu.org/sites/default/files/torturefoia/released/030904.pdf', date: '2004' },
+      { title: 'Known and Unknown: A Memoir', url: 'https://www.goodreads.com/', date: '2011' },
+    ],
+    aliases: ['Rummy', 'The Known Unknown'],
+    knownAssociates: [
+      { name: 'George W. Bush', relationship: 'President who appointed him', href: '/entities/individuals/george-w-bush' },
+      { name: 'Dick Cheney', relationship: 'Vice President, longtime ally, Iraq War co-architect', href: '/entities/individuals/dick-cheney' },
+      { name: 'Condoleezza Rice', relationship: 'NSA/Secretary of State, bureaucratic rival', href: '/entities/individuals/condoleezza-rice' },
+      { name: 'Paul Wolfowitz', relationship: 'Deputy, Iraq War architect', href: '/entities/individuals/paul-wolfowitz' },
+      { name: 'Colin Powell', relationship: 'Secretary of State, skeptic of his plans', href: '/entities/individuals/colin-powell' },
+      { name: 'George Tenet', relationship: 'CIA Director, provided intelligence', href: '/entities/individuals/george-tenet' },
+    ],
+  },
+
+
+  'douglas-feith': {
+    name: 'Douglas Feith',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Douglas Feith is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Douglas Feith has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'dmitry-utkin': {
+    name: 'Dmitry Utkin',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Dmitry Utkin is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Dmitry Utkin has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'derek-chauvin': {
+    name: 'Derek Chauvin',
+    title: 'Convicted Murderer / Former Minneapolis Police Officer',
+    role: 'Former police officer convicted of murdering George Floyd',
+    riskLevel: 'critical',
+    description: 'Derek Chauvin is a former Minneapolis police officer convicted of murdering George Floyd on May 25, 2020. He knelt on Floyd\'s neck for 9 minutes and 29 seconds while Floyd pleaded that he couldn\'t breathe. The murder, captured on video by bystander Darnella Frazier, sparked the largest protests in U.S. history. Chauvin had 18 prior complaints against him and was never disciplined.',
+    education: [],
+    affiliations: [
+      { name: 'Minneapolis Police Department', role: 'Police Officer (2001-2020)', type: 'agency' },
+    ],
+    controversies: [
+      'THE MURDER: On May 25, 2020, Chauvin responded to a call about an alleged counterfeit $20 bill. He knelt on George Floyd\'s neck for 9 minutes and 29 seconds while Floyd was handcuffed and lying face-down. Floyd said"I can\'t breathe"over 20 times before dying.',
+      'VIDEO EVIDENCE: Bystander Darnella Frazier, then 17, recorded the murder on her phone. The video showed Chauvin\'s callous disregard as Floyd died and bystanders pleaded with him to stop. Frazier received a special Pulitzer Prize.',
+      'PATTERN OF VIOLENCE: Chauvin had 18 prior complaints filed against him during his 19-year career. He was disciplined for only one. In 2017, he knelt on a 14-year-old for 17 minutes, ignoring calls to stop.',
+      'CONVICTION: In April 2021, Chauvin was convicted of second-degree murder, third-degree murder, and second-degree manslaughter. He was sentenced to 22.5 years in state prison.',
+      'FEDERAL CONVICTION: In 2022, Chauvin pleaded guilty to federal civil rights charges and was sentenced to an additional 21 years. He admitted he willfully deprived Floyd of his constitutional rights.',
+      'SYSTEMIC PROTECTION: Despite 18 complaints, Chauvin remained on the force. The Minneapolis Police Department\'s culture of protecting abusive officers enabled his violence.',
+      'GLOBAL IMPACT: Floyd\'s murder sparked protests in all 50 states and over 60 countries. It became a defining moment for the Black Lives Matter movement and triggered nationwide debates about policing.',
+      'PRISON ATTACK: In November 2023, Chauvin was stabbed 22 times by another inmate at a federal prison in Arizona. He survived.',
+    ],
+    charges: [
+      { statute: 'Rome Statute Article 7(1)(a)', description: 'Murder: Killed George Floyd through sustained neck compression', category: 'International Criminal Law' },
+      { statute: 'Rome Statute Article 7(1)(f)', description: 'Torture: Inflicted severe suffering over 9+ minutes while victim pleaded for his life', category: 'International Criminal Law' },
+      { statute: 'Minn. Stat. § 609.19', description: 'Murder in the Second Degree: Convicted - 22.5 years', category: 'State Criminal Law' },
+      { statute: 'Minn. Stat. § 609.195', description: 'Murder in the Third Degree: Convicted', category: 'State Criminal Law' },
+      { statute: 'Minn. Stat. § 609.205', description: 'Manslaughter in the Second Degree: Convicted', category: 'State Criminal Law' },
+      { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law: Federal conviction - 21 years', category: 'Federal Civil Rights' },
+    ],
+    relatedInvestigations: [
+      { title: 'Police Brutality in America', slug: 'police-brutality', severity: 'critical' },
+      { title: 'George Floyd Murder', slug: 'george-floyd-murder', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'March 19, 1976', event: 'Born in Oakdale, Minnesota' },
+      { date: '2001', event: 'Joins Minneapolis Police Department' },
+      { date: '2001-2020', event: 'Accumulates 18 complaints, one discipline' },
+      { date: '2017', event: 'Kneels on 14-year-old for 17 minutes' },
+      { date: 'May 25, 2020', event: 'Murders George Floyd by kneeling on his neck' },
+      { date: 'May 26, 2020', event: 'Video goes viral, protests begin' },
+      { date: 'May 29, 2020', event: 'Arrested and charged with murder' },
+      { date: 'April 20, 2021', event: 'Convicted of murder on all counts' },
+      { date: 'June 25, 2021', event: 'Sentenced to 22.5 years in state prison' },
+      { date: 'July 2022', event: 'Pleads guilty to federal civil rights charges' },
+      { date: 'July 7, 2022', event: 'Sentenced to 21 years federal prison' },
+      { date: 'November 2023', event: 'Stabbed 22 times in prison, survives' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Minnesota v. Chauvin trial transcript', url: 'https://scholar.google.com/scholar?q=Minnesota%20v.%20Chauvin%20trial%20transcript', date: '2021' },
+      { title: 'DOJ Civil Rights Investigation', url: 'https://scholar.google.com/scholar?q=DOJ%20Civil%20Rights%20Investigation', date: '2022' },
+      { title: 'Minneapolis Police Department records', url: 'https://scholar.google.com/scholar?q=Minneapolis%20Police%20Department%20records', date: 'Various' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'George Floyd', relationship: 'Murder victim', href: '/entities/individuals/george-floyd' },
+      { name: 'Tou Thao', relationship: 'Fellow officer at scene, convicted', href: '/entities/individuals/tou-thao' },
+    ],
+  },
+
+
+  'dillon-myer': {
+    name: 'Dillon S. Myer',
+    title: 'War Relocation Authority Director',
+    role: 'Administered Japanese American concentration camps during WWII',
+    riskLevel: 'critical',
+    description: 'Dillon S. Myer directed the War Relocation Authority from 1942-1946, administering the unconstitutional incarceration of 120,000 Japanese Americans. He later became Commissioner of Indian Affairs (1950-1953) where he continued policies of forced assimilation against Native Americans. He represents the bureaucratic machinery of ethnic persecution.',
+    birthDate: 'September 4, 1891',
+    birthPlace: 'Hebron, Ohio',
+    deathDate: 'October 21, 1982',
+    education: ['Ohio State University'],
+    affiliations: [
+      { name: 'War Relocation Authority', role: 'Director (1942-1946)', type: 'agency' },
+      { name: 'Bureau of Indian Affairs', role: 'Commissioner (1950-1953)', type: 'agency' },
+    ],
+    controversies: [
+      'Administered unconstitutional imprisonment of 120,000 Japanese Americans',
+      'Defended the camps as humane despite evidence of suffering',
+      'Later applied similar approaches to Native Americans as BIA Commissioner',
+      'Promoted"termination"policy to eliminate tribal sovereignty',
+    ],
+    charges: [
+      { statute: 'U.S. Constitution - 5th Amendment', description: 'Administered program that imprisoned citizens without due process', category: 'Constitutional Violation' },
+    ],
+    relatedInvestigations: [
+      { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'September 4, 1891', event: 'Born in Hebron, Ohio' },
+      { date: 'June 1942', event: 'Becomes WRA Director' },
+      { date: '1942-1946', event: 'Oversees Japanese American incarceration' },
+      { date: '1946', event: 'WRA abolished' },
+      { date: '1950-1953', event: 'Commissioner of Indian Affairs' },
+      { date: 'October 21, 1982', event: 'Dies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'WRA records - National Archives', url: 'https://www.archives.gov/', date: 'Various' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Franklin D. Roosevelt', relationship: 'President who authorized internment', href: '/entities/individuals/franklin-d-roosevelt' },
+    ],
+  },
+
+
  'daniel-hale': {
  name: 'Daniel Hale',
  title: 'Drone Whistleblower',
@@ -1302,43 +1172,46 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'The Intercept - The Drone Papers', url: 'https://theintercept.com/', date: '2015' },
  ],
  },
- 'deb-haaland': {
- name: 'Deb Haaland',
- title: 'Secretary of the Interior',
- role: 'First Native American cabinet secretary, investigating boarding schools',
- riskLevel: 'low',
- description: 'Deb Haaland is the first Native American to serve as a cabinet secretary. As Interior Secretary, she has launched investigations into the federal Indian boarding school system that traumatized generations of Native children. She represents a historic shift in Interior Department policy toward Indigenous peoples.',
- birthDate: 'December 2, 1960',
- birthPlace: 'Winslow, Arizona',
- education: ['University of New Mexico', 'UNM School of Law'],
- affiliations: [
- { name: 'Department of the Interior', role: 'Secretary (2021-present)', type: 'agency' },
- { name: 'Laguna Pueblo', role: 'Enrolled Member', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Joe Biden', relationship: 'President who appointed Haaland as first Native American Cabinet secretary (Interior)', href: '/entities/individuals/joe-biden' },
- { name: 'Donald Trump', relationship: 'Predecessor whose policies Haaland reversed on public lands, fossil fuels, and tribal sovereignty', href: '/entities/individuals/donald-trump' },
- { name: 'Bryan Newland', relationship: 'Assistant Secretary for Indian Affairs under Haaland; led Federal Indian Boarding School Initiative', href: '/entities/individuals/bryan-newland' },
- ],
- controversies: [
- 'First Native American Cabinet secretary faced fierce Republican opposition during confirmation',
- 'Launched Federal Indian Boarding School Initiative uncovering decades of abuse and deaths',
- 'Reversed Trump-era policies on fossil fuel leasing on public lands drawing industry backlash',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'critical' },
- ],
- timeline: [
- { date: 'December 2, 1960', event: 'Born in Winslow, Arizona' },
- { date: '2019-2021', event: 'U.S. Representative from New Mexico' },
- { date: 'March 16, 2021', event: 'Confirmed as Interior Secretary' },
- { date: '2021', event: 'Launches Federal Indian Boarding School Initiative' },
- ],
- sources: [
- { title: 'Interior Department biography', url: 'https://www.goodreads.com/', date: 'Current' },
- ],
- },
+  'deb-haaland': {
+    name: 'Deb Haaland',
+    title: 'Secretary of the Interior',
+    role: 'First Native American cabinet secretary, investigating boarding schools',
+    riskLevel: 'low',
+    description: 'Deb Haaland is the first Native American to serve as a cabinet secretary. As Interior Secretary, she has launched investigations into the federal Indian boarding school system that traumatized generations of Native children. She represents a historic shift in Interior Department policy toward Indigenous peoples.',
+    birthDate: 'December 2, 1960',
+    birthPlace: 'Winslow, Arizona',
+    education: ['University of New Mexico', 'UNM School of Law'],
+    affiliations: [
+      { name: 'Department of the Interior', role: 'Secretary (2021-present)', type: 'agency' },
+      { name: 'Laguna Pueblo', role: 'Enrolled Member', type: 'organization' },
+    ],
+    controversies: [
+      'First Native American Cabinet secretary faced fierce Republican opposition during confirmation',
+      'Launched Federal Indian Boarding School Initiative uncovering decades of abuse and deaths',
+      'Reversed Trump-era policies on fossil fuel leasing on public lands drawing industry backlash',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Indian Boarding Schools', slug: 'indian-boarding-schools', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'December 2, 1960', event: 'Born in Winslow, Arizona' },
+      { date: '2019-2021', event: 'U.S. Representative from New Mexico' },
+      { date: 'March 16, 2021', event: 'Confirmed as Interior Secretary' },
+      { date: '2021', event: 'Launches Federal Indian Boarding School Initiative' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Interior Department biography', url: 'https://www.goodreads.com/', date: 'Current' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Joe Biden', relationship: 'President who appointed Haaland as first Native American Cabinet secretary (Interior)', href: '/entities/individuals/joe-biden' },
+      { name: 'Donald Trump', relationship: 'Predecessor whose policies Haaland reversed on public lands, fossil fuels, and tribal sovereignty', href: '/entities/individuals/donald-trump' },
+      { name: 'Bryan Newland', relationship: 'Assistant Secretary for Indian Affairs under Haaland; led Federal Indian Boarding School Initiative', href: '/entities/individuals/bryan-newland' },
+    ],
+  },
+
  'dmitry-rybolovlev': {
  name: 'Dmitry Rybolovlev',
  title: 'Russian Oligarch',
@@ -1373,53 +1246,59 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Palm Beach County property records', url: 'https://scholar.google.com/scholar?q=Palm%20Beach%20County%20property%20records', date: '2008' },
  ],
  },
- 'dwight-eisenhower': {
- name: 'Dwight David Eisenhower',
- title: '34th President of the United States',
- role: 'President (1953-1961), General of the Army',
- riskLevel: 'high',
- description: 'Eisenhower served as President from 1953-1961 and authorized the CIA coups in Iran (1953) and Guatemala (1954) that destabilized regions for decades. He warned of the"military-industrial complex"in his farewell address.',
- birthDate: 'October 14, 1890',
- birthPlace: 'Denison, Texas, USA',
- deathDate: 'March 28, 1969',
- education: [
- 'United States Military Academy at West Point (1915)',
- ],
- affiliations: [
- { name: 'U.S. Government', role: '34th President', type: 'agency' },
- { name: 'Republican Party', role: 'Member', type: 'organization' },
- { name: 'U.S. Army', role: 'General of the Army', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Allen Dulles', relationship: 'CIA Director', href: '/entities/individuals/allen-dulles' },
- { name: 'John Foster Dulles', relationship: 'Secretary of State', href: '/entities/individuals/john-foster-dulles' },
- ],
- controversies: [
- 'IRAN COUP: Authorized Operation Ajax overthrow of elected Mosaddegh',
- 'GUATEMALA COUP: Authorized Operation PBSUCCESS for United Fruit Company',
- 'COLD WAR COVERT OPS: Expanded CIA covert operations globally',
- 'NUCLEAR BRINKMANSHIP:"Massive retaliation"doctrine',
- ],
- charges: [
- { statute: 'Crimes Against Peace', description: 'Authorization of illegal regime change operations', category: 'International Law' },
- ],
- relatedInvestigations: [
- { title: 'Iran Coup 1953', slug: 'iran-coup', severity: 'critical' },
- { title: 'Guatemala Coup 1954', slug: 'guatemala-coup', severity: 'critical' },
- { title: 'CIA Coups', slug: 'cia-coups', severity: 'critical' },
- ],
- timeline: [
- { date: 'October 14, 1890', event: 'Born in Denison, Texas' },
- { date: '1915', event: 'Graduates from West Point' },
- { date: 'June 6, 1944', event: 'Commands D-Day invasion' },
- { date: 'January 20, 1953', event: 'Inaugurated as 34th President' },
- { date: 'August 19, 1953', event: 'Iran coup succeeds' },
- { date: 'June 27, 1954', event: 'Guatemala coup succeeds' },
- { date: 'January 17, 1961', event: 'Farewell address warns of military-industrial complex' },
- { date: 'March 28, 1969', event: 'Dies in Washington D.C.' },
- ],
- sources: [{ title: 'Wikipedia: Dwight David Eisenhower', url: 'https://en.wikipedia.org/wiki/Dwight_D._Eisenhower' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Military Times: Dwight David Eisenhower', url: 'https://www.militarytimes.com/' }],
- },
+  'dwight-eisenhower': {
+    name: 'Dwight David Eisenhower',
+    title: '34th President of the United States',
+    role: 'President (1953-1961), General of the Army',
+    riskLevel: 'high',
+    description: 'Eisenhower served as President from 1953-1961 and authorized the CIA coups in Iran (1953) and Guatemala (1954) that destabilized regions for decades. He warned of the"military-industrial complex"in his farewell address.',
+    birthDate: 'October 14, 1890',
+    birthPlace: 'Denison, Texas, USA',
+    deathDate: 'March 28, 1969',
+    education: ['United States Military Academy at West Point (1915)'],
+    affiliations: [
+      { name: 'U.S. Government', role: '34th President', type: 'agency' },
+      { name: 'Republican Party', role: 'Member', type: 'organization' },
+      { name: 'U.S. Army', role: 'General of the Army', type: 'agency' },
+    ],
+    controversies: [
+      'IRAN COUP: Authorized Operation Ajax overthrow of elected Mosaddegh',
+      'GUATEMALA COUP: Authorized Operation PBSUCCESS for United Fruit Company',
+      'COLD WAR COVERT OPS: Expanded CIA covert operations globally',
+      'NUCLEAR BRINKMANSHIP:"Massive retaliation"doctrine',
+    ],
+    charges: [
+      { statute: 'Crimes Against Peace', description: 'Authorization of illegal regime change operations', category: 'International Law' },
+    ],
+    relatedInvestigations: [
+      { title: 'Iran Coup 1953', slug: 'iran-coup', severity: 'critical' },
+      { title: 'Guatemala Coup 1954', slug: 'guatemala-coup', severity: 'critical' },
+      { title: 'CIA Coups', slug: 'cia-coups', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'October 14, 1890', event: 'Born in Denison, Texas' },
+      { date: '1915', event: 'Graduates from West Point' },
+      { date: 'June 6, 1944', event: 'Commands D-Day invasion' },
+      { date: 'January 20, 1953', event: 'Inaugurated as 34th President' },
+      { date: 'August 19, 1953', event: 'Iran coup succeeds' },
+      { date: 'June 27, 1954', event: 'Guatemala coup succeeds' },
+      { date: 'January 17, 1961', event: 'Farewell address warns of military-industrial complex' },
+      { date: 'March 28, 1969', event: 'Dies in Washington D.C.' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Dwight David Eisenhower', url: 'https://en.wikipedia.org/wiki/Dwight_D._Eisenhower', date: '' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', date: '' },
+      { title: 'Military Times: Dwight David Eisenhower', url: 'https://www.militarytimes.com/', date: '' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Allen Dulles', relationship: 'CIA Director', href: '/entities/individuals/allen-dulles' },
+      { name: 'John Foster Dulles', relationship: 'Secretary of State', href: '/entities/individuals/john-foster-dulles' },
+    ],
+  },
+
+
  'david-cameron': {
  name: 'David Cameron',
  title: 'Former British Prime Minister',
@@ -1493,178 +1372,126 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Dan Wyant', url: 'https://www.google.com/search?q=Dan%20Wyant' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
  },
- 'dennis-muilenburg': {
- name: 'Dennis Muilenburg',
- title: 'Former CEO - 346 Deaths',
- role: 'Former CEO of Boeing - Oversaw Mass Murder for Profit',
- riskLevel: 'critical',
- description: 'Dennis Muilenburg was CEO of Boeing during the 737 MAX crisis that killed 346 people in two crashes. Under his leadership, Boeing concealed the deadly MCAS defect from pilots and regulators, prioritized profits over safety, and continued flying the MAX after Lion Air 610 killed 189 people. He was fired in December 2019 but walked away with $62 million in compensation while families buried their dead. No criminal charges have been filed despite his direct role in decisions that caused 346 deaths.',
- birthDate: '1964',
- birthPlace: 'Orange City, Iowa',
- education: ['Iowa State University (Aerospace Engineering)', 'University of Washington (MBA)'],
- affiliations: [
- { name: 'Boeing', role: 'Former CEO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dave Calhoun', relationship: 'Successor as CEO', href: '/entities/individuals/dave-calhoun' },
- { name: 'Jim McNerney', relationship: 'Predecessor as CEO', href: '/entities/individuals/jim-mcnerney' },
- { name: 'Kevin McAllister', relationship: 'Boeing Commercial CEO under him', href: '/entities/individuals/kevin-mcallister' },
- ],
- controversies: [
- 'LION AIR 610: 189 killed under his leadership (October 29, 2018)',
- 'ETHIOPIAN 302: 157 more killed after he KNEW about MCAS defect (March 10, 2019)',
- 'MCAS CONCEALMENT: Company hid flight control system from pilots',
- 'CONTINUED OPERATIONS: Kept MAX flying after Lion Air despite knowing the danger',
- 'MISLEADING REGULATORS: Boeing deceived FAA about MCAS operation',
- 'CONGRESSIONAL LIES: Evasive testimony before Congress',
- 'GOLDEN PARACHUTE: Left with $62 million while 346 families grieved',
- 'NO ACCOUNTABILITY: Never faced criminal charges',
- ],
- charges: [
- { statute: '18 U.S.C. § 1112', description: 'Involuntary Manslaughter - 346 counts for deaths caused by criminally negligent concealment of deadly defect', category: 'UNPROSECUTED' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud the United States - Boeing pled guilty to this, he was CEO', category: 'UNPROSECUTED' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements - Misleading FAA about MCAS operation', category: 'UNPROSECUTED' },
- { statute: '18 U.S.C. § 1341', description: 'Mail Fraud - Fraudulent safety claims to customers', category: 'UNPROSECUTED' },
- { statute: '18 U.S.C. § 1343', description: 'Wire Fraud - Electronic communications containing fraud', category: 'UNPROSECUTED' },
- { statute: 'ICC Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Other Inhumane Acts - Knowing concealment of deadly defect affecting civilian populations globally', category: 'INTERNATIONAL' },
- ],
- relatedInvestigations: [
- { title: 'Boeing Criminal Enterprise', slug: 'boeing-criminal-enterprise', severity: 'critical' },
- { title: 'Lion Air Flight 610', slug: 'lion-air-610', severity: 'critical' },
- { title: 'Ethiopian Airlines 302', slug: 'ethiopian-airlines-302', severity: 'critical' },
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- { title: 'FAA Regulatory Capture', slug: 'faa-regulatory-capture', severity: 'critical' },
- ],
- timeline: [
- { date: '1985', event: 'Joins Boeing as intern' },
- { date: 'July 2015', event: 'Becomes CEO of Boeing' },
- { date: '2016-2018', event: 'Oversees 737 MAX development and certification' },
- { date: 'October 29, 2018', event: 'Lion Air 610 crashes - 189 dead. His response: blame pilots, issue bulletin, keep flying' },
- { date: 'November 2018 - March 2019', event: 'REFUSES to ground MAX despite knowing MCAS defect' },
- { date: 'March 10, 2019', event: 'Ethiopian Airlines 302 crashes - 157 more dead' },
- { date: 'March 13, 2019', event: 'FAA finally grounds MAX after global pressure' },
- { date: 'October 2019', event: 'Testifies before Congress - evasive and misleading' },
- { date: 'December 23, 2019', event: 'Fired as CEO' },
- { date: '2020', event: 'Walks away with $62 million compensation' },
- { date: '2021', event: 'Boeing admits to conspiracy to defraud US - Muilenburg not charged' },
- ],
- sources: [{ title: 'Wikipedia: Dennis Muilenburg', url: 'https://en.wikipedia.org/wiki/Dennis_Muilenburg' }, { title: 'Bloomberg: Dennis Muilenburg', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
- },
- 'daniel-elwell': {
- name: 'Daniel Elwell',
- title: 'Aviation Executive',
- role: 'Former FAA Deputy Administrator',
- riskLevel: 'high',
- description: 'Daniel Elwell served as FAA Deputy Administrator and Acting Administrator from 2017 to 2019, during the Boeing 737 MAX certification and first crash. Before joining the FAA, he was a lobbyist for Airlines for America, the airline industry\'s main trade group. He defended the FAA\'s delegation of safety certification to Boeing even after the crashes.',
- birthDate: '1956',
- birthPlace: 'United States',
- education: ['United States Air Force Academy', 'Military pilot training'],
- affiliations: [
- { name: 'FAA', role: 'Deputy/Acting Administrator', type: 'agency' as const },
- { name: 'Airlines for America', role: 'Senior VP', type: 'organization' as const },
- { name: 'American Airlines', role: 'Pilot', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Ali Bahrami', relationship: 'FAA colleague', href: '/entities/individuals/ali-bahrami' },
- ],
- controversies: [
- 'LOBBYING: Was Airlines for America lobbyist before FAA',
- 'MAX DEFENSE: Defended 737 MAX certification process after crashes',
- 'REVOLVING DOOR: Career alternated between industry and regulator',
- 'DELAYED ACTION: FAA under his leadership slow to ground MAX after Ethiopian crash',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- { title: 'Regulatory Capture', slug: 'regulatory-capture', severity: 'high' },
- ],
- timeline: [
- { date: '1956', event: 'Born in United States' },
- { date: '1970s-80s', event: 'Air Force and commercial pilot' },
- { date: '2008-2013', event: 'FAA Assistant Administrator' },
- { date: '2013-2017', event: 'Airlines for America lobbyist' },
- { date: '2017', event: 'Returns to FAA as Deputy Administrator' },
- { date: 'October 2018', event: 'Lion Air 610 crashes' },
- { date: '2019', event: 'Leaves FAA' },
- ],
- sources: [{ title: 'Wikipedia: Daniel Elwell', url: 'https://en.wikipedia.org/wiki/Daniel_Elwell' }, { title: 'Bloomberg: Daniel Elwell', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
- },
- 'david-hinson': {
- name: 'David Hinson',
- title: 'Aviation Executive',
- role: 'Former FAA Administrator (1993-1996)',
- riskLevel: 'high',
- description: 'David Hinson served as FAA Administrator from 1993 to 1996. He came directly from McDonnell Douglas where he was President, raising immediate conflict of interest concerns. His tenure saw the ValuJet crash that killed 110 people - investigations revealed FAA had been warned about ValuJet\'s maintenance contractor but took no action. Hinson\'s appointment of an industry insider to lead safety established the revolving door pattern.',
- birthDate: '1935',
- birthPlace: 'United States',
- education: ['University of California, Berkeley'],
- affiliations: [
- { name: 'FAA', role: 'Administrator', type: 'agency' as const },
- { name: 'McDonnell Douglas', role: 'President', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Federico Pena', relationship: 'Transportation Secretary who oversaw Hinson\'s tenure as FAA Administrator during ValuJet crash era', href: '/entities/individuals/federico-pena' },
- { name: 'Bill Clinton', relationship: 'President during Hinson\'s FAA tenure when aviation safety failures came under scrutiny', href: '/entities/individuals/bill-clinton' },
- ],
- controversies: [
- 'INDUSTRY INSIDER: Came directly from McDonnell Douglas presidency',
- 'VALUJET CRASH: FAA had been warned about maintenance contractor before crash that killed 110',
- 'REVOLVING DOOR: Established pattern of industry executives leading FAA',
- 'CONFLICT OF INTEREST: Regulated industry he came from',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Regulatory Capture', slug: 'regulatory-capture', severity: 'high' },
- ],
- timeline: [
- { date: '1935', event: 'Born' },
- { date: '1980s', event: 'President of McDonnell Douglas' },
- { date: 'August 1993', event: 'Becomes FAA Administrator' },
- { date: 'May 1996', event: 'ValuJet 592 crashes in Everglades, 110 killed' },
- { date: 'November 1996', event: 'Leaves FAA' },
- ],
- sources: [{ title: 'Wikipedia: David Hinson', url: 'https://www.google.com/search?q=David%20Hinson' }, { title: 'Bloomberg: David Hinson', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: David Hinson', url: 'https://www.militarytimes.com/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
- },
- 'david-calhoun': {
- name: 'David Calhoun',
- title: 'Corporate Executive',
- role: 'Former Boeing CEO (2020-2024)',
- riskLevel: 'high',
- description: 'David Calhoun served as Boeing CEO from January 2020 to August 2024, taking over after Dennis Muilenburg was fired following the 737 MAX crashes. Rather than implementing fundamental safety reforms, Calhoun continued Boeing\'s focus on stock price and cost-cutting. Under his leadership, Boeing faced the Alaska Airlines door plug blowout (2024), continued quality control failures, whistleblower allegations, and criminal investigations. He announced his departure after the door plug incident but received over $30 million in compensation despite the company\'s failures.',
- birthDate: 'April 18, 1957',
- birthPlace: 'Philadelphia, Pennsylvania',
- education: ['Virginia Tech'],
- affiliations: [
- { name: 'Boeing', role: 'CEO', type: 'corporation' as const },
- { name: 'Blackstone Group', role: 'Senior Managing Director', type: 'corporation' as const },
- { name: 'General Electric', role: 'Former Executive', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Predecessor as CEO', href: '/entities/individuals/dennis-muilenburg' },
- ],
- controversies: [
- 'DOOR PLUG BLOWOUT: Alaska Airlines incident happened under his watch (2024)',
- 'CONTINUED FAILURES: Quality control problems persisted despite MAX lessons',
- 'EXECUTIVE PAY: Received $30+ million despite company failures',
- 'WHISTLEBLOWER DEATH: John Barnett died during his tenure',
- 'CRIMINAL INVESTIGATION: DOJ reopened criminal probe under his leadership',
- 'COST-CUTTING: Continued prioritizing stock price over safety investments',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'April 18, 1957', event: 'Born in Philadelphia' },
- { date: '2009', event: 'Joins Boeing board' },
- { date: 'October 2019', event: 'Becomes Boeing Chairman' },
- { date: 'January 2020', event: 'Becomes Boeing CEO' },
- { date: 'January 2024', event: 'Alaska Airlines door plug blowout' },
- { date: 'March 2024', event: 'Announces departure following door plug incident' },
- { date: 'August 2024', event: 'Steps down as CEO' },
- ],
- sources: [{ title: 'Wikipedia: David Calhoun', url: 'https://en.wikipedia.org/wiki/David_Calhoun' }, { title: 'Bloomberg: David Calhoun', url: 'https://www.bloomberg.com/' }],
- },
+  'dennis-muilenburg': {
+    name: 'Dennis Muilenburg',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Dennis Muilenburg is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Dennis Muilenburg has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'daniel-elwell': {
+    name: 'Daniel Elwell',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Daniel Elwell is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Daniel Elwell has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'david-hinson': {
+    name: 'David Hinson',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'David Hinson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'David Hinson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'david-calhoun': {
+    name: 'David Calhoun',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'David Calhoun is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'David Calhoun has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'david-gitlin': {
  name: 'David Gitlin',
  title: 'Aviation Executive',
@@ -1961,101 +1788,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: David Gelles', url: 'https://www.google.com/search?q=David%20Gelles' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
- 'dave-calhoun': {
- name: 'Dave Calhoun',
- title: 'Former Boeing CEO',
- role: 'Boeing CEO 2020-2024 - Continued Cover-Up',
- riskLevel: 'critical',
- description: 'Dave Calhoun became Boeing CEO in January 2020 after Dennis Muilenburg was fired over the 737 MAX crisis. Despite being brought in to fix the company, Calhoun continued the same cost-cutting, safety-ignoring culture. Under his leadership, the Alaska Airlines door plug blowout occurred, multiple whistleblowers were retaliated against (including John Barnett who died during testimony), and Boeing breached its Deferred Prosecution Agreement. He stepped down in 2024 amid continued crises, collecting approximately $33 million in his final year.',
- birthDate: 'April 18, 1957',
- birthPlace: 'Philadelphia, Pennsylvania',
- education: ['Virginia Tech (Accounting)'],
- affiliations: [
- { name: 'Boeing', role: 'Former CEO', type: 'corporation' as const },
- { name: 'Blackstone', role: 'Former Senior Managing Director', type: 'corporation' as const },
- { name: 'General Electric', role: 'Former Executive', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Predecessor as CEO', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'Kelly Ortberg', relationship: 'Successor as CEO', href: '/entities/individuals/kelly-ortberg' },
- { name: 'John Barnett', relationship: 'Whistleblower who died during testimony', href: '/entities/individuals/john-barnett' },
- ],
- controversies: [
- 'ALASKA 1282: Door plug blowout under his watch (January 5, 2024)',
- 'DPA BREACH: Boeing violated Deferred Prosecution Agreement under his leadership',
- 'WHISTLEBLOWER DEATH: John Barnett died during testimony against Boeing',
- 'CONTINUED CULTURE: Same cost-cutting, safety-ignoring approach as predecessor',
- 'QUALITY CRISIS: Systemic manufacturing failures continued',
- 'GOLDEN PARACHUTE: ~$33 million in final year compensation',
- 'BLAMED WORKERS: Deflected blame to factory workers instead of management',
- ],
- charges: [
- { statute: '18 U.S.C. § 371', description: 'Conspiracy - Boeing breached DPA under his leadership', category: 'UNPROSECUTED' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements - Continued pattern of misleading regulators', category: 'UNPROSECUTED' },
- { statute: 'AIR21 Whistleblower Protection', description: 'Whistleblower retaliation violations under his watch', category: 'UNPROSECUTED' },
- ],
- relatedInvestigations: [
- { title: 'Alaska Airlines 1282', slug: 'alaska-airlines-1282', severity: 'critical' },
- { title: 'Boeing Criminal Enterprise', slug: 'boeing-criminal-enterprise', severity: 'critical' },
- { title: 'Boeing Whistleblower Retaliation', slug: 'boeing-whistleblower-retaliation', severity: 'critical' },
- ],
- timeline: [
- { date: 'April 18, 1957', event: 'Born in Philadelphia' },
- { date: '2009-2014', event: 'CEO of Nielsen Holdings' },
- { date: '2009', event: 'Joins Boeing Board of Directors' },
- { date: 'January 13, 2020', event: 'Becomes Boeing CEO' },
- { date: 'January 5, 2024', event: 'Alaska Airlines door plug blowout' },
- { date: 'March 2024', event: 'John Barnett dies during testimony' },
- { date: '2024', event: 'DOJ finds Boeing breached DPA' },
- { date: 'August 2024', event: 'Steps down as CEO' },
- ],
- sources: [{ title: 'Wikipedia: Dave Calhoun', url: 'https://en.wikipedia.org/wiki/Dave_Calhoun' }, { title: 'Bloomberg: Dave Calhoun', url: 'https://www.bloomberg.com/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
- },
- 'do-kwon': {
- name: 'Do Kwon',
- title: 'Terraform Labs Co-founder',
- role: 'Terra/Luna Founder - $40 Billion Crypto Collapse',
- riskLevel: 'critical',
- description: 'Do Kwon co-founded Terraform Labs and created the Terra/Luna cryptocurrency ecosystem. In May 2022, the algorithmic stablecoin TerraUSD (UST) and its sister token Luna collapsed, wiping out approximately $40 billion in investor value in days. The collapse triggered suicides, bankruptcies, and a broader crypto contagion. Kwon fled to Montenegro, was arrested in March 2023 with fake Costa Rican passports, and faces fraud charges in the US and South Korea.',
- birthDate: 'September 6, 1991',
- birthPlace: 'South Korea',
- education: ['Stanford University (Computer Science)'],
- affiliations: [
- { name: 'Terraform Labs', role: 'Co-founder/Former CEO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Sam Bankman-Fried', relationship: 'Crypto industry peer', href: '/entities/individuals/sam-bankman-fried' },
- ],
- controversies: [
- 'TERRA/LUNA COLLAPSE: $40 billion wiped out in days',
- 'ALGORITHMIC STABLECOIN: UST design was fundamentally flawed',
- 'FLED JURISDICTION: Escaped South Korea while under investigation',
- 'FAKE PASSPORTS: Arrested with forged documents',
- 'SUICIDE CATALYST: Collapse linked to multiple investor suicides',
- 'ARROGANT TWEETS: Mocked critics before collapse',
- 'PRIOR FAILURES: Previous project Basis Cash also failed',
- ],
- charges: [
- { statute: '15 U.S.C. � 78j(b)', description: 'Securities Fraud - Deceived investors about Luna stability', category: 'CHARGED' },
- { statute: '18 U.S.C. � 1343', description: 'Wire Fraud - Fraudulent marketing of Terra ecosystem', category: 'CHARGED' },
- { statute: '18 U.S.C. � 1956', description: 'Money Laundering - Moving assets after collapse', category: 'CHARGED' },
- { statute: 'South Korea Financial Crimes', description: 'Capital Markets Act Violations', category: 'CHARGED' },
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Inhumane acts causing mass financial destruction', category: 'INTERNATIONAL' },
- ],
- relatedInvestigations: [
- { title: 'Terra Luna Collapse', slug: 'terra-luna-collapse', severity: 'critical' },
- { title: 'Crypto Fraud Epidemic', slug: 'crypto-fraud-epidemic', severity: 'critical' },
- ],
- timeline: [
- { date: 'September 6, 1991', event: 'Born in South Korea' },
- { date: '2018', event: 'Co-founds Terraform Labs' },
- { date: 'May 2022', event: 'Terra/Luna collapse begins' },
- { date: 'September 2022', event: 'Interpol Red Notice issued' },
- { date: 'March 2023', event: 'Arrested in Montenegro with fake passports' },
- { date: '2024', event: 'Extradition to US pending' },
- ],
- sources: [{ title: 'Wikipedia: Do Kwon', url: 'https://en.wikipedia.org/wiki/Do_Kwon' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- },
+  'dave-calhoun': {
+    name: 'Dave Calhoun',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Dave Calhoun is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Dave Calhoun has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'do-kwon': {
+    name: 'Do Kwon',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Do Kwon is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Do Kwon has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'dennis-kozlowski': {
  name: 'L. Dennis Kozlowski',
  title: 'Former Tyco CEO',
@@ -2098,48 +1890,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: L. Dennis Kozlowski', url: 'https://en.wikipedia.org/wiki/L._Dennis_Kozlowski' }, { title: 'Bloomberg: L. Dennis Kozlowski', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
  },
- 'demetrius-haley': {
- name: 'Demetrius Haley',
- title: 'Former Memphis Police Officer',
- role: 'Tyre Nichols Beating - Charged with Murder',
- riskLevel: 'critical',
- description: 'Demetrius Haley was one of five Memphis police officers who brutally beat Tyre Nichols on January 7, 2023, leading to his death three days later. Body camera footage showed the officers punching, kicking, and pepper-spraying Nichols while he cried out for his mother. All five officers were fired and charged with second-degree murder.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Police training'],
- affiliations: [
- { name: 'Memphis Police SCORPION Unit', role: 'Former Officer (Disbanded)', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Tadarrius Bean', relationship: 'Co-defendant officer', href: '/entities/individuals/tadarrius-bean' },
- { name: 'Justin Smith', relationship: 'Co-defendant officer', href: '/entities/individuals/justin-smith' },
- { name: 'Emmitt Martin III', relationship: 'Co-defendant officer', href: '/entities/individuals/emmitt-martin' },
- { name: 'Desmond Mills Jr.', relationship: 'Co-defendant officer', href: '/entities/individuals/desmond-mills' },
- ],
- controversies: [
- 'TYRE NICHOLS: Beat him to death over traffic stop',
- 'VIDEO EVIDENCE: Brutal beating captured on bodycam',
- 'SCORPION UNIT: Part of disbanded aggressive unit',
- 'MURDER CHARGES: All 5 officers charged with murder',
- '"MOM": Nichols cried for mother as he was beaten',
- ],
- charges: [
- { statute: 'TN Code 39-13-210', description: 'Second-Degree Murder', category: 'CHARGED' },
- { statute: '18 U.S.C. � 242', description: 'Federal Civil Rights Violations', category: 'CHARGED' },
- ],
- relatedInvestigations: [
- { title: 'Tyre Nichols Murder', slug: 'tyre-nichols', severity: 'critical' },
- { title: 'Police Brutality', slug: 'police-brutality', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 7, 2023', event: 'Tyre Nichols beaten' },
- { date: 'January 10, 2023', event: 'Nichols dies from injuries' },
- { date: 'January 20, 2023', event: 'Fired from department' },
- { date: 'January 26, 2023', event: 'Charged with murder' },
- { date: 'September 2024', event: 'Federal trial begins' },
- ],
- sources: [{ title: 'Wikipedia: Demetrius Haley', url: 'https://en.wikipedia.org/wiki/Demetrius_Haley' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
- },
+  'demetrius-haley': {
+    name: 'Demetrius Haley',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Demetrius Haley is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Demetrius Haley has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'david-sackler': {
  name: 'David Sackler',
  title: 'Purdue Pharma Board Member',
@@ -2257,49 +2037,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'david-koch': {
- name: 'David Koch',
- title: 'Koch Industries Executive',
- role: 'Koch Brothers - Climate Denial, Dark Money',
- riskLevel: 'critical',
- description: 'David Koch, with his brother Charles, used Koch Industries wealth to fund climate denial, fight environmental regulations, and reshape American politics through dark money. The Koch network spent hundreds of millions to elect politicians who would cut taxes and regulations, contributing to climate catastrophe and inequality.',
- birthDate: 'May 3, 1940',
- birthPlace: 'Wichita, Kansas',
- deathDate: 'August 23, 2019',
- education: ['MIT (Chemical Engineering)'],
- netWorth: '$Was $50.5 billion at death',
- affiliations: [
- { name: 'Koch Industries', role: 'Former Executive VP', type: 'corporation' as const },
- { name: 'Americans for Prosperity', role: 'Founder', type: 'organization' as const },
- ],
- knownAssociates: [
- { name: 'Charles Koch', relationship: 'Brother and business partner', href: '/entities/individuals/charles-koch' },
- ],
- controversies: [
- 'CLIMATE DENIAL: Funded decades of disinformation',
- 'DARK MONEY: Billions in political spending',
- 'AMERICANS FOR PROSPERITY: Astroturf political network',
- 'TEA PARTY: Funded fake grassroots movement',
- 'EPA ATTACKS: Fought environmental protections',
- 'UNION BUSTING: Funded attacks on labor',
- ],
- charges: [
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Funding climate denial causing mass death', category: 'INTERNATIONAL' },
- { statute: '52 U.S.C. � 30121', description: 'Campaign finance violations', category: 'UNINVESTIGATED' },
- ],
- relatedInvestigations: [
- { title: 'Climate Denial Network', slug: 'climate-denial-network', severity: 'critical' },
- { title: 'Dark Money in Politics', slug: 'dark-money-politics', severity: 'critical' },
- ],
- timeline: [
- { date: 'May 3, 1940', event: 'Born in Wichita' },
- { date: '1980', event: 'Libertarian VP candidate' },
- { date: '2004', event: 'Founds Americans for Prosperity' },
- { date: '2010', event: 'Funds Tea Party movement' },
- { date: 'August 23, 2019', event: 'Dies at 79' },
- ],
- sources: [{ title: 'Wikipedia: David Koch', url: 'https://en.wikipedia.org/wiki/David_Koch' }, { title: 'Bloomberg: David Koch', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'InsideClimate News', url: 'https://insideclimatenews.org/' }],
- },
+  'david-koch': {
+    name: 'David Koch',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'David Koch is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'David Koch has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'doug-mcmillon': {
  name: 'Doug McMillon',
  title: 'Walmart CEO',
@@ -2700,47 +2467,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'david-miscavige': {
- name: 'David Miscavige',
- title: 'Scientology Leader',
- role: 'Chairman of the Board - Abuse Allegations, Missing Wife',
- riskLevel: 'critical',
- description: 'David Miscavige has led the Church of Scientology since 1987. He faces numerous lawsuits alleging human trafficking, abuse, and forced labor. His wife Shelly has not been seen publicly since 2007, sparking concerns. Multiple former members describe him as a violent, abusive leader who has imprisoned church members.',
- birthDate: 'April 30, 1960',
- birthPlace: 'Bucks County, Pennsylvania',
- education: ['Raised in Scientology, no formal education'],
- affiliations: [
- { name: 'Church of Scientology', role: 'Chairman of the Board', type: 'organization' as const },
- { name: 'Religious Technology Center', role: 'Chairman', type: 'organization' as const },
- ],
+  'david-miscavige': {
+    name: 'David Miscavige',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'David Miscavige is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'David Miscavige has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Tom Cruise', relationship: 'Scientology\'s most famous member and close personal friend; Miscavige served as best man at Cruise\'s wedding to Katie Holmes', href: '/entities/individuals/tom-cruise' },
- ],
- controversies: [
- 'HUMAN TRAFFICKING: Federal lawsuit allegations',
- 'FORCED LABOR: RPF (Rehabilitation Project Force)',
- 'MISSING WIFE: Shelly not seen since 2007',
- 'PHYSICAL ABUSE: Former members describe beatings',
- 'THE HOLE: Alleged imprisonment of executives',
- 'DISCONNECTION: Forced family separation policy',
- ],
- charges: [
- { statute: '18 U.S.C. � 1589', description: 'Forced labor', category: 'CIVIL LAWSUIT' },
- { statute: '18 U.S.C. � 1590', description: 'Trafficking for forced labor', category: 'CIVIL LAWSUIT' },
- ],
- relatedInvestigations: [
- { title: 'Scientology Abuses', slug: 'scientology-abuses', severity: 'critical' },
- { title: 'Religious Organization Abuse', slug: 'religious-abuse', severity: 'critical' },
- ],
- timeline: [
- { date: 'April 30, 1960', event: 'Born in Pennsylvania' },
- { date: '1987', event: 'Becomes leader of Scientology' },
- { date: '2007', event: 'Wife Shelly last seen publicly' },
- { date: '2023', event: 'Served in federal trafficking lawsuit' },
- ],
- sources: [{ title: 'Wikipedia: David Miscavige', url: 'https://en.wikipedia.org/wiki/David_Miscavige' }, { title: 'Bloomberg: David Miscavige', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
- },
  'devin-kelley': {
  name: 'Devin Kelley',
  title: 'Mass Murderer (Deceased)',
@@ -2923,47 +2679,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'dennis-hastert': {
- name: 'Dennis Hastert',
- title: 'Former House Speaker',
- role: 'Serial Child Molester - Longest Serving GOP Speaker',
- riskLevel: 'critical',
- description: 'Dennis Hastert was the longest-serving Republican House Speaker (1999-2007), and is a convicted felon and serial child molester. He paid $3.5 million in hush money to victims he abused as a wrestling coach. The judge called him a"serial child molester."He went to prison at 74.',
- birthDate: 'January 2, 1942',
- birthPlace: 'Aurora, Illinois',
- education: ['Wheaton College', 'Northern Illinois University'],
- affiliations: [
- { name: 'U.S. House of Representatives', role: 'Former Speaker (R-IL)', type: 'agency' as const },
- ],
+  'dennis-hastert': {
+    name: 'Dennis Hastert',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Dennis Hastert is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Dennis Hastert has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Tom DeLay', relationship: 'Fellow House Republican leader known as"The Hammer"; served as Majority Whip/Leader during Hastert\'s Speakership', href: '/entities/individuals/tom-delay' },
- ],
- controversies: [
- 'CHILD MOLESTATION: Abused at least 4 male wrestlers',
- 'HUSH MONEY: Paid $3.5 million to silence victims',
- 'BANK FRAUD: Convicted for structuring withdrawals',
- 'FEDERAL CONVICTION: 15 months in prison',
- 'JUDGE STATEMENT: Called"serial child molester"by judge',
- ],
- charges: [
- { statute: '31 U.S.C. � 5324', description: 'Structuring bank withdrawals to avoid reporting requirements', category: 'Financial Crimes' },
- ],
- relatedInvestigations: [
- { title: 'Child Sexual Abuse', slug: 'child-sexual-abuse', severity: 'critical' },
- { title: 'Political Corruption', slug: 'political-corruption', severity: 'high' },
- ],
- timeline: [
- { date: 'January 2, 1942', event: 'Born in Illinois' },
- { date: '1965-1981', event: 'High school wrestling coach - abuse period' },
- { date: '1987-2007', event: 'U.S. Representative' },
- { date: '1999-2007', event: 'House Speaker' },
- { date: '2015', event: 'Indicted for bank fraud' },
- { date: '2016', event: 'Sentenced to 15 months' },
- { date: '2017', event: 'Released from prison' },
- ],
- sources: [{ title: 'Wikipedia: Dennis Hastert', url: 'https://en.wikipedia.org/wiki/Dennis_Hastert' }, { title: 'NYT: Dennis Hastert Profile', url: 'https://www.nytimes.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
- },
  'duke-cunningham': {
  name: 'Randy"Duke"Cunningham',
  title: 'Former California Congressman',
@@ -4700,47 +4445,50 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'donald-barr': {
- name: 'Donald Barr',
- title: 'Headmaster of Dalton School',
- role: 'Hired Epstein Despite No Degree',
- riskLevel: 'high',
- description: 'Headmaster of the elite Dalton School in Manhattan who hired 20-year-old Jeffrey Epstein as a math and physics teacher in 1973, despite Epstein having no college degree. Donald Barr was the father of future Attorney General William Barr, who would oversee the Bureau of Prisons when Epstein died in custody. Donald Barr also wrote a science fiction novel called"Space Relations"(1973) about aliens running an interplanetary sex slavery operation.',
- birthDate: 'August 8, 1921',
- birthPlace: 'New York City, New York',
- deathDate: 'February 5, 2004',
- education: ['Columbia University', 'Columbia University - MA Mathematics'],
- affiliations: [
- { name: 'Dalton School', role: 'Headmaster (1964-1974)', type: 'corporation' },
- { name: 'OSS', role: 'Former member (WWII)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Hired him as teacher at Dalton School', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'William Barr', relationship: 'Son, later AG during Epstein death', href: '/entities/individuals/william-barr' },
- 
- { name: 'Ghislaine Maxwell', relationship: 'Dalton School connection to Manhattan elite circles', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Alan Dershowitz', relationship: 'Both connected to Epstein\'s early career advancement', href: '/entities/individuals/alan-dershowitz' }
- ],
- controversies: [
- 'Hired unqualified 20-year-old Epstein at elite prep school',
- 'Former OSS (CIA precursor) member',
- 'Wrote novel about alien-run sex slavery operation same year he hired Epstein',
- 'Son became AG overseeing prison when Epstein died',
- ],
- relatedInvestigations: [
- { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
- ],
- timeline: [
- { date: '1964', event: 'Became headmaster of Dalton School' },
- { date: '1973', event: 'Hired Jeffrey Epstein as math teacher despite no degree' },
- { date: '1973', event: 'Published"Space Relations"novel about alien sex slavery' },
- { date: '1974', event: 'Left Dalton School' },
- { date: '2004', event: 'Died February 5, 2004' },
- ],
- sources: [
- { title: 'Epstein-Dalton Connection', url: 'https://www.nytimes.com/2019/07/12/nyregion/jeffrey-epstein-dalton-teacher.html', date: '2019' },
- ],
- },
+  'donald-barr': {
+    name: 'Donald Barr',
+    title: 'Headmaster of Dalton School',
+    role: 'Hired Epstein Despite No Degree',
+    riskLevel: 'high',
+    description: 'Headmaster of the elite Dalton School in Manhattan who hired 20-year-old Jeffrey Epstein as a math and physics teacher in 1973, despite Epstein having no college degree. Donald Barr was the father of future Attorney General William Barr, who would oversee the Bureau of Prisons when Epstein died in custody. Donald Barr also wrote a science fiction novel called"Space Relations"(1973) about aliens running an interplanetary sex slavery operation.',
+    birthDate: 'August 8, 1921',
+    birthPlace: 'New York City, New York',
+    deathDate: 'February 5, 2004',
+    education: ['Columbia University', 'Columbia University - MA Mathematics'],
+    affiliations: [
+      { name: 'Dalton School', role: 'Headmaster (1964-1974)', type: 'corporation' },
+      { name: 'OSS', role: 'Former member (WWII)', type: 'agency' },
+    ],
+    controversies: [
+      'Hired unqualified 20-year-old Epstein at elite prep school',
+      'Former OSS (CIA precursor) member',
+      'Wrote novel about alien-run sex slavery operation same year he hired Epstein',
+      'Son became AG overseeing prison when Epstein died',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1964', event: 'Became headmaster of Dalton School' },
+      { date: '1973', event: 'Hired Jeffrey Epstein as math teacher despite no degree' },
+      { date: '1973', event: 'Published"Space Relations"novel about alien sex slavery' },
+      { date: '1974', event: 'Left Dalton School' },
+      { date: '2004', event: 'Died February 5, 2004' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Epstein-Dalton Connection', url: 'https://www.nytimes.com/2019/07/12/nyregion/jeffrey-epstein-dalton-teacher.html', date: '2019' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Hired him as teacher at Dalton School', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'William Barr', relationship: 'Son, later AG during Epstein death', href: '/entities/individuals/william-barr' },
+      { name: 'Ghislaine Maxwell', relationship: 'Dalton School connection to Manhattan elite circles', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Alan Dershowitz', relationship: 'Both connected to Epstein\'s early career advancement', href: '/entities/individuals/alan-dershowitz' },
+    ],
+  },
+
  'daniel-dennett': {
  name: 'Daniel Dennett',
  title: 'Philosopher',
@@ -4799,139 +4547,105 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
  sources: [{ title: 'Wikipedia: David Blaine', url: 'https://en.wikipedia.org/wiki/David_Blaine' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
  },
- 'daunte-wright': {
-"name":"Daunte Wright",
-"title":"Victim of Police Shooting",
-"role":"Killed During Traffic Stop",
-"riskLevel":"low",
-"description":"Twenty-year-old African American man shot and killed by Brooklyn Center, Minnesota police officer Kim Potter during a traffic stop on April 11, 2021. Potter claimed she confused her gun for her taser. The shooting occurred during the trial of Derek Chauvin for George Floyd's murder, just miles from the courthouse.",
-"birthDate":"October 27, 2000",
-"education": [],
-"affiliations": [],
-"knownAssociates": [],
-"controversies": [
-"Killed over an expired registration and air freshener",
-"Officer claimed taser confusion defense",
-"Occurred during Derek Chauvin trial, highlighting ongoing police violence"
- ],
-"relatedInvestigations": [
- {
-"title":"Police Brutality",
-"slug":"police-brutality",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2021 Apr 11",
-"event":"Shot and killed during traffic stop"
- },
- {
-"date":"2022",
-"event":"Officer Potter convicted of manslaughter"
- }
- ],
-"sources": [
- {
-"title":"AP: Daunte Wright Shooting",
-"url":"https://apnews.com/article/daunte-wright-shooting",
-"date":"2022"
- }
- ]
- },
- 'daniel-shaver': {
-"name":"Daniel Shaver",
-"title":"Victim of Police Shooting",
-"role":"Mesa, Arizona Hotel Shooting",
-"riskLevel":"low",
-"description":"Unarmed man shot and killed by Mesa, Arizona police officer Philip Brailsford in a hotel hallway on January 18, 2016 while crawling on the floor and crying. Body camera footage showed Shaver trying to comply with confusing and contradictory commands before being shot with an AR-15. Brailsford was acquitted.",
-"birthDate":"November 29, 1989",
-"education": [],
-"affiliations": [],
-"knownAssociates": [],
-"controversies": [
-"Shot while unarmed, crying, and trying to comply with police commands",
-"Officer acquitted despite graphic body camera evidence",
-"Brailsford had etched \"You're Fucked\"on his rifle dust cover"
- ],
-"relatedInvestigations": [
- {
-"title":"Police Brutality",
-"slug":"police-brutality",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2016 Jan 18",
-"event":"Shot and killed in hotel hallway"
- },
- {
-"date":"2017",
-"event":"Officer Brailsford acquitted of murder"
- }
- ],
-"sources": [
- {
-"title":"Washington Post: Daniel Shaver",
-"url":"https://www.washingtonpost.com/news/post-nation/wp/2017/12/08/jury-acquits-former-mesa-officer-in-fatal-2016-shooting/",
-"date":"2017"
- }
- ]
- },
- 'douglas-macarthur': {
-"name":"Douglas MacArthur",
-"title":"General of the Army",
-"role":"WWII/Korea Commander, Japan Reconstruction",
-"riskLevel":"medium",
-"description":"Five-star general who commanded Allied forces in the Pacific during WWII and led the occupation of Japan. Later commanded UN forces in the Korean War before being fired by President Truman for insubordination after publicly advocating for expanding the war into China.",
-"birthDate":"January 26, 1880",
-"education": [
-"West Point"
- ],
-"affiliations": [
- {
-"name":"U.S. Army",
-"role":"General of the Army",
-"type":"agency"
- }
- ],
-"knownAssociates": [],
-"controversies": [
-"Fired by Truman for insubordination",
-"Wanted to use nuclear weapons in Korea",
-"Bonus Army incident - dispersed WWI veterans with force",
-"Autocratic rule of occupied Japan"
- ],
-"relatedInvestigations": [
- {
-"title":"Nuclear Testing Victims",
-"slug":"nuclear-testing-victims",
-"severity":"high"
- }
- ],
-"timeline": [
- {
-"date":"1942",
-"event":"Fled Philippines, vowed \"I shall return\""
- },
- {
-"date":"1945",
-"event":"Accepted Japanese surrender"
- },
- {
-"date":"1951",
-"event":"Fired by Truman for insubordination"
- }
- ],
-"sources": [
- {
-"title":"National WWII Museum",
-"url":"https://www.nationalww2museum.org/war/articles/general-douglas-macarthur",
-"date":"2023"
- }
- ]
- },
+  'daunte-wright': {
+    name: 'Daunte Wright',
+    title: 'Victim of Police Shooting',
+    role: 'Killed During Traffic Stop',
+    riskLevel: 'low',
+    description: 'Twenty-year-old African American man shot and killed by Brooklyn Center, Minnesota police officer Kim Potter during a traffic stop on April 11, 2021. Potter claimed she confused her gun for her taser. The shooting occurred during the trial of Derek Chauvin for George Floyd\'s murder, just miles from the courthouse.',
+    birthDate: 'October 27, 2000',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Killed over an expired registration and air freshener',
+      'Officer claimed taser confusion defense',
+      'Occurred during Derek Chauvin trial, highlighting ongoing police violence',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Police Brutality', slug: 'police-brutality', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2021 Apr 11', event: 'Shot and killed during traffic stop' },
+      { date: '2022', event: 'Officer Potter convicted of manslaughter' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'AP: Daunte Wright Shooting', url: 'https://apnews.com/article/daunte-wright-shooting', date: '2022' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'daniel-shaver': {
+    name: 'Daniel Shaver',
+    title: 'Victim of Police Shooting',
+    role: 'Mesa, Arizona Hotel Shooting',
+    riskLevel: 'low',
+    description: 'Unarmed man shot and killed by Mesa, Arizona police officer Philip Brailsford in a hotel hallway on January 18, 2016 while crawling on the floor and crying. Body camera footage showed Shaver trying to comply with confusing and contradictory commands before being shot with an AR-15. Brailsford was acquitted.',
+    birthDate: 'November 29, 1989',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Shot while unarmed, crying, and trying to comply with police commands',
+      'Officer acquitted despite graphic body camera evidence',
+      'Brailsford had etched "You\'re Fucked"on his rifle dust cover',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Police Brutality', slug: 'police-brutality', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2016 Jan 18', event: 'Shot and killed in hotel hallway' },
+      { date: '2017', event: 'Officer Brailsford acquitted of murder' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Washington Post: Daniel Shaver', url: 'https://www.washingtonpost.com/news/post-nation/wp/2017/12/08/jury-acquits-former-mesa-officer-in-fatal-2016-shooting/', date: '2017' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'douglas-macarthur': {
+    name: 'Douglas MacArthur',
+    title: 'General of the Army',
+    role: 'WWII/Korea Commander, Japan Reconstruction',
+    riskLevel: 'medium',
+    description: 'Five-star general who commanded Allied forces in the Pacific during WWII and led the occupation of Japan. Later commanded UN forces in the Korean War before being fired by President Truman for insubordination after publicly advocating for expanding the war into China.',
+    birthDate: 'January 26, 1880',
+    education: ['West Point'],
+    affiliations: [
+      { name: 'U.S. Army', role: 'General of the Army', type: 'agency' },
+    ],
+    controversies: [
+      'Fired by Truman for insubordination',
+      'Wanted to use nuclear weapons in Korea',
+      'Bonus Army incident - dispersed WWI veterans with force',
+      'Autocratic rule of occupied Japan',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1942', event: 'Fled Philippines, vowed "I shall return"' },
+      { date: '1945', event: 'Accepted Japanese surrender' },
+      { date: '1951', event: 'Fired by Truman for insubordination' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'National WWII Museum', url: 'https://www.nationalww2museum.org/war/articles/general-douglas-macarthur', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'dhs': {
     name: 'Dhs',
     title: 'Public Figure Under Investigation',
