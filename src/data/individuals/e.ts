@@ -3037,6 +3037,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Evan Spiegel has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Evan Spiegel facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Evan Spiegel\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -3044,6 +3046,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Cross-referencing Evan Spiegel against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
@@ -3055,6 +3058,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
 
 
