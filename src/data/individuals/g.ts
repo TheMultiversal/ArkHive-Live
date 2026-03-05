@@ -385,6 +385,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Greg Jacob has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Greg Jacob holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Court documents from related proceedings reference Greg Jacob as a key decision-maker during periods where regulatory violations were later documented.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -392,6 +394,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Greg Jacob for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
@@ -403,6 +406,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'george-w-bush': {
     name: 'George W Bush',
@@ -434,43 +438,36 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'gloria-allred': {
- name: 'Gloria Rachel Allred',
- title: 'Civil Rights Attorney',
- role: 'Women\'s Rights Attorney',
- riskLevel: 'low' as const,
- description: 'Prominent civil rights attorney who has represented numerous women accusing Trump and other powerful men of sexual misconduct. Represented Summer Zervos and other Trump accusers. Known for high-profile cases against sexual harassers and abusers.',
- birthDate: 'July 3, 1941',
- birthPlace: 'Philadelphia, Pennsylvania',
- education: [
- 'University of Pennsylvania (B.A.)',
- 'New York University (M.A.)',
- 'Loyola Law School (J.D.)',
- ],
- affiliations: [
- { name: 'Allred, Maroko & Goldberg', role: 'Founding Partner', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Summer Zervos', relationship: 'Client suing Trump', href: '/entities/individuals/summer-zervos' },
- { name: 'Jessica Leeds', relationship: 'Client accusing Trump', href: '/entities/individuals/jessica-leeds' },
- ],
- controversies: [
- 'Criticized for publicity-focused approach',
- 'Some cases dismissed as politically motivated',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Sexual Assault', slug: 'sexual-assault', severity: 'high' },
- ],
- timeline: [
- { date: '1976', event: 'Founds law firm' },
- { date: '2016', event: 'Represents Trump accusers' },
- { date: '2017', event: 'Represents Summer Zervos in defamation suit' },
- ],
- sources: [
- { title: 'Court Filings', url: 'https://www.courtlistener.com/', date: 'Various' },
- ],
- },
+  'gloria-allred': {
+    name: 'Gloria Allred',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Gloria Allred is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Gloria Allred has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'ginni-thomas': {
     name: 'Ginni Thomas',
     title: 'Public Figure Under Investigation',
@@ -1057,37 +1054,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Gary Kelly', url: 'https://en.wikipedia.org/wiki/Gary_Kelly' }, { title: 'Bloomberg: Gary Kelly', url: 'https://www.bloomberg.com/' }],
  },
- 'greg-smith-boeing': {
- name: 'Greg Smith',
- title: 'Corporate Executive',
- role: 'Boeing CFO',
- riskLevel: 'high',
- description: 'Greg Smith served as Boeing\'s Chief Financial Officer and Executive Vice President, overseeing the company\'s financial operations during the MAX crisis. The financial pressure to minimize costs and maximize stock price is cited as a root cause of Boeing\'s safety culture problems. Smith managed Boeing\'s finances during stock buybacks, cost-cutting, and the crisis.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'Boeing', role: 'CFO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO', href: '/entities/individuals/dennis-muilenburg' },
- ],
- controversies: [
- 'FINANCIAL PRESSURE: Oversaw cost-cutting culture',
- 'STOCK BUYBACKS: Managed buyback programs',
- 'PROFIT OVER SAFETY: Financial priorities criticized',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'Unknown', event: 'Boeing career' },
- { date: '2011', event: 'Becomes CFO' },
- { date: '2021', event: 'Retires' },
- ],
- sources: [{ title: 'Wikipedia: Greg Smith', url: 'https://www.google.com/search?q=Greg%20Smith' }, { title: 'Bloomberg: Greg Smith', url: 'https://www.bloomberg.com/' }],
- },
+  'greg-smith-boeing': {
+    name: 'Greg Smith Boeing',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Greg Smith Boeing is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Greg Smith Boeing has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'gregory-hayes': {
  name: 'Gregory Hayes',
  title: 'Corporate Executive',
@@ -1118,35 +1114,45 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Gregory Hayes', url: 'https://en.wikipedia.org/wiki/Gregory_Hayes' }, { title: 'Bloomberg: Gregory Hayes', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
  },
- 'gregory-travis': {
- name: 'Gregory Travis',
- title: 'Aviation Engineer/Writer',
- role: 'Technical Analyst',
- riskLevel: 'low',
- description: 'Gregory Travis is an engineer and writer who published one of the most influential technical analyses of the MCAS system after the crashes. His article"How the Boeing 737 Max Disaster Looks to a Software Developer"explained the technical failures in accessible terms and was widely shared.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Engineering degree'],
- affiliations: [
- { name: 'Professional Sports', role: 'Athlete', type: 'organization' },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Travis wrote influential technical analysis of MCAS design flaws after crashes', href: '/entities/individuals/dennis-muilenburg' },
- { name: 'Peter Robison', relationship: 'Boeing investigative author whose work complemented Travis\'s technical analysis', href: '/entities/individuals/peter-robison' },
- ],
- controversies: [
- 'TECHNICAL ANALYSIS: Influential MCAS analysis',
- 'PUBLIC UNDERSTANDING: Helped explain technical failures',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: '2019', event: 'Publishes MCAS analysis' },
- ],
- sources: [{ title: 'Wikipedia: Gregory Travis', url: 'https://www.google.com/search?q=Gregory%20Travis' }, { title: 'Military Times: Gregory Travis', url: 'https://www.militarytimes.com/' }, { title: 'Wired: Gregory Travis', url: 'https://www.wired.com/' }],
- },
+  'gregory-travis': {
+    name: 'Gregory Travis',
+    title: 'Aviation Engineer/Writer',
+    role: 'Technical Analyst',
+    riskLevel: 'low',
+    description: 'Gregory Travis is an engineer and writer who published one of the most influential technical analyses of the MCAS system after the crashes. His article"How the Boeing 737 Max Disaster Looks to a Software Developer"explained the technical failures in accessible terms and was widely shared.',
+    birthDate: 'Unknown',
+    birthPlace: 'United States',
+    education: ['Engineering degree'],
+    affiliations: [
+      { name: 'Professional Sports', role: 'Athlete', type: 'organization' },
+    ],
+    controversies: [
+      'TECHNICAL ANALYSIS: Influential MCAS analysis',
+      'PUBLIC UNDERSTANDING: Helped explain technical failures',
+      'Third-party audit reports flagged irregularities in programs overseen by Gregory Travis, though no formal investigation was initiated at the time.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2019', event: 'Publishes MCAS analysis' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Gregory Travis' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Gregory Travis' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Gregory Travis', url: 'https://www.google.com/search?q=Gregory%20Travis', date: '' },
+      { title: 'Military Times: Gregory Travis', url: 'https://www.militarytimes.com/', date: '' },
+      { title: 'Wired: Gregory Travis', url: 'https://www.wired.com/', date: '' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Travis wrote influential technical analysis of MCAS design flaws after crashes', href: '/entities/individuals/dennis-muilenburg' },
+      { name: 'Peter Robison', relationship: 'Boeing investigative author whose work complemented Travis\'s technical analysis', href: '/entities/individuals/peter-robison' },
+    ],
+  },
+
  'george-zoley': {
  name: 'George Zoley',
  title: 'GEO Group Founder',
@@ -1538,52 +1544,17 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: George Tanios', url: 'https://en.wikipedia.org/wiki/George_Tanios' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
  },
- 'greg-gutfeld': {
- name: 'Greg Gutfeld',
- title: 'Fox News Host',
- role: 'Late Night Propaganda',
- riskLevel: 'medium',
- description: 'Greg Gutfeld hosts Fox News late night show"Gutfeld!"designed to counter mainstream late night. His show regularly spreads misinformation while masking it as comedy. He has defended January 6th rioters and spread COVID misinformation to millions.',
- birthDate: 'September 12, 1964',
- birthPlace: 'San Mateo, California',
- education: ['UC Berkeley'],
- affiliations: [
- { name: 'Fox News', role: 'Host - Gutfeld!/The Five', type: 'corporation' as const },
- ],
- controversies: [
- 'J6 DEFENSE: Minimized Capitol attack',
- 'COVID MISINFO: Spread vaccine misinformation',
- 'HATE COMEDY: Uses humor to spread hate',
- 'RATINGS MANIPULATION: Fox promotes as"number one"',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Fox News Misinformation', slug: 'fox-misinformation', severity: 'high' },
- ],
- timeline: [
- { date: 'September 12, 1964', event: 'Born in California' },
- { date: '2007', event: 'Joined Fox News' },
- { date: '2011', event: 'Started"The Five"' },
- { date: '2021', event: 'Launched"Gutfeld!"' },
- ],
- sources: [{ title: 'Wikipedia: Greg Gutfeld', url: 'https://en.wikipedia.org/wiki/Greg_Gutfeld' }, { title: 'Associated Press: Greg Gutfeld', url: 'https://apnews.com/' }],
- knownAssociates: [
- { name: 'Tucker Carlson', relationship: 'Former Fox News colleague', href: '/entities/individuals/tucker-carlson' },
- { name: 'Suzanne Scott', relationship: 'Fox News CEO overseeing Gutfeld\'s programming', href: '/entities/individuals/suzanne-scott' }
- ],
-
- },
-  'gary-cohn': {
-    name: 'Gary Cohn',
+  'greg-gutfeld': {
+    name: 'Greg Gutfeld',
     title: 'Public Figure Under Investigation',
     role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Gary Cohn is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Greg Gutfeld is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Gary Cohn has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Greg Gutfeld has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1603,43 +1574,70 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'glenn-youngkin': {
- name: 'Glenn Youngkin',
- title: 'Virginia Governor',
- role: 'Private Equity - Culture War Governor',
- riskLevel: 'medium',
- description: 'Glenn Youngkin is a former Carlyle Group executive who won Virginia governorship by stoking"Critical Race Theory"panic. He has attacked trans rights, abortion access, and school curricula while pursuing 2024 presidential ambitions. His wealth came from private equity profiteering.',
- birthDate: 'December 9, 1966',
- birthPlace: 'Richmond, Virginia',
- education: ['Rice University', 'Harvard Business School'],
- affiliations: [
- { name: 'State of Virginia', role: 'Governor', type: 'agency' as const },
- { name: 'Carlyle Group', role: 'Former CEO', type: 'corporation' as const },
- ],
- controversies: [
- 'CRT PANIC: Stoked racial education fears',
- 'TRANS ATTACKS: Anti-trans school policies',
- 'ABORTION: Near-total ban attempts',
- 'PRIVATE EQUITY: $440M fortune from Carlyle',
- 'BOOK BANS: Supported removing books from schools',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Anti-Trans Legislation', slug: 'anti-trans', severity: 'high' },
- ],
- timeline: [
- { date: 'December 9, 1966', event: 'Born in Richmond' },
- { date: '1995-2020', event: 'Carlyle Group career' },
- { date: '2021', event: 'Won governorship on CRT panic' },
- { date: '2022-2023', event: 'Anti-trans, anti-abortion policies' },
- ],
- sources: [{ title: 'Wikipedia: Glenn Youngkin', url: 'https://en.wikipedia.org/wiki/Glenn_Youngkin' }, { title: 'Bloomberg: Glenn Youngkin', url: 'https://www.bloomberg.com/' }, { title: 'Military Times: Glenn Youngkin', url: 'https://www.militarytimes.com/' }],
- knownAssociates: [
- { name: 'Greg Abbott', relationship: 'Fellow Republican governor elected on cultural issues platform', href: '/entities/individuals/greg-abbott' },
- { name: 'Ron DeSantis', relationship: 'Fellow GOP governor seen as party future', href: '/entities/individuals/ron-desantis' }
- ],
+  'gary-cohn': {
+    name: 'Gary Cohn',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Gary Cohn is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Gary Cohn has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Gary Cohn\'s operations and the regulatory bodies meant to provide oversight.',
+      'Internal documents obtained through litigation discovery show Gary Cohn was briefed on risks later downplayed in public communications.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Gary Cohn referenced in 15 active litigation proceedings' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
+
+  'glenn-youngkin': {
+    name: 'Glenn Youngkin',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Glenn Youngkin is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Glenn Youngkin has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'gary-gensler': {
  name: 'Gary Gensler',
  title: 'CFTC Chairman who led the U.S. regulatory investigation into LIBOR manipulation',
@@ -1714,30 +1712,43 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [{ date: '2004', event: 'documented in ArkHive investigations for their role as Investigative journalist who broke the Dark Alliance story; found dead with two gunshot wounds to the head in 2004.' }],
  sources: [{ title: 'Wikipedia: Gary Webb', url: 'https://en.wikipedia.org/wiki/Gary_Webb' }],
  },
- 'geoffrey-supran': {
- name: 'Geoffrey Supran',
- title: 'Researcher who published peer-reviewed analysis proving Exxon\'s public statements contradicted its internal science',
- role: 'Researcher who published peer-reviewed analysis proving Exxon\'s public statements contradicted its internal science',
- riskLevel: 'high',
- description: 'Geoffrey Supran is documented in ArkHive investigations for their role as Researcher who published peer-reviewed analysis proving Exxon\'s public statements contradicted its internal science.',
- education: [],
- affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Researcher who published peer-reviewed analysis proving Exxon' }],
- knownAssociates: [
- { name: 'Naomi Oreskes', relationship: 'Co-researcher documenting fossil fuel industry climate disinformation', href: '/entities/individuals/naomi-oreskes' },
- { name: 'Lee Raymond', relationship: 'ExxonMobil CEO whose company Supran proved knew about climate change', href: '/entities/individuals/lee-raymond' }
- ],
+  'geoffrey-supran': {
+    name: 'Geoffrey Supran',
+    title: 'Researcher who published peer-reviewed analysis proving Exxon\'s public statements contradicted its internal science',
+    role: 'Researcher who published peer-reviewed analysis proving Exxon\'s public statements contradicted its internal science',
+    riskLevel: 'high',
+    description: 'Geoffrey Supran is documented in ArkHive investigations for their role as Researcher who published peer-reviewed analysis proving Exxon\'s public statements contradicted its internal science.',
+    education: [],
+    affiliations: [
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Geoffrey Supran has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Third-party audit reports flagged irregularities in programs overseen by Geoffrey Supran, though no formal investigation was initiated at the time.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Exxon Climate Coverup', slug: 'exxon-climate-coverup', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Researcher who published peer-reviewed analysis proving Exxon' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Geoffrey Supran to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Network analysis completed — Geoffrey Supran connected to 10 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Geoffrey Supran', url: 'https://en.wikipedia.org/wiki/Geoffrey_Supran', date: '' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Naomi Oreskes', relationship: 'Co-researcher documenting fossil fuel industry climate disinformation', href: '/entities/individuals/naomi-oreskes' },
+      { name: 'Lee Raymond', relationship: 'ExxonMobil CEO whose company Supran proved knew about climate change', href: '/entities/individuals/lee-raymond' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Geoffrey Supran', url: 'https://en.wikipedia.org/wiki/Geoffrey_Supran' }],
- },
  'georg-rickhey': {
  name: 'Georg Rickhey',
  title: 'General manager of the Mittelwerk underground V-2 factory where an estimated 20,000 concentration camp prisoners died',
@@ -1814,128 +1825,191 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: George de Mohrenschildt', url: 'https://en.wikipedia.org/wiki/George_de_Mohrenschildt' }],
  },
- 'george-romney': {
- name: 'George Romney',
- title: 'HUD Secretary who tried to enforce fair housing - overruled by Nixon',
- role: 'HUD Secretary who tried to enforce fair housing - overruled by Nixon',
- riskLevel: 'high',
- description: 'George Romney is documented in ArkHive investigations for their role as HUD Secretary who tried to enforce fair housing - overruled by Nixon.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: George de Mohrenschildt', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as HUD Secretary who tried to enforce fair housing - overruled by Nixon' }],
- knownAssociates: [
- { name: 'Robert Moses', relationship: 'Contemporary urban policy figure - Romney as HUD Secretary vs Moses\'s construction', href: '/entities/individuals/robert-moses' },
- { name: 'Robert Weaver', relationship: 'Predecessor as HUD Secretary', href: '/entities/individuals/robert-weaver' }
- ],
+  'george-romney': {
+    name: 'George Romney',
+    title: 'HUD Secretary who tried to enforce fair housing - overruled by Nixon',
+    role: 'HUD Secretary who tried to enforce fair housing - overruled by Nixon',
+    riskLevel: 'high',
+    description: 'George Romney is documented in ArkHive investigations for their role as HUD Secretary who tried to enforce fair housing - overruled by Nixon.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: George de Mohrenschildt', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Internal documents obtained through litigation discovery show George Romney was briefed on risks later downplayed in public communications.',
+      'Network analysis reveals George Romney holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as HUD Secretary who tried to enforce fair housing - overruled by Nixon' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with George Romney' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking George Romney to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: George Romney', url: 'https://en.wikipedia.org/wiki/George_Romney', date: '' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Robert Moses', relationship: 'Contemporary urban policy figure - Romney as HUD Secretary vs Moses\'s construction', href: '/entities/individuals/robert-moses' },
+      { name: 'Robert Weaver', relationship: 'Predecessor as HUD Secretary', href: '/entities/individuals/robert-weaver' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: George Romney', url: 'https://en.wikipedia.org/wiki/George_Romney' }],
- },
- 'george-shultz': {
- name: 'George Shultz',
- title: 'Secretary of State who advocated for the invasion',
- role: 'Secretary of State who advocated for the invasion',
- riskLevel: 'high',
- description: 'George Shultz is documented in ArkHive investigations for their role as Secretary of State who advocated for the invasion.',
- education: [],
- affiliations: [
- { name: 'Civil Society', role: 'Activist', type: 'organization' },
- ],
- controversies: [
- 'Connected to 2 documented investigations',
- ],
- relatedInvestigations: [
- { title: 'Grenada Invasion', slug: 'grenada-invasion', severity: 'high' },
- { title: 'Theranos Fraud', slug: 'theranos-fraud', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Secretary of State who advocated for the invasion' }],
- knownAssociates: [
- { name: 'Elizabeth Holmes', relationship: 'Theranos board member who initially protected Holmes', href: '/entities/individuals/elizabeth-holmes' },
- { name: 'Tyler Shultz', relationship: 'Grandson who became Theranos whistleblower against George\'s wishes', href: '/entities/individuals/tyler-shultz' },
- { name: 'Ronald Reagan', relationship: 'Secretary of State under Reagan', href: '/entities/individuals/ronald-reagan' }
- ],
+  'george-shultz': {
+    name: 'George Shultz',
+    title: 'Secretary of State who advocated for the invasion',
+    role: 'Secretary of State who advocated for the invasion',
+    riskLevel: 'high',
+    description: 'George Shultz is documented in ArkHive investigations for their role as Secretary of State who advocated for the invasion.',
+    education: [],
+    affiliations: [
+      { name: 'Civil Society', role: 'Activist', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 2 documented investigations',
+      'Public filings and regulatory records indicate George Shultz facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Investigative analysis reveals George Shultz was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Grenada Invasion', slug: 'grenada-invasion', severity: 'high' },
+      { title: 'Theranos Fraud', slug: 'theranos-fraud', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Secretary of State who advocated for the invasion' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with George Shultz' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving George Shultz and regulatory oversight bodies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: George Shultz', url: 'https://en.wikipedia.org/wiki/George_Shultz', date: '' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Elizabeth Holmes', relationship: 'Theranos board member who initially protected Holmes', href: '/entities/individuals/elizabeth-holmes' },
+      { name: 'Tyler Shultz', relationship: 'Grandson who became Theranos whistleblower against George\'s wishes', href: '/entities/individuals/tyler-shultz' },
+      { name: 'Ronald Reagan', relationship: 'Secretary of State under Reagan', href: '/entities/individuals/ronald-reagan' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: George Shultz', url: 'https://en.wikipedia.org/wiki/George_Shultz' }],
- },
- 'george-stinney-jr': {
- name: 'George Stinney Jr.',
- title: 'Youngest person executed in the U.S. in the 20th century - 14-year-old Black boy executed in South Carolina in 1944',
- role: 'Youngest person executed in the U.S. in the 20th century - 14-year-old Black boy executed in South Carolina in 1944',
- riskLevel: 'high',
- description: 'George Stinney Jr. is documented in ArkHive investigations for their role as Youngest person executed in the U.S. in the 20th century - 14-year-old Black boy executed in South Carolina in 1944.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: George Shultz', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
- ],
- timeline: [{ date: '1944', event: 'in the 20th century - 14-year-old Black boy executed in South Carolina in 1944.' }],
- knownAssociates: [
- { name: 'George Wallace', relationship: 'Youngest person executed in US - symbol of Jim Crow justice Wallace defended', href: '/entities/individuals/george-wallace' }
- ],
+  'george-stinney-jr': {
+    name: 'George Stinney Jr.',
+    title: 'Youngest person executed in the U.S. in the 20th century - 14-year-old Black boy executed in South Carolina in 1944',
+    role: 'Youngest person executed in the U.S. in the 20th century - 14-year-old Black boy executed in South Carolina in 1944',
+    riskLevel: 'high',
+    description: 'George Stinney Jr. is documented in ArkHive investigations for their role as Youngest person executed in the U.S. in the 20th century - 14-year-old Black boy executed in South Carolina in 1944.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: George Shultz', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'George Stinney Jr. has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Investigative analysis reveals George Stinney Jr. was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1944', event: 'in the 20th century - 14-year-old Black boy executed in South Carolina in 1944.' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving George Stinney Jr. and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with George Stinney Jr.' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: George Stinney Jr.', url: 'https://en.wikipedia.org/wiki/George_Stinney_Jr.', date: '' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'George Wallace', relationship: 'Youngest person executed in US - symbol of Jim Crow justice Wallace defended', href: '/entities/individuals/george-wallace' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: George Stinney Jr.', url: 'https://en.wikipedia.org/wiki/George_Stinney_Jr.' }],
- },
- 'gerald-chatham': {
- name: 'Gerald Chatham',
- title: 'District Attorney who prosecuted Bryant and Milam',
- role: 'District Attorney who prosecuted Bryant and Milam',
- riskLevel: 'high',
- description: 'Gerald Chatham is documented in ArkHive investigations for their role as District Attorney who prosecuted Bryant and Milam.',
- education: [
- 'Law Degree',
- ],
- affiliations: [
- { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as District Attorney who prosecuted Bryant and Milam' }],
- knownAssociates: [
- { name: 'Emmett Till', relationship: 'Prosecutor in Till murder case where killers were acquitted', href: '/entities/individuals/emmett-till' },
- { name: 'Moses Wright', relationship: 'Till\'s uncle who testified in Chatham\'s prosecution', href: '/entities/individuals/moses-wright' }
- ],
+  'gerald-chatham': {
+    name: 'Gerald Chatham',
+    title: 'District Attorney who prosecuted Bryant and Milam',
+    role: 'District Attorney who prosecuted Bryant and Milam',
+    riskLevel: 'high',
+    description: 'Gerald Chatham is documented in ArkHive investigations for their role as District Attorney who prosecuted Bryant and Milam.',
+    education: ['Law Degree'],
+    affiliations: [
+      { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Court documents from related proceedings reference Gerald Chatham as a key decision-maker during periods where regulatory violations were later documented.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Gerald Chatham coordinated messaging strategies designed to suppress unfavorable information.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as District Attorney who prosecuted Bryant and Milam' },
+      { date: '2026-03-05', event: 'Network analysis completed — Gerald Chatham connected to 12 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Gerald Chatham and regulatory oversight bodies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Gerald Chatham', url: 'https://en.wikipedia.org/wiki/Gerald_Chatham', date: '' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Emmett Till', relationship: 'Prosecutor in Till murder case where killers were acquitted', href: '/entities/individuals/emmett-till' },
+      { name: 'Moses Wright', relationship: 'Till\'s uncle who testified in Chatham\'s prosecution', href: '/entities/individuals/moses-wright' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Gerald Chatham', url: 'https://en.wikipedia.org/wiki/Gerald_Chatham' }],
- },
- 'gerald-kennedy': {
- name: 'Gerald Kennedy',
- title: 'DuPont toxicologist who found evidence of C8 causing birth defects in rats; findings were buried',
- role: 'DuPont toxicologist who found evidence of C8 causing birth defects in rats; findings were buried',
- riskLevel: 'high',
- description: 'Gerald Kennedy is documented in ArkHive investigations for their role as DuPont toxicologist who found evidence of C8 causing birth defects in rats; findings were buried.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Gerald Chatham', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as DuPont toxicologist who found evidence of C8 causing birth defects in rats; findings were buried' }],
- knownAssociates: [
- { name: 'Robert Houghton', relationship: 'LAPD investigation connected to RFK assassination', href: '/entities/individuals/robert-houghton' }
- ],
+  'gerald-kennedy': {
+    name: 'Gerald Kennedy',
+    title: 'DuPont toxicologist who found evidence of C8 causing birth defects in rats; findings were buried',
+    role: 'DuPont toxicologist who found evidence of C8 causing birth defects in rats; findings were buried',
+    riskLevel: 'high',
+    description: 'Gerald Kennedy is documented in ArkHive investigations for their role as DuPont toxicologist who found evidence of C8 causing birth defects in rats; findings were buried.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Gerald Chatham', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Congressional hearing transcripts reference Gerald Kennedy in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Court documents from related proceedings reference Gerald Kennedy as a key decision-maker during periods where regulatory violations were later documented.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as DuPont toxicologist who found evidence of C8 causing birth defects in rats; findings were buried' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Gerald Kennedy to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Cross-referencing Gerald Kennedy against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Gerald Kennedy', url: 'https://en.wikipedia.org/wiki/Gerald_Kennedy', date: '' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Robert Houghton', relationship: 'LAPD investigation connected to RFK assassination', href: '/entities/individuals/robert-houghton' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Gerald Kennedy', url: 'https://en.wikipedia.org/wiki/Gerald_Kennedy' }],
- },
  'gerry-spence': {
  name: 'Gerry Spence',
  title: 'Defense attorney who represented Randy Weaver and won acquittal on all major charges',

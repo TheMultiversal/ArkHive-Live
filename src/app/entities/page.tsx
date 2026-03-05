@@ -26,7 +26,7 @@ const entityCategories = [
  subtitle:"Profit Over People",
  description:"Big Pharma, Big Tech, defense contractors. Companies that put shareholder value above human life.",
  icon: Building2,
- count: 205,
+ count: 206,
  },
  {
  type:"individuals",

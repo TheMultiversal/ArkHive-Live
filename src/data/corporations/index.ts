@@ -2052,6 +2052,17 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'amazon-inc': {
+    id: '2d81582551a0f51b',
+    slug: 'amazon-inc',
+    name: 'Amazon Inc',
+    type: 'corporation',
+    description: 'Amazon Inc is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 

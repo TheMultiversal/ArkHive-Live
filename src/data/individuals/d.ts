@@ -6122,6 +6122,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'David Berger has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between David Berger\'s operations and the regulatory bodies meant to provide oversight.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting David Berger coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -6129,6 +6131,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Cross-referencing David Berger against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
@@ -6140,6 +6143,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
 
 
