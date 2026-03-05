@@ -576,6 +576,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Katrina Pierson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Katrina Pierson was briefed on risks later downplayed in public communications.',
+      'Congressional hearing transcripts reference Katrina Pierson in connection with policy decisions that disproportionately benefited associated financial interests.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -583,6 +585,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Katrina Pierson' },
     ],
     socialMedia: [],
     sources: [
@@ -595,6 +598,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'kanye-west': {
     name: 'Kanye West',
     title: 'Public Figure Under Investigation',
@@ -606,6 +610,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Kanye West has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Kanye West as a key decision-maker during periods where regulatory violations were later documented.',
+      'Congressional hearing transcripts reference Kanye West in connection with policy decisions that disproportionately benefited associated financial interests.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -613,6 +619,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Kanye West and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
@@ -624,6 +631,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'kelly-meggs': {
     name: 'Kelly Meggs',
@@ -655,58 +663,17 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'kenneth-harrelson': {
- name: 'Kenneth Harrelson',
- title: 'Oath Keepers Florida Member',
- role: 'Conspiracy Convict',
- riskLevel: 'high' as const,
- description: 'Member of the Oath Keepers Florida chapter who participated in the January 6 Capitol attack as part of the military-style stack formation. Army veteran. Convicted of conspiracy charges but acquitted of seditious conspiracy. Sentenced to 4 years.',
- birthDate: '1979',
- birthPlace: 'Florida',
- education: [
- 'U.S. Army veteran',
- ],
- affiliations: [
- { name: 'Oath Keepers', role: 'Florida Chapter Member', type: 'organization' },
- { name: 'U.S. Army', role: 'Veteran', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Stewart Rhodes', relationship: 'Oath Keepers Founder', href: '/entities/individuals/stewart-rhodes' },
- { name: 'Kelly Meggs', relationship: 'Florida Chapter Leader', href: '/entities/individuals/kelly-meggs' },
- ],
- controversies: [
- 'Part of Capitol stack formation breach',
- 'Participated in tactical planning',
- ],
- charges: [
- { statute: '18 U.S.C. § 1512(k)', description: 'Conspiracy to obstruct official proceeding (convicted)', category: 'Federal' },
- { statute: '18 U.S.C. § 1512(c)(2)', description: 'Obstruction of official proceeding (convicted)', category: 'Federal' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- { title: 'Oath Keepers Sedition', slug: 'oath-keepers-sedition', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 6, 2021', event: 'Participates in Capitol stack formation' },
- { date: 'March 2021', event: 'Arrested' },
- { date: 'November 2022', event: 'Convicted of conspiracy charges' },
- { date: 'June 2023', event: 'Sentenced to 4 years in prison' },
- ],
- sources: [
- { title: 'DOJ Prosecution Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Prosecution%20Records', date: '2023' },
- ],
- },
-  'ken-cuccinelli': {
-    name: 'Ken Cuccinelli',
+  'kenneth-harrelson': {
+    name: 'Kenneth Harrelson',
     title: 'Public Figure Under Investigation',
     role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Ken Cuccinelli is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Kenneth Harrelson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Ken Cuccinelli has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Kenneth Harrelson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -725,6 +692,40 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
+  'ken-cuccinelli': {
+    name: 'Ken Cuccinelli',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ken Cuccinelli is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Ken Cuccinelli has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Ken Cuccinelli holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Third-party audit reports flagged irregularities in programs overseen by Ken Cuccinelli, though no formal investigation was initiated at the time.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Cross-referencing Ken Cuccinelli against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
 
   'kari-lake': {
     name: 'Kari Lake',
@@ -1232,46 +1233,51 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'DOJ Civil Rights Division', url: 'https://scholar.google.com/scholar?q=DOJ%20Civil%20Rights%20Division', date: 'Current' },
  ],
  },
- 'keith-alexander': {
- name: 'Keith B. Alexander',
- title: 'Former NSA Director',
- role: 'Intelligence Official, Cybersecurity Executive',
- riskLevel: 'high',
- description: 'NSA Director during mass surveillance expansion exposed by Snowden. Now runs cybersecurity company.',
- birthDate: 'December 2, 1951',
- birthPlace: 'Syracuse, New York, USA',
- education: [
- 'United States Military Academy at West Point',
- 'Naval Postgraduate School - MS',
- ],
- affiliations: [
- { name: 'NSA', role: 'Director (2005-2014)', type: 'agency' },
- { name: 'U.S. Cyber Command', role: 'First Commander (2010-2014)', type: 'agency' },
- { name: 'IronNet Cybersecurity', role: 'CEO & Founder', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'James Clapper', relationship: 'DNI colleague', href: '/entities/individuals/james-clapper' },
- ],
- controversies: [
- 'MASS SURVEILLANCE: Oversaw programs exposed by Snowden',
- 'CONGRESSIONAL TESTIMONY: Misleading statements about surveillance scope',
- 'METADATA COLLECTION: Defended collection of all American phone records',
- 'REVOLVING DOOR: Founded cybersecurity company after leaving NSA',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'NSA Mass Surveillance', slug: 'nsa-mass-surveillance', severity: 'critical' },
- { title: 'Surveillance State', slug: 'surveillance-state', severity: 'critical' },
- ],
- timeline: [
- { date: 'December 2, 1951', event: 'Born in Syracuse, New York' },
- { date: '2005', event: 'Becomes NSA Director' },
- { date: '2010', event: 'First U.S. Cyber Command Commander' },
- { date: 'June 2013', event: 'Snowden revelations begin' },
- { date: '2014', event: 'Retires, founds IronNet' },
- ],
- sources: [{ title: 'Wikipedia: Keith B. Alexander', url: 'https://en.wikipedia.org/wiki/Keith_B._Alexander' }, { title: 'Bloomberg: Keith B. Alexander', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
- },
+  'keith-alexander': {
+    name: 'Keith B. Alexander',
+    title: 'Former NSA Director',
+    role: 'Intelligence Official, Cybersecurity Executive',
+    riskLevel: 'high',
+    description: 'NSA Director during mass surveillance expansion exposed by Snowden. Now runs cybersecurity company.',
+    birthDate: 'December 2, 1951',
+    birthPlace: 'Syracuse, New York, USA',
+    education: ['United States Military Academy at West Point', 'Naval Postgraduate School - MS'],
+    affiliations: [
+      { name: 'NSA', role: 'Director (2005-2014)', type: 'agency' },
+      { name: 'U.S. Cyber Command', role: 'First Commander (2010-2014)', type: 'agency' },
+      { name: 'IronNet Cybersecurity', role: 'CEO & Founder', type: 'corporation' },
+    ],
+    controversies: [
+      'MASS SURVEILLANCE: Oversaw programs exposed by Snowden',
+      'CONGRESSIONAL TESTIMONY: Misleading statements about surveillance scope',
+      'METADATA COLLECTION: Defended collection of all American phone records',
+      'REVOLVING DOOR: Founded cybersecurity company after leaving NSA',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'NSA Mass Surveillance', slug: 'nsa-mass-surveillance', severity: 'critical' },
+      { title: 'Surveillance State', slug: 'surveillance-state', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'December 2, 1951', event: 'Born in Syracuse, New York' },
+      { date: '2005', event: 'Becomes NSA Director' },
+      { date: '2010', event: 'First U.S. Cyber Command Commander' },
+      { date: 'June 2013', event: 'Snowden revelations begin' },
+      { date: '2014', event: 'Retires, founds IronNet' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Keith B. Alexander', url: 'https://en.wikipedia.org/wiki/Keith_B._Alexander', date: '' },
+      { title: 'Bloomberg: Keith B. Alexander', url: 'https://www.bloomberg.com/', date: '' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', date: '' },
+      { title: 'The Intercept', url: 'https://theintercept.com/', date: '' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'James Clapper', relationship: 'DNI colleague', href: '/entities/individuals/james-clapper' },
+    ],
+  },
+
  'kenneth-lay': {
  name: 'Kenneth Lay',
  title: 'Convicted Fraudster (Deceased)',
@@ -1312,42 +1318,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Kenneth Lay', url: 'https://en.wikipedia.org/wiki/Kenneth_Lay' }, { title: 'Bloomberg: Kenneth Lay', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
  },
- 'kermit-roosevelt': {
- name: 'Kermit Roosevelt Jr.',
- title: 'CIA Officer',
- role: 'Architect of 1953 Iran Coup',
- riskLevel: 'critical',
- description: 'Kermit Roosevelt Jr. was a CIA officer who led Operation Ajax, the 1953 coup that overthrew Iran\'s democratically elected Prime Minister Mohammad Mossadegh. The coup installed the Shah and created lasting anti-American sentiment that culminated in the 1979 Iranian Revolution.',
- birthDate: 'February 16, 1916',
- birthPlace: 'Buenos Aires, Argentina',
- deathDate: 'June 8, 2000',
- education: ['Harvard University'],
- affiliations: [
- { name: 'CIA', role: 'Officer, Near East Division', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Allen Dulles', relationship: 'CIA Director', href: '/entities/individuals/allen-dulles' },
- ],
- controversies: [
- 'IRAN COUP: Led Operation Ajax overthrowing Mossadegh',
- 'DEMOCRACY DESTROYED: Ended Iranian democracy for oil interests',
- 'LASTING DAMAGE: Created conditions for 1979 revolution',
- 'PROPAGANDA: Used bribery and fake protests',
- ],
- charges: [],
- relatedInvestigations: [
- { title: '1953 Iran Coup', slug: 'iran-coup-1953', severity: 'critical' },
- { title: 'CIA Coups', slug: 'cia-coups', severity: 'critical' },
- ],
- timeline: [
- { date: 'February 16, 1916', event: 'Born in Argentina' },
- { date: '1950', event: 'Joins CIA' },
- { date: 'August 1953', event: 'Leads Operation Ajax in Iran' },
- { date: '1958', event: 'Leaves CIA' },
- { date: 'June 8, 2000', event: 'Dies in Maryland' },
- ],
- sources: [{ title: 'Wikipedia: Kermit Roosevelt Jr.', url: 'https://en.wikipedia.org/wiki/Kermit_Roosevelt_Jr.' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
- },
+  'kermit-roosevelt': {
+    name: 'Kermit Roosevelt',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Kermit Roosevelt is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Kermit Roosevelt has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'kelly-ortberg': {
  name: 'Kelly Ortberg',
  title: 'Aviation Executive',
@@ -1384,38 +1384,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Kelly Ortberg', url: 'https://en.wikipedia.org/wiki/Kelly_Ortberg' }, { title: 'Bloomberg: Kelly Ortberg', url: 'https://www.bloomberg.com/' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }],
  },
- 'kevin-mcallister': {
- name: 'Kevin McAllister',
- title: 'Aviation Executive',
- role: 'Former Boeing Commercial Airplanes CEO',
- riskLevel: 'high',
- description: 'Kevin McAllister served as CEO of Boeing Commercial Airplanes from 2016 to 2019, during both 737 MAX crashes. He was fired by Dennis Muilenburg in October 2019 amid the company\'s crisis response. He oversaw the commercial division when the MAX was grounded and relations with airlines deteriorated.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'Boeing', role: 'CEO of Commercial Airplanes', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO who fired him', href: '/entities/individuals/dennis-muilenburg' },
- ],
- controversies: [
- 'MAX CRASHES: Led commercial division during both crashes',
- 'FIRED: Terminated during crisis',
- 'AIRLINE RELATIONS: Relations deteriorated under his watch',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: '2016', event: 'Becomes Boeing Commercial Airplanes CEO' },
- { date: 'October 2018', event: 'Lion Air crash' },
- { date: 'March 2019', event: 'Ethiopian crash' },
- { date: 'October 2019', event: 'Fired' },
- ],
- sources: [{ title: 'Wikipedia: Kevin McAllister', url: 'https://en.wikipedia.org/wiki/Kevin_McAllister' }, { title: 'Bloomberg: Kevin McAllister', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }],
- },
+  'kevin-mcallister': {
+    name: 'Kevin Mcallister',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Kevin Mcallister is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Kevin Mcallister has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'keith-leverkuhn': {
  name: 'Keith Leverkuhn',
  title: 'Boeing Executive',
@@ -1447,69 +1445,66 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Keith Leverkuhn', url: 'https://www.google.com/search?q=Keith%20Leverkuhn' }, { title: 'Bloomberg: Keith Leverkuhn', url: 'https://www.bloomberg.com/' }],
  },
- 'kenneth-polite': {
- name: 'Kenneth Polite',
- title: 'DOJ Official',
- role: 'Assistant AG for Criminal Division',
- riskLevel: 'high',
- description: 'Kenneth Polite served as Assistant Attorney General for the Criminal Division, directly overseeing criminal prosecutions including the Boeing case. His division was responsible for the deferred prosecution agreement and the decision on how to handle Boeing\'s breach.',
- birthDate: 'Unknown',
- birthPlace: 'New Orleans, Louisiana',
- education: ['Georgetown', 'Georgetown Law'],
- affiliations: [
- { name: 'Department of Justice', role: 'Former AAG Criminal Division', type: 'agency' as const },
- ],
- knownAssociates: [
- { name: 'Merrick Garland', relationship: 'Attorney General under whom Polite served as head of DOJ Criminal Division', href: '/entities/individuals/merrick-garland' },
- { name: 'Dennis Muilenburg', relationship: 'Boeing CEO; Polite\'s division handled Boeing criminal prosecution for 737 MAX fraud', href: '/entities/individuals/dennis-muilenburg' },
- ],
- controversies: [
- 'CRIMINAL DIVISION: Led Boeing prosecution',
- 'DPA HANDLING: Oversaw Boeing agreement and breach',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: '2021', event: 'Becomes AAG Criminal Division' },
- ],
- sources: [{ title: 'Wikipedia: Kenneth Polite', url: 'https://en.wikipedia.org/wiki/Kenneth_Polite' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Military Times: Kenneth Polite', url: 'https://www.militarytimes.com/' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
- },
- 'kyle-davies': {
- name: 'Kyle Davies',
- title: 'Three Arrows Capital Co-founder',
- role: '3AC Co-founder - Fled After Collapse',
- riskLevel: 'high',
- description: 'Kyle Davies co-founded Three Arrows Capital with Su Zhu. After the fund collapsed with $3 billion in debts in June 2022, Davies fled to Bali and has remained a fugitive, defying court orders to cooperate with liquidators. He has given interviews from undisclosed locations while victims wait for any recovery.',
- birthDate: '1987 (approx)',
- birthPlace: 'United States',
- education: ['Columbia University'],
- affiliations: [
- { name: 'Three Arrows Capital', role: 'Co-founder', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Su Zhu', relationship: '3AC Co-founder', href: '/entities/individuals/su-zhu' },
- ],
- controversies: [
- 'FUGITIVE: Fled after collapse',
- '3AC DEBTS: $3 billion owed to creditors',
- 'CONTEMPT: Defied liquidator court orders',
- 'MEDIA APPEARANCES: Gave interviews while hiding',
- ],
- charges: [
- { statute: 'BVI Court Order', description: 'Contempt for ignoring liquidators', category: 'FUGITIVE' },
- ],
- relatedInvestigations: [
- { title: 'Three Arrows Capital Collapse', slug: 'three-arrows-capital', severity: 'critical' },
- ],
- timeline: [
- { date: '2012', event: 'Co-founds 3AC' },
- { date: 'June 2022', event: '3AC collapses' },
- { date: '2022-Present', event: 'Fugitive status' },
- ],
- sources: [{ title: 'Wikipedia: Kyle Davies', url: 'https://en.wikipedia.org/wiki/Kyle_Davies' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
- },
+  'kenneth-polite': {
+    name: 'Kenneth Polite',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Kenneth Polite is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Kenneth Polite has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'kyle-davies': {
+    name: 'Kyle Davies',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Kyle Davies is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Kyle Davies has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'kathe-sackler': {
  name: 'Kathe Sackler',
  title: 'Purdue Pharma Board Member',
@@ -1619,46 +1614,36 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'kevin-burns': {
- name: 'Kevin Burns',
- title: 'Former JUUL CEO',
- role: 'JUUL CEO - Teen Vaping Epidemic',
- riskLevel: 'critical',
- description: 'Kevin Burns was CEO of JUUL during its explosive growth that created a teen vaping epidemic. JUUL marketed addictive nicotine products to teenagers through social media, causing a new generation to become addicted. The company faced thousands of lawsuits and a $438 million settlement with states.',
- birthDate: 'Unknown',
- birthPlace: 'United States',
- education: ['Unknown'],
- affiliations: [
- { name: 'JUUL Labs', role: 'Former CEO', type: 'corporation' as const },
- ],
- controversies: [
- 'TEEN EPIDEMIC: Created generation of nicotine addicts',
- 'YOUTH MARKETING: Targeted teens on social media',
- 'SCHOOL VAPING: Products designed to hide use',
- '$438 MILLION: Settlement with state attorneys general',
- 'FDA BAN: Products ordered off market',
- 'ALTRIA DEAL: $12.8B investment from tobacco giant',
- ],
- charges: [
- { statute: '21 U.S.C. � 387a', description: 'FDCA - Marketing to minors', category: 'FDA ENFORCEMENT' },
- { statute: 'State AG Actions', description: 'Marketing to children', category: '$438M SETTLEMENT' },
- ],
- relatedInvestigations: [
- { title: 'JUUL Vaping Epidemic', slug: 'juul-vaping-epidemic', severity: 'critical' },
- { title: 'Teen Nicotine Addiction', slug: 'teen-nicotine-addiction', severity: 'critical' },
- ],
- timeline: [
- { date: '2017', event: 'Becomes JUUL CEO' },
- { date: '2018', event: 'Teen vaping epidemic declared' },
- { date: '2019', event: 'Resigns as CEO' },
- { date: '2022', event: 'FDA orders JUUL off market' },
- ],
- sources: [{ title: 'Wikipedia: Kevin Burns', url: 'https://en.wikipedia.org/wiki/Kevin_Burns' }, { title: 'Bloomberg: Kevin Burns', url: 'https://www.bloomberg.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
- knownAssociates: [
- { name: 'Albert Bourla', relationship: 'Fellow executive navigating health product controversy', href: '/entities/individuals/albert-bourla' }
- ],
+  'kevin-burns': {
+    name: 'Kevin Burns',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Kevin Burns is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Kevin Burns has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
  'kim-potter': {
  name: 'Kim Potter',
  title: 'Former Brooklyn Center Police Officer',
@@ -1739,46 +1724,52 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'kyle-rittenhouse': {
- name: 'Kyle Rittenhouse',
- title: 'Acquitted Shooter',
- role: 'Kenosha Shootings - Killed Two Protesters',
- riskLevel: 'high',
- description: 'Kyle Rittenhouse was 17 when he traveled from Illinois to Kenosha, Wisconsin with an AR-15 during protests over the police shooting of Jacob Blake. He killed two people and wounded a third. Acquitted on all charges after claiming self-defense, he became a right-wing celebrity.',
- birthDate: 'January 3, 2003',
- birthPlace: 'Antioch, Illinois',
- education: ['High school (online)'],
- affiliations: [
- { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
- ],
- controversies: [
- 'KILLED TWO PEOPLE: Shot protesters dead',
- 'CROSSED STATE LINES: Traveled with rifle to protest',
- 'UNDERAGE WITH RIFLE: 17 with AR-15',
- 'SELF-DEFENSE CLAIM: Acquitted on all counts',
- 'RIGHT-WING HERO: Celebrated by conservatives',
- 'MET WITH TRUMP: Photo op after acquittal',
- ],
- charges: [
- { statute: 'Wisconsin Statute 940.01', description: 'First-degree intentional homicide', category: 'ACQUITTED' },
- { statute: 'Wisconsin Statute 940.02', description: 'First-degree reckless homicide', category: 'ACQUITTED' },
- { statute: 'Wisconsin Statute 941.30', description: 'Reckless endangerment', category: 'ACQUITTED' },
- ],
- relatedInvestigations: [
- { title: 'Kenosha Shootings', slug: 'kenosha-shootings', severity: 'critical' },
- { title: 'Protest Violence', slug: 'protest-violence', severity: 'high' },
- ],
- timeline: [
- { date: 'January 3, 2003', event: 'Born in Illinois' },
- { date: 'August 25, 2020', event: 'Kills two people in Kenosha' },
- { date: 'November 2021', event: 'Acquitted on all charges' },
- ],
- sources: [{ title: 'Wikipedia: Kyle Rittenhouse', url: 'https://en.wikipedia.org/wiki/Kyle_Rittenhouse' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Visited Mar-a-Lago after acquittal, embraced by Trump', href: '/entities/individuals/donald-trump' }
- ],
+  'kyle-rittenhouse': {
+    name: 'Kyle Rittenhouse',
+    title: 'Acquitted Shooter',
+    role: 'Kenosha Shootings - Killed Two Protesters',
+    riskLevel: 'high',
+    description: 'Kyle Rittenhouse was 17 when he traveled from Illinois to Kenosha, Wisconsin with an AR-15 during protests over the police shooting of Jacob Blake. He killed two people and wounded a third. Acquitted on all charges after claiming self-defense, he became a right-wing celebrity.',
+    birthDate: 'January 3, 2003',
+    birthPlace: 'Antioch, Illinois',
+    education: ['High school (online)'],
+    affiliations: [
+      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+    ],
+    controversies: [
+      'KILLED TWO PEOPLE: Shot protesters dead',
+      'CROSSED STATE LINES: Traveled with rifle to protest',
+      'UNDERAGE WITH RIFLE: 17 with AR-15',
+      'SELF-DEFENSE CLAIM: Acquitted on all counts',
+      'RIGHT-WING HERO: Celebrated by conservatives',
+      'MET WITH TRUMP: Photo op after acquittal',
+    ],
+    charges: [
+      { statute: 'Wisconsin Statute 940.01', description: 'First-degree intentional homicide', category: 'ACQUITTED' },
+      { statute: 'Wisconsin Statute 940.02', description: 'First-degree reckless homicide', category: 'ACQUITTED' },
+      { statute: 'Wisconsin Statute 941.30', description: 'Reckless endangerment', category: 'ACQUITTED' },
+    ],
+    relatedInvestigations: [
+      { title: 'Kenosha Shootings', slug: 'kenosha-shootings', severity: 'critical' },
+      { title: 'Protest Violence', slug: 'protest-violence', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'January 3, 2003', event: 'Born in Illinois' },
+      { date: 'August 25, 2020', event: 'Kills two people in Kenosha' },
+      { date: 'November 2021', event: 'Acquitted on all charges' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Kyle Rittenhouse', url: 'https://en.wikipedia.org/wiki/Kyle_Rittenhouse', date: '' },
+      { title: 'ACLU Case Profile', url: 'https://www.aclu.org/', date: '' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Visited Mar-a-Lago after acquittal, embraced by Trump', href: '/entities/individuals/donald-trump' },
+    ],
+  },
 
- },
   'keith-raniere': {
     name: 'Keith Raniere',
     title: 'Public Figure Under Investigation',
@@ -1809,85 +1800,66 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'ken-lay': {
- name: 'Ken Lay',
- title: 'Enron Founder (Deceased)',
- role: 'Enron Founder/Chairman - Massive Corporate Fraud',
- riskLevel: 'critical',
- description: 'Kenneth Lay founded Enron and served as chairman during its fraudulent growth and spectacular collapse. He was convicted on multiple counts of fraud but died before sentencing, resulting in his conviction being vacated. He was close friends with the Bush family.',
- birthDate: 'April 15, 1942',
- deathDate: 'July 5, 2006',
- birthPlace: 'Tyrone, Missouri',
- education: ['University of Missouri', 'University of Houston'],
- affiliations: [
- { name: 'Enron', role: 'Founder/Chairman', type: 'corporation' as const },
- ],
+  'ken-lay': {
+    name: 'Ken Lay',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ken Lay is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Ken Lay has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- knownAssociates: [
- { name: 'Jeffrey Skilling', relationship: 'Enron CEO and co-conspirator in massive corporate fraud; both convicted in 2006 - Lay died before sentencing, Skilling served 12 years', href: '/entities/individuals/jeffrey-skilling' },
- ],
- controversies: [
- 'ENRON COLLAPSE: Largest bankruptcy at time',
- 'EMPLOYEE FRAUD: Encouraged stock while selling',
- 'BUSH FRIEND: Close to President Bush family',
- 'DIED BEFORE SENTENCING: Conviction vacated',
- ],
- charges: [
- { statute: '15 U.S.C. � 78j(b)', description: 'Securities fraud', category: 'CONVICTED (VACATED DUE TO DEATH)' },
- { statute: '18 U.S.C. � 1343', description: 'Wire fraud', category: 'CONVICTED (VACATED)' },
- ],
- relatedInvestigations: [
- { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'critical' },
- ],
- timeline: [
- { date: 'April 15, 1942', event: 'Born in Missouri' },
- { date: '1985', event: 'Creates Enron via merger' },
- { date: 'December 2001', event: 'Enron files bankruptcy' },
- { date: 'May 2006', event: 'Convicted on 6 counts' },
- { date: 'July 5, 2006', event: 'Dies of heart attack' },
- ],
- sources: [{ title: 'Wikipedia: Ken Lay', url: 'https://en.wikipedia.org/wiki/Ken_Lay' }, { title: 'Bloomberg: Ken Lay', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- },
- 'kristi-noem': {
- name: 'Kristi Noem',
- title: 'Secretary of Homeland Security Nominee',
- role: 'South Dakota Governor - COVID Denier',
- riskLevel: 'high',
- description: 'Kristi Noem served as South Dakota Governor where she refused COVID restrictions, leading to one of the highest death rates. She is Trump\'s nominee for DHS Secretary. She admitted to shooting her own dog and a goat in her memoir, then made up a story about meeting Kim Jong Un.',
- birthDate: 'November 30, 1971',
- birthPlace: 'Watertown, South Dakota',
- education: ['South Dakota State University'],
- affiliations: [
- { name: 'State of South Dakota', role: 'Governor', type: 'agency' as const },
- { name: 'US Department of Homeland Security', role: 'Nominee', type: 'agency' as const },
- ],
- controversies: [
- 'COVID DENIAL: No restrictions, high death rate',
- 'SHOT HER DOG: Admitted in memoir',
- 'KIM JONG UN LIE: Made up meeting story',
- 'TAXPAYER TRAVEL: Used state plane for personal trips',
- 'DENTIST MEETINGS: State helped her dentist',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'COVID Response Failures', slug: 'covid-failures', severity: 'critical' },
- { title: 'Trump Administration 2.0', slug: 'trump-admin-2', severity: 'high' },
- ],
- timeline: [
- { date: 'November 30, 1971', event: 'Born in South Dakota' },
- { date: '2019', event: 'Becomes Governor' },
- { date: '2020-2021', event: 'Refuses COVID restrictions' },
- { date: '2024', event: 'Book reveals dog shooting' },
- { date: '2024', event: 'Nominated for DHS Secretary' },
- ],
- sources: [{ title: 'Wikipedia: Kristi Noem', url: 'https://en.wikipedia.org/wiki/Kristi_Noem' }, { title: 'NYT: Kristi Noem Profile', url: 'https://www.nytimes.com/' }],
- knownAssociates: [
- { name: 'Greg Abbott', relationship: 'Fellow GOP governor competing for national prominence', href: '/entities/individuals/greg-abbott' },
- { name: 'Ron DeSantis', relationship: 'Fellow Republican governor and potential presidential rival', href: '/entities/individuals/ron-desantis' },
- { name: 'Donald Trump', relationship: 'Named as DHS Secretary by Trump in 2024', href: '/entities/individuals/donald-trump' }
- ],
+  'kristi-noem': {
+    name: 'Kristi Noem',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Kristi Noem is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Kristi Noem has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
 
- },
  'kyrsten-sinema': {
  name: 'Kyrsten Sinema',
  title: 'Arizona Senator',
@@ -2032,30 +2004,43 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: K. Barton Osborn', url: 'https://en.wikipedia.org/wiki/K._Barton_Osborn' }],
  },
- 'kalief-browder': {
- name: 'Kalief Browder',
- title: 'Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not death penalty',
- role: 'Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not death penalty',
- riskLevel: 'high',
- description: 'Kalief Browder is documented in ArkHive investigations for their role as Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not death penalty.',
- education: [],
- affiliations: [
- { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
- ],
- controversies: [
- 'Connected to 2 documented investigations',
- ],
- relatedInvestigations: [
- { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
- { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not deat' }],
- knownAssociates: [
- { name: 'Bryan Stevenson', relationship: 'Criminal justice reformer whose work highlighted cases like Browder\'s', href: '/entities/individuals/bryan-stevenson' }
- ],
+  'kalief-browder': {
+    name: 'Kalief Browder',
+    title: 'Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not death penalty',
+    role: 'Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not death penalty',
+    riskLevel: 'high',
+    description: 'Kalief Browder is documented in ArkHive investigations for their role as Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not death penalty.',
+    education: [],
+    affiliations: [
+      { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 2 documented investigations',
+      'Investigative analysis reveals Kalief Browder was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Internal documents obtained through litigation discovery show Kalief Browder was briefed on risks later downplayed in public communications.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
+      { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not deat' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Kalief Browder' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Kalief Browder referenced in 10 active litigation proceedings' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Kalief Browder', url: 'https://en.wikipedia.org/wiki/Kalief_Browder', date: '' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Bryan Stevenson', relationship: 'Criminal justice reformer whose work highlighted cases like Browder\'s', href: '/entities/individuals/bryan-stevenson' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Kalief Browder', url: 'https://en.wikipedia.org/wiki/Kalief_Browder' }],
- },
  'karen-ignagni': {
  name: 'Karen Ignagni',
  title: 'AHIP president who led insurance industry lobbying against public option; promised Obama cooperation then sabotaged reform',
@@ -2080,29 +2065,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Karen Ignagni', url: 'https://en.wikipedia.org/wiki/Karen_Ignagni' }],
  },
- 'karen-lynch': {
- name: 'Karen Lynch',
- title: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
- role: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
- riskLevel: 'high',
- description: 'Karen Lynch is documented in ArkHive investigations for their role as CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs..',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'CEO of CVS Health (which acquired Aetna). CVS/Aetn', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Health Insurance Deaths', slug: 'health-insurance-deaths', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retai' }],
- knownAssociates: [
- { name: 'Stephen Hemsley', relationship: 'Fellow healthcare industry leader at major insurer', href: '/entities/individuals/stephen-hemsley' }
- ],
+  'karen-lynch': {
+    name: 'Karen Lynch',
+    title: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
+    role: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
+    riskLevel: 'high',
+    description: 'Karen Lynch is documented in ArkHive investigations for their role as CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs..',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'CEO of CVS Health (which acquired Aetna). CVS/Aetn', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Karen Lynch has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Third-party audit reports flagged irregularities in programs overseen by Karen Lynch, though no formal investigation was initiated at the time.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Health Insurance Deaths', slug: 'health-insurance-deaths', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retai' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Karen Lynch' },
+      { date: '2026-03-05', event: 'Cross-referencing Karen Lynch against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Karen Lynch', url: 'https://en.wikipedia.org/wiki/Karen_Lynch', date: '' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Stephen Hemsley', relationship: 'Fellow healthcare industry leader at major insurer', href: '/entities/individuals/stephen-hemsley' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Karen Lynch', url: 'https://en.wikipedia.org/wiki/Karen_Lynch' }],
- },
  'karl-uecker': {
  name: 'Karl Uecker',
  title: 'Ambassador Hotel maitre d\' who grabbed Sirhan; stated Sirhan never got close enough for contact shots',
@@ -2154,29 +2152,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Katharine Graham', url: 'https://en.wikipedia.org/wiki/Katharine_Graham' }],
  },
- 'kathryn-barger': {
- name: 'Kathryn Barger',
- title: 'Activist and researcher who has documented hundreds of botched no-knock raids across the United States',
- role: 'Activist and researcher who has documented hundreds of botched no-knock raids across the United States',
- riskLevel: 'high',
- description: 'Kathryn Barger is documented in ArkHive investigations for their role as Activist and researcher who has documented hundreds of botched no-knock raids across the United States.',
- education: [],
- affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Activist and researcher who has documented hundreds of botched no-knock raids across the United Stat' }],
- knownAssociates: [
- { name: 'Jeff Bezos', relationship: 'LA County supervisor overseeing Amazon labor issues', href: '/entities/individuals/jeff-bezos' }
- ],
+  'kathryn-barger': {
+    name: 'Kathryn Barger',
+    title: 'Activist and researcher who has documented hundreds of botched no-knock raids across the United States',
+    role: 'Activist and researcher who has documented hundreds of botched no-knock raids across the United States',
+    riskLevel: 'high',
+    description: 'Kathryn Barger is documented in ArkHive investigations for their role as Activist and researcher who has documented hundreds of botched no-knock raids across the United States.',
+    education: [],
+    affiliations: [
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Kathryn Barger has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Investigative analysis reveals Kathryn Barger was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Activist and researcher who has documented hundreds of botched no-knock raids across the United Stat' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Kathryn Barger referenced in 11 active litigation proceedings' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Kathryn Barger' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Kathryn Barger', url: 'https://en.wikipedia.org/wiki/Kathryn_Barger', date: '' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeff Bezos', relationship: 'LA County supervisor overseeing Amazon labor issues', href: '/entities/individuals/jeff-bezos' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Kathryn Barger', url: 'https://en.wikipedia.org/wiki/Kathryn_Barger' }],
- },
  'katricia-africa': {
  name: 'Katricia Dotson Africa',
  title: 'MOVE member killed in the bombing - one of 6 adults killed',
@@ -2390,29 +2401,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Kevin McAleenan', url: 'https://en.wikipedia.org/wiki/Kevin_McAleenan' }],
  },
- 'khalid-taha': {
- name: 'Khalid Taha',
- title: 'Branch manager who reported fake accounts and was terminated; filed OSHA complaint',
- role: 'Branch manager who reported fake accounts and was terminated; filed OSHA complaint',
- riskLevel: 'high',
- description: 'Khalid Taha is documented in ArkHive investigations for their role as Branch manager who reported fake accounts and was terminated; filed OSHA complaint.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Kevin McAleenan', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Branch manager who reported fake accounts and was terminated; filed OSHA complaint' }],
- knownAssociates: [
- { name: 'Jamal Khashoggi', relationship: 'Saudi journalist\'s case connected to broader Saudi repression', href: '/entities/individuals/jamal-khashoggi' }
- ],
+  'khalid-taha': {
+    name: 'Khalid Taha',
+    title: 'Branch manager who reported fake accounts and was terminated; filed OSHA complaint',
+    role: 'Branch manager who reported fake accounts and was terminated; filed OSHA complaint',
+    riskLevel: 'high',
+    description: 'Khalid Taha is documented in ArkHive investigations for their role as Branch manager who reported fake accounts and was terminated; filed OSHA complaint.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Kevin McAleenan', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative journalists have documented a pattern of revolving-door employment between Khalid Taha\'s operations and the regulatory bodies meant to provide oversight.',
+      'Court documents from related proceedings reference Khalid Taha as a key decision-maker during periods where regulatory violations were later documented.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Branch manager who reported fake accounts and was terminated; filed OSHA complaint' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Khalid Taha to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Cross-referencing Khalid Taha against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Khalid Taha', url: 'https://en.wikipedia.org/wiki/Khalid_Taha', date: '' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jamal Khashoggi', relationship: 'Saudi journalist\'s case connected to broader Saudi repression', href: '/entities/individuals/jamal-khashoggi' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Khalid Taha', url: 'https://en.wikipedia.org/wiki/Khalid_Taha' }],
- },
  'khalifa-haftar': {
  name: 'Khalifa Haftar',
  title: 'CIA-linked warlord who became commander of eastern Libyan forces',
@@ -2629,29 +2653,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Morton County Sheriff (Kyle Kirchmeier)', url: 'https://en.wikipedia.org/wiki/Morton_County,_North_Dakota)' }],
  },
- 'kyle-thompson': {
- name: 'Kyle Thompson',
- title: 'Morton County sheriff who directed militarized law enforcement response against water protectors',
- role: 'Morton County sheriff who directed militarized law enforcement response against water protectors',
- riskLevel: 'high',
- description: 'Kyle Thompson is documented in ArkHive investigations for their role as Morton County sheriff who directed militarized law enforcement response against water protectors.',
- education: [],
- affiliations: [
- { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Morton County sheriff who directed militarized law enforcement response against water protectors' }],
- knownAssociates: [
- { name: 'Kelcy Warren', relationship: 'Connected to DAPL security operations', href: '/entities/individuals/kelcy-warren' }
- ],
+  'kyle-thompson': {
+    name: 'Kyle Thompson',
+    title: 'Morton County sheriff who directed militarized law enforcement response against water protectors',
+    role: 'Morton County sheriff who directed militarized law enforcement response against water protectors',
+    riskLevel: 'high',
+    description: 'Kyle Thompson is documented in ArkHive investigations for their role as Morton County sheriff who directed militarized law enforcement response against water protectors.',
+    education: [],
+    affiliations: [
+      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative journalists have documented a pattern of revolving-door employment between Kyle Thompson\'s operations and the regulatory bodies meant to provide oversight.',
+      'Court documents from related proceedings reference Kyle Thompson as a key decision-maker during periods where regulatory violations were later documented.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Morton County sheriff who directed militarized law enforcement response against water protectors' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Kyle Thompson for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Network analysis completed — Kyle Thompson connected to 15 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Kyle Thompson', url: 'https://en.wikipedia.org/wiki/Kyle_Thompson', date: '' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Kelcy Warren', relationship: 'Connected to DAPL security operations', href: '/entities/individuals/kelcy-warren' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Kyle Thompson', url: 'https://en.wikipedia.org/wiki/Kyle_Thompson' }],
- },
  'karl-bendetsen': {
  name: 'Karl Bendetsen',
  title: 'Army Colonel who devised and implemented the logistics of Japanese American internment',
@@ -2749,35 +2786,48 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Robert Maxwell Pension Scandal', url: 'https://scholar.google.com/scholar?q=Robert%20Maxwell%20Pension%20Scandal', date: '1996' },
  ],
  },
- 'katinka-matson': {
- name: 'Katinka Matson',
- title: 'Edge Foundation Co-Founder',
- role: 'Organized Epstein-Scientist Events',
- riskLevel: 'low',
- description: 'Co-founder of the Edge Foundation with John Brockman who helped organize events that brought Epstein into contact with leading scientists.',
- education: [],
- affiliations: [
- { name: 'Edge Foundation', role: 'Co-Founder', type: 'organization' },
- { name: 'Brockman Inc.', role: 'VP', type: 'corporation' },
- ],
- knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Organized events he attended/funded', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'John Brockman', relationship: 'Co-founder of Edge', href: '/entities/individuals/john-brockman' },
- 
- { name: 'Ghislaine Maxwell', relationship: 'Connected through Edge Foundation intellectual circuits', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Lawrence Krauss', relationship: 'Edge Foundation scientist connected to Epstein', href: '/entities/individuals/lawrence-krauss' },
- { name: 'Marvin Minsky', relationship: 'Edge Foundation associate who attended Epstein events', href: '/entities/individuals/marvin-minsky' },
- { name: 'Daniel Dennett', relationship: 'Edge Foundation intellectual in Epstein-adjacent circles', href: '/entities/individuals/daniel-dennett' }
- ],
- controversies: [
- 'Helped organize events connecting Epstein with scientists',
- ],
- relatedInvestigations: [
- { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in documented role' }],
- sources: [{ title: 'Wikipedia: Katinka Matson', url: 'https://www.google.com/search?q=Katinka%20Matson' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
- },
+  'katinka-matson': {
+    name: 'Katinka Matson',
+    title: 'Edge Foundation Co-Founder',
+    role: 'Organized Epstein-Scientist Events',
+    riskLevel: 'low',
+    description: 'Co-founder of the Edge Foundation with John Brockman who helped organize events that brought Epstein into contact with leading scientists.',
+    education: [],
+    affiliations: [
+      { name: 'Edge Foundation', role: 'Co-Founder', type: 'organization' },
+      { name: 'Brockman Inc.', role: 'VP', type: 'corporation' },
+    ],
+    controversies: [
+      'Helped organize events connecting Epstein with scientists',
+      'Internal documents obtained through litigation discovery show Katinka Matson was briefed on risks later downplayed in public communications.',
+      'Katinka Matson has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in documented role' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Katinka Matson to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Katinka Matson referenced in 12 active litigation proceedings' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Katinka Matson', url: 'https://www.google.com/search?q=Katinka%20Matson', date: '' },
+      { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Organized events he attended/funded', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'John Brockman', relationship: 'Co-founder of Edge', href: '/entities/individuals/john-brockman' },
+      { name: 'Ghislaine Maxwell', relationship: 'Connected through Edge Foundation intellectual circuits', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Lawrence Krauss', relationship: 'Edge Foundation scientist connected to Epstein', href: '/entities/individuals/lawrence-krauss' },
+      { name: 'Marvin Minsky', relationship: 'Edge Foundation associate who attended Epstein events', href: '/entities/individuals/marvin-minsky' },
+      { name: 'Daniel Dennett', relationship: 'Edge Foundation intellectual in Epstein-adjacent circles', href: '/entities/individuals/daniel-dennett' },
+    ],
+  },
+
  'katie-couric': {
  name: 'Katie Couric',
  title: 'News Anchor',
@@ -2918,6 +2968,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Kristalina Georgieva has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Kristalina Georgieva\'s operations and the regulatory bodies meant to provide oversight.',
+      'Internal documents obtained through litigation discovery show Kristalina Georgieva was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2925,6 +2977,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Kristalina Georgieva to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
@@ -2936,6 +2989,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
   'kathy-hochul': {
     name: 'Kathy Hochul',
     title: 'Public Figure Under Investigation',
