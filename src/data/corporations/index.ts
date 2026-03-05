@@ -2002,6 +2002,17 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'tencent-holdings': {
+    id: '45a8b03034506d8d',
+    slug: 'tencent-holdings',
+    name: 'Tencent Holdings',
+    type: 'corporation',
+    description: 'Tencent Holdings is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 

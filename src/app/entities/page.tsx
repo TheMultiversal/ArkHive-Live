@@ -26,7 +26,7 @@ const entityCategories = [
  subtitle:"Profit Over People",
  description:"Big Pharma, Big Tech, defense contractors. Companies that put shareholder value above human life.",
  icon: Building2,
- count: 200,
+ count: 201,
  },
  {
  type:"individuals",
@@ -34,7 +34,7 @@ const entityCategories = [
  subtitle:"The Names Behind The Crimes",
  description:"Politicians, executives, bureaucrats. The faces behind the policies of death and destruction.",
  icon: Users,
- count: 2087,
+ count: 2089,
  },
  {
  type:"organizations",
