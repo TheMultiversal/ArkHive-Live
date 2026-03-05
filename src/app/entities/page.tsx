@@ -34,7 +34,7 @@ const entityCategories = [
  subtitle:"The Names Behind The Crimes",
  description:"Politicians, executives, bureaucrats. The faces behind the policies of death and destruction.",
  icon: Users,
- count: 2051,
+ count: 2055,
  },
  {
  type:"organizations",
@@ -42,7 +42,7 @@ const entityCategories = [
  subtitle:"The Shadow Networks",
  description:"Think tanks, lobbying groups, dark money networks. The organizations that pull the strings from behind the curtain.",
  icon: Building2,
- count: 109,
+ count: 111,
  },
 ];
 

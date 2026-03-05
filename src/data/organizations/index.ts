@@ -882,6 +882,24 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'medium',
     members: 'Unknown',
   },
+  'koch-foundation': {
+    name: 'Koch Foundation',
+    slug: 'koch-foundation',
+    type: 'Organization',
+    description: 'Koch Foundation is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+  'carnegie-endowment-for-international-peace': {
+    name: 'Carnegie Endowment for International Peace',
+    slug: 'carnegie-endowment-for-international-peace',
+    type: 'Organization',
+    description: 'Carnegie Endowment for International Peace is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
+
 
 
 
