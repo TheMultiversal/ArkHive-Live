@@ -954,6 +954,15 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'medium',
     members: 'Unknown',
   },
+  'human-rights-watch': {
+    name: 'Human Rights Watch',
+    slug: 'human-rights-watch',
+    type: 'Organization',
+    description: 'Human Rights Watch is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
 
 
 
