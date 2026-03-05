@@ -1112,6 +1112,105 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'cybersecurity-infrastructure-security-agency': {
+    id: '58401ba94639d12c',
+    slug: 'cybersecurity-infrastructure-security-agency',
+    name: 'Cybersecurity Infrastructure Security Agency',
+    type: 'agency',
+    description: 'Cybersecurity Infrastructure Security Agency is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'national-institute-of-standards-and-technology': {
+    id: '7b85cbb00dc9a9f5',
+    slug: 'national-institute-of-standards-and-technology',
+    name: 'National Institute of Standards and Technology',
+    type: 'agency',
+    description: 'National Institute of Standards and Technology is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'bureau-of-land-management': {
+    id: 'e16c085a83805321',
+    slug: 'bureau-of-land-management',
+    name: 'Bureau of Land Management',
+    type: 'agency',
+    description: 'Bureau of Land Management is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'army-corps-of-engineers': {
+    id: '7a97835bd5e977e5',
+    slug: 'army-corps-of-engineers',
+    name: 'Army Corps of Engineers',
+    type: 'agency',
+    description: 'Army Corps of Engineers is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'us-agency-for-international-development': {
+    id: '28552fdac4ff23e4',
+    slug: 'us-agency-for-international-development',
+    name: 'US Agency for International Development',
+    type: 'agency',
+    description: 'US Agency for International Development is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'voice-of-america': {
+    id: '59b8d39908e61925',
+    slug: 'voice-of-america',
+    name: 'Voice of America',
+    type: 'agency',
+    description: 'Voice of America is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'peace-corps': {
+    id: '507f86db2e039b32',
+    slug: 'peace-corps',
+    name: 'Peace Corps',
+    type: 'agency',
+    description: 'Peace Corps is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'small-business-administration': {
+    id: '1787badf58f79852',
+    slug: 'small-business-administration',
+    name: 'Small Business Administration',
+    type: 'agency',
+    description: 'Small Business Administration is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'federal-aviation-administration': {
+    id: '94f8c3cc4b9defd7',
+    slug: 'federal-aviation-administration',
+    name: 'Federal Aviation Administration',
+    type: 'agency',
+    description: 'Federal Aviation Administration is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
+
+
+
+
+
+
+
+
 
 
 

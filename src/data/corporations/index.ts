@@ -1462,6 +1462,127 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 1,
     riskLevel: 'moderate',
   },
+  'raytheon-technologies': {
+    id: 'd756a2fdb2e9e930',
+    slug: 'raytheon-technologies',
+    name: 'Raytheon Technologies',
+    type: 'corporation',
+    description: 'Raytheon Technologies is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'l3harris-technologies': {
+    id: '145d9418c26cf7c4',
+    slug: 'l3harris-technologies',
+    name: 'L3Harris Technologies',
+    type: 'corporation',
+    description: 'L3Harris Technologies is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'bae-systems': {
+    id: 'b616676f64484819',
+    slug: 'bae-systems',
+    name: 'BAE Systems',
+    type: 'corporation',
+    description: 'BAE Systems is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'boeing-defense-division': {
+    id: '4d478fae881fc248',
+    slug: 'boeing-defense-division',
+    name: 'Boeing Defense Division',
+    type: 'corporation',
+    description: 'Boeing Defense Division is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'palantir-technologies': {
+    id: '1857463390dd7bc5',
+    slug: 'palantir-technologies',
+    name: 'Palantir Technologies',
+    type: 'corporation',
+    description: 'Palantir Technologies is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'booz-allen-hamilton': {
+    id: '28c37c169e3a4576',
+    slug: 'booz-allen-hamilton',
+    name: 'Booz Allen Hamilton',
+    type: 'corporation',
+    description: 'Booz Allen Hamilton is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'saic': {
+    id: 'd3608574bc0902a4',
+    slug: 'saic',
+    name: 'SAIC',
+    type: 'corporation',
+    description: 'SAIC is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'leidos': {
+    id: 'de3204deb17b2a19',
+    slug: 'leidos',
+    name: 'Leidos',
+    type: 'corporation',
+    description: 'Leidos is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'blackstone-group': {
+    id: 'ba847d58fa0d50c8',
+    slug: 'blackstone-group',
+    name: 'Blackstone Group',
+    type: 'corporation',
+    description: 'Blackstone Group is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'vanguard-group': {
+    id: 'b2911f85828bfcac',
+    slug: 'vanguard-group',
+    name: 'Vanguard Group',
+    type: 'corporation',
+    description: 'Vanguard Group is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'blackrock-inc': {
+    id: '3612f4f07f7bdac8',
+    slug: 'blackrock-inc',
+    name: 'BlackRock Inc',
+    type: 'corporation',
+    description: 'BlackRock Inc is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
+
+
+
+
+
+
+
+
+
+
 };
 
 export default corporations;
