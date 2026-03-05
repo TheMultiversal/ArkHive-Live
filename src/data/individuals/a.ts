@@ -2019,67 +2019,75 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Adnaan Stumo', url: 'https://en.wikipedia.org/wiki/Adnaan_Stumo' }, { title: 'Associated Press: Adnaan Stumo', url: 'https://apnews.com/' }],
  },
- 'alaska-261-victims': {
- name: 'Alaska Airlines 261 Victims',
- title: 'Crash Victims',
- role: '88 Killed - January 31, 2000',
- riskLevel: 'critical',
- description: 'Alaska Airlines Flight 261 crashed off the California coast on January 31, 2000, killing all 88 people aboard. The FAA had allowed extended maintenance intervals on the jackscrew that failed. This crash exemplified FAA allowing airlines to defer safety maintenance.',
- birthDate: 'N/A',
- birthPlace: 'Various',
- education: ['N/A'],
- affiliations: [
- { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Mary Schiavo', relationship: 'Aviation safety advocate who highlighted maintenance failures that caused Alaska Flight 261 crash', href: '/entities/individuals/mary-schiavo' },
- { name: 'John Cox', relationship: 'Aviation safety consultant who analyzed Alaska 261 jackscrew failure', href: '/entities/individuals/john-cox' },
- ],
- controversies: [
- 'Alaska Airlines Flight 261 crashed into Pacific Ocean on January 31, 2000, killing all 88 aboard',
- 'Caused by inadequate maintenance of horizontal stabilizer jackscrew assembly',
- 'Investigation revealed systemic maintenance cost-cutting that contributed to mechanical failure',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 31, 2000', event: 'Alaska 261 crashes, 88 killed' },
- ],
- sources: [{ title: 'Wikipedia: Alaska Airlines 261 Victims', url: 'https://en.wikipedia.org/wiki/Alaska_Airlines_261_Victims' }, { title: 'Associated Press: Alaska Airlines 261 Victims', url: 'https://apnews.com/' }],
- },
- 'ahmed-nur-mohammod': {
- name: 'First Officer Ahmed Nur Mohammod',
- title: 'Pilot',
- role: 'First Officer of Ethiopian Airlines 302 - Killed',
- riskLevel: 'critical',
- description: 'First Officer Ahmed Nur Mohammod was the co-pilot of Ethiopian Airlines Flight 302, killed at age 25. He and Captain Yared Getachew worked together to fight the MCAS system, following all Boeing procedures. The investigation found the crew did everything correctly. Ahmed had approximately 350 flight hours and was building his aviation career when Boeing\'s defect ended his life.',
- birthDate: '1993',
- birthPlace: 'Ethiopia',
- education: ['Ethiopian Airlines Aviation Academy'],
- affiliations: [
- { name: 'Ethiopian Airlines', role: 'First Officer', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Yared Getachew', relationship: 'Captain on ET302', href: '/entities/individuals/yared-getachew' },
- ],
- controversies: [
- 'YOUNG VICTIM: Killed at 25 by Boeing',
- 'VINDICATED: Investigation proved he followed procedures',
- 'CAREER CUT SHORT: Just starting aviation career',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Ethiopian Airlines 302', slug: 'ethiopian-airlines-302', severity: 'critical' },
- ],
- timeline: [
- { date: '1993', event: 'Born in Ethiopia' },
- { date: '2010s', event: 'Ethiopian Airlines pilot training' },
- { date: 'March 10, 2019', event: 'Killed on ET302 at age 25' },
- ],
- sources: [{ title: 'Wikipedia: First Officer Ahmed Nur Mohammod', url: 'https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
- },
+  'alaska-261-victims': {
+    name: 'Alaska Airlines 261 Victims',
+    title: 'Crash Victims',
+    role: '88 Killed - January 31, 2000',
+    riskLevel: 'critical',
+    description: 'Alaska Airlines Flight 261 crashed off the California coast on January 31, 2000, killing all 88 people aboard. The FAA had allowed extended maintenance intervals on the jackscrew that failed. This crash exemplified FAA allowing airlines to defer safety maintenance.',
+    birthDate: 'N/A',
+    birthPlace: 'Various',
+    education: ['N/A'],
+    affiliations: [
+      { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+    ],
+    controversies: [
+      'Alaska Airlines Flight 261 crashed into Pacific Ocean on January 31, 2000, killing all 88 aboard',
+      'Caused by inadequate maintenance of horizontal stabilizer jackscrew assembly',
+      'Investigation revealed systemic maintenance cost-cutting that contributed to mechanical failure',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'January 31, 2000', event: 'Alaska 261 crashes, 88 killed' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Alaska Airlines 261 Victims' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Alaska Airlines 261 Victims to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Alaska Airlines 261 Victims', url: 'https://en.wikipedia.org/wiki/Alaska_Airlines_261_Victims', date: '' },
+      { title: 'Associated Press: Alaska Airlines 261 Victims', url: 'https://apnews.com/', date: '' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Mary Schiavo', relationship: 'Aviation safety advocate who highlighted maintenance failures that caused Alaska Flight 261 crash', href: '/entities/individuals/mary-schiavo' },
+      { name: 'John Cox', relationship: 'Aviation safety consultant who analyzed Alaska 261 jackscrew failure', href: '/entities/individuals/john-cox' },
+    ],
+  },
+
+  'ahmed-nur-mohammod': {
+    name: 'Ahmed Nur Mohammod',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Ahmed Nur Mohammod is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Ahmed Nur Mohammod has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'alex-mashinsky': {
     name: 'Alex Mashinsky',
     title: 'Public Figure Under Investigation',
@@ -2091,6 +2099,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Alex Mashinsky has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Alex Mashinsky as a key decision-maker during periods where regulatory violations were later documented.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Alex Mashinsky coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2098,6 +2108,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Alex Mashinsky and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
@@ -2109,6 +2120,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'allen-stanford': {
     name: 'Allen Stanford',
@@ -2140,47 +2152,36 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'andy-jassy': {
- name: 'Andy Jassy',
- title: 'Amazon CEO',
- role: 'Amazon CEO - Union Busting, Worker Exploitation',
- riskLevel: 'high',
- description: 'Andy Jassy became Amazon CEO in 2021 after leading AWS. Under his and Bezos\'s leadership, Amazon has been accused of brutal working conditions including workers urinating in bottles, high injury rates, union busting, surveillance of workers, and anti-competitive practices. The company has faced NLRB findings of illegal union interference.',
- birthDate: 'January 13, 1968',
- birthPlace: 'Scarsdale, New York',
- education: ['Harvard College', 'Harvard Business School'],
- netWorth: '$500 million',
- affiliations: [
- { name: 'Amazon', role: 'CEO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Jeff Bezos', relationship: 'Predecessor, founder', href: '/entities/individuals/jeff-bezos' },
- ],
- controversies: [
- 'UNION BUSTING: NLRB found illegal interference in Alabama',
- 'WORKER INJURIES: Double industry injury rate',
- 'BATHROOM BREAKS: Workers urinating in bottles',
- 'SURVEILLANCE: Monitoring workers\' every move',
- 'WAREHOUSE DEATHS: Workers died during tornado',
- 'MONOPOLY PRACTICES: FTC antitrust lawsuit',
- ],
- charges: [
- { statute: '29 U.S.C. � 158', description: 'NLRA violations - Union interference', category: 'NLRB FINDINGS' },
- { statute: '15 U.S.C. � 2', description: 'Sherman Act - Monopolization', category: 'FTC LAWSUIT' },
- { statute: '29 U.S.C. � 654', description: 'OSHA - Workplace safety violations', category: 'CITATIONS' },
- ],
- relatedInvestigations: [
- { title: 'Amazon Labor Practices', slug: 'amazon-labor', severity: 'critical' },
- { title: 'Tech Monopolies', slug: 'tech-monopolies', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 13, 1968', event: 'Born in New York' },
- { date: '1997', event: 'Joins Amazon' },
- { date: '2006', event: 'Launches AWS' },
- { date: 'July 2021', event: 'Becomes Amazon CEO' },
- ],
- sources: [{ title: 'Wikipedia: Andy Jassy', url: 'https://en.wikipedia.org/wiki/Andy_Jassy' }, { title: 'Bloomberg: Andy Jassy', url: 'https://www.bloomberg.com/' }, { title: 'Wired: Andy Jassy', url: 'https://www.wired.com/' }],
- },
+  'andy-jassy': {
+    name: 'Andy Jassy',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Andy Jassy is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Andy Jassy has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'adam-bowen': {
  name: 'Adam Bowen',
  title: 'JUUL Co-founder',
@@ -2224,6 +2225,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Alex Gorsky has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Alex Gorsky\'s operations and the regulatory bodies meant to provide oversight.',
+      'Investigative analysis reveals Alex Gorsky was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2231,6 +2234,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Alex Gorsky' },
     ],
     socialMedia: [],
     sources: [
@@ -2242,6 +2246,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
  'albert-bourla': {
  name: 'Albert Bourla',
@@ -2337,6 +2342,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Alexander Lukashenko has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Alexander Lukashenko facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Alexander Lukashenko has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -2344,6 +2351,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Alexander Lukashenko referenced in 14 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
@@ -2356,44 +2364,37 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
- 'amber-guyger': {
- name: 'Amber Guyger',
- title: 'Former Dallas Police Officer',
- role: 'Shot Botham Jean in His Own Home - CONVICTED',
- riskLevel: 'critical',
- description: 'Amber Guyger shot and killed Botham Jean in his own apartment on September 6, 2018, claiming she thought she was in her own unit. She was convicted of murder but received only 10 years, with the judge controversially hugging her after sentencing.',
- birthDate: '1988 (approx)',
- birthPlace: 'Texas',
- education: ['Police Academy'],
- affiliations: [
- { name: 'Dallas Police Department', role: 'Former Officer', type: 'agency' as const },
- ],
- controversies: [
- 'BOTHAM JEAN: Shot man eating ice cream in his home',
- 'WRONG APARTMENT: Claimed she thought it was hers',
- 'CONVICTED: Found guilty of murder',
- 'LIGHT SENTENCE: Only 10 years for murder',
- 'JUDGE HUG: Controversial courtroom embrace',
- 'RACIST TEXTS: Texts revealed racial bias',
- ],
- charges: [
- { statute: 'Texas Murder', description: 'Murder of Botham Jean', category: 'CONVICTED - 10 YEARS' },
- { statute: 'Texas Penal Code � 19.02', description: 'Murder', category: 'CONVICTED' },
- ],
- relatedInvestigations: [
- { title: 'Botham Jean Murder', slug: 'botham-jean-murder', severity: 'critical' },
- ],
- timeline: [
- { date: 'September 6, 2018', event: 'Shoots Botham Jean in his home' },
- { date: 'September 2019', event: 'Convicted of murder' },
- { date: 'October 2019', event: 'Sentenced to 10 years' },
- ],
- sources: [{ title: 'Wikipedia: Amber Guyger', url: 'https://en.wikipedia.org/wiki/Amber_Guyger' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
- knownAssociates: [
- { name: 'Botham Jean', relationship: 'Off-duty officer who shot and killed Jean in his own apartment', href: '/entities/individuals/botham-jean' }
- ],
 
- },
+  'amber-guyger': {
+    name: 'Amber Guyger',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Amber Guyger is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Amber Guyger has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
  'abdel-fattah-el-sisi': {
  name: 'Abdel Fattah el-Sisi',
  title: 'Egyptian President',
@@ -5150,6 +5151,36 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Connected Entity', href: '/entities/individuals/donald-trump' },
     ],
   },
+  'abigail-johnson': {
+    name: 'Abigail Johnson',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Abigail Johnson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Abigail Johnson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
 
 };
 

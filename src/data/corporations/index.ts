@@ -1912,6 +1912,17 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'meta-platforms-inc': {
+    id: 'e92fee683f14b18e',
+    slug: 'meta-platforms-inc',
+    name: 'Meta Platforms Inc',
+    type: 'corporation',
+    description: 'Meta Platforms Inc is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 
