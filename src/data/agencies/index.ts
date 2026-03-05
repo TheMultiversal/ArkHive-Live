@@ -1322,6 +1322,17 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'office-of-inspector-general-department-of-defense': {
+    id: '768583fd7815dc46',
+    slug: 'office-of-inspector-general-department-of-defense',
+    name: 'Office of Inspector General Department of Defense',
+    type: 'agency',
+    description: 'Office of Inspector General Department of Defense is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 
