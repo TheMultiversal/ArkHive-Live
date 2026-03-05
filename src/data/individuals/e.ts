@@ -105,6 +105,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'enrique-tarrio': {
     name: 'Enrique Tarrio',
     title: 'Public Figure Under Investigation',
@@ -427,6 +428,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'edward-snowden': {
     name: 'Edward Snowden',
     title: 'NSA Whistleblower',
@@ -479,6 +481,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Glenn Greenwald', relationship: 'Journalist who published disclosures', href: '/entities/individuals/glenn-greenwald' },
     ],
   },
+
 
   'elizabeth-holmes': {
     name: 'Elizabeth Holmes',
@@ -744,6 +747,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Tewolde Gebremariam', relationship: 'Ethiopian Airlines CEO whose airline lost Flight 302', href: '/entities/individuals/tewolde-gebremariam' },
     ],
   },
+
 
  'eric-munchel': {
  name: 'Eric Munchel',
@@ -2272,155 +2276,107 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Edgar Bronfman Sr.', url: 'https://en.wikipedia.org/wiki/Edgar_Bronfman_Sr.' }, { title: 'Bloomberg: Edgar Bronfman Sr.', url: 'https://www.bloomberg.com/' }],
  },
- 'eric-garner': {
-"name":"Eric Garner",
-"title":"Victim of Police Chokehold",
-"role":"\"I Can't Breathe\"- NYPD Killing",
-"riskLevel":"low",
-"description":"African American man killed by NYPD officer Daniel Pantaleo via prohibited chokehold on July 17, 2014 in Staten Island. His dying words \"I can't breathe,\"repeated 11 times, became a rallying cry for the Black Lives Matter movement. Medical examiner ruled his death a homicide, but a grand jury declined to indict Pantaleo.",
-"birthDate":"September 15, 1970",
-"education": [],
-"affiliations": [],
-"knownAssociates": [],
-"controversies": [
-"Killed via banned chokehold technique",
-"Grand jury declined to indict despite homicide ruling",
-"Officer Pantaleo not fired until 5 years later"
- ],
-"relatedInvestigations": [
- {
-"title":"Police Brutality",
-"slug":"police-brutality",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"2014 Jul 17",
-"event":"Killed by NYPD chokehold"
- },
- {
-"date":"2014 Dec",
-"event":"Grand jury declined to indict"
- },
- {
-"date":"2019",
-"event":"Officer Pantaleo fired"
- }
- ],
-"sources": [
- {
-"title":"NYT: Eric Garner Case",
-"url":"https://www.nytimes.com/news-event/eric-garner-case",
-"date":"2019"
- }
- ]
- },
- 'efraim-zuroff': {
-"name":"Efraim Zuroff",
-"title":"Nazi Hunter",
-"role":"Simon Wiesenthal Center Chief Nazi Hunter",
-"riskLevel":"low",
-"description":"Chief Nazi hunter of the Simon Wiesenthal Center, based in Jerusalem. Has spent decades tracking down suspected Nazi war criminals and their collaborators. Leads Operation Last Chance, which offers rewards for information leading to prosecution of Nazi perpetrators.",
-"birthDate":"September 5, 1948",
-"education": [
-"Yeshiva University",
-"Hebrew University - Ph.D."
- ],
-"affiliations": [
- {
-"name":"Simon Wiesenthal Center",
-"role":"Chief Nazi Hunter",
-"type":"organization"
- }
- ],
-"knownAssociates": [],
-"controversies": [
-"Criticized countries for failing to prosecute war criminals",
-"Operation Last Chance offers bounties for Nazi perpetrators",
-"Advocated against statute of limitations for genocide"
- ],
-"relatedInvestigations": [
- {
-"title":"Operation Paperclip",
-"slug":"operation-paperclip",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"1978",
-"event":"Began tracking Nazi war criminals"
- },
- {
-"date":"2002",
-"event":"Launched Operation Last Chance"
- }
- ],
-"sources": [
- {
-"title":"Wiesenthal Center",
-"url":"https://www.wiesenthal.com/",
-"date":"2023"
- }
- ]
- },
- 'edwin-wilson': {
-"name":"Edwin Wilson",
-"title":"Former CIA Agent",
-"role":"Illegal Arms Sales to Libya",
-"riskLevel":"high",
-"description":"Former CIA officer convicted in 1983 of illegally selling weapons and explosives to Libya's Muammar Gaddafi. Wilson claimed he was acting on CIA orders, and in 2003 his conviction was overturned when a judge found the CIA had lied about its relationship with Wilson. One of the most dramatic cases of CIA betrayal of its own agents.",
-"education": [
-"University of Portland"
- ],
-"affiliations": [
- {
-"name":"Central Intelligence Agency",
-"role":"Operations Officer",
-"type":"agency"
- }
- ],
-"knownAssociates": [],
-"controversies": [
-"Sold weapons and explosives to Gaddafi's Libya",
-"CIA denied involvement then was caught lying",
-"Conviction overturned after 20 years when CIA lies exposed",
-"Case revealed CIA's willingness to abandon agents"
- ],
-"relatedInvestigations": [
- {
-"title":"CIA Coups",
-"slug":"cia-coups",
-"severity":"critical"
- }
- ],
-"timeline": [
- {
-"date":"1976",
-"event":"Began selling weapons to Libya"
- },
- {
-"date":"1983",
-"event":"Convicted of illegal arms sales"
- },
- {
-"date":"2003",
-"event":"Conviction overturned, CIA lies exposed"
- },
- {
-"date":"2012",
-"event":"Died at age 84"
- }
- ],
-"sources": [
- {
-"title":"NYT: Wilson Conviction Overturned",
-"url":"https://www.nytimes.com/2003/10/29/us/ex-cia-agent-is-freed-after-judge-overturns-his-conviction.html",
-"date":"2003"
- }
- ]
- },
+  'eric-garner': {
+    name: 'Eric Garner',
+    title: 'Victim of Police Chokehold',
+    role: '"I Can\'t Breathe"- NYPD Killing',
+    riskLevel: 'low',
+    description: 'African American man killed by NYPD officer Daniel Pantaleo via prohibited chokehold on July 17, 2014 in Staten Island. His dying words "I can\'t breathe,"repeated 11 times, became a rallying cry for the Black Lives Matter movement. Medical examiner ruled his death a homicide, but a grand jury declined to indict Pantaleo.',
+    birthDate: 'September 15, 1970',
+    education: [],
+    affiliations: [
+    ],
+    controversies: [
+      'Killed via banned chokehold technique',
+      'Grand jury declined to indict despite homicide ruling',
+      'Officer Pantaleo not fired until 5 years later',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Police Brutality', slug: 'police-brutality', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2014 Jul 17', event: 'Killed by NYPD chokehold' },
+      { date: '2014 Dec', event: 'Grand jury declined to indict' },
+      { date: '2019', event: 'Officer Pantaleo fired' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NYT: Eric Garner Case', url: 'https://www.nytimes.com/news-event/eric-garner-case', date: '2019' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'efraim-zuroff': {
+    name: 'Efraim Zuroff',
+    title: 'Nazi Hunter',
+    role: 'Simon Wiesenthal Center Chief Nazi Hunter',
+    riskLevel: 'low',
+    description: 'Chief Nazi hunter of the Simon Wiesenthal Center, based in Jerusalem. Has spent decades tracking down suspected Nazi war criminals and their collaborators. Leads Operation Last Chance, which offers rewards for information leading to prosecution of Nazi perpetrators.',
+    birthDate: 'September 5, 1948',
+    education: ['Yeshiva University', 'Hebrew University - Ph.D.'],
+    affiliations: [
+      { name: 'Simon Wiesenthal Center', role: 'Chief Nazi Hunter', type: 'organization' },
+    ],
+    controversies: [
+      'Criticized countries for failing to prosecute war criminals',
+      'Operation Last Chance offers bounties for Nazi perpetrators',
+      'Advocated against statute of limitations for genocide',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Operation Paperclip', slug: 'operation-paperclip', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1978', event: 'Began tracking Nazi war criminals' },
+      { date: '2002', event: 'Launched Operation Last Chance' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wiesenthal Center', url: 'https://www.wiesenthal.com/', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
+  'edwin-wilson': {
+    name: 'Edwin Wilson',
+    title: 'Former CIA Agent',
+    role: 'Illegal Arms Sales to Libya',
+    riskLevel: 'high',
+    description: 'Former CIA officer convicted in 1983 of illegally selling weapons and explosives to Libya\'s Muammar Gaddafi. Wilson claimed he was acting on CIA orders, and in 2003 his conviction was overturned when a judge found the CIA had lied about its relationship with Wilson. One of the most dramatic cases of CIA betrayal of its own agents.',
+    education: ['University of Portland'],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'Operations Officer', type: 'agency' },
+    ],
+    controversies: [
+      'Sold weapons and explosives to Gaddafi\'s Libya',
+      'CIA denied involvement then was caught lying',
+      'Conviction overturned after 20 years when CIA lies exposed',
+      'Case revealed CIA\'s willingness to abandon agents',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'CIA Coups', slug: 'cia-coups', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1976', event: 'Began selling weapons to Libya' },
+      { date: '1983', event: 'Convicted of illegal arms sales' },
+      { date: '2003', event: 'Conviction overturned, CIA lies exposed' },
+      { date: '2012', event: 'Died at age 84' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NYT: Wilson Conviction Overturned', url: 'https://www.nytimes.com/2003/10/29/us/ex-cia-agent-is-freed-after-judge-overturns-his-conviction.html', date: '2003' },
+    ],
+    aliases: [],
+    knownAssociates: [
+    ],
+  },
+
   'epa': {
     name: 'Epa',
     title: 'Public Figure Under Investigation',

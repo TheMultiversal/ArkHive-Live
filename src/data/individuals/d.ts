@@ -281,6 +281,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'donald-trump-jr': {
     name: 'Donald John Trump Jr.',
     title: 'Executive Vice President',
@@ -332,6 +333,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Jared Kushner', relationship: 'Brother-in-law, attended Trump Tower meeting', href: '/entities/individuals/jared-kushner' },
     ],
   },
+
 
 
 
@@ -395,6 +397,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'deborah-birx': {
     name: 'Deborah Leah Birx',
     title: 'Former White House Coronavirus Response Coordinator',
@@ -446,6 +449,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Anthony Fauci', relationship: 'Task force colleague', href: '/entities/individuals/anthony-fauci' },
     ],
   },
+
 
 
 
@@ -502,6 +506,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Karen McDougal', relationship: 'Negotiated $150K silence payment', href: '/entities/individuals/karen-mcdougal' },
     ],
   },
+
 
 
 

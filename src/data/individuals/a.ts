@@ -1151,6 +1151,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'allen-dulles': {
     name: 'Allen Dulles',
     title: 'CIA Director (1953-1961)',
@@ -1218,6 +1219,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Richard Helms', relationship: 'CIA Deputy Director', href: '/entities/individuals/richard-helms' },
     ],
   },
+
 
 
 

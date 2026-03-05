@@ -1202,6 +1202,61 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'defense-intelligence-agency': {
+    id: '42b2b3cbb72f28fc',
+    slug: 'defense-intelligence-agency',
+    name: 'Defense Intelligence Agency',
+    type: 'agency',
+    description: 'Defense Intelligence Agency is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'drug-enforcement-administration': {
+    id: 'fa5428d1f4e5c3bc',
+    slug: 'drug-enforcement-administration',
+    name: 'Drug Enforcement Administration',
+    type: 'agency',
+    description: 'Drug Enforcement Administration is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'immigration-and-customs-enforcement': {
+    id: 'd0734f56ecb3f4e7',
+    slug: 'immigration-and-customs-enforcement',
+    name: 'Immigration and Customs Enforcement',
+    type: 'agency',
+    description: 'Immigration and Customs Enforcement is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'customs-and-border-protection': {
+    id: '84261174d1f79f99',
+    slug: 'customs-and-border-protection',
+    name: 'Customs and Border Protection',
+    type: 'agency',
+    description: 'Customs and Border Protection is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'federal-communications-commission': {
+    id: '0cf9065fbe611710',
+    slug: 'federal-communications-commission',
+    name: 'Federal Communications Commission',
+    type: 'agency',
+    description: 'Federal Communications Commission is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
+
+
+
+
 
 
 
