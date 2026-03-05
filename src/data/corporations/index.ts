@@ -1942,6 +1942,17 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 0,
     riskLevel: 'moderate',
   },
+  'spacex': {
+    id: '7b3211e51ef90a22',
+    slug: 'spacex',
+    name: 'SpaceX',
+    type: 'corporation',
+    description: 'SpaceX is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 
 
 

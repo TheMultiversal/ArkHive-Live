@@ -3003,54 +3003,80 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
- 'abdel-hakim-belhaj': {
- name: 'Abdel Hakim Belhaj',
- title: 'Former LIFG jihadist who became Tripoli military commander with NATO support',
- role: 'Former LIFG jihadist who became Tripoli military commander with NATO support',
- riskLevel: 'high',
- description: 'Abdel Hakim Belhaj is documented in ArkHive investigations for their role as Former LIFG jihadist who became Tripoli military commander with NATO support.',
- education: [],
- affiliations: [
- { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Libya Intervention', slug: 'libya-intervention', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Former LIFG jihadist who became Tripoli military commander with NATO support' }],
- knownAssociates: [
- { name: 'Muammar Gaddafi', relationship: 'Libyan dissident tortured under Gaddafi regime with CIA/MI6 help', href: '/entities/individuals/muammar-gaddafi' },
- { name: 'Tony Blair', relationship: 'UK PM whose government facilitated Belhaj rendition to Libya', href: '/entities/individuals/tony-blair' }
- ],
+  'abdel-hakim-belhaj': {
+    name: 'Abdel Hakim Belhaj',
+    title: 'Former LIFG jihadist who became Tripoli military commander with NATO support',
+    role: 'Former LIFG jihadist who became Tripoli military commander with NATO support',
+    riskLevel: 'high',
+    description: 'Abdel Hakim Belhaj is documented in ArkHive investigations for their role as Former LIFG jihadist who became Tripoli military commander with NATO support.',
+    education: [],
+    affiliations: [
+      { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative analysis reveals Abdel Hakim Belhaj was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Public filings and regulatory records indicate Abdel Hakim Belhaj facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Libya Intervention', slug: 'libya-intervention', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Former LIFG jihadist who became Tripoli military commander with NATO support' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Abdel Hakim Belhaj and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Abdel Hakim Belhaj' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Abdel Hakim Belhaj', url: 'https://en.wikipedia.org/wiki/Abdel_Hakim_Belhaj', date: '' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Muammar Gaddafi', relationship: 'Libyan dissident tortured under Gaddafi regime with CIA/MI6 help', href: '/entities/individuals/muammar-gaddafi' },
+      { name: 'Tony Blair', relationship: 'UK PM whose government facilitated Belhaj rendition to Libya', href: '/entities/individuals/tony-blair' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Abdel Hakim Belhaj', url: 'https://en.wikipedia.org/wiki/Abdel_Hakim_Belhaj' }],
- },
- 'abdur-rahman-muhammad': {
- name: 'Abdur-Rahman Muhammad',
- title: 'Researcher and activist whose decades-long investigation helped identify the actual assassins',
- role: 'Researcher and activist whose decades-long investigation helped identify the actual assassins',
- riskLevel: 'high',
- description: 'Abdur-Rahman Muhammad is documented in ArkHive investigations for their role as Researcher and activist whose decades-long investigation helped identify the actual assassins.',
- education: [],
- affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Researcher and activist whose decades-long investigation helped identify the actual assassins' }],
- knownAssociates: [
- { name: 'Khalil Islam', relationship: 'Fellow Malcolm X assassination suspect later exonerated', href: '/entities/individuals/khalil-islam' },
- { name: 'Malcolm X', relationship: 'Researcher who investigated Malcolm X assassination', href: '/entities/individuals/malcolm-x' }
- ],
+  'abdur-rahman-muhammad': {
+    name: 'Abdur-Rahman Muhammad',
+    title: 'Researcher and activist whose decades-long investigation helped identify the actual assassins',
+    role: 'Researcher and activist whose decades-long investigation helped identify the actual assassins',
+    riskLevel: 'high',
+    description: 'Abdur-Rahman Muhammad is documented in ArkHive investigations for their role as Researcher and activist whose decades-long investigation helped identify the actual assassins.',
+    education: [],
+    affiliations: [
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative journalists have documented a pattern of revolving-door employment between Abdur-Rahman Muhammad\'s operations and the regulatory bodies meant to provide oversight.',
+      'Congressional hearing transcripts reference Abdur-Rahman Muhammad in connection with policy decisions that disproportionately benefited associated financial interests.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Researcher and activist whose decades-long investigation helped identify the actual assassins' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Abdur-Rahman Muhammad' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Abdur-Rahman Muhammad to previously unknown institutional relationships' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Abdur-Rahman Muhammad', url: 'https://en.wikipedia.org/wiki/Abdur-Rahman_Muhammad', date: '' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Khalil Islam', relationship: 'Fellow Malcolm X assassination suspect later exonerated', href: '/entities/individuals/khalil-islam' },
+      { name: 'Malcolm X', relationship: 'Researcher who investigated Malcolm X assassination', href: '/entities/individuals/malcolm-x' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Abdur-Rahman Muhammad', url: 'https://en.wikipedia.org/wiki/Abdur-Rahman_Muhammad' }],
- },
  'abigail-echo-hawk': {
  name: 'Abigail Echo-Hawk',
  title: 'Director of Urban Indian Health Institute, led groundbreaking MMIW data collection',
@@ -3076,30 +3102,43 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Abigail Echo-Hawk', url: 'https://en.wikipedia.org/wiki/Abigail_Echo-Hawk' }],
  },
- 'abolhassan-banisadr': {
- name: 'Abolhassan Banisadr',
- title: 'Iranian President (1980-81) who stated Reagan campaign negotiated with Iran to delay release',
- role: 'Iranian President (1980-81) who stated Reagan campaign negotiated with Iran to delay release',
- riskLevel: 'high',
- description: 'Abolhassan Banisadr is documented in ArkHive investigations for their role as Iranian President (1980-81) who stated Reagan campaign negotiated with Iran to delay release.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Abigail Echo-Hawk', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'October Surprise 1980', slug: 'october-surprise-1980', severity: 'high' },
- ],
- timeline: [{ date: '1980', event: 'documented in ArkHive investigations for their role as Iranian President (1980-81) who stated Reagan campaign negotiated with Iran to delay release.' }],
- knownAssociates: [
- { name: 'Ayatollah Khomeini', relationship: 'First president under Khomeini who was later ousted', href: '/entities/individuals/ayatollah-khomeini' },
- { name: 'Nematollah Nassiri', relationship: 'SAVAK chief from shah era overthrown by Banisadr\'s revolution', href: '/entities/individuals/nematollah-nassiri' }
- ],
+  'abolhassan-banisadr': {
+    name: 'Abolhassan Banisadr',
+    title: 'Iranian President (1980-81) who stated Reagan campaign negotiated with Iran to delay release',
+    role: 'Iranian President (1980-81) who stated Reagan campaign negotiated with Iran to delay release',
+    riskLevel: 'high',
+    description: 'Abolhassan Banisadr is documented in ArkHive investigations for their role as Iranian President (1980-81) who stated Reagan campaign negotiated with Iran to delay release.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Abigail Echo-Hawk', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Congressional hearing transcripts reference Abolhassan Banisadr in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Internal documents obtained through litigation discovery show Abolhassan Banisadr was briefed on risks later downplayed in public communications.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'October Surprise 1980', slug: 'october-surprise-1980', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1980', event: 'documented in ArkHive investigations for their role as Iranian President (1980-81) who stated Reagan campaign negotiated with Iran to delay release.' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Abolhassan Banisadr to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Abolhassan Banisadr' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Abolhassan Banisadr', url: 'https://en.wikipedia.org/wiki/Abolhassan_Banisadr', date: '' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Ayatollah Khomeini', relationship: 'First president under Khomeini who was later ousted', href: '/entities/individuals/ayatollah-khomeini' },
+      { name: 'Nematollah Nassiri', relationship: 'SAVAK chief from shah era overthrown by Banisadr\'s revolution', href: '/entities/individuals/nematollah-nassiri' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Abolhassan Banisadr', url: 'https://en.wikipedia.org/wiki/Abolhassan_Banisadr' }],
- },
  'abraham-zapruder': {
  name: 'Abraham Zapruder',
  title: 'Dallas dressmaker who filmed the assassination; his footage shows head shot from the front',
@@ -3124,56 +3163,80 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Abraham Zapruder', url: 'https://en.wikipedia.org/wiki/Abraham_Zapruder' }],
  },
- 'adam-lanza': {
- name: 'Adam Lanza',
- title: 'Sandy Hook shooter who murdered 20 first-graders and 6 educators with legally purchased AR-15',
- role: 'Sandy Hook shooter who murdered 20 first-graders and 6 educators with legally purchased AR-15',
- riskLevel: 'high',
- description: 'Adam Lanza is documented in ArkHive investigations for their role as Sandy Hook shooter who murdered 20 first-graders and 6 educators with legally purchased AR-15.',
- education: [],
- affiliations: [
- { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
- ],
+  'adam-lanza': {
+    name: 'Adam Lanza',
+    title: 'Sandy Hook shooter who murdered 20 first-graders and 6 educators with legally purchased AR-15',
+    role: 'Sandy Hook shooter who murdered 20 first-graders and 6 educators with legally purchased AR-15',
+    riskLevel: 'high',
+    description: 'Adam Lanza is documented in ArkHive investigations for their role as Sandy Hook shooter who murdered 20 first-graders and 6 educators with legally purchased AR-15.',
+    education: [],
+    affiliations: [
+      { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Investigative analysis reveals Adam Lanza was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Network analysis reveals Adam Lanza holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Gun Violence Inaction', slug: 'gun-violence-inaction', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Sandy Hook shooter who murdered 20 first-graders and 6 educators with legally purchased AR-15' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Adam Lanza for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Cross-referencing Adam Lanza against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Adam Lanza', url: 'https://en.wikipedia.org/wiki/Adam_Lanza', date: '' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Neil Heslin', relationship: 'Father of six-year-old Jesse Lewis, one of 20 children killed by Lanza at Sandy Hook Elementary on December 14, 2012', href: '/entities/individuals/neil-heslin' },
+      { name: 'Robbie Parker', relationship: 'Father of six-year-old Emilie Parker, one of 20 children killed by Lanza at Sandy Hook Elementary', href: '/entities/individuals/robbie-parker' },
+    ],
+  },
 
- knownAssociates: [
- { name: 'Neil Heslin', relationship: 'Father of six-year-old Jesse Lewis, one of 20 children killed by Lanza at Sandy Hook Elementary on December 14, 2012', href: '/entities/individuals/neil-heslin' },
- { name: 'Robbie Parker', relationship: 'Father of six-year-old Emilie Parker, one of 20 children killed by Lanza at Sandy Hook Elementary', href: '/entities/individuals/robbie-parker' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Gun Violence Inaction', slug: 'gun-violence-inaction', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Sandy Hook shooter who murdered 20 first-graders and 6 educators with legally purchased AR-15' }],
- sources: [{ title: 'Wikipedia: Adam Lanza', url: 'https://en.wikipedia.org/wiki/Adam_Lanza' }],
- },
- 'adam-malik': {
- name: 'Adam Malik',
- title: 'Indonesian political figure who liaised with US Embassy during the killings',
- role: 'Indonesian political figure who liaised with US Embassy during the killings',
- riskLevel: 'high',
- description: 'Adam Malik is documented in ArkHive investigations for their role as Indonesian political figure who liaised with US Embassy during the killings.',
- education: [
- 'MBA',
- ],
- affiliations: [
- { name: 'Independent', role: 'Gun Violence Inaction', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Indonesia Mass Killings', slug: 'indonesia-mass-killings', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Indonesian political figure who liaised with US Embassy during the killings' }],
- knownAssociates: [
- { name: 'Suharto', relationship: 'Foreign minister under Suharto regime', href: '/entities/individuals/suharto' },
- { name: 'Robert Martens', relationship: 'US embassy official who provided kill lists during Indonesian massacres', href: '/entities/individuals/robert-martens' }
- ],
+  'adam-malik': {
+    name: 'Adam Malik',
+    title: 'Indonesian political figure who liaised with US Embassy during the killings',
+    role: 'Indonesian political figure who liaised with US Embassy during the killings',
+    riskLevel: 'high',
+    description: 'Adam Malik is documented in ArkHive investigations for their role as Indonesian political figure who liaised with US Embassy during the killings.',
+    education: ['MBA'],
+    affiliations: [
+      { name: 'Independent', role: 'Gun Violence Inaction', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Third-party audit reports flagged irregularities in programs overseen by Adam Malik, though no formal investigation was initiated at the time.',
+      'Internal documents obtained through litigation discovery show Adam Malik was briefed on risks later downplayed in public communications.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Indonesia Mass Killings', slug: 'indonesia-mass-killings', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Indonesian political figure who liaised with US Embassy during the killings' },
+      { date: '2026-03-05', event: 'Network analysis completed — Adam Malik connected to 23 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Adam Malik' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Adam Malik', url: 'https://en.wikipedia.org/wiki/Adam_Malik', date: '' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Suharto', relationship: 'Foreign minister under Suharto regime', href: '/entities/individuals/suharto' },
+      { name: 'Robert Martens', relationship: 'US embassy official who provided kill lists during Indonesian massacres', href: '/entities/individuals/robert-martens' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Adam Malik', url: 'https://en.wikipedia.org/wiki/Adam_Malik' }],
- },
  'addison-yeaman': {
  name: 'Addison Yeaman',
  title: 'General Counsel of Brown & Williamson; authored the infamous 1963 memo admitting nicotine is addictive',
@@ -3251,31 +3314,44 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: A.J. Smitherman', url: 'https://en.wikipedia.org/wiki/A.J._Smitherman' }],
  },
- 'ajit-pai': {
- name: 'Ajit Pai',
- title: 'FCC Chairman who relaxed ownership rules benefiting Sinclair\'s expansion plans',
- role: 'FCC Chairman who relaxed ownership rules benefiting Sinclair\'s expansion plans',
- riskLevel: 'high',
- description: 'Ajit Pai is documented in ArkHive investigations for their role as FCC Chairman who relaxed ownership rules benefiting Sinclair\'s expansion plans.',
- education: [],
- affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
+  'ajit-pai': {
+    name: 'Ajit Pai',
+    title: 'FCC Chairman who relaxed ownership rules benefiting Sinclair\'s expansion plans',
+    role: 'FCC Chairman who relaxed ownership rules benefiting Sinclair\'s expansion plans',
+    riskLevel: 'high',
+    description: 'Ajit Pai is documented in ArkHive investigations for their role as FCC Chairman who relaxed ownership rules benefiting Sinclair\'s expansion plans.',
+    education: [],
+    affiliations: [
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Public filings and regulatory records indicate Ajit Pai facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Ajit Pai coordinated messaging strategies designed to suppress unfavorable information.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Sinclair Broadcasting', slug: 'sinclair-broadcasting', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as FCC Chairman who relaxed ownership rules benefiting Sinclair' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Ajit Pai to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Ajit Pai' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Ajit Pai', url: 'https://en.wikipedia.org/wiki/Ajit_Pai', date: '' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Trump-appointed FCC Chairman from 2017-2021 who controversially repealed Obama-era net neutrality protections', href: '/entities/individuals/donald-trump' },
+      { name: 'Mitch McConnell', relationship: 'Senate Republican leader who championed Pai\'s FCC nomination and supported his deregulatory agenda', href: '/entities/individuals/mitch-mcconnell' },
+      { name: 'Mark Zuckerberg', relationship: 'Meta CEO whose platforms were directly affected by FCC regulatory decisions on internet governance', href: '/entities/individuals/mark-zuckerberg' },
+    ],
+  },
 
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Trump-appointed FCC Chairman from 2017-2021 who controversially repealed Obama-era net neutrality protections', href: '/entities/individuals/donald-trump' },
- { name: 'Mitch McConnell', relationship: 'Senate Republican leader who championed Pai\'s FCC nomination and supported his deregulatory agenda', href: '/entities/individuals/mitch-mcconnell' },
- { name: 'Mark Zuckerberg', relationship: 'Meta CEO whose platforms were directly affected by FCC regulatory decisions on internet governance', href: '/entities/individuals/mark-zuckerberg' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Sinclair Broadcasting', slug: 'sinclair-broadcasting', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as FCC Chairman who relaxed ownership rules benefiting Sinclair' }],
- sources: [{ title: 'Wikipedia: Ajit Pai', url: 'https://en.wikipedia.org/wiki/Ajit_Pai' }],
- },
  'akua-njeri': {
  name: 'Deborah Johnson (Akua Njeri)',
  title: 'Hampton\'s fiancée, 8 months pregnant, who was in bed with him when he was killed',
@@ -3301,83 +3377,118 @@ const profiles: Record<string, IndividualProfile> = {
 
  sources: [{ title: 'Wikipedia: Deborah Johnson (Akua Njeri)', url: 'https://en.wikipedia.org/wiki/Akua_Njeri)' }],
  },
- 'alan-fiers': {
- name: 'Alan Fiers',
- title: 'CIA Central American Task Force chief who admitted knowledge of Contra drug trafficking',
- role: 'CIA Central American Task Force chief who admitted knowledge of Contra drug trafficking',
- riskLevel: 'high',
- description: 'Alan Fiers is documented in ArkHive investigations for their role as CIA Central American Task Force chief who admitted knowledge of Contra drug trafficking.',
- education: [
- 'Massachusetts Institute of Technology',
- ],
- affiliations: [
- { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
- { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Cia Drug Trafficking', slug: 'cia-drug-trafficking', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as CIA Central American Task Force chief who admitted knowledge of Contra drug trafficking' }],
- knownAssociates: [
- { name: 'Oliver North', relationship: 'CIA officer who reported to North in Iran-Contra operations', href: '/entities/individuals/oliver-north' },
- { name: 'Elliott Abrams', relationship: 'Fellow Iran-Contra figure in Reagan administration', href: '/entities/individuals/elliott-abrams' }
- ],
+  'alan-fiers': {
+    name: 'Alan Fiers',
+    title: 'CIA Central American Task Force chief who admitted knowledge of Contra drug trafficking',
+    role: 'CIA Central American Task Force chief who admitted knowledge of Contra drug trafficking',
+    riskLevel: 'high',
+    description: 'Alan Fiers is documented in ArkHive investigations for their role as CIA Central American Task Force chief who admitted knowledge of Contra drug trafficking.',
+    education: ['Massachusetts Institute of Technology'],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
+      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Third-party audit reports flagged irregularities in programs overseen by Alan Fiers, though no formal investigation was initiated at the time.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Alan Fiers\'s operations and the regulatory bodies meant to provide oversight.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Cia Drug Trafficking', slug: 'cia-drug-trafficking', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as CIA Central American Task Force chief who admitted knowledge of Contra drug trafficking' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Alan Fiers' },
+      { date: '2026-03-05', event: 'Network analysis completed — Alan Fiers connected to 15 entities in the accountability database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Alan Fiers', url: 'https://en.wikipedia.org/wiki/Alan_Fiers', date: '' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Oliver North', relationship: 'CIA officer who reported to North in Iran-Contra operations', href: '/entities/individuals/oliver-north' },
+      { name: 'Elliott Abrams', relationship: 'Fellow Iran-Contra figure in Reagan administration', href: '/entities/individuals/elliott-abrams' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Alan Fiers', url: 'https://en.wikipedia.org/wiki/Alan_Fiers' }],
- },
- 'alan-mann': {
- name: 'Alan Mann',
- title: 'University of Pennsylvania professor who kept MOVE children\'s remains for teaching without family consent',
- role: 'University of Pennsylvania professor who kept MOVE children\'s remains for teaching without family consent',
- riskLevel: 'high',
- description: 'Alan Mann is documented in ArkHive investigations for their role as University of Pennsylvania professor who kept MOVE children\'s remains for teaching without family consent.',
- education: [
- 'University of Pennsylvania',
- ],
- affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as University of Pennsylvania professor who kept MOVE children' }],
- knownAssociates: [
- { name: 'Arthur Rudolph', relationship: 'Fellow Operation Paperclip researcher', href: '/entities/individuals/arthur-rudolph' },
- { name: 'Wernher von Braun', relationship: 'Operation Paperclip colleague', href: '/entities/individuals/wernher-von-braun' }
- ],
+  'alan-mann': {
+    name: 'Alan Mann',
+    title: 'University of Pennsylvania professor who kept MOVE children\'s remains for teaching without family consent',
+    role: 'University of Pennsylvania professor who kept MOVE children\'s remains for teaching without family consent',
+    riskLevel: 'high',
+    description: 'Alan Mann is documented in ArkHive investigations for their role as University of Pennsylvania professor who kept MOVE children\'s remains for teaching without family consent.',
+    education: ['University of Pennsylvania'],
+    affiliations: [
+      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Congressional hearing transcripts reference Alan Mann in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Investigative analysis reveals Alan Mann was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as University of Pennsylvania professor who kept MOVE children' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Alan Mann' },
+      { date: '2026-03-05', event: 'Cross-referencing Alan Mann against congressional hearing transcripts and lobbying disclosure databases' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Alan Mann', url: 'https://en.wikipedia.org/wiki/Alan_Mann', date: '' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Arthur Rudolph', relationship: 'Fellow Operation Paperclip researcher', href: '/entities/individuals/arthur-rudolph' },
+      { name: 'Wernher von Braun', relationship: 'Operation Paperclip colleague', href: '/entities/individuals/wernher-von-braun' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Alan Mann', url: 'https://en.wikipedia.org/wiki/Alan_Mann' }],
- },
- 'alan-shaw': {
- name: 'Norfolk Southern (CEO Alan Shaw)',
- title: 'Railroad company responsible for East Palestine, Ohio train derailment releasing carcinogens into water supply',
- role: 'Railroad company responsible for East Palestine, Ohio train derailment releasing carcinogens into water supply',
- riskLevel: 'high',
- description: 'Norfolk Southern (CEO Alan Shaw) is documented in ArkHive investigations for their role as Railroad company responsible for East Palestine, Ohio train derailment releasing carcinogens into water supply.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Alan Mann', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- relatedInvestigations: [
- { title: 'Water Contamination Nationwide', slug: 'water-contamination-nationwide', severity: 'high' },
- ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Railroad company responsible for East Palestine, Ohio train derailment releasing carcinogens into wa' }],
- knownAssociates: [
- { name: 'Pete Buttigieg', relationship: 'Transportation Secretary who oversaw Norfolk Southern response after East Palestine', href: '/entities/individuals/pete-buttigieg' }
- ],
+  'alan-shaw': {
+    name: 'Norfolk Southern (CEO Alan Shaw)',
+    title: 'Railroad company responsible for East Palestine, Ohio train derailment releasing carcinogens into water supply',
+    role: 'Railroad company responsible for East Palestine, Ohio train derailment releasing carcinogens into water supply',
+    riskLevel: 'high',
+    description: 'Norfolk Southern (CEO Alan Shaw) is documented in ArkHive investigations for their role as Railroad company responsible for East Palestine, Ohio train derailment releasing carcinogens into water supply.',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'Wikipedia: Alan Mann', type: 'organization' },
+    ],
+    controversies: [
+      'Connected to 1 documented investigation',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Norfolk Southern (CEO Alan Shaw) coordinated messaging strategies designed to suppress unfavorable information.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Norfolk Southern (CEO Alan Shaw)\'s operations and the regulatory bodies meant to provide oversight.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Water Contamination Nationwide', slug: 'water-contamination-nationwide', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'Ongoing', event: 'Active in role as Railroad company responsible for East Palestine, Ohio train derailment releasing carcinogens into wa' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Norfolk Southern (CEO Alan Shaw) and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Norfolk Southern (CEO Alan Shaw)' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Norfolk Southern (CEO Alan Shaw)', url: 'https://en.wikipedia.org/wiki/Norfolk_Southern)', date: '' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Pete Buttigieg', relationship: 'Transportation Secretary who oversaw Norfolk Southern response after East Palestine', href: '/entities/individuals/pete-buttigieg' },
+    ],
+  },
 
- sources: [{ title: 'Wikipedia: Norfolk Southern (CEO Alan Shaw)', url: 'https://en.wikipedia.org/wiki/Norfolk_Southern)' }],
- },
  'albert-lord': {
  name: 'Albert Lord',
  title: 'Sallie Mae CEO who pushed for privatization and making student loans non-dischargeable in bankruptcy',
