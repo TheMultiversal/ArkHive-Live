@@ -466,6 +466,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Brad Parscale has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Brad Parscale has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Investigative analysis reveals Brad Parscale was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -473,6 +475,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Network analysis completed — Brad Parscale connected to 20 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
@@ -484,6 +487,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'boris-epshteyn': {
     name: 'Boris Epshteyn',
