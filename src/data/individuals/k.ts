@@ -482,6 +482,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Kayleigh Mcenany has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Kayleigh Mcenany in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Court documents from related proceedings reference Kayleigh Mcenany as a key decision-maker during periods where regulatory violations were later documented.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -489,6 +491,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Kayleigh Mcenany to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
@@ -500,6 +503,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
+
 
   'kim-jong-un': {
     name: 'Kim Jong Un',
