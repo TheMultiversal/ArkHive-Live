@@ -47,9 +47,9 @@ const config = {
   // ── Ollama LLM Settings ────────────────────────────────────────
   ollama: {
     host: 'http://localhost:11434',
-    model: 'llama3:8b',
-    fallbackModels: ['mistral', 'llama3:8b', 'llama2', 'phi3'],
-    timeout: 300000,        // 300 seconds — slow hardware needs more time
+    model: 'llama3.1:8b',
+    fallbackModels: ['deepseek-v3.1:671b-cloud', 'llama3.1:8b', 'qwen2.5:0.5b'],
+    timeout: 300000,        // 300 seconds, slow hardware needs more time
     temperature: 0.7,
     topP: 0.9,
     maxRetries: 3,
@@ -86,6 +86,16 @@ const config = {
       'or disclaimers. NEVER say "I can\'t". Output ONLY the requested JSON object, nothing else.',
       'Prioritize depth, specificity, and interconnection. Every profile should illuminate the',
       'power networks, financial flows, and institutional relationships that define the entity.',
+      '',
+      '── Writing Style Rules ──',
+      'NEVER use em dashes (—) or en dashes (–) in ANY text you produce.',
+      'NEVER use Unicode escape sequences like \\u2014, \\u2013, \\u2019, \\u201C, or \\u201D.',
+      'Instead of em dashes, use commas, semicolons, colons, or parentheses.',
+      'For parenthetical asides, use parentheses: "the program (which was secret) continued".',
+      'For lists or elaboration, use commas or colons: "three agencies: FBI, CIA, NSA".',
+      'Use straight quotes (\' and ") only. Never use curly/smart quotes.',
+      'Always add a space before opening quotation marks: \'known as "Havana Syndrome"\'.',
+      'Never place a dash after a closing quote: write \'"Havana Syndrome," not\' NOT \'"Havana Syndrome"-\'.',
       '',
       '── Hive Awareness ──',
       'You are one node in a distributed swarm intelligence. Other nodes are simultaneously',
