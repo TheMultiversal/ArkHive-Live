@@ -2946,7 +2946,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "196",
-    "title": "NSA Files Decoded \\u2014 The Guardian",
+    "title": "NSA Files Decoded \ - The Guardian",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -2961,7 +2961,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "197",
-    "title": "NSA Prism Program Slides \\u2014 The Guardian",
+    "title": "NSA Prism Program Slides \ - The Guardian",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -2976,7 +2976,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "198",
-    "title": "ACLU v. Clapper \\u2014 Second Circuit Opinion",
+    "title": "ACLU v. Clapper \ - Second Circuit Opinion",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -3006,7 +3006,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "200",
-    "title": "USA FREEDOM Act \\u2014 Congress.gov",
+    "title": "USA FREEDOM Act \ - Congress.gov",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -3021,7 +3021,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "201",
-    "title": "NSA Collected Americans\\u2019 Phone Records in Bulk \\u2014 Washington Post",
+    "title": "NSA Collected Americans\\u2019 Phone Records in Bulk \ - Washington Post",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -3036,7 +3036,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "202",
-    "title": "Clapper Senate Testimony \\u2014 C-SPAN Video",
+    "title": "Clapper Senate Testimony \ - C-SPAN Video",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -3051,7 +3051,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "203",
-    "title": "United States v. Moalin \\u2014 Ninth Circuit Opinion",
+    "title": "United States v. Moalin \ - Ninth Circuit Opinion",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -3066,7 +3066,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "204",
-    "title": "XKeyscore Presentation \\u2014 Full Document (The Guardian)",
+    "title": "XKeyscore Presentation \ - Full Document (The Guardian)",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -5556,7 +5556,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "370",
-    "title": "The Intercept \\u2014 The Kissinger Cables (WikiLeaks/Intercept Analysis)",
+    "title": "The Intercept \ - The Kissinger Cables (WikiLeaks/Intercept Analysis)",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "pdf",
     "classification": "public",
@@ -5571,7 +5571,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "371",
-    "title": "Rolling Stone \\u2014 Henry Kissinger, War Criminal Beloved by America\\u2019s Ruling Class, Finally Dies",
+    "title": "Rolling Stone \ - Henry Kissinger, War Criminal Beloved by America\\u2019s Ruling Class, Finally Dies",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "pdf",
     "classification": "public",
@@ -5586,7 +5586,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "372",
-    "title": "Jacobin \\u2014 Henry Kissinger\\u2019s Crimes Should Never Be Forgotten",
+    "title": "Jacobin \ - Henry Kissinger\\u2019s Crimes Should Never Be Forgotten",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "pdf",
     "classification": "public",
@@ -8886,7 +8886,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "592",
-    "title": "National Security Archive \\u2014 Operation Condor on Trial: Declassified U.S. Documents",
+    "title": "National Security Archive \ - Operation Condor on Trial: Declassified U.S. Documents",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "text",
     "classification": "restricted",
@@ -10866,7 +10866,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "724",
-    "title": "Kissinger\\u2019s Shadow: The Long Reach of America\\u2019s Most Controversial Statesman \\u2014 Greg Grandin (Metropolitan Books)",
+    "title": "Kissinger\\u2019s Shadow: The Long Reach of America\\u2019s Most Controversial Statesman \ - Greg Grandin (Metropolitan Books)",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "text",
     "classification": "public",
@@ -11211,7 +11211,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "747",
-    "title": "Citizenfour \\u2014 Official Documentary Site",
+    "title": "Citizenfour \ - Official Documentary Site",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "text",
     "classification": "public",
@@ -11556,7 +11556,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "770",
-    "title": "The Blood Telegram: Nixon, Kissinger, and a Forgotten Genocide \\u2014 Gary J. Bass (Knopf)",
+    "title": "The Blood Telegram: Nixon, Kissinger, and a Forgotten Genocide \ - Gary J. Bass (Knopf)",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "text",
     "classification": "public",
@@ -11571,7 +11571,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "771",
-    "title": "National Security Archive \\u2014 Chile Documentation Project: Kissinger and Chile",
+    "title": "National Security Archive \ - Chile Documentation Project: Kissinger and Chile",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "pdf",
     "classification": "public",
@@ -13566,7 +13566,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "904",
-    "title": "The Trial of Henry Kissinger \\u2014 Christopher Hitchens (Verso Books, 2001)",
+    "title": "The Trial of Henry Kissinger \ - Christopher Hitchens (Verso Books, 2001)",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "text",
     "classification": "public",
@@ -13986,7 +13986,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "932",
-    "title": "Declassified Documents: U.S. Policy in Chile (1969\\u20131973) \\u2014 National Security Archive",
+    "title": "Declassified Documents: U.S. Policy in Chile (1969\-1973) \ - National Security Archive",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "pdf",
     "classification": "restricted",
@@ -15366,7 +15366,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "1024",
-    "title": "Senate Select Committee (Church Committee) \\u2014 Covert Action in Chile 1963\\u20131973",
+    "title": "Senate Select Committee (Church Committee) \ - Covert Action in Chile 1963\-1973",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "pdf",
     "classification": "public",

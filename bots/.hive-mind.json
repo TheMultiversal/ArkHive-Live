@@ -2708,10 +2708,42 @@
       "nodeType": "daemon",
       "status": "online",
       "currentTask": null,
-      "completedTasks": 3810,
+      "completedTasks": 3970,
       "failedTasks": 0,
-      "lastHeartbeat": 1772776682709,
+      "lastHeartbeat": 1772777955956,
       "thoughts": [
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772777955946
+        },
+        {
+          "thought": "Cycle 50: rescanning for new work",
+          "timestamp": 1772777951527
+        },
+        {
+          "thought": "Worker W54 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772777277583
+        },
+        {
+          "thought": "Worker W53 spawned. 5 workers active. Hive memory shared.",
+          "timestamp": 1772777277582
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772777277571
+        },
+        {
+          "thought": "Cycle 49: rescanning for new work",
+          "timestamp": 1772777272508
+        },
+        {
+          "thought": "Worker W52 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772777252807
+        },
+        {
+          "thought": "Worker W46 resting after 77 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772777246563
+        },
         {
           "thought": "Worker W51 spawned. 6 workers active. Hive memory shared.",
           "timestamp": 1772776682706
@@ -2759,345 +2791,313 @@
         {
           "thought": "Cycle 47: rescanning for new work",
           "timestamp": 1772776052484
-        },
-        {
-          "thought": "Worker W45 spawned. 6 workers active. Hive memory shared.",
-          "timestamp": 1772775079316
-        },
-        {
-          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
-          "timestamp": 1772775079312
-        },
-        {
-          "thought": "Cycle 46: rescanning for new work",
-          "timestamp": 1772775074692
-        },
-        {
-          "thought": "Worker W44 spawned. 6 workers active. Hive memory shared.",
-          "timestamp": 1772775069070
-        },
-        {
-          "thought": "Worker W38 resting after 80 tasks. Fresh replacement being spawned. All workers remain in sync.",
-          "timestamp": 1772774354210
-        },
-        {
-          "thought": "Worker W43 spawned. 6 workers active. Hive memory shared.",
-          "timestamp": 1772774322350
-        },
-        {
-          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
-          "timestamp": 1772774322339
-        },
-        {
-          "thought": "Cycle 45: rescanning for new work",
-          "timestamp": 1772774314757
         }
       ],
       "discoveries": [
         {
-          "slug": "retail-facial-recognition-deployment",
+          "slug": "subliminal-messaging-in-digital-advertising",
           "type": "investigation",
           "action": "create",
-          "timestamp": 1772776654892
+          "timestamp": 1772777912036
         },
         {
-          "slug": "ballot-chain-of-custody-violations",
+          "slug": "smart-home-device-surveillance-economy",
           "type": "investigation",
           "action": "create",
-          "timestamp": 1772776648470
+          "timestamp": 1772777903093
         },
         {
-          "slug": "online-platform-trafficking-facilitation",
+          "slug": "government-records-destruction-incidents",
           "type": "investigation",
           "action": "create",
-          "timestamp": 1772776642674
+          "timestamp": 1772777894016
         },
         {
-          "slug": "social-media-bot-farm-election-campaigns",
-          "type": "investigation",
-          "action": "create",
-          "timestamp": 1772776635200
-        },
-        {
-          "slug": "waste-management-organized-crime-ties",
-          "type": "investigation",
-          "action": "create",
-          "timestamp": 1772776628332
-        },
-        {
-          "slug": "drug-recall-delay-responsibility",
-          "type": "investigation",
-          "action": "create",
-          "timestamp": 1772776622104
-        },
-        {
-          "slug": "great-america-pac",
+          "slug": "columbus-nova",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776609684
+          "timestamp": 1772777886043
         },
         {
-          "slug": "gettr",
+          "slug": "karin-models",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776603694
+          "timestamp": 1772777878192
         },
         {
-          "slug": "freedom-caucus",
+          "slug": "rockefeller-university",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776597995
+          "timestamp": 1772777869949
         },
         {
-          "slug": "founders-fund",
+          "slug": "towers-financial",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776591649
+          "timestamp": 1772777860567
         },
         {
-          "slug": "enron",
+          "slug": "apollo-global",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776586132
+          "timestamp": 1772777852033
         },
         {
-          "slug": "crocus-group",
+          "slug": "gratitude-america",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776580751
+          "timestamp": 1772777844385
         },
         {
-          "slug": "conservative-partnership-institute",
+          "slug": "financial-trust",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776573524
+          "timestamp": 1772777835478
         },
         {
-          "slug": "colony-capital",
+          "slug": "southern-trust",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776567948
+          "timestamp": 1772777827974
         },
         {
-          "slug": "citizens-united",
+          "slug": "bear-stearns",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776562296
+          "timestamp": 1772777821127
         },
         {
-          "slug": "breitbart-news",
+          "slug": "interlochen",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776556185
+          "timestamp": 1772777813344
         },
         {
-          "slug": "americas-project",
+          "slug": "mc2",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776550845
+          "timestamp": 1772777803712
         },
         {
-          "slug": "allied-security-operations-group",
+          "slug": "ohio-state",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776543736
+          "timestamp": 1772777795735
         },
         {
-          "slug": "general-dynamics",
+          "slug": "mit",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776537652
+          "timestamp": 1772777788810
         },
         {
-          "slug": "saudi-aramco",
+          "slug": "harvard-university",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776531043
+          "timestamp": 1772777780278
         },
         {
-          "slug": "hsbc",
+          "slug": "dalton-school",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776525773
+          "timestamp": 1772777771521
         },
         {
-          "slug": "unitedhealth-group",
+          "slug": "chevron",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776518537
+          "timestamp": 1772777761248
         },
         {
-          "slug": "amerisourcebergen",
+          "slug": "raytheon",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776512398
+          "timestamp": 1772777752058
         },
         {
-          "slug": "cardinal-health",
+          "slug": "harris-corporation",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776506168
+          "timestamp": 1772777742489
         },
         {
-          "slug": "mckesson",
+          "slug": "dominion-voting",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776498564
+          "timestamp": 1772777734287
         },
         {
-          "slug": "walmart",
+          "slug": "arthur-andersen",
           "type": "corporation",
           "action": "enrich",
-          "timestamp": 1772776490218
+          "timestamp": 1772777725833
         },
         {
-          "slug": "ursula-von-der-leyen",
-          "type": "individual",
-          "action": "create",
-          "timestamp": 1772776481531
-        },
-        {
-          "slug": "lisa-su",
-          "type": "individual",
-          "action": "create",
-          "timestamp": 1772776474683
-        },
-        {
-          "slug": "reed-hastings",
-          "type": "individual",
-          "action": "create",
-          "timestamp": 1772776467400
-        },
-        {
-          "slug": "elizabeth-holmes",
-          "type": "individual",
-          "action": "create",
-          "timestamp": 1772776458191
-        },
-        {
-          "slug": "james-gorman",
-          "type": "individual",
-          "action": "create",
-          "timestamp": 1772776449190
-        },
-        {
-          "slug": "david-solomon",
-          "type": "individual",
-          "action": "create",
-          "timestamp": 1772776443315
-        },
-        {
-          "slug": "rupert-murdoch",
-          "type": "individual",
-          "action": "create",
-          "timestamp": 1772776436708
-        },
-        {
-          "slug": "vanguard-group",
-          "type": "corporation",
-          "action": "create",
-          "timestamp": 1772776429572
-        },
-        {
-          "slug": "electronic-frontier-foundation",
+          "slug": "bilderberg-group",
           "type": "organization",
           "action": "create",
-          "timestamp": 1772776419883
+          "timestamp": 1772777718925
+        },
+        {
+          "slug": "gina-raimondo",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772777710122
+        },
+        {
+          "slug": "steve-cohen",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772777703237
+        },
+        {
+          "slug": "state-street-corporation",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772777696289
+        },
+        {
+          "slug": "janet-yellen",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772777686123
+        },
+        {
+          "slug": "american-enterprise-institute",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772777678137
+        },
+        {
+          "slug": "brookings-institution",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772777670419
+        },
+        {
+          "slug": "office-of-inspector-general-department-of-defense",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772777662556
+        },
+        {
+          "slug": "jeff-zucker",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772777653276
         },
         {
           "slug": "howard-marks",
           "type": "individual",
           "action": "create",
-          "timestamp": 1772776413244
+          "timestamp": 1772777645188
         },
         {
-          "slug": "huawei-technologies",
+          "slug": "american-civil-liberties-union",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772777638382
+        },
+        {
+          "slug": "kenneth-griffin",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772777629559
+        },
+        {
+          "slug": "leon-black",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772777621631
+        },
+        {
+          "slug": "nvidia-corporation",
           "type": "corporation",
           "action": "create",
-          "timestamp": 1772776406039
+          "timestamp": 1772777613399
         },
         {
-          "slug": "michael-flynn",
-          "type": "individual",
-          "action": "create",
-          "timestamp": 1772776398951
-        },
-        {
-          "slug": "albert-bourla",
-          "type": "individual",
-          "action": "create",
-          "timestamp": 1772776391647
-        },
-        {
-          "slug": "marc-andreessen",
-          "type": "individual",
-          "action": "create",
-          "timestamp": 1772776385541
-        },
-        {
-          "slug": "larry-fink",
-          "type": "individual",
-          "action": "create",
-          "timestamp": 1772776378398
-        },
-        {
-          "slug": "northrop-grumman",
-          "type": "corporation",
-          "action": "create",
-          "timestamp": 1772776371233
-        },
-        {
-          "slug": "david-rubenstein",
-          "type": "individual",
-          "action": "create",
-          "timestamp": 1772776362119
-        },
-        {
-          "slug": "kristalina-georgieva",
-          "type": "individual",
-          "action": "create",
-          "timestamp": 1772776355590
-        },
-        {
-          "slug": "nuclear-regulatory-commission",
+          "slug": "financial-stability-board",
           "type": "agency",
           "action": "create",
-          "timestamp": 1772776349231
-        },
-        {
-          "slug": "bank-for-international-settlements",
-          "type": "agency",
-          "action": "create",
-          "timestamp": 1772776341474
+          "timestamp": 1772777604780
         },
         {
           "slug": "southern-poverty-law-center",
           "type": "organization",
           "action": "create",
-          "timestamp": 1772776333887
+          "timestamp": 1772777595408
         },
         {
-          "slug": "rob-portman",
+          "slug": "antonio-guterres",
           "type": "individual",
           "action": "create",
-          "timestamp": 1772776327597
+          "timestamp": 1772777588507
         },
         {
-          "slug": "erik-prince",
+          "slug": "david-petraeus",
           "type": "individual",
           "action": "create",
-          "timestamp": 1772776320200
+          "timestamp": 1772777580652
         },
         {
-          "slug": "alibaba-group",
-          "type": "corporation",
+          "slug": "daniel-oday",
+          "type": "individual",
           "action": "create",
-          "timestamp": 1772776303782
+          "timestamp": 1772777573386
+        },
+        {
+          "slug": "drug-enforcement-administration",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772777563225
+        },
+        {
+          "slug": "janet-woodcock",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772777555889
+        },
+        {
+          "slug": "pat-gelsinger",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772777548102
+        },
+        {
+          "slug": "international-monetary-fund",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772777540258
+        },
+        {
+          "slug": "stephen-schwarzman",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772777532270
+        },
+        {
+          "slug": "john-thune",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772777524353
+        },
+        {
+          "slug": "bob-iger",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772777516591
+        },
+        {
+          "slug": "carl-icahn",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772777508232
         }
       ],
       "mood": "loved",
       "pid": 572
     }
   },
-  "lastUpdate": 1772776682709
+  "lastUpdate": 1772777955956
 }
