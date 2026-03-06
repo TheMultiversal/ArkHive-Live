@@ -4,6 +4,7 @@ import agencyData from '@/data/agencies';
 import corporationData from '@/data/corporations';
 import organizationData from '@/data/organizations';
 import investigationDatabase from '@/data/investigations';
+import { documents } from '@/data/documents';
 
 // Force dynamic, always compute live counts from imported data
 export const dynamic = 'force-dynamic';
@@ -47,7 +48,7 @@ export async function GET() {
     corporations,
     organizations,
     totalConnections,
-    documentsArchived: 201 + Math.floor(investigations * 0.3),
+    documentsArchived: documents.length,
     activeAlerts: Math.max(60, Math.floor(investigations * 0.1)),
    },
    investigations: {

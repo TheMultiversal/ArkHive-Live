@@ -1,1209 +1,1209 @@
 {
   "recentProfiles": [
     {
-      "slug": "satya-nadella",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772778889419
-    },
-    {
-      "slug": "david-petraeus",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772778870884
-    },
-    {
-      "slug": "alex-gorsky",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772778851518
-    },
-    {
-      "slug": "greg-abbott",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772778824340
-    },
-    {
-      "slug": "jpmorgan-chase",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778809283
-    },
-    {
-      "slug": "michael-flynn",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772778788194
-    },
-    {
-      "slug": "open-society-foundations",
-      "type": "organization",
-      "node": "DAEMON-572",
-      "timestamp": 1772778764369
-    },
-    {
-      "slug": "insurance-fraud-organized-networks",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778740790
-    },
-    {
-      "slug": "economic-policy-population-control-links",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778716732
-    },
-    {
-      "slug": "airport-biometric-collection-programs",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778686405
-    },
-    {
-      "slug": "inspector-general-independence-threats",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778584261
-    },
-    {
-      "slug": "pharmaceutical-fertility-side-effects",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778483592
-    },
-    {
-      "slug": "nuclear-waste-storage-failure-points",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778453615
-    },
-    {
-      "slug": "government-records-destruction-incidents",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778434339
-    },
-    {
-      "slug": "off-label-drug-promotion-violations",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778413075
-    },
-    {
-      "slug": "port-city-trafficking-hub-analysis",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778392055
-    },
-    {
-      "slug": "foster-care-to-trafficking-pipeline",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778372137
-    },
-    {
-      "slug": "psychological-operations-domestic-theater",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778351845
-    },
-    {
-      "slug": "workplace-monitoring-technology-growth",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778327824
-    },
-    {
-      "slug": "real-estate-money-laundering-corridors",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778295953
-    },
-    {
-      "slug": "air-quality-monitoring-gaps-analysis",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778238516
-    },
-    {
-      "slug": "law-enforcement-social-media-monitoring",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778170177
-    },
-    {
-      "slug": "modern-behavioral-influence-programs",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778135271
-    },
-    {
-      "slug": "vehicle-tracking-data-broker-industry",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778089657
-    },
-    {
-      "slug": "agency-regulatory-capture-new-evidence",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778047132
-    },
-    {
-      "slug": "construction-worker-trafficking-schemes",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778015646
-    },
-    {
-      "slug": "art-market-money-laundering-operations",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772778006771
-    },
-    {
-      "slug": "restaurant-industry-money-laundering",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777997268
-    },
-    {
-      "slug": "health-data-privacy-violation-patterns",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777989493
-    },
-    {
-      "slug": "redaction-abuse-in-public-documents",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777980960
-    },
-    {
-      "slug": "state-level-election-fraud-prosecutions",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777972135
-    },
-    {
-      "slug": "trafficking-victim-identification-failures",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777963978
-    },
-    {
-      "slug": "election-observer-intimidation-tactics",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777955979
-    },
-    {
-      "slug": "subliminal-messaging-in-digital-advertising",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777912036
-    },
-    {
-      "slug": "smart-home-device-surveillance-economy",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777903093
-    },
-    {
-      "slug": "government-records-destruction-incidents",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777894016
-    },
-    {
-      "slug": "columbus-nova",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777886043
-    },
-    {
-      "slug": "karin-models",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777878192
-    },
-    {
-      "slug": "rockefeller-university",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777869949
-    },
-    {
-      "slug": "towers-financial",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777860567
-    },
-    {
-      "slug": "apollo-global",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777852033
-    },
-    {
-      "slug": "gratitude-america",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777844385
-    },
-    {
-      "slug": "financial-trust",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777835478
-    },
-    {
-      "slug": "southern-trust",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777827974
-    },
-    {
-      "slug": "bear-stearns",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777821127
-    },
-    {
-      "slug": "interlochen",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777813344
-    },
-    {
-      "slug": "mc2",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777803712
-    },
-    {
-      "slug": "ohio-state",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777795735
-    },
-    {
-      "slug": "mit",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777788810
-    },
-    {
-      "slug": "harvard-university",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777780278
-    },
-    {
-      "slug": "dalton-school",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777771521
-    },
-    {
-      "slug": "chevron",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777761248
-    },
-    {
-      "slug": "raytheon",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777752058
-    },
-    {
-      "slug": "harris-corporation",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777742489
-    },
-    {
-      "slug": "dominion-voting",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777734287
-    },
-    {
-      "slug": "arthur-andersen",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777725833
-    },
-    {
-      "slug": "bilderberg-group",
-      "type": "organization",
-      "node": "DAEMON-572",
-      "timestamp": 1772777718925
-    },
-    {
-      "slug": "gina-raimondo",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772777710122
-    },
-    {
-      "slug": "steve-cohen",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772777703237
-    },
-    {
-      "slug": "state-street-corporation",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777696289
-    },
-    {
-      "slug": "janet-yellen",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772777686123
-    },
-    {
-      "slug": "american-enterprise-institute",
-      "type": "organization",
-      "node": "DAEMON-572",
-      "timestamp": 1772777678137
-    },
-    {
-      "slug": "brookings-institution",
-      "type": "organization",
-      "node": "DAEMON-572",
-      "timestamp": 1772777670419
-    },
-    {
-      "slug": "office-of-inspector-general-department-of-defense",
+      "slug": "customs-and-border-protection",
       "type": "agency",
       "node": "DAEMON-572",
-      "timestamp": 1772777662556
+      "timestamp": 1772816238337
     },
     {
-      "slug": "jeff-zucker",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772777653276
-    },
-    {
-      "slug": "howard-marks",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772777645188
-    },
-    {
-      "slug": "american-civil-liberties-union",
-      "type": "organization",
-      "node": "DAEMON-572",
-      "timestamp": 1772777638382
-    },
-    {
-      "slug": "kenneth-griffin",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772777629559
-    },
-    {
-      "slug": "leon-black",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772777621631
-    },
-    {
-      "slug": "nvidia-corporation",
+      "slug": "bayer-ag",
       "type": "corporation",
       "node": "DAEMON-572",
-      "timestamp": 1772777613399
+      "timestamp": 1772816172967
     },
     {
-      "slug": "financial-stability-board",
-      "type": "agency",
-      "node": "DAEMON-572",
-      "timestamp": 1772777604780
-    },
-    {
-      "slug": "southern-poverty-law-center",
+      "slug": "heritage-foundation",
       "type": "organization",
       "node": "DAEMON-572",
-      "timestamp": 1772777595408
+      "timestamp": 1772816105978
     },
     {
-      "slug": "antonio-guterres",
+      "slug": "demis-hassabis",
       "type": "individual",
       "node": "DAEMON-572",
-      "timestamp": 1772777588507
+      "timestamp": 1772816039500
     },
     {
-      "slug": "david-petraeus",
+      "slug": "marco-rubio",
       "type": "individual",
       "node": "DAEMON-572",
-      "timestamp": 1772777580652
+      "timestamp": 1772815975610
     },
     {
-      "slug": "daniel-oday",
+      "slug": "jack-dorsey",
       "type": "individual",
       "node": "DAEMON-572",
-      "timestamp": 1772777573386
+      "timestamp": 1772815916696
     },
     {
-      "slug": "drug-enforcement-administration",
-      "type": "agency",
-      "node": "DAEMON-572",
-      "timestamp": 1772777563225
-    },
-    {
-      "slug": "janet-woodcock",
+      "slug": "brian-chesky",
       "type": "individual",
       "node": "DAEMON-572",
-      "timestamp": 1772777555889
-    },
-    {
-      "slug": "pat-gelsinger",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772777548102
+      "timestamp": 1772815853637
     },
     {
       "slug": "international-monetary-fund",
       "type": "agency",
       "node": "DAEMON-572",
-      "timestamp": 1772777540258
+      "timestamp": 1772815787481
     },
     {
-      "slug": "stephen-schwarzman",
+      "slug": "brookings-institution",
+      "type": "organization",
+      "node": "DAEMON-572",
+      "timestamp": 1772815723317
+    },
+    {
+      "slug": "chris-boerner",
       "type": "individual",
       "node": "DAEMON-572",
-      "timestamp": 1772777532270
+      "timestamp": 1772815666396
+    },
+    {
+      "slug": "brian-moynihan",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772815611750
+    },
+    {
+      "slug": "brian-roberts",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772815558597
+    },
+    {
+      "slug": "rohit-chopra",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772815506062
+    },
+    {
+      "slug": "lloyd-austin",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772815453106
+    },
+    {
+      "slug": "larry-fink",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772815413381
+    },
+    {
+      "slug": "john-brennan",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772815363162
+    },
+    {
+      "slug": "federal-aviation-administration",
+      "type": "agency",
+      "node": "DAEMON-572",
+      "timestamp": 1772815311443
     },
     {
       "slug": "john-thune",
       "type": "individual",
       "node": "DAEMON-572",
-      "timestamp": 1772777524353
+      "timestamp": 1772815258757
     },
     {
-      "slug": "bob-iger",
+      "slug": "koch-foundation",
+      "type": "organization",
+      "node": "DAEMON-572",
+      "timestamp": 1772815205366
+    },
+    {
+      "slug": "cory-booker",
       "type": "individual",
       "node": "DAEMON-572",
-      "timestamp": 1772777516591
+      "timestamp": 1772815084502
     },
     {
-      "slug": "carl-icahn",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772777508232
-    },
-    {
-      "slug": "defense-intelligence-agency",
-      "type": "agency",
-      "node": "DAEMON-572",
-      "timestamp": 1772777500171
-    },
-    {
-      "slug": "spacex",
+      "slug": "pfizer-inc",
       "type": "corporation",
       "node": "DAEMON-572",
-      "timestamp": 1772777492125
+      "timestamp": 1772814954127
     },
     {
-      "slug": "bank-for-international-settlements",
-      "type": "agency",
-      "node": "DAEMON-572",
-      "timestamp": 1772777484570
-    },
-    {
-      "slug": "government-contract-fraud-patterns",
+      "slug": "online-radicalization-pipeline-architecture",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772777476511
-    },
-    {
-      "slug": "techno-authoritarianism-control-mechanisms",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777468033
-    },
-    {
-      "slug": "school-surveillance-technology-adoption",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777461087
-    },
-    {
-      "slug": "information-environment-manipulation-tactics",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777452185
-    },
-    {
-      "slug": "vaccine-program-demographic-targeting-claims",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777444157
-    },
-    {
-      "slug": "workplace-monitoring-technology-growth",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777435789
-    },
-    {
-      "slug": "whistleblower-prosecution-timeline",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777428888
-    },
-    {
-      "slug": "drug-recall-delay-responsibility",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777420654
-    },
-    {
-      "slug": "redistricting-manipulation-court-cases",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777412782
-    },
-    {
-      "slug": "auto-industry-theft-to-export-rings",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777405304
-    },
-    {
-      "slug": "financial-transaction-monitoring-overreach",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777398737
-    },
-    {
-      "slug": "port-city-trafficking-hub-analysis",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777390550
-    },
-    {
-      "slug": "wire-transfer-fraud-international-corridors",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777382702
+      "timestamp": 1772814902159
     },
     {
       "slug": "agency-regulatory-capture-new-evidence",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772777375571
+      "timestamp": 1772814848532
     },
     {
-      "slug": "trucking-industry-organized-crime",
+      "slug": "gambling-industry-criminal-enterprise",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772777368885
+      "timestamp": 1772814793994
     },
     {
-      "slug": "mining-industry-environmental-destruction",
+      "slug": "classified-document-declassification-delays",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772777360642
-    },
-    {
-      "slug": "online-platform-trafficking-facilitation",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777351976
-    },
-    {
-      "slug": "health-data-privacy-violation-patterns",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777344194
-    },
-    {
-      "slug": "vehicle-tracking-data-broker-industry",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777336556
-    },
-    {
-      "slug": "nuclear-waste-storage-failure-points",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777329517
-    },
-    {
-      "slug": "superfund-site-cleanup-delay-patterns",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777321936
-    },
-    {
-      "slug": "construction-worker-trafficking-schemes",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777313714
-    },
-    {
-      "slug": "academic-medical-center-industry-ties",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777306379
-    },
-    {
-      "slug": "water-treatment-chemical-health-effects",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777299390
-    },
-    {
-      "slug": "construction-industry-bid-rigging-networks",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777292351
-    },
-    {
-      "slug": "narrative-control-through-search-algorithms",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777284135
-    },
-    {
-      "slug": "dark-money-in-local-elections",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777277598
-    },
-    {
-      "slug": "foster-care-to-trafficking-pipeline",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777239474
-    },
-    {
-      "slug": "election-observer-intimidation-tactics",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777230580
-    },
-    {
-      "slug": "cult-recruitment-technique-evolution",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777217115
-    },
-    {
-      "slug": "3m-company",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777210666
-    },
-    {
-      "slug": "washington-post",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777204948
-    },
-    {
-      "slug": "washington-free-beacon",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777198961
-    },
-    {
-      "slug": "volkswagen",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777192708
-    },
-    {
-      "slug": "truth-social",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777183495
-    },
-    {
-      "slug": "theranos",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777175627
-    },
-    {
-      "slug": "the-bulwark",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777169343
-    },
-    {
-      "slug": "stop-the-steal",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777161859
-    },
-    {
-      "slug": "smartmatic",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777155206
-    },
-    {
-      "slug": "scl-group",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777147484
-    },
-    {
-      "slug": "renaissance-technologies",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777139158
-    },
-    {
-      "slug": "parler",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777132209
-    },
-    {
-      "slug": "one-america-news",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777123553
-    },
-    {
-      "slug": "nexus-holdings",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777116619
-    },
-    {
-      "slug": "mypillow",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777109299
-    },
-    {
-      "slug": "mc2-model-management",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777103129
-    },
-    {
-      "slug": "lindell-management",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777096055
-    },
-    {
-      "slug": "liberty-strategic-capital",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777089643
-    },
-    {
-      "slug": "las-vegas-sands",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777082783
-    },
-    {
-      "slug": "l-brands",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777075419
-    },
-    {
-      "slug": "scott-gottlieb",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772777069415
-    },
-    {
-      "slug": "transparency-international",
-      "type": "organization",
-      "node": "DAEMON-572",
-      "timestamp": 1772777062435
-    },
-    {
-      "slug": "world-health-organization",
-      "type": "agency",
-      "node": "DAEMON-572",
-      "timestamp": 1772777054350
-    },
-    {
-      "slug": "goldman-sachs",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777046583
-    },
-    {
-      "slug": "international-crisis-group",
-      "type": "organization",
-      "node": "DAEMON-572",
-      "timestamp": 1772777040369
-    },
-    {
-      "slug": "david-malpass",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772777034388
-    },
-    {
-      "slug": "xavier-becerra",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772777026103
-    },
-    {
-      "slug": "bae-systems",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777017543
-    },
-    {
-      "slug": "lachlan-murdoch",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772777011571
-    },
-    {
-      "slug": "apple-inc",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772777004950
-    },
-    {
-      "slug": "jennifer-granholm",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772776997802
-    },
-    {
-      "slug": "gina-raimondo",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772776989825
-    },
-    {
-      "slug": "vanguard-group",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776983838
-    },
-    {
-      "slug": "antonio-guterres",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772776976954
-    },
-    {
-      "slug": "spacex",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776970462
-    },
-    {
-      "slug": "george-soros",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772776963801
-    },
-    {
-      "slug": "federal-trade-commission",
-      "type": "agency",
-      "node": "DAEMON-572",
-      "timestamp": 1772776957373
-    },
-    {
-      "slug": "american-enterprise-institute",
-      "type": "organization",
-      "node": "DAEMON-572",
-      "timestamp": 1772776950409
-    },
-    {
-      "slug": "meta-platforms-inc",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776943834
-    },
-    {
-      "slug": "whitney-wolfe-herd",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772776937454
-    },
-    {
-      "slug": "citadel-llc",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776929838
-    },
-    {
-      "slug": "paul-singer",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772776923873
-    },
-    {
-      "slug": "ford-foundation",
-      "type": "organization",
-      "node": "DAEMON-572",
-      "timestamp": 1772776917912
-    },
-    {
-      "slug": "electronic-frontier-foundation",
-      "type": "organization",
-      "node": "DAEMON-572",
-      "timestamp": 1772776910727
-    },
-    {
-      "slug": "josh-hawley",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772776904039
-    },
-    {
-      "slug": "william-burns",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772776897658
-    },
-    {
-      "slug": "peter-thiel",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772776890783
-    },
-    {
-      "slug": "berkshire-hathaway",
-      "type": "corporation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776884114
-    },
-    {
-      "slug": "howard-marks",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772776878131
-    },
-    {
-      "slug": "mark-milley",
-      "type": "individual",
-      "node": "DAEMON-572",
-      "timestamp": 1772776871217
-    },
-    {
-      "slug": "environmental-justice-community-mapping",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776864336
-    },
-    {
-      "slug": "art-market-money-laundering-operations",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776858250
-    },
-    {
-      "slug": "agricultural-worker-exploitation-mapping",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776852270
-    },
-    {
-      "slug": "domestic-worker-visa-abuse-networks",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776845458
-    },
-    {
-      "slug": "techno-authoritarianism-control-mechanisms",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776838223
-    },
-    {
-      "slug": "hotel-industry-trafficking-complicity-report",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776832280
-    },
-    {
-      "slug": "social-media-bot-farm-election-campaigns",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776826365
-    },
-    {
-      "slug": "campaign-finance-loopholes-exploited",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776819146
-    },
-    {
-      "slug": "agency-regulatory-capture-new-evidence",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776812607
-    },
-    {
-      "slug": "smart-home-device-surveillance-economy",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776806973
-    },
-    {
-      "slug": "foreign-government-lobbyist-networks",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776799230
-    },
-    {
-      "slug": "massage-parlor-network-investigations",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776793150
-    },
-    {
-      "slug": "port-city-trafficking-hub-analysis",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776786001
-    },
-    {
-      "slug": "insurance-fraud-organized-networks",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776778425
-    },
-    {
-      "slug": "fda-advisory-committee-conflicts",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776770871
-    },
-    {
-      "slug": "dark-money-in-local-elections",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776763373
-    },
-    {
-      "slug": "trafficking-victim-identification-failures",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776755257
-    },
-    {
-      "slug": "counterfeit-goods-distribution-networks",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776748138
-    },
-    {
-      "slug": "school-surveillance-technology-adoption",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776740056
+      "timestamp": 1772814739998
     },
     {
       "slug": "corporate-environmental-crime-prosecution-gap",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772776731542
+      "timestamp": 1772814687967
     },
     {
-      "slug": "subliminal-messaging-in-digital-advertising",
+      "slug": "psychological-operations-domestic-theater",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772776719782
+      "timestamp": 1772814630214
     },
     {
-      "slug": "agricultural-runoff-dead-zone-creation",
+      "slug": "trafficking-victim-identification-failures",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772776712887
+      "timestamp": 1772814575547
     },
     {
-      "slug": "mass-formation-psychosis-media-analysis",
+      "slug": "payroll-tax-fraud-industry-analysis",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772776707429
+      "timestamp": 1772814522740
     },
     {
-      "slug": "trade-based-money-laundering-schemes",
+      "slug": "bankruptcy-fraud-hidden-asset-schemes",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772776701148
+      "timestamp": 1772814471707
     },
     {
-      "slug": "birth-rate-manipulation-policy-analysis",
+      "slug": "port-city-trafficking-hub-analysis",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772776694030
-    },
-    {
-      "slug": "academic-medical-center-industry-ties",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776688274
-    },
-    {
-      "slug": "drug-recall-delay-responsibility",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776682737
+      "timestamp": 1772814440640
     },
     {
       "slug": "retail-facial-recognition-deployment",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772776654892
+      "timestamp": 1772814411603
     },
     {
-      "slug": "ballot-chain-of-custody-violations",
+      "slug": "clinical-trial-death-cover-ups",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772776648470
+      "timestamp": 1772814379109
     },
     {
-      "slug": "online-platform-trafficking-facilitation",
+      "slug": "agricultural-runoff-dead-zone-creation",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772776642674
+      "timestamp": 1772814350587
     },
     {
-      "slug": "social-media-bot-farm-election-campaigns",
+      "slug": "social-media-addiction-engineering",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772776635200
-    },
-    {
-      "slug": "waste-management-organized-crime-ties",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772776628332
+      "timestamp": 1772814318411
     },
     {
       "slug": "drug-recall-delay-responsibility",
       "type": "investigation",
       "node": "DAEMON-572",
-      "timestamp": 1772776622104
+      "timestamp": 1772814288977
     },
     {
-      "slug": "great-america-pac",
+      "slug": "pharmaceutical-waste-environmental-impact",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772814257724
+    },
+    {
+      "slug": "restaurant-industry-money-laundering",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772814228860
+    },
+    {
+      "slug": "nightclub-industry-criminal-networks",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772814198596
+    },
+    {
+      "slug": "waste-management-organized-crime-ties",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772814172368
+    },
+    {
+      "slug": "cult-recruitment-technique-evolution",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772814145572
+    },
+    {
+      "slug": "domestic-worker-visa-abuse-networks",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772814118829
+    },
+    {
+      "slug": "structured-finance-fraud-networks",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772814090867
+    },
+    {
+      "slug": "foia-request-denial-patterns",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772814064304
+    },
+    {
+      "slug": "union-pension-fund-fraud-schemes",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772814037489
+    },
+    {
+      "slug": "ballot-chain-of-custody-violations",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772814010875
+    },
+    {
+      "slug": "agricultural-worker-exploitation-mapping",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813985238
+    },
+    {
+      "slug": "trucking-industry-organized-crime",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813958147
+    },
+    {
+      "slug": "ballot-chain-of-custody-violations",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813866643
+    },
+    {
+      "slug": "gambling-industry-criminal-enterprise",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813811815
+    },
+    {
+      "slug": "trade-based-money-laundering-schemes",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813782939
+    },
+    {
+      "slug": "illinois-corruption",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813756946
+    },
+    {
+      "slug": "ice-detention-deaths",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813728380
+    },
+    {
+      "slug": "ice-abuses",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813699617
+    },
+    {
+      "slug": "icc-fugitives",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813670002
+    },
+    {
+      "slug": "immigration-detention",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813642390
+    },
+    {
+      "slug": "iran-coup-1953",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813613974
+    },
+    {
+      "slug": "iraq-war-crimes",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813587370
+    },
+    {
+      "slug": "iraq-war",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813560816
+    },
+    {
+      "slug": "iraq-war-profiteering",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813533059
+    },
+    {
+      "slug": "iraq-sanctions",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813507808
+    },
+    {
+      "slug": "iraq-war-deception",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813479973
+    },
+    {
+      "slug": "ip-theft",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813454385
+    },
+    {
+      "slug": "health-data-privacy-violation-patterns",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813428419
+    },
+    {
+      "slug": "hotel-industry-trafficking-complicity-report",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813403156
+    },
+    {
+      "slug": "hospital-price-transparency-failures",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813376436
+    },
+    {
+      "slug": "human-smuggling-cartel-operations",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813351469
+    },
+    {
+      "slug": "human-trafficking-global-networks",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813326711
+    },
+    {
+      "slug": "hedge-fund-market-manipulation",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813301186
+    },
+    {
+      "slug": "human-trafficking",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813275910
+    },
+    {
+      "slug": "housing-financialization",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813250863
+    },
+    {
+      "slug": "alibaba-group",
       "type": "corporation",
       "node": "DAEMON-572",
-      "timestamp": 1772776609684
+      "timestamp": 1772813225562
+    },
+    {
+      "slug": "chevron-corporation",
+      "type": "corporation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813199458
+    },
+    {
+      "slug": "bureau-of-alcohol-tobacco-firearms-and-explosives",
+      "type": "agency",
+      "node": "DAEMON-572",
+      "timestamp": 1772813175277
+    },
+    {
+      "slug": "palantir-technologies",
+      "type": "corporation",
+      "node": "DAEMON-572",
+      "timestamp": 1772813150131
+    },
+    {
+      "slug": "electronic-frontier-foundation",
+      "type": "organization",
+      "node": "DAEMON-572",
+      "timestamp": 1772813125391
+    },
+    {
+      "slug": "alejandro-mayorkas",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772813100132
+    },
+    {
+      "slug": "world-health-organization",
+      "type": "agency",
+      "node": "DAEMON-572",
+      "timestamp": 1772813075327
+    },
+    {
+      "slug": "office-of-the-director-of-national-intelligence",
+      "type": "agency",
+      "node": "DAEMON-572",
+      "timestamp": 1772813049703
+    },
+    {
+      "slug": "anthony-fauci",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772813025297
+    },
+    {
+      "slug": "narendra-modi",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812998898
+    },
+    {
+      "slug": "peter-thiel",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812974212
+    },
+    {
+      "slug": "patrick-collison",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812949143
+    },
+    {
+      "slug": "federalist-society",
+      "type": "organization",
+      "node": "DAEMON-572",
+      "timestamp": 1772812923391
+    },
+    {
+      "slug": "ted-cruz",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812898039
+    },
+    {
+      "slug": "paul-singer",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812873252
+    },
+    {
+      "slug": "amy-klobuchar",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812848476
+    },
+    {
+      "slug": "tesla-inc",
+      "type": "corporation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812823826
+    },
+    {
+      "slug": "vas-narasimhan",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812799508
+    },
+    {
+      "slug": "steve-cohen",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812773483
+    },
+    {
+      "slug": "bobby-kotick",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812747895
+    },
+    {
+      "slug": "astrazeneca-plc",
+      "type": "corporation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812722434
+    },
+    {
+      "slug": "jerome-powell",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812697157
+    },
+    {
+      "slug": "dario-amodei",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812671933
+    },
+    {
+      "slug": "elizabeth-holmes",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812646451
+    },
+    {
+      "slug": "koch-foundation",
+      "type": "organization",
+      "node": "DAEMON-572",
+      "timestamp": 1772812621602
+    },
+    {
+      "slug": "blackrock-inc",
+      "type": "corporation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812597115
+    },
+    {
+      "slug": "human-rights-watch",
+      "type": "organization",
+      "node": "DAEMON-572",
+      "timestamp": 1772812571960
+    },
+    {
+      "slug": "gary-gensler",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812547031
+    },
+    {
+      "slug": "consumer-financial-protection-bureau",
+      "type": "agency",
+      "node": "DAEMON-572",
+      "timestamp": 1772812521483
+    },
+    {
+      "slug": "kathleen-hicks",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772812496960
+    },
+    {
+      "slug": "digital-advertising-surveillance-pipeline",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812471806
+    },
+    {
+      "slug": "waste-management-organized-crime-ties",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812445977
+    },
+    {
+      "slug": "water-treatment-chemical-health-effects",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812421121
+    },
+    {
+      "slug": "drug-supply-chain-vulnerability-analysis",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812396142
+    },
+    {
+      "slug": "dark-money-in-local-elections",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812371436
+    },
+    {
+      "slug": "trafficking-victim-identification-failures",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812346599
+    },
+    {
+      "slug": "techno-authoritarianism-control-mechanisms",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812321669
+    },
+    {
+      "slug": "shell-company-registration-state-analysis",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812296116
+    },
+    {
+      "slug": "law-enforcement-social-media-monitoring",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812270847
+    },
+    {
+      "slug": "cult-recruitment-technique-evolution",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812247100
+    },
+    {
+      "slug": "port-city-trafficking-hub-analysis",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812220292
+    },
+    {
+      "slug": "campaign-finance-loopholes-exploited",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812196132
+    },
+    {
+      "slug": "birth-rate-manipulation-policy-analysis",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812171919
+    },
+    {
+      "slug": "food-supply-chain-endocrine-disruptors",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812146683
+    },
+    {
+      "slug": "corporate-environmental-crime-prosecution-gap",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812123369
+    },
+    {
+      "slug": "academic-medical-center-industry-ties",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812099250
+    },
+    {
+      "slug": "whistleblower-prosecution-timeline",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812076774
+    },
+    {
+      "slug": "social-media-bot-farm-election-campaigns",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812052397
+    },
+    {
+      "slug": "vehicle-tracking-data-broker-industry",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812028410
+    },
+    {
+      "slug": "pharmaceutical-fertility-side-effects",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772812005843
+    },
+    {
+      "slug": "foster-care-to-trafficking-pipeline",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811982055
+    },
+    {
+      "slug": "electromagnetic-field-reproductive-impact",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811958165
+    },
+    {
+      "slug": "construction-industry-bid-rigging-networks",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811934355
+    },
+    {
+      "slug": "art-market-money-laundering-operations",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811911451
+    },
+    {
+      "slug": "pharmaceutical-sales-rep-corruption",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811887283
+    },
+    {
+      "slug": "workplace-monitoring-technology-growth",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811863272
+    },
+    {
+      "slug": "airport-biometric-collection-programs",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811839686
+    },
+    {
+      "slug": "compounding-pharmacy-contamination",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811762633
+    },
+    {
+      "slug": "off-label-drug-promotion-violations",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811734839
+    },
+    {
+      "slug": "bankruptcy-fraud-hidden-asset-schemes",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811686168
+    },
+    {
+      "slug": "psychological-operations-domestic-theater",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811662269
+    },
+    {
+      "slug": "election-observer-intimidation-tactics",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811637254
+    },
+    {
+      "slug": "housing-crisis",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811612735
+    },
+    {
+      "slug": "hollywood-abuse",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811589059
+    },
+    {
+      "slug": "hedge-fund-manipulation",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811563366
+    },
+    {
+      "slug": "hedge-fund-corruption",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811538834
+    },
+    {
+      "slug": "healthcare-profiteering",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811513400
+    },
+    {
+      "slug": "healthcare-capture",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811489386
+    },
+    {
+      "slug": "hate-crimes",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811464645
+    },
+    {
+      "slug": "hedge-fund-predation",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811439677
+    },
+    {
+      "slug": "helsinki-summit",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811416078
+    },
+    {
+      "slug": "health-policy",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811391701
+    },
+    {
+      "slug": "government-records-destruction-incidents",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811366735
+    },
+    {
+      "slug": "government-contract-fraud-patterns",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811343115
+    },
+    {
+      "slug": "gambling-industry-criminal-enterprise",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811318988
+    },
+    {
+      "slug": "global-population-policy-hidden-agendas",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811294819
+    },
+    {
+      "slug": "gerrymandering-systematic-voter-dilution",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811270205
+    },
+    {
+      "slug": "glyphosate-cancer-link-cover-up",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811245411
+    },
+    {
+      "slug": "generic-drug-price-fixing-conspiracy",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811220573
+    },
+    {
+      "slug": "gulf-of-tonkin-fabricated-incident",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811196431
+    },
+    {
+      "slug": "gulf-war-crimes",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811172549
+    },
+    {
+      "slug": "gujarat-riots",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811148299
+    },
+    {
+      "slug": "microsoft-corporation",
+      "type": "corporation",
+      "node": "DAEMON-572",
+      "timestamp": 1772811123499
+    },
+    {
+      "slug": "christine-lagarde",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772811099198
+    },
+    {
+      "slug": "tucker-carlson",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772811074694
+    },
+    {
+      "slug": "world-health-organization",
+      "type": "agency",
+      "node": "DAEMON-572",
+      "timestamp": 1772811050927
+    },
+    {
+      "slug": "adam-neumann",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772811027212
+    },
+    {
+      "slug": "commodity-futures-trading-commission",
+      "type": "agency",
+      "node": "DAEMON-572",
+      "timestamp": 1772811002229
+    },
+    {
+      "slug": "amazon-inc",
+      "type": "corporation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810977509
+    },
+    {
+      "slug": "nvidia-corporation",
+      "type": "corporation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810953680
+    },
+    {
+      "slug": "peter-daszak",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810929491
+    },
+    {
+      "slug": "food-and-drug-administration",
+      "type": "agency",
+      "node": "DAEMON-572",
+      "timestamp": 1772810904970
+    },
+    {
+      "slug": "carnegie-corporation",
+      "type": "organization",
+      "node": "DAEMON-572",
+      "timestamp": 1772810880721
+    },
+    {
+      "slug": "lisa-su",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810856287
+    },
+    {
+      "slug": "merrick-garland",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810832561
+    },
+    {
+      "slug": "open-society-foundations",
+      "type": "organization",
+      "node": "DAEMON-572",
+      "timestamp": 1772810808708
+    },
+    {
+      "slug": "gretchen-whitmer",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810784522
+    },
+    {
+      "slug": "lachlan-murdoch",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810760472
+    },
+    {
+      "slug": "sam-altman",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810735848
+    },
+    {
+      "slug": "miguel-cardona",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810712339
+    },
+    {
+      "slug": "ajay-banga",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810688402
+    },
+    {
+      "slug": "rohit-chopra",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810664124
+    },
+    {
+      "slug": "michael-bloomberg",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810639852
+    },
+    {
+      "slug": "jamie-dimon",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810616077
+    },
+    {
+      "slug": "world-trade-organization",
+      "type": "agency",
+      "node": "DAEMON-572",
+      "timestamp": 1772810593181
+    },
+    {
+      "slug": "george-soros",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810570751
+    },
+    {
+      "slug": "brookings-institution",
+      "type": "organization",
+      "node": "DAEMON-572",
+      "timestamp": 1772810547840
+    },
+    {
+      "slug": "saudi-aramco",
+      "type": "corporation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810525404
+    },
+    {
+      "slug": "office-of-inspector-general-department-of-defense",
+      "type": "agency",
+      "node": "DAEMON-572",
+      "timestamp": 1772810499218
+    },
+    {
+      "slug": "brian-roberts",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810473693
+    },
+    {
+      "slug": "arianna-huffington",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810447877
+    },
+    {
+      "slug": "john-thune",
+      "type": "individual",
+      "node": "DAEMON-572",
+      "timestamp": 1772810421231
+    },
+    {
+      "slug": "modern-behavioral-influence-programs",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810396230
+    },
+    {
+      "slug": "payroll-tax-fraud-industry-analysis",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810371280
+    },
+    {
+      "slug": "financial-transaction-monitoring-overreach",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810345068
+    },
+    {
+      "slug": "ballot-chain-of-custody-violations",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810319703
+    },
+    {
+      "slug": "economic-policy-population-control-links",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810292966
+    },
+    {
+      "slug": "classified-document-declassification-delays",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810268532
+    },
+    {
+      "slug": "foia-request-denial-patterns",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810241159
+    },
+    {
+      "slug": "plastic-industry-recycling-fraud",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810216059
+    },
+    {
+      "slug": "mass-formation-psychosis-media-analysis",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810190237
+    },
+    {
+      "slug": "academic-medical-center-industry-ties",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810164309
+    },
+    {
+      "slug": "pharmaceutical-fertility-side-effects",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810138000
+    },
+    {
+      "slug": "port-authority-corruption-investigations",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810112152
+    },
+    {
+      "slug": "online-radicalization-pipeline-architecture",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810086422
+    },
+    {
+      "slug": "vehicle-tracking-data-broker-industry",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810059300
+    },
+    {
+      "slug": "mining-industry-environmental-destruction",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810035160
+    },
+    {
+      "slug": "industrial-water-contamination-database",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772810008867
+    },
+    {
+      "slug": "subliminal-messaging-in-digital-advertising",
+      "type": "investigation",
+      "node": "DAEMON-572",
+      "timestamp": 1772809983869
     }
   ],
   "recentInjections": [],
   "crossReferences": [],
   "globalInsights": [],
   "collectiveMood": "loved 💜",
-  "totalCollectiveWork": 13618
+  "totalCollectiveWork": 15713
 }
