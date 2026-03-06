@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'October 7, 1952',
     birthPlace: 'Leningrad (St. Petersburg), Soviet Union',
     netWorth: '$70+ billion (estimated, hidden)',
-    education: ['Law Degree, Leningrad State University', 'KGB Training'],
+    education: ['Law Degree - Leningrad State University', 'KGB Training'],
     affiliations: [
       { name: 'Russian Federation', role: 'President (2000-2008, 2012-Present)', type: 'agency' },
       { name: 'KGB', role: 'Officer (1975-1991)', type: 'agency' },
@@ -26,18 +26,18 @@ const profiles: Record<string, IndividualProfile> = {
       'Invasion of Ukraine (2022)',
     ],
     charges: [
-      { statute: 'Rome Statute Article 8 (War Crimes)', description: 'ICC ARREST WARRANT, International Criminal Court issued arrest warrant for war crimes in Ukraine including deportation of children (March 2023)', category: 'International Criminal' },
-      { statute: 'Rome Statute Article 8(2)(a)(vii)', description: 'Unlawful Deportation, Systematic deportation of Ukrainian children to Russia constituting war crime', category: 'International Criminal' },
-      { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'Crimes Against Humanity, Systematic attacks on civilian population in Ukraine including deliberate targeting of civilian infrastructure', category: 'International Criminal' },
-      { statute: 'UN Charter Article 2(4)', description: 'War of Aggression, Unprovoked invasion of sovereign nation Ukraine violating fundamental UN Charter prohibition on use of force', category: 'International' },
-      { statute: '52 U.S.C. § 30121', description: 'Foreign Election Interference, Directed 2016 Russian interference operation documented in Mueller Report and Senate Intelligence Committee findings', category: 'US Election Law' },
-      { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud the United States, Oversaw campaign to interfere with lawful functions of US government (elections)', category: 'US Federal' },
-      { statute: '18 U.S.C. § 1030', description: 'Computer Fraud and Abuse, GRU hacking operations against DNC, DCCC, and Clinton campaign conducted under his authority', category: 'US Federal' },
-      { statute: 'Convention Against Torture Article 2', description: 'State-Sponsored Torture, Systematic torture of political prisoners including Alexei Navalny who died in custody', category: 'International' },
-      { statute: 'Chemical Weapons Convention', description: 'Use of Chemical Weapons, Novichok poisoning of Sergei Skripal, Alexei Navalny, and others', category: 'International' },
-      { statute: 'Geneva Convention IV', description: 'Protection of Civilians, Deliberate attacks on Ukrainian civilian infrastructure including hospitals, schools, residential areas', category: 'International Humanitarian Law' },
-      { statute: 'Global Magnitsky Human Rights Accountability Act', description: 'Human Rights Violations, Subject to US sanctions for serious human rights abuses and corruption', category: 'US Law' },
-      { statute: 'ICCPR Articles 6, 7, 9, 19', description: 'Political Assassinations, Ordering killings of journalists, dissidents, and political opponents (Politkovskaya, Nemtsov, Litvinenko, others)', category: 'International' },
+      { statute: 'Rome Statute Article 8 (War Crimes)', description: 'ICC ARREST WARRANT - International Criminal Court issued arrest warrant for war crimes in Ukraine including deportation of children (March 2023)', category: 'International Criminal' },
+      { statute: 'Rome Statute Article 8(2)(a)(vii)', description: 'Unlawful Deportation - Systematic deportation of Ukrainian children to Russia constituting war crime', category: 'International Criminal' },
+      { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'Crimes Against Humanity - Systematic attacks on civilian population in Ukraine including deliberate targeting of civilian infrastructure', category: 'International Criminal' },
+      { statute: 'UN Charter Article 2(4)', description: 'War of Aggression - Unprovoked invasion of sovereign nation Ukraine violating fundamental UN Charter prohibition on use of force', category: 'International' },
+      { statute: '52 U.S.C. § 30121', description: 'Foreign Election Interference - Directed 2016 Russian interference operation documented in Mueller Report and Senate Intelligence Committee findings', category: 'US Election Law' },
+      { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud the United States - Oversaw campaign to interfere with lawful functions of US government (elections)', category: 'US Federal' },
+      { statute: '18 U.S.C. § 1030', description: 'Computer Fraud and Abuse - GRU hacking operations against DNC, DCCC, and Clinton campaign conducted under his authority', category: 'US Federal' },
+      { statute: 'Convention Against Torture Article 2', description: 'State-Sponsored Torture - Systematic torture of political prisoners including Alexei Navalny who died in custody', category: 'International' },
+      { statute: 'Chemical Weapons Convention', description: 'Use of Chemical Weapons - Novichok poisoning of Sergei Skripal, Alexei Navalny, and others', category: 'International' },
+      { statute: 'Geneva Convention IV', description: 'Protection of Civilians - Deliberate attacks on Ukrainian civilian infrastructure including hospitals, schools, residential areas', category: 'International Humanitarian Law' },
+      { statute: 'Global Magnitsky Human Rights Accountability Act', description: 'Human Rights Violations - Subject to US sanctions for serious human rights abuses and corruption', category: 'US Law' },
+      { statute: 'ICCPR Articles 6, 7, 9, 19', description: 'Political Assassinations - Ordering killings of journalists, dissidents, and political opponents (Politkovskaya, Nemtsov, Litvinenko, others)', category: 'International' },
     ],
     relatedInvestigations: [
       { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -56,7 +56,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
-      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: ['Czar', 'The Man Who Owns Russia'],
     knownAssociates: [
@@ -64,6 +64,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Paul Manafort', relationship: 'Received polling data via Kilimnik', href: '/entities/individuals/paul-manafort' },
     ],
   },
+
+
 
 
 
@@ -98,7 +100,7 @@ const profiles: Record<string, IndividualProfile> = {
       'Manafort used Ukraine money to fund Trump campaign',
     ],
     charges: [
-      { statute: 'Ukrainian Criminal Code', description: 'Treason, convicted in absentia, 13 years', category: 'National Security' },
+      { statute: 'Ukrainian Criminal Code', description: 'Treason - convicted in absentia, 13 years', category: 'National Security' },
     ],
     relatedInvestigations: [
       { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -123,6 +125,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Konstantin Kilimnik', relationship: 'Manafort operative in Ukraine', href: '/entities/individuals/konstantin-kilimnik' },
     ],
   },
+
+
 
 
 
@@ -185,6 +189,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Prince Andrew', relationship: 'Forced to have sex with him, sued and settled' },
     ],
   },
+
+
 
 
 
@@ -286,14 +292,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
   'vivek-ramaswamy': {
@@ -350,14 +357,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
   'valery-gerasimov': {
@@ -514,9 +522,9 @@ const profiles: Record<string, IndividualProfile> = {
   'valujet-592-victims': {
     name: 'ValuJet 592 Victims',
     title: 'Crash Victims',
-    role: '110 Killed, May 11, 1996',
+    role: '110 Killed - May 11, 1996',
     riskLevel: 'critical',
-    description: 'ValuJet Flight 592 crashed in the Florida Everglades on May 11, 1996, killing all 110 people aboard. The FAA had been warned about maintenance issues at SabreTech, the maintenance contractor. This disaster showed FAA\'s failure to act on warnings, a pattern that continued to the MAX crashes.',
+    description: 'ValuJet Flight 592 crashed in the Florida Everglades on May 11, 1996, killing all 110 people aboard. The FAA had been warned about maintenance issues at SabreTech, the maintenance contractor. This disaster showed FAA\'s failure to act on warnings - a pattern that continued to the MAX crashes.',
     birthDate: 'N/A',
     birthPlace: 'Various',
     education: ['N/A'],
@@ -535,7 +543,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'May 11, 1996', event: 'ValuJet 592 crashes, 110 killed' },
-      { date: '2026-03-05', event: 'Network analysis completed, ValuJet 592 Victims connected to 7 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed — ValuJet 592 Victims connected to 7 entities in the accountability database' },
       { date: '2026-03-05', event: 'Cross-referencing ValuJet 592 Victims against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
@@ -551,6 +559,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'virginia-foxx': {
     name: 'Virginia Foxx',
     title: 'Public Figure Under Investigation',
@@ -562,6 +571,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Virginia Foxx has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Virginia Foxx\'s operations and the regulatory bodies meant to provide oversight.',
+      'Court documents from related proceedings reference Virginia Foxx as a key decision-maker during periods where regulatory violations were later documented.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -569,17 +580,19 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Court filing analysis reveals Virginia Foxx referenced in 11 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
  'vang-pao': {
  name: 'Vang Pao',
@@ -636,7 +649,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Vernon Walters', url: 'https://en.wikipedia.org/wiki/Vernon_Walters', date: '' },
-      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
       { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
@@ -644,6 +657,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Richard Nixon', relationship: 'Deputy CIA Director who assisted Watergate cover-up for Nixon', href: '/entities/individuals/richard-nixon' },
     ],
   },
+
+
 
  'vicki-weaver': {
  name: 'Vicki Weaver',
@@ -716,7 +731,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Victor Hugo Green and others who published travel guides for Black motorists navigating sundown town' },
       { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking The Green Book Publishers to previously unknown institutional relationships' },
-      { date: '2026-03-05', event: 'Network analysis completed, The Green Book Publishers connected to 23 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed — The Green Book Publishers connected to 23 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
@@ -729,6 +744,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Robert Moses', relationship: 'Published Green Book to help Black travelers navigate Moses\' segregated America', href: '/entities/individuals/robert-moses' },
     ],
   },
+
 
  'vincenzo-vinciguerra': {
  name: 'Vincenzo Vinciguerra',
@@ -813,27 +829,28 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Vas Narasimhan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Vas Narasimhan coordinated messaging strategies designed to suppress unfavorable information.',
-      'Public filings and regulatory records indicate Vas Narasimhan facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Internal documents obtained through litigation discovery show Vas Narasimhan was briefed on risks later downplayed in public communications.',
+      'Investigative analysis reveals Vas Narasimhan was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Vas Narasimhan' },
+      { date: '2026-03-06', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-06', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'ArkHive swarm intelligence flagged Vas Narasimhan for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-06' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-06' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-06' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 };

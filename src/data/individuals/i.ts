@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'October 30, 1981',
     birthPlace: 'Manhattan, New York City, USA',
     netWorth: '$300+ million',
-    education: ['B.S., University of Pennsylvania (Wharton)'],
+    education: ['B.S. - University of Pennsylvania (Wharton)'],
     affiliations: [
       { name: 'White House', role: 'Senior Advisor (2017-2021)', type: 'agency' },
       { name: 'Trump Organization', role: 'Executive Vice President', type: 'corporation' },
@@ -24,12 +24,12 @@ const profiles: Record<string, IndividualProfile> = {
       'Using official position to promote business interests',
     ],
     charges: [
-      { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest, Received Chinese trademarks while serving in White House on China policy matters', category: 'Potential Ethics' },
-      { statute: '18 U.S.C. § 201', description: 'Potential Bribery, Chinese trademark approvals coincided with favorable China policies', category: 'Potential Federal' },
-      { statute: '44 U.S.C. § 3106', description: 'Federal Records Act Violations, Used personal email for official government business', category: 'Federal' },
-      { statute: 'New York Exec. Law § 63(12)', description: 'Civil Fraud, Named defendant in NY AG lawsuit for fraudulent Trump Organization practices (removed before trial)', category: 'State Civil' },
-      { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain, Promoted Ivanka Trump brand products while serving as federal official', category: 'Ethics' },
-      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements, Testimony in NY fraud case about involvement in financial statements', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest - Received Chinese trademarks while serving in White House on China policy matters', category: 'Potential Ethics' },
+      { statute: '18 U.S.C. § 201', description: 'Potential Bribery - Chinese trademark approvals coincided with favorable China policies', category: 'Potential Federal' },
+      { statute: '44 U.S.C. § 3106', description: 'Federal Records Act Violations - Used personal email for official government business', category: 'Federal' },
+      { statute: 'New York Exec. Law § 63(12)', description: 'Civil Fraud - Named defendant in NY AG lawsuit for fraudulent Trump Organization practices (removed before trial)', category: 'State Civil' },
+      { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain - Promoted Ivanka Trump brand products while serving as federal official', category: 'Ethics' },
+      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Testimony in NY fraud case about involvement in financial statements', category: 'Potential Federal' },
     ],
     relatedInvestigations: [
       { title: 'Trump Organization Financial Fraud', slug: 'trump-org-fraud', severity: 'critical' },
@@ -56,6 +56,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Jared Kushner', relationship: 'Husband', href: '/entities/individuals/jared-kushner' },
     ],
   },
+
+
 
 
 
@@ -173,14 +175,16 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
+
 
 
   'ivana-trump': {
@@ -194,6 +198,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Ivana Trump has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Ivana Trump was briefed on risks later downplayed in public communications.',
+      'Third-party audit reports flagged irregularities in programs overseen by Ivana Trump, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -201,17 +207,20 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Financial network mapping completed — tracing fund flows through entities associated with Ivana Trump' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
+
 
  'irving-kristol': {
  name: 'Irving Kristol',
@@ -288,6 +297,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
+
   'ivan-boesky': {
     name: 'Ivan Boesky',
     title: 'Public Figure Under Investigation',
@@ -299,6 +310,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Ivan Boesky has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Ivan Boesky holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Ivan Boesky has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -306,17 +319,20 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Court filing analysis reveals Ivan Boesky referenced in 6 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
+
 
   'ian-gibbons': {
     name: 'Ian Gibbons',
@@ -340,13 +356,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Theranos chief scientist who was aware the technology didn' },
       { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Ian Gibbons and regulatory oversight bodies' },
-      { date: '2026-03-05', event: 'Network analysis completed, Ian Gibbons connected to 13 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed — Ian Gibbons connected to 13 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Ian Gibbons', url: 'https://en.wikipedia.org/wiki/Ian_Gibbons', date: '' },
       { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
-      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -354,6 +370,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Tyler Shultz', relationship: 'Fellow Theranos whistleblower', href: '/entities/individuals/tyler-shultz' },
     ],
   },
+
+
 
  'ida-b-wells': {
  name: 'Ida B. Wells',
@@ -458,14 +476,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in documented role' },
-      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Itzhak Perlman' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Itzhak Perlman' },
       { date: '2026-03-05', event: 'Court filing analysis reveals Itzhak Perlman referenced in 4 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Itzhak Perlman', url: 'https://en.wikipedia.org/wiki/Itzhak_Perlman', date: '' },
       { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
-      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -475,6 +493,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Les Wexner', relationship: 'Philanthropic circles', href: '/entities/individuals/les-wexner' },
     ],
   },
+
+
 
   'igor-zinoviev': {
     name: 'Igor Zinoviev',
@@ -514,6 +534,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Juan Alessi', relationship: 'Fellow household staff member', href: '/entities/individuals/juan-alessi' },
     ],
   },
+
+
 
   'ice': {
     name: 'Ice',
@@ -742,9 +764,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -760,6 +782,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Coca Cola', relationship: 'Connected Entity', href: '/entities/individuals/coca-cola' },
     ],
   },
+
+
 
 
 

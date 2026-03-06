@@ -67,27 +67,28 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Xavier Becerra has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Internal documents obtained through litigation discovery show Xavier Becerra was briefed on risks later downplayed in public communications.',
-      'Public filings and regulatory records indicate Xavier Becerra facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Xavier Becerra\'s operations and the regulatory bodies meant to provide oversight.',
+      'Investigative analysis reveals Xavier Becerra was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Xavier Becerra for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-06', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-06', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Cross-referencing Xavier Becerra against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-06' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-06' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-06' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 };

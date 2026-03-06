@@ -90,7 +90,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Wagner Group Founder (Deceased)',
     role: 'Russian Oligarch, Mercenary Army Chief, Troll Farm Operator',
     riskLevel: 'critical',
-    description: 'Yevgeny Prigozhin was a Russian oligarch known as "Putin\'s Chef "who founded the Wagner Group private military company and the Internet Research Agency (IRA) troll farm that interfered in the 2016 US election. Wagner mercenaries committed war crimes across Africa, Syria, and Ukraine, while his IRA conducted sophisticated disinformation campaigns targeting American democracy. In June 2023, Prigozhin led a brief mutiny against Russian military leadership before dying in a plane crash in August 2023 under highly suspicious circumstances, widely believed to be ordered by Putin as retaliation for the rebellion.',
+    description: 'Yevgeny Prigozhin was a Russian oligarch known as"Putin\'s Chef"who founded the Wagner Group private military company and the Internet Research Agency (IRA) troll farm that interfered in the 2016 US election. Wagner mercenaries committed war crimes across Africa, Syria, and Ukraine, while his IRA conducted sophisticated disinformation campaigns targeting American democracy. In June 2023, Prigozhin led a brief mutiny against Russian military leadership before dying in a plane crash in August 2023 under highly suspicious circumstances, widely believed to be ordered by Putin as retaliation for the rebellion.',
     birthDate: 'June 1, 1961',
     birthPlace: 'Leningrad, Soviet Union (now St. Petersburg, Russia)',
     deathDate: 'August 23, 2023',
@@ -118,15 +118,15 @@ const profiles: Record<string, IndividualProfile> = {
       'DISINFORMATION EMPIRE: IRA operations extended to Brexit, French elections, African coups',
     ],
     charges: [
-      { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud United States, Election interference (DOJ indictment)', category: 'Federal' },
-      { statute: '18 U.S.C. § 1028A', description: 'Aggravated Identity Theft, Fake American identities', category: 'Federal' },
+      { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud United States - Election interference (DOJ indictment)', category: 'Federal' },
+      { statute: '18 U.S.C. § 1028A', description: 'Aggravated Identity Theft - Fake American identities', category: 'Federal' },
       { statute: '52 U.S.C. § 30121', description: 'Foreign Contributions to Elections', category: 'Federal' },
-      { statute: 'Rome Statute Article 8', description: 'War Crimes, Wagner atrocities in Syria, Africa, Ukraine', category: 'International Criminal Court' },
-      { statute: 'Rome Statute Article 7(1)(a)', description: 'Crimes Against Humanity, Murder (mass executions)', category: 'International Criminal Court' },
-      { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity, Torture', category: 'International Criminal Court' },
-      { statute: 'Rome Statute Article 8(2)(a)(ii)', description: 'War Crimes, Torture of prisoners', category: 'International Criminal Court' },
-      { statute: 'EU Sanctions Regulations', description: 'Sanctioned individual, asset freezes', category: 'European Union' },
-      { statute: 'OFAC Sanctions', description: 'Specially Designated National, US Treasury', category: 'Federal' },
+      { statute: 'Rome Statute Article 8', description: 'War Crimes - Wagner atrocities in Syria, Africa, Ukraine', category: 'International Criminal Court' },
+      { statute: 'Rome Statute Article 7(1)(a)', description: 'Crimes Against Humanity - Murder (mass executions)', category: 'International Criminal Court' },
+      { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity - Torture', category: 'International Criminal Court' },
+      { statute: 'Rome Statute Article 8(2)(a)(ii)', description: 'War Crimes - Torture of prisoners', category: 'International Criminal Court' },
+      { statute: 'EU Sanctions Regulations', description: 'Sanctioned individual - asset freezes', category: 'European Union' },
+      { statute: 'OFAC Sanctions', description: 'Specially Designated National - US Treasury', category: 'Federal' },
     ],
     relatedInvestigations: [
       { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -141,7 +141,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1990', event: 'Released from prison, starts hot dog stand' },
       { date: '1990s', event: 'Builds catering empire in St. Petersburg' },
       { date: '1990s', event: 'Meets Vladimir Putin through St. Petersburg connections' },
-      { date: '2000s', event: 'Wins Kremlin catering contracts, becomes "Putin\'s Chef"' },
+      { date: '2000s', event: 'Wins Kremlin catering contracts, becomes"Putin\'s Chef"' },
       { date: '2013', event: 'Founds Internet Research Agency troll farm in St. Petersburg' },
       { date: '2014', event: 'Founds Wagner Group private military company' },
       { date: '2014', event: 'Wagner deploys to Ukraine (Donbas), Syria' },
@@ -161,9 +161,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Mueller Indictment, Internet Research Agency', url: 'http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download', date: '2018' },
-      { title: 'Senate Intelligence Committee, Russian Interference Vol. 2', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2019' },
-      { title: 'Wagner Group Investigation, Bellingcat', url: 'https://bellingcat.com/tag/wagner-group/', date: 'Various' },
+      { title: 'Mueller Indictment - Internet Research Agency', url: 'http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download', date: '2018' },
+      { title: 'Senate Intelligence Committee - Russian Interference Vol. 2', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2019' },
+      { title: 'Wagner Group Investigation - Bellingcat', url: 'https://bellingcat.com/tag/wagner-group/', date: 'Various' },
       { title: 'UN Human Rights Reports on Wagner Atrocities', url: 'https://www.ohchr.org/', date: '2022-2023' },
       { title: 'Treasury OFAC Sanctions', url: 'https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists', date: 'Various' },
       { title: 'Plane Crash Investigation Reports', url: 'https://www.ntsb.gov/investigations/Pages/default.aspx', date: '2023' },
@@ -178,6 +178,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Valery Gerasimov', relationship: 'Russian General, target of mutiny', href: '/entities/individuals/valery-gerasimov' },
     ],
   },
+
+
 
 
 

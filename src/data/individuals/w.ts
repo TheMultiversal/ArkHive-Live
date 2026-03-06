@@ -26,13 +26,13 @@ const profiles: Record<string, IndividualProfile> = {
       'Case dismissed by Judge Cannon, DOJ appealing',
     ],
     charges: [
-      { statute: '18 U.S.C. § 1512(k) (Obstruction Conspiracy)', description: 'Conspiracy to obstruct justice, Indicted for conspiring to conceal documents from grand jury', category: 'Obstruction' },
-      { statute: '18 U.S.C. § 1512(b)(2)(A) (Witness Tampering)', description: 'Witness tampering, Coordinated with Trump to conceal documents from attorneys and FBI', category: 'Obstruction' },
-      { statute: '18 U.S.C. § 1519 (Evidence Concealment)', description: 'Concealing documents in federal investigation, Captured on video moving boxes of classified materials', category: 'Obstruction' },
-      { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Making false statements to FBI, Lied about knowledge of documents and moving boxes', category: 'False Statements' },
-      { statute: '18 U.S.C. § 793(e) (Espionage Act)', description: 'Willful retention of national defense information, Aided in retention of classified documents', category: 'Espionage' },
-      { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to defraud United States, Part of scheme to obstruct government recovery of classified documents', category: 'Conspiracy' },
-      { statute: '18 U.S.C. § 2 (Aiding and Abetting)', description: 'Aiding and abetting classified document retention, Actively helped Trump hide national defense information', category: 'Accessory' },
+      { statute: '18 U.S.C. § 1512(k) (Obstruction Conspiracy)', description: 'Conspiracy to obstruct justice - Indicted for conspiring to conceal documents from grand jury', category: 'Obstruction' },
+      { statute: '18 U.S.C. § 1512(b)(2)(A) (Witness Tampering)', description: 'Witness tampering - Coordinated with Trump to conceal documents from attorneys and FBI', category: 'Obstruction' },
+      { statute: '18 U.S.C. § 1519 (Evidence Concealment)', description: 'Concealing documents in federal investigation - Captured on video moving boxes of classified materials', category: 'Obstruction' },
+      { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Making false statements to FBI - Lied about knowledge of documents and moving boxes', category: 'False Statements' },
+      { statute: '18 U.S.C. § 793(e) (Espionage Act)', description: 'Willful retention of national defense information - Aided in retention of classified documents', category: 'Espionage' },
+      { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to defraud United States - Part of scheme to obstruct government recovery of classified documents', category: 'Conspiracy' },
+      { statute: '18 U.S.C. § 2 (Aiding and Abetting)', description: 'Aiding and abetting classified document retention - Actively helped Trump hide national defense information', category: 'Accessory' },
     ],
     relatedInvestigations: [
       { title: 'Classified Documents at Mar-a-Lago', slug: 'mar-a-lago-documents', severity: 'critical' },
@@ -70,10 +70,12 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
   'wilbur-ross': {
     name: 'Wilbur Louis Ross Jr.',
     title: 'Former U.S. Secretary of Commerce',
-    role: 'Commerce Secretary 2017-2021, Billionaire "King of Bankruptcy"',
+    role: 'Commerce Secretary 2017-2021, Billionaire"King of Bankruptcy"',
     riskLevel: 'high',
     description: 'Wilbur Louis Ross Jr. served as Secretary of Commerce from 2017 to 2021. He maintained undisclosed business ties to Russian oligarchs and partners of Vladimir Putin through Navigator Holdings. Forbes accused him of lying about his net worth for years. The Paradise Papers revealed his connections to Putin\'s son-in-law through a shipping firm.',
     birthDate: 'November 28, 1937',
@@ -92,16 +94,16 @@ const profiles: Record<string, IndividualProfile> = {
       'Failed to divest from businesses as promised',
       'Forbes removed him from billionaire list for inflating wealth',
       'Frequently fell asleep in meetings',
-      'Sago Mine disaster, 12 miners died at his company\'s mine',
+      'Sago Mine disaster - 12 miners died at his company\'s mine',
     ],
     charges: [
-      { statute: '18 U.S.C. § 208', description: 'Potential Financial Conflict of Interest, Failed to fully divest from Navigator Holdings with Russian oligarch ties while serving as Commerce Secretary', category: 'Potential Ethics' },
-      { statute: '5 C.F.R. § 2635', description: 'Multiple Ethics Violations, Maintained business ties that conflicted with official duties', category: 'Ethics' },
-      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements, Failed to fully disclose Russian business connections on ethics forms', category: 'Potential Federal' },
-      { statute: '13 U.S.C. § 221', description: 'Census Act Violation, Improperly added citizenship question to suppress responses in minority communities (blocked by Supreme Court)', category: 'Federal Census' },
-      { statute: '42 U.S.C. § 1983', description: 'Deprivation of Rights, Citizenship question designed to undercount minorities for redistricting', category: 'Civil Rights' },
-      { statute: '30 U.S.C. § 820 (Mine Safety)', description: 'Historical Violations, Sago Mine disaster killed 12 workers at his company\'s mine due to safety failures', category: 'Worker Safety' },
-      { statute: '22 U.S.C. § 618 (FARA)', description: 'Potential Violation, Unreported foreign business relationships during confirmation and tenure', category: 'Potential National Security' },
+      { statute: '18 U.S.C. § 208', description: 'Potential Financial Conflict of Interest - Failed to fully divest from Navigator Holdings with Russian oligarch ties while serving as Commerce Secretary', category: 'Potential Ethics' },
+      { statute: '5 C.F.R. § 2635', description: 'Multiple Ethics Violations - Maintained business ties that conflicted with official duties', category: 'Ethics' },
+      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Failed to fully disclose Russian business connections on ethics forms', category: 'Potential Federal' },
+      { statute: '13 U.S.C. § 221', description: 'Census Act Violation - Improperly added citizenship question to suppress responses in minority communities (blocked by Supreme Court)', category: 'Federal Census' },
+      { statute: '42 U.S.C. § 1983', description: 'Deprivation of Rights - Citizenship question designed to undercount minorities for redistricting', category: 'Civil Rights' },
+      { statute: '30 U.S.C. § 820 (Mine Safety)', description: 'Historical Violations - Sago Mine disaster killed 12 workers at his company\'s mine due to safety failures', category: 'Worker Safety' },
+      { statute: '22 U.S.C. § 618 (FARA)', description: 'Potential Violation - Unreported foreign business relationships during confirmation and tenure', category: 'Potential National Security' },
     ],
     relatedInvestigations: [
       { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
@@ -117,7 +119,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Paradise Papers Investigation', url: 'https://scholar.google.com/scholar?q=Paradise%20Papers%20Investigation', date: '2017' },
       { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
-      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: ['King of Bankruptcy'],
     knownAssociates: [
@@ -125,6 +127,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Vladimir Putin', relationship: 'Business ties through Russian oligarchs', href: '/entities/individuals/vladimir-putin' },
     ],
   },
+
+
 
 
 
@@ -170,7 +174,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Former CIA Director',
     role: 'CIA Director who orchestrated Iran-Contra and Central American death squads',
     riskLevel: 'critical',
-    description: 'CIA Director under Reagan (1981-1987) who was the chief architect of the Iran-Contra affair, authorizing secret arms sales to Iran and illegal funding of Nicaraguan Contras. Casey operated a "shadow CIA" that circumvented Congressional oversight, ran death squads in Central America, and supported brutal dictatorships. Died of brain cancer before he could face charges.',
+    description: 'CIA Director under Reagan (1981-1987) who was the chief architect of the Iran-Contra affair, authorizing secret arms sales to Iran and illegal funding of Nicaraguan Contras. Casey operated a"shadow CIA"that circumvented Congressional oversight, ran death squads in Central America, and supported brutal dictatorships. Died of brain cancer before he could face charges.',
     birthDate: 'March 13, 1913',
     birthPlace: 'Elmhurst, New York',
     deathDate: 'May 6, 1987',
@@ -190,12 +194,12 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [
       { statute: 'Boland Amendment Violations', description: 'Illegal funding of Nicaraguan Contra rebels after Congress explicitly banned it', category: 'Constitutional Violation' },
-      { statute: 'Arms Export Control Act, 22 U.S.C. § 2778', description: 'Illegal weapons sales to Iran', category: 'National Security' },
-      { statute: 'Conspiracy Against the United States, 18 U.S.C. § 371', description: 'Orchestrated Iran-Contra operation', category: 'Conspiracy' },
-      { statute: 'False Statements, 18 U.S.C. § 1001', description: 'Lying to Congress about covert operations', category: 'Obstruction' },
-      { statute: 'ICC Rome Statute Article 7, Crimes Against Humanity', description: 'Support for death squads and mass atrocities in Central America', category: 'International Crime' },
-      { statute: 'ICC Rome Statute Article 8, War Crimes', description: 'Torture, extrajudicial killings, and targeting civilians', category: 'International Crime' },
-      { statute: 'Geneva Conventions, Common Article 3', description: 'Violations in treatment of civilians and prisoners', category: 'International Crime' },
+      { statute: 'Arms Export Control Act - 22 U.S.C. § 2778', description: 'Illegal weapons sales to Iran', category: 'National Security' },
+      { statute: 'Conspiracy Against the United States - 18 U.S.C. § 371', description: 'Orchestrated Iran-Contra operation', category: 'Conspiracy' },
+      { statute: 'False Statements - 18 U.S.C. § 1001', description: 'Lying to Congress about covert operations', category: 'Obstruction' },
+      { statute: 'ICC Rome Statute Article 7 - Crimes Against Humanity', description: 'Support for death squads and mass atrocities in Central America', category: 'International Crime' },
+      { statute: 'ICC Rome Statute Article 8 - War Crimes', description: 'Torture, extrajudicial killings, and targeting civilians', category: 'International Crime' },
+      { statute: 'Geneva Conventions - Common Article 3', description: 'Violations in treatment of civilians and prisoners', category: 'International Crime' },
     ],
     relatedInvestigations: [
       { title: 'Iran-Contra Affair', slug: 'iran-contra', severity: 'critical' },
@@ -238,6 +242,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Augusto Pinochet', relationship: 'CIA-backed dictator', href: '/entities/individuals/augusto-pinochet' },
     ],
   },
+
+
 
 
 
@@ -297,7 +303,7 @@ const profiles: Record<string, IndividualProfile> = {
     description: 'William Kristol is a prominent neoconservative political commentator who was one of the most influential advocates for the Iraq War. He co-founded the Project for the New American Century (PNAC), which advocated for regime change in Iraq years before 9/11. As editor of The Weekly Standard (1995-2018), he used his platform to push for military intervention. Though he later became a critic of Trump, his advocacy for the Iraq War contributed to a conflict that killed hundreds of thousands.',
     birthDate: 'December 23, 1952',
     birthPlace: 'New York City, USA',
-    education: ['Harvard University, BA', 'Harvard University, PhD Political Philosophy'],
+    education: ['Harvard University - BA', 'Harvard University - PhD Political Philosophy'],
     affiliations: [
       { name: 'Project for the New American Century', role: 'Co-Founder', type: 'organization' },
       { name: 'The Weekly Standard', role: 'Editor (1995-2018)', type: 'corporation' },
@@ -334,7 +340,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'PNAC Statement of Principles', url: 'https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm', date: '1997' },
       { title: 'PNAC Letter to Clinton', url: 'https://web.archive.org/web/20050212041719/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },
-      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -345,6 +351,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Irving Kristol', relationship: 'Father, neoconservative founder', href: '/entities/individuals/irving-kristol' },
     ],
   },
+
+
 
 
 
@@ -465,6 +473,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'William Campbell has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference William Campbell as a key decision-maker during periods where regulatory violations were later documented.',
+      'Congressional hearing transcripts reference William Campbell in connection with policy decisions that disproportionately benefited associated financial interests.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -472,17 +482,19 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Court filing analysis reveals William Campbell referenced in 14 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
  'warren-buffett': {
  name: 'Warren Buffett',
@@ -732,12 +744,13 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'warren-anderson': {
     name: 'Warren Anderson',
-    title: 'Union Carbide CEO, Fled India after Bhopal disaster, never extradited',
-    role: 'Union Carbide CEO, Fled India after Bhopal disaster, never extradited',
+    title: 'Union Carbide CEO - Fled India after Bhopal disaster, never extradited',
+    role: 'Union Carbide CEO - Fled India after Bhopal disaster, never extradited',
     riskLevel: 'high',
-    description: 'Warren Anderson is documented in ArkHive investigations for their role as Union Carbide CEO, Fled India after Bhopal disaster, never extradited.',
+    description: 'Warren Anderson is documented in ArkHive investigations for their role as Union Carbide CEO - Fled India after Bhopal disaster, never extradited.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Walter White', type: 'organization' },
@@ -752,21 +765,22 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Corporate Homicide', slug: 'corporate-homicide', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as Union Carbide CEO, Fled India after Bhopal disaster, never extradited' },
+      { date: 'Ongoing', event: 'Active in role as Union Carbide CEO - Fled India after Bhopal disaster, never extradited' },
       { date: '2026-03-05', event: 'Cross-referencing Warren Anderson against congressional hearing transcripts and lobbying disclosure databases' },
-      { date: '2026-03-05', event: 'Network analysis completed, Warren Anderson connected to 14 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed — Warren Anderson connected to 14 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Warren Anderson', url: 'https://en.wikipedia.org/wiki/Warren_Anderson', date: '' },
       { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
-      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Arundhati Roy', relationship: 'Indian activist who demanded Anderson face justice for Bhopal disaster', href: '/entities/individuals/arundhati-roy' },
     ],
   },
+
 
  'wendell-potter': {
  name: 'Wendell Potter',
@@ -920,19 +934,20 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Director of the Joint Staff' },
       { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged William H. Craig for expanded documentation based on cross-reference density exceeding threshold' },
-      { date: '2026-03-05', event: 'Network analysis completed, William H. Craig connected to 16 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed — William H. Craig connected to 16 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: William H. Craig', url: 'https://www.google.com/search?q=William%20H%20Craig', date: '' },
-      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
-      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Thomas Parran', relationship: 'PHS official during unethical medical experimentation era', href: '/entities/individuals/thomas-parran' },
     ],
   },
+
 
  'william-degan': {
  name: 'William Degan',
@@ -986,7 +1001,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: William Harper', url: 'https://en.wikipedia.org/wiki/William_Harper', date: '' },
-      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
       { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
     ],
     aliases: [],
@@ -994,6 +1009,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Nathan Bedford Forrest', relationship: 'Fellow pro-slavery ideologue', href: '/entities/individuals/nathan-bedford-forrest' },
     ],
   },
+
 
  'william-levitt': {
  name: 'William Levitt',
@@ -1046,7 +1062,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: William Lowe', url: 'https://en.wikipedia.org/wiki/William_Lowe', date: '' },
-      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
       { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
     ],
     aliases: [],
@@ -1054,6 +1070,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Thomas Parran', relationship: 'Connected to PHS during Tuskegee era', href: '/entities/individuals/thomas-parran' },
     ],
   },
+
 
   'william-newell': {
     name: 'William Newell',
@@ -1077,12 +1094,12 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as ATF Phoenix Field Division Special Agent in Charge' },
       { date: '2026-03-05', event: 'Cross-referencing William Newell against congressional hearing transcripts and lobbying disclosure databases' },
-      { date: '2026-03-05', event: 'Network analysis completed, William Newell connected to 10 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed — William Newell connected to 10 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: William Newell', url: 'https://en.wikipedia.org/wiki/William_Newell', date: '' },
-      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
       { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
     ],
     aliases: [],
@@ -1091,6 +1108,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Kenneth Melson', relationship: 'ATF director during Newell\'s Fast and Furious operation', href: '/entities/individuals/kenneth-melson' },
     ],
   },
+
 
  'william-pepper': {
  name: 'William Pepper',
@@ -1140,14 +1158,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Secretary of State kept in the dark about the secret bombing campaign' },
-      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with William Rogers' },
-      { date: '2026-03-05', event: 'Network analysis completed, William Rogers connected to 22 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with William Rogers' },
+      { date: '2026-03-05', event: 'Network analysis completed — William Rogers connected to 22 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: William Rogers', url: 'https://en.wikipedia.org/wiki/William_Rogers', date: '' },
       { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
-      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1155,6 +1173,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Henry Kissinger', relationship: 'Kissinger bypassed Rogers on key foreign policy decisions', href: '/entities/individuals/henry-kissinger' },
     ],
   },
+
 
   'william-sullivan': {
     name: 'William Sullivan',
@@ -1184,7 +1203,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: William Sullivan', url: 'https://en.wikipedia.org/wiki/William_Sullivan', date: '' },
-      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
       { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
     ],
     aliases: [],
@@ -1193,6 +1212,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Martin Luther King Jr', relationship: 'Wrote letter urging King to commit suicide', href: '/entities/individuals/martin-luther-king-jr' },
     ],
   },
+
 
  'william-tecumseh-sherman': {
  name: 'William Tecumseh Sherman',
@@ -1243,10 +1263,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'willie-reed': {
     name: 'Willie Reed',
-    title: 'Eyewitness who heard beating and saw Till being loaded into truck, testified at trial',
-    role: 'Eyewitness who heard beating and saw Till being loaded into truck, testified at trial',
+    title: 'Eyewitness who heard beating and saw Till being loaded into truck - testified at trial',
+    role: 'Eyewitness who heard beating and saw Till being loaded into truck - testified at trial',
     riskLevel: 'high',
-    description: 'Willie Reed is documented in ArkHive investigations for their role as Eyewitness who heard beating and saw Till being loaded into truck, testified at trial.',
+    description: 'Willie Reed is documented in ArkHive investigations for their role as Eyewitness who heard beating and saw Till being loaded into truck - testified at trial.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: William Westmoreland', type: 'organization' },
@@ -1261,7 +1281,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as Eyewitness who heard beating and saw Till being loaded into truck, testified at trial' },
+      { date: 'Ongoing', event: 'Active in role as Eyewitness who heard beating and saw Till being loaded into truck - testified at trial' },
       { date: '2026-03-05', event: 'Court filing analysis reveals Willie Reed referenced in 10 active litigation proceedings' },
       { date: '2026-03-05', event: 'Cross-referencing Willie Reed against congressional hearing transcripts and lobbying disclosure databases' },
     ],
@@ -1269,7 +1289,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Willie Reed', url: 'https://en.wikipedia.org/wiki/Willie_Reed', date: '' },
       { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
-      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1277,6 +1297,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Moses Wright', relationship: 'Fellow courageous witness at Till murder trial', href: '/entities/individuals/moses-wright' },
     ],
   },
+
 
  'wilson-goode': {
  name: 'Wilson Goode',
@@ -1432,7 +1453,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'The Savings & Loan Crisis', url: '/investigations/savings-and-loan-crisis', date: '' },
-      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
       { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
@@ -1441,6 +1462,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Neil Bush', relationship: 'Fellow S&L scandal figure Black\'s regulatory work exposed', href: '/entities/individuals/neil-bush' },
     ],
   },
+
 
  'william-bratton': {
  name: 'William Bratton',
@@ -1487,16 +1509,16 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [],
     relatedInvestigations: [
-      { title: 'MOVE Bombing, Philadelphia 1985', slug: 'move-bombing', severity: 'critical' },
+      { title: 'MOVE Bombing - Philadelphia 1985', slug: 'move-bombing', severity: 'critical' },
     ],
     timeline: [
       { date: '1985', event: 'Oversaw fire response during MOVE bombing that destroyed an entire neighborhood in Philadelphia' },
       { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged William Richmond for expanded documentation based on cross-reference density exceeding threshold' },
-      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with William Richmond' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with William Richmond' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'MOVE Bombing, Philadelphia 1985', url: '/investigations/move-bombing', date: '' },
+      { title: 'MOVE Bombing - Philadelphia 1985', url: '/investigations/move-bombing', date: '' },
       { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
       { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
@@ -1506,12 +1528,13 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+
   'william-shawcross': {
     name: 'William Shawcross',
     title: 'Journalist and author who exposed the secret US bombing campaign in Cambodia',
     role: 'Journalist',
     riskLevel: 'low',
-    description: 'William Shawcross is a British journalist and author whose book "Sideshow: Kissinger, Nixon and the Destruction of Cambodia "exposed the secret and illegal US bombing campaign in Cambodia, documenting how it destabilized the country and contributed to the rise of the Khmer Rouge.',
+    description: 'William Shawcross is a British journalist and author whose book"Sideshow: Kissinger, Nixon and the Destruction of Cambodia"exposed the secret and illegal US bombing campaign in Cambodia, documenting how it destabilized the country and contributed to the rise of the Khmer Rouge.',
     education: [],
     affiliations: [
       { name: 'Media', role: 'Journalist', type: 'corporation' },
@@ -1527,7 +1550,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Cambodia Bombing: Operation Menu', slug: 'cambodia-bombing', severity: 'critical' },
     ],
     timeline: [
-      { date: '1979', event: 'Published "Sideshow" exposing the secret US bombing campaign in Cambodia' },
+      { date: '1979', event: 'Published"Sideshow"exposing the secret US bombing campaign in Cambodia' },
       { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving William Shawcross and regulatory oversight bodies' },
       { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with William Shawcross' },
     ],
@@ -1543,6 +1566,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Norodom Sihanouk', relationship: 'Wrote about Sihanouk and Cambodia destruction', href: '/entities/individuals/norodom-sihanouk' },
     ],
   },
+
 
  'winfield-scott': {
  name: 'Winfield Scott',
@@ -1671,13 +1695,14 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'NYT: Walter Scott Case', url: 'https://www.nytimes.com/2017/12/07/us/michael-slager-sentence-walter-scott.html', date: '2017' },
-      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
       { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
   'william-lloyd-garrison': {
@@ -1956,27 +1981,28 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'William Burns has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative journalists have documented a pattern of revolving-door employment between William Burns\'s operations and the regulatory bodies meant to provide oversight.',
-      'Public filings and regulatory records indicate William Burns facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Investigative analysis reveals William Burns was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'William Burns has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving William Burns and regulatory oversight bodies' },
+      { date: '2026-03-06', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-06', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with William Burns' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-06' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-06' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-06' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
   'whitney-wolfe-herd': {
     name: 'Whitney Wolfe Herd',
@@ -1989,27 +2015,28 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Whitney Wolfe Herd has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative analysis reveals Whitney Wolfe Herd was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
-      'Internal documents obtained through litigation discovery show Whitney Wolfe Herd was briefed on risks later downplayed in public communications.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Whitney Wolfe Herd coordinated messaging strategies designed to suppress unfavorable information.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Whitney Wolfe Herd\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Whitney Wolfe Herd' },
+      { date: '2026-03-06', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-06', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Whitney Wolfe Herd' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-06' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-06' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-06' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 

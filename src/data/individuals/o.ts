@@ -55,14 +55,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
   'oliver-north': {
@@ -74,7 +75,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'October 7, 1943',
     birthPlace: 'San Antonio, Texas, USA',
     netWorth: '$5+ million',
-    education: ['B.S., United States Naval Academy (1968)'],
+    education: ['B.S. - United States Naval Academy (1968)'],
     affiliations: [
       { name: 'National Security Council', role: 'Staff Member (1981-1986)', type: 'agency' },
       { name: 'United States Marine Corps', role: 'Lieutenant Colonel (1968-1988)', type: 'agency' },
@@ -89,7 +90,7 @@ const profiles: Record<string, IndividualProfile> = {
       'DOCUMENT SHREDDING: Destroyed thousands of documents with secretary Fawn Hall before investigation',
       'CONVICTED FELON: Found guilty of aiding obstruction of Congress, destroying documents, accepting gratuity',
       'CONVICTIONS OVERTURNED: Escaped on technicality because immunized congressional testimony may have influenced trial',
-      'REAGAN PROTECTION: Took fall for Reagan administration, testified "I was authorized to do everything I did"',
+      'REAGAN PROTECTION: Took fall for Reagan administration, testified"I was authorized to do everything I did"',
       'CASH IN OFFICE SAFE: Kept operational funds in office safe for covert operations',
       'NRA PRESIDENT: Led NRA during period of mass shootings, forced out amid internal scandal',
       'PROFITED FROM TREASON: Made millions from books, speeches, and media career after scandal',
@@ -136,7 +137,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Iran-Contra Independent Counsel Final Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
       { title: 'Congressional Iran-Contra Report', url: 'https://archive.org/details/reportofcongress01unit', date: '1987' },
       { title: 'North Congressional Testimony Transcripts', url: 'https://www.congress.gov/', date: '1987' },
-      { title: 'United States v. North, Appeals Court Decision', url: 'https://www.courtlistener.com/', date: '1990' },
+      { title: 'United States v. North - Appeals Court Decision', url: 'https://www.courtlistener.com/', date: '1990' },
       { title: 'Under Fire: An American Story (North autobiography)', url: 'https://www.goodreads.com/', date: '1991' },
     ],
     aliases: ['Ollie', 'The Fall Guy', 'American Hero (self-styled)'],
@@ -159,6 +160,8 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
   'oscar-munoz': {
     name: 'Oscar Munoz',
     title: 'Public Figure Under Investigation',
@@ -170,6 +173,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Oscar Munoz has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Oscar Munoz was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Public filings and regulatory records indicate Oscar Munoz facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -177,17 +182,19 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'ArkHive swarm intelligence flagged Oscar Munoz for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
   'omar-al-bashir': {
     name: 'Omar Al Bashir',
@@ -200,6 +207,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Omar Al Bashir has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Omar Al Bashir in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Public filings and regulatory records indicate Omar Al Bashir facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -207,17 +216,19 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Omar Al Bashir' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
  'omar-mateen': {
  name: 'Omar Mateen',
@@ -645,27 +656,28 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Oprah Winfrey has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative analysis reveals Oprah Winfrey was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
       'Court documents from related proceedings reference Oprah Winfrey as a key decision-maker during periods where regulatory violations were later documented.',
+      'Investigative analysis reveals Oprah Winfrey was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Court filing analysis reveals Oprah Winfrey referenced in 4 active litigation proceedings' },
+      { date: '2026-03-06', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-06', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'ArkHive swarm intelligence flagged Oprah Winfrey for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-06' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-06' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-06' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 };

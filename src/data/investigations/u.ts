@@ -78,7 +78,7 @@ const investigations_u: Record<string, InvestigationData> = {
  'FRAUDULENT DOCUMENTS: Some Trump properties allegedly helped workers obtain fake Social Security cards and green cards, or turned a blind eye when workers presented obviously fraudulent documents.',
  'VICTORINA MORALES: Housekeeper Victorina Morales, who cleaned Trump\'s Bedminster residence for five years while undocumented, came forward publicly, describing making his bed and cleaning his toilet.',
  'SANDRA DIAZ: Sandra Diaz worked at Bedminster while undocumented and later became a legal resident. She described the fear of speaking up about mistreatment.',
- 'THE PURGE: After news reports, Trump Organization began firing undocumented workers in early 2019|destroying evidence and casting out workers who had served loyally for years.',
+ 'THE PURGE: After news reports, Trump Organization began firing undocumented workers in early 2019, destroying evidence and casting out workers who had served loyally for years.',
  'NO ACCOUNTABILITY: Despite clear evidence of systematic employment of undocumented workers, no Trump Organization executives faced charges. E-Verify was not used at many properties.',
  'THE HYPOCRISY: Trump launched his 2015 campaign calling Mexican immigrants "rapists "and "criminals."His own businesses employed them, exploited them, then discarded them.',
  ],

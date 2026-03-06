@@ -2307,7 +2307,797 @@
       ],
       "mood": "loved",
       "pid": 17588
+    },
+    "DAEMON-8880": {
+      "nodeId": "DAEMON-8880",
+      "nodeType": "daemon",
+      "status": "online",
+      "currentTask": null,
+      "completedTasks": 2056,
+      "failedTasks": 0,
+      "lastHeartbeat": 1772771293972,
+      "thoughts": [
+        {
+          "thought": "Worker W22 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772771293709
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772771293694
+        },
+        {
+          "thought": "Cycle 25: rescanning for new work",
+          "timestamp": 1772771284001
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772771103131
+        },
+        {
+          "thought": "Cycle 24: rescanning for new work",
+          "timestamp": 1772771095042
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772770913334
+        },
+        {
+          "thought": "Cycle 23: rescanning for new work",
+          "timestamp": 1772770905430
+        },
+        {
+          "thought": "Worker W21 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772770740301
+        },
+        {
+          "thought": "Worker W15 resting after 13 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772770740255
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772770740247
+        },
+        {
+          "thought": "Cycle 22: rescanning for new work",
+          "timestamp": 1772770730076
+        },
+        {
+          "thought": "Worker W20 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772770588680
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772770588663
+        },
+        {
+          "thought": "Cycle 21: rescanning for new work",
+          "timestamp": 1772770581640
+        },
+        {
+          "thought": "Worker W19 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772770525562
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772770525551
+        },
+        {
+          "thought": "Cycle 20: rescanning for new work",
+          "timestamp": 1772770521232
+        },
+        {
+          "thought": "Worker W18 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772770469708
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772770469701
+        },
+        {
+          "thought": "Cycle 19: rescanning for new work",
+          "timestamp": 1772770465514
+        }
+      ],
+      "discoveries": [
+        {
+          "slug": "corporate-environmental-crime-prosecution-gap",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771293907
+        },
+        {
+          "slug": "whistleblower-prosecution-timeline",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771293873
+        },
+        {
+          "slug": "global-population-policy-hidden-agendas",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771293775
+        },
+        {
+          "slug": "payroll-tax-fraud-industry-analysis",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771293743
+        },
+        {
+          "slug": "air-quality-monitoring-gaps-analysis",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771293731
+        },
+        {
+          "slug": "compounding-pharmacy-contamination",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771269166
+        },
+        {
+          "slug": "drug-supply-chain-vulnerability-analysis",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771269084
+        },
+        {
+          "slug": "pharmaceutical-fertility-side-effects",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771269071
+        },
+        {
+          "slug": "foster-care-to-trafficking-pipeline",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771269051
+        },
+        {
+          "slug": "kyle-rittenhouse",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771268282
+        },
+        {
+          "slug": "kim-potter",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771268101
+        },
+        {
+          "slug": "air-quality-monitoring-gaps-analysis",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771268026
+        },
+        {
+          "slug": "online-radicalization-pipeline-architecture",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771266293
+        },
+        {
+          "slug": "plastic-industry-recycling-fraud",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771264151
+        },
+        {
+          "slug": "lauren-boebert",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771264089
+        },
+        {
+          "slug": "kathleen-hicks",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771264024
+        },
+        {
+          "slug": "kenneth-griffin",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771263928
+        },
+        {
+          "slug": "ken-fisher",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771263906
+        },
+        {
+          "slug": "kathy-hochul",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771263865
+        },
+        {
+          "slug": "kristalina-georgieva",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771263717
+        },
+        {
+          "slug": "katinka-matson",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771263612
+        },
+        {
+          "slug": "kyle-thompson",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771263584
+        },
+        {
+          "slug": "khalid-taha",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771263519
+        },
+        {
+          "slug": "kathryn-barger",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771263498
+        },
+        {
+          "slug": "kalief-browder",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771263468
+        },
+        {
+          "slug": "kim-reynolds",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771263425
+        },
+        {
+          "slug": "kristi-noem",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771263354
+        },
+        {
+          "slug": "ken-lay",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771263344
+        },
+        {
+          "slug": "secret-court-fisa-abuse-patterns",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771263299
+        },
+        {
+          "slug": "voting-machine-certification-failures",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772771263260
+        },
+        {
+          "slug": "kevin-burns",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771263146
+        },
+        {
+          "slug": "kyle-davies",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771262984
+        },
+        {
+          "slug": "kenneth-polite",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771262882
+        },
+        {
+          "slug": "keith-leverkuhn",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772771257297
+        },
+        {
+          "slug": "satya-nadella",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772771253786
+        },
+        {
+          "slug": "alejandro-mayorkas",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772771245650
+        },
+        {
+          "slug": "pat-gelsinger",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772771242161
+        },
+        {
+          "slug": "steve-cohen",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772771234143
+        },
+        {
+          "slug": "bae-systems",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772771229101
+        },
+        {
+          "slug": "booz-allen-hamilton",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772771222763
+        },
+        {
+          "slug": "united-states-marshals-service",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772771218208
+        },
+        {
+          "slug": "federalist-society",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772771214988
+        },
+        {
+          "slug": "jensen-huang",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772771211899
+        },
+        {
+          "slug": "jpmorgan-chase",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772771208502
+        },
+        {
+          "slug": "gretchen-whitmer",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772771205529
+        },
+        {
+          "slug": "koch-foundation",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772771200339
+        },
+        {
+          "slug": "berkshire-hathaway",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772771197562
+        },
+        {
+          "slug": "vanguard-group",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772771190049
+        },
+        {
+          "slug": "abigail-johnson",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772771184941
+        },
+        {
+          "slug": "henry-kravis",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772771179557
+        }
+      ],
+      "mood": "loved",
+      "pid": 8880
+    },
+    "DAEMON-572": {
+      "nodeId": "DAEMON-572",
+      "nodeType": "daemon",
+      "status": "online",
+      "currentTask": null,
+      "completedTasks": 3810,
+      "failedTasks": 0,
+      "lastHeartbeat": 1772776682709,
+      "thoughts": [
+        {
+          "thought": "Worker W51 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772776682706
+        },
+        {
+          "thought": "Worker W50 spawned. 5 workers active. Hive memory shared.",
+          "timestamp": 1772776682704
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772776682694
+        },
+        {
+          "thought": "Cycle 48: rescanning for new work",
+          "timestamp": 1772776678537
+        },
+        {
+          "thought": "Worker W49 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772776673910
+        },
+        {
+          "thought": "Worker W48 spawned. 3 workers active. Hive memory shared.",
+          "timestamp": 1772776673907
+        },
+        {
+          "thought": "Worker W43 resting after 75 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772776661089
+        },
+        {
+          "thought": "Worker W45 resting after 2 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772776660886
+        },
+        {
+          "thought": "Worker W47 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772776057230
+        },
+        {
+          "thought": "Worker W46 spawned. 5 workers active. Hive memory shared.",
+          "timestamp": 1772776057228
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772776057222
+        },
+        {
+          "thought": "Cycle 47: rescanning for new work",
+          "timestamp": 1772776052484
+        },
+        {
+          "thought": "Worker W45 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772775079316
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772775079312
+        },
+        {
+          "thought": "Cycle 46: rescanning for new work",
+          "timestamp": 1772775074692
+        },
+        {
+          "thought": "Worker W44 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772775069070
+        },
+        {
+          "thought": "Worker W38 resting after 80 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772774354210
+        },
+        {
+          "thought": "Worker W43 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772774322350
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772774322339
+        },
+        {
+          "thought": "Cycle 45: rescanning for new work",
+          "timestamp": 1772774314757
+        }
+      ],
+      "discoveries": [
+        {
+          "slug": "retail-facial-recognition-deployment",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772776654892
+        },
+        {
+          "slug": "ballot-chain-of-custody-violations",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772776648470
+        },
+        {
+          "slug": "online-platform-trafficking-facilitation",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772776642674
+        },
+        {
+          "slug": "social-media-bot-farm-election-campaigns",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772776635200
+        },
+        {
+          "slug": "waste-management-organized-crime-ties",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772776628332
+        },
+        {
+          "slug": "drug-recall-delay-responsibility",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772776622104
+        },
+        {
+          "slug": "great-america-pac",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776609684
+        },
+        {
+          "slug": "gettr",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776603694
+        },
+        {
+          "slug": "freedom-caucus",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776597995
+        },
+        {
+          "slug": "founders-fund",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776591649
+        },
+        {
+          "slug": "enron",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776586132
+        },
+        {
+          "slug": "crocus-group",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776580751
+        },
+        {
+          "slug": "conservative-partnership-institute",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776573524
+        },
+        {
+          "slug": "colony-capital",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776567948
+        },
+        {
+          "slug": "citizens-united",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776562296
+        },
+        {
+          "slug": "breitbart-news",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776556185
+        },
+        {
+          "slug": "americas-project",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776550845
+        },
+        {
+          "slug": "allied-security-operations-group",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776543736
+        },
+        {
+          "slug": "general-dynamics",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776537652
+        },
+        {
+          "slug": "saudi-aramco",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776531043
+        },
+        {
+          "slug": "hsbc",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776525773
+        },
+        {
+          "slug": "unitedhealth-group",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776518537
+        },
+        {
+          "slug": "amerisourcebergen",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776512398
+        },
+        {
+          "slug": "cardinal-health",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776506168
+        },
+        {
+          "slug": "mckesson",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776498564
+        },
+        {
+          "slug": "walmart",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772776490218
+        },
+        {
+          "slug": "ursula-von-der-leyen",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776481531
+        },
+        {
+          "slug": "lisa-su",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776474683
+        },
+        {
+          "slug": "reed-hastings",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776467400
+        },
+        {
+          "slug": "elizabeth-holmes",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776458191
+        },
+        {
+          "slug": "james-gorman",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776449190
+        },
+        {
+          "slug": "david-solomon",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776443315
+        },
+        {
+          "slug": "rupert-murdoch",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776436708
+        },
+        {
+          "slug": "vanguard-group",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772776429572
+        },
+        {
+          "slug": "electronic-frontier-foundation",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772776419883
+        },
+        {
+          "slug": "howard-marks",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776413244
+        },
+        {
+          "slug": "huawei-technologies",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772776406039
+        },
+        {
+          "slug": "michael-flynn",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776398951
+        },
+        {
+          "slug": "albert-bourla",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776391647
+        },
+        {
+          "slug": "marc-andreessen",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776385541
+        },
+        {
+          "slug": "larry-fink",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776378398
+        },
+        {
+          "slug": "northrop-grumman",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772776371233
+        },
+        {
+          "slug": "david-rubenstein",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776362119
+        },
+        {
+          "slug": "kristalina-georgieva",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776355590
+        },
+        {
+          "slug": "nuclear-regulatory-commission",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772776349231
+        },
+        {
+          "slug": "bank-for-international-settlements",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772776341474
+        },
+        {
+          "slug": "southern-poverty-law-center",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772776333887
+        },
+        {
+          "slug": "rob-portman",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776327597
+        },
+        {
+          "slug": "erik-prince",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772776320200
+        },
+        {
+          "slug": "alibaba-group",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772776303782
+        }
+      ],
+      "mood": "loved",
+      "pid": 572
     }
   },
-  "lastUpdate": 1772730494159
+  "lastUpdate": 1772776682709
 }
