@@ -232,11 +232,16 @@ export default function InvestigationsPage() {
  const [currentPage, setCurrentPage] = useState(1);
  const [showFilters, setShowFilters] = useState(false);
 
- // Read tag from URL search params
+ // Read tag or category from URL search params
  useEffect(() => {
  const tag = searchParams.get('tag');
+ const cat = searchParams.get('category');
  if (tag) {
  setSearchQuery(tag);
+ setCurrentPage(1);
+ }
+ if (cat) {
+ setActiveCategory(cat);
  setCurrentPage(1);
  }
  }, [searchParams]);
