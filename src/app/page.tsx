@@ -2,7 +2,8 @@
 
 import Link from"next/link";
 import { ArrowRight, Shield, AlertTriangle, Eye, FileText, Users, ChevronRight, Skull, Search, Send } from"lucide-react";
-import InvestigationCard, { Investigation } from"@/components/cards/InvestigationCard";
+import { useRouter } from"next/navigation";
+import { motion } from"framer-motion";
 import EntityCard, { Entity } from"@/components/cards/EntityCard";
 import StatsDisplay from"@/components/ui/StatsDisplay";
 import CrystalButton from"@/components/ui/CrystalButton";
@@ -15,42 +16,46 @@ import SharpBleedingPyramid from"@/components/ui/SharpBleedingPyramid";
 import SimpleTypingText from"@/components/effects/SimpleTypingText";
 import AnimatedLetters from"@/components/effects/AnimatedLetters";
 
-// Featured investigations - Latest critical investigations
-const featuredInvestigations: Investigation[] = [
- {
- id:"trump-1",
- slug:"trump-criminal-compendium",
- title:"The Trump Criminal Compendium",
- summary:"A comprehensive juridical documentation of Donald Trump's crimes against humanity, universal law, and democratic institutions. Includes 40+ charges spanning election interference, human trafficking complicity, financial crimes, espionage, and incitement of insurrection.",
- category:"Crimes Against Humanity",
- severity:"critical",
- date:"June 2015",
- entityCount: 28,
- tags: ["Election Interference","Human Trafficking","Tax Evasion","RICO","January 6","Epstein"],
- },
- {
- id:"epstein-1",
- slug:"epstein-network",
- title:"Epstein Network Investigation",
- summary:"Comprehensive investigation into Jeffrey Epstein's global trafficking operation, his connections to Trump, and the network of powerful individuals who enabled decades of abuse.",
- category:"Human Trafficking",
- severity:"critical",
- date:"March 2016",
- entityCount: 15,
- tags: ["Epstein","Maxwell","Trump","Trafficking","Sexual Abuse"],
- },
- {
- id:"j6-1",
- slug:"january-6-insurrection",
- title:"January 6 Insurrection",
- summary:"The violent attack on American democracy: Trump incited a mob to storm the Capitol, resulting in deaths, injuries, and attempted overthrow of a lawful election. Includes criminal convictions and ongoing proceedings.",
- category:"Election Interference",
- severity:"critical",
- date:"January 2021",
- entityCount: 12,
- tags: ["January 6","Insurrection","Seditious Conspiracy","Proud Boys","Oath Keepers"],
- },
+// Top investigation files — curated most intriguing cases
+const FEATURED_INVESTIGATIONS: {
+ slug: string;
+ title: string;
+ subtitle: string;
+ severity: 'critical' | 'high' | 'medium';
+}[] = [
+ { slug: 'elite-trafficking', title: 'Elite Trafficking Networks', subtitle: 'Powerful predators protected by wealth and influence', severity: 'critical' },
+ { slug: 'treason', title: 'Treason & Foreign Collusion', subtitle: 'Systematic betrayal of national interests for personal gain', severity: 'critical' },
+ { slug: 'torture-program', title: 'CIA Torture Program', subtitle: 'Black sites, waterboarding, and zero accountability', severity: 'critical' },
+ { slug: 'emf-assault', title: 'Havana Syndrome & Directed Energy Attacks', subtitle: 'Unexplained weapons targeting US personnel worldwide', severity: 'critical' },
+ { slug: 'mkultra-full-declassification-analysis', title: 'MKUltra Declassification', subtitle: 'CIA mind control experiments on unwitting subjects', severity: 'critical' },
+ { slug: 'military-industrial', title: 'Military Industrial Complex', subtitle: '$900B war economy Eisenhower warned about', severity: 'critical' },
+ { slug: 'surveillance-state', title: 'The Surveillance State', subtitle: 'Mass domestic spying infrastructure exposed', severity: 'critical' },
+ { slug: 'trump-tower-moscow', title: 'Trump Tower Moscow Project', subtitle: 'Secret Russian deal during presidential campaign', severity: 'critical' },
+ { slug: 'election-disinformation', title: 'Election Disinformation Campaign', subtitle: 'Manufactured lies to overthrow democratic outcomes', severity: 'critical' },
+ { slug: 'gaza-genocide', title: 'Gaza Genocide', subtitle: 'Systematic destruction enabled by US weapons', severity: 'critical' },
+ { slug: 'stormy-daniels', title: 'Stormy Daniels Hush Money', subtitle: '34 felony convictions and campaign finance fraud', severity: 'high' },
+ { slug: 'seychelles-meeting', title: 'Seychelles Secret Meeting', subtitle: 'Covert back-channel with Russia and UAE', severity: 'high' },
+ { slug: 'fox-disinfo', title: 'Fox News Disinformation Machine', subtitle: 'Propaganda network coordinating with political power', severity: 'high' },
+ { slug: 'supreme-court-ethics', title: 'Supreme Court Ethics Crisis', subtitle: 'Undisclosed gifts, conflicts, and bought justices', severity: 'high' },
+ { slug: 'mind-control-programs-modern-era', title: 'Mind Control Programs: Modern Era', subtitle: 'Behavioral influence operations beyond MKUltra', severity: 'high' },
+ { slug: 'insider-trading-congressional-members', title: 'Congressional Insider Trading', subtitle: 'Lawmakers profiting from classified briefings', severity: 'high' },
+ { slug: 'foster-care-to-trafficking-pipeline', title: 'Foster Care to Trafficking Pipeline', subtitle: 'Children disappearing from state custody into exploitation', severity: 'critical' },
+ { slug: 'forced-sterilization-historical-patterns', title: 'Forced Sterilization Programs', subtitle: 'Government eugenics programs targeting minorities', severity: 'critical' },
+ { slug: 'flint-water', title: 'Flint Water Crisis', subtitle: 'Government poisoned a city and covered it up', severity: 'critical' },
+ { slug: 'fbi-assassinations', title: 'FBI Assassinations', subtitle: 'COINTELPRO, targeted killings, and state violence', severity: 'critical' },
 ];
+
+const SEVERITY_COLORS: Record<string, string> = {
+ critical: 'border-l-red-600 hover:border-l-red-400',
+ high: 'border-l-orange-600 hover:border-l-orange-400',
+ medium: 'border-l-yellow-600 hover:border-l-yellow-400',
+};
+
+const SEVERITY_DOTS: Record<string, string> = {
+ critical: 'bg-red-500',
+ high: 'bg-orange-500',
+ medium: 'bg-yellow-600',
+};
 
 // Featured entities - Key players across investigations
 const featuredEntities: Entity[] = [
@@ -98,6 +103,90 @@ const stats = {
  documentsArchived: 448,
  activeAlerts: 82,
 };
+
+// ── Featured Investigations Grid (compact tile layout) ────────
+function FeaturedInvestigationsGrid() {
+ const router = useRouter();
+
+ return (
+  <section className="py-12 lg:py-16">
+   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="flex items-center justify-between mb-6">
+     <div>
+      <TypewriterText
+       text="Featured Investigations"
+       element="h2"
+       className="text-2xl lg:text-3xl font-bold text-white mb-2"
+       speed={50}
+      />
+      <p className="text-zinc-500">
+       Classified files demanding immediate attention
+      </p>
+     </div>
+     <Link
+      href="/investigations"
+      className="hidden sm:flex items-center gap-2 text-blood-700 hover:text-blood-600 font-medium transition-colors"
+     >
+      View All
+      <ChevronRight className="w-5 h-5"/>
+     </Link>
+    </div>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
+     {FEATURED_INVESTIGATIONS.map((inv, i) => (
+      <motion.button
+       key={inv.slug}
+       onClick={() => router.push(`/investigations/${inv.slug}`)}
+       className={`
+        text-left p-3 border-l-2 ${SEVERITY_COLORS[inv.severity]}
+        bg-black/30 border border-zinc-800/50
+        hover:bg-blood-950/20 hover:border-blood-900/40
+        hover:shadow-[0_0_10px_rgba(214,69,69,0.08)]
+        active:scale-[0.98]
+        transition-all duration-200 cursor-pointer select-none group
+       `}
+       initial={{ opacity: 0, y: 8 }}
+       animate={{ opacity: 1, y: 0 }}
+       transition={{ delay: i * 0.03 }}
+       whileHover={{ x: 2 }}
+       whileTap={{ scale: 0.98 }}
+      >
+       <div className="flex items-start justify-between gap-2">
+        <div className="min-w-0 flex-1">
+         <div className="flex items-center gap-1.5 mb-0.5">
+          <div className={`w-1.5 h-1.5 ${SEVERITY_DOTS[inv.severity]} shrink-0`} />
+          <span className="text-xs font-semibold text-zinc-300 group-hover:text-white transition-colors truncate">
+           {inv.title}
+          </span>
+         </div>
+         <p className="text-[10px] leading-tight text-zinc-600 group-hover:text-zinc-500 transition-colors line-clamp-2">
+          {inv.subtitle}
+         </p>
+        </div>
+        <svg
+         className="w-3 h-3 text-zinc-700 group-hover:text-blood-500 group-hover:translate-x-0.5 transition-all duration-200 mt-0.5 shrink-0"
+         fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5"
+        >
+         <path strokeLinecap="square" d="M9 5l7 7-7 7" />
+        </svg>
+       </div>
+      </motion.button>
+     ))}
+    </div>
+
+    <div className="mt-4 text-center sm:hidden">
+     <Link
+      href="/investigations"
+      className="inline-flex items-center gap-2 text-blood-700 font-medium"
+     >
+      View All Investigations
+      <ChevronRight className="w-5 h-5"/>
+     </Link>
+    </div>
+   </div>
+  </section>
+ );
+}
 
 export default function Home() {
  return (
@@ -456,51 +545,8 @@ export default function Home() {
  {/* Glitch Divider */}
  <GlitchDivider showLabel label="CLASSIFIED"/>
 
- {/* Featured Investigations */}
- <section className="py-12 lg:py-16">
- <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
- <div className="flex items-center justify-between mb-8">
- <div>
- <TypewriterText
- text="Latest Investigations"
- element="h2"
- className="text-2xl lg:text-3xl font-bold text-white mb-2"
- speed={50}
- />
- <p className="text-zinc-500">
- Recent documentation and exposés
- </p>
- </div>
- <Link
- href="/investigations"
- className="hidden sm:flex items-center gap-2 text-blood-700 hover:text-blood-600 font-medium transition-colors"
- >
- View All
- <ChevronRight className="w-5 h-5"/>
- </Link>
- </div>
-
- <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
- {featuredInvestigations.map((investigation, index) => (
- <InvestigationCard
- key={investigation.id}
- investigation={investigation}
- featured={index === 0}
- />
- ))}
- </div>
-
- <div className="mt-8 text-center sm:hidden">
- <Link
- href="/investigations"
- className="inline-flex items-center gap-2 text-blood-700 font-medium"
- >
- View All Investigations
- <ChevronRight className="w-5 h-5"/>
- </Link>
- </div>
- </div>
- </section>
+ {/* Featured Investigations — compact grid */}
+ <FeaturedInvestigationsGrid />
 
  {/* Glitch Divider */}
  <GlitchDivider showLabel label="BIOHAZARD"/>
