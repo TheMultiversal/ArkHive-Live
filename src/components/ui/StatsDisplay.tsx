@@ -2,6 +2,7 @@
 
 import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState, useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 
 interface StatsData {
  totalInvestigations: number;
@@ -255,6 +256,7 @@ export default function StatsDisplay({ stats: initialStats }: StatsDisplayProps)
  });
  const [isLive, setIsLive] = useState(false);
  const [lastUpdated, setLastUpdated] = useState<string | null>(null);
+ const router = useRouter();
 
  const fetchStats = useCallback(async () => {
   try {
@@ -291,18 +293,18 @@ export default function StatsDisplay({ stats: initialStats }: StatsDisplayProps)
 
  // Primary stats row (big numbers)
  const primaryStats = [
-  { label: 'Active Investigations', value: stats.totalInvestigations, Icon: InvestigationIcon },
-  { label: 'Entities Tracked', value: stats.entitiesTracked, Icon: EntitiesIcon },
-  { label: 'Connections Mapped', value: stats.connections, Icon: ConnectionsIcon },
-  { label: 'Active Alerts', value: stats.activeAlerts, Icon: AlertsIcon },
+  { label: 'Active Investigations', value: stats.totalInvestigations, Icon: InvestigationIcon, href: '/investigations' },
+  { label: 'Entities Tracked', value: stats.entitiesTracked, Icon: EntitiesIcon, href: '/entities' },
+  { label: 'Connections Mapped', value: stats.connections, Icon: ConnectionsIcon, href: '/entities' },
+  { label: 'Active Alerts', value: stats.activeAlerts, Icon: AlertsIcon, href: '/investigations' },
  ];
 
  // Secondary stats row (entity breakdowns)
  const secondaryStats = [
-  { label: 'Individuals', value: stats.individuals, Icon: IndividualsIcon },
-  { label: 'Agencies', value: stats.agencies, Icon: AgencyIcon },
-  { label: 'Corporations', value: stats.corporations, Icon: CorporationIcon },
-  { label: 'Organizations', value: stats.organizations, Icon: OrganizationIcon },
+  { label: 'Individuals', value: stats.individuals, Icon: IndividualsIcon, href: '/entities/individuals' },
+  { label: 'Agencies', value: stats.agencies, Icon: AgencyIcon, href: '/entities/agencies' },
+  { label: 'Corporations', value: stats.corporations, Icon: CorporationIcon, href: '/entities/corporations' },
+  { label: 'Organizations', value: stats.organizations, Icon: OrganizationIcon, href: '/entities/organizations' },
  ];
 
  return (
@@ -322,16 +324,24 @@ export default function StatsDisplay({ stats: initialStats }: StatsDisplayProps)
     {primaryStats.map((item, index) => (
      <motion.div
       key={item.label}
-      className="glass-card p-5 group"
+      role="button"
+      tabIndex={0}
+      onClick={() => router.push(item.href)}
+      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') router.push(item.href); }}
+      className="glass-card p-5 group cursor-pointer h-full border border-blood-900/30 hover:border-blood-600/60 hover:bg-blood-950/20 hover:shadow-[0_0_15px_rgba(214,69,69,0.15)] active:scale-[0.98] transition-all duration-200 select-none"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.1 }}
-      whileHover={{ scale: 1.02, borderColor: 'rgba(153, 27, 27, 0.5)' }}
+      whileHover={{ scale: 1.03 }}
+      whileTap={{ scale: 0.97 }}
      >
-      <div className="flex items-center gap-3 mb-3">
-       <div className="w-12 h-12 bg-gradient-to-br from-blood-900/50 to-blood-950/50 border border-blood-600/20 flex items-center justify-center group-hover:border-blood-600/40 transition-colors">
+      <div className="flex items-center justify-between mb-3">
+       <div className="w-12 h-12 bg-gradient-to-br from-blood-900/50 to-blood-950/50 border border-blood-600/20 flex items-center justify-center group-hover:border-blood-600/50 transition-colors">
         <item.Icon />
        </div>
+       <svg className="w-5 h-5 text-zinc-700 group-hover:text-blood-500 group-hover:translate-x-1 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+        <path strokeLinecap="square" d="M9 5l7 7-7 7" />
+       </svg>
       </div>
       <motion.div
        className="text-3xl font-bold text-white mb-1"
@@ -341,8 +351,8 @@ export default function StatsDisplay({ stats: initialStats }: StatsDisplayProps)
       >
        <AnimatedNumber value={item.value} />
       </motion.div>
-      <div className="text-sm text-zinc-500 group-hover:text-blood-500/70 transition-colors">
-       {item.label}
+      <div className="text-sm text-zinc-500 group-hover:text-blood-500 transition-colors">
+       {item.label} →
       </div>
      </motion.div>
     ))}
@@ -354,20 +364,30 @@ export default function StatsDisplay({ stats: initialStats }: StatsDisplayProps)
      {secondaryStats.map((item, index) => (
       <motion.div
        key={item.label}
-       className="glass-card p-4 group"
+       role="button"
+       tabIndex={0}
+       onClick={() => router.push(item.href)}
+       onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') router.push(item.href); }}
+       className="glass-card p-4 group cursor-pointer h-full border border-blood-900/20 hover:border-blood-600/50 hover:bg-blood-950/20 hover:shadow-[0_0_12px_rgba(214,69,69,0.1)] active:scale-[0.98] transition-all duration-200 select-none"
        initial={{ opacity: 0, y: 10 }}
        animate={{ opacity: 1, y: 0 }}
        transition={{ delay: 0.5 + index * 0.08 }}
-       whileHover={{ scale: 1.02, borderColor: 'rgba(153, 27, 27, 0.3)' }}
+       whileHover={{ scale: 1.03 }}
+       whileTap={{ scale: 0.97 }}
       >
-       <div className="flex items-center gap-2 mb-2">
-        <div className="w-8 h-8 bg-gradient-to-br from-blood-900/30 to-blood-950/30 border border-blood-700/10 flex items-center justify-center">
-         <div className="scale-75"><item.Icon /></div>
+       <div className="flex items-center justify-between mb-2">
+        <div className="flex items-center gap-2">
+         <div className="w-8 h-8 bg-gradient-to-br from-blood-900/30 to-blood-950/30 border border-blood-700/10 flex items-center justify-center group-hover:border-blood-600/40 transition-colors">
+          <div className="scale-75"><item.Icon /></div>
+         </div>
+         <div className="text-xs text-zinc-600 group-hover:text-zinc-400 uppercase tracking-wider transition-colors">{item.label}</div>
         </div>
-        <div className="text-xs text-zinc-600 uppercase tracking-wider">{item.label}</div>
+        <svg className="w-4 h-4 text-zinc-700 group-hover:text-blood-500 group-hover:translate-x-1 transition-all duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+         <path strokeLinecap="square" d="M9 5l7 7-7 7" />
+        </svg>
        </div>
        <motion.div
-        className="text-2xl font-bold text-zinc-300"
+        className="text-2xl font-bold text-zinc-300 group-hover:text-white transition-colors"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.6 + index * 0.08 }}
