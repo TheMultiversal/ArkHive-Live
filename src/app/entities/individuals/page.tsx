@@ -19,7 +19,7 @@ interface Entity {
 }
 
 // Map profile riskLevel to EntityCard riskLevel
-const riskMap: Record<string, "extreme" | "high" | "moderate" | " low"> = {
+const riskMap: Record<string, "extreme" | "high" | "moderate" | "low"> = {
   critical: "extreme",
   high: "high",
   medium: "moderate",
@@ -38,16 +38,16 @@ const individuals: Entity[] = Object.entries(individualData).map(([slug, profile
     "Profile under investigation.",
   role: profile.role || profile.title || "Under Investigation",
   investigationCount: profile.relatedInvestigations?.length || 0,
-  riskLevel: riskMap[profile.riskLevel] || " low",
+  riskLevel: riskMap[profile.riskLevel] || "low",
 }));
 
 // Sort: highest risk first, then alphabetical
 const riskOrder: Record<string, number> = { extreme: 0, high: 1, moderate: 2, low: 3 };
 individuals.sort(
-  (a, b) => riskOrder[a.riskLevel], riskOrder[b.riskLevel] || a.name.localeCompare(b.name)
+  (a, b) => riskOrder[a.riskLevel] - riskOrder[b.riskLevel] || a.name.localeCompare(b.name)
 );
 
-type RiskFilter = "all" | "extreme" | "high" | " moderate" | " low";
+type RiskFilter = "all" | "extreme" | "high" | "moderate" | "low";
 
 export default function IndividualsPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -135,7 +135,7 @@ export default function IndividualsPage() {
 
           <div className="flex items-center gap-2 flex-wrap">
             <Filter className="w-4 h-4 text-zinc-500" />
-            {([" all","extreme","high","moderate","low"] as RiskFilter[]).map((level) => (
+            {(["all","extreme","high","moderate","low"] as RiskFilter[]).map((level) => (
               <button
                 key={level}
                 onClick={() => setRiskFilter(level)}

@@ -148,7 +148,7 @@ const investigations_u: Record<string, InvestigationData> = {
  'SOUTH KOREA, PARK: Park Chung-hee\'s military dictatorship (1963-1979) received strong U.S. support. His successor Chun Doo-hwan massacred pro-democracy protesters at Gwangju in 1980 while America looked away.',
  'EGYPT, MUBARAK: Hosni Mubarak received billions in U.S. aid while running a police state for 30 years. He was Washington\'s key Arab ally until protesters forced him out in 2011.',
  'SAUDI ARABIA: The U.S.-Saudi relationship epitomizes prioritizing interests over values. Saudi Arabia executes dissidents, oppresses women, exports extremism, and murdered Jamal Khashoggi, while receiving unconditional American support.',
- 'LASTING CONSEQUENCES: U.S. support for dictators creates lasting anti-American sentiment. Iranian hostility traces to 1953. Latin American distrust stems from decades of backing right-wing death squads."Why do they hate us?" has historical answers.',
+ 'LASTING CONSEQUENCES: U.S. support for dictators creates lasting anti-American sentiment. Iranian hostility traces to 1953. Latin American distrust stems from decades of backing right-wing death squads."Why do they hate us?"has historical answers.',
  'CURRENT CONTINUITY: The pattern continues. The U.S. supports authoritarian governments in Egypt, Saudi Arabia, UAE, and elsewhere when they serve American interests. Democracy promotion remains rhetorical rather than actual policy.',
  ],
  tags: ['U.S. Foreign Policy', 'Dictators', 'Cold War', 'CIA', 'Iran', 'Chile', 'Saudi Arabia', 'Human Rights'],

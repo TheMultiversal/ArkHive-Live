@@ -116,7 +116,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Former Speaker of the House',
  role: 'House Speaker during both Trump Impeachments',
  riskLevel: 'low' as const,
- description: 'First female Speaker of the House who led both impeachments of Donald Trump. Target of January 6 insurrectionists who chanted "Where\'s Nancy?" while searching the Capitol. Her office was ransacked and her staff hid under a table.',
+ description: 'First female Speaker of the House who led both impeachments of Donald Trump. Target of January 6 insurrectionists who chanted "Where\'s Nancy?"while searching the Capitol. Her office was ransacked and her staff hid under a table.',
  birthDate: 'March 26, 1940',
  birthPlace: 'Baltimore, Maryland',
  education: [

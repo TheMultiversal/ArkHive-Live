@@ -370,7 +370,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Be Best Initiative', role: 'Founder', type: 'organization' },
     ],
     controversies: [
-      '"I Really Don\'t Care, Do U?" jacket while visiting detained migrant children',
+      '"I Really Don\'t Care, Do U?"jacket while visiting detained migrant children',
       'EB-1"Einstein Visa "despite no extraordinary ability documentation',
       'Sponsored parents for citizenship despite Trump\'s anti-chain migration stance',
       'Plagiarized Michelle Obama speech at 2016 RNC',

@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useMemo, useCallback, useEffect } from "react";
-import { useSearchParams } from "next/navigation";
+import { useState, useMemo, useCallback, useEffect } from"react";
+import { useSearchParams } from"next/navigation";
 import InvestigationCard, { Investigation } from"@/components/cards/InvestigationCard";
 import investigationDatabase from"@/data/investigations";
-import { Search, AlertTriangle, X, ChevronLeft, ChevronRight, Skull, Shield, Scale, Globe, Landmark, Building2, Siren, FileWarning, Microscope, Radio, Crosshair, Flame, Users, DollarSign, Eye, Filter } from "lucide-react";
+import { Search, AlertTriangle, X, ChevronLeft, ChevronRight, Skull, Shield, Scale, Globe, Landmark, Building2, Siren, FileWarning, Microscope, Radio, Crosshair, Flame, Users, DollarSign, Eye, Filter } from"lucide-react";
 
 // Convert the data-directory investigations into the Investigation card format
 const allInvestigations: Investigation[] = Object.entries(investigationDatabase).map(
@@ -228,7 +228,7 @@ export default function InvestigationsPage() {
  const [searchQuery, setSearchQuery] = useState("");
  const [activeCategory, setActiveCategory] = useState("All");
  const [activeSeverity, setActiveSeverity] = useState("");
- const [sortBy, setSortBy] = useState<"alpha"|"newest"|"oldest"|"severity">(" alpha");
+ const [sortBy, setSortBy] = useState<"alpha"|"newest"|"oldest"|"severity">("alpha");
  const [currentPage, setCurrentPage] = useState(1);
  const [showFilters, setShowFilters] = useState(false);
 
@@ -289,19 +289,19 @@ export default function InvestigationsPage() {
  // Sort
  results = [...results].sort((a, b) => {
  switch (sortBy) {
- case "alpha":
+ case"alpha":
  return a.title.localeCompare(b.title);
- case" newest": {
+ case"newest": {
  const da = new Date(a.date).getTime();
  const db = new Date(b.date).getTime();
- return db, da;
+ return db - da;
  }
- case" oldest": {
+ case"oldest": {
  const da = new Date(a.date).getTime();
  const db = new Date(b.date).getTime();
- return da, db;
+ return da - db;
  }
- case" severity":
+ case"severity":
  return (SEVERITY_ORDER[a.severity] ?? 9) - (SEVERITY_ORDER[b.severity] ?? 9);
  default:
  return 0;
@@ -334,7 +334,7 @@ export default function InvestigationsPage() {
  setCurrentPage(1);
  }, []);
 
- const handleSortChange = useCallback((val:"alpha"|"newest"|" oldest"|" severity") => {
+ const handleSortChange = useCallback((val:"alpha"|"newest"|"oldest"|"severity") => {
  setSortBy(val);
  setCurrentPage(1);
  }, []);
@@ -389,13 +389,13 @@ export default function InvestigationsPage() {
  onClick={() => handleCategoryChange(cat)}
  className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold uppercase tracking-wider border transition-all whitespace-nowrap ${
  isActive
- ?" bg-blood-900/60 border-blood-700 text-blood-400"
- :" bg-black/40 border-zinc-800/60 text-zinc-500 hover:text-zinc-300 hover:border-zinc-700"
+ ?"bg-blood-900/60 border-blood-700 text-blood-400"
+ :"bg-black/40 border-zinc-800/60 text-zinc-500 hover:text-zinc-300 hover:border-zinc-700"
  }`}
  >
  {IconComp && <IconComp className="w-3.5 h-3.5"/>}
  <span>{cat}</span>
- <span className={`ml-1 text-[10px] ${isActive ?" text-blood-500":" text-zinc-600"}`}>
+ <span className={`ml-1 text-[10px] ${isActive ?"text-blood-500":"text-zinc-600"}`}>
  {count}
  </span>
  </button>
@@ -524,12 +524,12 @@ export default function InvestigationsPage() {
  .filter((page) => {
  // Show first, last, and pages near current
  if (page === 1 || page === totalPages) return true;
- if (Math.abs(page, currentPage) <= 2) return true;
+ if (Math.abs(page - currentPage) <= 2) return true;
  return false;
  })
  .reduce<(number |"ellipsis")[]>((acc, page, idx, arr) => {
- if (idx > 0 && page ((arr[idx) 1] as number) > 1) {
- acc.push(" ellipsis");
+ if (idx > 0 && page - (arr[idx - 1] as number) > 1) {
+ acc.push("ellipsis");
  }
  acc.push(page);
  return acc;
@@ -544,7 +544,7 @@ export default function InvestigationsPage() {
  className={`w-9 h-9 text-sm font-bold border transition-colors ${
  currentPage === item
  ?"bg-blood-900/60 border-blood-700 text-blood-400"
- :" border-zinc-800 text-zinc-500 hover:text-white hover:border-zinc-600"
+ :"border-zinc-800 text-zinc-500 hover:text-white hover:border-zinc-600"
  }`}
  >
  {item}

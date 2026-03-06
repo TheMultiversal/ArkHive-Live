@@ -3073,7 +3073,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'critical' },
     ],
     timeline: [
-      { date: '2001', event: 'Published "Is Enron Overpriced?" in Fortune magazine, first major media questioning of Enron' },
+      { date: '2001', event: 'Published "Is Enron Overpriced?"in Fortune magazine, first major media questioning of Enron' },
       { date: '2026-03-05', event: 'Cross-referencing Bethany McLean against congressional hearing transcripts and lobbying disclosure databases' },
       { date: '2026-03-05', event: 'Court filing analysis reveals Bethany McLean referenced in 8 active litigation proceedings' },
     ],

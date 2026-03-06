@@ -153,7 +153,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1992', event: 'Begins documented association with Jeffrey Epstein, frequent Mar-a-Lago guest' },
       { date: '1993', event: 'Documented flight on Epstein\'s "Lolita Express" private jet' },
       { date: '1994', event: 'Katie Johnson lawsuit alleges rape at age 13 at Epstein party (later dropped after threats)' },
-      { date: '2002', event: 'Publicly praises Epstein:" terrific guy... likes beautiful women... on the younger side"' },
+      { date: '2002', event: 'Publicly praises Epstein:"terrific guy... likes beautiful women... on the younger side"' },
       { date: '2005', event: 'Access Hollywood tape recorded (" grab them by the pussy")' },
       { date: '2015', event: 'Announces presidential campaign with anti-immigrant rhetoric (" rapists")' },
       { date: '2016', event: 'June 9: Trump Tower meeting with Russians offering Clinton dirt' },
