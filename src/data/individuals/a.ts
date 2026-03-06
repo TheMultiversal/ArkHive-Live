@@ -69,7 +69,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'March 18, 1968',
     birthPlace: 'New York City, USA',
     netWorth: 'Unknown',
-    education: ['J.D., Washington University School of Law', 'B.A., Duke University'],
+    education: ['J.D. - Washington University School of Law', 'B.A. - Duke University'],
     affiliations: [
       { name: 'FBI', role: 'Deputy Director (2016-2018), Acting Director (2017)', type: 'agency' },
       { name: 'CNN', role: 'Contributor (current)', type: 'corporation' },
@@ -126,6 +126,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Rod Rosenstein', relationship: 'US Deputy Attorney General', href: '/entities/individuals/rostenstein' },
     ],
   },
+
 
 
 
