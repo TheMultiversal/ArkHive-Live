@@ -171,6 +171,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'alexander-nix': {
     name: 'Alexander James Ashburner Nix',
     title: 'Former Cambridge Analytica CEO',
@@ -219,7 +220,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'UK ICO Investigation', url: 'https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
       { title: 'Channel 4 Undercover Investigation', url: 'https://scholar.google.com/scholar?q=Channel%204%20Undercover%20Investigation', date: '2018' },
-      { title: 'Federal Register - Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -228,6 +229,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Christopher Wylie', relationship: 'Former employee, whistleblower' },
     ],
   },
+
 
 
 
@@ -358,7 +360,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Miami Herald - Perversion of Justice Investigation', url: 'https://www.miamiherald.com/', date: '2018' },
       { title: 'DOJ OPR Investigation', url: 'https://scholar.google.com/scholar?q=DOJ%20OPR%20Investigation', date: '2020' },
-      { title: 'Congressional Record - Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: ['Alexander Acosta'],
     knownAssociates: [
@@ -370,6 +372,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Michael Reiter', relationship: 'Palm Beach Police Chief who pushed for federal prosecution', href: '/entities/individuals/michael-reiter' },
     ],
   },
+
 
 
 
@@ -441,7 +444,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'HHS COVID Timeline', url: 'https://scholar.google.com/scholar?q=HHS%20COVID%20Timeline', date: '2020' },
-      { title: 'Congressional Record - Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
       { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
     ],
     aliases: ['Azar'],
@@ -450,6 +453,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Anthony Fauci', relationship: 'HHS oversaw NIAID', href: '/entities/individuals/anthony-fauci' },
     ],
   },
+
 
 
 
@@ -563,6 +567,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'ali-alexander': {
     name: 'Ali Akbar Alexander',
     title: 'Political Activist',
@@ -616,6 +621,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Roger Stone', relationship: 'Stop the Steal collaborator', href: '/entities/individuals/roger-stone' },
     ],
   },
+
 
 
 
@@ -1354,6 +1360,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'allen-dulles': {
     name: 'Allen Dulles',
     title: 'CIA Director (1953-1961)',
@@ -1421,6 +1428,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Richard Helms', relationship: 'CIA Deputy Director', href: '/entities/individuals/richard-helms' },
     ],
   },
+
 
 
 
