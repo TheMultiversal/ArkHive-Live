@@ -5,7 +5,7 @@ import corporationData from '@/data/corporations';
 import organizationData from '@/data/organizations';
 import investigationDatabase from '@/data/investigations';
 
-// Force dynamic , always compute live counts from imported data
+// Force dynamic, always compute live counts from imported data
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 

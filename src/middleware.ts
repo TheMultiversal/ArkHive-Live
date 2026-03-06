@@ -13,7 +13,7 @@ import type { NextRequest } from 'next/server';
 const PUBLIC_FILE = /\.(.*)$/;
 
 export function middleware(req: NextRequest) {
-  // Static export mode , allow everything through
+  // Static export mode, allow everything through
   // The site is live and public on GitHub Pages
   return NextResponse.next();
 }

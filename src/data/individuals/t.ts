@@ -1876,10 +1876,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'terrell-don-hutto': {
  name: 'Terrell Don Hutto',
- title: 'CCA Co-founder \u2014 Former Arkansas corrections commissioner; namesake of infamous T. Don Hutto immigrant detention center',
- role: 'CCA Co-founder \u2014 Former Arkansas corrections commissioner; namesake of infamous T. Don Hutto immigrant detention center',
+ title: 'CCA Co-founder (Former Arkansas corrections commissioner; namesake of infamous T. Don Hutto immigrant detention center',
+ role: 'CCA Co-founder) Former Arkansas corrections commissioner; namesake of infamous T. Don Hutto immigrant detention center',
  riskLevel: 'high',
- description: 'Terrell Don Hutto is documented in ArkHive investigations for their role as CCA Co-founder \u2014 Former Arkansas corrections commissioner; namesake of infamous T. Don Hutto immigrant detention center.',
+ description: 'Terrell Don Hutto is documented in ArkHive investigations for their role as CCA Co-founder (Former Arkansas corrections commissioner; namesake of infamous T. Don Hutto immigrant detention center.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Ted Shackley', type: 'organization' },
@@ -1890,7 +1890,7 @@ const profiles: Record<string, IndividualProfile> = {
  relatedInvestigations: [
  { title: 'Private Prison Industry', slug: 'private-prison-industry', severity: 'high' },
  ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as CCA Co-founder \u2014 Former Arkansas corrections commissioner; namesake of infamous T. Don Hutto im' }],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as CCA Co-founder) Former Arkansas corrections commissioner; namesake of infamous T. Don Hutto im' }],
  knownAssociates: [
  { name: 'Thomas Beasley', relationship: 'CCA co-founder alongside Hutto', href: '/entities/individuals/thomas-beasley' },
  { name: 'Robert Crants', relationship: 'Fellow CCA private prison founder', href: '/entities/individuals/robert-crants' }
@@ -2070,10 +2070,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'thomas-beasley': {
  name: 'Thomas Beasley',
- title: 'CCA Co-founder \u2014 Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983',
- role: 'CCA Co-founder \u2014 Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983',
+ title: 'CCA Co-founder (Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983',
+ role: 'CCA Co-founder) Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983',
  riskLevel: 'high',
- description: 'Thomas Beasley is documented in ArkHive investigations for their role as CCA Co-founder \u2014 Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983.',
+ description: 'Thomas Beasley is documented in ArkHive investigations for their role as CCA Co-founder (Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983.',
  education: [],
  affiliations: [
  { name: 'Republican Party', role: 'Member', type: 'organization' },
@@ -2084,7 +2084,7 @@ const profiles: Record<string, IndividualProfile> = {
  relatedInvestigations: [
  { title: 'Private Prison Industry', slug: 'private-prison-industry', severity: 'high' },
  ],
- timeline: [{ date: '1983', event: 'documented in ArkHive investigations for their role as CCA Co-founder \u2014 Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983.' }],
+ timeline: [{ date: '1983', event: 'documented in ArkHive investigations for their role as CCA Co-founder) Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983.' }],
  knownAssociates: [
  { name: 'Robert Crants', relationship: 'Co-founded CCA private prison empire', href: '/entities/individuals/robert-crants' },
  { name: 'Terrell Don Hutto', relationship: 'Fellow CCA co-founder', href: '/entities/individuals/terrell-don-hutto' }

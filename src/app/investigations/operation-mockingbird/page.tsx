@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowLeft, Users, Calendar, ExternalLink, Scale, Radio, Eye, Newspaper, AlertTriangle , ShieldAlert} from 'lucide-react';
+import { ArrowLeft, Users, Calendar, ExternalLink, Scale, Radio, Eye, Newspaper, AlertTriangle, ShieldAlert} from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {

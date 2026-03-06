@@ -34,19 +34,19 @@ export default function CrystalButton({
  bg-transparent border-2 border-blood-600
  text-blood-600
  hover:bg-blood-950/30 hover:text-blood-500 hover:border-blood-500
- hover:shadow-[0_0_30px_rgba(153,27,27,0.4),inset_0_0_20px_rgba(153,27,27,0.15)]
+ hover:shadow-[0_0_30px_rgba(153,27,27,0.4), inset_0_0_20px_rgba(153,27,27,0.15)]
  `,
  secondary: `
  bg-transparent border-2 border-zinc-500
  text-zinc-400
  hover:bg-zinc-500/10 hover:text-zinc-300 hover:border-zinc-400
- hover:shadow-[0_0_30px_rgba(161,161,170,0.2),inset_0_0_20px_rgba(161,161,170,0.1)]
+ hover:shadow-[0_0_30px_rgba(161,161,170,0.2), inset_0_0_20px_rgba(161,161,170,0.1)]
  `,
  danger: `
  bg-transparent border-2 border-blood-700
  text-blood-600
  hover:bg-blood-900/20 hover:text-blood-500 hover:border-blood-600
- hover:shadow-[0_0_30px_rgba(127,29,29,0.4),inset_0_0_20px_rgba(127,29,29,0.15)]
+ hover:shadow-[0_0_30px_rgba(127,29,29,0.4), inset_0_0_20px_rgba(127,29,29,0.15)]
  `,
  };
 

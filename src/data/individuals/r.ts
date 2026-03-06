@@ -4298,10 +4298,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'robert-crants': {
  name: 'Robert Crants',
- title: 'CCA Co-founder \u2014 West Point graduate who co-founded Corrections Corporation of America with $50,000 investment',
- role: 'CCA Co-founder \u2014 West Point graduate who co-founded Corrections Corporation of America with $50,000 investment',
+ title: 'CCA Co-founder (West Point graduate who co-founded Corrections Corporation of America with $50,000 investment',
+ role: 'CCA Co-founder) West Point graduate who co-founded Corrections Corporation of America with $50,000 investment',
  riskLevel: 'high',
- description: 'Robert Crants is documented in ArkHive investigations for their role as CCA Co-founder \u2014 West Point graduate who co-founded Corrections Corporation of America with $50,000 investment.',
+ description: 'Robert Crants is documented in ArkHive investigations for their role as CCA Co-founder (West Point graduate who co-founded Corrections Corporation of America with $50,000 investment.',
  education: [
  'United States Military Academy',
  ],
@@ -4314,7 +4314,7 @@ const profiles: Record<string, IndividualProfile> = {
  relatedInvestigations: [
  { title: 'Private Prison Industry', slug: 'private-prison-industry', severity: 'high' },
  ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as CCA Co-founder \u2014 West Point graduate who co-founded Corrections Corporation of America with $50' }],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as CCA Co-founder) West Point graduate who co-founded Corrections Corporation of America with $50' }],
  knownAssociates: [
  { name: 'Thomas Beasley', relationship: 'Co-founded Corrections Corporation of America', href: '/entities/individuals/thomas-beasley' }
  ],

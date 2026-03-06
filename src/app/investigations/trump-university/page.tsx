@@ -166,21 +166,21 @@ const investigationData = {
  ],
  charges: [
  { statute: '18 U.S.C. \u00a7 1962 (RICO)', description: 'Conducting an enterprise through a pattern of racketeering activity including mail and wire fraud to defraud students', count: 'Systematic fraud affecting 6,000+ students from 2005-2010' },
- { statute: '18 U.S.C. \u00a7 1341', description: 'Mail fraud \u2014 using the mail to send deceptive marketing materials promising Trump\'s personal involvement and "handpicked" instructors', count: 'Thousands of mailings to prospective students nationwide' },
- { statute: '18 U.S.C. \u00a7 1343', description: 'Wire fraud \u2014 using electronic communications to perpetuate deceptive advertising about the program\'s value and Trump\'s involvement', count: 'Continuous wire fraud from 2005-2010' },
- { statute: 'N.Y. Educ. Law \u00a7 5001', description: 'Operating an unlicensed educational institution using the word "University" without state authorization', count: '1 count \u2014 operated without charter from 2005-2010' },
+ { statute: '18 U.S.C. \u00a7 1341', description: 'Mail fraud, using the mail to send deceptive marketing materials promising Trump\'s personal involvement and "handpicked" instructors', count: 'Thousands of mailings to prospective students nationwide' },
+ { statute: '18 U.S.C. \u00a7 1343', description: 'Wire fraud, using electronic communications to perpetuate deceptive advertising about the program\'s value and Trump\'s involvement', count: 'Continuous wire fraud from 2005-2010' },
+ { statute: 'N.Y. Educ. Law \u00a7 5001', description: 'Operating an unlicensed educational institution using the word "University" without state authorization', count: '1 count, operated without charter from 2005-2010' },
  { statute: 'Cal. Bus. & Prof. Code \u00a7 17200', description: 'Unfair and deceptive business practices under California\'s consumer protection statute', count: 'Class-wide claims covering all California students' },
  { statute: '15 U.S.C. \u00a7 45 (FTC Act)', description: 'Unfair or deceptive acts in commerce through false advertising of educational credentials and outcomes', count: 'Pattern of deception spanning 5 years of operations' },
- { statute: 'N.Y. Gen. Bus. Law \u00a7 349', description: 'Deceptive consumer practices \u2014 misleading students about instructor qualifications, Trump\'s involvement, and expected outcomes', count: 'Systematic deception documented in internal"playbooks"' },
+ { statute: 'N.Y. Gen. Bus. Law \u00a7 349', description: 'Deceptive consumer practices, misleading students about instructor qualifications, Trump\'s involvement, and expected outcomes', count: 'Systematic deception documented in internal"playbooks"' },
  ],
  coverup: [
  'Internal "playbooks" revealed Trump University instructors were trained in high-pressure sales tactics designed to extract maximum payment from students, including identifying their liquid assets and credit limits during initial sessions.',
  'Trump personally appeared in marketing materials and videos claiming he had "handpicked" the instructors, but admitted in his deposition that he could not name a single instructor and had no role in selecting them.',
- 'The operation was renamed from "Trump University "to" Trump Entrepreneur Initiative"in 2010 after the New York State Education Department warned it was operating illegally without a charter \u2014 but the deceptive practices continued under the new name.',
+ 'The operation was renamed from "Trump University "to" Trump Entrepreneur Initiative"in 2010 after the New York State Education Department warned it was operating illegally without a charter, but the deceptive practices continued under the new name.',
  'Students were pressured in live events to max out credit cards for packages costing up to $35,000, with internal documents instructing staff to"collect all the credit cards"and overcome objections about affordability.',
- 'Trump settled all three lawsuits for $25 million just days after winning the 2016 presidential election, despite repeatedly vowing he would never settle and would win at trial \u2014 the timing suggests he wanted to avoid discovery during his presidency.',
+ 'Trump settled all three lawsuits for $25 million just days after winning the 2016 presidential election, despite repeatedly vowing he would never settle and would win at trial, the timing suggests he wanted to avoid discovery during his presidency.',
  'Former employees described a systematic bait-and-switch: free seminars promised secrets that would only be revealed at $1,495 seminars, which in turn pushed $35,000"mentorship"packages with little additional value.',
- 'Trump attempted to discredit the federal judge overseeing the case, Gonzalo Curiel, by claiming Curiel\'s Mexican heritage created a conflict of interest \u2014 remarks condemned as racist by members of both parties.',
+ 'Trump attempted to discredit the federal judge overseeing the case, Gonzalo Curiel, by claiming Curiel\'s Mexican heritage created a conflict of interest, remarks condemned as racist by members of both parties.',
  ],
 
  sources: [

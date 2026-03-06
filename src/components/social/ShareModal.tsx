@@ -116,7 +116,7 @@ export default function ShareModal({
 
  const handleShare = (option: ShareOption) => {
  const shareUrl = option.getUrl(url, title, description);
- window.open(shareUrl, '_blank', 'width=600,height=400');
+ window.open(shareUrl, '_blank', 'width=600, height=400');
  };
 
  const handleNativeShare = async () => {
