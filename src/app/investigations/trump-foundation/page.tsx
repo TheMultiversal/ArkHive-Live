@@ -20,7 +20,7 @@ const investigationData = {
  title: 'Trump Foundation Fraud',
  subtitle: 'Self-Dealing, Campaign Finance Violations, and $2M Penalty',
  severity: 'high' as const,
- status: 'Dissolved - Penalties Paid',
+ status: 'Dissolved, Penalties Paid',
  lastUpdated: 'February 2026',
  summary: `The Donald J. Trump Foundation operated as Trump's personal checkbook rather than a legitimate charity. New York's investigation revealed a"shocking pattern of illegality"including self-dealing, coordinating with the 2016 campaign, and using charitable funds for personal benefit. Trump paid portraits of himself with charity money, settled business debts, and made illegal campaign contributions. The foundation was dissolved under court supervision in 2018, with Trump ordered to pay $2 million in damages.`,
  
@@ -33,30 +33,30 @@ const investigationData = {
  },
 
  keyFigures: [
- { name: 'Donald Trump', role: 'Foundation President - Ordered illegal disbursements', href: '/entities/individuals/donald-trump' },
- { name: 'Eric Trump', role: 'Foundation Director - Failed oversight duties', href: '/entities/individuals/eric-trump' },
- { name: 'Donald Trump Jr.', role: 'Foundation Director - Failed oversight duties', href: '/entities/individuals/donald-trump-jr' },
- { name: 'Ivanka Trump', role: 'Foundation Director - Failed oversight duties', href: '/entities/individuals/ivanka-trump' },
+ { name: 'Donald Trump', role: 'Foundation President, Ordered illegal disbursements', href: '/entities/individuals/donald-trump' },
+ { name: 'Eric Trump', role: 'Foundation Director, Failed oversight duties', href: '/entities/individuals/eric-trump' },
+ { name: 'Donald Trump Jr.', role: 'Foundation Director, Failed oversight duties', href: '/entities/individuals/donald-trump-jr' },
+ { name: 'Ivanka Trump', role: 'Foundation Director, Failed oversight duties', href: '/entities/individuals/ivanka-trump' },
  ],
 
  selfDealingViolations: [
  {
- violation: 'Portrait Purchase - Speed Museum',
+ violation: 'Portrait Purchase, Speed Museum',
  amount: '$20,000',
  details: 'Foundation paid for 6-foot portrait of Trump at charity auction; painting hung at one of his golf courses',
  },
  {
- violation: 'Portrait Purchase - Unicorn Children\'s Foundation',
+ violation: 'Portrait Purchase, Unicorn Children\'s Foundation',
  amount: '$10,000',
  details: 'Foundation paid for another portrait of Trump; used as decoration at Trump properties',
  },
  {
- violation: 'Business Debt Settlement - Mar-a-Lago',
+ violation: 'Business Debt Settlement, Mar-a-Lago',
  amount: '$100,000',
  details: 'Foundation paid to settle lawsuit with Town of Palm Beach over flagpole height dispute',
  },
  {
- violation: 'Business Debt Settlement - Golf Course',
+ violation: 'Business Debt Settlement, Golf Course',
  amount: '$158,000',
  details: 'Foundation paid to settle hole-in-one insurance claim at Trump National Golf Course',
  },

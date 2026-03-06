@@ -1,4 +1,4 @@
-// Organization profile data interface — shared by all organization shard files
+// Organization profile data interface, shared by all organization shard files
 export interface OrganizationProfile {
   name: string;
   slug: string;

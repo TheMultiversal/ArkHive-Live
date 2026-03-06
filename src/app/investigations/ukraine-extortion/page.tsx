@@ -16,9 +16,9 @@ import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
  title: 'Ukraine Extortion',
- subtitle: 'First Impeachment - Withholding Aid for Political Dirt',
+ subtitle: 'First Impeachment, Withholding Aid for Political Dirt',
  severity: 'critical',
- status: 'Impeached - Acquitted by Senate',
+ status: 'Impeached, Acquitted by Senate',
  summary: 'President Trump withheld $391 million in congressionally-approved military aid to Ukraine and a White House meeting to pressure Ukrainian President Zelensky into announcing investigations into Joe Biden and the 2016 election. The scheme was exposed by a whistleblower and led to Trump\'s first impeachment for abuse of power and obstruction of Congress.',
  thePerfectCall: {
  date: 'July 25, 2019',
@@ -56,8 +56,8 @@ const investigation = {
  { witness: 'Gordon Sondland', quote: '"Was there a quid pro quo? The answer is yes... Everyone was in the loop."' },
  { witness: 'Bill Taylor', quote: '"It\'s crazy to withhold security assistance for help with a political campaign."' },
  { witness: 'Fiona Hill', quote: 'Called Giuliani\'s activities a"domestic political errand"undermining national security' },
- { witness: 'Alexander Vindman', quote: 'NSC official on call, reported concerns immediately - later fired and smeared' },
- { witness: 'Marie Yovanovitch', quote: 'Career ambassador fired after Giuliani smear campaign; felt"threatened"by Trump' },
+ { witness: 'Alexander Vindman', quote: 'NSC official on call, reported concerns immediately, later fired and smeared' },
+ { witness: 'Marie Yovanovitch', quote: 'Career ambassador fired after Giuliani smear campaign; felt "threatened" by Trump' },
  ],
  mulvaneyAdmission: {
  date: 'October 17, 2019',
@@ -102,7 +102,7 @@ const investigation = {
  ],
  coverup: [
  'The Trump White House moved the call summary to a highly classified codeword-level server (NICE) normally reserved for covert operations, in an effort to restrict access after officials recognized the call\'s legal implications.',
- 'The released"transcript"was actually a memo reconstructed from notes, not a verbatim recording \u2014 the White House mischaracterized it as a complete transcript while omitting portions of the conversation.',
+ 'The released "transcript" was actually a memo reconstructed from notes, not a verbatim recording \u2014 the White House mischaracterized it as a complete transcript while omitting portions of the conversation.',
  'Trump directed all executive branch officials to defy House impeachment inquiry subpoenas, making it the most comprehensive obstruction of a Congressional investigation in American history.',
  'Mick Mulvaney admitted at a press conference that military aid was conditioned on Ukraine investigating Democrats ("Get over it"), then attempted to retract the statement within hours.',
  'The administration initially denied any quid pro quo, but Ambassador Sondland testified under oath that"everyone was in the loop"and that there was indeed a clear quid pro quo directed by Trump through Giuliani.',
@@ -116,7 +116,7 @@ const investigation = {
  { title: 'House Intelligence Committee Report', url: 'https://intelligence.house.gov/report/', date: 'Dec 2019' },
  { title: 'Articles of Impeachment (H.Res. 755)', url: 'https://www.congress.gov/bill/116th-congress/house-resolution/755/text', date: 'Dec 2019' },
  { title: 'Sondland Opening Statement', url: 'https://docs.house.gov/meetings/IG/IG00/20191120/110234/HHRG-116-IG00-Wstate-SondlandG-20191120.pdf', date: 'Nov 2019' },
- { title: 'GAO Report - OMB Violated Law', url: 'https://www.gao.gov/products/b-331564', date: 'Jan 2020' },
+ { title: 'GAO Report, OMB Violated Law', url: 'https://www.gao.gov/products/b-331564', date: 'Jan 2020' },
  ],
 };
 

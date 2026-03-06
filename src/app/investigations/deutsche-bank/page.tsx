@@ -92,9 +92,9 @@ const investigation = {
  legalOutcomes: [
  { defendant: 'Deutsche Bank', charge: 'Russian Mirror Trading Scheme', outcome: '$630 million fine paid to U.S. and UK regulators (2017)' },
  { defendant: 'Deutsche Bank', charge: 'LIBOR Manipulation', outcome: '$2.5 billion in fines to U.S. and UK regulators (2015)' },
- { defendant: 'Allen Weisselberg', charge: 'Tax Fraud - Provided false financials to bank', outcome: 'Pleaded guilty, sentenced to 5 months at Rikers Island' },
+ { defendant: 'Allen Weisselberg', charge: 'Tax Fraud, Provided false financials to bank', outcome: 'Pleaded guilty, sentenced to 5 months at Rikers Island' },
  { defendant: 'Trump Organization', charge: 'Fraud in Financial Statements to Deutsche Bank', outcome: '$454 million civil judgment (February 2024)' },
- { defendant: 'Rosemary Vrablic', charge: 'Ethics Violations - Personal investments alongside clients', outcome: 'Resigned from Deutsche Bank (2020)' },
+ { defendant: 'Rosemary Vrablic', charge: 'Ethics Violations, Personal investments alongside clients', outcome: 'Resigned from Deutsche Bank (2020)' },
  { defendant: 'Deutsche Bank', charge: 'FOREX Manipulation', outcome: '$258 million fine to CFTC and regulators (2015)' },
  ],
  charges: [

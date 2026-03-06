@@ -34,7 +34,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  website: 'https://fedsoc.org',
  mission: 'To promote originalist and textualist interpretation of the Constitution, limited government, and free markets',
  controversies: [
- 'JUDICIAL CAPTURE: Effectively controls all Republican judicial nominations - all 6 conservative SCOTUS justices are members',
+ 'JUDICIAL CAPTURE: Effectively controls all Republican judicial nominations, all 6 conservative SCOTUS justices are members',
  'DARK MONEY: Funded by anonymous donors including Koch network',
  'ROE OVERTURNED: Leonard Leo orchestrated decades-long campaign to overturn Roe v. Wade',
  'CLARENCE THOMAS: Thomas and Ginni Thomas deeply connected to Federalist Society network',
@@ -73,11 +73,11 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2018', event: 'Brett Kavanaugh confirmed despite sexual assault allegations' },
  { date: '2020', event: 'Amy Coney Barrett confirmed in 8 days before election' },
  { date: '2022', event: 'Roe v. Wade overturned - 50-year goal achieved' },
- { date: '2024', event: 'Chevron deference overturned - regulatory state gutted' },
+ { date: '2024', event: 'Chevron deference overturned, regulatory state gutted' },
  ],
  sources: [
  { title: 'Dark Money by Jane Mayer', date: '2016' },
- { title: 'ProPublica - Leonard Leo Investigation', date: '2023' },
+ { title: 'ProPublica, Leonard Leo Investigation', date: '2023' },
  { title: 'The $1.6 Billion Dark Money Donation', date: '2022' },
  ],
  },
@@ -128,7 +128,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  name: 'Project 2025',
  type: 'Political Initiative',
  riskLevel: 'critical',
- description: 'Project 2025 is a coalition of over 100 conservative organizations coordinated by the Heritage Foundation to prepare for a potential second Trump administration. The 900-page"Mandate for Leadership"outlines plans to consolidate executive power, purge the civil service, weaponize the DOJ, and implement authoritarian policies. It represents the most detailed blueprint for dismantling American democracy ever published.',
+ description: 'Project 2025 is a coalition of over 100 conservative organizations coordinated by the Heritage Foundation to prepare for a potential second Trump administration. The 900-page "Mandate for Leadership"outlines plans to consolidate executive power, purge the civil service, weaponize the DOJ, and implement authoritarian policies. It represents the most detailed blueprint for dismantling American democracy ever published.',
  founded: '2022',
  headquarters: 'Washington, D.C. (Heritage Foundation)',
  members: '100+ organizations',
@@ -169,7 +169,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  ],
  sources: [
  { title: 'Project 2025 Website and Documents', date: '2023' },
- { title: 'New York Times - Project 2025 Investigation', date: '2024' },
+ { title: 'New York Times, Project 2025 Investigation', date: '2024' },
  ],
  },
  'wagner-group': {
@@ -192,9 +192,9 @@ const organizationData: Record<string, OrganizationProfile> = {
  'PRIGOZHIN DEATH: Leader killed in plane crash after coup attempt',
  ],
  charges: [
- { statute: 'Rome Statute Article 8', description: 'War Crimes - systematic torture and execution of prisoners', category: 'International Crime' },
- { statute: 'Rome Statute Article 7', description: 'Crimes Against Humanity - widespread murder and torture', category: 'International Crime' },
- { statute: 'Geneva Conventions', description: 'Violation of laws of war - execution of POWs', category: 'War Crime' },
+ { statute: 'Rome Statute Article 8', description: 'War Crimes, systematic torture and execution of prisoners', category: 'International Crime' },
+ { statute: 'Rome Statute Article 7', description: 'Crimes Against Humanity, widespread murder and torture', category: 'International Crime' },
+ { statute: 'Geneva Conventions', description: 'Violation of laws of war, execution of POWs', category: 'War Crime' },
  ],
  relatedInvestigations: [
  { title: 'Ukraine War Crimes', slug: 'ukraine-war-crimes', severity: 'critical' },
@@ -226,7 +226,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  name: 'Proud Boys',
  type: 'Far-Right Extremist Organization',
  riskLevel: 'critical',
- description: 'The Proud Boys is a far-right, neo-fascist organization founded in 2016. Members were central to the January 6, 2021 attack on the U.S. Capitol. Multiple leaders have been convicted of seditious conspiracy - the first such convictions since the Civil War era.',
+ description: 'The Proud Boys is a far-right, neo-fascist organization founded in 2016. Members were central to the January 6, 2021 attack on the U.S. Capitol. Multiple leaders have been convicted of seditious conspiracy, the first such convictions since the Civil War era.',
  founded: '2016',
  headquarters: 'Decentralized (chapters nationwide)',
  members: 'Unknown (secretive)',
@@ -274,7 +274,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  name: 'Oath Keepers',
  type: 'Anti-Government Militia',
  riskLevel: 'critical',
- description: 'The Oath Keepers is a far-right anti-government militia founded in 2009 that recruits current and former military, police, and first responders. Founder Stewart Rhodes and other leaders were convicted of seditious conspiracy for their role in the January 6 attack - the first such convictions in decades.',
+ description: 'The Oath Keepers is a far-right anti-government militia founded in 2009 that recruits current and former military, police, and first responders. Founder Stewart Rhodes and other leaders were convicted of seditious conspiracy for their role in the January 6 attack, the first such convictions in decades.',
  founded: '2009',
  headquarters: 'Decentralized',
  members: '38,000 claimed at peak',
@@ -282,7 +282,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  controversies: [
  'SEDITIOUS CONSPIRACY: Founder Stewart Rhodes convicted and sentenced to 18 years',
  'JANUARY 6 ATTACK:"Stack"formation breached Capitol',
- 'WEAPONS CACHE: Had"Quick Reaction Force"with weapons staged in Virginia',
+ 'WEAPONS CACHE: Had "Quick Reaction Force"with weapons staged in Virginia',
  'RECRUITING LAW ENFORCEMENT: Specifically targets current/former military and police',
  'CIVIL WAR PREPARATION: Rhodes spoke of need for"bloody revolution"',
  ],
@@ -305,7 +305,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  timeline: [
  { date: '2009', event: 'Founded by Stewart Rhodes' },
  { date: '2014', event: 'Armed standoff at Bundy Ranch' },
- { date: 'January 6, 2021', event: 'Breach Capitol in"stack"formation' },
+ { date: 'January 6, 2021', event: 'Breach Capitol in "stack" formation' },
  { date: 'January 2022', event: 'Rhodes arrested for seditious conspiracy' },
  { date: 'November 2022', event: 'Rhodes convicted' },
  { date: 'May 2023', event: 'Rhodes sentenced to 18 years' },
@@ -335,9 +335,9 @@ const organizationData: Record<string, OrganizationProfile> = {
  'EXTRATERRITORIAL KILLINGS: Assassinations in U.S. and Europe',
  ],
  charges: [
- { statute: 'Rome Statute Article 6', description: 'Genocide - systematic destruction of political groups', category: 'International Crime' },
- { statute: 'Rome Statute Article 7', description: 'Crimes Against Humanity - widespread murder, torture, disappearance', category: 'International Crime' },
- { statute: 'Rome Statute Article 8', description: 'War Crimes - torture, willful killing', category: 'International Crime' },
+ { statute: 'Rome Statute Article 6', description: 'Genocide, systematic destruction of political groups', category: 'International Crime' },
+ { statute: 'Rome Statute Article 7', description: 'Crimes Against Humanity, widespread murder, torture, disappearance', category: 'International Crime' },
+ { statute: 'Rome Statute Article 8', description: 'War Crimes, torture, willful killing', category: 'International Crime' },
  ],
  relatedInvestigations: [
  { title: 'Operation Condor', slug: 'operation-condor', severity: 'critical' },
@@ -345,10 +345,10 @@ const organizationData: Record<string, OrganizationProfile> = {
  { title: 'Kissinger Crimes', slug: 'kissinger-crimes', severity: 'critical' },
  ],
  keyFigures: [
- { name: 'Augusto Pinochet', role: 'Chile - Key coordinator', href: '/entities/individuals/augusto-pinochet' },
- { name: 'Jorge Videla', role: 'Argentina - Dirty War leader', href: '/entities/individuals/jorge-videla' },
- { name: 'Manuel Contreras', role: 'DINA Chief - Condor architect', href: '/entities/individuals/manuel-contreras' },
- { name: 'Henry Kissinger', role: 'U.S. Secretary of State - Gave approval', href: '/entities/individuals/henry-kissinger' },
+ { name: 'Augusto Pinochet', role: 'Chile, Key coordinator', href: '/entities/individuals/augusto-pinochet' },
+ { name: 'Jorge Videla', role: 'Argentina, Dirty War leader', href: '/entities/individuals/jorge-videla' },
+ { name: 'Manuel Contreras', role: 'DINA Chief, Condor architect', href: '/entities/individuals/manuel-contreras' },
+ { name: 'Henry Kissinger', role: 'U.S. Secretary of State, Gave approval', href: '/entities/individuals/henry-kissinger' },
  ],
  affiliatedOrganizations: [
  { name: 'DINA (Chile)', relationship: 'Lead coordinating agency' },
@@ -356,14 +356,14 @@ const organizationData: Record<string, OrganizationProfile> = {
  ],
  timeline: [
  { date: 'November 1975', event: 'Operation Condor formally established' },
- { date: '1976', event: 'Peak of operations - Argentina"Dirty War"begins' },
+ { date: '1976', event: 'Peak of operations, Argentina "Dirty War"begins' },
  { date: 'September 1976', event: 'Orlando Letelier assassinated in Washington D.C.' },
  { date: '1983', event: 'Argentine junta falls' },
  { date: '1990', event: 'Chilean dictatorship ends' },
  { date: '2000s', event: 'Declassified documents reveal U.S. role' },
  ],
  sources: [
- { title: 'National Security Archive - Condor Documents', date: 'Various' },
+ { title: 'National Security Archive, Condor Documents', date: 'Various' },
  { title: 'John Dinges -"The Condor Years"', date: '2004' },
  ],
  },
@@ -403,13 +403,13 @@ const organizationData: Record<string, OrganizationProfile> = {
  ],
  timeline: [
  { date: '1973', event: 'Founded by Paul Weyrich' },
- { date: '2005', event: 'Drafts"Stand Your Ground"model legislation' },
+ { date: '2005', event: 'Drafts "Stand Your Ground"model legislation' },
  { date: '2011', event: 'Pushes voter ID laws after Obama election' },
  { date: '2012', event: 'Corporate exodus after Trayvon Martin shooting' },
  { date: '2020', event: 'Model bills restrict mail-in voting' },
  ],
  sources: [
- { title: 'ALEC Exposed - Center for Media and Democracy', date: '2011' },
+ { title: 'ALEC Exposed, Center for Media and Democracy', date: '2011' },
  ],
  },
  'black-panther-party': {
@@ -450,7 +450,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '1982', event: 'Party officially disbanded' },
  ],
  sources: [
- { title: 'Church Committee - COINTELPRO Report', date: '1976' },
+ { title: 'Church Committee, COINTELPRO Report', date: '1976' },
  { title: 'Joshua Bloom & Waldo E. Martin Jr. -"Black Against Empire"', date: '2013' },
  ],
  },
@@ -853,7 +853,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  name: 'Central Intelligence Agency',
  type: 'Intelligence Agency',
  riskLevel: 'critical',
- description: 'The CIA is the United States foreign intelligence service. Throughout its history, it has overthrown democratically elected governments, conducted torture programs, run drug trafficking operations, assassinated foreign leaders, and conducted illegal domestic surveillance - often with no accountability.',
+ description: 'The CIA is the United States foreign intelligence service. Throughout its history, it has overthrown democratically elected governments, conducted torture programs, run drug trafficking operations, assassinated foreign leaders, and conducted illegal domestic surveillance, often with no accountability.',
  founded: '1947',
  headquarters: 'Langley, Virginia',
  members: '21,000+ employees',
@@ -869,7 +869,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  'LYING TO CONGRESS: Repeatedly lied about surveillance and torture',
  ],
  charges: [
- { statute: 'Rome Statute Article 7', description: 'Crimes Against Humanity - torture, enforced disappearance', category: 'International Crime' },
+ { statute: 'Rome Statute Article 7', description: 'Crimes Against Humanity, torture, enforced disappearance', category: 'International Crime' },
  { statute: '18 U.S.C. § 2340A', description: 'Torture', category: 'Federal Crime' },
  ],
  relatedInvestigations: [
@@ -902,7 +902,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  name: 'Federal Bureau of Investigation',
  type: 'Law Enforcement Agency',
  riskLevel: 'critical',
- description: 'The FBI is the domestic intelligence and security service of the United States. Under J. Edgar Hoover, it conducted COINTELPRO - a systematic campaign to surveil, infiltrate, discredit, and destroy civil rights, anti-war, and leftist movements, including the assassination of Fred Hampton.',
+ description: 'The FBI is the domestic intelligence and security service of the United States. Under J. Edgar Hoover, it conducted COINTELPRO, a systematic campaign to surveil, infiltrate, discredit, and destroy civil rights, anti-war, and leftist movements, including the assassination of Fred Hampton.',
  founded: '1908',
  headquarters: 'Washington, D.C.',
  members: '35,000+ employees',
@@ -936,14 +936,14 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '1972', event: 'Hoover dies, still in office' },
  ],
  sources: [
- { title: 'Church Committee - COINTELPRO', date: '1976' },
+ { title: 'Church Committee, COINTELPRO', date: '1976' },
  ],
  },
  'nsa-org': {
  name: 'National Security Agency',
  type: 'Intelligence Agency',
  riskLevel: 'critical',
- description: 'The NSA is responsible for signals intelligence and cybersecurity. Edward Snowden revealed its mass surveillance programs collecting data on every American phone call, email, and internet activity - in violation of the Fourth Amendment.',
+ description: 'The NSA is responsible for signals intelligence and cybersecurity. Edward Snowden revealed its mass surveillance programs collecting data on every American phone call, email, and internet activity, in violation of the Fourth Amendment.',
  founded: '1952',
  headquarters: 'Fort Meade, Maryland',
  members: '30,000-40,000 employees',
@@ -973,7 +973,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '1952', event: 'Created by Truman directive' },
  { date: '2001', event: 'Mass surveillance begins after 9/11' },
  { date: '2013', event: 'Snowden revelations' },
- { date: '2015', event: 'USA FREEDOM Act - minimal reforms' },
+ { date: '2015', event: 'USA FREEDOM Act, minimal reforms' },
  ],
  sources: [
  { title: 'Snowden Documents Archive', date: '2013' },
@@ -998,7 +998,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  'DETENTION CONDITIONS: Overcrowding, inadequate medical care, COVID outbreaks',
  ],
  charges: [
- { statute: 'Rome Statute Article 7', description: 'Crimes Against Humanity - persecution, torture', category: 'International Crime' },
+ { statute: 'Rome Statute Article 7', description: 'Crimes Against Humanity, persecution, torture', category: 'International Crime' },
  ],
  relatedInvestigations: [
  { title: 'Family Separation', slug: 'family-separation', severity: 'critical' },
@@ -1053,7 +1053,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2019', event: 'Racist Facebook group exposed' },
  ],
  sources: [
- { title: 'ProPublica - CBP Facebook Investigation', date: '2019' },
+ { title: 'ProPublica, CBP Facebook Investigation', date: '2019' },
  ],
  },
  'private-prison-industry': {
@@ -1091,7 +1091,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2017', event: 'Trump reverses, stocks surge' },
  ],
  sources: [
- { title: 'Sentencing Project - Private Prisons', date: 'Various' },
+ { title: 'Sentencing Project, Private Prisons', date: 'Various' },
  ],
  },
  'ku-klux-klan': {
@@ -1126,10 +1126,10 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '1865', event: 'First Klan founded in Tennessee' },
  { date: '1915', event: 'Second Klan founded, reaches millions of members' },
  { date: '1960s', event: 'Terror campaign against civil rights movement' },
- { date: '1979', event: 'Greensboro Massacre - kills 5 with Nazis' },
+ { date: '1979', event: 'Greensboro Massacre, kills 5 with Nazis' },
  ],
  sources: [
- { title: 'Southern Poverty Law Center - KKK', date: 'Various' },
+ { title: 'Southern Poverty Law Center, KKK', date: 'Various' },
  ],
  },
  'three-percenters': {
@@ -1140,7 +1140,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  founded: '2008',
  headquarters: 'Decentralized',
  members: 'Unknown (secretive)',
- mission: 'To resist government"tyranny"through armed action',
+ mission: 'To resist government "tyranny" through armed action',
  controversies: [
  'JANUARY 6: Members participated in Capitol attack',
  'GOVERNOR KIDNAPPING PLOT: Members involved in Michigan plot',
@@ -1165,7 +1165,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2021', event: 'Members at January 6 attack' },
  ],
  sources: [
- { title: 'ADL - Three Percenters', date: 'Various' },
+ { title: 'ADL, Three Percenters', date: 'Various' },
  ],
  },
  'qanon': {
@@ -1195,7 +1195,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  ],
  affiliatedOrganizations: [],
  timeline: [
- { date: 'October 2017', event: 'First"Q"posts on 4chan' },
+ { date: 'October 2017', event: 'First "Q" posts on 4chan' },
  { date: '2020', event: 'Explodes during COVID pandemic' },
  { date: 'January 6, 2021', event: '"Q Shaman"and others storm Capitol' },
  { date: '2021', event: 'FBI designates domestic terrorism threat' },
@@ -1241,7 +1241,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  name: 'Turning Point USA',
  type: 'Conservative Youth Organization',
  riskLevel: 'high',
- description: 'Turning Point USA is a conservative youth organization that has promoted election denial, hosted extremists, and maintained a"Professor Watchlist"targeting academics. Founder Charlie Kirk has promoted white nationalist talking points.',
+ description: 'Turning Point USA is a conservative youth organization that has promoted election denial, hosted extremists, and maintained a "Professor Watchlist"targeting academics. Founder Charlie Kirk has promoted white nationalist talking points.',
  founded: '2012',
  headquarters: 'Phoenix, Arizona',
  members: 'Chapters at 3,000+ campuses claimed',
@@ -1250,7 +1250,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  mission: 'To promote conservative principles on college campuses',
  controversies: [
  'ELECTION DENIAL: Kirk promoted 2020 election lies',
- 'JANUARY 6: Organized buses to"Stop the Steal"rally',
+ 'JANUARY 6: Organized buses to "Stop the Steal"rally',
  'PROFESSOR WATCHLIST: Targets academics for political views',
  'EXTREMIST SPEAKERS: Hosts far-right figures at events',
  'RACIST INCIDENTS: Pattern of racist incidents at chapters',
@@ -1339,7 +1339,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2022', event: 'DirecTV drops channel' },
  ],
  sources: [
- { title: 'Reuters Investigation - OAN and AT&T', date: '2021' },
+ { title: 'Reuters Investigation, OAN and AT&T', date: '2021' },
  ],
  },
  'sinclair-broadcast-group': {
@@ -1373,7 +1373,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2018', event: 'Tribune acquisition blocked by FCC' },
  ],
  sources: [
- { title: 'Deadspin - Sinclair Viral Video', date: '2018' },
+ { title: 'Deadspin, Sinclair Viral Video', date: '2018' },
  ],
  },
  'fox-corporation': {
@@ -1411,7 +1411,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2023', event: '$787.5M Dominion settlement, Carlson fired' },
  ],
  sources: [
- { title: 'Dominion v. Fox News - Court Documents', date: '2023' },
+ { title: 'Dominion v. Fox News, Court Documents', date: '2023' },
  ],
  },
  'blackwater': {
@@ -1433,7 +1433,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  ],
  charges: [
  { statute: '18 U.S.C. § 1111', description: 'Murder (contractors convicted)', category: 'Federal Crime' },
- { statute: 'Rome Statute Article 8', description: 'War Crimes - attacking civilians', category: 'International Crime' },
+ { statute: 'Rome Statute Article 8', description: 'War Crimes, attacking civilians', category: 'International Crime' },
  ],
  relatedInvestigations: [
  { title: 'Iraq War Crimes', slug: 'iraq-war-crimes', severity: 'critical' },
@@ -1451,7 +1451,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2020', event: 'Trump pardons convicted contractors' },
  ],
  sources: [
- { title: 'House Oversight Committee - Blackwater', date: '2007' },
+ { title: 'House Oversight Committee, Blackwater', date: '2007' },
  ],
  },
  'palantir': {
@@ -1487,7 +1487,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2020', event: 'Goes public' },
  ],
  sources: [
- { title: 'The Intercept - Palantir Investigations', date: 'Various' },
+ { title: 'The Intercept, Palantir Investigations', date: 'Various' },
  ],
  },
  'clearview-ai': {
@@ -1521,7 +1521,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2022', event: 'Fined in UK, France, Italy' },
  ],
  sources: [
- { title: 'New York Times - Clearview Investigation', date: '2020' },
+ { title: 'New York Times, Clearview Investigation', date: '2020' },
  ],
  },
  'aclu': {
@@ -1664,7 +1664,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  name: 'American Petroleum Institute',
  type: 'Oil Industry Trade Association',
  riskLevel: 'critical',
- description: 'See American Petroleum Institute - this is an alias entry.',
+ description: 'See American Petroleum Institute, this is an alias entry.',
  founded: '1919',
  headquarters: 'Washington, D.C.',
  controversies: ['See american-petroleum-institute entry'],
@@ -1718,7 +1718,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  name: 'Chinese Communist Party',
  type: 'Political Party / Government',
  riskLevel: 'critical',
- description: 'See Chinese Communist Party - this is an alias entry.',
+ description: 'See Chinese Communist Party, this is an alias entry.',
  founded: '1921',
  headquarters: 'Beijing, China',
  controversies: ['See chinese-communist-party entry'],
@@ -1735,7 +1735,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  name: 'Government of China',
  type: 'Government',
  riskLevel: 'critical',
- description: 'See Chinese Communist Party - this is an alias entry for the CCP-controlled government.',
+ description: 'See Chinese Communist Party, this is an alias entry for the CCP-controlled government.',
  founded: '1949',
  headquarters: 'Beijing, China',
  controversies: ['See chinese-communist-party entry'],
@@ -1786,7 +1786,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  name: 'U.S. Chamber of Commerce',
  type: 'Business Lobbying Organization',
  riskLevel: 'high',
- description: 'See U.S. Chamber of Commerce - this is an alias entry.',
+ description: 'See U.S. Chamber of Commerce, this is an alias entry.',
  founded: '1912',
  headquarters: 'Washington, D.C.',
  controversies: ['See us-chamber-of-commerce entry'],
@@ -1803,7 +1803,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  name: 'U.S. Chamber of Commerce',
  type: 'Business Lobbying Organization',
  riskLevel: 'high',
- description: 'See U.S. Chamber of Commerce - this is an alias entry.',
+ description: 'See U.S. Chamber of Commerce, this is an alias entry.',
  founded: '1912',
  headquarters: 'Washington, D.C.',
  controversies: ['See us-chamber-of-commerce entry'],
@@ -2093,7 +2093,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  mission: 'To improve the state of the world through public-private cooperation',
  controversies: [
  'DAVOS ELITE: Symbol of wealthy global elite disconnect',
- 'CONSPIRACY THEORIES: Subject of"Great Reset"conspiracy theories',
+ 'CONSPIRACY THEORIES: Subject of "Great Reset"conspiracy theories',
  'CORPORATE INFLUENCE: Critics say it promotes corporate interests',
  'CLIMATE HYPOCRISY: Private jets to climate discussions',
  ],
@@ -2304,7 +2304,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  name: 'Wuhan Institute of Virology',
  type: 'Research Institution',
  riskLevel: 'high',
- description: 'See Wuhan Institute of Virology - this is an alias entry.',
+ description: 'See Wuhan Institute of Virology, this is an alias entry.',
  founded: '1956',
  headquarters: 'Wuhan, China',
  controversies: ['See wuhan-institute-of-virology entry'],
@@ -2546,7 +2546,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  affiliatedOrganizations: [],
  timeline: [
  { date: '1932', event: 'Study begins' },
- { date: '1947', event: 'Penicillin available - still withheld' },
+ { date: '1947', event: 'Penicillin available, still withheld' },
  { date: '1972', event: 'Exposed by whistleblower' },
  { date: '1997', event: 'President Clinton apologizes' },
  ],
@@ -2644,7 +2644,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  description: 'Ghislaine Maxwell\'s ocean conservation charity that closed days after Epstein\'s 2019 arrest. Used to provide Maxwell nonprofit credibility, travel justification, and access to influential circles including the UN. Financial irregularities documented.',
  founded: '2012',
  headquarters: 'New York City',
- funding: 'Unclear - financial irregularities',
+ funding: 'Unclear, financial irregularities',
  website: 'Offline',
  mission: 'Ocean conservation (alleged cover)',
  controversies: [
@@ -2668,8 +2668,8 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2019 Jul', event: 'Closed days after Epstein arrest' },
  ],
  sources: [
- { title: 'Reuters - Ghislaine Maxwell TerraMar Project', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/us-people-ghislaine-maxwell-terramar-idUSKCN24J2AU', date: '2024' },
- { title: 'Independent - TerraMar Dissolved After Epstein Arrest', url: 'https://www.independent.co.uk/news/world/americas/ghislaine-maxwell-terramar-project-jeffrey-epstein-ocean-charity-a9006576.html', date: '2024' },
+ { title: 'Reuters, Ghislaine Maxwell TerraMar Project', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/us-people-ghislaine-maxwell-terramar-idUSKCN24J2AU', date: '2024' },
+ { title: 'Independent, TerraMar Dissolved After Epstein Arrest', url: 'https://www.independent.co.uk/news/world/americas/ghislaine-maxwell-terramar-project-jeffrey-epstein-ocean-charity-a9006576.html', date: '2024' },
  ],
  },
  'clinton-foundation': {
@@ -2702,7 +2702,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  ],
  sources: [
  { title: 'Clinton Foundation Official Website', url: 'https://www.clintonfoundation.org/', date: '2024' },
- { title: 'AP - Clinton Foundation Donors and Political Access', url: 'https://apnews.com/article/clinton-foundation-donors-2016', date: '2024' },
+ { title: 'AP, Clinton Foundation Donors and Political Access', url: 'https://apnews.com/article/clinton-foundation-donors-2016', date: '2024' },
  ],
  },
  'cfr': {
@@ -2828,7 +2828,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  ],
  sources: [
  { title: 'Santa Fe Institute Official Website', url: 'https://www.santafe.edu/', date: '2024' },
- { title: 'Science - Epstein Donations to Scientific Institutions', url: 'https://www.science.org/content/article/jeffrey-epstein-gave-money-scientific-institutions', date: '2024' },
+ { title: 'Science, Epstein Donations to Scientific Institutions', url: 'https://www.science.org/content/article/jeffrey-epstein-gave-money-scientific-institutions', date: '2024' },
  ],
  },
  'nyas': {
@@ -2889,7 +2889,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  ],
  sources: [
  { title: 'UN Official Website', url: 'https://www.un.org/', date: '2024' },
- { title: 'AP - Terje Roed-Larsen Epstein Payments', url: 'https://apnews.com/article/terje-roed-larsen-epstein-united-nations-e9c7e6f3c06e4b8d9a0e5b0a6e2c4d8f', date: '2024' },
+ { title: 'AP, Terje Roed-Larsen Epstein Payments', url: 'https://apnews.com/article/terje-roed-larsen-epstein-united-nations-e9c7e6f3c06e4b8d9a0e5b0a6e2c4d8f', date: '2024' },
  ],
  },
 

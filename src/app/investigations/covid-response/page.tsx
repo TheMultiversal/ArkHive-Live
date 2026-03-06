@@ -20,7 +20,7 @@ const investigationData = {
  title: 'COVID-19 Response Failures',
  subtitle: '500,000+ Preventable American Deaths Through Deliberate Negligence',
  severity: 'critical' as const,
- status: 'Documented - Ongoing Consequences',
+ status: 'Documented, Ongoing Consequences',
  lastUpdated: 'February 2026',
  summary: `The Trump administration's response to the COVID-19 pandemic represents one of the greatest failures of federal governance in American history. Despite early warnings, the administration deliberately downplayed the virus, promoted unproven treatments, politicized mask-wearing, undermined public health officials, and created critical shortages of PPE and testing. Conservative estimates suggest 400,000-500,000 American deaths were preventable with competent federal leadership. Trump privately acknowledged the virus was"deadly stuff"while publicly comparing it to the flu.`,
  
@@ -32,16 +32,16 @@ const investigationData = {
  },
 
  keyFigures: [
- { name: 'Donald Trump', role: 'President - Downplayed pandemic, promoted false cures', href: '/entities/individuals/donald-trump' },
- { name: 'Jared Kushner', role: 'Task Force - PPE distribution failures,"their problem"states', href: '/entities/individuals/jared-kushner' },
- { name: 'Alex Azar', role: 'HHS Secretary - Warned Trump, later enabled denialism', href: '/entities/individuals/alex-azar' },
+ { name: 'Donald Trump', role: 'President, Downplayed pandemic, promoted false cures', href: '/entities/individuals/donald-trump' },
+ { name: 'Jared Kushner', role: 'Task Force, PPE distribution failures,"their problem"states', href: '/entities/individuals/jared-kushner' },
+ { name: 'Alex Azar', role: 'HHS Secretary, Warned Trump, later enabled denialism', href: '/entities/individuals/alex-azar' },
  { name: 'Deborah Birx', role: 'Coronavirus Task Force Coordinator', href: '/entities/individuals/deborah-birx' },
- { name: 'Scott Atlas', role: 'Advisor - Promoted herd immunity strategy', href: '/entities/individuals/scott-atlas' },
+ { name: 'Scott Atlas', role: 'Advisor, Promoted herd immunity strategy', href: '/entities/individuals/scott-atlas' },
  ],
 
  timeline: [
  { date: 'January 3, 2020', event: 'CDC Director Redfield notified of virus in China' },
- { date: 'January 18, 2020', event: 'HHS Secretary Azar briefs Trump - Trump dismisses concerns' },
+ { date: 'January 18, 2020', event: 'HHS Secretary Azar briefs Trump, Trump dismisses concerns' },
  { date: 'January 22, 2020', event: 'Trump:"We have it totally under control"' },
  { date: 'January 28, 2020', event: 'National Security Advisor warns of pandemic, Trump ignores' },
  { date: 'February 7, 2020', event: 'Trump tells Bob Woodward virus is"deadly stuff"- 5x flu' },
@@ -92,7 +92,7 @@ const investigationData = {
  details: [
  'National stockpile depleted, not replenished',
  'States forced to bid against each other and FEMA',
- 'Kushner called stockpile"ours"not states\'',
+ 'Kushner called stockpile "ours" not states\'',
  'Healthcare workers wore trash bags',
  'Ventilator shortages in hard-hit areas',
  ],
@@ -142,17 +142,17 @@ const investigationData = {
  { defendant: 'HHS/CDC', charge: 'Politicization of public health guidance', outcome: 'Inspector General reports confirmed political interference in CDC guidance' },
  { defendant: 'Jared Kushner\'s Task Force', charge: 'Abandonment of national testing plan for political reasons', outcome: 'Documented by Vanity Fair investigation; no criminal charges' },
  { defendant: 'Alex Azar (HHS)', charge: 'Failure to timely declare public health emergency', outcome: 'Resigned January 2021; no charges filed' },
- { defendant: 'Trump Administration', charge: 'Defense Production Act failures - delayed invocation for PPE', outcome: 'GAO reports documented critical supply chain failures' },
+ { defendant: 'Trump Administration', charge: 'Defense Production Act failures, delayed invocation for PPE', outcome: 'GAO reports documented critical supply chain failures' },
  { defendant: 'Peter Navarro', charge: 'Contempt of Congress for refusing pandemic subpoena', outcome: 'Convicted of contempt of Congress (2023), sentenced to 4 months' },
  ],
 
  charges: [
- { statute: '42 U.S.C. § 247d', description: 'Public Health Service Act - failure to timely declare and respond to public health emergency', count: 'Systemic failure' },
- { statute: '50 U.S.C. § 4501 et seq.', description: 'Defense Production Act - delayed and inadequate invocation for medical supplies and PPE production', count: 'Multiple failures' },
- { statute: '18 U.S.C. § 1001', description: 'False statements - administration officials made materially false claims about testing availability and virus severity', count: 'Multiple instances' },
- { statute: '2 U.S.C. § 192', description: 'Contempt of Congress - refusal to comply with congressional subpoenas regarding pandemic response', count: 'Multiple individuals' },
- { statute: '18 U.S.C. § 1035', description: 'False statements relating to healthcare matters - misrepresentation of PPE stockpile status and testing capacity', count: 'Multiple instances' },
- { statute: '31 U.S.C. § 1301', description: 'Misappropriation of funds - diversion of pandemic relief funds for political purposes', count: 'Multiple instances' },
+ { statute: '42 U.S.C. § 247d', description: 'Public Health Service Act, failure to timely declare and respond to public health emergency', count: 'Systemic failure' },
+ { statute: '50 U.S.C. § 4501 et seq.', description: 'Defense Production Act, delayed and inadequate invocation for medical supplies and PPE production', count: 'Multiple failures' },
+ { statute: '18 U.S.C. § 1001', description: 'False statements, administration officials made materially false claims about testing availability and virus severity', count: 'Multiple instances' },
+ { statute: '2 U.S.C. § 192', description: 'Contempt of Congress, refusal to comply with congressional subpoenas regarding pandemic response', count: 'Multiple individuals' },
+ { statute: '18 U.S.C. § 1035', description: 'False statements relating to healthcare matters, misrepresentation of PPE stockpile status and testing capacity', count: 'Multiple instances' },
+ { statute: '31 U.S.C. § 1301', description: 'Misappropriation of funds, diversion of pandemic relief funds for political purposes', count: 'Multiple instances' },
  ],
 
  coverup: [
@@ -170,9 +170,9 @@ const investigationData = {
  { title: 'Woodward Recordings: Trump Admitted Downplaying', url: 'https://www.cnn.com/2020/09/09/politics/bob-woodward-rage-book-trump-coronavirus/index.html', type: 'Audio Recording' },
  { title: 'Lancet Commission: 40% of US Deaths Preventable', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)32545-9/fulltext', type: 'Medical Journal' },
  { title: 'CDC Death Statistics', url: 'https://covid.cdc.gov/covid-data-tracker/', type: 'Government Data' },
- { title: 'Trump COVID Timeline - Washington Post', url: 'https://www.washingtonpost.com/graphics/2020/politics/trump-covid-pandemic-dark-winter/', type: 'Investigative Report' },
- { title: 'Kushner Testing Plan Abandonment - Vanity Fair', url: 'https://www.vanityfair.com/news/2020/07/how-jared-kushners-secret-testing-plan-went-poof-into-thin-air', type: 'Investigative Report' },
- { title: 'Orphaned Children Study - Pediatrics', url: 'https://publications.aap.org/pediatrics/article/148/6/e2021053760/183446/', type: 'Medical Journal' },
+ { title: 'Trump COVID Timeline, Washington Post', url: 'https://www.washingtonpost.com/graphics/2020/politics/trump-covid-pandemic-dark-winter/', type: 'Investigative Report' },
+ { title: 'Kushner Testing Plan Abandonment, Vanity Fair', url: 'https://www.vanityfair.com/news/2020/07/how-jared-kushners-secret-testing-plan-went-poof-into-thin-air', type: 'Investigative Report' },
+ { title: 'Orphaned Children Study, Pediatrics', url: 'https://publications.aap.org/pediatrics/article/148/6/e2021053760/183446/', type: 'Medical Journal' },
  ],
 };
 

@@ -1,4 +1,4 @@
-// AUTO-GENERATED — Shard [V] managed by ArkHive Swarm Intelligence
+// AUTO-GENERATED, Shard [V] managed by ArkHive Swarm Intelligence
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'October 7, 1952',
     birthPlace: 'Leningrad (St. Petersburg), Soviet Union',
     netWorth: '$70+ billion (estimated, hidden)',
-    education: ['Law Degree - Leningrad State University', 'KGB Training'],
+    education: ['Law Degree, Leningrad State University', 'KGB Training'],
     affiliations: [
       { name: 'Russian Federation', role: 'President (2000-2008, 2012-Present)', type: 'agency' },
       { name: 'KGB', role: 'Officer (1975-1991)', type: 'agency' },
@@ -26,18 +26,18 @@ const profiles: Record<string, IndividualProfile> = {
       'Invasion of Ukraine (2022)',
     ],
     charges: [
-      { statute: 'Rome Statute Article 8 (War Crimes)', description: 'ICC ARREST WARRANT - International Criminal Court issued arrest warrant for war crimes in Ukraine including deportation of children (March 2023)', category: 'International Criminal' },
-      { statute: 'Rome Statute Article 8(2)(a)(vii)', description: 'Unlawful Deportation - Systematic deportation of Ukrainian children to Russia constituting war crime', category: 'International Criminal' },
-      { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'Crimes Against Humanity - Systematic attacks on civilian population in Ukraine including deliberate targeting of civilian infrastructure', category: 'International Criminal' },
-      { statute: 'UN Charter Article 2(4)', description: 'War of Aggression - Unprovoked invasion of sovereign nation Ukraine violating fundamental UN Charter prohibition on use of force', category: 'International' },
-      { statute: '52 U.S.C. § 30121', description: 'Foreign Election Interference - Directed 2016 Russian interference operation documented in Mueller Report and Senate Intelligence Committee findings', category: 'US Election Law' },
-      { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud the United States - Oversaw campaign to interfere with lawful functions of US government (elections)', category: 'US Federal' },
-      { statute: '18 U.S.C. § 1030', description: 'Computer Fraud and Abuse - GRU hacking operations against DNC, DCCC, and Clinton campaign conducted under his authority', category: 'US Federal' },
-      { statute: 'Convention Against Torture Article 2', description: 'State-Sponsored Torture - Systematic torture of political prisoners including Alexei Navalny who died in custody', category: 'International' },
-      { statute: 'Chemical Weapons Convention', description: 'Use of Chemical Weapons - Novichok poisoning of Sergei Skripal, Alexei Navalny, and others', category: 'International' },
-      { statute: 'Geneva Convention IV', description: 'Protection of Civilians - Deliberate attacks on Ukrainian civilian infrastructure including hospitals, schools, residential areas', category: 'International Humanitarian Law' },
-      { statute: 'Global Magnitsky Human Rights Accountability Act', description: 'Human Rights Violations - Subject to US sanctions for serious human rights abuses and corruption', category: 'US Law' },
-      { statute: 'ICCPR Articles 6, 7, 9, 19', description: 'Political Assassinations - Ordering killings of journalists, dissidents, and political opponents (Politkovskaya, Nemtsov, Litvinenko, others)', category: 'International' },
+      { statute: 'Rome Statute Article 8 (War Crimes)', description: 'ICC ARREST WARRANT, International Criminal Court issued arrest warrant for war crimes in Ukraine including deportation of children (March 2023)', category: 'International Criminal' },
+      { statute: 'Rome Statute Article 8(2)(a)(vii)', description: 'Unlawful Deportation, Systematic deportation of Ukrainian children to Russia constituting war crime', category: 'International Criminal' },
+      { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'Crimes Against Humanity, Systematic attacks on civilian population in Ukraine including deliberate targeting of civilian infrastructure', category: 'International Criminal' },
+      { statute: 'UN Charter Article 2(4)', description: 'War of Aggression, Unprovoked invasion of sovereign nation Ukraine violating fundamental UN Charter prohibition on use of force', category: 'International' },
+      { statute: '52 U.S.C. § 30121', description: 'Foreign Election Interference, Directed 2016 Russian interference operation documented in Mueller Report and Senate Intelligence Committee findings', category: 'US Election Law' },
+      { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud the United States, Oversaw campaign to interfere with lawful functions of US government (elections)', category: 'US Federal' },
+      { statute: '18 U.S.C. § 1030', description: 'Computer Fraud and Abuse, GRU hacking operations against DNC, DCCC, and Clinton campaign conducted under his authority', category: 'US Federal' },
+      { statute: 'Convention Against Torture Article 2', description: 'State-Sponsored Torture, Systematic torture of political prisoners including Alexei Navalny who died in custody', category: 'International' },
+      { statute: 'Chemical Weapons Convention', description: 'Use of Chemical Weapons, Novichok poisoning of Sergei Skripal, Alexei Navalny, and others', category: 'International' },
+      { statute: 'Geneva Convention IV', description: 'Protection of Civilians, Deliberate attacks on Ukrainian civilian infrastructure including hospitals, schools, residential areas', category: 'International Humanitarian Law' },
+      { statute: 'Global Magnitsky Human Rights Accountability Act', description: 'Human Rights Violations, Subject to US sanctions for serious human rights abuses and corruption', category: 'US Law' },
+      { statute: 'ICCPR Articles 6, 7, 9, 19', description: 'Political Assassinations, Ordering killings of journalists, dissidents, and political opponents (Politkovskaya, Nemtsov, Litvinenko, others)', category: 'International' },
     ],
     relatedInvestigations: [
       { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -56,7 +56,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: ['Czar', 'The Man Who Owns Russia'],
     knownAssociates: [
@@ -98,7 +98,7 @@ const profiles: Record<string, IndividualProfile> = {
       'Manafort used Ukraine money to fund Trump campaign',
     ],
     charges: [
-      { statute: 'Ukrainian Criminal Code', description: 'Treason - convicted in absentia, 13 years', category: 'National Security' },
+      { statute: 'Ukrainian Criminal Code', description: 'Treason, convicted in absentia, 13 years', category: 'National Security' },
     ],
     relatedInvestigations: [
       { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -200,7 +200,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Father of First Lady Melania Trump',
  role: 'Slovenian Businessman, US Citizen via Chain Migration',
  riskLevel: 'low',
- description: 'Viktor Knavs is the father of former and current First Lady Melania Trump. He and his wife Amalija emigrated to the United States and became citizens in 2018 through the family reunification process that Donald Trump has repeatedly attacked as"chain migration."The irony of Trump attacking immigration policies his own in-laws benefited from has been widely noted.',
+ description: 'Viktor Knavs is the father of former and current First Lady Melania Trump. He and his wife Amalija emigrated to the United States and became citizens in 2018 through the family reunification process that Donald Trump has repeatedly attacked as "chain migration."The irony of Trump attacking immigration policies his own in-laws benefited from has been widely noted.',
  birthDate: '1944',
  birthPlace: 'Slovenia (then Yugoslavia)',
  education: [
@@ -216,7 +216,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Barron Trump', relationship: 'Grandson', href: '/entities/individuals/barron-trump' },
  ],
  controversies: [
- 'Became US citizen through"chain migration"that Trump campaigns against',
+ 'Became US citizen through "chain migration "that Trump campaigns against',
  'Reports of Communist Party membership in Slovenia (common for career advancement)',
  'Received citizenship while Trump attacked family immigration policies',
  'Hypocrisy of Trump family benefiting from policies Trump seeks to end',
@@ -229,7 +229,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2018', event: 'Becomes US citizen through family sponsorship' },
  ],
  sources: [
- { title: 'Washington Post - Melania Parents Citizenship', url: 'https://www.washingtonpost.com/', date: '2018' },
+ { title: 'Washington Post, Melania Parents Citizenship', url: 'https://www.washingtonpost.com/', date: '2018' },
  ],
  },
   'viktor-orban': {
@@ -253,9 +253,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -286,9 +286,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -317,9 +317,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -350,9 +350,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -381,9 +381,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -474,9 +474,9 @@ const profiles: Record<string, IndividualProfile> = {
   'victoria-nuland': {
     name: 'Victoria Nuland',
     title: 'State Department Official',
-    role: 'Key figure in U.S. Ukraine policy,"F*** the EU"call',
+    role: 'Key figure in U.S. Ukraine policy,"F*** the EU" call',
     riskLevel: 'medium',
-    description: 'Victoria Nuland is a career diplomat who served in senior State Department roles under multiple administrations. She was caught on tape saying"F*** the EU"while discussing Ukraine policy in 2014. She was instrumental in U.S. support for the Maidan revolution and later Ukraine policy.',
+    description: 'Victoria Nuland is a career diplomat who served in senior State Department roles under multiple administrations. She was caught on tape saying "F*** the EU" while discussing Ukraine policy in 2014. She was instrumental in U.S. support for the Maidan revolution and later Ukraine policy.',
     birthDate: 'July 1, 1961',
     birthPlace: 'New York City, New York',
     education: ['Brown University'],
@@ -495,7 +495,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'July 1, 1961', event: 'Born in New York City' },
       { date: '2013-2017', event: 'Assistant Secretary for European Affairs' },
-      { date: 'February 2014', event: '"F*** the EU"call leaked' },
+      { date: 'February 2014', event: '"F*** the EU" call leaked' },
       { date: '2021-2024', event: 'Under Secretary of State' },
     ],
     socialMedia: [],
@@ -514,9 +514,9 @@ const profiles: Record<string, IndividualProfile> = {
   'valujet-592-victims': {
     name: 'ValuJet 592 Victims',
     title: 'Crash Victims',
-    role: '110 Killed - May 11, 1996',
+    role: '110 Killed, May 11, 1996',
     riskLevel: 'critical',
-    description: 'ValuJet Flight 592 crashed in the Florida Everglades on May 11, 1996, killing all 110 people aboard. The FAA had been warned about maintenance issues at SabreTech, the maintenance contractor. This disaster showed FAA\'s failure to act on warnings - a pattern that continued to the MAX crashes.',
+    description: 'ValuJet Flight 592 crashed in the Florida Everglades on May 11, 1996, killing all 110 people aboard. The FAA had been warned about maintenance issues at SabreTech, the maintenance contractor. This disaster showed FAA\'s failure to act on warnings, a pattern that continued to the MAX crashes.',
     birthDate: 'N/A',
     birthPlace: 'Various',
     education: ['N/A'],
@@ -535,7 +535,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'May 11, 1996', event: 'ValuJet 592 crashes, 110 killed' },
-      { date: '2026-03-05', event: 'Network analysis completed — ValuJet 592 Victims connected to 7 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, ValuJet 592 Victims connected to 7 entities in the accountability database' },
       { date: '2026-03-05', event: 'Cross-referencing ValuJet 592 Victims against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
@@ -572,9 +572,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -636,7 +636,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Vernon Walters', url: 'https://en.wikipedia.org/wiki/Vernon_Walters', date: '' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
       { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
@@ -716,7 +716,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Victor Hugo Green and others who published travel guides for Black motorists navigating sundown town' },
       { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking The Green Book Publishers to previously unknown institutional relationships' },
-      { date: '2026-03-05', event: 'Network analysis completed — The Green Book Publishers connected to 23 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, The Green Book Publishers connected to 23 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
@@ -826,9 +826,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [

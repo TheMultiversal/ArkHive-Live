@@ -1,12 +1,12 @@
-import type { Metadata } from"next";
+import type { Metadata } from "next";
 import Link from"next/link";
-import { Skull, Target, Eye, FileText, Users, Lock, ArrowRight, Database, Shield, AlertTriangle, Globe, Scale, Zap } from"lucide-react";
+import { Skull, Target, Eye, FileText, Users, Lock, ArrowRight, Database, Shield, AlertTriangle, Globe, Scale, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
- title:"About ArkHive — The Accountability Archive",
+ title:"About ArkHive, The Accountability Archive",
  description:"826 investigations. 2,621 tracked entities. ArkHive is the largest open-source investigative accountability platform on the internet.",
  openGraph: {
- title:"About ArkHive — The Accountability Archive",
+ title:"About ArkHive, The Accountability Archive",
  description:"826 investigations. 2,621 tracked entities. ArkHive is the largest open-source investigative accountability platform on the internet.",
  },
 };
@@ -116,7 +116,7 @@ export default function AboutPage() {
  </div>
  </section>
 
- {/* What We Cover — 17 categories */}
+ {/* What We Cover, 17 categories */}
  <section className="border border-zinc-800 bg-black/60 p-8 mb-6">
  <div className="flex items-center gap-3 mb-6">
  <FileText className="w-6 h-6 text-blood-700"/>

@@ -346,7 +346,7 @@ export default function ContributorAuthPage() {
  <div className="p-3 border border-blood-800/60 bg-blood-950/30">
  <p className="text-xs text-zinc-400 mb-1">Your verification code (demo mode):</p>
  <p className="text-lg font-mono font-bold text-blood-500 tracking-[0.3em]">
- {getVerificationCode(email || currentUser?.email || '') || 'Code expired - sign up again'}
+ {getVerificationCode(email || currentUser?.email || '') || 'Code expired, sign up again'}
  </p>
  </div>
  )}

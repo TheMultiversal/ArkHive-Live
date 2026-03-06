@@ -12,7 +12,7 @@ interface TypewriterTextProps {
  cursorColor?: string;
  sound?: boolean;
  onComplete?: () => void;
- classified?: boolean; // Add"CLASSIFIED"stamp after
+ classified?: boolean; // Add "CLASSIFIED" stamp after
  element?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p' | 'span' | 'div';
 }
 

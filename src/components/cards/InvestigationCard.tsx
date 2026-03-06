@@ -1,5 +1,5 @@
 import Link from"next/link";
-import { Calendar, ArrowRight, Skull, Users, AlertTriangle, FileText, Archive } from"lucide-react";
+import { Calendar, ArrowRight, Skull, Users, AlertTriangle, FileText, Archive } from "lucide-react";
 
 export interface Investigation {
  id: string;
@@ -7,7 +7,7 @@ export interface Investigation {
  title: string;
  summary: string;
  category: string;
- severity:"critical"|"high"|"medium"|"low";
+ severity:" critical"|" high"|" medium"|" low";
  date: string;
  entityCount: number;
  imageUrl?: string;
@@ -24,25 +24,25 @@ const severityConfig = {
  classes:"bg-blood-900/60 text-blood-400 border-blood-600",
  label:"CRITICAL THREAT",
  Icon: Skull,
- accentColor:"rgba(214, 69, 69, 0.5)",
+ accentColor:" rgba(214, 69, 69, 0.5)",
  },
  high: {
- classes:"bg-blood-950/60 text-blood-500 border-blood-700",
+ classes:" bg-blood-950/60 text-blood-500 border-blood-700",
  label:"HIGH THREAT",
  Icon: AlertTriangle,
- accentColor:"rgba(168, 40, 40, 0.4)",
+ accentColor:" rgba(168, 40, 40, 0.4)",
  },
  medium: {
- classes:"bg-zinc-900/60 text-zinc-300 border-zinc-700",
+ classes:" bg-zinc-900/60 text-zinc-300 border-zinc-700",
  label:"DOCUMENTED",
  Icon: FileText,
- accentColor:"rgba(113, 113, 122, 0.3)",
+ accentColor:" rgba(113, 113, 122, 0.3)",
  },
  low: {
- classes:"bg-zinc-900/40 text-zinc-500 border-zinc-800",
+ classes:" bg-zinc-900/40 text-zinc-500 border-zinc-800",
  label:"ARCHIVED",
  Icon: Archive,
- accentColor:"rgba(63, 63, 70, 0.3)",
+ accentColor:" rgba(63, 63, 70, 0.3)",
  },
 };
 
@@ -53,10 +53,10 @@ export default function InvestigationCard({ investigation, featured = false }: I
  return (
  <Link
  href={`/investigations/${investigation.slug}`}
- className={`group block glass-card overflow-hidden ${featured ?"lg:col-span-2 lg:row-span-2":""}`}
+ className={`group block glass-card overflow-hidden ${featured ?" lg:col-span-2 lg:row-span-2":""}`}
  >
  {/* Header band with severity accent */}
- <div className={`relative ${featured ?"h-44 lg:h-56":"h-28"} bg-gradient-to-br from-zinc-950 to-black overflow-hidden`}>
+ <div className={`relative ${featured ?"h-44 lg:h-56":" h-28"} bg-gradient-to-br from-zinc-950 to-black overflow-hidden`}>
  {/* Data grid pattern */}
  <div
  className="absolute inset-0 opacity-[0.06]"
@@ -105,11 +105,11 @@ export default function InvestigationCard({ investigation, featured = false }: I
  <span>{investigation.date}</span>
  </div>
 
- <h3 className={`font-black text-white mb-2 group-hover:text-blood-500 transition-colors leading-tight ${featured ?"text-xl lg:text-2xl":"text-sm"}`}>
+ <h3 className={`font-black text-white mb-2 group-hover:text-blood-500 transition-colors leading-tight ${featured ?" text-xl lg:text-2xl":" text-sm"}`}>
  {investigation.title}
  </h3>
 
- <p className={`text-zinc-500 mb-3 line-clamp-2 leading-relaxed ${featured ?"text-sm":"text-xs"}`}>
+ <p className={`text-zinc-500 mb-3 line-clamp-2 leading-relaxed ${featured ?" text-sm":" text-xs"}`}>
  {investigation.summary}
  </p>
 

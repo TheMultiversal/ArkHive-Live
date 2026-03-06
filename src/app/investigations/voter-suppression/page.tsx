@@ -21,7 +21,7 @@ const investigationData = {
  title: 'Voter Suppression',
  subtitle: 'Systematic Attacks on Voting Rights, USPS Sabotage, and Election Interference',
  severity: 'critical' as const,
- status: 'Documented - Ongoing Impact',
+ status: 'Documented, Ongoing Impact',
  lastUpdated: 'February 2026',
  summary: `The Trump administration and allied state governments engaged in systematic voter suppression targeting minority and Democratic-leaning voters. This included purging 1.4+ million voters from rolls, attacking mail-in voting, appointing a major donor to sabotage the Postal Service during a pandemic election, spreading election disinformation, and pressuring election officials. These efforts culminated in the January 6th insurrection attempt to overturn the 2020 election results.`,
  
@@ -34,11 +34,11 @@ const investigationData = {
  },
 
  keyFigures: [
- { name: 'Donald Trump', role: 'Principal - Spread disinformation, pressured officials', href: '/entities/individuals/donald-trump' },
- { name: 'Louis DeJoy', role: 'Postmaster General - Sabotaged USPS operations', href: '/entities/individuals/louis-dejoy' },
- { name: 'Mark Meadows', role: 'Chief of Staff - Coordinated pressure campaigns', href: '/entities/individuals/mark-meadows' },
- { name: 'Rudy Giuliani', role: 'Attorney - Spread election lies', href: '/entities/individuals/rudy-giuliani' },
- { name: 'Brad Raffensperger', role: 'GA Secretary of State - Target of Trump pressure', href: '/entities/individuals/brad-raffensperger' },
+ { name: 'Donald Trump', role: 'Principal, Spread disinformation, pressured officials', href: '/entities/individuals/donald-trump' },
+ { name: 'Louis DeJoy', role: 'Postmaster General, Sabotaged USPS operations', href: '/entities/individuals/louis-dejoy' },
+ { name: 'Mark Meadows', role: 'Chief of Staff, Coordinated pressure campaigns', href: '/entities/individuals/mark-meadows' },
+ { name: 'Rudy Giuliani', role: 'Attorney, Spread election lies', href: '/entities/individuals/rudy-giuliani' },
+ { name: 'Brad Raffensperger', role: 'GA Secretary of State, Target of Trump pressure', href: '/entities/individuals/brad-raffensperger' },
  ],
 
  suppressionTactics: [
@@ -60,7 +60,7 @@ const investigationData = {
  'Wisconsin purged 232,000 voters before 2020',
  'Ohio purged 235,000 before 2020',
  'Targeted minority and Democratic-leaning areas',
- 'Used flawed"Interstate Crosscheck"data',
+ 'Used flawed "Interstate Crosscheck"data',
  'Many legitimate voters removed without notice',
  ],
  },
@@ -80,7 +80,7 @@ const investigationData = {
  details: [
  'Called Georgia officials to"find 11,780 votes"',
  'Pressured DOJ to declare election corrupt',
- 'Asked states to"decertify"results',
+ 'Asked states to "decertify" results',
  'Pressured VP Pence to reject electors',
  'Contacted local election officials',
  'Threatened officials who refused to comply',
@@ -89,7 +89,7 @@ const investigationData = {
  {
  tactic: 'Disinformation Campaign',
  details: [
- 'Claimed election was"stolen"with no evidence',
+ 'Claimed election was "stolen" with no evidence',
  'Spread lies about voting machine fraud',
  'Promoted conspiracy theories about ballots',
  'Used social media to amplify false claims',
@@ -123,15 +123,15 @@ const investigationData = {
  { date: 'February 2020', event: 'Trump begins attacking mail-in voting' },
  { date: 'May 2020', event: 'Trump threatens states sending mail ballot applications' },
  { date: 'June 2020', event: 'Louis DeJoy appointed Postmaster General' },
- { date: 'July 2020', event: 'DeJoy implements"reforms"slowing mail' },
+ { date: 'July 2020', event: 'DeJoy implements "reforms" slowing mail' },
  { date: 'August 2020', event: '671 mail sorting machines removed' },
  { date: 'August 2020', event: 'DeJoy testifies before Congress, defends changes' },
  { date: 'September 2020', event: 'Court orders halt to USPS changes' },
- { date: 'November 3, 2020', event: 'Election Day - Trump claims victory prematurely' },
+ { date: 'November 3, 2020', event: 'Election Day, Trump claims victory prematurely' },
  { date: 'November 7, 2020', event: 'Biden declared winner; Trump refuses to concede' },
  { date: 'November-December 2020', event: '60+ lawsuits filed, all fail or dismissed' },
  { date: 'December 14, 2020', event: 'Electoral College certifies Biden win' },
- { date: 'January 2, 2021', event: 'Trump calls Georgia to"find"votes' },
+ { date: 'January 2, 2021', event: 'Trump calls Georgia to "find" votes' },
  { date: 'January 6, 2021', event: 'Capitol insurrection to overturn results' },
  { date: 'August 2023', event: 'Georgia RICO indictment for election interference' },
  ],
@@ -168,7 +168,7 @@ const investigationData = {
  'The January 2, 2021 call in which Trump pressured Georgia Secretary of State Raffensperger to"find 11,780 votes"was recorded without Trump\'s knowledge \u2014 Raffensperger released the tape after Trump mischaracterized the call.',
  'Trump allies breached voting machines in Coffee County, Georgia in January 2021 to search for evidence of fraud; surveillance footage later revealed the breach was coordinated with Trump\'s legal team.',
  'Jeffrey Clark, a mid-level DOJ official, drafted a letter at Trump\'s direction falsely claiming DOJ had found election irregularities in Georgia \u2014 the scheme was only stopped when acting AG Rosen and other senior officials threatened to resign en masse.',
- 'Despite losing 61 out of 62 post-election lawsuits \u2014 with judges appointed by both parties finding zero evidence of widespread fraud \u2014 Trump continued to claim the election was"stolen"to justify ongoing voter suppression efforts.',
+ 'Despite losing 61 out of 62 post-election lawsuits \u2014 with judges appointed by both parties finding zero evidence of widespread fraud \u2014 Trump continued to claim the election was "stolen" to justify ongoing voter suppression efforts.',
  'The Big Lie narrative was deliberately constructed to lay groundwork for restrictive voting laws: 19 states passed 34 laws restricting voting access in 2021 alone, disproportionately affecting minority voters.',
  ],
 

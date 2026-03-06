@@ -14,7 +14,7 @@ export function cn(...inputs: ClassValue[]) {
 /**
  * Format a date string for display
  * @param date - Date string or Date object
- * @param formatStr - Format pattern (default: 'MMMM d, yyyy')
+ * @param formatStr, Format pattern (default: 'MMMM d, yyyy')
  * @returns Formatted date string
  */
 export function formatDate(date: string | Date, formatStr: string = 'MMMM d, yyyy'): string {

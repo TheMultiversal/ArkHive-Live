@@ -1,4 +1,4 @@
-// Agency profile data interface — shared by all agency shard files
+// Agency profile data interface, shared by all agency shard files
 export interface AgencyProfile {
   id: string;
   slug: string;

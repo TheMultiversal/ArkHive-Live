@@ -57,7 +57,7 @@ function recordToEntities(record: Record<string, unknown>, type: Entity['type'])
 const agencies = recordToEntities(agencyData, 'agency');
 const corporations = recordToEntities(corporationData, 'corporation');
 const individuals = recordToEntities(individualData, 'individual');
-// organizations don't have a separate unified type yet — adapt similarly
+// organizations don't have a separate unified type yet , adapt similarly
 const organizations = recordToEntities(organizationData || {}, 'organization');
 
 /**

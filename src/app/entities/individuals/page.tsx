@@ -3,8 +3,8 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Users, ChevronRight, Search, Skull, Filter } from "lucide-react";
-import individualData from "@/data/individuals";
-import EntityCard from "@/components/cards/EntityCard";
+import individualData from"@/data/individuals";
+import EntityCard from"@/components/cards/EntityCard";
 
 interface Entity {
   id: string;
@@ -19,7 +19,7 @@ interface Entity {
 }
 
 // Map profile riskLevel to EntityCard riskLevel
-const riskMap: Record<string, "extreme" | "high" | "moderate" | "low"> = {
+const riskMap: Record<string, "extreme" | "high" | "moderate" | " low"> = {
   critical: "extreme",
   high: "high",
   medium: "moderate",
@@ -38,16 +38,16 @@ const individuals: Entity[] = Object.entries(individualData).map(([slug, profile
     "Profile under investigation.",
   role: profile.role || profile.title || "Under Investigation",
   investigationCount: profile.relatedInvestigations?.length || 0,
-  riskLevel: riskMap[profile.riskLevel] || "low",
+  riskLevel: riskMap[profile.riskLevel] || " low",
 }));
 
 // Sort: highest risk first, then alphabetical
 const riskOrder: Record<string, number> = { extreme: 0, high: 1, moderate: 2, low: 3 };
 individuals.sort(
-  (a, b) => riskOrder[a.riskLevel] - riskOrder[b.riskLevel] || a.name.localeCompare(b.name)
+  (a, b) => riskOrder[a.riskLevel], riskOrder[b.riskLevel] || a.name.localeCompare(b.name)
 );
 
-type RiskFilter = "all" | "extreme" | "high" | "moderate" | "low";
+type RiskFilter = "all" | "extreme" | "high" | " moderate" | " low";
 
 export default function IndividualsPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -135,22 +135,22 @@ export default function IndividualsPage() {
 
           <div className="flex items-center gap-2 flex-wrap">
             <Filter className="w-4 h-4 text-zinc-500" />
-            {(["all", "extreme", "high", "moderate", "low"] as RiskFilter[]).map((level) => (
+            {([" all","extreme","high","moderate","low"] as RiskFilter[]).map((level) => (
               <button
                 key={level}
                 onClick={() => setRiskFilter(level)}
                 className={`px-3 py-2 text-xs font-bold uppercase tracking-wider border transition-colors ${
                   riskFilter === level
                     ? level === "extreme"
-                      ? "border-blood-600 bg-blood-900/50 text-blood-400"
+                      ? " border-blood-600 bg-blood-900/50 text-blood-400"
                       : level === "high"
-                        ? "border-blood-700 bg-blood-900/30 text-blood-500"
+                        ? " border-blood-700 bg-blood-900/30 text-blood-500"
                         : level === "moderate"
-                          ? "border-zinc-600 bg-zinc-900/50 text-zinc-300"
+                          ? " border-zinc-600 bg-zinc-900/50 text-zinc-300"
                           : level === "low"
-                            ? "border-zinc-700 bg-zinc-900/30 text-zinc-400"
-                            : "border-blood-700 bg-blood-900/30 text-white"
-                    : "border-zinc-800 bg-transparent text-zinc-500 hover:border-zinc-600"
+                            ? " border-zinc-700 bg-zinc-900/30 text-zinc-400"
+                            :"border-blood-700 bg-blood-900/30 text-white"
+                    :"border-zinc-800 bg-transparent text-zinc-500 hover:border-zinc-600"
                 }`}
               >
                 {level} ({riskCounts[level]})

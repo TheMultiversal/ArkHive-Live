@@ -1,4 +1,4 @@
-// AUTO-GENERATED — Investigation Shard [X] managed by ArkHive Swarm Intelligence
+// AUTO-GENERATED, Investigation Shard [X] managed by ArkHive Swarm Intelligence
 import type { InvestigationData } from './types';
 
 const investigations_x: Record<string, InvestigationData> = {

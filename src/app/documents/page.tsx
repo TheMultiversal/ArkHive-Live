@@ -25,7 +25,7 @@ interface Document {
 const documents: Document[] = [
  {
  id: '1',
- title: 'FDA Internal Memo - Drug Approval Fast-Track',
+ title: 'FDA Internal Memo, Drug Approval Fast-Track',
  description: 'Internal communications regarding expedited approval process for experimental treatments.',
  type: 'pdf',
  classification: 'public',
@@ -50,7 +50,7 @@ const documents: Document[] = [
  },
  {
  id: '3',
- title: 'EPA Waiver Documentation - Chemical Plant',
+ title: 'EPA Waiver Documentation, Chemical Plant',
  description: 'Environmental protection waivers granted to Meridian Chemical facilities.',
  type: 'archive',
  classification: 'public',
@@ -63,7 +63,7 @@ const documents: Document[] = [
  },
  {
  id: '4',
- title: 'Classified Budget Allocation - Defense Department',
+ title: 'Classified Budget Allocation, Defense Department',
  description: 'Redacted portions of defense spending for black budget programs.',
  type: 'pdf',
  classification: 'restricted',
@@ -75,7 +75,7 @@ const documents: Document[] = [
  },
  {
  id: '5',
- title: 'Internal Clinical Trial Data - Adverse Events',
+ title: 'Internal Clinical Trial Data, Adverse Events',
  description: 'Unreported adverse events from Phase 3 clinical trials.',
  type: 'pdf',
  classification: 'sensitive',
@@ -88,7 +88,7 @@ const documents: Document[] = [
  },
  {
  id: '6',
- title: 'Financial Transaction Records - Shell Companies',
+ title: 'Financial Transaction Records, Shell Companies',
  description: 'Bank records linking offshore entities to domestic operations.',
  type: 'archive',
  classification: 'sensitive',
@@ -100,7 +100,7 @@ const documents: Document[] = [
  },
  {
  id: '7',
- title: 'Satellite Imagery - Facility Construction',
+ title: 'Satellite Imagery, Facility Construction',
  description: 'Time-lapse satellite images showing undisclosed facility construction.',
  type: 'image',
  classification: 'public',
@@ -139,7 +139,7 @@ const documents: Document[] = [
  },
  {
  id: '10',
- title: 'United States v. Trump - Classified Documents Indictment',
+ title: 'United States v. Trump, Classified Documents Indictment',
  description: 'Federal indictment for willful retention of national defense information and obstruction.',
  type: 'pdf',
  classification: 'public',
@@ -152,7 +152,7 @@ const documents: Document[] = [
  },
  {
  id: '11',
- title: 'United States v. Trump - Jan 6 Superseding Indictment',
+ title: 'United States v. Trump, Jan 6 Superseding Indictment',
  description: 'Federal indictment for conspiracy to defraud the United States and obstruct an official proceeding.',
  type: 'pdf',
  classification: 'public',
@@ -191,7 +191,7 @@ const documents: Document[] = [
  },
  {
  id: '14',
- title: 'Mueller Report - Volume I: Russian Interference',
+ title: 'Mueller Report, Volume I: Russian Interference',
  description: 'Special Counsel investigation into Russian interference in 2016 presidential election.',
  type: 'pdf',
  classification: 'public',
@@ -204,7 +204,7 @@ const documents: Document[] = [
  },
  {
  id: '15',
- title: 'Mueller Report - Volume II: Obstruction of Justice',
+ title: 'Mueller Report, Volume II: Obstruction of Justice',
  description: 'Analysis of potential obstruction of justice by President Trump, documenting 10 episodes.',
  type: 'pdf',
  classification: 'public',
@@ -321,7 +321,7 @@ const documents: Document[] = [
  },
  {
  id: '24',
- title: 'Medical Examiner Report - Epstein Death',
+ title: 'Medical Examiner Report, Epstein Death',
  description: 'NYC Chief Medical Examiner ruling of suicide by hanging at MCC Manhattan.',
  type: 'pdf',
  classification: 'public',
@@ -451,7 +451,7 @@ const documents: Document[] = [
  },
  {
  id: '34',
- title: 'Church Committee Report - Intelligence Activities',
+ title: 'Church Committee Report, Intelligence Activities',
  description: 'Senate Select Committee findings on illegal CIA domestic activities including MKULTRA.',
  type: 'pdf',
  classification: 'public',
@@ -503,7 +503,7 @@ const documents: Document[] = [
  },
  {
  id: '38',
- title: 'Church Committee - COINTELPRO Findings',
+ title: 'Church Committee, COINTELPRO Findings',
  description: 'Senate committee report on FBI COINTELPRO operations against civil rights and antiwar movements.',
  type: 'pdf',
  classification: 'public',
@@ -516,7 +516,7 @@ const documents: Document[] = [
  },
  {
  id: '39',
- title: 'FBI Memo - MLK Suicide Letter',
+ title: 'FBI Memo, MLK Suicide Letter',
  description: 'Declassified FBI letter sent to Martin Luther King Jr. encouraging his suicide.',
  type: 'image',
  classification: 'public',
@@ -529,7 +529,7 @@ const documents: Document[] = [
  },
  {
  id: '40',
- title: 'Fred Hampton Raid - Internal FBI Documents',
+ title: 'Fred Hampton Raid, Internal FBI Documents',
  description: 'FBI planning documents for December 4, 1969 raid that killed Black Panther leader.',
  type: 'pdf',
  classification: 'public',
@@ -581,7 +581,7 @@ const documents: Document[] = [
  },
  {
  id: '44',
- title: 'Snowden NSA Slides - PRISM Program',
+ title: 'Snowden NSA Slides, PRISM Program',
  description: 'Leaked NSA slides describing PRISM surveillance program collecting data from tech companies.',
  type: 'image',
  classification: 'public',
@@ -594,7 +594,7 @@ const documents: Document[] = [
  },
  {
  id: '45',
- title: 'FISA Court Order - Verizon Metadata Collection',
+ title: 'FISA Court Order, Verizon Metadata Collection',
  description: 'Classified court order requiring Verizon to provide all call detail records to NSA.',
  type: 'pdf',
  classification: 'public',
@@ -607,7 +607,7 @@ const documents: Document[] = [
  },
  {
  id: '46',
- title: 'NSA Inspector General Report - Stellar Wind',
+ title: 'NSA Inspector General Report, Stellar Wind',
  description: 'IG report on warrantless surveillance program authorized after September 11, 2001.',
  type: 'pdf',
  classification: 'restricted',
@@ -685,7 +685,7 @@ const documents: Document[] = [
  },
  {
  id: '52',
- title: 'CIA Inspector General Report - Contra Drug Links',
+ title: 'CIA Inspector General Report, Contra Drug Links',
  description: 'IG investigation into allegations of CIA-Contra drug trafficking connections.',
  type: 'pdf',
  classification: 'public',
@@ -724,7 +724,7 @@ const documents: Document[] = [
  },
  {
  id: '55',
- title: 'Articles of Impeachment - Richard Nixon',
+ title: 'Articles of Impeachment, Richard Nixon',
  description: 'House Judiciary Committee approved articles of impeachment.',
  type: 'pdf',
  classification: 'public',
@@ -815,7 +815,7 @@ const documents: Document[] = [
  },
  {
  id: '62',
- title: 'EPA Emergency Order - Flint Michigan',
+ title: 'EPA Emergency Order, Flint Michigan',
  description: 'EPA emergency administrative order finding imminent health hazard in Flint water supply.',
  type: 'pdf',
  classification: 'public',
@@ -841,7 +841,7 @@ const documents: Document[] = [
  },
  {
  id: '64',
- title: 'Lead Testing Results - Flint Residences',
+ title: 'Lead Testing Results, Flint Residences',
  description: 'Virginia Tech research team water testing results showing dangerous lead levels.',
  type: 'archive',
  classification: 'public',
@@ -854,7 +854,7 @@ const documents: Document[] = [
  },
  {
  id: '65',
- title: 'Criminal Indictments - Flint Officials',
+ title: 'Criminal Indictments, Flint Officials',
  description: 'Criminal charges against Michigan Governor Snyder and 8 other officials.',
  type: 'pdf',
  classification: 'public',
@@ -906,7 +906,7 @@ const documents: Document[] = [
  },
  {
  id: '69',
- title: 'Boeing Internal Messages - Employee Concerns',
+ title: 'Boeing Internal Messages, Employee Concerns',
  description: 'Internal communications showing employees raised safety concerns about 737 MAX.',
  type: 'archive',
  classification: 'public',
@@ -971,7 +971,7 @@ const documents: Document[] = [
  },
  {
  id: '74',
- title: 'Carl Bernstein - CIA and the Media',
+ title: 'Carl Bernstein, CIA and the Media',
  description: 'Rolling Stone investigation documenting CIA relationships with American journalists.',
  type: 'pdf',
  classification: 'public',
@@ -984,7 +984,7 @@ const documents: Document[] = [
  },
  {
  id: '75',
- title: 'Church Committee - CIA Media Operations',
+ title: 'Church Committee, CIA Media Operations',
  description: 'Senate committee findings on CIA influence over domestic and foreign media outlets.',
  type: 'pdf',
  classification: 'public',
@@ -1010,7 +1010,7 @@ const documents: Document[] = [
  },
  {
  id: '77',
- title: 'Pentagon Papers - Vietnam Decisionmaking',
+ title: 'Pentagon Papers, Vietnam Decisionmaking',
  description: 'McNamara-commissioned study of US political-military involvement in Vietnam 1945-1967.',
  type: 'archive',
  classification: 'public',
@@ -1062,7 +1062,7 @@ const documents: Document[] = [
  },
  {
  id: '81',
- title: 'Korematsu v. United States - Dissent',
+ title: 'Korematsu v. United States, Dissent',
  description: 'Justice Murphy dissent calling internment a legalization of racism.',
  type: 'pdf',
  classification: 'public',
@@ -1088,7 +1088,7 @@ const documents: Document[] = [
  },
  {
  id: '83',
- title: 'CIA Inspector General - Drug Trafficking',
+ title: 'CIA Inspector General, Drug Trafficking',
  description: 'Report on CIA involvement with drug traffickers during Contra operations.',
  type: 'pdf',
  classification: 'public',
@@ -1114,7 +1114,7 @@ const documents: Document[] = [
  },
  {
  id: '85',
- title: 'SEC v. Enron - Complaint and Findings',
+ title: 'SEC v. Enron, Complaint and Findings',
  description: 'SEC enforcement action documenting massive financial fraud at Enron Corporation.',
  type: 'pdf',
  classification: 'public',
@@ -1127,7 +1127,7 @@ const documents: Document[] = [
  },
  {
  id: '86',
- title: 'Enron Internal Memos - California Energy Crisis',
+ title: 'Enron Internal Memos, California Energy Crisis',
  description: 'Internal communications showing deliberate manipulation of California energy markets.',
  type: 'archive',
  classification: 'public',
@@ -1179,7 +1179,7 @@ const documents: Document[] = [
  },
  {
  id: '90',
- title: 'Senate PSI Report - Wall Street and the Financial Crisis',
+ title: 'Senate PSI Report, Wall Street and the Financial Crisis',
  description: 'Levin-Coburn investigation of Goldman Sachs, Deutsche Bank, and rating agencies.',
  type: 'pdf',
  classification: 'public',
@@ -1218,7 +1218,7 @@ const documents: Document[] = [
  },
  {
  id: '93',
- title: 'EPA Notice of Violation - VW Clean Air Act',
+ title: 'EPA Notice of Violation, VW Clean Air Act',
  description: 'EPA findings that VW installed defeat devices in 11 million diesel vehicles worldwide.',
  type: 'pdf',
  classification: 'public',
@@ -1231,7 +1231,7 @@ const documents: Document[] = [
  },
  {
  id: '94',
- title: 'VW Plea Agreement - Criminal Fraud',
+ title: 'VW Plea Agreement, Criminal Fraud',
  description: 'Volkswagen guilty plea to conspiracy, obstruction, and Clean Air Act violations.',
  type: 'pdf',
  classification: 'public',
@@ -1257,7 +1257,7 @@ const documents: Document[] = [
  },
  {
  id: '96',
- title: 'CFPB Consent Order - Fake Accounts',
+ title: 'CFPB Consent Order, Fake Accounts',
  description: 'CFPB enforcement action for creation of millions of unauthorized customer accounts.',
  type: 'pdf',
  classification: 'public',
@@ -1270,7 +1270,7 @@ const documents: Document[] = [
  },
  {
  id: '97',
- title: 'Senate Banking Committee Hearing - Stumpf',
+ title: 'Senate Banking Committee Hearing, Stumpf',
  description: 'Transcript of CEO John Stumpf testimony on unauthorized account creation scandal.',
  type: 'text',
  classification: 'public',
@@ -1309,7 +1309,7 @@ const documents: Document[] = [
  },
  {
  id: '100',
- title: 'Abu Ghraib Investigation - Taguba Report',
+ title: 'Abu Ghraib Investigation, Taguba Report',
  description: 'Army investigation documenting systematic abuse of detainees at Abu Ghraib prison.',
  type: 'pdf',
  classification: 'public',
@@ -1322,7 +1322,7 @@ const documents: Document[] = [
  },
  {
  id: '101',
- title: 'OLC Torture Memos - Yoo/Bybee',
+ title: 'OLC Torture Memos, Yoo/Bybee',
  description: 'Office of Legal Counsel memos authorizing enhanced interrogation techniques.',
  type: 'pdf',
  classification: 'public',
@@ -1374,7 +1374,7 @@ const documents: Document[] = [
  },
  {
  id: '105',
- title: 'GAO Report - Nazi War Criminals in America',
+ title: 'GAO Report, Nazi War Criminals in America',
  description: 'Government Accountability Office investigation into Nazi immigrants in the United States.',
  type: 'pdf',
  classification: 'public',
@@ -1452,7 +1452,7 @@ const documents: Document[] = [
  },
  {
  id: '111',
- title: '28 Pages - Saudi Connection (Declassified)',
+ title: '28 Pages, Saudi Connection (Declassified)',
  description: 'Previously classified section of Joint Inquiry detailing Saudi government connections.',
  type: 'pdf',
  classification: 'public',
@@ -1504,7 +1504,7 @@ const documents: Document[] = [
  },
  {
  id: '115',
- title: 'DOJ Policy Guidance - Cell-Site Simulators',
+ title: 'DOJ Policy Guidance, Cell-Site Simulators',
  description: 'Department of Justice policy requiring warrants for federal use of Stingray devices.',
  type: 'pdf',
  classification: 'public',
@@ -1517,7 +1517,7 @@ const documents: Document[] = [
  },
  {
  id: '116',
- title: 'Citizens United v. FEC - Supreme Court Decision',
+ title: 'Citizens United v. FEC, Supreme Court Decision',
  description: 'Landmark ruling allowing unlimited corporate spending in elections.',
  type: 'pdf',
  classification: 'public',
@@ -1556,7 +1556,7 @@ const documents: Document[] = [
  },
  {
  id: '119',
- title: 'DOJ Investigation Report - Waco',
+ title: 'DOJ Investigation Report, Waco',
  description: 'Department of Justice report on ATF and FBI operations at Branch Davidian compound.',
  type: 'pdf',
  classification: 'public',
@@ -1569,7 +1569,7 @@ const documents: Document[] = [
  },
  {
  id: '120',
- title: 'Danforth Report - Waco Special Counsel',
+ title: 'Danforth Report, Waco Special Counsel',
  description: 'Independent counsel finding no government wrongdoing but documenting failures.',
  type: 'pdf',
  classification: 'public',
@@ -1621,7 +1621,7 @@ const documents: Document[] = [
  },
  {
  id: '124',
- title: 'ICIJ Investigation Summary - World Leaders',
+ title: 'ICIJ Investigation Summary, World Leaders',
  description: 'Analysis identifying 12 current/former heads of state in leaked documents.',
  type: 'pdf',
  classification: 'public',
@@ -1674,7 +1674,7 @@ const documents: Document[] = [
  {
  id: '128',
  title: 'Tobacco Industry Internal Documents',
- description: 'Legacy Tobacco Documents Library - millions of internal industry documents released through litigation.',
+ description: 'Legacy Tobacco Documents Library, millions of internal industry documents released through litigation.',
  type: 'archive',
  classification: 'public',
  date: '1998-11-23',
@@ -1686,7 +1686,7 @@ const documents: Document[] = [
  },
  {
  id: '129',
- title: 'DOJ v. Philip Morris - RICO Judgment',
+ title: 'DOJ v. Philip Morris, RICO Judgment',
  description: 'Judge Kessler ruling that tobacco companies conspired to deceive the public about smoking dangers.',
  type: 'pdf',
  classification: 'public',
@@ -1764,7 +1764,7 @@ const documents: Document[] = [
  },
  {
  id: '135',
- title: 'Facebook Internal Research - Teen Mental Health',
+ title: 'Facebook Internal Research, Teen Mental Health',
  description: 'Internal Instagram research showing platform worsens body image issues in teenage girls.',
  type: 'pdf',
  classification: 'public',
@@ -1829,7 +1829,7 @@ const documents: Document[] = [
  },
  {
  id: '140',
- title: 'State v. Derek Chauvin - Murder Conviction',
+ title: 'State v. Derek Chauvin, Murder Conviction',
  description: 'Verdict finding Chauvin guilty of murder and manslaughter in death of George Floyd.',
  type: 'pdf',
  classification: 'public',
@@ -1842,7 +1842,7 @@ const documents: Document[] = [
  },
  {
  id: '141',
- title: 'DOJ Investigation - Minneapolis Police',
+ title: 'DOJ Investigation, Minneapolis Police',
  description: 'Pattern and practice investigation finding systemic use of excessive force and discrimination.',
  type: 'pdf',
  classification: 'public',
@@ -1855,7 +1855,7 @@ const documents: Document[] = [
  },
  {
  id: '142',
- title: 'Medical Examiner Report - George Floyd',
+ title: 'Medical Examiner Report, George Floyd',
  description: 'Autopsy report ruling death a homicide caused by law enforcement subdual.',
  type: 'pdf',
  classification: 'restricted',
@@ -1894,7 +1894,7 @@ const documents: Document[] = [
  },
  {
  id: '145',
- title: 'House Oversight Committee - Big Oil Climate Deception',
+ title: 'House Oversight Committee, Big Oil Climate Deception',
  description: 'Congressional investigation into fossil fuel industry disinformation campaigns.',
  type: 'pdf',
  classification: 'public',
@@ -1907,7 +1907,7 @@ const documents: Document[] = [
  },
  {
  id: '146',
- title: 'DOJ White Paper - Targeted Killing of US Citizens',
+ title: 'DOJ White Paper, Targeted Killing of US Citizens',
  description: 'Legal justification for extrajudicial killing of American citizens by drone strike.',
  type: 'pdf',
  classification: 'public',
@@ -1920,7 +1920,7 @@ const documents: Document[] = [
  },
  {
  id: '147',
- title: 'The Drone Papers - The Intercept',
+ title: 'The Drone Papers, The Intercept',
  description: 'Leaked military documents revealing kill chain process and civilian casualty rates.',
  type: 'archive',
  classification: 'public',
@@ -1946,7 +1946,7 @@ const documents: Document[] = [
  },
  {
  id: '149',
- title: 'DOJ Inspector General - Private Prison Safety',
+ title: 'DOJ Inspector General, Private Prison Safety',
  description: 'IG report finding federal private prisons more dangerous than BOP facilities.',
  type: 'pdf',
  classification: 'public',
@@ -1985,7 +1985,7 @@ const documents: Document[] = [
  },
  {
  id: '152',
- title: 'Collateral Murder Video - Baghdad Airstrike',
+ title: 'Collateral Murder Video, Baghdad Airstrike',
  description: 'Classified Apache helicopter footage showing killing of Reuters journalists in Iraq.',
  type: 'image',
  classification: 'public',
@@ -2024,7 +2024,7 @@ const documents: Document[] = [
  },
  {
  id: '155',
- title: 'Bush v. Gore - Supreme Court Decision',
+ title: 'Bush v. Gore, Supreme Court Decision',
  description: 'Per curiam decision halting Florida recount and effectively deciding 2000 presidential election.',
  type: 'pdf',
  classification: 'public',
@@ -2050,7 +2050,7 @@ const documents: Document[] = [
  },
  {
  id: '157',
- title: 'US Civil Rights Commission - Florida Election Report',
+ title: 'US Civil Rights Commission, Florida Election Report',
  description: 'Finding of widespread voter disenfranchisement of Black voters in Florida.',
  type: 'pdf',
  classification: 'public',
@@ -2089,7 +2089,7 @@ const documents: Document[] = [
  },
  {
  id: '160',
- title: 'Shelby County v. Holder - Gutting VRA',
+ title: 'Shelby County v. Holder, Gutting VRA',
  description: 'Supreme Court decision invalidating preclearance requirement of Voting Rights Act.',
  type: 'pdf',
  classification: 'public',
@@ -2102,7 +2102,7 @@ const documents: Document[] = [
  },
  {
  id: '161',
- title: 'Brennan Center - Voter Purge Analysis',
+ title: 'Brennan Center, Voter Purge Analysis',
  description: 'Analysis of voter roll purges that disproportionately affect minority voters.',
  type: 'pdf',
  classification: 'public',
@@ -2180,7 +2180,7 @@ const documents: Document[] = [
  },
  {
  id: '167',
- title: 'TSCA Fluoride Lawsuit - EPA Court Ruling',
+ title: 'TSCA Fluoride Lawsuit, EPA Court Ruling',
  description: 'Federal court ruling that fluoridation poses unreasonable risk of neurotoxicity injury.',
  type: 'pdf',
  classification: 'public',
@@ -2193,7 +2193,7 @@ const documents: Document[] = [
  },
  {
  id: '168',
- title: 'Operation Popeye - Declassified Records',
+ title: 'Operation Popeye, Declassified Records',
  description: 'Declassified records of US military cloud seeding operations over Vietnam and Laos.',
  type: 'pdf',
  classification: 'public',
@@ -2219,7 +2219,7 @@ const documents: Document[] = [
  },
  {
  id: '170',
- title: 'ENMOD Convention - UN Treaty',
+ title: 'ENMOD Convention, UN Treaty',
  description: 'Convention on the Prohibition of Military Use of Environmental Modification Techniques.',
  type: 'pdf',
  classification: 'public',
@@ -2232,7 +2232,7 @@ const documents: Document[] = [
  },
  {
  id: '171',
- title: 'DHS OIG - Immigration Detention Conditions',
+ title: 'DHS OIG, Immigration Detention Conditions',
  description: 'Inspector General reports documenting inhumane conditions in ICE detention facilities.',
  type: 'pdf',
  classification: 'public',
@@ -2271,7 +2271,7 @@ const documents: Document[] = [
  },
  {
  id: '174',
- title: 'OSHA Citations - Amazon Warehouse Safety',
+ title: 'OSHA Citations, Amazon Warehouse Safety',
  description: 'OSHA findings of willful violations causing worker injuries at Amazon fulfillment centers.',
  type: 'pdf',
  classification: 'public',
@@ -2284,7 +2284,7 @@ const documents: Document[] = [
  },
  {
  id: '175',
- title: 'Senate HELP Committee - Amazon Safety Report',
+ title: 'Senate HELP Committee, Amazon Safety Report',
  description: 'Investigation finding Amazon warehouses cause injuries at double industry average rate.',
  type: 'pdf',
  classification: 'public',
@@ -2336,7 +2336,7 @@ const documents: Document[] = [
  },
  {
  id: '179',
- title: 'House Select Committee - COVID Origins Report',
+ title: 'House Select Committee, COVID Origins Report',
  description: 'Congressional investigation into origins of SARS-CoV-2, lab leak vs. natural spillover.',
  type: 'pdf',
  classification: 'public',
@@ -2362,7 +2362,7 @@ const documents: Document[] = [
  },
  {
  id: '181',
- title: 'WHO Mission Report - Wuhan',
+ title: 'WHO Mission Report, Wuhan',
  description: 'Joint WHO-China study team report on COVID-19 origins.',
  type: 'pdf',
  classification: 'public',
@@ -2427,7 +2427,7 @@ const documents: Document[] = [
  },
  {
  id: '186',
- title: 'DC Circuit Court - FCC Guidelines Inadequate',
+ title: 'DC Circuit Court, FCC Guidelines Inadequate',
  description: 'Court ruling that FCC failed to adequately explain why 1996 RF guidelines remain protective.',
  type: 'pdf',
  classification: 'public',
@@ -2479,7 +2479,7 @@ const documents: Document[] = [
  },
  {
  id: '190',
- title: 'Senate Intelligence Committee - Russian Active Measures',
+ title: 'Senate Intelligence Committee, Russian Active Measures',
  description: 'Bipartisan report confirming Russian interference and Trump campaign contacts.',
  type: 'pdf',
  classification: 'public',
@@ -2505,7 +2505,7 @@ const documents: Document[] = [
  },
  {
  id: '192',
- title: 'GRU Officers Indictment - DNC Hack',
+ title: 'GRU Officers Indictment, DNC Hack',
  description: 'DOJ indictment of 12 GRU officers for hacking DNC and DCCC.',
  type: 'pdf',
  classification: 'public',
@@ -2518,7 +2518,7 @@ const documents: Document[] = [
  },
  {
  id: '193',
- title: 'NAS Report - Reflecting Sunlight',
+ title: 'NAS Report, Reflecting Sunlight',
  description: 'National Academies report on solar radiation management and stratospheric aerosol injection.',
  type: 'pdf',
  classification: 'public',
@@ -2544,7 +2544,7 @@ const documents: Document[] = [
  },
  {
  id: '195',
- title: 'Congressional Research Service - Geoengineering',
+ title: 'Congressional Research Service, Geoengineering',
  description: 'CRS analysis of federal research and governance gaps in climate intervention.',
  type: 'pdf',
  classification: 'public',
@@ -2570,7 +2570,7 @@ const documents: Document[] = [
  },
  {
  id: '197',
- title: 'House Oversight Committee - Blackwater Report',
+ title: 'House Oversight Committee, Blackwater Report',
  description: 'Congressional investigation into Blackwater USA operations in Iraq.',
  type: 'pdf',
  classification: 'public',
@@ -2583,7 +2583,7 @@ const documents: Document[] = [
  },
  {
  id: '198',
- title: 'Revolving Door Database - Federal Agencies',
+ title: 'Revolving Door Database, Federal Agencies',
  description: 'Analysis of 4,000+ moves between government regulatory positions and regulated industries.',
  type: 'archive',
  classification: 'public',
@@ -2596,7 +2596,7 @@ const documents: Document[] = [
  },
  {
  id: '199',
- title: 'GAO Report - Financial Regulatory Gaps',
+ title: 'GAO Report, Financial Regulatory Gaps',
  description: 'Government Accountability Office analysis of regulatory capture in financial oversight.',
  type: 'pdf',
  classification: 'public',
@@ -2609,7 +2609,7 @@ const documents: Document[] = [
  },
  {
  id: '200',
- title: 'SEC v. WorldCom - Complaint',
+ title: 'SEC v. WorldCom, Complaint',
  description: 'SEC enforcement action for $11 billion accounting fraud, largest in US history at time.',
  type: 'pdf',
  classification: 'public',
@@ -2622,7 +2622,7 @@ const documents: Document[] = [
  },
  {
  id: '201',
- title: 'Thornburgh Report - WorldCom Investigation',
+ title: 'Thornburgh Report, WorldCom Investigation',
  description: 'Court-appointed examiner report on corporate governance failures.',
  type: 'pdf',
  classification: 'public',

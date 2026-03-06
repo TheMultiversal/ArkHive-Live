@@ -1,4 +1,4 @@
-// Corporation profile data interface — shared by all corporation shard files
+// Corporation profile data interface, shared by all corporation shard files
 export interface CorporationProfile {
   id: string;
   slug: string;

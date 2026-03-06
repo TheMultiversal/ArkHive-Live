@@ -1,4 +1,4 @@
-// AUTO-GENERATED — Shard [R] managed by ArkHive Swarm Intelligence
+// AUTO-GENERATED, Shard [R] managed by ArkHive Swarm Intelligence
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -7,11 +7,11 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Disbarred Attorney, Indicted Felon',
     role: 'Former Trump Personal Attorney, Former NYC Mayor',
     riskLevel: 'critical',
-    description: 'Rudy Giuliani is a disbarred attorney and former Mayor of New York City who served as Donald Trump\'s personal lawyer. Once"America\'s Mayor"after 9/11, he became a central figure in the Ukraine pressure campaign that led to Trump\'s first impeachment and the efforts to overturn the 2020 election. Now facing criminal charges in multiple states, defamation judgments exceeding $148 million, and personal bankruptcy.',
+    description: 'Rudy Giuliani is a disbarred attorney and former Mayor of New York City who served as Donald Trump\'s personal lawyer. Once "America\'s Mayor "after 9/11, he became a central figure in the Ukraine pressure campaign that led to Trump\'s first impeachment and the efforts to overturn the 2020 election. Now facing criminal charges in multiple states, defamation judgments exceeding $148 million, and personal bankruptcy.',
     birthDate: 'May 28, 1944',
     birthPlace: 'Brooklyn, New York City, USA',
     netWorth: 'Negative ($150+ million in debts, bankruptcy filed 2023)',
-    education: ['J.D. - New York University School of Law (1968)', 'B.A. - Manhattan College (1965)'],
+    education: ['J.D., New York University School of Law (1968)', 'B.A., Manhattan College (1965)'],
     affiliations: [
       { name: 'Trump Legal Team', role: 'Personal Attorney (2018-2021)', type: 'organization' },
       { name: 'Giuliani Partners', role: 'Founder (Consulting)', type: 'corporation' },
@@ -34,7 +34,7 @@ const profiles: Record<string, IndividualProfile> = {
       'CREDIBILITY COLLAPSE: Went from respected prosecutor to national laughingstock',
     ],
     charges: [
-      { statute: 'Georgia RICO O.C.G.A. § 16-14-4', description: 'Racketeering - fake electors scheme', category: 'Organized Crime' },
+      { statute: 'Georgia RICO O.C.G.A. § 16-14-4', description: 'Racketeering, fake electors scheme', category: 'Organized Crime' },
       { statute: 'O.C.G.A. § 16-10-20', description: 'False statements to government bodies (2 counts)', category: 'Fraud' },
       { statute: 'O.C.G.A. § 16-4-7', description: 'Solicitation of violation of oath by public officer (3 counts)', category: 'Election Crimes' },
       { statute: 'O.C.G.A. § 16-10-23', description: 'Filing false documents (3 counts)', category: 'Fraud' },
@@ -56,7 +56,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1986', event: 'Prosecutes Mafia Commission Trial, convicts mob bosses' },
       { date: '1989', event: 'Leaves SDNY after prosecuting 4,152 cases' },
       { date: '1994', event: 'Elected Mayor of New York City' },
-      { date: '2001', event: '9/11 response, becomes"America\'s Mayor"' },
+      { date: '2001', event: '9/11 response, becomes "America\'s Mayor"' },
       { date: '2008', event: 'Failed presidential campaign' },
       { date: '2018', event: 'Joins Trump legal team' },
       { date: 'Jan 2019', event: 'Begins Ukraine pressure campaign with Parnas and Fruman' },
@@ -129,12 +129,12 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Oath Keepers', role: 'Security provided by members', type: 'organization' },
     ],
     controversies: [
-      'WIKILEAKS COORDINATION: Advance knowledge of WikiLeaks releases ("time in the barrel"prediction August 2016), communicated with Julian Assange through intermediaries',
-      'CONVICTED 7 FELONIES: Lying to Congress (5 counts), obstruction, witness tampering - convicted November 2019',
-      'WITNESS TAMPERING: Threatened Randy Credico to prevent testimony:"Prepare to die"and threatened to steal his therapy dog',
-      'NIXON BACK TATTOO: Has large tattoo of Richard Nixon between shoulder blades, openly celebrates"rat-fucking"tradition',
+      'WIKILEAKS COORDINATION: Advance knowledge of WikiLeaks releases ("time in the barrel "prediction August 2016), communicated with Julian Assange through intermediaries',
+      'CONVICTED 7 FELONIES: Lying to Congress (5 counts), obstruction, witness tampering, convicted November 2019',
+      'WITNESS TAMPERING: Threatened Randy Credico to prevent testimony:"Prepare to die "and threatened to steal his therapy dog',
+      'NIXON BACK TATTOO: Has large tattoo of Richard Nixon between shoulder blades, openly celebrates "rat-fucking "tradition',
       'PROUD BOYS SECURITY: Used Proud Boys as personal security at events, Enrique Tarrio and others provided protection',
-      'JANUARY 6 PRESENCE: Present in DC on January 5-6, seen with Oath Keepers at Willard Hotel"command center"',
+      'JANUARY 6 PRESENCE: Present in DC on January 5-6, seen with Oath Keepers at Willard Hotel "command center"',
       'STOP THE STEAL FOUNDER: Created organization in 2016 (preparing for Trump loss), revived in 2020 for election lies',
       'PARDONED TO SILENCE: Trump commuted sentence July 2020 and pardoned December 2020 to prevent cooperation',
       '"GET ME ROGER STONE": Netflix documentary exposing his dirty tricks philosophy and career',
@@ -143,7 +143,7 @@ const profiles: Record<string, IndividualProfile> = {
     charges: [
       { statute: '18 U.S.C. § 1001', description: 'Making false statements to Congress (5 counts)', category: 'Obstruction' },
       { statute: '18 U.S.C. § 1505', description: 'Obstruction of congressional investigation', category: 'Obstruction' },
-      { statute: '18 U.S.C. § 1512(b)(1)', description: 'Witness tampering - threats against Randy Credico', category: 'Obstruction' },
+      { statute: '18 U.S.C. § 1512(b)(1)', description: 'Witness tampering, threats against Randy Credico', category: 'Obstruction' },
     ],
     relatedInvestigations: [
       { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -163,16 +163,16 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2000', event: 'Manages Trump\'s exploratory Reform Party campaign' },
       { date: '2015', event: 'Advises Trump presidential campaign (leaves officially but remains connected)' },
       { date: '2016 (Jun)', event: 'Contacts Guccifer 2.0 (Russian intelligence front) about hacked materials' },
-      { date: '2016 (Aug 8)', event: 'Predicts John Podesta will have his"time in the barrel"' },
+      { date: '2016 (Aug 8)', event: 'Predicts John Podesta will have his" time in the barrel"' },
       { date: '2016 (Aug)', event: 'Communicates with WikiLeaks through Jerome Corsi and Randy Credico' },
       { date: '2016 (Oct)', event: 'WikiLeaks releases Podesta emails as Stone predicted' },
-      { date: '2016', event: 'Creates"Stop the Steal"organization anticipating Trump loss' },
+      { date: '2016', event: 'Creates "Stop the Steal" organization anticipating Trump loss' },
       { date: '2017-18', event: 'Lies to House Intelligence Committee about WikiLeaks contacts' },
       { date: '2019 (Jan 25)', event: 'Arrested in early morning FBI raid at Florida home' },
       { date: '2019 (Nov 15)', event: 'Convicted on all 7 counts' },
       { date: '2020 (Feb)', event: 'Sentenced to 40 months (prosecutors recommended 7-9 years, Barr intervened)' },
       { date: '2020 (Jul 10)', event: 'Trump commutes sentence days before Stone was to report to prison' },
-      { date: '2020 (Nov-Dec)', event: 'Revives"Stop the Steal"for 2020 election lies' },
+      { date: '2020 (Nov-Dec)', event: 'Revives "Stop the Steal" for 2020 election lies' },
       { date: '2020 (Dec 23)', event: 'Trump issues full pardon' },
       { date: '2021 (Jan 5)', event: 'At Willard Hotel with Oath Keepers and other Jan 6 planners' },
       { date: '2021 (Jan 6)', event: 'Present in DC, escorted by Oath Keepers who later stormed Capitol' },
@@ -217,7 +217,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'James Richard Perry served as Secretary of Energy from 2017 to 2019. He famously proposed eliminating the Department of Energy during his presidential campaign but could not remember its name during a debate. He was involved in the Ukraine pressure campaign that led to Trump\'s first impeachment.',
  birthDate: 'March 4, 1950',
  birthPlace: 'Paint Creek, Texas, USA',
- education: ['B.S. - Texas A&M University'],
+ education: ['B.S., Texas A&M University'],
  netWorth: '$3+ million',
  affiliations: [
  { name: 'Department of Energy', role: 'Secretary (2017-2019)', type: 'agency' },
@@ -227,10 +227,10 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Energy Secretary appointee', href: '/entities/individuals/donald-trump' },
  ],
  controversies: [
- 'Ukraine involvement -"Three Amigos"with Sondland, Volker',
+ 'Ukraine involvement -"Three Amigos "with Sondland, Volker',
  'Climate change skepticism',
  'Wanted to eliminate the department he led',
- '"Oops"debate moment',
+ '"Oops "debate moment',
  ],
  relatedInvestigations: [
  { title: 'Ukraine Extortion Scheme', slug: 'ukraine-extortion', severity: 'critical' },
@@ -240,7 +240,7 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [
  { date: '1950', event: 'Born in Texas' },
  { date: '2017', event: 'Confirmed as Energy Secretary' },
- { date: '2019', event: 'Ukraine"Three Amigos"involvement' },
+ { date: '2019', event: 'Ukraine "Three Amigos" involvement' },
  { date: '2019', event: 'Resigns amid Ukraine scandal' },
  ],
  sources: [
@@ -256,7 +256,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'April 27, 1972',
     birthPlace: 'Fort Lee, Virginia, USA',
     netWorth: 'Unknown',
-    education: ['M.A. - Villanova University', 'B.A. - College of William & Mary'],
+    education: ['M.A., Villanova University', 'B.A., College of William & Mary'],
     affiliations: [
       { name: 'Trump Campaign', role: 'Deputy Campaign Manager', type: 'organization' },
       { name: 'Trump Inaugural Committee', role: 'Deputy Chairman', type: 'organization' },
@@ -269,13 +269,13 @@ const profiles: Record<string, IndividualProfile> = {
       'Testified about Manafort tax and bank fraud',
     ],
     charges: [
-      { statute: '18 U.S.C. § 371', description: 'Conspiracy Against the United States (Pled Guilty) - Conspiracy to commit tax and bank fraud with Manafort', category: 'Conspiracy' },
-      { statute: '18 U.S.C. § 1001', description: 'Making False Statements (Pled Guilty) - Lied to investigators about contacts and transactions', category: 'Obstruction' },
-      { statute: '22 U.S.C. § 611 (FARA)', description: 'Foreign Agent Registration Act Violation - Failed to register as agent for Ukraine government', category: 'Foreign Agent' },
-      { statute: '26 U.S.C. § 7201 (Tax Evasion)', description: 'Tax Fraud Conspiracy - Participated in hiding $75 million in Ukraine payments', category: 'Tax Fraud' },
-      { statute: '18 U.S.C. § 1344 (Bank Fraud)', description: 'Bank Fraud Conspiracy - Helped submit false loan applications to banks', category: 'Bank Fraud' },
-      { statute: '31 U.S.C. § 5314 (FBAR)', description: 'Foreign Account Reporting Violations - Failed to report foreign bank accounts', category: 'Financial Crime' },
-      { statute: '18 U.S.C. § 1956 (Money Laundering)', description: 'Money Laundering Conspiracy - Moved Ukraine payments through shell companies', category: 'Money Laundering' },
+      { statute: '18 U.S.C. § 371', description: 'Conspiracy Against the United States (Pled Guilty), Conspiracy to commit tax and bank fraud with Manafort', category: 'Conspiracy' },
+      { statute: '18 U.S.C. § 1001', description: 'Making False Statements (Pled Guilty), Lied to investigators about contacts and transactions', category: 'Obstruction' },
+      { statute: '22 U.S.C. § 611 (FARA)', description: 'Foreign Agent Registration Act Violation, Failed to register as agent for Ukraine government', category: 'Foreign Agent' },
+      { statute: '26 U.S.C. § 7201 (Tax Evasion)', description: 'Tax Fraud Conspiracy, Participated in hiding $75 million in Ukraine payments', category: 'Tax Fraud' },
+      { statute: '18 U.S.C. § 1344 (Bank Fraud)', description: 'Bank Fraud Conspiracy, Helped submit false loan applications to banks', category: 'Bank Fraud' },
+      { statute: '31 U.S.C. § 5314 (FBAR)', description: 'Foreign Account Reporting Violations, Failed to report foreign bank accounts', category: 'Financial Crime' },
+      { statute: '18 U.S.C. § 1956 (Money Laundering)', description: 'Money Laundering Conspiracy, Moved Ukraine payments through shell companies', category: 'Money Laundering' },
     ],
     relatedInvestigations: [
       { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -326,7 +326,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Fulton County Elections', role: 'Temporary Election Worker (2020)', type: 'agency' },
     ],
     controversies: [
-      'Falsely accused of"passing USB drives"(actually ginger mints)',
+      'Falsely accused of "passing USB drives"(actually ginger mints)',
       'Trump mentioned her by name 18 times in Georgia call',
       'Forced to flee home due to death threats',
       'Had to close her small business',
@@ -354,7 +354,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Freeman v. Giuliani - $148M Verdict', url: 'https://www.courtlistener.com/docket/63495928/freeman-v-giuliani/', date: '2023' },
+      { title: 'Freeman v. Giuliani, $148M Verdict', url: 'https://www.courtlistener.com/docket/63495928/freeman-v-giuliani/', date: '2023' },
       { title: 'January 6 Committee Testimony', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: 'Georgia Phone Call Transcript', url: 'https://www.cnn.com/2021/01/03/politics/trump-brad-raffensperger-phone-call-transcript/index.html', date: '2021' },
     ],
@@ -385,7 +385,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'August 7, 1944',
     birthPlace: 'New York City, New York, USA',
     netWorth: '$5+ million',
-    education: ['J.D. - University of Virginia School of Law', 'M.A. - New York University', 'B.A. - Princeton University'],
+    education: ['J.D., University of Virginia School of Law', 'M.A., New York University', 'B.A., Princeton University'],
     affiliations: [
       { name: 'Federal Bureau of Investigation', role: 'Director (2001-2013)', type: 'agency' },
       { name: 'Department of Justice', role: 'Special Counsel (2017-2019)', type: 'agency' },
@@ -450,7 +450,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'July 11, 1946',
     birthPlace: 'San Jose, California, USA',
     netWorth: '$1.5+ billion',
-    education: ['Ph.D. - University of Illinois (Computer Science)', 'B.S./M.S. - University of New Mexico'],
+    education: ['Ph.D., University of Illinois (Computer Science)', 'B.S./M.S., University of New Mexico'],
     affiliations: [
       { name: 'Renaissance Technologies', role: 'Co-CEO (until 2017)', type: 'corporation' },
       { name: 'Cambridge Analytica', role: 'Primary Investor ($15M+)', type: 'corporation' },
@@ -465,14 +465,14 @@ const profiles: Record<string, IndividualProfile> = {
       'Stepped back from Renaissance after political controversy',
     ],
     charges: [
-      { statute: '18 U.S.C. § 1030 (Computer Fraud and Abuse Act)', description: 'Data Harvesting Operation - Funded Cambridge Analytica which illegally harvested 87 million Facebook users\' data without consent', category: 'Cyber Crime' },
-      { statute: '52 U.S.C. § 30121 (Foreign National Contributions)', description: 'Foreign Coordination Concerns - Cambridge Analytica employed foreign nationals (UK citizens) on U.S. campaign work', category: 'Campaign Finance' },
-      { statute: 'UK Data Protection Act 1998', description: 'International Data Violations - UK ICO investigation found serious breaches; Cambridge Analytica fined £500,000 (maximum)', category: 'International Law' },
-      { statute: 'EU General Data Protection Regulation', description: 'GDPR Precursor Violations - Mass data harvesting violated EU data protection principles, contributing to GDPR enactment', category: 'International Law' },
-      { statute: '52 U.S.C. § 30118 (Corporate Contributions)', description: 'Coordination Questions - Potential illegal coordination between Make America Number 1 super PAC and Trump campaign', category: 'Campaign Finance' },
-      { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to Defraud United States - Funded operation that used illegally obtained data to manipulate U.S. elections', category: 'Conspiracy' },
-      { statute: '52 U.S.C. § 30104 (Disclosure)', description: 'Disclosure Violations - Complex funding arrangements obscured true source and purpose of political expenditures', category: 'Campaign Finance' },
-      { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Wire Fraud Potential - Cambridge Analytica operation used interstate wires to defraud data subjects and deceive voters', category: 'Fraud' },
+      { statute: '18 U.S.C. § 1030 (Computer Fraud and Abuse Act)', description: 'Data Harvesting Operation, Funded Cambridge Analytica which illegally harvested 87 million Facebook users\' data without consent', category: 'Cyber Crime' },
+      { statute: '52 U.S.C. § 30121 (Foreign National Contributions)', description: 'Foreign Coordination Concerns, Cambridge Analytica employed foreign nationals (UK citizens) on U.S. campaign work', category: 'Campaign Finance' },
+      { statute: 'UK Data Protection Act 1998', description: 'International Data Violations, UK ICO investigation found serious breaches; Cambridge Analytica fined £500,000 (maximum)', category: 'International Law' },
+      { statute: 'EU General Data Protection Regulation', description: 'GDPR Precursor Violations, Mass data harvesting violated EU data protection principles, contributing to GDPR enactment', category: 'International Law' },
+      { statute: '52 U.S.C. § 30118 (Corporate Contributions)', description: 'Coordination Questions, Potential illegal coordination between Make America Number 1 super PAC and Trump campaign', category: 'Campaign Finance' },
+      { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to Defraud United States, Funded operation that used illegally obtained data to manipulate U.S. elections', category: 'Conspiracy' },
+      { statute: '52 U.S.C. § 30104 (Disclosure)', description: 'Disclosure Violations, Complex funding arrangements obscured true source and purpose of political expenditures', category: 'Campaign Finance' },
+      { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Wire Fraud Potential, Cambridge Analytica operation used interstate wires to defraud data subjects and deceive voters', category: 'Fraud' },
     ],
     relatedInvestigations: [
       { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -522,7 +522,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'December 1973',
     birthPlace: 'Unknown',
     netWorth: 'Unknown (family wealth $1.5B+)',
-    education: ['M.S. - Stanford University (Operations Research)', 'B.S. - Stanford University'],
+    education: ['M.S., Stanford University (Operations Research)', 'B.S., Stanford University'],
     affiliations: [
       { name: 'Cambridge Analytica', role: 'Board Member', type: 'corporation' },
       { name: 'Mercer Family Foundation', role: 'Director', type: 'organization' },
@@ -537,12 +537,12 @@ const profiles: Record<string, IndividualProfile> = {
       'More publicly active than reclusive father',
     ],
     charges: [
-      { statute: '18 U.S.C. § 1030 (Computer Fraud and Abuse Act)', description: 'Board Oversight Failure - Served on Cambridge Analytica board during illegal harvesting of 87 million Facebook users\' data', category: 'Cyber Crime' },
-      { statute: '52 U.S.C. § 30121 (Foreign National Contributions)', description: 'Foreign Coordination - Cambridge Analytica employed UK nationals on U.S. campaign work while she served on board', category: 'Campaign Finance' },
-      { statute: 'UK Data Protection Act 1998', description: 'International Data Violations - As board member, oversaw company that committed serious data protection breaches (fined £500,000)', category: 'International Law' },
-      { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to Defraud US - Board role in operation using illegally obtained data to manipulate elections', category: 'Conspiracy' },
-      { statute: '52 U.S.C. § 30104 (Disclosure)', description: 'Dark Money Concerns - Mercer Family Foundation funding obscured true sources of political expenditures', category: 'Campaign Finance' },
-      { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Wire Fraud Potential - Cambridge Analytica used interstate wires to deceive voters with microtargeted disinformation', category: 'Fraud' },
+      { statute: '18 U.S.C. § 1030 (Computer Fraud and Abuse Act)', description: 'Board Oversight Failure, Served on Cambridge Analytica board during illegal harvesting of 87 million Facebook users\' data', category: 'Cyber Crime' },
+      { statute: '52 U.S.C. § 30121 (Foreign National Contributions)', description: 'Foreign Coordination, Cambridge Analytica employed UK nationals on U.S. campaign work while she served on board', category: 'Campaign Finance' },
+      { statute: 'UK Data Protection Act 1998', description: 'International Data Violations, As board member, oversaw company that committed serious data protection breaches (fined £500,000)', category: 'International Law' },
+      { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to Defraud US, Board role in operation using illegally obtained data to manipulate elections', category: 'Conspiracy' },
+      { statute: '52 U.S.C. § 30104 (Disclosure)', description: 'Dark Money Concerns, Mercer Family Foundation funding obscured true sources of political expenditures', category: 'Campaign Finance' },
+      { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Wire Fraud Potential, Cambridge Analytica used interstate wires to deceive voters with microtargeted disinformation', category: 'Fraud' },
     ],
     relatedInvestigations: [
       { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -555,13 +555,13 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2016', event: 'Key figure in Trump campaign support' },
       { date: '2016', event: 'November: Joins Trump transition team' },
       { date: '2017', event: 'Continues political funding operations' },
-      { date: '2018', event: 'Cambridge Analytica scandal - company folds' },
+      { date: '2018', event: 'Cambridge Analytica scandal, company folds' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Cambridge Analytica Investigation', url: 'https://ico.org.uk/', date: '2018' },
       { title: 'Mercer Family Foundation Records', url: 'https://scholar.google.com/scholar?q=Mercer%20Family%20Foundation%20Records', date: '2016-2024' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -590,7 +590,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'January 13, 1965',
     birthPlace: 'Philadelphia, Pennsylvania, USA',
     netWorth: 'Unknown',
-    education: ['J.D. - Harvard Law School', 'B.A. - University of Pennsylvania (Wharton)'],
+    education: ['J.D., Harvard Law School', 'B.A., University of Pennsylvania (Wharton)'],
     affiliations: [
       { name: 'Department of Justice', role: 'Deputy Attorney General (2017-2019)', type: 'agency' },
       { name: 'King & Spalding', role: 'Partner (current)', type: 'corporation' },
@@ -666,9 +666,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -695,13 +695,13 @@ const profiles: Record<string, IndividualProfile> = {
       'Bought investment in Trump-connected company',
     ],
     charges: [
-      { statute: '18 U.S.C. § 1014', description: 'Potential Bank Fraud - Approved loans to Trump despite knowledge of inflated financial statements and internal risk warnings', category: 'Potential Federal' },
-      { statute: '18 U.S.C. § 1344', description: 'Potential Bank Fraud Scheme - Pattern of approving loans to politically connected client despite red flags', category: 'Potential Federal' },
-      { statute: '31 U.S.C. § 5318 (Bank Secrecy Act)', description: 'Potential Anti-Money Laundering Violations - Failed to properly flag suspicious transactions in Trump accounts', category: 'Potential Federal' },
-      { statute: '12 C.F.R. Part 208 (Regulation H)', description: 'Banking Regulation Violations - Overruled internal risk assessments to approve questionable loans', category: 'Banking Regulatory' },
-      { statute: '18 U.S.C. § 208', description: 'Conflict of Interest - Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
-      { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Pattern of facilitating questionable loans to Trump despite institutional warnings', category: 'Potential Federal' },
-      { statute: 'SEC Rule 10b-5', description: 'Potential Securities Violations - Personal investments while possessing material non-public information about clients', category: 'Potential Securities' },
+      { statute: '18 U.S.C. § 1014', description: 'Potential Bank Fraud, Approved loans to Trump despite knowledge of inflated financial statements and internal risk warnings', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 1344', description: 'Potential Bank Fraud Scheme, Pattern of approving loans to politically connected client despite red flags', category: 'Potential Federal' },
+      { statute: '31 U.S.C. § 5318 (Bank Secrecy Act)', description: 'Potential Anti-Money Laundering Violations, Failed to properly flag suspicious transactions in Trump accounts', category: 'Potential Federal' },
+      { statute: '12 C.F.R. Part 208 (Regulation H)', description: 'Banking Regulation Violations, Overruled internal risk assessments to approve questionable loans', category: 'Banking Regulatory' },
+      { statute: '18 U.S.C. § 208', description: 'Conflict of Interest, Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
+      { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy, Pattern of facilitating questionable loans to Trump despite institutional warnings', category: 'Potential Federal' },
+      { statute: 'SEC Rule 10b-5', description: 'Potential Securities Violations, Personal investments while possessing material non-public information about clients', category: 'Potential Securities' },
     ],
     relatedInvestigations: [
       { title: 'Deutsche Bank Investigation', slug: 'deutsche-bank', severity: 'critical' },
@@ -742,7 +742,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Former U.S. Secretary of State',
     role: 'Secretary of State 2017-2018, Former ExxonMobil CEO',
     riskLevel: 'high',
-    description: 'Rex Tillerson served as Secretary of State under Trump for just over a year before being fired via Twitter. As ExxonMobil CEO, he had close ties to Russia and was awarded the Order of Friendship by Vladimir Putin. He reportedly called Trump a"fucking moron"and clashed repeatedly with the president over policy. He oversaw the decimation of the State Department, with mass resignations and unfilled positions.',
+    description: 'Rex Tillerson served as Secretary of State under Trump for just over a year before being fired via Twitter. As ExxonMobil CEO, he had close ties to Russia and was awarded the Order of Friendship by Vladimir Putin. He reportedly called Trump a "fucking moron "and clashed repeatedly with the president over policy. He oversaw the decimation of the State Department, with mass resignations and unfilled positions.',
     birthDate: 'March 23, 1952',
     birthPlace: 'Wichita Falls, Texas',
     netWorth: '$300 million+',
@@ -755,21 +755,21 @@ const profiles: Record<string, IndividualProfile> = {
     controversies: [
       'Received Russian Order of Friendship from Putin',
       'ExxonMobil climate change cover-up and misinformation',
-      'Called Trump a"fucking moron"',
+      'Called Trump a "fucking moron"',
       'Decimation of State Department under his leadership',
       'Mass resignations and unfilled diplomatic positions',
       'Fired via Twitter while on diplomatic trip to Africa',
       'ExxonMobil\'s decades of funding climate denial',
     ],
     charges: [
-      { statute: '18 U.S.C. § 1341 (Mail Fraud)', description: 'Potential Corporate Fraud - ExxonMobil under investigation for deceiving investors about climate change impacts during his tenure', category: 'Potential Federal' },
-      { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Potential Securities Fraud - Company communicated misleading climate information to investors while CEO', category: 'Potential Federal' },
-      { statute: 'SEC Rule 10b-5', description: 'Securities Fraud Investigation - NY AG and SEC investigated ExxonMobil climate disclosures during Tillerson era', category: 'Potential Securities' },
-      { statute: '22 U.S.C. § 8907 (UFSA)', description: 'Potential Sanctions Violations - ExxonMobil sought OFAC waiver to continue Russia projects under sanctions', category: 'Potential Federal' },
-      { statute: '18 U.S.C. § 208', description: 'Conflict of Interest Concerns - Managed State Dept while ExxonMobil had billions in pending Russian deals', category: 'Ethics' },
-      { statute: 'UN Framework Convention on Climate Change', description: 'Climate Treaty Violations - Company\'s climate denial undermined international climate agreements', category: 'International' },
-      { statute: '42 U.S.C. § 4332 (NEPA)', description: 'Environmental Law Violations - Knowingly misled public about climate impacts of fossil fuels', category: 'Environmental' },
-      { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'ICC Consideration - Climate disinformation contributed to humanitarian crises affecting millions globally', category: 'International' },
+      { statute: '18 U.S.C. § 1341 (Mail Fraud)', description: 'Potential Corporate Fraud, ExxonMobil under investigation for deceiving investors about climate change impacts during his tenure', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Potential Securities Fraud, Company communicated misleading climate information to investors while CEO', category: 'Potential Federal' },
+      { statute: 'SEC Rule 10b-5', description: 'Securities Fraud Investigation, NY AG and SEC investigated ExxonMobil climate disclosures during Tillerson era', category: 'Potential Securities' },
+      { statute: '22 U.S.C. § 8907 (UFSA)', description: 'Potential Sanctions Violations, ExxonMobil sought OFAC waiver to continue Russia projects under sanctions', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 208', description: 'Conflict of Interest Concerns, Managed State Dept while ExxonMobil had billions in pending Russian deals', category: 'Ethics' },
+      { statute: 'UN Framework Convention on Climate Change', description: 'Climate Treaty Violations, Company\'s climate denial undermined international climate agreements', category: 'International' },
+      { statute: '42 U.S.C. § 4332 (NEPA)', description: 'Environmental Law Violations, Knowingly misled public about climate impacts of fossil fuels', category: 'Environmental' },
+      { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'ICC Consideration, Climate disinformation contributed to humanitarian crises affecting millions globally', category: 'International' },
     ],
     relatedInvestigations: [
       { title: 'Climate Sabotage', slug: 'climate-sabotage', severity: 'critical' },
@@ -779,14 +779,14 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2006', event: 'Becomes CEO of ExxonMobil' },
       { date: '2013', event: 'Receives Russian Order of Friendship from Putin' },
       { date: '2017', event: 'February: Confirmed as Secretary of State' },
-      { date: '2017', event: 'October: Reports emerge he called Trump a"moron"' },
+      { date: '2017', event: 'October: Reports emerge he called Trump a" moron"' },
       { date: '2018', event: 'March 13: Fired via Twitter' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'NBC News - Tillerson"Moron"Report', url: 'https://www.nbcnews.com/', date: '2017' },
+      { title: 'NBC News, Tillerson "Moron "Report', url: 'https://www.nbcnews.com/', date: '2017' },
       { title: 'State Department Exodus Reports', url: 'https://www.state.gov/', date: '2018' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: ['Rex'],
     knownAssociates: [
@@ -830,13 +830,13 @@ const profiles: Record<string, IndividualProfile> = {
       'Resigned before investigations concluded',
     ],
     charges: [
-      { statute: '18 U.S.C. § 208', description: 'DOJ Referral - Financial conflict of interest in Montana land deal with Halliburton chairman (DOJ declined prosecution)', category: 'Ethics' },
-      { statute: '31 U.S.C. § 1344', description: 'Potential Misuse of Government Aircraft - Chartered private and military planes for unnecessary travel', category: 'Potential Federal' },
-      { statute: '5 C.F.R. § 2635', description: 'Multiple Ethics Violations - At least 15 separate IG investigations into ethics misconduct', category: 'Ethics' },
-      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Misleading statements to Interior IG about travel and real estate dealings', category: 'Potential Federal' },
-      { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain - Montana real estate development benefited from official position', category: 'Ethics' },
-      { statute: '41 U.S.C. § 423', description: 'Potential Procurement Violations - Improper influence over Interior Department contracts', category: 'Potential Federal' },
-      { statute: '16 U.S.C. § 431 (Antiquities Act)', description: 'Circumvention - Illegally reduced national monuments, later partially reversed by courts', category: 'Environmental' },
+      { statute: '18 U.S.C. § 208', description: 'DOJ Referral, Financial conflict of interest in Montana land deal with Halliburton chairman (DOJ declined prosecution)', category: 'Ethics' },
+      { statute: '31 U.S.C. § 1344', description: 'Potential Misuse of Government Aircraft, Chartered private and military planes for unnecessary travel', category: 'Potential Federal' },
+      { statute: '5 C.F.R. § 2635', description: 'Multiple Ethics Violations, At least 15 separate IG investigations into ethics misconduct', category: 'Ethics' },
+      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements, Misleading statements to Interior IG about travel and real estate dealings', category: 'Potential Federal' },
+      { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain, Montana real estate development benefited from official position', category: 'Ethics' },
+      { statute: '41 U.S.C. § 423', description: 'Potential Procurement Violations, Improper influence over Interior Department contracts', category: 'Potential Federal' },
+      { statute: '16 U.S.C. § 431 (Antiquities Act)', description: 'Circumvention, Illegally reduced national monuments, later partially reversed by courts', category: 'Environmental' },
     ],
     relatedInvestigations: [
       { title: 'Climate Sabotage', slug: 'climate-sabotage', severity: 'critical' },
@@ -851,8 +851,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Interior IG Investigations', url: 'https://scholar.google.com/scholar?q=Interior%20IG%20Investigations', date: '2018' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: ['Zinke'],
     knownAssociates: [
@@ -894,9 +894,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -913,19 +913,19 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'November 29, 1955',
  birthPlace: 'Dallas, Texas',
  education: [
- 'Ph.D. - Southwestern Baptist Theological Seminary',
- 'Th.M. - Dallas Theological Seminary',
- 'B.S. - Baylor University',
+ 'Ph.D., Southwestern Baptist Theological Seminary',
+ 'Th.M., Dallas Theological Seminary',
+ 'B.S., Baylor University',
  ],
  affiliations: [
  { name: 'First Baptist Dallas', role: 'Senior Pastor', type: 'organization' },
  { name: 'Trump Evangelical Advisory Board', role: 'Member', type: 'organization' },
  ],
  controversies: [
- 'Called Islam"evil religion"',
- 'Said Jews"can\'t be saved"',
+ 'Called Islam "evil religion"',
+ 'Said Jews" can\'t be saved"',
  'Anti-Catholic, anti-Mormon statements',
- 'Called homosexuality"filthy"',
+ 'Called homosexuality "filthy"',
  'Said Obama paved way for Antichrist',
  'Defended Trump through all scandals',
  'Delivered prayer at Jerusalem embassy opening',
@@ -973,9 +973,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1003,13 +1003,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Network analysis completed — Rob Goldstone connected to 14 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Rob Goldstone connected to 14 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1022,11 +1022,11 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Former Acting Deputy Attorney General',
  role: 'DOJ Official Who Resisted Trump',
  riskLevel: 'low' as const,
- description: 'Former Acting Deputy Attorney General who resisted Trump\'s pressure to use DOJ to overturn the 2020 election. Testified extensively to the January 6 Committee about Trump\'s attempts to install Jeffrey Clark and his demands that DOJ"just say the election was corrupt and leave the rest to me."',
+ description: 'Former Acting Deputy Attorney General who resisted Trump\'s pressure to use DOJ to overturn the 2020 election. Testified extensively to the January 6 Committee about Trump\'s attempts to install Jeffrey Clark and his demands that DOJ" just say the election was corrupt and leave the rest to me."',
  birthDate: '',
  birthPlace: 'New York',
  education: [
- 'J.D. - St. John\'s University School of Law',
+ 'J.D., St. John\'s University School of Law',
  ],
  affiliations: [
  { name: 'Department of Justice', role: 'Former Acting Deputy AG', type: 'agency' },
@@ -1040,7 +1040,7 @@ const profiles: Record<string, IndividualProfile> = {
  'Took contemporaneous notes of Trump pressure',
  'Threatened to resign over Clark appointment',
  'Key January 6 Committee witness',
- 'Documented Trump\'s"corrupt"election demand',
+ 'Documented Trump\'s "corrupt "election demand',
  ],
  charges: [],
  relatedInvestigations: [
@@ -1115,9 +1115,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1144,13 +1144,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Richard Spencer' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Richard Spencer' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1179,9 +1179,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1209,9 +1209,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1239,9 +1239,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1269,9 +1269,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1286,7 +1286,7 @@ const profiles: Record<string, IndividualProfile> = {
     description: 'Richard Burr was Chair of the Senate Intelligence Committee when he sold $1.7 million in stock after receiving classified COVID briefings while publicly downplaying the pandemic. The FBI investigated and served a warrant on his phone. The DOJ declined to prosecute. He resigned as Intelligence Chair but served out his term.',
     birthDate: 'November 30, 1955',
     birthPlace: 'Charlottesville, Virginia',
-    education: ['B.A. - Wake Forest University (1978)'],
+    education: ['B.A., Wake Forest University (1978)'],
     affiliations: [
       { name: 'U.S. Senate', role: 'Senator from North Carolina (2005-2023)', type: 'agency' },
       { name: 'Senate Intelligence Committee', role: 'Chair (2015-2020)', type: 'agency' },
@@ -1298,7 +1298,7 @@ const profiles: Record<string, IndividualProfile> = {
       'NO PROSECUTION: DOJ declined to charge despite evidence',
     ],
     charges: [
-      { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading - sold stock on material nonpublic information', category: 'Not prosecuted' },
+      { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading, sold stock on material nonpublic information', category: 'Not prosecuted' },
     ],
     relatedInvestigations: [
       { title: 'Securities & Market Fraud', slug: 'securities-fraud', severity: 'critical' },
@@ -1317,7 +1317,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'DOJ Investigation Records', url: 'https://scholar.google.com/scholar?q=DOJ%20Investigation%20Records', date: '2020' },
       { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1344,7 +1344,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'June 10, 1951',
     birthPlace: 'New York, USA',
     netWorth: 'Undisclosed',
-    education: ['M.D. - Georgetown University School of Medicine (1977)', 'B.S. - Georgetown University', 'Walter Reed Army Institute of Research fellowship'],
+    education: ['M.D., Georgetown University School of Medicine (1977)', 'B.S., Georgetown University', 'Walter Reed Army Institute of Research fellowship'],
     affiliations: [
       { name: 'Centers for Disease Control and Prevention', role: 'Director (2018-2021)', type: 'agency' },
       { name: 'University of Maryland School of Medicine', role: 'Professor, Institute of Human Virology', type: 'organization' },
@@ -1367,9 +1367,9 @@ const profiles: Record<string, IndividualProfile> = {
       'EXCESS DEATH TOLL: Over 400,000 Americans died of COVID during his CDC tenure',
     ],
     charges: [
-      { statute: '18 U.S.C. § 1001', description: 'False Statements - Potential misrepresentation of testing capabilities', category: 'Federal' },
-      { statute: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices - Allowing political interference in scientific guidance', category: 'Federal' },
-      { statute: 'Nuremberg Code Principle I', description: 'Informed Consent - Testing delays deprived public of information', category: 'International' },
+      { statute: '18 U.S.C. § 1001', description: 'False Statements, Potential misrepresentation of testing capabilities', category: 'Federal' },
+      { statute: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices, Allowing political interference in scientific guidance', category: 'Federal' },
+      { statute: 'Nuremberg Code Principle I', description: 'Informed Consent, Testing delays deprived public of information', category: 'International' },
       { statute: '42 U.S.C. § 247d', description: 'Public Health Emergency Response Failures', category: 'Federal' },
     ],
     relatedInvestigations: [
@@ -1403,9 +1403,9 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'CDC COVID-19 Response Timeline', url: 'https://www.cdc.gov/museum/timeline/covid19.html', date: '2020-2021' },
       { title: 'House Select Subcommittee on Coronavirus Crisis Reports', url: 'https://web.archive.org/web/2024/https://coronavirus.house.gov/', date: '2020-2022' },
       { title: 'Redfield CNN Lab Leak Interview', url: 'https://cnn.com/2021/03/26/politics/cdc-director-robert-redfield-coronavirus-origin/index.html', date: '2021' },
-      { title: 'Science Magazine - CDC Testing Failures Analysis', url: 'https://scholar.google.com/scholar?q=Science%20Magazine%20-%20CDC%20Testing%20Failures%20Analysis', date: '2020' },
+      { title: 'Science Magazine, CDC Testing Failures Analysis', url: 'https://scholar.google.com/scholar?q=Science%20Magazine%20-%20CDC%20Testing%20Failures%20Analysis', date: '2020' },
       { title: 'GAO COVID-19 Response Reports', url: 'https://www.gao.gov/coronavirus', date: '2020-2022' },
-      { title: 'Washington Post - CDC Political Interference Investigation', url: 'https://www.washingtonpost.com/', date: '2020' },
+      { title: 'Washington Post, CDC Political Interference Investigation', url: 'https://www.washingtonpost.com/', date: '2020' },
     ],
     aliases: ['Dr. Redfield', 'CDC Director'],
     knownAssociates: [
@@ -1436,7 +1436,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: '1976',
     birthPlace: 'United States',
     netWorth: 'Undisclosed',
-    education: ['J.D. - George Washington University Law School', 'B.A. - Wheaton College'],
+    education: ['J.D., George Washington University Law School', 'B.A., Wheaton College'],
     affiliations: [
       { name: 'Office of Management and Budget', role: 'Director (2020-2021)', type: 'agency' },
       { name: 'Center for Renewing America', role: 'Founder & President', type: 'organization' },
@@ -1453,17 +1453,17 @@ const profiles: Record<string, IndividualProfile> = {
       'IMPOUNDMENT: Advocates illegal presidential impoundment of congressionally appropriated funds',
       'ELIMINATE EDUCATION DEPT: Project 2025 calls for abolishing Department of Education entirely',
       'GUT EPA: Plans to dramatically reduce environmental protections and climate action',
-      'ANTI-MUSLIM STATEMENTS: 2016 controversy over statements that Muslims"do not simply have a deficient theology"',
+      'ANTI-MUSLIM STATEMENTS: 2016 controversy over statements that Muslims "do not simply have a deficient theology"',
       'BUDGET MANIPULATION: Used OMB to withhold Ukraine aid during first impeachment scandal',
       'DEEP STATE NARRATIVE: Promotes conspiracy theory of permanent bureaucratic resistance to conservative agenda',
-      'CENTER FOR RENEWING AMERICA: Organization coordinates"war room"for implementing Project 2025',
+      'CENTER FOR RENEWING AMERICA: Organization coordinates "war room "for implementing Project 2025',
     ],
     charges: [
-      { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud United States - Project 2025 coordination', category: 'Federal' },
-      { statute: '2 U.S.C. § 684', description: 'Impoundment Control Act Violations - Illegal withholding of funds', category: 'Federal' },
-      { statute: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices - Schedule F politicization plan', category: 'Federal' },
-      { statute: 'U.S. Constitution Article I', description: 'Separation of Powers Violations - Unitary executive overreach', category: 'Constitutional' },
-      { statute: '18 U.S.C. § 595', description: 'Interference by Administrative Employees - Political coercion plans', category: 'Federal' },
+      { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud United States, Project 2025 coordination', category: 'Federal' },
+      { statute: '2 U.S.C. § 684', description: 'Impoundment Control Act Violations, Illegal withholding of funds', category: 'Federal' },
+      { statute: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices, Schedule F politicization plan', category: 'Federal' },
+      { statute: 'U.S. Constitution Article I', description: 'Separation of Powers Violations, Unitary executive overreach', category: 'Constitutional' },
+      { statute: '18 U.S.C. § 595', description: 'Interference by Administrative Employees, Political coercion plans', category: 'Federal' },
     ],
     relatedInvestigations: [
       { title: 'Project 2025 Authoritarian Blueprint', slug: 'project-2025', severity: 'critical' },
@@ -1488,7 +1488,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: 'January 2021', event: 'Leaves OMB after Biden inauguration' },
       { date: '2021', event: 'Founds Center for Renewing America' },
       { date: '2022-2023', event: 'Authors Project 2025 chapter on Executive Office of the President' },
-      { date: '2023', event: 'Project 2025"Mandate for Leadership"published' },
+      { date: '2023', event: 'Project 2025"Mandate for Leadership" published' },
       { date: '2024', event: 'Project 2025 becomes major campaign issue' },
       { date: '2024', event: 'Trump publicly distances from Project 2025 while advisors embrace it' },
       { date: '2025', event: 'Expected senior role in second Trump administration' },
@@ -1531,7 +1531,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: '1954',
     birthPlace: 'United States',
     netWorth: 'Undisclosed (University professor)',
-    education: ['Ph.D. in Microbiology and Immunology - North Carolina State University', 'Postdoctoral training - University of Southern California'],
+    education: ['Ph.D. in Microbiology and Immunology, North Carolina State University', 'Postdoctoral training, University of Southern California'],
     affiliations: [
       { name: 'University of North Carolina at Chapel Hill', role: 'Professor of Epidemiology (1986-present)', type: 'organization' },
       { name: 'Wuhan Institute of Virology', role: 'Research Collaborator', type: 'organization' },
@@ -1584,13 +1584,13 @@ const profiles: Record<string, IndividualProfile> = {
       { title: '2015 Nature Medicine Paper', url: 'https://www.nature.com/articles/nm.3985', date: '2015' },
       { title: 'NIH Grant Records', url: 'https://reporter.nih.gov/', date: 'Various' },
       { title: 'House Select Subcommittee Testimony', url: 'https://oversight.house.gov/', date: '2023' },
-      { title: 'MIT Technology Review - Baric Profile', url: 'https://scholar.google.com/scholar?q=MIT%20Technology%20Review%20-%20Baric%20Profile', date: '2021' },
+      { title: 'MIT Technology Review, Baric Profile', url: 'https://scholar.google.com/scholar?q=MIT%20Technology%20Review%20-%20Baric%20Profile', date: '2021' },
       { title: 'UNC Research Publications', url: 'https://sph.unc.edu/adv_profile/ralph-s-baric-phd/', date: 'Various' },
       { title: 'Gain of Function Research Papers', url: 'https://scholar.google.com/scholar?q=Gain%20of%20Function%20Research%20Papers', date: '2008-2019' },
     ],
     aliases: ['Dr. Baric', 'Coronavirus Pioneer'],
     knownAssociates: [
-      { name: 'Shi Zhengli', relationship: 'Wuhan"Bat Woman,"co-authored 2015 chimeric virus paper', href: '/entities/individuals/shi-zhengli' },
+      { name: 'Shi Zhengli', relationship: 'Wuhan "Bat Woman," co-authored 2015 chimeric virus paper', href: '/entities/individuals/shi-zhengli' },
       { name: 'Peter Daszak', relationship: 'EcoHealth Alliance, joint research', href: '/entities/individuals/peter-daszak' },
       { name: 'Francis Collins', relationship: 'NIH Director, grant oversight', href: '/entities/individuals/francis-collins' },
       { name: 'Anthony Fauci', relationship: 'NIAID Director, funding source', href: '/entities/individuals/anthony-fauci' },
@@ -1628,9 +1628,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1658,9 +1658,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1688,9 +1688,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1718,9 +1718,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1748,9 +1748,9 @@ const profiles: Record<string, IndividualProfile> = {
       'Escaped accountability through special counsel investigation',
     ],
     charges: [
-      { statute: 'Intelligence Identities Protection Act - 50 U.S.C. § 421', description: 'Disclosed identity of covert CIA officer', category: 'National Security' },
-      { statute: 'Espionage Act - 18 U.S.C. § 793', description: 'Leaked classified information about intelligence operative', category: 'National Security' },
-      { statute: 'Obstruction of Justice - 18 U.S.C. § 1503', description: 'Potential concealment during investigation', category: 'Obstruction' },
+      { statute: 'Intelligence Identities Protection Act, 50 U.S.C. § 421', description: 'Disclosed identity of covert CIA officer', category: 'National Security' },
+      { statute: 'Espionage Act, 18 U.S.C. § 793', description: 'Leaked classified information about intelligence operative', category: 'National Security' },
+      { statute: 'Obstruction of Justice, 18 U.S.C. § 1503', description: 'Potential concealment during investigation', category: 'Obstruction' },
     ],
     relatedInvestigations: [
       { title: 'Plame Leak Scandal', slug: 'plame-leak', severity: 'high' },
@@ -1814,14 +1814,14 @@ const profiles: Record<string, IndividualProfile> = {
       'IGNORED WARNINGS: Snyder\'s administration received numerous warnings about water quality and lead levels. Internal emails show officials knew of problems while publicly claiming the water was safe.',
       'COVER-UP: The Michigan Department of Environmental Quality, under Snyder\'s administration, manipulated testing protocols to hide lead contamination. Officials attacked and discredited researchers who exposed the crisis.',
       'LEGIONNAIRES\' OUTBREAK: At least 12 people died from Legionnaires\' disease caused by the contaminated water. Snyder\'s administration initially concealed the outbreak.',
-      'DELAYED RESPONSE: Despite knowing of lead contamination, Snyder did not declare a state of emergency until January 2016 - nearly two years after the water switch.',
+      'DELAYED RESPONSE: Despite knowing of lead contamination, Snyder did not declare a state of emergency until January 2016, nearly two years after the water switch.',
       'CRIMINAL CHARGES: In January 2021, Snyder was charged with two counts of willful neglect of duty (misdemeanors). He was the first Michigan governor charged with crimes related to actions in office.',
       'CHARGES DROPPED: In June 2022, the Michigan Supreme Court ruled the indictments were invalid due to procedural issues with the one-person grand jury. Charges against Snyder and other officials were dismissed.',
       'NO ACCOUNTABILITY: Despite poisoning 100,000 people, Snyder faces no criminal consequences. The Flint water crisis exemplifies environmental racism and official impunity.',
     ],
     charges: [
-      { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Other Inhumane Acts: Actions causing great suffering and serious injury to body - lead poisoning of 100,000 people', category: 'International Criminal Law' },
-      { statute: 'MCL 750.478', description: 'Willful Neglect of Duty: Charged (2 counts) - dismissed on procedural grounds', category: 'State Criminal Law' },
+      { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity, Other Inhumane Acts: Actions causing great suffering and serious injury to body, lead poisoning of 100,000 people', category: 'International Criminal Law' },
+      { statute: 'MCL 750.478', description: 'Willful Neglect of Duty: Charged (2 counts), dismissed on procedural grounds', category: 'State Criminal Law' },
       { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law: Potential federal charge for depriving residents of safe water', category: 'Federal Civil Rights' },
     ],
     relatedInvestigations: [
@@ -1842,7 +1842,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Michigan Civil Rights Commission - Flint Report', url: 'https://www.ignet.gov/', date: '2017' },
+      { title: 'Michigan Civil Rights Commission, Flint Report', url: 'https://www.ignet.gov/', date: '2017' },
       { title: 'Snyder administration emails (FOIA)', url: 'https://www.courtlistener.com/', date: 'Various' },
       { title: 'Criminal indictment', url: 'https://www.justice.gov/', date: '2021' },
       { title: 'Michigan Supreme Court ruling', url: 'https://www.courtlistener.com/', date: '2022' },
@@ -1868,15 +1868,15 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'CIA Director (1966-1973)',
     role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress about Chile',
     riskLevel: 'critical',
-    description: 'Richard Helms served as CIA Director from 1966-1973 and ordered the destruction of MKUltra records to prevent accountability for human experimentation crimes. He lied to Congress about CIA involvement in the Chilean coup and was convicted of perjury - receiving only a $2,000 fine. He oversaw continued mind control experiments, assassination programs, and domestic surveillance while destroying evidence of the CIA\'s worst crimes.',
+    description: 'Richard Helms served as CIA Director from 1966-1973 and ordered the destruction of MKUltra records to prevent accountability for human experimentation crimes. He lied to Congress about CIA involvement in the Chilean coup and was convicted of perjury, receiving only a $2,000 fine. He oversaw continued mind control experiments, assassination programs, and domestic surveillance while destroying evidence of the CIA\'s worst crimes.',
     education: [],
     affiliations: [
       { name: 'CIA', role: 'Director (1966-1973)', type: 'agency' },
     ],
     controversies: [
       'MKULTRA DESTRUCTION: In 1973, as the Watergate scandal threatened to expose CIA activities, Helms ordered the destruction of all MKUltra files. Most were shredded, eliminating evidence of experiments on thousands of unwitting Americans.',
-      'CHILE PERJURY: Helms testified to Congress that the CIA was not involved in the 1973 coup against Salvador Allende. This was a deliberate lie. He was later convicted of failing to testify"fully and completely."',
-      'MINIMAL PUNISHMENT: Despite lying to Congress about operations that overthrew a democracy and killed thousands, Helms received only a $2,000 fine and a two-year suspended sentence. He reportedly considered the conviction a"badge of honor."',
+      'CHILE PERJURY: Helms testified to Congress that the CIA was not involved in the 1973 coup against Salvador Allende. This was a deliberate lie. He was later convicted of failing to testify "fully and completely."',
+      'MINIMAL PUNISHMENT: Despite lying to Congress about operations that overthrew a democracy and killed thousands, Helms received only a $2,000 fine and a two-year suspended sentence. He reportedly considered the conviction a "badge of honor."',
       'ASSASSINATION PROGRAMS: As Director, Helms oversaw CIA assassination programs against foreign leaders including Fidel Castro. He managed plausible deniability for the Agency.',
       'DOMESTIC SURVEILLANCE: Operation CHAOS, run under Helms, spied on American antiwar activists. This violated the CIA\'s charter prohibiting domestic operations.',
       'WATERGATE CONNECTIONS: Helms navigated Watergate carefully, refusing to let the CIA take blame for the burglary while hiding the Agency\'s own secrets.',
@@ -1884,7 +1884,7 @@ const profiles: Record<string, IndividualProfile> = {
       'PROTECTED REPUTATION: Despite destroying evidence of American citizens being tortured and drugged, Helms maintained his reputation in Washington. He was welcomed in elite circles until his death.',
     ],
     charges: [
-      { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity - Torture: Oversaw continuation of MKUltra experiments', category: 'International Criminal Law' },
+      { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity, Torture: Oversaw continuation of MKUltra experiments', category: 'International Criminal Law' },
       { statute: 'Rome Statute Article 70(1)(c)', description: 'Obstruction of Justice: Destroyed evidence to prevent accountability', category: 'International Criminal Law' },
       { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Directed operations to overthrow the Chilean government', category: 'International Criminal Law' },
       { statute: '18 U.S.C. § 1621', description: 'Perjury: Convicted for lying to Congress about Chile', category: 'Federal Crimes' },
@@ -1938,25 +1938,25 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Secretary of Defense (1961-1968)',
     role: 'Defense Secretary who lied about Gulf of Tonkin and presided over Vietnam escalation',
     riskLevel: 'critical',
-    description: 'Robert McNamara served as Secretary of Defense under Kennedy and Johnson, presiding over the massive escalation of the Vietnam War. He lied to Congress and the public about the Gulf of Tonkin incident and the war\'s progress while privately doubting it could be won. His"body count"metrics and bombing campaigns killed millions. Decades later, he admitted"We were wrong, terribly wrong"- but faced no accountability.',
+    description: 'Robert McNamara served as Secretary of Defense under Kennedy and Johnson, presiding over the massive escalation of the Vietnam War. He lied to Congress and the public about the Gulf of Tonkin incident and the war\'s progress while privately doubting it could be won. His "body count "metrics and bombing campaigns killed millions. Decades later, he admitted "We were wrong, terribly wrong," but faced no accountability.',
     education: [],
     affiliations: [
       { name: 'Department of Defense', role: 'Secretary (1961-1968)', type: 'agency' },
       { name: 'World Bank', role: 'President (1968-1981)', type: 'organization' },
     ],
     controversies: [
-      'TONKIN LIES: McNamara told Congress the Gulf of Tonkin attacks were"unequivocal"and"unprovoked."Both claims were false. The second attack never happened, and the U.S. had been conducting covert operations against North Vietnam.',
+      'TONKIN LIES: McNamara told Congress the Gulf of Tonkin attacks were "unequivocal "and "unprovoked."Both claims were false. The second attack never happened, and the U.S. had been conducting covert operations against North Vietnam.',
       'WAR ESCALATION: McNamara oversaw the buildup from 16,000 advisors to over 500,000 troops. He approved massive bombing campaigns that dropped more tonnage than all of WWII.',
-      'BODY COUNT: McNamara\'s Pentagon measured success through"body counts"and"kill ratios"- dehumanizing metrics that incentivized civilian casualties and false reporting.',
+      'BODY COUNT: McNamara\'s Pentagon measured success through "body counts "and "kill ratios," dehumanizing metrics that incentivized civilian casualties and false reporting.',
       'PRIVATE DOUBTS: McNamara privately doubted the war could be won as early as 1965-1966, yet continued publicly supporting escalation. The Pentagon Papers revealed the depth of internal pessimism.',
       'AGENT ORANGE: Under McNamara, the military sprayed millions of gallons of Agent Orange over Vietnam, causing cancer, birth defects, and environmental devastation that continues today.',
       'LEAVING OFFICE: McNamara left the Pentagon in 1968 and became World Bank president. He never faced consequences for the war\'s deceptions.',
-      'LATE ADMISSION: In his 1995 memoir and 2003 documentary"The Fog of War,"McNamara admitted the war was wrong."We were wrong, terribly wrong. We owe it to future generations to explain why."But he stopped short of calling it criminal.',
+      'LATE ADMISSION: In his 1995 memoir and 2003 documentary "The Fog of War,"McNamara admitted the war was wrong."We were wrong, terribly wrong. We owe it to future generations to explain why."But he stopped short of calling it criminal.',
       'NO ACCOUNTABILITY: Despite his role in a war that killed millions based on lies, McNamara lived comfortably until age 93. His late-life remorse changed nothing for the dead.',
     ],
     charges: [
-      { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes - Attack on Civilians: Bombing campaigns killed hundreds of thousands of civilians', category: 'International Criminal Law' },
-      { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crimes - Causing Widespread Environmental Damage: Agent Orange spraying devastated Vietnam\'s environment', category: 'International Criminal Law' },
+      { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes, Attack on Civilians: Bombing campaigns killed hundreds of thousands of civilians', category: 'International Criminal Law' },
+      { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crimes, Causing Widespread Environmental Damage: Agent Orange spraying devastated Vietnam\'s environment', category: 'International Criminal Law' },
       { statute: '18 U.S.C. § 1001', description: 'False Statements: Lied to Congress about Tonkin incident', category: 'Federal Crimes' },
       { statute: '18 U.S.C. § 1621', description: 'Perjury: False testimony under oath', category: 'Federal Crimes' },
     ],
@@ -1971,8 +1971,8 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1965-1968', event: 'Oversees massive Vietnam escalation' },
       { date: 'February 29, 1968', event: 'Leaves Pentagon' },
       { date: '1968-1981', event: 'World Bank president' },
-      { date: '1995', event: 'Publishes"In Retrospect"admitting errors' },
-      { date: '2003', event: '"Fog of War"documentary' },
+      { date: '1995', event: 'Publishes "In Retrospect" admitting errors' },
+      { date: '2003', event: '"Fog of War" documentary' },
       { date: 'July 6, 2009', event: 'Dies in Washington, D.C., age 93' },
     ],
     socialMedia: [],
@@ -2003,7 +2003,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'NSA Whistleblower',
     role: 'Leaked evidence of Russian election interference, imprisoned',
     riskLevel: 'low',
-    description: 'Reality Winner was an NSA contractor who leaked a classified report showing Russian interference in the 2016 election to The Intercept. She was sentenced to over 5 years in prison - the longest sentence ever for an unauthorized disclosure to the media - while those who benefited from Russian interference faced no consequences.',
+    description: 'Reality Winner was an NSA contractor who leaked a classified report showing Russian interference in the 2016 election to The Intercept. She was sentenced to over 5 years in prison (the longest sentence ever for an unauthorized disclosure to the media) while those who benefited from Russian interference faced no consequences.',
     birthDate: 'December 4, 1991',
     birthPlace: 'Alice, Texas',
     education: ['Air Force training'],
@@ -2013,7 +2013,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'NSA contractor who leaked classified report proving Russian cyberattacks on U.S. election infrastructure',
-      'Sentenced to 5 years and 3 months - the longest sentence ever for an unauthorized disclosure to media',
+      'Sentenced to 5 years and 3 months, the longest sentence ever for an unauthorized disclosure to media',
       'Her leak confirmed what intelligence agencies were warning about Russian interference in 2016 election',
     ],
     charges: [],
@@ -2031,9 +2031,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'The Intercept - NSA report on Russian election hacking', url: 'https://theintercept.com/', date: '2017' },
+      { title: 'The Intercept, NSA report on Russian election hacking', url: 'https://theintercept.com/', date: '2017' },
       { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2088,7 +2088,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Sandy Hook Parent',
  role: 'Father of Sandy Hook victim targeted by conspiracy theorists',
  riskLevel: 'low',
- description: 'Robbie Parker is the father of Emilie Parker, one of the 20 children killed in the Sandy Hook Elementary School shooting. His emotional press conference became a target of conspiracy theorists who claimed he was a"crisis actor."He has spoken out against disinformation.',
+ description: 'Robbie Parker is the father of Emilie Parker, one of the 20 children killed in the Sandy Hook Elementary School shooting. His emotional press conference became a target of conspiracy theorists who claimed he was a "crisis actor."He has spoken out against disinformation.',
  birthDate: 'Unknown',
  birthPlace: 'Unknown',
  education: [],
@@ -2132,7 +2132,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Testified before 9/11 Commission that Bush administration failed to act on urgent al-Qaeda warnings',
-      'Publicly apologized to 9/11 families saying"your government failed you"',
+      'Publicly apologized to 9/11 families saying "your government failed you"',
       'Warned Condoleezza Rice about imminent al-Qaeda attack in months before September 11',
     ],
     charges: [],
@@ -2236,7 +2236,7 @@ const profiles: Record<string, IndividualProfile> = {
     description: 'Ryan McCarthy served as Secretary of the Army from September 2019 to January 2021. He is a key figure in the delayed National Guard response to the January 6 Capitol attack. The Guard took over 3 hours to deploy after initial requests, raising questions about why military assistance was withheld during the insurrection. McCarthy approved the eventual deployment but the delay allowed the mob to breach the Capitol for hours.',
     birthDate: 'February 1975',
     birthPlace: 'Illinois, USA',
-    education: ['Virginia Military Institute', 'Georgetown University - MBA'],
+    education: ['Virginia Military Institute', 'Georgetown University, MBA'],
     affiliations: [
       { name: 'Department of the Army', role: 'Secretary (2019-2021)', type: 'agency' },
       { name: 'Department of Defense', role: 'Under Secretary (2017-2019)', type: 'agency' },
@@ -2294,8 +2294,8 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'September 26, 1958',
  birthPlace: 'Athens, Greece',
  education: [
- 'Yale University - BA',
- 'Harvard University - PhD',
+ 'Yale University, BA',
+ 'Harvard University, PhD',
  ],
  affiliations: [
  { name: 'Brookings Institution', role: 'Senior Fellow', type: 'organization' },
@@ -2341,7 +2341,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  controversies: [
  'OPIOID CRISIS: Pushed OxyContin sales knowing addiction risk',
- 'DENIAL:"We have to hammer on abusers"not addiction',
+ 'DENIAL:"We have to hammer on abusers "not addiction',
  'WEALTH EXTRACTION: Family took $10+ billion from Purdue',
  'BANKRUPTCY SHIELD: Used bankruptcy to avoid accountability',
  ],
@@ -2432,7 +2432,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Aviation Safety Official',
  role: 'Former NTSB Chairman',
  riskLevel: 'medium',
- description: 'Robert Sumwalt served as Chairman of the National Transportation Safety Board (NTSB) from 2017 to 2021, including during the 737 MAX crashes. A former airline pilot, he led NTSB investigations and publicly called for improvements in aviation safety. However, the NTSB is an advisory body with no enforcement power - the FAA frequently ignores its recommendations. Sumwalt advocated for reforms but some critics say he could have been more forceful.',
+ description: 'Robert Sumwalt served as Chairman of the National Transportation Safety Board (NTSB) from 2017 to 2021, including during the 737 MAX crashes. A former airline pilot, he led NTSB investigations and publicly called for improvements in aviation safety. However, the NTSB is an advisory body with no enforcement power, the FAA frequently ignores its recommendations. Sumwalt advocated for reforms but some critics say he could have been more forceful.',
  birthDate: '1959',
  birthPlace: 'United States',
  education: ['Embry-Riddle Aeronautical University'],
@@ -2510,9 +2510,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2568,9 +2568,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2598,9 +2598,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2628,9 +2628,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2658,9 +2658,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2688,9 +2688,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2718,9 +2718,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2751,9 +2751,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2782,9 +2782,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2812,9 +2812,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2845,9 +2845,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2857,7 +2857,7 @@ const profiles: Record<string, IndividualProfile> = {
  'ramon-laguarta': {
  name: 'Ramon Laguarta',
  title: 'PepsiCo CEO',
- role: 'PepsiCo CEO - Health Crisis, Plastic Pollution',
+ role: 'PepsiCo CEO, Health Crisis, Plastic Pollution',
  riskLevel: 'high',
  description: 'Ramon Laguarta leads PepsiCo, one of the largest contributors to the plastic pollution crisis and obesity epidemic. The company has been accused of deceptive marketing, funding research to downplay health risks of sugary drinks, and environmental destruction.',
  birthDate: '1964',
@@ -2886,15 +2886,15 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Ramon Laguarta', url: 'https://en.wikipedia.org/wiki/Ramon_Laguarta' }, { title: 'Bloomberg: Ramon Laguarta', url: 'https://www.bloomberg.com/' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
  knownAssociates: [
- { name: 'James Quincey', relationship: 'Coca-Cola CEO - primary beverage rival', href: '/entities/individuals/james-quincey' },
- { name: 'Chris Kempczinski', relationship: 'McDonald\'s CEO - PepsiCo major restaurant supplier', href: '/entities/individuals/chris-kempczinski' }
+ { name: 'James Quincey', relationship: 'Coca-Cola CEO, primary beverage rival', href: '/entities/individuals/james-quincey' },
+ { name: 'Chris Kempczinski', relationship: 'McDonald\'s CEO, PepsiCo major restaurant supplier', href: '/entities/individuals/chris-kempczinski' }
  ],
 
  },
  'roger-ailes': {
  name: 'Roger Ailes',
  title: 'Former Fox News CEO',
- role: 'Fox News Founder - Sexual Harassment',
+ role: 'Fox News Founder, Sexual Harassment',
  riskLevel: 'critical',
  description: 'Roger Ailes founded Fox News and built it into a powerful conservative media force. He was forced out after numerous women, including Gretchen Carlson and Megyn Kelly, accused him of sexual harassment. Fox News paid over $50 million in settlements. He died in 2017.',
  birthDate: 'May 15, 1940',
@@ -2954,9 +2954,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2985,9 +2985,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3015,9 +3015,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3027,7 +3027,7 @@ const profiles: Record<string, IndividualProfile> = {
  'r-kelly': {
  name: 'R. Kelly',
  title: 'Convicted Sex Trafficker',
- role: 'Singer - Child Sex Trafficking CONVICTED',
+ role: 'Singer, Child Sex Trafficking CONVICTED',
  riskLevel: 'critical',
  description: 'R. Kelly (Robert Kelly) was convicted of racketeering and sex trafficking in 2021 and child pornography in 2022. He used his fame to recruit underage girls and women for decades, subjecting them to sexual abuse while the music industry protected him. He was sentenced to 30 years.',
  birthDate: 'January 8, 1967',
@@ -3046,7 +3046,7 @@ const profiles: Record<string, IndividualProfile> = {
  '30+ YEAR SENTENCE: Die-in-prison sentence',
  ],
  charges: [
- { statute: '18 U.S.C. � 1962', description: 'RICO - Sex trafficking enterprise', category: 'CONVICTED' },
+ { statute: '18 U.S.C. � 1962', description: 'RICO, Sex trafficking enterprise', category: 'CONVICTED' },
  { statute: '18 U.S.C. � 1591', description: 'Sex trafficking of minors', category: 'CONVICTED' },
  { statute: '18 U.S.C. � 2251', description: 'Child pornography production', category: 'CONVICTED' },
  ],
@@ -3057,7 +3057,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'January 8, 1967', event: 'Born in Chicago' },
  { date: '1994', event: 'Illegally marries Aaliyah, age 15' },
  { date: '2008', event: 'Acquitted in first child porn trial' },
- { date: '2019', event: '"Surviving R. Kelly"documentary' },
+ { date: '2019', event: '"Surviving R. Kelly" documentary' },
  { date: '2021', event: 'Convicted of sex trafficking' },
  { date: '2022', event: 'Convicted of child porn, sentenced to 30 years' },
  ],
@@ -3089,9 +3089,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3101,7 +3101,7 @@ const profiles: Record<string, IndividualProfile> = {
  'reid-hoffman': {
  name: 'Reid Hoffman',
  title: 'Billionaire Investor',
- role: 'LinkedIn Founder - Epstein Connections, Political Donor',
+ role: 'LinkedIn Founder, Epstein Connections, Political Donor',
  riskLevel: 'high',
  description: 'Reid Hoffman is a billionaire LinkedIn co-founder with troubling connections to Jeffrey Epstein. He admitted meeting with Epstein multiple times and apologized for the relationship. He is a major political donor who funded opposition research and has been accused of funding disinformation campaigns.',
  birthDate: 'August 5, 1967',
@@ -3144,9 +3144,9 @@ const profiles: Record<string, IndividualProfile> = {
  'robert-bowers': {
  name: 'Robert Bowers',
  title: 'Convicted Mass Shooter',
- role: 'Tree of Life Synagogue Massacre - Killed 11 CONVICTED/DEATH ROW',
+ role: 'Tree of Life Synagogue Massacre, Killed 11 CONVICTED/DEATH ROW',
  riskLevel: 'critical',
- description: 'Robert Bowers is the antisemitic terrorist who murdered 11 Jewish worshippers at the Tree of Life synagogue in Pittsburgh in 2018. It was the deadliest attack on Jews in American history. He posted antisemitic content online before the attack, blaming Jews for helping immigrant"invaders."',
+ description: 'Robert Bowers is the antisemitic terrorist who murdered 11 Jewish worshippers at the Tree of Life synagogue in Pittsburgh in 2018. It was the deadliest attack on Jews in American history. He posted antisemitic content online before the attack, blaming Jews for helping immigrant "invaders."',
  birthDate: 'September 4, 1972',
  birthPlace: 'Pennsylvania',
  education: ['Unknown'],
@@ -3161,7 +3161,7 @@ const profiles: Record<string, IndividualProfile> = {
  'DEATH PENALTY: Sentenced to death',
  ],
  charges: [
- { statute: '18 U.S.C. � 247', description: 'Obstruction of religious practice resulting in death', category: 'CONVICTED - DEATH' },
+ { statute: '18 U.S.C. � 247', description: 'Obstruction of religious practice resulting in death', category: 'CONVICTED, DEATH' },
  { statute: '18 U.S.C. � 249', description: 'Hate crime resulting in death', category: 'CONVICTED' },
  { statute: '18 U.S.C. � 924(c)', description: 'Use of firearm in violent crime', category: 'CONVICTED' },
  ],
@@ -3203,9 +3203,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3215,7 +3215,7 @@ const profiles: Record<string, IndividualProfile> = {
   'riley-june-williams': {
     name: 'Riley June Williams',
     title: 'Convicted January 6 Rioter',
-    role: 'Stole Pelosi Laptop - Planned to Sell to Russia CONVICTED',
+    role: 'Stole Pelosi Laptop, Planned to Sell to Russia CONVICTED',
     riskLevel: 'high',
     description: 'Riley June Williams is the woman who stole a laptop from Nancy Pelosi\'s office during the January 6 attack. According to an ex-boyfriend, she planned to sell it to Russian intelligence through a contact. The laptop has never been recovered.',
     birthDate: '2000',
@@ -3231,7 +3231,7 @@ const profiles: Record<string, IndividualProfile> = {
       'LAPTOP MISSING: Never recovered',
     ],
     charges: [
-      { statute: '18 U.S.C. � 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED - 3 YEARS' },
+      { statute: '18 U.S.C. � 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED, 3 YEARS' },
       { statute: '18 U.S.C. � 641', description: 'Theft of government property', category: 'CONVICTED' },
       { statute: '18 U.S.C. � 1752', description: 'Unlawful entry', category: 'CONVICTED' },
     ],
@@ -3279,9 +3279,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3312,9 +3312,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3346,9 +3346,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3377,9 +3377,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3410,9 +3410,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3441,9 +3441,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3474,9 +3474,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3505,9 +3505,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3685,7 +3685,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Pentagon officer who planned the bombing missions under Operation Menu' },
       { date: '2026-03-05', event: 'Court filing analysis reveals Ray Sitton referenced in 8 active litigation proceedings' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Ray Sitton' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Ray Sitton' },
     ],
     socialMedia: [],
     sources: [
@@ -3726,7 +3726,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Ray Wood', url: 'https://en.wikipedia.org/wiki/Ray_Wood', date: '' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
       { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
@@ -3816,14 +3816,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as CEO of Enron International who oversaw disastrous Dabhol Power project and overseas expansion' },
-      { date: '2026-03-05', event: 'Network analysis completed — Rebecca Mark connected to 13 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Rebecca Mark connected to 13 entities in the accountability database' },
       { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Rebecca Mark to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Rebecca Mark', url: 'https://en.wikipedia.org/wiki/Rebecca_Mark', date: '' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3853,8 +3853,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Water protector arrested on disputed weapons charge; sentenced to federal prison' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Red Fawn Fallis' },
-      { date: '2026-03-05', event: 'Network analysis completed — Red Fawn Fallis connected to 18 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Red Fawn Fallis' },
+      { date: '2026-03-05', event: 'Network analysis completed, Red Fawn Fallis connected to 18 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
@@ -3895,10 +3895,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'rene-schneider': {
  name: 'René Schneider',
- title: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970 - the Agency provided weapons and $50,000 to the plotters',
- role: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970 - the Agency provided weapons and $50,000 to the plotters',
+ title: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970, the Agency provided weapons and $50,000 to the plotters',
+ role: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970, the Agency provided weapons and $50,000 to the plotters',
  riskLevel: 'high',
- description: 'René Schneider is documented in ArkHive investigations for their role as Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970 - the Agency provided weapons and $50,000 to the plotters.',
+ description: 'René Schneider is documented in ArkHive investigations for their role as Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970, the Agency provided weapons and $50,000 to the plotters.',
  education: [],
  affiliations: [
  { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
@@ -3921,10 +3921,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'ricardo-sanchez': {
  name: 'Lt. Gen. Ricardo Sanchez',
- title: 'Commander of coalition forces in Iraq who authorized interrogation techniques at Abu Ghraib beyond those approved by the Army Field Manual - including the use of dogs, stress positions, and sleep deprivation. He was never charged.',
- role: 'Commander of coalition forces in Iraq who authorized interrogation techniques at Abu Ghraib beyond those approved by the Army Field Manual - including the use of dogs, stress positions, and sleep deprivation. He was never charged.',
+ title: 'Commander of coalition forces in Iraq who authorized interrogation techniques at Abu Ghraib beyond those approved by the Army Field Manual, including the use of dogs, stress positions, and sleep deprivation. He was never charged.',
+ role: 'Commander of coalition forces in Iraq who authorized interrogation techniques at Abu Ghraib beyond those approved by the Army Field Manual, including the use of dogs, stress positions, and sleep deprivation. He was never charged.',
  riskLevel: 'high',
- description: 'Lt. Gen. Ricardo Sanchez is documented in ArkHive investigations for their role as Commander of coalition forces in Iraq who authorized interrogation techniques at Abu Ghraib beyond those approved by the Army Field Manual - including the use of dogs, stress positions, and sleep deprivation. He was never charged..',
+ description: 'Lt. Gen. Ricardo Sanchez is documented in ArkHive investigations for their role as Commander of coalition forces in Iraq who authorized interrogation techniques at Abu Ghraib beyond those approved by the Army Field Manual, including the use of dogs, stress positions, and sleep deprivation. He was never charged..',
  education: [],
  affiliations: [
  { name: 'United States Military', role: 'Service Member', type: 'agency' },
@@ -4004,10 +4004,10 @@ const profiles: Record<string, IndividualProfile> = {
 
  'richard-henry-pratt': {
  name: 'Richard Henry Pratt',
- title: 'U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school system. Coined the phrase"Kill the Indian, save the man"- the guiding philosophy behind forcibly removing over 100,000 Native children from their families to erase their cultures.',
- role: 'U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school system. Coined the phrase"Kill the Indian, save the man"- the guiding philosophy behind forcibly removing over 100,000 Native children from their families to erase their cultures.',
+ title: 'U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school system. Coined the phrase "Kill the Indian, save the man," the guiding philosophy behind forcibly removing over 100,000 Native children from their families to erase their cultures.',
+ role: 'U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school system. Coined the phrase "Kill the Indian, save the man," the guiding philosophy behind forcibly removing over 100,000 Native children from their families to erase their cultures.',
  riskLevel: 'high',
- description: 'Richard Henry Pratt is documented in ArkHive investigations for their role as U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school system. Coined the phrase"Kill the Indian, save the man"- the guiding philosophy behind forcibly removing over 100,000 Native children from their families to erase their cultures..',
+ description: 'Richard Henry Pratt is documented in ArkHive investigations for their role as U.S. Army Captain and founder of the Carlisle Indian Industrial School (1879), the model for the Indian boarding school system. Coined the phrase "Kill the Indian, save the man," the guiding philosophy behind forcibly removing over 100,000 Native children from their families to erase their cultures..',
  education: [],
  affiliations: [],
  controversies: [
@@ -4052,7 +4052,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Richard Rogers', url: 'https://en.wikipedia.org/wiki/Richard_Rogers', date: '' },
       { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4113,8 +4113,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Richard Schwartz', url: 'https://en.wikipedia.org/wiki/Richard_Schwartz', date: '' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4168,13 +4168,13 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '2025', event: 'Coordinates between Project 2025 policy teams and potential administration appointees..' },
-      { date: '2026-03-05', event: 'Network analysis completed — Rick Dearborn connected to 7 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Rick Dearborn connected to 7 entities in the accountability database' },
       { date: '2026-03-05', event: 'Court filing analysis reveals Rick Dearborn referenced in 5 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Rick Dearborn', url: 'https://en.wikipedia.org/wiki/Rick_Dearborn', date: '' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
       { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
     ],
     aliases: [],
@@ -4209,10 +4209,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'rj-lehmann': {
     name: 'R.J. Lehmann',
-    title: 'Patient advocates who documented hospital chargemaster pricing - $25 aspirin, $700 saline bags',
-    role: 'Patient advocates who documented hospital chargemaster pricing - $25 aspirin, $700 saline bags',
+    title: 'Patient advocates who documented hospital chargemaster pricing, $25 aspirin, $700 saline bags',
+    role: 'Patient advocates who documented hospital chargemaster pricing, $25 aspirin, $700 saline bags',
     riskLevel: 'high',
-    description: 'R.J. Lehmann is documented in ArkHive investigations for their role as Patient advocates who documented hospital chargemaster pricing - $25 aspirin, $700 saline bags.',
+    description: 'R.J. Lehmann is documented in ArkHive investigations for their role as Patient advocates who documented hospital chargemaster pricing, $25 aspirin, $700 saline bags.',
     education: [],
     affiliations: [
       { name: 'Civil Society', role: 'Activist', type: 'organization' },
@@ -4227,7 +4227,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Medical Bankruptcy', slug: 'medical-bankruptcy', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as Patient advocates who documented hospital chargemaster pricing - $25 aspirin, $700 saline bags' },
+      { date: 'Ongoing', event: 'Active in role as Patient advocates who documented hospital chargemaster pricing, $25 aspirin, $700 saline bags' },
       { date: '2026-03-05', event: 'Cross-referencing R.J. Lehmann against congressional hearing transcripts and lobbying disclosure databases' },
       { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with R.J. Lehmann' },
     ],
@@ -4245,10 +4245,10 @@ const profiles: Record<string, IndividualProfile> = {
 
  'rob-bilott': {
  name: 'Rob Bilott',
- title: 'Attorney - Exposed DuPont\'s PFAS contamination of drinking water in Parkersburg, WV',
- role: 'Attorney - Exposed DuPont\'s PFAS contamination of drinking water in Parkersburg, WV',
+ title: 'Attorney, Exposed DuPont\'s PFAS contamination of drinking water in Parkersburg, WV',
+ role: 'Attorney, Exposed DuPont\'s PFAS contamination of drinking water in Parkersburg, WV',
  riskLevel: 'high',
- description: 'Rob Bilott is documented in ArkHive investigations for their role as Attorney - Exposed DuPont\'s PFAS contamination of drinking water in Parkersburg, WV.',
+ description: 'Rob Bilott is documented in ArkHive investigations for their role as Attorney, Exposed DuPont\'s PFAS contamination of drinking water in Parkersburg, WV.',
  education: [
  'Law Degree',
  ],
@@ -4262,7 +4262,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Corporate Homicide', slug: 'corporate-homicide', severity: 'high' },
  { title: 'Dupont Pfas Poisoning', slug: 'dupont-pfas-poisoning', severity: 'high' },
  ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Attorney - Exposed DuPont' }],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Attorney, Exposed DuPont' }],
  knownAssociates: [
  { name: 'Wilbur Tennant', relationship: 'Farmer whose poisoned cattle led Bilott to expose DuPont', href: '/entities/individuals/wilbur-tennant' }
  ],
@@ -4342,14 +4342,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Succeeded Hayward as BP CEO; oversaw $65B+ in settlements and liability payments' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Robert Dudley' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Robert Dudley' },
       { date: '2026-03-05', event: 'Court filing analysis reveals Robert Dudley referenced in 11 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Robert Dudley', url: 'https://en.wikipedia.org/wiki/Robert_Dudley', date: '' },
       { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4427,7 +4427,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Celgene CEO who raised Revlimid price 20 times over 15 years; $500 to $16,023 per month' },
       { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Robert Hugin and regulatory oversight bodies' },
-      { date: '2026-03-05', event: 'Network analysis completed — Robert Hugin connected to 22 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Robert Hugin connected to 22 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
@@ -4616,10 +4616,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'robert-scherrer': {
     name: 'Robert Scherrer',
-    title: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network - his reports were largely ignored',
-    role: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network - his reports were largely ignored',
+    title: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network, his reports were largely ignored',
+    role: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network, his reports were largely ignored',
     riskLevel: 'high',
-    description: 'Robert Scherrer is documented in ArkHive investigations for their role as FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network - his reports were largely ignored.',
+    description: 'Robert Scherrer is documented in ArkHive investigations for their role as FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network, his reports were largely ignored.',
     education: [],
     affiliations: [
       { name: 'Federal Bureau of Investigation', role: 'FBI Official', type: 'agency' },
@@ -4636,13 +4636,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '1976', event: 'documented in ArkHive investigations for their role as FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the as...' },
       { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Robert Scherrer' },
-      { date: '2026-03-05', event: 'Network analysis completed — Robert Scherrer connected to 21 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Robert Scherrer connected to 21 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Robert Scherrer', url: 'https://en.wikipedia.org/wiki/Robert_Scherrer', date: '' },
       { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4671,14 +4671,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '1947', event: 'documented in ArkHive investigations for their role as Senator who co-authored Taft-Hartley Act of 1947 restricting workers' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Robert Taft' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Robert Taft' },
       { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Robert Taft' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Robert Taft', url: 'https://en.wikipedia.org/wiki/Robert_Taft', date: '' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4713,7 +4713,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Robert Taylor', url: 'https://en.wikipedia.org/wiki/Robert_Taylor', date: '' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
       { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
     ],
     aliases: [],
@@ -4747,10 +4747,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'robert-williams': {
     name: 'Robert Williams',
-    title: 'First documented wrongful arrest due to facial recognition - a Black man falsely identified by Detroit PD',
-    role: 'First documented wrongful arrest due to facial recognition - a Black man falsely identified by Detroit PD',
+    title: 'First documented wrongful arrest due to facial recognition, a Black man falsely identified by Detroit PD',
+    role: 'First documented wrongful arrest due to facial recognition, a Black man falsely identified by Detroit PD',
     riskLevel: 'high',
-    description: 'Robert Williams is documented in ArkHive investigations for their role as First documented wrongful arrest due to facial recognition - a Black man falsely identified by Detroit PD.',
+    description: 'Robert Williams is documented in ArkHive investigations for their role as First documented wrongful arrest due to facial recognition, a Black man falsely identified by Detroit PD.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Robert Weaver', type: 'organization' },
@@ -4765,9 +4765,9 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Facial Recognition Surveillance', slug: 'facial-recognition-surveillance', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as First documented wrongful arrest due to facial recognition - a Black man falsely identified by Det' },
+      { date: 'Ongoing', event: 'Active in role as First documented wrongful arrest due to facial recognition, a Black man falsely identified by Det' },
       { date: '2026-03-05', event: 'Cross-referencing Robert Williams against congressional hearing transcripts and lobbying disclosure databases' },
-      { date: '2026-03-05', event: 'Network analysis completed — Robert Williams connected to 12 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Robert Williams connected to 12 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
@@ -4850,13 +4850,13 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Billionaire who provided undisclosed gifts to Justice Thomas and hosted him at his private resort pr' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Robin Arkley II' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Robin Arkley II' },
       { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Robin Arkley II for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Robin Arkley II', url: 'https://www.google.com/search?q=Robin%20Arkley%20II', date: '' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
       { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
     ],
     aliases: [],
@@ -4993,13 +4993,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Ron Wyden' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Ron Wyden' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5027,7 +5027,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Catholic priest and founder of SOA Watch, leading campaign to close the school' },
-      { date: '2026-03-05', event: 'Network analysis completed — Roy Bourgeois connected to 5 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Roy Bourgeois connected to 5 entities in the accountability database' },
       { date: '2026-03-05', event: 'Court filing analysis reveals Roy Bourgeois referenced in 16 active litigation proceedings' },
     ],
     socialMedia: [],
@@ -5044,10 +5044,10 @@ const profiles: Record<string, IndividualProfile> = {
 
  'roy-bryant': {
  name: 'Roy Bryant',
- title: 'Store owner who kidnapped and murdered Emmett Till - acquitted by all-white jury',
- role: 'Store owner who kidnapped and murdered Emmett Till - acquitted by all-white jury',
+ title: 'Store owner who kidnapped and murdered Emmett Till, acquitted by all-white jury',
+ role: 'Store owner who kidnapped and murdered Emmett Till, acquitted by all-white jury',
  riskLevel: 'high',
- description: 'Roy Bryant is documented in ArkHive investigations for their role as Store owner who kidnapped and murdered Emmett Till - acquitted by all-white jury.',
+ description: 'Roy Bryant is documented in ArkHive investigations for their role as Store owner who kidnapped and murdered Emmett Till, acquitted by all-white jury.',
  education: [],
  affiliations: [
  { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
@@ -5058,7 +5058,7 @@ const profiles: Record<string, IndividualProfile> = {
  relatedInvestigations: [
  { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
  ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Store owner who kidnapped and murdered Emmett Till - acquitted by all-white jury' }],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Store owner who kidnapped and murdered Emmett Till, acquitted by all-white jury' }],
  knownAssociates: [
  { name: 'J.W. Milam', relationship: 'Half-brother and co-murderer of Emmett Till', href: '/entities/individuals/jw-milam' },
  { name: 'Mamie Till-Mobley', relationship: 'Mother of Emmett Till whom Bryant murdered', href: '/entities/individuals/mamie-till-mobley' },
@@ -5122,7 +5122,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Roy Martin Mitchell', url: 'https://www.google.com/search?q=Roy%20Martin%20Mitchell', date: '' },
       { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5208,8 +5208,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Russell Portenoy', url: 'https://en.wikipedia.org/wiki/Russell_Portenoy', date: '' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5319,7 +5319,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Ryan Crocker', url: 'https://en.wikipedia.org/wiki/Ryan_Crocker', date: '' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
       { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
     ],
     aliases: [],
@@ -5349,14 +5349,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Co-CEO of FTX Digital Markets; made illegal political contributions at Bankman-Fried' },
-      { date: '2026-03-05', event: 'Network analysis completed — Ryan Salame connected to 11 entities in the accountability database' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Ryan Salame' },
+      { date: '2026-03-05', event: 'Network analysis completed, Ryan Salame connected to 11 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Ryan Salame' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Ryan Salame', url: 'https://en.wikipedia.org/wiki/Ryan_Salame', date: '' },
       { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5370,7 +5370,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Investigative journalist who documented the rise of police militarization and abuses of no-knock raids',
  role: 'Journalist',
  riskLevel: 'low',
- description: 'Radley Balko is an investigative journalist and author of"Rise of the Warrior Cop"who has extensively documented the militarization of American police forces and the dangers of no-knock raids, becoming one of the foremost critics of aggressive policing tactics.',
+ description: 'Radley Balko is an investigative journalist and author of "Rise of the Warrior Cop "who has extensively documented the militarization of American police forces and the dangers of no-knock raids, becoming one of the foremost critics of aggressive policing tactics.',
  education: [],
  affiliations: [
  { name: 'The Washington Post', role: 'Investigative Reporter', type: 'corporation' },
@@ -5383,7 +5383,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Police Militarization', slug: 'police-militarization', severity: 'critical' },
  ],
  timeline: [
- { date: '2013', event: 'Published"Rise of the Warrior Cop"documenting police militarization and no-knock raid dangers' },
+ { date: '2013', event: 'Published "Rise of the Warrior Cop" documenting police militarization and no-knock raid dangers' },
  ],
  sources: [
  { title: 'No-Knock Raids', url: '/investigations/no-knock-raids' },
@@ -5400,7 +5400,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Koch network strategist who designed the political influence infrastructure for the Koch brothers\' operations',
  role: 'Political Figure',
  riskLevel: 'high',
- description: 'Richard Fink was the chief political strategist for Charles Koch and architect of the Koch network\'s political influence infrastructure. He designed the"Structure of Social Change"model that guided the Koch brothers\' massive investment in reshaping American politics and policy.',
+ description: 'Richard Fink was the chief political strategist for Charles Koch and architect of the Koch network\'s political influence infrastructure. He designed the "Structure of Social Change "model that guided the Koch brothers\' massive investment in reshaping American politics and policy.',
  education: [],
  affiliations: [
  { name: 'Koch Industries', role: 'Executive Vice President and Chief Strategist', type: 'corporation' },
@@ -5464,7 +5464,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: '8chan/8kun administrator widely suspected of being behind the QAnon conspiracy theory posts',
  role: 'Media Figure',
  riskLevel: 'high',
- description: 'Ron Watkins served as administrator of 8chan (later 8kun), the platform where QAnon posts originated. He is widely suspected of being"Q"or closely involved in the QAnon conspiracy theory that radicalized millions, though he has denied this.',
+ description: 'Ron Watkins served as administrator of 8chan (later 8kun), the platform where QAnon posts originated. He is widely suspected of being "Q" or closely involved in the QAnon conspiracy theory that radicalized millions, though he has denied this.',
  education: [],
  affiliations: [
  { name: '8chan/8kun', role: 'Administrator', type: 'corporation' },
@@ -5488,10 +5488,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'ruha-benjamin': {
  name: 'Ruha Benjamin',
- title: 'Princeton professor who studies racial bias in technology and coined the term"New Jim Code"',
+ title: 'Princeton professor who studies racial bias in technology and coined the term "New Jim Code"',
  role: 'Academic',
  riskLevel: 'low',
- description: 'Ruha Benjamin is a Princeton University professor of African American Studies who coined the term"New Jim Code"to describe how algorithms and technology perpetuate racial discrimination. Her work on predictive policing reveals how these systems encode historical biases.',
+ description: 'Ruha Benjamin is a Princeton University professor of African American Studies who coined the term "New Jim Code "to describe how algorithms and technology perpetuate racial discrimination. Her work on predictive policing reveals how these systems encode historical biases.',
  education: [
  'Princeton University',
  ],
@@ -5499,13 +5499,13 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Princeton University', role: 'Professor of African American Studies', type: 'organization' },
  ],
  controversies: [
- 'Documented how predictive policing and algorithms perpetuate racial discrimination through the"New Jim Code"',
+ 'Documented how predictive policing and algorithms perpetuate racial discrimination through the "New Jim Code"',
  ],
  relatedInvestigations: [
  { title: 'Predictive Policing: Algorithms of Oppression', slug: 'predictive-policing', severity: 'critical' },
  ],
  timeline: [
- { date: '2019', event: 'Published"Race After Technology"documenting algorithmic bias and the"New Jim Code"' },
+ { date: '2019', event: 'Published "Race After Technology" documenting algorithmic bias and the "New Jim Code"' },
  ],
  sources: [
  { title: 'Predictive Policing: Algorithms of Oppression', url: '/investigations/predictive-policing' },
@@ -5558,7 +5558,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: '19th President of the United States',
     role: 'Political Figure',
     riskLevel: 'medium',
-    description: 'Rutherford B. Hayes served as the 19th President of the United States from 1877 to 1881. He appointed Carl Schurz as Secretary of the Interior, who expanded the Indian boarding school system designed to forcibly assimilate Native American children by separating them from their families, cultures, and languages - a policy later recognized as cultural genocide.',
+    description: 'Rutherford B. Hayes served as the 19th President of the United States from 1877 to 1881. He appointed Carl Schurz as Secretary of the Interior, who expanded the Indian boarding school system designed to forcibly assimilate Native American children by separating them from their families, cultures, and languages, a policy later recognized as cultural genocide.',
     birthDate: 'October 4, 1822',
     birthPlace: 'Delaware, Ohio',
     deathDate: 'January 17, 1893',
@@ -5584,7 +5584,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Indian Boarding Schools', url: '/investigations/indian-boarding-schools', date: '' },
       { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5600,7 +5600,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'Billionaire businessman and former owner of Revlon named in Epstein\'s Black Book.',
  birthDate: 'January 1, 1943',
  birthPlace: 'Greensboro, North Carolina',
- education: ['University of Pennsylvania - Wharton'],
+ education: ['University of Pennsylvania, Wharton'],
  netWorth: '$3.6 billion',
  affiliations: [
  { name: 'MacAndrews & Forbes', role: 'Chairman', type: 'corporation' },
@@ -5693,7 +5693,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Consumer Advocate, Presidential Candidate',
     role: 'Automotive Safety Pioneer, Green Party',
     riskLevel: 'low',
-    description: 'Consumer advocate and political activist whose 1965 book "Unsafe at Any Speed"led to major automotive safety reforms. Ran for president multiple times, most controversially in 2000 when his Green Party candidacy was blamed for splitting the liberal vote in Florida, contributing to George W. Bush\'s victory over Al Gore.',
+    description: 'Consumer advocate and political activist whose 1965 book "Unsafe at Any Speed "led to major automotive safety reforms. Ran for president multiple times, most controversially in 2000 when his Green Party candidacy was blamed for splitting the liberal vote in Florida, contributing to George W. Bush\'s victory over Al Gore.',
     birthDate: 'February 27, 1934',
     education: ['Princeton University', 'Harvard Law School'],
     affiliations: [
@@ -5724,7 +5724,7 @@ const profiles: Record<string, IndividualProfile> = {
   'roberto-calvi': {
     name: 'Roberto Calvi',
     title: 'Italian Banker',
-    role: '"God\'s Banker"- Vatican Bank Scandal',
+    role: '"God\'s Banker," Vatican Bank Scandal',
     riskLevel: 'critical',
     description: 'Italian banker and chairman of Banco Ambrosiano who was found hanging under Blackfriars Bridge in London in 1982 in circumstances initially ruled suicide, then changed to murder. His death exposed a massive financial scandal involving the Vatican Bank, the Mafia, and the P2 Masonic lodge. $1.3 billion went missing.',
     birthDate: 'April 13, 1920',
@@ -5761,7 +5761,7 @@ const profiles: Record<string, IndividualProfile> = {
     role: 'Big Tobacco Litigation, Bribery Conviction',
     riskLevel: 'high',
     description: 'Mississippi trial lawyer who led the landmark litigation against Big Tobacco in the 1990s, winning a $246 billion settlement. Later convicted of conspiring to bribe a judge in 2008 and sentenced to prison. Brother-in-law of Senator Trent Lott.',
-    education: ['University of Mississippi - J.D.'],
+    education: ['University of Mississippi, J.D.'],
     affiliations: [
     ],
     controversies: [
@@ -5812,9 +5812,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5845,9 +5845,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5878,9 +5878,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5911,9 +5911,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5944,9 +5944,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5977,9 +5977,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
     ],
     aliases: [],
     knownAssociates: [
@@ -6006,13 +6006,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Network analysis completed — Roman Abramovich connected to 9 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Roman Abramovich connected to 9 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -6043,9 +6043,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -6076,9 +6076,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -6105,13 +6105,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Rohit Chopra' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Rohit Chopra' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -6142,9 +6142,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -6175,9 +6175,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -6208,9 +6208,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [

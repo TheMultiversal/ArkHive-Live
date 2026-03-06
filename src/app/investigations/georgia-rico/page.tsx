@@ -21,13 +21,13 @@ const investigation = {
  status: 'Criminal Trial Pending',
  summary: 'Fulton County District Attorney Fani Willis indicted Donald Trump and 18 co-conspirators under Georgia\'s RICO (Racketeer Influenced and Corrupt Organizations) Act for their coordinated efforts to overturn the 2020 election results in Georgia. The case includes the infamous"find me 11,780 votes"phone call, fake elector schemes, harassment of election workers, and unauthorized access to voting systems.',
  keyFigures: [
- { name: 'Donald Trump', role: 'Lead defendant - orchestrated scheme to overturn election', href: '/entities/individuals/donald-trump', status: '13 counts, $200K bond' },
- { name: 'Rudy Giuliani', role: 'Lead attorney - spread false fraud claims, harassed election workers', href: '/entities/individuals/rudy-giuliani', status: '13 counts' },
- { name: 'Mark Meadows', role: 'White House Chief of Staff - participated in Trump-Raffensperger call', href: '/entities/individuals/mark-meadows', status: '2 counts' },
- { name: 'John Eastman', role: 'Attorney - authored coup memo, pushed Pence to reject electors', href: '/entities/individuals/john-eastman', status: '9 counts' },
- { name: 'Sidney Powell', role: 'Attorney - coordinated Coffee County breach, spread fraud lies', href: '/entities/individuals/sidney-powell', status: 'Pled guilty (6 misdemeanors)' },
- { name: 'Kenneth Chesebro', role: 'Attorney - architect of fake electors scheme', href: '/entities/individuals/kenneth-chesebro', status: 'Pled guilty (1 felony)' },
- { name: 'Jenna Ellis', role: 'Attorney - made false statements about fraud', href: '/entities/individuals/jenna-ellis', status: 'Pled guilty (1 felony)' },
+ { name: 'Donald Trump', role: 'Lead defendant, orchestrated scheme to overturn election', href: '/entities/individuals/donald-trump', status: '13 counts, $200K bond' },
+ { name: 'Rudy Giuliani', role: 'Lead attorney, spread false fraud claims, harassed election workers', href: '/entities/individuals/rudy-giuliani', status: '13 counts' },
+ { name: 'Mark Meadows', role: 'White House Chief of Staff, participated in Trump-Raffensperger call', href: '/entities/individuals/mark-meadows', status: '2 counts' },
+ { name: 'John Eastman', role: 'Attorney, authored coup memo, pushed Pence to reject electors', href: '/entities/individuals/john-eastman', status: '9 counts' },
+ { name: 'Sidney Powell', role: 'Attorney, coordinated Coffee County breach, spread fraud lies', href: '/entities/individuals/sidney-powell', status: 'Pled guilty (6 misdemeanors)' },
+ { name: 'Kenneth Chesebro', role: 'Attorney, architect of fake electors scheme', href: '/entities/individuals/kenneth-chesebro', status: 'Pled guilty (1 felony)' },
+ { name: 'Jenna Ellis', role: 'Attorney, made false statements about fraud', href: '/entities/individuals/jenna-ellis', status: 'Pled guilty (1 felony)' },
  ],
  pleaDeals: [
  { name: 'Sidney Powell', date: 'Oct 19, 2023', counts: '6 misdemeanors', sentence: '6 years probation, $6,000 restitution, testimony required' },
@@ -36,7 +36,7 @@ const investigation = {
  { name: 'Scott Hall', date: 'Sep 29, 2023', counts: '5 misdemeanors', sentence: '5 years probation, testimony required' },
  ],
  criminalActs: [
- { act: '"Find 11,780 Votes"Call', detail: 'Trump pressured GA Secretary of State Raffensperger to"find"exact votes needed to win', evidence: 'Full audio recording released publicly' },
+ { act: '"Find 11,780 Votes "Call', detail: 'Trump pressured GA Secretary of State Raffensperger to "find" exact votes needed to win', evidence: 'Full audio recording released publicly' },
  { act: 'Fake Electors Scheme', detail: '16 fake Trump electors signed fraudulent certificates claiming Trump won', evidence: 'Signed documents, testimony' },
  { act: 'Ruby Freeman Harassment', detail: 'Giuliani falsely accused election worker of fraud; Trump sent agent to her home', evidence: 'Testimony, video, Trump call' },
  { act: 'Coffee County Breach', detail: 'Powell coordinated unauthorized access to voting equipment', evidence: 'Surveillance video, testimony' },
@@ -44,15 +44,15 @@ const investigation = {
  { act: 'False Fraud Claims', detail: 'Knowingly false claims about State Farm Arena"suitcases"', evidence: 'Debunked repeatedly, video' },
  ],
  legalOutcomes: [
- { defendant: 'Sidney Powell', charge: 'Georgia RICO - Conspiracy to Commit Election Fraud', outcome: 'Pleaded guilty - 6 years probation, $6,000 restitution, must testify (October 2023)' },
- { defendant: 'Kenneth Chesebro', charge: 'Georgia RICO - Conspiracy to Commit Filing False Documents', outcome: 'Pleaded guilty - 5 years probation (October 2023)' },
- { defendant: 'Jenna Ellis', charge: 'Georgia RICO - Aiding and Abetting False Statements', outcome: 'Pleaded guilty - 5 years probation, $5,000 restitution (October 2023)' },
- { defendant: 'Scott Hall', charge: 'Georgia RICO - Conspiracy to Commit Election Fraud', outcome: 'Pleaded guilty - 5 years probation, 200 hours community service (September 2023)' },
+ { defendant: 'Sidney Powell', charge: 'Georgia RICO, Conspiracy to Commit Election Fraud', outcome: 'Pleaded guilty - 6 years probation, $6,000 restitution, must testify (October 2023)' },
+ { defendant: 'Kenneth Chesebro', charge: 'Georgia RICO, Conspiracy to Commit Filing False Documents', outcome: 'Pleaded guilty - 5 years probation (October 2023)' },
+ { defendant: 'Jenna Ellis', charge: 'Georgia RICO, Aiding and Abetting False Statements', outcome: 'Pleaded guilty - 5 years probation, $5,000 restitution (October 2023)' },
+ { defendant: 'Scott Hall', charge: 'Georgia RICO, Conspiracy to Commit Election Fraud', outcome: 'Pleaded guilty - 5 years probation, 200 hours community service (September 2023)' },
  { defendant: 'Rudy Giuliani', charge: 'Defamation of Ruby Freeman and Shaye Moss', outcome: '$148 million jury judgment (December 2023), filed for bankruptcy' },
  { defendant: 'Donald Trump', charge: 'Georgia RICO - 13 counts including racketeering', outcome: 'Indicted August 2023, surrendered at Fulton County Jail, trial pending' },
  ],
  charges: [
- { statute: 'O.C.G.A. § 16-14-4(c)', description: 'RICO Violation - Criminal Enterprise', counts: 'Trump + 18 others' },
+ { statute: 'O.C.G.A. § 16-14-4(c)', description: 'RICO Violation, Criminal Enterprise', counts: 'Trump + 18 others' },
  { statute: 'O.C.G.A. § 16-14-4(a)', description: 'Solicitation of RICO Violation', counts: 'Multiple defendants' },
  { statute: 'O.C.G.A. § 16-10-20', description: 'Solicitation of Public Officer to Violate Oath', counts: 'Trump' },
  { statute: 'O.C.G.A. § 16-4-7', description: 'Criminal Conspiracy to Defraud the State', counts: 'Multiple defendants' },
@@ -89,7 +89,7 @@ const investigation = {
  },
  timeline: [
  { date: 'Nov 2020', event: 'Biden wins Georgia by 11,779 votes' },
- { date: 'Dec 3, 2020', event: 'Giuliani shows"suitcase"video at state hearing; claims immediately debunked' },
+ { date: 'Dec 3, 2020', event: 'Giuliani shows "suitcase" video at state hearing; claims immediately debunked' },
  { date: 'Dec 14, 2020', event: '16 fake Trump electors meet in Georgia, sign false certificates' },
  { date: 'Jan 2, 2021', event: 'Trump"find 11,780 votes"call to Raffensperger' },
  { date: 'Jan 7, 2021', event: 'Coffee County voting systems breached at Powell\'s direction' },
@@ -108,7 +108,7 @@ const investigation = {
  { title: 'Trump-Raffensperger Call (full audio)', url: 'https://www.washingtonpost.com/video/politics/audio-trumps-full-jan-2-call-with-ga-secretary-of-state/2021/01/03/3f9426f4-7937-4718-8a66-9f574028e68f_video.html', date: 'Jan 2021' },
  { title: 'Giuliani Defamation Verdict', url: 'https://web.archive.org/web/2024/https://www.reuters.com/legal/giuliani-ordered-pay-148-million-georgia-election-workers-2023-12-15/', date: 'Dec 2023' },
  { title: 'Coffee County Breach Investigation', url: 'https://web.archive.org/web/2024/https://www.reuters.com/investigates/special-report/usa-election-georgia-breach/', date: '2022' },
- { title: 'Plea Agreement - Sidney Powell', url: 'https://s3.documentcloud.org/documents/24080577/powell-plea-deal.pdf', date: 'Oct 2023' },
+ { title: 'Plea Agreement, Sidney Powell', url: 'https://s3.documentcloud.org/documents/24080577/powell-plea-deal.pdf', date: 'Oct 2023' },
  ],
 };
 

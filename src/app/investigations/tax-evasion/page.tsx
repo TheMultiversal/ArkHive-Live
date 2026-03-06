@@ -20,7 +20,7 @@ const investigationData = {
  title: 'Tax Evasion & Financial Fraud',
  subtitle: '$100+ Million in Evaded Taxes Through Decades of Fraud',
  severity: 'critical' as const,
- status: 'Documented - Ongoing Investigations',
+ status: 'Documented, Ongoing Investigations',
  lastUpdated: 'February 2026',
  summary: `Donald Trump has engaged in tax fraud spanning decades, involving fraudulent valuations, offshore accounts, suspicious deductions, and inheritance schemes. The New York Times obtained decades of tax records revealing Trump received the equivalent of $413 million from his father's real estate empire, much of it through fraud. Congressional investigations, the Panama Papers, and IRS audits have exposed over $100 million in evaded taxes.`,
  
@@ -33,10 +33,10 @@ const investigationData = {
  },
 
  keyFigures: [
- { name: 'Donald Trump', role: 'Principal - Decades of tax fraud and evasion', href: '/entities/individuals/donald-trump' },
- { name: 'Allen Weisselberg', role: 'CFO - Managed fraudulent schemes, convicted twice', href: '/entities/individuals/allen-weisselberg' },
- { name: 'Eric Trump', role: 'Trump Organization - Involved in fraudulent valuations', href: '/entities/individuals/eric-trump' },
- { name: 'Donald Trump Jr.', role: 'Trump Organization - Involved in fraudulent valuations', href: '/entities/individuals/donald-trump-jr' },
+ { name: 'Donald Trump', role: 'Principal, Decades of tax fraud and evasion', href: '/entities/individuals/donald-trump' },
+ { name: 'Allen Weisselberg', role: 'CFO, Managed fraudulent schemes, convicted twice', href: '/entities/individuals/allen-weisselberg' },
+ { name: 'Eric Trump', role: 'Trump Organization, Involved in fraudulent valuations', href: '/entities/individuals/eric-trump' },
+ { name: 'Donald Trump Jr.', role: 'Trump Organization, Involved in fraudulent valuations', href: '/entities/individuals/donald-trump-jr' },
  ],
 
  fraudSchemes: [
@@ -44,7 +44,7 @@ const investigationData = {
  scheme: 'Fred Trump Inheritance Fraud',
  amount: '$413+ million',
  details: [
- 'Created fake corporation"All County Building Supply"to siphon money',
+ 'Created fake corporation "All County Building Supply"to siphon money',
  'Dramatically undervalued properties to minimize estate taxes',
  'Properties worth $900M+ valued at $41M for tax purposes',
  'Transferred wealth through padded invoices and phantom consulting fees',
@@ -100,9 +100,9 @@ const investigationData = {
  timeline: [
  { date: '1968-2018', event: '50 years of documented tax avoidance schemes begin' },
  { date: '1987', event: 'Fred Trump transfers $15.5M to Donald through casino chip purchase' },
- { date: '1992', event: 'All County Building Supply scam peaks - siphoning millions' },
- { date: '1995', event: 'Claims $915 million loss - used for 18 years of no income tax' },
- { date: '1999', event: 'Fred Trump dies - estate grossly undervalued' },
+ { date: '1992', event: 'All County Building Supply scam peaks, siphoning millions' },
+ { date: '1995', event: 'Claims $915 million loss, used for 18 years of no income tax' },
+ { date: '1999', event: 'Fred Trump dies, estate grossly undervalued' },
  { date: '2005-2007', event: 'Massive bank fraud through property overvaluation' },
  { date: '2011', event: 'IRS begins audit of Trump returns (ongoing 15+ years)' },
  { date: '2016', event: 'Trump pays only $750 in federal income tax' },

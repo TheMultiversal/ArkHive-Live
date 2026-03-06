@@ -20,7 +20,7 @@ const investigationData = {
  title: 'Obstruction of Justice',
  subtitle: 'A Pattern of Witness Tampering, Evidence Destruction, and Interference',
  severity: 'critical' as const,
- status: 'Documented - Multiple Instances',
+ status: 'Documented, Multiple Instances',
  lastUpdated: 'February 2026',
  summary: `The Mueller Report documented at least 10 instances of potential obstruction of justice by Donald Trump. While the Special Counsel declined to make a charging decision due to DOJ policy against indicting a sitting president, the report explicitly stated it"does not exonerate"Trump. These acts include firing FBI Director James Comey, attempting to fire Mueller himself, witness tampering via social media, and directing aides to lie to investigators.`,
  
@@ -33,13 +33,13 @@ const investigationData = {
  },
 
  keyFigures: [
- { name: 'Donald Trump', role: 'Principal - Directed obstruction campaign', href: '/entities/individuals/donald-trump' },
- { name: 'Michael Flynn', role: 'National Security Advisor - Pardoned after lying to FBI', href: '/entities/individuals/michael-flynn' },
- { name: 'Roger Stone', role: 'Advisor - Commuted sentence, pardoned for obstruction', href: '/entities/individuals/roger-stone' },
- { name: 'Paul Manafort', role: 'Campaign Chair - Pardoned for witness tampering', href: '/entities/individuals/paul-manafort' },
- { name: 'Michael Cohen', role: 'Personal Attorney - Testified about obstruction efforts', href: '/entities/individuals/michael-cohen' },
- { name: 'Don McGahn', role: 'White House Counsel - Refused to fire Mueller', href: '/entities/individuals/don-mcgahn' },
- { name: 'William Barr', role: 'AG - Misrepresented Mueller findings', href: '/entities/individuals/william-barr' },
+ { name: 'Donald Trump', role: 'Principal, Directed obstruction campaign', href: '/entities/individuals/donald-trump' },
+ { name: 'Michael Flynn', role: 'National Security Advisor, Pardoned after lying to FBI', href: '/entities/individuals/michael-flynn' },
+ { name: 'Roger Stone', role: 'Advisor, Commuted sentence, pardoned for obstruction', href: '/entities/individuals/roger-stone' },
+ { name: 'Paul Manafort', role: 'Campaign Chair, Pardoned for witness tampering', href: '/entities/individuals/paul-manafort' },
+ { name: 'Michael Cohen', role: 'Personal Attorney, Testified about obstruction efforts', href: '/entities/individuals/michael-cohen' },
+ { name: 'Don McGahn', role: 'White House Counsel, Refused to fire Mueller', href: '/entities/individuals/don-mcgahn' },
+ { name: 'William Barr', role: 'AG, Misrepresented Mueller findings', href: '/entities/individuals/william-barr' },
  ],
 
  muellerObstructionInstances: [
@@ -80,21 +80,21 @@ const investigationData = {
  },
  {
  instance: 6,
- title: 'Witness Tampering - Flynn',
+ title: 'Witness Tampering, Flynn',
  description: 'Personal counsel contacted Flynn lawyer suggesting cooperation might affect pardon decision',
  evidence: 'Flynn attorney statements, Mueller Report',
  elements: 'Obstructive act: Yes | Intent: Evidence exists | Nexus: Yes',
  },
  {
  instance: 7,
- title: 'Witness Tampering - Manafort',
+ title: 'Witness Tampering, Manafort',
  description: 'Praised Manafort for not"flipping,"dangled pardons publicly',
  evidence: 'Tweets, public statements, reporting',
  elements: 'Obstructive act: Yes | Intent: Substantial | Nexus: Yes',
  },
  {
  instance: 8,
- title: 'Witness Tampering - Cohen',
+ title: 'Witness Tampering, Cohen',
  description: 'Attacked Cohen publicly after cooperation, praised others who refused to cooperate',
  evidence: 'Tweets, rally statements, Cohen testimony',
  elements: 'Obstructive act: Yes | Intent: Evidence exists | Nexus: Yes',
@@ -116,14 +116,14 @@ const investigationData = {
  ],
 
  comeyTimeline: [
- { date: 'January 27, 2017', event: 'Trump demands"loyalty"from Comey at private dinner' },
+ { date: 'January 27, 2017', event: 'Trump demands "loyalty" from Comey at private dinner' },
  { date: 'February 14, 2017', event: 'Trump asks Comey to"let Flynn go"in Oval Office meeting' },
  { date: 'March 30, 2017', event: 'Trump calls Comey, asks him to"lift the cloud"of investigation' },
  { date: 'April 11, 2017', event: 'Trump calls Comey again about investigation' },
  { date: 'May 9, 2017', event: 'Trump fires Comey while FBI investigates Russia ties' },
  { date: 'May 10, 2017', event: 'Trump meets Russian officials, calls Comey"nut job"' },
- { date: 'May 11, 2017', event: 'Trump tells Lester Holt firing was about"Russia thing"' },
- { date: 'May 12, 2017', event: 'Trump tweets threat about"tapes"of conversations' },
+ { date: 'May 11, 2017', event: 'Trump tells Lester Holt firing was about "Russia thing"' },
+ { date: 'May 12, 2017', event: 'Trump tweets threat about "tapes" of conversations' },
  ],
 
  pardonsForObstruction: [
@@ -141,8 +141,8 @@ const investigationData = {
  { date: 'February 14, 2017', event: 'Trump asks Comey to drop Flynn investigation' },
  { date: 'May 9, 2017', event: 'Trump fires FBI Director James Comey' },
  { date: 'May 17, 2017', event: 'Robert Mueller appointed Special Counsel' },
- { date: 'June 17, 2017', event: 'Trump orders McGahn to fire Mueller - McGahn refuses' },
- { date: 'January 25, 2018', event: 'Trump attempts to fire Mueller again - overruled' },
+ { date: 'June 17, 2017', event: 'Trump orders McGahn to fire Mueller, McGahn refuses' },
+ { date: 'January 25, 2018', event: 'Trump attempts to fire Mueller again, overruled' },
  { date: 'February 2018', event: 'Trump orders McGahn to create false record denying firing order' },
  { date: 'March 2019', event: 'Mueller completes report documenting obstruction' },
  { date: 'March 24, 2019', event: 'Barr releases misleading summary of Mueller Report' },
@@ -170,18 +170,18 @@ const investigationData = {
  ],
 
  charges: [
- { statute: '18 U.S.C. § 1512(b)', description: 'Witness tampering - corruptly persuading witnesses to withhold testimony, alter documents, or evade legal process', count: 'Multiple instances documented in Mueller Report' },
- { statute: '18 U.S.C. § 1512(c)', description: 'Obstruction of official proceeding - obstructing, influencing, or impeding congressional and FBI investigations', count: '10+ instances identified by Mueller' },
- { statute: '18 U.S.C. § 1505', description: 'Obstruction of proceedings before departments, agencies, and committees - interfering with FBI and congressional investigations', count: 'Multiple instances' },
- { statute: '18 U.S.C. § 1001', description: 'False statements - making materially false statements to federal investigators and Congress', count: 'Multiple defendants convicted' },
- { statute: '18 U.S.C. § 1503', description: 'Obstruction of justice - corruptly endeavoring to influence, obstruct, or impede the due administration of justice', count: 'Multiple instances' },
- { statute: '18 U.S.C. § 3', description: 'Accessory after the fact - pardoning co-conspirators who refused to cooperate with investigations', count: '6 pardons for investigation-related crimes' },
- { statute: '2 U.S.C. § 192', description: 'Contempt of Congress - directing subordinates to defy congressional subpoenas', count: 'Multiple instances' },
+ { statute: '18 U.S.C. § 1512(b)', description: 'Witness tampering, corruptly persuading witnesses to withhold testimony, alter documents, or evade legal process', count: 'Multiple instances documented in Mueller Report' },
+ { statute: '18 U.S.C. § 1512(c)', description: 'Obstruction of official proceeding, obstructing, influencing, or impeding congressional and FBI investigations', count: '10+ instances identified by Mueller' },
+ { statute: '18 U.S.C. § 1505', description: 'Obstruction of proceedings before departments, agencies, and committees, interfering with FBI and congressional investigations', count: 'Multiple instances' },
+ { statute: '18 U.S.C. § 1001', description: 'False statements, making materially false statements to federal investigators and Congress', count: 'Multiple defendants convicted' },
+ { statute: '18 U.S.C. § 1503', description: 'Obstruction of justice, corruptly endeavoring to influence, obstruct, or impede the due administration of justice', count: 'Multiple instances' },
+ { statute: '18 U.S.C. § 3', description: 'Accessory after the fact, pardoning co-conspirators who refused to cooperate with investigations', count: '6 pardons for investigation-related crimes' },
+ { statute: '2 U.S.C. § 192', description: 'Contempt of Congress, directing subordinates to defy congressional subpoenas', count: 'Multiple instances' },
  ],
 
  coverup: [
  'Attorney General William Barr released a misleading 4-page summary of the Mueller Report that falsely framed it as an exoneration, before the full report revealed 10 instances of potential obstruction',
- 'Trump publicly dangled pardons for witnesses who refused to cooperate with Mueller, praising Manafort for being"brave"while attacking Cohen as a"rat"for cooperating',
+ 'Trump publicly dangled pardons for witnesses who refused to cooperate with Mueller, praising Manafort for being "brave" while attacking Cohen as a "rat" for cooperating',
  'Trump ordered White House Counsel Don McGahn to fire Mueller and then ordered him to create a false record denying the order was ever given',
  'The DOJ invoked a longstanding Office of Legal Counsel opinion that a sitting president cannot be indicted, preventing Mueller from making a charging decision despite substantial evidence',
  'Trump provided incomplete and potentially false written answers to Mueller\'s questions, while refusing to submit to an in-person interview despite repeated requests',

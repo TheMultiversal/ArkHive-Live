@@ -1,4 +1,4 @@
-// AUTO-GENERATED — Shard [O] managed by ArkHive Swarm Intelligence
+// AUTO-GENERATED, Shard [O] managed by ArkHive Swarm Intelligence
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -23,9 +23,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -55,9 +55,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -74,7 +74,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'October 7, 1943',
     birthPlace: 'San Antonio, Texas, USA',
     netWorth: '$5+ million',
-    education: ['B.S. - United States Naval Academy (1968)'],
+    education: ['B.S., United States Naval Academy (1968)'],
     affiliations: [
       { name: 'National Security Council', role: 'Staff Member (1981-1986)', type: 'agency' },
       { name: 'United States Marine Corps', role: 'Lieutenant Colonel (1968-1988)', type: 'agency' },
@@ -89,7 +89,7 @@ const profiles: Record<string, IndividualProfile> = {
       'DOCUMENT SHREDDING: Destroyed thousands of documents with secretary Fawn Hall before investigation',
       'CONVICTED FELON: Found guilty of aiding obstruction of Congress, destroying documents, accepting gratuity',
       'CONVICTIONS OVERTURNED: Escaped on technicality because immunized congressional testimony may have influenced trial',
-      'REAGAN PROTECTION: Took fall for Reagan administration, testified"I was authorized to do everything I did"',
+      'REAGAN PROTECTION: Took fall for Reagan administration, testified "I was authorized to do everything I did"',
       'CASH IN OFFICE SAFE: Kept operational funds in office safe for covert operations',
       'NRA PRESIDENT: Led NRA during period of mass shootings, forced out amid internal scandal',
       'PROFITED FROM TREASON: Made millions from books, speeches, and media career after scandal',
@@ -136,7 +136,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Iran-Contra Independent Counsel Final Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
       { title: 'Congressional Iran-Contra Report', url: 'https://archive.org/details/reportofcongress01unit', date: '1987' },
       { title: 'North Congressional Testimony Transcripts', url: 'https://www.congress.gov/', date: '1987' },
-      { title: 'United States v. North - Appeals Court Decision', url: 'https://www.courtlistener.com/', date: '1990' },
+      { title: 'United States v. North, Appeals Court Decision', url: 'https://www.courtlistener.com/', date: '1990' },
       { title: 'Under Fire: An American Story (North autobiography)', url: 'https://www.goodreads.com/', date: '1991' },
     ],
     aliases: ['Ollie', 'The Fall Guy', 'American Hero (self-styled)'],
@@ -180,9 +180,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -210,9 +210,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -222,7 +222,7 @@ const profiles: Record<string, IndividualProfile> = {
  'omar-mateen': {
  name: 'Omar Mateen',
  title: 'Mass Murderer (Deceased)',
- role: 'Pulse Nightclub Shooter - Killed 49',
+ role: 'Pulse Nightclub Shooter, Killed 49',
  riskLevel: 'critical',
  description: 'Omar Mateen murdered 49 people and wounded 53 others at Pulse, a gay nightclub in Orlando, Florida in 2016. He pledged allegiance to ISIS during the attack. It was the deadliest attack on LGBTQ+ people in U.S. history. He was killed by police after a standoff.',
  birthDate: 'November 16, 1986',
@@ -260,7 +260,7 @@ const profiles: Record<string, IndividualProfile> = {
  'osama-bin-laden': {
  name: 'Osama bin Laden',
  title: 'Al-Qaeda Founder',
- role: 'September 11 Mastermind - 2,977 Dead',
+ role: 'September 11 Mastermind, 2,977 Dead',
  riskLevel: 'critical',
  description: 'Osama bin Laden founded al-Qaeda and orchestrated the September 11, 2001 attacks that killed 2,977 people, the deadliest terrorist attack in history. A Saudi billionaire\'s son, he declared war on America and was killed by Navy SEALs in Pakistan in 2011 after a decade-long manhunt.',
  birthDate: 'March 10, 1957',
@@ -289,9 +289,9 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [
  { date: 'March 10, 1957', event: 'Born in Saudi Arabia' },
  { date: '1988', event: 'Founded al-Qaeda' },
- { date: 'August 7, 1998', event: 'U.S. Embassy bombings - 224 killed' },
- { date: 'October 12, 2000', event: 'USS Cole attack - 17 killed' },
- { date: 'September 11, 2001', event: 'World Trade Center/Pentagon attacks - 2,977 killed' },
+ { date: 'August 7, 1998', event: 'U.S. Embassy bombings, 224 killed' },
+ { date: 'October 12, 2000', event: 'USS Cole attack, 17 killed' },
+ { date: 'September 11, 2001', event: 'World Trade Center/Pentagon attacks, 2,977 killed' },
  { date: 'May 2, 2011', event: 'Killed by SEAL Team Six in Pakistan' },
  ],
  sources: [{ title: 'Wikipedia: Osama bin Laden', url: 'https://en.wikipedia.org/wiki/Osama_bin_Laden' }, { title: 'Bloomberg: Osama bin Laden', url: 'https://www.bloomberg.com/' }, { title: 'Al Jazeera: Middle East', url: 'https://www.aljazeera.com/middle-east/' }],
@@ -381,10 +381,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'orval-faubus': {
  name: 'Orval Faubus',
- title: 'Arkansas Governor who supported segregation - his hometown Harrison was a sundown town',
- role: 'Arkansas Governor who supported segregation - his hometown Harrison was a sundown town',
+ title: 'Arkansas Governor who supported segregation, his hometown Harrison was a sundown town',
+ role: 'Arkansas Governor who supported segregation, his hometown Harrison was a sundown town',
  riskLevel: 'high',
- description: 'Orval Faubus is documented in ArkHive investigations for their role as Arkansas Governor who supported segregation - his hometown Harrison was a sundown town.',
+ description: 'Orval Faubus is documented in ArkHive investigations for their role as Arkansas Governor who supported segregation, his hometown Harrison was a sundown town.',
  education: [],
  affiliations: [
  { name: 'State Government', role: 'Governor', type: 'agency' },
@@ -395,7 +395,7 @@ const profiles: Record<string, IndividualProfile> = {
  relatedInvestigations: [
  { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
  ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Arkansas Governor who supported segregation - his hometown Harrison was a sundown town' }],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as Arkansas Governor who supported segregation, his hometown Harrison was a sundown town' }],
  knownAssociates: [
  { name: 'George Wallace', relationship: 'Fellow segregationist governor who blocked school integration', href: '/entities/individuals/george-wallace' },
  { name: 'Dwight D. Eisenhower', relationship: 'Eisenhower sent troops to override Faubus at Little Rock', href: '/entities/individuals/dwight-d-eisenhower' }
@@ -526,9 +526,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -559,9 +559,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -592,9 +592,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -625,9 +625,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -658,9 +658,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [

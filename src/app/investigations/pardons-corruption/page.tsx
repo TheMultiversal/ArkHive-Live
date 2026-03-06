@@ -20,7 +20,7 @@ const investigationData = {
  title: 'Corrupt Pardons',
  subtitle: 'Pardoning Co-Conspirators, Criminals, and Political Allies',
  severity: 'high' as const,
- status: 'Documented - Pardons Issued',
+ status: 'Documented, Pardons Issued',
  lastUpdated: 'February 2026',
  summary: `In his final weeks in office, Donald Trump issued a wave of controversial pardons to co-conspirators, political allies, and cronies. These included pardons for individuals convicted in the Mueller investigation who refused to cooperate with prosecutors, allies convicted of fraud, and even a preemptive pardon for Steve Bannon just hours before he was to face fraud charges. Legal scholars have argued these pardons may constitute obstruction of justice and abuse of power.`,
  
@@ -33,12 +33,12 @@ const investigationData = {
  },
 
  keyFigures: [
- { name: 'Donald Trump', role: 'President - Issued corrupt pardons', href: '/entities/individuals/donald-trump' },
- { name: 'Paul Manafort', role: 'Campaign Chair - Pardoned for witness tampering, fraud', href: '/entities/individuals/paul-manafort' },
- { name: 'Michael Flynn', role: 'NSA - Pardoned for lying to FBI', href: '/entities/individuals/michael-flynn' },
- { name: 'Roger Stone', role: 'Advisor - Commuted and pardoned for obstruction', href: '/entities/individuals/roger-stone' },
- { name: 'Steve Bannon', role: 'Strategist - Pardoned for Build the Wall fraud', href: '/entities/individuals/steve-bannon' },
- { name: 'Charles Kushner', role: 'Jared\'s father - Pardoned for witness tampering', href: '/entities/individuals/charles-kushner' },
+ { name: 'Donald Trump', role: 'President, Issued corrupt pardons', href: '/entities/individuals/donald-trump' },
+ { name: 'Paul Manafort', role: 'Campaign Chair, Pardoned for witness tampering, fraud', href: '/entities/individuals/paul-manafort' },
+ { name: 'Michael Flynn', role: 'NSA, Pardoned for lying to FBI', href: '/entities/individuals/michael-flynn' },
+ { name: 'Roger Stone', role: 'Advisor, Commuted and pardoned for obstruction', href: '/entities/individuals/roger-stone' },
+ { name: 'Steve Bannon', role: 'Strategist, Pardoned for Build the Wall fraud', href: '/entities/individuals/steve-bannon' },
+ { name: 'Charles Kushner', role: 'Jared\'s father, Pardoned for witness tampering', href: '/entities/individuals/charles-kushner' },
  ],
 
  russiaInvestigationPardons: [
@@ -83,7 +83,7 @@ const investigationData = {
  {
  name: 'Steve Bannon',
  date: 'January 19, 2021',
- crimes: 'Fraud - We Build the Wall scheme (preemptive)',
+ crimes: 'Fraud, We Build the Wall scheme (preemptive)',
  connection: 'Trump campaign CEO, chief strategist',
  controversy: 'Pardoned hours before leaving office, before trial',
  },
@@ -181,18 +181,18 @@ const investigationData = {
  ],
  charges: [
  { statute: '18 U.S.C. § 1512(b)', description: 'Obstruction of justice through dangling pardons to discourage cooperation with Mueller investigation', count: 'Multiple instances (Manafort, Stone, Flynn)' },
- { statute: '18 U.S.C. § 201', description: 'Bribery - implicit exchange of pardons for silence and loyalty to the president', count: 'Pattern across multiple pardon recipients' },
+ { statute: '18 U.S.C. § 201', description: 'Bribery, implicit exchange of pardons for silence and loyalty to the president', count: 'Pattern across multiple pardon recipients' },
  { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States by using pardon power to undermine federal investigations', count: '1 count covering the overall pattern' },
  { statute: 'Article II, Section 4 (Impeachment Clause)', description: 'Abuse of presidential pardon power constituting a high crime or misdemeanor', count: 'Systemic pattern throughout presidency' },
- { statute: '18 U.S.C. § 1503', description: 'Obstruction of justice - corrupt interference with due administration of justice through pardon grants', count: 'Multiple instances tied to Russia investigation witnesses' },
- { statute: '18 U.S.C. § 4', description: 'Misprision of felony - pardoning individuals known to have committed crimes to prevent further investigation', count: 'Multiple instances' },
+ { statute: '18 U.S.C. § 1503', description: 'Obstruction of justice, corrupt interference with due administration of justice through pardon grants', count: 'Multiple instances tied to Russia investigation witnesses' },
+ { statute: '18 U.S.C. § 4', description: 'Misprision of felony, pardoning individuals known to have committed crimes to prevent further investigation', count: 'Multiple instances' },
  ],
  coverup: [
  'Trump dangled pardons to Manafort and Stone during the Mueller investigation, which both prosecutors and Manafort\'s own lawyer acknowledged influenced their refusal to cooperate with investigators.',
  'Roger Stone was convicted of lying to Congress specifically to protect Trump; Trump commuted his sentence days before Stone was to report to prison, then granted a full pardon months later.',
- 'Michael Flynn\'s pardon came after he twice pleaded guilty and was cooperating with prosecutors - the pardon effectively ended his cooperation and any further information he might have provided.',
- 'Steve Bannon was pardoned on Trump\'s last day in office for a fraud scheme that stole money from Trump\'s own supporters who donated to build a border wall - the pardon prevented a federal trial.',
- 'Charles Kushner\'s pardon was a direct family favor - he had been convicted of hiring a prostitute to entrap and blackmail his own brother-in-law to prevent cooperation with federal investigators.',
+ 'Michael Flynn\'s pardon came after he twice pleaded guilty and was cooperating with prosecutors, the pardon effectively ended his cooperation and any further information he might have provided.',
+ 'Steve Bannon was pardoned on Trump\'s last day in office for a fraud scheme that stole money from Trump\'s own supporters who donated to build a border wall, the pardon prevented a federal trial.',
+ 'Charles Kushner\'s pardon was a direct family favor, he had been convicted of hiring a prostitute to entrap and blackmail his own brother-in-law to prevent cooperation with federal investigators.',
  'Trump broke with the established Office of the Pardon Attorney process for most of his controversial pardons, bypassing normal vetting and merit-based review.',
  'The pardon of Blackwater contractors convicted of massacring 14 Iraqi civilians in Nisour Square was condemned by the UN and human rights organizations as undermining accountability for war crimes.',
  'Many pardon recipients were represented by lawyers with direct ties to Trump or had advocates who appeared on Fox News to publicly lobby for pardons.',

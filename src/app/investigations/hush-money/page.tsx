@@ -29,7 +29,7 @@ const investigation = {
  juryDeliberation: '9.5 hours',
  },
  keyFigures: [
- { name: 'Donald Trump', role: 'Defendant - Directed payments, signed falsified checks', href: '/entities/individuals/donald-trump', status: 'CONVICTED' },
+ { name: 'Donald Trump', role: 'Defendant, Directed payments, signed falsified checks', href: '/entities/individuals/donald-trump', status: 'CONVICTED' },
  { name: 'Michael Cohen', role: 'Made payment, pled guilty, key prosecution witness', href: '/entities/individuals/michael-cohen', status: 'Served 13 months' },
  { name: 'Stormy Daniels', role: 'Adult film actress paid $130,000 for silence', href: '/entities/individuals/stormy-daniels', status: 'Key witness' },
  { name: 'Karen McDougal', role: 'Playboy model paid $150,000 via AMI"catch and kill"', href: '/entities/individuals/karen-mcdougal', status: 'Witness' },
@@ -47,7 +47,7 @@ const investigation = {
  { defendant: 'Donald Trump', charge: '34 Counts Falsifying Business Records (1st Degree)', outcome: 'Guilty on all 34 counts (May 30, 2024) - first former president convicted of felonies' },
  { defendant: 'Michael Cohen', charge: 'Campaign Finance Violations, Tax Fraud, Lying to Congress', outcome: '3 years federal prison (December 2018)' },
  { defendant: 'Allen Weisselberg', charge: 'Tax Fraud (related Trump Org scheme)', outcome: 'Pleaded guilty - 5 months at Rikers Island' },
- { defendant: 'AMI / David Pecker', charge: 'Campaign Finance Violations - Catch and Kill scheme', outcome: 'Non-prosecution agreement in exchange for cooperation (2018)' },
+ { defendant: 'AMI / David Pecker', charge: 'Campaign Finance Violations, Catch and Kill scheme', outcome: 'Non-prosecution agreement in exchange for cooperation (2018)' },
  { defendant: 'Trump Organization (2 entities)', charge: '17 Felony Counts including Tax Fraud and Falsifying Records', outcome: 'Convicted on all counts - $1.61 million fine (December 2022)' },
  ],
  charges: [
@@ -80,7 +80,7 @@ const investigation = {
  { date: 'Jan 2017', event: 'Trump Organization begins reimbursing Cohen as"legal expenses"' },
  { date: 'Feb-Dec 2017', event: '11 monthly payments of ~$35,000 each to Cohen' },
  { date: 'Apr 2018', event: 'FBI raids Cohen\'s office; discovers payment records' },
- { date: 'Aug 2018', event: 'Cohen pleads guilty, implicates"Individual-1"(Trump)' },
+ { date: 'Aug 2018', event: 'Cohen pleads guilty, implicates "Individual-1"(Trump)' },
  { date: 'Dec 2018', event: 'Prosecutors: Trump directed payments violating campaign finance law' },
  { date: 'Mar 2023', event: 'Manhattan DA Bragg indicts Trump on 34 counts' },
  { date: 'Apr 2023', event: 'Trump arraigned, pleads not guilty' },

@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useRef } from"react";
-import { Send, AlertTriangle, FileText, Lock, CheckCircle, Upload, X, Paperclip } from"lucide-react";
+import { useState, useRef } from "react";
+import { Send, AlertTriangle, FileText, Lock, CheckCircle, Upload, X, Paperclip } from "lucide-react";
 import ContributorGate from '@/components/auth/ContributorGate';
 
 function SubmitPageContent() {
@@ -55,7 +55,7 @@ function SubmitPageContent() {
  return (
  <div className="min-h-screen pt-20 lg:pt-24 pb-16">
  <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
- {/* Header - Crystal Clear */}
+ {/* Header, Crystal Clear */}
  <div className="py-12">
  <div className="border-2 border-blood-800/60 bg-black/60 p-8 text-center">
  <div className="w-16 h-16 mx-auto mb-6 border-2 border-blood-700 bg-blood-950/30 flex items-center justify-center">
@@ -87,7 +87,7 @@ function SubmitPageContent() {
  </div>
  </div>
 
- {/* Form - Sharp */}
+ {/* Form, Sharp */}
  <form onSubmit={handleSubmit} className="border border-zinc-800 bg-black/60 p-8">
  <div className="space-y-6">
  {/* Subject */}

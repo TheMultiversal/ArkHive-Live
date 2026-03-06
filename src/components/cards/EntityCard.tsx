@@ -1,15 +1,15 @@
 import Link from"next/link";
-import { Building2, Landmark, User, ArrowRight, Skull } from"lucide-react";
+import { Building2, Landmark, User, ArrowRight, Skull } from "lucide-react";
 
 export interface Entity {
  id: string;
  slug: string;
  name: string;
- type:"agency"|"corporation"|"individual"|"organization";
+ type:"agency"|"corporation"|"individual"|" organization";
  description: string;
  role: string;
  investigationCount: number;
- riskLevel:"extreme"|"high"|"moderate"|"low";
+ riskLevel:" extreme"|" high"|" moderate"|" low";
  imageUrl?: string;
 }
 
@@ -26,9 +26,9 @@ const typeIcons = {
 
 const riskColors = {
  extreme:"text-blood-500 bg-blood-900/50 border-blood-700",
- high:"text-blood-600 bg-blood-900/30 border-blood-700",
- moderate:"text-zinc-400 bg-zinc-900/50 border-zinc-600",
- low:"text-zinc-500 bg-zinc-900/30 border-zinc-700",
+ high:" text-blood-600 bg-blood-900/30 border-blood-700",
+ moderate:" text-zinc-400 bg-zinc-900/50 border-zinc-600",
+ low:" text-zinc-500 bg-zinc-900/30 border-zinc-700",
 };
 
 const riskLabels = {
@@ -40,9 +40,9 @@ const riskLabels = {
 
 const typePluralPaths: Record<string, string> = {
  agency:"agencies",
- corporation:"corporations",
- individual:"individuals",
- organization:"organizations",
+ corporation:" corporations",
+ individual:" individuals",
+ organization:" organizations",
 };
 
 export default function EntityCard({ entity }: EntityCardProps) {

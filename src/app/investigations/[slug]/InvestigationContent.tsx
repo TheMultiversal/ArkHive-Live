@@ -14,9 +14,9 @@ import {
   Clock,
   Tag,
 } from "lucide-react";
-import AffiliationsSidebar, { Affiliation } from "@/components/layout/AffiliationsSidebar";
-import investigationDatabase from "@/data/investigations";
-import type { InvestigationData } from "@/data/investigations/types";
+import AffiliationsSidebar, { Affiliation } from"@/components/layout/AffiliationsSidebar";
+import investigationDatabase from"@/data/investigations";
+import type { InvestigationData } from"@/data/investigations/types";
 
 const defaultInvestigationData: InvestigationData = {
   title: "Investigation Template",

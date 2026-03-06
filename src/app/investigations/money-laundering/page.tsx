@@ -21,7 +21,7 @@ const investigationData = {
  title: 'Money Laundering',
  subtitle: 'Deutsche Bank, Russian Oligarchs, and the FinCEN Files',
  severity: 'critical' as const,
- status: 'Documented - Ongoing Investigations',
+ status: 'Documented, Ongoing Investigations',
  lastUpdated: 'February 2026',
  summary: `For decades, Donald Trump's businesses served as vehicles for potentially laundering money from Russian oligarchs and other foreign sources. Deutsche Bank provided over $2 billion in loans to Trump despite red flags, while Trump properties were purchased in suspicious all-cash transactions by shell companies. The FinCEN Files revealed multiple suspicious activity reports filed on Trump-related transactions. Several Trump properties appear to have been used specifically as money laundering vehicles.`,
  
@@ -34,12 +34,12 @@ const investigationData = {
  },
 
  keyFigures: [
- { name: 'Donald Trump', role: 'Principal - Beneficiary of suspicious transactions', href: '/entities/individuals/donald-trump' },
- { name: 'Eric Trump', role: 'Trump Organization - Admitted Russian funding', href: '/entities/individuals/eric-trump' },
+ { name: 'Donald Trump', role: 'Principal, Beneficiary of suspicious transactions', href: '/entities/individuals/donald-trump' },
+ { name: 'Eric Trump', role: 'Trump Organization, Admitted Russian funding', href: '/entities/individuals/eric-trump' },
  { name: 'Donald Trump Jr.', role: 'Trump Organization -"Russians make up a pretty disproportionate cross-section"', href: '/entities/individuals/donald-trump-jr' },
- { name: 'Paul Manafort', role: 'Campaign Chair - Convicted money launderer', href: '/entities/individuals/paul-manafort' },
- { name: 'Michael Cohen', role: 'Personal Attorney - Facilitated suspicious deals', href: '/entities/individuals/michael-cohen' },
- { name: 'Felix Sater', role: 'Business Associate - Russian organized crime ties', href: '/entities/individuals/felix-sater' },
+ { name: 'Paul Manafort', role: 'Campaign Chair, Convicted money launderer', href: '/entities/individuals/paul-manafort' },
+ { name: 'Michael Cohen', role: 'Personal Attorney, Facilitated suspicious deals', href: '/entities/individuals/michael-cohen' },
+ { name: 'Felix Sater', role: 'Business Associate, Russian organized crime ties', href: '/entities/individuals/felix-sater' },
  ],
 
  deutscheBankRelationship: {
@@ -140,7 +140,7 @@ const investigationData = {
  timeline: [
  { date: '1998', event: 'Deutsche Bank begins relationship with Trump' },
  { date: '2004', event: 'Trump buys Palm Beach mansion for $41M' },
- { date: '2008', event: 'Don Jr. admits Russians make up"disproportionate"assets' },
+ { date: '2008', event: 'Don Jr. admits Russians make up "disproportionate" assets' },
  { date: '2008', event: 'Russian oligarch pays $95M for Palm Beach mansion' },
  { date: '2010', event: 'Trump SoHo fraud lawsuit settled' },
  { date: '2012', event: 'Deutsche Bank finances Doral acquisition ($125M)' },
@@ -172,13 +172,13 @@ const investigationData = {
  ],
 
  charges: [
- { statute: '18 U.S.C. § 1956', description: 'Money laundering - conducting financial transactions with proceeds of specified unlawful activity through shell companies and real estate', count: 'Multiple transactions' },
- { statute: '18 U.S.C. § 1957', description: 'Engaging in monetary transactions in property derived from specified unlawful activity - all-cash real estate purchases above $10,000', count: 'Multiple transactions' },
- { statute: '31 U.S.C. § 5318(g)', description: 'Bank Secrecy Act - failure to file Suspicious Activity Reports on transactions showing money laundering red flags', count: '100+ SARs filed by banks' },
- { statute: '18 U.S.C. § 1341', description: 'Mail fraud - using the U.S. mail system in furtherance of fraudulent real estate schemes', count: 'Multiple counts' },
- { statute: '26 U.S.C. § 7201', description: 'Tax evasion - failure to report income from suspicious transactions and inflating/deflating property values', count: 'Multiple years' },
- { statute: '18 U.S.C. § 1014', description: 'False statements to financial institutions - misrepresenting financial condition to obtain Deutsche Bank loans', count: 'Multiple loan applications' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States - coordinated use of shell companies to obscure beneficial ownership', count: 'Ongoing conspiracy' },
+ { statute: '18 U.S.C. § 1956', description: 'Money laundering, conducting financial transactions with proceeds of specified unlawful activity through shell companies and real estate', count: 'Multiple transactions' },
+ { statute: '18 U.S.C. § 1957', description: 'Engaging in monetary transactions in property derived from specified unlawful activity, all-cash real estate purchases above $10,000', count: 'Multiple transactions' },
+ { statute: '31 U.S.C. § 5318(g)', description: 'Bank Secrecy Act, failure to file Suspicious Activity Reports on transactions showing money laundering red flags', count: '100+ SARs filed by banks' },
+ { statute: '18 U.S.C. § 1341', description: 'Mail fraud, using the U.S. mail system in furtherance of fraudulent real estate schemes', count: 'Multiple counts' },
+ { statute: '26 U.S.C. § 7201', description: 'Tax evasion, failure to report income from suspicious transactions and inflating/deflating property values', count: 'Multiple years' },
+ { statute: '18 U.S.C. § 1014', description: 'False statements to financial institutions, misrepresenting financial condition to obtain Deutsche Bank loans', count: 'Multiple loan applications' },
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States, coordinated use of shell companies to obscure beneficial ownership', count: 'Ongoing conspiracy' },
  ],
 
  coverup: [

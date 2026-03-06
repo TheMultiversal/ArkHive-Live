@@ -1,4 +1,4 @@
-// AUTO-GENERATED — Shard [G] managed by ArkHive Swarm Intelligence
+// AUTO-GENERATED, Shard [G] managed by ArkHive Swarm Intelligence
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -23,9 +23,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -40,10 +40,10 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'December 25, 1961',
     birthPlace: 'Maisons-Laffitte, France',
     netWorth: '$20 million (pre-conviction, subject to restitution)',
-    education: ['Oxford University - Modern History and Languages (Balliol College)'],
+    education: ['Oxford University, Modern History and Languages (Balliol College)'],
     affiliations: [
       { name: 'Epstein Network', role: 'Chief Recruiter and Co-Conspirator', type: 'organization' },
-      { name: 'TerraMar Project', role: 'Founder (Ocean Conservation Front - dissolved 2019)', type: 'organization' },
+      { name: 'TerraMar Project', role: 'Founder (Ocean Conservation Front, dissolved 2019)', type: 'organization' },
       { name: 'Clinton Global Initiative', role: 'Donor and Participant', type: 'organization' },
       { name: 'NY Social Scene', role: 'High Society Facilitator', type: 'organization' },
     ],
@@ -167,9 +167,9 @@ const profiles: Record<string, IndividualProfile> = {
   'gordon-sondland': {
     name: 'Gordon David Sondland',
     title: 'Former US Ambassador to EU',
-    role: 'Ukraine"Three Amigos", Quid Pro Quo Witness',
+    role: 'Ukraine "Three Amigos", Quid Pro Quo Witness',
     riskLevel: 'high',
-    description: 'Gordon Sondland was the US Ambassador to the European Union who became a key witness in Trump\'s first impeachment. He famously testified"Was there a quid pro quo? ...The answer is yes."He was part of the"Three Amigos"running Trump\'s shadow Ukraine policy.',
+    description: 'Gordon Sondland was the US Ambassador to the European Union who became a key witness in Trump\'s first impeachment. He famously testified "Was there a quid pro quo? ...The answer is yes."He was part of the "Three Amigos "running Trump\'s shadow Ukraine policy.',
     birthDate: 'July 20, 1957',
     birthPlace: 'Seattle, Washington, USA',
     netWorth: '$60+ million',
@@ -179,10 +179,10 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Provenance Hotels', role: 'Founder', type: 'corporation' },
     ],
     controversies: [
-      '"Everyone was in the loop"on Ukraine quid pro quo',
+      '"Everyone was in the loop "on Ukraine quid pro quo',
       '"Was there a quid pro quo? The answer is yes"',
       '$1 million donation to Trump inauguration',
-      'Text:"Call me"when asked about quid pro quo',
+      'Text:"Call me "when asked about quid pro quo',
       'Fired by Trump day after acquittal',
       'Initially provided misleading testimony',
     ],
@@ -195,7 +195,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1957', event: 'Born in Seattle' },
       { date: '2017', event: 'Donates $1 million to Trump inauguration' },
       { date: '2018', event: 'Confirmed as Ambassador to EU' },
-      { date: '2019', event: 'Testifies"everyone was in the loop"' },
+      { date: '2019', event: 'Testifies" everyone was in the loop"' },
       { date: '2019', event: 'Confirms quid pro quo in testimony' },
       { date: '2020', event: 'Fired by Trump (February 7)' },
     ],
@@ -216,30 +216,30 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Convicted Felon',
     role: 'Trump Campaign Advisor, Russia Investigation Trigger',
     riskLevel: 'high',
-    description: 'George Papadopoulos was a Trump campaign foreign policy advisor whose drunken conversation with an Australian diplomat triggered the FBI Russia investigation. He learned Russians had"dirt"on Clinton before the DNC hack was public and pleaded guilty to lying to the FBI.',
+    description: 'George Papadopoulos was a Trump campaign foreign policy advisor whose drunken conversation with an Australian diplomat triggered the FBI Russia investigation. He learned Russians had "dirt "on Clinton before the DNC hack was public and pleaded guilty to lying to the FBI.',
     birthDate: 'August 19, 1987',
     birthPlace: 'Chicago, Illinois, USA',
     netWorth: 'Unknown',
-    education: ['M.A. - University College London', 'B.A. - DePaul University'],
+    education: ['M.A., University College London', 'B.A., DePaul University'],
     affiliations: [
       { name: 'Trump Campaign', role: 'Foreign Policy Advisor', type: 'organization' },
     ],
     controversies: [
       'Triggered FBI Crossfire Hurricane investigation',
-      'Learned Russians had"thousands"of Clinton emails (April 2016)',
+      'Learned Russians had "thousands "of Clinton emails (April 2016)',
       'Told Australian diplomat Alexander Downer about dirt',
       'Met with Russian-connected professor Mifsud',
       'Lied to FBI about timeline',
-      'Trump dismissed as"coffee boy"',
+      'Trump dismissed as "coffee boy"',
       'Pardoned by Trump',
     ],
     charges: [
-      { statute: '18 U.S.C. § 1001', description: 'Making False Statements to FBI (Pled Guilty) - Lied about timeline of Russian contacts during campaign', category: 'Obstruction' },
-      { statute: '52 U.S.C. § 30121 (Foreign Contributions)', description: 'Foreign Election Assistance - Received advance notice of Russian"dirt"on Clinton from foreign nationals', category: 'Campaign Finance' },
-      { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Russia Coordination - Served as conduit between Trump campaign and Russian-connected individuals', category: 'Conspiracy' },
-      { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction Investigation - Lied to cover up extent of Russian contacts with campaign', category: 'Obstruction' },
-      { statute: '18 U.S.C. § 951 (Foreign Agent)', description: 'Potential Foreign Agent - Acted as intermediary for Russian government interests without registration', category: 'Foreign Agent' },
-      { statute: 'Presidential Pardon', description: 'Pardoned by Trump - December 2020 pardon wiped conviction but not underlying conduct', category: 'Pardoned' },
+      { statute: '18 U.S.C. § 1001', description: 'Making False Statements to FBI (Pled Guilty), Lied about timeline of Russian contacts during campaign', category: 'Obstruction' },
+      { statute: '52 U.S.C. § 30121 (Foreign Contributions)', description: 'Foreign Election Assistance, Received advance notice of Russian "dirt "on Clinton from foreign nationals', category: 'Campaign Finance' },
+      { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Russia Coordination, Served as conduit between Trump campaign and Russian-connected individuals', category: 'Conspiracy' },
+      { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction Investigation, Lied to cover up extent of Russian contacts with campaign', category: 'Obstruction' },
+      { statute: '18 U.S.C. § 951 (Foreign Agent)', description: 'Potential Foreign Agent, Acted as intermediary for Russian government interests without registration', category: 'Foreign Agent' },
+      { statute: 'Presidential Pardon', description: 'Pardoned by Trump, December 2020 pardon wiped conviction but not underlying conduct', category: 'Pardoned' },
     ],
     relatedInvestigations: [
       { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -302,8 +302,8 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'September 2, 1963',
  birthPlace: 'Boston, Massachusetts',
  education: [
- 'J.D. - Yale Law School (1987)',
- 'B.A. - Harvard College (1984)',
+ 'J.D., Yale Law School (1987)',
+ 'B.A., Harvard College (1984)',
  ],
  netWorth: '$40+ million',
  aliases: [],
@@ -398,9 +398,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -429,9 +429,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -459,9 +459,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -489,9 +489,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -519,9 +519,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -533,11 +533,11 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Former CIA Director',
     role: 'Intelligence Chief, WMD Fabrication Enabler, Torture Architect',
     riskLevel: 'critical',
-    description: 'George Tenet served as CIA Director from 1997-2004 under both Clinton and Bush. His infamous"slam dunk"assurance to President Bush that Iraq had WMD helped justify the Iraq War. He oversaw massive intelligence failures including missing 9/11 warnings, embraced false intelligence from"Curveball,"approved the CIA torture program, and destroyed evidence of waterboarding. Despite catastrophic failures, he received the Presidential Medal of Freedom.',
+    description: 'George Tenet served as CIA Director from 1997-2004 under both Clinton and Bush. His infamous "slam dunk "assurance to President Bush that Iraq had WMD helped justify the Iraq War. He oversaw massive intelligence failures including missing 9/11 warnings, embraced false intelligence from "Curveball,"approved the CIA torture program, and destroyed evidence of waterboarding. Despite catastrophic failures, he received the Presidential Medal of Freedom.',
     birthDate: 'January 5, 1953',
     birthPlace: 'Flushing, Queens, New York, USA',
     netWorth: '$5+ million',
-    education: ['M.I.A. - Columbia University School of International Affairs (1978)', 'B.S. - Georgetown University School of Foreign Service (1976)'],
+    education: ['M.I.A., Columbia University School of International Affairs (1978)', 'B.S., Georgetown University School of Foreign Service (1976)'],
     affiliations: [
       { name: 'Central Intelligence Agency', role: 'Director (1997-2004)', type: 'agency' },
       { name: 'Senate Select Committee on Intelligence', role: 'Staff Director (1988-1993)', type: 'agency' },
@@ -546,10 +546,10 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'L-1 Identity Solutions', role: 'Board Member', type: 'corporation' },
     ],
     controversies: [
-      'SLAM DUNK CLAIM: December 2002 Oval Office meeting - told Bush WMD case was"slam dunk"- became symbol of intelligence failure',
-      '9/11 INTELLIGENCE FAILURE: CIA missed multiple warnings about imminent attacks despite"hair on fire"warnings',
-      'CURVEBALL DEBACLE: Embraced fabricated intelligence from defector"Curveball"about mobile bioweapon labs',
-      'CIA TORTURE PROGRAM: Approved and oversaw"enhanced interrogation"including waterboarding, rectal feeding, sleep deprivation',
+      'SLAM DUNK CLAIM: December 2002 Oval Office meeting, told Bush WMD case was "slam dunk," became symbol of intelligence failure',
+      '9/11 INTELLIGENCE FAILURE: CIA missed multiple warnings about imminent attacks despite "hair on fire "warnings',
+      'CURVEBALL DEBACLE: Embraced fabricated intelligence from defector "Curveball "about mobile bioweapon labs',
+      'CIA TORTURE PROGRAM: Approved and oversaw "enhanced interrogation "including waterboarding, rectal feeding, sleep deprivation',
       'DESTROYED TORTURE TAPES: 92 videotapes of waterboarding destroyed on his watch, evidence destruction',
       'RENDITION PROGRAM: Expanded extraordinary rendition sending suspects to foreign countries for torture',
       'IRAQI WMD FAILURES: Provided false assessments that Iraq had active WMD programs',
@@ -558,14 +558,14 @@ const profiles: Record<string, IndividualProfile> = {
       'POST-9/11 BLACK SITES: Established global network of secret CIA prisons',
     ],
     charges: [
-      { statute: 'Rome Statute Article 8(2)(a)(ii)', description: 'War Crime - Torture program approval and oversight', category: 'War Crimes' },
-      { statute: 'Rome Statute Article 7(1)(f)', description: 'Crime Against Humanity - Torture as widespread policy', category: 'International' },
-      { statute: 'Rome Statute Article 7(1)(i)', description: 'Enforced Disappearance - Black site detention program', category: 'International' },
-      { statute: 'Convention Against Torture Article 1', description: 'Torture - Direct authorization of torture techniques', category: 'International' },
-      { statute: 'Convention Against Torture Article 3', description: 'Refoulement - Rendition to torture states', category: 'International' },
-      { statute: '18 U.S.C. § 2340A', description: 'Torture - Authorized waterboarding and enhanced interrogation', category: 'Federal' },
-      { statute: '18 U.S.C. § 1519', description: 'Destruction of Evidence - Torture tape destruction', category: 'Federal' },
-      { statute: 'Geneva Convention III Article 17', description: 'POW Torture - Authorized illegal interrogation of detainees', category: 'International' },
+      { statute: 'Rome Statute Article 8(2)(a)(ii)', description: 'War Crime, Torture program approval and oversight', category: 'War Crimes' },
+      { statute: 'Rome Statute Article 7(1)(f)', description: 'Crime Against Humanity, Torture as widespread policy', category: 'International' },
+      { statute: 'Rome Statute Article 7(1)(i)', description: 'Enforced Disappearance, Black site detention program', category: 'International' },
+      { statute: 'Convention Against Torture Article 1', description: 'Torture, Direct authorization of torture techniques', category: 'International' },
+      { statute: 'Convention Against Torture Article 3', description: 'Refoulement, Rendition to torture states', category: 'International' },
+      { statute: '18 U.S.C. § 2340A', description: 'Torture, Authorized waterboarding and enhanced interrogation', category: 'Federal' },
+      { statute: '18 U.S.C. § 1519', description: 'Destruction of Evidence, Torture tape destruction', category: 'Federal' },
+      { statute: 'Geneva Convention III Article 17', description: 'POW Torture, Authorized illegal interrogation of detainees', category: 'International' },
     ],
     relatedInvestigations: [
       { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
@@ -583,12 +583,12 @@ const profiles: Record<string, IndividualProfile> = {
       { date: 'July 1997', event: 'Becomes CIA Director' },
       { date: 'August 1998', event: 'Embassy bombings in Kenya, Tanzania' },
       { date: 'December 1998', event: 'Warns of bin Laden threat in daily brief' },
-      { date: 'July 2001', event: '"Hair on fire"meeting about imminent al-Qaeda attack' },
+      { date: 'July 2001', event: '"Hair on fire" meeting about imminent al-Qaeda attack' },
       { date: 'August 6, 2001', event: 'Delivers PDB"Bin Laden Determined to Strike in US"' },
-      { date: 'September 11, 2001', event: '9/11 attacks - massive intelligence failure' },
+      { date: 'September 11, 2001', event: '9/11 attacks, massive intelligence failure' },
       { date: 'September 2001', event: 'Approves CIA torture program' },
       { date: '2002', event: 'Establishes global black site network' },
-      { date: 'December 21, 2002', event: '"Slam dunk"Oval Office meeting' },
+      { date: 'December 21, 2002', event: '"Slam dunk "Oval Office meeting' },
       { date: 'February 2003', event: 'Provides intel for Powell UN presentation' },
       { date: 'March 2003', event: 'Iraq War begins based partly on CIA assessments' },
       { date: '2004', event: 'WMD claims proven false, Curveball exposed as fabricator' },
@@ -602,7 +602,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Senate Intelligence Committee Torture Report', url: 'https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
       { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },
       { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
-      { title: 'CIA OIG Special Review - Detention and Interrogation', url: 'https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf', date: '2004' },
+      { title: 'CIA OIG Special Review, Detention and Interrogation', url: 'https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf', date: '2004' },
       { title: 'At the Center of the Storm: My Years at the CIA', url: 'https://www.harpercollins.com/products/at-the-center-of-the-storm-george-tenet', date: '2007' },
       { title: 'Curveball Investigation Reports', url: 'https://www.ignet.gov/', date: '2004' },
     ],
@@ -675,9 +675,9 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: '18 U.S.C. § 2423', description: 'Transportation of Minor for Sexual Activity (2020 conviction)', category: 'Child Exploitation' },
       { statute: '18 U.S.C. § 2252', description: 'Transportation of Child Pornography (2003 conviction)', category: 'Child Exploitation' },
       { statute: 'Czech Criminal Code', description: 'Child Pornography (1991 conviction)', category: 'Czech Republic' },
-      { statute: '22 U.S.C. § 611', description: 'FARA Violation - Failure to register as foreign agent', category: 'Federal' },
-      { statute: '52 U.S.C. § 30121', description: 'Foreign Campaign Contributions - UAE money to Republicans', category: 'Federal' },
-      { statute: '18 U.S.C. § 371', description: 'Conspiracy - Foreign influence operations', category: 'Federal' },
+      { statute: '22 U.S.C. § 611', description: 'FARA Violation, Failure to register as foreign agent', category: 'Federal' },
+      { statute: '52 U.S.C. § 30121', description: 'Foreign Campaign Contributions, UAE money to Republicans', category: 'Federal' },
+      { statute: '18 U.S.C. § 371', description: 'Conspiracy, Foreign influence operations', category: 'Federal' },
     ],
     relatedInvestigations: [
       { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
@@ -707,10 +707,10 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
-      { title: 'DOJ Press Release - Nader Sentencing', url: 'https://www.justice.gov/usao-edva/pr/businessman-sentenced-ten-years-child-sex-trafficking-and-transporting-child-pornography', date: '2020' },
+      { title: 'DOJ Press Release, Nader Sentencing', url: 'https://www.justice.gov/usao-edva/pr/businessman-sentenced-ten-years-child-sex-trafficking-and-transporting-child-pornography', date: '2020' },
       { title: 'EDVA Criminal Case Documents', url: 'https://www.courtlistener.com/docket/15455937/united-states-v-nader/', date: '2019-2020' },
       { title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/', date: '2020' },
-      { title: 'New York Times - Nader UAE Role', url: 'https://www.nytimes.com/2018/03/03/us/politics/george-nader-mueller-investigation-united-arab-emirates.html', date: '2018' },
+      { title: 'New York Times, Nader UAE Role', url: 'https://www.nytimes.com/2018/03/03/us/politics/george-nader-mueller-investigation-united-arab-emirates.html', date: '2018' },
     ],
     aliases: ['Middle East Fixer', 'UAE Lobbyist'],
     knownAssociates: [
@@ -753,7 +753,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Murder Victim / Symbol of Police Brutality',
     role: 'Victim of police murder whose death sparked worldwide protests for racial justice',
     riskLevel: 'low',
-    description: 'George Perry Floyd was a 46-year-old Black man murdered by Minneapolis police officer Derek Chauvin on May 25, 2020. Chauvin knelt on Floyd\'s neck for over 9 minutes while Floyd pleaded"I can\'t breathe"and called for his mother. His death, recorded by bystanders, sparked the largest protests in U.S. history and a global reckoning with police violence against Black people.',
+    description: 'George Perry Floyd was a 46-year-old Black man murdered by Minneapolis police officer Derek Chauvin on May 25, 2020. Chauvin knelt on Floyd\'s neck for over 9 minutes while Floyd pleaded "I can\'t breathe "and called for his mother. His death, recorded by bystanders, sparked the largest protests in U.S. history and a global reckoning with police violence against Black people.',
     education: [],
     affiliations: [
       { name: 'Department of Justice', role: 'DOJ Official', type: 'agency' },
@@ -761,9 +761,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'THE INCIDENT: Floyd was accused of using a counterfeit $20 bill at a convenience store. Police handcuffed him and pinned him to the ground. Derek Chauvin knelt on his neck for 9 minutes and 29 seconds.',
-      'HIS FINAL WORDS: Floyd\'s last words included"I can\'t breathe"(said over 20 times),"Mama,"and"Tell my kids I love them."Chauvin kept his knee on Floyd\'s neck even after he became unresponsive.',
+      'HIS FINAL WORDS: Floyd\'s last words included "I can\'t breathe"(said over 20 times),"Mama," and "Tell my kids I love them."Chauvin kept his knee on Floyd\'s neck even after he became unresponsive.',
       'BYSTANDER COURAGE: 17-year-old Darnella Frazier recorded the murder on her phone despite officer threats. Her video, watched billions of times, proved crucial to the conviction and sparked worldwide protests.',
-      'WHO HE WAS: Floyd was born in Fayetteville, North Carolina and grew up in Houston\'s Third Ward. He was a father, brother, athlete, and community figure. Friends called him"Big Floyd"and remembered his warmth.',
+      'WHO HE WAS: Floyd was born in Fayetteville, North Carolina and grew up in Houston\'s Third Ward. He was a father, brother, athlete, and community figure. Friends called him "Big Floyd "and remembered his warmth.',
       'GLOBAL PROTESTS: Floyd\'s murder sparked protests in all 50 states and over 60 countries. An estimated 15-26 million Americans participated in protests, making it the largest movement in U.S. history.',
       'MEMORIALS: Floyd\'s funeral was attended by thousands. Murals appeared worldwide. His face became a symbol of the movement against police brutality.',
       'GEORGE FLOYD JUSTICE IN POLICING ACT: Proposed federal legislation named after Floyd would ban chokeholds, end qualified immunity, create a national police misconduct registry, and mandate body cameras. It has not passed the Senate.',
@@ -824,7 +824,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: '38th President of the United States',
     role: 'President who pardoned Nixon, preventing accountability for Watergate crimes',
     riskLevel: 'high',
-    description: 'Gerald Ford served as 38th President (1974-1977) after Nixon\'s resignation. His most consequential and controversial act was pardoning Nixon on September 8, 1974, granting him"full, free, and absolute pardon"for any crimes committed during his presidency. This prevented prosecution of Nixon and established precedent that presidents face no accountability.',
+    description: 'Gerald Ford served as 38th President (1974-1977) after Nixon\'s resignation. His most consequential and controversial act was pardoning Nixon on September 8, 1974, granting him "full, free, and absolute pardon "for any crimes committed during his presidency. This prevented prosecution of Nixon and established precedent that presidents face no accountability.',
     birthDate: 'July 14, 1913',
     birthPlace: 'Omaha, Nebraska',
     deathDate: 'December 26, 2006',
@@ -834,7 +834,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Republican Party', role: 'Party Member', type: 'organization' },
     ],
     controversies: [
-      'NIXON PARDON: Granted Nixon"full, free, and absolute pardon"one month after taking office, preventing any prosecution for Watergate crimes',
+      'NIXON PARDON: Granted Nixon "full, free, and absolute pardon "one month after taking office, preventing any prosecution for Watergate crimes',
       'NO ACCOUNTABILITY PRECEDENT: The pardon established that presidents can commit crimes without facing justice, a precedent with consequences to this day',
       'SUSPICIOUS TIMING: Ford became VP only because Spiro Agnew resigned in disgrace. Some believe Nixon elevated Ford knowing he would pardon him',
       'POLITICAL COST: The pardon likely cost Ford the 1976 election, but he maintained it was right for the country',
@@ -889,7 +889,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'CIA Director (2018-2021)',
     role: 'Ran CIA black site in Thailand where prisoners were tortured; later became CIA Director',
     riskLevel: 'critical',
-    description: 'Gina Haspel ran the CIA\'s"Cat\'s Eye"black site in Thailand in 2002 where detainees were waterboarded and tortured. She later drafted the order to destroy 92 interrogation videotapes to conceal evidence of torture. Despite this history, she was confirmed as CIA Director in 2018, rewarded rather than prosecuted for overseeing torture.',
+    description: 'Gina Haspel ran the CIA\'s "Cat\'s Eye "black site in Thailand in 2002 where detainees were waterboarded and tortured. She later drafted the order to destroy 92 interrogation videotapes to conceal evidence of torture. Despite this history, she was confirmed as CIA Director in 2018, rewarded rather than prosecuted for overseeing torture.',
     birthDate: 'October 1, 1956',
     birthPlace: 'Ashland, Kentucky',
     education: ['University of Kentucky', 'University of Louisville'],
@@ -983,7 +983,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'January 6, 2021', event: 'Proud Boys lead Capitol attack' },
  ],
  sources: [
- { title: 'DOJ prosecution records - Proud Boys', url: 'https://scholar.google.com/scholar?q=DOJ%20prosecution%20records%20-%20Proud%20Boys', date: '2023' },
+ { title: 'DOJ prosecution records, Proud Boys', url: 'https://scholar.google.com/scholar?q=DOJ%20prosecution%20records%20-%20Proud%20Boys', date: '2023' },
  ],
  },
  'glenn-greenwald': {
@@ -1075,9 +1075,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1119,7 +1119,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Aviation Engineer/Writer',
     role: 'Technical Analyst',
     riskLevel: 'low',
-    description: 'Gregory Travis is an engineer and writer who published one of the most influential technical analyses of the MCAS system after the crashes. His article"How the Boeing 737 Max Disaster Looks to a Software Developer"explained the technical failures in accessible terms and was widely shared.',
+    description: 'Gregory Travis is an engineer and writer who published one of the most influential technical analyses of the MCAS system after the crashes. His article "How the Boeing 737 Max Disaster Looks to a Software Developer "explained the technical failures in accessible terms and was widely shared.',
     birthDate: 'Unknown',
     birthPlace: 'United States',
     education: ['Engineering degree'],
@@ -1137,7 +1137,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '2019', event: 'Publishes MCAS analysis' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Gregory Travis' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Gregory Travis' },
       { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Gregory Travis' },
     ],
     socialMedia: [],
@@ -1156,7 +1156,7 @@ const profiles: Record<string, IndividualProfile> = {
  'george-zoley': {
  name: 'George Zoley',
  title: 'GEO Group Founder',
- role: 'GEO Group Founder - Private Prison Empire',
+ role: 'GEO Group Founder, Private Prison Empire',
  riskLevel: 'high',
  description: 'George Zoley founded and led GEO Group, the second-largest private prison company in America. GEO operates prisons, immigration detention centers, and mental health facilities where abuse and neglect have been documented. Zoley has extracted hundreds of millions in compensation while his company profits from human suffering.',
  birthDate: '1950 (approx)',
@@ -1175,8 +1175,8 @@ const profiles: Record<string, IndividualProfile> = {
  'SEXUAL ABUSE: Documented at multiple facilities',
  ],
  charges: [
- { statute: 'TVPA', description: 'Trafficking Victims Protection - Forced labor', category: 'CIVIL LITIGATION' },
- { statute: '42 U.S.C. � 1983', description: 'Civil Rights - Conditions of confinement', category: 'CIVIL LITIGATION' },
+ { statute: 'TVPA', description: 'Trafficking Victims Protection, Forced labor', category: 'CIVIL LITIGATION' },
+ { statute: '42 U.S.C. � 1983', description: 'Civil Rights, Conditions of confinement', category: 'CIVIL LITIGATION' },
  ],
  relatedInvestigations: [
  { title: 'Private Prison Industry', slug: 'private-prison-industry', severity: 'critical' },
@@ -1189,7 +1189,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: George Zoley', url: 'https://en.wikipedia.org/wiki/George_Zoley' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
  knownAssociates: [
- { name: 'Damon Hininger', relationship: 'Fellow private prison executive - CoreCivic CEO', href: '/entities/individuals/damon-hininger' },
+ { name: 'Damon Hininger', relationship: 'Fellow private prison executive, CoreCivic CEO', href: '/entities/individuals/damon-hininger' },
  { name: 'Thomas Beasley', relationship: 'CCA co-founder who pioneered private prison industry', href: '/entities/individuals/thomas-beasley' }
  ],
 
@@ -1197,7 +1197,7 @@ const profiles: Record<string, IndividualProfile> = {
  'greg-hayes': {
  name: 'Gregory Hayes',
  title: 'RTX (Raytheon) CEO',
- role: 'Raytheon CEO - Weapons Manufacturer',
+ role: 'Raytheon CEO, Weapons Manufacturer',
  riskLevel: 'high',
  description: 'Gregory Hayes leads RTX (formerly Raytheon), a major defense contractor that makes missiles, bombs, and weapons systems. Raytheon weapons have been used in strikes that killed civilians in Yemen, Gaza, and elsewhere. Hayes has acknowledged that conflict is good for business, profiting from global instability.',
  birthDate: '1960',
@@ -1228,15 +1228,15 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Gregory Hayes', url: 'https://en.wikipedia.org/wiki/Gregory_Hayes' }, { title: 'Bloomberg: Gregory Hayes', url: 'https://www.bloomberg.com/' }],
  knownAssociates: [
- { name: 'James Taiclet', relationship: 'Fellow defense contractor CEO - Lockheed Martin', href: '/entities/individuals/james-taiclet' },
- { name: 'Lloyd Austin', relationship: 'Defense Secretary - major Raytheon customer', href: '/entities/individuals/lloyd-austin' }
+ { name: 'James Taiclet', relationship: 'Fellow defense contractor CEO, Lockheed Martin', href: '/entities/individuals/james-taiclet' },
+ { name: 'Lloyd Austin', relationship: 'Defense Secretary, major Raytheon customer', href: '/entities/individuals/lloyd-austin' }
  ],
 
  },
  'geoffrey-bible': {
  name: 'Geoffrey Bible',
  title: 'Former Philip Morris CEO',
- role: 'Philip Morris CEO - Tobacco Industry Lies',
+ role: 'Philip Morris CEO, Tobacco Industry Lies',
  riskLevel: 'critical',
  description: 'Geoffrey Bible led Philip Morris (now Altria) during the peak of tobacco litigation. He defended the industry\'s decades of lies about addiction and cancer, even as internal documents proved the company knew cigarettes were deadly and addictive. Tobacco kills 480,000 Americans annually.',
  birthDate: '1937',
@@ -1248,7 +1248,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  controversies: [
  'DECADES OF LIES: Denied addiction and cancer links',
- 'TARGETING CHILDREN:"Joe Camel"marketing',
+ 'TARGETING CHILDREN:"Joe Camel "marketing',
  'SUPPRESSED RESEARCH: Hid internal studies proving harm',
  '$206 BILLION SETTLEMENT: Master Settlement Agreement',
  '480,000 DEATHS/YEAR: Tobacco death toll continues',
@@ -1256,7 +1256,7 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [
  { statute: 'RICO', description: 'DOJ found tobacco companies lied for decades', category: 'JUDGMENT' },
  { statute: 'State AG Settlement', description: 'Master Settlement Agreement', category: '$206 BILLION' },
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Mass death', category: 'INTERNATIONAL' },
+ { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity, Mass death', category: 'INTERNATIONAL' },
  ],
  relatedInvestigations: [
  { title: 'Big Tobacco Conspiracy', slug: 'big-tobacco-conspiracy', severity: 'critical' },
@@ -1295,9 +1295,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1307,7 +1307,7 @@ const profiles: Record<string, IndividualProfile> = {
  'greg-abbott': {
  name: 'Greg Abbott',
  title: 'Governor of Texas',
- role: 'Texas Governor - Border Cruelty, Grid Failures',
+ role: 'Texas Governor, Border Cruelty, Grid Failures',
  riskLevel: 'critical',
  description: 'Greg Abbott has been Texas Governor since 2015, overseeing deadly power grid failures that killed hundreds, implementing cruel border policies including floating barriers that drowned migrants, busing migrants to Democratic cities, and signing extreme anti-abortion and anti-trans laws.',
  birthDate: 'November 13, 1957',
@@ -1326,7 +1326,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [
  { statute: 'Federal Immigration Law', description: 'Border enforcement interference', category: 'FEDERAL DISPUTES' },
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Inhumane acts at border', category: 'INTERNATIONAL' },
+ { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity, Inhumane acts at border', category: 'INTERNATIONAL' },
  ],
  relatedInvestigations: [
  { title: 'Texas Border Cruelty', slug: 'texas-border-cruelty', severity: 'critical' },
@@ -1349,7 +1349,7 @@ const profiles: Record<string, IndividualProfile> = {
  'guy-reffitt': {
  name: 'Guy Reffitt',
  title: 'Convicted January 6 Rioter',
- role: 'Texas Three Percenter - First J6 Trial CONVICTED',
+ role: 'Texas Three Percenter, First J6 Trial CONVICTED',
  riskLevel: 'critical',
  description: 'Guy Reffitt was the first January 6 defendant to go to trial rather than take a plea deal. The Texas Three Percenters militia member was convicted of storming the Capitol while armed and threatening his children to stay silent. Sentenced to over 7 years.',
  birthDate: '1973 (approx)',
@@ -1366,7 +1366,7 @@ const profiles: Record<string, IndividualProfile> = {
  '7+ YEARS: Substantial sentence',
  ],
  charges: [
- { statute: '18 U.S.C. � 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED - 87 MONTHS' },
+ { statute: '18 U.S.C. � 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED, 87 MONTHS' },
  { statute: '18 U.S.C. � 930', description: 'Carrying firearm on Capitol grounds', category: 'CONVICTED' },
  { statute: '18 U.S.C. � 1512', description: 'Witness tampering', category: 'CONVICTED' },
  ],
@@ -1409,9 +1409,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1442,8 +1442,8 @@ const profiles: Record<string, IndividualProfile> = {
  'ARMED PURSUIT: Brought weapons to hunt jogger',
  ],
  charges: [
- { statute: 'Georgia Code � 16-5-1', description: 'Felony murder', category: 'CONVICTED - LIFE' },
- { statute: '18 U.S.C. � 249', description: 'Federal hate crime', category: 'CONVICTED - LIFE' },
+ { statute: 'Georgia Code � 16-5-1', description: 'Felony murder', category: 'CONVICTED, LIFE' },
+ { statute: '18 U.S.C. � 249', description: 'Federal hate crime', category: 'CONVICTED, LIFE' },
  ],
  relatedInvestigations: [
  { title: 'Ahmaud Arbery Murder', slug: 'ahmaud-arbery-murder', severity: 'critical' },
@@ -1459,7 +1459,7 @@ const profiles: Record<string, IndividualProfile> = {
  'george-zimmerman': {
  name: 'George Zimmerman',
  title: 'Acquitted Killer',
- role: 'Killed Trayvon Martin - Stand Your Ground',
+ role: 'Killed Trayvon Martin, Stand Your Ground',
  riskLevel: 'high',
  description: 'George Zimmerman shot and killed 17-year-old Trayvon Martin, an unarmed Black teenager walking home from a store in Sanford, Florida in 2012. Despite being told by 911 dispatchers not to follow Martin, Zimmerman pursued and killed him. His acquittal sparked the Black Lives Matter movement.',
  birthDate: 'October 5, 1983',
@@ -1517,7 +1517,7 @@ const profiles: Record<string, IndividualProfile> = {
  'OFFICER DEATH: Sicknick died next day',
  ],
  charges: [
- { statute: '18 U.S.C. � 111', description: 'Assaulting officers', category: 'CONVICTED - 24 MONTHS' },
+ { statute: '18 U.S.C. � 111', description: 'Assaulting officers', category: 'CONVICTED, 24 MONTHS' },
  { statute: '18 U.S.C. � 231', description: 'Civil disorder', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
@@ -1551,9 +1551,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1584,9 +1584,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1615,9 +1615,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1686,7 +1686,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  knownAssociates: [
- { name: 'Oliver North', relationship: 'Webb\'s"Dark Alliance"series exposed CIA-Contra cocaine trafficking networks that North helped coordinate', href: '/entities/individuals/oliver-north' },
+ { name: 'Oliver North', relationship: 'Webb\'s "Dark Alliance" series exposed CIA-Contra cocaine trafficking networks that North helped coordinate', href: '/entities/individuals/oliver-north' },
  { name: 'Ronald Reagan', relationship: 'CIA-backed Contra cocaine trafficking exposed by Webb occurred under the Reagan administration\'s covert foreign policy', href: '/entities/individuals/ronald-reagan' },
  ],
  controversies: [
@@ -1720,7 +1720,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Researcher who published peer-reviewed analysis proving Exxon' },
       { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Geoffrey Supran to previously unknown institutional relationships' },
-      { date: '2026-03-05', event: 'Network analysis completed — Geoffrey Supran connected to 10 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Geoffrey Supran connected to 10 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
@@ -1813,10 +1813,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'george-romney': {
     name: 'George Romney',
-    title: 'HUD Secretary who tried to enforce fair housing - overruled by Nixon',
-    role: 'HUD Secretary who tried to enforce fair housing - overruled by Nixon',
+    title: 'HUD Secretary who tried to enforce fair housing, overruled by Nixon',
+    role: 'HUD Secretary who tried to enforce fair housing, overruled by Nixon',
     riskLevel: 'high',
-    description: 'George Romney is documented in ArkHive investigations for their role as HUD Secretary who tried to enforce fair housing - overruled by Nixon.',
+    description: 'George Romney is documented in ArkHive investigations for their role as HUD Secretary who tried to enforce fair housing, overruled by Nixon.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: George de Mohrenschildt', type: 'organization' },
@@ -1831,7 +1831,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as HUD Secretary who tried to enforce fair housing - overruled by Nixon' },
+      { date: 'Ongoing', event: 'Active in role as HUD Secretary who tried to enforce fair housing, overruled by Nixon' },
       { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with George Romney' },
       { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking George Romney to previously unknown institutional relationships' },
     ],
@@ -1839,11 +1839,11 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: George Romney', url: 'https://en.wikipedia.org/wiki/George_Romney', date: '' },
       { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Robert Moses', relationship: 'Contemporary urban policy figure - Romney as HUD Secretary vs Moses\'s construction', href: '/entities/individuals/robert-moses' },
+      { name: 'Robert Moses', relationship: 'Contemporary urban policy figure, Romney as HUD Secretary vs Moses\'s construction', href: '/entities/individuals/robert-moses' },
       { name: 'Robert Weaver', relationship: 'Predecessor as HUD Secretary', href: '/entities/individuals/robert-weaver' },
     ],
   },
@@ -1877,7 +1877,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: George Shultz', url: 'https://en.wikipedia.org/wiki/George_Shultz', date: '' },
       { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1889,10 +1889,10 @@ const profiles: Record<string, IndividualProfile> = {
 
   'george-stinney-jr': {
     name: 'George Stinney Jr.',
-    title: 'Youngest person executed in the U.S. in the 20th century - 14-year-old Black boy executed in South Carolina in 1944',
-    role: 'Youngest person executed in the U.S. in the 20th century - 14-year-old Black boy executed in South Carolina in 1944',
+    title: 'Youngest person executed in the U.S. in the 20th century, 14-year-old Black boy executed in South Carolina in 1944',
+    role: 'Youngest person executed in the U.S. in the 20th century, 14-year-old Black boy executed in South Carolina in 1944',
     riskLevel: 'high',
-    description: 'George Stinney Jr. is documented in ArkHive investigations for their role as Youngest person executed in the U.S. in the 20th century - 14-year-old Black boy executed in South Carolina in 1944.',
+    description: 'George Stinney Jr. is documented in ArkHive investigations for their role as Youngest person executed in the U.S. in the 20th century, 14-year-old Black boy executed in South Carolina in 1944.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: George Shultz', type: 'organization' },
@@ -1907,9 +1907,9 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
     ],
     timeline: [
-      { date: '1944', event: 'in the 20th century - 14-year-old Black boy executed in South Carolina in 1944.' },
+      { date: '1944', event: 'in the 20th century, 14-year-old Black boy executed in South Carolina in 1944.' },
       { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving George Stinney Jr. and regulatory oversight bodies' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with George Stinney Jr.' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with George Stinney Jr.' },
     ],
     socialMedia: [],
     sources: [
@@ -1919,7 +1919,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'George Wallace', relationship: 'Youngest person executed in US - symbol of Jim Crow justice Wallace defended', href: '/entities/individuals/george-wallace' },
+      { name: 'George Wallace', relationship: 'Youngest person executed in US, symbol of Jim Crow justice Wallace defended', href: '/entities/individuals/george-wallace' },
     ],
   },
 
@@ -1944,14 +1944,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as District Attorney who prosecuted Bryant and Milam' },
-      { date: '2026-03-05', event: 'Network analysis completed — Gerald Chatham connected to 12 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Gerald Chatham connected to 12 entities in the accountability database' },
       { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Gerald Chatham and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Gerald Chatham', url: 'https://en.wikipedia.org/wiki/Gerald_Chatham', date: '' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1987,7 +1987,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Gerald Kennedy', url: 'https://en.wikipedia.org/wiki/Gerald_Kennedy', date: '' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
       { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
     ],
     aliases: [],
@@ -2024,7 +2024,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Gerry Spence', url: 'https://en.wikipedia.org/wiki/Gerry_Spence', date: '' },
       { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2180,8 +2180,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Gregore Sambor', url: 'https://www.google.com/search?q=Gregore%20Sambor', date: '' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2212,7 +2212,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Panamanian opposition leader installed as president during the invasion' },
       { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Guillermo Endara to previously unknown institutional relationships' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Guillermo Endara' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Guillermo Endara' },
     ],
     socialMedia: [],
     sources: [
@@ -2286,12 +2286,12 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Afghan detainee who died of hypothermia at the CIA' },
       { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Gul Rahman and regulatory oversight bodies' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Gul Rahman' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Gul Rahman' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Gul Rahman', url: 'https://en.wikipedia.org/wiki/Gul_Rahman', date: '' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
       { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: [],
@@ -2363,7 +2363,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'US Army Major General who commanded Guantanamo Bay and later oversaw interrogation operations at Abu Ghraib',
  role: 'Military Officer',
  riskLevel: 'critical',
- description: 'Geoffrey Miller commanded the detention facility at Guantanamo Bay and was then sent to Abu Ghraib to"Gitmo-ize"interrogation procedures. His directives to use aggressive interrogation techniques contributed to the torture and abuse scandal at Abu Ghraib prison.',
+ description: 'Geoffrey Miller commanded the detention facility at Guantanamo Bay and was then sent to Abu Ghraib to "Gitmo-ize "interrogation procedures. His directives to use aggressive interrogation techniques contributed to the torture and abuse scandal at Abu Ghraib prison.',
  education: [],
  affiliations: [
  { name: 'United States Army', role: 'Major General, Commander of Guantanamo/Abu Ghraib Operations', type: 'agency' },
@@ -2383,7 +2383,7 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Janis Karpinski', relationship: 'Miller brought Gitmo techniques to Abu Ghraib under Karpinski', href: '/entities/individuals/janis-karpinski' },
  { name: 'Ricardo Sanchez', relationship: 'Iraq commander during Miller\'s Abu Ghraib visit', href: '/entities/individuals/ricardo-sanchez' },
- { name: 'Thomas Pappas', relationship: 'Miller ordered Pappas to"Gitmo-ize"Abu Ghraib', href: '/entities/individuals/thomas-pappas' }
+ { name: 'Thomas Pappas', relationship: 'Miller ordered Pappas to "Gitmo-ize "Abu Ghraib', href: '/entities/individuals/thomas-pappas' }
  ],
 
  },
@@ -2409,7 +2409,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '1885', event: 'Published exposés documenting the brutality of the convict leasing system in the South' },
       { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking George Washington Cable to previously unknown institutional relationships' },
-      { date: '2026-03-05', event: 'Network analysis completed — George Washington Cable connected to 16 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, George Washington Cable connected to 16 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
@@ -2428,7 +2428,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Alabama Governor and segregationist who embodied and promoted systemic racism in American politics',
  role: 'Political Figure',
  riskLevel: 'critical',
- description: 'George Wallace served as Governor of Alabama and ran for president multiple times on a segregationist platform. His"Stand in the Schoolhouse Door"and declarations of"segregation forever"made him a symbol of racist resistance to civil rights and the ongoing war on Black America.',
+ description: 'George Wallace served as Governor of Alabama and ran for president multiple times on a segregationist platform. His "Stand in the Schoolhouse Door "and declarations of "segregation forever "made him a symbol of racist resistance to civil rights and the ongoing war on Black America.',
  education: [],
  affiliations: [
  { name: 'State of Alabama', role: 'Governor', type: 'agency' },
@@ -2440,7 +2440,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'War on Black America', slug: 'war-on-black-america', severity: 'critical' },
  ],
  timeline: [
- { date: '1963', event: 'Made"Stand in the Schoolhouse Door"attempting to block Black students from University of Alabama' },
+ { date: '1963', event: 'Made "Stand in the Schoolhouse Door" attempting to block Black students from University of Alabama' },
  ],
  sources: [
  { title: 'War on Black America', url: '/investigations/war-on-black-america' },
@@ -2529,10 +2529,10 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Harvard Geneticist',
  role: 'Epstein Funding Recipient, Eugenics Discussions',
  riskLevel: 'medium',
- description: 'Harvard professor and pioneer of genomics who received funding from Jeffrey Epstein and reportedly discussed eugenics concepts with him. Epstein was fascinated by the idea of"seeding the human race with his DNA"and Church\'s genetics expertise aligned with these interests. Church apologized for his association with Epstein.',
+ description: 'Harvard professor and pioneer of genomics who received funding from Jeffrey Epstein and reportedly discussed eugenics concepts with him. Epstein was fascinated by the idea of" seeding the human race with his DNA" and Church\'s genetics expertise aligned with these interests. Church apologized for his association with Epstein.',
  birthDate: 'August 28, 1954',
  birthPlace: 'Bethesda, Maryland',
- education: ['Duke University', 'Harvard University - PhD Biochemistry'],
+ education: ['Duke University', 'Harvard University, PhD Biochemistry'],
  affiliations: [
  { name: 'Harvard University', role: 'Professor of Genetics', type: 'corporation' },
  ],
@@ -2568,7 +2568,7 @@ const profiles: Record<string, IndividualProfile> = {
     description: 'Nobel Prize-winning immunologist named in Epstein\'s Black Book. Died in 2014.',
     birthDate: 'July 1, 1929',
     deathDate: 'May 17, 2014',
-    education: ['Ursinus College', 'University of Pennsylvania - MD', 'Rockefeller University - PhD'],
+    education: ['Ursinus College', 'University of Pennsylvania, MD', 'Rockefeller University, PhD'],
     affiliations: [
       { name: 'Rockefeller University', role: 'Professor', type: 'corporation' },
     ],
@@ -2590,7 +2590,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Gerald Edelman', url: 'https://en.wikipedia.org/wiki/Gerald_Edelman', date: '' },
       { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2608,7 +2608,7 @@ const profiles: Record<string, IndividualProfile> = {
  riskLevel: 'low',
  description: 'ABC News anchor and former Clinton White House aide who attended a dinner at Epstein\'s NYC mansion in 2010.',
  birthDate: 'February 10, 1961',
- education: ['Columbia University', 'Oxford University - Rhodes Scholar'],
+ education: ['Columbia University', 'Oxford University, Rhodes Scholar'],
  affiliations: [
  { name: 'ABC News', role: 'Anchor', type: 'corporation' },
  ],
@@ -2651,7 +2651,7 @@ const profiles: Record<string, IndividualProfile> = {
  controversies: [
  'As SDNY U.S. Attorney, authorized the arrest of Jeffrey Epstein on sex trafficking charges in July 2019',
  'Fired by Attorney General William Barr in 2020 in circumstances Berman described as unprecedented obstruction',
- 'Wrote memoir"Holding the Line"describing political interference in SDNY investigations including Epstein case',
+ 'Wrote memoir "Holding the Line "describing political interference in SDNY investigations including Epstein case',
  ],
  relatedInvestigations: [
  { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -2686,9 +2686,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2719,9 +2719,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2752,9 +2752,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2785,9 +2785,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2818,9 +2818,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2851,9 +2851,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2884,9 +2884,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [

@@ -529,7 +529,7 @@ const sources: Source[] = [
  },
  {
  id: '57',
- name: 'Stanford Law School - Guantanamo Habeas Cases',
+ name: 'Stanford Law School, Guantanamo Habeas Cases',
  type: 'legal',
  url: 'https://law.stanford.edu/projects/guantanamo-habeas-cases',
  description: 'Comprehensive database of Guantanamo detainee habeas corpus petitions and court filings.',

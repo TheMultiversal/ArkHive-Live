@@ -9,7 +9,7 @@ export const dynamic = 'force-static';
 
 export default function manifest(): MetadataRoute.Manifest {
  return {
- name: 'ArkHive - Investigative Platform',
+ name: 'ArkHive, Investigative Platform',
  short_name: 'ArkHive',
  description: 'An investigative platform exposing the truth about government, corporate, and institutional actions affecting public health and safety.',
  start_url: '/',

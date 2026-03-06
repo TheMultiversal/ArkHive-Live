@@ -23,7 +23,7 @@ const investigationData = {
  title: 'Cambridge Analytica',
  subtitle: '87 Million Users Harvested, Psychographic Targeting, and Election Manipulation',
  severity: 'critical' as const,
- status: 'Documented - Company Dissolved',
+ status: 'Documented, Company Dissolved',
  lastUpdated: 'February 2026',
  summary: `Cambridge Analytica, a data firm backed by billionaire Robert Mercer and led by Steve Bannon, harvested personal data from 87 million Facebook users without consent. The firm used this data to build psychographic profiles and target voters with tailored political messaging during the 2016 Trump campaign. The scandal revealed the weaponization of personal data for political manipulation, leading to congressional investigations, billions in Facebook fines, and Cambridge Analytica's dissolution.`,
  
@@ -36,11 +36,11 @@ const investigationData = {
  },
 
  keyFigures: [
- { name: 'Steve Bannon', role: 'Vice President - Key figure in weaponizing data', href: '/entities/individuals/steve-bannon' },
- { name: 'Robert Mercer', role: 'Primary investor - Funded operation', href: '/entities/individuals/robert-mercer' },
- { name: 'Rebekah Mercer', role: 'Board member - Mercer family representative', href: '/entities/individuals/rebekah-mercer' },
- { name: 'Donald Trump', role: 'Client - Campaign used CA services', href: '/entities/individuals/donald-trump' },
- { name: 'Jared Kushner', role: 'Campaign digital director - Oversaw CA relationship', href: '/entities/individuals/jared-kushner' },
+ { name: 'Steve Bannon', role: 'Vice President, Key figure in weaponizing data', href: '/entities/individuals/steve-bannon' },
+ { name: 'Robert Mercer', role: 'Primary investor, Funded operation', href: '/entities/individuals/robert-mercer' },
+ { name: 'Rebekah Mercer', role: 'Board member, Mercer family representative', href: '/entities/individuals/rebekah-mercer' },
+ { name: 'Donald Trump', role: 'Client, Campaign used CA services', href: '/entities/individuals/donald-trump' },
+ { name: 'Jared Kushner', role: 'Campaign digital director, Oversaw CA relationship', href: '/entities/individuals/jared-kushner' },
  ],
 
  dataHarvestingScheme: {
@@ -148,7 +148,7 @@ const investigationData = {
  { date: 'April 2018', event: 'Zuckerberg testifies before Congress' },
  { date: 'May 2018', event: 'Cambridge Analytica files for bankruptcy' },
  { date: 'July 2019', event: 'Facebook fined $5 billion by FTC' },
- { date: '2020', event: 'Netflix documentary"The Great Hack"released' },
+ { date: '2020', event: 'Netflix documentary "The Great Hack"released' },
  ],
 
  globalOperations: [
@@ -161,7 +161,7 @@ const investigationData = {
  ],
 
  legalOutcomes: [
- { defendant: 'Facebook/Meta', charge: 'Privacy violations - deceptive practices', outcome: '$5 billion FTC settlement (2019), $100 million SEC fine' },
+ { defendant: 'Facebook/Meta', charge: 'Privacy violations, deceptive practices', outcome: '$5 billion FTC settlement (2019), $100 million SEC fine' },
  { defendant: 'Cambridge Analytica', charge: 'Unauthorized data harvesting and misuse', outcome: 'Company dissolved, filed for bankruptcy May 2018' },
  { defendant: 'Alexander Nix', charge: 'Misleading UK Parliament, data misuse', outcome: 'Banned from serving as company director for 7 years (2022)' },
  { defendant: 'Aleksandr Kogan', charge: 'Violating Facebook platform policies, unauthorized data sharing', outcome: 'Banned from Facebook, academic investigation' },
@@ -171,10 +171,10 @@ const investigationData = {
 
  charges: [
  { statute: '15 U.S.C. § 45', description: 'Unfair or deceptive acts or practices (FTC Act) - Facebook\'s deceptive privacy practices', count: 'Multiple counts' },
- { statute: '18 U.S.C. § 1030', description: 'Computer Fraud and Abuse Act - Unauthorized access to computer systems and data', count: 'Multiple counts' },
- { statute: '18 U.S.C. § 1343', description: 'Wire fraud - Using electronic communications to execute scheme to defraud users of data', count: 'Multiple counts' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to commit offense against the United States - Coordinated data harvesting scheme', count: '1 count' },
- { statute: '52 U.S.C. § 30121', description: 'Foreign contributions and donations - Foreign nationals providing services to influence elections', count: 'Multiple counts' },
+ { statute: '18 U.S.C. § 1030', description: 'Computer Fraud and Abuse Act, Unauthorized access to computer systems and data', count: 'Multiple counts' },
+ { statute: '18 U.S.C. § 1343', description: 'Wire fraud, Using electronic communications to execute scheme to defraud users of data', count: 'Multiple counts' },
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy to commit offense against the United States, Coordinated data harvesting scheme', count: '1 count' },
+ { statute: '52 U.S.C. § 30121', description: 'Foreign contributions and donations, Foreign nationals providing services to influence elections', count: 'Multiple counts' },
  { statute: 'UK Data Protection Act 1998', description: 'Processing personal data without consent, failure to protect data subjects', count: 'Multiple violations' },
  ],
 

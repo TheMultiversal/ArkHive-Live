@@ -3,10 +3,10 @@ import type { ReactNode } from"react";
 
 export const metadata: Metadata = {
  title:"Sources",
- description:"ArkHive's verified sources - government databases, court records, FOIA documents, and trusted whistleblower submissions.",
+ description:"ArkHive's verified sources, government databases, court records, FOIA documents, and trusted whistleblower submissions.",
  openGraph: {
  title:"Sources | ArkHive",
- description:"ArkHive's verified sources - government databases, court records, FOIA documents, and trusted whistleblower submissions.",
+ description:"ArkHive's verified sources, government databases, court records, FOIA documents, and trusted whistleblower submissions.",
  },
 };
 

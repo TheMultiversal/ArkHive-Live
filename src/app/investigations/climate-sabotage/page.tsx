@@ -21,7 +21,7 @@ const investigationData = {
  title: 'Climate Sabotage',
  subtitle: 'Systematic Destruction of Environmental Protections and Global Climate Agreements',
  severity: 'critical' as const,
- status: 'Documented - Ongoing Damage',
+ status: 'Documented, Ongoing Damage',
  lastUpdated: 'February 2026',
  summary: `The Trump administration engaged in the most comprehensive assault on environmental protections in modern history. By withdrawing from the Paris Climate Agreement, rolling back 100+ environmental regulations, installing fossil fuel lobbyists in the EPA, and suppressing climate science, the administration prioritized corporate profits over the health of the planet and its inhabitants. The damage|including accelerated warming, increased pollution, and lost international leadership|will take decades to reverse.`,
  
@@ -34,11 +34,11 @@ const investigationData = {
  },
 
  keyFigures: [
- { name: 'Donald Trump', role: 'Principal - Ordered Paris withdrawal, denied climate science', href: '/entities/individuals/donald-trump' },
- { name: 'Scott Pruitt', role: 'EPA Administrator - Led rollback campaign, massive corruption', href: '/entities/individuals/scott-pruitt' },
- { name: 'Andrew Wheeler', role: 'EPA Administrator - Former coal lobbyist, continued rollbacks', href: '/entities/individuals/andrew-wheeler' },
- { name: 'Rick Perry', role: 'Energy Secretary - Championed fossil fuels', href: '/entities/individuals/rick-perry' },
- { name: 'Ryan Zinke', role: 'Interior Secretary - Opened public lands to drilling', href: '/entities/individuals/ryan-zinke' },
+ { name: 'Donald Trump', role: 'Principal, Ordered Paris withdrawal, denied climate science', href: '/entities/individuals/donald-trump' },
+ { name: 'Scott Pruitt', role: 'EPA Administrator, Led rollback campaign, massive corruption', href: '/entities/individuals/scott-pruitt' },
+ { name: 'Andrew Wheeler', role: 'EPA Administrator, Former coal lobbyist, continued rollbacks', href: '/entities/individuals/andrew-wheeler' },
+ { name: 'Rick Perry', role: 'Energy Secretary, Championed fossil fuels', href: '/entities/individuals/rick-perry' },
+ { name: 'Ryan Zinke', role: 'Interior Secretary, Opened public lands to drilling', href: '/entities/individuals/ryan-zinke' },
  ],
 
  majorRollbacks: [
@@ -147,8 +147,8 @@ const investigationData = {
  ],
 
  legalOutcomes: [
- { defendant: 'Scott Pruitt', charge: 'Ethics violations - misuse of public office', outcome: 'Resigned July 2018; referred to DOJ but no charges filed' },
- { defendant: 'EPA (under Trump)', charge: 'Violation of Clean Air Act - unlawful repeal of Clean Power Plan', outcome: 'Multiple court orders blocking rollbacks; Biden EPA reversed' },
+ { defendant: 'Scott Pruitt', charge: 'Ethics violations, misuse of public office', outcome: 'Resigned July 2018; referred to DOJ but no charges filed' },
+ { defendant: 'EPA (under Trump)', charge: 'Violation of Clean Air Act, unlawful repeal of Clean Power Plan', outcome: 'Multiple court orders blocking rollbacks; Biden EPA reversed' },
  { defendant: 'EPA (under Trump)', charge: 'Unlawful rollback of WOTUS rule', outcome: 'Federal court vacated Trump-era rule (2021)' },
  { defendant: 'Ryan Zinke', charge: 'Interior IG investigations into travel, land deals, and ethics violations', outcome: 'Resigned December 2018; DOJ referred but declined prosecution' },
  { defendant: 'U.S. Government', charge: 'Violation of National Environmental Policy Act (NEPA) in Arctic drilling approvals', outcome: 'Federal court invalidated Arctic Refuge drilling leases (2021)' },
@@ -156,13 +156,13 @@ const investigationData = {
  ],
 
  charges: [
- { statute: '42 U.S.C. § 7401 et seq.', description: 'Clean Air Act violations - unlawful repeal of emission standards and Clean Power Plan without adequate scientific justification', count: 'Multiple regulatory actions' },
- { statute: '42 U.S.C. § 4321 et seq.', description: 'National Environmental Policy Act (NEPA) violations - failure to conduct required environmental impact assessments', count: 'Multiple actions' },
- { statute: '33 U.S.C. § 1251 et seq.', description: 'Clean Water Act violations - unlawful rollback of water protection rules', count: 'Multiple regulatory actions' },
- { statute: '5 U.S.C. § 706', description: 'Administrative Procedure Act violations - arbitrary and capricious rulemaking in environmental rollbacks', count: 'Multiple actions challenged in court' },
- { statute: '18 U.S.C. § 208', description: 'Acts affecting personal financial interest - Pruitt\'s financial conflicts with regulated industries', count: 'Multiple incidents' },
- { statute: '54 U.S.C. § 320301', description: 'Antiquities Act violations - unlawful reduction of Bears Ears and Grand Staircase-Escalante monuments', count: '2 presidential proclamations' },
- { statute: '5 U.S.C. § 3110', description: 'Anti-nepotism statute concerns - appointing industry lobbyists to regulate their former employers', count: 'Multiple appointments' },
+ { statute: '42 U.S.C. § 7401 et seq.', description: 'Clean Air Act violations, unlawful repeal of emission standards and Clean Power Plan without adequate scientific justification', count: 'Multiple regulatory actions' },
+ { statute: '42 U.S.C. § 4321 et seq.', description: 'National Environmental Policy Act (NEPA) violations, failure to conduct required environmental impact assessments', count: 'Multiple actions' },
+ { statute: '33 U.S.C. § 1251 et seq.', description: 'Clean Water Act violations, unlawful rollback of water protection rules', count: 'Multiple regulatory actions' },
+ { statute: '5 U.S.C. § 706', description: 'Administrative Procedure Act violations, arbitrary and capricious rulemaking in environmental rollbacks', count: 'Multiple actions challenged in court' },
+ { statute: '18 U.S.C. § 208', description: 'Acts affecting personal financial interest, Pruitt\'s financial conflicts with regulated industries', count: 'Multiple incidents' },
+ { statute: '54 U.S.C. § 320301', description: 'Antiquities Act violations, unlawful reduction of Bears Ears and Grand Staircase-Escalante monuments', count: '2 presidential proclamations' },
+ { statute: '5 U.S.C. § 3110', description: 'Anti-nepotism statute concerns, appointing industry lobbyists to regulate their former employers', count: 'Multiple appointments' },
  ],
 
  coverup: [

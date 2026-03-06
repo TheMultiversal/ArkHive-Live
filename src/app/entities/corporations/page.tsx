@@ -3,8 +3,8 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Building2, ChevronRight, Search, Skull, Filter } from "lucide-react";
-import EntityCard from "@/components/cards/EntityCard";
-import corporationData from "@/data/corporations";
+import EntityCard from"@/components/cards/EntityCard";
+import corporationData from"@/data/corporations";
 
 interface Entity {
   id: string;
@@ -26,15 +26,15 @@ const corporations: Entity[] = Object.values(corporationData).map((c: any) => ({
   description: c.description,
   role: c.role,
   investigationCount: c.investigationCount || 0,
-  riskLevel: c.riskLevel as Entity["riskLevel"],
+  riskLevel: c.riskLevel as Entity[" riskLevel"],
 }));
 
 const riskOrder: Record<string, number> = { extreme: 0, high: 1, moderate: 2, low: 3 };
 corporations.sort(
-  (a, b) => riskOrder[a.riskLevel] - riskOrder[b.riskLevel] || a.name.localeCompare(b.name)
+  (a, b) => riskOrder[a.riskLevel], riskOrder[b.riskLevel] || a.name.localeCompare(b.name)
 );
 
-type RiskFilter = "all" | "extreme" | "high" | "moderate" | "low";
+type RiskFilter = "all" | "extreme" | "high" | " moderate" | " low";
 
 export default function CorporationsPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -98,8 +98,8 @@ export default function CorporationsPage() {
           </div>
           <div className="flex items-center gap-2 flex-wrap">
             <Filter className="w-4 h-4 text-zinc-500" />
-            {(["all", "extreme", "high", "moderate", "low"] as RiskFilter[]).map((level) => (
-              <button key={level} onClick={() => setRiskFilter(level)} className={`px-3 py-2 text-xs font-bold uppercase tracking-wider border transition-colors ${riskFilter === level ? level === "extreme" ? "border-blood-600 bg-blood-900/50 text-blood-400" : level === "high" ? "border-blood-700 bg-blood-900/30 text-blood-500" : level === "moderate" ? "border-zinc-600 bg-zinc-900/50 text-zinc-300" : level === "low" ? "border-zinc-700 bg-zinc-900/30 text-zinc-400" : "border-blood-700 bg-blood-900/30 text-white" : "border-zinc-800 bg-transparent text-zinc-500 hover:border-zinc-600"}`}>
+            {([" all","extreme","high","moderate","low"] as RiskFilter[]).map((level) => (
+              <button key={level} onClick={() => setRiskFilter(level)} className={`px-3 py-2 text-xs font-bold uppercase tracking-wider border transition-colors ${riskFilter === level ? level === "extreme" ? "border-blood-600 bg-blood-900/50 text-blood-400" : level === "high" ? "border-blood-700 bg-blood-900/30 text-blood-500" : level === "moderate" ? "border-zinc-600 bg-zinc-900/50 text-zinc-300" : level === "low" ? "border-zinc-700 bg-zinc-900/30 text-zinc-400" :"border-blood-700 bg-blood-900/30 text-white" :"border-zinc-800 bg-transparent text-zinc-500 hover:border-zinc-600"}`}>
                 {level} ({riskCounts[level]})
               </button>
             ))}

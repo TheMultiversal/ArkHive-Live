@@ -1,6 +1,6 @@
-import type { Metadata } from"next";
+import type { Metadata } from "next";
 import Link from"next/link";
-import { Landmark, Building2, Users, ArrowRight } from"lucide-react";
+import { Landmark, Building2, Users, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
  title:"Entities",
@@ -50,7 +50,7 @@ export default function EntitiesPage() {
  return (
  <div className="min-h-screen pt-20 lg:pt-24 pb-16">
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
- {/* Header - Crystal Clear */}
+ {/* Header, Crystal Clear */}
  <div className="py-8 lg:py-12">
  <div className="border-2 border-blood-800/60 bg-black/60 p-6 lg:p-8 mb-8">
  <div className="flex items-center gap-4 mb-6">

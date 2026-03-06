@@ -18,7 +18,7 @@ const investigation = {
  title: 'Mar-a-Lago Classified Documents',
  subtitle: 'Willful Retention of National Defense Information',
  severity: 'critical',
- status: 'Indictment Dismissed - Appeal Pending',
+ status: 'Indictment Dismissed, Appeal Pending',
  summary: 'After leaving office, Donald Trump illegally retained hundreds of classified documents at his Mar-a-Lago residence, including some of the nation\'s most sensitive national defense secrets. Despite multiple requests to return the documents, Trump refused, hid them from FBI and his own lawyers, and caused them to be moved to obstruct the investigation. He was indicted on 40 federal counts but the case was dismissed by Judge Aileen Cannon, a ruling under appeal.',
  documentBreakdown: {
  total: '300+ classified documents recovered',
@@ -42,10 +42,10 @@ const investigation = {
  { act: 'Refusing subpoena', detail: 'Failed to comply with grand jury subpoena for documents', evidence: 'Timeline, subsequent search' },
  ],
  legalOutcomes: [
- { defendant: 'Donald Trump', charge: '40 Counts - Espionage Act + Obstruction of Justice', outcome: 'Indicted June 2023, case dismissed by Judge Cannon (July 2024), DOJ appealing' },
+ { defendant: 'Donald Trump', charge: '40 Counts, Espionage Act + Obstruction of Justice', outcome: 'Indicted June 2023, case dismissed by Judge Cannon (July 2024), DOJ appealing' },
  { defendant: 'Waltine Nauta', charge: 'Obstruction of Justice + False Statements', outcome: 'Indicted as co-defendant, case dismissed with Trump (July 2024)' },
- { defendant: 'Carlos De Oliveira', charge: 'Obstruction - Attempted deletion of security footage', outcome: 'Added in superseding indictment (July 2023), case dismissed (July 2024)' },
- { defendant: 'Evan Corcoran (Trump attorney)', charge: 'Crime-Fraud Exception - Attorney-Client Privilege Pierced', outcome: 'Compelled to testify before grand jury after judge found crime-fraud exception applied' },
+ { defendant: 'Carlos De Oliveira', charge: 'Obstruction, Attempted deletion of security footage', outcome: 'Added in superseding indictment (July 2023), case dismissed (July 2024)' },
+ { defendant: 'Evan Corcoran (Trump attorney)', charge: 'Crime-Fraud Exception, Attorney-Client Privilege Pierced', outcome: 'Compelled to testify before grand jury after judge found crime-fraud exception applied' },
  ],
  charges: [
  { count: '1-31', statute: '18 U.S.C. § 793(e)', description: 'Willful retention of national defense information', max: '10 years each' },

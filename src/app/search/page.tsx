@@ -51,7 +51,7 @@ const mockResults: { investigations: SearchResult[]; entities: SearchResult[]; d
  {
  id: '5',
  type: 'document',
- title: 'FOIA Response - Surveillance Programs',
+ title: 'FOIA Response, Surveillance Programs',
  description: 'Declassified documents on domestic surveillance',
  date: '2023-11-10',
  },

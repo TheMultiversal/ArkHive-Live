@@ -26,23 +26,23 @@ describe('cn utility', () => {
  expect(cn('base', ['array'], { object: true })).toBe('base array object');
  });
 
- it('should resolve Tailwind conflicts - padding', () => {
+ it('should resolve Tailwind conflicts, padding', () => {
  expect(cn('p-4', 'p-2')).toBe('p-2');
  });
 
- it('should resolve Tailwind conflicts - margin', () => {
+ it('should resolve Tailwind conflicts, margin', () => {
  expect(cn('m-4', 'm-8')).toBe('m-8');
  });
 
- it('should resolve Tailwind conflicts - colors', () => {
+ it('should resolve Tailwind conflicts, colors', () => {
  expect(cn('text-red-500', 'text-blue-500')).toBe('text-blue-500');
  });
 
- it('should resolve Tailwind conflicts - background', () => {
+ it('should resolve Tailwind conflicts, background', () => {
  expect(cn('bg-white', 'bg-black')).toBe('bg-black');
  });
 
- it('should resolve Tailwind conflicts - display', () => {
+ it('should resolve Tailwind conflicts, display', () => {
  expect(cn('block', 'flex')).toBe('flex');
  });
 

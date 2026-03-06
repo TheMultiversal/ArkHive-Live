@@ -247,7 +247,7 @@ export default function StatsDisplay({ stats: initialStats }: StatsDisplayProps)
      )}
     </div>
 
-    {/* Compact stat chips — wrapping row */}
+    {/* Compact stat chips, wrapping row */}
     <div className="flex flex-wrap gap-2">
      {QUICK_NAV.map((item) => (
       <motion.button
@@ -266,7 +266,7 @@ export default function StatsDisplay({ stats: initialStats }: StatsDisplayProps)
     </div>
    </div>
 
-   {/* ── Topic Grid — the intriguing part ─────────────────── */}
+   {/* ── Topic Grid, the intriguing part ─────────────────── */}
    <div>
     <div className="flex items-center gap-2 mb-3">
      <div className="h-px flex-1 bg-gradient-to-r from-blood-600/40 to-transparent" />

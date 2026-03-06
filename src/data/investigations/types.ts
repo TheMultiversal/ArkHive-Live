@@ -1,4 +1,4 @@
-// Investigation data interface — shared by all investigation shard files
+// Investigation data interface, shared by all investigation shard files
 
 export interface InvestigationAffiliation {
   id: string;

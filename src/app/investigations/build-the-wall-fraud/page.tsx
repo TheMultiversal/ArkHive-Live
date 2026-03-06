@@ -20,7 +20,7 @@ import GlitchText from '@/components/effects/GlitchText';
 
 const investigationData = {
  title: 'Build the Wall Fraud',
- subtitle: 'Steve Bannon, Brian Kolfage, and the $25 Million"We Build the Wall"Scheme',
+ subtitle: 'Steve Bannon, Brian Kolfage, and the $25 Million "We Build the Wall "Scheme',
  severity: 'high' as const,
  status: 'Convictions + Presidential Pardon',
  lastUpdated: 'February 2026',
@@ -35,20 +35,20 @@ const investigationData = {
  },
 
  keyFigures: [
- { name: 'Steve Bannon', role: 'Chairman - Received $1M+, pardoned', href: '/entities/individuals/steve-bannon' },
- { name: 'Brian Kolfage', role: 'Founder - Triple amputee veteran, convicted', href: '/entities/individuals/brian-kolfage' },
- { name: 'Donald Trump', role: 'President - Pardoned Bannon', href: '/entities/individuals/donald-trump' },
- { name: 'Andrew Badolato', role: 'Co-defendant - Pleaded guilty', href: '/entities/individuals/andrew-badolato' },
- { name: 'Timothy Shea', role: 'Co-defendant - Convicted at trial', href: '/entities/individuals/timothy-shea' },
+ { name: 'Steve Bannon', role: 'Chairman, Received $1M+, pardoned', href: '/entities/individuals/steve-bannon' },
+ { name: 'Brian Kolfage', role: 'Founder, Triple amputee veteran, convicted', href: '/entities/individuals/brian-kolfage' },
+ { name: 'Donald Trump', role: 'President, Pardoned Bannon', href: '/entities/individuals/donald-trump' },
+ { name: 'Andrew Badolato', role: 'Co-defendant, Pleaded guilty', href: '/entities/individuals/andrew-badolato' },
+ { name: 'Timothy Shea', role: 'Co-defendant, Convicted at trial', href: '/entities/individuals/timothy-shea' },
  ],
 
  scheme: {
  publicPitch: '"100% of donations go to building the wall"',
  reality: 'Millions funneled through shell companies to organizers',
  method: [
- 'Created"We Build the Wall, Inc."as 501(c)(4) nonprofit',
+ 'Created "We Build the Wall, Inc."as 501(c)(4) nonprofit',
  'Promoted false promise that 100% went to construction',
- 'Routed money through shell company"Non-Profit Strategies"',
+ 'Routed money through shell company "Non-Profit Strategies"',
  'Fabricated invoices and vendor agreements',
  'Used corporate entities to hide personal payments',
  'Bannon received payments through nonprofit he controlled',
@@ -92,7 +92,7 @@ const investigationData = {
  timing: 'Hours before leaving office',
  scope: 'Full pardon for Bannon only',
  coDefendants: 'No pardons for Kolfage, Badolato, Shea',
- reaction: 'Prosecutors had called scheme"brazen"fraud',
+ reaction: 'Prosecutors had called scheme "brazen" fraud',
  pattern: 'Part of 143 pardons/commutations on final day',
  },
 
@@ -136,9 +136,9 @@ const investigationData = {
  ],
 
  legalOutcomes: [
- { defendant: 'Brian Kolfage', charge: 'Wire Fraud Conspiracy', outcome: 'Pleaded guilty - sentenced to 51 months federal prison (April 2023)' },
- { defendant: 'Andrew Badolato', charge: 'Wire Fraud Conspiracy', outcome: 'Pleaded guilty - sentenced to 36 months federal prison' },
- { defendant: 'Timothy Shea', charge: 'Wire Fraud and Money Laundering Conspiracy', outcome: 'Convicted at trial - sentenced to 63 months federal prison (May 2023)' },
+ { defendant: 'Brian Kolfage', charge: 'Wire Fraud Conspiracy', outcome: 'Pleaded guilty, sentenced to 51 months federal prison (April 2023)' },
+ { defendant: 'Andrew Badolato', charge: 'Wire Fraud Conspiracy', outcome: 'Pleaded guilty, sentenced to 36 months federal prison' },
+ { defendant: 'Timothy Shea', charge: 'Wire Fraud and Money Laundering Conspiracy', outcome: 'Convicted at trial, sentenced to 63 months federal prison (May 2023)' },
  { defendant: 'Steve Bannon', charge: 'Wire Fraud and Money Laundering Conspiracy (Federal)', outcome: 'Pardoned by President Trump on January 20, 2021' },
  { defendant: 'Steve Bannon', charge: 'Money Laundering, Conspiracy (New York State)', outcome: 'Indicted September 2022, case dismissed on procedural grounds, DA appealing' },
  ],
@@ -153,7 +153,7 @@ const investigationData = {
 
  coverup: [
  'Bannon funneled over $1 million in donor funds through a nonprofit organization he controlled to obscure the personal benefit he received from the scheme',
- 'Shell company"Non-Profit Strategies"was created specifically to launder donor contributions and make fraudulent payments appear as legitimate contractor expenses',
+ 'Shell company "Non-Profit Strategies"was created specifically to launder donor contributions and make fraudulent payments appear as legitimate contractor expenses',
  'Fabricated invoices and vendor agreements were used to disguise hundreds of thousands of dollars in personal payments to organizers',
  'Trump pardoned Bannon on his last day in office, preventing a federal trial that would have exposed the full scope of the fraud to a jury',
  'Despite publicly claiming he"didn\'t know"about the project, Trump had previously promoted We Build the Wall on social media and praised their efforts',

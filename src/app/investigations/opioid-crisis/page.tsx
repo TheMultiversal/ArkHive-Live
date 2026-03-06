@@ -22,7 +22,7 @@ const investigationData = {
  title: 'Opioid Crisis Response',
  subtitle: '500,000+ Dead, Regulatory Capture, and the Pharmaceutical Industry Connection',
  severity: 'critical' as const,
- status: 'Ongoing - Policy Failures Continue',
+ status: 'Ongoing, Policy Failures Continue',
  lastUpdated: 'February 2026',
  summary: `The opioid epidemic has killed over 500,000 Americans since 1999, with the Trump administration's response characterized by regulatory capture, conflicts of interest, and policies that protected pharmaceutical interests over public health. Alex Azar, a former pharmaceutical executive who oversaw price increases, was appointed HHS Secretary. The administration's drug czar nominee had to withdraw after revelations he championed legislation weakening DEA enforcement. Meanwhile, the epidemic accelerated to record overdose deaths.`,
  
@@ -35,10 +35,10 @@ const investigationData = {
  },
 
  keyFigures: [
- { name: 'Alex Azar', role: 'HHS Secretary - Former Eli Lilly exec', href: '/entities/individuals/alex-azar' },
- { name: 'Donald Trump', role: 'President - Appointed pharma-friendly regulators', href: '/entities/individuals/donald-trump' },
- { name: 'Tom Marino', role: 'Failed drug czar nominee - Protected distributors', href: '/entities/individuals/tom-marino' },
- { name: 'Kellyanne Conway', role: 'Opioid response coordinator - PR focus', href: '/entities/individuals/kellyanne-conway' },
+ { name: 'Alex Azar', role: 'HHS Secretary, Former Eli Lilly exec', href: '/entities/individuals/alex-azar' },
+ { name: 'Donald Trump', role: 'President, Appointed pharma-friendly regulators', href: '/entities/individuals/donald-trump' },
+ { name: 'Tom Marino', role: 'Failed drug czar nominee, Protected distributors', href: '/entities/individuals/tom-marino' },
+ { name: 'Kellyanne Conway', role: 'Opioid response coordinator, PR focus', href: '/entities/individuals/kellyanne-conway' },
  ],
 
  regulatoryCapture: {
@@ -78,7 +78,7 @@ const investigationData = {
  administrationActions: {
  declared: 'Public Health Emergency (October 2017)',
  notDeclared: 'National Emergency (would have unlocked more funding)',
- funding: 'Minimal new funding - relied on existing grants',
+ funding: 'Minimal new funding, relied on existing grants',
  treatment: 'Limited expansion of medication-assisted treatment',
  enforcement: 'Appointed officials who weakened pharmaceutical oversight',
  },
@@ -145,12 +145,12 @@ const investigationData = {
  ],
 
  charges: [
- { statute: '21 U.S.C. § 843(a)(7)', description: 'Controlled Substances Act - failure to report suspicious orders of opioids by pharmaceutical distributors', count: 'Millions of pills unaccounted for' },
- { statute: '18 U.S.C. § 1341', description: 'Mail fraud - fraudulent marketing of opioids as non-addictive through mail and marketing materials', count: 'Multiple defendants' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States - coordinated scheme to mislead regulators about addiction risks', count: 'Multiple conspiracies' },
- { statute: '42 U.S.C. § 1320a-7b', description: 'Anti-Kickback Statute violations - pharmaceutical companies paying doctors to prescribe opioids', count: 'Widespread practice' },
- { statute: '21 U.S.C. § 824', description: 'DEA registration suspension authority - weakened by Ensuring Patient Access Act championed by Marino', count: 'Statutory weakening' },
- { statute: '18 U.S.C. § 1957', description: 'Monetary transactions in property derived from specified unlawful activity - Sackler family transfers of Purdue profits', count: 'Billions transferred offshore' },
+ { statute: '21 U.S.C. § 843(a)(7)', description: 'Controlled Substances Act, failure to report suspicious orders of opioids by pharmaceutical distributors', count: 'Millions of pills unaccounted for' },
+ { statute: '18 U.S.C. § 1341', description: 'Mail fraud, fraudulent marketing of opioids as non-addictive through mail and marketing materials', count: 'Multiple defendants' },
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States, coordinated scheme to mislead regulators about addiction risks', count: 'Multiple conspiracies' },
+ { statute: '42 U.S.C. § 1320a-7b', description: 'Anti-Kickback Statute violations, pharmaceutical companies paying doctors to prescribe opioids', count: 'Widespread practice' },
+ { statute: '21 U.S.C. § 824', description: 'DEA registration suspension authority, weakened by Ensuring Patient Access Act championed by Marino', count: 'Statutory weakening' },
+ { statute: '18 U.S.C. § 1957', description: 'Monetary transactions in property derived from specified unlawful activity, Sackler family transfers of Purdue profits', count: 'Billions transferred offshore' },
  ],
 
  coverup: [

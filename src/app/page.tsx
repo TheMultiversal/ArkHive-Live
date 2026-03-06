@@ -1,9 +1,9 @@
 "use client";
 
 import Link from"next/link";
-import { ArrowRight, Shield, AlertTriangle, Eye, FileText, Users, ChevronRight, Skull, Search, Send } from"lucide-react";
-import { useRouter } from"next/navigation";
-import { motion } from"framer-motion";
+import { ArrowRight, Shield, AlertTriangle, Eye, FileText, Users, ChevronRight, Skull, Search, Send } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { motion } from "framer-motion";
 import EntityCard, { Entity } from"@/components/cards/EntityCard";
 import StatsDisplay from"@/components/ui/StatsDisplay";
 import CrystalButton from"@/components/ui/CrystalButton";
@@ -16,7 +16,7 @@ import SharpBleedingPyramid from"@/components/ui/SharpBleedingPyramid";
 import SimpleTypingText from"@/components/effects/SimpleTypingText";
 import AnimatedLetters from"@/components/effects/AnimatedLetters";
 
-// Top investigation files — curated most intriguing cases
+// Top investigation files, curated most intriguing cases
 const FEATURED_INVESTIGATIONS: {
  slug: string;
  title: string;
@@ -57,7 +57,7 @@ const SEVERITY_DOTS: Record<string, string> = {
  medium: 'bg-yellow-600',
 };
 
-// Featured entities - Key players across investigations
+// Featured entities, Key players across investigations
 const featuredEntities: Entity[] = [
  {
  id:"doj",
@@ -67,31 +67,31 @@ const featuredEntities: Entity[] = [
  description:"Under Trump, the DOJ became a weapon of political persecution. AG William Barr misrepresented the Mueller Report, intervened in Roger Stone's sentencing, and dropped charges against Michael Flynn.",
  role:"Federal Executive Department",
  investigationCount: 3,
- riskLevel:"extreme",
+ riskLevel:" extreme",
  },
  {
- id:"trump-org",
- slug:"trump-organization",
+ id:" trump-org",
+ slug:" trump-organization",
  name:"The Trump Organization",
  type:"corporation",
  description:"Convicted of 17 felonies. $454M fraud judgment. CFO imprisoned. Money laundering, tax fraud, hush money payments. Deutsche Bank received $2B+ despite red flags.",
  role:"Criminal Enterprise",
  investigationCount: 5,
- riskLevel:"extreme",
+ riskLevel:" extreme",
  },
  {
- id:"trump-1",
- slug:"donald-trump",
+ id:" trump-1",
+ slug:" donald-trump",
  name:"Donald J. Trump",
  type:"individual",
  description:"45th & 47th President of the United States. Convicted felon (34 counts). Subject of criminal indictments, civil judgments, and investigations spanning election interference, financial crimes, and incitement of insurrection.",
  role:"47th President, Convicted Felon",
  investigationCount: 39,
- riskLevel:"extreme",
+ riskLevel:" extreme",
  },
 ];
 
-// Real statistics from the archive — auto-updated by ArkHive Swarm Intelligence
+// Real statistics from the archive, auto-updated by ArkHive Swarm Intelligence
 const stats = {
  totalInvestigations: 826,
  entitiesTracked: 2621,
@@ -193,7 +193,7 @@ export default function Home() {
  <div className="min-h-screen pt-20 lg:pt-24">
  {/* Hero Section */}
  <section className="relative py-16 lg:py-24 overflow-hidden">
- {/* Crystal Clear Background - Sharp geometric accents */}
+ {/* Crystal Clear Background, Sharp geometric accents */}
  <div className="absolute inset-0 overflow-hidden pointer-events-none">
  {/* Sharp corner accents instead of blurry orbs */}
  <div className="absolute top-20 left-20 w-32 h-32 border-l-2 border-t-2 border-blood-700/20"/>
@@ -241,25 +241,25 @@ export default function Home() {
 
  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  <div className="text-center max-w-4xl mx-auto">
- {/* Large Bleeding Pyramid Logo - Sharp & Clear */}
+ {/* Large Bleeding Pyramid Logo, Sharp & Clear */}
  <div className="flex justify-center mb-8">
  <SharpBleedingPyramid size={160} showWords={true} />
  </div>
 
- {/* Alert Badge - Sharp edges */}
+ {/* Alert Badge, Sharp edges */}
  <div className="inline-flex items-center gap-2 px-4 py-2 bg-blood-950/30 border border-blood-800/50 text-blood-600 text-sm font-medium mb-8 animate-fade-in">
  <span className="w-2 h-2 bg-blood-700 animate-pulse"/>
  <span>Investigative Archive, Documentation Platform</span>
  </div>
 
- {/* Main Headline - Dramatic Stacked Layout */}
+ {/* Main Headline, Dramatic Stacked Layout */}
  <div className="mb-6 animate-fade-in">
  <div className="space-y-1">
  {/* Line 1 */}
  <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-zinc-500 uppercase tracking-[0.2em]">
  The Crimes They Think
  </p>
- {/* Line 2 - HIDDEN - emphasized */}
+ {/* Line 2 (HIDDEN) emphasized */}
  <p className="text-5xl sm:text-6xl lg:text-8xl font-black uppercase tracking-tight">
  <span className="text-blood-600"style={{ filter: 'drop-shadow(0 0 30px rgba(153,27,27,0.7)) drop-shadow(0 0 60px rgba(127,29,29,0.4))' }}>
  YOU&apos;LL NEVER
@@ -281,8 +281,8 @@ export default function Home() {
  </div>
  </div>
 
- {/* Call to Action - Urgent Countdown Style */}
- <div className="mb-8 animate-fade-in"style={{ animationDelay:"150ms"}}>
+ {/* Call to Action, Urgent Countdown Style */}
+ <div className="mb-8 animate-fade-in "style={{ animationDelay:"150ms"}}>
  <div className="inline-block">
  {/* Top line */}
  <div className="flex items-center justify-center gap-3 mb-2">
@@ -291,7 +291,7 @@ export default function Home() {
  <span className="h-[1px] w-8 bg-blood-700"/>
  </div>
  
- {/* Main question - stacked dramatic */}
+ {/* Main question, stacked dramatic */}
  <div className="relative">
  <p className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">
  FOLLOW THE <span className="text-blood-600">EVIDENCE</span>
@@ -316,7 +316,7 @@ export default function Home() {
  </div>
  </div>
 
- {/* Opening Declaration - Crystal Clear */}
+ {/* Opening Declaration, Crystal Clear */}
  <div className="max-w-3xl mx-auto mb-8 bg-black/60 p-6">
  <p className="text-lg sm:text-xl text-zinc-300 leading-relaxed">
  <span className="text-blood-600 font-black uppercase">91 criminal charges.</span>
@@ -338,8 +338,8 @@ export default function Home() {
  </div>
  </div>
  
- {/* ArkHive Introduction - Enhanced Crystal Clear Box */}
- <div className="max-w-4xl mx-auto mb-8 animate-fade-in"style={{ animationDelay:"250ms"}}>
+ {/* ArkHive Introduction, Enhanced Crystal Clear Box */}
+ <div className="max-w-4xl mx-auto mb-8 animate-fade-in" style={{ animationDelay:"250ms"}}>
  <div className="border-2 border-blood-800/60 bg-black/70 p-8">
  {/* Header */}
  <div className="text-center mb-6">
@@ -398,8 +398,8 @@ export default function Home() {
  </div>
 
  {/* Tiered Investigation Categories */}
- <div className="max-w-4xl mx-auto mb-8 animate-fade-in"style={{ animationDelay:"350ms"}}>
- {/* Tier 1: Documented - Court Records */}
+ <div className="max-w-4xl mx-auto mb-8 animate-fade-in" style={{ animationDelay:"350ms"}}>
+ {/* Tier 1: Documented, Court Records */}
  <div className="mb-4">
  <div className="flex items-center gap-2 mb-2">
  <span className="w-3 h-3 bg-blood-600"/>
@@ -431,7 +431,7 @@ export default function Home() {
  </div>
  </div>
 
- {/* Tier 2: Declassified - Government Programs */}
+ {/* Tier 2: Declassified, Government Programs */}
  <div className="mb-4">
  <div className="flex items-center gap-2 mb-2">
  <span className="w-3 h-3 bg-zinc-500"/>
@@ -458,7 +458,7 @@ export default function Home() {
  </div>
  </div>
 
- {/* Tier 3: Under Investigation - Patterns */}
+ {/* Tier 3: Under Investigation, Patterns */}
  <div className="mb-4">
  <div className="flex items-center gap-2 mb-2">
  <span className="w-3 h-3 bg-zinc-500/70"/>
@@ -486,7 +486,7 @@ export default function Home() {
  </div>
  </div>
 
- {/* Tier 4: Suppressed - Requires Further Investigation */}
+ {/* Tier 4: Suppressed, Requires Further Investigation */}
  <div>
  <div className="flex items-center gap-2 mb-2">
  <span className="w-3 h-3 bg-blood-600/50"/>
@@ -509,8 +509,8 @@ export default function Home() {
  </div>
  </div>
 
- {/* CTA Buttons - Crystal Clear Style */}
- <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-8 animate-fade-in"style={{ animationDelay:"300ms"}}>
+ {/* CTA Buttons, Crystal Clear Style */}
+ <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-8 animate-fade-in" style={{ animationDelay:"300ms"}}>
  <CrystalButton
  href="/investigations"
  variant="primary"
@@ -545,7 +545,7 @@ export default function Home() {
  {/* Glitch Divider */}
  <GlitchDivider showLabel label="CLASSIFIED"/>
 
- {/* Featured Investigations — compact grid */}
+ {/* Featured Investigations, compact grid */}
  <FeaturedInvestigationsGrid />
 
  {/* Glitch Divider */}
@@ -584,7 +584,7 @@ export default function Home() {
  </span>
  </Link>
 
- <Link href="/entities/corporations"className="glass-card p-8 text-center group">
+ <Link href="/entities/corporations "className="glass-card p-8 text-center group">
  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-800 to-blood-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
  <BiohazardIcon variant="pharmaceutical"size={32} className="text-white"/>
  </div>
@@ -614,7 +614,7 @@ export default function Home() {
  </span>
  </Link>
 
- <Link href="/entities/organizations"className="glass-card p-8 text-center group">
+ <Link href="/entities/organizations "className="glass-card p-8 text-center group">
  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-800 to-blood-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
  <BiohazardIcon variant="standard"size={32} className="text-white"/>
  </div>

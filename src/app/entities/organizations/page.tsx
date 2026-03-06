@@ -4,8 +4,8 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Network, Search, Skull, Filter, Users, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
-import GlitchText from "@/components/effects/GlitchText";
-import organizationData from "@/data/organizations";
+import GlitchText from"@/components/effects/GlitchText";
+import organizationData from"@/data/organizations";
 
 const riskColors: Record<string, { bg: string; border: string; text: string }> = {
   critical: { bg: "bg-blood-500/20", border: "border-blood-500", text: "text-blood-500" },

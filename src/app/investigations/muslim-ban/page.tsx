@@ -20,9 +20,9 @@ const investigationData = {
  title: 'Muslim Ban & Religious Persecution',
  subtitle: 'Executive Order 13769: Discriminatory Travel Ban Affecting Millions',
  severity: 'critical' as const,
- status: 'Documented - Rescinded by Biden',
+ status: 'Documented, Rescinded by Biden',
  lastUpdated: 'February 2026',
- summary: `The Trump administration's"Muslim Ban"was a series of executive orders restricting travel from predominantly Muslim countries. Despite the administration's claims of national security concerns, internal documents and Trump's own statements revealed the discriminatory intent. The ban separated families, stranded travelers, caused chaos at airports, and was repeatedly struck down by courts before a modified version was upheld by the Supreme Court. Stephen Miller was the primary architect of these policies.`,
+ summary: `The Trump administration's "Muslim Ban"was a series of executive orders restricting travel from predominantly Muslim countries. Despite the administration's claims of national security concerns, internal documents and Trump's own statements revealed the discriminatory intent. The ban separated families, stranded travelers, caused chaos at airports, and was repeatedly struck down by courts before a modified version was upheld by the Supreme Court. Stephen Miller was the primary architect of these policies.`,
  
  impactStats: {
  countriesBanned: '7 (later modified)',
@@ -33,9 +33,9 @@ const investigationData = {
  },
 
  keyFigures: [
- { name: 'Donald Trump', role: 'President - Signed executive orders, promised"total and complete shutdown"', href: '/entities/individuals/donald-trump' },
- { name: 'Stephen Miller', role: 'Senior Advisor - Primary architect of the ban', href: '/entities/individuals/stephen-miller' },
- { name: 'Jeff Sessions', role: 'Attorney General - Defended ban in courts', href: '/entities/individuals/jeff-sessions' },
+ { name: 'Donald Trump', role: 'President, Signed executive orders, promised"total and complete shutdown"', href: '/entities/individuals/donald-trump' },
+ { name: 'Stephen Miller', role: 'Senior Advisor, Primary architect of the ban', href: '/entities/individuals/stephen-miller' },
+ { name: 'Jeff Sessions', role: 'Attorney General, Defended ban in courts', href: '/entities/individuals/jeff-sessions' },
  ],
 
  executiveOrders: [
@@ -79,7 +79,7 @@ const investigationData = {
  timeline: [
  { date: 'December 7, 2015', event: 'Candidate Trump calls for"total and complete shutdown of Muslims entering the United States"' },
  { date: 'January 20, 2017', event: 'Trump inaugurated as President' },
- { date: 'January 27, 2017', event: 'Executive Order 13769 signed - immediate chaos at airports' },
+ { date: 'January 27, 2017', event: 'Executive Order 13769 signed, immediate chaos at airports' },
  { date: 'January 28, 2017', event: 'Federal judge blocks deportations in emergency ruling' },
  { date: 'January 29, 2017', event: 'Mass protests at airports nationwide' },
  { date: 'January 30, 2017', event: 'Acting AG Sally Yates refuses to defend, is fired' },
@@ -96,7 +96,7 @@ const investigationData = {
  discriminatoryIntent: [
  { evidence: '"Donald J. Trump is calling for a total and complete shutdown of Muslims entering the United States"', source: 'Trump campaign statement, December 2015' },
  { evidence: '"I think Islam hates us"', source: 'Trump CNN interview, March 2016' },
- { evidence: 'Rudy Giuliani: Trump asked for"Muslim ban"and wanted it done"legally"', source: 'Fox News interview, January 2017' },
+ { evidence: 'Rudy Giuliani: Trump asked for "Muslim ban"and wanted it done"legally"', source: 'Fox News interview, January 2017' },
  { evidence: 'Stephen Miller emails showing white nationalist influences on policy', source: 'SPLC investigation, November 2019' },
  { evidence: 'Administration found no evidence that nationals from banned countries posed increased terror threat', source: 'DHS Intelligence Assessment, leaked 2017' },
  ],
@@ -112,34 +112,34 @@ const investigationData = {
  ],
 
  legalChallenges: [
- { court: 'District Court - Washington (Robart)', ruling: 'Nationwide temporary restraining order', date: 'February 3, 2017' },
+ { court: 'District Court, Washington (Robart)', ruling: 'Nationwide temporary restraining order', date: 'February 3, 2017' },
  { court: '9th Circuit Court of Appeals', ruling: 'Upheld block on ban', date: 'February 9, 2017' },
- { court: 'District Court - Hawaii (Watson)', ruling: 'Blocked revised ban', date: 'March 15, 2017' },
- { court: 'District Court - Maryland', ruling: 'Blocked revised ban', date: 'March 16, 2017' },
+ { court: 'District Court, Hawaii (Watson)', ruling: 'Blocked revised ban', date: 'March 15, 2017' },
+ { court: 'District Court, Maryland', ruling: 'Blocked revised ban', date: 'March 16, 2017' },
  { court: 'Supreme Court', ruling: 'Allowed partial implementation', date: 'June 26, 2017' },
- { court: 'Supreme Court - Trump v. Hawaii', ruling: 'Upheld third ban 5-4', date: 'June 26, 2018' },
+ { court: 'Supreme Court, Trump v. Hawaii', ruling: 'Upheld third ban 5-4', date: 'June 26, 2018' },
  ],
 
  legalOutcomes: [
  { defendant: 'Trump Administration', charge: 'Violation of Immigration and Nationality Act', outcome: 'Multiple federal courts blocked EO 13769; 9th Circuit upheld block (February 2017)' },
- { defendant: 'Trump Administration', charge: 'Violation of Establishment Clause - religious discrimination', outcome: 'District courts found discriminatory intent; Supreme Court overruled 5-4 in Trump v. Hawaii' },
- { defendant: 'Trump Administration', charge: 'Violation of due process - stranding legal residents and visa holders', outcome: 'Emergency TROs issued nationwide; green card holders exempted after court orders' },
+ { defendant: 'Trump Administration', charge: 'Violation of Establishment Clause, religious discrimination', outcome: 'District courts found discriminatory intent; Supreme Court overruled 5-4 in Trump v. Hawaii' },
+ { defendant: 'Trump Administration', charge: 'Violation of due process, stranding legal residents and visa holders', outcome: 'Emergency TROs issued nationwide; green card holders exempted after court orders' },
  { defendant: 'Sally Yates (Acting AG)', charge: 'Refused to defend ban as unconstitutional', outcome: 'Fired by Trump January 30, 2017; later vindicated by courts blocking the ban' },
  { defendant: 'CBP Officers', charge: 'Detaining and coercing legal permanent residents at airports', outcome: 'ACLU emergency lawsuits; courts ordered release of detained travelers' },
  { defendant: 'Trump Administration', charge: 'Travel Ban 3.0 (Proclamation 9645)', outcome: 'Upheld by Supreme Court 5-4; rescinded by Biden on Day 1 (January 20, 2021)' },
  ],
 
  charges: [
- { statute: '8 U.S.C. § 1152(a)(1)(A)', description: 'Immigration and Nationality Act - discrimination in issuance of visas based on nationality, violating the prohibition on national origin discrimination', count: 'Affected 7 countries' },
+ { statute: '8 U.S.C. § 1152(a)(1)(A)', description: 'Immigration and Nationality Act, discrimination in issuance of visas based on nationality, violating the prohibition on national origin discrimination', count: 'Affected 7 countries' },
  { statute: 'U.S. Const. Amend. I (Establishment Clause)', description: 'Establishing religious discrimination through ban targeting predominantly Muslim countries, as evidenced by Trump\'s own statements', count: 'Constitutional violation' },
  { statute: 'U.S. Const. Amend. V (Due Process)', description: 'Depriving legal permanent residents and valid visa holders of liberty and property interests without due process', count: '90,000+ travelers affected' },
- { statute: '5 U.S.C. § 706', description: 'Administrative Procedure Act - executive orders issued without required notice, comment period, or adequate factual basis', count: '3 executive orders' },
- { statute: '8 U.S.C. § 1101(a)(42)', description: 'Refugee Act violations - suspension of refugee admissions program without adequate justification', count: '45,000+ refugees blocked' },
- { statute: '42 U.S.C. § 2000d', description: 'Title VI of Civil Rights Act - discrimination based on national origin in federally conducted programs', count: 'Systemic violation' },
+ { statute: '5 U.S.C. § 706', description: 'Administrative Procedure Act, executive orders issued without required notice, comment period, or adequate factual basis', count: '3 executive orders' },
+ { statute: '8 U.S.C. § 1101(a)(42)', description: 'Refugee Act violations, suspension of refugee admissions program without adequate justification', count: '45,000+ refugees blocked' },
+ { statute: '42 U.S.C. § 2000d', description: 'Title VI of Civil Rights Act, discrimination based on national origin in federally conducted programs', count: 'Systemic violation' },
  ],
 
  coverup: [
- 'The administration rebranded the"Muslim ban"as a"travel ban"based on national security, despite Trump\'s own campaign promise of a"total and complete shutdown of Muslims entering the United States"',
+ 'The administration rebranded the "Muslim ban"as a"travel ban"based on national security, despite Trump\'s own campaign promise of a"total and complete shutdown of Muslims entering the United States"',
  'Rudy Giuliani admitted on Fox News that Trump asked him to find a way to do the Muslim ban"legally,"revealing the discriminatory intent behind the facially neutral order',
  'A leaked DHS intelligence assessment found that citizens of the banned countries posed no increased terrorism threat, contradicting the administration\'s stated rationale',
  'Stephen Miller, the ban\'s primary architect, was later revealed through leaked emails to have promoted white nationalist literature and anti-immigration extremist content',

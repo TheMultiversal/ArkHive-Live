@@ -1,4 +1,4 @@
-// Individual profile data interface — shared by all shard files
+// Individual profile data interface, shared by all shard files
 export interface IndividualProfile {
   name: string;
   title: string;

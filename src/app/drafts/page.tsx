@@ -47,7 +47,7 @@ const mockDrafts: Draft[] = [
  {
  id: 'draft_1',
  type: 'investigation',
- title: 'Corporate Espionage - Tech Sector',
+ title: 'Corporate Espionage, Tech Sector',
  description: 'Investigation into alleged intellectual property theft between competing tech firms',
  tags: ['corporate', 'tech', 'ip-theft'],
  createdAt: new Date(Date.now() - 1000 * 60 * 60 * 2),

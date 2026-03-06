@@ -73,7 +73,7 @@ export interface RouteMetadata {
 export const ROUTE_METADATA: Record<string, RouteMetadata> = {
  '/': {
  title: 'Home',
- description: 'ArkHive - Investigative Journalism Platform',
+ description: 'ArkHive, Investigative Journalism Platform',
  },
  '/about': {
  title: 'About',

@@ -97,12 +97,12 @@ const investigation = {
  { defendant: 'Federal Officers (multiple agencies)', charge: 'Assault on clergy and media at St. John\'s Church', outcome: 'No officers disciplined despite documented attacks on press and religious figures' },
  ],
  charges: [
- { statute: 'U.S. Const. Amend. I', description: 'First Amendment violations - suppression of peaceful assembly and free speech rights through use of force', count: 'Hundreds of protesters affected' },
- { statute: '42 U.S.C. § 1983', description: 'Deprivation of civil rights under color of law - federal officers using excessive force against peaceful protesters', count: 'Class action' },
- { statute: '18 U.S.C. § 242', description: 'Deprivation of rights under color of law - willful use of tear gas, pepper balls, and batons on constitutionally protected activity', count: 'Multiple officers involved' },
- { statute: '18 U.S.C. § 245', description: 'Federally protected activities - interference with right to peaceful protest on public land', count: 'Multiple incidents' },
- { statute: '10 U.S.C. § 275', description: 'Posse Comitatus Act concerns - use of military forces for civilian law enforcement purposes', count: '1 incident' },
- { statute: '42 U.S.C. § 2000aa', description: 'Privacy Protection Act - targeting journalists with force, destroying media equipment', count: 'Multiple media personnel attacked' },
+ { statute: 'U.S. Const. Amend. I', description: 'First Amendment violations, suppression of peaceful assembly and free speech rights through use of force', count: 'Hundreds of protesters affected' },
+ { statute: '42 U.S.C. § 1983', description: 'Deprivation of civil rights under color of law, federal officers using excessive force against peaceful protesters', count: 'Class action' },
+ { statute: '18 U.S.C. § 242', description: 'Deprivation of rights under color of law, willful use of tear gas, pepper balls, and batons on constitutionally protected activity', count: 'Multiple officers involved' },
+ { statute: '18 U.S.C. § 245', description: 'Federally protected activities, interference with right to peaceful protest on public land', count: 'Multiple incidents' },
+ { statute: '10 U.S.C. § 275', description: 'Posse Comitatus Act concerns, use of military forces for civilian law enforcement purposes', count: '1 incident' },
+ { statute: '42 U.S.C. § 2000aa', description: 'Privacy Protection Act, targeting journalists with force, destroying media equipment', count: 'Multiple media personnel attacked' },
  ],
  coverup: [
  'The Interior Department Inspector General\'s report was narrowly scoped to only determine if the clearing was pre-planned, avoiding the central question of whether force was proportional or justified',

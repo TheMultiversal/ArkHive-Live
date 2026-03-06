@@ -64,7 +64,7 @@ const investigation = {
  timeline: [
  { date: 'Nov 2016', event: 'Trump wins election, inaugural committee forms' },
  { date: 'Dec 2016', event: 'Record donations pour in, $107M raised' },
- { date: 'Jan 20, 2017', event: 'Inauguration Day - relatively modest events despite funds' },
+ { date: 'Jan 20, 2017', event: 'Inauguration Day, relatively modest events despite funds' },
  { date: 'Feb 2017', event: 'ProPublica begins investigating spending' },
  { date: '2018', event: 'Federal prosecutors subpoena inaugural committee records' },
  { date: 'Aug 2018', event: 'Rick Gates pleads guilty, cooperates with investigators' },
@@ -74,9 +74,9 @@ const investigation = {
  { date: '2023', event: 'Congressional investigation continues into foreign donations' },
  ],
  legalOutcomes: [
- { defendant: 'Inaugural Committee', charge: 'DC Nonprofit Abuse - Using charity funds for private benefit', outcome: '$750,000 settlement paid to DC charities (May 2022)' },
+ { defendant: 'Inaugural Committee', charge: 'DC Nonprofit Abuse, Using charity funds for private benefit', outcome: '$750,000 settlement paid to DC charities (May 2022)' },
  { defendant: 'Rick Gates', charge: 'Conspiracy and False Statements (related investigations)', outcome: '45 days incarceration + 3 years probation, cooperated with prosecutors' },
- { defendant: 'Sam Patten', charge: 'FARA Violation - Funneling foreign money to inaugural', outcome: 'Probation, cooperated with Special Counsel investigation' },
+ { defendant: 'Sam Patten', charge: 'FARA Violation, Funneling foreign money to inaugural', outcome: 'Probation, cooperated with Special Counsel investigation' },
  { defendant: 'Imaad Zuberi', charge: 'FARA Violations, Campaign Finance Fraud, Tax Evasion', outcome: '12 years federal prison (2021)' },
  { defendant: 'Trump International Hotel DC', charge: 'Excessive inaugural event charges', outcome: 'DC AG investigation revealed inflated pricing at Trump-owned property' },
  ],

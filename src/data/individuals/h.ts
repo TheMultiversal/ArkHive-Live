@@ -1,4 +1,4 @@
-// AUTO-GENERATED — Shard [H] managed by ArkHive Swarm Intelligence
+// AUTO-GENERATED, Shard [H] managed by ArkHive Swarm Intelligence
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
     birthDate: 'October 21, 1988',
     birthPlace: 'Greenwich, Connecticut, USA',
     netWorth: 'Unknown',
-    education: ['B.A. - Southern Methodist University'],
+    education: ['B.A., Southern Methodist University'],
     affiliations: [
       { name: 'White House', role: 'Communications Director (2017-2018)', type: 'agency' },
       { name: 'Trump Organization', role: 'PR Executive', type: 'corporation' },
@@ -21,16 +21,16 @@ const profiles: Record<string, IndividualProfile> = {
       'Testified in Manhattan hush money trial',
       'Cried on stand about damage to Trump',
       'On Air Force One during cover story creation',
-      'Resigned after admitting to"white lies"',
+      'Resigned after admitting to "white lies"',
       'January 6 Committee testimony',
       'Text:"We all look like domestic terrorists now"',
     ],
     charges: [
-      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Admitted to"white lies"for Trump; potential false statements to investigators', category: 'Potential Federal' },
-      { statute: '18 U.S.C. § 1512(c)(2)', description: 'Potential Obstruction - Participated in creating cover story on Air Force One for hush money reimbursements', category: 'Potential Federal' },
-      { statute: '18 U.S.C. § 2', description: 'Potential Aiding and Abetting - Knowledge of and participation in scheme to conceal campaign finance violations', category: 'Potential Federal' },
-      { statute: '52 U.S.C. § 30109', description: 'Potential Campaign Finance Violation - Aware of hush money payments during campaign and helped coordinate messaging', category: 'Potential Election' },
-      { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Participated in meetings and communications about concealing payments', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements, Admitted to "white lies "for Trump; potential false statements to investigators', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 1512(c)(2)', description: 'Potential Obstruction, Participated in creating cover story on Air Force One for hush money reimbursements', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 2', description: 'Potential Aiding and Abetting, Knowledge of and participation in scheme to conceal campaign finance violations', category: 'Potential Federal' },
+      { statute: '52 U.S.C. § 30109', description: 'Potential Campaign Finance Violation, Aware of hush money payments during campaign and helped coordinate messaging', category: 'Potential Election' },
+      { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy, Participated in meetings and communications about concealing payments', category: 'Potential Federal' },
     ],
     relatedInvestigations: [
       { title: 'Hush Money & Campaign Finance', slug: 'hush-money', severity: 'critical' },
@@ -40,7 +40,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1988', event: 'Born in Connecticut' },
       { date: '2014', event: 'Joins Trump Organization' },
       { date: '2017', event: 'Named White House Communications Director' },
-      { date: '2018', event: 'Resigns after"white lies"admission' },
+      { date: '2018', event: 'Resigns after" white lies" admission' },
       { date: '2022', event: 'Testifies to January 6 Committee' },
       { date: '2024', event: 'Testifies in Manhattan criminal trial' },
     ],
@@ -48,7 +48,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Manhattan DA Trial Testimony', url: 'https://manhattanda.org/', date: '2024' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -100,9 +100,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -115,7 +115,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Former Secretary of State',
  role: '2016 Democratic Presidential Nominee',
  riskLevel: 'low' as const,
- description: 'Former First Lady, U.S. Senator from New York, and Secretary of State who lost the 2016 presidential election to Donald Trump. Target of numerous Trump attacks including"Lock Her Up"chants. Subject of multiple investigations including emails and Benghazi that found no criminal wrongdoing. Won the popular vote by 3 million votes.',
+ description: 'Former First Lady, U.S. Senator from New York, and Secretary of State who lost the 2016 presidential election to Donald Trump. Target of numerous Trump attacks including "Lock Her Up "chants. Subject of multiple investigations including emails and Benghazi that found no criminal wrongdoing. Won the popular vote by 3 million votes.',
  birthDate: 'October 26, 1947',
  birthPlace: 'Chicago, Illinois',
  education: [
@@ -136,7 +136,7 @@ const profiles: Record<string, IndividualProfile> = {
  'FBI investigation found no criminal intent',
  'Benghazi hearings (11 hours of testimony)',
  'Target of Russian interference in 2016',
- 'Subject of"Lock Her Up"chants at Trump rallies',
+ 'Subject of "Lock Her Up "chants at Trump rallies',
  ],
  charges: [],
  relatedInvestigations: [
@@ -145,7 +145,7 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [
  { date: '2009', event: 'Becomes Secretary of State' },
  { date: '2016', event: 'Wins Democratic nomination' },
- { date: 'July 2016', event: 'FBI concludes email investigation - no charges' },
+ { date: 'July 2016', event: 'FBI concludes email investigation, no charges' },
  { date: 'November 2016', event: 'Loses election despite winning popular vote by 3M' },
  ],
  sources: [
@@ -176,9 +176,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -207,9 +207,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -237,9 +237,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -249,9 +249,9 @@ const profiles: Record<string, IndividualProfile> = {
  'h-r-haldeman': {
  name: 'H. R. Haldeman',
  title: 'Nixon Chief of Staff',
- role: 'Nixon\'s"gatekeeper"who managed cover-up and was imprisoned',
+ role: 'Nixon\'s "gatekeeper "who managed cover-up and was imprisoned',
  riskLevel: 'critical',
- description: 'H. R. Haldeman was Nixon\'s powerful Chief of Staff, known as"the Berlin Wall"for his control of access to the president. He was central to the Watergate cover-up and was convicted of conspiracy, obstruction, and perjury, serving 18 months in prison.',
+ description: 'H. R. Haldeman was Nixon\'s powerful Chief of Staff, known as "the Berlin Wall "for his control of access to the president. He was central to the Watergate cover-up and was convicted of conspiracy, obstruction, and perjury, serving 18 months in prison.',
  birthDate: 'October 27, 1926',
  birthPlace: 'Los Angeles, California',
  deathDate: 'November 12, 1993',
@@ -348,9 +348,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -379,9 +379,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -391,7 +391,7 @@ const profiles: Record<string, IndividualProfile> = {
  'howard-schultz': {
  name: 'Howard Schultz',
  title: 'Former Starbucks CEO',
- role: 'Starbucks CEO - Union Busting Campaign',
+ role: 'Starbucks CEO, Union Busting Campaign',
  riskLevel: 'high',
  description: 'Howard Schultz built Starbucks and returned as CEO in 2022 specifically to crush the unionization wave sweeping the company. Under his leadership, Starbucks was found to have committed hundreds of labor law violations, fired union organizers, and closed stores to prevent organizing. He testified before Congress defending these practices.',
  birthDate: 'July 19, 1953',
@@ -410,8 +410,8 @@ const profiles: Record<string, IndividualProfile> = {
  'BENEFITS THREAT: Withheld benefits from union stores',
  ],
  charges: [
- { statute: '29 U.S.C. � 158(a)(1)', description: 'NLRA - Interference with union rights', category: 'NLRB VIOLATIONS' },
- { statute: '29 U.S.C. � 158(a)(3)', description: 'NLRA - Discrimination against union members', category: 'NLRB VIOLATIONS' },
+ { statute: '29 U.S.C. � 158(a)(1)', description: 'NLRA, Interference with union rights', category: 'NLRB VIOLATIONS' },
+ { statute: '29 U.S.C. � 158(a)(3)', description: 'NLRA, Discrimination against union members', category: 'NLRB VIOLATIONS' },
  ],
  relatedInvestigations: [
  { title: 'Starbucks Union Busting', slug: 'starbucks-union-busting', severity: 'critical' },
@@ -451,9 +451,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -481,9 +481,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -510,13 +510,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Herman Cain' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Herman Cain' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -527,7 +527,7 @@ const profiles: Record<string, IndividualProfile> = {
  'henry-cuellar': {
  name: 'Henry Cuellar',
  title: 'Texas Congressman',
- role: 'Azerbaijan Bribery - FBI Raided',
+ role: 'Azerbaijan Bribery, FBI Raided',
  riskLevel: 'high',
  description: 'Henry Cuellar is a conservative Democratic Congressman indicted in 2024 for allegedly taking bribes from Azerbaijan and a Mexican bank. FBI raided his home in 2022. He is one of the most conservative Democrats and voted against abortion rights.',
  birthDate: 'September 19, 1955',
@@ -544,7 +544,7 @@ const profiles: Record<string, IndividualProfile> = {
  'CONSERVATIVE VOTES: Votes with GOP frequently',
  ],
  charges: [
- { statute: '18 U.S.C. � 201', description: 'Bribery - foreign government bribes (alleged)', category: 'Financial Crimes' },
+ { statute: '18 U.S.C. � 201', description: 'Bribery, foreign government bribes (alleged)', category: 'Financial Crimes' },
  { statute: '18 U.S.C. � 1956', description: 'Money laundering (alleged)', category: 'Financial Crimes' },
  ],
  relatedInvestigations: [
@@ -565,7 +565,7 @@ const profiles: Record<string, IndividualProfile> = {
  'herschel-walker': {
  name: 'Herschel Walker',
  title: 'Former NFL Player',
- role: 'Serial Liar - Abortion Hypocrite',
+ role: 'Serial Liar, Abortion Hypocrite',
  riskLevel: 'medium',
  description: 'Herschel Walker is a former football star who ran for Georgia Senate on an anti-abortion platform despite paying for multiple abortions. He lied about his education, business success, and charitable work. He has multiple secret children and domestic violence allegations.',
  birthDate: 'March 3, 1962',
@@ -620,9 +620,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -658,7 +658,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Hal Knight', url: 'https://www.google.com/search?q=Hal%20Knight', date: '' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
       { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
@@ -712,13 +712,13 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '1919', event: 'documented in ArkHive investigations for their role as Mayor of Corbin, Kentucky during 1919 racial cleansing that expelled all Black residents.' },
-      { date: '2026-03-05', event: 'Network analysis completed — Harrison Trevathan connected to 17 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Harrison Trevathan connected to 17 entities in the accountability database' },
       { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Harrison Trevathan' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Harrison Trevathan', url: 'https://www.google.com/search?q=Harrison%20Trevathan', date: '' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
       { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: [],
@@ -831,7 +831,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Hassan Sheikh Mohamud', url: 'https://en.wikipedia.org/wiki/Hassan_Sheikh_Mohamud', date: '' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records, PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
       { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
     ],
     aliases: [],
@@ -886,7 +886,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Head of Development for the VW brand; charged in U.S. indictment for conspiracy' },
       { date: '2026-03-05', event: 'Cross-referencing Heinz-Jakob Neusser against congressional hearing transcripts and lobbying disclosure databases' },
-      { date: '2026-03-05', event: 'Network analysis completed — Heinz-Jakob Neusser connected to 20 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Heinz-Jakob Neusser connected to 20 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
@@ -953,10 +953,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'henry-dawes': {
  name: 'Henry Dawes',
- title: 'U.S. Senator and author of the Dawes Act (1887), which dissolved communal tribal landholdings and redistributed them as individual allotments. The Act resulted in the loss of approximately 90 million acres - two-thirds of all remaining tribal land - to white settlers and speculators.',
- role: 'U.S. Senator and author of the Dawes Act (1887), which dissolved communal tribal landholdings and redistributed them as individual allotments. The Act resulted in the loss of approximately 90 million acres - two-thirds of all remaining tribal land - to white settlers and speculators.',
+ title: 'U.S. Senator and author of the Dawes Act (1887), which dissolved communal tribal landholdings and redistributed them as individual allotments. The Act resulted in the loss of approximately 90 million acres (two-thirds of all remaining tribal land) to white settlers and speculators.',
+ role: 'U.S. Senator and author of the Dawes Act (1887), which dissolved communal tribal landholdings and redistributed them as individual allotments. The Act resulted in the loss of approximately 90 million acres (two-thirds of all remaining tribal land) to white settlers and speculators.',
  riskLevel: 'high',
- description: 'Henry Dawes is documented in ArkHive investigations for their role as U.S. Senator and author of the Dawes Act (1887), which dissolved communal tribal landholdings and redistributed them as individual allotments. The Act resulted in the loss of approximately 90 million acres - two-thirds of all remaining tribal land - to white settlers and speculators..',
+ description: 'Henry Dawes is documented in ArkHive investigations for their role as U.S. Senator and author of the Dawes Act (1887), which dissolved communal tribal landholdings and redistributed them as individual allotments. The Act resulted in the loss of approximately 90 million acres (two-thirds of all remaining tribal land) to white settlers and speculators..',
  education: [],
  affiliations: [],
  controversies: [
@@ -975,10 +975,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'henry-knox': {
  name: 'Henry Knox',
- title: 'First U.S. Secretary of War. Established early federal Indian policy emphasizing"civilization"programs and land cessions through coerced treaties, setting precedents for systematic dispossession that persisted for over a century.',
- role: 'First U.S. Secretary of War. Established early federal Indian policy emphasizing"civilization"programs and land cessions through coerced treaties, setting precedents for systematic dispossession that persisted for over a century.',
+ title: 'First U.S. Secretary of War. Established early federal Indian policy emphasizing "civilization "programs and land cessions through coerced treaties, setting precedents for systematic dispossession that persisted for over a century.',
+ role: 'First U.S. Secretary of War. Established early federal Indian policy emphasizing "civilization "programs and land cessions through coerced treaties, setting precedents for systematic dispossession that persisted for over a century.',
  riskLevel: 'high',
- description: 'Henry Knox is documented in ArkHive investigations for their role as First U.S. Secretary of War. Established early federal Indian policy emphasizing"civilization"programs and land cessions through coerced treaties, setting precedents for systematic dispossession that persisted for over a century..',
+ description: 'Henry Knox is documented in ArkHive investigations for their role as First U.S. Secretary of War. Established early federal Indian policy emphasizing "civilization "programs and land cessions through coerced treaties, setting precedents for systematic dispossession that persisted for over a century..',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'First U.S. Secretary of War. Established early fed', type: 'organization' },
@@ -989,7 +989,7 @@ const profiles: Record<string, IndividualProfile> = {
  relatedInvestigations: [
  { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
  ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as First U.S. Secretary of War. Established early federal Indian policy emphasizing"civilization"prog' }],
+ timeline: [{ date: 'Ongoing', event: 'Active in role as First U.S. Secretary of War. Established early federal Indian policy emphasizing "civilization "prog' }],
  knownAssociates: [
  { name: 'George Armstrong Custer', relationship: 'Early war department figure whose policies shaped Indian Wars', href: '/entities/individuals/george-armstrong-custer' }
  ],
@@ -1018,7 +1018,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Exxon research scientist who authored internal reports confirming anthropogenic climate change in th' },
       { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Henry Shaw and regulatory oversight bodies' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Henry Shaw' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Henry Shaw' },
     ],
     socialMedia: [],
     sources: [
@@ -1053,7 +1053,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '1994', event: 'Congressman who chaired the 1994 hearings where tobacco CEOs denied nicotine' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Henry Waxman' },
+      { date: '2026-03-05', event: 'Financial network mapping completed, tracing fund flows through entities associated with Henry Waxman' },
       { date: '2026-03-05', event: 'Cross-referencing Henry Waxman against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
@@ -1096,10 +1096,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'herbert-needleman': {
  name: 'Herbert Needleman',
- title: 'Researcher who proved low-level lead exposure harmed children\'s IQ - industry tried to destroy his career',
- role: 'Researcher who proved low-level lead exposure harmed children\'s IQ - industry tried to destroy his career',
+ title: 'Researcher who proved low-level lead exposure harmed children\'s IQ, industry tried to destroy his career',
+ role: 'Researcher who proved low-level lead exposure harmed children\'s IQ, industry tried to destroy his career',
  riskLevel: 'high',
- description: 'Herbert Needleman is documented in ArkHive investigations for their role as Researcher who proved low-level lead exposure harmed children\'s IQ - industry tried to destroy his career.',
+ description: 'Herbert Needleman is documented in ArkHive investigations for their role as Researcher who proved low-level lead exposure harmed children\'s IQ, industry tried to destroy his career.',
  education: [],
  affiliations: [
  { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
@@ -1166,13 +1166,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '1881', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1881-1885)' },
       { date: '1885', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1881-1885)' },
-      { date: '2026-03-05', event: 'Network analysis completed — Hiram Price connected to 24 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Hiram Price connected to 24 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Hiram Price', url: 'https://en.wikipedia.org/wiki/Hiram_Price', date: '' },
       { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register, Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1256,7 +1256,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Hope MacAllister', url: 'https://en.wikipedia.org/wiki/Hope_MacAllister', date: '' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record, Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
       { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
@@ -1286,7 +1286,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Former US Ambassador who laid groundwork for close ties with Indonesian military' },
-      { date: '2026-03-05', event: 'Network analysis completed — Howard Jones connected to 9 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed, Howard Jones connected to 9 entities in the accountability database' },
       { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Howard Jones to previously unknown institutional relationships' },
     ],
     socialMedia: [],
@@ -1352,10 +1352,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'hugh-thompson-jr': {
  name: 'Hugh Thompson Jr.',
- title: 'Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and fleeing civilians, ordering his crew to fire on U.S. troops if they continued killing. He was initially vilified and received death threats - not recognized as a hero until 30 years later.',
- role: 'Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and fleeing civilians, ordering his crew to fire on U.S. troops if they continued killing. He was initially vilified and received death threats - not recognized as a hero until 30 years later.',
+ title: 'Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and fleeing civilians, ordering his crew to fire on U.S. troops if they continued killing. He was initially vilified and received death threats, not recognized as a hero until 30 years later.',
+ role: 'Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and fleeing civilians, ordering his crew to fire on U.S. troops if they continued killing. He was initially vilified and received death threats, not recognized as a hero until 30 years later.',
  riskLevel: 'high',
- description: 'Hugh Thompson Jr. is documented in ArkHive investigations for their role as Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and fleeing civilians, ordering his crew to fire on U.S. troops if they continued killing. He was initially vilified and received death threats - not recognized as a hero until 30 years later..',
+ description: 'Hugh Thompson Jr. is documented in ArkHive investigations for their role as Army helicopter pilot who intervened to stop the My Lai massacre by landing his helicopter between American soldiers and fleeing civilians, ordering his crew to fire on U.S. troops if they continued killing. He was initially vilified and received death threats, not recognized as a hero until 30 years later..',
  education: [],
  affiliations: [],
  controversies: [
@@ -1466,10 +1466,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'hubertus-strughold': {
  name: 'Hubertus Strughold',
- title: 'Nazi scientist recruited through Operation Paperclip, called the"Father of Space Medicine"despite links to human experimentation',
+ title: 'Nazi scientist recruited through Operation Paperclip, called the "Father of Space Medicine "despite links to human experimentation',
  role: 'Scientist',
  riskLevel: 'critical',
- description: 'Hubertus Strughold was a German aviation medicine researcher recruited by the US through Operation Paperclip despite his involvement with Nazi human experimentation at Dachau concentration camp. He became known as the"Father of Space Medicine"while working for the US Air Force.',
+ description: 'Hubertus Strughold was a German aviation medicine researcher recruited by the US through Operation Paperclip despite his involvement with Nazi human experimentation at Dachau concentration camp. He became known as the "Father of Space Medicine "while working for the US Air Force.',
  education: [],
  affiliations: [
  { name: 'US Air Force', role: 'Space Medicine Researcher (via Operation Paperclip)', type: 'agency' },
@@ -1506,7 +1506,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  controversies: [
  'Orchestrated $700 billion TARP bailout that primarily benefited large financial institutions',
- 'Former Goldman Sachs CEO - Goldman received $12.9 billion through AIG bailout',
+ 'Former Goldman Sachs CEO, Goldman received $12.9 billion through AIG bailout',
  'Allowed Lehman Brothers to fail while saving other institutions',
  'Critics argue bailout socialized losses while privatizing gains',
  ],
@@ -1601,7 +1601,7 @@ const profiles: Record<string, IndividualProfile> = {
     role: 'U.S.-Backed Afghan Leader',
     riskLevel: 'medium',
     description: 'First president of Afghanistan after the U.S. invasion (2001-2014). Initially backed by the U.S. but his government became synonymous with corruption and ineffective governance. Brother Ahmed Wali Karzai was a CIA asset and alleged drug trafficker.',
-    education: ['Himachal Pradesh University - M.A.'],
+    education: ['Himachal Pradesh University, M.A.'],
     affiliations: [
       { name: 'Government of Afghanistan', role: 'President', type: 'agency' },
     ],
@@ -1654,9 +1654,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1687,9 +1687,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1720,9 +1720,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1753,9 +1753,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1786,9 +1786,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1818,9 +1818,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [

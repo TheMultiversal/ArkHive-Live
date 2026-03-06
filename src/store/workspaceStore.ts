@@ -94,7 +94,7 @@ const mockMessages: WorkspaceMessage[] = [
  id: 'm3',
  authorId: '3',
  authorName: 'Dr. Emily Watson',
- content: 'The toxicology reports show levels 15x above the reported"safe"thresholds. Adding this to the evidence board.',
+ content: 'The toxicology reports show levels 15x above the reported "safe" thresholds. Adding this to the evidence board.',
  type: 'text',
  timestamp: new Date(Date.now() - 2400000),
  },
@@ -136,7 +136,7 @@ const mockMessages: WorkspaceMessage[] = [
 const mockEvidence: Evidence[] = [
  {
  id: 'e1',
- title: 'EPA Internal Memo - Suppressed Findings',
+ title: 'EPA Internal Memo, Suppressed Findings',
  description: 'Internal memorandum revealing knowledge of contamination levels prior to public disclosure',
  type: 'document',
  category: 'verified',
@@ -152,7 +152,7 @@ const mockEvidence: Evidence[] = [
  },
  {
  id: 'e2',
- title: 'Toxicology Report - Flint Water Supply',
+ title: 'Toxicology Report, Flint Water Supply',
  description: 'Laboratory analysis showing lead levels significantly above federal limits',
  type: 'document',
  category: 'verified',
@@ -183,7 +183,7 @@ const mockEvidence: Evidence[] = [
  },
  {
  id: 'e4',
- title: 'Satellite Imagery - Discharge Events',
+ title: 'Satellite Imagery, Discharge Events',
  description: 'Satellite images showing unreported industrial discharge into water supply',
  type: 'image',
  category: 'supporting',
@@ -453,7 +453,7 @@ const mockWorkspaces: Workspace[] = [
  { id: 'sm5', authorId: '3', authorName: 'Dr. Emily Watson', content: 'Found Citizen Lab reports documenting Pegasus infections on phones of 36 Al Jazeera journalists. Traced back to Saudi and UAE operators.', type: 'text' as const, timestamp: new Date(Date.now() - 36000000) },
  ],
  evidence: [
- { id: 'se1', title: 'NSO Group Pegasus Contract - Saudi Arabia', description: 'Leaked contract documents showing NSO Group sale of Pegasus spyware to Saudi intelligence', type: 'document', category: 'verified' as const, verificationStatus: 'verified' as const, source: 'Citizen Lab / The Guardian', addedAt: new Date('2024-03-15'), addedBy: '1', addedByName: 'Sarah Chen', tags: ['NSO Group', 'Pegasus', 'Saudi Arabia'], connections: ['se2'], verifiedBy: ['2', '4'], position: { x: 100, y: 100 } },
+ { id: 'se1', title: 'NSO Group Pegasus Contract, Saudi Arabia', description: 'Leaked contract documents showing NSO Group sale of Pegasus spyware to Saudi intelligence', type: 'document', category: 'verified' as const, verificationStatus: 'verified' as const, source: 'Citizen Lab / The Guardian', addedAt: new Date('2024-03-15'), addedBy: '1', addedByName: 'Sarah Chen', tags: ['NSO Group', 'Pegasus', 'Saudi Arabia'], connections: ['se2'], verifiedBy: ['2', '4'], position: { x: 100, y: 100 } },
  { id: 'se2', title: 'Cellebrite Export Records', description: 'Bureau of Industry and Security records of Cellebrite tech exports to authoritarian regimes', type: 'document', category: 'primary' as const, verificationStatus: 'pending' as const, source: 'BIS FOIA Response', addedAt: new Date('2024-03-20'), addedBy: '4', addedByName: 'James Mitchell', tags: ['Cellebrite', 'Export Controls', 'BIS'], connections: ['se1'], position: { x: 300, y: 200 } },
  { id: 'se3', title: 'Citizen Lab Pegasus Infection Analysis', description: 'Technical analysis confirming Pegasus infections on Al Jazeera journalist devices', type: 'document', category: 'verified' as const, verificationStatus: 'verified' as const, source: 'Citizen Lab / University of Toronto', addedAt: new Date('2024-03-25'), addedBy: '3', addedByName: 'Dr. Emily Watson', tags: ['Citizen Lab', 'Journalists', 'Al Jazeera'], connections: ['se1'], verifiedBy: ['1'], position: { x: 200, y: 350 } },
  ],
@@ -464,7 +464,7 @@ const mockWorkspaces: Workspace[] = [
  ],
  timeline: [
  { id: 'st1', date: new Date('2016-08-01'), title: 'NSO Group Targets UAE Activist', description: 'Ahmed Mansoor targeted with Pegasus spyware, discovered by Citizen Lab', evidenceIds: ['se1'], addedBy: '1', importance: 'major' as const },
- { id: 'st2', date: new Date('2018-10-02'), title: 'Khashoggi Murder - Pegasus Connection', description: 'Evidence that Pegasus was used to monitor Khashoggi before his assassination', evidenceIds: ['se1'], addedBy: '2', importance: 'major' as const },
+ { id: 'st2', date: new Date('2018-10-02'), title: 'Khashoggi Murder, Pegasus Connection', description: 'Evidence that Pegasus was used to monitor Khashoggi before his assassination', evidenceIds: ['se1'], addedBy: '2', importance: 'major' as const },
  { id: 'st3', date: new Date('2021-07-18'), title: 'Pegasus Project Published', description: '17 media organizations reveal 50,000+ potential surveillance targets', evidenceIds: ['se1', 'se3'], addedBy: '1', importance: 'major' as const },
  ],
  tasks: [],

@@ -67,7 +67,7 @@ const mockDocuments = [
  {
  id: 'fda-memo-001',
  type: 'document',
- title: 'FDA Internal Memo - Drug Approval Fast-Track',
+ title: 'FDA Internal Memo, Drug Approval Fast-Track',
  description: 'Internal communications regarding expedited approval process',
  classification: 'public',
  date: '2024-11-15',
@@ -76,7 +76,7 @@ const mockDocuments = [
  {
  id: 'epa-waiver-002',
  type: 'document',
- title: 'EPA Waiver Documentation - Chemical Plant',
+ title: 'EPA Waiver Documentation, Chemical Plant',
  description: 'Environmental protection waivers granted to Meridian Chemical',
  classification: 'public',
  date: '2024-09-12',

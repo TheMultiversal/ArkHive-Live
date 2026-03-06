@@ -19,7 +19,7 @@ const investigation = {
  subtitle: '"Very Fine People on Both Sides"',
  severity: 'critical',
  status: 'Historical Record',
- summary: 'On August 11-12, 2017, white supremacists, neo-Nazis, and Klansmen gathered in Charlottesville, Virginia for the"Unite the Right"rally, chanting"Jews will not replace us."Counter-protester Heather Heyer was murdered when a neo-Nazi drove his car into a crowd. President Trump\'s response, equating white supremacists with those protesting them, defined his presidency and emboldened the far right.',
+ summary: 'On August 11-12, 2017, white supremacists, neo-Nazis, and Klansmen gathered in Charlottesville, Virginia for the "Unite the Right"rally, chanting "Jews will not replace us."Counter-protester Heather Heyer was murdered when a neo-Nazi drove his car into a crowd. President Trump\'s response, equating white supremacists with those protesting them, defined his presidency and emboldened the far right.',
  casualties: {
  dead: 1,
  injured: 35,
@@ -34,7 +34,7 @@ const investigation = {
  { date: 'Aug 15, 2017', quote: '"This week it\'s Robert E. Lee. I noticed that Stonewall Jackson is coming down. I wonder, is George Washington next?"' },
  ],
  whatHappened: [
- { time: 'Aug 11, Night', event: 'Torch march on UVA campus, marchers chant"Jews will not replace us"and"Blood and soil"' },
+ { time: 'Aug 11, Night', event: 'Torch march on UVA campus, marchers chant "Jews will not replace us "and" Blood and soil"' },
  { time: 'Aug 12, Morning', event: 'Unite the Right rally begins at Emancipation Park' },
  { time: 'Aug 12, 11:28 AM', event: 'Governor McAuliffe declares state of emergency' },
  { time: 'Aug 12, 1:42 PM', event: 'James Fields drives car into counter-protesters, killing Heather Heyer' },
@@ -97,9 +97,9 @@ const investigation = {
  charges: [
  { statute: '18 U.S.C. § 249 - Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act', description: 'Willful causing of bodily injury through use of a dangerous weapon because of race, color, religion, or national origin', count: '29 federal hate crime charges filed against James Alex Fields Jr.' },
  { statute: '18 U.S.C. § 245 - Federally Protected Activities', description: 'Interference with federally protected activities by force or threat of force on the basis of race', count: 'Applied in federal prosecution of Fields' },
- { statute: '42 U.S.C. § 1985(3) - Conspiracy to Interfere with Civil Rights (Ku Klux Klan Act)', description: 'Civil conspiracy to deprive persons of equal protection of the laws through coordinated intimidation', count: 'Central charge in Sines v. Kessler civil trial - organizers found liable for $26 million' },
+ { statute: '42 U.S.C. § 1985(3) - Conspiracy to Interfere with Civil Rights (Ku Klux Klan Act)', description: 'Civil conspiracy to deprive persons of equal protection of the laws through coordinated intimidation', count: 'Central charge in Sines v. Kessler civil trial, organizers found liable for $26 million' },
  { statute: '18 U.S.C. § 241 - Conspiracy Against Rights', description: 'Conspiracy to injure, oppress, threaten, or intimidate persons in free exercise of constitutional rights', count: 'Applied to rally organizers\' coordinated intimidation campaign' },
- { statute: 'Va. Code § 18.2-32 - First-Degree Murder', description: 'Premeditated killing of Heather Heyer by deliberately driving vehicle into crowd of counter-protesters', count: '1 count - Fields convicted, sentenced to life plus 419 years' },
+ { statute: 'Va. Code § 18.2-32 - First-Degree Murder', description: 'Premeditated killing of Heather Heyer by deliberately driving vehicle into crowd of counter-protesters', count: '1 count, Fields convicted, sentenced to life plus 419 years' },
  { statute: '18 U.S.C. § 2101 - Federal Anti-Riot Act', description: 'Traveling in interstate commerce with intent to incite, organize, or participate in a riot', count: 'Applicable to out-of-state rally organizers and armed participants' },
  ],
  coverup: [

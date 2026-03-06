@@ -23,7 +23,7 @@ interface Document {
 const documents: Document[] = [
  {
  id: 'doc-001',
- title: 'FDA Internal Memo - Drug Approval Fast-Track',
+ title: 'FDA Internal Memo, Drug Approval Fast-Track',
  description: 'Internal communications regarding expedited approval process for experimental treatments.',
  type: 'pdf',
  classification: 'public',
@@ -52,7 +52,7 @@ const documents: Document[] = [
  },
  {
  id: 'doc-003',
- title: 'EPA Waiver Documentation - Chemical Plant',
+ title: 'EPA Waiver Documentation, Chemical Plant',
  description: 'Environmental protection waivers granted to Meridian Chemical facilities.',
  type: 'archive',
  classification: 'public',
@@ -67,7 +67,7 @@ const documents: Document[] = [
  },
  {
  id: 'doc-004',
- title: 'Classified Budget Allocation - Defense Department',
+ title: 'Classified Budget Allocation, Defense Department',
  description: 'Redacted portions of defense spending for black budget programs.',
  type: 'pdf',
  classification: 'restricted',
@@ -81,7 +81,7 @@ const documents: Document[] = [
  },
  {
  id: 'doc-005',
- title: 'Internal Clinical Trial Data - Adverse Events',
+ title: 'Internal Clinical Trial Data, Adverse Events',
  description: 'Unreported adverse events from Phase 3 clinical trials.',
  type: 'pdf',
  classification: 'sensitive',
@@ -96,7 +96,7 @@ const documents: Document[] = [
  },
  {
  id: 'doc-006',
- title: 'Financial Transaction Records - Shell Companies',
+ title: 'Financial Transaction Records, Shell Companies',
  description: 'Bank records linking offshore entities to domestic operations.',
  type: 'archive',
  classification: 'sensitive',
@@ -110,7 +110,7 @@ const documents: Document[] = [
  },
  {
  id: 'doc-007',
- title: 'Satellite Imagery - Facility Construction',
+ title: 'Satellite Imagery, Facility Construction',
  description: 'Time-lapse satellite images showing undisclosed facility construction.',
  type: 'image',
  classification: 'public',
