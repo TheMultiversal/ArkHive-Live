@@ -526,7 +526,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Crash Victims',
     role: '110 Killed; May 11, 1996',
     riskLevel: 'critical',
-    description: 'ValuJet Flight 592 crashed in the Florida Everglades on May 11, 1996, killing all 110 people aboard. The FAA had been warned about maintenance issues at SabreTech, the maintenance contractor. This disaster showed FAA\'s failure to act on warnings - a pattern that continued to the MAX crashes.',
+    description: 'ValuJet Flight 592 crashed in the Florida Everglades on May 11, 1996, killing all 110 people aboard. The FAA had been warned about maintenance issues at SabreTech, the maintenance contractor. This disaster showed FAA\'s failure to act on warnings; a pattern that continued to the MAX crashes.',
     birthDate: 'N/A',
     birthPlace: 'Various',
     education: ['N/A'],

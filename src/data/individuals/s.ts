@@ -3925,7 +3925,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Owners of Purdue Pharma',
     role: 'Corporate Executive',
     riskLevel: 'critical',
-    description: 'The Sackler family owned Purdue Pharma, the manufacturer of OxyContin, and profited billions of dollars from the opioid crisis while suppressing evidence of the drug\'s addictiveness. Multiple family members - including Richard Sackler, Mortimer Sackler, and Kathe Sackler - directed aggressive marketing strategies that fueled an epidemic killing hundreds of thousands of Americans. Despite their role in one of the deadliest drug crises in history, family members used bankruptcy proceedings to shield billions in personal wealth from lawsuits.',
+    description: 'The Sackler family owned Purdue Pharma, the manufacturer of OxyContin, and profited billions of dollars from the opioid crisis while suppressing evidence of the drug\'s addictiveness. Multiple family members, including Richard Sackler, Mortimer Sackler, and Kathe Sackler, directed aggressive marketing strategies that fueled an epidemic killing hundreds of thousands of Americans. Despite their role in one of the deadliest drug crises in history, family members used bankruptcy proceedings to shield billions in personal wealth from lawsuits.',
     education: [],
     affiliations: [
       { name: 'Purdue Pharma', role: 'Owners and Board Members', type: 'corporation' },

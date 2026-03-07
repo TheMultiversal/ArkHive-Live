@@ -1365,7 +1365,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'CIA Director (1953-1961)',
     role: 'Longest-serving CIA Director who authorized MKUltra, orchestrated coups, and later served on Warren Commission',
     riskLevel: 'critical',
-    description: 'Allen Welsh Dulles served as CIA Director from 1953-1961, the longest-serving director in agency history. He authorized MKUltra mind control experiments, orchestrated coups in Iran (1953) and Guatemala (1954), launched the Bay of Pigs invasion, initiated Operation Mockingbird to control media, and expanded CIA covert operations globally. He was fired by JFK after Bay of Pigs but later served on the Warren Commission investigating Kennedy\'s assassination - an extraordinary conflict of interest.',
+    description: 'Allen Welsh Dulles served as CIA Director from 1953-1961, the longest-serving director in agency history. He authorized MKUltra mind control experiments, orchestrated coups in Iran (1953) and Guatemala (1954), launched the Bay of Pigs invasion, initiated Operation Mockingbird to control media, and expanded CIA covert operations globally. He was fired by JFK after Bay of Pigs but later served on the Warren Commission investigating Kennedy\'s assassination; an extraordinary conflict of interest.',
     birthDate: 'April 7, 1893',
     birthPlace: 'Watertown, New York',
     deathDate: 'January 29, 1969',
