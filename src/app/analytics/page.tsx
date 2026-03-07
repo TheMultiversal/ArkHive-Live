@@ -200,7 +200,7 @@ function SimpleLineChart({ data, title }: { data: ChartData[]; title: string }) 
 
  const getY = (value: number) => {
  const normalized = (value - minValue) / range;
- return 150 - normalized * 120;
+ return 150; normalized * 120;
  };
 
  const points = data.map((d, i) => ({

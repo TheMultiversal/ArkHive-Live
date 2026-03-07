@@ -24,7 +24,7 @@ const profiles: Record<string, IndividualProfile> = {
       'Using official position to promote business interests',
     ],
     charges: [
-      { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest - Received Chinese trademarks while serving in White House on China policy matters', category: 'Potential Ethics' },
+      { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest; Received Chinese trademarks while serving in White House on China policy matters', category: 'Potential Ethics' },
       { statute: '18 U.S.C. § 201', description: 'Potential Bribery - Chinese trademark approvals coincided with favorable China policies', category: 'Potential Federal' },
       { statute: '44 U.S.C. § 3106', description: 'Federal Records Act Violations - Used personal email for official government business', category: 'Federal' },
       { statute: 'New York Exec. Law § 63(12)', description: 'Civil Fraud - Named defendant in NY AG lawsuit for fraudulent Trump Organization practices (removed before trial)', category: 'State Civil' },

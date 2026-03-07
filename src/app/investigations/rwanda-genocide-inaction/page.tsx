@@ -46,8 +46,8 @@ const investigation = {
  legalOutcomes: [
  { defendant: 'Théoneste Bagosora', charge: 'Genocide, crimes against humanity', outcome: 'Convicted by ICTR in 2008; sentenced to life imprisonment (reduced to 35 years on appeal)' },
  { defendant: 'Jean Kambanda', charge: 'Genocide (as Prime Minister during the genocide)', outcome: 'Pleaded guilty to genocide at ICTR, first head of government convicted of genocide' },
- { defendant: 'Jean-Paul Akayesu', charge: 'Genocide and crimes against humanity including systematic rape', outcome: 'Convicted by ICTR in 1998 - landmark ruling recognizing rape as a tool of genocide' },
- { defendant: 'Ferdinand Nahimana', charge: 'Incitement to genocide through Radio Mille Collines broadcasts', outcome: 'Convicted by ICTR in 2003 ("Media Trial") - sentenced to life, reduced to 30 years on appeal' },
+ { defendant: 'Jean-Paul Akayesu', charge: 'Genocide and crimes against humanity including systematic rape', outcome: 'Convicted by ICTR in 1998; landmark ruling recognizing rape as a tool of genocide' },
+ { defendant: 'Ferdinand Nahimana', charge: 'Incitement to genocide through Radio Mille Collines broadcasts', outcome: 'Convicted by ICTR in 2003 ("Media Trial"); sentenced to life, reduced to 30 years on appeal' },
  { defendant: 'United States Government', charge: 'Failure to prevent genocide under 1948 Convention', outcome: 'No accountability; Clinton offered partial apology in 1998 but no official was punished' },
  { defendant: 'United Nations', charge: 'Failure to protect, reducing peacekeeping force during active genocide', outcome: 'UN report (1999) acknowledged failure; Kofi Annan expressed"deep remorse"' },
  { defendant: 'France (Operation Turquoise)', charge: 'Complicity in protecting génocidaires through safe zone', outcome: 'French commission (2021) acknowledged"heavy responsibilities"but cleared France of direct complicity' },

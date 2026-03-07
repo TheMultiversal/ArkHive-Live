@@ -54,9 +54,9 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: '18 U.S.C. § 371 (Conspiracy to Defraud US)', description: 'Fake Electors Architect - Wrote legal memos outlining scheme to submit fraudulent electoral certificates', category: 'Conspiracy' },
       { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress - Scheme designed to obstruct January 6 certification', category: 'Obstruction' },
       { statute: '52 U.S.C. § 20511 (Election Fraud)', description: 'Election Fraud - Created blueprint for submitting false electoral slates in 7 states', category: 'Election Crime' },
-      { statute: '18 U.S.C. § 1001 (False Statements)', description: 'False Documents - Fake elector certificates signed under his legal guidance were false federal documents', category: 'Fraud' },
-      { statute: 'Wisconsin AG Investigation', description: 'Under Investigation - Faces potential charges in Wisconsin for fake electors scheme', category: 'State Crimes' },
-      { statute: 'Michigan AG Investigation', description: 'Under Investigation - Faces potential charges in Michigan for fake electors scheme', category: 'State Crimes' },
+      { statute: '18 U.S.C. § 1001 (False Statements)', description: 'False Documents; Fake elector certificates signed under his legal guidance were false federal documents', category: 'Fraud' },
+      { statute: 'Wisconsin AG Investigation', description: 'Under Investigation; Faces potential charges in Wisconsin for fake electors scheme', category: 'State Crimes' },
+      { statute: 'Michigan AG Investigation', description: 'Under Investigation; Faces potential charges in Michigan for fake electors scheme', category: 'State Crimes' },
       { statute: 'Bar Disciplinary Proceedings', description: 'Professional Misconduct - Faces bar discipline for ethical violations in election scheme', category: 'Ethics' },
     ],
     relatedInvestigations: [
@@ -901,7 +901,7 @@ const profiles: Record<string, IndividualProfile> = {
       'DONOR FAVORS: Accused of using office to benefit real estate developer donor',
     ],
     charges: [
-      { statute: 'Texas Securities Act', description: 'Securities Fraud - indicted 2015, still pending', category: 'State' },
+      { statute: 'Texas Securities Act', description: 'Securities Fraud; indicted 2015, still pending', category: 'State' },
     ],
     relatedInvestigations: [
       { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -2129,10 +2129,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'karen-lynch': {
     name: 'Karen Lynch',
-    title: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
-    role: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
+    title: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy; a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
+    role: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy; a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
     riskLevel: 'high',
-    description: 'Karen Lynch is documented in this investigative archive for their role as CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs..',
+    description: 'Karen Lynch is documented in this investigative archive for their role as CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy; a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs..',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'CEO of CVS Health (which acquired Aetna). CVS/Aetn', type: 'organization' },

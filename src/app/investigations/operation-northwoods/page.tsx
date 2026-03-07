@@ -25,7 +25,7 @@ const investigation = {
  ],
  timeline: [
  { date: '1959-01', event: 'Cuban Revolution succeeds; Fidel Castro takes power; U.S. begins plotting regime change' },
- { date: '1960', event: 'CIA begins Operation 40 - covert operations including assassination plots against Castro' },
+ { date: '1960', event: 'CIA begins Operation 40; covert operations including assassination plots against Castro' },
  { date: '1961-01', event: 'U.S. breaks diplomatic relations with Cuba as tensions escalate under the new Kennedy administration' },
  { date: '1961-04', event: 'Bay of Pigs invasion fails catastrophically; Kennedy fires CIA Director Allen Dulles; deep rift develops between JFK and the Joint Chiefs' },
  { date: '1961-11', event: 'Kennedy authorizes "Operation Mongoose"- a covert CIA program to destabilize and overthrow Castro\'s government' },

@@ -63,7 +63,7 @@ const investigation = {
  { statute: '18 U.S.C. § 1201', description: 'Kidnapping, forced disappearances of Indigenous women with inadequate federal response', count: '5,712 reported missing in 2016 alone' },
  ],
  coverup: [
- 'The Department of Justice database contained only 116 of the 5,712 Indigenous women reported missing in 2016 - a 98% data gap that rendered the crisis statistically invisible.',
+ 'The Department of Justice database contained only 116 of the 5,712 Indigenous women reported missing in 2016; a 98% data gap that rendered the crisis statistically invisible.',
  'Law enforcement agencies routinely classify missing Indigenous women as "runaways" rather than opening investigations, regardless of circumstances or age.',
  'The Oliphant decision created a legal no-man\'s-land where non-Native perpetrators know they likely won\'t face tribal prosecution, and federal/state agencies lack resources or jurisdiction to fill the gap.',
  'Extractive industry"man camps"- temporary housing for pipeline and mining workers, have been directly correlated with spikes in trafficking and violence against Indigenous women, but companies face no accountability.',

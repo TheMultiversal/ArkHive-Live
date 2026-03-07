@@ -599,7 +599,7 @@ const agencyData: Record<string, {
  'Hacked DNC and Clinton campaign',
  'Released stolen emails via WikiLeaks',
  'Targeted election infrastructure in 50 states',
- 'Unit 74455 (Sandworm) - cyber warfare operations',
+ 'Unit 74455 (Sandworm); cyber warfare operations',
  'Novichok poisoning operations',
  ],
  relatedInvestigations: [

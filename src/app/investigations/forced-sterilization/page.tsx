@@ -45,9 +45,9 @@ const investigation = {
  { date: '2020', event: 'Whistleblower alleges hysterectomies performed on ICE detainees at Irwin County Detention Center' },
  ],
  legalOutcomes: [
- { defendant: 'Buck v. Bell (1927)', charge: 'Constitutionality of forced sterilization', outcome: 'Supreme Court upholds 8-1 - decision has NEVER been explicitly overturned' },
- { defendant: 'State of Virginia', charge: 'Forced sterilization of Carrie Buck and 8,000+ others', outcome: 'Virginia formally apologized in 2002 - no compensation provided' },
- { defendant: 'State of North Carolina', charge: 'Eugenics Board sterilized 7,600+ people, disproportionately Black', outcome: '$10M compensation fund established 2013 - most survivors already deceased' },
+ { defendant: 'Buck v. Bell (1927)', charge: 'Constitutionality of forced sterilization', outcome: 'Supreme Court upholds 8-1; decision has NEVER been explicitly overturned' },
+ { defendant: 'State of Virginia', charge: 'Forced sterilization of Carrie Buck and 8,000+ others', outcome: 'Virginia formally apologized in 2002; no compensation provided' },
+ { defendant: 'State of North Carolina', charge: 'Eugenics Board sterilized 7,600+ people, disproportionately Black', outcome: '$10M compensation fund established 2013; most survivors already deceased' },
  { defendant: 'State of California', charge: '20,000+ forced sterilizations, most of any state', outcome: 'Formal apology 2003, $7.5M reparations program established 2021' },
  { defendant: 'Relf v. Weinberger', charge: 'Federal funding of nonconsensual sterilizations', outcome: 'Federal regulations implemented requiring informed consent' },
  { defendant: 'Indian Health Service', charge: 'Non-consensual sterilization of Native American women', outcome: 'GAO investigation confirmed abuses, no prosecutions' },

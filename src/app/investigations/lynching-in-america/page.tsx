@@ -34,7 +34,7 @@ const investigation = {
  { date: '1918', event: 'Mary Turner, 8 months pregnant, lynched in Georgia, her unborn child cut from her body and stomped to death' },
  { date: '1918', event: 'Congressman Leonidas Dyer introduces Dyer Anti-Lynching Bill, passes House, killed by Senate filibuster' },
  { date: '1919', event: 'Red Summer - 25+ race riots and dozens of lynchings across America' },
- { date: '1922', event: 'Dyer Anti-Lynching Bill passes House 230-119 - killed by Southern Senate filibuster' },
+ { date: '1922', event: 'Dyer Anti-Lynching Bill passes House 230-119; killed by Southern Senate filibuster' },
  { date: '1930', event: 'Thomas Shipp and Abram Smith lynched in Marion, Indiana, photograph inspires "Strange Fruit"poem' },
  { date: '1934', event: 'Costigan-Wagner Anti-Lynching Bill introduced, FDR refuses to support it, killed by Senate filibuster' },
  { date: '1935', event: 'NAACP lobbies for federal legislation, FDR fears losing Southern Democratic support' },
@@ -46,7 +46,7 @@ const investigation = {
  ],
  legalOutcomes: [
  { defendant: 'Perpetrators of 4,400+ lynchings', charge: 'Murder, torture, mutilation', outcome: 'Not a single person convicted of murder for a racial terror lynching in state court' },
- { defendant: 'US Senate', charge: 'Filibuster of 200+ anti-lynching bills over 122 years', outcome: 'Senate formally apologized in 2005 - no legal consequence' },
+ { defendant: 'US Senate', charge: 'Filibuster of 200+ anti-lynching bills over 122 years', outcome: 'Senate formally apologized in 2005; no legal consequence' },
  { defendant: 'Dyer Anti-Lynching Bill (1922)', charge: 'House passed 230-119', outcome: 'Killed by Senate filibuster, pattern repeated for a century' },
  { defendant: 'Roy Bryant & J.W. Milam', charge: 'Murder of Emmett Till', outcome: 'Acquitted by all-white jury in 67 minutes, later confessed' },
  { defendant: 'Sheriff Claude Screws', charge: 'Beating Black prisoner Robert Hall to death (1945)', outcome: 'Federal conviction overturned by Supreme Court, acquitted at retrial' },

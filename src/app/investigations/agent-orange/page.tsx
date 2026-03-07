@@ -44,7 +44,7 @@ const investigation = {
  { date: '2023', event: 'Third and fourth generation Vietnamese continue to be born with Agent Orange-related birth defects' },
  ],
  legalOutcomes: [
- { defendant: 'Dow Chemical, Monsanto, et al.', charge: 'Agent Orange class action (US veterans)', outcome: '$180M settlement in 1984 - approximately $1,200 per veteran' },
+ { defendant: 'Dow Chemical, Monsanto, et al.', charge: 'Agent Orange class action (US veterans)', outcome: '$180M settlement in 1984; approximately $1,200 per veteran' },
  { defendant: 'Chemical Companies', charge: 'Vietnamese victims lawsuit', outcome: 'Dismissed by US courts, companies claimed government contractor defense' },
  { defendant: 'US Government', charge: 'Feres Doctrine bars military personnel lawsuits', outcome: 'Veterans cannot sue for wartime injuries, blocked by sovereign immunity' },
  { defendant: 'Dow Chemical', charge: 'Concealing dioxin contamination health risks', outcome: 'No criminal prosecution despite internal documents showing knowledge' },

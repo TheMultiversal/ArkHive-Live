@@ -35,7 +35,7 @@ const investigation = {
  { date: '2018-04', event: 'Sessions announces official"zero tolerance"policy; systematic family separation begins at scale' },
  { date: '2018-06', event: 'Audio of wailing children separated from parents leaks, causing national outcry' },
  { date: '2018-06', event: 'Trump signs executive order ending family separation after massive backlash, but thousands remain separated' },
- { date: '2018-12', event: 'Two Guatemalan children, Jakelin Caal Maquín (7) and Felipe Alonzo-Gómez (8) - die in CBP custody within weeks' },
+ { date: '2018-12', event: 'Two Guatemalan children, Jakelin Caal Maquín (7) and Felipe Alonzo-Gómez (8); die in CBP custody within weeks' },
  { date: '2019', event: 'DHS Inspector General reports dangerous overcrowding, children without soap or toothbrushes, standing-room-only cells' },
  { date: '2019-07', event: 'Congressional delegation visits detention centers; AOC describes conditions as people"drinking out of toilets"' },
  { date: '2020-09', event: 'Whistleblower Dawn Wooten files complaint alleging mass hysterectomies at Irwin County Detention Center in Georgia' },

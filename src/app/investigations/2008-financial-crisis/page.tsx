@@ -40,7 +40,7 @@ const investigation = {
  { date: '2006', event: 'Housing prices peak. Goldman Sachs begins secretly building massive short positions against the mortgage market while continuing to sell CDOs to clients.' },
  { date: 'April 2007', event: 'New Century Financial, the second-largest subprime lender, files for bankruptcy. Wall Street banks continue selling mortgage-backed securities despite knowing the underlying loans are failing.' },
  { date: 'June-August 2007', event: 'Two Bear Stearns hedge funds that invested heavily in subprime mortgages collapse, losing $1.6B. Rating agencies begin mass downgrades of mortgage securities.' },
- { date: 'March 2008', event: 'Bear Stearns collapses and is acquired by JPMorgan for $2/share (later raised to $10) - a 98% loss. The Federal Reserve absorbs $30B in Bear Stearns\' toxic assets.' },
+ { date: 'March 2008', event: 'Bear Stearns collapses and is acquired by JPMorgan for $2/share (later raised to $10); a 98% loss. The Federal Reserve absorbs $30B in Bear Stearns\' toxic assets.' },
  { date: 'September 7, 2008', event: 'Federal government seizes Fannie Mae and Freddie Mac, placing them in conservatorship. Combined exposure: $5.3 trillion in mortgage guarantees.' },
  { date: 'September 15, 2008', event: 'Lehman Brothers files for bankruptcy, the largest in American history at $639B in assets. Global financial markets panic. Merrill Lynch is sold to Bank of America the same day.' },
  { date: 'September 16, 2008', event: 'AIG receives an $85B federal bailout (eventually totaling $182B). AIG had written $440B in credit default swaps insuring Wall Street\'s toxic products, including $12.9B owed to Goldman Sachs, paid at 100 cents on the dollar.' },

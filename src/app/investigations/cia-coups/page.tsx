@@ -60,7 +60,7 @@ const investigation = {
  { date: 'September 11, 1973', event: 'CHILE: Military coup overthrows President Salvador Allende. Pinochet\\\'s regime kills 3,200+, tortures 40,000+. CIA spent $8 million destabilizing Allende\\\'s government. Kissinger:"I don\\\'t see why we need to stand by and watch a country go communist."' },
  { date: '1975', event: 'CHURCH COMMITTEE: Senator Frank Church\\\'s committee exposes CIA assassination plots against foreign leaders, domestic surveillance, and illegal covert operations. Recommends major reforms.' },
  { date: '1975-1989', event: 'OPERATION CONDOR: CIA-coordinated campaign of political repression across six South American military dictatorships. 60,000+ killed, 400,000+ imprisoned.' },
- { date: '1976', event: 'CIA asset Manuel Contreras orders car bombing of Chilean dissident Orlando Letelier on Embassy Row in Washington, D.C. - an act of state-sponsored terrorism on American soil.' },
+ { date: '1976', event: 'CIA asset Manuel Contreras orders car bombing of Chilean dissident Orlando Letelier on Embassy Row in Washington, D.C.; an act of state-sponsored terrorism on American soil.' },
  { date: '1978', event: 'Executive Order 12036 (Carter) bans assassinations. CIA shifts to proxy operations and plausible deniability structures.' },
  { date: '1979-1992', event: 'AFGHANISTAN: CIA\\\'s Operation Cyclone arms Afghan mujahideen with $3 billion+ in weapons including Stinger missiles. Creates jihadist networks that later become al-Qaeda and the Taliban.' },
  { date: '1981-1990', event: 'NICARAGUA: CIA arms, trains, and directs Contra rebels. 30,000+ killed. Iran-Contra scandal exposes illegal funding through arms sales to Iran. World Court rules US guilty of"unlawful use of force."' },

@@ -616,11 +616,11 @@ export default function SourcesPage() {
  <span className="text-sm text-zinc-400">Reliability Rating:</span>
  <div className="flex items-center gap-2">
  <CheckCircle2 className="w-4 h-4 text-blood-500"/>
- <span className="text-sm text-zinc-300">Verified - Primary official source</span>
+ <span className="text-sm text-zinc-300">Verified; Primary official source</span>
  </div>
  <div className="flex items-center gap-2">
  <CheckCircle2 className="w-4 h-4 text-blood-500"/>
- <span className="text-sm text-zinc-300">Established - Reputable secondary source</span>
+ <span className="text-sm text-zinc-300">Established; Reputable secondary source</span>
  </div>
  <div className="flex items-center gap-2">
  <AlertTriangle className="w-4 h-4 text-zinc-400"/>

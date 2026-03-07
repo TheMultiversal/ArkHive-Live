@@ -66,9 +66,9 @@ const investigation = {
  ],
  coverup: [
  'Carolyn Bryant testified that Emmett Till grabbed her and made sexual advances, she admitted to historian Timothy Tyson in 2017 that this was fabricated',
- 'An unserved arrest warrant for Carolyn Bryant from 1955 was discovered in a courthouse basement in 2023 - it had never been executed',
+ 'An unserved arrest warrant for Carolyn Bryant from 1955 was discovered in a courthouse basement in 2023; it had never been executed',
  'The defense attorneys openly appealed to racial prejudice during the trial, telling the all-white jury that convicting would betray their "Anglo-Saxon heritage"',
- 'After acquittal, Bryant and Milam sold their confession to Look magazine for $4,000 - facing no legal consequences due to double jeopardy',
+ 'After acquittal, Bryant and Milam sold their confession to Look magazine for $4,000; facing no legal consequences due to double jeopardy',
  'Black witnesses who testified were forced to flee Mississippi, Moses Wright left within days of the verdict due to death threats',
  'Tallahatchie County officials destroyed or failed to preserve evidence from the case for decades',
  'The Tallahatchie County sheriff assisted the defense by identifying and delivering hostile witnesses to undermine the prosecution',

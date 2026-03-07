@@ -85,7 +85,7 @@ const investigation = {
  { defendant: 'Richard Helms', charge: 'Perjury before Congress (lying about CIA activities in Chile)', outcome: 'Pled no contest, $2,000 fine, no prison. Wore conviction"like a badge of honor."' },
  { defendant: 'Sidney Gottlieb', charge: 'None, granted immunity in exchange for testimony', outcome: 'Retired to rural Virginia, raised goats. Died 1999.' },
  { defendant: 'CIA (Frank Olson case)', charge: 'Settlement for wrongful death', outcome: '$750,000 to Olson family (1975). Case reopened by Manhattan DA in 1996.' },
- { defendant: 'CIA (Canadian victims)', charge: 'Lawsuit by 77 Cameron victims', outcome: '$100,000 per victim settlement (1992) - approximately $7.7 million total' },
+ { defendant: 'CIA (Canadian victims)', charge: 'Lawsuit by 77 Cameron victims', outcome: '$100,000 per victim settlement (1992); approximately $7.7 million total' },
  { defendant: 'U.S. Government', charge: 'Various civil suits by victims', outcome: 'Most dismissed on national security grounds or statute of limitations' },
  ],
  charges: [
@@ -97,7 +97,7 @@ const investigation = {
  { statute: '18 U.S.C. § 1519 - Destruction of Records', description: 'Richard Helms ordered destruction of MKUltra files', count: 'Only charged with perjury, not obstruction' },
  ],
  coverup: [
- 'CIA Director Richard Helms ordered ALL MKUltra files destroyed in 1973 - only 20,000 documents survived a filing error',
+ 'CIA Director Richard Helms ordered ALL MKUltra files destroyed in 1973; only 20,000 documents survived a filing error',
  'No CIA officer was ever criminally prosecuted for MKUltra despite thousands of victims',
  'Frank Olson\'s death was ruled "suicide" for 22 years before Manhattan DA found evidence of homicide',
  'Sidney Gottlieb was granted immunity from prosecution in exchange for testimony that was largely evasive',

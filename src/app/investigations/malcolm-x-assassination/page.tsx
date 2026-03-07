@@ -48,7 +48,7 @@ const investigation = {
  legalOutcomes: [
  { defendant: 'Muhammad Abdul Aziz', charge: 'First-degree murder (wrongful conviction)', outcome: 'Convicted 1966 - EXONERATED November 18, 2021' },
  { defendant: 'Khalil Islam', charge: 'First-degree murder (wrongful conviction)', outcome: 'Convicted 1966 - EXONERATED posthumously November 18, 2021' },
- { defendant: 'Mujahid Abdul Halim', charge: 'First-degree murder (confessed)', outcome: 'Convicted 1966 - paroled 2010; identified real accomplices' },
+ { defendant: 'Mujahid Abdul Halim', charge: 'First-degree murder (confessed)', outcome: 'Convicted 1966; paroled 2010; identified real accomplices' },
  { defendant: 'FBI (institutional)', charge: 'COINTELPRO operations targeting Malcolm X', outcome: 'Concealed informant evidence; no accountability' },
  { defendant: 'NYPD (institutional)', charge: 'Withdrawal of surveillance; undercover infiltration', outcome: 'Ray Wood confession revealed complicity; lawsuit pending' },
  { defendant: 'Manhattan DA\'s Office', charge: 'Withholding exculpatory evidence (Brady violations)', outcome: 'DA Vance apologized; called it"serious, unacceptable violations"' },

@@ -282,7 +282,7 @@ const corporationData: Record<string, {
  'SEC investigation into SPAC merger disclosures',
  'Stock highly volatile, dropped 70%+ from peak',
  'Company lost $58 million in 2023 on $4M revenue',
- 'Trump share lockup expired September 2024 - liquidation concerns',
+ 'Trump share lockup expired September 2024; liquidation concerns',
  'Mastodon licensing violation controversy',
  'Minimal user base compared to major platforms',
  'DWAC SPAC merger delayed by SEC concerns',
@@ -2843,7 +2843,7 @@ const corporationData: Record<string, {
  ceo: 'Lynn Good',
  website: 'https://www.duke-energy.com',
  controversies: [
- 'Dan River coal ash spill (2014) - criminal conviction',
+ 'Dan River coal ash spill (2014); criminal conviction',
  'Coal ash lagoon contamination across Carolinas',
  '$102 million criminal fine',
  'Passing cleanup costs to ratepayers',

@@ -47,7 +47,7 @@ const investigation = {
  { defendant: 'Sundown Town Municipalities', charge: 'Enforcement of racial exclusion ordinances', outcome: 'Ordinances technically voided by Fair Housing Act, informal exclusion continued' },
  { defendant: 'Real Estate Associations', charge: 'Coordinated refusal to sell to Black buyers in sundown towns', outcome: 'Individual lawsuits, systemic practice rarely prosecuted' },
  { defendant: 'Law Enforcement', charge: 'Complicity in racial violence and enforcement of sundown policies', outcome: 'No accountability, officers participated in exclusion' },
- { defendant: 'State of Oregon', charge: 'Constitutional ban on Black residents (1848-1926)', outcome: 'Exclusion laws repealed in 1926 - no reparations for affected populations' },
+ { defendant: 'State of Oregon', charge: 'Constitutional ban on Black residents (1848-1926)', outcome: 'Exclusion laws repealed in 1926; no reparations for affected populations' },
  { defendant: 'Corbin, Kentucky Perpetrators', charge: 'Violent expulsion of 200 Black residents', outcome: 'No charges ever filed, Black community never returned' },
  { defendant: 'Federal Government', charge: 'FHA policies supporting sundown town maintenance through redlining', outcome: 'Fair Housing Act passed, no retroactive accountability' },
  { defendant: 'Pierce City, MO Mob', charge: 'Murder of 3 Black residents and expulsion of Black community', outcome: 'No charges, grand jury blamed victims' },

@@ -50,7 +50,7 @@ const investigation = {
  { date: 'Aug-Sept 2023', event: 'Sentences ranging from 10-22 years handed down' },
  ],
  legalOutcomes: [
- { defendant: 'Enrique Tarrio', charge: 'Seditious Conspiracy + Obstruction', outcome: '22 years federal prison (September 2023) - longest January 6 sentence' },
+ { defendant: 'Enrique Tarrio', charge: 'Seditious Conspiracy + Obstruction', outcome: '22 years federal prison (September 2023); longest January 6 sentence' },
  { defendant: 'Ethan Nordean', charge: 'Seditious Conspiracy + Obstruction', outcome: '18 years federal prison' },
  { defendant: 'Joseph Biggs', charge: 'Seditious Conspiracy + Obstruction', outcome: '17 years federal prison' },
  { defendant: 'Zachary Rehl', charge: 'Seditious Conspiracy + Obstruction', outcome: '15 years federal prison' },

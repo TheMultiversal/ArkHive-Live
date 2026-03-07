@@ -43,7 +43,7 @@ const profiles: Record<string, IndividualProfile> = {
     education: ['Oxford University - Modern History and Languages (Balliol College)'],
     affiliations: [
       { name: 'Epstein Network', role: 'Chief Recruiter and Co-Conspirator', type: 'organization' },
-      { name: 'TerraMar Project', role: 'Founder (Ocean Conservation Front - dissolved 2019)', type: 'organization' },
+      { name: 'TerraMar Project', role: 'Founder (Ocean Conservation Front; dissolved 2019)', type: 'organization' },
       { name: 'Clinton Global Initiative', role: 'Donor and Participant', type: 'organization' },
       { name: 'NY Social Scene', role: 'High Society Facilitator', type: 'organization' },
     ],
@@ -241,8 +241,8 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: '18 U.S.C. § 1001', description: 'Making False Statements to FBI (Pled Guilty) - Lied about timeline of Russian contacts during campaign', category: 'Obstruction' },
       { statute: '52 U.S.C. § 30121 (Foreign Contributions)', description: 'Foreign Election Assistance - Received advance notice of Russian"dirt"on Clinton from foreign nationals', category: 'Campaign Finance' },
       { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Russia Coordination - Served as conduit between Trump campaign and Russian-connected individuals', category: 'Conspiracy' },
-      { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction Investigation - Lied to cover up extent of Russian contacts with campaign', category: 'Obstruction' },
-      { statute: '18 U.S.C. § 951 (Foreign Agent)', description: 'Potential Foreign Agent - Acted as intermediary for Russian government interests without registration', category: 'Foreign Agent' },
+      { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction Investigation; Lied to cover up extent of Russian contacts with campaign', category: 'Obstruction' },
+      { statute: '18 U.S.C. § 951 (Foreign Agent)', description: 'Potential Foreign Agent; Acted as intermediary for Russian government interests without registration', category: 'Foreign Agent' },
       { statute: 'Presidential Pardon', description: 'Pardoned by Trump - December 2020 pardon wiped conviction but not underlying conduct', category: 'Pardoned' },
     ],
     relatedInvestigations: [
@@ -557,7 +557,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'L-1 Identity Solutions', role: 'Board Member', type: 'corporation' },
     ],
     controversies: [
-      'SLAM DUNK CLAIM: December 2002 Oval Office meeting - told Bush WMD case was"slam dunk"- became symbol of intelligence failure',
+      'SLAM DUNK CLAIM: December 2002 Oval Office meeting; told Bush WMD case was"slam dunk"- became symbol of intelligence failure',
       '9/11 INTELLIGENCE FAILURE: CIA missed multiple warnings about imminent attacks despite"hair on fire"warnings',
       'CURVEBALL DEBACLE: Embraced fabricated intelligence from defector"Curveball"about mobile bioweapon labs',
       'CIA TORTURE PROGRAM: Approved and oversaw"enhanced interrogation"including waterboarding, rectal feeding, sleep deprivation',
@@ -573,9 +573,9 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: 'Rome Statute Article 7(1)(f)', description: 'Crime Against Humanity - Torture as widespread policy', category: 'International' },
       { statute: 'Rome Statute Article 7(1)(i)', description: 'Enforced Disappearance - Black site detention program', category: 'International' },
       { statute: 'Convention Against Torture Article 1', description: 'Torture - Direct authorization of torture techniques', category: 'International' },
-      { statute: 'Convention Against Torture Article 3', description: 'Refoulement - Rendition to torture states', category: 'International' },
+      { statute: 'Convention Against Torture Article 3', description: 'Refoulement; Rendition to torture states', category: 'International' },
       { statute: '18 U.S.C. § 2340A', description: 'Torture - Authorized waterboarding and enhanced interrogation', category: 'Federal' },
-      { statute: '18 U.S.C. § 1519', description: 'Destruction of Evidence - Torture tape destruction', category: 'Federal' },
+      { statute: '18 U.S.C. § 1519', description: 'Destruction of Evidence; Torture tape destruction', category: 'Federal' },
       { statute: 'Geneva Convention III Article 17', description: 'POW Torture - Authorized illegal interrogation of detainees', category: 'International' },
     ],
     relatedInvestigations: [
@@ -596,7 +596,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: 'December 1998', event: 'Warns of bin Laden threat in daily brief' },
       { date: 'July 2001', event: '"Hair on fire"meeting about imminent al-Qaeda attack' },
       { date: 'August 6, 2001', event: 'Delivers PDB"Bin Laden Determined to Strike in US"' },
-      { date: 'September 11, 2001', event: '9/11 attacks - massive intelligence failure' },
+      { date: 'September 11, 2001', event: '9/11 attacks; massive intelligence failure' },
       { date: 'September 2001', event: 'Approves CIA torture program' },
       { date: '2002', event: 'Establishes global black site network' },
       { date: 'December 21, 2002', event: '"Slam dunk"Oval Office meeting' },
@@ -1862,10 +1862,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'george-romney': {
     name: 'George Romney',
-    title: 'HUD Secretary who tried to enforce fair housing - overruled by Nixon',
-    role: 'HUD Secretary who tried to enforce fair housing - overruled by Nixon',
+    title: 'HUD Secretary who tried to enforce fair housing; overruled by Nixon',
+    role: 'HUD Secretary who tried to enforce fair housing; overruled by Nixon',
     riskLevel: 'high',
-    description: 'George Romney is documented in this investigative archive for their role as HUD Secretary who tried to enforce fair housing - overruled by Nixon.',
+    description: 'George Romney is documented in this investigative archive for their role as HUD Secretary who tried to enforce fair housing; overruled by Nixon.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: George de Mohrenschildt', type: 'organization' },
@@ -1880,7 +1880,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as HUD Secretary who tried to enforce fair housing - overruled by Nixon' },
+      { date: 'Ongoing', event: 'Active in role as HUD Secretary who tried to enforce fair housing; overruled by Nixon' },
       { date: '2018-12-20', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with George Romney' },
       { date: '2023-11-21', event: 'Review of newly available public records identified additional documentary evidence connecting George Romney to previously documented institutional relationships' },
     ],

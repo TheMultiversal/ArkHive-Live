@@ -46,7 +46,7 @@ const investigation = {
  { date: '2022-01-13', event: 'California parole board recommends Sirhan\'s release after 53 years; Governor Newsom denies parole' },
  ],
  legalOutcomes: [
- { defendant: 'Sirhan Sirhan', charge: 'First-degree murder of Robert F. Kennedy', outcome: 'Convicted 1969 - death sentence commuted to life; still imprisoned' },
+ { defendant: 'Sirhan Sirhan', charge: 'First-degree murder of Robert F. Kennedy', outcome: 'Convicted 1969; death sentence commuted to life; still imprisoned' },
  { defendant: 'LAPD', charge: 'Destruction of material evidence (bullet-marked door frames, ceiling tiles)', outcome: 'Evidence destroyed 1969; no accountability for destruction' },
  { defendant: 'LAPD', charge: 'Witness intimidation, pressured Sandra Serrano and others to recant testimony', outcome: 'Documented in released files; no disciplinary action' },
  { defendant: 'Thane Eugene Cesar', charge: 'Potential second gunman standing behind Kennedy', outcome: 'Never investigated as suspect; passed polygraph (disputed)' },

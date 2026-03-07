@@ -46,9 +46,9 @@ const investigation = {
  environmentalRacism: {
  description: 'Flint is 54% Black, 41% below poverty line. The emergency manager law that enabled the water switch stripped elected officials of power in majority-Black cities. At the time of the crisis, over half of Michigan\'s Black population lived under emergency management. This would never have happened in a wealthy, white suburb.',
  comparisons: [
- 'Ann Arbor (85% white, median income $60K) - never subjected to emergency management',
- 'Flint (54% Black, median income $25K) - emergency manager imposed, water poisoned',
- 'Grosse Pointe (93% white, median income $100K) - same water infrastructure age, never switched to corrosive source',
+ 'Ann Arbor (85% white, median income $60K); never subjected to emergency management',
+ 'Flint (54% Black, median income $25K); emergency manager imposed, water poisoned',
+ 'Grosse Pointe (93% white, median income $100K); same water infrastructure age, never switched to corrosive source',
  ],
  },
  charges: [
@@ -83,7 +83,7 @@ const investigation = {
  legalOutcomes: [
  { defendant: 'Rick Snyder (Governor)', charge: 'Two misdemeanor willful neglect of duty charges', outcome: 'Charges dismissed June 2022 - NO accountability for governor' },
  { defendant: '15 state/local officials', charge: 'Various charges including involuntary manslaughter', outcome: 'ALL charges dropped or dismissed, ZERO convictions' },
- { defendant: 'City of Flint / State of Michigan', charge: 'Class action, civil rights, negligence', outcome: '$626 million settlement (2021) - most residents receive $2,000-$5,000' },
+ { defendant: 'City of Flint / State of Michigan', charge: 'Class action, civil rights, negligence', outcome: '$626 million settlement (2021); most residents receive $2,000-$5,000' },
  { defendant: 'EPA Region 5', charge: 'Failure to enforce Safe Drinking Water Act', outcome: 'Inspector General report critical of EPA, no personnel consequences' },
  ],
  sources: [

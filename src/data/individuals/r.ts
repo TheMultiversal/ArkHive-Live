@@ -34,7 +34,7 @@ const profiles: Record<string, IndividualProfile> = {
       'CREDIBILITY COLLAPSE: Went from respected prosecutor to national laughingstock',
     ],
     charges: [
-      { statute: 'Georgia RICO O.C.G.A. § 16-14-4', description: 'Racketeering - fake electors scheme', category: 'Organized Crime' },
+      { statute: 'Georgia RICO O.C.G.A. § 16-14-4', description: 'Racketeering; fake electors scheme', category: 'Organized Crime' },
       { statute: 'O.C.G.A. § 16-10-20', description: 'False statements to government bodies (2 counts)', category: 'Fraud' },
       { statute: 'O.C.G.A. § 16-4-7', description: 'Solicitation of violation of oath by public officer (3 counts)', category: 'Election Crimes' },
       { statute: 'O.C.G.A. § 16-10-23', description: 'Filing false documents (3 counts)', category: 'Fraud' },
@@ -134,7 +134,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'WIKILEAKS COORDINATION: Advance knowledge of WikiLeaks releases ("time in the barrel"prediction August 2016), communicated with Julian Assange through intermediaries',
-      'CONVICTED 7 FELONIES: Lying to Congress (5 counts), obstruction, witness tampering - convicted November 2019',
+      'CONVICTED 7 FELONIES: Lying to Congress (5 counts), obstruction, witness tampering; convicted November 2019',
       'WITNESS TAMPERING: Threatened Randy Credico to prevent testimony:"Prepare to die"and threatened to steal his therapy dog',
       'NIXON BACK TATTOO: Has large tattoo of Richard Nixon between shoulder blades, openly celebrates"rat-fucking"tradition',
       'PROUD BOYS SECURITY: Used Proud Boys as personal security at events, Enrique Tarrio and others provided protection',
@@ -147,7 +147,7 @@ const profiles: Record<string, IndividualProfile> = {
     charges: [
       { statute: '18 U.S.C. § 1001', description: 'Making false statements to Congress (5 counts)', category: 'Obstruction' },
       { statute: '18 U.S.C. § 1505', description: 'Obstruction of congressional investigation', category: 'Obstruction' },
-      { statute: '18 U.S.C. § 1512(b)(1)', description: 'Witness tampering - threats against Randy Credico', category: 'Obstruction' },
+      { statute: '18 U.S.C. § 1512(b)(1)', description: 'Witness tampering; threats against Randy Credico', category: 'Obstruction' },
     ],
     relatedInvestigations: [
       { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -579,7 +579,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2016', event: 'Key figure in Trump campaign support' },
       { date: '2016', event: 'November: Joins Trump transition team' },
       { date: '2017', event: 'Continues political funding operations' },
-      { date: '2018', event: 'Cambridge Analytica scandal - company folds' },
+      { date: '2018', event: 'Cambridge Analytica scandal; company folds' },
     ],
     socialMedia: [],
     sources: [
@@ -731,7 +731,7 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: '18 U.S.C. § 1344', description: 'Potential Bank Fraud Scheme - Pattern of approving loans to politically connected client despite red flags', category: 'Potential Federal' },
       { statute: '31 U.S.C. § 5318 (Bank Secrecy Act)', description: 'Potential Anti-Money Laundering Violations - Failed to properly flag suspicious transactions in Trump accounts', category: 'Potential Federal' },
       { statute: '12 C.F.R. Part 208 (Regulation H)', description: 'Banking Regulation Violations - Overruled internal risk assessments to approve questionable loans', category: 'Banking Regulatory' },
-      { statute: '18 U.S.C. § 208', description: 'Conflict of Interest - Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
+      { statute: '18 U.S.C. § 208', description: 'Conflict of Interest; Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
       { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Pattern of facilitating questionable loans to Trump despite institutional warnings', category: 'Potential Federal' },
       { statute: 'SEC Rule 10b-5', description: 'Potential Securities Violations - Personal investments while possessing material non-public information about clients', category: 'Potential Securities' },
     ],
@@ -1338,7 +1338,7 @@ const profiles: Record<string, IndividualProfile> = {
       'NO PROSECUTION: DOJ declined to charge despite evidence',
     ],
     charges: [
-      { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading - sold stock on material nonpublic information', category: 'Not prosecuted' },
+      { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading; sold stock on material nonpublic information', category: 'Not prosecuted' },
     ],
     relatedInvestigations: [
       { title: 'Securities & Market Fraud', slug: 'securities-fraud', severity: 'critical' },
@@ -1819,14 +1819,14 @@ const profiles: Record<string, IndividualProfile> = {
       'IGNORED WARNINGS: Snyder\'s administration received numerous warnings about water quality and lead levels. Internal emails show officials knew of problems while publicly claiming the water was safe.',
       'COVER-UP: The Michigan Department of Environmental Quality, under Snyder\'s administration, manipulated testing protocols to hide lead contamination. Officials attacked and discredited researchers who exposed the crisis.',
       'LEGIONNAIRES\' OUTBREAK: At least 12 people died from Legionnaires\' disease caused by the contaminated water. Snyder\'s administration initially concealed the outbreak.',
-      'DELAYED RESPONSE: Despite knowing of lead contamination, Snyder did not declare a state of emergency until January 2016 - nearly two years after the water switch.',
+      'DELAYED RESPONSE: Despite knowing of lead contamination, Snyder did not declare a state of emergency until January 2016; nearly two years after the water switch.',
       'CRIMINAL CHARGES: In January 2021, Snyder was charged with two counts of willful neglect of duty (misdemeanors). He was the first Michigan governor charged with crimes related to actions in office.',
       'CHARGES DROPPED: In June 2022, the Michigan Supreme Court ruled the indictments were invalid due to procedural issues with the one-person grand jury. Charges against Snyder and other officials were dismissed.',
       'NO ACCOUNTABILITY: Despite poisoning 100,000 people, Snyder faces no criminal consequences. The Flint water crisis exemplifies environmental racism and official impunity.',
     ],
     charges: [
-      { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Other Inhumane Acts: Actions causing great suffering and serious injury to body - lead poisoning of 100,000 people', category: 'International Criminal Law' },
-      { statute: 'MCL 750.478', description: 'Willful Neglect of Duty: Charged (2 counts) - dismissed on procedural grounds', category: 'State Criminal Law' },
+      { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Other Inhumane Acts: Actions causing great suffering and serious injury to body; lead poisoning of 100,000 people', category: 'International Criminal Law' },
+      { statute: 'MCL 750.478', description: 'Willful Neglect of Duty: Charged (2 counts); dismissed on procedural grounds', category: 'State Criminal Law' },
       { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law: Potential federal charge for depriving residents of safe water', category: 'Federal Civil Rights' },
     ],
     relatedInvestigations: [
@@ -1877,7 +1877,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'CIA Director (1966-1973)',
     role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress about Chile',
     riskLevel: 'critical',
-    description: 'Richard Helms served as CIA Director from 1966-1973 and ordered the destruction of MKUltra records to prevent accountability for human experimentation crimes. He lied to Congress about CIA involvement in the Chilean coup and was convicted of perjury - receiving only a $2,000 fine. He oversaw continued mind control experiments, assassination programs, and domestic surveillance while destroying evidence of the CIA\'s worst crimes.',
+    description: 'Richard Helms served as CIA Director from 1966-1973 and ordered the destruction of MKUltra records to prevent accountability for human experimentation crimes. He lied to Congress about CIA involvement in the Chilean coup and was convicted of perjury; receiving only a $2,000 fine. He oversaw continued mind control experiments, assassination programs, and domestic surveillance while destroying evidence of the CIA\'s worst crimes.',
     education: [],
     affiliations: [
       { name: 'CIA', role: 'Director (1966-1973)', type: 'agency' },
@@ -2020,7 +2020,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'NSA Whistleblower',
     role: 'Leaked evidence of Russian election interference, imprisoned',
     riskLevel: 'low',
-    description: 'Reality Winner was an NSA contractor who leaked a classified report showing Russian interference in the 2016 election to The Intercept. She was sentenced to over 5 years in prison - the longest sentence ever for an unauthorized disclosure to the media - while those who benefited from Russian interference faced no consequences.',
+    description: 'Reality Winner was an NSA contractor who leaked a classified report showing Russian interference in the 2016 election to The Intercept. She was sentenced to over 5 years in prison; the longest sentence ever for an unauthorized disclosure to the media; while those who benefited from Russian interference faced no consequences.',
     birthDate: 'December 4, 1991',
     birthPlace: 'Alice, Texas',
     education: ['Air Force training'],
@@ -2030,7 +2030,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'NSA contractor who leaked classified report proving Russian cyberattacks on U.S. election infrastructure',
-      'Sentenced to 5 years and 3 months - the longest sentence ever for an unauthorized disclosure to media',
+      'Sentenced to 5 years and 3 months; the longest sentence ever for an unauthorized disclosure to media',
       'Her leak confirmed what intelligence agencies were warning about Russian interference in 2016 election',
     ],
     charges: [],
@@ -4694,10 +4694,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'robert-scherrer': {
     name: 'Robert Scherrer',
-    title: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network - his reports were largely ignored',
-    role: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network - his reports were largely ignored',
+    title: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network; his reports were largely ignored',
+    role: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network; his reports were largely ignored',
     riskLevel: 'high',
-    description: 'Robert Scherrer is documented in this investigative archive for their role as FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network - his reports were largely ignored.',
+    description: 'Robert Scherrer is documented in this investigative archive for their role as FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network; his reports were largely ignored.',
     education: [],
     affiliations: [
       { name: 'Federal Bureau of Investigation', role: 'FBI Official', type: 'agency' },
@@ -4833,10 +4833,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'robert-williams': {
     name: 'Robert Williams',
-    title: 'First documented wrongful arrest due to facial recognition - a Black man falsely identified by Detroit PD',
-    role: 'First documented wrongful arrest due to facial recognition - a Black man falsely identified by Detroit PD',
+    title: 'First documented wrongful arrest due to facial recognition; a Black man falsely identified by Detroit PD',
+    role: 'First documented wrongful arrest due to facial recognition; a Black man falsely identified by Detroit PD',
     riskLevel: 'high',
-    description: 'Robert Williams is documented in this investigative archive for their role as First documented wrongful arrest due to facial recognition - a Black man falsely identified by Detroit PD.',
+    description: 'Robert Williams is documented in this investigative archive for their role as First documented wrongful arrest due to facial recognition; a Black man falsely identified by Detroit PD.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Robert Weaver', type: 'organization' },
@@ -4851,7 +4851,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Facial Recognition Surveillance', slug: 'facial-recognition-surveillance', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as First documented wrongful arrest due to facial recognition - a Black man falsely identified by Det' },
+      { date: 'Ongoing', event: 'Active in role as First documented wrongful arrest due to facial recognition; a Black man falsely identified by Det' },
       { date: '2025-07-22', event: 'Cross-referencing Robert Williams against congressional hearing transcripts and lobbying disclosure databases' },
       { date: '2023-12-25', event: 'Network analysis completed — Robert Williams connected to 12 entities in the accountability database' },
     ],
@@ -5661,7 +5661,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: '19th President of the United States',
     role: 'Political Figure',
     riskLevel: 'medium',
-    description: 'Rutherford B. Hayes served as the 19th President of the United States from 1877 to 1881. He appointed Carl Schurz as Secretary of the Interior, who expanded the Indian boarding school system designed to forcibly assimilate Native American children by separating them from their families, cultures, and languages - a policy later recognized as cultural genocide.',
+    description: 'Rutherford B. Hayes served as the 19th President of the United States from 1877 to 1881. He appointed Carl Schurz as Secretary of the Interior, who expanded the Indian boarding school system designed to forcibly assimilate Native American children by separating them from their families, cultures, and languages; a policy later recognized as cultural genocide.',
     birthDate: 'October 4, 1822',
     birthPlace: 'Delaware, Ohio',
     deathDate: 'January 17, 1893',

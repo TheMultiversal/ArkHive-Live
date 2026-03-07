@@ -69,7 +69,7 @@ const investigation = {
  'William Casey died of a brain tumor in May 1987, conveniently before he could testify about either October Surprise or Iran-Contra',
  'George H.W. Bush pardoned six Iran-Contra defendants on Christmas Eve 1992, just weeks before leaving office, preventing trials that could have exposed October Surprise connections',
  'The Reagan administration\'s arms sales to Iran, exposed in Iran-Contra, may have been fulfillment of the original October Surprise quid pro quo, but this connection was never officially investigated',
- 'Cyrus Hashemi, a key intermediary, died under suspicious circumstances in London in 1986 - his sudden "leukemia" has been questioned by investigators',
+ 'Cyrus Hashemi, a key intermediary, died under suspicious circumstances in London in 1986; his sudden "leukemia" has been questioned by investigators',
  'Secret Service records that could have confirmed or denied George H.W. Bush\'s presence at alleged Paris meetings were incomplete and contradictory',
  'Ben Barnes kept silent for over 40 years about his role in carrying messages for Connally, only coming forward in 2023 after weighing his conscience',
  'Iranian President Abolhassan Banisadr repeatedly stated that the Reagan campaign negotiated with Iran, but U.S. media largely dismissed his testimony as unreliable',

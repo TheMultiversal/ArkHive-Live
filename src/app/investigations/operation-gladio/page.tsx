@@ -29,7 +29,7 @@ const investigation = {
  { date: '1951', event: 'NATO\'s Clandestine Planning Committee (CPC) formalizes stay-behind army coordination' },
  { date: '1956', event: 'Allied Clandestine Committee (ACC) established to manage Gladio operations across NATO' },
  { date: '1964', event: 'Piano Solo, Italian military coup plan linked to Gladio networks, later exposed' },
- { date: 'December 1969', event: 'Piazza Fontana bombing in Milan kills 17 - initially blamed on anarchists, later linked to far-right Gladio assets' },
+ { date: 'December 1969', event: 'Piazza Fontana bombing in Milan kills 17; initially blamed on anarchists, later linked to far-right Gladio assets' },
  { date: '1972', event: 'Peteano car bombing carried out by Vincenzo Vinciguerra, later confesses Gladio involvement' },
  { date: 'May 1974', event: 'Piazza della Loggia bombing in Brescia kills 8 at anti-fascist rally' },
  { date: 'August 1974', event: 'Italicus Express bombing kills 12 passengers on train' },
@@ -51,7 +51,7 @@ const investigation = {
  { defendant: 'Giulio Andreotti', charge: 'Association with Mafia (related investigation)', outcome: 'Acquitted after lengthy trial' },
  { defendant: 'SISMI Officers', charge: 'Concealing Gladio weapons caches', outcome: 'Minimal accountability, agency restructured' },
  { defendant: 'CIA/NATO Officials', charge: 'Funding and coordinating secret terrorist networks', outcome: 'No prosecutions, sovereign immunity claimed' },
- { defendant: 'Gilberto Cavallini', charge: 'Bologna bombing complicity', outcome: 'Convicted in 2020 - life imprisonment' },
+ { defendant: 'Gilberto Cavallini', charge: 'Bologna bombing complicity', outcome: 'Convicted in 2020; life imprisonment' },
  ],
  charges: [
  { statute: 'Italian Penal Code Art. 285 - Devastation and Massacre', description: 'Multiple bombing attacks targeting civilians in public spaces', count: '85 killed in Bologna alone, 150+ total across attacks' },

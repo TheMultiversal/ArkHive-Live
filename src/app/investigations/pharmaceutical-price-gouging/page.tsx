@@ -39,7 +39,7 @@ const investigation = {
  { date: '2019', event: 'House passes bill allowing Medicare to negotiate drug prices; McConnell refuses to bring it to Senate floor' },
  { date: '2020', event: 'During COVID-19, pharmaceutical companies race to develop vaccines with $18B+ in taxpayer-funded support' },
  { date: '2021', event: 'Congressional investigation reveals insulin manufacturers deliberately synchronized price increases, evidence of tacit collusion' },
- { date: 'August 2022', event: 'Inflation Reduction Act allows Medicare to negotiate prices on 10 drugs starting 2026 - first time in nearly 20 years' },
+ { date: 'August 2022', event: 'Inflation Reduction Act allows Medicare to negotiate prices on 10 drugs starting 2026; first time in nearly 20 years' },
  { date: '2023', event: 'Eli Lilly caps insulin at $35/month after decades of advocacy; Novo Nordisk and Sanofi follow, proving price was always artificial' },
  { date: '2024', event: 'Medicare begins negotiating prices for first 10 drugs; pharmaceutical industry sues to block law' },
  { date: '2024', event: 'Ozempic/Wegovy costs $1,000+/month in US vs $59 in Germany; weight loss drug pricing becomes new front in pharma price war' },

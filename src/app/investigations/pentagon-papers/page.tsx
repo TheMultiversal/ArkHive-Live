@@ -39,7 +39,7 @@ const investigation = {
  { date: '1971-06-15', event: 'Nixon administration obtains federal injunction against the Times, first prior restraint order against a newspaper in U.S. history' },
  { date: '1971-06-18', event: 'Washington Post begins publishing after Katharine Graham overrules legal advisers warning it could destroy the company' },
  { date: '1971-06-30', event: 'Supreme Court rules 6-3 in New York Times Co. v. United States, the press can publish, prior restraint is unconstitutional' },
- { date: '1971-06', event: 'Ellsberg charged under the Espionage Act of 1917 - potentially facing 115 years in prison' },
+ { date: '1971-06', event: 'Ellsberg charged under the Espionage Act of 1917; potentially facing 115 years in prison' },
  { date: '1971-09', event: 'Nixon\'s "Plumbers" break into Ellsberg\'s psychiatrist\'s office seeking material to discredit him, laying groundwork for Watergate' },
  { date: '1973-05-11', event: 'All charges against Ellsberg dismissed due to government misconduct, including the Plumbers break-in and illegal wiretapping' },
  { date: '2011', event: 'Pentagon Papers officially declassified after 40 years; full 7,000 pages released by the National Archives' },

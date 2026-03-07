@@ -79,7 +79,7 @@ export default function DocumentsPage() {
           cmp = a.title.localeCompare(b.title);
           break;
         case 'downloads':
-          cmp = a.downloadCount - b.downloadCount;
+          cmp = a.downloadCount; b.downloadCount;
           break;
         case 'category':
           cmp = a.category.localeCompare(b.category);
@@ -285,7 +285,7 @@ export default function DocumentsPage() {
         Showing {visibleDocs.length} of {filteredDocuments.length} documents
       </div>
 
-      {/* Documents - List View */}
+      {/* Documents; List View */}
       {viewMode === 'list' ? (
         <div className="space-y-2">
           {visibleDocs.map((doc, index) => {

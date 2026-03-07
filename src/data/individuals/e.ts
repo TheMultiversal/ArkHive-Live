@@ -22,7 +22,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [
       { statute: 'New York Exec. Law § 63(12)', description: 'Civil Fraud Liability - Found liable for persistent fraud in NY AG lawsuit; banned from serving as NY company officer for 2 years', category: 'State Civil' },
-      { statute: 'New York Penal Law § 175.10', description: 'Potential Falsifying Business Records - Signed financial statements containing material misrepresentations', category: 'Potential State' },
+      { statute: 'New York Penal Law § 175.10', description: 'Potential Falsifying Business Records; Signed financial statements containing material misrepresentations', category: 'Potential State' },
       { statute: '18 U.S.C. § 1014', description: 'Potential Bank Fraud - Submitted inflated financial statements to obtain loans', category: 'Potential Federal' },
       { statute: 'New York Not-for-Profit Corp. Law § 720', description: 'Foundation Self-Dealing - Eric Trump Foundation investigation found charity funds diverted to Trump Organization', category: 'State Nonprofit' },
       { statute: 'IRS 26 U.S.C. § 4941', description: 'Potential Self-Dealing Violations - Eric Trump Foundation ceased operations amid self-dealing investigation', category: 'Potential Tax' },
@@ -918,7 +918,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Crash Victims',
     role: '157 People Killed from 35 Countries - March 10, 2019',
     riskLevel: 'critical',
-    description: '157 people from 35 countries were killed when Ethiopian Airlines Flight 302 crashed 6 minutes after takeoff from Addis Ababa. Boeing KNEW about the MCAS defect from Lion Air 610. They did NOTHING. They let people board a plane they knew was dangerous. This was not an accident - this was murder. 32 Kenyans, 18 Canadians, 9 Ethiopians, 8 Americans, 8 Chinese, and people from 30 other nations were sacrificed for Boeing\'s profits.',
+    description: '157 people from 35 countries were killed when Ethiopian Airlines Flight 302 crashed 6 minutes after takeoff from Addis Ababa. Boeing KNEW about the MCAS defect from Lion Air 610. They did NOTHING. They let people board a plane they knew was dangerous. This was not an accident; this was murder. 32 Kenyans, 18 Canadians, 9 Ethiopians, 8 Americans, 8 Chinese, and people from 30 other nations were sacrificed for Boeing\'s profits.',
     birthDate: 'Various',
     birthPlace: '35 Different Countries',
     education: ['N/A'],
@@ -926,8 +926,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Chinese Government', role: 'Chinese Official', type: 'agency' },
     ],
     controversies: [
-      'MURDER: Boeing knew MCAS was deadly after Lion Air - did nothing',
-      'INTERNATIONAL VICTIMS: 35 nationalities - global crime',
+      'MURDER: Boeing knew MCAS was deadly after Lion Air; did nothing',
+      'INTERNATIONAL VICTIMS: 35 nationalities; global crime',
       'DELAYED GROUNDING: FAA was last major authority to ground MAX',
       'UN WORKERS: Several victims were traveling to UN environment conference',
       'NO PROSECUTION: Boeing executives walk free despite 157 deaths',
@@ -941,7 +941,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'March 10, 2019', event: '157 people board Ethiopian Airlines Flight 302' },
       { date: 'March 10, 2019 - 8:38 AM', event: 'Aircraft departs Addis Ababa' },
-      { date: 'March 10, 2019 - 8:44 AM', event: 'Aircraft crashes - All 157 killed' },
+      { date: 'March 10, 2019 - 8:44 AM', event: 'Aircraft crashes; All 157 killed' },
       { date: 'March 13, 2019', event: 'FAA finally grounds 737 MAX (last major authority)' },
       { date: '2020', event: 'Ethiopian AIB blames Boeing design' },
     ],
@@ -1812,10 +1812,10 @@ const profiles: Record<string, IndividualProfile> = {
 
   'elaine-riddick': {
     name: 'Elaine Riddick',
-    title: 'Sterilized at age 14 in North Carolina - became prominent activist for survivors',
-    role: 'Sterilized at age 14 in North Carolina - became prominent activist for survivors',
+    title: 'Sterilized at age 14 in North Carolina; became prominent activist for survivors',
+    role: 'Sterilized at age 14 in North Carolina; became prominent activist for survivors',
     riskLevel: 'high',
-    description: 'Elaine Riddick is documented in this investigative archive for their role as Sterilized at age 14 in North Carolina - became prominent activist for survivors.',
+    description: 'Elaine Riddick is documented in this investigative archive for their role as Sterilized at age 14 in North Carolina; became prominent activist for survivors.',
     education: [],
     affiliations: [
       { name: 'Civil Society', role: 'Activist', type: 'organization' },
@@ -1830,7 +1830,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as Sterilized at age 14 in North Carolina - became prominent activist for survivors' },
+      { date: 'Ongoing', event: 'Active in role as Sterilized at age 14 in North Carolina; became prominent activist for survivors' },
       { date: '2016-10-19', event: 'Network analysis completed — Elaine Riddick connected to 23 entities in the accountability database' },
       { date: '2012-05-31', event: 'Public records request filed for communications involving Elaine Riddick and relevant regulatory oversight entities' },
     ],
@@ -2026,10 +2026,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'emilio-massera': {
     name: 'Emilio Eduardo Massera',
-    title: 'Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School) - the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen',
-    role: 'Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School) - the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen',
+    title: 'Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School); the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen',
+    role: 'Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School); the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen',
     riskLevel: 'high',
-    description: 'Emilio Eduardo Massera is documented in this investigative archive for their role as Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School) - the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen.',
+    description: 'Emilio Eduardo Massera is documented in this investigative archive for their role as Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School); the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen.',
     education: [],
     affiliations: [
       { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
@@ -2045,7 +2045,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Operation Condor', slug: 'operation-condor', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School) - the most notorious torture and e' },
+      { date: 'Ongoing', event: 'Active in role as Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School); the most notorious torture and e' },
       { date: '2018-06-16', event: 'Documentation updated based on newly available public records' },
       { date: '2023-01-23', event: 'Financial disclosure analysis completed for entities and transactions associated with Emilio Eduardo Massera' },
     ],

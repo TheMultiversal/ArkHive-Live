@@ -29,7 +29,7 @@ const investigation = {
  { date: '1977-06-01', event: 'Exxon senior scientist James Black presents to management:"There is general scientific agreement that the most likely manner in which mankind is influencing the global climate is through carbon dioxide release from the burning of fossil fuels"' },
  { date: '1978-11-01', event: 'Exxon launches major internal climate research program, deploying scientists on the supertanker Esso Atlantic to measure ocean CO2 absorption' },
  { date: '1981-01-01', event: 'Internal Exxon memo by Roger Cohen warns that continued fossil fuel burning could produce"ichievably dramatic"effects including"some potentially catastrophic events"' },
- { date: '1982-11-12', event: 'Internal Exxon document projects warming of 0.3°C per decade and CO2 doubling by 2060 - predictions that prove 99% accurate' },
+ { date: '1982-11-12', event: 'Internal Exxon document projects warming of 0.3°C per decade and CO2 doubling by 2060; predictions that prove 99% accurate' },
  { date: '1982-09-01', event: 'Exxon\'s corporate primer on CO2 states:"Mitigation of the \'greenhouse effect\' would require major reductions in fossil fuel combustion"' },
  { date: '1983-01-01', event: 'Exxon begins cutting its climate research program despite confirming the science internally' },
  { date: '1988-06-23', event: 'NASA\'s James Hansen testifies before Congress that global warming has begun; Exxon\'s internal science already corroborated this' },

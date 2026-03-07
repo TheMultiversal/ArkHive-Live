@@ -66,7 +66,7 @@ const investigation = {
  { statute: '18 U.S.C. § 371 - Conspiracy', description: 'Conspiracy to make false statements and obstruct official proceedings', count: 'Charged in connection with flow rate concealment' },
  ],
  coverup: [
- 'BP initially claimed the well was leaking 1,000 barrels per day, then 5,000 - the actual rate was 62,000 barrels per day, meaning BP underreported the spill by 92%',
+ 'BP initially claimed the well was leaking 1,000 barrels per day, then 5,000; the actual rate was 62,000 barrels per day, meaning BP underreported the spill by 92%',
  'BP engineer Kurt Mix deleted over 200 text messages discussing flow rate estimates that contradicted BP\'s public statements',
  'Halliburton destroyed evidence by ordering employees to delete computer simulations of the cement job that showed it would fail',
  'BP\'s own risk assessment classified the Macondo well as "SEVERE" risk before the blowout, but this assessment was not shared with regulators',

@@ -57,7 +57,7 @@ const investigation = {
  { date: 'May 2023', event: 'Rhodes sentenced to 18 years in prison' },
  ],
  legalOutcomes: [
- { defendant: 'Stewart Rhodes', charge: 'Seditious Conspiracy + Obstruction', outcome: '18 years federal prison (May 2023) - longest sentence for Oath Keeper leader' },
+ { defendant: 'Stewart Rhodes', charge: 'Seditious Conspiracy + Obstruction', outcome: '18 years federal prison (May 2023); longest sentence for Oath Keeper leader' },
  { defendant: 'Kelly Meggs', charge: 'Seditious Conspiracy + Obstruction', outcome: '12 years federal prison' },
  { defendant: 'Jessica Watkins', charge: 'Conspiracy to Obstruct + Civil Disorder', outcome: '8.5 years federal prison' },
  { defendant: 'Kenneth Harrelson', charge: 'Conspiracy to Obstruct + Civil Disorder', outcome: '4 years federal prison' },

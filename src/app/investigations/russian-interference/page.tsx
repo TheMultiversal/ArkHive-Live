@@ -74,8 +74,8 @@ const investigation = {
  { defendant: 'Michael Cohen', charge: 'Lying to Congress about Trump Tower Moscow', outcome: '3 years federal prison (December 2018)' },
  { defendant: 'George Papadopoulos', charge: 'Lying to FBI about Russian contacts', outcome: '14 days federal prison, Pardoned by Trump (December 2020)' },
  { defendant: 'Rick Gates', charge: 'Conspiracy, Lying to FBI', outcome: '45 days jail + 3 years probation, cooperated extensively' },
- { defendant: '13 Russian Nationals + 3 Russian Entities', charge: 'Conspiracy to Defraud the United States', outcome: 'Indicted by Mueller (February 2018) - defendants at large in Russia' },
- { defendant: '12 Russian GRU Officers', charge: 'Computer Hacking Conspiracy (DNC/DCCC)', outcome: 'Indicted by Mueller (July 2018) - defendants at large in Russia' },
+ { defendant: '13 Russian Nationals + 3 Russian Entities', charge: 'Conspiracy to Defraud the United States', outcome: 'Indicted by Mueller (February 2018); defendants at large in Russia' },
+ { defendant: '12 Russian GRU Officers', charge: 'Computer Hacking Conspiracy (DNC/DCCC)', outcome: 'Indicted by Mueller (July 2018); defendants at large in Russia' },
  ],
  convictions: [
  { name: 'Paul Manafort', charges: 'Tax fraud, bank fraud, conspiracy', sentence: '7.5 years', pardoned: true },

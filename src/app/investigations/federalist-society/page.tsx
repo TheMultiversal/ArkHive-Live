@@ -81,7 +81,7 @@ const investigation = {
  'Samuel Alito published a preemptive defense in the Wall Street Journal before ProPublica\'s Alaska trip story was published, demonstrating he had advance knowledge of the investigation and coordinated a media strategy rather than addressing the ethical violations.',
  'The Federalist Society\'s role in judicial selection is deliberately kept informal, there are no official documents, no formal nomination lists, no paper trail. Leo communicates through phone calls and personal meetings, ensuring the capture of the judiciary leaves minimal evidence.',
  'After the Dobbs decision overturning Roe v. Wade, Federalist Society members and allies insist the decision was based on"pure legal reasoning "and" originalism"- obscuring the 40-year, billion-dollar campaign specifically designed to produce exactly this outcome.',
- 'Supreme Court Chief Justice John Roberts convened the Court to adopt a voluntary"ethics code"in November 2023 - which contained no enforcement mechanism and did not require any justice to recuse or change behavior, allowing the ethical crisis to continue unchecked.',
+ 'Supreme Court Chief Justice John Roberts convened the Court to adopt a voluntary"ethics code"in November 2023; which contained no enforcement mechanism and did not require any justice to recuse or change behavior, allowing the ethical crisis to continue unchecked.',
  ],
  sources: [
  { title: 'ProPublica -"Clarence Thomas and the Billionaire"by Joshua Kaplan, Justin Elliott, and Alex Mierjeski', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-harlan-crow', date: '2023-04-06' },

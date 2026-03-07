@@ -202,7 +202,7 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud - Used harvested data to manipulate voters through psychological targeting', category: 'Potential Federal' },
       { statute: '52 U.S.C. § 30121', description: 'Potential Foreign National Campaign Contribution - UK citizen providing substantial services to US presidential campaign', category: 'Potential Election' },
       { statute: 'UK Bribery Act 2010', description: 'Bribery Admissions - Caught on camera discussing using bribes and honey traps to influence politicians', category: 'UK Criminal' },
-      { statute: 'UK Parliament Contempt', description: 'Contempt of Parliament - Provided false testimony to UK Parliament about Cambridge Analytica practices', category: 'UK Legislative' },
+      { statute: 'UK Parliament Contempt', description: 'Contempt of Parliament; Provided false testimony to UK Parliament about Cambridge Analytica practices', category: 'UK Legislative' },
       { statute: 'GDPR Article 83', description: 'EU Data Protection Violations - Massive violations of European data protection rights', category: 'EU Regulatory' },
     ],
     relatedInvestigations: [
@@ -337,7 +337,7 @@ const profiles: Record<string, IndividualProfile> = {
       'Defended deal claiming it was better than state charges alone',
     ],
     charges: [
-      { statute: '18 U.S.C. § 3771 (Crime Victims\' Rights Act)', description: 'VIOLATED - Federal judge ruled Acosta\'s office violated victims\' rights by failing to notify Epstein\'s victims of plea deal', category: 'Federal - Adjudicated' },
+      { statute: '18 U.S.C. § 3771 (Crime Victims\' Rights Act)', description: 'VIOLATED - Federal judge ruled Acosta\'s office violated victims\' rights by failing to notify Epstein\'s victims of plea deal', category: 'Federal; Adjudicated' },
       { statute: '18 U.S.C. § 1591 (Sex Trafficking of Minors)', description: 'Prosecutorial Misconduct - Failed to prosecute Epstein on federal sex trafficking charges despite FBI evidence of 36+ minor victims', category: 'Dereliction' },
       { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Non-prosecution agreement shielded unnamed co-conspirators from federal prosecution', category: 'Potential Federal' },
       { statute: '18 U.S.C. § 1519', description: 'Potential Obstruction - Secret plea deal concealed from victims prevented accountability', category: 'Potential Federal' },
@@ -426,11 +426,11 @@ const profiles: Record<string, IndividualProfile> = {
       'Resigned after January 6 but did not invoke 25th',
     ],
     charges: [
-      { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest - Former Eli Lilly executive overseeing drug pricing policy while maintaining pharmaceutical industry ties', category: 'Potential Ethics' },
+      { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest; Former Eli Lilly executive overseeing drug pricing policy while maintaining pharmaceutical industry ties', category: 'Potential Ethics' },
       { statute: '42 U.S.C. § 247d (Public Health Emergencies)', description: 'Emergency Response Failures - Failed to timely declare public health emergency and ensure adequate testing/PPE during COVID-19', category: 'Public Health' },
       { statute: '6 U.S.C. § 279 (Unaccompanied Alien Children)', description: 'Child Welfare Violations - HHS lost track of thousands of migrant children placed with sponsors, failed proper oversight', category: 'Immigration' },
       { statute: '8 U.S.C. § 1232 (Trafficking Victims Protection)', description: 'Protection Failures - Inadequate screening for trafficking victims among separated children at HHS facilities', category: 'Immigration' },
-      { statute: '21 U.S.C. § 360bbb-3 (Emergency Use Authorization)', description: 'EUA Mismanagement - Political interference in FDA emergency authorizations during pandemic response', category: 'Public Health' },
+      { statute: '21 U.S.C. § 360bbb-3 (Emergency Use Authorization)', description: 'EUA Mismanagement; Political interference in FDA emergency authorizations during pandemic response', category: 'Public Health' },
       { statute: '5 U.S.C. § 3331', description: 'Oath of Office Concerns - Resigned after January 6 rather than invoke 25th Amendment despite believing Trump unfit', category: 'Constitutional' },
       { statute: '42 C.F.R. Part 73 (Select Agents)', description: 'Biosecurity Oversight Failures - HHS oversight of lab safety during pandemic response raised concerns', category: 'Public Health' },
     ],
@@ -601,7 +601,7 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress - Organized rally with intent to disrupt January 6 certification', category: 'Obstruction' },
       { statute: '18 U.S.C. § 373 (Solicitation)', description: 'Solicitation to Commit Violence - Speeches and social media incited followers to march on Capitol', category: 'Incitement' },
       { statute: '52 U.S.C. § 20511 (Election Interference)', description: 'Intimidation of Election Officials - Stop the Steal targeted election workers with threats', category: 'Election Crime' },
-      { statute: '18 U.S.C. § 2101 (Inciting a Riot)', description: 'Riot Incitement - Rally speeches contributed directly to mob violence at Capitol', category: 'Incitement' },
+      { statute: '18 U.S.C. § 2101 (Inciting a Riot)', description: 'Riot Incitement; Rally speeches contributed directly to mob violence at Capitol', category: 'Incitement' },
       { statute: '18 U.S.C. § 1001 (False Statements)', description: 'False Claims - Spread knowingly false election fraud allegations', category: 'Fraud' },
     ],
     relatedInvestigations: [
@@ -1383,7 +1383,7 @@ const profiles: Record<string, IndividualProfile> = {
       'BAY OF PIGS: Assured President Kennedy the invasion would succeed. When it failed disastrously, Kennedy fired him, reportedly saying he wanted to"splinter the CIA into a thousand pieces."',
       'WARREN COMMISSION: Despite being fired by JFK and having potential motive for the assassination, Dulles was appointed to investigate Kennedy\'s murder. Critics argue he steered the investigation away from intelligence connections.',
       'UNITED FRUIT CONNECTIONS: Both Allen and his brother John Foster Dulles had extensive ties to United Fruit Company, which directly benefited from the Guatemala coup. This represented massive conflicts of interest.',
-      'LEGACY OF COVERT ACTION: Dulles established the template for CIA covert operations that continues today - overthrowing governments, manipulating media, conducting experiments on citizens, and operating without accountability.',
+      'LEGACY OF COVERT ACTION: Dulles established the template for CIA covert operations that continues today; overthrowing governments, manipulating media, conducting experiments on citizens, and operating without accountability.',
     ],
     charges: [
       { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Human Experimentation: MKUltra program drugged unwitting citizens, causing permanent harm and deaths', category: 'International Crime' },
@@ -2102,7 +2102,7 @@ const profiles: Record<string, IndividualProfile> = {
   'alaska-261-victims': {
     name: 'Alaska Airlines 261 Victims',
     title: 'Crash Victims',
-    role: '88 Killed - January 31, 2000',
+    role: '88 Killed; January 31, 2000',
     riskLevel: 'critical',
     description: 'Alaska Airlines Flight 261 crashed off the California coast on January 31, 2000, killing all 88 people aboard. The FAA had allowed extended maintenance intervals on the jackscrew that failed. This crash exemplified FAA allowing airlines to defer safety maintenance.',
     birthDate: 'N/A',

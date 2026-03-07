@@ -32,8 +32,8 @@ const profiles: Record<string, IndividualProfile> = {
       'CYPRIOT SHELL COMPANIES: Used dozens of shell companies to launder payments from Ukraine',
     ],
     charges: [
-      { statute: '26 U.S.C. § 7206', description: 'Tax fraud - concealing $15 million in foreign income (5 counts)', category: 'Financial Crimes' },
-      { statute: '18 U.S.C. § 1344', description: 'Bank fraud - defrauding Citizens Bank, Federal Savings Bank (2 counts)', category: 'Financial Crimes' },
+      { statute: '26 U.S.C. § 7206', description: 'Tax fraud; concealing $15 million in foreign income (5 counts)', category: 'Financial Crimes' },
+      { statute: '18 U.S.C. § 1344', description: 'Bank fraud; defrauding Citizens Bank, Federal Savings Bank (2 counts)', category: 'Financial Crimes' },
       { statute: '31 U.S.C. § 5314', description: 'Failure to report foreign bank accounts (FBAR)', category: 'Financial Crimes' },
       { statute: '18 U.S.C. § 1512', description: 'Witness tampering', category: 'Obstruction' },
       { statute: '22 U.S.C. § 618', description: 'Failure to register as foreign agent (FARA)', category: 'National Security' },
@@ -556,9 +556,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'IRAQ WAR ARCHITECT: Principal designer of Iraq invasion strategy, predicted"cakewalk"victory',
-      '"GREETED AS LIBERATORS": Predicted Iraqis would welcome US troops - catastrophically wrong',
-      '"WAR PAYS FOR ITSELF": Claimed Iraq oil would finance reconstruction - war cost $3+ trillion',
-      'TROOP LEVEL DISMISSALS: Attacked General Shinseki for saying 300,000 troops needed - sent far fewer',
+      '"GREETED AS LIBERATORS": Predicted Iraqis would welcome US troops; catastrophically wrong',
+      '"WAR PAYS FOR ITSELF": Claimed Iraq oil would finance reconstruction; war cost $3+ trillion',
+      'TROOP LEVEL DISMISSALS: Attacked General Shinseki for saying 300,000 troops needed; sent far fewer',
       'PNAC SIGNATORY: Signed 1998 letter calling for Iraq regime change, pre-planned invasion',
       'OFFICE OF SPECIAL PLANS: Created parallel intelligence operation to"stovepipe"intel to White House',
       'CURVEBALL CHAMPION: Promoted false intelligence about mobile bioweapon labs',

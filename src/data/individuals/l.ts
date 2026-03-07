@@ -18,7 +18,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Ukraine pressure campaign with Giuliani',
-      'Campaign finance violations - straw donations',
+      'Campaign finance violations; straw donations',
       'Arrested at Dulles Airport fleeing country with one-way tickets',
       'Recorded conversations with Trump',
       'Provided evidence to January 6 Committee',
@@ -131,7 +131,7 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: '39 U.S.C. § 101 (Postal Service Obligations)', description: 'Dereliction of Duty - Failed to maintain timely mail service during election period when mail-in voting was critical', category: 'Potential Regulatory' },
       { statute: '18 U.S.C. § 1708', description: 'Potential Mail Delay - Systematic delays to mail service through operational changes during election', category: 'Potential Federal' },
       { statute: '18 U.S.C. § 594', description: 'Potential Voter Intimidation Through Mail Delays - Actions created fear that mail-in ballots would not be counted', category: 'Potential Federal' },
-      { statute: '18 U.S.C. § 208', description: 'Conflict of Interest - Former company XPO Logistics had $286M+ in USPS contracts while he ran USPS', category: 'Ethics' },
+      { statute: '18 U.S.C. § 208', description: 'Conflict of Interest; Former company XPO Logistics had $286M+ in USPS contracts while he ran USPS', category: 'Ethics' },
       { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain - Conflicts between USPS leadership and former business interests', category: 'Ethics' },
       { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Coordinated operational changes that impacted mail ballot delivery across multiple states', category: 'Potential Federal' },
       { statute: '52 U.S.C. § 20511', description: 'Conspiracy Against Rights - Operational changes disproportionately affected Democratic areas and mail-in voters', category: 'Potential Civil Rights' },
@@ -1558,10 +1558,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'lanny-breuer': {
     name: 'Lanny Breuer',
-    title: 'Assistant AG, Criminal Division - knew about gunwalking, failed to act',
-    role: 'Assistant AG, Criminal Division - knew about gunwalking, failed to act',
+    title: 'Assistant AG, Criminal Division; knew about gunwalking, failed to act',
+    role: 'Assistant AG, Criminal Division; knew about gunwalking, failed to act',
     riskLevel: 'high',
-    description: 'Lanny Breuer is documented in this investigative archive for their role as Assistant AG, Criminal Division - knew about gunwalking, failed to act.',
+    description: 'Lanny Breuer is documented in this investigative archive for their role as Assistant AG, Criminal Division; knew about gunwalking, failed to act.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: LaDonna Brave Bull Allard', type: 'organization' },
@@ -1576,7 +1576,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as Assistant AG, Criminal Division - knew about gunwalking, failed to act' },
+      { date: 'Ongoing', event: 'Active in role as Assistant AG, Criminal Division; knew about gunwalking, failed to act' },
       { date: '2023-05-04', event: 'Public records request filed for communications involving Lanny Breuer and relevant regulatory oversight entities' },
       { date: '2020-01-06', event: 'Financial disclosure analysis completed for entities and transactions associated with Lanny Breuer' },
     ],
@@ -1753,10 +1753,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'lee-iacocca': {
     name: 'Lee Iacocca',
-    title: 'Ford President - Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix',
-    role: 'Ford President - Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix',
+    title: 'Ford President; Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix',
+    role: 'Ford President; Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix',
     riskLevel: 'high',
-    description: 'Lee Iacocca is documented in this investigative archive for their role as Ford President - Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix.',
+    description: 'Lee Iacocca is documented in this investigative archive for their role as Ford President; Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Lee Harvey Oswald', type: 'organization' },
@@ -1771,7 +1771,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Corporate Homicide', slug: 'corporate-homicide', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as Ford President - Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix' },
+      { date: 'Ongoing', event: 'Active in role as Ford President; Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix' },
       { date: '2015-03-18', event: 'Network analysis completed — Lee Iacocca connected to 5 entities in the accountability database' },
       { date: '2023-08-23', event: 'Financial disclosure analysis completed for entities and transactions associated with Lee Iacocca' },
     ],

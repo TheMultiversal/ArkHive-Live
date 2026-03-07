@@ -46,8 +46,8 @@ const investigation = {
  ],
  legalOutcomes: [
  { defendant: 'Shelley v. Kraemer (1948)', charge: 'Enforcement of racial restrictive covenants', outcome: 'Supreme Court ruled covenants unenforceable, but FHA continued discrimination' },
- { defendant: 'FHA/Federal Government', charge: 'Systematic racial discrimination in mortgage lending', outcome: 'Fair Housing Act passed 1968 - no retroactive accountability' },
- { defendant: 'Countrywide Financial', charge: 'Discriminatory lending to Black and Hispanic borrowers', outcome: '$335M DOJ settlement in 2012 - company already acquired by Bank of America' },
+ { defendant: 'FHA/Federal Government', charge: 'Systematic racial discrimination in mortgage lending', outcome: 'Fair Housing Act passed 1968; no retroactive accountability' },
+ { defendant: 'Countrywide Financial', charge: 'Discriminatory lending to Black and Hispanic borrowers', outcome: '$335M DOJ settlement in 2012; company already acquired by Bank of America' },
  { defendant: 'Wells Fargo', charge: 'Predatory lending targeting Black borrowers ("ghetto loans")', outcome: '$175M settlement, loan officers used racial slurs internally' },
  { defendant: 'Bank of America', charge: 'Discriminatory lending practices', outcome: '$335M settlement for Countrywide practices' },
  { defendant: 'Real Estate Industry', charge: 'Systematic steering of Black buyers away from white neighborhoods', outcome: 'Individual lawsuits, industry practices continued for decades after Fair Housing Act' },
@@ -72,7 +72,7 @@ const investigation = {
  'The"urban renewal"program of the 1950s-60s was called "Negro removal"by James Baldwin because it destroyed thriving Black neighborhoods in cities nationwide',
  'After the Fair Housing Act was passed, HUD Secretary George Romney\'s attempts to enforce it were actively blocked by President Nixon, who feared losing white suburban voters',
  'Appraisal industry standards embedded racial bias, Black-owned homes were consistently appraised at lower values than identical white-owned homes, a practice that continues today',
- 'Banks developed"reverse redlining"in the 2000s - targeting Black borrowers for predatory subprime loans rather than denying them credit outright',
+ 'Banks developed"reverse redlining"in the 2000s; targeting Black borrowers for predatory subprime loans rather than denying them credit outright',
  'The racial wealth gap is presented as a natural market outcome rather than the direct result of a century of deliberate federal policy choices',
  ],
  sources: [

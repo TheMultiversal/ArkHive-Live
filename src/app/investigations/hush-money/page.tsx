@@ -44,7 +44,7 @@ const investigation = {
  falsification: '34 checks, invoices, and ledger entries falsely labeled"legal expenses"',
  },
  legalOutcomes: [
- { defendant: 'Donald Trump', charge: '34 Counts Falsifying Business Records (1st Degree)', outcome: 'Guilty on all 34 counts (May 30, 2024) - first former president convicted of felonies' },
+ { defendant: 'Donald Trump', charge: '34 Counts Falsifying Business Records (1st Degree)', outcome: 'Guilty on all 34 counts (May 30, 2024); first former president convicted of felonies' },
  { defendant: 'Michael Cohen', charge: 'Campaign Finance Violations, Tax Fraud, Lying to Congress', outcome: '3 years federal prison (December 2018)' },
  { defendant: 'Allen Weisselberg', charge: 'Tax Fraud (related Trump Org scheme)', outcome: 'Pleaded guilty - 5 months at Rikers Island' },
  { defendant: 'AMI / David Pecker', charge: 'Campaign Finance Violations, Catch and Kill scheme', outcome: 'Non-prosecution agreement in exchange for cooperation (2018)' },

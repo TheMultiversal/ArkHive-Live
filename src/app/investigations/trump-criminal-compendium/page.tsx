@@ -217,8 +217,8 @@ const investigationData = {
  content: [
  `Trump engaged in systematic corruption and bribery:`,
  `• 2016 Trump Tower meeting with Russians offering"dirt on Clinton"in exchange for sanctions relief worth $50 billion.`,
- `• Payments to Stormy Daniels of $130,000 to influence election (2017) - resulting in 34 felony convictions.`,
- `• Withholding of $391 million in military aid to Ukraine for political investigations (2019) - first impeachment.`,
+ `• Payments to Stormy Daniels of $130,000 to influence election (2017); resulting in 34 felony convictions.`,
+ `• Withholding of $391 million in military aid to Ukraine for political investigations (2019); first impeachment.`,
  `• Pardons of allies (Manafort, Stone, Flynn) in exchange for loyalty and silence (2021).`,
  `• Acceptance of emoluments from foreign governments through hotel stays worth $10+ million (2017-2021).`,
  `• Use of campaign funds for personal expenses including $1 million on Mar-a-Lago (2020).`,

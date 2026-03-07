@@ -294,12 +294,12 @@ export default function InvestigationsPage() {
  case"newest": {
  const da = new Date(a.date).getTime();
  const db = new Date(b.date).getTime();
- return db - da;
+ return db; da;
  }
  case"oldest": {
  const da = new Date(a.date).getTime();
  const db = new Date(b.date).getTime();
- return da - db;
+ return da; db;
  }
  case"severity":
  return (SEVERITY_ORDER[a.severity] ?? 9) - (SEVERITY_ORDER[b.severity] ?? 9);

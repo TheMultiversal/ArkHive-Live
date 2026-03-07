@@ -3097,7 +3097,402 @@
       ],
       "mood": "loved",
       "pid": 572
+    },
+    "DAEMON-3908": {
+      "nodeId": "DAEMON-3908",
+      "nodeType": "daemon",
+      "status": "online",
+      "currentTask": null,
+      "completedTasks": 4180,
+      "failedTasks": 0,
+      "lastHeartbeat": 1772860006061,
+      "thoughts": [
+        {
+          "thought": "Worker W57 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772850549382
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772850549369
+        },
+        {
+          "thought": "Cycle 52: rescanning for new work",
+          "timestamp": 1772850545226
+        },
+        {
+          "thought": "Worker W56 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772850539727
+        },
+        {
+          "thought": "Worker W50 resting after 3 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772849630022
+        },
+        {
+          "thought": "Worker W55 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772849629986
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772849629978
+        },
+        {
+          "thought": "Cycle 51: rescanning for new work",
+          "timestamp": 1772849625013
+        },
+        {
+          "thought": "Worker W54 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772848388611
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772848388606
+        },
+        {
+          "thought": "Cycle 50: rescanning for new work",
+          "timestamp": 1772848384454
+        },
+        {
+          "thought": "Worker W53 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772846686072
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772846686060
+        },
+        {
+          "thought": "Cycle 49: rescanning for new work",
+          "timestamp": 1772846679794
+        },
+        {
+          "thought": "Worker W52 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772844489195
+        },
+        {
+          "thought": "Worker W51 spawned. 5 workers active. Hive memory shared.",
+          "timestamp": 1772844489193
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772844489181
+        },
+        {
+          "thought": "Cycle 48: rescanning for new work",
+          "timestamp": 1772844484109
+        },
+        {
+          "thought": "Worker W50 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772844480134
+        },
+        {
+          "thought": "Worker W49 spawned. 3 workers active. Hive memory shared.",
+          "timestamp": 1772844480127
+        }
+      ],
+      "discoveries": [
+        {
+          "slug": "redaction-abuse-in-public-documents",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772859759319
+        },
+        {
+          "slug": "state-level-election-fraud-prosecutions",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772859513510
+        },
+        {
+          "slug": "private-prison-industry",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772859331777
+        },
+        {
+          "slug": "openai-inc",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772859131881
+        },
+        {
+          "slug": "amazon-inc",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772858926475
+        },
+        {
+          "slug": "shell-plc",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772858706320
+        },
+        {
+          "slug": "bayer-ag",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772858503027
+        },
+        {
+          "slug": "monsanto-company",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772858346724
+        },
+        {
+          "slug": "moderna-inc",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772858255102
+        },
+        {
+          "slug": "tencent-holdings",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772858115789
+        },
+        {
+          "slug": "bytedance-ltd",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772857944634
+        },
+        {
+          "slug": "alphabet-inc",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772857785770
+        },
+        {
+          "slug": "nvidia-corporation",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772857667695
+        },
+        {
+          "slug": "anthropic-pbc",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772857573567
+        },
+        {
+          "slug": "alibaba-group",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772857465130
+        },
+        {
+          "slug": "spacex",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772857343483
+        },
+        {
+          "slug": "berkshire-hathaway",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772857260327
+        },
+        {
+          "slug": "astrazeneca-plc",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772854824795
+        },
+        {
+          "slug": "meta-platforms-inc",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772854764486
+        },
+        {
+          "slug": "tesla-inc",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772854643555
+        },
+        {
+          "slug": "exxonmobil-corporation",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772854520696
+        },
+        {
+          "slug": "huawei-technologies",
+          "type": "corporation",
+          "action": "enrich",
+          "timestamp": 1772854367231
+        },
+        {
+          "slug": "larry-fink",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772854221233
+        },
+        {
+          "slug": "amy-klobuchar",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772854100105
+        },
+        {
+          "slug": "booz-allen-hamilton",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772853889426
+        },
+        {
+          "slug": "defense-advanced-research-projects-agency",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772853675255
+        },
+        {
+          "slug": "carnegie-endowment-for-international-peace",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772853402258
+        },
+        {
+          "slug": "rob-portman",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772853156512
+        },
+        {
+          "slug": "federal-aviation-administration",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772853032751
+        },
+        {
+          "slug": "sundar-pichai",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772852943755
+        },
+        {
+          "slug": "united-states-marshals-service",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772852802143
+        },
+        {
+          "slug": "bridgewater-associates",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772852681931
+        },
+        {
+          "slug": "centers-for-disease-control-and-prevention",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772852544104
+        },
+        {
+          "slug": "lloyd-austin",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772852474391
+        },
+        {
+          "slug": "shari-redstone",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772852421075
+        },
+        {
+          "slug": "electronic-frontier-foundation",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772852389897
+        },
+        {
+          "slug": "rohit-chopra",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772852364284
+        },
+        {
+          "slug": "vanguard-group",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772852345485
+        },
+        {
+          "slug": "southern-poverty-law-center",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772852306812
+        },
+        {
+          "slug": "michael-flynn",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772852277051
+        },
+        {
+          "slug": "pat-gelsinger",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772852214552
+        },
+        {
+          "slug": "kenneth-griffin",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772852154741
+        },
+        {
+          "slug": "rupert-murdoch",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772852091807
+        },
+        {
+          "slug": "jack-dorsey",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772852065512
+        },
+        {
+          "slug": "mark-milley",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772852037209
+        },
+        {
+          "slug": "josh-hawley",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772851998956
+        },
+        {
+          "slug": "jerome-powell",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772851948081
+        },
+        {
+          "slug": "northrop-grumman",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772851905108
+        },
+        {
+          "slug": "national-geospatial-intelligence-agency",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772851845124
+        },
+        {
+          "slug": "general-dynamics",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772851776330
+        }
+      ],
+      "mood": "loved",
+      "pid": 3908
     }
   },
-  "lastUpdate": 1772813950815
+  "lastUpdate": 1772860006061
 }

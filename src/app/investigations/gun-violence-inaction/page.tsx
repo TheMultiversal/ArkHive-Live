@@ -46,10 +46,10 @@ const investigation = {
  legalOutcomes: [
  { defendant: 'Wayne LaPierre / NRA', charge: 'Financial fraud, misuse of charitable funds for personal luxury spending', outcome: 'Found liable for financial misconduct in New York civil trial January 2024; resigned as CEO' },
  { defendant: 'Alex Jones', charge: 'Defamation of Sandy Hook families by claiming massacre was a hoax', outcome: 'Found liable; ordered to pay $1.5 billion in damages to families; filed bankruptcy' },
- { defendant: 'Remington Arms', charge: 'Marketing AR-15 to civilians in ways that encouraged military-style violence', outcome: '$73 million settlement with Sandy Hook families in 2022 - first gun manufacturer held accountable' },
+ { defendant: 'Remington Arms', charge: 'Marketing AR-15 to civilians in ways that encouraged military-style violence', outcome: '$73 million settlement with Sandy Hook families in 2022; first gun manufacturer held accountable' },
  { defendant: 'Pete Arredondo', charge: 'Child endangerment for 77-minute delay in responding to Uvalde shooter', outcome: 'Fired as school police chief; indicted on 10 counts of child endangerment and 19 counts of abandoning/endangering a child' },
- { defendant: 'Congress (Dickey Amendment)', charge: 'Blocking CDC research on gun violence as a public health crisis for 20+ years', outcome: 'Partially repealed in 2018 omnibus bill; CDC allocated $25M for gun violence research in 2020 - first time in decades' },
- { defendant: 'US Congress', charge: 'Failure to act despite 90%+ public support for background checks', outcome: 'Bipartisan Safer Communities Act (2022) - first federal gun law in 30 years; widely considered inadequate' },
+ { defendant: 'Congress (Dickey Amendment)', charge: 'Blocking CDC research on gun violence as a public health crisis for 20+ years', outcome: 'Partially repealed in 2018 omnibus bill; CDC allocated $25M for gun violence research in 2020; first time in decades' },
+ { defendant: 'US Congress', charge: 'Failure to act despite 90%+ public support for background checks', outcome: 'Bipartisan Safer Communities Act (2022); first federal gun law in 30 years; widely considered inadequate' },
  { defendant: 'NYSRPA v. Bruen', charge: 'Challenge to New York\'s concealed carry permit requirement', outcome: 'Supreme Court 6-3 struck down law in 2022; expanded individual right to carry firearms outside the home' },
  { defendant: 'Gun Manufacturers (PLCAA Protection)', charge: 'Shielded from most lawsuits by Protection of Lawful Commerce in Arms Act (2005)', outcome: 'PLCAA grants gun industry near-total immunity from liability, unique protection not given to any other consumer product' },
  ],

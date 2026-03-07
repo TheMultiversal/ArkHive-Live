@@ -44,7 +44,7 @@ const investigation = {
  { name: 'Fred Hampton', role: 'Black Panther Chairman assassinated by FBI-directed raid at age 21', href: '/entities/individuals/fred-hampton', status: 'Victim, Assassinated Dec 4, 1969' },
  { name: 'Martin Luther King Jr.', role: 'Civil rights leader subjected to years of FBI harassment and blackmail', href: '/entities/individuals/martin-luther-king-jr', status: 'Victim, Assassinated Apr 4, 1968' },
  { name: 'William O\'Neal', role: 'FBI informant who betrayed Fred Hampton, provided floor plan and drugged him', href: '/entities/individuals/william-oneal', status: 'FBI informant, Committed suicide 1990' },
- { name: 'William Sullivan', role: 'FBI Domestic Intelligence chief who ran COINTELPRO operations', status: 'Shot dead in 1977 - ruled hunting accident' },
+ { name: 'William Sullivan', role: 'FBI Domestic Intelligence chief who ran COINTELPRO operations', status: 'Shot dead in 1977; ruled hunting accident' },
  { name: 'Mark Felt', role: 'FBI Associate Director who later became "Deep Throat"in Watergate', status: 'Revealed 2005 - Also ran COINTELPRO operations' },
  ],
  tactics: [
@@ -73,7 +73,7 @@ const investigation = {
  ],
  legalOutcomes: [
  { defendant: 'FBI / US Government', charge: 'Civil rights violations (Hampton assassination)', outcome: '$1.85 million settlement to Hampton family (1982)' },
- { defendant: 'FBI / US Government', charge: 'SWP lawsuit for illegal surveillance', outcome: '$264,000 damages (1986) - judge called FBI actions"patently unconstitutional"' },
+ { defendant: 'FBI / US Government', charge: 'SWP lawsuit for illegal surveillance', outcome: '$264,000 damages (1986); judge called FBI actions"patently unconstitutional"' },
  { defendant: 'J. Edgar Hoover', charge: 'Abuse of power, civil rights violations', outcome: 'Died 1972 - Never charged or held accountable' },
  { defendant: 'Mark Felt & Edward Miller', charge: 'Authorizing illegal break-ins', outcome: 'Convicted 1980 - Pardoned by Reagan 1981' },
  { defendant: 'No individual FBI agent', charge: 'Any criminal charge for COINTELPRO', outcome: 'NO FBI agent was EVER criminally prosecuted for COINTELPRO operations' },

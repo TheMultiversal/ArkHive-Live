@@ -38,7 +38,7 @@ const investigation = {
  { name: 'Joe Biden', role: 'As Senator, authored the 1994 Crime Bill expanding mandatory minimums and creating"three strikes"', href: '/entities/individuals/joe-biden', status: 'President, later expressed partial regret' },
  { name: 'Bill Clinton', role: 'Signed 1994 Crime Bill. Massively expanded federal mandatory minimums and"three strikes"provisions.', href: '/entities/individuals/bill-clinton', status: 'Later called it a mistake' },
  { name: 'Harry Anslinger', role: 'First head of Federal Bureau of Narcotics. Used explicitly racist propaganda to criminalize marijuana in the 1930s.', status: 'Deceased 1975 - Never held accountable' },
- { name: 'Gary Webb', role: 'San Jose Mercury News journalist who exposed CIA-Contra cocaine trafficking. Career destroyed. Found dead with two gunshots to the head, ruled"suicide."', status: 'Died 2004 - ruled suicide' },
+ { name: 'Gary Webb', role: 'San Jose Mercury News journalist who exposed CIA-Contra cocaine trafficking. Career destroyed. Found dead with two gunshots to the head, ruled"suicide."', status: 'Died 2004; ruled suicide' },
  ],
  ciaDrugConnection: {
  title: 'CIA Drug Trafficking',
@@ -81,14 +81,14 @@ const investigation = {
  'Civil Rights Act Violations, Facially neutral laws designed and enforced to target racial minorities',
  ],
  legalOutcomes: [
- { defendant: 'US Government', charge: 'Racially motivated drug policy', outcome: 'Ehrlichman confession (1994/2016) - No legal consequences' },
+ { defendant: 'US Government', charge: 'Racially motivated drug policy', outcome: 'Ehrlichman confession (1994/2016); No legal consequences' },
  { defendant: 'CIA', charge: 'Facilitating Contra cocaine trafficking', outcome: 'CIA IG confirmed but no prosecutions. Gary Webb discredited and died.' },
- { defendant: 'Crack/Powder Disparity', charge: 'Racially discriminatory sentencing', outcome: 'Reduced from 100:1 to 18:1 in 2010 - still not equal' },
+ { defendant: 'Crack/Powder Disparity', charge: 'Racially discriminatory sentencing', outcome: 'Reduced from 100:1 to 18:1 in 2010; still not equal' },
  { defendant: '45+ million Americans', charge: 'Drug offenses', outcome: 'Arrested and processed. Millions imprisoned. Families destroyed. Communities devastated.' },
  ],
  coverup: [
  'Nixon domestic policy advisor John Ehrlichman admitted in 1994 that the drug war was designed to target Black people and the antiwar left:"We could arrest their leaders, raid their homes, break up their meetings, and vilify them night after night on the evening news"',
- 'Ehrlichman\'s confession was not published until 2016 - journalist Dan Baum sat on the quote for over two decades before publishing it in Harper\'s Magazine',
+ 'Ehrlichman\'s confession was not published until 2016; journalist Dan Baum sat on the quote for over two decades before publishing it in Harper\'s Magazine',
  'CIA Inspector General Frederick Hitz confirmed in 1998 that the CIA had knowledge of drug trafficking by Contra-linked networks throughout the 1980s but failed to report it to the Department of Justice as legally required',
  'Gary Webb\'s "Dark Alliance"series exposing CIA-Contra-cocaine connections was systematically discredited by the Los Angeles Times, Washington Post, and New York Times, all three papers later acknowledged his core findings were substantially accurate',
  'DEA agents who attempted to investigate CIA-linked drug trafficking operations in Central America were reassigned, threatened with termination, or forced into early retirement',

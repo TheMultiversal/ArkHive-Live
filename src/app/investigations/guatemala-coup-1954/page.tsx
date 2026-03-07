@@ -50,7 +50,7 @@ const investigation = {
  { date: '2013', event: 'R\u00EDos Montt convicted of genocide by Guatemalan court, first former head of state convicted of genocide in national court' },
  ],
  legalOutcomes: [
- { defendant: 'Efra\u00EDn R\u00EDos Montt', charge: 'Genocide and crimes against humanity against Maya Ixil people', outcome: 'Convicted in 2013 - first sitting head of state convicted of genocide; conviction overturned on technicality' },
+ { defendant: 'Efra\u00EDn R\u00EDos Montt', charge: 'Genocide and crimes against humanity against Maya Ixil people', outcome: 'Convicted in 2013; first sitting head of state convicted of genocide; conviction overturned on technicality' },
  { defendant: 'United Fruit Company / Chiquita', charge: 'Making payments to designated terrorist organizations in Colombia', outcome: 'Chiquita (successor) fined $25 million in 2007 for paying Colombian paramilitaries; no individuals prosecuted' },
  { defendant: 'Guatemalan Military Officers', charge: 'Murder, forced disappearance, torture during civil war', outcome: 'Multiple officers convicted in Guatemalan courts from 2009 onward for specific massacres' },
  { defendant: 'CIA Officials', charge: 'Conspiracy to overthrow a democratically elected government', outcome: 'No charges ever filed; operations declassified in 1997 and 2003 under Clinton and Bush' },

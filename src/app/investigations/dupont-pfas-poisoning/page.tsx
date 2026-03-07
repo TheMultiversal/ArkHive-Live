@@ -43,7 +43,7 @@ const investigation = {
  { date: '2024', event: 'EPA finalizes first-ever national drinking water standards for PFAS at 4 parts per trillion for PFOA and PFOS' },
  ],
  legalOutcomes: [
- { defendant: 'DuPont', charge: 'Failure to report known health risks to EPA under TSCA', outcome: '$16.5 million EPA fine in 2004 - largest administrative fine in EPA history at the time' },
+ { defendant: 'DuPont', charge: 'Failure to report known health risks to EPA under TSCA', outcome: '$16.5 million EPA fine in 2004; largest administrative fine in EPA history at the time' },
  { defendant: 'DuPont', charge: 'Personal injury claims from contaminated community members', outcome: '$671 million settlement for 3,550 personal injury claims in 2017' },
  { defendant: 'DuPont / Chemours', charge: 'Environmental contamination and cleanup liability', outcome: 'Chemours agreed to $4 billion cleanup fund as part of DuPont separation' },
  { defendant: '3M', charge: 'Public water system contamination via PFAS', outcome: '$10.3 billion settlement with U.S. public water systems in 2023' },

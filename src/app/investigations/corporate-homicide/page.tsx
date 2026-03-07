@@ -53,8 +53,8 @@ const investigation = {
  { date: '2024-07', event: 'Boeing agrees to plead guilty to conspiracy to defraud the United States over 737 MAX crashes' },
  ],
  legalOutcomes: [
- { defendant: 'Ford Motor Company', charge: 'Reckless Homicide (Elkhart County, IN)', outcome: 'Acquitted 1980 - first time corporation charged with murder; set precedent despite acquittal' },
- { defendant: 'Big Tobacco (Philip Morris, RJR, et al.)', charge: 'Consumer Fraud / RICO', outcome: '$206 billion Master Settlement Agreement (1998); DOJ RICO verdict (2006) - no executives jailed' },
+ { defendant: 'Ford Motor Company', charge: 'Reckless Homicide (Elkhart County, IN)', outcome: 'Acquitted 1980; first time corporation charged with murder; set precedent despite acquittal' },
+ { defendant: 'Big Tobacco (Philip Morris, RJR, et al.)', charge: 'Consumer Fraud / RICO', outcome: '$206 billion Master Settlement Agreement (1998); DOJ RICO verdict (2006); no executives jailed' },
  { defendant: 'Purdue Pharma', charge: 'Misbranding / Fraud', outcome: 'Pled guilty 2007 ($600M), pled guilty again 2020 ($8.3B); Sackler family received civil immunity' },
  { defendant: 'Union Carbide / Dow Chemical', charge: 'Criminal Negligence (India)', outcome: 'Warren Anderson declared absconder; $470M settlement, roughly $500 per victim' },
  { defendant: 'Don Blankenship (Massey Energy)', charge: 'Conspiracy to violate mine safety standards', outcome: 'Convicted 2015; sentenced to 1 year in prison for killing 29 miners' },

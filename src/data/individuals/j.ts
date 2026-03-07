@@ -29,22 +29,22 @@ const profiles: Record<string, IndividualProfile> = {
       '"LOLITA EXPRESS": Private Boeing 727 used to transport victims and powerful guests, flight logs show hundreds of trips',
       'MANHATTAN MANSION: 21,000 sq ft townhouse (largest in NYC) given by Les Wexner, used for abuse with hidden cameras',
       'ZORRO RANCH: 10,000-acre New Mexico property used for abuse, Epstein discussed"seeding human race"there',
-      'DEATH CIRCUMSTANCES: Found dead August 10, 2019 in Manhattan jail - cameras malfunctioned, guards falsified records, broken neck bones unusual for suicide',
-      'SCIENTIFIC LEGITIMACY: Donated millions to Harvard, MIT to gain respectability - institutions later returned donations',
+      'DEATH CIRCUMSTANCES: Found dead August 10, 2019 in Manhattan jail; cameras malfunctioned, guards falsified records, broken neck bones unusual for suicide',
+      'SCIENTIFIC LEGITIMACY: Donated millions to Harvard, MIT to gain respectability; institutions later returned donations',
       'INTELLIGENCE CONNECTIONS: Speculation about ties to intelligence agencies, former AG Barr\'s father hired him at Dalton School',
       'BLACKMAIL OPERATION: Victims and witnesses testified to hidden cameras throughout properties, suggesting kompromat operation',
     ],
     charges: [
-      { statute: '18 U.S.C. § 1591', description: 'Sex trafficking of minors - federal indictment SDNY 2019', category: 'Human Trafficking' },
-      { statute: '18 U.S.C. § 1591(a)', description: 'Sex trafficking conspiracy - operated network across multiple states', category: 'Human Trafficking' },
+      { statute: '18 U.S.C. § 1591', description: 'Sex trafficking of minors; federal indictment SDNY 2019', category: 'Human Trafficking' },
+      { statute: '18 U.S.C. § 1591(a)', description: 'Sex trafficking conspiracy; operated network across multiple states', category: 'Human Trafficking' },
       { statute: '18 U.S.C. § 2423', description: 'Transportation of minors for illegal sexual activity', category: 'Human Trafficking' },
       { statute: '18 U.S.C. § 2422', description: 'Coercion and enticement of minors', category: 'Human Trafficking' },
       { statute: 'Florida Statute 796.03', description: 'Soliciting prostitution from minor (2008 conviction)', category: 'Sexual Crimes' },
       { statute: 'Florida Statute 800.04', description: 'Lewd and lascivious acts on child under 16', category: 'Sexual Crimes' },
       { statute: 'NY Penal Law § 130.25', description: 'Rape in the third degree', category: 'Sexual Crimes' },
       { statute: '18 U.S.C. § 1952', description: 'Interstate travel for prostitution (Mann Act)', category: 'Organized Crime' },
-      { statute: '18 U.S.C. § 1956', description: 'Money laundering - concealing trafficking proceeds', category: 'Financial Crimes' },
-      { statute: '18 U.S.C. § 371', description: 'Conspiracy - coordinated trafficking operation', category: 'Conspiracy' },
+      { statute: '18 U.S.C. § 1956', description: 'Money laundering; concealing trafficking proceeds', category: 'Financial Crimes' },
+      { statute: '18 U.S.C. § 371', description: 'Conspiracy; coordinated trafficking operation', category: 'Conspiracy' },
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -77,13 +77,13 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2019 (Feb)', event: 'Federal judge rules NPA violated Crime Victims\' Rights Act' },
       { date: '2019 (Jul 6)', event: 'Arrested at Teterboro Airport on federal sex trafficking charges' },
       { date: '2019 (Jul 8)', event: 'Bail denied due to flight risk, held at MCC Manhattan' },
-      { date: '2019 (Jul 23)', event: 'Found injured in cell - claimed attacked, put on suicide watch briefly' },
+      { date: '2019 (Jul 23)', event: 'Found injured in cell; claimed attacked, put on suicide watch briefly' },
       { date: '2019 (Aug 10)', event: 'Found dead in cell at 6:30 AM - ruled suicide by hanging' },
-      { date: '2019 (Aug)', event: 'Autopsy shows broken hyoid bone - unusual for suicide, common in strangulation' },
+      { date: '2019 (Aug)', event: 'Autopsy shows broken hyoid bone; unusual for suicide, common in strangulation' },
       { date: '2019', event: 'Two guards charged with falsifying records, cameras"malfunctioned"' },
       { date: '2020', event: 'Ghislaine Maxwell arrested in New Hampshire' },
       { date: '2021', event: 'Maxwell convicted on 5 of 6 sex trafficking charges' },
-      { date: '2022', event: 'Jean-Luc Brunel found dead in Paris prison - ruled suicide' },
+      { date: '2022', event: 'Jean-Luc Brunel found dead in Paris prison; ruled suicide' },
       { date: '2022', event: 'Maxwell sentenced to 20 years in federal prison' },
       { date: '2024', event: 'Court documents unsealed naming additional associates' },
       { date: '2025', event: 'Flight logs and additional records continue to be released' },
@@ -589,7 +589,7 @@ const profiles: Record<string, IndividualProfile> = {
       'Accusations spanning from 1980s through 2010s',
       'Flew on Epstein\'s private jet dozens of times',
       'Named in Virginia Giuffre lawsuit',
-      'Found dead in prison cell before trial - ruled suicide',
+      'Found dead in prison cell before trial; ruled suicide',
       'Death circumstances questioned given Epstein\'s similar death',
     ],
     charges: [
@@ -736,7 +736,7 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Role in Russian intelligence operation to contact Trump campaign advisors', category: 'Potential Federal' },
       { statute: '18 U.S.C. § 951', description: 'Potential Foreign Agent Activities - Possible agent of Russian government contacting US campaign officials', category: 'Potential National Security' },
       { statute: '52 U.S.C. § 30121', description: 'Foreign National Election Interference - Offered foreign intelligence ("dirt") to US presidential campaign', category: 'Potential Election' },
-      { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential Unregistered Foreign Agent - Never registered while acting on behalf of foreign interests in US', category: 'Potential Federal' },
+      { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential Unregistered Foreign Agent; Never registered while acting on behalf of foreign interests in US', category: 'Potential Federal' },
       { statute: '18 U.S.C. § 1503', description: 'Potential Obstruction - Disappeared before Mueller investigation could secure testimony', category: 'Potential Federal' },
       { statute: 'Mueller Report Referral', description: 'Mueller Report documented his lies and suspicious disappearance; potential criminal referral', category: 'Documented' },
     ],
@@ -1861,7 +1861,7 @@ const profiles: Record<string, IndividualProfile> = {
     charges: [
       { statute: '52 U.S.C. § 20507', description: 'Voter Roll Purge Irregularities - Potentially discriminatory list maintenance', category: 'Election Crimes' },
       { statute: '52 U.S.C. § 10307', description: 'Voting Rights Act - Disproportionate impact on minority voters', category: 'Civil Rights' },
-      { statute: 'Florida Ethics Laws', description: 'Conflict of Interest - Overseeing election benefiting brother', category: 'State' },
+      { statute: 'Florida Ethics Laws', description: 'Conflict of Interest; Overseeing election benefiting brother', category: 'State' },
     ],
     relatedInvestigations: [
       { title: '2000 Election Manipulation', slug: '2000-election', severity: 'critical' },
@@ -1995,7 +1995,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1964', event: 'Sends MLK"suicide letter"' },
       { date: 'December 4, 1969', event: 'FBI intelligence facilitates Fred Hampton assassination' },
       { date: '1971', event: 'COINTELPRO exposed after Media, PA break-in' },
-      { date: 'May 2, 1972', event: 'Dies in Washington, D.C. - still FBI Director' },
+      { date: 'May 2, 1972', event: 'Dies in Washington, D.C.; still FBI Director' },
     ],
     socialMedia: [],
     sources: [
@@ -2048,9 +2048,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [
       { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity - Persecution: Designed policy to systematically target Black Americans and political opponents', category: 'International Criminal Law' },
-      { statute: '18 U.S.C. § 371', description: 'Conspiracy: Conspiracy to commit various offenses - convicted', category: 'Federal Crimes' },
-      { statute: '18 U.S.C. § 1503', description: 'Obstruction of Justice: Watergate cover-up activities - convicted', category: 'Federal Crimes' },
-      { statute: '18 U.S.C. § 1621', description: 'Perjury: False statements under oath - convicted', category: 'Federal Crimes' },
+      { statute: '18 U.S.C. § 371', description: 'Conspiracy: Conspiracy to commit various offenses; convicted', category: 'Federal Crimes' },
+      { statute: '18 U.S.C. § 1503', description: 'Obstruction of Justice: Watergate cover-up activities; convicted', category: 'Federal Crimes' },
+      { statute: '18 U.S.C. § 1621', description: 'Perjury: False statements under oath; convicted', category: 'Federal Crimes' },
       { statute: '18 U.S.C. § 241', description: 'Conspiracy Against Rights: Drug war designed to violate civil rights of targeted groups', category: 'Civil Rights Violations' },
     ],
     relatedInvestigations: [
@@ -4932,10 +4932,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'jaime-zapata': {
     name: 'Jaime Zapata',
-    title: 'ICE Agent murdered in Mexico - weapons linked to similar operations',
-    role: 'ICE Agent murdered in Mexico - weapons linked to similar operations',
+    title: 'ICE Agent murdered in Mexico; weapons linked to similar operations',
+    role: 'ICE Agent murdered in Mexico; weapons linked to similar operations',
     riskLevel: 'high',
-    description: 'Jaime Zapata is documented in this investigative archive for their role as ICE Agent murdered in Mexico - weapons linked to similar operations.',
+    description: 'Jaime Zapata is documented in this investigative archive for their role as ICE Agent murdered in Mexico; weapons linked to similar operations.',
     education: [],
     affiliations: [
       { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
@@ -4950,7 +4950,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as ICE Agent murdered in Mexico - weapons linked to similar operations' },
+      { date: 'Ongoing', event: 'Active in role as ICE Agent murdered in Mexico; weapons linked to similar operations' },
       { date: '2017-04-19', event: 'Review of newly available public records identified additional documentary evidence connecting Jaime Zapata to previously documented institutional relationships' },
       { date: '2023-01-14', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Jaime Zapata' },
     ],
@@ -6183,10 +6183,10 @@ const profiles: Record<string, IndividualProfile> = {
 
   'jesse-washington': {
     name: 'Jesse Washington',
-    title: '17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000 - known as Waco Horror',
-    role: '17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000 - known as Waco Horror',
+    title: '17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000; known as Waco Horror',
+    role: '17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000; known as Waco Horror',
     riskLevel: 'high',
-    description: 'Jesse Washington is documented in this investigative archive for their role as 17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000 - known as Waco Horror.',
+    description: 'Jesse Washington is documented in this investigative archive for their role as 17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000; known as Waco Horror.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Jesse Jones', type: 'organization' },
@@ -6201,7 +6201,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
     ],
     timeline: [
-      { date: '1916', event: 'documented in this investigative archive for their role as 17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000 - known as Waco Horror.' },
+      { date: '1916', event: 'documented in this investigative archive for their role as 17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000; known as Waco Horror.' },
       { date: '2022-07-12', event: 'Documentation updated based on newly available public records' },
       { date: '2021-12-28', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Jesse Washington' },
     ],
@@ -7026,10 +7026,10 @@ const profiles: Record<string, IndividualProfile> = {
 
   'john-sperling': {
     name: 'John Sperling',
-    title: 'Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollment practices',
-    role: 'Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollment practices',
+    title: 'Founder of University of Phoenix; largest for-profit college in US; pioneered predatory enrollment practices',
+    role: 'Founder of University of Phoenix; largest for-profit college in US; pioneered predatory enrollment practices',
     riskLevel: 'high',
-    description: 'John Sperling is documented in this investigative archive for their role as Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollment practices.',
+    description: 'John Sperling is documented in this investigative archive for their role as Founder of University of Phoenix; largest for-profit college in US; pioneered predatory enrollment practices.',
     education: [],
     affiliations: [
       { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
@@ -7044,7 +7044,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollmen' },
+      { date: 'Ongoing', event: 'Active in role as Founder of University of Phoenix; largest for-profit college in US; pioneered predatory enrollmen' },
       { date: '2017-12-12', event: 'Documentation updated based on newly available public records' },
       { date: '2018-12-20', event: 'Cross-referencing John Sperling against congressional hearing transcripts and lobbying disclosure databases' },
     ],
@@ -8329,7 +8329,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Issued buy ratings on failing telecom stocks',
-      'Conflicts of interest - his bank did investment banking for companies he rated',
+      'Conflicts of interest; his bank did investment banking for companies he rated',
       'Permanently banned from securities industry',
     ],
     charges: [],

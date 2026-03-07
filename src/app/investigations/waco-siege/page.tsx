@@ -59,7 +59,7 @@ const investigation = {
  { statute: '18 U.S.C. § 1111 - Murder of Federal Officers', description: 'Killing of 4 ATF agents during the initial February 28 raid', count: '4 counts, against surviving Davidians' },
  { statute: '18 U.S.C. § 924(c) - Use of Firearms During Crime of Violence', description: 'Firearms possession and use during the confrontation with federal agents', count: 'Multiple counts against survivors' },
  { statute: '18 U.S.C. § 242 - Deprivation of Rights Under Color of Law', description: 'Use of CS gas (banned in warfare) against civilians including 25 children', count: 'Never charged, applicable to federal agents' },
- { statute: '18 U.S.C. § 1001 - False Statements', description: 'FBI denied for 6 years the use of pyrotechnic tear gas rounds at Waco', count: 'Admitted 1999 - no charges filed' },
+ { statute: '18 U.S.C. § 1001 - False Statements', description: 'FBI denied for 6 years the use of pyrotechnic tear gas rounds at Waco', count: 'Admitted 1999; no charges filed' },
  { statute: 'Chemical Weapons Convention Violation', description: 'CS gas is prohibited in warfare under the CWC; used against American civilians including children', count: 'April 19, 1993 assault' },
  { statute: '18 U.S.C. § 1519 - Destruction/Falsification of Records', description: 'Allegations of missing and altered evidence including FLIR footage and audio recordings', count: 'Disputed, Danforth investigation' },
  { statute: '42 U.S.C. § 1983 - Civil Rights Violation', description: 'Excessive use of force resulting in 76 deaths including 25 children', count: 'Civil suit filed, government not found liable' },

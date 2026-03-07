@@ -107,9 +107,9 @@ const profiles: Record<string, IndividualProfile> = {
       'Nominated as Ambassador to France (nepotism)',
     ],
     charges: [
-      { statute: '26 U.S.C. § 7206', description: 'Tax evasion - convicted, pardoned', category: 'Financial Crimes' },
-      { statute: '52 U.S.C. § 30116', description: 'Illegal campaign contributions - convicted, pardoned', category: 'Election Crimes' },
-      { statute: '18 U.S.C. § 1512', description: 'Witness tampering - convicted, pardoned', category: 'Obstruction' },
+      { statute: '26 U.S.C. § 7206', description: 'Tax evasion; convicted, pardoned', category: 'Financial Crimes' },
+      { statute: '52 U.S.C. § 30116', description: 'Illegal campaign contributions; convicted, pardoned', category: 'Election Crimes' },
+      { statute: '18 U.S.C. § 1512', description: 'Witness tampering; convicted, pardoned', category: 'Obstruction' },
     ],
     relatedInvestigations: [
       { title: 'Trump Pardon Corruption', slug: 'pardons-corruption', severity: 'critical' },
@@ -190,8 +190,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [
       { statute: '18 U.S.C. § 1512(k) (Obstruction Conspiracy)', description: 'Conspiracy to obstruct justice - Conspired to delete surveillance footage showing document movement', category: 'Obstruction' },
-      { statute: '18 U.S.C. § 1512(b)(2)(B) (Evidence Destruction)', description: 'Corruptly attempting to alter/destroy evidence - Asked IT staff to delete security camera footage', category: 'Obstruction' },
-      { statute: '18 U.S.C. § 1519 (Evidence Concealment)', description: 'Altering/destroying records - Attempted to destroy video evidence of obstruction', category: 'Obstruction' },
+      { statute: '18 U.S.C. § 1512(b)(2)(B) (Evidence Destruction)', description: 'Corruptly attempting to alter/destroy evidence; Asked IT staff to delete security camera footage', category: 'Obstruction' },
+      { statute: '18 U.S.C. § 1519 (Evidence Concealment)', description: 'Altering/destroying records; Attempted to destroy video evidence of obstruction', category: 'Obstruction' },
       { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Making false statements to FBI - Lied about knowledge of documents and conversations', category: 'False Statements' },
       { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to defraud United States - Part of scheme to obstruct investigation', category: 'Conspiracy' },
       { statute: '18 U.S.C. § 2 (Aiding and Abetting)', description: 'Aiding and abetting obstruction - Actively assisted in cover-up at"boss"direction', category: 'Accessory' },
@@ -712,7 +712,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Kleiner Perkins', role: 'Strategic Partner', type: 'corporation' },
     ],
     controversies: [
-      'UN WMD SPEECH (Feb 5, 2003): Presented false intelligence claiming Iraq had mobile bioweapon labs, chemical weapons, and nuclear program - later admitted"blot on my record"',
+      'UN WMD SPEECH (Feb 5, 2003): Presented false intelligence claiming Iraq had mobile bioweapon labs, chemical weapons, and nuclear program; later admitted"blot on my record"',
       'IRAQ WAR LEGITIMACY: UN presentation provided international legitimacy for invasion that killed 200,000+ civilians, displaced millions',
       'MY LAI MASSACRE COVER-UP (1968): As Army Major, whitewashed investigation into massacre of 500+ Vietnamese civilians, writing"relations between American soldiers and Vietnamese people are excellent"',
       'IRAN-CONTRA: As National Security Advisor, facilitated arms-for-hostages negotiations',
@@ -1571,7 +1571,7 @@ const profiles: Record<string, IndividualProfile> = {
   'colgan-3407-families': {
     name: 'Colgan Air 3407 Families',
     title: 'Victims Advocates',
-    role: '50 Killed - February 12, 2009',
+    role: '50 Killed; February 12, 2009',
     riskLevel: 'low',
     description: 'Colgan Air Flight 3407 crashed near Buffalo, NY on February 12, 2009, killing all 49 aboard plus one person on the ground. The FAA had allowed regional carriers to use fatigued, undertrained pilots. Victims\' families successfully advocated for pilot rest and training rules, showing how families can force FAA to act.',
     birthDate: 'N/A',

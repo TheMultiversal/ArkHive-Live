@@ -28,7 +28,7 @@ const profiles: Record<string, IndividualProfile> = {
     charges: [
       { statute: '18 U.S.C. § 1512(k) (Obstruction Conspiracy)', description: 'Conspiracy to obstruct justice - Indicted for conspiring to conceal documents from grand jury', category: 'Obstruction' },
       { statute: '18 U.S.C. § 1512(b)(2)(A) (Witness Tampering)', description: 'Witness tampering - Coordinated with Trump to conceal documents from attorneys and FBI', category: 'Obstruction' },
-      { statute: '18 U.S.C. § 1519 (Evidence Concealment)', description: 'Concealing documents in federal investigation - Captured on video moving boxes of classified materials', category: 'Obstruction' },
+      { statute: '18 U.S.C. § 1519 (Evidence Concealment)', description: 'Concealing documents in federal investigation; Captured on video moving boxes of classified materials', category: 'Obstruction' },
       { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Making false statements to FBI - Lied about knowledge of documents and moving boxes', category: 'False Statements' },
       { statute: '18 U.S.C. § 793(e) (Espionage Act)', description: 'Willful retention of national defense information - Aided in retention of classified documents', category: 'Espionage' },
       { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to defraud United States - Part of scheme to obstruct government recovery of classified documents', category: 'Conspiracy' },
@@ -99,7 +99,7 @@ const profiles: Record<string, IndividualProfile> = {
       'Sago Mine disaster - 12 miners died at his company\'s mine',
     ],
     charges: [
-      { statute: '18 U.S.C. § 208', description: 'Potential Financial Conflict of Interest - Failed to fully divest from Navigator Holdings with Russian oligarch ties while serving as Commerce Secretary', category: 'Potential Ethics' },
+      { statute: '18 U.S.C. § 208', description: 'Potential Financial Conflict of Interest; Failed to fully divest from Navigator Holdings with Russian oligarch ties while serving as Commerce Secretary', category: 'Potential Ethics' },
       { statute: '5 C.F.R. § 2635', description: 'Multiple Ethics Violations - Maintained business ties that conflicted with official duties', category: 'Ethics' },
       { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Failed to fully disclose Russian business connections on ethics forms', category: 'Potential Federal' },
       { statute: '13 U.S.C. § 221', description: 'Census Act Violation - Improperly added citizenship question to suppress responses in minority communities (blocked by Supreme Court)', category: 'Federal Census' },
@@ -1277,10 +1277,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'willie-reed': {
     name: 'Willie Reed',
-    title: 'Eyewitness who heard beating and saw Till being loaded into truck - testified at trial',
-    role: 'Eyewitness who heard beating and saw Till being loaded into truck - testified at trial',
+    title: 'Eyewitness who heard beating and saw Till being loaded into truck; testified at trial',
+    role: 'Eyewitness who heard beating and saw Till being loaded into truck; testified at trial',
     riskLevel: 'high',
-    description: 'Willie Reed is documented in this investigative archive for their role as Eyewitness who heard beating and saw Till being loaded into truck - testified at trial.',
+    description: 'Willie Reed is documented in this investigative archive for their role as Eyewitness who heard beating and saw Till being loaded into truck; testified at trial.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: William Westmoreland', type: 'organization' },
@@ -1295,7 +1295,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as Eyewitness who heard beating and saw Till being loaded into truck - testified at trial' },
+      { date: 'Ongoing', event: 'Active in role as Eyewitness who heard beating and saw Till being loaded into truck; testified at trial' },
       { date: '2025-11-25', event: 'Court filing analysis reveals Willie Reed referenced in 10 active litigation proceedings' },
       { date: '2024-09-05', event: 'Cross-referencing Willie Reed against congressional hearing transcripts and lobbying disclosure databases' },
     ],

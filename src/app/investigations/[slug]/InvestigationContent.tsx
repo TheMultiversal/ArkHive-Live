@@ -28,7 +28,7 @@ const defaultInvestigationData: InvestigationData = {
   summary: "This is where the investigation summary will appear. Each investigation will include comprehensive documentation, evidence, and analysis of the topic at hand.",
   content: [
     "When you provide information for an investigation, this page will be populated with detailed content including all relevant facts, timeline of events, and documented evidence.",
-    "The sidebar on the right will show all entities connected to this investigation - including government agencies, corporations, and individuals involved.",
+    "The sidebar on the right will show all entities connected to this investigation; including government agencies, corporations, and individuals involved.",
     "Each entity will be hyperlinked to their own profile page where you can see all investigations they are connected to.",
   ],
   tags: ["Template", "Getting Started"],

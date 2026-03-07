@@ -49,7 +49,7 @@ const investigation = {
  { defendant: 'Kenneth Lay', charge: 'Securities fraud, wire fraud, conspiracy (10 counts)', outcome: 'Convicted, died before sentencing; convictions vacated' },
  { defendant: 'Jeffrey Skilling', charge: 'Securities fraud, conspiracy, insider trading (19 counts)', outcome: 'Convicted - 24 years (reduced to 14); released 2019' },
  { defendant: 'Andrew Fastow', charge: 'Fraud, money laundering, conspiracy (98 counts)', outcome: 'Pleaded guilty - 10 years (reduced to 6 for cooperation)' },
- { defendant: 'Arthur Andersen LLP', charge: 'Obstruction of justice (document shredding)', outcome: 'Convicted 2002 - reversed by Supreme Court 2005; firm already dissolved' },
+ { defendant: 'Arthur Andersen LLP', charge: 'Obstruction of justice (document shredding)', outcome: 'Convicted 2002; reversed by Supreme Court 2005; firm already dissolved' },
  { defendant: 'Ben Glisan', charge: 'Fraud and conspiracy', outcome: 'Pleaded guilty - 5 years' },
  { defendant: 'David Duncan', charge: 'Obstruction of justice (ordered Andersen shredding)', outcome: 'Pleaded guilty; cooperated with prosecution' },
  { defendant: 'Richard Causey', charge: 'Chief Accounting Officer, securities fraud', outcome: 'Pleaded guilty - 7 years (reduced to 5.5)' },

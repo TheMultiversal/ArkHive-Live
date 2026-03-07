@@ -387,7 +387,7 @@ const investigation = {
  'Multiple documented visits to Epstein\'s 9 East 71st Street Manhattan mansion',
  'Epstein was a member of Mar-a-Lago club before being expelled (reported in 2004 but timeline disputed)',
  'Katie Johnson lawsuit (Jane Doe v. Trump/Epstein) alleges Trump raped her at age 13 at Epstein party in 1994. Case filed in 2016, withdrawn under reported threats.',
- 'Trump appointed Alexander Acosta as Secretary of Labor in 2017 - the same prosecutor who gave Epstein the sweetheart plea deal',
+ 'Trump appointed Alexander Acosta as Secretary of Labor in 2017; the same prosecutor who gave Epstein the sweetheart plea deal',
  'Acosta reportedly told Trump transition team the Epstein case was"above his pay grade"and Epstein"belonged to intelligence"',
  '26+ women have accused Trump of sexual misconduct, establishing a pattern consistent with allegations',
  'Trump wished Ghislaine Maxwell "well" multiple times after her July 2020 arrest on sex trafficking charges',

@@ -437,7 +437,7 @@ const profiles: Record<string, IndividualProfile> = {
       'REVOLUTIONARY LEADER: At 21, Hampton was already a charismatic leader who had united Chicago gangs into a"Rainbow Coalition"with the Young Patriots and Young Lords. His organizing success made him a threat to the establishment.',
       'FBI TARGET: The FBI designated Hampton a"key militant leader"and targeted him under COINTELPRO. FBI documents show explicit intent to"neutralize"him.',
       'INFORMANT INFILTRATION: FBI informant William O\'Neal infiltrated the Panthers as head of security. He provided floor plans of Hampton\'s apartment and drugged Hampton\'s drink the night before the raid.',
-      'THE RAID: At 4:45 AM on December 4, 1969, Chicago Police conducted a raid. Officers fired 90-99 shots; Panthers fired one. Hampton was shot twice in the head at close range while in bed - evidence suggests he was unconscious from the drugging.',
+      'THE RAID: At 4:45 AM on December 4, 1969, Chicago Police conducted a raid. Officers fired 90-99 shots; Panthers fired one. Hampton was shot twice in the head at close range while in bed; evidence suggests he was unconscious from the drugging.',
       'MARK CLARK KILLED: Also killed was Mark Clark, a Panther leader. He was the only Panther to fire a shot, apparently reflexively when shot.',
       'COVER-UP ATTEMPTED: State\'s Attorney Edward Hanrahan initially claimed a"fierce gun battle."Physical evidence proved police lies. A federal grand jury later found the raid was part of a coordinated effort to destroy the Panthers.',
       'CIVIL SUIT: After criminal charges against raiders were dropped, Hampton\'s family filed civil suit. In 1982, the city, county, and federal government paid $1.85 million to survivors and families.',
