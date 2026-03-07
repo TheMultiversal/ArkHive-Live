@@ -102,14 +102,15 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands', date: '2020' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2024-01-19' },
-      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2015-05-08' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: ['Border Wall Scammer'],
     knownAssociates: [
       { name: 'Steve Bannon', relationship: 'We Build the Wall co-conspirator (pardoned)', href: '/entities/individuals/steve-bannon' },
     ],
   },
+
 
 
 
@@ -221,12 +222,13 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'betsy-devos': {
     name: 'Elisabeth Dee DeVos',
     title: 'Former U.S. Secretary of Education',
     role: 'Education Secretary 2017-2021, Billionaire Republican Donor',
     riskLevel: 'high',
-    description: 'Betsy DeVos served as Secretary of Education under Trump despite having no public education experience. A billionaire Republican mega-donor, she pushed school privatization, rolled back protections for student loan borrowers, weakened Title IX protections for sexual assault survivors, and resigned after January 6 while criticizing Trump; but too late to invoke the 25th Amendment.',
+    description: 'Betsy DeVos served as Secretary of Education under Trump despite having no public education experience. A billionaire Republican mega-donor, she pushed school privatization, rolled back protections for student loan borrowers, weakened Title IX protections for sexual assault survivors, and resigned after January 6 while criticizing Trump - but too late to invoke the 25th Amendment.',
     birthDate: 'January 8, 1958',
     birthPlace: 'Holland, Michigan',
     netWorth: '$5.4 billion (family wealth)',
@@ -251,7 +253,7 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: 'Federal Court Contempt Order', description: 'Civil Contempt - Federal judge held DeVos/DOE in contempt for collecting on loans from defrauded students after court order', category: 'Court Contempt' },
       { statute: '20 U.S.C. § 1681 (Title IX)', description: 'Weakened Protections - Rolled back Title IX protections for sexual assault survivors, allowing schools to ignore complaints', category: 'Federal Education' },
       { statute: '5 C.F.R. § 2635.702', description: 'Potential Use of Office for Private Gain - Policies benefited for-profit education sector where family has investments', category: 'Potential Ethics' },
-      { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest; Financial interests in education companies affected by DOE policies', category: 'Potential Ethics' },
+      { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest - Financial interests in education companies affected by DOE policies', category: 'Potential Ethics' },
       { statute: '5 U.S.C. § 3331', description: 'Oath of Office Concerns - Refused to invoke 25th Amendment despite believing Trump unfit after January 6', category: 'Constitutional' },
     ],
     relatedInvestigations: [
@@ -265,8 +267,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'DeVos Confirmation Hearings', url: 'https://scholar.google.com/scholar?q=DeVos%20Confirmation%20Hearings', date: '2017' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2020-02-07' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2023-11-09' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: ['Betsy DeVos'],
     knownAssociates: [
@@ -274,6 +276,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Erik Prince', relationship: 'Brother, Blackwater founder', href: '/entities/individuals/erik-prince' },
     ],
   },
+
 
 
 
@@ -346,8 +349,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'HUD IG Report on Furniture', url: 'https://www.ignet.gov/', date: '2018' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2019-08-31' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2024-04-09' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
     ],
     aliases: ['Dr. Ben Carson'],
     knownAssociates: [
@@ -356,6 +359,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Pete Hegseth', relationship: 'Fellow Trump cabinet member', href: '/entities/individuals/pete-hegseth' },
     ],
   },
+
 
 
 
@@ -844,10 +848,10 @@ const profiles: Record<string, IndividualProfile> = {
       'RUSSIAN INTERVENTION: Invited Russian military intervention in 2015',
     ],
     charges: [
-      { statute: 'Rome Statute Article 7(1)(a)', description: 'Murder; mass killing of civilians', category: 'Crimes Against Humanity' },
-      { statute: 'Rome Statute Article 7(1)(f)', description: 'Torture; systematic torture program', category: 'Crimes Against Humanity' },
-      { statute: 'Rome Statute Article 7(1)(k)', description: 'Other inhumane acts; chemical weapons use', category: 'Crimes Against Humanity' },
-      { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'Willful killing; war crime', category: 'War Crimes' },
+      { statute: 'Rome Statute Article 7(1)(a)', description: 'Murder - mass killing of civilians', category: 'Crimes Against Humanity' },
+      { statute: 'Rome Statute Article 7(1)(f)', description: 'Torture - systematic torture program', category: 'Crimes Against Humanity' },
+      { statute: 'Rome Statute Article 7(1)(k)', description: 'Other inhumane acts - chemical weapons use', category: 'Crimes Against Humanity' },
+      { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'Willful killing - war crime', category: 'War Crimes' },
       { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'Intentionally directing attacks against civilians', category: 'War Crimes' },
       { statute: 'Chemical Weapons Convention', description: 'Use of prohibited chemical weapons on civilian population', category: 'International Crime' },
       { statute: 'Geneva Convention Common Article 3', description: 'Violence to life and person of non-combatants', category: 'War Crimes' },
@@ -885,6 +889,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Hafez al-Assad', relationship: 'Father, predecessor dictator', href: '/entities/individuals/hafez-al-assad' },
     ],
   },
+
 
 
 
@@ -3428,7 +3433,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2009', event: 'Continued CVRA litigation despite government opposition' },
       { date: '2014', event: 'Filed landmark civil suits naming Ghislaine Maxwell, Sarah Kellen, and other enablers' },
       { date: '2015', event: 'Subjected to surveillance and intimidation by Epstein-linked private investigators' },
-      { date: '2019 February', event: 'Judge Kenneth Marra ruled NPA violated Crime Victims Rights Act; landmark victory' },
+      { date: '2019 February', event: 'Judge Kenneth Marra ruled NPA violated Crime Victims Rights Act - landmark victory' },
       { date: '2019 July', event: 'Epstein arrested on federal charges, partially vindicating decade of legal work' },
       { date: '2020', event: 'Published Relentless Pursuit: My Fight for the Victims of Jeffrey Epstein' },
     ],
@@ -3452,6 +3457,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Ghislaine Maxwell', relationship: 'Named in civil suits as co-conspirator', href: '/entities/individuals/ghislaine-maxwell' },
     ],
   },
+
 
 
 

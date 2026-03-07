@@ -173,6 +173,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'alexander-nix': {
     name: 'Alexander James Ashburner Nix',
     title: 'Former Cambridge Analytica CEO',
@@ -202,7 +203,7 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud - Used harvested data to manipulate voters through psychological targeting', category: 'Potential Federal' },
       { statute: '52 U.S.C. § 30121', description: 'Potential Foreign National Campaign Contribution - UK citizen providing substantial services to US presidential campaign', category: 'Potential Election' },
       { statute: 'UK Bribery Act 2010', description: 'Bribery Admissions - Caught on camera discussing using bribes and honey traps to influence politicians', category: 'UK Criminal' },
-      { statute: 'UK Parliament Contempt', description: 'Contempt of Parliament; Provided false testimony to UK Parliament about Cambridge Analytica practices', category: 'UK Legislative' },
+      { statute: 'UK Parliament Contempt', description: 'Contempt of Parliament - Provided false testimony to UK Parliament about Cambridge Analytica practices', category: 'UK Legislative' },
       { statute: 'GDPR Article 83', description: 'EU Data Protection Violations - Massive violations of European data protection rights', category: 'EU Regulatory' },
     ],
     relatedInvestigations: [
@@ -221,7 +222,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'UK ICO Investigation', url: 'https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
       { title: 'Channel 4 Undercover Investigation', url: 'https://scholar.google.com/scholar?q=Channel%204%20Undercover%20Investigation', date: '2018' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2017-07-09' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -230,6 +231,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Christopher Wylie', relationship: 'Former employee, whistleblower' },
     ],
   },
+
 
 
 
@@ -337,7 +339,7 @@ const profiles: Record<string, IndividualProfile> = {
       'Defended deal claiming it was better than state charges alone',
     ],
     charges: [
-      { statute: '18 U.S.C. § 3771 (Crime Victims\' Rights Act)', description: 'VIOLATED - Federal judge ruled Acosta\'s office violated victims\' rights by failing to notify Epstein\'s victims of plea deal', category: 'Federal; Adjudicated' },
+      { statute: '18 U.S.C. § 3771 (Crime Victims\' Rights Act)', description: 'VIOLATED - Federal judge ruled Acosta\'s office violated victims\' rights by failing to notify Epstein\'s victims of plea deal', category: 'Federal - Adjudicated' },
       { statute: '18 U.S.C. § 1591 (Sex Trafficking of Minors)', description: 'Prosecutorial Misconduct - Failed to prosecute Epstein on federal sex trafficking charges despite FBI evidence of 36+ minor victims', category: 'Dereliction' },
       { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Non-prosecution agreement shielded unnamed co-conspirators from federal prosecution', category: 'Potential Federal' },
       { statute: '18 U.S.C. § 1519', description: 'Potential Obstruction - Secret plea deal concealed from victims prevented accountability', category: 'Potential Federal' },
@@ -362,7 +364,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Miami Herald - Perversion of Justice Investigation', url: 'https://www.miamiherald.com/', date: '2018' },
       { title: 'DOJ OPR Investigation', url: 'https://scholar.google.com/scholar?q=DOJ%20OPR%20Investigation', date: '2020' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2013-08-22' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: ['Alexander Acosta'],
     knownAssociates: [
@@ -374,6 +376,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Michael Reiter', relationship: 'Palm Beach Police Chief who pushed for federal prosecution', href: '/entities/individuals/michael-reiter' },
     ],
   },
+
 
 
 
@@ -426,11 +429,11 @@ const profiles: Record<string, IndividualProfile> = {
       'Resigned after January 6 but did not invoke 25th',
     ],
     charges: [
-      { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest; Former Eli Lilly executive overseeing drug pricing policy while maintaining pharmaceutical industry ties', category: 'Potential Ethics' },
+      { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest - Former Eli Lilly executive overseeing drug pricing policy while maintaining pharmaceutical industry ties', category: 'Potential Ethics' },
       { statute: '42 U.S.C. § 247d (Public Health Emergencies)', description: 'Emergency Response Failures - Failed to timely declare public health emergency and ensure adequate testing/PPE during COVID-19', category: 'Public Health' },
       { statute: '6 U.S.C. § 279 (Unaccompanied Alien Children)', description: 'Child Welfare Violations - HHS lost track of thousands of migrant children placed with sponsors, failed proper oversight', category: 'Immigration' },
       { statute: '8 U.S.C. § 1232 (Trafficking Victims Protection)', description: 'Protection Failures - Inadequate screening for trafficking victims among separated children at HHS facilities', category: 'Immigration' },
-      { statute: '21 U.S.C. § 360bbb-3 (Emergency Use Authorization)', description: 'EUA Mismanagement; Political interference in FDA emergency authorizations during pandemic response', category: 'Public Health' },
+      { statute: '21 U.S.C. § 360bbb-3 (Emergency Use Authorization)', description: 'EUA Mismanagement - Political interference in FDA emergency authorizations during pandemic response', category: 'Public Health' },
       { statute: '5 U.S.C. § 3331', description: 'Oath of Office Concerns - Resigned after January 6 rather than invoke 25th Amendment despite believing Trump unfit', category: 'Constitutional' },
       { statute: '42 C.F.R. Part 73 (Select Agents)', description: 'Biosecurity Oversight Failures - HHS oversight of lab safety during pandemic response raised concerns', category: 'Public Health' },
     ],
@@ -447,8 +450,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'HHS COVID Timeline', url: 'https://scholar.google.com/scholar?q=HHS%20COVID%20Timeline', date: '2020' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2022-09-11' },
-      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2024-03-31' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
     ],
     aliases: ['Azar'],
     knownAssociates: [
@@ -456,6 +459,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Anthony Fauci', relationship: 'HHS oversaw NIAID', href: '/entities/individuals/anthony-fauci' },
     ],
   },
+
 
 
 
@@ -531,7 +535,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Giuffre Allegations', url: 'https://scholar.google.com/scholar?q=Giuffre%20Allegations', date: '2015' },
       { title: 'Epstein Flight Logs', url: 'https://scholar.google.com/scholar?q=Epstein%20Flight%20Logs', date: '2019' },
-      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2020-03-23' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
     ],
     aliases: ['Dersh'],
     knownAssociates: [
@@ -543,6 +547,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Steven Pinker', relationship: 'Harvard colleague, connected in Epstein academic circle', href: '/entities/individuals/steven-pinker' },
     ],
   },
+
 
 
 
@@ -601,7 +606,7 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress - Organized rally with intent to disrupt January 6 certification', category: 'Obstruction' },
       { statute: '18 U.S.C. § 373 (Solicitation)', description: 'Solicitation to Commit Violence - Speeches and social media incited followers to march on Capitol', category: 'Incitement' },
       { statute: '52 U.S.C. § 20511 (Election Interference)', description: 'Intimidation of Election Officials - Stop the Steal targeted election workers with threats', category: 'Election Crime' },
-      { statute: '18 U.S.C. § 2101 (Inciting a Riot)', description: 'Riot Incitement; Rally speeches contributed directly to mob violence at Capitol', category: 'Incitement' },
+      { statute: '18 U.S.C. § 2101 (Inciting a Riot)', description: 'Riot Incitement - Rally speeches contributed directly to mob violence at Capitol', category: 'Incitement' },
       { statute: '18 U.S.C. § 1001 (False Statements)', description: 'False Claims - Spread knowingly false election fraud allegations', category: 'Fraud' },
     ],
     relatedInvestigations: [
@@ -617,8 +622,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'January 6 Committee Report', url: 'https://www.congress.gov/', date: '2022' },
-      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2024-05-12' },
-      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2022-02-26' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: ['Ali Akbar', 'Ali Abdul-Razaq Akbar'],
     knownAssociates: [
@@ -626,6 +631,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Roger Stone', relationship: 'Stop the Steal collaborator', href: '/entities/individuals/roger-stone' },
     ],
   },
+
 
 
 
@@ -1360,12 +1366,13 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'allen-dulles': {
     name: 'Allen Dulles',
     title: 'CIA Director (1953-1961)',
     role: 'Longest-serving CIA Director who authorized MKUltra, orchestrated coups, and later served on Warren Commission',
     riskLevel: 'critical',
-    description: 'Allen Welsh Dulles served as CIA Director from 1953-1961, the longest-serving director in agency history. He authorized MKUltra mind control experiments, orchestrated coups in Iran (1953) and Guatemala (1954), launched the Bay of Pigs invasion, initiated Operation Mockingbird to control media, and expanded CIA covert operations globally. He was fired by JFK after Bay of Pigs but later served on the Warren Commission investigating Kennedy\'s assassination; an extraordinary conflict of interest.',
+    description: 'Allen Welsh Dulles served as CIA Director from 1953-1961, the longest-serving director in agency history. He authorized MKUltra mind control experiments, orchestrated coups in Iran (1953) and Guatemala (1954), launched the Bay of Pigs invasion, initiated Operation Mockingbird to control media, and expanded CIA covert operations globally. He was fired by JFK after Bay of Pigs but later served on the Warren Commission investigating Kennedy\'s assassination - an extraordinary conflict of interest.',
     birthDate: 'April 7, 1893',
     birthPlace: 'Watertown, New York',
     deathDate: 'January 29, 1969',
@@ -1383,7 +1390,7 @@ const profiles: Record<string, IndividualProfile> = {
       'BAY OF PIGS: Assured President Kennedy the invasion would succeed. When it failed disastrously, Kennedy fired him, reportedly saying he wanted to"splinter the CIA into a thousand pieces."',
       'WARREN COMMISSION: Despite being fired by JFK and having potential motive for the assassination, Dulles was appointed to investigate Kennedy\'s murder. Critics argue he steered the investigation away from intelligence connections.',
       'UNITED FRUIT CONNECTIONS: Both Allen and his brother John Foster Dulles had extensive ties to United Fruit Company, which directly benefited from the Guatemala coup. This represented massive conflicts of interest.',
-      'LEGACY OF COVERT ACTION: Dulles established the template for CIA covert operations that continues today; overthrowing governments, manipulating media, conducting experiments on citizens, and operating without accountability.',
+      'LEGACY OF COVERT ACTION: Dulles established the template for CIA covert operations that continues today - overthrowing governments, manipulating media, conducting experiments on citizens, and operating without accountability.',
     ],
     charges: [
       { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Human Experimentation: MKUltra program drugged unwitting citizens, causing permanent harm and deaths', category: 'International Crime' },
@@ -1457,6 +1464,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'antonin-scalia': {
     name: 'Antonin Scalia',
     title: 'Supreme Court Justice (1986-2016)',
@@ -1491,14 +1499,15 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Bush v. Gore (531 U.S. 98)', url: 'https://scholar.google.com/scholar?q=Bush%20v.%20Gore%20(531%20U.S.%2098)', date: '2000' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2024-10-21' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2022-01-25' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Clarence Thomas', relationship: 'Fellow conservative justice', href: '/entities/individuals/clarence-thomas' },
     ],
   },
+
 
 
 
@@ -1570,7 +1579,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Senate Judiciary Committee hearings', url: 'https://www.congress.gov/', date: '2007' },
       { title: 'DOJ Inspector General Report on Firings', url: 'https://www.justice.gov/', date: '2008' },
-      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2022-02-20' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1578,6 +1587,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'John Yoo', relationship: 'Torture memo author', href: '/entities/individuals/john-yoo' },
     ],
   },
+
 
 
 

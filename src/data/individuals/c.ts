@@ -82,6 +82,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'charles-kushner': {
     name: 'Charles Kushner',
     title: 'Real Estate Developer',
@@ -107,9 +108,9 @@ const profiles: Record<string, IndividualProfile> = {
       'Nominated as Ambassador to France (nepotism)',
     ],
     charges: [
-      { statute: '26 U.S.C. § 7206', description: 'Tax evasion; convicted, pardoned', category: 'Financial Crimes' },
-      { statute: '52 U.S.C. § 30116', description: 'Illegal campaign contributions; convicted, pardoned', category: 'Election Crimes' },
-      { statute: '18 U.S.C. § 1512', description: 'Witness tampering; convicted, pardoned', category: 'Obstruction' },
+      { statute: '26 U.S.C. § 7206', description: 'Tax evasion - convicted, pardoned', category: 'Financial Crimes' },
+      { statute: '52 U.S.C. § 30116', description: 'Illegal campaign contributions - convicted, pardoned', category: 'Election Crimes' },
+      { statute: '18 U.S.C. § 1512', description: 'Witness tampering - convicted, pardoned', category: 'Obstruction' },
     ],
     relatedInvestigations: [
       { title: 'Trump Pardon Corruption', slug: 'pardons-corruption', severity: 'critical' },
@@ -139,6 +140,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Ivanka Trump', relationship: 'Daughter-in-law', href: '/entities/individuals/ivanka-trump' },
     ],
   },
+
 
 
 
