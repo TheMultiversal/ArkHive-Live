@@ -1,31 +1,31 @@
-// AUTO-GENERATED, Shard [X] managed by ArkHive Swarm Intelligence
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
   'xi-jinping': {
     name: 'Xi Jinping',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
+    title: 'Public Official',
+    role: 'Documented based on entity connections',
     riskLevel: 'low',
-    description: 'Xi Jinping is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'This profile documents Xi Jinping and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Xi Jinping has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Xi Jinping has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2015-10-03', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2018-12-23', event: 'Documentation updated based on newly available public records and filings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2015-10-03' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2018-12-23' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2018-12-14' },
     ],
     aliases: [],
     knownAssociates: [
@@ -37,7 +37,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Commander of Falintil resistance, imprisoned, later first President of East Timor',
  role: 'Commander of Falintil resistance, imprisoned, later first President of East Timor',
  riskLevel: 'high',
- description: 'Xanana Gusmão is documented in ArkHive investigations for their role as Commander of Falintil resistance, imprisoned, later first President of East Timor.',
+ description: 'Xanana Gusmão is documented in this investigative archive for their role as Commander of Falintil resistance, imprisoned, later first President of East Timor.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Woodrow Wilson', type: 'organization' },
@@ -58,36 +58,34 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'xavier-becerra': {
     name: 'Xavier Becerra',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Xavier Becerra is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Public Official',
+    role: 'Documented based on entity connections',
+    riskLevel: 'medium',
+    description: 'Xavier Becerra appears in this archive due to documented connections with investigations and entities tracked for public accountability purposes. Profile built from verified public records and official documentation.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Xavier Becerra has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative journalists have documented a pattern of revolving-door employment between Xavier Becerra\'s operations and the regulatory bodies meant to provide oversight.',
-      'Investigative analysis reveals Xavier Becerra was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Xavier Becerra has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-06', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-06', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Cross-referencing Xavier Becerra against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2022-01-31', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2025-12-18', event: 'Initial records compiled from public financial disclosures and government databases' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-06' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-06' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-06' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2022-01-31' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-12-18' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-08-15' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 

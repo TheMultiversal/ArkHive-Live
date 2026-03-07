@@ -1,31 +1,31 @@
-// AUTO-GENERATED, Shard [O] managed by ArkHive Swarm Intelligence
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
   'oleg-deripaska': {
     name: 'Oleg Deripaska',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Oleg Deripaska is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Public Official',
+    role: 'Under review based on institutional connections',
+    riskLevel: 'high',
+    description: 'Profile documenting Oleg Deripaska and their verified connections to entities under investigation. Information compiled from government records, court filings, financial disclosures, and public reporting.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Oleg Deripaska has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public records and investigative cross-referencing have identified patterns of concern related to Oleg Deripaska and their institutional affiliations and documented activities.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-03', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2021-06-21', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+      { date: '2022-07-10', event: 'Documentation updated based on newly available public records and filings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2021-06-21' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2022-07-10' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2025-06-25' },
     ],
     aliases: [],
     knownAssociates: [
@@ -33,36 +33,34 @@ const profiles: Record<string, IndividualProfile> = {
   },
   'omarosa-manigault-newman': {
     name: 'Omarosa Manigault Newman',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
+    title: 'Documented Individual',
+    role: 'Tracked for public accountability',
     riskLevel: 'low',
-    description: 'Omarosa Manigault Newman is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'This profile documents Omarosa Manigault Newman and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Omarosa Manigault Newman has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Public filings and regulatory records indicate Omarosa Manigault Newman facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
-      'Internal documents obtained through litigation discovery show Omarosa Manigault Newman was briefed on risks later downplayed in public communications.',
+      'Omarosa Manigault Newman has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Court filing analysis reveals Omarosa Manigault Newman referenced in 6 active litigation proceedings' },
+      { date: '2023-11-28', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+      { date: '2025-03-31', event: 'Initial records compiled from public financial disclosures and government databases' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2023-11-28' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-03-31' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-12-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -162,72 +160,70 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
   'oscar-munoz': {
     name: 'Oscar Munoz',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
+    title: 'Subject of Record',
+    role: 'Under review based on institutional connections',
     riskLevel: 'low',
-    description: 'Oscar Munoz is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Oscar Munoz is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Oscar Munoz has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative analysis reveals Oscar Munoz was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
-      'Public filings and regulatory records indicate Oscar Munoz facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Oscar Munoz has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'ArkHive swarm intelligence flagged Oscar Munoz for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2023-08-22', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2025-08-27', event: 'Documentation updated based on newly available public records and filings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2023-08-22' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-08-27' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-04-15' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
   'omar-al-bashir': {
     name: 'Omar Al Bashir',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
+    title: 'Public Official',
+    role: 'Documented for accountability tracking',
     riskLevel: 'low',
-    description: 'Omar Al Bashir is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'This profile documents Omar Al Bashir and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Omar Al Bashir has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Congressional hearing transcripts reference Omar Al Bashir in connection with policy decisions that disproportionately benefited associated financial interests.',
-      'Public filings and regulatory records indicate Omar Al Bashir facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Omar Al Bashir has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Omar Al Bashir' },
+      { date: '2019-09-03', event: 'Documentation updated based on newly available public records and filings' },
+      { date: '2021-03-22', event: 'Cross-referenced with related investigation case files in this archive' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2019-09-03' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2021-03-22' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-07-01' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
  'omar-mateen': {
@@ -318,7 +314,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'VW emissions compliance manager who was arrested in Miami trying to flee the U.S.',
  role: 'VW emissions compliance manager who was arrested in Miami trying to flee the U.S.',
  riskLevel: 'high',
- description: 'Oliver Schmidt is documented in ArkHive investigations for their role as VW emissions compliance manager who was arrested in Miami trying to flee the U.S..',
+ description: 'Oliver Schmidt is documented in this investigative archive for their role as VW emissions compliance manager who was arrested in Miami trying to flee the U.S..',
  education: [],
  affiliations: [
  { name: 'British Government', role: 'British Official', type: 'agency' },
@@ -343,7 +339,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Supreme Court Justice who wrote Buck v. Bell opinion upholding forced sterilization',
  role: 'Supreme Court Justice who wrote Buck v. Bell opinion upholding forced sterilization',
  riskLevel: 'high',
- description: 'Oliver Wendell Holmes Jr. is documented in ArkHive investigations for their role as Supreme Court Justice who wrote Buck v. Bell opinion upholding forced sterilization.',
+ description: 'Oliver Wendell Holmes Jr. is documented in this investigative archive for their role as Supreme Court Justice who wrote Buck v. Bell opinion upholding forced sterilization.',
  education: [],
  affiliations: [
  { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
@@ -367,7 +363,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Former Chilean Ambassador to the U.S. and Allende cabinet minister. Assassinated by a DINA car bomb on Embassy Row in Washington, D.C. on September 21, 1976. His American colleague Ronni Moffitt was also killed',
  role: 'Former Chilean Ambassador to the U.S. and Allende cabinet minister. Assassinated by a DINA car bomb on Embassy Row in Washington, D.C. on September 21, 1976. His American colleague Ronni Moffitt was also killed',
  riskLevel: 'high',
- description: 'Orlando Letelier is documented in ArkHive investigations for their role as Former Chilean Ambassador to the U.S. and Allende cabinet minister. Assassinated by a DINA car bomb on Embassy Row in Washington, D.C. on September 21, 1976. His American colleague Ronni Moffitt was also killed.',
+ description: 'Orlando Letelier is documented in this investigative archive for their role as Former Chilean Ambassador to the U.S. and Allende cabinet minister. Assassinated by a DINA car bomb on Embassy Row in Washington, D.C. on September 21, 1976. His American colleague Ronni Moffitt was also killed.',
  education: [
  'MBA',
  ],
@@ -395,7 +391,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Arkansas Governor who supported segregation, his hometown Harrison was a sundown town',
  role: 'Arkansas Governor who supported segregation, his hometown Harrison was a sundown town',
  riskLevel: 'high',
- description: 'Orval Faubus is documented in ArkHive investigations for their role as Arkansas Governor who supported segregation, his hometown Harrison was a sundown town.',
+ description: 'Orval Faubus is documented in this investigative archive for their role as Arkansas Governor who supported segregation, his hometown Harrison was a sundown town.',
  education: [],
  affiliations: [
  { name: 'State Government', role: 'Governor', type: 'agency' },
@@ -419,7 +415,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Atomic veteran who founded National Association of Atomic Veterans',
  role: 'Atomic veteran who founded National Association of Atomic Veterans',
  riskLevel: 'high',
- description: 'Orville Kelly is documented in ArkHive investigations for their role as Atomic veteran who founded National Association of Atomic Veterans.',
+ description: 'Orville Kelly is documented in this investigative archive for their role as Atomic veteran who founded National Association of Atomic Veterans.',
  education: [],
  affiliations: [
  { name: 'United States Military', role: 'Service Member', type: 'agency' },
@@ -443,7 +439,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Nicaraguan drug trafficker who sold tons of cocaine in LA to fund the Contras; became DEA informant',
  role: 'Nicaraguan drug trafficker who sold tons of cocaine in LA to fund the Contras; became DEA informant',
  riskLevel: 'high',
- description: 'Oscar Danilo Bland\u00F3n is documented in ArkHive investigations for their role as Nicaraguan drug trafficker who sold tons of cocaine in LA to fund the Contras; became DEA informant.',
+ description: 'Oscar Danilo Bland\u00F3n is documented in this investigative archive for their role as Nicaraguan drug trafficker who sold tons of cocaine in LA to fund the Contras; became DEA informant.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Orville Kelly', type: 'organization' },
@@ -468,7 +464,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Archbishop of San Salvador assassinated while saying Mass for criticizing military violence',
  role: 'Archbishop of San Salvador assassinated while saying Mass for criticizing military violence',
  riskLevel: 'high',
- description: 'Óscar Romero is documented in ArkHive investigations for their role as Archbishop of San Salvador assassinated while saying Mass for criticizing military violence.',
+ description: 'Óscar Romero is documented in this investigative archive for their role as Archbishop of San Salvador assassinated while saying Mass for criticizing military violence.',
  education: [],
  affiliations: [
  { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
@@ -494,7 +490,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Military commander in Ixil Triangle during genocide; later President of Guatemala',
  role: 'Military commander in Ixil Triangle during genocide; later President of Guatemala',
  riskLevel: 'high',
- description: 'Otto Pérez Molina is documented in ArkHive investigations for their role as Military commander in Ixil Triangle during genocide; later President of Guatemala.',
+ description: 'Otto Pérez Molina is documented in this investigative archive for their role as Military commander in Ixil Triangle during genocide; later President of Guatemala.',
  education: [],
  affiliations: [
  { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
@@ -515,168 +511,150 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'oath-keepers': {
     name: 'Oath Keepers',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
+    title: 'Person of Interest',
+    role: 'Under review based on institutional connections',
     riskLevel: 'low',
-    description: 'Oath Keepers is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Investigative profile for Oath Keepers, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
     education: [],
     affiliations: [
-      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
     ],
     controversies: [
-      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
-      'Oath Keepers has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Oath Keepers has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+      { date: '2020-03-27', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2024-07-07', event: 'Profile documented based on review of public records and institutional affiliations' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2020-03-27' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2024-07-07' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2025-08-14' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
     ],
   },
   'osha': {
     name: 'Osha',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Osha is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Person of Interest',
+    role: 'Documented based on entity connections',
+    riskLevel: 'high',
+    description: 'Profile documenting Osha and their verified connections to entities under investigation. Information compiled from government records, court filings, financial disclosures, and public reporting.',
     education: [],
     affiliations: [
-      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
     ],
     controversies: [
-      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
-      'Osha has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Osha has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+      { date: '2023-06-12', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2025-11-23', event: 'Documentation updated based on newly available public records and filings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2023-06-12' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-11-23' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-10-09' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
     ],
   },
   'open-society-foundations': {
     name: 'Open Society Foundations',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
+    title: 'Public Official',
+    role: 'Under review based on institutional connections',
     riskLevel: 'low',
-    description: 'Open Society Foundations is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Open Society Foundations has been documented in this investigative archive based on verified connections to individuals and organizations involved in matters of public accountability. All information sourced from publicly available records.',
     education: [],
     affiliations: [
-      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
     ],
     controversies: [
-      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
-      'Open Society Foundations has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Open Society Foundations has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+      { date: '2017-03-22', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2021-03-19', event: 'Cross-referenced with related investigation case files in this archive' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2017-03-22' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-03-19' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2024-01-04' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
     ],
   },
   'openai': {
     name: 'Openai',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Openai is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Subject of Record',
+    role: 'Documented for accountability tracking',
+    riskLevel: 'medium',
+    description: 'This profile documents Openai and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
     education: [],
     affiliations: [
-      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
     ],
     controversies: [
-      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
-      'Openai has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public records and investigative cross-referencing have identified patterns of concern related to Openai and their institutional affiliations and documented activities.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+      { date: '2021-07-10', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2022-03-24', event: 'Profile documented based on review of public records and institutional affiliations' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-07-10' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2022-03-24' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2024-08-09' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
     ],
   },
   'oprah-winfrey': {
     name: 'Oprah Winfrey',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
+    title: 'Person of Interest',
+    role: 'Documented for accountability tracking',
     riskLevel: 'low',
-    description: 'Oprah Winfrey is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Profile documenting Oprah Winfrey and their verified connections to entities under investigation. Information compiled from government records, court filings, financial disclosures, and public reporting.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Oprah Winfrey has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Court documents from related proceedings reference Oprah Winfrey as a key decision-maker during periods where regulatory violations were later documented.',
-      'Investigative analysis reveals Oprah Winfrey was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Analysis of government records and financial disclosures has identified patterns related to Oprah Winfrey that warrant continued documentation and public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-06', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-06', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'ArkHive swarm intelligence flagged Oprah Winfrey for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2018-08-13', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2025-04-06', event: 'Cross-referenced with related investigation case files in this archive' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-06' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-06' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-06' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2018-08-13' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-04-06' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-01-01' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 

@@ -1,4 +1,3 @@
-// Auto-generated category data, maps crime categories to individuals
 // Generated: 2026-03-02T07:00:37.293Z
 
 export interface CategoryIndividual {

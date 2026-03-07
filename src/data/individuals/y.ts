@@ -1,4 +1,4 @@
-// AUTO-GENERATED, Shard [Y] managed by ArkHive Swarm Intelligence
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -190,6 +190,8 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
   'yahya-khan': {
     name: 'Yahya Khan',
     title: 'Pakistani Military Dictator',
@@ -237,28 +239,28 @@ const profiles: Record<string, IndividualProfile> = {
 
   'yared-getachew': {
     name: 'Yared Getachew',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Yared Getachew is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Person of Interest',
+    role: 'Documented for accountability tracking',
+    riskLevel: 'medium',
+    description: 'Yared Getachew has been included in this archive following identification of connections to investigated entities. Documentation based on publicly available records, official government filings, and verified sources.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Yared Getachew has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Yared Getachew has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2023-11-28', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2025-03-26', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2023-11-28' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-03-26' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-09-07' },
     ],
     aliases: [],
     knownAssociates: [

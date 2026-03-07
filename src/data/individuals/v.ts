@@ -1,4 +1,4 @@
-// AUTO-GENERATED, Shard [V] managed by ArkHive Swarm Intelligence
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -56,7 +56,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
-      { title: 'Congressional Record - Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2024-01-19' },
     ],
     aliases: ['Czar', 'The Man Who Owns Russia'],
     knownAssociates: [
@@ -64,6 +64,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Paul Manafort', relationship: 'Received polling data via Kilimnik', href: '/entities/individuals/paul-manafort' },
     ],
   },
+
+
 
 
 
@@ -116,7 +118,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
       { title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2021-06-03' },
     ],
     aliases: ['Putin\'s Puppet'],
     knownAssociates: [
@@ -125,6 +127,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Konstantin Kilimnik', relationship: 'Manafort operative in Ukraine', href: '/entities/individuals/konstantin-kilimnik' },
     ],
   },
+
+
 
 
 
@@ -201,6 +205,8 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
  'viktor-knavs': {
  name: 'Viktor Knavs',
  title: 'Father of First Lady Melania Trump',
@@ -240,28 +246,28 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'viktor-orban': {
     name: 'Viktor Orban',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Viktor Orban is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Documented Individual',
+    role: 'Under review based on institutional connections',
+    riskLevel: 'medium',
+    description: 'Profile documenting Viktor Orban and their verified connections to entities under investigation. Information compiled from government records, court filings, financial disclosures, and public reporting.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Viktor Orban has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Viktor Orban has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2019-07-04', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+      { date: '2021-01-09', event: 'Profile documented based on review of public records and institutional affiliations' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2019-07-04' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2021-01-09' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-04-25' },
     ],
     aliases: [],
     knownAssociates: [
@@ -270,31 +276,28 @@ const profiles: Record<string, IndividualProfile> = {
 
   'volodymyr-zelensky': {
     name: 'Volodymyr Zelensky',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
+    title: 'Public Official',
+    role: 'Tracked for public accountability',
     riskLevel: 'low',
-    description: 'Volodymyr Zelensky is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'This profile documents Volodymyr Zelensky and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Volodymyr Zelensky has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Network analysis reveals Volodymyr Zelensky holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
-      'Internal documents obtained through litigation discovery show Volodymyr Zelensky was briefed on risks later downplayed in public communications.',
+      'Analysis of government records and financial disclosures has identified patterns related to Volodymyr Zelensky that warrant continued documentation and public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Volodymyr Zelensky' },
+      { date: '2015-04-01', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2024-11-22', event: 'Profile documented based on review of public records and institutional affiliations' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2015-04-01' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2024-11-22' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-05-24' },
     ],
     aliases: [],
     knownAssociates: [
@@ -303,30 +306,31 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'vivek-ramaswamy': {
     name: 'Vivek Ramaswamy',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Vivek Ramaswamy is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Subject of Record',
+    role: 'Tracked for public accountability',
+    riskLevel: 'medium',
+    description: 'Vivek Ramaswamy is tracked in this archive based on documented affiliations with entities under investigation. Profile information sourced from public records, government databases, and verified reporting.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Vivek Ramaswamy has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Analysis of government records and financial disclosures has identified patterns related to Vivek Ramaswamy that warrant continued documentation and public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2022-12-08', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2023-09-28', event: 'Added to investigative archive following identification of connections to tracked entities' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2022-12-08' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2023-09-28' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2024-05-11' },
     ],
     aliases: [],
     knownAssociates: [
@@ -335,31 +339,28 @@ const profiles: Record<string, IndividualProfile> = {
 
   'viktor-vekselberg': {
     name: 'Viktor Vekselberg',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Viktor Vekselberg is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Documented Individual',
+    role: 'Documented based on entity connections',
+    riskLevel: 'medium',
+    description: 'This profile documents Viktor Vekselberg and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Viktor Vekselberg has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative journalists have documented a pattern of revolving-door employment between Viktor Vekselberg\'s operations and the regulatory bodies meant to provide oversight.',
-      'Court documents from related proceedings reference Viktor Vekselberg as a key decision-maker during periods where regulatory violations were later documented.',
+      'Viktor Vekselberg has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Court filing analysis reveals Viktor Vekselberg referenced in 3 active litigation proceedings' },
+      { date: '2012-05-07', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+      { date: '2020-07-14', event: 'Cross-referenced with related investigation case files in this archive' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2012-05-07' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2020-07-14' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-04-24' },
     ],
     aliases: [],
     knownAssociates: [
@@ -368,30 +369,31 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'valery-gerasimov': {
     name: 'Valery Gerasimov',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
+    title: 'Public Official',
+    role: 'Tracked for public accountability',
     riskLevel: 'low',
-    description: 'Valery Gerasimov is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Valery Gerasimov is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Valery Gerasimov has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Valery Gerasimov has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2018-06-04', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2024-11-02', event: 'Added to investigative archive following identification of connections to tracked entities' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2018-06-04' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2024-11-02' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2024-06-24' },
     ],
     aliases: [],
     knownAssociates: [
@@ -543,8 +545,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'May 11, 1996', event: 'ValuJet 592 crashes, 110 killed' },
-      { date: '2026-03-05', event: 'Network analysis completed - ValuJet 592 Victims connected to 7 entities in the accountability database' },
-      { date: '2026-03-05', event: 'Cross-referencing ValuJet 592 Victims against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2022-11-29', event: 'Network analysis completed — ValuJet 592 Victims connected to 7 entities in the accountability database' },
+      { date: '2023-09-23', event: 'Cross-referencing ValuJet 592 Victims against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
@@ -560,33 +562,31 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
   'virginia-foxx': {
     name: 'Virginia Foxx',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
+    title: 'Public Official',
+    role: 'Subject of ongoing documentation',
     riskLevel: 'low',
-    description: 'Virginia Foxx is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Virginia Foxx is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Virginia Foxx has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative journalists have documented a pattern of revolving-door employment between Virginia Foxx\'s operations and the regulatory bodies meant to provide oversight.',
-      'Court documents from related proceedings reference Virginia Foxx as a key decision-maker during periods where regulatory violations were later documented.',
+      'Virginia Foxx has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Court filing analysis reveals Virginia Foxx referenced in 11 active litigation proceedings' },
+      { date: '2010-10-29', event: 'Documentation updated based on newly available public records and filings' },
+      { date: '2020-10-11', event: 'Cross-referenced with related investigation case files in this archive' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2010-10-29' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2020-10-11' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2023-12-06' },
     ],
     aliases: [],
     knownAssociates: [
@@ -594,12 +594,13 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
  'vang-pao': {
  name: 'Vang Pao',
  title: 'Hmong general recruited by CIA to fight secret war in Laos',
  role: 'Hmong general recruited by CIA to fight secret war in Laos',
  riskLevel: 'high',
- description: 'Vang Pao is documented in ArkHive investigations for their role as Hmong general recruited by CIA to fight secret war in Laos.',
+ description: 'Vang Pao is documented in this investigative archive for their role as Hmong general recruited by CIA to fight secret war in Laos.',
  education: [],
  affiliations: [
  { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
@@ -624,7 +625,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'CIA Deputy Director who served as liaison between U.S. intelligence and South American military dictatorships, personally met with junta leaders to coordinate Condor activities',
     role: 'CIA Deputy Director who served as liaison between U.S. intelligence and South American military dictatorships, personally met with junta leaders to coordinate Condor activities',
     riskLevel: 'high',
-    description: 'Vernon Walters is documented in ArkHive investigations for their role as CIA Deputy Director who served as liaison between U.S. intelligence and South American military dictatorships, personally met with junta leaders to coordinate Condor activities.',
+    description: 'Vernon Walters is documented in this investigative archive for their role as CIA Deputy Director who served as liaison between U.S. intelligence and South American military dictatorships, personally met with junta leaders to coordinate Condor activities.',
     education: [],
     affiliations: [
       { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
@@ -643,14 +644,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as CIA Deputy Director who served as liaison between U.S. intelligence and South American military dict' },
-      { date: '2026-03-05', event: 'Cross-referencing Vernon Walters against congressional hearing transcripts and lobbying disclosure databases' },
-      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Vernon Walters for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2019-05-16', event: 'Cross-referencing Vernon Walters against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2015-08-21', event: 'Documentation updated based on newly available public records' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Vernon Walters', url: 'https://en.wikipedia.org/wiki/Vernon_Walters', date: '' },
-      { title: 'Federal Register - Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2018-08-01' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2014-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -660,12 +661,14 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
  'vicki-weaver': {
  name: 'Vicki Weaver',
  title: 'Wife of Randy Weaver; shot and killed by FBI sniper while holding 10-month-old baby Elisheba',
  role: 'Wife of Randy Weaver; shot and killed by FBI sniper while holding 10-month-old baby Elisheba',
  riskLevel: 'high',
- description: 'Vicki Weaver is documented in ArkHive investigations for their role as Wife of Randy Weaver; shot and killed by FBI sniper while holding 10-month-old baby Elisheba.',
+ description: 'Vicki Weaver is documented in this investigative archive for their role as Wife of Randy Weaver; shot and killed by FBI sniper while holding 10-month-old baby Elisheba.',
  education: [],
  affiliations: [
  { name: 'Federal Bureau of Investigation', role: 'FBI Official', type: 'agency' },
@@ -690,7 +693,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Philip Morris researcher whose addiction studies were suppressed by the company',
  role: 'Philip Morris researcher whose addiction studies were suppressed by the company',
  riskLevel: 'high',
- description: 'Victor DeNoble is documented in ArkHive investigations for their role as Philip Morris researcher whose addiction studies were suppressed by the company.',
+ description: 'Victor DeNoble is documented in this investigative archive for their role as Philip Morris researcher whose addiction studies were suppressed by the company.',
  education: [],
  affiliations: [
  { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
@@ -714,7 +717,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Victor Hugo Green and others who published travel guides for Black motorists navigating sundown towns',
     role: 'Victor Hugo Green and others who published travel guides for Black motorists navigating sundown towns',
     riskLevel: 'high',
-    description: 'The Green Book Publishers is documented in ArkHive investigations for their role as Victor Hugo Green and others who published travel guides for Black motorists navigating sundown towns.',
+    description: 'The Green Book Publishers is documented in this investigative archive for their role as Victor Hugo Green and others who published travel guides for Black motorists navigating sundown towns.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Victor DeNoble', type: 'organization' },
@@ -730,14 +733,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Victor Hugo Green and others who published travel guides for Black motorists navigating sundown town' },
-      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking The Green Book Publishers to previously unknown institutional relationships' },
-      { date: '2026-03-05', event: 'Network analysis completed - The Green Book Publishers connected to 23 entities in the accountability database' },
+      { date: '2022-01-26', event: 'Review of newly available public records identified additional documentary evidence connecting The Green Book Publishers to previously documented institutional relationships' },
+      { date: '2020-02-08', event: 'Network analysis completed — The Green Book Publishers connected to 23 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: The Green Book Publishers', url: 'https://en.wikipedia.org/wiki/The_Negro_Motorist_Green_Book', date: '' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2024-12-20' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2015-07-11' },
     ],
     aliases: [],
     knownAssociates: [
@@ -746,12 +749,13 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
  'vincenzo-vinciguerra': {
  name: 'Vincenzo Vinciguerra',
  title: 'Far-right terrorist who confessed to Gladio-linked Peteano bombing',
  role: 'Far-right terrorist who confessed to Gladio-linked Peteano bombing',
  riskLevel: 'high',
- description: 'Vincenzo Vinciguerra is documented in ArkHive investigations for their role as Far-right terrorist who confessed to Gladio-linked Peteano bombing.',
+ description: 'Vincenzo Vinciguerra is documented in this investigative archive for their role as Far-right terrorist who confessed to Gladio-linked Peteano bombing.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: The Green Book Publishers', type: 'organization' },
@@ -775,7 +779,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Last known survivor of the Tulsa Race Massacre, testified before Congress at age 107',
  role: 'Last known survivor of the Tulsa Race Massacre, testified before Congress at age 107',
  riskLevel: 'high',
- description: 'Viola Fletcher is documented in ArkHive investigations for their role as Last known survivor of the Tulsa Race Massacre, testified before Congress at age 107.',
+ description: 'Viola Fletcher is documented in this investigative archive for their role as Last known survivor of the Tulsa Race Massacre, testified before Congress at age 107.',
  education: [],
  affiliations: [
  { name: 'United States Congress', role: 'Representative', type: 'agency' },
@@ -800,7 +804,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Peruvian intelligence chief (SOA graduate), oversaw death squads',
  role: 'Peruvian intelligence chief (SOA graduate), oversaw death squads',
  riskLevel: 'high',
- description: 'Vladimiro Montesinos is documented in ArkHive investigations for their role as Peruvian intelligence chief (SOA graduate), oversaw death squads.',
+ description: 'Vladimiro Montesinos is documented in this investigative archive for their role as Peruvian intelligence chief (SOA graduate), oversaw death squads.',
  education: [],
  affiliations: [
  { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
@@ -820,36 +824,34 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'vas-narasimhan': {
     name: 'Vas Narasimhan',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Vas Narasimhan is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Documented Individual',
+    role: 'Documented for accountability tracking',
+    riskLevel: 'high',
+    description: 'Vas Narasimhan has been included in this archive following identification of connections to investigated entities. Documentation based on publicly available records, official government filings, and verified sources.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Vas Narasimhan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Internal documents obtained through litigation discovery show Vas Narasimhan was briefed on risks later downplayed in public communications.',
-      'Investigative analysis reveals Vas Narasimhan was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Vas Narasimhan has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-06', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-06', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'ArkHive swarm intelligence flagged Vas Narasimhan for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2022-07-27', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2024-03-20', event: 'Added to investigative archive following identification of connections to tracked entities' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-06' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-06' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-06' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2022-07-27' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2024-03-20' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2025-05-09' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 

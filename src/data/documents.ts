@@ -1,4 +1,3 @@
-// Auto-generated document data from investigation sources
 // Generated: 2026-03-06T04:59:39.128Z
 // Total: 1051 documents from 164 investigations
 

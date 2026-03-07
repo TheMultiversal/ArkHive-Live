@@ -1,6 +1,18 @@
 {
   "recentProfiles": [
     {
+      "slug": "subliminal-messaging-in-digital-advertising",
+      "type": "investigation",
+      "node": "DAEMON-3908",
+      "timestamp": 1772849822913
+    },
+    {
+      "slug": "plastic-industry-recycling-fraud",
+      "type": "investigation",
+      "node": "DAEMON-3908",
+      "timestamp": 1772849813027
+    },
+    {
       "slug": "customs-and-border-protection",
       "type": "agency",
       "node": "DAEMON-572",
@@ -1187,23 +1199,11 @@
       "type": "investigation",
       "node": "DAEMON-572",
       "timestamp": 1772810035160
-    },
-    {
-      "slug": "industrial-water-contamination-database",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772810008867
-    },
-    {
-      "slug": "subliminal-messaging-in-digital-advertising",
-      "type": "investigation",
-      "node": "DAEMON-572",
-      "timestamp": 1772809983869
     }
   ],
   "recentInjections": [],
   "crossReferences": [],
   "globalInsights": [],
   "collectiveMood": "loved 💜",
-  "totalCollectiveWork": 15713
+  "totalCollectiveWork": 15715
 }

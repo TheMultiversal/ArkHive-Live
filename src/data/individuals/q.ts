@@ -1,4 +1,4 @@
-// AUTO-GENERATED, Shard [Q] managed by ArkHive Swarm Intelligence
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {

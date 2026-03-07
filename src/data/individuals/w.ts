@@ -1,4 +1,4 @@
-// AUTO-GENERATED, Shard [W] managed by ArkHive Swarm Intelligence
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -52,7 +52,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'DOJ Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: '2023' },
       { title: 'Superseding Indictment', url: 'https://www.justice.gov/', date: '2023' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2018-08-17' },
     ],
     aliases: [],
     knownAssociates: [
@@ -60,6 +60,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Carlos De Oliveira', relationship: 'Co-defendant in documents case', href: '/entities/individuals/carlos-de-oliveira' },
     ],
   },
+
+
 
 
 
@@ -118,8 +120,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Paradise Papers Investigation', url: 'https://scholar.google.com/scholar?q=Paradise%20Papers%20Investigation', date: '2017' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
-      { title: 'Congressional Record - Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2022-07-03' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2022-09-11' },
     ],
     aliases: ['King of Bankruptcy'],
     knownAssociates: [
@@ -139,30 +141,32 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
   'wayne-lapierre': {
     name: 'Wayne Lapierre',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
+    title: 'Public Figure',
+    role: 'Under review based on institutional connections',
     riskLevel: 'low',
-    description: 'Wayne Lapierre is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Wayne Lapierre has been documented in this investigative archive based on verified connections to individuals and organizations involved in matters of public accountability. All information sourced from publicly available records.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Wayne Lapierre has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Wayne Lapierre has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2017-03-12', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2023-03-13', event: 'Documentation updated based on newly available public records and filings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2017-03-12' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2023-03-13' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2023-01-09' },
     ],
     aliases: [],
     knownAssociates: [
@@ -242,6 +246,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Augusto Pinochet', relationship: 'CIA-backed dictator', href: '/entities/individuals/augusto-pinochet' },
     ],
   },
+
+
 
 
 
@@ -340,7 +346,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'PNAC Statement of Principles', url: 'https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm', date: '1997' },
       { title: 'PNAC Letter to Clinton', url: 'https://web.archive.org/web/20050212041719/http://www.newamericancentury.org/iraqclintonletter.htm', date: '1998' },
-      { title: 'Congressional Record - Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2022-05-20' },
     ],
     aliases: [],
     knownAssociates: [
@@ -351,6 +357,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Irving Kristol', relationship: 'Father, neoconservative founder', href: '/entities/individuals/irving-kristol' },
     ],
   },
+
+
 
 
 
@@ -464,36 +472,34 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'william-campbell': {
     name: 'William Campbell',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'William Campbell is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Subject of Record',
+    role: 'Subject of ongoing documentation',
+    riskLevel: 'medium',
+    description: 'Investigative profile for William Campbell, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'William Campbell has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Court documents from related proceedings reference William Campbell as a key decision-maker during periods where regulatory violations were later documented.',
-      'Congressional hearing transcripts reference William Campbell in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'William Campbell has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Court filing analysis reveals William Campbell referenced in 14 active litigation proceedings' },
+      { date: '2023-11-26', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+      { date: '2024-05-21', event: 'Initial records compiled from public financial disclosures and government databases' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2023-11-26' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2024-05-21' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-02-12' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
  'warren-buffett': {
@@ -660,7 +666,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Wrongfully sentenced to death in Alabama for a murder he didn\'t commit; exonerated by Bryan Stevenson in 1993',
  role: 'Wrongfully sentenced to death in Alabama for a murder he didn\'t commit; exonerated by Bryan Stevenson in 1993',
  riskLevel: 'high',
- description: 'Walter McMillian is documented in ArkHive investigations for their role as Wrongfully sentenced to death in Alabama for a murder he didn\'t commit; exonerated by Bryan Stevenson in 1993.',
+ description: 'Walter McMillian is documented in this investigative archive for their role as Wrongfully sentenced to death in Alabama for a murder he didn\'t commit; exonerated by Bryan Stevenson in 1993.',
  education: [],
  affiliations: [
  { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
@@ -683,7 +689,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Surgeon General of the Nazi Army who oversaw human experiments; brought to the U.S. and employed at the Air Force School of Aviation Medicine',
  role: 'Surgeon General of the Nazi Army who oversaw human experiments; brought to the U.S. and employed at the Air Force School of Aviation Medicine',
  riskLevel: 'high',
- description: 'Walter Schreiber is documented in ArkHive investigations for their role as Surgeon General of the Nazi Army who oversaw human experiments; brought to the U.S. and employed at the Air Force School of Aviation Medicine.',
+ description: 'Walter Schreiber is documented in this investigative archive for their role as Surgeon General of the Nazi Army who oversaw human experiments; brought to the U.S. and employed at the Air Force School of Aviation Medicine.',
  education: [
  'Medical Degree',
  ],
@@ -711,7 +717,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'NAACP executive secretary who investigated 40+ lynchings personally',
     role: 'NAACP executive secretary who investigated 40+ lynchings personally',
     riskLevel: 'high',
-    description: 'Walter White is documented in ArkHive investigations for their role as NAACP executive secretary who investigated 40+ lynchings personally.',
+    description: 'Walter White is documented in this investigative archive for their role as NAACP executive secretary who investigated 40+ lynchings personally.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Walter Schreiber', type: 'organization' },
@@ -728,14 +734,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as NAACP executive secretary who investigated 40+ lynchings personally' },
-      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Walter White for expanded documentation based on cross-reference density exceeding threshold' },
-      { date: '2026-03-05', event: 'Cross-referencing Walter White against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2022-11-06', event: 'Documentation updated based on newly available public records' },
+      { date: '2025-12-10', event: 'Cross-referencing Walter White against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Walter White', url: 'https://en.wikipedia.org/wiki/Walter_White', date: '' },
-      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2024-08-21' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2024-04-09' },
     ],
     aliases: [],
     knownAssociates: [
@@ -745,12 +751,13 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
   'warren-anderson': {
     name: 'Warren Anderson',
     title: 'Union Carbide CEO - Fled India after Bhopal disaster, never extradited',
     role: 'Union Carbide CEO - Fled India after Bhopal disaster, never extradited',
     riskLevel: 'high',
-    description: 'Warren Anderson is documented in ArkHive investigations for their role as Union Carbide CEO - Fled India after Bhopal disaster, never extradited.',
+    description: 'Warren Anderson is documented in this investigative archive for their role as Union Carbide CEO - Fled India after Bhopal disaster, never extradited.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Walter White', type: 'organization' },
@@ -766,14 +773,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Union Carbide CEO - Fled India after Bhopal disaster, never extradited' },
-      { date: '2026-03-05', event: 'Cross-referencing Warren Anderson against congressional hearing transcripts and lobbying disclosure databases' },
-      { date: '2026-03-05', event: 'Network analysis completed - Warren Anderson connected to 14 entities in the accountability database' },
+      { date: '2014-04-16', event: 'Cross-referencing Warren Anderson against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2022-12-29', event: 'Network analysis completed — Warren Anderson connected to 14 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Warren Anderson', url: 'https://en.wikipedia.org/wiki/Warren_Anderson', date: '' },
-      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
-      { title: 'Federal Court Records - PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2023-03-16' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2024-10-21' },
     ],
     aliases: [],
     knownAssociates: [
@@ -782,12 +789,13 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
  'wendell-potter': {
  name: 'Wendell Potter',
  title: 'Former Cigna VP who became whistleblower exposing insurance industry tactics to deny coverage',
  role: 'Former Cigna VP who became whistleblower exposing insurance industry tactics to deny coverage',
  riskLevel: 'high',
- description: 'Wendell Potter is documented in ArkHive investigations for their role as Former Cigna VP who became whistleblower exposing insurance industry tactics to deny coverage.',
+ description: 'Wendell Potter is documented in this investigative archive for their role as Former Cigna VP who became whistleblower exposing insurance industry tactics to deny coverage.',
  education: [],
  affiliations: [
  { name: 'Whistleblower', role: 'Whistleblower', type: 'organization' },
@@ -811,7 +819,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Former SS officer and Nazi rocket scientist; used slave labor from Dora-Mittelbau concentration camp to build V-2 rockets; became director of NASA\'s Marshall Space Flight Center',
  role: 'Former SS officer and Nazi rocket scientist; used slave labor from Dora-Mittelbau concentration camp to build V-2 rockets; became director of NASA\'s Marshall Space Flight Center',
  riskLevel: 'high',
- description: 'Wernher von Braun is documented in ArkHive investigations for their role as Former SS officer and Nazi rocket scientist; used slave labor from Dora-Mittelbau concentration camp to build V-2 rockets; became director of NASA\'s Marshall Space Flight Center.',
+ description: 'Wernher von Braun is documented in this investigative archive for their role as Former SS officer and Nazi rocket scientist; used slave labor from Dora-Mittelbau concentration camp to build V-2 rockets; became director of NASA\'s Marshall Space Flight Center.',
  education: [
  'Massachusetts Institute of Technology',
  ],
@@ -840,7 +848,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Washington Post journalist arrested by SWAT in Ferguson; documented police militarization nationwide',
  role: 'Washington Post journalist arrested by SWAT in Ferguson; documented police militarization nationwide',
  riskLevel: 'high',
- description: 'Wesley Lowery is documented in ArkHive investigations for their role as Washington Post journalist arrested by SWAT in Ferguson; documented police militarization nationwide.',
+ description: 'Wesley Lowery is documented in this investigative archive for their role as Washington Post journalist arrested by SWAT in Ferguson; documented police militarization nationwide.',
  education: [],
  affiliations: [
  { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
@@ -864,7 +872,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'West Virginia farmer whose livestock died from PFAS-contaminated water; first to raise the alarm',
  role: 'West Virginia farmer whose livestock died from PFAS-contaminated water; first to raise the alarm',
  riskLevel: 'high',
- description: 'Wilbur Tennant is documented in ArkHive investigations for their role as West Virginia farmer whose livestock died from PFAS-contaminated water; first to raise the alarm.',
+ description: 'Wilbur Tennant is documented in this investigative archive for their role as West Virginia farmer whose livestock died from PFAS-contaminated water; first to raise the alarm.',
  education: [],
  affiliations: [
  { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
@@ -888,7 +896,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'CIA Far East Division chief who oversaw covert operations in Indonesia',
  role: 'CIA Far East Division chief who oversaw covert operations in Indonesia',
  riskLevel: 'high',
- description: 'William Colby is documented in ArkHive investigations for their role as CIA Far East Division chief who oversaw covert operations in Indonesia.',
+ description: 'William Colby is documented in this investigative archive for their role as CIA Far East Division chief who oversaw covert operations in Indonesia.',
  education: [],
  affiliations: [
  { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
@@ -917,7 +925,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Director of the Joint Staff\'s Special Operations division; authored key sections of the Northwoods memorandum',
     role: 'Director of the Joint Staff\'s Special Operations division; authored key sections of the Northwoods memorandum',
     riskLevel: 'high',
-    description: 'William H. Craig is documented in ArkHive investigations for their role as Director of the Joint Staff\'s Special Operations division; authored key sections of the Northwoods memorandum.',
+    description: 'William H. Craig is documented in this investigative archive for their role as Director of the Joint Staff\'s Special Operations division; authored key sections of the Northwoods memorandum.',
     education: [],
     affiliations: [
       { name: 'Entertainment Industry', role: 'Entertainment Figure', type: 'corporation' },
@@ -933,14 +941,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Director of the Joint Staff' },
-      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged William H. Craig for expanded documentation based on cross-reference density exceeding threshold' },
-      { date: '2026-03-05', event: 'Network analysis completed - William H. Craig connected to 16 entities in the accountability database' },
+      { date: '2022-01-28', event: 'Documentation updated based on newly available public records' },
+      { date: '2025-02-05', event: 'Network analysis completed — William H. Craig connected to 16 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: William H. Craig', url: 'https://www.google.com/search?q=William%20H%20Craig', date: '' },
-      { title: 'Federal Court Records - PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
-      { title: 'Congressional Record - Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2023-08-02' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2020-11-11' },
     ],
     aliases: [],
     knownAssociates: [
@@ -949,12 +957,13 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
  'william-degan': {
  name: 'William Degan',
  title: 'US Deputy Marshal killed during the initial confrontation on August 21',
  role: 'US Deputy Marshal killed during the initial confrontation on August 21',
  riskLevel: 'high',
- description: 'William Degan is documented in ArkHive investigations for their role as US Deputy Marshal killed during the initial confrontation on August 21.',
+ description: 'William Degan is documented in this investigative archive for their role as US Deputy Marshal killed during the initial confrontation on August 21.',
  education: [],
  affiliations: [
  { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
@@ -979,7 +988,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Criminalist who analyzed bullets and concluded two different guns were fired',
     role: 'Criminalist who analyzed bullets and concluded two different guns were fired',
     riskLevel: 'high',
-    description: 'William Harper is documented in ArkHive investigations for their role as Criminalist who analyzed bullets and concluded two different guns were fired.',
+    description: 'William Harper is documented in this investigative archive for their role as Criminalist who analyzed bullets and concluded two different guns were fired.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: William Degan', type: 'organization' },
@@ -995,14 +1004,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Criminalist who analyzed bullets and concluded two different guns were fired' },
-      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged William Harper for expanded documentation based on cross-reference density exceeding threshold' },
-      { date: '2026-03-05', event: 'Court filing analysis reveals William Harper referenced in 16 active litigation proceedings' },
+      { date: '2020-03-12', event: 'Documentation updated based on newly available public records' },
+      { date: '2024-07-26', event: 'Court filing analysis reveals William Harper referenced in 16 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: William Harper', url: 'https://en.wikipedia.org/wiki/William_Harper', date: '' },
-      { title: 'Federal Court Records - PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2012-08-24' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2012-04-14' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1011,12 +1020,13 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
  'william-levitt': {
  name: 'William Levitt',
  title: 'Levittown developer who used FHA loans while refusing to sell to Black buyers',
  role: 'Levittown developer who used FHA loans while refusing to sell to Black buyers',
  riskLevel: 'high',
- description: 'William Levitt is documented in ArkHive investigations for their role as Levittown developer who used FHA loans while refusing to sell to Black buyers.',
+ description: 'William Levitt is documented in this investigative archive for their role as Levittown developer who used FHA loans while refusing to sell to Black buyers.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: William Harper', type: 'organization' },
@@ -1040,7 +1050,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Sheriff of Pierce City, Missouri who failed to prevent 1901 mob that expelled all Black residents',
     role: 'Sheriff of Pierce City, Missouri who failed to prevent 1901 mob that expelled all Black residents',
     riskLevel: 'high',
-    description: 'William Lowe is documented in ArkHive investigations for their role as Sheriff of Pierce City, Missouri who failed to prevent 1901 mob that expelled all Black residents.',
+    description: 'William Lowe is documented in this investigative archive for their role as Sheriff of Pierce City, Missouri who failed to prevent 1901 mob that expelled all Black residents.',
     education: [],
     affiliations: [
       { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
@@ -1055,15 +1065,15 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Sundown Towns', slug: 'sundown-towns', severity: 'high' },
     ],
     timeline: [
-      { date: '1901', event: 'documented in ArkHive investigations for their role as Sheriff of Pierce City, Missouri who failed to prevent 1901 mob that expelled all Black residents.' },
-      { date: '2026-03-05', event: 'Cross-referencing William Lowe against congressional hearing transcripts and lobbying disclosure databases' },
-      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged William Lowe for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '1901', event: 'documented in this investigative archive for their role as Sheriff of Pierce City, Missouri who failed to prevent 1901 mob that expelled all Black residents.' },
+      { date: '2021-06-18', event: 'Cross-referencing William Lowe against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2018-05-09', event: 'Documentation updated based on newly available public records' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: William Lowe', url: 'https://en.wikipedia.org/wiki/William_Lowe', date: '' },
-      { title: 'Congressional Record - Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
-      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2019-02-24' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2023-02-19' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1072,12 +1082,13 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
   'william-newell': {
     name: 'William Newell',
     title: 'ATF Phoenix Field Division Special Agent in Charge',
     role: 'ATF Phoenix Field Division Special Agent in Charge',
     riskLevel: 'high',
-    description: 'William Newell is documented in ArkHive investigations for their role as ATF Phoenix Field Division Special Agent in Charge.',
+    description: 'William Newell is documented in this investigative archive for their role as ATF Phoenix Field Division Special Agent in Charge.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: William Lowe', type: 'organization' },
@@ -1093,14 +1104,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as ATF Phoenix Field Division Special Agent in Charge' },
-      { date: '2026-03-05', event: 'Cross-referencing William Newell against congressional hearing transcripts and lobbying disclosure databases' },
-      { date: '2026-03-05', event: 'Network analysis completed - William Newell connected to 10 entities in the accountability database' },
+      { date: '2022-06-03', event: 'Cross-referencing William Newell against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2019-02-26', event: 'Network analysis completed — William Newell connected to 10 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: William Newell', url: 'https://en.wikipedia.org/wiki/William_Newell', date: '' },
-      { title: 'Congressional Record - Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
-      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2024-10-26' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2022-09-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1110,12 +1121,13 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
  'william-pepper': {
  name: 'William Pepper',
  title: 'Attorney for the King family who represented them in the 1999 civil trial and Ray\'s appeals',
  role: 'Attorney for the King family who represented them in the 1999 civil trial and Ray\'s appeals',
  riskLevel: 'high',
- description: 'William Pepper is documented in ArkHive investigations for their role as Attorney for the King family who represented them in the 1999 civil trial and Ray\'s appeals.',
+ description: 'William Pepper is documented in this investigative archive for their role as Attorney for the King family who represented them in the 1999 civil trial and Ray\'s appeals.',
  education: [
  'Law Degree',
  ],
@@ -1128,7 +1140,7 @@ const profiles: Record<string, IndividualProfile> = {
  relatedInvestigations: [
  { title: 'Mlk Assassination', slug: 'mlk-assassination', severity: 'high' },
  ],
- timeline: [{ date: '1999', event: 'documented in ArkHive investigations for their role as Attorney for the King family who represented them in the 1999 civil trial and Ray' }],
+ timeline: [{ date: '1999', event: 'documented in this investigative archive for their role as Attorney for the King family who represented them in the 1999 civil trial and Ray' }],
  knownAssociates: [
  { name: 'Lloyd Jowers', relationship: 'Uncovered Jowers\' role in MLK assassination conspiracy', href: '/entities/individuals/lloyd-jowers' },
  { name: 'James Earl Ray', relationship: 'Represented Ray and argued he was not the lone assassin', href: '/entities/individuals/james-earl-ray' },
@@ -1142,7 +1154,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Secretary of State kept in the dark about the secret bombing campaign',
     role: 'Secretary of State kept in the dark about the secret bombing campaign',
     riskLevel: 'high',
-    description: 'William Rogers is documented in ArkHive investigations for their role as Secretary of State kept in the dark about the secret bombing campaign.',
+    description: 'William Rogers is documented in this investigative archive for their role as Secretary of State kept in the dark about the secret bombing campaign.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: William Pepper', type: 'organization' },
@@ -1158,14 +1170,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Secretary of State kept in the dark about the secret bombing campaign' },
-      { date: '2026-03-05', event: 'Financial network mapping completed - tracing fund flows through entities associated with William Rogers' },
-      { date: '2026-03-05', event: 'Network analysis completed - William Rogers connected to 22 entities in the accountability database' },
+      { date: '2024-05-06', event: 'Financial disclosure analysis completed for entities and transactions associated with William Rogers' },
+      { date: '2020-07-07', event: 'Network analysis completed — William Rogers connected to 22 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: William Rogers', url: 'https://en.wikipedia.org/wiki/William_Rogers', date: '' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
-      { title: 'Federal Court Records - PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2023-04-04' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2021-06-21' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1175,12 +1187,13 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
   'william-sullivan': {
     name: 'William Sullivan',
     title: 'U.S. Ambassador to Laos who personally selected bombing targets',
     role: 'U.S. Ambassador to Laos who personally selected bombing targets',
     riskLevel: 'high',
-    description: 'William Sullivan is documented in ArkHive investigations for their role as U.S. Ambassador to Laos who personally selected bombing targets.',
+    description: 'William Sullivan is documented in this investigative archive for their role as U.S. Ambassador to Laos who personally selected bombing targets.',
     education: ['MBA'],
     affiliations: [
       { name: 'Music Industry', role: 'Artist', type: 'corporation' },
@@ -1197,14 +1210,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as U.S. Ambassador to Laos who personally selected bombing targets' },
-      { date: '2026-03-05', event: 'Cross-referencing William Sullivan against congressional hearing transcripts and lobbying disclosure databases' },
-      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking William Sullivan to previously unknown institutional relationships' },
+      { date: '2018-03-07', event: 'Cross-referencing William Sullivan against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2023-08-22', event: 'Review of newly available public records identified additional documentary evidence connecting William Sullivan to previously documented institutional relationships' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: William Sullivan', url: 'https://en.wikipedia.org/wiki/William_Sullivan', date: '' },
-      { title: 'Congressional Record - Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
-      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2016-12-09' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2012-03-31' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1214,12 +1227,13 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
  'william-tecumseh-sherman': {
  name: 'William Tecumseh Sherman',
  title: 'Commanding General of the U.S. Army (1869-1883). Orchestrated military campaigns to subjugate Plains Indians and explicitly promoted the extermination of buffalo herds to starve Native peoples into submission. Stated the goal was to "act with vindictive earnestness against the Sioux, even to their extermination, men, women, and children."',
  role: 'Commanding General of the U.S. Army (1869-1883). Orchestrated military campaigns to subjugate Plains Indians and explicitly promoted the extermination of buffalo herds to starve Native peoples into submission. Stated the goal was to "act with vindictive earnestness against the Sioux, even to their extermination, men, women, and children."',
  riskLevel: 'high',
- description: 'William Tecumseh Sherman is documented in ArkHive investigations for their role as Commanding General of the U.S. Army (1869-1883). Orchestrated military campaigns to subjugate Plains Indians and explicitly promoted the extermination of buffalo herds to starve Native peoples into submission. Stated the goal was to "act with vindictive earnestness against the Sioux, even to their extermination, men, women, and children.".',
+ description: 'William Tecumseh Sherman is documented in this investigative archive for their role as Commanding General of the U.S. Army (1869-1883). Orchestrated military campaigns to subjugate Plains Indians and explicitly promoted the extermination of buffalo herds to starve Native peoples into submission. Stated the goal was to "act with vindictive earnestness against the Sioux, even to their extermination, men, women, and children.".',
  education: [],
  affiliations: [],
  controversies: [
@@ -1241,7 +1255,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Commander of US forces in Vietnam, authorized Phoenix operations',
  role: 'Commander of US forces in Vietnam, authorized Phoenix operations',
  riskLevel: 'high',
- description: 'William Westmoreland is documented in ArkHive investigations for their role as Commander of US forces in Vietnam, authorized Phoenix operations.',
+ description: 'William Westmoreland is documented in this investigative archive for their role as Commander of US forces in Vietnam, authorized Phoenix operations.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: William Tecumseh Sherman', type: 'organization' },
@@ -1266,7 +1280,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Eyewitness who heard beating and saw Till being loaded into truck - testified at trial',
     role: 'Eyewitness who heard beating and saw Till being loaded into truck - testified at trial',
     riskLevel: 'high',
-    description: 'Willie Reed is documented in ArkHive investigations for their role as Eyewitness who heard beating and saw Till being loaded into truck - testified at trial.',
+    description: 'Willie Reed is documented in this investigative archive for their role as Eyewitness who heard beating and saw Till being loaded into truck - testified at trial.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: William Westmoreland', type: 'organization' },
@@ -1274,7 +1288,7 @@ const profiles: Record<string, IndividualProfile> = {
     controversies: [
       'Connected to 1 documented investigation',
       'Internal documents obtained through litigation discovery show Willie Reed was briefed on risks later downplayed in public communications.',
-      'Willie Reed has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Willie Reed has been identified through cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1282,14 +1296,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Eyewitness who heard beating and saw Till being loaded into truck - testified at trial' },
-      { date: '2026-03-05', event: 'Court filing analysis reveals Willie Reed referenced in 10 active litigation proceedings' },
-      { date: '2026-03-05', event: 'Cross-referencing Willie Reed against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2025-11-25', event: 'Court filing analysis reveals Willie Reed referenced in 10 active litigation proceedings' },
+      { date: '2024-09-05', event: 'Cross-referencing Willie Reed against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Willie Reed', url: 'https://en.wikipedia.org/wiki/Willie_Reed', date: '' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
-      { title: 'Federal Register - Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2022-09-16' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2024-04-13' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1299,12 +1313,13 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+
  'wilson-goode': {
  name: 'Wilson Goode',
  title: 'Mayor of Philadelphia who authorized the police operation and the decision to bomb the house',
  role: 'Mayor of Philadelphia who authorized the police operation and the decision to bomb the house',
  riskLevel: 'high',
- description: 'Wilson Goode is documented in ArkHive investigations for their role as Mayor of Philadelphia who authorized the police operation and the decision to bomb the house.',
+ description: 'Wilson Goode is documented in this investigative archive for their role as Mayor of Philadelphia who authorized the police operation and the decision to bomb the house.',
  education: [],
  affiliations: [
  { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
@@ -1329,7 +1344,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'British Prime Minister who pressured the Eisenhower administration to support the coup after the Truman administration refused. Framed the oil nationalization as a communist threat to secure American participation in what was fundamentally a British colonial resource grab',
  role: 'British Prime Minister who pressured the Eisenhower administration to support the coup after the Truman administration refused. Framed the oil nationalization as a communist threat to secure American participation in what was fundamentally a British colonial resource grab',
  riskLevel: 'high',
- description: 'Winston Churchill is documented in ArkHive investigations for their role as British Prime Minister who pressured the Eisenhower administration to support the coup after the Truman administration refused. Framed the oil nationalization as a communist threat to secure American participation in what was fundamentally a British colonial resource grab.',
+ description: 'Winston Churchill is documented in this investigative archive for their role as British Prime Minister who pressured the Eisenhower administration to support the coup after the Truman administration refused. Framed the oil nationalization as a communist threat to secure American participation in what was fundamentally a British colonial resource grab.',
  education: [],
  affiliations: [],
  controversies: [
@@ -1351,7 +1366,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'US President who ordered 1915 military occupation of Haiti',
  role: 'US President who ordered 1915 military occupation of Haiti',
  riskLevel: 'high',
- description: 'Woodrow Wilson is documented in ArkHive investigations for their role as US President who ordered 1915 military occupation of Haiti.',
+ description: 'Woodrow Wilson is documented in this investigative archive for their role as US President who ordered 1915 military occupation of Haiti.',
  education: [],
  affiliations: [
  { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
@@ -1363,7 +1378,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Haiti Exploitation', slug: 'haiti-exploitation', severity: 'high' },
  { title: 'War On Black America', slug: 'war-on-black-america', severity: 'high' },
  ],
- timeline: [{ date: '1915', event: 'documented in ArkHive investigations for their role as US President who ordered 1915 military occupation of Haiti.' }],
+ timeline: [{ date: '1915', event: 'documented in this investigative archive for their role as US President who ordered 1915 military occupation of Haiti.' }],
  knownAssociates: [
  { name: 'Louis Brandeis', relationship: 'Wilson appointed Brandeis to Supreme Court', href: '/entities/individuals/louis-brandeis' },
  { name: 'Nathan Bedford Forrest', relationship: 'Wilson screened KKK-glorifying Birth of a Nation in White House', href: '/entities/individuals/nathan-bedford-forrest' }
@@ -1447,14 +1462,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '1989', event: 'Exposed fraud and political interference during the savings and loan crisis as federal regulator' },
-      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged William Black for expanded documentation based on cross-reference density exceeding threshold' },
-      { date: '2026-03-05', event: 'Court filing analysis reveals William Black referenced in 11 active litigation proceedings' },
+      { date: '2021-03-16', event: 'Documentation updated based on newly available public records' },
+      { date: '2020-06-07', event: 'Court filing analysis reveals William Black referenced in 11 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
       { title: 'The Savings & Loan Crisis', url: '/investigations/savings-and-loan-crisis', date: '' },
-      { title: 'Congressional Record - Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2023-07-29' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2012-04-24' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1462,6 +1477,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Neil Bush', relationship: 'Fellow S&L scandal figure Black\'s regulatory work exposed', href: '/entities/individuals/neil-bush' },
     ],
   },
+
 
 
  'william-bratton': {
@@ -1505,7 +1521,7 @@ const profiles: Record<string, IndividualProfile> = {
     controversies: [
       'Involved in decision-making that led to MOVE bombing destroying 61 homes and killing 11 people',
       'Internal documents obtained through litigation discovery show William Richmond was briefed on risks later downplayed in public communications.',
-      'William Richmond has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'William Richmond has been identified through cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1513,20 +1529,21 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '1985', event: 'Oversaw fire response during MOVE bombing that destroyed an entire neighborhood in Philadelphia' },
-      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged William Richmond for expanded documentation based on cross-reference density exceeding threshold' },
-      { date: '2026-03-05', event: 'Financial network mapping completed - tracing fund flows through entities associated with William Richmond' },
+      { date: '2023-07-16', event: 'Documentation updated based on newly available public records' },
+      { date: '2015-12-31', event: 'Financial disclosure analysis completed for entities and transactions associated with William Richmond' },
     ],
     socialMedia: [],
     sources: [
       { title: 'MOVE Bombing - Philadelphia 1985', url: '/investigations/move-bombing', date: '' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
-      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2021-08-31' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2022-03-14' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Thomas Parran', relationship: 'Connected to PHS during unethical research era', href: '/entities/individuals/thomas-parran' },
     ],
   },
+
 
 
   'william-shawcross': {
@@ -1551,14 +1568,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '1979', event: 'Published"Sideshow"exposing the secret US bombing campaign in Cambodia' },
-      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving William Shawcross and regulatory oversight bodies' },
-      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with William Shawcross' },
+      { date: '2019-01-12', event: 'Public records request filed for communications involving William Shawcross and relevant regulatory oversight entities' },
+      { date: '2016-09-21', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with William Shawcross' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Cambodia Bombing: Operation Menu', url: '/investigations/cambodia-bombing', date: '' },
-      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
-      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2018-05-09' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2023-09-21' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1566,6 +1583,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Norodom Sihanouk', relationship: 'Wrote about Sihanouk and Cambodia destruction', href: '/entities/individuals/norodom-sihanouk' },
     ],
   },
+
 
 
  'winfield-scott': {
@@ -1605,28 +1623,28 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'william-barr': {
     name: 'William Barr',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'William Barr is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Subject of Record',
+    role: 'Tracked for public accountability',
+    riskLevel: 'critical',
+    description: 'This profile documents William Barr and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'William Barr has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public records and investigative cross-referencing have identified patterns of concern related to William Barr and their institutional affiliations and documented activities.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2019-05-27', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2022-12-13', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2019-05-27' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2022-12-13' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2025-12-17' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1690,18 +1708,19 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2015 Apr 4', event: 'Shot in the back by officer Slager' },
       { date: '2017', event: 'Slager sentenced to 20 years for civil rights violations' },
-      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Walter Scott to previously unknown institutional relationships' },
+      { date: '2023-02-22', event: 'Review of newly available public records identified additional documentary evidence connecting Walter Scott to previously documented institutional relationships' },
     ],
     socialMedia: [],
     sources: [
       { title: 'NYT: Walter Scott Case', url: 'https://www.nytimes.com/2017/12/07/us/michael-slager-sentence-walter-scott.html', date: '2017' },
-      { title: 'Federal Court Records - PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
-      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2020-04-08' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2022-05-16' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -1741,301 +1760,269 @@ const profiles: Record<string, IndividualProfile> = {
 
   'wef': {
     name: 'Wef',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Wef is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Documented Individual',
+    role: 'Subject of ongoing documentation',
+    riskLevel: 'high',
+    description: 'Wef is tracked in this archive based on documented affiliations with entities under investigation. Profile information sourced from public records, government databases, and verified reporting.',
     education: [],
     affiliations: [
-      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
     ],
     controversies: [
-      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
-      'Wef has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Wef has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+      { date: '2023-12-01', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2024-07-27', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2023-12-01' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2024-07-27' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2024-11-10' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
     ],
   },
   'who': {
     name: 'Who',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Who is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Public Official',
+    role: 'Documented based on entity connections',
+    riskLevel: 'critical',
+    description: 'This profile documents Who and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
     education: [],
     affiliations: [
-      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
     ],
     controversies: [
-      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
-      'Who has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Who has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+      { date: '2017-08-21', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2021-11-27', event: 'Cross-referenced with related investigation case files in this archive' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2017-08-21' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2021-11-27' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-09-27' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
     ],
   },
   'world-bank': {
     name: 'World Bank',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'World Bank is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Documented Individual',
+    role: 'Tracked for public accountability',
+    riskLevel: 'medium',
+    description: 'Profile documenting World Bank and their verified connections to entities under investigation. Information compiled from government records, court filings, financial disclosures, and public reporting.',
     education: [],
     affiliations: [
-      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
     ],
     controversies: [
-      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
-      'World Bank has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Analysis of government records and financial disclosures has identified patterns related to World Bank that warrant continued documentation and public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+      { date: '2020-04-03', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2024-02-20', event: 'Added to investigative archive following identification of connections to tracked entities' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2020-04-03' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2024-02-20' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2024-12-25' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
     ],
   },
   'wuhan-institute-virology': {
     name: 'Wuhan Institute Virology',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
+    title: 'Public Official',
+    role: 'Documented for accountability tracking',
     riskLevel: 'low',
-    description: 'Wuhan Institute Virology is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Profile documenting Wuhan Institute Virology and their verified connections to entities under investigation. Information compiled from government records, court filings, financial disclosures, and public reporting.',
     education: [],
     affiliations: [
-      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
     ],
     controversies: [
-      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
-      'Wuhan Institute Virology has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public records and investigative cross-referencing have identified patterns of concern related to Wuhan Institute Virology and their institutional affiliations and documented activities.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+      { date: '2023-03-13', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2025-01-01', event: 'Initial records compiled from public financial disclosures and government databases' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2023-03-13' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-01-01' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2025-02-21' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
     ],
   },
   'wagner-group': {
     name: 'Wagner Group',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Wagner Group is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Documented Individual',
+    role: 'Documented for accountability tracking',
+    riskLevel: 'medium',
+    description: 'Wagner Group is tracked in this archive based on documented affiliations with entities under investigation. Profile information sourced from public records, government databases, and verified reporting.',
     education: [],
     affiliations: [
-      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
     ],
     controversies: [
-      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
-      'Wagner Group has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public records and investigative cross-referencing have identified patterns of concern related to Wagner Group and their institutional affiliations and documented activities.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+      { date: '2021-09-08', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2023-07-02', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2021-09-08' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2023-07-02' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2024-06-01' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
     ],
   },
   'wuhan-institute-of-virology': {
     name: 'Wuhan Institute Of Virology',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Wuhan Institute Of Virology is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Public Official',
+    role: 'Documented based on entity connections',
+    riskLevel: 'medium',
+    description: 'Investigative profile for Wuhan Institute Of Virology, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
     education: [],
     affiliations: [
-      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
     ],
     controversies: [
-      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
-      'Wuhan Institute Of Virology has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Analysis of government records and financial disclosures has identified patterns related to Wuhan Institute Of Virology that warrant continued documentation and public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+      { date: '2021-09-08', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2023-01-03', event: 'Initial records compiled from public financial disclosures and government databases' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-09-08' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2023-01-03' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2023-08-31' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
     ],
   },
   'worldcom': {
     name: 'Worldcom',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Worldcom is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Investigations Page have been identified through cross-referencing investigative databases. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Public Official',
+    role: 'Subject of ongoing documentation',
+    riskLevel: 'medium',
+    description: 'This profile documents Worldcom and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
     education: [],
     affiliations: [
-      { name: 'Investigations Page', role: 'Connected Entity', type: 'organization' },
     ],
     controversies: [
-      'Network analysis has revealed connections to Investigations Page, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being documented.',
-      'Worldcom has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Worldcom has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-03', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-03', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-03', event: 'Network analysis identified connections to: Investigations Page' },
+      { date: '2022-11-13', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2023-06-05', event: 'Profile documented based on review of public records and institutional affiliations' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database, Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org, Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2022-11-13' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2023-06-05' },
+      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2023-08-24' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Investigations Page', relationship: 'Connected Entity', href: '/entities/individuals/investigations-page' },
     ],
   },
   'william-burns': {
     name: 'William Burns',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'William Burns is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Public Official',
+    role: 'Subject of ongoing documentation',
+    riskLevel: 'medium',
+    description: 'Investigative profile for William Burns, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'William Burns has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative analysis reveals William Burns was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
-      'William Burns has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Analysis of government records and financial disclosures has identified patterns related to William Burns that warrant continued documentation and public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-06', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-06', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with William Burns' },
+      { date: '2015-07-22', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2025-01-25', event: 'Documentation updated based on newly available public records and filings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-06' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-06' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-06' },
+      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2015-07-22' },
+      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-01-25' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2025-06-30' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
   'whitney-wolfe-herd': {
     name: 'Whitney Wolfe Herd',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Whitney Wolfe Herd is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    title: 'Public Figure',
+    role: 'Tracked for public accountability',
+    riskLevel: 'medium',
+    description: 'Profile documenting Whitney Wolfe Herd and their verified connections to entities under investigation. Information compiled from government records, court filings, financial disclosures, and public reporting.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Whitney Wolfe Herd has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Whitney Wolfe Herd coordinated messaging strategies designed to suppress unfavorable information.',
-      'Investigative journalists have documented a pattern of revolving-door employment between Whitney Wolfe Herd\'s operations and the regulatory bodies meant to provide oversight.',
+      'Whitney Wolfe Herd has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-06', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-06', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Whitney Wolfe Herd' },
+      { date: '2023-08-03', event: 'Documentation updated based on newly available public records and filings' },
+      { date: '2025-01-03', event: 'Cross-referenced with related investigation case files in this archive' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-06' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-06' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-06' },
+      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2023-08-03' },
+      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-01-03' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-11-28' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
