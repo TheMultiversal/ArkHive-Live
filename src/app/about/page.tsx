@@ -4,10 +4,10 @@ import { Skull, Target, Eye, FileText, Users, Lock, ArrowRight, Database, Shield
 
 export const metadata: Metadata = {
  title:"About ArkHive, The Accountability Archive",
- description:"826 investigations. 2,621 tracked entities. 3,073 mapped connections. ArkHive is the largest open-source investigative accountability platform on the internet.",
+ description:"826 investigations. 2,619 tracked entities. 3,145 mapped connections. ArkHive is the largest open-source investigative accountability platform on the internet.",
  openGraph: {
  title:"About ArkHive, The Accountability Archive",
- description:"826 investigations. 2,621 tracked entities. 3,073 mapped connections. ArkHive is the largest open-source investigative accountability platform on the internet.",
+ description:"826 investigations. 2,619 tracked entities. 3,145 mapped connections. ArkHive is the largest open-source investigative accountability platform on the internet.",
  },
 };
 
@@ -26,7 +26,7 @@ export default function AboutPage() {
  </h1>
  <p className="text-lg text-zinc-400 max-w-2xl mx-auto mb-8">
  The largest open-source investigative accountability platform on the internet.
- 826 investigations. 2,621 tracked entities. 3,073 mapped connections. Zero corporate sponsors. Zero government approval.
+ 826 investigations. 2,619 tracked entities. 3,145 mapped connections. Zero corporate sponsors. Zero government approval.
  </p>
  {/* Live Stats Bar */}
  <div className="flex flex-wrap justify-center gap-4 text-xs font-mono">
@@ -35,7 +35,7 @@ export default function AboutPage() {
  <span className="text-zinc-500">Investigations</span>
  </div>
  <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900/40 bg-black/50">
- <span className="text-blood-500 font-bold">2,116</span>
+ <span className="text-blood-500 font-bold">2,114</span>
  <span className="text-zinc-500">Individuals Tracked</span>
  </div>
  <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900/40 bg-black/50">
@@ -96,7 +96,7 @@ export default function AboutPage() {
  <div className="w-2 bg-blood-700 shrink-0"/>
  <div>
  <h3 className="font-bold text-white mb-1">Connection Mapping</h3>
- <p className="text-zinc-500 text-sm">Reveal how power operates through networks. A single investigation is a story. 826 investigations cross-referenced with 2,621 entities across 3,073 mapped connections is a map of systemic corruption.</p>
+ <p className="text-zinc-500 text-sm">Reveal how power operates through networks. A single investigation is a story. 826 investigations cross-referenced with 2,619 entities across 3,145 mapped connections is a map of systemic corruption.</p>
  </div>
  </div>
  <div className="flex gap-4 p-4 border border-zinc-800 bg-zinc-900/30">
@@ -165,7 +165,7 @@ export default function AboutPage() {
  <div className="space-y-4">
  {[
  { num:"01", title:"INTELLIGENCE GATHERING", desc:"Investigations are built from publicly available records: court filings, congressional testimony, FOIA releases, declassified documents, inspector general reports, and award-winning investigative journalism. Every source is cited." },
- { num:"02", title:"ENTITY IDENTIFICATION", desc:"Every person, agency, corporation, and organization connected to an investigation is identified and catalogued. We track 2,116 individuals, 141 government agencies, 209 corporations, and 155 organizations." },
+ { num:"02", title:"ENTITY IDENTIFICATION", desc:"Every person, agency, corporation, and organization connected to an investigation is identified and catalogued. We track 2,114 individuals, 141 government agencies, 209 corporations, and 155 organizations." },
  { num:"03", title:"CROSS-REFERENCING", desc:"Entities are linked across investigations. When the same corporation appears in a 1990s environmental crime and a 2020s financial fraud, that connection is mapped. Patterns emerge that no single investigation reveals." },
  { num:"04", title:"SEVERITY CLASSIFICATION", desc:"Every investigation is rated by severity: Critical (ongoing serious harm), High (significant documented damage), Medium (systemic issues), or Low (historical documentation). This helps prioritize what demands attention." },
  { num:"05", title:"PERMANENT ARCHIVAL", desc:"Published investigations become part of the permanent archive. They are updated when new information emerges&mdash;court rulings, new documents, additional entities identified&mdash;but never deleted." },
@@ -195,7 +195,7 @@ export default function AboutPage() {
  <Link href="/entities/individuals" className="p-5 border border-blood-900/50 bg-blood-950/20 hover:bg-blood-950/40 transition-colors group">
  <div className="flex items-center justify-between mb-2">
  <h4 className="text-blood-600 font-bold uppercase tracking-wider">Individuals</h4>
- <span className="text-blood-500 font-mono text-sm font-bold">2,116</span>
+ <span className="text-blood-500 font-mono text-sm font-bold">2,114</span>
  </div>
  <p className="text-zinc-500 text-sm mb-2">Presidents, executives, intelligence directors, judges, lobbyists&mdash;the people who made the decisions, signed the orders, and took the money.</p>
  <span className="text-blood-700 text-xs font-medium flex items-center gap-1 group-hover:text-blood-500 transition-colors">
