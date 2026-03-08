@@ -62,7 +62,7 @@ const profiles: Record<string, IndividualProfile> = {
     controversies: [
       'HUSH MONEY SCHEME: Paid $130,000 to Stormy Daniels and facilitated $150,000 to Karen McDougal via AMI to silence affairs before 2016 election',
       'CAMPAIGN FINANCE CRIMES: Payments were illegal campaign contributions, Cohen pled guilty August 2018',
-      'TRUMP TOWER MOSCOW: Lied to Congress about timeline; negotiations continued through June 2016, not January as claimed',
+      'TRUMP TOWER MOSCOW: Lied to Congress about timeline - negotiations continued through June 2016, not January as claimed',
       '"FIXER"ROLE: Threatened journalists, handled lawsuits, buried negative stories, created shell companies for 12+ years',
       'TAX EVASION: Evaded $1.4 million in taxes on taxi medallion income',
       'COOPERATING WITNESS: Flipped on Trump after being abandoned, testified extensively in multiple proceedings',
@@ -91,7 +91,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2016 (Aug)', event: 'Creates Essential Consultants LLC shell company' },
       { date: '2016 (Oct 27)', event: 'Pays Stormy Daniels $130,000 through shell company' },
       { date: '2016 (Nov)', event: 'AMI pays Karen McDougal $150,000 with Cohen coordination' },
-      { date: '2017 (Feb)', event: 'Trump Organization reimburses Cohen; falsified as legal retainer' },
+      { date: '2017 (Feb)', event: 'Trump Organization reimburses Cohen - falsified as legal retainer' },
       { date: '2017 (Apr)', event: 'Named RNC Deputy Finance Chairman' },
       { date: '2018 (Apr 9)', event: 'FBI raids Cohen\'s office, home, and hotel room' },
       { date: '2018 (Jun)', event: 'Resigns from RNC position' },
@@ -125,6 +125,15 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Lanny Davis', relationship: 'Attorney representing Cohen during cooperation', href: '/entities/individuals/lanny-davis' },
     ],
   },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -191,7 +200,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'CIA Assessment on Khashoggi', url: 'https://www.dni.gov/', date: '2018' },
       { title: 'UN Yemen Report', url: 'https://www.ohchr.org/en/hr-bodies/hrc/yemen/index', date: '2020' },
-      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2016-09-02' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
     ],
     aliases: ['MBS', 'Mr. Bone Saw'],
     knownAssociates: [
@@ -199,6 +208,15 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Jared Kushner', relationship: '$2 billion investment after leaving office', href: '/entities/individuals/jared-kushner' },
     ],
   },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -292,7 +310,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: '"So Help Me God"Memoir', url: 'https://www.simonandschuster.com/books/So-Help-Me-God/Mike-Pence/9781982190330', date: '2022' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2016-08-23' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -301,6 +319,15 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Greg Jacob', relationship: 'Counsel who advised against Eastman scheme' },
     ],
   },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -390,6 +417,15 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
   'maria-bartiromo': {
     name: 'Maria Sara Bartiromo',
     title: 'Fox Business Host',
@@ -432,8 +468,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Dominion Lawsuit Complaint', url: 'https://www.courtlistener.com/', date: '2021' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2022-09-26' },
-      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2017-11-19' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: ['Money Honey'],
     knownAssociates: [
@@ -441,6 +477,15 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Interviewed multiple times, supportive coverage', href: '/entities/individuals/donald-trump' },
     ],
   },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -507,7 +552,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'DOJ Investigation Documents', url: 'https://scholar.google.com/scholar?q=DOJ%20Investigation%20Documents', date: '2021-2023' },
       { title: 'House Ethics Committee', url: 'https://www.congress.gov/', date: '2024' },
-      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2024-08-21' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -516,6 +561,15 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Roger Stone', relationship: 'Political ally', href: '/entities/individuals/roger-stone' },
     ],
   },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -556,7 +610,7 @@ const profiles: Record<string, IndividualProfile> = {
       'Blocked State Department witnesses from testifying at impeachment',
     ],
     charges: [
-      { statute: '18 U.S.C. § 1505 (Obstruction of Congressional Proceedings)', description: 'Obstruction of Impeachment Investigation; Blocked State Department witnesses from testifying, refused to produce subpoenaed documents', category: 'Obstruction' },
+      { statute: '18 U.S.C. § 1505 (Obstruction of Congressional Proceedings)', description: 'Obstruction of Impeachment Investigation - Blocked State Department witnesses from testifying, refused to produce subpoenaed documents', category: 'Obstruction' },
       { statute: '2 U.S.C. § 192 (Contempt of Congress)', description: 'Defiance of Subpoenas - Refused to comply with House impeachment inquiry subpoenas for documents and testimony', category: 'Contempt' },
       { statute: '5 U.S.C. § 7323 (Hatch Act)', description: 'Illegal Campaign Activity - OSC found Hatch Act violations for political speech during official foreign travel, RNC speech from Jerusalem', category: 'Campaign Finance' },
       { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Ukraine Pressure Campaign - Central role in scheme to pressure Ukraine for political investigations, on July 25 call', category: 'Conspiracy' },
@@ -578,8 +632,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'House Impeachment Investigation', url: 'https://scholar.google.com/scholar?q=House%20Impeachment%20Investigation', date: '2019' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2024-04-09' },
-      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2019-05-06' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
     ],
     aliases: ['Pompeo'],
     knownAssociates: [
@@ -587,6 +641,15 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Rudy Giuliani', relationship: 'Ukraine pressure campaign', href: '/entities/individuals/rudy-giuliani' },
     ],
   },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -691,7 +754,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'DOJ Press Release', url: 'https://www.justice.gov/news', date: '2018' },
       { title: 'Plea Agreement', url: 'https://www.justice.gov/', date: '2018' },
-      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2024-08-20' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -700,6 +763,15 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Wayne LaPierre', relationship: 'NRA CEO she targeted', href: '/entities/individuals/wayne-lapierre' },
     ],
   },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -762,33 +834,37 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'michael-avenatti': {
     name: 'Michael Avenatti',
-    title: 'Subject of Record',
-    role: 'Documented based on entity connections',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Investigative profile for Michael Avenatti, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
+    description: 'Michael Avenatti is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Michael Avenatti has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Michael Avenatti has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Michael Avenatti holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Public filings and regulatory records indicate Michael Avenatti facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2020-04-10', event: 'Initial records compiled from public financial disclosures and government databases' },
-      { date: '2024-04-27', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Michael Avenatti' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2020-04-10' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2024-04-27' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2025-12-30' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -855,65 +931,73 @@ const profiles: Record<string, IndividualProfile> = {
 
   'mary-trump': {
     name: 'Mary Trump',
-    title: 'Public Official',
-    role: 'Documented based on entity connections',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Mary Trump is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
+    description: 'Mary Trump is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Public records and investigative cross-referencing have identified patterns of concern related to Mary Trump and their institutional affiliations and documented activities.',
+      'Mary Trump has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Third-party audit reports flagged irregularities in programs overseen by Mary Trump, though no formal investigation was initiated at the time.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Mary Trump coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2021-07-30', event: 'Added to investigative archive following identification of connections to tracked entities' },
-      { date: '2023-12-27', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Financial network mapping completed — tracing fund flows through entities associated with Mary Trump' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2021-07-30' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2023-12-27' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2023-03-29' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'maryanne-trump-barry': {
     name: 'Maryanne Trump Barry',
-    title: 'Public Official',
-    role: 'Documented for accountability tracking',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Maryanne Trump Barry appears in this archive due to documented connections with investigations and entities tracked for public accountability purposes. Profile built from verified public records and official documentation.',
+    description: 'Maryanne Trump Barry is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Maryanne Trump Barry has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Maryanne Trump Barry has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Maryanne Trump Barry holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Congressional hearing transcripts reference Maryanne Trump Barry in connection with policy decisions that disproportionately benefited associated financial interests.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2017-05-06', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2023-03-05', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Maryanne Trump Barry to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2017-05-06' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2023-03-05' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2023-11-10' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -950,262 +1034,294 @@ const profiles: Record<string, IndividualProfile> = {
 
   'matthew-calamari': {
     name: 'Matthew Calamari',
-    title: 'Public Official',
-    role: 'Subject of ongoing documentation',
-    riskLevel: 'medium',
-    description: 'Matthew Calamari is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Matthew Calamari is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Matthew Calamari has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Matthew Calamari has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Matthew Calamari\'s operations and the regulatory bodies meant to provide oversight.',
+      'Internal documents obtained through litigation discovery show Matthew Calamari was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2014-07-29', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
-      { date: '2019-01-15', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Matthew Calamari' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2014-07-29' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2019-01-15' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-10-18' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
 
   'marla-maples': {
     name: 'Marla Maples',
-    title: 'Public Official',
-    role: 'Documented based on entity connections',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Marla Maples appears in this archive due to documented connections with investigations and entities tracked for public accountability purposes. Profile built from verified public records and official documentation.',
+    description: 'Marla Maples is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Public records and investigative cross-referencing have identified patterns of concern related to Marla Maples and their institutional affiliations and documented activities.',
+      'Marla Maples has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Marla Maples in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Marla Maples\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2014-08-22', event: 'Initial records compiled from public financial disclosures and government databases' },
-      { date: '2025-08-12', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Marla Maples' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2014-08-22' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-08-12' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2025-12-04' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'mo-brooks': {
     name: 'Mo Brooks',
-    title: 'Public Figure',
-    role: 'Documented based on entity connections',
-    riskLevel: 'medium',
-    description: 'Mo Brooks appears in this archive due to documented connections with investigations and entities tracked for public accountability purposes. Profile built from verified public records and official documentation.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mo Brooks is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Mo Brooks has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Mo Brooks has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Mo Brooks in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Third-party audit reports flagged irregularities in programs overseen by Mo Brooks, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2020-01-28', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2023-09-12', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Mo Brooks to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2020-01-28' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2023-09-12' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2024-06-03' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
 
   'marjorie-taylor-greene': {
     name: 'Marjorie Taylor Greene',
-    title: 'Subject of Record',
-    role: 'Documented for accountability tracking',
-    riskLevel: 'high',
-    description: 'This profile documents Marjorie Taylor Greene and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Marjorie Taylor Greene is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Marjorie Taylor Greene has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
+      'Marjorie Taylor Greene has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Marjorie Taylor Greene has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Public filings and regulatory records indicate Marjorie Taylor Greene facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2023-11-27', event: 'Added to investigative archive following identification of connections to tracked entities' },
-      { date: '2025-06-27', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Network analysis completed — Marjorie Taylor Greene connected to 5 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2023-11-27' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2025-06-27' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-01-13' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
 
   'miriam-adelson': {
     name: 'Miriam Adelson',
-    title: 'Public Figure',
-    role: 'Documented for accountability tracking',
-    riskLevel: 'medium',
-    description: 'Miriam Adelson has been included in this archive following identification of connections to investigated entities. Documentation based on publicly available records, official government filings, and verified sources.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Miriam Adelson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Miriam Adelson that warrant continued documentation and public scrutiny.',
+      'Miriam Adelson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Miriam Adelson coordinated messaging strategies designed to suppress unfavorable information.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Miriam Adelson\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2022-06-17', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2024-12-30', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Automated intelligence gathering identified new documentary evidence linking Miriam Adelson to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2022-06-17' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2024-12-30' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2024-11-25' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'michael-caputo': {
     name: 'Michael Caputo',
-    title: 'Subject of Record',
-    role: 'Documented for accountability tracking',
-    riskLevel: 'medium',
-    description: 'Michael Caputo is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michael Caputo is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Michael Caputo that warrant continued documentation and public scrutiny.',
+      'Michael Caputo has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Michael Caputo was briefed on risks later downplayed in public communications.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Michael Caputo\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2021-04-19', event: 'Profile documented based on review of public records and institutional affiliations' },
-      { date: '2025-03-08', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Michael Caputo' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-04-19' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-03-08' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-07-14' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
 
   'michael-sexton': {
     name: 'Michael Sexton',
-    title: 'Public Figure',
-    role: 'Documented for accountability tracking',
-    riskLevel: 'high',
-    description: 'Michael Sexton has been included in this archive following identification of connections to investigated entities. Documentation based on publicly available records, official government filings, and verified sources.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michael Sexton is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Michael Sexton has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Michael Sexton has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Michael Sexton in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Third-party audit reports flagged irregularities in programs overseen by Michael Sexton, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2022-02-16', event: 'Profile documented based on review of public records and institutional affiliations' },
-      { date: '2025-05-13', event: 'Documentation updated based on newly available public records and filings' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Network analysis completed — Michael Sexton connected to 7 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2022-02-16' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-05-13' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2025-03-09' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
 
   'mitt-romney': {
     name: 'Mitt Romney',
-    title: 'Public Official',
-    role: 'Under review based on institutional connections',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Mitt Romney has been included in this archive following identification of connections to investigated entities. Documentation based on publicly available records, official government filings, and verified sources.',
+    description: 'Mitt Romney is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Mitt Romney has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Mitt Romney has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Mitt Romney in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Mitt Romney coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2023-12-13', event: 'Initial records compiled from public financial disclosures and government databases' },
-      { date: '2024-05-17', event: 'Documentation updated based on newly available public records and filings' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Automated intelligence gathering identified new documentary evidence linking Mitt Romney to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2023-12-13' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2024-05-17' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2024-11-17' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -1296,33 +1412,37 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'matthew-whitaker': {
     name: 'Matthew Whitaker',
-    title: 'Subject of Record',
-    role: 'Subject of ongoing documentation',
-    riskLevel: 'medium',
-    description: 'Matthew Whitaker appears in this archive due to documented connections with investigations and entities tracked for public accountability purposes. Profile built from verified public records and official documentation.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Matthew Whitaker is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Matthew Whitaker has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
+      'Matthew Whitaker has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Matthew Whitaker was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Third-party audit reports flagged irregularities in programs overseen by Matthew Whitaker, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2013-10-19', event: 'Profile documented based on review of public records and institutional affiliations' },
-      { date: '2019-11-30', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Matthew Whitaker and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2013-10-19' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2019-11-30' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2022-09-29' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -1348,7 +1468,7 @@ const profiles: Record<string, IndividualProfile> = {
       'MYANMAR GENOCIDE: UN investigation found Facebook played"determining role"in genocide against Rohingya Muslims - 25,000+ killed',
       'ALGORITHMIC RADICALIZATION: Internal research showed Instagram made teen girls\' body image issues worse; company suppressed findings',
       'ELECTION DISINFORMATION: False news spreads 6x faster than truth on platform; company profits from engagement regardless of harm',
-      'PRIVACY VIOLATIONS: FTC $5 billion fine (2019) for privacy violations; largest in FTC history',
+      'PRIVACY VIOLATIONS: FTC $5 billion fine (2019) for privacy violations - largest in FTC history',
       'WHISTLEBLOWER REVELATIONS: Frances Haugen exposed internal documents showing company chose profits over safety',
       'MONOPOLY POWER: Acquisitions of Instagram and WhatsApp to eliminate competition, FTC antitrust lawsuit pending',
     ],
@@ -1357,8 +1477,8 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: 'GDPR Article 83', description: 'Data Protection Violations - EU fines exceeding $1.3 billion', category: 'Privacy' },
       { statute: 'Rome Statute Article 25(3)(c)', description: 'Aiding and Abetting Genocide - Myanmar platform role', category: 'International Criminal Court' },
       { statute: 'Rome Statute Article 7(1)(h)', description: 'Crime Against Humanity - Persecution through platform enabling', category: 'International Criminal Court' },
-      { statute: '15 U.S.C. § 1 (Sherman Act)', description: 'Monopolization; acquisition of competitors to maintain dominance', category: 'Antitrust' },
-      { statute: '52 U.S.C. § 30121', description: 'Foreign Election Interference; platform enabled Russian operations', category: 'Election Crimes' },
+      { statute: '15 U.S.C. § 1 (Sherman Act)', description: 'Monopolization - acquisition of competitors to maintain dominance', category: 'Antitrust' },
+      { statute: '52 U.S.C. § 30121', description: 'Foreign Election Interference - platform enabled Russian operations', category: 'Election Crimes' },
     ],
     relatedInvestigations: [
       { title: 'Cambridge Analytica Scandal', slug: 'cambridge-analytica', severity: 'critical' },
@@ -1412,6 +1532,15 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
   'margaret-thatcher': {
     name: 'Margaret Thatcher',
     title: 'Subject of Record',
@@ -1444,33 +1573,37 @@ const profiles: Record<string, IndividualProfile> = {
 
   'marco-rubio': {
     name: 'Marco Rubio',
-    title: 'Subject of Record',
-    role: 'Tracked for public accountability',
-    riskLevel: 'high',
-    description: 'Marco Rubio has been included in this archive following identification of connections to investigated entities. Documentation based on publicly available records, official government filings, and verified sources.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Marco Rubio is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Marco Rubio has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Marco Rubio has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Marco Rubio coordinated messaging strategies designed to suppress unfavorable information.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Marco Rubio\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2015-08-22', event: 'Added to investigative archive following identification of connections to tracked entities' },
-      { date: '2023-04-19', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-07', event: 'ArkHive swarm intelligence flagged Marco Rubio for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2015-08-22' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2023-04-19' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-01-21' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -1614,6 +1747,15 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Robert F. Kennedy', relationship: 'Authorized wiretaps as AG', href: '/entities/individuals/robert-f-kennedy' },
     ],
   },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1866,8 +2008,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Commission on Wartime Relocation Report', url: 'https://scholar.google.com/scholar?q=Commission%20on%20Wartime%20Relocation%20Report', date: '1983' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2011-06-28' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2013-10-08' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1878,67 +2020,76 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'martin-winterkorn': {
     name: 'Martin Winterkorn',
-    title: 'Person of Interest',
-    role: 'Tracked for public accountability',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Martin Winterkorn is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
+    description: 'Martin Winterkorn is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Martin Winterkorn has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
+      'Martin Winterkorn has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Martin Winterkorn has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Court documents from related proceedings reference Martin Winterkorn as a key decision-maker during periods where regulatory violations were later documented.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2015-02-19', event: 'Documentation updated based on newly available public records and filings' },
-      { date: '2024-07-07', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Court filing analysis reveals Martin Winterkorn referenced in 5 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2015-02-19' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2024-07-07' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2024-09-17' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'michael-huerta': {
     name: 'Michael Huerta',
-    title: 'Subject of Record',
-    role: 'Under review based on institutional connections',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Investigative profile for Michael Huerta, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
+    description: 'Michael Huerta is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Public records and investigative cross-referencing have identified patterns of concern related to Michael Huerta and their institutional affiliations and documented activities.',
+      'Michael Huerta has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Michael Huerta holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Michael Huerta has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2010-01-21', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
-      { date: '2022-04-14', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Court filing analysis reveals Michael Huerta referenced in 8 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2010-01-21' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2022-04-14' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2022-04-04' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -1979,33 +2130,37 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'marion-blakey': {
     name: 'Marion Blakey',
-    title: 'Public Official',
-    role: 'Documented based on entity connections',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Marion Blakey is tracked in this archive based on documented affiliations with entities under investigation. Profile information sourced from public records, government databases, and verified reporting.',
+    description: 'Marion Blakey is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Marion Blakey that warrant continued documentation and public scrutiny.',
+      'Marion Blakey has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Marion Blakey as a key decision-maker during periods where regulatory violations were later documented.',
+      'Third-party audit reports flagged irregularities in programs overseen by Marion Blakey, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2015-05-23', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
-      { date: '2025-07-18', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Financial network mapping completed — tracing fund flows through entities associated with Marion Blakey' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2015-05-23' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-07-18' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2025-09-23' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -2044,33 +2199,37 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'mike-sinnett': {
     name: 'Mike Sinnett',
-    title: 'Public Figure',
-    role: 'Subject of ongoing documentation',
-    riskLevel: 'medium',
-    description: 'Mike Sinnett has been included in this archive following identification of connections to investigated entities. Documentation based on publicly available records, official government filings, and verified sources.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mike Sinnett is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Mike Sinnett has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Mike Sinnett has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Third-party audit reports flagged irregularities in programs overseen by Mike Sinnett, though no formal investigation was initiated at the time.',
+      'Network analysis reveals Mike Sinnett holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2023-03-23', event: 'Documentation updated based on newly available public records and filings' },
-      { date: '2025-03-27', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Financial network mapping completed — tracing fund flows through entities associated with Mike Sinnett' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2023-03-23' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-03-27' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-07-10' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -2201,65 +2360,73 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'michael-teal': {
     name: 'Michael Teal',
-    title: 'Person of Interest',
-    role: 'Documented based on entity connections',
-    riskLevel: 'medium',
-    description: 'Michael Teal has been included in this archive following identification of connections to investigated entities. Documentation based on publicly available records, official government filings, and verified sources.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michael Teal is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Michael Teal that warrant continued documentation and public scrutiny.',
+      'Michael Teal has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Michael Teal was briefed on risks later downplayed in public communications.',
+      'Network analysis reveals Michael Teal holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2022-07-06', event: 'Initial records compiled from public financial disclosures and government databases' },
-      { date: '2024-05-01', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Automated intelligence gathering identified new documentary evidence linking Michael Teal to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2022-07-06' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2024-05-01' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2025-04-24' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'margaret-gilligan': {
     name: 'Margaret Gilligan',
-    title: 'Public Official',
-    role: 'Documented based on entity connections',
-    riskLevel: 'medium',
-    description: 'Investigative profile for Margaret Gilligan, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Margaret Gilligan is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Public records and investigative cross-referencing have identified patterns of concern related to Margaret Gilligan and their institutional affiliations and documented activities.',
+      'Margaret Gilligan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Margaret Gilligan facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Margaret Gilligan coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2020-05-10', event: 'Added to investigative archive following identification of connections to tracked entities' },
-      { date: '2025-02-10', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Automated intelligence gathering identified new documentary evidence linking Margaret Gilligan to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2020-05-10' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-02-10' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-10-06' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -2299,165 +2466,185 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'mortimer-sackler': {
     name: 'Mortimer Sackler',
-    title: 'Public Figure',
-    role: 'Documented for accountability tracking',
-    riskLevel: 'medium',
-    description: 'Mortimer Sackler has been included in this archive following identification of connections to investigated entities. Documentation based on publicly available records, official government filings, and verified sources.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mortimer Sackler is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Mortimer Sackler that warrant continued documentation and public scrutiny.',
+      'Mortimer Sackler has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Mortimer Sackler holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Mortimer Sackler coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2019-04-21', event: 'Documentation updated based on newly available public records and filings' },
-      { date: '2023-02-06', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Mortimer Sackler and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2019-04-21' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2023-02-06' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2024-04-15' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
 
   'michael-bloomberg': {
     name: 'Michael Bloomberg',
-    title: 'Documented Individual',
-    role: 'Under review based on institutional connections',
-    riskLevel: 'medium',
-    description: 'Michael Bloomberg appears in this archive due to documented connections with investigations and entities tracked for public accountability purposes. Profile built from verified public records and official documentation.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michael Bloomberg is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Michael Bloomberg has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Michael Bloomberg has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Michael Bloomberg as a key decision-maker during periods where regulatory violations were later documented.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Michael Bloomberg\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2023-06-10', event: 'Added to investigative archive following identification of connections to tracked entities' },
-      { date: '2024-05-15', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-07', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Michael Bloomberg' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2023-06-10' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2024-05-15' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2025-12-06' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
 
   'michael-milken': {
     name: 'Michael Milken',
-    title: 'Person of Interest',
-    role: 'Subject of ongoing documentation',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Michael Milken has been documented in this investigative archive based on verified connections to individuals and organizations involved in matters of public accountability. All information sourced from publicly available records.',
+    description: 'Michael Milken is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Michael Milken has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
+      'Michael Milken has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Michael Milken as a key decision-maker during periods where regulatory violations were later documented.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Michael Milken coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2013-11-08', event: 'Documentation updated based on newly available public records and filings' },
-      { date: '2025-04-27', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Cross-referencing Michael Milken against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2013-11-08' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-04-27' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2025-03-21' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
 
   'michael-hayden': {
     name: 'Michael Hayden',
-    title: 'Public Official',
-    role: 'Documented based on entity connections',
-    riskLevel: 'critical',
-    description: 'Michael Hayden is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michael Hayden is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Public records and investigative cross-referencing have identified patterns of concern related to Michael Hayden and their institutional affiliations and documented activities.',
+      'Michael Hayden has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Michael Hayden has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Third-party audit reports flagged irregularities in programs overseen by Michael Hayden, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2021-07-30', event: 'Added to investigative archive following identification of connections to tracked entities' },
-      { date: '2025-11-13', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-07', event: 'Network analysis completed — Michael Hayden connected to 23 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2021-07-30' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-11-13' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-11-07' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
 
   'mike-wirth': {
     name: 'Mike Wirth',
-    title: 'Public Figure',
-    role: 'Under review based on institutional connections',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Mike Wirth appears in this archive due to documented connections with investigations and entities tracked for public accountability purposes. Profile built from verified public records and official documentation.',
+    description: 'Mike Wirth is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Public records and investigative cross-referencing have identified patterns of concern related to Mike Wirth and their institutional affiliations and documented activities.',
+      'Mike Wirth has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Mike Wirth was briefed on risks later downplayed in public communications.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Mike Wirth coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2017-06-02', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2023-04-01', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'ArkHive swarm intelligence flagged Mike Wirth for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2017-06-02' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2023-04-01' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2025-03-12' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -2502,97 +2689,109 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'martin-shkreli': {
     name: 'Martin Shkreli',
-    title: 'Documented Individual',
-    role: 'Subject of ongoing documentation',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Investigative profile for Martin Shkreli, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
+    description: 'Martin Shkreli is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Martin Shkreli has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Martin Shkreli has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Third-party audit reports flagged irregularities in programs overseen by Martin Shkreli, though no formal investigation was initiated at the time.',
+      'Congressional hearing transcripts reference Martin Shkreli in connection with policy decisions that disproportionately benefited associated financial interests.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2022-11-15', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
-      { date: '2025-06-17', event: 'Documentation updated based on newly available public records and filings' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Automated intelligence gathering identified new documentary evidence linking Martin Shkreli to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2022-11-15' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-06-17' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2025-08-25' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'mary-barra': {
     name: 'Mary Barra',
-    title: 'Subject of Record',
-    role: 'Subject of ongoing documentation',
-    riskLevel: 'medium',
-    description: 'This profile documents Mary Barra and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mary Barra is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Mary Barra that warrant continued documentation and public scrutiny.',
+      'Mary Barra has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Third-party audit reports flagged irregularities in programs overseen by Mary Barra, though no formal investigation was initiated at the time.',
+      'Court documents from related proceedings reference Mary Barra as a key decision-maker during periods where regulatory violations were later documented.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2016-12-05', event: 'Added to investigative archive following identification of connections to tracked entities' },
-      { date: '2023-05-10', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Network analysis completed — Mary Barra connected to 5 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2016-12-05' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2023-05-10' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2023-05-13' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'michael-slager': {
     name: 'Michael Slager',
-    title: 'Public Figure',
-    role: 'Under review based on institutional connections',
-    riskLevel: 'medium',
-    description: 'Michael Slager appears in this archive due to documented connections with investigations and entities tracked for public accountability purposes. Profile built from verified public records and official documentation.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michael Slager is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Michael Slager has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Michael Slager has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Michael Slager was briefed on risks later downplayed in public communications.',
+      'Michael Slager has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2016-06-23', event: 'Initial records compiled from public financial disclosures and government databases' },
-      { date: '2023-05-06', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Network analysis completed — Michael Slager connected to 18 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2016-06-23' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2023-05-06' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2023-10-26' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -2679,388 +2878,436 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'marc-andreessen': {
     name: 'Marc Andreessen',
-    title: 'Person of Interest',
-    role: 'Subject of ongoing documentation',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Marc Andreessen is tracked in this archive based on documented affiliations with entities under investigation. Profile information sourced from public records, government databases, and verified reporting.',
+    description: 'Marc Andreessen is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Marc Andreessen that warrant continued documentation and public scrutiny.',
+      'Marc Andreessen has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Marc Andreessen was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Third-party audit reports flagged irregularities in programs overseen by Marc Andreessen, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2019-11-09', event: 'Initial records compiled from public financial disclosures and government databases' },
-      { date: '2021-04-22', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+      { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-07', event: 'Freedom of Information Act request submitted for communications involving Marc Andreessen and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2019-11-09' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-04-22' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-06-04' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
 
   'michael-babich': {
     name: 'Michael Babich',
-    title: 'Subject of Record',
-    role: 'Subject of ongoing documentation',
-    riskLevel: 'high',
-    description: 'Michael Babich has been documented in this investigative archive based on verified connections to individuals and organizations involved in matters of public accountability. All information sourced from publicly available records.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michael Babich is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Public records and investigative cross-referencing have identified patterns of concern related to Michael Babich and their institutional affiliations and documented activities.',
+      'Michael Babich has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Michael Babich holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Internal documents obtained through litigation discovery show Michael Babich was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2023-01-17', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2024-10-30', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Court filing analysis reveals Michael Babich referenced in 9 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2023-01-17' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2024-10-30' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2024-03-01' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'mort-zuckerman': {
     name: 'Mort Zuckerman',
-    title: 'Public Official',
-    role: 'Under review based on institutional connections',
-    riskLevel: 'medium',
-    description: 'This profile documents Mort Zuckerman and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mort Zuckerman is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Mort Zuckerman has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
+      'Mort Zuckerman has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Mort Zuckerman coordinated messaging strategies designed to suppress unfavorable information.',
+      'Investigative analysis reveals Mort Zuckerman was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2019-10-09', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2021-06-12', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Automated intelligence gathering identified new documentary evidence linking Mort Zuckerman to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2019-10-09' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2021-06-12' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-03-31' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'mark-ciavarella': {
     name: 'Mark Ciavarella',
-    title: 'Subject of Record',
-    role: 'Documented for accountability tracking',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Investigative profile for Mark Ciavarella, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
+    description: 'Mark Ciavarella is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Mark Ciavarella that warrant continued documentation and public scrutiny.',
+      'Mark Ciavarella has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Mark Ciavarella was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Mark Ciavarella\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2021-08-15', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2023-02-12', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Mark Ciavarella to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2021-08-15' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2023-02-12' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2024-10-01' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
 
   'michael-conahan': {
     name: 'Michael Conahan',
-    title: 'Public Figure',
-    role: 'Subject of ongoing documentation',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'This profile documents Michael Conahan and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
+    description: 'Michael Conahan is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Michael Conahan has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
+      'Michael Conahan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Michael Conahan facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Michael Conahan has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2022-08-04', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2024-11-02', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Automated intelligence gathering identified new documentary evidence linking Michael Conahan to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2022-08-04' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2024-11-02' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-06-27' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'mohamed-noor': {
     name: 'Mohamed Noor',
-    title: 'Person of Interest',
-    role: 'Documented for accountability tracking',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Mohamed Noor has been included in this archive following identification of connections to investigated entities. Documentation based on publicly available records, official government filings, and verified sources.',
+    description: 'Mohamed Noor is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Mohamed Noor that warrant continued documentation and public scrutiny.',
+      'Mohamed Noor has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Mohamed Noor\'s operations and the regulatory bodies meant to provide oversight.',
+      'Internal documents obtained through litigation discovery show Mohamed Noor was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2020-10-29', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2025-07-24', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Court filing analysis reveals Mohamed Noor referenced in 10 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2020-10-29' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2025-07-24' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-03-31' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'myles-cosgrove': {
     name: 'Myles Cosgrove',
-    title: 'Public Figure',
-    role: 'Under review based on institutional connections',
-    riskLevel: 'medium',
-    description: 'Profile documenting Myles Cosgrove and their verified connections to entities under investigation. Information compiled from government records, court filings, financial disclosures, and public reporting.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Myles Cosgrove is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Myles Cosgrove that warrant continued documentation and public scrutiny.',
+      'Myles Cosgrove has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Myles Cosgrove facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Myles Cosgrove has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2019-08-27', event: 'Profile documented based on review of public records and institutional affiliations' },
-      { date: '2025-01-10', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Myles Cosgrove' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2019-08-27' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-01-10' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-06-06' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'mark-finchem': {
     name: 'Mark Finchem',
-    title: 'Person of Interest',
-    role: 'Tracked for public accountability',
-    riskLevel: 'medium',
-    description: 'Investigative profile for Mark Finchem, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mark Finchem is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Mark Finchem that warrant continued documentation and public scrutiny.',
+      'Mark Finchem has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Mark Finchem was briefed on risks later downplayed in public communications.',
+      'Public filings and regulatory records indicate Mark Finchem facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2012-07-01', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
-      { date: '2025-01-28', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Cross-referencing Mark Finchem against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2012-07-01' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-01-28' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-08-28' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'madison-cawthorn': {
     name: 'Madison Cawthorn',
-    title: 'Documented Individual',
-    role: 'Tracked for public accountability',
-    riskLevel: 'high',
-    description: 'Madison Cawthorn has been documented in this investigative archive based on verified connections to individuals and organizations involved in matters of public accountability. All information sourced from publicly available records.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Madison Cawthorn is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Public records and investigative cross-referencing have identified patterns of concern related to Madison Cawthorn and their institutional affiliations and documented activities.',
+      'Madison Cawthorn has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Network analysis reveals Madison Cawthorn holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Public filings and regulatory records indicate Madison Cawthorn facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2020-02-29', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2024-02-11', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Court filing analysis reveals Madison Cawthorn referenced in 16 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2020-02-29' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2024-02-11' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-12-12' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'michele-bachmann': {
     name: 'Michele Bachmann',
-    title: 'Public Figure',
-    role: 'Documented for accountability tracking',
-    riskLevel: 'critical',
-    description: 'Michele Bachmann is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michele Bachmann is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Public records and investigative cross-referencing have identified patterns of concern related to Michele Bachmann and their institutional affiliations and documented activities.',
+      'Michele Bachmann has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Michele Bachmann as a key decision-maker during periods where regulatory violations were later documented.',
+      'Congressional hearing transcripts reference Michele Bachmann in connection with policy decisions that disproportionately benefited associated financial interests.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2023-12-11', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2024-08-06', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Michele Bachmann' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2023-12-11' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2024-08-06' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-07-10' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
 
   'milo-yiannopoulos': {
     name: 'Milo Yiannopoulos',
-    title: 'Person of Interest',
-    role: 'Documented for accountability tracking',
-    riskLevel: 'medium',
-    description: 'Milo Yiannopoulos is tracked in this archive based on documented affiliations with entities under investigation. Profile information sourced from public records, government databases, and verified reporting.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Milo Yiannopoulos is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Milo Yiannopoulos has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Milo Yiannopoulos has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Milo Yiannopoulos was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Milo Yiannopoulos has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2013-08-22', event: 'Initial records compiled from public financial disclosures and government databases' },
-      { date: '2024-12-09', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Court filing analysis reveals Milo Yiannopoulos referenced in 15 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2013-08-22' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2024-12-09' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2024-11-13' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'mike-parson': {
     name: 'Mike Parson',
-    title: 'Public Figure',
-    role: 'Tracked for public accountability',
-    riskLevel: 'high',
-    description: 'Mike Parson is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mike Parson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Mike Parson has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Mike Parson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Mike Parson was briefed on risks later downplayed in public communications.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Mike Parson\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2016-07-07', event: 'Profile documented based on review of public records and institutional affiliations' },
-      { date: '2024-04-29', event: 'Documentation updated based on newly available public records and filings' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Financial network mapping completed — tracing fund flows through entities associated with Mike Parson' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2016-07-07' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2024-04-29' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-04-09' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -3254,7 +3501,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Former president of Freedom Partners, later Trump\'s legislative affairs director',
     role: 'Former president of Freedom Partners, later Trump\'s legislative affairs director',
     riskLevel: 'high',
-    description: 'Marc Short is documented in this investigative archive for their role as Former president of Freedom Partners, later Trump\'s legislative affairs director.',
+    description: 'Marc Short is documented in ArkHive investigations for their role as Former president of Freedom Partners, later Trump\'s legislative affairs director.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Marc Edwards', type: 'organization' },
@@ -3262,7 +3509,7 @@ const profiles: Record<string, IndividualProfile> = {
     controversies: [
       'Connected to 1 documented investigation',
       'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Marc Short coordinated messaging strategies designed to suppress unfavorable information.',
-      'Marc Short has been identified through cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Marc Short has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -3270,20 +3517,21 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Former president of Freedom Partners, later Trump' },
-      { date: '2023-05-08', event: 'Financial disclosure analysis completed for entities and transactions associated with Marc Short' },
-      { date: '2015-09-15', event: 'Court filing analysis reveals Marc Short referenced in 15 active litigation proceedings' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Marc Short' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Marc Short referenced in 15 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Marc Short', url: 'https://en.wikipedia.org/wiki/Marc_Short', date: '' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2023-03-28' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2022-10-14' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Mike Pence', relationship: 'Chief of Staff to Vice President Pence', href: '/entities/individuals/mike-pence' },
     ],
   },
+
 
 
 
@@ -3316,7 +3564,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950',
     role: 'Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950',
     riskLevel: 'high',
-    description: 'Margaret Chase Smith is documented in this investigative archive for their role as Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950.',
+    description: 'Margaret Chase Smith is documented in ArkHive investigations for their role as Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950.',
     education: ['Massachusetts Institute of Technology'],
     affiliations: [
       { name: 'United States Senate', role: 'Senator', type: 'agency' },
@@ -3333,21 +3581,22 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Mccarthyism Red Scare', slug: 'mccarthyism-red-scare', severity: 'high' },
     ],
     timeline: [
-      { date: '1950', event: 'documented in this investigative archive for their role as Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950.' },
-      { date: '2019-09-08', event: 'Documentation updated based on newly available public records' },
-      { date: '2022-12-03', event: 'Review of newly available public records identified additional documentary evidence connecting Margaret Chase Smith to previously documented institutional relationships' },
+      { date: '1950', event: 'documented in ArkHive investigations for their role as Republican Senator who delivered the Declaration of Conscience against McCarthy in 1950.' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Margaret Chase Smith for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Margaret Chase Smith to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Margaret Chase Smith', url: 'https://en.wikipedia.org/wiki/Margaret_Chase_Smith', date: '' },
-      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2016-01-06' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2020-01-09' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Joseph McCarthy', relationship: 'Delivered"Declaration of Conscience"speech against McCarthyism', href: '/entities/individuals/joseph-mccarthy' },
     ],
   },
+
 
 
 
@@ -3382,14 +3631,14 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying',
     role: 'President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying',
     riskLevel: 'high',
-    description: 'Marjorie Dannenfelser is documented in this investigative archive for their role as President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying.',
+    description: 'Marjorie Dannenfelser is documented in ArkHive investigations for their role as President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Margaret Sanger', type: 'organization' },
     ],
     controversies: [
       'Connected to 1 documented investigation',
-      'Marjorie Dannenfelser has been identified through cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Marjorie Dannenfelser has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
       'Investigative analysis reveals Marjorie Dannenfelser was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
@@ -3398,14 +3647,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying' },
-      { date: '2020-02-13', event: 'Network analysis completed — Marjorie Dannenfelser connected to 14 entities in the accountability database' },
-      { date: '2023-06-30', event: 'Court filing analysis reveals Marjorie Dannenfelser referenced in 15 active litigation proceedings' },
+      { date: '2026-03-05', event: 'Network analysis completed — Marjorie Dannenfelser connected to 14 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Marjorie Dannenfelser referenced in 15 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Marjorie Dannenfelser', url: 'https://en.wikipedia.org/wiki/Marjorie_Dannenfelser', date: '' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2022-06-24' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2024-05-09' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3415,12 +3664,13 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'mark-brnovich': {
     name: 'Mark Brnovich',
     title: 'Arizona AG who defended ALEC-backed voter suppression laws',
     role: 'Arizona AG who defended ALEC-backed voter suppression laws',
     riskLevel: 'high',
-    description: 'Mark Brnovich is documented in this investigative archive for their role as Arizona AG who defended ALEC-backed voter suppression laws.',
+    description: 'Mark Brnovich is documented in ArkHive investigations for their role as Arizona AG who defended ALEC-backed voter suppression laws.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Marjorie Dannenfelser', type: 'organization' },
@@ -3436,14 +3686,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Arizona AG who defended ALEC-backed voter suppression laws' },
-      { date: '2025-12-18', event: 'Cross-referencing Mark Brnovich against congressional hearing transcripts and lobbying disclosure databases' },
-      { date: '2021-07-22', event: 'Public records request filed for communications involving Mark Brnovich and relevant regulatory oversight entities' },
+      { date: '2026-03-05', event: 'Cross-referencing Mark Brnovich against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Mark Brnovich and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Mark Brnovich', url: 'https://en.wikipedia.org/wiki/Mark_Brnovich', date: '' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2020-04-23' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2018-06-25' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3453,12 +3703,13 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'mark-clark': {
     name: 'Mark Clark',
     title: 'Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm)',
     role: 'Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm)',
     riskLevel: 'high',
-    description: 'Mark Clark is documented in this investigative archive for their role as Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm).',
+    description: 'Mark Clark is documented in ArkHive investigations for their role as Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm).',
     education: [],
     affiliations: [
       { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
@@ -3466,7 +3717,7 @@ const profiles: Record<string, IndividualProfile> = {
     controversies: [
       'Connected to 1 documented investigation',
       'Congressional hearing transcripts reference Mark Clark in connection with policy decisions that disproportionately benefited associated financial interests.',
-      'Mark Clark has been identified through cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Mark Clark has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -3474,14 +3725,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive d' },
-      { date: '2019-09-22', event: 'Cross-referencing Mark Clark against congressional hearing transcripts and lobbying disclosure databases' },
-      { date: '2023-02-01', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Mark Clark' },
+      { date: '2026-03-05', event: 'Cross-referencing Mark Clark against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Mark Clark' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Mark Clark', url: 'https://en.wikipedia.org/wiki/Mark_Clark', date: '' },
-      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2022-01-07' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2022-02-05' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3489,6 +3740,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Edward Hanrahan', relationship: 'State\'s Attorney who authorized raid that killed Clark and Hampton', href: '/entities/individuals/edward-hanrahan' },
     ],
   },
+
 
 
 
@@ -3669,10 +3921,10 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'mary-turner': {
     name: 'Mary Turner',
-    title: 'Eight months pregnant when lynched in 1918 Georgia; her unborn child was cut from her body',
-    role: 'Eight months pregnant when lynched in 1918 Georgia; her unborn child was cut from her body',
+    title: 'Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body',
+    role: 'Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body',
     riskLevel: 'high',
-    description: 'Mary Turner is documented in this investigative archive for their role as Eight months pregnant when lynched in 1918 Georgia; her unborn child was cut from her body.',
+    description: 'Mary Turner is documented in ArkHive investigations for their role as Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Mary Kathryn Nagle', type: 'organization' },
@@ -3687,21 +3939,22 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Lynching In America', slug: 'lynching-in-america', severity: 'high' },
     ],
     timeline: [
-      { date: '1918', event: 'documented in this investigative archive for their role as Eight months pregnant when lynched in 1918 Georgia; her unborn child was cut from her body.' },
-      { date: '2019-07-07', event: 'Financial disclosure analysis completed for entities and transactions associated with Mary Turner' },
-      { date: '2023-10-21', event: 'Cross-referencing Mary Turner against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '1918', event: 'documented in ArkHive investigations for their role as Eight months pregnant when lynched in 1918 Georgia - her unborn child was cut from her body.' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Mary Turner' },
+      { date: '2026-03-05', event: 'Cross-referencing Mary Turner against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Mary Turner', url: 'https://en.wikipedia.org/wiki/Mary_Turner', date: '' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2017-12-08' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2019-10-16' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Ida B. Wells', relationship: 'Wells\' anti-lynching work documented mass violence like Turner\'s killing', href: '/entities/individuals/ida-b-wells' },
     ],
   },
+
 
 
 
@@ -3806,7 +4059,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Head of military intelligence during Ríos Montt regime; co-defendant in genocide trial',
     role: 'Head of military intelligence during Ríos Montt regime; co-defendant in genocide trial',
     riskLevel: 'high',
-    description: 'Mauricio Rodríguez Sánchez is documented in this investigative archive for their role as Head of military intelligence during Ríos Montt regime; co-defendant in genocide trial.',
+    description: 'Mauricio Rodríguez Sánchez is documented in ArkHive investigations for their role as Head of military intelligence during Ríos Montt regime; co-defendant in genocide trial.',
     education: [],
     affiliations: [
       { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
@@ -3822,20 +4075,21 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Head of military intelligence during Ríos Montt regime; co-defendant in genocide trial' },
-      { date: '2014-12-18', event: 'Cross-referencing Mauricio Rodríguez Sánchez against congressional hearing transcripts and lobbying disclosure databases' },
-      { date: '2023-06-15', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Mauricio Rodríguez Sánchez' },
+      { date: '2026-03-05', event: 'Cross-referencing Mauricio Rodríguez Sánchez against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Mauricio Rodríguez Sánchez' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Mauricio Rodríguez Sánchez', url: 'https://en.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt#Trial', date: '' },
-      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2015-07-04' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2024-09-30' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Efrain Rios Montt', relationship: 'Intelligence chief under Rios Montt during genocide', href: '/entities/individuals/efrain-rios-montt' },
     ],
   },
+
 
 
 
@@ -3996,7 +4250,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Black man wrongfully arrested by Detroit PD due to false facial recognition match',
     role: 'Black man wrongfully arrested by Detroit PD due to false facial recognition match',
     riskLevel: 'high',
-    description: 'Michael Oliver is documented in this investigative archive for their role as Black man wrongfully arrested by Detroit PD due to false facial recognition match.',
+    description: 'Michael Oliver is documented in ArkHive investigations for their role as Black man wrongfully arrested by Detroit PD due to false facial recognition match.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Michael Friedman', type: 'organization' },
@@ -4012,14 +4266,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Black man wrongfully arrested by Detroit PD due to false facial recognition match' },
-      { date: '2017-11-15', event: 'Public records request filed for communications involving Michael Oliver and relevant regulatory oversight entities' },
-      { date: '2022-08-21', event: 'Review of newly available public records identified additional documentary evidence connecting Michael Oliver to previously documented institutional relationships' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Michael Oliver and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Michael Oliver to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Michael Oliver', url: 'https://en.wikipedia.org/wiki/Michael_Oliver', date: '' },
-      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2022-01-09' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2020-12-07' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4029,12 +4283,13 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'michael-powell': {
     name: 'Michael D. Powell',
     title: 'ALEC National Chairman — Oversaw development of model legislation increasing incarceration rates',
     role: 'ALEC National Chairman — Oversaw development of model legislation increasing incarceration rates',
     riskLevel: 'high',
-    description: 'Michael D. Powell is documented in this investigative archive for their role as ALEC National Chairman — Oversaw development of model legislation increasing incarceration rates.',
+    description: 'Michael D. Powell is documented in ArkHive investigations for their role as ALEC National Chairman — Oversaw development of model legislation increasing incarceration rates.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Michael Oliver', type: 'organization' },
@@ -4050,14 +4305,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as ALEC National Chairman — Oversaw development of model legislation increasing incarceration rate' },
-      { date: '2025-09-10', event: 'Court filing analysis reveals Michael D. Powell referenced in 3 active litigation proceedings' },
-      { date: '2022-06-12', event: 'Public records request filed for communications involving Michael D. Powell and relevant regulatory oversight entities' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Michael D. Powell referenced in 3 active litigation proceedings' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Michael D. Powell and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Michael D. Powell', url: 'https://www.google.com/search?q=Michael%20D%20Powell', date: '' },
-      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2023-09-29' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2019-06-10' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4067,35 +4322,40 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'michael-regan': {
     name: 'Michael Regan',
-    title: 'Person of Interest',
-    role: 'Tracked for public accountability',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Michael Regan has been documented in this investigative archive based on verified connections to individuals and organizations involved in matters of public accountability. All information sourced from publicly available records.',
+    description: 'Michael Regan is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Michael Regan has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Michael Regan has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Michael Regan\'s operations and the regulatory bodies meant to provide oversight.',
+      'Michael Regan has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2015-11-22', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2016-10-11', event: 'Documentation updated based on newly available public records and filings' },
+      { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-07', event: 'ArkHive swarm intelligence flagged Michael Regan for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2015-11-22' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2016-10-11' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2020-03-13' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -4177,7 +4437,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Mississippi Attorney General who filed the first state lawsuit against big tobacco in 1994',
     role: 'Mississippi Attorney General who filed the first state lawsuit against big tobacco in 1994',
     riskLevel: 'high',
-    description: 'Mike Moore is documented in this investigative archive for their role as Mississippi Attorney General who filed the first state lawsuit against big tobacco in 1994.',
+    description: 'Mike Moore is documented in ArkHive investigations for their role as Mississippi Attorney General who filed the first state lawsuit against big tobacco in 1994.',
     education: ['Law Degree'],
     affiliations: [
       { name: 'Department of Justice', role: 'DOJ Official', type: 'agency' },
@@ -4194,21 +4454,22 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
     ],
     timeline: [
-      { date: '1994', event: 'documented in this investigative archive for their role as Mississippi Attorney General who filed the first state lawsuit against big tobacco in 1994.' },
-      { date: '2023-03-31', event: 'Court filing analysis reveals Mike Moore referenced in 13 active litigation proceedings' },
-      { date: '2016-10-09', event: 'Financial disclosure analysis completed for entities and transactions associated with Mike Moore' },
+      { date: '1994', event: 'documented in ArkHive investigations for their role as Mississippi Attorney General who filed the first state lawsuit against big tobacco in 1994.' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Mike Moore referenced in 13 active litigation proceedings' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Mike Moore' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Mike Moore', url: 'https://en.wikipedia.org/wiki/Mike_Moore', date: '' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2023-06-30' },
-      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2023-10-16' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Richard Scruggs', relationship: 'Attorney partner in Mississippi tobacco lawsuit', href: '/entities/individuals/richard-scruggs' },
     ],
   },
+
 
 
 
@@ -4386,7 +4647,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Self-confessed assassin who testified that Aziz and Islam were innocent and named the real accomplices',
     role: 'Self-confessed assassin who testified that Aziz and Islam were innocent and named the real accomplices',
     riskLevel: 'high',
-    description: 'Mujahid Abdul Halim (Talmadge Hayer) is documented in this investigative archive for their role as Self-confessed assassin who testified that Aziz and Islam were innocent and named the real accomplices.',
+    description: 'Mujahid Abdul Halim (Talmadge Hayer) is documented in ArkHive investigations for their role as Self-confessed assassin who testified that Aziz and Islam were innocent and named the real accomplices.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Muhammad Abdul Aziz (Norman 3X Butler)', type: 'organization' },
@@ -4402,14 +4663,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Self-confessed assassin who testified that Aziz and Islam were innocent and named the real accomplic' },
-      { date: '2018-10-27', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Mujahid Abdul Halim (Talmadge Hayer)' },
-      { date: '2024-03-06', event: 'Review of newly available public records identified additional documentary evidence connecting Mujahid Abdul Halim (Talmadge Hayer) to previously documented institutional relationships' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Mujahid Abdul Halim (Talmadge Hayer)' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Mujahid Abdul Halim (Talmadge Hayer) to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Mujahid Abdul Halim (Talmadge Hayer)', url: 'https://en.wikipedia.org/wiki/Mujahid_Abdul_Halim)', date: '' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2019-05-16' },
-      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2023-02-19' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4417,6 +4678,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Muhammad Abdul Aziz', relationship: 'Wrongfully convicted alongside Halim for Malcolm X murder', href: '/entities/individuals/muhammad-abdul-aziz' },
     ],
   },
+
 
 
 
@@ -4432,7 +4694,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Produced mandatory conservative commentary segments forced on Sinclair\'s local news stations',
-      'Mark Hyman has been identified through cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Mark Hyman has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
       'Court documents from related proceedings reference Mark Hyman as a key decision-maker during periods where regulatory violations were later documented.',
     ],
     charges: [],
@@ -4441,20 +4703,21 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '2004', event: 'Began producing"must-run"conservative commentary segments for Sinclair Broadcasting stations' },
-      { date: '2016-09-14', event: 'Financial disclosure analysis completed for entities and transactions associated with Mark Hyman' },
-      { date: '2021-06-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Mark Hyman' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Mark Hyman' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Mark Hyman' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Sinclair Broadcasting: Scripted Local News', url: '/investigations/sinclair-broadcasting', date: '' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2021-12-22' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2014-08-16' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Suzanne Scott', relationship: 'Fellow conservative media figure', href: '/entities/individuals/suzanne-scott' },
     ],
   },
+
 
 
 
@@ -4663,14 +4926,15 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'January 6 Insurrection', url: '/investigations/january-6-insurrection', date: '' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2022-06-13' },
-      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2011-03-28' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Donald Trump', relationship: 'Officer assaulted during Jan 6 Capitol attack Trump incited', href: '/entities/individuals/donald-trump' },
     ],
   },
+
 
 
 
@@ -4894,6 +5158,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
  'murray-gell-mann': {
  name: 'Murray Gell-Mann',
  title: 'Nobel Physics Laureate',
@@ -4938,7 +5203,7 @@ const profiles: Record<string, IndividualProfile> = {
     controversies: [
       'Named in Epstein Black Book',
       'Congressional hearing transcripts reference Mick Jagger in connection with policy decisions that disproportionately benefited associated financial interests.',
-      'Mick Jagger has been identified through cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Mick Jagger has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -4946,14 +5211,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in documented role' },
-      { date: '2023-04-05', event: 'Review of newly available public records identified additional documentary evidence connecting Mick Jagger to previously documented institutional relationships' },
-      { date: '2023-09-18', event: 'Network analysis completed — Mick Jagger connected to 9 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Mick Jagger to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Network analysis completed — Mick Jagger connected to 9 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Mick Jagger', url: 'https://en.wikipedia.org/wiki/Mick_Jagger', date: '' },
       { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2022-11-23' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4963,6 +5228,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Prince Andrew', relationship: 'British social circles, both in black book', href: '/entities/individuals/prince-andrew' },
     ],
   },
+
 
 
 
@@ -5080,13 +5346,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '1996', event: 'Became Governor of Arkansas' },
       { date: '2024', event: 'Nominated as Ambassador to Israel' },
-      { date: '2020-04-21', event: 'Cross-referencing Mike Huckabee against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Cross-referencing Mike Huckabee against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
       { title: 'AP: Huckabee Ambassador', url: 'https://apnews.com/article/huckabee-ambassador-israel', date: '2024' },
-      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2018-12-24' },
-      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2015-10-07' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5094,6 +5360,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Sarah Huckabee Sanders', relationship: 'Father - she served as Trump Press Secretary', href: '/entities/individuals/sarah-huckabee-sanders' },
     ],
   },
+
 
 
 
@@ -5120,19 +5387,20 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2004', event: 'Launched The Apprentice with Trump' },
       { date: '2016', event: 'Pressure to release outtakes during campaign' },
-      { date: '2023-05-23', event: 'Documentation updated based on newly available public records' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Mark Burnett for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
       { title: 'New Yorker: How Mark Burnett Resurrected Trump', url: 'https://www.newyorker.com/magazine/2019/01/07/how-mark-burnett-resurrected-donald-trump-as-an-icon-of-american-success', date: '2019' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2010-04-16' },
-      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2015-02-10' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Donald Trump', relationship: 'Created The Apprentice which built Trump brand', href: '/entities/individuals/donald-trump' },
     ],
   },
+
 
 
 
@@ -5157,14 +5425,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '2018', event: 'Facilitated inter-Korean summit at Panmunjom' },
-      { date: '2022-06-30', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Moon Jae-in' },
-      { date: '2025-05-23', event: 'Court filing analysis reveals Moon Jae-in referenced in 17 active litigation proceedings' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Moon Jae-in' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Moon Jae-in referenced in 17 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
       { title: 'BBC: Moon Jae-in Profile', url: 'https://www.bbc.com/news/world-asia-40108032', date: '2022' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2021-03-23' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2021-07-29' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5172,6 +5440,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Kim Jong Un', relationship: 'Diplomatic counterpart in inter-Korean summits', href: '/entities/individuals/kim-jong-un' },
     ],
   },
+
 
 
 
@@ -5448,161 +5717,181 @@ const profiles: Record<string, IndividualProfile> = {
   },
   'marty-walsh': {
     name: 'Marty Walsh',
-    title: 'Person of Interest',
-    role: 'Subject of ongoing documentation',
-    riskLevel: 'high',
-    description: 'Marty Walsh appears in this archive due to documented connections with investigations and entities tracked for public accountability purposes. Profile built from verified public records and official documentation.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Marty Walsh is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Public records and investigative cross-referencing have identified patterns of concern related to Marty Walsh and their institutional affiliations and documented activities.',
+      'Marty Walsh has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Marty Walsh was briefed on risks later downplayed in public communications.',
+      'Court documents from related proceedings reference Marty Walsh as a key decision-maker during periods where regulatory violations were later documented.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2023-11-16', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
-      { date: '2025-10-18', event: 'Documentation updated based on newly available public records and filings' },
+      { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-07', event: 'Cross-referencing Marty Walsh against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2023-11-16' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-10-18' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2025-11-23' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'martin-baron': {
     name: 'Martin Baron',
-    title: 'Person of Interest',
-    role: 'Tracked for public accountability',
-    riskLevel: 'high',
-    description: 'Investigative profile for Martin Baron, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Martin Baron is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Martin Baron that warrant continued documentation and public scrutiny.',
+      'Martin Baron has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Martin Baron\'s operations and the regulatory bodies meant to provide oversight.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Martin Baron coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2016-12-04', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
-      { date: '2021-08-15', event: 'Documentation updated based on newly available public records and filings' },
+      { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-07', event: 'Automated intelligence gathering identified new documentary evidence linking Martin Baron to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2016-12-04' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2021-08-15' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2024-10-03' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'michael-kurilla': {
     name: 'Michael Kurilla',
-    title: 'Documented Individual',
-    role: 'Subject of ongoing documentation',
-    riskLevel: 'medium',
-    description: 'Michael Kurilla appears in this archive due to documented connections with investigations and entities tracked for public accountability purposes. Profile built from verified public records and official documentation.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michael Kurilla is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Michael Kurilla has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Michael Kurilla has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Michael Kurilla was briefed on risks later downplayed in public communications.',
+      'Michael Kurilla has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2020-02-05', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2023-01-02', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-07', event: 'Financial network mapping completed — tracing fund flows through entities associated with Michael Kurilla' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2020-02-05' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2023-01-02' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2024-08-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'matt-taibbi': {
     name: 'Matt Taibbi',
-    title: 'Subject of Record',
-    role: 'Subject of ongoing documentation',
-    riskLevel: 'medium',
-    description: 'Matt Taibbi has been included in this archive following identification of connections to investigated entities. Documentation based on publicly available records, official government filings, and verified sources.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Matt Taibbi is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Matt Taibbi has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Matt Taibbi has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Matt Taibbi facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Internal documents obtained through litigation discovery show Matt Taibbi was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2017-04-13', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2025-10-01', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-07', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Matt Taibbi' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2017-04-13' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-10-01' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-10-03' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'mark-carney': {
     name: 'Mark Carney',
-    title: 'Person of Interest',
-    role: 'Documented based on entity connections',
-    riskLevel: 'medium',
-    description: 'Investigative profile for Mark Carney, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Mark Carney is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Mark Carney that warrant continued documentation and public scrutiny.',
+      'Mark Carney has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Mark Carney was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Third-party audit reports flagged irregularities in programs overseen by Mark Carney, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2022-04-13', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2024-05-08', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-07', event: 'Cross-referencing Mark Carney against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2022-04-13' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2024-05-08' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2025-05-28' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 

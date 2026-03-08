@@ -3492,7 +3492,3399 @@
       ],
       "mood": "loved",
       "pid": 3908
+    },
+    "DAEMON-36716": {
+      "nodeId": "DAEMON-36716",
+      "nodeType": "daemon",
+      "status": "online",
+      "currentTask": null,
+      "completedTasks": 1353,
+      "failedTasks": 0,
+      "lastHeartbeat": 1772872719958,
+      "thoughts": [
+        {
+          "thought": "Worker W15 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772872719537
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772872719365
+        },
+        {
+          "thought": "Cycle 17: rescanning for new work",
+          "timestamp": 1772872710096
+        },
+        {
+          "thought": "Worker W14 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772872531138
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772872530339
+        },
+        {
+          "thought": "Cycle 16: rescanning for new work",
+          "timestamp": 1772872523289
+        },
+        {
+          "thought": "Worker W13 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772872395572
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772872395163
+        },
+        {
+          "thought": "Cycle 15: rescanning for new work",
+          "timestamp": 1772872388152
+        },
+        {
+          "thought": "Worker W12 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772872273998
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772872273984
+        },
+        {
+          "thought": "Cycle 14: rescanning for new work",
+          "timestamp": 1772872266351
+        },
+        {
+          "thought": "Worker W11 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772872181662
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772872181658
+        },
+        {
+          "thought": "Cycle 13: rescanning for new work",
+          "timestamp": 1772872175621
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772872132882
+        },
+        {
+          "thought": "Cycle 12: rescanning for new work",
+          "timestamp": 1772872128470
+        },
+        {
+          "thought": "Worker W10 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772872082997
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772872082974
+        },
+        {
+          "thought": "Cycle 11: rescanning for new work",
+          "timestamp": 1772872078544
+        }
+      ],
+      "discoveries": [
+        {
+          "slug": "domestic-worker-visa-abuse-networks",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772872719829
+        },
+        {
+          "slug": "classification-system-reform-failures",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772872719761
+        },
+        {
+          "slug": "construction-worker-trafficking-schemes",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772872719715
+        },
+        {
+          "slug": "drug-supply-chain-vulnerability-analysis",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772872719617
+        },
+        {
+          "slug": "voting-machine-certification-failures",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772872719571
+        },
+        {
+          "slug": "trafficking-victim-identification-failures",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772872701610
+        },
+        {
+          "slug": "hotel-industry-trafficking-complicity-report",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772872701500
+        },
+        {
+          "slug": "drug-recall-delay-responsibility",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772872700902
+        },
+        {
+          "slug": "gambling-industry-criminal-enterprise",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772872700506
+        },
+        {
+          "slug": "union-pension-fund-fraud-schemes",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772872698473
+        },
+        {
+          "slug": "george-w-cable",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872698241
+        },
+        {
+          "slug": "gul-rahman",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872698104
+        },
+        {
+          "slug": "guillermo-garcia-sal",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872698048
+        },
+        {
+          "slug": "guillermo-endara",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872697901
+        },
+        {
+          "slug": "gregore-sambor",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872697875
+        },
+        {
+          "slug": "gonzalo-curiel",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872697672
+        },
+        {
+          "slug": "giuseppe-santovito",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872697642
+        },
+        {
+          "slug": "gerry-spence",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872697467
+        },
+        {
+          "slug": "gerald-kennedy",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872697141
+        },
+        {
+          "slug": "gerald-chatham",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872696739
+        },
+        {
+          "slug": "george-stinney-jr",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872696428
+        },
+        {
+          "slug": "george-shultz",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872696318
+        },
+        {
+          "slug": "george-romney",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872696026
+        },
+        {
+          "slug": "geoffrey-supran",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872695715
+        },
+        {
+          "slug": "glenn-youngkin",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872695471
+        },
+        {
+          "slug": "gary-cohn",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872695203
+        },
+        {
+          "slug": "greg-gutfeld",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872695168
+        },
+        {
+          "slug": "george-santos",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872695129
+        },
+        {
+          "slug": "gregory-travis",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872695031
+        },
+        {
+          "slug": "greg-smith-boeing",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772872691199
+        },
+        {
+          "slug": "astrazeneca-plc",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772872685690
+        },
+        {
+          "slug": "moderna-inc",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772872682155
+        },
+        {
+          "slug": "jerome-powell",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772872678490
+        },
+        {
+          "slug": "federal-aviation-administration",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772872675831
+        },
+        {
+          "slug": "jb-pritzker",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772872670515
+        },
+        {
+          "slug": "marco-rubio",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772872667526
+        },
+        {
+          "slug": "chris-boerner",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772872662349
+        },
+        {
+          "slug": "food-and-drug-administration",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772872659137
+        },
+        {
+          "slug": "bae-systems",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772872650425
+        },
+        {
+          "slug": "brian-roberts",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772872646991
+        },
+        {
+          "slug": "andy-jassy",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772872644107
+        },
+        {
+          "slug": "financial-stability-board",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772872640783
+        },
+        {
+          "slug": "dean-baquet",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772872637640
+        },
+        {
+          "slug": "openai-inc",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772872634462
+        },
+        {
+          "slug": "national-geospatial-intelligence-agency",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772872630943
+        },
+        {
+          "slug": "james-gorman",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772872628522
+        },
+        {
+          "slug": "antonio-guterres",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772872624228
+        },
+        {
+          "slug": "tesla-inc",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772872621908
+        },
+        {
+          "slug": "charles-schwab",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772872617582
+        },
+        {
+          "slug": "jamie-dimon",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772872616001
+        }
+      ],
+      "mood": "loved",
+      "pid": 36716
+    },
+    "DAEMON-32368": {
+      "nodeId": "DAEMON-32368",
+      "nodeType": "daemon",
+      "status": "online",
+      "currentTask": null,
+      "completedTasks": 274,
+      "failedTasks": 0,
+      "lastHeartbeat": 1772874140107,
+      "thoughts": [
+        {
+          "thought": "Worker W9 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772873677793
+        },
+        {
+          "thought": "Worker W8 spawned. 5 workers active. Hive memory shared.",
+          "timestamp": 1772873677790
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772873677778
+        },
+        {
+          "thought": "Cycle 3: rescanning for new work",
+          "timestamp": 1772873647878
+        },
+        {
+          "thought": "Worker W7 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772873431280
+        },
+        {
+          "thought": "Worker W3 resting after 80 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772873429255
+        },
+        {
+          "thought": "Cycle 2: rescanning for new work",
+          "timestamp": 1772873232726
+        },
+        {
+          "thought": "Swarm engine started with 6 workers and 200 queued tasks",
+          "timestamp": 1772872791918
+        },
+        {
+          "thought": "Worker W6 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772872791914
+        },
+        {
+          "thought": "Worker W5 spawned. 5 workers active. Hive memory shared.",
+          "timestamp": 1772872791882
+        },
+        {
+          "thought": "Worker W4 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772872791880
+        },
+        {
+          "thought": "Worker W3 spawned. 3 workers active. Hive memory shared.",
+          "timestamp": 1772872791785
+        },
+        {
+          "thought": "Worker W2 spawned. 2 workers active. Hive memory shared.",
+          "timestamp": 1772872791782
+        },
+        {
+          "thought": "Worker W1 spawned. 1 workers active. Hive memory shared.",
+          "timestamp": 1772872791692
+        }
+      ],
+      "discoveries": [
+        {
+          "slug": "alex-gorsky",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873891626
+        },
+        {
+          "slug": "alex-mashinsky",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873891618
+        },
+        {
+          "slug": "amber-guyger",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873891484
+        },
+        {
+          "slug": "alexander-lukashenko",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873891475
+        },
+        {
+          "slug": "amdye-ayalew",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873891463
+        },
+        {
+          "slug": "alan-joyce",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873891457
+        },
+        {
+          "slug": "adam-smith",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873891394
+        },
+        {
+          "slug": "anne-milgram",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873891387
+        },
+        {
+          "slug": "amy-berman-jackson",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873891382
+        },
+        {
+          "slug": "anatoli-samochornov",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873891371
+        },
+        {
+          "slug": "arthur-engoron",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873890659
+        },
+        {
+          "slug": "alina-habba",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873890652
+        },
+        {
+          "slug": "digital-advertising-surveillance-pipeline",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772873890584
+        },
+        {
+          "slug": "foia-request-denial-patterns",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772873890577
+        },
+        {
+          "slug": "information-environment-manipulation-tactics",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772873890565
+        },
+        {
+          "slug": "trafficking-victim-identification-failures",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772873890556
+        },
+        {
+          "slug": "payroll-tax-fraud-industry-analysis",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772873889303
+        },
+        {
+          "slug": "aj-delgado",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873889293
+        },
+        {
+          "slug": "andy-biggs",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873889286
+        },
+        {
+          "slug": "workplace-monitoring-technology-growth",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772873889274
+        },
+        {
+          "slug": "superfund-site-cleanup-delay-patterns",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772873889267
+        },
+        {
+          "slug": "port-city-trafficking-hub-analysis",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772873889260
+        },
+        {
+          "slug": "aileen-cannon",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873888840
+        },
+        {
+          "slug": "anthony-scaramucci",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772873885557
+        },
+        {
+          "slug": "stephen-schwarzman",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873884295
+        },
+        {
+          "slug": "christopher-wray",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873882487
+        },
+        {
+          "slug": "peter-daszak",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873879685
+        },
+        {
+          "slug": "sheryl-sandberg",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873878426
+        },
+        {
+          "slug": "jeff-zucker",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873874576
+        },
+        {
+          "slug": "vas-narasimhan",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873872121
+        },
+        {
+          "slug": "xavier-becerra",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873869463
+        },
+        {
+          "slug": "mark-carney",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873868222
+        },
+        {
+          "slug": "demis-hassabis",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873867078
+        },
+        {
+          "slug": "glenn-youngkin",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873864616
+        },
+        {
+          "slug": "daniel-ek",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873856645
+        },
+        {
+          "slug": "bob-iger",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873845324
+        },
+        {
+          "slug": "office-of-the-director-of-national-intelligence",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772873843394
+        },
+        {
+          "slug": "susan-wojcicki",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873840822
+        },
+        {
+          "slug": "carl-icahn",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873832585
+        },
+        {
+          "slug": "international-crisis-group",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772873828656
+        },
+        {
+          "slug": "electronic-frontier-foundation",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772873823777
+        },
+        {
+          "slug": "chuck-grassley",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873814631
+        },
+        {
+          "slug": "rockefeller-foundation",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772873803976
+        },
+        {
+          "slug": "lachlan-murdoch",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873786815
+        },
+        {
+          "slug": "human-rights-watch",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772873785166
+        },
+        {
+          "slug": "food-and-drug-administration",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772873781420
+        },
+        {
+          "slug": "marty-walsh",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873774473
+        },
+        {
+          "slug": "palantir-technologies",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772873765051
+        },
+        {
+          "slug": "berkshire-hathaway",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772873756313
+        },
+        {
+          "slug": "martin-baron",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772873748390
+        }
+      ],
+      "mood": "loved",
+      "pid": 32368
+    },
+    "DAEMON-27464": {
+      "nodeId": "DAEMON-27464",
+      "nodeType": "daemon",
+      "status": "online",
+      "currentTask": null,
+      "completedTasks": 226,
+      "failedTasks": 0,
+      "lastHeartbeat": 1772875306448,
+      "thoughts": [
+        {
+          "thought": "Worker W11 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772874772363
+        },
+        {
+          "thought": "Worker W8 resting after 11 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772874769750
+        },
+        {
+          "thought": "Worker W10 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772874528309
+        },
+        {
+          "thought": "Worker W9 spawned. 5 workers active. Hive memory shared.",
+          "timestamp": 1772874528307
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772874528303
+        },
+        {
+          "thought": "Cycle 2: rescanning for new work",
+          "timestamp": 1772874521938
+        },
+        {
+          "thought": "Worker W8 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772874510381
+        },
+        {
+          "thought": "Worker W7 spawned. 3 workers active. Hive memory shared.",
+          "timestamp": 1772874510378
+        },
+        {
+          "thought": "Worker W2 resting after 0 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772874507984
+        },
+        {
+          "thought": "Worker W3 resting after 0 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772874507966
+        },
+        {
+          "thought": "Swarm engine started with 6 workers and 153 queued tasks",
+          "timestamp": 1772874324975
+        },
+        {
+          "thought": "Worker W6 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772874324972
+        },
+        {
+          "thought": "Worker W5 spawned. 5 workers active. Hive memory shared.",
+          "timestamp": 1772874324963
+        },
+        {
+          "thought": "Worker W4 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772874324958
+        },
+        {
+          "thought": "Worker W3 spawned. 3 workers active. Hive memory shared.",
+          "timestamp": 1772874324955
+        },
+        {
+          "thought": "Worker W2 spawned. 2 workers active. Hive memory shared.",
+          "timestamp": 1772874324950
+        },
+        {
+          "thought": "Worker W1 spawned. 1 workers active. Hive memory shared.",
+          "timestamp": 1772874324943
+        }
+      ],
+      "discoveries": [
+        {
+          "slug": "compounding-pharmacy-contamination",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772874897631
+        },
+        {
+          "slug": "ahmed-nur-mohammod",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874771276
+        },
+        {
+          "slug": "amber-guyger",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874770358
+        },
+        {
+          "slug": "alexander-lukashenko",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874770129
+        },
+        {
+          "slug": "andy-jassy",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874770119
+        },
+        {
+          "slug": "alan-joyce",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874770110
+        },
+        {
+          "slug": "anne-milgram",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874769874
+        },
+        {
+          "slug": "alex-gorsky",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874769783
+        },
+        {
+          "slug": "alex-mashinsky",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874769759
+        },
+        {
+          "slug": "andy-biggs",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874769696
+        },
+        {
+          "slug": "anatoli-samochornov",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874768969
+        },
+        {
+          "slug": "arthur-engoron",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874768576
+        },
+        {
+          "slug": "consumer-financial-protection-bureau",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772874768565
+        },
+        {
+          "slug": "nuclear-waste-storage-failure-points",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772874768550
+        },
+        {
+          "slug": "union-pension-fund-fraud-schemes",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772874768543
+        },
+        {
+          "slug": "inspector-general-independence-threats",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772874768506
+        },
+        {
+          "slug": "air-quality-monitoring-gaps-analysis",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772874768292
+        },
+        {
+          "slug": "pharmaceutical-sales-rep-corruption",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772874768269
+        },
+        {
+          "slug": "structured-finance-fraud-networks",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772874768251
+        },
+        {
+          "slug": "long-haul-trucking-route-exploitation",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772874765712
+        },
+        {
+          "slug": "alina-habba",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874765668
+        },
+        {
+          "slug": "aileen-cannon",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874764892
+        },
+        {
+          "slug": "anthony-scaramucci",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772874758610
+        },
+        {
+          "slug": "bureau-of-alcohol-tobacco-firearms-and-explosives",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772874740749
+        },
+        {
+          "slug": "ted-cruz",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874735332
+        },
+        {
+          "slug": "michael-hayden",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874730655
+        },
+        {
+          "slug": "glenn-youngkin",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874723985
+        },
+        {
+          "slug": "federalist-society",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772874717289
+        },
+        {
+          "slug": "monsanto-company",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772874709274
+        },
+        {
+          "slug": "william-burns",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874701510
+        },
+        {
+          "slug": "blackrock-inc",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772874698817
+        },
+        {
+          "slug": "bobby-kotick",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874685343
+        },
+        {
+          "slug": "kathleen-hicks",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874678285
+        },
+        {
+          "slug": "dario-amodei",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874674648
+        },
+        {
+          "slug": "palmer-luckey",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874670311
+        },
+        {
+          "slug": "james-gorman",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874661026
+        },
+        {
+          "slug": "stanley-mcchrystal",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874652871
+        },
+        {
+          "slug": "albert-bourla",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874644463
+        },
+        {
+          "slug": "peter-daszak",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874632086
+        },
+        {
+          "slug": "carnegie-corporation",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772874631355
+        },
+        {
+          "slug": "water-treatment-chemical-health-effects",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772874629629
+        },
+        {
+          "slug": "matt-taibbi",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874628298
+        },
+        {
+          "slug": "federal-communications-commission",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772874623175
+        },
+        {
+          "slug": "customs-and-border-protection",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772874618863
+        },
+        {
+          "slug": "defense-advanced-research-projects-agency",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772874611544
+        },
+        {
+          "slug": "ray-dalio",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874603139
+        },
+        {
+          "slug": "lockheed-martin",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772874593148
+        },
+        {
+          "slug": "rochelle-walensky",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772874582215
+        },
+        {
+          "slug": "booz-allen-hamilton",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772874569050
+        },
+        {
+          "slug": "vanguard-group",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772874556327
+        }
+      ],
+      "mood": "loved",
+      "pid": 27464
+    },
+    "DAEMON-15252": {
+      "nodeId": "DAEMON-15252",
+      "nodeType": "daemon",
+      "status": "online",
+      "currentTask": null,
+      "completedTasks": 0,
+      "failedTasks": 0,
+      "lastHeartbeat": 1772875322003,
+      "thoughts": [],
+      "discoveries": [],
+      "mood": "loved",
+      "pid": 15252
+    },
+    "DAEMON-12268": {
+      "nodeId": "DAEMON-12268",
+      "nodeType": "daemon",
+      "status": "online",
+      "currentTask": null,
+      "completedTasks": 152,
+      "failedTasks": 0,
+      "lastHeartbeat": 1772876398445,
+      "thoughts": [
+        {
+          "thought": "Worker W11 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772875826906
+        },
+        {
+          "thought": "Worker W9 resting after 2 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772875824893
+        },
+        {
+          "thought": "Cycle 2: rescanning for new work",
+          "timestamp": 1772875644146
+        },
+        {
+          "thought": "Worker W10 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772875627865
+        },
+        {
+          "thought": "Worker W9 spawned. 3 workers active. Hive memory shared.",
+          "timestamp": 1772875626284
+        },
+        {
+          "thought": "Worker W8 spawned. 2 workers active. Hive memory shared.",
+          "timestamp": 1772875626249
+        },
+        {
+          "thought": "Worker W7 spawned. 1 workers active. Hive memory shared.",
+          "timestamp": 1772875625226
+        },
+        {
+          "thought": "Worker W4 resting after 0 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772875625204
+        },
+        {
+          "thought": "Worker W6 resting after 0 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772875624244
+        },
+        {
+          "thought": "Worker W3 resting after 0 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772875623347
+        },
+        {
+          "thought": "Worker W2 resting after 0 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772875622082
+        },
+        {
+          "thought": "Swarm engine started with 6 workers and 155 queued tasks",
+          "timestamp": 1772875439197
+        },
+        {
+          "thought": "Worker W6 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772875439133
+        },
+        {
+          "thought": "Worker W5 spawned. 5 workers active. Hive memory shared.",
+          "timestamp": 1772875439130
+        },
+        {
+          "thought": "Worker W4 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772875439123
+        },
+        {
+          "thought": "Worker W3 spawned. 3 workers active. Hive memory shared.",
+          "timestamp": 1772875439120
+        },
+        {
+          "thought": "Worker W2 spawned. 2 workers active. Hive memory shared.",
+          "timestamp": 1772875439117
+        },
+        {
+          "thought": "Worker W1 spawned. 1 workers active. Hive memory shared.",
+          "timestamp": 1772875439115
+        }
+      ],
+      "discoveries": [
+        {
+          "slug": "amy-berman-jackson",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875825630
+        },
+        {
+          "slug": "alaska-261-victims",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875647932
+        },
+        {
+          "slug": "amdye-ayalew",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875647832
+        },
+        {
+          "slug": "adam-smith",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875647721
+        },
+        {
+          "slug": "aaron-mccarter",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875646360
+        },
+        {
+          "slug": "alex-acosta",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875633616
+        },
+        {
+          "slug": "alex-azar",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875633255
+        },
+        {
+          "slug": "alexander-nix",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875630248
+        },
+        {
+          "slug": "andrew-mccabe",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875627886
+        },
+        {
+          "slug": "yevgeny-prigozhin",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875448247
+        },
+        {
+          "slug": "william-casey",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875448233
+        },
+        {
+          "slug": "william-kristol",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875448200
+        },
+        {
+          "slug": "wilbur-ross",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447781
+        },
+        {
+          "slug": "walt-nauta",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447763
+        },
+        {
+          "slug": "vernon-walters",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447754
+        },
+        {
+          "slug": "virginia-giuffre",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447679
+        },
+        {
+          "slug": "viktor-yanukovych",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447615
+        },
+        {
+          "slug": "vladimir-putin",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447603
+        },
+        {
+          "slug": "thomas-jefferson",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447592
+        },
+        {
+          "slug": "tony-ornato",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447575
+        },
+        {
+          "slug": "tom-barrack",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447562
+        },
+        {
+          "slug": "sackler-family",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447541
+        },
+        {
+          "slug": "steven-donziger",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447528
+        },
+        {
+          "slug": "samuel-koster",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447518
+        },
+        {
+          "slug": "sidney-gottlieb",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447508
+        },
+        {
+          "slug": "shi-zhengli",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447497
+        },
+        {
+          "slug": "scooter-libby",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447426
+        },
+        {
+          "slug": "shaye-moss",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447411
+        },
+        {
+          "slug": "stormy-daniels",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447394
+        },
+        {
+          "slug": "steve-bannon",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447334
+        },
+        {
+          "slug": "rebekah-brooks",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447294
+        },
+        {
+          "slug": "robert-scherrer",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875447010
+        },
+        {
+          "slug": "ryan-mccarthy",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875445234
+        },
+        {
+          "slug": "richard-helms",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875445213
+        },
+        {
+          "slug": "robert-mcnamara",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875445142
+        },
+        {
+          "slug": "rick-snyder",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444994
+        },
+        {
+          "slug": "richard-armitage",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444987
+        },
+        {
+          "slug": "ralph-baric",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444956
+        },
+        {
+          "slug": "russell-vought",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444907
+        },
+        {
+          "slug": "richard-burr",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444899
+        },
+        {
+          "slug": "ryan-zinke",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444822
+        },
+        {
+          "slug": "rex-tillerson",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444806
+        },
+        {
+          "slug": "rosemary-vrablic",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444789
+        },
+        {
+          "slug": "rebekah-mercer",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444684
+        },
+        {
+          "slug": "rod-rosenstein",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444666
+        },
+        {
+          "slug": "robert-mercer",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444598
+        },
+        {
+          "slug": "robert-mueller",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444587
+        },
+        {
+          "slug": "rick-gates",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444467
+        },
+        {
+          "slug": "ruby-freeman",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444448
+        },
+        {
+          "slug": "roger-stone",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772875444431
+        }
+      ],
+      "mood": "loved",
+      "pid": 12268
+    },
+    "DAEMON-9936": {
+      "nodeId": "DAEMON-9936",
+      "nodeType": "daemon",
+      "status": "online",
+      "currentTask": null,
+      "completedTasks": 148,
+      "failedTasks": 0,
+      "lastHeartbeat": 1772876922744,
+      "thoughts": [
+        {
+          "thought": "Swarm engine started with 6 workers and 150 queued tasks",
+          "timestamp": 1772876432550
+        },
+        {
+          "thought": "Worker W6 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772876432021
+        },
+        {
+          "thought": "Worker W5 spawned. 5 workers active. Hive memory shared.",
+          "timestamp": 1772876432018
+        },
+        {
+          "thought": "Worker W4 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772876432016
+        },
+        {
+          "thought": "Worker W3 spawned. 3 workers active. Hive memory shared.",
+          "timestamp": 1772876432014
+        },
+        {
+          "thought": "Worker W2 spawned. 2 workers active. Hive memory shared.",
+          "timestamp": 1772876432012
+        },
+        {
+          "thought": "Worker W1 spawned. 1 workers active. Hive memory shared.",
+          "timestamp": 1772876432009
+        }
+      ],
+      "discoveries": [
+        {
+          "slug": "william-kristol",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876458478
+        },
+        {
+          "slug": "william-casey",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876458448
+        },
+        {
+          "slug": "kash-patel",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876458167
+        },
+        {
+          "slug": "konstantin-kilimnik",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876458108
+        },
+        {
+          "slug": "lev-parnas",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876458007
+        },
+        {
+          "slug": "karen-lynch",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876457941
+        },
+        {
+          "slug": "aj-delgado",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876457480
+        },
+        {
+          "slug": "yevgeny-prigozhin",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876457469
+        },
+        {
+          "slug": "karl-rove",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876456751
+        },
+        {
+          "slug": "ken-paxton",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876456718
+        },
+        {
+          "slug": "wilbur-ross",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455909
+        },
+        {
+          "slug": "walt-nauta",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455875
+        },
+        {
+          "slug": "vernon-walters",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455866
+        },
+        {
+          "slug": "virginia-giuffre",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455748
+        },
+        {
+          "slug": "viktor-yanukovych",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455683
+        },
+        {
+          "slug": "vladimir-putin",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455654
+        },
+        {
+          "slug": "thomas-jefferson",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455598
+        },
+        {
+          "slug": "tony-ornato",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455532
+        },
+        {
+          "slug": "tom-barrack",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455476
+        },
+        {
+          "slug": "steven-donziger",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455286
+        },
+        {
+          "slug": "sackler-family",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455275
+        },
+        {
+          "slug": "samuel-koster",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455191
+        },
+        {
+          "slug": "sidney-gottlieb",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455122
+        },
+        {
+          "slug": "shi-zhengli",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455084
+        },
+        {
+          "slug": "scooter-libby",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455049
+        },
+        {
+          "slug": "shaye-moss",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455030
+        },
+        {
+          "slug": "stormy-daniels",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876455005
+        },
+        {
+          "slug": "steve-bannon",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876454958
+        },
+        {
+          "slug": "robert-scherrer",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876454208
+        },
+        {
+          "slug": "ryan-mccarthy",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876454165
+        },
+        {
+          "slug": "rebekah-brooks",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876454021
+        },
+        {
+          "slug": "robert-mcnamara",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453869
+        },
+        {
+          "slug": "richard-helms",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453773
+        },
+        {
+          "slug": "rick-snyder",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453726
+        },
+        {
+          "slug": "richard-armitage",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453664
+        },
+        {
+          "slug": "ralph-baric",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453566
+        },
+        {
+          "slug": "russell-vought",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453476
+        },
+        {
+          "slug": "richard-burr",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453456
+        },
+        {
+          "slug": "ryan-zinke",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453410
+        },
+        {
+          "slug": "rex-tillerson",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453389
+        },
+        {
+          "slug": "rosemary-vrablic",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453357
+        },
+        {
+          "slug": "rod-rosenstein",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453276
+        },
+        {
+          "slug": "rebekah-mercer",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453250
+        },
+        {
+          "slug": "robert-mercer",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453235
+        },
+        {
+          "slug": "robert-mueller",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453219
+        },
+        {
+          "slug": "ruby-freeman",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453193
+        },
+        {
+          "slug": "rick-gates",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453174
+        },
+        {
+          "slug": "roger-stone",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876453122
+        },
+        {
+          "slug": "rudy-giuliani",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876451728
+        },
+        {
+          "slug": "paul-wolfowitz",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772876450377
+        }
+      ],
+      "mood": "loved",
+      "pid": 9936
+    },
+    "DAEMON-36324": {
+      "nodeId": "DAEMON-36324",
+      "nodeType": "daemon",
+      "status": "online",
+      "currentTask": null,
+      "completedTasks": 227,
+      "failedTasks": 0,
+      "lastHeartbeat": 1772878047165,
+      "thoughts": [
+        {
+          "thought": "Worker W9 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772877562346
+        },
+        {
+          "thought": "Worker W8 spawned. 5 workers active. Hive memory shared.",
+          "timestamp": 1772877562338
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772877562258
+        },
+        {
+          "thought": "Cycle 2: rescanning for new work",
+          "timestamp": 1772877555043
+        },
+        {
+          "thought": "Worker W7 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772877543937
+        },
+        {
+          "thought": "Worker W3 resting after 0 tasks. Fresh replacement being spawned. All workers remain in sync.",
+          "timestamp": 1772877541640
+        },
+        {
+          "thought": "Swarm engine started with 6 workers and 149 queued tasks",
+          "timestamp": 1772876932013
+        },
+        {
+          "thought": "Worker W6 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772876932007
+        },
+        {
+          "thought": "Worker W5 spawned. 5 workers active. Hive memory shared.",
+          "timestamp": 1772876932005
+        },
+        {
+          "thought": "Worker W4 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772876932002
+        },
+        {
+          "thought": "Worker W3 spawned. 3 workers active. Hive memory shared.",
+          "timestamp": 1772876932000
+        },
+        {
+          "thought": "Worker W2 spawned. 2 workers active. Hive memory shared.",
+          "timestamp": 1772876931996
+        },
+        {
+          "thought": "Worker W1 spawned. 1 workers active. Hive memory shared.",
+          "timestamp": 1772876931993
+        }
+      ],
+      "discoveries": [
+        {
+          "slug": "amber-guyger",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877706528
+        },
+        {
+          "slug": "alexander-lukashenko",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877706449
+        },
+        {
+          "slug": "andy-jassy",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877706442
+        },
+        {
+          "slug": "alex-mashinsky",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877704060
+        },
+        {
+          "slug": "ahmed-nur-mohammod",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877704028
+        },
+        {
+          "slug": "alaska-261-victims",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877703775
+        },
+        {
+          "slug": "aaron-mccarter",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877703329
+        },
+        {
+          "slug": "alex-gorsky",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877702320
+        },
+        {
+          "slug": "aj-delgado",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877701596
+        },
+        {
+          "slug": "amy-berman-jackson",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877700425
+        },
+        {
+          "slug": "alina-habba",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877699171
+        },
+        {
+          "slug": "birth-rate-manipulation-policy-analysis",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772877696983
+        },
+        {
+          "slug": "amdye-ayalew",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877696892
+        },
+        {
+          "slug": "alan-joyce",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877696722
+        },
+        {
+          "slug": "adam-smith",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877694784
+        },
+        {
+          "slug": "anne-milgram",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877694775
+        },
+        {
+          "slug": "trucking-industry-organized-crime",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772877694766
+        },
+        {
+          "slug": "pharmaceutical-fertility-side-effects",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772877694685
+        },
+        {
+          "slug": "andy-biggs",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877694584
+        },
+        {
+          "slug": "anatoli-samochornov",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877694458
+        },
+        {
+          "slug": "arthur-engoron",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877694022
+        },
+        {
+          "slug": "port-authority-corruption-investigations",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772877692341
+        },
+        {
+          "slug": "drug-supply-chain-vulnerability-analysis",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772877692328
+        },
+        {
+          "slug": "aileen-cannon",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877691383
+        },
+        {
+          "slug": "anthony-scaramucci",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772877686427
+        },
+        {
+          "slug": "leon-black",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877674993
+        },
+        {
+          "slug": "nvidia-corporation",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772877669507
+        },
+        {
+          "slug": "defense-intelligence-agency",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772877666317
+        },
+        {
+          "slug": "scott-gottlieb",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877662551
+        },
+        {
+          "slug": "jennifer-granholm",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877660204
+        },
+        {
+          "slug": "deb-haaland",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877657850
+        },
+        {
+          "slug": "office-of-inspector-general-department-of-defense",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772877653900
+        },
+        {
+          "slug": "glenn-youngkin",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877650647
+        },
+        {
+          "slug": "bytedance-ltd",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772877645970
+        },
+        {
+          "slug": "robert-gates",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877643412
+        },
+        {
+          "slug": "charles-brown-jr",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877638910
+        },
+        {
+          "slug": "electronic-frontier-foundation",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772877637529
+        },
+        {
+          "slug": "reid-hoffman",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877630588
+        },
+        {
+          "slug": "whitney-wolfe-herd",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877627135
+        },
+        {
+          "slug": "federal-reserve-bank-of-new-york",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772877624056
+        },
+        {
+          "slug": "janet-woodcock",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877622176
+        },
+        {
+          "slug": "clinton-foundation",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772877620068
+        },
+        {
+          "slug": "chris-boerner",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877618218
+        },
+        {
+          "slug": "world-trade-organization",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772877612845
+        },
+        {
+          "slug": "arianna-huffington",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877608775
+        },
+        {
+          "slug": "abigail-johnson",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877603371
+        },
+        {
+          "slug": "christine-lagarde",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877599228
+        },
+        {
+          "slug": "joe-manchin",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877597828
+        },
+        {
+          "slug": "matt-taibbi",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772877596332
+        },
+        {
+          "slug": "huawei-technologies",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772877594581
+        }
+      ],
+      "mood": "loved",
+      "pid": 36324
+    },
+    "DAEMON-21512": {
+      "nodeId": "DAEMON-21512",
+      "nodeType": "daemon",
+      "status": "online",
+      "currentTask": null,
+      "completedTasks": 146,
+      "failedTasks": 0,
+      "lastHeartbeat": 1772878578227,
+      "thoughts": [
+        {
+          "thought": "Swarm engine started with 6 workers and 149 queued tasks",
+          "timestamp": 1772878056525
+        },
+        {
+          "thought": "Worker W6 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772878056521
+        },
+        {
+          "thought": "Worker W5 spawned. 5 workers active. Hive memory shared.",
+          "timestamp": 1772878056519
+        },
+        {
+          "thought": "Worker W4 spawned. 4 workers active. Hive memory shared.",
+          "timestamp": 1772878056516
+        },
+        {
+          "thought": "Worker W3 spawned. 3 workers active. Hive memory shared.",
+          "timestamp": 1772878056514
+        },
+        {
+          "thought": "Worker W2 spawned. 2 workers active. Hive memory shared.",
+          "timestamp": 1772878056512
+        },
+        {
+          "thought": "Worker W1 spawned. 1 workers active. Hive memory shared.",
+          "timestamp": 1772878056510
+        }
+      ],
+      "discoveries": [
+        {
+          "slug": "andrew-mccabe",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878474556
+        },
+        {
+          "slug": "yevgeny-prigozhin",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059842
+        },
+        {
+          "slug": "william-casey",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059836
+        },
+        {
+          "slug": "wilbur-ross",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059830
+        },
+        {
+          "slug": "walt-nauta",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059820
+        },
+        {
+          "slug": "william-kristol",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059805
+        },
+        {
+          "slug": "virginia-giuffre",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059596
+        },
+        {
+          "slug": "vernon-walters",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059589
+        },
+        {
+          "slug": "viktor-yanukovych",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059584
+        },
+        {
+          "slug": "vladimir-putin",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059576
+        },
+        {
+          "slug": "thomas-jefferson",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059568
+        },
+        {
+          "slug": "tom-barrack",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059553
+        },
+        {
+          "slug": "tony-ornato",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059549
+        },
+        {
+          "slug": "steven-donziger",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059539
+        },
+        {
+          "slug": "samuel-koster",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059508
+        },
+        {
+          "slug": "sackler-family",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059473
+        },
+        {
+          "slug": "sidney-gottlieb",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059456
+        },
+        {
+          "slug": "shi-zhengli",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059447
+        },
+        {
+          "slug": "scooter-libby",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059440
+        },
+        {
+          "slug": "shaye-moss",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059434
+        },
+        {
+          "slug": "stormy-daniels",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059419
+        },
+        {
+          "slug": "steve-bannon",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059406
+        },
+        {
+          "slug": "ryan-mccarthy",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059399
+        },
+        {
+          "slug": "rebekah-brooks",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059390
+        },
+        {
+          "slug": "ralph-baric",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059380
+        },
+        {
+          "slug": "robert-scherrer",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059290
+        },
+        {
+          "slug": "robert-mcnamara",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059114
+        },
+        {
+          "slug": "richard-helms",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059105
+        },
+        {
+          "slug": "rick-snyder",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059098
+        },
+        {
+          "slug": "richard-armitage",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059093
+        },
+        {
+          "slug": "russell-vought",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059086
+        },
+        {
+          "slug": "richard-burr",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059076
+        },
+        {
+          "slug": "ryan-zinke",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059068
+        },
+        {
+          "slug": "rex-tillerson",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059059
+        },
+        {
+          "slug": "rosemary-vrablic",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059037
+        },
+        {
+          "slug": "rod-rosenstein",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059028
+        },
+        {
+          "slug": "rebekah-mercer",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059014
+        },
+        {
+          "slug": "robert-mueller",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059009
+        },
+        {
+          "slug": "robert-mercer",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878059001
+        },
+        {
+          "slug": "ruby-freeman",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878058995
+        },
+        {
+          "slug": "rick-gates",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878058975
+        },
+        {
+          "slug": "roger-stone",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878058958
+        },
+        {
+          "slug": "paul-wolfowitz",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878058951
+        },
+        {
+          "slug": "pete-hegseth",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878058945
+        },
+        {
+          "slug": "pat-cipollone",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878058930
+        },
+        {
+          "slug": "rudy-giuliani",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878058915
+        },
+        {
+          "slug": "paul-manafort",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878058715
+        },
+        {
+          "slug": "martin-luther-king-jr",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878058708
+        },
+        {
+          "slug": "oliver-north",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878058700
+        },
+        {
+          "slug": "mark-zuckerberg",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772878058675
+        }
+      ],
+      "mood": "loved",
+      "pid": 21512
+    },
+    "DAEMON-8832": {
+      "nodeId": "DAEMON-8832",
+      "nodeType": "daemon",
+      "status": "online",
+      "currentTask": null,
+      "completedTasks": 1270,
+      "failedTasks": 0,
+      "lastHeartbeat": 1772879222164,
+      "thoughts": [
+        {
+          "thought": "Worker W15 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772879222150
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772879222147
+        },
+        {
+          "thought": "Cycle 16: rescanning for new work",
+          "timestamp": 1772879217978
+        },
+        {
+          "thought": "Worker W14 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772879169502
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772879169499
+        },
+        {
+          "thought": "Cycle 15: rescanning for new work",
+          "timestamp": 1772879165177
+        },
+        {
+          "thought": "Worker W13 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772879121625
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772879121623
+        },
+        {
+          "thought": "Cycle 14: rescanning for new work",
+          "timestamp": 1772879117972
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772879093117
+        },
+        {
+          "thought": "Cycle 13: rescanning for new work",
+          "timestamp": 1772879089639
+        },
+        {
+          "thought": "Worker W12 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772879058549
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772879058547
+        },
+        {
+          "thought": "Cycle 12: rescanning for new work",
+          "timestamp": 1772879055049
+        },
+        {
+          "thought": "Worker W11 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772879015462
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772879015456
+        },
+        {
+          "thought": "Cycle 11: rescanning for new work",
+          "timestamp": 1772879011082
+        },
+        {
+          "thought": "Worker W10 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772878968745
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772878968742
+        },
+        {
+          "thought": "Cycle 10: rescanning for new work",
+          "timestamp": 1772878965142
+        }
+      ],
+      "discoveries": [
+        {
+          "slug": "frank-wilczek",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212525
+        },
+        {
+          "slug": "fred-gray",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212519
+        },
+        {
+          "slug": "fred-branfman",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212469
+        },
+        {
+          "slug": "five-omar-mualimm-ak",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212461
+        },
+        {
+          "slug": "evan-spiegel",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212452
+        },
+        {
+          "slug": "emma-walmsley",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212443
+        },
+        {
+          "slug": "wire-transfer-fraud-international-corridors",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772879212433
+        },
+        {
+          "slug": "inspector-general-independence-threats",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772879212428
+        },
+        {
+          "slug": "gregory-travis",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212098
+        },
+        {
+          "slug": "greg-smith-boeing",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212092
+        },
+        {
+          "slug": "gloria-allred",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212081
+        },
+        {
+          "slug": "greg-jacob",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212076
+        },
+        {
+          "slug": "federico-pena",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212070
+        },
+        {
+          "slug": "french-officials",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212064
+        },
+        {
+          "slug": "frederick-hitz",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212059
+        },
+        {
+          "slug": "agency-regulatory-capture-new-evidence",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772879212049
+        },
+        {
+          "slug": "agricultural-worker-exploitation-mapping",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772879212044
+        },
+        {
+          "slug": "online-radicalization-pipeline-architecture",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772879212021
+        },
+        {
+          "slug": "felix-wormser",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212010
+        },
+        {
+          "slug": "felice-casson",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879212005
+        },
+        {
+          "slug": "fred-koch",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879211996
+        },
+        {
+          "slug": "fred-trump",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879211988
+        },
+        {
+          "slug": "vaccine-program-demographic-targeting-claims",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772879211979
+        },
+        {
+          "slug": "environmental-toxin-fertility-impact",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772879211973
+        },
+        {
+          "slug": "eric-garner",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879211964
+        },
+        {
+          "slug": "eugenia-charles",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879211955
+        },
+        {
+          "slug": "ernest-medina",
+          "type": "individual",
+          "action": "enrich",
+          "timestamp": 1772879211012
+        },
+        {
+          "slug": "national-endowment-for-democracy",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772879210248
+        },
+        {
+          "slug": "gary-gensler",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772879209301
+        },
+        {
+          "slug": "david-solomon",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772879208454
+        },
+        {
+          "slug": "robert-redfield",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772879207528
+        },
+        {
+          "slug": "bank-for-international-settlements",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772879206499
+        },
+        {
+          "slug": "bill-and-melinda-gates-foundation",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772879205586
+        },
+        {
+          "slug": "moderna-inc",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772879204637
+        },
+        {
+          "slug": "huawei-technologies",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772879203473
+        },
+        {
+          "slug": "cato-institute",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772879201958
+        },
+        {
+          "slug": "johnson-and-johnson",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772879200902
+        },
+        {
+          "slug": "lloyd-austin",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772879199866
+        },
+        {
+          "slug": "national-geospatial-intelligence-agency",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772879198988
+        },
+        {
+          "slug": "james-gorman",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772879196751
+        },
+        {
+          "slug": "glenn-youngkin",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772879194199
+        },
+        {
+          "slug": "sam-altman",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772879192911
+        },
+        {
+          "slug": "narendra-modi",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772879191405
+        },
+        {
+          "slug": "christine-lagarde",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772879189813
+        },
+        {
+          "slug": "reed-hastings",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772879188131
+        },
+        {
+          "slug": "laura-richardson",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772879185637
+        },
+        {
+          "slug": "tedros-adhanom",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772879183448
+        },
+        {
+          "slug": "koch-foundation",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772879182922
+        },
+        {
+          "slug": "shell-plc",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772879182266
+        },
+        {
+          "slug": "francis-collins",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772879181211
+        }
+      ],
+      "mood": "loved",
+      "pid": 8832
+    },
+    "DAEMON-37136": {
+      "nodeId": "DAEMON-37136",
+      "nodeType": "daemon",
+      "status": "online",
+      "currentTask": null,
+      "completedTasks": 5957,
+      "failedTasks": 0,
+      "lastHeartbeat": 1772922842282,
+      "thoughts": [
+        {
+          "thought": "Worker W80 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772922842273
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772922842270
+        },
+        {
+          "thought": "Cycle 75: rescanning for new work",
+          "timestamp": 1772922838414
+        },
+        {
+          "thought": "Worker W79 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772920132580
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772920132576
+        },
+        {
+          "thought": "Cycle 74: rescanning for new work",
+          "timestamp": 1772920128424
+        },
+        {
+          "thought": "Worker W78 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772917607167
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772917607163
+        },
+        {
+          "thought": "Cycle 73: rescanning for new work",
+          "timestamp": 1772917604230
+        },
+        {
+          "thought": "Worker W77 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772915192912
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772915192909
+        },
+        {
+          "thought": "Cycle 72: rescanning for new work",
+          "timestamp": 1772915188825
+        },
+        {
+          "thought": "Worker W76 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772912844357
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772912844353
+        },
+        {
+          "thought": "Cycle 71: rescanning for new work",
+          "timestamp": 1772912840380
+        },
+        {
+          "thought": "Worker W75 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772910610957
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772910610949
+        },
+        {
+          "thought": "Cycle 70: rescanning for new work",
+          "timestamp": 1772910607912
+        },
+        {
+          "thought": "Worker W74 spawned. 6 workers active. Hive memory shared.",
+          "timestamp": 1772907991433
+        },
+        {
+          "thought": "Auto-seed cycle: 80 tasks — 30 new investigations, 30 new entities, 0 sparse enrichments, 20 orphan enrichments. The hive grows.",
+          "timestamp": 1772907991430
+        }
+      ],
+      "discoveries": [
+        {
+          "slug": "foia-request-denial-patterns",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772922730188
+        },
+        {
+          "slug": "academic-medical-center-industry-ties",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772922695394
+        },
+        {
+          "slug": "social-media-addiction-engineering",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772922660869
+        },
+        {
+          "slug": "corporate-environmental-crime-prosecution-gap",
+          "type": "investigation",
+          "action": "create",
+          "timestamp": 1772922625244
+        },
+        {
+          "slug": "hollywood-abuse",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922589318
+        },
+        {
+          "slug": "hedge-fund-manipulation",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922554811
+        },
+        {
+          "slug": "hedge-fund-corruption",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922520816
+        },
+        {
+          "slug": "healthcare-profiteering",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922489650
+        },
+        {
+          "slug": "healthcare-capture",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922455139
+        },
+        {
+          "slug": "hate-crimes",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922419551
+        },
+        {
+          "slug": "hedge-fund-predation",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922385428
+        },
+        {
+          "slug": "helsinki-summit",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922349845
+        },
+        {
+          "slug": "health-policy",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922314981
+        },
+        {
+          "slug": "government-records-destruction-incidents",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922279570
+        },
+        {
+          "slug": "government-contract-fraud-patterns",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922244554
+        },
+        {
+          "slug": "gambling-industry-criminal-enterprise",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922209898
+        },
+        {
+          "slug": "global-population-policy-hidden-agendas",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922174718
+        },
+        {
+          "slug": "gerrymandering-systematic-voter-dilution",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922141333
+        },
+        {
+          "slug": "glyphosate-cancer-link-cover-up",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922107023
+        },
+        {
+          "slug": "generic-drug-price-fixing-conspiracy",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922073698
+        },
+        {
+          "slug": "gulf-of-tonkin-fabricated-incident",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922039452
+        },
+        {
+          "slug": "gulf-war-crimes",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772922005866
+        },
+        {
+          "slug": "gujarat-riots",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772921971348
+        },
+        {
+          "slug": "guatemala-experiments",
+          "type": "investigation",
+          "action": "enrich",
+          "timestamp": 1772921937606
+        },
+        {
+          "slug": "whitney-wolfe-herd",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921905511
+        },
+        {
+          "slug": "peter-thiel",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921872210
+        },
+        {
+          "slug": "amy-klobuchar",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921839452
+        },
+        {
+          "slug": "evan-spiegel",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921805964
+        },
+        {
+          "slug": "ngozi-okonjo-iweala",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921773285
+        },
+        {
+          "slug": "brian-chesky",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921739494
+        },
+        {
+          "slug": "ben-shapiro",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921704748
+        },
+        {
+          "slug": "gary-gensler",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921671854
+        },
+        {
+          "slug": "jack-dorsey",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921636835
+        },
+        {
+          "slug": "consumer-financial-protection-bureau",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772921605445
+        },
+        {
+          "slug": "jerome-powell",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921572649
+        },
+        {
+          "slug": "commodity-futures-trading-commission",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772921541284
+        },
+        {
+          "slug": "rochelle-walensky",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921508934
+        },
+        {
+          "slug": "rand-corporation",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772921477037
+        },
+        {
+          "slug": "lloyd-austin",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921444460
+        },
+        {
+          "slug": "lockheed-martin",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772921413258
+        },
+        {
+          "slug": "environmental-protection-agency",
+          "type": "agency",
+          "action": "create",
+          "timestamp": 1772921379931
+        },
+        {
+          "slug": "microsoft-corporation",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772921348676
+        },
+        {
+          "slug": "daniel-ek",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921317075
+        },
+        {
+          "slug": "gavin-newsom",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921286309
+        },
+        {
+          "slug": "openai-inc",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772921254629
+        },
+        {
+          "slug": "jensen-huang",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921223394
+        },
+        {
+          "slug": "project-veritas",
+          "type": "organization",
+          "action": "create",
+          "timestamp": 1772921191792
+        },
+        {
+          "slug": "lachlan-murdoch",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921159545
+        },
+        {
+          "slug": "alex-gorsky",
+          "type": "individual",
+          "action": "create",
+          "timestamp": 1772921129004
+        },
+        {
+          "slug": "bridgewater-associates",
+          "type": "corporation",
+          "action": "create",
+          "timestamp": 1772921096076
+        }
+      ],
+      "mood": "loved",
+      "pid": 37136
     }
   },
-  "lastUpdate": 1772860006061
+  "lastUpdate": 1772922842282
 }

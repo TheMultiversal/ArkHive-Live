@@ -125,7 +125,7 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: 'Rome Statute Article 7(1)(a)', description: 'Crimes Against Humanity - Murder (mass executions)', category: 'International Criminal Court' },
       { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity - Torture', category: 'International Criminal Court' },
       { statute: 'Rome Statute Article 8(2)(a)(ii)', description: 'War Crimes - Torture of prisoners', category: 'International Criminal Court' },
-      { statute: 'EU Sanctions Regulations', description: 'Sanctioned individual; asset freezes', category: 'European Union' },
+      { statute: 'EU Sanctions Regulations', description: 'Sanctioned individual - asset freezes', category: 'European Union' },
       { statute: 'OFAC Sanctions', description: 'Specially Designated National - US Treasury', category: 'Federal' },
     ],
     relatedInvestigations: [
@@ -178,6 +178,15 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Valery Gerasimov', relationship: 'Russian General, target of mutiny', href: '/entities/individuals/valery-gerasimov' },
     ],
   },
+
+
+
+
+
+
+
+
+
 
 
 

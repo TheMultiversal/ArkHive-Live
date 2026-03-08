@@ -182,6 +182,27 @@ class CodebaseUpdater {
     return counts;
   }
 
+  _countConnections() {
+    let total = 0;
+    const indivDir = path.join(ROOT, 'src', 'data', 'individuals');
+    if (fs.existsSync(indivDir)) {
+      for (const f of fs.readdirSync(indivDir).filter(f => f.endsWith('.ts') && f !== 'types.ts')) {
+        const content = fs.readFileSync(path.join(indivDir, f), 'utf8');
+        total += (content.match(/relationship:/g) || []).length;
+      }
+    }
+    return total;
+  }
+
+  _countDocuments() {
+    const docPath = path.join(ROOT, 'src', 'data', 'documents.ts');
+    if (fs.existsSync(docPath)) {
+      const content = fs.readFileSync(docPath, 'utf8');
+      return (content.match(/^\s*\{$/gm) || []).length;
+    }
+    return 0;
+  }
+
   // ══════════════════════════════════════════════════════════════
   //  FILE UPDATERS
   // ══════════════════════════════════════════════════════════════
@@ -204,8 +225,8 @@ const stats = {
  agencies: ${counts.agencies},
  corporations: ${counts.corporations},
  organizations: ${counts.organizations},
- connections: ${Math.floor(counts.investigations * 1.7)},
- documentsArchived: ${201 + Math.floor(counts.investigations * 0.3)},
+ connections: ${this._countConnections()},
+ documentsArchived: ${this._countDocuments()},
  activeAlerts: ${Math.max(60, Math.floor(counts.investigations * 0.1))},
 };`;
 
@@ -294,8 +315,8 @@ const stats = {
     if (!content) return false;
 
     // Match the platform statistics notification message
-    const statsMsg = `ArkHive now tracking ${counts.investigations} investigations, ${counts.totalEntities.toLocaleString()} entities, and 201 archived documents.`;
-    const msgRegex = /ArkHive now tracking \d+ investigations, [\d,]+ entities, and \d+ archived documents\./;
+    const statsMsg = `ArkHive now tracking ${counts.investigations} investigations, ${counts.totalEntities.toLocaleString()} entities, ${this._countConnections().toLocaleString()} connections, and ${this._countDocuments().toLocaleString()} archived documents.`;
+    const msgRegex = /ArkHive now tracking \d+ investigations, [\d,]+ entities,?\s*(?:[\d,]+ connections,?\s*)?and [\d,]+ archived documents\./;
 
     const match = content.match(msgRegex);
     if (!match) return false;

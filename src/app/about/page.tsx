@@ -4,10 +4,10 @@ import { Skull, Target, Eye, FileText, Users, Lock, ArrowRight, Database, Shield
 
 export const metadata: Metadata = {
  title:"About ArkHive, The Accountability Archive",
- description:"826 investigations. 2,621 tracked entities. ArkHive is the largest open-source investigative accountability platform on the internet.",
+ description:"826 investigations. 2,621 tracked entities. 3,073 mapped connections. ArkHive is the largest open-source investigative accountability platform on the internet.",
  openGraph: {
  title:"About ArkHive, The Accountability Archive",
- description:"826 investigations. 2,621 tracked entities. ArkHive is the largest open-source investigative accountability platform on the internet.",
+ description:"826 investigations. 2,621 tracked entities. 3,073 mapped connections. ArkHive is the largest open-source investigative accountability platform on the internet.",
  },
 };
 
@@ -26,7 +26,7 @@ export default function AboutPage() {
  </h1>
  <p className="text-lg text-zinc-400 max-w-2xl mx-auto mb-8">
  The largest open-source investigative accountability platform on the internet.
- 826 investigations. 2,621 tracked entities. Zero corporate sponsors. Zero government approval.
+ 826 investigations. 2,621 tracked entities. 3,073 mapped connections. Zero corporate sponsors. Zero government approval.
  </p>
  {/* Live Stats Bar */}
  <div className="flex flex-wrap justify-center gap-4 text-xs font-mono">
@@ -96,7 +96,7 @@ export default function AboutPage() {
  <div className="w-2 bg-blood-700 shrink-0"/>
  <div>
  <h3 className="font-bold text-white mb-1">Connection Mapping</h3>
- <p className="text-zinc-500 text-sm">Reveal how power operates through networks. A single investigation is a story. 826 investigations cross-referenced with 2,621 entities is a map of systemic corruption.</p>
+ <p className="text-zinc-500 text-sm">Reveal how power operates through networks. A single investigation is a story. 826 investigations cross-referenced with 2,621 entities across 3,073 mapped connections is a map of systemic corruption.</p>
  </div>
  </div>
  <div className="flex gap-4 p-4 border border-zinc-800 bg-zinc-900/30">

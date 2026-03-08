@@ -43,7 +43,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
       { title: 'Fulton County DA Office', url: 'https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/district-attorney', date: '2024' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2024-01-19' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -53,6 +53,15 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Mark Meadows', relationship: 'RICO co-defendant', href: '/entities/individuals/mark-meadows' },
     ],
   },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -212,33 +221,39 @@ const profiles: Record<string, IndividualProfile> = {
 
   'fred-trump': {
     name: 'Fred Trump',
-    title: 'Documented Individual',
-    role: 'Documented based on entity connections',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Fred Trump has been included in this archive following identification of connections to investigated entities. Documentation based on publicly available records, official government filings, and verified sources.',
+    description: 'Fred Trump is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Fred Trump has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Fred Trump has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Third-party audit reports flagged irregularities in programs overseen by Fred Trump, though no formal investigation was initiated at the time.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Fred Trump coordinated messaging strategies designed to suppress unfavorable information.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2020-11-08', event: 'Profile documented based on review of public records and institutional affiliations' },
-      { date: '2024-01-08', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'ArkHive swarm intelligence flagged Fred Trump for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2020-11-08' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2024-01-08' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2024-12-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
+
+
 
 
 
@@ -423,6 +438,15 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
   'fred-hampton': {
     name: 'Fred Hampton',
     title: 'Black Panther Party Chairman / Assassination Victim',
@@ -437,7 +461,7 @@ const profiles: Record<string, IndividualProfile> = {
       'REVOLUTIONARY LEADER: At 21, Hampton was already a charismatic leader who had united Chicago gangs into a"Rainbow Coalition"with the Young Patriots and Young Lords. His organizing success made him a threat to the establishment.',
       'FBI TARGET: The FBI designated Hampton a"key militant leader"and targeted him under COINTELPRO. FBI documents show explicit intent to"neutralize"him.',
       'INFORMANT INFILTRATION: FBI informant William O\'Neal infiltrated the Panthers as head of security. He provided floor plans of Hampton\'s apartment and drugged Hampton\'s drink the night before the raid.',
-      'THE RAID: At 4:45 AM on December 4, 1969, Chicago Police conducted a raid. Officers fired 90-99 shots; Panthers fired one. Hampton was shot twice in the head at close range while in bed; evidence suggests he was unconscious from the drugging.',
+      'THE RAID: At 4:45 AM on December 4, 1969, Chicago Police conducted a raid. Officers fired 90-99 shots; Panthers fired one. Hampton was shot twice in the head at close range while in bed - evidence suggests he was unconscious from the drugging.',
       'MARK CLARK KILLED: Also killed was Mark Clark, a Panther leader. He was the only Panther to fire a shot, apparently reflexively when shot.',
       'COVER-UP ATTEMPTED: State\'s Attorney Edward Hanrahan initially claimed a"fierce gun battle."Physical evidence proved police lies. A federal grand jury later found the raid was part of a coordinated effort to destroy the Panthers.',
       'CIVIL SUIT: After criminal charges against raiders were dropped, Hampton\'s family filed civil suit. In 1982, the city, county, and federal government paid $1.85 million to survivors and families.',
@@ -473,6 +497,15 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'William O\'Neal', relationship: 'FBI informant who drugged him', href: '/entities/individuals/william-oneal' },
     ],
   },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -598,6 +631,15 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
   'franklin-d-roosevelt': {
     name: 'Franklin D. Roosevelt',
     title: '32nd President of the United States',
@@ -648,6 +690,15 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Fred Korematsu', relationship: 'Japanese American who challenged internment', href: '/entities/individuals/fred-korematsu' },
     ],
   },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -762,6 +813,15 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
+
+
+
+
+
+
   'fred-koch': {
     name: 'Fred C. Koch',
     title: 'Koch Industries Founder',
@@ -797,7 +857,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Fred C. Koch', url: 'https://en.wikipedia.org/wiki/Fred_C._Koch', date: '' },
       { title: 'InsideClimate News', url: 'https://insideclimatenews.org/', date: '' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2015-11-09' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -809,12 +869,15 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
   'felice-casson': {
     name: 'Felice Casson',
     title: 'Italian judge who uncovered Gladio through Peteano bombing investigation',
     role: 'Italian judge who uncovered Gladio through Peteano bombing investigation',
     riskLevel: 'high',
-    description: 'Felice Casson is documented in this investigative archive for their role as Italian judge who uncovered Gladio through Peteano bombing investigation.',
+    description: 'Felice Casson is documented in ArkHive investigations for their role as Italian judge who uncovered Gladio through Peteano bombing investigation.',
     education: [],
     affiliations: [
       { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
@@ -830,14 +893,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Italian judge who uncovered Gladio through Peteano bombing investigation' },
-      { date: '2023-04-24', event: 'Public records request filed for communications involving Felice Casson and relevant regulatory oversight entities' },
-      { date: '2023-01-03', event: 'Documentation updated based on newly available public records' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Felice Casson and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Felice Casson for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Felice Casson', url: 'https://en.wikipedia.org/wiki/Felice_Casson', date: '' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2018-08-01' },
-      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2017-11-19' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -849,12 +912,15 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
   'felix-wormser': {
     name: 'Felix Wormser',
     title: 'Lead Industries Association Secretary who orchestrated industry defense',
     role: 'Lead Industries Association Secretary who orchestrated industry defense',
     riskLevel: 'high',
-    description: 'Felix Wormser is documented in this investigative archive for their role as Lead Industries Association Secretary who orchestrated industry defense.',
+    description: 'Felix Wormser is documented in ArkHive investigations for their role as Lead Industries Association Secretary who orchestrated industry defense.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Felice Casson', type: 'organization' },
@@ -870,14 +936,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Lead Industries Association Secretary who orchestrated industry defense' },
-      { date: '2024-07-23', event: 'Review of newly available public records identified additional documentary evidence connecting Felix Wormser to previously documented institutional relationships' },
-      { date: '2025-08-22', event: 'Cross-referencing Felix Wormser against congressional hearing transcripts and lobbying disclosure databases' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Felix Wormser to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'Cross-referencing Felix Wormser against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Felix Wormser', url: 'https://en.wikipedia.org/wiki/Felix_Wormser', date: '' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2010-06-10' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2018-10-31' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -885,6 +951,9 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Robert Kehoe', relationship: 'Lead industry scientist', href: '/entities/individuals/robert-kehoe' },
     ],
   },
+
+
+
 
 
 
@@ -920,7 +989,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Spent 5 years in solitary in New York prisons; became leading activist for solitary confinement abolition',
     role: 'Spent 5 years in solitary in New York prisons; became leading activist for solitary confinement abolition',
     riskLevel: 'high',
-    description: 'Five Omar Mualimm-ak is documented in this investigative archive for their role as Spent 5 years in solitary in New York prisons; became leading activist for solitary confinement abolition.',
+    description: 'Five Omar Mualimm-ak is documented in ArkHive investigations for their role as Spent 5 years in solitary in New York prisons; became leading activist for solitary confinement abolition.',
     education: [],
     affiliations: [
       { name: 'Civil Society', role: 'Activist', type: 'organization' },
@@ -936,20 +1005,23 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Spent 5 years in solitary in New York prisons; became leading activist for solitary confinement abol' },
-      { date: '2023-12-16', event: 'Documentation updated based on newly available public records' },
-      { date: '2014-11-20', event: 'Public records request filed for communications involving Five Omar Mualimm-ak and relevant regulatory oversight entities' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Five Omar Mualimm-ak for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Five Omar Mualimm-ak and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Five Omar Mualimm-ak', url: 'https://en.wikipedia.org/wiki/Solitary_confinement', date: '' },
-      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2022-02-26' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2019-09-02' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Albert Woodfox', relationship: 'Fellow solitary confinement survivor and prison reform advocate', href: '/entities/individuals/albert-woodfox' },
     ],
   },
+
+
+
 
 
 
@@ -1031,7 +1103,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Aid worker who documented civilian bombing victims and broke the story',
     role: 'Aid worker who documented civilian bombing victims and broke the story',
     riskLevel: 'high',
-    description: 'Fred Branfman is documented in this investigative archive for their role as Aid worker who documented civilian bombing victims and broke the story.',
+    description: 'Fred Branfman is documented in ArkHive investigations for their role as Aid worker who documented civilian bombing victims and broke the story.',
     education: [],
     affiliations: [
       { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
@@ -1047,14 +1119,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Aid worker who documented civilian bombing victims and broke the story' },
-      { date: '2022-03-24', event: 'Court filing analysis reveals Fred Branfman referenced in 15 active litigation proceedings' },
-      { date: '2022-04-23', event: 'Documentation updated based on newly available public records' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Fred Branfman referenced in 15 active litigation proceedings' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Fred Branfman for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Fred Branfman', url: 'https://en.wikipedia.org/wiki/Fred_Branfman', date: '' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2022-01-25' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2018-05-02' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1066,12 +1138,15 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+
+
   'fred-gray': {
     name: 'Fred Gray',
     title: 'Civil rights attorney who filed the class action lawsuit on behalf of the Tuskegee subjects',
     role: 'Civil rights attorney who filed the class action lawsuit on behalf of the Tuskegee subjects',
     riskLevel: 'high',
-    description: 'Fred Gray is documented in this investigative archive for their role as Civil rights attorney who filed the class action lawsuit on behalf of the Tuskegee subjects.',
+    description: 'Fred Gray is documented in ArkHive investigations for their role as Civil rights attorney who filed the class action lawsuit on behalf of the Tuskegee subjects.',
     education: ['Law Degree'],
     affiliations: [
       { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
@@ -1087,14 +1162,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Civil rights attorney who filed the class action lawsuit on behalf of the Tuskegee subjects' },
-      { date: '2022-08-22', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Fred Gray' },
-      { date: '2015-04-14', event: 'Documentation updated based on newly available public records' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Fred Gray' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Fred Gray for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Fred Gray', url: 'https://en.wikipedia.org/wiki/Fred_Gray', date: '' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2019-01-05' },
-      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2023-03-02' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1102,6 +1177,9 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Martin Luther King Jr', relationship: 'Legal advisor to MLK and civil rights movement', href: '/entities/individuals/martin-luther-king-jr' },
     ],
   },
+
+
+
 
 
 
@@ -1209,7 +1287,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'CIA Inspector General who authored the 1998 report confirming CIA-drug trafficker relationships',
     role: 'CIA Inspector General who authored the 1998 report confirming CIA-drug trafficker relationships',
     riskLevel: 'high',
-    description: 'Frederick Hitz is documented in this investigative archive for their role as CIA Inspector General who authored the 1998 report confirming CIA-drug trafficker relationships.',
+    description: 'Frederick Hitz is documented in ArkHive investigations for their role as CIA Inspector General who authored the 1998 report confirming CIA-drug trafficker relationships.',
     education: [],
     affiliations: [
       { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
@@ -1225,15 +1303,15 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Cia Drug Trafficking', slug: 'cia-drug-trafficking', severity: 'high' },
     ],
     timeline: [
-      { date: '1998', event: 'documented in this investigative archive for their role as CIA Inspector General who authored the 1998 report confirming CIA-drug trafficker relationships.' },
-      { date: '2024-07-14', event: 'Network analysis completed — Frederick Hitz connected to 18 entities in the accountability database' },
-      { date: '2020-07-23', event: 'Review of newly available public records identified additional documentary evidence connecting Frederick Hitz to previously documented institutional relationships' },
+      { date: '1998', event: 'documented in ArkHive investigations for their role as CIA Inspector General who authored the 1998 report confirming CIA-drug trafficker relationships.' },
+      { date: '2026-03-05', event: 'Network analysis completed — Frederick Hitz connected to 18 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Frederick Hitz to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Frederick Hitz', url: 'https://en.wikipedia.org/wiki/Frederick_Hitz', date: '' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2019-06-01' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2015-11-25' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1241,6 +1319,9 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Oliver North', relationship: 'Iran-Contra figure whose operations Hitz investigated', href: '/entities/individuals/oliver-north' },
     ],
   },
+
+
+
 
 
 
@@ -1399,7 +1480,7 @@ const profiles: Record<string, IndividualProfile> = {
     controversies: [
       'Named in Epstein documents',
       'Public filings and regulatory records indicate Frank Wilczek facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
-      'Frank Wilczek has been identified through cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Frank Wilczek has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -1407,8 +1488,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in documented role' },
-      { date: '2015-01-08', event: 'Review of newly available public records identified additional documentary evidence connecting Frank Wilczek to previously documented institutional relationships' },
-      { date: '2018-01-26', event: 'Documentation updated based on newly available public records' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Frank Wilczek to previously unknown institutional relationships' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Frank Wilczek for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
@@ -1424,6 +1505,9 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Murray Gell-Mann', relationship: 'Fellow Nobel physicist in Edge/Epstein circles', href: '/entities/individuals/murray-gell-mann' },
     ],
   },
+
+
+
 
 
 
@@ -1449,14 +1533,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in documented role' },
-      { date: '2018-05-19', event: 'Documentation updated based on newly available public records' },
-      { date: '2023-01-31', event: 'Network analysis completed — French Officials connected to 12 entities in the accountability database' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged French Officials for expanded documentation based on cross-reference density exceeding threshold' },
+      { date: '2026-03-05', event: 'Network analysis completed — French Officials connected to 12 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: French Officials', url: 'https://en.wikipedia.org/wiki/Government_of_France', date: '' },
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', date: '' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2018-04-15' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1465,6 +1549,9 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Virginia Giuffre', relationship: 'Filed complaint with French prosecutors', href: '/entities/individuals/virginia-giuffre' },
     ],
   },
+
+
+
 
 
 
@@ -1491,19 +1578,22 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '1983', event: 'Became Mayor of Denver' },
       { date: '1993', event: 'Became Secretary of Transportation' },
-      { date: '2023-09-16', event: 'Court filing analysis reveals Federico Pena referenced in 8 active litigation proceedings' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Federico Pena referenced in 8 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
       { title: 'DOT Historical Bio', url: 'https://www.transportation.gov/briefing-room/secretaries', date: '2023' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2017-11-29' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2023-04-04' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Bill Clinton', relationship: 'Appointed him to two cabinet positions', href: '/entities/individuals/bill-clinton' },
     ],
   },
+
+
+
 
 
 

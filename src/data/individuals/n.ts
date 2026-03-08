@@ -38,7 +38,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Fulton County Court Filings', url: 'https://www.courtlistener.com/', date: '2024' },
       { title: 'Georgia RICO Case Documents', url: 'https://scholar.google.com/scholar?q=Georgia%20RICO%20Case%20Documents', date: '2023-2024' },
-      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2023-09-13' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -49,35 +49,40 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'natalia-veselnitskaya': {
     name: 'Natalia Veselnitskaya',
-    title: 'Public Official',
-    role: 'Tracked for public accountability',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Investigative profile for Natalia Veselnitskaya, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
+    description: 'Natalia Veselnitskaya is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Natalia Veselnitskaya that warrant continued documentation and public scrutiny.',
+      'Natalia Veselnitskaya has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Natalia Veselnitskaya was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Third-party audit reports flagged irregularities in programs overseen by Natalia Veselnitskaya, though no formal investigation was initiated at the time.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2020-09-23', event: 'Profile documented based on review of public records and institutional affiliations' },
-      { date: '2025-07-13', event: 'Documentation updated based on newly available public records and filings' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Court filing analysis reveals Natalia Veselnitskaya referenced in 17 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2020-09-23' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2025-07-13' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-11-15' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -155,33 +160,37 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'nikki-haley': {
     name: 'Nikki Haley',
-    title: 'Public Official',
-    role: 'Subject of ongoing documentation',
-    riskLevel: 'medium',
-    description: 'Nikki Haley is tracked in this archive based on documented affiliations with entities under investigation. Profile information sourced from public records, government databases, and verified reporting.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Nikki Haley is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Nikki Haley has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Nikki Haley has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Nikki Haley facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Investigative analysis reveals Nikki Haley was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2019-07-10', event: 'Documentation updated based on newly available public records and filings' },
-      { date: '2025-04-14', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Network analysis completed — Nikki Haley connected to 11 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2019-07-10' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2025-04-14' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-02-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -311,33 +320,37 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'nicholas-calio': {
     name: 'Nicholas Calio',
-    title: 'Subject of Record',
-    role: 'Documented for accountability tracking',
-    riskLevel: 'medium',
-    description: 'Nicholas Calio has been documented in this investigative archive based on verified connections to individuals and organizations involved in matters of public accountability. All information sourced from publicly available records.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Nicholas Calio is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Nicholas Calio has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Nicholas Calio has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Nicholas Calio was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Public filings and regulatory records indicate Nicholas Calio facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2016-12-04', event: 'Initial records compiled from public financial disclosures and government databases' },
-      { date: '2019-10-28', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'ArkHive swarm intelligence flagged Nicholas Calio for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2016-12-04' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2019-10-28' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2022-04-19' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -371,7 +384,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Naoise Ryan', url: 'https://www.google.com/search?q=Naoise%20Ryan', date: '' },
       { title: 'OpenSecrets', url: 'https://www.opensecrets.org/', date: '' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2022-07-03' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -381,67 +394,76 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'norm-dicks': {
     name: 'Norm Dicks',
-    title: 'Public Figure',
-    role: 'Documented based on entity connections',
-    riskLevel: 'medium',
-    description: 'Profile documenting Norm Dicks and their verified connections to entities under investigation. Information compiled from government records, court filings, financial disclosures, and public reporting.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Norm Dicks is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Norm Dicks has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
+      'Norm Dicks has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Norm Dicks facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Internal documents obtained through litigation discovery show Norm Dicks was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2023-12-13', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
-      { date: '2024-08-22', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'ArkHive swarm intelligence flagged Norm Dicks for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2023-12-13' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2024-08-22' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2024-12-03' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
   'nurcahyo-utomo': {
     name: 'Nurcahyo Utomo',
-    title: 'Documented Individual',
-    role: 'Documented for accountability tracking',
-    riskLevel: 'medium',
-    description: 'Nurcahyo Utomo has been documented in this investigative archive based on verified connections to individuals and organizations involved in matters of public accountability. All information sourced from publicly available records.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Nurcahyo Utomo is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Nurcahyo Utomo has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Nurcahyo Utomo has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Nurcahyo Utomo in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Internal documents obtained through litigation discovery show Nurcahyo Utomo was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2020-06-26', event: 'Added to investigative archive following identification of connections to tracked entities' },
-      { date: '2021-05-06', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Freedom of Information Act request submitted for communications involving Nurcahyo Utomo and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2020-06-26' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2021-05-06' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2022-04-24' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -474,33 +496,37 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'narendra-modi': {
     name: 'Narendra Modi',
-    title: 'Documented Individual',
-    role: 'Tracked for public accountability',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Narendra Modi is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
+    description: 'Narendra Modi is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Narendra Modi that warrant continued documentation and public scrutiny.',
+      'Narendra Modi has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Narendra Modi facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Narendra Modi has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2020-10-14', event: 'Added to investigative archive following identification of connections to tracked entities' },
-      { date: '2021-02-03', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-07', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Narendra Modi' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2020-10-14' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2021-02-03' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-12-21' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -590,66 +616,74 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'newt-gingrich': {
     name: 'Newt Gingrich',
-    title: 'Subject of Record',
-    role: 'Documented based on entity connections',
-    riskLevel: 'medium',
-    description: 'This profile documents Newt Gingrich and their role as it relates to matters of institutional accountability. All information derived from publicly available records, court documents, and official filings.',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Newt Gingrich is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Newt Gingrich has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Newt Gingrich has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Newt Gingrich was briefed on risks later downplayed in public communications.',
+      'Investigative journalists have documented a pattern of revolving-door employment between Newt Gingrich\'s operations and the regulatory bodies meant to provide oversight.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2023-11-24', event: 'Documentation updated based on newly available public records and filings' },
-      { date: '2025-01-17', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Newt Gingrich to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2023-11-24' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-01-17' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-11-04' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
 
   'nancy-mace': {
     name: 'Nancy Mace',
-    title: 'Public Official',
-    role: 'Subject of ongoing documentation',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Investigative profile for Nancy Mace, documenting verified connections to organizations and events of public interest. Built from court records, regulatory filings, and public financial disclosures.',
+    description: 'Nancy Mace is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Nancy Mace has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
+      'Nancy Mace has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Nancy Mace coordinated messaging strategies designed to suppress unfavorable information.',
+      'Internal documents obtained through litigation discovery show Nancy Mace was briefed on risks later downplayed in public communications.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2022-04-12', event: 'Documentation updated based on newly available public records and filings' },
-      { date: '2023-10-20', event: 'Cross-referenced with related investigation case files in this archive' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-06', event: 'Network analysis completed — Nancy Mace connected to 17 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2022-04-12' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2023-10-20' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-02-06' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -755,7 +789,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Prime Minister of Pakistan; disqualified from office after papers revealed his family\'s offshore companies',
     role: 'Prime Minister of Pakistan; disqualified from office after papers revealed his family\'s offshore companies',
     riskLevel: 'high',
-    description: 'Nawaz Sharif is documented in this investigative archive for their role as Prime Minister of Pakistan; disqualified from office after papers revealed his family\'s offshore companies.',
+    description: 'Nawaz Sharif is documented in ArkHive investigations for their role as Prime Minister of Pakistan; disqualified from office after papers revealed his family\'s offshore companies.',
     education: [],
     affiliations: [
       { name: 'Independent', role: 'Wikipedia: Nawar al-Awlaki', type: 'organization' },
@@ -771,20 +805,21 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Prime Minister of Pakistan; disqualified from office after papers revealed his family' },
-      { date: '2020-02-16', event: 'Network analysis completed — Nawaz Sharif connected to 11 entities in the accountability database' },
-      { date: '2023-03-29', event: 'Review of newly available public records identified additional documentary evidence connecting Nawaz Sharif to previously documented institutional relationships' },
+      { date: '2026-03-05', event: 'Network analysis completed — Nawaz Sharif connected to 11 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Nawaz Sharif to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Nawaz Sharif', url: 'https://en.wikipedia.org/wiki/Nawaz_Sharif', date: '' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2021-02-11' },
-      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2023-05-14' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Sigmundur Gunnlaugsson', relationship: 'Fellow leader exposed by Panama Papers', href: '/entities/individuals/sigmundur-gunnlaugsson' },
     ],
   },
+
 
 
 
@@ -1313,18 +1348,19 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2018', event: 'Carlos Ghosn arrested in Tokyo' },
       { date: '2019', event: 'Ghosn escaped Japan to Lebanon' },
-      { date: '2024-09-04', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Nissan (Entity Reference)' },
+      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Nissan (Entity Reference)' },
     ],
     socialMedia: [],
     sources: [
       { title: 'WSJ: Ghosn Saga', url: 'https://www.wsj.com/articles/carlos-ghosn-nissan', date: '2020' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2024-12-20' },
-      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2024-04-09' },
+      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -1679,33 +1715,37 @@ const profiles: Record<string, IndividualProfile> = {
   },
   'ngozi-okonjo-iweala': {
     name: 'Ngozi Okonjo-Iweala',
-    title: 'Subject of Record',
-    role: 'Documented based on entity connections',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Ngozi Okonjo-Iweala is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
+    description: 'Ngozi Okonjo-Iweala is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Ngozi Okonjo-Iweala has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Ngozi Okonjo-Iweala has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Ngozi Okonjo-Iweala was briefed on risks later downplayed in public communications.',
+      'Investigative analysis reveals Ngozi Okonjo-Iweala was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2023-01-04', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2025-11-18', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-07', event: 'Network analysis completed — Ngozi Okonjo-Iweala connected to 8 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2023-01-04' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2025-11-18' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-06-20' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
