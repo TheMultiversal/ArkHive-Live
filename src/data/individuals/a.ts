@@ -198,6 +198,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'alexander-nix': {
     name: 'Alexander James Ashburner Nix',
     title: 'Former Cambridge Analytica CEO',
