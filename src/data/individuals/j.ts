@@ -9100,64 +9100,6 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
     ],
   },
-  'janesmith': {
-    name: 'Jane Smith',
-    title: 'Public Official',
-    role: 'Documented for accountability tracking',
-    riskLevel: 'low',
-    description: 'Profile documenting Jane Smith and their verified connections to entities under investigation. Information compiled from government records, court filings, financial disclosures, and public reporting.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Jane Smith has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2022-08-26', event: 'Documentation updated based on newly available public records and filings' },
-      { date: '2025-05-11', event: 'Cross-referenced with related investigation case files in this archive' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2022-08-26' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-05-11' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-06-24' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-  'johndoe': {
-    name: 'John Doe',
-    title: 'Person of Interest',
-    role: 'Under review based on institutional connections',
-    riskLevel: 'low',
-    description: 'Profile documenting John Doe and their verified connections to entities under investigation. Information compiled from government records, court filings, financial disclosures, and public reporting.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'John Doe has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2020-04-04', event: 'Documentation updated based on newly available public records and filings' },
-      { date: '2022-07-04', event: 'Profile documented based on review of public records and institutional affiliations' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2020-04-04' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2022-07-04' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-10-11' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
   'jake-sullivan': {
     name: 'Jake Sullivan',
     title: 'Documented Individual',

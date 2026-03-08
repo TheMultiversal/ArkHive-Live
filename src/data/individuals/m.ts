@@ -5790,7 +5790,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['MI6', 'SIS', 'Secret Intelligence Service'],
     knownAssociates: [
-      { name: 'Christopher Steele', relationship: 'Former officer who compiled Trump-Russia dossier', href: '/entities/individuals/christopher-steele' },
+      { name: 'Christopher Steele', relationship: 'Former officer who compiled Trump-Russia dossier', href: '#' },
     ],
   },
   'minneapolis-pd': {

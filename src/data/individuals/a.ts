@@ -111,8 +111,6 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2019', event: 'DOJ opens criminal investigation' },
       { date: '2020', event: 'February: DOJ drops investigation' },
       { date: '2021', event: 'October: DOJ restores pension and back pay' },
-      { date: 'YYYY-MM-DD', event: 'McCabe appointed as FBI Deputy Director' },
-      { date: 'YYYY-MM-DD', event: 'McCabe fired as FBI Deputy Director' },
       { date: '2017-05-09', event: 'McCabe is appointed as Acting FBI Director after Comey\'s firing.' },
       { date: '2017-05-10', event: 'McCabe holds his first press conference as Acting FBI Director.' },
       { date: '2017-05-09', event: 'Acting FBI Director Andrew McCabe testifies before the Senate Intelligence Committee, stating that the investigation into Russian interference in the 2016 election is ongoing and that the FBI has not found any evidence of collusion between Trump associates and Russian officials.' },
@@ -122,8 +120,6 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'DOJ Inspector General Report', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1071991/download', date: '2018' },
       { title: 'McCabe Lawsuit Settlement', url: 'https://www.courtlistener.com/', date: '2021' },
-      { title: 'Fake publication', url: 'https://fake-url', date: 'YYYY-MM-DD' },
-      { title: 'Another publication', url: 'https://another-url', date: 'YYYY-MM-DD' },
       { title: 'The Washington Post', url: 'https://www.washingtonpost.com/politics/andrew-mccabe/', date: '2017-05-10' },
       { title: 'CNN', url: 'https://www.cnn.com/2017/05/10/politics/andrew-mccabe-fbi-director/', date: '2017-05-10' },
       { title: 'FBI\'s McCabe Under Fire for Leaks', url: 'https://www.nytimes.com/2018/02/14/us/politics/mccabe-fbi-leaks.html', date: '2018-02-14' },
@@ -6103,64 +6099,6 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2022-03-06' },
       { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2023-10-17' },
       { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2024-05-28' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-  'associate-1-slug': {
-    name: 'Associate 1',
-    title: 'Public Official',
-    role: 'Subject of ongoing documentation',
-    riskLevel: 'medium',
-    description: 'Associate 1 is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Associate 1 has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2014-05-28', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2024-05-01', event: 'Profile documented based on review of public records and institutional affiliations' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2014-05-28' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2024-05-01' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-09-09' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-  'associate-2-slug': {
-    name: 'Associate 2',
-    title: 'Documented Individual',
-    role: 'Subject of ongoing documentation',
-    riskLevel: 'low',
-    description: 'Profile documenting Associate 2 and their verified connections to entities under investigation. Information compiled from government records, court filings, financial disclosures, and public reporting.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Analysis of government records and financial disclosures has identified patterns related to Associate 2 that warrant continued documentation and public scrutiny.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2021-10-23', event: 'Profile documented based on review of public records and institutional affiliations' },
-      { date: '2025-10-26', event: 'Documentation updated based on newly available public records and filings' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2021-10-23' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-10-26' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2025-03-05' },
     ],
     aliases: [],
     knownAssociates: [

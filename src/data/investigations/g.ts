@@ -449,7 +449,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '1', name: 'Benjamin Netanyahu', type: 'individual', relationship: 'Israeli PM directing campaign', href: '/entities/individuals/benjamin-netanyahu' },
  { id: '2', name: 'Joe Biden', type: 'individual', relationship: 'Approved weapons transfers', href: '/entities/individuals/joe-biden' },
  { id: '3', name: 'State Department', type: 'agency', relationship: 'Bypassed human rights laws', href: '/entities/agencies/state-department' },
- { id: '4', name: 'Pentagon', type: 'agency', relationship: 'Rushed weapons deliveries', href: '/entities/agencies/dod' },
+ { id: '4', name: 'Pentagon', type: 'agency', relationship: 'Rushed weapons deliveries', href: '/entities/agencies/pentagon' },
  { id: '5', name: 'Lockheed Martin', type: 'corporation', relationship: 'Weapons manufacturer', href: '/entities/corporations/lockheed-martin' },
  ],
  },

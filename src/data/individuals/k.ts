@@ -1790,7 +1790,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Vlad Tenev', relationship: 'Robinhood CEO, payment-for-order-flow partner', href: '/entities/individuals/vlad-tenev' },
+      { name: 'Vlad Tenev', relationship: 'Robinhood CEO, payment-for-order-flow partner', href: '#' },
     ],
   },
 
