@@ -76,13 +76,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-07', event: 'Financial network mapping completed — tracing fund flows through entities associated with Xavier Becerra' },
+      { date: '2026-03-07', event: 'Financial network mapping completed; tracing fund flows through entities associated with Xavier Becerra' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
+      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [

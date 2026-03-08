@@ -43,7 +43,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
       { title: 'Fulton County DA Office', url: 'https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/district-attorney', date: '2024' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record; Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -53,6 +53,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Mark Meadows', relationship: 'RICO co-defendant', href: '/entities/individuals/mark-meadows' },
     ],
   },
+
 
 
 
@@ -243,14 +244,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -447,6 +449,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'fred-hampton': {
     name: 'Fred Hampton',
     title: 'Black Panther Party Chairman / Assassination Victim',
@@ -497,6 +500,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'William O\'Neal', relationship: 'FBI informant who drugged him', href: '/entities/individuals/william-oneal' },
     ],
   },
+
 
 
 
@@ -640,6 +644,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'franklin-d-roosevelt': {
     name: 'Franklin D. Roosevelt',
     title: '32nd President of the United States',
@@ -690,6 +695,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Fred Korematsu', relationship: 'Japanese American who challenged internment', href: '/entities/individuals/fred-korematsu' },
     ],
   },
+
 
 
 
@@ -822,6 +828,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'fred-koch': {
     name: 'Fred C. Koch',
     title: 'Koch Industries Founder',
@@ -872,6 +879,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'felice-casson': {
     name: 'Felice Casson',
     title: 'Italian judge who uncovered Gladio through Peteano bombing investigation',
@@ -899,7 +907,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Felice Casson', url: 'https://en.wikipedia.org/wiki/Felice_Casson', date: '' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register; Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
       { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: [],
@@ -908,6 +916,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Giulio Andreotti', relationship: 'Italian PM whose Gladio connections Casson exposed', href: '/entities/individuals/giulio-andreotti' },
     ],
   },
+
 
 
 
@@ -942,8 +951,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Felix Wormser', url: 'https://en.wikipedia.org/wiki/Felix_Wormser', date: '' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Register; Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records; PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -951,6 +960,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Robert Kehoe', relationship: 'Lead industry scientist', href: '/entities/individuals/robert-kehoe' },
     ],
   },
+
 
 
 
@@ -1019,6 +1029,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Albert Woodfox', relationship: 'Fellow solitary confinement survivor and prison reform advocate', href: '/entities/individuals/albert-woodfox' },
     ],
   },
+
 
 
 
@@ -1141,6 +1152,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'fred-gray': {
     name: 'Fred Gray',
     title: 'Civil rights attorney who filed the class action lawsuit on behalf of the Tuskegee subjects',
@@ -1177,6 +1189,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Martin Luther King Jr', relationship: 'Legal advisor to MLK and civil rights movement', href: '/entities/individuals/martin-luther-king-jr' },
     ],
   },
+
 
 
 
@@ -1304,14 +1317,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '1998', event: 'documented in ArkHive investigations for their role as CIA Inspector General who authored the 1998 report confirming CIA-drug trafficker relationships.' },
-      { date: '2026-03-05', event: 'Network analysis completed — Frederick Hitz connected to 18 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed; Frederick Hitz connected to 18 entities in the accountability database' },
       { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Frederick Hitz to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Frederick Hitz', url: 'https://en.wikipedia.org/wiki/Frederick_Hitz', date: '' },
       { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record; Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1319,6 +1332,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Oliver North', relationship: 'Iran-Contra figure whose operations Hitz investigated', href: '/entities/individuals/oliver-north' },
     ],
   },
+
 
 
 
@@ -1512,6 +1526,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'french-officials': {
     name: 'French Officials',
     title: 'French Government',
@@ -1534,13 +1549,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in documented role' },
       { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged French Officials for expanded documentation based on cross-reference density exceeding threshold' },
-      { date: '2026-03-05', event: 'Network analysis completed — French Officials connected to 12 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed; French Officials connected to 12 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: French Officials', url: 'https://en.wikipedia.org/wiki/Government_of_France', date: '' },
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', date: '' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records; PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1549,6 +1564,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Virginia Giuffre', relationship: 'Filed complaint with French prosecutors', href: '/entities/individuals/virginia-giuffre' },
     ],
   },
+
 
 
 
@@ -1591,6 +1607,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Bill Clinton', relationship: 'Appointed him to two cabinet positions', href: '/entities/individuals/bill-clinton' },
     ],
   },
+
 
 
 

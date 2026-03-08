@@ -88,6 +88,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
  'igor-fruman': {
  name: 'Igor Fruman',
  title: 'Convicted Felon',
@@ -186,14 +187,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -220,18 +222,19 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Financial network mapping completed — tracing fund flows through entities associated with Ivana Trump' },
+      { date: '2026-03-06', event: 'Financial network mapping completed; tracing fund flows through entities associated with Ivana Trump' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -316,6 +319,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'ivan-boesky': {
     name: 'Ivan Boesky',
     title: 'Public Figure Under Investigation',
@@ -340,14 +344,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -375,13 +380,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Theranos chief scientist who was aware the technology didn' },
       { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Ian Gibbons and regulatory oversight bodies' },
-      { date: '2026-03-05', event: 'Network analysis completed — Ian Gibbons connected to 13 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed; Ian Gibbons connected to 13 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Ian Gibbons', url: 'https://en.wikipedia.org/wiki/Ian_Gibbons', date: '' },
       { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records; PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -389,6 +394,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Tyler Shultz', relationship: 'Fellow Theranos whistleblower', href: '/entities/individuals/tyler-shultz' },
     ],
   },
+
 
 
 
@@ -497,14 +503,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in documented role' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Itzhak Perlman' },
+      { date: '2026-03-05', event: 'Financial network mapping completed; tracing fund flows through entities associated with Itzhak Perlman' },
       { date: '2026-03-05', event: 'Court filing analysis reveals Itzhak Perlman referenced in 4 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Itzhak Perlman', url: 'https://en.wikipedia.org/wiki/Itzhak_Perlman', date: '' },
       { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records; PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -514,6 +520,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Les Wexner', relationship: 'Philanthropic circles', href: '/entities/individuals/les-wexner' },
     ],
   },
+
 
 
 
@@ -557,6 +564,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Juan Alessi', relationship: 'Fellow household staff member', href: '/entities/individuals/juan-alessi' },
     ],
   },
+
 
 
 
@@ -765,9 +773,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -783,6 +791,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Coca Cola', relationship: 'Connected Entity', href: '/entities/individuals/coca-cola' },
     ],
   },
+
 
 
 

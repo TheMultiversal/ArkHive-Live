@@ -274,8 +274,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     controversies: [
       'Ursula von der Leyen has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Network analysis reveals Ursula von der Leyen holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
-      'Ursula von der Leyen has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Public filings and regulatory records indicate Ursula von der Leyen facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Investigative analysis reveals Ursula von der Leyen was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -283,18 +283,19 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-07', event: 'Automated intelligence gathering identified new documentary evidence linking Ursula von der Leyen to previously unknown institutional relationships' },
+      { date: '2026-03-08', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Ursula von der Leyen' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
+      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
+      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 

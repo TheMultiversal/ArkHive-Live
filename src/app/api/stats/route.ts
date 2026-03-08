@@ -28,12 +28,12 @@ export async function GET() {
   }
  }
 
- // Count connections (affiliations across investigations)
+ // Count connections (knownAssociates/relationships across all individuals)
  let totalConnections = 0;
- for (const inv of Object.values(investigationDatabase)) {
-  const affiliations = (inv as { affiliations?: unknown[] }).affiliations;
-  if (Array.isArray(affiliations)) {
-   totalConnections += affiliations.length;
+ for (const ind of Object.values(individualData)) {
+  const associates = (ind as { knownAssociates?: unknown[] }).knownAssociates;
+  if (Array.isArray(associates)) {
+   totalConnections += associates.length;
   }
  }
 

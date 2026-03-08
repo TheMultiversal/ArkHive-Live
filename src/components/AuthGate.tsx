@@ -2,7 +2,7 @@
 
 /**
  * Client-side auth gate.
- * Currently DISABLED — site is publicly accessible.
+ * Currently DISABLED; site is publicly accessible.
  * To re-enable, restore the auth check against /api/auth/check.
  */
 export default function AuthGate({
@@ -14,7 +14,7 @@ export default function AuthGate({
  header: React.ReactNode;
  footer: React.ReactNode;
 }) {
- // Auth gate disabled — render the full site for everyone
+ // Auth gate disabled; render the full site for everyone
  return (
  <>
  {header}

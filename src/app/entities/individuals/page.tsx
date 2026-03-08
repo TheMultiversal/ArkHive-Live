@@ -167,19 +167,10 @@ export default function IndividualsPage() {
 
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filtered.slice(0, 300).map((individual) => (
+          {filtered.map((individual) => (
             <EntityCard key={individual.id} entity={individual} />
           ))}
         </div>
-
-        {filtered.length > 300 && (
-          <div className="border border-zinc-800 bg-black/60 p-6 text-center mt-6">
-            <p className="text-zinc-400">
-              Showing first 300 of {filtered.length.toLocaleString()} results. Use the search
-              to narrow down.
-            </p>
-          </div>
-        )}
 
         {filtered.length === 0 && (
           <div className="border border-zinc-800 bg-black/60 p-12 text-center">
