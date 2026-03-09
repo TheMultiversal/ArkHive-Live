@@ -218,6 +218,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'DOJ - Navarro Indictment', url: 'https://www.justice.gov/usao-dc/pr/peter-navarro-indicted-contempt-congress', date: '2022-06-03' },
       { title: 'January 6th Select Committee Final Report', url: 'https://www.govinfo.gov/committee/house-january6th', date: '2022-12-22' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-09' },
     ],
     aliases: [],
     knownAssociates: [
@@ -225,6 +226,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Steve Bannon', relationship: 'Fellow Trump advisor also convicted of contempt of Congress', href: '/entities/individuals/steve-bannon' },
     ],
   },
+
   'pat-cipollone': {
     name: 'Pasquale Anthony Cipollone',
     title: 'Former White House Counsel',
@@ -277,6 +279,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'John Eastman', relationship: 'Opposed his fake electors scheme', href: '/entities/individuals/john-eastman' },
     ],
   },
+
 
 
 

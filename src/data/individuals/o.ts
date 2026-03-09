@@ -176,6 +176,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'oscar-munoz': {
     name: 'Oscar Munoz',
     title: 'Public Figure Under Investigation',
