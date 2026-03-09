@@ -16,6 +16,7 @@ class Monitor {
     this.startTime = null;
     this.reportTimer = null;
     this._getSwarmStatus = null; // Set by daemon
+    this.lastWorkerDeaths = 0;   // used to suppress repeated death alerts
   }
 
   /**
@@ -285,9 +286,11 @@ class Monitor {
         ? status.stats.totalWorkerDeaths / status.stats.totalWorkersSpawned
         : 0;
 
-      if (deathRate > thresholds.workerDeathRate) {
+      if (deathRate > thresholds.workerDeathRate && status.stats.totalWorkerDeaths > this.lastWorkerDeaths) {
         this._alert('HIGH_WORKER_DEATH_RATE', `Worker death rate: ${(deathRate * 100).toFixed(0)}%`);
       }
+      // update for next check
+      this.lastWorkerDeaths = status.stats.totalWorkerDeaths || 0;
     }
 
     // Error rate

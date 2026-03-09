@@ -481,6 +481,37 @@ class Scanner {
 
     logger.scan(`Generated ${tasks.length} tasks (${sortedMissing.length} create, ${tasks.length - sortedMissing.length} enrich)`);
 
+    // If no tasks were produced, add some low‑priority maintenance enrichments
+    if (tasks.length === 0) {
+      const existing = Array.from(this.existingSlugs.get('individual') || []);
+      if (existing.length > 0) {
+        const shuffle = (arr) => {
+          const a = [...arr];
+          for (let i = a.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [a[i], a[j]] = [a[j], a[i]];
+          }
+          return a;
+        };
+        const sample = shuffle(existing).slice(0, 3);
+        for (const slug of sample) {
+          tasks.push({
+            id: utils.generateId(),
+            slug,
+            name: utils.slugToName(slug),
+            type: 'individual',
+            action: 'enrich',
+            priority: 1, // lowest priority
+            status: 'pending',
+            context: {},
+            createdAt: new Date().toISOString(),
+            attempts: 0,
+          });
+        }
+        logger.scan(`Added ${sample.length} maintenance enrich tasks to keep workers busy`);
+      }
+    }
+
     return tasks;
   }
 
