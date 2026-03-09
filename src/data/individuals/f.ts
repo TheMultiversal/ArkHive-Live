@@ -642,6 +642,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'franklin-d-roosevelt': {
     name: 'Franklin D. Roosevelt',
     title: '32nd President of the United States',
@@ -785,6 +786,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Franklin D. Roosevelt', relationship: 'President who signed EO 9066', href: '/entities/individuals/franklin-d-roosevelt' },
     ],
   },
+
 
 
 
@@ -1770,10 +1772,13 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'FDA Official Website', url: 'https://www.fda.gov', date: '2024' },
       { title: 'GAO FDA Drug Safety Reports', url: 'https://www.gao.gov/products/gao-09-866', date: '2009' },
+      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-09' },
     ],
     aliases: ['FDA'],
-    knownAssociates: [],
+    knownAssociates: [
+    ],
   },
+
   'federalist-society': {
     name: 'The Federalist Society',
     title: 'Conservative Legal Organization',

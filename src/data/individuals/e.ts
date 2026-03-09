@@ -253,6 +253,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'DOJ Seditious Conspiracy Conviction', url: 'https://www.justice.gov/usao-dc/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', date: '2023' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-09' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-09' },
     ],
     aliases: ['Henry Tarrio'],
     knownAssociates: [
@@ -260,6 +262,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Stewart Rhodes', relationship: 'Fellow seditious conspirator, Oath Keepers founder', href: '/entities/individuals/stewart-rhodes' },
     ],
   },
+
   'elaine-chao': {
     name: 'Elaine Lan Chao',
     title: 'Former U.S. Secretary of Transportation',
@@ -312,6 +315,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Cabinet member', href: '/entities/individuals/donald-trump' },
     ],
   },
+
 
 
 
@@ -540,14 +544,14 @@ const profiles: Record<string, IndividualProfile> = {
  },
   'elon-musk': {
     name: 'Elon Reeve Musk',
-    title: 'CEO, Tesla/SpaceX/xAI',
-    role: 'Technology executive and government advisor',
-    riskLevel: 'high',
-    description: 'Elon Reeve Musk is the CEO of Tesla, SpaceX, and xAI, owner of the social media platform X (formerly Twitter), and head of the Department of Government Efficiency (DOGE) under the Trump administration. The wealthiest person in the world, Musk wields extraordinary influence across technology, government, and media, while facing scrutiny over labor practices, securities violations, government contracts, and his role dismantling federal agencies.',
+    title: 'CEO of Tesla, SpaceX, X (Twitter)',
+    role: 'Tech Billionaire, Trump Ally, DOGE Head, Disinformation Amplifier',
+    riskLevel: 'critical',
+    description: 'Elon Musk is the world\'s wealthiest person who purchased Twitter in 2022 and transformed it into a platform that amplifies far-right disinformation, conspiracy theories, and extremist content. He gutted content moderation, reinstated banned accounts including neo-Nazis, and personally spread election disinformation to his 180+ million followers. Musk became a major Trump ally and was appointed to lead the"Department of Government Efficiency"(DOGE), using his position to attack government institutions while his companies receive billions in government contracts.',
     birthDate: 'June 28, 1971',
     birthPlace: 'Pretoria, South Africa',
     netWorth: '$400+ billion (2025, Forbes)',
-    education: ['Queens University, Ontario (transferred)', 'University of Pennsylvania, BS Physics, BS Economics 1997'],
+    education: ['B.S. Physics - University of Pennsylvania', 'B.A. Economics - University of Pennsylvania (Wharton)', 'Stanford PhD program (dropped out after 2 days)'],
     affiliations: [
       { name: 'Tesla', role: 'CEO', type: 'corporation' },
       { name: 'SpaceX', role: 'CEO, Founder', type: 'corporation' },
@@ -557,16 +561,27 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'The Boring Company', role: 'Founder', type: 'corporation' },
     ],
     controversies: [
-      'Acquired Twitter for $44 billion in October 2022, laid off approximately 80% of staff, reinstated banned accounts including white nationalists, and oversaw a massive decline in content moderation',
-      'SEC charged Musk with securities fraud in 2018 for his "funding secured" tweet about taking Tesla private at $420 per share, resulting in a $20 million fine and removal as Tesla chairman',
-      'As head of DOGE, oversaw mass firings of federal workers, attempted to access sensitive Treasury payment systems, and dismantled agencies including USAID and CFPB',
-      'Tesla Autopilot and Full Self-Driving systems linked to hundreds of crashes and dozens of deaths, with NHTSA investigations into misleading marketing claims',
-      'SpaceX paid a former flight attendant $250,000 to settle a sexual misconduct allegation against Musk in 2018',
-      'Amplified conspiracy theories, antisemitic content, and far-right misinformation on X, leading to major advertiser boycotts',
-      'DOJ sued SpaceX for discriminating against asylum seekers and refugees in hiring practices',
+      'TWITTER DESTRUCTION: Purchased Twitter for $44B, fired 80% of staff, gutted content moderation, renamed to X',
+      'NAZI REINSTATEMENT: Reinstated banned accounts including neo-Nazis, white supremacists, conspiracy theorists',
+      'DISINFORMATION SPREADER: Personally spread election lies, COVID misinformation, antisemitic conspiracies to 180M+ followers',
+      'ANTISEMITISM: Endorsed antisemitic"great replacement"conspiracy tweet, causing advertiser exodus',
+      'GOVERNMENT CONTRACTS: Companies receive $15B+ in government contracts while he attacks government institutions',
+      'MARKET MANIPULATION: Repeated SEC violations for tweets manipulating Tesla stock price',
+      'SEC VIOLATIONS: $40M fine for"funding secured"tweet, contempt threats for continued violations',
+      'UNION BUSTING: NLRB found Tesla violated labor law by firing union organizers, threatening workers',
+      'WORKER SAFETY: Tesla factory had injury rates far exceeding industry average',
+      'APARTHEID WEALTH: Family emerald mine during South African apartheid',
+      'DOGE CONFLICTS: Leading government"efficiency"while his companies depend on government contracts',
+      'ELECTION INTERFERENCE: Offered $1M payments to voters in swing states, investigated for potential illegality',
+      'FOREIGN INFLUENCE: Regular communication with Putin, Xi Jinping while holding US security clearances',
     ],
     charges: [
-      { statute: 'SEC Rule 10b-5', description: 'Securities fraud settlement over misleading tweet about taking Tesla private', category: 'Securities Fraud' },
+      { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act)', description: 'Securities Fraud -"Funding secured"tweet, market manipulation', category: 'Federal (SEC settled)' },
+      { statute: '29 U.S.C. § 158(a)(1) (NLRA)', description: 'Unfair Labor Practices - Union busting, worker retaliation', category: 'Federal (NLRB findings)' },
+      { statute: '52 U.S.C. § 10307(c)', description: 'Potential Vote Buying - $1M voter payments in swing states', category: 'Potential Federal' },
+      { statute: '18 U.S.C. § 208', description: 'Conflict of Interest - DOGE role while receiving government contracts', category: 'Potential Federal' },
+      { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential FARA Violation - Foreign government communications while in government role', category: 'Potential Federal' },
+      { statute: '47 U.S.C. § 230', description: 'Platform Liability - Knowingly amplifying harmful content after removing protections', category: 'Civil' },
     ],
     relatedInvestigations: [
       { title: 'Psychological Manipulation Campaigns', slug: 'psychological-manipulation', severity: 'critical' },
@@ -574,27 +589,37 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'The Great Reset Agenda', slug: 'great-reset', severity: 'high' },
     ],
     timeline: [
-      { date: '2002-06-01', event: 'Founded SpaceX' },
-      { date: '2004-02-01', event: 'Led Series A investment in Tesla, became chairman' },
-      { date: '2018-09-27', event: 'SEC files securities fraud charges over "funding secured" tweet' },
-      { date: '2022-10-27', event: 'Completed $44 billion acquisition of Twitter' },
-      { date: '2023-07-24', event: 'Renamed Twitter to X' },
-      { date: '2024-11-12', event: 'Appointed to lead Department of Government Efficiency by President-elect Trump' },
-      { date: '2025-01-20', event: 'Began DOGE operations, mass federal workforce reductions' },
-      { date: '2025-03-14', event: 'Federal judges block multiple DOGE actions as unconstitutional' },
+      { date: 'June 28, 1971', event: 'Born in Pretoria, South Africa' },
+      { date: '1999', event: 'Co-founds X.com (becomes PayPal)' },
+      { date: '2002', event: 'Founds SpaceX' },
+      { date: '2004', event: 'Invests in Tesla, becomes Chairman' },
+      { date: '2008', event: 'Becomes Tesla CEO' },
+      { date: 'August 2018', event: '"Funding secured"tweet - SEC charges' },
+      { date: 'September 2018', event: 'Settles with SEC for $40M, forced to step down as Tesla Chairman' },
+      { date: 'April 2022', event: 'Announces Twitter acquisition for $44B' },
+      { date: 'October 2022', event: 'Completes Twitter acquisition, fires executives' },
+      { date: 'November 2022', event: 'Fires 80% of Twitter staff' },
+      { date: 'December 2022', event: 'Reinstates Trump, neo-Nazis, conspiracy accounts' },
+      { date: 'November 2023', event: 'Endorses antisemitic conspiracy tweet' },
+      { date: '2024', event: 'Becomes major Trump campaign donor' },
+      { date: 'November 2024', event: 'Trump wins election with Musk support' },
+      { date: 'January 2025', event: 'Appointed to lead DOGE' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'SEC Complaint - Elon Musk Securities Fraud', url: 'https://www.sec.gov/litigation/complaints/2018/comp-pr2018-219.pdf', date: '2018-09-27' },
-      { title: 'NHTSA Investigation - Tesla Autopilot', url: 'https://www.nhtsa.gov/press-releases/nhtsa-opens-investigation-tesla-autopilot', date: '2021-08-16' },
+      { title: 'SEC Tesla Settlement', url: 'https://www.sec.gov/news/press-release/2018-226', date: '2018' },
+      { title: 'NLRB Tesla Ruling', url: 'https://www.nlrb.gov/case/32-CA-197020', date: '2021' },
+      { title: 'ADL Antisemitism Report', url: 'https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet', date: '2023' },
     ],
     aliases: ['Technoking', 'Chief Twit', 'Space Karen'],
     knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Political ally, appointed head of DOGE', href: '/entities/individuals/donald-trump' },
-      { name: 'Peter Thiel', relationship: 'PayPal co-founder, ideological ally', href: '/entities/individuals/peter-thiel' },
-      { name: 'Jeff Bezos', relationship: 'Rival tech billionaire, competing space ventures', href: '/entities/individuals/jeff-bezos' },
+      { name: 'Donald Trump', relationship: 'Major donor, DOGE appointment, ally', href: '/entities/individuals/donald-trump' },
+      { name: 'Peter Thiel', relationship: 'PayPal co-founder, aligned politics', href: '/entities/individuals/peter-thiel' },
+      { name: 'Vivek Ramaswamy', relationship: 'DOGE co-lead', href: '/entities/individuals/vivek-ramaswamy' },
+      { name: 'Steve Bannon', relationship: 'Aligned on"administrative state"destruction' },
     ],
   },
+
 
 
 

@@ -178,6 +178,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'gordon-sondland': {
     name: 'Gordon David Sondland',
     title: 'Former US Ambassador to EU',
