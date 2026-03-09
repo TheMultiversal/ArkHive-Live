@@ -92,6 +92,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'charles-kushner': {
     name: 'Charles Kushner',
     title: 'Real Estate Developer',
@@ -187,6 +188,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'carlos-de-oliveira': {
     name: 'Carlos De Oliveira',
     title: 'Mar-a-Lago Property Manager',
@@ -232,7 +234,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'DOJ Superseding Indictment', url: 'https://www.justice.gov/', date: '2023' },
       { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
-      { title: 'Congressional Record; Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -240,6 +242,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Walt Nauta', relationship: 'Co-defendant in documents case', href: '/entities/individuals/walt-nauta' },
     ],
   },
+
 
 
 
@@ -366,7 +369,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'GAO Ruling on Wolf Appointment', url: 'https://scholar.google.com/scholar?q=GAO%20Ruling%20on%20Wolf%20Appointment', date: '2020' },
       { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
-      { title: 'Congressional Record; Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: ['Wolf'],
     knownAssociates: [
@@ -374,6 +377,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Stephen Miller', relationship: 'Immigration policy collaboration', href: '/entities/individuals/stephen-miller' },
     ],
   },
+
 
 
 

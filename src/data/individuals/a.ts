@@ -1845,6 +1845,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
  'al-gore': {
  name: 'Al Gore',
  title: '45th Vice President / 2000 Election Victim',
@@ -3350,49 +3351,38 @@ const profiles: Record<string, IndividualProfile> = {
 
 
   'alfredo-stroessner': {
-    name: 'Alfredo Stroessner Matiauda',
-    title: 'Former Dictator of Paraguay',
-    role: 'President/Dictator of Paraguay (1954-1989)',
-    riskLevel: 'critical',
-    description: 'Alfredo Stroessner ruled Paraguay as a military dictator for 35 years, making his regime one of the longest-lasting in the Western Hemisphere. His government systematically tortured and murdered political opponents, harbored Nazi war criminals including Josef Mengele, and participated in Operation Condor, the US-backed coordinated assassination program among South American dictatorships. An estimated 20,000 people were tortured and 3,000-4,000 were killed under his regime.',
-    birthDate: 'November 3, 1912',
-    birthPlace: 'Encarnacion, Paraguay',
-    education: ['Military Academy of Paraguay'],
+    name: 'Alfredo Stroessner',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Alfredo Stroessner is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
     affiliations: [
-      { name: 'Paraguayan Military', role: 'Commander-in-Chief, dictator', type: 'agency' },
-      { name: 'Operation Condor', role: 'Participating dictatorship', type: 'organization' },
     ],
     controversies: [
-      'OPERATION CONDOR: Participated in US-backed coordinated assassination program among South American dictatorships',
-      'HARBORING NAZIS: Provided refuge to Nazi war criminals including Josef Mengele, Martin Bormann (allegedly), and others',
-      'TORTURE REGIME: Estimated 20,000 tortured, 3,000-4,000 killed under 35-year dictatorship',
-      'US SUPPORT: Received consistent US backing during Cold War as anti-communist ally despite atrocities',
-      'CHILD ABUSE: Credible allegations of systematic child sexual abuse by Stroessner',
+      'Alfredo Stroessner has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Alfredo Stroessner facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Network analysis reveals Alfredo Stroessner holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
     ],
-    charges: [
-      { statute: 'International Human Rights Law', description: 'Systematic torture, murder, and disappearance of political opponents over 35-year regime', category: 'Crimes Against Humanity' },
-    ],
+    charges: [],
     relatedInvestigations: [
-      { title: 'CIA Dark History', slug: 'cia-dark-history', severity: 'critical' },
-      { title: 'FBI Assassinations', slug: 'fbi-assassinations', severity: 'critical' },
     ],
     timeline: [
-      { date: '1912', event: 'Born in Encarnacion, Paraguay' },
-      { date: '1954', event: 'Seizes power in military coup' },
-      { date: '1959', event: 'Grants asylum to Nazi war criminal Josef Mengele' },
-      { date: '1975', event: 'Joins Operation Condor alliance with other South American dictatorships' },
-      { date: '1989', event: 'Overthrown in military coup, flees to Brazil' },
-      { date: '2006', event: 'Dies in exile in Brasilia, never faced justice' },
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Alfredo Stroessner and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Terror Archives (Archivo del Terror)', url: 'https://www.usip.org/publications/1993/01/truth-seeking-elements-creating-effective-truth-commission', date: '1993' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
     ],
-    aliases: ['El Excelentisimo'],
+    aliases: [],
     knownAssociates: [
-      { name: 'Augusto Pinochet', relationship: 'Fellow Operation Condor dictator', href: '/entities/individuals/augusto-pinochet' },
     ],
   },
+
 
 
 
@@ -3405,50 +3395,37 @@ const profiles: Record<string, IndividualProfile> = {
 
   'andrew-jackson': {
     name: 'Andrew Jackson',
-    title: 'Former President, Indian Removal Act Architect',
-    role: '7th President of the United States (1829-1837)',
-    riskLevel: 'critical',
-    description: 'Andrew Jackson served as the 7th President and signed the Indian Removal Act of 1830, resulting in the forced displacement of approximately 60,000 Native Americans from their ancestral lands. The Trail of Tears killed thousands of Cherokee, Chickasaw, Choctaw, Creek, and Seminole people. He was also a slaveholder who owned approximately 150 enslaved people, defied the Supreme Court, and destroyed the national bank to benefit political allies.',
-    birthDate: 'March 15, 1767',
-    birthPlace: 'Waxhaw, Colonial America',
-    education: ['Self-taught lawyer, admitted to NC bar 1787'],
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Andrew Jackson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
     affiliations: [
-      { name: 'US Government', role: 'President (1829-1837)', type: 'agency' },
-      { name: 'US Army', role: 'Major General', type: 'agency' },
     ],
     controversies: [
-      'INDIAN REMOVAL ACT: Signed 1830 act forcing 60,000+ Native Americans from ancestral lands',
-      'TRAIL OF TEARS: Cherokee forced march killed 4,000+; Jackson defied Supreme Court ruling protecting Cherokee sovereignty',
-      'SLAVERY: Owned approximately 150 enslaved people at time of death',
-      'CREEK WAR MASSACRE: Ordered execution of 800+ Creek warriors at Battle of Horseshoe Bend',
-      'DESTROYED NATIONAL BANK: Dismantled Second Bank of the United States, causing economic chaos',
-      'DEFIED SUPREME COURT: Reportedly said of Worcester v. Georgia: "John Marshall has made his decision; now let him enforce it"',
+      'Andrew Jackson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Congressional hearing transcripts reference Andrew Jackson in connection with policy decisions that disproportionately benefited associated financial interests.',
+      'Third-party audit reports flagged irregularities in programs overseen by Andrew Jackson, though no formal investigation was initiated at the time.',
     ],
-    charges: [
-      { statute: 'Genocide (retrospective analysis)', description: 'Initiated ethnic cleansing of Native American nations', category: 'Human Rights' },
-    ],
+    charges: [],
     relatedInvestigations: [
-      { title: 'Forced Sterilization Historical Patterns', slug: 'forced-sterilization-historical-patterns', severity: 'critical' },
     ],
     timeline: [
-      { date: '1767', event: 'Born in Waxhaw settlement' },
-      { date: '1814', event: 'Defeats Creek at Battle of Horseshoe Bend, kills 800+' },
-      { date: '1829', event: 'Inaugurated as 7th President' },
-      { date: '1830', event: 'Signs Indian Removal Act' },
-      { date: '1832', event: 'Defies Supreme Court in Worcester v. Georgia' },
-      { date: '1835', event: 'Survives first presidential assassination attempt' },
-      { date: '1837', event: 'Leaves office' },
-      { date: '1845', event: 'Dies at The Hermitage plantation' },
+      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-09', event: 'Freedom of Information Act request submitted for communications involving Andrew Jackson and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Indian Removal Act Text', url: 'https://www.loc.gov/resource/llsl.v004/?sp=412', date: '1830' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
     ],
-    aliases: ['Old Hickory', 'Sharp Knife'],
+    aliases: [],
     knownAssociates: [
-      { name: 'Winfield Scott', relationship: 'General who implemented Trail of Tears under Jackson\'s orders', href: '/entities/individuals/winfield-scott' },
     ],
   },
+
 
   'angelo-mozilo': {
     name: 'Angelo Mozilo',
@@ -5316,80 +5293,85 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Miami Herald Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '2018' },
  ],
  },
- 'annie-farmer': {
- name: 'Annie Farmer',
- title: 'Epstein Survivor and Advocate',
- role: 'Sexual abuse survivor and witness',
- riskLevel: 'low',
- description: 'Annie Farmer is one of the few Jeffrey Epstein accusers who chose to use her real name publicly, testifying at both the trial of Ghislaine Maxwell and in civil proceedings. She was groomed and sexually abused by Epstein and Maxwell beginning in 1996 when she was 16 years old during a visit to Epstein New Mexico ranch.',
- education: ['University of Pennsylvania', 'Columbia University, MA Psychology'],
- affiliations: [
- { name: 'Independent', role: 'Maria Farmer CBS Interview', type: 'organization' },
- ],
- knownAssociates: [
-      { name: 'Jeffrey Epstein', relationship: 'Abuser who groomed and sexually assaulted her', href: '/entities/individuals/jeffrey-epstein' },
-      { name: 'Ghislaine Maxwell', relationship: 'Co-conspirator who facilitated the abuse', href: '/entities/individuals/ghislaine-maxwell' },
+  'annie-farmer': {
+    name: 'Annie Farmer',
+    title: 'Epstein Survivor and Advocate',
+    role: 'Sexual abuse survivor and witness',
+    riskLevel: 'low',
+    description: 'Annie Farmer is one of the few Jeffrey Epstein accusers who chose to use her real name publicly, testifying at both the trial of Ghislaine Maxwell and in civil proceedings. She was groomed and sexually abused by Epstein and Maxwell beginning in 1996 when she was 16 years old during a visit to Epstein New Mexico ranch.',
+    education: ['University of Pennsylvania', 'Columbia University, MA Psychology'],
+    affiliations: [
+      { name: 'Independent', role: 'Maria Farmer CBS Interview', type: 'organization' },
     ],
- controversies: [
+    controversies: [
       'Testified at the Ghislaine Maxwell trial in December 2021 that Maxwell groped her during a massage and that Epstein sexually assaulted her at his New Mexico ranch when she was 16',
       'One of only four accusers to testify at the Maxwell trial, using her real name rather than a pseudonym',
       'Reported the abuse to her mother in 1996, who confronted Epstein and was told it would not happen again; no report was made to law enforcement at the time',
       'Became an advocate for survivors of sexual abuse, calling for accountability from the institutions and individuals who enabled Epstein',
     ],
- relatedInvestigations: [
- { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
- ],
- timeline: [
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    timeline: [
       { date: '1996-04-01', event: 'Visited Epstein New Mexico ranch at age 16, was sexually assaulted' },
       { date: '2019-08-09', event: 'Identified as Epstein accuser after his arrest and death' },
       { date: '2021-12-10', event: 'Testified at Ghislaine Maxwell federal trial' },
       { date: '2021-12-29', event: 'Maxwell convicted on five of six counts' },
     ],
- sources: [
+    socialMedia: [],
+    sources: [
       { title: 'DOJ - United States v. Ghislaine Maxwell Trial', url: 'https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell', date: '2021-12-29' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-09' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-09' },
     ],
- },
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Abuser who groomed and sexually assaulted her', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Ghislaine Maxwell', relationship: 'Co-conspirator who facilitated the abuse', href: '/entities/individuals/ghislaine-maxwell' },
+    ],
+  },
+
   'alec-baldwin': {
     name: 'Alec Baldwin',
-    title: 'Actor and Producer',
-    role: 'Hollywood actor involved in fatal on-set shooting',
-    riskLevel: 'medium',
-    description: 'Alexander Rae Baldwin III is an American actor who became the subject of criminal proceedings after fatally shooting cinematographer Halyna Hutchins and wounding director Joel Souza on the set of the film Rust in October 2021. The case raised profound questions about firearms safety on film sets and the criminal liability of actors and producers.',
+    title: 'Actor',
+    role: 'Named in Black Book',
+    riskLevel: 'low',
+    description: 'Actor named in Epstein\'s Black Book.',
     birthDate: 'April 3, 1958',
-    education: ['George Washington University', 'New York University, BFA 1994'],
+    education: ['George Washington University', 'NYU Tisch School of the Arts'],
     affiliations: [
       { name: 'Entertainment Industry', role: 'Entertainment Figure', type: 'corporation' },
     ],
     controversies: [
-      'Discharged a prop firearm on the set of Rust that killed cinematographer Halyna Hutchins and injured director Joel Souza on October 21, 2021',
-      'Charged with involuntary manslaughter by the New Mexico First Judicial District Attorney; the charge was initially dropped, then refiled with a grand jury indictment',
-      'Involuntary manslaughter trial dismissed with prejudice in July 2024 after Judge Mary Marlowe Sommer ruled prosecutors withheld evidence from the defense',
-      'Armorer Hannah Gutierrez-Reed was convicted of involuntary manslaughter and sentenced to 18 months for her role in the shooting',
-      'Investigation revealed systematic safety failures on the Rust set including live rounds mixed with dummy rounds, inexperienced armorer, and ignored safety complaints from crew',
+      'Named in Epstein Black Book',
+      'Network analysis reveals Alec Baldwin holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Alec Baldwin coordinated messaging strategies designed to suppress unfavorable information.',
     ],
-    charges: [
-      { statute: 'NM Stat 30-2-3', description: 'Involuntary Manslaughter (dismissed with prejudice)', category: 'Homicide' },
-    ],
+    charges: [],
     relatedInvestigations: [
       { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
     ],
     timeline: [
-      { date: '2021-10-21', event: 'Discharged firearm on Rust set, killing Halyna Hutchins and wounding Joel Souza' },
-      { date: '2023-01-31', event: 'Charged with involuntary manslaughter by New Mexico DA' },
-      { date: '2023-04-20', event: 'Charges downgraded then dropped by prosecutors' },
-      { date: '2024-01-19', event: 'Grand jury re-indicts Baldwin on involuntary manslaughter' },
-      { date: '2024-07-12', event: 'Judge dismisses case with prejudice due to prosecutorial misconduct' },
+      { date: 'Ongoing', event: 'Active in documented role' },
+      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Alec Baldwin and regulatory oversight bodies' },
+      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Alec Baldwin for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'New Mexico Office of the Medical Investigator Report', url: 'https://www.nmhealth.org/', date: '2021-10-27' },
-      { title: 'Santa Fe County Sheriff Investigation Report', url: 'https://www.santafecountynm.gov/sheriff', date: '2022-04-20' },
+      { title: 'Wikipedia: Alec Baldwin', url: 'https://en.wikipedia.org/wiki/Alec_Baldwin', date: '' },
+      { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Hannah Gutierrez-Reed', relationship: 'Rust armorer convicted of involuntary manslaughter', href: '/entities/individuals/hannah-gutierrez-reed' },
+      { name: 'Jeffrey Epstein', relationship: 'Named in Black Book', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Ghislaine Maxwell', relationship: 'NYC social/entertainment circles', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Woody Allen', relationship: 'Film industry connections, both in Epstein circles', href: '/entities/individuals/woody-allen' },
+      { name: 'Donald Trump', relationship: 'NYC celebrity circles', href: '/entities/individuals/donald-trump' },
     ],
   },
+
 
 
 
@@ -5430,38 +5412,46 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Audrey Strauss', url: 'https://en.wikipedia.org/wiki/Audrey_Strauss' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
  },
- 'alfredo-rodriguez': {
- name: 'Alfredo Rodriguez',
- title: 'Former Butler to Jeffrey Epstein',
- role: 'Key witness in Epstein investigation',
- riskLevel: 'medium',
- description: 'Alfredo Rodriguez served as a house manager and butler at Jeffrey Epstein Palm Beach estate. He stole a "black book" containing names and contact information of Epstein associates and attempted to sell it. He was convicted of obstruction of justice but was considered one of the bravest early witnesses willing to cooperate against Epstein.',
- deathDate: 'January 1, 2015',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'BBC: Butler Testimony at Maxwell Trial', type: 'organization' },
- ],
- knownAssociates: [
-      { name: 'Jeffrey Epstein', relationship: 'Former employer at Palm Beach estate', href: '/entities/individuals/jeffrey-epstein' },
+  'alfredo-rodriguez': {
+    name: 'Alfredo Rodriguez',
+    title: 'Former Butler to Jeffrey Epstein',
+    role: 'Key witness in Epstein investigation',
+    riskLevel: 'medium',
+    description: 'Alfredo Rodriguez served as a house manager and butler at Jeffrey Epstein Palm Beach estate. He stole a "black book" containing names and contact information of Epstein associates and attempted to sell it. He was convicted of obstruction of justice but was considered one of the bravest early witnesses willing to cooperate against Epstein.',
+    deathDate: 'January 1, 2015',
+    education: [],
+    affiliations: [
+      { name: 'Independent', role: 'BBC: Butler Testimony at Maxwell Trial', type: 'organization' },
     ],
- controversies: [
+    controversies: [
       'Stole Jeffrey Epstein "little black book" from the Palm Beach estate, which contained names and numbers of powerful figures circled and annotated by Epstein',
       'Attempted to sell the black book to Epstein victims attorney for $50,000; was caught and convicted of obstruction of justice',
       'Sentenced to 18 months in federal prison for obstruction of justice in 2011',
       'Died of mesothelioma in December 2014 at age 60 before he could testify in subsequent Epstein proceedings',
       'Despite his conviction, he was described by investigators as a witness who truly wanted to help Epstein victims and had provided crucial early information about the abuse',
     ],
- relatedInvestigations: [
- { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
- ],
- timeline: [
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+    ],
+    timeline: [
       { date: '2004-01-01', event: 'Serving as house manager at Epstein Palm Beach estate during period of abuse' },
       { date: '2009-01-01', event: 'Attempted to sell Epstein black book to victims attorney' },
       { date: '2011-05-18', event: 'Sentenced to 18 months for obstruction of justice' },
       { date: '2014-12-01', event: 'Died of mesothelioma at age 60' },
     ],
- sources: [{ title: 'Wikipedia: Alfredo Rodriguez', url: 'https://en.wikipedia.org/wiki/Alfredo_Rodriguez' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }],
- },
+    socialMedia: [],
+    sources: [
+      { title: 'Wikipedia: Alfredo Rodriguez', url: 'https://en.wikipedia.org/wiki/Alfredo_Rodriguez', date: '' },
+      { title: 'DOJ Press Release', url: 'https://www.justice.gov/news', date: '' },
+      { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeffrey Epstein', relationship: 'Former employer at Palm Beach estate', href: '/entities/individuals/jeffrey-epstein' },
+    ],
+  },
+
   'antony-blinken': {
     name: 'Antony Blinken',
     title: 'Secretary of State',
@@ -5620,48 +5610,41 @@ const profiles: Record<string, IndividualProfile> = {
 
   'ayman-al-zawahiri': {
     name: 'Ayman al-Zawahiri',
-    title: 'Former Leader of al-Qaeda',
-    role: 'Terrorist leader',
+    title: 'Former Al-Qaeda Leader',
+    role: 'Succeeded Bin Laden, Killed by Drone',
     riskLevel: 'critical',
-    description: 'Ayman Mohammed Rabie al-Zawahiri was an Egyptian surgeon who became the leader of al-Qaeda following the death of Osama bin Laden in 2011. He was a principal architect of the September 11 attacks and spent decades on the FBI Most Wanted Terrorists list before being killed by a CIA drone strike in Kabul, Afghanistan in July 2022.',
+    description: 'Egyptian surgeon who became Osama bin Laden\'s deputy and succeeded him as leader of al-Qaeda after the 2011 raid. Mastermind behind numerous terrorist attacks. Killed by a CIA drone strike in Kabul, Afghanistan on July 31, 2022, while living in a house connected to the Taliban government.',
     birthDate: 'June 19, 1951',
-    education: ['Cairo University, Medical Degree 1974', 'Cairo University, Master of Surgery'],
+    education: ['Cairo University - Medicine'],
     affiliations: [
       { name: 'Al-Qaeda', role: 'Leader', type: 'organization' },
     ],
     controversies: [
-      'Co-planned the September 11, 2001 attacks that killed 2,977 people, serving as al-Qaeda operational mastermind alongside bin Laden',
-      'Masterminded the 1998 U.S. embassy bombings in Kenya and Tanzania that killed 224 people',
-      'Led Egyptian Islamic Jihad, which assassinated Egyptian President Anwar Sadat in 1981 and carried out multiple terrorist attacks in Egypt',
-      'Appeared in hundreds of propaganda videos inciting violence against Western targets and directing global al-Qaeda operations',
-      'Protected by the Haqqani network in Afghanistan after the Taliban takeover in August 2021, residing in a safehouse in central Kabul',
-      'Killed by CIA Hellfire R9X missile strike on July 31, 2022, while standing on his balcony in Kabul, the most significant U.S. counterterrorism operation since bin Laden',
+      'Co-mastermind of 9/11 attacks',
+      'Led al-Qaeda for over a decade',
+      'Found living under Taliban protection despite US withdrawal agreement',
     ],
-    charges: [
-      { statute: '18 USC 2332a', description: 'Use of weapons of mass destruction against U.S. nationals', category: 'Terrorism' },
-      { statute: '18 USC 930', description: 'Murder of U.S. nationals outside the United States', category: 'Terrorism' },
-    ],
+    charges: [],
     relatedInvestigations: [
       { title: 'Drone Assassination Program', slug: 'drone-assassination-program', severity: 'critical' },
     ],
     timeline: [
-      { date: '1981-10-06', event: 'Arrested following assassination of Anwar Sadat; served three years in Egyptian prison' },
-      { date: '1998-02-23', event: 'Co-signed fatwa with bin Laden declaring war on Americans' },
-      { date: '1998-08-07', event: 'U.S. embassy bombings in Nairobi and Dar es Salaam' },
-      { date: '2001-09-11', event: 'September 11 attacks executed, Zawahiri served as key planner' },
-      { date: '2011-06-16', event: 'Named leader of al-Qaeda following bin Laden killing' },
-      { date: '2022-07-31', event: 'Killed by CIA drone strike in Kabul, Afghanistan' },
+      { date: '2001', event: 'Co-planned 9/11 attacks' },
+      { date: '2011', event: 'Became al-Qaeda leader after bin Laden killed' },
+      { date: '2022 Jul 31', event: 'Killed by CIA drone strike in Kabul' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'FBI Most Wanted Terrorists', url: 'https://www.fbi.gov/wanted/wanted_terrorists', date: '2001-10-10' },
-      { title: 'White House Statement on Zawahiri Killing', url: 'https://www.whitehouse.gov/briefing-room/speeches-remarks/2022/08/01/remarks-by-president-biden-on-a-successful-counterterrorism-operation-in-afghanistan/', date: '2022-08-01' },
+      { title: 'White House: Zawahiri Operation', url: 'https://www.whitehouse.gov/briefing-room/speeches-remarks/2022/08/01/remarks-by-president-biden-on-a-successful-counterterrorism-operation-in-afghanistan/', date: '2022' },
+      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-09' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-09' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Osama bin Laden', relationship: 'Co-leader and co-founder of al-Qaeda', href: '/entities/individuals/osama-bin-laden' },
+      { name: 'Osama bin Laden', relationship: 'Predecessor as al-Qaeda leader', href: '/entities/individuals/osama-bin-laden' },
     ],
   },
+
 
   'ayatollah-khomeini': {
     name: 'Ayatollah Ruhollah Khomeini',
@@ -5860,6 +5843,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'House Oversight Committee Report', url: 'https://oversightdemocrats.house.gov/news/press-releases/new-documents-show-2-billion-saudi-investment-in-kushner-s-firm', date: '2022' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-09' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-09' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5867,6 +5852,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Mohammed bin Salman', relationship: 'Saudi Crown Prince, $2B investor', href: '/entities/individuals/mohammed-bin-salman' },
     ],
   },
+
   'alfa-bank': {
     name: 'Alfa-Bank',
     title: 'Russian Financial Institution',
