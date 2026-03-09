@@ -107,6 +107,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'konstantin-kilimnik': {
     name: 'Konstantin Viktorovych Kilimnik',
     title: 'Russian Intelligence Asset',
@@ -162,6 +163,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Campaign data recipient via Manafort', href: '/entities/individuals/donald-trump' },
     ],
   },
+
 
 
 
@@ -363,6 +365,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Devin Nunes', relationship: 'Former boss, Nunes memo co-author', href: '/entities/individuals/devin-nunes' },
     ],
   },
+
 
 
 

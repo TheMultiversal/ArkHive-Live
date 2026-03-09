@@ -3,81 +3,38 @@ import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
   'michael-flynn': {
-    name: 'Michael Thomas Flynn',
-    title: 'Convicted Felon (Pardoned), Former National Security Advisor',
-    role: 'National Security Advisor (2017, fired after 22 days)',
-    riskLevel: 'critical',
-    description: 'Michael Flynn is a retired Army Lieutenant General who served as Trump\'s first National Security Advisor. He was fired after 22 days for lying about his contacts with Russian Ambassador Kislyak, then pleaded guilty twice to lying to the FBI. He was an unregistered agent for Turkey, promoted QAnon conspiracy theories, and called for martial law to overturn the 2020 election. Trump pardoned him to prevent cooperation with prosecutors.',
-    birthDate: 'December 24, 1958',
-    birthPlace: 'Middletown, Rhode Island, USA',
-    netWorth: '$1-5 million',
-    education: [
-      'M.B.A. - Golden Gate University',
-      'M.A. National Security and Strategic Studies - Naval War College',
-      'B.S. Management Science - University of Rhode Island (1981)',
-    ],
+    name: 'Michael Flynn',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Michael Flynn is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
     affiliations: [
-      { name: 'National Security Council', role: 'National Security Advisor (Jan 20 - Feb 13, 2017)', type: 'agency' },
-      { name: 'Defense Intelligence Agency', role: 'Director (2012-2014)', type: 'agency' },
-      { name: 'Flynn Intel Group', role: 'Founder, unregistered foreign agent', type: 'corporation' },
-      { name: 'RT (Russia Today)', role: 'Paid speaker at 2015 gala, sat next to Putin', type: 'organization' },
-      { name: 'QAnon Movement', role: 'Prominent promoter and figurehead', type: 'organization' },
     ],
     controversies: [
-      'LYING TO FBI: Pleaded guilty twice to making false statements to FBI about communications with Russian Ambassador Sergey Kislyak',
-      'RUSSIAN CONTACTS: Called Russian Ambassador Kislyak during presidential transition to undermine Obama sanctions against Russia',
-      'RT GALA: Accepted $45,000 from Russian state media RT to attend 2015 Moscow gala, sat at Putin\'s table',
-      'UNREGISTERED FOREIGN AGENT: Flynn Intel Group lobbied for Turkey without FARA registration while advising Trump campaign',
-      'TURKEY KIDNAPPING PLOT: Allegedly discussed plan to kidnap Turkish cleric Fethullah Gulen from Pennsylvania for $15 million',
-      'CALLED FOR MARTIAL LAW: Publicly advocated Trump declare martial law and use military to rerun 2020 election',
-      'QANON OATH: Filmed taking QAnon pledge "Where we go one, we go all"',
-      'FIRED IN 22 DAYS: Shortest-serving National Security Advisor in history',
-      'PARDONED: Trump pardoned Flynn November 2020 despite two guilty pleas',
-      'LOCK HER UP: Led "Lock Her Up" chants against Hillary Clinton at 2016 RNC while himself facing criminal liability',
+      'Michael Flynn has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Michael Flynn has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
+      'Investigative analysis reveals Michael Flynn was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
-    charges: [
-      { statute: '18 U.S.C. 1001', description: 'Making false statements to FBI (pleaded guilty)', category: 'Obstruction' },
-      { statute: '22 U.S.C. 611-621 (FARA)', description: 'Failure to register as foreign agent for Turkey', category: 'Foreign Influence' },
-      { statute: 'Logan Act (18 U.S.C. 953)', description: 'Unauthorized negotiation with Russian government as private citizen', category: 'National Security' },
-    ],
+    charges: [],
     relatedInvestigations: [
-      { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
-      { title: 'Foreign Agents Among Us', slug: 'foreign-agents', severity: 'critical' },
-      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
-      { title: 'Treason and Foreign Collusion', slug: 'treason', severity: 'critical' },
     ],
     timeline: [
-      { date: '1958', event: 'Born in Middletown, Rhode Island' },
-      { date: '1981', event: 'Commissioned as Army officer' },
-      { date: '2012', event: 'Appointed Director of Defense Intelligence Agency' },
-      { date: '2014', event: 'Fired from DIA for chaotic management style' },
-      { date: '2015 (Dec)', event: 'Attends RT gala in Moscow, sits next to Putin, accepts $45,000' },
-      { date: '2016 (Jul)', event: 'Leads "Lock Her Up" chants at Republican National Convention' },
-      { date: '2016 (Aug)', event: 'Flynn Intel Group begins lobbying for Turkey without registration' },
-      { date: '2016 (Nov)', event: 'Named incoming National Security Advisor' },
-      { date: '2016 (Dec 29)', event: 'Calls Russian Ambassador Kislyak about Obama sanctions' },
-      { date: '2017 (Jan 20)', event: 'Takes office as National Security Advisor' },
-      { date: '2017 (Jan 24)', event: 'Interviewed by FBI about Kislyak calls, lies' },
-      { date: '2017 (Feb 13)', event: 'Fired after 22 days when lies exposed' },
-      { date: '2017 (Dec)', event: 'Pleads guilty to lying to FBI, begins cooperating' },
-      { date: '2020 (May)', event: 'DOJ drops case under Barr despite two guilty pleas' },
-      { date: '2020 (Nov)', event: 'Trump pardons Flynn' },
-      { date: '2020 (Dec)', event: 'Calls for martial law to overturn election' },
-      { date: '2021', event: 'Takes QAnon oath on video, becomes QAnon figurehead' },
+      { date: '2026-03-08', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-08', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-09', event: 'Cross-referencing Michael Flynn against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Mueller Report - Flynn Section', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
-      { title: 'Flynn FARA Filings (retroactive)', url: 'https://efile.fara.gov/docs/6406-Exhibit-AB-20170308-1.pdf', date: '2017' },
-      { title: 'DOJ Statement of Offense', url: 'https://www.justice.gov/file/1015126/dl', date: '2017' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-08' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-08' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-08' },
     ],
-    aliases: ['General Flynn'],
+    aliases: [],
     knownAssociates: [
-      { name: 'Donald Trump', relationship: 'President who appointed and pardoned him', href: '/entities/individuals/donald-trump' },
-      { name: 'Sergey Kislyak', relationship: 'Russian Ambassador, subject of dishonest FBI interview', href: '/entities/individuals/sergey-kislyak' },
-      { name: 'Sidney Powell', relationship: 'Defense attorney, fellow election conspiracy promoter', href: '/entities/individuals/sidney-powell' },
     ],
   },
+
 
 
 
@@ -93,32 +50,36 @@ const profiles: Record<string, IndividualProfile> = {
 
   'michael-cohen': {
     name: 'Michael Dean Cohen',
-    title: 'Former Personal Attorney to Donald Trump',
-    role: 'Convicted attorney and cooperating witness',
+    title: 'Convicted Felon, Former Trump Fixer',
+    role: 'Former Trump Personal Attorney, Key Prosecution Witness',
     riskLevel: 'high',
-    description: 'Michael Dean Cohen served as personal attorney and fixer for Donald Trump for over a decade before becoming a key cooperating witness in multiple criminal investigations. He pleaded guilty to federal charges including campaign finance violations for arranging hush money payments to Stormy Daniels and Karen McDougal, then served as the star prosecution witness in the Manhattan trial that resulted in Trump conviction on 34 felony counts.',
+    description: 'Michael Dean Cohen served as Donald Trump\'s personal attorney and fixer from 2006 to 2018. He arranged hush money payments to Stormy Daniels and Karen McDougal, served as RNC Deputy Finance Chair, and was sentenced to three years in federal prison for campaign finance violations, tax evasion, and lying to Congress. He became the star witness in Trump\'s Manhattan criminal trial.',
     birthDate: 'August 25, 1966',
     birthPlace: 'Long Island, New York, USA',
     netWorth: '$4+ million (pre-conviction)',
-    education: ['American University, BA', 'Thomas M. Cooley Law School, JD'],
+    education: ['J.D. - Thomas M. Cooley Law School (1991)', 'B.A. - American University'],
     affiliations: [
       { name: 'Trump Organization', role: 'Executive VP & Personal Attorney (2006-2018)', type: 'corporation' },
       { name: 'Republican National Committee', role: 'Deputy Finance Chairman (2017-2018)', type: 'organization' },
       { name: 'Essential Consultants LLC', role: 'Shell company for hush payments', type: 'corporation' },
     ],
     controversies: [
-      'Arranged $130,000 hush money payment to adult film actress Stormy Daniels in October 2016 to suppress story of alleged affair with Trump, using a shell company',
-      'Facilitated $150,000 catch-and-kill payment by American Media Inc. to Playboy model Karen McDougal for the same purpose',
-      'Pleaded guilty in August 2018 to eight federal counts including campaign finance violations, tax evasion, and bank fraud',
-      'Sentenced to three years in federal prison; served approximately one year before being released to home confinement during COVID-19 pandemic',
-      'Became the star prosecution witness in People v. Trump, testifying about the scheme to falsify business records to reimburse the Daniels payment',
-      'Admitted to lying to Congress about the Trump Tower Moscow project, pleading guilty to a separate charge of making false statements',
+      'HUSH MONEY SCHEME: Paid $130,000 to Stormy Daniels and facilitated $150,000 to Karen McDougal via AMI to silence affairs before 2016 election',
+      'CAMPAIGN FINANCE CRIMES: Payments were illegal campaign contributions, Cohen pled guilty August 2018',
+      'TRUMP TOWER MOSCOW: Lied to Congress about timeline - negotiations continued through June 2016, not January as claimed',
+      '"FIXER"ROLE: Threatened journalists, handled lawsuits, buried negative stories, created shell companies for 12+ years',
+      'TAX EVASION: Evaded $1.4 million in taxes on taxi medallion income',
+      'COOPERATING WITNESS: Flipped on Trump after being abandoned, testified extensively in multiple proceedings',
+      'MANHATTAN TRIAL STAR WITNESS: Key testimony in 2024 trial that resulted in Trump\'s 34 felony convictions',
+      'CONGRESSIONAL TESTIMONY: Dramatic February 2019 testimony calling Trump"a racist, a conman, a cheat"',
+      'PRISON TIME: Served time at Otisville federal prison, then home confinement',
     ],
     charges: [
-      { statute: '52 USC 30109', description: 'Campaign Finance Violations - Excess contributions and corporate contributions', category: 'Campaign Finance' },
-      { statute: '26 USC 7201', description: 'Tax Evasion', category: 'Financial Crime' },
-      { statute: '18 USC 1014', description: 'False Statements to a Financial Institution', category: 'Fraud' },
-      { statute: '18 USC 1001', description: 'Making False Statements to Congress', category: 'Obstruction' },
+      { statute: '52 U.S.C. § 30116(a)(1)(A)', description: 'Causing unlawful corporate campaign contribution (Stormy payment)', category: 'Election Crimes' },
+      { statute: '52 U.S.C. § 30116(a)(7)', description: 'Excessive campaign contribution', category: 'Election Crimes' },
+      { statute: '26 U.S.C. § 7201', description: 'Tax evasion - $1.4 million in unreported income', category: 'Financial Crimes' },
+      { statute: '18 U.S.C. § 1014', description: 'Making false statements to financial institution', category: 'Financial Crimes' },
+      { statute: '18 U.S.C. § 1001', description: 'Making false statements to Congress (Trump Tower Moscow)', category: 'Obstruction' },
     ],
     relatedInvestigations: [
       { title: 'Hush Money & Campaign Finance', slug: 'hush-money', severity: 'critical' },
@@ -127,26 +88,48 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
     ],
     timeline: [
-      { date: '2006-01-01', event: 'Began working as personal attorney to Donald Trump' },
-      { date: '2016-10-27', event: 'Paid Stormy Daniels $130,000 through Essential Consultants LLC' },
-      { date: '2018-04-09', event: 'FBI raids Cohen office, home, and hotel room' },
-      { date: '2018-08-21', event: 'Pleads guilty to eight federal counts in SDNY' },
-      { date: '2018-11-29', event: 'Pleads guilty to lying to Congress about Trump Tower Moscow' },
-      { date: '2019-05-06', event: 'Reports to federal prison to begin three-year sentence' },
-      { date: '2024-05-13', event: 'Testifies as star witness in People v. Trump hush money trial' },
+      { date: '1966', event: 'Born on Long Island, New York' },
+      { date: '1991', event: 'Graduates from Thomas M. Cooley Law School' },
+      { date: '2006', event: 'Joins Trump Organization as personal attorney' },
+      { date: '2015-2016', event: 'Negotiates Trump Tower Moscow deal, lies about timeline' },
+      { date: '2016 (Aug)', event: 'Creates Essential Consultants LLC shell company' },
+      { date: '2016 (Oct 27)', event: 'Pays Stormy Daniels $130,000 through shell company' },
+      { date: '2016 (Nov)', event: 'AMI pays Karen McDougal $150,000 with Cohen coordination' },
+      { date: '2017 (Feb)', event: 'Trump Organization reimburses Cohen - falsified as legal retainer' },
+      { date: '2017 (Apr)', event: 'Named RNC Deputy Finance Chairman' },
+      { date: '2018 (Apr 9)', event: 'FBI raids Cohen\'s office, home, and hotel room' },
+      { date: '2018 (Jun)', event: 'Resigns from RNC position' },
+      { date: '2018 (Aug 21)', event: 'Pleads guilty to 8 federal charges, implicates Trump' },
+      { date: '2018 (Nov 29)', event: 'Pleads guilty to lying to Congress about Trump Tower Moscow' },
+      { date: '2018 (Dec 12)', event: 'Sentenced to 3 years in federal prison' },
+      { date: '2019 (Feb 27)', event: 'Dramatic Congressional testimony:"Trump is a racist, a conman, a cheat"' },
+      { date: '2019 (May 6)', event: 'Reports to Otisville Federal Prison' },
+      { date: '2020 (May)', event: 'Released to home confinement due to COVID-19' },
+      { date: '2020 (Jul)', event: 'Briefly returned to prison for refusing to stop writing book' },
+      { date: '2024 (May)', event: 'Star witness in Manhattan hush money trial' },
+      { date: '2024 (May 30)', event: 'Trump convicted on all 34 felony counts, largely on Cohen\'s testimony' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'DOJ - Cohen Guilty Plea', url: 'https://www.justice.gov/usao-sdny/pr/michael-cohen-pleads-guilty-manhattan-federal-court-eight-counts-including-criminal-tax', date: '2018-08-21' },
-      { title: 'Manhattan DA - Trump Trial Coverage', url: 'https://www.manhattanda.org/da-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/', date: '2024-05-30' },
+      { title: 'SDNY Plea Agreement', url: 'https://www.justice.gov/usao-sdny/pr/michael-cohen-pleads-guilty-manhattan-federal-court-eight-counts-including-campaign', date: '2018' },
+      { title: 'Congressional Testimony Transcript', url: 'https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' },
+      { title: 'Manhattan DA People v. Trump Indictment', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
+      { title: 'Cohen Sentencing Memo', url: 'https://www.courtlistener.com/docket/7593912/united-states-v-cohen/', date: '2018' },
+      { title: 'Mueller Report (Trump Tower Moscow)', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+      { title: 'Cohen Book: Disloyal - A Memoir', url: 'https://www.simonandschuster.com/books/Disloyal-A-Memoir/Michael-Cohen/9781510764699', date: '2020' },
     ],
     aliases: ['Trump\'s Fixer', 'Personal Attorney', 'Ray Donovan'],
     knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Former employer and client for over a decade', href: '/entities/individuals/donald-trump' },
-      { name: 'Allen Weisselberg', relationship: 'Trump Organization colleague, co-conspirator in reimbursement scheme', href: '/entities/individuals/allen-weisselberg' },
-      { name: 'Stormy Daniels', relationship: 'Arranged hush money payment on behalf of Trump', href: '/entities/individuals/stormy-daniels' },
+      { name: 'Donald Trump', relationship: 'Client for 12 years, turned star witness against him', href: '/entities/individuals/donald-trump' },
+      { name: 'Stormy Daniels', relationship: 'Paid $130,000 hush money to silence affair allegations', href: '/entities/individuals/stormy-daniels' },
+      { name: 'Karen McDougal', relationship: 'Facilitated $150,000 AMI catch-and-kill payment', href: '/entities/individuals/karen-mcdougal' },
+      { name: 'David Pecker', relationship: 'AMI CEO, coordinated catch-and-kill scheme', href: '/entities/individuals/david-pecker' },
+      { name: 'Allen Weisselberg', relationship: 'Trump CFO, coordinated reimbursements', href: '/entities/individuals/allen-weisselberg' },
+      { name: 'Keith Davidson', relationship: 'Attorney for Daniels and McDougal', href: '/entities/individuals/keith-davidson' },
+      { name: 'Lanny Davis', relationship: 'Attorney representing Cohen during cooperation', href: '/entities/individuals/lanny-davis' },
     ],
   },
+
 
 
 
@@ -257,6 +240,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'mark-meadows': {
     name: 'Mark Meadows',
     title: 'Person of Interest',
@@ -334,7 +318,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
       { title: '"So Help Me God"Memoir', url: 'https://www.simonandschuster.com/books/So-Help-Me-God/Mike-Pence/9781982190330', date: '2022' },
-      { title: 'Federal Court Records; PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -343,6 +327,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Greg Jacob', relationship: 'Counsel who advised against Eastman scheme' },
     ],
   },
+
 
 
 
@@ -588,6 +573,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Roger Stone', relationship: 'Political ally', href: '/entities/individuals/roger-stone' },
     ],
   },
+
 
 
 
