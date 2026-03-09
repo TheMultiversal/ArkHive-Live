@@ -49,7 +49,7 @@ const config = {
     host: 'http://localhost:11434',
     model: 'llama3.1:8b',
     fallbackModels: ['deepseek-v3.1:671b-cloud', 'llama3.1:8b', 'qwen2.5:0.5b'],
-    timeout: 300000,        // 300 seconds, slow hardware needs more time
+    timeout: 600000,        // 600 seconds, slow hardware needs more time (raised to reduce timeouts)
     temperature: 0.7,
     topP: 0.9,
     maxRetries: 3,
