@@ -25,6 +25,11 @@ class Monitor {
   start(getStatusFn) {
     this._getSwarmStatus = getStatusFn;
     this.startTime = Date.now();
+    // initialize death count so we don't alert on historical data
+    const status = this._getSwarmStatus();
+    if (status && status.stats) {
+      this.lastWorkerDeaths = status.stats.totalWorkerDeaths || 0;
+    }
 
     if (!config.monitor.enableDashboard) {
       logger.info('Dashboard disabled in config');
