@@ -41,7 +41,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'New York Fraud Trial Documents', url: 'https://www.documentcloud.org/documents/24425172-trump-fraud-ruling', date: '2024' },
-      { title: 'Congressional Record; Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
       { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
     ],
     aliases: [],
@@ -50,6 +50,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Allen Weisselberg', relationship: 'Trump Organization CFO', href: '/entities/individuals/allen-weisselberg' },
     ],
   },
+
 
 
 
@@ -156,6 +157,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Carol Martin', relationship: 'Friend she told about assault' },
     ],
   },
+
 
 
 
@@ -3216,7 +3218,8 @@ const profiles: Record<string, IndividualProfile> = {
     riskLevel: 'critical',
     description: 'ExxonMobil is one of the world\'s largest oil companies and a direct descendant of Standard Oil. Internal documents revealed that Exxon\'s own scientists accurately predicted climate change as early as the 1970s, but the company spent decades funding climate denial to protect its profits. This deliberate campaign of deception contributed to decades of delayed climate action. Multiple state attorneys general have filed lawsuits alleging consumer fraud and securities fraud related to climate deception.',
     education: [],
-    affiliations: [],
+    affiliations: [
+    ],
     controversies: [
       'CLIMATE DECEPTION: Internal scientists accurately predicted climate change in 1970s-80s; company funded denial for decades',
       'EXXON VALDEZ: 1989 oil spill in Alaska devastated ecosystem, company fought damages for 20 years',
@@ -3242,10 +3245,14 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'InsideClimate News - Exxon Knew', url: 'https://insideclimatenews.org/content/Exxon-The-Road-Not-Taken', date: '2015' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-09' },
+      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-09' },
     ],
     aliases: ['Exxon', 'XOM'],
-    knownAssociates: [],
+    knownAssociates: [
+    ],
   },
+
   'energy-transfer': {
     name: 'Energy Transfer LP',
     title: 'Pipeline Company, DAPL Operator',
