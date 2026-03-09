@@ -391,8 +391,8 @@ class Scanner {
       const profileStart = content.indexOf(`'${slug}': {`);
       if (profileStart === -1) continue;
 
-      // Get a chunk of the profile to analyze
-      const chunk = content.substring(profileStart, profileStart + 2000);
+      // Get a chunk of the profile to analyze (must be large enough to reach controversies/sources/timeline fields)
+      const chunk = content.substring(profileStart, profileStart + 10000);
 
       // Check for indicators of sparseness
       const hasControversies = /controversies:\s*\[/.test(chunk) && !/controversies:\s*\[\s*\]/.test(chunk);

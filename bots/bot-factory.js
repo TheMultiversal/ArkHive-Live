@@ -225,8 +225,15 @@ run().catch(e => { log.error('Bot crashed: ' + e.message); process.exit(1); });
 // Network Weaver Bot: maps entity connections and creates cross-links
 async function run() {
   log.info('Network Weaver bot starting...');
-  const content = utils.readFileSafe(config.paths.individuals);
-  if (!content) { log.error('Cannot read individuals file'); process.exit(1); }
+  const shardManager = require('./shard-manager');
+  let content;
+  if (shardManager.isActive()) {
+    content = shardManager.getCombinedContent();
+    log.info('Reading from sharded individual files');
+  } else {
+    content = utils.readFileSafe(config.paths.individuals);
+  }
+  if (!content) { log.error('Cannot read individuals data'); process.exit(1); }
 
   const slugs = utils.extractExistingIndividualSlugs(content);
   const associates = utils.extractKnownAssociateLinks(content);
