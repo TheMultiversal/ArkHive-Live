@@ -588,7 +588,9 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Heritage Foundation', type: 'corporation', relationship: 'Push for curriculum restrictions', href: '/entities/corporations/heritage-foundation' },
+ ],
  },
   'egypt-dictatorship': {
  title: 'Egypt Dictatorship',
@@ -605,75 +607,43 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'el-paso-massacre': {
- title: 'EL Paso Massacre',
- subtitle: 'Investigation into el paso massacre.',
+ affiliations: [
+ { id: '1', name: 'Abdel Fattah el-Sisi', type: 'individual', relationship: 'Military dictator', href: '/entities/individuals/abdel-fattah-el-sisi' },
+ ],
+ },  'el-paso-massacre': {
+ title: 'El Paso Walmart Massacre',
+ subtitle: 'White supremacist drove 10 hours to murder 23 Latinos in racially motivated mass shooting',
  severity: 'critical',
- category: 'Violence & Justice',
+ category: 'Terrorism',
  date: 'December 24, 2023',
  lastUpdated: 'January 23, 2024',
- summary: 'Investigation into el paso massacre.',
+ summary: 'On August 3, 2019, 21-year-old Patrick Crusius drove 10 hours from Allen, Texas, to a Walmart in El Paso, Texas, and opened fire, killing 23 people and injuring 23 others. He targeted the store because of its proximity to the Mexican border and its large Hispanic customer base. His manifesto echoed the "Great Replacement" conspiracy theory, which claims white people are being deliberately replaced by immigrants -- a theory promoted by mainstream media figures and politicians.',
  content: [
- 'This investigation documents el paso massacre and its impact.',
+ 'THE ATTACK: Crusius armed himself with an AK-47-style rifle and entered the Walmart Supercenter near Cielo Vista Mall at 10:39 AM on a Saturday morning. The store was packed with back-to-school shoppers, many from both sides of the U.S.-Mexico border. He systematically shot people in the store and parking lot for six minutes before surrendering to police.',
+ 'THE MANIFESTO: Crusius posted a four-page manifesto to 8chan minutes before the attack. Titled "The Inconvenient Truth," it expressed hatred of "race mixing" and Hispanic immigration, described the attack as "a response to the Hispanic invasion of Texas," and cited the Christchurch mosque shooter. The manifesto echoed language used by mainstream political figures.',
+ 'GREAT REPLACEMENT THEORY: The manifesto was steeped in "Great Replacement" ideology, which claims non-white immigration is a deliberate plot to replace white populations. This theory has been promoted by Tucker Carlson on Fox News over 400 times, by Congressman Steve King, and by white nationalist organizations. It directly inspired multiple mass shootings.',
+ 'VICTIMS: The 23 killed ranged in age from 15 to 90. Eight were Mexican nationals. The attack devastated the binational El Paso-Ciudad Juarez community. Among the dead: 86-year-old Angie Englisbee, 15-year-old Javier Rodriguez, and Jordan and Andre Anchondo, who shielded their two-month-old son with their bodies.',
+ 'COMMUNITY IMPACT: El Paso is over 80% Hispanic and had been one of the safest large cities in America. The massacre shattered the community\'s sense of safety. Hispanic residents reported increased fear of shopping, attending events, and existing in public. The attack was personal to an entire region.',
+ 'FAILED THREAT DETECTION: Crusius\'s mother called Allen, Texas, police weeks before the shooting to express concern about her son owning an AK-style weapon. An officer told her the purchase was legal. No follow-up occurred. The exchange illustrated the inadequacy of threat assessment and red flag laws.',
+ 'POLITICAL CONTEXT: The shooting occurred amid sustained anti-immigrant rhetoric from the Trump administration. Trump had repeatedly called immigration an "invasion" -- the exact term Crusius used in his manifesto. Trump held a rally in El Paso six months before the shooting where he warned of an "invasion" at the border.',
+ 'DEATH PENALTY AND SENTENCING: Crusius pled guilty to federal hate crimes in January 2023 and was sentenced to 90 consecutive life sentences without parole. Texas state sought the death penalty. The federal case was the largest hate crimes prosecution in modern U.S. history.',
+ 'WALMART LIABILITY: Families sued Walmart for failing to implement adequate security measures despite known risks. The El Paso shooting was one of multiple mass shootings at Walmart locations. In September 2019, Walmart announced it would stop selling handgun ammunition and certain rifle ammunition.',
+ '8CHAN PLATFORM: The manifesto was posted to 8chan, the same platform used by the Christchurch and Poway synagogue shooters. After the El Paso attack, Cloudflare dropped 8chan as a client, temporarily taking the site offline. It relaunched as 8kun. The platforming of manifestos creates a feedback loop inspiring copycat attacks.',
  ],
- tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
+ tags: ['Mass Shooting', 'White Supremacy', 'El Paso', 'Great Replacement', 'Hate Crime', 'Walmart', 'Domestic Terrorism'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Federal Hate Crimes Indictment', url: 'https://www.justice.gov/opa/pr/texas-man-charged-90-count-federal-indictment-mass-shooting-el-paso', type: 'Court Filing' },
+ { title: 'El Paso Times Victim Profiles', url: 'https://www.elpasotimes.com/story/news/crime/2019/08/03/el-paso-walmart-shooting-victims/1934369001/', type: 'News Report' },
+ { title: 'ADL Great Replacement Conspiracy Analysis', url: 'https://www.adl.org/resources/backgrounder/great-replacement-explainer', type: 'Research Study' },
+ { title: 'FBI El Paso Domestic Terrorism Investigation', url: 'https://www.fbi.gov/contact-us/field-offices/elpaso', type: 'Government Report' },
  ],
- affiliations: [],
- },
-  'election-interference-2020': {
- title: 'Election Interference 2020',
- subtitle: 'Investigation into election interference 2020.',
- severity: 'critical',
- category: 'Election Integrity',
- date: 'October 31, 2017',
- lastUpdated: 'July 8, 2024',
- summary: 'Investigation into election interference 2020.',
- content: [
- 'This investigation documents election interference 2020 and its impact.',
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Domestic terrorism investigation, federal hate crimes case', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Largest hate crimes prosecution in modern history', href: '/entities/agencies/doj' },
+ { id: '3', name: 'Fox News', type: 'corporation', relationship: 'Tucker Carlson promoted Great Replacement over 400 times', href: '/entities/corporations/fox-news' },
+ { id: '4', name: 'Walmart', type: 'corporation', relationship: 'Target location, liability lawsuits, changed ammo policies', href: '/entities/corporations/walmart' },
+ { id: '5', name: 'Donald Trump', type: 'individual', relationship: '"Invasion" rhetoric echoed in shooter\'s manifesto', href: '/entities/individuals/donald-trump' },
  ],
- tags: ['Election Integrity', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
- },
-  'election-misinfo': {
- title: 'Election Misinfo',
- subtitle: 'Investigation into election misinfo.',
- severity: 'critical',
- category: 'Election Integrity',
- date: 'September 6, 2022',
- lastUpdated: 'October 6, 2022',
- summary: 'Investigation into election misinfo.',
- content: [
- 'This investigation documents election misinfo and its impact.',
- ],
- tags: ['Election Integrity', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
- },
-  'election-misinformation': {
- title: 'Election Misinformation',
- subtitle: 'Investigation into election misinformation.',
- severity: 'critical',
- category: 'Election Integrity',
- date: 'August 19, 2025',
- lastUpdated: 'September 18, 2025',
- summary: 'Investigation into election misinformation.',
- content: [
- 'This investigation documents election misinformation and its impact.',
- ],
- tags: ['Election Integrity', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
  },
   'elite-coordination': {
  title: 'Elite Coordination',
@@ -690,7 +660,10 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'World Economic Forum', type: 'organization', relationship: 'Global elite coordination forum', href: '/entities/organizations/world-economic-forum' },
+ { id: '2', name: 'Bilderberg Group', type: 'organization', relationship: 'Secretive elite gathering', href: '/entities/organizations/bilderberg-group' },
+ ],
  },
   'epipen-price-gouging': {
  title: 'Epipen Price Gouging',
@@ -707,7 +680,10 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Mylan', type: 'individual', relationship: 'Heather Bresch, CEO who raised prices 500%', href: '/entities/individuals/heather-bresch' },
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Blocked generic competitors', href: '/entities/agencies/fda' },
+ ],
  },
   'eric-garner-death': {
  title: 'Eric Garner Death',
@@ -724,7 +700,9 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Eric Garner', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/eric-garner' },
+ ],
  },
   'ev-fraud': {
  title: 'EV Fraud',
@@ -741,24 +719,47 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'extrajudicial-killings': {
- title: 'Extrajudicial Killings',
- subtitle: 'Investigation into extrajudicial killings.',
+ affiliations: [
+ { id: '1', name: 'Tesla Motors', type: 'corporation', relationship: 'Autopilot safety fraud allegations', href: '/entities/corporations/tesla-motors' },
+ { id: '2', name: 'Elon Musk', type: 'individual', relationship: 'Tesla CEO, SEC fraud settlement', href: '/entities/individuals/elon-musk' },
+ { id: '3', name: 'SEC', type: 'agency', relationship: 'Securities fraud investigations', href: '/entities/agencies/sec' },
+ ],
+ },  'extrajudicial-killings': {
+ title: 'Extrajudicial Killings by U.S. Government',
+ subtitle: 'Targeted assassinations, drone strikes, and covert operations that kill without trial, including American citizens',
  severity: 'critical',
- category: 'Violence & Justice',
+ category: 'Government Corruption',
  date: 'November 20, 2017',
  lastUpdated: 'March 8, 2025',
- summary: 'Investigation into extrajudicial killings.',
+ summary: 'The United States government has conducted thousands of extrajudicial killings through drone strikes, covert operations, and special forces raids across multiple countries. These killings occur without criminal charges, trials, or judicial oversight. Victims include American citizens, wedding parties, aid workers, and children. The legal framework justifying these killings has been expanded by every administration since 9/11.',
  content: [
- 'This investigation documents extrajudicial killings and its impact.',
+ 'ANWAR AL-AWLAKI: In September 2011, a CIA drone strike killed Anwar al-Awlaki, an American-born cleric in Yemen. He was accused of inciting terrorism but was never charged with a crime. Two weeks later, a separate strike killed his 16-year-old son, Abdulrahman, also an American citizen. The ACLU sued, arguing that killing citizens without due process violated the Constitution.',
+ 'DRONE PROGRAM SCALE: The U.S. drone program has killed an estimated 10,000-20,000 people across Pakistan, Yemen, Somalia, Libya, and Syria since 2001. Estimates of civilian casualties range from 800 to 2,200 killed, though independent investigations suggest much higher numbers. Under Obama, drone strikes increased tenfold compared to the Bush administration.',
+ 'SIGNATURE STRIKES: The Obama administration authorized "signature strikes" -- drone attacks targeting individuals whose behavior patterns matched those of militants, even when their identities were unknown. These strikes killed unknown numbers of civilians simply for being military-age males in designated zones.',
+ 'TORTURE AND KILL OPERATIONS: Under the Bush administration, the CIA operated a global network of "black sites" where detainees were subjected to "enhanced interrogation techniques" including waterboarding, stress positions, sleep deprivation, and rectal feeding. Some detainees died in custody. The Senate Torture Report documented systematic torture of at least 119 detainees.',
+ 'PHOENIX PROGRAM LEGACY: The CIA\'s Phoenix Program in Vietnam killed an estimated 20,000-40,000 Vietnamese civilians suspected of being Viet Cong sympathizers. The program\'s methods -- intelligence-driven targeting, "neutralization," and zero accountability -- became the template for post-9/11 counterterrorism operations.',
+ 'WEDDING STRIKES: Multiple U.S. drone strikes have hit wedding celebrations. A December 2013 strike in Yemen killed 12 members of a wedding party. A 2008 strike in Afghanistan killed 47 people at a wedding. Intelligence failures and pattern-of-life analysis repeatedly fail to distinguish celebrations from militant gatherings.',
+ 'SEAL TEAM SIX OPERATIONS: JSOC special operations forces conducted thousands of raids across Afghanistan, Iraq, and other countries. The Intercept\'s "Drone Papers" revealed that during one five-month period in Afghanistan, 90% of those killed in targeted operations were not the intended targets.',
+ 'OBAMA\'S KILL LIST: The Obama administration maintained a "disposition matrix" -- a database of terrorism suspects eligible for capture or killing. Obama personally approved targets for drone strikes during regular "Terror Tuesday" meetings. The legal memos justifying the program were written by the Office of Legal Counsel and remained classified.',
+ 'TRUMP ESCALATION: The Trump administration loosened rules of engagement for drone strikes, revoked the Obama-era executive order requiring reporting of civilian casualties, and expanded the geographic scope of strikes. Civilian casualties increased significantly in Afghanistan, Syria, and Somalia.',
+ 'ACCOUNTABILITY VOID: No U.S. official has ever been criminally prosecuted for civilian deaths in drone strikes. Compensation to victims\' families has been minimal. The classification of strike intelligence prevents judicial review. The program operates in a legal framework with no meaningful external oversight.',
  ],
- tags: ['Violence & Justice', 'Investigation', 'Accountability'],
+ tags: ['Drone Strikes', 'Extrajudicial Killing', 'CIA', 'JSOC', 'War on Terror', 'Due Process', 'Civilian Casualties'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'The Drone Papers - The Intercept', url: 'https://theintercept.com/drone-papers/', type: 'Investigation' },
+ { title: 'ACLU al-Awlaki Challenge', url: 'https://www.aclu.org/cases/al-aulaqi-v-panetta', type: 'Court Filing' },
+ { title: 'Senate Intelligence Committee Torture Report', url: 'https://www.intelligence.senate.gov/study-intelligence-communitys-detention-and-interrogation-program', type: 'Congressional Record' },
+ { title: 'Bureau of Investigative Journalism Drone Strike Database', url: 'https://www.thebureauinvestigates.com/projects/drone-war', type: 'Investigation' },
+ { title: 'DOJ White Paper on Targeted Killing', url: 'https://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/dept-white-paper.pdf', type: 'Government Report' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Operates drone program, black sites', href: '/entities/agencies/cia' },
+ { id: '2', name: 'JSOC', type: 'agency', relationship: 'Special operations kill/capture missions', href: '/entities/agencies/jsoc' },
+ { id: '3', name: 'Barack Obama', type: 'individual', relationship: 'Expanded drone strikes tenfold, kill list approval', href: '/entities/individuals/barack-obama' },
+ { id: '4', name: 'Donald Trump', type: 'individual', relationship: 'Loosened ROE, revoked civilian casualty reporting', href: '/entities/individuals/donald-trump' },
+ { id: '5', name: 'Office of Legal Counsel', type: 'agency', relationship: 'Authored legal memos justifying targeted killing', href: '/entities/agencies/office-of-legal-counsel' },
+ { id: '6', name: 'NSA', type: 'agency', relationship: 'Signals intelligence for drone targeting', href: '/entities/agencies/nsa' },
+ ],
  },
   'exxon-climate-fraud': {
  title: 'Exxon Climate Fraud',
@@ -775,7 +776,9 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/exxonmobil' },
+ ],
  },
   'exxon-valdez': {
  title: 'Exxon Valdez',
@@ -792,7 +795,9 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/exxonmobil' },
+ ],
  },
   'electoral-college-manipulation': {
     title: 'Electoral College Manipulation',
@@ -816,7 +821,9 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Attempted to overturn Electoral College results in 2020', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Investigated efforts to subvert electoral certification', href: '/entities/agencies/doj' },
+ ],
   },
   'epstein-network-full-mapping': {
     title: 'Epstein Network Full Mapping',
@@ -840,7 +847,8 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/jeffrey-epstein' },
+ ],
   },
   'echelon-global-surveillance-network': {
     title: 'ECHELON Global Surveillance Network',
@@ -865,7 +873,10 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'NSA', type: 'agency', relationship: 'Core operator of ECHELON surveillance system', href: '/entities/agencies/nsa' },
+ { id: '2', name: 'GCHQ', type: 'agency', relationship: 'UK Five Eyes partner, co-operator of ECHELON', href: '/entities/agencies/gchq' },
+ { id: '3', name: 'CIA', type: 'agency', relationship: 'Intelligence consumer of ECHELON intercepts', href: '/entities/agencies/cia' },
+ ],
   },
   'extraordinary-rendition-flight-logs': {
     title: 'Extraordinary Rendition Flight Logs',
@@ -889,7 +900,8 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'NSA', type: 'agency', relationship: 'Core member of Five Eyes ECHELON', href: '/entities/agencies/nsa' },
+ ],
   },
   'emf-radiation-research-suppression': {
     title: 'EMF Radiation Research Suppression',
@@ -911,7 +923,9 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated rendition flights', href: '/entities/agencies/cia' },
+ { id: '2', name: 'Dick Cheney', type: 'individual', relationship: 'Authorized enhanced interrogation', href: '/entities/individuals/dick-cheney' },
+ ],
   },
   'election-manipulation-through-algorithms': {
     title: 'Election Manipulation Through Algorithms',
@@ -933,7 +947,10 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Algorithm manipulation of election content', href: '/entities/corporations/meta-platforms' },
+ { id: '2', name: 'Cambridge Analytica', type: 'corporation', relationship: 'Harvested user data for psychographic voter targeting', href: '/entities/corporations/cambridge-analytica' },
+ { id: '3', name: 'Google', type: 'corporation', relationship: 'Search algorithm influence on election information', href: '/entities/corporations/google' },
+ ],
   },
   'election-interference-networks': {
     title: 'Election Interference Networks',
@@ -956,7 +973,10 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Eric Garner', type: 'individual', relationship: 'Killed by NYPD chokehold', href: '/entities/individuals/eric-garner' },
+ { id: '2', name: 'Daniel Pantaleo', type: 'individual', relationship: 'Officer who applied lethal chokehold', href: '/entities/individuals/daniel-pantaleo' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Declined federal civil rights charges', href: '/entities/agencies/doj' },
+ ],
   },
   'electronic-voting-machine-vulnerabilities': {
     title: 'Electronic Voting Machine Vulnerabilities',
@@ -980,7 +1000,9 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Algorithm influence on elections', href: '/entities/corporations/meta-platforms' },
+ { id: '2', name: 'Google', type: 'corporation', relationship: 'Search results influence on elections', href: '/entities/corporations/google' },
+ ],
   },
   'electromagnetic-field-reproductive-impact': {
     title: 'Electromagnetic Field Reproductive Impact',
@@ -1004,7 +1026,8 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Internet Research Agency', type: 'organization', relationship: 'Russian election interference', href: '/entities/organizations/internet-research-agency' },
+ ],
   },
   'economic-policy-population-control-links': {
     title: 'Economic Policy Population Control Links',
@@ -1027,7 +1050,8 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'The Intercept', url: 'https://theintercept.com', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Electoral College rulings', href: '/entities/agencies/supreme-court' },
+ ],
   },
   'environmental-toxin-fertility-impact': {
     title: 'Environmental Toxin Fertility Impact',
@@ -1052,7 +1076,9 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'OpenSecrets Financial Disclosures', url: 'https://www.opensecrets.org', type: 'Financial Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Chemical safety regulation', href: '/entities/agencies/epa' },
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Food and drug chemical exposure', href: '/entities/agencies/fda' },
+ ],
   },
   'election-observer-intimidation-tactics': {
     title: 'Election Observer Intimidation Tactics',
@@ -1077,7 +1103,8 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Voting rights enforcement', href: '/entities/agencies/doj' },
+ ],
   },
   'environmental-justice-community-mapping': {
     title: 'Environmental Justice Community Mapping',
@@ -1100,7 +1127,8 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Public Citizen Research', url: 'https://www.citizen.org', type: 'Policy Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Dominion Voting Systems', type: 'corporation', relationship: 'Voting machine manufacturer', href: '/entities/corporations/dominion-voting-systems' },
+ ],
   },
 
 

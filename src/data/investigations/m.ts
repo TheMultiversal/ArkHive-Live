@@ -247,24 +247,43 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'mass-shootings': {
- title: 'Mass Shootings',
- subtitle: 'Investigation into mass shootings.',
+ affiliations: [
+ { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Coordinated messaging with political figures', href: '/entities/corporations/fox-news' },
+ ],
+ },  'mass-shootings': {
+ title: 'Mass Shootings in America',
+ subtitle: 'Epidemic of gun violence killing thousands while Congress refuses to act on gun reform',
  severity: 'critical',
- category: 'Violence & Justice',
+ category: 'Gun Violence',
  date: 'April 20, 2021',
  lastUpdated: 'February 9, 2026',
- summary: 'Investigation into mass shootings.',
+ summary: 'The United States experiences more mass shootings than any other developed nation. Between 2013 and 2025, the Gun Violence Archive recorded over 4,000 mass shooting incidents. Columbine, Sandy Hook, Parkland, Uvalde, Las Vegas, Pulse, El Paso, Buffalo, and hundreds more massacres have killed thousands and traumatized millions. Despite overwhelming public support for gun reform, the NRA and gun lobby have blocked meaningful federal legislation for decades. The pattern repeats: massacre, mourning, inaction.',
  content: [
- 'This investigation documents mass shootings and its impact.',
+ 'THE EPIDEMIC: The Gun Violence Archive, which defines a mass shooting as four or more people shot (not including the shooter), recorded 647 mass shootings in 2022, 656 in 2023, and continuing rates in subsequent years. The United States has more mass shootings per capita than any other developed nation.',
+ 'SANDY HOOK (2012): Adam Lanza murdered 20 children and six adults at Sandy Hook Elementary School in Newtown, Connecticut, using a Bushmaster AR-15. The victims were aged 6-7 years old. The massacre was considered a turning point, yet the Senate voted down expanded background checks weeks later. If America would not act after the murder of first-graders, many concluded it would never act.',
+ 'PULSE NIGHTCLUB (2016): Omar Mateen killed 49 people and wounded 53 at Pulse, a gay nightclub in Orlando, in what was then the deadliest mass shooting in modern U.S. history. Mateen pledged allegiance to ISIS during the attack. He had been investigated by the FBI twice and removed from their watchlist.',
+ 'PARKLAND (2018): Nikolas Cruz killed 17 students and staff at Marjory Stoneman Douglas High School in Parkland, Florida. Cruz had been flagged to the FBI and local law enforcement multiple times. The Parkland survivors launched the March for Our Lives movement, the largest youth-led protest since Vietnam.',
+ 'UVALDE (2022): Salvador Ramos murdered 19 children and two teachers at Robb Elementary School in Uvalde, Texas. Law enforcement waited 77 minutes before breaching the classroom while children called 911 from inside. The response failure led to the firing of the school district police chief and a DOJ investigation.',
+ 'LEGISLATIVE FAILURE: The Protection of Lawful Commerce in Arms Act (2005) shields gun manufacturers from most lawsuits. The Dickey Amendment (1996) restricted CDC gun violence research for decades. The assault weapons ban expired in 2004 and has not been renewed. The filibuster has blocked every major gun control bill.',
+ 'NRA INFLUENCE: The National Rifle Association spent over $250 million on political activities between 2010 and 2020. The organization funded campaigns of senators who voted against background check bills. NRA contributions and ratings shaped the votes of dozens of Republican lawmakers who blocked gun reform.',
+ 'BIPARTISAN SAFER COMMUNITIES ACT: In June 2022, following the Uvalde and Buffalo massacres, Congress passed the first significant federal gun legislation in nearly 30 years. The law enhanced background checks for buyers under 21, funded state crisis intervention programs, and closed the "boyfriend loophole." While a step, advocates called it woefully insufficient.',
+ 'SCHOOL SHOOTING DRILLS: Over 95% of U.S. public schools now conduct active shooter drills. Children as young as kindergartners practice hiding and barricading. The psychological toll on students forced to rehearse for their own potential murder has been documented by child psychologists and criticized as normalizing violence.',
+ 'SURVIVOR ADVOCACY: Survivors including the Parkland students, Sandy Hook families, and Gabby Giffords have become powerful advocates for gun reform. Sandy Hook families won a $73 million settlement from Remington Arms in 2022. These advocates have shifted public opinion but face ongoing threats and harassment from gun rights extremists.',
  ],
- tags: ['Violence & Justice', 'Investigation', 'Accountability'],
+ tags: ['Gun Violence', 'Mass Shootings', 'NRA', 'Sandy Hook', 'Parkland', 'Congress', 'Gun Reform'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Database' },
+ { title: 'Bipartisan Safer Communities Act', url: 'https://www.congress.gov/bill/117th-congress/senate-bill/2938', type: 'Legislation' },
+ { title: 'Sandy Hook Families v. Remington Settlement', url: 'https://www.nytimes.com/2022/02/15/nyregion/sandy-hook-families-settlement.html', type: 'News Report' },
+ { title: 'DOJ Uvalde Investigation Report', url: 'https://www.justice.gov/d9/2024-01/uvalde_critical_incident_review.pdf', type: 'Government Report' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'NRA', type: 'organization', relationship: 'Spent $250M+ blocking gun reform legislation', href: '/entities/organizations/nra' },
+ { id: '2', name: 'Congress', type: 'agency', relationship: 'Failed to pass assault weapons ban renewal; passed limited 2022 law', href: '/entities/agencies/congress' },
+ { id: '3', name: 'FBI', type: 'agency', relationship: 'Missed tips on Parkland, Pulse, and other shooters', href: '/entities/agencies/fbi' },
+ { id: '4', name: 'DOJ', type: 'agency', relationship: 'Investigated Uvalde law enforcement response failure', href: '/entities/agencies/doj' },
+ { id: '5', name: 'ATF', type: 'agency', relationship: 'Undermined by laws preventing gun purchase database', href: '/entities/agencies/atf' },
+ ],
  },
   'mccarrick-investigation': {
  title: 'Mccarrick Investigation',
@@ -281,7 +300,11 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'NRA', type: 'corporation', relationship: 'Blocked gun reform after every shooting', href: '/entities/corporations/nra' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'NICS background check system failures', href: '/entities/agencies/fbi' },
+ { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Failed to pass gun legislation', href: '/entities/agencies/congress' },
+ ],
  },
   'media-fraud': {
  title: 'Media Fraud',
@@ -298,24 +321,41 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'media-industry-abuse': {
+ affiliations: [
+ { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Dominion defamation, $787M settlement', href: '/entities/corporations/fox-news' },
+ ],
+ },  'media-industry-abuse': {
  title: 'Media Industry Abuse',
- subtitle: 'Investigation into media industry abuse.',
+ subtitle: 'Systemic sexual harassment, toxic workplaces, and exploitation of power across news and entertainment media',
  severity: 'critical',
  category: 'Abuse & Exploitation',
  date: 'August 29, 2023',
  lastUpdated: 'February 9, 2024',
- summary: 'Investigation into media industry abuse.',
+ summary: 'The media industry has harbored serial abusers protected by institutional power for decades. Roger Ailes built Fox News on a culture of sexual harassment. Les Moonves ruled CBS through intimidation and assault. Charlie Rose, Matt Lauer, and Mark Halperin exploited their positions as trusted journalists. Harvey Weinstein used media relationships to suppress stories about his predation. The #MeToo movement exposed these patterns but the structural conditions that enabled abuse remain largely unchanged.',
  content: [
- 'This investigation documents media industry abuse and its impact.',
+ 'ROGER AILES AND FOX NEWS: Fox News founder and CEO Roger Ailes sexually harassed and assaulted women throughout his career. Gretchen Carlson filed suit in 2016, resulting in a $20 million settlement. Over two dozen women came forward with similar allegations. Ailes resigned but received a $40 million severance package. He died in 2017 without facing criminal charges.',
+ 'LES MOONVES AND CBS: CBS CEO Les Moonves was accused by 12 women of sexual misconduct including forced oral sex and physical intimidation. An internal investigation found he had "willfully and materially" violated company policy and tried to obstruct the investigation. CBS fired him without his $120 million severance. The board itself was found to have enabled a toxic culture.',
+ 'CHARLIE ROSE: PBS host Charlie Rose was accused by 35 women of sexual harassment including unwanted touching, nudity, and lewd phone calls. His behavior was an "open secret" at Bloomberg LP and PBS. Despite multiple complaints to management, no action was taken until the Washington Post published allegations in 2017.',
+ 'MATT LAUER: NBC Today show anchor Matt Lauer was fired in 2017 after an employee reported "inappropriate sexual behavior." Further reporting revealed a pattern of predation enabled by NBC management. Allegations included sexual assault. Lauer had a button under his desk that locked his office door. NBC conducted an internal review but faced criticism for its limited scope.',
+ 'NBC AND RONAN FARROW: NBC killed Ronan Farrow\'s investigation into Harvey Weinstein, allowing the story to be published by The New Yorker instead. Former NBC employees alleged that executives torpedoed the story because Weinstein had damaging information about Matt Lauer. NBC denied any connection, but the decision delayed public exposure of Weinstein\'s crimes.',
+ 'MARK HALPERIN: Political journalist Mark Halperin was accused by 12 women of sexual harassment during his time at ABC News. His behavior included groping, pressing his erection against women, and propositioning subordinates. ABC was aware of complaints but took no action. Halperin later attempted a comeback, highlighting the industry\'s short memory.',
+ 'LOCAL NEWS EXPLOITATION: The pattern extends far beyond network stars. Local news stations across the country have faced allegations of sexual harassment, racial discrimination, and toxic management. Sinclair Broadcasting, Nexstar, and other conglomerates have faced multiple lawsuits from journalists alleging hostile work environments.',
+ 'ENTERTAINMENT INDUSTRY CONNECTIONS: The media industry\'s abuse problem is intertwined with Hollywood. Harvey Weinstein used media relationships to spike stories. Studios controlled press access to manage narratives. Publicists threatened journalists who pursued abuse allegations against powerful clients.',
+ 'NDAs AND SETTLEMENTS: Non-disclosure agreements have been the primary tool for silencing victims across the media industry. Companies use mandatory arbitration clauses in employment contracts to prevent public lawsuits. Fox News alone paid over $100 million in harassment settlements while maintaining a public stance against the allegations.',
+ 'STRUCTURAL PROBLEMS: Media consolidation, shrinking newsrooms, and the cult of personality around star anchors create conditions for abuse. When a single personality drives millions in advertising revenue, networks have financial incentives to protect abusers. The power imbalance between famous hosts and young producers remains extreme.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Media', 'Sexual Harassment', 'MeToo', 'Fox News', 'CBS', 'NBC', 'Abuse of Power'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Carlson v. Ailes - Fox News Settlement', url: 'https://www.nytimes.com/2016/09/07/business/media/fox-news-roger-ailes-gretchen-carlson-lawsuit-settled.html', type: 'News Report' },
+ { title: 'CBS Investigation into Les Moonves', url: 'https://www.nytimes.com/2018/12/17/business/media/cbs-les-moonves-sexual-misconduct.html', type: 'Investigation' },
+ { title: 'Ronan Farrow - Catch and Kill', url: 'https://www.newyorker.com/news/news-desk/the-case-of-al-franken', type: 'Book/Investigation' },
+ { title: 'Washington Post - Charlie Rose Allegations', url: 'https://www.washingtonpost.com/investigations/eight-women-say-charlie-rose-sexually-harassed-them/2017/11/20/9b168de8-cca7-11e7-8321-481fd63f174d_story.html', type: 'Investigation' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Institutionalized harassment culture under Ailes', href: '/entities/corporations/fox-news' },
+ { id: '2', name: 'Bill O\'Reilly', type: 'individual', relationship: 'Paid $45M in harassment settlements at Fox News', href: '/entities/individuals/bill-oreilly' },
+ { id: '3', name: 'Charlie Rose', type: 'individual', relationship: 'Accused by 35 women of harassment', href: '/entities/individuals/charlie-rose' },
+ ],
  },
   'media-radicalization': {
  title: 'Media Radicalization',
@@ -332,41 +372,45 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'medical-ethics': {
- title: 'Medical Ethics',
- subtitle: 'Investigation into medical ethics.',
+ affiliations: [
+ { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Decades of enabled abuse in media', href: '/entities/individuals/harvey-weinstein' },
+ ],
+ },  'medical-ethics': {
+ title: 'Medical Ethics Violations',
+ subtitle: 'History of unethical medical experimentation and healthcare industry abuses targeting vulnerable populations',
  severity: 'critical',
  category: 'Public Health',
  date: 'September 14, 2014',
  lastUpdated: 'September 1, 2024',
- summary: 'Investigation into medical ethics.',
+ summary: 'The U.S. medical establishment has a documented history of unethical experimentation on vulnerable populations. The Tuskegee Syphilis Study deceived Black men for 40 years. MKUltra subjected unknowing subjects to LSD and torture. Henrietta Lacks\'s cells were taken without consent and commercialized. ICE detention facilities performed forced hysterectomies. Pharmaceutical companies have used developing nations as testing grounds without adequate informed consent. These violations continue to erode public trust in medical institutions.',
  content: [
- 'This investigation documents medical ethics and its impact.',
+ 'TUSKEGEE SYPHILIS STUDY (1932-1972): The U.S. Public Health Service enrolled 600 Black men in Macon County, Alabama, in a study of untreated syphilis. The men were told they were receiving free treatment for "bad blood." Even after penicillin became the standard cure in the 1940s, treatment was withheld. At least 128 men died of syphilis or its complications. The study was not stopped until a whistleblower leaked it to the press in 1972.',
+ 'MK-ULTRA EXPERIMENTS (1953-1973): The CIA\'s mind control program subjected unknowing subjects to LSD, sensory deprivation, electroshock, and psychological torture. Experiments were conducted at over 80 universities, hospitals, and prisons. Frank Olson, an Army scientist, died after being dosed with LSD without his knowledge. CIA Director Richard Helms ordered most MKUltra files destroyed in 1973.',
+ 'HENRIETTA LACKS (1951): Johns Hopkins Hospital took cervical cancer cells from Henrietta Lacks, a Black woman, without her knowledge or consent. The "HeLa" cells became one of the most important tools in medicine, contributing to the polio vaccine, cancer research, and countless discoveries. The Lacks family received no compensation for decades while companies profited billions from the cells.',
+ 'GUATEMALA SYPHILIS EXPERIMENTS (1946-1948): U.S. researchers deliberately infected over 1,300 Guatemalan prisoners, soldiers, and psychiatric patients with syphilis and other STDs without consent. The experiments were directed by Dr. John Charles Cutler, who later worked on the Tuskegee study. The program was kept secret for over 60 years, disclosed by historian Susan Reverby in 2010.',
+ 'FORCED STERILIZATIONS: Over 60,000 Americans were forcibly sterilized under eugenics programs from the early 1900s through the 1970s. Targets were disproportionately Black, Indigenous, and disabled people. California alone sterilized 20,000 people. In 2020, nurse Dawn Wooten whistleblew about excessive hysterectomies performed on ICE detainees at Irwin County Detention Center.',
+ 'PHARMACEUTICAL TESTING IN DEVELOPING NATIONS: Major pharmaceutical companies including Pfizer, GlaxoSmithKline, and others have conducted clinical trials in developing nations with weaker regulatory oversight. Pfizer\'s 1996 Trovan trial in Kano, Nigeria, during a meningitis epidemic, resulted in the deaths of 11 children and left dozens disabled. The company was accused of not obtaining proper informed consent.',
+ 'OPIOID CRISIS ORIGINS: Purdue Pharma, led by the Sackler family, deliberately misled doctors and patients about the addictive properties of OxyContin. Internal documents showed the company knew the drug was being abused and diverted but increased marketing. The opioid epidemic has killed over 500,000 Americans since 1999.',
+ 'RADIATION EXPERIMENTS: During the Cold War, the U.S. government funded radiation experiments on over 4,000 unsuspecting Americans, including pregnant women, prisoners, and mentally disabled children. Subjects were fed radioactive oatmeal, injected with plutonium, and exposed to dangerous levels of radiation without consent.',
+ 'ORGAN TRANSPLANT ETHICS: Disparities in organ transplant access, allegations of organ harvesting in Chinese prisoners, and the ethics of living donor exploitation raise ongoing concerns. In the U.S., Black patients wait significantly longer for transplants than white patients despite equal medical need.',
+ 'INFORMED CONSENT FAILURES: Despite the Nuremberg Code and the Belmont Report, informed consent violations continue. Clinical trial subjects, particularly among low-income and minority populations, often do not fully understand experimental risks. The COVID-19 pandemic raised new questions about vaccine trial design, emergency use authorizations, and long-term safety monitoring.',
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
+ tags: ['Medical Ethics', 'Tuskegee', 'MKUltra', 'Experimentation', 'Public Health', 'Pharmaceutical Industry'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'CDC - The Tuskegee Study Timeline', url: 'https://www.cdc.gov/tuskegee/timeline.htm', type: 'Government Report' },
+ { title: 'Senate Select Committee on MKUltra', url: 'https://www.intelligence.senate.gov/sites/default/files/hearings/95mkultra.pdf', type: 'Congressional Record' },
+ { title: 'Guatemala Syphilis Experiments - Presidential Commission Report', url: 'https://bioethicsarchive.georgetown.edu/pcsbi/node/654.html', type: 'Government Report' },
+ { title: 'Advisory Committee on Human Radiation Experiments Final Report', url: 'https://bioethicsarchive.georgetown.edu/achre/final/chap1_2.html', type: 'Government Report' },
+ { title: 'Dawn Wooten ICE Whistleblower Complaint', url: 'https://projectsouth.org/wp-content/uploads/2020/09/OIG-ICDC-Complaint-1.pdf', type: 'Whistleblower Report' },
  ],
- affiliations: [],
- },
-  'medical-misinfo': {
- title: 'Medical Misinfo',
- subtitle: 'Investigation into medical misinfo.',
- severity: 'critical',
- category: 'Public Health',
- date: 'November 8, 2025',
- lastUpdated: 'January 4, 2026',
- summary: 'Investigation into medical misinfo.',
- content: [
- 'This investigation documents medical misinfo and its impact.',
+ affiliations: [
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated MKUltra mind control program 1953-1973', href: '/entities/agencies/cia' },
+ { id: '2', name: 'CDC', type: 'agency', relationship: 'Oversaw Tuskegee Study; now custodian of records', href: '/entities/agencies/cdc' },
+ { id: '3', name: 'Purdue Pharma', type: 'corporation', relationship: 'Deliberately lied about OxyContin addiction risk', href: '/entities/corporations/purdue-pharma' },
+ { id: '4', name: 'Pfizer', type: 'corporation', relationship: 'Trovan trial in Nigeria killed 11 children', href: '/entities/corporations/pfizer' },
+ { id: '5', name: 'ICE', type: 'agency', relationship: 'Detained women subjected to forced hysterectomies', href: '/entities/agencies/ice' },
+ { id: '6', name: 'Dawn Wooten', type: 'individual', relationship: 'ICE whistleblower who exposed forced hysterectomies', href: '/entities/individuals/dawn-wooten' },
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
  },
   'menendez-bribery': {
  title: 'Menendez Bribery',
@@ -383,7 +427,10 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Bob Menendez', type: 'individual', relationship: 'Senator convicted of bribery', href: '/entities/individuals/bob-menendez' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal corruption prosecution', href: '/entities/agencies/doj' },
+ ],
  },
   'metoo-media': {
  title: 'Metoo Media',
@@ -400,24 +447,40 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'michael-brown-shooting': {
+ affiliations: [
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Medical ethics oversight', href: '/entities/agencies/fda' },
+ ],
+ },  'michael-brown-shooting': {
  title: 'Michael Brown Shooting',
- subtitle: 'Investigation into michael brown shooting.',
+ subtitle: 'Ferguson police killing of unarmed Black teenager sparked national protests and exposed systemic racism in policing',
  severity: 'critical',
- category: 'Violence & Justice',
+ category: 'Police Violence',
  date: 'January 14, 2023',
  lastUpdated: 'February 25, 2023',
- summary: 'Investigation into michael brown shooting.',
+ summary: 'On August 9, 2014, Ferguson, Missouri police officer Darren Wilson shot and killed unarmed 18-year-old Michael Brown. Wilson fired 12 rounds, hitting Brown at least six times. The shooting and the city\'s militarized police response to protests ignited the Black Lives Matter movement into a national force. A DOJ investigation found systemic unconstitutional policing and racial bias in Ferguson, where a majority-Black population was subjected to a revenue-driven court system that targeted Black residents with excessive fines and discriminatory law enforcement.',
  content: [
- 'This investigation documents michael brown shooting and its impact.',
+ 'THE SHOOTING: At approximately 12:01 PM on August 9, 2014, officer Darren Wilson encountered Michael Brown and Dorian Johnson walking in the middle of Canfield Drive. What happened next remains disputed: Wilson said Brown reached into his patrol vehicle and grabbed for his gun; witnesses said Wilson grabbed Brown through the car window. Wilson fired 12 rounds, hitting Brown at least six times, including a fatal wound to the head. Brown was unarmed.',
+ 'BODY LEFT IN THE STREET: Michael Brown\'s body was left in the street for approximately four and a half hours in the August heat. The extended period during which his body lay uncovered in the open became a defining image of dehumanization and galvanized community outrage even before the protests began.',
+ 'FERGUSON UPRISING: Protests began immediately and continued for weeks. The Ferguson Police Department\'s response included armored vehicles, tear gas, rubber bullets, and officers pointing military-style weapons at peaceful protesters. The militarized response shocked the nation and became a turning point in public awareness of police militarization.',
+ 'DARREN WILSON GRAND JURY: St. Louis County Prosecutor Robert McCulloch presented the case to a grand jury, which in November 2014 declined to indict Wilson. McCulloch\'s handling was widely criticized: he was seen as an advocate for Wilson, presenting exculpatory evidence unusual for a grand jury, and his family had deep ties to law enforcement. Wilson resigned and was never charged.',
+ 'DOJ FERGUSON INVESTIGATION: In March 2015, the DOJ released a devastating 102-page report on the Ferguson Police Department. The investigation found that the city used its police department as a revenue collection agency, disproportionately targeting Black residents. Black people were 67% of the population but received 85% of vehicle stops, 90% of citations, and 93% of arrests.',
+ 'REVENUE-DRIVEN POLICING: Ferguson\'s municipal court operated as a collections agency. The city generated over $2.6 million in court fines in 2013, its second-largest revenue source. Residents received multiple fines for minor infractions. Arrest warrants were issued for unpaid fines. People were jailed for being unable to pay. The system essentially criminalized poverty.',
+ 'RACIST EMAILS: The DOJ investigation uncovered emails exchanged by Ferguson police and court officials containing blatantly racist "jokes" about Black Americans and President Obama. The emails demonstrated that racial bias was not incidental but embedded in the organizational culture of Ferguson\'s government.',
+ 'BLACK LIVES MATTER: While the BLM movement was founded in 2013 after Trayvon Martin\'s killing, Ferguson transformed it into a national phenomenon. Organizers including DeRay Mckesson, Johnetta Elzie, and Brittany Packnett became national figures. The movement\'s growth reshaped conversations about policing, racial justice, and systemic racism.',
+ 'CONSENT DECREE: In March 2016, Ferguson entered into a DOJ consent decree requiring sweeping reforms including new use-of-force policies, ending revenue-driven policing, bias-free policing training, and an independent monitor. Progress has been slow, with the independent monitor noting continued challenges with implementation.',
+ 'DEATH OF ACTIVISTS: In the years following the Ferguson protests, several prominent activists were found dead under disputed circumstances. Darren Seals (shot and set on fire), DeAndre Joshua (shot and burned in a car), Edward Crawford (shot in his car, ruled suicide), and Bassem Masri (drug overdose). The pattern raised questions but no connections have been established.',
  ],
- tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
+ tags: ['Police Violence', 'Ferguson', 'Michael Brown', 'Black Lives Matter', 'DOJ', 'Racial Justice', 'Militarization'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Investigation of the Ferguson Police Department', url: 'https://www.justice.gov/sites/default/files/opa/press-releases/attachments/2015/03/04/ferguson_police_department_report.pdf', type: 'Government Report' },
+ { title: 'DOJ Report on Michael Brown Shooting', url: 'https://www.justice.gov/sites/default/files/opa/press-releases/attachments/2015/03/04/doj_report_on_shooting_of_michael_brown_1.pdf', type: 'Government Report' },
+ { title: 'Ferguson Consent Decree', url: 'https://www.justice.gov/crt/case/united-states-v-city-ferguson', type: 'Court Filing' },
+ { title: 'Ferguson Commission Report - Forward Through Ferguson', url: 'https://forwardthroughferguson.org/report/', type: 'Independent Report' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ Civil Rights Division', type: 'agency', relationship: 'Found systemic racial bias in Ferguson PD', href: '/entities/agencies/doj-civil-rights' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Declined federal civil rights charges against Wilson', href: '/entities/agencies/doj' },
+ ],
  },
   'military-industrial-ai': {
  title: 'Military Industrial AI',
@@ -434,7 +497,10 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'AI surveillance for military', href: '/entities/corporations/palantir' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'AI weapons development', href: '/entities/agencies/pentagon' },
+ ],
  },
   'military-industrial-complex': {
  title: 'Military Industrial Complex',
@@ -451,7 +517,11 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Lockheed Martin Corporation', type: 'corporation', relationship: 'Largest defense contractor', href: '/entities/corporations/lockheed-martin' },
+ { id: '2', name: 'Raytheon Company (now RTX Corporation)', type: 'corporation', relationship: 'Major weapons manufacturer', href: '/entities/corporations/raytheon' },
+ { id: '3', name: 'Pentagon', type: 'agency', relationship: 'Revolving door with contractors', href: '/entities/agencies/pentagon' },
+ ],
  },
   'military-readiness': {
  title: 'Military Readiness',
@@ -468,7 +538,9 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Defense readiness concerns', href: '/entities/agencies/pentagon' },
+ ],
  },
   'militia-movement': {
  title: 'Militia Movement',
@@ -485,7 +557,10 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Ferguson pattern-or-practice investigation', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Darren Wilson', type: 'individual', relationship: 'Officer who killed Michael Brown', href: '/entities/individuals/darren-wilson' },
+ ],
  },
   'mississippi-welfare': {
  title: 'Mississippi Welfare',
@@ -502,7 +577,10 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Brett Favre', type: 'individual', relationship: 'Received welfare funds for volleyball stadium', href: '/entities/individuals/brett-favre' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal welfare fraud investigation', href: '/entities/agencies/doj' },
+ ],
  },
   'monsanto-crimes': {
  title: 'Monsanto Crimes',
@@ -519,7 +597,9 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/monsanto' },
+ ],
  },
   'mortgage-fraud-crisis': {
  title: 'Mortgage Fraud Crisis',
@@ -536,7 +616,10 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Agent Orange, Roundup, PCBs', href: '/entities/corporations/monsanto' },
+ { id: '2', name: 'Bayer AG', type: 'corporation', relationship: 'Acquired Monsanto and its liabilities', href: '/entities/corporations/bayer-ag' },
+ ],
  },
   'msu-coverup': {
  title: 'MSU Coverup',
@@ -553,24 +636,41 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'music-industry-abuse': {
+ affiliations: [
+      { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'AI surveillance for military', href: '/entities/corporations/palantir' },
+      { id: '2', name: 'Pentagon', type: 'agency', relationship: 'AI weapons development', href: '/entities/agencies/pentagon' },
+    ],
+ },  'music-industry-abuse': {
  title: 'Music Industry Abuse',
- subtitle: 'Investigation into music industry abuse.',
+ subtitle: 'Exploitation, sexual abuse, and labor theft endemic to the music industry from executives to producers to artists',
  severity: 'critical',
  category: 'Abuse & Exploitation',
  date: 'March 25, 2025',
  lastUpdated: 'November 3, 2025',
- summary: 'Investigation into music industry abuse.',
+ summary: 'The music industry has enabled decades of exploitation, sexual abuse, financial predation, and labor theft. From R. Kelly\'s decades-long abuse of minors to Sean "Diddy" Combs\'s alleged sex trafficking network, from exploitative record contracts that amount to indentured servitude to the physical and sexual abuse of aspiring artists, the industry\'s power structures have protected predators and silenced victims. Young artists, particularly women and those from marginalized communities, face systemic exploitation across every level of the business.',
  content: [
- 'This investigation documents music industry abuse and its impact.',
+ 'R. KELLY: For over 25 years, R. Kelly sexually abused minors with the music industry\'s knowledge and complicity. He illegally married 15-year-old Aaliyah in 1994. A sex tape with a 14-year-old surfaced in 2002 but he was acquitted in 2008. The 2019 documentary "Surviving R. Kelly" finally triggered accountability. In 2022, he was convicted of racketeering and sex trafficking and sentenced to 30 years in federal prison.',
+ 'SEAN "DIDDY" COMBS: In 2023-2024, Sean Combs faced multiple lawsuits alleging sexual assault, sex trafficking, and racketeering. Producer Rodney "Lil Rod" Jones alleged Combs ran a sex trafficking operation. Casandra Ventura (Cassie) settled a lawsuit alleging years of abuse. Federal prosecutors indicted Combs on charges of racketeering, sex trafficking, and transportation to engage in prostitution. Hotel surveillance footage appeared to corroborate some allegations.',
+ 'EXPLOITATIVE CONTRACTS: Standard record deals give labels ownership of masters and lock artists into multi-album obligations with minimal advances. Taylor Swift\'s public battle with Scooter Braun over ownership of her masters highlighted how artists lose control of their own work. Prince wrote "slave" on his face to protest his Warner Bros. contract.',
+ 'PRODUCER PREDATION: Producers and executives leverage their power over aspiring artists. Dr. Luke was accused by Kesha of drugging and raping her; the legal battle lasted years and highlighted how contracts can trap artists with their alleged abusers. Multiple female artists have described being pressured for sexual favors in exchange for studio time, features, and promotion.',
+ 'CHILD EXPLOITATION: The industry has a long history of exploiting young performers. Michael Jackson\'s childhood abuse by his father and handlers is well documented. Young boy bands and girl groups face grueling schedules, financial exploitation, and psychological manipulation. TikTok and social media have created new avenues for the exploitation of minors seeking music careers.',
+ 'FINANCIAL EXPLOITATION: Record labels, managers, and promoters routinely exploit artists financially. TLC declared bankruptcy despite selling 65 million records. Billy Joel lost millions to his former manager. Artists from 360 deals earn fractions of pennies per stream while labels collect the majority of revenue.',
+ 'RACIAL EXPLOITATION: Black artists have been systematically exploited since the origins of recorded music. Little Richard, Chuck Berry, and countless blues and R&B artists had their music stolen, received no royalties, and watched white artists profit from their innovations. This pattern continues in hip-hop, where predominantly Black artists create value captured by predominantly white-owned labels.',
+ 'TOURING AND LABOR: Touring musicians, roadies, and support staff face dangerous working conditions, wage theft, and exploitation. The concert industry, dominated by Live Nation, has been criticized for artist fee structures, deceptive ticket pricing, and inadequate safety standards. The Astroworld tragedy at Travis Scott\'s 2021 concert killed 10 people.',
+ 'WHISTLEBLOWER RETALIATION: Those who speak out face blacklisting and career destruction. Kesha\'s career stalled during her legal battle. Journalists who investigated R. Kelly faced legal threats. Industry insiders who expose abuse are frozen out. The code of silence parallels other industries where power and money protect predators.',
+ 'STREAMING ERA EXPLOITATION: Spotify pays artists an average of $0.003-0.005 per stream. Independent artists need millions of streams to earn minimum wage. Major labels negotiate favorable rates that benefit their catalogs while indie artists are squeezed. Daniel Ek, Spotify\'s CEO, told artists to release more content to earn more, ignoring the fundamental math of streaming economics.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Music Industry', 'Exploitation', 'R. Kelly', 'Diddy', 'Sexual Abuse', 'Labor Rights', 'Streaming'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'United States v. Robert Sylvester Kelly - Conviction', url: 'https://www.justice.gov/usao-edny/pr/r-singer-r-kelly-convicted-racketeering-and-sex-trafficking', type: 'Court Filing' },
+ { title: 'Combs Federal Indictment', url: 'https://www.justice.gov/usao-sdny/pr/sean-combs-charged-sex-trafficking', type: 'Court Filing' },
+ { title: 'FTC Report on Concert Ticket Industry', url: 'https://www.ftc.gov/reports/ticket-sales-event-ticketing-industry', type: 'Government Report' },
+ { title: 'Surviving R. Kelly Documentary', url: 'https://www.nytimes.com/2019/01/03/arts/television/surviving-r-kelly.html', type: 'Investigation' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted R. Kelly and Sean Combs', href: '/entities/agencies/doj' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigated Combs sex trafficking allegations', href: '/entities/agencies/fbi' },
+ ],
  },
   'ms-13-transnational-operations': {
     title: 'MS-13 Transnational Operations',
@@ -596,7 +696,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'The Intercept', url: 'https://theintercept.com', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'MS-13 investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Gang prosecutions', href: '/entities/agencies/doj' },
+ ],
   },
   'mkultra-full-declassification-analysis': {
     title: 'MKUltra Full Declassification Analysis',
@@ -620,7 +722,8 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'OpenSecrets Financial Disclosures', url: 'https://www.opensecrets.org', type: 'Financial Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated MKUltra mind control program', href: '/entities/agencies/cia' },
+ ],
   },
   'medicare-fraud-systematic-exploitation': {
     title: 'Medicare Fraud Systematic Exploitation',
@@ -646,7 +749,8 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', type: 'Court Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Sean Combs', type: 'individual', relationship: 'Accused of decades of abuse', href: '/entities/individuals/sean-combs' },
+ ],
   },
   'mind-control-programs-modern-era': {
     title: 'Mind Control Programs: Modern Era',
@@ -721,7 +825,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'The Intercept', url: 'https://theintercept.com', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Historical mind control experiments', href: '/entities/agencies/cia' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'DARPA behavioral research programs', href: '/entities/agencies/pentagon' },
+ ],
   },
   'mass-surveillance-domestic-architecture': {
     title: 'Mass Surveillance Domestic Architecture',
@@ -743,7 +849,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'NSA', type: 'agency', relationship: 'Domestic surveillance infrastructure operator', href: '/entities/agencies/nsa' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Section 702 surveillance authority', href: '/entities/agencies/fbi' },
+ ],
   },
   'military-base-environmental-contamination': {
     title: 'Military Base Environmental Contamination',
@@ -768,7 +876,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Military base PFAS contamination', href: '/entities/agencies/pentagon' },
+ { id: '2', name: 'EPA', type: 'agency', relationship: 'Cleanup enforcement at military sites', href: '/entities/agencies/epa' },
+ ],
   },
   'methane-emissions-underreporting': {
     title: 'Methane Emissions Underreporting',
@@ -792,7 +902,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Methane monitoring gaps', href: '/entities/agencies/epa' },
+ { id: '2', name: 'ExxonMobil', type: 'corporation', relationship: 'Major methane emitter underreporting', href: '/entities/corporations/exxonmobil' },
+ ],
   },
   'military-industrial-complex-profit-pipeline': {
     title: 'Military Industrial Complex Profit Pipeline',
@@ -815,7 +927,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Lockheed Martin Corporation', type: 'corporation', relationship: 'Largest defense profits', href: '/entities/corporations/lockheed-martin' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Unauditable defense spending', href: '/entities/agencies/pentagon' },
+ ],
   },
   'media-consolidation-democracy-threat': {
     title: 'Media Consolidation Democracy Threat',
@@ -837,7 +951,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Sinclair Broadcast Group', type: 'corporation', relationship: 'Conservative local news monopoly', href: '/entities/corporations/sinclair' },
+ { id: '2', name: 'FCC', type: 'agency', relationship: 'Weakened media ownership rules', href: '/entities/agencies/fcc' },
+ ],
   },
   'massage-parlor-network-investigations': {
     title: 'Massage Parlor Network Investigations',
@@ -862,7 +978,8 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Human trafficking investigations', href: '/entities/agencies/fbi' },
+ ],
   },
   'mining-industry-environmental-destruction': {
     title: 'Mining Industry Environmental Destruction',
@@ -884,7 +1001,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Mine cleanup oversight', href: '/entities/agencies/epa' },
+ { id: '2', name: 'Interior Department', type: 'agency', relationship: 'Mining permits on public lands', href: '/entities/agencies/interior-department' },
+ ],
   },
   'mass-formation-psychosis-media-analysis': {
     title: 'Mass Formation Psychosis Media Analysis',
@@ -906,7 +1025,8 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Mass media manipulation techniques', href: '/entities/corporations/fox-news' },
+ ],
   },
   'modern-behavioral-influence-programs': {
     title: 'Modern Behavioral Influence Programs',
@@ -928,7 +1048,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'Center for Responsive Politics', url: 'https://www.opensecrets.org', type: 'Financial Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Historical behavioral modification programs', href: '/entities/agencies/cia' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'DARPA behavioral research', href: '/entities/agencies/pentagon' },
+ ],
   },
 
 

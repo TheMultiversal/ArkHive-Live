@@ -4062,30 +4062,38 @@ const profiles: Record<string, IndividualProfile> = {
 
  'carrie-tolstedt': {
  name: 'Carrie Tolstedt',
- title: 'Wells Fargo Senior EVP who oversaw the Community Banking division during the fake accounts scandal',
- role: 'Corporate Executive',
+ title: 'Former Head of Community Banking, Wells Fargo',
+ role: 'Executive charged in fake accounts scandal',
  riskLevel: 'high',
- description: 'Carrie Tolstedt led Wells Fargo\'s Community Banking division where employees created millions of unauthorized accounts to meet aggressive sales targets. She was fined $25 million by the OCC and faced criminal charges for her role in the scandal.',
- education: [],
+ description: 'Carrie Lynn Tolstedt oversaw Wells Fargo Community Banking division during the period when employees opened millions of unauthorized accounts in customers names to meet aggressive sales targets. She retired with a $125 million compensation package before the scandal became public and was later charged by the SEC and OCC.',
+ education: ['University of Iowa, BA', 'University of Iowa, MBA'],
  affiliations: [
  { name: 'Wells Fargo', role: 'Senior Executive Vice President, Community Banking', type: 'corporation' },
  ],
  controversies: [
- 'Oversaw division that created millions of fake customer accounts to meet sales quotas',
- ],
+      'Oversaw the Wells Fargo cross-selling culture that led to employees opening approximately 3.5 million unauthorized bank and credit card accounts in customers names',
+      'Received a $125 million retirement package when she left the company in July 2016, two months before the scandal became public',
+      'SEC charged her with misleading investors about the success of Wells Fargo Community Banking cross-selling strategy while knowing about the underlying fraud',
+      'OCC imposed a $17 million civil money penalty and banned her from the banking industry',
+      'Pleaded guilty in 2024 to a criminal charge of obstructing a bank examination in connection with the fake accounts scandal',
+    ],
  relatedInvestigations: [
  { title: 'Wells Fargo Fake Accounts Scandal', slug: 'wells-fargo-fraud', severity: 'critical' },
  ],
  timeline: [
- { date: '2016', event: 'Left Wells Fargo as fake accounts scandal became public' },
- ],
+      { date: '2008-01-01', event: 'Named head of Wells Fargo Community Banking division' },
+      { date: '2016-07-31', event: 'Retired from Wells Fargo with $125 million package' },
+      { date: '2016-09-08', event: 'CFPB fines Wells Fargo $185 million for unauthorized accounts' },
+      { date: '2020-01-23', event: 'OCC bans Tolstedt from banking, imposes $17 million fine' },
+      { date: '2024-09-12', event: 'Pleaded guilty to obstruction of a bank examination' },
+    ],
  sources: [
- { title: 'Wells Fargo Fake Accounts Scandal', url: '/investigations/wells-fargo-fraud' },
- ],
+      { title: 'SEC Charges Against Tolstedt', url: 'https://www.sec.gov/litigation/litreleases/', date: '2024-01-01' },
+      { title: 'OCC Enforcement Action', url: 'https://www.occ.treas.gov/topics/laws-and-regulations/enforcement-actions/', date: '2020-01-23' },
+    ],
  knownAssociates: [
- { name: 'John Stumpf', relationship: 'Wells Fargo CEO during Tolstedt\'s fake accounts scandal', href: '/entities/individuals/john-stumpf' },
- { name: 'Timothy Sloan', relationship: 'Successor CEO who faced fallout from Tolstedt\'s division', href: '/entities/individuals/timothy-sloan' }
- ],
+      { name: 'John Stumpf', relationship: 'Wells Fargo CEO who resigned over the fake accounts scandal', href: '/entities/individuals/john-stumpf' },
+    ],
 
  },
  'cathy-oneil': {
@@ -4270,35 +4278,33 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'christine-maxwell': {
  name: 'Christine Maxwell',
- title: 'Ghislaine\'s Sister, Chiliad Co-Founder',
- role: 'Intelligence-Linked Tech Entrepreneur',
- riskLevel: 'high',
- description: 'Ghislaine Maxwell\'s older sister who co-founded Chiliad, a data analytics and search technology company that held contracts with the FBI, CIA, and other intelligence agencies. The connection between Chiliad\'s intelligence contracts and the Maxwell family\'s alleged intelligence ties through father Robert Maxwell raises significant questions about surveillance and data sharing.',
- education: ['Oxford University'],
+ title: 'Technology Executive and Chiliad Co-Founder',
+ role: 'Ghislaine Maxwell sister',
+ riskLevel: 'low',
+ description: 'Christine Maxwell is a British-born technology executive and the sister of Ghislaine Maxwell. She co-founded the internet search company Magellan in 1993 and later worked in technology ventures. She has been scrutinized for her family connections and her attendance at her sister trial.',
+ education: ['University of Oxford, BA French and Spanish'],
  affiliations: [
  { name: 'Chiliad', role: 'Co-Founder', type: 'corporation' },
  ],
  knownAssociates: [
- { name: 'Ghislaine Maxwell', relationship: 'Sister', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Robert Maxwell', relationship: 'Father', href: '/entities/individuals/robert-maxwell' },
- { name: 'Isabel Maxwell', relationship: 'Sister', href: '/entities/individuals/isabel-maxwell' },
- ],
+      { name: 'Ghislaine Maxwell', relationship: 'Sister, convicted sex trafficker', href: '/entities/individuals/ghislaine-maxwell' },
+      { name: 'Robert Maxwell', relationship: 'Father, disgraced media mogul', href: '/entities/individuals/robert-maxwell' },
+    ],
  controversies: [
- 'Co-founded Chiliad which held contracts with FBI and CIA',
- 'Maxwell family ties to multiple intelligence agencies',
- 'Questions about data sharing between intelligence clients and family network',
- ],
+      'Sister of convicted sex trafficker Ghislaine Maxwell; attended her federal trial in New York',
+      'Co-founded Magellan, one of the first internet search engines, which was later acquired by Excite',
+      'Daughter of media baron Robert Maxwell, who was suspected of ties to multiple intelligence services before his mysterious death in 1991',
+    ],
  relatedInvestigations: [
  { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
  ],
  timeline: [
- { date: '1991', event: 'Father Robert Maxwell died under suspicious circumstances' },
- { date: '2000s', event: 'Co-founded Chiliad data analytics company' },
- { date: '2000s', event: 'Chiliad secured FBI and CIA contracts' },
- ],
+      { date: '1993-01-01', event: 'Co-founded Magellan internet search company' },
+      { date: '2021-11-29', event: 'Attended Ghislaine Maxwell federal trial as family supporter' },
+    ],
  sources: [
- { title: 'Guardian: Maxwell Family', url: 'https://www.theguardian.com/us-news/2019/aug/22/ghislaine-maxwell-what-is-known-about-the-life-of-jeffrey-epsteins-closest-associate', date: '2019' },
- ],
+      { title: 'Court Records - United States v. Ghislaine Maxwell', url: 'https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell', date: '2021-12-29' },
+    ],
  },
  'chris-tucker': {
  name: 'Chris Tucker',

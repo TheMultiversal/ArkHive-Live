@@ -280,57 +280,35 @@ const investigations_d: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Republican National Committee', type: 'organization', relationship: 'Drives backsliding', href: '/entities/organizations/rnc' },
  ],
- },
-  'daniel-shaver-killing': {
- title: 'Daniel Shaver Killing',
- subtitle: 'Investigation into daniel shaver killing.',
+ },  'daniel-shaver-killing': {
+ title: 'Daniel Shaver Police Killing',
+ subtitle: 'Unarmed man executed by police in hotel hallway while crawling and begging for his life',
  severity: 'critical',
- category: 'Violence & Justice',
+ category: 'Police Violence',
  date: 'May 2, 2021',
  lastUpdated: 'May 26, 2022',
- summary: 'Investigation into daniel shaver killing.',
+ summary: 'On January 18, 2016, Mesa, Arizona police officer Philip Brailsford shot and killed Daniel Shaver, an unarmed 26-year-old father of two, in a hotel hallway. Shaver was crawling on his hands and knees, sobbing and begging not to be shot, when Brailsford fired five rounds from an AR-15 engraved with the words "YOU\'RE FUCKED." Brailsford was acquitted of second-degree murder and later rehired by the department to qualify for a $31,000/year pension for PTSD from the killing.',
  content: [
- 'This investigation documents daniel shaver killing and its impact.',
+ 'THE INCIDENT: Guests at a La Quinta Inn in Mesa, Arizona reported seeing someone pointing a rifle from a window. Officers responded and found Daniel Shaver, a pest control worker from Texas who had been showing his work pellet gun to a woman he met in the hotel. Shaver was unarmed when confronted by police.',
+ 'CONTRADICTORY COMMANDS: Sergeant Charles Langley issued confusing, contradictory instructions to Shaver, who was intoxicated and visibly terrified. Langley ordered Shaver to crawl toward officers, then threatened to shoot if he made a mistake. The commands were described by experts as impossible to follow perfectly.',
+ 'THE SHOOTING: As Shaver crawled toward officers, his shorts slipped and he reached back to adjust them. Brailsford opened fire, striking Shaver five times with his AR-15 rifle. Shaver died in the hallway. He was unarmed. No weapon was found on or near his body.',
+ 'THE WEAPON INSCRIPTION: Brailsford\'s AR-15 had the words "YOU\'RE FUCKED" etched into the dust cover. The judge ruled this evidence inadmissible at trial, determining it would be prejudicial. Critics argued the inscription directly demonstrated Brailsford\'s aggressive mindset.',
+ 'BODY CAMERA SUPPRESSED: The body camera footage was not released until after Brailsford\'s acquittal in December 2017. The video, which showed Shaver sobbing and begging for his life before being shot, provoked national outrage. Many called it the most disturbing police killing video ever released.',
+ 'ACQUITTAL: In December 2017, a jury acquitted Brailsford of second-degree murder and reckless manslaughter. The defense argued Brailsford reasonably believed Shaver was reaching for a weapon. The suppression of the weapon inscription and the body camera footage not being publicly available during trial were widely criticized.',
+ 'REHIRED FOR PENSION: In August 2018, the Mesa Police Department temporarily rehired Brailsford specifically so he could apply for an accidental disability pension of $31,000 per year for PTSD he claimed to have developed from the shooting. He was 28 years old at the time.',
+ 'SGT. LANGLEY FLED: Charles Langley, the sergeant who gave the contradictory commands and was not charged, retired and moved to the Philippines shortly after the shooting. He was never held accountable for his role in creating the lethal situation.',
+ 'FAMILY LAWSUIT: Shaver\'s wife filed a wrongful death lawsuit against the City of Mesa, settling for an undisclosed amount. The family has advocated for police reform and increased accountability for officers who use excessive force.',
+ 'SYSTEMIC IMPLICATIONS: The Shaver case illustrates how police are rarely convicted even when killings are captured on video. The rehiring for pension benefits demonstrated how departments protect officers who kill. The case became a touchstone for police reform advocates across the political spectrum.',
  ],
- tags: ['Violence & Justice', 'Investigation', 'Accountability'],
+ tags: ['Police Violence', 'Mesa PD', 'Daniel Shaver', 'Body Camera', 'Excessive Force', 'Police Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Mesa PD Body Camera Footage', url: 'https://www.washingtonpost.com/news/post-nation/wp/2017/12/08/jury-acquits-former-mesa-officer-phillip-brailsford-in-fatal-2016-shooting/', type: 'News Report' },
+ { title: 'Brailsford Pension Rehire', url: 'https://www.azcentral.com/story/news/local/mesa/2019/07/10/mesa-police-officer-philip-brailsford-rehired-pension-daniel-shaver-shooting/1698540001/', type: 'News Report' },
+ { title: 'Court Records - State v. Brailsford', url: 'https://www.superiorcourt.maricopa.gov/docket/CriminalCourtCases/', type: 'Court Filing' },
  ],
- affiliations: [],
- },
-  'darfur-genocide': {
- title: 'Darfur Genocide',
- subtitle: 'Investigation into darfur genocide.',
- severity: 'critical',
- category: 'International',
- date: 'May 28, 2021',
- lastUpdated: 'February 20, 2022',
- summary: 'Investigation into darfur genocide.',
- content: [
- 'This investigation documents darfur genocide and its impact.',
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'No federal civil rights charges filed', href: '/entities/agencies/doj' },
  ],
- tags: ['International', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
- },
-  'daunte-wright-shooting': {
- title: 'Daunte Wright Shooting',
- subtitle: 'Investigation into daunte wright shooting.',
- severity: 'critical',
- category: 'Violence & Justice',
- date: 'February 16, 2020',
- lastUpdated: 'April 13, 2024',
- summary: 'Investigation into daunte wright shooting.',
- content: [
- 'This investigation documents daunte wright shooting and its impact.',
- ],
- tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
  },
   'defense-tech-oligarchy': {
  title: 'Defense Tech Oligarchy',
@@ -347,7 +325,11 @@ const investigations_d: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'Defense surveillance contractor', href: '/entities/corporations/palantir' },
+ { id: '2', name: 'Peter Thiel', type: 'individual', relationship: 'Palantir co-founder, tech oligarch', href: '/entities/individuals/peter-thiel' },
+ { id: '3', name: 'Elon Musk', type: 'individual', relationship: 'SpaceX defense contracts, DOGE', href: '/entities/individuals/elon-musk' },
+ ],
  },
   'disinformation': {
  title: 'Disinformation',
@@ -364,7 +346,10 @@ const investigations_d: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Facebook', type: 'corporation', relationship: 'Primary platform for disinformation spread', href: '/entities/corporations/meta-platforms' },
+ { id: '2', name: 'Fox News', type: 'corporation', relationship: 'Major disinformation broadcaster', href: '/entities/corporations/fox-news' },
+ ],
  },
   'domestic-extremism': {
  title: 'Domestic Extremism',
@@ -381,24 +366,46 @@ const investigations_d: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'domestic-terrorism': {
- title: 'Domestic Terrorism',
- subtitle: 'Investigation into domestic terrorism.',
+ affiliations: [
+ { id: '1', name: 'FEC', type: 'agency', relationship: 'Failed to enforce disclosure rules', href: '/entities/agencies/fec' },
+ { id: '2', name: 'Koch Industries', type: 'corporation', relationship: 'Largest dark money network operators', href: '/entities/corporations/koch-industries' },
+ { id: '3', name: 'Leonard Leo', type: 'individual', relationship: '$1.6B dark money empire', href: '/entities/individuals/leonard-leo' },
+ ],
+ },  'domestic-terrorism': {
+ title: 'Domestic Terrorism in America',
+ subtitle: 'Far-right, white supremacist, and anti-government extremist violence that kills more Americans than jihadist terrorism',
  severity: 'critical',
- category: 'Violence & Justice',
+ category: 'Terrorism',
  date: 'May 5, 2016',
  lastUpdated: 'January 21, 2025',
- summary: 'Investigation into domestic terrorism.',
+ summary: 'Domestic terrorism, overwhelmingly driven by far-right and white supremacist ideology, has killed more Americans since 9/11 than international terrorism. The FBI and DHS have repeatedly identified domestic violent extremism as the most lethal and persistent terrorism threat to the homeland, yet law enforcement resources, legal frameworks, and political will remain disproportionately focused on international and Islamist threats.',
  content: [
- 'This investigation documents domestic terrorism and its impact.',
+ 'SCALE OF THREAT: According to the Anti-Defamation League, right-wing extremists committed 75% of all domestic extremist murders between 2012-2021. The FBI Director testified that the domestic terrorism caseload has more than doubled since 2020. DHS threat assessments name racially motivated violent extremism as the most lethal DVE threat.',
+ 'OKLAHOMA CITY 1995: Timothy McVeigh detonated a truck bomb at the Murrah Federal Building, killing 168 people including 19 children. The attack demonstrated the lethality of anti-government extremism. Despite this warning, domestic terrorism was deprioritized after 9/11 redirected resources to international threats.',
+ 'CHARLESTON 2015: White supremacist Dylann Roof murdered 9 Black churchgoers at Emanuel AME Church in a deliberate act of racial terrorism. Despite his manifesto explicitly stating racist motivations, debate over whether to call it "terrorism" revealed the disparate treatment of white and non-white violent actors.',
+ 'CHARLOTTESVILLE 2017: White supremacists marched through Charlottesville chanting "Jews will not replace us." James Alex Fields Jr. drove his car into counterprotesters, killing Heather Heyer. President Trump said there were "very fine people on both sides," emboldening the movement.',
+ 'PITTSBURGH 2018: Robert Bowers murdered 11 Jewish worshippers at the Tree of Life synagogue, the deadliest antisemitic attack in American history. He was radicalized online through conspiracies about Jewish-funded immigrant caravans, a narrative promoted by mainstream right-wing media.',
+ 'EL PASO 2019: Patrick Crusius drove 10 hours to a Walmart in El Paso, Texas, and murdered 23 people in a shooting targeting Latinos. His manifesto echoed the "Great Replacement" theory promoted by Tucker Carlson and other mainstream media figures.',
+ 'JANUARY 6 2021: Thousands stormed the U.S. Capitol in an attempt to stop the certification of the 2020 election. Five people died. Over 1,200 have been charged. The Proud Boys and Oath Keepers leaders were convicted of seditious conspiracy.',
+ 'ONLINE RADICALIZATION: The pipeline from mainstream platforms to extremist content accelerated rapidly. Algorithms on YouTube, Facebook, and Twitter directed users toward increasingly radical content. 8chan/8kun, Gab, Telegram, and other platforms hosted explicit calls to violence.',
+ 'LAW ENFORCEMENT BLIND SPOT: A 2009 DHS report warning about right-wing extremism was retracted after conservative political backlash. The FBI infiltrates far-right groups at lower rates than Muslim communities despite the higher domestic body count. The lack of a domestic terrorism statute limits prosecution tools.',
+ 'ACCELERATIONISM: A growing movement within far-right extremism advocates for deliberate acts of mass violence to accelerate the collapse of multiracial democracy. This ideology, promoted through anonymous online networks, has inspired multiple mass shooters who published manifestos referencing prior attacks.',
  ],
- tags: ['Violence & Justice', 'Investigation', 'Accountability'],
+ tags: ['Domestic Terrorism', 'White Supremacy', 'Far-Right', 'Mass Shootings', 'January 6', 'Radicalization'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DHS Domestic Terrorism Threat Assessment', url: 'https://www.dhs.gov/sites/default/files/publications/2020_10_06_homeland-threat-assessment.pdf', type: 'Government Report' },
+ { title: 'ADL Murder & Extremism Report', url: 'https://www.adl.org/resources/report/murder-and-extremism-united-states', type: 'Research Study' },
+ { title: 'FBI Director Congressional Testimony on DVE', url: 'https://www.fbi.gov/news/testimony/worldwide-threats-to-the-homeland-091721', type: 'Congressional Record' },
+ { title: '2009 DHS Right-Wing Extremism Report', url: 'https://fas.org/irp/eprint/rightwing.pdf', type: 'Government Report' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Caseload doubled, resource imbalance with international terrorism', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'Threat assessments identify DVE as top threat, 2009 report retracted', href: '/entities/agencies/dhs' },
+ { id: '3', name: 'Proud Boys', type: 'organization', relationship: 'Seditious conspiracy convictions for January 6', href: '/entities/organizations/proud-boys' },
+ { id: '4', name: 'Oath Keepers', type: 'organization', relationship: 'Seditious conspiracy convictions for January 6', href: '/entities/organizations/oath-keepers' },
+ { id: '5', name: 'Fox News', type: 'corporation', relationship: 'Tucker Carlson promoted Great Replacement theory', href: '/entities/corporations/fox-news' },
+ { id: '6', name: 'Donald Trump', type: 'individual', relationship: '"Very fine people on both sides" after Charlottesville', href: '/entities/individuals/donald-trump' },
+ ],
  },
   'donor-crimes': {
  title: 'Donor Crimes',
@@ -415,7 +422,10 @@ const investigations_d: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FEC', type: 'agency', relationship: 'Failed to enforce campaign finance laws', href: '/entities/agencies/fec' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecution of illegal donors', href: '/entities/agencies/doj' },
+ ],
  },
   'drone-strike-program': {
  title: 'Drone Strike Program',
@@ -432,41 +442,43 @@ const investigations_d: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'drug-price-gouging': {
- title: 'Drug Price Gouging',
- subtitle: 'Investigation into drug price gouging.',
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Domestic terrorism investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'Domestic threat assessment', href: '/entities/agencies/dhs' },
+ ],
+ },  'drug-price-gouging': {
+ title: 'Pharmaceutical Drug Price Gouging',
+ subtitle: 'Systematic exploitation of patients through manufactured scarcity, patent manipulation, and predatory pricing',
  severity: 'critical',
- category: 'Public Health',
+ category: 'Corporate Corruption',
  date: 'April 11, 2017',
  lastUpdated: 'September 14, 2017',
- summary: 'Investigation into drug price gouging.',
+ summary: 'The American pharmaceutical industry has created a system where life-saving drugs cost 2-10 times more than in any other developed country. Companies exploit patent systems, buy generic competitors, jack up prices on monopoly drugs, and spend billions lobbying against reform. Americans die rationing insulin, skipping cancer medications, and choosing between food and prescriptions while pharma executives earn hundreds of millions.',
  content: [
- 'This investigation documents drug price gouging and its impact.',
+ 'MARTIN SHKRELI AND DARAPRIM: In 2015, Turing Pharmaceuticals under Martin Shkreli acquired Daraprim, a 62-year-old drug treating parasitic infections in AIDS and cancer patients, and raised the price from $13.50 to $750 per pill overnight -- a 5,455% increase. Shkreli became the face of pharma greed, though his tactics were merely a more visible version of industry-standard behavior.',
+ 'INSULIN CRISIS: The price of insulin tripled between 2002 and 2013 despite no meaningful improvements. Americans pay $300-$500 per vial for insulin that costs $2-$5 to manufacture. An estimated 1.3 million Americans ration insulin due to cost, and at least 4 documented deaths have been attributed to insulin rationing. Three companies -- Eli Lilly, Novo Nordisk, and Sanofi -- control 90% of the market.',
+ 'EPIPEN PRICE EXPLOSION: Mylan raised the price of the EpiPen from $100 to over $600 between 2009 and 2016. CEO Heather Bresch\'s compensation increased from $2.5 million to $18.9 million over the same period. The company classified EpiPen as a "generic" to avoid Medicaid rebates, costing taxpayers hundreds of millions.',
+ 'PATENT EVERGREENING: Companies file dozens of minor patents on existing drugs to extend monopoly periods far beyond the original patent life. AbbVie filed 165 patents on Humira, the world\'s best-selling drug, creating a "patent thicket" that delayed generic competition for years. Humira generated over $200 billion in revenue.',
+ 'PAY-FOR-DELAY: Brand-name companies pay generic manufacturers to delay entering the market, splitting monopoly profits while patients pay inflated prices. The FTC estimated these agreements cost consumers $3.5 billion per year. The Supreme Court ruled in 2013 that such deals could violate antitrust law.',
+ 'PHARMACY BENEFIT MANAGERS: The three largest PBMs -- CVS Caremark, Express Scripts, and OptumRx -- control over 80% of prescription drug management and take undisclosed rebates from manufacturers. This opaque middleman system adds billions to drug costs while providing no patient benefit.',
+ 'LOBBYING MACHINE: The pharmaceutical industry spent $356 million on lobbying in 2021, more than any other industry. PhRMA, the trade group, deploys an army of lobbyists outnumbering members of Congress. Industry donations flow to members of both parties who vote against drug pricing reform.',
+ 'MEDICARE NEGOTIATION BLOCKED: For decades, Congress prohibited Medicare from negotiating drug prices, a provision worth hundreds of billions to the pharmaceutical industry. The 2022 Inflation Reduction Act allowed negotiation for just 10 drugs initially, a fraction of the problem.',
+ 'GLOBAL PRICE COMPARISON: Americans pay 256% more for brand-name drugs than citizens of 32 other OECD nations. The same vial of Humira costs $5,800 in the U.S. and $1,100 in Germany. The disparity exists because other nations negotiate prices while the U.S. allows companies to set whatever price the market will bear.',
+ 'EXECUTIVE COMPENSATION: Pharmaceutical CEO compensation averaged $16.3 million in 2021. The 10 highest-paid pharma executives collectively earned over $350 million. This compensation is funded by American patients who pay the highest drug prices in the world.',
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
+ tags: ['Pharma', 'Drug Pricing', 'Insulin', 'EpiPen', 'Patent Abuse', 'Medicare', 'Lobbying'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'House Oversight Drug Pricing Investigation', url: 'https://oversight.house.gov/landing/drug-pricing-investigation/', type: 'Congressional Record' },
+ { title: 'FTC Report on PBMs', url: 'https://www.ftc.gov/reports/pharmacy-benefit-managers-report', type: 'Government Report' },
+ { title: 'RAND Drug Price Comparison Study', url: 'https://www.rand.org/pubs/research_reports/RRA788-1.html', type: 'Research Study' },
+ { title: 'T1International Insulin Rationing Survey', url: 'https://www.t1international.com/access-survey/', type: 'Research Study' },
  ],
- affiliations: [],
- },
-  'drug-pricing-crisis': {
- title: 'Drug Pricing Crisis',
- subtitle: 'Investigation into drug pricing crisis.',
- severity: 'critical',
- category: 'Public Health',
- date: 'August 25, 2025',
- lastUpdated: 'September 24, 2025',
- summary: 'Investigation into drug pricing crisis.',
- content: [
- 'This investigation documents drug pricing crisis and its impact.',
+ affiliations: [
+ { id: '1', name: 'Pfizer', type: 'corporation', relationship: 'Major drug price increases, lobbying against reform', href: '/entities/corporations/pfizer' },
+ { id: '2', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Patent thickets on key drugs', href: '/entities/corporations/johnson-and-johnson' },
+ { id: '3', name: 'Congress', type: 'agency', relationship: 'Blocked Medicare negotiation for decades', href: '/entities/agencies/congress' },
+ { id: '4', name: 'FDA', type: 'agency', relationship: 'Slow generic approval process benefits brand monopolies', href: '/entities/agencies/fda' },
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
  },
   'dupont-crimes': {
  title: 'Dupont Crimes',
@@ -483,7 +495,10 @@ const investigations_d: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DuPont', type: 'corporation', relationship: 'Concealed PFAS contamination for decades', href: '/entities/corporations/dupont' },
+ { id: '2', name: 'EPA', type: 'agency', relationship: 'Failed to regulate PFAS chemicals', href: '/entities/agencies/epa' },
+ ],
  },
   'disinformation-warfare-infrastructure': {
     title: 'Disinformation Warfare Infrastructure',
@@ -509,7 +524,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Information warfare operations', href: '/entities/agencies/pentagon' },
+ ],
   },
   'deutsche-bank-money-laundering': {
     title: 'Deutsche Bank Money Laundering',
@@ -532,7 +548,9 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Drug pricing and generic approval delays', href: '/entities/agencies/fda' },
+ { id: '2', name: 'Martin Shkreli', type: 'individual', relationship: 'Raised Daraprim price 5,000%', href: '/entities/individuals/martin-shkreli' },
+ ],
   },
   'domestic-servitude-hidden-victims': {
     title: 'Domestic Servitude Hidden Victims',
@@ -557,7 +575,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'FOIA Request Archive', url: 'https://www.foia.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Human trafficking prosecution', href: '/entities/agencies/doj' },
+ ],
   },
   'drug-trafficking-supply-chain-analysis': {
     title: 'Drug Trafficking Supply Chain Analysis',
@@ -580,7 +599,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DEA', type: 'agency', relationship: 'Drug trafficking enforcement', href: '/entities/agencies/dea' },
+ ],
   },
   'depopulation-agendas-exposed': {
     title: 'Depopulation Agendas Exposed',
@@ -605,6 +625,7 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Government Publishing Office', url: 'https://www.govinfo.gov', type: 'Government Record' },
     ],
     affiliations: [
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Human trafficking prosecution', href: '/entities/agencies/doj' },
     ],
   },
   'du-weapons-health-effects-suppression': {
@@ -629,7 +650,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Depleted uranium weapons deployment', href: '/entities/agencies/pentagon' },
+ ],
   },
   'drug-price-gouging-insulin-crisis': {
     title: 'Drug Price Gouging Insulin Crisis',
@@ -653,7 +675,9 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Eli Lilly', type: 'corporation', relationship: 'Major insulin manufacturer, price gouging', href: '/entities/corporations/eli-lilly' },
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Insulin regulation and biosimilar approval', href: '/entities/agencies/fda' },
+ ],
   },
   'drone-warfare-civilian-casualties': {
     title: 'Drone Warfare Civilian Casualties',
@@ -679,7 +703,10 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'FOIA Request Archive', url: 'https://www.foia.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated drone strike program', href: '/entities/agencies/cia' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Military drone operations', href: '/entities/agencies/pentagon' },
+ { id: '3', name: 'Barack Obama', type: 'individual', relationship: 'Expanded drone program massively', href: '/entities/individuals/barack-obama' },
+ ],
   },
   'depleted-uranium-battlefield-legacy': {
     title: 'Depleted Uranium Battlefield Legacy',
@@ -702,6 +729,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
+      { id: '1', name: 'Eli Lilly', type: 'corporation', relationship: 'Major insulin manufacturer, price gouging', href: '/entities/corporations/eli-lilly' },
+      { id: '2', name: 'FDA', type: 'agency', relationship: 'Insulin regulation', href: '/entities/agencies/fda' },
     ],
   },
   'deepfake-technology-weaponization': {
@@ -727,7 +756,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Deepfake crime investigations', href: '/entities/agencies/fbi' },
+ ],
   },
   'dna-database-privacy-violations': {
     title: 'DNA Database Privacy Violations',
@@ -751,7 +781,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'OpenSecrets Financial Disclosures', url: 'https://www.opensecrets.org', type: 'Financial Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Operates CODIS DNA database', href: '/entities/agencies/fbi' },
+ ],
   },
   'deforestation-corporate-responsibility': {
     title: 'Deforestation Corporate Responsibility',
@@ -776,7 +807,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Nestle', type: 'corporation', relationship: 'Supply chain linked to deforestation', href: '/entities/corporations/nestle' },
+ ],
   },
   'data-broker-industry-expos': {
     title: 'Data Broker Industry Exposé',
@@ -801,7 +833,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FTC', type: 'agency', relationship: 'Data broker enforcement actions', href: '/entities/agencies/federal-trade-commission' },
+ ],
   },
   'death-penalty-innocence-cases': {
     title: 'Death Penalty Innocence Cases',
@@ -825,7 +858,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal death penalty prosecutions', href: '/entities/agencies/doj' },
+ ],
   },
   'defense-contractor-fraud-and-waste': {
     title: 'Defense Contractor Fraud and Waste',
@@ -850,6 +884,7 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
+      { id: '1', name: 'Federal Trade Commission', type: 'agency', relationship: 'Data broker enforcement actions', href: '/entities/agencies/federal-trade-commission' },
     ],
   },
   'drug-war-racial-disparities': {
@@ -872,7 +907,9 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Racially disparate enforcement', href: '/entities/agencies/doj' },
+ { id: '2', name: 'DEA', type: 'agency', relationship: 'Drug enforcement disparities', href: '/entities/agencies/dea' },
+ ],
   },
   'drug-patent-abuse-consumer-impact': {
     title: 'Drug Patent Abuse Consumer Impact',
@@ -896,7 +933,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Patent-related drug approval process', href: '/entities/agencies/fda' },
+ ],
   },
   'drug-recall-delay-responsibility': {
     title: 'Drug Recall Delay Responsibility',
@@ -918,7 +956,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'ACLU Document Archive', url: 'https://www.aclu.org', type: 'Legal Document' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Drug recall process and delays', href: '/entities/agencies/fda' },
+ ],
   },
   'digital-advertising-surveillance-pipeline': {
     title: 'Digital Advertising Surveillance Pipeline',
@@ -941,7 +980,9 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Google', type: 'corporation', relationship: 'Largest digital ad surveillance network', href: '/entities/corporations/google' },
+ { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Social media ad surveillance', href: '/entities/corporations/meta-platforms' },
+ ],
   },
   'drug-supply-chain-vulnerability-analysis': {
     title: 'Drug Supply Chain Vulnerability Analysis',
@@ -964,6 +1005,7 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
+      { id: '1', name: 'FDA', type: 'agency', relationship: 'Drug recall process and delays', href: '/entities/agencies/fda' },
     ],
   },
   'dark-money-in-local-elections': {
@@ -988,7 +1030,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FEC', type: 'agency', relationship: 'Campaign finance enforcement gaps', href: '/entities/agencies/fec' },
+ ],
   },
   'domestic-worker-visa-abuse-networks': {
     title: 'Domestic Worker Visa Abuse Networks',
@@ -1012,7 +1055,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DHS', type: 'agency', relationship: 'Visa program oversight', href: '/entities/agencies/dhs' },
+ ],
   },
 
 

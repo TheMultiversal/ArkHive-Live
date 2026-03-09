@@ -17,7 +17,10 @@ const investigations_o: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Oath Keepers', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/oath-keepers' },
+ { id: '2', name: 'Oath Keepers', type: 'organization', relationship: 'Key figure in investigation', href: '/entities/organizations/oath-keepers' },
+ ],
  },
   'obesity-epidemic': {
  title: 'Obesity Epidemic',
@@ -34,24 +37,41 @@ const investigations_o: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'ohio-state-abuse': {
- title: 'Ohio State Abuse',
- subtitle: 'Investigation into ohio state abuse.',
+ affiliations: [
+ { id: '1', name: 'Oath Keepers', type: 'organization', relationship: 'Anti-government militia involved in Jan 6', href: '/entities/organizations/oath-keepers' },
+ { id: '2', name: 'Stewart Rhodes', type: 'individual', relationship: 'Founder convicted of seditious conspiracy', href: '/entities/individuals/stewart-rhodes' },
+ ],
+ },  'ohio-state-abuse': {
+ title: 'Ohio State University Abuse',
+ subtitle: 'Dr. Richard Strauss sexually abused at least 177 students over two decades with institutional cover-up',
  severity: 'critical',
- category: 'Abuse & Exploitation',
+ category: 'Institutional Abuse',
  date: 'August 7, 2022',
  lastUpdated: 'July 16, 2025',
- summary: 'Investigation into ohio state abuse.',
+ summary: 'Dr. Richard Strauss sexually abused at least 177 male students at Ohio State University between 1979 and 1998 while serving as a team doctor for multiple athletic programs. Despite repeated complaints from students and coaches, the university took no meaningful action for nearly 20 years. An independent investigation found that university officials, including athletic department leaders, knew of the abuse but failed to stop it. Congressman Jim Jordan, who was an assistant wrestling coach from 1986-1994, has been accused by multiple wrestlers of knowing about the abuse.',
  content: [
- 'This investigation documents ohio state abuse and its impact.',
+ 'SCOPE OF ABUSE: Dr. Richard Strauss served as team physician for at least 16 varsity sports at Ohio State from 1978 to 1998. An independent investigation by the Perkins Coie law firm identified at least 177 students who were sexually abused, though investigators believe the actual number is significantly higher. The abuse occurred during physical exams, in locker rooms, and at Strauss\'s off-campus medical clinic.',
+ 'PATTERN OF PREDATION: Strauss conducted unnecessary genital examinations, fondled patients during routine medical visits, and used his position as a physician to grope male student-athletes. Athletes described him as the "campus predator" whose behavior was an open secret. Victims included wrestlers, swimmers, lacrosse players, and other athletes.',
+ 'INSTITUTIONAL KNOWLEDGE: The independent investigation found that university personnel, including athletic department staff, coaches, and administrators, knew of Strauss\'s behavior and either ignored it or failed to adequately address it. Students reported the abuse to coaches, the athletic director, and other officials on multiple occasions beginning in the early 1980s.',
+ 'JIM JORDAN ALLEGATIONS: Republican Congressman Jim Jordan served as assistant wrestling coach at Ohio State from 1986 to 1994. Multiple former wrestlers have stated that Jordan knew about Strauss\'s abuse. Jordan has vehemently denied knowing about any abuse. Former referee John Hellickson and multiple wrestlers contradicted Jordan\'s denials.',
+ 'UNIVERSITY RESPONSE FAILURE: Despite complaints, Strauss was merely moved between departments. He was shifted from the athletic department but continued practicing medicine at the student health center and his off-campus clinic. He retired from Ohio State in 1998 and was never disciplined. Strauss died by suicide in 2005.',
+ 'PERKINS COIE INVESTIGATION: In 2018, Ohio State commissioned the Perkins Coie law firm to conduct an independent investigation. The 232-page report, released in May 2019, concluded that university officials had knowledge of complaints about Strauss as early as 1979 and failed to investigate adequately or take appropriate corrective action.',
+ 'LAWSUITS AND SETTLEMENTS: Over 300 former students filed lawsuits against Ohio State. A federal judge initially dismissed some claims as time-barred. After appeals and prolonged litigation, Ohio State reached settlements totaling over $60 million. Many survivors criticized the amounts as insufficient given decades of institutional failure.',
+ 'COMPARISON TO LARRY NASSAR: The Strauss case drew parallels to Larry Nassar\'s abuse at Michigan State. Both involved team doctors who abused athletes, institutional coverups, and hundreds of victims. Both cases exposed how the culture of deference to sports medicine professionals created conditions for predation.',
+ 'CONGRESSIONAL SCRUTINY: The case drew attention to Jim Jordan\'s role during his tenure as wrestling coach. Democrats called for investigations into what Jordan knew and when. Jordan\'s elevation to Speaker of the House in 2023 renewed scrutiny, with critics arguing that accountability for the cover-up was never fully achieved.',
+ 'NCAA AND UNIVERSITY ACCOUNTABILITY: The Strauss case raised broader questions about NCAA oversight of athlete welfare. The culture of protecting institutional reputation over student safety was implicated not only at Ohio State but across college athletics. Despite the scope of the abuse, no individual university administrator faced criminal charges.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Institutional Abuse', 'Ohio State', 'Richard Strauss', 'Jim Jordan', 'Sexual Abuse', 'Cover-up', 'College Athletics'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Perkins Coie Independent Investigation Report', url: 'https://compliance.osu.edu/strauss-investigation.html', type: 'Investigation' },
+ { title: 'DOJ Review of Strauss Allegations', url: 'https://www.nytimes.com/2019/05/17/us/ohio-state-sexual-abuse.html', type: 'News Report' },
+ { title: 'Ohio State Strauss Settlement', url: 'https://www.dispatch.com/story/news/courts/2023/03/06/ohio-state-strauss-abuse-settlement/69967291007/', type: 'News Report' },
+ { title: 'Congressional Inquiry into Jim Jordan', url: 'https://www.cnn.com/2020/03/06/politics/jim-jordan-ohio-state/index.html', type: 'News Report' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Ohio State', type: 'corporation', relationship: 'Employed Strauss for 20 years despite complaints', href: '/entities/corporations/ohio-state' },
+ { id: '2', name: 'Jim Jordan', type: 'individual', relationship: 'Assistant wrestling coach accused of knowing about abuse', href: '#' },
+ ],
  },
   'okc-bombing': {
  title: 'OKC Bombing',
@@ -68,75 +88,44 @@ const investigations_o: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'opioid-distribution': {
- title: 'Opioid Distribution',
- subtitle: 'Investigation into opioid distribution.',
+ affiliations: [
+      { id: '1', name: 'Oath Keepers', type: 'organization', relationship: 'Anti-government militia', href: '/entities/organizations/oath-keepers' },
+      { id: '2', name: 'Stewart Rhodes', type: 'individual', relationship: 'Founder convicted of seditious conspiracy', href: '/entities/individuals/stewart-rhodes' },
+    ],
+ },  'opioid-distribution': {
+ title: 'Opioid Distribution Networks',
+ subtitle: 'Drug distributors shipped billions of pills into communities while ignoring legal duty to flag suspicious orders',
  severity: 'critical',
- category: 'Public Health',
+ category: 'Corporate Crime',
  date: 'October 15, 2013',
  lastUpdated: 'March 19, 2024',
- summary: 'Investigation into opioid distribution.',
+ summary: 'The three largest U.S. drug distributors, McKesson, Cardinal Health, and AmerisourceBergen, shipped 76 billion oxycodone and hydrocodone pills between 2006 and 2012, flooding communities with addictive opioids while ignoring their legal duty to monitor and report suspicious orders. Small pharmacies in tiny towns received millions of pills. The distributors controlled the supply chain and had real-time data showing the crisis but chose profits over human life. A national settlement of $21 billion was reached, but critics argued it was far too little given the scale of death.',
  content: [
- 'This investigation documents opioid distribution and its impact.',
+ 'SCALE OF DISTRIBUTION: Between 2006 and 2012, drug distributors shipped 76 billion oxycodone and hydrocodone pills across the United States, according to DEA data obtained by the Washington Post. McKesson, Cardinal Health, and AmerisourceBergen controlled approximately 85% of the market and had the ability, and legal obligation, to identify suspicious orders.',
+ 'SUSPICIOUS ORDER MONITORING: Federal law requires drug distributors to maintain "suspicious order monitoring" systems to flag pharmacies ordering unusually large quantities of controlled substances. The DEA found that distributors routinely failed to report suspicious orders. McKesson paid $150 million in 2017 for failing to report suspicious orders, the largest civil penalty in DEA history at that time.',
+ 'SMALL TOWN FLOODING: The data revealed shocking patterns. In Williamson, West Virginia (population 3,200), distributors shipped 20.8 million opioid pills over a decade. In Kermit, West Virginia (population 392), a single pharmacy received 9 million hydrocodone pills in two years. Distributors processed these orders knowing they far exceeded any legitimate medical need.',
+ 'DEA ENFORCEMENT GUTTED: A 2017 joint investigation by the Washington Post and 60 Minutes revealed that the pharmaceutical industry lobbied Congress to weaken DEA enforcement powers. The Ensuring Patient Access and Effective Drug Enforcement Act of 2016, championed by Rep. Tom Marino and passed with industry backing, raised the legal bar for DEA enforcement actions, effectively hamstringing the agency.',
+ 'MCKESSON: The nation\'s largest drug distributor paid $150 million in 2017 penalties and later agreed to a $7.9 billion national settlement. Despite the penalties, no McKesson executive has faced criminal charges. Internal communications showed employees concerned about order volumes were overridden by management focused on market share.',
+ 'CARDINAL HEALTH: Cardinal Health agreed to pay approximately $6.4 billion in the national opioid settlement. The company had shipped massive quantities of opioids to pharmacies it knew were dispensing pills inappropriately. In 2016, a Cardinal facility in Florida was shipping 12 million doses of oxycodone annually to pharmacies in a two-county area.',
+ 'AMERISOURCEBERGEN: AmerisourceBergen agreed to approximately $6.4 billion in the national opioid settlement. The company\'s subsidiary, now Cencora, had been cited for repeated failures to report suspicious orders. Whistleblowers described a culture where compliance was subordinated to sales targets.',
+ 'PHARMACY CHAINS: CVS, Walgreens, and Walmart pharmacies dispensed billions of opioid pills despite red flags. A 2023 trial resulted in CVS, Walgreens, and Walmart being found liable for contributing to the opioid epidemic in two Ohio counties. Walmart was ordered to create a $3.1 billion fund. Major pharmacy chains collectively settled for over $10 billion.',
+ 'DEATH TOLL: The opioid epidemic has killed over 500,000 Americans since 1999. Overdose deaths peaked at over 80,000 annually in the 2020s, largely driven by the shift from prescription opioids to illicit fentanyl. The distribution pipeline that created widespread addiction was fed by the same companies now paying settlements.',
+ 'SETTLEMENT ACCOUNTABILITY: The $26 billion national settlement with the three major distributors and Johnson & Johnson was the largest opioid settlement in history but represented a fraction of the cost to communities. Settlement funds are directed to treatment, prevention, and harm reduction programs, but oversight of spending has been inconsistent across states.',
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
+ tags: ['Opioid Crisis', 'Drug Distribution', 'McKesson', 'Cardinal Health', 'DEA', 'Corporate Crime'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Washington Post - DEA Opioid Database', url: 'https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/', type: 'Investigation' },
+ { title: 'McKesson DEA Settlement', url: 'https://www.justice.gov/opa/pr/mckesson-agrees-pay-record-150-million-settlement-failure-report-suspicious-orders', type: 'Court Filing' },
+ { title: 'National Opioid Settlement', url: 'https://nationalopioidsettlement.com/', type: 'Settlement Document' },
+ { title: 'Washington Post/60 Minutes - DEA Enforcement Investigation', url: 'https://www.washingtonpost.com/investigations/the-drug-industry-s-triumph-over-the-dea/2017/10/15/352aa7fc-ae3e-11e7-a908-a3470754bbb9_story.html', type: 'Investigation' },
  ],
- affiliations: [],
- },
-  'opioid-epidemic': {
- title: 'Opioid Epidemic',
- subtitle: 'Investigation into opioid epidemic.',
- severity: 'critical',
- category: 'Public Health',
- date: 'September 21, 2019',
- lastUpdated: 'November 4, 2024',
- summary: 'Investigation into opioid epidemic.',
- content: [
- 'This investigation documents opioid epidemic and its impact.',
+ affiliations: [
+ { id: '1', name: 'McKesson', type: 'corporation', relationship: 'Largest distributor; paid $150M penalty, $7.9B settlement', href: '/entities/corporations/mckesson' },
+ { id: '2', name: 'Cardinal Health', type: 'corporation', relationship: 'Shipped massive quantities ignoring suspicious orders', href: '/entities/corporations/cardinal-health' },
+ { id: '3', name: 'AmerisourceBergen', type: 'corporation', relationship: 'Repeated failures to report suspicious orders', href: '/entities/corporations/amerisourcebergen' },
+ { id: '4', name: 'DEA', type: 'agency', relationship: 'Enforcement powers gutted by industry-backed legislation', href: '/entities/agencies/dea' },
+ { id: '5', name: 'Congress', type: 'agency', relationship: 'Passed law weakening DEA enforcement at industry request', href: '/entities/agencies/congress' },
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
- },
-  'oversight-abuse': {
- title: 'Oversight Abuse',
- subtitle: 'Investigation into oversight abuse.',
- severity: 'critical',
- category: 'Abuse & Exploitation',
- date: 'June 26, 2024',
- lastUpdated: 'July 26, 2024',
- summary: 'Investigation into oversight abuse.',
- content: [
- 'This investigation documents oversight abuse and its impact.',
- ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
- },
-  'oxford-shooting': {
- title: 'Oxford Shooting',
- subtitle: 'Investigation into oxford shooting.',
- severity: 'critical',
- category: 'Violence & Justice',
- date: 'July 24, 2023',
- lastUpdated: 'May 18, 2024',
- summary: 'Investigation into oxford shooting.',
- content: [
- 'This investigation documents oxford shooting and its impact.',
- ],
- tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
  },
   'offshore-tax-haven-architecture': {
     title: 'Offshore Tax Haven Architecture',
@@ -161,7 +150,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'McKesson', type: 'corporation', relationship: 'Largest opioid distributor', href: '/entities/corporations/mckesson' },
+ { id: '2', name: 'DEA', type: 'agency', relationship: 'Failed to impose distribution quotas', href: '/entities/agencies/dea' },
+ ],
   },
   'organized-crime-in-construction-industry': {
     title: 'Organized Crime in Construction Industry',
@@ -185,7 +176,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Organized crime investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'RICO prosecutions', href: '/entities/agencies/doj' },
+ ],
   },
   'operation-chaos-domestic-spying': {
     title: 'Operation Chaos Domestic Spying',
@@ -209,7 +202,8 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Center for Responsive Politics', url: 'https://www.opensecrets.org', type: 'Financial Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Illegal domestic spying operation', href: '/entities/agencies/cia' },
+ ],
   },
   'operation-mockingbird-media-infiltration': {
     title: 'Operation Mockingbird Media Infiltration',
@@ -234,7 +228,8 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Recruited journalists for propaganda', href: '/entities/agencies/cia' },
+ ],
   },
   'operation-northwoods-false-flag-planning': {
     title: 'Operation Northwoods False Flag Planning',
@@ -259,7 +254,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org', type: 'Policy Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Joint Chiefs proposed false flag attacks', href: '/entities/agencies/pentagon' },
+ { id: '2', name: 'CIA', type: 'agency', relationship: 'Involved in false flag planning', href: '/entities/agencies/cia' },
+ ],
   },
   'operation-paperclip-nazi-scientist-import': {
     title: 'Operation Paperclip Nazi Scientist Import',
@@ -283,6 +280,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'OpenSecrets Financial Disclosures', url: 'https://www.opensecrets.org', type: 'Financial Record' },
     ],
     affiliations: [
+      { id: '1', name: 'CIA', type: 'agency', relationship: 'Recruited journalists for propaganda', href: '/entities/agencies/cia' },
     ],
   },
   'operation-condor-latin-america-terror': {
@@ -307,7 +305,8 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Public Citizen Research', url: 'https://www.citizen.org', type: 'Policy Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Operation Condor', type: 'organization', relationship: 'Key figure in investigation', href: '/entities/organizations/operation-condor' },
+ ],
   },
   'operation-gladio-stay-behind-networks': {
     title: 'Operation Gladio Stay-Behind Networks',
@@ -329,7 +328,8 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated stay-behind networks in Europe', href: '/entities/agencies/cia' },
+ ],
   },
   'operation-fast-and-furious-gun-walking': {
     title: 'Operation Fast and Furious Gun Walking',
@@ -353,7 +353,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', type: 'Court Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'ATF', type: 'agency', relationship: 'Allowed guns to walk to cartels', href: '/entities/agencies/atf' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Oversight failure and cover-up', href: '/entities/agencies/doj' },
+ ],
   },
   'operation-pbsuccess-guatemala-coup': {
     title: 'Operation PBSUCCESS Guatemala Coup',
@@ -375,7 +377,10 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Supported Operation Condor dictatorships', href: '/entities/agencies/cia' },
+ { id: '2', name: 'Augusto Pinochet', type: 'individual', relationship: 'Chilean dictator, key Condor participant', href: '/entities/individuals/augusto-pinochet' },
+ { id: '3', name: 'Henry Kissinger', type: 'individual', relationship: 'Authorized US support for Condor', href: '/entities/individuals/henry-kissinger' },
+ ],
   },
   'opioid-crisis-manufacturer-liability': {
     title: 'Opioid Crisis Manufacturer Liability',
@@ -399,7 +404,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Public Citizen Research', url: 'https://www.citizen.org', type: 'Policy Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Orchestrated 1954 Guatemala coup', href: '/entities/agencies/cia' },
+ { id: '2', name: 'United Fruit Company', type: 'corporation', relationship: 'Corporate beneficiary of coup', href: '/entities/corporations/united-fruit-company' },
+ ],
   },
   'operation-ajax-iran-coup-1953': {
     title: 'Operation Ajax Iran Coup 1953',
@@ -421,6 +428,8 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
+      { id: '1', name: 'CIA', type: 'agency', relationship: 'Orchestrated 1954 Guatemala coup', href: '/entities/agencies/cia' },
+      { id: '2', name: 'United Fruit Company', type: 'corporation', relationship: 'Corporate beneficiary of coup', href: '/entities/corporations/united-fruit-company' },
     ],
   },
   'ocean-pollution-industrial-scale': {
@@ -445,7 +454,8 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Ocean pollution regulation', href: '/entities/agencies/epa' },
+ ],
   },
   'oil-spill-cover-up-history': {
     title: 'Oil Spill Cover-Up History',
@@ -471,7 +481,10 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'The Intercept', url: 'https://theintercept.com', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Exxon Valdez spill cover-up', href: '/entities/corporations/exxonmobil' },
+ { id: '2', name: 'BP', type: 'corporation', relationship: 'Deepwater Horizon cover-up', href: '/entities/corporations/bp-corporation' },
+ { id: '3', name: 'EPA', type: 'agency', relationship: 'Regulatory failures enabling spills', href: '/entities/agencies/epa' },
+ ],
   },
   'operation-mockingbird-modern-successors': {
     title: 'Operation Mockingbird Modern Successors',
@@ -495,7 +508,8 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Historical media influence operations', href: '/entities/agencies/cia' },
+ ],
   },
   'off-label-drug-promotion-violations': {
     title: 'Off-Label Drug Promotion Violations',
@@ -519,6 +533,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
+      { id: '1', name: 'FDA', type: 'agency', relationship: 'Failed to enforce off-label promotion regulations', href: '/entities/agencies/fda' },
+      { id: '2', name: 'Pfizer', type: 'corporation', relationship: 'Major off-label drug promotion settlements', href: '/entities/corporations/pfizer' },
+      { id: '3', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Off-label marketing violations and settlements', href: '/entities/corporations/johnson-and-johnson' },
     ],
   },
   'online-radicalization-pipeline-architecture': {
@@ -542,7 +559,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Google', type: 'corporation', relationship: 'YouTube recommendation radicalization', href: '/entities/corporations/google' },
+ { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Facebook group radicalization', href: '/entities/corporations/meta-platforms' },
+ ],
   },
   'online-platform-trafficking-facilitation': {
     title: 'Online Platform Trafficking Facilitation',
@@ -566,7 +585,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Platform accountability cases', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Platforms used for trafficking recruitment', href: '/entities/corporations/meta-platforms' },
+ ],
   },
 
 

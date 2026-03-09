@@ -59,7 +59,9 @@ const investigations_q: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Created qualified immunity doctrine', href: '/entities/agencies/supreme-court' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Pattern-or-practice investigations', href: '/entities/agencies/doj' },
+ ],
   },
 
 };

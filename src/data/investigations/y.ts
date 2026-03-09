@@ -17,7 +17,11 @@ const investigations_y: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Saudi Arabia', type: 'organization', relationship: 'Saudi-led coalition bombing campaign', href: '/entities/organizations/saudi-arabian-government' },
+ { id: '2', name: 'Raytheon Company (now RTX Corporation)', type: 'corporation', relationship: 'Supplied bombs used on civilians', href: '/entities/corporations/raytheon' },
+ { id: '3', name: 'Pentagon', type: 'agency', relationship: 'US military support for Saudi campaign', href: '/entities/agencies/pentagon' },
+ ],
  },
   'youtube-extremism': {
  title: 'Youtube Extremism',
@@ -34,7 +38,9 @@ const investigations_y: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Google', type: 'corporation', relationship: 'YouTube parent company, recommendation algorithm', href: '/entities/corporations/google' },
+ ],
  },
 };
 

@@ -410,31 +410,40 @@ const profiles: Record<string, IndividualProfile> = {
 
   'valery-gerasimov': {
     name: 'Valery Gerasimov',
-    title: 'Public Official',
-    role: 'Tracked for public accountability',
-    riskLevel: 'low',
-    description: 'Valery Gerasimov is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
-    education: [],
+    title: 'Chief of the General Staff, Russian Armed Forces',
+    role: 'Top Russian military commander',
+    riskLevel: 'high',
+    description: 'General of the Army Valery Vasilyevich Gerasimov has served as Chief of the General Staff of the Russian Armed Forces since 2012. He is the author of the "Gerasimov Doctrine" on hybrid warfare and was placed in direct command of Russian forces in Ukraine in January 2023. He has been indicted by the ICC for war crimes.',
+    education: ['Kazan Higher Tank Command School', 'Military Academy of the General Staff'],
     affiliations: [
     ],
     controversies: [
-      'Valery Gerasimov has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
+      'Placed in overall command of the Russian invasion of Ukraine in January 2023 following battlefield setbacks',
+      'Developer of the "Gerasimov Doctrine" which outlined Russias hybrid warfare strategy combining military, cyber, information, and political operations',
+      'ICC issued arrest warrant for Gerasimov in June 2024 for directing attacks on Ukrainian civilian infrastructure constituting war crimes',
+      'Oversaw Russian military operations that included documented targeting of hospitals, schools, and residential areas in Ukraine',
+      'Sanctioned by EU, US, UK, and other nations for role in the invasion of Ukraine',
     ],
-    charges: [],
+    charges: [
+      { statute: 'ICC Rome Statute Art. 8', description: 'War crimes - directing attacks against civilian objects and infrastructure', category: 'War Crimes' },
+    ],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2018-06-04', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2024-11-02', event: 'Added to investigative archive following identification of connections to tracked entities' },
+      { date: '2012-11-09', event: 'Appointed Chief of the General Staff' },
+      { date: '2013-02-01', event: 'Published article outlining hybrid warfare strategy ("Gerasimov Doctrine")' },
+      { date: '2022-02-24', event: 'Oversaw launch of full-scale invasion of Ukraine' },
+      { date: '2023-01-11', event: 'Named overall commander of Russian forces in Ukraine' },
+      { date: '2024-06-25', event: 'ICC issues arrest warrant for war crimes in Ukraine' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2018-06-04' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2024-11-02' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2024-06-24' },
+      { title: 'ICC - Arrest Warrants for Ukraine Situation', url: 'https://www.icc-cpi.int/situations/ukraine', date: '2024-06-25' },
     ],
     aliases: [],
     knownAssociates: [
+      { name: 'Vladimir Putin', relationship: 'President and Commander-in-Chief', href: '/entities/individuals/vladimir-putin' },
+      { name: 'Sergei Shoigu', relationship: 'Former Defense Minister, direct superior until 2024', href: '/entities/individuals/sergei-shoigu' },
     ],
   },
 

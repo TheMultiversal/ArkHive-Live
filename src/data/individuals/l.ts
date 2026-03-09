@@ -420,31 +420,39 @@ const profiles: Record<string, IndividualProfile> = {
 
   'lin-wood': {
     name: 'Lin Wood',
-    title: 'Documented Individual',
-    role: 'Under review based on institutional connections',
+    title: 'Attorney',
+    role: 'Election conspiracy lawyer',
     riskLevel: 'medium',
-    description: 'Lin Wood is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
-    education: [],
+    description: 'Lucian Lincoln Wood Jr. is a Georgia attorney who gained national prominence for promoting extreme conspiracy theories about the 2020 election, including claims of a vast deep state plot. He was sanctioned by courts, investigated by the State Bar of Georgia, and became estranged from former allies in the election denial movement.',
+    education: ['Mercer University, BA 1977', 'Mercer University Walter F. George School of Law, JD 1977'],
     affiliations: [
     ],
     controversies: [
-      'Public records and investigative cross-referencing have identified patterns of concern related to Lin Wood and their institutional affiliations and documented activities.',
+      'Filed multiple lawsuits challenging the 2020 election results in Georgia, Wisconsin, and Michigan, all of which were dismissed for lack of evidence',
+      'Publicly called for the arrest of Chief Justice John Roberts, Vice President Mike Pence, and other officials based on conspiracy theories with no evidentiary basis',
+      'Claimed on social media that Vice President Pence should face execution by firing squad for certifying the 2020 election results',
+      'State Bar of Georgia opened an investigation into his mental fitness to practice law after colleagues raised concerns about increasingly erratic behavior',
+      'Accused Sidney Powell and other allies of financial impropriety, leading to public feuds within the election denial legal team',
+      'Admitted in a deposition that he had no evidence for many of his public claims about election fraud',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2023-09-27', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
-      { date: '2025-10-08', event: 'Initial records compiled from public financial disclosures and government databases' },
+      { date: '2020-11-25', event: 'Filed federal suit challenging Georgia election results' },
+      { date: '2021-01-02', event: 'Urged Georgia voters to boycott Senate runoff elections, drawing Republican anger' },
+      { date: '2021-01-06', event: 'Posted tweets calling for Pence arrest as Capitol was breached' },
+      { date: '2021-08-01', event: 'State Bar of Georgia opens fitness inquiry' },
+      { date: '2023-10-02', event: 'Cooperated as witness in Fulton County election interference case' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2023-09-27' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-10-08' },
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-08-27' },
+      { title: 'State Bar of Georgia - Wood Investigation', url: 'https://www.gabar.org/', date: '2021-08-01' },
     ],
     aliases: [],
     knownAssociates: [
+      { name: 'Sidney Powell', relationship: 'Election lawsuit co-counsel turned adversary', href: '/entities/individuals/sidney-powell' },
+      { name: 'Donald Trump', relationship: 'Client in election challenge efforts', href: '/entities/individuals/donald-trump' },
     ],
   },
 
@@ -2507,37 +2515,36 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'lesley-groff': {
  name: 'Lesley Groff',
- title: 'Executive Assistant to Epstein',
- role: 'Trafficking Logistics Manager',
- riskLevel: 'high',
- description: 'Jeffrey Epstein\'s executive assistant who managed the logistical operations of his sex trafficking network. Scheduled "massages"(abuse sessions) and coordinated victim transportation. Granted immunity under the 2008 Non-Prosecution Agreement and was never prosecuted despite extensive evidence of her role.',
+ title: 'Former Executive Assistant to Jeffrey Epstein',
+ role: 'Epstein associate and co-conspirator',
+ riskLevel: 'medium',
+ description: 'Lesley Groff served as one of Jeffrey Epstein primary executive assistants for approximately two decades. She was identified by multiple victims as a key member of the support infrastructure that enabled Epstein abuse, scheduling "massages" with young girls and managing logistics at his residences.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Miami Herald Investigation', type: 'organization' },
  ],
  knownAssociates: [
- { name: 'Jeffrey Epstein', relationship: 'Executive assistant', href: '/entities/individuals/jeffrey-epstein' },
- { name: 'Sarah Kellen', relationship: 'Co-assistant', href: '/entities/individuals/sarah-kellen' },
- 
- { name: 'Ghislaine Maxwell', relationship: 'Worked alongside Maxwell in managing Epstein household', href: '/entities/individuals/ghislaine-maxwell' },
- { name: 'Adriana Ross', relationship: 'Fellow Epstein staff member and named co-conspirator', href: '/entities/individuals/adriana-ross' },
- { name: 'Virginia Giuffre', relationship: 'Named by Giuffre as facilitator of Epstein\'s abuse', href: '/entities/individuals/virginia-giuffre' }
- ],
+      { name: 'Jeffrey Epstein', relationship: 'Employer for approximately two decades', href: '/entities/individuals/jeffrey-epstein' },
+      { name: 'Ghislaine Maxwell', relationship: 'Fellow Epstein associate', href: '/entities/individuals/ghislaine-maxwell' },
+    ],
  controversies: [
- 'Managed logistics for Epstein trafficking operation',
- 'Granted immunity under 2008 NPA',
- 'Never prosecuted despite being named facilitator by multiple victims',
- ],
+      'Named as one of four co-conspirators granted immunity in the controversial 2008 non-prosecution agreement negotiated by Alexander Acosta',
+      'Multiple Epstein victims testified that Groff scheduled the "massages" that were actually sexual abuse sessions with underage girls',
+      'Managed Epstein scheduling and logistics across multiple residences including Palm Beach, New York, and the U.S. Virgin Islands',
+      'Named in numerous civil lawsuits by Epstein victims for her role in facilitating access to the victims',
+    ],
  relatedInvestigations: [
  { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
  ],
  timeline: [
- { date: '2000s', event: 'Served as Epstein\'s executive assistant' },
- { date: '2008', event: 'Granted immunity under NPA' },
- ],
+      { date: '1996-01-01', event: 'Began working as executive assistant to Jeffrey Epstein' },
+      { date: '2007-06-30', event: 'Granted immunity under non-prosecution agreement with Southern District of Florida' },
+      { date: '2019-07-06', event: 'Epstein arrested; Groff identified as key associate who scheduled victims' },
+      { date: '2021-11-29', event: 'Named in testimony during Ghislaine Maxwell trial' },
+    ],
  sources: [
- { title: 'Miami Herald Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '2018' },
- ],
+      { title: 'Miami Herald - Perversion of Justice', url: 'https://www.miamiherald.com/news/local/article220097825.html', date: '2018-11-28' },
+    ],
  },
   'lawrence-krauss': {
     name: 'Lawrence Krauss',

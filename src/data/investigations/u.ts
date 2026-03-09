@@ -182,7 +182,9 @@ const investigations_u: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'First impeachment for Ukraine pressure', href: '/entities/individuals/donald-trump' },
+ ],
  },
   'ukraine-policy': {
  title: 'Ukraine Policy',
@@ -199,7 +201,10 @@ const investigations_u: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Ukraine aid controversy', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Military aid coordination', href: '/entities/agencies/pentagon' },
+ ],
  },
   'ukraine-war': {
  title: 'Ukraine War',
@@ -216,7 +221,9 @@ const investigations_u: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Ordered invasion', href: '/entities/individuals/vladimir-putin' },
+ ],
  },
   'ukraine-war-crimes': {
  title: 'Ukraine War Crimes',
@@ -233,7 +240,10 @@ const investigations_u: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+      { id: '1', name: 'CIA', type: 'agency', relationship: 'Supported dictators worldwide', href: '/entities/agencies/cia' },
+      { id: '2', name: 'Augusto Pinochet', type: 'individual', relationship: 'CIA-backed Chilean dictator', href: '/entities/individuals/augusto-pinochet' },
+    ],
  },
   'usa-gymnastics-abuse': {
  title: 'Usa Gymnastics Abuse',
@@ -250,7 +260,10 @@ const investigations_u: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Larry Nassar', type: 'individual', relationship: 'Team doctor who sexually abused 500+ gymnasts', href: '/entities/individuals/larry-nassar' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Botched investigation, delayed action', href: '/entities/agencies/fbi' },
+ ],
  },
   'uvalde-shooting': {
  title: 'Uvalde Shooting',
@@ -267,7 +280,10 @@ const investigations_u: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'NRA', type: 'corporation', relationship: 'Held convention days after massacre', href: '/entities/corporations/nra' },
+ { id: '2', name: 'United States Congress', type: 'agency', relationship: 'Passed limited Bipartisan Safer Communities Act', href: '/entities/agencies/congress' },
+ ],
  },
   'uyghur-genocide': {
  title: 'Uyghur Genocide',
@@ -284,7 +300,10 @@ const investigations_u: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Xi Jinping', type: 'individual', relationship: 'CCP leader overseeing genocide', href: '/entities/individuals/xi-jinping' },
+ { id: '2', name: 'Chinese Communist Party', type: 'organization', relationship: 'Operates detention camps holding millions', href: '/entities/organizations/chinese-communist-party' },
+ ],
  },
   'union-pension-fund-fraud-schemes': {
     title: 'Union Pension Fund Fraud Schemes',
@@ -307,6 +326,7 @@ const investigations_u: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
+      { id: '1', name: 'Travis Kalanick', type: 'individual', relationship: 'Uber CEO who built toxic culture', href: '/entities/individuals/travis-kalanick' },
     ],
   },
 

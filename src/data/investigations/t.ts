@@ -402,7 +402,9 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Tamir Rice', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/tamir-rice' },
+ ],
  },
   'tech-billionaire-influence': {
  title: 'Tech Billionaire Influence',
@@ -419,7 +421,11 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Elon Musk', type: 'individual', relationship: 'Richest person, political influence', href: '/entities/individuals/elon-musk' },
+ { id: '2', name: 'Peter Thiel', type: 'individual', relationship: 'Political kingmaker, Vance patron', href: '/entities/individuals/peter-thiel' },
+ { id: '3', name: 'Mark Zuckerberg', type: 'individual', relationship: 'Meta CEO, platform power', href: '/entities/individuals/mark-zuckerberg' },
+ ],
  },
   'tech-industry-sexism': {
  title: 'Tech Industry Sexism',
@@ -436,7 +442,10 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Google', type: 'corporation', relationship: 'Gender pay discrimination lawsuits', href: '/entities/corporations/google' },
+ { id: '2', name: 'Microsoft Corporation', type: 'corporation', relationship: 'Workplace harassment reports', href: '/entities/corporations/microsoft' },
+ ],
  },
   'tech-labor-exploitation': {
  title: 'Tech Labor Exploitation',
@@ -453,7 +462,10 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Warehouse worker exploitation', href: '/entities/corporations/amazon-inc' },
+ { id: '2', name: 'Google', type: 'corporation', relationship: 'Contractor labor practices', href: '/entities/corporations/google' },
+ ],
  },
   'tech-monopolies': {
  title: 'Tech Monopolies',
@@ -470,7 +482,12 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Google', type: 'corporation', relationship: 'Search monopoly, DOJ antitrust case', href: '/entities/corporations/google' },
+ { id: '2', name: 'Amazon Inc', type: 'corporation', relationship: 'E-commerce monopoly, FTC case', href: '/entities/corporations/amazon-inc' },
+ { id: '3', name: 'Apple Inc', type: 'corporation', relationship: 'App Store monopoly, DOJ case', href: '/entities/corporations/apple-inc' },
+ { id: '4', name: 'DOJ', type: 'agency', relationship: 'Antitrust enforcement', href: '/entities/agencies/doj' },
+ ],
  },
   'tech-oligarchy': {
  title: 'Tech Oligarchy',
@@ -487,7 +504,11 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Elon Musk', type: 'individual', relationship: 'Largest wealth concentration in history', href: '/entities/individuals/elon-musk' },
+ { id: '2', name: 'Jeff Bezos', type: 'individual', relationship: 'Amazon empire, WaPo ownership', href: '/entities/individuals/jeff-bezos' },
+ { id: '3', name: 'Mark Zuckerberg', type: 'individual', relationship: 'Meta controls global communications', href: '/entities/individuals/mark-zuckerberg' },
+ ],
  },
   'teen-nicotine-addiction': {
  title: 'Teen Nicotine Addiction',
@@ -504,7 +525,10 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Juul Labs', type: 'corporation', relationship: 'Primary manufacturer of teen-targeted e-cigarettes', href: '/entities/corporations/juul-labs' },
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Regulatory oversight of e-cigarette marketing to minors', href: '/entities/agencies/fda' },
+ ],
  },
   'telecom-privacy': {
  title: 'Telecom Privacy',
@@ -521,7 +545,10 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'AT&T Inc.', type: 'corporation', relationship: 'NSA wiretapping partner', href: '/entities/corporations/att' },
+ { id: '2', name: 'NSA', type: 'agency', relationship: 'Mass telecom surveillance', href: '/entities/agencies/nsa' },
+ ],
  },
   'terra-luna-collapse': {
  title: 'Terra Luna Collapse',
@@ -538,7 +565,10 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Tamir Rice', type: 'individual', relationship: '12-year-old killed by police', href: '/entities/individuals/tamir-rice' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Declined federal charges', href: '/entities/agencies/doj' },
+ ],
  },
   'texas-border-cruelty': {
  title: 'Texas Border Cruelty',
@@ -555,7 +585,10 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DHS', type: 'agency', relationship: 'Federal border enforcement', href: '/entities/agencies/dhs' },
+ { id: '2', name: 'CBP', type: 'agency', relationship: 'Customs and Border Protection actions', href: '/entities/agencies/cbp' },
+ ],
  },
   'texas-grid-failures': {
  title: 'Texas Grid Failures',
@@ -572,7 +605,9 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Treason and sedition prosecutions', href: '/entities/agencies/doj' },
+ ],
  },
   'three-arrows-capital': {
  title: 'Three Arrows Capital',
@@ -589,7 +624,9 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Investigated crypto hedge fund collapse', href: '/entities/agencies/sec' },
+ ],
  },
   'trail-of-tears': {
  title: 'Trail Of Tears',
@@ -606,7 +643,9 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Interior Department', type: 'agency', relationship: 'Bureau of Indian Affairs, forced removal', href: '/entities/agencies/interior-department' },
+ ],
  },
   'trayvon-martin': {
  title: 'Trayvon Martin',
@@ -623,7 +662,9 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Trayvon Martin', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/trayvon-martin' },
+ ],
  },
   'tree-of-life-massacre': {
  title: 'Tree Of Life Massacre',
@@ -640,7 +681,10 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Investigated as domestic terrorism', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal hate crime prosecution', href: '/entities/agencies/doj' },
+ ],
  },
   'trump-admin-2': {
  title: 'Trump Admin 2',
@@ -657,7 +701,9 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/donald-trump' },
+ ],
  },
   'trump-admin-corruption': {
  title: 'Trump Admin Corruption',
@@ -674,7 +720,9 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/donald-trump' },
+ ],
  },
   'trump-administration': {
  title: 'Trump Administration',
@@ -691,7 +739,9 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/donald-trump' },
+ ],
  },
   'trump-corruption': {
  title: 'Trump Corruption',
@@ -708,7 +758,9 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/donald-trump' },
+ ],
  },
   'trump-impeachment': {
  title: 'Trump Impeachment',
@@ -725,7 +777,9 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/donald-trump' },
+ ],
  },
   'trump-tax-cuts': {
  title: 'Trump Tax Cuts',
@@ -742,7 +796,9 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/donald-trump' },
+ ],
  },
   'turkey-authoritarianism': {
  title: 'Turkey Authoritarianism',
@@ -759,7 +815,9 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Recep Tayyip Erdogan', type: 'individual', relationship: 'Authoritarian president, dismantled democracy', href: '/entities/individuals/recep-tayyip-erdogan' },
+ ],
  },
   'tyco-scandal': {
  title: 'Tyco Scandal',
@@ -776,7 +834,10 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Trayvon Martin', type: 'individual', relationship: '17-year-old killed by George Zimmerman', href: '/entities/individuals/trayvon-martin' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation, no charges', href: '/entities/agencies/doj' },
+ ],
  },
   'tyre-nichols': {
  title: 'Tyre Nichols',
@@ -793,7 +854,10 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+      { id: '1', name: 'Trayvon Martin', type: 'individual', relationship: '17-year-old killed by Zimmerman', href: '/entities/individuals/trayvon-martin' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation, no charges', href: '/entities/agencies/doj' },
+    ],
  },
   'tyre-nichols-murder': {
  title: 'Tyre Nichols Murder',
@@ -810,7 +874,9 @@ const investigations_t: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal civil rights investigation', href: '/entities/agencies/doj' },
+ ],
  },
   'trafficking-corridors-central-america': {
     title: 'Trafficking Corridors Central America',
@@ -835,6 +901,8 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'OpenSecrets Financial Disclosures', url: 'https://www.opensecrets.org', type: 'Financial Record' },
     ],
     affiliations: [
+      { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Subject of investigation', href: '/entities/individuals/donald-trump' },
+      { id: '2', name: 'Trump Organization', type: 'corporation', relationship: 'Business fraud convictions', href: '/entities/corporations/trump-organization' },
     ],
   },
   'trafficking-in-conflict-zones': {
@@ -858,7 +926,8 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'International trafficking cases', href: '/entities/agencies/doj' },
+ ],
   },
   'telecom-capture-of-fcc': {
     title: 'Telecom Capture of FCC',
@@ -884,7 +953,9 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FCC', type: 'agency', relationship: 'Subject of telecom industry capture', href: '/entities/agencies/fcc' },
+ { id: '2', name: 'AT&T Inc.', type: 'corporation', relationship: 'Major FCC lobbying force', href: '/entities/corporations/att' },
+ ],
   },
   'tech-industry-capture-of-ftc': {
     title: 'Tech Industry Capture of FTC',
@@ -908,7 +979,10 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Federal Trade Commission', type: 'agency', relationship: 'Subject of tech industry capture', href: '/entities/agencies/federal-trade-commission' },
+ { id: '2', name: 'Google', type: 'corporation', relationship: 'Major FTC lobbying target', href: '/entities/corporations/google' },
+ { id: '3', name: 'Meta Platforms', type: 'corporation', relationship: 'Facebook acquisitions approved by FTC', href: '/entities/corporations/meta-platforms' },
+ ],
   },
   'thalidomide-to-vioxx-pattern-of-harm': {
     title: 'Thalidomide to Vioxx Pattern of Harm',
@@ -934,7 +1008,9 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Drug approval failures', href: '/entities/agencies/fda' },
+ { id: '2', name: 'Merck and Company', type: 'corporation', relationship: 'Concealed Vioxx heart attack risk', href: '/entities/corporations/merck-and-company' },
+ ],
   },
   'tobacco-industry-playbook-in-pharma': {
     title: 'Tobacco Industry Playbook in Pharma',
@@ -960,7 +1036,8 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Philip Morris', type: 'corporation', relationship: 'Original industry disinformation template', href: '/entities/corporations/philip-morris' },
+ ],
   },
   'toxic-waste-dumping-developing-nations': {
     title: 'Toxic Waste Dumping Developing Nations',
@@ -982,7 +1059,8 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Failed to regulate toxic exports', href: '/entities/agencies/epa' },
+ ],
   },
   'tech-worker-exploitation-visa-system': {
     title: 'Tech Worker Exploitation Visa System',
@@ -1004,6 +1082,7 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
+      { id: '1', name: 'Philip Morris', type: 'corporation', relationship: 'Original industry disinformation template', href: '/entities/corporations/philip-morris' },
     ],
   },
   'think-tank-dark-money-influence': {
@@ -1027,7 +1106,9 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Heritage Foundation', type: 'corporation', relationship: 'Major dark money recipient think tank', href: '/entities/corporations/heritage-foundation' },
+ { id: '2', name: 'Koch Industries', type: 'corporation', relationship: 'Top dark money think tank funder', href: '/entities/corporations/koch-industries' },
+ ],
   },
   'trafficking-victim-identification-failures': {
     title: 'Trafficking Victim Identification Failures',
@@ -1051,6 +1132,7 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
+      { id: '1', name: 'DHS', type: 'agency', relationship: 'H-1B visa program oversight', href: '/entities/agencies/dhs' },
     ],
   },
   'trade-based-money-laundering-schemes': {
@@ -1075,7 +1157,8 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Trade-based money laundering cases', href: '/entities/agencies/doj' },
+ ],
   },
   'trucking-industry-organized-crime': {
     title: 'Trucking Industry Organized Crime',
@@ -1099,7 +1182,8 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Organized crime in trucking', href: '/entities/agencies/fbi' },
+ ],
   },
   'techno-authoritarianism-control-mechanisms': {
     title: 'Techno-Authoritarianism Control Mechanisms',
@@ -1122,7 +1206,9 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'Government Publishing Office', url: 'https://www.govinfo.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'NSA', type: 'agency', relationship: 'Surveillance technology', href: '/entities/agencies/nsa' },
+ { id: '2', name: 'Palantir Technologies', type: 'corporation', relationship: 'Government control technology', href: '/entities/corporations/palantir' },
+ ],
   },
 
 

@@ -83,7 +83,11 @@ const investigations_2: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'Internet Research Agency', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/internet-research-agency' },
+ { id: '3', name: 'Internet Research Agency', type: 'organization', relationship: 'Key figure in investigation', href: '/entities/organizations/internet-research-agency' },
+ ],
  },
 };
 

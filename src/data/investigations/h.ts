@@ -115,41 +115,43 @@ const investigations_h: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'healthcare-capture': {
- title: 'Healthcare Capture',
- subtitle: 'Investigation into healthcare capture.',
+ affiliations: [
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Drug and food safety regulation', href: '/entities/agencies/fda' },
+ { id: '2', name: 'United States Congress', type: 'agency', relationship: 'Healthcare legislation', href: '/entities/agencies/congress' },
+ ],
+ },  'healthcare-capture': {
+ title: 'Healthcare Regulatory Capture',
+ subtitle: 'How the pharmaceutical and insurance industries captured the agencies meant to regulate them',
  severity: 'critical',
- category: 'Public Health',
+ category: 'Corporate Corruption',
  date: 'September 20, 2025',
  lastUpdated: 'October 20, 2025',
- summary: 'Investigation into healthcare capture.',
+ summary: 'The U.S. healthcare system is dominated by regulatory capture, where the pharmaceutical, insurance, and hospital industries have effectively taken control of the agencies and legislators meant to regulate them. The FDA approves drugs based on industry-funded studies. The CDC advisory committees include members with industry ties. Congress members who control healthcare legislation receive millions from healthcare lobbyists. The result is the most expensive healthcare system in the world with outcomes ranking behind dozens of other nations.',
  content: [
- 'This investigation documents healthcare capture and its impact.',
+ 'FDA REVOLVING DOOR: An analysis found that 11 of the last 16 FDA commissioners went on to work for pharmaceutical companies, lobbying firms, or industry boards after leaving office. Scott Gottlieb joined Pfizer\'s board. Mark McClellan joined Johnson & Johnson\'s board. This revolving door ensures FDA policies align with industry interests.',
+ 'PHARMA LOBBYING DOMINANCE: The pharmaceutical industry spends more on lobbying than any other sector, averaging $300-350 million annually. In 2021, PhRMA and its member companies spent $356 million and deployed 1,835 lobbyists, more than three for every member of Congress.',
+ 'INSURANCE INDUSTRY CAPTURE: Health insurance companies spent $174 million lobbying in 2021. The industry successfully killed the public option during ACA debates, watered down drug pricing reform, and maintained its role as middleman extracting hundreds of billions from the healthcare system.',
+ 'ADVISORY COMMITTEE CONFLICTS: CDC and FDA advisory committees that recommend drug approvals and vaccination schedules include members with financial ties to the companies whose products they evaluate. Despite recusal policies, studies show persistent industry influence on committee decisions.',
+ 'HOSPITAL MONOPOLIZATION: Hospital consolidation has accelerated, with the largest systems using market power to charge higher prices without improving care. Prices in monopoly hospital markets are 12% higher than in competitive markets. Regulatory agencies have largely failed to prevent harmful mergers.',
+ 'ACA LEGISLATIVE CAPTURE: During ACA negotiations, the pharmaceutical industry negotiated directly with the White House, securing provisions that prevented Medicare from negotiating drug prices and limited drug importation. Billy Tauzin, the former congressman-turned-PhRMA lobbyist, brokered the deal.',
+ 'PRIVATE EQUITY IN HEALTHCARE: Private equity firms have acquired physician practices, nursing homes, hospitals, and mental health facilities. Studies show PE ownership is associated with higher costs, worse outcomes, and increased mortality in nursing homes. Regulatory agencies have not adapted to this new ownership model.',
+ 'CMS PAYMENT STRUCTURE: The Centers for Medicare and Medicaid Services payment structure incentivizes procedures over prevention, expensive treatments over cost-effective ones, and volume over value. Industry lobbying has prevented meaningful payment reform that would reduce profits.',
+ 'OPIOID REGULATORY FAILURE: The FDA approved OxyContin based on inadequate evidence and approved misleading labels suggesting it was less addictive than other opioids. DEA production quotas were set based on industry requests rather than medical need. The regulatory failure enabled an epidemic killing over 500,000 Americans.',
+ 'MANAGED CARE GAMING: Insurance companies use prior authorization, narrow networks, surprise billing denial, and claims rejection to increase profits. Studies show 30-40% of denied claims are overturned on appeal, suggesting systematic denial as a cost-reduction strategy that harms patients who don\'t appeal.',
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
+ tags: ['Healthcare', 'Regulatory Capture', 'FDA', 'Pharma Lobbying', 'Insurance', 'Revolving Door', 'Corporate Corruption'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Science Magazine FDA Revolving Door Study', url: 'https://www.science.org/doi/10.1126/science.aaz9344', type: 'Research Study' },
+ { title: 'OpenSecrets Healthcare Lobbying Data', url: 'https://www.opensecrets.org/federal-lobbying/industries', type: 'Research Study' },
+ { title: 'Senate Finance Committee Opioid Investigation', url: 'https://www.finance.senate.gov/imo/media/doc/Bipartisan%20Staff%20Report.pdf', type: 'Congressional Record' },
  ],
- affiliations: [],
- },
-  'healthcare-profiteering': {
- title: 'Healthcare Profiteering',
- subtitle: 'Investigation into healthcare profiteering.',
- severity: 'critical',
- category: 'Public Health',
- date: 'August 18, 2024',
- lastUpdated: 'January 12, 2025',
- summary: 'Investigation into healthcare profiteering.',
- content: [
- 'This investigation documents healthcare profiteering and its impact.',
+ affiliations: [
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Revolving door with industry, captured approval process', href: '/entities/agencies/fda' },
+ { id: '2', name: 'Pfizer', type: 'corporation', relationship: 'Hired former FDA commissioners, massive lobbying', href: '/entities/corporations/pfizer' },
+ { id: '3', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Board includes former regulators', href: '/entities/corporations/johnson-and-johnson' },
+ { id: '4', name: 'Congress', type: 'agency', relationship: 'Controlled by industry campaign donations', href: '/entities/agencies/congress' },
+ { id: '5', name: 'UnitedHealth Group', type: 'corporation', relationship: 'Largest health insurer, systematic claim denials', href: '/entities/corporations/unitedhealth-group' },
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
  },
   'hedge-fund-corruption': {
  title: 'Hedge Fund Corruption',
@@ -166,7 +168,9 @@ const investigations_h: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Pharmaceutical industry capture', href: '/entities/agencies/fda' },
+ ],
  },
   'hedge-fund-manipulation': {
  title: 'Hedge Fund Manipulation',
@@ -183,24 +187,39 @@ const investigations_h: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'hollywood-abuse': {
- title: 'Hollywood Abuse',
- subtitle: 'Investigation into hollywood abuse.',
+ affiliations: [
+ { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Market manipulation allegations', href: '/entities/corporations/citadel' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Inadequate hedge fund oversight', href: '/entities/agencies/sec' },
+ ],
+ },  'hollywood-abuse': {
+ title: 'Hollywood Sexual Abuse and Power',
+ subtitle: 'Systematic exploitation, harassment, and assault enabled by the entertainment industry\'s power structures',
  severity: 'critical',
- category: 'Abuse & Exploitation',
+ category: 'Sexual Assault',
  date: 'September 28, 2024',
  lastUpdated: 'April 20, 2025',
- summary: 'Investigation into hollywood abuse.',
+ summary: 'The Hollywood entertainment industry harbored and enabled decades of sexual abuse by powerful producers, directors, actors, and executives. Harvey Weinstein\'s predation of over 80 women was the catalyst for the #MeToo movement, but the pattern extended throughout the industry: Les Moonves at CBS, Brett Ratner, Kevin Spacey, R. Kelly, and dozens of others operated with impunity while studios, agencies, and publicists actively suppressed allegations.',
  content: [
- 'This investigation documents hollywood abuse and its impact.',
+ 'WEINSTEIN SYSTEM: Harvey Weinstein sexually assaulted or harassed over 80 women over three decades. His victims included some of the industry\'s most successful actresses. Weinstein used NDAs, payoffs, private investigators (including Black Cube, a firm run by former Mossad agents), and his immense industry power to silence accusers and kill journalistic investigations.',
+ 'INDUSTRY COMPLICITY: Weinstein\'s behavior was an "open secret" throughout Hollywood. Agents sent young women to meet him knowing his reputation. Assistants were trained to facilitate private meetings. Board members at Miramax and The Weinstein Company knew of settlements. The system protected him because he was profitable.',
+ 'LES MOONVES AT CBS: CBS CEO Les Moonves was accused by 12 women of harassment, forced oral sex, and retaliation. He was fired in 2018 but fought for his $120 million severance. An internal investigation found he destroyed evidence and lied to investigators. CBS eventually denied his severance.',
+ 'CASTING COUCH CULTURE: The "casting couch" was not a joke but a systematic practice. Actors, directors, and producers demanded sexual favors in exchange for roles. The practice was so normalized that it was openly referenced in industry culture. Young actors, both male and female, were particularly vulnerable.',
+ 'CHILD EXPLOITATION: Hollywood\'s exploitation extended to children. Child actors faced sexualization, predatory behavior from industry adults, exploitation by stage parents and managers, and substance abuse enabled by their environment. Cases involving convicted pedophiles working with children in the industry were repeatedly covered up.',
+ 'KEVIN SPACEY CASES: Actor Kevin Spacey faced accusations from over 30 men of sexual harassment and assault dating back decades. He was charged criminally in both the U.S. and UK. While acquitted in UK trials, the volume of accusations revealed a pattern of predation enabled by his status as a bankable star.',
+ 'METOO MOVEMENT: The October 2017 New York Times and New Yorker investigations exposing Weinstein launched the global #MeToo movement. Within months, over 200 powerful men across industries were publicly accused. The movement permanently shifted cultural norms around believing survivors and holding power accountable.',
+ 'AGENCY COMPLICITY: Talent agencies including CAA, WME, and ICM were accused of enabling abuse by maintaining relationships with known predators and failing to protect clients. In some cases, agencies directly facilitated meetings between clients and known harassers.',
+ 'NDA INDUSTRIAL COMPLEX: The entertainment industry pioneered the use of NDAs to silence sexual abuse survivors. Standard employment contracts included binding arbitration clauses. Settlement agreements included non-disclosure and non-disparagement provisions that made it legally dangerous for survivors to speak.',
+ 'STRUCTURAL REFORM: Post-MeToo, the industry adopted new guidelines including intimacy coordinators on sets, revised confidentiality policies, and sexual harassment training. However, power imbalances remain, enforcement is uneven, and the fundamental dynamic of powerful gatekeepers and vulnerable aspirants persists.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Hollywood', 'Sexual Assault', 'Weinstein', 'MeToo', 'Entertainment Industry', 'Casting Couch', 'Power Abuse'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'NY Times Weinstein Investigation', url: 'https://www.nytimes.com/2017/10/05/us/harvey-weinstein-harassment-allegations.html', type: 'Investigation' },
+ { title: 'Ronan Farrow New Yorker Investigation', url: 'https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories', type: 'Investigation' },
+ { title: 'CBS Moonves Investigation Report', url: 'https://www.nytimes.com/2018/12/04/business/media/les-moonves-cbs-sexual-misconduct.html', type: 'News Report' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Parallel harassment culture in media industry', href: '/entities/corporations/fox-news' },
+ ],
  },
   'housing-crisis': {
  title: 'Housing Crisis',
@@ -217,7 +236,9 @@ const investigations_h: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Decades of sexual abuse enabled by industry', href: '/entities/individuals/harvey-weinstein' },
+ ],
  },
   'housing-financialization': {
  title: 'Housing Financialization',
@@ -234,24 +255,43 @@ const investigations_h: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'human-trafficking': {
- title: 'Human Trafficking',
- subtitle: 'Investigation into human trafficking.',
+ affiliations: [
+ { id: '1', name: 'Blackstone Group', type: 'corporation', relationship: 'Largest corporate landlord', href: '/entities/corporations/blackstone-group' },
+ { id: '2', name: 'Federal Reserve', type: 'agency', relationship: 'Low interest rates fueled housing speculation', href: '/entities/agencies/federal-reserve' },
+ ],
+ },  'human-trafficking': {
+ title: 'Human Trafficking Networks',
+ subtitle: 'The multi-billion-dollar global industry of modern slavery involving forced labor, sex trafficking, and organ harvesting',
  severity: 'critical',
- category: 'Abuse & Exploitation',
+ category: 'Human Rights',
  date: 'November 17, 2011',
  lastUpdated: 'June 4, 2014',
- summary: 'Investigation into human trafficking.',
+ summary: 'An estimated 27.6 million people worldwide are victims of human trafficking and forced labor, generating $150 billion in annual profits. In the United States alone, the National Human Trafficking Hotline receives over 50,000 reports annually. Victims include migrant workers in agriculture and construction, women and children in commercial sex, domestic workers in diplomatic households, and victims of labor trafficking in nail salons, restaurants, and factories. The crime is enabled by poverty, immigration enforcement, corporate supply chains, and systemic indifference.',
  content: [
- 'This investigation documents human trafficking and its impact.',
+ 'SCOPE OF TRAFFICKING: The International Labour Organization estimates 27.6 million people are in forced labor globally, including 3.3 million children. Trafficking occurs in every country and every U.S. state. The crime generates an estimated $150 billion in annual profits, making it one of the most lucrative criminal enterprises in the world.',
+ 'LABOR TRAFFICKING IN AMERICA: Migrant workers in U.S. agriculture, meatpacking, construction, and domestic work face forced labor conditions including debt bondage, document seizure, wage theft, and threats of deportation. The Coalition of Immokalee Workers documented slavery conditions in Florida tomato fields affecting thousands of workers.',
+ 'SEX TRAFFICKING: Commercial sexual exploitation affects an estimated 4.8 million people globally. In the U.S., the average age of entry into commercial sexual exploitation is 15. Traffickers target vulnerable youth, including foster care children, runaways, and LGBTQ youth rejected by families. Online platforms have both facilitated and complicated trafficking.',
+ 'SUPPLY CHAIN SLAVERY: Major corporations\' supply chains involve forced labor. Reports have documented forced labor in electronics manufacturing (cobalt mining in DRC), agriculture (chocolate from West Africa, seafood from Southeast Asia), fashion (cotton from Xinjiang, garment factories in Bangladesh), and other sectors.',
+ 'DIPLOMATIC TRAFFICKING: Domestic workers employed by foreign diplomats in the United States have been subjected to trafficking conditions including confiscated passports, 18-hour workdays, below-minimum-wage pay, and physical abuse. Diplomatic immunity shields perpetrators from prosecution.',
+ 'IMMIGRATION ENFORCEMENT PARADOX: U.S. immigration enforcement actually enables trafficking by making undocumented victims afraid to report crimes. Traffickers use the threat of deportation to control victims. ICE operations at courthouses deter trafficking victims from seeking help. The T visa program for trafficking victims is vastly underutilized.',
+ 'EPSTEIN TRAFFICKING NETWORK: Jeffrey Epstein operated a sex trafficking network involving dozens of underage girls. His connections to powerful figures including politicians, billionaires, and royalty enabled his operation. His 2008 plea deal, negotiated by Alexander Acosta, was condemned as a sweetheart deal that betrayed victims.',
+ 'MASSAGE PARLOR TRAFFICKING: An estimated 9,000 illicit massage businesses operate in the U.S., many involving trafficking victims from China and South Korea. Workers face debt bondage, confinement, and coerced sex work. Law enforcement has historically arrested victims rather than targeting their traffickers.',
+ 'FOSTER CARE TO TRAFFICKING PIPELINE: The National Center for Missing and Exploited Children found that 86% of likely child sex trafficking victims who were reported missing were in foster care at the time. The child welfare system\'s instability makes youth vulnerable to traffickers who offer false promises of stability.',
+ 'DETECTION AND PROSECUTION FAILURES: Despite the scale of trafficking, prosecution rates remain extremely low. Less than 0.04% of estimated trafficking situations result in convictions. Law enforcement training is inadequate. Victim identification protocols are lacking. Many trafficking victims are arrested as criminals rather than identified as victims.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Human Trafficking', 'Modern Slavery', 'Sex Trafficking', 'Labor Trafficking', 'Supply Chain', 'Immigration', 'Epstein'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'ILO Global Estimates of Modern Slavery', url: 'https://www.ilo.org/wcmsp5/groups/public/---ed_norm/---ipec/documents/publication/wcms_854733.pdf', type: 'International Report' },
+ { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org/en/statistics', type: 'Research Study' },
+ { title: 'State Department Trafficking in Persons Report', url: 'https://www.state.gov/trafficking-in-persons-report/', type: 'Government Report' },
+ { title: 'DOJ Human Trafficking Prosecution Data', url: 'https://www.justice.gov/humantrafficking', type: 'Government Report' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal trafficking prosecutions, low conviction rate', href: '/entities/agencies/doj' },
+ { id: '2', name: 'ICE', type: 'agency', relationship: 'Enforcement deters victim reporting', href: '/entities/agencies/ice' },
+ { id: '3', name: 'DHS', type: 'agency', relationship: 'Blue Campaign anti-trafficking efforts', href: '/entities/agencies/dhs' },
+ { id: '4', name: 'State Department', type: 'agency', relationship: 'Trafficking in Persons annual report', href: '/entities/agencies/state-department' },
+ ],
  },
   'hedge-fund-market-manipulation': {
     title: 'Hedge Fund Market Manipulation',
@@ -275,7 +315,9 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal trafficking prosecutions', href: '/entities/agencies/doj' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Human trafficking investigations', href: '/entities/agencies/fbi' },
+ ],
   },
   'human-trafficking-global-networks': {
     title: 'Human Trafficking Global Networks',
@@ -297,7 +339,9 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', type: 'Court Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'International trafficking investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Trafficking prosecutions', href: '/entities/agencies/doj' },
+ ],
   },
   'human-smuggling-cartel-operations': {
     title: 'Human Smuggling Cartel Operations',
@@ -321,6 +365,8 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
+      { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Market manipulation allegations', href: '/entities/corporations/citadel' },
+      { id: '2', name: 'SEC', type: 'agency', relationship: 'Inadequate hedge fund oversight', href: '/entities/agencies/sec' },
     ],
   },
   'hospital-price-transparency-failures': {
@@ -346,7 +392,8 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'Center for Responsive Politics', url: 'https://www.opensecrets.org', type: 'Financial Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CMS', type: 'agency', relationship: 'Price transparency mandate enforcement', href: '/entities/agencies/cms' },
+ ],
   },
   'hotel-industry-trafficking-complicity-report': {
     title: 'Hotel Industry Trafficking Complicity Report',
@@ -369,7 +416,8 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'Public Citizen Research', url: 'https://www.citizen.org', type: 'Policy Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Trafficking prosecution', href: '/entities/agencies/doj' },
+ ],
   },
   'health-data-privacy-violation-patterns': {
     title: 'Health Data Privacy Violation Patterns',
@@ -392,7 +440,8 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Health data regulation gaps', href: '/entities/agencies/fda' },
+ ],
   },
 
 

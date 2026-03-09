@@ -945,7 +945,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Cardinal Bernard Law', type: 'individual', relationship: 'Covered up abuse in Boston Archdiocese', href: '/entities/individuals/cardinal-bernard-law' },
+ { id: '2', name: 'Cardinal Theodore McCarrick', type: 'individual', relationship: 'Abuser elevated to Cardinal', href: '/entities/individuals/cardinal-theodore-mccarrick' },
+ ],
  },
   'cbs-sexual-harassment': {
  title: 'CBS Sexual Harassment',
@@ -964,7 +967,9 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Les Moonves', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/les-moonves' },
+ ],
  },
   'celsius-collapse': {
  title: 'Celsius Collapse',
@@ -983,7 +988,9 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Alex Mashinsky', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/alex-mashinsky' },
+ ],
  },
   'central-america-death-squads': {
  title: 'Central America Death Squads',
@@ -1002,7 +1009,9 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/cia' },
+ ],
  },
   'charleston-massacre': {
  title: 'Charleston Massacre',
@@ -1021,7 +1030,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'Dylann Roof', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/dylann-roof' },
+ ],
  },
   'charlie-rose-harassment': {
  title: 'Charlie Rose Harassment',
@@ -1040,7 +1052,9 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Charlie Rose', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/charlie-rose' },
+ ],
  },
   'chevron-ecuador': {
  title: 'Chevron Ecuador',
@@ -1059,7 +1073,11 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Steven Donziger', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/steven-donziger' },
+ { id: '2', name: 'Amazon Corp', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/amazon-corp' },
+ { id: '3', name: 'Amazon Inc', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/amazon-inc' },
+ ],
  },
   'chicago-police-coverup': {
  title: 'Chicago Police Coverup',
@@ -1078,7 +1096,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Laquan McDonald', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/laquan-mcdonald' },
+ ],
  },
   'chicago-police-torture': {
  title: 'Chicago Police Torture',
@@ -1097,7 +1118,9 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Jon Burge', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/jon-burge' },
+ ],
  },
   'child-exploitation': {
  title: 'Child Exploitation',
@@ -1116,7 +1139,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Operation Cross Country investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecutions', href: '/entities/agencies/doj' },
+ ],
  },
   'child-sexual-abuse': {
  title: 'Child Sexual Abuse',
@@ -1135,7 +1161,11 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Most prominent case of elite child sex abuse', href: '/entities/individuals/jeffrey-epstein' },
+ { id: '2', name: 'Ghislaine Maxwell', type: 'individual', relationship: 'Convicted sex trafficking accomplice', href: '/entities/individuals/ghislaine-maxwell' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Federal prosecutions and plea deal scandal', href: '/entities/agencies/doj' },
+ ],
  },
   'china-business-complicity': {
  title: 'China Business Complicity',
@@ -1154,7 +1184,9 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Apple Inc', type: 'corporation', relationship: 'Manufacturing in China despite human rights abuses', href: '/entities/corporations/apple-inc' },
+ ],
  },
   'china-cyber-espionage': {
  title: 'China Cyber Espionage',
@@ -1173,7 +1205,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Chinese cyber espionage investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'NSA', type: 'agency', relationship: 'Cyber defense operations', href: '/entities/agencies/nsa' },
+ ],
  },
   'china-tech': {
  title: 'China Tech',
@@ -1192,7 +1227,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Tiktok', type: 'corporation', relationship: 'Chinese-owned app, data security concerns', href: '/entities/corporations/tiktok' },
+ { id: '2', name: 'Huawei Technologies', type: 'corporation', relationship: 'Chinese tech firm, banned from US', href: '/entities/corporations/huawei-technologies' },
+ ],
  },
   'cia-origins': {
  title: 'CIA Origins',
@@ -1209,7 +1247,9 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/cia' },
+ ],
  },
   'cia-tape-destruction': {
  title: 'CIA Tape Destruction',
@@ -1226,7 +1266,9 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/cia' },
+ ],
  },
   'civil-rights': {
  title: 'Civil Rights',
@@ -1243,7 +1285,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division enforcement', href: '/entities/agencies/doj' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'COINTELPRO targeting of civil rights leaders', href: '/entities/agencies/fbi' },
+ ],
  },
   'climate-coverup': {
  title: 'Climate Coverup',
@@ -1260,7 +1305,11 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Suppressed climate science for decades', href: '/entities/corporations/exxonmobil' },
+ { id: '2', name: 'Koch Industries', type: 'corporation', relationship: 'Funded climate denial network', href: '/entities/corporations/koch-industries' },
+ { id: '3', name: 'EPA', type: 'agency', relationship: 'Regulatory failures under industry pressure', href: '/entities/agencies/epa' },
+ ],
  },
   'climate-denial-network': {
  title: 'Climate Denial Network',
@@ -1277,7 +1326,12 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Funded denial since 1980s despite internal knowledge', href: '/entities/corporations/exxonmobil' },
+ { id: '2', name: 'Koch Industries', type: 'corporation', relationship: 'Largest dark money funders of denial', href: '/entities/corporations/koch-industries' },
+ { id: '3', name: 'Charles Koch', type: 'individual', relationship: 'Billionaire funding denial infrastructure', href: '/entities/individuals/charles-koch' },
+ { id: '4', name: 'Heritage Foundation', type: 'corporation', relationship: 'Major denial think tank', href: '/entities/corporations/heritage-foundation' },
+ ],
  },
   'climate-disinformation': {
  title: 'Climate Disinformation',
@@ -1294,7 +1348,11 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Internal research contradicted public messaging', href: '/entities/corporations/exxonmobil' },
+ { id: '2', name: 'Koch Industries', type: 'corporation', relationship: 'Funded disinformation campaigns', href: '/entities/corporations/koch-industries' },
+ { id: '3', name: 'Fox News', type: 'corporation', relationship: 'Major platform for climate denial', href: '/entities/corporations/fox-news' },
+ ],
  },
   'climate-obstruction': {
  title: 'Climate Obstruction',
@@ -1311,7 +1369,11 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Lobbied against climate legislation', href: '/entities/corporations/exxonmobil' },
+ { id: '2', name: 'Chevron Corporation', type: 'corporation', relationship: 'Major fossil fuel lobby', href: '/entities/corporations/chevron' },
+ { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Blocked climate legislation for decades', href: '/entities/agencies/congress' },
+ ],
  },
   'columbia-hca-fraud': {
  title: 'Columbia Hca Fraud',
@@ -1328,7 +1390,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Largest healthcare fraud settlement', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Rick Scott', type: 'individual', relationship: 'CEO during fraud, later elected Governor and Senator', href: '/entities/individuals/rick-scott' },
+ ],
  },
   'columbus-legacy': {
  title: 'Columbus Legacy',
@@ -1345,7 +1410,9 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Christopher Columbus', type: 'individual', relationship: 'Subject of investigation', href: '/entities/individuals/christopher-columbus' },
+ ],
  },
   'congressional-age': {
  title: 'Congressional Age',
@@ -1362,7 +1429,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Aging members refusing term limits', href: '/entities/agencies/congress' },
+ { id: '2', name: 'Dianne Feinstein', type: 'individual', relationship: 'Served until death at 90 with cognitive decline', href: '/entities/individuals/dianne-feinstein' },
+ ],
  },
   'congressional-conflicts': {
  title: 'Congressional Conflicts',
@@ -1379,7 +1449,9 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Systemic conflicts of interest', href: '/entities/agencies/congress' },
+ ],
  },
   'congressional-corruption': {
  title: 'Congressional Corruption',
@@ -1396,7 +1468,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Systemic corruption by members', href: '/entities/agencies/congress' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Selective prosecution of members', href: '/entities/agencies/doj' },
+ ],
  },
   'congressional-obstruction': {
  title: 'Congressional Obstruction',
@@ -1413,7 +1488,9 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Obstruction of oversight and legislation', href: '/entities/agencies/congress' },
+ ],
  },
   'congressional-perjury': {
  title: 'Congressional Perjury',
@@ -1430,7 +1507,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Members lying under oath', href: '/entities/agencies/congress' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Failure to prosecute perjury', href: '/entities/agencies/doj' },
+ ],
  },
   'congressional-trading': {
  title: 'Congressional Trading',
@@ -1447,7 +1527,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Members trading on insider information', href: '/entities/agencies/congress' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'STOCK Act enforcement gaps', href: '/entities/agencies/sec' },
+ ],
  },
   'corporate-capture': {
  title: 'Corporate Capture',
@@ -1464,7 +1547,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Captured by Wall Street revolving door', href: '/entities/agencies/sec' },
+ { id: '2', name: 'EPA', type: 'agency', relationship: 'Captured by fossil fuel industry', href: '/entities/agencies/epa' },
+ ],
  },
   'corporate-corruption': {
  title: 'Corporate Corruption',
@@ -1481,7 +1567,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Failed to prevent systemic corruption', href: '/entities/agencies/sec' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Corporate prosecution and deferred agreements', href: '/entities/agencies/doj' },
+ ],
  },
   'corporate-fraud-scandals': {
  title: 'Corporate Fraud Scandals',
@@ -1498,7 +1587,11 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Regulatory failures enabling fraud', href: '/entities/agencies/sec' },
+ { id: '2', name: 'Enron', type: 'corporation', relationship: 'Largest corporate fraud in history', href: '/entities/corporations/enron' },
+ { id: '3', name: 'Arthur Andersen', type: 'corporation', relationship: 'Enabled fraud through negligent auditing', href: '/entities/corporations/arthur-andersen' },
+ ],
  },
   'corporate-influence': {
  title: 'Corporate Influence',
@@ -1515,7 +1608,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'US Chamber of Commerce', type: 'organization', relationship: 'Largest corporate lobbying group', href: '/entities/organizations/us-chamber-of-commerce' },
+ { id: '2', name: 'Koch Industries', type: 'corporation', relationship: 'Dark money political influence', href: '/entities/corporations/koch-industries' },
+ ],
  },
   'corporate-lobbying': {
  title: 'Corporate Lobbying',
@@ -1532,7 +1628,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'US Chamber of Commerce', type: 'organization', relationship: 'Largest lobbying spender', href: '/entities/organizations/us-chamber-of-commerce' },
+ { id: '2', name: 'United States Congress', type: 'agency', relationship: 'Recipients of lobbying influence', href: '/entities/agencies/congress' },
+ ],
  },
   'corporate-surveillance': {
  title: 'Corporate Surveillance',
@@ -1549,7 +1648,11 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Mass user surveillance for advertising', href: '/entities/corporations/meta-platforms' },
+ { id: '2', name: 'Google', type: 'corporation', relationship: 'Search and browser data collection', href: '/entities/corporations/google' },
+ { id: '3', name: 'NSA', type: 'agency', relationship: 'Corporate data access through PRISM', href: '/entities/agencies/nsa' },
+ ],
  },
   'corporate-tax-avoidance': {
  title: 'Corporate Tax Avoidance',
@@ -1566,7 +1669,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Apple Inc', type: 'corporation', relationship: 'Ireland tax avoidance scheme', href: '/entities/corporations/apple-inc' },
+ { id: '2', name: 'IRS', type: 'agency', relationship: 'Underfunded enforcement', href: '/entities/agencies/irs' },
+ ],
  },
   'corporate-union-busting': {
  title: 'Corporate Union Busting',
@@ -1583,7 +1689,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Anti-union tactics at warehouses', href: '/entities/corporations/amazon-inc' },
+ { id: '2', name: 'Starbucks', type: 'individual', relationship: 'Howard Schultz anti-union campaign', href: '/entities/individuals/howard-schultz' },
+ ],
  },
   'corporate-wage-theft': {
  title: 'Corporate Wage Theft',
@@ -1600,7 +1709,10 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Walmart Inc.', type: 'corporation', relationship: 'Largest wage theft settlements', href: '/entities/corporations/walmart' },
+ { id: '2', name: 'Amazon Inc', type: 'corporation', relationship: 'Delivery driver misclassification', href: '/entities/corporations/amazon-inc' },
+ ],
  },
   'corporate-water-theft': {
  title: 'Corporate Water Theft',
@@ -1617,41 +1729,40 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'cosby-sexual-assault': {
- title: 'Cosby Sexual Assault',
- subtitle: 'Investigation into cosby sexual assault.',
+ affiliations: [
+ { id: '1', name: 'Nestle', type: 'corporation', relationship: 'Extracted water from drought-stricken communities', href: '/entities/corporations/nestle' },
+ ],
+ },  'cosby-sexual-assault': {
+ title: 'Bill Cosby Sexual Assault',
+ subtitle: 'Decades of drugging and sexual assault enabled by fame, power, and institutional silence',
  severity: 'critical',
- category: 'Abuse & Exploitation',
+ category: 'Sexual Assault',
  date: 'June 4, 2024',
  lastUpdated: 'August 6, 2025',
- summary: 'Investigation into cosby sexual assault.',
+ summary: 'Bill Cosby drugged and sexually assaulted over 60 women across five decades while maintaining his public image as "America\'s Dad." His predation was enabled by agents, publicists, lawyers, and institutions that silenced accusers. His 2018 criminal conviction was overturned on a procedural technicality in 2021, not on the merits, and he walked free despite a jury finding him guilty of three counts of aggravated indecent assault.',
  content: [
- 'This investigation documents cosby sexual assault and its impact.',
+ 'PATTERN OF PREDATION: Beginning in the mid-1960s, Cosby used his celebrity status to isolate young women, administer intoxicants without consent, and sexually assault them while they were incapacitated. Victims described identical patterns: invitations to mentoring sessions, drinks laced with sedatives, and assault while unconscious or semi-conscious.',
+ 'SCOPE OF VICTIMS: Over 60 women publicly accused Cosby of sexual assault. Victims included aspiring actresses, models, Playboy bunnies, university employees, and fans. Ages at assault ranged from teenagers to women in their 30s. Assaults occurred over a span of nearly 50 years, from the mid-1960s through 2008.',
+ 'QUAALUDE ADMISSION: In a 2005 deposition for Andrea Constand\'s civil lawsuit, Cosby admitted under oath to obtaining Quaaludes specifically to give to women he wanted to have sex with. He also admitted giving them to at least one woman without her knowledge. This deposition was sealed until 2015.',
+ 'ANDREA CONSTAND CASE: In 2004, Temple University employee Andrea Constand reported that Cosby drugged and sexually assaulted her at his home. DA Bruce Castor declined to prosecute in 2005, allegedly in exchange for Cosby testifying in the civil suit. When new DA Kevin Steele reopened the case, Cosby was convicted in 2018.',
+ 'INSTITUTIONAL PROTECTION: Cosby\'s network of agents, publicists, and lawyers actively suppressed accusers for decades. His team pressured media outlets to kill stories, threatened legal action against accusers, and used private investigators to intimidate victims. NBC, Temple University, and the entertainment industry looked away.',
+ 'HANNIBAL BURESS CATALYST: In October 2014, comedian Hannibal Buress called out Cosby as a rapist during a stand-up set that went viral. This sparked renewed media attention and emboldened dozens of women to come forward publicly. The cultural shift toward believing accusers was critical to breaking Cosby\'s shield of silence.',
+ 'CRIMINAL CONVICTION: In April 2018, Cosby was convicted of three counts of aggravated indecent assault against Andrea Constand. He was sentenced to 3-10 years in state prison and classified as a sexually violent predator. It was the first major celebrity conviction of the #MeToo era.',
+ 'CONVICTION OVERTURNED: In June 2021, the Pennsylvania Supreme Court overturned Cosby\'s conviction on the grounds that former DA Bruce Castor\'s non-prosecution promise should have been enforceable at trial. The decision was based on due process, not innocence. Cosby walked free after serving nearly three years.',
+ 'CIVIL LAWSUITS CONTINUE: Despite the criminal reversal, Cosby faces multiple ongoing civil lawsuits. In 2022, a jury found Cosby sexually abused teenager Judy Huth at the Playboy Mansion in 1975 and awarded her $500,000 in damages.',
+ 'LEGACY OF IMPUNITY: The Cosby case illustrates how wealth, fame, and institutional complicity allow serial predators to operate for decades. His legal team\'s ability to exploit a procedural error to free a convicted sex offender underscores systemic failures in delivering justice to survivors.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Sexual Assault', 'Cosby', 'MeToo', 'Institutional Cover-up', 'Celebrity Crime', 'Temple University'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Cosby Quaalude Deposition', url: 'https://www.documentcloud.org/documents/2155399-cosby-deposition', type: 'Court Filing' },
+ { title: 'PA Supreme Court Reversal', url: 'https://www.pacourts.us/Storage/media/pdfs/20210630/165850-file-10306.pdf', type: 'Court Ruling' },
+ { title: 'New York Magazine - 35 Cosby Accusers', url: 'https://www.thecut.com/2015/07/bill-cosbys-accusers-speak-out.html', type: 'Investigation' },
+ { title: 'AP Investigation on Cosby', url: 'https://apnews.com/article/bill-cosby-sexual-assault-accusers-timeline', type: 'News Report' },
  ],
- affiliations: [],
- },
-  'coup-communications': {
- title: 'Coup Communications',
- subtitle: 'Investigation into coup communications.',
- severity: 'critical',
- category: 'Election Integrity',
- date: 'August 12, 2011',
- lastUpdated: 'March 3, 2014',
- summary: 'Investigation into coup communications.',
- content: [
- 'This investigation documents coup communications and its impact.',
+ affiliations: [
+ { id: '1', name: 'Bill Cosby', type: 'individual', relationship: 'Perpetrator: drugged and assaulted 60+ women', href: '/entities/individuals/bill-cosby' },
+ { id: '2', name: 'Cy Vance', type: 'individual', relationship: 'Manhattan DA who initially declined prosecution', href: '/entities/individuals/cy-vance' },
  ],
- tags: ['Election Integrity', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
  },
   'covid-corruption': {
  title: 'Covid Corruption',
@@ -1668,75 +1779,47 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'covid-disinfo': {
- title: 'Covid Disinfo',
- subtitle: 'Investigation into covid disinfo.',
+ affiliations: [
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Subject of investigation', href: '/entities/agencies/cia' },
+ { id: '2', name: 'Allen Dulles', type: 'individual', relationship: 'Founding CIA Director', href: '/entities/individuals/allen-dulles' },
+ ],
+ },  'covid-disinfo': {
+ title: 'COVID-19 Disinformation Campaign',
+ subtitle: 'Systematic spread of false information about COVID-19 origins, treatments, and vaccines costing hundreds of thousands of lives',
  severity: 'critical',
  category: 'Public Health',
  date: 'September 27, 2023',
  lastUpdated: 'October 27, 2023',
- summary: 'Investigation into covid disinfo.',
+ summary: 'A coordinated ecosystem of politicians, media figures, and conspiracy theorists spread false information about COVID-19 that directly contributed to vaccine hesitancy, rejection of public health measures, and the consumption of unproven treatments. Research estimates that COVID misinformation contributed to at least 200,000 preventable American deaths. The disinformation campaign was amplified by social media algorithms, monetized by grifters, and weaponized by politicians for electoral gain.',
  content: [
- 'This investigation documents covid disinfo and its impact.',
+ 'TRUMP ADMINISTRATION INTERFERENCE: The Trump White House pressured the CDC to alter scientific guidance, attempted to change COVID death counts, promoted unproven treatments, and undermined public health messaging. Political appointees at HHS edited CDC reports to align with White House messaging rather than scientific evidence.',
+ 'HYDROXYCHLOROQUINE PROMOTION: Trump repeatedly promoted hydroxychloroquine as a COVID cure, claiming he took it himself. Studies found it ineffective against COVID and potentially dangerous. The FDA revoked its emergency use authorization. Despite this, millions of doses were stockpiled and prescribed off-label, diverting supply from lupus and arthritis patients who needed it.',
+ 'IVERMECTIN MOVEMENT: Anti-vaccine activists and some physicians promoted the veterinary deworming drug ivermectin as a COVID treatment. Randomized controlled trials found no benefit. Poison control centers saw surges in calls from people self-medicating with animal-grade ivermectin. The movement was amplified by podcasters and social media.',
+ 'BLEACH AND UV LIGHT: In April 2020, Trump publicly suggested injecting bleach or using UV light inside the body to kill the virus. Poison control centers reported immediate spikes in ingestion of household disinfectants. The remarks were broadcast live and shared millions of times.',
+ 'VACCINE MISINFORMATION: False claims that COVID vaccines contained microchips, altered DNA, caused infertility, or were part of a population control scheme spread across social media. These claims were promoted by figures including Robert F. Kennedy Jr., Alex Jones, and numerous social media influencers. Vaccine hesitancy killed tens of thousands.',
+ 'LAB LEAK WEAPONIZATION: The legitimate scientific question about COVID origins was weaponized into an anti-China and anti-science narrative. Politicians used the lab leak hypothesis to deflect from domestic pandemic failures and fuel xenophobia, while social media platforms initially censored the discussion.',
+ 'ATLAS AND GREAT BARRINGTON: Scott Atlas, a neuroradiologist with no epidemiology background, became Trump\'s COVID advisor and promoted "herd immunity" through mass infection. The Great Barrington Declaration, funded by libertarian think tanks, argued against lockdowns and was used to justify premature reopenings that killed thousands.',
+ 'DEATH THREAT CAMPAIGNS: Public health officials including Anthony Fauci, state health directors, and local health board members received death threats fueled by COVID conspiracy theories. Multiple officials resigned under pressure. Armed protesters appeared at officials\' homes.',
+ 'SOCIAL MEDIA AMPLIFICATION: Facebook, YouTube, and Twitter algorithms amplified COVID misinformation by promoting engagement-driven content. Internal Facebook research (revealed by whistleblower Frances Haugen) showed the company knew its algorithms promoted health misinformation but prioritized engagement over safety.',
+ 'PREVENTABLE DEATH TOLL: A Kaiser Family Foundation study estimated that at least 234,000 COVID deaths in the United States since June 2021 could have been prevented with vaccination. The majority of these deaths occurred in counties with lower vaccination rates, which correlated with higher exposure to vaccine misinformation.',
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
+ tags: ['COVID-19', 'Disinformation', 'Public Health', 'Vaccines', 'Trump', 'Social Media', 'Anti-Vaxx'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Kaiser Family Foundation Preventable Deaths Study', url: 'https://www.kff.org/coronavirus-covid-19/issue-brief/covid-19-deaths-preventable-by-vaccines/', type: 'Research Study' },
+ { title: 'House Select Subcommittee COVID Report', url: 'https://coronavirus.house.gov/sites/democrats.coronavirus.house.gov/files/2022-12/Final%20Report%20Dec%202022.pdf', type: 'Congressional Record' },
+ { title: 'Facebook Misinformation Internal Research', url: 'https://www.wsj.com/articles/facebook-internal-research-data-health-misinformation-11631886888', type: 'Investigation' },
+ { title: 'CDC Scientific Interference Documentation', url: 'https://www.politico.com/news/2020/09/11/exclusive-trump-officials-interfered-with-cdc-reports-on-covid-19-412809', type: 'News Report' },
+ { title: 'Lancet COVID Misinformation Analysis', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31558-0/fulltext', type: 'Research Study' },
  ],
- affiliations: [],
- },
-  'covid-failures': {
- title: 'Covid Failures',
- subtitle: 'Investigation into covid failures.',
- severity: 'critical',
- category: 'Public Health',
- date: 'December 15, 2024',
- lastUpdated: 'January 14, 2025',
- summary: 'Investigation into covid failures.',
- content: [
- 'This investigation documents covid failures and its impact.',
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Promoted bleach, HCQ, undermined CDC', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'Anthony Fauci', type: 'individual', relationship: 'Target of death threats from disinfo', href: '/entities/individuals/anthony-fauci' },
+ { id: '3', name: 'Alex Jones', type: 'individual', relationship: 'Major anti-vaccine disinformation source', href: '/entities/individuals/alex-jones' },
+ { id: '4', name: 'Meta', type: 'corporation', relationship: 'Algorithms amplified health misinformation', href: '/entities/corporations/meta' },
+ { id: '5', name: 'CDC', type: 'agency', relationship: 'Scientific guidance politicized by White House', href: '/entities/agencies/cdc' },
+ { id: '6', name: 'HHS', type: 'agency', relationship: 'Political appointees altered scientific reports', href: '/entities/agencies/hhs' },
+ { id: '7', name: 'Fox News', type: 'corporation', relationship: 'Platformed vaccine skeptics and anti-mask rhetoric', href: '/entities/corporations/fox-news' },
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
- },
-  'covid-misinformation': {
- title: 'Covid Misinformation',
- subtitle: 'Investigation into covid misinformation.',
- severity: 'critical',
- category: 'Public Health',
- date: 'February 24, 2025',
- lastUpdated: 'April 1, 2025',
- summary: 'Investigation into covid misinformation.',
- content: [
- 'This investigation documents covid misinformation and its impact.',
- ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
- },
-  'covid-vaccine-profits': {
- title: 'Covid Vaccine Profits',
- subtitle: 'Investigation into covid vaccine profits.',
- severity: 'critical',
- category: 'Public Health',
- date: 'June 30, 2023',
- lastUpdated: 'February 16, 2025',
- summary: 'Investigation into covid vaccine profits.',
- content: [
- 'This investigation documents covid vaccine profits and its impact.',
- ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
  },
   'crypto-fraud-epidemic': {
  title: 'Crypto Fraud Epidemic',
@@ -1753,7 +1836,11 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Sam Bankman-Fried', type: 'individual', relationship: 'FTX collapse, convicted of fraud', href: '/entities/individuals/sam-bankman-fried' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Regulatory gaps in crypto enforcement', href: '/entities/agencies/sec' },
+ { id: '3', name: 'Do Kwon', type: 'individual', relationship: 'Terra/Luna collapse fraud', href: '/entities/individuals/do-kwon' },
+ ],
  },
   'cambridge-analytica-global-operations': {
     title: 'Cambridge Analytica Global Operations',
@@ -1775,7 +1862,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Center for Responsive Politics', url: 'https://www.opensecrets.org', type: 'Financial Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Cambridge Analytica', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/cambridge-analytica' },
+ ],
   },
   'cryptocurrency-money-laundering-networks': {
     title: 'Cryptocurrency Money Laundering Networks',
@@ -1798,7 +1886,10 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'FOIA Request Archive', url: 'https://www.foia.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Enforcement actions against crypto fraud', href: '/entities/agencies/sec' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Criminal prosecution of money laundering', href: '/entities/agencies/doj' },
+ { id: '3', name: 'Changpeng Zhao', type: 'individual', relationship: 'Binance CEO, guilty plea for AML violations', href: '/entities/individuals/changpeng-zhao' },
+ ],
   },
   'credit-default-swap-fraud': {
     title: 'Credit Default Swap Fraud',
@@ -1822,7 +1913,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'FOIA Request Archive', url: 'https://www.foia.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Abacus CDO fraud', href: '/entities/corporations/goldman-sachs' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Failed to regulate CDS market', href: '/entities/agencies/sec' },
+ ],
   },
   'corporate-tax-avoidance-schemes': {
     title: 'Corporate Tax Avoidance Schemes',
@@ -1846,7 +1939,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'IRS', type: 'agency', relationship: 'Revenue loss from corporate evasion', href: '/entities/agencies/irs' },
+ { id: '2', name: 'Apple Inc', type: 'corporation', relationship: 'Ireland tax avoidance scheme', href: '/entities/corporations/apple-inc' },
+ ],
   },
   'child-exploitation-online-networks': {
     title: 'Child Exploitation Online Networks',
@@ -1868,7 +1963,10 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Cambridge Analytica', type: 'corporation', relationship: 'Harvested Facebook data for political manipulation', href: '/entities/corporations/cambridge-analytica' },
+ { id: '2', name: 'Alexander Nix', type: 'individual', relationship: 'Cambridge Analytica CEO', href: '/entities/individuals/alexander-nix' },
+ { id: '3', name: 'Meta Platforms', type: 'corporation', relationship: 'Data breach, allowed data harvesting', href: '/entities/corporations/meta-platforms' },
+ ],
   },
   'corruption-in-union-leadership': {
     title: 'Corruption in Union Leadership',
@@ -1891,7 +1989,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Destroyed torture tapes', href: '/entities/agencies/cia' },
+ ],
   },
   'casino-money-laundering-operations': {
     title: 'Casino Money Laundering Operations',
@@ -1916,7 +2015,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Trained and funded death squads', href: '/entities/agencies/cia' },
+ ],
   },
   'cartel-money-laundering-through-real-estate': {
     title: 'Cartel Money Laundering Through Real Estate',
@@ -1940,7 +2040,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'ACLU Document Archive', url: 'https://www.aclu.org', type: 'Legal Document' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Task force investigations', href: '/entities/agencies/doj' },
+ { id: '2', name: 'HSBC Holdings', type: 'corporation', relationship: 'Laundered cartel money', href: '/entities/corporations/hsbc' },
+ ],
   },
   'chinese-triad-financial-networks': {
     title: 'Chinese Triad Financial Networks',
@@ -1963,7 +2065,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', type: 'Court Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Alex Mashinsky', type: 'individual', relationship: 'CEO who defrauded depositors', href: '/entities/individuals/alex-mashinsky' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities fraud charges', href: '/entities/agencies/sec' },
+ ],
   },
   'cointelpro-domestic-surveillance-legacy': {
     title: 'COINTELPRO Domestic Surveillance Legacy',
@@ -1987,7 +2091,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'FOIA Request Archive', url: 'https://www.foia.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Ran COINTELPRO domestic surveillance', href: '/entities/agencies/fbi' },
+ ],
   },
   'cia-black-site-torture-program': {
     title: 'CIA Black Site Torture Program',
@@ -2010,7 +2115,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/cia' },
+ ],
   },
   'church-committee-revelations': {
     title: 'Church Committee Revelations',
@@ -2032,7 +2138,10 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Center for Responsive Politics', url: 'https://www.opensecrets.org', type: 'Financial Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Illegal operations exposed by committee', href: '/entities/agencies/cia' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'COINTELPRO exposed', href: '/entities/agencies/fbi' },
+ { id: '3', name: 'NSA', type: 'agency', relationship: 'Surveillance programs revealed', href: '/entities/agencies/nsa' },
+ ],
   },
   'cell-phone-location-data-brokers': {
     title: 'Cell Phone Location Data Brokers',
@@ -2058,7 +2167,10 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'FOIA Request Archive', url: 'https://www.foia.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated black site prisons worldwide', href: '/entities/agencies/cia' },
+ { id: '2', name: 'Dick Cheney', type: 'individual', relationship: 'Authorized torture program', href: '/entities/individuals/dick-cheney' },
+ { id: '3', name: 'George W. Bush', type: 'individual', relationship: 'President who authorized program', href: '/entities/individuals/george-w-bush' },
+ ],
   },
   'clinical-trial-data-manipulation': {
     title: 'Clinical Trial Data Manipulation',
@@ -2081,7 +2193,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Dylann Roof', type: 'individual', relationship: 'White supremacist mass shooter', href: '/entities/individuals/dylann-roof' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal hate crime prosecution', href: '/entities/agencies/doj' },
+ ],
   },
   'corporate-capture-of-epa': {
     title: 'Corporate Capture of EPA',
@@ -2104,7 +2218,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/epa' },
+ ],
   },
   'chemical-plant-safety-failures': {
     title: 'Chemical Plant Safety Failures',
@@ -2128,7 +2243,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'The Intercept', url: 'https://theintercept.com', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Regulatory oversight failures', href: '/entities/agencies/epa' },
+ { id: '2', name: 'OSHA', type: 'agency', relationship: 'Worker safety enforcement gaps', href: '/entities/agencies/osha' },
+ ],
   },
   'coal-ash-contamination-cover-up': {
     title: 'Coal Ash Contamination Cover-Up',
@@ -2153,7 +2270,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'ACLU Document Archive', url: 'https://www.aclu.org', type: 'Legal Document' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Duke Energy', type: 'corporation', relationship: 'Major coal ash polluter', href: '/entities/corporations/duke-energy' },
+ { id: '2', name: 'EPA', type: 'agency', relationship: 'Delayed regulation for decades', href: '/entities/agencies/epa' },
+ ],
   },
   'crypto-exchange-fraud-ecosystem': {
     title: 'Crypto Exchange Fraud Ecosystem',
@@ -2178,7 +2297,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'OpenSecrets Financial Disclosures', url: 'https://www.opensecrets.org', type: 'Financial Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Chevron Corporation', type: 'corporation', relationship: 'Contaminated Amazon rainforest', href: '/entities/corporations/chevron' },
+ ],
   },
   'cash-bail-system-economic-racism': {
     title: 'Cash Bail System Economic Racism',
@@ -2202,7 +2322,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org', type: 'Policy Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Pattern-or-practice investigation', href: '/entities/agencies/doj' },
+ ],
   },
   'climate-change-denial-industry': {
     title: 'Climate Change Denial Industry',
@@ -2225,7 +2346,10 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Pioneer of organized climate denial', href: '/entities/corporations/exxonmobil' },
+ { id: '2', name: 'Koch Industries', type: 'corporation', relationship: 'Funded denial NGO network', href: '/entities/corporations/koch-industries' },
+ { id: '3', name: 'American Petroleum Institute', type: 'organization', relationship: 'Industry trade group coordinating denial', href: '/entities/organizations/american-petroleum-institute' },
+ ],
   },
   'civil-asset-forfeiture-abuse': {
     title: 'Civil Asset Forfeiture Abuse',
@@ -2248,7 +2372,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Jon Burge', type: 'individual', relationship: 'CPD commander who tortured over 100 suspects', href: '/entities/individuals/jon-burge' },
+ ],
   },
   'citizens-united-dark-money-pipeline': {
     title: 'Citizens United Dark Money Pipeline',
@@ -2270,7 +2395,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Citizens United', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/citizens-united' },
+ { id: '2', name: 'Citizens United', type: 'organization', relationship: 'Key figure in investigation', href: '/entities/organizations/citizens-united' },
+ ],
   },
   'classification-system-reform-failures': {
     title: 'Classification System Reform Failures',
@@ -2294,7 +2421,10 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Government Publishing Office', url: 'https://www.govinfo.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Citizens United', type: 'organization', relationship: 'Organization behind Supreme Court case', href: '/entities/organizations/citizens-united' },
+ { id: '2', name: 'Supreme Court', type: 'agency', relationship: '2010 ruling unleashed unlimited money', href: '/entities/agencies/supreme-court' },
+ { id: '3', name: 'Koch Industries', type: 'corporation', relationship: 'Largest dark money beneficiary', href: '/entities/corporations/koch-industries' },
+ ],
   },
   'cult-recruitment-technique-evolution': {
     title: 'Cult Recruitment Technique Evolution',
@@ -2319,7 +2449,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Union corruption prosecutions', href: '/entities/agencies/doj' },
+ ],
   },
   'construction-industry-bid-rigging-networks': {
     title: 'Construction Industry Bid Rigging Networks',
@@ -2342,7 +2473,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Online CSAM investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Platform used for exploitation', href: '/entities/corporations/meta-platforms' },
+ ],
   },
   'corporate-environmental-crime-prosecution-gap': {
     title: 'Corporate Environmental Crime Prosecution Gap',
@@ -2365,7 +2498,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Underfunded enforcement', href: '/entities/agencies/epa' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Declined to prosecute most cases', href: '/entities/agencies/doj' },
+ ],
   },
   'construction-worker-trafficking-schemes': {
     title: 'Construction Worker Trafficking Schemes',
@@ -2388,7 +2523,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Human trafficking prosecutions', href: '/entities/agencies/doj' },
+ ],
   },
   'classified-document-declassification-delays': {
     title: 'Classified Document Declassification Delays',
@@ -2411,7 +2547,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Major classification authority', href: '/entities/agencies/cia' },
+ { id: '2', name: 'NSA', type: 'agency', relationship: 'Classified surveillance programs', href: '/entities/agencies/nsa' },
+ ],
   },
   'compounding-pharmacy-contamination': {
     title: 'Compounding Pharmacy Contamination',
@@ -2437,7 +2575,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Failed to regulate compounding pharmacies', href: '/entities/agencies/fda' },
+ ],
   },
   'congressional-oversight-obstruction-cases': {
     title: 'Congressional Oversight Obstruction Cases',
@@ -2460,7 +2599,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Cybercrime investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'NSA', type: 'agency', relationship: 'Cyber defense operations', href: '/entities/agencies/nsa' },
+ ],
   },
   'campaign-finance-loopholes-exploited': {
     title: 'Campaign Finance Loopholes Exploited',
@@ -2484,7 +2625,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FEC', type: 'agency', relationship: 'Deadlocked enforcement', href: '/entities/agencies/fec' },
+ { id: '2', name: 'Citizens United', type: 'organization', relationship: 'Enabled unlimited dark money', href: '/entities/organizations/citizens-united' },
+ ],
   },
   'chemical-plant-explosion-investigation': {
     title: 'Chemical Plant Explosion Investigation',
@@ -2506,7 +2649,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Environmental regulatory failures', href: '/entities/agencies/epa' },
+ { id: '2', name: 'OSHA', type: 'agency', relationship: 'Workplace safety enforcement', href: '/entities/agencies/osha' },
+ ],
   },
   'counterfeit-goods-distribution-networks': {
     title: 'Counterfeit Goods Distribution Networks',
@@ -2531,6 +2676,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
+      { id: '1', name: 'FEC', type: 'agency', relationship: 'Deadlocked enforcement', href: '/entities/agencies/fec' },
+      { id: '2', name: 'Citizens United', type: 'organization', relationship: 'Enabled unlimited dark money', href: '/entities/organizations/citizens-united' },
     ],
   },
   'clinical-trial-death-cover-ups': {
@@ -2556,7 +2703,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Clinical trial oversight failures', href: '/entities/agencies/fda' },
+ ],
   },
 
 

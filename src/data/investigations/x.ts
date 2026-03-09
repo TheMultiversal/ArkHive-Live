@@ -24,7 +24,9 @@ const investigations_x: Record<string, InvestigationData> = {
       { title: 'FOIA Request Archive', url: 'https://www.foia.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'NSA', type: 'agency', relationship: 'XKeyscore mass data collection system', href: '/entities/agencies/nsa' },
+ { id: '2', name: 'Edward Snowden', type: 'individual', relationship: 'Leaked XKeyscore capabilities', href: '/entities/individuals/edward-snowden' },
+ ],
   },
 
 };

@@ -544,7 +544,10 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Brought charges and won conviction', href: '/entities/agencies/sec' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Criminal prosecution', href: '/entities/agencies/doj' },
+ ],
  },
   'gamestop-halt': {
  title: 'Gamestop Halt',
@@ -561,7 +564,10 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Market maker, conflict of interest', href: '/entities/corporations/citadel' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Investigated trading halt', href: '/entities/agencies/sec' },
+ ],
  },
   'gamestop-manipulation': {
  title: 'Gamestop Manipulation',
@@ -578,24 +584,42 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'georgia-voter-suppression': {
+ affiliations: [
+ { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Market maker influencing trading', href: '/entities/corporations/citadel' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Market manipulation investigation', href: '/entities/agencies/sec' },
+ ],
+ },  'georgia-voter-suppression': {
  title: 'Georgia Voter Suppression',
- subtitle: 'Investigation into georgia voter suppression.',
+ subtitle: 'Systematic disenfranchisement of Black voters through purges, closures, and restrictive laws in Georgia',
  severity: 'critical',
- category: 'Election Integrity',
+ category: 'Civil Rights',
  date: 'October 9, 2016',
  lastUpdated: 'May 20, 2025',
- summary: 'Investigation into georgia voter suppression.',
+ summary: 'Georgia has conducted one of the most aggressive voter suppression campaigns in modern American history, disproportionately targeting Black voters. Under Secretary of State Brian Kemp (2010-2018), the state purged 1.4 million voters, closed 214 polling places, and used "exact match" voter verification to reject disproportionately minority registrations. After the 2020 election, Georgia passed SB 202, further restricting access under the guise of election integrity.',
  content: [
- 'This investigation documents georgia voter suppression and its impact.',
+ 'MASS VOTER PURGES: Between 2012 and 2018, Georgia purged over 1.4 million voters from the rolls. An APM Reports investigation found that up to 340,000 were purged incorrectly. The purges disproportionately affected Black voters in Democratic-leaning counties. Many purged voters discovered they were removed only when they arrived to vote.',
+ 'EXACT MATCH POLICY: Georgia\'s "exact match" voter verification system rejected registrations if any character -- a hyphen, space, or middle initial -- differed from other government records. An AP investigation found that 70% of the 53,000 registrations pending under exact match in 2018 were from Black applicants, despite Black residents being 32% of the population.',
+ 'BRIAN KEMP CONFLICT: Brian Kemp served as Secretary of State overseeing elections while simultaneously running for governor against Stacey Abrams in 2018. He refused to recuse himself from election administration and oversaw purges and registration holds that disproportionately affected his opponent\'s supporters.',
+ 'POLLING PLACE CLOSURES: Georgia closed 214 polling places between 2012 and 2018, primarily in Black neighborhoods. Majority-Black Lincoln County attempted to close 7 of its 9 polling places. Reduced polling locations created long lines, with some voters waiting over 4 hours in predominantly Black areas.',
+ 'STACEY ABRAMS AND FAIR FIGHT: After losing the 2018 governor\'s race by 55,000 votes, Stacey Abrams founded Fair Fight Action to combat voter suppression. The organization\'s lawsuit documented systematic disenfranchisement. Abrams refused to concede, arguing the election was fundamentally unfair.',
+ 'SB 202: ELECTION INTEGRITY ACT: After Biden\'s narrow Georgia victory in 2020, the Republican legislature passed SB 202, which restricted absentee ballot access, reduced drop box locations, banned giving food and water to voters waiting in line, and shifted election oversight power to partisan legislators.',
+ 'FULTON COUNTY TARGETING: Fulton County, containing Atlanta and the state\'s largest Black population, was the primary target of post-2020 election scrutiny. SB 202 provisions allowing state takeover of county election boards appeared specifically designed to target Fulton County\'s election administration.',
+ 'LINE WAITING AND THE WATER BAN: Georgia\'s polling place closures created hours-long lines in Black neighborhoods. SB 202\'s prohibition on providing food and water to voters in line was condemned by critics as deliberately targeting communities already burdened by inadequate polling resources.',
+ 'DOJ LAWSUIT: In 2021, the Department of Justice sued Georgia over SB 202, alleging it violated the Voting Rights Act. The suit focused on provisions disproportionately burdening Black voters. However, the weakened VRA after Shelby County v. Holder (2013) limited federal enforcement tools.',
+ 'NATIONAL PATTERN: Georgia\'s voter suppression tactics are part of a broader national pattern. After the Supreme Court gutted the VRA in 2013, states previously covered by preclearance immediately implemented restrictive measures. Georgia became the model for Republican-controlled states seeking to limit minority voting power.',
  ],
- tags: ['Election Integrity', 'Investigation', 'Accountability'],
+ tags: ['Voter Suppression', 'Georgia', 'Voting Rights', 'Brian Kemp', 'Stacey Abrams', 'SB 202', 'Racial Discrimination'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'APM Reports Georgia Voter Purge Investigation', url: 'https://www.apmreports.org/story/2018/10/19/georgia-voter-purge', type: 'Investigation' },
+ { title: 'AP Exact Match Investigation', url: 'https://apnews.com/article/elections-voting-rights-georgia-voter-purge', type: 'Investigation' },
+ { title: 'DOJ v. Georgia SB 202 Complaint', url: 'https://www.justice.gov/opa/press-release/file/1413931/download', type: 'Court Filing' },
+ { title: 'Brennan Center Georgia Polling Place Analysis', url: 'https://www.brennancenter.org/our-work/research-reports/impact-voter-suppression-communities-color', type: 'Research Study' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Brian Kemp', type: 'individual', relationship: 'Oversaw voter purges while running for governor', href: '/entities/individuals/brian-kemp' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Sued Georgia over SB 202 Voting Rights Act violations', href: '/entities/agencies/doj' },
+ { id: '3', name: 'Supreme Court', type: 'agency', relationship: 'Gutted VRA preclearance in Shelby County decision', href: '/entities/agencies/supreme-court' },
+ ],
  },
   'ghosn-financial-crimes': {
  title: 'Ghosn Financial Crimes',
@@ -612,7 +636,9 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Carlos Ghosn', type: 'individual', relationship: 'Escaped justice, international fugitive', href: '/entities/individuals/carlos-ghosn' },
+ ],
  },
   'gig-economy-exploitation': {
  title: 'Gig Economy Exploitation',
@@ -629,24 +655,43 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'global-terrorism': {
- title: 'Global Terrorism',
- subtitle: 'Investigation into global terrorism.',
+ affiliations: [
+ { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Flex drivers, warehouse workers', href: '/entities/corporations/amazon-inc' },
+ ],
+ },  'global-terrorism': {
+ title: 'Global Terrorism Networks',
+ subtitle: 'How state sponsors, intelligence agencies, and geopolitical interests create and sustain terrorist organizations',
  severity: 'critical',
- category: 'Violence & Justice',
+ category: 'National Security',
  date: 'May 25, 2024',
  lastUpdated: 'November 5, 2025',
- summary: 'Investigation into global terrorism.',
+ summary: 'Global terrorism is not simply the product of individual radicalization but of complex networks involving state sponsorship, intelligence agency manipulation, arms trafficking, and geopolitical competition. The CIA armed mujahedeen who became al-Qaeda. Saudi Arabia exported Wahhabist ideology. Pakistan\'s ISI supported the Taliban. Iran funded Hezbollah. Russia used Wagner Group as a proxy. The "War on Terror" itself became a generator of new terrorism through invasion, occupation, and civilian casualties.',
  content: [
- 'This investigation documents global terrorism and its impact.',
+ 'CIA AND THE MUJAHEDEEN: During the 1980s Soviet-Afghan War, the CIA funneled an estimated $3 billion through Pakistan\'s ISI to arm Afghan mujahedeen. This included providing Stinger missiles and training camps that later served as infrastructure for al-Qaeda. Osama bin Laden built his organization during this period with indirect American support.',
+ 'SAUDI WAHHABISM EXPORT: Saudi Arabia spent over $100 billion exporting Wahhabist ideology worldwide through madrasas, mosques, and religious organizations. This ultraconservative interpretation of Islam provided ideological foundations for jihadist movements. Fifteen of the nineteen 9/11 hijackers were Saudi nationals.',
+ 'PAKISTAN ISI AND THE TALIBAN: Pakistan\'s Inter-Services Intelligence agency created, funded, and directed the Taliban beginning in the mid-1990s. The ISI maintained relationships with Taliban leadership throughout the U.S. war in Afghanistan, effectively supporting an insurgency against American forces while receiving billions in U.S. aid.',
+ 'STATE-SPONSORED TERRORISM: Multiple nations have used terrorism as a foreign policy tool. Libya under Gaddafi sponsored the Lockerbie bombing. Iran sponsors Hezbollah, Hamas, and Houthi forces. Syria harbored terrorist organizations. Russia conducted state terrorism including the Litvinenko poisoning and chemical weapons attacks.',
+ 'BLOWBACK PATTERN: The CIA\'s covert operations repeatedly create the threats they later claim to fight. Operation Cyclone in Afghanistan led to al-Qaeda. Support for anti-Saddam groups complicated the Iraq occupation. Libyan weapons from NATO intervention spread across North Africa and fueled insurgencies.',
+ 'LONE WOLF RADICALIZATION: While state-sponsored networks get the most attention, online radicalization has created a new terrorist threat. ISIS pioneered social media recruitment, reaching individuals globally. White supremacist networks operate across borders through forums and encrypted platforms.',
+ 'FINANCING NETWORKS: Terrorist financing flows through hawala networks, cryptocurrency, charitable front organizations, state sponsors, and legitimate business operations. Saudi charitable organizations funded al-Qaeda affiliates. Drug trafficking finances the Taliban and narco-terrorism in Latin America.',
+ 'WAR ON TERROR AS TERRORIST GENERATOR: U.S. military operations in Iraq, Afghanistan, Yemen, and Somalia killed hundreds of thousands of civilians, creating new grievances and recruits for terrorist organizations. Abu Ghraib, Guantanamo, drone strikes on weddings, and civilian massacres became recruiting tools for jihadists.',
+ 'COUNTERTERRORISM INDUSTRIAL COMPLEX: The post-9/11 counterterrorism industry grew into a trillion-dollar enterprise. Over 1,200 government agencies and nearly 2,000 private companies work on counterterrorism. This industry has financial incentives to perpetuate rather than resolve the threat.',
+ 'DOMESTIC TERRORISM NEGLECTED: While resources focused on international jihadist threats, domestic terrorism, particularly from white supremacist and anti-government movements, was systematically underfunded and deprioritized. Domestic threats now kill more Americans than international terrorism.',
  ],
- tags: ['Violence & Justice', 'Investigation', 'Accountability'],
+ tags: ['Terrorism', 'CIA', 'al-Qaeda', 'Taliban', 'Saudi Arabia', 'State Sponsorship', 'War on Terror', 'Blowback'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Steve Coll - Ghost Wars', url: 'https://www.penguinrandomhouse.com/books/286508/ghost-wars-by-steve-coll/', type: 'Investigation' },
+ { title: 'CIA Afghan Covert Action Records', url: 'https://nsarchive.gwu.edu/project/afghanistan-soviet-invasion-and-us-response', type: 'Government Report' },
+ { title: 'Washington Post Top Secret America', url: 'https://www.washingtonpost.com/wp-srv/special/national/top-secret-america/', type: 'Investigation' },
+ { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', type: 'Government Report' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Armed mujahedeen, covert operations creating blowback', href: '/entities/agencies/cia' },
+ { id: '2', name: 'Saudi Arabia', type: 'agency', relationship: '$100B Wahhabism export, 15 of 19 hijackers', href: '/entities/agencies/saudi-arabia' },
+ { id: '3', name: 'NSA', type: 'agency', relationship: 'Surveillance programs targeting terrorism communications', href: '/entities/agencies/nsa' },
+ { id: '4', name: 'DOD', type: 'agency', relationship: 'Military operations generating civilian casualties', href: '/entities/agencies/dod' },
+ { id: '5', name: 'Wagner Group', type: 'organization', relationship: 'Russian proxy force conducting operations globally', href: '/entities/organizations/wagner-group' },
+ ],
  },
   'gm-ignition-switch': {
  title: 'GM Ignition Switch',
@@ -663,7 +708,9 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'World Economic Forum', type: 'organization', relationship: 'Great Reset initiative organizer', href: '/entities/organizations/world-economic-forum' },
+ ],
  },
   'goldman-sachs-fraud': {
  title: 'Goldman Sachs Fraud',
@@ -680,7 +727,9 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/goldman-sachs' },
+ ],
  },
   'guatemala-experiments': {
  title: 'Guatemala Experiments',
@@ -697,7 +746,11 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Subject of investigation', href: '/entities/corporations/goldman-sachs' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities fraud charges', href: '/entities/agencies/sec' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: '1MDB prosecution', href: '/entities/agencies/doj' },
+ ],
  },
   'gujarat-riots': {
  title: 'Gujarat Riots',
@@ -714,7 +767,9 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Narendra Modi', type: 'individual', relationship: 'Chief Minister during riots, accused of complicity', href: '/entities/individuals/narendra-modi' },
+ ],
  },
   'gulf-war-crimes': {
  title: 'Gulf War Crimes',
@@ -731,7 +786,10 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Directed military operations', href: '/entities/agencies/pentagon' },
+ { id: '2', name: 'CIA', type: 'agency', relationship: 'Intelligence operations', href: '/entities/agencies/cia' },
+ ],
  },
   'gulf-of-tonkin-fabricated-incident': {
     title: 'Gulf of Tonkin Fabricated Incident',
@@ -753,7 +811,9 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Fabricated second attack report', href: '/entities/agencies/pentagon' },
+ { id: '2', name: 'NSA', type: 'agency', relationship: 'Manipulated SIGINT to justify war', href: '/entities/agencies/nsa' },
+ ],
   },
   'generic-drug-price-fixing-conspiracy': {
     title: 'Generic Drug Price Fixing Conspiracy',
@@ -777,7 +837,9 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Antitrust prosecution', href: '/entities/agencies/doj' },
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Generic drug approval process', href: '/entities/agencies/fda' },
+ ],
   },
   'glyphosate-cancer-link-cover-up': {
     title: 'Glyphosate Cancer Link Cover-Up',
@@ -801,7 +863,10 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Manufactured Roundup, concealed cancer risks', href: '/entities/corporations/monsanto' },
+ { id: '2', name: 'Bayer AG', type: 'corporation', relationship: 'Acquired Monsanto, inherited liability', href: '/entities/corporations/bayer-ag' },
+ { id: '3', name: 'EPA', type: 'agency', relationship: 'Colluded with Monsanto on safety determination', href: '/entities/agencies/epa' },
+ ],
   },
   'gerrymandering-systematic-voter-dilution': {
     title: 'Gerrymandering Systematic Voter Dilution',
@@ -825,6 +890,8 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Antitrust prosecution', href: '/entities/agencies/doj' },
+      { id: '2', name: 'FDA', type: 'agency', relationship: 'Generic drug approval process', href: '/entities/agencies/fda' },
     ],
   },
   'global-population-policy-hidden-agendas': {
@@ -851,7 +918,8 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'World Health Organization', type: 'agency', relationship: 'Population health policy', href: '/entities/agencies/world-health-organization' },
+ ],
   },
   'gambling-industry-criminal-enterprise': {
     title: 'Gambling Industry Criminal Enterprise',
@@ -877,6 +945,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'OpenSecrets Financial Disclosures', url: 'https://www.opensecrets.org', type: 'Financial Record' },
     ],
     affiliations: [
+      { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Gerrymandering rulings', href: '/entities/agencies/supreme-court' },
     ],
   },
   'government-contract-fraud-patterns': {
@@ -901,7 +970,9 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Largest source of contract fraud', href: '/entities/agencies/pentagon' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'False Claims Act enforcement', href: '/entities/agencies/doj' },
+ ],
   },
   'government-records-destruction-incidents': {
     title: 'Government Records Destruction Incidents',
@@ -925,7 +996,9 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org', type: 'Policy Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Destroyed torture tapes', href: '/entities/agencies/cia' },
+ { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Destroyed presidential records', href: '/entities/individuals/donald-trump' },
+ ],
   },
 
 

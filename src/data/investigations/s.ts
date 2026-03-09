@@ -667,7 +667,10 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'NSA', type: 'agency', relationship: 'Mass surveillance expansion', href: '/entities/agencies/nsa' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Section 702 surveillance expansion', href: '/entities/agencies/fbi' },
+ ],
  },
   'sackler-family': {
  title: 'Sackler Family',
@@ -684,7 +687,9 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Richard Sackler', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/richard-sackler' },
+ ],
  },
   'sandy-hook-disinfo': {
  title: 'Sandy Hook Disinfo',
@@ -701,7 +706,10 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Alex Jones', type: 'individual', relationship: 'Spread hoax claims, ordered to pay $1.5B', href: '/entities/individuals/alex-jones' },
+ { id: '2', name: 'InfoWars', type: 'corporation', relationship: 'Platform for Sandy Hook denial', href: '/entities/corporations/infowars' },
+ ],
  },
   'santos-fraud': {
  title: 'Santos Fraud',
@@ -718,7 +726,11 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Purdue Pharma', type: 'corporation', relationship: 'Sackler-owned opioid manufacturer', href: '/entities/corporations/purdue-pharma' },
+ { id: '2', name: 'Richard Sackler', type: 'individual', relationship: 'Key figure in opioid marketing', href: '/entities/individuals/richard-sackler' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Family avoided criminal prosecution', href: '/entities/agencies/doj' },
+ ],
  },
   'saudi-arms-sales': {
  title: 'Saudi Arms Sales',
@@ -735,7 +747,11 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Raytheon Company (now RTX Corporation)', type: 'corporation', relationship: 'Major Saudi weapons supplier', href: '/entities/corporations/raytheon' },
+ { id: '2', name: 'Lockheed Martin Corporation', type: 'corporation', relationship: 'Saudi arms deals', href: '/entities/corporations/lockheed-martin' },
+ { id: '3', name: 'Pentagon', type: 'agency', relationship: 'Arms sale approvals', href: '/entities/agencies/pentagon' },
+ ],
  },
   'school-shootings': {
  title: 'School Shootings',
@@ -752,7 +768,11 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'NRA', type: 'corporation', relationship: 'Lobbied against gun control after every shooting', href: '/entities/corporations/nra' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Failed to act on multiple tips', href: '/entities/agencies/fbi' },
+ { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Repeatedly blocked gun legislation', href: '/entities/agencies/congress' },
+ ],
  },
   'scientology-abuses': {
  title: 'Scientology Abuses',
@@ -769,7 +789,9 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'David Miscavige', type: 'individual', relationship: 'Church leader, accused of physical abuse and harassment', href: '/entities/individuals/david-miscavige' },
+ ],
  },
   'sec-failures': {
  title: 'SEC Failures',
@@ -786,7 +808,9 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/sec' },
+ ],
  },
   'september-11': {
  title: 'September 11',
@@ -803,7 +827,10 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+      { id: '1', name: 'SEC', type: 'agency', relationship: 'Insider trading case against SAC Capital', href: '/entities/agencies/sec' },
+      { id: '2', name: 'Steve Cohen', type: 'individual', relationship: 'SAC Capital founder, insider trading', href: '/entities/individuals/steve-cohen' },
+    ],
  },
   'serial-killings': {
  title: 'Serial Killings',
@@ -820,7 +847,10 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Behavioral Analysis Unit investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution of serial offenders', href: '/entities/agencies/doj' },
+ ],
  },
   'sex-trafficking': {
  title: 'Sex Trafficking',
@@ -837,7 +867,11 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Elite sex trafficking network operator', href: '/entities/individuals/jeffrey-epstein' },
+ { id: '2', name: 'Ghislaine Maxwell', type: 'individual', relationship: 'Convicted recruiter and trafficker', href: '/entities/individuals/ghislaine-maxwell' },
+ { id: '3', name: 'FBI', type: 'agency', relationship: 'Investigation and intelligence failures', href: '/entities/agencies/fbi' },
+ ],
  },
   'sexual-exploitation': {
  title: 'Sexual Exploitation',
@@ -854,7 +888,10 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Decades of exploitation enabled by Hollywood', href: '/entities/individuals/harvey-weinstein' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal human trafficking prosecutions', href: '/entities/agencies/doj' },
+ ],
  },
   'sexual-harassment': {
  title: 'Sexual Harassment',
@@ -871,7 +908,10 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Catalyst for #MeToo movement', href: '/entities/individuals/harvey-weinstein' },
+ { id: '2', name: 'Bill OReilly', type: 'individual', relationship: 'Fox News serial harasser', href: '/entities/individuals/bill-oreilly' },
+ ],
  },
   'silicon-valley-politics': {
  title: 'Silicon Valley Politics',
@@ -888,7 +928,11 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+      { id: '1', name: 'NRA', type: 'corporation', relationship: 'Lobbied against gun control', href: '/entities/corporations/nra' },
+      { id: '2', name: 'FBI', type: 'agency', relationship: 'Failed to act on multiple tips', href: '/entities/agencies/fbi' },
+      { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Repeatedly blocked gun legislation', href: '/entities/agencies/congress' },
+    ],
  },
   'social-engineering-fraud': {
  title: 'Social Engineering Fraud',
@@ -905,7 +949,9 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Social engineering fraud investigations', href: '/entities/agencies/fbi' },
+ ],
  },
   'spac-fraud': {
  title: 'SPAC Fraud',
@@ -922,7 +968,9 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'SPAC fraud enforcement', href: '/entities/agencies/sec' },
+ ],
  },
   'spacey-assault': {
  title: 'Spacey Assault',
@@ -939,7 +987,9 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Kevin Spacey', type: 'individual', relationship: 'Accused of multiple sexual assaults', href: '/entities/individuals/kevin-spacey' },
+ ],
  },
   'stand-your-ground': {
  title: 'Stand Your Ground',
@@ -956,7 +1006,10 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+      { id: '1', name: 'FBI', type: 'agency', relationship: 'Behavioral Analysis Unit investigations', href: '/entities/agencies/fbi' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution of serial offenders', href: '/entities/agencies/doj' },
+    ],
  },
   'stanford-ponzi': {
  title: 'Stanford Ponzi',
@@ -973,7 +1026,10 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Investigated Stanford Financial Group', href: '/entities/agencies/sec' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Criminal prosecution', href: '/entities/agencies/doj' },
+ ],
  },
   'starbucks-union-busting': {
  title: 'Starbucks Union Busting',
@@ -990,7 +1046,9 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Howard Schultz', type: 'individual', relationship: 'CEO who led anti-union campaign', href: '/entities/individuals/howard-schultz' },
+ ],
  },
   'startup-fraud': {
  title: 'Startup Fraud',
@@ -1007,7 +1065,10 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+      { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Decades of exploitation', href: '/entities/individuals/harvey-weinstein' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal trafficking prosecutions', href: '/entities/agencies/doj' },
+    ],
  },
   'surveillance-capitalism': {
  title: 'Surveillance Capitalism',
@@ -1024,7 +1085,10 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Google', type: 'corporation', relationship: 'Pioneer of behavioral prediction markets', href: '/entities/corporations/google' },
+ { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Surveillance-based advertising model', href: '/entities/corporations/meta-platforms' },
+ ],
  },
   'sutherland-springs-shooting': {
  title: 'Sutherland Springs Shooting',
@@ -1041,7 +1105,9 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'US Air Force', type: 'agency', relationship: 'Failed to report shooter domestic violence conviction', href: '/entities/agencies/us-army' },
+ ],
  },
   'super-pac-coordination-scandals': {
     title: 'Super PAC Coordination Scandals',
@@ -1064,7 +1130,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FEC', type: 'agency', relationship: 'Failed to enforce coordination rules', href: '/entities/agencies/fec' },
+ { id: '2', name: 'Citizens United', type: 'organization', relationship: 'Supreme Court case enabling dark money', href: '/entities/organizations/citizens-united' },
+ ],
   },
   'spac-fraud-and-regulatory-failures': {
     title: 'SPAC Fraud and Regulatory Failures',
@@ -1088,6 +1156,7 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'ACLU Document Archive', url: 'https://www.aclu.org', type: 'Legal Document' },
     ],
     affiliations: [
+      { id: '1', name: 'Howard Schultz', type: 'individual', relationship: 'CEO who led anti-union campaign', href: '/entities/individuals/howard-schultz' },
     ],
   },
   'swiss-bank-secrecy-complicity': {
@@ -1114,7 +1183,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Credit Suisse', type: 'corporation', relationship: 'Helped US clients evade taxes', href: '/entities/corporations/credit-suisse' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Swiss bank prosecution program', href: '/entities/agencies/doj' },
+ ],
   },
   'sex-trafficking-and-hotel-industry-complicity': {
     title: 'Sex Trafficking and Hotel Industry Complicity',
@@ -1140,7 +1211,8 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Center for Responsive Politics', url: 'https://www.opensecrets.org', type: 'Financial Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Human trafficking investigations', href: '/entities/agencies/fbi' },
+ ],
   },
   'sugar-industry-harvard-corruption': {
     title: 'Sugar Industry Harvard Corruption',
@@ -1165,7 +1237,8 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Dietary guidance influenced by industry', href: '/entities/agencies/fda' },
+ ],
   },
   'social-credit-system-western-adoption': {
     title: 'Social Credit System Western Adoption',
@@ -1189,7 +1262,8 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Public Citizen Research', url: 'https://www.citizen.org', type: 'Policy Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'Government data aggregation platform', href: '/entities/corporations/palantir' },
+ ],
   },
   'ssri-antidepressant-hidden-trial-data': {
     title: 'SSRI Antidepressant Hidden Trial Data',
@@ -1214,6 +1288,7 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Government Publishing Office', url: 'https://www.govinfo.gov', type: 'Government Record' },
     ],
     affiliations: [
+      { id: '1', name: 'FDA', type: 'agency', relationship: 'Dietary guidance influenced by industry', href: '/entities/agencies/fda' },
     ],
   },
   'social-media-surveillance-partnerships': {
@@ -1239,7 +1314,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DHS', type: 'agency', relationship: 'Social media monitoring partnerships', href: '/entities/agencies/dhs' },
+ { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Government data sharing', href: '/entities/corporations/meta-platforms' },
+ ],
   },
   'smart-city-surveillance-infrastructure': {
     title: 'Smart City Surveillance Infrastructure',
@@ -1264,7 +1341,8 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'Smart city surveillance provider', href: '/entities/corporations/palantir' },
+ ],
   },
   'social-media-radicalization-pipeline': {
     title: 'Social Media Radicalization Pipeline',
@@ -1289,7 +1367,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Algorithm-driven radicalization', href: '/entities/corporations/meta-platforms' },
+ { id: '2', name: 'Google', type: 'corporation', relationship: 'YouTube recommendation engine', href: '/entities/corporations/google' },
+ ],
   },
   'social-media-censorship-industrial-complex': {
     title: 'Social Media Censorship Industrial Complex',
@@ -1312,7 +1392,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Government content moderation requests', href: '/entities/corporations/meta-platforms' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'Flagged content for platform removal', href: '/entities/agencies/dhs' },
+ ],
   },
   'social-media-bot-farm-election-campaigns': {
     title: 'Social Media Bot Farm Election Campaigns',
@@ -1335,7 +1417,8 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Center for Responsive Politics', url: 'https://www.opensecrets.org', type: 'Financial Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Internet Research Agency', type: 'organization', relationship: 'Russian bot farm targeting US elections', href: '/entities/organizations/internet-research-agency' },
+ ],
   },
   'state-level-election-fraud-prosecutions': {
     title: 'State-Level Election Fraud Prosecutions',
@@ -1359,7 +1442,8 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Government Publishing Office', url: 'https://www.govinfo.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal election fraud cases', href: '/entities/agencies/doj' },
+ ],
   },
   'superfund-site-cleanup-delay-patterns': {
     title: 'Superfund Site Cleanup Delay Patterns',
@@ -1384,7 +1468,8 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Manages Superfund program with chronic delays', href: '/entities/agencies/epa' },
+ ],
   },
   'shell-company-registration-state-analysis': {
     title: 'Shell Company Registration State Analysis',
@@ -1408,7 +1493,8 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Beneficial ownership enforcement', href: '/entities/agencies/doj' },
+ ],
   },
   'school-surveillance-technology-adoption': {
     title: 'School Surveillance Technology Adoption',
@@ -1433,7 +1519,8 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Government Publishing Office', url: 'https://www.govinfo.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Clearview AI', type: 'corporation', relationship: 'Facial recognition in schools', href: '/entities/corporations/clearview-ai' },
+ ],
   },
   'social-media-addiction-engineering': {
     title: 'Social Media Addiction Engineering',
@@ -1455,6 +1542,7 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Beneficial ownership enforcement', href: '/entities/agencies/doj' },
     ],
   },
   'subliminal-messaging-in-digital-advertising': {
@@ -1478,7 +1566,8 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', type: 'Court Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Federal Trade Commission', type: 'agency', relationship: 'Digital advertising regulation', href: '/entities/agencies/federal-trade-commission' },
+ ],
   },
   'structured-finance-fraud-networks': {
     title: 'Structured Finance Fraud Networks',
@@ -1504,7 +1593,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Structured finance fraud', href: '/entities/corporations/goldman-sachs' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Enforcement actions', href: '/entities/agencies/sec' },
+ ],
   },
   'smart-home-device-surveillance-economy': {
     title: 'Smart Home Device Surveillance Economy',
@@ -1527,7 +1618,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org', type: 'Policy Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Ring doorbell surveillance network', href: '/entities/corporations/amazon-inc' },
+ { id: '2', name: 'Google', type: 'corporation', relationship: 'Nest smart home data collection', href: '/entities/corporations/google' },
+ ],
   },
   'secret-court-fisa-abuse-patterns': {
     title: 'Secret Court FISA Abuse Patterns',
@@ -1550,6 +1643,8 @@ const investigations_s: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
+      { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Structured finance fraud', href: '/entities/corporations/goldman-sachs' },
+      { id: '2', name: 'SEC', type: 'agency', relationship: 'Enforcement actions', href: '/entities/agencies/sec' },
     ],
   },
 

@@ -240,7 +240,9 @@ const investigations_n: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'World Bank', type: 'organization', relationship: 'Structural adjustment programs', href: '/entities/organizations/world-bank' },
+ ],
  },
   'nestle-human-rights': {
  title: 'Nestle Human Rights',
@@ -257,7 +259,9 @@ const investigations_n: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Nestle', type: 'corporation', relationship: 'Child labor, water privatization, baby formula deaths', href: '/entities/corporations/nestle' },
+ ],
  },
   'news-of-the-world-hacking': {
  title: 'News Of The World Hacking',
@@ -274,7 +278,9 @@ const investigations_n: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Rupert Murdoch', type: 'individual', relationship: 'Owner of News Corp empire', href: '/entities/individuals/rupert-murdoch' },
+ ],
  },
   'nxivm-cult': {
  title: 'NXIVM Cult',
@@ -291,7 +297,10 @@ const investigations_n: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Keith Raniere', type: 'individual', relationship: 'NXIVM cult leader, convicted of sex trafficking', href: '/entities/individuals/keith-raniere' },
+ { id: '2', name: 'Allison Mack', type: 'individual', relationship: 'Actress who recruited for cult', href: '/entities/individuals/allison-mack' },
+ ],
  },
   'nypd-chokehold': {
  title: 'NYPD Chokehold',
@@ -308,7 +317,9 @@ const investigations_n: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+      { id: '1', name: 'Nestle', type: 'corporation', relationship: 'Aggressive marketing causing infant deaths', href: '/entities/corporations/nestle' },
+    ],
  },
   'nypd-racial-profiling': {
  title: 'NYPD Racial Profiling',
@@ -325,7 +336,9 @@ const investigations_n: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Stop-and-frisk consent decree', href: '/entities/agencies/doj' },
+ ],
  },
   'nsa-stellarwind-warrantless-wiretapping': {
     title: 'NSA Stellarwind Warrantless Wiretapping',
@@ -351,7 +364,8 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org', type: 'Policy Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'NSA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/nsa' },
+ ],
   },
   'nuclear-weapons-complex-environmental-crime': {
     title: 'Nuclear Weapons Complex Environmental Crime',
@@ -373,7 +387,9 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOE', type: 'agency', relationship: 'Operator of nuclear weapons facilities', href: '/entities/agencies/doe' },
+ { id: '2', name: 'EPA', type: 'agency', relationship: 'Environmental cleanup oversight', href: '/entities/agencies/epa' },
+ ],
   },
   'narrative-control-through-search-algorithms': {
     title: 'Narrative Control Through Search Algorithms',
@@ -399,7 +415,9 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'NSA', type: 'agency', relationship: 'Operated warrantless wiretapping program', href: '/entities/agencies/nsa' },
+ { id: '2', name: 'Edward Snowden', type: 'individual', relationship: 'Exposed mass surveillance programs', href: '/entities/individuals/edward-snowden' },
+ ],
   },
   'nightclub-industry-criminal-networks': {
     title: 'Nightclub Industry Criminal Networks',
@@ -423,7 +441,8 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Google', type: 'corporation', relationship: 'Search algorithm gatekeeping', href: '/entities/corporations/google' },
+ ],
   },
   'nuclear-waste-storage-failure-points': {
     title: 'Nuclear Waste Storage Failure Points',
@@ -448,6 +467,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
+      { id: '1', name: 'Google', type: 'corporation', relationship: 'Search algorithm gatekeeping', href: '/entities/corporations/google' },
     ],
   },
 

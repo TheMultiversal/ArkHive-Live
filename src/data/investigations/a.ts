@@ -409,24 +409,45 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'activism-harassment': {
+ affiliations: [
+ { id: '1', name: 'USDA', type: 'agency', relationship: 'Animal Welfare Act enforcement', href: '/entities/agencies/usda' },
+ ],
+ },  'activism-harassment': {
  title: 'Activism Harassment',
- subtitle: 'Investigation into activism harassment.',
+ subtitle: 'Systematic targeting, surveillance, and suppression of activists by government, corporate, and vigilante forces',
  severity: 'critical',
- category: 'Abuse & Exploitation',
+ category: 'Civil Rights',
  date: 'November 15, 2011',
  lastUpdated: 'January 27, 2026',
- summary: 'Investigation into activism harassment.',
+ summary: 'Activists across the United States and globally face coordinated harassment campaigns from government agencies, corporations, and far-right groups. From FBI COINTELPRO operations targeting civil rights leaders to modern surveillance of Black Lives Matter organizers, Standing Rock water protectors, and environmental activists, the pattern repeats: those who challenge power are surveilled, infiltrated, prosecuted, and silenced. Corporate entities deploy private security firms, lawfare, and SLAPP suits against activists while law enforcement treats peaceful protest as domestic terrorism.',
  content: [
- 'This investigation documents activism harassment and its impact.',
+ 'COINTELPRO LEGACY: The FBI\'s Counter Intelligence Program (1956-1971) systematically targeted civil rights, anti-war, and Black liberation movements. The Bureau sent anonymous letters to Martin Luther King Jr. urging him to commit suicide, infiltrated the Black Panther Party, and coordinated the assassination of Fred Hampton. Though officially ended, similar tactics continue under new names.',
+ 'STANDING ROCK SUPPRESSION: In 2016-2017, water protectors opposing the Dakota Access Pipeline faced militarized police response including rubber bullets, water cannons in freezing temperatures, concussion grenades, and dog attacks. TigerSwan, a private military contractor hired by Energy Transfer Partners, conducted intelligence operations against protesters, describing them as "jihadists" in internal documents.',
+ 'BLACK LIVES MATTER SURVEILLANCE: After Ferguson in 2014, the FBI designated "Black Identity Extremism" as a domestic terror threat, surveilling Black Lives Matter activists. FBI documents obtained through FOIA revealed the Bureau tracked individual activists\' social media, travel, and associations. DHS created threat assessments for BLM protests.',
+ 'ENVIRONMENTAL ACTIVIST TARGETING: Pipeline companies and chemical corporations use private investigators, social media monitoring, and legal action to suppress environmental opposition. Energy Transfer Partners, Chevron, and other fossil fuel companies have deployed sophisticated surveillance against climate and pipeline activists.',
+ 'AG-GAG LAWS: The animal agriculture industry pushed "ag-gag" laws in over 20 states criminalizing the filming of conditions inside factory farms and slaughterhouses. These laws were designed specifically to silence whistleblowers and undercover investigators who exposed animal abuse.',
+ 'SLAPP SUITS: Strategic Lawsuits Against Public Participation target activists with expensive litigation designed to silence rather than win. Corporations including Chevron, Tyson Foods, and coal companies have used SLAPP suits to drain activists\' resources and deter opposition.',
+ 'JOURNALIST AND WHISTLEBLOWER TARGETING: Activists who expose government wrongdoing face prosecution under the Espionage Act and other statutes. Chelsea Manning served seven years. Reality Winner served four years. Daniel Hale was sentenced to 45 months for exposing the civilian casualties of the drone program.',
+ 'GREEN SCARE PROSECUTIONS: In the early 2000s, the FBI designated environmental and animal rights activism as the number one domestic terrorism threat, launching "Operation Backfire" and imprisoning dozens of activists for property destruction while no one was physically harmed.',
+ 'CORPORATE ESPIONAGE AGAINST ACTIVISTS: Documents have revealed that corporations including Walmart, Monsanto, and Coca-Cola hired private intelligence firms to infiltrate activist groups, monitor their communications, and identify their funding sources.',
+ 'PROTEST CRIMINALIZATION: States have introduced over 200 anti-protest bills since 2017, including laws that increase penalties for blocking roads, protect drivers who hit protesters, and classify pipeline protests as felonies. These laws disproportionately target environmental, racial justice, and labor activists.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Civil Rights', 'Surveillance', 'COINTELPRO', 'Black Lives Matter', 'Standing Rock', 'Environmental Justice', 'First Amendment'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'FBI COINTELPRO Documents - Church Committee', url: 'https://www.intelligence.senate.gov/sites/default/files/94755_III.pdf', type: 'Congressional Record' },
+ { title: 'TigerSwan Internal Documents', url: 'https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock-to-ichinery/', type: 'Leaked Document' },
+ { title: 'FBI Black Identity Extremism Report', url: 'https://www.documentcloud.org/documents/4067711-BIE-Redacted.html', type: 'Government Report' },
+ { title: 'ICNL US Protest Law Tracker', url: 'https://www.icnl.org/usprotestlawtracker/', type: 'Legal Analysis' },
+ { title: 'ACLU Anti-Protest Legislation Report', url: 'https://www.aclu.org/issues/free-speech/rights-protesters/anti-protest-bills-around-country', type: 'Legal Analysis' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'COINTELPRO, BIE designation, surveillance of activists', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'Threat assessments on protest movements', href: '/entities/agencies/dhs' },
+ { id: '3', name: 'Energy Transfer Partners', type: 'corporation', relationship: 'Hired TigerSwan against Standing Rock', href: '/entities/corporations/energy-transfer' },
+ { id: '4', name: 'Chelsea Manning', type: 'individual', relationship: 'Imprisoned whistleblower activist', href: '/entities/individuals/chelsea-manning' },
+ { id: '5', name: 'Daniel Hale', type: 'individual', relationship: 'Drone program whistleblower, sentenced to 45 months', href: '/entities/individuals/daniel-hale' },
+ { id: '6', name: 'Chevron', type: 'corporation', relationship: 'SLAPP suits and surveillance against environmental activists', href: '/entities/corporations/chevron' },
+ ],
  },
   'adelphia-fraud': {
  title: 'Adelphia Communications Fraud',
@@ -445,7 +466,9 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'John Rigas', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/john-rigas' },
+ ],
  },
   'adelphia-scandal': {
  title: 'Adelphia Corporate Corruption',
@@ -464,7 +487,10 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'John Rigas', type: 'individual', relationship: 'Founder convicted of conspiracy and fraud', href: '/entities/individuals/john-rigas' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities fraud charges', href: '/entities/agencies/sec' },
+ ],
  },
   'agricultural-policy': {
  title: 'Agricultural Policy & Corporate Farming',
@@ -483,7 +509,9 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/monsanto' },
+ ],
  },
   'ahmaud-arbery-murder': {
  title: 'Ahmaud Arbery Murder',
@@ -502,7 +530,10 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Gregory McMichael', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/gregory-mcmichael' },
+ { id: '2', name: 'Travis McMichael', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/travis-mcmichael' },
+ ],
  },
   'aids-crisis': {
  title: 'AIDS Crisis Government Failure',
@@ -521,7 +552,9 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'C. Everett Koop', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/c-everett-koop' },
+ ],
  },
   'alt-right': {
  title: 'Alt-Right Movement & Radicalization',
@@ -540,7 +573,10 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'Steve Bannon', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/steve-bannon' },
+ ],
  },
   'amazon-labor': {
  title: 'Amazon Labor Exploitation',
@@ -559,7 +595,10 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Amazon Corp', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/amazon-corp' },
+ { id: '2', name: 'Amazon Inc', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/amazon-inc' },
+ ],
  },
   'anti-abortion-violence': {
  title: 'Anti-Abortion Violence',
@@ -578,7 +617,10 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Surveillance of activist groups', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'Activist monitoring programs', href: '/entities/agencies/dhs' },
+ ],
  },
   'anti-lgbtq-extremism': {
  title: 'Anti-LGBTQ Extremism',
@@ -597,7 +639,11 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'Alliance Defending Freedom', type: 'organization', relationship: 'Key figure in investigation', href: '/entities/organizations/alliance-defending-freedom' },
+ { id: '3', name: 'Family Research Council', type: 'organization', relationship: 'Key figure in investigation', href: '/entities/organizations/family-research-council' },
+ ],
  },
   'anti-lgbtq-movement': {
  title: 'Anti-LGBTQ Political Movement',
@@ -616,7 +662,9 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Alliance Defending Freedom', type: 'organization', relationship: 'Key figure in investigation', href: '/entities/organizations/alliance-defending-freedom' },
+ ],
  },
   'anti-trans': {
  title: 'Anti-Transgender Campaign',
@@ -635,7 +683,10 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Heritage Foundation', type: 'corporation', relationship: 'Coordinated anti-trans legislation', href: '/entities/corporations/heritage-foundation' },
+ { id: '2', name: 'Alliance Defending Freedom', type: 'organization', relationship: 'Legal architect of anti-trans cases', href: '/entities/organizations/alliance-defending-freedom' },
+ ],
  },
   'antisemitic-violence': {
  title: 'Antisemitic Violence',
@@ -654,7 +705,9 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/fbi' },
+ ],
  },
   'antisemitism': {
  title: 'Antisemitism in America',
@@ -673,7 +726,10 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Alliance Defending Freedom', type: 'organization', relationship: 'Legal driver of anti-LGBTQ policy', href: '/entities/organizations/alliance-defending-freedom' },
+ { id: '2', name: 'Heritage Foundation', type: 'corporation', relationship: 'Anti-LGBTQ policy architect', href: '/entities/corporations/heritage-foundation' },
+ ],
  },
   'archegos-collapse': {
  title: 'Archegos Capital Management Collapse',
@@ -692,7 +748,10 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Bill Hwang', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/bill-hwang' },
+ { id: '2', name: 'Credit Suisse', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/credit-suisse' },
+ ],
  },
   'arpaio-civil-rights': {
  title: 'Joe Arpaio Civil Rights Violations',
@@ -711,7 +770,10 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'Joe Arpaio', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/joe-arpaio' },
+ ],
  },
   'aurora-shooting': {
  title: 'Aurora Theater Shooting',
@@ -730,7 +792,9 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'James Holmes', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/james-holmes' },
+ ],
  },
   'authoritarianism': {
  title: 'Global Authoritarian Trends',
@@ -749,7 +813,10 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Authoritarian model', href: '/entities/individuals/vladimir-putin' },
+ { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Authoritarian tendencies in US politics', href: '/entities/individuals/donald-trump' },
+ ],
  },
   'autonomous-weapons': {
  title: 'Autonomous Weapons Development',
@@ -768,7 +835,10 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Lockheed Martin Corporation', type: 'corporation', relationship: 'Autonomous weapons developer', href: '/entities/corporations/lockheed-martin' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Autonomous weapons programs', href: '/entities/agencies/pentagon' },
+ ],
  },
   'aviation-safety': {
  title: 'Aviation Safety Regulatory Failures',
@@ -787,7 +857,10 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FAA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/faa' },
+ { id: '2', name: 'Boeing', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/boeing' },
+ ],
  },
   'activision-harassment': {
  title: 'Activision Blizzard Workplace Harassment',
@@ -806,7 +879,9 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'DFEH Lawsuit', url: 'https://www.documentcloud.org/', type: 'Legal' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Bobby Kotick', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/bobby-kotick' },
+ ],
  },
   'agribusiness-capture-of-usda': {
     title: 'Agribusiness Capture of USDA',
@@ -830,7 +905,9 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Investigated $36B market manipulation', href: '/entities/agencies/sec' },
+ { id: '2', name: 'Bill Hwang', type: 'individual', relationship: 'Archegos founder convicted of fraud', href: '/entities/individuals/bill-hwang' },
+ ],
   },
   'asbestos-cover-up-decades-of-death': {
     title: 'Asbestos Cover-Up Decades of Death',
@@ -853,7 +930,9 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Failed to ban asbestos despite evidence', href: '/entities/agencies/epa' },
+ { id: '2', name: 'OSHA', type: 'agency', relationship: 'Workplace exposure limits inadequate', href: '/entities/agencies/osha' },
+ ],
   },
   'agent-orange-dioxin-legacy': {
     title: 'Agent Orange Dioxin Legacy',
@@ -877,7 +956,9 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'OpenSecrets Financial Disclosures', url: 'https://www.opensecrets.org', type: 'Financial Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Manufactured Agent Orange', href: '/entities/corporations/monsanto' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Ordered Agent Orange deployment in Vietnam', href: '/entities/agencies/pentagon' },
+ ],
   },
   'arms-export-to-authoritarian-regimes': {
     title: 'Arms Export to Authoritarian Regimes',
@@ -900,7 +981,9 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'The Intercept', url: 'https://theintercept.com', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Lockheed Martin Corporation', type: 'corporation', relationship: 'Largest US arms exporter', href: '/entities/corporations/lockheed-martin' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Arms export approvals', href: '/entities/agencies/pentagon' },
+ ],
   },
   'ai-surveillance-state-infrastructure': {
     title: 'AI Surveillance State Infrastructure',
@@ -923,7 +1006,9 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', type: 'Court Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'Government surveillance contractor', href: '/entities/corporations/palantir' },
+ { id: '2', name: 'NSA', type: 'agency', relationship: 'AI-enhanced mass surveillance', href: '/entities/agencies/nsa' },
+ ],
   },
   'autonomous-weapons-development-race': {
     title: 'Autonomous Weapons Development Race',
@@ -946,7 +1031,9 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Pentagon', type: 'agency', relationship: 'AI weapons development', href: '/entities/agencies/pentagon' },
+ { id: '2', name: 'Lockheed Martin Corporation', type: 'corporation', relationship: 'Autonomous systems development', href: '/entities/corporations/lockheed-martin' },
+ ],
   },
   'algorithmic-discrimination-in-lending': {
     title: 'Algorithmic Discrimination in Lending',
@@ -970,6 +1057,8 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'Government Publishing Office', url: 'https://www.govinfo.gov', type: 'Government Record' },
     ],
     affiliations: [
+      { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'Government surveillance contractor', href: '/entities/corporations/palantir' },
+      { id: '2', name: 'NSA', type: 'agency', relationship: 'AI-enhanced mass surveillance', href: '/entities/agencies/nsa' },
     ],
   },
   'astroturfing-campaigns-corporate': {
@@ -995,7 +1084,8 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Koch Industries', type: 'corporation', relationship: 'Major astroturfing funder', href: '/entities/corporations/koch-industries' },
+ ],
   },
   'auto-industry-theft-to-export-rings': {
     title: 'Auto Industry Theft to Export Rings',
@@ -1018,7 +1108,8 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'The Intercept', url: 'https://theintercept.com', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Organized auto theft investigations', href: '/entities/agencies/fbi' },
+ ],
   },
   'agricultural-runoff-dead-zone-creation': {
     title: 'Agricultural Runoff Dead Zone Creation',
@@ -1042,7 +1133,9 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Failed to regulate agricultural runoff', href: '/entities/agencies/epa' },
+ { id: '2', name: 'USDA', type: 'agency', relationship: 'Subsidized pollution-causing agriculture', href: '/entities/agencies/usda' },
+ ],
   },
   'academic-medical-center-industry-ties': {
     title: 'Academic Medical Center Industry Ties',
@@ -1067,6 +1160,7 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org', type: 'Policy Analysis' },
     ],
     affiliations: [
+      { id: '1', name: 'FBI', type: 'agency', relationship: 'Organized auto theft investigations', href: '/entities/agencies/fbi' },
     ],
   },
   'airport-biometric-collection-programs': {
@@ -1090,7 +1184,9 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DHS', type: 'agency', relationship: 'Biometric exit program operator', href: '/entities/agencies/dhs' },
+ { id: '2', name: 'CBP', type: 'agency', relationship: 'Facial recognition at airports', href: '/entities/agencies/cbp' },
+ ],
   },
   'agency-regulatory-capture-new-evidence': {
     title: 'Agency Regulatory Capture New Evidence',
@@ -1112,7 +1208,9 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Wall Street regulatory capture', href: '/entities/agencies/sec' },
+ { id: '2', name: 'EPA', type: 'agency', relationship: 'Industry capture of environmental regulation', href: '/entities/agencies/epa' },
+ ],
   },
   'art-market-money-laundering-operations': {
     title: 'Art Market Money Laundering Operations',
@@ -1134,7 +1232,8 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Money laundering investigations', href: '/entities/agencies/doj' },
+ ],
   },
   'agricultural-worker-exploitation-mapping': {
     title: 'Agricultural Worker Exploitation Mapping',
@@ -1158,6 +1257,8 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'FOIA Request Archive', url: 'https://www.foia.gov', type: 'Government Record' },
     ],
     affiliations: [
+      { id: '1', name: 'SEC', type: 'agency', relationship: 'Wall Street regulatory capture', href: '/entities/agencies/sec' },
+      { id: '2', name: 'EPA', type: 'agency', relationship: 'Industry capture of environmental regulation', href: '/entities/agencies/epa' },
     ],
   },
   'air-quality-monitoring-gaps-analysis': {
@@ -1183,7 +1284,8 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Air quality monitoring deficiencies', href: '/entities/agencies/epa' },
+ ],
   },
 };
 

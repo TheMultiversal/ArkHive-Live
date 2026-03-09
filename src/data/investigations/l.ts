@@ -149,40 +149,39 @@ const investigations_l: Record<string, InvestigationData> = {
  { id: '7', name: 'Ed Pierson', type: 'individual', relationship: 'Boeing whistleblower who warned of safety', href: '/entities/individuals/ed-pierson' },
  { id: '8', name: 'Lion Air 610 Victims', type: 'individual', relationship: '189 people murdered by corporate greed', href: '/entities/individuals/lion-air-610-victims' },
  ],
- },
-  'laquan-mcdonald-murder': {
- title: 'Laquan Mcdonald Murder',
- subtitle: 'Investigation into laquan mcdonald murder.',
+ },  'laquan-mcdonald-murder': {
+ title: 'Laquan McDonald Murder',
+ subtitle: 'Chicago police officer shot Black teenager 16 times while covering up dashcam footage for over a year',
  severity: 'critical',
- category: 'Violence & Justice',
+ category: 'Police Violence',
  date: 'February 6, 2018',
  lastUpdated: 'March 6, 2024',
- summary: 'Investigation into laquan mcdonald murder.',
+ summary: 'On October 20, 2014, Chicago police officer Jason Van Dyke shot 17-year-old Laquan McDonald 16 times as the teenager walked away holding a small knife. The Chicago Police Department, under Superintendent Garry McCarthy and Mayor Rahm Emanuel, suppressed the dashcam video for 13 months. Officers filed false reports claiming McDonald lunged at Van Dyke. The cover-up involved at least 16 officers, prosecutors, and city officials. The video was only released after a court order from journalist Brandon Smith, sparking national outrage and a DOJ investigation that found a pattern of civil rights violations by the CPD.',
  content: [
- 'This investigation documents laquan mcdonald murder and its impact.',
+ 'THE SHOOTING: On October 20, 2014, Jason Van Dyke arrived at the scene where Laquan McDonald, a 17-year-old Black ward of the state, was walking in the middle of Pulaski Road holding a small folding knife. Within seconds of exiting his vehicle, Van Dyke opened fire. He shot McDonald 16 times over approximately 15 seconds, continuing to fire after McDonald collapsed. Other officers on scene did not fire a single shot.',
+ 'FALSE POLICE REPORTS: Multiple officers filed reports claiming McDonald was swinging the knife aggressively and had "lunged" at Van Dyke. At least five officers at the scene submitted false accounts that contradicted what the dashcam video would later reveal. The official narrative was fabricated to justify the killing.',
+ 'VIDEO SUPPRESSION: City officials fought for 13 months to prevent the dashcam video from being released. Mayor Rahm Emanuel\'s administration paid the McDonald family $5 million in a settlement before any lawsuit was filed, with a condition that the family not release the video. The city argued in court that releasing the footage would prejudice any future criminal proceedings.',
+ 'COURT-ORDERED RELEASE: Freelance journalist Brandon Smith filed a FOIA lawsuit to obtain the video. Judge Franklin Valderrama ordered its release in November 2015. The footage directly contradicted every official police account, showing McDonald walking away from officers when Van Dyke opened fire.',
+ 'POLITICAL FALLOUT: The video release triggered mass protests across Chicago. Superintendent Garry McCarthy was fired within days. Cook County State\'s Attorney Anita Alvarez, who had delayed charging Van Dyke for over a year, lost her re-election bid by a landslide. Emanuel\'s political standing was severely damaged.',
+ 'CRIMINAL CONVICTION: Jason Van Dyke was charged with first-degree murder in November 2015, the first Chicago officer charged with murder for an on-duty shooting in decades. In October 2018, he was found guilty of second-degree murder and 16 counts of aggravated battery, one for each shot. He was sentenced to 81 months.',
+ 'OFFICER COVER-UP TRIAL: Three officers, David March, Joseph Walsh, and Thomas Gaffney, were charged with conspiracy, official misconduct, and obstruction of justice for filing false reports. In January 2019, Judge Domenica Stephenson acquitted all three, ruling the prosecution had not proven their accounts were intentionally false, a decision that outraged civil rights advocates.',
+ 'DOJ INVESTIGATION: In January 2017, the DOJ released a scathing report finding that the CPD engaged in a pattern of unconstitutional use of force, particularly against Black and Latino residents. The report documented systemic failures in accountability, training, and supervision, and traced the culture of impunity that enabled the McDonald cover-up.',
+ 'CONSENT DECREE: In January 2019, a federal consent decree was entered requiring sweeping reforms to the CPD, including new use-of-force policies, improved training, better supervision, and an independent monitoring team. Implementation has been slow and contested by police unions.',
+ 'BURGER KING FOOTAGE: Witnesses reported that officers entered a nearby Burger King and deleted 86 minutes of surveillance footage that may have captured the shooting. An FBI investigation into the footage deletion was inconclusive, but the allegation deepened public distrust of the cover-up.',
  ],
- tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
+ tags: ['Police Violence', 'Cover-up', 'Chicago', 'Laquan McDonald', 'Jason Van Dyke', 'DOJ', 'Consent Decree'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Investigation of the Chicago Police Department', url: 'https://www.justice.gov/crt/file/925846/download', type: 'Government Report' },
+ { title: 'Van Dyke Murder Conviction', url: 'https://www.nytimes.com/2018/10/05/us/jason-van-dyke-guilty-verdict.html', type: 'News Report' },
+ { title: 'Laquan McDonald Dashcam Video Court Order', url: 'https://www.chicagotribune.com/news/laquan-mcdonald/', type: 'Court Filing' },
+ { title: 'Chicago Consent Decree', url: 'https://chicagopoliceconsentdecree.org/', type: 'Legal Document' },
  ],
- affiliations: [],
- },
-  'las-vegas-shooting': {
- title: 'Las Vegas Shooting',
- subtitle: 'Investigation into las vegas shooting.',
- severity: 'critical',
- category: 'Violence & Justice',
- date: 'June 18, 2022',
- lastUpdated: 'August 18, 2022',
- summary: 'Investigation into las vegas shooting.',
- content: [
- 'This investigation documents las vegas shooting and its impact.',
+ affiliations: [
+ { id: '1', name: 'Chicago Police Department', type: 'agency', relationship: 'Employer of Van Dyke; participated in cover-up', href: '/entities/agencies/lapd-ig' },
+ { id: '2', name: 'DOJ Civil Rights Division', type: 'agency', relationship: 'Investigated CPD pattern of abuse', href: '/entities/agencies/doj-civil-rights' },
+ { id: '3', name: 'Rahm Emanuel', type: 'individual', relationship: 'Mayor who suppressed dashcam video for 13 months', href: '#' },
+ { id: '4', name: 'FBI', type: 'agency', relationship: 'Investigated Burger King footage deletion', href: '/entities/agencies/fbi' },
  ],
- tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
  },
   'leonard-leo': {
  title: 'Leonard Leo',
@@ -199,7 +198,9 @@ const investigations_l: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Leonard Leo', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/leonard-leo' },
+ ],
  },
   'lgbtq-discrimination': {
  title: 'LGBTQ Discrimination',
@@ -216,7 +217,10 @@ const investigations_l: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Alliance Defending Freedom', type: 'organization', relationship: 'Anti-LGBTQ litigation organization', href: '/entities/organizations/alliance-defending-freedom' },
+ { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Major LGBTQ rights rulings', href: '/entities/agencies/supreme-court' },
+ ],
  },
   'labor-trafficking-in-agriculture': {
     title: 'Labor Trafficking in Agriculture',
@@ -241,7 +245,10 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'OpenSecrets Financial Disclosures', url: 'https://www.opensecrets.org', type: 'Financial Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Leonard Leo', type: 'individual', relationship: 'Subject of investigation', href: '/entities/individuals/leonard-leo' },
+ { id: '2', name: 'Federalist Society', type: 'corporation', relationship: 'Organization used to control judicial picks', href: '/entities/corporations/federalist-society' },
+ { id: '3', name: 'Supreme Court', type: 'agency', relationship: 'Shaped by Leo judicial project', href: '/entities/agencies/supreme-court' },
+ ],
   },
   'lead-industry-crime-against-humanity': {
     title: 'Lead Industry Crime Against Humanity',
@@ -267,7 +274,10 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'Center for Responsive Politics', url: 'https://www.opensecrets.org', type: 'Financial Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Assessed lab leak most likely origin', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'CIA', type: 'agency', relationship: 'Split assessment on COVID origins', href: '/entities/agencies/cia' },
+ { id: '3', name: 'World Health Organization', type: 'agency', relationship: 'Origin investigation', href: '/entities/agencies/world-health-organization' },
+ ],
   },
   'license-plate-reader-mass-collection': {
     title: 'License Plate Reader Mass Collection',
@@ -291,7 +301,9 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org', type: 'Policy Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DHS', type: 'agency', relationship: 'Federal license plate reader program', href: '/entities/agencies/dhs' },
+ { id: '2', name: 'ICE', type: 'agency', relationship: 'Used license plate data for immigration enforcement', href: '/entities/agencies/ice' },
+ ],
   },
   'local-news-desert-information-crisis': {
     title: 'Local News Desert Information Crisis',
@@ -314,7 +326,9 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Alden Global Capital', type: 'corporation', relationship: 'Hedge fund gutting local newspapers', href: '/entities/corporations/alden-global-capital' },
+ { id: '2', name: 'Sinclair Broadcast Group', type: 'corporation', relationship: 'Conservative media consolidation', href: '/entities/corporations/sinclair' },
+ ],
   },
   'law-enforcement-social-media-monitoring': {
     title: 'Law Enforcement Social Media Monitoring',
@@ -338,7 +352,9 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Social media monitoring programs', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'Social media surveillance', href: '/entities/agencies/dhs' },
+ ],
   },
   'long-haul-trucking-route-exploitation': {
     title: 'Long Haul Trucking Route Exploitation',
@@ -360,6 +376,8 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'OpenSecrets Financial Disclosures', url: 'https://www.opensecrets.org', type: 'Financial Record' },
     ],
     affiliations: [
+      { id: '1', name: 'Alden Global Capital', type: 'corporation', relationship: 'Hedge fund gutting local newspapers', href: '/entities/corporations/alden-global-capital' },
+      { id: '2', name: 'Sinclair Broadcast Group', type: 'corporation', relationship: 'Conservative media consolidation', href: '/entities/corporations/sinclair' },
     ],
   },
 

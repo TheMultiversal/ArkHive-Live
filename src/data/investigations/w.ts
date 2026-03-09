@@ -344,7 +344,10 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Wagner Group', type: 'organization', relationship: 'Russian private military company', href: '/entities/organizations/wagner-group' },
+ { id: '2', name: 'Vladimir Putin', type: 'individual', relationship: 'Kremlin-backed mercenary force', href: '/entities/individuals/vladimir-putin' },
+ ],
  },
   'wall-street-accountability': {
  title: 'Wall Street Accountability',
@@ -361,7 +364,11 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Emblematic of Wall Street impunity', href: '/entities/corporations/goldman-sachs' },
+ { id: '2', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Largest bank, systemic risk', href: '/entities/corporations/jpmorgan-chase' },
+ { id: '3', name: 'SEC', type: 'agency', relationship: 'Regulatory capture by Wall Street', href: '/entities/agencies/sec' },
+ ],
  },
   'wall-street-manipulation': {
  title: 'Wall Street Manipulation',
@@ -378,7 +385,10 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Nestle', type: 'corporation', relationship: 'Water extraction from public sources', href: '/entities/corporations/nestle' },
+ { id: '2', name: 'EPA', type: 'agency', relationship: 'Water quality regulation', href: '/entities/agencies/epa' },
+ ],
  },
   'walmart-labor': {
  title: 'Walmart Labor',
@@ -395,7 +405,9 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Walmart Inc.', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/walmart' },
+ ],
  },
   'walter-scott-murder': {
  title: 'Walter Scott Murder',
@@ -412,7 +424,9 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Walter Scott', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/walter-scott' },
+ ],
  },
   'war-on-terror-abuses': {
  title: 'War On Terror Abuses',
@@ -429,7 +443,9 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Walmart Inc.', type: 'corporation', relationship: 'Largest private employer, labor violations', href: '/entities/corporations/walmart' },
+ ],
  },
   'wartime-civil-liberties': {
  title: 'Wartime Civil Liberties',
@@ -446,7 +462,10 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Patriot Act enforcement', href: '/entities/agencies/doj' },
+ { id: '2', name: 'NSA', type: 'agency', relationship: 'Warrantless surveillance programs', href: '/entities/agencies/nsa' },
+ ],
  },
   'weinstein-sexual-assault': {
  title: 'Weinstein Sexual Assault',
@@ -463,7 +482,9 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/harvey-weinstein' },
+ ],
  },
   'wework-collapse': {
  title: 'Wework Collapse',
@@ -480,7 +501,9 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Walter Scott', type: 'individual', relationship: 'Shot in back fleeing police', href: '/entities/individuals/walter-scott' },
+ ],
  },
   'white-supremacist-terrorism': {
  title: 'White Supremacist Terrorism',
@@ -497,7 +520,10 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Classified as top domestic terror threat', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'Threat assessment reports', href: '/entities/agencies/dhs' },
+ ],
  },
   'white-supremacist-violence': {
  title: 'White Supremacist Violence',
@@ -514,7 +540,10 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Domestic terrorism investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Hate crime prosecutions', href: '/entities/agencies/doj' },
+ ],
  },
   'white-supremacy': {
  title: 'White Supremacy',
@@ -531,7 +560,10 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'White supremacy designated top domestic threat', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Hate crime prosecutions', href: '/entities/agencies/doj' },
+ ],
  },
   'wmd-lies': {
  title: 'WMD Lies',
@@ -548,7 +580,9 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+      { id: '1', name: 'Walmart Inc.', type: 'corporation', relationship: 'Largest private employer, violations', href: '/entities/corporations/walmart' },
+    ],
  },
   'worker-misclassification': {
  title: 'Worker Misclassification',
@@ -565,7 +599,9 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Delivery driver misclassification', href: '/entities/corporations/amazon-inc' },
+ ],
  },
   'wire-fraud-transnational-networks': {
     title: 'Wire Fraud Transnational Networks',
@@ -588,6 +624,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
+      { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Convicted of sexual assault', href: '/entities/individuals/harvey-weinstein' },
     ],
   },
   'war-profiteering-iraq-afghanistan': {
@@ -613,7 +650,10 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Halliburton', type: 'corporation', relationship: 'No-bid Iraq contracts worth billions', href: '/entities/corporations/halliburton' },
+ { id: '2', name: 'Dick Cheney', type: 'individual', relationship: 'Former Halliburton CEO, VP who pushed war', href: '/entities/individuals/dick-cheney' },
+ { id: '3', name: 'Blackwater', type: 'corporation', relationship: 'Private military contractor, multiple atrocities', href: '/entities/corporations/blackwater' },
+ ],
   },
   'wall-street-capture-of-sec': {
     title: 'Wall Street Capture of SEC',
@@ -638,7 +678,8 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/sec' },
+ ],
   },
   'whistleblower-retaliation-systematic': {
     title: 'Whistleblower Retaliation Systematic',
@@ -661,7 +702,9 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Espionage Act prosecutions of whistleblowers', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Edward Snowden', type: 'individual', relationship: 'Most prominent whistleblower in exile', href: '/entities/individuals/edward-snowden' },
+ ],
   },
   'wrongful-convictions-systemic-crisis': {
     title: 'Wrongful Convictions Systemic Crisis',
@@ -687,6 +730,8 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
+      { id: '1', name: 'SEC', type: 'agency', relationship: 'Subject of Wall Street capture', href: '/entities/agencies/sec' },
+      { id: '2', name: 'Goldman Sachs', type: 'corporation', relationship: 'Revolving door with SEC', href: '/entities/corporations/goldman-sachs' },
     ],
   },
   'whistleblower-prosecution-timeline': {
@@ -710,7 +755,11 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', type: 'Court Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted more whistleblowers than all prior admins', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Edward Snowden', type: 'individual', relationship: 'NSA whistleblower, charged under Espionage Act', href: '/entities/individuals/edward-snowden' },
+ { id: '3', name: 'Chelsea Manning', type: 'individual', relationship: 'Army whistleblower, sentenced to 35 years', href: '/entities/individuals/chelsea-manning' },
+ { id: '4', name: 'Julian Assange', type: 'individual', relationship: 'WikiLeaks publisher, imprisoned', href: '/entities/individuals/julian-assange' },
+ ],
   },
   'waste-management-organized-crime-ties': {
     title: 'Waste Management Organized Crime Ties',
@@ -734,6 +783,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutorial misconduct causing wrongful convictions', href: '/entities/agencies/doj' },
     ],
   },
   'wire-transfer-fraud-international-corridors': {
@@ -756,7 +806,8 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'ACLU Document Archive', url: 'https://www.aclu.org', type: 'Legal Document' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Wire fraud prosecutions', href: '/entities/agencies/doj' },
+ ],
   },
   'workplace-monitoring-technology-growth': {
     title: 'Workplace Monitoring Technology Growth',
@@ -778,7 +829,8 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'The Intercept', url: 'https://theintercept.com', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Extensive worker surveillance', href: '/entities/corporations/amazon-inc' },
+ ],
   },
   'water-treatment-chemical-health-effects': {
     title: 'Water Treatment Chemical Health Effects',
@@ -801,7 +853,8 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Drinking water standards', href: '/entities/agencies/epa' },
+ ],
   },
 
 

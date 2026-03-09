@@ -262,24 +262,44 @@ const investigations_i: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'ice-abuses': {
- title: 'ICE Abuses',
- subtitle: 'Investigation into ice abuses.',
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'IP theft investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Trade secret prosecution', href: '/entities/agencies/doj' },
+ ],
+ },  'ice-abuses': {
+ title: 'ICE Detention Abuses',
+ subtitle: 'Medical neglect, sexual assault, family separation, and deaths in Immigration and Customs Enforcement custody',
  severity: 'critical',
- category: 'Abuse & Exploitation',
+ category: 'Government Corruption',
  date: 'September 25, 2024',
  lastUpdated: 'December 12, 2025',
- summary: 'Investigation into ice abuses.',
+ summary: 'Immigration and Customs Enforcement operates a vast detention network holding over 30,000 people daily in facilities plagued by medical neglect, sexual abuse, inadequate conditions, and deaths. Over 200 people have died in ICE custody since 2003. Detention facilities, many operated by private prison corporations CoreCivic and GEO Group, have been documented engaging in forced sterilization, denial of medical care, use of solitary confinement, and systematic abuse of detainees.',
  content: [
- 'This investigation documents ice abuses and its impact.',
+ 'DEATHS IN CUSTODY: Over 200 people have died in ICE custody since 2003, many from preventable causes. Medical examinations revealed deaths from untreated diabetes, heart attacks where nurses failed to call 911, infections that were ignored for days, and suicides by detainees in solitary confinement. The death rate has increased.',
+ 'FORCED HYSTERECTOMIES: In 2020, whistleblower Dawn Wooten, a nurse at Irwin County Detention Center in Georgia, alleged that a gynecologist performed unnecessary hysterectomies and other procedures on detained women without their informed consent. Multiple women corroborated the allegations, drawing comparisons to forced sterilization programs.',
+ 'FAMILY SEPARATION: The Trump administration\'s "zero tolerance" policy deliberately separated over 5,000 children from their parents at the border. Internal documents showed the policy was designed as a deterrent. Over 1,000 children remained separated years later. A government investigation found the policy caused severe psychological trauma.',
+ 'PRIVATE PRISON PROFITEERING: CoreCivic and GEO Group operate approximately 65% of ICE detention beds. Together they earn over $3 billion annually from immigration detention. Both companies are major political donors and lobbyists for stricter immigration enforcement. Their financial incentives depend on high detention numbers.',
+ 'MEDICAL NEGLECT: Reports from the DHS Inspector General, congressional visits, and advocacy organizations have documented systematic medical neglect in ICE detention. Detainees describe waiting weeks to see doctors, denied medications, injuries ignored, and medical complaints dismissed. The standards of care fall far below prison standards.',
+ 'SEXUAL ABUSE: Between 2010 and 2017, the DHS Inspector General received over 33,000 complaints of sexual and physical abuse in ICE detention facilities. An investigation by the Intercept found that ICE failed to adequately investigate most complaints. Detainees who reported abuse were often retaliated against or placed in solitary.',
+ 'SOLITARY CONFINEMENT: ICE held thousands of detainees in solitary confinement, often for minor infractions or as punishment for complaints. Some detainees spent months in isolation. Medical professionals have documented that prolonged solitary confinement causes severe psychological harm equivalent to torture.',
+ 'COVID IN DETENTION: ICE facilities became COVID hotspots with inadequate testing, no social distancing, and limited medical care. Detainees were tear-gassed for protesting conditions. Despite court orders to reduce populations, ICE maintained high detention numbers. Many detainees contracted COVID and some died.',
+ 'CHILDREN IN DETENTION: Unaccompanied minors and children detained with families face conditions including overcrowded cells, inadequate food, sleeping on concrete floors under foil blankets, and limited access to hygiene. Multiple children died in CBP and ICE custody, including 7-year-old Jakelin Caal Maquin.',
+ 'OVERSIGHT FAILURES: ICE detention operates with minimal oversight. Facilities are often in remote locations inaccessible to lawyers and media. ICE has resisted body camera requirements, restricted access for inspectors, and transferred detainees away from their attorneys. The system is designed to operate in darkness.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['ICE', 'Immigration', 'Detention', 'Family Separation', 'Private Prisons', 'Medical Neglect', 'Forced Sterilization'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DHS OIG ICE Detention Conditions Reports', url: 'https://www.oig.dhs.gov/reports/2019/concerns-about-ice-detainee-treatment-and-care-four-detention-facilities/oig-19-47-jun19', type: 'Government Report' },
+ { title: 'Dawn Wooten Whistleblower Complaint', url: 'https://projectsouth.org/wp-content/uploads/2020/09/OIG-ICDC-Complaint-1.pdf', type: 'Government Report' },
+ { title: 'ACLU Family Separation Report', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/family-separation', type: 'Legal Analysis' },
+ { title: 'ICE Deaths in Custody Data', url: 'https://www.ice.gov/detain/detention-management', type: 'Government Report' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'ICE', type: 'agency', relationship: 'Operates detention system, 200+ deaths in custody', href: '/entities/agencies/ice' },
+ { id: '2', name: 'CoreCivic', type: 'corporation', relationship: 'Operates 65% of ICE detention, $3B+ revenue', href: '/entities/corporations/corecivic' },
+ { id: '3', name: 'GEO Group', type: 'corporation', relationship: 'Private prison operator, major ICE contractor', href: '/entities/corporations/geo-group' },
+ { id: '4', name: 'DHS', type: 'agency', relationship: 'Parent agency, inadequate oversight', href: '/entities/agencies/dhs' },
+ { id: '5', name: 'CBP', type: 'agency', relationship: 'Border processing, child deaths in custody', href: '/entities/agencies/cbp' },
+ ],
  },
   'ice-detention-deaths': {
  title: 'ICE Detention Deaths',
@@ -296,7 +316,10 @@ const investigations_i: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'ICE', type: 'agency', relationship: 'Operated detention centers where people died', href: '/entities/agencies/ice' },
+ { id: '2', name: 'CoreCivic', type: 'corporation', relationship: 'Private detention operator', href: '/entities/corporations/corecivic' },
+ ],
  },
   'illinois-corruption': {
  title: 'Illinois Corruption',
@@ -313,7 +336,10 @@ const investigations_i: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'ICE', type: 'agency', relationship: 'Immigration enforcement abuses', href: '/entities/agencies/ice' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'ICE oversight department', href: '/entities/agencies/dhs' },
+ ],
  },
   'immigration-tech': {
  title: 'Immigration Tech',
@@ -330,24 +356,41 @@ const investigations_i: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'influencer-abuse': {
- title: 'Influencer Abuse',
- subtitle: 'Investigation into influencer abuse.',
+ affiliations: [
+ { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'ICE surveillance technology provider', href: '/entities/corporations/palantir' },
+ { id: '2', name: 'ICE', type: 'agency', relationship: 'Technology-driven enforcement', href: '/entities/agencies/ice' },
+ ],
+ },  'influencer-abuse': {
+ title: 'Social Media Influencer Abuse',
+ subtitle: 'How social media platforms enable groomers, predators, and exploiters to target vulnerable audiences',
  severity: 'critical',
  category: 'Abuse & Exploitation',
  date: 'March 15, 2019',
  lastUpdated: 'March 6, 2023',
- summary: 'Investigation into influencer abuse.',
+ summary: 'The social media influencer ecosystem has created new vectors for abuse and exploitation. Influencers with millions of followers have been exposed as sexual predators using their platforms to groom fans. Child influencers face exploitation by parents. Platform algorithms direct predatory content toward vulnerable users. The lack of regulation in the influencer economy means that millions of young people are exposed to manipulation, exploitation, and abuse.',
  content: [
- 'This investigation documents influencer abuse and its impact.',
+ 'YOUTUBE PREDATOR PIPELINE: Multiple major YouTube creators have been exposed as predators who used their platforms to groom underage fans. The pattern includes fostering parasocial relationships, moving to private messaging, requesting explicit content, and leveraging fame to pressure compliance. Platforms were slow to respond to reports.',
+ 'CHILD INFLUENCER EXPLOITATION: Parents monetize children as influencers, exposing them to millions of viewers. A New York Times investigation found that content featuring children received disproportionate engagement from accounts associated with pedophilia. No federal law protects child influencers from exploitative working conditions.',
+ 'ANDREW TATE NETWORK: Andrew Tate built a massive online following promoting misogynistic ideology while facing charges of human trafficking and rape in Romania. His "Hustlers University" recruited young men as content distributors, creating a pyramid scheme of radicalization. Platforms initially amplified his content through recommendation algorithms.',
+ 'GROOMING AT SCALE: Social media allows predators to simultaneously groom thousands of potential victims. Influencers who target young audiences can identify vulnerable individuals through DM interactions, then escalate to private platforms. The scale of potential predation is unprecedented.',
+ 'EXPLOITATION ECONOMY: Influencer management companies and talent agencies exploit young creators through predatory contracts, excessive work demands, and financial manipulation. The absence of labor protections means creators as young as 13 work grueling schedules without the protections afforded to child actors.',
+ 'ALGORITHM-DRIVEN HARM: Platform algorithms optimize for engagement, which means content that provokes strong emotional reactions is promoted regardless of its harmful nature. Instagram and TikTok algorithms have been documented pushing eating disorder content to teens, self-harm content to vulnerable users, and predatory content to children.',
+ 'FINANCIAL EXPLOITATION: Influencer scams target young audiences with cryptocurrency schemes, dropshipping courses, and fake investment opportunities. FTC enforcement actions have documented influencers promoting products without disclosure, selling fraudulent products, and operating undisclosed affiliate schemes.',
+ 'MENTAL HEALTH IMPACT: Research by Facebook\'s own internal teams (revealed by whistleblower Frances Haugen) found that Instagram worsened body image issues for 32% of teen girls. Influencer culture creates unrealistic expectations around appearance, wealth, and lifestyle that contribute to anxiety, depression, and eating disorders.',
+ 'CYBERSTALKING AND HARASSMENT: Influencers who speak out about abuse face coordinated harassment campaigns from fans of the accused. Women and LGBTQ creators face disproportionate harassment. Platforms\' moderation systems are inadequate to protect targets of mass coordinate attacks.',
+ 'REGULATORY VACUUM: The influencer economy operates in a regulatory vacuum. FTC disclosure rules are weakly enforced. No federal child influencer protection laws exist. Platform Terms of Service are selectively enforced. The gap between the scale of harm and regulatory response continues to widen.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Social Media', 'Influencer', 'Child Exploitation', 'Grooming', 'Algorithm', 'Andrew Tate', 'Online Predators'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'NYT Child Influencer Investigation', url: 'https://www.nytimes.com/2023/02/14/technology/child-influencers-instagram.html', type: 'Investigation' },
+ { title: 'Facebook Internal Research - WSJ Files', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
+ { title: 'FTC Influencer Marketing Enforcement', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings?search_api_fulltext=influencer', type: 'Government Report' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Meta', type: 'corporation', relationship: 'Instagram harms teen mental health per internal research', href: '/entities/corporations/meta' },
+ { id: '2', name: 'Google', type: 'corporation', relationship: 'YouTube recommendation algorithm amplifies predatory content', href: '/entities/corporations/google' },
+ { id: '3', name: 'Andrew Tate', type: 'individual', relationship: 'Charged with trafficking, massive online misogyny platform', href: '/entities/individuals/andrew-tate' },
+ ],
  },
   'influencer-scams': {
  title: 'Influencer Scams',
@@ -364,24 +407,42 @@ const investigations_i: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'institutional-abuse': {
- title: 'Institutional Abuse',
- subtitle: 'Investigation into institutional abuse.',
+ affiliations: [
+ { id: '1', name: 'Federal Trade Commission', type: 'agency', relationship: 'Influencer disclosure enforcement', href: '/entities/agencies/federal-trade-commission' },
+ ],
+ },  'institutional-abuse': {
+ title: 'Institutional Abuse of Vulnerable Populations',
+ subtitle: 'Systematic mistreatment in prisons, psychiatric facilities, juvenile detention, and care homes',
  severity: 'critical',
- category: 'Abuse & Exploitation',
+ category: 'Human Rights',
  date: 'September 17, 2024',
  lastUpdated: 'March 20, 2025',
- summary: 'Investigation into institutional abuse.',
+ summary: 'Millions of Americans in institutional care -- prisons, jails, juvenile facilities, psychiatric hospitals, nursing homes, and group homes for disabled people -- face systematic abuse including physical violence, sexual assault, medical neglect, solitary confinement, and death. These facilities operate behind closed doors with minimal oversight, disproportionately affecting people of color, the mentally ill, the disabled, and the poor. The pattern crosses every type of institution where the state assumes custodial responsibility.',
  content: [
- 'This investigation documents institutional abuse and its impact.',
+ 'PRISON VIOLENCE: U.S. prisons and jails experience pervasive violence. The Bureau of Justice Statistics found that 4% of state and federal prisoners and 3.2% of jail inmates reported sexual victimization annually. Staff committed over half of reported sexual abuse. Overcrowding, understaffing, and gang dynamics create endemic violence.',
+ 'SOLITARY CONFINEMENT: An estimated 80,000-100,000 people are held in solitary confinement in U.S. prisons on any given day. Conditions include 23-hour lockdown in cells as small as 6x9 feet. The UN says prolonged solitary (over 15 days) constitutes torture. Some inmates have been held in solitary for years or decades.',
+ 'JUVENILE DETENTION ABUSE: DOJ investigations have found systematic abuse in juvenile detention facilities across the country, including excessive use of force, sexual abuse by staff, prolonged isolation, and denial of mental health care. Children as young as 10 are held in conditions that cause lasting psychological damage.',
+ 'NURSING HOME NEGLECT: Over 15,000 nursing homes house approximately 1.3 million Americans. CMS data shows over 40% have been cited for infection control deficiencies. Residents face physical and sexual abuse, chemical restraint through inappropriate medication, malnutrition, dehydration, and preventable death.',
+ 'DISABILITY INSTITUTION ABUSE: People with intellectual and developmental disabilities in group homes and state institutions face extraordinary rates of abuse. A ProPublica investigation found that deaths in group homes often go uninvestigated. Staff-to-resident ratios are inadequate, training is minimal, and pay is poverty-level.',
+ 'PSYCHIATRIC FACILITY ABUSE: State psychiatric hospitals and private psychiatric facilities have been documented engaging in improper restraint, overmedication, assault by staff, and patient deaths. Universal Health Services, the largest behavioral health company, faced DOJ investigations and lawsuits over patient abuse across multiple facilities.',
+ 'PRISON MEDICAL NEGLECT: Incarcerated people die from treatable conditions. A study of jail deaths found that 72% of medical deaths involved "deficiencies in care." Private medical providers like Corizon and Wexford cut costs by denying care, understaffing, and failing to hospitalize seriously ill inmates.',
+ 'SCHOOL-TO-PRISON PIPELINE: Zero-tolerance policies in schools funnel children, disproportionately Black and Latino, from classrooms into the criminal justice system. School resource officers arrest students for minor behavioral issues. Suspensions and expulsions increase dropout rates and incarceration risk.',
+ 'IMMIGRATION DETENTION: As detailed in separate investigations, immigration detention facilities operated by ICE and private companies subject detainees to conditions that constitute institutional abuse, including family separation, medical neglect, and sexual violence.',
+ 'ACCOUNTABILITY VACUUM: Institutional abuse persists because of qualified immunity for government officials, arbitration clauses in private facility contracts, inadequate inspector general resources, and the political powerlessness of incarcerated, institutionalized, and disabled populations.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Institutional Abuse', 'Prison', 'Solitary Confinement', 'Nursing Homes', 'Juvenile Detention', 'Disability Rights', 'Medical Neglect'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'BJS Sexual Victimization in Prisons Report', url: 'https://bjs.ojp.gov/library/publications/sexual-victimization-prisons-and-jails-reported-inmates', type: 'Government Report' },
+ { title: 'DOJ Civil Rights Division Institution Investigations', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters0', type: 'Government Report' },
+ { title: 'UN Special Rapporteur on Solitary Confinement', url: 'https://www.ohchr.org/en/special-procedures/sr-torture', type: 'International Report' },
+ { title: 'CMS Nursing Home Inspection Data', url: 'https://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/CertificationandComplianc', type: 'Government Report' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division investigations of facilities', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Bureau of Prisons', type: 'agency', relationship: 'Operates federal prisons with documented abuse', href: '/entities/agencies/bop' },
+ { id: '3', name: 'CoreCivic', type: 'corporation', relationship: 'Private prison operator, abuse documented', href: '/entities/corporations/corecivic' },
+ { id: '4', name: 'GEO Group', type: 'corporation', relationship: 'Private prison/detention operator', href: '/entities/corporations/geo-group' },
+ ],
  },
   'insurance-denials': {
  title: 'Insurance Denials',
@@ -398,7 +459,9 @@ const investigations_i: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Institutional civil rights investigations', href: '/entities/agencies/doj' },
+ ],
  },
   'insys-opioid-scandal': {
  title: 'Insys Opioid Scandal',
@@ -415,7 +478,10 @@ const investigations_i: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'RICO prosecution of executives', href: '/entities/agencies/doj' },
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Approved fentanyl spray', href: '/entities/agencies/fda' },
+ ],
  },
   'insys-prosecutions': {
  title: 'Insys Prosecutions',
@@ -432,7 +498,9 @@ const investigations_i: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'First opioid executives convicted under RICO', href: '/entities/agencies/doj' },
+ ],
  },
   'intelligence-impunity': {
  title: 'Intelligence Impunity',
@@ -449,7 +517,10 @@ const investigations_i: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Intelligence community accountability failures', href: '/entities/agencies/cia' },
+ { id: '2', name: 'NSA', type: 'agency', relationship: 'Mass surveillance without consequence', href: '/entities/agencies/nsa' },
+ ],
  },
   'insider-trading-congressional-members': {
     title: 'Insider Trading Congressional Members',
@@ -473,7 +544,9 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', type: 'Court Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Members trading on insider info', href: '/entities/agencies/congress' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Enforcement of STOCK Act', href: '/entities/agencies/sec' },
+ ],
   },
   'italian-american-mafia-modern-operations': {
     title: 'Italian American Mafia Modern Operations',
@@ -498,6 +571,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
+      { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Insurance regulation legislation', href: '/entities/agencies/congress' },
     ],
   },
   'iran-contra-full-financial-trail': {
@@ -521,7 +595,10 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'FOIA Request Archive', url: 'https://www.foia.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Facilitated illegal arms sales', href: '/entities/agencies/cia' },
+ { id: '2', name: 'Oliver North', type: 'individual', relationship: 'NSC staffer who ran operation', href: '/entities/individuals/oliver-north' },
+ { id: '3', name: 'Ronald Reagan', type: 'individual', relationship: 'President during scandal', href: '/entities/individuals/ronald-reagan' },
+ ],
   },
   'industry-self-regulation-failures': {
     title: 'Industry Self-Regulation Failures',
@@ -545,7 +622,8 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'Public Citizen Research', url: 'https://www.citizen.org', type: 'Policy Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Deferred to industry self-regulation', href: '/entities/agencies/sec' },
+ ],
   },
   'industrial-water-contamination-database': {
     title: 'Industrial Water Contamination Database',
@@ -567,7 +645,8 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Water contamination monitoring', href: '/entities/agencies/epa' },
+ ],
   },
   'information-environment-manipulation-tactics': {
     title: 'Information Environment Manipulation Tactics',
@@ -592,7 +671,8 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Information operations', href: '/entities/agencies/pentagon' },
+ ],
   },
   'inspector-general-independence-threats': {
     title: 'Inspector General Independence Threats',
@@ -616,7 +696,8 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Fired multiple inspectors general', href: '/entities/individuals/donald-trump' },
+ ],
   },
   'insurance-fraud-organized-networks': {
     title: 'Insurance Fraud Organized Networks',
@@ -639,7 +720,8 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org', type: 'Policy Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Insurance fraud investigations', href: '/entities/agencies/fbi' },
+ ],
   },
 
 

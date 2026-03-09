@@ -153,41 +153,41 @@ const investigations_k: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'kenosha-shootings': {
+ affiliations: [
+ { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Received clearance over intelligence objections', href: '/entities/individuals/jared-kushner' },
+ { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Ordered clearance for son-in-law', href: '/entities/individuals/donald-trump' },
+ ],
+ },  'kenosha-shootings': {
  title: 'Kenosha Shootings',
- subtitle: 'Investigation into kenosha shootings.',
+ subtitle: 'Kyle Rittenhouse killed two and wounded one at a Black Lives Matter protest, acquitted of all charges',
  severity: 'critical',
- category: 'Violence & Justice',
+ category: 'Political Violence',
  date: 'April 1, 2011',
  lastUpdated: 'November 9, 2012',
- summary: 'Investigation into kenosha shootings.',
+ summary: 'On August 25, 2020, 17-year-old Kyle Rittenhouse traveled from Antioch, Illinois, to Kenosha, Wisconsin, during protests following the police shooting of Jacob Blake. Armed with an AR-15-style rifle, Rittenhouse shot three people, killing Joseph Rosenbaum and Anthony Huber and wounding Gaige Grosskreutz. His acquittal on all charges in November 2021 became a flashpoint in debates over self-defense, guns, vigilantism, and racial justice.',
  content: [
- 'This investigation documents kenosha shootings and its impact.',
+ 'JACOB BLAKE SHOOTING: On August 23, 2020, Kenosha police officer Rusten Sheskey shot Jacob Blake, a 29-year-old Black man, seven times in the back at point-blank range while Blake attempted to enter an SUV with his children inside. Blake survived but was paralyzed from the waist down. The shooting sparked days of protests.',
+ 'MILITIA MOBILIZATION: Social media calls for armed civilians to protect property in Kenosha spread rapidly. Groups including the Kenosha Guard organized on Facebook. The Boogaloo movement and other militia groups amplified the calls. Kyle Rittenhouse responded to these calls despite being 17 and not a Kenosha resident.',
+ 'RITTENHOUSE ACTIONS: Rittenhouse arrived in Kenosha armed with an AR-15 rifle his friend had purchased for him. Over the course of the evening, he shot Joseph Rosenbaum (killed), Anthony Huber (killed), and Gaige Grosskreutz (wounded). The shootings were captured on video from multiple angles.',
+ 'LAW ENFORCEMENT RESPONSE: Video showed police in armored vehicles thanking armed civilians and offering them water before the shootings. After shooting three people, Rittenhouse walked toward police lines with his hands up and his rifle visible. Police drove past him without stopping. He went home to Illinois and turned himself in the next day.',
+ 'POLICE DOUBLE STANDARD: The contrast was stark: Jacob Blake was shot seven times by police during a non-violent encounter, while Rittenhouse walked past police after killing two people. Critics argued the disparity demonstrated racialized policing -- law enforcement viewed armed white civilians as allies and unarmed Black people as threats.',
+ 'THE TRIAL: Rittenhouse was charged with two counts of first-degree intentional homicide and other charges. His defense argued self-defense. The trial became a national spectacle. Judge Bruce Schroeder drew criticism for barring the word "victims" while allowing the deceased to be called "rioters" or "looters."',
+ 'ACQUITTAL: On November 19, 2021, the jury acquitted Rittenhouse on all charges. The acquittal was celebrated by right-wing media and politicians. Conservative groups raised millions for his defense. Critics argued the verdict established a dangerous precedent allowing armed individuals to provoke confrontations then claim self-defense.',
+ 'POLITICAL WEAPONIZATION: Rittenhouse became a political symbol. Trump invited him to Mar-a-Lago. Republican members of Congress offered him internships. He appeared at conservative events. His case was used to argue for expanded gun rights and against the Black Lives Matter movement.',
+ 'VIGILANTISM CONCERNS: Legal analysts warned that the Rittenhouse acquittal would encourage armed vigilantism at protests. The message received: a civilian could arm themselves, travel to a protest, and if confronted, use lethal force with legal impunity. Similar armed responses to protests increased after the verdict.',
+ 'VICTIMS\' LEGACY: Joseph Rosenbaum was 36. Anthony Huber was 26. Both were killed while unarmed (Huber had a skateboard). Their families filed wrongful death lawsuits. The focus on Rittenhouse\'s legal defense overshadowed the human cost: two men dead and a community traumatized.',
  ],
- tags: ['Violence & Justice', 'Investigation', 'Accountability'],
+ tags: ['Kenosha', 'Kyle Rittenhouse', 'Jacob Blake', 'BLM Protest', 'Vigilantism', 'Self-Defense', 'Gun Violence'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'State v. Rittenhouse Trial Records', url: 'https://www.kenoshanews.com/news/local/crime-and-courts/rittenhouse-trial/', type: 'Court Filing' },
+ { title: 'Video Evidence Compilation', url: 'https://www.nytimes.com/2020/08/27/us/kyle-rittenhouse-kenosha-shooting-video.html', type: 'Video Evidence' },
+ { title: 'DOJ Jacob Blake Investigation', url: 'https://www.justice.gov/opa/pr/federal-investigation-kenosha-wisconsin-police-shooting-jacob-blake', type: 'Government Report' },
  ],
- affiliations: [],
- },
-  'khashoggi-murder': {
- title: 'Khashoggi Murder',
- subtitle: 'Investigation into khashoggi murder.',
- severity: 'critical',
- category: 'Violence & Justice',
- date: 'January 14, 2020',
- lastUpdated: 'October 2, 2025',
- summary: 'Investigation into khashoggi murder.',
- content: [
- 'This investigation documents khashoggi murder and its impact.',
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal Jacob Blake investigation, no charges', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Invited Rittenhouse to Mar-a-Lago', href: '/entities/individuals/donald-trump' },
+ { id: '3', name: 'Fox News', type: 'corporation', relationship: 'Platformed Rittenhouse as hero', href: '/entities/corporations/fox-news' },
  ],
- tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
  },
   'kids-for-cash': {
  title: 'Kids For Cash',
@@ -204,7 +204,9 @@ const investigations_k: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Kyle Rittenhouse', type: 'individual', relationship: 'Shooter acquitted of homicide charges', href: '/entities/individuals/kyle-rittenhouse' },
+ ],
  },
   'korematsu-case': {
  title: 'Korematsu Case',
@@ -221,7 +223,9 @@ const investigations_k: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Upheld Japanese internment', href: '/entities/agencies/supreme-court' },
+ ],
  },
   'kushner-saudi-deal': {
  title: 'Kushner Saudi Deal',
@@ -238,7 +242,9 @@ const investigations_k: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/jared-kushner' },
+ ],
  },
 };
 

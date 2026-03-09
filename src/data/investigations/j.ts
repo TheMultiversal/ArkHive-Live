@@ -59,7 +59,11 @@ const investigations_j: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Federalist Society', type: 'corporation', relationship: 'Judicial nomination pipeline', href: '/entities/corporations/federalist-society' },
+ { id: '2', name: 'Leonard Leo', type: 'individual', relationship: 'Dark money judicial kingmaker', href: '/entities/individuals/leonard-leo' },
+ { id: '3', name: 'Supreme Court', type: 'agency', relationship: 'Subject of capture efforts', href: '/entities/agencies/supreme-court' },
+ ],
  },
   'january-6th': {
  title: 'January 6th',
@@ -76,7 +80,12 @@ const investigations_j: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Incited insurrection, failed to act', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'Proud Boys', type: 'organization', relationship: 'Convicted of seditious conspiracy', href: '/entities/organizations/proud-boys' },
+ { id: '3', name: 'Oath Keepers', type: 'organization', relationship: 'Convicted of seditious conspiracy', href: '/entities/organizations/oath-keepers' },
+ { id: '4', name: 'DOJ', type: 'agency', relationship: 'Largest criminal investigation in US history', href: '/entities/agencies/doj' },
+ ],
  },
   'jj-baby-powder': {
  title: 'JJ Baby Powder',
@@ -93,7 +102,10 @@ const investigations_j: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Concealed asbestos in baby powder for decades', href: '/entities/corporations/johnson-and-johnson' },
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Failed to act on contamination evidence', href: '/entities/agencies/fda' },
+ ],
  },
   'juul-vaping-epidemic': {
  title: 'Juul Vaping Epidemic',
@@ -110,7 +122,9 @@ const investigations_j: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Failed to regulate e-cigarettes targeting youth', href: '/entities/agencies/fda' },
+ ],
  },
   'journalistic-source-protection-failures': {
     title: 'Journalistic Source Protection Failures',
@@ -133,7 +147,8 @@ const investigations_j: Record<string, InvestigationData> = {
       { title: 'Public Citizen Research', url: 'https://www.citizen.org', type: 'Policy Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Subpoenaed journalist records', href: '/entities/agencies/doj' },
+ ],
   },
   'juvenile-justice-system-failures': {
     title: 'Juvenile Justice System Failures',
@@ -156,7 +171,8 @@ const investigations_j: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Juvenile justice oversight', href: '/entities/agencies/doj' },
+ ],
   },
 
 

@@ -1356,31 +1356,34 @@ const profiles: Record<string, IndividualProfile> = {
 
   'randy-credico': {
     name: 'Randy Credico',
-    title: 'Subject of Record',
-    role: 'Subject of ongoing documentation',
+    title: 'Comedian and Political Activist',
+    role: 'Roger Stone intermediary and WikiLeaks contact',
     riskLevel: 'low',
-    description: 'Randy Credico is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
+    description: 'Randy Credico is a New York comedian and political activist who served as Roger Stone intermediary to WikiLeaks during the 2016 presidential campaign. He became a key witness in the Roger Stone criminal trial after Stone threatened him and his therapy dog to prevent him from testifying.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Randy Credico has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Served as Roger Stone back channel to WikiLeaks founder Julian Assange during the 2016 election',
+      'Stone threatened Credico in texts including "Prepare to die" and threatened to kidnap his therapy dog Bianca to prevent him from contradicting Stone account to Congress',
+      'Testified at Roger Stone federal trial about Stone efforts to learn about upcoming WikiLeaks releases of stolen Clinton campaign emails',
+      'Invoked the Fifth Amendment 63 times during his first appearance before the House Intelligence Committee',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2023-12-15', event: 'Documentation updated based on newly available public records and filings' },
-      { date: '2025-11-23', event: 'Profile documented based on review of public records and institutional affiliations' },
+      { date: '2016-08-01', event: 'Began serving as intermediary between Roger Stone and WikiLeaks' },
+      { date: '2018-05-18', event: 'Stone threatens Credico via text messages to prevent testimony' },
+      { date: '2019-11-06', event: 'Testified at Roger Stone federal trial' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2023-12-15' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-11-23' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-05-19' },
+      { title: 'DOJ - United States v. Roger Stone Indictment', url: 'https://www.justice.gov/file/1124706/dl', date: '2019-01-25' },
     ],
     aliases: [],
     knownAssociates: [
+      { name: 'Roger Stone', relationship: 'Used Credico as WikiLeaks intermediary then threatened him', href: '/entities/individuals/roger-stone' },
     ],
   },
 
@@ -1911,31 +1914,36 @@ const profiles: Record<string, IndividualProfile> = {
 
   'robert-novak': {
     name: 'Robert Novak',
-    title: 'Public Official',
-    role: 'Tracked for public accountability',
+    title: 'Syndicated Columnist',
+    role: 'Journalist who outed CIA operative Valerie Plame',
     riskLevel: 'medium',
-    description: 'Robert Novak is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations.',
-    education: [],
+    description: 'Robert David Sanders Novak was an American syndicated columnist and television commentator who became central to the Plame affair when he published the identity of covert CIA officer Valerie Plame in July 2003. His column revealed Plame identity as retaliation against her husband, Ambassador Joseph Wilson, who had contradicted Bush administration claims about Iraqi WMDs.',
+    education: ['University of Illinois, BA 1952'],
     affiliations: [
     ],
     controversies: [
-      'Robert Novak has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+      'Published the identity of covert CIA officer Valerie Plame in his July 14, 2003 syndicated column, naming her and her CIA affiliation',
+      'Received the information from Deputy Secretary of State Richard Armitage and confirmed it with Karl Rove, effectively serving as a vehicle for the Bush administration retaliation against Wilson',
+      'The leak potentially endangered Plame intelligence contacts and operations abroad',
+      'Was not prosecuted by Special Counsel Fitzgerald, likely because he cooperated with the investigation, while his source Scooter Libby was convicted',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2021-04-29', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2025-01-20', event: 'Documentation updated based on newly available public records and filings' },
+      { date: '2003-07-14', event: 'Published column revealing Valerie Plame identity as CIA officer' },
+      { date: '2003-12-30', event: 'Special Counsel Patrick Fitzgerald appointed to investigate the leak' },
+      { date: '2006-07-12', event: 'Revealed Richard Armitage was primary source for the leak' },
+      { date: '2009-08-18', event: 'Died of brain cancer at age 78' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-04-29' },
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-01-20' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-08-26' },
+      { title: 'The Novak Column - Mission to Niger (original column)', url: 'https://www.washingtonpost.com/archive/opinions/', date: '2003-07-14' },
     ],
     aliases: [],
     knownAssociates: [
+      { name: 'Karl Rove', relationship: 'Confirmed Plame identity as second source', href: '/entities/individuals/karl-rove' },
+      { name: 'Dick Cheney', relationship: 'Vice President whose office orchestrated the retaliation', href: '/entities/individuals/dick-cheney' },
     ],
   },
 
@@ -5284,26 +5292,33 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'roberto-daubuisson': {
  name: 'Roberto D\'Aubuisson',
- title: 'Founder of ARENA party, organizer of death squads, ordered assassination of Archbishop Romero',
- role: 'Founder of ARENA party, organizer of death squads, ordered assassination of Archbishop Romero',
- riskLevel: 'high',
- description: 'Roberto D\'Aubuisson is documented in this investigative archive for their role as Founder of ARENA party, organizer of death squads, ordered assassination of Archbishop Romero.',
- education: [],
+ title: 'Former Salvadoran Military Leader',
+ role: 'Death squad organizer',
+ riskLevel: 'critical',
+ description: 'Major Roberto D\'Aubuisson Arrieta was a Salvadoran military intelligence officer who organized death squads responsible for thousands of killings during El Salvador civil war. He is most infamously known as the mastermind behind the 1980 assassination of Archbishop Oscar Romero and the founder of the far-right ARENA party.',
+ education: ['Salvadoran Military Academy'],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Roberta Kaplan', type: 'organization' },
  ],
  controversies: [
- 'Connected to 2 documented investigations',
- ],
+      'Masterminded the March 24, 1980 assassination of Archbishop Oscar Romero, who was shot while celebrating Mass after publicly calling on soldiers to stop killing civilians',
+      'Organized and directed death squads responsible for the murders of thousands of Salvadoran civilians, trade unionists, clergy, and political opponents during the civil war',
+      'Founded the Nationalist Republican Alliance (ARENA) party in 1981, which served as a political front for death squad activities',
+      'The UN Truth Commission for El Salvador explicitly named him as responsible for ordering the assassination of Archbishop Romero',
+      'Received covert support from elements within the U.S. government and CIA despite documented evidence of his role in death squad killings',
+    ],
  relatedInvestigations: [
  { title: 'El Salvador Death Squads', slug: 'el-salvador-death-squads', severity: 'high' },
  { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
  ],
- timeline: [{ date: 'Ongoing', event: 'Active in role as Founder of ARENA party, organizer of death squads, ordered assassination of Archbishop Romero' }],
- knownAssociates: [
- { name: 'Oscar Romero', relationship: 'Death squad leader who ordered Archbishop Romero\'s assassination', href: '/entities/individuals/oscar-romero' },
- { name: 'Elliott Abrams', relationship: 'Reagan official who downplayed D\'Aubuisson\'s death squads', href: '/entities/individuals/elliott-abrams' }
- ],
+ timeline: [
+      { date: '1979-10-15', event: 'Began organizing death squads after the reform coup' },
+      { date: '1980-03-24', event: 'Archbishop Oscar Romero assassinated on his orders' },
+      { date: '1981-09-30', event: 'Founded the ARENA party' },
+      { date: '1984-05-06', event: 'Lost presidential election to Jose Napoleon Duarte' },
+      { date: '1992-03-15', event: 'UN Truth Commission names him as Romero assassination mastermind' },
+      { date: '1992-02-20', event: 'Died of throat cancer at age 48' },
+    ],
 
  sources: [{ title: 'Wikipedia: Roberto D', url: 'https://en.wikipedia.org/wiki/Roberto_De_Vido' }],
  },

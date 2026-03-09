@@ -406,7 +406,11 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/jpmorgan-chase' },
+ { id: '2', name: 'Wells Fargo', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/wells-fargo' },
+ { id: '3', name: 'Bank of America', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/bank-of-america' },
+ ],
  },
   'banking-corruption': {
  title: 'Banking Industry Corruption',
@@ -425,7 +429,9 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/jpmorgan-chase' },
+ ],
  },
   'banking-crimes': {
  title: 'Banking Sector Criminal Activity',
@@ -444,7 +450,9 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Wells Fargo', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/wells-fargo' },
+ ],
  },
   'belarus-repression': {
  title: 'Belarus Repression',
@@ -463,7 +471,9 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Alexander Lukashenko', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/alexander-lukashenko' },
+ ],
  },
   'big-tech-monopoly': {
  title: 'Big Tech Monopoly',
@@ -482,7 +492,11 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Amazon Corp', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/amazon-corp' },
+ { id: '3', name: 'Amazon Inc', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/amazon-inc' },
+ ],
  },
   'big-tobacco-conspiracy': {
  title: 'Big Tobacco Conspiracy',
@@ -501,7 +515,10 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Philip Morris', type: 'corporation', relationship: 'Led industry conspiracy to hide cancer link', href: '/entities/corporations/philip-morris' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal RICO case against tobacco companies', href: '/entities/agencies/doj' },
+ ],
  },
   'billionaire-tax-avoidance': {
  title: 'Billionaire Tax Avoidance',
@@ -520,7 +537,11 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Elon Musk', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/elon-musk' },
+ { id: '2', name: 'Jeff Bezos', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/jeff-bezos' },
+ { id: '3', name: 'Warren Buffett', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/warren-buffett' },
+ ],
  },
   'boarding-schools': {
  title: 'Boarding Schools',
@@ -539,7 +560,9 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Interior Department', type: 'agency', relationship: 'Bureau of Indian Affairs operated schools', href: '/entities/agencies/interior-department' },
+ ],
  },
   'boeing-safety-failures': {
  title: 'Boeing Safety Failures',
@@ -558,7 +581,10 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FAA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/faa' },
+ { id: '2', name: 'Boeing', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/boeing' },
+ ],
  },
   'bop-failures': {
  title: 'BOP Failures',
@@ -577,7 +603,11 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/jeffrey-epstein' },
+ { id: '2', name: 'Federal Bureau of Prisons', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/bop' },
+ { id: '3', name: 'Federal Bureau of Prisons', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/federal-bureau-of-prisons' },
+ ],
  },
   'border-deaths': {
  title: 'Border Deaths',
@@ -596,7 +626,10 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'CBP', type: 'agency', relationship: 'Border enforcement causing deaths', href: '/entities/agencies/cbp' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'Department overseeing border policy', href: '/entities/agencies/dhs' },
+ ],
  },
   'boston-archdiocese-coverup': {
  title: 'Boston Archdiocese Coverup',
@@ -615,7 +648,10 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Cardinal Bernard Law', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/cardinal-bernard-law' },
+ { id: '2', name: 'John Geoghan', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/john-geoghan' },
+ ],
  },
   'botham-jean-murder': {
  title: 'Botham Jean Murder',
@@ -634,7 +670,10 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Amber Guyger', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/amber-guyger' },
+ { id: '2', name: 'Botham Jean', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/botham-jean' },
+ ],
  },
   'breonna-taylor': {
  title: 'Breonna Taylor',
@@ -653,7 +692,9 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Breonna Taylor', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/breonna-taylor' },
+ ],
  },
   'brian-sicknick': {
  title: 'Brian Sicknick',
@@ -672,7 +713,10 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'George Tanios', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/george-tanios' },
+ { id: '2', name: 'Julian Khater', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/julian-khater' },
+ ],
  },
   'buffalo-massacre': {
  title: 'Buffalo Massacre',
@@ -691,7 +735,10 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Investigated shooter, missed warning signs', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'Dylann Roof', type: 'individual', relationship: 'Prior white supremacist mass shooter', href: '/entities/individuals/dylann-roof' },
+ ],
  },
   'bay-of-pigs-cover-up': {
     title: 'Bay of Pigs Cover-Up',
@@ -715,7 +762,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Public corruption prosecutions', href: '/entities/agencies/doj' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Bribery investigations', href: '/entities/agencies/fbi' },
+ ],
   },
   'big-pharma-patent-evergreening': {
     title: 'Big Pharma Patent Evergreening',
@@ -738,7 +787,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Patent regime enabling evergreening', href: '/entities/agencies/fda' },
+ { id: '2', name: 'Pfizer Inc', type: 'corporation', relationship: 'Major patent evergreening practitioner', href: '/entities/corporations/pfizer' },
+ ],
   },
   'banking-lobby-capture-of-fed': {
     title: 'Banking Lobby Capture of Fed',
@@ -761,7 +812,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Federal Reserve', type: 'agency', relationship: 'Subject of regulatory capture', href: '/entities/agencies/federal-reserve' },
+ { id: '2', name: 'Goldman Sachs', type: 'corporation', relationship: 'Revolving door with Fed leadership', href: '/entities/corporations/goldman-sachs' },
+ ],
   },
   'big-tech-antitrust-failures': {
     title: 'Big Tech Antitrust Failures',
@@ -783,7 +836,10 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Google', type: 'corporation', relationship: 'Search monopoly, DOJ case', href: '/entities/corporations/google' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Antitrust enforcement', href: '/entities/agencies/doj' },
+ { id: '3', name: 'Federal Trade Commission', type: 'agency', relationship: 'Tech antitrust cases', href: '/entities/agencies/federal-trade-commission' },
+ ],
   },
   'ballot-chain-of-custody-violations': {
     title: 'Ballot Chain of Custody Violations',
@@ -805,6 +861,8 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
+      { id: '1', name: 'Federal Reserve', type: 'agency', relationship: 'Subject of regulatory capture', href: '/entities/agencies/federal-reserve' },
+      { id: '2', name: 'Goldman Sachs', type: 'corporation', relationship: 'Revolving door with Fed leadership', href: '/entities/corporations/goldman-sachs' },
     ],
   },
   'bankruptcy-fraud-hidden-asset-schemes': {
@@ -828,7 +886,8 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'Public Citizen Research', url: 'https://www.citizen.org', type: 'Policy Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Bankruptcy fraud prosecution', href: '/entities/agencies/doj' },
+ ],
   },
   'birth-rate-manipulation-policy-analysis': {
     title: 'Birth Rate Manipulation Policy Analysis',
@@ -852,6 +911,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Election integrity enforcement', href: '/entities/agencies/doj' },
     ],
   },
 

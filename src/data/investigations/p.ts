@@ -452,74 +452,40 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'Purdue Pharma', type: 'corporation', relationship: 'OxyContin manufacturer', href: '/entities/corporations/purdue-pharma' },
  { id: '2', name: 'Richard Sackler', type: 'individual', relationship: 'Family owner, pushed sales', href: '/entities/individuals/richard-sackler' },
  ],
- },
-  'pandemic-response': {
- title: 'Pandemic Response',
- subtitle: 'Investigation into pandemic response.',
+ },  'pandemic-response': {
+ title: 'Pandemic Response Failures',
+ subtitle: 'Catastrophic government failures in COVID-19 response resulted in hundreds of thousands of preventable American deaths',
  severity: 'critical',
  category: 'Public Health',
  date: 'October 8, 2019',
  lastUpdated: 'June 12, 2022',
- summary: 'Investigation into pandemic response.',
+ summary: 'The U.S. government\'s response to COVID-19 was marked by early denial, political interference in public health guidance, dismantling of pandemic preparedness infrastructure, supply chain failures, and inconsistent messaging that cost hundreds of thousands of lives. The Trump administration disbanded the NSC pandemic response team in 2018, ignored pandemic playbooks, promoted unproven treatments, and undermined CDC scientists. Testing failures, PPE shortages, and the politicization of masks and vaccines turned a health crisis into a partisan catastrophe.',
  content: [
- 'This investigation documents pandemic response and its impact.',
+ 'EARLY WARNINGS IGNORED: U.S. intelligence agencies warned about the COVID-19 outbreak in China as early as November 2019. The WHO declared a Public Health Emergency of International Concern on January 30, 2020. Despite these warnings, the Trump administration did not implement a coordinated response until mid-March, losing critical weeks for containment.',
+ 'PANDEMIC TEAM DISBANDED: In 2018, National Security Advisor John Bolton disbanded the NSC\'s Directorate for Global Health Security and Biodefense, the team specifically created to prepare for pandemics. Key staff were reassigned or departed. When COVID-19 arrived, there was no coordinated White House pandemic response apparatus.',
+ 'TESTING CATASTROPHE: The CDC developed a faulty COVID-19 test in February 2020, setting back U.S. testing capacity by weeks. The FDA initially restricted testing to the CDC\'s flawed kits, preventing private labs from developing alternatives. While South Korea was testing tens of thousands daily, the U.S. had tested fewer than 500 people by early March.',
+ 'PPE AND SUPPLY CHAIN: The Strategic National Stockpile was depleted and outdated when the pandemic hit. States were forced to compete against each other and the federal government for masks, gowns, and ventilators. FEMA seized shipments intended for states. Healthcare workers wore garbage bags as protective equipment.',
+ 'POLITICAL INTERFERENCE WITH CDC: The Trump administration interfered with CDC guidance on multiple occasions. Political appointees at HHS edited scientific reports. The CDC was pressured to change testing guidelines to reduce case counts. Redfield and other scientists described pressure to align public health messaging with political goals.',
+ 'HYDROXYCHLOROQUINE AND BLEACH: Trump publicly promoted hydroxychloroquine as a COVID treatment despite lack of clinical evidence. He suggested that injecting disinfectant or using UV light inside the body might treat the virus. These statements from the leader of the pandemic response undermined public health messaging and led to poisoning incidents.',
+ 'OPERATION WARP SPEED: The vaccine development program was a genuine success, delivering multiple effective vaccines in under a year. However, vaccine distribution was chaotic, with states receiving far fewer doses than promised. The rollout was hampered by the lack of a national distribution plan.',
+ 'MASK MANDATE RESISTANCE: The Trump administration resisted mask mandates despite CDC recommendations. Trump rarely wore masks publicly, mocked reporters and political opponents who wore them, and made masks a cultural flashpoint. Studies estimated that universal masking could have saved tens of thousands of lives.',
+ 'DEATH TOLL DISPARITIES: COVID-19 disproportionately killed Black, Latino, and Indigenous Americans. Structural racism in healthcare access, housing, employment, and pre-existing conditions drove disparities. Black Americans died at 1.4 times the rate of white Americans in the first year of the pandemic.',
+ 'CONGRESSIONAL COVID RELIEF: Congress passed approximately $4.5 trillion in COVID relief. While necessary, the programs were rife with fraud. The PPP loan program saw an estimated $80-100 billion in fraudulent claims. Oversight was undermined when the administration removed the pandemic accountability committee chair. The largest wealth transfer in American history occurred during a crisis that killed over one million Americans.',
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
+ tags: ['COVID-19', 'Pandemic', 'Public Health', 'Trump', 'CDC', 'Testing', 'PPE', 'Vaccines'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'House Select Subcommittee on the Coronavirus Crisis Final Report', url: 'https://coronavirus.house.gov/sites/democrats.coronavirus.house.gov/files/2022-12-09.Final-Report.pdf', type: 'Congressional Record' },
+ { title: 'CDC COVID-19 Testing Timeline', url: 'https://www.cdc.gov/museum/timeline/covid19.html', type: 'Government Report' },
+ { title: 'NSC Pandemic Team Disbandment', url: 'https://apnews.com/article/ap-fact-check-joe-biden-pandemics-public-health-government-and-politics-d36d6c4de29f4d04beda3db00cb46104', type: 'News Report' },
+ { title: 'APM Research Lab - COVID Race Data', url: 'https://www.apmresearchlab.org/covid/deaths-by-race', type: 'Research Report' },
  ],
- affiliations: [],
- },
-  'parental-accountability': {
- title: 'Parental Accountability',
- subtitle: 'Investigation into parental accountability.',
- severity: 'critical',
- category: 'Police Accountability',
- date: 'January 23, 2015',
- lastUpdated: 'July 29, 2025',
- summary: 'Investigation into parental accountability.',
- content: [
- 'This investigation documents parental accountability and its impact.',
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Disbanded pandemic team, promoted unproven treatments, resisted masks', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'CDC', type: 'agency', relationship: 'Developed faulty test; suffered political interference', href: '/entities/agencies/cdc' },
+ { id: '3', name: 'Anthony Fauci', type: 'individual', relationship: 'Led NIAID response; clashed with White House', href: '/entities/individuals/anthony-fauci' },
+ { id: '4', name: 'HHS', type: 'agency', relationship: 'Political appointees interfered with scientific reports', href: '/entities/agencies/hhs' },
+ { id: '5', name: 'Deborah Birx', type: 'individual', relationship: 'White House Coronavirus Task Force coordinator', href: '/entities/individuals/deborah-birx' },
  ],
- tags: ['Police Accountability', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
- },
-  'parkland-shooting': {
- title: 'Parkland Shooting',
- subtitle: 'Investigation into parkland shooting.',
- severity: 'critical',
- category: 'Violence & Justice',
- date: 'October 19, 2025',
- lastUpdated: 'December 11, 2025',
- summary: 'Investigation into parkland shooting.',
- content: [
- 'This investigation documents parkland shooting and its impact.',
- ],
- tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
- },
-  'patriot-act-abuses': {
- title: 'Patriot Act Abuses',
- subtitle: 'Investigation into patriot act abuses.',
- severity: 'critical',
- category: 'Abuse & Exploitation',
- date: 'May 3, 2025',
- lastUpdated: 'November 4, 2025',
- summary: 'Investigation into patriot act abuses.',
- content: [
- 'This investigation documents patriot act abuses and its impact.',
- ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
  },
   'penn-state-scandal': {
  title: 'Penn State Scandal',
@@ -536,7 +502,10 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Algorithm-driven psychological manipulation', href: '/entities/corporations/meta-platforms' },
+ { id: '2', name: 'Google', type: 'corporation', relationship: 'Attention economy manipulation', href: '/entities/corporations/google' },
+ ],
  },
   'penny-stock-fraud': {
  title: 'Penny Stock Fraud',
@@ -553,7 +522,9 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Penny stock fraud enforcement', href: '/entities/agencies/sec' },
+ ],
  },
   'petters-ponzi': {
  title: 'Petters Ponzi',
@@ -570,7 +541,10 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecution of $3.7B Ponzi scheme', href: '/entities/agencies/doj' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities fraud charges', href: '/entities/agencies/sec' },
+ ],
  },
   'pfas-contamination': {
  title: 'PFAS Contamination',
@@ -587,24 +561,44 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'pharma-pricing': {
- title: 'Pharma Pricing',
- subtitle: 'Investigation into pharma pricing.',
+ affiliations: [
+ { id: '1', name: 'DuPont', type: 'corporation', relationship: 'Primary PFAS polluter', href: '/entities/corporations/dupont' },
+ { id: '2', name: '3M Company', type: 'corporation', relationship: 'Major PFAS manufacturer', href: '/entities/corporations/3m-company' },
+ { id: '3', name: 'EPA', type: 'agency', relationship: 'Decades-long failure to regulate PFAS', href: '/entities/agencies/epa' },
+ ],
+ },  'pharma-pricing': {
+ title: 'Pharmaceutical Price Gouging',
+ subtitle: 'Systematic exploitation of patients through monopolistic drug pricing, patent manipulation, and lobbying',
  severity: 'critical',
- category: 'Public Health',
+ category: 'Corporate Crime',
  date: 'December 17, 2012',
  lastUpdated: 'July 13, 2025',
- summary: 'Investigation into pharma pricing.',
+ summary: 'The U.S. pharmaceutical industry charges the highest drug prices in the world, with Americans paying 2-3 times more than patients in other developed nations. Companies exploit patent law to extend monopolies, buy off generic competitors through pay-for-delay agreements, and spend more on lobbying than any other industry. Martin Shkreli raised the price of Daraprim by 5,000% overnight. Insulin prices tripled between 2002 and 2013 despite being discovered over a century ago. The industry\'s lobbying arm, PhRMA, spent $374 million in 2022 alone to protect the pricing structure.',
  content: [
- 'This investigation documents pharma pricing and its impact.',
+ 'PRICE COMPARISON: Americans pay 2-3 times more for prescription drugs than citizens of other developed nations. A vial of insulin that costs $300 in the U.S. costs $30 in Canada. Humira, the world\'s best-selling drug, cost $77,000 per year in the U.S. versus $16,000 in the UK. The price differential exists because the U.S. is the only major country that does not negotiate drug prices.',
+ 'MARTIN SHKRELI - DARAPRIM: In 2015, Turing Pharmaceuticals, led by Martin Shkreli, acquired the rights to Daraprim, a 62-year-old drug used to treat parasitic infections in AIDS patients, and raised its price from $13.50 to $750 per pill overnight. Shkreli became the face of pharmaceutical greed. He was later convicted of securities fraud and sentenced to seven years.',
+ 'INSULIN CRISIS: Insulin was discovered in 1921 and the patent was sold for $1. A century later, U.S. insulin prices tripled between 2002 and 2013. Three companies, Eli Lilly, Novo Nordisk, and Sanofi, control 90% of the global insulin market. Americans have died rationing insulin they could not afford. The Inflation Reduction Act capped insulin at $35 for Medicare patients, but the cap does not cover all Americans.',
+ 'PATENT EVERGREENING: Pharmaceutical companies extend monopolies by filing dozens of secondary patents on existing drugs, a practice called "patent thickets" or "evergreening." Humira\'s maker, AbbVie, filed over 150 patents to extend its monopoly. Pay-for-delay agreements pay generic manufacturers not to compete, costing consumers an estimated $3.5 billion annually.',
+ 'PHRMA LOBBYING: The pharmaceutical industry is the largest lobbying force in Washington. PhRMA spent $374 million on lobbying in 2022. The industry employs more lobbyists than there are members of Congress. Lobbying has successfully blocked Medicare drug price negotiation for decades, prevented importation of cheaper drugs from Canada, and weakened FDA generic approval processes.',
+ 'DRUG PRICE NEGOTIATION: The Inflation Reduction Act of 2022 allowed Medicare to negotiate prices on a limited number of drugs for the first time. Initial negotiations covered 10 drugs. The pharmaceutical industry sued to block the program, calling it unconstitutional. Despite legal challenges, the first negotiated prices, announced in 2024, showed savings of up to 79%.',
+ 'EPI-PEN SCANDAL: Mylan Pharmaceuticals raised the price of EpiPen from $57 in 2007 to over $600 in 2016. CEO Heather Bresch received $18 million in compensation while patients who needed the life-saving epinephrine auto-injector faced impossible costs. Congressional hearings produced outrage but no legislation.',
+ 'REBATE SYSTEM: The opaque rebate system involving pharmacy benefit managers (PBMs) like Express Scripts, CVS Caremark, and OptumRx adds billions in hidden costs. Drug companies set high list prices and negotiate secret rebates with PBMs, who keep a portion. The system incentivizes higher list prices and lacks transparency.',
+ 'ORPHAN DRUG ABUSE: The Orphan Drug Act, designed to incentivize development of treatments for rare diseases, has been exploited by companies to gain monopoly pricing on drugs with broader applications. Over half of FDA-approved orphan drugs eventually gained approval for more common conditions, with prices remaining at orphan-drug levels.',
+ 'GENERICS BLOCKED: Brand-name manufacturers use "authorized generics," citizen petitions to the FDA, and litigation to delay generic competition. The FDA has a backlog of thousands of generic drug applications. When generics do reach market, prices drop 80-90%, demonstrating the artificial inflation maintained by brand-name monopolies.',
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
+ tags: ['Pharmaceutical', 'Drug Pricing', 'PhRMA', 'Insulin', 'Lobbying', 'Medicare', 'Patent Abuse'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'RAND Corporation - U.S. Drug Price Comparison', url: 'https://www.rand.org/pubs/research_reports/RRA788-1.html', type: 'Research Report' },
+ { title: 'House Oversight - Drug Pricing Investigation', url: 'https://oversight.house.gov/landing/drug-pricing-investigation/', type: 'Congressional Record' },
+ { title: 'Inflation Reduction Act - Drug Pricing Provisions', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare', type: 'Legislation' },
+ { title: 'PhRMA Lobbying Disclosures', url: 'https://www.opensecrets.org/federal-lobbying/industries/summary?id=H04', type: 'Financial Disclosure' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Pfizer', type: 'corporation', relationship: 'Sued to block Medicare drug price negotiation', href: '/entities/corporations/pfizer' },
+ { id: '2', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Among highest drug price increases year over year', href: '/entities/corporations/johnson-and-johnson' },
+ { id: '3', name: 'Congress', type: 'agency', relationship: 'Blocked drug price negotiation for decades; passed limited 2022 reform', href: '/entities/agencies/congress' },
+ { id: '4', name: 'FDA', type: 'agency', relationship: 'Generic drug approval backlog delays cheaper alternatives', href: '/entities/agencies/fda' },
+ ],
  },
   'pharmaceutical-fraud': {
  title: 'Pharmaceutical Fraud',
@@ -621,7 +615,10 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Drug pricing regulation', href: '/entities/agencies/fda' },
+ { id: '2', name: 'Pfizer Inc', type: 'corporation', relationship: 'Major pharma price increases', href: '/entities/corporations/pfizer' },
+ ],
  },
   'philando-castile': {
  title: 'Philando Castile',
@@ -638,24 +635,40 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'philippine-drug-war': {
+ affiliations: [
+ { id: '1', name: 'Philando Castile', type: 'individual', relationship: 'Shot by police during traffic stop', href: '/entities/individuals/philando-castile' },
+ ],
+ },  'philippine-drug-war': {
  title: 'Philippine Drug War',
- subtitle: 'Investigation into philippine drug war.',
+ subtitle: 'Rodrigo Duterte\'s extrajudicial killing campaign murdered thousands under the guise of drug enforcement',
  severity: 'critical',
- category: 'Public Health',
+ category: 'State Violence',
  date: 'July 31, 2022',
  lastUpdated: 'September 15, 2025',
- summary: 'Investigation into philippine drug war.',
+ summary: 'Philippine President Rodrigo Duterte\'s "war on drugs," launched in 2016, resulted in the extrajudicial killing of an estimated 12,000-30,000 people. Police and vigilante death squads conducted thousands of summary executions, primarily targeting poor urban residents. Duterte publicly encouraged police to kill drug suspects and promised to protect officers from prosecution. The International Criminal Court authorized an investigation for crimes against humanity. The campaign was funded by U.S. aid and enabled by international indifference.',
  content: [
- 'This investigation documents philippine drug war and its impact.',
+ 'KILL CAMPAIGN: Upon taking office in June 2016, Duterte ordered Philippine National Police to kill drug suspects on sight. In his inaugural speech, he told officers: "If you know of any addicts, go ahead and kill them yourself." By his own government\'s count, over 6,200 people were killed in police operations. Human rights groups estimate the true toll at 12,000-30,000 including vigilante killings.',
+ 'EXTRAJUDICIAL EXECUTIONS: Police operations followed a pattern: suspects were killed and officers claimed they "resisted arrest" or "fought back." Evidence was planted on victims. Witnesses described police breaking into homes and shooting residents. Many victims were on government-created "drug watch lists" compiled from unverified community reports.',
+ 'TARGETING THE POOR: The vast majority of victims were poor urban residents from Manila\'s slums and impoverished provincial areas. Wealthy drug traffickers and politicians connected to the drug trade were largely untouched. Human Rights Watch documented that police targeted the most vulnerable, not the most culpable.',
+ 'DEATH SQUADS: Vigilante death squads operated with impunity, killing suspected drug users and leaving bodies with cardboard signs reading "pusher" or "addict." Witnesses linked some death squad activity to active police officers operating off-duty. The pattern resembled Duterte\'s earlier reign as mayor of Davao City, where death squads killed an estimated 1,400 people.',
+ 'CHILDREN KILLED: At least 122 children were killed in the drug war between 2016 and 2019, according to the Philippine Commission on Human Rights. Three-year-old Myka Ulpina was shot during a police raid in 2019. Seventeen-year-old Kian delos Santos was executed by police who planted a gun and drugs on his body, captured on CCTV.',
+ 'ICC INVESTIGATION: In September 2021, the International Criminal Court authorized an investigation into Duterte\'s drug war as a potential crime against humanity. Duterte withdrew the Philippines from the ICC in 2019 to avoid jurisdiction, but the ICC ruled it could investigate crimes committed while the Philippines was a member. The investigation remains ongoing.',
+ 'U.S. COMPLICITY: The United States provided military and police aid to the Philippines throughout the drug war. Despite human rights concerns, the Obama and Trump administrations continued security assistance. The U.S. military conducted joint exercises with Philippine forces implicated in extrajudicial killings.',
+ 'WITNESS INTIMIDATION: Witnesses to extrajudicial killings faced threats, disappearances, and murder. Families who filed complaints were targeted. Journalists covering the drug war were harassed, arrested, and in the case of dozens of local reporters, killed. Maria Ressa\'s Rappler news organization faced legal persecution for its coverage.',
+ 'DUTERTE\'S RHETORIC: Duterte openly celebrated killing, comparing himself to Hitler and saying he would "be happy to slaughter" three million drug users. He told soldiers that raping women was permissible. His rhetoric normalized violence and provided political cover for the killing campaign.',
+ 'LEGACY AND ACCOUNTABILITY: Duterte left office in 2022 with limited accountability. His successor, Ferdinand Marcos Jr., has continued some drug war operations at reduced intensity. The ICC investigation represents the primary remaining avenue for justice. Thousands of families continue to seek answers about disappeared relatives.',
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
+ tags: ['Philippines', 'Duterte', 'Extrajudicial Killings', 'Drug War', 'ICC', 'Human Rights', 'State Violence'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Human Rights Watch - Philippine Drug War Report', url: 'https://www.hrw.org/report/2017/03/02/license-kill/philippine-police-killings-dutertes-war-drugs', type: 'Investigation' },
+ { title: 'ICC Investigation Authorization', url: 'https://www.icc-cpi.int/philippines', type: 'Court Filing' },
+ { title: 'Amnesty International - They Just Kill', url: 'https://www.amnesty.org/en/documents/asa35/5517/2017/en/', type: 'Investigation' },
+ { title: 'Reuters - Philippine Drug War Death Toll', url: 'https://www.reuters.com/investigates/special-report/philippines-drugs-surveillance/', type: 'Investigation' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'ICC', type: 'agency', relationship: 'Authorized investigation for crimes against humanity', href: '/entities/agencies/icc' },
+ { id: '2', name: 'United Nations', type: 'agency', relationship: 'Human Rights Council investigated killings', href: '/entities/agencies/united-nations' },
+ ],
  },
   'plastic-pollution-crisis': {
  title: 'Plastic Pollution Crisis',
@@ -672,7 +685,9 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Rodrigo Duterte', type: 'individual', relationship: 'Ordered extrajudicial killings', href: '/entities/individuals/rodrigo-duterte' },
+ ],
  },
   'platform-discrimination': {
  title: 'Platform Discrimination',
@@ -689,7 +704,10 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Housing ad discrimination', href: '/entities/corporations/meta-platforms' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Digital discrimination cases', href: '/entities/agencies/doj' },
+ ],
  },
   'platform-extremism': {
  title: 'Platform Extremism',
@@ -706,7 +724,10 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Algorithm amplified extremism', href: '/entities/corporations/meta-platforms' },
+ { id: '2', name: 'Mark Zuckerberg', type: 'individual', relationship: 'CEO who prioritized growth over safety', href: '/entities/individuals/mark-zuckerberg' },
+ ],
  },
   'polarization': {
  title: 'Polarization',
@@ -723,75 +744,44 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'police-accountability': {
- title: 'Police Accountability',
- subtitle: 'Investigation into police accountability.',
+ affiliations: [
+      { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Partisan media driving political polarization', href: '/entities/corporations/fox-news' },
+      { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Algorithm-driven political polarization on social media', href: '/entities/corporations/meta-platforms' },
+      { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Political gridlock and partisan dysfunction', href: '/entities/agencies/congress' },
+    ],
+ },  'police-accountability': {
+ title: 'Police Accountability Crisis',
+ subtitle: 'Systemic failures in holding law enforcement accountable for misconduct, brutality, and killings',
  severity: 'critical',
- category: 'Police Accountability',
+ category: 'Criminal Justice',
  date: 'March 10, 2020',
  lastUpdated: 'November 19, 2024',
- summary: 'Investigation into police accountability.',
+ summary: 'American police officers kill approximately 1,000 people annually with near-total impunity. Qualified immunity shields officers from civil liability. Grand juries rarely indict. Police unions negotiate contracts that destroy misconduct records and prevent discipline. Officers fired for misconduct are rehired by neighboring departments. The "blue wall of silence" prevents internal accountability. Despite national protests and reform efforts, structural barriers to police accountability remain deeply entrenched across the United States.',
  content: [
- 'This investigation documents police accountability and its impact.',
+ 'KILLING WITH IMPUNITY: Police officers in the United States kill approximately 1,000 people per year, according to Mapping Police Violence. Between 2013 and 2023, 98.1% of killings by police did not result in officers being charged with a crime. When officers are charged, conviction rates remain low. The system effectively immunizes police violence from criminal consequences.',
+ 'QUALIFIED IMMUNITY: The Supreme Court\'s qualified immunity doctrine requires victims of police misconduct to prove that the specific violation of their rights was "clearly established" by a prior court case with nearly identical facts. This judge-made doctrine, which has no basis in the text of Section 1983, has been the primary barrier to civil accountability for police abuse.',
+ 'POLICE UNION PROTECTIONS: Police union contracts contain provisions that make accountability nearly impossible. These include mandatory waiting periods before officers can be questioned after use of force, requirements to destroy misconduct records after a set period, restrictions on civilian review boards, and grievance processes that allow arbitrators to overturn discipline.',
+ 'REHIRING PROBLEM: Officers fired for serious misconduct, including excessive force and dishonesty, are frequently rehired by neighboring jurisdictions. There is no national database of decertified officers. A study found that officers fired from Florida agencies were rehired by other departments at high rates, and those rehired had higher rates of subsequent misconduct.',
+ 'INTERNAL AFFAIRS FAILURES: Internal affairs investigations overwhelmingly exonerate officers. In many departments, over 90% of excessive force complaints are "not sustained" or "unfounded." Officers investigate their colleagues, creating inherent conflicts of interest. Citizens who file complaints face retaliation, including intimidation and countersuits.',
+ 'BODY CAMERA LIMITATIONS: Despite the promise of body-worn cameras, their accountability impact has been limited. Officers can turn cameras off. Departments control footage release. Video that contradicts official narratives is frequently withheld for months or years. When damaging footage exists, legal proceedings delay public access.',
+ 'BLUE WALL OF SILENCE: Officers who report misconduct by colleagues face severe retaliation. Frank Serpico was shot and left for dead by fellow NYPD officers after reporting corruption. Adrian Schoolcraft was involuntarily committed to a psychiatric facility after reporting quota practices. The culture of silence prevents internal reform.',
+ 'CONSENT DECREES: The DOJ has entered into over 40 consent decrees with police departments, including Ferguson, Chicago, Baltimore, and others. These agreements mandate reforms but face enforcement challenges. The Trump administration largely suspended the consent decree program. Compliance is slow, expensive, and frequently resisted by police unions.',
+ 'CIVILIAN REVIEW BOARDS: Civilian oversight mechanisms exist in many cities but typically lack subpoena power, independent investigative capacity, or the authority to impose discipline. Police unions have successfully challenged civilian oversight in courts and through collective bargaining. Effective civilian review remains the exception.',
+ 'FEDERAL REFORM FAILURE: The George Floyd Justice in Policing Act, which would have banned chokeholds, ended qualified immunity, and created a national police misconduct registry, passed the House twice but failed in the Senate. Comprehensive federal police reform has been blocked by Republican opposition and police union lobbying.',
  ],
- tags: ['Police Accountability', 'Law Enforcement', 'Investigation', 'Accountability'],
+ tags: ['Police Accountability', 'Qualified Immunity', 'Police Unions', 'Use of Force', 'Consent Decrees', 'Reform'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Mapping Police Violence Database', url: 'https://mappingpoliceviolence.us/', type: 'Database' },
+ { title: 'DOJ Pattern or Practice Investigations', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government Report' },
+ { title: 'SCOTUS Qualified Immunity Doctrine', url: 'https://www.supremecourt.gov/opinions/17pdf/17-467_bq7d.pdf', type: 'Court Ruling' },
+ { title: 'George Floyd Justice in Policing Act', url: 'https://www.congress.gov/bill/117th-congress/house-bill/1280', type: 'Legislation' },
  ],
- affiliations: [],
- },
-  'police-brutality-crisis': {
- title: 'Police Brutality Crisis',
- subtitle: 'Investigation into police brutality crisis.',
- severity: 'critical',
- category: 'Police Accountability',
- date: 'June 15, 2022',
- lastUpdated: 'February 21, 2024',
- summary: 'Investigation into police brutality crisis.',
- content: [
- 'This investigation documents police brutality crisis and its impact.',
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Conducts pattern-or-practice investigations', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Created qualified immunity doctrine', href: '/entities/agencies/supreme-court' },
+ { id: '3', name: 'Congress', type: 'agency', relationship: 'Failed to pass George Floyd Justice in Policing Act', href: '/entities/agencies/congress' },
+ { id: '4', name: 'Fraternal Order of Police', type: 'organization', relationship: 'Largest police union; lobbies against accountability reforms', href: '/entities/organizations/fop' },
  ],
- tags: ['Police Accountability', 'Law Enforcement', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
- },
-  'police-killings': {
- title: 'Police Killings',
- subtitle: 'Investigation into police killings.',
- severity: 'critical',
- category: 'Violence & Justice',
- date: 'September 18, 2021',
- lastUpdated: 'October 7, 2024',
- summary: 'Investigation into police killings.',
- content: [
- 'This investigation documents police killings and its impact.',
- ],
- tags: ['Violence & Justice', 'Law Enforcement', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
- },
-  'police-reform': {
- title: 'Police Reform',
- subtitle: 'Investigation into police reform.',
- severity: 'critical',
- category: 'Police Accountability',
- date: 'April 30, 2019',
- lastUpdated: 'May 27, 2023',
- summary: 'Investigation into police reform.',
- content: [
- 'This investigation documents police reform and its impact.',
- ],
- tags: ['Police Accountability', 'Law Enforcement', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
  },
   'political-corruption': {
  title: 'Political Corruption',
@@ -808,7 +798,9 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Pattern-or-practice investigations', href: '/entities/agencies/doj' },
+ ],
  },
   'political-dark-money': {
  title: 'Political Dark Money',
@@ -825,7 +817,11 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FEC', type: 'agency', relationship: 'Deadlocked on enforcement', href: '/entities/agencies/fec' },
+ { id: '2', name: 'Koch Industries', type: 'corporation', relationship: 'Largest dark money network', href: '/entities/corporations/koch-industries' },
+ { id: '3', name: 'Leonard Leo', type: 'individual', relationship: 'Controlled $1.6B dark money empire', href: '/entities/individuals/leonard-leo' },
+ ],
  },
   'political-fraud': {
  title: 'Political Fraud',
@@ -842,7 +838,10 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Public corruption prosecutions', href: '/entities/agencies/doj' },
+      { id: '2', name: 'United States Congress', type: 'agency', relationship: 'Systemic corruption', href: '/entities/agencies/congress' },
+    ],
  },
   'political-hoaxes': {
  title: 'Political Hoaxes',
@@ -859,7 +858,9 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Major source of political disinformation', href: '/entities/individuals/donald-trump' },
+ ],
  },
   'political-hypocrisy': {
  title: 'Political Hypocrisy',
@@ -876,7 +877,9 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Rules for thee, not for me', href: '/entities/agencies/congress' },
+ ],
  },
   'political-opportunism': {
  title: 'Political Opportunism',
@@ -893,24 +896,45 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'political-violence': {
- title: 'Political Violence',
- subtitle: 'Investigation into political violence.',
+ affiliations: [
+      { id: '1', name: 'FEC', type: 'agency', relationship: 'Deadlocked on enforcement', href: '/entities/agencies/fec' },
+      { id: '2', name: 'Koch Industries', type: 'corporation', relationship: 'Largest dark money network', href: '/entities/corporations/koch-industries' },
+      { id: '3', name: 'Leonard Leo', type: 'individual', relationship: '$1.6B dark money empire', href: '/entities/individuals/leonard-leo' },
+    ],
+ },  'political-violence': {
+ title: 'Political Violence in America',
+ subtitle: 'Rising tide of politically motivated threats, intimidation, and violence targeting officials and institutions',
  severity: 'critical',
- category: 'Violence & Justice',
+ category: 'Extremism',
  date: 'October 31, 2023',
  lastUpdated: 'December 21, 2025',
- summary: 'Investigation into political violence.',
+ summary: 'Political violence in America has escalated dramatically since 2016. The January 6 Capitol attack, the Paul Pelosi hammer attack, pipe bombs sent to Democratic officials, assassination attempts on members of Congress, threats against election workers, school board intimidation, and a surge in militia activity represent a growing crisis. Threats against members of Congress increased tenfold between 2017 and 2021. Election workers receive death threats for counting votes. The radicalization pipeline runs through social media, partisan media, and political rhetoric that dehumanizes opponents.',
  content: [
- 'This investigation documents political violence and its impact.',
+ 'JANUARY 6 CAPITOL ATTACK: On January 6, 2021, a mob incited by Donald Trump stormed the U.S. Capitol in an attempt to prevent certification of the 2020 election. Five people died. Over 140 police officers were injured. The mob built gallows and chanted "Hang Mike Pence." Over 1,200 people have been charged, including members of the Oath Keepers and Proud Boys convicted of seditious conspiracy.',
+ 'CONGRESSIONAL BASEBALL SHOOTING: On June 14, 2017, a gunman opened fire at a congressional baseball practice in Alexandria, Virginia, shooting House Majority Whip Steve Scalise and four others. The shooter targeted Republican members of Congress specifically. The attack demonstrated the vulnerability of elected officials and the consequences of dehumanizing political rhetoric.',
+ 'PIPE BOMBS: In October 2018, Cesar Sayoc mailed 16 pipe bombs to prominent Democrats including Barack Obama, Hillary Clinton, Joe Biden, and CNN. Though none detonated, the campaign was designed to terrorize. Sayoc, a fervent Trump supporter, was influenced by the president\'s rhetoric targeting the bomb recipients.',
+ 'PAUL PELOSI ATTACK: In October 2022, David DePape broke into the home of House Speaker Nancy Pelosi and attacked her husband Paul with a hammer, fracturing his skull. DePape was searching for Nancy Pelosi and parroted conspiracy theories about Democrats. He was convicted of federal assault and kidnapping charges.',
+ 'THREATS AGAINST ELECTION WORKERS: After the 2020 election, election officials and poll workers across the country received death threats. Ruby Freeman and Shaye Moss, Georgia election workers falsely accused by Rudy Giuliani of ballot fraud, were subjected to violent threats, racist harassment, and had their lives upended. A Reuters investigation found over 800 threatening messages to election workers.',
+ 'SCHOOL BOARD THREATS: School board members across the country faced threats, harassment, and intimidation during debates over COVID-19 policies, Critical Race Theory, and book bans. The National School Boards Association asked the DOJ for help, comparing some threats to domestic terrorism. Board members resigned en masse under pressure.',
+ 'MILITIA ACTIVITY: Far-right militia groups including the Oath Keepers, Proud Boys, Three Percenters, and various state militias have grown in membership and boldness. The Michigan militia plot to kidnap Governor Gretchen Whitmer in 2020 demonstrated the potential for organized political violence. Several participants were convicted.',
+ 'STOCHASTIC TERRORISM: Political leaders and media figures use rhetoric that does not directly incite violence but creates conditions where violence becomes predictable. Trump\'s characterization of political opponents as "enemies," "vermin," and threats to "the blood of our country" follows patterns identified by terrorism researchers as stochastic terrorism.',
+ 'ASSASSINATION ATTEMPTS: In 2024, Donald Trump survived two assassination attempts. A gunman at a Pennsylvania rally killed one attendee and wounded two others before being shot. The incidents highlighted how the cycle of political violence affects all political factions. Members of Congress from both parties report increased threats.',
+ 'RADICALIZATION PIPELINE: Social media algorithms, partisan media, QAnon, and online communities create radicalization pathways from mainstream political engagement to extremism. The Great Replacement theory, promoted on platforms like 4chan and amplified by Fox News hosts, has been cited by mass shooters in Buffalo, El Paso, and Christchurch.',
  ],
- tags: ['Violence & Justice', 'Political Corruption', 'Investigation', 'Accountability'],
+ tags: ['Political Violence', 'January 6', 'Extremism', 'Militia', 'Threats', 'Radicalization'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Congressional Record' },
+ { title: 'Reuters - Election Worker Threats Investigation', url: 'https://www.reuters.com/investigates/special-report/usa-election-threats/', type: 'Investigation' },
+ { title: 'Capitol Police Threat Assessment Data', url: 'https://www.uscp.gov/media-center/press-releases/us-capitol-police-releases-2021-annual-report', type: 'Government Report' },
+ { title: 'DOJ Oath Keepers Seditious Conspiracy Convictions', url: 'https://www.justice.gov/usao-dc/pr/oath-keepers-leader-found-guilty-seditious-conspiracy', type: 'Court Filing' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Incited January 6 attack; rhetoric fuels political violence', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'Oath Keepers', type: 'organization', relationship: 'Members convicted of seditious conspiracy', href: '/entities/organizations/oath-keepers' },
+ { id: '3', name: 'Proud Boys', type: 'organization', relationship: 'Leaders convicted of seditious conspiracy', href: '/entities/organizations/proud-boys' },
+ { id: '4', name: 'FBI', type: 'agency', relationship: 'Tracks domestic terrorism threats with increasing caseload', href: '/entities/agencies/fbi' },
+ { id: '5', name: 'Capitol Police', type: 'agency', relationship: 'Recorded tenfold increase in congressional threats', href: '/entities/agencies/capitol-police' },
+ ],
  },
   'post-911-persecution': {
  title: 'Post 9/11 Persecution',
@@ -927,7 +951,10 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Political violence investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'Domestic threat assessment', href: '/entities/agencies/dhs' },
+ ],
  },
   'predatory-lending': {
  title: 'Predatory Lending',
@@ -944,7 +971,10 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Wells Fargo', type: 'corporation', relationship: 'Predatory lending to minorities', href: '/entities/corporations/wells-fargo' },
+ { id: '2', name: 'CFPB', type: 'agency', relationship: 'Consumer lending enforcement', href: '/entities/agencies/cfpb' },
+ ],
  },
   'press-freedom': {
  title: 'Press Freedom',
@@ -961,7 +991,10 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Press freedom prosecutions', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Julian Assange', type: 'individual', relationship: 'WikiLeaks publisher, imprisoned for publishing', href: '/entities/individuals/julian-assange' },
+ ],
  },
   'press-freedom-violations': {
  title: 'Press Freedom Violations',
@@ -978,7 +1011,9 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutions of journalists and sources', href: '/entities/agencies/doj' },
+ ],
  },
   'prison-industrial-complex': {
  title: 'Prison Industrial Complex',
@@ -995,7 +1030,11 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'CoreCivic', type: 'corporation', relationship: 'Largest private prison company', href: '/entities/corporations/corecivic' },
+ { id: '2', name: 'GEO Group', type: 'corporation', relationship: 'Major private prison operator', href: '/entities/corporations/geo-group' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Federal prison oversight', href: '/entities/agencies/doj' },
+ ],
  },
   'private-equity-abuses': {
  title: 'Private Equity Abuses',
@@ -1012,7 +1051,11 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Blackstone Group', type: 'corporation', relationship: 'Largest private equity firm, housing crisis profiteer', href: '/entities/corporations/blackstone-group' },
+ { id: '2', name: 'Apollo Global', type: 'corporation', relationship: 'Private equity, Leon Black-Epstein ties', href: '/entities/corporations/apollo-global' },
+ { id: '3', name: 'SEC', type: 'agency', relationship: 'Minimal oversight of PE industry', href: '/entities/agencies/sec' },
+ ],
  },
   'private-equity-housing': {
  title: 'Private Equity Housing',
@@ -1029,7 +1072,10 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+      { id: '1', name: 'FBI', type: 'agency', relationship: 'Post-9/11 surveillance of Muslim Americans', href: '/entities/agencies/fbi' },
+      { id: '2', name: 'DHS', type: 'agency', relationship: 'Created after 9/11, broad surveillance powers', href: '/entities/agencies/dhs' },
+    ],
  },
   'private-prison-corruption': {
  title: 'Private Prison Corruption',
@@ -1046,7 +1092,10 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'CoreCivic', type: 'corporation', relationship: 'Private prison profiteering', href: '/entities/corporations/corecivic' },
+ { id: '2', name: 'GEO Group', type: 'corporation', relationship: 'Private prison operator', href: '/entities/corporations/geo-group' },
+ ],
  },
   'prosecutorial-misconduct': {
  title: 'Prosecutorial Misconduct',
@@ -1063,7 +1112,9 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutorial accountability failures', href: '/entities/agencies/doj' },
+ ],
  },
   'protest-violence': {
  title: 'Protest Violence',
@@ -1080,7 +1131,10 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DHS', type: 'agency', relationship: 'Deployed federal agents against protesters', href: '/entities/agencies/dhs' },
+ { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Called for military force against protesters', href: '/entities/individuals/donald-trump' },
+ ],
  },
   'public-health-threats': {
  title: 'Public Health Threats',
@@ -1097,7 +1151,10 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Press freedom prosecutions', href: '/entities/agencies/doj' },
+      { id: '2', name: 'Julian Assange', type: 'individual', relationship: 'WikiLeaks publisher, imprisoned for publishing', href: '/entities/individuals/julian-assange' },
+    ],
  },
   'pulse-shooting': {
  title: 'Pulse Shooting',
@@ -1114,7 +1171,9 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Had investigated shooter previously', href: '/entities/agencies/fbi' },
+ ],
  },
   'purdue-pharma': {
  title: 'Purdue Pharma',
@@ -1131,7 +1190,9 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Purdue Pharma', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/purdue-pharma' },
+ ],
  },
   'ppp-loan-fraud-epidemic': {
     title: 'PPP Loan Fraud Epidemic',
@@ -1154,7 +1215,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuting pandemic loan fraud', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Small Business Administration', type: 'agency', relationship: 'Administered PPP with weak controls', href: '/entities/agencies/small-business-administration' },
+ ],
   },
   'predatory-lending-systematic-exploitation': {
     title: 'Predatory Lending Systematic Exploitation',
@@ -1178,7 +1241,10 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Purdue Pharma', type: 'corporation', relationship: 'Manufacturer of OxyContin', href: '/entities/corporations/purdue-pharma' },
+ { id: '2', name: 'Richard Sackler', type: 'individual', relationship: 'President who pushed aggressive marketing', href: '/entities/individuals/richard-sackler' },
+ { id: '3', name: 'FDA', type: 'agency', relationship: 'Approved OxyContin with inadequate review', href: '/entities/agencies/fda' },
+ ],
   },
   'penny-stock-pump-and-dump-networks': {
     title: 'Penny Stock Pump and Dump Networks',
@@ -1202,7 +1268,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Enforcement against penny stock fraud', href: '/entities/agencies/sec' },
+ ],
   },
   'project-mkultra-subproject-registry': {
     title: 'Project MKULTRA Subproject Registry',
@@ -1225,7 +1292,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Ran 149 MKUltra subprojects', href: '/entities/agencies/cia' },
+ ],
   },
   'pentagon-papers-full-implications': {
     title: 'Pentagon Papers Full Implications',
@@ -1250,7 +1318,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'The Intercept', url: 'https://theintercept.com', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/pentagon' },
+ ],
   },
   'prism-surveillance-program': {
     title: 'PRISM Surveillance Program',
@@ -1276,7 +1345,10 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'FOIA Request Archive', url: 'https://www.foia.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'NSA', type: 'agency', relationship: 'Operated PRISM data collection', href: '/entities/agencies/nsa' },
+ { id: '2', name: 'Edward Snowden', type: 'individual', relationship: 'Leaked program details', href: '/entities/individuals/edward-snowden' },
+ { id: '3', name: 'Google', type: 'corporation', relationship: 'Provided data access to NSA', href: '/entities/corporations/google' },
+ ],
   },
   'pharmaceutical-influence-on-fda-decisions': {
     title: 'Pharmaceutical Influence on FDA Decisions',
@@ -1299,7 +1371,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/fda' },
+ ],
   },
   'pharmaceutical-lobbying-machine': {
     title: 'Pharmaceutical Lobbying Machine',
@@ -1323,7 +1396,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Subject of pharma lobbying', href: '/entities/agencies/fda' },
+ { id: '2', name: 'United States Congress', type: 'agency', relationship: 'Recipients of pharma lobbying dollars', href: '/entities/agencies/congress' },
+ ],
   },
   'pfas-forever-chemicals-cover-up': {
     title: 'PFAS Forever Chemicals Cover-Up',
@@ -1347,7 +1422,10 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DuPont', type: 'corporation', relationship: 'Concealed PFAS health effects for decades', href: '/entities/corporations/dupont' },
+ { id: '2', name: '3M Company', type: 'corporation', relationship: 'Major PFAS manufacturer', href: '/entities/corporations/3m-company' },
+ { id: '3', name: 'EPA', type: 'agency', relationship: 'Decades-long failure to regulate PFAS', href: '/entities/agencies/epa' },
+ ],
   },
   'pesticide-bee-colony-collapse': {
     title: 'Pesticide Bee Colony Collapse',
@@ -1371,6 +1449,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
+      { id: '1', name: 'FDA', type: 'agency', relationship: 'Subject of pharma lobbying', href: '/entities/agencies/fda' },
+      { id: '2', name: 'United States Congress', type: 'agency', relationship: 'Recipients of pharma lobbying', href: '/entities/agencies/congress' },
     ],
   },
   'predictive-policing-algorithmic-racism': {
@@ -1395,7 +1475,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'Predictive policing technology provider', href: '/entities/corporations/palantir' },
+ ],
   },
   'pharmaceutical-ghost-writing': {
     title: 'Pharmaceutical Ghost Writing',
@@ -1418,6 +1499,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Archive', url: 'https://www.propublica.org', type: 'Investigative Report' },
     ],
     affiliations: [
+      { id: '1', name: 'EPA', type: 'agency', relationship: 'Failed to ban neonicotinoids', href: '/entities/agencies/epa' },
+      { id: '2', name: 'Bayer AG', type: 'corporation', relationship: 'Major neonicotinoid manufacturer', href: '/entities/corporations/bayer-ag' },
     ],
   },
   'pentagon-budget-black-programs': {
@@ -1442,7 +1525,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'FOIA Request Archive', url: 'https://www.foia.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/pentagon' },
+ ],
   },
   'prosecutorial-misconduct-database': {
     title: 'Prosecutorial Misconduct Database',
@@ -1466,7 +1550,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Public Citizen Research', url: 'https://www.citizen.org', type: 'Policy Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Unauditable black budget programs', href: '/entities/agencies/pentagon' },
+ { id: '2', name: 'Lockheed Martin Corporation', type: 'corporation', relationship: 'Largest black program contractor', href: '/entities/corporations/lockheed-martin' },
+ ],
   },
   'private-military-contractor-accountability': {
     title: 'Private Military Contractor Accountability',
@@ -1489,7 +1575,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Blackwater', type: 'corporation', relationship: 'Nisour Square massacre and other atrocities', href: '/entities/corporations/blackwater' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Contractor oversight failures', href: '/entities/agencies/pentagon' },
+ ],
   },
   'propaganda-networks-domestic-operations': {
     title: 'Propaganda Networks Domestic Operations',
@@ -1514,7 +1602,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CIA', type: 'agency', relationship: 'Historical domestic propaganda operations', href: '/entities/agencies/cia' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Military information operations', href: '/entities/agencies/pentagon' },
+ ],
   },
   'prison-industrial-complex-profit-motive': {
     title: 'Prison Industrial Complex Profit Motive',
@@ -1537,7 +1627,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'CoreCivic', type: 'corporation', relationship: 'Largest private prison operator', href: '/entities/corporations/corecivic' },
+ { id: '2', name: 'GEO Group', type: 'corporation', relationship: 'Second largest private prison operator', href: '/entities/corporations/geo-group' },
+ ],
   },
   'police-union-misconduct-protection': {
     title: 'Police Union Misconduct Protection',
@@ -1560,7 +1652,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Federal Register', url: 'https://www.federalregister.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Fraternal Order of Police', type: 'agency', relationship: 'Largest police union, shields misconduct', href: '/entities/agencies/fop' },
+ ],
   },
   'pharmaceutical-fertility-side-effects': {
     title: 'Pharmaceutical Fertility Side Effects',
@@ -1586,7 +1679,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'ACLU Document Archive', url: 'https://www.aclu.org', type: 'Legal Document' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Drug safety oversight', href: '/entities/agencies/fda' },
+ ],
   },
   'pharmaceutical-sales-rep-corruption': {
     title: 'Pharmaceutical Sales Rep Corruption',
@@ -1612,7 +1706,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Off-label marketing prosecution', href: '/entities/agencies/doj' },
+ ],
   },
   'port-authority-corruption-investigations': {
     title: 'Port Authority Corruption Investigations',
@@ -1635,7 +1730,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Public corruption investigations', href: '/entities/agencies/fbi' },
+ ],
   },
   'psychological-operations-domestic-theater': {
     title: 'Psychological Operations Domestic Theater',
@@ -1657,6 +1753,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Off-label marketing prosecution', href: '/entities/agencies/doj' },
     ],
   },
   'plastic-industry-recycling-fraud': {
@@ -1681,7 +1778,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'The Intercept', url: 'https://theintercept.com', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Petrochemical industry recycling deception', href: '/entities/corporations/exxonmobil' },
+ ],
   },
   'payroll-tax-fraud-industry-analysis': {
     title: 'Payroll Tax Fraud Industry Analysis',
@@ -1705,7 +1803,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'The Intercept', url: 'https://theintercept.com', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'IRS', type: 'agency', relationship: 'Payroll tax enforcement', href: '/entities/agencies/irs' },
+ ],
   },
   'pharmaceutical-waste-environmental-impact': {
     title: 'Pharmaceutical Waste Environmental Impact',
@@ -1731,7 +1830,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Pharmaceutical waste regulation', href: '/entities/agencies/epa' },
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Drug disposal guidance', href: '/entities/agencies/fda' },
+ ],
   },
   'port-city-trafficking-hub-analysis': {
     title: 'Port City Trafficking Hub Analysis',
@@ -1754,7 +1855,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', type: 'Court Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DHS', type: 'agency', relationship: 'Port security and trafficking', href: '/entities/agencies/dhs' },
+ { id: '2', name: 'CBP', type: 'agency', relationship: 'Port of entry enforcement', href: '/entities/agencies/cbp' },
+ ],
   },
 
 

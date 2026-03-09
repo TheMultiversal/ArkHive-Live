@@ -1399,38 +1399,39 @@ const profiles: Record<string, IndividualProfile> = {
 
  'tristan-tate': {
  name: 'Tristan Tate',
- title: 'Indicted Influencer',
- role: 'Andrew Tate\'s Brother, Human Trafficking INDICTED',
- riskLevel: 'critical',
- description: 'Tristan Tate is Andrew Tate\'s brother, also indicted in Romania for human trafficking and rape alongside his sibling. They allegedly operated a scheme luring women with promises of romantic relationships then forcing them into webcam and exploitation operations.',
+ title: 'Social Media Personality',
+ role: 'Co-accused in Romanian human trafficking case',
+ riskLevel: 'high',
+ description: 'Tristan Tate is a British-American social media personality, former kickboxer, and the brother of Andrew Tate. He was indicted in Romania alongside his brother on charges of human trafficking, rape, and forming an organized criminal group that exploited women through a "loverboy" method of manipulation and coercive control.',
  birthDate: 'July 15, 1988',
  birthPlace: 'Luton, England',
- education: ['Luton Sixth Form College'],
+ education: [],
  affiliations: [
  { name: 'Hustlers University', role: 'Partner', type: 'corporation' as const },
  ],
 
  knownAssociates: [
- { name: 'Andrew Tate', relationship: 'Brother and business partner; co-defendant in Romanian human trafficking and organized crime prosecution', href: '/entities/individuals/andrew-tate' },
- ],
+      { name: 'Andrew Tate', relationship: 'Brother and co-defendant in trafficking case', href: '/entities/individuals/andrew-tate' },
+    ],
  controversies: [
- 'HUMAN TRAFFICKING: Indicted in Romania',
- 'RAPE CHARGES: Multiple victims',
- 'ORGANIZED CRIME: Alleged crime group',
- 'WEBCAM EXPLOITATION: Alleged scheme',
- ],
+      'Indicted by Romanian prosecutors in June 2023 on charges of human trafficking and forming an organized criminal group alongside his brother Andrew Tate',
+      'Accused of using the "loverboy" method to recruit and exploit women, gaining their trust through romantic relationships before coercing them into producing online pornographic content',
+      'Detained for 93 days in Romanian jail followed by months of house arrest before being released on bail',
+      'Trial ongoing in Romania as of 2025 with both brothers facing up to 20 years in prison if convicted',
+    ],
  charges: [
- { statute: 'Romanian Criminal Code', description: 'Human trafficking', category: 'INDICTED' },
- { statute: 'Romanian Criminal Code', description: 'Rape', category: 'INDICTED' },
- ],
+      { statute: 'Romanian Penal Code Art. 210', description: 'Human trafficking', category: 'Trafficking' },
+      { statute: 'Romanian Penal Code Art. 367', description: 'Forming an organized criminal group', category: 'Organized Crime' },
+    ],
  relatedInvestigations: [
  { title: 'Human Trafficking', slug: 'human-trafficking', severity: 'critical' },
  ],
  timeline: [
- { date: 'July 15, 1988', event: 'Born in England' },
- { date: 'December 2022', event: 'Arrested in Romania' },
- { date: '2023', event: 'Indicted on trafficking charges' },
- ],
+      { date: '2022-12-29', event: 'Detained by Romanian organized crime prosecutors alongside Andrew Tate' },
+      { date: '2023-03-31', event: 'Released from detention to house arrest' },
+      { date: '2023-06-20', event: 'Formally indicted on human trafficking charges' },
+      { date: '2023-08-04', event: 'Released from house arrest on bail conditions' },
+    ],
  sources: [{ title: 'Wikipedia: Tristan Tate', url: 'https://en.wikipedia.org/wiki/Tristan_Tate' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
  },
   'tulsi-gabbard': {
@@ -1716,43 +1717,45 @@ const profiles: Record<string, IndividualProfile> = {
 
  'terry-nichols': {
  name: 'Terry Nichols',
- title: 'Oklahoma City Bombing Co-Conspirator',
- role: 'McVeigh Accomplice, 168 Dead',
+ title: 'Convicted Oklahoma City Bombing Conspirator',
+ role: 'Domestic terrorist',
  riskLevel: 'critical',
- description: 'Terry Nichols was Timothy McVeigh\'s co-conspirator in the Oklahoma City bombing that killed 168 people including 19 children. He helped build the bomb and source materials. He was convicted of conspiracy and involuntary manslaughter, receiving multiple life sentences.',
+ description: 'Terry Lynn Nichols was convicted as the co-conspirator of the April 19, 1995 Oklahoma City bombing that killed 168 people and injured over 680, the deadliest domestic terrorist attack in U.S. history at that time. He helped Timothy McVeigh plan the attack and acquire the materials for the truck bomb but was not present at the bombing itself.',
  birthDate: 'April 1, 1955',
  birthPlace: 'Lapeer, Michigan',
- education: ['Central Michigan University'],
+ education: ['Central Michigan University (partial)'],
  affiliations: [
  { name: 'U.S. Army', role: 'Former Private', type: 'agency' as const },
  { name: 'Militia Movement', role: 'Associate', type: 'organization' as const },
  ],
  controversies: [
- 'OKLAHOMA CITY: Co-conspirator in 168 deaths',
- 'BOMB MATERIALS: Helped source fertilizer and fuel',
- 'MILITIA TIES: Anti-government extremist',
- 'AVOID DEATH PENALTY: Got life instead of execution',
- ],
+      'Helped Timothy McVeigh plan and prepare the truck bomb used in the Oklahoma City federal building attack that killed 168 people, including 19 children in a daycare center',
+      'Convicted in federal court of conspiracy and eight counts of involuntary manslaughter; sentenced to life without parole',
+      'Separately convicted in Oklahoma state court of 161 counts of first-degree murder; sentenced to 161 consecutive life terms',
+      'Acquired ammonium nitrate fertilizer used in the bomb from a farm supply store under a false name',
+      'Anti-government extremist connected to the militia movement who renounced his U.S. citizenship and attempted to become a citizen of no country',
+    ],
  charges: [
- { statute: '18 U.S.C. � 844', description: 'Conspiracy to use weapon of mass destruction', category: 'Terrorism' },
- { statute: '18 U.S.C. � 1112', description: 'Involuntary manslaughter (8 counts)', category: 'Homicide' },
- ],
+      { statute: '18 USC 2332a', description: 'Use of weapon of mass destruction', category: 'Terrorism' },
+      { statute: '18 USC 371', description: 'Conspiracy', category: 'Conspiracy' },
+      { statute: 'OK Stat 21-701.7', description: 'Murder in the First Degree (161 counts)', category: 'Homicide' },
+    ],
  relatedInvestigations: [
  { title: 'Domestic Terrorism', slug: 'domestic-terrorism', severity: 'critical' },
  { title: 'Oklahoma City Bombing', slug: 'okc-bombing', severity: 'critical' },
  ],
  timeline: [
- { date: 'April 1, 1955', event: 'Born in Michigan' },
- { date: '1988', event: 'Met McVeigh in Army' },
- { date: '1994-1995', event: 'Helped plan and source bomb materials' },
- { date: 'April 19, 1995', event: 'Oklahoma City bombing, 168 killed' },
- { date: '1997', event: 'Federal conviction, life in prison' },
- { date: '2004', event: 'Oklahoma conviction, 161 life sentences' },
- ],
- sources: [{ title: 'Wikipedia: Terry Nichols', url: 'https://en.wikipedia.org/wiki/Terry_Nichols' }, { title: 'Associated Press: Terry Nichols', url: 'https://apnews.com/' }],
- knownAssociates: [
- { name: 'Timothy McVeigh', relationship: 'Co-conspirator who built the Oklahoma City bomb', href: '/entities/individuals/timothy-mcveigh' }
- ],
+      { date: '1988-01-01', event: 'Met Timothy McVeigh at U.S. Army basic training at Fort Benning' },
+      { date: '1994-10-01', event: 'Helped McVeigh acquire bomb components and store materials' },
+      { date: '1995-04-19', event: 'Oklahoma City bombing kills 168 people' },
+      { date: '1995-05-10', event: 'Arrested at home in Herington, Kansas' },
+      { date: '1997-12-23', event: 'Convicted in federal court of conspiracy and involuntary manslaughter' },
+      { date: '2004-08-09', event: 'Convicted in Oklahoma state court of 161 counts of first-degree murder' },
+    ],
+ sources: [
+      { title: 'Oklahoma City National Memorial', url: 'https://memorialmuseum.com/', date: '2001-02-19' },
+      { title: 'FBI - Oklahoma City Bombing Investigation', url: 'https://www.fbi.gov/history/famous-cases/oklahoma-city-bombing', date: '1997-12-23' },
+    ],
 
  },
  'tadarrius-bean': {
@@ -1786,9 +1789,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Tadarrius Bean', url: 'https://en.wikipedia.org/wiki/Tadarrius_Bean' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
  knownAssociates: [
- { name: 'Desmond Mills', relationship: 'Fellow SCORPION unit officer charged in Nichols case', href: '/entities/individuals/desmond-mills' },
- { name: 'Emmitt Martin', relationship: 'Fellow officer charged in Tyre Nichols death', href: '/entities/individuals/emmitt-martin' }
- ],
+      { name: 'Timothy McVeigh', relationship: 'Co-conspirator who detonated the bomb, executed in 2001', href: '/entities/individuals/timothy-mcveigh' },
+    ],
 
  },
   'timothy-rigas': {

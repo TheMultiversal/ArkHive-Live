@@ -19,7 +19,11 @@ const investigations_1: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/sec' },
+ { id: '2', name: 'Ivan Boesky', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/ivan-boesky' },
+ { id: '3', name: 'Michael Milken', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/michael-milken' },
+ ],
  },
   '1mdb-scandal': {
  title: '1MDB Sovereign Wealth Fund Scandal',
@@ -38,7 +42,10 @@ const investigations_1: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Goldman Sachs', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/goldman-sachs' },
+ ],
  },
 };
 

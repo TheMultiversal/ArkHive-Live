@@ -487,7 +487,11 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Ordered zero tolerance policy', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'Implemented family separations', href: '/entities/agencies/dhs' },
+ { id: '3', name: 'Kirstjen Nielsen', type: 'individual', relationship: 'DHS Secretary who oversaw separations', href: '/entities/individuals/kirstjen-nielsen' },
+ ],
  },
   'far-right': {
  title: 'Far Right',
@@ -504,7 +508,11 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Proud Boys', type: 'organization', relationship: 'Far-right extremist group', href: '/entities/organizations/proud-boys' },
+ { id: '2', name: 'Oath Keepers', type: 'organization', relationship: 'Anti-government militia', href: '/entities/organizations/oath-keepers' },
+ { id: '3', name: 'Steve Bannon', type: 'individual', relationship: 'Far-right media and political architect', href: '/entities/individuals/steve-bannon' },
+ ],
  },
   'far-right-media': {
  title: 'Far Right Media',
@@ -521,7 +529,11 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Mainstream platform for far-right messaging', href: '/entities/corporations/fox-news' },
+ { id: '2', name: 'Steve Bannon', type: 'individual', relationship: 'Breitbart News architect', href: '/entities/individuals/steve-bannon' },
+ { id: '3', name: 'Alex Jones', type: 'individual', relationship: 'InfoWars conspiracy empire', href: '/entities/individuals/alex-jones' },
+ ],
  },
   'fast-food-labor': {
  title: 'Fast Food Labor',
@@ -538,7 +550,9 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Andy Puzder', type: 'individual', relationship: 'CKE CEO, labor law violator, Trump nominee', href: '/entities/individuals/andy-puzder' },
+ ],
  },
   'fbi-assassinations': {
  title: 'FBI Assassinations',
@@ -555,7 +569,9 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/fbi' },
+ ],
  },
   'ferguson-doj': {
  title: 'Ferguson DOJ',
@@ -572,7 +588,9 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/doj' },
+ ],
  },
   'financial-crisis-profiteering': {
  title: 'Financial Crisis Profiteering',
@@ -589,7 +607,11 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Profited from crisis it helped create', href: '/entities/corporations/goldman-sachs' },
+ { id: '2', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Too big to fail beneficiary', href: '/entities/corporations/jpmorgan-chase' },
+ { id: '3', name: 'Federal Reserve', type: 'agency', relationship: 'Bailout architect', href: '/entities/agencies/federal-reserve' },
+ ],
  },
   'flint-water': {
  title: 'Flint Water',
@@ -606,7 +628,10 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Failed to act on contamination warnings', href: '/entities/agencies/epa' },
+ { id: '2', name: 'Rick Snyder', type: 'individual', relationship: 'Governor who ignored crisis', href: '/entities/individuals/rick-snyder' },
+ ],
  },
   'foreign-bribery': {
  title: 'Foreign Bribery',
@@ -623,7 +648,10 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'FCPA enforcement', href: '/entities/agencies/doj' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities violations from bribery', href: '/entities/agencies/sec' },
+ ],
  },
   'foreign-interference': {
  title: 'Foreign Interference',
@@ -640,7 +668,9 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'COINTELPRO assassination operations', href: '/entities/agencies/fbi' },
+ ],
  },
   'fossil-fuel-crimes': {
  title: 'Fossil Fuel Crimes',
@@ -657,7 +687,11 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Climate fraud and environmental destruction', href: '/entities/corporations/exxonmobil' },
+ { id: '2', name: 'BP', type: 'corporation', relationship: 'Deepwater Horizon and global pollution', href: '/entities/corporations/bp-corporation' },
+ { id: '3', name: 'Chevron Corporation', type: 'corporation', relationship: 'Ecuador contamination and global operations', href: '/entities/corporations/chevron' },
+ ],
  },
   'fossil-fuel-lobbying': {
  title: 'Fossil Fuel Lobbying',
@@ -674,7 +708,11 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Top spender on climate lobbying', href: '/entities/corporations/exxonmobil' },
+ { id: '2', name: 'American Petroleum Institute', type: 'organization', relationship: 'Industry trade group coordinating lobbying', href: '/entities/organizations/american-petroleum-institute' },
+ { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Recipients of fossil fuel donations', href: '/entities/agencies/congress' },
+ ],
  },
   'fox-misinformation': {
  title: 'Fox Misinformation',
@@ -691,41 +729,42 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
- },
-  'fox-news-harassment': {
- title: 'Fox News Harassment',
- subtitle: 'Investigation into fox news harassment.',
+ affiliations: [
+ { id: '1', name: 'Fox News', type: 'corporation', relationship: '$787M Dominion settlement for election lies', href: '/entities/corporations/fox-news' },
+ { id: '2', name: 'Rupert Murdoch', type: 'individual', relationship: 'Acknowledged hosts endorsed false claims', href: '/entities/individuals/rupert-murdoch' },
+ ],
+ },  'fox-news-harassment': {
+ title: 'Fox News Sexual Harassment',
+ subtitle: 'Decades of sexual harassment, assault, and cover-ups at America\'s most-watched cable news network',
  severity: 'critical',
- category: 'Abuse & Exploitation',
+ category: 'Sexual Assault',
  date: 'May 3, 2023',
  lastUpdated: 'February 20, 2026',
- summary: 'Investigation into fox news harassment.',
+ summary: 'Fox News harbored a culture of pervasive sexual harassment from its founding to the present. CEO Roger Ailes serially harassed female employees for decades before his 2016 ouster. Bill O\'Reilly paid $45 million settling harassment claims. The network spent over $100 million in settlements while protecting predators and retaliating against accusers. The culture extended beyond individual offenders to institutional complicity.',
  content: [
- 'This investigation documents fox news harassment and its impact.',
+ 'ROGER AILES REGIME: Fox News CEO Roger Ailes sexually harassed female employees throughout his 20-year tenure. Over 25 women accused him of harassment including demanding sexual favors for career advancement, groping, and retaliation. Ailes was central to the network\'s power structure, making him virtually untouchable until Gretchen Carlson\'s lawsuit.',
+ 'GRETCHEN CARLSON SUIT: In July 2016, anchor Gretchen Carlson filed a sexual harassment lawsuit against Ailes, alleging he demoted and fired her for refusing sexual advances and complaining about workplace harassment. Fox settled for $20 million. Carlson\'s case triggered an internal investigation that led to Ailes\'s departure.',
+ 'AILES GOLDEN PARACHUTE: Despite being removed for serial sexual harassment, Ailes received a $40 million exit package. Rupert Murdoch praised Ailes upon departure. The golden parachute sent the message that harassment was a costly PR problem, not a moral failure requiring accountability.',
+ 'BILL O\'REILLY SETTLEMENTS: Fox News star Bill O\'Reilly secretly settled at least six sexual harassment claims totaling approximately $45 million. One settlement alone was $32 million -- paid to legal analyst Lis Wiehl. Fox renewed O\'Reilly\'s contract after learning of the settlements, valuing his ratings over employee safety.',
+ 'ADVERTISER EXODUS: After the New York Times revealed O\'Reilly\'s settlements in April 2017, over 60 advertisers pulled from his show. Fox fired O\'Reilly weeks later, though he received an estimated $25 million severance. The firing was driven by financial pressure, not moral reckoning.',
+ 'INSTITUTIONAL COVER-UP: Internal complaints about harassment were routinely suppressed. Fox\'s legal department, under Dianne Brandi, handled harassment claims by paying victims to sign NDAs rather than disciplining harassers. The system protected the network\'s brand and revenue at the expense of employee safety.',
+ 'ED HENRY FIRING: In 2020, Fox fired anchor Ed Henry after receiving a sexual misconduct claim. Henry was subsequently sued for rape by a former Fox employee. Additional women came forward with allegations against Henry, revealing that complaints about his behavior had circulated internally for years.',
+ 'CULTURA OF IMPUNITY: Female employees described a culture where sexual comments, unwanted advances, and retaliation for complaints were normalized. Women who complained were sidelined, demoted, or terminated. Women who complied with advances received favorable assignments and airtime.',
+ 'LEGAL AFTERMATH: In 2017, 21st Century Fox paid $90 million to shareholders who alleged the company mishandled harassment claims. Multiple lawsuits from female employees continued for years. The legal costs exceeded $200 million when settlements, legal fees, and shareholder suits were combined.',
+ 'SYSTEMIC PATTERN: The Fox News harassment scandal was not about individual bad actors but an institutional culture that enabled and protected predators. From Ailes\'s hiring practices (which included assessing women\'s appearance) to the company\'s settlement-and-silence approach, the entire system was designed to facilitate and conceal harassment.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Sexual Harassment', 'Fox News', 'Roger Ailes', 'Bill O\'Reilly', 'MeToo', 'Corporate Cover-up', 'Media'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'NYT O\'Reilly Settlement Investigation', url: 'https://www.nytimes.com/2017/04/01/business/media/bill-oreilly-sexual-harassment-fox-news.html', type: 'Investigation' },
+ { title: 'Carlson v. Ailes Settlement', url: 'https://www.nytimes.com/2016/09/07/business/media/fox-news-roger-ailes-gretchen-carlson.html', type: 'Court Filing' },
+ { title: 'Shareholder Lawsuit Settlement', url: 'https://www.reuters.com/article/foxnews-settlement-idUSKBN1DK26I', type: 'Court Filing' },
+ { title: 'Gabriel Sherman - The Loudest Voice in the Room', url: 'https://www.penguinrandomhouse.com/books/218812/the-loudest-voice-in-the-room-by-gabriel-sherman/', type: 'Investigation' },
  ],
- affiliations: [],
- },
-  'fox-news-sexual-harassment': {
- title: 'Fox News Sexual Harassment',
- subtitle: 'Investigation into fox news sexual harassment.',
- severity: 'critical',
- category: 'Abuse & Exploitation',
- date: 'April 1, 2019',
- lastUpdated: 'February 22, 2023',
- summary: 'Investigation into fox news sexual harassment.',
- content: [
- 'This investigation documents fox news sexual harassment and its impact.',
+ affiliations: [
+ { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Institutional harassment culture, $200M+ in costs', href: '/entities/corporations/fox-news' },
+ { id: '2', name: 'Rupert Murdoch', type: 'individual', relationship: 'Praised Ailes on departure, knew of O\'Reilly settlements', href: '/entities/individuals/rupert-murdoch' },
+ { id: '3', name: 'Bill O\'Reilly', type: 'individual', relationship: '$45M in harassment settlements', href: '/entities/individuals/bill-oreilly' },
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
- sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
- ],
- affiliations: [],
  },
   'fyre-festival': {
  title: 'Fyre Festival',
@@ -742,7 +781,9 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Billy McFarland', type: 'individual', relationship: 'Convicted fraudster, Festival organizer', href: '/entities/individuals/billy-mcfarland' },
+ ],
  },
   'foreign-election-interference-operations': {
     title: 'Foreign Election Interference Operations',
@@ -766,7 +807,9 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Published devastating Ferguson police report', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Darren Wilson', type: 'individual', relationship: 'Officer who killed Michael Brown', href: '/entities/individuals/darren-wilson' },
+ ],
   },
   'financial-fraud-network-mapping': {
     title: 'Financial Fraud Network Mapping',
@@ -788,7 +831,9 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', type: 'Court Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Foreign interference investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'Intelligence Community', type: 'agency', relationship: 'Intelligence assessments', href: '/entities/agencies/office-of-the-director-of-national-intelligence' },
+ ],
   },
   'ftx-crypto-collapse-cover-up': {
     title: 'FTX Crypto Collapse Cover-Up',
@@ -812,7 +857,8 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Bill Gates', type: 'individual', relationship: 'Largest private farmland owner in US', href: '/entities/individuals/bill-gates' },
+ ],
   },
   'forced-labor-in-us-prison-system': {
     title: 'Forced Labor in US Prison System',
@@ -836,7 +882,9 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org', type: 'Policy Analysis' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Federal Bureau of Prisons', type: 'agency', relationship: 'Operates federal prison labor program', href: '/entities/agencies/bop' },
+ { id: '2', name: 'CoreCivic', type: 'corporation', relationship: 'Private prison forced labor', href: '/entities/corporations/corecivic' },
+ ],
   },
   'five-eyes-intelligence-sharing-overreach': {
     title: 'Five Eyes Intelligence Sharing Overreach',
@@ -862,7 +910,8 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'NSA', type: 'agency', relationship: 'US node of Five Eyes alliance', href: '/entities/agencies/nsa' },
+ ],
   },
   'fossil-fuel-capture-of-doe': {
     title: 'Fossil Fuel Capture of DOE',
@@ -888,6 +937,8 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Center for Responsive Politics', url: 'https://www.opensecrets.org', type: 'Financial Analysis' },
     ],
     affiliations: [
+      { id: '1', name: 'Federal Bureau of Prisons', type: 'agency', relationship: 'Operates federal prison labor program', href: '/entities/agencies/bop' },
+      { id: '2', name: 'CoreCivic', type: 'corporation', relationship: 'Private prison forced labor', href: '/entities/corporations/corecivic' },
     ],
   },
   'fluoride-controversy-scientific-suppression': {
@@ -911,7 +962,8 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'OpenSecrets Financial Disclosures', url: 'https://www.opensecrets.org', type: 'Financial Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Fluoride water standards', href: '/entities/agencies/epa' },
+ ],
   },
   'food-industry-nutritional-science-manipulation': {
     title: 'Food Industry Nutritional Science Manipulation',
@@ -936,7 +988,8 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'ACLU Document Archive', url: 'https://www.aclu.org', type: 'Legal Document' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Industry-influenced nutrition guidance', href: '/entities/agencies/fda' },
+ ],
   },
   'facial-recognition-policing-bias': {
     title: 'Facial Recognition Policing Bias',
@@ -960,7 +1013,9 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Clearview AI', type: 'corporation', relationship: 'Scraped billions of faces without consent', href: '/entities/corporations/clearview-ai' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Uses facial recognition databases', href: '/entities/agencies/fbi' },
+ ],
   },
   'financial-surveillance-reporting-system': {
     title: 'Financial Surveillance Reporting System',
@@ -985,7 +1040,8 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'ACLU Document Archive', url: 'https://www.aclu.org', type: 'Legal Document' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Treasury', type: 'agency', relationship: 'Financial surveillance and FinCEN', href: '/entities/agencies/treasury' },
+ ],
   },
   'foreign-influence-through-media-ownership': {
     title: 'Foreign Influence Through Media Ownership',
@@ -1009,6 +1065,8 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Public Citizen Research', url: 'https://www.citizen.org', type: 'Policy Research' },
     ],
     affiliations: [
+      { id: '1', name: 'Clearview AI', type: 'corporation', relationship: 'Scraped billions of faces', href: '/entities/corporations/clearview-ai' },
+      { id: '2', name: 'FBI', type: 'agency', relationship: 'Uses facial recognition databases', href: '/entities/agencies/fbi' },
     ],
   },
   'fossil-fuel-subsidy-hidden-costs': {
@@ -1035,7 +1093,9 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Maintains fossil fuel tax subsidies', href: '/entities/agencies/congress' },
+ { id: '2', name: 'ExxonMobil', type: 'corporation', relationship: 'Top subsidy beneficiary', href: '/entities/corporations/exxonmobil' },
+ ],
   },
   'fracking-groundwater-contamination': {
     title: 'Fracking Groundwater Contamination',
@@ -1061,7 +1121,9 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'National Archives', url: 'https://www.archives.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'EPA', type: 'agency', relationship: 'Suppressed fracking contamination findings', href: '/entities/agencies/epa' },
+ { id: '2', name: 'Halliburton', type: 'corporation', relationship: 'Developed hydraulic fracturing technology', href: '/entities/corporations/halliburton' },
+ ],
   },
   'foster-care-to-trafficking-pipeline': {
     title: 'Foster Care to Trafficking Pipeline',
@@ -1083,6 +1145,9 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
+      { id: '1', name: 'HHS', type: 'agency', relationship: 'Federal oversight of child welfare systems', href: '/entities/agencies/hhs' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecution of trafficking cases from foster care', href: '/entities/agencies/doj' },
+      { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Legislative failures in foster care reform', href: '/entities/agencies/congress' },
     ],
   },
   'fda-advisory-committee-conflicts': {
@@ -1107,7 +1172,8 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/fda' },
+ ],
   },
   'food-supply-chain-endocrine-disruptors': {
     title: 'Food Supply Chain Endocrine Disruptors',
@@ -1133,7 +1199,9 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Failed to ban endocrine disruptors in food', href: '/entities/agencies/fda' },
+ { id: '2', name: 'EPA', type: 'agency', relationship: 'Chemical safety regulation gaps', href: '/entities/agencies/epa' },
+ ],
   },
   'forced-sterilization-historical-patterns': {
     title: 'Forced Sterilization Historical Patterns',
@@ -1159,7 +1227,8 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Public Citizen Research', url: 'https://www.citizen.org', type: 'Policy Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Industry-conflicted advisory committees', href: '/entities/agencies/fda' },
+ ],
   },
   'foreign-government-lobbyist-networks': {
     title: 'Foreign Government Lobbyist Networks',
@@ -1185,6 +1254,8 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
+      { id: '1', name: 'FDA', type: 'agency', relationship: 'Failed to ban endocrine disruptors in food', href: '/entities/agencies/fda' },
+      { id: '2', name: 'EPA', type: 'agency', relationship: 'Chemical safety regulation gaps', href: '/entities/agencies/epa' },
     ],
   },
   'financial-transaction-monitoring-overreach': {
@@ -1211,7 +1282,8 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'ACLU Document Archive', url: 'https://www.aclu.org', type: 'Legal Document' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Treasury', type: 'agency', relationship: 'Transaction monitoring requirements', href: '/entities/agencies/treasury' },
+ ],
   },
   'foia-request-denial-patterns': {
     title: 'FOIA Request Denial Patterns',
@@ -1236,7 +1308,9 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'FOIA enforcement and compliance', href: '/entities/agencies/doj' },
+ { id: '2', name: 'CIA', type: 'agency', relationship: 'Highest FOIA denial rates', href: '/entities/agencies/cia' },
+ ],
   },
 
 

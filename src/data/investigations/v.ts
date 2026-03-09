@@ -131,7 +131,9 @@ const investigations_v: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Nicolas Maduro', type: 'individual', relationship: 'Authoritarian leader controlling elections', href: '/entities/individuals/nicolas-maduro' },
+ ],
  },
   'venezuela-human-rights': {
  title: 'Venezuela Human Rights',
@@ -148,7 +150,9 @@ const investigations_v: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Nicolas Maduro', type: 'individual', relationship: 'Authoritarian leader committing human rights abuses', href: '/entities/individuals/nicolas-maduro' },
+ ],
  },
   'vs-pipeline': {
  title: 'VS Pipeline',
@@ -165,7 +169,10 @@ const investigations_v: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Blackstone Group', type: 'corporation', relationship: 'Vulture fund practices', href: '/entities/corporations/blackstone-group' },
+ { id: '2', name: 'Apollo Global', type: 'corporation', relationship: 'Predatory investments', href: '/entities/corporations/apollo-global' },
+ ],
  },
   'voter-roll-purges-and-suppression-tactics': {
     title: 'Voter Roll Purges and Suppression Tactics',
@@ -189,7 +196,8 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'Government Accountability Office', url: 'https://www.gao.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Voting rights enforcement', href: '/entities/agencies/doj' },
+ ],
   },
   'vaccine-injury-compensation-cover-up': {
     title: 'Vaccine Injury Compensation Cover-Up',
@@ -212,6 +220,8 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'Government Publishing Office', url: 'https://www.govinfo.gov', type: 'Government Record' },
     ],
     affiliations: [
+      { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Gutted Voting Rights Act', href: '/entities/agencies/supreme-court' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Voting rights enforcement', href: '/entities/agencies/doj' },
     ],
   },
   'voting-machine-certification-failures': {
@@ -235,7 +245,8 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'Government Publishing Office', url: 'https://www.govinfo.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Dominion Voting Systems', type: 'corporation', relationship: 'Voting machine certification issues', href: '/entities/corporations/dominion-voting-systems' },
+ ],
   },
   'voter-database-security-breaches': {
     title: 'Voter Database Security Breaches',
@@ -257,7 +268,8 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'Inspector General Reports', url: 'https://www.ignet.gov', type: 'Government Audit' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DHS', type: 'agency', relationship: 'Election infrastructure security', href: '/entities/agencies/dhs' },
+ ],
   },
   'vaccine-program-demographic-targeting-claims': {
     title: 'Vaccine Program Demographic Targeting Claims',
@@ -282,7 +294,8 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Vaccine program oversight', href: '/entities/agencies/fda' },
+ ],
   },
   'vehicle-tracking-data-broker-industry': {
     title: 'Vehicle Tracking Data Broker Industry',
@@ -305,7 +318,8 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'ACLU Document Archive', url: 'https://www.aclu.org', type: 'Legal Document' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Federal Trade Commission', type: 'agency', relationship: 'Data broker enforcement', href: '/entities/agencies/federal-trade-commission' },
+ ],
   },
 
 

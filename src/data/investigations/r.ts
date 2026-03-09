@@ -363,35 +363,73 @@ const investigations_r: Record<string, InvestigationData> = {
  },
   'russian-election-interference': {
  title: 'Russian Election Interference 2016',
- subtitle: 'Sweeping and systematic foreign attack on U.S. democracy',
+ subtitle: 'Sweeping and systematic foreign attack on U.S. democracy through hacking, disinformation, and covert contacts',
  severity: 'critical',
  category: 'Election Interference',
  date: 'January 15, 2017',
  lastUpdated: 'September 14, 2023',
- summary: 'Alias entry, see Russian Interference investigation for full details on GRU hacking, IRA disinformation, and Trump campaign contacts.',
+ summary: 'The Russian government conducted a sweeping and systematic campaign to interfere in the 2016 U.S. presidential election, involving GRU military intelligence hackers, the Internet Research Agency troll farm, and a web of contacts between Russian operatives and members of the Trump campaign.',
  content: [
- 'See Russian Interference investigation.',
+ 'The Russian interference campaign in the 2016 United States presidential election represented the most significant foreign attack on American democracy in the modern era. Two principal operations carried out the assault: the Internet Research Agency (IRA) social media disinformation campaign and the GRU military intelligence hacking and dumping operation targeting the Democratic National Committee and the Clinton campaign.',
+ 'The Internet Research Agency, a St. Petersburg-based troll farm funded by oligarch Yevgeny Prigozhin, began operations targeting U.S. audiences as early as 2014. By 2016, the IRA employed hundreds of operatives creating fake American social media personas, purchasing political advertisements on Facebook and Instagram, organizing real-world rallies in U.S. cities, and exploiting racial and political divisions. The operation reached tens of millions of Americans across every major social media platform.',
+ 'GRU Units 26165 and 74455 conducted sophisticated cyber operations against Democratic targets. Unit 26165 (Fancy Bear/APT28) used spearphishing campaigns to breach the email accounts of Clinton campaign chairman John Podesta and infiltrate DNC servers. Unit 74455 orchestrated the release of stolen materials through the DCLeaks website, the Guccifer 2.0 persona, and ultimately through WikiLeaks, which published thousands of stolen emails in strategically timed dumps throughout the campaign.',
+ 'The Mueller investigation documented over 140 contacts between Trump campaign associates and Russian nationals or WikiLeaks during the campaign and transition periods. Campaign chairman Paul Manafort shared internal polling data with Konstantin Kilimnik, a Russian intelligence-linked associate. National Security Advisor designate Michael Flynn discussed sanctions relief with Russian Ambassador Sergey Kislyak. Donald Trump Jr., Jared Kushner, and Manafort attended the June 2016 Trump Tower meeting with Russian lawyer Natalia Veselnitskaya after being promised damaging information about Hillary Clinton.',
+ 'Special Counsel Robert Mueller was appointed on May 17, 2017 to investigate Russian interference and potential coordination with the Trump campaign. The investigation lasted 22 months, resulting in 34 indictments, 7 guilty pleas, and 1 conviction at trial. Key figures indicted included 12 GRU officers, 13 IRA operatives, Paul Manafort, Michael Flynn, Roger Stone, Rick Gates, George Papadopoulos, and Michael Cohen.',
+ 'The Mueller Report, released in April 2019, concluded that Russia interfered in the election "in sweeping and systematic fashion" but did not establish that members of the Trump campaign "conspired or coordinated" with Russia, applying a specific legal standard requiring an agreement. On obstruction of justice, the report documented ten episodes of potential obstruction by President Trump but declined to reach a prosecutorial judgment, citing DOJ policy against indicting a sitting president.',
+ 'The Senate Intelligence Committee conducted a parallel, bipartisan investigation spanning over three years and producing a five-volume, nearly 1,000-page report. Volume 5, released in August 2020, confirmed the counterintelligence threat posed by Manafort sharing polling data with Kilimnik and documented extensive contacts between the campaign and Russian-linked individuals. The committee unanimously concluded that Russia conducted an "unprecedented, multi-faceted attack on our election."',
+ 'The sanctions response evolved across administrations. The Obama administration expelled 35 Russian diplomats and sanctioned the GRU and FSB in December 2016. Additional sanctions were imposed under the Countering America Adversaries Through Sanctions Act (CAATSA) in 2017, though the Trump administration was criticized for slow implementation. Treasury Department sanctions targeted Prigozhin, the IRA, GRU officers, and associated entities.',
+ 'Russian interference tactics evolved and continued beyond 2016. Intelligence assessments confirmed ongoing operations in the 2018 midterms and 2020 presidential election, with expanded use of proxy websites, co-opted U.S. individuals, and more sophisticated social media manipulation designed to evade platform detection. The GRU also targeted election infrastructure in all 50 states, though no vote tallies were altered.',
+ 'The consequences of the interference extended far beyond the election itself. Public trust in democratic institutions eroded as polarization deepened. Social media companies faced unprecedented scrutiny and regulatory pressure. The episode exposed critical vulnerabilities in U.S. election security, campaign finance transparency, and the capacity of foreign adversaries to weaponize information in the digital age.',
  ],
- tags: ['Russia', '2016 Election', 'Hacking', 'Disinformation'],
- sources: [],
- affiliations: [],
+ tags: ['Russia', '2016 Election', 'Hacking', 'Disinformation', 'GRU', 'Mueller Investigation', 'IRA', 'Cyber Warfare', 'Foreign Interference', 'WikiLeaks'],
+ sources: [
+ { title: 'Mueller Report - Report on the Investigation into Russian Interference', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', type: 'Government' },
+ { title: 'Senate Intelligence Committee Volume 5 - Counterintelligence Threats', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
+ { title: 'DOJ Indictment of 12 GRU Officers', url: 'https://www.justice.gov/file/1080281/dl', type: 'Legal' },
+ { title: 'DOJ Indictment of Internet Research Agency', url: 'https://www.justice.gov/file/1035477/dl', type: 'Legal' },
+ ],
+ affiliations: [
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Campaign benefited from Russian interference, 140+ contacts documented', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'Vladimir Putin', type: 'individual', relationship: 'Ordered interference campaign per U.S. intelligence assessment', href: '/entities/individuals/vladimir-putin' },
+ { id: '3', name: 'Internet Research Agency', type: 'organization', relationship: 'Russian troll farm running social media disinformation operation', href: '/entities/organizations/internet-research-agency' },
+ { id: '4', name: 'FBI', type: 'agency', relationship: 'Crossfire Hurricane counterintelligence investigation', href: '/entities/agencies/fbi' },
+ { id: '5', name: 'GRU', type: 'agency', relationship: 'Russian military intelligence units hacked DNC and Clinton campaign', href: '/entities/agencies/gru' },
+ { id: '6', name: 'Paul Manafort', type: 'individual', relationship: 'Trump campaign chairman who shared polling data with Russian intelligence', href: '/entities/individuals/paul-manafort' },
+ { id: '7', name: 'Michael Flynn', type: 'individual', relationship: 'National Security Advisor who discussed sanctions with Russian ambassador', href: '/entities/individuals/michael-flynn' },
+ { id: '8', name: 'CIA', type: 'agency', relationship: 'Intelligence Community assessment of Russian interference', href: '/entities/agencies/cia' },
+ ],
  },
   'r-kelly-sex-crimes': {
- title: 'R Kelly Sex Crimes',
- subtitle: 'Investigation into r kelly sex crimes.',
+ title: 'R. Kelly Sex Crimes',
+ subtitle: 'Decades of sexual abuse, trafficking, and racketeering by R&B singer Robert Sylvester Kelly',
  severity: 'high',
- category: 'Financial Crime',
+ category: 'Abuse & Exploitation',
  date: 'July 21, 2019',
- lastUpdated: 'January 21, 2026',
- summary: 'Investigation into r kelly sex crimes.',
+ lastUpdated: 'June 29, 2023',
+ summary: 'Robert Sylvester Kelly, known professionally as R. Kelly, was convicted of sex trafficking, racketeering, and multiple counts of child sexual exploitation after decades of allegations involving minors, coercive control of victims, and systematic obstruction of justice.',
  content: [
- 'This investigation documents r kelly sex crimes and its impact.',
+ 'For nearly three decades, singer R. Kelly operated what federal prosecutors described as a criminal enterprise devoted to recruiting and sexually exploiting women and underage girls. Despite public allegations dating back to the 1990s, Kelly evaded accountability through witness intimidation, nondisclosure agreements, financial settlements, and the complicity of associates who facilitated access to victims.',
+ 'The earliest public allegations surfaced in 1994 when Kelly, then 27, illegally married 15-year-old singer Aaliyah Haughton by falsifying her age on the marriage certificate as 18. The marriage was annulled months later. In 1996, Tiffany Hawkins filed a lawsuit alleging Kelly initiated a sexual relationship with her when she was 15; the case was settled for $250,000 in 1998. Additional civil suits followed from other accusers throughout the late 1990s and early 2000s.',
+ 'In 2002, Kelly was indicted in Cook County, Illinois on 21 counts of child pornography based on a videotape allegedly showing him engaged in sexual acts with a 14-year-old girl. The trial did not begin until 2008, during which time Kelly continued to release platinum albums and perform sold-out tours. He was acquitted on all counts, with jurors citing the inability to confirm the identity of the girl in the video despite testimony from multiple witnesses.',
+ 'Investigative journalist Jim DeRogatis first reported on the allegations in 2000 and continued pursuing the story for nearly two decades. His reporting revealed a pattern of Kelly targeting girls from disadvantaged backgrounds at his concerts, at malls, and at Chicago-area schools. DeRogatis documented settlements with at least a dozen accusers and described an expansive network of enablers including managers, drivers, and personal assistants who procured victims.',
+ 'The Lifetime documentary series "Surviving R. Kelly," which aired in January 2019, proved to be the turning point. The six-part series featured testimony from over 50 people, including Kelly accusers, former employees, and family members of alleged victims. The series drew renewed public attention and prompted criminal investigations in multiple jurisdictions. Cook County State Attorney Kim Foxx publicly requested victims to come forward.',
+ 'Kelly was arrested in February 2019 on 10 counts of aggravated criminal sexual abuse in Illinois, and again in July 2019 on federal charges in both the Northern District of Illinois and the Eastern District of New York. The federal indictments charged sex trafficking, racketeering conspiracy, sexual exploitation of children, kidnapping, and forced labor. Prosecutors alleged Kelly and his associates constituted a criminal enterprise that used his fame and resources to systematically prey on vulnerable individuals.',
+ 'The Eastern District of New York trial began in August 2021. Prosecutors presented testimony from 11 accusers and dozens of supporting witnesses who described Kelly controlling every aspect of victims lives, including when they could eat, sleep, or use the bathroom, requiring them to call him "Daddy," and filming sexual encounters without consent. On September 27, 2021, the jury convicted Kelly on all nine counts, including one count of racketeering and eight counts of violations of the Mann Act.',
+ 'Kelly was sentenced to 30 years in federal prison on June 29, 2022 by Judge Ann Donnelly. In the separate Northern District of Illinois case, Kelly was convicted in September 2022 on six of 13 counts, including three counts of child pornography and three counts of enticement of minors. He was sentenced to an additional 20 years, to be served concurrently. Kelly was also convicted on state charges in Chicago in February 2023.',
+ 'The case exposed catastrophic failures across the music industry, the legal system, and media institutions. Record labels including Jive Records and RCA Records continued promoting Kelly despite public knowledge of the allegations. Industry figures who collaborated with Kelly faced minimal scrutiny for decades. The case became a defining example of how fame, wealth, and systemic racism in how authorities treat Black victims enabled prolonged patterns of abuse.',
+ 'Multiple associates were charged in connection with Kelly crimes. Derrel McDavid, Kelly former business manager, was acquitted of helping conceal evidence. Robert Sylvester Kelly associate Donnell Russell was convicted of threatening a screening of "Surviving R. Kelly" and witness tampering. The cases prompted renewed legislative attention to statute of limitation reforms for sex crimes and the duties of institutions to investigate allegations against high-profile figures.',
  ],
- tags: ['Financial Crime', 'Investigation', 'Accountability'],
+ tags: ['Sex Trafficking', 'Child Sexual Exploitation', 'Racketeering', 'Music Industry', 'Abuse', 'R. Kelly', 'RICO', 'Surviving R. Kelly'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Press Release - R. Kelly Convicted of Racketeering and Sex Trafficking', url: 'https://www.justice.gov/usao-edny/pr/r-kelly-convicted-racketeering-and-sex-trafficking', type: 'Government' },
+ { title: 'Jim DeRogatis - Soulless: The Case Against R. Kelly', url: 'https://www.buzzfeednews.com/article/jimderogatis/parents-told-police-r-kelly-is-holding-women-in-a-cult', type: 'News' },
+ { title: 'Eastern District of New York Indictment', url: 'https://www.justice.gov/usao-edny/press-release/file/1187041/dl', type: 'Legal' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'R. Kelly', type: 'individual', relationship: 'Defendant convicted of sex trafficking and racketeering', href: '/entities/individuals/r-kelly' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Led federal investigation and arrests', href: '/entities/agencies/fbi' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution in two districts', href: '/entities/agencies/doj' },
+ ],
  },
   'rabaa-massacre': {
  title: 'Rabaa Massacre',
@@ -408,7 +446,9 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Abdel Fattah el-Sisi', type: 'individual', relationship: 'Military leader who ordered crackdown', href: '/entities/individuals/abdel-fattah-el-sisi' },
+ ],
  },
   'radicalization': {
  title: 'Radicalization',
@@ -425,7 +465,10 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'FBI', type: 'agency', relationship: 'Domestic radicalization investigations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'Radicalization prevention programs', href: '/entities/agencies/dhs' },
+ ],
  },
   'religious-abuse': {
  title: 'Religious Abuse',
@@ -442,7 +485,9 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'David Miscavige', type: 'individual', relationship: 'Scientology leader accused of abuse', href: '/entities/individuals/david-miscavige' },
+ ],
  },
   'religious-right-legal': {
  title: 'Religious Right Legal',
@@ -459,7 +504,10 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Federalist Society', type: 'corporation', relationship: 'Controlled judicial nominations', href: '/entities/corporations/federalist-society' },
+ { id: '2', name: 'Leonard Leo', type: 'individual', relationship: 'Dark money judicial kingmaker', href: '/entities/individuals/leonard-leo' },
+ ],
  },
   'restitution-evasion': {
  title: 'Restitution Evasion',
@@ -476,7 +524,11 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Wall Street capture of financial regulation', href: '/entities/agencies/sec' },
+ { id: '2', name: 'EPA', type: 'agency', relationship: 'Industry capture of environmental regulation', href: '/entities/agencies/epa' },
+ { id: '3', name: 'FDA', type: 'agency', relationship: 'Pharmaceutical capture of drug safety', href: '/entities/agencies/fda' },
+ ],
  },
   'right-wing-disinfo': {
  title: 'Right Wing Disinfo',
@@ -493,7 +545,10 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Major disinformation platform', href: '/entities/corporations/fox-news' },
+ { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Primary source of election disinformation', href: '/entities/individuals/donald-trump' },
+ ],
  },
   'right-wing-media': {
  title: 'Right Wing Media',
@@ -510,7 +565,11 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Dominant conservative media outlet', href: '/entities/corporations/fox-news' },
+ { id: '2', name: 'Rupert Murdoch', type: 'individual', relationship: 'Conservative media mogul', href: '/entities/individuals/rupert-murdoch' },
+ { id: '3', name: 'Sinclair Broadcast Group', type: 'corporation', relationship: 'Local news conservative messaging', href: '/entities/corporations/sinclair' },
+ ],
  },
   'rothstein-ponzi': {
  title: 'Rothstein Ponzi',
@@ -527,7 +586,10 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution of $1.2 billion Ponzi scheme', href: '/entities/agencies/doj' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigation into fraud and corruption', href: '/entities/agencies/fbi' },
+ ],
  },
   'roundup-cancer': {
  title: 'Roundup Cancer',
@@ -544,7 +606,11 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Manufactured Roundup, concealed cancer link', href: '/entities/corporations/monsanto' },
+ { id: '2', name: 'Bayer AG', type: 'corporation', relationship: 'Acquired Monsanto, $10B+ in settlements', href: '/entities/corporations/bayer-ag' },
+ { id: '3', name: 'EPA', type: 'agency', relationship: 'Ruled glyphosate not carcinogenic despite evidence', href: '/entities/agencies/epa' },
+ ],
  },
   'russia-ukraine-war': {
  title: 'Russia Ukraine War',
@@ -561,7 +627,10 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Initiated invasion of Ukraine', href: '/entities/individuals/vladimir-putin' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Ukraine military aid coordination', href: '/entities/agencies/pentagon' },
+ ],
  },
   'russian-influence': {
  title: 'Russian Influence',
@@ -578,7 +647,9 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+      { id: '1', name: 'David Miscavige', type: 'individual', relationship: 'Scientology leader accused of abuse', href: '/entities/individuals/david-miscavige' },
+    ],
  },
   'russian-war-crimes': {
  title: 'Russian War Crimes',
@@ -595,7 +666,9 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'ICC arrest warrant for war crimes', href: '/entities/individuals/vladimir-putin' },
+ ],
  },
   'ryanair-hijacking': {
  title: 'Ryanair Hijacking',
@@ -612,7 +685,9 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
  ],
- affiliations: [],
+ affiliations: [
+ { id: '1', name: 'Alexander Lukashenko', type: 'individual', relationship: 'Ordered hijacking of Ryanair flight', href: '/entities/individuals/alexander-lukashenko' },
+ ],
  },
   'rico-enterprise-criminal-networks': {
     title: 'RICO Enterprise Criminal Networks',
@@ -637,7 +712,9 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'Library of Congress Collections', url: 'https://www.loc.gov', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'RICO Act enforcement', href: '/entities/agencies/doj' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Enterprise crime investigations', href: '/entities/agencies/fbi' },
+ ],
   },
   'russian-oligarch-us-asset-networks': {
     title: 'Russian Oligarch US Asset Networks',
@@ -661,6 +738,8 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'The Intercept', url: 'https://theintercept.com', type: 'Investigative Report' },
     ],
     affiliations: [
+      { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Initiated invasion of Ukraine', href: '/entities/individuals/vladimir-putin' },
+      { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Ukraine military aid coordination', href: '/entities/agencies/pentagon' },
     ],
   },
   'revolving-door-lobbyist-pipeline': {
@@ -685,7 +764,8 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'Sunlight Foundation', url: 'https://sunlightfoundation.com', type: 'Transparency Research' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Members becoming lobbyists', href: '/entities/agencies/congress' },
+ ],
   },
   'regulatory-capture-federal-agencies': {
     title: 'Regulatory Capture Federal Agencies',
@@ -710,7 +790,9 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'FOIA Request Archive', url: 'https://www.foia.gov', type: 'Government Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Financial regulatory capture', href: '/entities/agencies/sec' },
+ { id: '2', name: 'EPA', type: 'agency', relationship: 'Environmental regulatory capture', href: '/entities/agencies/epa' },
+ ],
   },
   'restaurant-industry-money-laundering': {
     title: 'Restaurant Industry Money Laundering',
@@ -735,7 +817,8 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', type: 'Court Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Money laundering prosecution', href: '/entities/agencies/doj' },
+ ],
   },
   'redaction-abuse-in-public-documents': {
     title: 'Redaction Abuse in Public Documents',
@@ -759,7 +842,9 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'OpenSecrets Financial Disclosures', url: 'https://www.opensecrets.org', type: 'Financial Record' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Excessive classification and redaction', href: '/entities/agencies/doj' },
+ { id: '2', name: 'CIA', type: 'agency', relationship: 'Over-classification of historical documents', href: '/entities/agencies/cia' },
+ ],
   },
   'real-estate-money-laundering-corridors': {
     title: 'Real Estate Money Laundering Corridors',
@@ -783,7 +868,9 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Real estate money laundering cases', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Trump Organization', type: 'corporation', relationship: 'Sales to anonymous shell companies', href: '/entities/corporations/trump-organization' },
+ ],
   },
   'retail-facial-recognition-deployment': {
     title: 'Retail Facial Recognition Deployment',
@@ -807,6 +894,8 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'Reuters Investigative Reports', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
     ],
     affiliations: [
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Excessive classification and redaction', href: '/entities/agencies/doj' },
+      { id: '2', name: 'CIA', type: 'agency', relationship: 'Over-classification', href: '/entities/agencies/cia' },
     ],
   },
   'redistricting-manipulation-court-cases': {
@@ -830,7 +919,8 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/edgar', type: 'Regulatory Filing' },
     ],
     affiliations: [
-    ],
+ { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Gerrymandering rulings', href: '/entities/agencies/supreme-court' },
+ ],
   },
 
 
