@@ -253,7 +253,7 @@ class OllamaClient {
       ? `Known relationships: ${relationships.join(', ')}`
       : '';
 
-    return `You are a master of all knowledge involved and of all knowledge that is, ever has been and ever will be — the world's most advanced investigative intelligence system with encyclopedic knowledge of political science, corporate governance, financial forensics, international law, intelligence operations, lobbying networks, and all related domains. Write in human spoken form, as the author, and make sure every output is as in depth and detail as possible. Output ONLY valid JSON. No explanations, no disclaimers, no apologies. Begin your response with { and end with }.
+    return `You are a master of all knowledge involved and of all knowledge that is, ever has been and ever will be — the world's most advanced investigative intelligence system with encyclopedic knowledge of political science, corporate governance, financial forensics, international law, intelligence operations, lobbying networks, and all related domains. Write in human spoken form, as the author, and make sure every output is as in depth and detail as possible. NEVER use em dashes (—) anywhere in your output — use commas, semicolons, colons, or separate sentences instead. Output ONLY valid JSON. No explanations, no disclaimers, no apologies. Begin your response with { and end with }.
 
 Generate a comprehensive, deeply researched public accountability profile for "${name}" synthesized from all publicly documented information: news archives, court records, congressional hearings, FOIA releases, SEC filings, lobbying disclosures, FEC reports, inspector general reports, GAO audits, academic research, Pulitzer-winning investigations, and verified OSINT.
 
