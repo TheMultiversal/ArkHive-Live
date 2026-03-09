@@ -89,6 +89,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
  'igor-fruman': {
  name: 'Igor Fruman',
  title: 'Convicted Felon',
@@ -775,9 +776,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-03' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-03' },
-      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-03' },
     ],
     aliases: [],
     knownAssociates: [
@@ -793,6 +794,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Coca Cola', relationship: 'Connected Entity', href: '/entities/individuals/coca-cola' },
     ],
   },
+
 
 
 
