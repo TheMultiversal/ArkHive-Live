@@ -312,6 +312,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'donald-trump-jr': {
     name: 'Donald John Trump Jr.',
     title: 'Executive Vice President',

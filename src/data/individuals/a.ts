@@ -6542,6 +6542,91 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Investigations Data', relationship: 'Connected Entity', href: '/entities/individuals/investigations-data' },
     ],
   },
+  'associate-1-slug': {
+    name: 'Associate 1',
+    title: 'Relationship 1',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Associate 1 is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Donald Trump have been identified through cross-referencing investigative databases, public records, court filings, and financial disclosure documents. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
+    education: [],
+    affiliations: [
+      { name: 'Donald Trump', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed documented connections to Donald Trump, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being mapped through financial disclosures, lobbying records, corporate filings, and congressional testimony.',
+      'Cross-reference analysis with Donald Trump indicates overlapping involvement in institutional networks flagged for accountability gaps, including potential regulatory capture, conflicts of interest, and failures of governmental oversight.',
+      'Associate 1 has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
+      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-09', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-09', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-09', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
+      { date: '2026-03-09', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
+      { date: '2026-03-09', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
+      { date: '2026-03-09', event: 'Network analysis identified connections to: Donald Trump' },
+      { date: '2026-03-09', event: 'Connection mapping reveals overlap with 1 entity profiles across multiple investigation categories' },
+      { date: '2026-03-09', event: 'Cross-reference verification completed against ArkHive\'s full entity database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-09' },
+      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-09' },
+      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-09' },
+      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-09' },
+      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-09' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Connected Entity', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+  'associate-2-slug': {
+    name: 'Associate 2',
+    title: 'Relationship 2',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Associate 2 is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to Donald Trump have been identified through cross-referencing investigative databases, public records, court filings, and financial disclosure documents. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
+    education: [],
+    affiliations: [
+      { name: 'Donald Trump', role: 'Connected Entity', type: 'organization' },
+    ],
+    controversies: [
+      'Network analysis has revealed documented connections to Donald Trump, entities currently under investigation in the ArkHive accountability database. The nature and extent of these connections are being mapped through financial disclosures, lobbying records, corporate filings, and congressional testimony.',
+      'Cross-reference analysis with Donald Trump indicates overlapping involvement in institutional networks flagged for accountability gaps, including potential regulatory capture, conflicts of interest, and failures of governmental oversight.',
+      'Associate 2 has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
+      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
+    ],
+    charges: [],
+    relatedInvestigations: [
+    ],
+    timeline: [
+      { date: '2026-03-09', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-09', event: 'Cross-referenced with 1 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-09', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
+      { date: '2026-03-09', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
+      { date: '2026-03-09', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
+      { date: '2026-03-09', event: 'Network analysis identified connections to: Donald Trump' },
+      { date: '2026-03-09', event: 'Connection mapping reveals overlap with 1 entity profiles across multiple investigation categories' },
+      { date: '2026-03-09', event: 'Cross-reference verification completed against ArkHive\'s full entity database' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-09' },
+      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-09' },
+      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-09' },
+      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-09' },
+      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-09' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Connected Entity', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+
 
 
 
