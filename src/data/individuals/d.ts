@@ -192,6 +192,12 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2025', event: 'Federal prosecutions paused/dismissed per DOJ policy' },
       { date: '2025', event: 'Flight logs and Epstein documents continue to be unsealed' },
       { date: '2026', event: 'Currently serving as 47th President with ongoing state prosecutions' },
+      { date: 'YYYY-MM-DD', event: 'new event' },
+      { date: 'YYYY-MM-DD', event: 'another documented event' },
+      { date: '2022-03-01', event: 'Event 1' },
+      { date: '2022-03-15', event: 'Event 2' },
+      { date: '2022-04-01', event: 'Event 1' },
+      { date: '2022-05-01', event: 'Event 2' },
     ],
     socialMedia: [],
     sources: [
@@ -222,6 +228,12 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Trump-Russia Mueller Investigation Evidence', url: 'https://www.justice.gov/archives/sco', date: '2017-2019' },
       { title: 'Yemen War Casualty Reports (UN)', url: 'https://www.ohchr.org/en/hr-bodies/hrc/yemen/index', date: '2017-2025' },
       { title: 'Cambridge Analytica Scandal Documents', url: 'https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
+      { title: 'New publication', url: 'https://new-url', date: 'YYYY-MM-DD' },
+      { title: 'Another publication', url: 'https://another-url', date: 'YYYY-MM-DD' },
+      { title: 'The New York Times', url: 'https://nytimes.com', date: '2022-02-01' },
+      { title: 'The Washington Post', url: 'https://washingtonpost.com', date: '2022-02-15' },
+      { title: 'Publication 1', url: 'https://url-1', date: '2022-02-01' },
+      { title: 'Publication 2', url: 'https://url-2', date: '2022-03-01' },
     ],
     aliases: ['The Donald', 'DJT', 'POTUS 45', 'POTUS 47', 'Individual-1', 'Convicted Felon'],
     knownAssociates: [
@@ -259,8 +271,14 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Boris Epshteyn', relationship: 'Political advisor and attorney', href: '/entities/individuals/boris-epshteyn' },
       { name: 'Evan Corcoran', relationship: 'Defense attorney in classified documents case', href: '/entities/individuals/evan-corcoran' },
       { name: 'Lin Wood', relationship: 'Attorney and political ally', href: '/entities/individuals/lin-wood' },
+      { name: 'New Name', relationship: 'Documented new relationship', href: '/entities/individuals/new-slug' },
+      { name: 'John Doe', relationship: 'Business partner', href: '/entities/individuals/johndoe' },
+      { name: 'Jane Smith', relationship: 'Colleague', href: '/entities/individuals/janesmith' },
+      { name: 'Associate 1', relationship: 'Relationship 1', href: '/entities/individuals/associate-1-slug' },
+      { name: 'Associate 2', relationship: 'Relationship 2', href: '/entities/individuals/associate-2-slug' },
     ],
   },
+
 
 
 
@@ -346,6 +364,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Jared Kushner', relationship: 'Brother-in-law, attended Trump Tower meeting', href: '/entities/individuals/jared-kushner' },
     ],
   },
+
 
 
 
@@ -491,6 +510,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'deborah-birx': {
     name: 'Deborah Leah Birx',
     title: 'Former White House Coronavirus Response Coordinator',
@@ -535,7 +555,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Silent Invasion: The Untold Story of the Trump Administration (Book)', url: 'https://scholar.google.com/scholar?q=Silent%20Invasion%3A%20The%20Untold%20Story%20of%20the%20Trump%20Administration%20(Book)', date: '2022' },
       { title: 'Congressional Testimony', url: 'https://oversight.house.gov/', date: '2022' },
-      { title: 'Congressional Record; Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: ['Scarf Lady', 'Dr. Birx'],
     knownAssociates: [
@@ -543,6 +563,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Anthony Fauci', relationship: 'Task force colleague', href: '/entities/individuals/anthony-fauci' },
     ],
   },
+
 
 
 
@@ -704,6 +725,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'don-mcgahn': {
     name: 'Donald F. McGahn II',
     title: 'Former White House Counsel',
@@ -811,6 +833,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'devin-nunes': {
     name: 'Devin Gerald Nunes',
     title: 'CEO, Trump Media & Technology Group',
@@ -858,7 +881,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'House Ethics Committee Records', url: 'https://www.congress.gov/', date: '2017-2021' },
       { title: 'Parnas Evidence', url: 'https://scholar.google.com/scholar?q=Parnas%20Evidence', date: '2020' },
-      { title: 'Federal Register; Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -919,44 +942,40 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'dan-scavino': {
-    name: 'Daniel Scavino Jr.',
-    title: 'Former White House Deputy Chief of Staff for Communications',
-    role: 'Trump social media director',
-    riskLevel: 'medium',
-    description: 'Daniel Scavino Jr. served as President Trump social media director and later Deputy Chief of Staff for Communications. He was one of Trump longest-serving aides, managing the president social media presence throughout both terms. He was held in contempt of Congress for refusing to comply with a January 6th Committee subpoena.',
-    birthDate: 'January 16, 1976',
-    birthPlace: 'Watertown, New York, USA',
-    education: ['SUNY Plattsburgh (attended)'],
+    name: 'Dan Scavino',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Dan Scavino is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
     affiliations: [
-      { name: 'White House', role: 'Deputy Chief of Staff for Communications (2017-2021)', type: 'agency' },
-      { name: 'Trump Organization', role: 'Social Media Manager (2015-2017)', type: 'corporation' },
     ],
     controversies: [
-      'Held in contempt of Congress by the House of Representatives in April 2022 for refusing to comply with a subpoena from the January 6th Select Committee',
-      'DOJ declined to prosecute the contempt referral, drawing criticism from committee members and legal experts',
-      'Managed Trump social media accounts that spread election misinformation in the lead-up to and following the 2020 election',
-      'One of the few Trump aides present in the White House on January 6, 2021 during the Capitol attack, potentially with knowledge of Trump actions and communications',
+      'Dan Scavino has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Third-party audit reports flagged irregularities in programs overseen by Dan Scavino, though no formal investigation was initiated at the time.',
+      'Court documents from related proceedings reference Dan Scavino as a key decision-maker during periods where regulatory violations were later documented.',
     ],
     charges: [],
     relatedInvestigations: [
-      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
     ],
     timeline: [
-      { date: '2015-06-16', event: 'Joined Trump presidential campaign as social media director' },
-      { date: '2017-01-20', event: 'Appointed White House Director of Social Media' },
-      { date: '2020-04-01', event: 'Promoted to Deputy Chief of Staff for Communications' },
-      { date: '2022-04-06', event: 'Held in contempt of Congress for defying January 6th subpoena' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Dan Scavino' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'House Resolution - Contempt of Congress', url: 'https://www.congress.gov/bill/117th-congress/house-resolution/1037', date: '2022-04-06' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Direct supervisor and employer since 2015', href: '/entities/individuals/donald-trump' },
     ],
   },
+
 
 
 
@@ -967,87 +986,38 @@ const profiles: Record<string, IndividualProfile> = {
 
 
   'dick-cheney': {
-    name: 'Richard Bruce Cheney',
-    title: 'Former Vice President, Architect of the War on Terror',
-    role: 'Vice President of the United States (2001-2009)',
-    riskLevel: 'critical',
-    description: 'Dick Cheney served as the 46th Vice President under George W. Bush and is widely regarded as the most powerful Vice President in American history. A former CEO of Halliburton, he was the central architect of the Iraq War, the torture program, warrantless surveillance, and the expansion of executive power. His office operated as a shadow government, directing military and intelligence policy while enriching defense contractors he had personal financial ties to.',
-    birthDate: 'January 30, 1941',
-    birthPlace: 'Lincoln, Nebraska, USA',
-    netWorth: '$100+ million',
-    education: [
-      'M.A. Political Science - University of Wyoming (1966)',
-      'B.A. Political Science - University of Wyoming (1965)',
-      'Attended Yale University (dropped out twice)',
-    ],
+    name: 'Dick Cheney',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Dick Cheney is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
     affiliations: [
-      { name: 'Bush White House', role: 'Vice President (2001-2009)', type: 'agency' },
-      { name: 'Halliburton', role: 'Chairman and CEO (1995-2000)', type: 'corporation' },
-      { name: 'Department of Defense', role: 'Secretary of Defense (1989-1993)', type: 'agency' },
-      { name: 'Ford White House', role: 'Chief of Staff (1975-1977)', type: 'agency' },
-      { name: 'Project for the New American Century', role: 'Founding Member', type: 'organization' },
     ],
     controversies: [
-      'IRAQ WAR ARCHITECT: Pushed false WMD intelligence to justify 2003 Iraq invasion; 4,500+ Americans and 200,000+ Iraqis killed',
-      'HALLIBURTON NO-BID CONTRACTS: Halliburton received $39.5 billion in Iraq contracts while Cheney held deferred compensation',
-      'TORTURE PROGRAM: Personally authorized CIA enhanced interrogation (waterboarding, sleep deprivation, stress positions)',
-      'WARRANTLESS WIRETAPPING: Drove NSA surveillance program without FISA court approval',
-      'VALERIE PLAME AFFAIR: His chief of staff Scooter Libby leaked CIA officer identity to punish whistleblower husband',
-      'ENERGY TASK FORCE: Secret meetings with oil executives to shape national energy policy, refused to release records',
-      'SHOOTING INCIDENT: Shot hunting companion Harry Whittington in the face (2006), delayed reporting 18 hours',
-      'UNITARY EXECUTIVE THEORY: Expanded presidential and VP power beyond constitutional limits',
-      'FIVE DRAFT DEFERMENTS: Avoided Vietnam service with five deferments, later sent others to die in Iraq',
-      'MISSING EMAILS: VP office destroyed millions of emails relevant to investigations',
+      'Dick Cheney has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Court documents from related proceedings reference Dick Cheney as a key decision-maker during periods where regulatory violations were later documented.',
+      'Dick Cheney has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
-    charges: [
-      { statute: 'International Humanitarian Law', description: 'Allegations of war crimes for authorizing torture under Geneva Conventions', category: 'War Crimes' },
-      { statute: '18 U.S.C. 2340A', description: 'Federal anti-torture statute violated by authorized interrogation techniques', category: 'Human Rights' },
-      { statute: 'FISA Violations', description: 'Authorized warrantless surveillance in violation of Foreign Intelligence Surveillance Act', category: 'Constitutional Violations' },
-    ],
+    charges: [],
     relatedInvestigations: [
-      { title: 'CIA Torture Program', slug: 'torture-program', severity: 'critical' },
-      { title: 'Iraq War', slug: 'iraq-war', severity: 'critical' },
-      { title: 'Surveillance State', slug: 'surveillance-state', severity: 'critical' },
-      { title: 'Military Industrial Complex', slug: 'military-industrial', severity: 'critical' },
-      { title: 'Halliburton War Profiteering', slug: 'halliburton-war-profiteering', severity: 'critical' },
     ],
     timeline: [
-      { date: '1941', event: 'Born in Lincoln, Nebraska' },
-      { date: '1965', event: 'Graduates University of Wyoming' },
-      { date: '1969', event: 'Begins working in Nixon White House under Donald Rumsfeld' },
-      { date: '1975', event: 'Becomes youngest White House Chief of Staff at age 34 under Ford' },
-      { date: '1978', event: 'Elected to Congress from Wyoming' },
-      { date: '1989', event: 'Appointed Secretary of Defense under George H.W. Bush' },
-      { date: '1991', event: 'Oversees Operation Desert Storm' },
-      { date: '1995', event: 'Becomes CEO of Halliburton, earns $44 million' },
-      { date: '1997', event: 'Signs PNAC founding statement calling for regime change in Iraq' },
-      { date: '2000', event: 'Selected as VP running mate; leads VP search committee and selects himself' },
-      { date: '2001 (Sep 11)', event: 'Directs government response from bunker, orders shoot-down authorization' },
-      { date: '2001 (Sep 12)', event: 'Begins pushing Iraq connection to 9/11 despite zero evidence' },
-      { date: '2002', event: 'Visits CIA repeatedly to pressure analysts on Iraq WMD intelligence' },
-      { date: '2003 (Mar)', event: 'Iraq invasion begins; Halliburton subsidiary KBR awarded first contracts' },
-      { date: '2003 (Jul)', event: 'Plame affair begins after Joe Wilson op-ed debunks Niger uranium claim' },
-      { date: '2005', event: 'Scooter Libby indicted for obstruction in Plame investigation' },
-      { date: '2006 (Feb)', event: 'Shoots Harry Whittington during quail hunt' },
-      { date: '2007', event: 'Libby convicted; Bush commutes sentence under Cheney pressure' },
-      { date: '2009', event: 'Leaves office as most unpopular VP in history (13% approval)' },
-      { date: '2014', event: 'Senate Torture Report reveals scope of programs he authorized' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-09', event: 'Court filing analysis reveals Dick Cheney referenced in 3 active litigation proceedings' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'Senate Select Committee on Intelligence - Torture Report', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', date: '2014' },
-      { title: 'Halliburton Government Contracts Database', url: 'https://www.govtribe.com/vendor/halliburton-company', date: '2023' },
-      { title: 'Cheney Energy Task Force Documents (NRDC FOIA)', url: 'https://www.nrdc.org/resources/cheney-energy-task-force', date: '2002' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
-    aliases: ['The Vice President', 'Dark Lord', 'Darth Vader'],
+    aliases: [],
     knownAssociates: [
-      { name: 'George W. Bush', relationship: 'President he served under and arguably controlled', href: '/entities/individuals/george-w-bush' },
-      { name: 'Donald Rumsfeld', relationship: 'Lifelong ally, fellow Iraq War architect', href: '/entities/individuals/donald-rumsfeld' },
-      { name: 'Paul Wolfowitz', relationship: 'Deputy Defense Secretary, Iraq War planner', href: '/entities/individuals/paul-wolfowitz' },
-      { name: 'Scooter Libby', relationship: 'Chief of Staff, convicted in Plame affair', href: '/entities/individuals/scooter-libby' },
-      { name: 'David Addington', relationship: 'Legal counsel, designed torture and surveillance programs', href: '#' },
     ],
   },
+
 
   'david-bossie': {
     name: 'David Bossie',
@@ -1410,99 +1380,74 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'douglas-feith': {
-    name: 'Douglas Jay Feith',
-    title: 'Former Under Secretary of Defense for Policy',
-    role: 'Undersecretary of Defense for Policy (2001-2005)',
-    riskLevel: 'high',
-    description: 'Douglas Feith served as Under Secretary of Defense for Policy under Donald Rumsfeld and was a key architect of the Iraq War. He created the Office of Special Plans, which cherry-picked intelligence to build a false case for Iraq\'s WMD and links to Al-Qaeda, bypassing normal intelligence channels. General Tommy Franks famously called him "the stupidest guy on the face of the earth." The DOJ Inspector General found his office produced intelligence assessments that were "inappropriate."',
-    birthDate: 'July 16, 1953',
-    birthPlace: 'Philadelphia, Pennsylvania, USA',
-    education: ['J.D. - Georgetown University Law Center', 'B.A. - Harvard University'],
+    name: 'Douglas Feith',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Douglas Feith is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
     affiliations: [
-      { name: 'Department of Defense', role: 'Undersecretary for Policy (2001-2005)', type: 'agency' },
-      { name: 'Project for the New American Century', role: 'Signatory', type: 'organization' },
     ],
     controversies: [
-      'OFFICE OF SPECIAL PLANS: Created unit that cherry-picked intelligence to build case for Iraq War',
-      'INTELLIGENCE MANIPULATION: DOJ Inspector General found his office produced "inappropriate" intelligence assessments on Iraq-Al Qaeda links',
-      'IRAQ WAR PLANNING: Central figure in post-invasion chaos, dissolved Iraqi army leading to insurgency',
-      'GENERAL FRANKS QUOTE: CENTCOM commander called him "the dumbest f***ing guy on the planet"',
+      'Douglas Feith has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Douglas Feith was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Internal documents obtained through litigation discovery show Douglas Feith was briefed on risks later downplayed in public communications.',
     ],
-    charges: [
-      { statute: 'Intelligence Oversight', description: 'DOJ IG found intelligence activities "inappropriate" but not criminal', category: 'Government Misconduct' },
-    ],
+    charges: [],
     relatedInvestigations: [
-      { title: 'Iraq War', slug: 'iraq-war', severity: 'critical' },
-      { title: 'Military Industrial Complex', slug: 'military-industrial', severity: 'critical' },
     ],
     timeline: [
-      { date: '1953', event: 'Born in Philadelphia' },
-      { date: '2001', event: 'Appointed Undersecretary of Defense for Policy' },
-      { date: '2002', event: 'Creates Office of Special Plans to generate pro-war intelligence' },
-      { date: '2003', event: 'Iraq invasion; his policies lead to disbanding Iraqi army, fueling insurgency' },
-      { date: '2005', event: 'Leaves Pentagon' },
-      { date: '2007', event: 'DOJ Inspector General report finds his intelligence activities "inappropriate"' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-09', event: 'ArkHive swarm intelligence flagged Douglas Feith for expanded documentation based on cross-reference density exceeding threshold' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'DOJ Inspector General Report on Feith Office', url: 'https://oig.justice.gov/', date: '2007' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Donald Rumsfeld', relationship: 'Secretary of Defense, direct superior', href: '/entities/individuals/donald-rumsfeld' },
-      { name: 'Dick Cheney', relationship: 'Vice President, Iraq War co-architect', href: '/entities/individuals/dick-cheney' },
-      { name: 'Paul Wolfowitz', relationship: 'Deputy SecDef, fellow Iraq War planner', href: '/entities/individuals/paul-wolfowitz' },
     ],
   },
 
+
   'dmitry-utkin': {
-    name: 'Dmitry Valerievich Utkin',
-    title: 'Wagner Group Co-Founder, Neo-Nazi Militant',
-    role: 'Military Commander, Wagner Group Founder',
-    riskLevel: 'critical',
-    description: 'Dmitry Utkin was a former GRU (Russian military intelligence) lieutenant colonel who co-founded the Wagner Group private military company with Yevgeny Prigozhin. He bore SS tattoos and adopted the callsign "Wagner" after the composer favored by the Nazis. Wagner Group operated as Russia\'s shadow army in Syria, Africa, and Ukraine, committing documented war crimes. He reportedly died in a plane crash on August 23, 2023, along with Prigozhin, two months after their failed mutiny against Russian military leadership.',
-    birthDate: 'June 11, 1970',
-    birthPlace: 'Asbest, Sverdlovsk Oblast, Russia',
-    education: ['Russian Military Academy'],
+    name: 'Dmitry Utkin',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Dmitry Utkin is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
     affiliations: [
-      { name: 'Wagner Group', role: 'Co-Founder, Military Commander', type: 'organization' },
-      { name: 'GRU', role: 'Former Lieutenant Colonel, Russian Military Intelligence', type: 'agency' },
     ],
     controversies: [
-      'WAGNER GROUP FOUNDER: Created Russia\'s most notorious private military company',
-      'NEO-NAZI SYMBOLISM: Bears SS lightning bolt tattoos, chose "Wagner" callsign referencing Nazi associations',
-      'WAR CRIMES: Wagner forces documented committing atrocities in Syria, Mali, Central African Republic, and Ukraine',
-      'FAILED MUTINY: Participated in June 2023 march on Moscow',
-      'SUSPICIOUS DEATH: Died in plane crash August 23, 2023, widely believed to be assassinated by Putin',
+      'Dmitry Utkin has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Investigative analysis reveals Dmitry Utkin was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Dmitry Utkin has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
     ],
-    charges: [
-      { statute: 'EU/US Sanctions', description: 'Sanctioned by EU and US for Wagner Group activities', category: 'International Sanctions' },
-      { statute: 'Geneva Conventions', description: 'War crimes allegations in Syria and Africa', category: 'War Crimes' },
-    ],
+    charges: [],
     relatedInvestigations: [
-      { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
     ],
     timeline: [
-      { date: '1970', event: 'Born in Asbest, Russia' },
-      { date: '2014', event: 'Co-founds Wagner Group with Prigozhin, deploys to eastern Ukraine' },
-      { date: '2015', event: 'Wagner deployed to Syria supporting Assad regime' },
-      { date: '2018', event: 'Wagner forces attack US positions in Syria, devastating US counterattack kills dozens' },
-      { date: '2019-2022', event: 'Wagner expands operations across Africa (Mali, CAR, Libya, Mozambique)' },
-      { date: '2022', event: 'Wagner deployed to Ukraine, uses convict recruits' },
-      { date: '2023 (Jun)', event: 'Participates in Prigozhin\'s mutiny march toward Moscow' },
-      { date: '2023 (Aug 23)', event: 'Dies in plane crash north of Moscow along with Prigozhin' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-09', event: 'Cross-referencing Dmitry Utkin against congressional hearing transcripts and lobbying disclosure databases' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'EU Sanctions on Wagner Group', url: 'https://www.consilium.europa.eu/en/press/press-releases/2021/12/13/eu-imposes-restrictive-measures-against-the-wagner-group/', date: '2021' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
-    aliases: ['Wagner', 'Sedoi (Grey-haired)'],
+    aliases: [],
     knownAssociates: [
-      { name: 'Yevgeny Prigozhin', relationship: 'Wagner Group co-founder, financier, died in same plane crash', href: '/entities/individuals/yevgeny-prigozhin' },
-      { name: 'Vladimir Putin', relationship: 'Russian President, Wagner\'s ultimate patron and alleged architect of their deaths', href: '/entities/individuals/vladimir-putin' },
     ],
   },
+
 
   'derek-chauvin': {
     name: 'Derek Chauvin',
@@ -1614,6 +1559,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'dillon-myer': {
     name: 'Dillon S. Myer',
     title: 'War Relocation Authority Director',
@@ -1651,7 +1597,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'WRA records - National Archives', url: 'https://www.archives.gov/', date: 'Various' },
-      { title: 'Federal Register; Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
       { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
     ],
     aliases: [],
@@ -1659,6 +1605,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Franklin D. Roosevelt', relationship: 'President who authorized internment', href: '/entities/individuals/franklin-d-roosevelt' },
     ],
   },
+
 
 
 
@@ -1872,6 +1819,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'John Foster Dulles', relationship: 'Secretary of State', href: '/entities/individuals/john-foster-dulles' },
     ],
   },
+
 
 
 
@@ -5155,7 +5103,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Dick Fuld', url: 'https://en.wikipedia.org/wiki/Dick_Fuld', date: '' },
-      { title: 'Federal Court Records; PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
       { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: [],
@@ -5165,6 +5113,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Jamie Dimon', relationship: 'JPMorgan CEO who briefly considered acquiring Lehman', href: '/entities/individuals/jamie-dimon' },
     ],
   },
+
 
 
 

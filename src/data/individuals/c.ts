@@ -896,6 +896,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'condoleezza-rice': {
     name: 'Condoleezza Rice',
     title: 'Former Secretary of State, Former National Security Advisor',
@@ -979,6 +980,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Paul Wolfowitz', relationship: 'Deputy Secretary of Defense, neocon ally', href: '/entities/individuals/paul-wolfowitz' },
     ],
   },
+
 
 
 
@@ -1896,14 +1898,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -2496,14 +2499,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -3996,6 +4000,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
  'cyrus-hashemi': {
  name: 'Cyrus Hashemi',
  title: 'Iranian arms dealer who allegedly served as intermediary; died mysteriously in London in 1986',
@@ -4064,42 +4069,46 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
- 'carrie-tolstedt': {
- name: 'Carrie Tolstedt',
- title: 'Former Head of Community Banking, Wells Fargo',
- role: 'Executive charged in fake accounts scandal',
- riskLevel: 'high',
- description: 'Carrie Lynn Tolstedt oversaw Wells Fargo Community Banking division during the period when employees opened millions of unauthorized accounts in customers names to meet aggressive sales targets. She retired with a $125 million compensation package before the scandal became public and was later charged by the SEC and OCC.',
- education: ['University of Iowa, BA', 'University of Iowa, MBA'],
- affiliations: [
- { name: 'Wells Fargo', role: 'Senior Executive Vice President, Community Banking', type: 'corporation' },
- ],
- controversies: [
+  'carrie-tolstedt': {
+    name: 'Carrie Tolstedt',
+    title: 'Former Head of Community Banking, Wells Fargo',
+    role: 'Executive charged in fake accounts scandal',
+    riskLevel: 'high',
+    description: 'Carrie Lynn Tolstedt oversaw Wells Fargo Community Banking division during the period when employees opened millions of unauthorized accounts in customers names to meet aggressive sales targets. She retired with a $125 million compensation package before the scandal became public and was later charged by the SEC and OCC.',
+    education: ['University of Iowa, BA', 'University of Iowa, MBA'],
+    affiliations: [
+      { name: 'Wells Fargo', role: 'Senior Executive Vice President, Community Banking', type: 'corporation' },
+    ],
+    controversies: [
       'Oversaw the Wells Fargo cross-selling culture that led to employees opening approximately 3.5 million unauthorized bank and credit card accounts in customers names',
       'Received a $125 million retirement package when she left the company in July 2016, two months before the scandal became public',
       'SEC charged her with misleading investors about the success of Wells Fargo Community Banking cross-selling strategy while knowing about the underlying fraud',
       'OCC imposed a $17 million civil money penalty and banned her from the banking industry',
       'Pleaded guilty in 2024 to a criminal charge of obstructing a bank examination in connection with the fake accounts scandal',
     ],
- relatedInvestigations: [
- { title: 'Wells Fargo Fake Accounts Scandal', slug: 'wells-fargo-fraud', severity: 'critical' },
- ],
- timeline: [
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Wells Fargo Fake Accounts Scandal', slug: 'wells-fargo-fraud', severity: 'critical' },
+    ],
+    timeline: [
       { date: '2008-01-01', event: 'Named head of Wells Fargo Community Banking division' },
       { date: '2016-07-31', event: 'Retired from Wells Fargo with $125 million package' },
       { date: '2016-09-08', event: 'CFPB fines Wells Fargo $185 million for unauthorized accounts' },
       { date: '2020-01-23', event: 'OCC bans Tolstedt from banking, imposes $17 million fine' },
       { date: '2024-09-12', event: 'Pleaded guilty to obstruction of a bank examination' },
     ],
- sources: [
+    socialMedia: [],
+    sources: [
       { title: 'SEC Charges Against Tolstedt', url: 'https://www.sec.gov/litigation/litreleases/', date: '2024-01-01' },
       { title: 'OCC Enforcement Action', url: 'https://www.occ.treas.gov/topics/laws-and-regulations/enforcement-actions/', date: '2020-01-23' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-09' },
     ],
- knownAssociates: [
+    aliases: [],
+    knownAssociates: [
       { name: 'John Stumpf', relationship: 'Wells Fargo CEO who resigned over the fake accounts scandal', href: '/entities/individuals/john-stumpf' },
     ],
+  },
 
- },
  'cathy-oneil': {
  name: 'Cathy O\'Neil',
  title: 'Data scientist and author of "Weapons of Math Destruction "who exposed algorithmic bias in predictive policing',
