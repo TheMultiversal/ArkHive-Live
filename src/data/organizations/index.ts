@@ -1250,6 +1250,15 @@ const organizations: Record<string, OrganizationProfile> = {
     riskLevel: 'low',
     members: 'Unknown',
   },
+  'saudi-arabian-government': {
+    name: 'Saudi Arabian Government',
+    slug: 'saudi-arabian-government',
+    type: 'Organization',
+    description: 'Saudi Arabian Government is an organization identified through ArkHive\'s investigative network analysis. This organization has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations.',
+    riskLevel: 'medium',
+    members: 'Unknown',
+  },
+
 };
 
 export default organizations;

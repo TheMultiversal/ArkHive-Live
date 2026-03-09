@@ -2092,6 +2092,17 @@ const corporations: Record<string, CorporationProfile> = {
     investigationCount: 1,
     riskLevel: 'moderate',
   },
+  'eli-lilly': {
+    id: '6f83731712ef3517',
+    slug: 'eli-lilly',
+    name: 'Eli Lilly',
+    type: 'corporation',
+    description: 'Eli Lilly is a corporate entity identified through ArkHive\'s investigative network analysis. This corporation has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into corporate power and accountability.',
+    role: 'Corporation',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
 };
 
 export default corporations;

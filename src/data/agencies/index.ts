@@ -1412,6 +1412,28 @@ const agencies: Record<string, AgencyProfile> = {
     investigationCount: 1,
     riskLevel: 'moderate',
   },
+  'gchq': {
+    id: '619bea91406fcd7a',
+    slug: 'gchq',
+    name: 'Gchq',
+    type: 'agency',
+    description: 'Gchq is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+  'cms': {
+    id: '1ee8fa3e5aa83ec9',
+    slug: 'cms',
+    name: 'Cms',
+    type: 'agency',
+    description: 'Cms is a government agency identified through ArkHive\'s investigative network analysis. This agency has been flagged for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations into institutional power structures and accountability gaps.',
+    role: 'Government Agency',
+    investigationCount: 0,
+    riskLevel: 'moderate',
+  },
+
+
 };
 
 export default agencies;
