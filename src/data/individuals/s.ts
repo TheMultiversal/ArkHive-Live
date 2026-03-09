@@ -117,6 +117,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'sidney-powell': {
     name: 'Sidney Powell',
     title: 'Subject of Record',
@@ -313,6 +314,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'shaye-moss': {
     name: 'Wandrea ArShaye"Shaye"Moss',
     title: 'Former Georgia Election Worker',
@@ -363,6 +365,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Rudy Giuliani', relationship: 'Defamed her, owes $148 million judgment', href: '/entities/individuals/rudy-giuliani' },
     ],
   },
+
 
 
 

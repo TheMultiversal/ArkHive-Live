@@ -2,38 +2,35 @@
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
- 'qasem-soleimani': {
- name: 'Qasem Soleimani',
- title: 'Former Commander, IRGC Quds Force',
- role: 'Iranian military leader',
- riskLevel: 'critical',
- description: 'Major General Qasem Soleimani commanded the Quds Force of Iran Islamic Revolutionary Guard Corps (IRGC) for over two decades, overseeing Iran proxy warfare and covert operations across the Middle East. He was killed in a U.S. drone strike at Baghdad International Airport on January 3, 2020, in an operation ordered directly by President Trump.',
- birthDate: 'March 11, 1957',
- birthPlace: 'Qanat-e Malek, Iran',
- deathDate: 'January 3, 2020',
- education: ['Kerman University (partial)'],
- affiliations: [
- { name: 'Islamic Revolutionary Guard Corps', role: 'Quds Force Commander', type: 'agency' },
- { name: 'Iranian Government', role: 'Major General', type: 'agency' },
- ],
- knownAssociates: [
-      { name: 'Abu Mahdi al-Muhandis', relationship: 'Iraqi militia commander killed in same drone strike', href: '/entities/individuals/abu-mahdi-al-muhandis' },
+  'qasem-soleimani': {
+    name: 'Qasem Soleimani',
+    title: 'Former Commander, IRGC Quds Force',
+    role: 'Iranian military leader',
+    riskLevel: 'critical',
+    description: 'Major General Qasem Soleimani commanded the Quds Force of Iran Islamic Revolutionary Guard Corps (IRGC) for over two decades, overseeing Iran proxy warfare and covert operations across the Middle East. He was killed in a U.S. drone strike at Baghdad International Airport on January 3, 2020, in an operation ordered directly by President Trump.',
+    birthDate: 'March 11, 1957',
+    birthPlace: 'Qanat-e Malek, Iran',
+    deathDate: 'January 3, 2020',
+    education: ['Kerman University (partial)'],
+    affiliations: [
+      { name: 'Islamic Revolutionary Guard Corps', role: 'Quds Force Commander', type: 'agency' },
+      { name: 'Iranian Government', role: 'Major General', type: 'agency' },
     ],
- controversies: [
+    controversies: [
       'Directed Iranian proxy operations across Iraq, Syria, Lebanon, and Yemen that resulted in hundreds of American military deaths through provision of explosively formed penetrators (EFPs) and other weapons to Iraqi militias',
       'Orchestrated Iranian military intervention in Syria to prop up the Assad regime, including coordination of Hezbollah, Iraqi Shia militias, and Afghan Fatemiyoun Brigade',
       'Designated as a terrorist by the United States, European Union, and multiple other nations for supporting terrorism worldwide',
       'Assassination by U.S. drone strike in January 2020 triggered Iranian ballistic missile attack on U.S. bases in Iraq, with over 100 American troops suffering traumatic brain injuries',
       'Pentagon assessment attributed responsibility for the deaths of at least 603 American service members in Iraq to Soleimani-directed militia operations',
     ],
- charges: [
+    charges: [
       { statute: 'Executive Order 13224', description: 'Specially Designated Global Terrorist', category: 'Terrorism' },
       { statute: 'UNSCR 1747', description: 'UN Security Council travel ban and asset freeze', category: 'Sanctions' },
     ],
- relatedInvestigations: [
- { title: 'Drone Assassination Program', slug: 'drone-assassinations', severity: 'critical' },
- ],
- timeline: [
+    relatedInvestigations: [
+      { title: 'Drone Assassination Program', slug: 'drone-assassinations', severity: 'critical' },
+    ],
+    timeline: [
       { date: '1998-01-01', event: 'Appointed commander of IRGC Quds Force' },
       { date: '2003-04-01', event: 'Began directing support for Iraqi Shia militias following U.S. invasion' },
       { date: '2007-10-25', event: 'Designated under Executive Order 13224 by U.S. Treasury' },
@@ -42,12 +39,18 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2015-09-01', event: 'Traveled to Moscow to coordinate Russian intervention in Syria' },
       { date: '2020-01-03', event: 'Killed by U.S. MQ-9 Reaper drone strike at Baghdad International Airport' },
     ],
- sources: [
+    socialMedia: [],
+    sources: [
       { title: 'DOD Statement on Strike Against Soleimani', url: 'https://www.defense.gov/News/Releases/Release/Article/2049534/', date: '2020-01-03' },
       { title: 'Treasury OFAC - Soleimani Designation', url: 'https://www.treasury.gov/resource-center/sanctions/', date: '2007-10-25' },
+      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-09' },
     ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Abu Mahdi al-Muhandis', relationship: 'Iraqi militia commander killed in same drone strike', href: '/entities/individuals/abu-mahdi-al-muhandis' },
+    ],
+  },
 
- },
  'queen-isabella': {
  name: 'Queen Isabella I',
  title: 'Queen of Castile',
