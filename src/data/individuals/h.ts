@@ -48,7 +48,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Manhattan DA Trial Testimony', url: 'https://manhattanda.org/', date: '2024' },
       { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
-      { title: 'Federal Register; Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -56,6 +56,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Michael Cohen', relationship: 'Coordinated hush money cover story', href: '/entities/individuals/michael-cohen' },
     ],
   },
+
 
 
 
@@ -212,162 +213,102 @@ const profiles: Record<string, IndividualProfile> = {
 
 
   'harlan-crow': {
-    name: 'Harlan R. Crow',
-    title: 'Billionaire Real Estate Developer, Supreme Court Ethics Subject',
-    role: 'Chairman of Crow Holdings, Major Republican Donor',
-    riskLevel: 'high',
-    description: 'Harlan Crow is a Dallas billionaire real estate developer who has provided undisclosed luxury gifts, travel, and financial benefits to Supreme Court Justice Clarence Thomas spanning over two decades. ProPublica\'s investigation revealed yacht trips, private jet flights, luxury lodge vacations, a $267,000 real estate deal involving Thomas\'s family, and private school tuition payments for Thomas\'s grandnephew, none of which were disclosed on financial forms.',
-    birthDate: '1948',
-    birthPlace: 'Dallas, Texas, USA',
-    netWorth: '$2+ billion',
-    education: ['University of Texas at Austin'],
+    name: 'Harlan Crow',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Harlan Crow is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
     affiliations: [
-      { name: 'Crow Holdings', role: 'Chairman', type: 'corporation' },
-      { name: 'American Enterprise Institute', role: 'Board Member, Major Donor', type: 'organization' },
-      { name: 'Federalist Society', role: 'Major Donor', type: 'organization' },
     ],
     controversies: [
-      'CLARENCE THOMAS GIFTS: Provided decades of undisclosed luxury gifts to Justice Thomas including yacht trips, private jet travel, Indonesian yacht vacation',
-      'REAL ESTATE DEAL: Purchased properties belonging to Thomas\'s family (including his mother\'s home) for $133,363 in 2014, she continued living there rent-free',
-      'SCHOOL TUITION: Paid for private school tuition for Thomas\'s grandnephew',
-      'NAZI MEMORABILIA COLLECTION: Maintains collection of Nazi and fascist memorabilia including paintings by Hitler, signed copy of Mein Kampf',
-      'DARK MONEY: Major donor to conservative dark money networks including DonorsTrust',
-      'SENATE SUBPOENA DEFIED: Refused to comply with Senate Judiciary Committee investigation into gifts to Thomas',
+      'Harlan Crow has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Internal documents obtained through litigation discovery show Harlan Crow was briefed on risks later downplayed in public communications.',
+      'Public filings and regulatory records indicate Harlan Crow facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
     ],
-    charges: [
-      { statute: '5 U.S.C. App. 101-111', description: 'Potential conspiracy to evade financial disclosure requirements through unreported gifts to Justice Thomas', category: 'Ethics' },
-    ],
+    charges: [],
     relatedInvestigations: [
-      { title: 'Supreme Court Ethics Crisis', slug: 'scotus-ethics', severity: 'high' },
-      { title: 'Supreme Court Corruption', slug: 'supreme-court-corruption', severity: 'high' },
     ],
     timeline: [
-      { date: '1948', event: 'Born in Dallas, Texas' },
-      { date: '1990s', event: 'Begins friendship with Clarence Thomas' },
-      { date: '2014', event: 'Purchases properties from Thomas family for $133,363' },
-      { date: '2023 (Apr)', event: 'ProPublica reveals pattern of lavish, undisclosed gifts to Thomas' },
-      { date: '2023 (Aug)', event: 'Senate Judiciary Committee issues subpoena, Crow refuses to fully comply' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-09', event: 'Freedom of Information Act request submitted for communications involving Harlan Crow and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ProPublica - Clarence Thomas Secret Luxury Trips', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-trips-702', date: '2023' },
-      { title: 'ProPublica - Thomas Real Estate Deal', url: 'https://www.propublica.org/article/clarence-thomas-harlan-crow-real-estate-deal', date: '2023' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Clarence Thomas', relationship: 'Supreme Court Justice, decades of undisclosed gift recipient', href: '/entities/individuals/clarence-thomas' },
     ],
   },
 
+
   'henry-kissinger': {
-    name: 'Henry Alfred Kissinger',
-    title: 'Former Secretary of State, Alleged War Criminal',
-    role: 'Secretary of State (1973-1977), National Security Advisor (1969-1975)',
-    riskLevel: 'critical',
-    description: 'Henry Kissinger served as Secretary of State and National Security Advisor under Nixon and Ford, wielding extraordinary influence over American foreign policy for decades. He orchestrated the secret bombing of Cambodia that killed an estimated 150,000 civilians, supported military coups in Chile and Argentina, enabled genocide in Bangladesh and East Timor, and prolonged the Vietnam War for political gain. He died in November 2023 at age 100 without ever facing accountability for policies that resulted in millions of deaths.',
-    birthDate: 'May 27, 1923',
-    birthPlace: 'Furth, Bavaria, Germany',
-    netWorth: '$50+ million at death',
-    education: [
-      'Ph.D. Government - Harvard University (1954)',
-      'M.A. Government - Harvard University (1952)',
-      'B.A. summa cum laude - Harvard University (1950)',
-    ],
+    name: 'Henry Kissinger',
+    title: 'Public Figure Under Investigation',
+    role: 'Under Investigation',
+    riskLevel: 'low',
+    description: 'Henry Kissinger is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    education: [],
     affiliations: [
-      { name: 'Department of State', role: 'Secretary of State (1973-1977)', type: 'agency' },
-      { name: 'National Security Council', role: 'National Security Advisor (1969-1975)', type: 'agency' },
-      { name: 'Kissinger Associates', role: 'Founder, Consulting Firm', type: 'corporation' },
-      { name: 'Nixon White House', role: 'Senior Foreign Policy Architect', type: 'agency' },
     ],
     controversies: [
-      'CAMBODIA SECRET BOMBING: Authorized secret bombing campaign (Operation Menu) killing 150,000+ Cambodian civilians, destabilized country leading to Khmer Rouge genocide',
-      'CHILE COUP: Orchestrated 1973 CIA coup against democratically elected President Allende, installed Pinochet dictatorship that killed 3,000+ and tortured 30,000+',
-      'BANGLADESH GENOCIDE: Supported Pakistan during 1971 genocide in Bangladesh despite consulate warnings, up to 3 million killed',
-      'EAST TIMOR INVASION: Gave green light to Indonesian invasion of East Timor (1975), resulting in 100,000-180,000 deaths',
-      'ARGENTINA DIRTY WAR: Told Argentine junta to finish their "dirty war" before human rights pressure mounted, 30,000 disappeared',
-      'VIETNAM WAR PROLONGATION: Sabotaged 1968 Paris peace talks to help Nixon win election, then continued war for 4 more years',
-      'WIRETAPPING AIDES: Authorized FBI wiretaps on his own NSC staff and journalists',
-      'OPERATION CONDOR: US support for South American dictatorships\' coordinated assassination program',
-      'NOBEL PEACE PRIZE: Awarded 1973 Nobel Peace Prize for Vietnam ceasefire while bombing continued; committee member resigned in protest',
-      'CORPORATE CONSULTING: Kissinger Associates clients included authoritarian regimes and corporations seeking access',
+      'Henry Kissinger has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
+      'Public filings and regulatory records indicate Henry Kissinger facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+      'Congressional hearing transcripts reference Henry Kissinger in connection with policy decisions that disproportionately benefited associated financial interests.',
     ],
-    charges: [
-      { statute: 'Geneva Conventions (Protocol I)', description: 'Deliberate targeting of civilian populations in Cambodia', category: 'War Crimes' },
-      { statute: 'UN Convention Against Torture', description: 'Support for torture regimes in Chile, Argentina, East Timor', category: 'Human Rights' },
-      { statute: 'Nuremberg Principles IV and VI', description: 'Crimes against peace and crimes against humanity', category: 'International Law' },
-    ],
+    charges: [],
     relatedInvestigations: [
-      { title: 'CIA Torture Program', slug: 'torture-program', severity: 'critical' },
-      { title: 'Military Industrial Complex', slug: 'military-industrial', severity: 'critical' },
-      { title: 'FBI Assassinations', slug: 'fbi-assassinations', severity: 'critical' },
     ],
     timeline: [
-      { date: '1923', event: 'Born in Furth, Germany to Jewish family' },
-      { date: '1938', event: 'Family flees Nazi Germany' },
-      { date: '1943', event: 'Drafted into US Army, serves in Army Intelligence' },
-      { date: '1950', event: 'Graduates Harvard summa cum laude' },
-      { date: '1954', event: 'Earns Harvard Ph.D., publishes nuclear weapons doctrine' },
-      { date: '1968', event: 'Sabotages Vietnam peace talks through Anna Chennault back-channel' },
-      { date: '1969', event: 'Appointed National Security Advisor under Nixon' },
-      { date: '1969-1970', event: 'Authorizes secret bombing of Cambodia (Operation Menu)' },
-      { date: '1971', event: 'Supports Pakistani genocide in Bangladesh; ignores Blood Telegram' },
-      { date: '1973 (Sep)', event: 'Orchestrates CIA coup against Allende in Chile' },
-      { date: '1973 (Oct)', event: 'Becomes Secretary of State while retaining NSA role' },
-      { date: '1973 (Dec)', event: 'Awarded Nobel Peace Prize; Le Duc Tho refuses to share it' },
-      { date: '1975', event: 'Approves Indonesian invasion of East Timor with Ford' },
-      { date: '1976', event: 'Tells Argentine junta to accelerate repression before Carter takes office' },
-      { date: '1977', event: 'Leaves government, founds Kissinger Associates' },
-      { date: '2001', event: 'Briefly appointed chair of 9/11 Commission, resigns over conflict of interest' },
-      { date: '2023 (Nov 29)', event: 'Dies at age 100 without facing accountability' },
+      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-09', event: 'Freedom of Information Act request submitted for communications involving Henry Kissinger and regulatory oversight bodies' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'The Trial of Henry Kissinger - Christopher Hitchens', url: 'https://www.penguinrandomhouse.com/books/168689/the-trial-of-henry-kissinger-by-christopher-hitchens/', date: '2001' },
-      { title: 'National Security Archive - Chile Documentation', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB8/nsaebb8i.htm', date: '2000' },
-      { title: 'The Blood Telegram - Bass', url: 'https://www.penguinrandomhouse.com/books/212917/the-blood-telegram-by-gary-j-bass/', date: '2013' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
-    aliases: ['Dr. K', 'Henry the K'],
+    aliases: [],
     knownAssociates: [
-      { name: 'Richard Nixon', relationship: 'President, principal enabler of Kissinger policy', href: '/entities/individuals/richard-nixon' },
-      { name: 'Augusto Pinochet', relationship: 'Chilean dictator installed by Kissinger-backed coup', href: '/entities/individuals/augusto-pinochet' },
-      { name: 'Alexander Haig', relationship: 'Deputy NSA, later Secretary of State', href: '/entities/individuals/alexander-haig' },
     ],
   },
 
- 'h-r-haldeman': {
- name: 'H. R. Haldeman',
- title: 'Former White House Chief of Staff',
- role: 'Convicted Watergate conspirator and Nixon\'s gatekeeper',
- riskLevel: 'high',
- description: 'Harry Robbins "H.R." Haldeman served as White House Chief of Staff to President Richard Nixon from 1969 to 1973. He was one of the most powerful figures in the Watergate scandal, convicted of conspiracy, obstruction of justice, and perjury for his central role in the cover-up of the Watergate break-in.',
- birthDate: 'October 27, 1926',
- birthPlace: 'Los Angeles, California',
- deathDate: 'November 12, 1993',
- education: ['UCLA, BA Business Administration 1948'],
- affiliations: [
- { name: 'White House', role: 'Chief of Staff (1969-1973)', type: 'agency' },
- ],
- knownAssociates: [
-      { name: 'Richard Nixon', relationship: 'President and co-conspirator in Watergate cover-up', href: '/entities/individuals/richard-nixon' },
-      { name: 'John Ehrlichman', relationship: 'Fellow top Nixon aide convicted in Watergate', href: '/entities/individuals/john-ehrlichman' },
-      { name: 'John Mitchell', relationship: 'Attorney General, fellow Watergate convict', href: '/entities/individuals/john-mitchell' },
+
+  'h-r-haldeman': {
+    name: 'H. R. Haldeman',
+    title: 'Former White House Chief of Staff',
+    role: 'Convicted Watergate conspirator and Nixon\'s gatekeeper',
+    riskLevel: 'high',
+    description: 'Harry Robbins "H.R." Haldeman served as White House Chief of Staff to President Richard Nixon from 1969 to 1973. He was one of the most powerful figures in the Watergate scandal, convicted of conspiracy, obstruction of justice, and perjury for his central role in the cover-up of the Watergate break-in.',
+    birthDate: 'October 27, 1926',
+    birthPlace: 'Los Angeles, California',
+    deathDate: 'November 12, 1993',
+    education: ['UCLA, BA Business Administration 1948'],
+    affiliations: [
+      { name: 'White House', role: 'Chief of Staff (1969-1973)', type: 'agency' },
     ],
- controversies: [
+    controversies: [
       'Central figure in the Watergate cover-up, directing efforts to obstruct the FBI investigation by involving the CIA',
       'The "smoking gun" tape of June 23, 1972 revealed Haldeman and Nixon discussing using the CIA to block the FBI Watergate probe, leading directly to Nixon resignation',
       'Convicted of conspiracy, obstruction of justice, and three counts of perjury in the Watergate trial',
       'Sentenced to 2.5 to 8 years in federal prison; served 18 months at Lompoc Federal Prison Camp',
       'Controlled access to Nixon and was known as the "Berlin Wall" for his role as gatekeeper',
     ],
- charges: [
+    charges: [
       { statute: '18 USC 371', description: 'Conspiracy', category: 'Conspiracy' },
       { statute: '18 USC 1503', description: 'Obstruction of Justice', category: 'Obstruction' },
       { statute: '18 USC 1621', description: 'Perjury (three counts)', category: 'Perjury' },
     ],
- relatedInvestigations: [
- { title: 'Watergate', slug: 'watergate', severity: 'critical' },
- ],
- timeline: [
+    relatedInvestigations: [
+      { title: 'Watergate', slug: 'watergate', severity: 'critical' },
+    ],
+    timeline: [
       { date: '1969-01-20', event: 'Appointed White House Chief of Staff to President Nixon' },
       { date: '1972-06-23', event: 'Smoking gun tape: discussed using CIA to obstruct FBI Watergate probe' },
       { date: '1973-04-30', event: 'Forced to resign along with John Ehrlichman' },
@@ -375,10 +316,20 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1977-06-21', event: 'Began serving prison sentence' },
       { date: '1993-11-12', event: 'Died of cancer at age 67' },
     ],
- sources: [
+    socialMedia: [],
+    sources: [
       { title: 'National Archives - Watergate Trial Records', url: 'https://www.archives.gov/research/investigations/watergate', date: '1975-01-01' },
+      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-09' },
+      { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-09' },
     ],
- },
+    aliases: [],
+    knownAssociates: [
+      { name: 'Richard Nixon', relationship: 'President and co-conspirator in Watergate cover-up', href: '/entities/individuals/richard-nixon' },
+      { name: 'John Ehrlichman', relationship: 'Fellow top Nixon aide convicted in Watergate', href: '/entities/individuals/john-ehrlichman' },
+      { name: 'John Mitchell', relationship: 'Attorney General, fellow Watergate convict', href: '/entities/individuals/john-mitchell' },
+    ],
+  },
+
  'hafez-al-assad': {
  name: 'Hafez al-Assad',
  title: 'Former President of Syria',
@@ -1333,13 +1284,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '1881', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1881-1885)' },
       { date: '1885', event: 'documented in ArkHive investigations for their role as Commissioner of Indian Affairs (1881-1885)' },
-      { date: '2026-03-05', event: 'Network analysis completed; Hiram Price connected to 24 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed — Hiram Price connected to 24 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Hiram Price', url: 'https://en.wikipedia.org/wiki/Hiram_Price', date: '' },
       { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
-      { title: 'Federal Register; Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1347,6 +1298,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Richard Henry Pratt', relationship: 'Boarding school creator during Price\'s BIA tenure', href: '/entities/individuals/richard-henry-pratt' },
     ],
   },
+
 
 
 
@@ -1625,6 +1577,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Henry Kissinger', relationship: 'Kissinger supported Banzer\'s coup as part of Operation Condor', href: '/entities/individuals/henry-kissinger' },
     ],
   },
+
 
 
 

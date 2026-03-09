@@ -749,6 +749,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'elizabeth-holmes': {
     name: 'Elizabeth Holmes',
     title: 'Public Official',
@@ -1054,6 +1055,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Tewolde Gebremariam', relationship: 'Ethiopian Airlines CEO whose airline lost Flight 302', href: '/entities/individuals/tewolde-gebremariam' },
     ],
   },
+
 
 
 
@@ -2210,7 +2212,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School) - the most notorious torture and e' },
       { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Emilio Eduardo Massera for expanded documentation based on cross-reference density exceeding threshold' },
-      { date: '2026-03-05', event: 'Financial network mapping completed; tracing fund flows through entities associated with Emilio Eduardo Massera' },
+      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Emilio Eduardo Massera' },
     ],
     socialMedia: [],
     sources: [
@@ -2223,6 +2225,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Leopoldo Galtieri', relationship: 'Fellow Argentine junta leader', href: '/entities/individuals/leopoldo-galtieri' },
     ],
   },
+
 
 
 
