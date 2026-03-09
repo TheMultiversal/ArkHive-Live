@@ -15,6 +15,7 @@ class BotFactory {
     this.spawnedBots = new Map(); // botId -> { process, type, spawnedAt, status }
     this.spawnCount = 0;
     this.lastSpawnTime = 0;
+    this.lastNetworkSpawn = 0; // throttle repeated network-weaver spawns
   }
 
   /**
@@ -40,7 +41,12 @@ class BotFactory {
           shouldSpawn = (scanStats.totalBrokenLinks || 0) > 50;
           break;
         case 'network-weaver':
-          shouldSpawn = (scanStats.totalOrphans || 0) > 20;
+          // only spawn if enough orphans and network-weaver hasn't run recently
+          const now = Date.now();
+          const nwCooldown = 60 * 60 * 1000; // 1 hour
+          if ((scanStats.totalOrphans || 0) > 20 && now - this.lastNetworkSpawn > nwCooldown) {
+            shouldSpawn = true;
+          }
           break;
         case 'quality-checker':
           shouldSpawn = (swarmStatus.stats?.totalTasksFailed || 0) > 10;
@@ -69,6 +75,11 @@ class BotFactory {
     if (this.spawnedBots.size >= config.replication.maxSpawnedBots) {
       logger.warn(`Cannot spawn ${type}: max spawned bots reached (${config.replication.maxSpawnedBots})`);
       return null;
+    }
+
+    // track network-weaver spawn time for cooldown logic
+    if (type === 'network-weaver') {
+      this.lastNetworkSpawn = Date.now();
     }
 
     this.spawnCount++;
@@ -225,7 +236,7 @@ run().catch(e => { log.error('Bot crashed: ' + e.message); process.exit(1); });
 // Network Weaver Bot: maps entity connections and creates cross-links
 async function run() {
   log.info('Network Weaver bot starting...');
-  const shardManager = require('./shard-manager');
+  const shardManager = require(path.join(__dirname, '..', 'shard-manager'));
   let content;
   if (shardManager.isActive()) {
     content = shardManager.getCombinedContent();
