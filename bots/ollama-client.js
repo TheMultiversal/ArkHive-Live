@@ -263,25 +263,34 @@ CONTEXT:
 ${relInfo ? `- ${relInfo}` : ''}
 - Your goal: illuminate power networks, financial flows, and institutional relationships
 
+CRITICAL DEPTH REQUIREMENTS — profiles that fail these minimums are REJECTED:
+- description: 400-800 words of dense investigative prose covering full career arc, key controversies, financial network, and institutional consequences
+- controversies: Minimum 5 entries, each 2-4 sentences with specific dates, dollar amounts, co-conspirators, legal outcomes
+- timeline: Minimum 8 entries with YYYY-MM-DD dates covering career start through aftermath
+- sources: Minimum 5 real verifiable URLs from major outlets (Reuters, AP, NYT, WaPo, ProPublica, DOJ, SEC, court records)
+- knownAssociates: Minimum 3 entries with specific relationships and href links (/entities/individuals/slug-format)
+- education: Specific institutions, degrees, years
+- charges: Include specific statutes and outcomes where applicable
+
 OUTPUT — Return ONLY valid JSON with this structure:
 {
   "name": "${name}",
-  "title": "Primary title/position (be specific — include org)",
-  "role": "Precise role category (e.g., 'Former White House Counsel', 'CEO & Chairman')",
-  "riskLevel": "critical|high|medium|low (based on documented controversies & public harm)",
-  "description": "400-600 word investigative summary: significance in power networks, documented controversies, financial connections, lobbying ties, legal entanglements, relationship to institutional corruption. Write like a senior ProPublica reporter.",
+  "title": "Primary title/position (be specific, include organization name)",
+  "role": "Precise role (e.g., 'Former White House Counsel', 'CEO & Chairman of XYZ Corp')",
+  "riskLevel": "critical|high|medium|low (based on documented public harm and controversy severity)",
+  "description": "400-800 word investigative summary written like a senior ProPublica reporter. Cover: significance in power networks, all major documented controversies with dates and specifics, financial connections and dollar amounts, lobbying ties, legal entanglements, relationship to institutional corruption, and lasting consequences. Dense, factual, interconnected prose with no filler.",
   "birthDate": "YYYY-MM-DD or best available",
   "birthPlace": "City, State/Country",
-  "education": ["Degree - Institution (Year) — be specific"],
+  "education": ["Degree - Institution (Year)"],
   "netWorth": "$X estimated (cite methodology if known)",
-  "affiliations": [{"name": "Organization", "role": "Specific role", "type": "agency|corporation|organization"}],
-  "controversies": ["Deeply documented controversy with dates, players, outcomes, and significance — minimum 5. Each should be 2-3 sentences with specifics."],
-  "charges": [{"statute": "Specific statute", "description": "Detailed legal issue", "category": "Category"}],
+  "affiliations": [{"name": "Organization", "role": "Specific role held", "type": "agency|corporation|organization"}],
+  "controversies": ["Each entry: 2-4 sentences with specific dates, dollar amounts, co-conspirators, legal outcomes, and institutional impact. Minimum 5 entries. No vague one-liners."],
+  "charges": [{"statute": "Specific statute or case number", "description": "Detailed legal issue with outcome", "category": "Category"}],
   "relatedInvestigations": [{"title": "Title", "slug": "slug-format", "severity": "critical|high|medium|low"}],
-  "timeline": [{"date": "YYYY-MM-DD", "event": "Significant event with context"} — minimum 8 chronological entries],
-  "sources": [{"title": "Specific Article Title", "url": "https://real-verifiable-url", "date": "YYYY-MM-DD"} — minimum 5 real, verifiable sources from major publications],
+  "timeline": [{"date": "YYYY-MM-DD", "event": "Significant event with full context"} — minimum 8 chronological entries covering full career arc],
+  "sources": [{"title": "Specific Article Title from Real Publication", "url": "https://real-verifiable-url", "date": "YYYY-MM-DD"} — minimum 5 real sources from major outlets],
   "aliases": ["All known alternative names, maiden names, nicknames"],
-  "knownAssociates": [{"name": "Full Name", "relationship": "Specific documented relationship with context", "href": "/entities/individuals/slug-format"}]
+  "knownAssociates": [{"name": "Full Name", "relationship": "Specific documented relationship with context (2+ sentences)", "href": "/entities/individuals/slug-format"} — minimum 3 entries]
 }
 
 Begin output now — JSON only:`;

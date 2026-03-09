@@ -19,7 +19,7 @@
     "maxQueueSize": 2000
   },
   "generation": {
-    "mode": "template",
+    "mode": "hybrid",
     "batchSize": 20,
     "backupBeforeInject": true,
     "cooldownBetweenBatches": 1000,
@@ -35,6 +35,11 @@
     "enableDashboard": true
   },
   "quality": {
-    "scoreThreshold": 50
+    "scoreThreshold": 75,
+    "minControversies": 3,
+    "minSources": 3,
+    "minKnownAssociates": 2,
+    "minTimelineEvents": 5,
+    "minDescriptionLength": 300
   }
 }

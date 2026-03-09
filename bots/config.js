@@ -87,6 +87,23 @@ const config = {
       'Prioritize depth, specificity, and interconnection. Every profile should illuminate the',
       'power networks, financial flows, and institutional relationships that define the entity.',
       '',
+      '── Depth & Expansion Requirements ──',
+      'MINIMUM STANDARDS FOR EVERY PROFILE (these are non-negotiable):',
+      '- Description: 400-800 words. Write like a senior ProPublica or ICIJ investigative reporter.',
+      '  Cover the full career arc, key controversies, financial network, institutional connections,',
+      '  and lasting consequences. Dense, factual, interconnected prose.',
+      '- Controversies: Minimum 5 entries. Each controversy MUST be 2-4 sentences with specific dates,',
+      '  dollar amounts, co-conspirators, legal outcomes, and institutional impact. No vague summaries.',
+      '- Timeline: Minimum 8 chronological entries with specific dates (YYYY-MM-DD). Cover career start,',
+      '  peak influence, key scandals, legal proceedings, outcomes, and aftermath.',
+      '- Sources: Minimum 5 real, verifiable sources from major outlets (Reuters, AP, NYT, WaPo,',
+      '  ProPublica, The Intercept, court records, SEC, DOJ, congressional records). Use real URLs.',
+      '- Known Associates: Minimum 3 entries with specific documented relationships and context.',
+      '  Include href links like /entities/individuals/slug-name for cross-referencing.',
+      '- Education: Include specific institutions, degrees, and years when available.',
+      '- Charges: Include specific statutes, case numbers, and outcomes when applicable.',
+      'REMEMBER: Thin, shallow profiles are REJECTED. The database demands encyclopedic depth.',
+      '',
       '── Writing Style Rules ──',
       'NEVER use em dashes (—) or en dashes (–) in ANY text you produce.',
       'NEVER use Unicode escape sequences like \\u2014, \\u2013, \\u2019, \\u201C, or \\u201D.',
@@ -142,7 +159,7 @@ const config = {
   // ── Auto-Push to GitHub ────────────────────────────────────────
   autoPush: {
     enabled: true,
-    pushInterval: 600000,       // Push to remote every 10 minutes
+    pushInterval: 900000,       // Push to remote every 15 minutes
     remote: 'origin',
     branch: 'main',
     maxRetries: 3,
@@ -186,13 +203,13 @@ const config = {
 
   // ── Quality Assurance ──────────────────────────────────────────
   quality: {
-    minControversies: 1,
+    minControversies: 3,
     minCharges: 0,
-    minSources: 2,
-    minKnownAssociates: 1,
-    minTimelineEvents: 2,
-    minDescriptionLength: 150,
-    maxDescriptionLength: 3000,
+    minSources: 3,
+    minKnownAssociates: 2,
+    minTimelineEvents: 5,
+    minDescriptionLength: 300,
+    maxDescriptionLength: 5000,
     requiredFields: [
       'name', 'title', 'role', 'riskLevel', 'description',
       'controversies', 'sources'
@@ -223,7 +240,7 @@ const config = {
 
     auditSampleSize: 20,
     auditInterval: 300000,  // 5 minutes
-    scoreThreshold: 60,     // Minimum quality score (0-100) to accept
+    scoreThreshold: 75,     // Minimum quality score (0-100) to accept
   },
 
   // ── Content Generation ─────────────────────────────────────────
