@@ -32,6 +32,37 @@ export interface FamilyMember {
   involvement?: string;
 }
 
+/**
+ * A structured controversy entry with evidence, impact assessment, and sources.
+ */
+export interface ControversyEntry {
+  title: string;
+  summary: string;
+  evidenceStrength: 'confirmed' | 'strong' | 'circumstantial' | 'alleged';
+  dateRange?: string;
+  keyFacts: string[];
+  involvedParties?: string[];
+  sources?: string[];
+  outcome?: string;
+  ongoingStatus?: 'resolved' | 'ongoing' | 'under-investigation' | 'covered-up';
+}
+
+/**
+ * A conspiracy/deep connection entry with evidence chain and plausibility assessment.
+ */
+export interface ConspiracyEntry {
+  title: string;
+  summary: string;
+  plausibility: 'documented' | 'highly-probable' | 'probable' | 'speculative';
+  evidenceChain: string[];
+  suspiciousConnections?: string[];
+  unansweredQuestions?: string[];
+  deadWitnesses?: string[];
+  classifiedDocuments?: string[];
+  patternAnalysis?: string;
+  relatedConspiracies?: string[];
+}
+
 export interface IndividualProfile {
   name: string;
   title: string;
@@ -68,4 +99,8 @@ export interface IndividualProfile {
   residences?: string[];
   /** Corporate entities owned or controlled */
   corporateHoldings?: { name: string; role: string; href?: string }[];
+  /** Structured controversy entries with evidence assessment */
+  structuredControversies?: ControversyEntry[];
+  /** Conspiracy entries with evidence chains and plausibility ratings */
+  conspiracies?: ConspiracyEntry[];
 }
