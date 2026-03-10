@@ -45,7 +45,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-and-igor-fruman-charged-campaign-finance-offenses', date: '2019' },
       { title: 'House Intelligence Committee Evidence', url: 'https://intelligence.house.gov/reports-letters/', date: '2020' },
-      { title: 'Congressional Record; Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: ['Giuliani\'s Fixer'],
     knownAssociates: [
@@ -54,6 +54,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Met multiple times, photographed together', href: '/entities/individuals/donald-trump' },
     ],
   },
+
 
 
 
@@ -172,6 +173,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Appointee, major donor', href: '/entities/individuals/donald-trump' },
     ],
   },
+
 
 
 
