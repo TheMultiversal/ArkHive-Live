@@ -1732,7 +1732,8 @@ const investigations_c: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Nestle', type: 'corporation', relationship: 'Extracted water from drought-stricken communities', href: '/entities/corporations/nestle' },
  ],
- },  'cosby-sexual-assault': {
+ 
+   {
  title: 'Bill Cosby Sexual Assault',
  subtitle: 'Decades of drugging and sexual assault enabled by fame, power, and institutional silence',
  severity: 'critical',
@@ -1783,7 +1784,8 @@ const investigations_c: Record<string, InvestigationData> = {
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Subject of investigation', href: '/entities/agencies/cia' },
  { id: '2', name: 'Allen Dulles', type: 'individual', relationship: 'Founding CIA Director', href: '/entities/individuals/allen-dulles' },
  ],
- },  'covid-disinfo': {
+ 
+   {
  title: 'COVID-19 Disinformation Campaign',
  subtitle: 'Systematic spread of false information about COVID-19 origins, treatments, and vaccines costing hundreds of thousands of lives',
  severity: 'critical',
@@ -2740,6 +2742,144 @@ const investigations_c: Record<string, InvestigationData> = {
 
 
 
+  'corporate-consolidation': {
+    title: "Corporate Consolidation & Monopoly Power",
+    subtitle: "How mega-mergers destroyed competition and consumer choice across every industry",
+    severity: "high",
+    category: "Economic",
+    date: "June 1, 2020",
+    lastUpdated: "March 10, 2026",
+    summary: "Decades of lax antitrust enforcement enabled corporate consolidation across airlines, healthcare, media, tech, agriculture, and finance. Four companies now control 80%+ of many critical markets, driving up prices, depressing wages, and undermining democracy.",
+    content: [
+      "AIRLINE MONOPOLY: Four airlines control 80% of domestic flights after waves of mergers. Fares rose while service deteriorated.",
+      "HEALTHCARE CONCENTRATION: Hospital mergers increased prices 20-40% without improving care quality.",
+      "TECH MONOPOLIES: Google controls 90% of search, Meta controls social media, Amazon dominates e-commerce.",
+      "AGRICULTURE CARTEL: Four companies control 80%+ of meat processing. Farmer prices fell while consumer prices rose.",
+    ],
+    tags: ["Monopoly","Antitrust","Corporate Power","FTC","DOJ Antitrust"],
+    sources: [
+      { title: "American Economic Liberties Project", url: "https://www.economicliberties.us/", type: "Research" },
+    ],
+    affiliations: [],
+  },
+  'cia-dark-history': {
+    title: "CIA Dark History: Covert Operations & Regime Change",
+    subtitle: "Decades of assassinations, coups, torture, and illegal surveillance by America's premier intelligence agency",
+    severity: "critical",
+    category: "Intelligence Abuse",
+    date: "June 10, 1975",
+    lastUpdated: "March 10, 2026",
+    summary: "The CIA's history includes overthrowing democratically elected governments, operating black site torture programs, conducting illegal domestic surveillance, running mind control experiments (MKUltra), assassinating foreign leaders, and arming extremist groups that later became America's enemies.",
+    content: [
+      "MKUltra: The CIA conducted mind control experiments on unwitting subjects using LSD, sensory deprivation, and psychological torture from 1953-1973.",
+      "POST-9/11 TORTURE: The CIA operated black site prisons in Thailand, Poland, Romania, and elsewhere, using waterboarding, rectal feeding, and sleep deprivation.",
+      "REGIME CHANGE: CIA coups overthrew governments in Iran (1953), Guatemala (1954), Chile (1973), and many others.",
+      "CHURCH COMMITTEE: In 1975, the Church Committee revealed massive CIA abuses including assassination plots against foreign leaders.",
+    ],
+    tags: ["CIA","Covert Operations","Torture","MKUltra","Regime Change","Intelligence"],
+    sources: [
+      { title: "Senate Intelligence Committee Torture Report", url: "https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program", type: "Government Report" },
+    ],
+    affiliations: [],
+  },
+  'climate-change-coverup': {
+    title: "Climate Change Cover-Up",
+    subtitle: "How fossil fuel corporations knew about climate change for decades and funded denial campaigns",
+    severity: "critical",
+    category: "Environmental",
+    date: "January 1, 1977",
+    lastUpdated: "March 10, 2026",
+    summary: "Exxon scientists accurately predicted global warming in 1977. For decades, fossil fuel companies spent billions funding climate denial, lobbying against regulation, and misleading the public — while quietly adapting their own infrastructure for the warming they knew was coming.",
+    content: [
+      "EXXON KNEW: Internal documents from the 1970s-80s show Exxon scientists accurately predicted warming to within fractions of a degree.",
+      "DENIAL MACHINE: The fossil fuel industry funded think tanks, fake grassroots organizations, and sympathetic scientists to manufacture doubt.",
+      "LOBBYING BLITZ: Oil companies spent over $2 billion lobbying against climate legislation between 2000-2020.",
+      "STATE LAWSUITS: Multiple states and cities have filed fraud lawsuits against fossil fuel companies for knowingly deceiving the public.",
+    ],
+    tags: ["Climate Change","Fossil Fuels","Exxon","Environmental Crime","Corporate Fraud"],
+    sources: [
+      { title: "InsideClimate News Exxon Investigation", url: "https://insideclimatenews.org/project/exxon-the-road-not-taken/", type: "Investigation" },
+    ],
+    affiliations: [],
+  },
+  'corporate-labor': {
+    title: "Corporate Labor Exploitation",
+    subtitle: "Wage theft, union busting, and worker exploitation by America's largest employers",
+    severity: "high",
+    category: "Labor Rights",
+    date: "January 1, 2015",
+    lastUpdated: "March 10, 2026",
+    summary: "Corporate wage theft exceeds $50 billion annually — more than all robberies, burglaries, and motor vehicle thefts combined. Companies like Amazon, Walmart, and McDonald's systematically suppress wages, bust unions, and exploit workers while generating record profits.",
+    content: [
+      "WAGE THEFT: The Economic Policy Institute estimates employers steal $50B+ annually from workers through unpaid overtime, minimum wage violations, and tip theft.",
+      "UNION BUSTING: Amazon spent millions on anti-union consultants. Starbucks fired hundreds of union organizers.",
+      "GIG ECONOMY: Companies misclassify workers as independent contractors to avoid benefits and labor protections.",
+    ],
+    tags: ["Labor Exploitation","Wage Theft","Union Busting","Worker Rights"],
+    sources: [
+      { title: "EPI Wage Theft Report", url: "https://www.epi.org/publication/wage-theft-2021/", type: "Research" },
+    ],
+    affiliations: [],
+  },
+  'covid-vaccine-profits': {
+    title: "COVID Vaccine Profiteering",
+    subtitle: "How pharmaceutical companies turned a global emergency into record profits while blocking global access",
+    severity: "high",
+    category: "Healthcare",
+    date: "December 11, 2020",
+    lastUpdated: "March 10, 2026",
+    summary: "Pharmaceutical companies including Pfizer and Moderna generated over $100 billion in COVID vaccine revenue, much from taxpayer-funded research, while blocking patent waivers that would have enabled global production and saved millions of lives in developing nations.",
+    content: [
+      "TAXPAYER-FUNDED: mRNA technology was developed with billions in public funding. Moderna received $2.5B from Operation Warp Speed.",
+      "RECORD PROFITS: Pfizer reported $37.8B in vaccine revenue in 2022 alone. Moderna generated $18.4B.",
+      "PATENT HOARDING: Pharma companies blocked TRIPS waiver proposals that would have enabled vaccine production in developing countries.",
+      "GLOBAL INEQUITY: By end of 2021, less than 8% of people in low-income countries had received a single dose.",
+    ],
+    tags: ["COVID-19","Pfizer","Moderna","Vaccine","Pharmaceutical Profiteering","Patent"],
+    sources: [
+      { title: "Oxfam Vaccine Inequality Report", url: "https://www.oxfam.org/en/research/inequality-virus", type: "Report" },
+    ],
+    affiliations: [],
+  },
+  'cosby-sexual-assault': {
+    title: "Bill Cosby Sexual Assault Cases",
+    subtitle: "Decades of serial sexual assault by one of the most influential entertainers in American history",
+    severity: "critical",
+    category: "Sexual Assault",
+    date: "January 17, 2005",
+    lastUpdated: "March 10, 2026",
+    summary: "Over 60 women accused Bill Cosby of sexual assault spanning five decades. In 2018, he was convicted of three counts of aggravated indecent assault. His conviction was overturned by the PA Supreme Court in 2021 on procedural grounds.",
+    content: [
+      "PATTERN OF DRUGGING: Women consistently described being drugged and assaulted by Cosby. In 2005 deposition testimony, Cosby admitted obtaining Quaaludes to give to women he wanted to have sex with.",
+      "OVER 60 ACCUSERS: More than 60 women came forward with remarkably similar accounts spanning from the 1960s through the 2000s.",
+      "CONVICTION AND REVERSAL: Cosby was convicted in 2018 but the PA Supreme Court overturned the conviction in 2021, ruling that a previous DA's promise not to prosecute was binding.",
+    ],
+    tags: ["Sexual Assault","Bill Cosby","MeToo","Criminal Justice"],
+    sources: [
+      { title: "PA Supreme Court Decision", url: "https://www.pacourts.us/news-and-statistics/cases-of-public-interest/cosby", type: "Court Document" },
+    ],
+    affiliations: [],
+  },
+  'covid-disinfo': {
+    title: "COVID-19 Disinformation Campaign",
+    subtitle: "How organized disinformation turned a pandemic into a political weapon, killing hundreds of thousands",
+    severity: "critical",
+    category: "Public Health",
+    date: "March 1, 2020",
+    lastUpdated: "March 10, 2026",
+    summary: "Coordinated disinformation about COVID-19 — from anti-vaccine campaigns to unproven treatments — prolonged the pandemic and contributed to hundreds of thousands of preventable deaths in the United States.",
+    content: [
+      "ANTI-VACCINE NETWORKS: The \"Disinformation Dozen\" — 12 accounts — generated 65% of anti-vaccine content on social media platforms.",
+      "POLITICAL WEAPONIZATION: Masks, lockdowns, and vaccines became partisan identity markers rather than public health measures.",
+      "UNPROVEN TREATMENTS: Ivermectin and hydroxychloroquine were promoted by political figures despite lack of evidence, diverting from effective interventions.",
+      "PLATFORM PROFITS: Social media companies profited from engagement-driven algorithms that amplified false health claims.",
+    ],
+    tags: ["COVID-19","Disinformation","Public Health","Anti-Vaccine","Social Media"],
+    sources: [
+      { title: "Center for Countering Digital Hate Report", url: "https://counterhate.com/research/the-disinformation-dozen/", type: "Research" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_c;

@@ -179,7 +179,7 @@ const investigations_l: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Chicago Police Department', type: 'agency', relationship: 'Employer of Van Dyke; participated in cover-up', href: '/entities/agencies/lapd-ig' },
  { id: '2', name: 'DOJ Civil Rights Division', type: 'agency', relationship: 'Investigated CPD pattern of abuse', href: '/entities/agencies/doj-civil-rights' },
- { id: '3', name: 'Rahm Emanuel', type: 'individual', relationship: 'Mayor who suppressed dashcam video for 13 months', href: '#' },
+ { id: '3', name: 'Rahm Emanuel', type: 'individual', relationship: 'Mayor who suppressed dashcam video for 13 months' },
  { id: '4', name: 'FBI', type: 'agency', relationship: 'Investigated Burger King footage deletion', href: '/entities/agencies/fbi' },
  ],
  },
@@ -386,6 +386,25 @@ const investigations_l: Record<string, InvestigationData> = {
 
 
 
+  'las-vegas-shooting': {
+    title: "Las Vegas Mass Shooting",
+    subtitle: "The deadliest mass shooting in modern American history — 60 killed, 413 wounded",
+    severity: "critical",
+    category: "Mass Shooting",
+    date: "October 1, 2017",
+    lastUpdated: "March 10, 2026",
+    summary: "Stephen Paddock opened fire from the 32nd floor of the Mandalay Bay hotel onto the Route 91 Harvest music festival crowd, killing 60 people and wounding 413. Despite extensive investigation, no motive was ever determined. The FBI closed its case without finding one.",
+    content: [
+      "THE ATTACK: Paddock fired over 1,000 rounds in 10 minutes from two broken-out windows using bump stock-equipped rifles.",
+      "NO MOTIVE: The FBI and LVMPD concluded in 2019 that no single motive could be identified.",
+      "GUN POLICY: The shooting led to bump stock bans, though the Supreme Court later struck down the federal ban in 2024.",
+    ],
+    tags: ["Mass Shooting","Las Vegas","Gun Violence","Bump Stocks","Mandalay Bay"],
+    sources: [
+      { title: "LVMPD Final Report", url: "https://www.lvmpd.com/en-us/Documents/1-October-FIT-Criminal-Investigative-Report-FINAL.pdf", type: "Investigation" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_l;

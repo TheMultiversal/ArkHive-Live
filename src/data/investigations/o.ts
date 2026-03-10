@@ -70,7 +70,7 @@ const investigations_o: Record<string, InvestigationData> = {
  ],
  affiliations: [
  { id: '1', name: 'Ohio State', type: 'corporation', relationship: 'Employed Strauss for 20 years despite complaints', href: '/entities/corporations/ohio-state' },
- { id: '2', name: 'Jim Jordan', type: 'individual', relationship: 'Assistant wrestling coach accused of knowing about abuse', href: '#' },
+ { id: '2', name: 'Jim Jordan', type: 'individual', relationship: 'Assistant wrestling coach accused of knowing about abuse', href: '/entities/individuals/jim-jordan' },
  ],
  },
   'okc-bombing': {
@@ -92,7 +92,8 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'Oath Keepers', type: 'organization', relationship: 'Anti-government militia', href: '/entities/organizations/oath-keepers' },
       { id: '2', name: 'Stewart Rhodes', type: 'individual', relationship: 'Founder convicted of seditious conspiracy', href: '/entities/individuals/stewart-rhodes' },
     ],
- },  'opioid-distribution': {
+ 
+   {
  title: 'Opioid Distribution Networks',
  subtitle: 'Drug distributors shipped billions of pills into communities while ignoring legal duty to flag suspicious orders',
  severity: 'critical',
@@ -607,6 +608,83 @@ const investigations_o: Record<string, InvestigationData> = {
 
 
 
+  'oxford-shooting': {
+    title: "Oxford High School Shooting",
+    subtitle: "A school shooting that led to unprecedented criminal charges against the shooter's parents",
+    severity: "high",
+    category: "Gun Violence",
+    date: "November 30, 2021",
+    lastUpdated: "March 10, 2026",
+    summary: "Ethan Crumbley, 15, killed four students and wounded seven others at Oxford High School in Michigan. In a legal first, his parents James and Jennifer Crumbley were convicted of involuntary manslaughter for buying their son the gun and ignoring warning signs.",
+    content: [
+      "THE SHOOTING: Crumbley killed 4 students with a handgun his father had bought him as a Christmas gift four days prior.",
+      "PARENTAL ACCOUNTABILITY: Both parents were convicted of involuntary manslaughter — the first time parents were held criminally liable for a school shooting.",
+      "WARNING SIGNS: School officials found a disturbing note by Crumbley showing violence fantasies hours before the shooting but allowed him to return to class.",
+    ],
+    tags: ["School Shooting","Oxford","Parental Accountability","Gun Violence"],
+    sources: [
+      { title: "Oakland County Court Records", url: "https://www.oakgov.com/courts", type: "Court Document" },
+    ],
+    affiliations: [],
+  },
+  'oversight-abuse': {
+    title: "Congressional Oversight Abuse",
+    subtitle: "How congressional investigations have been weaponized for political persecution rather than accountability",
+    severity: "high",
+    category: "Abuse of Power",
+    date: "January 1, 2011",
+    lastUpdated: "March 10, 2026",
+    summary: "Congressional oversight powers, designed to ensure government accountability, have been increasingly weaponized for partisan political purposes — targeting political opponents, undermining investigations, and serving as opposition research operations.",
+    content: [
+      "BENGHAZI: Republicans held 33 hearings, 11 reports, and spent $7.8 million investigating Benghazi. Majority Leader Kevin McCarthy admitted it was designed to hurt Hillary Clinton's poll numbers.",
+      "IMPEACHMENT INTERFERENCE: House Republicans used oversight to attack Trump impeachment witnesses and investigate the investigators.",
+      "WEAPONIZATION COMMITTEE: The House \"Weaponization of Government\" subcommittee was itself accused of weaponizing oversight.",
+    ],
+    tags: ["Congressional Oversight","Political Weaponization","Abuse of Power"],
+    sources: [
+      { title: "Congressional Record", url: "https://www.congress.gov/congressional-record", type: "Government Document" },
+    ],
+    affiliations: [],
+  },
+  'operation-chaos': {
+    title: "Operation CHAOS",
+    subtitle: "The CIA's illegal domestic surveillance program targeting American anti-war activists",
+    severity: "high",
+    category: "Intelligence Abuse",
+    date: "August 15, 1967",
+    lastUpdated: "March 10, 2026",
+    summary: "From 1967-1974, the CIA ran Operation CHAOS, an illegal domestic surveillance program that collected files on over 300,000 Americans and indexed 7,200 individuals for their anti-war and civil rights activities, in direct violation of the CIA's charter prohibiting domestic operations.",
+    content: [
+      "DOMESTIC SPYING: CHAOS compiled files on 300,000+ Americans including journalists, academics, and civil rights leaders.",
+      "CHURCH COMMITTEE: The program was exposed by the Church Committee in 1975 as part of widespread intelligence community abuses.",
+      "COINTELPRO OVERLAP: CHAOS worked alongside the FBI's COINTELPRO to suppress domestic dissent.",
+    ],
+    tags: ["CIA","Domestic Surveillance","Operation CHAOS","Church Committee","Anti-War"],
+    sources: [
+      { title: "Church Committee Final Report", url: "https://www.intelligence.senate.gov/resources/intelligence-related-commissions", type: "Government Report" },
+    ],
+    affiliations: [],
+  },
+  'opioid-distribution': {
+    title: "Opioid Distribution Networks & Corporate Complicity",
+    subtitle: "How pharmaceutical distributors flooded communities with billions of pills while regulators looked away",
+    severity: "critical",
+    category: "Public Health",
+    date: "January 1, 2006",
+    lastUpdated: "March 10, 2026",
+    summary: "The three largest drug distributors — McKesson, AmerisourceBergen, and Cardinal Health — shipped billions of opioid pills to pharmacies while ignoring clear signs of diversion. Their distribution records showed orders that no legitimate pharmacy could justify.",
+    content: [
+      "THE BIG THREE: McKesson, AmerisourceBergen, and Cardinal Health control 90% of drug distribution. They shipped 76 billion oxycodone and hydrocodone pills from 2006-2012.",
+      "SUSPICIOUS ORDER MONITORING FAILURES: Distributors were legally required to flag and investigate suspicious orders but failed to do so on a massive scale.",
+      "KERMIT, WEST VIRGINIA: A town of 392 people received 9 million hydrocodone pills over two years from a single pharmacy supplied by McKesson.",
+      "$26 BILLION SETTLEMENT: In 2022, the Big Three agreed to pay $21 billion to state and local governments — a fraction of the damage caused.",
+    ],
+    tags: ["Opioid Crisis","Drug Distribution","McKesson","AmerisourceBergen","Cardinal Health","DEA"],
+    sources: [
+      { title: "DEA ARCOS Database (WaPo Analysis)", url: "https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/", type: "Investigation" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_o;

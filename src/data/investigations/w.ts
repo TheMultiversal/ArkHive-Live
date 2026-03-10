@@ -866,6 +866,25 @@ const investigations_w: Record<string, InvestigationData> = {
 
 
 
+  'world-bank': {
+    title: "World Bank: Development or Exploitation?",
+    subtitle: "How the World Bank funded displacement, environmental destruction, and authoritarian regimes in the name of development",
+    severity: "high",
+    category: "International",
+    date: "July 1, 1944",
+    lastUpdated: "March 10, 2026",
+    summary: "The World Bank has been documented funding projects that displaced millions of people, destroyed ecosystems, propped up authoritarian regimes, and imposed austerity programs that deepened poverty — while enriching contractors from wealthy nations.",
+    content: [
+      "FORCED DISPLACEMENT: World Bank-funded projects displaced an estimated 3.4 million people in the decade ending 2014.",
+      "STRUCTURAL ADJUSTMENT: Bank-imposed austerity programs in the 1980s-90s gutted public services across the developing world.",
+      "CLIMATE CONTRADICTION: The Bank continues funding fossil fuel projects despite its climate commitments.",
+    ],
+    tags: ["World Bank","Development","Displacement","Austerity","International Finance"],
+    sources: [
+      { title: "ICIJ Evicted and Abandoned Investigation", url: "https://www.icij.org/investigations/world-bank/", type: "Investigation" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_w;

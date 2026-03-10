@@ -749,7 +749,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Algorithm-driven political polarization on social media', href: '/entities/corporations/meta-platforms' },
       { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Political gridlock and partisan dysfunction', href: '/entities/agencies/congress' },
     ],
- },  'police-accountability': {
+ 
+   {
  title: 'Police Accountability Crisis',
  subtitle: 'Systemic failures in holding law enforcement accountable for misconduct, brutality, and killings',
  severity: 'critical',
@@ -1885,6 +1886,122 @@ const investigations_p: Record<string, InvestigationData> = {
 
 
 
+  'parental-accountability': {
+    title: "Parental Accountability in Mass Shootings",
+    subtitle: "The legal frontier of holding parents responsible when children commit gun violence",
+    severity: "medium",
+    category: "Legal",
+    date: "November 30, 2021",
+    lastUpdated: "March 10, 2026",
+    summary: "The conviction of James and Jennifer Crumbley for involuntary manslaughter in connection with the Oxford High School shooting established a precedent for parental criminal liability when children commit mass shootings with negligently stored weapons.",
+    content: [
+      "OXFORD PRECEDENT: The Crumbley convictions were the first successful prosecution of parents for a child's mass shooting.",
+      "LEGAL LANDSCAPE: Most states have child access prevention laws but few carry serious criminal penalties.",
+      "SAFE STORAGE: Advocates argue mandatory safe storage laws could prevent children from accessing firearms.",
+    ],
+    tags: ["Parental Accountability","Gun Violence","Legal Precedent","Oxford"],
+    sources: [
+      { title: "Giffords Law Center - Child Access Prevention", url: "https://giffords.org/lawcenter/gun-laws/policy-areas/child-consumer-safety/child-access-prevention/", type: "Research" },
+    ],
+    affiliations: [],
+  },
+  'police-reform': {
+    title: "Police Reform Failures",
+    subtitle: "Why decades of police reform efforts have failed to end systemic violence and racism in American policing",
+    severity: "high",
+    category: "Criminal Justice",
+    date: "March 3, 1991",
+    lastUpdated: "March 10, 2026",
+    summary: "From the Rodney King beating to George Floyd's murder, decades of reform efforts — consent decrees, body cameras, training programs, civilian review boards — have failed to fundamentally change American policing or reduce police killings, which remain at approximately 1,100 per year.",
+    content: [
+      "CONSENT DECREES: DOJ consent decrees produced modest improvements but departments often reverted after oversight ended.",
+      "BODY CAMERAS: Despite widespread adoption, body cameras have not significantly reduced use of force.",
+      "LEGISLATIVE FAILURE: The George Floyd Justice in Policing Act passed the House but died in the Senate.",
+    ],
+    tags: ["Police Reform","Criminal Justice","Use of Force","Accountability"],
+    sources: [
+      { title: "Mapping Police Violence", url: "https://mappingpoliceviolence.us/", type: "Database" },
+    ],
+    affiliations: [],
+  },
+  'police-brutality-crisis': {
+    title: "Police Brutality Crisis in America",
+    subtitle: "Systemic police violence killing over 1,000 Americans annually with minimal accountability",
+    severity: "critical",
+    category: "Police Violence",
+    date: "January 1, 2013",
+    lastUpdated: "March 10, 2026",
+    summary: "American police kill approximately 1,100 people per year — a rate 3x higher than Canada and 50x higher than Germany. Qualified immunity shields officers from civil liability. Grand juries rarely indict. Union contracts protect officers from discipline.",
+    content: [
+      "THE NUMBERS: Police kill approximately 1,100 people annually. Black Americans are killed at 2.5x the rate of white Americans.",
+      "QUALIFIED IMMUNITY: The Supreme Court-created doctrine shields officers from civil liability unless they violate \"clearly established\" law.",
+      "UNION PROTECTION: Police union contracts contain provisions that delay investigations, restrict interrogations, and mandate purging of disciplinary records.",
+    ],
+    tags: ["Police Brutality","Qualified Immunity","Use of Force","Racial Disparities"],
+    sources: [
+      { title: "Fatal Encounters Database", url: "https://fatalencounters.org/", type: "Database" },
+      { title: "Mapping Police Violence", url: "https://mappingpoliceviolence.us/", type: "Database" },
+    ],
+    affiliations: [],
+  },
+  'pharmaceutical-corruption': {
+    title: "Pharmaceutical Industry Corruption",
+    subtitle: "Fraud, bribery, and manipulation by the world's most profitable industry",
+    severity: "critical",
+    category: "Healthcare",
+    date: "January 1, 2000",
+    lastUpdated: "March 10, 2026",
+    summary: "Pharmaceutical companies have paid over $40 billion in fraud settlements since 2000 for off-label marketing, suppressing safety data, bribing doctors, and manipulating clinical trials. Despite record fines, the profits from illegal conduct consistently exceed the penalties.",
+    content: [
+      "RECORD FINES: GlaxoSmithKline paid $3B (2012), Pfizer $2.3B (2009), and Johnson & Johnson $2.2B (2013) in fraud settlements.",
+      "OPIOID CRISIS: Purdue Pharma's fraudulent OxyContin marketing contributed to an epidemic killing 600,000+ Americans.",
+      "DOCTOR BRIBES: Companies paid billions in consulting fees, speaking fees, and gifts to prescribers. The Open Payments database tracks $12B+ in payments.",
+    ],
+    tags: ["Pharmaceutical","Fraud","Opioid","Drug Pricing","Corruption"],
+    sources: [
+      { title: "Public Citizen Pharma Penalties Report", url: "https://www.citizen.org/article/twenty-seven-years-of-pharmaceutical-industry-criminal-and-civil-penalties/", type: "Research" },
+    ],
+    affiliations: [],
+  },
+  'parkland-shooting': {
+    title: "Parkland School Shooting",
+    subtitle: "The massacre that birthed the March for Our Lives movement — and still didn't change gun laws",
+    severity: "critical",
+    category: "Gun Violence",
+    date: "February 14, 2018",
+    lastUpdated: "March 10, 2026",
+    summary: "Nikolas Cruz killed 17 students and staff at Marjory Stoneman Douglas High School in Parkland, Florida on February 14, 2018. Surviving students launched March for Our Lives, the largest youth-led protest movement in a generation, but federal gun reform remained blocked.",
+    content: [
+      "THE SHOOTING: Cruz used a legally purchased AR-15 to kill 14 students and 3 staff members despite years of warning signs reported to the FBI.",
+      "MARCH FOR OUR LIVES: Student survivors organized a movement that drew 800,000 to Washington and millions worldwide.",
+      "SCOT PETERSON: School resource officer Scot Peterson stayed outside during the shooting. He was acquitted of child neglect charges in 2023.",
+    ],
+    tags: ["Parkland","School Shooting","March for Our Lives","Gun Violence","NRA"],
+    sources: [
+      { title: "MSD Public Safety Commission Report", url: "http://www.fdle.state.fl.us/MSDHS/CommissionReport.pdf", type: "Government Report" },
+    ],
+    affiliations: [],
+  },
+  'police-accountability': {
+    title: "Police Accountability Crisis in America",
+    subtitle: "Qualified immunity, police unions, and the systemic failure to hold officers accountable for misconduct",
+    severity: "critical",
+    category: "Criminal Justice",
+    date: "June 1, 2020",
+    lastUpdated: "March 10, 2026",
+    summary: "American policing operates with virtually no accountability. Qualified immunity shields officers from civil liability, police unions block discipline, prosecutors rarely charge officers, and departments rehire fired cops. The result: thousands of unjustified killings and a near-zero conviction rate.",
+    content: [
+      "QUALIFIED IMMUNITY: The Supreme Court doctrine shields officers from civil suits unless the exact same conduct was previously ruled unconstitutional — a nearly impossible standard that effectively bars accountability.",
+      "POLICE UNION OBSTRUCTION: Police union contracts include provisions that delay investigations, limit interrogation, and allow officers to review evidence before statements, undermining accountability.",
+      "WANDERING OFFICERS: Officers fired for misconduct are routinely rehired by other departments. A 2020 Yale study found 3% of officers account for the majority of complaints but face no consequences.",
+      "PROSECUTORIAL RELUCTANCE: District attorneys who depend on police cooperation rarely charge officers, creating a systemic conflict of interest.",
+    ],
+    tags: ["Police Reform","Qualified Immunity","Police Unions","Accountability","Criminal Justice"],
+    sources: [
+      { title: "Reuters: Shielded (Qualified Immunity Investigation)", url: "https://www.reuters.com/investigates/special-report/usa-police-immunity/", type: "Investigation" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_p;

@@ -1332,6 +1332,25 @@ const investigations_f: Record<string, InvestigationData> = {
 
 
 
+  'fox-news-sexual-harassment': {
+    title: "Fox News Sexual Harassment Scandal",
+    subtitle: "Systemic sexual harassment culture from Roger Ailes to Bill O'Reilly at America's most-watched cable news network",
+    severity: "high",
+    category: "Sexual Harassment",
+    date: "July 6, 2016",
+    lastUpdated: "March 10, 2026",
+    summary: "Fox News chairman Roger Ailes and star anchor Bill O'Reilly were forced out after dozens of women accused them of sexual harassment. The network paid over $100 million in settlements while maintaining a toxic culture of intimidation and retaliation.",
+    content: [
+      "ROGER AILES: Over 20 women accused Ailes of sexual harassment. He resigned in 2016 with a $40 million severance.",
+      "BILL O'REILLY: Fox paid $45 million to settle harassment claims against O'Reilly, who was fired in 2017 after the payments became public.",
+      "CULTURE OF SILENCE: Women who complained faced retaliation and career destruction. NDAs silenced victims for years.",
+    ],
+    tags: ["Fox News","Sexual Harassment","Roger Ailes","Bill O'Reilly","MeToo"],
+    sources: [
+      { title: "NYT O'Reilly Settlement Investigation", url: "https://www.nytimes.com/2017/10/21/business/media/bill-oreilly-sexual-harassment.html", type: "Investigation" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_f;

@@ -921,6 +921,29 @@ const investigations_b: Record<string, InvestigationData> = {
 
 
 
+  'boeing-safety': {
+    title: "Boeing Safety Crisis",
+    subtitle: "Decades of safety failures, whistleblower retaliation, and regulatory capture at America's largest aerospace manufacturer",
+    severity: "critical",
+    category: "Corporate Negligence",
+    date: "March 10, 2019",
+    lastUpdated: "March 10, 2026",
+    summary: "Boeing's relentless pursuit of profit over safety led to two 737 MAX crashes killing 346 people, a door plug blowout on a 737 MAX 9, and systemic quality control failures across its production lines. Whistleblowers faced retaliation and, in at least one case, died under suspicious circumstances.",
+    content: [
+      "737 MAX DISASTERS: Two crashes — Lion Air Flight 610 (October 2018, 189 dead) and Ethiopian Airlines Flight 302 (March 2019, 157 dead) — were caused by the MCAS system Boeing concealed from pilots and regulators.",
+      "REGULATORY CAPTURE: The FAA delegated safety certification to Boeing employees through the Organization Designation Authorization program, allowing Boeing to effectively certify its own aircraft.",
+      "DOOR PLUG BLOWOUT: In January 2024, an Alaska Airlines 737 MAX 9 lost a door plug mid-flight. NTSB found four bolts were missing from the factory.",
+      "WHISTLEBLOWER DEATHS: John Barnett, a former Boeing quality manager turned whistleblower, was found dead from an apparent self-inflicted gunshot during his deposition against Boeing in March 2024.",
+      "DEFERRED PROSECUTION: Boeing entered a deferred prosecution agreement with DOJ over the MAX crashes, paying $2.5 billion. Families of victims called it a sweetheart deal.",
+      "QUALITY COLLAPSE: Internal audits revealed thousands of quality non-conformances at Boeing's factories, with workers pressured to meet production targets over safety standards.",
+    ],
+    tags: ["Boeing","737 MAX","Aviation Safety","Corporate Negligence","Whistleblower","FAA"],
+    sources: [
+      { title: "Senate Commerce Committee Boeing Investigation", url: "https://www.commerce.senate.gov/boeing", type: "Government Report" },
+      { title: "NTSB 737 MAX Investigation", url: "https://www.ntsb.gov/investigations/Pages/DCA19MA", type: "Investigation" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_b;

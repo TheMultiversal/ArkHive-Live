@@ -157,7 +157,8 @@ const investigations_k: Record<string, InvestigationData> = {
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Received clearance over intelligence objections', href: '/entities/individuals/jared-kushner' },
  { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Ordered clearance for son-in-law', href: '/entities/individuals/donald-trump' },
  ],
- },  'kenosha-shootings': {
+ 
+   {
  title: 'Kenosha Shootings',
  subtitle: 'Kyle Rittenhouse killed two and wounded one at a Black Lives Matter protest, acquitted of all charges',
  severity: 'critical',
@@ -246,6 +247,45 @@ const investigations_k: Record<string, InvestigationData> = {
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/jared-kushner' },
  ],
  },
+  'khashoggi-murder': {
+    title: "Jamal Khashoggi Assassination",
+    subtitle: "The Saudi state murder and dismemberment of a Washington Post journalist inside their own consulate",
+    severity: "critical",
+    category: "Assassination",
+    date: "October 2, 2018",
+    lastUpdated: "March 10, 2026",
+    summary: "Saudi journalist Jamal Khashoggi was murdered and dismembered inside the Saudi consulate in Istanbul on October 2, 2018. U.S. intelligence concluded Crown Prince Mohammed bin Salman ordered the killing. Despite this, the Trump and Biden administrations maintained the U.S.-Saudi alliance.",
+    content: [
+      "THE MURDER: Khashoggi entered the Saudi consulate to obtain marriage documents and was killed by a 15-man hit squad that included MBS's personal security.",
+      "MBS ORDERED IT: The CIA concluded with high confidence that Mohammed bin Salman ordered the assassination.",
+      "NO ACCOUNTABILITY: Despite public outrage, neither the Trump nor Biden administrations imposed meaningful consequences on MBS.",
+      "THE COVER-UP: Saudi Arabia initially denied the murder, then claimed it was a rogue operation, then convicted 8 people in a sham trial.",
+    ],
+    tags: ["Jamal Khashoggi","Saudi Arabia","MBS","Assassination","Press Freedom"],
+    sources: [
+      { title: "ODNI Assessment of Khashoggi Murder", url: "https://www.dni.gov/files/ODNI/documents/assessments/Assessment-Saudi-Gov-Role-in-JK-Death-20210226v2.pdf", type: "Intelligence Report" },
+    ],
+    affiliations: [],
+  },
+  'kenosha-shootings': {
+    title: "Kenosha Shootings & Kyle Rittenhouse",
+    subtitle: "When a 17-year-old with an AR-15 killed two people at a racial justice protest and was acquitted",
+    severity: "high",
+    category: "Gun Violence",
+    date: "August 25, 2020",
+    lastUpdated: "March 10, 2026",
+    summary: "During racial justice protests in Kenosha, Wisconsin following the police shooting of Jacob Blake, 17-year-old Kyle Rittenhouse traveled from Illinois with an AR-15 and killed two people. His acquittal on all charges became a flashpoint in debates over self-defense, race, and vigilantism.",
+    content: [
+      "THE SHOOTINGS: Rittenhouse shot three people, killing Joseph Rosenbaum and Anthony Huber, and wounding Gaige Grosskreutz, during protests over the police shooting of Jacob Blake.",
+      "THE ACQUITTAL: Rittenhouse was acquitted on all charges including homicide, with the jury accepting his self-defense claim despite his voluntary presence at the protest with an assault rifle.",
+      "LAW ENFORCEMENT RESPONSE: Video showed Kenosha police offering water to armed militia members before the shooting and driving past Rittenhouse as he walked toward them with his hands up after killing two people.",
+    ],
+    tags: ["Kenosha","Kyle Rittenhouse","Self-Defense","Vigilantism","Gun Violence","Protests"],
+    sources: [
+      { title: "Rittenhouse Trial Records", url: "https://www.kenosha.org/", type: "Court Document" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_k;

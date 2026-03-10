@@ -1668,6 +1668,25 @@ const investigations_s: Record<string, InvestigationData> = {
 
 
 
+  'syrian-chemical-weapons': {
+    title: "Syrian Chemical Weapons Attacks",
+    subtitle: "Assad regime's use of chemical weapons against civilians while the world watched",
+    severity: "critical",
+    category: "War Crimes",
+    date: "August 21, 2013",
+    lastUpdated: "March 10, 2026",
+    summary: "The Assad regime used sarin nerve agent and chlorine gas against Syrian civilians in multiple attacks, killing over 1,400 people including hundreds of children. Despite crossing Obama's \"red line,\" the international community failed to hold Assad accountable.",
+    content: [
+      "GHOUTA MASSACRE: On August 21, 2013, sarin rockets killed over 1,400 people in the Damascus suburb of Ghouta, including over 400 children.",
+      "RED LINE FAILURE: Despite Obama declaring chemical weapon use a \"red line,\" the U.S. did not carry out threatened strikes, opting for a Russian-brokered deal.",
+      "CONTINUED ATTACKS: Assad continued using chlorine and sarin after the disarmament deal, with attacks documented in Khan Shaykhun (2017) and Douma (2018).",
+    ],
+    tags: ["Syria","Chemical Weapons","Assad","War Crimes","International Law"],
+    sources: [
+      { title: "OPCW Fact-Finding Mission Reports", url: "https://www.opcw.org/fact-finding-mission", type: "International Organization" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_s;

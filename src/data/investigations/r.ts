@@ -931,6 +931,25 @@ const investigations_r: Record<string, InvestigationData> = {
 
 
 
+  'reagan-crimes': {
+    title: "Reagan Administration Crimes",
+    subtitle: "Iran-Contra, crack cocaine, and the crimes of the Reagan administration",
+    severity: "high",
+    category: "Government Corruption",
+    date: "November 3, 1986",
+    lastUpdated: "March 10, 2026",
+    summary: "The Reagan administration illegally sold arms to Iran and funneled the profits to Contra rebels in Nicaragua, violating the Boland Amendment. The CIA's role in the crack cocaine epidemic, support for Central American death squads, and arms-for-hostages dealings constituted systematic criminality.",
+    content: [
+      "IRAN-CONTRA: The administration secretly sold weapons to Iran and diverted proceeds to fund Nicaraguan Contras in violation of federal law.",
+      "CIA AND CRACK: Journalist Gary Webb documented CIA-connected Contra drug traffickers flooding Black communities with crack cocaine.",
+      "PARDONS: George H.W. Bush pardoned six Iran-Contra figures including Caspar Weinberger, effectively ending investigations.",
+    ],
+    tags: ["Reagan","Iran-Contra","CIA","Central America","Government Corruption"],
+    sources: [
+      { title: "Walsh Iran-Contra Report", url: "https://www.brown.edu/Research/Understanding_the_Iran_Contra_Affair/", type: "Government Report" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_r;

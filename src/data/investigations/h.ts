@@ -259,7 +259,8 @@ const investigations_h: Record<string, InvestigationData> = {
  { id: '1', name: 'Blackstone Group', type: 'corporation', relationship: 'Largest corporate landlord', href: '/entities/corporations/blackstone-group' },
  { id: '2', name: 'Federal Reserve', type: 'agency', relationship: 'Low interest rates fueled housing speculation', href: '/entities/agencies/federal-reserve' },
  ],
- },  'human-trafficking': {
+ },
+  'human-trafficking': {
  title: 'Human Trafficking Networks',
  subtitle: 'The multi-billion-dollar global industry of modern slavery involving forced labor, sex trafficking, and organ harvesting',
  severity: 'critical',
@@ -449,6 +450,25 @@ const investigations_h: Record<string, InvestigationData> = {
 
 
 
+  'healthcare-profiteering': {
+    title: "Healthcare Profiteering",
+    subtitle: "How the health insurance and hospital industries extract trillions while Americans go bankrupt and die",
+    severity: "critical",
+    category: "Healthcare",
+    date: "January 1, 2010",
+    lastUpdated: "March 10, 2026",
+    summary: "The U.S. spends $4.3 trillion annually on healthcare — double the per-capita spending of peer nations — while ranking last in outcomes. Medical debt is the leading cause of bankruptcy. Insurance companies deny claims algorithmically while executives earn hundreds of millions.",
+    content: [
+      "INSURANCE DENIALS: UnitedHealth Group used AI algorithms to deny elderly patients' claims. CEO Andrew Witty earned $22M while the company denied millions of claims.",
+      "MEDICAL BANKRUPTCY: Two-thirds of U.S. bankruptcies are tied to medical debt. 100 million Americans carry medical debt.",
+      "HOSPITAL MONOPOLIES: Hospital consolidation increased prices 20-40% in concentrated markets without improving quality.",
+    ],
+    tags: ["Healthcare","Insurance","Medical Debt","Profiteering","UnitedHealth"],
+    sources: [
+      { title: "CMS National Health Expenditure Data", url: "https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/nationalhealthexpenddata", type: "Government Data" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_h;

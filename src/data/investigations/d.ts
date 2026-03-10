@@ -280,7 +280,8 @@ const investigations_d: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Republican National Committee', type: 'organization', relationship: 'Drives backsliding', href: '/entities/organizations/rnc' },
  ],
- },  'daniel-shaver-killing': {
+ 
+   {
  title: 'Daniel Shaver Police Killing',
  subtitle: 'Unarmed man executed by police in hotel hallway while crawling and begging for his life',
  severity: 'critical',
@@ -371,7 +372,8 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '2', name: 'Koch Industries', type: 'corporation', relationship: 'Largest dark money network operators', href: '/entities/corporations/koch-industries' },
  { id: '3', name: 'Leonard Leo', type: 'individual', relationship: '$1.6B dark money empire', href: '/entities/individuals/leonard-leo' },
  ],
- },  'domestic-terrorism': {
+ 
+   {
  title: 'Domestic Terrorism in America',
  subtitle: 'Far-right, white supremacist, and anti-government extremist violence that kills more Americans than jihadist terrorism',
  severity: 'critical',
@@ -1080,6 +1082,65 @@ const investigations_d: Record<string, InvestigationData> = {
 
 
 
+  'drug-pricing-crisis': {
+    title: "Drug Pricing Crisis",
+    subtitle: "How pharmaceutical companies exploit patents and lobbying to charge Americans the highest drug prices in the world",
+    severity: "critical",
+    category: "Healthcare",
+    date: "September 11, 2015",
+    lastUpdated: "March 10, 2026",
+    summary: "Americans pay 2-3x more for prescription drugs than other developed nations. Pharmaceutical companies use patent manipulation, lobbying, and marketing to maintain monopoly pricing on life-saving medications while spending more on marketing than research.",
+    content: [
+      "INSULIN CRISIS: Insulin prices tripled between 2002-2018 despite being discovered in 1921. Patients died rationing doses.",
+      "PAY-FOR-DELAY: Brand-name companies pay generic manufacturers to delay cheaper alternatives.",
+      "LOBBYING POWER: Pharma spent $373M lobbying Congress in 2022 alone — more than any other industry.",
+      "SHKRELI EFFECT: Martin Shkreli's 5,000% price hike of Daraprim exemplified industry pricing practices.",
+    ],
+    tags: ["Drug Pricing","Pharmaceutical","Insulin","Healthcare","Lobbying"],
+    sources: [
+      { title: "Senate Finance Committee Drug Pricing Investigation", url: "https://www.finance.senate.gov/drug-pricing", type: "Government Report" },
+    ],
+    affiliations: [],
+  },
+  'domestic-terrorism': {
+    title: "Domestic Terrorism in America",
+    subtitle: "The rising threat of homegrown extremism from white supremacist, militia, and anti-government movements",
+    severity: "critical",
+    category: "National Security",
+    date: "April 19, 1995",
+    lastUpdated: "March 10, 2026",
+    summary: "Domestic terrorism is the greatest terrorism threat facing the United States. White supremacist and anti-government extremists have killed more Americans since 9/11 than any foreign terrorist organization.",
+    content: [
+      "FBI WARNING: The FBI has repeatedly identified domestic violent extremism — particularly racially motivated — as the top terrorism threat to the homeland.",
+      "OKLAHOMA CITY TO JANUARY 6: From the 1995 Oklahoma City bombing to the 2021 Capitol insurrection, domestic terrorism has escalated in frequency and severity.",
+      "ONLINE RADICALIZATION: Social media platforms and anonymous forums serve as radicalization pipelines, connecting isolated individuals to extremist ideologies.",
+      "LAW ENFORCEMENT GAPS: Unlike international terrorism, there is no domestic terrorism federal statute, creating prosecution gaps.",
+    ],
+    tags: ["Domestic Terrorism","White Supremacy","Militia","Extremism","FBI"],
+    sources: [
+      { title: "DHS Domestic Terrorism Threat Assessment", url: "https://www.dhs.gov/publication/homeland-threat-assessment", type: "Government Report" },
+    ],
+    affiliations: [],
+  },
+  'daniel-shaver-killing': {
+    title: "Daniel Shaver Police Killing",
+    subtitle: "An unarmed man executed by police while crawling and begging for his life on hotel hallway camera",
+    severity: "critical",
+    category: "Police Violence",
+    date: "January 18, 2016",
+    lastUpdated: "March 10, 2026",
+    summary: "On January 18, 2016, Mesa, Arizona police officer Philip Brailsford shot and killed Daniel Shaver, an unarmed 26-year-old pest control worker, in a La Quinta Inn hallway. Body camera footage showed Shaver sobbing and begging for his life while following conflicting commands before being shot five times with an AR-15 engraved with \"You're F***ed.\"",
+    content: [
+      "THE KILLING: Shaver was ordered to crawl toward officers after a report of a rifle (his pest control pellet gun) in a hotel window. The commands were contradictory and impossible to follow. As he crawled, his shorts slipped and he reached to pull them up. Brailsford fired five rounds.",
+      "THE AR-15: Brailsford's department-issued AR-15 had the phrase \"You're F***ed\" etched into the dust cover. The judge ruled this evidence inadmissible at trial.",
+      "ACQUITTAL AND PENSION: Brailsford was acquitted of second-degree murder. He was later rehired by the department for 42 days specifically to apply for a medical pension of $2,500/month for PTSD — from the shooting he committed.",
+    ],
+    tags: ["Police Violence","Daniel Shaver","Use of Force","Police Accountability"],
+    sources: [
+      { title: "Mesa PD Body Camera Footage", url: "https://www.azcentral.com/story/news/local/mesa/2017/12/08/daniel-shaver-philip-brailsford-mesa-police-shooting/933873001/", type: "Video Evidence" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_d;

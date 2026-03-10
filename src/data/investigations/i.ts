@@ -360,7 +360,8 @@ const investigations_i: Record<string, InvestigationData> = {
  { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'ICE surveillance technology provider', href: '/entities/corporations/palantir' },
  { id: '2', name: 'ICE', type: 'agency', relationship: 'Technology-driven enforcement', href: '/entities/agencies/ice' },
  ],
- },  'influencer-abuse': {
+ 
+   {
  title: 'Social Media Influencer Abuse',
  subtitle: 'How social media platforms enable groomers, predators, and exploiters to target vulnerable audiences',
  severity: 'critical',
@@ -731,6 +732,44 @@ const investigations_i: Record<string, InvestigationData> = {
 
 
 
+  'infrastructure-failures': {
+    title: "American Infrastructure Failures",
+    subtitle: "Crumbling bridges, contaminated water, and aging power grids threatening American lives",
+    severity: "high",
+    category: "Public Safety",
+    date: "August 1, 2007",
+    lastUpdated: "March 10, 2026",
+    summary: "America's infrastructure earns a C- grade from the American Society of Civil Engineers. From Flint's poisoned water to the I-35W bridge collapse to Texas grid failures, decades of deferred maintenance and underinvestment endanger millions of lives.",
+    content: [
+      "FLINT WATER CRISIS: 100,000 residents were exposed to lead-contaminated water for 18 months while officials covered up the danger.",
+      "BRIDGE FAILURES: 46,154 bridges are rated structurally deficient. The I-35W collapse in 2007 killed 13 people.",
+      "TEXAS GRID FAILURE: The February 2021 power crisis killed 246+ people when the unregulated Texas grid failed in winter weather.",
+    ],
+    tags: ["Infrastructure","Flint","Public Safety","Bridges","Power Grid"],
+    sources: [
+      { title: "ASCE Infrastructure Report Card", url: "https://infrastructurereportcard.org/", type: "Report" },
+    ],
+    affiliations: [],
+  },
+  'influencer-abuse': {
+    title: "Social Media Influencer Abuse & Exploitation",
+    subtitle: "How the influencer economy enables harassment, exploitation, and abuse of vulnerable followers",
+    severity: "high",
+    category: "Digital Rights",
+    date: "January 15, 2020",
+    lastUpdated: "March 10, 2026",
+    summary: "The unregulated influencer economy has created a new arena for financial fraud, sexual exploitation, and psychological manipulation affecting millions of followers, particularly minors.",
+    content: [
+      "FINANCIAL FRAUD: Influencers promote pump-and-dump cryptocurrency schemes, fake products, and predatory courses with no disclosure or accountability. The FTC estimates billions in losses from influencer scams.",
+      "EXPLOITATION OF MINORS: Child influencers generate millions in revenue while facing no labor protections. Parents exploit children for content, and platforms profit from engagement.",
+      "PARASOCIAL MANIPULATION: Influencers cultivate false intimacy to sell products, political narratives, and ideologies to psychologically vulnerable audiences.",
+    ],
+    tags: ["Social Media","Influencer","Exploitation","FTC","Digital Rights"],
+    sources: [
+      { title: "FTC Influencer Guidelines", url: "https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers", type: "Government" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_i;

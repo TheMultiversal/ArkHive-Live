@@ -330,6 +330,26 @@ const investigations_u: Record<string, InvestigationData> = {
     ],
   },
 
+  'uvalde-police-failure': {
+    title: "Uvalde Police Failure",
+    subtitle: "How 376 officers waited 77 minutes while children were massacred at Robb Elementary",
+    severity: "critical",
+    category: "Police Failure",
+    date: "May 24, 2022",
+    lastUpdated: "March 10, 2026",
+    summary: "An 18-year-old gunman killed 19 children and 2 teachers at Robb Elementary School in Uvalde, Texas. Despite 376 law enforcement officers on scene, police waited 77 minutes before breaching the classroom, with children calling 911 begging for help. The response has been called the worst police failure in modern history.",
+    content: [
+      "THE MASSACRE: Salvador Ramos killed 19 children and 2 teachers with a legally purchased AR-15 on his 18th birthday.",
+      "77 MINUTES: Officers stood in the hallway for 77 minutes while children bled out and called 911. Chief Pete Arredondo treated it as a barricaded subject, not an active shooter.",
+      "BODY CAMERA FOOTAGE: Released footage showed officers checking phones, applying hand sanitizer, and retreating from shots while children were dying.",
+      "COVER-UP: Officials initially lied about the response timeline. The Texas DPS director was later fired for covering up the failures.",
+    ],
+    tags: ["Uvalde","School Shooting","Police Failure","Gun Violence","Robb Elementary"],
+    sources: [
+      { title: "Texas House Investigative Committee Report", url: "https://house.texas.gov/uvalde", type: "Government Report" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_u;

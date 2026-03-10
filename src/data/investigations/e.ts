@@ -610,7 +610,8 @@ const investigations_e: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Abdel Fattah el-Sisi', type: 'individual', relationship: 'Military dictator', href: '/entities/individuals/abdel-fattah-el-sisi' },
  ],
- },  'el-paso-massacre': {
+ 
+   {
  title: 'El Paso Walmart Massacre',
  subtitle: 'White supremacist drove 10 hours to murder 23 Latinos in racially motivated mass shooting',
  severity: 'critical',
@@ -1143,6 +1144,45 @@ const investigations_e: Record<string, InvestigationData> = {
 
 
 
+  'evidence-destruction': {
+    title: "Evidence Destruction & Obstruction",
+    subtitle: "Systematic destruction of evidence across government and corporate investigations",
+    severity: "high",
+    category: "Obstruction",
+    date: "January 1, 2000",
+    lastUpdated: "March 10, 2026",
+    summary: "From the Bush administration's destruction of CIA torture tapes to corporate document shredding at Enron, evidence destruction has repeatedly undermined accountability in the most important investigations of our time.",
+    content: [
+      "CIA TORTURE TAPES: In 2005, the CIA destroyed 92 videotapes of enhanced interrogation sessions despite court orders to preserve evidence.",
+      "ENRON: Arthur Andersen shredded tons of Enron audit documents, leading to the firm's collapse and criminal conviction.",
+      "SECRET SERVICE TEXTS: Secret Service deleted text messages from January 5-6, 2021 after being asked to preserve them by investigators.",
+    ],
+    tags: ["Evidence Destruction","Obstruction","Cover-Up","Accountability"],
+    sources: [
+      { title: "Senate Investigation Reports", url: "https://www.congress.gov", type: "Government Document" },
+    ],
+    affiliations: [],
+  },
+  'el-paso-massacre': {
+    title: "El Paso Walmart Massacre",
+    subtitle: "A white supremacist manifesto, an assault rifle, and 23 dead in the deadliest anti-Latino attack in modern U.S. history",
+    severity: "critical",
+    category: "Domestic Terrorism",
+    date: "August 3, 2019",
+    lastUpdated: "March 10, 2026",
+    summary: "On August 3, 2019, a 21-year-old white supremacist drove 10 hours from Dallas to El Paso, Texas, and opened fire at a Walmart, killing 23 people and injuring 23 others. He posted a manifesto citing the \"Hispanic invasion of Texas\" and the Christchurch mosque shooter as inspiration.",
+    content: [
+      "THE ATTACK: The shooter targeted a border community Walmart on a busy Saturday morning. He used an AK-47 variant purchased legally. Victims ranged in age from 15 to 90.",
+      "WHITE SUPREMACIST MANIFESTO: The shooter's manifesto echoed \"invasion\" rhetoric used by politicians and media figures, raising questions about the mainstreaming of extremist language.",
+      "CROSS-BORDER IMPACT: Eight Mexican nationals were among those killed. The Mexican government explored legal action against the U.S. for failing to prevent the attack.",
+      "HATE CRIME PROSECUTION: The shooter was convicted on federal hate crime charges and 90 state charges, receiving multiple consecutive life sentences.",
+    ],
+    tags: ["El Paso","Mass Shooting","White Supremacy","Hate Crime","Domestic Terrorism"],
+    sources: [
+      { title: "DOJ Hate Crime Indictment", url: "https://www.justice.gov/opa/pr/el-paso-walmart-mass-shooter-pleads-guilty-90-federal-charges", type: "Government" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_e;

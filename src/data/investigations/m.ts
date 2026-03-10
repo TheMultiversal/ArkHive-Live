@@ -250,7 +250,8 @@ const investigations_m: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Coordinated messaging with political figures', href: '/entities/corporations/fox-news' },
  ],
- },  'mass-shootings': {
+ 
+   {
  title: 'Mass Shootings in America',
  subtitle: 'Epidemic of gun violence killing thousands while Congress refuses to act on gun reform',
  severity: 'critical',
@@ -324,7 +325,8 @@ const investigations_m: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Dominion defamation, $787M settlement', href: '/entities/corporations/fox-news' },
  ],
- },  'media-industry-abuse': {
+ 
+   {
  title: 'Media Industry Abuse',
  subtitle: 'Systemic sexual harassment, toxic workplaces, and exploitation of power across news and entertainment media',
  severity: 'critical',
@@ -450,7 +452,8 @@ const investigations_m: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Medical ethics oversight', href: '/entities/agencies/fda' },
  ],
- },  'michael-brown-shooting': {
+ 
+   {
  title: 'Michael Brown Shooting',
  subtitle: 'Ferguson police killing of unarmed Black teenager sparked national protests and exposed systemic racism in policing',
  severity: 'critical',
@@ -1066,6 +1069,84 @@ const investigations_m: Record<string, InvestigationData> = {
 
 
 
+  'medical-misinfo': {
+    title: "Medical Misinformation Crisis",
+    subtitle: "How anti-science movements, quack remedies, and politicized medicine endanger public health",
+    severity: "high",
+    category: "Public Health",
+    date: "January 1, 2019",
+    lastUpdated: "March 10, 2026",
+    summary: "Medical misinformation has become a leading public health threat, from anti-vaccine movements driving measles outbreaks to promotion of unproven treatments during COVID-19. Social media platforms amplify false health claims while legitimate medical expertise is undermined.",
+    content: [
+      "ANTI-VACCINE MOVEMENT: Vaccine hesitancy, fueled by debunked claims, led to measles outbreaks and millions refusing COVID vaccination.",
+      "SOCIAL MEDIA AMPLIFICATION: Health misinformation gets 6x more engagement than accurate health information on social media.",
+      "POLITICIZATION: Medical decisions became partisan — masks, vaccines, and treatments became identity politics rather than science.",
+    ],
+    tags: ["Medical Misinformation","Anti-Vaccine","Public Health","Social Media","COVID-19"],
+    sources: [
+      { title: "Surgeon General Advisory on Misinformation", url: "https://www.hhs.gov/surgeongeneral/priorities/health-misinformation/index.html", type: "Government Report" },
+    ],
+    affiliations: [],
+  },
+  'michael-brown-shooting': {
+    title: "Michael Brown Shooting & Ferguson Uprising",
+    subtitle: "The police killing that ignited a national reckoning on race and policing in America",
+    severity: "critical",
+    category: "Police Violence",
+    date: "August 9, 2014",
+    lastUpdated: "March 10, 2026",
+    summary: "On August 9, 2014, Ferguson police officer Darren Wilson shot and killed 18-year-old Michael Brown. The killing and subsequent non-indictment sparked weeks of protests and a DOJ investigation that exposed systemic racism in Ferguson's police and court system.",
+    content: [
+      "THE SHOOTING: Officer Darren Wilson shot Michael Brown at least 6 times, killing the unarmed 18-year-old. His body lay in the street for over four hours.",
+      "DOJ FERGUSON REPORT: The Department of Justice investigation found Ferguson used its police and courts as a revenue collection system, disproportionately targeting Black residents with fines, fees, and warrants.",
+      "PROTESTS AND MILITARIZATION: The military-grade response to peaceful protesters — armored vehicles, tear gas, rubber bullets — shocked the nation and exposed the militarization of American police.",
+    ],
+    tags: ["Police Shooting","Ferguson","Michael Brown","BLM","DOJ Investigation"],
+    sources: [
+      { title: "DOJ Investigation of Ferguson Police Department", url: "https://www.justice.gov/sites/default/files/opa/press-releases/attachments/2015/03/04/ferguson_police_department_report.pdf", type: "Government Report" },
+    ],
+    affiliations: [],
+  },
+  'mass-shootings': {
+    title: "American Mass Shooting Epidemic",
+    subtitle: "The uniquely American crisis of gun violence claiming thousands of lives while lawmakers refuse to act",
+    severity: "critical",
+    category: "Gun Violence",
+    date: "April 20, 1999",
+    lastUpdated: "March 10, 2026",
+    summary: "The United States experiences more mass shootings than any other developed nation. From Columbine to Uvalde, the pattern repeats: tragedy, grief, political stalemate, inaction. Gun violence kills over 45,000 Americans annually.",
+    content: [
+      "SCALE OF CRISIS: The U.S. has had over 2,000 mass shootings since Sandy Hook (2012). Gun violence kills over 45,000 Americans per year — more than car accidents.",
+      "LEGISLATIVE FAILURE: Despite overwhelming public support for background checks and assault weapon restrictions, Congress has repeatedly failed to pass meaningful gun legislation.",
+      "NRA INFLUENCE: The National Rifle Association spent over $250 million on political activities between 2000-2020, blocking gun safety legislation at federal and state levels.",
+      "UNIQUELY AMERICAN: No other developed nation experiences mass shootings at anywhere near the American rate. Countries that enacted gun control after mass shootings saw dramatic reductions in gun deaths.",
+    ],
+    tags: ["Mass Shootings","Gun Violence","NRA","Gun Control","Public Safety"],
+    sources: [
+      { title: "Gun Violence Archive", url: "https://www.gunviolencearchive.org/", type: "Database" },
+    ],
+    affiliations: [],
+  },
+  'media-industry-abuse': {
+    title: "Media Industry Abuse & Cover-Ups",
+    subtitle: "How media conglomerates enabled abuse, suppressed stories, and protected powerful predators",
+    severity: "high",
+    category: "Media Accountability",
+    date: "October 5, 2017",
+    lastUpdated: "March 10, 2026",
+    summary: "The media industry has a systemic abuse problem. From Harvey Weinstein at Miramax to Roger Ailes at Fox News to Les Moonves at CBS, powerful executives used their positions to sexually harass and assault employees while networks suppressed the stories.",
+    content: [
+      "WEINSTEIN AND NBC: NBC News killed Ronan Farrow's Harvey Weinstein investigation, allowing the New Yorker to break the story instead. NBC's suppression raised questions about protecting powerful figures.",
+      "FOX NEWS CULTURE: Roger Ailes and Bill O'Reilly created a culture of sexual harassment at Fox News, paying tens of millions in settlements while the network covered up the abuse.",
+      "CBS AND LES MOONVES: CBS CEO Les Moonves was accused of sexual harassment by multiple women. The company's board initially defended him before he was forced out.",
+      "WHISTLEBLOWER RETALIATION: Journalists who tried to report on industry abuse faced career destruction, NDAs, and legal threats.",
+    ],
+    tags: ["Media Abuse","Weinstein","Fox News","MeToo","Press Freedom"],
+    sources: [
+      { title: "Farrow, Ronan. Catch and Kill.", url: "https://www.littlebrown.com/titles/ronan-farrow/catch-and-kill/9780316486637/", type: "Book" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_m;

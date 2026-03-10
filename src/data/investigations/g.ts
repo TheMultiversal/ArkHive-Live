@@ -588,7 +588,8 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Market maker influencing trading', href: '/entities/corporations/citadel' },
  { id: '2', name: 'SEC', type: 'agency', relationship: 'Market manipulation investigation', href: '/entities/agencies/sec' },
  ],
- },  'georgia-voter-suppression': {
+ 
+   {
  title: 'Georgia Voter Suppression',
  subtitle: 'Systematic disenfranchisement of Black voters through purges, closures, and restrictive laws in Georgia',
  severity: 'critical',
@@ -658,7 +659,8 @@ const investigations_g: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Flex drivers, warehouse workers', href: '/entities/corporations/amazon-inc' },
  ],
- },  'global-terrorism': {
+ 
+   {
  title: 'Global Terrorism Networks',
  subtitle: 'How state sponsors, intelligence agencies, and geopolitical interests create and sustain terrorist organizations',
  severity: 'critical',
@@ -1008,6 +1010,66 @@ const investigations_g: Record<string, InvestigationData> = {
 
 
 
+  'george-floyd': {
+    title: "George Floyd Murder & Racial Justice Uprising",
+    subtitle: "The police murder that ignited the largest protest movement in American history",
+    severity: "critical",
+    category: "Police Violence",
+    date: "May 25, 2020",
+    lastUpdated: "March 10, 2026",
+    summary: "Minneapolis police officer Derek Chauvin murdered George Floyd by kneeling on his neck for 9 minutes and 29 seconds on May 25, 2020. The killing, captured on video, sparked the largest protest movement in U.S. history with over 20 million participants demanding police reform and racial justice.",
+    content: [
+      "THE MURDER: Chauvin kneeled on Floyd's neck for 9:29 while Floyd said \"I can't breathe\" 27 times. Three other officers assisted or watched.",
+      "THE UPRISING: Protests erupted in all 50 states and 60+ countries. An estimated 15-26 million Americans participated.",
+      "CONVICTIONS: Chauvin was convicted of murder and sentenced to 22.5 years. All four officers were convicted of federal civil rights violations.",
+      "REFORM FAILURE: Despite massive public outcry, federal police reform legislation (the George Floyd Justice in Policing Act) failed to pass the Senate.",
+    ],
+    tags: ["George Floyd","Police Violence","BLM","Racial Justice","Derek Chauvin","Minneapolis"],
+    sources: [
+      { title: "MPD Body Camera Footage", url: "https://www.hennepinattorney.org/floyd", type: "Evidence" },
+      { title: "Court Documents - State v. Chauvin", url: "https://mncourts.gov/state-v-chauvin", type: "Court Document" },
+    ],
+    affiliations: [],
+  },
+  'global-terrorism': {
+    title: "Global Terrorism Networks & State Sponsorship",
+    subtitle: "Tracing the connections between terrorist organizations, state sponsors, and intelligence agencies",
+    severity: "critical",
+    category: "National Security",
+    date: "September 11, 2001",
+    lastUpdated: "March 10, 2026",
+    summary: "Global terrorism networks operate with the tacit or overt support of state sponsors, intelligence agencies, and financial systems. From al-Qaeda to ISIS, the same patterns of blowback, funding, and geopolitical manipulation repeat across decades.",
+    content: [
+      "AL-QAEDA AND CIA BLOWBACK: The CIA funded and armed Afghan mujahideen during the 1980s Soviet war. These fighters became the foundation of al-Qaeda. The September 11 attacks killed 2,977 people.",
+      "ISIS EMERGENCE: The U.S. invasion of Iraq in 2003 destabilized the region, creating the conditions for ISIS to emerge from the remnants of al-Qaeda in Iraq.",
+      "STATE SPONSORSHIP: Multiple nations have been implicated in financing or harboring terrorist groups, including documented Saudi connections to 9/11 hijackers.",
+      "INTELLIGENCE FAILURES: Despite massive surveillance capabilities, intelligence agencies repeatedly failed to prevent major attacks due to bureaucratic silos and political interference.",
+    ],
+    tags: ["Terrorism","al-Qaeda","ISIS","CIA","National Security","9/11"],
+    sources: [
+      { title: "9/11 Commission Report", url: "https://www.9-11commission.gov/report/", type: "Government Report" },
+    ],
+    affiliations: [],
+  },
+  'georgia-voter-suppression': {
+    title: "Georgia Voter Suppression",
+    subtitle: "Systematic disenfranchisement tactics targeting minority voters in Georgia elections",
+    severity: "critical",
+    category: "Election Integrity",
+    date: "November 6, 2018",
+    lastUpdated: "March 10, 2026",
+    summary: "Georgia has been ground zero for voter suppression tactics including exact-match voter purges, polling place closures in minority communities, long wait times, and restrictive voter ID laws that disproportionately affect Black voters.",
+    content: [
+      "BRIAN KEMP PURGES: As Secretary of State overseeing his own gubernatorial race in 2018, Brian Kemp purged over 340,000 voters from rolls and put 53,000 registrations on hold — 70% belonging to Black voters.",
+      "POLLING PLACE CLOSURES: Rural and minority communities saw 214 polling places closed between 2012 and 2018, forcing voters to travel longer distances.",
+      "SB 202: After the 2020 election, Georgia passed SB 202 restricting drop boxes, criminalizing giving food/water to voters in line, and giving the legislature power to take over county election boards.",
+    ],
+    tags: ["Voter Suppression","Georgia","Election Integrity","Voting Rights","Brian Kemp"],
+    sources: [
+      { title: "Brennan Center Voter Purge Analysis", url: "https://www.brennancenter.org/our-work/research-reports/voter-purge-rates-remain-high-analysis-finds", type: "Research" },
+    ],
+    affiliations: [],
+  },
 };
 
 export default investigations_g;
