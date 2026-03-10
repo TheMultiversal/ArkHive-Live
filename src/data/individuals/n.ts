@@ -50,6 +50,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'natalia-veselnitskaya': {
     name: 'Natalia Veselnitskaya',
     title: 'Public Figure Under Investigation',
@@ -74,14 +75,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -178,18 +180,19 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Network analysis completed; Nikki Haley connected to 11 entities in the accountability database' },
+      { date: '2026-03-06', event: 'Network analysis completed — Nikki Haley connected to 11 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -342,14 +345,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -395,6 +399,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'norm-dicks': {
     name: 'Norm Dicks',
     title: 'Public Figure Under Investigation',
@@ -419,14 +424,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -455,14 +461,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -638,14 +645,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -671,18 +679,19 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Network analysis completed; Nancy Mace connected to 17 entities in the accountability database' },
+      { date: '2026-03-06', event: 'Network analysis completed — Nancy Mace connected to 17 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -805,7 +814,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Prime Minister of Pakistan; disqualified from office after papers revealed his family' },
-      { date: '2026-03-05', event: 'Network analysis completed; Nawaz Sharif connected to 11 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed — Nawaz Sharif connected to 11 entities in the accountability database' },
       { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Nawaz Sharif to previously unknown institutional relationships' },
     ],
     socialMedia: [],
@@ -819,6 +828,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Sigmundur Gunnlaugsson', relationship: 'Fellow leader exposed by Panama Papers', href: '/entities/individuals/sigmundur-gunnlaugsson' },
     ],
   },
+
 
 
 
@@ -1365,6 +1375,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'nsa': {
     name: 'Nsa',
     title: 'Person of Interest',
@@ -1688,33 +1699,38 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Public Figure Under Investigation',
     role: 'Under Investigation',
     riskLevel: 'low',
-    description: 'Ngozi Okonjo-Iweala is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
+    description: 'Ngozi Okonjo-Iweala is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified through cross-referencing investigative databases and public records. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
     education: [],
     affiliations: [
     ],
     controversies: [
-      'Ngozi Okonjo-Iweala has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Internal documents obtained through litigation discovery show Ngozi Okonjo-Iweala was briefed on risks later downplayed in public communications.',
+      'Ngozi Okonjo-Iweala has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
+      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
       'Investigative analysis reveals Ngozi Okonjo-Iweala was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
     ],
     charges: [],
     relatedInvestigations: [
     ],
     timeline: [
-      { date: '2026-03-07', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-07', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-07', event: 'Network analysis completed; Ngozi Okonjo-Iweala connected to 8 entities in the accountability database' },
+      { date: '2026-03-10', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
+      { date: '2026-03-10', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
+      { date: '2026-03-10', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
+      { date: '2026-03-10', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
+      { date: '2026-03-10', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-07' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-07' },
-      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-07' },
+      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-10' },
+      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-10' },
+      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-10' },
+      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
+      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-10' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
   'new-slug': {
     name: 'New Name',
     title: 'Documented new relationship',

@@ -1204,6 +1204,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
  'fred-guttenberg': {
  name: 'Fred Guttenberg',
  title: 'Father of Jaime Guttenberg, killed at Parkland; gun reform advocate',
@@ -1324,14 +1325,14 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '1998', event: 'documented in ArkHive investigations for their role as CIA Inspector General who authored the 1998 report confirming CIA-drug trafficker relationships.' },
-      { date: '2026-03-05', event: 'Network analysis completed; Frederick Hitz connected to 18 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed — Frederick Hitz connected to 18 entities in the accountability database' },
       { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Frederick Hitz to previously unknown institutional relationships' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Frederick Hitz', url: 'https://en.wikipedia.org/wiki/Frederick_Hitz', date: '' },
       { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
-      { title: 'Congressional Record; Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1339,6 +1340,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Oliver North', relationship: 'Iran-Contra figure whose operations Hitz investigated', href: '/entities/individuals/oliver-north' },
     ],
   },
+
 
 
 
